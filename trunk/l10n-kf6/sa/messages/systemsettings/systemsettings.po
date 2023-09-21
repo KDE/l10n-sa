@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-16 01:56+0000\n"
+"POT-Creation-Date: 2023-09-19 01:56+0000\n"
 "PO-Revision-Date: 2023-09-19 12:16+0530\n"
 "Last-Translator: Shreekant Kalwar\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,7 +29,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: app/main.cpp:58 app/SettingsBase.cpp:63
+#: app/main.cpp:58 app/SettingsBase.cpp:62
 #, kde-format
 msgid "Info Center"
 msgstr "सूचना केन्द्रम्"
@@ -44,7 +44,7 @@ msgstr "प्रणालीसूचनायाः केन्द्री�
 msgid "(c) 2009, Ben Cooksley"
 msgstr "(c) २००९, बेन् कुक्स्ले"
 
-#: app/main.cpp:69 app/SettingsBase.cpp:66 app/sidebar/qml/introPage.qml:62
+#: app/main.cpp:69 app/SettingsBase.cpp:65 app/sidebar/qml/introPage.qml:62
 #: runner/systemsettingsrunner.cpp:113
 #, kde-format
 msgid "System Settings"
@@ -100,12 +100,12 @@ msgstr "आन्तरिकविभागप्रतिपादनम्, �
 msgid "List all possible modules"
 msgstr "सर्वाणि सम्भाव्यविभागनि सूचीबद्धानि कुर्वन्तु"
 
-#: app/main.cpp:96 app/main.cpp:159
+#: app/main.cpp:96 app/main.cpp:157
 #, kde-format
 msgid "Configuration module to open"
 msgstr "विन्यासविभागम् उद्घाटयितुम्"
 
-#: app/main.cpp:97 app/main.cpp:160
+#: app/main.cpp:97 app/main.cpp:158
 #, kde-format
 msgid "Arguments for the module"
 msgstr "विभागस्य कृते निवेश्य"
@@ -120,46 +120,27 @@ msgstr "निम्नलिखितविभागाः उपलभ्य�
 msgid "No description available"
 msgstr "वर्णनम् नास्ति"
 
-#: app/SettingsBase.cpp:57
+#: app/SettingsBase.cpp:56
 #, kde-format
 msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "अन्वेषण"
 
-#: app/SettingsBase.cpp:150
+#: app/SettingsBase.cpp:149
 #, kde-format
 msgid "Highlight Changed Settings"
 msgstr "परिवर्तित समायोजनानि प्रकटय"
 
-#: app/SettingsBase.cpp:161
-#, kde-format
-msgid "Report a Bug in the Current Page..."
+#: app/SettingsBase.cpp:160
+#, fuzzy, kde-format
+#| msgid "Report a Bug in the Current Page..."
+msgid "Report a Bug in the Current Page…"
 msgstr "वर्तमान पृष्ठे दोषस्य सूचनां ददातु..."
 
-#: app/SettingsBase.cpp:188
+#: app/SettingsBase.cpp:187
 #, kde-format
 msgid "Help"
 msgstr "साहाय्यम्‌"
-
-#: app/SettingsBase.cpp:300
-#, kde-format
-msgid "System Settings was unable to find any views, and hence has nothing to display."
-msgstr "सङ्गणकतन्त्रस्य समायोजनानि किमपि दृश्यं अन्वेष्टुं असमर्थम् आसीत्, अतः प्रदर्शयितुं किमपि नास्ति ।."
-
-#: app/SettingsBase.cpp:301
-#, kde-format
-msgid "No views found"
-msgstr "दृश्याणि न प्राप्तानि"
-
-#: app/SettingsBase.cpp:329
-#, kde-format
-msgid "About Active View"
-msgstr "चालितदृश्ये विषये"
-
-#: app/SettingsBase.cpp:401
-#, kde-format
-msgid "About %1"
-msgstr "%1 इत्यस्य विषये"
 
 #: app/sidebar/qml/CategoriesPage.qml:57
 #, kde-format
@@ -192,12 +173,6 @@ msgstr "पार्श्वपट्टिका"
 msgid "Most Used"
 msgstr "अधिकांशतः प्रयुक्तः"
 
-#. i18n: ectx: label, entry (ActiveView), group (Main)
-#: app/systemsettings.kcfg:9
-#, kde-format
-msgid "Internal name for the view used"
-msgstr "प्रयुक्तदृश्यस्य आन्तर्यिकनाम"
-
 #. i18n: ectx: ToolBar (mainToolBar)
 #: app/systemsettingsui.rc:15
 #, kde-format
@@ -211,12 +186,12 @@ msgid_plural "Contains %1 items"
 msgstr[0] "१ द्रव्यं समाविष्टम् अस्ति"
 msgstr[1] "%1 वस्तूनि समाविष्टानि सन्ति"
 
-#: core/ExternalAppModule.cpp:27
+#: core/ExternalAppModule.cpp:25
 #, kde-format
 msgid "%1 is an external application and has been automatically launched"
 msgstr "%1 बाह्य अनुप्रयोगस्ति च स्वतः स्वयम् याति"
 
-#: core/ExternalAppModule.cpp:28
+#: core/ExternalAppModule.cpp:26
 #, kde-format
 msgid "Relaunch %1"
 msgstr "%1 पुनः प्रारम्भय"
@@ -255,3 +230,22 @@ msgstr ":q: समानानां सङ्गणकतन्त्रस्�
 #, kde-format
 msgid "System Information"
 msgstr "सङ्गणकतन्त्रस्य वर्णन"
+
+#~ msgid ""
+#~ "System Settings was unable to find any views, and hence has nothing to "
+#~ "display."
+#~ msgstr ""
+#~ "सङ्गणकतन्त्रस्य समायोजनानि किमपि दृश्यं अन्वेष्टुं असमर्थम् आसीत्, अतः प्रदर्शयितुं किमपि "
+#~ "नास्ति ।."
+
+#~ msgid "No views found"
+#~ msgstr "दृश्याणि न प्राप्तानि"
+
+#~ msgid "About Active View"
+#~ msgstr "चालितदृश्ये विषये"
+
+#~ msgid "About %1"
+#~ msgstr "%1 इत्यस्य विषये"
+
+#~ msgid "Internal name for the view used"
+#~ msgstr "प्रयुक्तदृश्यस्य आन्तर्यिकनाम"
