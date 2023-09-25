@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-21 01:56+0000\n"
+"POT-Creation-Date: 2023-09-24 01:43+0000\n"
 "PO-Revision-Date: 2023-09-21 23:22+0530\n"
 "Last-Translator: Shreekant Kalwar\n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -36,8 +36,12 @@ msgstr "%1 सञ्चिकायाः स्वामित्वं पर�
 
 #: core/chmodjob.cpp:235
 #, kde-kuit-format
-msgid "Could not modify the ownership of file <filename>%1</filename>. You have insufficient access to the file to perform the change."
-msgstr "<filename>%1</filename> सञ्चिकायाः स्वामित्वं परिवर्तयितुं न शक्तम्। परिवर्तनं कर्तुं भवतः सञ्चिकायाः अपर्याप्तप्रवेशः अस्ति ।."
+msgid ""
+"Could not modify the ownership of file <filename>%1</filename>. You have "
+"insufficient access to the file to perform the change."
+msgstr ""
+"<filename>%1</filename> सञ्चिकायाः स्वामित्वं परिवर्तयितुं न शक्तम्। परिवर्तनं कर्तुं भवतः "
+"सञ्चिकायाः अपर्याप्तप्रवेशः अस्ति ।."
 
 #: core/connectionbackend.cpp:108
 #, kde-format
@@ -46,7 +50,9 @@ msgstr "KIO कार्यकर्ता निर्मातुं असम
 
 #: core/copyjob.cpp:166 kioworkers/file/file_unix.cpp:1257
 #, kde-format
-msgctxt "The first arg is the path to the symlink that couldn't be created, the secondarg is the filesystem type (e.g. vfat, exfat)"
+msgctxt ""
+"The first arg is the path to the symlink that couldn't be created, the "
+"secondarg is the filesystem type (e.g. vfat, exfat)"
 msgid ""
 "Could not create symlink \"%1\".\n"
 "The destination filesystem (%2) doesn't support symlinks."
@@ -58,23 +64,29 @@ msgstr ""
 #, kde-format
 msgid ""
 "Could not create \"%1\".\n"
-"The destination filesystem (%2) disallows the following characters in folder names: %3\n"
-"Selecting Replace will replace any invalid characters (in the destination folder name) with an underscore \"_\"."
+"The destination filesystem (%2) disallows the following characters in folder "
+"names: %3\n"
+"Selecting Replace will replace any invalid characters (in the destination "
+"folder name) with an underscore \"_\"."
 msgstr ""
 "\"%1\" निर्मातुं न शक्तवान् ।\n"
 "गन्तव्यसञ्चिकातन्त्रं (%2) पुटनामेषु निम्नलिखितवर्णान् अस्वीकुर्वति: %3\n"
-"प्रतिस्थापनं चित्वा यत्किमपि अमान्यं वर्णं (गन्तव्यपुटनाम्नि) underscore \"_\" इत्यनेन प्रतिस्थाप्यते ।."
+"प्रतिस्थापनं चित्वा यत्किमपि अमान्यं वर्णं (गन्तव्यपुटनाम्नि) underscore \"_\" इत्यनेन "
+"प्रतिस्थाप्यते ।."
 
 #: core/copyjob.cpp:186
 #, kde-format
 msgid ""
 "Could not create \"%1\".\n"
-"The destination filesystem (%2) disallows the following characters in file names: %3\n"
-"Selecting Replace will replace any invalid characters (in the destination file name) with an underscore \"_\"."
+"The destination filesystem (%2) disallows the following characters in file "
+"names: %3\n"
+"Selecting Replace will replace any invalid characters (in the destination "
+"file name) with an underscore \"_\"."
 msgstr ""
 "\"%1\" निर्मातुं न शक्तवान् ।\n"
 "गन्तव्यसञ्चिकातन्त्रं (%2) सञ्चिकानामसु निम्नलिखितवर्णान् अस्वीकुर्वति: %3\n"
-"प्रतिस्थापनं चित्वा यत्किमपि अमान्यं वर्णं (गन्तव्यपुटनाम्नि) underscore \"_\" इत्यनेन प्रतिस्थाप्यते ।."
+"प्रतिस्थापनं चित्वा यत्किमपि अमान्यं वर्णं (गन्तव्यपुटनाम्नि) underscore \"_\" इत्यनेन "
+"प्रतिस्थाप्यते ।."
 
 #: core/copyjob.cpp:1385 core/job_error.cpp:581
 #, kde-format
@@ -109,8 +121,10 @@ msgstr "'%1' इति कार्यक्रमं न लब्धम् ।
 
 #: core/desktopexecparser.cpp:356
 #, kde-format
-msgid "The program '%1' was found at '%2' but it is missing executable permissions."
-msgstr "'%1' इति कार्यक्रमः '%2' इत्यत्र प्राप्तः परन्तु तस्मिन् कार्यान्वयनीय-अनुमतयः गम्यन्ते ।."
+msgid ""
+"The program '%1' was found at '%2' but it is missing executable permissions."
+msgstr ""
+"'%1' इति कार्यक्रमः '%2' इत्यत्र प्राप्तः परन्तु तस्मिन् कार्यान्वयनीय-अनुमतयः गम्यन्ते ।."
 
 #: core/desktopexecparser.cpp:358
 #, kde-format
@@ -281,8 +295,11 @@ msgstr "गुणं परिवर्तयति"
 
 #: core/job.cpp:266
 #, kde-format
-msgid "Root privileges are required to change file attributes. Do you want to continue?"
-msgstr "सञ्चिकाविशेषतां परिवर्तयितुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
+msgid ""
+"Root privileges are required to change file attributes. Do you want to "
+"continue?"
+msgstr ""
+"सञ्चिकाविशेषतां परिवर्तयितुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: core/job.cpp:270
 #, kde-format
@@ -291,8 +308,11 @@ msgstr "सञ्चिकाः प्रतिलिख्यताम्"
 
 #: core/job.cpp:272
 #, kde-format
-msgid "Root privileges are required to complete the copy operation. Do you want to continue?"
-msgstr "प्रतिलिपिक्रियायाः पूर्णतायै मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
+msgid ""
+"Root privileges are required to complete the copy operation. Do you want to "
+"continue?"
+msgstr ""
+"प्रतिलिपिक्रियायाः पूर्णतायै मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: core/job.cpp:276
 #, kde-format
@@ -301,8 +321,12 @@ msgstr "सञ्चिकाः विलोपयन्तु"
 
 #: core/job.cpp:278
 #, kde-format
-msgid "Root privileges are required to complete the delete operation. However, doing so may damage your system. Do you want to continue?"
-msgstr "विलोपनक्रियायाः पूर्णतायै मूलविशेषाधिकाराः आवश्यकाः सन्ति । परन्तु एवं कृत्वा भवतः सङ्गणकतन्त्रस्य क्षतिः भवितुम् अर्हति । किं त्वं प्रगन्तुं इच्छसि ?"
+msgid ""
+"Root privileges are required to complete the delete operation. However, "
+"doing so may damage your system. Do you want to continue?"
+msgstr ""
+"विलोपनक्रियायाः पूर्णतायै मूलविशेषाधिकाराः आवश्यकाः सन्ति । परन्तु एवं कृत्वा भवतः "
+"सङ्गणकतन्त्रस्य क्षतिः भवितुम् अर्हति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: core/job.cpp:282
 #, kde-format
@@ -311,7 +335,8 @@ msgstr "पुटं निर्मातुम्"
 
 #: core/job.cpp:284
 #, kde-format
-msgid "Root privileges are required to create this folder. Do you want to continue?"
+msgid ""
+"Root privileges are required to create this folder. Do you want to continue?"
 msgstr "एतत् पुटं निर्मातुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: core/job.cpp:288
@@ -321,8 +346,11 @@ msgstr "द्रव्यं स्थानान्तरयितुम्"
 
 #: core/job.cpp:290
 #, kde-format
-msgid "Root privileges are required to complete the move operation. Do you want to continue?"
-msgstr "स्थानान्तरमक्रियायाः पूर्णतायै मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
+msgid ""
+"Root privileges are required to complete the move operation. Do you want to "
+"continue?"
+msgstr ""
+"स्थानान्तरमक्रियायाः पूर्णतायै मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: core/job.cpp:294 kioworkers/file/file_unix.cpp:125
 #, kde-format
@@ -331,7 +359,8 @@ msgstr "नामान्तरम्"
 
 #: core/job.cpp:296
 #, kde-format
-msgid "Root privileges are required to complete renaming. Do you want to continue?"
+msgid ""
+"Root privileges are required to complete renaming. Do you want to continue?"
 msgstr "नामान्तरम् पूर्णं कर्तुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: core/job.cpp:300 filewidgets/knewfilemenu.cpp:625
@@ -342,8 +371,11 @@ msgstr "प्रतीकसम्बद्धम् (Symlink) रचयन्�
 
 #: core/job.cpp:302
 #, kde-format
-msgid "Root privileges are required to create a symlink. Do you want to continue?"
-msgstr "प्रतीकसम्बद्धम् (symlink) निर्मातुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
+msgid ""
+"Root privileges are required to create a symlink. Do you want to continue?"
+msgstr ""
+"प्रतीकसम्बद्धम् (symlink) निर्मातुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं "
+"इच्छसि ?"
 
 #: core/job.cpp:306
 #, kde-format
@@ -352,8 +384,11 @@ msgstr "दत्तांशं स्थानान्तरयन्तु"
 
 #: core/job.cpp:308
 #, kde-format
-msgid "Root privileges are required to complete transferring data. Do you want to continue?"
-msgstr "दत्तांशस्य स्थानान्तरणं पूर्णं कर्तुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
+msgid ""
+"Root privileges are required to complete transferring data. Do you want to "
+"continue?"
+msgstr ""
+"दत्तांशस्य स्थानान्तरणं पूर्णं कर्तुं मूलविशेषाधिकाराः आवश्यकाः सन्ति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: core/job_error.cpp:33
 #, kde-format
@@ -730,7 +765,8 @@ msgstr "POST मध्ये प्रतिबन्धित-द्वार�
 
 #: core/job_error.cpp:233
 #, kde-format
-msgid "The required content size information was not provided for a POST operation."
+msgid ""
+"The required content size information was not provided for a POST operation."
 msgstr "POST-सञ्चालनार्थम् आवश्यका सामग्री-आकार-सूचना न प्रदत्ता आसीत् ।."
 
 #: core/job_error.cpp:236
@@ -756,8 +792,12 @@ msgstr "KIO कार्यकर्तारं निर्मातुं अ
 #: core/job_error.cpp:249
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Cannot transfer <filename>%1</filename> because it is too large. The destination filesystem only supports files up to 4GiB"
-msgstr "<filename>%1</filename> स्थानान्तरयितुं न शक्यते यतः एतत् अतिविशालम् अस्ति । गन्तव्यसञ्चिकातन्त्रं केवलं ४ GiB पर्यन्तं सञ्चिकाः समर्थयति"
+msgid ""
+"Cannot transfer <filename>%1</filename> because it is too large. The "
+"destination filesystem only supports files up to 4GiB"
+msgstr ""
+"<filename>%1</filename> स्थानान्तरयितुं न शक्यते यतः एतत् अतिविशालम् अस्ति । "
+"गन्तव्यसञ्चिकातन्त्रं केवलं ४ GiB पर्यन्तं सञ्चिकाः समर्थयति"
 
 #: core/job_error.cpp:254
 #, kde-format
@@ -846,8 +886,12 @@ msgstr "(अज्ञातम्)"
 
 #: core/job_error.cpp:370
 #, kde-format
-msgid "Contact your appropriate computer support system, whether the system administrator, or technical support group for further assistance."
-msgstr "अग्रे सहाय्यर्थं स्वस्य समुचितसङ्गणकसमर्थनप्रणाल्याः सम्पर्कं कुर्वन्तु, भवेत् तत् प्रणालीप्रशासकं, अथवा तकनीकीसमर्थनसमूहम् ।."
+msgid ""
+"Contact your appropriate computer support system, whether the system "
+"administrator, or technical support group for further assistance."
+msgstr ""
+"अग्रे सहाय्यर्थं स्वस्य समुचितसङ्गणकसमर्थनप्रणाल्याः सम्पर्कं कुर्वन्तु, भवेत् तत् प्रणालीप्रशासकं, "
+"अथवा तकनीकीसमर्थनसमूहम् ।."
 
 #: core/job_error.cpp:374
 #, kde-format
@@ -861,18 +905,25 @@ msgstr "अस्मिन् संसाधने स्वस्य अभि
 
 #: core/job_error.cpp:379
 #, kde-format
-msgid "Your access permissions may be inadequate to perform the requested operation on this resource."
+msgid ""
+"Your access permissions may be inadequate to perform the requested operation "
+"on this resource."
 msgstr "अस्मिन् संसाधने अनुरोधितं कार्यं कर्तुं भवतः अभिगमानुमतिः अपर्याप्तः भवितुम् अर्हति ।."
 
 #: core/job_error.cpp:382
 #, kde-format
-msgid "The file may be in use (and thus locked) by another user or application."
+msgid ""
+"The file may be in use (and thus locked) by another user or application."
 msgstr "सञ्चिका अन्येन उपयोक्ता वा अनुप्रयोगेन वा प्रयुक्ता (एवं च ताडिता) भवितुम् अर्हति ।."
 
 #: core/job_error.cpp:385
 #, kde-format
-msgid "Check to make sure that no other application or user is using the file or has locked the file."
-msgstr "अन्यः कोऽपि अनुप्रयोगः वा उपयोक्ता वा सञ्चिकां न उपयुङ्क्ते वा सञ्चिकां ताडितवान् वा इति सुनिश्चितं कर्तुं परीक्ष्यताम् ।."
+msgid ""
+"Check to make sure that no other application or user is using the file or "
+"has locked the file."
+msgstr ""
+"अन्यः कोऽपि अनुप्रयोगः वा उपयोक्ता वा सञ्चिकां न उपयुङ्क्ते वा सञ्चिकां ताडितवान् वा इति "
+"सुनिश्चितं कर्तुं परीक्ष्यताम् ।."
 
 #: core/job_error.cpp:388
 #, kde-format
@@ -886,18 +937,40 @@ msgstr "भवता कार्यक्रमे दोषः सम्मु
 
 #: core/job_error.cpp:392
 #, kde-format
-msgid "This is most likely to be caused by a bug in the program. Please consider submitting a full bug report as detailed below."
-msgstr "एतत् कार्यक्रमे त्रुटिकारणात् अधिकतया सम्भवति । कृपया अधोलिखितं यथा पूर्णं दोषप्रतिवेदनं प्रस्तूयताम् ।."
+msgid ""
+"This is most likely to be caused by a bug in the program. Please consider "
+"submitting a full bug report as detailed below."
+msgstr ""
+"एतत् कार्यक्रमे त्रुटिकारणात् अधिकतया सम्भवति । कृपया अधोलिखितं यथा पूर्णं दोषप्रतिवेदनं "
+"प्रस्तूयताम् ।."
 
 #: core/job_error.cpp:395
 #, kde-format
-msgid "Update your software to the latest version. Your distribution should provide tools to update your software."
-msgstr "स्वस्य तन्त्रांशम् नवीनतमसंस्करणं प्रति अद्यतनं कुर्वन्तु। भवतः वितरणेन भवतः तन्त्रांशम् अद्यतनीकर्तुं साधनानि प्रदातव्यानि।."
+msgid ""
+"Update your software to the latest version. Your distribution should provide "
+"tools to update your software."
+msgstr ""
+"स्वस्य तन्त्रांशम् नवीनतमसंस्करणं प्रति अद्यतनं कुर्वन्तु। भवतः वितरणेन भवतः तन्त्रांशम् "
+"अद्यतनीकर्तुं साधनानि प्रदातव्यानि।."
 
 #: core/job_error.cpp:398
 #, kde-format
-msgid "When all else fails, please consider helping the KDE team or the third party maintainer of this software by submitting a high quality bug report. If the software is provided by a third party, please contact them directly. Otherwise, first look to see if the same bug has been submitted by someone else by searching at the <a href=\"https://bugs.kde.org/\">KDE bug reporting website</a>. If not, take note of the details given above, and include them in your bug report, along with as many other details as you think might help."
-msgstr "यदा अन्यत् सर्वं विफलं भवति तदा कृपया उच्चगुणवत्तायुक्तं दोषप्रतिवेदनं प्रस्तूय KDE-दलस्य अथवा अस्य तन्त्रांशस्य तृतीयपक्षस्य परिपालकस्य सहायतां कर्तुं विचारयन्तु । यदि तन्त्रांशम् तृतीयपक्षेण प्रदत्तं भवति तर्हि कृपया तेषां प्रत्यक्षतया सम्पर्कं कुर्वन्तु। अन्यथा प्रथमं <a href=\"https://bugs.kde.org/\">KDE दोषनिवेदनजालस्थले</a> इत्यत्र अन्वेषणेन अन्येन अपि स एव दोषः प्रदत्तः वा इति पश्यन्तु । यदि न, तर्हि उपरि दत्तविवरणानि अवलोकयन्तु, अपि च तान् स्वस्य दोषप्रतिवेदने समावेशयन्तु, अन्यैः यावन्तः विवरणानि च भवन्तः मन्यन्ते यत् साहाय्यं कर्तुं शक्नुवन्ति ।."
+msgid ""
+"When all else fails, please consider helping the KDE team or the third party "
+"maintainer of this software by submitting a high quality bug report. If the "
+"software is provided by a third party, please contact them directly. "
+"Otherwise, first look to see if the same bug has been submitted by someone "
+"else by searching at the <a href=\"https://bugs.kde.org/\">KDE bug reporting "
+"website</a>. If not, take note of the details given above, and include them "
+"in your bug report, along with as many other details as you think might help."
+msgstr ""
+"यदा अन्यत् सर्वं विफलं भवति तदा कृपया उच्चगुणवत्तायुक्तं दोषप्रतिवेदनं प्रस्तूय KDE-दलस्य अथवा "
+"अस्य तन्त्रांशस्य तृतीयपक्षस्य परिपालकस्य सहायतां कर्तुं विचारयन्तु । यदि तन्त्रांशम् तृतीयपक्षेण "
+"प्रदत्तं भवति तर्हि कृपया तेषां प्रत्यक्षतया सम्पर्कं कुर्वन्तु। अन्यथा प्रथमं <a href=\"https://"
+"bugs.kde.org/\">KDE दोषनिवेदनजालस्थले</a> इत्यत्र अन्वेषणेन अन्येन अपि स एव दोषः "
+"प्रदत्तः वा इति पश्यन्तु । यदि न, तर्हि उपरि दत्तविवरणानि अवलोकयन्तु, अपि च तान् स्वस्य "
+"दोषप्रतिवेदने समावेशयन्तु, अन्यैः यावन्तः विवरणानि च भवन्तः मन्यन्ते यत् साहाय्यं कर्तुं "
+"शक्नुवन्ति ।."
 
 #: core/job_error.cpp:407
 #, kde-format
@@ -906,12 +979,18 @@ msgstr "भवतः जालसंयोजने समस्या अभव
 
 #: core/job_error.cpp:411
 #, kde-format
-msgid "There may have been a problem with your network configuration. If you have been accessing the Internet with no problems recently, this is unlikely."
-msgstr "भवतः जालविन्यासे समस्या अभवत् स्यात् । यदि भवान् अद्यतनकाले कोऽपि समस्यां विना अन्तर्जालं प्रविशति तर्हि एतत् असम्भाव्यम् ।."
+msgid ""
+"There may have been a problem with your network configuration. If you have "
+"been accessing the Internet with no problems recently, this is unlikely."
+msgstr ""
+"भवतः जालविन्यासे समस्या अभवत् स्यात् । यदि भवान् अद्यतनकाले कोऽपि समस्यां विना अन्तर्जालं "
+"प्रविशति तर्हि एतत् असम्भाव्यम् ।."
 
 #: core/job_error.cpp:415
 #, kde-format
-msgid "There may have been a problem at some point along the network path between the server and this computer."
+msgid ""
+"There may have been a problem at some point along the network path between "
+"the server and this computer."
 msgstr "वितारकस्य अस्य सङ्गणकस्य च मध्ये जालमार्गे कस्मिन्चित् समये समस्या अभवत् स्यात् ।."
 
 #: core/job_error.cpp:417
@@ -951,8 +1030,12 @@ msgstr "पठनाय संसाधनं उद्घाटयितुं 
 
 #: core/job_error.cpp:430
 #, kde-format
-msgid "This means that the contents of the requested file or folder <strong>%1</strong> could not be retrieved, as read access could not be obtained."
-msgstr "अस्य अर्थः अस्ति यत् <strong>%1</strong> याचितसञ्चिकायाः अथवा पुटस्य सामग्रीः पुनः प्राप्तुं न शक्यते स्म, यतः पठन-अनुमतिः प्राप्तुं न शक्यते स्म ।."
+msgid ""
+"This means that the contents of the requested file or folder <strong>%1</"
+"strong> could not be retrieved, as read access could not be obtained."
+msgstr ""
+"अस्य अर्थः अस्ति यत् <strong>%1</strong> याचितसञ्चिकायाः अथवा पुटस्य सामग्रीः पुनः "
+"प्राप्तुं न शक्यते स्म, यतः पठन-अनुमतिः प्राप्तुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:435
 #, kde-format
@@ -966,8 +1049,12 @@ msgstr "लेखनार्थं संसाधनं उद्घाटय�
 
 #: core/job_error.cpp:444
 #, kde-format
-msgid "This means that the file, <strong>%1</strong>, could not be written to as requested, because access with permission to write could not be obtained."
-msgstr "अस्य अर्थः अस्ति यत् <strong>%1</strong> इति सञ्चिका यथा याचितं लिखितुं न शक्यते स्म, यतः लेखनानुमतियुक्ता अभिगमः प्राप्तुं न शक्यते स्म ।."
+msgid ""
+"This means that the file, <strong>%1</strong>, could not be written to as "
+"requested, because access with permission to write could not be obtained."
+msgstr ""
+"अस्य अर्थः अस्ति यत् <strong>%1</strong> इति सञ्चिका यथा याचितं लिखितुं न शक्यते स्म, "
+"यतः लेखनानुमतियुक्ता अभिगमः प्राप्तुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:453
 #, kde-format
@@ -981,13 +1068,24 @@ msgstr "प्रक्रियां प्रारम्भं कर्त�
 
 #: core/job_error.cpp:456
 #, kde-format
-msgid "The program on your computer which provides access to the <strong>%1</strong> protocol could not be found or started. This is usually due to technical reasons."
-msgstr "भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः न लब्धः अथवा आरब्धः । प्रायः तान्त्रिककारणात् एतत् भवति ।."
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol could not be found or started. This is usually due to "
+"technical reasons."
+msgstr ""
+"भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः न लब्धः "
+"अथवा आरब्धः । प्रायः तान्त्रिककारणात् एतत् भवति ।."
 
 #: core/job_error.cpp:461
 #, kde-format
-msgid "The program which provides compatibility with this protocol may not have been updated with your last update of KDE. This can cause the program to be incompatible with the current version and thus not start."
-msgstr "यः कार्यक्रमः अस्य संविदस्य सह संगततां प्रदाति सः भवतः KDE इत्यस्य अन्तिम-अद्यतनेन सह अद्यतनः न अभवत् । एतेन कार्यक्रमः वर्तमानसंस्करणेन सह असङ्गतः भवितुम् अर्हति तथा च आरभ्यते ।."
+msgid ""
+"The program which provides compatibility with this protocol may not have "
+"been updated with your last update of KDE. This can cause the program to be "
+"incompatible with the current version and thus not start."
+msgstr ""
+"यः कार्यक्रमः अस्य संविदस्य सह संगततां प्रदाति सः भवतः KDE इत्यस्य अन्तिम-अद्यतनेन सह "
+"अद्यतनः न अभवत् । एतेन कार्यक्रमः वर्तमानसंस्करणेन सह असङ्गतः भवितुम् अर्हति तथा च आरभ्यते "
+"।."
 
 #: core/job_error.cpp:470
 #, kde-format
@@ -996,8 +1094,12 @@ msgstr "आन्तरिकत्रुटिः"
 
 #: core/job_error.cpp:472
 #, kde-format
-msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has reported an internal error."
-msgstr "भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः आन्तरिकत्रुटिम् निवेदितवान् ।."
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has reported an internal error."
+msgstr ""
+"भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः "
+"आन्तरिकत्रुटिम् निवेदितवान् ।."
 
 #: core/job_error.cpp:480
 #, kde-format
@@ -1006,8 +1108,17 @@ msgstr "अनुचितरूपेण प्रारूपितं सं�
 
 #: core/job_error.cpp:482
 #, kde-format
-msgid "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</strong>ocator (URL) that you entered was not properly formatted. The format of a URL is generally as follows:<blockquote><strong>protocol://user:password@www.example.org:port/folder/filename.extension?query=value</strong></blockquote>"
-msgstr "भवता यत् संविदितस्रोतःसूचिका (Uniform Resource Locator (URL)) प्रविष्टं तत् सम्यक् स्वरूपितं नासीत् । URL इत्यस्य प्रारूपं सामान्यतया निम्नलिखितरूपेण भवति :<blockquote><strong>protocol://user:password@www.example.org:port/folder/filename.extension?query=value</strong></blockquote>"
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
+"strong>ocator (URL) that you entered was not properly formatted. The format "
+"of a URL is generally as follows:<blockquote><strong>protocol://user:"
+"password@www.example.org:port/folder/filename.extension?query=value</"
+"strong></blockquote>"
+msgstr ""
+"भवता यत् संविदितस्रोतःसूचिका (Uniform Resource Locator (URL)) प्रविष्टं तत् सम्यक् "
+"स्वरूपितं नासीत् । URL इत्यस्य प्रारूपं सामान्यतया निम्नलिखितरूपेण भवति :"
+"<blockquote><strong>protocol://user:password@www.example.org:port/folder/"
+"filename.extension?query=value</strong></blockquote>"
 
 #: core/job_error.cpp:491
 #, kde-format
@@ -1016,8 +1127,12 @@ msgstr "असमर्थितः संविद् (Protocol) %1"
 
 #: core/job_error.cpp:493
 #, kde-format
-msgid "The protocol <strong>%1</strong> is not supported by the KDE programs currently installed on this computer."
-msgstr "<strong>%1</strong> इति संविद् सम्प्रति अस्मिन् सङ्गणके संस्थापितैः KDE कार्यक्रमैः समर्थितः नास्ति ।."
+msgid ""
+"The protocol <strong>%1</strong> is not supported by the KDE programs "
+"currently installed on this computer."
+msgstr ""
+"<strong>%1</strong> इति संविद् सम्प्रति अस्मिन् सङ्गणके संस्थापितैः KDE कार्यक्रमैः "
+"समर्थितः नास्ति ।."
 
 #: core/job_error.cpp:496
 #, kde-format
@@ -1026,13 +1141,22 @@ msgstr "अनुरोधितः संविद् समर्थितः 
 
 #: core/job_error.cpp:498
 #, kde-format
-msgid "The versions of the %1 protocol supported by this computer and the server may be incompatible."
-msgstr "अस्मिन् सङ्गणकेन वितारकेन च समर्थितस्य %1 संविदस्य संस्करणाः असङ्गताः भवितुम् अर्हन्ति ।."
+msgid ""
+"The versions of the %1 protocol supported by this computer and the server "
+"may be incompatible."
+msgstr ""
+"अस्मिन् सङ्गणकेन वितारकेन च समर्थितस्य %1 संविदस्य संस्करणाः असङ्गताः भवितुम् अर्हन्ति ।."
 
 #: core/job_error.cpp:502
 #, kde-format
-msgid "You may perform a search on the Internet for a software plugin (called a \"KIO worker\") which supports this protocol. Places to search include <a href=\"https://store.kde.org/\">https://store.kde.org</a>."
-msgstr "भवान् अन्तर्जालस्य तन्त्रांश-प्लगिन् (\"KIO worker\" इति उच्यते) अन्वेषणं कर्तुं शक्नोति यत् एतत् प्रोटोकॉलं समर्थयति । अन्वेषणस्थानेषु <a href=\"https://store.kde.org/\">https://store.kde.org</a> अन्तर्भवति ।."
+msgid ""
+"You may perform a search on the Internet for a software plugin (called a "
+"\"KIO worker\") which supports this protocol. Places to search include <a "
+"href=\"https://store.kde.org/\">https://store.kde.org</a>."
+msgstr ""
+"भवान् अन्तर्जालस्य तन्त्रांश-प्लगिन् (\"KIO worker\" इति उच्यते) अन्वेषणं कर्तुं शक्नोति यत् "
+"एतत् प्रोटोकॉलं समर्थयति । अन्वेषणस्थानेषु <a href=\"https://store.kde.org/\">https://"
+"store.kde.org</a> अन्तर्भवति ।."
 
 #: core/job_error.cpp:510
 #, kde-format
@@ -1046,13 +1170,22 @@ msgstr "संविदः एकः छायाचर संविद् (Filt
 
 #: core/job_error.cpp:513
 #, kde-format
-msgid "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</strong>ocator (URL) that you entered did not refer to a specific resource."
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
+"strong>ocator (URL) that you entered did not refer to a specific resource."
 msgstr "भवता यत् संविदितस्रोतःसूचिका (URL) प्रविष्टं तत् विशिष्टं संसाधनं न निर्दिशति स्म ।."
 
 #: core/job_error.cpp:517
 #, kde-format
-msgid "KDE is able to communicate through a protocol within a protocol; the protocol specified is only for use in such situations, however this is not one of these situations. This is a rare event, and is likely to indicate a programming error."
-msgstr "KDE संविदस्य अन्तः संविदस्य माध्यमेन संवादं कर्तुं समर्थः भवति; निर्दिष्टः संविदः केवलं तादृशेषु परिस्थितिषु उपयोगाय एव, तथापि एषा एतेषु परिस्थितिषु अन्यतमः नास्ति । एषा दुर्लभा घटना अस्ति, तथा च विधिलेखनदोषं सूचयितुं शक्यते ।."
+msgid ""
+"KDE is able to communicate through a protocol within a protocol; the "
+"protocol specified is only for use in such situations, however this is not "
+"one of these situations. This is a rare event, and is likely to indicate a "
+"programming error."
+msgstr ""
+"KDE संविदस्य अन्तः संविदस्य माध्यमेन संवादं कर्तुं समर्थः भवति; निर्दिष्टः संविदः केवलं तादृशेषु "
+"परिस्थितिषु उपयोगाय एव, तथापि एषा एतेषु परिस्थितिषु अन्यतमः नास्ति । एषा दुर्लभा घटना "
+"अस्ति, तथा च विधिलेखनदोषं सूचयितुं शक्यते ।."
 
 #: core/job_error.cpp:525
 #, kde-format
@@ -1061,13 +1194,22 @@ msgstr "असमर्थितं क्रिया: %1"
 
 #: core/job_error.cpp:527
 #, kde-format
-msgid "The requested action is not supported by the KDE program which is implementing the <strong>%1</strong> protocol."
-msgstr "अनुरोधितक्रिया KDE कार्यक्रमेन समर्थिता नास्ति यः <strong>%1</strong> संविदम् कार्यान्वयति ।."
+msgid ""
+"The requested action is not supported by the KDE program which is "
+"implementing the <strong>%1</strong> protocol."
+msgstr ""
+"अनुरोधितक्रिया KDE कार्यक्रमेन समर्थिता नास्ति यः <strong>%1</strong> संविदम् "
+"कार्यान्वयति ।."
 
 #: core/job_error.cpp:531
 #, kde-format
-msgid "This error is very much dependent on the KDE program. The additional information should give you more information than is available to the KDE input/output architecture."
-msgstr "एषा त्रुटिः KDE कार्यक्रमस्य उपरि बहु आश्रिता अस्ति । अतिरिक्तसूचना भवन्तं KDE निवेश/निर्गम स्थापत्यस्य (architecture) उपलब्धापेक्षया अधिका सूचना दातव्या ।."
+msgid ""
+"This error is very much dependent on the KDE program. The additional "
+"information should give you more information than is available to the KDE "
+"input/output architecture."
+msgstr ""
+"एषा त्रुटिः KDE कार्यक्रमस्य उपरि बहु आश्रिता अस्ति । अतिरिक्तसूचना भवन्तं KDE निवेश/"
+"निर्गम स्थापत्यस्य (architecture) उपलब्धापेक्षया अधिका सूचना दातव्या ।."
 
 #: core/job_error.cpp:535
 #, kde-format
@@ -1081,8 +1223,11 @@ msgstr "सञ्चिका अपेक्षिता"
 
 #: core/job_error.cpp:542
 #, kde-format
-msgid "The request expected a file, however the folder <strong>%1</strong> was found instead."
-msgstr "अनुरोधेन सञ्चिका अपेक्षिता, तथापि तस्य स्थाने <strong>%1</strong> इति पुटं प्राप्तम् ।."
+msgid ""
+"The request expected a file, however the folder <strong>%1</strong> was "
+"found instead."
+msgstr ""
+"अनुरोधेन सञ्चिका अपेक्षिता, तथापि तस्य स्थाने <strong>%1</strong> इति पुटं प्राप्तम् ।."
 
 #: core/job_error.cpp:545
 #, kde-format
@@ -1096,8 +1241,11 @@ msgstr "पुटम् अपेक्षितम्"
 
 #: core/job_error.cpp:552
 #, kde-format
-msgid "The request expected a folder, however the file <strong>%1</strong> was found instead."
-msgstr "अनुरोधेन पुटम् अपेक्षितम्, तथापि तस्य स्थाने <strong>%1</strong> इति सञ्चिका प्राप्ता ।."
+msgid ""
+"The request expected a folder, however the file <strong>%1</strong> was "
+"found instead."
+msgstr ""
+"अनुरोधेन पुटम् अपेक्षितम्, तथापि तस्य स्थाने <strong>%1</strong> इति सञ्चिका प्राप्ता ।."
 
 #: core/job_error.cpp:560
 #, kde-format
@@ -1111,7 +1259,9 @@ msgstr "निर्दिष्टा सञ्चिका अथवा पु
 
 #: core/job_error.cpp:572
 #, kde-format
-msgid "The requested file could not be created because a file with the same name already exists."
+msgid ""
+"The requested file could not be created because a file with the same name "
+"already exists."
 msgstr "अनुरोधितसञ्चिका निर्मातुं न शक्यते यतोहि समाननाम्ना सञ्चिका पूर्वमेव अस्ति ।."
 
 #: core/job_error.cpp:575
@@ -1131,7 +1281,9 @@ msgstr "नूतनसञ्चिकायाः कृते वैकल्�
 
 #: core/job_error.cpp:583
 #, kde-format
-msgid "The requested folder could not be created because a folder with the same name already exists."
+msgid ""
+"The requested folder could not be created because a folder with the same "
+"name already exists."
 msgstr "अनुरोधितं पुटं निर्मातुं न शक्यते यतः समाननाम्ना पुटं पूर्वमेव अस्ति ।."
 
 #: core/job_error.cpp:586
@@ -1156,12 +1308,17 @@ msgstr "अज्ञात निमन्त्रक"
 
 #: core/job_error.cpp:594
 #, kde-format
-msgid "An unknown host error indicates that the server with the requested name, <strong>%1</strong>, could not be located on the Internet."
-msgstr "अज्ञात निमन्त्रक-दोषः सूचयति यत् <strong>%1</strong> इति अनुरोधित-नामयुक्तः वितारकः अन्तर्जाल-मध्ये स्थानं प्राप्तुं न शक्तवान् ।."
+msgid ""
+"An unknown host error indicates that the server with the requested name, "
+"<strong>%1</strong>, could not be located on the Internet."
+msgstr ""
+"अज्ञात निमन्त्रक-दोषः सूचयति यत् <strong>%1</strong> इति अनुरोधित-नामयुक्तः वितारकः "
+"अन्तर्जाल-मध्ये स्थानं प्राप्तुं न शक्तवान् ।."
 
 #: core/job_error.cpp:599
 #, kde-format
-msgid "The name that you typed, %1, may not exist: it may be incorrectly typed."
+msgid ""
+"The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr "भवता टङ्कितं नाम %1 न स्यात्: अशुद्धरूपेण टङ्कितं भवितुम् अर्हति ।."
 
 #: core/job_error.cpp:607
@@ -1186,8 +1343,12 @@ msgstr "भवतः खाते निर्दिष्टं संसाध
 
 #: core/job_error.cpp:619 core/job_error.cpp:896 core/job_error.cpp:914
 #, kde-format
-msgid "Retry the request and ensure your authentication details are entered correctly."
-msgstr "अनुरोधस्य पुनः प्रयासं कुर्वन्तु तथा च सुनिश्चितं कुर्वन्तु यत् भवतः प्रमाणीकरणविवरणं सम्यक् प्रविष्टम् अस्ति।."
+msgid ""
+"Retry the request and ensure your authentication details are entered "
+"correctly."
+msgstr ""
+"अनुरोधस्य पुनः प्रयासं कुर्वन्तु तथा च सुनिश्चितं कुर्वन्तु यत् भवतः प्रमाणीकरणविवरणं सम्यक् "
+"प्रविष्टम् अस्ति।."
 
 #: core/job_error.cpp:628
 #, kde-format
@@ -1196,7 +1357,9 @@ msgstr "लेखनअभिगमनः अङ्गीकृतः"
 
 #: core/job_error.cpp:630
 #, kde-format
-msgid "This means that an attempt to write to the file <strong>%1</strong> was rejected."
+msgid ""
+"This means that an attempt to write to the file <strong>%1</strong> was "
+"rejected."
 msgstr "अस्य अर्थः अस्ति यत् <strong>%1</strong> सञ्चिकायां लेखनस्य प्रयासः अङ्गीकृतः ।."
 
 #: core/job_error.cpp:638
@@ -1206,8 +1369,12 @@ msgstr "पुटं प्रविष्टुं असमर्थः"
 
 #: core/job_error.cpp:640
 #, kde-format
-msgid "This means that an attempt to enter (in other words, to open) the requested folder <strong>%1</strong> was rejected."
-msgstr "अस्य अर्थः अस्ति यत् अनुरोधितपुटं <strong>%1</strong> प्रविष्टुं (अन्यशब्देषु उद्घाटयितुं) प्रयासः अङ्गीकृतः ।."
+msgid ""
+"This means that an attempt to enter (in other words, to open) the requested "
+"folder <strong>%1</strong> was rejected."
+msgstr ""
+"अस्य अर्थः अस्ति यत् अनुरोधितपुटं <strong>%1</strong> प्रविष्टुं (अन्यशब्देषु उद्घाटयितुं) "
+"प्रयासः अङ्गीकृतः ।."
 
 #: core/job_error.cpp:648
 #, kde-format
@@ -1221,8 +1388,14 @@ msgstr "प्रोटोकॉल %1 इति सञ्चिकातन्�
 
 #: core/job_error.cpp:651
 #, kde-format
-msgid "This means that a request was made which requires determining the contents of the folder, and the KDE program supporting this protocol is unable to do so."
-msgstr "अस्य अर्थः अस्ति यत् एकः अनुरोधः कृतः यस्य कृते पुटस्य सामग्रीं निर्धारयितुं आवश्यकम् अस्ति, तथा च अस्य संविदस्य समर्थनं कुर्वन् K-कार्यमुखम् वातावरणम् (KDE) कार्यक्रमः तत् कर्तुं असमर्थः अस्ति ।."
+msgid ""
+"This means that a request was made which requires determining the contents "
+"of the folder, and the KDE program supporting this protocol is unable to do "
+"so."
+msgstr ""
+"अस्य अर्थः अस्ति यत् एकः अनुरोधः कृतः यस्य कृते पुटस्य सामग्रीं निर्धारयितुं आवश्यकम् अस्ति, "
+"तथा च अस्य संविदस्य समर्थनं कुर्वन् K-कार्यमुखम् वातावरणम् (KDE) कार्यक्रमः तत् कर्तुं असमर्थः "
+"अस्ति ।."
 
 #: core/job_error.cpp:659
 #, kde-format
@@ -1231,12 +1404,22 @@ msgstr "चक्रीयसङ्केतम् (cyclic link) प्राप
 
 #: core/job_error.cpp:661
 #, kde-format
-msgid "UNIX environments are commonly able to link a file or folder to a separate name and/or location. KDE detected a link or series of links that results in an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to itself."
-msgstr "UNIX वातावरणानि सामान्यतया सञ्चिकां वा पुटं वा पृथक् नाम वा/अथवा स्थानं प्रति सम्बन्ध् स्थापित् कर्तुं समर्थाः भवन्ति । KDE इत्यनेन एकं सम्बन्ध् अथवा सम्बन्ध्-श्रृङ्खला ज्ञातम् यस्य परिणामः अनन्त-पाशः भवति - अर्थात् सञ्चिका (कदाचित् गोलचक्रेण प्रकारेण) स्वयमेव लिङ्क् कृता आसीत् ।."
+msgid ""
+"UNIX environments are commonly able to link a file or folder to a separate "
+"name and/or location. KDE detected a link or series of links that results in "
+"an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to "
+"itself."
+msgstr ""
+"UNIX वातावरणानि सामान्यतया सञ्चिकां वा पुटं वा पृथक् नाम वा/अथवा स्थानं प्रति सम्बन्ध् "
+"स्थापित् कर्तुं समर्थाः भवन्ति । KDE इत्यनेन एकं सम्बन्ध् अथवा सम्बन्ध्-श्रृङ्खला ज्ञातम् यस्य "
+"परिणामः अनन्त-पाशः भवति - अर्थात् सञ्चिका (कदाचित् गोलचक्रेण प्रकारेण) स्वयमेव लिङ्क् कृता "
+"आसीत् ।."
 
 #: core/job_error.cpp:666 core/job_error.cpp:692
 #, kde-format
-msgid "Delete one part of the loop in order that it does not cause an infinite loop, and try again."
+msgid ""
+"Delete one part of the loop in order that it does not cause an infinite "
+"loop, and try again."
 msgstr "अनन्तपाशं न जनयति इति क्रमेण पाशस्य एकं भागं विलोपयन्तु, पुनः प्रयतध्वम् ।."
 
 #: core/job_error.cpp:676
@@ -1261,8 +1444,16 @@ msgstr "प्रतिलिपिकाले चक्रीयसङ्क�
 
 #: core/job_error.cpp:686
 #, kde-format
-msgid "UNIX environments are commonly able to link a file or folder to a separate name and/or location. During the requested copy operation, KDE detected a link or series of links that results in an infinite loop - i.e. the file was (perhaps in a roundabout way) linked to itself."
-msgstr "UNIX वातावरणानि सामान्यतया सञ्चिकां वा पुटं वा पृथक् नाम वा/अथवा स्थानं प्रति सम्बन्ध् स्थापित् कर्तुं समर्थाः भवन्ति । अनुरोधितप्रतिलिपिक्रियायाः समये KDE इत्यनेन एकं सम्बन्ध् अथवा सम्बन्ध् श्रृङ्खला ज्ञातम् यस्य परिणामः अनन्तपाशः भवति - अर्थात् सञ्चिका (कदाचित् गोलचक्रेण प्रकारेण) स्वयमेव सम्बन्ध् स्थापित् कृता आसीत्."
+msgid ""
+"UNIX environments are commonly able to link a file or folder to a separate "
+"name and/or location. During the requested copy operation, KDE detected a "
+"link or series of links that results in an infinite loop - i.e. the file was "
+"(perhaps in a roundabout way) linked to itself."
+msgstr ""
+"UNIX वातावरणानि सामान्यतया सञ्चिकां वा पुटं वा पृथक् नाम वा/अथवा स्थानं प्रति सम्बन्ध् "
+"स्थापित् कर्तुं समर्थाः भवन्ति । अनुरोधितप्रतिलिपिक्रियायाः समये KDE इत्यनेन एकं सम्बन्ध् "
+"अथवा सम्बन्ध् श्रृङ्खला ज्ञातम् यस्य परिणामः अनन्तपाशः भवति - अर्थात् सञ्चिका (कदाचित् "
+"गोलचक्रेण प्रकारेण) स्वयमेव सम्बन्ध् स्थापित् कृता आसीत्."
 
 #: core/job_error.cpp:698
 #, kde-format
@@ -1276,13 +1467,19 @@ msgstr "सॉकेटं (socket) निर्मातुं न शक्त
 
 #: core/job_error.cpp:701
 #, kde-format
-msgid "This is a fairly technical error in which a required device for network communications (a socket) could not be created."
-msgstr "इयं तुल्यरूपेण तान्त्रिकदोषः अस्ति यस्मिन् संजालसञ्चारस्य कृते आवश्यकं यन्त्रं (एकं सॉकेट् (socket)) निर्मातुं न शक्यते स्म ।."
+msgid ""
+"This is a fairly technical error in which a required device for network "
+"communications (a socket) could not be created."
+msgstr ""
+"इयं तुल्यरूपेण तान्त्रिकदोषः अस्ति यस्मिन् संजालसञ्चारस्य कृते आवश्यकं यन्त्रं (एकं सॉकेट् "
+"(socket)) निर्मातुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:704 core/job_error.cpp:853 core/job_error.cpp:866
 #: core/job_error.cpp:877
 #, kde-format
-msgid "The network connection may be incorrectly configured, or the network interface may not be enabled."
+msgid ""
+"The network connection may be incorrectly configured, or the network "
+"interface may not be enabled."
 msgstr "जालसंयोजनं अशुद्धरूपेण विन्यस्तं भवेत्, अथवा जालान्तरफलकं सक्रियं न भवेत् ।."
 
 #: core/job_error.cpp:710
@@ -1292,23 +1489,37 @@ msgstr "वितारकेन सह संयोजनं अङ्गीक
 
 #: core/job_error.cpp:712
 #, kde-format
-msgid "The server <strong>%1</strong> refused to allow this computer to make a connection."
+msgid ""
+"The server <strong>%1</strong> refused to allow this computer to make a "
+"connection."
 msgstr "<strong>%1</strong> वितारक अस्य सङ्गणकस्य संयोजनं कर्तुं न अस्वीकृतवान् ।."
 
 #: core/job_error.cpp:716
 #, kde-format
-msgid "The server, while currently connected to the Internet, may not be configured to allow requests."
-msgstr "वितरक, सम्प्रति अन्तर्जालसङ्गणकेन सह सम्बद्धः सन्, अनुरोधानाम् अनुमन्यतायै विन्यस्तः न भवेत् ।."
+msgid ""
+"The server, while currently connected to the Internet, may not be configured "
+"to allow requests."
+msgstr ""
+"वितरक, सम्प्रति अन्तर्जालसङ्गणकेन सह सम्बद्धः सन्, अनुरोधानाम् अनुमन्यतायै विन्यस्तः न भवेत् ।."
 
 #: core/job_error.cpp:719
 #, kde-format
-msgid "The server, while currently connected to the Internet, may not be running the requested service (%1)."
-msgstr "वितरक, सम्प्रति अन्तर्जालसङ्गणकेन सह सम्बद्धः सन्, अनुरोधितसेवाम् (%1) न चालयति स्यात् ।."
+msgid ""
+"The server, while currently connected to the Internet, may not be running "
+"the requested service (%1)."
+msgstr ""
+"वितरक, सम्प्रति अन्तर्जालसङ्गणकेन सह सम्बद्धः सन्, अनुरोधितसेवाम् (%1) न चालयति स्यात् ।."
 
 #: core/job_error.cpp:723
 #, kde-format
-msgid "A network firewall (a device which restricts Internet requests), either protecting your network or the network of the server, may have intervened, preventing this request."
-msgstr "भवतः जालस्य अथवा सर्वरस्य जालस्य रक्षणं कुर्वन् जाल-अग्निप्रावरणः - network firewall(अन्तर्जाल-अनुरोधं प्रतिबन्धयति इति यन्त्रं) हस्तक्षेपं कृतवान् स्यात्, एतत् अनुरोधं निवारयति."
+msgid ""
+"A network firewall (a device which restricts Internet requests), either "
+"protecting your network or the network of the server, may have intervened, "
+"preventing this request."
+msgstr ""
+"भवतः जालस्य अथवा सर्वरस्य जालस्य रक्षणं कुर्वन् जाल-अग्निप्रावरणः - network "
+"firewall(अन्तर्जाल-अनुरोधं प्रतिबन्धयति इति यन्त्रं) हस्तक्षेपं कृतवान् स्यात्, एतत् अनुरोधं "
+"निवारयति."
 
 #: core/job_error.cpp:730
 #, kde-format
@@ -1317,12 +1528,18 @@ msgstr "वितरकेन सह संयोजनम् अप्रत्
 
 #: core/job_error.cpp:732
 #, kde-format
-msgid "Although a connection was established to <strong>%1</strong>, the connection was closed at an unexpected point in the communication."
-msgstr "यद्यपि <strong>%1</strong> इत्यस्मै संयोजनं स्थापितं तथापि संचारस्य अप्रत्याशितबिन्दौ संयोजनं निरुद्धम् आसीत् ।."
+msgid ""
+"Although a connection was established to <strong>%1</strong>, the connection "
+"was closed at an unexpected point in the communication."
+msgstr ""
+"यद्यपि <strong>%1</strong> इत्यस्मै संयोजनं स्थापितं तथापि संचारस्य अप्रत्याशितबिन्दौ "
+"संयोजनं निरुद्धम् आसीत् ।."
 
 #: core/job_error.cpp:738
 #, kde-format
-msgid "A protocol error may have occurred, causing the server to close the connection as a response to the error."
+msgid ""
+"A protocol error may have occurred, causing the server to close the "
+"connection as a response to the error."
 msgstr "संविद्दोषः जातः स्यात्, येन वितारकः त्रुटिप्रतिक्रियारूपेण संयोजनं पिधायति ।."
 
 #: core/job_error.cpp:744
@@ -1337,13 +1554,25 @@ msgstr "%1 इति संविद् (protocol) छायाचर संव�
 
 #: core/job_error.cpp:747
 #, kde-format
-msgid "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</strong>ocator (URL) that you entered did not refer to a valid mechanism of accessing the specific resource, <strong>%1%2</strong>."
-msgstr "भवता प्रविष्टः एकरूपसंसाधनस्थानकं (URL) विशिष्टसंसाधनं अभिगन्तुं वैधं तन्त्रं न निर्दिशति स्म, <strong>%1%2</strong> ।."
+msgid ""
+"The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
+"strong>ocator (URL) that you entered did not refer to a valid mechanism of "
+"accessing the specific resource, <strong>%1%2</strong>."
+msgstr ""
+"भवता प्रविष्टः एकरूपसंसाधनस्थानकं (URL) विशिष्टसंसाधनं अभिगन्तुं वैधं तन्त्रं न निर्दिशति स्म, "
+"<strong>%1%2</strong> ।."
 
 #: core/job_error.cpp:754
 #, kde-format
-msgid "KDE is able to communicate through a protocol within a protocol. This request specified a protocol be used as such, however this protocol is not capable of such an action. This is a rare event, and is likely to indicate a programming error."
-msgstr "KDE संविद्स्य अन्तः संविद् द्वारा संवादं कर्तुं समर्थः भवति । अस्मिन् अनुरोधेन एकः संविदः निर्दिष्टः यत् तथैव उपयोक्तुं शक्यते तथापि एषः संविदः तादृशं कार्यं कर्तुं समर्थः नास्ति । एषा दुर्लभा घटना अस्ति, विधिलेखनदोषं च सूचयितुं शक्यते ।."
+msgid ""
+"KDE is able to communicate through a protocol within a protocol. This "
+"request specified a protocol be used as such, however this protocol is not "
+"capable of such an action. This is a rare event, and is likely to indicate a "
+"programming error."
+msgstr ""
+"KDE संविद्स्य अन्तः संविद् द्वारा संवादं कर्तुं समर्थः भवति । अस्मिन् अनुरोधेन एकः संविदः "
+"निर्दिष्टः यत् तथैव उपयोक्तुं शक्यते तथापि एषः संविदः तादृशं कार्यं कर्तुं समर्थः नास्ति । एषा "
+"दुर्लभा घटना अस्ति, विधिलेखनदोषं च सूचयितुं शक्यते ।."
 
 #: core/job_error.cpp:762
 #, kde-format
@@ -1357,23 +1586,41 @@ msgstr "यन्त्रं संचादन् कर्तुं न श�
 
 #: core/job_error.cpp:765
 #, kde-format
-msgid "The requested device could not be initialized (\"mounted\"). The reported error was: <strong>%1</strong>"
-msgstr "अनुरोधितं यन्त्रं आरम्भं कर्तुं न शक्तम् (\"संचाद्यते\") । निवेदितः त्रुटिः आसीत् : <strong>%1</strong>"
+msgid ""
+"The requested device could not be initialized (\"mounted\"). The reported "
+"error was: <strong>%1</strong>"
+msgstr ""
+"अनुरोधितं यन्त्रं आरम्भं कर्तुं न शक्तम् (\"संचाद्यते\") । निवेदितः त्रुटिः आसीत् : <strong>%1</"
+"strong>"
 
 #: core/job_error.cpp:769
 #, kde-format
-msgid "The device may not be ready, for example there may be no media in a removable media device (i.e. no CD-ROM in a CD drive), or in the case of a peripheral/portable device, the device may not be correctly connected."
-msgstr "यन्त्रं सज्जं न भवेत्, उदाहरणार्थं हटनीयमाध्यमयन्त्रे माध्यमं नास्ति (अर्थात् CD-ड्राइवे CD-ROM नास्ति), अथवा परिधीय/पोर्टेबलयन्त्रस्य सन्दर्भे यन्त्रं सम्यक् संयोजितं न भवेत्."
+msgid ""
+"The device may not be ready, for example there may be no media in a "
+"removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
+"peripheral/portable device, the device may not be correctly connected."
+msgstr ""
+"यन्त्रं सज्जं न भवेत्, उदाहरणार्थं हटनीयमाध्यमयन्त्रे माध्यमं नास्ति (अर्थात् CD-ड्राइवे CD-ROM "
+"नास्ति), अथवा परिधीय/पोर्टेबलयन्त्रस्य सन्दर्भे यन्त्रं सम्यक् संयोजितं न भवेत्."
 
 #: core/job_error.cpp:774
 #, kde-format
-msgid "You may not have permissions to initialize (\"mount\") the device. On UNIX systems, often system administrator privileges are required to initialize a device."
-msgstr "भवतः यन्त्रस्य आरम्भीकरणाय (\"संचितः\") अनुमतिः न स्यात् । UNIX प्रणालीषु प्रायः यन्त्रस्य आरम्भार्थं प्रणालीप्रशासकविशेषाधिकारस्य आवश्यकता भवति ।."
+msgid ""
+"You may not have permissions to initialize (\"mount\") the device. On UNIX "
+"systems, often system administrator privileges are required to initialize a "
+"device."
+msgstr ""
+"भवतः यन्त्रस्य आरम्भीकरणाय (\"संचितः\") अनुमतिः न स्यात् । UNIX प्रणालीषु प्रायः यन्त्रस्य "
+"आरम्भार्थं प्रणालीप्रशासकविशेषाधिकारस्य आवश्यकता भवति ।."
 
 #: core/job_error.cpp:779
 #, kde-format
-msgid "Check that the device is ready; removable drives must contain media, and portable devices must be connected and powered on.; and try again."
-msgstr "यन्त्रं सज्जं अस्ति वा इति पश्यन्तु; हटनीय-ड्राइव्-मध्ये माध्यमानि भवितुमर्हन्ति, पोर्टेबल-यन्त्राणि च संयोजितानि, चालू च भवेयुः ।; पुनः प्रयासं च कुर्वन्तु।."
+msgid ""
+"Check that the device is ready; removable drives must contain media, and "
+"portable devices must be connected and powered on.; and try again."
+msgstr ""
+"यन्त्रं सज्जं अस्ति वा इति पश्यन्तु; हटनीय-ड्राइव्-मध्ये माध्यमानि भवितुमर्हन्ति, पोर्टेबल-"
+"यन्त्राणि च संयोजितानि, चालू च भवेयुः ।; पुनः प्रयासं च कुर्वन्तु।."
 
 #: core/job_error.cpp:786
 #, kde-format
@@ -1387,18 +1634,32 @@ msgstr "उपकरणं असंचाद्यते कर्तुं न
 
 #: core/job_error.cpp:789
 #, kde-format
-msgid "The requested device could not be uninitialized (\"unmounted\"). The reported error was: <strong>%1</strong>"
-msgstr "अनुरोधितं यन्त्रं अप्रारम्भं (\"असंचादितः\") कर्तुं न शक्यते स्म । निवेदितः त्रुटिः आसीत् : <strong>%1</strong>"
+msgid ""
+"The requested device could not be uninitialized (\"unmounted\"). The "
+"reported error was: <strong>%1</strong>"
+msgstr ""
+"अनुरोधितं यन्त्रं अप्रारम्भं (\"असंचादितः\") कर्तुं न शक्यते स्म । निवेदितः त्रुटिः आसीत् : "
+"<strong>%1</strong>"
 
 #: core/job_error.cpp:793
 #, kde-format
-msgid "The device may be busy, that is, still in use by another application or user. Even such things as having an open browser window on a location on this device may cause the device to remain in use."
-msgstr "यन्त्रं व्यस्तं भवेत् अर्थात् अद्यापि अन्येन अनुप्रयोगेन वा उपयोक्तृणां वा प्रयुक्तम् । अस्मिन् यन्त्रे स्थाने उद्घाटितम् गवेषक-गवाक्ष भवति इत्यादीनि अपि यन्त्रं प्रयुक्तं तिष्ठति ।."
+msgid ""
+"The device may be busy, that is, still in use by another application or "
+"user. Even such things as having an open browser window on a location on "
+"this device may cause the device to remain in use."
+msgstr ""
+"यन्त्रं व्यस्तं भवेत् अर्थात् अद्यापि अन्येन अनुप्रयोगेन वा उपयोक्तृणां वा प्रयुक्तम् । अस्मिन् यन्त्रे "
+"स्थाने उद्घाटितम् गवेषक-गवाक्ष भवति इत्यादीनि अपि यन्त्रं प्रयुक्तं तिष्ठति ।."
 
 #: core/job_error.cpp:798
 #, kde-format
-msgid "You may not have permissions to uninitialize (\"unmount\") the device. On UNIX systems, system administrator privileges are often required to uninitialize a device."
-msgstr "यन्त्रं अप्रारम्भं कर्तुं (\"असंचाद्यते\") भवतः अनुमतिः न स्यात् । UNIX प्रणालीषु प्रायः यन्त्रस्य आरम्भार्थं प्रणालीप्रशासकविशेषाधिकारस्य आवश्यकता भवति ।."
+msgid ""
+"You may not have permissions to uninitialize (\"unmount\") the device. On "
+"UNIX systems, system administrator privileges are often required to "
+"uninitialize a device."
+msgstr ""
+"यन्त्रं अप्रारम्भं कर्तुं (\"असंचाद्यते\") भवतः अनुमतिः न स्यात् । UNIX प्रणालीषु प्रायः "
+"यन्त्रस्य आरम्भार्थं प्रणालीप्रशासकविशेषाधिकारस्य आवश्यकता भवति ।."
 
 #: core/job_error.cpp:803
 #, kde-format
@@ -1412,8 +1673,12 @@ msgstr "संसाधनात् पठितुं न शक्नोति
 
 #: core/job_error.cpp:811
 #, kde-format
-msgid "This means that although the resource, <strong>%1</strong>, was able to be opened, an error occurred while reading the contents of the resource."
-msgstr "अस्य अर्थः अस्ति यत् यद्यपि संसाधनं, <strong>%1</strong>, उद्घाटयितुं समर्थः आसीत् तथापि संसाधनस्य सामग्रीं पठन् दोषः अभवत् ।."
+msgid ""
+"This means that although the resource, <strong>%1</strong>, was able to be "
+"opened, an error occurred while reading the contents of the resource."
+msgstr ""
+"अस्य अर्थः अस्ति यत् यद्यपि संसाधनं, <strong>%1</strong>, उद्घाटयितुं समर्थः आसीत् तथापि "
+"संसाधनस्य सामग्रीं पठन् दोषः अभवत् ।."
 
 #: core/job_error.cpp:815
 #, kde-format
@@ -1427,8 +1692,12 @@ msgstr "संसाधनं प्रति लिखितुं न शक�
 
 #: core/job_error.cpp:830
 #, kde-format
-msgid "This means that although the resource, <strong>%1</strong>, was able to be opened, an error occurred while writing to the resource."
-msgstr "अस्य अर्थः अस्ति यत् यद्यपि संसाधनं, <strong>%1</strong>, उद्घाटयितुं समर्थः आसीत् तथापि संसाधनं प्रति लेखनकाले दोषः अभवत् ।."
+msgid ""
+"This means that although the resource, <strong>%1</strong>, was able to be "
+"opened, an error occurred while writing to the resource."
+msgstr ""
+"अस्य अर्थः अस्ति यत् यद्यपि संसाधनं, <strong>%1</strong>, उद्घाटयितुं समर्थः आसीत् तथापि "
+"संसाधनं प्रति लेखनकाले दोषः अभवत् ।."
 
 #: core/job_error.cpp:833
 #, kde-format
@@ -1447,8 +1716,13 @@ msgstr "बन्धयितुं न शक्तवान्"
 
 #: core/job_error.cpp:849 core/job_error.cpp:862
 #, kde-format
-msgid "This is a fairly technical error in which a required device for network communications (a socket) could not be established to listen for incoming network connections."
-msgstr "इयं तुल्यरूपेण तान्त्रिकदोषः अस्ति यस्मिन् आगच्छन्तं संजालसंयोजनं श्रोतुं जालसञ्चारस्य आवश्यकं यन्त्रं (एकं सॉकेट्) स्थापनं न शक्तम्."
+msgid ""
+"This is a fairly technical error in which a required device for network "
+"communications (a socket) could not be established to listen for incoming "
+"network connections."
+msgstr ""
+"इयं तुल्यरूपेण तान्त्रिकदोषः अस्ति यस्मिन् आगच्छन्तं संजालसंयोजनं श्रोतुं जालसञ्चारस्य आवश्यकं यन्त्रं "
+"(एकं सॉकेट्) स्थापनं न शक्तम्."
 
 #: core/job_error.cpp:860
 #, kde-format
@@ -1462,8 +1736,12 @@ msgstr "संजालसम्बद्धतां स्वीकुर्�
 
 #: core/job_error.cpp:874
 #, kde-format
-msgid "This is a fairly technical error in which an error occurred while attempting to accept an incoming network connection."
-msgstr "इयं तुल्यरूपेण तान्त्रिकदोषः अस्ति यस्मिन् आगच्छन्तं जालसंयोजनं स्वीकुर्वितुं प्रयतमाने त्रुटिः अभवत् ।."
+msgid ""
+"This is a fairly technical error in which an error occurred while attempting "
+"to accept an incoming network connection."
+msgstr ""
+"इयं तुल्यरूपेण तान्त्रिकदोषः अस्ति यस्मिन् आगच्छन्तं जालसंयोजनं स्वीकुर्वितुं प्रयतमाने त्रुटिः अभवत् "
+"।."
 
 #: core/job_error.cpp:879
 #, kde-format
@@ -1477,7 +1755,8 @@ msgstr "प्रवेशं कर्तुं न शक्तवान्: %
 
 #: core/job_error.cpp:886
 #, kde-format
-msgid "An attempt to login to perform the requested operation was unsuccessful."
+msgid ""
+"An attempt to login to perform the requested operation was unsuccessful."
 msgstr "अनुरोधितं कार्यं कर्तुं प्रवेशस्य प्रयासः असफलः अभवत् ।."
 
 #: core/job_error.cpp:902
@@ -1492,8 +1771,12 @@ msgstr "साधनस्य आङ्कनं न शक्यते"
 
 #: core/job_error.cpp:905
 #, kde-format
-msgid "An attempt to determine information about the status of the resource <strong>%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
-msgstr "संसाधनस्य <strong>%1</strong> इत्यस्य स्थितिविषये सूचनां निर्धारयितुं प्रयत्नः, यथा संसाधननाम, प्रकारः, आकारः इत्यादयः, असफलः अभवत् ।."
+msgid ""
+"An attempt to determine information about the status of the resource <strong>"
+"%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
+msgstr ""
+"संसाधनस्य <strong>%1</strong> इत्यस्य स्थितिविषये सूचनां निर्धारयितुं प्रयत्नः, यथा "
+"संसाधननाम, प्रकारः, आकारः इत्यादयः, असफलः अभवत् ।."
 
 #: core/job_error.cpp:910
 #, kde-format
@@ -1558,8 +1841,12 @@ msgstr "सञ्चिकास्थापनं पुनः आरभुं 
 
 #: core/job_error.cpp:957
 #, kde-format
-msgid "The specified request asked that the transfer of file <strong>%1</strong> be resumed at a certain point of the transfer. This was not possible."
-msgstr "निर्दिष्टेन अनुरोधेन <strong>%1</strong> सञ्चिकायाः स्थानान्तरणं स्थानान्तरणस्य कस्मिन्चित् बिन्दौ पुनः आरभ्यत इति पृष्टम् । एतत् सम्भवं नासीत् ।."
+msgid ""
+"The specified request asked that the transfer of file <strong>%1</strong> be "
+"resumed at a certain point of the transfer. This was not possible."
+msgstr ""
+"निर्दिष्टेन अनुरोधेन <strong>%1</strong> सञ्चिकायाः स्थानान्तरणं स्थानान्तरणस्य कस्मिन्चित् "
+"बिन्दौ पुनः आरभ्यत इति पृष्टम् । एतत् सम्भवं नासीत् ।."
 
 #: core/job_error.cpp:962
 #, kde-format
@@ -1588,8 +1875,11 @@ msgstr "संसाधनस्य अनुमतिः परिवर्त�
 
 #: core/job_error.cpp:985
 #, kde-format
-msgid "An attempt to alter the permissions on the specified resource <strong>%1</strong> failed."
-msgstr "निर्दिष्टे संसाधने <strong>%1</strong> इत्यत्र अनुमतिं परिवर्तयितुं प्रयत्नः असफलः अभवत् ।."
+msgid ""
+"An attempt to alter the permissions on the specified resource <strong>%1</"
+"strong> failed."
+msgstr ""
+"निर्दिष्टे संसाधने <strong>%1</strong> इत्यत्र अनुमतिं परिवर्तयितुं प्रयत्नः असफलः अभवत् ।."
 
 #: core/job_error.cpp:993
 #, kde-format
@@ -1598,8 +1888,11 @@ msgstr "संसाधनस्य स्वामित्वं परिव�
 
 #: core/job_error.cpp:995
 #, kde-format
-msgid "An attempt to change the ownership of the specified resource <strong>%1</strong> failed."
-msgstr "निर्दिष्टस्य संसाधनस्य <strong>%1</strong> स्वामित्वं परिवर्तयितुं प्रयत्नः असफलः अभवत् ।."
+msgid ""
+"An attempt to change the ownership of the specified resource <strong>%1</"
+"strong> failed."
+msgstr ""
+"निर्दिष्टस्य संसाधनस्य <strong>%1</strong> स्वामित्वं परिवर्तयितुं प्रयत्नः असफलः अभवत् ।."
 
 #: core/job_error.cpp:1003
 #, kde-format
@@ -1618,8 +1911,12 @@ msgstr "अप्रत्याशित कार्यक्रम समा�
 
 #: core/job_error.cpp:1015
 #, kde-format
-msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has unexpectedly terminated."
-msgstr "भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः अप्रत्याशितरूपेण समाप्तः ।."
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has unexpectedly terminated."
+msgstr ""
+"भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः "
+"अप्रत्याशितरूपेण समाप्तः ।."
 
 #: core/job_error.cpp:1023
 #, kde-format
@@ -1628,8 +1925,12 @@ msgstr "स्मृत्याः बहिः"
 
 #: core/job_error.cpp:1025
 #, kde-format
-msgid "The program on your computer which provides access to the <strong>%1</strong> protocol could not obtain the memory required to continue."
-msgstr "भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः निरन्तरं कर्तुं आवश्यकं स्मृतिं प्राप्तुं न शक्तवान् ।."
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol could not obtain the memory required to continue."
+msgstr ""
+"भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः निरन्तरं "
+"कर्तुं आवश्यकं स्मृतिं प्राप्तुं न शक्तवान् ।."
 
 #: core/job_error.cpp:1034
 #, kde-format
@@ -1638,13 +1939,24 @@ msgstr "अज्ञात प्रतिनिधि निमन्त्र�
 
 #: core/job_error.cpp:1036
 #, kde-format
-msgid "While retrieving information about the specified proxy host, <strong>%1</strong>, an Unknown Host error was encountered. An unknown host error indicates that the requested name could not be located on the Internet."
-msgstr "निर्दिष्टस्य प्रतिनिधि निमन्त्रक <strong>%1</strong> विषये सूचनां पुनः प्राप्तुं, अज्ञात होस्ट् त्रुटिः अभवत् । अज्ञातः होस्ट्-दोषः सूचयति यत् अनुरोधितं नाम अन्तर्जालस्य मध्ये स्थानं न प्राप्तम् ।."
+msgid ""
+"While retrieving information about the specified proxy host, <strong>%1</"
+"strong>, an Unknown Host error was encountered. An unknown host error "
+"indicates that the requested name could not be located on the Internet."
+msgstr ""
+"निर्दिष्टस्य प्रतिनिधि निमन्त्रक <strong>%1</strong> विषये सूचनां पुनः प्राप्तुं, अज्ञात "
+"होस्ट् त्रुटिः अभवत् । अज्ञातः होस्ट्-दोषः सूचयति यत् अनुरोधितं नाम अन्तर्जालस्य मध्ये स्थानं न "
+"प्राप्तम् ।."
 
 #: core/job_error.cpp:1042
 #, kde-format
-msgid "There may have been a problem with your network configuration, specifically your proxy's hostname. If you have been accessing the Internet with no problems recently, this is unlikely."
-msgstr "भवतः संजालविन्यासे समस्या अभवत्, विशेषतः भवतः प्रतिनिधि निमन्त्रक-नाम । यदि भवान् अद्यतनकाले कोऽपि समस्यां विना अन्तर्जालं प्रविशति तर्हि एतत् असम्भाव्यम् ।."
+msgid ""
+"There may have been a problem with your network configuration, specifically "
+"your proxy's hostname. If you have been accessing the Internet with no "
+"problems recently, this is unlikely."
+msgstr ""
+"भवतः संजालविन्यासे समस्या अभवत्, विशेषतः भवतः प्रतिनिधि निमन्त्रक-नाम । यदि भवान् "
+"अद्यतनकाले कोऽपि समस्यां विना अन्तर्जालं प्रविशति तर्हि एतत् असम्भाव्यम् ।."
 
 #: core/job_error.cpp:1046
 #, kde-format
@@ -1658,13 +1970,22 @@ msgstr "प्रमाणीकरणं विफलम्: विधिः %1
 
 #: core/job_error.cpp:1052
 #, kde-format
-msgid "Although you may have supplied the correct authentication details, the authentication failed because the method that the server is using is not supported by the KDE program implementing the protocol %1."
-msgstr "यद्यपि भवान् सम्यक् प्रमाणीकरणविवरणं प्रदत्तवान् स्यात् तथापि प्रमाणीकरणं विफलं यतः वितारकः यत् विधिं प्रयुङ्क्ते तत् %1 संविदम् कार्यान्वितं KDE कार्यक्रमेन समर्थितं नास्ति."
+msgid ""
+"Although you may have supplied the correct authentication details, the "
+"authentication failed because the method that the server is using is not "
+"supported by the KDE program implementing the protocol %1."
+msgstr ""
+"यद्यपि भवान् सम्यक् प्रमाणीकरणविवरणं प्रदत्तवान् स्यात् तथापि प्रमाणीकरणं विफलं यतः "
+"वितारकः यत् विधिं प्रयुङ्क्ते तत् %1 संविदम् कार्यान्वितं KDE कार्यक्रमेन समर्थितं नास्ति."
 
 #: core/job_error.cpp:1058
 #, kde-format
-msgid "Please file a bug at <a href=\"https://bugs.kde.org/\">https://bugs.kde.org/</a> to inform the KDE team of the unsupported authentication method."
-msgstr "कृपया <a href=\"https://bugs.kde.org/\">https://bugs.kde.org/</a> इत्यत्र दोषं निवेदयन्तु यत् KDE दलं असमर्थितप्रमाणीकरणविधिं सूचयन्तु ।."
+msgid ""
+"Please file a bug at <a href=\"https://bugs.kde.org/\">https://bugs.kde.org/"
+"</a> to inform the KDE team of the unsupported authentication method."
+msgstr ""
+"कृपया <a href=\"https://bugs.kde.org/\">https://bugs.kde.org/</a> इत्यत्र दोषं "
+"निवेदयन्तु यत् KDE दलं असमर्थितप्रमाणीकरणविधिं सूचयन्तु ।."
 
 #: core/job_error.cpp:1065
 #, kde-format
@@ -1678,13 +1999,21 @@ msgstr "वितारके आन्तरिकदोषः"
 
 #: core/job_error.cpp:1075
 #, kde-format
-msgid "The program on the server which provides access to the <strong>%1</strong> protocol has reported an internal error: %2."
-msgstr "वितारके यः कार्यक्रमः <strong>%1</strong> प्रोटोकॉलस्य अभिगमनं प्रदाति सः आन्तरिकदोषं निवेदितवान्: %2 ।."
+msgid ""
+"The program on the server which provides access to the <strong>%1</strong> "
+"protocol has reported an internal error: %2."
+msgstr ""
+"वितारके यः कार्यक्रमः <strong>%1</strong> प्रोटोकॉलस्य अभिगमनं प्रदाति सः आन्तरिकदोषं "
+"निवेदितवान्: %2 ।."
 
 #: core/job_error.cpp:1081
 #, kde-format
-msgid "This is most likely to be caused by a bug in the server program. Please consider submitting a full bug report as detailed below."
-msgstr "एतत् वितारक विधिलेखन इत्यस्मिन् दोषेण भवितुं अधिकतया सम्भाव्यते । कृपया अधोलिखितरूपेण पूर्णदोषप्रतिवेदनं प्रस्तूय विचारयन्तु ।."
+msgid ""
+"This is most likely to be caused by a bug in the server program. Please "
+"consider submitting a full bug report as detailed below."
+msgstr ""
+"एतत् वितारक विधिलेखन इत्यस्मिन् दोषेण भवितुं अधिकतया सम्भाव्यते । कृपया अधोलिखितरूपेण "
+"पूर्णदोषप्रतिवेदनं प्रस्तूय विचारयन्तु ।."
 
 #: core/job_error.cpp:1085
 #, kde-format
@@ -1693,8 +2022,12 @@ msgstr "समस्यायाः विषये तेभ्यः सल्
 
 #: core/job_error.cpp:1088
 #, kde-format
-msgid "If you know who the authors of the server software are, submit the bug report directly to them."
-msgstr "यदि भवान् जानाति यत् वितारकतन्त्रांशस्य लेखकाः के सन्ति तर्हि तेभ्यः प्रत्यक्षतया दोषप्रतिवेदनं प्रस्तूयताम् ।."
+msgid ""
+"If you know who the authors of the server software are, submit the bug "
+"report directly to them."
+msgstr ""
+"यदि भवान् जानाति यत् वितारकतन्त्रांशस्य लेखकाः के सन्ति तर्हि तेभ्यः प्रत्यक्षतया "
+"दोषप्रतिवेदनं प्रस्तूयताम् ।."
 
 #: core/job_error.cpp:1093
 #, kde-format
@@ -1703,13 +2036,28 @@ msgstr "समयसमाप्तित्रुटिः"
 
 #: core/job_error.cpp:1095
 #, kde-format
-msgid "Although contact was made with the server, a response was not received within the amount of time allocated for the request as follows:<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout for receiving a response: %2 seconds</li><li>Timeout for accessing proxy servers: %3 seconds</li></ul>Please note that you can alter these timeout settings in the KDE System Settings, by selecting Network Settings -> Connection Preferences."
-msgstr "यद्यपि सर्वरेण सह सम्पर्कः कृतः तथापि अनुरोधाय निर्धारितसमये प्रतिक्रिया न प्राप्ता यथा निम्नलिखितम् ।:<ul><li>संयोजनं स्थापयितुं समयः समाप्तः: %1 सेकण्ड्</li><li>प्रतिक्रियां प्राप्तुं समयः समाप्तः: %2 सेकण्ड्</li><li>प्रतिनिधि वितारकम् प्राप्तुं समयसमाप्तिः: %3 सेकण्ड्</li></ul>कृपया ज्ञातव्यं यत् भवान् KDE System Settings इत्यस्मिन् एतानि समयसमाप्तिसमायोजनानि परिवर्तयितुं शक्नोति, संजालसमायोजनानि -> संयोजनप्राथमिकतानि चित्वा ।."
+msgid ""
+"Although contact was made with the server, a response was not received "
+"within the amount of time allocated for the request as follows:"
+"<ul><li>Timeout for establishing a connection: %1 seconds</li><li>Timeout "
+"for receiving a response: %2 seconds</li><li>Timeout for accessing proxy "
+"servers: %3 seconds</li></ul>Please note that you can alter these timeout "
+"settings in the KDE System Settings, by selecting Network Settings -> "
+"Connection Preferences."
+msgstr ""
+"यद्यपि सर्वरेण सह सम्पर्कः कृतः तथापि अनुरोधाय निर्धारितसमये प्रतिक्रिया न प्राप्ता यथा "
+"निम्नलिखितम् ।:<ul><li>संयोजनं स्थापयितुं समयः समाप्तः: %1 सेकण्ड्</li><li>प्रतिक्रियां "
+"प्राप्तुं समयः समाप्तः: %2 सेकण्ड्</li><li>प्रतिनिधि वितारकम् प्राप्तुं समयसमाप्तिः: %3 "
+"सेकण्ड्</li></ul>कृपया ज्ञातव्यं यत् भवान् KDE System Settings इत्यस्मिन् एतानि "
+"समयसमाप्तिसमायोजनानि परिवर्तयितुं शक्नोति, संजालसमायोजनानि -> संयोजनप्राथमिकतानि "
+"चित्वा ।."
 
 #: core/job_error.cpp:1108
 #, kde-format
 msgid "The server was too busy responding to other requests to respond."
-msgstr "अन्येषां अनुरोधानाम् प्रतिक्रियायां वितारकः अतिव्यस्तः आसीत् यत् प्रतिक्रियां दातुं न शक्नोति स्म ।."
+msgstr ""
+"अन्येषां अनुरोधानाम् प्रतिक्रियायां वितारकः अतिव्यस्तः आसीत् यत् प्रतिक्रियां दातुं न शक्नोति "
+"स्म ।."
 
 #: core/job_error.cpp:1114 core/slavebase.cpp:1504
 #, kde-format
@@ -1718,8 +2066,12 @@ msgstr "अज्ञातत्रुटिः"
 
 #: core/job_error.cpp:1116
 #, kde-format
-msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has reported an unknown error: %2."
-msgstr "भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः अज्ञातदोषं निवेदितवान्: %2 ।."
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has reported an unknown error: %2."
+msgstr ""
+"भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः अज्ञातदोषं "
+"निवेदितवान्: %2 ।."
 
 #: core/job_error.cpp:1126
 #, kde-format
@@ -1728,8 +2080,12 @@ msgstr "अज्ञात व्यवधान"
 
 #: core/job_error.cpp:1128
 #, kde-format
-msgid "The program on your computer which provides access to the <strong>%1</strong> protocol has reported an interruption of an unknown type: %2."
-msgstr "भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः अज्ञातप्रकारस्य व्यत्ययं निवेदितवान्: %2 ।."
+msgid ""
+"The program on your computer which provides access to the <strong>%1</"
+"strong> protocol has reported an interruption of an unknown type: %2."
+msgstr ""
+"भवतः सङ्गणके यः कार्यक्रमः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः "
+"अज्ञातप्रकारस्य व्यत्ययं निवेदितवान्: %2 ।."
 
 #: core/job_error.cpp:1138
 #, kde-format
@@ -1738,8 +2094,13 @@ msgstr "मूलसञ्चिकां विलोपयितुं न श
 
 #: core/job_error.cpp:1140
 #, kde-format
-msgid "The requested operation required the deleting of the original file, most likely at the end of a file move operation. The original file <strong>%1</strong> could not be deleted."
-msgstr "अनुरोधितक्रियायाः कृते मूलसञ्चिकायाः विलोपनस्य आवश्यकता आसीत्, अधिकतया सञ्चिकास्थापनक्रियायाः अन्ते । मूलसञ्चिका <strong>%1</strong> लोपयितुं न शक्यते ।."
+msgid ""
+"The requested operation required the deleting of the original file, most "
+"likely at the end of a file move operation. The original file <strong>%1</"
+"strong> could not be deleted."
+msgstr ""
+"अनुरोधितक्रियायाः कृते मूलसञ्चिकायाः विलोपनस्य आवश्यकता आसीत्, अधिकतया "
+"सञ्चिकास्थापनक्रियायाः अन्ते । मूलसञ्चिका <strong>%1</strong> लोपयितुं न शक्यते ।."
 
 #: core/job_error.cpp:1149
 #, kde-format
@@ -1748,8 +2109,13 @@ msgstr "अस्थायी सञ्चिकां विलोपयित�
 
 #: core/job_error.cpp:1151
 #, kde-format
-msgid "The requested operation required the creation of a temporary file in which to save the new file while being downloaded. This temporary file <strong>%1</strong> could not be deleted."
-msgstr "अनुरोधितक्रियायाः कृते अस्थायीसञ्चिकायाः निर्माणम् आवश्यकम् आसीत् यस्मिन् नूतनसञ्चिकां अवतरणं कुर्वन् रक्षितुं शक्यते स्म । इयं अस्थायीसञ्चिका <strong>%1</strong> लोपयितुं न शक्यते ।."
+msgid ""
+"The requested operation required the creation of a temporary file in which "
+"to save the new file while being downloaded. This temporary file <strong>%1</"
+"strong> could not be deleted."
+msgstr ""
+"अनुरोधितक्रियायाः कृते अस्थायीसञ्चिकायाः निर्माणम् आवश्यकम् आसीत् यस्मिन् नूतनसञ्चिकां अवतरणं "
+"कुर्वन् रक्षितुं शक्यते स्म । इयं अस्थायीसञ्चिका <strong>%1</strong> लोपयितुं न शक्यते ।."
 
 #: core/job_error.cpp:1161
 #, kde-format
@@ -1758,8 +2124,12 @@ msgstr "मूलसञ्चिकायाः नामान्तरणं �
 
 #: core/job_error.cpp:1163
 #, kde-format
-msgid "The requested operation required the renaming of the original file <strong>%1</strong>, however it could not be renamed."
-msgstr "अनुरोधितक्रियायाः कृते मूलसञ्चिकायाः <strong>%1</strong> नामान्तरणस्य आवश्यकता आसीत् तथापि तस्याः नामकरणं कर्तुं न शक्यते स्म ।."
+msgid ""
+"The requested operation required the renaming of the original file <strong>"
+"%1</strong>, however it could not be renamed."
+msgstr ""
+"अनुरोधितक्रियायाः कृते मूलसञ्चिकायाः <strong>%1</strong> नामान्तरणस्य आवश्यकता आसीत् "
+"तथापि तस्याः नामकरणं कर्तुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:1172
 #, kde-format
@@ -1768,8 +2138,12 @@ msgstr "अस्थायीसञ्चिकायाः नामान्�
 
 #: core/job_error.cpp:1174
 #, kde-format
-msgid "The requested operation required the creation of a temporary file <strong>%1</strong>, however it could not be created."
-msgstr "अनुरोधितक्रियायाः कृते अस्थायीसञ्चिकायाः <strong>%1</strong> निर्माणस्य आवश्यकता आसीत् तथापि सा निर्मातुं न शक्यते स्म ।."
+msgid ""
+"The requested operation required the creation of a temporary file <strong>"
+"%1</strong>, however it could not be created."
+msgstr ""
+"अनुरोधितक्रियायाः कृते अस्थायीसञ्चिकायाः <strong>%1</strong> निर्माणस्य आवश्यकता आसीत् "
+"तथापि सा निर्मातुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:1183
 #, kde-format
@@ -1798,13 +2172,23 @@ msgstr "भण्डारणं पूर्णम्"
 
 #: core/job_error.cpp:1198
 #, kde-format
-msgid "The requested file <strong>%1</strong> could not be written to as there is inadequate disk space."
-msgstr "अनुरोधितसञ्चिका <strong>%1</strong> अपर्याप्तस्मृतिस्थानं भवति इति कारणेन लिखितुं न शक्यते स्म ।."
+msgid ""
+"The requested file <strong>%1</strong> could not be written to as there is "
+"inadequate disk space."
+msgstr ""
+"अनुरोधितसञ्चिका <strong>%1</strong> अपर्याप्तस्मृतिस्थानं भवति इति कारणेन लिखितुं न "
+"शक्यते स्म ।."
 
 #: core/job_error.cpp:1202
 #, kde-format
-msgid "Free up enough disk space by 1) deleting unwanted and temporary files; 2) archiving files to removable media storage such as CD-Recordable discs; or 3) obtain more storage capacity."
-msgstr "पर्याप्तं स्मृतिस्थानं मुक्तं कुर्वन्तु : १) अवांछितानां अस्थायी च सञ्चिकानां विलोपनम्; २) सञ्चिकानां संग्रहणं हटनीयमाध्यमभण्डारणं यथा CD-Recordable discs;वा ३) अधिकं भण्डारणक्षमतां प्राप्तुं।."
+msgid ""
+"Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
+"archiving files to removable media storage such as CD-Recordable discs; or "
+"3) obtain more storage capacity."
+msgstr ""
+"पर्याप्तं स्मृतिस्थानं मुक्तं कुर्वन्तु : १) अवांछितानां अस्थायी च सञ्चिकानां विलोपनम्; २) "
+"सञ्चिकानां संग्रहणं हटनीयमाध्यमभण्डारणं यथा CD-Recordable discs;वा ३) अधिकं "
+"भण्डारणक्षमतां प्राप्तुं।."
 
 #: core/job_error.cpp:1209
 #, kde-format
@@ -1813,8 +2197,11 @@ msgstr "स्रोतः गन्तव्यं च सञ्चिकाः
 
 #: core/job_error.cpp:1211
 #, kde-format
-msgid "The operation could not be completed because the source and destination files are the same file."
-msgstr "स्रोतः गन्तव्यसञ्चिका च समाना सञ्चिका इति कारणतः कार्यं सम्पन्नं कर्तुं न शक्यते स्म ।."
+msgid ""
+"The operation could not be completed because the source and destination "
+"files are the same file."
+msgstr ""
+"स्रोतः गन्तव्यसञ्चिका च समाना सञ्चिका इति कारणतः कार्यं सम्पन्नं कर्तुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:1213
 #, kde-format
@@ -1828,8 +2215,11 @@ msgstr "सञ्चिका वा पुटं वा तस्मिन् �
 
 #: core/job_error.cpp:1219
 #, kde-format
-msgid "The operation could not be completed because the source and destination file or folder are the same."
-msgstr "स्रोतः गन्तव्यसञ्चिका वा पुटं वा समानं भवति इति कारणेन कार्यं सम्पन्नं कर्तुं न शक्यते स्म ।."
+msgid ""
+"The operation could not be completed because the source and destination file "
+"or folder are the same."
+msgstr ""
+"स्रोतः गन्तव्यसञ्चिका वा पुटं वा समानं भवति इति कारणेन कार्यं सम्पन्नं कर्तुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:1221
 #, kde-format
@@ -1843,8 +2233,11 @@ msgstr "पुटं तस्मिन् स्वयमेव प्रवि
 
 #: core/job_error.cpp:1233
 #, kde-format
-msgid "The operation could not be completed because the source can not be moved into itself."
-msgstr "स्रोतः स्वयमेव तस्मिन् स्थापयितुं न शक्यते इति कारणतः शल्यक्रिया सम्पन्नं कर्तुं न शक्यते स्म ।."
+msgid ""
+"The operation could not be completed because the source can not be moved "
+"into itself."
+msgstr ""
+"स्रोतः स्वयमेव तस्मिन् स्थापयितुं न शक्यते इति कारणतः शल्यक्रिया सम्पन्नं कर्तुं न शक्यते स्म ।."
 
 #: core/job_error.cpp:1235
 #, kde-format
@@ -1858,8 +2251,12 @@ msgstr "गुप्तशब्दवितारकेन सह संवा�
 
 #: core/job_error.cpp:1241
 #, kde-format
-msgid "The operation could not be completed because the service for requesting passwords (kpasswdserver) couldn't be contacted"
-msgstr "गुप्तशब्दान् अनुरोधयितुं सेवा (kpasswdserver) सम्पर्कं कर्तुं न शक्यते इति कारणेन कार्यं सम्पन्नं कर्तुं न शक्यते स्म"
+msgid ""
+"The operation could not be completed because the service for requesting "
+"passwords (kpasswdserver) couldn't be contacted"
+msgstr ""
+"गुप्तशब्दान् अनुरोधयितुं सेवा (kpasswdserver) सम्पर्कं कर्तुं न शक्यते इति कारणेन कार्यं सम्पन्नं "
+"कर्तुं न शक्यते स्म"
 
 #: core/job_error.cpp:1243
 #, kde-format
@@ -1878,13 +2275,21 @@ msgstr "KIO कार्यकर्ता (Worker) निर्मातुं 
 
 #: core/job_error.cpp:1250
 #, kde-format
-msgid "The KIO worker which provides access to the <strong>%1</strong> protocol could not be started. This is usually due to technical reasons."
-msgstr "KIO कार्यकर्ता (worker) यः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः आरभुं न शक्तवान् । प्रायः तान्त्रिककारणात् एतत् भवति ।."
+msgid ""
+"The KIO worker which provides access to the <strong>%1</strong> protocol "
+"could not be started. This is usually due to technical reasons."
+msgstr ""
+"KIO कार्यकर्ता (worker) यः <strong>%1</strong> संविदस्य अभिगमनं प्रदाति सः आरभुं न "
+"शक्तवान् । प्रायः तान्त्रिककारणात् एतत् भवति ।."
 
 #: core/job_error.cpp:1255
 #, kde-format
-msgid "klauncher could not find or start the plugin which provides the protocol. This means you may have an outdated version of the plugin."
-msgstr "klauncher तत् प्लगिन् अन्वेष्टुं वा आरभुं वा न शक्तवान् यत् संविदम् प्रदाति । अस्य अर्थः अस्ति यत् भवतः प्लगिन् इत्यस्य पुरातनं संस्करणं भवितुम् अर्हति ।."
+msgid ""
+"klauncher could not find or start the plugin which provides the protocol. "
+"This means you may have an outdated version of the plugin."
+msgstr ""
+"klauncher तत् प्लगिन् अन्वेष्टुं वा आरभुं वा न शक्तवान् यत् संविदम् प्रदाति । अस्य अर्थः अस्ति "
+"यत् भवतः प्लगिन् इत्यस्य पुरातनं संस्करणं भवितुम् अर्हति ।."
 
 #: core/job_error.cpp:1261
 #, kde-kuit-format
@@ -1895,13 +2300,21 @@ msgstr "<filename>%1</filename> स्थानान्तरणं कर्�
 #: core/job_error.cpp:1263
 #, kde-kuit-format
 msgctxt "@info"
-msgid "The file <filename>%1</filename> cannot be transferred, because the destination filesystem does not support files that large"
-msgstr "<filename>%1</filename> इति सञ्चिका स्थानान्तरितुं न शक्यते, यतः गन्तव्यसञ्चिकातन्त्रं तावत् विशालानि सञ्चिकाः समर्थयति नास्ति"
+msgid ""
+"The file <filename>%1</filename> cannot be transferred, because the "
+"destination filesystem does not support files that large"
+msgstr ""
+"<filename>%1</filename> इति सञ्चिका स्थानान्तरितुं न शक्यते, यतः गन्तव्यसञ्चिकातन्त्रं "
+"तावत् विशालानि सञ्चिकाः समर्थयति नास्ति"
 
 #: core/job_error.cpp:1266
 #, kde-format
-msgid "Reformat the destination drive to use a filesystem that supports files that large."
-msgstr "एतावत् विशालं सञ्चिकां समर्थयति इति सञ्चिकातन्त्रस्य उपयोगाय गन्तव्य-ड्राइव् पुनः स्वरूपयन्तु ।."
+msgid ""
+"Reformat the destination drive to use a filesystem that supports files that "
+"large."
+msgstr ""
+"एतावत् विशालं सञ्चिकां समर्थयति इति सञ्चिकातन्त्रस्य उपयोगाय गन्तव्य-ड्राइव् पुनः स्वरूपयन्तु "
+"।."
 
 #: core/job_error.cpp:1271
 #, kde-format
@@ -2131,9 +2544,11 @@ msgid "Reload"
 msgstr "पुनः सम्प्रेषयति"
 
 #: filewidgets/kdiroperator.cpp:1956
-#, kde-format
-msgid "New Folder…"
-msgstr "नूतनं पुटम्…"
+#, fuzzy, kde-format
+#| msgctxt "Default name for a new folder"
+#| msgid "New Folder"
+msgid "New Folder..."
+msgstr "नूतनं पुटम्"
 
 #: filewidgets/kdiroperator.cpp:1966 widgets/jobuidelegate.cpp:270
 #: widgets/jobuidelegate.cpp:271 widgets/jobuidelegate.cpp:280
@@ -2357,9 +2772,11 @@ msgid "Root Folder"
 msgstr "मूलपुटम्"
 
 #: filewidgets/kfilecopytomenu.cpp:146
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:menu in Copy To or Move To submenu"
+#| msgid "Browse…"
 msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse…"
+msgid "Browse..."
 msgstr "अन्वेषय…"
 
 #: filewidgets/kfilecopytomenu.cpp:225
@@ -2408,8 +2825,15 @@ msgstr "स्थानप्रविष्टिः सम्पादयत�
 
 #: filewidgets/kfileplaceeditdialog.cpp:78
 #, kde-format
-msgid "<qt>This is the text that will appear in the Places panel.<br /><br />The label should consist of one or two words that will help you remember what this entry refers to. If you do not enter a label, it will be derived from the location's URL.</qt>"
-msgstr "<qt>एषः एव पाठः यः स्थानपटलस्य मध्ये दृश्यते ।<br /><br />नामपत्र एकं वा द्वौ वा शब्दौ भवितुमर्हति येन भवन्तः स्मर्तुं साहाय्यं करिष्यन्ति यत् एषा प्रविष्टिः किं निर्दिशति । यदि भवान् लेबलं न लिखति तर्हि तत् स्थानस्य URL तः उत्पन्नं भविष्यति ।</qt>"
+msgid ""
+"<qt>This is the text that will appear in the Places panel.<br /><br />The "
+"label should consist of one or two words that will help you remember what "
+"this entry refers to. If you do not enter a label, it will be derived from "
+"the location's URL.</qt>"
+msgstr ""
+"<qt>एषः एव पाठः यः स्थानपटलस्य मध्ये दृश्यते ।<br /><br />नामपत्र एकं वा द्वौ वा शब्दौ "
+"भवितुमर्हति येन भवन्तः स्मर्तुं साहाय्यं करिष्यन्ति यत् एषा प्रविष्टिः किं निर्दिशति । यदि "
+"भवान् लेबलं न लिखति तर्हि तत् स्थानस्य URL तः उत्पन्नं भविष्यति ।</qt>"
 
 #: filewidgets/kfileplaceeditdialog.cpp:84
 #, kde-format
@@ -2423,8 +2847,16 @@ msgstr "अत्र वर्णनात्मकं नामपत्रम�
 
 #: filewidgets/kfileplaceeditdialog.cpp:91
 #, kde-format
-msgid "<qt>This is the location associated with the entry. Any valid URL may be used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde.org/pub/kde/stable<br /><br />By clicking on the button next to the text edit box you can browse to an appropriate URL.</qt>"
-msgstr "<qt>एतत् निवेशेन सह सम्बद्धं स्थानम् अस्ति । यत्किमपि वैधं URL उपयोक्तुं शक्यते । यथा :<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde.org/pub/kde/स्थिर<br /><br />पाठसम्पादनपेटिकायाः पार्श्वे स्थितं गण्ड नुत्वा भवान् समुचितं URL अन्वेषय कर्तुं शक्नोति ।.</qt>"
+msgid ""
+"<qt>This is the location associated with the entry. Any valid URL may be "
+"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
+"edit box you can browse to an appropriate URL.</qt>"
+msgstr ""
+"<qt>एतत् निवेशेन सह सम्बद्धं स्थानम् अस्ति । यत्किमपि वैधं URL उपयोक्तुं शक्यते । यथा :<br /"
+"><br />%1<br />http://www.kde.org<br />ftp://ftp.kde.org/pub/kde/स्थिर<br /"
+"><br />पाठसम्पादनपेटिकायाः पार्श्वे स्थितं गण्ड नुत्वा भवान् समुचितं URL अन्वेषय कर्तुं शक्नोति "
+"।.</qt>"
 
 #: filewidgets/kfileplaceeditdialog.cpp:98
 #, kde-format
@@ -2433,8 +2865,12 @@ msgstr "&स्थानम्:"
 
 #: filewidgets/kfileplaceeditdialog.cpp:105
 #, kde-format
-msgid "<qt>This is the icon that will appear in the Places panel.<br /><br />Click on the button to select a different icon.</qt>"
-msgstr "<qt>एतत् चिह्नं यत् स्थानफलके दृश्यते ।<br /><br />भिन्नं चिह्नं चिन्वन्तु इति गण्ड नुदन्तु ।</qt>"
+msgid ""
+"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
+"on the button to select a different icon.</qt>"
+msgstr ""
+"<qt>एतत् चिह्नं यत् स्थानफलके दृश्यते ।<br /><br />भिन्नं चिह्नं चिन्वन्तु इति गण्ड नुदन्तु ।</"
+"qt>"
 
 #: filewidgets/kfileplaceeditdialog.cpp:126
 #, kde-format
@@ -2448,8 +2884,14 @@ msgstr "&केवलं एतस्य अनुप्रयोगस्य �
 
 #: filewidgets/kfileplaceeditdialog.cpp:139
 #, kde-format
-msgid "<qt>Select this setting if you want this entry to show only when using the current application (%1).<br /><br />If this setting is not selected, the entry will be available in all applications.</qt>"
-msgstr "<qt>यदि भवान् इच्छति यत् एतत् निवेशं केवलं वर्तमान-अनुप्रयोगस्य (%1) उपयोगं कुर्वन् एव दर्शयतु इति तर्हि एतत् विकल्पं चिनोतु ।<br /><br />यदि एषः विकल्पः न चयनितः तर्हि सर्वेषु अनुप्रयोगेषु निवेशः उपलब्धः भविष्यति ।</qt>"
+msgid ""
+"<qt>Select this setting if you want this entry to show only when using the "
+"current application (%1).<br /><br />If this setting is not selected, the "
+"entry will be available in all applications.</qt>"
+msgstr ""
+"<qt>यदि भवान् इच्छति यत् एतत् निवेशं केवलं वर्तमान-अनुप्रयोगस्य (%1) उपयोगं कुर्वन् एव दर्शयतु "
+"इति तर्हि एतत् विकल्पं चिनोतु ।<br /><br />यदि एषः विकल्पः न चयनितः तर्हि सर्वेषु "
+"अनुप्रयोगेषु निवेशः उपलब्धः भविष्यति ।</qt>"
 
 #: filewidgets/kfileplacesitem.cpp:185
 #, kde-format
@@ -2640,10 +3082,18 @@ msgstr "अस्मिन् यन्त्रे एकः वा अधि�
 
 #: filewidgets/kfileplacesmodel.cpp:1558
 #, kde-kuit-format
-msgid "One or more files on this device are opened in application <application>\"%2\"</application>."
-msgid_plural "One or more files on this device are opened in following applications: <application>%2</application>."
-msgstr[0] "अस्मिन् यन्त्रे एकः वा अधिकाः सञ्चिकाः अनुप्रयोगे <application>\"%2\"</application> उद्घाटिताः भवन्ति ।."
-msgstr[1] "अस्मिन् यन्त्रे एकः वा अधिकः सञ्चिकाः निम्नलिखित-अनुप्रयोगेषु उद्घाटिताः भवन्ति: <application>%2</application> ।."
+msgid ""
+"One or more files on this device are opened in application <application>"
+"\"%2\"</application>."
+msgid_plural ""
+"One or more files on this device are opened in following applications: "
+"<application>%2</application>."
+msgstr[0] ""
+"अस्मिन् यन्त्रे एकः वा अधिकाः सञ्चिकाः अनुप्रयोगे <application>\"%2\"</application> "
+"उद्घाटिताः भवन्ति ।."
+msgstr[1] ""
+"अस्मिन् यन्त्रे एकः वा अधिकः सञ्चिकाः निम्नलिखित-अनुप्रयोगेषु उद्घाटिताः भवन्ति: "
+"<application>%2</application> ।."
 
 #: filewidgets/kfileplacesmodel.cpp:1561
 #, kde-format
@@ -2735,7 +3185,9 @@ msgstr "चिह्नस्य आकार"
 
 #: filewidgets/kfileplacesview.cpp:1310
 #, kde-format
-msgctxt "@item:inmenu Auto set icon size based on available space inthe Places side-panel"
+msgctxt ""
+"@item:inmenu Auto set icon size based on available space inthe Places side-"
+"panel"
 msgid "Auto Resize"
 msgstr "स्वतः आकारं परिवर्तयतु"
 
@@ -2785,10 +3237,16 @@ msgstr "दूरस्थसञ्चिकाः न स्वीकृता�
 
 #: filewidgets/kfilewidget.cpp:831
 #, kde-format
-msgid "The selected URL uses an unsupported scheme. Please use the following scheme: %2"
-msgid_plural "The selected URL uses an unsupported scheme. Please use one of the following schemes: %2"
-msgstr[0] "चयनितं URL असमर्थितं योजनां उपयुङ्क्ते । कृपया निम्नलिखित योजनायाः उपयोगं कुर्वन्तु: %2"
-msgstr[1] "चयनितं URL असमर्थितं योजनां उपयुङ्क्ते । कृपया निम्नलिखितयोजनासु एकां उपयोगं कुर्वन्तु: %2"
+msgid ""
+"The selected URL uses an unsupported scheme. Please use the following "
+"scheme: %2"
+msgid_plural ""
+"The selected URL uses an unsupported scheme. Please use one of the following "
+"schemes: %2"
+msgstr[0] ""
+"चयनितं URL असमर्थितं योजनां उपयुङ्क्ते । कृपया निम्नलिखित योजनायाः उपयोगं कुर्वन्तु: %2"
+msgstr[1] ""
+"चयनितं URL असमर्थितं योजनां उपयुङ्क्ते । कृपया निम्नलिखितयोजनासु एकां उपयोगं कुर्वन्तु: %2"
 
 #: filewidgets/kfilewidget.cpp:837
 #, kde-format
@@ -2797,8 +3255,13 @@ msgstr "असमर्थित URL योजना"
 
 #: filewidgets/kfilewidget.cpp:853
 #, kde-format
-msgid "More than one folder has been selected and this dialog does not accept folders, so it is not possible to decide which one to enter. Please select only one folder to list it."
-msgstr "एकादशाधिकं पुटं चयनितम् अस्ति तथा च अयं संवादः पुटं न स्वीकुर्वति, अतः कस्य प्रवेशः करणीयः इति निर्णयः कर्तुं न शक्यते । कृपया केवलं एकं पुटं चिनोतु तस्य सूचीं कर्तुं ।."
+msgid ""
+"More than one folder has been selected and this dialog does not accept "
+"folders, so it is not possible to decide which one to enter. Please select "
+"only one folder to list it."
+msgstr ""
+"एकादशाधिकं पुटं चयनितम् अस्ति तथा च अयं संवादः पुटं न स्वीकुर्वति, अतः कस्य प्रवेशः करणीयः "
+"इति निर्णयः कर्तुं न शक्यते । कृपया केवलं एकं पुटं चिनोतु तस्य सूचीं कर्तुं ।."
 
 #: filewidgets/kfilewidget.cpp:855
 #, kde-format
@@ -2807,8 +3270,12 @@ msgstr "एकादशाधिकं पुटं प्रदत्तम्"
 
 #: filewidgets/kfilewidget.cpp:865
 #, kde-format
-msgid "At least one folder and one file has been selected. Selected files will be ignored and the selected folder will be listed"
-msgstr "न्यूनातिन्यूनम् एकं पुटं एकं सञ्चिकां च चयनितम् अस्ति । चयनितसञ्चिकाः उपेक्षिताः भविष्यन्ति, चयनितं पुटं सूचीकृतं भविष्यति"
+msgid ""
+"At least one folder and one file has been selected. Selected files will be "
+"ignored and the selected folder will be listed"
+msgstr ""
+"न्यूनातिन्यूनम् एकं पुटं एकं सञ्चिकां च चयनितम् अस्ति । चयनितसञ्चिकाः उपेक्षिताः भविष्यन्ति, "
+"चयनितं पुटं सूचीकृतं भविष्यति"
 
 #: filewidgets/kfilewidget.cpp:866
 #, kde-format
@@ -2827,8 +3294,13 @@ msgstr "सञ्चिकां उद्घाटयितुं न शक्
 
 #: filewidgets/kfilewidget.cpp:1211
 #, kde-format
-msgid "<qt>Click this button to enter the parent folder.<br /><br />For instance, if the current location is file:/home/konqi clicking this button will take you to file:/home.</qt>"
-msgstr "<qt>मातृपुटं प्रविष्टुं एतत् बटनं नुदन्तु।<br /><br />उदाहरणार्थं, यदि वर्तमानस्थानं file:/home/konqi अस्ति तर्हि एतत् गण्डम् क्लिक् कृत्वा भवान् file:/home इत्यत्र नेष्यति।</qt>"
+msgid ""
+"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
+"if the current location is file:/home/konqi clicking this button will take "
+"you to file:/home.</qt>"
+msgstr ""
+"<qt>मातृपुटं प्रविष्टुं एतत् बटनं नुदन्तु।<br /><br />उदाहरणार्थं, यदि वर्तमानस्थानं file:/"
+"home/konqi अस्ति तर्हि एतत् गण्डम् क्लिक् कृत्वा भवान् file:/home इत्यत्र नेष्यति।</qt>"
 
 #: filewidgets/kfilewidget.cpp:1215
 #, kde-format
@@ -2867,8 +3339,17 @@ msgstr "विकल्पाः"
 
 #: filewidgets/kfilewidget.cpp:1239
 #, kde-format
-msgid "<qt>This is the preferences menu for the file dialog. Various options can be accessed from this menu including: <ul><li>how files are sorted in the list</li><li>types of view, including icon and list</li><li>showing of hidden files</li><li>the Places panel</li><li>file previews</li><li>separating folders from files</li></ul></qt>"
-msgstr "<qt>एतत् सञ्चिकासंवादस्य प्राधान्यमेनू अस्ति । अस्मात् मेन्यूतः विविधाः विकल्पाः प्राप्तुं शक्यन्ते यथा- <ul><li>सूचीयां सञ्चिकाः कथं क्रमबद्धाः भवन्ति</li><li>दृश्यस्य प्रकाराः, चिह्नं सूची च सहितम्</li><li>गुप्तसञ्चिकानां प्रदर्शनम्</li><li>स्थानपटलम्</li><li>सञ्चिकापूर्वावलोकनम्</li><li>सञ्चिकाभ्यः पुटं पृथक् कुर्वन्</li></ul></qt>"
+msgid ""
+"<qt>This is the preferences menu for the file dialog. Various options can be "
+"accessed from this menu including: <ul><li>how files are sorted in the list</"
+"li><li>types of view, including icon and list</li><li>showing of hidden "
+"files</li><li>the Places panel</li><li>file previews</li><li>separating "
+"folders from files</li></ul></qt>"
+msgstr ""
+"<qt>एतत् सञ्चिकासंवादस्य प्राधान्यमेनू अस्ति । अस्मात् मेन्यूतः विविधाः विकल्पाः प्राप्तुं "
+"शक्यन्ते यथा- <ul><li>सूचीयां सञ्चिकाः कथं क्रमबद्धाः भवन्ति</li><li>दृश्यस्य प्रकाराः, "
+"चिह्नं सूची च सहितम्</li><li>गुप्तसञ्चिकानां प्रदर्शनम्</li><li>स्थानपटलम्</"
+"li><li>सञ्चिकापूर्वावलोकनम्</li><li>सञ्चिकाभ्यः पुटं पृथक् कुर्वन्</li></ul></qt>"
 
 #: filewidgets/kfilewidget.cpp:1258
 #, kde-format
@@ -2877,8 +3358,16 @@ msgstr "पुस्तकचिह्नम्"
 
 #: filewidgets/kfilewidget.cpp:1262
 #, kde-format
-msgid "<qt>This button allows you to bookmark specific locations. Click on this button to open the bookmark menu where you may add, edit or select a bookmark.<br /><br />These bookmarks are specific to the file dialog, but otherwise operate like bookmarks elsewhere in KDE.</qt>"
-msgstr "<qt>एतत् गण्ड भवन्तं विशिष्टस्थानानि पुस्तकचिह्नं कर्तुं शक्नोति । पुस्तकचिह्नमेनू उद्घाटयितुं अस्मिन् गण्ड नुदन्तु यत्र भवान् पुस्तकचिह्नं योजयितुं, सम्पादयितुं वा चयनं कर्तुं वा शक्नोति ।<br /><br />एते पुस्तकचिह्नानि सञ्चिकासंवादस्य विशिष्टानि सन्ति, परन्तु अन्यथा KDE मध्ये अन्यत्र पुस्तकचिह्नवत् कार्यं कुर्वन्ति ।</qt>"
+msgid ""
+"<qt>This button allows you to bookmark specific locations. Click on this "
+"button to open the bookmark menu where you may add, edit or select a "
+"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
+"otherwise operate like bookmarks elsewhere in KDE.</qt>"
+msgstr ""
+"<qt>एतत् गण्ड भवन्तं विशिष्टस्थानानि पुस्तकचिह्नं कर्तुं शक्नोति । पुस्तकचिह्नमेनू उद्घाटयितुं "
+"अस्मिन् गण्ड नुदन्तु यत्र भवान् पुस्तकचिह्नं योजयितुं, सम्पादयितुं वा चयनं कर्तुं वा शक्नोति ।<br /"
+"><br />एते पुस्तकचिह्नानि सञ्चिकासंवादस्य विशिष्टानि सन्ति, परन्तु अन्यथा KDE मध्ये अन्यत्र "
+"पुस्तकचिह्नवत् कार्यं कुर्वन्ति ।</qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: filewidgets/kfilewidget.cpp:1301 widgets/kpropertiesdesktopbase.ui:25
@@ -2888,8 +3377,15 @@ msgstr "&नामः:"
 
 #: filewidgets/kfilewidget.cpp:1377
 #, kde-format
-msgid "<qt>While typing in the text area, you may be presented with possible matches. This feature can be controlled by clicking with the right mouse button and selecting a preferred mode from the <b>Text Completion</b> menu.</qt>"
-msgstr "<qt>पाठक्षेत्रे टङ्कयन् भवद्भ्यः सम्भाव्यमेलनानि प्रस्तुतानि भवितुम् अर्हन्ति । दक्षिणमूषकगण्डेण् क्लिक् कृत्वा <b>Text Completion</b> मेन्यूतः प्राधान्यं दशाम् चित्वा एतत् विशेषता नियन्त्रयितुं शक्यते ।</qt>"
+msgid ""
+"<qt>While typing in the text area, you may be presented with possible "
+"matches. This feature can be controlled by clicking with the right mouse "
+"button and selecting a preferred mode from the <b>Text Completion</b> menu.</"
+"qt>"
+msgstr ""
+"<qt>पाठक्षेत्रे टङ्कयन् भवद्भ्यः सम्भाव्यमेलनानि प्रस्तुतानि भवितुम् अर्हन्ति । दक्षिणमूषकगण्डेण् "
+"क्लिक् कृत्वा <b>Text Completion</b> मेन्यूतः प्राधान्यं दशाम् चित्वा एतत् विशेषता "
+"नियन्त्रयितुं शक्यते ।</qt>"
 
 #: filewidgets/kfilewidget.cpp:1384
 #, kde-format
@@ -2898,8 +3394,12 @@ msgstr "एतत् सञ्चिकां यथा रक्षितुं
 
 #: filewidgets/kfilewidget.cpp:1387
 #, kde-format
-msgid "This is the list of files to open. More than one file can be specified by listing several files, separated by spaces."
-msgstr "एषा उद्घाटनीयानां सञ्चिकानां सूची अस्ति । एकादशाधिकसञ्चिकाः निर्दिष्टुं शक्यन्ते अनेकाः सञ्चिकाः सूचीकृत्य, रिक्तस्थानैः पृथक्कृताः ।."
+msgid ""
+"This is the list of files to open. More than one file can be specified by "
+"listing several files, separated by spaces."
+msgstr ""
+"एषा उद्घाटनीयानां सञ्चिकानां सूची अस्ति । एकादशाधिकसञ्चिकाः निर्दिष्टुं शक्यन्ते अनेकाः "
+"सञ्चिकाः सूचीकृत्य, रिक्तस्थानैः पृथक्कृताः ।."
 
 #: filewidgets/kfilewidget.cpp:1392
 #, kde-format
@@ -2975,8 +3475,29 @@ msgstr "उपयुक्तः विस्तारः"
 
 #: filewidgets/kfilewidget.cpp:2331
 #, kde-format
-msgid "This option enables some convenient features for saving files with extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area will be updated if you change the file type to save in.<br /><br /></li><li>If no extension is specified in the <b>%2</b> text area when you click <b>Save</b>, %3 will be added to the end of the filename (if the filename does not already exist). This extension is based on the file type that you have chosen to save in.<br /><br />If you do not want KDE to supply an extension for the filename, you can either turn this option off or you can suppress it by adding a period (.) to the end of the filename (the period will be automatically removed).</li></ol>If unsure, keep this option enabled as it makes your files more manageable."
-msgstr "एषः विकल्पः विस्तारयुक्तानां सञ्चिकानां रक्षणार्थं केचन सुविधाजनकाः विशेषताः सक्षमं करोति:<br /><ol><li><b>%1</b> पाठक्षेत्रे निर्दिष्टः कोऽपि विस्तारः अद्यतनः भविष्यति यदि भवान् रक्षितुम् सञ्चिकाप्रकारं परिवर्तयति ।<br /><br /></li><li>यदि <b>%2</b> पाठक्षेत्रे कोऽपि विस्तारः निर्दिष्टः यदा भवान् <b>रक्षतु</b> नुदति तदा %3 सञ्चिकानामस्य अन्ते योजितः भविष्यति (यदि सञ्चिकानाम पूर्वमेव नास्ति) । एषः विस्तारः भवता यस्मिन् सञ्चिकाप्रकारे रक्षितुं चितः तस्य आधारेण भवति ।<br /><br />यदि भवान् न इच्छति यत् KDE सञ्चिकानामस्य विस्तारं आपूर्तिं करोतु तर्हि भवान् एतत् विकल्पं निष्क्रियं कर्तुं शक्नोति अथवा सञ्चिकानामस्य अन्ते बिन्दुं (.) योजयित्वा दमनं कर्तुं शक्नोति (बिन्दुः स्वयमेव निष्कासितः भविष्यति)।</li></ol>यदि अनिश्चितः अस्ति तर्हि एतत् विकल्पं सक्षमं कुर्वन्तु यतः एतेन भवतः सञ्चिकाः अधिकं प्रबन्धनीयाः भवन्ति ।."
+msgid ""
+"This option enables some convenient features for saving files with "
+"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br /><br /></"
+"li><li>If no extension is specified in the <b>%2</b> text area when you "
+"click <b>Save</b>, %3 will be added to the end of the filename (if the "
+"filename does not already exist). This extension is based on the file type "
+"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
+"an extension for the filename, you can either turn this option off or you "
+"can suppress it by adding a period (.) to the end of the filename (the "
+"period will be automatically removed).</li></ol>If unsure, keep this option "
+"enabled as it makes your files more manageable."
+msgstr ""
+"एषः विकल्पः विस्तारयुक्तानां सञ्चिकानां रक्षणार्थं केचन सुविधाजनकाः विशेषताः सक्षमं करोति:"
+"<br /><ol><li><b>%1</b> पाठक्षेत्रे निर्दिष्टः कोऽपि विस्तारः अद्यतनः भविष्यति यदि "
+"भवान् रक्षितुम् सञ्चिकाप्रकारं परिवर्तयति ।<br /><br /></li><li>यदि <b>%2</b> "
+"पाठक्षेत्रे कोऽपि विस्तारः निर्दिष्टः यदा भवान् <b>रक्षतु</b> नुदति तदा %3 सञ्चिकानामस्य "
+"अन्ते योजितः भविष्यति (यदि सञ्चिकानाम पूर्वमेव नास्ति) । एषः विस्तारः भवता यस्मिन् "
+"सञ्चिकाप्रकारे रक्षितुं चितः तस्य आधारेण भवति ।<br /><br />यदि भवान् न इच्छति यत् KDE "
+"सञ्चिकानामस्य विस्तारं आपूर्तिं करोतु तर्हि भवान् एतत् विकल्पं निष्क्रियं कर्तुं शक्नोति अथवा "
+"सञ्चिकानामस्य अन्ते बिन्दुं (.) योजयित्वा दमनं कर्तुं शक्नोति (बिन्दुः स्वयमेव निष्कासितः "
+"भविष्यति)।</li></ol>यदि अनिश्चितः अस्ति तर्हि एतत् विकल्पं सक्षमं कुर्वन्तु यतः एतेन भवतः "
+"सञ्चिकाः अधिकं प्रबन्धनीयाः भवन्ति ।."
 
 #: filewidgets/kfilewidget.cpp:2783
 #, kde-format
@@ -2985,8 +3506,12 @@ msgstr "&सञ्चिकाप्रकारः:"
 
 #: filewidgets/kfilewidget.cpp:2784
 #, kde-format
-msgid "<qt>This is the file type selector. It is used to select the format that the file will be saved as.</qt>"
-msgstr "<qt>एषः सञ्चिकाप्रकारचयनकः अस्ति । सञ्चिका यस्मिन् प्रारूपे रक्षिता भविष्यति तस्य चयनार्थं तस्य उपयोगः भवति ।.</qt>"
+msgid ""
+"<qt>This is the file type selector. It is used to select the format that the "
+"file will be saved as.</qt>"
+msgstr ""
+"<qt>एषः सञ्चिकाप्रकारचयनकः अस्ति । सञ्चिका यस्मिन् प्रारूपे रक्षिता भविष्यति तस्य चयनार्थं "
+"तस्य उपयोगः भवति ।.</qt>"
 
 #: filewidgets/kfilewidget.cpp:2786
 #, kde-format
@@ -2995,8 +3520,16 @@ msgstr "&छानकाः:"
 
 #: filewidgets/kfilewidget.cpp:2788
 #, kde-format
-msgid "<qt>This is the filter to apply to the file list. File names that do not match the filter will not be shown.<p>You may select from one of the preset filters in the drop down menu, or you may enter a custom filter directly into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
-msgstr "<qt>एतत् सञ्चिकासूचौ प्रयोक्तुं शोधक अस्ति । सञ्चिकानामानि शोधकेन सह न सङ्गतानि न दर्शितानि भविष्यन्ति ।<p>भवन्तः विकल्पसूचि मध्ये पूर्वनिर्धारित-छिद्रकेषु एकस्मात् चयनं कर्तुं शक्नुवन्ति, अथवा भवन्तः प्रत्यक्षतया पाठक्षेत्रे इष्ट-छिद्रकं प्रविष्टुं शक्नुवन्ति ।</p><p>* तथा ? अनुमताः सन्ति।</p></qt>"
+msgid ""
+"<qt>This is the filter to apply to the file list. File names that do not "
+"match the filter will not be shown.<p>You may select from one of the preset "
+"filters in the drop down menu, or you may enter a custom filter directly "
+"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
+msgstr ""
+"<qt>एतत् सञ्चिकासूचौ प्रयोक्तुं शोधक अस्ति । सञ्चिकानामानि शोधकेन सह न सङ्गतानि न "
+"दर्शितानि भविष्यन्ति ।<p>भवन्तः विकल्पसूचि मध्ये पूर्वनिर्धारित-छिद्रकेषु एकस्मात् चयनं कर्तुं "
+"शक्नुवन्ति, अथवा भवन्तः प्रत्यक्षतया पाठक्षेत्रे इष्ट-छिद्रकं प्रविष्टुं शक्नुवन्ति ।</p><p>* "
+"तथा ? अनुमताः सन्ति।</p></qt>"
 
 #: filewidgets/knewfilemenu.cpp:467
 #, kde-format
@@ -3027,20 +3560,33 @@ msgstr "%1"
 #: filewidgets/knewfilemenu.cpp:1135
 #, kde-kuit-format
 msgctxt "@info"
-msgid "The name <filename>%1</filename> cannot be used because it is reserved for use by the operating system."
-msgstr "<filename>%1</filename> इति नाम उपयोक्तुं न शक्यते यतः एतत् प्रचालनतन्त्रेण उपयोगाय आरक्षितम् अस्ति ।."
+msgid ""
+"The name <filename>%1</filename> cannot be used because it is reserved for "
+"use by the operating system."
+msgstr ""
+"<filename>%1</filename> इति नाम उपयोक्तुं न शक्यते यतः एतत् प्रचालनतन्त्रेण उपयोगाय "
+"आरक्षितम् अस्ति ।."
 
 #: filewidgets/knewfilemenu.cpp:1143
 #, kde-kuit-format
 msgctxt "@info"
-msgid "The name <filename>%1</filename> starts with a dot, so it will be hidden by default."
-msgstr "<filename>%1</filename> इति नाम बिन्दुना आरभ्यते, अतः पूर्वनिर्धारितरूपेण गोपनीयं भविष्यति ।."
+msgid ""
+"The name <filename>%1</filename> starts with a dot, so it will be hidden by "
+"default."
+msgstr ""
+"<filename>%1</filename> इति नाम बिन्दुना आरभ्यते, अतः पूर्वनिर्धारितरूपेण गोपनीयं "
+"भविष्यति ।."
 
 #: filewidgets/knewfilemenu.cpp:1151
 #, kde-kuit-format
 msgctxt "@info"
-msgid "The name <filename>%1</filename> starts with a space, which will result in it being shown before other items when sorting alphabetically, among other potential oddities."
-msgstr "<filename>%1</filename> इति नाम रिक्तस्थानेन आरभ्यते, यस्य परिणामः भविष्यति यत् अन्येषु सम्भाव्यविचित्रेषु वर्णमालानुसारं क्रमणं कुर्वन् अन्यवस्तूनाम् पूर्वं दर्शितं भविष्यति ।."
+msgid ""
+"The name <filename>%1</filename> starts with a space, which will result in "
+"it being shown before other items when sorting alphabetically, among other "
+"potential oddities."
+msgstr ""
+"<filename>%1</filename> इति नाम रिक्तस्थानेन आरभ्यते, यस्य परिणामः भविष्यति यत् अन्येषु "
+"सम्भाव्यविचित्रेषु वर्णमालानुसारं क्रमणं कुर्वन् अन्यवस्तूनाम् पूर्वं दर्शितं भविष्यति ।."
 
 #: filewidgets/knewfilemenu.cpp:1169
 #, kde-format
@@ -3064,8 +3610,12 @@ msgstr "सञ्चिका-पुट-नाम्नि पृष्ठस्
 
 #: filewidgets/knewfilemenu.cpp:1206
 #, kde-format
-msgid "Starting a file or folder name with a tilde is not recommended because it may be confusing or dangerous when using the terminal to delete things."
-msgstr "सञ्चिकायाः अथवा पुटनामस्य आरम्भः tilde इत्यनेन न अनुशंसितः यतः वस्तूनि विलोपयितुं टर्मिनल् इत्यस्य उपयोगं कुर्वन् भ्रान्तिकं वा भयङ्करं वा भवितुम् अर्हति ।."
+msgid ""
+"Starting a file or folder name with a tilde is not recommended because it "
+"may be confusing or dangerous when using the terminal to delete things."
+msgstr ""
+"सञ्चिकायाः अथवा पुटनामस्य आरम्भः tilde इत्यनेन न अनुशंसितः यतः वस्तूनि विलोपयितुं टर्मिनल् "
+"इत्यस्य उपयोगं कुर्वन् भ्रान्तिकं वा भयङ्करं वा भवितुम् अर्हति ।."
 
 #: filewidgets/knewfilemenu.cpp:1274
 #, kde-kuit-format
@@ -3216,7 +3766,8 @@ msgstr "एतां सञ्चिकां उद्घाटयितुं 
 
 #: gui/applicationlauncherjob.cpp:282
 #, kde-format
-msgid "Internal error: could not prompt the user for which application to start"
+msgid ""
+"Internal error: could not prompt the user for which application to start"
 msgstr "आन्तरिकदोषः: उपयोक्तारं कस्य अनुप्रयोगस्य आरम्भः कर्तव्यः इति प्रार्थयितुं न शक्तवान्"
 
 #: gui/faviconrequestjob.cpp:108
@@ -3272,11 +3823,15 @@ msgid "Failed to open %1"
 msgstr "%1 उद्घाटयितुं असफलम्"
 
 #: gui/openurljob.cpp:296
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "The desktop entry file\n"
+#| "%1\n"
+#| "is of type Link but has no URL=… entry."
 msgid ""
 "The desktop entry file\n"
 "%1\n"
-"is of type Link but has no URL=… entry."
+"is of type Link but has no URL=... entry."
 msgstr ""
 "कार्यमुख प्रविष्टिसञ्चिका\n"
 "%1\n"
@@ -3284,17 +3839,24 @@ msgstr ""
 
 #: gui/openurljob.cpp:364
 #, kde-format
-msgid "The executable file \"%1\" is located on a remote filesystem. For safety reasons it will not be started."
-msgstr "कार्यान्वयनीयसञ्चिका \"%1\" दूरस्थसञ्चिकातन्त्रे स्थिता अस्ति । सुरक्षाकारणात् तस्य आरम्भः न भविष्यति।."
+msgid ""
+"The executable file \"%1\" is located on a remote filesystem. For safety "
+"reasons it will not be started."
+msgstr ""
+"कार्यान्वयनीयसञ्चिका \"%1\" दूरस्थसञ्चिकातन्त्रे स्थिता अस्ति । सुरक्षाकारणात् तस्य आरम्भः न "
+"भविष्यति।."
 
 #: gui/openurljob.cpp:400
 #, kde-format
-msgid "For security reasons, launching executables is not allowed in this context."
+msgid ""
+"For security reasons, launching executables is not allowed in this context."
 msgstr "सुरक्षाकारणात् अस्मिन् सन्दर्भे कार्यान्वयनीयानां प्रारम्भस्य अनुमतिः नास्ति ।."
 
 #: gui/openurljob.cpp:430
 #, kde-format
-msgid "The program \"%1\" needs to have executable permission before it can be launched."
+msgid ""
+"The program \"%1\" needs to have executable permission before it can be "
+"launched."
 msgstr "\"%1\" इति कार्यक्रमस्य प्रारम्भात् पूर्वं कार्यान्वयनीय-अनुमतिः आवश्यकी अस्ति ।."
 
 #: gui/openurljob.cpp:441
@@ -3307,18 +3869,21 @@ msgstr ""
 "%2."
 
 #: gui/openurljob.cpp:527
-#, kde-format
-msgid "The desktop entry file %1 has no Type=… entry."
+#, fuzzy, kde-format
+#| msgid "The desktop entry file %1 has no Type=… entry."
+msgid "The desktop entry file %1 has no Type=... entry."
 msgstr "कार्यमुख प्रविष्टिसञ्चिका %1 इत्यस्य Type=… प्रविष्टिः नास्ति ।."
 
 #: gui/openurljob.cpp:613
 #, kde-format
 msgid ""
 "This file is incomplete and should not be opened.\n"
-"Check your open applications and the notification area for any pending tasks or downloads."
+"Check your open applications and the notification area for any pending tasks "
+"or downloads."
 msgstr ""
 "एषा सञ्चिका अपूर्णा अस्ति, न उद्घाटनीया ।\n"
-"भवतः उद्घाटितानि अनुप्रयोगाः सूचनाक्षेत्रं च पश्यन्तु यत् किमपि लम्बितकार्यं वा अवारोपण वा भवति।."
+"भवतः उद्घाटितानि अनुप्रयोगाः सूचनाक्षेत्रं च पश्यन्तु यत् किमपि लम्बितकार्यं वा अवारोपण वा "
+"भवति।."
 
 #: gui/openurljob.cpp:639
 #, kde-format
@@ -3456,7 +4021,8 @@ msgstr "ओसवाल्ड बुडेनहेगेन्"
 #: kioexec/main.cpp:298
 #, kde-format
 msgid "Treat URLs as local files and delete them afterwards"
-msgstr "संविदितस्रोतःसूचिका (URL) -इत्येतत् स्थानीयसञ्चिकारूपेण व्यवहरन्तु, तदनन्तरं च तान् विलोपयन्तु"
+msgstr ""
+"संविदितस्रोतःसूचिका (URL) -इत्येतत् स्थानीयसञ्चिकारूपेण व्यवहरन्तु, तदनन्तरं च तान् विलोपयन्तु"
 
 #: kioexec/main.cpp:300
 #, kde-format
@@ -3682,8 +4248,12 @@ msgstr ""
 #: kioworkers/ftp/ftp.cpp:2510 kioworkers/http/http.cpp:4985
 #: kioworkers/http/http.cpp:5120
 #, kde-format
-msgid "You need to supply a username and a password for the proxy server listed below before you are allowed to access any sites."
-msgstr "भवद्भिः कस्यापि साइट्-प्रवेशस्य अनुमतिः भवितुं पूर्वं अधोलिखितस्य प्रतिनिधि-वितारकस्य कृते उपयोक्तृनाम गुप्तशब्दं च प्रदातव्यम् ।."
+msgid ""
+"You need to supply a username and a password for the proxy server listed "
+"below before you are allowed to access any sites."
+msgstr ""
+"भवद्भिः कस्यापि साइट्-प्रवेशस्य अनुमतिः भवितुं पूर्वं अधोलिखितस्य प्रतिनिधि-वितारकस्य कृते "
+"उपयोक्तृनाम गुप्तशब्दं च प्रदातव्यम् ।."
 
 #: kioworkers/ftp/ftp.cpp:2514 kioworkers/http/http.cpp:4989
 #: kioworkers/http/http.cpp:5123
@@ -3833,7 +4403,9 @@ msgstr "वितारकः WebDAV संविद् समर्थयति
 #: kioworkers/http/http.cpp:1606
 #, kde-format
 msgctxt "%1: request type, %2: url"
-msgid "An error occurred while attempting to %1, %2. A summary of the reasons is below."
+msgid ""
+"An error occurred while attempting to %1, %2. A summary of the reasons is "
+"below."
 msgstr "%1, %2 इत्यस्य प्रयासे त्रुटिः अभवत् । कारणानां सारांशः अधः अस्ति ।."
 
 #: kioworkers/http/http.cpp:1624 kioworkers/http/http.cpp:1760
@@ -3844,8 +4416,12 @@ msgstr "%1 इत्यस्य प्रयासे अभिगमनं न
 
 #: kioworkers/http/http.cpp:1638 kioworkers/http/http.cpp:1767
 #, kde-format
-msgid "A resource cannot be created at the destination until one or more intermediate collections (folders) have been created."
-msgstr "यावत् एकः वा अधिकः मध्यवर्ती संग्रहः (पुटः) न निर्मितः तावत् गन्तव्यस्थाने संसाधनं निर्मातुं न शक्यते ।."
+msgid ""
+"A resource cannot be created at the destination until one or more "
+"intermediate collections (folders) have been created."
+msgstr ""
+"यावत् एकः वा अधिकः मध्यवर्ती संग्रहः (पुटः) न निर्मितः तावत् गन्तव्यस्थाने संसाधनं निर्मातुं "
+"न शक्यते ।."
 
 #: kioworkers/http/http.cpp:1647
 #, kde-format
@@ -3856,7 +4432,9 @@ msgid ""
 "that files are not overwritten.\n"
 " %1"
 msgstr ""
-"वितारकः propertybehavior XML तत्त्वे सूचीकृतानां गुणानाम् सजीवतां निर्वाहयितुं असमर्थः आसीत् अथवा सञ्चिकाः अधिलेखिताः न भवन्ति इति अनुरोधं कुर्वन् भवान् सञ्चिकां अधिलिखितुं प्रयतितवान्\n"
+"वितारकः propertybehavior XML तत्त्वे सूचीकृतानां गुणानाम् सजीवतां निर्वाहयितुं असमर्थः "
+"आसीत् अथवा सञ्चिकाः अधिलेखिताः न भवन्ति इति अनुरोधं कुर्वन् भवान् सञ्चिकां अधिलिखितुं "
+"प्रयतितवान्\n"
 "%1"
 
 #: kioworkers/http/http.cpp:1655
@@ -3883,13 +4461,19 @@ msgstr "एतत् कर्म अन्येन दोषेण निव�
 #: kioworkers/http/http.cpp:1677 kioworkers/http/http.cpp:1782
 #, kde-format
 msgctxt "%1: request type"
-msgid "Unable to %1 because the destination server refuses to accept the file or folder."
+msgid ""
+"Unable to %1 because the destination server refuses to accept the file or "
+"folder."
 msgstr "%1 कर्तुं असमर्थः यतः गन्तव्यवितारकः सञ्चिकां अथवा पुटं स्वीकुर्वितुं नकारयति ।."
 
 #: kioworkers/http/http.cpp:1686 kioworkers/http/http.cpp:1791
 #, kde-format
-msgid "The destination resource does not have sufficient space to record the state of the resource after the execution of this method."
-msgstr "गन्तव्यसंसाधनस्य एतस्य पद्धतेः निष्पादनस्य अनन्तरं संसाधनस्य स्थितिं अभिलेखयितुं पर्याप्तं स्थानं नास्ति ।."
+msgid ""
+"The destination resource does not have sufficient space to record the state "
+"of the resource after the execution of this method."
+msgstr ""
+"गन्तव्यसंसाधनस्य एतस्य पद्धतेः निष्पादनस्य अनन्तरं संसाधनस्य स्थितिं अभिलेखयितुं पर्याप्तं स्थानं "
+"नास्ति ।."
 
 #: kioworkers/http/http.cpp:1738
 #, kde-format
@@ -3909,15 +4493,22 @@ msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "%2 इत्यस्य प्रयासे अप्रत्याशितम् त्रुटिः (%1) अभवत् ।."
 
 #: kioworkers/http/http.cpp:2502
-#, kde-format
-msgid "%1 contacted. Waiting for reply…"
+#, fuzzy, kde-format
+#| msgid "%1 contacted. Waiting for reply…"
+msgid "%1 contacted. Waiting for reply..."
 msgstr "%1 सम्पर्कं कृतवान् । उत्तरस्य प्रतीक्षायां…"
 
 #: kioworkers/http/http.cpp:2828
 #, kde-format
 msgctxt "@info Security check on url being accessed"
-msgid "<p>You are about to log in to the site \"%1\" with the username \"%2\", but the website does not require authentication. This may be an attempt to trick you.</p><p>Is \"%1\" the site you want to visit?</p>"
-msgstr "<p>भवान् \"%2\" इति उपयोक्तृनाम्ना \"%1\" इति क्षेत्र मध्ये प्रवेशं कर्तुं प्रवृत्तः अस्ति, परन्तु जालक्षेत्रे प्रमाणीकरणस्य आवश्यकता नास्ति । एषः भवतः वञ्चनस्य प्रयासः भवितुम् अर्हति ।</p><p>किं \"%1\" इति क्षेत्र भवता गन्तुम् इच्छति?</p>"
+msgid ""
+"<p>You are about to log in to the site \"%1\" with the username \"%2\", but "
+"the website does not require authentication. This may be an attempt to trick "
+"you.</p><p>Is \"%1\" the site you want to visit?</p>"
+msgstr ""
+"<p>भवान् \"%2\" इति उपयोक्तृनाम्ना \"%1\" इति क्षेत्र मध्ये प्रवेशं कर्तुं प्रवृत्तः अस्ति, "
+"परन्तु जालक्षेत्रे प्रमाणीकरणस्य आवश्यकता नास्ति । एषः भवतः वञ्चनस्य प्रयासः भवितुम् अर्हति ।"
+"</p><p>किं \"%1\" इति क्षेत्र भवता गन्तुम् इच्छति?</p>"
 
 #: kioworkers/http/http.cpp:2835
 #, kde-format
@@ -3926,8 +4517,9 @@ msgid "Confirm Website Access"
 msgstr "जालस्थलस्य अभिगमनस्य पुष्टिं कुर्वन्तु"
 
 #: kioworkers/http/http.cpp:2926
-#, kde-format
-msgid "Server processing request, please wait…"
+#, fuzzy, kde-format
+#| msgid "Server processing request, please wait…"
+msgid "Server processing request, please wait..."
 msgstr "वितारक प्रसंस्करण अनुरोधः, कृपया प्रतीक्ष्यताम्…"
 
 #: kioworkers/http/http.cpp:3614 kioworkers/http/http.cpp:3669
@@ -3936,8 +4528,9 @@ msgid "Sending data to %1"
 msgstr "%1 - मध्ये दत्तांशं प्रेषयति"
 
 #: kioworkers/http/http.cpp:4114
-#, kde-format
-msgid "Retrieving %1 from %2…"
+#, fuzzy, kde-format
+#| msgid "Retrieving %1 from %2…"
+msgid "Retrieving %1 from %2..."
 msgstr "%2 तः %1 पुनः प्राप्तम्…"
 
 #: kioworkers/http/http.cpp:4990 kioworkers/http/http.cpp:5227
@@ -3968,7 +4561,8 @@ msgstr "दूषितदत्तांशं प्राप्य।."
 #: kioworkers/http/tcpworkerbase.cpp:280
 #, kde-format
 msgid ""
-"You are about to leave secure mode. Transmissions will no longer be encrypted.\n"
+"You are about to leave secure mode. Transmissions will no longer be "
+"encrypted.\n"
 "This means that a third party could observe your data in transit."
 msgstr ""
 "भवन्तः सुरक्षितविधानात् निर्गन्तुं प्रवृत्ताः सन्ति। संचरणं पुनः गुप्तीकरणं न भविष्यति।\n"
@@ -3993,11 +4587,15 @@ msgstr "%1: SSL वार्तालापः विफलः"
 #: kioworkers/http/tcpworkerbase.cpp:476
 #, kde-format
 msgid ""
-"You are about to enter secure mode. All transmissions will be encrypted unless otherwise noted.\n"
-"This means that no third party will be able to easily observe your data in transit."
+"You are about to enter secure mode. All transmissions will be encrypted "
+"unless otherwise noted.\n"
+"This means that no third party will be able to easily observe your data in "
+"transit."
 msgstr ""
-"भवन्तः सुरक्षितविधाने प्रवेशं कर्तुं प्रवृत्ताः सन्ति। अन्यथा न उक्तं यावत् सर्वे संचरणाः गुप्तीकरणं भविष्यन्ति ।\n"
-"अस्य अर्थः अस्ति यत् कोऽपि तृतीयपक्षः भवतः दत्तांशं पारगमनकाले सहजतया अवलोकयितुं न शक्नोति ।."
+"भवन्तः सुरक्षितविधाने प्रवेशं कर्तुं प्रवृत्ताः सन्ति। अन्यथा न उक्तं यावत् सर्वे संचरणाः गुप्तीकरणं "
+"भविष्यन्ति ।\n"
+"अस्य अर्थः अस्ति यत् कोऽपि तृतीयपक्षः भवतः दत्तांशं पारगमनकाले सहजतया अवलोकयितुं न "
+"शक्नोति ।."
 
 #: kioworkers/http/tcpworkerbase.cpp:483
 #, kde-format
@@ -4026,7 +4624,8 @@ msgstr "वितारक प्रमाणीकरणम्"
 
 #: kioworkers/http/tcpworkerbase.cpp:541 widgets/sslui.cpp:93
 #, kde-format
-msgid "Would you like to accept this certificate forever without being prompted?"
+msgid ""
+"Would you like to accept this certificate forever without being prompted?"
 msgstr "किं भवन्तः एतत् प्रमाणपत्रं सदा अप्रत्याशितरूपेण स्वीकुर्वितुं इच्छन्ति?"
 
 #: kioworkers/remote/remoteimpl.cpp:98
@@ -4036,16 +4635,23 @@ msgstr "संजालम्"
 
 #: kioworkers/trash/kio_trash.cpp:114 kioworkers/trash/kio_trash.cpp:158
 #: kioworkers/trash/kio_trash.cpp:216 kioworkers/trash/kio_trash.cpp:379
-#: kioworkers/trash/kio_trash.cpp:411 kioworkers/trash/kio_trash.cpp:586
-#: kioworkers/trash/kio_trash.cpp:596
+#: kioworkers/trash/kio_trash.cpp:411 kioworkers/trash/kio_trash.cpp:587
+#: kioworkers/trash/kio_trash.cpp:597
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "विकृतम् URL %1"
 
 #: kioworkers/trash/kio_trash.cpp:133
 #, kde-format
-msgid "The directory %1 does not exist anymore, so it is not possible to restore this item to its original location. You can either recreate that directory and use the restore operation again, or drag the item anywhere else to restore it."
-msgstr "%1 इति पुटे इदानीं नास्ति, अतः एतत् द्रव्यं मूलस्थाने पुनः स्थापयितुं न शक्यते । भवान् तत् पुटं पुनः निर्माय पुनः पुनर्स्थापनक्रियायाः उपयोगं कर्तुं शक्नोति, अथवा पुनर्स्थापनार्थं अन्यत्र द्रव्यं कर्षितुं शक्नोति ।."
+msgid ""
+"The directory %1 does not exist anymore, so it is not possible to restore "
+"this item to its original location. You can either recreate that directory "
+"and use the restore operation again, or drag the item anywhere else to "
+"restore it."
+msgstr ""
+"%1 इति पुटे इदानीं नास्ति, अतः एतत् द्रव्यं मूलस्थाने पुनः स्थापयितुं न शक्यते । भवान् तत् पुटं "
+"पुनः निर्माय पुनः पुनर्स्थापनक्रियायाः उपयोगं कर्तुं शक्नोति, अथवा पुनर्स्थापनार्थं अन्यत्र "
+"द्रव्यं कर्षितुं शक्नोति ।."
 
 #: kioworkers/trash/kio_trash.cpp:184 kioworkers/trash/kio_trash.cpp:205
 #, kde-format
@@ -4071,10 +4677,12 @@ msgstr "प्रतिलिपिषु स्थानान्तरे व�
 #, kde-format
 msgid ""
 "Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kioclient move 'url' trash:/\""
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"'url' trash:/\""
 msgstr ""
 "KDE पुनःप्रयोगस्य कूपः नियन्त्रयितुं सहायककार्यक्रमः\n"
-"नोट्: सञ्चिकाः कचरे स्थानान्तरयितुं ktrash इत्यस्य उपयोगं न कुर्वन्तु, परन्तु \"kioclient move 'url' trash:/\" इति ।"
+"नोट्: सञ्चिकाः कचरे स्थानान्तरयितुं ktrash इत्यस्य उपयोगं न कुर्वन्तु, परन्तु \"kioclient "
+"move 'url' trash:/\" इति ।"
 
 #: kioworkers/trash/ktrash.cpp:31
 #, kde-format
@@ -4089,7 +4697,8 @@ msgstr "विलोपितां सञ्चिकां तस्याः 
 #: kioworkers/trash/trashimpl.cpp:1328
 #, kde-format
 msgid "The trash is full. Empty it or remove items manually."
-msgstr "पुनःप्रयोगस्य कूपः पूर्णः अस्ति। तत् रिक्तं कुर्वन्तु अथवा हस्तचलितरूपेण वस्तूनि निष्कासयन्तु।."
+msgstr ""
+"पुनःप्रयोगस्य कूपः पूर्णः अस्ति। तत् रिक्तं कुर्वन्तु अथवा हस्तचलितरूपेण वस्तूनि निष्कासयन्तु।."
 
 #: kpac/discovery.cpp:96
 #, kde-format
@@ -4264,14 +4873,19 @@ msgstr "लेकरिड्ज् मीडोज"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: widgets/checksumswidget.ui:17
 #, kde-format
-msgid "Copy and paste a checksum in the field below.<br/>A checksum is usually provided by the website you downloaded this file from."
-msgstr "अधोलिखिते क्षेत्रे चेकसमं (checksum) प्रतिलिख्य स्थापयन्तु।<br/>प्रायः भवता एतां सञ्चिकां अवारोपणं कृतं जालपुटेन (website) चेकसमं (checksum) प्रदत्तं भवति।."
+msgid ""
+"Copy and paste a checksum in the field below.<br/>A checksum is usually "
+"provided by the website you downloaded this file from."
+msgstr ""
+"अधोलिखिते क्षेत्रे चेकसमं (checksum) प्रतिलिख्य स्थापयन्तु।<br/>प्रायः भवता एतां सञ्चिकां "
+"अवारोपणं कृतं जालपुटेन (website) चेकसमं (checksum) प्रदत्तं भवति।."
 
 #. i18n: MD5, SHA1, SHA256 and SHA512 are hashing algorithms
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lineEdit)
 #: widgets/checksumswidget.ui:29
-#, kde-format
-msgid "Expected checksum (MD5, SHA1, SHA256 or SHA512)…"
+#, fuzzy, kde-format
+#| msgid "Expected checksum (MD5, SHA1, SHA256 or SHA512)…"
+msgid "Expected checksum (MD5, SHA1, SHA256 or SHA512)..."
 msgstr "अपेक्षितं चेकसम (checksum) (MD5, SHA1, SHA256 or SHA512)…"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, pasteButton)
@@ -4372,7 +4986,8 @@ msgstr "परिवर्तनं पूर्ववत् कुर्वन�
 
 #: widgets/fileundomanager.cpp:119
 #, kde-format
-msgid "Undoing this operation requires root privileges. Do you want to continue?"
+msgid ""
+"Undoing this operation requires root privileges. Do you want to continue?"
 msgstr "एतत् कार्यं पूर्ववत् कर्तुं मूलविशेषाधिकारस्य आवश्यकता भवति । किं त्वं प्रगन्तुं इच्छसि ?"
 
 #: widgets/fileundomanager.cpp:132
@@ -4448,12 +5063,14 @@ msgstr "&अपाकरोति: समूहः नामयति"
 #: widgets/fileundomanager.cpp:721
 #, kde-format
 msgid ""
-"The file %1 was copied from %2, but since then it has apparently been modified at %3.\n"
+"The file %1 was copied from %2, but since then it has apparently been "
+"modified at %3.\n"
 "Undoing the copy will delete the file, and all modifications will be lost.\n"
 "Are you sure you want to delete %4?"
 msgstr ""
 "%1 सञ्चिका %2 तः प्रतिलिपिकृता, परन्तु ततः परं %3 इत्यत्र परिवर्तिता इति भाति ।\n"
-"प्रतिलिपिं पूर्ववत् कृत्वा सञ्चिका विलोपिता भविष्यति, सर्वाणि परिवर्तनानि च नष्टानि भविष्यन्ति ।\n"
+"प्रतिलिपिं पूर्ववत् कृत्वा सञ्चिका विलोपिता भविष्यति, सर्वाणि परिवर्तनानि च नष्टानि "
+"भविष्यन्ति ।\n"
 "%4 विलोपयितुम् इच्छसि वा?"
 
 #: widgets/fileundomanager.cpp:731
@@ -4464,8 +5081,14 @@ msgstr "सञ्चिकाप्रतिलिपिपुष्टिः �
 #: widgets/jobuidelegate.cpp:229
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Do you really want to permanently delete this item?<nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr "किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
+msgid ""
+"Do you really want to permanently delete this item?<nl/><filename>%1</"
+"filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</"
+"emphasis>"
+msgstr ""
+"किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><filename>%1</"
+"filename><nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</"
+"emphasis>"
 
 #: widgets/jobuidelegate.cpp:232 widgets/jobuidelegate.cpp:246
 #: widgets/jobuidelegate.cpp:258 widgets/widgetsaskuseractionhandler.cpp:198
@@ -4484,16 +5107,28 @@ msgstr "स्थायिरूपेण विलोपयन्तु"
 #: widgets/jobuidelegate.cpp:242
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Do you really want to permanently delete this item?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgid_plural "Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr[0] "किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
-msgstr[1] "किं भवान् वास्तवमेव एतानि %1 द्रव्याणि स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
+msgid ""
+"Do you really want to permanently delete this item?<nl/><nl/><emphasis "
+"strong='true'>This action cannot be undone.</emphasis>"
+msgid_plural ""
+"Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis "
+"strong='true'>This action cannot be undone.</emphasis>"
+msgstr[0] ""
+"किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><emphasis "
+"strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
+msgstr[1] ""
+"किं भवान् वास्तवमेव एतानि %1 द्रव्याणि स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/"
+"><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
 
 #: widgets/jobuidelegate.cpp:257 widgets/widgetsaskuseractionhandler.cpp:270
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Do you want to permanently delete all items from the Trash?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr "किं भवन्तः पुनःप्रयोगस्य कूपतः सर्वाणि वस्तूनि स्थायिरूपेण विलोपयितुम् इच्छन्ति?<nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
+msgid ""
+"Do you want to permanently delete all items from the Trash?<nl/><nl/"
+"><emphasis strong='true'>This action cannot be undone.</emphasis>"
+msgstr ""
+"किं भवन्तः पुनःप्रयोगस्य कूपतः सर्वाणि वस्तूनि स्थायिरूपेण विलोपयितुम् इच्छन्ति?<nl/><nl/"
+"><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
 
 #: widgets/jobuidelegate.cpp:259 widgets/widgetsaskuseractionhandler.cpp:272
 #, kde-format
@@ -4504,8 +5139,12 @@ msgstr "पुनःप्रयोगस्य कूपं रिक्तं 
 #: widgets/jobuidelegate.cpp:269 widgets/widgetsaskuseractionhandler.cpp:278
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Do you really want to move this item to the Trash?<nl/><filename>%1</filename>"
-msgstr "किं भवान् वास्तवमेव एतत् द्रव्यं पुनःप्रयोगस्य कूपं प्रति स्थानान्तरयितुम् इच्छति?<nl/><filename>%1</filename>"
+msgid ""
+"Do you really want to move this item to the Trash?<nl/><filename>%1</"
+"filename>"
+msgstr ""
+"किं भवान् वास्तवमेव एतत् द्रव्यं पुनःप्रयोगस्य कूपं प्रति स्थानान्तरयितुम् इच्छति?<nl/"
+"><filename>%1</filename>"
 
 #: widgets/jobuidelegate.cpp:278
 #, kde-format
@@ -4517,14 +5156,15 @@ msgstr[1] "किं भवान् वास्तवमेव एतानि
 #: widgets/kacleditwidget.cpp:71
 #, kde-format
 msgctxt "@action:button"
-msgid "Add…"
-msgstr "संयोजयति…"
+msgid "Add..."
+msgstr ""
 
 #: widgets/kacleditwidget.cpp:75
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit"
 msgctxt "@action:button"
-msgid "Edit…"
-msgstr "सम्पादयतु…"
+msgid "Edit..."
+msgstr "सम्पादयतु"
 
 #: widgets/kacleditwidget.cpp:79
 #, kde-format
@@ -4725,16 +5365,20 @@ msgid "&Actions"
 msgstr "&क्रियाः"
 
 #: widgets/kfileitemactions.cpp:682
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "&Open Folder With"
 msgctxt "@title:menu"
-msgid "&Open Folder With…"
-msgstr "&एतेन सह पुटं उद्घाटयन्तु…"
+msgid "&Open Folder With..."
+msgstr "&एतेन सह पुटं उद्घाटयन्तु"
 
 #: widgets/kfileitemactions.cpp:682
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "&Open With"
 msgctxt "@title:menu"
-msgid "&Open With…"
-msgstr "&एतेन उद्घाटयन्तु…"
+msgid "&Open With..."
+msgstr "&एतेन उद्घाटयन्तु"
 
 #: widgets/kfileitemactions.cpp:720
 #, kde-format
@@ -4759,9 +5403,11 @@ msgid "&Open With"
 msgstr "&एतेन उद्घाटयन्तु"
 
 #: widgets/kfileitemactions.cpp:764
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu Open With"
+#| msgid "&Other Application…"
 msgctxt "@action:inmenu Open With"
-msgid "&Other Application…"
+msgid "&Other Application..."
 msgstr "&अन्य अनुप्रयोग…"
 
 #: widgets/kfileitemdelegate.cpp:209
@@ -4822,8 +5468,9 @@ msgstr "आकृति:"
 
 #. i18n: ectx: property (text), widget (QPushButton, configureMimeBtn)
 #: widgets/kfilepropspluginwidget.ui:350
-#, kde-format
-msgid "Change…"
+#, fuzzy, kde-format
+#| msgid "Change…"
+msgid "Change..."
 msgstr "परिवर्तयतु…"
 
 #. i18n: ectx: property (text), widget (QLabel, contentLabel)
@@ -4892,8 +5539,12 @@ msgstr "एतेन उद्घाटयन्तु"
 
 #: widgets/kopenwithdialog.cpp:561
 #, kde-format
-msgid "<qt>Select the program that should be used to open <b>%1</b>. If the program is not listed, enter the name or click the browse button.</qt>"
-msgstr "<qt><b>%1</b> उद्घाटयितुं यस्य कार्यक्रमस्य उपयोगः करणीयः तत् चिनोतु. यदि कार्यक्रमः सूचीकृतः नास्ति तर्हि नाम प्रविष्टं कुर्वन्तु अथवा अन्वेषय गण्ड नुदन्तु ।.</qt>"
+msgid ""
+"<qt>Select the program that should be used to open <b>%1</b>. If the program "
+"is not listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt><b>%1</b> उद्घाटयितुं यस्य कार्यक्रमस्य उपयोगः करणीयः तत् चिनोतु. यदि कार्यक्रमः "
+"सूचीकृतः नास्ति तर्हि नाम प्रविष्टं कुर्वन्तु अथवा अन्वेषय गण्ड नुदन्तु ।.</qt>"
 
 #: widgets/kopenwithdialog.cpp:568
 #, kde-format
@@ -4908,7 +5559,8 @@ msgstr "<qt>सञ्चिकां उद्घाटयितुं यत्
 #: widgets/kopenwithdialog.cpp:591
 #, kde-format
 msgid "<qt>Select the program you want to use to open the file.</qt>"
-msgid_plural "<qt>Select the program you want to use to open the %1 files.</qt>"
+msgid_plural ""
+"<qt>Select the program you want to use to open the %1 files.</qt>"
 msgstr[0] "<qt>सञ्चिकां उद्घाटयितुं यत् कार्यक्रमं उपयोक्तुं इच्छति तत् चिनोतु ।.</qt>"
 msgstr[1] "<qt>%1 सञ्चिकाः उद्घाटयितुं यत् कार्यक्रमं उपयोक्तुं इच्छति तत् चिनोतु ।</qt>"
 
@@ -4924,13 +5576,21 @@ msgstr "%1 कृते अनुप्रयोगं चिनोतु"
 
 #: widgets/kopenwithdialog.cpp:613
 #, kde-format
-msgid "<qt>Select the program for the file type: <b>%1</b>. If the program is not listed, enter the name or click the browse button.</qt>"
-msgstr "<qt>सञ्चिकाप्रकारस्य कृते कार्यक्रमं चिनोतु: <b>%1</b>. यदि कार्यक्रमः सूचीकृतः नास्ति तर्हि नाम प्रविष्टं कुर्वन्तु अथवा अन्वेषय गण्ड नुदन्तु ।.</qt>"
+msgid ""
+"<qt>Select the program for the file type: <b>%1</b>. If the program is not "
+"listed, enter the name or click the browse button.</qt>"
+msgstr ""
+"<qt>सञ्चिकाप्रकारस्य कृते कार्यक्रमं चिनोतु: <b>%1</b>. यदि कार्यक्रमः सूचीकृतः नास्ति "
+"तर्हि नाम प्रविष्टं कुर्वन्तु अथवा अन्वेषय गण्ड नुदन्तु ।.</qt>"
 
 #: widgets/kopenwithdialog.cpp:629
 #, kde-format
-msgid "<qt>Select a program. If the program is not listed, enter the name or click the browse button.</qt>"
-msgstr "<qt>एकं कार्यक्रमं चिनोतु।. यदि कार्यक्रमः सूचीकृतः नास्ति तर्हि नाम प्रविष्टं कुर्वन्तु अथवा अन्वेषय गण्ड नुदन्तु ।.</qt>"
+msgid ""
+"<qt>Select a program. If the program is not listed, enter the name or click "
+"the browse button.</qt>"
+msgstr ""
+"<qt>एकं कार्यक्रमं चिनोतु।. यदि कार्यक्रमः सूचीकृतः नास्ति तर्हि नाम प्रविष्टं कुर्वन्तु अथवा "
+"अन्वेषय गण्ड नुदन्तु ।.</qt>"
 
 #: widgets/kopenwithdialog.cpp:675
 #, kde-format
@@ -4944,9 +5604,11 @@ msgstr ""
 #: widgets/kopenwithdialog.cpp:698
 #, kde-format
 msgid ""
-"Following the command, you can have several place holders which will be replaced with the actual values when the actual program is run:\n"
+"Following the command, you can have several place holders which will be "
+"replaced with the actual values when the actual program is run:\n"
 "%f - a single file name\n"
-"%F - a list of files; use for applications that can open several local files at once\n"
+"%F - a list of files; use for applications that can open several local files "
+"at once\n"
 "%u - a single URL\n"
 "%U - a list of URLs\n"
 "%d - the directory of the file to open\n"
@@ -4955,9 +5617,11 @@ msgid ""
 "%m - the mini-icon\n"
 "%c - the comment"
 msgstr ""
-"आदेशस्य अनुसरणं कृत्वा, भवान् अनेकाः स्थानधारकाः भवितुम् अर्हन्ति येषां स्थाने वास्तविकं कार्यक्रमं चालितं भवति तदा वास्तविकमूल्यानि स्थापितानि भविष्यन्ति:\n"
+"आदेशस्य अनुसरणं कृत्वा, भवान् अनेकाः स्थानधारकाः भवितुम् अर्हन्ति येषां स्थाने वास्तविकं "
+"कार्यक्रमं चालितं भवति तदा वास्तविकमूल्यानि स्थापितानि भविष्यन्ति:\n"
 "%f - एकं सञ्चिकानाम (a single file name)\n"
-"%F - सञ्चिकानां सूची (a list of files); एकदा एव अनेकाः स्थानीयसञ्चिकाः उद्घाटयितुं शक्नुवन्ति इति अनुप्रयोगानाम् कृते उपयोगं कुर्वन्तु\n"
+"%F - सञ्चिकानां सूची (a list of files); एकदा एव अनेकाः स्थानीयसञ्चिकाः उद्घाटयितुं "
+"शक्नुवन्ति इति अनुप्रयोगानाम् कृते उपयोगं कुर्वन्तु\n"
 "%u - एकं URL (a single URL)\n"
 "%U - URLs इत्यस्य सूची (a list of URLs)\n"
 "%d - उद्घाटनीयस्य सञ्चिकायाः पुटम् (the directory of the file to open)\n"
@@ -5006,7 +5670,9 @@ msgstr "Discover इत्यस्मात् अधिकानि अनु�
 
 #: widgets/kopenwithdialog.cpp:980
 #, kde-format
-msgid "Could not extract executable name from '%1', please type a valid program name."
+msgid ""
+"Could not extract executable name from '%1', please type a valid program "
+"name."
 msgstr "'%1' तः कार्यान्वयनीयं नाम निष्कासयितुं न शक्यते, कृपया वैधं कार्यक्रमनाम लिखन्तु ।."
 
 #: widgets/kopenwithdialog.cpp:1034
@@ -5018,21 +5684,31 @@ msgstr "<filename>%1</filename> कार्यान्वयनीयः क�
 #: widgets/kopenwithdialog.cpp:1035
 #, kde-kuit-format
 msgctxt "@info"
-msgid "<filename>%1</filename> was not found; please enter a valid path to an executable program."
-msgstr "<filename>%1</filename> न प्राप्तम्; कृपया कार्यान्वयनीयप्रोग्रामस्य वैधमार्गं प्रविशन्तु ।."
+msgid ""
+"<filename>%1</filename> was not found; please enter a valid path to an "
+"executable program."
+msgstr ""
+"<filename>%1</filename> न प्राप्तम्; कृपया कार्यान्वयनीयप्रोग्रामस्य वैधमार्गं प्रविशन्तु ।."
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2)
 #: widgets/kpropertiesdesktopadvbase.ui:29
 #, kde-format
-msgctxt "@title:group Title of a group that lets the user choose options about the terminal when launching a program"
+msgctxt ""
+"@title:group Title of a group that lets the user choose options about the "
+"terminal when launching a program"
 msgid "Terminal"
 msgstr "टर्मिनल्"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:51
 #, kde-format
-msgid "Check this option if the application you want to run is a text mode application or if you want the information that is provided by the terminal emulator window."
-msgstr "यदि भवान् यत् अनुप्रयोगं चालयितुम् इच्छति तत् पाठविधानुप्रयोगः अस्ति अथवा यदि भवान् तां सूचनां इच्छति यत् टर्मिनल् एमुलेटर् गवाक्ष द्वारा प्रदत्ता अस्ति तर्हि एतत् विकल्पं पश्यन्तु ।."
+msgid ""
+"Check this option if the application you want to run is a text mode "
+"application or if you want the information that is provided by the terminal "
+"emulator window."
+msgstr ""
+"यदि भवान् यत् अनुप्रयोगं चालयितुम् इच्छति तत् पाठविधानुप्रयोगः अस्ति अथवा यदि भवान् तां "
+"सूचनां इच्छति यत् टर्मिनल् एमुलेटर् गवाक्ष द्वारा प्रदत्ता अस्ति तर्हि एतत् विकल्पं पश्यन्तु ।."
 
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:54
@@ -5049,8 +5725,13 @@ msgstr "अन्त्योपकरण(terminal) विकल्पाः:"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCloseCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:71
 #, kde-format
-msgid "Check this option if the text mode application offers relevant information on exit. Keeping the terminal emulator open allows you to retrieve this information."
-msgstr "यदि पाठविधानुप्रयोगः निर्गमनसमये प्रासंगिकसूचनाः प्रदाति तर्हि एतत् विकल्पं पश्यन्तु । टर्मिनल् एमुलेटर् उद्घाटितं कृत्वा भवन्तः एतां सूचनां पुनः प्राप्तुं शक्नुवन्ति ।."
+msgid ""
+"Check this option if the text mode application offers relevant information "
+"on exit. Keeping the terminal emulator open allows you to retrieve this "
+"information."
+msgstr ""
+"यदि पाठविधानुप्रयोगः निर्गमनसमये प्रासंगिकसूचनाः प्रदाति तर्हि एतत् विकल्पं पश्यन्तु । "
+"टर्मिनल् एमुलेटर् उद्घाटितं कृत्वा भवन्तः एतां सूचनां पुनः प्राप्तुं शक्नुवन्ति ।."
 
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCloseCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:74
@@ -5061,15 +5742,24 @@ msgstr "यदा आदेशः निर्गच्छति तदा न �
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2_2)
 #: widgets/kpropertiesdesktopadvbase.ui:87
 #, kde-format
-msgctxt "@title:group Title of a group that lets the user choose which user to use when launching a program"
+msgctxt ""
+"@title:group Title of a group that lets the user choose which user to use "
+"when launching a program"
 msgid "User"
 msgstr "उपयोक्ता"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, suidCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:93
 #, kde-format
-msgid "Check this option if you want to run this application with a different user id. Every process has a different user id associated with it. This id code determines file access and other permissions. The password of the user is required to use this option."
-msgstr "यदि भवान् भिन्नेन उपयोक्तृ-id सह एतत् अनुप्रयोगं चालयितुम् इच्छति तर्हि एतत् विकल्पं पश्यन्तु । प्रत्येकं प्रक्रियायां भिन्नं user id तया सह सम्बद्धं भवति । एषः id कूटसङ्केत सञ्चिकाप्रवेशः अन्ये च अनुमतिः निर्धारयति । एतस्य विकल्पस्य उपयोगाय उपयोक्तुः गुप्तशब्दः आवश्यकः अस्ति ।."
+msgid ""
+"Check this option if you want to run this application with a different user "
+"id. Every process has a different user id associated with it. This id code "
+"determines file access and other permissions. The password of the user is "
+"required to use this option."
+msgstr ""
+"यदि भवान् भिन्नेन उपयोक्तृ-id सह एतत् अनुप्रयोगं चालयितुम् इच्छति तर्हि एतत् विकल्पं पश्यन्तु । "
+"प्रत्येकं प्रक्रियायां भिन्नं user id तया सह सम्बद्धं भवति । एषः id कूटसङ्केत सञ्चिकाप्रवेशः "
+"अन्ये च अनुमतिः निर्धारयति । एतस्य विकल्पस्य उपयोगाय उपयोक्तुः गुप्तशब्दः आवश्यकः अस्ति ।."
 
 #. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:96
@@ -5110,15 +5800,21 @@ msgstr "समर्पितं ग्राफिक्स् कार्ड�
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
 #: widgets/kpropertiesdesktopadvbase.ui:158
 #, kde-format
-msgctxt "@title:group Title of a group that lets the user choose options regarding program startup"
+msgctxt ""
+"@title:group Title of a group that lets the user choose options regarding "
+"program startup"
 msgid "Startup"
 msgstr "प्रारंभिकं"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, startupInfoCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:164
 #, kde-format
-msgid "Check this option if you want to make clear that your application has started. This visual feedback may appear as a busy cursor or in the taskbar."
-msgstr "यदि भवान् स्पष्टं कर्तुम् इच्छति यत् भवतां अनुप्रयोगः आरब्धः इति तर्हि एतत् विकल्पं पश्यन्तु । इदं दृश्यप्रतिक्रिया व्यस्तकर्सररूपेण वा कार्यपट्टिकायां वा दृश्यते ।."
+msgid ""
+"Check this option if you want to make clear that your application has "
+"started. This visual feedback may appear as a busy cursor or in the taskbar."
+msgstr ""
+"यदि भवान् स्पष्टं कर्तुम् इच्छति यत् भवतां अनुप्रयोगः आरब्धः इति तर्हि एतत् विकल्पं पश्यन्तु । "
+"इदं दृश्यप्रतिक्रिया व्यस्तकर्सररूपेण वा कार्यपट्टिकायां वा दृश्यते ।."
 
 #. i18n: ectx: property (text), widget (QCheckBox, startupInfoCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:167
@@ -5130,15 +5826,23 @@ msgstr "प्रक्षेपणप्रतिक्रिया सक्�
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, nameEdit)
 #: widgets/kpropertiesdesktopbase.ui:22 widgets/kpropertiesdesktopbase.ui:35
 #, kde-format
-msgid "Type the name you want to give to this application here. This application will appear under this name in the applications menu and in the panel."
-msgstr "अस्य अनुप्रयोगस्य कृते यत् नाम दातुम् इच्छति तत् अत्र लिखन्तु । एतत् अनुप्रयोगम् अस्य नाम्ना अनुप्रयोगानाम् विकल्पसूचि मध्ये तथा च फलकस्य मध्ये दृश्यते ।."
+msgid ""
+"Type the name you want to give to this application here. This application "
+"will appear under this name in the applications menu and in the panel."
+msgstr ""
+"अस्य अनुप्रयोगस्य कृते यत् नाम दातुम् इच्छति तत् अत्र लिखन्तु । एतत् अनुप्रयोगम् अस्य नाम्ना "
+"अनुप्रयोगानाम् विकल्पसूचि मध्ये तथा च फलकस्य मध्ये दृश्यते ।."
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, genNameEdit)
 #: widgets/kpropertiesdesktopbase.ui:42 widgets/kpropertiesdesktopbase.ui:55
 #, kde-format
-msgid "Type the description of this application, based on its use, here. Examples: a dial up application (KPPP) would be \"Dial up tool\"."
-msgstr "अस्य अनुप्रयोगस्य वर्णनं, तस्य उपयोगाधारितं, अत्र लिखन्तु । उदाहरणानि: डायल अप अनुप्रयोगः (KPPP) \"डायल अप साधनम्\" भविष्यति ।."
+msgid ""
+"Type the description of this application, based on its use, here. Examples: "
+"a dial up application (KPPP) would be \"Dial up tool\"."
+msgstr ""
+"अस्य अनुप्रयोगस्य वर्णनं, तस्य उपयोगाधारितं, अत्र लिखन्तु । उदाहरणानि: डायल अप अनुप्रयोगः "
+"(KPPP) \"डायल अप साधनम्\" भविष्यति ।."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: widgets/kpropertiesdesktopbase.ui:45
@@ -5181,13 +5885,16 @@ msgstr "कार्यक्रम:"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, browseButton)
 #: widgets/kpropertiesdesktopbase.ui:117
 #, kde-format
-msgid "Click here to browse your file system in order to find the desired executable."
+msgid ""
+"Click here to browse your file system in order to find the desired "
+"executable."
 msgstr "इष्टं कार्यान्वयनीयं अन्वेष्टुं स्वस्य सञ्चिकातन्त्रं अन्वेषय कर्तुं अत्र नोदनम् कुर्वन्तु ।."
 
 #. i18n: ectx: property (text), widget (QPushButton, browseButton)
 #: widgets/kpropertiesdesktopbase.ui:120
-#, kde-format
-msgid "&Browse…"
+#, fuzzy, kde-format
+#| msgid "&Browse…"
+msgid "&Browse..."
 msgstr "&अन्वेषय…"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, argumentsLabel)
@@ -5197,7 +5904,8 @@ msgstr "&अन्वेषय…"
 msgid ""
 "Type the arguments to use when starting this application here.\n"
 "\n"
-"You can have several placeholders which will be replaced with the actual values when the actual program is run:\n"
+"You can have several placeholders which will be replaced with the actual "
+"values when the actual program is run:\n"
 "\n"
 "%f - a single filename\n"
 "%F - a list of files (for apps that can open several files at once)\n"
@@ -5209,10 +5917,12 @@ msgid ""
 msgstr ""
 "अत्र एतत् अनुप्रयोगं आरभ्य उपयोक्तुं निवेशाः लिखन्तु ।.\n"
 "\n"
-"भवान् अनेकाः स्थानधारकाः भवितुम् अर्हन्ति येषां स्थाने वास्तविकं कार्यक्रमं चालितं भवति तदा वास्तविकमूल्यानि स्थापितानि भविष्यन्ति:\n"
+"भवान् अनेकाः स्थानधारकाः भवितुम् अर्हन्ति येषां स्थाने वास्तविकं कार्यक्रमं चालितं भवति तदा "
+"वास्तविकमूल्यानि स्थापितानि भविष्यन्ति:\n"
 "\n"
 "%f - एकं सञ्चिकानाम (a single filename)\n"
-"%F - सञ्चिकानां सूची (a list of files) (एप्स् कृते ये एकदा एव अनेकाः सञ्चिकाः उद्घाटयितुं शक्नुवन्ति)\n"
+"%F - सञ्चिकानां सूची (a list of files) (एप्स् कृते ये एकदा एव अनेकाः सञ्चिकाः उद्घाटयितुं "
+"शक्नुवन्ति)\n"
 "%u - एकं URL (a single URL)\n"
 "%U - URLs इत्यस्य सूची (a list of URLs)\n"
 "%i - .desktop सञ्चिकायाः चिह्नम् (the icon of the .desktop file)\n"
@@ -5243,13 +5953,33 @@ msgstr "&कार्यमार्गः:"
 #: widgets/kpropertiesdesktopbase.ui:196 widgets/kpropertiesdesktopbase.ui:217
 #, kde-format
 msgid ""
-"<qt><p>This list should show the types of file that your application can handle. This list is organized by <u>mimetypes</u>.</p>\n"
-"<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for identifying the type of data based on filename extensions and correspondent <u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in flower.bmp indicates that it is a specific kind of image, <u>image/x-bmp</u>. To know which application should open each type of file, the system should be informed about the abilities of each application to handle these extensions and mimetypes.</p>\n"
-"<p>If you want to associate this application with one or more mimetypes that are not in this list, click on the button <b>Add</b> below. If there are one or more filetypes that this application cannot handle, you may want to remove them from the list clicking on the button <b>Remove</b> below.</p></qt>"
+"<qt><p>This list should show the types of file that your application can "
+"handle. This list is organized by <u>mimetypes</u>.</p>\n"
+"<p>MIME, Multipurpose Internet (e)Mail Extension, is a standard protocol for "
+"identifying the type of data based on filename extensions and correspondent "
+"<u>mimetypes</u>. Example: the \"bmp\" part that comes after the dot in "
+"flower.bmp indicates that it is a specific kind of image, <u>image/x-bmp</"
+"u>. To know which application should open each type of file, the system "
+"should be informed about the abilities of each application to handle these "
+"extensions and mimetypes.</p>\n"
+"<p>If you want to associate this application with one or more mimetypes that "
+"are not in this list, click on the button <b>Add</b> below. If there are one "
+"or more filetypes that this application cannot handle, you may want to "
+"remove them from the list clicking on the button <b>Remove</b> below.</p></"
+"qt>"
 msgstr ""
-"<qt><p>एषा सूची भवतः अनुप्रयोगेन ये सञ्चिकाप्रकाराः सम्भालितुं शक्नोति इति दर्शयितव्यम् । एषा सूची <u>mimetypes</u> व्यवस्थिता अस्ति ।</p>\n"
-"<p>MIME, Multipurpose Internet (e)Mail Extension, सञ्चिकानामविस्तारस्य आधारेण दत्तांशस्य प्रकारस्य परिचयार्थं तथा च संवाददाता <u>mimetypes</u> इति मानकसंविदः अस्ति । उदाहरणम् : flower.bmp इत्यस्मिन् बिन्दुस्य अनन्तरं यः \"bmp\" भागः आगच्छति सः विशिष्टप्रकारस्य चित्रम् इति सूचयति, <u>image/x-bmp</u> । प्रत्येकं प्रकारस्य सञ्चिकां कस्य अनुप्रयोगस्य उद्घाटनं कर्तव्यमिति ज्ञातुं प्रत्येकस्य अनुप्रयोगस्य एतान् विस्तारान् अनुकरणप्रकारान (mimetypes) च नियन्त्रयितुं क्षमतायाः विषये प्रणालीं सूचितव्या ।</p>\n"
-"<p>यदि भवान् एतत् अनुप्रयोगं एकेन वा अधिकेन अनुकरणप्रकारेन सह सम्बद्धं कर्तुम् इच्छति यत् अस्मिन् सूचौ नास्ति तर्हि अधः <b>संयोजयति</b> इति गण्ड नुदतु । यदि एकः वा अधिकः सञ्चिकाप्रकारः अस्ति यत् एषः अनुप्रयोगः सम्भालितुं न शक्नोति तर्हि अधोलिखिते <b>निष्कासयतु</b> इति गण्ड नुत्वा तान् सूचीतः हर्तुं इच्छति ।</p></qt>"
+"<qt><p>एषा सूची भवतः अनुप्रयोगेन ये सञ्चिकाप्रकाराः सम्भालितुं शक्नोति इति दर्शयितव्यम् । "
+"एषा सूची <u>mimetypes</u> व्यवस्थिता अस्ति ।</p>\n"
+"<p>MIME, Multipurpose Internet (e)Mail Extension, सञ्चिकानामविस्तारस्य आधारेण "
+"दत्तांशस्य प्रकारस्य परिचयार्थं तथा च संवाददाता <u>mimetypes</u> इति मानकसंविदः अस्ति "
+"। उदाहरणम् : flower.bmp इत्यस्मिन् बिन्दुस्य अनन्तरं यः \"bmp\" भागः आगच्छति सः "
+"विशिष्टप्रकारस्य चित्रम् इति सूचयति, <u>image/x-bmp</u> । प्रत्येकं प्रकारस्य सञ्चिकां कस्य "
+"अनुप्रयोगस्य उद्घाटनं कर्तव्यमिति ज्ञातुं प्रत्येकस्य अनुप्रयोगस्य एतान् विस्तारान् अनुकरणप्रकारान "
+"(mimetypes) च नियन्त्रयितुं क्षमतायाः विषये प्रणालीं सूचितव्या ।</p>\n"
+"<p>यदि भवान् एतत् अनुप्रयोगं एकेन वा अधिकेन अनुकरणप्रकारेन सह सम्बद्धं कर्तुम् इच्छति यत् "
+"अस्मिन् सूचौ नास्ति तर्हि अधः <b>संयोजयति</b> इति गण्ड नुदतु । यदि एकः वा अधिकः "
+"सञ्चिकाप्रकारः अस्ति यत् एषः अनुप्रयोगः सम्भालितुं न शक्नोति तर्हि अधोलिखिते "
+"<b>निष्कासयतु</b> इति गण्ड नुत्वा तान् सूचीतः हर्तुं इच्छति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
 #: widgets/kpropertiesdesktopbase.ui:199
@@ -5272,20 +6002,28 @@ msgstr "वर्णनम्"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, addFiletypeButton)
 #: widgets/kpropertiesdesktopbase.ui:245
 #, kde-format
-msgid "Click on this button if you want to add a type of file (mimetype) that your application can handle."
-msgstr "यदि भवान् एकं प्रकारं सञ्चिकां (mimetype) योजयितुम् इच्छति यत् भवतां अनुप्रयोगः सम्भालितुं शक्नोति तर्हि एतत् गण्ड नुदतु ।."
+msgid ""
+"Click on this button if you want to add a type of file (mimetype) that your "
+"application can handle."
+msgstr ""
+"यदि भवान् एकं प्रकारं सञ्चिकां (mimetype) योजयितुम् इच्छति यत् भवतां अनुप्रयोगः सम्भालितुं "
+"शक्नोति तर्हि एतत् गण्ड नुदतु ।."
 
 #. i18n: ectx: property (text), widget (QPushButton, addFiletypeButton)
 #: widgets/kpropertiesdesktopbase.ui:248
 #, kde-format
-msgid "Add…"
-msgstr "संयोजयति…"
+msgid "Add..."
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, delFiletypeButton)
 #: widgets/kpropertiesdesktopbase.ui:255
 #, kde-format
-msgid "If you want to remove a type of file (mimetype) that your application cannot handle, select the mimetype in the list above and click on this button."
-msgstr "यदि भवान् सञ्चिकायाः प्रकारं (mimetype) अपसारयितुम् इच्छति यत् भवतां अनुप्रयोगः सम्भालितुं न शक्नोति तर्हि उपरि सूचीयां mimetype चित्वा एतत् गण्ड नुदतु ।."
+msgid ""
+"If you want to remove a type of file (mimetype) that your application cannot "
+"handle, select the mimetype in the list above and click on this button."
+msgstr ""
+"यदि भवान् सञ्चिकायाः प्रकारं (mimetype) अपसारयितुम् इच्छति यत् भवतां अनुप्रयोगः सम्भालितुं "
+"न शक्नोति तर्हि उपरि सूचीयां mimetype चित्वा एतत् गण्ड नुदतु ।."
 
 #. i18n: ectx: property (text), widget (QPushButton, delFiletypeButton)
 #: widgets/kpropertiesdesktopbase.ui:258
@@ -5296,8 +6034,12 @@ msgstr "निष्कासयतु"
 #. i18n: ectx: property (whatsThis), widget (QPushButton, advancedButton)
 #: widgets/kpropertiesdesktopbase.ui:281
 #, kde-format
-msgid "Click here to modify the way this application will run, launch feedback, D-Bus options or to run it as a different user."
-msgstr "एतत् अनुप्रयोगं चालयिष्यति इति प्रकारं परिवर्तयितुं, प्रतिक्रियां, D-Bus विकल्पान् प्रारम्भं कर्तुं वा भिन्नप्रयोक्तृरूपेण चालयितुं अत्र नोदनम् कुर्वन्तु ।."
+msgid ""
+"Click here to modify the way this application will run, launch feedback, D-"
+"Bus options or to run it as a different user."
+msgstr ""
+"एतत् अनुप्रयोगं चालयिष्यति इति प्रकारं परिवर्तयितुं, प्रतिक्रियां, D-Bus विकल्पान् प्रारम्भं "
+"कर्तुं वा भिन्नप्रयोक्तृरूपेण चालयितुं अत्र नोदनम् कुर्वन्तु ।."
 
 #. i18n: ectx: property (text), widget (QPushButton, advancedButton)
 #: widgets/kpropertiesdesktopbase.ui:284
@@ -5308,8 +6050,11 @@ msgstr "उन्नतविकल्पाः"
 #: widgets/kpropertiesdialog.cpp:171
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Could not save properties due to insufficient write access to:<nl/><filename>%1</filename>."
-msgstr "अत्र अपर्याप्तलेखनअभिगमः गुणाः रक्षितुं न शक्तवान्:<nl/><filename>%1</filename> ।."
+msgid ""
+"Could not save properties due to insufficient write access to:<nl/><filename>"
+"%1</filename>."
+msgstr ""
+"अत्र अपर्याप्तलेखनअभिगमः गुणाः रक्षितुं न शक्तवान्:<nl/><filename>%1</filename> ।."
 
 #: widgets/kpropertiesdialog.cpp:228 widgets/kpropertiesdialog.cpp:243
 #: widgets/kpropertiesdialog.cpp:255 widgets/kpropertiesdialog.cpp:273
@@ -5366,9 +6111,12 @@ msgid "Unknown size"
 msgstr "अज्ञात आकारः"
 
 #: widgets/kpropertiesdialog.cpp:1308
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "Calculating… %1 (%2)\n"
+#| "%3, %4"
 msgid ""
-"Calculating… %1 (%2)\n"
+"Calculating... %1 (%2)\n"
 "%3, %4"
 msgstr ""
 "गणनां कुर्वन्… %1 (%2)\n"
@@ -5389,8 +6137,9 @@ msgstr[0] "१ उपपुटम्"
 msgstr[1] "%1 उपपुटाः"
 
 #: widgets/kpropertiesdialog.cpp:1340
-#, kde-format
-msgid "Calculating…\n"
+#, fuzzy, kde-format
+#| msgid "Calculating…\n"
+msgid "Calculating...\n"
 msgstr "गणनां कुर्वन्…\n"
 
 #: widgets/kpropertiesdialog.cpp:1363
@@ -5503,7 +6252,9 @@ msgstr "अन्यः :"
 
 #: widgets/kpropertiesdialog.cpp:1846
 #, kde-format
-msgid "Specifies the actions that all users, who are neither owner nor in the group, are allowed to do."
+msgid ""
+"Specifies the actions that all users, who are neither owner nor in the "
+"group, are allowed to do."
 msgstr "सर्वेषां उपयोक्तृणां, ये न स्वामिनः न च समूहे, तानि क्रियाणि निर्दिशति ।."
 
 #: widgets/kpropertiesdialog.cpp:1850
@@ -5518,13 +6269,23 @@ msgstr "&निष्पादनीयः अस्ति"
 
 #: widgets/kpropertiesdialog.cpp:1853
 #, kde-format
-msgid "Enable this option to allow only the folder's owner to delete or rename the contained files and folders. Other users can only add new files, which requires the 'Modify Content' permission."
-msgstr "केवलं पुटस्य स्वामिना एव समाविष्टानि सञ्चिकानि, पुटकानि च विलोपयितुं नाम परिवर्तनं वा कर्तुं अनुमतिं दातुं एतत् विकल्पं सक्षमं कुर्वन्तु ।. अन्ये उपयोक्तारः केवलं नूतनाः सञ्चिकाः योजयितुं शक्नुवन्ति, यस्य कृते 'सामग्रीं परिवर्तयति' इति अनुमतिः आवश्यकी भवति ।."
+msgid ""
+"Enable this option to allow only the folder's owner to delete or rename the "
+"contained files and folders. Other users can only add new files, which "
+"requires the 'Modify Content' permission."
+msgstr ""
+"केवलं पुटस्य स्वामिना एव समाविष्टानि सञ्चिकानि, पुटकानि च विलोपयितुं नाम परिवर्तनं वा "
+"कर्तुं अनुमतिं दातुं एतत् विकल्पं सक्षमं कुर्वन्तु ।. अन्ये उपयोक्तारः केवलं नूतनाः सञ्चिकाः योजयितुं "
+"शक्नुवन्ति, यस्य कृते 'सामग्रीं परिवर्तयति' इति अनुमतिः आवश्यकी भवति ।."
 
 #: widgets/kpropertiesdialog.cpp:1857
 #, kde-format
-msgid "Enable this option to mark the file as executable. This only makes sense for programs and scripts. It is required when you want to execute them."
-msgstr "सञ्चिकां कार्यान्वयनीयरूपेण चिह्नितुं एतत् विकल्पं सक्षमं कुर्वन्तु । एतस्य केवलं कार्यक्रमानां लिपिनां च कृते अर्थः भवति । यदा भवन्तः तान् निष्पादयितुम् इच्छन्ति तदा आवश्यकम् ।."
+msgid ""
+"Enable this option to mark the file as executable. This only makes sense for "
+"programs and scripts. It is required when you want to execute them."
+msgstr ""
+"सञ्चिकां कार्यान्वयनीयरूपेण चिह्नितुं एतत् विकल्पं सक्षमं कुर्वन्तु । एतस्य केवलं कार्यक्रमानां "
+"लिपिनां च कृते अर्थः भवति । यदा भवन्तः तान् निष्पादयितुम् इच्छन्ति तदा आवश्यकम् ।."
 
 #: widgets/kpropertiesdialog.cpp:1864
 #, kde-format
@@ -5596,8 +6357,12 @@ msgstr ""
 
 #: widgets/kpropertiesdialog.cpp:2031
 #, kde-format
-msgid "This flag allows adding, renaming and deleting of files. Note that deleting and renaming can be limited using the Sticky flag."
-msgstr "एषः ध्वजः सञ्चिकानां योजनं, नाम परिवर्तनं, विलोपनं च कर्तुं शक्नोति । ध्यानं कुर्वन्तु यत् चिपचिपा (Sticky) ध्वजस्य उपयोगेन विलोपनं नाम परिवर्तनं च सीमितं कर्तुं शक्यते ।."
+msgid ""
+"This flag allows adding, renaming and deleting of files. Note that deleting "
+"and renaming can be limited using the Sticky flag."
+msgstr ""
+"एषः ध्वजः सञ्चिकानां योजनं, नाम परिवर्तनं, विलोपनं च कर्तुं शक्नोति । ध्यानं कुर्वन्तु यत् "
+"चिपचिपा (Sticky) ध्वजस्य उपयोगेन विलोपनं नाम परिवर्तनं च सीमितं कर्तुं शक्यते ।."
 
 #: widgets/kpropertiesdialog.cpp:2034
 #, kde-format
@@ -5637,12 +6402,16 @@ msgstr "विशेषः"
 
 #: widgets/kpropertiesdialog.cpp:2058
 #, kde-format
-msgid "Special flag. Valid for the whole folder, the exact meaning of the flag can be seen in the right hand column."
+msgid ""
+"Special flag. Valid for the whole folder, the exact meaning of the flag can "
+"be seen in the right hand column."
 msgstr "विशेषध्वजः । समग्रपुटस्य कृते वैधः, ध्वजस्य सटीकः अर्थः दक्षिणहस्तस्तम्भे दृश्यते ।."
 
 #: widgets/kpropertiesdialog.cpp:2062
 #, kde-format
-msgid "Special flag. The exact meaning of the flag can be seen in the right hand column."
+msgid ""
+"Special flag. The exact meaning of the flag can be seen in the right hand "
+"column."
 msgstr "विशेषध्वजः । ध्वजस्य सम्यक् अर्थः दक्षिणहस्तस्तम्भे दृश्यते ।."
 
 #: widgets/kpropertiesdialog.cpp:2067
@@ -5657,33 +6426,57 @@ msgstr "समूहम्"
 
 #: widgets/kpropertiesdialog.cpp:2082
 #, kde-format
-msgid "If this flag is set, the owner of this folder will be the owner of all new files."
-msgstr "यदि एषः ध्वजः निरूपयत् भवति तर्हि अस्य पुटस्य स्वामी सर्वेषां नूतनानां सञ्चिकानां स्वामी भविष्यति ।."
+msgid ""
+"If this flag is set, the owner of this folder will be the owner of all new "
+"files."
+msgstr ""
+"यदि एषः ध्वजः निरूपयत् भवति तर्हि अस्य पुटस्य स्वामी सर्वेषां नूतनानां सञ्चिकानां स्वामी "
+"भविष्यति ।."
 
 #: widgets/kpropertiesdialog.cpp:2086
 #, kde-format
-msgid "If this file is an executable and the flag is set, it will be executed with the permissions of the owner."
-msgstr "यदि एषा सञ्चिका कार्यान्वयनीयः अस्ति तथा च ध्वजः निरूपयत् कृतः अस्ति तर्हि स्वामिनः अनुमतिभिः सह निष्पादितः भविष्यति ।."
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the owner."
+msgstr ""
+"यदि एषा सञ्चिका कार्यान्वयनीयः अस्ति तथा च ध्वजः निरूपयत् कृतः अस्ति तर्हि स्वामिनः "
+"अनुमतिभिः सह निष्पादितः भविष्यति ।."
 
 #: widgets/kpropertiesdialog.cpp:2093
 #, kde-format
-msgid "If this flag is set, the group of this folder will be set for all new files."
-msgstr "यदि एषः ध्वजः निरूपयत् भवति तर्हि अस्य पुटस्य समूहः सर्वेषां नूतनानां सञ्चिकानां कृते निरूपयत् भविष्यति ।."
+msgid ""
+"If this flag is set, the group of this folder will be set for all new files."
+msgstr ""
+"यदि एषः ध्वजः निरूपयत् भवति तर्हि अस्य पुटस्य समूहः सर्वेषां नूतनानां सञ्चिकानां कृते निरूपयत् "
+"भविष्यति ।."
 
 #: widgets/kpropertiesdialog.cpp:2097
 #, kde-format
-msgid "If this file is an executable and the flag is set, it will be executed with the permissions of the group."
-msgstr "यदि एषा सञ्चिका कार्यान्वयनीयः अस्ति तथा च ध्वजः निरूपयत् कृतः अस्ति तर्हि समूहस्य अनुमतिभिः सह निष्पादितः भविष्यति ।."
+msgid ""
+"If this file is an executable and the flag is set, it will be executed with "
+"the permissions of the group."
+msgstr ""
+"यदि एषा सञ्चिका कार्यान्वयनीयः अस्ति तथा च ध्वजः निरूपयत् कृतः अस्ति तर्हि समूहस्य "
+"अनुमतिभिः सह निष्पादितः भविष्यति ।."
 
 #: widgets/kpropertiesdialog.cpp:2104
 #, kde-format
-msgid "If the Sticky flag is set on a folder, only the owner and root can delete or rename files. Otherwise everybody with write permissions can do this."
-msgstr "यदि चिपचिपा (Sticky) ध्वजः कस्मिन्चित् पुटे निरूपयत् भवति तर्हि केवलं स्वामिः मूलं च सञ्चिकाः विलोपयितुं वा नाम परिवर्तयितुं वा शक्नुवन्ति । अन्यथा लेखन-अनुमतियुक्ताः सर्वे एतत् कर्तुं शक्नुवन्ति ।."
+msgid ""
+"If the Sticky flag is set on a folder, only the owner and root can delete or "
+"rename files. Otherwise everybody with write permissions can do this."
+msgstr ""
+"यदि चिपचिपा (Sticky) ध्वजः कस्मिन्चित् पुटे निरूपयत् भवति तर्हि केवलं स्वामिः मूलं च "
+"सञ्चिकाः विलोपयितुं वा नाम परिवर्तयितुं वा शक्नुवन्ति । अन्यथा लेखन-अनुमतियुक्ताः सर्वे एतत् "
+"कर्तुं शक्नुवन्ति ।."
 
 #: widgets/kpropertiesdialog.cpp:2109
 #, kde-format
-msgid "The Sticky flag on a file is ignored on Linux, but may be used on some systems"
-msgstr "सञ्चिकायां चिपचिपा (Sticky) ध्वजः Linux इत्यत्र उपेक्षितः भवति, परन्तु केषुचित् प्रणालीषु तस्य उपयोगः भवितुम् अर्हति"
+msgid ""
+"The Sticky flag on a file is ignored on Linux, but may be used on some "
+"systems"
+msgstr ""
+"सञ्चिकायां चिपचिपा (Sticky) ध्वजः Linux इत्यत्र उपेक्षितः भवति, परन्तु केषुचित् प्रणालीषु "
+"तस्य उपयोगः भवितुम् अर्हति"
 
 #: widgets/kpropertiesdialog.cpp:2170
 #, kde-format
@@ -5738,9 +6531,11 @@ msgstr "C&hecksums"
 
 #: widgets/kpropertiesdialog.cpp:2763 widgets/kpropertiesdialog.cpp:2774
 #: widgets/kpropertiesdialog.cpp:2785 widgets/kpropertiesdialog.cpp:2796
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Calculating…"
 msgctxt "@action:button"
-msgid "Calculating…"
+msgid "Calculating..."
 msgstr "गणनां कुर्वन्…"
 
 #: widgets/kpropertiesdialog.cpp:2952
@@ -5767,8 +6562,14 @@ msgstr "गणितं चेकसमं (checksum) अपेक्षित�
 
 #: widgets/kpropertiesdialog.cpp:2981
 #, kde-format
-msgid "<p>Checksums do not match.</p>This may be due to a faulty download. Try re-downloading the file.<br/>If the verification still fails, contact the source of the file."
-msgstr "<p>चेकसमः (Checksums) न मेलति।.</p> एतत् दोषपूर्णस्य आवाहनम् इत्यस्य कारणेन भवितुम् अर्हति ।. सञ्चिकां पुनः अवतरणं कर्तुं प्रयतस्व। <br/>यदि सत्यापनम् अद्यापि विफलं भवति तर्हि सञ्चिकायाः स्रोतः सम्पर्कं कुर्वन्तु ।."
+msgid ""
+"<p>Checksums do not match.</p>This may be due to a faulty download. Try re-"
+"downloading the file.<br/>If the verification still fails, contact the "
+"source of the file."
+msgstr ""
+"<p>चेकसमः (Checksums) न मेलति।.</p> एतत् दोषपूर्णस्य आवाहनम् इत्यस्य कारणेन भवितुम् "
+"अर्हति ।. सञ्चिकां पुनः अवतरणं कर्तुं प्रयतस्व। <br/>यदि सत्यापनम् अद्यापि विफलं भवति तर्हि "
+"सञ्चिकायाः स्रोतः सम्पर्कं कुर्वन्तु ।."
 
 #: widgets/kpropertiesdialog.cpp:2986
 #, kde-format
@@ -5777,9 +6578,11 @@ msgid "The computed checksum and the expected checksum differ."
 msgstr "गणितं चेकसमं (checksum) अपेक्षितं चेकसमं (checksum) च भिन्नं भवति ।."
 
 #: widgets/kpropertiesdialog.cpp:2994
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "notify the user about a computation in the background"
+#| msgid "Verifying checksum…"
 msgctxt "notify the user about a computation in the background"
-msgid "Verifying checksum…"
+msgid "Verifying checksum..."
 msgstr "Checksum सत्यापनम्…"
 
 #: widgets/kpropertiesdialog.cpp:3083
@@ -5794,7 +6597,8 @@ msgstr "प्रारूपितं संविदितस्रोतः�
 
 #: widgets/kpropertiesdialog.cpp:3159 widgets/kpropertiesdialog.cpp:3424
 #, kde-format
-msgid "Could not save properties. Only entries on local file systems are supported."
+msgid ""
+"Could not save properties. Only entries on local file systems are supported."
 msgstr "गुणाः रक्षितुं न शक्तवान् । केवलं स्थानीयसञ्चिकातन्त्रेषु प्रविष्टयः समर्थिताः सन्ति ।."
 
 #: widgets/kpropertiesdialog.cpp:3231
@@ -5846,7 +6650,8 @@ msgstr "वर्तमानसंयोजनं SSL इत्यनेन स
 
 #: widgets/ksslinfodialog.cpp:86
 #, kde-format
-msgid "The main part of this document is secured with SSL, but some parts are not."
+msgid ""
+"The main part of this document is secured with SSL, but some parts are not."
 msgstr "अस्य दस्तावेजस्य मुख्यभागः SSL इत्यनेन सुरक्षितः अस्ति, परन्तु केचन भागाः न सन्ति ।."
 
 #: widgets/ksslinfodialog.cpp:93
@@ -5911,8 +6716,9 @@ msgid "%1"
 msgstr "%1"
 
 #: widgets/kurifiltersearchprovideractions.cpp:94
-#, kde-format
-msgid "Configure Web Shortcuts…"
+#, fuzzy, kde-format
+#| msgid "Configure Web Shortcuts…"
+msgid "Configure Web Shortcuts..."
 msgstr "जालसंक्षिप्तमार्गः विन्यस्तं कुर्वन्तु…"
 
 #: widgets/kurlrequester.cpp:389
@@ -5932,8 +6738,12 @@ msgstr "%1 (%2)"
 
 #: widgets/paste.cpp:130
 #, kde-format
-msgid "The clipboard has changed since you used 'paste': the chosen data format is no longer applicable. Please copy again what you wanted to paste."
-msgstr "भवता 'संस्थापयतु' इत्यस्य उपयोगः कृतः ततः परं अंशफलकम् परिवर्तितम् अस्ति: चयनितं दत्तांशस्वरूपं पुनः प्रयोज्यम् नास्ति । कृपया यत् चिनोतु इच्छसि तत् पुनः प्रतिलिख्यताम् ।."
+msgid ""
+"The clipboard has changed since you used 'paste': the chosen data format is "
+"no longer applicable. Please copy again what you wanted to paste."
+msgstr ""
+"भवता 'संस्थापयतु' इत्यस्य उपयोगः कृतः ततः परं अंशफलकम् परिवर्तितम् अस्ति: चयनितं "
+"दत्तांशस्वरूपं पुनः प्रयोज्यम् नास्ति । कृपया यत् चिनोतु इच्छसि तत् पुनः प्रतिलिख्यताम् ।."
 
 #: widgets/paste.cpp:252
 #, kde-format
@@ -5956,9 +6766,11 @@ msgstr[0] "एकं द्रव्यं संस्थापयतु"
 msgstr[1] "%1 द्रव्यं संस्थापयन्तु"
 
 #: widgets/paste.cpp:256
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Paste Clipboard Contents…"
 msgctxt "@action:inmenu"
-msgid "Paste Clipboard Contents…"
+msgid "Paste Clipboard Contents..."
 msgstr "अंशफलकम् सामग्रीं संस्थापयन्तु…"
 
 #: widgets/paste.cpp:260
@@ -5995,16 +6807,24 @@ msgstr "&सर्वेषु प्रयोजयन्तु"
 #: widgets/renamedialog.cpp:228
 #, kde-format
 msgid ""
-"When this is checked the button pressed will be applied to all subsequent folder conflicts for the remainder of the current job.\n"
-"Unless you press Skip you will still be prompted in case of a conflict with an existing file in the directory."
+"When this is checked the button pressed will be applied to all subsequent "
+"folder conflicts for the remainder of the current job.\n"
+"Unless you press Skip you will still be prompted in case of a conflict with "
+"an existing file in the directory."
 msgstr ""
-"यदा एतत् परीक्षितं भवति तदा निपीडितं गण्डम् वर्तमानकार्यस्य शेषभागस्य कृते अनन्तरं सर्वेषु पुटविग्रहेषु प्रयुक्तं भविष्यति ।\n"
-"यावत् भवन्तः Skip न नुदन्ति तावत् भवन्तः अद्यापि निर्देशिकायां विद्यमानेन सञ्चिकायाः सह विग्रहस्य सन्दर्भे प्रार्थिताः भविष्यन्ति ।."
+"यदा एतत् परीक्षितं भवति तदा निपीडितं गण्डम् वर्तमानकार्यस्य शेषभागस्य कृते अनन्तरं सर्वेषु "
+"पुटविग्रहेषु प्रयुक्तं भविष्यति ।\n"
+"यावत् भवन्तः Skip न नुदन्ति तावत् भवन्तः अद्यापि निर्देशिकायां विद्यमानेन सञ्चिकायाः सह "
+"विग्रहस्य सन्दर्भे प्रार्थिताः भविष्यन्ति ।."
 
 #: widgets/renamedialog.cpp:232
 #, kde-format
-msgid "When this is checked the button pressed will be applied to all subsequent conflicts for the remainder of the current job."
-msgstr "यदा एतत् परीक्षितं भवति तदा निपीडितं गण्डम् वर्तमानकार्यस्य अवशिष्टस्य कृते अनन्तरं सर्वेषु विग्रहेषु प्रयुक्तं भविष्यति ।."
+msgid ""
+"When this is checked the button pressed will be applied to all subsequent "
+"conflicts for the remainder of the current job."
+msgstr ""
+"यदा एतत् परीक्षितं भवति तदा निपीडितं गण्डम् वर्तमानकार्यस्य अवशिष्टस्य कृते अनन्तरं सर्वेषु "
+"विग्रहेषु प्रयुक्तं भविष्यति ।."
 
 #: widgets/renamedialog.cpp:238
 #, kde-format
@@ -6029,7 +6849,8 @@ msgstr "एतत् पुटं प्रतिलिपिं न कुर�
 #: widgets/renamedialog.cpp:248
 #, kde-format
 msgid "Do not copy or move this file, skip to the next item instead"
-msgstr "एतां सञ्चिकां प्रतिलिपिं न कुर्वन्तु वा स्थानान्तरयन्तु वा, तस्य स्थाने अग्रिमवस्तुं प्रति गच्छन्तु"
+msgstr ""
+"एतां सञ्चिकां प्रतिलिपिं न कुर्वन्तु वा स्थानान्तरयन्तु वा, तस्य स्थाने अग्रिमवस्तुं प्रति गच्छन्तु"
 
 #: widgets/renamedialog.cpp:259
 #, kde-format
@@ -6040,8 +6861,10 @@ msgstr "&मध्ये लिखत"
 #: widgets/renamedialog.cpp:262
 #, kde-format
 msgid ""
-"Files and folders will be copied into the existing directory, alongside its existing contents.\n"
-"You will be prompted again in case of a conflict with an existing file in the directory."
+"Files and folders will be copied into the existing directory, alongside its "
+"existing contents.\n"
+"You will be prompted again in case of a conflict with an existing file in "
+"the directory."
 msgstr ""
 "सञ्चिकाः, पुटं च विद्यमानपुटे, तस्य विद्यमानसामग्रीणां पार्श्वे प्रतिलिपिताः भविष्यन्ति ।.\n"
 "पुटे विद्यमानेन सञ्चिकायाः सह विग्रहः भवति चेत् पुनः भवन्तः प्रार्थिताः भविष्यन्ति ।."
@@ -6054,8 +6877,12 @@ msgstr "&प्राचीनसञ्चिकाः अधिलेखयन�
 
 #: widgets/renamedialog.cpp:271
 #, kde-format
-msgid "Destination files which have older modification times will be overwritten by the source, skipped otherwise."
-msgstr "गन्तव्यसञ्चिकाः येषां प्राचीनपरिवर्तनसमयः अस्ति, ताः स्रोतेन अधिलिखिताः भविष्यन्ति, अन्यथा लङ्घिताः ।."
+msgid ""
+"Destination files which have older modification times will be overwritten by "
+"the source, skipped otherwise."
+msgstr ""
+"गन्तव्यसञ्चिकाः येषां प्राचीनपरिवर्तनसमयः अस्ति, ताः स्रोतेन अधिलिखिताः भविष्यन्ति, "
+"अन्यथा लङ्घिताः ।."
 
 #: widgets/renamedialog.cpp:283
 #, kde-format
@@ -6128,8 +6955,12 @@ msgstr "सञ्चिकाः भिन्नाः भवन्ति।."
 
 #: widgets/renamedialog.cpp:456
 #, kde-format
-msgid "The files are likely to be identical: they have the same size and their contents are the same at the beginning, middle and end."
-msgstr "सञ्चिकाः समानाः भवितुम् अर्हन्ति : तेषां आकारः समानः भवति तथा च तेषां सामग्रीः आरम्भे, मध्ये, अन्ते च समाना भवति ।."
+msgid ""
+"The files are likely to be identical: they have the same size and their "
+"contents are the same at the beginning, middle and end."
+msgstr ""
+"सञ्चिकाः समानाः भवितुम् अर्हन्ति : तेषां आकारः समानः भवति तथा च तेषां सामग्रीः आरम्भे, "
+"मध्ये, अन्ते च समाना भवति ।."
 
 #: widgets/renamedialog.cpp:474
 #, kde-format
@@ -6177,7 +7008,9 @@ msgstr "<filename>%1</filename> इति द्रव्यस्य नाम 
 
 #: widgets/renamefiledialog.cpp:87
 #, kde-format
-msgctxt "This a template for new filenames, # is replaced by a number later, must be the end character"
+msgctxt ""
+"This a template for new filenames, # is replaced by a number later, must be "
+"the end character"
 msgid "New name #"
 msgstr "नव नाम #"
 
@@ -6310,30 +7143,62 @@ msgstr ""
 #: widgets/widgetsaskuseractionhandler.cpp:229
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Do you really want to permanently delete this item?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr "किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
+msgid ""
+"Do you really want to permanently delete this item?<nl/><nl/><filename>%1</"
+"filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</"
+"emphasis>"
+msgstr ""
+"किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><filename>%1</"
+"filename><nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</"
+"emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:235
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Do you really want to permanently delete this %1 item?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgid_plural "Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr[0] "किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
-msgstr[1] "किं भवान् वास्तवमेव एतानि %1 वस्तूनि स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><emphasis strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
+msgid ""
+"Do you really want to permanently delete this %1 item?<nl/><nl/><emphasis "
+"strong='true'>This action cannot be undone.</emphasis>"
+msgid_plural ""
+"Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis "
+"strong='true'>This action cannot be undone.</emphasis>"
+msgstr[0] ""
+"किं भवान् वास्तवमेव एतत् द्रव्यं स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><emphasis "
+"strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
+msgstr[1] ""
+"किं भवान् वास्तवमेव एतानि %1 वस्तूनि स्थायिरूपेण विलोपयितुम् इच्छति?<nl/><nl/><emphasis "
+"strong='true'>एतत् कर्म निवर्तयितुं न शक्यते ।.</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:248
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Moving this item to Trash failed as it is too large. Permanently delete it instead?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr "एतत् द्रव्यं पुनःप्रयोगस्य कूपं प्रति स्थानान्तरणं विफलम् अभवत् यतः एतत् अतीव विशालम् अस्ति । तस्य स्थाने स्थायिरूपेण विलोपयतु?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis strong='true'>एतत् क्रिया अकृतुं न शक्यते ।</emphasis>"
+msgid ""
+"Moving this item to Trash failed as it is too large. Permanently delete it "
+"instead?<nl/><nl/><filename>%1</filename><nl/><nl/><emphasis "
+"strong='true'>This action cannot be undone.</emphasis>"
+msgstr ""
+"एतत् द्रव्यं पुनःप्रयोगस्य कूपं प्रति स्थानान्तरणं विफलम् अभवत् यतः एतत् अतीव विशालम् अस्ति । "
+"तस्य स्थाने स्थायिरूपेण विलोपयतु?<nl/><nl/><filename>%1</filename><nl/><nl/"
+"><emphasis strong='true'>एतत् क्रिया अकृतुं न शक्यते ।</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:255
 #, kde-kuit-format
 msgctxt "@info"
-msgid "Moving this %1 item to Trash failed as it is too large. Permanently delete it instead?<nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgid_plural "Moving these %1 items to Trash failed as they are too large. Permanently delete them instead?<nl/><nl/><emphasis strong='true'>This action cannot be undone.</emphasis>"
-msgstr[0] "एतत् %1 द्रव्यं पुनः प्रयोग कूपः-मध्ये स्थानान्तरणं विफलम् अभवत् यतः एतत् अतीव विशालम् अस्ति । तस्य स्थाने स्थायिरूपेण लोपयन्तु?<nl/><emphasis strong='true'>एतत् कर्म अकृतुं न शक्यते।</emphasis>"
-msgstr[1] "एतानि %1 वस्तूनि पुनः प्रयोग कूपे स्थानान्तरयितुं विफलम् यतः ते अतीव विशालाः सन्ति । तस्य स्थाने तान् स्थायिरूपेण लोपयन्तु?<nl/><nl/><emphasis strong='true'>एतत् कर्म अकृतुं न शक्यते।</emphasis>"
+msgid ""
+"Moving this %1 item to Trash failed as it is too large. Permanently delete "
+"it instead?<nl/><emphasis strong='true'>This action cannot be undone.</"
+"emphasis>"
+msgid_plural ""
+"Moving these %1 items to Trash failed as they are too large. Permanently "
+"delete them instead?<nl/><nl/><emphasis strong='true'>This action cannot be "
+"undone.</emphasis>"
+msgstr[0] ""
+"एतत् %1 द्रव्यं पुनः प्रयोग कूपः-मध्ये स्थानान्तरणं विफलम् अभवत् यतः एतत् अतीव विशालम् अस्ति "
+"। तस्य स्थाने स्थायिरूपेण लोपयन्तु?<nl/><emphasis strong='true'>एतत् कर्म अकृतुं न शक्यते।</"
+"emphasis>"
+msgstr[1] ""
+"एतानि %1 वस्तूनि पुनः प्रयोग कूपे स्थानान्तरयितुं विफलम् यतः ते अतीव विशालाः सन्ति । तस्य "
+"स्थाने तान् स्थायिरूपेण लोपयन्तु?<nl/><nl/><emphasis strong='true'>एतत् कर्म अकृतुं न "
+"शक्यते।</emphasis>"
 
 #: widgets/widgetsaskuseractionhandler.cpp:283
 #, kde-kuit-format
@@ -6387,3 +7252,25 @@ msgstr "एतेन कार्यक्रमः आरभ्यते :"
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr "यदि भवान् अस्मिन् कार्यक्रमे विश्वासं न करोति तर्हि रद्द (Cancel) नुदतु"
+
+#~ msgid "New Folder…"
+#~ msgstr "नूतनं पुटम्…"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add…"
+#~ msgstr "संयोजयति…"
+
+#~ msgctxt "@action:button"
+#~ msgid "Edit…"
+#~ msgstr "सम्पादयतु…"
+
+#~ msgctxt "@title:menu"
+#~ msgid "&Open Folder With…"
+#~ msgstr "&एतेन सह पुटं उद्घाटयन्तु…"
+
+#~ msgctxt "@title:menu"
+#~ msgid "&Open With…"
+#~ msgstr "&एतेन उद्घाटयन्तु…"
+
+#~ msgid "Add…"
+#~ msgstr "संयोजयति…"
