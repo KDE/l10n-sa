@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: elisa\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-19 01:55+0000\n"
+"POT-Creation-Date: 2023-09-28 01:39+0000\n"
 "PO-Revision-Date: 2023-09-28 00:31+0530\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
@@ -29,7 +29,8 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
 
-#: databaseinterface.cpp:7252 databaseinterface.cpp:8298 databaseinterface.cpp:8382
+#: databaseinterface.cpp:7252 databaseinterface.cpp:8298
+#: databaseinterface.cpp:8382
 #, kde-format
 msgctxt "@item:intable"
 msgid "Various Artists"
@@ -335,19 +336,19 @@ msgctxt "@label:textbox Image address for radio metadata view"
 msgid "Image Address"
 msgstr "चित्र पता"
 
-#: models/viewsmodel.cpp:105 viewslistdata.cpp:55 viewslistdata.cpp:551
+#: models/viewsmodel.cpp:105 viewslistdata.cpp:55 viewslistdata.cpp:525
 #, kde-format
 msgctxt "@title:window Title of the view of all albums"
 msgid "Albums"
 msgstr "सङ्गीतराशिः"
 
-#: models/viewsmodel.cpp:108 viewslistdata.cpp:104 viewslistdata.cpp:587
+#: models/viewsmodel.cpp:108 viewslistdata.cpp:104 viewslistdata.cpp:561
 #, kde-format
 msgctxt "@title:window Title of the view of all genres"
 msgid "Genres"
 msgstr "विधाः"
 
-#: models/viewsmodel.cpp:111 viewslistdata.cpp:69 viewslistdata.cpp:569
+#: models/viewsmodel.cpp:111 viewslistdata.cpp:69 viewslistdata.cpp:543
 #, kde-format
 msgctxt "@title:window Title of the view of all artists"
 msgid "Artists"
@@ -401,7 +402,8 @@ msgctxt "@action:inmenu"
 msgid "Scan for New Music"
 msgstr "नूतनं सङ्गीतं अन्वेष्टुम्"
 
-#: qml/ApplicationMenu.qml:44 qml/NativeGlobalMenu.qml:33 qml/NativeTrayMenu.qml:31
+#: qml/ApplicationMenu.qml:44 qml/NativeGlobalMenu.qml:33
+#: qml/NativeTrayMenu.qml:31
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Reset Database and Re-Scan Everything"
@@ -415,7 +417,9 @@ msgstr "रङ्ग योजना"
 
 #: qml/ContextView.qml:39
 #, kde-format
-msgctxt "@title:window Title of the context view related to the currently playing track"
+msgctxt ""
+"@title:window Title of the context view related to the currently playing "
+"track"
 msgid "Now Playing"
 msgstr "अधुना वादयति"
 
@@ -437,8 +441,8 @@ msgctxt "@option:radio One of the 'now playing' views"
 msgid "Lyrics"
 msgstr "गीतस्य पङ्क्तयः"
 
-#: qml/ContextView.qml:126 qml/MediaPlayerControl.qml:235 qml/mobile/MobileTrackPlayer.qml:364
-#: qml/NavigationActionBar.qml:140
+#: qml/ContextView.qml:126 qml/MediaPlayerControl.qml:235
+#: qml/mobile/MobileTrackPlayer.qml:364 qml/NavigationActionBar.qml:140
 #, kde-format
 msgctxt "@action:button"
 msgid "Show Playlist"
@@ -464,7 +468,9 @@ msgstr "पुटे दर्शयतु"
 
 #: qml/DurationSlider.qml:45
 #, kde-format
-msgctxt "@info:placeholder This is used to preserve a fixed width for the duration text."
+msgctxt ""
+"@info:placeholder This is used to preserve a fixed width for the duration "
+"text."
 msgid "00:00:00"
 msgstr "00:00:00"
 
@@ -525,8 +531,11 @@ msgstr "अपाकरोतु"
 #: qml/ElisaMainWindow.qml:60 qml/ElisaMainWindow.qml:512
 #, kde-format
 msgctxt "@info:status"
-msgid "Could not load some files. Elisa can only open audio and playlist files."
-msgstr "काश्चन सञ्चिकाः आरोपय कर्तुं न शक्तवान् । एलिसा केवलं श्रव्य-वादनीयसूची-सञ्चिकाः एव उद्घाटयितुं शक्नोति ।."
+msgid ""
+"Could not load some files. Elisa can only open audio and playlist files."
+msgstr ""
+"काश्चन सञ्चिकाः आरोपय कर्तुं न शक्तवान् । एलिसा केवलं श्रव्य-वादनीयसूची-सञ्चिकाः एव "
+"उद्घाटयितुं शक्नोति ।."
 
 #: qml/ElisaMainWindow.qml:121 qml/mobile/MobileSidebar.qml:20
 #, kde-format
@@ -542,19 +551,25 @@ msgstr "%1 — एलिसा"
 
 #: qml/ElisaMainWindow.qml:190
 #, kde-format
-msgctxt "@option file type (mime type) for m3u, m3u8 playlist file formats; do not translate *.m3u*"
+msgctxt ""
+"@option file type (mime type) for m3u, m3u8 playlist file formats; do not "
+"translate *.m3u*"
 msgid "m3u8, m3u Playlist File (*.m3u*)"
 msgstr "m3u8, m3u वादनीयसूची सञ्चिका (*.m3u*)"
 
 #: qml/ElisaMainWindow.qml:190
 #, kde-format
-msgctxt "@option file type (mime type) for pls playlist file formats; do not translate *.pls"
+msgctxt ""
+"@option file type (mime type) for pls playlist file formats; do not "
+"translate *.pls"
 msgid "pls Playlist File (*.pls)"
 msgstr "pls वादनीयसूची सञ्चिका (*.pls)"
 
 #: qml/ElisaMainWindow.qml:197
 #, kde-format
-msgctxt "@option file type (mime type) for m3u, m3u8 and pls playlist file formats; do not translate *.m3u8 *.m3u *.pls"
+msgctxt ""
+"@option file type (mime type) for m3u, m3u8 and pls playlist file formats; "
+"do not translate *.m3u8 *.m3u *.pls"
 msgid "m3u8, m3u, pls Playlist File (*.m3u8 *.m3u *.pls)"
 msgstr "m3u8, m3u, pls वादनीयसूची सञ्चिका (*.m3u8 *.m3u *.pls)"
 
@@ -576,8 +591,8 @@ msgctxt "@action:button"
 msgid "Add to playlist"
 msgstr "वादनीयसूची मध्ये योजयतु"
 
-#: qml/GridBrowserDelegate.qml:79 qml/ListBrowserDelegate.qml:69 qml/mobile/MobilePlayListDelegate.qml:167
-#: qml/PlayListEntry.qml:87
+#: qml/GridBrowserDelegate.qml:79 qml/ListBrowserDelegate.qml:69
+#: qml/mobile/MobilePlayListDelegate.qml:167 qml/PlayListEntry.qml:87
 #, kde-format
 msgctxt "@action:button Show the file for this song in the file manager"
 msgid "Show in folder"
@@ -595,7 +610,8 @@ msgctxt "@action:button"
 msgid "Exit Full Screen"
 msgstr "पूर्णपर्दे निर्गच्छन्तु"
 
-#: qml/ListBrowserDelegate.qml:76 qml/mobile/MobilePlayListDelegate.qml:173 qml/PlayListEntry.qml:94
+#: qml/ListBrowserDelegate.qml:76 qml/mobile/MobilePlayListDelegate.qml:173
+#: qml/PlayListEntry.qml:94
 #, kde-format
 msgctxt "@action:button Show track metadata"
 msgid "View details"
@@ -613,13 +629,15 @@ msgctxt "@action:button"
 msgid "Set track rating"
 msgstr "संगीतपङ्क्ति मूल्याङ्कनं निर्धारयन्तु"
 
-#: qml/ListBrowserDelegate.qml:100 qml/MediaTrackMetadataDelegate.qml:132 qml/PlayListEntry.qml:118
+#: qml/ListBrowserDelegate.qml:100 qml/MediaTrackMetadataDelegate.qml:132
+#: qml/PlayListEntry.qml:118
 #, kde-format
 msgctxt "@action:button"
 msgid "Un-mark this song as a favorite"
 msgstr "अस्मात् गीतात् प्रियं रूपेण चिह्नं निष्कासयन्तु"
 
-#: qml/ListBrowserDelegate.qml:100 qml/MediaTrackMetadataDelegate.qml:132 qml/PlayListEntry.qml:118
+#: qml/ListBrowserDelegate.qml:100 qml/MediaTrackMetadataDelegate.qml:132
+#: qml/PlayListEntry.qml:118
 #, kde-format
 msgctxt "@action:button"
 msgid "Mark this song as a favorite"
@@ -661,19 +679,25 @@ msgctxt "@action:button"
 msgid "Toggle Party Mode"
 msgstr "उत्सव पद्धति विभाषयति"
 
-#: qml/MediaPlayerControl.qml:94 qml/mobile/MobileMinimizedPlayerControl.qml:226 qml/mobile/MobileTrackPlayer.qml:318
+#: qml/MediaPlayerControl.qml:94
+#: qml/mobile/MobileMinimizedPlayerControl.qml:226
+#: qml/mobile/MobileTrackPlayer.qml:318
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip Backward"
 msgstr "पिछड़ा लङ्घयन्तु"
 
-#: qml/MediaPlayerControl.qml:102 qml/mobile/MobileMinimizedPlayerControl.qml:242 qml/mobile/MobileTrackPlayer.qml:333
+#: qml/MediaPlayerControl.qml:102
+#: qml/mobile/MobileMinimizedPlayerControl.qml:242
+#: qml/mobile/MobileTrackPlayer.qml:333
 #, kde-format
 msgctxt "@action:button Pause any media that is playing"
 msgid "Pause"
 msgstr "विरामयतु"
 
-#: qml/MediaPlayerControl.qml:102 qml/mobile/MobileMinimizedPlayerControl.qml:242 qml/mobile/MobileTrackPlayer.qml:333
+#: qml/MediaPlayerControl.qml:102
+#: qml/mobile/MobileMinimizedPlayerControl.qml:242
+#: qml/mobile/MobileTrackPlayer.qml:333
 #, kde-format
 msgctxt "@action:button Start playing media"
 msgid "Play"
@@ -742,8 +766,8 @@ msgstr "अनुप्रयोग सूचि"
 #: qml/MediaPlayListView.qml:27
 #, kde-format
 msgctxt ""
-"@title:window Title of the view of the playlist; keep this string as short as possible because horizontal space is quite "
-"scarce"
+"@title:window Title of the view of the playlist; keep this string as short "
+"as possible because horizontal space is quite scarce"
 msgid "Playlist"
 msgstr "वादनीयसूची"
 
@@ -762,8 +786,12 @@ msgstr "आरोपयतु…"
 #: qml/MediaPlayListView.qml:99
 #, kde-format
 msgctxt "@info"
-msgid "Failed to load some tracks. Make sure that they have not been removed or renamed."
-msgstr "केचन संगीतपङ्क्ति आरोपयत कर्तुं असफलाः। तेषां निष्कासनं वा नाम परिवर्तनं वा न कृतम् इति सुनिश्चितं कुर्वन्तु ।."
+msgid ""
+"Failed to load some tracks. Make sure that they have not been removed or "
+"renamed."
+msgstr ""
+"केचन संगीतपङ्क्ति आरोपयत कर्तुं असफलाः। तेषां निष्कासनं वा नाम परिवर्तनं वा न कृतम् इति "
+"सुनिश्चितं कुर्वन्तु ।."
 
 #: qml/MediaPlayListView.qml:105
 #, kde-format
@@ -780,8 +808,12 @@ msgstr "वादनीयसूची रिक्तम् अस्ति"
 #: qml/MediaPlayListView.qml:273
 #, kde-format
 msgctxt "@info:usagetip"
-msgid "Add some songs to get started. You can browse your music using the views on the left."
-msgstr "आरम्भार्थं केचन गीतानि योजयन्तु। वामतः दृश्यानां उपयोगेन भवान् स्वसङ्गीतं गवेषय कर्तुं शक्नोति ।."
+msgid ""
+"Add some songs to get started. You can browse your music using the views on "
+"the left."
+msgstr ""
+"आरम्भार्थं केचन गीतानि योजयन्तु। वामतः दृश्यानां उपयोगेन भवान् स्वसङ्गीतं गवेषय कर्तुं शक्नोति "
+"।."
 
 #: qml/MediaPlayListView.qml:347
 #, kde-format
@@ -813,7 +845,9 @@ msgstr[1] "%1 शेषः"
 
 #: qml/MediaPlayListView.qml:441
 #, kde-format
-msgctxt "@info:status %1 is the translation of track[s], %2 is the translation of remaining"
+msgctxt ""
+"@info:status %1 is the translation of track[s], %2 is the translation of "
+"remaining"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
@@ -853,31 +887,36 @@ msgctxt "@action:button"
 msgid "Delete"
 msgstr "विलोपयतु"
 
-#: qml/MediaTrackMetadataView.qml:35 qml/mobile/MobileMediaTrackMetadataView.qml:39
+#: qml/MediaTrackMetadataView.qml:35
+#: qml/mobile/MobileMediaTrackMetadataView.qml:39
 #, kde-format
 msgctxt "@title:window"
 msgid "Create a Radio"
 msgstr "एकं आकाशवाणी रचयन्तु"
 
-#: qml/MediaTrackMetadataView.qml:36 qml/mobile/MobileMediaTrackMetadataView.qml:40
+#: qml/MediaTrackMetadataView.qml:36
+#: qml/mobile/MobileMediaTrackMetadataView.qml:40
 #, kde-format
 msgctxt "@title:window"
 msgid "View details"
 msgstr "विवरणं पश्यन्तु"
 
-#: qml/mobile/MobileMediaTrackMetadataView.qml:45 qml/mobile/MobileSettingsPage.qml:36
+#: qml/mobile/MobileMediaTrackMetadataView.qml:45
+#: qml/mobile/MobileSettingsPage.qml:36
 #, kde-format
 msgctxt "@action:button"
 msgid "Close"
 msgstr "निमील्यताम्"
 
-#: qml/mobile/MobileMediaTrackMetadataView.qml:53 qml/mobile/MobileSettingsPage.qml:28
+#: qml/mobile/MobileMediaTrackMetadataView.qml:53
+#: qml/mobile/MobileSettingsPage.qml:28
 #, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "रक्षतु"
 
-#: qml/mobile/MobileMinimizedPlayerControl.qml:258 qml/mobile/MobileTrackPlayer.qml:348
+#: qml/mobile/MobileMinimizedPlayerControl.qml:258
+#: qml/mobile/MobileTrackPlayer.qml:348
 #, kde-format
 msgctxt "@action:button"
 msgid "Skip Forward"
@@ -1035,7 +1074,9 @@ msgstr "एकम्‌"
 
 #: qml/NativeGlobalMenu.qml:145
 #, kde-format
-msgctxt "@action:inmenu no repeat mode set; stop playback after last song in the playlist"
+msgctxt ""
+"@action:inmenu no repeat mode set; stop playback after last song in the "
+"playlist"
 msgid "None"
 msgstr "न कश्चित्"
 
@@ -1169,12 +1210,15 @@ msgstr "आरम्भे नूतनं संगीतं अन्वेष
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"When using this setting, you will need to manually refresh the music collection whenever new files are added to "
-"configured music folders. You can do this with the <interface>Scan for new music</interface> item in Elisa's hamburger "
-"menu."
+"When using this setting, you will need to manually refresh the music "
+"collection whenever new files are added to configured music folders. You can "
+"do this with the <interface>Scan for new music</interface> item in Elisa's "
+"hamburger menu."
 msgstr ""
-"एतस्य समयोजनायाः उपयोगं कुर्वन् यदा कदापि विन्यस्तसङ्गीतपुटेषु नूतनाः सञ्चिकाः योजिताः भवन्ति तदा भवद्भिः सङ्गीतसङ्ग्रहं स्वहस्तेन ताजगीं कर्तुं "
-"आवश्यकं भविष्यति । एलिसा इत्यस्य हैम्बर्गर् मेन्यू मध्ये <interface>नूतनं सङ्गीतं अन्वेष्टुम्</interface> इति मदेन एतत् कर्तुं शक्नुवन्ति ।."
+"एतस्य समयोजनायाः उपयोगं कुर्वन् यदा कदापि विन्यस्तसङ्गीतपुटेषु नूतनाः सञ्चिकाः योजिताः "
+"भवन्ति तदा भवद्भिः सङ्गीतसङ्ग्रहं स्वहस्तेन ताजगीं कर्तुं आवश्यकं भविष्यति । एलिसा इत्यस्य "
+"हैम्बर्गर् मेन्यू मध्ये <interface>नूतनं सङ्गीतं अन्वेष्टुम्</interface> इति मदेन एतत् कर्तुं "
+"शक्नुवन्ति ।."
 
 #: qml/SettingsForm.qml:110
 #, kde-format
@@ -1226,25 +1270,29 @@ msgstr "पार्श्वपट्टिकायां श्रेणी�
 
 #: qml/SettingsForm.qml:206
 #, kde-format
-msgctxt "@item:inlistbox Configure dialog, embed no category in views navigation list"
+msgctxt ""
+"@item:inlistbox Configure dialog, embed no category in views navigation list"
 msgid "Nothing"
 msgstr "किमपि न"
 
 #: qml/SettingsForm.qml:207
 #, kde-format
-msgctxt "@item:inlistbox Configure dialog, embed all albums in views navigation list"
+msgctxt ""
+"@item:inlistbox Configure dialog, embed all albums in views navigation list"
 msgid "Albums"
 msgstr "सङ्गीतराशिः"
 
 #: qml/SettingsForm.qml:208
 #, kde-format
-msgctxt "@item:inlistbox Configure dialog, embed all artists in views navigation list"
+msgctxt ""
+"@item:inlistbox Configure dialog, embed all artists in views navigation list"
 msgid "Artists"
 msgstr "कलाकाराः"
 
 #: qml/SettingsForm.qml:209
 #, kde-format
-msgctxt "@item:inlistbox Configure dialog, embed all genres in views navigation list"
+msgctxt ""
+"@item:inlistbox Configure dialog, embed all genres in views navigation list"
 msgid "Genres"
 msgstr "विधाः"
 
@@ -1348,11 +1396,13 @@ msgstr "सञ्चिकातन्त्रस्य प्रत्यक�
 #, kde-format
 msgctxt "@info"
 msgid ""
-"This is slower than the fast indexer. Please activate it only if Elisa cannot find your music and searching for one of "
-"the missing music files using your file manager also does not work. Please report this as a bug."
+"This is slower than the fast indexer. Please activate it only if Elisa "
+"cannot find your music and searching for one of the missing music files "
+"using your file manager also does not work. Please report this as a bug."
 msgstr ""
-"एतत् द्रुतसूचकाङ्ककर्तुः अपेक्षया मन्दतरम् अस्ति । कृपया केवलं तदा एव तत् सक्रियं कुर्वन्तु यदा एलिसा भवतः सङ्गीतं न प्राप्नोति तथा च भवतः "
-"सञ्चिकाप्रबन्धकस्य उपयोगेन लुप्तसङ्गीतसञ्चिकासु एकां अन्वेषणमपि कार्यं न करोति। कृपया एतत् दोषरूपेण निवेदयन्तु ।."
+"एतत् द्रुतसूचकाङ्ककर्तुः अपेक्षया मन्दतरम् अस्ति । कृपया केवलं तदा एव तत् सक्रियं कुर्वन्तु यदा "
+"एलिसा भवतः सङ्गीतं न प्राप्नोति तथा च भवतः सञ्चिकाप्रबन्धकस्य उपयोगेन लुप्तसङ्गीतसञ्चिकासु "
+"एकां अन्वेषणमपि कार्यं न करोति। कृपया एतत् दोषरूपेण निवेदयन्तु ।."
 
 #: qml/SettingsForm.qml:336
 #, kde-format
@@ -1381,15 +1431,18 @@ msgstr "नित्यं निरपेक्षमार्गाणां �
 #, kde-kuit-format
 msgctxt "@info:tooltip Playlist Relative Paths"
 msgid ""
-"When <interface>Prefer relative paths</interface> is selected, files in the same folder as the playlist will be referred "
-"with only the filename. Absolute paths are used in other cases."
+"When <interface>Prefer relative paths</interface> is selected, files in the "
+"same folder as the playlist will be referred with only the filename. "
+"Absolute paths are used in other cases."
 msgstr ""
-"यदा <interface>सापेक्षमार्गान् प्राधान्यं ददातु</interface> इति चयनं भवति तदा वादनीयसूची इत्यस्य समानपुटे सञ्चिकाः केवलं सञ्चिकानाम्ना "
-"निर्दिश्यन्ते । अन्येषु सति निरपेक्षमार्गाः प्रयुज्यन्ते ।."
+"यदा <interface>सापेक्षमार्गान् प्राधान्यं ददातु</interface> इति चयनं भवति तदा "
+"वादनीयसूची इत्यस्य समानपुटे सञ्चिकाः केवलं सञ्चिकानाम्ना निर्दिश्यन्ते । अन्येषु सति "
+"निरपेक्षमार्गाः प्रयुज्यन्ते ।."
 
 #: qml/SettingsForm.qml:387
 #, kde-format
-msgctxt "@title The configured folders where the user's music collection can be found"
+msgctxt ""
+"@title The configured folders where the user's music collection can be found"
 msgid "Music folders:"
 msgstr "सङ्गीतपुटाः :"
 
@@ -1409,11 +1462,13 @@ msgstr "नवीनं स्थानं योजयतु"
 #, kde-format
 msgctxt "@label"
 msgid ""
-"The fast native file indexer does not follow symbolic links. If any of the locations in this list contain symbolic links "
-"to other locations, you will need to add those other locations to the list as well."
+"The fast native file indexer does not follow symbolic links. If any of the "
+"locations in this list contain symbolic links to other locations, you will "
+"need to add those other locations to the list as well."
 msgstr ""
-"द्रुतदेशीयसञ्चिकासूचकाङ्ककः प्रतीकात्मकसम्बन्धानां अनुसरणं न करोति । यदि अस्मिन् सूचौ कस्मिन् अपि स्थाने अन्यस्थानानां प्रतीकात्मकसम्बन्धानि सन्ति "
-"तर्हि भवद्भिः तानि अन्यस्थानानि अपि सूचीयां योजयितव्यानि भविष्यन्ति ।."
+"द्रुतदेशीयसञ्चिकासूचकाङ्ककः प्रतीकात्मकसम्बन्धानां अनुसरणं न करोति । यदि अस्मिन् सूचौ कस्मिन् "
+"अपि स्थाने अन्यस्थानानां प्रतीकात्मकसम्बन्धानि सन्ति तर्हि भवद्भिः तानि अन्यस्थानानि अपि "
+"सूचीयां योजयितव्यानि भविष्यन्ति ।."
 
 #: qml/SortMenu.qml:20
 #, kde-format
@@ -1471,15 +1526,19 @@ msgctxt "@item:inmenu"
 msgid "Descending"
 msgstr "अवतरन्"
 
-#: viewmanager.cpp:44 viewmanager.cpp:58 viewmanager.cpp:72 viewmanager.cpp:86 viewslistdata.cpp:65 viewslistdata.cpp:79
-#: viewslistdata.cpp:98 viewslistdata.cpp:99 viewslistdata.cpp:114 viewslistdata.cpp:139 viewslistdata.cpp:561
+#: viewmanager.cpp:44 viewmanager.cpp:58 viewmanager.cpp:72 viewmanager.cpp:86
+#: viewslistdata.cpp:65 viewslistdata.cpp:79 viewslistdata.cpp:98
+#: viewslistdata.cpp:99 viewslistdata.cpp:114 viewslistdata.cpp:139
+#: viewslistdata.cpp:535
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "A-Z"
 msgstr "A-Z"
 
-#: viewmanager.cpp:44 viewmanager.cpp:58 viewmanager.cpp:72 viewmanager.cpp:86 viewslistdata.cpp:65 viewslistdata.cpp:79
-#: viewslistdata.cpp:98 viewslistdata.cpp:99 viewslistdata.cpp:114 viewslistdata.cpp:139 viewslistdata.cpp:561
+#: viewmanager.cpp:44 viewmanager.cpp:58 viewmanager.cpp:72 viewmanager.cpp:86
+#: viewslistdata.cpp:65 viewslistdata.cpp:79 viewslistdata.cpp:98
+#: viewslistdata.cpp:99 viewslistdata.cpp:114 viewslistdata.cpp:139
+#: viewslistdata.cpp:535
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Z-A"
@@ -1503,13 +1562,15 @@ msgctxt "@title:inmenu"
 msgid "Year"
 msgstr "वर्ष"
 
-#: viewmanager.cpp:72 viewslistdata.cpp:65 viewslistdata.cpp:99 viewslistdata.cpp:100 viewslistdata.cpp:561
+#: viewmanager.cpp:72 viewslistdata.cpp:65 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:535
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Oldest First"
 msgstr "प्राचीनतम प्रथम"
 
-#: viewmanager.cpp:72 viewslistdata.cpp:65 viewslistdata.cpp:99 viewslistdata.cpp:100 viewslistdata.cpp:561
+#: viewmanager.cpp:72 viewslistdata.cpp:65 viewslistdata.cpp:99
+#: viewslistdata.cpp:100 viewslistdata.cpp:535
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Newest First"
@@ -1569,31 +1630,32 @@ msgctxt "@item:inmenu"
 msgid "Most Frequently Played First"
 msgstr "सर्वाधिकं वाद्यते प्रथम"
 
-#: viewslistdata.cpp:63 viewslistdata.cpp:94 viewslistdata.cpp:559
+#: viewslistdata.cpp:63 viewslistdata.cpp:94 viewslistdata.cpp:533
 #, kde-format
 msgctxt "@title:menu"
 msgid "Title"
 msgstr "शीर्षकम्"
 
-#: viewslistdata.cpp:63 viewslistdata.cpp:94 viewslistdata.cpp:559
+#: viewslistdata.cpp:63 viewslistdata.cpp:94 viewslistdata.cpp:533
 #, kde-format
 msgctxt "@title:menu"
 msgid "Artist"
 msgstr "कलाकार"
 
-#: viewslistdata.cpp:63 viewslistdata.cpp:94 viewslistdata.cpp:112 viewslistdata.cpp:559 viewslistdata.cpp:595
+#: viewslistdata.cpp:63 viewslistdata.cpp:94 viewslistdata.cpp:112
+#: viewslistdata.cpp:533 viewslistdata.cpp:569
 #, kde-format
 msgctxt "@title:menu"
 msgid "Genre"
 msgstr "मातुर्"
 
-#: viewslistdata.cpp:63 viewslistdata.cpp:95 viewslistdata.cpp:559
+#: viewslistdata.cpp:63 viewslistdata.cpp:95 viewslistdata.cpp:533
 #, kde-format
 msgctxt "@title:menu"
 msgid "Year"
 msgstr "वर्ष"
 
-#: viewslistdata.cpp:77 viewslistdata.cpp:137 viewslistdata.cpp:577
+#: viewslistdata.cpp:77 viewslistdata.cpp:137 viewslistdata.cpp:551
 #, kde-format
 msgctxt "@title:menu"
 msgid "Name"
