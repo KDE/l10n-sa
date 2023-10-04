@@ -136,12 +136,14 @@ msgid "KWrite - Text Editor"
 msgstr "KWrite - पाठ्य सम्पादक"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_closeButton)
-#: lib/commitfilesview.cpp:356 lib/filehistorywidget.cpp:247 lib/session/katesessionmanagedialog.ui:183
+#: lib/commitfilesview.cpp:356 lib/filehistorywidget.cpp:247
+#: lib/session/katesessionmanagedialog.ui:183
 #, kde-format
 msgid "Close"
 msgstr "पिधाय"
 
-#: lib/commitfilesview.cpp:392 lib/kateviewmanager.cpp:329 lib/kateviewmanager.cpp:331
+#: lib/commitfilesview.cpp:392 lib/kateviewmanager.cpp:329
+#: lib/kateviewmanager.cpp:331
 #, kde-format
 msgid "Open File"
 msgstr "सञ्चिकां उद्घाटयन्तु"
@@ -151,7 +153,8 @@ msgstr "सञ्चिकां उद्घाटयन्तु"
 msgid "Copy Location"
 msgstr "प्रतिलिपि स्थानम्"
 
-#: lib/commitfilesview.cpp:420 lib/commitfilesview.cpp:514 lib/commitfilesview.cpp:520 lib/filehistorywidget.cpp:364
+#: lib/commitfilesview.cpp:420 lib/commitfilesview.cpp:514
+#: lib/commitfilesview.cpp:520 lib/filehistorywidget.cpp:364
 #, kde-format
 msgid "Git"
 msgstr "गिट्"
@@ -222,7 +225,8 @@ msgstr "&उपकरणाः"
 
 #. i18n: ectx: Menu (tools_diagnosticsview)
 #. i18n: ectx: Menu (tools)
-#: lib/data/kateui.rc:124 lib/diagnostics/diagnosticview.cpp:273 lib/diagnostics/ui.rc:8
+#: lib/data/kateui.rc:124 lib/diagnostics/diagnosticview.cpp:273
+#: lib/diagnostics/ui.rc:8
 #, kde-format
 msgid "Diagnostics View"
 msgstr "निदानं दृश्यम्"
@@ -323,7 +327,8 @@ msgstr "फ़िल्टर..."
 msgid "Error"
 msgstr "त्रुटि"
 
-#: lib/diagnostics/diagnosticview.cpp:1023 lib/kateconfigdialog.cpp:258 lib/kateconfigdialog.cpp:791
+#: lib/diagnostics/diagnosticview.cpp:1023 lib/kateconfigdialog.cpp:258
+#: lib/kateconfigdialog.cpp:791
 #, kde-format
 msgid "Warning"
 msgstr "चेतवानी"
@@ -408,13 +413,13 @@ msgstr "अपक्व"
 #, kde-format
 msgid "Stage Line"
 msgid_plural "Stage Lines"
-msgstr[0] "मञ्चरेखा"
-msgstr[1] "मञ्चरेखाः"
+msgstr[0] "रेखा प्रतिष्ठापयति"
+msgstr[1] "रेखाः प्रतिष्ठापयति"
 
 #: lib/diff/diffeditor.cpp:224
 #, kde-format
 msgid "Stage Hunk"
-msgstr "मञ्च हंक"
+msgstr "हंक प्रतिष्ठापयति"
 
 #: lib/diff/diffeditor.cpp:231
 #, kde-format
@@ -432,13 +437,13 @@ msgstr "हङ्कं परित्यजन्तु"
 #, kde-format
 msgid "Unstage Line"
 msgid_plural "Unstage Lines"
-msgstr[0] "अनस्टेज लाइन"
-msgstr[1] "अनस्टेज लाइनस्"
+msgstr[0] "रेखा अप्रतिष्ठाप्यते"
+msgstr[1] "रेखाः अप्रतिष्ठाप्यते"
 
 #: lib/diff/diffeditor.cpp:248
 #, kde-format
 msgid "Unstage Hunk"
-msgstr "अनस्टेज हंक"
+msgstr "हंक अप्रतिष्ठाप्यते"
 
 #: lib/diff/diffwidget.cpp:60
 #, kde-format
@@ -497,7 +502,8 @@ msgstr "पूर्णसन्दर्भेण सह भेद दर्श
 msgid "<b>git</b> not found. Git is needed to diff the documents. If git is already installed, make sure it is your PATH variable. See https://git-scm.com/downloads"
 msgstr "<b>git</b> न लभ्यते । दस्तावेजान् भेद कर्तुं Git आवश्यकम् अस्ति। यदि git पूर्वमेव संस्थापितम् अस्ति तर्हि सुनिश्चितं कुर्वन्तु यत् एषः भवतः PATH चरः अस्ति । https://git-scm.com/downloads इति पश्यन्तु"
 
-#: lib/diff/diffwidget.cpp:554 lib/diff/diffwidget.cpp:1153 lib/kateconfigdialog.cpp:422
+#: lib/diff/diffwidget.cpp:554 lib/diff/diffwidget.cpp:1153
+#: lib/kateconfigdialog.cpp:422
 #, kde-format
 msgid "Diff"
 msgstr "भेद्"
@@ -568,7 +574,8 @@ msgstr "परिपालकः"
 msgid "Dominik Haumann"
 msgstr "डोमिनिक हौमन"
 
-#: lib/kateapp.cpp:271 lib/kateapp.cpp:274 lib/kateapp.cpp:275 lib/kateapp.cpp:277 lib/kateapp.cpp:280 lib/kateapp.cpp:286
+#: lib/kateapp.cpp:271 lib/kateapp.cpp:274 lib/kateapp.cpp:275
+#: lib/kateapp.cpp:277 lib/kateapp.cpp:280 lib/kateapp.cpp:286
 #, kde-format
 msgid "Core Developer"
 msgstr "मूल विकासकः"
@@ -1706,9 +1713,7 @@ msgstr "अधः पार्श्वपट्टिका"
 
 #: lib/katemdi.cpp:1457
 #, kde-format
-msgid ""
-"<qt>You are about to hide the sidebars. With hidden sidebars it is not possible to directly access the tool views with the mouse anymore, so if you need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show Sidebars</b> in the menu. It is still possible to show/hide the tool views with "
-"the assigned shortcuts.</qt>"
+msgid "<qt>You are about to hide the sidebars. With hidden sidebars it is not possible to directly access the tool views with the mouse anymore, so if you need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show Sidebars</b> in the menu. It is still possible to show/hide the tool views with the assigned shortcuts.</qt>"
 msgstr "<qt>भवन्तः पार्श्वपट्टिकाः गोपयितुं प्रवृत्ताः सन्ति। गुप्तपार्श्वपट्टिकाभिः सह इतः परं मूषकेन साधनदृश्यानि प्रत्यक्षतया प्राप्तुं न शक्यते, अतः यदि भवन्तः पुनः पार्श्वपट्टिकाः अभिगन्तुं इच्छन्ति तर्हि <b>दृश्यं &gt; साधनदृश्यानि &gt; विकल्पसूचि मध्ये पार्श्वपट्टिकाः</b> इति दर्शयतु । अद्यापि नियुक्तैः शॉर्टकट्-सहितं साधनदृश्यानि दर्शयितुं/गोपयितुं शक्यते ।</qt>"
 
 #: lib/katemwmodonhddialog.cpp:54
