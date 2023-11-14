@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-10 01:54+0000\n"
+"POT-Creation-Date: 2023-11-14 01:45+0000\n"
 "PO-Revision-Date: 2023-10-01 21:47+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit\n"
@@ -258,11 +258,6 @@ msgctxt "Name"
 msgid "Status Notifier Information"
 msgstr "स्थिति अधिसूचक सूचना"
 
-#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.json
-msgctxt "Name"
-msgid "System Monitor"
-msgstr "सङ्गणकतन्त्रस्य निरीक्षकः"
-
 #: dataengines/time/plasma-dataengine-time.json
 msgctxt "Name"
 msgid "Date and Time"
@@ -365,8 +360,8 @@ msgstr "वैश्विक विषयवस्तु"
 
 #: kcms/nightcolor/kcm_nightcolor.json
 msgctxt "Name"
-msgid "Night Color"
-msgstr "रात्रिवर्णः"
+msgid "Night Light"
+msgstr ""
 
 #: kcms/region_language/kcm_regionandlang.json
 msgctxt "Name"
@@ -512,11 +507,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Status Notifier Manager"
 msgstr "स्थितिसूचकप्रबन्धकः"
-
-#: systemmonitor/ksysguard.json
-msgctxt "Name"
-msgid "KSysguard"
-msgstr "KSysguard"
 
 #: wallpapers/color/metadata.json
 msgctxt "Name"
@@ -782,11 +772,6 @@ msgid ""
 "protocol."
 msgstr "अनुप्रयोगानाम् स्थितिसूचनार्थं इञ्जिनं, स्थितिसूचकसंविद्स्य आधारेण ।."
 
-#: dataengines/systemmonitor/plasma-dataengine-systemmonitor.json
-msgctxt "Description"
-msgid "System status information"
-msgstr "प्रणाली स्थितिसूचना"
-
 #: dataengines/time/plasma-dataengine-time.json
 msgctxt "Description"
 msgid "Date and time by timezone"
@@ -884,8 +869,11 @@ msgid "Choose global look and feel"
 msgstr "वैश्विकरूपं भावः च चयनं कुर्वन्तु"
 
 #: kcms/nightcolor/kcm_nightcolor.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Adjust color temperature based on time"
 msgctxt "Description"
-msgid "Adjust color temperature based on time"
+msgid "Adjust screen color temperature based on time"
 msgstr "समयस्य आधारेण वर्णस्य तापमानं समायोजयन्तु"
 
 #: kcms/notifications/kcm_notifications.json
@@ -1037,11 +1025,6 @@ msgstr ""
 msgctxt "Description"
 msgid "Manages services that provide status notifier user interfaces"
 msgstr "स्थितिसूचकप्रयोक्तृ-अन्तरफलकानि प्रदातुं शक्नुवन्ति सेवाः प्रबन्धयति"
-
-#: systemmonitor/ksysguard.json
-msgctxt "Description"
-msgid "Launches KSysguard on Ctrl + Escape"
-msgstr "Ctrl + Escape इत्यत्र KSysguard इत्यस्य प्रारम्भं करोति"
 
 #: wallpapers/color/metadata.json
 msgctxt "Description"
@@ -1240,6 +1223,26 @@ msgstr "तीमु र्यतिलाह्ति"
 msgctxt "Authors Name"
 msgid "Julius Zint"
 msgstr "जूलियस् जिन्ट्"
+
+#~ msgctxt "Name"
+#~ msgid "System Monitor"
+#~ msgstr "सङ्गणकतन्त्रस्य निरीक्षकः"
+
+#~ msgctxt "Name"
+#~ msgid "Night Color"
+#~ msgstr "रात्रिवर्णः"
+
+#~ msgctxt "Name"
+#~ msgid "KSysguard"
+#~ msgstr "KSysguard"
+
+#~ msgctxt "Description"
+#~ msgid "System status information"
+#~ msgstr "प्रणाली स्थितिसूचना"
+
+#~ msgctxt "Description"
+#~ msgid "Launches KSysguard on Ctrl + Escape"
+#~ msgstr "Ctrl + Escape इत्यत्र KSysguard इत्यस्य प्रारम्भं करोति"
 
 #~ msgctxt "Name"
 #~ msgid "Geolocation GPS"
