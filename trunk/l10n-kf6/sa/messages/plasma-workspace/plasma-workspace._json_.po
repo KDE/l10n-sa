@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-14 01:45+0000\n"
+"POT-Creation-Date: 2023-11-19 01:59+0000\n"
 "PO-Revision-Date: 2023-10-01 21:47+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit\n"
@@ -30,9 +30,20 @@ msgid "Global Menu"
 msgstr "वैश्विक् विकल्पसूचि"
 
 #: applets/batterymonitor/package/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Management"
 msgctxt "Name"
-msgid "Battery and Brightness"
-msgstr "विद्युत्कोष च प्रचुरप्रकाशता"
+msgid "Power and Battery"
+msgstr "विद्युत् प्रबन्धन"
+
+#: applets/brightness/package/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Night Color"
+msgctxt "Name"
+msgid "Brightness and Color"
+msgstr "रात्रिवर्णः"
 
 #: applets/calendar/package/metadata.json
 msgctxt "Name"
@@ -544,9 +555,18 @@ msgid "Global menubar in your Plasma Desktop"
 msgstr "भवतः प्लाज्मा कार्यमुख् मध्ये वैश्विक विकल्पसूचि पट्टिका"
 
 #: applets/batterymonitor/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "See the power status of your battery"
 msgctxt "Description"
-msgid "See the power status of your battery"
+msgid ""
+"Control power management settings and see the power status of your battery"
 msgstr "भवतः विद्युत्कोष-शक्ति-स्थितिं पश्यन्तु"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Description"
+msgid "Control brightness and color of your screens and keyboards"
+msgstr ""
 
 #: applets/calendar/package/metadata.json
 msgctxt "Description"
@@ -1066,6 +1086,7 @@ msgstr "मार्को मार्टिन्"
 
 #: applets/appmenu/package/metadata.json
 #: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
 #: applets/notifications/package/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
@@ -1075,12 +1096,18 @@ msgid "Kai Uwe Broulik"
 msgstr "कै उवे ब्रौलिक्"
 
 #: applets/batterymonitor/package/metadata.json
+#: applets/brightness/package/metadata.json
 #: applets/calendar/package/metadata.json
 #: applets/mediacontroller/package/metadata.json
 #: runners/recentdocuments/plasma-runner-recentdocuments.json
 msgctxt "Authors Name"
 msgid "Sebastian Kügler"
 msgstr "सेबास्टियन् कुग्लर्"
+
+#: applets/brightness/package/metadata.json
+msgctxt "Authors Name"
+msgid "Natalie Clarius"
+msgstr ""
 
 #: applets/cameraindicator/metadata.json
 msgctxt "Authors Name"
@@ -1225,12 +1252,12 @@ msgid "Julius Zint"
 msgstr "जूलियस् जिन्ट्"
 
 #~ msgctxt "Name"
-#~ msgid "System Monitor"
-#~ msgstr "सङ्गणकतन्त्रस्य निरीक्षकः"
+#~ msgid "Battery and Brightness"
+#~ msgstr "विद्युत्कोष च प्रचुरप्रकाशता"
 
 #~ msgctxt "Name"
-#~ msgid "Night Color"
-#~ msgstr "रात्रिवर्णः"
+#~ msgid "System Monitor"
+#~ msgstr "सङ्गणकतन्त्रस्य निरीक्षकः"
 
 #~ msgctxt "Name"
 #~ msgid "KSysguard"
