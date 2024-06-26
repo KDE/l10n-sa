@@ -18,29 +18,13 @@ msgstr ""
 "X-Generator: Poedit 3.3.2\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
-#: kmime_dateformatter.cpp:161
-#, kde-format
-msgctxt "invalid time specified"
-msgid "unknown"
-msgstr "अज्ञात"
-
-#: kmime_dateformatter.cpp:175
-#, kde-format
-msgid "Today %1"
-msgstr "अद्य %1"
-
-#: kmime_dateformatter.cpp:179
-#, kde-format
-msgid "Yesterday %1"
-msgstr "श्वः %1"
-
-#: kmime_dateformatter.cpp:184
-#, kde-format
-msgctxt "1. weekday, 2. time"
-msgid "%1 %2"
-msgstr "%1 %2"
-
-#: kmime_mdn.cpp:50
+#: kmime_mdn.cpp:53
+#, fuzzy
+#| msgid ""
+#| "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
+#| "displayed. This is no guarantee that the message has been read or "
+#| "understood."
+msgctxt "DispositionModifier|"
 msgid ""
 "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
 "displayed. This is no guarantee that the message has been read or understood."
@@ -48,7 +32,13 @@ msgstr ""
 "${date} दिनाङ्के ${to} इत्यस्मै \"${subject}\" इति विषयेण सह प्रेषितः सन्देशः प्रदर्शितः "
 "अस्ति । एतेन सन्देशः पठितः अवगतः वा इति प्रत्याभूति नास्ति ।."
 
-#: kmime_mdn.cpp:55
+#: kmime_mdn.cpp:60
+#, fuzzy
+#| msgid ""
+#| "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
+#| "deleted unseen. This is no guarantee that the message will not be "
+#| "\"undeleted\" and nonetheless read later on."
+msgctxt "DispositionModifier|"
 msgid ""
 "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
 "deleted unseen. This is no guarantee that the message will not be \"undeleted"
@@ -58,7 +48,13 @@ msgstr ""
 "लोपितः अस्ति । एतत् न प्रत्याभूति यत् सन्देशः \"अविलोपितः\" न भविष्यति तथापि पश्चात् "
 "पठितः भविष्यति ।."
 
-#: kmime_mdn.cpp:61
+#: kmime_mdn.cpp:68
+#, fuzzy
+#| msgid ""
+#| "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
+#| "dispatched. This is no guarantee that the message will not be read later "
+#| "on."
+msgctxt "DispositionModifier|"
 msgid ""
 "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
 "dispatched. This is no guarantee that the message will not be read later on."
@@ -66,7 +62,12 @@ msgstr ""
 "${date} दिनाङ्के ${to} इत्यस्मै \"${subject}\" इति विषयेण सह प्रेषितः सन्देशः प्रेषितः "
 "अस्ति । एतेन पश्चात् सन्देशः न पठितः इति प्रत्याभूति नास्ति ।."
 
-#: kmime_mdn.cpp:66
+#: kmime_mdn.cpp:75
+#, fuzzy
+#| msgid ""
+#| "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
+#| "processed by some automatic means."
+msgctxt "DispositionModifier|"
 msgid ""
 "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
 "processed by some automatic means."
@@ -74,7 +75,13 @@ msgstr ""
 "${date} दिनाङ्के ${to} इत्यस्मै \"${subject}\" इति विषयेण सह प्रेषितः सन्देशः केनचित् "
 "स्वचालितसाधनेन संसाधितः अस्ति ।."
 
-#: kmime_mdn.cpp:70
+#: kmime_mdn.cpp:81
+#, fuzzy
+#| msgid ""
+#| "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
+#| "acted upon. The sender does not wish to disclose more details to you than "
+#| "that."
+msgctxt "DispositionModifier|"
 msgid ""
 "The message sent on ${date} to ${to} with subject \"${subject}\" has been "
 "acted upon. The sender does not wish to disclose more details to you than "
@@ -83,7 +90,13 @@ msgstr ""
 "${date} दिनाङ्के ${to} इत्यस्मै \"${subject}\" इति विषयेण सह प्रेषितः सन्देशः कार्यं कृतः "
 "अस्ति । प्रेषकः तस्मात् अधिकं विवरणं भवद्भ्यः प्रकटयितुं न इच्छति ।."
 
-#: kmime_mdn.cpp:75
+#: kmime_mdn.cpp:88
+#, fuzzy
+#| msgid ""
+#| "Generation of a Message Disposition Notification for the message sent on "
+#| "${date} to ${to} with subject \"${subject}\" failed. Reason is given in "
+#| "the Failure: header field below."
+msgctxt "DispositionModifier|"
 msgid ""
 "Generation of a Message Disposition Notification for the message sent on "
 "${date} to ${to} with subject \"${subject}\" failed. Reason is given in the "
@@ -91,3 +104,17 @@ msgid ""
 msgstr ""
 "${date} इत्यत्र ${to} इत्यस्मै प्रेषितस्य सन्देशस्य जननम् \"${subject}\" इति विषयेण सह "
 "विफलम् । कारणं अधः Failure: header क्षेत्रे दत्तम् अस्ति ।."
+
+#~ msgctxt "invalid time specified"
+#~ msgid "unknown"
+#~ msgstr "अज्ञात"
+
+#~ msgid "Today %1"
+#~ msgstr "अद्य %1"
+
+#~ msgid "Yesterday %1"
+#~ msgstr "श्वः %1"
+
+#~ msgctxt "1. weekday, 2. time"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
