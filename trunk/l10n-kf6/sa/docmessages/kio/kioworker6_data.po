@@ -1,90 +1,76 @@
 # SOME DESCRIPTIVE TITLE.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=utf-8\n"
 "Language: sa\n"
+"Content-Type: text/plain; charset=utf-8\n"
 
 # automatic translation
-#: index.docbook:9
 #. Tag: title
+#: index.docbook:9
 #, no-c-format
 msgid "Data &URL;s"
-msgstr "डाटा &URL;s"
+msgstr ""
 
 # automatic translation
-#: index.docbook:13
 #. Tag: author
+#: index.docbook:13
 #, no-c-format
 msgid ""
-"<personname><firstname>Leo</firstname><surname>Savernik</surname></"
-"personname> <address><email>l.savernik@aon.at</email></address>"
+"<personname><firstname>Leo</firstname><surname>Savernik</surname></personname>"
+" <address><email>l.savernik@aon.at</email></address>"
 msgstr ""
-"<personname><firstname>सिंहः</firstname><surname> "
-"सवेर्निक</surname></personname><address><email> "
-"l.savernik@aon.at</email></address>"
 
 # automatic translation
-#: index.docbook:16
 #. Tag: trans_comment
+#: index.docbook:16
 #, no-c-format
 msgid "ROLES_OF_TRANSLATORS"
-msgstr "अनुवादकानां_भूमिका"
+msgstr ""
 
 # automatic translation
-#: index.docbook:19
 #. Tag: date
+#: index.docbook:19
 #, no-c-format
 msgid "2003-02-06"
-msgstr "२००३-०२-०६"
+msgstr ""
 
 # automatic translation
-#: index.docbook:24
 #. Tag: para
+#: index.docbook:24
 #, no-c-format
 msgid ""
-"Data URLs allow small document data to be included in the &URL; itself. "
-"This is useful for very small &HTML; testcases or other occasions that do "
-"not justify a document of their own."
+"Data URLs allow small document data to be included in the &URL; itself. This"
+" is useful for very small &HTML; testcases or other occasions that do not "
+"justify a document of their own."
 msgstr ""
-"आँकडा URLs लघु दस्तावेजदत्तांशं &URL; स्वयं । एतत् अत्यल्पस्य &HTML; "
-"परीक्षाप्रकरणाः अन्ये वा अवसराः ये स्वस्य दस्तावेजस्य न्याय्यतां न ददति।"
 
 # automatic translation
-#: index.docbook:28
 #. Tag: para
+#: index.docbook:28
 #, no-c-format
 msgid ""
 "<userinput>data:,foobar</userinput> (note the comma after the colon) will "
 "deliver a text document that contains nothing but <literal>foobar</literal>."
 msgstr ""
-"<userinput>data:,foobar</userinput> (कोलन् इत्यस्य अनन्तरं अल्पविरामं "
-"द्रष्टव्यम्) एकं पाठदस्तावेजं प्रदास्यति यस्मिन् <literal>foobar</literal> "
-"इत्येतत् अतिरिक्तं किमपि नास्ति ।"
 
 # automatic translation
-#: index.docbook:33
 #. Tag: para
+#: index.docbook:33
 #, no-c-format
 msgid ""
 "The last example delivered a text document. For &HTML; documents one has to "
 "specify the &MIME; type <literal>text/html</literal>: "
-"<quote><userinput>data:text/html,&lt;title&gt;Testcase&lt;/title&gt;&lt;p&"
-"gt;This is a testcase&lt;/p&gt;</userinput></quote>. This will produce "
-"exactly the same output as if the content had been loaded from a document "
-"of its own."
+"<quote><userinput>data:text/html,&lt;title&gt;Testcase&lt;/title&gt;&lt;p&gt;This"
+" is a testcase&lt;/p&gt;</userinput></quote>. This will produce exactly the "
+"same output as if the content had been loaded from a document of its own."
 msgstr ""
-"अन्तिमम् उदाहरणं पाठदस्तावेजं वितरितवान् । &HTML कृते कृते; दस्तावेजाः "
-"कस्यचित् निर्दिष्टव्यं भवति &MIME; type <literal>text/html</literal>: "
-"<quote><userinput>data:text/html,&lt;title&gt;परीक्षाप्रकरण&lt;/title&gt;&"
-"lt;p&gt;इदं परीक्षणप्रकरणम्&lt;/p&gt;</userinput>< /उद्धरण>। एतेन स्वस्य "
-"दस्तावेजात् सामग्री लोड् कृता इव एव उत्पादनं भविष्यति ।"
 
 # automatic translation
-#: index.docbook:40
 #. Tag: para
+#: index.docbook:40
 #, no-c-format
 msgid ""
 "Specifying alternate character sets is also possible. Note that 8-Bit "
@@ -95,22 +81,12 @@ msgid ""
 "might lead to something like <quote><literal>Gr??e aus "
 "Schl?gl</literal></quote>."
 msgstr ""
-"वैकल्पिकवर्णसमूहानां निर्दिष्टीकरणं अपि सम्भवति । ध्यानं कुर्वन्तु यत् "
-"८-बिट् वर्णाः प्रतिशतचिह्नेन तेषां द्वि-अङ्कीय-षट्-दशमलव-सङ्केतैः च "
-"पलायितुं अर्हन्ति: <quote><userinput>data:;charset=iso-8859-1,Gr%FC%DFe aus "
-"Schl%E4gl</ userinput></quote> इत्यस्य परिणामः "
-"<quote><literal>Gr&uuml;&szlig;e aus इति भवति "
-"Schl&auml;gl</literal></quote> यदा तु charset विशेषतां परित्यज्य "
-"<quote><literal>Gr??e aus Schl?gl</literal></quote> इत्यादि किमपि भवितुं "
-"शक्नोति ।"
 
 # automatic translation
-#: index.docbook:50
 #. Tag: para
+#: index.docbook:50
 #, no-c-format
 msgid ""
 "<ulink url=\"https://www.ietf.org/rfc/rfc2397.txt\">IETF RFC2397</ulink> "
 "provides more information."
 msgstr ""
-"<ulink url=\"https://www.ietf.org/rfc/rfc2397.txt\">IETF RFC2397</ulink> "
-"अधिकसूचनाः प्रदाति ।"
