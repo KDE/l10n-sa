@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-11-19 01:00+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -54,11 +56,11 @@ msgstr ""
 #: index.docbook:22
 #, no-c-format
 msgid ""
-"Allows you to access another computer's files using the "
-"<emphasis>S</emphasis>ecure <emphasis>SH</emphasis>ell "
-"(<acronym>SSH</acronym>) protocol. The remote computer needs to be running "
-"the <acronym>SSH</acronym> daemon, but the remainder of the protocol uses "
-"standard commandline tools as discussed below."
+"Allows you to access another computer's files using the <emphasis>S</"
+"emphasis>ecure <emphasis>SH</emphasis>ell (<acronym>SSH</acronym>) protocol. "
+"The remote computer needs to be running the <acronym>SSH</acronym> daemon, "
+"but the remainder of the protocol uses standard commandline tools as "
+"discussed below."
 msgstr ""
 
 # automatic translation
@@ -66,9 +68,10 @@ msgstr ""
 #: index.docbook:24
 #, no-c-format
 msgid ""
-"You can use the fish KIO worker like this: "
-"<userinput>fish://<replaceable>hostname</replaceable></userinput> or "
-"<userinput>fish://<replaceable>username</replaceable>@<replaceable>hostname</replaceable></userinput>."
+"You can use the fish KIO worker like this: <userinput>fish://"
+"<replaceable>hostname</replaceable></userinput> or <userinput>fish://"
+"<replaceable>username</replaceable>@<replaceable>hostname</replaceable></"
+"userinput>."
 msgstr ""
 
 # automatic translation
@@ -92,10 +95,10 @@ msgstr ""
 #: index.docbook:32
 #, no-c-format
 msgid ""
-"You can add a password in the format: "
-"<userinput>fish://<replaceable>username</replaceable>:<replaceable>password</replaceable>@<replaceable>hostname</replaceable></userinput>"
-" but it is not necessary as you will be prompted for one if it is not "
-"supplied."
+"You can add a password in the format: <userinput>fish://"
+"<replaceable>username</replaceable>:<replaceable>password</"
+"replaceable>@<replaceable>hostname</replaceable></userinput> but it is not "
+"necessary as you will be prompted for one if it is not supplied."
 msgstr ""
 
 # automatic translation
@@ -103,9 +106,10 @@ msgstr ""
 #: index.docbook:37
 #, no-c-format
 msgid ""
-"If you are running the <acronym>SSH</acronym> daemon on a non-standard port,"
-" you can specify that port using the normal &URL; syntax as shown below: "
-"<userinput>fish://<replaceable>hostname</replaceable>:<replaceable>portnumber</replaceable></userinput>."
+"If you are running the <acronym>SSH</acronym> daemon on a non-standard port, "
+"you can specify that port using the normal &URL; syntax as shown below: "
+"<userinput>fish://<replaceable>hostname</replaceable>:"
+"<replaceable>portnumber</replaceable></userinput>."
 msgstr ""
 
 # automatic translation
@@ -113,19 +117,18 @@ msgstr ""
 #: index.docbook:42
 #, no-c-format
 msgid ""
-"Fish should work with any roughly <acronym>POSIX</acronym> compatible &UNIX;"
-" based remote computer. It uses the shell commands <command>cat</command>, "
-"<command>chgrp</command>, <command>chmod</command>, "
-"<command>chown</command>, <command>cp</command>, <command>dd</command>, "
-"<command>env</command>, <command>expr</command>, <command>grep</command>, "
-"<command>ls</command>, <command>mkdir</command>, <command>mv</command>, "
-"<command>rm</command>, <command>rmdir</command>, <command>sed</command>, and"
-" <command>wc</command>. Fish starts <command>/bin/sh</command> as its shell "
-"and expects it to be a Bourne shell (or compatible, like "
-"<command>bash</command>). If the <command>sed</command> and "
-"<command>file</command> commands are available, as well as a "
-"<filename>/etc/apache/magic</filename> file with &MIME; type signatures, "
-"these will be used to guess &MIME; types."
+"Fish should work with any roughly <acronym>POSIX</acronym> compatible &UNIX; "
+"based remote computer. It uses the shell commands <command>cat</command>, "
+"<command>chgrp</command>, <command>chmod</command>, <command>chown</"
+"command>, <command>cp</command>, <command>dd</command>, <command>env</"
+"command>, <command>expr</command>, <command>grep</command>, <command>ls</"
+"command>, <command>mkdir</command>, <command>mv</command>, <command>rm</"
+"command>, <command>rmdir</command>, <command>sed</command>, and <command>wc</"
+"command>. Fish starts <command>/bin/sh</command> as its shell and expects it "
+"to be a Bourne shell (or compatible, like <command>bash</command>). If the "
+"<command>sed</command> and <command>file</command> commands are available, "
+"as well as a <filename>/etc/apache/magic</filename> file with &MIME; type "
+"signatures, these will be used to guess &MIME; types."
 msgstr ""
 
 # automatic translation
@@ -134,9 +137,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If <application>Perl</application> is available on the remote machine, it "
-"will be used instead. Then only <command>env</command> and "
-"<command>/bin/sh</command> are needed. Using <application>Perl</application>"
-" has the additional benefit of being faster."
+"will be used instead. Then only <command>env</command> and <command>/bin/sh</"
+"command> are needed. Using <application>Perl</application> has the "
+"additional benefit of being faster."
 msgstr ""
 
 # automatic translation
@@ -144,8 +147,8 @@ msgstr ""
 #: index.docbook:67
 #, no-c-format
 msgid ""
-"Fish may even work on &Windows; machines, if tools like "
-"<application>Cygwin</application> are installed. All the above utilities "
-"must be in the system <envar>PATH</envar>, and the initial shell must be "
-"able to process the command <command>echo FISH:;/bin/sh</command> correctly."
+"Fish may even work on &Windows; machines, if tools like <application>Cygwin</"
+"application> are installed. All the above utilities must be in the system "
+"<envar>PATH</envar>, and the initial shell must be able to process the "
+"command <command>echo FISH:;/bin/sh</command> correctly."
 msgstr ""

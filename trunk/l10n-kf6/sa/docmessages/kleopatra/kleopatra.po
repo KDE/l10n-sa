@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-10-13 01:50+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -118,10 +120,9 @@ msgstr ""
 #: index.docbook:97
 #, no-c-format
 msgid ""
-"&kleopatra; is a tool for managing <ulink "
-"url=\"https://en.wikipedia.org/wiki/X.509\">&x509;</ulink> and <ulink "
-"url=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP\">&openpgp;</ulink>"
-" certificates."
+"&kleopatra; is a tool for managing <ulink url=\"https://en.wikipedia.org/"
+"wiki/X.509\">&x509;</ulink> and <ulink url=\"https://en.wikipedia.org/wiki/"
+"Pretty_Good_Privacy#OpenPGP\">&openpgp;</ulink> certificates."
 msgstr ""
 
 # automatic translation
@@ -199,15 +200,13 @@ msgstr ""
 #: index.docbook:119
 #, no-c-format
 msgid ""
-"&kleopatra; is the &kde; tool for managing <ulink "
-"url=\"https://en.wikipedia.org/wiki/X.509\">&x509;</ulink> and <ulink "
-"url=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP\">&openpgp;</ulink>"
-" certificates in the <ulink "
-"url=\"https://www.gnupg.org/documentation/manuals/gnupg/Invoking-"
-"GPGSM.html\">&gpgsm;</ulink> and <ulink "
-"url=\"https://en.wikipedia.org/wiki/GNU_Privacy_Guard\">&gpg;</ulink> "
-"keyboxes and for retrieving certificates from &ldap; and other certificate "
-"servers."
+"&kleopatra; is the &kde; tool for managing <ulink url=\"https://en.wikipedia."
+"org/wiki/X.509\">&x509;</ulink> and <ulink url=\"https://en.wikipedia.org/"
+"wiki/Pretty_Good_Privacy#OpenPGP\">&openpgp;</ulink> certificates in the "
+"<ulink url=\"https://www.gnupg.org/documentation/manuals/gnupg/Invoking-"
+"GPGSM.html\">&gpgsm;</ulink> and <ulink url=\"https://en.wikipedia.org/wiki/"
+"GNU_Privacy_Guard\">&gpg;</ulink> keyboxes and for retrieving certificates "
+"from &ldap; and other certificate servers."
 msgstr ""
 
 # automatic translation
@@ -215,10 +214,9 @@ msgstr ""
 #: index.docbook:123
 #, no-c-format
 msgid ""
-"&kleopatra; can be started from &kmail;'s "
-"<menuchoice><guimenu>Tools</guimenu> <guimenuitem>Certificate "
-"Manager</guimenuitem></menuchoice> menu, as well as from the command line. "
-"The &kleopatra; executable is named "
+"&kleopatra; can be started from &kmail;'s <menuchoice><guimenu>Tools</"
+"guimenu> <guimenuitem>Certificate Manager</guimenuitem></menuchoice> menu, "
+"as well as from the command line. The &kleopatra; executable is named "
 "<userinput><command>kleopatra</command></userinput>."
 msgstr ""
 
@@ -227,8 +225,8 @@ msgstr ""
 #: index.docbook:128
 #, no-c-format
 msgid ""
-"This program is named after Cleopatra, a famous female Egyptian pharaoh that"
-" lived at the time of Julius Caesar, with whom she had a child, Caesarion, "
+"This program is named after Cleopatra, a famous female Egyptian pharaoh that "
+"lived at the time of Julius Caesar, with whom she had a child, Caesarion, "
 "unacknowledged as his heir."
 msgstr ""
 
@@ -237,10 +235,9 @@ msgstr ""
 #: index.docbook:132
 #, no-c-format
 msgid ""
-"The name was chosen since this program originates from the <ulink "
-"url=\"https://www.gnupg.org/aegypten2/\">&Auml;gypten Projects</ulink> "
-"(&Auml;gypten is German for Egypt). &kleopatra; is the German spelling of "
-"Cleopatra."
+"The name was chosen since this program originates from the <ulink url="
+"\"https://www.gnupg.org/aegypten2/\">&Auml;gypten Projects</ulink> (&Auml;"
+"gypten is German for Egypt). &kleopatra; is the German spelling of Cleopatra."
 msgstr ""
 
 # automatic translation
@@ -262,8 +259,8 @@ msgstr ""
 #: index.docbook:145
 #, no-c-format
 msgid ""
-"&kleopatra;'s main function is to display and edit the contents of the local"
-" keybox, which is similar to &gpg;'s concept of keyrings, albeit one should "
+"&kleopatra;'s main function is to display and edit the contents of the local "
+"keybox, which is similar to &gpg;'s concept of keyrings, albeit one should "
 "not stretch this analogy too much."
 msgstr ""
 
@@ -296,8 +293,8 @@ msgstr ""
 msgid ""
 "To be valid, and thus usable, (public) keys need to be signed by a &ca; "
 "(Certification Authority). These signatures are called certificates, but "
-"usually the terms <quote>certificate</quote> and <quote>(public) key</quote>"
-" are used interchangeably, and we will not distinguish between them in this "
+"usually the terms <quote>certificate</quote> and <quote>(public) key</quote> "
+"are used interchangeably, and we will not distinguish between them in this "
 "manual either, except when explicitly noted."
 msgstr ""
 
@@ -309,9 +306,9 @@ msgid ""
 "&ca;s must in turn be signed by other &ca;s to be valid. Of course, this "
 "must end somewhere, so the top-level &ca; (root-&ca;) signs its key with "
 "itself (this is called a self-signature). Root certificates thus need to be "
-"assigned validity (commonly called trust) manually, &eg; after comparing the"
-" fingerprint with the one on the website of the &ca;. This is typically done"
-" by the system administrator or the vendor of a product using certificates, "
+"assigned validity (commonly called trust) manually, &eg; after comparing the "
+"fingerprint with the one on the website of the &ca;. This is typically done "
+"by the system administrator or the vendor of a product using certificates, "
 "but can be done by the user via &gpgsm;'s command line interface."
 msgstr ""
 
@@ -321,8 +318,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To see which of the certificates are root certificates, you switch to the "
-"hierarchical keylist mode with <xref linkend=\"view-hierarchical-key-"
-"list\"/>."
+"hierarchical keylist mode with <xref linkend=\"view-hierarchical-key-list\"/"
+">."
 msgstr ""
 
 # automatic translation
@@ -331,10 +328,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can see the details of any certificate by double-clicking it or using "
-"<xref linkend=\"view-certificate-details\"/>. This opens a dialog that shows"
-" the most common properties of the certificate, its certificate chain (&ie; "
-"the chain of issuers up to the root-&ca;), and a dump of all information the"
-" backend is able to extract from the certificate."
+"<xref linkend=\"view-certificate-details\"/>. This opens a dialog that shows "
+"the most common properties of the certificate, its certificate chain (&ie; "
+"the chain of issuers up to the root-&ca;), and a dump of all information the "
+"backend is able to extract from the certificate."
 msgstr ""
 
 # automatic translation
@@ -360,14 +357,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Most of the time, you will acquire new certificates by verifying signatures "
-"in emails, since certificates are embedded in the signatures made using them"
-" most of the time. However, if you need to send a mail to someone you have "
+"in emails, since certificates are embedded in the signatures made using them "
+"most of the time. However, if you need to send a mail to someone you have "
 "not yet had contact with, you need to fetch the certificate from an &ldap; "
-"folder (although <ulink "
-"url=\"https://www.gnupg.org/documentation/manuals/gnupg/Invoking-"
-"GPGSM.html#Invoking-GPGSM\"> &gpgsm;</ulink> can do this automatically), or "
-"from a file. You also need to import your own certificate after receiving "
-"the &ca; answer to your certification request."
+"folder (although <ulink url=\"https://www.gnupg.org/documentation/manuals/"
+"gnupg/Invoking-GPGSM.html#Invoking-GPGSM\"> &gpgsm;</ulink> can do this "
+"automatically), or from a file. You also need to import your own certificate "
+"after receiving the &ca; answer to your certification request."
 msgstr ""
 
 # automatic translation
@@ -380,10 +376,10 @@ msgid ""
 "Server</guimenuitem></menuchoice> and enter some text (&eg; the name of the "
 "person you want the certificate for) into the line edit of the "
 "<guilabel>Keyserver Certificate Lookup</guilabel> dialog, then click on the "
-"<guilabel>Search</guilabel> button. The results will be displayed in the key"
-" list below the search bar, where you can select certificates to look at "
-"them by clicking the <guibutton>Details</guibutton> button or download them "
-"with <guibutton>Import</guibutton> into the local keybox."
+"<guilabel>Search</guilabel> button. The results will be displayed in the key "
+"list below the search bar, where you can select certificates to look at them "
+"by clicking the <guibutton>Details</guibutton> button or download them with "
+"<guibutton>Import</guibutton> into the local keybox."
 msgstr ""
 
 # automatic translation
@@ -391,9 +387,9 @@ msgstr ""
 #: index.docbook:236
 #, no-c-format
 msgid ""
-"You can configure the list of &ldap; servers to search in the <link "
-"linkend=\"configuration-directory-services\"><guilabel>Directory "
-"Services</guilabel></link> page of &kleopatra;'s configure dialog."
+"You can configure the list of &ldap; servers to search in the <link linkend="
+"\"configuration-directory-services\"><guilabel>Directory Services</"
+"guilabel></link> page of &kleopatra;'s configure dialog."
 msgstr ""
 
 # automatic translation
@@ -413,13 +409,12 @@ msgstr ""
 msgid ""
 "If you did not <link linkend=\"functions-newkey\">create your keypair with "
 "&gpgsm;</link>, you also need to manually import the public key (as well as "
-"the secret key) from the PKCS#12 file you got from the &ca;. You can do this"
-" on the command line with <link linkend=\"commandline-option-import-"
-"certificate\"><userinput><command>kleopatra <option>--import-"
-"certificate</option> "
-"<filename>filename</filename></command></userinput></link> or from within "
-"&kleopatra; with <xref linkend=\"file-import-certificates\"/>, just as you "
-"would to for <quote>normal</quote> certificates."
+"the secret key) from the PKCS#12 file you got from the &ca;. You can do this "
+"on the command line with <link linkend=\"commandline-option-import-"
+"certificate\"><userinput><command>kleopatra <option>--import-certificate</"
+"option> <filename>filename</filename></command></userinput></link> or from "
+"within &kleopatra; with <xref linkend=\"file-import-certificates\"/>, just "
+"as you would to for <quote>normal</quote> certificates."
 msgstr ""
 
 # automatic translation
@@ -434,8 +429,8 @@ msgstr ""
 #: index.docbook:260
 #, no-c-format
 msgid ""
-"The menu item <xref linkend=\"file-new-key-pair\"/> starts the <guilabel>Key"
-" Pair Creation Wizard</guilabel> which will guide you through a number of "
+"The menu item <xref linkend=\"file-new-key-pair\"/> starts the <guilabel>Key "
+"Pair Creation Wizard</guilabel> which will guide you through a number of "
 "steps to create a certificate request."
 msgstr ""
 
@@ -444,11 +439,10 @@ msgstr ""
 #: index.docbook:263
 #, no-c-format
 msgid ""
-"Whenever you are done with a step in the wizard, press "
-"<guibutton>Next</guibutton> to go to the next step (or "
-"<guibutton>Back</guibutton> to review steps that are already completed). The"
-" certificate request creation can be canceled at any time by pressing the "
-"<guibutton>Cancel</guibutton> button."
+"Whenever you are done with a step in the wizard, press <guibutton>Next</"
+"guibutton> to go to the next step (or <guibutton>Back</guibutton> to review "
+"steps that are already completed). The certificate request creation can be "
+"canceled at any time by pressing the <guibutton>Cancel</guibutton> button."
 msgstr ""
 
 # automatic translation
@@ -456,8 +450,8 @@ msgstr ""
 #: index.docbook:269
 #, no-c-format
 msgid ""
-"On the first page of the wizard choose which type of certificate you want to"
-" create:"
+"On the first page of the wizard choose which type of certificate you want to "
+"create:"
 msgstr ""
 
 # automatic translation
@@ -526,8 +520,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Email address (EMAIL):</guilabel> Your email address; be sure to "
-"type this in correctly&mdash;this will be the address people will be sending"
-" mail to when they use your certificate."
+"type this in correctly&mdash;this will be the address people will be sending "
+"mail to when they use your certificate."
 msgstr ""
 
 # automatic translation
@@ -569,9 +563,9 @@ msgstr ""
 #: index.docbook:316
 #, no-c-format
 msgid ""
-"The next step in the wizard is to select whether to store the certificate in"
-" a file or send it directly to a &ca;. You will have to specify the filename"
-" or email address to send the certificate request to."
+"The next step in the wizard is to select whether to store the certificate in "
+"a file or send it directly to a &ca;. You will have to specify the filename "
+"or email address to send the certificate request to."
 msgstr ""
 
 # automatic translation
@@ -586,8 +580,8 @@ msgstr ""
 #: index.docbook:329
 #, no-c-format
 msgid ""
-"A key pair that has expired can be brought back into an operational state as"
-" long as you have access to the private key and the passphrase. To reliably "
+"A key pair that has expired can be brought back into an operational state as "
+"long as you have access to the private key and the passphrase. To reliably "
 "render a key unusable you need to revoke it. Revoking is done by adding a "
 "special revocation signature to the key."
 msgstr ""
@@ -612,10 +606,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kleopatra; does not provide a function to create such a revocation "
-"signature at any time, but you can do that with the &kde; application &kgpg;"
-" by choosing <menuchoice><guimenu>Keys</guimenu> <guimenuitem>Revoke "
-"key</guimenuitem></menuchoice> and optionally importing the revocation "
-"signature to your keyring immediately."
+"signature at any time, but you can do that with the &kde; application &kgpg; "
+"by choosing <menuchoice><guimenu>Keys</guimenu> <guimenuitem>Revoke key</"
+"guimenuitem></menuchoice> and optionally importing the revocation signature "
+"to your keyring immediately."
 msgstr ""
 
 # automatic translation
@@ -651,9 +645,9 @@ msgstr ""
 #: index.docbook:382
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>New Certificate...</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu><guimenuitem>New Certificate...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -673,11 +667,11 @@ msgstr ""
 #: index.docbook:393
 #, no-c-format
 msgid ""
-"This mode of operation is called <quote>decentralized key "
-"generation</quote>, since all keys are created locally. &kleopatra; (and "
-"&gpgsm;) do not support <quote>centralized key generation</quote> directly, "
-"but you can import the public/secret key bundle that you receive from the "
-"&ca; in PKCS#12 format via <xref linkend=\"file-import-certificates\"/>."
+"This mode of operation is called <quote>decentralized key generation</"
+"quote>, since all keys are created locally. &kleopatra; (and &gpgsm;) do not "
+"support <quote>centralized key generation</quote> directly, but you can "
+"import the public/secret key bundle that you receive from the &ca; in "
+"PKCS#12 format via <xref linkend=\"file-import-certificates\"/>."
 msgstr ""
 
 # automatic translation
@@ -685,10 +679,9 @@ msgstr ""
 #: index.docbook:403
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;&Shift;<keycap>I</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>Lookup Certificates on "
-"Server...</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>I</keycap></"
+"keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>Lookup Certificates "
+"on Server...</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -697,8 +690,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<action>Searches for, and imports, certificates from certificate servers "
-"into the local keybox.</action> See <xref linkend=\"functions-search\"/> for"
-" details."
+"into the local keybox.</action> See <xref linkend=\"functions-search\"/> for "
+"details."
 msgstr ""
 
 # automatic translation
@@ -706,8 +699,8 @@ msgstr ""
 #: index.docbook:414
 #, no-c-format
 msgid ""
-"You need to have key servers configured for this to work. See <xref "
-"linkend=\"configuration-directory-services\"/> for more details."
+"You need to have key servers configured for this to work. See <xref linkend="
+"\"configuration-directory-services\"/> for more details."
 msgstr ""
 
 # automatic translation
@@ -715,9 +708,9 @@ msgstr ""
 #: index.docbook:425
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>Import Certificates...</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Import Certificates...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -744,9 +737,9 @@ msgstr ""
 #: index.docbook:446
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>Export Certificates...</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Export Certificates...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -770,8 +763,8 @@ msgstr ""
 #: index.docbook:462
 #, no-c-format
 msgid ""
-"For &openpgp; certificates, <filename class=\"extension\">gpg</filename> and"
-" <filename class=\"extension\">pgp</filename> will result in a binary file, "
+"For &openpgp; certificates, <filename class=\"extension\">gpg</filename> and "
+"<filename class=\"extension\">pgp</filename> will result in a binary file, "
 "whereas <filename class=\"extension\">asc</filename> will result in an "
 "&ascii;-armored file."
 msgstr ""
@@ -782,8 +775,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For &smime; certificates, <filename class=\"extension\">der</filename> will "
-"result in a binary, &der;-encoded file, whereas <filename "
-"class=\"extension\">pem</filename> will result in an &ascii;-armored file."
+"result in a binary, &der;-encoded file, whereas <filename class=\"extension"
+"\">pem</filename> will result in an &ascii;-armored file."
 msgstr ""
 
 # automatic translation
@@ -792,8 +785,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Unless multiple certificates are selected, &kleopatra; will propose "
-"<filename><replaceable>fingerprint</replaceable>.{asc,pem}</filename> as the"
-" export file name."
+"<filename><replaceable>fingerprint</replaceable>.{asc,pem}</filename> as the "
+"export file name."
 msgstr ""
 
 # automatic translation
@@ -819,8 +812,7 @@ msgstr ""
 #. Tag: menuchoice
 #: index.docbook:504
 #, no-c-format
-msgid ""
-"<guimenu>File</guimenu><guimenuitem>Export Secret Keys...</guimenuitem>"
+msgid "<guimenu>File</guimenu><guimenuitem>Export Secret Keys...</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -837,12 +829,12 @@ msgstr ""
 msgid ""
 "In the dialog that opens, you can choose whether to create a binary or an "
 "&ascii;-armored export file (<guilabel>ASCII armor</guilabel>). Next click "
-"on the folder icon at the right hand side of the <guilabel>Output "
-"file</guilabel> text box and select folder and name of the export file. When"
-" exporting &smime; secret keys, you can also choose the <guilabel>Passphrase"
-" charset</guilabel>. See the discussion of the "
-"<option>--p12-charset&nbsp;<replaceable>charset</replaceable></option> "
-"option in the &gpgsm; manual for more details."
+"on the folder icon at the right hand side of the <guilabel>Output file</"
+"guilabel> text box and select folder and name of the export file. When "
+"exporting &smime; secret keys, you can also choose the <guilabel>Passphrase "
+"charset</guilabel>. See the discussion of the <option>--p12-charset&nbsp;"
+"<replaceable>charset</replaceable></option> option in the &gpgsm; manual for "
+"more details."
 msgstr ""
 
 # automatic translation
@@ -860,8 +852,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "It should rarely be necessary to use this function, and if it is, it should "
-"be carefully planned. Planning the migration of a secret key involves choice"
-" of transport media and secure deletion of the key data on the old machine, "
+"be carefully planned. Planning the migration of a secret key involves choice "
+"of transport media and secure deletion of the key data on the old machine, "
 "as well as on the transport medium, among other things."
 msgstr ""
 
@@ -870,10 +862,9 @@ msgstr ""
 #: index.docbook:545
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;&Shift;<keycap>E</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>Export Certificates to "
-"Server...</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>E</keycap></"
+"keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>Export Certificates "
+"to Server...</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -881,8 +872,8 @@ msgstr ""
 #: index.docbook:551
 #, no-c-format
 msgid ""
-"<action>Publish the selected certificates on a keyserver</action> (&openpgp;"
-" only)."
+"<action>Publish the selected certificates on a keyserver</action> (&openpgp; "
+"only)."
 msgstr ""
 
 # automatic translation
@@ -892,8 +883,8 @@ msgstr ""
 msgid ""
 "The certificate is sent to the certificate server configured for &openpgp; "
 "(cf.&nbsp;<xref linkend=\"configuration-directory-services\"/>), if that is "
-"set, otherwise to <systemitem "
-"class=\"systemname\">keys.gnupg.net</systemitem>."
+"set, otherwise to <systemitem class=\"systemname\">keys.gnupg.net</"
+"systemitem>."
 msgstr ""
 
 # automatic translation
@@ -910,8 +901,8 @@ msgstr ""
 #: index.docbook:570
 #, no-c-format
 msgid ""
-"When &openpgp; certificates have been exported to a public directory server,"
-" it is nearly impossible to remove them again. Before exporting your "
+"When &openpgp; certificates have been exported to a public directory server, "
+"it is nearly impossible to remove them again. Before exporting your "
 "certificate to a public directory server, make sure that you have created a "
 "revocation certificate so you can revoke the certificate if needed later."
 msgstr ""
@@ -930,11 +921,11 @@ msgstr ""
 #: index.docbook:585
 #, no-c-format
 msgid ""
-"It can happen that a search on a certificate server turns up no results even"
-" though you just have sent your certificate there. This is because most "
-"public keyserver addresses use <acronym>DNS</acronym> round-robin to balance"
-" the load over multiple machines. These machines synchronize with each "
-"other, but usually only every 24 hours or so."
+"It can happen that a search on a certificate server turns up no results even "
+"though you just have sent your certificate there. This is because most "
+"public keyserver addresses use <acronym>DNS</acronym> round-robin to balance "
+"the load over multiple machines. These machines synchronize with each other, "
+"but usually only every 24 hours or so."
 msgstr ""
 
 # automatic translation
@@ -956,8 +947,7 @@ msgstr ""
 #. Tag: menuchoice
 #: index.docbook:619
 #, no-c-format
-msgid ""
-"<guimenu>File</guimenu><guimenuitem>Sign/Encrypt Files...</guimenuitem>"
+msgid "<guimenu>File</guimenu><guimenuitem>Sign/Encrypt Files...</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -972,9 +962,8 @@ msgstr ""
 #: index.docbook:640
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>Close</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Close</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -991,9 +980,8 @@ msgstr ""
 #: index.docbook:654
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>Quit</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Quit</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1015,9 +1003,8 @@ msgstr ""
 #: index.docbook:674
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\"><keycap>F5</keycap></keycombo></shortcut> "
-"<guimenu>View</guimenu><guimenuitem>Redisplay</guimenuitem>"
+"<shortcut><keycombo action=\"simul\"><keycap>F5</keycap></keycombo></"
+"shortcut> <guimenu>View</guimenu><guimenuitem>Redisplay</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1100,8 +1087,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:734
 #, no-c-format
-msgid ""
-"This function is only available if exactly one certificate is selected."
+msgid "This function is only available if exactly one certificate is selected."
 msgstr ""
 
 # automatic translation
@@ -1109,8 +1095,8 @@ msgstr ""
 #: index.docbook:737
 #, no-c-format
 msgid ""
-"This function is also available by double-clicking the corresponding item in"
-" the list view directly."
+"This function is also available by double-clicking the corresponding item in "
+"the list view directly."
 msgstr ""
 
 # automatic translation
@@ -1118,8 +1104,8 @@ msgstr ""
 #: index.docbook:746
 #, no-c-format
 msgid ""
-"<guimenu>View</guimenu><guimenuitem>Hierarchical Certificate "
-"List</guimenuitem>"
+"<guimenu>View</guimenu><guimenuitem>Hierarchical Certificate List</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1146,8 +1132,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In flat mode, all certificates are displayed in a flat list, sorted "
-"alphabetically. In this mode, a given certificate is easy to find, but it is"
-" not directly clear which root certificate it belongs to."
+"alphabetically. In this mode, a given certificate is easy to find, but it is "
+"not directly clear which root certificate it belongs to."
 msgstr ""
 
 # automatic translation
@@ -1156,8 +1142,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This function toggles hierarchical mode per tab, &ie; each tab has its own "
-"hierarchy state. This is so that you can have both a flat and a hierarchical"
-" listing at hand, each in its own tab."
+"hierarchy state. This is so that you can have both a flat and a hierarchical "
+"listing at hand, each in its own tab."
 msgstr ""
 
 # automatic translation
@@ -1165,8 +1151,8 @@ msgstr ""
 #: index.docbook:771
 #, no-c-format
 msgid ""
-"Hierarchical display is currently only implemented for &smime; certificates."
-" There is disagreement amongst the developers regarding the correct way to "
+"Hierarchical display is currently only implemented for &smime; certificates. "
+"There is disagreement amongst the developers regarding the correct way to "
 "display &openpgp; certificates hierarchically (basically, <quote>parent "
 "&equals; signer</quote> or <quote>parent &equals; signee</quote>)."
 msgstr ""
@@ -1176,9 +1162,8 @@ msgstr ""
 #: index.docbook:786
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>.</keycap> "
-"</keycombo></shortcut><guimenu>View</guimenu><guimenuitem>Expand "
-"All</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>.</keycap> </keycombo></"
+"shortcut><guimenu>View</guimenu><guimenuitem>Expand All</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1219,9 +1204,8 @@ msgstr ""
 #: index.docbook:806
 #, no-c-format
 msgid ""
-"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>,</keycap> "
-"</keycombo></shortcut><guimenu>View</guimenu><guimenuitem>Collapse "
-"All</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>,</keycap> </keycombo></"
+"shortcut><guimenu>View</guimenu><guimenuitem>Collapse All</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1229,8 +1213,8 @@ msgstr ""
 #: index.docbook:810
 #, no-c-format
 msgid ""
-"<action>Collapses all list items in the certificate list view,</action> &ie;"
-" hides all but the top-level items."
+"<action>Collapses all list items in the certificate list view,</action> &ie; "
+"hides all but the top-level items."
 msgstr ""
 
 # automatic translation
@@ -1245,8 +1229,8 @@ msgstr ""
 #: index.docbook:831
 #, no-c-format
 msgid ""
-"<guimenu>Certificates</guimenu><guimenuitem>Change Owner "
-"Trust...</guimenuitem>"
+"<guimenu>Certificates</guimenu><guimenuitem>Change Owner Trust...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1270,8 +1254,8 @@ msgstr ""
 #: index.docbook:852
 #, no-c-format
 msgid ""
-"<guimenu>Certificates</guimenu><guimenuitem>Trust Root "
-"Certificate</guimenuitem>"
+"<guimenu>Certificates</guimenu><guimenuitem>Trust Root Certificate</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1287,8 +1271,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In some ways, this is the equivalent of <xref linkend=\"certificates-change-"
-"owner-trust\"/> for &smime; root certificates. You can, however, only choose"
-" between&mdash;in &openpgp; terms&mdash;<quote>ultimate</quote> trust and "
+"owner-trust\"/> for &smime; root certificates. You can, however, only choose "
+"between&mdash;in &openpgp; terms&mdash;<quote>ultimate</quote> trust and "
 "<quote>never trust</quote>."
 msgstr ""
 
@@ -1301,14 +1285,12 @@ msgid ""
 "whether to trust the imported root certificate. However, that function must "
 "be explicitly enabled in the backend configuration (<option>allow-mark-"
 "trusted</option> in <filename>gpg-agent.conf</filename>, or either "
-"<menuchoice><guimenu>GnuPG&nbsp;System</guimenu> "
-"<guisubmenu>GPG&nbsp;Agent</guisubmenu> <guimenuitem>Allow clients to mark "
-"keys as \"trusted\"</guimenuitem></menuchoice> or <link "
-"linkend=\"configuration-smime-validation-allow-mark-"
-"trusted\"><menuchoice><guimenu>S/MIME&nbsp;Validation</guimenu> "
-"<guimenuitem>Allow to mark root certificates as "
-"trusted</guimenuitem></menuchoice></link> under <xref "
-"linkend=\"configuration\"/>)."
+"<menuchoice><guimenu>GnuPG&nbsp;System</guimenu> <guisubmenu>GPG&nbsp;Agent</"
+"guisubmenu> <guimenuitem>Allow clients to mark keys as \"trusted\"</"
+"guimenuitem></menuchoice> or <link linkend=\"configuration-smime-validation-"
+"allow-mark-trusted\"><menuchoice><guimenu>S/MIME&nbsp;Validation</guimenu> "
+"<guimenuitem>Allow to mark root certificates as trusted</guimenuitem></"
+"menuchoice></link> under <xref linkend=\"configuration\"/>)."
 msgstr ""
 
 # automatic translation
@@ -1329,10 +1311,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Due to lack of backend support for this function, &kleopatra; needs to work "
-"directly on the &gpgsm; trust database (<filename>trustlist.txt</filename>)."
-" When using this function, make sure no other crypto operations are in "
-"progress that could race with &kleopatra; for modifications to that "
-"database."
+"directly on the &gpgsm; trust database (<filename>trustlist.txt</filename>). "
+"When using this function, make sure no other crypto operations are in "
+"progress that could race with &kleopatra; for modifications to that database."
 msgstr ""
 
 # automatic translation
@@ -1340,15 +1321,16 @@ msgstr ""
 #: index.docbook:906
 #, no-c-format
 msgid ""
-"This function is only available when exactly one &smime; root certificate is"
-" selected, and that certificate is not yet trusted."
+"This function is only available when exactly one &smime; root certificate is "
+"selected, and that certificate is not yet trusted."
 msgstr ""
 
 # automatic translation
 #. Tag: para
 #: index.docbook:911
 #, no-c-format
-msgid "Use <xref linkend=\"certificates-distrust-root\"/> to undo this function."
+msgid ""
+"Use <xref linkend=\"certificates-distrust-root\"/> to undo this function."
 msgstr ""
 
 # automatic translation
@@ -1356,8 +1338,8 @@ msgstr ""
 #: index.docbook:920
 #, no-c-format
 msgid ""
-"<guimenu>Certificates</guimenu><guimenuitem>Distrust Root "
-"Certificate</guimenuitem>"
+"<guimenu>Certificates</guimenu><guimenuitem>Distrust Root Certificate</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1372,8 +1354,8 @@ msgstr ""
 #: index.docbook:928
 #, no-c-format
 msgid ""
-"This function is only available when exactly one &smime; root certificate is"
-" selected, and that certificate is currently trusted."
+"This function is only available when exactly one &smime; root certificate is "
+"selected, and that certificate is currently trusted."
 msgstr ""
 
 # automatic translation
@@ -1390,8 +1372,8 @@ msgstr ""
 #: index.docbook:943
 #, no-c-format
 msgid ""
-"<guimenu>Certificates</guimenu><guimenuitem>Certify "
-"Certificate...</guimenuitem>"
+"<guimenu>Certificates</guimenu><guimenuitem>Certify Certificate...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1415,8 +1397,8 @@ msgstr ""
 #: index.docbook:1014
 #, no-c-format
 msgid ""
-"<guimenu>Certificates</guimenu><guimenuitem>Change Expiry "
-"Date...</guimenuitem>"
+"<guimenu>Certificates</guimenu><guimenuitem>Change Expiry Date...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1450,8 +1432,8 @@ msgstr ""
 #: index.docbook:1038
 #, no-c-format
 msgid ""
-"<guimenu>Certificates</guimenu><guimenuitem>Change "
-"Passphrase...</guimenuitem>"
+"<guimenu>Certificates</guimenu><guimenuitem>Change Passphrase...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1515,7 +1497,9 @@ msgstr ""
 #: index.docbook:1084
 #, no-c-format
 msgid ""
-"<replaceable>Real&nbsp;Name</replaceable>&nbsp;<optional>(<replaceable>Comment</replaceable>)</optional>&nbsp;&lt;<replaceable>Email</replaceable>&gt;"
+"<replaceable>Real&nbsp;Name</replaceable>&nbsp;"
+"<optional>(<replaceable>Comment</replaceable>)</optional>&nbsp;&lt;"
+"<replaceable>Email</replaceable>&gt;"
 msgstr ""
 
 # automatic translation
@@ -1524,10 +1508,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In the dialog that comes up when you select this function, &kleopatra; will "
-"ask you for each of the three parameters "
-"(<replaceable>Real&nbsp;Name</replaceable>, "
-"<replaceable>Comment</replaceable> and <replaceable>Email</replaceable>) "
-"separately, and display the result in a preview."
+"ask you for each of the three parameters (<replaceable>Real&nbsp;Name</"
+"replaceable>, <replaceable>Comment</replaceable> and <replaceable>Email</"
+"replaceable>) separately, and display the result in a preview."
 msgstr ""
 
 # automatic translation
@@ -1536,8 +1519,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "These parameters are subject to the same Administrator restrictions as in "
-"new certificates. See <xref linkend=\"functions-newkey\"/> and <xref "
-"linkend=\"admin-certificate-request-wizard\"/> for details."
+"new certificates. See <xref linkend=\"functions-newkey\"/> and <xref linkend="
+"\"admin-certificate-request-wizard\"/> for details."
 msgstr ""
 
 # automatic translation
@@ -1554,9 +1537,8 @@ msgstr ""
 #: index.docbook:1112
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\"><keycap>Del</keycap></keycombo></shortcut> "
-"<guimenu>Certificates</guimenu><guimenuitem>Delete</guimenuitem>"
+"<shortcut><keycombo action=\"simul\"><keycap>Del</keycap></keycombo></"
+"shortcut> <guimenu>Certificates</guimenu><guimenuitem>Delete</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1576,9 +1558,9 @@ msgid ""
 "since certificates are typically attached to signed emails, verifying an "
 "email might result in the key just removed to pop back into the local "
 "keybox. So it is probably best to avoid using this function as much as "
-"possible. When you are lost, use the <link linkend=\"functions-"
-"search\">search bar</link> or the <xref linkend=\"view-hierarchical-key-"
-"list\"/> function to regain control over the lot of certificates."
+"possible. When you are lost, use the <link linkend=\"functions-search"
+"\">search bar</link> or the <xref linkend=\"view-hierarchical-key-list\"/> "
+"function to regain control over the lot of certificates."
 msgstr ""
 
 # automatic translation
@@ -1587,8 +1569,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "There is one exception to the above: When you delete one of your own "
-"certificates, you delete the secret key along with it. This implies that you"
-" will not be able to read past communication encrypted to you using this "
+"certificates, you delete the secret key along with it. This implies that you "
+"will not be able to read past communication encrypted to you using this "
 "certificate, unless you have a backup somewhere."
 msgstr ""
 
@@ -1605,8 +1587,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Due to the hierarchical nature of &smime; certificates, if you delete an "
-"&smime; issuer certificate (&ca; certificate), all subjects are deleted, "
-"too."
+"&smime; issuer certificate (&ca; certificate), all subjects are deleted, too."
 msgstr ""
 
 # automatic translation
@@ -1649,9 +1630,8 @@ msgstr ""
 #: index.docbook:1172
 #, no-c-format
 msgid ""
-"See the discussion about <option>--dump-"
-"key&nbsp;<replaceable>key</replaceable></option> in the &gpgsm; manual for "
-"details about the output."
+"See the discussion about <option>--dump-key&nbsp;<replaceable>key</"
+"replaceable></option> in the &gpgsm; manual for details about the output."
 msgstr ""
 
 # automatic translation
@@ -1673,11 +1653,10 @@ msgstr ""
 #: index.docbook:1204
 #, no-c-format
 msgid ""
-"<action>Starts <ulink "
-"url=\"help:/kwatchgnupg/index.html\">&kwatchgnupg;</ulink></action>, a tool "
-"to present the debug output of &gnupg; applications. If signing, encryption,"
-" or verification mysteriously stop working, you might find out why by "
-"looking at the log."
+"<action>Starts <ulink url=\"help:/kwatchgnupg/index.html\">&kwatchgnupg;</"
+"ulink></action>, a tool to present the debug output of &gnupg; applications. "
+"If signing, encryption, or verification mysteriously stop working, you might "
+"find out why by looking at the log."
 msgstr ""
 
 # automatic translation
@@ -1685,8 +1664,8 @@ msgstr ""
 #: index.docbook:1212
 #, no-c-format
 msgid ""
-"This function is not available on &Windows;, since the underlying mechanisms"
-" are not implemented in the backend on that platform."
+"This function is not available on &Windows;, since the underlying mechanisms "
+"are not implemented in the backend on that platform."
 msgstr ""
 
 # automatic translation
@@ -1694,8 +1673,8 @@ msgstr ""
 #: index.docbook:1222
 #, no-c-format
 msgid ""
-"<guimenu>Tools</guimenu><guimenuitem>Refresh OpenPGP "
-"Certificates</guimenuitem>"
+"<guimenu>Tools</guimenu><guimenuitem>Refresh OpenPGP Certificates</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1704,10 +1683,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<action>Refreshes all &openpgp; certificates</action> by executing "
-"<programlisting><command>gpg&nbsp;<option>--refresh-"
-"keys</option></command></programlisting> After successful completion of the "
-"command, your local keystore will reflect the latest changes with respect to"
-" validity of &openpgp; certificates."
+"<programlisting><command>gpg&nbsp;<option>--refresh-keys</option></command></"
+"programlisting> After successful completion of the command, your local "
+"keystore will reflect the latest changes with respect to validity of "
+"&openpgp; certificates."
 msgstr ""
 
 # automatic translation
@@ -1724,8 +1703,7 @@ msgstr ""
 #: index.docbook:1245
 #, no-c-format
 msgid ""
-"<guimenu>Tools</guimenu><guimenuitem>Refresh X.509 "
-"Certificates</guimenuitem>"
+"<guimenu>Tools</guimenu><guimenuitem>Refresh X.509 Certificates</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1733,13 +1711,16 @@ msgstr ""
 #: index.docbook:1250
 #, no-c-format
 msgid ""
-"<action>Refreshes all &smime; certificates</action> by executing <programlisting><!--\n"
+"<action>Refreshes all &smime; certificates</action> by executing "
+"<programlisting><!--\n"
 "                --><command>gpgsm&nbsp;<!--\n"
 "                  --><option>-k</option>&nbsp;<!--\n"
 "                  --><option>--with-validation</option>&nbsp;<!--\n"
 "                  --><option>--force-crl-refresh</option>&nbsp;<!--\n"
 "                  --><option>--enable-crl-checks</option><!--\n"
-"                  --></command></programlisting> After successful completion of the command, your local keystore will reflect the latest changes with respect to validity of &smime; certificates."
+"                  --></command></programlisting> After successful completion "
+"of the command, your local keystore will reflect the latest changes with "
+"respect to validity of &smime; certificates."
 msgstr ""
 
 # automatic translation
@@ -1782,9 +1763,9 @@ msgstr ""
 #: index.docbook:1286
 #, no-c-format
 msgid ""
-"Normally, Certificate Revocation Lists (&crl;s) are handled transparently by"
-" the backend, but it can sometimes be useful to import a &crl; manually into"
-" the local &crl; cache."
+"Normally, Certificate Revocation Lists (&crl;s) are handled transparently by "
+"the backend, but it can sometimes be useful to import a &crl; manually into "
+"the local &crl; cache."
 msgstr ""
 
 # automatic translation
@@ -1817,8 +1798,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You probably never need this. You can force a refresh of the &crl; cache by "
-"selecting all certificates and using <xref linkend=\"certificates-"
-"refresh-x509\"/> instead."
+"selecting all certificates and using <xref linkend=\"certificates-refresh-"
+"x509\"/> instead."
 msgstr ""
 
 # automatic translation
@@ -1848,16 +1829,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kleopatra; has a default &kde; <guimenu>Settings</guimenu> menu as "
-"described in the <ulink url=\"help:/fundamentals/menus.html#menus-"
-"settings\">&kde; Fundamentals</ulink> with one additional entry:"
+"described in the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">&kde; Fundamentals</ulink> with one additional entry:"
 msgstr ""
 
 # automatic translation
 #. Tag: menuchoice
 #: index.docbook:1355
 #, no-c-format
-msgid ""
-"<guimenu>Settings</guimenu><guimenuitem>Perform Self-Test</guimenuitem>"
+msgid "<guimenu>Settings</guimenu><guimenuitem>Perform Self-Test</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1899,8 +1879,8 @@ msgstr ""
 #: index.docbook:1384
 #, no-c-format
 msgid ""
-"By clicking with the &RMB; click on a tab you open a context menu, where you"
-" can also select the same actions."
+"By clicking with the &RMB; click on a tab you open a context menu, where you "
+"can also select the same actions."
 msgstr ""
 
 # automatic translation
@@ -1915,8 +1895,8 @@ msgstr ""
 #: index.docbook:1389
 #, no-c-format
 msgid ""
-"&kleopatra; has a default &kde; <guimenu>Help</guimenu> menu as described in"
-" the <ulink url=\"help:/fundamentals/menus.html#menus-help\">&kde; "
+"&kleopatra; has a default &kde; <guimenu>Help</guimenu> menu as described in "
+"the <ulink url=\"help:/fundamentals/menus.html#menus-help\">&kde; "
 "Fundamentals</ulink>."
 msgstr ""
 
@@ -2005,8 +1985,8 @@ msgstr ""
 #: index.docbook:1436
 #, no-c-format
 msgid ""
-"Specifies a file or &URL; from which to import certificates (or secret keys)"
-" from."
+"Specifies a file or &URL; from which to import certificates (or secret keys) "
+"from."
 msgstr ""
 
 # automatic translation
@@ -2058,8 +2038,8 @@ msgstr ""
 #: index.docbook:1461
 #, no-c-format
 msgid ""
-"Encrypt and/or sign file(s). Same as <option>--sign-encrypt</option>, do not"
-" use"
+"Encrypt and/or sign file(s). Same as <option>--sign-encrypt</option>, do not "
+"use"
 msgstr ""
 
 # automatic translation
@@ -2117,8 +2097,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kleopatra;'s configure dialog can be accessed via "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&kleopatra;...</guimenuitem></menuchoice>"
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kleopatra;..."
+"</guimenuitem></menuchoice>"
 msgstr ""
 
 # automatic translation
@@ -2141,8 +2121,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "On this page, you can configure which &ldap; servers to use for &smime; "
-"certificate searches, and which key servers to use for &openpgp; certificate"
-" searches."
+"certificate searches, and which key servers to use for &openpgp; certificate "
+"searches."
 msgstr ""
 
 # automatic translation
@@ -2167,13 +2147,13 @@ msgstr ""
 #: index.docbook:1523
 #, no-c-format
 msgid ""
-"Proxy settings can be configured for &http; and &ldap; in <xref "
-"linkend=\"configuration-smime-validation\"/>, but only for &gpgsm;. For "
-"&gpg;, due to the complexity of keyserver options in &gpg; and lack of "
-"proper support for them in &gpgconf;, you currently need to modify the "
-"config file <filename>gpg.conf</filename> directly. Please refer to the "
-"&gpg; manual for details. &kleopatra; will preserve such settings, but does "
-"not yet allow to modify them in the &GUI;."
+"Proxy settings can be configured for &http; and &ldap; in <xref linkend="
+"\"configuration-smime-validation\"/>, but only for &gpgsm;. For &gpg;, due "
+"to the complexity of keyserver options in &gpg; and lack of proper support "
+"for them in &gpgconf;, you currently need to modify the config file "
+"<filename>gpg.conf</filename> directly. Please refer to the &gpg; manual for "
+"details. &kleopatra; will preserve such settings, but does not yet allow to "
+"modify them in the &GUI;."
 msgstr ""
 
 # automatic translation
@@ -2209,8 +2189,8 @@ msgid ""
 "used schemes include <guilabel>ldap</guilabel> (and its &ssl;-secured "
 "sibling <guilabel>ldaps</guilabel>) for &ldap; servers (common protocol for "
 "&smime;; the only one supported by &gpgsm;), and <guilabel>hkp</guilabel>, "
-"the Horowitz Keyserver Protocol, nowadays usually &http; Keyserver Protocol,"
-" a &http;-based protocol that virtually all public &openpgp; keyservers "
+"the Horowitz Keyserver Protocol, nowadays usually &http; Keyserver Protocol, "
+"a &http;-based protocol that virtually all public &openpgp; keyservers "
 "support."
 msgstr ""
 
@@ -2235,8 +2215,8 @@ msgstr ""
 #: index.docbook:1566
 #, no-c-format
 msgid ""
-"The domain name of the server, &eg; <systemitem "
-"class=\"systemname\">keys.gnupg.net</systemitem>."
+"The domain name of the server, &eg; <systemitem class=\"systemname\">keys."
+"gnupg.net</systemitem>."
 msgstr ""
 
 # automatic translation
@@ -2262,9 +2242,9 @@ msgid ""
 "linkend=\"configuration-directory-services-scheme\"/>, unless it was set to "
 "some non-standard port to begin with. If you changed the default port and "
 "cannot get it back, try setting <xref linkend=\"configuration-directory-"
-"services-scheme\"/> to <userinput>http</userinput> and <xref "
-"linkend=\"configuration-directory-services-server-port\"/> to "
-"<userinput>80</userinput> (the default for &http;), then take it from there."
+"services-scheme\"/> to <userinput>http</userinput> and <xref linkend="
+"\"configuration-directory-services-server-port\"/> to <userinput>80</"
+"userinput> (the default for &http;), then take it from there."
 msgstr ""
 
 # automatic translation
@@ -2280,8 +2260,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The Base-&dn; (only for &ldap; and &ldaps;), &ie; the root of the &ldap; "
-"hierarchy to start from. This is often also called <quote>search "
-"root</quote> or <quote>search base</quote>."
+"hierarchy to start from. This is often also called <quote>search root</"
+"quote> or <quote>search base</quote>."
 msgstr ""
 
 # automatic translation
@@ -2374,8 +2354,8 @@ msgstr ""
 #: index.docbook:1659
 #, no-c-format
 msgid ""
-"You can configure as many &smime; (&x509;) servers as you want, but only one"
-" &openpgp; server is allowed at any time. The &GUI; will enforce this."
+"You can configure as many &smime; (&x509;) servers as you want, but only one "
+"&openpgp; server is allowed at any time. The &GUI; will enforce this."
 msgstr ""
 
 # automatic translation
@@ -2400,10 +2380,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To directly insert an entry for &x509; certificates, use "
-"<menuchoice><guimenu>New</guimenu><guimenuitem>X.509</guimenuitem></menuchoice>;"
-" use "
-"<menuchoice><guimenu>New</guimenu><guimenuitem>OpenPGP</guimenuitem></menuchoice>"
-" for &openpgp;."
+"<menuchoice><guimenu>New</guimenu><guimenuitem>X.509</guimenuitem></"
+"menuchoice>; use <menuchoice><guimenu>New</guimenu><guimenuitem>OpenPGP</"
+"guimenuitem></menuchoice> for &openpgp;."
 msgstr ""
 
 # automatic translation
@@ -2420,8 +2399,8 @@ msgstr ""
 #: index.docbook:1693
 #, no-c-format
 msgid ""
-"To set the &ldap; timeout, &ie; the maximum time the backend will wait for a"
-" server to respond, simply use the corresponding input field labeled "
+"To set the &ldap; timeout, &ie; the maximum time the backend will wait for a "
+"server to respond, simply use the corresponding input field labeled "
 "<guilabel>LDAP timeout (minutes:seconds)</guilabel>."
 msgstr ""
 
@@ -2433,9 +2412,9 @@ msgid ""
 "If one of your servers has a large database, so that even reasonable "
 "searches like <userinput>Smith</userinput> hit the <guilabel>maximum number "
 "of items returned by query</guilabel>, you might want to increase this "
-"limit. You can find out easily if you hit the limit during a search, since a"
-" dialog box will pop up in that case, telling you that the results have been"
-" truncated."
+"limit. You can find out easily if you hit the limit during a search, since a "
+"dialog box will pop up in that case, telling you that the results have been "
+"truncated."
 msgstr ""
 
 # automatic translation
@@ -2469,9 +2448,9 @@ msgstr ""
 msgid ""
 "In the main certificate list, &kleopatra; can show details about a "
 "certificate in a tooltip. The information displayed is the same as in the "
-"<guilabel>Overview</guilabel> tab of the <guilabel>Certificate "
-"Details</guilabel> dialog. Tooltips, however, can be restricted to show only"
-" a subset of information for a less verbose experience."
+"<guilabel>Overview</guilabel> tab of the <guilabel>Certificate Details</"
+"guilabel> dialog. Tooltips, however, can be restricted to show only a subset "
+"of information for a less verbose experience."
 msgstr ""
 
 # automatic translation
@@ -2489,8 +2468,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:1744
 #, no-c-format
-msgid ""
-"You can independently enable or disable the following information sets:"
+msgid "You can independently enable or disable the following information sets:"
 msgstr ""
 
 # automatic translation
@@ -2525,8 +2503,10 @@ msgid ""
 "<!--\n"
 "                  -->This certificate is currently valid.\n"
 "<!--              -->Issuer:            CN=Test-ZS 7,O=Intevation GmbH,C=DE\n"
-"<!--              -->Validity:          from 25.08.2009 10:42 through 19.10.2010 10:42\n"
-"<!--              -->Certificate usage: Signing EMails and Files, Encrypting EMails and Files\n"
+"<!--              -->Validity:          from 25.08.2009 10:42 through "
+"19.10.2010 10:42\n"
+"<!--              -->Certificate usage: Signing EMails and Files, Encrypting "
+"EMails and Files\n"
 "<!--              -->Key-ID:            DC9D9E43<!--\n"
 "                  -->"
 msgstr ""
@@ -2544,8 +2524,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Shows information about the owner of the certificate: subject-&dn; (&smime; "
-"only), user-IDs (including emails addresses) and ownertrust (&openpgp; "
-"only)."
+"only), user-IDs (including emails addresses) and ownertrust (&openpgp; only)."
 msgstr ""
 
 # automatic translation
@@ -2554,7 +2533,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&openpgp; example: <programlisting><!--\n"
-"                  -->User-ID:           Gpg4winUserA &lt;gpg4winusera@test.hq&gt;\n"
+"                  -->User-ID:           Gpg4winUserA &lt;gpg4winusera@test."
+"hq&gt;\n"
 "<!--              -->Key-ID:            C6BF6664\n"
 "<!--              -->Ownertrust:        ultimate<!--\n"
 "                  --></programlisting> &smime; example:"
@@ -2566,7 +2546,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<!--\n"
-"                  -->Subject:           CN=Gpg4winTestuserA,OU=Testlab,O=Gpg4win Project,C=DE\n"
+"                  -->Subject:           CN=Gpg4winTestuserA,OU=Testlab,"
+"O=Gpg4win Project,C=DE\n"
 "<!--              -->a.k.a.:            Gpg4winUserA@test.hq\n"
 "<!--              -->Key-ID:            DC9D9E43<!--\n"
 "                  -->"
@@ -2595,9 +2576,11 @@ msgstr ""
 msgid ""
 "<!--\n"
 "                  -->Serial Number:     27\n"
-"<!--              -->Certificate type:  1,024-bit RSA (secret certificate available)\n"
+"<!--              -->Certificate type:  1,024-bit RSA (secret certificate "
+"available)\n"
 "<!--              -->Key-ID:            DC9D9E43\n"
-"<!--              -->Fingerprint:       854F62EEEBB41BFDD3BE05D124971E09DC9D9E43\n"
+"<!--              -->Fingerprint:       "
+"854F62EEEBB41BFDD3BE05D124971E09DC9D9E43\n"
 "<!--              -->Stored:            on this computer<!--\n"
 "                  -->"
 msgstr ""
@@ -2627,8 +2610,8 @@ msgid ""
 "Each certificate category in the list is assigned a set of colors, an icon "
 "(optional) and a font in which certificates from that category are "
 "displayed. The category list also acts as a preview of the settings. "
-"Categories can be freely defined by the administrator or the power user, see"
-" <xref linkend=\"admin-key-filters\"/> in <xref linkend=\"admin\"/>."
+"Categories can be freely defined by the administrator or the power user, see "
+"<xref linkend=\"admin-key-filters\"/> in <xref linkend=\"admin\"/>."
 msgstr ""
 
 # automatic translation
@@ -2697,8 +2680,8 @@ msgstr ""
 #: index.docbook:1851
 #, no-c-format
 msgid ""
-"The first option has the advantage that the font will follow whichever style"
-" you choose &kde;-wide, whereas the latter gives you full control over the "
+"The first option has the advantage that the font will follow whichever style "
+"you choose &kde;-wide, whereas the latter gives you full control over the "
 "font to use. The choice is yours."
 msgstr ""
 
@@ -2754,8 +2737,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Although &dn;s are hierarchical, the order of the individual components "
-"(called relative &dn;s (RDNs), or &dn; attributes) is not defined. The order"
-" in which the attributes are shown is thus a matter of personal taste or "
+"(called relative &dn;s (RDNs), or &dn; attributes) is not defined. The order "
+"in which the attributes are shown is thus a matter of personal taste or "
 "company policy, which is why it is configurable in &kleopatra;."
 msgstr ""
 
@@ -2805,8 +2788,8 @@ msgstr ""
 #: index.docbook:1911
 #, no-c-format
 msgid ""
-"Only attributes explicitly listed in the <guilabel>Current attribute "
-"order</guilabel> list are displayed at all. The rest is hidden by default."
+"Only attributes explicitly listed in the <guilabel>Current attribute order</"
+"guilabel> list are displayed at all. The rest is hidden by default."
 msgstr ""
 
 # automatic translation
@@ -2909,8 +2892,7 @@ msgstr ""
 msgid ""
 "To move an attribute up (down) one slot only, select it in the "
 "<guilabel>Current attribute order</guilabel> list, and press the "
-"<guilabel>Move one up</guilabel> (<guilabel>Move one down</guilabel>) "
-"button."
+"<guilabel>Move one up</guilabel> (<guilabel>Move one down</guilabel>) button."
 msgstr ""
 
 # automatic translation
@@ -2932,8 +2914,8 @@ msgstr ""
 #: index.docbook:1973
 #, no-c-format
 msgid ""
-"Here you can configure some aspects of the email operations of &kleopatra;'s"
-" &uiserver;. Currently, you can only configure whether or not to use "
+"Here you can configure some aspects of the email operations of &kleopatra;'s "
+"&uiserver;. Currently, you can only configure whether or not to use "
 "<quote>Quick Mode</quote> for signing and encrypting emails, individually."
 msgstr ""
 
@@ -3005,8 +2987,8 @@ msgstr ""
 #: index.docbook:2025
 #, no-c-format
 msgid ""
-"On this page, you can configure certain aspects of the validation of &smime;"
-" certificates."
+"On this page, you can configure certain aspects of the validation of &smime; "
+"certificates."
 msgstr ""
 
 # automatic translation
@@ -3017,8 +2999,8 @@ msgid ""
 "For the most part, this is simply a more user-friendly version of the same "
 "settings you also find in <xref linkend=\"configuration-gnupg-system\"/>. "
 "Everything you can configure here, you can configure there, too, with the "
-"exception of <xref linkend=\"configuration-smime-validation-refresh-"
-"interval\"/>, which is &kleopatra;-specific."
+"exception of <xref linkend=\"configuration-smime-validation-refresh-interval"
+"\"/>, which is &kleopatra;-specific."
 msgstr ""
 
 # automatic translation
@@ -3060,10 +3042,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Validation is performed implicitly whenever significant files in "
-"<filename>~/.gnupg</filename> change. This option, just like <xref "
-"linkend=\"certificates-refresh-openpgp\"/> and <xref linkend=\"certificates-"
-"refresh-x509\"/>, therefore only affects external factors of certificate "
-"validity."
+"<filename>~/.gnupg</filename> change. This option, just like <xref linkend="
+"\"certificates-refresh-openpgp\"/> and <xref linkend=\"certificates-refresh-"
+"x509\"/>, therefore only affects external factors of certificate validity."
 msgstr ""
 
 # automatic translation
@@ -3130,8 +3111,8 @@ msgstr ""
 #: index.docbook:2110
 #, no-c-format
 msgid ""
-"To use this method, you need to enter the &URL; of the &ocsp; responder into"
-" <xref linkend=\"configuration-smime-validation-ocsp-url\"/>."
+"To use this method, you need to enter the &URL; of the &ocsp; responder into "
+"<xref linkend=\"configuration-smime-validation-ocsp-url\"/>."
 msgstr ""
 
 # automatic translation
@@ -3157,8 +3138,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Enter here the address of the server for online validation of certificates "
-"(&ocsp; responder). The &URL; usually starts with "
-"<literal>http://</literal>."
+"(&ocsp; responder). The &URL; usually starts with <literal>http://</literal>."
 msgstr ""
 
 # automatic translation
@@ -3228,8 +3208,8 @@ msgstr ""
 #: index.docbook:2172
 #, no-c-format
 msgid ""
-"By default, &gpgsm; uses the file <filename>~/.gnupg/policies.txt</filename>"
-" to check if a certificate policy is allowed. If this option is selected, "
+"By default, &gpgsm; uses the file <filename>~/.gnupg/policies.txt</filename> "
+"to check if a certificate policy is allowed. If this option is selected, "
 "policies are not checked."
 msgstr ""
 
@@ -3262,8 +3242,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If this option is checked while a root &ca; certificate is being imported, "
-"you will be asked to confirm its fingerprint and to state whether or not you"
-" consider this root certificate to be trusted."
+"you will be asked to confirm its fingerprint and to state whether or not you "
+"consider this root certificate to be trusted."
 msgstr ""
 
 # automatic translation
@@ -3373,8 +3353,8 @@ msgstr ""
 #: index.docbook:2270
 #, no-c-format
 msgid ""
-"If this option is selected, the value of the &http; proxy shown on the right"
-" (which comes from the environment variable <envar>http_proxy</envar>) will "
+"If this option is selected, the value of the &http; proxy shown on the right "
+"(which comes from the environment variable <envar>http_proxy</envar>) will "
 "be used for any &http; request."
 msgstr ""
 
@@ -3390,8 +3370,8 @@ msgstr ""
 #: index.docbook:2281
 #, no-c-format
 msgid ""
-"If no system proxy is set, or you need to use a different proxy for &gpgsm;,"
-" you can enter its location here."
+"If no system proxy is set, or you need to use a different proxy for &gpgsm;, "
+"you can enter its location here."
 msgstr ""
 
 # automatic translation
@@ -3406,9 +3386,9 @@ msgstr ""
 #: index.docbook:2290
 #, no-c-format
 msgid ""
-"The syntax is "
-"<userinput><replaceable>host</replaceable><literal>:</literal><replaceable>port</replaceable></userinput>,"
-" &eg; <userinput>myproxy.nowhere.com:3128</userinput>."
+"The syntax is <userinput><replaceable>host</replaceable><literal>:</"
+"literal><replaceable>port</replaceable></userinput>, &eg; <userinput>myproxy."
+"nowhere.com:3128</userinput>."
 msgstr ""
 
 # automatic translation
@@ -3445,8 +3425,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When looking for the location of a &crl;, the to-be-tested certificate "
-"usually contains what are known as \"&crl; Distribution Point\" "
-"(<acronym>DP</acronym>) entries, which are &URL;s describing the way to "
+"usually contains what are known as \"&crl; Distribution Point"
+"\" (<acronym>DP</acronym>) entries, which are &URL;s describing the way to "
 "access the &crl;. The first found <acronym>DP</acronym> entry is used."
 msgstr ""
 
@@ -3474,8 +3454,8 @@ msgid ""
 "Entering an &ldap; server here will make all &ldap; requests go to that "
 "server first. More precisely, this setting overrides any specified "
 "<replaceable>host</replaceable> and <replaceable>port</replaceable> part in "
-"an &ldap; &URL; and will also be used if <replaceable>host</replaceable> and"
-" <replaceable>port</replaceable> have been omitted from the &URL;."
+"an &ldap; &URL; and will also be used if <replaceable>host</replaceable> and "
+"<replaceable>port</replaceable> have been omitted from the &URL;."
 msgstr ""
 
 # automatic translation
@@ -3484,10 +3464,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Other &ldap; servers will be used only if the connection to the "
-"<quote>proxy</quote> failed. The syntax is "
-"<userinput><replaceable>host</replaceable></userinput> or "
-"<userinput><replaceable>host</replaceable><literal>:</literal><replaceable>port</replaceable></userinput>."
-" If <replaceable>port</replaceable> is omitted, port 389 (standard &ldap; "
+"<quote>proxy</quote> failed. The syntax is <userinput><replaceable>host</"
+"replaceable></userinput> or <userinput><replaceable>host</"
+"replaceable><literal>:</literal><replaceable>port</replaceable></userinput>. "
+"If <replaceable>port</replaceable> is omitted, port 389 (standard &ldap; "
 "port) is used."
 msgstr ""
 
@@ -3518,8 +3498,7 @@ msgid ""
 "The most useful of these options have been duplicated as separate pages in "
 "the &kleopatra; config dialog. See <xref linkend=\"configuration-directory-"
 "services\"/> and <xref linkend=\"configuration-smime-validation\"/> for the "
-"two dialog pages which contain selected options from this part of the "
-"dialog."
+"two dialog pages which contain selected options from this part of the dialog."
 msgstr ""
 
 # automatic translation
@@ -3547,8 +3526,8 @@ msgstr ""
 #: index.docbook:2398
 #, no-c-format
 msgid ""
-"&kleopatra; displays one tab per component reported by &gpgconf;; groups are"
-" headed by a horizontal line displaying the group name as returned from "
+"&kleopatra; displays one tab per component reported by &gpgconf;; groups are "
+"headed by a horizontal line displaying the group name as returned from "
 "&gpgconf;."
 msgstr ""
 
@@ -3747,8 +3726,8 @@ msgstr ""
 #: index.docbook:2485
 #, no-c-format
 msgid ""
-"It is assumed that the reader is familiar with the technology used for &kde;"
-" application configuration, including layout, file system location and "
+"It is assumed that the reader is familiar with the technology used for &kde; "
+"application configuration, including layout, file system location and "
 "cascading of &kde; config files, as well as the KIOSK framework."
 msgstr ""
 
@@ -3799,8 +3778,8 @@ msgid ""
 "Using the <acronym>KIOSK</acronym> mode modifier <varname>$e</varname> "
 "allows to retrieve the values from environment variables or from an "
 "evaluated script or binary. If you want to disallow editing of the "
-"respective field in addition, use the modifier <varname>$i</varname>. If you"
-" want to disallow the use <guibutton>Insert My Address</guibutton> button, "
+"respective field in addition, use the modifier <varname>$i</varname>. If you "
+"want to disallow the use <guibutton>Insert My Address</guibutton> button, "
 "set <varname>ShowSetWhoAmI</varname> to false."
 msgstr ""
 
@@ -3809,8 +3788,8 @@ msgstr ""
 #: index.docbook:2517
 #, no-c-format
 msgid ""
-"Due to the nature of the &kde; <acronym>KIOSK</acronym> framework, using the"
-" immutable flag (<varname>$i</varname>) makes it impossible for the user to "
+"Due to the nature of the &kde; <acronym>KIOSK</acronym> framework, using the "
+"immutable flag (<varname>$i</varname>) makes it impossible for the user to "
 "override the flag. This is intended behavior. <varname>$i</varname> and "
 "<varname>$e</varname> can be used with all other config keys in &kde; "
 "applications as well."
@@ -3829,7 +3808,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "[CertificateCreationWizard]\n"
-";Disallow to copy personal data from the addressbook, do not allow local override\n"
+";Disallow to copy personal data from the addressbook, do not allow local "
+"override\n"
 "ShowSetWhoAmI[$i]=false\n"
 "\n"
 ";sets the user name to $USER\n"
@@ -3858,8 +3838,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kleopatra; also allows to restrict which type of certificates a user is "
-"allowed to create. Note, however, that an easy way around these restrictions"
-" is to just create one on the command line."
+"allowed to create. Note, however, that an easy way around these restrictions "
+"is to just create one on the command line."
 msgstr ""
 
 # automatic translation
@@ -3914,13 +3894,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To restrict the available keys sizes for a public algorithm, add the config "
-"key <varname><replaceable>&lt;ALG&gt;</replaceable>KeySizes</varname> (where"
-" <replaceable>ALG</replaceable> may be <literal>RSA</literal>, "
-"<literal>DSA</literal> or <literal>ELG</literal>) to the "
+"key <varname><replaceable>&lt;ALG&gt;</replaceable>KeySizes</varname> (where "
+"<replaceable>ALG</replaceable> may be <literal>RSA</literal>, <literal>DSA</"
+"literal> or <literal>ELG</literal>) to the "
 "<literal>CertificateCreationWizard</literal> section of "
 "<filename>kleopatrarc</filename>, containing a comma-separated list of "
-"keysizes (in bits). A default may be indicated by prefixing the keysize with"
-" a hyphen (<literal>-</literal>)."
+"keysizes (in bits). A default may be indicated by prefixing the keysize with "
+"a hyphen (<literal>-</literal>)."
 msgstr ""
 
 # automatic translation
@@ -3944,10 +3924,9 @@ msgstr ""
 #: index.docbook:2600
 #, no-c-format
 msgid ""
-"In addition to the sizes themselves, you may also specify labels for each of"
-" the sizes. Simply set the config key "
-"<varname><replaceable>ALG</replaceable>KeySizeLabels</varname> to a comma-"
-"separated list of labels."
+"In addition to the sizes themselves, you may also specify labels for each of "
+"the sizes. Simply set the config key <varname><replaceable>ALG</"
+"replaceable>KeySizeLabels</varname> to a comma-separated list of labels."
 msgstr ""
 
 # automatic translation
@@ -4008,11 +3987,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kleopatra; allows the user to configure the <link linkend=\"configuration-"
-"appearance-certificate-filters\">visual appearance</link> of keys based on a"
-" concept called <guilabel>Key Categories</guilabel>. <guilabel>Key "
-"Categories</guilabel> are also used to filter the list of certificates. This"
-" section describes how you can edit the available categories and add new "
-"ones."
+"appearance-certificate-filters\">visual appearance</link> of keys based on a "
+"concept called <guilabel>Key Categories</guilabel>. <guilabel>Key "
+"Categories</guilabel> are also used to filter the list of certificates. This "
+"section describes how you can edit the available categories and add new ones."
 msgstr ""
 
 # automatic translation
@@ -4042,13 +4020,12 @@ msgstr ""
 #: index.docbook:2657
 #, no-c-format
 msgid ""
-"The only mandatory keys in a <literal>Key Filter "
-"#<replaceable>n</replaceable></literal> group are <varname>Name</varname>, "
-"containing the name of the category as displayed in the <link "
-"linkend=\"configuration-appearance-certificate-filters\">config "
-"dialog</link>, and <varname>id</varname>, which is used as a reference for "
-"the filter in other configuration sections (such as <literal>View "
-"#<replaceable>n</replaceable></literal>)."
+"The only mandatory keys in a <literal>Key Filter #<replaceable>n</"
+"replaceable></literal> group are <varname>Name</varname>, containing the "
+"name of the category as displayed in the <link linkend=\"configuration-"
+"appearance-certificate-filters\">config dialog</link>, and <varname>id</"
+"varname>, which is used as a reference for the filter in other configuration "
+"sections (such as <literal>View #<replaceable>n</replaceable></literal>)."
 msgstr ""
 
 # automatic translation
@@ -4057,10 +4034,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "lists all keys that define the display properties of keys belonging to that "
-"category (&ie; those keys that can be adjusted in the <link "
-"linkend=\"configuration-appearance-certificate-filters\">config "
-"dialog</link>), whereas <xref linkend=\"table-key-filters-criteria\"/> lists"
-" all keys that define the criteria the filter matches keys against."
+"category (&ie; those keys that can be adjusted in the <link linkend="
+"\"configuration-appearance-certificate-filters\">config dialog</link>), "
+"whereas <xref linkend=\"table-key-filters-criteria\"/> lists all keys that "
+"define the criteria the filter matches keys against."
 msgstr ""
 
 # automatic translation
@@ -4192,8 +4169,8 @@ msgstr ""
 #: index.docbook:2732
 #, no-c-format
 msgid ""
-"Analogous to <varname>font-bold</varname>, but for italic font style instead"
-" of bold."
+"Analogous to <varname>font-bold</varname>, but for italic font style instead "
+"of bold."
 msgstr ""
 
 # automatic translation
@@ -4421,8 +4398,7 @@ msgstr ""
 #. Tag: entry
 #: index.docbook:2852
 #, no-c-format
-msgid ""
-"the key material is stored on a smartcard (instead of on the computer)."
+msgid "the key material is stored on a smartcard (instead of on the computer)."
 msgstr ""
 
 # automatic translation
@@ -4489,10 +4465,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Validity is an (ordered) enumeration with the following allowed values: "
-"<literal>unknown</literal>, <literal>undefined</literal>, "
-"<literal>never</literal>, <literal>marginal</literal>, "
-"<literal>full</literal>, <literal>ultimate</literal>. See the &gpg; and "
-"&gpgsm; manuals for a detailed explanation."
+"<literal>unknown</literal>, <literal>undefined</literal>, <literal>never</"
+"literal>, <literal>marginal</literal>, <literal>full</literal>, "
+"<literal>ultimate</literal>. See the &gpg; and &gpgsm; manuals for a "
+"detailed explanation."
 msgstr ""
 
 # automatic translation
@@ -4500,17 +4476,15 @@ msgstr ""
 #: index.docbook:2895
 #, no-c-format
 msgid ""
-"the key has exactly "
-"(<replaceable>prefix</replaceable>&nbsp;=&nbsp;<literal>is</literal>), has "
-"anything but (<replaceable>prefix</replaceable>&nbsp;=&nbsp;<literal>is-"
-"not</literal>), has at least "
-"(<replaceable>prefix</replaceable>&nbsp;=&nbsp;<literal>is-at-"
-"least</literal>), or has at most "
-"(<replaceable>prefix</replaceable>&nbsp;=&nbsp;<literal>is-at-"
-"most</literal>) the ownertrust given as the value of the config key. If more"
-" than one <varname><replaceable>prefix</replaceable>-ownertrust</varname> "
-"keys (with different <replaceable>prefix</replaceable> values) are present "
-"in a single group, the behavior is undefined."
+"the key has exactly (<replaceable>prefix</replaceable>&nbsp;=&nbsp;"
+"<literal>is</literal>), has anything but (<replaceable>prefix</"
+"replaceable>&nbsp;=&nbsp;<literal>is-not</literal>), has at least "
+"(<replaceable>prefix</replaceable>&nbsp;=&nbsp;<literal>is-at-least</"
+"literal>), or has at most (<replaceable>prefix</replaceable>&nbsp;=&nbsp;"
+"<literal>is-at-most</literal>) the ownertrust given as the value of the "
+"config key. If more than one <varname><replaceable>prefix</replaceable>-"
+"ownertrust</varname> keys (with different <replaceable>prefix</replaceable> "
+"values) are present in a single group, the behavior is undefined."
 msgstr ""
 
 # automatic translation
@@ -4525,9 +4499,8 @@ msgstr ""
 #: index.docbook:2915
 #, no-c-format
 msgid ""
-"Analogous to "
-"<varname><replaceable>prefix</replaceable>-ownertrust</varname>, but for key"
-" validity instead of ownertrust."
+"Analogous to <varname><replaceable>prefix</replaceable>-ownertrust</"
+"varname>, but for key validity instead of ownertrust."
 msgstr ""
 
 # automatic translation
@@ -4535,11 +4508,11 @@ msgstr ""
 #: index.docbook:2926
 #, no-c-format
 msgid ""
-"Some of the more interesting criteria, such as <varname>is-revoked</varname>"
-" or <varname>is-expired</varname> will only work on "
-"<emphasis>validated</emphasis> keys, which is why, by default, only "
-"validated keys are checked for revocation and expiration, although you are "
-"free to remove these extra checks."
+"Some of the more interesting criteria, such as <varname>is-revoked</varname> "
+"or <varname>is-expired</varname> will only work on <emphasis>validated</"
+"emphasis> keys, which is why, by default, only validated keys are checked "
+"for revocation and expiration, although you are free to remove these extra "
+"checks."
 msgstr ""
 
 # automatic translation
@@ -4569,14 +4542,14 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <varname>match-contexts</varname> limits the applicability of the "
-"filter. Two contexts are currently defined: The "
-"<literal>appearance</literal> context is used when defining coloring and "
-"font properties for the views. The <literal>filtering</literal> context is "
-"used to selectively include (and exclude) certificate from views. "
-"<literal>any</literal> can be used to signify all currently defined "
-"contexts, and is the default if <varname>match-contexts</varname> is not "
-"given, or otherwise produces no contexts. This ensures that no key filter "
-"can end up <quote>dead</quote>, &ie; with no contexts to apply it in."
+"filter. Two contexts are currently defined: The <literal>appearance</"
+"literal> context is used when defining coloring and font properties for the "
+"views. The <literal>filtering</literal> context is used to selectively "
+"include (and exclude) certificate from views. <literal>any</literal> can be "
+"used to signify all currently defined contexts, and is the default if "
+"<varname>match-contexts</varname> is not given, or otherwise produces no "
+"contexts. This ensures that no key filter can end up <quote>dead</quote>, "
+"&ie; with no contexts to apply it in."
 msgstr ""
 
 # automatic translation
@@ -4590,8 +4563,8 @@ msgid ""
 "on an internal list of contexts, which starts out empty. This is best "
 "explained by an example: <literal>any !appearance</literal> is the same as "
 "<literal>filtering</literal>, and <literal>appearance !appearance</literal> "
-"is producing the empty set, as is <literal>!any</literal>. However, the last"
-" two will be internally replaced by <literal>any</literal>, since they "
+"is producing the empty set, as is <literal>!any</literal>. However, the last "
+"two will be internally replaced by <literal>any</literal>, since they "
 "produce no contexts at all."
 msgstr ""
 
@@ -4611,8 +4584,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Each filter has an implied <quote>specificity</quote> that is used to rank "
-"all matching filters. The more specific filter wins over less specific ones."
-" If two filters have the same specificity, the one that comes first in the "
+"all matching filters. The more specific filter wins over less specific ones. "
+"If two filters have the same specificity, the one that comes first in the "
 "config file wins. A filter's specificity is proportional to the number of "
 "criteria it contains."
 msgstr ""
@@ -4629,8 +4602,8 @@ msgstr ""
 #: index.docbook:2999
 #, no-c-format
 msgid ""
-"To check for all expired, but non-revoked root certificates, you would use a"
-" key filter defined as follows:"
+"To check for all expired, but non-revoked root certificates, you would use a "
+"key filter defined as follows:"
 msgstr ""
 
 # automatic translation
@@ -4695,9 +4668,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Each archiver is defined in <filename>libkleopatrarc</filename> as a "
-"separate "
-"<literal>Archive&nbsp;Definition&nbsp;#<replaceable>n</replaceable></literal>"
-" group, with the following mandatory keys:"
+"separate <literal>Archive&nbsp;Definition&nbsp;#<replaceable>n</"
+"replaceable></literal> group, with the following mandatory keys:"
 msgstr ""
 
 # automatic translation
@@ -4780,19 +4752,17 @@ msgstr ""
 msgid ""
 "Since backslash (<literal>\\</literal>) is an escape character in &kde; "
 "config files, you need to double them when they appear in path names: "
-"<programlisting>pack-"
-"command=C:\\\\Programs\\\\GNU\\\\tar\\\\gtar.exe&nbsp;...</programlisting> "
-"However, for the command itself (as opposed to its arguments), you may just "
-"use forward slashes (<literal>/</literal>) as path separators on all "
-"platforms: <programlisting>pack-"
-"command=C:/Programs/GNU/tar/gtar.exe&nbsp;...</programlisting> This is not "
-"supported in arguments, as most &Windows; programs use the forward slash for"
-" options. For example, the following will not work, since "
-"<literal>C:/myarchivescript.bat</literal> is an argument to "
-"<command>cmd.exe</command>, and <literal>/</literal> is not converted to "
-"<literal>\\</literal> in arguments, only commands: <programlisting>pack-"
-"command=cmd.exe C:/myarchivescript.bat</programlisting> This needs, instead,"
-" to be written as:"
+"<programlisting>pack-command=C:\\\\Programs\\\\GNU\\\\tar\\\\gtar."
+"exe&nbsp;...</programlisting> However, for the command itself (as opposed to "
+"its arguments), you may just use forward slashes (<literal>/</literal>) as "
+"path separators on all platforms: <programlisting>pack-command=C:/Programs/"
+"GNU/tar/gtar.exe&nbsp;...</programlisting> This is not supported in "
+"arguments, as most &Windows; programs use the forward slash for options. For "
+"example, the following will not work, since <literal>C:/myarchivescript.bat</"
+"literal> is an argument to <command>cmd.exe</command>, and <literal>/</"
+"literal> is not converted to <literal>\\</literal> in arguments, only "
+"commands: <programlisting>pack-command=cmd.exe C:/myarchivescript.bat</"
+"programlisting> This needs, instead, to be written as:"
 msgstr ""
 
 # automatic translation
@@ -4835,9 +4805,9 @@ msgid ""
 "this case, filenames are passed on the command line, just like you would "
 "when using the command prompt. &kleopatra; does not use a shell to execute "
 "the command. Therefore, this is a safe way of passing filenames, but it "
-"might run into command line length restrictions on some platforms. A literal"
-" <literal>%f</literal>, if present, is replaced by the names of the files to"
-" archive. Otherwise, filenames are appended to the command line. Thus, the "
+"might run into command line length restrictions on some platforms. A literal "
+"<literal>%f</literal>, if present, is replaced by the names of the files to "
+"archive. Otherwise, filenames are appended to the command line. Thus, the "
 "zip Example above could equivalently be written like this:"
 msgstr ""
 
@@ -4860,9 +4830,9 @@ msgstr ""
 #: index.docbook:3144
 #, no-c-format
 msgid ""
-"Example (&GNU;-tar): <programlisting>pack-command=|gtar cf - "
-"-T-</programlisting> Example (ZIP): <programlisting>pack-command=|zip -@ "
-"-</programlisting> In this case, filenames are passed to the archiver on "
+"Example (&GNU;-tar): <programlisting>pack-command=|gtar cf - -T-</"
+"programlisting> Example (ZIP): <programlisting>pack-command=|zip -@ -</"
+"programlisting> In this case, filenames are passed to the archiver on "
 "<acronym>stdin</acronym>, one per line. This avoids problems on platforms "
 "which place a low limit on the number of command line arguments that are "
 "allowed, but fails when filenames, in fact, contain newlines."
@@ -4882,8 +4852,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:3167
 #, no-c-format
-msgid ""
-"Via standard-in, separated by NUL-bytes: prepend <literal>0|</literal>."
+msgid "Via standard-in, separated by NUL-bytes: prepend <literal>0|</literal>."
 msgstr ""
 
 # automatic translation
@@ -4891,11 +4860,10 @@ msgstr ""
 #: index.docbook:3168
 #, no-c-format
 msgid ""
-"Example (&GNU;-tar): <programlisting>pack-command=0|gtar cf - -T- "
-"--null</programlisting> This is the same as above, except that NUL bytes are"
-" used to separate filenames. Since NUL bytes are forbidden in filenames, "
-"this is the most robust way of passing filenames, but not all archivers "
-"support it."
+"Example (&GNU;-tar): <programlisting>pack-command=0|gtar cf - -T- --null</"
+"programlisting> This is the same as above, except that NUL bytes are used to "
+"separate filenames. Since NUL bytes are forbidden in filenames, this is the "
+"most robust way of passing filenames, but not all archivers support it."
 msgstr ""
 
 # automatic translation
@@ -4923,8 +4891,8 @@ msgstr ""
 msgid ""
 "To be usable by &kleopatra;, output of checksum programs (both the written "
 "checksum file, as well as the output on <acronym>stdout</acronym> when "
-"verifying checksums) needs to be compatible with &GNU; "
-"<command>md5sum</command> and <command>sha1sum</command>."
+"verifying checksums) needs to be compatible with &GNU; <command>md5sum</"
+"command> and <command>sha1sum</command>."
 msgstr ""
 
 # automatic translation
@@ -4932,13 +4900,13 @@ msgstr ""
 #: index.docbook:3205
 #, no-c-format
 msgid ""
-"Specifically, the checksum file needs to be line-based with each line having"
-" the following format: <programlisting><replaceable>CHECKSUM</replaceable> '"
-" ' ( ' ' | '*' ) <replaceable>FILENAME</replaceable></programlisting> where "
+"Specifically, the checksum file needs to be line-based with each line having "
+"the following format: <programlisting><replaceable>CHECKSUM</replaceable> ' "
+"' ( ' ' | '*' ) <replaceable>FILENAME</replaceable></programlisting> where "
 "<replaceable>CHECKSUM</replaceable> consists of hex-characters only. If "
 "<replaceable>FILENAME</replaceable> contains a newline character, the line "
-"must instead read: <programlisting>\\<replaceable>CHECKSUM</replaceable> ' '"
-" ( ' ' | '*' ) <replaceable>ESCAPED-FILENAME</replaceable></programlisting> "
+"must instead read: <programlisting>\\<replaceable>CHECKSUM</replaceable> ' "
+"' ( ' ' | '*' ) <replaceable>ESCAPED-FILENAME</replaceable></programlisting> "
 "where <replaceable>ESCAPED-FILENAME</replaceable> is the filename with "
 "newlines replaced by <literal>\\n</literal>s, and backslashes doubled "
 "(<literal>\\</literal>&#x21A6;<literal>\\\\</literal>)."
@@ -4949,11 +4917,10 @@ msgstr ""
 #: index.docbook:3223
 #, no-c-format
 msgid ""
-"Similarly, the output of <xref linkend=\"checksum-definition-verify-"
-"command\"/> must be of the form "
-"<programlisting><replaceable>FILENAME</replaceable> ( ': OK' | ': FAILED' "
-")</programlisting> separated by newlines. Newlines and other characters are "
-"<emphasis>not</emphasis> escaped in the output."
+"Similarly, the output of <xref linkend=\"checksum-definition-verify-command"
+"\"/> must be of the form <programlisting><replaceable>FILENAME</replaceable> "
+"( ': OK' | ': FAILED' )</programlisting> separated by newlines. Newlines and "
+"other characters are <emphasis>not</emphasis> escaped in the output."
 msgstr ""
 
 # automatic translation
@@ -4962,8 +4929,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Yes, these programs were not written with graphical frontends in mind, and "
-"&kleopatra; will fail to correctly parse pathological filenames that contain"
-" \":&nbsp;OK\" plus newline in them."
+"&kleopatra; will fail to correctly parse pathological filenames that contain "
+"\":&nbsp;OK\" plus newline in them."
 msgstr ""
 
 # automatic translation
@@ -4971,10 +4938,9 @@ msgstr ""
 #: index.docbook:3242
 #, no-c-format
 msgid ""
-"Each checksum program is defined in <filename>libkleopatrarc</filename> as a"
-" separate "
-"<literal>Checksum&nbsp;Definition&nbsp;#<replaceable>n</replaceable></literal>"
-" group, with the following mandatory keys:"
+"Each checksum program is defined in <filename>libkleopatrarc</filename> as a "
+"separate <literal>Checksum&nbsp;Definition&nbsp;#<replaceable>n</"
+"replaceable></literal> group, with the following mandatory keys:"
 msgstr ""
 
 # automatic translation
@@ -4989,12 +4955,12 @@ msgstr ""
 #: index.docbook:3254
 #, no-c-format
 msgid ""
-"A list of regular expressions that describe which files should be considered"
-" checksum files for this checksum program. The syntax is the one used for "
+"A list of regular expressions that describe which files should be considered "
+"checksum files for this checksum program. The syntax is the one used for "
 "string lists in &kde; config files. <note> <para> Since regular expressions "
 "usually contain backslashes, care must be taken to properly escape them in "
-"the config file. The use of a config file editing tool is recommended. "
-"</para> </note> The platform defines whether the patterns are treated case-"
+"the config file. The use of a config file editing tool is recommended. </"
+"para> </note> The platform defines whether the patterns are treated case-"
 "sensitive or case-insensitive."
 msgstr ""
 
@@ -5048,8 +5014,8 @@ msgstr ""
 msgid ""
 "The actual command with which to create checksum files. The syntax, "
 "restrictions and argument passing options are the same as described for "
-"<xref linkend=\"archive-definition-pack-command\"/> in <xref "
-"linkend=\"admin-archive-definitions\"/>."
+"<xref linkend=\"archive-definition-pack-command\"/> in <xref linkend=\"admin-"
+"archive-definitions\"/>."
 msgstr ""
 
 # automatic translation
@@ -5104,8 +5070,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kleopatra; copyright 2002 &Steffen.Hansen;, &Matthias.Kalle.Dalheimer; and "
-"&Jesper.Pedersen;., copyright 2004 &Daniel.Molkentin;, copyright 2004, 2007,"
-" 2008, 2009, 2010 Klar&auml;lvdalens Datakonsult AB"
+"&Jesper.Pedersen;., copyright 2004 &Daniel.Molkentin;, copyright 2004, 2007, "
+"2008, 2009, 2010 Klar&auml;lvdalens Datakonsult AB"
 msgstr ""
 
 # automatic translation
@@ -5113,8 +5079,8 @@ msgstr ""
 #: index.docbook:3348
 #, no-c-format
 msgid ""
-"Documentation copyright 2002 &Steffen.Hansen;, copyright 2004 "
-"&Daniel.Molkentin;, copyright 2004, 2010 Klar&auml;lvdalens Datakonsult AB"
+"Documentation copyright 2002 &Steffen.Hansen;, copyright 2004 &Daniel."
+"Molkentin;, copyright 2004, 2010 Klar&auml;lvdalens Datakonsult AB"
 msgstr ""
 
 # automatic translation

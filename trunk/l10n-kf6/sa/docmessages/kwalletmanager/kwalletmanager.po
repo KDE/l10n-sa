@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-23 00:47+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -75,8 +77,8 @@ msgstr ""
 #: index.docbook:32
 #, no-c-format
 msgid ""
-"The wallet subsystem provides a convenient and secure way to manage all your"
-" passwords."
+"The wallet subsystem provides a convenient and secure way to manage all your "
+"passwords."
 msgstr ""
 
 # automatic translation
@@ -131,8 +133,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kwallet5; provides a secure way to store passwords and other secret "
-"information, allowing the user to remember only a single password instead of"
-" numerous different passwords and credentials."
+"information, allowing the user to remember only a single password instead of "
+"numerous different passwords and credentials."
 msgstr ""
 
 # automatic translation
@@ -158,10 +160,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "By default a wallet named <guilabel>kdewallet</guilabel> will be used to "
-"store your passwords. This wallet is secured by your login password and will"
-" automatically be opened at login, if kwallet_pam is installed and properly "
-"configured. On certain distros (&eg; Archlinux) kwallet_pam is not installed"
-" by default"
+"store your passwords. This wallet is secured by your login password and will "
+"automatically be opened at login, if kwallet_pam is installed and properly "
+"configured. On certain distros (&eg; Archlinux) kwallet_pam is not installed "
+"by default"
 msgstr ""
 
 # automatic translation
@@ -262,13 +264,12 @@ msgstr ""
 #: index.docbook:112
 #, no-c-format
 msgid ""
-"The data is encrypted with the <ulink "
-"url=\"http://www.schneier.com/blowfish.html\">Blowfish symmetric block "
-"cipher algorithm</ulink>, the algorithm key is derived from the <ulink "
-"url=\"http://www.ietf.org/rfc/rfc3174.txt\">SHA-1 hash</ulink> of the "
-"password, with a key length of 156 bits (20 bytes). The data into the wallet"
-" file is also hashed with SHA-1 and checked before the data is deciphered "
-"and accessible by the applications."
+"The data is encrypted with the <ulink url=\"http://www.schneier.com/blowfish."
+"html\">Blowfish symmetric block cipher algorithm</ulink>, the algorithm key "
+"is derived from the <ulink url=\"http://www.ietf.org/rfc/rfc3174.txt\">SHA-1 "
+"hash</ulink> of the password, with a key length of 156 bits (20 bytes). The "
+"data into the wallet file is also hashed with SHA-1 and checked before the "
+"data is deciphered and accessible by the applications."
 msgstr ""
 
 # automatic translation
@@ -341,8 +342,7 @@ msgstr ""
 msgid ""
 "&kwallet5; will now use GPG when storing wallets and when opening them. The "
 "passphrase dialog only shows once. Even if the wallet is closed after "
-"initial open, subsequent opening will occur silently during the same "
-"session."
+"initial open, subsequent opening will occur silently during the same session."
 msgstr ""
 
 # automatic translation
@@ -376,11 +376,11 @@ msgstr ""
 #: index.docbook:162
 #, no-c-format
 msgid ""
-"Launch &kwalletmanager5; using &krunner; (<keycombo>&Alt; "
-"<keycap>F2</keycap></keycombo>) or other application launcher (menu) and "
-"select your old wallet. Then choose <menuchoice><guimenu>File</guimenu> "
-"<guimenuitem>Export as encrypted</guimenuitem></menuchoice> to create an "
-"archive file with your sensitive data."
+"Launch &kwalletmanager5; using &krunner; (<keycombo>&Alt; <keycap>F2</"
+"keycap></keycombo>) or other application launcher (menu) and select your old "
+"wallet. Then choose <menuchoice><guimenu>File</guimenu> <guimenuitem>Export "
+"as encrypted</guimenuitem></menuchoice> to create an archive file with your "
+"sensitive data."
 msgstr ""
 
 # automatic translation
@@ -388,9 +388,9 @@ msgstr ""
 #: index.docbook:167
 #, no-c-format
 msgid ""
-"Select the new GPG based wallet then choose "
-"<menuchoice><guimenu>File</guimenu> <guimenuitem>Import "
-"encrypted</guimenuitem></menuchoice> and select the file you just saved."
+"Select the new GPG based wallet then choose <menuchoice><guimenu>File</"
+"guimenu> <guimenuitem>Import encrypted</guimenuitem></menuchoice> and select "
+"the file you just saved."
 msgstr ""
 
 # automatic translation
@@ -400,8 +400,8 @@ msgstr ""
 msgid ""
 "Go to &systemsettings; <menuchoice><guimenu>Account Details</guimenu> "
 "<guimenuitem>KDE Wallet</guimenuitem></menuchoice> and select the newly "
-"created GPG based wallet from the <guilabel>Select wallet to use as "
-"default</guilabel> combobox."
+"created GPG based wallet from the <guilabel>Select wallet to use as default</"
+"guilabel> combobox."
 msgstr ""
 
 # automatic translation
@@ -411,8 +411,8 @@ msgstr ""
 msgid ""
 "Alternatively use <guimenuitem>Import a wallet</guimenuitem> but in that "
 "case you have to select the <filename class=\"extension\">.kwl</filename> "
-"file corresponding to your old wallet, located in the folder <filename "
-"class=\"directory\">kwalletd</filename> in <userinput>qtpaths --paths "
+"file corresponding to your old wallet, located in the folder <filename class="
+"\"directory\">kwalletd</filename> in <userinput>qtpaths --paths "
 "GenericDataLocation</userinput>."
 msgstr ""
 
@@ -422,8 +422,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kwallet5; supports multiple wallets, so for the most secure operation, you "
-"should use one wallet for local passwords, and another for network passwords"
-" and form data. You can configure this behavior in the &kwallet5; "
+"should use one wallet for local passwords, and another for network passwords "
+"and form data. You can configure this behavior in the &kwallet5; "
 "&systemsettings; module, however the default setting is to store everything "
 "in one wallet named <guilabel>kdewallet</guilabel>."
 msgstr ""
@@ -475,8 +475,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you want to store this information, select <guibutton>Store</guibutton> "
-"to proceed. In case you did not create a wallet so far, the next dialog asks"
-" for the encryption backend and creates a wallet named kdewallet."
+"to proceed. In case you did not create a wallet so far, the next dialog asks "
+"for the encryption backend and creates a wallet named kdewallet."
 msgstr ""
 
 # automatic translation
@@ -532,8 +532,8 @@ msgstr ""
 msgid ""
 "This connects the application to the wallet, enables it to read the login "
 "data from the wallet and to restore the login information for this website. "
-"Once an application is connected to the wallet, it can automatically restore"
-" any login information stored in the wallet."
+"Once an application is connected to the wallet, it can automatically restore "
+"any login information stored in the wallet."
 msgstr ""
 
 # automatic translation
@@ -548,10 +548,10 @@ msgstr ""
 #: index.docbook:253
 #, no-c-format
 msgid ""
-"&kwalletmanager5; serves a number of functions. Firstly it allows you to see"
-" if any wallets are open, which wallets those are, and which applications "
-"are using each wallet. You can disconnect an application's access to a "
-"wallet from within the &kwalletmanager5;."
+"&kwalletmanager5; serves a number of functions. Firstly it allows you to see "
+"if any wallets are open, which wallets those are, and which applications are "
+"using each wallet. You can disconnect an application's access to a wallet "
+"from within the &kwalletmanager5;."
 msgstr ""
 
 # automatic translation
@@ -618,8 +618,7 @@ msgstr ""
 #: index.docbook:294
 #, no-c-format
 msgid ""
-"If you have more than one wallet all available wallets are shown on the "
-"left."
+"If you have more than one wallet all available wallets are shown on the left."
 msgstr ""
 
 # automatic translation
@@ -689,9 +688,8 @@ msgstr ""
 #: index.docbook:325
 #, no-c-format
 msgid ""
-"The tree view of the folders contained in the wallet. Click the "
-"<guiicon>&gt;</guiicon> / <guiicon>v</guiicon> icons to expand or collapse "
-"the tree view."
+"The tree view of the folders contained in the wallet. Click the <guiicon>&gt;"
+"</guiicon> / <guiicon>v</guiicon> icons to expand or collapse the tree view."
 msgstr ""
 
 # automatic translation
@@ -701,8 +699,8 @@ msgstr ""
 msgid ""
 "The contents of the selected folder entry at the right side. By default the "
 "password and value are hidden. To display and edit them enable "
-"<guilabel>Show values</guilabel> or click the <guilabel>Show "
-"Contents</guilabel> button."
+"<guilabel>Show values</guilabel> or click the <guilabel>Show Contents</"
+"guilabel> button."
 msgstr ""
 
 # automatic translation
@@ -710,10 +708,10 @@ msgstr ""
 #: index.docbook:334
 #, no-c-format
 msgid ""
-"Folders may be added or deleted via the context menu, and selecting a folder"
-" will update the folder entry list and the summary display. Selecting a "
-"folder entry will update the entry contents pane, and allow you to edit that"
-" entry."
+"Folders may be added or deleted via the context menu, and selecting a folder "
+"will update the folder entry list and the summary display. Selecting a "
+"folder entry will update the entry contents pane, and allow you to edit that "
+"entry."
 msgstr ""
 
 # automatic translation
@@ -721,8 +719,8 @@ msgstr ""
 #: index.docbook:339
 #, no-c-format
 msgid ""
-"Entries may also be created, renamed or deleted via the context menu for the"
-" folder contents."
+"Entries may also be created, renamed or deleted via the context menu for the "
+"folder contents."
 msgstr ""
 
 # automatic translation
@@ -733,8 +731,8 @@ msgid ""
 "All folders and entries may be dragged and dropped into other wallets or "
 "folders respectively. This allows a user to easily package up a new wallet "
 "for transfer to another environment. For instance, a new wallet could be "
-"created and copied onto a removable flash memory device. Important passwords"
-" could be transferred there, so you have them available in other locations."
+"created and copied onto a removable flash memory device. Important passwords "
+"could be transferred there, so you have them available in other locations."
 msgstr ""
 
 # automatic translation
@@ -752,9 +750,8 @@ msgid ""
 "If you want to transfer your secrets to another device or computer use the "
 "actions in the <guimenu>File</guimenu> menu. With <guimenuitem>Export as "
 "encrypted</guimenuitem> wallets can be exported into an encrypted archive "
-"file. Importing this archive file with <guimenuitem>Import "
-"encrypted</guimenuitem> you have to provide the master password of the "
-"wallet."
+"file. Importing this archive file with <guimenuitem>Import encrypted</"
+"guimenuitem> you have to provide the master password of the wallet."
 msgstr ""
 
 # automatic translation
@@ -780,9 +777,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Open the context menu with the &RMB; click on <guilabel>Maps</guilabel> or "
-"<guilabel>Passwords</guilabel> in the <guilabel>Folder</guilabel> tree view."
-" Select <guimenuitem>New</guimenuitem> or <guimenuitem>New "
-"Folder</guimenuitem> and choose a name for the new entry."
+"<guilabel>Passwords</guilabel> in the <guilabel>Folder</guilabel> tree view. "
+"Select <guimenuitem>New</guimenuitem> or <guimenuitem>New Folder</"
+"guimenuitem> and choose a name for the new entry."
 msgstr ""
 
 # automatic translation
@@ -792,8 +789,8 @@ msgstr ""
 msgid ""
 "In the folder contents pane select <guilabel>New Folder</guilabel> from the "
 "context menu of <quote>Form Data</quote> or <quote>Passwords</quote>. For "
-"passwords click the <guilabel>Show Contents</guilabel> button, enter the new"
-" password. For Maps you have to add a <guilabel>Key</guilabel> and a "
+"passwords click the <guilabel>Show Contents</guilabel> button, enter the new "
+"password. For Maps you have to add a <guilabel>Key</guilabel> and a "
 "<guilabel>Value</guilabel>. Click the <guilabel>Save</guilabel> button to "
 "store the new entries in the encrypted wallet file."
 msgstr ""
@@ -933,10 +930,9 @@ msgstr ""
 #: index.docbook:442
 #, no-c-format
 msgid ""
-"Close the wallet as soon as applications that use it have stopped. Note that"
-" your wallets will only be closed when all the applications that use it have"
-" stopped. When a wallet is closed, the password is needed to access it "
-"again."
+"Close the wallet as soon as applications that use it have stopped. Note that "
+"your wallets will only be closed when all the applications that use it have "
+"stopped. When a wallet is closed, the password is needed to access it again."
 msgstr ""
 
 # automatic translation
@@ -960,8 +956,7 @@ msgstr ""
 msgid ""
 "Select which wallet you want to use as default wallet. Please keep in mind "
 "that only the wallet named <guilabel>kdewallet</guilabel> will be opened "
-"automatically at login, if this wallet and your login password are "
-"identical."
+"automatically at login, if this wallet and your login password are identical."
 msgstr ""
 
 # automatic translation
@@ -1020,8 +1015,8 @@ msgstr ""
 #: index.docbook:490
 #, no-c-format
 msgid ""
-"Finally, there is a button labeled <guibutton>Launch Wallet "
-"Manager</guibutton>, which does precisely that."
+"Finally, there is a button labeled <guibutton>Launch Wallet Manager</"
+"guibutton>, which does precisely that."
 msgstr ""
 
 # automatic translation
@@ -1090,8 +1085,8 @@ msgid ""
 "name to expand the tree. You will see the name of each application that has "
 "asked for access to the wallet, and the policy you set for it. You cannot "
 "edit policies here, or add them, but it is possible to delete an entry by "
-"&RMB; clicking on it and choosing <guimenuitem>Delete</guimenuitem> from the"
-" context menu that appears, or by simply selecting it and pressing the "
+"&RMB; clicking on it and choosing <guimenuitem>Delete</guimenuitem> from the "
+"context menu that appears, or by simply selecting it and pressing the "
 "<keysym>Del</keysym> key."
 msgstr ""
 
@@ -1100,8 +1095,8 @@ msgstr ""
 #: index.docbook:531
 #, no-c-format
 msgid ""
-"An application that has been allowed access to a wallet is granted access to"
-" all passwords stored inside."
+"An application that has been allowed access to a wallet is granted access to "
+"all passwords stored inside."
 msgstr ""
 
 # automatic translation
@@ -1118,8 +1113,8 @@ msgstr ""
 #: index.docbook:537
 #, no-c-format
 msgid ""
-"On the next start of this application you can define a new policy for access"
-" to the wallet."
+"On the next start of this application you can define a new policy for access "
+"to the wallet."
 msgstr ""
 
 # automatic translation
@@ -1155,8 +1150,8 @@ msgstr ""
 #: index.docbook:560
 #, no-c-format
 msgid ""
-"Wallets can be dragged from the &kwalletmanager5; window. This allows you to"
-" drag the wallet to a file browser window, where you can choose to copy, "
+"Wallets can be dragged from the &kwalletmanager5; window. This allows you to "
+"drag the wallet to a file browser window, where you can choose to copy, "
 "move, or link the wallet, as desired."
 msgstr ""
 

@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-03-14 02:07+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -28,10 +30,10 @@ msgstr ""
 msgid ""
 "By default, &appname; starts with an empty book collection. To work with "
 "some other type of collection, create it using the "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></menuchoice>"
-" menu item, or the button on the toolbar. Collections are populated with "
-"some of the more common fields, but you can add, modify, or delete them to "
-"suit your needs."
+"<menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></"
+"menuchoice> menu item, or the button on the toolbar. Collections are "
+"populated with some of the more common fields, but you can add, modify, or "
+"delete them to suit your needs."
 msgstr ""
 
 # automatic translation
@@ -39,21 +41,20 @@ msgstr ""
 #: fundamentals.docbook:11
 #, no-c-format
 msgid ""
-"New entries can be added by using the <link linkend=\"entry-"
-"editor\"><interface>Entry Editor</interface></link>. The "
-"<menuchoice><guimenu>Collection</guimenu><guimenuitem>New "
-"Entry</guimenuitem></menuchoice> menu item will open the <interface>Entry "
-"Editor</interface> with an empty entry ready for editing. The "
-"<interface>Entry Editor</interface> can also be opened by using the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show Entry "
-"Editor</guimenuitem></menuchoice> menu item. Once you've entered the values "
-"for the entry, you can save it to the collection by using the "
-"<guibutton>Save Entry</guibutton> button in the <interface>Entry "
-"Editor</interface> dialog, which remains open in case you want to continue "
-"adding new entries. Once you've saved an entry in the collection, you can "
-"modify it by clicking on it in the main window. If the <interface>Entry "
-"Editor</interface> is not already open, you can double click an entry to "
-"open the editor and start editing."
+"New entries can be added by using the <link linkend=\"entry-editor"
+"\"><interface>Entry Editor</interface></link>. The "
+"<menuchoice><guimenu>Collection</guimenu><guimenuitem>New Entry</"
+"guimenuitem></menuchoice> menu item will open the <interface>Entry Editor</"
+"interface> with an empty entry ready for editing. The <interface>Entry "
+"Editor</interface> can also be opened by using the "
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show Entry Editor</"
+"guimenuitem></menuchoice> menu item. Once you've entered the values for the "
+"entry, you can save it to the collection by using the <guibutton>Save Entry</"
+"guibutton> button in the <interface>Entry Editor</interface> dialog, which "
+"remains open in case you want to continue adding new entries. Once you've "
+"saved an entry in the collection, you can modify it by clicking on it in the "
+"main window. If the <interface>Entry Editor</interface> is not already open, "
+"you can double click an entry to open the editor and start editing."
 msgstr ""
 
 # automatic translation
@@ -61,11 +62,11 @@ msgstr ""
 #: fundamentals.docbook:15
 #, no-c-format
 msgid ""
-"If you want to include an image in the entry, you can use the standard &kde;"
-" File Selector by clicking the <guibutton>Select Image...</guibutton> button"
-" in the <link linkend=\"entry-editor\"><interface>Entry "
-"Editor</interface></link>, or you can drag an image from the file manager or"
-" web browser into the <interface>Entry Editor</interface>."
+"If you want to include an image in the entry, you can use the standard &kde; "
+"File Selector by clicking the <guibutton>Select Image...</guibutton> button "
+"in the <link linkend=\"entry-editor\"><interface>Entry Editor</interface></"
+"link>, or you can drag an image from the file manager or web browser into "
+"the <interface>Entry Editor</interface>."
 msgstr ""
 
 # automatic translation
@@ -75,9 +76,8 @@ msgstr ""
 msgid ""
 "When you select an entry, the <link linkend=\"entry-view\"><interface>Entry "
 "View</interface></link> shows a formatted view of the entry's contents. You "
-"can change the template used for showing the entry in the <link "
-"linkend=\"configuration\"><interface>Configuration "
-"Dialog</interface></link>."
+"can change the template used for showing the entry in the <link linkend="
+"\"configuration\"><interface>Configuration Dialog</interface></link>."
 msgstr ""
 
 # automatic translation
@@ -88,8 +88,8 @@ msgid ""
 "The entries in the collection are grouped together when they share the same "
 "values for certain fields, such as the author or director. You can change "
 "the field used for grouping by using the combo box in the toolbar or the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Group "
-"Selection</guimenuitem></menuchoice> menu item."
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Group Selection</"
+"guimenuitem></menuchoice> menu item."
 msgstr ""
 
 # automatic translation
@@ -98,14 +98,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can use the <interface>Quick Filter</interface> in the toolbar to limit "
-"the visible entries. The filter is also useful when you want to quickly find"
-" an entry. You can type in the title or some other unique word that "
-"identifies the entry and the <link linkend=\"detailed-"
-"view\"><interface>Column View</interface></link> will only show the entries "
-"that match the filter. More complex filtering can use field names directly, "
-"such as <emphasis>author=stephenson</emphasis>. The status bar shows you how"
-" many entries are in the collection, and how many are currently being "
-"filtered."
+"the visible entries. The filter is also useful when you want to quickly find "
+"an entry. You can type in the title or some other unique word that "
+"identifies the entry and the <link linkend=\"detailed-view"
+"\"><interface>Column View</interface></link> will only show the entries that "
+"match the filter. More complex filtering can use field names directly, such "
+"as <emphasis>author=stephenson</emphasis>. The status bar shows you how many "
+"entries are in the collection, and how many are currently being filtered."
 msgstr ""
 
 # automatic translation
@@ -124,15 +123,15 @@ msgid ""
 "about the collection in a different manner. The primary view is the <link "
 "linkend=\"detailed-view\"><interface>Column View</interface></link> in the "
 "upper right area, where the value of every field for each entry may be "
-"shown. On the left side, tabs hold the <link linkend=\"group-"
-"view\"><interface>Group View</interface></link>, which can be used to sort "
-"the entries into groups in a tree-structure, the <link linkend=\"filter-"
-"view\"><interface>Filter View</interface></link>, which is used to track "
-"which entries meet certain criteria, and the <link linkend=\"loan-"
-"view\"><interface>Loan View</interface></link>, where any loans are listed. "
-"Finally, the <link linkend=\"entry-view\"><interface>Entry "
-"View</interface></link> shows a formatted view of the data for a single "
-"entry, or an icon view of a group of entries, in the lower right."
+"shown. On the left side, tabs hold the <link linkend=\"group-view"
+"\"><interface>Group View</interface></link>, which can be used to sort the "
+"entries into groups in a tree-structure, the <link linkend=\"filter-view"
+"\"><interface>Filter View</interface></link>, which is used to track which "
+"entries meet certain criteria, and the <link linkend=\"loan-view"
+"\"><interface>Loan View</interface></link>, where any loans are listed. "
+"Finally, the <link linkend=\"entry-view\"><interface>Entry View</interface></"
+"link> shows a formatted view of the data for a single entry, or an icon view "
+"of a group of entries, in the lower right."
 msgstr ""
 
 # automatic translation
@@ -162,13 +161,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Any of the fields in the collections may be shown in the <interface>Column "
-"View</interface>, although <emphasis><link "
-"linkend=\"para\">Paragraph</link></emphasis>, <emphasis><link "
-"linkend=\"image\">Image</link></emphasis>, and <emphasis><link "
-"linkend=\"table\">Table</link></emphasis> fields will probably not be "
-"useful. Right-clicking on the header of the view opens a menu for selecting "
-"the visible fields. The columns may be resized and reordered in any way, and"
-" the settings will be saved between sessions."
+"View</interface>, although <emphasis><link linkend=\"para\">Paragraph</"
+"link></emphasis>, <emphasis><link linkend=\"image\">Image</link></emphasis>, "
+"and <emphasis><link linkend=\"table\">Table</link></emphasis> fields will "
+"probably not be useful. Right-clicking on the header of the view opens a "
+"menu for selecting the visible fields. The columns may be resized and "
+"reordered in any way, and the settings will be saved between sessions."
 msgstr ""
 
 # automatic translation
@@ -190,8 +188,8 @@ msgid ""
 "the item. Expanding and contracting all the groups are options in the right-"
 "click context menu. The tree may be sorted either by the group name, or by "
 "the count, by clicking on the header. A group may also be used as a filter "
-"for the <link linkend=\"detailed-view\"><interface>Column "
-"View</interface></link>, by right-clicking on the group item."
+"for the <link linkend=\"detailed-view\"><interface>Column View</interface></"
+"link>, by right-clicking on the group item."
 msgstr ""
 
 # automatic translation
@@ -199,11 +197,10 @@ msgstr ""
 #: fundamentals.docbook:71
 #, no-c-format
 msgid ""
-"When more than one field in the collection has the <emphasis><link "
-"linkend=\"fields-dialog\"><guilabel>Format as a "
-"name</guilabel></link></emphasis> option turned on, an additional group is "
-"added to combine all those fields into one single "
-"<emphasis>People</emphasis> pseudo-group."
+"When more than one field in the collection has the <emphasis><link linkend="
+"\"fields-dialog\"><guilabel>Format as a name</guilabel></link></emphasis> "
+"option turned on, an additional group is added to combine all those fields "
+"into one single <emphasis>People</emphasis> pseudo-group."
 msgstr ""
 
 # automatic translation
@@ -212,8 +209,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If an entry does not contain a value for the field being used to form the "
-"groups, it is placed in the <emphasis>(Empty)</emphasis> group, which uses a"
-" red folder."
+"groups, it is placed in the <emphasis>(Empty)</emphasis> group, which uses a "
+"red folder."
 msgstr ""
 
 # automatic translation
@@ -228,12 +225,12 @@ msgstr ""
 #: fundamentals.docbook:83
 #, no-c-format
 msgid ""
-"If any filters are saved for the collection, the <interface>Filter "
-"View</interface> becomes active. As you add or modify entries, they will "
+"If any filters are saved for the collection, the <interface>Filter View</"
+"interface> becomes active. As you add or modify entries, they will "
 "automatically be checked against the filters and add or removed as "
 "appropriate. The filter may be modified by double-clicking on the item to "
-"open the <link linkend=\"filter-dialog\"><interface>Advanced Filter "
-"Dialog</interface></link>. Right-clicking gives you the option to delete it "
+"open the <link linkend=\"filter-dialog\"><interface>Advanced Filter Dialog</"
+"interface></link>. Right-clicking gives you the option to delete it "
 "altogether."
 msgstr ""
 
@@ -296,10 +293,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A formatted representation of the entry's values is shown in the "
-"<interface>Entry View</interface>. Templates are used for the layout and any"
-" additional graphics. Separate templates for each type of collection may be "
-"specified in the <link linkend=\"template-options\"><interface>Configuration"
-" Dialog</interface></link>, along with custom colors and fonts."
+"<interface>Entry View</interface>. Templates are used for the layout and any "
+"additional graphics. Separate templates for each type of collection may be "
+"specified in the <link linkend=\"template-options\"><interface>Configuration "
+"Dialog</interface></link>, along with custom colors and fonts."
 msgstr ""
 
 # automatic translation
@@ -343,13 +340,13 @@ msgstr ""
 #: fundamentals.docbook:144
 #, no-c-format
 msgid ""
-"The <interface>Entry Editor</interface> is used to add and modify entries in"
-" the collection. Double-clicking on an entry in either the <interface>Group "
+"The <interface>Entry Editor</interface> is used to add and modify entries in "
+"the collection. Double-clicking on an entry in either the <interface>Group "
 "View</interface> or the <interface>Column View</interface> opens the "
 "<interface>Entry Editor</interface> with that entry. New entries may be "
 "created using the <menuchoice><guimenu>Collection</guimenu></menuchoice> "
-"menu, the toolbar icon, or the button in the <interface>Entry "
-"Editor</interface> itself."
+"menu, the toolbar icon, or the button in the <interface>Entry Editor</"
+"interface> itself."
 msgstr ""
 
 # automatic translation
@@ -358,10 +355,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Closing the <interface>Entry Editor</interface> when changes have been made "
-"but not saved will cause a warning message to appear. The fields are grouped"
-" by category and appear in the order that they appear in the <link "
-"linkend=\"fields-dialog\"><interface>Collection Fields "
-"Dialog</interface></link>. They may also be reordered."
+"but not saved will cause a warning message to appear. The fields are grouped "
+"by category and appear in the order that they appear in the <link linkend="
+"\"fields-dialog\"><interface>Collection Fields Dialog</interface></link>. "
+"They may also be reordered."
 msgstr ""
 
 # automatic translation
@@ -383,11 +380,11 @@ msgstr ""
 #: fundamentals.docbook:158
 #, no-c-format
 msgid ""
-"Clicking the field title for a <link "
-"linkend=\"url\"><emphasis>&URL;</emphasis></link> field will open the link "
-"using the default &kde; file association. The <guiicon>&URL; "
-"selector</guiicon> button beside the text entry will open the default &kde; "
-"File Open Dialog, but the field is not limited to local files."
+"Clicking the field title for a <link linkend=\"url\"><emphasis>&URL;</"
+"emphasis></link> field will open the link using the default &kde; file "
+"association. The <guiicon>&URL; selector</guiicon> button beside the text "
+"entry will open the default &kde; File Open Dialog, but the field is not "
+"limited to local files."
 msgstr ""
 
 # automatic translation
@@ -398,10 +395,9 @@ msgid ""
 "For <link linkend=\"image\"><emphasis>Image</emphasis></link> fields, the "
 "<guibutton>Select Image...</guibutton> button opens up the &kde; image file "
 "selection dialog. The image is saved in the collection in the original "
-"format, and a scaled version is shown in the <interface>Entry "
-"Editor</interface>. The image may be cleared by using the "
-"<guibutton>Clear</guibutton> button. Cleared images are removed from the "
-"collection."
+"format, and a scaled version is shown in the <interface>Entry Editor</"
+"interface>. The image may be cleared by using the <guibutton>Clear</"
+"guibutton> button. Cleared images are removed from the collection."
 msgstr ""
 
 # automatic translation
@@ -409,8 +405,8 @@ msgstr ""
 #: fundamentals.docbook:166
 #, no-c-format
 msgid ""
-"<screeninfo>The <interface>Entry Editor</interface> for "
-"<emphasis>Image</emphasis> fields</screeninfo>"
+"<screeninfo>The <interface>Entry Editor</interface> for <emphasis>Image</"
+"emphasis> fields</screeninfo>"
 msgstr ""
 
 # automatic translation
@@ -418,8 +414,8 @@ msgstr ""
 #: fundamentals.docbook:169
 #, no-c-format
 msgid ""
-"<phrase>The <interface>Entry Editor</interface> for "
-"<emphasis>Image</emphasis> fields</phrase>"
+"<phrase>The <interface>Entry Editor</interface> for <emphasis>Image</"
+"emphasis> fields</phrase>"
 msgstr ""
 
 # automatic translation
@@ -428,9 +424,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The edit widget also supports drag-and-drop. Dragging an image file from a "
-"file-manager or browser window does the same thing as selecting the image in"
-" the File Selector. Dragging an image from the edit widget into a "
-"&konqueror; file manager window will save the image in that folder."
+"file-manager or browser window does the same thing as selecting the image in "
+"the File Selector. Dragging an image from the edit widget into a &konqueror; "
+"file manager window will save the image in that folder."
 msgstr ""
 
 # automatic translation
@@ -441,15 +437,14 @@ msgid ""
 "By default, the images are stored in the collection data file, keeping "
 "everything contained in one location. However, too many images will cause "
 "&appname; to slow down significantly as well result in a very large data "
-"file. Alternatively, &appname; can save the images separately, either in the"
-" <filename "
-"class=\"directory\">$<envar>KDEHOME</envar>/share/apps/tellico/data/</filename>"
-" folder or in a folder in the same location as the data file. Loading and "
-"saving data files is much faster if images are stored separately, but the "
-"data files are no longer portable or archivable. Self-contained data files "
-"can always be created by using the "
-"<menuchoice><guimenu>File</guimenu><guimenu>Export</guimenu><guimenuitem>Export"
-" to Zip...</guimenuitem></menuchoice> menu item."
+"file. Alternatively, &appname; can save the images separately, either in the "
+"<filename class=\"directory\">$<envar>KDEHOME</envar>/share/apps/tellico/"
+"data/</filename> folder or in a folder in the same location as the data "
+"file. Loading and saving data files is much faster if images are stored "
+"separately, but the data files are no longer portable or archivable. Self-"
+"contained data files can always be created by using the "
+"<menuchoice><guimenu>File</guimenu><guimenu>Export</"
+"guimenu><guimenuitem>Export to Zip...</guimenuitem></menuchoice> menu item."
 msgstr ""
 
 # automatic translation
@@ -458,8 +453,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<link linkend=\"table\"><emphasis>Table</emphasis></link> fields begin with "
-"five rows, but moving the cursor to the last row automatically adds another."
-" For multi-column tables, only the first column is used for grouping or "
+"five rows, but moving the cursor to the last row automatically adds another. "
+"For multi-column tables, only the first column is used for grouping or "
 "formatting."
 msgstr ""
 
@@ -468,8 +463,8 @@ msgstr ""
 #: fundamentals.docbook:189
 #, no-c-format
 msgid ""
-"<screeninfo>The <interface>Entry Editor</interface> for "
-"<emphasis>Table</emphasis> fields</screeninfo>"
+"<screeninfo>The <interface>Entry Editor</interface> for <emphasis>Table</"
+"emphasis> fields</screeninfo>"
 msgstr ""
 
 # automatic translation
@@ -477,8 +472,8 @@ msgstr ""
 #: fundamentals.docbook:192
 #, no-c-format
 msgid ""
-"<phrase>The <interface>Entry Editor</interface> for "
-"<emphasis>Table</emphasis> fields</phrase>"
+"<phrase>The <interface>Entry Editor</interface> for <emphasis>Table</"
+"emphasis> fields</phrase>"
 msgstr ""
 
 # automatic translation
@@ -495,11 +490,11 @@ msgstr ""
 msgid ""
 "Multiple entries may be edited at the same time by selecting more than one "
 "in either the <interface>Group View</interface> or the <interface>Column "
-"View</interface>. If multiple entries are selected, the fields which contain"
-" the same value in every entry are enabled. If entries have different "
-"values, then the fields are disabled. Check boxes are added to the extreme "
-"right for each field entry which control whether the field is enabled or "
-"not, as shown in the screenshot below."
+"View</interface>. If multiple entries are selected, the fields which contain "
+"the same value in every entry are enabled. If entries have different values, "
+"then the fields are disabled. Check boxes are added to the extreme right for "
+"each field entry which control whether the field is enabled or not, as shown "
+"in the screenshot below."
 msgstr ""
 
 # automatic translation
@@ -507,8 +502,8 @@ msgstr ""
 #: fundamentals.docbook:202
 #, no-c-format
 msgid ""
-"Only enabled fields will be modified when the entries are saved, which makes"
-" large-scale editing much easier. For example, to set the Medium of all the "
+"Only enabled fields will be modified when the entries are saved, which makes "
+"large-scale editing much easier. For example, to set the Medium of all the "
 "video entries in the collection, make sure the Medium field is enabled. "
 "Change it to <acronym>DVD</acronym>, then save the entries. Only the Medium "
 "field will be modified, preserving all the other field values for the "
@@ -520,8 +515,8 @@ msgstr ""
 #: fundamentals.docbook:207
 #, no-c-format
 msgid ""
-"<screeninfo>The <interface>Entry Editor</interface> for multiple "
-"entries</screeninfo>"
+"<screeninfo>The <interface>Entry Editor</interface> for multiple entries</"
+"screeninfo>"
 msgstr ""
 
 # automatic translation
@@ -529,8 +524,7 @@ msgstr ""
 #: fundamentals.docbook:210
 #, no-c-format
 msgid ""
-"<phrase>The <interface>Entry Editor</interface> for multiple "
-"entries</phrase>"
+"<phrase>The <interface>Entry Editor</interface> for multiple entries</phrase>"
 msgstr ""
 
 # automatic translation
@@ -558,10 +552,10 @@ msgstr ""
 #: fundamentals.docbook:225
 #, no-c-format
 msgid ""
-"Only empty fields are updated unless the <link linkend=\"data-sources-"
-"options\">setting for that source</link> allows results to overwrite "
-"existing information. For <link linkend=\"externalexec\">external "
-"scripts</link>, an update field must be specified in the source options."
+"Only empty fields are updated unless the <link linkend=\"data-sources-options"
+"\">setting for that source</link> allows results to overwrite existing "
+"information. For <link linkend=\"externalexec\">external scripts</link>, an "
+"update field must be specified in the source options."
 msgstr ""
 
 # automatic translation
@@ -596,8 +590,8 @@ msgstr ""
 #: fundamentals.docbook:244
 #, no-c-format
 msgid ""
-"<screeninfo>The &appname; <interface>Collection Fields "
-"Dialog</interface></screeninfo>"
+"<screeninfo>The &appname; <interface>Collection Fields Dialog</interface></"
+"screeninfo>"
 msgstr ""
 
 # automatic translation
@@ -605,8 +599,8 @@ msgstr ""
 #: fundamentals.docbook:247
 #, no-c-format
 msgid ""
-"<phrase>The &appname; <interface>Collection Fields "
-"Dialog</interface></phrase>"
+"<phrase>The &appname; <interface>Collection Fields Dialog</interface></"
+"phrase>"
 msgstr ""
 
 # automatic translation
@@ -624,10 +618,10 @@ msgid ""
 "On the left side of the dialog is the list of the current fields. Modified "
 "fields are shown in bold italics. The buttons below the list will add or "
 "delete a field, and the arrows can be used to change their order. The order "
-"of the fields in the list is important because the <interface>Entry "
-"Editor</interface> uses the order for its layout. For each category, the "
-"fields will be laid out from left to right, according to the top-to-bottom "
-"order of the fields in the list."
+"of the fields in the list is important because the <interface>Entry Editor</"
+"interface> uses the order for its layout. For each category, the fields will "
+"be laid out from left to right, according to the top-to-bottom order of the "
+"fields in the list."
 msgstr ""
 
 # automatic translation
@@ -642,20 +636,19 @@ msgstr ""
 #: fundamentals.docbook:262
 #, no-c-format
 msgid ""
-"A field is defined by its title, type, category, description, and possibly a"
-" default value or some allowed values. The title is used everywhere to refer"
-" to the field in the user interface. The <interface>Entry Editor</interface>"
-" uses it to prompt for values. The <interface>Column View</interface> uses "
-"it as a column header. The different types of fields are <link "
-"linkend=\"field-types\">explained in the Field Types section</link>. The "
-"description is used as a tooltip in the <interface>Entry Editor</interface>,"
-" perhaps to provide an explanation of the field's contents. In addition, for"
-" <link linkend=\"derived\">fields with <emphasis>derived</emphasis> "
-"values</link>, a value template is used to format the field's value. The "
-"default value is automatically added when creating a new entry. The list of "
-"allowed values for <link "
-"linkend=\"choice\"><emphasis>Choice</emphasis></link> fields should be "
-"separated by a semi-colon."
+"A field is defined by its title, type, category, description, and possibly a "
+"default value or some allowed values. The title is used everywhere to refer "
+"to the field in the user interface. The <interface>Entry Editor</interface> "
+"uses it to prompt for values. The <interface>Column View</interface> uses it "
+"as a column header. The different types of fields are <link linkend=\"field-"
+"types\">explained in the Field Types section</link>. The description is used "
+"as a tooltip in the <interface>Entry Editor</interface>, perhaps to provide "
+"an explanation of the field's contents. In addition, for <link linkend="
+"\"derived\">fields with <emphasis>derived</emphasis> values</link>, a value "
+"template is used to format the field's value. The default value is "
+"automatically added when creating a new entry. The list of allowed values "
+"for <link linkend=\"choice\"><emphasis>Choice</emphasis></link> fields "
+"should be separated by a semi-colon."
 msgstr ""
 
 # automatic translation
@@ -701,8 +694,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Simple Text</emphasis>, <emphasis>Paragraph</emphasis>, "
-"<emphasis>Number</emphasis>, <emphasis>&URL;</emphasis>, "
-"<emphasis>Table</emphasis>"
+"<emphasis>Number</emphasis>, <emphasis>&URL;</emphasis>, <emphasis>Table</"
+"emphasis>"
 msgstr ""
 
 # automatic translation
@@ -732,8 +725,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Simple Text</emphasis>, <emphasis>Paragraph</emphasis>, "
-"<emphasis>Choice</emphasis>, <emphasis>Number</emphasis>, "
-"<emphasis>&URL;</emphasis>, <emphasis>Table</emphasis>"
+"<emphasis>Choice</emphasis>, <emphasis>Number</emphasis>, <emphasis>&URL;</"
+"emphasis>, <emphasis>Table</emphasis>"
 msgstr ""
 
 # automatic translation
@@ -749,8 +742,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Simple Text</emphasis>, <emphasis>Paragraph</emphasis>, "
-"<emphasis>Checkbox</emphasis>, <emphasis>Number</emphasis>, "
-"<emphasis>&URL;</emphasis>, <emphasis>Table</emphasis>"
+"<emphasis>Checkbox</emphasis>, <emphasis>Number</emphasis>, <emphasis>&URL;</"
+"emphasis>, <emphasis>Table</emphasis>"
 msgstr ""
 
 # automatic translation
@@ -830,16 +823,16 @@ msgstr ""
 #: fundamentals.docbook:328
 #, no-c-format
 msgid ""
-"&appname; provides some capability for automatic formatting of field values."
-" The simplest is auto-capitalization, which capitalizes every word except "
-"the articles. Title formatting moves certain articles from the beginning to "
-"the end of the field, for example, changing \"The Return of the King\" to "
+"&appname; provides some capability for automatic formatting of field values. "
+"The simplest is auto-capitalization, which capitalizes every word except the "
+"articles. Title formatting moves certain articles from the beginning to the "
+"end of the field, for example, changing \"The Return of the King\" to "
 "\"Return of the King, The\". The title articles are configurable. Finally, "
 "name formatting tries to break up the string so that the last, or family, "
 "name of the person is shown first. Name prefixes and suffixes are "
-"configurable. Also, the special <emphasis><link linkend=\"people-"
-"group\">People</link></emphasis> group uses all fields with name formatting,"
-" even if the global setting is turned off."
+"configurable. Also, the special <emphasis><link linkend=\"people-group"
+"\">People</link></emphasis> group uses all fields with name formatting, even "
+"if the global setting is turned off."
 msgstr ""
 
 # automatic translation
@@ -848,10 +841,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "All automatic formatting can be disabled by changing the global options in "
-"the <link linkend=\"general-options\"><interface>Configuration "
-"Dialog</interface></link>. Globally, capitalization is a distinct option "
-"from formatting, so a title can be auto-formatted without being capitalized."
-" Not all field types allow auto-formatting."
+"the <link linkend=\"general-options\"><interface>Configuration Dialog</"
+"interface></link>. Globally, capitalization is a distinct option from "
+"formatting, so a title can be auto-formatted without being capitalized. Not "
+"all field types allow auto-formatting."
 msgstr ""
 
 # automatic translation
@@ -979,12 +972,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Fields also have three general options. If auto-completion is enabled, "
-"&appname; caches the values for each field, and the <interface>Entry "
-"Editor</interface> offers automatic completion, using the standard &kde; "
-"settings. Not all field types allow auto-completion. &appname; also needs to"
-" know if a field may have multiple values or may be used to group the "
-"entries. A semi-colon is used to separate multiple values when editing an "
-"entry."
+"&appname; caches the values for each field, and the <interface>Entry Editor</"
+"interface> offers automatic completion, using the standard &kde; settings. "
+"Not all field types allow auto-completion. &appname; also needs to know if a "
+"field may have multiple values or may be used to group the entries. A semi-"
+"colon is used to separate multiple values when editing an entry."
 msgstr ""
 
 # automatic translation
@@ -1013,8 +1005,8 @@ msgid ""
 "entries visible in the <link linkend=\"detailed-view\"><interface>Column "
 "View</interface></link> to those that match one or more filter rules. The "
 "filter may be used to find the entries that meet all of the rules in the "
-"dialog, or just to find those that meet any of them. The <interface>Advanced"
-" Filter Dialog</interface> is also useful for advanced searching within a "
+"dialog, or just to find those that meet any of them. The <interface>Advanced "
+"Filter Dialog</interface> is also useful for advanced searching within a "
 "collection."
 msgstr ""
 
@@ -1023,8 +1015,8 @@ msgstr ""
 #: fundamentals.docbook:391
 #, no-c-format
 msgid ""
-"<screeninfo>The &appname; <interface>Advanced Filter "
-"Dialog</interface></screeninfo>"
+"<screeninfo>The &appname; <interface>Advanced Filter Dialog</interface></"
+"screeninfo>"
 msgstr ""
 
 # automatic translation
@@ -1046,9 +1038,9 @@ msgid ""
 "expression may also be used to match entries, in which case the "
 "<guibutton>Edit...</guibutton> button becomes active for editing the "
 "expression, if &kregexpeditor; is installed on your computer. Finally, the "
-"word or string to match should be entered in the text box. For image fields,"
-" the image size can be used for filtering where the filter value is compared"
-" against the larger image dimension, whether width or height."
+"word or string to match should be entered in the text box. For image fields, "
+"the image size can be used for filtering where the filter value is compared "
+"against the larger image dimension, whether width or height."
 msgstr ""
 
 # automatic translation
@@ -1056,9 +1048,9 @@ msgstr ""
 #: fundamentals.docbook:402
 #, no-c-format
 msgid ""
-"Up to eight (8) rules may be used in the filter. The "
-"<guibutton>More</guibutton> and <guibutton>Fewer</guibutton> buttons may be "
-"used to add or remove rules."
+"Up to eight (8) rules may be used in the filter. The <guibutton>More</"
+"guibutton> and <guibutton>Fewer</guibutton> buttons may be used to add or "
+"remove rules."
 msgstr ""
 
 # automatic translation
@@ -1080,9 +1072,8 @@ msgstr ""
 msgid ""
 "Previously saved filters may be modified by right-clicking on the filter "
 "item in the <interface>Filter View</interface> and selecting "
-"<guilabel>Modify Filter</guilabel>. The <interface>Advanced Filter "
-"Dialog</interface> is opened, and changes may be made to the filter's name "
-"or rules."
+"<guilabel>Modify Filter</guilabel>. The <interface>Advanced Filter Dialog</"
+"interface> is opened, and changes may be made to the filter's name or rules."
 msgstr ""
 
 # automatic translation
@@ -1090,12 +1081,11 @@ msgstr ""
 #: fundamentals.docbook:415
 #, no-c-format
 msgid ""
-"To find the science fiction books you've not read, check the <guilabel>Match"
-" all of the following</guilabel> button, set the first rule to "
+"To find the science fiction books you've not read, check the <guilabel>Match "
+"all of the following</guilabel> button, set the first rule to "
 "<emphasis>Genre contains Science Fiction</emphasis> and the second to "
-"<emphasis>Read does not contain true</emphasis>. (For <link "
-"linkend=\"bool\">Checkbox</link> fields, the internal value is "
-"<emphasis>true</emphasis>)."
+"<emphasis>Read does not contain true</emphasis>. (For <link linkend=\"bool"
+"\">Checkbox</link> fields, the internal value is <emphasis>true</emphasis>)."
 msgstr ""
 
 # automatic translation
@@ -1104,9 +1094,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To find the books by Bujold or Weber, check the <guilabel>Match any of the "
-"following</guilabel> button, set the first rule to <emphasis>Author contains"
-" Bujold</emphasis> and the second to <emphasis>Author contains "
-"Weber</emphasis>."
+"following</guilabel> button, set the first rule to <emphasis>Author contains "
+"Bujold</emphasis> and the second to <emphasis>Author contains Weber</"
+"emphasis>."
 msgstr ""
 
 # automatic translation
@@ -1123,12 +1113,11 @@ msgstr ""
 msgid ""
 "&appname; can generate various reports about your current collection. The "
 "<interface>Report Dialog</interface> checks for all &xslt; templates in the "
-"installation path and in <filename "
-"class=\"directory\">$<envar>KDEHOME</envar>/share/apps/tellico/report-"
-"templates/</filename>. So you can create new ones, and they are "
-"automatically found and included as options in the <interface>Report "
-"Dialog</interface>. Some complex reports may take a while to generate for "
-"large collections."
+"installation path and in <filename class=\"directory\">$<envar>KDEHOME</"
+"envar>/share/apps/tellico/report-templates/</filename>. So you can create "
+"new ones, and they are automatically found and included as options in the "
+"<interface>Report Dialog</interface>. Some complex reports may take a while "
+"to generate for large collections."
 msgstr ""
 
 # automatic translation
@@ -1248,9 +1237,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If a book has more than one author, you should separate their names by a "
-"semi-colon, so that Tellico will know to split them and use them separately."
-" Any other field which allows multiple values should be entered the same "
-"way. with a semi-colon (;) separating each value."
+"semi-colon, so that Tellico will know to split them and use them separately. "
+"Any other field which allows multiple values should be entered the same way. "
+"with a semi-colon (;) separating each value."
 msgstr ""
 
 # automatic translation
@@ -1268,8 +1257,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can add, edit, or modify the fields in the collection using the "
-"<interface>Collection Fields Dialog</interface>. The arrow buttons below the"
-" field list can be used to change the position of the field in the list, "
+"<interface>Collection Fields Dialog</interface>. The arrow buttons below the "
+"field list can be used to change the position of the field in the list, "
 "which affects the placement in the entry editor."
 msgstr ""
 
@@ -1297,8 +1286,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If more than one field is formatted as a name, then an additional group "
-"named \"People\" is added to the collection, allowing authors and editors to"
-" be sorted or printed together, for example."
+"named \"People\" is added to the collection, allowing authors and editors to "
+"be sorted or printed together, for example."
 msgstr ""
 
 # automatic translation
@@ -1325,10 +1314,10 @@ msgstr ""
 #: fundamentals.docbook:536
 #, no-c-format
 msgid ""
-"You can add &HTML; tags to any <link "
-"linkend=\"para\"><emphasis>Paragraph</emphasis></link> field for formatting,"
-" such as &lt;b&gt;<emphasis role=\"bold\">bold</emphasis>&lt;/b&gt; or "
-"&lt;i&gt;<emphasis>italic</emphasis>&lt;/i&gt;."
+"You can add &HTML; tags to any <link linkend=\"para\"><emphasis>Paragraph</"
+"emphasis></link> field for formatting, such as &lt;b&gt;<emphasis role=\"bold"
+"\">bold</emphasis>&lt;/b&gt; or &lt;i&gt;<emphasis>italic</emphasis>&lt;/"
+"i&gt;."
 msgstr ""
 
 # automatic translation
@@ -1347,10 +1336,10 @@ msgstr ""
 msgid ""
 "You can use derived values to combine values from multiple fields into a "
 "single value. Just check the derived value box and use a value template "
-"similar to \"<userinput>Value: %{fielda}%{fieldb}</userinput>\" where %{...}"
-" gets replaced with the appropriate field value. This is useful to collect "
+"similar to \"<userinput>Value: %{fielda}%{fieldb}</userinput>\" where %{...} "
+"gets replaced with the appropriate field value. This is useful to collect "
 "multiple values in a single field, &eg; for better grouping, and to combine "
 "fields of different types by respecting proper sorting at the same time. "
-"Consider for example a number field followed by a text subfield with entries"
-" 3b, 14a."
+"Consider for example a number field followed by a text subfield with entries "
+"3b, 14a."
 msgstr ""

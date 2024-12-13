@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-19 00:49+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -19,7 +21,8 @@ msgstr ""
 #: index.docbook:14
 #, no-c-format
 msgid ""
-"<firstname>Sean</firstname><surname>Wheller</surname><email>sean@inwords.co.za</email>"
+"<firstname>Sean</firstname><surname>Wheller</surname><email>sean@inwords.co."
+"za</email>"
 msgstr ""
 
 # automatic translation
@@ -117,11 +120,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When two or more people are working on a file and passing it back and forth "
-"between one another, it becomes difficult to see what changes have been made"
-" to a new version or copy of the file. Opening the new copy and the "
-"original, side-by-side in the application used to create it is one solution "
-"but, laborious, time consuming, and prone to error. This is where a program "
-"to show differences, diffs for short, is useful."
+"between one another, it becomes difficult to see what changes have been made "
+"to a new version or copy of the file. Opening the new copy and the original, "
+"side-by-side in the application used to create it is one solution but, "
+"laborious, time consuming, and prone to error. This is where a program to "
+"show differences, diffs for short, is useful."
 msgstr ""
 
 # automatic translation
@@ -130,13 +133,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "As would be expected, an appropriate name for such a program would be "
-"<quote>diff</quote>. As it happens, the program <ulink "
-"url=\"https://www.gnu.org/software/diffutils/\">diff</ulink> is installed on"
-" most &Linux;-based systems and is used for exactly this purpose. Developers"
-" often use diff, as a command line tool, to show differences between "
-"versions of a source code file. However, the use of diff is not limited to "
-"showing differences in code source files, it can be used on many text-based "
-"file types."
+"<quote>diff</quote>. As it happens, the program <ulink url=\"https://www.gnu."
+"org/software/diffutils/\">diff</ulink> is installed on most &Linux;-based "
+"systems and is used for exactly this purpose. Developers often use diff, as "
+"a command line tool, to show differences between versions of a source code "
+"file. However, the use of diff is not limited to showing differences in code "
+"source files, it can be used on many text-based file types."
 msgstr ""
 
 # automatic translation
@@ -144,8 +146,8 @@ msgstr ""
 #: index.docbook:62
 #, no-c-format
 msgid ""
-"Using diff from the command line can be confusing, learning the diff command"
-" syntax and deciphering the output can bewilder most people. This is where "
+"Using diff from the command line can be confusing, learning the diff command "
+"syntax and deciphering the output can bewilder most people. This is where "
 "&kompare; comes into play. Providing a graphical front-end to the diff "
 "program, the interface displays source and destination files side-by-side "
 "with all differences automatically highlighted. From this starting point, "
@@ -161,16 +163,16 @@ msgstr ""
 #: index.docbook:68
 #, no-c-format
 msgid ""
-"In addition to displaying differences between a source and destination file,"
-" &kompare; can be used to create and view a special file called a "
-"&apos;diff&apos;. This file captures the differences between the two sources"
-" into a single file that can be used to view and apply changes to any other "
-"copy of the file. For example, if two people are editing a document. The "
-"first person wants to make changes and send just the changes made to the "
-"second person. Normally, the first person would send a complete copy of the "
+"In addition to displaying differences between a source and destination file, "
+"&kompare; can be used to create and view a special file called a &apos;"
+"diff&apos;. This file captures the differences between the two sources into "
+"a single file that can be used to view and apply changes to any other copy "
+"of the file. For example, if two people are editing a document. The first "
+"person wants to make changes and send just the changes made to the second "
+"person. Normally, the first person would send a complete copy of the "
 "modified document to the second person, who would then have to compare the "
-"modified document side-by-side with unmodified version. The process for this"
-" is much like what we have described in the previous paragraphs. With "
+"modified document side-by-side with unmodified version. The process for this "
+"is much like what we have described in the previous paragraphs. With "
 "&kompare; the first person would first make a local copy of the file to be "
 "modified, then make changes and compare the original and modified copy. Now "
 "using &kompare; a diff file can be created that captures only the changes "
@@ -200,10 +202,10 @@ msgid ""
 "It sometimes happens that people edit a file at the same time. In this "
 "situation it is likely that people will make changes in the document at "
 "exactly the same line. This creates a problem because, without applied "
-"caution, people could be overwriting each others work as they apply the diff"
-" files they receive. Fortunately the developers of the diff and patch "
-"programs took this into consideration and so these tools will not allow such"
-" changes to be applied without manual intervention. When this state is "
+"caution, people could be overwriting each others work as they apply the diff "
+"files they receive. Fortunately the developers of the diff and patch "
+"programs took this into consideration and so these tools will not allow such "
+"changes to be applied without manual intervention. When this state is "
 "reached, it is known as a <quote>conflict</quote> . &kompare; will display "
 "conflicts so that you can manually resolve them, deciding which changes "
 "should be applied to which file."
@@ -214,8 +216,8 @@ msgstr ""
 #: index.docbook:87
 #, no-c-format
 msgid ""
-"&kompare; is also a great program for comparison of file changes on a folder"
-" level. When used to compare folders &kompare; recursively examines "
+"&kompare; is also a great program for comparison of file changes on a folder "
+"level. When used to compare folders &kompare; recursively examines "
 "subfolders and their file contents for differences. In this use case, each "
 "file where differences are found are automatically opened and listed by "
 "&kompare; where easy navigation between the various files is possible."
@@ -257,8 +259,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A shortcut for starting &kompare; can be found in the application menu in "
-"the Development group "
-"<menuchoice><guimenu>Development</guimenu><guimenuitem>Kompare</guimenuitem></menuchoice>."
+"the Development group <menuchoice><guimenu>Development</"
+"guimenu><guimenuitem>Kompare</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -266,12 +268,12 @@ msgstr ""
 #: index.docbook:107
 #, no-c-format
 msgid ""
-"When &kompare; starts the first thing it does is display a dialog from which"
-" to select the files you wish to compare. Special settings for the "
-"properties of the diff and the appearance thereof can also be selected. In "
-"the file form select a source and destination source to compare. This can be"
-" any two files, folders or a &URL; and a file. Once the source and "
-"destination are selected click the <guibutton>Compare</guibutton> button."
+"When &kompare; starts the first thing it does is display a dialog from which "
+"to select the files you wish to compare. Special settings for the properties "
+"of the diff and the appearance thereof can also be selected. In the file "
+"form select a source and destination source to compare. This can be any two "
+"files, folders or a &URL; and a file. Once the source and destination are "
+"selected click the <guibutton>Compare</guibutton> button."
 msgstr ""
 
 # automatic translation
@@ -281,8 +283,8 @@ msgstr ""
 msgid ""
 "Once &kompare; has discovered the differences it will display the main "
 "interface. When comparing two files or a URL and a file the process takes "
-"just a few seconds. However, when comparing folders with many subfolders and"
-" files, this process can take awhile."
+"just a few seconds. However, when comparing folders with many subfolders and "
+"files, this process can take awhile."
 msgstr ""
 
 # automatic translation
@@ -389,12 +391,12 @@ msgstr ""
 msgid ""
 "The &kompare; toolbar provides shortcuts to the most frequently used diff "
 "and merge operations. The toolbar orientation, text positioning, icon size "
-"properties and which shortcut icons are displayed can be customized from the"
-" toolbar context menu accessed when right-clicking the toolbar with the "
+"properties and which shortcut icons are displayed can be customized from the "
+"toolbar context menu accessed when right-clicking the toolbar with the "
 "mouse. The toolbar context menu also enables the toolbar to be hidden. If "
 "the toolbar is hidden and you wish to unhide it, select "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show "
-"Toolbar</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show Toolbar</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -411,8 +413,8 @@ msgstr ""
 msgid ""
 "The source folder and destination folder panes display the folders in which "
 "compared files reside. When many subfolders are included in the comparison, "
-"then selecting a folder will display the first document in that folder where"
-" a difference was found between the source and destination."
+"then selecting a folder will display the first document in that folder where "
+"a difference was found between the source and destination."
 msgstr ""
 
 # automatic translation
@@ -428,8 +430,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The source and destination file pane displays files where a difference was "
-"found for the currently selected source or destination folder. When a folder"
-" has multiple documents containing differences, all documents with a "
+"found for the currently selected source or destination folder. When a folder "
+"has multiple documents containing differences, all documents with a "
 "difference are listed. The selected document is displayed."
 msgstr ""
 
@@ -481,8 +483,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>Text View</guilabel> is not displayed by default. It can be "
-"opened by selecting <menuchoice><guimenu>Settings</guimenu><guimenuitem>Show"
-" Text View</guimenuitem></menuchoice>."
+"opened by selecting <menuchoice><guimenu>Settings</guimenu><guimenuitem>Show "
+"Text View</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -497,14 +499,14 @@ msgstr ""
 #: index.docbook:180
 #, no-c-format
 msgid ""
-"The status bar provides a summary of the current source and destination file"
-" or folder under comparison. The status bar also reports the number of "
+"The status bar provides a summary of the current source and destination file "
+"or folder under comparison. The status bar also reports the number of "
 "changes found in the current document and counts the differences that have "
 "been applied. Furthermore, the status bar shows the overall number of "
 "documents containing differences and the current document number selected "
 "from this set. For example, a comparison run over two folders may return "
-"1890 files with differences. The currently selected document is number 18 of"
-" 1890."
+"1890 files with differences. The currently selected document is number 18 of "
+"1890."
 msgstr ""
 
 # automatic translation
@@ -561,14 +563,14 @@ msgstr ""
 #: index.docbook:203
 #, no-c-format
 msgid ""
-"The vertical space between the source and destination view not only makes it"
-" possible to clearly see the start and end of lines in each of the panes, "
-"but is also a grip handle that allows adjustment of percentage occupied "
-"between the source and destination views that comprise the view pane. To "
-"change pane size for one of the views, hover the mouse pointer over the grip"
-" handle then hold down the mouse button and drag left or right. Naturally, "
-"increasing the area of one pane will decrease the area available to the "
-"opposite pane within the view panel area."
+"The vertical space between the source and destination view not only makes it "
+"possible to clearly see the start and end of lines in each of the panes, but "
+"is also a grip handle that allows adjustment of percentage occupied between "
+"the source and destination views that comprise the view pane. To change pane "
+"size for one of the views, hover the mouse pointer over the grip handle then "
+"hold down the mouse button and drag left or right. Naturally, increasing the "
+"area of one pane will decrease the area available to the opposite pane "
+"within the view panel area."
 msgstr ""
 
 # automatic translation
@@ -576,8 +578,8 @@ msgstr ""
 #: index.docbook:207
 #, no-c-format
 msgid ""
-"A second horizontal handle is available between the navigation panel and the"
-" source and destination view."
+"A second horizontal handle is available between the navigation panel and the "
+"source and destination view."
 msgstr ""
 
 # automatic translation
@@ -592,14 +594,14 @@ msgstr ""
 #: index.docbook:212
 #, no-c-format
 msgid ""
-"The navigation panel can be undocked from the main interface by clicking the"
-" <inlinemediaobject> <imageobject><imagedata fileref=\"undock.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject> icon located top right of"
-" the panel. This opens it in a window of its own, allowing you to move it "
-"across the screen. You can even hide the navigation panel by clicking the "
-"<inlinemediaobject><imageobject><imagedata fileref=\"dock.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject> icon. To display a hidden"
-" navigation bar again, click with the &RMB; into the menubar and select "
+"The navigation panel can be undocked from the main interface by clicking the "
+"<inlinemediaobject> <imageobject><imagedata fileref=\"undock.png\" format="
+"\"PNG\"/></imageobject></inlinemediaobject> icon located top right of the "
+"panel. This opens it in a window of its own, allowing you to move it across "
+"the screen. You can even hide the navigation panel by clicking the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"dock.png\" format=\"PNG"
+"\"/></imageobject></inlinemediaobject> icon. To display a hidden navigation "
+"bar again, click with the &RMB; into the menubar and select "
 "<guilabel>Navigation</guilabel> from the context menu."
 msgstr ""
 
@@ -616,8 +618,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The status bar of the view panel can be toggled on and off by selecting "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show "
-"Statusbar</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Show Statusbar</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -634,8 +636,8 @@ msgstr ""
 msgid ""
 "Sometimes it can be useful to consider what the file to which differences "
 "where to be applied as the source. For example, when comparing two modified "
-"versions of a file and discovering that one file has many more modifications"
-" than the other. The file with more changes would be better as the source, "
+"versions of a file and discovering that one file has many more modifications "
+"than the other. The file with more changes would be better as the source, "
 "since then fewer differences would need to be applied."
 msgstr ""
 
@@ -661,10 +663,10 @@ msgstr ""
 #: index.docbook:240
 #, no-c-format
 msgid ""
-"For a quick overview of the differences, select "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Show "
-"Statistics</guimenuitem></menuchoice>. This will display the <guilabel>Diff "
-"Statistics</guilabel> dialog. The following information is provided:"
+"For a quick overview of the differences, select <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Show Statistics</guimenuitem></menuchoice>. This will "
+"display the <guilabel>Diff Statistics</guilabel> dialog. The following "
+"information is provided:"
 msgstr ""
 
 # automatic translation
@@ -735,8 +737,8 @@ msgstr ""
 msgid ""
 "A hunk is a <quote>c<emphasis>hunk</emphasis></quote> of lines that have "
 "been marked as different between source and destination and may include "
-"context lines depending on the diff format <guilabel>Lines of "
-"Context</guilabel> value (see <xref linkend=\"diff-format\"/>)."
+"context lines depending on the diff format <guilabel>Lines of Context</"
+"guilabel> value (see <xref linkend=\"diff-format\"/>)."
 msgstr ""
 
 # automatic translation
@@ -751,9 +753,9 @@ msgstr ""
 #: index.docbook:264
 #, no-c-format
 msgid ""
-"The actual number of differences found, not hunks. A hunk can contain one or"
-" more differences when the line change range and the context lines of any "
-"two or more changes overlap."
+"The actual number of differences found, not hunks. A hunk can contain one or "
+"more differences when the line change range and the context lines of any two "
+"or more changes overlap."
 msgstr ""
 
 # automatic translation
@@ -807,8 +809,8 @@ msgstr ""
 #: index.docbook:280
 #, no-c-format
 msgid ""
-"traversing the listed differences in a comparison (see <xref "
-"linkend=\"traversing-differences\"/>)."
+"traversing the listed differences in a comparison (see <xref linkend="
+"\"traversing-differences\"/>)."
 msgstr ""
 
 # automatic translation
@@ -816,8 +818,8 @@ msgstr ""
 #: index.docbook:282
 #, no-c-format
 msgid ""
-"When a difference is selected it is considered to be <quote>in focus</quote>"
-" and is displayed in a brighter color that non-selected differences."
+"When a difference is selected it is considered to be <quote>in focus</quote> "
+"and is displayed in a brighter color that non-selected differences."
 msgstr ""
 
 # automatic translation
@@ -844,13 +846,12 @@ msgstr ""
 msgid ""
 "By default &kompare; selects the first difference found in a comparison. By "
 "selecting <menuchoice><guimenu>Difference</guimenu><guimenuitem>Next "
-"Difference</guimenuitem></menuchoice> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>Down</keycap></keycombo>) the difference "
-"following the current selection is brought into focus. To select the "
-"difference before the current difference select "
-"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Previous "
-"Difference</guimenuitem></menuchoice> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>Up</keycap></keycombo>)."
+"Difference</guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;"
+"<keycap>Down</keycap></keycombo>) the difference following the current "
+"selection is brought into focus. To select the difference before the current "
+"difference select <menuchoice><guimenu>Difference</"
+"guimenu><guimenuitem>Previous Difference</guimenuitem></menuchoice> "
+"(<keycombo action=\"simul\">&Ctrl;<keycap>Up</keycap></keycombo>)."
 msgstr ""
 
 # automatic translation
@@ -874,9 +875,9 @@ msgstr ""
 #: index.docbook:299
 #, no-c-format
 msgid ""
-"When a comparison is performed on folder level, many files may be found with"
-" differences. A complete list of the files compared with difference found is"
-" provided in the <quote>Source and Destination Folders</quote>, and "
+"When a comparison is performed on folder level, many files may be found with "
+"differences. A complete list of the files compared with difference found is "
+"provided in the <quote>Source and Destination Folders</quote>, and "
 "<quote>Source and Destination Files</quote> panes. However, &kompare; "
 "displays differences between source and destination one comparison at time."
 msgstr ""
@@ -905,14 +906,13 @@ msgstr ""
 #: index.docbook:306
 #, no-c-format
 msgid ""
-"Select <menuchoice><guimenu>Difference</guimenu><guimenuitem>Previous "
-"File</guimenuitem></menuchoice> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>PgUp</keycap></keycombo>) or "
-"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Next "
-"File</guimenuitem></menuchoice> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>PgDown</keycap></keycombo>) to display the "
-"previous or next difference file found in the <quote>Source and Destination "
-"Files</quote> pane."
+"Select <menuchoice><guimenu>Difference</guimenu><guimenuitem>Previous File</"
+"guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;<keycap>PgUp</"
+"keycap></keycombo>) or <menuchoice><guimenu>Difference</"
+"guimenu><guimenuitem>Next File</guimenuitem></menuchoice> (<keycombo action="
+"\"simul\">&Ctrl;<keycap>PgDown</keycap></keycombo>) to display the previous "
+"or next difference file found in the <quote>Source and Destination Files</"
+"quote> pane."
 msgstr ""
 
 # automatic translation
@@ -927,10 +927,10 @@ msgstr ""
 #: index.docbook:320
 #, no-c-format
 msgid ""
-"&kompare; makes the task of applying and unapplying differences as simple as"
-" point and click. Multiple apply and unapply operations can be performed on "
-"a difference as all operations are performed in memory and not written to "
-"the files on disk until the save operation is performed."
+"&kompare; makes the task of applying and unapplying differences as simple as "
+"point and click. Multiple apply and unapply operations can be performed on a "
+"difference as all operations are performed in memory and not written to the "
+"files on disk until the save operation is performed."
 msgstr ""
 
 # automatic translation
@@ -946,9 +946,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To apply a difference, click the highlighted difference region, then select "
-"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Apply "
-"Difference</guimenuitem></menuchoice> "
-"(<keycombo><keycap>Space</keycap></keycombo>)."
+"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Apply Difference</"
+"guimenuitem></menuchoice> (<keycombo><keycap>Space</keycap></keycombo>)."
 msgstr ""
 
 # automatic translation
@@ -964,9 +963,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To unapply a difference, click the highlighted difference region previously "
-"applied, then select "
-"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Unapply "
-"Difference</guimenuitem></menuchoice> (<keycombo>&Backspace;</keycombo>)."
+"applied, then select <menuchoice><guimenu>Difference</"
+"guimenu><guimenuitem>Unapply Difference</guimenuitem></menuchoice> "
+"(<keycombo>&Backspace;</keycombo>)."
 msgstr ""
 
 # automatic translation
@@ -983,9 +982,9 @@ msgstr ""
 msgid ""
 "After reviewing differences between files and finding all acceptable it is "
 "possible apply them all with a single operation by selecting "
-"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Apply "
-"All</guimenuitem></menuchoice> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo>)."
+"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Apply All</"
+"guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;<keycap>A</"
+"keycap></keycombo>)."
 msgstr ""
 
 # automatic translation
@@ -1001,9 +1000,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To revert all differences that have been applied previously select "
-"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Unapply "
-"All</guimenuitem></menuchoice> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo>)."
+"<menuchoice><guimenu>Difference</guimenu><guimenuitem>Unapply All</"
+"guimenuitem></menuchoice> (<keycombo action=\"simul\">&Ctrl;<keycap>U</"
+"keycap></keycombo>)."
 msgstr ""
 
 # automatic translation
@@ -1019,9 +1018,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Once differences have been applied they can be saved by selecting "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></menuchoice>"
-" or <menuchoice><guimenu>File</guimenu><guimenuitem>Save "
-"All</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></"
+"menuchoice> or <menuchoice><guimenu>File</guimenu><guimenuitem>Save All</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -1044,11 +1043,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Diff files contain only the changes made between files, or a set of files "
-"within a folder system, and may or may not contain a number of context lines"
-" before and after line changes. The sum of a line change and its context "
-"lines is known a hunk. A diff file therefore may contain multiple hunks from"
-" one or more files. When the context lines of two or more hunks overlap, "
-"they are considered a single hunk. Diff files can be used to:"
+"within a folder system, and may or may not contain a number of context lines "
+"before and after line changes. The sum of a line change and its context "
+"lines is known a hunk. A diff file therefore may contain multiple hunks from "
+"one or more files. When the context lines of two or more hunks overlap, they "
+"are considered a single hunk. Diff files can be used to:"
 msgstr ""
 
 # automatic translation
@@ -1089,13 +1088,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To create a diff file a comparison must be displayed in &kompare;. Assuming "
-"this is the case, then select "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Save "
-"Diff...</guimenuitem></menuchoice> This will display the <guilabel>Diff "
-"Options</guilabel> dialog (see <xref linkend=\"diff-settings\"/> for more "
-"information on diff formats and options). After configuring these options, "
-"click the <guibutton>Save</guibutton> button and save the diff to a file "
-"with the extension <filename class=\"extension\">.diff</filename>."
+"this is the case, then select <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Save Diff...</guimenuitem></menuchoice> This will "
+"display the <guilabel>Diff Options</guilabel> dialog (see <xref linkend="
+"\"diff-settings\"/> for more information on diff formats and options). After "
+"configuring these options, click the <guibutton>Save</guibutton> button and "
+"save the diff to a file with the extension <filename class=\"extension\">."
+"diff</filename>."
 msgstr ""
 
 # automatic translation
@@ -1111,9 +1110,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "It is possible to display the contents of a diff file within &kompare; by "
-"opening the diff file from "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Open "
-"Diff...</guimenuitem></menuchoice>."
+"opening the diff file from <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Open Diff...</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -1134,8 +1132,8 @@ msgstr ""
 msgid ""
 "When a diff file contains hunks from multiple files &kompare; displays the "
 "hunks from each file one at a time and you can switch between files as "
-"though they were real files even though this information is only provided by"
-" the diff file contents."
+"though they were real files even though this information is only provided by "
+"the diff file contents."
 msgstr ""
 
 # automatic translation
@@ -1151,8 +1149,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When viewing differences in a diff file it is possible to apply difference "
-"as you would when comparing source and destination files (see <xref "
-"linkend=\"merging-differences\"/>)."
+"as you would when comparing source and destination files (see <xref linkend="
+"\"merging-differences\"/>)."
 msgstr ""
 
 # automatic translation
@@ -1169,9 +1167,9 @@ msgstr ""
 msgid ""
 "In cases where a diff file is provided it is possible to compare the hunks "
 "in the diff against a file or folder. To do this select "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Blend URL with "
-"Diff...</guimenuitem></menuchoice>. Then input the "
-"<guilabel>File/Folder</guilabel> and <guilabel>Diff Output</guilabel> paths."
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Blend URL with Diff...</"
+"guimenuitem></menuchoice>. Then input the <guilabel>File/Folder</guilabel> "
+"and <guilabel>Diff Output</guilabel> paths."
 msgstr ""
 
 # automatic translation
@@ -1208,8 +1206,8 @@ msgstr ""
 #: index.docbook:406
 #, no-c-format
 msgid ""
-"To configure preferences for appearance select the <guilabel>View</guilabel>"
-" menu item (see <xref linkend=\"view-settings\"/>)."
+"To configure preferences for appearance select the <guilabel>View</guilabel> "
+"menu item (see <xref linkend=\"view-settings\"/>)."
 msgstr ""
 
 # automatic translation
@@ -1234,8 +1232,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guimenu>View</guimenu> page in the <guilabel>Preferences</guilabel> "
-"dialog displays the <guilabel>Appearance</guilabel> and "
-"<guilabel>Fonts</guilabel> tabbed forms."
+"dialog displays the <guilabel>Appearance</guilabel> and <guilabel>Fonts</"
+"guilabel> tabbed forms."
 msgstr ""
 
 # automatic translation
@@ -1251,8 +1249,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>Appearance</guilabel> form provides controls to manage the "
-"<guilabel>Colors</guilabel> used to denote difference in the main interface,"
-" behavior of the <guilabel>Mouse Wheel</guilabel> when jogging up and down "
+"<guilabel>Colors</guilabel> used to denote difference in the main interface, "
+"behavior of the <guilabel>Mouse Wheel</guilabel> when jogging up and down "
 "and how <guilabel>Tabs to Spaces</guilabel> conversion is managed."
 msgstr ""
 
@@ -1283,8 +1281,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To adjust color preferences used when displaying differences, click the "
-"color button to display the <guilabel>Select Color</guilabel> dialog for the"
-" following states:"
+"color button to display the <guilabel>Select Color</guilabel> dialog for the "
+"following states:"
 msgstr ""
 
 # automatic translation
@@ -1313,8 +1311,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:440
 #, no-c-format
-msgid ""
-"Lines that have been changed, modified, between source and destination."
+msgid "Lines that have been changed, modified, between source and destination."
 msgstr ""
 
 # automatic translation
@@ -1343,8 +1340,8 @@ msgstr ""
 #: index.docbook:448
 #, no-c-format
 msgid ""
-"Any of the above states where the difference has been applied between source"
-" and destination."
+"Any of the above states where the difference has been applied between source "
+"and destination."
 msgstr ""
 
 # automatic translation
@@ -1416,8 +1413,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:480
 #, no-c-format
-msgid ""
-"Select the font family and size to display when displaying differences."
+msgid "Select the font family and size to display when displaying differences."
 msgstr ""
 
 # automatic translation
@@ -1465,8 +1461,8 @@ msgstr ""
 #: index.docbook:503
 #, no-c-format
 msgid ""
-"The command used to run the diff program (default "
-"<application>diff</application>)."
+"The command used to run the diff program (default <application>diff</"
+"application>)."
 msgstr ""
 
 # automatic translation
@@ -1628,8 +1624,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "With this option enabled diff will treat a file that only exists in one of "
-"the directories as empty in the other directory. This means that the file is"
-" compared with an empty file and because of this will appear as one big "
+"the directories as empty in the other directory. This means that the file is "
+"compared with an empty file and because of this will appear as one big "
 "insertion or deletion."
 msgstr ""
 
@@ -1713,8 +1709,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When checked diff outputs will converts tab characters to the number of "
-"spaces defined in the <guilabel>Preferences</guilabel> dialog "
-"<guimenu>View</guimenu> menu <guilabel>Tabs to Spaces</guilabel> option."
+"spaces defined in the <guilabel>Preferences</guilabel> dialog <guimenu>View</"
+"guimenu> menu <guilabel>Tabs to Spaces</guilabel> option."
 msgstr ""
 
 # automatic translation
@@ -1875,8 +1871,8 @@ msgstr ""
 #: index.docbook:669
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu><guimenuitem>Open Diff...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Open Diff...</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1891,9 +1887,8 @@ msgstr ""
 #: index.docbook:678
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu><guimenuitem>Compare "
-"Files...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Compare Files...</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1908,9 +1903,9 @@ msgstr ""
 #: index.docbook:687
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu><guimenuitem>Blend URL with "
-"Diff...</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Blend URL with Diff...</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1926,8 +1921,8 @@ msgstr ""
 #: index.docbook:696
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu><guimenuitem>Save</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Save</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1973,8 +1968,8 @@ msgstr ""
 #: index.docbook:715
 #, no-c-format
 msgid ""
-"<shortcut><keycap>F5</keycap></shortcut> "
-"<guimenu>File</guimenu><guimenuitem>Refresh Diff</guimenuitem>"
+"<shortcut><keycap>F5</keycap></shortcut> <guimenu>File</"
+"guimenu><guimenuitem>Refresh Diff</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1991,8 +1986,8 @@ msgstr ""
 #: index.docbook:723
 #, no-c-format
 msgid ""
-"<guimenu>File</guimenu><guimenuitem>Swap Source with "
-"Destination</guimenuitem>"
+"<guimenu>File</guimenu><guimenuitem>Swap Source with Destination</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2021,8 +2016,8 @@ msgstr ""
 #: index.docbook:734
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
-"</shortcut> <guimenu>File</guimenu><guimenuitem>Quit</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Quit</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2044,9 +2039,8 @@ msgstr ""
 #: index.docbook:748
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> "
-"</shortcut> <guimenu>Difference</guimenu><guimenuitem>Unapply "
-"All</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> </"
+"shortcut> <guimenu>Difference</guimenu><guimenuitem>Unapply All</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2062,8 +2056,8 @@ msgstr ""
 #: index.docbook:757
 #, no-c-format
 msgid ""
-"<shortcut>&Backspace;</shortcut> "
-"<guimenu>Difference</guimenu><guimenuitem>Unapply Difference</guimenuitem>"
+"<shortcut>&Backspace;</shortcut> <guimenu>Difference</"
+"guimenu><guimenuitem>Unapply Difference</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2078,8 +2072,8 @@ msgstr ""
 #: index.docbook:764
 #, no-c-format
 msgid ""
-"<shortcut><keycap>Space</keycap></shortcut> "
-"<guimenu>Difference</guimenu><guimenuitem>Apply Difference</guimenuitem>"
+"<shortcut><keycap>Space</keycap></shortcut> <guimenu>Difference</"
+"guimenu><guimenuitem>Apply Difference</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2094,9 +2088,8 @@ msgstr ""
 #: index.docbook:771
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> "
-"</shortcut> <guimenu>Difference</guimenu><guimenuitem>Apply "
-"All</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo> </"
+"shortcut> <guimenu>Difference</guimenu><guimenuitem>Apply All</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2111,9 +2104,9 @@ msgstr ""
 #: index.docbook:780
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>PgUp</keycap></keycombo>"
-" </shortcut> <guimenu>Difference</guimenu><guimenuitem>Previous "
-"File</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>PgUp</keycap></keycombo> "
+"</shortcut> <guimenu>Difference</guimenu><guimenuitem>Previous File</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2130,9 +2123,9 @@ msgstr ""
 #: index.docbook:789
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo "
-"action=\"simul\">&Ctrl;<keycap>PgDown</keycap></keycombo> </shortcut> "
-"<guimenu>Difference</guimenu><guimenuitem>Next File</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>PgDown</keycap></"
+"keycombo> </shortcut> <guimenu>Difference</guimenu><guimenuitem>Next File</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2149,9 +2142,9 @@ msgstr ""
 #: index.docbook:798
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Up</keycap></keycombo> "
-"</shortcut> <guimenu>Difference</guimenu><guimenuitem>Previous "
-"Difference</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Up</keycap></keycombo> </"
+"shortcut> <guimenu>Difference</guimenu><guimenuitem>Previous Difference</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2166,9 +2159,9 @@ msgstr ""
 #: index.docbook:807
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Down</keycap></keycombo>"
-" </shortcut> <guimenu>Difference</guimenu><guimenuitem>Next "
-"Difference</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Down</keycap></keycombo> "
+"</shortcut> <guimenu>Difference</guimenu><guimenuitem>Next Difference</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -2192,10 +2185,9 @@ msgstr ""
 msgid ""
 "&kompare; has the common &kde; <guimenu>Settings</guimenu> and "
 "<guimenu>Help</guimenu> menu items, for more information read the sections "
-"about the <ulink url=\"help:/fundamentals/menus.html#menus-"
-"settings\">Settings Menu</ulink> and <ulink "
-"url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the "
-"&kde; Fundamentals."
+"about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
 msgstr ""
 
 # automatic translation
@@ -2267,8 +2259,8 @@ msgstr ""
 #: index.docbook:862
 #, no-c-format
 msgid ""
-"Disables the check for automatically finding the original file(s) when using"
-" '-' as URL with the <option>-o</option> option."
+"Disables the check for automatically finding the original file(s) when using "
+"'-' as URL with the <option>-o</option> option."
 msgstr ""
 
 # automatic translation
@@ -2276,8 +2268,8 @@ msgstr ""
 #: index.docbook:868
 #, no-c-format
 msgid ""
-"<command>kompare</command> <option>-e</option> "
-"<replaceable>encoding</replaceable>"
+"<command>kompare</command> <option>-e</option> <replaceable>encoding</"
+"replaceable>"
 msgstr ""
 
 # automatic translation
@@ -2308,8 +2300,8 @@ msgstr ""
 #: index.docbook:887
 #, no-c-format
 msgid ""
-"Program copyright 2001-2004, &John.Firebaugh; &John.Firebaugh.mail; and Otto"
-" Bruggeman <email>otto.bruggeman@home.nl</email>"
+"Program copyright 2001-2004, &John.Firebaugh; &John.Firebaugh.mail; and Otto "
+"Bruggeman <email>otto.bruggeman@home.nl</email>"
 msgstr ""
 
 # automatic translation
@@ -2317,8 +2309,8 @@ msgstr ""
 #: index.docbook:892
 #, no-c-format
 msgid ""
-"Documentation Copyright &copy; 2007 Sean Wheller "
-"<email>sean@inwords.co.za</email>"
+"Documentation Copyright &copy; 2007 Sean Wheller <email>sean@inwords.co.za</"
+"email>"
 msgstr ""
 
 # automatic translation

@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-06 01:00+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -56,8 +58,8 @@ msgstr ""
 msgid ""
 "Allows treating audio <acronym>CD</acronym>s like a <quote>real</quote> "
 "filesystem, where tracks are represented as files and, when copied from the "
-"folder, are digitally extracted from the <acronym>CD</acronym>. This ensures"
-" a perfect copy of the audio data."
+"folder, are digitally extracted from the <acronym>CD</acronym>. This ensures "
+"a perfect copy of the audio data."
 msgstr ""
 
 # automatic translation
@@ -98,13 +100,12 @@ msgstr ""
 #: index.docbook:43
 #, no-c-format
 msgid ""
-"If you drag a track from the <filename class=\"directory\">Ogg "
-"Vorbis</filename> folder and drop it on another &konqueror; window open at "
-"your home folder, you should see a progress window showing you that the "
-"track is being extracted from the <acronym>CD</acronym> and saved to a file."
-" Note that Ogg Vorbis is a compressed format, so the file in your home "
-"folder will appear a great deal smaller than it would have been if you had "
-"copied the raw data."
+"If you drag a track from the <filename class=\"directory\">Ogg Vorbis</"
+"filename> folder and drop it on another &konqueror; window open at your home "
+"folder, you should see a progress window showing you that the track is being "
+"extracted from the <acronym>CD</acronym> and saved to a file. Note that Ogg "
+"Vorbis is a compressed format, so the file in your home folder will appear a "
+"great deal smaller than it would have been if you had copied the raw data."
 msgstr ""
 
 # automatic translation
@@ -113,11 +114,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The mechanism behind this is quite simple. When the audiocd KIO worker is "
-"asked to retrieve a track from the <filename class=\"directory\">Ogg "
-"Vorbis</filename> folder, it starts extracting the digital audio data from "
-"the <acronym>CD</acronym>. As it sends the data over to the file in your "
-"home folder, it simultaneously encodes it in Ogg Vorbis format "
-"(<acronym>CD</acronym> audio is in an uncompressed format to start with)."
+"asked to retrieve a track from the <filename class=\"directory\">Ogg Vorbis</"
+"filename> folder, it starts extracting the digital audio data from the "
+"<acronym>CD</acronym>. As it sends the data over to the file in your home "
+"folder, it simultaneously encodes it in Ogg Vorbis format (<acronym>CD</"
+"acronym> audio is in an uncompressed format to start with)."
 msgstr ""
 
 # automatic translation
@@ -125,14 +126,14 @@ msgstr ""
 #: index.docbook:59
 #, no-c-format
 msgid ""
-"You could also try dragging a file ending in <literal "
-"role=\"extension\">.wav</literal> and dropping it on the &kde; Media Player,"
-" &juk;. In this case, the procedure that happens behind the scenes is "
-"similar, except that instead of encoding the audio data in Ogg Vorbis "
-"format, it is put through a very simple conversion, from raw binary data "
-"(which the <literal role=\"extension\">.cda</literal> files in the toplevel "
-"folder represent) to <quote>RIFF WAV</quote> format, a non-compressed format"
-" that most media players understand."
+"You could also try dragging a file ending in <literal role=\"extension\">."
+"wav</literal> and dropping it on the &kde; Media Player, &juk;. In this "
+"case, the procedure that happens behind the scenes is similar, except that "
+"instead of encoding the audio data in Ogg Vorbis format, it is put through a "
+"very simple conversion, from raw binary data (which the <literal role="
+"\"extension\">.cda</literal> files in the toplevel folder represent) to "
+"<quote>RIFF WAV</quote> format, a non-compressed format that most media "
+"players understand."
 msgstr ""
 
 # automatic translation
@@ -140,9 +141,9 @@ msgstr ""
 #: index.docbook:68
 #, no-c-format
 msgid ""
-"&juk; should quite happily play the <literal "
-"role=\"extension\">.wav</literal> file, but if it has trouble, you may "
-"consider using the <option>paranoia_level</option> option, explained below."
+"&juk; should quite happily play the <literal role=\"extension\">.wav</"
+"literal> file, but if it has trouble, you may consider using the "
+"<option>paranoia_level</option> option, explained below."
 msgstr ""
 
 # automatic translation
@@ -165,12 +166,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Set the path to the audio <acronym>CD</acronym> device, &eg; "
-"<userinput>audiocd:/<option>?device</option>=<parameter>/dev/sdc</parameter></userinput>."
-" Normally, the KIO worker will try to find a <acronym>CD</acronym> drive "
-"with an audio <acronym>CD</acronym> inserted, but if it fails or you have "
-"more than one <acronym>CD</acronym> drive, you may want to try this option. "
-"Note that the configuration dialog allows you to set a default value for "
-"this option."
+"<userinput>audiocd:/<option>?device</option>=<parameter>/dev/sdc</"
+"parameter></userinput>. Normally, the KIO worker will try to find a "
+"<acronym>CD</acronym> drive with an audio <acronym>CD</acronym> inserted, "
+"but if it fails or you have more than one <acronym>CD</acronym> drive, you "
+"may want to try this option. Note that the configuration dialog allows you "
+"to set a default value for this option."
 msgstr ""
 
 # automatic translation
@@ -185,11 +186,11 @@ msgstr ""
 #: index.docbook:92
 #, no-c-format
 msgid ""
-"Set the file name template, &eg; "
-"<userinput>audiocd:/<option>?fileNameTemplate</option>=<parameter>Track "
-"%{number}</parameter></userinput>. Note that the configuration dialog allows"
-" you to set a default value for this option. A warning that if you set it to"
-" an empty string no files will show up."
+"Set the file name template, &eg; <userinput>audiocd:/<option>?"
+"fileNameTemplate</option>=<parameter>Track %{number}</parameter></"
+"userinput>. Note that the configuration dialog allows you to set a default "
+"value for this option. A warning that if you set it to an empty string no "
+"files will show up."
 msgstr ""
 
 # automatic translation
@@ -204,10 +205,10 @@ msgstr ""
 #: index.docbook:100
 #, no-c-format
 msgid ""
-"Set the album name template, &eg; "
-"<userinput>audiocd:/<option>?albumNameTemplate</option>=<parameter>%{albumartist}"
-" %{albumtitle}</parameter></userinput>. Note that the configuration dialog "
-"allows you to set a default value for this option."
+"Set the album name template, &eg; <userinput>audiocd:/<option>?"
+"albumNameTemplate</option>=<parameter>%{albumartist} %{albumtitle}</"
+"parameter></userinput>. Note that the configuration dialog allows you to set "
+"a default value for this option."
 msgstr ""
 
 # automatic translation
@@ -222,9 +223,9 @@ msgstr ""
 #: index.docbook:108
 #, no-c-format
 msgid ""
-"Sets the process nice level for encoders, &eg; "
-"<userinput>audiocd:/<option>?albumNameTemplate</option>=<parameter>niceLevel=10</parameter></userinput>."
-" Note that the configuration dialog allows you to set a default value for "
+"Sets the process nice level for encoders, &eg; <userinput>audiocd:/<option>?"
+"albumNameTemplate</option>=<parameter>niceLevel=10</parameter></userinput>. "
+"Note that the configuration dialog allows you to set a default value for "
 "this option."
 msgstr ""
 
@@ -255,8 +256,8 @@ msgstr ""
 #: index.docbook:123
 #, no-c-format
 msgid ""
-"No detection or correction. Only useful if you have a perfect "
-"<acronym>CD</acronym> drive (unlikely)."
+"No detection or correction. Only useful if you have a perfect <acronym>CD</"
+"acronym> drive (unlikely)."
 msgstr ""
 
 # automatic translation
@@ -313,13 +314,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Specify which Internet <acronym>CD</acronym> Database entry to use. Audio "
-"<acronym>CD</acronym>s don't have track names, but the Internet "
-"<acronym>CD</acronym> Database is a clever system which uses a special "
-"unique identifier generated from the number and length of tracks on each "
-"<acronym>CD</acronym> to cross-reference a track listing. Track listings are"
-" contributed by the Internet community and made available to all. "
-"Occasionally there will be multiple entries. You can specify which one to "
-"use."
+"<acronym>CD</acronym>s don't have track names, but the Internet <acronym>CD</"
+"acronym> Database is a clever system which uses a special unique identifier "
+"generated from the number and length of tracks on each <acronym>CD</acronym> "
+"to cross-reference a track listing. Track listings are contributed by the "
+"Internet community and made available to all. Occasionally there will be "
+"multiple entries. You can specify which one to use."
 msgstr ""
 
 # automatic translation
@@ -327,8 +327,8 @@ msgstr ""
 #: index.docbook:165
 #, no-c-format
 msgid ""
-"You can submit your own track listings using &kscd;, the &kde; "
-"<acronym>CD</acronym> player."
+"You can submit your own track listings using &kscd;, the &kde; <acronym>CD</"
+"acronym> player."
 msgstr ""
 
 # automatic translation
@@ -357,8 +357,8 @@ msgstr ""
 #: index.docbook:178
 #, no-c-format
 msgid ""
-"Gives a listing of the tracks on the audio <acronym>CD</acronym> inserted in"
-" <filename class=\"devicefile\">/dev/scd0</filename>, which on &Linux; "
+"Gives a listing of the tracks on the audio <acronym>CD</acronym> inserted in "
+"<filename class=\"devicefile\">/dev/scd0</filename>, which on &Linux; "
 "specifies the first <acronym>SCSI</acronym> &CD-ROM; device. If you copy "
 "tracks from the <acronym>CD</acronym>, digital extraction will be performed "
 "without error correction or detection. The <acronym>CDDB</acronym> Database "
@@ -386,15 +386,14 @@ msgstr ""
 #: index.docbook:198
 #, no-c-format
 msgid ""
-"Try running <userinput><command>cdparanoia</command> "
-"<option>-vsQ</option></userinput> as yourself (not <systemitem "
-"class=\"username\">root</systemitem>). Do you see a track list? If not, make"
-" sure you have permission to access the <acronym>CD</acronym> device. If "
-"you're using <acronym>SCSI</acronym> emulation (possible if you have an "
-"<acronym>IDE</acronym> <acronym>CD</acronym> writer) then make sure you "
-"check that you have read and write permissions on the generic "
-"<acronym>SCSI</acronym> device, which is probably <filename "
-"class=\"devicefile\">/dev/sg0</filename>, <filename "
+"Try running <userinput><command>cdparanoia</command> <option>-vsQ</option></"
+"userinput> as yourself (not <systemitem class=\"username\">root</"
+"systemitem>). Do you see a track list? If not, make sure you have permission "
+"to access the <acronym>CD</acronym> device. If you're using <acronym>SCSI</"
+"acronym> emulation (possible if you have an <acronym>IDE</acronym> "
+"<acronym>CD</acronym> writer) then make sure you check that you have read "
+"and write permissions on the generic <acronym>SCSI</acronym> device, which "
+"is probably <filename class=\"devicefile\">/dev/sg0</filename>, <filename "
 "class=\"devicefile\">/dev/sg1</filename>, &etc; If it still doesn't work, "
 "try typing <userinput>audiocd:/?device=/dev/sg0</userinput> (or similar) to "
 "tell kio_audiocd which device your &CD-ROM; is."

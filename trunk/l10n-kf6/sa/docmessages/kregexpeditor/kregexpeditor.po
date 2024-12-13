@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -89,11 +91,11 @@ msgstr ""
 #: index.docbook:48
 #, no-c-format
 msgid ""
-"The regular expression editor is an editor for editing regular expression in"
-" a graphical style (in contrast to the <acronym>ASCII</acronym> syntax). "
-"Traditionally regular expressions have been typed in the "
-"<acronym>ASCII</acronym> syntax, which for example looks like "
-"<literal>^.*kde\\b</literal>. The major drawbacks of this style are:"
+"The regular expression editor is an editor for editing regular expression in "
+"a graphical style (in contrast to the <acronym>ASCII</acronym> syntax). "
+"Traditionally regular expressions have been typed in the <acronym>ASCII</"
+"acronym> syntax, which for example looks like <literal>^.*kde\\b</literal>. "
+"The major drawbacks of this style are:"
 msgstr ""
 
 # automatic translation
@@ -108,8 +110,8 @@ msgstr ""
 #: index.docbook:58
 #, no-c-format
 msgid ""
-"It requires that you <emphasis>escape</emphasis> certain symbols (to match a"
-" star for example, you need to type <literal>\\*</literal>)."
+"It requires that you <emphasis>escape</emphasis> certain symbols (to match a "
+"star for example, you need to type <literal>\\*</literal>)."
 msgstr ""
 
 # automatic translation
@@ -118,8 +120,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "It requires that you remember rules for <emphasis>precedence</emphasis> "
-"(What does <literal>x|y*</literal> match? a single <literal>x</literal> or a"
-" number of <literal>y</literal>, <emphasis>OR</emphasis> a number of "
+"(What does <literal>x|y*</literal> match? a single <literal>x</literal> or a "
+"number of <literal>y</literal>, <emphasis>OR</emphasis> a number of "
 "<literal>x</literal> and <literal>y</literal>'s mixed?)"
 msgstr ""
 
@@ -128,13 +130,13 @@ msgstr ""
 #: index.docbook:70
 #, no-c-format
 msgid ""
-"The regular expression editor, on the other hand, lets you "
-"<emphasis>draw</emphasis> your regular expression in an unambiguous way. The"
-" editor solves at least item two and three above. It might not make regular "
-"expressions available for the non-programmers, though only tests by users "
-"can tell that. So, if are you a non programmer, who has gained the power of "
-"regular expression from this editor, then please <ulink "
-"url=\"mailto:blackie@kde.org\">let me know</ulink>."
+"The regular expression editor, on the other hand, lets you <emphasis>draw</"
+"emphasis> your regular expression in an unambiguous way. The editor solves "
+"at least item two and three above. It might not make regular expressions "
+"available for the non-programmers, though only tests by users can tell that. "
+"So, if are you a non programmer, who has gained the power of regular "
+"expression from this editor, then please <ulink url=\"mailto:blackie@kde.org"
+"\">let me know</ulink>."
 msgstr ""
 
 # automatic translation
@@ -168,9 +170,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You build regular expressions from smaller regular expressions, just like "
-"you build large Lego toys from smaller subparts. As in the Lego world, there"
-" are a number of basic building blocks. In the following I will describe "
-"each of these basic building blocks using a number of examples."
+"you build large Lego toys from smaller subparts. As in the Lego world, there "
+"are a number of basic building blocks. In the following I will describe each "
+"of these basic building blocks using a number of examples."
 msgstr ""
 
 # automatic translation
@@ -189,12 +191,12 @@ msgid ""
 "definitely not a good choice. The reason for this is that regular "
 "expressions assign special meaning to some characters. This includes the "
 "following characters: <literal>.*|$</literal>. Thus if you want to search "
-"for the text <literal>kde.</literal> (i.e. the characters "
-"<literal>kde</literal> followed by a period), then you would need to specify"
-" this as <literal>kde\\.</literal><footnote><para>The regular expression "
-"editor solves this problem by taking care of escape rules for "
-"you.</para></footnote> Writing <literal>\\.</literal> rather than just "
-"<literal>.</literal> is called <emphasis>escaping</emphasis>."
+"for the text <literal>kde.</literal> (i.e. the characters <literal>kde</"
+"literal> followed by a period), then you would need to specify this as "
+"<literal>kde\\.</literal><footnote><para>The regular expression editor "
+"solves this problem by taking care of escape rules for you.</para></"
+"footnote> Writing <literal>\\.</literal> rather than just <literal>.</"
+"literal> is called <emphasis>escaping</emphasis>."
 msgstr ""
 
 # automatic translation
@@ -231,8 +233,8 @@ msgstr ""
 msgid ""
 "The regular expression for &URL;s says (among other things), that the "
 "selection must start with the text <literal>http://</literal>. This is "
-"described using regular expressions by prefixing the text "
-"<literal>http://</literal> with a hat (the <literal>^</literal> character)."
+"described using regular expressions by prefixing the text <literal>http://</"
+"literal> with a hat (the <literal>^</literal> character)."
 msgstr ""
 
 # automatic translation
@@ -250,10 +252,10 @@ msgstr ""
 #: index.docbook:146
 #, no-c-format
 msgid ""
-"Searching for the word <literal>the</literal>, but not "
-"<emphasis>the</emphasis><literal>re</literal>, "
-"<literal>brea</literal><emphasis>the</emphasis> or "
-"<literal>ano</literal><emphasis>the</emphasis><literal>r</literal>"
+"Searching for the word <literal>the</literal>, but not <emphasis>the</"
+"emphasis><literal>re</literal>, <literal>brea</literal><emphasis>the</"
+"emphasis> or <literal>ano</literal><emphasis>the</emphasis><literal>r</"
+"literal>"
 msgstr ""
 
 # automatic translation
@@ -275,8 +277,8 @@ msgstr ""
 msgid ""
 "Thus, searching for the word <literal>the</literal> can be done using the "
 "regular expression <literal>\\bthe\\b</literal>. This specifies that we are "
-"searching for <literal>the</literal> with no letters on each side of it "
-"(i.e. with a word boundary on each side)"
+"searching for <literal>the</literal> with no letters on each side of it (i."
+"e. with a word boundary on each side)"
 msgstr ""
 
 # automatic translation
@@ -293,8 +295,7 @@ msgstr ""
 #. Tag: title
 #: index.docbook:168
 #, no-c-format
-msgid ""
-"Searching for either <literal>this</literal> or <literal>that</literal>"
+msgid "Searching for either <literal>this</literal> or <literal>that</literal>"
 msgstr ""
 
 # automatic translation
@@ -304,9 +305,9 @@ msgstr ""
 msgid ""
 "Imagine that you want to run through your document searching for either the "
 "word <literal>this</literal> or the word <literal>that</literal>. With a "
-"normal search method you could do this in two sweeps, the first time around,"
-" you would search for <literal>this</literal>, and the second time around "
-"you would search for <literal>that</literal>."
+"normal search method you could do this in two sweeps, the first time around, "
+"you would search for <literal>this</literal>, and the second time around you "
+"would search for <literal>that</literal>."
 msgstr ""
 
 # automatic translation
@@ -334,8 +335,8 @@ msgstr ""
 #: index.docbook:184
 #, no-c-format
 msgid ""
-"In the regular expression editor you do not write the vertical bar yourself,"
-" but instead select the <link linkend=\"altntool\">alternative tool</link>, "
+"In the regular expression editor you do not write the vertical bar yourself, "
+"but instead select the <link linkend=\"altntool\">alternative tool</link>, "
 "and insert the smaller regular expressions above each other."
 msgstr ""
 
@@ -400,8 +401,8 @@ msgid ""
 "<literal>a</literal>. The letter <literal>a</literal> on its own is a "
 "regular expression that matches a single letter, namely the letter "
 "<literal>a</literal>. If we combine this with the asterisk, &ie; "
-"<literal>a*</literal>, then we have a regular expression matching any number"
-" of a's."
+"<literal>a*</literal>, then we have a regular expression matching any number "
+"of a's."
 msgstr ""
 
 # automatic translation
@@ -411,10 +412,10 @@ msgstr ""
 msgid ""
 "We can combine several regular expression after each other, for example "
 "<literal>ba(na)*</literal>. <footnote><para><literal>(na)*</literal> just "
-"says that what is inside the parenthesis is repeated any number of "
-"times.</para></footnote> Imagine you had typed this regular expression into "
-"the search field in a text editor, then you would have found the following "
-"words (among others): <literal>ba</literal>, <literal>bana</literal>, "
+"says that what is inside the parenthesis is repeated any number of times.</"
+"para></footnote> Imagine you had typed this regular expression into the "
+"search field in a text editor, then you would have found the following words "
+"(among others): <literal>ba</literal>, <literal>bana</literal>, "
 "<literal>banana</literal>, <literal>bananananananana</literal>"
 msgstr ""
 
@@ -426,11 +427,10 @@ msgid ""
 "Given the information above, it hopefully isn't hard for you to write the "
 "shell wildcard <literal>test??.res</literal> as a regular expression. "
 "Answer: <literal>test..\\.res</literal>. The dot on its own is any "
-"character. To match a single dot you must write "
-"<literal>\\.</literal><footnote><para>This is called "
-"escaping</para></footnote>. In other word, the regular expression "
-"<literal>\\.</literal> matches a dot, while a dot on its own matches any "
-"character."
+"character. To match a single dot you must write <literal>\\.</"
+"literal><footnote><para>This is called escaping</para></footnote>. In other "
+"word, the regular expression <literal>\\.</literal> matches a dot, while a "
+"dot on its own matches any character."
 msgstr ""
 
 # automatic translation
@@ -478,10 +478,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This can easily be done using normal search and replace, there is, however, "
-"one glitch. Imagine that you did remember this rule - <emphasis>just a "
-"bit</emphasis> - and did it right in some places. Replacing unconditionally "
-"would result in <literal>&amp;amp;</literal> being replaced with "
-"<literal>&amp;amp;amp;</literal>"
+"one glitch. Imagine that you did remember this rule - <emphasis>just a bit</"
+"emphasis> - and did it right in some places. Replacing unconditionally would "
+"result in <literal>&amp;amp;</literal> being replaced with <literal>&amp;amp;"
+"amp;</literal>"
 msgstr ""
 
 # automatic translation
@@ -503,8 +503,8 @@ msgid ""
 "The regular expression, which only matches an ampersand if it is not "
 "followed by the letters <literal>amp;</literal> looks as follows: "
 "<literal>&amp;(?!amp;)</literal>. This is, of course, easier to read using "
-"the regular expression editor, where you would use the <link "
-"linkend=\"lookaheadtools\">lookahead tools</link>."
+"the regular expression editor, where you would use the <link linkend="
+"\"lookaheadtools\">lookahead tools</link>."
 msgstr ""
 
 # automatic translation
@@ -534,8 +534,8 @@ msgstr ""
 #: index.docbook:297
 #, no-c-format
 msgid ""
-"The most important part of the editor is of course the editing area, this is"
-" the area where you draw your regular expression. This area is the larger "
+"The most important part of the editor is of course the editing area, this is "
+"the area where you draw your regular expression. This area is the larger "
 "gray one in the middle."
 msgstr ""
 
@@ -546,8 +546,8 @@ msgstr ""
 msgid ""
 "Above the editing area you have two Toolbars, the first one contains the "
 "<link linkend=\"editingtools\">editing actions</link> - much like drawing "
-"tools in a drawing program. The second Toolbar contains the <emphasis>What's"
-" This?</emphasis> button, and buttons for undo and redo."
+"tools in a drawing program. The second Toolbar contains the <emphasis>What's "
+"This?</emphasis> button, and buttons for undo and redo."
 msgstr ""
 
 # automatic translation
@@ -557,8 +557,8 @@ msgstr ""
 msgid ""
 "Below the editing area you find the regular expression currently build, in "
 "the so called ascii syntax. The ascii syntax is updated while you edit the "
-"regular expression in the graphical editor. If you rather want to update the"
-" ascii syntax then please do, the graphical editor is updated on the fly to "
+"regular expression in the graphical editor. If you rather want to update the "
+"ascii syntax then please do, the graphical editor is updated on the fly to "
 "reflect your changes."
 msgstr ""
 
@@ -570,13 +570,13 @@ msgid ""
 "Finally to the left of the editor area you will find a number of pre-built "
 "regular expressions. They serve two purposes: (1) When you load the editor "
 "with a regular expression then this regular expression is made "
-"<emphasis>nicer</emphasis> or more comprehensive by replacing common regular"
-" expressions. In the screen dump above, you can see how the ascii syntax "
-"\".*\" have been replaced with a box saying \"anything\". (2) When you "
-"insert regular expression you may find building blocks for your own regular "
-"expression from the set of pre build regular expressions. See the section on"
-" <link linkend=\"userdefinedregexps\">user defined regular "
-"expressions</link> to learn how to save your own regular expressions."
+"<emphasis>nicer</emphasis> or more comprehensive by replacing common regular "
+"expressions. In the screen dump above, you can see how the ascii syntax \".*"
+"\" have been replaced with a box saying \"anything\". (2) When you insert "
+"regular expression you may find building blocks for your own regular "
+"expression from the set of pre build regular expressions. See the section on "
+"<link linkend=\"userdefinedregexps\">user defined regular expressions</link> "
+"to learn how to save your own regular expressions."
 msgstr ""
 
 # automatic translation
@@ -601,8 +601,8 @@ msgstr ""
 #: index.docbook:336
 #, no-c-format
 msgid ""
-"All the editing tools are located in the toolbar above editing area. Each of"
-" them will be described in the following."
+"All the editing tools are located in the toolbar above editing area. Each of "
+"them will be described in the following."
 msgstr ""
 
 # automatic translation
@@ -651,8 +651,8 @@ msgstr ""
 #: index.docbook:379
 #, no-c-format
 msgid ""
-"Using this tool you insert character ranges. Examples includes what in ASCII"
-" text says <literal>[0-9]</literal>, <literal>[^a-zA-Z,_]</literal>. When "
+"Using this tool you insert character ranges. Examples includes what in ASCII "
+"text says <literal>[0-9]</literal>, <literal>[^a-zA-Z,_]</literal>. When "
 "inserting an item with this tool a dialog will appear, in which you specify "
 "the character ranges."
 msgstr ""
@@ -714,8 +714,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Repeated elements can both be built from the outside in and the inside out. "
-"That is you can first draw what to be repeated, select it and use the repeat"
-" tool to repeat it. Alternatively you can first insert the repeat element, "
+"That is you can first draw what to be repeated, select it and use the repeat "
+"tool to repeat it. Alternatively you can first insert the repeat element, "
 "and draw what is to be repeated inside it."
 msgstr ""
 
@@ -740,8 +740,8 @@ msgstr ""
 #: index.docbook:446
 #, no-c-format
 msgid ""
-"This is the alternative regular expression (|). You specify the alternatives"
-" by drawing each alternative on top of each other inside the box that this "
+"This is the alternative regular expression (|). You specify the alternatives "
+"by drawing each alternative on top of each other inside the box that this "
 "tool inserts."
 msgstr ""
 
@@ -783,8 +783,8 @@ msgstr ""
 #: index.docbook:484
 #, no-c-format
 msgid ""
-"The line start and line end tools matches the start of the line, and the end"
-" of the line respectively. The regular expression in the screen dump above "
+"The line start and line end tools matches the start of the line, and the end "
+"of the line respectively. The regular expression in the screen dump above "
 "thus matches lines only matches spaces."
 msgstr ""
 
@@ -809,8 +809,8 @@ msgstr ""
 #: index.docbook:506
 #, no-c-format
 msgid ""
-"The boundary tools matches a word boundary respectively a non-word boundary."
-" The regular expression in the screen dump thus matches any words starting "
+"The boundary tools matches a word boundary respectively a non-word boundary. "
+"The regular expression in the screen dump thus matches any words starting "
 "with <literal>the</literal>. The word <literal>the</literal> itself is, "
 "however, not matched."
 msgstr ""
@@ -871,8 +871,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Located at the left of the editing area is a list box containing user "
-"defined regular expressions. Some regular expressions are pre-installed with"
-" your &kde; installation, while others you can save yourself."
+"defined regular expressions. Some regular expressions are pre-installed with "
+"your &kde; installation, while others you can save yourself."
 msgstr ""
 
 # automatic translation
@@ -880,10 +880,10 @@ msgstr ""
 #: index.docbook:552
 #, no-c-format
 msgid ""
-"These regular expression serves two purposes (<link "
-"linkend=\"screenorganization\">see detailed description</link>), namely (1) "
-"to offer you a set of building block and (2) to make common regular "
-"expressions prettier."
+"These regular expression serves two purposes (<link linkend="
+"\"screenorganization\">see detailed description</link>), namely (1) to offer "
+"you a set of building block and (2) to make common regular expressions "
+"prettier."
 msgstr ""
 
 # automatic translation
@@ -891,9 +891,8 @@ msgstr ""
 #: index.docbook:557
 #, no-c-format
 msgid ""
-"You can save your own regular expressions by right clicking the mouse button"
-" in the editing area, and choosing <literal>Save Regular "
-"Expression</literal>."
+"You can save your own regular expressions by right clicking the mouse button "
+"in the editing area, and choosing <literal>Save Regular Expression</literal>."
 msgstr ""
 
 # automatic translation
@@ -901,9 +900,9 @@ msgstr ""
 #: index.docbook:561
 #, no-c-format
 msgid ""
-"If the regular expression you save is within a <link "
-"linkend=\"compoundtool\">compound container</link> then the regular "
-"expression will take part in making subsequent regular expressions prettier."
+"If the regular expression you save is within a <link linkend=\"compoundtool"
+"\">compound container</link> then the regular expression will take part in "
+"making subsequent regular expressions prettier."
 msgstr ""
 
 # automatic translation
@@ -928,11 +927,11 @@ msgstr ""
 #: index.docbook:577
 #, no-c-format
 msgid ""
-"Bug reports and feature requests should be submitted through the <ulink "
-"url=\"http://bugs.kde.org/\">&kde; Bug Tracking System</ulink>. <emphasis "
-"role=\"strong\">Before</emphasis> you report a bug or suggest a feature, "
-"please check that it hasn't already been <ulink "
-"url=\"http://bugs.kde.org/buglist.cgi?quicksearch=kregexpeditor\">reported/suggested.</ulink>"
+"Bug reports and feature requests should be submitted through the <ulink url="
+"\"http://bugs.kde.org/\">&kde; Bug Tracking System</ulink>. <emphasis role="
+"\"strong\">Before</emphasis> you report a bug or suggest a feature, please "
+"check that it hasn't already been <ulink url=\"http://bugs.kde.org/buglist."
+"cgi?quicksearch=kregexpeditor\">reported/suggested.</ulink>"
 msgstr ""
 
 # automatic translation
@@ -953,8 +952,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:591
 #, no-c-format
-msgid ""
-"No currently this is not supported. It is planned for the next version."
+msgid "No currently this is not supported. It is planned for the next version."
 msgstr ""
 
 # automatic translation
@@ -985,9 +983,9 @@ msgstr ""
 #: index.docbook:603
 #, no-c-format
 msgid ""
-"See <ulink url=\"http://developer.kde.org/documentation/library/cvs-"
-"api/classref/interfaces/KRegExpEditorInterface.html\">The documentation for "
-"the class KRegExpEditorInterface</ulink>."
+"See <ulink url=\"http://developer.kde.org/documentation/library/cvs-api/"
+"classref/interfaces/KRegExpEditorInterface.html\">The documentation for the "
+"class KRegExpEditorInterface</ulink>."
 msgstr ""
 
 # automatic translation
@@ -995,8 +993,8 @@ msgstr ""
 #: index.docbook:608
 #, no-c-format
 msgid ""
-"I cannot find the <emphasis>Edit Regular expression</emphasis> button in for"
-" example konqueror on another KDE3 installation, why?"
+"I cannot find the <emphasis>Edit Regular expression</emphasis> button in for "
+"example konqueror on another KDE3 installation, why?"
 msgstr ""
 
 # automatic translation

@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-08-25 01:55+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -37,12 +39,12 @@ msgid ""
 "differences between them. After selecting some options and the "
 "<guilabel>Compare</guilabel> function you can synchronize the files and "
 "folders. One panel could be an &FTP; server. Do not forget the "
-"<guilabel>Compare by content</guilabel> option if the file size stays equal."
-" Choose <menuchoice> <guimenu>Tools</guimenu> <guimenuitem>Synchronize "
+"<guilabel>Compare by content</guilabel> option if the file size stays equal. "
+"Choose <menuchoice> <guimenu>Tools</guimenu> <guimenuitem>Synchronize "
 "Folders</guimenuitem> </menuchoice> or <keycombo action=\"simul\">&Ctrl; "
-"<keycap>Y</keycap></keycombo> to start this feature. The <link "
-"linkend=\"konfig-color\">colors</link> are configurable. The synchronizer "
-"has its own <link linkend=\"synchronizer_keybindings\">keybindings</link>."
+"<keycap>Y</keycap></keycombo> to start this feature. The <link linkend="
+"\"konfig-color\">colors</link> are configurable. The synchronizer has its "
+"own <link linkend=\"synchronizer_keybindings\">keybindings</link>."
 msgstr ""
 
 # automatic translation
@@ -73,8 +75,8 @@ msgstr ""
 #: synchronizer.docbook:52
 #, no-c-format
 msgid ""
-"Set the <guilabel>Left folder</guilabel> and the <guilabel>Right "
-"folder</guilabel> that you want to compare."
+"Set the <guilabel>Left folder</guilabel> and the <guilabel>Right folder</"
+"guilabel> that you want to compare."
 msgstr ""
 
 # automatic translation
@@ -84,8 +86,8 @@ msgstr ""
 msgid ""
 "Configure the optional <guilabel>File Filter</guilabel>, <guilabel>General "
 "Filters</guilabel> and <guilabel>Advanced filters</guilabel>. The "
-"<guilabel>General Filters</guilabel> includes a <guilabel>Do not search "
-"in</guilabel> option which lets you exclude folders from comparison."
+"<guilabel>General Filters</guilabel> includes a <guilabel>Do not search in</"
+"guilabel> option which lets you exclude folders from comparison."
 msgstr ""
 
 # automatic translation
@@ -94,10 +96,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Set the <link linkend=\"synccomp_checkb_options\">Checkbox options</link>: "
-"<guilabel>Recurse subfolders</guilabel>, <guilabel>Follow "
-"symlinks</guilabel>, <guilabel>Compare by content</guilabel>, "
-"<guilabel>Ignore Date</guilabel>, <guilabel>Asymmetric</guilabel> and "
-"<guilabel>Ignore Case</guilabel>."
+"<guilabel>Recurse subfolders</guilabel>, <guilabel>Follow symlinks</"
+"guilabel>, <guilabel>Compare by content</guilabel>, <guilabel>Ignore Date</"
+"guilabel>, <guilabel>Asymmetric</guilabel> and <guilabel>Ignore Case</"
+"guilabel>."
 msgstr ""
 
 # automatic translation
@@ -124,8 +126,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If needed, you can change the <guilabel>Task</guilabel> operations "
-"determined by the Comparator with the <link linkend=\"synccomp_right-"
-"click\">right click menu</link>."
+"determined by the Comparator with the <link linkend=\"synccomp_right-click"
+"\">right click menu</link>."
 msgstr ""
 
 # automatic translation
@@ -133,8 +135,8 @@ msgstr ""
 #: synchronizer.docbook:97
 #, no-c-format
 msgid ""
-"When you agree with the <guibutton>Compare</guibutton> results, click on the"
-" <guibutton>Synchronize</guibutton> button to show the synchronize dialog."
+"When you agree with the <guibutton>Compare</guibutton> results, click on the "
+"<guibutton>Synchronize</guibutton> button to show the synchronize dialog."
 msgstr ""
 
 # automatic translation
@@ -142,9 +144,9 @@ msgstr ""
 #: synchronizer.docbook:103
 #, no-c-format
 msgid ""
-"After selecting the options of the <link "
-"linkend=\"synchronizer\">Synchronizer</link>, click on the "
-"<guibutton>Start</guibutton> button to start the synchronization process."
+"After selecting the options of the <link linkend=\"synchronizer"
+"\">Synchronizer</link>, click on the <guibutton>Start</guibutton> button to "
+"start the synchronization process."
 msgstr ""
 
 # automatic translation
@@ -192,12 +194,12 @@ msgid ""
 "<guilabel>File Filter</guilabel>: Filters the filenames at synchronizing. "
 "&eg; <literal role=\"extension\">*.png</literal> selects only files the "
 "names of which end with <literal role=\"extension\">.png</literal>. Folders "
-"are listed if the folder name ends with <literal "
-"role=\"extension\">.png</literal> or if the folder contains files which end "
-"with <literal role=\"extension\">.png</literal>. Multiple include/exclude "
-"example: <literal role=\"extension\">'*.cpp *.h | *.moc.cpp'</literal> "
-"includes <literal role=\"extension\">*.cpp *.h</literal> and exclude "
-"<literal role=\"extension\">*.moc.cpp</literal>."
+"are listed if the folder name ends with <literal role=\"extension\">.png</"
+"literal> or if the folder contains files which end with <literal role="
+"\"extension\">.png</literal>. Multiple include/exclude example: <literal "
+"role=\"extension\">'*.cpp *.h | *.moc.cpp'</literal> includes <literal role="
+"\"extension\">*.cpp *.h</literal> and exclude <literal role=\"extension\">*."
+"moc.cpp</literal>."
 msgstr ""
 
 # automatic translation
@@ -356,23 +358,22 @@ msgid ""
 "the target folder, the <guilabel>Right Directory</guilabel> is the source "
 "folder. This function synchronizes the content of the left folder to the "
 "right folder. <itemizedlist> <listitem> <para>The files that exist only on "
-"the left side will be deleted.</para> </listitem> <listitem> <para>The files"
-" that exist only on the right side will be copied to left.</para> "
-"</listitem> <listitem> <para>The files considered to be equal will be "
-"untouched.</para> </listitem> <listitem> <para>Those files considered to be "
-"different will be copied to left. Use this feature with care!</para> "
-"<itemizedlist> <listitem> <para>Note that there is a measure to avoid data "
-"losses: if dates are taken into account (because <guilabel>Ignore "
-"Date</guilabel> is disabled), then the default action is <emphasis>not to "
-"overwrite a file by an old version of it</emphasis>. The user is still able "
-"to overwrite (by right-clicking and selecting <guilabel>Copy from right to "
-"left</guilabel>).</para> </listitem> </itemizedlist> </listitem> "
-"</itemizedlist>This function is useful if the date information is unusable, "
-"or to synchronize the left folder to the content of a file server (like a "
-"download). Alternatively, it is useful to make a backup from the right "
-"folder to the left folder. NOTE: Do NOT use this option to synchronize a "
-"desktop and a notebook (&eg; files that exist only on the left side will be "
-"deleted!)."
+"the left side will be deleted.</para> </listitem> <listitem> <para>The files "
+"that exist only on the right side will be copied to left.</para> </listitem> "
+"<listitem> <para>The files considered to be equal will be untouched.</para> "
+"</listitem> <listitem> <para>Those files considered to be different will be "
+"copied to left. Use this feature with care!</para> <itemizedlist> <listitem> "
+"<para>Note that there is a measure to avoid data losses: if dates are taken "
+"into account (because <guilabel>Ignore Date</guilabel> is disabled), then "
+"the default action is <emphasis>not to overwrite a file by an old version of "
+"it</emphasis>. The user is still able to overwrite (by right-clicking and "
+"selecting <guilabel>Copy from right to left</guilabel>).</para> </listitem> "
+"</itemizedlist> </listitem> </itemizedlist>This function is useful if the "
+"date information is unusable, or to synchronize the left folder to the "
+"content of a file server (like a download). Alternatively, it is useful to "
+"make a backup from the right folder to the left folder. NOTE: Do NOT use "
+"this option to synchronize a desktop and a notebook (&eg; files that exist "
+"only on the left side will be deleted!)."
 msgstr ""
 
 # automatic translation
@@ -385,9 +386,9 @@ msgid ""
 "the end of the list at once and scrolls the window, if necessary. It is "
 "important, if you want to know what the Synchronizer is doing. If the &FTP; "
 "server is slow, the comparison of a folder may take a lot of time. By "
-"turning this option on, you can see that the comparator is "
-"<quote>alive</quote>, but slow. For fast file systems, it can reduce the "
-"speed of comparing slightly."
+"turning this option on, you can see that the comparator is <quote>alive</"
+"quote>, but slow. For fast file systems, it can reduce the speed of "
+"comparing slightly."
 msgstr ""
 
 # automatic translation
@@ -395,8 +396,8 @@ msgstr ""
 #: synchronizer.docbook:311
 #, no-c-format
 msgid ""
-"<guilabel>Ignore Case</guilabel>: Case insensitive filename compare, this is"
-" useful when synchronizing &Windows; filesystems."
+"<guilabel>Ignore Case</guilabel>: Case insensitive filename compare, this is "
+"useful when synchronizing &Windows; filesystems."
 msgstr ""
 
 # automatic translation
@@ -413,9 +414,9 @@ msgstr ""
 #: synchronizer.docbook:323
 #, no-c-format
 msgid ""
-"When everything mentioned above is done, click on the "
-"<guibutton>Compare</guibutton> button to compare the folders, the results "
-"are displayed in the <guilabel>File List</guilabel>."
+"When everything mentioned above is done, click on the <guibutton>Compare</"
+"guibutton> button to compare the folders, the results are displayed in the "
+"<guilabel>File List</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -431,22 +432,22 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>File List</guilabel> has the following columns: <quote>Left "
-"name | Left size | Left time | Task | Right time | Right size | Right "
-"name</quote>. Here you can check the compare results and modify the "
+"name | Left size | Left time | Task | Right time | Right size | Right name</"
+"quote>. Here you can check the compare results and modify the "
 "synchronization actions if desired. The text color defines the default copy "
 "direction determined by the comparator. <itemizedlist> <listitem> "
 "<para>Green: Copy from left to right.</para> </listitem> <listitem> "
 "<para>Blue: Copy from right to left or delete on the right side in "
 "asymmetric mode.</para> </listitem> <listitem> <para>Red: Files which are "
 "different by the given criteria (no copy direction).</para> </listitem> "
-"<listitem> <para>Black: Files which are identical (no copy "
-"direction).</para> </listitem> </itemizedlist> A double click on a file "
-"calls the &krusader;s <guilabel>Compare by content</guilabel> function. The "
-"Tasks (&lt;=&gt;) column defines the default copy direction, which can be "
-"modified by the user if needed. The results window supports dragging items "
-"to other windows ( drag [left], &Shift;+drag [right] ) and copy left/right "
-"selected items to clipboard (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>)."
+"<listitem> <para>Black: Files which are identical (no copy direction).</"
+"para> </listitem> </itemizedlist> A double click on a file calls the "
+"&krusader;s <guilabel>Compare by content</guilabel> function. The Tasks (&lt;"
+"=&gt;) column defines the default copy direction, which can be modified by "
+"the user if needed. The results window supports dragging items to other "
+"windows ( drag [left], &Shift;+drag [right] ) and copy left/right selected "
+"items to clipboard (<keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></"
+"keycombo>)."
 msgstr ""
 
 # automatic translation
@@ -471,8 +472,8 @@ msgstr ""
 #: synchronizer.docbook:365
 #, no-c-format
 msgid ""
-"<guibutton>-&gt;</guibutton>: Copy from the left side to the right side. For"
-" folders: <command>mkdir</command> in the right side."
+"<guibutton>-&gt;</guibutton>: Copy from the left side to the right side. For "
+"folders: <command>mkdir</command> in the right side."
 msgstr ""
 
 # automatic translation
@@ -496,8 +497,8 @@ msgstr ""
 #: synchronizer.docbook:381
 #, no-c-format
 msgid ""
-"<guibutton>&lt;-</guibutton>: copy from the right side to the left side. For"
-" folders: <command>mkdir</command> in the left side"
+"<guibutton>&lt;-</guibutton>: copy from the right side to the left side. For "
+"folders: <command>mkdir</command> in the left side"
 msgstr ""
 
 # automatic translation
@@ -562,8 +563,8 @@ msgstr ""
 #: synchronizer.docbook:422
 #, no-c-format
 msgid ""
-"<guibutton>Trash</guibutton>: Enable/Disable the file deleting from the left"
-" side task."
+"<guibutton>Trash</guibutton>: Enable/Disable the file deleting from the left "
+"side task."
 msgstr ""
 
 # automatic translation
@@ -686,8 +687,8 @@ msgstr ""
 #: synchronizer.docbook:504
 #, no-c-format
 msgid ""
-"<guibutton>Exclude</guibutton>: Excludes a file/dir from synchronization ( "
-"task change to != )."
+"<guibutton>Exclude</guibutton>: Excludes a file/dir from synchronization "
+"( task change to != )."
 msgstr ""
 
 # automatic translation
@@ -752,8 +753,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guibutton>Unselect items</guibutton>: Opens a dialog which allows you to "
-"deselect items. This is the <guimenuitem>Unselect Group</guimenuitem> dialog"
-" from the <link linkend=\"edit-menu\">Edit menu</link>."
+"deselect items. This is the <guimenuitem>Unselect Group</guimenuitem> dialog "
+"from the <link linkend=\"edit-menu\">Edit menu</link>."
 msgstr ""
 
 # automatic translation
@@ -770,8 +771,8 @@ msgstr ""
 #: synchronizer.docbook:557
 #, no-c-format
 msgid ""
-"3. others (note that the following operations work on the right-clicked file"
-" and not on the selection)."
+"3. others (note that the following operations work on the right-clicked file "
+"and not on the selection)."
 msgstr ""
 
 # automatic translation
@@ -810,10 +811,10 @@ msgstr ""
 #: synchronizer.docbook:584
 #, no-c-format
 msgid ""
-"<guibutton>Profiles</guibutton>: If you have to synchronize the same folders"
-" often, you can save the settings &eg; include files, exclude files, ... "
-"Press the <guibutton>Profile</guibutton> button, and you will be able to add"
-" / load / save / remove synchronizer profiles."
+"<guibutton>Profiles</guibutton>: If you have to synchronize the same folders "
+"often, you can save the settings &eg; include files, exclude files, ... "
+"Press the <guibutton>Profile</guibutton> button, and you will be able to "
+"add / load / save / remove synchronizer profiles."
 msgstr ""
 
 # automatic translation
@@ -899,8 +900,8 @@ msgstr ""
 #: synchronizer.docbook:644
 #, no-c-format
 msgid ""
-"<guilabel>Left</guilabel>: delete X3 files ( Y3 bytes ) enable / disable the"
-" left side deleting."
+"<guilabel>Left</guilabel>: delete X3 files ( Y3 bytes ) enable / disable the "
+"left side deleting."
 msgstr ""
 
 # automatic translation
@@ -926,8 +927,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Ready</guilabel>: A1/A2 files, B1/B2. This line is changed at "
-"synchronizing, showing that synchronizer finished with A1 files from A2 ( B1"
-" bytes from B2 )."
+"synchronizing, showing that synchronizer finished with A1 files from A2 ( B1 "
+"bytes from B2 )."
 msgstr ""
 
 # automatic translation
@@ -935,8 +936,8 @@ msgstr ""
 #: synchronizer.docbook:671
 #, no-c-format
 msgid ""
-"<guilabel>Progress bar</guilabel>: Shows the progress on the synchronization"
-" (based on bytes)."
+"<guilabel>Progress bar</guilabel>: Shows the progress on the synchronization "
+"(based on bytes)."
 msgstr ""
 
 # automatic translation
@@ -983,8 +984,7 @@ msgstr ""
 #: synchronizer.docbook:710
 #, no-c-format
 msgid ""
-"Can drastically increase the speed when synchronized with slow &FTP; "
-"servers."
+"Can drastically increase the speed when synchronized with slow &FTP; servers."
 msgstr ""
 
 # automatic translation
@@ -1008,7 +1008,6 @@ msgstr ""
 #: synchronizer.docbook:722
 #, no-c-format
 msgid ""
-"Remote synchronization is also done in parallel, except the "
-"<command>mkdir</command> tasks (<command>mkdir</command> must be before "
-"copy)."
+"Remote synchronization is also done in parallel, except the <command>mkdir</"
+"command> tasks (<command>mkdir</command> must be before copy)."
 msgstr ""

@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: date
@@ -35,9 +37,9 @@ msgstr ""
 #: man-create_makefile.1.docbook:24
 #, no-c-format
 msgid ""
-"<command>create_makefile</command> "
-"<group><replaceable>relativepath/Makefile</replaceable></group> "
-"<group><replaceable>relativepath</replaceable></group>"
+"<command>create_makefile</command> <group><replaceable>relativepath/"
+"Makefile</replaceable></group> <group><replaceable>relativepath</"
+"replaceable></group>"
 msgstr ""
 
 # automatic translation
@@ -52,10 +54,10 @@ msgstr ""
 #: man-create_makefile.1.docbook:34
 #, no-c-format
 msgid ""
-"<command>create_makefile</command> creates the "
-"<filename>Makefile.in</filename> and <filename>Makefile</filename> in a "
-"subdirectory containing a <filename>Makefile.am</filename>. This script "
-"saves time compared to re-running configure completely"
+"<command>create_makefile</command> creates the <filename>Makefile.in</"
+"filename> and <filename>Makefile</filename> in a subdirectory containing a "
+"<filename>Makefile.am</filename>. This script saves time compared to re-"
+"running configure completely"
 msgstr ""
 
 # automatic translation
@@ -63,9 +65,9 @@ msgstr ""
 #: man-create_makefile.1.docbook:39
 #, no-c-format
 msgid ""
-"Note that you must supply the path to the desired "
-"<filename>Makefile</filename> <filename>Makefile.am</filename> (though the "
-"final <filename>/Makefile</filename> may be omitted)."
+"Note that you must supply the path to the desired <filename>Makefile</"
+"filename> <filename>Makefile.am</filename> (though the final <filename>/"
+"Makefile</filename> may be omitted)."
 msgstr ""
 
 # automatic translation
@@ -83,10 +85,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If the source directory is different from the build directory (see the "
-"environment variables below), it will be assumed that the "
-"<filename>Makefile.am</filename> and <filename>Makefile.in</filename> belong"
-" beneath the source directory and that the <filename>Makefile</filename> "
-"belongs beneath the build directory."
+"environment variables below), it will be assumed that the <filename>Makefile."
+"am</filename> and <filename>Makefile.in</filename> belong beneath the source "
+"directory and that the <filename>Makefile</filename> belongs beneath the "
+"build directory."
 msgstr ""
 
 # automatic translation
@@ -127,11 +129,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Indicates that the build directory is in the given subdirectory of the "
-"source directory. For instance, if the source directory is <filename "
-"class=\"directory\">kdesdk</filename> and the build directory is <filename "
-"class=\"directory\">kdesdk/obj-i386-linux</filename>, then "
-"<envar>OBJ_SUBDIR</envar> should be set to "
-"<parameter>obj-i386-linux</parameter>."
+"source directory. For instance, if the source directory is <filename class="
+"\"directory\">kdesdk</filename> and the build directory is <filename class="
+"\"directory\">kdesdk/obj-i386-linux</filename>, then <envar>OBJ_SUBDIR</"
+"envar> should be set to <parameter>obj-i386-linux</parameter>."
 msgstr ""
 
 # automatic translation
@@ -147,10 +148,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "A <command>sed</command> expression that is used to transform the source "
-"directory into the build directory. For instance, if the source directory is"
-" <filename class=\"directory\">~/src/kdesdk</filename> and the build "
-"directory is <filename class=\"directory\">~/src/kdesdk-obj</filename>, then"
-" <envar>OBJ_REPLACEMENT</envar> should be set to <parameter>s#kdesdk#kdesdk-"
+"directory into the build directory. For instance, if the source directory is "
+"<filename class=\"directory\">~/src/kdesdk</filename> and the build "
+"directory is <filename class=\"directory\">~/src/kdesdk-obj</filename>, then "
+"<envar>OBJ_REPLACEMENT</envar> should be set to <parameter>s#kdesdk#kdesdk-"
 "obj#</parameter>."
 msgstr ""
 
@@ -181,8 +182,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "create_makefile was written by &David.Faure; &David.Faure.mail; and others. "
-"This manual page was prepared by "
-"<personname><firstname>Ben</firstname><surname>Burton</surname></personname>"
-" <email>bab@debian.org</email> for the Debian GNU/Linux system (but may be "
-"used by others)."
+"This manual page was prepared by <personname><firstname>Ben</"
+"firstname><surname>Burton</surname></personname> <email>bab@debian.org</"
+"email> for the Debian GNU/Linux system (but may be used by others)."
 msgstr ""

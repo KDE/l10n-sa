@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-24 00:52+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -92,12 +94,12 @@ msgstr ""
 #: faq.docbook:39
 #, no-c-format
 msgid ""
-"&partman; can only show progress information when it knows how long the jobs"
-" in an operation will take. Unfortunately this is usually not the case when "
-"resizing partitions because the by far longest job when doing so is resizing"
-" the file system on the partition. Resizing file systems is in most cases "
-"something an external tool will do on behalf of &partman; and these external"
-" tools do not provide useful progress information to &partman;, so there's "
+"&partman; can only show progress information when it knows how long the jobs "
+"in an operation will take. Unfortunately this is usually not the case when "
+"resizing partitions because the by far longest job when doing so is resizing "
+"the file system on the partition. Resizing file systems is in most cases "
+"something an external tool will do on behalf of &partman; and these external "
+"tools do not provide useful progress information to &partman;, so there's "
 "nothing to report while they are running."
 msgstr ""
 
@@ -205,8 +207,8 @@ msgid ""
 "is always a small chance an operation might fail with an error, in which "
 "case &partman; will stop executing operations. In that case it is a lot "
 "easier to find out what happened (and to re-add all the operations that "
-"could not be executed) if the list of pending operations was not exceedingly"
-" long."
+"could not be executed) if the list of pending operations was not exceedingly "
+"long."
 msgstr ""
 
 # automatic translation
@@ -254,9 +256,9 @@ msgstr ""
 #: faq.docbook:107
 #, no-c-format
 msgid ""
-"None of this is what &partman; has been designed to do: It is an application"
-" that deals with partitions and the file systems on these partitions. Floppy"
-" disks, CDs or DVDs do not need or use partitions."
+"None of this is what &partman; has been designed to do: It is an application "
+"that deals with partitions and the file systems on these partitions. Floppy "
+"disks, CDs or DVDs do not need or use partitions."
 msgstr ""
 
 # automatic translation
@@ -274,8 +276,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&partman; currently only allows read-only access to any other partition "
-"table type than MS-DOS. This is for safety reasons: Support in &partman; for"
-" this partition table types is not really there and what is there (or just "
+"table type than MS-DOS. This is for safety reasons: Support in &partman; for "
+"this partition table types is not really there and what is there (or just "
 "incidentally works) has not been tested enough to use it with confidence."
 msgstr ""
 
@@ -284,8 +286,8 @@ msgstr ""
 #: faq.docbook:120
 #, no-c-format
 msgid ""
-"Of course you can still create a new MS-DOS partition table on the device in"
-" question, but that is probably not what you want."
+"Of course you can still create a new MS-DOS partition table on the device in "
+"question, but that is probably not what you want."
 msgstr ""
 
 # automatic translation
@@ -313,8 +315,8 @@ msgstr ""
 #: faq.docbook:137
 #, no-c-format
 msgid ""
-"During startup, &partman; prints some message about probing devices and that"
-" it might even crash or at least take a long time."
+"During startup, &partman; prints some message about probing devices and that "
+"it might even crash or at least take a long time."
 msgstr ""
 
 # automatic translation
@@ -322,11 +324,11 @@ msgstr ""
 #: faq.docbook:140
 #, no-c-format
 msgid ""
-"LibParted, a backend library &partman; uses, has problems with systems where"
-" the Linux Device Mapper is used in a way it doesn't understand. "
+"LibParted, a backend library &partman; uses, has problems with systems where "
+"the Linux Device Mapper is used in a way it doesn't understand. "
 "Unfortunately it reacts to some of these situations with segmentation "
-"faults, i.e. crashes. &partman; therefore tries to avoid these situations by"
-" using an alternative way to scan your computer for disks. If it cannot do "
+"faults, i.e. crashes. &partman; therefore tries to avoid these situations by "
+"using an alternative way to scan your computer for disks. If it cannot do "
 "that, however, and therefore has to rely on LibParted, it will print a "
 "message like the one mentioned. If the scanning for disks works, you can "
 "safely disregard the message."

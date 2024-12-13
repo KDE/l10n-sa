@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-20 00:33+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -27,23 +29,22 @@ msgstr ""
 #, no-c-format
 msgid ""
 "With ActionMan you can set up, configure and manage UserActions. Some "
-"general settings are configured with <link linkend=\"konfig-"
-"useractions\">Konfigurator</link>. With UserActions you can perform actions "
-"on files in the panel or to access &krusader; internal functions with "
-"parameters directly using placeholders. The actions integrate seamlessly "
-"into &plasma; action system, which means that the standard Edit Toolbar and "
-"Edit Shortcut dialogs will show UserActions, too. The UserActions are stored"
-" in <filename> ~/.local/share/krusader/useractions.xml</filename> or "
-"<filename>krusader/useraction.xml</filename> in the folder which can be "
-"determined using the <userinput>qtpaths --paths "
-"GenericDataLocation</userinput> command. Several <link linkend=\"useraction-"
-"xml\">examples</link> are included in the documentation. UserActions can be "
-"edited / added / imported / exported by using ActionMan. The default "
-"UserActions are stored in <filename> /usr/share/krusader/useraction-"
-"examples.xml</filename>. UserActions can appear nearly everywhere where "
-"<quote>normal</quote> KActions can be placed. The actions can even be placed"
-" in the menu bar, but for that the <filename>krusaderui.rc</filename> file "
-"must be edited. A few examples:"
+"general settings are configured with <link linkend=\"konfig-useractions"
+"\">Konfigurator</link>. With UserActions you can perform actions on files in "
+"the panel or to access &krusader; internal functions with parameters "
+"directly using placeholders. The actions integrate seamlessly into &plasma; "
+"action system, which means that the standard Edit Toolbar and Edit Shortcut "
+"dialogs will show UserActions, too. The UserActions are stored in <filename> "
+"~/.local/share/krusader/useractions.xml</filename> or <filename>krusader/"
+"useraction.xml</filename> in the folder which can be determined using the "
+"<userinput>qtpaths --paths GenericDataLocation</userinput> command. Several "
+"<link linkend=\"useraction-xml\">examples</link> are included in the "
+"documentation. UserActions can be edited / added / imported / exported by "
+"using ActionMan. The default UserActions are stored in <filename> /usr/share/"
+"krusader/useraction-examples.xml</filename>. UserActions can appear nearly "
+"everywhere where <quote>normal</quote> KActions can be placed. The actions "
+"can even be placed in the menu bar, but for that the <filename>krusaderui."
+"rc</filename> file must be edited. A few examples:"
 msgstr ""
 
 # automatic translation
@@ -95,9 +96,9 @@ msgstr ""
 #: useractions.docbook:58
 #, no-c-format
 msgid ""
-"Several UserActions are provided by default. Please <link "
-"linkend=\"help_krusader\">upload your favorite UserActions</link> so that "
-"they become available for the &krusader; community. Thanks!"
+"Several UserActions are provided by default. Please <link linkend="
+"\"help_krusader\">upload your favorite UserActions</link> so that they "
+"become available for the &krusader; community. Thanks!"
 msgstr ""
 
 # automatic translation
@@ -123,8 +124,8 @@ msgid ""
 "parameters. For example, you could have a UserAction with the following "
 "<command>xmms <option>--enqueue %aList(\"Selected\")%</option></command> to "
 "enqueue all selected items of the active panel to the current instance of "
-"xmms. Additionally, there is limited access to &krusader; internal functions"
-" requiring parameters. For example, <command>%aPanelSize(\"80\")%</command> "
+"xmms. Additionally, there is limited access to &krusader; internal functions "
+"requiring parameters. For example, <command>%aPanelSize(\"80\")%</command> "
 "will set the width of the active panel to 80% of the &krusader; mainwindow. "
 "Since the parameter of placeholders can contain other placeholders, few "
 "scripts are possible."
@@ -174,9 +175,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>To remove a UserAction</guimenuitem>: Select the UserAction on "
-"the left and click the <inlinemediaobject> <imageobject> <imagedata "
-"fileref=\"Icon-edit-delete.png\" format=\"PNG\"/> </imageobject> "
-"</inlinemediaobject>button."
+"the left and click the <inlinemediaobject> <imageobject> <imagedata fileref="
+"\"Icon-edit-delete.png\" format=\"PNG\"/> </imageobject> </"
+"inlinemediaobject>button."
 msgstr ""
 
 # automatic translation
@@ -186,10 +187,10 @@ msgstr ""
 msgid ""
 "<guimenuitem>To import a UserAction</guimenuitem>: If you import some "
 "actions, they will be automatically added to your list. If there are name "
-"conflicts (the names have to be unique because these are the ID for &plasma;"
-" action system), you are asked to resolve them. For this, the list on the "
-"left will only show the actions where conflicts exist. You can now give them"
-" new names or remove them."
+"conflicts (the names have to be unique because these are the ID for &plasma; "
+"action system), you are asked to resolve them. For this, the list on the "
+"left will only show the actions where conflicts exist. You can now give them "
+"new names or remove them."
 msgstr ""
 
 # automatic translation
@@ -236,8 +237,8 @@ msgstr ""
 #: useractions.docbook:151
 #, no-c-format
 msgid ""
-"<guimenuitem>Identifier</guimenuitem>: A unique name of the UserAction, used"
-" to identify it for &plasma; action system."
+"<guimenuitem>Identifier</guimenuitem>: A unique name of the UserAction, used "
+"to identify it for &plasma; action system."
 msgstr ""
 
 # automatic translation
@@ -253,8 +254,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Category</guimenuitem>: Categories are used for a better "
-"overview. They appear as submenu items in the "
-"<guimenuitem>Useractions</guimenuitem> menu."
+"overview. They appear as submenu items in the <guimenuitem>Useractions</"
+"guimenuitem> menu."
 msgstr ""
 
 # automatic translation
@@ -280,8 +281,8 @@ msgstr ""
 #: useractions.docbook:179
 #, no-c-format
 msgid ""
-"<guimenuitem>Description</guimenuitem>: A description of what the UserAction"
-" does. This is also displayed as <guimenuitem>What's This</guimenuitem> if "
+"<guimenuitem>Description</guimenuitem>: A description of what the UserAction "
+"does. This is also displayed as <guimenuitem>What's This</guimenuitem> if "
 "you <keycombo action=\"simul\">&Shift; <keycap>F1</keycap></keycombo> click "
 "on your UserAction."
 msgstr ""
@@ -292,8 +293,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Command</guimenuitem>: The command which will be executed. You "
-"can add placeholder using a &GUI; with the <guibutton>add</guibutton> "
-"button."
+"can add placeholder using a &GUI; with the <guibutton>add</guibutton> button."
 msgstr ""
 
 # automatic translation
@@ -301,8 +301,8 @@ msgstr ""
 #: useractions.docbook:194
 #, no-c-format
 msgid ""
-"<guimenuitem>Workdir</guimenuitem>: The working folder for the command which"
-" will be executed."
+"<guimenuitem>Workdir</guimenuitem>: The working folder for the command which "
+"will be executed."
 msgstr ""
 
 # automatic translation
@@ -324,8 +324,7 @@ msgstr ""
 #: useractions.docbook:208
 #, no-c-format
 msgid ""
-"<guimenuitem>Run in terminal</guimenuitem>: Runs the command in the "
-"terminal."
+"<guimenuitem>Run in terminal</guimenuitem>: Runs the command in the terminal."
 msgstr ""
 
 # automatic translation
@@ -395,8 +394,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Enabled</guimenuitem>: if checked, the useraction is shown in "
-"the <link linkend=\"useractions\">User Menu</link>, otherwise the useraction"
-" will be hidden."
+"the <link linkend=\"useractions\">User Menu</link>, otherwise the useraction "
+"will be hidden."
 msgstr ""
 
 # automatic translation
@@ -411,16 +410,16 @@ msgstr ""
 #: useractions.docbook:269
 #, no-c-format
 msgid ""
-"Basically, everything you type in the command line will get executed (if you"
-" type <quote>ls -l</quote>, <quote>ls -l</quote> gets executed). You have "
-"the possibility to get a character string from &krusader; which represents "
-"the current state of the panel. This is done using placeholders. A "
-"placeholder begins with a percent-sign ('%') and is followed by a panel "
-"indicator ('a' for the active, 'o' for the other, 'l' for the left and 'r' "
-"for the right panel. If the placeholder does not need a panel to operate on,"
-" you have to indicate this by an underscore ('_')). Then comes the name of "
-"the placeholder (see the list below), which may get some parameters enclosed"
-" in quotes. Finally, again the percent sign."
+"Basically, everything you type in the command line will get executed (if you "
+"type <quote>ls -l</quote>, <quote>ls -l</quote> gets executed). You have the "
+"possibility to get a character string from &krusader; which represents the "
+"current state of the panel. This is done using placeholders. A placeholder "
+"begins with a percent-sign ('%') and is followed by a panel indicator ('a' "
+"for the active, 'o' for the other, 'l' for the left and 'r' for the right "
+"panel. If the placeholder does not need a panel to operate on, you have to "
+"indicate this by an underscore ('_')). Then comes the name of the "
+"placeholder (see the list below), which may get some parameters enclosed in "
+"quotes. Finally, again the percent sign."
 msgstr ""
 
 # automatic translation
@@ -428,11 +427,11 @@ msgstr ""
 #: useractions.docbook:281
 #, no-c-format
 msgid ""
-"This sounds very complicated, so let's make an example: "
-"'%aList(\"Selected\")%' is replaced by a list of all selected items in the "
-"active panel. So a command like 'xmms --enqueue %aList(\"All\", \" \", \"\","
-" \"*.mp3\")%' will execute xmms with a list of all .mp3s in the current "
-"panel, separated by a single blank."
+"This sounds very complicated, so let's make an example: '%aList(\"Selected"
+"\")%' is replaced by a list of all selected items in the active panel. So a "
+"command like 'xmms --enqueue %aList(\"All\", \" \", \"\", \"*.mp3\")%' will "
+"execute xmms with a list of all .mp3s in the current panel, separated by a "
+"single blank."
 msgstr ""
 
 # automatic translation
@@ -509,8 +508,8 @@ msgstr ""
 #: useractions.docbook:343
 #, no-c-format
 msgid ""
-"Parameter (optional): Separator between the items. Default: "
-"<quote>&nbsp;</quote>"
+"Parameter (optional): Separator between the items. Default: <quote>&nbsp;</"
+"quote>"
 msgstr ""
 
 # automatic translation

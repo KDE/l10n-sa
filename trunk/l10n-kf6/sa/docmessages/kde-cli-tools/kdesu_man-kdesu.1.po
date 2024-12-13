@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -55,20 +57,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kdesu</command> <group choice=\"opt\"><option>-c</option> "
-"<replaceable> command</replaceable></group> <group "
-"choice=\"opt\"><option>-d</option></group> <group "
-"choice=\"opt\"><option>-f</option> <replaceable> file</replaceable></group> "
-"<group choice=\"opt\"><option>-i</option> <replaceable> icon "
-"name</replaceable></group> <group choice=\"opt\"><option>-n</option></group>"
-" <group choice=\"opt\"><option>-p</option> <replaceable> "
-"priority</replaceable></group> <group "
-"choice=\"opt\"><option>-r</option></group> <group "
-"choice=\"opt\"><option>-s</option></group> <group "
-"choice=\"opt\"><option>-t</option></group> <group "
-"choice=\"opt\"><option>-u</option> <replaceable> user</replaceable></group> "
-"<group choice=\"opt\"><option>--noignorebutton</option></group> <group "
-"choice=\"opt\"><option>--attach</option> <replaceable> "
-"winid</replaceable></group>"
+"<replaceable> command</replaceable></group> <group choice=\"opt\"><option>-"
+"d</option></group> <group choice=\"opt\"><option>-f</option> <replaceable> "
+"file</replaceable></group> <group choice=\"opt\"><option>-i</option> "
+"<replaceable> icon name</replaceable></group> <group choice=\"opt\"><option>-"
+"n</option></group> <group choice=\"opt\"><option>-p</option> <replaceable> "
+"priority</replaceable></group> <group choice=\"opt\"><option>-r</option></"
+"group> <group choice=\"opt\"><option>-s</option></group> <group choice=\"opt"
+"\"><option>-t</option></group> <group choice=\"opt\"><option>-u</option> "
+"<replaceable> user</replaceable></group> <group choice=\"opt\"><option>--"
+"noignorebutton</option></group> <group choice=\"opt\"><option>--attach</"
+"option> <replaceable> winid</replaceable></group>"
 msgstr ""
 
 # automatic translation
@@ -103,9 +102,9 @@ msgstr ""
 #: man-kdesu.1.docbook:61
 #, no-c-format
 msgid ""
-"&kdesu; has one additional feature: it can optionally remember passwords for"
-" you. If you are using this feature, you only need to enter the password "
-"once for each command."
+"&kdesu; has one additional feature: it can optionally remember passwords for "
+"you. If you are using this feature, you only need to enter the password once "
+"for each command."
 msgstr ""
 
 # automatic translation
@@ -113,8 +112,8 @@ msgstr ""
 #: man-kdesu.1.docbook:65
 #, no-c-format
 msgid ""
-"This program is meant to be started from the command line or from "
-"<filename>.desktop</filename> files."
+"This program is meant to be started from the command line or from <filename>."
+"desktop</filename> files."
 msgstr ""
 
 # automatic translation
@@ -122,12 +121,11 @@ msgstr ""
 #: man-kdesu.1.docbook:68
 #, no-c-format
 msgid ""
-"Since <command>kdesu</command> is no longer installed in <userinput> "
-"$(kf5-config --prefix)</userinput>/bin but in <userinput>kf5-config --path "
+"Since <command>kdesu</command> is no longer installed in <userinput> $(kf5-"
+"config --prefix)</userinput>/bin but in <userinput>kf5-config --path "
 "libexec</userinput> and therefore not in your <envar>Path</envar>, you have "
-"to use <userinput>$(kf5-config --path "
-"libexec)<command>kdesu</command></userinput> to launch "
-"<command>kdesu</command>."
+"to use <userinput>$(kf5-config --path libexec)<command>kdesu</command></"
+"userinput> to launch <command>kdesu</command>."
 msgstr ""
 
 # automatic translation
@@ -152,8 +150,8 @@ msgid ""
 "This specifies the command to run as root. It has to be passed in one "
 "argument. So if, for example, you want to start a new file manager, you "
 "would enter at the prompt: <userinput>$(kf5-config --path "
-"libexec)<command>kdesu <option>-c <replaceable> "
-"&dolphin;</replaceable></option></command></userinput>"
+"libexec)<command>kdesu <option>-c <replaceable> &dolphin;</replaceable></"
+"option></command></userinput>"
 msgstr ""
 
 # automatic translation
@@ -183,11 +181,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This option allow efficient use of &kdesu; in <filename>.desktop</filename> "
-"files. It tells &kdesu; to examine the file specified by "
-"<parameter>file</parameter>. If this file is writable by the current user, "
-"&kdesu; will execute the command as the current user. If it is not writable,"
-" the command is executed as user <parameter>user</parameter> (defaults to "
-"root)."
+"files. It tells &kdesu; to examine the file specified by <parameter>file</"
+"parameter>. If this file is writable by the current user, &kdesu; will "
+"execute the command as the current user. If it is not writable, the command "
+"is executed as user <parameter>user</parameter> (defaults to root)."
 msgstr ""
 
 # automatic translation
@@ -195,10 +192,10 @@ msgstr ""
 #: man-kdesu.1.docbook:97
 #, no-c-format
 msgid ""
-"<parameter>file</parameter> is evaluated like this: if "
-"<parameter>file</parameter> starts with a <literal>/</literal>, it is taken "
-"as an absolute filename. Otherwise, it is taken as the name of a global "
-"&kde; configuration file."
+"<parameter>file</parameter> is evaluated like this: if <parameter>file</"
+"parameter> starts with a <literal>/</literal>, it is taken as an absolute "
+"filename. Otherwise, it is taken as the name of a global &kde; configuration "
+"file."
 msgstr ""
 
 # automatic translation
@@ -229,8 +226,8 @@ msgstr ""
 #: man-kdesu.1.docbook:111
 #, no-c-format
 msgid ""
-"Do not keep the password. This disables the <guilabel>keep "
-"password</guilabel> checkbox in the password dialog."
+"Do not keep the password. This disables the <guilabel>keep password</"
+"guilabel> checkbox in the password dialog."
 msgstr ""
 
 # automatic translation
@@ -276,8 +273,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Stop the kdesu daemon. This is the daemon that caches successful passwords "
-"in the background. This feature may also be disabled with "
-"<option>-n</option> when &kdesu; is initially run."
+"in the background. This feature may also be disabled with <option>-n</"
+"option> when &kdesu; is initially run."
 msgstr ""
 
 # automatic translation
@@ -360,10 +357,10 @@ msgstr ""
 #: man-kdesu.1.docbook:168
 #, no-c-format
 msgid ""
-"More detailed user documentation is available from <ulink "
-"url=\"help:/kdesu\">help:/kdesu</ulink> (either enter this &URL; into "
-"&konqueror;, or run <userinput><command>khelpcenter</command> "
-"<parameter>help:/kdesu</parameter></userinput>)."
+"More detailed user documentation is available from <ulink url=\"help:/kdesu"
+"\">help:/kdesu</ulink> (either enter this &URL; into &konqueror;, or run "
+"<userinput><command>khelpcenter</command> <parameter>help:/kdesu</"
+"parameter></userinput>)."
 msgstr ""
 
 # automatic translation
@@ -378,9 +375,8 @@ msgstr ""
 #: man-kdesu.1.docbook:178
 #, no-c-format
 msgid ""
-"Run <command>kfmclient</command> as user <systemitem "
-"class=\"username\">jim</systemitem>, and show the &konqueror; icon in the "
-"password dialog:"
+"Run <command>kfmclient</command> as user <systemitem class=\"username\">jim</"
+"systemitem>, and show the &konqueror; icon in the password dialog:"
 msgstr ""
 
 # automatic translation
@@ -389,8 +385,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>$(kf5-config --path libexec)<command>kdesu</command> <option>-u "
-"jim</option> <option>-i konqueror</option> "
-"<command>kfmclient</command></userinput>"
+"jim</option> <option>-i konqueror</option> <command>kfmclient</command></"
+"userinput>"
 msgstr ""
 
 # automatic translation
@@ -406,6 +402,6 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kdesu; was written by &Geert.Jansen; &Geert.Jansen.mail; and "
-"<personname><firstname>Pietro</firstname><surname>Iglio</surname></personname>"
-" <email>iglio@fub.it</email>."
+"<personname><firstname>Pietro</firstname><surname>Iglio</surname></"
+"personname> <email>iglio@fub.it</email>."
 msgstr ""

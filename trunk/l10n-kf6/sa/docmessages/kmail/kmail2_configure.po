@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-18 01:08+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: author
@@ -153,9 +155,9 @@ msgstr ""
 msgid ""
 "&kmail;'s configuration window lets you configure &kmail;. You can reach it "
 "via <menuchoice><guimenu>Settings</guimenu><guimenuitem><inlinemediaobject> "
-"<imageobject><imagedata fileref=\"configurebutton.png\" format=\"PNG\"/> "
-"</imageobject></inlinemediaobject> Configure "
-"&kmail;...</guimenuitem></menuchoice>"
+"<imageobject><imagedata fileref=\"configurebutton.png\" format=\"PNG\"/> </"
+"imageobject></inlinemediaobject> Configure &kmail;...</guimenuitem></"
+"menuchoice>"
 msgstr ""
 
 # automatic translation
@@ -207,8 +209,8 @@ msgstr ""
 #: configure.docbook:83
 #, no-c-format
 msgid ""
-"This will reset the configuration options on the current page to the default"
-" values."
+"This will reset the configuration options on the current page to the default "
+"values."
 msgstr ""
 
 # automatic translation
@@ -279,13 +281,13 @@ msgstr ""
 msgid ""
 "The <guilabel>Accounts</guilabel> page is automatically presented when "
 "<menuchoice><guimenu>Settings</guimenu><guimenuitem><inlinemediaobject> "
-"<imageobject><imagedata fileref=\"configurebutton.png\" format=\"PNG\"/> "
-"</imageobject></inlinemediaobject> Configure "
-"&kmail;...</guimenuitem></menuchoice> is selected. There are four tabs: "
-"<guilabel>Identities</guilabel>, <guilabel>Receiving</guilabel>, "
-"<guilabel>Sending</guilabel>, and <guilabel>LDAP server</guilabel>. (The "
-"<guilabel>Identities</guilabel> tab is illustrated in the <link "
-"linkend=\"configure-generalinfo\">Configure &kmail;</link> section above.)"
+"<imageobject><imagedata fileref=\"configurebutton.png\" format=\"PNG\"/> </"
+"imageobject></inlinemediaobject> Configure &kmail;...</guimenuitem></"
+"menuchoice> is selected. There are four tabs: <guilabel>Identities</"
+"guilabel>, <guilabel>Receiving</guilabel>, <guilabel>Sending</guilabel>, and "
+"<guilabel>LDAP server</guilabel>. (The <guilabel>Identities</guilabel> tab "
+"is illustrated in the <link linkend=\"configure-generalinfo\">Configure "
+"&kmail;</link> section above.)"
 msgstr ""
 
 # automatic translation
@@ -300,8 +302,8 @@ msgstr ""
 #: configure.docbook:130
 #, no-c-format
 msgid ""
-"You can find a quick introduction to the <guilabel>Identities</guilabel> tab"
-" in the <link linkend=\"getting-started\">Getting Started</link> section."
+"You can find a quick introduction to the <guilabel>Identities</guilabel> tab "
+"in the <link linkend=\"getting-started\">Getting Started</link> section."
 msgstr ""
 
 # automatic translation
@@ -310,9 +312,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This page allows you to create one or more <emphasis>Identities</emphasis>, "
-"&ie;, combinations of a name, an email address, and some other settings. For"
-" example, you can create one identity for business communication and another"
-" for personal use. If you have more than one email address, you can create "
+"&ie;, combinations of a name, an email address, and some other settings. For "
+"example, you can create one identity for business communication and another "
+"for personal use. If you have more than one email address, you can create "
 "one identity for each address. You will then be able to select a suitable "
 "identity whenever you compose a new message."
 msgstr ""
@@ -470,9 +472,9 @@ msgstr ""
 #: configure.docbook:228
 #, no-c-format
 msgid ""
-"Enter your full name here (sometimes also called <emphasis>display "
-"name</emphasis>). Although this field is not mandatory, you should enter "
-"your name here."
+"Enter your full name here (sometimes also called <emphasis>display name</"
+"emphasis>). Although this field is not mandatory, you should enter your name "
+"here."
 msgstr ""
 
 # automatic translation
@@ -501,8 +503,8 @@ msgstr ""
 #: configure.docbook:241
 #, no-c-format
 msgid ""
-"Enter your email address here, &ie;, something like "
-"<userinput>joe@example.com</userinput>."
+"Enter your email address here, &ie;, something like <userinput>joe@example."
+"com</userinput>."
 msgstr ""
 
 # automatic translation
@@ -517,11 +519,10 @@ msgstr ""
 #: configure.docbook:245
 #, no-c-format
 msgid ""
-"So if your address is <replaceable>Joe User "
-"&lt;joe@example.com&gt;</replaceable>, you should enter <userinput>Joe "
-"User</userinput> into the <guilabel>Your name</guilabel> field and "
-"<userinput>joe@example.com</userinput> into the <guilabel>Email "
-"address</guilabel> field."
+"So if your address is <replaceable>Joe User &lt;joe@example.com&gt;</"
+"replaceable>, you should enter <userinput>Joe User</userinput> into the "
+"<guilabel>Your name</guilabel> field and <userinput>joe@example.com</"
+"userinput> into the <guilabel>Email address</guilabel> field."
 msgstr ""
 
 # automatic translation
@@ -538,9 +539,9 @@ msgstr ""
 msgid ""
 "This field contains alias addresses that also belong to this identity (as "
 "opposed to representing a different identity). You may define multiple "
-"aliases. To add another alias. enter an email address in the <guilabel>Email"
-" aliases:</guilabel> field, then click the <guibutton>&plus; Add</guibutton>"
-" button"
+"aliases. To add another alias. enter an email address in the <guilabel>Email "
+"aliases:</guilabel> field, then click the <guibutton>&plus; Add</guibutton> "
+"button"
 msgstr ""
 
 # automatic translation
@@ -616,10 +617,10 @@ msgstr ""
 msgid ""
 "Here you may select an &openpgp; key for signing messages written with this "
 "identity in effect. For brevity, only the short key id of selected keys is "
-"shown. Hovering over the item will display more information in a tooltip. To"
-" select an existing key, use the drop down list. If you wish to create a new"
-" public / private key pair, select <guilabel>Generate a new key "
-"pair</guilabel>."
+"shown. Hovering over the item will display more information in a tooltip. To "
+"select an existing key, use the drop down list. If you wish to create a new "
+"public / private key pair, select <guilabel>Generate a new key pair</"
+"guilabel>."
 msgstr ""
 
 # automatic translation
@@ -635,9 +636,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Here you may select an &openpgp; key for encrypting messages when this "
-"identity and <xref linkend=\"configure-security-composing-encrypt-to-"
-"self\"/> are in effect. This key is also used for the <xref "
-"linkend=\"composer-attach-attach-my-public-key\"/> function."
+"identity and <xref linkend=\"configure-security-composing-encrypt-to-self\"/"
+"> are in effect. This key is also used for the <xref linkend=\"composer-"
+"attach-attach-my-public-key\"/> function."
 msgstr ""
 
 # automatic translation
@@ -671,8 +672,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Here you may select an x.509 certificate for encrypting messages when this "
-"identity and <xref linkend=\"configure-security-composing-encrypt-to-"
-"self\"/> are in effect."
+"identity and <xref linkend=\"configure-security-composing-encrypt-to-self\"/"
+"> are in effect."
 msgstr ""
 
 # automatic translation
@@ -692,8 +693,8 @@ msgid ""
 "&kmail;, or leave the option at the recommended default setting of "
 "<guilabel>Any</guilabel>; this will choose the right format for each "
 "recipient you specify, and may create multiple copies of the message, some "
-"signed and/or encrypted with an x.509 certificate, and the others signed "
-"and/or encrypted with an &openpgp; key."
+"signed and/or encrypted with an x.509 certificate, and the others signed and/"
+"or encrypted with an &openpgp; key."
 msgstr ""
 
 # automatic translation
@@ -708,8 +709,8 @@ msgstr ""
 #: configure.docbook:334
 #, no-c-format
 msgid ""
-"Checking this box causes &kmail; to affix your digital signature to messages"
-" composed by this identity unless this option is manually overridden in the "
+"Checking this box causes &kmail; to affix your digital signature to messages "
+"composed by this identity unless this option is manually overridden in the "
 "<guilabel>Composer</guilabel> window."
 msgstr ""
 
@@ -779,12 +780,11 @@ msgstr ""
 #: configure.docbook:372
 #, no-c-format
 msgid ""
-"Enter the address to which replies to your messages should be sent. You need"
-" this field only if it is different from your normal address (specified "
-"using the <guilabel>Name</guilabel> and <guilabel>Email Address</guilabel> "
-"fields on the <link linkend=\"configure-identity-"
-"general\"><guilabel>General</guilabel> tab</link>), since replies default to"
-" the sender's address anyway."
+"Enter the address to which replies to your messages should be sent. You need "
+"this field only if it is different from your normal address (specified using "
+"the <guilabel>Name</guilabel> and <guilabel>Email Address</guilabel> fields "
+"on the <link linkend=\"configure-identity-general\"><guilabel>General</"
+"guilabel> tab</link>), since replies default to the sender's address anyway."
 msgstr ""
 
 # automatic translation
@@ -819,9 +819,9 @@ msgstr ""
 #: configure.docbook:392
 #, no-c-format
 msgid ""
-"Optionally enter one or more addresses, separated by commas, to which carbon"
-" copies of your messages should be sent. When you compose a message with "
-"this identity, the <guilabel>CC</guilabel> field will be filled with these "
+"Optionally enter one or more addresses, separated by commas, to which carbon "
+"copies of your messages should be sent. When you compose a message with this "
+"identity, the <guilabel>CC</guilabel> field will be filled with these "
 "addresses."
 msgstr ""
 
@@ -838,12 +838,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Optionally enter addresses, separated by commas, to which blind copies of "
-"your messages should be sent. When you compose a message with this identity,"
-" the <guilabel>BCC</guilabel> field will be filled with these addresses. If "
+"your messages should be sent. When you compose a message with this identity, "
+"the <guilabel>BCC</guilabel> field will be filled with these addresses. If "
 "you want to send a BCC to the same address for every identity you define, "
-"see the <link linkend=\"configure-composer-"
-"headers\"><guilabel>Headers</guilabel> tab of the "
-"<guilabel>Composer</guilabel> subset</link> (create a custom BCC header)."
+"see the <link linkend=\"configure-composer-headers\"><guilabel>Headers</"
+"guilabel> tab of the <guilabel>Composer</guilabel> subset</link> (create a "
+"custom BCC header)."
 msgstr ""
 
 # automatic translation
@@ -875,8 +875,7 @@ msgid ""
 "Select the folder in which messages should be saved after sending them from "
 "this identity. &IMAP; users should consider changing this to an &IMAP; "
 "folder, so their sent-mail is stored on a server instead of being stored in "
-"a local folder. Then they can access sent messages from a different "
-"location."
+"a local folder. Then they can access sent messages from a different location."
 msgstr ""
 
 # automatic translation
@@ -973,10 +972,10 @@ msgstr ""
 #: configure.docbook:472
 #, no-c-format
 msgid ""
-"This option opens a dialog just like the <ulink "
-"url=\"help:/kaddressbook/editing-contact-data.html\">&kaddressbook; Adding "
-"Contact Data</ulink> dialog. Enter your name, email address, &etc;, then "
-"click <guilabel>OK</guilabel> to create a new vCard."
+"This option opens a dialog just like the <ulink url=\"help:/kaddressbook/"
+"editing-contact-data.html\">&kaddressbook; Adding Contact Data</ulink> "
+"dialog. Enter your name, email address, &etc;, then click <guilabel>OK</"
+"guilabel> to create a new vCard."
 msgstr ""
 
 # automatic translation
@@ -1042,8 +1041,8 @@ msgstr ""
 msgid ""
 "This field is filled with the value from the <filename>hostnames</filename> "
 "file (in /etc) by default. The <guilabel>Composer</guilabel> will append "
-"this domain name to any purely local email address you specify. This feature"
-" is primarily useful in a &Sendmail; environment."
+"this domain name to any purely local email address you specify. This feature "
+"is primarily useful in a &Sendmail; environment."
 msgstr ""
 
 # automatic translation
@@ -1058,8 +1057,8 @@ msgstr ""
 #: configure.docbook:510
 #, no-c-format
 msgid ""
-"Default domain set to <userinput>kde.org</userinput>; \"To:\" address set to"
-" <userinput>foo</userinput>."
+"Default domain set to <userinput>kde.org</userinput>; \"To:\" address set to "
+"<userinput>foo</userinput>."
 msgstr ""
 
 # automatic translation
@@ -1106,9 +1105,9 @@ msgid ""
 "when composing new messages, replying to someone, or forwarding messages "
 "inline. The message templates support substitution commands. You may simply "
 "type them in, or select them from the <guimenu>Insert Command "
-"<inlinemediaobject> <imageobject><imagedata fileref=\"go-down.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject></guimenu> menu. Three "
-"kinds of commands are provided."
+"<inlinemediaobject> <imageobject><imagedata fileref=\"go-down.png\" format="
+"\"PNG\"/></imageobject></inlinemediaobject></guimenu> menu. Three kinds of "
+"commands are provided."
 msgstr ""
 
 # automatic translation
@@ -1116,8 +1115,8 @@ msgstr ""
 #: configure.docbook:544
 #, no-c-format
 msgid ""
-"<guilabel>Original Message &gt;</guilabel> / <guilabel>Current Message "
-"&gt;</guilabel>"
+"<guilabel>Original Message &gt;</guilabel> / <guilabel>Current Message &gt;</"
+"guilabel>"
 msgstr ""
 
 # automatic translation
@@ -1171,8 +1170,8 @@ msgid ""
 "default quotation indicator character \"&gt;\". The <guibutton>Copy Global "
 "Templates</guibutton> button will reset all the custom templates defined "
 "here to &kmail;'s defaults. (You can achieve the same end result by "
-"unselecting the <guilabel>Use custom message templates for this "
-"identity</guilabel> check box at the top left of this dialog box.)"
+"unselecting the <guilabel>Use custom message templates for this identity</"
+"guilabel> check box at the top left of this dialog box.)"
 msgstr ""
 
 # automatic translation
@@ -1218,9 +1217,9 @@ msgstr ""
 #: configure.docbook:590
 #, no-c-format
 msgid ""
-"This tab allows you to specify a signature (sometimes called "
-"<quote>footer</quote> or <quote>disclaimer</quote>) to be appended to each "
-"message sent from this identity."
+"This tab allows you to specify a signature (sometimes called <quote>footer</"
+"quote> or <quote>disclaimer</quote>) to be appended to each message sent "
+"from this identity."
 msgstr ""
 
 # automatic translation
@@ -1229,11 +1228,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This type of signature has nothing to do with the (digital) signatures "
-"discussed in the <link linkend=\"configure-identity-"
-"cryptography\">Cryptography</link> section. It is a bit confusing to call "
-"this a signature, but since the term is already used everywhere else, we "
-"keep this nomenclature. Just remember that these \"signatures\" and digital "
-"signatures are two completely different things."
+"discussed in the <link linkend=\"configure-identity-cryptography"
+"\">Cryptography</link> section. It is a bit confusing to call this a "
+"signature, but since the term is already used everywhere else, we keep this "
+"nomenclature. Just remember that these \"signatures\" and digital signatures "
+"are two completely different things."
 msgstr ""
 
 # automatic translation
@@ -1242,10 +1241,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Check the <guilabel>Enable signature</guilabel> option if you want &kmail; "
-"to append a signature when using this identity. To "
-"<emphasis>automatically</emphasis> append it to every new message you must "
-"also select <guilabel>Automatically insert signature</guilabel> option on "
-"the <guilabel>Composer</guilabel> configuration page."
+"to append a signature when using this identity. To <emphasis>automatically</"
+"emphasis> append it to every new message you must also select "
+"<guilabel>Automatically insert signature</guilabel> option on the "
+"<guilabel>Composer</guilabel> configuration page."
 msgstr ""
 
 # automatic translation
@@ -1255,9 +1254,8 @@ msgstr ""
 msgid ""
 "&kmail; can obtain the signature text from various sources. The default is "
 "<guilabel>Input Field Below</guilabel>. Just enter your signature in the "
-"textbox. If you want to use rich text, select the <guilabel>Use "
-"&HTML;</guilabel> checkbox at the lower left. A formatting toolbar will then"
-" appear."
+"textbox. If you want to use rich text, select the <guilabel>Use &HTML;</"
+"guilabel> checkbox at the lower left. A formatting toolbar will then appear."
 msgstr ""
 
 # automatic translation
@@ -1266,11 +1264,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The traditional procedure in Unix is to read the text from a file called "
-"<filename>.signature</filename> in your home folder. This file may be shared"
-" among several programs, so the same signature appears in every email "
-"program you use. To do this, select <guilabel>File</guilabel> from the "
-"<guilabel>Obtain Signature text from:</guilabel> drop down menu. If you want"
-" to edit the file, click the <guilabel>Edit File</guilabel> button."
+"<filename>.signature</filename> in your home folder. This file may be shared "
+"among several programs, so the same signature appears in every email program "
+"you use. To do this, select <guilabel>File</guilabel> from the "
+"<guilabel>Obtain Signature text from:</guilabel> drop down menu. If you want "
+"to edit the file, click the <guilabel>Edit File</guilabel> button."
 msgstr ""
 
 # automatic translation
@@ -1292,12 +1290,12 @@ msgstr ""
 #: configure.docbook:623
 #, no-c-format
 msgid ""
-"On the Internet, signatures are by convention separated from the body of the"
-" message by a line containing only the three characters <quote>-- </quote> "
-"(dash, dash, space). If the <guilabel>Prepend separator to "
-"signature</guilabel> option has been set in the "
-"<guilabel>Composer</guilabel> configuration, &kmail; will automatically "
-"prepend this line to the signature text (unless it is already present)."
+"On the Internet, signatures are by convention separated from the body of the "
+"message by a line containing only the three characters <quote>-- </quote> "
+"(dash, dash, space). If the <guilabel>Prepend separator to signature</"
+"guilabel> option has been set in the <guilabel>Composer</guilabel> "
+"configuration, &kmail; will automatically prepend this line to the signature "
+"text (unless it is already present)."
 msgstr ""
 
 # automatic translation
@@ -1334,8 +1332,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kmail; can send a small (48x48 pixels), low-quality, monochrome picture "
-"with every message. For example, this could be a picture of you, or a glyph."
-" It is shown in the recipient's mail client (if supported)."
+"with every message. For example, this could be a picture of you, or a glyph. "
+"It is shown in the recipient's mail client (if supported)."
 msgstr ""
 
 # automatic translation
@@ -1374,9 +1372,9 @@ msgstr ""
 #: configure.docbook:672
 #, no-c-format
 msgid ""
-"<guilabel>External Source <inlinemediaobject><imageobject><imagedata "
-"fileref=\"go-down.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject></guilabel> (the default)"
+"<guilabel>External Source <inlinemediaobject><imageobject><imagedata fileref="
+"\"go-down.png\" format=\"PNG\"/></imageobject></inlinemediaobject></"
+"guilabel> (the default)"
 msgstr ""
 
 # automatic translation
@@ -1425,8 +1423,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Use this option to enter an arbitrary X-Face string. Examples are available "
-"at <ulink "
-"url=\"https://ace.home.xs4all.nl/X-Faces/\">https://ace.home.xs4all.nl/X-Faces/</ulink>"
+"at <ulink url=\"https://ace.home.xs4all.nl/X-Faces/\">https://ace.home."
+"xs4all.nl/X-Faces/</ulink>"
 msgstr ""
 
 # automatic translation
@@ -1442,8 +1440,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can find a quick introduction to both sending and receiving accounts in "
-"the <link linkend=\"setting-up-your-account\">Setting up your Account</link>"
-" section."
+"the <link linkend=\"setting-up-your-account\">Setting up your Account</link> "
+"section."
 msgstr ""
 
 # automatic translation
@@ -1456,11 +1454,10 @@ msgid ""
 "information, and other settings. Typically, you will create one outgoing "
 "(used for sending messages) and one incoming (used to retrieve messages) "
 "account. You may create as many accounts as you want, though, and assign "
-"each one to a different <link linkend=\"configure-"
-"identity\">identity</link>. Or you may set up just one identity, and decide "
-"which account to use each time you compose a message. This page also lets "
-"you set up one or more <acronym>LDAP</acronym> (Lightweight Directory Access"
-" Protocol) servers."
+"each one to a different <link linkend=\"configure-identity\">identity</"
+"link>. Or you may set up just one identity, and decide which account to use "
+"each time you compose a message. This page also lets you set up one or more "
+"<acronym>LDAP</acronym> (Lightweight Directory Access Protocol) servers."
 msgstr ""
 
 # automatic translation
@@ -1506,11 +1503,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The column of buttons on the right let you <guibutton>Add...</guibutton> a "
-"new account, and <guibutton>Modify</guibutton> or "
-"<guilabel>Remove</guilabel> an existing account. You ought not modify or "
-"remove the <guilabel>Local Folders</guilabel> entry, which is present by "
-"default. The <guilabel>Restart</guilabel> button will simulate a program "
-"restart."
+"new account, and <guibutton>Modify</guibutton> or <guilabel>Remove</"
+"guilabel> an existing account. You ought not modify or remove the "
+"<guilabel>Local Folders</guilabel> entry, which is present by default. The "
+"<guilabel>Restart</guilabel> button will simulate a program restart."
 msgstr ""
 
 # automatic translation
@@ -1518,10 +1514,10 @@ msgstr ""
 #: configure.docbook:756
 #, no-c-format
 msgid ""
-"The <guibutton>Customize Accounts Order...</guibutton> button opens a dialog"
-" that lets you move any IMAP accounts you have created, and the group of "
-"accounts associated with <guilabel>Local Folders</guilabel>, higher or lower"
-" in the list."
+"The <guibutton>Customize Accounts Order...</guibutton> button opens a dialog "
+"that lets you move any IMAP accounts you have created, and the group of "
+"accounts associated with <guilabel>Local Folders</guilabel>, higher or lower "
+"in the list."
 msgstr ""
 
 # automatic translation
@@ -1532,8 +1528,7 @@ msgid ""
 "The <guilabel>Retrieval Options</guilabel> popup menu for each account lets "
 "you specify whether &kmail; should check for new mail immediately after it "
 "has been started. You may also select <guilabel>Include in Manual Mail "
-"Check</guilabel> and <guilabel>Switch offline on &kmail; "
-"Shutdown</guilabel>."
+"Check</guilabel> and <guilabel>Switch offline on &kmail; Shutdown</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -1599,18 +1594,17 @@ msgstr ""
 #: configure.docbook:797
 #, no-c-format
 msgid ""
-"When you click <guibutton>Add...</guibutton> or "
-"<guibutton>Modify...</guibutton> the <guilabel>Create Outgoing "
-"Account</guilabel> or <guilabel>Configure account</guilabel> dialogs will "
-"open respectively. For sending via &Sendmail; or similar programs you may "
-"specify a name and the location of the &Sendmail; program. For &SMTP; you "
-"must specify the <guilabel>Name</guilabel>, <guilabel>Outgoing mail "
-"server</guilabel>, and <guilabel>Port</guilabel> of the server. "
-"<guilabel>Server requires authentication</guilabel> will enable the "
-"<guilabel>Login</guilabel> and <guilabel>Password</guilabel> fields. If you "
-"are not sure about the security settings, you should make &kmail; test for "
-"the best settings by using <guibutton>Auto Detect</guibutton> on the "
-"<guilabel>Advanced</guilabel> tab."
+"When you click <guibutton>Add...</guibutton> or <guibutton>Modify...</"
+"guibutton> the <guilabel>Create Outgoing Account</guilabel> or "
+"<guilabel>Configure account</guilabel> dialogs will open respectively. For "
+"sending via &Sendmail; or similar programs you may specify a name and the "
+"location of the &Sendmail; program. For &SMTP; you must specify the "
+"<guilabel>Name</guilabel>, <guilabel>Outgoing mail server</guilabel>, and "
+"<guilabel>Port</guilabel> of the server. <guilabel>Server requires "
+"authentication</guilabel> will enable the <guilabel>Login</guilabel> and "
+"<guilabel>Password</guilabel> fields. If you are not sure about the security "
+"settings, you should make &kmail; test for the best settings by using "
+"<guibutton>Auto Detect</guibutton> on the <guilabel>Advanced</guilabel> tab."
 msgstr ""
 
 # automatic translation
@@ -1646,9 +1640,8 @@ msgstr ""
 #: configure.docbook:826
 #, no-c-format
 msgid ""
-"Queued messages will only be sent if you select "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Send queued "
-"messages</guimenuitem></menuchoice>."
+"Queued messages will only be sent if you select <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Send queued messages</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -1664,10 +1657,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Queued messages will be sent after you have manually checked for new mail, "
-"&eg; with <menuchoice><guimenu>File</guimenu><guimenuitem>Check "
-"Mail</guimenuitem></menuchoice>. Of course, you may also send the queued "
-"messages manually via <menuchoice><guimenu>File</guimenu><guimenuitem>Send "
-"queued messages</guimenuitem></menuchoice>."
+"&eg; with <menuchoice><guimenu>File</guimenu><guimenuitem>Check Mail</"
+"guimenuitem></menuchoice>. Of course, you may also send the queued messages "
+"manually via <menuchoice><guimenu>File</guimenu><guimenuitem>Send queued "
+"messages</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -1683,10 +1676,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Queued messages will be sent after every check for new mail, &ie;, after "
-"automatic mail checks, and also after manual mail checks. Of course, you may"
-" also send the queued messages manually via "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Send queued "
-"messages</guimenuitem></menuchoice>."
+"automatic mail checks, and also after manual mail checks. Of course, you may "
+"also send the queued messages manually via <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Send queued messages</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -1695,13 +1687,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Default send method:</guilabel> lets you define what happens when "
-"a message is sent. If <guilabel>Send now</guilabel> is selected, the message"
-" is sent to the mail server immediately. If <guilabel>Send later</guilabel> "
+"a message is sent. If <guilabel>Send now</guilabel> is selected, the message "
+"is sent to the mail server immediately. If <guilabel>Send later</guilabel> "
 "is selected, the message is queued in the outbox to be sent later with the "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Send Queued "
-"Messages</guimenuitem></menuchoice> command, or automatically when you check"
-" your mail, depending on the setting chosen for <guilabel>Send messages in "
-"outbox folder</guilabel>, above."
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Send Queued Messages</"
+"guimenuitem></menuchoice> command, or automatically when you check your "
+"mail, depending on the setting chosen for <guilabel>Send messages in outbox "
+"folder</guilabel>, above."
 msgstr ""
 
 # automatic translation
@@ -1711,9 +1703,9 @@ msgstr ""
 msgid ""
 "The <guilabel>Enable Undo Send:</guilabel> checkbox lets you specify an "
 "interval of time (from 10 to 50 seconds) during which you may abort mail "
-"transport. Your message will be queued, and a small <guibutton>Undo "
-"Send</guibutton> button will appear in the notification area. Click the "
-"button (in time) to stop the message from being sent."
+"transport. Your message will be queued, and a small <guibutton>Undo Send</"
+"guibutton> button will appear in the notification area. Click the button (in "
+"time) to stop the message from being sent."
 msgstr ""
 
 # automatic translation
@@ -1750,8 +1742,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Use this dialog to configure any LDAP servers you wish to access. Please "
-"consult the <ulink url=\"help:/kaddressbook/configure-ldap-"
-"server.html\">&kaddressbook; Appendix</ulink> for more details."
+"consult the <ulink url=\"help:/kaddressbook/configure-ldap-server.html"
+"\">&kaddressbook; Appendix</ulink> for more details."
 msgstr ""
 
 # automatic translation
@@ -1766,8 +1758,8 @@ msgstr ""
 #: configure.docbook:893
 #, no-c-format
 msgid ""
-"The Appearance page lets you adjust many aspects of &kmail;'s graphical user"
-" interface, including color schemes, font selection, and even the physical "
+"The Appearance page lets you adjust many aspects of &kmail;'s graphical user "
+"interface, including color schemes, font selection, and even the physical "
 "arrangement of the message list in the main window."
 msgstr ""
 
@@ -1797,13 +1789,13 @@ msgstr ""
 #: configure.docbook:916
 #, no-c-format
 msgid ""
-"If the <guilabel>Close message window after replying or "
-"forwarding</guilabel> option is activated, &kmail; will close the separate "
-"message window when a composer window (for a reply, or to forward the "
-"message) is opened. <guilabel>Enable access key</guilabel> is selected by "
-"default. Access keys allow you to use the keyboard for functions normally "
-"done with the mouse, such as following links. For more information see "
-"<ulink url=\"help:/konqueror/accesskeys.html\">Access keys</ulink>."
+"If the <guilabel>Close message window after replying or forwarding</"
+"guilabel> option is activated, &kmail; will close the separate message "
+"window when a composer window (for a reply, or to forward the message) is "
+"opened. <guilabel>Enable access key</guilabel> is selected by default. "
+"Access keys allow you to use the keyboard for functions normally done with "
+"the mouse, such as following links. For more information see <ulink url="
+"\"help:/konqueror/accesskeys.html\">Access keys</ulink>."
 msgstr ""
 
 # automatic translation
@@ -1813,10 +1805,10 @@ msgstr ""
 msgid ""
 "Enable <guilabel>Reduce font size for quoted text</guilabel> to show quoted "
 "text (in a reply) with a smaller type face. <guilabel>Show expand/collapse "
-"quote marks</guilabel> displays little widgets along with each bit of quoted"
-" text. These allow you to show (+) or hide (-) nested quotes beyond a "
-"certain level. This is useful in protracted email conversations where nobody"
-" deletes what has gone before."
+"quote marks</guilabel> displays little widgets along with each bit of quoted "
+"text. These allow you to show (+) or hide (-) nested quotes beyond a certain "
+"level. This is useful in protracted email conversations where nobody deletes "
+"what has gone before."
 msgstr ""
 
 # automatic translation
@@ -1825,8 +1817,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Changing <guilabel>Override character encoding:</guilabel> from its default "
-"value <guilabel>Auto</guilabel> will force the use of the specified encoding"
-" for all messages, no matter what the &MIME; headers say. <guilabel>Minimum "
+"value <guilabel>Auto</guilabel> will force the use of the specified encoding "
+"for all messages, no matter what the &MIME; headers say. <guilabel>Minimum "
 "font size:</guilabel> lets you control the smallest font &kmail; will use. "
 "Set this higher if you have trouble reading really small fonts."
 msgstr ""
@@ -1837,11 +1829,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>System Tray</guilabel> provides three ways to control &kmail;'s "
-"interaction with the &kde; task bar / panel. If <guilabel>Enable system tray"
-" icon</guilabel> is selected, a small icon "
-"(<inlinemediaobject><imageobject><imagedata fileref=\"mail-mark-unread.png\""
-" format=\"PNG\"/></imageobject></inlinemediaobject>) will be displayed in "
-"the system tray area. If <guilabel>Start minimized to tray</guilabel> is "
+"interaction with the &kde; task bar / panel. If <guilabel>Enable system tray "
+"icon</guilabel> is selected, a small icon "
+"(<inlinemediaobject><imageobject><imagedata fileref=\"mail-mark-unread.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject>) will be displayed in the "
+"system tray area. If <guilabel>Start minimized to tray</guilabel> is "
 "activated, only this icon will appear when &kmail; is launched. Selecting "
 "<guilabel>Show unread email in taskbar</guilabel> causes the number of "
 "currently unread messages to appear on &kmail;'s taskbar button."
@@ -1890,14 +1882,13 @@ msgstr ""
 msgid ""
 "This section lets you tailor the fonts &kmail; uses. Select <guilabel>Use "
 "custom fonts</guilabel> to activate the dialog. Apply to: <guilabel>Message "
-"Body</guilabel> sets the font for the reader pane. The "
-"<guilabel>Composer</guilabel> option sets the font in which new plain text "
-"messages are shown while they are being written. <guilabel>Message "
-"List</guilabel> changes the font used to display the message list. You can "
-"also choose special fonts for Unread, Important, and Action Item message "
-"list entries. <guilabel>Printing Output</guilabel> alters the font used when"
-" printing. <guilabel>Fixed Width Font</guilabel> affects the display of some"
-" &HTML; messages."
+"Body</guilabel> sets the font for the reader pane. The <guilabel>Composer</"
+"guilabel> option sets the font in which new plain text messages are shown "
+"while they are being written. <guilabel>Message List</guilabel> changes the "
+"font used to display the message list. You can also choose special fonts for "
+"Unread, Important, and Action Item message list entries. <guilabel>Printing "
+"Output</guilabel> alters the font used when printing. <guilabel>Fixed Width "
+"Font</guilabel> affects the display of some &HTML; messages."
 msgstr ""
 
 # automatic translation
@@ -1944,10 +1935,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This section allows you to change the color of a few things by double "
-"clicking on an entry in the list box. Select <guilabel>Use custom "
-"colors</guilabel> to activate this feature. Select <guilabel>Do not change "
-"color from original HTML mail</guilabel> to preserve the color scheme "
-"selected by the sender of any &HTML; message."
+"clicking on an entry in the list box. Select <guilabel>Use custom colors</"
+"guilabel> to activate this feature. Select <guilabel>Do not change color "
+"from original HTML mail</guilabel> to preserve the color scheme selected by "
+"the sender of any &HTML; message."
 msgstr ""
 
 # automatic translation
@@ -1959,8 +1950,8 @@ msgid ""
 "coloring at the first level after the third level of quoting has been "
 "reached. Note that the <guilabel>Quoted text</guilabel> colors only work in "
 "the message reader, not in the composer. If you want folders which are "
-"getting close to their quota (space allotment, used on &IMAP; servers) to be"
-" displayed in a different color, you may specify a percentage value as a "
+"getting close to their quota (space allotment, used on &IMAP; servers) to be "
+"displayed in a different color, you may specify a percentage value as a "
 "threshold."
 msgstr ""
 
@@ -2008,12 +1999,12 @@ msgid ""
 "<guilabel>Long folder list</guilabel> (default option), which uses the full "
 "height of the window, and the <guilabel>Short folder list</guilabel>. With "
 "the <guilabel>Short</guilabel> option, if you have selected <guilabel>Show "
-"the message preview pane below the message list</guilabel>, the message list"
-" and the folder list will occupy a horizontal strip, with the message "
-"preview pane using the entire bottom portion of the window. If you have "
-"selected <guilabel>Show the message preview pane next to the message "
-"list</guilabel>, the folder list and the message list will occupy a vertical"
-" strip, with the message preview pane on the right."
+"the message preview pane below the message list</guilabel>, the message list "
+"and the folder list will occupy a horizontal strip, with the message preview "
+"pane using the entire bottom portion of the window. If you have selected "
+"<guilabel>Show the message preview pane next to the message list</guilabel>, "
+"the folder list and the message list will occupy a vertical strip, with the "
+"message preview pane on the right."
 msgstr ""
 
 # automatic translation
@@ -2021,10 +2012,10 @@ msgstr ""
 #: configure.docbook:1069
 #, no-c-format
 msgid ""
-"Select <guilabel>Show folder quick search field</guilabel> to create a small"
-" text box at the top of the folder list. When you type something in that "
-"box, only the folders whose names match the characters you entered will "
-"appear. Clear the box to display all your folders."
+"Select <guilabel>Show folder quick search field</guilabel> to create a small "
+"text box at the top of the folder list. When you type something in that box, "
+"only the folders whose names match the characters you entered will appear. "
+"Clear the box to display all your folders."
 msgstr ""
 
 # automatic translation
@@ -2033,10 +2024,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>Show Favorite Folders View</guilabel> section allows you to "
-"change how your favorite folders are displayed. <guilabel>As "
-"Icons</guilabel> uses a lot of space, so if you have several favorite "
-"folders you might try <guilabel>As List</guilabel>. If you do not care about"
-" favorite folders you can disable this feature altogether by selecting "
+"change how your favorite folders are displayed. <guilabel>As Icons</"
+"guilabel> uses a lot of space, so if you have several favorite folders you "
+"might try <guilabel>As List</guilabel>. If you do not care about favorite "
+"folders you can disable this feature altogether by selecting "
 "<guilabel>Never</guilabel>."
 msgstr ""
 
@@ -2047,8 +2038,8 @@ msgstr ""
 msgid ""
 "On by default, <guilabel>Folder Tooltips</guilabel> display additional "
 "information (total number of messages, unread messages, and storage size) "
-"when hovering over a folder with the mouse pointer. Select "
-"<guilabel>Never</guilabel> to disable this feature."
+"when hovering over a folder with the mouse pointer. Select <guilabel>Never</"
+"guilabel> to disable this feature."
 msgstr ""
 
 # automatic translation
@@ -2102,10 +2093,9 @@ msgstr ""
 #: configure.docbook:1108
 #, no-c-format
 msgid ""
-"If you select <guilabel>Display tooltips for messages and group "
-"headers</guilabel>, you will see a brief summary of each message (or group "
-"-- depends on the view mode) when the mouse cursor hovers over a message "
-"list item."
+"If you select <guilabel>Display tooltips for messages and group headers</"
+"guilabel>, you will see a brief summary of each message (or group -- depends "
+"on the view mode) when the mouse cursor hovers over a message list item."
 msgstr ""
 
 # automatic translation
@@ -2113,11 +2103,11 @@ msgstr ""
 #: configure.docbook:1112
 #, no-c-format
 msgid ""
-"<guilabel>Default Aggregation</guilabel> and <guilabel>Default "
-"Theme</guilabel> may be overridden using the <guilabel>Folder "
-"Properties</guilabel> dialog for each folder individually. Clicking the "
-"<guibutton>Configure</guibutton> button opens a window to customize the pre-"
-"configured aggregations / themes; you can create your own schemes that way."
+"<guilabel>Default Aggregation</guilabel> and <guilabel>Default Theme</"
+"guilabel> may be overridden using the <guilabel>Folder Properties</guilabel> "
+"dialog for each folder individually. Clicking the <guibutton>Configure</"
+"guibutton> button opens a window to customize the pre-configured "
+"aggregations / themes; you can create your own schemes that way."
 msgstr ""
 
 # automatic translation
@@ -2146,8 +2136,8 @@ msgstr ""
 #: configure.docbook:1126
 #, no-c-format
 msgid ""
-"This view uses day-by-day groups. Messages are not threaded. So for example,"
-" in <quote>Today</quote> you will simply find all the messages that arrived "
+"This view uses day-by-day groups. Messages are not threaded. So for example, "
+"in <quote>Today</quote> you will simply find all the messages that arrived "
 "today. The groups are displayed by default in reverse chronological order, "
 "and labeled \"Today\", \"Yesterday\", then the preceding five days of the "
 "week, followed by mm/dd/yy."
@@ -2186,8 +2176,8 @@ msgid ""
 "This view uses smart date range groups. Messages are not threaded. So for "
 "example, in <quote>Today</quote> you will simply find all the messages that "
 "arrived today. The groups are displayed by default in reverse chronological "
-"order: \"Today\", \"Yesterday\", the five preceding days of the week, \"Last"
-" Week\", \"Two Weeks Ago\", and then month by month."
+"order: \"Today\", \"Yesterday\", the five preceding days of the week, \"Last "
+"Week\", \"Two Weeks Ago\", and then month by month."
 msgstr ""
 
 # automatic translation
@@ -2203,9 +2193,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This view uses smart date range groups. Messages are threaded. So for "
-"example, in <quote>Today</quote> you will find all the messages that arrived"
-" today and all the threads that have been active today. Otherwise the same "
-"as Current Activity, Flat."
+"example, in <quote>Today</quote> you will find all the messages that arrived "
+"today and all the threads that have been active today. Otherwise the same as "
+"Current Activity, Flat."
 msgstr ""
 
 # automatic translation
@@ -2238,9 +2228,9 @@ msgstr ""
 msgid ""
 "This view groups the messages by senders or receivers (depending on the "
 "folder type). You may specify senders (or receivers) in the "
-"<menuchoice><guimenu>Folders</guimenu> <guimenuitem>Folder "
-"Properties</guimenuitem></menuchoice> dialog (\"View\" tab, <guilabel>Show "
-"Column:</guilabel>). Messages are not threaded."
+"<menuchoice><guimenu>Folders</guimenu> <guimenuitem>Folder Properties</"
+"guimenuitem></menuchoice> dialog (\"View\" tab, <guilabel>Show Column:</"
+"guilabel>). Messages are not threaded."
 msgstr ""
 
 # automatic translation
@@ -2287,13 +2277,12 @@ msgstr ""
 #: configure.docbook:1188
 #, no-c-format
 msgid ""
-"To create a custom aggregation theme, click the "
-"<guibutton>Configure...</guibutton> button. Select an existing aggregation "
-"similar to the one you want to create, then click <guibutton>Clone "
-"Aggregation</guibutton>. If none are similar, click the <guibutton>New "
-"Aggregation</guibutton> button. The <guilabel>General</guilabel> tab allows "
-"you to change the <guilabel>Name:</guilabel> and "
-"<guilabel>Description:</guilabel>. The <guilabel>Groups &amp; "
+"To create a custom aggregation theme, click the <guibutton>Configure...</"
+"guibutton> button. Select an existing aggregation similar to the one you "
+"want to create, then click <guibutton>Clone Aggregation</guibutton>. If none "
+"are similar, click the <guibutton>New Aggregation</guibutton> button. The "
+"<guilabel>General</guilabel> tab allows you to change the <guilabel>Name:</"
+"guilabel> and <guilabel>Description:</guilabel>. The <guilabel>Groups &amp; "
 "Threading</guilabel> tab lets you configure several elements to customize "
 "your aggregation."
 msgstr ""
@@ -2321,9 +2310,9 @@ msgstr ""
 #: configure.docbook:1199
 #, no-c-format
 msgid ""
-"<guilabel>Threading:</guilabel> allows you to decide if &kmail; will include"
-" references and subject to determine perfect threading. You may also turn "
-"off threading altogether."
+"<guilabel>Threading:</guilabel> allows you to decide if &kmail; will include "
+"references and subject to determine perfect threading. You may also turn off "
+"threading altogether."
 msgstr ""
 
 # automatic translation
@@ -2409,12 +2398,11 @@ msgstr ""
 #: configure.docbook:1255
 #, no-c-format
 msgid ""
-"To create a custom message list theme, click the "
-"<guibutton>Configure...</guibutton> button. Select an existing theme similar"
-" to the one you want to create, then click <guibutton>Clone "
-"Theme</guibutton>. If none are similar, click the <guibutton>New "
-"Theme</guibutton> button. The <guilabel> General</guilabel> tab allows you "
-"to change the <guilabel>Name:</guilabel> and "
+"To create a custom message list theme, click the <guibutton>Configure...</"
+"guibutton> button. Select an existing theme similar to the one you want to "
+"create, then click <guibutton>Clone Theme</guibutton>. If none are similar, "
+"click the <guibutton>New Theme</guibutton> button. The <guilabel> General</"
+"guilabel> tab allows you to change the <guilabel>Name:</guilabel> and "
 "<guilabel>Description:</guilabel>."
 msgstr ""
 
@@ -2426,15 +2414,15 @@ msgid ""
 "The <guilabel>Appearance</guilabel> tab lets you configure visible columns "
 "and status items. To add a column, right click the column bar and select "
 "<guilabel>Add Column</guilabel>. Name the column, then select what the "
-"column will represent from the <guilabel>Header click sorts "
-"messages:</guilabel> drop down list. <guilabel>Visible by default</guilabel>"
-" is automatically checked. Uncheck it if you only want the column to be "
+"column will represent from the <guilabel>Header click sorts messages:</"
+"guilabel> drop down list. <guilabel>Visible by default</guilabel> is "
+"automatically checked. Uncheck it if you only want the column to be "
 "available on the context menu for the clickable sort bar. Drag the "
 "appropriate label from the <guilabel>Content Items</guilabel> to the column "
 "view box under the column bar, &eg;, if you chose to add a size column you "
 "would drag the Size label underneath the Size column. Continue to do this "
-"until you have all the columns you desire. You can change the font and color"
-" of column items through the view area &RMB; menu. Move, delete and resize "
+"until you have all the columns you desire. You can change the font and color "
+"of column items through the view area &RMB; menu. Move, delete and resize "
 "columns via the &RMB; menu on the column bar."
 msgstr ""
 
@@ -2452,13 +2440,13 @@ msgstr ""
 #: configure.docbook:1277
 #, no-c-format
 msgid ""
-"In the <guilabel>Date Display</guilabel> section you may choose one of three"
-" date formats (or create your own). The <guilabel>Standard Format</guilabel>"
-" shows the day of the week and the date. The <guilabel>Localized "
-"Format</guilabel> is shorter, omitting the day of the week. The "
-"<guilabel>Smart format</guilabel> will show today, yesterday, &etc; If you "
-"want to create a <guilabel>Custom</guilabel> date format, just click on "
-"<guilabel>Custom format information</guilabel> and follow the directions."
+"In the <guilabel>Date Display</guilabel> section you may choose one of three "
+"date formats (or create your own). The <guilabel>Standard Format</guilabel> "
+"shows the day of the week and the date. The <guilabel>Localized Format</"
+"guilabel> is shorter, omitting the day of the week. The <guilabel>Smart "
+"format</guilabel> will show today, yesterday, &etc; If you want to create a "
+"<guilabel>Custom</guilabel> date format, just click on <guilabel>Custom "
+"format information</guilabel> and follow the directions."
 msgstr ""
 
 # automatic translation
@@ -2495,10 +2483,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kmail; by default gives you several ways to mark messages (Important / "
-"Action Item / Birthday), accessible via the "
-"<menuchoice><guimenu>Message</guimenu> <guisubmenu>Mark Message "
-"&gt;</guisubmenu></menuchoice> sub-menu. You may also define additional tags"
-" to help you categorize messages."
+"Action Item / Birthday), accessible via the <menuchoice><guimenu>Message</"
+"guimenu> <guisubmenu>Mark Message &gt;</guisubmenu></menuchoice> sub-menu. "
+"You may also define additional tags to help you categorize messages."
 msgstr ""
 
 # automatic translation
@@ -2506,8 +2493,8 @@ msgstr ""
 #: configure.docbook:1309
 #, no-c-format
 msgid ""
-"Use the <guilabel>Available Tags</guilabel> input field to name your special"
-" tag. Use the <guibutton>&nbsp;&plus;&nbsp;</guibutton> button to add this "
+"Use the <guilabel>Available Tags</guilabel> input field to name your special "
+"tag. Use the <guibutton>&nbsp;&plus;&nbsp;</guibutton> button to add this "
 "name to the list. Use the <guibutton>&nbsp;&minus;&nbsp;</guibutton> button "
 "to remove a tag. (The \"Birthday\" tag is built-in, and cannot be removed.) "
 "Use the up and down arrow buttons to sort the items in the list."
@@ -2518,8 +2505,8 @@ msgstr ""
 #: configure.docbook:1315
 #, no-c-format
 msgid ""
-"Highlight an item in the list to activate the <guilabel>Tag "
-"Settings</guilabel> dialog. You may choose any or all of six options."
+"Highlight an item in the list to activate the <guilabel>Tag Settings</"
+"guilabel> dialog. You may choose any or all of six options."
 msgstr ""
 
 # automatic translation
@@ -2535,8 +2522,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Select this option to display tagged message list entries in a different "
-"color. A color palette will be presented when you choose this option. Select"
-" a preset color, or choose \"Custom...\" for more flexibility."
+"color. A color palette will be presented when you choose this option. Select "
+"a preset color, or choose \"Custom...\" for more flexibility."
 msgstr ""
 
 # automatic translation
@@ -2623,8 +2610,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "All the tags defined here will automatically appear as new options in the "
-"<menuchoice> <guimenu>Message</guimenu><guisubmenu>Mark Message "
-"&gt;</guisubmenu></menuchoice> sub-menu."
+"<menuchoice> <guimenu>Message</guimenu><guisubmenu>Mark Message &gt;</"
+"guisubmenu></menuchoice> sub-menu."
 msgstr ""
 
 # automatic translation
@@ -2721,8 +2708,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If checked, &kmail; will insert \"-- \" (dash dash space) before your "
-"signature if your signature does not begin that way. (This separator line is"
-" a <emphasis>de facto</emphasis> internet standard.)"
+"signature if your signature does not begin that way. (This separator line is "
+"a <emphasis>de facto</emphasis> internet standard.)"
 msgstr ""
 
 # automatic translation
@@ -2737,8 +2724,8 @@ msgstr ""
 #: configure.docbook:1446
 #, no-c-format
 msgid ""
-"If checked, &kmail; will remove the signature from the original message when"
-" you compose a reply. Of course, if you have not selected the signature and "
+"If checked, &kmail; will remove the signature from the original message when "
+"you compose a reply. Of course, if you have not selected the signature and "
 "the <guilabel>Only quote selected text ...</guilabel> option has been "
 "checked, &kmail; will omit the signature without referring to this setting."
 msgstr ""
@@ -2755,11 +2742,11 @@ msgstr ""
 #: configure.docbook:1460
 #, no-c-format
 msgid ""
-"If checked, &kmail; will quote only the selected text in the message window,"
-" instead of the complete message, when replying. With this, it is possible "
-"to quickly generate replies that quote only the relevant paragraph(s) to "
-"which you are actually replying. If this option is checked and you select "
-"nothing, &kmail; will quote the entire message."
+"If checked, &kmail; will quote only the selected text in the message window, "
+"instead of the complete message, when replying. With this, it is possible to "
+"quickly generate replies that quote only the relevant paragraph(s) to which "
+"you are actually replying. If this option is checked and you select nothing, "
+"&kmail; will quote the entire message."
 msgstr ""
 
 # automatic translation
@@ -2791,10 +2778,10 @@ msgstr ""
 #: configure.docbook:1486
 #, no-c-format
 msgid ""
-"If checked, the word wrap option (<menuchoice> "
-"<guimenu>Options</guimenu><guimenuitem>Wordwrap</guimenuitem> </menuchoice> "
-"in the composer window) will be selected automatically. Use the spin box to "
-"set the maximum line length."
+"If checked, the word wrap option (<menuchoice> <guimenu>Options</"
+"guimenu><guimenuitem>Wordwrap</guimenuitem> </menuchoice> in the composer "
+"window) will be selected automatically. Use the spin box to set the maximum "
+"line length."
 msgstr ""
 
 # automatic translation
@@ -2802,8 +2789,8 @@ msgstr ""
 #: configure.docbook:1496
 #, no-c-format
 msgid ""
-"Reply or forward using the same visual format as the original message (plain"
-" text or HTML)"
+"Reply or forward using the same visual format as the original message (plain "
+"text or HTML)"
 msgstr ""
 
 # automatic translation
@@ -2813,8 +2800,8 @@ msgstr ""
 msgid ""
 "If checked, &kmail; will always enable the rich text editing toolbar if the "
 "message to which you are responding contains an &HTML; &MIME; header. If "
-"this option is not selected, the composer retains the toolbar state from the"
-" previous session."
+"this option is not selected, the composer retains the toolbar state from the "
+"previous session."
 msgstr ""
 
 # automatic translation
@@ -2829,8 +2816,8 @@ msgstr ""
 #: configure.docbook:1512
 #, no-c-format
 msgid ""
-"If checked, &kmail; will append footnotes to the plain text version of every"
-" message composed in &HTML;. These plain text footnotes will be clickable "
+"If checked, &kmail; will append footnotes to the plain text version of every "
+"message composed in &HTML;. These plain text footnotes will be clickable "
 "links pointing to any resources coded as anchor tags (aka links) in the "
 "&HTML; version of the message."
 msgstr ""
@@ -2847,8 +2834,8 @@ msgstr ""
 #: configure.docbook:1525
 #, no-c-format
 msgid ""
-"If checked, <xref linkend=\"composer-options-request-mdn\"/> will default to"
-" <emphasis>on</emphasis>. Check this option only if you know what you are "
+"If checked, <xref linkend=\"composer-options-request-mdn\"/> will default to "
+"<emphasis>on</emphasis>. Check this option only if you know what you are "
 "doing. &mdn;s are considered a nuisance (or are simply ignored) by a lot of "
 "people. It is better to request them only when necessary."
 msgstr ""
@@ -2869,8 +2856,8 @@ msgid ""
 "in the list of autocompletion targets (&eg;, when you start typing in the "
 "To: input field). These will appear as \"Contacts found in your data\". If "
 "you switch this off, only the matching &kaddressbook; entries and \"Recent "
-"Addresses\" will appear in the list. Use the spin box to limit the number of"
-" items displayed in the list."
+"Addresses\" will appear in the list. Use the spin box to limit the number of "
+"items displayed in the list."
 msgstr ""
 
 # automatic translation
@@ -2889,8 +2876,8 @@ msgid ""
 "in the list of autocompletion targets (&eg;, when you start typing in the "
 "CC: input field). These will appear as \"Recent Addresses\". If you switch "
 "this off, only the matching &kaddressbook; entries and \"Contacts found in "
-"your data\" will appear in the list. Use the spin box to limit the number of"
-" items considered \"Recent\"."
+"your data\" will appear in the list. Use the spin box to limit the number of "
+"items considered \"Recent\"."
 msgstr ""
 
 # automatic translation
@@ -2968,9 +2955,9 @@ msgid ""
 "substitution commands, by simply typing them or selecting them from the "
 "<guimenu>Insert Command</guimenu> menu. These are global (default) "
 "templates. They may be overridden by per-identity templates or per-folder "
-"templates if any such are specified. Most people are happy with the standard"
-" default templates. But if you wish to tweak the defaults, this is the place"
-" to do it."
+"templates if any such are specified. Most people are happy with the standard "
+"default templates. But if you wish to tweak the defaults, this is the place "
+"to do it."
 msgstr ""
 
 # automatic translation
@@ -2979,8 +2966,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For a more detailed explanation of template configuration, please refer to "
-"<link linkend=\"configure-identity-templates\">the Identities "
-"chapter.</link>"
+"<link linkend=\"configure-identity-templates\">the Identities chapter.</link>"
 msgstr ""
 
 # automatic translation
@@ -3036,11 +3022,11 @@ msgstr ""
 #: configure.docbook:1662
 #, no-c-format
 msgid ""
-"There are four types of custom templates: used to "
-"<guilabel>Reply</guilabel>, <guilabel>Reply to All</guilabel>, "
-"<guilabel>Forward</guilabel>, and <guilabel>Universal</guilabel> which can "
-"be used for all kinds of operations. You cannot bind a keyboard shortcut to "
-"<guilabel>Universal</guilabel> templates."
+"There are four types of custom templates: used to <guilabel>Reply</"
+"guilabel>, <guilabel>Reply to All</guilabel>, <guilabel>Forward</guilabel>, "
+"and <guilabel>Universal</guilabel> which can be used for all kinds of "
+"operations. You cannot bind a keyboard shortcut to <guilabel>Universal</"
+"guilabel> templates."
 msgstr ""
 
 # automatic translation
@@ -3122,9 +3108,8 @@ msgid ""
 "Every message you send will be checked to see if it is written with one of "
 "the listed character sets, starting at the top of the list. If it is, that "
 "character set will be used. If it is not, a dialog will appear and tell you "
-"that you must choose a character set via "
-"<menuchoice><guimenu>Options</guimenu><guisubmenu>Set "
-"Encoding</guisubmenu></menuchoice>."
+"that you must choose a character set via <menuchoice><guimenu>Options</"
+"guimenu><guisubmenu>Set Encoding</guisubmenu></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -3133,9 +3118,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you select <guilabel>Keep original charset when replying or forwarding "
-"(if possible)</guilabel>, the original message's character set will be kept,"
-" unless there are now characters that cannot be represented using that set "
-"of characters."
+"(if possible)</guilabel>, the original message's character set will be kept, "
+"unless there are now characters that cannot be represented using that set of "
+"characters."
 msgstr ""
 
 # automatic translation
@@ -3175,8 +3160,8 @@ msgid ""
 "want &kmail; to generate Message-Id's with a custom suffix. Enter the "
 "desired suffix in the <guilabel>Custom message-id suffix</guilabel> field. "
 "Please make sure that the suffix you specify is unique (within the "
-"webiverse). The simplest way to ensure uniqueness is to use the name of your"
-" own domain, if you have one. If you do not check <guilabel>Use custom "
+"webiverse). The simplest way to ensure uniqueness is to use the name of your "
+"own domain, if you have one. If you do not check <guilabel>Use custom "
 "Message-Id suffix</guilabel>, &kmail; will automatically generate the "
 "complete Message-Id. If you do not know what this is all about, do not "
 "choose this option."
@@ -3188,8 +3173,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>Define custom mime header fields</guilabel> list sets the "
-"headers that &kmail; will use for its outgoing messages. You may both invent"
-" new fields and overwrite existing ones. This feature is only useful for "
+"headers that &kmail; will use for its outgoing messages. You may both invent "
+"new fields and overwrite existing ones. This feature is only useful for "
 "experts."
 msgstr ""
 
@@ -3239,8 +3224,8 @@ msgstr ""
 #: configure.docbook:1806
 #, no-c-format
 msgid ""
-"When you select this option, &kmail; will create messages that do not comply"
-" with email standards, and consequently it is possible that your messages "
+"When you select this option, &kmail; will create messages that do not comply "
+"with email standards, and consequently it is possible that your messages "
 "will not be understood by standards-compliant mail clients. So you should "
 "not enable this option unless you must."
 msgstr ""
@@ -3253,8 +3238,8 @@ msgid ""
 "Check the <guilabel>Enable detection of missing attachments</guilabel> "
 "checkbox if you want &kmail; to warn you whenever you are about to send a "
 "message without attachments even though the message text contains certain "
-"words which may indicate that you want to include an attachment. The list of"
-" key words can be modified."
+"words which may indicate that you want to include an attachment. The list of "
+"key words can be modified."
 msgstr ""
 
 # automatic translation
@@ -3265,8 +3250,8 @@ msgid ""
 "Use the <guilabel>Maximum Attachment Size:</guilabel> spin box to limit the "
 "size of any attachments you send. If you try to attach a file larger than "
 "the specified limit, &kmail; will issue an error message and refuse to "
-"attach the file. Note that this is an individual limit, and not an aggregate"
-" limit. Also, the file size is checked before the file is converted to base "
+"attach the file. Note that this is an individual limit, and not an aggregate "
+"limit. Also, the file size is checked before the file is converted to base "
 "64 encoding, if that is necessary."
 msgstr ""
 
@@ -3304,14 +3289,14 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To enable automatic correction of common typing errors, select the "
-"<guilabel>Enable autocorrection</guilabel> option. Use the drop down list to"
-" choose your language. You may import settings, either from "
+"<guilabel>Enable autocorrection</guilabel> option. Use the drop down list to "
+"choose your language. You may import settings, either from "
 "<application>LibreOffice</application> or another &kmail; / &calligra; "
 "installation, via the <guibutton>Import ... <inlinemediaobject> "
-"<imageobject><imagedata fileref=\"go-down.png\" "
-"format=\"PNG\"/></imageobject> </inlinemediaobject></guibutton> button. If "
-"you need to save your settings for another installation or application, use "
-"the <guibutton>Export...</guibutton> button."
+"<imageobject><imagedata fileref=\"go-down.png\" format=\"PNG\"/></"
+"imageobject> </inlinemediaobject></guibutton> button. If you need to save "
+"your settings for another installation or application, use the "
+"<guibutton>Export...</guibutton> button."
 msgstr ""
 
 # automatic translation
@@ -3333,8 +3318,8 @@ msgstr ""
 #: configure.docbook:1865
 #, no-c-format
 msgid ""
-"This allows you to configure &kmail; to automatically correct various common"
-" typographical errors. Check the boxes next to the autocorrection features "
+"This allows you to configure &kmail; to automatically correct various common "
+"typographical errors. Check the boxes next to the autocorrection features "
 "you want."
 msgstr ""
 
@@ -3368,11 +3353,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can customize automatic word replacement by selecting this option. To "
-"enter a custom string that will be replaced automatically, enter the word to"
-" be replaced in the <guilabel>Find</guilabel> box and enter the replacement "
-"word in the <guilabel>Replace</guilabel> box, then click the "
-"<guibutton>Add</guibutton> button. To remove a custom word from the list, "
-"highlight that entry and click <guibutton>Remove</guibutton>."
+"enter a custom string that will be replaced automatically, enter the word to "
+"be replaced in the <guilabel>Find</guilabel> box and enter the replacement "
+"word in the <guilabel>Replace</guilabel> box, then click the <guibutton>Add</"
+"guibutton> button. To remove a custom word from the list, highlight that "
+"entry and click <guibutton>Remove</guibutton>."
 msgstr ""
 
 # automatic translation
@@ -3390,8 +3375,8 @@ msgid ""
 "This dialog lets you create exceptions where you can tell &kmail; to ignore "
 "some periods (end of sentence) and two uppercase letters (&eg;, &kmail;). "
 "Enter the exception and click the <guibutton>Add</guibutton> button. To "
-"remove the exception, highlight the string and click "
-"<guibutton>Remove</guibutton>."
+"remove the exception, highlight the string and click <guibutton>Remove</"
+"guibutton>."
 msgstr ""
 
 # automatic translation
@@ -3437,8 +3422,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In some circumstances you may want to have &kmail; automatically resize "
-"image attachments in outgoing emails (&eg;, because of server limits). To do"
-" so, select <guilabel>Automatically resize images</guilabel>. There are "
+"image attachments in outgoing emails (&eg;, because of server limits). To do "
+"so, select <guilabel>Automatically resize images</guilabel>. There are "
 "several options that accompany this feature."
 msgstr ""
 
@@ -3481,12 +3466,12 @@ msgid ""
 "<guilabel>Reduce image to maximum dimension:</guilabel> option to select a "
 "size to shrink the image to, and enter their email into the filters on the "
 "<guilabel>Recipients</guilabel> tab. (The <guilabel>Recipients</guilabel> "
-"tab is discussed in further detail below.) If you need a custom size, choose"
-" the last option <guilabel>Custom</guilabel> from the width and height drop "
+"tab is discussed in further detail below.) If you need a custom size, choose "
+"the last option <guilabel>Custom</guilabel> from the width and height drop "
 "down boxes, and enter a number of pixels in the text box. You may also "
-"enlarge images by selecting <guilabel>Enlarge image to minimum "
-"dimension</guilabel>. The last option allows you to skip resizing images "
-"that are smaller than the specified file size."
+"enlarge images by selecting <guilabel>Enlarge image to minimum dimension</"
+"guilabel>. The last option allows you to skip resizing images that are "
+"smaller than the specified file size."
 msgstr ""
 
 # automatic translation
@@ -3512,11 +3497,11 @@ msgid ""
 "select the appropriate filter here. Suppose you need to send your boss "
 "multiple images daily, and your boss requires all of them to be the same "
 "size. You could name your work images work1, work2 &etc;, then select "
-"<guilabel>Include all files whose names contains one of the "
-"patterns</guilabel> and enter work into the <guilabel>Pattern:</guilabel> "
-"text box. You can also exclude files in the same way by selecting "
-"<guilabel>Exclude all files whose names contains one of the "
-"patterns</guilabel>. The default behavior is no filtering."
+"<guilabel>Include all files whose names contains one of the patterns</"
+"guilabel> and enter work into the <guilabel>Pattern:</guilabel> text box. "
+"You can also exclude files in the same way by selecting <guilabel>Exclude "
+"all files whose names contains one of the patterns</guilabel>. The default "
+"behavior is no filtering."
 msgstr ""
 
 # automatic translation
@@ -3540,8 +3525,8 @@ msgstr ""
 #: configure.docbook:1988
 #, no-c-format
 msgid ""
-"When this option is enabled, you must click the <guibutton>Select "
-"Format...</guibutton> button, then select a format from the dialog."
+"When this option is enabled, you must click the <guibutton>Select Format...</"
+"guibutton> button, then select a format from the dialog."
 msgstr ""
 
 # automatic translation
@@ -3556,9 +3541,9 @@ msgstr ""
 #: configure.docbook:1998
 #, no-c-format
 msgid ""
-"Select <guilabel>Rename resized images with the following "
-"pattern:</guilabel> if you would like your resized images to be renamed with"
-" a specific pattern. Enter the pattern into the text box. You may use:"
+"Select <guilabel>Rename resized images with the following pattern:</"
+"guilabel> if you would like your resized images to be renamed with a "
+"specific pattern. Enter the pattern into the text box. You may use:"
 msgstr ""
 
 # automatic translation
@@ -3608,8 +3593,8 @@ msgstr ""
 #: configure.docbook:2018
 #, no-c-format
 msgid ""
-"This tab is where you specify recipients who need to receive resized images."
-" You must decide if you need multiple entries or only one, and enter the "
+"This tab is where you specify recipients who need to receive resized images. "
+"You must decide if you need multiple entries or only one, and enter the "
 "email(s) into the text box using the <quote>;</quote> as a separator when "
 "there are multiple items. You may also specify certain recipients for whom "
 "images ought not be resized. The default is no filtering."
@@ -3630,8 +3615,8 @@ msgid ""
 "The Security configuration dialog lets you fine-tune certain rich text "
 "(&HTML;) options. It also allows you to control encryption and decryption "
 "features, to adjust some built-in anti-phishing logic, and to specify how "
-"message disposition notification requests (aka return receipts) are handled."
-" Notice that this dialog does <emphasis>not</emphasis> have anything to do "
+"message disposition notification requests (aka return receipts) are handled. "
+"Notice that this dialog does <emphasis>not</emphasis> have anything to do "
 "with anti-virus security measures. See the <link linkend=\"the-anti-virus-"
 "wizard\">Using &kmail;: The Anti-Virus Wizard</link> chapter if you want "
 "anti-virus security."
@@ -3686,8 +3671,8 @@ msgstr ""
 #: configure.docbook:2071
 #, no-c-format
 msgid ""
-"By default &kmail; will show &HTML; messages in plain text. If you prefer to"
-" view messages with &HTML; formatting and layout automatically, select this "
+"By default &kmail; will show &HTML; messages in plain text. If you prefer to "
+"view messages with &HTML; formatting and layout automatically, select this "
 "option. However, we recommend leaving this option off, as security problems "
 "with &HTML; might show up."
 msgstr ""
@@ -3726,8 +3711,8 @@ msgid ""
 "By adding external references to their messages, people sending spam can "
 "detect when you have looked at their message, your location, and a lot of "
 "other information that may get logged on web servers. Note that this option "
-"has no effect on &Java; or JavaScript, as these are not supported in &kmail;"
-" at all."
+"has no effect on &Java; or JavaScript, as these are not supported in &kmail; "
+"at all."
 msgstr ""
 
 # automatic translation
@@ -3742,14 +3727,14 @@ msgstr ""
 #: configure.docbook:2104
 #, no-c-format
 msgid ""
-"As email has become more popular, email scams have proliferated. Email scams"
-" may include emails made to appear as if they come from legitimate "
-"companies, even though they really link to malicious web sites requesting "
-"your personal information. This may lead to identity theft, and worse. By "
-"default &kmail; analyzes messages for common scams, and will inform you if a"
-" message is a suspected scam. We recommend that you keep this feature "
-"enabled. If you wish to disable these warnings, uncheck <guilabel>Informs if"
-" message reading is a suspected email scam</guilabel>."
+"As email has become more popular, email scams have proliferated. Email scams "
+"may include emails made to appear as if they come from legitimate companies, "
+"even though they really link to malicious web sites requesting your personal "
+"information. This may lead to identity theft, and worse. By default &kmail; "
+"analyzes messages for common scams, and will inform you if a message is a "
+"suspected scam. We recommend that you keep this feature enabled. If you wish "
+"to disable these warnings, uncheck <guilabel>Informs if message reading is a "
+"suspected email scam</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -3809,9 +3794,8 @@ msgstr ""
 #: configure.docbook:2145
 #, no-c-format
 msgid ""
-"By default, &kmail; will automatically attempt to decrypt encrypted messages"
-" when you view them. If you prefer to do this manually, unselect this "
-"option."
+"By default, &kmail; will automatically attempt to decrypt encrypted messages "
+"when you view them. If you prefer to do this manually, unselect this option."
 msgstr ""
 
 # automatic translation
@@ -3976,8 +3960,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you are unsure, experiment a while with <guilabel>Ask</guilabel>. Then, "
-"if you find &kmail;'s questions annoying, switch to "
-"<guilabel>Ignore</guilabel>."
+"if you find &kmail;'s questions annoying, switch to <guilabel>Ignore</"
+"guilabel>."
 msgstr ""
 
 # automatic translation
@@ -3985,9 +3969,9 @@ msgstr ""
 #: configure.docbook:2285
 #, no-c-format
 msgid ""
-"The following options (listed as <guilabel>Quote original "
-"message</guilabel>) are available to control <emphasis>how much</emphasis> "
-"of the original message &kmail; sends back with &mdn;s."
+"The following options (listed as <guilabel>Quote original message</"
+"guilabel>) are available to control <emphasis>how much</emphasis> of the "
+"original message &kmail; sends back with &mdn;s."
 msgstr ""
 
 # automatic translation
@@ -4002,10 +3986,10 @@ msgstr ""
 #: configure.docbook:2298
 #, no-c-format
 msgid ""
-"No parts of the message other than the mandatory message-id and the original"
-" recipient are included in the &mdn; reply. This preserves enough "
-"information for the sender to uniquely identify the message for which this "
-"&mdn; was generated."
+"No parts of the message other than the mandatory message-id and the original "
+"recipient are included in the &mdn; reply. This preserves enough information "
+"for the sender to uniquely identify the message for which this &mdn; was "
+"generated."
 msgstr ""
 
 # automatic translation
@@ -4020,11 +4004,11 @@ msgstr ""
 #: configure.docbook:2313
 #, no-c-format
 msgid ""
-"Attaches the complete message to the disposition notification. Usually, this"
-" is overkill. It does not add any valuable information that cannot be "
-"deduced from the message headers alone, but people sometimes insist on this,"
-" since it is much easier for humans to correlate the content of the message "
-"(and not just the headers) with what they sent earlier."
+"Attaches the complete message to the disposition notification. Usually, this "
+"is overkill. It does not add any valuable information that cannot be deduced "
+"from the message headers alone, but people sometimes insist on this, since "
+"it is much easier for humans to correlate the content of the message (and "
+"not just the headers) with what they sent earlier."
 msgstr ""
 
 # automatic translation
@@ -4065,8 +4049,8 @@ msgstr ""
 msgid ""
 "This option suppresses the sending of &mdn;s if the message is encrypted "
 "(partially or in whole). This thwarts attempts to use &kmail;'s &mdn; "
-"feature as an <emphasis>oracle</emphasis> to deduce whether you were able to"
-" decrypt the message or not."
+"feature as an <emphasis>oracle</emphasis> to deduce whether you were able to "
+"decrypt the message or not."
 msgstr ""
 
 # automatic translation
@@ -4075,9 +4059,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Strictly speaking, this option is not needed, since &kmail; sends &mdn;s "
-"whether the message could be successfully decrypted, or not (the disposition"
-" notification request resides in the unencrypted part of the message); but "
-"it gives the security-conscious user a choice: either to send them when "
+"whether the message could be successfully decrypted, or not (the disposition "
+"notification request resides in the unencrypted part of the message); but it "
+"gives the security-conscious user a choice: either to send them when "
 "requested (option unchecked), or never (option checked)."
 msgstr ""
 
@@ -4188,10 +4172,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This option enables a mode of using mail encryption that is sometimes "
-"(misleadingly) called <quote>transport-only</quote> encryption. In this mode"
-" of operation, the message encryption is stripped off as soon as the message"
-" has reached its destination. The encryption lasts only while the message is"
-" on its way."
+"(misleadingly) called <quote>transport-only</quote> encryption. In this mode "
+"of operation, the message encryption is stripped off as soon as the message "
+"has reached its destination. The encryption lasts only while the message is "
+"on its way."
 msgstr ""
 
 # automatic translation
@@ -4240,8 +4224,8 @@ msgid ""
 "If checked, every time you encrypt a message, a dialog will appear that "
 "presents you with the encryption keys that will be used for each recipient. "
 "You may then review the choice of keys, change them, and approve or cancel "
-"the encryption operation. We recommend to keep this option checked, since it"
-" makes the encryption process more transparent."
+"the encryption operation. We recommend to keep this option checked, since it "
+"makes the encryption process more transparent."
 msgstr ""
 
 # automatic translation
@@ -4258,8 +4242,8 @@ msgstr ""
 msgid ""
 "Also called <quote>opportunistic encryption</quote>. If checked, &kmail; "
 "will try to match recipients to (&openpgp; or &smime;) keys even when you "
-"did <emphasis>not</emphasis> specifically request encryption. If usable keys"
-" are found for all recipients, &kmail; will ask whether or not you want to "
+"did <emphasis>not</emphasis> specifically request encryption. If usable keys "
+"are found for all recipients, &kmail; will ask whether or not you want to "
 "encrypt the message."
 msgstr ""
 
@@ -4268,8 +4252,8 @@ msgstr ""
 #: configure.docbook:2508
 #, no-c-format
 msgid ""
-"It is highly recommended to turn this on, as it makes encryption really easy"
-" to use."
+"It is highly recommended to turn this on, as it makes encryption really easy "
+"to use."
 msgstr ""
 
 # automatic translation
@@ -4363,12 +4347,12 @@ msgstr ""
 #: configure.docbook:2585
 #, no-c-format
 msgid ""
-"While it is common to sign all outgoing messages, encrypting them is not. So"
-" unless your company has a policy of never sending any unencrypted messages,"
-" it might be a good idea to keep this option switched off and rely on <link "
-"linkend=\"configure-security-composing-opportunistic-"
-"encryption\">opportunistic encryption</link> to alert you if you "
-"<emphasis>could</emphasis> send encrypted messages, but did not request it."
+"While it is common to sign all outgoing messages, encrypting them is not. So "
+"unless your company has a policy of never sending any unencrypted messages, "
+"it might be a good idea to keep this option switched off and rely on <link "
+"linkend=\"configure-security-composing-opportunistic-encryption"
+"\">opportunistic encryption</link> to alert you if you <emphasis>could</"
+"emphasis> send encrypted messages, but did not request it."
 msgstr ""
 
 # automatic translation
@@ -4394,8 +4378,8 @@ msgstr ""
 msgid ""
 "The period in which to warn before key/certificate expiration can then be "
 "configured separately for signing and encryption keys, as well as (in the "
-"case of &smime;), for end-user certificates, intermediate "
-"<acronym>CA</acronym> certificates and root certificates."
+"case of &smime;), for end-user certificates, intermediate <acronym>CA</"
+"acronym> certificates and root certificates."
 msgstr ""
 
 # automatic translation
@@ -4411,11 +4395,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Click on this button to open an extensive dialog which configures the "
-"interactions between &kmail; and &gpg;, the Gnu Privacy Guard program. &gpg;"
-" is too complex to document here. For details you should refer to <ulink "
-"url=\"https://www.gnupg.org/docs.html#guides\">The &GNU; Privacy "
-"Handbook</ulink>. Unless you're an encryption expert, you probably ought to "
-"accept the default settings here."
+"interactions between &kmail; and &gpg;, the Gnu Privacy Guard program. &gpg; "
+"is too complex to document here. For details you should refer to <ulink url="
+"\"https://www.gnupg.org/docs.html#guides\">The &GNU; Privacy Handbook</"
+"ulink>. Unless you're an encryption expert, you probably ought to accept the "
+"default settings here."
 msgstr ""
 
 # automatic translation
@@ -4431,8 +4415,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Apart from the main warnings described above, there are many warning and "
-"informational messages, each containing an option not to show them again. If"
-" you would like to re-enable these messages after suppressing them, you can "
+"informational messages, each containing an option not to show them again. If "
+"you would like to re-enable these messages after suppressing them, you can "
 "achieve that by pressing this button."
 msgstr ""
 
@@ -4480,10 +4464,9 @@ msgstr ""
 #: configure.docbook:2705
 #, no-c-format
 msgid ""
-"This tab contains selected entries from &gpgsm;'s <ulink "
-"url=\"https://linux.die.net/man/1/gpgsm\">dynamic back end configuration "
-"dialog</ulink>. Please refer to the &gpgsm; manual for a more detailed "
-"description of these options."
+"This tab contains selected entries from &gpgsm;'s <ulink url=\"https://linux."
+"die.net/man/1/gpgsm\">dynamic back end configuration dialog</ulink>. Please "
+"refer to the &gpgsm; manual for a more detailed description of these options."
 msgstr ""
 
 # automatic translation
@@ -4576,9 +4559,9 @@ msgstr ""
 #: configure.docbook:2780
 #, no-c-format
 msgid ""
-"By default, <guilabel>GnuPG</guilabel> uses the file "
-"<filename>~/.gnupg/policies.txt</filename> to check if a certificate policy "
-"is allowed. If this option is selected, such policies are not checked."
+"By default, <guilabel>GnuPG</guilabel> uses the file <filename>~/.gnupg/"
+"policies.txt</filename> to check if a certificate policy is allowed. If this "
+"option is selected, such policies are not checked."
 msgstr ""
 
 # automatic translation
@@ -4610,8 +4593,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Check this option if you want the missing issuer certificates to be fetched "
-"when necessary. This applies to both validation methods, "
-"<acronym>CRLs</acronym> and <acronym>OCSP</acronym>."
+"when necessary. This applies to both validation methods, <acronym>CRLs</"
+"acronym> and <acronym>OCSP</acronym>."
 msgstr ""
 
 # automatic translation
@@ -4644,8 +4627,8 @@ msgid ""
 "certificate usually contains what are known as CRL Distribution Point "
 "(<acronym>DP</acronym>) entries, which are &URL;s describing the way to "
 "access the &URL;. The first found <acronym>DP</acronym> entry is used. With "
-"this option all entries using the &HTTP; scheme are ignored when looking for"
-" a suitable <acronym>DP</acronym>."
+"this option all entries using the &HTTP; scheme are ignored when looking for "
+"a suitable <acronym>DP</acronym>."
 msgstr ""
 
 # automatic translation
@@ -4660,8 +4643,8 @@ msgstr ""
 #: configure.docbook:2849
 #, no-c-format
 msgid ""
-"If this option is selected, the value of the &HTTP; proxy shown on the right"
-" (which comes from the environment variable <varname>http_proxy</varname>) "
+"If this option is selected, the value of the &HTTP; proxy shown on the right "
+"(which comes from the environment variable <varname>http_proxy</varname>) "
 "will be used for any &HTTP; request."
 msgstr ""
 
@@ -4678,8 +4661,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Enter the location of your &HTTP; Proxy here, which will be used for all "
-"&HTTP; requests relating to &smime;. The syntax is <quote>host:port</quote>,"
-" for example, <emphasis>myproxy.nowhere.com:3128</emphasis>."
+"&HTTP; requests relating to &smime;. The syntax is <quote>host:port</quote>, "
+"for example, <emphasis>myproxy.nowhere.com:3128</emphasis>."
 msgstr ""
 
 # automatic translation
@@ -4711,8 +4694,8 @@ msgid ""
 "When looking for the location of a <acronym>CRL</acronym>, the <quote>to-be-"
 "tested</quote> certificate usually contains what are known as CRL "
 "Distribution Point (<acronym>DP</acronym>) entries, which are &URL;s "
-"describing the way to access the &URL;. The first found "
-"<acronym>DP</acronym> entry is used. With this option all entries using the "
+"describing the way to access the &URL;. The first found <acronym>DP</"
+"acronym> entry is used. With this option all entries using the "
 "<acronym>LDAP</acronym> scheme are ignored when looking for a suitable "
 "<acronym>DP</acronym>."
 msgstr ""
@@ -4729,15 +4712,15 @@ msgstr ""
 #: configure.docbook:2908
 #, no-c-format
 msgid ""
-"Entering a <acronym>LDAP</acronym> server here will make all "
-"<acronym>LDAP</acronym> requests go to that server first. More precisely, "
-"this setting overrides any specified host and port part in a "
-"<acronym>LDAP</acronym> &URL; and will also be used if host and port have "
-"been omitted from the &URL;. Other <acronym>LDAP</acronym> servers will be "
-"used only if the connection to the <emphasis>proxy</emphasis> failed. The "
-"syntax is <acronym>HOST</acronym> or <acronym>HOST:PORT</acronym>. If "
-"<acronym>PORT</acronym> is omitted, <quote>port 389</quote> (standard "
-"<acronym>LDAP</acronym> port) is used."
+"Entering a <acronym>LDAP</acronym> server here will make all <acronym>LDAP</"
+"acronym> requests go to that server first. More precisely, this setting "
+"overrides any specified host and port part in a <acronym>LDAP</acronym> "
+"&URL; and will also be used if host and port have been omitted from the "
+"&URL;. Other <acronym>LDAP</acronym> servers will be used only if the "
+"connection to the <emphasis>proxy</emphasis> failed. The syntax is "
+"<acronym>HOST</acronym> or <acronym>HOST:PORT</acronym>. If <acronym>PORT</"
+"acronym> is omitted, <quote>port 389</quote> (standard <acronym>LDAP</"
+"acronym> port) is used."
 msgstr ""
 
 # automatic translation
@@ -4803,8 +4786,8 @@ msgstr ""
 #: configure.docbook:2976
 #, no-c-format
 msgid ""
-"This option controls what happens if you press one of the shortcuts to go to"
-" the next or previous unread message (&eg; <keycap>Space</keycap>). If you "
+"This option controls what happens if you press one of the shortcuts to go to "
+"the next or previous unread message (&eg; <keycap>Space</keycap>). If you "
 "ask &kmail; to go to the next unread message although there is no unread "
 "message below the currently selected message then the following happens."
 msgstr ""
@@ -4822,8 +4805,8 @@ msgstr ""
 #: configure.docbook:2989
 #, no-c-format
 msgid ""
-"If <guilabel>Loop in Current Folder</guilabel> is selected then &kmail; will"
-" search from the beginning of the current folder for an unread message. If "
+"If <guilabel>Loop in Current Folder</guilabel> is selected then &kmail; will "
+"search from the beginning of the current folder for an unread message. If "
 "none is found then nothing happens."
 msgstr ""
 
@@ -4901,11 +4884,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When you select a <guilabel>new</guilabel> or <guilabel>unread</guilabel> "
-"message, &kmail; will change the message's status to "
-"<guilabel>read</guilabel> after this many seconds. If you disable this "
-"option, messages will retain their <guilabel>new</guilabel> or "
-"<guilabel>unread</guilabel> status until you adjust it manually (via the "
-"<guilabel>Folder</guilabel> menu)."
+"message, &kmail; will change the message's status to <guilabel>read</"
+"guilabel> after this many seconds. If you disable this option, messages will "
+"retain their <guilabel>new</guilabel> or <guilabel>unread</guilabel> status "
+"until you adjust it manually (via the <guilabel>Folder</guilabel> menu)."
 msgstr ""
 
 # automatic translation
@@ -4920,8 +4902,8 @@ msgstr ""
 #: configure.docbook:3061
 #, no-c-format
 msgid ""
-"When you drag a message to a different folder, a small popup will ask you if"
-" you want to move or copy the message. If you disable this option, the "
+"When you drag a message to a different folder, a small popup will ask you if "
+"you want to move or copy the message. If you disable this option, the "
 "message will be moved immediately, without a popup."
 msgstr ""
 
@@ -4955,8 +4937,8 @@ msgstr ""
 #: configure.docbook:3092
 #, no-c-format
 msgid ""
-"The trash folder is cleared of messages when you quit &kmail; if this option"
-" is selected."
+"The trash folder is cleared of messages when you quit &kmail; if this option "
+"is selected."
 msgstr ""
 
 # automatic translation
@@ -4975,9 +4957,9 @@ msgid ""
 "message. Select this option if you wish to skip that verification step. "
 "(Note that the <guilabel>Delete</guilabel> function is not accessible from "
 "&kmail;'s menus. But you can add a <guibutton>Delete</guibutton> button to "
-"the toolbar via the <menuchoice> "
-"<guimenu>Settings</guimenu><guimenuitem>Configure Toolbars "
-"...</guimenuitem></menuchoice> dialog.)"
+"the toolbar via the <menuchoice> <guimenu>Settings</"
+"guimenu><guimenuitem>Configure Toolbars ...</guimenuitem></menuchoice> "
+"dialog.)"
 msgstr ""
 
 # automatic translation
@@ -5056,8 +5038,8 @@ msgstr ""
 msgid ""
 "<application>&Microsoft; Outlook</application>, when used in combination "
 "with a &Microsoft; Exchange server, has a problem understanding standards-"
-"compliant groupware e-mail. Enable this option to send groupware invitations"
-" in a format that &Microsoft; Exchange can decipher. The invitation will be "
+"compliant groupware e-mail. Enable this option to send groupware invitations "
+"in a format that &Microsoft; Exchange can decipher. The invitation will be "
 "sent as an attachment named <filename>ical.ics</filename>."
 msgstr ""
 
@@ -5110,9 +5092,8 @@ msgstr ""
 #: configure.docbook:3227
 #, no-c-format
 msgid ""
-"This dialog helps you fine tune the way the <menuchoice> "
-"<guimenu>File</guimenu><guimenuitem>Print</guimenuitem> </menuchoice> "
-"function operates."
+"This dialog helps you fine tune the way the <menuchoice> <guimenu>File</"
+"guimenu><guimenuitem>Print</guimenuitem> </menuchoice> function operates."
 msgstr ""
 
 # automatic translation
@@ -5146,8 +5127,8 @@ msgstr ""
 msgid ""
 "This option is intended to interact with the <guilabel>Show expand/collapse "
 "quote marks</guilabel> feature of the <link linkend=\"configure-appearance-"
-"general\">Appearance/General</link> tab, but it is not currently functioning"
-" correctly. In other words, there's a bug."
+"general\">Appearance/General</link> tab, but it is not currently functioning "
+"correctly. In other words, there's a bug."
 msgstr ""
 
 # automatic translation
@@ -5228,9 +5209,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The various plugins currently available in &kmail; (2021) are listed below. "
-"Note that the set of \"default\" plugins is based on the openSUSE version of"
-" &kmail; (5.14.2) used as a reference for this edition of the documentation."
-" The actual defaults on your system may be different; they're distro "
+"Note that the set of \"default\" plugins is based on the openSUSE version of "
+"&kmail; (5.14.2) used as a reference for this edition of the documentation. "
+"The actual defaults on your system may be different; they're distro "
 "dependent."
 msgstr ""
 
@@ -5241,8 +5222,8 @@ msgstr ""
 msgid ""
 "Because new functionality is added from time to time, this list may grow "
 "longer as time passes. There are two general rules governing plugin "
-"structure you can count on even if the particular plugin you are confronting"
-" is not listed below."
+"structure you can count on even if the particular plugin you are confronting "
+"is not listed below."
 msgstr ""
 
 # automatic translation
@@ -5252,9 +5233,9 @@ msgstr ""
 msgid ""
 "1. If the plugin has configurable variables, you can open the configuration "
 "dialog for that plugin by clicking the <guibutton>&nbsp;<inlinemediaobject> "
-"<imageobject><imagedata fileref=\"configurebutton.png\" "
-"format=\"PNG\"/></imageobject> </inlinemediaobject>&nbsp;</guibutton> button"
-" appearing next to the plugin's name."
+"<imageobject><imagedata fileref=\"configurebutton.png\" format=\"PNG\"/></"
+"imageobject> </inlinemediaobject>&nbsp;</guibutton> button appearing next to "
+"the plugin's name."
 msgstr ""
 
 # automatic translation
@@ -5306,11 +5287,11 @@ msgstr ""
 #: configure.docbook:3354
 #, no-c-format
 msgid ""
-"Select this option to enable automatic archiving. See the <ulink "
-"url=\"help:/akonadi_archivemail_agent\">Archive Mail Agent</ulink> "
-"documentation for detailed information. You may also wish to read the <link "
-"linkend=\"archiving\">Archiving</link> section of this handbook. This plugin"
-" is enabled by default."
+"Select this option to enable automatic archiving. See the <ulink url=\"help:/"
+"akonadi_archivemail_agent\">Archive Mail Agent</ulink> documentation for "
+"detailed information. You may also wish to read the <link linkend=\"archiving"
+"\">Archiving</link> section of this handbook. This plugin is enabled by "
+"default."
 msgstr ""
 
 # automatic translation
@@ -5325,10 +5306,9 @@ msgstr ""
 #: configure.docbook:3367
 #, no-c-format
 msgid ""
-"Select this option to enable followup reminders. See the <ulink "
-"url=\"help:/akonadi_followupreminder_agent\">Followup Reminder Agent</ulink>"
-" documentation for additional information. This plugin is enabled by "
-"default."
+"Select this option to enable followup reminders. See the <ulink url=\"help:/"
+"akonadi_followupreminder_agent\">Followup Reminder Agent</ulink> "
+"documentation for additional information. This plugin is enabled by default."
 msgstr ""
 
 # automatic translation
@@ -5361,9 +5341,9 @@ msgstr ""
 #: configure.docbook:3390
 #, no-c-format
 msgid ""
-"Select this option to enable delayed dispatching. See the <ulink "
-"url=\"help:/akonadi_sendlater_agent\">Send Later Agent</ulink> documentation"
-" for additional information. This plugin is enabled by default."
+"Select this option to enable delayed dispatching. See the <ulink url=\"help:/"
+"akonadi_sendlater_agent\">Send Later Agent</ulink> documentation for "
+"additional information. This plugin is enabled by default."
 msgstr ""
 
 # automatic translation
@@ -5379,12 +5359,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Select this option to create a set of \"unified\" mailboxes. &kmail; will "
-"automatically create three of these, labeled Inbox, Drafts, and Sent. If you"
-" have defined both a Local Folders inbox and one or more &IMAP; inbox "
+"automatically create three of these, labeled Inbox, Drafts, and Sent. If you "
+"have defined both a Local Folders inbox and one or more &IMAP; inbox "
 "destinations, &kmail; will display all the various inbox files as one "
 "consolidated virtual Inbox folder. You may use the configuration dialog to "
-"create additional virtual mailboxes, tailoring each one as you see fit. This"
-" plugin is disabled by default."
+"create additional virtual mailboxes, tailoring each one as you see fit. This "
+"plugin is disabled by default."
 msgstr ""
 
 # automatic translation
@@ -5433,8 +5413,8 @@ msgstr ""
 #: configure.docbook:3440
 #, no-c-format
 msgid ""
-"Select this option to enable address screening on outgoing messages. Use the"
-" configuration dialog to define a white list and/or a black list for each "
+"Select this option to enable address screening on outgoing messages. Use the "
+"configuration dialog to define a white list and/or a black list for each "
 "defined identity. This plugin is disabled by default."
 msgstr ""
 
@@ -5532,8 +5512,8 @@ msgstr ""
 msgid ""
 "Select this option to add the <menuchoice><guimenu>Edit</guimenu> "
 "<guimenuitem>Insert Email...</guimenuitem></menuchoice> function to the "
-"composer. This lets you insert a selected email address from an address book"
-" into the body of your message with a simple point and click of the &LMB;. "
+"composer. This lets you insert a selected email address from an address book "
+"into the body of your message with a simple point and click of the &LMB;. "
 "This plugin is disabled by default."
 msgstr ""
 
@@ -5583,8 +5563,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Select this option to add the <menuchoice><guimenu>Edit</guimenu> "
-"<guimenuitem>Insert Special Character...</guimenuitem></menuchoice> function"
-" to the composer. This plugin is enabled by default."
+"<guimenuitem>Insert Special Character...</guimenuitem></menuchoice> function "
+"to the composer. This plugin is enabled by default."
 msgstr ""
 
 # automatic translation
@@ -5617,8 +5597,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Select this option to add the <menuchoice><guimenu>Message</guimenu> "
-"<guimenuitem>Share Mail Text &gt;</guimenuitem></menuchoice> function to the"
-" composer. Four options are offered: Nextcloud, Pastebin, Bluetooth, and "
+"<guimenuitem>Share Mail Text &gt;</guimenuitem></menuchoice> function to the "
+"composer. Four options are offered: Nextcloud, Pastebin, Bluetooth, and "
 "Email (opens a second composer window). This plugin is disabled by default."
 msgstr ""
 
@@ -5681,8 +5661,7 @@ msgstr ""
 msgid ""
 "Select this option to add the <menuchoice><guimenu>Tools</guimenu> "
 "<guimenuitem>Check Grammar (Grammalecte)</guimenuitem></menuchoice> option "
-"to the Composer window. This option is special, for the French language "
-"only."
+"to the Composer window. This option is special, for the French language only."
 msgstr ""
 
 # automatic translation
@@ -5698,8 +5677,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Select this option to add the <menuchoice><guimenu>Tools</guimenu> "
-"<guimenuitem>Check Grammar (Language Tool)</guimenuitem></menuchoice> option"
-" to the Composer window. This is a multi-purpose tool, with support for "
+"<guimenuitem>Check Grammar (Language Tool)</guimenuitem></menuchoice> option "
+"to the Composer window. This is a multi-purpose tool, with support for "
 "checking grammar in many different languages."
 msgstr ""
 
@@ -5710,8 +5689,8 @@ msgstr ""
 msgid ""
 "The following six plugins permit you to decide which header styles can be "
 "selected from the <guimenu>View</guimenu> menu. See <link linkend=\"the-"
-"preview-pane-headers\">the description of various header views</link> in the"
-" \"Using &kmail;\" chapter for more information."
+"preview-pane-headers\">the description of various header views</link> in the "
+"\"Using &kmail;\" chapter for more information."
 msgstr ""
 
 # automatic translation
@@ -5774,8 +5753,8 @@ msgstr ""
 #: configure.docbook:3677
 #, no-c-format
 msgid ""
-"Select this option to enable the display of \"Cute\" headers. This plugin is"
-" enabled by default."
+"Select this option to enable the display of \"Cute\" headers. This plugin is "
+"enabled by default."
 msgstr ""
 
 # automatic translation
@@ -5790,10 +5769,10 @@ msgstr ""
 #: configure.docbook:3687
 #, no-c-format
 msgid ""
-"Select this option to enable the display of \"Long\" headers. This plugin is"
-" disabled by default. (Long headers are similar to standard headers, but "
-"will display some less common header information, like \"Reply-to\", when "
-"such headers are present.)"
+"Select this option to enable the display of \"Long\" headers. This plugin is "
+"disabled by default. (Long headers are similar to standard headers, but will "
+"display some less common header information, like \"Reply-to\", when such "
+"headers are present.)"
 msgstr ""
 
 # automatic translation
@@ -5848,12 +5827,11 @@ msgstr ""
 msgid ""
 "The next six plugins all provide special functions that can only be invoked "
 "with a toolbar button. Use the <menuchoice><guimenu>Settings</guimenu> "
-"<guimenuitem><inlinemediaobject><imageobject><imagedata "
-"fileref=\"configurebutton.png\" "
-"format=\"PNG\"/></imageobject></inlinemediaobject> Configure Toolbars... "
-"</guimenuitem> </menuchoice> dialog to add or remove the toolbar buttons "
-"associated with these functions after you select or disable one of these "
-"plugins."
+"<guimenuitem><inlinemediaobject><imageobject><imagedata fileref="
+"\"configurebutton.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"Configure Toolbars... </guimenuitem> </menuchoice> dialog to add or remove "
+"the toolbar buttons associated with these functions after you select or "
+"disable one of these plugins."
 msgstr ""
 
 # automatic translation
@@ -5934,8 +5912,8 @@ msgstr ""
 msgid ""
 "Select this option to permit the invocation of an executable command from "
 "the toolbar. Use the associated configuration dialog to select the "
-"executable, and to give it a name. The name you choose can later be added to"
-" the toolbar as a button, so you may invoke the script at will. This plugin "
+"executable, and to give it a name. The name you choose can later be added to "
+"the toolbar as a button, so you may invoke the script at will. This plugin "
 "is disabled by default."
 msgstr ""
 
@@ -5964,11 +5942,10 @@ msgstr ""
 msgid ""
 "The next four items are not really plugins; they are built-in &kmail; "
 "functions. Each one of these can be configured separately, by using the "
-"<guibutton>&nbsp;<inlinemediaobject><imageobject> <imagedata "
-"fileref=\"configurebutton.png\" format=\"PNG\"/></imageobject> "
-"</inlinemediaobject>&nbsp;</guibutton> button appearing next to the "
-"function's name. No restart is needed to make these configuration variables "
-"take effect."
+"<guibutton>&nbsp;<inlinemediaobject><imageobject> <imagedata fileref="
+"\"configurebutton.png\" format=\"PNG\"/></imageobject> </"
+"inlinemediaobject>&nbsp;</guibutton> button appearing next to the function's "
+"name. No restart is needed to make these configuration variables take effect."
 msgstr ""
 
 # automatic translation
@@ -5985,8 +5962,8 @@ msgstr ""
 msgid ""
 "This dialog allows you to control DomainKeys Identified Mail (DKIM) "
 "processing. DKIM is a cryptographic protocol that can assure you a "
-"particular message originated from the internet domain it claims to be from."
-" If the sender has set up DKIM properly and DKIM is enabled here, you will "
+"particular message originated from the internet domain it claims to be from. "
+"If the sender has set up DKIM properly and DKIM is enabled here, you will "
 "see a message \"DKIM valid\", and sometimes the name of the entity that "
 "signed the message, in the status bar at the bottom of the message preview "
 "window."
@@ -5997,8 +5974,8 @@ msgstr ""
 #: configure.docbook:3832
 #, no-c-format
 msgid ""
-"If you enable this option, be sure to change the default value (\"Nothing\")"
-" in the spin box labeled \"Save Record Key\" to some other value. The DKIM "
+"If you enable this option, be sure to change the default value (\"Nothing\") "
+"in the spin box labeled \"Save Record Key\" to some other value. The DKIM "
 "Checker does not work correctly if that variable is set to \"Nothing\"."
 msgstr ""
 
@@ -6034,8 +6011,8 @@ msgid ""
 "Use this configuration dialog to set custom folder properties for several "
 "different folders at once. You can select the folders to be modified from a "
 "tree view of all your folders on the left, and select properties to be set "
-"from the General, View, Templates, and Expiry tabs of the <link "
-"linkend=\"folders-properties-window\">\"Folder Properties\"</link> dialog."
+"from the General, View, Templates, and Expiry tabs of the <link linkend="
+"\"folders-properties-window\">\"Folder Properties\"</link> dialog."
 msgstr ""
 
 # automatic translation
@@ -6097,8 +6074,8 @@ msgid ""
 "Select this option to add the <link linkend=\"the-anti-spam-wizard\">Anti-"
 "Spam Wizard</link> to the <guimenu>Tools</guimenu> menu. This plugin is "
 "disabled by default. Note that once you have installed anti-spam software, "
-"this plugin may be safely disabled; the plugin is only needed for installing"
-" anti-spam software, not for running it."
+"this plugin may be safely disabled; the plugin is only needed for installing "
+"anti-spam software, not for running it."
 msgstr ""
 
 # automatic translation
@@ -6116,8 +6093,8 @@ msgid ""
 "Select this option to add the <link linkend=\"the-anti-virus-wizard\">Anti-"
 "Virus Wizard</link> to the <guimenu>Tools</guimenu> menu. This plugin is "
 "disabled by default. Note that once you have installed anti-virus software, "
-"this plugin may be safely disabled; the plugin is only needed for installing"
-" anti-virus software, not for running it."
+"this plugin may be safely disabled; the plugin is only needed for installing "
+"anti-virus software, not for running it."
 msgstr ""
 
 # automatic translation
@@ -6149,11 +6126,11 @@ msgstr ""
 #: configure.docbook:3941
 #, no-c-format
 msgid ""
-"Select this option to enable the Activity Log function, which is disabled by"
-" default. This plugin adds a new entry <guilabel>Log Activities</guilabel> "
-"to the <guilabel>Tools</guilabel> menu. Primarily for use by program "
-"developers -- the default log function does not provide much information "
-"(just a time stamp and \"Ready\", for most \"events\")."
+"Select this option to enable the Activity Log function, which is disabled by "
+"default. This plugin adds a new entry <guilabel>Log Activities</guilabel> to "
+"the <guilabel>Tools</guilabel> menu. Primarily for use by program developers "
+"-- the default log function does not provide much information (just a time "
+"stamp and \"Ready\", for most \"events\")."
 msgstr ""
 
 # automatic translation
@@ -6168,10 +6145,10 @@ msgstr ""
 #: configure.docbook:3954
 #, no-c-format
 msgid ""
-"Select this option to add the <ulink url=\"https://adblockplus.org\">Adblock"
-" Plus</ulink> filters to &kmail;. If you choose to activate this plugin, be "
-"prepared to spend a good deal of time tweaking the configuration file to get"
-" the filters you really want. This plugin is disabled by default."
+"Select this option to add the <ulink url=\"https://adblockplus.org\">Adblock "
+"Plus</ulink> filters to &kmail;. If you choose to activate this plugin, be "
+"prepared to spend a good deal of time tweaking the configuration file to get "
+"the filters you really want. This plugin is disabled by default."
 msgstr ""
 
 # automatic translation
@@ -6200,9 +6177,9 @@ msgid ""
 "Advertisers have their eyes everywhere. &HTML;-encoded messages often "
 "include a 0x0- or 1x1-pixel \"image\" (aka a \"tracking pixel\") that is "
 "actually a tracking &URL; in disguise. When &kmail; fetches image data from "
-"a web server, it must utilize the &URL;s embedded in the message; the server"
-" can use information embedded in the &URL; to infer that you have opened the"
-" message, &etc;"
+"a web server, it must utilize the &URL;s embedded in the message; the server "
+"can use information embedded in the &URL; to infer that you have opened the "
+"message, &etc;"
 msgstr ""
 
 # automatic translation
@@ -6246,12 +6223,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The &kmail; configuration file is called <filename>kmail2rc</filename> and "
-"can be found in your home directory. The location may vary according to your"
-" operating system or distribution, but can always be found by running the "
-"command <userinput><command>kf5-config --path config --locate "
-"kmail2rc</command></userinput>. For the remainder of this section, assume "
-"that the configuration file is located in "
-"<filename>/path/to/kmail2rc</filename>."
+"can be found in your home directory. The location may vary according to your "
+"operating system or distribution, but can always be found by running the "
+"command <userinput><command>kf5-config --path config --locate kmail2rc</"
+"command></userinput>. For the remainder of this section, assume that the "
+"configuration file is located in <filename>/path/to/kmail2rc</filename>."
 msgstr ""
 
 # automatic translation
@@ -6304,8 +6280,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <userinput><command>kwriteconfig</command> "
-"<option>--file <replaceable>/path/to/kmail2rc</replaceable> --group MDN "
-"--key SendMDNsWithEmptySender true</option></userinput>"
+"<option>--file <replaceable>/path/to/kmail2rc</replaceable> --group MDN --"
+"key SendMDNsWithEmptySender true</option></userinput>"
 msgstr ""
 
 # automatic translation
@@ -6333,8 +6309,8 @@ msgstr ""
 msgid ""
 "This option allows you to configure the application to close fully, even if "
 "there is a system tray icon configured, which would normally keep the "
-"application running. To enable the feature, add to the "
-"<quote>[General]</quote> section:"
+"application running. To enable the feature, add to the <quote>[General]</"
+"quote> section:"
 msgstr ""
 
 # automatic translation
@@ -6367,8 +6343,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In versions prior to 1.9, &kmail; saved all attachments to disk with "
-"permissions set to 600 &mdash; only readable or writable by the owner of the"
-" file. In response to user feedback, this was made configurable in &kmail; "
+"permissions set to 600 &mdash; only readable or writable by the owner of the "
+"file. In response to user feedback, this was made configurable in &kmail; "
 "version 1.9, with the defaults changed to honor the umask set on the user "
 "account while saving files to disk. To enable this feature, add to the "
 "<quote>[General]</quote> section:"
@@ -6403,8 +6379,8 @@ msgstr ""
 #: configure.docbook:4083
 #, no-c-format
 msgid ""
-"With this option enabled, &kmail; will check on every startup if there is an"
-" active out-of-office reply configured, and show a warning if this is the "
+"With this option enabled, &kmail; will check on every startup if there is an "
+"active out-of-office reply configured, and show a warning if this is the "
 "case. To disable the feature, add to the <quote>[OutOfOffice]</quote> "
 "section:"
 msgstr ""
@@ -6473,8 +6449,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you want to allow your users to upload their own out-of-office scripts "
-"but you do not want them to be able to change the domain to react to and the"
-" react-to-spam setting, you may add to the <quote>[OutOfOffice]</quote> "
+"but you do not want them to be able to change the domain to react to and the "
+"react-to-spam setting, you may add to the <quote>[OutOfOffice]</quote> "
 "section:"
 msgstr ""
 
@@ -6492,8 +6468,8 @@ msgstr ""
 msgid ""
 "<prompt>&percnt;</prompt> <userinput><command>kwriteconfig</command> "
 "<option>--file <replaceable>/path/to/kmail2rc</replaceable> --group "
-"OutOfOffice --key AllowOutOfOfficeUploadButNoSettings "
-"true</option></userinput>"
+"OutOfOffice --key AllowOutOfOfficeUploadButNoSettings true</option></"
+"userinput>"
 msgstr ""
 
 # automatic translation
@@ -6508,8 +6484,8 @@ msgstr ""
 #: configure.docbook:4138
 #, no-c-format
 msgid ""
-"When editing vacation (out-of-office) scripts, the user may specify a domain"
-" to limit the sending of such replies to. Applying defaults to the out-of-"
+"When editing vacation (out-of-office) scripts, the user may specify a domain "
+"to limit the sending of such replies to. Applying defaults to the out-of-"
 "office configuration dialog via the corresponding button will restore this "
 "domain, in case the user has changed it. To pre-load this setting with a "
 "default value, add to the <quote>[OutOfOffice]</quote> section:"

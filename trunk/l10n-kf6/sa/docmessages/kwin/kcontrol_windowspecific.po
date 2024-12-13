@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-05-06 02:14+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -118,8 +120,8 @@ msgstr ""
 #: index.docbook:47
 #, no-c-format
 msgid ""
-"Many of the settings you can configure here are those you can configure on a"
-" global basis in the <guilabel>Window Behavior</guilabel> &systemsettings; "
+"Many of the settings you can configure here are those you can configure on a "
+"global basis in the <guilabel>Window Behavior</guilabel> &systemsettings; "
 "module, however some of them are even more detailed."
 msgstr ""
 
@@ -128,8 +130,8 @@ msgstr ""
 #: index.docbook:51
 #, no-c-format
 msgid ""
-"They encompass geometry, placement, whether a window should be kept above or"
-" below others, focus stealing prevention, and translucency settings."
+"They encompass geometry, placement, whether a window should be kept above or "
+"below others, focus stealing prevention, and translucency settings."
 msgstr ""
 
 # automatic translation
@@ -137,12 +139,12 @@ msgstr ""
 #: index.docbook:55
 #, no-c-format
 msgid ""
-"You can access this module in two ways: from the titlebar of the application"
-" you wish to configure, or from the &systemsettings;. If you start it from "
+"You can access this module in two ways: from the titlebar of the application "
+"you wish to configure, or from the &systemsettings;. If you start it from "
 "within &systemsettings; you can use the <guibutton>New...</guibutton> to "
-"create a window profile, and the <guibutton>Detect Window "
-"Properties</guibutton> button on the resulting dialog to partially fill in "
-"the required information for the application you wish to configure."
+"create a window profile, and the <guibutton>Detect Window Properties</"
+"guibutton> button on the resulting dialog to partially fill in the required "
+"information for the application you wish to configure."
 msgstr ""
 
 # automatic translation
@@ -178,8 +180,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For example, when an application is started, it can be forced to always run "
-"on <emphasis>Virtual Desktop 2</emphasis>. Or a defect in an application can"
-" be worked-around to force the window above others."
+"on <emphasis>Virtual Desktop 2</emphasis>. Or a defect in an application can "
+"be worked-around to force the window above others."
 msgstr ""
 
 # automatic translation
@@ -188,10 +190,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Step-by-step <link linkend=\"examples\">examples</link> are provided along "
-"with detailed information on using the <link linkend=\"kwin-rule-"
-"editor\">&kwin; Rule Editor</link> to specify <link linkend=\"window-"
-"matching\">Window Matching</link> and <link linkend=\"window-"
-"attributes\">Window Attributes</link>."
+"with detailed information on using the <link linkend=\"kwin-rule-editor"
+"\">&kwin; Rule Editor</link> to specify <link linkend=\"window-matching"
+"\">Window Matching</link> and <link linkend=\"window-attributes\">Window "
+"Attributes</link>."
 msgstr ""
 
 # automatic translation
@@ -237,8 +239,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:101
 #, no-c-format
-msgid ""
-"There are several ways to invoke the &kwin; Rule Editor. Below are two:"
+msgid "There are several ways to invoke the &kwin; Rule Editor. Below are two:"
 msgstr ""
 
 # automatic translation
@@ -246,11 +247,10 @@ msgstr ""
 #: index.docbook:104
 #, no-c-format
 msgid ""
-"Right-click on the title-bar of any window, choose <menuchoice><guimenu>More"
-" Actions</guimenu><guimenuitem>Window Manager "
-"Settings...</guimenuitem></menuchoice> and in the "
-"<guilabel>Configure</guilabel> window, select <guilabel>Window "
-"Rules</guilabel> or"
+"Right-click on the title-bar of any window, choose <menuchoice><guimenu>More "
+"Actions</guimenu><guimenuitem>Window Manager Settings...</guimenuitem></"
+"menuchoice> and in the <guilabel>Configure</guilabel> window, select "
+"<guilabel>Window Rules</guilabel> or"
 msgstr ""
 
 # automatic translation
@@ -258,8 +258,8 @@ msgstr ""
 #: index.docbook:107
 #, no-c-format
 msgid ""
-"<guimenu>System Settings</guimenu><guisubmenu>Window "
-"Behavior</guisubmenu><guimenuitem>Window Rules</guimenuitem>"
+"<guimenu>System Settings</guimenu><guisubmenu>Window Behavior</"
+"guisubmenu><guimenuitem>Window Rules</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -274,8 +274,8 @@ msgstr ""
 #: index.docbook:112
 #, no-c-format
 msgid ""
-"Affect rules with <guilabel>New...</guilabel>, "
-"<guilabel>Modify...</guilabel> and <guilabel>Delete</guilabel>"
+"Affect rules with <guilabel>New...</guilabel>, <guilabel>Modify...</"
+"guilabel> and <guilabel>Delete</guilabel>"
 msgstr ""
 
 # automatic translation
@@ -308,10 +308,10 @@ msgstr ""
 #: index.docbook:117
 #, no-c-format
 msgid ""
-"When an application starts (or the rules are modified), &kwin; evaluates the"
-" rules from the top of the list to the bottom. For all rules which match a "
-"window, the collective set of attributes are applied to the window, then the"
-" window is displayed."
+"When an application starts (or the rules are modified), &kwin; evaluates the "
+"rules from the top of the list to the bottom. For all rules which match a "
+"window, the collective set of attributes are applied to the window, then the "
+"window is displayed."
 msgstr ""
 
 # automatic translation
@@ -381,8 +381,8 @@ msgstr ""
 #: index.docbook:147
 #, no-c-format
 msgid ""
-"As the name implies, <guilabel>Window matching</guilabel> is used to specify"
-" criteria to match one or more windows. The other three tabs are used to "
+"As the name implies, <guilabel>Window matching</guilabel> is used to specify "
+"criteria to match one or more windows. The other three tabs are used to "
 "alter the attributes of the matching windows."
 msgstr ""
 
@@ -405,9 +405,9 @@ msgstr ""
 #: index.docbook:152
 #, no-c-format
 msgid ""
-"Each window rule has user specified <link linkend=\"window-matching\">Window"
-" Matching</link> criteria. &kwin; uses the criteria to determine whether the"
-" rule is applicable for an application."
+"Each window rule has user specified <link linkend=\"window-matching\">Window "
+"Matching</link> criteria. &kwin; uses the criteria to determine whether the "
+"rule is applicable for an application."
 msgstr ""
 
 # automatic translation
@@ -424,8 +424,8 @@ msgstr ""
 msgid ""
 "Along with Window Matching criteria, each window rule has a set of <link "
 "linkend=\"window-attributes\">Window Attributes</link>. The attributes "
-"override the corresponding application's settings and are applied before the"
-" window is displayed by &kwin;."
+"override the corresponding application's settings and are applied before the "
+"window is displayed by &kwin;."
 msgstr ""
 
 # automatic translation
@@ -433,8 +433,8 @@ msgstr ""
 #: index.docbook:176
 #, no-c-format
 msgid ""
-"The <guilabel>Window Matching</guilabel> tab is used to specify the criteria"
-" &kwin; uses to evaluate whether the rule is applicable for a given window."
+"The <guilabel>Window Matching</guilabel> tab is used to specify the criteria "
+"&kwin; uses to evaluate whether the rule is applicable for a given window."
 msgstr ""
 
 # automatic translation
@@ -465,9 +465,9 @@ msgstr ""
 #: index.docbook:185
 #, no-c-format
 msgid ""
-"<guilabel>Window role</guilabel> - restrict the match to the function of the"
-" window (&eg; a <emphasis>main window</emphasis>, a <emphasis>chat "
-"window</emphasis>, &etc;)"
+"<guilabel>Window role</guilabel> - restrict the match to the function of the "
+"window (&eg; a <emphasis>main window</emphasis>, a <emphasis>chat window</"
+"emphasis>, &etc;)"
 msgstr ""
 
 # automatic translation
@@ -476,8 +476,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Window types</guilabel> - restrict the match to the type of "
-"window: <guilabel>Normal Window</guilabel>, <guilabel>Dialog "
-"Window</guilabel>, &etc;"
+"window: <guilabel>Normal Window</guilabel>, <guilabel>Dialog Window</"
+"guilabel>, &etc;"
 msgstr ""
 
 # automatic translation
@@ -542,11 +542,10 @@ msgstr ""
 #: index.docbook:199
 #, no-c-format
 msgid ""
-"Both <guilabel>Exact Match</guilabel> and <guilabel>Substring "
-"Match</guilabel> implement case insensitive matching. For example, "
-"<emphasis>AB</emphasis> matches the string <emphasis>AB</emphasis>, "
-"<emphasis>ab</emphasis>, <emphasis>Ab</emphasis> and "
-"<emphasis>aB</emphasis>."
+"Both <guilabel>Exact Match</guilabel> and <guilabel>Substring Match</"
+"guilabel> implement case insensitive matching. For example, <emphasis>AB</"
+"emphasis> matches the string <emphasis>AB</emphasis>, <emphasis>ab</"
+"emphasis>, <emphasis>Ab</emphasis> and <emphasis>aB</emphasis>."
 msgstr ""
 
 # automatic translation
@@ -555,8 +554,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Regular Expression</guilabel> - Qt's regular expressions are "
-"implemented - see <ulink url=\"https://doc.qt.io/qt-5/qregexp.html\">pattern"
-" matching using regular expressions</ulink>."
+"implemented - see <ulink url=\"https://doc.qt.io/qt-5/qregexp.html\">pattern "
+"matching using regular expressions</ulink>."
 msgstr ""
 
 # automatic translation
@@ -579,8 +578,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:221
 #, no-c-format
-msgid ""
-"For the application you'd like to create a rule, start the application."
+msgid "For the application you'd like to create a rule, start the application."
 msgstr ""
 
 # automatic translation
@@ -614,8 +612,8 @@ msgstr ""
 #: index.docbook:225
 #, no-c-format
 msgid ""
-"A new window is presented with information about the selected window. Select"
-" the desired fields:"
+"A new window is presented with information about the selected window. Select "
+"the desired fields:"
 msgstr ""
 
 # automatic translation
@@ -744,8 +742,8 @@ msgstr ""
 #: index.docbook:278
 #, no-c-format
 msgid ""
-"Use the attribute setting as defined in the rule and if changed at run-time,"
-" save and use the new value instead."
+"Use the attribute setting as defined in the rule and if changed at run-time, "
+"save and use the new value instead."
 msgstr ""
 
 # automatic translation
@@ -785,10 +783,9 @@ msgstr ""
 #: index.docbook:292
 #, no-c-format
 msgid ""
-"For <guilabel>Apply Now</guilabel>, if the rule has no other attributes set,"
-" the rule is deleted after evaluation whereas <guilabel>Force "
-"Temporarily</guilabel>, the rule is deleted after the last affected window "
-"terminates."
+"For <guilabel>Apply Now</guilabel>, if the rule has no other attributes set, "
+"the rule is deleted after evaluation whereas <guilabel>Force Temporarily</"
+"guilabel>, the rule is deleted after the last affected window terminates."
 msgstr ""
 
 # automatic translation
@@ -806,8 +803,8 @@ msgid ""
 "The <guilabel>Detect Window Properties</guilabel> button back-fills "
 "attribute-specific values - for more information see <link linkend=\"window-"
 "matching\">Window Matching</link>. For example the height and width values "
-"of the <guilabel>Size</guilabel> attribute is set to the height and width of"
-" the detected window."
+"of the <guilabel>Size</guilabel> attribute is set to the height and width of "
+"the detected window."
 msgstr ""
 
 # automatic translation
@@ -816,12 +813,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Yes/No</guilabel> arguments are used to toggle on or off "
-"attributes. Leniency with grammar helps one understand how a setting will be"
-" processed. <inlinemediaobject> <imageobject> <imagedata fileref=\"Face-"
-"smile.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> For "
-"example, the attribute <guilabel>Skip taskbar</guilabel>, when set to "
-"<guilabel>No</guilabel> means do not skip the taskbar. In other words, show "
-"the window in the taskbar."
+"attributes. Leniency with grammar helps one understand how a setting will be "
+"processed. <inlinemediaobject> <imageobject> <imagedata fileref=\"Face-smile."
+"png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> For example, the "
+"attribute <guilabel>Skip taskbar</guilabel>, when set to <guilabel>No</"
+"guilabel> means do not skip the taskbar. In other words, show the window in "
+"the taskbar."
 msgstr ""
 
 # automatic translation
@@ -913,8 +910,8 @@ msgstr ""
 #: index.docbook:328
 #, no-c-format
 msgid ""
-"Toggle the Fullscreen, Minimize and Shading window attribute. For example, a"
-" window can be started Minimized or if it is started Minimized, it can be "
+"Toggle the Fullscreen, Minimize and Shading window attribute. For example, a "
+"window can be started Minimized or if it is started Minimized, it can be "
 "forced to not."
 msgstr ""
 
@@ -925,8 +922,8 @@ msgstr ""
 msgid ""
 "Maximized attribute is emulated by using both <guilabel>Maximized "
 "horizontally</guilabel> and <guilabel>Maximized vertically</guilabel> or "
-"<guilabel>Initial placement</guilabel> with the "
-"<guilabel>Maximizing</guilabel> argument."
+"<guilabel>Initial placement</guilabel> with the <guilabel>Maximizing</"
+"guilabel> argument."
 msgstr ""
 
 # automatic translation
@@ -1024,8 +1021,8 @@ msgstr ""
 #: index.docbook:354
 #, no-c-format
 msgid ""
-"Toggle whether to accept or ignore the window's requested geometry position."
-" To avoid conflicts between the default placement strategy and the window's "
+"Toggle whether to accept or ignore the window's requested geometry position. "
+"To avoid conflicts between the default placement strategy and the window's "
 "request, the placement strategy is ignored when the window's request is "
 "accepted."
 msgstr ""
@@ -1059,8 +1056,8 @@ msgid ""
 "Toggle whether to adhere to the window's requested aspect ratio or "
 "<emphasis>base increment</emphasis>.In order to understand this attribute, "
 "some background is required. Briefly, windows must request from the Window "
-"Manager, a base increment: the minimum number of <emphasis>height</emphasis>"
-" X <emphasis>width</emphasis> pixels per re-size request. Typically, it's "
+"Manager, a base increment: the minimum number of <emphasis>height</emphasis> "
+"X <emphasis>width</emphasis> pixels per re-size request. Typically, it's "
 "1x1. Other windows though, for example terminal emulators or editors, use "
 "fixed-fonts and request their base-increment according to the size of one "
 "character."
@@ -1267,10 +1264,10 @@ msgstr ""
 #: index.docbook:452
 #, no-c-format
 msgid ""
-"When a window wants focus, control on a scale (from "
-"<guilabel>None</guilabel> to <guilabel>Extreme</guilabel>) whether to honor "
-"the request and place above all other windows, or ignore its request "
-"(potentially leaving the window behind other windows):"
+"When a window wants focus, control on a scale (from <guilabel>None</"
+"guilabel> to <guilabel>Extreme</guilabel>) whether to honor the request and "
+"place above all other windows, or ignore its request (potentially leaving "
+"the window behind other windows):"
 msgstr ""
 
 # automatic translation
@@ -1348,9 +1345,9 @@ msgstr ""
 msgid ""
 "Toggle whether to ignore global shortcuts (as defined by "
 "<menuchoice><guimenu>System Settings</guimenu><guisubmenu>Shortcuts and "
-"Gestures</guisubmenu><guimenuitem>Global "
-"Shortcuts</guimenuitem></menuchoice> or by running <varname>kcmshell6 "
-"keys</varname> in <guilabel>konsole</guilabel>) while the window is active."
+"Gestures</guisubmenu><guimenuitem>Global Shortcuts</guimenuitem></"
+"menuchoice> or by running <varname>kcmshell6 keys</varname> in "
+"<guilabel>konsole</guilabel>) while the window is active."
 msgstr ""
 
 # automatic translation
@@ -1365,8 +1362,8 @@ msgstr ""
 #: index.docbook:479
 #, no-c-format
 msgid ""
-"Toggle whether to display the <guilabel>Close</guilabel> button on the title"
-" bar."
+"Toggle whether to display the <guilabel>Close</guilabel> button on the title "
+"bar."
 msgstr ""
 
 # automatic translation
@@ -1487,11 +1484,11 @@ msgstr ""
 #: index.docbook:510
 #, no-c-format
 msgid ""
-"Toggle whether to disable compositing while the window "
-"<emphasis>exists</emphasis>. If compositing is enabled and the rule "
-"specifies to disable compositing, while <emphasis>any</emphasis> matching "
-"window exists, compositing will be disabled. Compositing is re-enabled when "
-"the last matching window terminates."
+"Toggle whether to disable compositing while the window <emphasis>exists</"
+"emphasis>. If compositing is enabled and the rule specifies to disable "
+"compositing, while <emphasis>any</emphasis> matching window exists, "
+"compositing will be disabled. Compositing is re-enabled when the last "
+"matching window terminates."
 msgstr ""
 
 # automatic translation
@@ -1534,8 +1531,8 @@ msgstr ""
 msgid ""
 "Pin &akregator; to <emphasis>Virtual Desktop 2</emphasis>. Additionally, "
 "start the application with a preferred size and position. For each "
-"attribute, use the <guilabel>Apply Initially</guilabel> <link "
-"linkend=\"parameters\">parameter</link> so it can be overridden at run-time."
+"attribute, use the <guilabel>Apply Initially</guilabel> <link linkend="
+"\"parameters\">parameter</link> so it can be overridden at run-time."
 msgstr ""
 
 # automatic translation
@@ -1559,9 +1556,8 @@ msgstr ""
 #: index.docbook:551
 #, no-c-format
 msgid ""
-"Right-click on the titlebar and select <menuchoice><guimenu>More "
-"Actions</guimenu><guimenuitem>Window Manager "
-"Settings...</guimenuitem></menuchoice>:"
+"Right-click on the titlebar and select <menuchoice><guimenu>More Actions</"
+"guimenu><guimenuitem>Window Manager Settings...</guimenuitem></menuchoice>:"
 msgstr ""
 
 # automatic translation
@@ -1569,8 +1565,8 @@ msgstr ""
 #: index.docbook:563
 #, no-c-format
 msgid ""
-"Select the <guilabel>Window Rules</guilabel> in the left column and click on"
-" <guilabel>New...</guilabel>:"
+"Select the <guilabel>Window Rules</guilabel> in the left column and click on "
+"<guilabel>New...</guilabel>:"
 msgstr ""
 
 # automatic translation
@@ -1587,12 +1583,12 @@ msgstr ""
 #: index.docbook:587
 #, no-c-format
 msgid ""
-"Click <guilabel>Detect Window Properties</guilabel> with <guilabel>0s "
-"delay</guilabel> the cursor immediately turns into cross-hairs. Click "
-"(anywhere) inside the &akregator; window (but not the title bar). The window"
-" criteria are presented. Match only by primary class name so leave the check"
-" boxes unchecked - for additional information see <link linkend=\"window-"
-"matching\">window matching</link>:"
+"Click <guilabel>Detect Window Properties</guilabel> with <guilabel>0s delay</"
+"guilabel> the cursor immediately turns into cross-hairs. Click (anywhere) "
+"inside the &akregator; window (but not the title bar). The window criteria "
+"are presented. Match only by primary class name so leave the check boxes "
+"unchecked - for additional information see <link linkend=\"window-matching"
+"\">window matching</link>:"
 msgstr ""
 
 # automatic translation
@@ -1611,10 +1607,9 @@ msgstr ""
 #: index.docbook:611
 #, no-c-format
 msgid ""
-"Enable the window attributes: <guilabel>Position</guilabel>, "
-"<guilabel>Size</guilabel> and <guilabel>Desktop</guilabel>. The initial "
-"values are set by <guilabel>Detect Window Properties</guilabel> and can be "
-"overridden:"
+"Enable the window attributes: <guilabel>Position</guilabel>, <guilabel>Size</"
+"guilabel> and <guilabel>Desktop</guilabel>. The initial values are set by "
+"<guilabel>Detect Window Properties</guilabel> and can be overridden:"
 msgstr ""
 
 # automatic translation
@@ -1623,8 +1618,7 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Clicking <guilabel>OK</guilabel> in the previous window returns to the main "
-"<guilabel>KWin Rules</guilabel>. The new rule with its description is "
-"listed:"
+"<guilabel>KWin Rules</guilabel>. The new rule with its description is listed:"
 msgstr ""
 
 # automatic translation
@@ -1663,8 +1657,8 @@ msgstr ""
 #: index.docbook:642
 #, no-c-format
 msgid ""
-"For each attribute, use the <guilabel>Force</guilabel> <link "
-"linkend=\"parameters\">parameter</link> so it can not be overridden."
+"For each attribute, use the <guilabel>Force</guilabel> <link linkend="
+"\"parameters\">parameter</link> so it can not be overridden."
 msgstr ""
 
 # automatic translation
@@ -1694,11 +1688,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>Kopete Chat</guilabel> rule's matching-criteria is more "
-"restrictive than the <emphasis>Kopete</emphasis> rule as it needs to match a"
-" specific Window Role: the chat window. Due to <link linkend=\"rule-"
-"evaluation\">rule evaluation</link> processing, the <guilabel>Kopete "
-"Chat</guilabel> rule must precede the &kopete; rule in the <link "
-"linkend=\"kopete-kwin-rule-list\">KWin Rule list for Kopete</link>."
+"restrictive than the <emphasis>Kopete</emphasis> rule as it needs to match a "
+"specific Window Role: the chat window. Due to <link linkend=\"rule-evaluation"
+"\">rule evaluation</link> processing, the <guilabel>Kopete Chat</guilabel> "
+"rule must precede the &kopete; rule in the <link linkend=\"kopete-kwin-rule-"
+"list\">KWin Rule list for Kopete</link>."
 msgstr ""
 
 # automatic translation
@@ -1721,10 +1715,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Use <guilabel>Detect Window Properties</guilabel> and select the "
-"<guilabel>Kopete Chat</guilabel> window. Check the <guilabel>Window "
-"role</guilabel> box to restrict the criteria to chat windows - for "
-"additional information see <link linkend=\"window-matching\">window "
-"matching</link>:"
+"<guilabel>Kopete Chat</guilabel> window. Check the <guilabel>Window role</"
+"guilabel> box to restrict the criteria to chat windows - for additional "
+"information see <link linkend=\"window-matching\">window matching</link>:"
 msgstr ""
 
 # automatic translation
@@ -1759,12 +1752,11 @@ msgstr ""
 #: index.docbook:694
 #, no-c-format
 msgid ""
-"The <guilabel>Skip taskbar</guilabel> attribute is set to "
-"<guilabel>No</guilabel> to display the window in the taskbar which loosely "
-"translates to: <emphasis>no</emphasis> <emphasis>do not</emphasis> "
-"<emphasis>skip taskbar</emphasis> <inlinemediaobject> <imageobject> "
-"<imagedata fileref=\"Face-smile.png\" format=\"PNG\"/> </imageobject> "
-"</inlinemediaobject>."
+"The <guilabel>Skip taskbar</guilabel> attribute is set to <guilabel>No</"
+"guilabel> to display the window in the taskbar which loosely translates to: "
+"<emphasis>no</emphasis> <emphasis>do not</emphasis> <emphasis>skip taskbar</"
+"emphasis> <inlinemediaobject> <imageobject> <imagedata fileref=\"Face-smile."
+"png\" format=\"PNG\"/> </imageobject> </inlinemediaobject>."
 msgstr ""
 
 # automatic translation
@@ -1804,9 +1796,9 @@ msgstr ""
 #: index.docbook:741
 #, no-c-format
 msgid ""
-"As mentioned, due to <link linkend=\"rule-evaluation\">rule "
-"evaluation</link> processing, the <guilabel>Kopete Chat</guilabel> rule must"
-" precede the &kopete; rule:"
+"As mentioned, due to <link linkend=\"rule-evaluation\">rule evaluation</"
+"link> processing, the <guilabel>Kopete Chat</guilabel> rule must precede the "
+"&kopete; rule:"
 msgstr ""
 
 # automatic translation
@@ -1838,8 +1830,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Use <guilabel>Detect Window Properties</guilabel> and select any "
-"<emphasis>sticky note</emphasis> window. Match only by primary class name so"
-" leave the check boxes unchecked - for additional information see <link "
+"<emphasis>sticky note</emphasis> window. Match only by primary class name so "
+"leave the check boxes unchecked - for additional information see <link "
 "linkend=\"window-matching\">window matching</link>:"
 msgstr ""
 
@@ -1866,8 +1858,8 @@ msgstr ""
 msgid ""
 "To pop an active window to the top, set its <guilabel>Focus stealing "
 "prevention</guilabel> attribute to <guilabel>None</guilabel>, typically, in "
-"conjunction with the <guilabel>Force</guilabel> <link "
-"linkend=\"parameters\">parameter</link>:"
+"conjunction with the <guilabel>Force</guilabel> <link linkend=\"parameters"
+"\">parameter</link>:"
 msgstr ""
 
 # automatic translation
@@ -1921,8 +1913,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Each rule's matching criteria is sufficiently restrictive so their order "
-"within the main &kwin; window is not important to affect <link "
-"linkend=\"rule-evaluation\">rule evaluation</link>."
+"within the main &kwin; window is not important to affect <link linkend="
+"\"rule-evaluation\">rule evaluation</link>."
 msgstr ""
 
 # automatic translation
@@ -1937,8 +1929,8 @@ msgstr ""
 #: index.docbook:827
 #, no-c-format
 msgid ""
-"Assuming the <guilabel>Thunderbird Main</guilabel> window is open, sized and"
-" position to suit:"
+"Assuming the <guilabel>Thunderbird Main</guilabel> window is open, sized and "
+"position to suit:"
 msgstr ""
 
 # automatic translation
@@ -2000,8 +1992,8 @@ msgstr ""
 msgid ""
 "Use <guilabel>Detect Window Properties</guilabel> and select the "
 "<guilabel>Thunderbird Reminder</guilabel> window. Check the "
-"<guilabel>Secondary class name</guilabel> and <guilabel>Window "
-"Type</guilabel> boxes to restrict the criteria to reminder windows - for "
+"<guilabel>Secondary class name</guilabel> and <guilabel>Window Type</"
+"guilabel> boxes to restrict the criteria to reminder windows - for "
 "additional information see <link linkend=\"window-matching\">window "
 "matching</link>:"
 msgstr ""
@@ -2025,9 +2017,9 @@ msgstr ""
 #: index.docbook:961
 #, no-c-format
 msgid ""
-"If you are unfamiliar with creating &kwin; Rules, see this <link "
-"linkend=\"pin-a-window-to-a-desktop-and-set-other-attributes\">detailed "
-"example</link> to base your new rule."
+"If you are unfamiliar with creating &kwin; Rules, see this <link linkend="
+"\"pin-a-window-to-a-desktop-and-set-other-attributes\">detailed example</"
+"link> to base your new rule."
 msgstr ""
 
 # automatic translation
@@ -2042,10 +2034,10 @@ msgstr ""
 #: index.docbook:964
 #, no-c-format
 msgid ""
-"&Emacs; and <guilabel>gVim</guilabel>, when maximized (full-screen mode) and"
-" under certain conditions may encounter window re-sizing issues - see <ulink"
-" url=\"https://bugs.kde.org/show_bug.cgi?id=252314\">Emacs window resizes "
-"...</ulink> A &kwin; Rule will work-around the issue."
+"&Emacs; and <guilabel>gVim</guilabel>, when maximized (full-screen mode) and "
+"under certain conditions may encounter window re-sizing issues - see <ulink "
+"url=\"https://bugs.kde.org/show_bug.cgi?id=252314\">Emacs window resizes ..."
+"</ulink> A &kwin; Rule will work-around the issue."
 msgstr ""
 
 # automatic translation
@@ -2062,8 +2054,8 @@ msgstr ""
 msgid ""
 "Use <guilabel>Detect Window Properties</guilabel> and select the &Emacs; "
 "window. Match only by <guilabel>primary class name</guilabel> so leave the "
-"check boxes unchecked - for additional information see <link "
-"linkend=\"window-matching\">window matching</link>"
+"check boxes unchecked - for additional information see <link linkend="
+"\"window-matching\">window matching</link>"
 msgstr ""
 
 # automatic translation
@@ -2081,10 +2073,10 @@ msgstr ""
 #: index.docbook:993
 #, no-c-format
 msgid ""
-"Ignore &Emacs;'s full-screen request by enabling the <guilabel>Obey geometry"
-" restrictions</guilabel> attribute, toggling it to off "
-"(<guilabel>No</guilabel>) to ignore and selecting the "
-"<guilabel>Force</guilabel> <link linkend=\"parameters\">parameter</link>:"
+"Ignore &Emacs;'s full-screen request by enabling the <guilabel>Obey geometry "
+"restrictions</guilabel> attribute, toggling it to off (<guilabel>No</"
+"guilabel>) to ignore and selecting the <guilabel>Force</guilabel> <link "
+"linkend=\"parameters\">parameter</link>:"
 msgstr ""
 
 # automatic translation
@@ -2099,9 +2091,9 @@ msgstr ""
 #: index.docbook:1013
 #, no-c-format
 msgid ""
-"Documentation Copyright see the UserBase <ulink "
-"url=\"https://userbase.kde.org/index.php?title=KWin "
-"Rules&amp;action=history\">KWin Rules page history</ulink>"
+"Documentation Copyright see the UserBase <ulink url=\"https://userbase.kde."
+"org/index.php?title=KWin Rules&amp;action=history\">KWin Rules page history</"
+"ulink>"
 msgstr ""
 
 # automatic translation

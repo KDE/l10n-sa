@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-05-22 02:11+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -63,14 +65,13 @@ msgstr ""
 msgid ""
 "<command>meinproc6</command> <arg choice=\"opt\">-h, --help</arg> <arg "
 "choice=\"opt\">-v, --version</arg> <arg choice=\"opt\">--cache<replaceable> "
-"file</replaceable></arg> <arg choice=\"opt\">--check</arg> <arg "
-"choice=\"opt\">--srcdir<replaceable> dir</replaceable></arg> <arg "
-"choice=\"opt\">--param "
+"file</replaceable></arg> <arg choice=\"opt\">--check</arg> <arg choice=\"opt"
+"\">--srcdir<replaceable> dir</replaceable></arg> <arg choice=\"opt\">--param "
 "<replaceable>key</replaceable>=<replaceable>value</replaceable></arg> "
 "<group> <group> <arg>-o</arg> <arg>--output</arg> </group> <replaceable> "
-"file</replaceable> </group> <arg choice=\"opt\">--stdout</arg> <arg "
-"choice=\"opt\">--stylesheet<replaceable> xsl</replaceable></arg> <arg "
-"choice=\"plain\">docbook_file</arg>"
+"file</replaceable> </group> <arg choice=\"opt\">--stdout</arg> <arg choice="
+"\"opt\">--stylesheet<replaceable> xsl</replaceable></arg> <arg choice=\"plain"
+"\">docbook_file</arg>"
 msgstr ""
 
 # automatic translation
@@ -162,8 +163,10 @@ msgstr ""
 #: man-meinproc6.1.docbook:130
 #, no-c-format
 msgid ""
-"The output can be a bit daunting, since one small mistake can cause a cascade of errors. \n"
-"The trick is to look at the first error, fix that error, save the file, and run <command>meinproc6</command> again."
+"The output can be a bit daunting, since one small mistake can cause a "
+"cascade of errors. \n"
+"The trick is to look at the first error, fix that error, save the file, and "
+"run <command>meinproc6</command> again."
 msgstr ""
 
 # automatic translation
@@ -249,10 +252,15 @@ msgstr ""
 #: man-meinproc6.1.docbook:185
 #, no-c-format
 msgid ""
-"The most common way to run <command>meinproc6</command> is simply as <literallayout>\n"
-"<userinput><command>meinproc6</command> <replaceable>docbook-file</replaceable>\n"
+"The most common way to run <command>meinproc6</command> is simply as "
+"<literallayout>\n"
+"<userinput><command>meinproc6</command> <replaceable>docbook-file</"
+"replaceable>\n"
 "</userinput>\n"
-"</literallayout> where <replaceable>docbook-file</replaceable> is usually index.docbook. This command creates &HTML; pages from the DocBook file. Note that these pages are only viewable in &kde;-based browsers (like &konqueror;)."
+"</literallayout> where <replaceable>docbook-file</replaceable> is usually "
+"index.docbook. This command creates &HTML; pages from the DocBook file. Note "
+"that these pages are only viewable in &kde;-based browsers (like "
+"&konqueror;)."
 msgstr ""
 
 # automatic translation
@@ -260,10 +268,17 @@ msgstr ""
 #: man-meinproc6.1.docbook:192
 #, no-c-format
 msgid ""
-"If you need to view the &HTML; output in another browser (for example, if you're placing it on line), use <literallayout>\n"
-"<userinput><command>meinproc6</command> --stylesheet <replaceable>stylesheet-name</replaceable> <replaceable>docbook-file</replaceable>\n"
+"If you need to view the &HTML; output in another browser (for example, if "
+"you're placing it on line), use <literallayout>\n"
+"<userinput><command>meinproc6</command> --stylesheet <replaceable>stylesheet-"
+"name</replaceable> <replaceable>docbook-file</replaceable>\n"
 "</userinput>\n"
-"</literallayout> where <replaceable>stylesheet-name</replaceable> is the full path to one of the &XSL; stylesheets in &lt;kdoctools_installation_prefix&gt;/share/kf5/kdoctools/customization/. To produce output suitable for the web, you can use <command>kde-web.xsl</command> or <command>kde-chunk-online.xsl</command>. See the <filename>README</filename> file in that directory for more details."
+"</literallayout> where <replaceable>stylesheet-name</replaceable> is the "
+"full path to one of the &XSL; stylesheets in &lt;"
+"kdoctools_installation_prefix&gt;/share/kf5/kdoctools/customization/. To "
+"produce output suitable for the web, you can use <command>kde-web.xsl</"
+"command> or <command>kde-chunk-online.xsl</command>. See the "
+"<filename>README</filename> file in that directory for more details."
 msgstr ""
 
 # automatic translation
@@ -278,8 +293,8 @@ msgstr ""
 #: man-meinproc6.1.docbook:206
 #, no-c-format
 msgid ""
-"<replaceable>kf6options</replaceable>(7), "
-"<replaceable>qt6options</replaceable>(7)"
+"<replaceable>kf6options</replaceable>(7), <replaceable>qt6options</"
+"replaceable>(7)"
 msgstr ""
 
 # automatic translation
@@ -294,6 +309,6 @@ msgstr ""
 #: man-meinproc6.1.docbook:211
 #, no-c-format
 msgid ""
-"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to"
-" report bugs."
+"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to "
+"report bugs."
 msgstr ""

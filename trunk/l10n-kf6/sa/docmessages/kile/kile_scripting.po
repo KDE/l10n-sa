@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -26,11 +28,11 @@ msgstr ""
 #: scripting.docbook:7
 #, no-c-format
 msgid ""
-"&kile;'s scripting feature allows the execution of <ulink "
-"url=\"http://en.wikipedia.org/wiki/ECMAScript\">ECMAScript</ulink> code, "
-"widely known as &javascript;. You will find a lot of tutorials, which "
-"provide information about objects (variables), functions and properties "
-"supported by &javascript;."
+"&kile;'s scripting feature allows the execution of <ulink url=\"http://en."
+"wikipedia.org/wiki/ECMAScript\">ECMAScript</ulink> code, widely known as "
+"&javascript;. You will find a lot of tutorials, which provide information "
+"about objects (variables), functions and properties supported by "
+"&javascript;."
 msgstr ""
 
 # automatic translation
@@ -39,9 +41,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Scripting support can be enabled in the configuration dialog of &kile;: "
-"<menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure "
-"Kile...</guisubmenu> "
-"<guimenuitem>Kile</guimenuitem><guilabel>Scripting</guilabel></menuchoice>."
+"<menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure Kile...</"
+"guisubmenu> <guimenuitem>Kile</guimenuitem><guilabel>Scripting</guilabel></"
+"menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -128,8 +130,8 @@ msgstr ""
 #: scripting.docbook:46
 #, no-c-format
 msgid ""
-"Refresh the list of available scripts, which are all found in "
-"<filename>$<envar>KDEDIR</envar>/share/apps/kile/scripts/</filename>."
+"Refresh the list of available scripts, which are all found in <filename>"
+"$<envar>KDEDIR</envar>/share/apps/kile/scripts/</filename>."
 msgstr ""
 
 # automatic translation
@@ -259,10 +261,10 @@ msgstr ""
 #: scripting.docbook:114
 #, no-c-format
 msgid ""
-"If you now type the assigned key sequence <userinput>bfx</userinput> in your"
-" text document, this key sequence will be removed and the script will be "
-"executed. It will insert <userinput>\\textbf{}</userinput> and the cursor is"
-" placed between the braces."
+"If you now type the assigned key sequence <userinput>bfx</userinput> in your "
+"text document, this key sequence will be removed and the script will be "
+"executed. It will insert <userinput>\\textbf{}</userinput> and the cursor is "
+"placed between the braces."
 msgstr ""
 
 # automatic translation
@@ -300,8 +302,8 @@ msgstr ""
 msgid ""
 "The scripting API presented here is available in all scripts. Before the "
 "contents of a script is loaded, &kile; first adds several prototypes and "
-"functions to the scripting context. This convenience API contains prototypes"
-" like text cursors and text ranges and is located in the folder "
+"functions to the scripting context. This convenience API contains prototypes "
+"like text cursors and text ranges and is located in the folder "
 "<filename>KILE_APP_DIR/script-plugins/</filename>."
 msgstr ""
 
@@ -310,13 +312,13 @@ msgstr ""
 #: scripting.docbook:137
 #, no-c-format
 msgid ""
-"&kile; scripts differ slightly from <ulink url=\"http://kate-"
-"editor.org\">&kate;</ulink> scripts, which use another design, as they also "
-"can be started from the command line. But all functions of the &kate; "
-"scripting API are also available in &kile;'s scripting API, so porting "
-"&javascript; code from &kate; to &kile; should be very easy. But as &kile; "
-"is a very rich featured &latex; editor, its own scripting API offers many "
-"more possibilities than &kate;'s one."
+"&kile; scripts differ slightly from <ulink url=\"http://kate-editor.org"
+"\">&kate;</ulink> scripts, which use another design, as they also can be "
+"started from the command line. But all functions of the &kate; scripting API "
+"are also available in &kile;'s scripting API, so porting &javascript; code "
+"from &kate; to &kile; should be very easy. But as &kile; is a very rich "
+"featured &latex; editor, its own scripting API offers many more "
+"possibilities than &kate;'s one."
 msgstr ""
 
 # automatic translation
@@ -373,8 +375,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "As &kile; is a text editor, all the scripting API is based on cursors and "
-"ranges whenever possible. A Cursor is a simple <literal>(line, "
-"column)</literal> tuple representing a text position in the document."
+"ranges whenever possible. A Cursor is a simple <literal>(line, column)</"
+"literal> tuple representing a text position in the document."
 msgstr ""
 
 # automatic translation
@@ -425,8 +427,7 @@ msgstr ""
 #. Tag: synopsis
 #: scripting.docbook:181
 #, no-c-format
-msgid ""
-"Cursor(<parameter>Cursor <replaceable>other</replaceable></parameter>);"
+msgid "Cursor(<parameter>Cursor <replaceable>other</replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -514,8 +515,8 @@ msgstr ""
 #: scripting.docbook:218
 #, no-c-format
 msgid ""
-"int Cursor.compareTo(<parameter>Cursor "
-"<replaceable>other</replaceable></parameter>);"
+"int Cursor.compareTo(<parameter>Cursor <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -556,8 +557,8 @@ msgstr ""
 #: scripting.docbook:230
 #, no-c-format
 msgid ""
-"bool Cursor.equals(<parameter>Cursor "
-"<replaceable>other</replaceable></parameter>);"
+"bool Cursor.equals(<parameter>Cursor <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -581,8 +582,8 @@ msgstr ""
 #: scripting.docbook:238
 #, no-c-format
 msgid ""
-"Returns the cursor as a string of the form "
-"<literal>Cursor(line,column)</literal>."
+"Returns the cursor as a string of the form <literal>Cursor(line,column)</"
+"literal>."
 msgstr ""
 
 # automatic translation
@@ -598,10 +599,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "As &kile; is a text editor, all the scripting API is based on cursors and "
-"ranges whenever possible. As Cursor is a simple <literal>(line, "
-"column)</literal> tuple representing a text position in the document, a "
-"Range spans text from a starting cursor position to an ending cursor "
-"position."
+"ranges whenever possible. As Cursor is a simple <literal>(line, column)</"
+"literal> tuple representing a text position in the document, a Range spans "
+"text from a starting cursor position to an ending cursor position."
 msgstr ""
 
 # automatic translation
@@ -655,9 +655,9 @@ msgstr ""
 #: scripting.docbook:267
 #, no-c-format
 msgid ""
-"Constructor: Calling <literal>new "
-"Range(<replaceable>startLine</replaceable>,<replaceable>startColumn</replaceable>,<replaceable>endLine</replaceable>,"
-" <replaceable>endColumn</replaceable>)</literal> returns the Range from "
+"Constructor: Calling <literal>new Range(<replaceable>startLine</replaceable>,"
+"<replaceable>startColumn</replaceable>,<replaceable>endLine</replaceable>, "
+"<replaceable>endColumn</replaceable>)</literal> returns the Range from "
 "(<literal>startLine</literal>, <literal>startColumn</literal>) to "
 "(<literal>endLine</literal>, <literal>endColumn</literal>)."
 msgstr ""
@@ -739,8 +739,8 @@ msgstr ""
 #: scripting.docbook:306
 #, no-c-format
 msgid ""
-"bool Range.contains(<parameter>Cursor "
-"<replaceable>cursor</replaceable></parameter>);"
+"bool Range.contains(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -748,8 +748,8 @@ msgstr ""
 #: scripting.docbook:307
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if this range contains the cursor position,"
-" otherwise <literal>false</literal>."
+"Returns <literal>true</literal>, if this range contains the cursor position, "
+"otherwise <literal>false</literal>."
 msgstr ""
 
 # automatic translation
@@ -757,8 +757,8 @@ msgstr ""
 #: scripting.docbook:313
 #, no-c-format
 msgid ""
-"bool Range.contains(<parameter>Range "
-"<replaceable>other</replaceable></parameter>);"
+"bool Range.contains(<parameter>Range <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -775,8 +775,8 @@ msgstr ""
 #: scripting.docbook:320
 #, no-c-format
 msgid ""
-"bool Range.containsColumn(<parameter>int "
-"<replaceable>column</replaceable></parameter>);"
+"bool Range.containsColumn(<parameter>int <replaceable>column</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -794,8 +794,8 @@ msgstr ""
 #: scripting.docbook:327
 #, no-c-format
 msgid ""
-"bool Range.containsLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"bool Range.containsLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -813,8 +813,8 @@ msgstr ""
 #: scripting.docbook:334
 #, no-c-format
 msgid ""
-"bool Range.overlaps(<parameter>Range "
-"<replaceable>other</replaceable></parameter>);"
+"bool Range.overlaps(<parameter>Range <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -832,8 +832,8 @@ msgstr ""
 #: scripting.docbook:341
 #, no-c-format
 msgid ""
-"bool Range.overlapsLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"bool Range.overlapsLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -851,8 +851,8 @@ msgstr ""
 #: scripting.docbook:348
 #, no-c-format
 msgid ""
-"bool Range.overlapsColumn(<parameter>int "
-"<replaceable>column</replaceable></parameter>);"
+"bool Range.overlapsColumn(<parameter>int <replaceable>column</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -870,8 +870,8 @@ msgstr ""
 #: scripting.docbook:355
 #, no-c-format
 msgid ""
-"bool Range.equals(<parameter>Range "
-"<replaceable>other</replaceable></parameter>);"
+"bool Range.equals(<parameter>Range <replaceable>other</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -895,8 +895,8 @@ msgstr ""
 #: scripting.docbook:363
 #, no-c-format
 msgid ""
-"Returns the range as a string of the form <literal>Range(Cursor(line,column)"
-" - Cursor(line,column))</literal>."
+"Returns the range as a string of the form <literal>Range(Cursor(line,column) "
+"- Cursor(line,column))</literal>."
 msgstr ""
 
 # automatic translation
@@ -912,9 +912,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Whenever a script is being executed, there is a global object (variable) "
-"<userinput>view</userinput> representing the current active editor view. All"
-" functions of <literal>view</literal> work with cursor positions or selected"
-" text. The following is a list of all available <userinput>view</userinput> "
+"<userinput>view</userinput> representing the current active editor view. All "
+"functions of <literal>view</literal> work with cursor positions or selected "
+"text. The following is a list of all available <userinput>view</userinput> "
 "functions."
 msgstr ""
 
@@ -929,8 +929,7 @@ msgstr ""
 #. Tag: para
 #: scripting.docbook:378
 #, no-c-format
-msgid ""
-"Programmatically performs the equivalent of pressing the backspace key."
+msgid "Programmatically performs the equivalent of pressing the backspace key."
 msgstr ""
 
 # automatic translation
@@ -952,8 +951,10 @@ msgstr ""
 #: scripting.docbook:391
 #, no-c-format
 msgid ""
-"void view.setCursorPosition(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"void view.setCursorPosition(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"void view.setCursorPosition(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"void view.setCursorPosition(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1054,8 +1055,8 @@ msgstr ""
 #: scripting.docbook:440
 #, no-c-format
 msgid ""
-"void view.setCursorLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"void view.setCursorLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1070,8 +1071,8 @@ msgstr ""
 #: scripting.docbook:447
 #, no-c-format
 msgid ""
-"void view.setCursorColumn(<parameter>int "
-"<replaceable>column</replaceable></parameter>);"
+"void view.setCursorColumn(<parameter>int <replaceable>column</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1153,8 +1154,8 @@ msgstr ""
 #: scripting.docbook:482
 #, no-c-format
 msgid ""
-"void view.setSelection(<parameter>Range "
-"<replaceable>range</replaceable></parameter>);"
+"void view.setSelection(<parameter>Range <replaceable>range</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1227,8 +1228,8 @@ msgstr ""
 #: scripting.docbook:517
 #, no-c-format
 msgid ""
-"void view.selectLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"void view.selectLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1243,9 +1244,8 @@ msgstr ""
 #: scripting.docbook:524
 #, no-c-format
 msgid ""
-"void view.selectLines(<parameter>int "
-"<replaceable>from</replaceable></parameter>, <parameter>int "
-"<replaceable>to</replaceable></parameter>);"
+"void view.selectLines(<parameter>int <replaceable>from</replaceable></"
+"parameter>, <parameter>int <replaceable>to</replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1294,8 +1294,8 @@ msgstr ""
 #: scripting.docbook:545
 #, no-c-format
 msgid ""
-"void view.selectEnvironment(<parameter>bool <replaceable>inside = "
-"false</replaceable></parameter>);"
+"void view.selectEnvironment(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1305,10 +1305,10 @@ msgstr ""
 msgid ""
 "Selects the entire text of the current &latex; environment. If "
 "<parameter>inside</parameter> is <literal>false</literal>, the environment "
-"text including the surrounding &latex; tags "
-"<userinput>\\begin{...}...\\end{...}</userinput> will be selected, else "
-"without these tags. If no parameter is given, <parameter>inside</parameter> "
-"is set to <literal>false</literal>."
+"text including the surrounding &latex; tags <userinput>\\begin{...}..."
+"\\end{...}</userinput> will be selected, else without these tags. If no "
+"parameter is given, <parameter>inside</parameter> is set to <literal>false</"
+"literal>."
 msgstr ""
 
 # automatic translation
@@ -1316,8 +1316,8 @@ msgstr ""
 #: scripting.docbook:552
 #, no-c-format
 msgid ""
-"void view.selectTexgroup(<parameter>bool <replaceable>inside = "
-"true</replaceable></parameter>);"
+"void view.selectTexgroup(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1325,9 +1325,9 @@ msgstr ""
 #: scripting.docbook:553
 #, no-c-format
 msgid ""
-"Selects the text of the current &latex; group. If "
-"<parameter>inside</parameter> is <literal>true</literal>, only the texgroup "
-"without the surrounding braces will be selected. If no parameter is given, "
+"Selects the text of the current &latex; group. If <parameter>inside</"
+"parameter> is <literal>true</literal>, only the texgroup without the "
+"surrounding braces will be selected. If no parameter is given, "
 "<parameter>inside</parameter> is set to <literal>true</literal>."
 msgstr ""
 
@@ -1387,16 +1387,15 @@ msgstr ""
 #: scripting.docbook:581
 #, no-c-format
 msgid ""
-"void document.insertText(<parameter>String "
-"<replaceable>text</replaceable></parameter>);"
+"void document.insertText(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
 #. Tag: para
 #: scripting.docbook:582
 #, no-c-format
-msgid ""
-"Inserts the <parameter>text</parameter> at the current cursor position."
+msgid "Inserts the <parameter>text</parameter> at the current cursor position."
 msgstr ""
 
 # automatic translation
@@ -1404,8 +1403,12 @@ msgstr ""
 #: scripting.docbook:588
 #, no-c-format
 msgid ""
-"void document.insertText(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>, <parameter>String <replaceable>text</replaceable></parameter>);\n"
-"void document.insertText(<parameter>Cursor <replaceable>cursor</replaceable></parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
+"void document.insertText(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>, "
+"<parameter>String <replaceable>text</replaceable></parameter>);\n"
+"void document.insertText(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>, <parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1420,9 +1423,14 @@ msgstr ""
 #: scripting.docbook:595
 #, no-c-format
 msgid ""
-"bool document.removeText(<parameter>int <replaceable>fromLine</replaceable></parameter>, <parameter>int <replaceable>fromColumn</replaceable></parameter>, <parameter>int <replaceable>toLine</replaceable></parameter>, <parameter>int <replaceable>toColumn</replaceable></parameter>);\n"
-"bool document.removeText(<parameter>Cursor <replaceable>from</replaceable></parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
-"bool document.removeText(<parameter>Range <replaceable>range</replaceable></parameter>);"
+"bool document.removeText(<parameter>int <replaceable>fromLine</replaceable></"
+"parameter>, <parameter>int <replaceable>fromColumn</replaceable></"
+"parameter>, <parameter>int <replaceable>toLine</replaceable></parameter>, "
+"<parameter>int <replaceable>toColumn</replaceable></parameter>);\n"
+"bool document.removeText(<parameter>Cursor <replaceable>from</replaceable></"
+"parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
+"bool document.removeText(<parameter>Range <replaceable>range</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1439,9 +1447,8 @@ msgstr ""
 #: scripting.docbook:602
 #, no-c-format
 msgid ""
-"bool document.replaceText(<parameter>Range "
-"<replaceable>range</replaceable></parameter>, <parameter>String "
-"<replaceable>text</replaceable></parameter>);"
+"bool document.replaceText(<parameter>Range <replaceable>range</replaceable></"
+"parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1519,8 +1526,8 @@ msgstr ""
 #: scripting.docbook:638
 #, no-c-format
 msgid ""
-"Returns the entire content of the document in a single text string. Newlines"
-" are marked with the newline character <literal>\\n</literal>."
+"Returns the entire content of the document in a single text string. Newlines "
+"are marked with the newline character <literal>\\n</literal>."
 msgstr ""
 
 # automatic translation
@@ -1528,9 +1535,14 @@ msgstr ""
 #: scripting.docbook:645
 #, no-c-format
 msgid ""
-"String document.text(<parameter>int <replaceable>fromLine</replaceable></parameter>, <parameter>int <replaceable>fromColumn</replaceable></parameter>, <parameter>int <replaceable>toLine</replaceable></parameter>, <parameter>int <replaceable>toColumn</replaceable></parameter>);\n"
-"String document.text(<parameter>Cursor <replaceable>from</replaceable></parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
-"String document.text(<parameter>Range <replaceable>range</replaceable></parameter>);"
+"String document.text(<parameter>int <replaceable>fromLine</replaceable></"
+"parameter>, <parameter>int <replaceable>fromColumn</replaceable></"
+"parameter>, <parameter>int <replaceable>toLine</replaceable></parameter>, "
+"<parameter>int <replaceable>toColumn</replaceable></parameter>);\n"
+"String document.text(<parameter>Cursor <replaceable>from</replaceable></"
+"parameter>, <parameter>Cursor <replaceable>to</replaceable></parameter>);\n"
+"String document.text(<parameter>Range <replaceable>range</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1538,8 +1550,8 @@ msgstr ""
 #: scripting.docbook:646
 #, no-c-format
 msgid ""
-"Returns the text in the given range. It is recommended to use the cursor and"
-" range based version for better readability of the source code."
+"Returns the text in the given range. It is recommended to use the cursor and "
+"range based version for better readability of the source code."
 msgstr ""
 
 # automatic translation
@@ -1547,8 +1559,8 @@ msgstr ""
 #: scripting.docbook:652
 #, no-c-format
 msgid ""
-"bool document.setText(<parameter>String "
-"<replaceable>text</replaceable></parameter>);"
+"bool document.setText(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1591,8 +1603,8 @@ msgstr ""
 #: scripting.docbook:673
 #, no-c-format
 msgid ""
-"String document.line(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"String document.line(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1623,8 +1635,8 @@ msgstr ""
 #: scripting.docbook:687
 #, no-c-format
 msgid ""
-"int document.lineLength(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"int document.lineLength(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1639,8 +1651,8 @@ msgstr ""
 #: scripting.docbook:694
 #, no-c-format
 msgid ""
-"bool document.insertLine(<parameter>String "
-"<replaceable>s</replaceable></parameter>);"
+"bool document.insertLine(<parameter>String <replaceable>s</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1658,9 +1670,8 @@ msgstr ""
 #: scripting.docbook:701
 #, no-c-format
 msgid ""
-"bool document.insertLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>, <parameter>String "
-"<replaceable>s</replaceable></parameter>);"
+"bool document.insertLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>s</replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1694,8 +1705,8 @@ msgstr ""
 #: scripting.docbook:715
 #, no-c-format
 msgid ""
-"bool document.removeLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"bool document.removeLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1713,8 +1724,8 @@ msgstr ""
 #: scripting.docbook:722
 #, no-c-format
 msgid ""
-"bool document.replaceLine(<parameter>String "
-"<replaceable>text</replaceable></parameter>);"
+"bool document.replaceLine(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1729,9 +1740,8 @@ msgstr ""
 #: scripting.docbook:729
 #, no-c-format
 msgid ""
-"bool document.replaceLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>, <parameter>String "
-"<replaceable>text</replaceable></parameter>);"
+"bool document.replaceLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1754,8 +1764,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Truncate the current line at the given column or cursor position. Returns "
-"<literal>true</literal> on success, or <literal>false</literal> if the given"
-" line is not part of the document range."
+"<literal>true</literal> on success, or <literal>false</literal> if the given "
+"line is not part of the document range."
 msgstr ""
 
 # automatic translation
@@ -1763,8 +1773,10 @@ msgstr ""
 #: scripting.docbook:743
 #, no-c-format
 msgid ""
-"bool document.truncate(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"bool document.truncate(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"bool document.truncate(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"bool document.truncate(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1773,8 +1785,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Truncate the given line at the given column or cursor position. Returns "
-"<literal>true</literal> on success, or <literal>false</literal> if the given"
-" line is not part of the document range."
+"<literal>true</literal> on success, or <literal>false</literal> if the given "
+"line is not part of the document range."
 msgstr ""
 
 # automatic translation
@@ -1789,8 +1801,8 @@ msgstr ""
 #: scripting.docbook:751
 #, no-c-format
 msgid ""
-"Returns the word at the current cursor position. If no word is found at this"
-" cursor position, the returned string is empty."
+"Returns the word at the current cursor position. If no word is found at this "
+"cursor position, the returned string is empty."
 msgstr ""
 
 # automatic translation
@@ -1798,8 +1810,10 @@ msgstr ""
 #: scripting.docbook:757
 #, no-c-format
 msgid ""
-"String document.wordAt(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"String document.wordAt(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"String document.wordAt(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"String document.wordAt(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1840,8 +1854,8 @@ msgstr ""
 #: scripting.docbook:772
 #, no-c-format
 msgid ""
-"Returns the &latex; command at the current cursor position. If no command is"
-" found at this cursor position, the returned string is empty."
+"Returns the &latex; command at the current cursor position. If no command is "
+"found at this cursor position, the returned string is empty."
 msgstr ""
 
 # automatic translation
@@ -1849,8 +1863,11 @@ msgstr ""
 #: scripting.docbook:778
 #, no-c-format
 msgid ""
-"String document.latexCommandAt(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"String document.latexCommandAt(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"String document.latexCommandAt(<parameter>int <replaceable>line</"
+"replaceable></parameter>, <parameter>int <replaceable>column</replaceable></"
+"parameter>);\n"
+"String document.latexCommandAt(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1874,8 +1891,8 @@ msgstr ""
 #: scripting.docbook:786
 #, no-c-format
 msgid ""
-"Returns the range of the &latex; command at the given cursor position. If no"
-" &latex; command is found, <literal>Range.invalid()</literal> is returned, "
+"Returns the range of the &latex; command at the given cursor position. If no "
+"&latex; command is found, <literal>Range.invalid()</literal> is returned, "
 "which can be tested with <literal>Range.isValid()</literal>."
 msgstr ""
 
@@ -1884,8 +1901,10 @@ msgstr ""
 #: scripting.docbook:792
 #, no-c-format
 msgid ""
-"String document.charAt(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"String document.charAt(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"String document.charAt(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"String document.charAt(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1900,8 +1919,8 @@ msgstr ""
 #: scripting.docbook:799
 #, no-c-format
 msgid ""
-"String document.firstChar(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"String document.firstChar(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1909,8 +1928,8 @@ msgstr ""
 #: scripting.docbook:800
 #, no-c-format
 msgid ""
-"Returns the first character in the given <parameter>line</parameter> that is"
-" not a whitespace. The first character is at column 0. If the line is empty "
+"Returns the first character in the given <parameter>line</parameter> that is "
+"not a whitespace. The first character is at column 0. If the line is empty "
 "or only contains whitespace characters, the returned string is empty."
 msgstr ""
 
@@ -1919,8 +1938,8 @@ msgstr ""
 #: scripting.docbook:806
 #, no-c-format
 msgid ""
-"String document.lastChar(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"String document.lastChar(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1938,8 +1957,10 @@ msgstr ""
 #: scripting.docbook:813
 #, no-c-format
 msgid ""
-"bool document.isSpace(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"bool document.isSpace(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"bool document.isSpace(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
+"bool document.isSpace(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -1964,8 +1985,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Insert a &kile; <emphasis>bullet</emphasis>. Remember that you can easily "
-"jump to the next or previous bullet. This will also highlight this bullet so"
-" that it will be deleted automatically, when you enter your first letter."
+"jump to the next or previous bullet. This will also highlight this bullet so "
+"that it will be deleted automatically, when you enter your first letter."
 msgstr ""
 
 # automatic translation
@@ -2017,8 +2038,8 @@ msgstr ""
 #: scripting.docbook:848
 #, no-c-format
 msgid ""
-"String document.environment(<parameter>bool <replaceable>inside = "
-"false</replaceable></parameter>);"
+"String document.environment(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2028,11 +2049,10 @@ msgstr ""
 msgid ""
 "Returns the entire text of the surrounding &latex; environment. If "
 "<parameter>inside</parameter> is <literal>false</literal>, the environment "
-"text including the surrounding &latex; tags "
-"<userinput>\\begin{...}...\\end{...}</userinput> will be returned, else "
-"without these tags. If no parameter is given, <parameter>inside</parameter> "
-"is set to <literal>false</literal>. If no environment is found, the returned"
-" string is empty."
+"text including the surrounding &latex; tags <userinput>\\begin{...}..."
+"\\end{...}</userinput> will be returned, else without these tags. If no "
+"parameter is given, <parameter>inside</parameter> is set to <literal>false</"
+"literal>. If no environment is found, the returned string is empty."
 msgstr ""
 
 # automatic translation
@@ -2040,8 +2060,8 @@ msgstr ""
 #: scripting.docbook:855
 #, no-c-format
 msgid ""
-"Range document.environmentRange(<parameter>bool <replaceable>inside = "
-"false</replaceable></parameter>);"
+"Range document.environmentRange(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2051,12 +2071,11 @@ msgstr ""
 msgid ""
 "Returns the range of the surrounding &latex; environment. If "
 "<parameter>inside</parameter> is <literal>false</literal>, the range "
-"including the surrounding &latex; tags "
-"<userinput>\\begin{...}...\\end{...}</userinput> will be returned, else "
-"without these tags. If no parameter is given, <parameter>inside</parameter> "
-"is set to <literal>false</literal>. If no environment is found, "
-"<literal>Range.invalid()</literal> is returned, which can be tested with "
-"<literal>Range.isValid()</literal>."
+"including the surrounding &latex; tags <userinput>\\begin{...}...\\end{...}</"
+"userinput> will be returned, else without these tags. If no parameter is "
+"given, <parameter>inside</parameter> is set to <literal>false</literal>. If "
+"no environment is found, <literal>Range.invalid()</literal> is returned, "
+"which can be tested with <literal>Range.isValid()</literal>."
 msgstr ""
 
 # automatic translation
@@ -2079,8 +2098,8 @@ msgstr ""
 #: scripting.docbook:869
 #, no-c-format
 msgid ""
-"void document.removeEnvironment(<parameter>bool <replaceable>inside = "
-"false</replaceable></parameter>);"
+"void document.removeEnvironment(<parameter>bool <replaceable>inside = false</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2090,10 +2109,10 @@ msgstr ""
 msgid ""
 "Removes the text of the surrounding &latex; environment. If "
 "<parameter>inside</parameter> is <literal>false</literal>, the environment "
-"text including the surrounding &latex; tags "
-"<userinput>\\begin{...}...\\end{...}</userinput> will be removed, else "
-"without these tags. If no parameter is given, <parameter>inside</parameter> "
-"is set to <literal>false</literal>."
+"text including the surrounding &latex; tags <userinput>\\begin{...}..."
+"\\end{...}</userinput> will be removed, else without these tags. If no "
+"parameter is given, <parameter>inside</parameter> is set to <literal>false</"
+"literal>."
 msgstr ""
 
 # automatic translation
@@ -2149,8 +2168,8 @@ msgstr ""
 #: scripting.docbook:897
 #, no-c-format
 msgid ""
-"String document.texgroup(<parameter>bool <replaceable>inside = "
-"true</replaceable></parameter>);"
+"String document.texgroup(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2158,13 +2177,12 @@ msgstr ""
 #: scripting.docbook:898
 #, no-c-format
 msgid ""
-"Returns the text of the surrounding &latex; group. If "
-"<parameter>inside</parameter> is <literal>false</literal>, the text of this "
-"&latex; group including the surrounding braces <userinput>{...}</userinput> "
-"will be returned, else without them. If no parameter is given, "
-"<parameter>inside</parameter> is set to <literal>false</literal>. The "
-"returned string is empty, if no surrounding &latex; group is found at the "
-"current cursor position."
+"Returns the text of the surrounding &latex; group. If <parameter>inside</"
+"parameter> is <literal>false</literal>, the text of this &latex; group "
+"including the surrounding braces <userinput>{...}</userinput> will be "
+"returned, else without them. If no parameter is given, <parameter>inside</"
+"parameter> is set to <literal>false</literal>. The returned string is empty, "
+"if no surrounding &latex; group is found at the current cursor position."
 msgstr ""
 
 # automatic translation
@@ -2172,8 +2190,8 @@ msgstr ""
 #: scripting.docbook:904
 #, no-c-format
 msgid ""
-"Range document.texgroupRange(<parameter>bool <replaceable>inside = "
-"true</replaceable></parameter>);"
+"Range document.texgroupRange(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2181,13 +2199,13 @@ msgstr ""
 #: scripting.docbook:905
 #, no-c-format
 msgid ""
-"Returns the range of the surrounding &latex; group. If "
-"<parameter>inside</parameter> is <literal>false</literal>, the range "
-"including the surrounding braces <userinput>{...}</userinput> will be "
-"returned, else without them. If no parameter is given, "
-"<parameter>inside</parameter> is set to <literal>false</literal>. If no "
-"group is found, <literal>Range.invalid()</literal> is returned, which can be"
-" tested with <literal>Range.isValid()</literal>."
+"Returns the range of the surrounding &latex; group. If <parameter>inside</"
+"parameter> is <literal>false</literal>, the range including the surrounding "
+"braces <userinput>{...}</userinput> will be returned, else without them. If "
+"no parameter is given, <parameter>inside</parameter> is set to "
+"<literal>false</literal>. If no group is found, <literal>Range.invalid()</"
+"literal> is returned, which can be tested with <literal>Range.isValid()</"
+"literal>."
 msgstr ""
 
 # automatic translation
@@ -2195,8 +2213,8 @@ msgstr ""
 #: scripting.docbook:911
 #, no-c-format
 msgid ""
-"void document.removeTexgroup(<parameter>bool <replaceable>inside = "
-"true</replaceable></parameter>);"
+"void document.removeTexgroup(<parameter>bool <replaceable>inside = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2204,11 +2222,11 @@ msgstr ""
 #: scripting.docbook:912
 #, no-c-format
 msgid ""
-"Removes the text of the surrounding &latex; group. If "
-"<parameter>inside</parameter> is <literal>false</literal>, the text of this "
-"&latex; group including the surrounding braces <userinput>{...}</userinput> "
-"will be removed, else without them. If no parameter is given, "
-"<parameter>inside</parameter> is set to <literal>false</literal>."
+"Removes the text of the surrounding &latex; group. If <parameter>inside</"
+"parameter> is <literal>false</literal>, the text of this &latex; group "
+"including the surrounding braces <userinput>{...}</userinput> will be "
+"removed, else without them. If no parameter is given, <parameter>inside</"
+"parameter> is set to <literal>false</literal>."
 msgstr ""
 
 # automatic translation
@@ -2240,8 +2258,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns the text of the surrounding &latex; mathgroup. The returned string "
-"is empty, if no surrounding &latex; mathgroup is found at the current cursor"
-" position."
+"is empty, if no surrounding &latex; mathgroup is found at the current cursor "
+"position."
 msgstr ""
 
 # automatic translation
@@ -2257,8 +2275,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns the range of the surrounding &latex; mathgroup. If there is no "
-"surrounding mathgroup, <literal>Range.invalid()</literal> is returned, which"
-" can be tested with <literal>Range.isValid()</literal>."
+"surrounding mathgroup, <literal>Range.invalid()</literal> is returned, which "
+"can be tested with <literal>Range.isValid()</literal>."
 msgstr ""
 
 # automatic translation
@@ -2322,8 +2340,11 @@ msgstr ""
 #: scripting.docbook:967
 #, no-c-format
 msgid ""
-"bool document.matchesAt(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>, <parameter>String <replaceable>text</replaceable></parameter>);\n"
-"bool document.matchesAt(<parameter>Cursor <replaceable>cursor</replaceable></parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
+"bool document.matchesAt(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>int <replaceable>column</replaceable></parameter>, "
+"<parameter>String <replaceable>text</replaceable></parameter>);\n"
+"bool document.matchesAt(<parameter>Cursor <replaceable>cursor</replaceable></"
+"parameter>, <parameter>String <replaceable>text</replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2332,8 +2353,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the given <parameter>text</parameter> "
-"matches at the corresponding cursor position, otherwise "
-"<literal>false</literal>."
+"matches at the corresponding cursor position, otherwise <literal>false</"
+"literal>."
 msgstr ""
 
 # automatic translation
@@ -2341,10 +2362,10 @@ msgstr ""
 #: scripting.docbook:974
 #, no-c-format
 msgid ""
-"bool document.startsWith(<parameter>int "
-"<replaceable>line</replaceable></parameter>, <parameter>String "
-"<replaceable>pattern</replaceable></parameter>, <parameter>bool "
-"<replaceable>skipWhiteSpaces = true</replaceable></parameter>);"
+"bool document.startsWith(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>pattern</replaceable></"
+"parameter>, <parameter>bool <replaceable>skipWhiteSpaces = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2352,10 +2373,10 @@ msgstr ""
 #: scripting.docbook:975
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if the line starts with "
-"<parameter>pattern</parameter>, otherwise <literal>false</literal>. The "
-"argument <parameter>skipWhiteSpaces</parameter> controls whether leading "
-"whitespaces are ignored."
+"Returns <literal>true</literal>, if the line starts with <parameter>pattern</"
+"parameter>, otherwise <literal>false</literal>. The argument "
+"<parameter>skipWhiteSpaces</parameter> controls whether leading whitespaces "
+"are ignored."
 msgstr ""
 
 # automatic translation
@@ -2363,10 +2384,10 @@ msgstr ""
 #: scripting.docbook:981
 #, no-c-format
 msgid ""
-"bool document.endsWith(<parameter>int "
-"<replaceable>line</replaceable></parameter>, <parameter>String "
-"<replaceable>pattern</replaceable></parameter>, <parameter>bool "
-"<replaceable>skipWhiteSpaces = true</replaceable></parameter>);"
+"bool document.endsWith(<parameter>int <replaceable>line</replaceable></"
+"parameter>, <parameter>String <replaceable>pattern</replaceable></"
+"parameter>, <parameter>bool <replaceable>skipWhiteSpaces = true</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2374,10 +2395,10 @@ msgstr ""
 #: scripting.docbook:982
 #, no-c-format
 msgid ""
-"Returns <literal>true</literal>, if the line ends with "
-"<parameter>pattern</parameter>, otherwise <literal>false</literal>. The "
-"argument <parameter>skipWhiteSpaces</parameter> controls whether trailing "
-"whitespaces are ignored."
+"Returns <literal>true</literal>, if the line ends with <parameter>pattern</"
+"parameter>, otherwise <literal>false</literal>. The argument "
+"<parameter>skipWhiteSpaces</parameter> controls whether trailing whitespaces "
+"are ignored."
 msgstr ""
 
 # automatic translation
@@ -2385,8 +2406,8 @@ msgstr ""
 #: scripting.docbook:988
 #, no-c-format
 msgid ""
-"int document.firstColumn(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"int document.firstColumn(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2394,9 +2415,9 @@ msgstr ""
 #: scripting.docbook:989
 #, no-c-format
 msgid ""
-"Returns the first non-whitespace column in the given "
-"<parameter>line</parameter>. If there are only whitespaces in the line, the "
-"return value is <literal>-1</literal>."
+"Returns the first non-whitespace column in the given <parameter>line</"
+"parameter>. If there are only whitespaces in the line, the return value is "
+"<literal>-1</literal>."
 msgstr ""
 
 # automatic translation
@@ -2404,8 +2425,8 @@ msgstr ""
 #: scripting.docbook:995
 #, no-c-format
 msgid ""
-"int document.lastColumn(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"int document.lastColumn(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2413,9 +2434,9 @@ msgstr ""
 #: scripting.docbook:996
 #, no-c-format
 msgid ""
-"Returns the last non-whitespace column in the given "
-"<parameter>line</parameter>. If there are only whitespaces in the line, the "
-"return value is <literal>-1</literal>."
+"Returns the last non-whitespace column in the given <parameter>line</"
+"parameter>. If there are only whitespaces in the line, the return value is "
+"<literal>-1</literal>."
 msgstr ""
 
 # automatic translation
@@ -2423,8 +2444,11 @@ msgstr ""
 #: scripting.docbook:1002
 #, no-c-format
 msgid ""
-"int document.prevNonSpaceColumn(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"int document.prevNonSpaceColumn(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"int document.prevNonSpaceColumn(<parameter>int <replaceable>line</"
+"replaceable></parameter>, <parameter>int <replaceable>column</replaceable></"
+"parameter>);\n"
+"int document.prevNonSpaceColumn(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2441,8 +2465,11 @@ msgstr ""
 #: scripting.docbook:1009
 #, no-c-format
 msgid ""
-"int document.nextNonSpaceColumn(<parameter>int <replaceable>line</replaceable></parameter>, <parameter>int <replaceable>column</replaceable></parameter>);\n"
-"int document.nextNonSpaceColumn(<parameter>Cursor <replaceable>cursor</replaceable></parameter>);"
+"int document.nextNonSpaceColumn(<parameter>int <replaceable>line</"
+"replaceable></parameter>, <parameter>int <replaceable>column</replaceable></"
+"parameter>);\n"
+"int document.nextNonSpaceColumn(<parameter>Cursor <replaceable>cursor</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2459,8 +2486,8 @@ msgstr ""
 #: scripting.docbook:1016
 #, no-c-format
 msgid ""
-"int document.prevNonEmptyLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"int document.prevNonEmptyLine(<parameter>int <replaceable>line</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2477,8 +2504,8 @@ msgstr ""
 #: scripting.docbook:1023
 #, no-c-format
 msgid ""
-"int document.nextNonEmptyLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"int document.nextNonEmptyLine(<parameter>int <replaceable>line</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2607,8 +2634,8 @@ msgstr ""
 #: scripting.docbook:1086
 #, no-c-format
 msgid ""
-"void document.gotoLine(<parameter>int "
-"<replaceable>line</replaceable></parameter>);"
+"void document.gotoLine(<parameter>int <replaceable>line</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -2646,11 +2673,11 @@ msgstr ""
 #: scripting.docbook:1101
 #, no-c-format
 msgid ""
-"Insert a <userinput>\\section</userinput> command. As with choosing the menu"
-" entry "
-"<menuchoice><guimenu>LaTeX</guimenu><guisubmenu>Sectioning</guisubmenu><guimenuitem>section</guimenuitem></menuchoice>"
-" a dialog will appear, where you can choose the title and an optional label "
-"for this sectioning command."
+"Insert a <userinput>\\section</userinput> command. As with choosing the menu "
+"entry <menuchoice><guimenu>LaTeX</guimenu><guisubmenu>Sectioning</"
+"guisubmenu><guimenuitem>section</guimenuitem></menuchoice> a dialog will "
+"appear, where you can choose the title and an optional label for this "
+"sectioning command."
 msgstr ""
 
 # automatic translation
@@ -2758,10 +2785,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Insert a <userinput>\\ref</userinput> command. As with choosing the menu "
-"entry "
-"<menuchoice><guimenu>&latex;</guimenu><guisubmenu>References</guisubmenu><guimenuitem>ref</guimenuitem></menuchoice>"
-" a dialog will appear, where you can choose from already defined labels, "
-"which are listed in a combobox."
+"entry <menuchoice><guimenu>&latex;</guimenu><guisubmenu>References</"
+"guisubmenu><guimenuitem>ref</guimenuitem></menuchoice> a dialog will appear, "
+"where you can choose from already defined labels, which are listed in a "
+"combobox."
 msgstr ""
 
 # automatic translation
@@ -2935,8 +2962,8 @@ msgstr ""
 #: scripting.docbook:1243
 #, no-c-format
 msgid ""
-"Insert a smart newline (see <xref linkend=\"editing_smartnewline\" "
-"role=\"select: title pageabbrv\"/>)."
+"Insert a smart newline (see <xref linkend=\"editing_smartnewline\" role="
+"\"select: title pageabbrv\"/>)."
 msgstr ""
 
 # automatic translation
@@ -2951,8 +2978,8 @@ msgstr ""
 #: scripting.docbook:1250
 #, no-c-format
 msgid ""
-"Insert a smart tabulator (see <xref linkend=\"editing_tabulator\" "
-"role=\"select: title pageabbrv\"/>)."
+"Insert a smart tabulator (see <xref linkend=\"editing_tabulator\" role="
+"\"select: title pageabbrv\"/>)."
 msgstr ""
 
 # automatic translation
@@ -2968,9 +2995,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Starts an edit group for undo/redo grouping. Make sure to always call "
-"<function>editEnd()</function> as often as you call "
-"<function>editBegin()</function>. Calling <function>editBegin()</function> "
-"internally uses a reference counter, i.e., this call can be nested."
+"<function>editEnd()</function> as often as you call <function>editBegin()</"
+"function>. Calling <function>editBegin()</function> internally uses a "
+"reference counter, i.e., this call can be nested."
 msgstr ""
 
 # automatic translation
@@ -2986,8 +3013,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Ends an edit group. The last call of <function>editEnd()</function> (i.e. "
-"the one for the first call of <function>editBegin()</function>) finishes the"
-" edit step."
+"the one for the first call of <function>editBegin()</function>) finishes the "
+"edit step."
 msgstr ""
 
 # automatic translation
@@ -3053,8 +3080,8 @@ msgid ""
 "The global object (variable) <userinput>kile</userinput> is used to handle "
 "top level interactions with the outside world, input message and dialog "
 "interfaces. These API calls are divided into subobjects to structure this "
-"part of the scripting API. Conceptually <userinput>kile</userinput> is a bit"
-" like <userinput>window</userinput> in a browser API."
+"part of the scripting API. Conceptually <userinput>kile</userinput> is a bit "
+"like <userinput>window</userinput> in a browser API."
 msgstr ""
 
 # automatic translation
@@ -3105,9 +3132,9 @@ msgstr ""
 #: scripting.docbook:1311
 #, no-c-format
 msgid ""
-"void kile.alert.information(<parameter>String "
-"<replaceable>text</replaceable></parameter>, <parameter>String "
-"<replaceable>caption</replaceable></parameter>);"
+"void kile.alert.information(<parameter>String <replaceable>text</"
+"replaceable></parameter>, <parameter>String <replaceable>caption</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3115,10 +3142,9 @@ msgstr ""
 #: scripting.docbook:1312
 #, no-c-format
 msgid ""
-"Display an <emphasis>Information</emphasis> dialog. "
-"<parameter>text</parameter> is the message string and "
-"<parameter>caption</parameter> the title of the message box. The default "
-"title is the script name."
+"Display an <emphasis>Information</emphasis> dialog. <parameter>text</"
+"parameter> is the message string and <parameter>caption</parameter> the "
+"title of the message box. The default title is the script name."
 msgstr ""
 
 # automatic translation
@@ -3126,9 +3152,9 @@ msgstr ""
 #: scripting.docbook:1318
 #, no-c-format
 msgid ""
-"void kile.alert.sorry(<parameter>String "
-"<replaceable>text</replaceable></parameter>, <parameter>String "
-"<replaceable>caption</replaceable></parameter>);"
+"void kile.alert.sorry(<parameter>String <replaceable>text</replaceable></"
+"parameter>, <parameter>String <replaceable>caption</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3146,9 +3172,9 @@ msgstr ""
 #: scripting.docbook:1325
 #, no-c-format
 msgid ""
-"void kile.alert.error(<parameter>String "
-"<replaceable>text</replaceable></parameter>, <parameter>String "
-"<replaceable>caption</replaceable></parameter>);"
+"void kile.alert.error(<parameter>String <replaceable>text</replaceable></"
+"parameter>, <parameter>String <replaceable>caption</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3156,8 +3182,8 @@ msgstr ""
 #: scripting.docbook:1326
 #, no-c-format
 msgid ""
-"Display an <emphasis>Error</emphasis> dialog. <parameter>text</parameter> is"
-" the message string and <parameter>caption</parameter> the title of the "
+"Display an <emphasis>Error</emphasis> dialog. <parameter>text</parameter> is "
+"the message string and <parameter>caption</parameter> the title of the "
 "message box. The default title is the script name."
 msgstr ""
 
@@ -3166,9 +3192,9 @@ msgstr ""
 #: scripting.docbook:1332
 #, no-c-format
 msgid ""
-"String kile.alert.question(<parameter>String "
-"<replaceable>text</replaceable></parameter>, <parameter>String "
-"<replaceable>caption</replaceable></parameter>);"
+"String kile.alert.question(<parameter>String <replaceable>text</"
+"replaceable></parameter>, <parameter>String <replaceable>caption</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3176,11 +3202,10 @@ msgstr ""
 #: scripting.docbook:1333
 #, no-c-format
 msgid ""
-"Display a simple <emphasis>question</emphasis> dialog. "
-"<parameter>text</parameter> is the message string and "
-"<parameter>caption</parameter> the title of the message box. The default "
-"title is the script name. The returned string is either "
-"<literal>yes</literal> or <literal>no</literal>."
+"Display a simple <emphasis>question</emphasis> dialog. <parameter>text</"
+"parameter> is the message string and <parameter>caption</parameter> the "
+"title of the message box. The default title is the script name. The returned "
+"string is either <literal>yes</literal> or <literal>no</literal>."
 msgstr ""
 
 # automatic translation
@@ -3188,9 +3213,9 @@ msgstr ""
 #: scripting.docbook:1339
 #, no-c-format
 msgid ""
-"String kile.alert.warning(<parameter>String "
-"<replaceable>text</replaceable></parameter>, <parameter>String "
-"<replaceable>caption</replaceable></parameter>);"
+"String kile.alert.warning(<parameter>String <replaceable>text</replaceable></"
+"parameter>, <parameter>String <replaceable>caption</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3198,11 +3223,10 @@ msgstr ""
 #: scripting.docbook:1340
 #, no-c-format
 msgid ""
-"Display a simple <emphasis>warning</emphasis> dialog. "
-"<parameter>text</parameter> is the message string and "
-"<parameter>caption</parameter> the title of the message box. The default "
-"title is the script name. The returned string is either "
-"<literal>continue</literal> or <literal>cancel</literal>."
+"Display a simple <emphasis>warning</emphasis> dialog. <parameter>text</"
+"parameter> is the message string and <parameter>caption</parameter> the "
+"title of the message box. The default title is the script name. The returned "
+"string is either <literal>continue</literal> or <literal>cancel</literal>."
 msgstr ""
 
 # automatic translation
@@ -3217,10 +3241,10 @@ msgstr ""
 #: scripting.docbook:1351
 #, no-c-format
 msgid ""
-"String kile.input.getListboxItem(<parameter>String "
-"<replaceable>caption</replaceable></parameter>, <parameter>String "
-"<replaceable>label</replaceable></parameter>, <parameter>StringList "
-"<replaceable>list</replaceable></parameter>);"
+"String kile.input.getListboxItem(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>StringList <replaceable>list</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3229,8 +3253,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Function to let the user select an item from a list, which is shown as a "
-"listbox. <parameter>caption</parameter> is the text that is displayed in the"
-" title bar, <parameter>label</parameter> is the text that appears as the "
+"listbox. <parameter>caption</parameter> is the text that is displayed in the "
+"title bar, <parameter>label</parameter> is the text that appears as the "
 "label for the list and <parameter>list</parameter> is the string list which "
 "is inserted into the list."
 msgstr ""
@@ -3240,10 +3264,10 @@ msgstr ""
 #: scripting.docbook:1358
 #, no-c-format
 msgid ""
-"String kile.input.getComboboxItem(<parameter>String "
-"<replaceable>caption</replaceable></parameter>, <parameter>String "
-"<replaceable>label</replaceable></parameter>, <parameter>StringList "
-"<replaceable>list</replaceable></parameter>);"
+"String kile.input.getComboboxItem(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>StringList <replaceable>list</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3263,9 +3287,9 @@ msgstr ""
 #: scripting.docbook:1365
 #, no-c-format
 msgid ""
-"String kile.input.getText(<parameter>String "
-"<replaceable>caption</replaceable></parameter>, <parameter>String "
-"<replaceable>label</replaceable></parameter>);"
+"String kile.input.getText(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3274,8 +3298,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Function to get a string from the user. <parameter>caption</parameter> is "
-"the text that is displayed in the title bar and <parameter>label</parameter>"
-" the text that appears as a label for the line edit."
+"the text that is displayed in the title bar and <parameter>label</parameter> "
+"the text that appears as a label for the line edit."
 msgstr ""
 
 # automatic translation
@@ -3283,9 +3307,9 @@ msgstr ""
 #: scripting.docbook:1372
 #, no-c-format
 msgid ""
-"String kile.input.getLatexCommand(<parameter>String "
-"<replaceable>caption</replaceable></parameter>, <parameter>String "
-"<replaceable>label</replaceable></parameter>);"
+"String kile.input.getLatexCommand(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3293,10 +3317,10 @@ msgstr ""
 #: scripting.docbook:1373
 #, no-c-format
 msgid ""
-"Function to get a &latex; command from the user. This means that only lower-"
-" and uppercase letters are allowed. <parameter>caption</parameter> is the "
-"text that is displayed in the title bar and <parameter>label</parameter> the"
-" text that appears as a label for the line edit."
+"Function to get a &latex; command from the user. This means that only lower- "
+"and uppercase letters are allowed. <parameter>caption</parameter> is the "
+"text that is displayed in the title bar and <parameter>label</parameter> the "
+"text that appears as a label for the line edit."
 msgstr ""
 
 # automatic translation
@@ -3304,11 +3328,11 @@ msgstr ""
 #: scripting.docbook:1379
 #, no-c-format
 msgid ""
-"int kile.input.getInteger(<parameter>String "
-"<replaceable>caption</replaceable></parameter>, <parameter>String "
-"<replaceable>label</replaceable></parameter>, <parameter>int "
-"<replaceable>min = INT_MIN</replaceable></parameter>, <parameter>int "
-"<replaceable>max = INT_MAX</replaceable></parameter>);"
+"int kile.input.getInteger(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>int <replaceable>min = INT_MIN</"
+"replaceable></parameter>, <parameter>int <replaceable>max = INT_MAX</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3317,11 +3341,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Function to get an integer from the user. <parameter>caption</parameter> is "
-"the text that is displayed in the title bar. <parameter>label</parameter> is"
-" the text that appears as the label for the spin box. "
-"<parameter>min</parameter> and <parameter>max</parameter> are the minimum "
-"and maximum allowable values the user may choose. Default values are "
-"<literal>INT_MIN</literal> and <literal>INT_MAX</literal>."
+"the text that is displayed in the title bar. <parameter>label</parameter> is "
+"the text that appears as the label for the spin box. <parameter>min</"
+"parameter> and <parameter>max</parameter> are the minimum and maximum "
+"allowable values the user may choose. Default values are <literal>INT_MIN</"
+"literal> and <literal>INT_MAX</literal>."
 msgstr ""
 
 # automatic translation
@@ -3329,11 +3353,11 @@ msgstr ""
 #: scripting.docbook:1386
 #, no-c-format
 msgid ""
-"int kile.input.getPosInteger(<parameter>String "
-"<replaceable>caption</replaceable></parameter>, <parameter>String "
-"<replaceable>label</replaceable></parameter>, <parameter>int "
-"<replaceable>min = 1</replaceable></parameter>, <parameter>int "
-"<replaceable>max = INT_MAX</replaceable></parameter>);"
+"int kile.input.getPosInteger(<parameter>String <replaceable>caption</"
+"replaceable></parameter>, <parameter>String <replaceable>label</"
+"replaceable></parameter>, <parameter>int <replaceable>min = 1</replaceable></"
+"parameter>, <parameter>int <replaceable>max = INT_MAX</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3341,12 +3365,12 @@ msgstr ""
 #: scripting.docbook:1387
 #, no-c-format
 msgid ""
-"Function to get a positive integer from the user. "
-"<parameter>caption</parameter> is the text that is displayed in the title "
-"bar. <parameter>label</parameter> is the text that appears as the label for "
-"the spin box. <parameter>min</parameter> and <parameter>max</parameter> are "
-"the minimum and maximum allowable values the user may choose. Default values"
-" are <literal>1</literal> and <literal>INT_MAX</literal>."
+"Function to get a positive integer from the user. <parameter>caption</"
+"parameter> is the text that is displayed in the title bar. <parameter>label</"
+"parameter> is the text that appears as the label for the spin box. "
+"<parameter>min</parameter> and <parameter>max</parameter> are the minimum "
+"and maximum allowable values the user may choose. Default values are "
+"<literal>1</literal> and <literal>INT_MAX</literal>."
 msgstr ""
 
 # automatic translation
@@ -3369,8 +3393,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Calls the <emphasis>Tabular wizard</emphasis>, which helps to write a "
-"tabular environment (see <xref linkend=\"wizard_array\" role=\"select: title"
-" pageabbrv\"/>)."
+"tabular environment (see <xref linkend=\"wizard_array\" role=\"select: title "
+"pageabbrv\"/>)."
 msgstr ""
 
 # automatic translation
@@ -3403,8 +3427,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Calls the <emphasis>Tabbing wizard</emphasis>, which helps to write a "
-"tabbing environment (see <xref linkend=\"wizard_array\" role=\"select: title"
-" pageabbrv\"/>)."
+"tabbing environment (see <xref linkend=\"wizard_array\" role=\"select: title "
+"pageabbrv\"/>)."
 msgstr ""
 
 # automatic translation
@@ -3419,9 +3443,9 @@ msgstr ""
 #: scripting.docbook:1420
 #, no-c-format
 msgid ""
-"Calls the <emphasis>Floats wizard</emphasis>, which helps to insert floating"
-" elements (see <xref linkend=\"wizard_float\" role=\"select: title "
-"pageabbrv\"/>)."
+"Calls the <emphasis>Floats wizard</emphasis>, which helps to insert floating "
+"elements (see <xref linkend=\"wizard_float\" role=\"select: title pageabbrv"
+"\"/>)."
 msgstr ""
 
 # automatic translation
@@ -3454,8 +3478,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Calls the <emphasis>Postscript Tools wizard</emphasis>, which may help to "
-"manipulate or rearrange Postscript documents (see <xref "
-"linkend=\"wizard_postscript\" role=\"select: title pageabbrv\"/>)."
+"manipulate or rearrange Postscript documents (see <xref linkend="
+"\"wizard_postscript\" role=\"select: title pageabbrv\"/>)."
 msgstr ""
 
 # automatic translation
@@ -3507,8 +3531,8 @@ msgstr ""
 #: scripting.docbook:1464
 #, no-c-format
 msgid ""
-"Object kile.file.read(<parameter>String "
-"<replaceable>filename</replaceable></parameter>);"
+"Object kile.file.read(<parameter>String <replaceable>filename</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3523,8 +3547,7 @@ msgstr ""
 #: scripting.docbook:1467
 #, no-c-format
 msgid ""
-"Example: <function>var res = "
-"kile.file.read(\"path/to/file.txt\");</function>"
+"Example: <function>var res = kile.file.read(\"path/to/file.txt\");</function>"
 msgstr ""
 
 # automatic translation
@@ -3542,8 +3565,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>status:</guilabel>&nbsp; Gives the status code of the operation, "
-"which can be 0 (no error), 1 (access failed) or 2 (access denied). So, if no"
-" error occurred, the value of <userinput>res.status</userinput> or "
+"which can be 0 (no error), 1 (access failed) or 2 (access denied). So, if no "
+"error occurred, the value of <userinput>res.status</userinput> or "
 "<userinput>res[\"status\"]</userinput> will be 0."
 msgstr ""
 
@@ -3551,8 +3574,7 @@ msgstr ""
 #. Tag: para
 #: scripting.docbook:1474
 #, no-c-format
-msgid ""
-"<guilabel>result:</guilabel>&nbsp; Contains the text of the given file."
+msgid "<guilabel>result:</guilabel>&nbsp; Contains the text of the given file."
 msgstr ""
 
 # automatic translation
@@ -3585,9 +3607,9 @@ msgstr ""
 #: scripting.docbook:1488
 #, no-c-format
 msgid ""
-"Object kile.file.write(<parameter>String "
-"<replaceable>filename</replaceable></parameter>, <parameter>String "
-"<replaceable>text</replaceable></parameter>);"
+"Object kile.file.write(<parameter>String <replaceable>filename</"
+"replaceable></parameter>, <parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3612,9 +3634,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The return value <userinput>res</userinput> is an object (better: a map) "
-"with two properties: <literal>status</literal> and "
-"<literal>message</literal> (see <literal>read()</literal> for more "
-"information)."
+"with two properties: <literal>status</literal> and <literal>message</"
+"literal> (see <literal>read()</literal> for more information)."
 msgstr ""
 
 # automatic translation
@@ -3622,8 +3643,8 @@ msgstr ""
 #: scripting.docbook:1499
 #, no-c-format
 msgid ""
-"Object kile.file.write(<parameter>String "
-"<replaceable>text</replaceable></parameter>);"
+"Object kile.file.write(<parameter>String <replaceable>text</replaceable></"
+"parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3640,9 +3661,9 @@ msgstr ""
 #: scripting.docbook:1506
 #, no-c-format
 msgid ""
-"String kile.file.getOpenFileName(<parameter>String "
-"<replaceable>startDir</replaceable></parameter>, <parameter>String "
-"<replaceable>filter</replaceable></parameter>);"
+"String kile.file.getOpenFileName(<parameter>String <replaceable>startDir</"
+"replaceable></parameter>, <parameter>String <replaceable>filter</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3651,8 +3672,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Creates a modal file dialog and return the selected filename or an empty "
-"string if none is chosen. Note that with this method the user must select an"
-" existing filename."
+"string if none is chosen. Note that with this method the user must select an "
+"existing filename."
 msgstr ""
 
 # automatic translation
@@ -3676,8 +3697,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>filter:</guilabel>&nbsp; A shell glob or a mime-type-filter that "
-"specifies which files to display. Refer to the KFileDialog documentation for"
-" more information on this parameter."
+"specifies which files to display. Refer to the KFileDialog documentation for "
+"more information on this parameter."
 msgstr ""
 
 # automatic translation
@@ -3696,9 +3717,9 @@ msgstr ""
 #: scripting.docbook:1522
 #, no-c-format
 msgid ""
-"String kile.file.getSaveFileName(<parameter>String "
-"<replaceable>startDir</replaceable></parameter>, <parameter>String "
-"<replaceable>filter</replaceable></parameter>);"
+"String kile.file.getSaveFileName(<parameter>String <replaceable>startDir</"
+"replaceable></parameter>, <parameter>String <replaceable>filter</"
+"replaceable></parameter>);"
 msgstr ""
 
 # automatic translation
@@ -3708,8 +3729,8 @@ msgstr ""
 msgid ""
 "Creates a modal file dialog and returns the selected filename or an empty "
 "string if none is chosen. Note that with this method the user need not "
-"select an existing filename. See <literal>getOpenFileName()</literal> for an"
-" explanation of the parameters."
+"select an existing filename. See <literal>getOpenFileName()</literal> for an "
+"explanation of the parameters."
 msgstr ""
 
 # automatic translation
@@ -3724,8 +3745,8 @@ msgstr ""
 #: scripting.docbook:1539
 #, no-c-format
 msgid ""
-"Some examples may help you to understand how to use the scripting API. These"
-" examples and some more are found in the scripting directory of &kile;: "
+"Some examples may help you to understand how to use the scripting API. These "
+"examples and some more are found in the scripting directory of &kile;: "
 "<filename>KILE_APP_DIR/scripts/</filename>. Each script contains a short "
 "description."
 msgstr ""
@@ -3743,9 +3764,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Replace a surrounding &latex; environment with another, where the relative "
-"cursor position will not be changed. "
-"<userinput>\\begin{abc}...\\end{abc}</userinput> for example can be changed "
-"to <userinput>\\begin{xyz}...\\end{xyz}</userinput>."
+"cursor position will not be changed. <userinput>\\begin{abc}...\\end{abc}</"
+"userinput> for example can be changed to <userinput>\\begin{xyz}...\\end{xyz}"
+"</userinput>."
 msgstr ""
 
 # automatic translation
@@ -3755,7 +3776,8 @@ msgstr ""
 msgid ""
 "var range = document.environmentRange(false);\n"
 "if ( range.isValid() ) {\n"
-"        var envname = kile.input.getLatexCommand(\"Enter Environment\",\"New environment name:\");\n"
+"        var envname = kile.input.getLatexCommand(\"Enter Environment\",\"New "
+"environment name:\");\n"
 "        if ( envname != '' ) {\n"
 "                replaceEnvCommand(envname,range);\n"
 "        }\n"
@@ -3771,12 +3793,15 @@ msgid ""
 "        var envname = document.environmentName();\n"
 "\n"
 "        if ( envname != \"\" ) {\n"
-"                var beginRange = new Range(r.start,new Cursor(r.start.line,r.start.column+8+envname.length));\n"
-"                var endRange = new Range(new Cursor(r.end.line,r.end.column-6-envname.length),r.end);\n"
+"                var beginRange = new Range(r.start,new Cursor(r.start.line,r."
+"start.column+8+envname.length));\n"
+"                var endRange = new Range(new Cursor(r.end.line,r.end."
+"column-6-envname.length),r.end);\n"
 "\n"
 "                document.editBegin();\n"
 "                document.replaceText(endRange,\"\\\\end{\"+newEnv+\"}\");\n"
-"                document.replaceText(beginRange,\"\\\\begin{\"+newEnv+\"}\");\n"
+"                document.replaceText(beginRange,\"\\\\begin{\"+newEnv+"
+"\"}\");\n"
 "                document.editEnd();\n"
 "        }\n"
 "}"
@@ -3805,8 +3830,10 @@ msgstr ""
 #: scripting.docbook:1554
 #, no-c-format
 msgid ""
-"var fontCommands = new Array(\"\\\\textbf\",\"\\\\textit\",\"\\\\textsl\",\"\\\\texttt\",\n"
-"                             \"\\\\textsc\",\"\\\\textrm\",\"\\\\textsf\",\"\\\\emph\");\n"
+"var fontCommands = new Array(\"\\\\textbf\",\"\\\\textit\",\"\\\\textsl\","
+"\"\\\\texttt\",\n"
+"                             \"\\\\textsc\",\"\\\\textrm\",\"\\\\textsf\","
+"\"\\\\emph\");\n"
 "\n"
 "var range = document.texgroupRange(false);\n"
 "if ( range.isValid() ) {\n"
@@ -3827,11 +3854,14 @@ msgid ""
 "        if ( index >= 0 ) {\n"
 "                var cmdRange = document.latexCommandRange();\n"
 "                if ( cmdRange.isValid() ) {\n"
-"                        var newcommand = kile.input.getListboxItem(\"Choose\",\n"
-"                                                    \"Choose font command:\",buildCmdList(cmd));\n"
+"                        var newcommand = kile.input.getListboxItem(\"Choose"
+"\",\n"
+"                                                    \"Choose font command:\","
+"buildCmdList(cmd));\n"
 "                        if ( newcommand != \"\" ) {\n"
 "                                document.replaceText(cmdRange,newcommand);\n"
-"                                c.column = c.column - (cmd.length - newcommand.length);\n"
+"                                c.column = c.column - (cmd.length - "
+"newcommand.length);\n"
 "                        }\n"
 "                }\n"
 "/                view.setCursorPosition(c);\n"
@@ -3879,7 +3909,8 @@ msgid ""
 "var range = view.selectionRange();\n"
 "\n"
 "if ( range.isValid() ) {\n"
-"        var cmd = kile.input.getLatexCommand(\"Choose\",\"Choose surrounding LaTeX command:\");\n"
+"        var cmd = kile.input.getLatexCommand(\"Choose\",\"Choose surrounding "
+"LaTeX command:\");\n"
 "        if ( cmd != \"\" ) {\n"
 "                surroundTexCommand(\"\\\\\"+cmd,range);\n"
 "        }\n"

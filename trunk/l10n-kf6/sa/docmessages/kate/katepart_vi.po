@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-28 00:35+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: author
@@ -41,9 +43,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The goal of the VI mode is not to be a complete replacement for Vim and "
-"support all Vim’s features. Its aim is to make the <quote>Vim way</quote> of"
-" text editing - and the Vim habits learned - available for programs using "
-"the &kappname; text editor as their internal editor."
+"support all Vim’s features. Its aim is to make the <quote>Vim way</quote> of "
+"text editing - and the Vim habits learned - available for programs using the "
+"&kappname; text editor as their internal editor."
 msgstr ""
 
 # automatic translation
@@ -51,10 +53,9 @@ msgstr ""
 #: vi.docbook:21
 #, no-c-format
 msgid ""
-"The VI mode aims to integrate nicely with the program and deviate from Vim’s"
-" behavior where it makes sense. For example, "
-"<userinput><command>:w</command></userinput> will open a save dialog in "
-"&kappname;’s VI mode."
+"The VI mode aims to integrate nicely with the program and deviate from Vim’s "
+"behavior where it makes sense. For example, <userinput><command>:w</"
+"command></userinput> will open a save dialog in &kappname;’s VI mode."
 msgstr ""
 
 # automatic translation
@@ -63,14 +64,14 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To enable the VI Input Mode for all new views, go to "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&kappname;...</guimenuitem> <guimenu>Editing</guimenu><guimenuitem>VI Input "
-"Mode</guimenuitem></menuchoice>. On this tab you can set options for the VI "
-"Input Mode and define and edit the key mapping in this mode. VI Input Mode "
-"can also be toggled with the <guimenuitem>VI Input Mode</guimenuitem> "
-"setting in the <guimenu>Edit</guimenu> menu. (The default shortcut key is "
-"<keycombo action=\"simul\">&Meta;&Ctrl;<keycap>V</keycap></keycombo> - where"
-" &Meta; usually is the <keysym>Windows</keysym> key)."
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kappname;...</"
+"guimenuitem> <guimenu>Editing</guimenu><guimenuitem>VI Input Mode</"
+"guimenuitem></menuchoice>. On this tab you can set options for the VI Input "
+"Mode and define and edit the key mapping in this mode. VI Input Mode can "
+"also be toggled with the <guimenuitem>VI Input Mode</guimenuitem> setting in "
+"the <guimenu>Edit</guimenu> menu. (The default shortcut key is <keycombo "
+"action=\"simul\">&Meta;&Ctrl;<keycap>V</keycap></keycombo> - where &Meta; "
+"usually is the <keysym>Windows</keysym> key)."
 msgstr ""
 
 # automatic translation
@@ -80,11 +81,11 @@ msgstr ""
 msgid ""
 "Many Vi Mode keyboard commands are case-sensitive, unlike most &kde; "
 "keyboard shortcuts. That means that <userinput>y</userinput> and "
-"<userinput>Y</userinput> are different commands. To enter the "
-"<userinput>y</userinput> (yank) command, make sure <keysym>Caps "
-"Lock</keysym> is disabled and press <keycap>Y</keycap>. To enter the "
-"<userinput>Y</userinput> (yank to end of line) command, <keycombo "
-"action=\"simul\">&Shift;<keycap>Y</keycap></keycombo>."
+"<userinput>Y</userinput> are different commands. To enter the <userinput>y</"
+"userinput> (yank) command, make sure <keysym>Caps Lock</keysym> is disabled "
+"and press <keycap>Y</keycap>. To enter the <userinput>Y</userinput> (yank to "
+"end of line) command, <keycombo action=\"simul\">&Shift;<keycap>Y</keycap></"
+"keycombo>."
 msgstr ""
 
 # automatic translation
@@ -98,9 +99,9 @@ msgid ""
 "followed by another key which is case sensitive. For instance, to input "
 "<quote><keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo>, "
 "<userinput>h</userinput></quote> (switch to split view right) make sure "
-"<keycap>Caps Lock</keycap> is disabled, press <keycombo "
-"action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo>, release, and then "
-"press <keycap>H</keycap>."
+"<keycap>Caps Lock</keycap> is disabled, press <keycombo action=\"simul"
+"\">&Ctrl;<keycap>W</keycap></keycombo>, release, and then press <keycap>H</"
+"keycap>."
 msgstr ""
 
 # automatic translation
@@ -115,9 +116,9 @@ msgstr ""
 #: vi.docbook:58
 #, no-c-format
 msgid ""
-"There are only a few features of &kappname;’s VI mode which are incompatible"
-" with Vim (not counting things missing). They are listed below together with"
-" the respective reasons."
+"There are only a few features of &kappname;’s VI mode which are incompatible "
+"with Vim (not counting things missing). They are listed below together with "
+"the respective reasons."
 msgstr ""
 
 # automatic translation
@@ -125,8 +126,8 @@ msgstr ""
 #: vi.docbook:63
 #, no-c-format
 msgid ""
-"&kappname;: <userinput>U</userinput> and <keycombo "
-"action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> is redo."
+"&kappname;: <userinput>U</userinput> and <keycombo action=\"simul\">&Ctrl;"
+"<keycap>R</keycap></keycombo> is redo."
 msgstr ""
 
 # automatic translation
@@ -144,18 +145,17 @@ msgstr ""
 #: vi.docbook:67
 #, no-c-format
 msgid ""
-"The reason for having <keycap>U</keycap> act as redo in &kappname;’s VI mode"
-" is that the shortcut <keycombo "
-"action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> by default is taken by "
-"&kappname;’s replace function (search and replace). By default, the VI mode "
-"won’t override &kappname;’s shortcuts (this can be configured in "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&kappname;...</guimenuitem> <guimenu>Editing</guimenu><guimenuitem>Vi Input "
-"Mode</guimenuitem></menuchoice>), therefore a redo-action needs to be "
-"available as a <quote>regular</quote> key press, too. Besides, the behavior "
-"of the <userinput>U</userinput> command in Vim does not map well to "
-"&kappname;’s internal undo system, so it would be non-trivial to support "
-"anyway."
+"The reason for having <keycap>U</keycap> act as redo in &kappname;’s VI mode "
+"is that the shortcut <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></"
+"keycombo> by default is taken by &kappname;’s replace function (search and "
+"replace). By default, the VI mode won’t override &kappname;’s shortcuts "
+"(this can be configured in <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &kappname;...</guimenuitem> <guimenu>Editing</"
+"guimenu><guimenuitem>Vi Input Mode</guimenuitem></menuchoice>), therefore a "
+"redo-action needs to be available as a <quote>regular</quote> key press, "
+"too. Besides, the behavior of the <userinput>U</userinput> command in Vim "
+"does not map well to &kappname;’s internal undo system, so it would be non-"
+"trivial to support anyway."
 msgstr ""
 
 # automatic translation
@@ -172,8 +172,8 @@ msgstr ""
 #: vi.docbook:79
 #, no-c-format
 msgid ""
-"Vim: <userinput><command>print</command></userinput> prints the lines of the"
-" given range like its grandfather ed."
+"Vim: <userinput><command>print</command></userinput> prints the lines of the "
+"given range like its grandfather ed."
 msgstr ""
 
 # automatic translation
@@ -181,12 +181,11 @@ msgstr ""
 #: vi.docbook:81
 #, no-c-format
 msgid ""
-"Commands like <userinput><command>:print</command></userinput> are available"
-" not only in the VI mode but for users using <quote>regular</quote> "
-"&kappname;, too - therefore the "
-"<userinput><command>:print</command></userinput> command opens the print "
-"dialog - following the principle of least surprise instead of mimicking "
-"Vim’s behavior."
+"Commands like <userinput><command>:print</command></userinput> are available "
+"not only in the VI mode but for users using <quote>regular</quote> "
+"&kappname;, too - therefore the <userinput><command>:print</command></"
+"userinput> command opens the print dialog - following the principle of least "
+"surprise instead of mimicking Vim’s behavior."
 msgstr ""
 
 # automatic translation
@@ -201,8 +200,8 @@ msgstr ""
 #: vi.docbook:89
 #, no-c-format
 msgid ""
-"Vim: <userinput>Y</userinput> yanks whole line, just like "
-"<userinput>y</userinput><userinput>y</userinput>."
+"Vim: <userinput>Y</userinput> yanks whole line, just like <userinput>y</"
+"userinput><userinput>y</userinput>."
 msgstr ""
 
 # automatic translation
@@ -210,17 +209,16 @@ msgstr ""
 #: vi.docbook:91
 #, no-c-format
 msgid ""
-"VI’s behavior for the <userinput>Y</userinput> command is in practice a bug."
-" For both change and delete commands, "
-"<userinput>c</userinput><userinput>c</userinput>/ "
-"<userinput>d</userinput><userinput>d</userinput> will do its action on the "
-"current line and <userinput>C</userinput>/<userinput>D</userinput> will work"
-" from the cursor column to the end of the line. However, both "
-"<userinput>y</userinput><userinput>y</userinput> and "
-"<userinput>Y</userinput> yanks the current line. In &kappname;’s VI Mode "
-"<userinput>Y</userinput> will yank to the end of the line. This is described"
-" as <quote>more logical</quote> in the Vim <ulink "
-"url=\"http://vimdoc.sourceforge.net/htmldoc/change.html#Y\">documentation</ulink>."
+"VI’s behavior for the <userinput>Y</userinput> command is in practice a bug. "
+"For both change and delete commands, <userinput>c</userinput><userinput>c</"
+"userinput>/ <userinput>d</userinput><userinput>d</userinput> will do its "
+"action on the current line and <userinput>C</userinput>/<userinput>D</"
+"userinput> will work from the cursor column to the end of the line. However, "
+"both <userinput>y</userinput><userinput>y</userinput> and <userinput>Y</"
+"userinput> yanks the current line. In &kappname;’s VI Mode <userinput>Y</"
+"userinput> will yank to the end of the line. This is described as "
+"<quote>more logical</quote> in the Vim <ulink url=\"http://vimdoc."
+"sourceforge.net/htmldoc/change.html#Y\">documentation</ulink>."
 msgstr ""
 
 # automatic translation
@@ -315,8 +313,8 @@ msgstr ""
 msgid ""
 "Visual Mode is entered automatically when text is selected with the mouse. "
 "It is also entered when using functions of &kate; that select text, such as "
-"Select All (either from the menu or via <keycombo "
-"action=\"simul\">&Ctrl;<keycap>A</keycap> </keycombo>.)"
+"Select All (either from the menu or via <keycombo action=\"simul\">&Ctrl;"
+"<keycap>A</keycap> </keycombo>.)"
 msgstr ""
 
 # automatic translation
@@ -1244,8 +1242,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "These may be used to move around a document in Normal or Visual mode, or in "
-"conjunction with one of the above commands. They may be preceded by a count,"
-" which indicates how many of the appropriate movements to make."
+"conjunction with one of the above commands. They may be preceded by a count, "
+"which indicates how many of the appropriate movements to make."
 msgstr ""
 
 # automatic translation
@@ -2075,8 +2073,8 @@ msgstr ""
 #: vi.docbook:601
 #, no-c-format
 msgid ""
-"Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing"
-" angle bracket (<userinput>&gt;</userinput>), including the brackets"
+"Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing "
+"angle bracket (<userinput>&gt;</userinput>), including the brackets"
 msgstr ""
 
 # automatic translation
@@ -2091,8 +2089,8 @@ msgstr ""
 #: vi.docbook:605
 #, no-c-format
 msgid ""
-"Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing"
-" square bracket (<userinput>&gt;</userinput>), excluding the brackets"
+"Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing "
+"square bracket (<userinput>&gt;</userinput>), excluding the brackets"
 msgstr ""
 
 # automatic translation
@@ -2107,8 +2105,8 @@ msgstr ""
 #: vi.docbook:609
 #, no-c-format
 msgid ""
-"Previous backtick (<userinput>`</userinput>) to next backtick, including the"
-" backticks"
+"Previous backtick (<userinput>`</userinput>) to next backtick, including the "
+"backticks"
 msgstr ""
 
 # automatic translation
@@ -2123,8 +2121,8 @@ msgstr ""
 #: vi.docbook:613
 #, no-c-format
 msgid ""
-"Previous backtick (<userinput>`</userinput>) to next backtick, excluding the"
-" backticks"
+"Previous backtick (<userinput>`</userinput>) to next backtick, excluding the "
+"backticks"
 msgstr ""
 
 # automatic translation
@@ -2251,8 +2249,8 @@ msgstr ""
 #: vi.docbook:660
 #, no-c-format
 msgid ""
-"<keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> "
-"<userinput>n</userinput>"
+"<keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> <userinput>n</"
+"userinput>"
 msgstr ""
 
 # automatic translation
@@ -2318,8 +2316,8 @@ msgstr ""
 #: vi.docbook:678
 #, no-c-format
 msgid ""
-"This object is missing in Vim. The comma text object makes it easy to modify"
-" parameter lists in C-like languages and other comma separated lists. It is "
+"This object is missing in Vim. The comma text object makes it easy to modify "
+"parameter lists in C-like languages and other comma separated lists. It is "
 "basically the area between two commas or between a comma and a bracket. In "
 "the line shown in the illustration, the three ranges this text object can "
 "span are highlighted."
@@ -2344,11 +2342,11 @@ msgstr ""
 #: vi.docbook:689
 #, no-c-format
 msgid ""
-"Comma text object ranges. If the cursor is over &eg; "
-"<replaceable>arg2</replaceable>, pressing <userinput>ci</userinput>, "
-"(<quote>change inner comma</quote>) would delete <replaceable>double "
-"arg2</replaceable> and place the cursor between the two commas in insert "
-"mode. A very convenient way to change a function's parameters."
+"Comma text object ranges. If the cursor is over &eg; <replaceable>arg2</"
+"replaceable>, pressing <userinput>ci</userinput>, (<quote>change inner "
+"comma</quote>) would delete <replaceable>double arg2</replaceable> and place "
+"the cursor between the two commas in insert mode. A very convenient way to "
+"change a function's parameters."
 msgstr ""
 
 # automatic translation

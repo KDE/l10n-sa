@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-24 00:52+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -43,9 +45,8 @@ msgstr ""
 #: referencemanual.docbook:14
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></shortcut> "
-"<guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -54,8 +55,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<action>Quits &partman;</action> without applying any pending operations. "
-"The application will however ask you to confirm your choice to quit if there"
-" are pending operations."
+"The application will however ask you to confirm your choice to quit if there "
+"are pending operations."
 msgstr ""
 
 # automatic translation
@@ -70,9 +71,8 @@ msgstr ""
 #: referencemanual.docbook:36
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></shortcut> "
-"<guimenu>Edit</guimenu> <guimenuitem>Undo</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Undo</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -119,10 +119,10 @@ msgstr ""
 #: referencemanual.docbook:75
 #, no-c-format
 msgid ""
-"<action>Applies the list of operations</action>. This command will apply all"
-" operations in the list so that all changes are permanently written to your "
-"disks. After the operations have been applied, the list is cleared and there"
-" will be no way to undo any operation."
+"<action>Applies the list of operations</action>. This command will apply all "
+"operations in the list so that all changes are permanently written to your "
+"disks. After the operations have been applied, the list is cleared and there "
+"will be no way to undo any operation."
 msgstr ""
 
 # automatic translation
@@ -174,9 +174,9 @@ msgstr ""
 #: referencemanual.docbook:119
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></keycombo></shortcut> "
-"<guimenu>Device</guimenu> <guimenuitem>New Partition Table</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></"
+"keycombo></shortcut> <guimenu>Device</guimenu> <guimenuitem>New Partition "
+"Table</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -246,8 +246,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This command is only enabled if a device is selected and no partition on "
-"this device is currently mounted. Importing into logical devices such as LVM"
-" Volume Groups is currently not supported."
+"this device is currently mounted. Importing into logical devices such as LVM "
+"Volume Groups is currently not supported."
 msgstr ""
 
 # automatic translation
@@ -262,8 +262,8 @@ msgstr ""
 #: referencemanual.docbook:170
 #, no-c-format
 msgid ""
-"Shows a SMART report. SMART is a monitoring system included in hard disk and"
-" solid-state drives that detects and reports on various indicators of drive "
+"Shows a SMART report. SMART is a monitoring system included in hard disk and "
+"solid-state drives that detects and reports on various indicators of drive "
 "reliability, with the intent of enabling the anticipation of hardware "
 "failures."
 msgstr ""
@@ -297,9 +297,8 @@ msgstr ""
 #: referencemanual.docbook:198
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></shortcut> "
-"<guimenu>Partition</guimenu> <guimenuitem>New</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>New</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -308,8 +307,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<action>Creates a new partition</action>: Opens the dialog to create a new "
-"partition where you will be able to set type, size, position and file system"
-" of the partition to create."
+"partition where you will be able to set type, size, position and file system "
+"of the partition to create."
 msgstr ""
 
 # automatic translation
@@ -335,9 +334,8 @@ msgstr ""
 #: referencemanual.docbook:218
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></shortcut> "
-"<guimenu>Partition</guimenu> <guimenuitem>Resize/Move</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>Resize/Move</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -345,10 +343,10 @@ msgstr ""
 #: referencemanual.docbook:225
 #, no-c-format
 msgid ""
-"<action>Resizes or moves a partition</action>: Opens the dialog to resize or"
-" move an existing partition. Depending on the partition's file system and "
-"the external tools installed on your computer, not all three possible "
-"resize-related actions -- that is, moving the partition, making it smaller "
+"<action>Resizes or moves a partition</action>: Opens the dialog to resize or "
+"move an existing partition. Depending on the partition's file system and the "
+"external tools installed on your computer, not all three possible resize-"
+"related actions -- that is, moving the partition, making it smaller "
 "(<quote>shrinking</quote> it) or making it larger (<quote>growing</quote> "
 "it) -- may be available in this dialog. See <xref linkend=\"menu-tools-"
 "filesystemsupport\"/>."
@@ -370,8 +368,8 @@ msgstr ""
 #: referencemanual.docbook:235
 #, no-c-format
 msgid ""
-"<shortcut>&Del;</shortcut> <guimenu>Partition</guimenu> "
-"<guimenuitem>Delete</guimenuitem>"
+"<shortcut>&Del;</shortcut> <guimenu>Partition</guimenu> <guimenuitem>Delete</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -406,8 +404,7 @@ msgstr ""
 #. Tag: para
 #: referencemanual.docbook:250
 #, no-c-format
-msgid ""
-"Deleting a partition means that all data on the partition is destroyed."
+msgid "Deleting a partition means that all data on the partition is destroyed."
 msgstr ""
 
 # automatic translation
@@ -448,9 +445,8 @@ msgstr ""
 #: referencemanual.docbook:277
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></shortcut> "
-"<guimenu>Partition</guimenu> <guimenuitem>Copy</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>Copy</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -477,9 +473,8 @@ msgstr ""
 #: referencemanual.docbook:294
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></shortcut> "
-"<guimenu>Partition</guimenu> <guimenuitem>Paste</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></"
+"shortcut> <guimenu>Partition</guimenu> <guimenuitem>Paste</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -497,8 +492,8 @@ msgstr ""
 #: referencemanual.docbook:304
 #, no-c-format
 msgid ""
-"When pasting to an unallocated area, a dialog will open allowing you to move"
-" or grow the inserted copy. When overwriting an existing partition this "
+"When pasting to an unallocated area, a dialog will open allowing you to move "
+"or grow the inserted copy. When overwriting an existing partition this "
 "dialog will not be shown."
 msgstr ""
 
@@ -611,8 +606,8 @@ msgstr ""
 #: referencemanual.docbook:372
 #, no-c-format
 msgid ""
-"<action>Backs up a partition</action>: This command backs up the file system"
-" on the selected partition to a file. You will be asked where to store the "
+"<action>Backs up a partition</action>: This command backs up the file system "
+"on the selected partition to a file. You will be asked where to store the "
 "image file after activating this command."
 msgstr ""
 
@@ -621,8 +616,8 @@ msgstr ""
 #: referencemanual.docbook:375
 #, no-c-format
 msgid ""
-"The created image file is a sector-for-sector copy of the file system on the"
-" partition. It is not compressed and does not have any additional meta "
+"The created image file is a sector-for-sector copy of the file system on the "
+"partition. It is not compressed and does not have any additional meta "
 "information or header added to it, thus it can be directly mounted using a "
 "loop device outside of &partman; if the operating system supports that."
 msgstr ""
@@ -668,8 +663,8 @@ msgstr ""
 #: referencemanual.docbook:399
 #, no-c-format
 msgid ""
-"Restoring a partition on an existing one means that all data on the existing"
-" partition is destroyed and replaced with the data from the restored image "
+"Restoring a partition on an existing one means that all data on the existing "
+"partition is destroyed and replaced with the data from the restored image "
 "file."
 msgstr ""
 
@@ -685,9 +680,8 @@ msgstr ""
 #: referencemanual.docbook:411
 #, no-c-format
 msgid ""
-"<action>Shows a partition's properties</action>: This command shows a dialog"
-" with information about the currently selected partition or unallocated "
-"space."
+"<action>Shows a partition's properties</action>: This command shows a dialog "
+"with information about the currently selected partition or unallocated space."
 msgstr ""
 
 # automatic translation
@@ -797,9 +791,9 @@ msgstr ""
 #: referencemanual.docbook:465
 #, no-c-format
 msgid ""
-"<shortcut><keycombo "
-"action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></keycombo></shortcut> "
-"<guimenu>Tools</guimenu> <guimenuitem>New Volume Group</guimenuitem>"
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></"
+"keycombo></shortcut> <guimenu>Tools</guimenu> <guimenuitem>New Volume Group</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -807,16 +801,15 @@ msgstr ""
 #: referencemanual.docbook:472
 #, no-c-format
 msgid ""
-"Create a new logical device such as <link linkend=\"glossary-"
-"lvm\">LVM</link> Volume Group."
+"Create a new logical device such as <link linkend=\"glossary-lvm\">LVM</"
+"link> Volume Group."
 msgstr ""
 
 # automatic translation
 #. Tag: menuchoice
 #: referencemanual.docbook:477
 #, no-c-format
-msgid ""
-"<guimenu>Tools</guimenu> <guimenuitem>File System Support</guimenuitem>"
+msgid "<guimenu>Tools</guimenu> <guimenuitem>File System Support</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -879,12 +872,12 @@ msgstr ""
 #: referencemanual.docbook:512
 #, no-c-format
 msgid ""
-"&partman; has the common &kde; <ulink "
-"url=\"help:/fundamentals/menus.html#menus-settings\">Settings</ulink> and "
-"<ulink url=\"help:/fundamentals/menus.html#menus-help\">Help</ulink> menu "
-"described in the &kde; Fundamentals with an additional submenu "
-"<guisubmenu>Panels Shown</guisubmenu>, where you can toggle the display of "
-"the <guimenuitem>Devices</guimenuitem>, <guimenuitem>Pending "
-"Operations</guimenuitem>, <guimenuitem>Information</guimenuitem> and panels "
-"<guimenuitem>Log Output</guimenuitem> on and off."
+"&partman; has the common &kde; <ulink url=\"help:/fundamentals/menus."
+"html#menus-settings\">Settings</ulink> and <ulink url=\"help:/fundamentals/"
+"menus.html#menus-help\">Help</ulink> menu described in the &kde; "
+"Fundamentals with an additional submenu <guisubmenu>Panels Shown</"
+"guisubmenu>, where you can toggle the display of the <guimenuitem>Devices</"
+"guimenuitem>, <guimenuitem>Pending Operations</guimenuitem>, "
+"<guimenuitem>Information</guimenuitem> and panels <guimenuitem>Log Output</"
+"guimenuitem> on and off."
 msgstr ""

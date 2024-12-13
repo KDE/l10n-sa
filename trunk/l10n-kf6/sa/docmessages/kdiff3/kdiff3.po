@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-30 00:47+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -315,8 +317,8 @@ msgstr ""
 #: index.docbook:109
 #, no-c-format
 msgid ""
-"&kdiff3; started because I had to do a difficult merge. Merging is necessary"
-" when several people work on the same files in a project. A merge can be "
+"&kdiff3; started because I had to do a difficult merge. Merging is necessary "
+"when several people work on the same files in a project. A merge can be "
 "somewhat automated, when the merge-tool not only has the new modified files "
 "(called \"branches\"), but also the original file (called \"base\"). The "
 "merge tool will automatically choose any modification that was only done in "
@@ -329,8 +331,8 @@ msgstr ""
 #: index.docbook:116
 #, no-c-format
 msgid ""
-"The merge then was difficult because one contributor had changed many things"
-" and corrected the indentation in many places. Another contributor also had "
+"The merge then was difficult because one contributor had changed many things "
+"and corrected the indentation in many places. Another contributor also had "
 "changed much text in the same file, which resulted in several merge "
 "conflicts."
 msgstr ""
@@ -411,8 +413,8 @@ msgid ""
 "3-way-merging is fully supported. This is useful if two people change code "
 "independently. The original file (the base) is used to help &kdiff3; to "
 "automatically select the correct changes. The merge-editor below the diff-"
-"windows allows you to solve conflicts, while showing you the output you will"
-" get. You can even edit the output. This screenshot shows three input files "
+"windows allows you to solve conflicts, while showing you the output you will "
+"get. You can even edit the output. This screenshot shows three input files "
 "being merged:"
 msgstr ""
 
@@ -485,9 +487,9 @@ msgstr ""
 #: index.docbook:190
 #, no-c-format
 msgid ""
-"The left/middle/right windows are named "
-"<guilabel>A</guilabel>/<guilabel>B</guilabel>/<guilabel>C</guilabel> and "
-"have the blue/green/magenta color respectively."
+"The left/middle/right windows are named <guilabel>A</guilabel>/<guilabel>B</"
+"guilabel>/<guilabel>C</guilabel> and have the blue/green/magenta color "
+"respectively."
 msgstr ""
 
 # automatic translation
@@ -496,8 +498,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If one file is the same and one file is different on a line then the color "
-"shows which file is different. The red color means that both other files are"
-" different."
+"shows which file is different. The red color means that both other files are "
+"different."
 msgstr ""
 
 # automatic translation
@@ -515,11 +517,11 @@ msgid ""
 "&kdiff3; can be used to merge two or three input files and automatically "
 "merges as much as possible. The result is presented in an editable window "
 "where most conflicts can be solved with a single mouseclick: Select the "
-"respective <guibutton>...</guibutton> buttons at the <guilabel>A</guilabel>/"
-" <guilabel>B</guilabel>/<guilabel>C</guilabel> windows to select the source "
+"respective <guibutton>...</guibutton> buttons at the <guilabel>A</guilabel>/ "
+"<guilabel>B</guilabel>/<guilabel>C</guilabel> windows to select the source "
 "that should be used. You can also select more than one source. Since this "
-"output window is an editor even conflicts which need further corrections can"
-" be solved here without requiring another tool."
+"output window is an editor even conflicts which need further corrections can "
+"be solved here without requiring another tool."
 msgstr ""
 
 # automatic translation
@@ -549,8 +551,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:218
 #, no-c-format
-msgid ""
-"Select and copy from any window and paste into the merge result window."
+msgid "Select and copy from any window and paste into the merge result window."
 msgstr ""
 
 # automatic translation
@@ -585,8 +586,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:223
 #, no-c-format
-msgid ""
-"Open files comfortably via dialog or specify files on the command line."
+msgid "Open files comfortably via dialog or specify files on the command line."
 msgstr ""
 
 # automatic translation
@@ -594,11 +594,11 @@ msgstr ""
 #: index.docbook:224
 #, no-c-format
 msgid ""
-"Search for strings in all text windows with "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</guimenuitem></menuchoice>"
-" (<keycombo>&Ctrl;<keycap>F</keycap></keycombo>) and "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find "
-"Next</guimenuitem></menuchoice> (<keycap>F3</keycap>) menu items."
+"Search for strings in all text windows with <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Find</guimenuitem></menuchoice> (<keycombo>&Ctrl;"
+"<keycap>F</keycap></keycombo>) and <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Find Next</guimenuitem></menuchoice> (<keycap>F3</"
+"keycap>) menu items."
 msgstr ""
 
 # automatic translation
@@ -698,7 +698,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kdiff3</command> <replaceable>file1 file2</replaceable> -m\n"
-"   <command>kdiff3</command> <replaceable>file1 file2</replaceable> -o <replaceable>outputfile</replaceable>"
+"   <command>kdiff3</command> <replaceable>file1 file2</replaceable> -o "
+"<replaceable>outputfile</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -728,7 +729,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kdiff3</command> <replaceable>file1 file2 file3</replaceable> -m\n"
-"   <command>kdiff3</command> <replaceable>file1 file2 file3</replaceable> -o <replaceable>outputfile</replaceable>"
+"   <command>kdiff3</command> <replaceable>file1 file2 file3</replaceable> -o "
+"<replaceable>outputfile</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -752,8 +754,8 @@ msgstr ""
 #: index.docbook:264
 #, no-c-format
 msgid ""
-"If all files have the same name but are in different folders, you can reduce"
-" typework by specifying the filename only for the first file, &eg;:"
+"If all files have the same name but are in different folders, you can reduce "
+"typework by specifying the filename only for the first file, &eg;:"
 msgstr ""
 
 # automatic translation
@@ -761,8 +763,8 @@ msgstr ""
 #: index.docbook:268
 #, no-c-format
 msgid ""
-"<command>kdiff3</command> <replaceable>folder1/filename folder2 "
-"folder3</replaceable>"
+"<command>kdiff3</command> <replaceable>folder1/filename folder2 folder3</"
+"replaceable>"
 msgstr ""
 
 # automatic translation
@@ -785,9 +787,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kdiff3</command> <replaceable>folder1 folder2</replaceable>\n"
-"   <command>kdiff3</command> <replaceable>folder1 folder2</replaceable> -o <replaceable>destdir</replaceable>\n"
-"   <command>kdiff3</command> <replaceable>folder1 folder2 folder3</replaceable>\n"
-"   <command>kdiff3</command> <replaceable>folder1 folder2 folder3</replaceable> -o <replaceable>destdir</replaceable>"
+"   <command>kdiff3</command> <replaceable>folder1 folder2</replaceable> -o "
+"<replaceable>destdir</replaceable>\n"
+"   <command>kdiff3</command> <replaceable>folder1 folder2 folder3</"
+"replaceable>\n"
+"   <command>kdiff3</command> <replaceable>folder1 folder2 folder3</"
+"replaceable> -o <replaceable>destdir</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -795,8 +800,8 @@ msgstr ""
 #: index.docbook:274
 #, no-c-format
 msgid ""
-"For folder comparison and merge you can continue to read <link "
-"linkend=\"dirmerge\">here</link>."
+"For folder comparison and merge you can continue to read <link linkend="
+"\"dirmerge\">here</link>."
 msgstr ""
 
 # automatic translation
@@ -834,17 +839,24 @@ msgstr ""
 msgid ""
 "Options:\n"
 "  -m, --merge               Merge the input.\n"
-"  -b, --base file           Explicit base file. For compatibility with certain tools.\n"
+"  -b, --base file           Explicit base file. For compatibility with "
+"certain tools.\n"
 "  -o, --output file         Output file. Implies -m. E.g.: -o newfile.txt\n"
-"  --out file                Output file, again. (For compatibility with certain tools.)\n"
+"  --out file                Output file, again. (For compatibility with "
+"certain tools.)\n"
 "  --noauto                  Ignore --auto and always show GUI.\n"
-"  --auto                    No GUI if all conflicts are auto-solvable. (Needs -o file)\n"
-"  --L1 alias1               Visible name replacement for input file 1 (base).\n"
+"  --auto                    No GUI if all conflicts are auto-solvable. "
+"(Needs -o file)\n"
+"  --L1 alias1               Visible name replacement for input file 1 "
+"(base).\n"
 "  --L2 alias2               Visible name replacement for input file 2.\n"
 "  --L3 alias3               Visible name replacement for input file 3.\n"
-"  -L, --fname alias         Alternative visible name replacement. Supply this once for every input.\n"
-"  --cs string               Override a config setting. Use once for every setting. E.g.: --cs \"AutoAdvance=1\"\n"
-"  --confighelp              Show list of config settings and current values.\n"
+"  -L, --fname alias         Alternative visible name replacement. Supply "
+"this once for every input.\n"
+"  --cs string               Override a config setting. Use once for every "
+"setting. E.g.: --cs \"AutoAdvance=1\"\n"
+"  --confighelp              Show list of config settings and current "
+"values.\n"
 "  --config file             Use a different config file."
 msgstr ""
 
@@ -856,8 +868,8 @@ msgid ""
 "The option <option>--cs</option> allows you to adjust a configuration value "
 "that is otherwise only adjustable via the configure dialogs. But be aware "
 "that when &kdiff3; then terminates the changed value will be stored along "
-"with the other settings. With <option>--confighelp</option> you can find out"
-" the names of the available items and current values."
+"with the other settings. With <option>--confighelp</option> you can find out "
+"the names of the available items and current values."
 msgstr ""
 
 # automatic translation
@@ -884,8 +896,8 @@ msgstr ""
 msgid ""
 "Many people want to use &kdiff3; with some version control system. But when "
 "that version control system calls &kdiff3; using command line parameters "
-"that &kdiff3; doesn't recognise, then &kdiff3; terminates with an error. The"
-" <guilabel>Integration</guilabel> item in the settings dialog allow to "
+"that &kdiff3; doesn't recognise, then &kdiff3; terminates with an error. The "
+"<guilabel>Integration</guilabel> item in the settings dialog allow to "
 "specify command line parameters that should be ignored by &kdiff3;. They "
 "will appear in the usage help like in this example:"
 msgstr ""
@@ -895,8 +907,7 @@ msgstr ""
 #: index.docbook:292
 #, no-c-format
 msgid ""
-"--<replaceable>foo</replaceable>                     Ignored. (User "
-"defined.)"
+"--<replaceable>foo</replaceable>                     Ignored. (User defined.)"
 msgstr ""
 
 # automatic translation
@@ -947,9 +958,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The open dialog allows you to edit the filenames by hand, selecting a file "
-"via the file-browser via the <guibutton>File...</guibutton> button or allows"
-" you to choose recent files from the drop-down lists. If you open the dialog"
-" again, then the current names still remain there. The third input file is "
+"via the file-browser via the <guibutton>File...</guibutton> button or allows "
+"you to choose recent files from the drop-down lists. If you open the dialog "
+"again, then the current names still remain there. The third input file is "
 "not required. If the entry for <guilabel>C</guilabel> remains empty, then "
 "only a two file diff analysis will be done."
 msgstr ""
@@ -973,8 +984,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If <guilabel>Merge</guilabel> check box is selected, then the "
-"<guilabel>Output</guilabel> line becomes editable. But it is not required to"
-" specify the output filename immediately. You can also postpone this until "
+"<guilabel>Output</guilabel> line becomes editable. But it is not required to "
+"specify the output filename immediately. You can also postpone this until "
 "saving."
 msgstr ""
 
@@ -983,8 +994,8 @@ msgstr ""
 #: index.docbook:328
 #, no-c-format
 msgid ""
-"The <guibutton>Configure...</guibutton> button opens the settings dialog, so"
-" that you can set the options before running the analysis."
+"The <guibutton>Configure...</guibutton> button opens the settings dialog, so "
+"that you can set the options before running the analysis."
 msgstr ""
 
 # automatic translation
@@ -1001,8 +1012,8 @@ msgstr ""
 msgid ""
 "Sometimes you want to compare parts of a text that is not an own file. "
 "&kdiff3; also allows you to paste text from the clipboard into the diff "
-"input window that has the focus. The diff analysis happens immediately then."
-" In the open dialog you need not specify files then, but just close it via "
+"input window that has the focus. The diff analysis happens immediately then. "
+"In the open dialog you need not specify files then, but just close it via "
 "<guibutton>Cancel</guibutton> button."
 msgstr ""
 
@@ -1040,8 +1051,8 @@ msgstr ""
 #: index.docbook:350
 #, no-c-format
 msgid ""
-"Some editors still interpret the drag and drop into another program like cut"
-" (instead of copy) and paste. Your original data might be lost then."
+"Some editors still interpret the drag and drop into another program like cut "
+"(instead of copy) and paste. Your original data might be lost then."
 msgstr ""
 
 # automatic translation
@@ -1064,11 +1075,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "At the top of each text window is its \"info line\". The info lines of the "
-"input windows contain a letter <guilabel>A</guilabel>, "
-"<guilabel>B</guilabel> or <guilabel>C</guilabel>, the editable filename, a "
-"button for browsing, and the line number of the first visible line in the "
-"window. (Note that window <guilabel>C</guilabel> is optional.) Each info "
-"line appears in a different color."
+"input windows contain a letter <guilabel>A</guilabel>, <guilabel>B</"
+"guilabel> or <guilabel>C</guilabel>, the editable filename, a button for "
+"browsing, and the line number of the first visible line in the window. (Note "
+"that window <guilabel>C</guilabel> is optional.) Each info line appears in a "
+"different color."
 msgstr ""
 
 # automatic translation
@@ -1076,9 +1087,9 @@ msgstr ""
 #: index.docbook:366
 #, no-c-format
 msgid ""
-"When you selected another file via browsing or finished editing the filename"
-" here by pressing &Enter;, the new file will be loaded and compared with the"
-" already loaded file(s)."
+"When you selected another file via browsing or finished editing the filename "
+"here by pressing &Enter;, the new file will be loaded and compared with the "
+"already loaded file(s)."
 msgstr ""
 
 # automatic translation
@@ -1105,11 +1116,11 @@ msgstr ""
 #: index.docbook:376
 #, no-c-format
 msgid ""
-"When a difference is detected then the color shows which input file differs."
-" When both other input files differ then the color used to express this is "
+"When a difference is detected then the color shows which input file differs. "
+"When both other input files differ then the color used to express this is "
 "red by default (<guilabel>Conflict color</guilabel> option in the "
-"<guilabel>Color</guilabel> item in the settings dialog). This colorscheme is"
-" especially useful in the case of three input files, which will be seen in "
+"<guilabel>Color</guilabel> item in the settings dialog). This colorscheme is "
+"especially useful in the case of three input files, which will be seen in "
 "the next section (<link linkend=\"merging\">Merging</link>)."
 msgstr ""
 
@@ -1157,16 +1168,16 @@ msgstr ""
 #, no-c-format
 msgid ""
 "On the right side a \"overview\" column is visible left of the vertical "
-"scrollbar. It shows the compressed summary column of input "
-"<guilabel>A</guilabel>. All the differences and conflicts are visible at one"
-" glance. When only two input windows are used, then all differences appear "
-"red here because every difference is also a conflict. A black rectangle "
-"frames the visible part of the inputs. For very long input files, when the "
-"number of input lines is bigger than the height of the overview column in "
-"pixels, then several input lines share one overview line. A conflict then "
-"has top priority over simple differences, which have priority over no "
-"change, so that no difference or conflict is lost here. By clicking into "
-"this overview column the corresponding text will be shown."
+"scrollbar. It shows the compressed summary column of input <guilabel>A</"
+"guilabel>. All the differences and conflicts are visible at one glance. When "
+"only two input windows are used, then all differences appear red here "
+"because every difference is also a conflict. A black rectangle frames the "
+"visible part of the inputs. For very long input files, when the number of "
+"input lines is bigger than the height of the overview column in pixels, then "
+"several input lines share one overview line. A conflict then has top "
+"priority over simple differences, which have priority over no change, so "
+"that no difference or conflict is lost here. By clicking into this overview "
+"column the corresponding text will be shown."
 msgstr ""
 
 # automatic translation
@@ -1184,17 +1195,16 @@ msgid ""
 "Sometimes the algorithm places the wrong lines next to each other. Or you "
 "want to compare one piece of text with text at a completely different "
 "position in the other file. For these situations you can manually instruct "
-"&kdiff3; to align certain lines. Mark the text for which you want to improve"
-" the alignment with the mouse as you would for copy and paste in the first "
-"diff view and then choose "
-"<menuchoice><guimenu>Diffview</guimenu><guimenuitem>Add Manual Diff "
-"Alignment</guimenuitem></menuchoice> menu item "
-"(<keycombo>&Ctrl;<keycap>Y</keycap></keycombo>). An orange bar will appear "
-"in the summary column next to the chosen text. Repeat this for the second "
-"and (if available) third diff view. &kdiff3; will immediately recalculate "
-"the differences everytime you do this, and will align the chosen lines. Of "
-"course some of the previously matching lines in between might not match "
-"anymore."
+"&kdiff3; to align certain lines. Mark the text for which you want to improve "
+"the alignment with the mouse as you would for copy and paste in the first "
+"diff view and then choose <menuchoice><guimenu>Diffview</"
+"guimenu><guimenuitem>Add Manual Diff Alignment</guimenuitem></menuchoice> "
+"menu item (<keycombo>&Ctrl;<keycap>Y</keycap></keycombo>). An orange bar "
+"will appear in the summary column next to the chosen text. Repeat this for "
+"the second and (if available) third diff view. &kdiff3; will immediately "
+"recalculate the differences everytime you do this, and will align the chosen "
+"lines. Of course some of the previously matching lines in between might not "
+"match anymore."
 msgstr ""
 
 # automatic translation
@@ -1227,11 +1237,10 @@ msgstr ""
 msgid ""
 "Add new sections by first selecting text in the lines that belong together "
 "in either input window (as for copying to the clipboard). Then choose "
-"<menuchoice><guimenu>Merge</guimenu><guimenuitem>Split Diff At "
-"Selection</guimenuitem></menuchoice> menu item. Splits will be added above "
-"the first line and below the last line of the selected text. If you only "
-"want to add one section, then select text beginning at another section-"
-"split."
+"<menuchoice><guimenu>Merge</guimenu><guimenuitem>Split Diff At Selection</"
+"guimenuitem></menuchoice> menu item. Splits will be added above the first "
+"line and below the last line of the selected text. If you only want to add "
+"one section, then select text beginning at another section-split."
 msgstr ""
 
 # automatic translation
@@ -1270,8 +1279,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "!!! Saving is disabled until all conflicts are resolved !!! (Use the "
-"<guibutton>Go to Previous/Next Unsolved Conflict</guibutton> buttons to find"
-" the remaining conflicts.)"
+"<guibutton>Go to Previous/Next Unsolved Conflict</guibutton> buttons to find "
+"the remaining conflicts.)"
 msgstr ""
 
 # automatic translation
@@ -1294,9 +1303,8 @@ msgid ""
 "but not both then the changed source will automatically be selected. Only "
 "when <guilabel>B</guilabel> and <guilabel>C</guilabel> have changed on the "
 "same lines, then the tool detects a conflict that must be solved manually. "
-"When <guilabel>B</guilabel> and <guilabel>C</guilabel> are the same, but not"
-" the same as <guilabel>A</guilabel>, then <guilabel>C</guilabel> is "
-"selected."
+"When <guilabel>B</guilabel> and <guilabel>C</guilabel> are the same, but not "
+"the same as <guilabel>A</guilabel>, then <guilabel>C</guilabel> is selected."
 msgstr ""
 
 # automatic translation
@@ -1317,9 +1325,9 @@ msgid ""
 "questionmark \"?\" and the line shows \"&lt;Merge Conflict&gt;\", all in "
 "red. Because solving conflicts line by line would take very long, the lines "
 "are grouped into groups that have the same difference and conflict "
-"characteristics. But only-white-space-conflicts are separated from non-"
-"white-space-conflicts in order to ease the merging of files were the "
-"indentation changed for many lines."
+"characteristics. But only-white-space-conflicts are separated from non-white-"
+"space-conflicts in order to ease the merging of files were the indentation "
+"changed for many lines."
 msgstr ""
 
 # automatic translation
@@ -1336,11 +1344,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When clicking into the summary column with the &LMB; in either window then "
-"the beginning of the group belonging to that line will shown in all windows."
-" This group then becomes the \"current group\". It is highlighted with the "
+"the beginning of the group belonging to that line will shown in all windows. "
+"This group then becomes the \"current group\". It is highlighted with the "
 "<guilabel>Current range diff background color</guilabel> option of "
-"<guilabel>Integration</guilabel> item in the settings dialog and a black bar"
-" appears on the left side of the text."
+"<guilabel>Integration</guilabel> item in the settings dialog and a black bar "
+"appears on the left side of the text."
 msgstr ""
 
 # automatic translation
@@ -1357,8 +1365,8 @@ msgstr ""
 msgid ""
 "The Button bar below the menubar contains three input selector buttons "
 "containing the letters <guilabel>A</guilabel>, <guilabel>B</guilabel> and "
-"<guilabel>C</guilabel>. Click the input selector button to insert (or remove"
-" if already inserted) the lines from the respective source. To choose the "
+"<guilabel>C</guilabel>. Click the input selector button to insert (or remove "
+"if already inserted) the lines from the respective source. To choose the "
 "lines from several inputs click the respective buttons in the needed order. "
 "For example if you want that the lines from <guilabel>B</guilabel> appear "
 "before the lines from <guilabel>A</guilabel> in the output, first click "
@@ -1373,8 +1381,8 @@ msgid ""
 "If you use the <guibutton>Automatically Go to Next Unsolved Conflict After "
 "Source Selection</guibutton> button (see <link linkend=\"autoadvance\">Auto-"
 "Advance</link> section), you should disable this before choosing lines from "
-"several inputs or if you want to edit the lines after your choice. Otherwise"
-" &kdiff3; will jump to the next conflict after choosing the first input."
+"several inputs or if you want to edit the lines after your choice. Otherwise "
+"&kdiff3; will jump to the next conflict after choosing the first input."
 msgstr ""
 
 # automatic translation
@@ -1385,9 +1393,8 @@ msgid ""
 "It is often helpful directly edit the merge output. The summary column will "
 "show \"m\" for every line that was manually modified. When for instance the "
 "differences are aligned in a way that simply choosing the inputs won't be "
-"satisfactory, then you can mark the needed text and use normal <link "
-"linkend=\"selections\">copy and paste</link> to put it into the merge "
-"output."
+"satisfactory, then you can mark the needed text and use normal <link linkend="
+"\"selections\">copy and paste</link> to put it into the merge output."
 msgstr ""
 
 # automatic translation
@@ -1407,8 +1414,8 @@ msgstr ""
 #: index.docbook:474
 #, no-c-format
 msgid ""
-"The text \"&lt;Merge Conflict&gt;\" will appear in the clipboard if you copy"
-" and paste some text containing such a line. But still be careful to do so."
+"The text \"&lt;Merge Conflict&gt;\" will appear in the clipboard if you copy "
+"and paste some text containing such a line. But still be careful to do so."
 msgstr ""
 
 # automatic translation
@@ -1426,15 +1433,14 @@ msgid ""
 "The normal merge will start by solving simple conflicts automatically. But "
 "the <guimenu>Merge</guimenu> menu provides some actions for other common "
 "needs. If you have to select the same source for most conflicts, then you "
-"can choose <guilabel>A</guilabel>, <guilabel>B</guilabel> or "
-"<guilabel>C</guilabel> everywhere, or only for the remaining unsolved "
-"conflicts, or for unsolved white space conflicts. If you want to decide "
-"every single delta yourself, you can <guimenuitem>Set Deltas to "
-"Conflicts</guimenuitem>. Or if you want to return to the automatic choices "
-"of &kdiff3; then select <guimenuitem>Automatically Solve Simple "
-"Conflicts</guimenuitem>. &kdiff3; then restarts the merge. For actions that "
-"change your previous modifications &kdiff3; will ask for your confirmation "
-"before proceeding."
+"can choose <guilabel>A</guilabel>, <guilabel>B</guilabel> or <guilabel>C</"
+"guilabel> everywhere, or only for the remaining unsolved conflicts, or for "
+"unsolved white space conflicts. If you want to decide every single delta "
+"yourself, you can <guimenuitem>Set Deltas to Conflicts</guimenuitem>. Or if "
+"you want to return to the automatic choices of &kdiff3; then select "
+"<guimenuitem>Automatically Solve Simple Conflicts</guimenuitem>. &kdiff3; "
+"then restarts the merge. For actions that change your previous modifications "
+"&kdiff3; will ask for your confirmation before proceeding."
 msgstr ""
 
 # automatic translation
@@ -1444,9 +1450,9 @@ msgstr ""
 msgid ""
 "When choosing either source for unsolved white space conflicts and the "
 "<guilabel>Ignore numbers (treat as white space)</guilabel> or "
-"<guilabel>Ignore C/C++ comments (treat as white space)</guilabel> options at"
-" <guilabel>Diff</guilabel> item in the settings dialog are used then changes"
-" in numbers or comments will be treated like white space too."
+"<guilabel>Ignore C/C++ comments (treat as white space)</guilabel> options at "
+"<guilabel>Diff</guilabel> item in the settings dialog are used then changes "
+"in numbers or comments will be treated like white space too."
 msgstr ""
 
 # automatic translation
@@ -1462,15 +1468,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Many version control systems support special keywords in the file. (&eg; "
-"\"<literal>&#36;Date&#36;</literal>\", "
-"\"<literal>&#36;Header&#36;</literal>\", "
-"\"<literal>&#36;Author&#36;</literal>\", "
-"\"<literal>&#36;Log&#36;</literal>\", &etc;) During the check-in the version"
-" control system (VCS) changes these lines. For instance "
-"\"<literal>&#36;Date&#36;</literal>\" will turn into \"<literal>&#36;Date: "
-"2005/03/22 18:45:01 &#36;</literal>\". Since this line will be different in "
-"every version of the file, it would require manual interaction during the "
-"merge."
+"\"<literal>&#36;Date&#36;</literal>\", \"<literal>&#36;Header&#36;</literal>"
+"\", \"<literal>&#36;Author&#36;</literal>\", \"<literal>&#36;Log&#36;</"
+"literal>\", &etc;) During the check-in the version control system (VCS) "
+"changes these lines. For instance \"<literal>&#36;Date&#36;</literal>\" will "
+"turn into \"<literal>&#36;Date: 2005/03/22 18:45:01 &#36;</literal>\". Since "
+"this line will be different in every version of the file, it would require "
+"manual interaction during the merge."
 msgstr ""
 
 # automatic translation
@@ -1478,17 +1482,17 @@ msgstr ""
 #: index.docbook:485
 #, no-c-format
 msgid ""
-"&kdiff3; offers automatic merge for these items at "
-"<guilabel>Merge</guilabel> item in the settings dialog. For simple lines "
-"that match the <guilabel>Auto merge regular expression</guilabel> option in "
-"all input-files &kdiff3; will choose the line from <guilabel>B</guilabel> or"
-" - if available - from <guilabel>C</guilabel>. (Additionally it is necessary"
-" that the lines in question line up in the comparison and the previous line "
-"contains no conflict.) This auto merge can either be run immediately after a"
-" merge starts (activate the option <guilabel>Run regular expression auto "
-"merge on merge start</guilabel>) or later via "
-"<menuchoice><guimenu>Merge</guimenu><guimenuitem>Run Regular Expression Auto"
-" Merge</guimenuitem></menuchoice> menu item."
+"&kdiff3; offers automatic merge for these items at <guilabel>Merge</"
+"guilabel> item in the settings dialog. For simple lines that match the "
+"<guilabel>Auto merge regular expression</guilabel> option in all input-files "
+"&kdiff3; will choose the line from <guilabel>B</guilabel> or - if available "
+"- from <guilabel>C</guilabel>. (Additionally it is necessary that the lines "
+"in question line up in the comparison and the previous line contains no "
+"conflict.) This auto merge can either be run immediately after a merge "
+"starts (activate the option <guilabel>Run regular expression auto merge on "
+"merge start</guilabel>) or later via <menuchoice><guimenu>Merge</"
+"guimenu><guimenuitem>Run Regular Expression Auto Merge</guimenuitem></"
+"menuchoice> menu item."
 msgstr ""
 
 # automatic translation
@@ -1500,9 +1504,9 @@ msgid ""
 "supported. The history auto-merge can either run immediately when the merge "
 "starts by activating the option <guilabel>Merge version control history on "
 "merge start</guilabel> at <guilabel>Merge</guilabel> item in the settings "
-"dialog or later via the "
-"<menuchoice><guimenu>Merge</guimenu><guimenuitem>Automatically Solve History"
-" Conflicts</guimenuitem></menuchoice> menu item."
+"dialog or later via the <menuchoice><guimenu>Merge</"
+"guimenu><guimenuitem>Automatically Solve History Conflicts</guimenuitem></"
+"menuchoice> menu item."
 msgstr ""
 
 # automatic translation
@@ -1524,9 +1528,9 @@ msgstr ""
 #: index.docbook:491
 #, no-c-format
 msgid ""
-"During each check-in the VCS writes a unique line specifying version-, date-"
-" and time-information followed by lines with user comments. These lines form"
-" one history-entry. This history section grows with every check-in and the "
+"During each check-in the VCS writes a unique line specifying version-, date- "
+"and time-information followed by lines with user comments. These lines form "
+"one history-entry. This history section grows with every check-in and the "
 "most recent entries appear at the top (after the history start line)."
 msgstr ""
 
@@ -1539,8 +1543,8 @@ msgid ""
 "the file then the merge history will contain several entries that appear as "
 "conflicts during the merge of the branches. Since merging these can become "
 "very tedious, &kdiff3; offers support with two possible strategies: Just "
-"insert the history information from both contributors at the top or sort the"
-" history information by a user defined key."
+"insert the history information from both contributors at the top or sort the "
+"history information by a user defined key."
 msgstr ""
 
 # automatic translation
@@ -1563,8 +1567,8 @@ msgstr ""
 #: index.docbook:504
 #, no-c-format
 msgid ""
-"Note that &kdiff3; will remove duplicate history entries. If a history entry"
-" appeared several times in the history of a input file, only one entry will "
+"Note that &kdiff3; will remove duplicate history entries. If a history entry "
+"appeared several times in the history of a input file, only one entry will "
 "remain in the output."
 msgstr ""
 
@@ -1588,9 +1592,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Because this is not so easy to get right immediately, you are able to test "
-"and improve the regular expressions and key-generation in a dedicated dialog"
-" by pressing the <guibutton>Test your regular expressions</guibutton> "
-"button."
+"and improve the regular expressions and key-generation in a dedicated dialog "
+"by pressing the <guibutton>Test your regular expressions</guibutton> button."
 msgstr ""
 
 # automatic translation
@@ -1606,7 +1609,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "/**************************************************************************\n"
-"** HISTORY:    &#36;Log: \\toms_merge_main_view\\MyApplication\\src\\complexalgorithm.cpp &#36;\n"
+"** HISTORY:    &#36;Log: \\toms_merge_main_view\\MyApplication\\src"
+"\\complexalgorithm.cpp &#36;\n"
 "**\n"
 "**     \\main\\integration_branch_12   2 Apr 2001 10:45:41   tom\n"
 "**  Merged branch simon_branch_15.\n"
@@ -1622,9 +1626,8 @@ msgstr ""
 #: index.docbook:514
 #, no-c-format
 msgid ""
-"The history start line matches the regular expression "
-"\"<literal>.*\\&#36;Log.*\\&#36;.*</literal>\". Then follow the history "
-"entries."
+"The history start line matches the regular expression \"<literal>.*\\&#36;"
+"Log.*\\&#36;.*</literal>\". Then follow the history entries."
 msgstr ""
 
 # automatic translation
@@ -1634,9 +1637,9 @@ msgstr ""
 msgid ""
 "The line with the \"<literal>&#36;Log&#36;</literal>\" keyword begins with "
 "two \"*\" after which follows a space. &kdiff3; uses the first non-white-"
-"space string as \"leading comment\" and assumes that the history ends in the"
-" first line without this leading comment. In this example the last line ends"
-" with a string that also starts with two \"*\", but instead of a space "
+"space string as \"leading comment\" and assumes that the history ends in the "
+"first line without this leading comment. In this example the last line ends "
+"with a string that also starts with two \"*\", but instead of a space "
 "character more \"*\" follow. Hence this line ends the history."
 msgstr ""
 
@@ -1655,7 +1658,8 @@ msgstr ""
 #: index.docbook:522
 #, no-c-format
 msgid ""
-"\\s*\\\\main\\\\\\S+\\s+[0-9]+ (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\n"
+"\\s*\\\\main\\\\\\S+\\s+[0-9]+ (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|"
+"Dec)\n"
 " [0-9][0-9][0-9][0-9] [0-9][0-9]:[0-9][0-9]:[0-9][0-9]\\s+.*"
 msgstr ""
 
@@ -1664,18 +1668,17 @@ msgstr ""
 #: index.docbook:523
 #, no-c-format
 msgid ""
-"For details about regular expressions please see the <ulink "
-"url=\"https://doc.qt.io/qt-5/qregularexpression.html\">regular expression "
-"documentation</ulink>. Note that \"<literal>\\s</literal>\" (with lowercase "
-"\"<literal>s</literal>\") matches any white space and "
-"\"<literal>\\S</literal>\" (with uppercase \"<literal>S</literal>\") matches"
-" any non-white-space. In our example the history entry start contains first "
-"the version info with reg. exp. \"<literal>\\\\main\\\\\\S+</literal>\", the"
-" date consisting of day \"<literal>[0-9]+</literal>\", month "
-"\"<literal>(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)</literal>\" and"
-" year \"<literal>[0-9][0-9][0-9][0-9]</literal>\", the time "
-"\"<literal>[0-9][0-9]:[0-9][0-9]:[0-9][0-9]</literal>\" and finally the "
-"developers login name \"<literal>.*</literal>\"."
+"For details about regular expressions please see the <ulink url=\"https://"
+"doc.qt.io/qt-5/qregularexpression.html\">regular expression documentation</"
+"ulink>. Note that \"<literal>\\s</literal>\" (with lowercase \"<literal>s</"
+"literal>\") matches any white space and \"<literal>\\S</literal>\" (with "
+"uppercase \"<literal>S</literal>\") matches any non-white-space. In our "
+"example the history entry start contains first the version info with reg. "
+"exp. \"<literal>\\\\main\\\\\\S+</literal>\", the date consisting of day "
+"\"<literal>[0-9]+</literal>\", month \"<literal>(Jan|Feb|Mar|Apr|May|Jun|Jul|"
+"Aug|Sep|Oct|Nov|Dec)</literal>\" and year \"<literal>[0-9][0-9][0-9][0-9]</"
+"literal>\", the time \"<literal>[0-9][0-9]:[0-9][0-9]:[0-9][0-9]</literal>\" "
+"and finally the developers login name \"<literal>.*</literal>\"."
 msgstr ""
 
 # automatic translation
@@ -1683,13 +1686,13 @@ msgstr ""
 #: index.docbook:525
 #, no-c-format
 msgid ""
-"Note that the \"leading comment\" characters (in the example "
-"\"<literal>**</literal>\") will already be removed by &kdiff3; before trying"
-" to match, hence the regular expression begins with a match for none or more"
-" white-space characters \"<literal>\\s*</literal>\". Because comment "
-"characters can differ in each file (&eg; C/C++ uses other comment characters"
-" than a Perl script) &kdiff3; takes care of the leading comment characters "
-"and you should not specify them in the regular expression."
+"Note that the \"leading comment\" characters (in the example \"<literal>**</"
+"literal>\") will already be removed by &kdiff3; before trying to match, "
+"hence the regular expression begins with a match for none or more white-"
+"space characters \"<literal>\\s*</literal>\". Because comment characters can "
+"differ in each file (&eg; C/C++ uses other comment characters than a Perl "
+"script) &kdiff3; takes care of the leading comment characters and you should "
+"not specify them in the regular expression."
 msgstr ""
 
 # automatic translation
@@ -1708,7 +1711,8 @@ msgstr ""
 #: index.docbook:532
 #, no-c-format
 msgid ""
-"\\s*\\\\main\\\\(\\S+)\\s+([0-9]+) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\n"
+"\\s*\\\\main\\\\(\\S+)\\s+([0-9]+) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|"
+"Nov|Dec)\n"
 " ([0-9][0-9][0-9][0-9]) ([0-9][0-9]:[0-9][0-9]:[0-9][0-9])\\s+(.*)"
 msgstr ""
 
@@ -1717,13 +1721,13 @@ msgstr ""
 #: index.docbook:533
 #, no-c-format
 msgid ""
-"The parentheses now contain <literal>1</literal>. version info, "
-"<literal>2</literal>. day, <literal>3</literal>. month, "
-"<literal>4</literal>. year, <literal>5</literal>. time, "
-"<literal>6</literal>. name. But if we want to sort by date and time, we need"
-" to construct a key with the elements in a different order of appearance: "
-"First the year, followed by month, day, time, version info and name. Hence "
-"the sortkey order to specify is \"<literal>4,3,2,5,1,6</literal>\"."
+"The parentheses now contain <literal>1</literal>. version info, <literal>2</"
+"literal>. day, <literal>3</literal>. month, <literal>4</literal>. year, "
+"<literal>5</literal>. time, <literal>6</literal>. name. But if we want to "
+"sort by date and time, we need to construct a key with the elements in a "
+"different order of appearance: First the year, followed by month, day, time, "
+"version info and name. Hence the sortkey order to specify is "
+"\"<literal>4,3,2,5,1,6</literal>\"."
 msgstr ""
 
 # automatic translation
@@ -1751,8 +1755,8 @@ msgstr ""
 #: index.docbook:541
 #, no-c-format
 msgid ""
-"For more information also see <link linkend=\"mergeoptions\">Merge "
-"Settings</link> section."
+"For more information also see <link linkend=\"mergeoptions\">Merge Settings</"
+"link> section."
 msgstr ""
 
 # automatic translation
@@ -1770,10 +1774,10 @@ msgid ""
 "Much navigation will be done with the scroll bars and the mouse but you can "
 "also navigate with the keys. If you click into either window then you can "
 "use the shortcuts &Left;, &Right;, &Up;, &Down;, &PgUp;, &PgDn;, &Home;, "
-"&End;, <keycombo>&Ctrl;&Home;</keycombo> and "
-"<keycombo>&Ctrl;&End;</keycombo> as you would in other programs. The "
-"overview-column next to the vertical scroll bar of the input files can also "
-"be used for navigating by clicking into it."
+"&End;, <keycombo>&Ctrl;&Home;</keycombo> and <keycombo>&Ctrl;&End;</"
+"keycombo> as you would in other programs. The overview-column next to the "
+"vertical scroll bar of the input files can also be used for navigating by "
+"clicking into it."
 msgstr ""
 
 # automatic translation
@@ -1781,8 +1785,8 @@ msgstr ""
 #: index.docbook:550
 #, no-c-format
 msgid ""
-"You can also use the <mousebutton>wheel</mousebutton> mouse to scroll up and"
-" down."
+"You can also use the <mousebutton>wheel</mousebutton> mouse to scroll up and "
+"down."
 msgstr ""
 
 # automatic translation
@@ -1791,8 +1795,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In the merge output editor you can also use the other keys for editing. You "
-"can toggle between insert and overwrite mode with the &Ins; key. (Default is"
-" insert-mode.)"
+"can toggle between insert and overwrite mode with the &Ins; key. (Default is "
+"insert-mode.)"
 msgstr ""
 
 # automatic translation
@@ -1811,15 +1815,14 @@ msgstr ""
 #: index.docbook:560
 #, no-c-format
 msgid ""
-"The Button bar also contains nine navigation buttons with which you can jump"
-" to the current/first/last difference, to the previous/next difference "
+"The Button bar also contains nine navigation buttons with which you can jump "
+"to the current/first/last difference, to the previous/next difference "
 "(<keycombo>&Ctrl;&Down;</keycombo>/<keycombo>&Ctrl;&Up;</keycombo>), to the "
-"previous/next conflict "
-"(<keycombo>&Ctrl;&PgDn;</keycombo>/<keycombo>&Ctrl;&PgUp;</keycombo>), or to"
-" the previous/next unsolved conflict. Note that for &kdiff3; a \"conflict\" "
-"that was not automatically solved at the start of the merge stays a "
-"\"conflict\" even if it is solved. Hence the necessity to distinguish "
-"\"unsolved conflicts\"."
+"previous/next conflict (<keycombo>&Ctrl;&PgDn;</keycombo>/<keycombo>&Ctrl;"
+"&PgUp;</keycombo>), or to the previous/next unsolved conflict. Note that for "
+"&kdiff3; a \"conflict\" that was not automatically solved at the start of "
+"the merge stays a \"conflict\" even if it is solved. Hence the necessity to "
+"distinguish \"unsolved conflicts\"."
 msgstr ""
 
 # automatic translation
@@ -1834,22 +1837,20 @@ msgstr ""
 #: index.docbook:570
 #, no-c-format
 msgid ""
-"There also is a button <guibutton>Automatically Go to Next Unsolved Conflict"
-" After Source Selection</guibutton> (Auto-Advance). If you enable this, "
-"then, when one source is selected, &kdiff3; will jump to and select the next"
-" unsolved conflict automatically. This can help when you always want to "
+"There also is a button <guibutton>Automatically Go to Next Unsolved Conflict "
+"After Source Selection</guibutton> (Auto-Advance). If you enable this, then, "
+"when one source is selected, &kdiff3; will jump to and select the next "
+"unsolved conflict automatically. This can help when you always want to "
 "choose one source only. When you need both sources, or you want to edit "
 "after selecting, then you probably want to switch this off. Before "
 "proceeding to the next unsolved conflict &kdiff3; shows you the effect of "
 "your choice for a short time. This delay is adjustable in the "
 "<guilabel>Merge</guilabel> item in the settings dialog: You can specify the "
-"<guilabel>Auto advance delay (ms):</guilabel> in milli seconds between 0 and"
-" 2000. Hint: Tired of many clicks? - Use a small Auto-Advance-delay and the "
-"shortcuts "
-"<keycombo>&Ctrl;<keycap>1</keycap></keycombo>/<keycap>2</keycap>/<keycap>3</keycap>"
-" to select "
-"<guilabel>A</guilabel>/<guilabel>B</guilabel>/<guilabel>C</guilabel> for "
-"many conflicts."
+"<guilabel>Auto advance delay (ms):</guilabel> in milli seconds between 0 and "
+"2000. Hint: Tired of many clicks? - Use a small Auto-Advance-delay and the "
+"shortcuts <keycombo>&Ctrl;<keycap>1</keycap></keycombo>/<keycap>2</keycap>/"
+"<keycap>3</keycap> to select <guilabel>A</guilabel>/<guilabel>B</guilabel>/"
+"<guilabel>C</guilabel> for many conflicts."
 msgstr ""
 
 # automatic translation
@@ -1867,9 +1868,9 @@ msgid ""
 "The input windows don't show a cursor, so selections must be made with the "
 "mouse by clicking with the &RMB; at the start, holding down the mousebutton "
 "and moving to the end, where you release the mouse button again. You can "
-"also select a word by double clicking it. In the merge output editor you can"
-" also select via the keyboard by holding the &Shift; key and navigation with"
-" the cursor keys."
+"also select a word by double clicking it. In the merge output editor you can "
+"also select via the keyboard by holding the &Shift; key and navigation with "
+"the cursor keys."
 msgstr ""
 
 # automatic translation
@@ -1886,8 +1887,8 @@ msgstr ""
 #: index.docbook:598
 #, no-c-format
 msgid ""
-"For very large selections you can also use the navigation keys while holding"
-" down the mouse. E.g. use &PgUp; and &PgDn; to quickly go to a certain "
+"For very large selections you can also use the navigation keys while holding "
+"down the mouse. E.g. use &PgUp; and &PgDn; to quickly go to a certain "
 "position. At the end position release the mouse button."
 msgstr ""
 
@@ -1897,9 +1898,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In order to select everything in the current window use "
-"<menuchoice><guimenu>Edit</guimenu> <guimenuitem>Select "
-"All</guimenuitem></menuchoice> menu item "
-"(<keycombo>&Ctrl;<keycap>A</keycap></keycombo>)."
+"<menuchoice><guimenu>Edit</guimenu> <guimenuitem>Select All</guimenuitem></"
+"menuchoice> menu item (<keycombo>&Ctrl;<keycap>A</keycap></keycombo>)."
 msgstr ""
 
 # automatic translation
@@ -1908,13 +1908,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To copy to the clipboard you must press the <guibutton>Copy</guibutton> "
-"button (<keycombo>&Ctrl;<keycap>C</keycap></keycombo> or "
-"<keycombo>&Ctrl;&Ins;</keycombo>). But there exists an option <guilabel>Auto"
-" copy selection</guilabel> at <guilabel>Editor</guilabel> item in the "
-"settings dialog. If this is enabled, then whatever you select is copied "
-"immediately and you don't need to explicitly copy. But pay attention when "
-"using this because the contents of the clipboard might then be destroyed "
-"accidentally."
+"button (<keycombo>&Ctrl;<keycap>C</keycap></keycombo> or <keycombo>&Ctrl;"
+"&Ins;</keycombo>). But there exists an option <guilabel>Auto copy selection</"
+"guilabel> at <guilabel>Editor</guilabel> item in the settings dialog. If "
+"this is enabled, then whatever you select is copied immediately and you "
+"don't need to explicitly copy. But pay attention when using this because the "
+"contents of the clipboard might then be destroyed accidentally."
 msgstr ""
 
 # automatic translation
@@ -1922,8 +1921,8 @@ msgstr ""
 #: index.docbook:607
 #, no-c-format
 msgid ""
-"<guibutton>Cut</guibutton> (<keycombo>&Ctrl;<keycap>X</keycap></keycombo> or"
-" <keycombo>&Shift;&Del;</keycombo>) copies to the clipboard and deletes the "
+"<guibutton>Cut</guibutton> (<keycombo>&Ctrl;<keycap>X</keycap></keycombo> or "
+"<keycombo>&Shift;&Del;</keycombo>) copies to the clipboard and deletes the "
 "selected text."
 msgstr ""
 
@@ -1935,8 +1934,8 @@ msgid ""
 "<guibutton>Paste</guibutton> (<keycombo>&Ctrl;<keycap>V</keycap></keycombo> "
 "or <keycombo>&Shift;&Ins;</keycombo>) inserts the text in the clipboard at "
 "the cursorposition or over the current selection. If you paste to either "
-"diff input window the contents of the clipboard will be shown in that window"
-" and the comparison will restart immediately. This is useful if you want to "
+"diff input window the contents of the clipboard will be shown in that window "
+"and the comparison will restart immediately. This is useful if you want to "
 "quickly grab a piece of text from somewhere and compare it with something "
 "else without first creating files."
 msgstr ""
@@ -1955,13 +1954,13 @@ msgstr ""
 msgid ""
 "Saving will only be allowed, when all conflicts were solved. If the file "
 "already exists and the <guilabel>Backup files</guilabel> option is enabled "
-"at <guilabel>Folder</guilabel> item in the settings dialog then the existing"
-" file will be renamed with an <literal role=\"extension\">.orig</literal> "
+"at <guilabel>Folder</guilabel> item in the settings dialog then the existing "
+"file will be renamed with an <literal role=\"extension\">.orig</literal> "
 "extension, but if such a file exists it will be deleted. When you exit or "
 "start another diff-analysis and data wasn't saved yet, then &kdiff3; will "
 "ask if you want to save, cancel or proceed without saving. (&kdiff3; does "
-"not catch any signals. So if you \"kill\" a &kdiff3; instance then your data"
-" will be lost.)"
+"not catch any signals. So if you \"kill\" a &kdiff3; instance then your data "
+"will be lost.)"
 msgstr ""
 
 # automatic translation
@@ -1973,8 +1972,8 @@ msgid ""
 "operating system. For Unices each line ends with an linefeed-character "
 "\"<literal>\\n</literal>\", while for Win32-based systems each line ends "
 "with a carriage-return + a linefeed \"<literal>\\r\\n</literal>\". &kdiff3; "
-"does not preserve the line-endings of the input files, which also means that"
-" you shouldn't use &kdiff3; with binary files."
+"does not preserve the line-endings of the input files, which also means that "
+"you shouldn't use &kdiff3; with binary files."
 msgstr ""
 
 # automatic translation
@@ -1990,15 +1989,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can search for a string in any text-window of &kdiff3;. The "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem></menuchoice>"
-" menu item (<keycombo>&Ctrl;<keycap>F</keycap></keycombo>) opens a dialog "
-"that lets you specify the string to search for. You can also select the "
-"windows which should be searched. Searching will always start at the top. "
-"Use the <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find "
-"Next...</guimenuitem></menuchoice> menu item (<keycap>F3</keycap>) to "
-"proceed to the next occurrence. If you select to search several windows then"
-" the first window will be searched from top to bottom before the search "
-"starts in the next window at the top again, &etc;"
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem></"
+"menuchoice> menu item (<keycombo>&Ctrl;<keycap>F</keycap></keycombo>) opens "
+"a dialog that lets you specify the string to search for. You can also select "
+"the windows which should be searched. Searching will always start at the "
+"top. Use the <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find Next...</"
+"guimenuitem></menuchoice> menu item (<keycap>F3</keycap>) to proceed to the "
+"next occurrence. If you select to search several windows then the first "
+"window will be searched from top to bottom before the search starts in the "
+"next window at the top again, &etc;"
 msgstr ""
 
 # automatic translation
@@ -2014,9 +2013,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kdiff3; supports printing for textfile differences. The "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Print...</guimenuitem></menuchoice>"
-" menu item (<keycombo>&Ctrl;<keycap>P</keycap></keycombo>) opens a dialog "
-"that allows you to select the printer and to adjust other options."
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Print...</guimenuitem></"
+"menuchoice> menu item (<keycombo>&Ctrl;<keycap>P</keycap></keycombo>) opens "
+"a dialog that allows you to select the printer and to adjust other options."
 msgstr ""
 
 # automatic translation
@@ -2056,8 +2055,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Print a page starting at the first visible line in the window. (On systems "
-"without this option this can be achieved by specifying page number 10000 for"
-" printing.)"
+"without this option this can be achieved by specifying page number 10000 for "
+"printing.)"
 msgstr ""
 
 # automatic translation
@@ -2073,9 +2072,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Before choosing to print select text with the mouse (like for copy and "
-"paste) in one of the diff input windows to define the start and end line. If"
-" no text in one of the diff input windows was selected, then this won't be "
-"an available choice. (On systems without this option this can be achived by "
+"paste) in one of the diff input windows to define the start and end line. If "
+"no text in one of the diff input windows was selected, then this won't be an "
+"available choice. (On systems without this option this can be achived by "
 "specifying page number 9999 for printing.)"
 msgstr ""
 
@@ -2394,8 +2393,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "On systems with only 16 or 256 colors some colors are not available in pure "
-"form. On such systems the <guibutton>Defaults</guibutton> button will choose"
-" a pure color."
+"form. On such systems the <guibutton>Defaults</guibutton> button will choose "
+"a pure color."
 msgstr ""
 
 # automatic translation
@@ -2514,10 +2513,10 @@ msgstr ""
 #: index.docbook:740
 #, no-c-format
 msgid ""
-"Default is off. Number characters ('0'-'9', '.', '-') will be ignored in the"
-" first part of the analysis in which the line matching is done. In the "
-"result the differences will be shown nevertheless, but they are treated as "
-"white space."
+"Default is off. Number characters ('0'-'9', '.', '-') will be ignored in the "
+"first part of the analysis in which the line matching is done. In the result "
+"the differences will be shown nevertheless, but they are treated as white "
+"space."
 msgstr ""
 
 # automatic translation
@@ -2625,8 +2624,8 @@ msgstr ""
 #: index.docbook:771
 #, no-c-format
 msgid ""
-"When in auto-advance-mode this setting specifies how long to show the result"
-" of the selection before jumping to the next unsolved conflict."
+"When in auto-advance-mode this setting specifies how long to show the result "
+"of the selection before jumping to the next unsolved conflict."
 msgstr ""
 
 # automatic translation
@@ -2655,14 +2654,14 @@ msgstr ""
 #: index.docbook:778
 #, no-c-format
 msgid ""
-"Automatically solve all white-space conflict by choosing the specified file."
-" (Default is manual choice.) Useful if white space really isn't important in"
-" many files. If you need this only occasionally better use <guilabel>Choose "
-"A/B/C for All Unsolved Whitespace Conflicts</guilabel> in the "
-"<guimenu>Merge</guimenu> menu. Note that if you enable either "
-"<guilabel>Ignore numbers (treat as white space)</guilabel> or "
-"<guilabel>Ignore C/C++ comments (treat as white space)</guilabel> then this "
-"auto-choice also applies for conflicts in numbers or comments."
+"Automatically solve all white-space conflict by choosing the specified file. "
+"(Default is manual choice.) Useful if white space really isn't important in "
+"many files. If you need this only occasionally better use <guilabel>Choose A/"
+"B/C for All Unsolved Whitespace Conflicts</guilabel> in the <guimenu>Merge</"
+"guimenu> menu. Note that if you enable either <guilabel>Ignore numbers "
+"(treat as white space)</guilabel> or <guilabel>Ignore C/C++ comments (treat "
+"as white space)</guilabel> then this auto-choice also applies for conflicts "
+"in numbers or comments."
 msgstr ""
 
 # automatic translation
@@ -2678,8 +2677,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Regular expression for lines where &kdiff3; should automatically choose one "
-"source. See also <link linkend=\"vcskeywordsmergesupport\">Automatic "
-"Merge...</link>."
+"source. See also <link linkend=\"vcskeywordsmergesupport\">Automatic Merge..."
+"</link>."
 msgstr ""
 
 # automatic translation
@@ -2755,11 +2754,10 @@ msgstr ""
 msgid ""
 "Each pair of parentheses used in the regular expression for the history "
 "start entry groups a key that can be used for sorting. Specify the list of "
-"keys (that are numbered in order of occurrence starting with "
-"<literal>1</literal>) using ',' as separator (&eg; "
-"\"<literal>4,5,6,1,2,3,7</literal>\"). If left empty, then no sorting will "
-"be done. See also <link linkend=\"vcskeywordsmergesupport\">Automatic "
-"Merge...</link>."
+"keys (that are numbered in order of occurrence starting with <literal>1</"
+"literal>) using ',' as separator (&eg; \"<literal>4,5,6,1,2,3,7</literal>"
+"\"). If left empty, then no sorting will be done. See also <link linkend="
+"\"vcskeywordsmergesupport\">Automatic Merge...</link>."
 msgstr ""
 
 # automatic translation
@@ -2791,8 +2789,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kdiff3; truncates the history list after the specified number of entries. "
-"Use <literal>-1</literal> to avoid truncation. (Default is "
-"<literal>-1</literal>)."
+"Use <literal>-1</literal> to avoid truncation. (Default is <literal>-1</"
+"literal>)."
 msgstr ""
 
 # automatic translation
@@ -2830,8 +2828,8 @@ msgid ""
 "that for a three file merge the file from <guilabel>B</guilabel> doesn't "
 "contribute any relevant data that isn't already contained in the file from "
 "<guilabel>C</guilabel>. The command is called with the three filenames as "
-"parameters. Data matched by the <guilabel>Auto merge regular "
-"expression</guilabel> or in the history isn't considered relevant."
+"parameters. Data matched by the <guilabel>Auto merge regular expression</"
+"guilabel> or in the history isn't considered relevant."
 msgstr ""
 
 # automatic translation
@@ -2863,9 +2861,9 @@ msgstr ""
 #: index.docbook:845
 #, no-c-format
 msgid ""
-"These options are concerned with scanning the folder and handling the merge:"
-" See the <link linkend=\"dirmergeoptions\">Folder Comparison/Merge "
-"Docs</link> for details."
+"These options are concerned with scanning the folder and handling the merge: "
+"See the <link linkend=\"dirmergeoptions\">Folder Comparison/Merge Docs</"
+"link> for details."
 msgstr ""
 
 # automatic translation
@@ -2890,9 +2888,8 @@ msgstr ""
 msgid ""
 "When a file is saved and an older version already exists, then the original "
 "version will be renamed with an <literal role=\"extension\">.orig</literal> "
-"extension. If an old backup file with <literal "
-"role=\"extension\">.orig</literal> extension already exists then this will "
-"be deleted without backup."
+"extension. If an old backup file with <literal role=\"extension\">.orig</"
+"literal> extension already exists then this will be deleted without backup."
 msgstr ""
 
 # automatic translation
@@ -2984,8 +2981,8 @@ msgstr ""
 #: index.docbook:868
 #, no-c-format
 msgid ""
-"When you have edited a file, then you can adjust which encoding will be used"
-" when saving to disk."
+"When you have edited a file, then you can adjust which encoding will be used "
+"when saving to disk."
 msgstr ""
 
 # automatic translation
@@ -3000,8 +2997,8 @@ msgstr ""
 #: index.docbook:870
 #, no-c-format
 msgid ""
-"When you define preprocessors then they might not be able to operate on your"
-" codec. (&eg;: Your files are 16 bit unicode and your preprocessor can only "
+"When you define preprocessors then they might not be able to operate on your "
+"codec. (&eg;: Your files are 16 bit unicode and your preprocessor can only "
 "take 8 bit &ASCII;.) With this option you can define the encoding of "
 "preprocessor output."
 msgstr ""
@@ -3021,8 +3018,8 @@ msgid ""
 "Some languages are written right to left. When this option is enabled, "
 "&kdiff3; draws the text from right to left in the diff input windows and in "
 "the merge output window. Note that if you start &kdiff3; with the command "
-"line option <option>--reverse</option> then all layouting will be done right"
-" to left too. (This is a feature provided by &Qt;.)"
+"line option <option>--reverse</option> then all layouting will be done right "
+"to left too. (This is a feature provided by &Qt;.)"
 msgstr ""
 
 # automatic translation
@@ -3064,9 +3061,9 @@ msgid ""
 "These choices are only available when you compare three files. In normal "
 "mode all differences are shown in one color-coded overview-column. But "
 "sometimes you are especially interested in the differences between only two "
-"of these three files. Selecting \"A vs. B\", \"A vs. C\" or \"B vs. "
-"C\"-overview will show a second overview column with the required "
-"information next to the normal overview."
+"of these three files. Selecting \"A vs. B\", \"A vs. C\" or \"B vs. C\"-"
+"overview will show a second overview column with the required information "
+"next to the normal overview."
 msgstr ""
 
 # automatic translation
@@ -3111,9 +3108,9 @@ msgstr ""
 #: index.docbook:896
 #, no-c-format
 msgid ""
-"Switch between diff windows shown next to each other (<guilabel>A</guilabel>"
-" left of <guilabel>B</guilabel> left of <guilabel>C</guilabel>) or above "
-"each other (<guilabel>A</guilabel> above <guilabel>B</guilabel> above "
+"Switch between diff windows shown next to each other (<guilabel>A</guilabel> "
+"left of <guilabel>B</guilabel> left of <guilabel>C</guilabel>) or above each "
+"other (<guilabel>A</guilabel> above <guilabel>B</guilabel> above "
 "<guilabel>C</guilabel>). This should also help for long lines. (In the "
 "<guimenu>Window</guimenu> menu.)"
 msgstr ""
@@ -3151,8 +3148,8 @@ msgid ""
 "Turn this off to suppress any highlighting of white-space-only changes in "
 "the text or overview-columns. (Note that this also applies to changes in "
 "numbers or comments if the options <guilabel>Ignore numbers (treat as white "
-"space)</guilabel> or <guilabel>Ignore C/C++ comments (treat as white "
-"space)</guilabel> are active.)"
+"space)</guilabel> or <guilabel>Ignore C/C++ comments (treat as white space)</"
+"guilabel> are active.)"
 msgstr ""
 
 # automatic translation
@@ -3197,9 +3194,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Currently only the &frameworks; version supports user-configurable keyboard-"
-"shortcuts. (Menu "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"Shortcuts...</guimenuitem></menuchoice>)"
+"shortcuts. (Menu <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure Shortcuts...</guimenuitem></menuchoice>)"
 msgstr ""
 
 # automatic translation
@@ -3222,8 +3218,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When any file is read, it will be piped through this external command. The "
-"output of this command will be visible instead of the original file. You can"
-" write your own preprocessor that fulfills your specific needs. Use this to "
+"output of this command will be visible instead of the original file. You can "
+"write your own preprocessor that fulfills your specific needs. Use this to "
 "cut away disturbing parts of the file, or to automatically correct the "
 "indentation &etc;"
 msgstr ""
@@ -3235,8 +3231,8 @@ msgstr ""
 msgid ""
 "When any file is read, it will be piped through this external command. If a "
 "preprocessor-command (see above) is also specified, then the output of the "
-"preprocessor is the input of the line-matching preprocessor. The output will"
-" only be used during the line matching phase of the analysis. You can write "
+"preprocessor is the input of the line-matching preprocessor. The output will "
+"only be used during the line matching phase of the analysis. You can write "
 "your own preprocessor that fulfills your specific needs. Each input line "
 "must have a corresponding output line."
 msgstr ""
@@ -3246,10 +3242,10 @@ msgstr ""
 #: index.docbook:945
 #, no-c-format
 msgid ""
-"The idea is to allow the user greater flexibility while configuring the "
-"diff-result. But this requires an external program, and many users don't "
-"want to write one themselves. The good news is that very often "
-"<command>sed</command> or <command>perl</command> will do the job."
+"The idea is to allow the user greater flexibility while configuring the diff-"
+"result. But this requires an external program, and many users don't want to "
+"write one themselves. The good news is that very often <command>sed</"
+"command> or <command>perl</command> will do the job."
 msgstr ""
 
 # automatic translation
@@ -3317,8 +3313,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This is probably not wanted since the first letter contains the actually "
-"interesting information. To help the matching algorithm to ignore the second"
-" letter we can use a line matching preprocessor command, that replaces 'g' "
+"interesting information. To help the matching algorithm to ignore the second "
+"letter we can use a line matching preprocessor command, that replaces 'g' "
 "with 'a':"
 msgstr ""
 
@@ -3371,17 +3367,15 @@ msgstr ""
 #: index.docbook:979
 #, no-c-format
 msgid ""
-"This section only introduces some very basic features of "
-"<command>sed</command>. For more information see <ulink "
-"url=\"info:/sed\">info:/sed</ulink> or <ulink "
-"url=\"https://www.gnu.org/software/sed/manual/html_mono/sed.html\"> "
-"https://www.gnu.org/software/sed/manual/html_mono/sed.html</ulink>. A "
-"precompiled version for &Windows; can be found at <ulink "
-"url=\"http://unxutils.sourceforge.net\"> "
-"http://unxutils.sourceforge.net</ulink>. Note that the following examples "
-"assume that the <command>sed</command> command is in some folder in the "
-"<envar>PATH</envar> environment variable. If this is not the case, you have "
-"to specify the full absolute path for the command."
+"This section only introduces some very basic features of <command>sed</"
+"command>. For more information see <ulink url=\"info:/sed\">info:/sed</"
+"ulink> or <ulink url=\"https://www.gnu.org/software/sed/manual/html_mono/sed."
+"html\"> https://www.gnu.org/software/sed/manual/html_mono/sed.html</ulink>. "
+"A precompiled version for &Windows; can be found at <ulink url=\"http://"
+"unxutils.sourceforge.net\"> http://unxutils.sourceforge.net</ulink>. Note "
+"that the following examples assume that the <command>sed</command> command "
+"is in some folder in the <envar>PATH</envar> environment variable. If this "
+"is not the case, you have to specify the full absolute path for the command."
 msgstr ""
 
 # automatic translation
@@ -3397,8 +3391,8 @@ msgstr ""
 #: index.docbook:993
 #, no-c-format
 msgid ""
-"<command>sed</command> "
-"'s/<replaceable>REGEXP</replaceable>/<replaceable>REPLACEMENT</replaceable>/<replaceable>FLAGS</replaceable>'"
+"<command>sed</command> 's/<replaceable>REGEXP</replaceable>/"
+"<replaceable>REPLACEMENT</replaceable>/<replaceable>FLAGS</replaceable>'"
 msgstr ""
 
 # automatic translation
@@ -3446,8 +3440,8 @@ msgid ""
 "The \"|\"-symbol is the pipe-command that transfers the output of the "
 "previous command to the input of the following command. If you want to test "
 "with a longer file then you can use <command>cat</command> on &UNIX; like "
-"systems or <command>type</command> on &Windows; like systems. "
-"<command>sed</command> will do the substitution for each line."
+"systems or <command>type</command> on &Windows; like systems. <command>sed</"
+"command> will do the substitution for each line."
 msgstr ""
 
 # automatic translation
@@ -3455,8 +3449,8 @@ msgstr ""
 #: index.docbook:1009
 #, no-c-format
 msgid ""
-"<command>cat</command> <replaceable>filename</replaceable> | "
-"<command>sed</command> <replaceable>options</replaceable>"
+"<command>cat</command> <replaceable>filename</replaceable> | <command>sed</"
+"command> <replaceable>options</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -3478,9 +3472,9 @@ msgstr ""
 #: index.docbook:1014
 #, no-c-format
 msgid ""
-"Currently &kdiff3; understands only C/C++ comments. Using the "
-"<guilabel>Line-matching preprocessor command:</guilabel> option you can also"
-" ignore other types of comments, by converting them into C/C++-comments."
+"Currently &kdiff3; understands only C/C++ comments. Using the <guilabel>Line-"
+"matching preprocessor command:</guilabel> option you can also ignore other "
+"types of comments, by converting them into C/C++-comments."
 msgstr ""
 
 # automatic translation
@@ -3490,9 +3484,9 @@ msgstr ""
 msgid ""
 "Example: To ignore comments starting with \"<literal>#</literal>\", you "
 "would like to convert them to \"<literal>//</literal>\". Note that you also "
-"must enable the <guilabel>Ignore C/C++ comments (treat as white "
-"space)</guilabel> option to get an effect. An appropriate <guilabel>Line-"
-"matching preprocessor command:</guilabel> would be:"
+"must enable the <guilabel>Ignore C/C++ comments (treat as white space)</"
+"guilabel> option to get an effect. An appropriate <guilabel>Line-matching "
+"preprocessor command:</guilabel> would be:"
 msgstr ""
 
 # automatic translation
@@ -3513,8 +3507,8 @@ msgid ""
 "Sometimes the \"<literal>\\</literal>\" is required to add or remove a "
 "special meaning of certain characters. The single quotation marks (') are "
 "only important when testing on the command shell as it will otherwise "
-"attempt to process some characters. &kdiff3; does not do this except for the"
-" escape sequences '<literal>\\\"</literal>' and '<literal>\\\\</literal>'."
+"attempt to process some characters. &kdiff3; does not do this except for the "
+"escape sequences '<literal>\\\"</literal>' and '<literal>\\\\</literal>'."
 msgstr ""
 
 # automatic translation
@@ -3548,9 +3542,9 @@ msgid ""
 "Here the \"<literal>.*</literal>\" is a regular expression that matches any "
 "string and in this context matches all characters in the line. The "
 "\"<literal>\\1</literal>\" in the replacement string refers to the matched "
-"text within the first pair of \"<literal>\\(</literal>\" and "
-"\"<literal>\\)</literal>\". The \"<literal>\\U</literal>\" converts the "
-"inserted text to uppercase."
+"text within the first pair of \"<literal>\\(</literal>\" and \"<literal>\\)</"
+"literal>\". The \"<literal>\\U</literal>\" converts the inserted text to "
+"uppercase."
 msgstr ""
 
 # automatic translation
@@ -3566,18 +3560,19 @@ msgstr ""
 #, no-c-format
 msgid ""
 "CVS and other version control systems use several keywords to insert "
-"automatically generated strings (<ulink url=\"info:/cvs/Keyword "
-"substitution\">info:/cvs/Keyword substitution</ulink>). All of them follow "
-"the pattern \"<replaceable>$KEYWORD generated text$</replaceable>\". We now "
-"need a line-matching preprocessor command that removes only the generated "
-"text:"
+"automatically generated strings (<ulink url=\"info:/cvs/Keyword substitution"
+"\">info:/cvs/Keyword substitution</ulink>). All of them follow the pattern "
+"\"<replaceable>$KEYWORD generated text$</replaceable>\". We now need a line-"
+"matching preprocessor command that removes only the generated text:"
 msgstr ""
 
 # automatic translation
 #. Tag: screen
 #: index.docbook:1047
 #, no-c-format
-msgid "<command>sed</command> 's/\\$\\(Revision\\|Author\\|Log\\|Header\\|Date\\).*\\$/\\$\\1\\$/'"
+msgid ""
+"<command>sed</command> 's/\\$\\(Revision\\|Author\\|Log\\|Header\\|Date\\).*"
+"\\$/\\$\\1\\$/'"
 msgstr ""
 
 # automatic translation
@@ -3586,9 +3581,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The \"<literal>\\|</literal>\" separates the possible keywords. You might "
-"want to modify this list according to your needs. The "
-"\"<literal>\\</literal>\" before the \"<literal>$</literal>\" is necessary "
-"because otherwise the \"<literal>$</literal>\" matches the end of the line."
+"want to modify this list according to your needs. The \"<literal>\\</literal>"
+"\" before the \"<literal>$</literal>\" is necessary because otherwise the "
+"\"<literal>$</literal>\" matches the end of the line."
 msgstr ""
 
 # automatic translation
@@ -3596,8 +3591,8 @@ msgstr ""
 #: index.docbook:1053
 #, no-c-format
 msgid ""
-"While experimenting with <command>sed</command> you might come to understand"
-" and even like these regular expressions. They are useful because there are "
+"While experimenting with <command>sed</command> you might come to understand "
+"and even like these regular expressions. They are useful because there are "
 "many other programs that also support similar things."
 msgstr ""
 
@@ -3613,8 +3608,8 @@ msgstr ""
 #: index.docbook:1061
 #, no-c-format
 msgid ""
-"Ignoring numbers actually is a built-in option. But as another example, this"
-" is how it would look as a line-matching preprocessor command."
+"Ignoring numbers actually is a built-in option. But as another example, this "
+"is how it would look as a line-matching preprocessor command."
 msgstr ""
 
 # automatic translation
@@ -3648,8 +3643,8 @@ msgid ""
 "Sometimes a text is very strictly formatted, and contains columns that you "
 "always want to ignore, while there are other columns you want to preserve "
 "for analysis. In the following example the first five columns (characters) "
-"are ignored, the next ten columns are preserved, then again five columns are"
-" ignored and the rest of the line is preserved."
+"are ignored, the next ten columns are preserved, then again five columns are "
+"ignored and the rest of the line is preserved."
 msgstr ""
 
 # automatic translation
@@ -3664,11 +3659,11 @@ msgstr ""
 #: index.docbook:1078
 #, no-c-format
 msgid ""
-"Each dot '<literal>.</literal>' matches any single character. The "
-"\"<literal>\\1</literal>\" and \"<literal>\\2</literal>\" in the replacement"
-" string refer to the matched text within the first and second pair of "
-"\"<literal>\\(</literal>\" and \"<literal>\\)</literal>\" denoting the text "
-"to be preserved."
+"Each dot '<literal>.</literal>' matches any single character. The \"<literal>"
+"\\1</literal>\" and \"<literal>\\2</literal>\" in the replacement string "
+"refer to the matched text within the first and second pair of \"<literal>"
+"\\(</literal>\" and \"<literal>\\)</literal>\" denoting the text to be "
+"preserved."
 msgstr ""
 
 # automatic translation
@@ -3693,7 +3688,8 @@ msgstr ""
 #: index.docbook:1089
 #, no-c-format
 msgid ""
-"<command>echo</command> abrakadabra | <command>sed</command> 's/a/o/g;s/\\(.*\\)/\\U\\1/'\n"
+"<command>echo</command> abrakadabra | <command>sed</command> 's/a/o/g;s/\\(.*"
+"\\)/\\U\\1/'\n"
 "   -> OBROKODOBRO"
 msgstr ""
 
@@ -3718,8 +3714,8 @@ msgstr ""
 #: index.docbook:1097
 #, no-c-format
 msgid ""
-"<command>perl</command> -p -e "
-"'s/<replaceable>REGEXP</replaceable>/<replaceable>REPLACEMENT</replaceable>/<replaceable>FLAGS</replaceable>'"
+"<command>perl</command> -p -e 's/<replaceable>REGEXP</replaceable>/"
+"<replaceable>REPLACEMENT</replaceable>/<replaceable>FLAGS</replaceable>'"
 msgstr ""
 
 # automatic translation
@@ -3728,10 +3724,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "But some details are different in <command>perl</command>. Note that where "
-"<command>sed</command> needed \"<literal>\\(</literal>\" and "
-"\"<literal>\\)</literal>\" <command>perl</command> requires the simpler "
-"\"<literal>(</literal>\" and \"<literal>)</literal>\" without preceding "
-"'<literal>\\</literal>'. Example:"
+"<command>sed</command> needed \"<literal>\\(</literal>\" and \"<literal>\\)</"
+"literal>\" <command>perl</command> requires the simpler \"<literal>(</"
+"literal>\" and \"<literal>)</literal>\" without preceding '<literal>\\</"
+"literal>'. Example:"
 msgstr ""
 
 # automatic translation
@@ -3832,8 +3828,8 @@ msgstr ""
 #: index.docbook:1130
 #, no-c-format
 msgid ""
-"The preprocessor-commands are often very useful, but as with any option that"
-" modifies your texts or hides away certain differences automatically, you "
+"The preprocessor-commands are often very useful, but as with any option that "
+"modifies your texts or hides away certain differences automatically, you "
 "might accidentally overlook certain differences and in the worst case "
 "destroy important data."
 msgstr ""
@@ -3845,19 +3841,18 @@ msgstr ""
 msgid ""
 "For this reason during a merge if a normal preprocessor-command is being "
 "used &kdiff3; will tell you so and ask you if it should be disabled or not. "
-"But it won't warn you if a <guilabel>Line-matching preprocessor "
-"command:</guilabel> option is active. The merge will not complete until all "
-"conflicts are solved. If you disabled "
-"<menuchoice><guimenu>Diffview</guimenu><guimenuitem>Show White "
-"Space</guimenuitem></menuchoice> menu item then the differences that were "
-"removed with the <guilabel>Line-matching preprocessor command:</guilabel> "
-"option will also be invisible. If the <guibutton>Save</guibutton> button "
-"remains disabled during a merge (because of remaining conflicts), make sure "
-"to enable <menuchoice><guimenu>Diffview</guimenu><guimenuitem>Show White "
-"Space</guimenuitem></menuchoice> menu item. If you don't want to merge these"
-" less important differences manually you can select "
-"<menuchoice><guimenu>Merge</guimenu><guimenuitem>Choose [A|B|C] for All "
-"Unsolved Whitespace Conflicts</guimenuitem></menuchoice> menu item."
+"But it won't warn you if a <guilabel>Line-matching preprocessor command:</"
+"guilabel> option is active. The merge will not complete until all conflicts "
+"are solved. If you disabled <menuchoice><guimenu>Diffview</"
+"guimenu><guimenuitem>Show White Space</guimenuitem></menuchoice> menu item "
+"then the differences that were removed with the <guilabel>Line-matching "
+"preprocessor command:</guilabel> option will also be invisible. If the "
+"<guibutton>Save</guibutton> button remains disabled during a merge (because "
+"of remaining conflicts), make sure to enable <menuchoice><guimenu>Diffview</"
+"guimenu><guimenuitem>Show White Space</guimenuitem></menuchoice> menu item. "
+"If you don't want to merge these less important differences manually you can "
+"select <menuchoice><guimenu>Merge</guimenu><guimenuitem>Choose [A|B|C] for "
+"All Unsolved Whitespace Conflicts</guimenuitem></menuchoice> menu item."
 msgstr ""
 
 # automatic translation
@@ -3893,8 +3888,8 @@ msgid ""
 "are several details that you should know about. Most important is of course "
 "the fact that now many files might be affected by each operation. If you "
 "don't have backups of your original data, then it can be very hard or even "
-"impossible to return to the original state. So before starting a merge, make"
-" sure that your data is safe, and going back is possible. If you make an "
+"impossible to return to the original state. So before starting a merge, make "
+"sure that your data is safe, and going back is possible. If you make an "
 "archive or use some version control system is your decision, but even "
 "experienced programmers and integrators need the old sources now and then. "
 "And note that even though I (the author of &kdiff3;) try to do my best, I "
@@ -3952,8 +3947,8 @@ msgstr ""
 #: index.docbook:1174
 #, no-c-format
 msgid ""
-"... lets you simulate the merge and lists the actions that would take place,"
-" without actually doing them,"
+"... lets you simulate the merge and lists the actions that would take place, "
+"without actually doing them,"
 msgstr ""
 
 # automatic translation
@@ -3979,8 +3974,8 @@ msgstr ""
 #: index.docbook:1179
 #, no-c-format
 msgid ""
-"... lets you continue the merge after manual interaction with "
-"<keycap>F7</keycap> key,"
+"... lets you continue the merge after manual interaction with <keycap>F7</"
+"keycap> key,"
 msgstr ""
 
 # automatic translation
@@ -3988,8 +3983,8 @@ msgstr ""
 #: index.docbook:1180
 #, no-c-format
 msgid ""
-"... optionally creates backups, with the <literal "
-"role=\"extension\">.orig</literal> extension,"
+"... optionally creates backups, with the <literal role=\"extension\">.orig</"
+"literal> extension,"
 msgstr ""
 
 # automatic translation
@@ -4021,7 +4016,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kdiff3</command> <replaceable>folder1 folder2</replaceable>\n"
-"   <command>kdiff3</command> <replaceable>folder1 folder2</replaceable> -o <replaceable>destdir</replaceable>"
+"   <command>kdiff3</command> <replaceable>folder1 folder2</replaceable> -o "
+"<replaceable>destdir</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -4045,8 +4041,10 @@ msgstr ""
 #: index.docbook:1199
 #, no-c-format
 msgid ""
-"<command>kdiff3</command> <replaceable>folder1 folder2 folder3</replaceable>\n"
-"   <command>kdiff3</command> <replaceable>folder1 folder2 folder3</replaceable> -o <replaceable>destdir</replaceable>"
+"<command>kdiff3</command> <replaceable>folder1 folder2 folder3</"
+"replaceable>\n"
+"   <command>kdiff3</command> <replaceable>folder1 folder2 folder3</"
+"replaceable> -o <replaceable>destdir</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -4115,8 +4113,8 @@ msgstr ""
 #: index.docbook:1235
 #, no-c-format
 msgid ""
-"Each file and folder that was found during the scan is shown here in a tree."
-" You can select an item by clicking it with the mouse once."
+"Each file and folder that was found during the scan is shown here in a tree. "
+"You can select an item by clicking it with the mouse once."
 msgstr ""
 
 # automatic translation
@@ -4126,10 +4124,10 @@ msgstr ""
 msgid ""
 "The folders are collapsed by default. You can expand and collapse them by "
 "clicking on the \"+\"/\"-\" or by double-clicking the item or by using the "
-"&Left;/&Right; cursor keys. The <guimenu>Folder</guimenu> menu also contains"
-" two actions <guimenuitem>Fold All Subfolders</guimenuitem> and "
-"<guimenuitem>Unfold All Subfolders</guimenuitem> with which you can collapse"
-" or expand all folders at once."
+"&Left;/&Right; cursor keys. The <guimenu>Folder</guimenu> menu also contains "
+"two actions <guimenuitem>Fold All Subfolders</guimenuitem> and "
+"<guimenuitem>Unfold All Subfolders</guimenuitem> with which you can collapse "
+"or expand all folders at once."
 msgstr ""
 
 # automatic translation
@@ -4137,8 +4135,8 @@ msgstr ""
 #: index.docbook:1244
 #, no-c-format
 msgid ""
-"If you double-click a file item then the file comparison starts and the "
-"file-diff-window will appear."
+"If you double-click a file item then the file comparison starts and the file-"
+"diff-window will appear."
 msgstr ""
 
 # automatic translation
@@ -4184,11 +4182,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If the file type is different in the other folders, then this is visible in "
-"the columns "
-"<guilabel>A</guilabel>/<guilabel>B</guilabel>/<guilabel>C</guilabel> and in "
-"the window that shows the details about the selected item. Note that for "
-"such a case no merge operation can be selected automatically. When starting "
-"the merge, then the user will be informed of problems of that kind."
+"the columns <guilabel>A</guilabel>/<guilabel>B</guilabel>/<guilabel>C</"
+"guilabel> and in the window that shows the details about the selected item. "
+"Note that for such a case no merge operation can be selected automatically. "
+"When starting the merge, then the user will be informed of problems of that "
+"kind."
 msgstr ""
 
 # automatic translation
@@ -4204,8 +4202,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "As can be seen in the image above the colors red, green, yellow and black "
-"are used in the columns "
-"<guilabel>A</guilabel>/<guilabel>B</guilabel>/<guilabel>C</guilabel>."
+"are used in the columns <guilabel>A</guilabel>/<guilabel>B</guilabel>/"
+"<guilabel>C</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -4260,10 +4258,10 @@ msgstr ""
 #: index.docbook:1285
 #, no-c-format
 msgid ""
-"The idea for this coloring scheme I came upon in <ulink "
-"url=\"https://www.samba.org/ftp/paulus/\"><command>dirdiff</command> "
-"command</ulink>. The colors resemble the colors of a leaf that is green when"
-" new, turns yellow later and red when old."
+"The idea for this coloring scheme I came upon in <ulink url=\"https://www."
+"samba.org/ftp/paulus/\"><command>dirdiff</command> command</ulink>. The "
+"colors resemble the colors of a leaf that is green when new, turns yellow "
+"later and red when old."
 msgstr ""
 
 # automatic translation
@@ -4283,11 +4281,11 @@ msgid ""
 "can modify the operation by clicking on the operation you want to change. A "
 "small menu will popup and allows you to select an operation for that item. "
 "(You can also select the most needed operations via keyboard. "
-"<keycombo>&Ctrl;<keycap>1</keycap></keycombo>/<keycap>2</keycap>/<keycap>3</keycap>/<keycap>4</keycap>/&Del;"
-" will select "
-"<guilabel>A</guilabel>/<guilabel>B</guilabel>/<guilabel>C</guilabel>/<guilabel>Merge</guilabel>/"
-" <guilabel>Delete</guilabel> respectively if available.) This operation will"
-" be executed during the merge. It depends on the item and on the merge-mode "
+"<keycombo>&Ctrl;<keycap>1</keycap></keycombo>/<keycap>2</keycap>/<keycap>3</"
+"keycap>/<keycap>4</keycap>/&Del; will select <guilabel>A</guilabel>/"
+"<guilabel>B</guilabel>/<guilabel>C</guilabel>/<guilabel>Merge</guilabel>/ "
+"<guilabel>Delete</guilabel> respectively if available.) This operation will "
+"be executed during the merge. It depends on the item and on the merge-mode "
 "you are in, what operations are available. The merge-mode is one of"
 msgstr ""
 
@@ -4296,8 +4294,7 @@ msgstr ""
 #: index.docbook:1305
 #, no-c-format
 msgid ""
-"Three-folder merge (<guilabel>A</guilabel> is treated as older base of "
-"both)."
+"Three-folder merge (<guilabel>A</guilabel> is treated as older base of both)."
 msgstr ""
 
 # automatic translation
@@ -4390,8 +4387,8 @@ msgstr ""
 #: index.docbook:1334
 #, no-c-format
 msgid ""
-"... <guilabel>A</guilabel>, <guilabel>B</guilabel> and "
-"<guilabel>C</guilabel> are not equal: Merge"
+"... <guilabel>A</guilabel>, <guilabel>B</guilabel> and <guilabel>C</"
+"guilabel> are not equal: Merge"
 msgstr ""
 
 # automatic translation
@@ -4399,11 +4396,10 @@ msgstr ""
 #: index.docbook:1337
 #, no-c-format
 msgid ""
-"... <guilabel>A</guilabel>, <guilabel>B</guilabel> and "
-"<guilabel>C</guilabel> don't have the same file type (&eg; "
-"<guilabel>A</guilabel> is a folder, <guilabel>B</guilabel> is a file): "
-"\"Error: Conflicting File Types\". While such items exist the folder merge "
-"cannot start."
+"... <guilabel>A</guilabel>, <guilabel>B</guilabel> and <guilabel>C</"
+"guilabel> don't have the same file type (&eg; <guilabel>A</guilabel> is a "
+"folder, <guilabel>B</guilabel> is a file): \"Error: Conflicting File Types"
+"\". While such items exist the folder merge cannot start."
 msgstr ""
 
 # automatic translation
@@ -4425,8 +4421,8 @@ msgstr ""
 #: index.docbook:1348
 #, no-c-format
 msgid ""
-"... <guilabel>A</guilabel> exists, but not <guilabel>B</guilabel>: Copy from"
-" <guilabel>A</guilabel>"
+"... <guilabel>A</guilabel> exists, but not <guilabel>B</guilabel>: Copy from "
+"<guilabel>A</guilabel>"
 msgstr ""
 
 # automatic translation
@@ -4434,8 +4430,8 @@ msgstr ""
 #: index.docbook:1351
 #, no-c-format
 msgid ""
-"... <guilabel>B</guilabel> exists, but not <guilabel>A</guilabel>: Copy from"
-" <guilabel>B</guilabel>"
+"... <guilabel>B</guilabel> exists, but not <guilabel>A</guilabel>: Copy from "
+"<guilabel>B</guilabel>"
 msgstr ""
 
 # automatic translation
@@ -4500,8 +4496,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "... <guilabel>A</guilabel> and <guilabel>B</guilabel> exist, but are not "
-"equal: Merge and store the result in both folders. (For the user the visible"
-" save-filename is <guilabel>B</guilabel>, but then &kdiff3; copies "
+"equal: Merge and store the result in both folders. (For the user the visible "
+"save-filename is <guilabel>B</guilabel>, but then &kdiff3; copies "
 "<guilabel>B</guilabel> also to <guilabel>A</guilabel>.)"
 msgstr ""
 
@@ -4511,10 +4507,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When two folders are merged and the <guilabel>Copy newer instead of merging "
-"(unsafe)</guilabel> option is selected, then &kdiff3; looks at the dates and"
-" proposes to choose the newer file. If the files are not equal but have "
-"equal dates, then the operation will contain \"Error: Dates are equal but "
-"files are not.\" While such items exist the folder merge cannot start."
+"(unsafe)</guilabel> option is selected, then &kdiff3; looks at the dates and "
+"proposes to choose the newer file. If the files are not equal but have equal "
+"dates, then the operation will contain \"Error: Dates are equal but files "
+"are not.\" While such items exist the folder merge cannot start."
 msgstr ""
 
 # automatic translation
@@ -4549,8 +4545,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When the file comparison mode <guilabel>Full Analysis</guilabel> is enabled "
-"in the options, then &kdiff3; will show extra columns containing the numbers"
-" of Unsolved, Solved, Nonwhite and Whitespace conflicts. (The "
+"in the options, then &kdiff3; will show extra columns containing the numbers "
+"of Unsolved, Solved, Nonwhite and Whitespace conflicts. (The "
 "<guilabel>Solved</guilabel> column will only show when comparing or merging "
 "three folders.)"
 msgstr ""
@@ -4596,8 +4592,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Show Files only in A</guilabel>: Files that exist only in "
-"<guilabel>A</guilabel>, but not in <guilabel>B</guilabel> or "
-"<guilabel>C</guilabel>."
+"<guilabel>A</guilabel>, but not in <guilabel>B</guilabel> or <guilabel>C</"
+"guilabel>."
 msgstr ""
 
 # automatic translation
@@ -4606,8 +4602,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Show Files only in B</guilabel>: Files that exist only in "
-"<guilabel>B</guilabel>, but not in <guilabel>A</guilabel> or "
-"<guilabel>C</guilabel>."
+"<guilabel>B</guilabel>, but not in <guilabel>A</guilabel> or <guilabel>C</"
+"guilabel>."
 msgstr ""
 
 # automatic translation
@@ -4616,8 +4612,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Show Files only in C</guilabel>: Files that exist only in "
-"<guilabel>C</guilabel>, but not in <guilabel>A</guilabel> or "
-"<guilabel>B</guilabel>."
+"<guilabel>C</guilabel>, but not in <guilabel>A</guilabel> or <guilabel>B</"
+"guilabel>."
 msgstr ""
 
 # automatic translation
@@ -4630,9 +4626,9 @@ msgid ""
 "<guilabel>A</guilabel> or in <guilabel>B</guilabel> but not in both, you'll "
 "have to activate <guilabel>Show Files only in A</guilabel> and "
 "<guilabel>Show Files only in B</guilabel> and deactivate all others "
-"(<guilabel>Show Identical Files</guilabel>, <guilabel>Show Different "
-"Files</guilabel>, <guilabel>Show Files only in C</guilabel>). The list will "
-"be updated immediately to reflect the change."
+"(<guilabel>Show Identical Files</guilabel>, <guilabel>Show Different Files</"
+"guilabel>, <guilabel>Show Files only in C</guilabel>). The list will be "
+"updated immediately to reflect the change."
 msgstr ""
 
 # automatic translation
@@ -4650,8 +4646,8 @@ msgstr ""
 #: index.docbook:1434
 #, no-c-format
 msgid ""
-"Note that of these only the <guilabel>Show Identical Files</guilabel> option"
-" is persistant. The others are enabled when starting &kdiff3;."
+"Note that of these only the <guilabel>Show Identical Files</guilabel> option "
+"is persistant. The others are enabled when starting &kdiff3;."
 msgstr ""
 
 # automatic translation
@@ -4667,8 +4663,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can either merge the currently selected item (file or folder), or all "
-"items. When you have made all your operation choices (in all subfolders too)"
-" then you can start the merge."
+"items. When you have made all your operation choices (in all subfolders too) "
+"then you can start the merge."
 msgstr ""
 
 # automatic translation
@@ -4678,8 +4674,8 @@ msgstr ""
 msgid ""
 "Be aware that if you didn't specify a destination folder explicitly, then "
 "the destination will be <guilabel>C</guilabel> in three-folder mode, "
-"<guilabel>B</guilabel> in two-folder merge mode, and in sync-mode it will be"
-" <guilabel>A</guilabel> or/and <guilabel>B</guilabel>."
+"<guilabel>B</guilabel> in two-folder merge mode, and in sync-mode it will be "
+"<guilabel>A</guilabel> or/and <guilabel>B</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -4707,8 +4703,8 @@ msgstr ""
 #: index.docbook:1457
 #, no-c-format
 msgid ""
-"<guilabel>Pattern</guilabel>/<guilabel>Anti-Pattern</guilabel>: "
-"Include/exclude items that match"
+"<guilabel>Pattern</guilabel>/<guilabel>Anti-Pattern</guilabel>: Include/"
+"exclude items that match"
 msgstr ""
 
 # automatic translation
@@ -4724,8 +4720,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<link linkend=\"selectingvisiblefiles\">Show options</link> (<guilabel>Show "
-"Identical/Different Files</guilabel>, <guilabel>Files only in "
-"A/B/C</guilabel>)"
+"Identical/Different Files</guilabel>, <guilabel>Files only in A/B/C</"
+"guilabel>)"
 msgstr ""
 
 # automatic translation
@@ -4733,13 +4729,12 @@ msgstr ""
 #: index.docbook:1461
 #, no-c-format
 msgid ""
-"If you change the settings in order to list more files, you must do a rescan"
-" via menu "
-"<menuchoice><guimenu>Folder</guimenu><guimenuitem>Rescan</guimenuitem> "
-"</menuchoice> yourself. (The reason for this is that for faster comparison-"
-"speed &kdiff3; omits the comparison for files suppressed by these criteria.)"
-" If you changed your file and folder patterns to exclude files, then the "
-"file-list will immediately be updated on closing the options-dialog."
+"If you change the settings in order to list more files, you must do a rescan "
+"via menu <menuchoice><guimenu>Folder</guimenu><guimenuitem>Rescan</"
+"guimenuitem> </menuchoice> yourself. (The reason for this is that for faster "
+"comparison-speed &kdiff3; omits the comparison for files suppressed by these "
+"criteria.) If you changed your file and folder patterns to exclude files, "
+"then the file-list will immediately be updated on closing the options-dialog."
 msgstr ""
 
 # automatic translation
@@ -4765,11 +4760,11 @@ msgstr ""
 #: index.docbook:1474
 #, no-c-format
 msgid ""
-"To merge all items: Select <guimenuitem>Start/Continue Folder "
-"Merge</guimenuitem> in the <guimenu>Folder</guimenu> menu or press "
-"<keycap>F7</keycap> (which is the default shortcut). To merge only the "
-"current item: Select <guilabel>Run Operation for Current Item</guilabel> or "
-"press <keycap>F6</keycap>."
+"To merge all items: Select <guimenuitem>Start/Continue Folder Merge</"
+"guimenuitem> in the <guimenu>Folder</guimenu> menu or press <keycap>F7</"
+"keycap> (which is the default shortcut). To merge only the current item: "
+"Select <guilabel>Run Operation for Current Item</guilabel> or press "
+"<keycap>F6</keycap>."
 msgstr ""
 
 # automatic translation
@@ -4778,8 +4773,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If due to conflicting filetypes some items with invalid operations still "
-"exist, then a messagebox will appear and these items will be pointed out, so"
-" you can select a valid operation for the item."
+"exist, then a messagebox will appear and these items will be pointed out, so "
+"you can select a valid operation for the item."
 msgstr ""
 
 # automatic translation
@@ -4825,9 +4820,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When you have finished with manually merging a file, again select "
-"<guimenuitem>Start/ Continue Folder Merge</guimenuitem> or the "
-"<keycap>F7</keycap> key. If you haven't saved it yet, a dialog will ask you "
-"to do so. Then &kdiff3; will continue with the next item."
+"<guimenuitem>Start/ Continue Folder Merge</guimenuitem> or the <keycap>F7</"
+"keycap> key. If you haven't saved it yet, a dialog will ask you to do so. "
+"Then &kdiff3; will continue with the next item."
 msgstr ""
 
 # automatic translation
@@ -4837,11 +4832,11 @@ msgstr ""
 msgid ""
 "When &kdiff3; encounters an error, it will tell you so and will show the "
 "verbose-status-information. At the bottom of this list, there will be some "
-"error messages which should help you to understand the cause of the problem."
-" When you continue merging (<keycap>F7</keycap> key) &kdiff3; will give you "
+"error messages which should help you to understand the cause of the problem. "
+"When you continue merging (<keycap>F7</keycap> key) &kdiff3; will give you "
 "the choice to retry or skip the item that caused the problem. This means "
-"that before continuing you can choose another operation or solve the problem"
-" by other means."
+"that before continuing you can choose another operation or solve the problem "
+"by other means."
 msgstr ""
 
 # automatic translation
@@ -4858,8 +4853,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If some items were merged individually before running the directorymerge "
-"then &kdiff3; remembers this (while this merge-session goes on), and doesn't"
-" merge them again when later the merge for all items is run. Even when the "
+"then &kdiff3; remembers this (while this merge-session goes on), and doesn't "
+"merge them again when later the merge for all items is run. Even when the "
 "merge was skipped or nothing was saved these items count as completed. Only "
 "when you change the merge operation the <guilabel>Done</guilabel> status of "
 "the item will be removed and it can be merged again."
@@ -4878,8 +4873,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The &kdiff3; preferences (menu <menuchoice><guimenu>Settings</guimenu> "
-"<guimenuitem>Configure &kdiff3;...</guimenuitem></menuchoice>) has a section"
-" called \"Folder Merge\" with these options:"
+"<guimenuitem>Configure &kdiff3;...</guimenuitem></menuchoice>) has a section "
+"called \"Folder Merge\" with these options:"
 msgstr ""
 
 # automatic translation
@@ -4909,8 +4904,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Only files that match any pattern here will be put in the tree. More than "
-"one pattern may be specified here by using the semicolon \";\" as separator."
-" Valid wildcards: '*' and '?'. (&eg; \"<literal>*.cpp;*.h</literal>\"). "
+"one pattern may be specified here by using the semicolon \";\" as separator. "
+"Valid wildcards: '*' and '?'. (&eg; \"<literal>*.cpp;*.h</literal>\"). "
 "Default is \"*\". This pattern is not used on folders."
 msgstr ""
 
@@ -4928,8 +4923,8 @@ msgstr ""
 msgid ""
 "Files that match this pattern will be excluded from the tree. More than one "
 "pattern may be specified here via using the semicolon \";\" as separator. "
-"Valid wildcards: '*' and '?'. Default is "
-"\"<literal>*.orig;*.o;*.obj</literal>\"."
+"Valid wildcards: '*' and '?'. Default is \"<literal>*.orig;*.o;*.obj</"
+"literal>\"."
 msgstr ""
 
 # automatic translation
@@ -4946,8 +4941,8 @@ msgstr ""
 msgid ""
 "Folders that match this pattern will be excluded from the tree. More than "
 "one pattern may be specified here via using the semicolon \";\" as "
-"separator. Valid wildcards: '*' and '?'. Default is "
-"\"<literal>CVS;deps;.svn</literal>\"."
+"separator. Valid wildcards: '*' and '?'. Default is \"<literal>CVS;deps;."
+"svn</literal>\"."
 msgstr ""
 
 # automatic translation
@@ -5069,11 +5064,11 @@ msgstr ""
 #: index.docbook:1571
 #, no-c-format
 msgid ""
-"Do a full analysis of each file and show the statistics information columns."
-" (Number of <guilabel>Solved</guilabel>, <guilabel>Unsolved</guilabel>, "
-"<guilabel>Nonwhite</guilabel> and <guilabel>White</guilabel> conflicts.) The"
-" full analysis is slower than a simple binary analysis, and much slower when"
-" used on files that don't contain text. (Specify the appropriate file-"
+"Do a full analysis of each file and show the statistics information columns. "
+"(Number of <guilabel>Solved</guilabel>, <guilabel>Unsolved</guilabel>, "
+"<guilabel>Nonwhite</guilabel> and <guilabel>White</guilabel> conflicts.) The "
+"full analysis is slower than a simple binary analysis, and much slower when "
+"used on files that don't contain text. (Specify the appropriate file-"
 "antipatterns.)"
 msgstr ""
 
@@ -5109,8 +5104,8 @@ msgstr ""
 msgid ""
 "Similar to trusting the modification date. No real comparison happens. Two "
 "files are considered equal if their file-sizes are equal. This is useful "
-"when the file-copy operation didn't preserve the modification date. Use this"
-" option with care. Default is off."
+"when the file-copy operation didn't preserve the modification date. Use this "
+"option with care. Default is off."
 msgstr ""
 
 # automatic translation
@@ -5144,8 +5139,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Instead of merging the proposed operation will copy the newer source if "
-"changes happened. (Considered unsafe, because it implies that you know, that"
-" the other file hasn't been edited too. Check to make sure in every case.) "
+"changes happened. (Considered unsafe, because it implies that you know, that "
+"the other file hasn't been edited too. Check to make sure in every case.) "
 "Default is off."
 msgstr ""
 
@@ -5155,11 +5150,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If a file or complete folder is replaced by another or is deleted then the "
-"original version will be renamed with an <literal "
-"role=\"extension\">.orig</literal> extension. If an old backup file with "
-"<literal role=\"extension\">.orig</literal> extension already exists then "
-"this will be deleted without backup. This also affects the normal merging of"
-" single files, not only in folder-merge mode. Default is on."
+"original version will be renamed with an <literal role=\"extension\">.orig</"
+"literal> extension. If an old backup file with <literal role=\"extension\">."
+"orig</literal> extension already exists then this will be deleted without "
+"backup. This also affects the normal merging of single files, not only in "
+"folder-merge mode. Default is on."
 msgstr ""
 
 # automatic translation
@@ -5185,10 +5180,10 @@ msgid ""
 "compared or merged. With the mouse you can move the splitter bar that "
 "separates the file list from the text-diff windows. If you don't want this, "
 "you can disable <menuchoice><guimenu>Folder</guimenu><guimenuitem>Folder "
-"&amp;&amp; Text Split Screen View</guimenuitem></menuchoice> menu item. Then"
-" you can use <menuchoice><guimenu>Folder</guimenu><guimenuitem>Toggle "
-"View</guimenuitem></menuchoice> menu item to switch between the file list "
-"and the text-diff view that then occupy the full screen."
+"&amp;&amp; Text Split Screen View</guimenuitem></menuchoice> menu item. Then "
+"you can use <menuchoice><guimenu>Folder</guimenu><guimenuitem>Toggle View</"
+"guimenuitem></menuchoice> menu item to switch between the file list and the "
+"text-diff view that then occupy the full screen."
 msgstr ""
 
 # automatic translation
@@ -5204,13 +5199,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Probably you will prefer a simple double mouse click on a file in order to "
-"compare it. Nevertheless there also exists an entry in the "
-"<guimenu>Folder</guimenu> menu. You can also directly merge a single file by"
-" selecting it and choosing "
-"<menuchoice><guimenu>Merge</guimenu><guimenuitem>Merge Current "
+"compare it. Nevertheless there also exists an entry in the <guimenu>Folder</"
+"guimenu> menu. You can also directly merge a single file by selecting it and "
+"choosing <menuchoice><guimenu>Merge</guimenu><guimenuitem>Merge Current "
 "File</guimenuitem></menuchoice> menu item. On saving the result, the status "
-"will be set to done, and the file will not be merged again if a folder merge"
-" is started."
+"will be set to done, and the file will not be merged again if a folder merge "
+"is started."
 msgstr ""
 
 # automatic translation
@@ -5219,8 +5213,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "But note that this status information will be lost when you rerun a folder "
-"scan: "
-"<menuchoice><guimenu>Folder</guimenu><guimenuitem>Rescan</guimenuitem></menuchoice>"
+"scan: <menuchoice><guimenu>Folder</guimenu><guimenuitem>Rescan</"
+"guimenuitem></menuchoice>"
 msgstr ""
 
 # automatic translation
@@ -5244,12 +5238,11 @@ msgstr ""
 #: index.docbook:1633
 #, no-c-format
 msgid ""
-"Select the exact file by clicking onto the icon in the column "
-"<guilabel>A</guilabel>, <guilabel>B</guilabel> or <guilabel>C</guilabel>. "
-"The first file selected thus will be marked with an <guilabel>A</guilabel>, "
-"the second and third with <guilabel>B</guilabel> and <guilabel>C</guilabel> "
-"regardless on what column they are in. Only up to three files can be chosen "
-"like this."
+"Select the exact file by clicking onto the icon in the column <guilabel>A</"
+"guilabel>, <guilabel>B</guilabel> or <guilabel>C</guilabel>. The first file "
+"selected thus will be marked with an <guilabel>A</guilabel>, the second and "
+"third with <guilabel>B</guilabel> and <guilabel>C</guilabel> regardless on "
+"what column they are in. Only up to three files can be chosen like this."
 msgstr ""
 
 # automatic translation
@@ -5257,13 +5250,12 @@ msgstr ""
 #: index.docbook:1635
 #, no-c-format
 msgid ""
-"Proceed by choosing "
-"<menuchoice><guimenu>Folder</guimenu><guimenuitem>Compare Explicitly "
-"Selected Files</guimenuitem></menuchoice> or "
-"<menuchoice><guimenu>Folder</guimenu><guimenuitem>Merge Explicitly Selected "
-"Files</guimenuitem></menuchoice> menu item. For your convenience these menu "
-"entries also appear as context menu when you right-click the last selected "
-"file."
+"Proceed by choosing <menuchoice><guimenu>Folder</"
+"guimenu><guimenuitem>Compare Explicitly Selected Files</guimenuitem></"
+"menuchoice> or <menuchoice><guimenu>Folder</guimenu><guimenuitem>Merge "
+"Explicitly Selected Files</guimenuitem></menuchoice> menu item. For your "
+"convenience these menu entries also appear as context menu when you right-"
+"click the last selected file."
 msgstr ""
 
 # automatic translation
@@ -5302,8 +5294,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The KIO library from &frameworks; supports network transparency via KIO-"
-"slaves. &kdiff3; uses this for reading input files and for scanning folders."
-" This means that you can specify files and folders on local and remote "
+"slaves. &kdiff3; uses this for reading input files and for scanning folders. "
+"This means that you can specify files and folders on local and remote "
 "resources via &URL;s."
 msgstr ""
 
@@ -5417,8 +5409,8 @@ msgstr ""
 #: index.docbook:1686
 #, no-c-format
 msgid ""
-"A path can be relative and can contain \".\" or \"..\". This is not possible"
-" for &URL;s which are always absolute."
+"A path can be relative and can contain \".\" or \"..\". This is not possible "
+"for &URL;s which are always absolute."
 msgstr ""
 
 # automatic translation
@@ -5426,11 +5418,11 @@ msgstr ""
 #: index.docbook:1689
 #, no-c-format
 msgid ""
-"Special characters must be written with \"escaping\". "
-"(\"<literal>#</literal>\" -&gt; \"<literal>%23</literal>\", space "
-"-&gt;\"<literal>%20</literal>\", &etc;) E.g. a file with the name "
-"\"<literal>#</literal>foo<literal>#</literal>\" would have the &URL; "
-"\"file:/<literal>%23</literal>foo<literal>%23</literal>\"."
+"Special characters must be written with \"escaping\". (\"<literal>#</literal>"
+"\" -&gt; \"<literal>%23</literal>\", space -&gt;\"<literal>%20</literal>\", "
+"&etc;) E.g. a file with the name \"<literal>#</literal>foo<literal>#</"
+"literal>\" would have the &URL; \"file:/<literal>%23</literal>foo<literal>"
+"%23</literal>\"."
 msgstr ""
 
 # automatic translation
@@ -5462,8 +5454,8 @@ msgstr ""
 #: index.docbook:1702
 #, no-c-format
 msgid ""
-"Sometimes this is due to the file system of the server, sometimes due to the"
-" protocol. Here is a short list of restrictions:"
+"Sometimes this is due to the file system of the server, sometimes due to the "
+"protocol. Here is a short list of restrictions:"
 msgstr ""
 
 # automatic translation
@@ -5501,8 +5493,8 @@ msgstr ""
 #: index.docbook:1716
 #, no-c-format
 msgid ""
-"No possibility to modify permissions or modification time, so permissions or"
-" time of a copy will differ from the original. (See the <guilabel>Trust the "
+"No possibility to modify permissions or modification time, so permissions or "
+"time of a copy will differ from the original. (See the <guilabel>Trust the "
 "size (unsafe)</guilabel> option.) (To modify permissions or modification "
 "time is only possible for local files.)"
 msgstr ""
@@ -5560,9 +5552,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Then to see the difference between two commits use <userinput>git difftool "
-"<replaceable>first_hash</replaceable> <replaceable>second_hash</replaceable>"
-" --tool=kdiff3 --cc "
-"<replaceable>some_file_in_the_git_tree</replaceable></userinput>"
+"<replaceable>first_hash</replaceable> <replaceable>second_hash</replaceable> "
+"--tool=kdiff3 --cc <replaceable>some_file_in_the_git_tree</replaceable></"
+"userinput>"
 msgstr ""
 
 # automatic translation
@@ -5571,8 +5563,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To merge a branch with &kdiff3; use <userinput>git merge "
-"<replaceable>branch_name</replaceable> &amp;&amp; git mergetool "
-"--tool=kdiff3</userinput>"
+"<replaceable>branch_name</replaceable> &amp;&amp; git mergetool --"
+"tool=kdiff3</userinput>"
 msgstr ""
 
 # automatic translation
@@ -5580,9 +5572,8 @@ msgstr ""
 #: index.docbook:1740
 #, no-c-format
 msgid ""
-"After resolving merging conflicts in the <link "
-"linkend=\"synchronise_views\">usual way</link> it is enough to commit the "
-"changes to do the job."
+"After resolving merging conflicts in the <link linkend=\"synchronise_views"
+"\">usual way</link> it is enough to commit the changes to do the job."
 msgstr ""
 
 # automatic translation
@@ -5611,10 +5602,10 @@ msgstr ""
 #: index.docbook:1756
 #, no-c-format
 msgid ""
-"Tools named <application>KDiff</application> and "
-"<application>KDiff2</application> (now called &kompare;) already exist. Also"
-" &kdiff3; should suggest that it can merge like the <command>diff3</command>"
-" tool in the Diff-Tool collection."
+"Tools named <application>KDiff</application> and <application>KDiff2</"
+"application> (now called &kompare;) already exist. Also &kdiff3; should "
+"suggest that it can merge like the <command>diff3</command> tool in the Diff-"
+"Tool collection."
 msgstr ""
 
 # automatic translation
@@ -5659,8 +5650,8 @@ msgstr ""
 #: index.docbook:1778
 #, no-c-format
 msgid ""
-"Often lines that are similar but not identical appear next to each other but"
-" sometimes not. Why?"
+"Often lines that are similar but not identical appear next to each other but "
+"sometimes not. Why?"
 msgstr ""
 
 # automatic translation
@@ -5689,11 +5680,11 @@ msgstr ""
 msgid ""
 "For each equal or different section the editor in the merge result window "
 "remembers where it begins or ends. This is needed so that conflicts can be "
-"solved manually by simply selecting the source button "
-"(<guilabel>A</guilabel>, <guilabel>B</guilabel> or <guilabel>C</guilabel>). "
-"This information is lost while saving as text and it is too much effort to "
-"create a special file format that supports saving and restoring all "
-"necessary information."
+"solved manually by simply selecting the source button (<guilabel>A</"
+"guilabel>, <guilabel>B</guilabel> or <guilabel>C</guilabel>). This "
+"information is lost while saving as text and it is too much effort to create "
+"a special file format that supports saving and restoring all necessary "
+"information."
 msgstr ""
 
 # automatic translation
@@ -5710,8 +5701,8 @@ msgstr ""
 #: index.docbook:1797
 #, no-c-format
 msgid ""
-"Click into the summary column left of the text. (<link "
-"linkend=\"synchronise_views\">See also here.</link>)"
+"Click into the summary column left of the text. (<link linkend="
+"\"synchronise_views\">See also here.</link>)"
 msgstr ""
 
 # automatic translation
@@ -5730,8 +5721,8 @@ msgstr ""
 msgid ""
 "This is a side effect of git's internal workings. If you try to compare a "
 "previous revision to the current work tree git will compare actually files "
-"representing the past commit to symlinks pointing to the worktree. As of 1.9"
-" KDiff3 defaults to having <guilabel>Follow file links</guilabel> and "
+"representing the past commit to symlinks pointing to the worktree. As of 1.9 "
+"KDiff3 defaults to having <guilabel>Follow file links</guilabel> and "
 "<guilabel>Follow folder links</guilabel> on. Prior to this they were off by "
 "default. This did not matter when not doing if \"Full analysis\" was also "
 "off. However, with <guilabel>Full analysis</guilabel> on KDiff3 would "
@@ -5745,8 +5736,7 @@ msgstr ""
 #: index.docbook:1810
 #, no-c-format
 msgid ""
-"Why does the editor in the merge result window not have an "
-"\"undo\"-function?"
+"Why does the editor in the merge result window not have an \"undo\"-function?"
 msgstr ""
 
 # automatic translation
@@ -5755,9 +5745,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This was too much effort until now. You can always restore a version from "
-"one source (<guilabel>A</guilabel>, <guilabel>B</guilabel> or "
-"<guilabel>C</guilabel>) by clicking the respective button. For big editing "
-"the use of another editor is recommended anyway."
+"one source (<guilabel>A</guilabel>, <guilabel>B</guilabel> or <guilabel>C</"
+"guilabel>) by clicking the respective button. For big editing the use of "
+"another editor is recommended anyway."
 msgstr ""
 
 # automatic translation
@@ -5765,8 +5755,8 @@ msgstr ""
 #: index.docbook:1816
 #, no-c-format
 msgid ""
-"When I removed some text, then suddenly \"&lt;No src line&gt;\" appeared and"
-" cannot be deleted. What does that mean and how can one remove this?"
+"When I removed some text, then suddenly \"&lt;No src line&gt;\" appeared and "
+"cannot be deleted. What does that mean and how can one remove this?"
 msgstr ""
 
 # automatic translation
@@ -5776,12 +5766,12 @@ msgstr ""
 msgid ""
 "For each equal or different section the editor in the merge result window "
 "remembers where it begins or ends. \"&lt;No src line&gt;\" means that there "
-"is nothing left in a section, not even a new line character. This can happen"
-" either while merging automatically or by editing. This is no problem, since"
-" this hint won't appear in the saved file. If you want the original source "
+"is nothing left in a section, not even a new line character. This can happen "
+"either while merging automatically or by editing. This is no problem, since "
+"this hint won't appear in the saved file. If you want the original source "
 "back just select the section (click on the left summary column) and then "
-"click the source button with the needed contents "
-"(<guilabel>A</guilabel>/<guilabel>B</guilabel> or <guilabel>C</guilabel>)."
+"click the source button with the needed contents (<guilabel>A</guilabel>/"
+"<guilabel>B</guilabel> or <guilabel>C</guilabel>)."
 msgstr ""
 
 # automatic translation
@@ -5805,11 +5795,10 @@ msgstr ""
 #: index.docbook:1837
 #, no-c-format
 msgid ""
-"Can I use &kdiff3; to compare "
-"<application>LibreOffice</application>/<trademark "
-"class=\"registered\">OpenOffice.org</trademark>, <application>&Microsoft; "
-"Word</application>, <application>&Microsoft; Excel</application>, &PDF;, "
-"&etc; files?"
+"Can I use &kdiff3; to compare <application>LibreOffice</application>/"
+"<trademark class=\"registered\">OpenOffice.org</trademark>, "
+"<application>&Microsoft; Word</application>, <application>&Microsoft; Excel</"
+"application>, &PDF;, &etc; files?"
 msgstr ""
 
 # automatic translation
@@ -5817,8 +5806,8 @@ msgstr ""
 #: index.docbook:1841
 #, no-c-format
 msgid ""
-"Although &kdiff3; will analyse any kind of file the result will probably not"
-" be very satisfactory for you."
+"Although &kdiff3; will analyse any kind of file the result will probably not "
+"be very satisfactory for you."
 msgstr ""
 
 # automatic translation
@@ -5826,14 +5815,13 @@ msgstr ""
 #: index.docbook:1844
 #, no-c-format
 msgid ""
-"&kdiff3; was made to compare pure text files. "
-"<application>LibreOffice</application>/<trademark class=\"registered\"> "
-"OpenOffice.org</trademark>, <application>&Microsoft; Word</application>, "
-"<application>&Microsoft; Excel</application>, &etc; store much more "
-"information in the files (about fonts, pictures, pages, colors, &etc;) which"
-" &kdiff3; doesn't know about. So &kdiff3; will show you the contents of the "
-"file interpreted as pure text, but this might be unreadable or at least it "
-"will look very odd."
+"&kdiff3; was made to compare pure text files. <application>LibreOffice</"
+"application>/<trademark class=\"registered\"> OpenOffice.org</trademark>, "
+"<application>&Microsoft; Word</application>, <application>&Microsoft; Excel</"
+"application>, &etc; store much more information in the files (about fonts, "
+"pictures, pages, colors, &etc;) which &kdiff3; doesn't know about. So "
+"&kdiff3; will show you the contents of the file interpreted as pure text, "
+"but this might be unreadable or at least it will look very odd."
 msgstr ""
 
 # automatic translation
@@ -5841,8 +5829,8 @@ msgstr ""
 #: index.docbook:1852
 #, no-c-format
 msgid ""
-"Since most programs nowadays store their contents in &XML; format, you might"
-" be able to read it as pure text. So if the change was only small, &kdiff3; "
+"Since most programs nowadays store their contents in &XML; format, you might "
+"be able to read it as pure text. So if the change was only small, &kdiff3; "
 "still might help you."
 msgstr ""
 
@@ -5852,13 +5840,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The best solution if you only want to compare the text (without embedded "
-"objects like pictures) is to use "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Select "
-"All</guimenuitem></menuchoice> and "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem></menuchoice>"
-" menu items in your program to copy the interesting text to the clipboard "
-"and then in &kdiff3; paste the text into either diff input window. (See also"
-" <link linkend=\"selections\">Select, Copy And Paste</link>.)"
+"objects like pictures) is to use <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Select All</guimenuitem></menuchoice> and "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem></"
+"menuchoice> menu items in your program to copy the interesting text to the "
+"clipboard and then in &kdiff3; paste the text into either diff input window. "
+"(See also <link linkend=\"selections\">Select, Copy And Paste</link>.)"
 msgstr ""
 
 # automatic translation
@@ -5866,8 +5853,7 @@ msgstr ""
 #: index.docbook:1860
 #, no-c-format
 msgid ""
-"Where has the folder option <guimenuitem>List only deltas</guimenuitem> "
-"gone?"
+"Where has the folder option <guimenuitem>List only deltas</guimenuitem> gone?"
 msgstr ""
 
 # automatic translation
@@ -5934,8 +5920,8 @@ msgstr ""
 #: index.docbook:1891
 #, no-c-format
 msgid ""
-"Program copyright 2002-2007 Joachim Eibl <email>joachim.eibl at "
-"gmx.de</email>"
+"Program copyright 2002-2007 Joachim Eibl <email>joachim.eibl at gmx.de</"
+"email>"
 msgstr ""
 
 # automatic translation
@@ -5952,8 +5938,8 @@ msgstr ""
 #: index.docbook:1898
 #, no-c-format
 msgid ""
-"Documentation Copyright &copy; 2002-2007 Joachim Eibl <email>joachim.eibl at"
-" gmx.de</email>"
+"Documentation Copyright &copy; 2002-2007 Joachim Eibl <email>joachim.eibl at "
+"gmx.de</email>"
 msgstr ""
 
 # automatic translation

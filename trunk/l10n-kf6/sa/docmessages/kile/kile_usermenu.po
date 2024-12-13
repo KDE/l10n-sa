@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -59,8 +61,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "either the menu <guimenu>User Menu</guimenu> will appear in the main menu "
-"bar between the menus <guimenu>LaTeX</guimenu> and <guimenu>Wizard</guimenu>"
-" and the configuration wizard <guimenuitem>Edit User Menu</guimenuitem> in "
+"bar between the menus <guimenu>LaTeX</guimenu> and <guimenu>Wizard</guimenu> "
+"and the configuration wizard <guimenuitem>Edit User Menu</guimenuitem> in "
 "the <guimenu>Wizard</guimenu> menu"
 msgstr ""
 
@@ -83,8 +85,7 @@ msgstr ""
 #: usermenu.docbook:41
 #, no-c-format
 msgid ""
-"or both items will appear at the bottom of the <guimenu>LaTeX</guimenu> "
-"menu."
+"or both items will appear at the bottom of the <guimenu>LaTeX</guimenu> menu."
 msgstr ""
 
 # automatic translation
@@ -110,8 +111,8 @@ msgid ""
 "automatically transformed into the new user-configurable menu. The tags are "
 "saved in a file called <filename>usertags.xml</filename> and like all menu "
 "definition files, they can be found in the local user menu directory of "
-"&kile;: <filename>KILE_APP_DIR/usermenu/</filename>, &eg; "
-"<filename>/home/user/.kde/share/apps/kile/usermenu/</filename>."
+"&kile;: <filename>KILE_APP_DIR/usermenu/</filename>, &eg; <filename>/home/"
+"user/.kde/share/apps/kile/usermenu/</filename>."
 msgstr ""
 
 # automatic translation
@@ -121,9 +122,9 @@ msgstr ""
 msgid ""
 "You can use different menu definition files for different tasks. Call the "
 "user menu wizard <menuchoice><guimenu>Wizard</guimenu><guisubmenu>Edit User "
-"Menu</guisubmenu></menuchoice> or "
-"<menuchoice><guimenu>LaTeX</guimenu><guisubmenu>Edit User "
-"Menu</guisubmenu></menuchoice> to install or edit a menu definition file."
+"Menu</guisubmenu></menuchoice> or <menuchoice><guimenu>LaTeX</"
+"guimenu><guisubmenu>Edit User Menu</guisubmenu></menuchoice> to install or "
+"edit a menu definition file."
 msgstr ""
 
 # automatic translation
@@ -139,9 +140,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can create new or change existing menus with a comfortable user menu "
-"configuration wizard found at "
-"<menuchoice><guimenu>Wizard</guimenu><guisubmenu>Edit User "
-"Menu</guisubmenu></menuchoice>."
+"configuration wizard found at <menuchoice><guimenu>Wizard</"
+"guimenu><guisubmenu>Edit User Menu</guisubmenu></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -216,8 +216,8 @@ msgstr ""
 #: usermenu.docbook:104
 #, no-c-format
 msgid ""
-"Each standard menu item is assigned to one of three action types, where each"
-" of them has different attributes, which could be set:"
+"Each standard menu item is assigned to one of three action types, where each "
+"of them has different attributes, which could be set:"
 msgstr ""
 
 # automatic translation
@@ -230,8 +230,8 @@ msgid ""
 "writes frequently-used texts, &eg; Joe Sixpack often uses the sentences "
 "<userinput>Hi, I have been inserted ...</userinput>. This tag will be "
 "inserted at the current cursor position, when this action is called (see "
-"above). Metachars are also available (see <xref "
-"linkend=\"id_usermenu_placeholders\" role=\"select: title pageabbrv\"/>)."
+"above). Metachars are also available (see <xref linkend="
+"\"id_usermenu_placeholders\" role=\"select: title pageabbrv\"/>)."
 msgstr ""
 
 # automatic translation
@@ -263,10 +263,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Execute an external program:</guilabel>&nbsp; The output of this "
-"program can be inserted into the opened document. Metachar "
-"<userinput>%M</userinput> is also possible in the command line of this "
-"program, as the selected text will be saved in a temporary file. Use "
-"<userinput>%M</userinput> for the filename of this temporary file."
+"program can be inserted into the opened document. Metachar <userinput>%M</"
+"userinput> is also possible in the command line of this program, as the "
+"selected text will be saved in a temporary file. Use <userinput>%M</"
+"userinput> for the filename of this temporary file."
 msgstr ""
 
 # automatic translation
@@ -357,8 +357,8 @@ msgstr ""
 #: usermenu.docbook:184
 #, no-c-format
 msgid ""
-"More information may also be available using the <guilabel>What's "
-"this</guilabel> feature of most widgets."
+"More information may also be available using the <guilabel>What's this</"
+"guilabel> feature of most widgets."
 msgstr ""
 
 # automatic translation
@@ -381,9 +381,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "There are some placeholders you can use in your user-defined tags: "
-"<userinput>%C</userinput>, <userinput>%B</userinput>, "
-"<userinput>%M</userinput>, <userinput>%E</userinput>, "
-"<userinput>%R</userinput> and <userinput>%T</userinput>."
+"<userinput>%C</userinput>, <userinput>%B</userinput>, <userinput>%M</"
+"userinput>, <userinput>%E</userinput>, <userinput>%R</userinput> and "
+"<userinput>%T</userinput>."
 msgstr ""
 
 # automatic translation
@@ -436,8 +436,7 @@ msgstr ""
 #. Tag: para
 #: usermenu.docbook:231
 #, no-c-format
-msgid ""
-"<userinput>%M</userinput>:&nbsp; will be replaced by the selected text."
+msgid "<userinput>%M</userinput>:&nbsp; will be replaced by the selected text."
 msgstr ""
 
 # automatic translation
@@ -485,9 +484,10 @@ msgid ""
 "<userinput>%R</userinput>:&nbsp; will call a reference-dialog to choose a "
 "label which has already been defined. This can be used to refer to a "
 "predefined label, which you can choose from a drop-down list (see also "
-"<menuchoice><guimenu>LaTeX</guimenu><guimenuitem>References</guimenuitem><guimenuitem>ref</guimenuitem></menuchoice>"
-" or "
-"<menuchoice><guimenu>LaTeX</guimenu><guimenuitem>References</guimenuitem><guimenuitem>pageref</guimenuitem></menuchoice>)."
+"<menuchoice><guimenu>LaTeX</guimenu><guimenuitem>References</"
+"guimenuitem><guimenuitem>ref</guimenuitem></menuchoice> or "
+"<menuchoice><guimenu>LaTeX</guimenu><guimenuitem>References</"
+"guimenuitem><guimenuitem>pageref</guimenuitem></menuchoice>)."
 msgstr ""
 
 # automatic translation
@@ -510,9 +510,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<userinput>%T</userinput>:&nbsp; will call a citation-dialog to choose an "
-"already defined citation. The same as using "
-"<menuchoice><guimenu>LaTeX</guimenu><guimenuitem>References</guimenuitem><guimenuitem>cite</guimenuitem></menuchoice>"
-" a list with all the citation keys pops up."
+"already defined citation. The same as using <menuchoice><guimenu>LaTeX</"
+"guimenu><guimenuitem>References</guimenuitem><guimenuitem>cite</"
+"guimenuitem></menuchoice> a list with all the citation keys pops up."
 msgstr ""
 
 # automatic translation
@@ -534,11 +534,11 @@ msgstr ""
 #: usermenu.docbook:296
 #, no-c-format
 msgid ""
-"Let's consider another example, with the following macro "
-"<userinput>\\frac{%M}{%C}</userinput>. First, we select a number in our "
-"text, let's say <userinput>42</userinput>. Now we invoke this macro and "
-"obtain <userinput>\\frac{42}{}</userinput> with the cursor located within "
-"the second pair of brackets."
+"Let's consider another example, with the following macro <userinput>"
+"\\frac{%M}{%C}</userinput>. First, we select a number in our text, let's say "
+"<userinput>42</userinput>. Now we invoke this macro and obtain <userinput>"
+"\\frac{42}{}</userinput> with the cursor located within the second pair of "
+"brackets."
 msgstr ""
 
 # automatic translation
@@ -569,10 +569,10 @@ msgstr ""
 #: usermenu.docbook:311
 #, no-c-format
 msgid ""
-"If you want to execute an external program, only the "
-"<userinput>%M</userinput> for selected text is recognized in the command "
-"line. The selection will be saved in a temporary file and the placeholder "
-"<userinput>%M</userinput> is replaced with this filename."
+"If you want to execute an external program, only the <userinput>%M</"
+"userinput> for selected text is recognized in the command line. The "
+"selection will be saved in a temporary file and the placeholder <userinput>"
+"%M</userinput> is replaced with this filename."
 msgstr ""
 
 # automatic translation
@@ -658,11 +658,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can see that a <userinput>perl</userinput> script is called, which "
-"should work with current selection. The <guilabel>Needs selected "
-"text</guilabel> parameter is checked to assure a selection. The output of "
-"this script will be inserted (<guilabel>Insert the output of the chosen "
-"program</guilabel>) and replace the current selection (<guilabel>Replace "
-"selected text</guilabel>), but not selected itself."
+"should work with current selection. The <guilabel>Needs selected text</"
+"guilabel> parameter is checked to assure a selection. The output of this "
+"script will be inserted (<guilabel>Insert the output of the chosen program</"
+"guilabel>) and replace the current selection (<guilabel>Replace selected "
+"text</guilabel>), but not selected itself."
 msgstr ""
 
 # automatic translation
@@ -670,8 +670,8 @@ msgstr ""
 #: usermenu.docbook:365
 #, no-c-format
 msgid ""
-"Of course you can also call your own programs or scripts. For example select"
-" a list of numbers, separated by spaces, and call a script or Perl program, "
+"Of course you can also call your own programs or scripts. For example select "
+"a list of numbers, separated by spaces, and call a script or Perl program, "
 "which transforms this selection into &latex; code for a matrix. Whatever "
 "your ideas may be, you can realize them using the following usermenu entry."
 msgstr ""
@@ -705,8 +705,8 @@ msgid ""
 "You can install different menus at runtime for different tasks. When you "
 "call the user menu wizard, the current menu definition file is loaded. If "
 "you modify it and close the dialog with <guibutton>OK</guibutton>, your "
-"changes will be saved and installed as the new user menu. Closing the dialog"
-" with <guibutton>Cancel</guibutton> will discard all changes."
+"changes will be saved and installed as the new user menu. Closing the dialog "
+"with <guibutton>Cancel</guibutton> will discard all changes."
 msgstr ""
 
 # automatic translation
@@ -728,8 +728,8 @@ msgstr ""
 #: usermenu.docbook:400
 #, no-c-format
 msgid ""
-"You are also free to save the modified file in the user menu directory or to"
-" load another menu definition file and install it. All user menu definition "
+"You are also free to save the modified file in the user menu directory or to "
+"load another menu definition file and install it. All user menu definition "
 "files must be saved in the local user menu directory of &kile;: "
 "<filename>KILE_APP_DIR/usermenu/</filename>."
 msgstr ""

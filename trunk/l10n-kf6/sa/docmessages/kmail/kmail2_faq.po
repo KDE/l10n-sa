@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-08 00:31+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: author
@@ -79,11 +81,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Solution:</emphasis> This change will affect all of &kde;, not "
-"just &kmail;. Select <menuchoice> "
-"<guimenu>&systemsettings;</guimenu><guisubmenu>Default "
-"Applications</guisubmenu><guimenuitem>Web "
-"Browser</guimenuitem><guimenuitem>Mozilla "
-"Firefox</guimenuitem></menuchoice>."
+"just &kmail;. Select <menuchoice> <guimenu>&systemsettings;</"
+"guimenu><guisubmenu>Default Applications</guisubmenu><guimenuitem>Web "
+"Browser</guimenuitem><guimenuitem>Mozilla Firefox</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -102,8 +102,8 @@ msgstr ""
 msgid ""
 "Run <screen># qtpaths --paths ConfigLocation</screen> in a terminal. This "
 "will display the path(s) leading to configuration files for KDE programs in "
-"your system. Use the path starting in each user's Home directory, and locate"
-" the file named <filename>kdeglobals</filename>, then add this line under "
+"your system. Use the path starting in each user's Home directory, and locate "
+"the file named <filename>kdeglobals</filename>, then add this line under "
 "category <guilabel>[General]</guilabel>:"
 msgstr ""
 
@@ -119,9 +119,9 @@ msgstr ""
 #: faq.docbook:40
 #, no-c-format
 msgid ""
-"You can also try the script in <ulink "
-"url=\"https://userbase.kde.org/Special:myLanguage/Tutorials/Modify_KDE_Software_Defaults\">Tutorials/"
-" Modify_KDE_Software_Defaults</ulink>"
+"You can also try the script in <ulink url=\"https://userbase.kde.org/Special:"
+"myLanguage/Tutorials/Modify_KDE_Software_Defaults\">Tutorials/ "
+"Modify_KDE_Software_Defaults</ulink>"
 msgstr ""
 
 # automatic translation
@@ -164,10 +164,10 @@ msgstr ""
 #: faq.docbook:53
 #, no-c-format
 msgid ""
-"<emphasis>Problem:</emphasis> You set up a <emphasis>Roaming "
-"profile</emphasis> so you can access your home server while you are on the "
-"road, but it keeps trying to connect even when you are at home. Auto-"
-"connection is disabled in the setup screens."
+"<emphasis>Problem:</emphasis> You set up a <emphasis>Roaming profile</"
+"emphasis> so you can access your home server while you are on the road, but "
+"it keeps trying to connect even when you are at home. Auto-connection is "
+"disabled in the setup screens."
 msgstr ""
 
 # automatic translation
@@ -175,12 +175,11 @@ msgstr ""
 #: faq.docbook:56
 #, no-c-format
 msgid ""
-"<emphasis>Solution:</emphasis> Navigate to "
-"<menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure "
-"KMail</guisubmenu><guimenuitem>Accounts</guimenuitem><guimenuitem>Receiving "
-"(tab)</guimenuitem> <guimenuitem>(select the account to "
-"exclude)</guimenuitem><guimenuitem>Retrieval Options</guimenuitem> "
-"</menuchoice>, then uncheck <guilabel>Include in Manual Mail "
+"<emphasis>Solution:</emphasis> Navigate to <menuchoice><guimenu>Settings</"
+"guimenu><guisubmenu>Configure KMail</guisubmenu><guimenuitem>Accounts</"
+"guimenuitem><guimenuitem>Receiving (tab)</guimenuitem> <guimenuitem>(select "
+"the account to exclude)</guimenuitem><guimenuitem>Retrieval Options</"
+"guimenuitem> </menuchoice>, then uncheck <guilabel>Include in Manual Mail "
 "Check</guilabel>. This will exclude that profile when you hit the download "
 "icon, but the account will still be available from the drop-down list, "
 "making it easy to retrieve your mail when away from home."
@@ -209,12 +208,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Solution:</emphasis> In &kmail;, navigate to "
-"<menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure "
-"KMail</guisubmenu><guimenuitem>Identities</guimenuitem><guimenuitem>(Choose "
-"an "
-"identity)</guimenuitem><guimenuitem>Modify</guimenuitem><guimenuitem>Advanced</guimenuitem><guimenuitem>Sent-"
-"mail folder</guimenuitem></menuchoice> and select the folder you want to "
-"use."
+"<menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure KMail</"
+"guisubmenu><guimenuitem>Identities</guimenuitem><guimenuitem>(Choose an "
+"identity)</guimenuitem><guimenuitem>Modify</"
+"guimenuitem><guimenuitem>Advanced</guimenuitem><guimenuitem>Sent-mail "
+"folder</guimenuitem></menuchoice> and select the folder you want to use."
 msgstr ""
 
 # automatic translation
@@ -267,8 +265,8 @@ msgstr ""
 #: faq.docbook:96
 #, no-c-format
 msgid ""
-"<emphasis>Problem:</emphasis> You exchange encrypted mail with a friend, but"
-" would like to store your own copy unencrypted, once you have opened the "
+"<emphasis>Problem:</emphasis> You exchange encrypted mail with a friend, but "
+"would like to store your own copy unencrypted, once you have opened the "
 "message."
 msgstr ""
 
@@ -277,9 +275,9 @@ msgstr ""
 #: faq.docbook:98
 #, no-c-format
 msgid ""
-"<emphasis>Solution:</emphasis> To store emails that have been decrypted once"
-" in unencrypted format thereafter, add this item to your "
-"<filename>kmail2rc</filename> configuration file, in the [Reader] section:"
+"<emphasis>Solution:</emphasis> To store emails that have been decrypted once "
+"in unencrypted format thereafter, add this item to your <filename>kmail2rc</"
+"filename> configuration file, in the [Reader] section:"
 msgstr ""
 
 # automatic translation
@@ -313,14 +311,14 @@ msgid ""
 "<emphasis>Solution:</emphasis> The machine that already has your mail can "
 "become your &IMAP; server. You will have to configure a server application. "
 "<application>Dovecot</application> is one such, and the guidance on the "
-"project web pages make it relatively simple to set up. That still leaves you"
-" with the problem of filtering, as it makes sense to do that on the server "
+"project web pages make it relatively simple to set up. That still leaves you "
+"with the problem of filtering, as it makes sense to do that on the server "
 "(when you point &kmail; at the server you will see the folders that have "
 "been created on that system). There are several options. One of the best "
 "known is <application>Procmail</application>. Another one is "
-"<application>Imapfilter</application>. There is plenty of information on the"
-" internet about setting these up. Further discussion of these OSS packages "
-"is beyond the scope of &kmail;'s documentation."
+"<application>Imapfilter</application>. There is plenty of information on the "
+"internet about setting these up. Further discussion of these OSS packages is "
+"beyond the scope of &kmail;'s documentation."
 msgstr ""
 
 # automatic translation
@@ -335,8 +333,8 @@ msgstr ""
 #: faq.docbook:125
 #, no-c-format
 msgid ""
-"<emphasis>Problem:</emphasis> You are using &kmail; on a laptop or notebook,"
-" and find that the new <emphasis>Aggregation</emphasis> display leaves you "
+"<emphasis>Problem:</emphasis> You are using &kmail; on a laptop or notebook, "
+"and find that the new <emphasis>Aggregation</emphasis> display leaves you "
 "too little screen space."
 msgstr ""
 
@@ -345,16 +343,15 @@ msgstr ""
 #: faq.docbook:128
 #, no-c-format
 msgid ""
-"<emphasis>Solution:</emphasis>If you want to change the message list so each"
-" message uses a single line instead of two lines, go to "
+"<emphasis>Solution:</emphasis>If you want to change the message list so each "
+"message uses a single line instead of two lines, go to "
 "<menuchoice><guimenu>View</guimenu><guisubmenu>Message List</guisubmenu> "
 "<guimenuitem>Theme</guimenuitem></menuchoice> and change the theme to "
 "<guilabel>Classic</guilabel>. If you want to disable grouping by date, "
 "change the aggregation using <menuchoice><guimenu>View</guimenu> "
-"<guisubmenu>Message "
-"List</guisubmenu><guimenuitem>Aggregation</guimenuitem></menuchoice> to "
-"<guilabel>Standard Mailing List</guilabel>. Now your &kmail; will look "
-"exactly like it did in early versions of the program."
+"<guisubmenu>Message List</guisubmenu><guimenuitem>Aggregation</guimenuitem></"
+"menuchoice> to <guilabel>Standard Mailing List</guilabel>. Now your &kmail; "
+"will look exactly like it did in early versions of the program."
 msgstr ""
 
 # automatic translation
@@ -362,12 +359,11 @@ msgstr ""
 #: faq.docbook:135
 #, no-c-format
 msgid ""
-"In <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure "
-"&kmail;</guisubmenu> "
-"<guimenuitem>Appearance</guimenuitem><guimenuitem>Fonts</guimenuitem></menuchoice>"
-" you can select <guilabel>Use custom fonts</guilabel> to change the setting "
-"for the message list. You can also set the font size in the <guilabel>Use "
-"custom fonts</guilabel> dialog."
+"In <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure &kmail;</"
+"guisubmenu> <guimenuitem>Appearance</guimenuitem><guimenuitem>Fonts</"
+"guimenuitem></menuchoice> you can select <guilabel>Use custom fonts</"
+"guilabel> to change the setting for the message list. You can also set the "
+"font size in the <guilabel>Use custom fonts</guilabel> dialog."
 msgstr ""
 
 # automatic translation
@@ -382,8 +378,8 @@ msgstr ""
 #: faq.docbook:146
 #, no-c-format
 msgid ""
-"<emphasis>Problem:</emphasis> You are using &kmail; on a laptop or notebook,"
-" and find that the <emphasis>tooltips</emphasis> that pop up hide too many "
+"<emphasis>Problem:</emphasis> You are using &kmail; on a laptop or notebook, "
+"and find that the <emphasis>tooltips</emphasis> that pop up hide too many "
 "folder names"
 msgstr ""
 
@@ -411,9 +407,9 @@ msgstr ""
 msgid ""
 "On &kmail;, <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure "
 "KMail</guisubmenu><guimenuitem>Appearance</guimenuitem><guimenuitem>Message "
-"List</guimenuitem> </menuchoice> tab, uncheck "
-"<menuchoice><guimenu>General</guimenu><guimenuitem>Display tooltips for "
-"messages and group headers</guimenuitem></menuchoice>"
+"List</guimenuitem> </menuchoice> tab, uncheck <menuchoice><guimenu>General</"
+"guimenu><guimenuitem>Display tooltips for messages and group headers</"
+"guimenuitem></menuchoice>"
 msgstr ""
 
 # automatic translation
@@ -450,8 +446,8 @@ msgstr ""
 msgid ""
 "Use <menuchoice><guimenu>Tools</guimenu><guimenuitem>Import/Export &kmail; "
 "Data...</guimenuitem></menuchoice> to import and export settings and data. "
-"Please see <ulink url=\"help:/pimsettingexporter\">PIM Setting "
-"Exporter</ulink> for details."
+"Please see <ulink url=\"help:/pimsettingexporter\">PIM Setting Exporter</"
+"ulink> for details."
 msgstr ""
 
 # automatic translation
@@ -483,15 +479,15 @@ msgstr ""
 #: faq.docbook:202
 #, no-c-format
 msgid ""
-"<emphasis>Solution:</emphasis> Your usb stick is <ulink "
-"url=\"http://wiki.linuxquestions.org/wiki/VFAT\">VFAT</ulink> formatted, and"
-" therefore it can't handle <emphasis>maildir</emphasis> folder names (nor "
-"can it handle <emphasis>permissions</emphasis>, which can cause many other "
-"problems). You have two choices. Either format your <acronym>USB</acronym> "
-"stick as ext2 (or ext3 / 4 -- in which case you should be aware it can't be "
-"read by &Windows; without installing additional software) or create a .tar "
-"or .zip file of your mail, then copy that to the stick and extract the "
-"archive on the new host."
+"<emphasis>Solution:</emphasis> Your usb stick is <ulink url=\"http://wiki."
+"linuxquestions.org/wiki/VFAT\">VFAT</ulink> formatted, and therefore it "
+"can't handle <emphasis>maildir</emphasis> folder names (nor can it handle "
+"<emphasis>permissions</emphasis>, which can cause many other problems). You "
+"have two choices. Either format your <acronym>USB</acronym> stick as ext2 "
+"(or ext3 / 4 -- in which case you should be aware it can't be read by "
+"&Windows; without installing additional software) or create a .tar or .zip "
+"file of your mail, then copy that to the stick and extract the archive on "
+"the new host."
 msgstr ""
 
 # automatic translation
@@ -509,15 +505,14 @@ msgstr ""
 msgid ""
 "Normal &IMAP; mode does not support filtering, but the new disconnected "
 "&IMAP; account type does. You could try to use server-side filtering (ask "
-"your admin how to install filters on the server, and in which format), since"
-" &IMAP; is all about managing your email <emphasis>on the server</emphasis>."
-" See <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure "
-"&kmail;...</guisubmenu><guimenuitem>Receiving</guimenuitem><guimenuitem>(some"
-" &IMAP; account)</guimenuitem></menuchoice>, then click "
-"<guilabel>Modify...</guilabel> and the <guilabel>Filtering</guilabel> tab to"
-" configure server side filtering using the <ulink "
-"url=\"http://sieve.info/\">Sieve</ulink> programming language (if your "
-"&IMAP; server supports it)."
+"your admin how to install filters on the server, and in which format), since "
+"&IMAP; is all about managing your email <emphasis>on the server</emphasis>. "
+"See <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure &kmail;...</"
+"guisubmenu><guimenuitem>Receiving</guimenuitem><guimenuitem>(some &IMAP; "
+"account)</guimenuitem></menuchoice>, then click <guilabel>Modify...</"
+"guilabel> and the <guilabel>Filtering</guilabel> tab to configure server "
+"side filtering using the <ulink url=\"http://sieve.info/\">Sieve</ulink> "
+"programming language (if your &IMAP; server supports it)."
 msgstr ""
 
 # automatic translation
@@ -525,9 +520,8 @@ msgstr ""
 #: faq.docbook:229
 #, no-c-format
 msgid ""
-"What should I know if I want to use "
-"<application>PGP</application>/<application>GnuPG</application> with "
-"&kmail;?"
+"What should I know if I want to use <application>PGP</application>/"
+"<application>GnuPG</application> with &kmail;?"
 msgstr ""
 
 # automatic translation
@@ -536,8 +530,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kmail; provides a simple and easy-to-use interface for the basic functions "
-"of these programs; still, you should understand how these programs work, and"
-" what might make their use insecure. Some important issues:"
+"of these programs; still, you should understand how these programs work, and "
+"what might make their use insecure. Some important issues:"
 msgstr ""
 
 # automatic translation
@@ -546,9 +540,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You <emphasis>really</emphasis> should test if encryption works before you "
-"use it. &kmail; partly relies on "
-"<application>PGP</application>/<application>GnuPG</application>'s error "
-"strings, which often change between different versions."
+"use it. &kmail; partly relies on <application>PGP</application>/"
+"<application>GnuPG</application>'s error strings, which often change between "
+"different versions."
 msgstr ""
 
 # automatic translation
@@ -559,8 +553,8 @@ msgid ""
 "&kmail; will not encrypt messages with an untrusted (unsigned) public key. "
 "If you want to encrypt to such a key you should check the identity of the "
 "key owner and only then sign the key with your secret key. If you do not "
-"want to or cannot check the identity of the key owner, but nevertheless want"
-" to encrypt the message, then please sign the key locally with "
+"want to or cannot check the identity of the key owner, but nevertheless want "
+"to encrypt the message, then please sign the key locally with "
 "<userinput><command>gpg</command> <option>--lsign</option> "
 "<replaceable>keyID</replaceable></userinput>."
 msgstr ""
@@ -593,8 +587,8 @@ msgstr ""
 #: faq.docbook:270
 #, no-c-format
 msgid ""
-"Most &kmail; settings are stored in "
-"<filename>~/.config/kmail2rc</filename>&nbsp;."
+"Most &kmail; settings are stored in <filename>~/.config/kmail2rc</"
+"filename>&nbsp;."
 msgstr ""
 
 # automatic translation
@@ -626,9 +620,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Note that some of the files are hidden: remember to also copy those if you "
-"want to backup or archive your mails. To be safe, use <ulink "
-"url=\"help:/pimdataexporter\">PIM Data Exporter</ulink> to back up your mail"
-" and your settings."
+"want to backup or archive your mails. To be safe, use <ulink url=\"help:/"
+"pimdataexporter\">PIM Data Exporter</ulink> to back up your mail and your "
+"settings."
 msgstr ""
 
 # automatic translation
@@ -662,10 +656,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Some other program modified the contents of the folder. If you want to use "
-"&kmail; together with procmail then please read <link linkend=\"faq-"
-"procmail\">this &FAQ;</link>. If you want to use &kmail; together with "
-"another email client then please read <link linkend=\"faq-other-muas\">this "
-"&FAQ;</link>."
+"&kmail; together with procmail then please read <link linkend=\"faq-procmail"
+"\">this &FAQ;</link>. If you want to use &kmail; together with another email "
+"client then please read <link linkend=\"faq-other-muas\">this &FAQ;</link>."
 msgstr ""
 
 # automatic translation
@@ -676,8 +669,8 @@ msgid ""
 "If your mail folder is on a volume which is mounted via NFS, and if the "
 "clock in the NFS server is behind the clock in your computer, then the NFS "
 "server sometimes reports the wrong file date for the index file. In this "
-"case &kmail; concludes that the index is outdated, although in reality it is"
-" not. To fix this problem you (or your system administrator) have to make "
+"case &kmail; concludes that the index is outdated, although in reality it is "
+"not. To fix this problem you (or your system administrator) have to make "
 "sure that the clock in the NFS server and the clock in your computer are "
 "always in sync. One way to achieve this is to use the ntp daemon."
 msgstr ""
@@ -695,9 +688,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Problem:</emphasis> You want to start &kmail; from a minimal "
-"desktop environment like <ulink "
-"url=\"https://en.wikipedia.org/wiki/Fvwm2\">fvwm2</ulink>. It does not "
-"start."
+"desktop environment like <ulink url=\"https://en.wikipedia.org/wiki/"
+"Fvwm2\">fvwm2</ulink>. It does not start."
 msgstr ""
 
 # automatic translation
@@ -731,11 +723,11 @@ msgstr ""
 #: faq.docbook:325
 #, no-c-format
 msgid ""
-"If you're using the mbox format for your folders it is not possible to use a"
-" different email client while &kmail; is running. With "
-"<application>mutt</application>, there may also be problems even if both "
-"programs are not running at the same time. We recommend you use the maildir "
-"format if you want to use mutt with &kmail;."
+"If you're using the mbox format for your folders it is not possible to use a "
+"different email client while &kmail; is running. With <application>mutt</"
+"application>, there may also be problems even if both programs are not "
+"running at the same time. We recommend you use the maildir format if you "
+"want to use mutt with &kmail;."
 msgstr ""
 
 # automatic translation
@@ -807,9 +799,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The welcome screen lists all important changes for your version. It is "
-"displayed when you select "
-"<menuchoice><guimenu>Help</guimenu><guimenuitem>&kmail; "
-"Introduction</guimenuitem></menuchoice>."
+"displayed when you select <menuchoice><guimenu>Help</"
+"guimenu><guimenuitem>&kmail; Introduction</guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -837,8 +828,8 @@ msgstr ""
 #: faq.docbook:387
 #, no-c-format
 msgid ""
-"Why do some messages exhibit a value of \"unknown\" in the "
-"<guilabel>Date</guilabel> field? Why is the date sometimes incorrect?"
+"Why do some messages exhibit a value of \"unknown\" in the <guilabel>Date</"
+"guilabel> field? Why is the date sometimes incorrect?"
 msgstr ""
 
 # automatic translation
@@ -881,11 +872,11 @@ msgstr ""
 #: faq.docbook:410
 #, no-c-format
 msgid ""
-"There are quite a few, as you can see by querying the &kmail; <ulink "
-"url=\"https://bugs.kde.org/buglist.cgi?quicksearch=kmail2\">Bugzilla "
-"page</ulink>. As of this writing (April, 2021) roughly 70% of the reported "
-"bugs are unconfirmed, or irreproducible. All in all we think &kmail; is a "
-"robust piece of software."
+"There are quite a few, as you can see by querying the &kmail; <ulink url="
+"\"https://bugs.kde.org/buglist.cgi?quicksearch=kmail2\">Bugzilla page</"
+"ulink>. As of this writing (April, 2021) roughly 70% of the reported bugs "
+"are unconfirmed, or irreproducible. All in all we think &kmail; is a robust "
+"piece of software."
 msgstr ""
 
 # automatic translation
@@ -894,8 +885,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You should not run &kmail; while another email client is already accessing "
-"the files in the mail directory; if you do, you may lose messages. Note that"
-" you should make backups of your messages -- and all your important data -- "
+"the files in the mail directory; if you do, you may lose messages. Note that "
+"you should make backups of your messages -- and all your important data -- "
 "regularly. That's just good digital hygiene."
 msgstr ""
 
@@ -914,10 +905,10 @@ msgid ""
 "References to external content, like images, are disabled by default, as "
 "spammers can use them to track whether and when you read a message. Loading "
 "external references can be activated in the <guilabel>Security</guilabel> "
-"tab in &kmail;'s configuration dialog. Plugins (like <trademark "
-"class=\"registered\">Adobe</trademark> <application>Flash</application>), "
-"&Java; and JavaScript will not be displayed in &kmail; for security reasons,"
-" and there is no way to activate them."
+"tab in &kmail;'s configuration dialog. Plugins (like <trademark class="
+"\"registered\">Adobe</trademark> <application>Flash</application>), &Java; "
+"and JavaScript will not be displayed in &kmail; for security reasons, and "
+"there is no way to activate them."
 msgstr ""
 
 # automatic translation
@@ -970,13 +961,13 @@ msgstr ""
 #: faq.docbook:457
 #, no-c-format
 msgid ""
-"&kmail; tries to save your mail to <filename "
-"class=\"directory\">~/.local/share/kmail2/autosave/</filename> in case of a "
-"crash. The next time you start &kmail; the mail composer should appear with "
-"your message again; If it does not, try to open the files in <filename "
-"class=\"directory\">~/.local/share/kmail2/autosave/</filename> with an "
-"editor. If there are no files in that folder then the crash was so bad that "
-"&kmail; could not save your message."
+"&kmail; tries to save your mail to <filename class=\"directory\">~/.local/"
+"share/kmail2/autosave/</filename> in case of a crash. The next time you "
+"start &kmail; the mail composer should appear with your message again; If it "
+"does not, try to open the files in <filename class=\"directory\">~/.local/"
+"share/kmail2/autosave/</filename> with an editor. If there are no files in "
+"that folder then the crash was so bad that &kmail; could not save your "
+"message."
 msgstr ""
 
 # automatic translation
@@ -995,12 +986,12 @@ msgstr ""
 msgid ""
 "Associating a folder with a mailing list has nothing to do with filtering "
 "the mailing list messages &mdash; you have to add a new filter rule "
-"manually. However, once you have associated a folder with a mailing list you"
-" can use <menuchoice><guimenu>Message</guimenu><guimenuitem>Reply to "
-"Mailing-List...</guimenuitem></menuchoice> or "
-"<menuchoice><guimenu>Message</guimenu><guimenuitem>New Message to Mailing-"
-"List...</guimenuitem></menuchoice> and the mailing list address will be set "
-"in the <guilabel>To:</guilabel> field."
+"manually. However, once you have associated a folder with a mailing list you "
+"can use <menuchoice><guimenu>Message</guimenu><guimenuitem>Reply to Mailing-"
+"List...</guimenuitem></menuchoice> or <menuchoice><guimenu>Message</"
+"guimenu><guimenuitem>New Message to Mailing-List...</guimenuitem></"
+"menuchoice> and the mailing list address will be set in the <guilabel>To:</"
+"guilabel> field."
 msgstr ""
 
 # automatic translation
@@ -1015,9 +1006,9 @@ msgstr ""
 #: faq.docbook:482
 #, no-c-format
 msgid ""
-"<guilabel>Authentication</guilabel> can be set in the "
-"<guilabel>Advanced</guilabel> tab of the <link linkend=\"configure-accounts-"
-"sending\">SMTP configuration dialog</link>."
+"<guilabel>Authentication</guilabel> can be set in the <guilabel>Advanced</"
+"guilabel> tab of the <link linkend=\"configure-accounts-sending\">SMTP "
+"configuration dialog</link>."
 msgstr ""
 
 # automatic translation
@@ -1034,10 +1025,9 @@ msgstr ""
 msgid ""
 "Yes, but it is important to do it the right way or you might lose mail. To "
 "use <application>procmail</application> and &kmail; you must set up &kmail; "
-"to fetch new mail from the spoolfiles in which "
-"<application>procmail</application> drops your mail. Do "
-"<emphasis>not</emphasis> set up procmail to deliver mail to a &kmail; "
-"folder. This cannot work."
+"to fetch new mail from the spoolfiles in which <application>procmail</"
+"application> drops your mail. Do <emphasis>not</emphasis> set up procmail to "
+"deliver mail to a &kmail; folder. This cannot work."
 msgstr ""
 
 # automatic translation
@@ -1048,8 +1038,8 @@ msgid ""
 "For each procmail spoolfile you must then create an account from which "
 "&kmail; will fetch new mail. You also need to specify the right lockfile "
 "name for this account. When setting up an account, &kmail; will do some "
-"minimal parsing on your <filename>.procmail</filename> file, and will try to"
-" list every spoolfile it has found, and also the lockfiles next to the "
+"minimal parsing on your <filename>.procmail</filename> file, and will try to "
+"list every spoolfile it has found, and also the lockfiles next to the "
 "<guilabel>procmail lockfile</guilabel> item. Procmail lets the user specify "
 "lockfiles in three different ways, so there is no way to establish a "
 "correspondence between the spoolfiles and lockfiles; it's really up to you "
@@ -1069,9 +1059,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Before you can use spellchecking, you must configure it. You can do so in "
-"the composer window, under "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Spellchecker...</guimenuitem>"
-" </menuchoice>. You can choose a dictionary there."
+"the composer window, under <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Spellchecker...</guimenuitem> </menuchoice>. You can "
+"choose a dictionary there."
 msgstr ""
 
 # automatic translation
@@ -1079,9 +1069,8 @@ msgstr ""
 #: faq.docbook:521
 #, no-c-format
 msgid ""
-"How do I use my "
-"<application>Eudora</application>/&Netscape;/<application>Outlook</application>/..."
-" mail folders in &kmail;?"
+"How do I use my <application>Eudora</application>/&Netscape;/"
+"<application>Outlook</application>/... mail folders in &kmail;?"
 msgstr ""
 
 # automatic translation
@@ -1143,9 +1132,8 @@ msgstr ""
 #: faq.docbook:548
 #, no-c-format
 msgid ""
-"For more details on setting up ssh, see <ulink "
-"url=\"http://www.faqs.org/docs/Linux-mini/Secure-POP+SSH.html\">this web "
-"page</ulink>."
+"For more details on setting up ssh, see <ulink url=\"http://www.faqs.org/"
+"docs/Linux-mini/Secure-POP+SSH.html\">this web page</ulink>."
 msgstr ""
 
 # automatic translation
@@ -1160,8 +1148,8 @@ msgstr ""
 #: faq.docbook:558
 #, no-c-format
 msgid ""
-"&kmail; does not lock the files in <filename "
-"class=\"directory\">~.local/share</filename>."
+"&kmail; does not lock the files in <filename class=\"directory\">~.local/"
+"share</filename>."
 msgstr ""
 
 # automatic translation
@@ -1169,9 +1157,9 @@ msgstr ""
 #: faq.docbook:560
 #, no-c-format
 msgid ""
-"To avoid the risk of losing mail <emphasis>when using a local "
-"account,</emphasis> it is necessary to ensure that &kmail; uses the same "
-"locking mechanism as your mail delivery agent."
+"To avoid the risk of losing mail <emphasis>when using a local account,</"
+"emphasis> it is necessary to ensure that &kmail; uses the same locking "
+"mechanism as your mail delivery agent."
 msgstr ""
 
 # automatic translation
@@ -1224,11 +1212,11 @@ msgid ""
 "<guilabel>Procmail lockfile</guilabel> uses a small utility that comes with "
 "<application>procmail</application> called <command>lockfile</command>. You "
 "can use this if your mail folder is in a folder where you have write "
-"permission. This will not work on your <filename "
-"class=\"directory\">/var/spool/mail/user</filename> file in most cases. It "
-"will create <filename>.lock</filename> files on your account when &kmail; is"
-" checking for new mail. Please note that this will only work if "
-"<application>procmail</application> is installed on your system."
+"permission. This will not work on your <filename class=\"directory\">/var/"
+"spool/mail/user</filename> file in most cases. It will create <filename>."
+"lock</filename> files on your account when &kmail; is checking for new mail. "
+"Please note that this will only work if <application>procmail</application> "
+"is installed on your system."
 msgstr ""
 
 # automatic translation
@@ -1236,17 +1224,17 @@ msgstr ""
 #: faq.docbook:583
 #, no-c-format
 msgid ""
-"<guilabel>Mutt dotlock</guilabel> and <guilabel>Mutt dotlock "
-"privileged</guilabel> both use a small utility that comes with "
-"<application>mutt</application> called <command>mutt_dotlock</command>. "
-"<guilabel>Mutt dotlock</guilabel> can be used in the same way as the "
-"<guilabel>Procmail lockfile</guilabel> option, with the same limitation with"
-" respect to the <filename class=\"directory\">/var/spool/mail/</filename> "
-"folders. The <guilabel>Mutt dotlock privileged</guilabel> option can create "
-"lock files in the <filename class=\"directory\">/var/spool/mail</filename> "
-"folder. <command>mutt_dotlock</command> is a setgid program and this option "
-"will run it in setgid mode. Please note that these options will only work if"
-" <application>mutt</application> is installed on your system."
+"<guilabel>Mutt dotlock</guilabel> and <guilabel>Mutt dotlock privileged</"
+"guilabel> both use a small utility that comes with <application>mutt</"
+"application> called <command>mutt_dotlock</command>. <guilabel>Mutt dotlock</"
+"guilabel> can be used in the same way as the <guilabel>Procmail lockfile</"
+"guilabel> option, with the same limitation with respect to the <filename "
+"class=\"directory\">/var/spool/mail/</filename> folders. The <guilabel>Mutt "
+"dotlock privileged</guilabel> option can create lock files in the <filename "
+"class=\"directory\">/var/spool/mail</filename> folder. "
+"<command>mutt_dotlock</command> is a setgid program and this option will run "
+"it in setgid mode. Please note that these options will only work if "
+"<application>mutt</application> is installed on your system."
 msgstr ""
 
 # automatic translation
@@ -1254,8 +1242,7 @@ msgstr ""
 #: faq.docbook:595
 #, no-c-format
 msgid ""
-"<guilabel>FCNTL</guilabel> uses the <function>fcntl()</function> system "
-"call."
+"<guilabel>FCNTL</guilabel> uses the <function>fcntl()</function> system call."
 msgstr ""
 
 # automatic translation
@@ -1290,12 +1277,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you want to leave all messages on the server, open the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&kmail;...</guimenuitem> </menuchoice> window. Click on the "
-"<guilabel>Accounts</guilabel> page. Select your account from the account "
-"list and click the <guibutton>Modify...</guibutton> button. This dialog "
-"contains the <guilabel>Leave fetched messages on the server</guilabel> "
-"setting (Advanced tab) which you can enable."
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kmail;...</"
+"guimenuitem> </menuchoice> window. Click on the <guilabel>Accounts</"
+"guilabel> page. Select your account from the account list and click the "
+"<guibutton>Modify...</guibutton> button. This dialog contains the "
+"<guilabel>Leave fetched messages on the server</guilabel> setting (Advanced "
+"tab) which you can enable."
 msgstr ""
 
 # automatic translation
@@ -1314,9 +1301,9 @@ msgid ""
 "cryptographic signature). Select <menuchoice><guimenu>Settings</guimenu> "
 "<guimenuitem>Configure &kmail;...</guimenuitem></menuchoice>. Look in the "
 "<guilabel>Identity</guilabel> page for the <guilabel>Signature</guilabel> "
-"tab and add your signature there. Then go to the "
-"<guilabel>General</guilabel> tab on the <guilabel>Composer</guilabel> page "
-"and enable <xref linkend=\"configure-composer-general-append-signature\"/>."
+"tab and add your signature there. Then go to the <guilabel>General</"
+"guilabel> tab on the <guilabel>Composer</guilabel> page and enable <xref "
+"linkend=\"configure-composer-general-append-signature\"/>."
 msgstr ""
 
 # automatic translation
@@ -1342,9 +1329,8 @@ msgstr ""
 #: faq.docbook:642
 #, no-c-format
 msgid ""
-"If that is not the case, you may want to have a look at <ulink "
-"url=\"https://www.tldp.org/HOWTO/Mail-Queue.html\">the Mail Queue "
-"HOWTO</ulink>."
+"If that is not the case, you may want to have a look at <ulink url=\"https://"
+"www.tldp.org/HOWTO/Mail-Queue.html\">the Mail Queue HOWTO</ulink>."
 msgstr ""
 
 # automatic translation
@@ -1362,10 +1348,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can get a list of functions by using this command in a shell: "
-"<userinput><command>qdbus</command><option>org.kde.kmail "
-"/KMail</option></userinput>. Then you can control &kmail; like this: "
-"<userinput><command>qdbus</command> <option>org.kde.kmail /KMail "
-"org.kde.kmail.kmail.folderList</option></userinput>. You can also use "
+"<userinput><command>qdbus</command><option>org.kde.kmail /KMail</option></"
+"userinput>. Then you can control &kmail; like this: "
+"<userinput><command>qdbus</command> <option>org.kde.kmail /KMail org.kde."
+"kmail.kmail.folderList</option></userinput>. You can also use "
 "<application>qdbusviewer</application> to browse available methods in a "
 "graphical interface."
 msgstr ""
@@ -1383,10 +1369,10 @@ msgstr ""
 #: faq.docbook:665
 #, no-c-format
 msgid ""
-"This can happen when the message contains two dashes and a space on a single"
-" line. This is seen as the start of a signature. The remainder of the "
-"message will not be quoted, because when you reply to a message, &kmail; "
-"strips the signature."
+"This can happen when the message contains two dashes and a space on a single "
+"line. This is seen as the start of a signature. The remainder of the message "
+"will not be quoted, because when you reply to a message, &kmail; strips the "
+"signature."
 msgstr ""
 
 # automatic translation
@@ -1404,15 +1390,15 @@ msgstr ""
 #, no-c-format
 msgid ""
 "No, you cannot get rid of them. The local folders function as a fallback "
-"when the &IMAP; server is unreachable. Although you only use &IMAP;, &kmail;"
-" uses the outbox for sending the messages. If we hide all local folders you "
-"will not be able to fix messages in the outbox which cannot be send for some"
-" reason. But it is possible to keep the local folders collapsed. What you "
-"have to do is go to "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&kmail;...</guimenuitem></menuchoice> and go to the section Misc. There you "
-"can set up the folder on startup. If you change that to a folder on the "
-"&IMAP; account, the Local Folders will stay collapsed when &kmail; starts."
+"when the &IMAP; server is unreachable. Although you only use &IMAP;, &kmail; "
+"uses the outbox for sending the messages. If we hide all local folders you "
+"will not be able to fix messages in the outbox which cannot be send for some "
+"reason. But it is possible to keep the local folders collapsed. What you "
+"have to do is go to <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &kmail;...</guimenuitem></menuchoice> and go "
+"to the section Misc. There you can set up the folder on startup. If you "
+"change that to a folder on the &IMAP; account, the Local Folders will stay "
+"collapsed when &kmail; starts."
 msgstr ""
 
 # automatic translation
@@ -1428,8 +1414,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you want to follow a thread, right click and choose "
-"<menuchoice><guimenu>Mark Thread</guimenu> <guimenuitem>Watch "
-"Thread</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Mark Thread</guimenu> <guimenuitem>Watch Thread</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -1477,8 +1463,7 @@ msgstr ""
 #. Tag: menuchoice
 #: faq.docbook:704
 #, no-c-format
-msgid ""
-"<guimenu>Settings</guimenu><guimenuitem>Configure Filters</guimenuitem>"
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Filters</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -1500,8 +1485,9 @@ msgstr ""
 #: faq.docbook:713
 #, no-c-format
 msgid ""
-"<menuchoice><guimenu>From</guimenu><guisubmenu>Contains</guisubmenu><guimenuitem>"
-" </guimenuitem></menuchoice> <replaceable>yourmail@maildomain</replaceable>"
+"<menuchoice><guimenu>From</guimenu><guisubmenu>Contains</"
+"guisubmenu><guimenuitem> </guimenuitem></menuchoice> "
+"<replaceable>yourmail@maildomain</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -1518,9 +1504,8 @@ msgstr ""
 #: faq.docbook:719
 #, no-c-format
 msgid ""
-"<menuchoice><guimenu>List-"
-"Id</guimenu><guimenuitem>Contains</guimenuitem></menuchoice> "
-"<replaceable>listID</replaceable>"
+"<menuchoice><guimenu>List-Id</guimenu><guimenuitem>Contains</guimenuitem></"
+"menuchoice> <replaceable>listID</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -1556,8 +1541,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Uncheck <guilabel>if this filter matches, stop processing here</guilabel>, "
-"so that other filters such as sorting the incoming messages from the mailing"
-" list to sub-folders will execute."
+"so that other filters such as sorting the incoming messages from the mailing "
+"list to sub-folders will execute."
 msgstr ""
 
 # automatic translation
@@ -1584,8 +1569,8 @@ msgstr ""
 msgid ""
 "Go to the folder where your mailing list messages are stored (&eg;, Local "
 "Folders/KDE-PIM-USERS) and hit <keycap>S</keycap> key or in the menu "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find "
-"Messages</guimenuitem></menuchoice>:"
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find Messages</guimenuitem></"
+"menuchoice>:"
 msgstr ""
 
 # automatic translation
@@ -1607,9 +1592,9 @@ msgstr ""
 #: faq.docbook:758
 #, no-c-format
 msgid ""
-"Add the condition: <menuchoice><guimenu>Message "
-"Status</guimenu><guisubmenu>is</guisubmenu> "
-"<guimenuitem>Watched</guimenuitem></menuchoice>"
+"Add the condition: <menuchoice><guimenu>Message Status</"
+"guimenu><guisubmenu>is</guisubmenu> <guimenuitem>Watched</guimenuitem></"
+"menuchoice>"
 msgstr ""
 
 # automatic translation
@@ -1617,8 +1602,8 @@ msgstr ""
 #: faq.docbook:762
 #, no-c-format
 msgid ""
-"Give the search an informative name (<guilabel>Search folder "
-"name</guilabel>) like <replaceable>KDE-PIM-USERS-Watched</replaceable>"
+"Give the search an informative name (<guilabel>Search folder name</"
+"guilabel>) like <replaceable>KDE-PIM-USERS-Watched</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -1649,8 +1634,8 @@ msgstr ""
 #: faq.docbook:779
 #, no-c-format
 msgid ""
-"To translate text in the composer window read the section <link "
-"linkend=\"using-the-translator\">Using the Built-in Translator</link>"
+"To translate text in the composer window read the section <link linkend="
+"\"using-the-translator\">Using the Built-in Translator</link>"
 msgstr ""
 
 # automatic translation
@@ -1659,7 +1644,6 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In the message preview pane highlight the text you would like to translate "
-"and select <guimenuitem>Translate</guimenuitem> (<keycombo "
-"action=\"simul\">&Ctrl;&Alt;<keycap>T</keycap></keycombo>) from the &RMB; "
-"context menu."
+"and select <guimenuitem>Translate</guimenuitem> (<keycombo action=\"simul"
+"\">&Ctrl;&Alt;<keycap>T</keycap></keycombo>) from the &RMB; context menu."
 msgstr ""

@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-03-13 00:47+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -33,7 +35,8 @@ msgstr ""
 #: index.docbook:16
 #, no-c-format
 msgid ""
-"<firstname>Natalie</firstname><surname>Clarius</surname><email>natalie_clarius@yahoo.de</email>"
+"<firstname>Natalie</firstname><surname>Clarius</"
+"surname><email>natalie_clarius@yahoo.de</email>"
 msgstr ""
 
 # automatic translation
@@ -168,9 +171,9 @@ msgid ""
 "inactive. Using <guilabel>Titlebar Actions</guilabel> and <guilabel>Window "
 "Actions</guilabel> you can configure how titlebars and windows react to "
 "mouse clicks. <guilabel>Movement</guilabel> allows you to configure how "
-"windows move and place themselves when started. The "
-"<guilabel>Advanced</guilabel> options cover some specialized options like "
-"<quote>window shading</quote>."
+"windows move and place themselves when started. The <guilabel>Advanced</"
+"guilabel> options cover some specialized options like <quote>window shading</"
+"quote>."
 msgstr ""
 
 # automatic translation
@@ -254,10 +257,10 @@ msgstr ""
 #: index.docbook:104
 #, no-c-format
 msgid ""
-"This is mostly the same as <guilabel>Click to focus</guilabel>. If an active"
-" window has to be chosen by the system (&eg; because the currently active "
-"one was closed) the window under the mouse is the preferred candidate. "
-"Unusual, but possible variant of <guilabel>Click to focus</guilabel>."
+"This is mostly the same as <guilabel>Click to focus</guilabel>. If an active "
+"window has to be chosen by the system (&eg; because the currently active one "
+"was closed) the window under the mouse is the preferred candidate. Unusual, "
+"but possible variant of <guilabel>Click to focus</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -273,12 +276,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Moving the mouse pointer actively over a normal window activates it. New "
-"windows such as the mini command line invoked with <keycombo "
-"action=\"simul\">&Alt;<keycap>F2</keycap></keycombo> will receive the focus,"
-" without you having to point the mouse at them explicitly. &eg; windows "
-"randomly appearing under the mouse will not gain the focus. Focus stealing "
-"prevention takes place as usual. Think as <guilabel>Click to "
-"focus</guilabel> just without having to actually click."
+"windows such as the mini command line invoked with <keycombo action=\"simul"
+"\">&Alt;<keycap>F2</keycap></keycombo> will receive the focus, without you "
+"having to point the mouse at them explicitly. &eg; windows randomly "
+"appearing under the mouse will not gain the focus. Focus stealing prevention "
+"takes place as usual. Think as <guilabel>Click to focus</guilabel> just "
+"without having to actually click."
 msgstr ""
 
 # automatic translation
@@ -320,12 +323,12 @@ msgstr ""
 #: index.docbook:149
 #, no-c-format
 msgid ""
-"The window that happens to be under the mouse pointer becomes active. If the"
-" mouse is not over a window (for instance, it's over the desktop wallpaper) "
+"The window that happens to be under the mouse pointer becomes active. If the "
+"mouse is not over a window (for instance, it's over the desktop wallpaper) "
 "the last window that was under the mouse has focus. New windows such as the "
-"mini command line invoked with <keycombo "
-"action=\"simul\">&Alt;<keycap>F2</keycap></keycombo> will not receive the "
-"focus, you must move the mouse over them to type."
+"mini command line invoked with <keycombo action=\"simul\">&Alt;<keycap>F2</"
+"keycap></keycombo> will not receive the focus, you must move the mouse over "
+"them to type."
 msgstr ""
 
 # automatic translation
@@ -340,12 +343,12 @@ msgstr ""
 #: index.docbook:162
 #, no-c-format
 msgid ""
-"Similar to <guilabel>Focus under mouse</guilabel>, but even more strict with"
-" its interpretation. Only the window under the mouse pointer is active. If "
+"Similar to <guilabel>Focus under mouse</guilabel>, but even more strict with "
+"its interpretation. Only the window under the mouse pointer is active. If "
 "the mouse pointer is not over a window, no window has focus. New windows "
-"such as the mini command line invoked with <keycombo "
-"action=\"simul\">&Alt;<keycap>F2</keycap></keycombo> will not receive the "
-"focus, you must move the mouse over them to type."
+"such as the mini command line invoked with <keycombo action=\"simul\">&Alt;"
+"<keycap>F2</keycap></keycombo> will not receive the focus, you must move the "
+"mouse over them to type."
 msgstr ""
 
 # automatic translation
@@ -355,9 +358,9 @@ msgstr ""
 msgid ""
 "Note that <guilabel>Focus under mouse</guilabel> and <guilabel>Focus "
 "strictly under mouse</guilabel> prevent certain features, such as "
-"<guilabel>Focus stealing prevention</guilabel> and the <keycombo "
-"action=\"simul\">&Alt;&Tab;</keycombo> walk-through-windows dialog, from "
-"working properly."
+"<guilabel>Focus stealing prevention</guilabel> and the <keycombo action="
+"\"simul\">&Alt;&Tab;</keycombo> walk-through-windows dialog, from working "
+"properly."
 msgstr ""
 
 # automatic translation
@@ -419,8 +422,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Prevention is enabled; when some window does not have support for the "
-"underlying mechanism and KWin cannot reliably decide whether to activate the"
-" window or not, it will be activated. This setting may have both worse and "
+"underlying mechanism and KWin cannot reliably decide whether to activate the "
+"window or not, it will be activated. This setting may have both worse and "
 "better results than the medium level, depending on the applications."
 msgstr ""
 
@@ -491,8 +494,8 @@ msgstr ""
 #: index.docbook:250
 #, no-c-format
 msgid ""
-"Besides receiving focus, you can also control under which conditions windows"
-" get raised, &ie; brought to the front."
+"Besides receiving focus, you can also control under which conditions windows "
+"get raised, &ie; brought to the front."
 msgstr ""
 
 # automatic translation
@@ -532,8 +535,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Setting the delay too short will cause a rapid fire changing of windows, "
-"which can be quite distracting. Most people will like a delay of 100-300 ms."
-" This is responsive, but it will let you slide over the corners of a window "
+"which can be quite distracting. Most people will like a delay of 100-300 ms. "
+"This is responsive, but it will let you slide over the corners of a window "
 "on your way to your destination without bringing that window to the front."
 msgstr ""
 
@@ -565,10 +568,10 @@ msgstr ""
 #: index.docbook:290
 #, no-c-format
 msgid ""
-"When this option is enabled, focus operations are limited only to the active"
-" screen. For instance, when you close a window, then the next window to "
-"receive focus will be a window on the active screen, even if there is a more"
-" recently used window on a different screen."
+"When this option is enabled, focus operations are limited only to the active "
+"screen. For instance, when you close a window, then the next window to "
+"receive focus will be a window on the active screen, even if there is a more "
+"recently used window on a different screen."
 msgstr ""
 
 # automatic translation
@@ -876,8 +879,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can have windows automatically unshade when you simply place the mouse "
-"over their shaded titlebar. Just check the <link linkend=\"advanced-"
-"unshading\"><guilabel>Window unshading</guilabel></link> check box in the "
+"over their shaded titlebar. Just check the <link linkend=\"advanced-unshading"
+"\"><guilabel>Window unshading</guilabel></link> check box in the "
 "<guilabel>Advanced</guilabel> tab of this module. This is a great way to "
 "reclaim screen space when you are cutting and pasting between a lot of "
 "windows, for example."
@@ -993,8 +996,8 @@ msgstr ""
 #: index.docbook:603
 #, no-c-format
 msgid ""
-"This section allows you to determine the behavior of the three mouse buttons"
-" onto the maximize button."
+"This section allows you to determine the behavior of the three mouse buttons "
+"onto the maximize button."
 msgstr ""
 
 # automatic translation
@@ -1023,9 +1026,9 @@ msgstr ""
 #: index.docbook:649
 #, no-c-format
 msgid ""
-"This part of the module, allows you to configure what happens when you click"
-" on an inactive window, with any of the three mouse buttons or use the mouse"
-" wheel."
+"This part of the module, allows you to configure what happens when you click "
+"on an inactive window, with any of the three mouse buttons or use the mouse "
+"wheel."
 msgstr ""
 
 # automatic translation
@@ -1095,8 +1098,8 @@ msgstr ""
 #: index.docbook:694
 #, no-c-format
 msgid ""
-"This makes the clicked window active and raises the window to the top of the"
-" display. The mouse click is not passed on to the application within the "
+"This makes the clicked window active and raises the window to the top of the "
+"display. The mouse click is not passed on to the application within the "
 "window."
 msgstr ""
 
@@ -1163,8 +1166,8 @@ msgstr ""
 #: index.docbook:745
 #, no-c-format
 msgid ""
-"This bottom section allows you to configure additional actions when clicking"
-" on a window with a modifier key pressed."
+"This bottom section allows you to configure additional actions when clicking "
+"on a window with a modifier key pressed."
 msgstr ""
 
 # automatic translation
@@ -1181,10 +1184,9 @@ msgstr ""
 #: index.docbook:754
 #, no-c-format
 msgid ""
-"Once again, you can select different actions for "
-"<mousebutton>Left</mousebutton>, <mousebutton>Middle</mousebutton> and "
-"<mousebutton>Right</mousebutton> button clicks and the <guilabel>Mouse "
-"wheel</guilabel>."
+"Once again, you can select different actions for <mousebutton>Left</"
+"mousebutton>, <mousebutton>Middle</mousebutton> and <mousebutton>Right</"
+"mousebutton> button clicks and the <guilabel>Mouse wheel</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -1292,8 +1294,8 @@ msgstr ""
 #: index.docbook:959
 #, no-c-format
 msgid ""
-"This page allows you to configure the <guilabel>Snap Zones</guilabel>. These"
-" are like a magnetic field along the side of the screen and each window, "
+"This page allows you to configure the <guilabel>Snap Zones</guilabel>. These "
+"are like a magnetic field along the side of the screen and each window, "
 "which will make windows snap alongside when moved near."
 msgstr ""
 
@@ -1325,9 +1327,9 @@ msgstr ""
 #: index.docbook:980
 #, no-c-format
 msgid ""
-"Here you can set the snap zone for windows. As with screen borders, moving a"
-" window near to another will make it snap to the edge as if the windows were"
-" magnetized."
+"Here you can set the snap zone for windows. As with screen borders, moving a "
+"window near to another will make it snap to the edge as if the windows were "
+"magnetized."
 msgstr ""
 
 # automatic translation
@@ -1359,8 +1361,8 @@ msgstr ""
 #: index.docbook:1002
 #, no-c-format
 msgid ""
-"If checked, windows will not snap together if they are only near each other,"
-" they must be overlapping, by the configured amount or less."
+"If checked, windows will not snap together if they are only near each other, "
+"they must be overlapping, by the configured amount or less."
 msgstr ""
 
 # automatic translation
@@ -1426,8 +1428,7 @@ msgstr ""
 #: index.docbook:1048
 #, no-c-format
 msgid ""
-"The placement policy determines where a new window will appear on the "
-"screen."
+"The placement policy determines where a new window will appear on the screen."
 msgstr ""
 
 # automatic translation
@@ -1436,10 +1437,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In a multi-monitor setup, the screen for windows to appear on is always the "
-"active screen (that is, the screen that has the mouse pointer or the focused"
-" window; see <link linkend=\"focus-multiscreen\">Multiscreen "
-"behavior</link>), with the exception of windows remembering their previous "
-"position (see <link linkend=\"advanced-remember-positions\">below</link>)."
+"active screen (that is, the screen that has the mouse pointer or the focused "
+"window; see <link linkend=\"focus-multiscreen\">Multiscreen behavior</"
+"link>), with the exception of windows remembering their previous position "
+"(see <link linkend=\"advanced-remember-positions\">below</link>)."
 msgstr ""
 
 # automatic translation
@@ -1512,8 +1513,8 @@ msgstr ""
 #: index.docbook:1098
 #, no-c-format
 msgid ""
-"Will place all new windows with their top left corner in the top left corner"
-" of the screen."
+"Will place all new windows with their top left corner in the top left corner "
+"of the screen."
 msgstr ""
 
 # automatic translation
@@ -1539,8 +1540,8 @@ msgid ""
 "windows</guilabel> item to open windows where they previously were rather "
 "than by the placement method chosen above. Note that this remembered "
 "position includes the screen assignment, so windows may open on a screen "
-"other than the active one if this is where they were last located. Note also"
-" that this option is only available on X11, not on Wayland, and is only "
+"other than the active one if this is where they were last located. Note also "
+"that this option is only available on X11, not on Wayland, and is only "
 "supported by some KDE applications."
 msgstr ""
 
@@ -1551,10 +1552,10 @@ msgstr ""
 msgid ""
 "If you would like some windows to appear on specific positions, screens, or "
 "Virtual Desktops, you can set up <guilabel>Window Rules</guilabel> to "
-"configure special window or application settings. You can find this by "
-"right-clicking on the titlebar of a window and choosing <guimenu>More "
-"Actions</guimenu>, or in the <guilabel>Window Rules</guilabel> module in the"
-" <guilabel>Window Management</guilabel> section of system settings."
+"configure special window or application settings. You can find this by right-"
+"clicking on the titlebar of a window and choosing <guimenu>More Actions</"
+"guimenu>, or in the <guilabel>Window Rules</guilabel> module in the "
+"<guilabel>Window Management</guilabel> section of system settings."
 msgstr ""
 
 # automatic translation

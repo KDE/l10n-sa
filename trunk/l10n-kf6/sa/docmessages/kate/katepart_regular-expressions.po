@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: author
@@ -54,8 +56,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Regular Expressions</emphasis> provides us with a way to describe "
-"some possible contents of a text string in a way understood by a small piece"
-" of software, so that it can investigate if a text matches, and also in the "
+"some possible contents of a text string in a way understood by a small piece "
+"of software, so that it can investigate if a text matches, and also in the "
 "case of advanced applications with the means of saving pieces or the "
 "matching text."
 msgstr ""
@@ -98,14 +100,13 @@ msgstr ""
 #: regular-expressions.docbook:40
 #, no-c-format
 msgid ""
-"To achieve this, Regular Expressions defines rules for expressing in details"
-" a generalization of a string to match. Our example, which we might "
-"literally express like this: <quote>A line starting with either "
-"<quote>Henrik</quote> or <quote>Pernille</quote> (possibly following up to 4"
-" blanks or tab characters) followed by a whitespace followed by "
-"<quote>sa</quote> and then either <quote>ys</quote> or "
-"<quote>id</quote></quote> could be expressed with the following regular "
-"expression:"
+"To achieve this, Regular Expressions defines rules for expressing in details "
+"a generalization of a string to match. Our example, which we might literally "
+"express like this: <quote>A line starting with either <quote>Henrik</quote> "
+"or <quote>Pernille</quote> (possibly following up to 4 blanks or tab "
+"characters) followed by a whitespace followed by <quote>sa</quote> and then "
+"either <quote>ys</quote> or <quote>id</quote></quote> could be expressed "
+"with the following regular expression:"
 msgstr ""
 
 # automatic translation
@@ -166,14 +167,14 @@ msgstr ""
 #: regular-expressions.docbook:64
 #, no-c-format
 msgid ""
-"The strings <literal>[ \\t]</literal> and <literal>(Henrik|Pernille) "
-"sa(ys|id)</literal> are patterns. The first one is a <emphasis>character "
-"class</emphasis> that matches either a blank or a (horizontal) tab "
-"character; the other pattern contains first a subpattern matching either "
-"<literal>Henrik</literal> <emphasis>or</emphasis> "
-"<literal>Pernille</literal>, then a piece matching the exact string "
-"<literal> sa</literal> and finally a subpattern matching either "
-"<literal>ys</literal> <emphasis>or</emphasis> <literal>id</literal>"
+"The strings <literal>[ \\t]</literal> and <literal>(Henrik|Pernille) sa(ys|"
+"id)</literal> are patterns. The first one is a <emphasis>character class</"
+"emphasis> that matches either a blank or a (horizontal) tab character; the "
+"other pattern contains first a subpattern matching either <literal>Henrik</"
+"literal> <emphasis>or</emphasis> <literal>Pernille</literal>, then a piece "
+"matching the exact string <literal> sa</literal> and finally a subpattern "
+"matching either <literal>ys</literal> <emphasis>or</emphasis> <literal>id</"
+"literal>"
 msgstr ""
 
 # automatic translation
@@ -190,13 +191,12 @@ msgstr ""
 #: regular-expressions.docbook:77
 #, no-c-format
 msgid ""
-"Because regular expression software supporting the concept of <emphasis>back"
-" references</emphasis> saves the entire matching part of the string as well "
-"as sub-patterns enclosed in parentheses, given some means of access to those"
-" references, we could get our hands on either the whole match (when "
-"searching a text document in an editor with a regular expression, that is "
-"often marked as selected) or either the name found, or the last part of the "
-"verb."
+"Because regular expression software supporting the concept of <emphasis>back "
+"references</emphasis> saves the entire matching part of the string as well "
+"as sub-patterns enclosed in parentheses, given some means of access to those "
+"references, we could get our hands on either the whole match (when searching "
+"a text document in an editor with a regular expression, that is often marked "
+"as selected) or either the name found, or the last part of the verb."
 msgstr ""
 
 # automatic translation
@@ -257,8 +257,8 @@ msgstr ""
 #: regular-expressions.docbook:112
 #, no-c-format
 msgid ""
-"This is done by prepending the character with a backslash "
-"(<literal>\\</literal>)."
+"This is done by prepending the character with a backslash (<literal>\\</"
+"literal>)."
 msgstr ""
 
 # automatic translation
@@ -269,8 +269,8 @@ msgid ""
 "The regular expression software will silently ignore escaping a character "
 "that does not have any special meaning in the context, so escaping for "
 "example a <quote>j</quote> (<userinput>\\j</userinput>) is safe. If you are "
-"in doubt whether a character could have a special meaning, you can therefore"
-" escape it safely."
+"in doubt whether a character could have a special meaning, you can therefore "
+"escape it safely."
 msgstr ""
 
 # automatic translation
@@ -317,15 +317,15 @@ msgstr ""
 #: regular-expressions.docbook:142
 #, no-c-format
 msgid ""
-"Because letters and digits have a logical order, you can abbreviate those by"
-" specifying ranges of them: <userinput>[a-c]</userinput> is equal to "
+"Because letters and digits have a logical order, you can abbreviate those by "
+"specifying ranges of them: <userinput>[a-c]</userinput> is equal to "
 "<userinput>[abc]</userinput> and <userinput>[0-9]</userinput> is equal to "
-"<userinput>[0123456789]</userinput>. Combining these constructs, for example"
-" <userinput>[a-fynot1-38]</userinput> is completely legal (the last one "
-"would match, of course, either of "
-"<quote>a</quote>,<quote>b</quote>,<quote>c</quote>,<quote>d</quote>, "
-"<quote>e</quote>,<quote>f</quote>,<quote>y</quote>,<quote>n</quote>,<quote>o</quote>,<quote>t</quote>,"
-" <quote>1</quote>,<quote>2</quote>,<quote>3</quote> or <quote>8</quote>)."
+"<userinput>[0123456789]</userinput>. Combining these constructs, for example "
+"<userinput>[a-fynot1-38]</userinput> is completely legal (the last one would "
+"match, of course, either of <quote>a</quote>,<quote>b</quote>,<quote>c</"
+"quote>,<quote>d</quote>, <quote>e</quote>,<quote>f</quote>,<quote>y</quote>,"
+"<quote>n</quote>,<quote>o</quote>,<quote>t</quote>, <quote>1</quote>,"
+"<quote>2</quote>,<quote>3</quote> or <quote>8</quote>)."
 msgstr ""
 
 # automatic translation
@@ -335,8 +335,8 @@ msgstr ""
 msgid ""
 "As capital letters are different characters from their non-capital "
 "equivalents, to create a caseless character class matching <quote>a</quote> "
-"or <quote>b</quote>, in any case, you need to write it "
-"<userinput>[aAbB]</userinput>."
+"or <quote>b</quote>, in any case, you need to write it <userinput>[aAbB]</"
+"userinput>."
 msgstr ""
 
 # automatic translation
@@ -354,9 +354,8 @@ msgstr ""
 #: regular-expressions.docbook:163
 #, no-c-format
 msgid ""
-"<userinput>[^abc]</userinput> will match any character "
-"<emphasis>but</emphasis> <quote>a</quote>, <quote>b</quote> or "
-"<quote>c</quote>."
+"<userinput>[^abc]</userinput> will match any character <emphasis>but</"
+"emphasis> <quote>a</quote>, <quote>b</quote> or <quote>c</quote>."
 msgstr ""
 
 # automatic translation
@@ -510,8 +509,8 @@ msgstr ""
 #: regular-expressions.docbook:223
 #, no-c-format
 msgid ""
-"This matches a non-digit. Equal to <literal>[^0-9]</literal> or "
-"<literal>[^\\d]</literal>"
+"This matches a non-digit. Equal to <literal>[^0-9]</literal> or <literal>[^"
+"\\d]</literal>"
 msgstr ""
 
 # automatic translation
@@ -526,8 +525,8 @@ msgstr ""
 #: regular-expressions.docbook:228
 #, no-c-format
 msgid ""
-"This matches a whitespace character. Practically equal to <literal>[ "
-"\\t\\n\\r]</literal>"
+"This matches a whitespace character. Practically equal to <literal>[ \\t\\n"
+"\\r]</literal>"
 msgstr ""
 
 # automatic translation
@@ -542,8 +541,8 @@ msgstr ""
 #: regular-expressions.docbook:233
 #, no-c-format
 msgid ""
-"This matches a non-whitespace. Practically equal to <literal>[^ "
-"\\t\\r\\n]</literal>, and equal to <literal>[^\\s]</literal>"
+"This matches a non-whitespace. Practically equal to <literal>[^ \\t\\r\\n]</"
+"literal>, and equal to <literal>[^\\s]</literal>"
 msgstr ""
 
 # automatic translation
@@ -575,8 +574,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Matches any non-word character - anything but letters, numbers or "
-"underscore. Equal to <literal>[^a-zA-Z0-9_]</literal> or "
-"<literal>[^\\w]</literal>"
+"underscore. Equal to <literal>[^a-zA-Z0-9_]</literal> or <literal>[^\\w]</"
+"literal>"
 msgstr ""
 
 # automatic translation
@@ -585,12 +584,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <emphasis>POSIX notation of classes</emphasis>, <userinput>[:&lt;class "
-"name&gt;:]</userinput> are also supported. For example, "
-"<userinput>[:digit:]</userinput> is equivalent to "
-"<userinput>\\d</userinput>, and <userinput>[:space:]</userinput> to "
-"<userinput>\\s</userinput>. See the full list of POSIX character classes "
-"<ulink url=\"https://www.regular-"
-"expressions.info/posixbrackets.html\">here</ulink>."
+"name&gt;:]</userinput> are also supported. For example, <userinput>[:"
+"digit:]</userinput> is equivalent to <userinput>\\d</userinput>, and "
+"<userinput>[:space:]</userinput> to <userinput>\\s</userinput>. See the full "
+"list of POSIX character classes <ulink url=\"https://www.regular-expressions."
+"info/posixbrackets.html\">here</ulink>."
 msgstr ""
 
 # automatic translation
@@ -616,8 +614,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The following characters has a special meaning inside the <quote>[]</quote> "
-"character class construct, and must be escaped to be literally included in a"
-" class:"
+"character class construct, and must be escaped to be literally included in a "
+"class:"
 msgstr ""
 
 # automatic translation
@@ -744,11 +742,11 @@ msgstr ""
 #: regular-expressions.docbook:323
 #, no-c-format
 msgid ""
-"For example to match either of the words <quote>int</quote>, "
-"<quote>float</quote> or <quote>double</quote>, you could use the pattern "
-"<userinput>int|float|double</userinput>. If you only want to find one if it "
-"is followed by some whitespace and then some letters, put the alternatives "
-"inside a subpattern: <userinput>(int|float|double)\\s+\\w+</userinput>."
+"For example to match either of the words <quote>int</quote>, <quote>float</"
+"quote> or <quote>double</quote>, you could use the pattern <userinput>int|"
+"float|double</userinput>. If you only want to find one if it is followed by "
+"some whitespace and then some letters, put the alternatives inside a "
+"subpattern: <userinput>(int|float|double)\\s+\\w+</userinput>."
 msgstr ""
 
 # automatic translation
@@ -763,10 +761,10 @@ msgstr ""
 #: regular-expressions.docbook:336
 #, no-c-format
 msgid ""
-"If you want to use a back reference, use a sub pattern "
-"<userinput>(PATTERN)</userinput> to have the desired part of the pattern "
-"remembered. To prevent the sub pattern from being remembered, use a non-"
-"capturing group <userinput>(?:PATTERN)</userinput>."
+"If you want to use a back reference, use a sub pattern <userinput>(PATTERN)</"
+"userinput> to have the desired part of the pattern remembered. To prevent "
+"the sub pattern from being remembered, use a non-capturing group "
+"<userinput>(?:PATTERN)</userinput>."
 msgstr ""
 
 # automatic translation
@@ -775,13 +773,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For example, if you want to find two occurrences of the same word separated "
-"by a comma and possibly some whitespace, you could write "
-"<userinput>(\\w+),\\s*\\1</userinput>. The sub pattern "
-"<literal>\\w+</literal> would find a chunk of word characters, and the "
-"entire expression would match if those were followed by a comma, 0 or more "
-"whitespace and then an equal chunk of word characters. (The string "
-"<literal>\\1</literal> references <emphasis>the first sub pattern enclosed "
-"in parentheses</emphasis>.)"
+"by a comma and possibly some whitespace, you could write <userinput>(\\w+),"
+"\\s*\\1</userinput>. The sub pattern <literal>\\w+</literal> would find a "
+"chunk of word characters, and the entire expression would match if those "
+"were followed by a comma, 0 or more whitespace and then an equal chunk of "
+"word characters. (The string <literal>\\1</literal> references <emphasis>the "
+"first sub pattern enclosed in parentheses</emphasis>.)"
 msgstr ""
 
 # automatic translation
@@ -790,9 +787,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To avoid ambiguities with usage of <userinput>\\1</userinput> with some "
-"digits behind it (&eg; <userinput>\\12</userinput> can be 12th subpattern or"
-" just the first subpattern with <userinput>2</userinput>) we use "
-"<userinput>\\{12}</userinput> as syntax for multi-digit subpatterns."
+"digits behind it (&eg; <userinput>\\12</userinput> can be 12th subpattern or "
+"just the first subpattern with <userinput>2</userinput>) we use <userinput>"
+"\\{12}</userinput> as syntax for multi-digit subpatterns."
 msgstr ""
 
 # automatic translation
@@ -830,8 +827,8 @@ msgstr ""
 #: regular-expressions.docbook:367
 #, no-c-format
 msgid ""
-"A lookahead assertion is a sub pattern, starting with either "
-"<literal>?=</literal> or <literal>?!</literal>."
+"A lookahead assertion is a sub pattern, starting with either <literal>?=</"
+"literal> or <literal>?!</literal>."
 msgstr ""
 
 # automatic translation
@@ -841,9 +838,9 @@ msgstr ""
 msgid ""
 "For example to match the literal string <quote>Bill</quote> but only if not "
 "followed by <quote> Gates</quote>, you could use this expression: "
-"<userinput>Bill(?! Gates)</userinput>. (This would find <quote>Bill "
-"Clinton</quote> as well as <quote>Billy the kid</quote>, but silently ignore"
-" the other matches.)"
+"<userinput>Bill(?! Gates)</userinput>. (This would find <quote>Bill Clinton</"
+"quote> as well as <quote>Billy the kid</quote>, but silently ignore the "
+"other matches.)"
 msgstr ""
 
 # automatic translation
@@ -872,8 +869,8 @@ msgstr ""
 #: regular-expressions.docbook:385
 #, no-c-format
 msgid ""
-"A lookbehind assertion is a sub pattern, starting with either "
-"<literal>?&lt;=</literal> or <literal>?&lt;!</literal>."
+"A lookbehind assertion is a sub pattern, starting with either <literal>?&lt;"
+"=</literal> or <literal>?&lt;!</literal>."
 msgstr ""
 
 # automatic translation
@@ -1225,8 +1222,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Matches the digits in <quote>1234 go</quote> and <quote>12345 now</quote>, "
-"but neither in <quote>567 eleven</quote> nor in <quote>223459 "
-"somewhere</quote>."
+"but neither in <quote>567 eleven</quote> nor in <quote>223459 somewhere</"
+"quote>."
 msgstr ""
 
 # automatic translation
@@ -1298,10 +1295,10 @@ msgstr ""
 msgid ""
 "An assertion does not need a character to match, it rather investigates the "
 "surroundings of a possible match before acknowledging it. For example the "
-"<emphasis>word boundary</emphasis> assertion does not try to find a non word"
-" character opposite a word one at its position, instead it makes sure that "
-"there is not a word character. This means that the assertion can match where"
-" there is no character, &ie; at the ends of a searched string."
+"<emphasis>word boundary</emphasis> assertion does not try to find a non word "
+"character opposite a word one at its position, instead it makes sure that "
+"there is not a word character. This means that the assertion can match where "
+"there is no character, &ie; at the ends of a searched string."
 msgstr ""
 
 # automatic translation
@@ -1341,9 +1338,9 @@ msgstr ""
 #: regular-expressions.docbook:615
 #, no-c-format
 msgid ""
-"The expression <userinput>^Peter</userinput> will match at "
-"<quote>Peter</quote> in the string <quote>Peter, hey!</quote> but not in "
-"<quote>Hey, Peter!</quote>"
+"The expression <userinput>^Peter</userinput> will match at <quote>Peter</"
+"quote> in the string <quote>Peter, hey!</quote> but not in <quote>Hey, Peter!"
+"</quote>"
 msgstr ""
 
 # automatic translation
@@ -1382,8 +1379,8 @@ msgstr ""
 #: regular-expressions.docbook:633
 #, no-c-format
 msgid ""
-"Matches if there is a word character at one side and not a word character at"
-" the other."
+"Matches if there is a word character at one side and not a word character at "
+"the other."
 msgstr ""
 
 # automatic translation
@@ -1435,9 +1432,9 @@ msgstr ""
 msgid ""
 "A lookahead assertion looks at the part of the string following a possible "
 "match. The positive lookahead will prevent the string from matching if the "
-"text following the possible match does not match the "
-"<emphasis>PATTERN</emphasis> of the assertion, but the text matched by that "
-"will not be included in the result."
+"text following the possible match does not match the <emphasis>PATTERN</"
+"emphasis> of the assertion, but the text matched by that will not be "
+"included in the result."
 msgstr ""
 
 # automatic translation
@@ -1463,8 +1460,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The negative lookahead prevents a possible match to be acknowledged if the "
-"following part of the searched string does match its "
-"<emphasis>PATTERN</emphasis>."
+"following part of the searched string does match its <emphasis>PATTERN</"
+"emphasis>."
 msgstr ""
 
 # automatic translation
@@ -1522,8 +1519,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The negative lookbehind prevents a possible match to be acknowledged if the "
-"previous part of the searched string does match its "
-"<emphasis>PATTERN</emphasis>."
+"previous part of the searched string does match its <emphasis>PATTERN</"
+"emphasis>."
 msgstr ""
 
 # automatic translation
@@ -1532,9 +1529,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The expression <userinput>(?&lt;![\\w\\.])[0-9]+</userinput> will match at "
-"<quote>123</quote> in the strings <quote>=123</quote> and "
-"<quote>-123</quote> while it can not match <quote>123</quote> in "
-"<quote>.123</quote> or <quote>word123</quote>."
+"<quote>123</quote> in the strings <quote>=123</quote> and <quote>-123</"
+"quote> while it can not match <quote>123</quote> in <quote>.123</quote> or "
+"<quote>word123</quote>."
 msgstr ""
 
 # automatic translation

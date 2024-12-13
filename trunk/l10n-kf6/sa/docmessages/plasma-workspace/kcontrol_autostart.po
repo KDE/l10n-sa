@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-04-29 00:32+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -89,10 +91,10 @@ msgstr ""
 #: index.docbook:30
 #, no-c-format
 msgid ""
-"This module is a configuration tool for managing what programs start up with"
-" your personal &plasma;. It allows you to add programs or scripts so they "
-"automatically run during startup or shutdown of your &plasma; session and to"
-" manage them."
+"This module is a configuration tool for managing what programs start up with "
+"your personal &plasma;. It allows you to add programs or scripts so they "
+"automatically run during startup or shutdown of your &plasma; session and to "
+"manage them."
 msgstr ""
 
 # automatic translation
@@ -108,12 +110,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The program scans <filename>$HOME/.config/autostart/</filename> for "
-"applications and login scripts, <filename "
-"class=\"directory\">$HOME/.config/plasma-workspace/env</filename> for pre-"
-"startup scripts and <filename class=\"directory\">$HOME/.config/plasma-"
-"workspace/shutdown</filename> for logout scripts to check what programs and "
-"scripts are already there and displays them. It allows you to manage them "
-"easily."
+"applications and login scripts, <filename class=\"directory\">$HOME/.config/"
+"plasma-workspace/env</filename> for pre-startup scripts and <filename class="
+"\"directory\">$HOME/.config/plasma-workspace/shutdown</filename> for logout "
+"scripts to check what programs and scripts are already there and displays "
+"them. It allows you to manage them easily."
 msgstr ""
 
 # automatic translation
@@ -131,13 +132,12 @@ msgstr ""
 #: index.docbook:40
 #, no-c-format
 msgid ""
-"Note that you can change the location of your <filename "
-"class=\"directory\">Autostart</filename> folder in "
-"<menuchoice><guimenu>Applications</guimenu> "
-"<guimenuitem>Locations</guimenuitem></menuchoice> in the "
+"Note that you can change the location of your <filename class=\"directory"
+"\">Autostart</filename> folder in <menuchoice><guimenu>Applications</"
+"guimenu> <guimenuitem>Locations</guimenuitem></menuchoice> in the "
 "<guilabel>Personalization</guilabel> category of the &systemsettings; and "
-"set a different folder than <filename "
-"class=\"directory\">$HOME/.config/autostart</filename>."
+"set a different folder than <filename class=\"directory\">$HOME/.config/"
+"autostart</filename>."
 msgstr ""
 
 # automatic translation
@@ -145,10 +145,10 @@ msgstr ""
 #: index.docbook:45
 #, no-c-format
 msgid ""
-"Please read also <ulink url=\"help:/kcontrol/kcmsmserver\">Desktop "
-"Session</ulink> and <ulink url=\"help:/kcontrol/kded\">Background "
-"Services</ulink> for information how to configure the startup behavior of "
-"your &plasma; session."
+"Please read also <ulink url=\"help:/kcontrol/kcmsmserver\">Desktop Session</"
+"ulink> and <ulink url=\"help:/kcontrol/kded\">Background Services</ulink> "
+"for information how to configure the startup behavior of your &plasma; "
+"session."
 msgstr ""
 
 # automatic translation
@@ -156,12 +156,12 @@ msgstr ""
 #: index.docbook:47
 #, no-c-format
 msgid ""
-"Some &kde; applications handle the autostart behavior on their own, &eg; you"
-" can enable or disable autostart of an application in the settings dialog "
-"(&kalarm;) or you have to use "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></menuchoice>"
-" (&konversation;, &kopete;), otherwise the application is still running in "
-"the systemtray and will be restarted on next login."
+"Some &kde; applications handle the autostart behavior on their own, &eg; you "
+"can enable or disable autostart of an application in the settings dialog "
+"(&kalarm;) or you have to use <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Quit</guimenuitem></menuchoice> (&konversation;, "
+"&kopete;), otherwise the application is still running in the systemtray and "
+"will be restarted on next login."
 msgstr ""
 
 # automatic translation
@@ -183,9 +183,8 @@ msgstr ""
 #: index.docbook:54
 #, no-c-format
 msgid ""
-"Copy desktop files from <filename "
-"class=\"directory\">$HOME/.kde/Autostart</filename> to <filename "
-"class=\"directory\">$HOME/.config/autostart</filename>"
+"Copy desktop files from <filename class=\"directory\">$HOME/.kde/Autostart</"
+"filename> to <filename class=\"directory\">$HOME/.config/autostart</filename>"
 msgstr ""
 
 # automatic translation
@@ -193,9 +192,9 @@ msgstr ""
 #: index.docbook:55
 #, no-c-format
 msgid ""
-"Copy pre startup script files from <filename "
-"class=\"directory\">$HOME/.kde/Autostart</filename> to <filename "
-"class=\"directory\">$HOME/.config/plasma-workspace/env</filename>"
+"Copy pre startup script files from <filename class=\"directory\">$HOME/.kde/"
+"Autostart</filename> to <filename class=\"directory\">$HOME/.config/plasma-"
+"workspace/env</filename>"
 msgstr ""
 
 # automatic translation
@@ -203,9 +202,9 @@ msgstr ""
 #: index.docbook:56
 #, no-c-format
 msgid ""
-"Copy shutdown script files from <filename "
-"class=\"directory\">$HOME/.kde/Autostart</filename> to <filename "
-"class=\"directory\">$HOME/.config/plasma-workspace/shutdown</filename>"
+"Copy shutdown script files from <filename class=\"directory\">$HOME/.kde/"
+"Autostart</filename> to <filename class=\"directory\">$HOME/.config/plasma-"
+"workspace/shutdown</filename>"
 msgstr ""
 
 # automatic translation
@@ -220,14 +219,13 @@ msgstr ""
 #: index.docbook:62
 #, no-c-format
 msgid ""
-"The correct way to disable an autostart item, for example the printer-applet"
-" if you use printer from time to time, is to copy its <filename "
-"class=\"extension\">.desktop</filename> file to your personal autostart "
-"folder. Anything of the same name in <filename "
-"class=\"directory\">$HOME/.config/autostart</filename> overrides the "
-"<filename class=\"extension\">.desktop</filename> file in the default "
-"package. Add the following line to the copied <filename "
-"class=\"extension\">.desktop</filename> file:"
+"The correct way to disable an autostart item, for example the printer-applet "
+"if you use printer from time to time, is to copy its <filename class="
+"\"extension\">.desktop</filename> file to your personal autostart folder. "
+"Anything of the same name in <filename class=\"directory\">$HOME/.config/"
+"autostart</filename> overrides the <filename class=\"extension\">.desktop</"
+"filename> file in the default package. Add the following line to the copied "
+"<filename class=\"extension\">.desktop</filename> file:"
 msgstr ""
 
 # automatic translation
@@ -283,9 +281,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This column shows the name of the program or script you want to start with "
-"&plasma;. The name is extracted from the <filename "
-"class=\"extension\">.desktop</filename> file from the "
-"<literal>Name</literal> key for a program and is the filename for a script."
+"&plasma;. The name is extracted from the <filename class=\"extension\">."
+"desktop</filename> file from the <literal>Name</literal> key for a program "
+"and is the filename for a script."
 msgstr ""
 
 # automatic translation
@@ -301,11 +299,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This button is only shown when you hover the item with the mouse pointer. "
-"The button (only enabled for programs and login scripts &ie; <filename "
-"class=\"extension\">.desktop</filename> files) allows you to change the "
-"properties of the program or script. You have general properties, "
-"permissions properties, a preview when applicable, and properties related to"
-" the application or login script. The default command is extracted from the "
+"The button (only enabled for programs and login scripts &ie; <filename class="
+"\"extension\">.desktop</filename> files) allows you to change the properties "
+"of the program or script. You have general properties, permissions "
+"properties, a preview when applicable, and properties related to the "
+"application or login script. The default command is extracted from the "
 "<filename class=\"extension\">.desktop</filename> file from the "
 "<literal>Exec</literal> key."
 msgstr ""
@@ -349,8 +347,8 @@ msgstr ""
 #: index.docbook:110
 #, no-c-format
 msgid ""
-"On the bottom, you have the combined <guibutton>Add...</guibutton> button to"
-" choose the type of item you want to add. You can add programs and login or "
+"On the bottom, you have the combined <guibutton>Add...</guibutton> button to "
+"choose the type of item you want to add. You can add programs and login or "
 "logout scripts."
 msgstr ""
 
@@ -368,8 +366,8 @@ msgstr ""
 msgid ""
 "Clicking this item displays the standard &plasma; <guilabel>Choose "
 "Application</guilabel> dialog and allows you to choose which program you "
-"want to start. After choosing the program, clicking "
-"<guibutton>OK</guibutton> brings you the properties for this program."
+"want to start. After choosing the program, clicking <guibutton>OK</"
+"guibutton> brings you the properties for this program."
 msgstr ""
 
 # automatic translation
@@ -377,8 +375,8 @@ msgstr ""
 #: index.docbook:120
 #, no-c-format
 msgid ""
-"This will copy the program <filename class=\"extension\">.desktop</filename>"
-" file in your <filename class=\"directory\">Autostart</filename> folder."
+"This will copy the program <filename class=\"extension\">.desktop</filename> "
+"file in your <filename class=\"directory\">Autostart</filename> folder."
 msgstr ""
 
 # automatic translation
@@ -394,10 +392,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This item opens a dialog that asks you for the location of the script you "
-"want to add. Scripts set to run on login will have a corresponding <filename"
-" class=\"extension\">.desktop</filename> file created in your <filename "
-"class=\"directory\">Autostart</filename> folder and will be run during "
-"Plasma startup."
+"want to add. Scripts set to run on login will have a corresponding <filename "
+"class=\"extension\">.desktop</filename> file created in your <filename class="
+"\"directory\">Autostart</filename> folder and will be run during Plasma "
+"startup."
 msgstr ""
 
 # automatic translation
@@ -414,7 +412,7 @@ msgstr ""
 msgid ""
 "This item opens a dialog that asks you for the location of the script you "
 "want to add. Scripts set on to be run on logout are copied or symlinked in "
-"the <filename class=\"directory\">$HOME/.config/plasma-"
-"workspace/shutdown</filename> directory and will be automatically run during"
-" &plasma; shutdown after the user has logged out."
+"the <filename class=\"directory\">$HOME/.config/plasma-workspace/shutdown</"
+"filename> directory and will be automatically run during &plasma; shutdown "
+"after the user has logged out."
 msgstr ""

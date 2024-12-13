@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -107,10 +109,9 @@ msgstr ""
 msgid ""
 "You may already have noticed that &kde; is very Internet friendly. For "
 "example, you can click on the <guimenuitem>Run</guimenuitem> menu item or "
-"type the keyboard shortcut assigned to that command (<keycombo "
-"action=\"simul\">&Alt;<keycap>F2</keycap></keycombo> or <keycombo "
-"action=\"simul\">&Alt;&Space;</keycombo>, unless you have changed it) and "
-"type in a &URI;."
+"type the keyboard shortcut assigned to that command (<keycombo action=\"simul"
+"\">&Alt;<keycap>F2</keycap></keycombo> or <keycombo action=\"simul\">&Alt;"
+"&Space;</keycombo>, unless you have changed it) and type in a &URI;."
 msgstr ""
 
 # automatic translation
@@ -119,8 +120,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Uniform Resource Identifier. A standardized way of referring to a resource "
-"such as a file on your computer, a World Wide Web address, an email address,"
-" &etc;"
+"such as a file on your computer, a World Wide Web address, an email address, "
+"&etc;"
 msgstr ""
 
 # automatic translation
@@ -129,13 +130,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Web shortcuts, on the other hand, let you come up with new pseudo &URL; "
-"schemes, or shortcuts, that basically let you "
-"<emphasis>parameterize</emphasis> commonly used &URI;s. For example, if you "
-"like the Google search engine, you can configure &kde; so that a pseudo "
-"&URL; scheme like <emphasis>gg</emphasis> will trigger a search on Google. "
-"This way, typing <userinput>gg:<replaceable>my "
-"query</replaceable></userinput> will search for <replaceable>my "
-"query</replaceable> on Google."
+"schemes, or shortcuts, that basically let you <emphasis>parameterize</"
+"emphasis> commonly used &URI;s. For example, if you like the Google search "
+"engine, you can configure &kde; so that a pseudo &URL; scheme like "
+"<emphasis>gg</emphasis> will trigger a search on Google. This way, typing "
+"<userinput>gg:<replaceable>my query</replaceable></userinput> will search "
+"for <replaceable>my query</replaceable> on Google."
 msgstr ""
 
 # automatic translation
@@ -145,8 +145,8 @@ msgstr ""
 msgid ""
 "One can see why we call these pseudo &URL; schemes. They are used like a "
 "&URL; scheme, but the input is not properly &URL; encoded, so one will type "
-"<userinput>google:kde apps</userinput> and not "
-"<userinput>google:kde+apps</userinput>."
+"<userinput>google:kde apps</userinput> and not <userinput>google:kde+apps</"
+"userinput>."
 msgstr ""
 
 # automatic translation
@@ -181,9 +181,9 @@ msgstr ""
 #: index.docbook:83
 #, no-c-format
 msgid ""
-"At the bottom of the list the option <guilabel>Enable Web search "
-"keywords</guilabel> has to be checked to enable this feature. Use the "
-"buttons on the right to create, modify or delete shortcuts."
+"At the bottom of the list the option <guilabel>Enable Web search keywords</"
+"guilabel> has to be checked to enable this feature. Use the buttons on the "
+"right to create, modify or delete shortcuts."
 msgstr ""
 
 # automatic translation
@@ -256,8 +256,8 @@ msgstr ""
 #: index.docbook:118
 #, no-c-format
 msgid ""
-"The text boxes are used not only for displaying information about an item in"
-" the list of web shortcuts, but also for modifying or adding new items."
+"The text boxes are used not only for displaying information about an item in "
+"the list of web shortcuts, but also for modifying or adding new items."
 msgstr ""
 
 # automatic translation
@@ -265,10 +265,10 @@ msgstr ""
 #: index.docbook:122
 #, no-c-format
 msgid ""
-"You can change the contents of either the <guilabel>Shortcut URL:</guilabel>"
-" or the <guilabel>Shortcuts:</guilabel> text box. Click "
-"<guibutton>OK</guibutton> to save your changes or "
-"<guibutton>Cancel</guibutton> to exit the dialog with no changes."
+"You can change the contents of either the <guilabel>Shortcut URL:</guilabel> "
+"or the <guilabel>Shortcuts:</guilabel> text box. Click <guibutton>OK</"
+"guibutton> to save your changes or <guibutton>Cancel</guibutton> to exit the "
+"dialog with no changes."
 msgstr ""
 
 # automatic translation
@@ -277,13 +277,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you examine the contents of the <guilabel>Shortcut URL:</guilabel> text "
-"box, you will find that most, if not all of the entries have a "
-"<option>\\{@}</option> in them. This sequence of four characters acts as a "
-"parameter, which is to say that they are replaced by whatever you happen to "
-"type after the colon character that is between a shortcut and its parameter."
-" To add this query placeholder to a shortcut &URL;, click on the button at "
-"the right of the text box. Let's consider some examples to clarify how to "
-"use web shortcuts."
+"box, you will find that most, if not all of the entries have a <option>\\{@}"
+"</option> in them. This sequence of four characters acts as a parameter, "
+"which is to say that they are replaced by whatever you happen to type after "
+"the colon character that is between a shortcut and its parameter. To add "
+"this query placeholder to a shortcut &URL;, click on the button at the right "
+"of the text box. Let's consider some examples to clarify how to use web "
+"shortcuts."
 msgstr ""
 
 # automatic translation
@@ -291,17 +291,16 @@ msgstr ""
 #: index.docbook:137
 #, no-c-format
 msgid ""
-"Suppose that the &URI; is "
-"<userinput>https://www.google.com/search?q=\\{@}</userinput>, and "
-"<userinput>gg</userinput> is a shortcut to this &URI;. Then, typing "
-"<userinput>gg:<replaceable>alpha</replaceable></userinput> is equivalent to "
-"<userinput>https://www.google.com/search?q=<replaceable>alpha</replaceable></userinput>."
-" You could type anything after the <userinput>:</userinput> character; "
-"whatever you have typed simply replaces the <option>\\{@}</option> "
-"characters, after being converted to the appropriate character set for the "
-"search provider and then properly &URL;-encoded. Only the "
-"<option>\\{@}</option> part of the search &URI; is touched, the rest of it "
-"is supposed to be properly &URL;-encoded already and is left as is."
+"Suppose that the &URI; is <userinput>https://www.google.com/search?q=\\{@}</"
+"userinput>, and <userinput>gg</userinput> is a shortcut to this &URI;. Then, "
+"typing <userinput>gg:<replaceable>alpha</replaceable></userinput> is "
+"equivalent to <userinput>https://www.google.com/search?q=<replaceable>alpha</"
+"replaceable></userinput>. You could type anything after the <userinput>:</"
+"userinput> character; whatever you have typed simply replaces the <option>"
+"\\{@}</option> characters, after being converted to the appropriate "
+"character set for the search provider and then properly &URL;-encoded. Only "
+"the <option>\\{@}</option> part of the search &URI; is touched, the rest of "
+"it is supposed to be properly &URL;-encoded already and is left as is."
 msgstr ""
 
 # automatic translation
@@ -311,10 +310,10 @@ msgstr ""
 msgid ""
 "You can also have shortcuts without parameters. Suppose the &URI; was "
 "<emphasis>file:/home/me/mydocs/calligra/words</emphasis> and the shortcut "
-"was <emphasis>mywords</emphasis>. Then, typing "
-"<userinput>mywords:</userinput> is the same as typing the complete &URI;. "
-"Note that there is nothing after the colon when typing the shortcut, but the"
-" colon is still required in order for the shortcut to be recognized as such."
+"was <emphasis>mywords</emphasis>. Then, typing <userinput>mywords:</"
+"userinput> is the same as typing the complete &URI;. Note that there is "
+"nothing after the colon when typing the shortcut, but the colon is still "
+"required in order for the shortcut to be recognized as such."
 msgstr ""
 
 # automatic translation
@@ -322,9 +321,9 @@ msgstr ""
 #: index.docbook:162
 #, no-c-format
 msgid ""
-"By now, you will have understood that even though these shortcuts are called"
-" web shortcuts, they really are shortcuts to parameterized &URI;s, which can"
-" point not only to web sites like search engines but also to anything else "
-"that can be pointed to by a &URI;. Web shortcuts are a very powerful feature"
-" of navigation in &kde;."
+"By now, you will have understood that even though these shortcuts are called "
+"web shortcuts, they really are shortcuts to parameterized &URI;s, which can "
+"point not only to web sites like search engines but also to anything else "
+"that can be pointed to by a &URI;. Web shortcuts are a very powerful feature "
+"of navigation in &kde;."
 msgstr ""

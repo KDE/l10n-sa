@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-04 00:47+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -62,19 +64,17 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<command>kate</command> <group choice=\"opt\"><option>-s, --start</option> "
-"<replaceable> name</replaceable> </group> <group "
-"choice=\"opt\"><option>--startanon</option></group> <group "
-"choice=\"opt\"><option>-n, --new</option></group> <group "
-"choice=\"opt\"><option>-b, --block</option></group> <group "
-"choice=\"opt\"><option>-p, --pid</option><replaceable> "
-"pid</replaceable></group> <group choice=\"opt\"><option>-e, "
-"--encoding</option> <replaceable> name</replaceable></group> <group "
-"choice=\"opt\"><option>-l, --line</option> <replaceable> "
-"line</replaceable></group> <group choice=\"opt\"><option>-c, "
-"--column</option> <replaceable> column</replaceable></group> <group "
-"choice=\"opt\"><option>-i, --stdin</option></group> <group "
-"choice=\"opt\"><option>--tempfile</option></group> <group "
-"choice=\"opt\"><option><replaceable>file</replaceable></option></group>"
+"<replaceable> name</replaceable> </group> <group choice=\"opt\"><option>--"
+"startanon</option></group> <group choice=\"opt\"><option>-n, --new</option></"
+"group> <group choice=\"opt\"><option>-b, --block</option></group> <group "
+"choice=\"opt\"><option>-p, --pid</option><replaceable> pid</replaceable></"
+"group> <group choice=\"opt\"><option>-e, --encoding</option> <replaceable> "
+"name</replaceable></group> <group choice=\"opt\"><option>-l, --line</option> "
+"<replaceable> line</replaceable></group> <group choice=\"opt\"><option>-c, --"
+"column</option> <replaceable> column</replaceable></group> <group choice="
+"\"opt\"><option>-i, --stdin</option></group> <group choice=\"opt\"><option>--"
+"tempfile</option></group> <group choice=\"opt\"><option><replaceable>file</"
+"replaceable></option></group>"
 msgstr ""
 
 # automatic translation
@@ -107,8 +107,8 @@ msgstr ""
 msgid ""
 "Some of &kate;'s many features include configurable syntax highlighting for "
 "languages ranging from C and C++ to &HTML; to bash scripts, the ability to "
-"create and maintain projects, a multiple document interface "
-"(<acronym>MDI</acronym>), and a self-contained terminal emulator."
+"create and maintain projects, a multiple document interface (<acronym>MDI</"
+"acronym>), and a self-contained terminal emulator."
 msgstr ""
 
 # automatic translation
@@ -133,8 +133,7 @@ msgstr ""
 #: man-kate.1.docbook:73
 #, no-c-format
 msgid ""
-"<option>-s</option>, <option>--start</option> "
-"<replaceable>name</replaceable>"
+"<option>-s</option>, <option>--start</option> <replaceable>name</replaceable>"
 msgstr ""
 
 # automatic translation
@@ -155,8 +154,7 @@ msgstr ""
 #. Tag: para
 #: man-kate.1.docbook:78
 #, no-c-format
-msgid ""
-"Start &kate; with a new anonymous session, implies <option>-n</option>."
+msgid "Start &kate; with a new anonymous session, implies <option>-n</option>."
 msgstr ""
 
 # automatic translation
@@ -204,8 +202,8 @@ msgstr ""
 #: man-kate.1.docbook:94
 #, no-c-format
 msgid ""
-"Only try to reuse kate instance with this <replaceable>pid</replaceable> (is"
-" ignored if <option>start</option> is used and another &kate; instance "
+"Only try to reuse kate instance with this <replaceable>pid</replaceable> (is "
+"ignored if <option>start</option> is used and another &kate; instance "
 "already has the given session opened)."
 msgstr ""
 
@@ -315,10 +313,10 @@ msgstr ""
 #: man-kate.1.docbook:136
 #, no-c-format
 msgid ""
-"More detailed user documentation is available from <ulink "
-"url=\"help:/kate\">help:/kate</ulink> (either enter this &URL; into "
-"&konqueror;, or run <userinput><command>khelpcenter</command> "
-"<parameter>help:/kate</parameter></userinput>)."
+"More detailed user documentation is available from <ulink url=\"help:/kate"
+"\">help:/kate</ulink> (either enter this &URL; into &konqueror;, or run "
+"<userinput><command>khelpcenter</command> <parameter>help:/kate</parameter></"
+"userinput>)."
 msgstr ""
 
 # automatic translation
@@ -340,8 +338,8 @@ msgstr ""
 #: man-kate.1.docbook:143
 #, no-c-format
 msgid ""
-"There is also further information available at the <ulink "
-"url=\"https://kate-editor.org/\">&kate; website</ulink>."
+"There is also further information available at the <ulink url=\"https://kate-"
+"editor.org/\">&kate; website</ulink>."
 msgstr ""
 
 # automatic translation
@@ -365,8 +363,8 @@ msgstr ""
 #: man-kate.1.docbook:153
 #, no-c-format
 msgid ""
-"<userinput><command>kate</command> <option>-c 15</option> <option>-l "
-"25</option> <filename>source.cpp</filename></userinput>"
+"<userinput><command>kate</command> <option>-c 15</option> <option>-l 25</"
+"option> <filename>source.cpp</filename></userinput>"
 msgstr ""
 
 # automatic translation
@@ -374,12 +372,12 @@ msgstr ""
 #: man-kate.1.docbook:155
 #, no-c-format
 msgid ""
-"If you have an active internet connection, you can take advantage of &kde;'s"
-" network transparency to open a file from an &FTP; site. If you do not have "
-"write permission on the remote server, the file will be opened read only and"
-" you will be prompted for a local filename to save to if you make changes. "
-"If you do have write permission, changes will be saved transparently over "
-"the network."
+"If you have an active internet connection, you can take advantage of &kde;'s "
+"network transparency to open a file from an &FTP; site. If you do not have "
+"write permission on the remote server, the file will be opened read only and "
+"you will be prompted for a local filename to save to if you make changes. If "
+"you do have write permission, changes will be saved transparently over the "
+"network."
 msgstr ""
 
 # automatic translation
@@ -387,8 +385,8 @@ msgstr ""
 #: man-kate.1.docbook:161
 #, no-c-format
 msgid ""
-"<userinput><command>kate</command> <option><replaceable>&kde-"
-"ftp;README</replaceable></option></userinput>"
+"<userinput><command>kate</command> <option><replaceable>&kde-ftp;README</"
+"replaceable></option></userinput>"
 msgstr ""
 
 # automatic translation

@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-10 01:00+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -32,9 +34,9 @@ msgstr ""
 #: importexport.docbook:18
 #, no-c-format
 msgid ""
-"&kphotoalbum; allows you to export a set of your images into a <literal "
-"role=\"extension\">.kim</literal> file, which other people may import into "
-"their database, to get your classification for these images."
+"&kphotoalbum; allows you to export a set of your images into a <literal role="
+"\"extension\">.kim</literal> file, which other people may import into their "
+"database, to get your classification for these images."
 msgstr ""
 
 # automatic translation
@@ -45,8 +47,8 @@ msgid ""
 "Two different kind of <literal role=\"extension\">.kim</literal> files "
 "exists, inlines or externals, referring to whether the images them self are "
 "located in the file or at some other location. Placing the images in the "
-"file has the obvious advantage that the file is self contained, while it has"
-" the equally obvious disadvantage of the file being rather big."
+"file has the obvious advantage that the file is self contained, while it has "
+"the equally obvious disadvantage of the file being rather big."
 msgstr ""
 
 # automatic translation
@@ -54,13 +56,12 @@ msgstr ""
 #: importexport.docbook:29
 #, no-c-format
 msgid ""
-"There are two places from which you may generate a <literal "
-"role=\"extension\">.kim</literal> file, namely directly from "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Export...</guimenuitem></menuchoice>,"
-" or along with &HTML; pages (see <xref linkend=\"chp-generating-html\"/>). "
-"Creating a <literal role=\"extension\">.kim</literal> file during &HTML; "
-"export will create an external <literal role=\"extension\">.kim</literal> "
-"file."
+"There are two places from which you may generate a <literal role=\"extension"
+"\">.kim</literal> file, namely directly from <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Export...</guimenuitem></menuchoice>, or along with "
+"&HTML; pages (see <xref linkend=\"chp-generating-html\"/>). Creating a "
+"<literal role=\"extension\">.kim</literal> file during &HTML; export will "
+"create an external <literal role=\"extension\">.kim</literal> file."
 msgstr ""
 
 # automatic translation
@@ -71,10 +72,10 @@ msgid ""
 "External <literal role=\"extension\">.kim</literal> files will search for "
 "images in one of two ways. First it will try to look for the images next to "
 "the <literal role=\"extension\">.kim</literal> file, and if not found, it "
-"will search for them at the URL specified when the <literal "
-"role=\"extension\">.kim</literal> file was created. Notice the later is only"
-" possible for <literal role=\"extension\">.kim</literal> files created "
-"during &HTML; export."
+"will search for them at the URL specified when the <literal role=\"extension"
+"\">.kim</literal> file was created. Notice the later is only possible for "
+"<literal role=\"extension\">.kim</literal> files created during &HTML; "
+"export."
 msgstr ""
 
 # automatic translation
@@ -90,8 +91,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "This section will tell you about the export dialog which you get to from "
-"<menuchoice><guimenu>File</guimenu> "
-"<guimenuitem>Export...</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>File</guimenu> <guimenuitem>Export...</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -109,8 +110,8 @@ msgstr ""
 #: importexport.docbook:55
 #, no-c-format
 msgid ""
-"Include in <literal role=\"extension\">.kim</literal> file - this will be an"
-" internal file"
+"Include in <literal role=\"extension\">.kim</literal> file - this will be an "
+"internal file"
 msgstr ""
 
 # automatic translation
@@ -139,8 +140,8 @@ msgid ""
 "Between you and me, <literal role=\"extension\">.kim</literal> files are "
 "really just zip files. Normally it is not worth bothering compressing the "
 "files because images normally are compressed JPEG already, and the XML file "
-"itself are really tiny. If you really want to squish out the last few bytes,"
-" you may still do so, by checking <guilabel>Compress Export File</guilabel>"
+"itself are really tiny. If you really want to squish out the last few bytes, "
+"you may still do so, by checking <guilabel>Compress Export File</guilabel>"
 msgstr ""
 
 # automatic translation
@@ -148,12 +149,11 @@ msgstr ""
 #: importexport.docbook:71
 #, no-c-format
 msgid ""
-"The final option on the page are <guilabel>Limit maximum image "
-"dimension</guilabel>. When sending some images to some friends, you may not "
-"want to send images in full size, as the <literal "
-"role=\"extension\">.kim</literal> file might be huge. For this, you may "
-"specify that the maximum dimension of images should be say maximum 800 "
-"pixels in each direction."
+"The final option on the page are <guilabel>Limit maximum image dimension</"
+"guilabel>. When sending some images to some friends, you may not want to "
+"send images in full size, as the <literal role=\"extension\">.kim</literal> "
+"file might be huge. For this, you may specify that the maximum dimension of "
+"images should be say maximum 800 pixels in each direction."
 msgstr ""
 
 # automatic translation
@@ -168,11 +168,10 @@ msgstr ""
 #: importexport.docbook:85
 #, no-c-format
 msgid ""
-"When you select a <literal role=\"extension\">.kim</literal> file from a web"
-" browser, or choose "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Import...</guimenuitem></menuchoice>,"
-" &kphotoalbum; will import the database exported with the functionality "
-"described in <xref linkend=\"chp-importExport\"/>."
+"When you select a <literal role=\"extension\">.kim</literal> file from a web "
+"browser, or choose <menuchoice><guimenu>File</guimenu><guimenuitem>Import..."
+"</guimenuitem></menuchoice>, &kphotoalbum; will import the database exported "
+"with the functionality described in <xref linkend=\"chp-importExport\"/>."
 msgstr ""
 
 # automatic translation
@@ -180,8 +179,8 @@ msgstr ""
 #: importexport.docbook:91
 #, no-c-format
 msgid ""
-"The import wizard consist of four steps. First you must specify which images"
-" you want to import. Next you must specify in which directory to put the "
+"The import wizard consist of four steps. First you must specify which images "
+"you want to import. Next you must specify in which directory to put the "
 "imported images."
 msgstr ""
 
@@ -222,9 +221,9 @@ msgstr ""
 msgid ""
 "In the screen shot you may see that Donna is the same in both the .kim file "
 "and in my database - the name is shown in black to indicate a perfect match "
-"in the database. The other three names was not found in the database, though"
-" both Jesper and Anne Helene was found matching as substring, so these are "
-"suggested. Finally in my database I didn't have Spiff (or I might have named"
-" it quite differently), so &kphotoalbum; simply suggest Spiff for the import"
-" name."
+"in the database. The other three names was not found in the database, though "
+"both Jesper and Anne Helene was found matching as substring, so these are "
+"suggested. Finally in my database I didn't have Spiff (or I might have named "
+"it quite differently), so &kphotoalbum; simply suggest Spiff for the import "
+"name."
 msgstr ""

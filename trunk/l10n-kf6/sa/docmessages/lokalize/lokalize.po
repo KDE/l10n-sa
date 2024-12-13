@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-11 01:51+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -175,8 +177,8 @@ msgstr ""
 #: index.docbook:62
 #, no-c-format
 msgid ""
-"Every internationalization-aware program makes available for translation one"
-" or more message-catalog files. The extension of these files is <filename "
+"Every internationalization-aware program makes available for translation one "
+"or more message-catalog files. The extension of these files is <filename "
 "class=\"extension\">.pot</filename>. <acronym>POT</acronym> is an acronym "
 "for <quote>Portable Object Template</quote>. &lokalize; is an advanced and "
 "easy to use PO file (&GNU; gettext message catalogs) editor. It is a "
@@ -184,8 +186,8 @@ msgid ""
 "using the &kde; Platform 4 framework. Aside from basic editing of PO files "
 "with nifty auxiliary details, it integrates support for glossary, "
 "translation memory, diff-modes for QA, project managing, &etc; It has many "
-"features like full navigation capabilities, extensive editing functionality,"
-" search functions, syntax checking and statistics functions."
+"features like full navigation capabilities, extensive editing functionality, "
+"search functions, syntax checking and statistics functions."
 msgstr ""
 
 # automatic translation
@@ -257,17 +259,17 @@ msgstr ""
 #: index.docbook:93
 #, no-c-format
 msgid ""
-"Translation files are opened in separate tabs, with two big multi-line edits"
-" as well as a bunch of <emphasis>tool views</emphasis>. These views can be "
+"Translation files are opened in separate tabs, with two big multi-line edits "
+"as well as a bunch of <emphasis>tool views</emphasis>. These views can be "
 "stacked (similar to tabs), shown separately, or hidden. Translation files "
 "consist of many English-target pairs called <emphasis>units</emphasis>. A "
 "<emphasis>unit</emphasis> typically correspond to a single string in the "
 "user interface, or one paragraph in the documentation. The purpose of the "
 "first multi-line edit is to display the original part of the pair. The "
-"purpose of the second multi-line edit is to display the translation. You can"
-" navigate through the <emphasis>units</emphasis> via the "
-"<guilabel>Translation Units</guilabel> view or by using <keycap>Page "
-"Down</keycap> and <keycap>Page Up</keycap>."
+"purpose of the second multi-line edit is to display the translation. You can "
+"navigate through the <emphasis>units</emphasis> via the "
+"<guilabel>Translation Units</guilabel> view or by using <keycap>Page Down</"
+"keycap> and <keycap>Page Up</keycap>."
 msgstr ""
 
 # automatic translation
@@ -275,20 +277,19 @@ msgstr ""
 #: index.docbook:102
 #, no-c-format
 msgid ""
-"A unit may be <emphasis>translated</emphasis> or "
-"<emphasis>untranslated</emphasis>. A translation of a translated unit may be"
-" <emphasis>ready</emphasis> or <emphasis>not ready</emphasis> (also called "
-"<emphasis>fuzzy</emphasis> sometimes). If the unit is not ready, its "
-"translation is rendered in italics. &lokalize; allows you to easily navigate"
-" through the file according to the state of their translation. See "
-"<guilabel>Go</guilabel> menu for the shortcuts. The status bar at the bottom"
-" of the window shows the current string number, total number of strings, "
-"total untranslated strings, total not ready (fuzzy) strings and status of "
-"the current string respectively. When navigating, untranslated units are "
-"treated as not ready. Also, you may use the filtering feature of "
-"<guilabel>Translation Units</guilabel> toolview. Pressing <keycap>Page "
-"Down</keycap> actually takes you to the next unit in filtered/sorted list of"
-" that tool view."
+"A unit may be <emphasis>translated</emphasis> or <emphasis>untranslated</"
+"emphasis>. A translation of a translated unit may be <emphasis>ready</"
+"emphasis> or <emphasis>not ready</emphasis> (also called <emphasis>fuzzy</"
+"emphasis> sometimes). If the unit is not ready, its translation is rendered "
+"in italics. &lokalize; allows you to easily navigate through the file "
+"according to the state of their translation. See <guilabel>Go</guilabel> "
+"menu for the shortcuts. The status bar at the bottom of the window shows the "
+"current string number, total number of strings, total untranslated strings, "
+"total not ready (fuzzy) strings and status of the current string "
+"respectively. When navigating, untranslated units are treated as not ready. "
+"Also, you may use the filtering feature of <guilabel>Translation Units</"
+"guilabel> toolview. Pressing <keycap>Page Down</keycap> actually takes you "
+"to the next unit in filtered/sorted list of that tool view."
 msgstr ""
 
 # automatic translation
@@ -296,13 +297,13 @@ msgstr ""
 #: index.docbook:111
 #, no-c-format
 msgid ""
-"To ease up translation of the console applications where spacers in messages"
-" are important you can check the <guilabel>Visualize separators such as "
+"To ease up translation of the console applications where spacers in messages "
+"are important you can check the <guilabel>Visualize separators such as "
 "spaces, tabs and new lines in the editor</guilabel> item on the page "
-"<guilabel>Editing</guilabel> of the configuration window which can be opened"
-" by choosing the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&lokalize;...</guimenuitem></menuchoice> main menu item."
+"<guilabel>Editing</guilabel> of the configuration window which can be opened "
+"by choosing the <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &lokalize;...</guimenuitem></menuchoice> main "
+"menu item."
 msgstr ""
 
 # automatic translation
@@ -314,9 +315,8 @@ msgid ""
 "common practice on some commercial translation projects) then you can use a "
 "translation file from the related language. Just choose the "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Clear all translated "
-"entries</guimenuitem></menuchoice> menu item or use "
-"<keycombo>&Ctrl;&Alt;<keycap>D</keycap></keycombo> shortcut to clear all "
-"translation units."
+"entries</guimenuitem></menuchoice> menu item or use <keycombo>&Ctrl;&Alt;"
+"<keycap>D</keycap></keycombo> shortcut to clear all translation units."
 msgstr ""
 
 # automatic translation
@@ -327,9 +327,8 @@ msgid ""
 "To the main window one can add many more sections like <guilabel>Alternate "
 "Translations</guilabel>, <guilabel>Primary Sync</guilabel>, "
 "<guilabel>Secondary Sync</guilabel>, <guilabel>Binary Units</guilabel> by "
-"using "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Toolviews</guimenuitem></menuchoice>"
-" from the main menu."
+"using <menuchoice><guimenu>Settings</guimenu><guimenuitem>Toolviews</"
+"guimenuitem></menuchoice> from the main menu."
 msgstr ""
 
 # automatic translation
@@ -345,8 +344,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can add or remove actions in the toolbars using "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"Toolbars...</guimenuitem></menuchoice> from the main menu."
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Toolbars...</"
+"guimenuitem></menuchoice> from the main menu."
 msgstr ""
 
 # automatic translation
@@ -368,9 +367,8 @@ msgstr ""
 #: index.docbook:138
 #, no-c-format
 msgid ""
-"For more information read the section about <ulink "
-"url=\"help:/fundamentals/config.html#toolbars\">Toolbars</ulink> of the "
-"&kde; Fundamentals."
+"For more information read the section about <ulink url=\"help:/fundamentals/"
+"config.html#toolbars\">Toolbars</ulink> of the &kde; Fundamentals."
 msgstr ""
 
 # automatic translation
@@ -386,9 +384,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can save time by using shortcut keys during translation. To configure "
-"shortcut keys, use "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"Shortcuts...</guimenuitem></menuchoice> from the main menu."
+"shortcut keys, use <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure Shortcuts...</guimenuitem></menuchoice> from "
+"the main menu."
 msgstr ""
 
 # automatic translation
@@ -410,9 +408,8 @@ msgstr ""
 #: index.docbook:157
 #, no-c-format
 msgid ""
-"For more information read the section about <ulink "
-"url=\"help:/fundamentals/config.html#shortcuts\">Shortcuts</ulink> of the "
-"&kde; Fundamentals."
+"For more information read the section about <ulink url=\"help:/fundamentals/"
+"config.html#shortcuts\">Shortcuts</ulink> of the &kde; Fundamentals."
 msgstr ""
 
 # automatic translation
@@ -430,9 +427,9 @@ msgid ""
 "If you are doing translations for &kde;, then either you will already have "
 "&lokalize; project file in your language folder (usually named "
 "<filename>index.lokalize</filename>), or you can select "
-"<menuchoice><guimenu>Project</guimenu><guimenuitem>Create new "
-"project</guimenuitem></menuchoice> and the wizard will download translation "
-"files for your language and will create project for you."
+"<menuchoice><guimenu>Project</guimenu><guimenuitem>Create new project</"
+"guimenuitem></menuchoice> and the wizard will download translation files for "
+"your language and will create project for you."
 msgstr ""
 
 # automatic translation
@@ -440,8 +437,8 @@ msgstr ""
 #: index.docbook:169
 #, no-c-format
 msgid ""
-"It is recommended that you get used to the keyboard shortcuts instead of the"
-" menus and toolbars for increased productivity. For example, use the "
+"It is recommended that you get used to the keyboard shortcuts instead of the "
+"menus and toolbars for increased productivity. For example, use the "
 "<keycombo>&Ctrl;<keycap>L</keycap></keycombo> to focus <guilabel>Quick "
 "search</guilabel> input line to filter the unit list in "
 "<guilabel>Translation Units</guilabel> view. Once you are done, press "
@@ -456,8 +453,8 @@ msgid ""
 "If you are working with translation files in XLIFF format (definitely the "
 "case when you translate OpenDocument), then extended states are available "
 "(<emphasis>new</emphasis>, <emphasis>needs review</emphasis>, "
-"<emphasis>approved</emphasis>, &etc;). You may select them in drop-down menu"
-" of <guilabel>Approved</guilabel> button in the toolbar. Classification of "
+"<emphasis>approved</emphasis>, &etc;). You may select them in drop-down menu "
+"of <guilabel>Approved</guilabel> button in the toolbar. Classification of "
 "the state as <emphasis>ready</emphasis> or <emphasis>not ready</emphasis> "
 "depends on the current <emphasis>workflow phase</emphasis> "
 "(<emphasis>translation</emphasis>, <emphasis>review</emphasis>, "
@@ -489,11 +486,10 @@ msgid ""
 "The projects are one of the main concepts in &lokalize;. A project is "
 "represented by a file that contains paths, folders with translations, "
 "templates, and other files: glossary file, automation scripts, translation "
-"memories. Whenever &lokalize; opens a file without a project loaded, it will"
-" search for a project file in the parent folders (up to four levels). "
-"Alternatively, you can specify the project file via the "
-"<userinput>--project</userinput> flag when starting &lokalize; from the "
-"command line."
+"memories. Whenever &lokalize; opens a file without a project loaded, it will "
+"search for a project file in the parent folders (up to four levels). "
+"Alternatively, you can specify the project file via the <userinput>--"
+"project</userinput> flag when starting &lokalize; from the command line."
 msgstr ""
 
 # automatic translation
@@ -501,10 +497,10 @@ msgstr ""
 #: index.docbook:204
 #, no-c-format
 msgid ""
-"For each project you select your role in it "
-"(<emphasis>translator</emphasis>, <emphasis>reviewer</emphasis>, "
-"<emphasis>approver</emphasis>), which in turn affects the workflow phase "
-"&lokalize; automatically picks up for files you edit."
+"For each project you select your role in it (<emphasis>translator</"
+"emphasis>, <emphasis>reviewer</emphasis>, <emphasis>approver</emphasis>), "
+"which in turn affects the workflow phase &lokalize; automatically picks up "
+"for files you edit."
 msgstr ""
 
 # automatic translation
@@ -555,13 +551,13 @@ msgstr ""
 #: index.docbook:228
 #, no-c-format
 msgid ""
-"To create a new project, use "
-"<menuchoice><guimenu>Project</guimenu><guimenuitem>Create new "
-"project</guimenuitem></menuchoice>. This will guide through the steps to "
-"create a new project. In <guimenu>Project</guimenu> menu you can also find "
-"options like <guimenuitem>Project overview</guimenuitem>, "
-"<guimenuitem>Configure project</guimenuitem>, <guimenuitem>Open "
-"project</guimenuitem>, and <guimenuitem>Open recent project</guimenuitem>."
+"To create a new project, use <menuchoice><guimenu>Project</"
+"guimenu><guimenuitem>Create new project</guimenuitem></menuchoice>. This "
+"will guide through the steps to create a new project. In <guimenu>Project</"
+"guimenu> menu you can also find options like <guimenuitem>Project overview</"
+"guimenuitem>, <guimenuitem>Configure project</guimenuitem>, "
+"<guimenuitem>Open project</guimenuitem>, and <guimenuitem>Open recent "
+"project</guimenuitem>."
 msgstr ""
 
 # automatic translation
@@ -584,9 +580,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>Project Overview</guilabel> tab displays a file tree with "
-"statistics for a current project, such as the percentage of translated units"
-" completed and the last translator. It allows you to open a selected file in"
-" a new tab of the current &lokalize; window."
+"statistics for a current project, such as the percentage of translated units "
+"completed and the last translator. It allows you to open a selected file in "
+"a new tab of the current &lokalize; window."
 msgstr ""
 
 # automatic translation
@@ -596,8 +592,8 @@ msgstr ""
 msgid ""
 "You can switch off the completely translated files from the "
 "<guilabel>Project Overview</guilabel> using the <guibutton>Hide completed "
-"items</guibutton> button on the main toolbar or "
-"<keycombo>&Ctrl;<keycap>T</keycap></keycombo> default shortcut."
+"items</guibutton> button on the main toolbar or <keycombo>&Ctrl;<keycap>T</"
+"keycap></keycombo> default shortcut."
 msgstr ""
 
 # automatic translation
@@ -605,16 +601,16 @@ msgstr ""
 #: index.docbook:254
 #, no-c-format
 msgid ""
-"When you start &lokalize; the next time it will show the last opened file by"
-" default. You can switch off this behavior with the <guilabel>Restore the "
+"When you start &lokalize; the next time it will show the last opened file by "
+"default. You can switch off this behavior with the <guilabel>Restore the "
 "previously opened files when opening &lokalize;</guilabel> item on the page "
-"<guilabel>General</guilabel> of the configuration window which can be opened"
-" by choosing the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&lokalize;...</guimenuitem></menuchoice> main menu item. The same page can "
-"be used to configure &lokalize; behavior when you switch to the "
-"next/previous tab in it. It is possible to go through the tab list according"
-" to the tab positions or according to their activation order."
+"<guilabel>General</guilabel> of the configuration window which can be opened "
+"by choosing the <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &lokalize;...</guimenuitem></menuchoice> main "
+"menu item. The same page can be used to configure &lokalize; behavior when "
+"you switch to the next/previous tab in it. It is possible to go through the "
+"tab list according to the tab positions or according to their activation "
+"order."
 msgstr ""
 
 # automatic translation
@@ -676,13 +672,12 @@ msgstr ""
 #: index.docbook:294
 #, no-c-format
 msgid ""
-"The <guilabel>Translation Memory</guilabel> view allows you to drag and drop"
-" a folder with translation files from say &dolphin; into the view, and then,"
-" within few minutes, translation suggestions will be shown automatically on "
+"The <guilabel>Translation Memory</guilabel> view allows you to drag and drop "
+"a folder with translation files from say &dolphin; into the view, and then, "
+"within few minutes, translation suggestions will be shown automatically on "
 "the unit switch. To insert the translation suggestions into the file, use "
-"<keycombo>&Ctrl;<keycap>1</keycap></keycombo>, "
-"<keycombo>&Ctrl;<keycap>2</keycap></keycombo> and so on, depending on the "
-"number of suggestion."
+"<keycombo>&Ctrl;<keycap>1</keycap></keycombo>, <keycombo>&Ctrl;<keycap>2</"
+"keycap></keycombo> and so on, depending on the number of suggestion."
 msgstr ""
 
 # automatic translation
@@ -716,8 +711,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The TM engine indexes all entries, including non-ready and untranslated "
-"ones. This allows it to completely replace the Search-in-Files feature which"
-" required scanning every file in the project each time a search is done."
+"ones. This allows it to completely replace the Search-in-Files feature which "
+"required scanning every file in the project each time a search is done."
 msgstr ""
 
 # automatic translation
@@ -764,8 +759,8 @@ msgstr ""
 #: index.docbook:339
 #, no-c-format
 msgid ""
-"To insert the exactly matching suggestion automatically from the translation"
-" memory database, use <menuchoice><guimenu>Tools</guimenu><guimenuitem>Fill "
+"To insert the exactly matching suggestion automatically from the translation "
+"memory database, use <menuchoice><guimenu>Tools</guimenu><guimenuitem>Fill "
 "in all exact suggestions</guimenuitem></menuchoice> OR <guimenuitem>Fill in "
 "all exact suggestions and mark as fuzzy</guimenuitem>."
 msgstr ""
@@ -784,8 +779,8 @@ msgstr ""
 msgid ""
 "The <guilabel>Sync Mode</guilabel> (previously known as <guilabel>Merge "
 "Mode</guilabel>) saves a great deal of time for the editors, and for cases "
-"when two or more translators are working simultaneously on the same file, or"
-" when one has to maintain translations for several branches of software."
+"when two or more translators are working simultaneously on the same file, or "
+"when one has to maintain translations for several branches of software."
 msgstr ""
 
 # automatic translation
@@ -796,8 +791,8 @@ msgid ""
 "&lokalize; allows quick navigation through units that differ, and displays "
 "word-by-word differences. Also, &lokalize; has two Sync views - "
 "<guilabel>Primary Sync</guilabel> and <guilabel>Secondary Sync</guilabel>. "
-"They are identical, but the former is usually used to merge translations and"
-" second to keep in sync translations for two software branches."
+"They are identical, but the former is usually used to merge translations and "
+"second to keep in sync translations for two software branches."
 msgstr ""
 
 # automatic translation
@@ -805,9 +800,9 @@ msgstr ""
 #: index.docbook:364
 #, no-c-format
 msgid ""
-"After you copied translation from auxiliary file "
-"(<emphasis>synchronized</emphasis> it), any subsequent changes made to this "
-"unit will be replicated back to auxiliary file."
+"After you copied translation from auxiliary file (<emphasis>synchronized</"
+"emphasis> it), any subsequent changes made to this unit will be replicated "
+"back to auxiliary file."
 msgstr ""
 
 # automatic translation
@@ -822,8 +817,8 @@ msgstr ""
 #: index.docbook:371
 #, no-c-format
 msgid ""
-"One use of <guilabel>Sync Mode</guilabel> is reviewing changes made by (new)"
-" contributors, when you cannot be sure of the quality of the work done."
+"One use of <guilabel>Sync Mode</guilabel> is reviewing changes made by (new) "
+"contributors, when you cannot be sure of the quality of the work done."
 msgstr ""
 
 # automatic translation
@@ -832,11 +827,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Open a base file, then drop its changed version into the <guilabel>Primary "
-"Sync</guilabel> view, followed by "
-"<keycombo>&Alt;<keycap>Down</keycap></keycombo> or <keycombo>&Alt; "
-"<keycap>Up</keycap></keycombo> (remember that shortcuts may be modified in a"
-" usual way for all &kde; applications) to navigate through entries that are "
-"different."
+"Sync</guilabel> view, followed by <keycombo>&Alt;<keycap>Down</keycap></"
+"keycombo> or <keycombo>&Alt; <keycap>Up</keycap></keycombo> (remember that "
+"shortcuts may be modified in a usual way for all &kde; applications) to "
+"navigate through entries that are different."
 msgstr ""
 
 # automatic translation
@@ -867,11 +861,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guilabel>Sync Mode</guilabel> may also be used to make changes to "
-"translation for two branches simultaneously. Set <guilabel>Branch "
-"folder</guilabel> path in your project options to the path that corresponds "
-"to base folder of the branch, and <guilabel>Secondary Sync</guilabel> view "
-"will automatically open files from branch. Then, each time you make changes "
-"in files of your main branch, they will automatically be replicated to the "
+"translation for two branches simultaneously. Set <guilabel>Branch folder</"
+"guilabel> path in your project options to the path that corresponds to base "
+"folder of the branch, and <guilabel>Secondary Sync</guilabel> view will "
+"automatically open files from branch. Then, each time you make changes in "
+"files of your main branch, they will automatically be replicated to the "
 "branch (of course, if it contains the same English string)."
 msgstr ""
 
@@ -881,16 +875,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "For example, if you work on &kde; translation, you can checkout trunk to "
-"<filename "
-"class=\"directory\">/home/xx/hacking/kde/trunk/l10n-kf5/YOUR_LANG</filename>"
-" and branch to <filename "
-"class=\"directory\">/home/xx/hacking/kde/branches/stable/l10n-kf5/YOUR_LANG</filename>."
-" Create &lokalize; project: "
-"<filename>/home/xx/hacking/kde/trunk/l10n-kf5/YOUR_LANG/project.lokalize</filename>"
-" and set <filename "
-"class=\"directory\">BranchDir=../../../branches/stable/l10n-kf5/YOUR_LANG</filename>,"
-" then work via this project, and commit changes in both trunk and branch "
-"folders."
+"<filename class=\"directory\">/home/xx/hacking/kde/trunk/l10n-kf5/YOUR_LANG</"
+"filename> and branch to <filename class=\"directory\">/home/xx/hacking/kde/"
+"branches/stable/l10n-kf5/YOUR_LANG</filename>. Create &lokalize; project: "
+"<filename>/home/xx/hacking/kde/trunk/l10n-kf5/YOUR_LANG/project.lokalize</"
+"filename> and set <filename class=\"directory\">BranchDir=../../../branches/"
+"stable/l10n-kf5/YOUR_LANG</filename>, then work via this project, and commit "
+"changes in both trunk and branch folders."
 msgstr ""
 
 # automatic translation
@@ -907,9 +898,9 @@ msgstr ""
 msgid ""
 "Each unit may have several <emphasis>alternate translations</emphasis> "
 "associated with it. Such translations may appear during file update, when "
-"the source string is slightly changed. In this case the old translation with"
-" it's (old) source is moved to alternate translations list, so that they are"
-" not lost."
+"the source string is slightly changed. In this case the old translation with "
+"it's (old) source is moved to alternate translations list, so that they are "
+"not lost."
 msgstr ""
 
 # automatic translation
@@ -932,8 +923,8 @@ msgstr ""
 #: index.docbook:432
 #, no-c-format
 msgid ""
-"<screeninfo>&lokalize; highlighting parts of original text that were changed"
-" since translation was last reviewed</screeninfo>"
+"<screeninfo>&lokalize; highlighting parts of original text that were changed "
+"since translation was last reviewed</screeninfo>"
 msgstr ""
 
 # automatic translation
@@ -959,21 +950,20 @@ msgstr ""
 msgid ""
 "&lokalize; is extensible using scripts in several interpreted languages, "
 "including Python and &javascript;. Scripts are usually integrated into the "
-"&lokalize; UI as menu actions (to which you may assign a keyboard shortcut)."
-" The location and name of the menu entry for the script is defined in its "
+"&lokalize; UI as menu actions (to which you may assign a keyboard shortcut). "
+"The location and name of the menu entry for the script is defined in its "
 "accompanying .rc file. On each project open, &lokalize; scans "
 "<filename>PROJECTDIR/lokalize-scripts</filename> folder for .rc files and "
-"adds them to a <emphasis>cache</emphasis> file called "
-"<filename>PROJECTDIR/lokalize-scripts/scripts.rc</filename> (so you "
-"shouldn't generally want to add it project's version control system). RC "
-"files also contain script paths, which may be relative to .rc file folder, "
-"or to a system scripts folder - they both are tried (though they "
-"<emphasis>should</emphasis> be kept in a relative location if you want to "
-"share them with other people in your project). For example, you can specify "
-"<filename>../../scripts/lokalize/opensrc.py</filename> to load a script from"
-" the <ulink "
-"url=\"https://websvn.kde.org/trunk/l10n-kf5/scripts/lokalize/\">global "
-"kf5-l10n scripts folder</ulink> (&ie; not specific to your language)."
+"adds them to a <emphasis>cache</emphasis> file called <filename>PROJECTDIR/"
+"lokalize-scripts/scripts.rc</filename> (so you shouldn't generally want to "
+"add it project's version control system). RC files also contain script "
+"paths, which may be relative to .rc file folder, or to a system scripts "
+"folder - they both are tried (though they <emphasis>should</emphasis> be "
+"kept in a relative location if you want to share them with other people in "
+"your project). For example, you can specify <filename>../../scripts/lokalize/"
+"opensrc.py</filename> to load a script from the <ulink url=\"https://websvn."
+"kde.org/trunk/l10n-kf5/scripts/lokalize/\">global kf5-l10n scripts folder</"
+"ulink> (&ie; not specific to your language)."
 msgstr ""
 
 # automatic translation
@@ -982,15 +972,14 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Examples of .rc files may be found in &lokalize; install folder (usually "
-"<filename>/usr/share/lokalize/scripts/</filename>) and in the <ulink "
-"url=\"https://websvn.kde.org/trunk/l10n-kf5/scripts/lokalize/\">&kde; "
-"repository</ulink>. <ulink "
-"url=\"https://websvn.kde.org/trunk/l10n-kde4/ru/lokalize-"
-"scripts/\">Here</ulink> you can find more script examples, including "
-"&javascript;-based <filename>check-gui.js</filename> that runs automatically"
-" on each file save (this is achieved via special option in .rc file). If "
-"you're familiar with Python or &javascript;, the code should be self-"
-"explanatory."
+"<filename>/usr/share/lokalize/scripts/</filename>) and in the <ulink url="
+"\"https://websvn.kde.org/trunk/l10n-kf5/scripts/lokalize/\">&kde; "
+"repository</ulink>. <ulink url=\"https://websvn.kde.org/trunk/l10n-kde4/ru/"
+"lokalize-scripts/\">Here</ulink> you can find more script examples, "
+"including &javascript;-based <filename>check-gui.js</filename> that runs "
+"automatically on each file save (this is achieved via special option in .rc "
+"file). If you're familiar with Python or &javascript;, the code should be "
+"self-explanatory."
 msgstr ""
 
 # automatic translation
@@ -1007,9 +996,8 @@ msgstr ""
 #: index.docbook:473
 #, no-c-format
 msgid ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-"
-"apidocs/lokalize/html/classEditorTab.html\">Editor</ulink> object API "
-"reference"
+"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
+"classEditorTab.html\">Editor</ulink> object API reference"
 msgstr ""
 
 # automatic translation
@@ -1017,9 +1005,8 @@ msgstr ""
 #: index.docbook:478
 #, no-c-format
 msgid ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-"
-"apidocs/lokalize/html/classLokalizeMainWindow.html\">&lokalize;</ulink> "
-"object API reference"
+"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
+"classLokalizeMainWindow.html\">&lokalize;</ulink> object API reference"
 msgstr ""
 
 # automatic translation
@@ -1027,9 +1014,8 @@ msgstr ""
 #: index.docbook:483
 #, no-c-format
 msgid ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-"
-"apidocs/lokalize/html/classProjectTab.html\">Project</ulink> object API "
-"reference"
+"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
+"classProjectTab.html\">Project</ulink> object API reference"
 msgstr ""
 
 # automatic translation
@@ -1054,10 +1040,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The interaction with <application>Pology</application> can be configured "
-"using the page <guilabel>Pology</guilabel> of the configuration window which"
-" can be opened by choosing the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&lokalize;...</guimenuitem></menuchoice> main menu item."
+"using the page <guilabel>Pology</guilabel> of the configuration window which "
+"can be opened by choosing the <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &lokalize;...</guimenuitem></menuchoice> main "
+"menu item."
 msgstr ""
 
 # automatic translation
@@ -1065,8 +1051,8 @@ msgstr ""
 #: index.docbook:498
 #, no-c-format
 msgid ""
-"For more information, please refer to <ulink "
-"url=\"http://pology.nedohodnik.net/\">Pology homepage</ulink>."
+"For more information, please refer to <ulink url=\"http://pology.nedohodnik."
+"net/\">Pology homepage</ulink>."
 msgstr ""
 
 # automatic translation
@@ -1081,8 +1067,8 @@ msgstr ""
 #: index.docbook:506
 #, no-c-format
 msgid ""
-"<application>LanguageTool</application> offers spell and grammar checking of"
-" your translation units."
+"<application>LanguageTool</application> offers spell and grammar checking of "
+"your translation units."
 msgstr ""
 
 # automatic translation
@@ -1090,11 +1076,11 @@ msgstr ""
 #: index.docbook:509
 #, no-c-format
 msgid ""
-"You can configure your custom <application>LanguageTool</application> server"
-" using the page <guilabel>LanguageTool</guilabel> of the configuration "
-"window which can be opened by choosing the "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"&lokalize;...</guimenuitem></menuchoice> main menu item."
+"You can configure your custom <application>LanguageTool</application> server "
+"using the page <guilabel>LanguageTool</guilabel> of the configuration window "
+"which can be opened by choosing the <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &lokalize;...</guimenuitem></menuchoice> main "
+"menu item."
 msgstr ""
 
 # automatic translation
@@ -1102,10 +1088,10 @@ msgstr ""
 #: index.docbook:512
 #, no-c-format
 msgid ""
-"To utilize <application>LanguageTool</application> checking capabilities use"
-" the <menuchoice><guimenu>Edit</guimenu><guimenuitem>Check this unit using "
-"LanguageTool</guimenuitem></menuchoice> menu item or use "
-"<keycombo>&Ctrl;<keycap>J</keycap></keycombo> shortcut."
+"To utilize <application>LanguageTool</application> checking capabilities use "
+"the <menuchoice><guimenu>Edit</guimenu><guimenuitem>Check this unit using "
+"LanguageTool</guimenuitem></menuchoice> menu item or use <keycombo>&Ctrl;"
+"<keycap>J</keycap></keycombo> shortcut."
 msgstr ""
 
 # automatic translation
@@ -1113,8 +1099,8 @@ msgstr ""
 #: index.docbook:515
 #, no-c-format
 msgid ""
-"For more information, please refer to <ulink "
-"url=\"https://languagetool.org/\">LanguageTool homepage</ulink>."
+"For more information, please refer to <ulink url=\"https://languagetool.org/"
+"\">LanguageTool homepage</ulink>."
 msgstr ""
 
 # automatic translation
@@ -1178,8 +1164,8 @@ msgstr ""
 #: index.docbook:555
 #, no-c-format
 msgid ""
-"See the <ulink url=\"http://userbase.kde.org/lokalize\">&lokalize; "
-"homepage</ulink> for more details."
+"See the <ulink url=\"http://userbase.kde.org/lokalize\">&lokalize; homepage</"
+"ulink> for more details."
 msgstr ""
 
 # automatic translation

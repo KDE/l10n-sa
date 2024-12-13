@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-06 01:00+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -132,8 +134,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The module <guilabel>Audiocd KIO Worker Configuration</guilabel> page is "
-"divided in the <guilabel>General</guilabel> tab, the "
-"<guilabel>Names</guilabel> tab, and the encoder parameter tabs."
+"divided in the <guilabel>General</guilabel> tab, the <guilabel>Names</"
+"guilabel> tab, and the encoder parameter tabs."
 msgstr ""
 
 # automatic translation
@@ -162,8 +164,8 @@ msgstr ""
 #: index.docbook:52
 #, no-c-format
 msgid ""
-"This tab contains the general parameters which apply to the whole process of"
-" reading data from CD."
+"This tab contains the general parameters which apply to the whole process of "
+"reading data from CD."
 msgstr ""
 
 # automatic translation
@@ -245,9 +247,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The <guilabel>Names</guilabel> tab can be used to fine-tune the file names "
-"for the encoded data. It is possible to use some macros and <ulink "
-"url=\"https://en.wikipedia.org/wiki/Regular_expression\">regular "
-"expressions</ulink> to produce the names exactly to your needs."
+"for the encoded data. It is possible to use some macros and <ulink url="
+"\"https://en.wikipedia.org/wiki/Regular_expression\">regular expressions</"
+"ulink> to produce the names exactly to your needs."
 msgstr ""
 
 # automatic translation
@@ -330,8 +332,8 @@ msgstr ""
 #: index.docbook:117
 #, no-c-format
 msgid ""
-"On the other hand, a compression level of 8 makes compression quite slow but"
-" produces the smallest file."
+"On the other hand, a compression level of 8 makes compression quite slow but "
+"produces the smallest file."
 msgstr ""
 
 # automatic translation
@@ -339,8 +341,8 @@ msgstr ""
 #: index.docbook:118
 #, no-c-format
 msgid ""
-"Note that since FLAC is by definition a lossless codec, the audio quality of"
-" the output is exactly the same regardless of the compression level."
+"Note that since FLAC is by definition a lossless codec, the audio quality of "
+"the output is exactly the same regardless of the compression level."
 msgstr ""
 
 # automatic translation
@@ -378,9 +380,8 @@ msgstr ""
 #: index.docbook:138
 #, no-c-format
 msgid ""
-"The MP3 encoder tab is only available if <ulink "
-"url=\"http://lame.sourceforge.net/\">LAME</ulink> utilities are installed in"
-" the system."
+"The MP3 encoder tab is only available if <ulink url=\"http://lame."
+"sourceforge.net/\">LAME</ulink> utilities are installed in the system."
 msgstr ""
 
 # automatic translation
@@ -389,9 +390,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "MP3 (or MPEG-1 Audio Layer III) is a patented digital audio codec using a "
-"form of lossy data compression. In spite of its shortcomings, it is a common"
-" format for consumer audio storage, and is widely supported on portable "
-"music players."
+"form of lossy data compression. In spite of its shortcomings, it is a common "
+"format for consumer audio storage, and is widely supported on portable music "
+"players."
 msgstr ""
 
 # automatic translation
@@ -399,11 +400,11 @@ msgstr ""
 #: index.docbook:143
 #, no-c-format
 msgid ""
-"Audiocd KIO worker uses the LAME encoder to produce <filename "
-"class=\"extension\">mp3</filename> files. LAME is considered the best MP3 "
-"encoder, mostly thanks to the dedicated work of its developers and the open "
-"source licensing model that allowed the project to tap into engineering "
-"resources from all around the world."
+"Audiocd KIO worker uses the LAME encoder to produce <filename class="
+"\"extension\">mp3</filename> files. LAME is considered the best MP3 encoder, "
+"mostly thanks to the dedicated work of its developers and the open source "
+"licensing model that allowed the project to tap into engineering resources "
+"from all around the world."
 msgstr ""
 
 # automatic translation
@@ -419,13 +420,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The bitrate is a measure of the quantity of data used to represent a second "
-"of the audio track. It is possible to determine <guilabel>Constant "
-"bitrate</guilabel> for predictable file size. The MP3 encoder also supports "
-"a <guilabel>Variable bitrate</guilabel> setting, which means that the "
-"bitrate value fluctuates along the track based on the complexity of the "
-"audio content. More complex intervals of data are encoded with a higher "
-"bitrate than less complex ones; this approach yields overall better quality "
-"and a smaller file than having a constant bitrate throughout the track."
+"of the audio track. It is possible to determine <guilabel>Constant bitrate</"
+"guilabel> for predictable file size. The MP3 encoder also supports a "
+"<guilabel>Variable bitrate</guilabel> setting, which means that the bitrate "
+"value fluctuates along the track based on the complexity of the audio "
+"content. More complex intervals of data are encoded with a higher bitrate "
+"than less complex ones; this approach yields overall better quality and a "
+"smaller file than having a constant bitrate throughout the track."
 msgstr ""
 
 # automatic translation
@@ -487,8 +488,8 @@ msgstr ""
 #: index.docbook:159
 #, no-c-format
 msgid ""
-"The <guilabel>Write ID3 tag</guilabel> item is used to enforce LAME to write"
-" <ulink url=\"https://en.wikipedia.org/wiki/ID3\">ID3 metadata</ulink> to "
+"The <guilabel>Write ID3 tag</guilabel> item is used to enforce LAME to write "
+"<ulink url=\"https://en.wikipedia.org/wiki/ID3\">ID3 metadata</ulink> to "
 "each produced MP3 file."
 msgstr ""
 
@@ -504,8 +505,8 @@ msgstr ""
 #: index.docbook:165
 #, no-c-format
 msgid ""
-"It is possible to apply bandwidth filtering to the data. It is used to limit"
-" the high or low frequencies that are encoded. Most of us cannot hear the "
+"It is possible to apply bandwidth filtering to the data. It is used to limit "
+"the high or low frequencies that are encoded. Most of us cannot hear the "
 "high frequencies anyway, and they are the most <quote>expensive</quote> "
 "bitwise, when it comes to encoding. They also tend to be the cause of "
 "artifacts."
@@ -524,9 +525,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can also choose <guilabel>Average bitrate</guilabel>, which is the "
-"default, or <guilabel>Maximal bitrate</guilabel>, <guilabel>Minimal "
-"bitrate</guilabel> and whether <guilabel>Minimal value is a hard "
-"limit</guilabel>."
+"default, or <guilabel>Maximal bitrate</guilabel>, <guilabel>Minimal bitrate</"
+"guilabel> and whether <guilabel>Minimal value is a hard limit</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -534,9 +534,9 @@ msgstr ""
 #: index.docbook:173
 #, no-c-format
 msgid ""
-"160 kb/s is a good choice for music listening on a portable player. Anything"
-" below 120 kb/s might be unsatisfactory for music and anything above 256 "
-"kb/s is probably overkill."
+"160 kb/s is a good choice for music listening on a portable player. Anything "
+"below 120 kb/s might be unsatisfactory for music and anything above 256 kb/s "
+"is probably overkill."
 msgstr ""
 
 # automatic translation
@@ -578,8 +578,8 @@ msgstr ""
 #: index.docbook:193
 #, no-c-format
 msgid ""
-"The Opus encoder tab is only available if <ulink url=\"https://opus-"
-"codec.org/\">opus-tools</ulink> are installed in the system."
+"The Opus encoder tab is only available if <ulink url=\"https://opus-codec."
+"org/\">opus-tools</ulink> are installed in the system."
 msgstr ""
 
 # automatic translation
@@ -597,10 +597,10 @@ msgstr ""
 #: index.docbook:201
 #, no-c-format
 msgid ""
-"This setting allows you to choose between <guilabel>Complexity "
-"based</guilabel> and <guilabel>Bitrate based</guilabel> encoding. The "
-"complexity based encoding uses some speculative algorithms for the price of "
-"an unpredictable size of the results."
+"This setting allows you to choose between <guilabel>Complexity based</"
+"guilabel> and <guilabel>Bitrate based</guilabel> encoding. The complexity "
+"based encoding uses some speculative algorithms for the price of an "
+"unpredictable size of the results."
 msgstr ""
 
 # automatic translation
@@ -608,8 +608,8 @@ msgstr ""
 #: index.docbook:204
 #, no-c-format
 msgid ""
-"There are several things which influence the Opus encoder choice between CPU"
-" complexity and quality/bitrate. The complexity of encoding can be selected "
+"There are several things which influence the Opus encoder choice between CPU "
+"complexity and quality/bitrate. The complexity of encoding can be selected "
 "using an integer from 0 to 10, where 0 yields the lowest quality and 10 "
 "yields the highest quality."
 msgstr ""
@@ -620,12 +620,12 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Opus is more efficient when operating with variable bitrate "
-"(<guilabel>Average variable bitrate</guilabel>), which is the default. It is"
-" possible to use constrained variable bitrate (<guilabel>Constrained "
-"variable bitrate</guilabel>, an analog of constant bitrate for MP3) when the"
-" low-latency transmission is required over a relatively slow connection. In "
-"some (rare) applications, constant bitrate (<guilabel>Constant "
-"bitrate</guilabel>) is required."
+"(<guilabel>Average variable bitrate</guilabel>), which is the default. It is "
+"possible to use constrained variable bitrate (<guilabel>Constrained variable "
+"bitrate</guilabel>, an analog of constant bitrate for MP3) when the low-"
+"latency transmission is required over a relatively slow connection. In some "
+"(rare) applications, constant bitrate (<guilabel>Constant bitrate</"
+"guilabel>) is required."
 msgstr ""
 
 # automatic translation
@@ -649,8 +649,8 @@ msgstr ""
 msgid ""
 "When checked, add a description of the song to the file header. This makes "
 "it easy for the user to get advanced song information shown by his media "
-"player. You can get this information automatically via the Internet. Look at"
-" the &systemsettings; CDDB Retrieval module for details."
+"player. You can get this information automatically via the Internet. Look at "
+"the &systemsettings; CDDB Retrieval module for details."
 msgstr ""
 
 # automatic translation
@@ -699,9 +699,9 @@ msgstr ""
 #: index.docbook:244
 #, no-c-format
 msgid ""
-"This setting allows you to choose between <guilabel>Quality based</guilabel>"
-" and <guilabel>Bitrate based</guilabel> encoding. The quality based encoding"
-" uses some speculative algorithms for the price of an unpredictable size of "
+"This setting allows you to choose between <guilabel>Quality based</guilabel> "
+"and <guilabel>Bitrate based</guilabel> encoding. The quality based encoding "
+"uses some speculative algorithms for the price of an unpredictable size of "
 "the results."
 msgstr ""
 
@@ -721,6 +721,6 @@ msgstr ""
 msgid ""
 "As an alternative variable bitrate can be used. It is possible to choose "
 "<guilabel>Average bitrate</guilabel>, which is the default, or "
-"<guilabel>Maximal bitrate</guilabel> and <guilabel>Minimal "
-"bitrate</guilabel>."
+"<guilabel>Maximal bitrate</guilabel> and <guilabel>Minimal bitrate</"
+"guilabel>."
 msgstr ""

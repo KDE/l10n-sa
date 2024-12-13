@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-10-22 01:00+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -138,8 +140,8 @@ msgstr ""
 #: index.docbook:51
 #, no-c-format
 msgid ""
-"&filelight; allows you to quickly understand exactly where your diskspace is"
-" being used by graphically representing your file system as a set of "
+"&filelight; allows you to quickly understand exactly where your diskspace is "
+"being used by graphically representing your file system as a set of "
 "concentric segmented-rings. You can use it to locate hotspots of disk usage "
 "and then manipulate those areas using &dolphin; or &konqueror;."
 msgstr ""
@@ -156,12 +158,12 @@ msgstr ""
 #: index.docbook:58
 #, no-c-format
 msgid ""
-"The &filelight; settings dialog has two tabs for configuring the &filelight;"
-" options. The two tabs are <guilabel>Scanning</guilabel> and "
+"The &filelight; settings dialog has two tabs for configuring the &filelight; "
+"options. The two tabs are <guilabel>Scanning</guilabel> and "
 "<guilabel>Appearance</guilabel>. Below is a description of the settings "
 "tabs. The &filelight; settings dialog can be found by clicking "
-"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
-"Filelight</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Filelight</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 # automatic translation
@@ -185,13 +187,13 @@ msgstr ""
 msgid ""
 "The scanning tab allows you to configure how &filelight; scans folders. The "
 "<guilabel> Do not scan these folders</guilabel> is used to exclude certain "
-"folders from your scan. This option is very useful for skipping folders that"
-" you may not have permissions to read, or folders that are part of a virtual"
-" filesystem, such as /proc. To add a folder to the list, click the "
-"<guibutton>Add...</guibutton> button, this will start a dialog where you can"
-" choose the folder of your choice from a tree view. To remove a folder "
-"simply select the folder of your choice and click the "
-"<guibutton>Remove</guibutton> button."
+"folders from your scan. This option is very useful for skipping folders that "
+"you may not have permissions to read, or folders that are part of a virtual "
+"filesystem, such as /proc. To add a folder to the list, click the "
+"<guibutton>Add...</guibutton> button, this will start a dialog where you can "
+"choose the folder of your choice from a tree view. To remove a folder simply "
+"select the folder of your choice and click the <guibutton>Remove</guibutton> "
+"button."
 msgstr ""
 
 # automatic translation
@@ -199,16 +201,15 @@ msgstr ""
 #: index.docbook:72
 #, no-c-format
 msgid ""
-"Using <guilabel>Scan across filesystem boundaries</guilabel> allows scans to"
-" enter folders that are part of other filesystems. For example, when "
-"unchecked, this will usually prevent the contents of <filename "
-"class=\"directory\">/mnt</filename> from being scanned if you scan starting "
-"from the root folder <filename class=\"directory\">/</filename>. A scan of "
-"remote filesystems, &eg; NFS or Samba mounts, can generate high network "
-"traffic. To prevent scanning them check <guilabel>Exclude remote "
-"filesystems</guilabel>. The next option <guilabel>Exclude removable "
-"media</guilabel> prevents &filelight; from scanning removable media (&eg; "
-"&CD-ROM;s)."
+"Using <guilabel>Scan across filesystem boundaries</guilabel> allows scans to "
+"enter folders that are part of other filesystems. For example, when "
+"unchecked, this will usually prevent the contents of <filename class="
+"\"directory\">/mnt</filename> from being scanned if you scan starting from "
+"the root folder <filename class=\"directory\">/</filename>. A scan of remote "
+"filesystems, &eg; NFS or Samba mounts, can generate high network traffic. To "
+"prevent scanning them check <guilabel>Exclude remote filesystems</guilabel>. "
+"The next option <guilabel>Exclude removable media</guilabel> prevents "
+"&filelight; from scanning removable media (&eg; &CD-ROM;s)."
 msgstr ""
 
 # automatic translation
@@ -315,8 +316,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Open the application menu and move your cursor up the menu to the "
-"<guimenu>Utilities</guimenu> menu item. Choose "
-"<guimenuitem>&filelight;</guimenuitem>."
+"<guimenu>Utilities</guimenu> menu item. Choose <guimenuitem>&filelight;</"
+"guimenuitem>."
 msgstr ""
 
 # automatic translation
@@ -375,13 +376,12 @@ msgid ""
 "Once a scan has completed you will be presented with a filemap that "
 "represents the folder you scanned. The filemap is a series of segmented-"
 "rings that expand from the center. Brightly colored segments are folders, "
-"gray segments are files. Segments are sized in proportion to their filesize."
-" Segments can be nested, so for example, <filename "
-"class=\"directory\">/home/mxcl</filename> will be one level outwards and "
-"within the bounds of the segment representing <filename "
-"class=\"directory\">/home</filename>. Segments are labeled and hovering the "
-"mouse over segments will give you more details of that segment and its child"
-" segments."
+"gray segments are files. Segments are sized in proportion to their filesize. "
+"Segments can be nested, so for example, <filename class=\"directory\">/home/"
+"mxcl</filename> will be one level outwards and within the bounds of the "
+"segment representing <filename class=\"directory\">/home</filename>. "
+"Segments are labeled and hovering the mouse over segments will give you more "
+"details of that segment and its child segments."
 msgstr ""
 
 # automatic translation
@@ -400,8 +400,8 @@ msgid ""
 "context menu for that segment. A &MMB; click opens files by mimetype, &eg; "
 "images with <application>Gwenview</application>. You can right click a "
 "segment to get a context menu for the scanned folder with actions to copy "
-"the folder path to the clipboard or delete the folder or file. Left clicking"
-" segments will re-center the map on that segment."
+"the folder path to the clipboard or delete the folder or file. Left clicking "
+"segments will re-center the map on that segment."
 msgstr ""
 
 # automatic translation
@@ -437,9 +437,9 @@ msgstr ""
 #: index.docbook:168
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keysym>Home</keysym></keycombo>"
-" </shortcut> <guimenu>Scan</guimenu> <guimenuitem>Scan Home "
-"folder</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keysym>Home</keysym></keycombo> "
+"</shortcut> <guimenu>Scan</guimenu> <guimenuitem>Scan Home folder</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -477,8 +477,8 @@ msgstr ""
 #: index.docbook:194
 #, no-c-format
 msgid ""
-"Starts a new scan of the current working folder, this is useful when changes"
-" have been made to the filesystem."
+"Starts a new scan of the current working folder, this is useful when changes "
+"have been made to the filesystem."
 msgstr ""
 
 # automatic translation
@@ -486,8 +486,8 @@ msgstr ""
 #: index.docbook:198
 #, no-c-format
 msgid ""
-"<shortcut> &Esc; </shortcut> <guimenu>Scan</guimenu> "
-"<guimenuitem>Stop</guimenuitem>"
+"<shortcut> &Esc; </shortcut> <guimenu>Scan</guimenu> <guimenuitem>Stop</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -502,8 +502,8 @@ msgstr ""
 #: index.docbook:209
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> "
-"</shortcut> <guimenu>Scan</guimenu> <guimenuitem>Quit</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>Scan</guimenu> <guimenuitem>Quit</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -525,8 +525,8 @@ msgstr ""
 #: index.docbook:224
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo> "
-"</shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom In</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo> </"
+"shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom In</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -541,8 +541,8 @@ msgstr ""
 #: index.docbook:236
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo> "
-"</shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom Out</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo> </"
+"shortcut> <guimenu>View</guimenu> <guimenuitem>Zoom Out</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -564,8 +564,8 @@ msgstr ""
 #: index.docbook:251
 #, no-c-format
 msgid ""
-"<shortcut> <keycombo action=\"simul\">&Alt;<keycap>Up</keycap></keycombo> "
-"</shortcut> <guimenu>Go</guimenu> <guimenuitem>Up</guimenuitem>"
+"<shortcut> <keycombo action=\"simul\">&Alt;<keycap>Up</keycap></keycombo> </"
+"shortcut> <guimenu>Go</guimenu> <guimenuitem>Up</guimenuitem>"
 msgstr ""
 
 # automatic translation
@@ -610,10 +610,9 @@ msgstr ""
 msgid ""
 "Additionally &filelight; has the common &kde; <guimenu>Settings</guimenu> "
 "and <guimenu>Help</guimenu> menu items, for more information read the "
-"sections about the <ulink url=\"help:/fundamentals/menus.html#menus-"
-"settings\">Settings Menu</ulink> and <ulink "
-"url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the "
-"&kde; Fundamentals."
+"sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
 msgstr ""
 
 # automatic translation
@@ -635,8 +634,7 @@ msgstr ""
 #: index.docbook:290
 #, no-c-format
 msgid ""
-"Program copyright 2006 Max B. Howell "
-"<email>max.howell@methylblue.com</email>"
+"Program copyright 2006 Max B. Howell <email>max.howell@methylblue.com</email>"
 msgstr ""
 
 # automatic translation
@@ -644,8 +642,8 @@ msgstr ""
 #: index.docbook:291
 #, no-c-format
 msgid ""
-"Program copyright 2008-2013 Martin Sandsmark "
-"<email>martin.sandsmark@kde.org</email>"
+"Program copyright 2008-2013 Martin Sandsmark <email>martin.sandsmark@kde."
+"org</email>"
 msgstr ""
 
 # automatic translation
@@ -667,8 +665,8 @@ msgstr ""
 #: index.docbook:296
 #, no-c-format
 msgid ""
-"Documentation copyright 2003 Max B. Howell "
-"<email>max.howell@methylblue.com</email>"
+"Documentation copyright 2003 Max B. Howell <email>max.howell@methylblue.com</"
+"email>"
 msgstr ""
 
 # automatic translation
@@ -676,8 +674,8 @@ msgstr ""
 #: index.docbook:297
 #, no-c-format
 msgid ""
-"Documentation copyright 2009 Martin Sandsmark "
-"<email>martin.sandsmark@kde.org</email>"
+"Documentation copyright 2009 Martin Sandsmark <email>martin.sandsmark@kde."
+"org</email>"
 msgstr ""
 
 # automatic translation

@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-03-19 00:58+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -170,8 +172,8 @@ msgstr ""
 msgid ""
 "With the first page of the wizard you specify the engine and voice that "
 "shall be used for the text-to-speech conversion. For more details look into "
-"the <link linkend=\"tts-config\">description of the configuration "
-"dialog.</link>"
+"the <link linkend=\"tts-config\">description of the configuration dialog.</"
+"link>"
 msgstr ""
 
 # automatic translation
@@ -195,8 +197,8 @@ msgstr ""
 msgid ""
 "With the third page you define the dictionary for a word completion. "
 "&kmouth; will parse the &kde; documentation of the chosen language in order "
-"to detect the regularity of individual words. Optionally you can compare the"
-" word list to an OpenOffice.org dictionary in order to only add correctly "
+"to detect the regularity of individual words. Optionally you can compare the "
+"word list to an OpenOffice.org dictionary in order to only add correctly "
 "spelled words to the word completion."
 msgstr ""
 
@@ -214,8 +216,8 @@ msgstr ""
 msgid ""
 "The main window of &kmouth; is fairly simple. It consists basically of an "
 "edit field into which you type your sentences (the lower white field in the "
-"screen shot) and a history of spoken sentences (the upper white field in the"
-" screen shot)."
+"screen shot) and a history of spoken sentences (the upper white field in the "
+"screen shot)."
 msgstr ""
 
 # automatic translation
@@ -239,8 +241,8 @@ msgstr ""
 msgid ""
 "Assuming that you have correctly <link linkend=\"config-dialog\">configured "
 "&kmouth;</link> you can use the edit field for entering sentences you want "
-"to hear. Once a sentence got spoken it will be appended to the history. From"
-" the history you can select sentences to be re-spoken."
+"to hear. Once a sentence got spoken it will be appended to the history. From "
+"the history you can select sentences to be re-spoken."
 msgstr ""
 
 # automatic translation
@@ -264,12 +266,12 @@ msgstr ""
 #: index.docbook:147
 #, no-c-format
 msgid ""
-"By using the menu entry <menuchoice> "
-"<guimenu>Settings</guimenu><guimenuitem>Configure &kmouth;...</guimenuitem> "
-"</menuchoice> you open the configuration dialog of &kmouth;. This dialog "
-"consists of the pages <guilabel>General Options</guilabel> with the two tabs"
-" <guilabel>Preferences</guilabel> and <guilabel>Text-to-Speech</guilabel> "
-"and the page <guilabel>Word Completion</guilabel>."
+"By using the menu entry <menuchoice> <guimenu>Settings</"
+"guimenu><guimenuitem>Configure &kmouth;...</guimenuitem> </menuchoice> you "
+"open the configuration dialog of &kmouth;. This dialog consists of the pages "
+"<guilabel>General Options</guilabel> with the two tabs "
+"<guilabel>Preferences</guilabel> and <guilabel>Text-to-Speech</guilabel> and "
+"the page <guilabel>Word Completion</guilabel>."
 msgstr ""
 
 # automatic translation
@@ -307,10 +309,10 @@ msgstr ""
 #: index.docbook:175
 #, no-c-format
 msgid ""
-"With the first combo box <guilabel>Selection of phrases in the phrase "
-"book</guilabel> you specify which action is triggered by typing the shortcut"
-" of a phrase or by selecting a phrase in the <guimenu>Phrase Book</guimenu> "
-"menu or in the phrase book bar."
+"With the first combo box <guilabel>Selection of phrases in the phrase book</"
+"guilabel> you specify which action is triggered by typing the shortcut of a "
+"phrase or by selecting a phrase in the <guimenu>Phrase Book</guimenu> menu "
+"or in the phrase book bar."
 msgstr ""
 
 # automatic translation
@@ -318,8 +320,8 @@ msgstr ""
 #: index.docbook:181
 #, no-c-format
 msgid ""
-"By selecting <guilabel>Speak Immediately</guilabel> the selected phrase gets"
-" immediately spoken and is entered into the history. If you select "
+"By selecting <guilabel>Speak Immediately</guilabel> the selected phrase gets "
+"immediately spoken and is entered into the history. If you select "
 "<guilabel>Insert Into Edit Field</guilabel> the selected phrase is just "
 "inserted into the edit field."
 msgstr ""
@@ -329,9 +331,9 @@ msgstr ""
 #: index.docbook:188
 #, no-c-format
 msgid ""
-"With the second combo box, <guilabel>Closing the phrase book edit "
-"window</guilabel>, you specify whether the phrase book gets saved if you "
-"just close the phrase book edit window."
+"With the second combo box, <guilabel>Closing the phrase book edit window</"
+"guilabel>, you specify whether the phrase book gets saved if you just close "
+"the phrase book edit window."
 msgstr ""
 
 # automatic translation
@@ -368,11 +370,11 @@ msgid ""
 "By selecting <guilabel>Use default speech system</guilabel> you tell "
 "&kmouth; first to try to use the system speech service prior to calling the "
 "speech synthesizer directly. If this succeeds the other configuration "
-"entries on this tab are ignored. The system speech service is a &Qt; library"
-" which wraps speech-dispatcher on &Linux;, and native speech systems on "
-"other platforms. On a Debian based system you need the packages speech-"
-"dispatcher, libqt5texttospeech5 and one of the speech-dispatcher modules, "
-"usually <application>espeak</application>."
+"entries on this tab are ignored. The system speech service is a &Qt; library "
+"which wraps speech-dispatcher on &Linux;, and native speech systems on other "
+"platforms. On a Debian based system you need the packages speech-dispatcher, "
+"libqt5texttospeech5 and one of the speech-dispatcher modules, usually "
+"<application>espeak</application>."
 msgstr ""
 
 # automatic translation
@@ -380,13 +382,13 @@ msgstr ""
 #: index.docbook:225
 #, no-c-format
 msgid ""
-"Use the commandline tool <command>spd-conf</command> (Debian package "
-"python3-speechd) to adjust settings like rate, pitch, volume, voice type and"
-" language &etc; for the default speech system. Additionally <command>spd-"
+"Use the commandline tool <command>spd-conf</command> (Debian package python3-"
+"speechd) to adjust settings like rate, pitch, volume, voice type and "
+"language &etc; for the default speech system. Additionally <command>spd-"
 "conf</command> will let you choose between all installed speech-dispatcher "
-"modules, &ie; <application>espeak</application>, "
-"<application>festival</application>, <application>flite</application>, "
-"<application>mbrola</application> &etc;"
+"modules, &ie; <application>espeak</application>, <application>festival</"
+"application>, <application>flite</application>, <application>mbrola</"
+"application> &etc;"
 msgstr ""
 
 # automatic translation
@@ -405,9 +407,9 @@ msgstr ""
 msgid ""
 "Should the <guilabel>Use default speech system</guilabel> item is not "
 "selected you can enter the command for calling the speech synthesize into "
-"the edit field of the <guilabel>Alternative</guilabel> panel. With the combo"
-" box below the edit field you specify the character encoding that is used "
-"for passing the text to the speech synthesizer."
+"the edit field of the <guilabel>Alternative</guilabel> panel. With the combo "
+"box below the edit field you specify the character encoding that is used for "
+"passing the text to the speech synthesizer."
 msgstr ""
 
 # automatic translation
@@ -415,8 +417,8 @@ msgstr ""
 #: index.docbook:242
 #, no-c-format
 msgid ""
-"&kmouth; knows two ways of passing the text: If the command expects the text"
-" as standard input you select the check box."
+"&kmouth; knows two ways of passing the text: If the command expects the text "
+"as standard input you select the check box."
 msgstr ""
 
 # automatic translation
@@ -424,8 +426,8 @@ msgstr ""
 #: index.docbook:246
 #, no-c-format
 msgid ""
-"The other way is to pass the text as a parameter: Before calling the command"
-" &kmouth; replaces certain placeholders with actual content:"
+"The other way is to pass the text as a parameter: Before calling the command "
+"&kmouth; replaces certain placeholders with actual content:"
 msgstr ""
 
 # automatic translation
@@ -542,9 +544,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "With the buttons on the right side of the page you can add and delete "
-"dictionaries, change the order of the dictionaries or export dictionaries to"
-" a file. With the edit field and the combo box below the list you can change"
-" the name and the language associated with the dictionary."
+"dictionaries, change the order of the dictionaries or export dictionaries to "
+"a file. With the edit field and the combo box below the list you can change "
+"the name and the language associated with the dictionary."
 msgstr ""
 
 # automatic translation
@@ -567,9 +569,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you use this source &kmouth; will ask you for the intended language and "
-"afterwards parse the &kde; documentation. The frequentness of the individual"
-" words is detect by simply counting the occurrences of each word. Optionally"
-" you can compare the word list to an OpenOffice.org dictionary in order to "
+"afterwards parse the &kde; documentation. The frequentness of the individual "
+"words is detect by simply counting the occurrences of each word. Optionally "
+"you can compare the word list to an OpenOffice.org dictionary in order to "
 "only add correctly spelled words to the new dictionary."
 msgstr ""
 
@@ -608,9 +610,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you use this source &kmouth; will ask you for the intended folder. "
-"&kmouth; will open all files in that folder and its subfolders. Each file is"
-" either loaded as a completion dictionary, as an &XML; file or as a standard"
-" text file. In the latter two cases the occurrences of each individual word "
+"&kmouth; will open all files in that folder and its subfolders. Each file is "
+"either loaded as a completion dictionary, as an &XML; file or as a standard "
+"text file. In the latter two cases the occurrences of each individual word "
 "in the file is counted. Optionally you can compare the word list to an "
 "OpenOffice.org dictionary in order to only add correctly spelled words to "
 "the new dictionary."
@@ -662,9 +664,9 @@ msgstr ""
 #: index.docbook:371
 #, no-c-format
 msgid ""
-"By using the menu entry <menuchoice> <guimenu>Phrase "
-"Books</guimenu><guimenuitem>Edit...</guimenuitem> </menuchoice> you open the"
-" phrase book edit window."
+"By using the menu entry <menuchoice> <guimenu>Phrase Books</"
+"guimenu><guimenuitem>Edit...</guimenuitem> </menuchoice> you open the phrase "
+"book edit window."
 msgstr ""
 
 # automatic translation
@@ -695,9 +697,9 @@ msgstr ""
 #: index.docbook:396
 #, no-c-format
 msgid ""
-"Within the lower part you may modify a selected item. If you have selected a"
-" phrase you can modify the contents of the phrase as well as its shortcut. "
-"If you have selected a phrase book you can only change its name."
+"Within the lower part you may modify a selected item. If you have selected a "
+"phrase you can modify the contents of the phrase as well as its shortcut. If "
+"you have selected a phrase book you can only change its name."
 msgstr ""
 
 # automatic translation
@@ -715,8 +717,8 @@ msgstr ""
 #: index.docbook:407
 #, no-c-format
 msgid ""
-"You can change the order of the phrase books and phrases by dragging them to"
-" their new places or by using the arrow keys while the &Alt; key is pressed."
+"You can change the order of the phrase books and phrases by dragging them to "
+"their new places or by using the arrow keys while the &Alt; key is pressed."
 msgstr ""
 
 # automatic translation
@@ -826,8 +828,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Cuts the selected section and puts it to the clipboard. If there is some "
-"text selected in the edit field it is placed in the clipboard. Otherwise the"
-" selected sentences in the history (if any) are placed in the clipboard."
+"text selected in the edit field it is placed in the clipboard. Otherwise the "
+"selected sentences in the history (if any) are placed in the clipboard."
 msgstr ""
 
 # automatic translation
@@ -844,8 +846,8 @@ msgstr ""
 #: index.docbook:493
 #, no-c-format
 msgid ""
-"Copies the selected section to the clipboard. If there is some text selected"
-" in the edit field it is copied to the clipboard. Otherwise the selected "
+"Copies the selected section to the clipboard. If there is some text selected "
+"in the edit field it is copied to the clipboard. Otherwise the selected "
 "sentences in the history (if any) are copied to the clipboard."
 msgstr ""
 
@@ -880,8 +882,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Speaks the currently active sentence(s). If there is some text in the edit "
-"field it is spoken. Otherwise the selected sentences in the history (if any)"
-" are spoken."
+"field it is spoken. Otherwise the selected sentences in the history (if any) "
+"are spoken."
 msgstr ""
 
 # automatic translation
@@ -903,8 +905,7 @@ msgstr ""
 #: index.docbook:535
 #, no-c-format
 msgid ""
-"Opens the <link linkend=\"phrasebook-editor\">phrase book edit "
-"window</link>."
+"Opens the <link linkend=\"phrasebook-editor\">phrase book edit window</link>."
 msgstr ""
 
 # automatic translation
@@ -912,12 +913,11 @@ msgstr ""
 #: index.docbook:540
 #, no-c-format
 msgid ""
-"&kmouth; has the common &kde; <guimenu>Settings</guimenu> and "
-"<guimenu>Help</guimenu> menu items, for more information read the sections "
-"about the <ulink url=\"help:/fundamentals/menus.html#menus-"
-"settings\">Settings Menu</ulink> and <ulink "
-"url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the "
-"&kde; Fundamentals."
+"&kmouth; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</"
+"guimenu> menu items, for more information read the sections about the <ulink "
+"url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> "
+"and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</"
+"ulink> of the &kde; Fundamentals."
 msgstr ""
 
 # automatic translation
@@ -990,16 +990,15 @@ msgstr ""
 #: index.docbook:586
 #, no-c-format
 msgid ""
-"<guimenu>File</guimenu> <guimenuitem>Import Standard Phrase "
-"Book</guimenuitem>"
+"<guimenu>File</guimenu> <guimenuitem>Import Standard Phrase Book</"
+"guimenuitem>"
 msgstr ""
 
 # automatic translation
 #. Tag: action
 #: index.docbook:590 index.docbook:693
 #, no-c-format
-msgid ""
-"Imports a standard phrase book and adds its contents to the phrase book"
+msgid "Imports a standard phrase book and adds its contents to the phrase book"
 msgstr ""
 
 # automatic translation
@@ -1183,8 +1182,7 @@ msgstr ""
 #: index.docbook:754
 #, no-c-format
 msgid ""
-"Program copyright 2002-2004 Gunnar Schmi Dt <email>gunnar@schmi-"
-"dt.de</email>"
+"Program copyright 2002-2004 Gunnar Schmi Dt <email>gunnar@schmi-dt.de</email>"
 msgstr ""
 
 # automatic translation
@@ -1192,8 +1190,8 @@ msgstr ""
 #: index.docbook:757
 #, no-c-format
 msgid ""
-"Documentation copyright 2002-2004 Gunnar Schmi Dt <email>gunnar@schmi-"
-"dt.de</email>"
+"Documentation copyright 2002-2004 Gunnar Schmi Dt <email>gunnar@schmi-dt.de</"
+"email>"
 msgstr ""
 
 # automatic translation

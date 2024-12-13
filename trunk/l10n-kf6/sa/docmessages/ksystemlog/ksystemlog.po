@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-10-04 00:30+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -61,10 +63,10 @@ msgstr ""
 #: index.docbook:34
 #, no-c-format
 msgid ""
-"&ksystemlog; is a system log viewer tool by &kde;. This program is developed"
-" for beginner users who don't know how to find information about their "
-"system or where the log files are located. It is also designed for advanced "
-"users who want to quickly see problems occuring on their server."
+"&ksystemlog; is a system log viewer tool by &kde;. This program is developed "
+"for beginner users who don't know how to find information about their system "
+"or where the log files are located. It is also designed for advanced users "
+"who want to quickly see problems occuring on their server."
 msgstr ""
 
 # automatic translation
@@ -222,8 +224,8 @@ msgstr ""
 #: index.docbook:109
 #, no-c-format
 msgid ""
-"Support for many different log files type, with the support of Syslog server"
-" formating, Samba"
+"Support for many different log files type, with the support of Syslog server "
+"formating, Samba"
 msgstr ""
 
 # automatic translation
@@ -394,8 +396,8 @@ msgstr ""
 #: index.docbook:151
 #, no-c-format
 msgid ""
-"As you will see in the following screenshots, &ksystemlog; provides features"
-" to easily sort and filter log lines. We are now going to describe them in "
+"As you will see in the following screenshots, &ksystemlog; provides features "
+"to easily sort and filter log lines. We are now going to describe them in "
 "the next parts of this documentation."
 msgstr ""
 
@@ -412,8 +414,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When you start &ksystemlog;, by default it tries to open the most useful "
-"log, the <guilabel>System Log</guilabel>. If it does not display it and pops"
-" up a message box, you probably forgot to launch &ksystemlog; as an "
+"log, the <guilabel>System Log</guilabel>. If it does not display it and pops "
+"up a message box, you probably forgot to launch &ksystemlog; as an "
 "administrator user (commonly named root). The log files are usually "
 "available in the /var/log folder, which is often protected against normal "
 "users. In the settings dialog you can select another log to open at startup."
@@ -455,13 +457,12 @@ msgid ""
 "Every log lines are displayed in a list view, which can be sorted by "
 "clicking on the wanted column. Another click will sort it in the other "
 "order. If you want to sort the list as it was on the first loading, you can "
-"use the "
-"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Reload</guimenuitem></menuchoice>"
-" menu item, or simply click on the first column of the list, generally named"
-" <guilabel>Date</guilabel>, to sort the list in the ascending order. Even if"
-" your log mode does not use time to describe each log lines, for example the"
-" <guilabel>X.org Log</guilabel>, the list will be correctly sorted, because "
-"&ksystemlog; keeps an internal order of the list."
+"use the <menuchoice><guimenu>Edit</guimenu><guimenuitem>Reload</"
+"guimenuitem></menuchoice> menu item, or simply click on the first column of "
+"the list, generally named <guilabel>Date</guilabel>, to sort the list in the "
+"ascending order. Even if your log mode does not use time to describe each "
+"log lines, for example the <guilabel>X.org Log</guilabel>, the list will be "
+"correctly sorted, because &ksystemlog; keeps an internal order of the list."
 msgstr ""
 
 # automatic translation
@@ -490,12 +491,12 @@ msgstr ""
 #: index.docbook:208
 #, no-c-format
 msgid ""
-"You can also use the filter bar to filter according to the selected criteria"
-" and the typed string. Simply type something in the filter, and the list "
-"will automatically be modified to only display lines which match your filter"
-" string. By default, the combo box next to the filter selects "
-"<guilabel>All</guilabel>, which means that a line will be displayed only if "
-"one of its columns contains the filter string."
+"You can also use the filter bar to filter according to the selected criteria "
+"and the typed string. Simply type something in the filter, and the list will "
+"automatically be modified to only display lines which match your filter "
+"string. By default, the combo box next to the filter selects <guilabel>All</"
+"guilabel>, which means that a line will be displayed only if one of its "
+"columns contains the filter string."
 msgstr ""
 
 # automatic translation
@@ -530,9 +531,8 @@ msgstr ""
 msgid ""
 "This option is activated by default and helps you see which lines have a "
 "higher level than the others. For example, <guilabel>Error</guilabel> level "
-"will be highlighted in a different color than the "
-"<guilabel>Notice</guilabel> one. This feature can be disabled in the "
-"configuration dialog."
+"will be highlighted in a different color than the <guilabel>Notice</"
+"guilabel> one. This feature can be disabled in the configuration dialog."
 msgstr ""
 
 # automatic translation
@@ -550,9 +550,9 @@ msgid ""
 "If you are only interested in a specific process (for example in the "
 "<guilabel>System Log</guilabel> or the <guilabel>Cron Log</guilabel>), you "
 "can hide its PID in the <guilabel>Process</guilabel> column. This can be "
-"useful if you are trying to analyze the output of a specific command, like a"
-" Samba server. In this case, please use the <link "
-"linkend=\"filtering\">Filter Bar</link>."
+"useful if you are trying to analyze the output of a specific command, like a "
+"Samba server. In this case, please use the <link linkend=\"filtering"
+"\">Filter Bar</link>."
 msgstr ""
 
 # automatic translation
@@ -568,8 +568,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The context menu has an action <guilabel>Email Selection</guilabel>. Select "
-"relevant lines in the log and use this action to open the composer window of"
-" your default email client prefilled with the selection."
+"relevant lines in the log and use this action to open the composer window of "
+"your default email client prefilled with the selection."
 msgstr ""
 
 # automatic translation
@@ -590,9 +590,8 @@ msgid ""
 "can deactivate the monitoring of log files by clicking on the "
 "<guibutton>Stop</guibutton> button. This stops the opened log files from "
 "being updated while still letting them get filled by other processes. Of "
-"course, you can reactivate the monitoring by clicking on "
-"<guibutton>Resume</guibutton>, which will display the log lines added since "
-"the last pause."
+"course, you can reactivate the monitoring by clicking on <guibutton>Resume</"
+"guibutton>, which will display the log lines added since the last pause."
 msgstr ""
 
 # automatic translation

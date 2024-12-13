@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -36,12 +38,11 @@ msgstr ""
 #: resizehowto.docbook:17
 #, no-c-format
 msgid ""
-"On <glossterm linkend=\"glossary-device\">device</glossterm> "
-"<quote>/dev/sdb</quote>, partition <quote>sdb2</quote> has only little free "
-"space left while the other partition, <quote>sdb1</quote>, is far from being"
-" full. For that reason it seems advisable to make the first partition a "
-"little smaller and grow <quote>sdb2</quote> so it has more free space "
-"available."
+"On <glossterm linkend=\"glossary-device\">device</glossterm> <quote>/dev/"
+"sdb</quote>, partition <quote>sdb2</quote> has only little free space left "
+"while the other partition, <quote>sdb1</quote>, is far from being full. For "
+"that reason it seems advisable to make the first partition a little smaller "
+"and grow <quote>sdb2</quote> so it has more free space available."
 msgstr ""
 
 # automatic translation
@@ -56,8 +57,8 @@ msgstr ""
 #: resizehowto.docbook:23
 #, no-c-format
 msgid ""
-"In the screenshot above both partitions are not currently mounted. If one or"
-" both of them were mounted you would have to unmount them first using <xref "
+"In the screenshot above both partitions are not currently mounted. If one or "
+"both of them were mounted you would have to unmount them first using <xref "
 "linkend=\"menu-partition-mount\"/>."
 msgstr ""
 
@@ -84,8 +85,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The dialog allows you to resize the partition in multiple ways. You can "
-"either drag the right handle to the left until the partition has the desired"
-" size or simply enter the size in the <guilabel>Size</guilabel> text field. "
+"either drag the right handle to the left until the partition has the desired "
+"size or simply enter the size in the <guilabel>Size</guilabel> text field. "
 "Another possibility would be to adjust the size by clicking on the little "
 "arrows next to the text field, but that is a little tedious for larger "
 "changes."
@@ -138,9 +139,9 @@ msgstr ""
 msgid ""
 "Although the main window reflects the device's state how it will be after "
 "applying the new operation, the operation has in fact not been applied yet: "
-"While operations are pending you can still undo them (one by one using <xref"
-" linkend=\"menu-edit-undo\"/> or <xref linkend=\"menu-edit-clear\"/> to undo"
-" all of them) or quit &partman;, and nothing will have been modified at all."
+"While operations are pending you can still undo them (one by one using <xref "
+"linkend=\"menu-edit-undo\"/> or <xref linkend=\"menu-edit-clear\"/> to undo "
+"all of them) or quit &partman;, and nothing will have been modified at all."
 msgstr ""
 
 # automatic translation
@@ -151,8 +152,8 @@ msgid ""
 "Now that there is some free space between the two partitions you can move "
 "and grow partition <quote>sdb2</quote>. First, click on <quote>sdb2</quote> "
 "and choose <xref linkend=\"menu-partition-resize\"/> again. The resize "
-"dialog comes up once more, this time for the second partition. Drag its left"
-" handle to the leftmost end so that the dialog looks like this:"
+"dialog comes up once more, this time for the second partition. Drag its left "
+"handle to the leftmost end so that the dialog looks like this:"
 msgstr ""
 
 # automatic translation
@@ -167,9 +168,9 @@ msgstr ""
 #: resizehowto.docbook:87
 #, no-c-format
 msgid ""
-"Be careful to make sure that the <guilabel>Free space before</guilabel> text"
-" field really does show <quote>0 MiB</quote> because otherwise there will be"
-" a little free space left between the partitions that will then be wasted."
+"Be careful to make sure that the <guilabel>Free space before</guilabel> text "
+"field really does show <quote>0 MiB</quote> because otherwise there will be "
+"a little free space left between the partitions that will then be wasted."
 msgstr ""
 
 # automatic translation
@@ -193,10 +194,10 @@ msgstr ""
 #: resizehowto.docbook:104
 #, no-c-format
 msgid ""
-"This already looks like what you wanted, so choose <xref linkend=\"menu-"
-"edit-apply\"/>. A dialog box will come up and ask you if you are sure to "
-"apply the pending operations. Confirm this dialog box and &partman; will "
-"begin executing operations:"
+"This already looks like what you wanted, so choose <xref linkend=\"menu-edit-"
+"apply\"/>. A dialog box will come up and ask you if you are sure to apply "
+"the pending operations. Confirm this dialog box and &partman; will begin "
+"executing operations:"
 msgstr ""
 
 # automatic translation
@@ -277,8 +278,8 @@ msgstr ""
 msgid ""
 "This report is particularly of interest if an error occurs while executing "
 "operations. A report shows each operation, each job and each external "
-"command that is being run and is thus very helpful when trying to track down"
-" problems."
+"command that is being run and is thus very helpful when trying to track down "
+"problems."
 msgstr ""
 
 # automatic translation
@@ -286,8 +287,8 @@ msgstr ""
 #: resizehowto.docbook:159
 #, no-c-format
 msgid ""
-"You can save the report as <acronym>HTML</acronym> or view it in an external"
-" web browser."
+"You can save the report as <acronym>HTML</acronym> or view it in an external "
+"web browser."
 msgstr ""
 
 # automatic translation
@@ -297,8 +298,8 @@ msgstr ""
 msgid ""
 "Always save the detailed report as <acronym>HTML</acronym> when executing "
 "the operations fails with errors or warnings for later reference. You might "
-"also want to include it in a bug report you submit to the &kde; bug tracking"
-" system at <ulink url=\"https://bugs.kde.org\">bugs.kde.org</ulink>."
+"also want to include it in a bug report you submit to the &kde; bug tracking "
+"system at <ulink url=\"https://bugs.kde.org\">bugs.kde.org</ulink>."
 msgstr ""
 
 # automatic translation

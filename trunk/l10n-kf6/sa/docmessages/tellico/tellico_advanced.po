@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-03-15 02:06+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -27,11 +29,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "When running &appname; from the command line, there are several options for "
-"opening data files. They may be seen by running <userinput>tellico "
-"--help</userinput>. Diagnostic logging can also be enabled, which will make "
-"a <link linkend=\"settings-help-menu\">menu item</link> to show the "
-"diagnostic log. The <userinput>--logfile</userinput> option redirects the "
-"log to a file."
+"opening data files. They may be seen by running <userinput>tellico --help</"
+"userinput>. Diagnostic logging can also be enabled, which will make a <link "
+"linkend=\"settings-help-menu\">menu item</link> to show the diagnostic log. "
+"The <userinput>--logfile</userinput> option redirects the log to a file."
 msgstr ""
 
 # automatic translation
@@ -69,8 +70,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&appname; has a minimal &DBus; interface, which can be useful for scripting "
-"or interacting with a running application from the command-line. As with all"
-" &DBus; calls, you need to specify the service you want to interface with, "
+"or interacting with a running application from the command-line. As with all "
+"&DBus; calls, you need to specify the service you want to interface with, "
 "and the particular interface. The name of the &DBus; service is "
 "<constant>org.kde.tellico</constant>."
 msgstr ""
@@ -147,8 +148,8 @@ msgstr ""
 #: advanced.docbook:38
 #, no-c-format
 msgid ""
-"For any of the commands to export text, a file name of "
-"<filename>--</filename> will pipe to the standard output."
+"For any of the commands to export text, a file name of <filename>--</"
+"filename> will pipe to the standard output."
 msgstr ""
 
 # automatic translation
@@ -195,8 +196,8 @@ msgstr ""
 #: advanced.docbook:52
 #, no-c-format
 msgid ""
-"Given an entry ID, <command>showEntry()</command> will select that entry and"
-" show the entry details in the main window."
+"Given an entry ID, <command>showEntry()</command> will select that entry and "
+"show the entry details in the main window."
 msgstr ""
 
 # automatic translation
@@ -237,8 +238,8 @@ msgstr ""
 msgid ""
 "A new empty entry may be created in the current collection using the "
 "<command>addEntry()</command> command. The return value is the entry ID, "
-"which can then be used to set the field values in the entry. An entry can be"
-" deleted from the collection by calling <command>removeEntry()</command>."
+"which can then be used to set the field values in the entry. An entry can be "
+"deleted from the collection by calling <command>removeEntry()</command>."
 msgstr ""
 
 # automatic translation
@@ -259,8 +260,8 @@ msgstr ""
 msgid ""
 "If the current collection is a bibliography, calling "
 "<command>selectedBibtexKeys()</command> will return the Bibtex citation key "
-"for all selected entries. The bibtexKey for a specific entry may be found by"
-" using the <command>entryBibtexKey()</command> command."
+"for all selected entries. The bibtexKey for a specific entry may be found by "
+"using the <command>entryBibtexKey()</command> command."
 msgstr ""
 
 # automatic translation
@@ -268,9 +269,9 @@ msgstr ""
 #: advanced.docbook:74
 #, no-c-format
 msgid ""
-"Entries can be edited directly with the &DBus; interface. Given an entry ID,"
-" <command>setEntryValue()</command> will set the field value directly. To "
-"add a value, without affecting the existing values, use "
+"Entries can be edited directly with the &DBus; interface. Given an entry ID, "
+"<command>setEntryValue()</command> will set the field value directly. To add "
+"a value, without affecting the existing values, use "
 "<command>addEntryValue()</command>. The new value gets appended to the end "
 "of the existing list."
 msgstr ""
@@ -298,7 +299,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Open a Bibtex file</emphasis>\n"
-"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Tellico org.kde.tellico.importBibtex \"/home/robby/reference.bib\" \"replace\"</userinput>\n"
+"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Tellico org.kde.tellico."
+"importBibtex \"/home/robby/reference.bib\" \"replace\"</userinput>\n"
 "<computeroutput>true</computeroutput>"
 msgstr ""
 
@@ -308,7 +310,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Export a Bibtex file</emphasis>\n"
-"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Tellico org.kde.tellico.exportBibtex ~/documents/reference.bib</userinput>\n"
+"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Tellico org.kde.tellico."
+"exportBibtex ~/documents/reference.bib</userinput>\n"
 "<computeroutput>true</computeroutput>"
 msgstr ""
 
@@ -318,7 +321,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Export a Bibtex file using the current filter</emphasis>\n"
-"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Tellico org.kde.tellico.exportBibtex ~/documents/reference.bib true</userinput>\n"
+"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Tellico org.kde.tellico."
+"exportBibtex ~/documents/reference.bib true</userinput>\n"
 "<computeroutput>true</computeroutput>"
 msgstr ""
 
@@ -328,7 +332,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Echo the citation key of the current selection</emphasis>\n"
-"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Collections org.kde.tellico.selectedBibtexKeys</userinput>\n"
+"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Collections org.kde."
+"tellico.selectedBibtexKeys</userinput>\n"
 "<computeroutput>stephenson2004</computeroutput>"
 msgstr ""
 
@@ -338,7 +343,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<emphasis>Add a new entry and set the title</emphasis>\n"
-"<prompt>%</prompt> <userinput>myid=`qdbus org.kde.tellico /Collections org.kde.tellico.addEntry`</userinput>\n"
-"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Collections org.kde.tellico.setEntryValue $myid title \"My New Book\"</userinput>\n"
+"<prompt>%</prompt> <userinput>myid=`qdbus org.kde.tellico /Collections org."
+"kde.tellico.addEntry`</userinput>\n"
+"<prompt>%</prompt> <userinput>qdbus org.kde.tellico /Collections org.kde."
+"tellico.setEntryValue $myid title \"My New Book\"</userinput>\n"
 "<computeroutput>true</computeroutput>"
 msgstr ""

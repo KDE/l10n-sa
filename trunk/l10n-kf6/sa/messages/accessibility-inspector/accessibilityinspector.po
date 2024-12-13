@@ -6,8 +6,20 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-08-12 00:36+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
 
 # automatic translation
 #. i18n: ectx: Menu (edit)
@@ -52,6 +64,12 @@ msgstr ""
 #: accessibletreeview.cpp:64
 #, kde-format
 msgid "Expand All"
+msgstr ""
+
+#: accessibletreewidget.cpp:26
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter..."
 msgstr ""
 
 # automatic translation
@@ -102,10 +120,160 @@ msgstr ""
 msgid "Carl Schwan"
 msgstr ""
 
+#: clientcachedialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Cache"
+msgstr ""
+
+#: clientcachedialog.cpp:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr ""
+
+#: clientcachedialog.cpp:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear"
+msgstr ""
+
+#: clientcachedialog.cpp:50
+#, kde-format
+msgctxt "@label"
+msgid "Strategy:"
+msgstr ""
+
+#: clientcachedialog.cpp:55
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Disable"
+msgstr ""
+
+#: clientcachedialog.cpp:56
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Weak"
+msgstr ""
+
+#: clientcachedialog.cpp:65
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Count:"
+msgstr ""
+
+#: clientcachedialog.cpp:101
+#, kde-format
+msgctxt "@title:row"
+msgid "Name"
+msgstr ""
+
+#: clientcachedialog.cpp:101
+#, kde-format
+msgctxt "@title:row"
+msgid "Role"
+msgstr ""
+
+#: clientcachedialog.cpp:101
+#, kde-format
+msgctxt "@title:row"
+msgid "Identifier"
+msgstr ""
+
+#: eventview.cpp:63
+#, kde-format
+msgctxt "@label"
+msgid "Accessible"
+msgstr ""
+
+#: eventview.cpp:65
+#, kde-format
+msgctxt "@label"
+msgid "Role"
+msgstr ""
+
+#: eventview.cpp:67
+#, kde-format
+msgctxt "@label"
+msgid "Event"
+msgstr ""
+
+#: eventview.cpp:69
+#, kde-format
+msgctxt "@label"
+msgid "Action"
+msgstr ""
+
 # automatic translation
 #: eventview.cpp:194
 #, kde-format
 msgid "Displays all received events"
+msgstr ""
+
+#: eventview.cpp:264
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Focus"
+msgstr ""
+
+#: eventview.cpp:267
+#, kde-format
+msgctxt "Accessibility event name: state changed"
+msgid "State"
+msgstr ""
+
+#: eventview.cpp:270
+#, kde-format
+msgctxt "Accessibility event name: name changed"
+msgid "Name"
+msgstr ""
+
+#: eventview.cpp:273
+#, kde-format
+msgctxt "Accessibility event name: description changed"
+msgid "Description"
+msgstr ""
+
+#: eventview.cpp:276
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Window"
+msgstr ""
+
+#: eventview.cpp:279
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Document"
+msgstr ""
+
+#: eventview.cpp:282
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Object"
+msgstr ""
+
+#: eventview.cpp:285
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Text"
+msgstr ""
+
+#: eventview.cpp:288
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Table"
+msgstr ""
+
+#: eventview.cpp:291
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Others"
+msgstr ""
+
+#: eventview.cpp:294
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "No Event"
 msgstr ""
 
 # automatic translation
@@ -116,8 +284,7 @@ msgid "Form"
 msgstr ""
 
 # automatic translation
-#. i18n: ectx: property (placeholderText), widget (QLineEdit,
-#. accessibleFilterEdit)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, accessibleFilterEdit)
 #: eventview.ui:32
 #, kde-format
 msgid "Accessible Filter"
@@ -150,6 +317,24 @@ msgstr ""
 #: eventview.ui:68
 #, kde-format
 msgid "&Clear"
+msgstr ""
+
+#: mainwidget.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties"
+msgstr ""
+
+#: mainwidget.cpp:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Events"
+msgstr ""
+
+#: mainwidget.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Boundaries"
 msgstr ""
 
 # automatic translation
@@ -222,6 +407,42 @@ msgstr ""
 #: mainwidget.cpp:321
 #, kde-format
 msgid "Text caret moved (%1)"
+msgstr ""
+
+#: mainwindow.cpp:73
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reset Tree"
+msgstr ""
+
+#: mainwindow.cpp:79
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Follow Focus"
+msgstr ""
+
+#: mainwindow.cpp:86
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cache..."
+msgstr ""
+
+#: mainwindow.cpp:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Accessibility"
+msgstr ""
+
+#: mainwindow.cpp:101
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Screen Reader"
+msgstr ""
+
+#: mainwindow.cpp:112 propertytreeview.cpp:34
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy property value"
 msgstr ""
 
 # automatic translation
@@ -536,226 +757,6 @@ msgstr ""
 #: model/accessiblepropertiesmodel.cpp:336
 #, kde-format
 msgid "Action"
-msgstr ""
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#: accessibletreewidget.cpp:26
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Filter..."
-msgstr ""
-
-#: clientcachedialog.cpp:29
-#, kde-format
-msgctxt "@title:window"
-msgid "Cache"
-msgstr ""
-
-#: mainwidget.cpp:50
-#, kde-format
-msgctxt "@title:window"
-msgid "Properties"
-msgstr ""
-
-#: mainwidget.cpp:51
-#, kde-format
-msgctxt "@title:window"
-msgid "Events"
-msgstr ""
-
-#: mainwidget.cpp:52
-#, kde-format
-msgctxt "@title:window"
-msgid "Boundaries"
-msgstr ""
-
-#: clientcachedialog.cpp:44
-#, kde-format
-msgctxt "@action:button"
-msgid "Refresh"
-msgstr ""
-
-#: clientcachedialog.cpp:47
-#, kde-format
-msgctxt "@action:button"
-msgid "Clear"
-msgstr ""
-
-#: clientcachedialog.cpp:50
-#, kde-format
-msgctxt "@label"
-msgid "Strategy:"
-msgstr ""
-
-#: eventview.cpp:63
-#, kde-format
-msgctxt "@label"
-msgid "Accessible"
-msgstr ""
-
-#: eventview.cpp:65
-#, kde-format
-msgctxt "@label"
-msgid "Role"
-msgstr ""
-
-#: eventview.cpp:67
-#, kde-format
-msgctxt "@label"
-msgid "Event"
-msgstr ""
-
-#: eventview.cpp:69
-#, kde-format
-msgctxt "@label"
-msgid "Action"
-msgstr ""
-
-#: clientcachedialog.cpp:55
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Disable"
-msgstr ""
-
-#: clientcachedialog.cpp:56
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Weak"
-msgstr ""
-
-#: clientcachedialog.cpp:65
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Count:"
-msgstr ""
-
-#: clientcachedialog.cpp:101
-#, kde-format
-msgctxt "@title:row"
-msgid "Name"
-msgstr ""
-
-#: clientcachedialog.cpp:101
-#, kde-format
-msgctxt "@title:row"
-msgid "Role"
-msgstr ""
-
-#: clientcachedialog.cpp:101
-#, kde-format
-msgctxt "@title:row"
-msgid "Identifier"
-msgstr ""
-
-#: eventview.cpp:264
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "Focus"
-msgstr ""
-
-#: eventview.cpp:276
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "Window"
-msgstr ""
-
-#: eventview.cpp:279
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "Document"
-msgstr ""
-
-#: eventview.cpp:282
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "Object"
-msgstr ""
-
-#: eventview.cpp:285
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "Text"
-msgstr ""
-
-#: eventview.cpp:288
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "Table"
-msgstr ""
-
-#: eventview.cpp:291
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "Others"
-msgstr ""
-
-#: eventview.cpp:294
-#, kde-format
-msgctxt "Accessibility event name"
-msgid "No Event"
-msgstr ""
-
-#: eventview.cpp:267
-#, kde-format
-msgctxt "Accessibility event name: state changed"
-msgid "State"
-msgstr ""
-
-#: eventview.cpp:270
-#, kde-format
-msgctxt "Accessibility event name: name changed"
-msgid "Name"
-msgstr ""
-
-#: eventview.cpp:273
-#, kde-format
-msgctxt "Accessibility event name: description changed"
-msgid "Description"
-msgstr ""
-
-#: mainwindow.cpp:73
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Reset Tree"
-msgstr ""
-
-#: mainwindow.cpp:79
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Follow Focus"
-msgstr ""
-
-#: mainwindow.cpp:86
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Cache..."
-msgstr ""
-
-#: mainwindow.cpp:91
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Enable Accessibility"
-msgstr ""
-
-#: mainwindow.cpp:101
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Enable Screen Reader"
-msgstr ""
-
-#: mainwindow.cpp:112 propertytreeview.cpp:34
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Copy property value"
 msgstr ""
 
 #: propertytreeview.cpp:14

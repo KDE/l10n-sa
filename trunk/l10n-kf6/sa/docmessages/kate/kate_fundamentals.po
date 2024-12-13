@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-19 00:46+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: trans_comment
@@ -27,10 +29,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "If you have ever used a text editor, you will have no problem using &kate;. "
-"In the next two sections, <link linkend=\"starting-kate\">Starting &kate; "
-"</link> and in <link linkend=\"working-with-kate\">Working with "
-"&kate;</link>, we will show you everything you need to get up and running "
-"quickly."
+"In the next two sections, <link linkend=\"starting-kate\">Starting &kate; </"
+"link> and in <link linkend=\"working-with-kate\">Working with &kate;</link>, "
+"we will show you everything you need to get up and running quickly."
 msgstr ""
 
 # automatic translation
@@ -62,10 +63,9 @@ msgstr ""
 msgid ""
 "Open the &kde; program menu by clicking on the application launcher icon on "
 "the toolbar at the bottom left of your screen. This will raise a menu. Move "
-"your cursor up the menu to the "
-"<menuchoice><guimenu>Applications</guimenu><guisubmenu>Utilities</guisubmenu>"
-" <guimenuitem>Advanced Text Editor &kate;</guimenuitem></menuchoice> menu "
-"item."
+"your cursor up the menu to the <menuchoice><guimenu>Applications</"
+"guimenu><guisubmenu>Utilities</guisubmenu> <guimenuitem>Advanced Text Editor "
+"&kate;</guimenuitem></menuchoice> menu item."
 msgstr ""
 
 # automatic translation
@@ -126,8 +126,8 @@ msgstr ""
 #: fundamentals.docbook:63
 #, no-c-format
 msgid ""
-"<prompt>%</prompt><userinput><command>mkdir</command> /tmp/kate -p "
-"&amp;&amp; export TMPDIR=/tmp/kate &amp;&amp; kate</userinput>"
+"<prompt>%</prompt><userinput><command>mkdir</command> /tmp/kate -p &amp;"
+"&amp; export TMPDIR=/tmp/kate &amp;&amp; kate</userinput>"
 msgstr ""
 
 # automatic translation
@@ -269,8 +269,7 @@ msgstr ""
 #. Tag: para
 #: fundamentals.docbook:138
 #, no-c-format
-msgid ""
-"Start &kate; with a new anonymous session, implies <option>-n</option>."
+msgid "Start &kate; with a new anonymous session, implies <option>-n</option>."
 msgstr ""
 
 # automatic translation
@@ -312,11 +311,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can use &kate; with this option as editor for typing in commit messages "
-"for version control systems like &git; or "
-"<application>Subversion</application>. These systems expect to block the "
-"editor till you have entered your message, because they then open the "
-"temporary file, which would be empty if &kate; immediately returned to the "
-"caller."
+"for version control systems like &git; or <application>Subversion</"
+"application>. These systems expect to block the editor till you have entered "
+"your message, because they then open the temporary file, which would be "
+"empty if &kate; immediately returned to the caller."
 msgstr ""
 
 # automatic translation
@@ -351,8 +349,8 @@ msgstr ""
 #: fundamentals.docbook:176
 #, no-c-format
 msgid ""
-"<command>kate</command> <option>--desktopfile</option> "
-"<parameter>filename</parameter>"
+"<command>kate</command> <option>--desktopfile</option> <parameter>filename</"
+"parameter>"
 msgstr ""
 
 # automatic translation
@@ -443,8 +441,8 @@ msgstr ""
 #: fundamentals.docbook:231
 #, no-c-format
 msgid ""
-"<link linkend=\"quick-start\">Quick Start</link> will show you how to toggle"
-" four simple options that will let you configure some of &kate;'s more "
+"<link linkend=\"quick-start\">Quick Start</link> will show you how to toggle "
+"four simple options that will let you configure some of &kate;'s more "
 "powerful features right away. <link linkend=\"keystroke-commands\"> "
 "Shortcuts</link> lays out some of the default keystroke shortcuts for those "
 "who can't or don't want to use a mouse."
@@ -471,8 +469,8 @@ msgstr ""
 #: fundamentals.docbook:248
 #, no-c-format
 msgid ""
-"When you start &kate; for the first time you will see two windows with white"
-" backgrounds. Above the two windows is a toolbar with the usual labeled "
+"When you start &kate; for the first time you will see two windows with white "
+"backgrounds. Above the two windows is a toolbar with the usual labeled "
 "icons. And above that, a menubar."
 msgstr ""
 
@@ -481,10 +479,9 @@ msgstr ""
 #: fundamentals.docbook:253
 #, no-c-format
 msgid ""
-"The left-hand window is a side bar. It combines the "
-"<guilabel>Documents</guilabel> and <guilabel>Filesystem Browser</guilabel> "
-"windows. Switch between the two by clicking on the tabs to the left of the "
-"window."
+"The left-hand window is a side bar. It combines the <guilabel>Documents</"
+"guilabel> and <guilabel>Filesystem Browser</guilabel> windows. Switch "
+"between the two by clicking on the tabs to the left of the window."
 msgstr ""
 
 # automatic translation
@@ -494,8 +491,8 @@ msgstr ""
 msgid ""
 "If you've started &kate; with a file, the right-hand window will show the "
 "file you are editing and the <guilabel>Documents</guilabel> on the side bar "
-"will show the name of the file. Use the <guilabel>Filesystem "
-"Browser</guilabel> window to open files."
+"will show the name of the file. Use the <guilabel>Filesystem Browser</"
+"guilabel> window to open files."
 msgstr ""
 
 # automatic translation
@@ -503,11 +500,10 @@ msgstr ""
 #: fundamentals.docbook:264
 #, no-c-format
 msgid ""
-"You can toggle all sidebar windows on and off in "
-"<menuchoice><guimenu>View</guimenu><guisubmenu>Tool "
-"Views</guisubmenu></menuchoice> menu or use <keycombo "
-"action=\"simul\">&Ctrl;&Alt;&Shift;<keycap>F</keycap></keycombo>. This menu "
-"offers you your first glimpse into &kate;'s power and flexibility."
+"You can toggle all sidebar windows on and off in <menuchoice><guimenu>View</"
+"guimenu><guisubmenu>Tool Views</guisubmenu></menuchoice> menu or use "
+"<keycombo action=\"simul\">&Ctrl;&Alt;&Shift;<keycap>F</keycap></keycombo>. "
+"This menu offers you your first glimpse into &kate;'s power and flexibility."
 msgstr ""
 
 # automatic translation
@@ -516,8 +512,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "In <guisubmenu>Tool Views</guisubmenu> you have a list of all enabled "
-"plugins. Click the checkbox in front of each item or click with the &LMB; on"
-" the tool buttons in the sidebar to toggle this tool view on and off."
+"plugins. Click the checkbox in front of each item or click with the &LMB; on "
+"the tool buttons in the sidebar to toggle this tool view on and off."
 msgstr ""
 
 # automatic translation
@@ -740,8 +736,8 @@ msgstr ""
 #: fundamentals.docbook:352
 #, no-c-format
 msgid ""
-"<keycombo action=\"simul\">&Shift;<keycap>F8</keycap></keycombo> / <keycombo"
-" action=\"simul\">&Ctrl;&Esc;</keycombo>"
+"<keycombo action=\"simul\">&Shift;<keycap>F8</keycap></keycombo> / <keycombo "
+"action=\"simul\">&Ctrl;&Esc;</keycombo>"
 msgstr ""
 
 # automatic translation
@@ -805,9 +801,9 @@ msgstr ""
 #: fundamentals.docbook:377
 #, no-c-format
 msgid ""
-"Additionally you can use the shortcuts provided by the <ulink "
-"url=\"help:/katepart/keybindings.html\">&katepart;</ulink> component and by "
-"all activated <link linkend=\"plugins\">&kate; plugins</link>."
+"Additionally you can use the shortcuts provided by the <ulink url=\"help:/"
+"katepart/keybindings.html\">&katepart;</ulink> component and by all "
+"activated <link linkend=\"plugins\">&kate; plugins</link>."
 msgstr ""
 
 # automatic translation
@@ -855,8 +851,8 @@ msgstr ""
 msgid ""
 "The &kate; Main Window is a standard &kde; application window, with the "
 "addition of side bars containing tool views. It has a menubar with all the "
-"common menus, and some more, and a toolbar providing access to commonly used"
-" commands."
+"common menus, and some more, and a toolbar providing access to commonly used "
+"commands."
 msgstr ""
 
 # automatic translation
@@ -926,13 +922,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kate; is capable of having more than one document open at the same time, "
-"and also of splitting the editing area into any number of frames, similar to"
-" how for example &konqueror; or the popular <application>emacs</application>"
-" text editor works. This way you can view several documents at the same "
-"time, or more instances of the same document, handy for example if your "
-"document contains definitions in the top that you want to see often for "
-"reference. Or you could view a program source header in one frame, while "
-"editing the implementation file in another."
+"and also of splitting the editing area into any number of frames, similar to "
+"how for example &konqueror; or the popular <application>emacs</application> "
+"text editor works. This way you can view several documents at the same time, "
+"or more instances of the same document, handy for example if your document "
+"contains definitions in the top that you want to see often for reference. Or "
+"you could view a program source header in one frame, while editing the "
+"implementation file in another."
 msgstr ""
 
 # automatic translation
@@ -1001,9 +997,9 @@ msgstr ""
 #: fundamentals.docbook:478
 #, no-c-format
 msgid ""
-"<link linkend=\"command-line-options\"><emphasis>Command line "
-"options</emphasis></link> that lets you select and start sessions when "
-"launching &kate; from the command line."
+"<link linkend=\"command-line-options\"><emphasis>Command line options</"
+"emphasis></link> that lets you select and start sessions when launching "
+"&kate; from the command line."
 msgstr ""
 
 # automatic translation
@@ -1011,9 +1007,8 @@ msgstr ""
 #: fundamentals.docbook:482
 #, no-c-format
 msgid ""
-"<link linkend=\"sessions-menu\"><emphasis>The Sessions "
-"menu</emphasis></link> that lets you switch, save, start and manage your "
-"sessions."
+"<link linkend=\"sessions-menu\"><emphasis>The Sessions menu</emphasis></"
+"link> that lets you switch, save, start and manage your sessions."
 msgstr ""
 
 # automatic translation
@@ -1021,9 +1016,8 @@ msgstr ""
 #: fundamentals.docbook:485
 #, no-c-format
 msgid ""
-"<link linkend=\"config-dialog-sessions\"><emphasis>Configuration "
-"options</emphasis></link> that lets you decide how sessions generally should"
-" behave."
+"<link linkend=\"config-dialog-sessions\"><emphasis>Configuration options</"
+"emphasis></link> that lets you decide how sessions generally should behave."
 msgstr ""
 
 # automatic translation
@@ -1057,8 +1051,8 @@ msgid ""
 "When opening files on the command line with <option>--start "
 "<replaceable>name</replaceable></option> or if a session is selected using "
 "the session chooser, the specified session is loaded prior to the files "
-"specified on the command line. To open files from the command line in a new,"
-" unnamed session, configure &kate; to start a new session as default in the "
+"specified on the command line. To open files from the command line in a new, "
+"unnamed session, configure &kate; to start a new session as default in the "
 "session page of the configuration dialog or use <option>--start</option> "
 "with an empty string: <replaceable>''</replaceable>."
 msgstr ""
@@ -1087,8 +1081,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To be able to quickly open/switch between files, Kate comes with a built-in "
-"quick open dialog. You can open it with <keycombo "
-"action=\"simul\">&Ctrl;&Alt;<keycap>O</keycap></keycombo>."
+"quick open dialog. You can open it with <keycombo action=\"simul\">&Ctrl;"
+"&Alt;<keycap>O</keycap></keycombo>."
 msgstr ""
 
 # automatic translation
@@ -1097,8 +1091,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Quick open can show all open documents in Kate as well as all files in open "
-"projects. To be able to see project files, you need to enable <link "
-"linkend=\"kate-application-plugin-projects\">Project Plugin</link>."
+"projects. To be able to see project files, you need to enable <link linkend="
+"\"kate-application-plugin-projects\">Project Plugin</link>."
 msgstr ""
 
 # automatic translation
@@ -1114,8 +1108,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Using quick open is very simple. Once you open it, just type the name or "
-"portions of the name of the file you want to open and quick open will filter"
-" the list based on what you typed. Hitting &Enter; opens the selected file, "
+"portions of the name of the file you want to open and quick open will filter "
+"the list based on what you typed. Hitting &Enter; opens the selected file, "
 "while &Esc; hides the quick open."
 msgstr ""
 
@@ -1125,9 +1119,9 @@ msgstr ""
 #, no-c-format
 msgid ""
 "By default, only the file name is matched while filtering. If you want to "
-"match path, you need to have a \"/\" in the typed text. For example: "
-"\"doc/index\" will match all the files that contain \"index\" inside the "
-"folder \"doc\"."
+"match path, you need to have a \"/\" in the typed text. For example: \"doc/"
+"index\" will match all the files that contain \"index\" inside the folder "
+"\"doc\"."
 msgstr ""
 
 # automatic translation
@@ -1137,8 +1131,8 @@ msgstr ""
 msgid ""
 "The documents which are already open are highlighted in bold and are listed "
 "at the top when the dialog opens. Also, when quick open shows up the "
-"previous open document is already selected so you can just press &Enter; and"
-" it will take you to that document."
+"previous open document is already selected so you can just press &Enter; and "
+"it will take you to that document."
 msgstr ""
 
 # automatic translation
@@ -1176,16 +1170,14 @@ msgstr ""
 #: fundamentals.docbook:566
 #, no-c-format
 msgid ""
-"<userinput>Current Project</userinput> - Show files from current project "
-"only"
+"<userinput>Current Project</userinput> - Show files from current project only"
 msgstr ""
 
 # automatic translation
 #. Tag: para
 #: fundamentals.docbook:567
 #, no-c-format
-msgid ""
-"<userinput>All Projects</userinput> - Show files from all open projects"
+msgid "<userinput>All Projects</userinput> - Show files from all open projects"
 msgstr ""
 
 # automatic translation
@@ -1278,13 +1270,12 @@ msgstr ""
 #: fundamentals.docbook:612
 #, no-c-format
 msgid ""
-"To employ What's This help, press <keycombo "
-"action=\"simul\">&Shift;<keycap>F1</keycap></keycombo> or use the "
-"<menuchoice><guimenu>Help</guimenu><guimenuitem>What's "
-"This</guimenuitem></menuchoice> menu item to enable What's This mode. The "
-"cursor will turn into an arrow with a question mark, and you can now click "
-"any element in the window to read the What's This help for that element, if "
-"it is available."
+"To employ What's This help, press <keycombo action=\"simul\">&Shift;"
+"<keycap>F1</keycap></keycombo> or use the <menuchoice><guimenu>Help</"
+"guimenu><guimenuitem>What's This</guimenuitem></menuchoice> menu item to "
+"enable What's This mode. The cursor will turn into an arrow with a question "
+"mark, and you can now click any element in the window to read the What's "
+"This help for that element, if it is available."
 msgstr ""
 
 # automatic translation
@@ -1316,10 +1307,10 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&kate; does not (yet!) provide any means for reading document related "
-"documentation. Depending on the file you are editing, you may find the <link"
-" linkend=\"kate-application-plugin-konsole\">Built in Terminal "
-"Emulator</link> helpful for viewing related &UNIX; manual pages or info "
-"documentation, or you can use &konqueror;."
+"documentation. Depending on the file you are editing, you may find the <link "
+"linkend=\"kate-application-plugin-konsole\">Built in Terminal Emulator</"
+"link> helpful for viewing related &UNIX; manual pages or info documentation, "
+"or you can use &konqueror;."
 msgstr ""
 
 # automatic translation
@@ -1334,7 +1325,7 @@ msgstr ""
 #: fundamentals.docbook:648
 #, no-c-format
 msgid ""
-"&kate;'s homepage provides some <ulink url=\"https://kate-"
-"editor.org/featured-articles\"> Articles and Howtos</ulink> with further "
-"information beyond the scope of this handbook."
+"&kate;'s homepage provides some <ulink url=\"https://kate-editor.org/"
+"featured-articles\"> Articles and Howtos</ulink> with further information "
+"beyond the scope of this handbook."
 msgstr ""

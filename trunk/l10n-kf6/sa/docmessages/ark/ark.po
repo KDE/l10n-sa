@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-03-26 00:46+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -166,8 +168,8 @@ msgstr ""
 #: index.docbook:70
 #, no-c-format
 msgid ""
-"&ark; is a program for viewing, extracting, creating and modifying archives."
-" &ark; can handle various archive formats such as <command>tar</command>, "
+"&ark; is a program for viewing, extracting, creating and modifying archives. "
+"&ark; can handle various archive formats such as <command>tar</command>, "
 "<command>gzip</command>, <command>bzip2</command>, <command>zip</command>, "
 "<command>rar</command>, <command>7zip</command>, <command>xz</command>, "
 "<command>rpm</command>, <command>cab</command>, <command>deb</command>, "
@@ -192,9 +194,9 @@ msgid ""
 "libarchive version 3.1 or above is needed to handle most archive types, "
 "including tar, compressed tar, rpm, deb and cab archives. To handle other "
 "file formats, you need the appropriate command line programs, such as "
-"<command>zipinfo</command>, <command>zip</command>, "
-"<command>unzip</command>, <command>rar</command>, <command>unrar</command>, "
-"<command>7z</command>, <command>lsar</command>, <command>unar</command> and "
+"<command>zipinfo</command>, <command>zip</command>, <command>unzip</"
+"command>, <command>rar</command>, <command>unrar</command>, <command>7z</"
+"command>, <command>lsar</command>, <command>unar</command> and "
 "<command>lrzip</command>."
 msgstr ""
 
@@ -219,9 +221,9 @@ msgstr ""
 msgid ""
 "To open an archive in &ark;, choose <guimenuitem>Open...</guimenuitem> "
 "(<keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>) from the "
-"<guimenu>Archive</guimenu> menu. You can also open archive files by dragging"
-" and dropping from &dolphin;. Archive files should be associated with &ark;,"
-" so you can also <mousebutton>right</mousebutton> click a file in &dolphin; "
+"<guimenu>Archive</guimenu> menu. You can also open archive files by dragging "
+"and dropping from &dolphin;. Archive files should be associated with &ark;, "
+"so you can also <mousebutton>right</mousebutton> click a file in &dolphin; "
 "and select <guimenuitem>Open with &ark;</guimenuitem> to open it or select "
 "an extract action for this file."
 msgstr ""
@@ -231,8 +233,8 @@ msgstr ""
 #: index.docbook:113
 #, no-c-format
 msgid ""
-"If you have enabled the information panel in the <guimenu>Settings</guimenu>"
-" menu additional information about the selected folders or files in the "
+"If you have enabled the information panel in the <guimenu>Settings</guimenu> "
+"menu additional information about the selected folders or files in the "
 "archive is displayed."
 msgstr ""
 
@@ -278,9 +280,8 @@ msgstr ""
 #: index.docbook:133
 #, no-c-format
 msgid ""
-"&ark; can handle comments embedded in <literal "
-"role=\"extension\">zip</literal> and <literal "
-"role=\"extension\">rar</literal> archives."
+"&ark; can handle comments embedded in <literal role=\"extension\">zip</"
+"literal> and <literal role=\"extension\">rar</literal> archives."
 msgstr ""
 
 # automatic translation
@@ -299,9 +300,8 @@ msgstr ""
 msgid ""
 "Using <literal role=\"extension\">rar</literal> archives you can modify a "
 "comment with the actions <guimenuitem>Add Comment</guimenuitem> or "
-"<guimenuitem>Edit comment</guimenuitem> (<keycombo "
-"action=\"simul\">&Alt;<keycap>C</keycap></keycombo>) from the "
-"<guimenu>Archive</guimenu> menu."
+"<guimenuitem>Edit comment</guimenuitem> (<keycombo action=\"simul\">&Alt;"
+"<keycap>C</keycap></keycombo>) from the <guimenu>Archive</guimenu> menu."
 msgstr ""
 
 # automatic translation
@@ -316,8 +316,8 @@ msgstr ""
 #: index.docbook:151
 #, no-c-format
 msgid ""
-"The comment menu item is enabled only for <literal "
-"role=\"extension\">rar</literal> archives."
+"The comment menu item is enabled only for <literal role=\"extension\">rar</"
+"literal> archives."
 msgstr ""
 
 # automatic translation
@@ -325,8 +325,8 @@ msgstr ""
 #: index.docbook:154
 #, no-c-format
 msgid ""
-"To remove a comment from a <literal role=\"extension\">rar</literal> archive"
-" delete the text in the comment window."
+"To remove a comment from a <literal role=\"extension\">rar</literal> archive "
+"delete the text in the comment window."
 msgstr ""
 
 # automatic translation
@@ -342,9 +342,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Once an archive has been opened, you can perform various operations on the "
-"files inside the archive. By selecting a file and using the "
-"<guimenu>File</guimenu> menu, you can choose different operations to "
-"perform:"
+"files inside the archive. By selecting a file and using the <guimenu>File</"
+"guimenu> menu, you can choose different operations to perform:"
 msgstr ""
 
 # automatic translation
@@ -352,10 +351,9 @@ msgstr ""
 #: index.docbook:171
 #, no-c-format
 msgid ""
-"<guimenuitem>Preview</guimenuitem> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo>) will open the file "
-"with &ark;'s internal viewer. This is a fast read-only viewer, but does not "
-"support all file types."
+"<guimenuitem>Preview</guimenuitem> (<keycombo action=\"simul\">&Ctrl;"
+"<keycap>P</keycap></keycombo>) will open the file with &ark;'s internal "
+"viewer. This is a fast read-only viewer, but does not support all file types."
 msgstr ""
 
 # automatic translation
@@ -381,13 +379,13 @@ msgstr ""
 #: index.docbook:184
 #, no-c-format
 msgid ""
-"<guimenuitem>Rename</guimenuitem> (<keycombo "
-"action=\"simul\">&Alt;<keycap>F2</keycap></keycombo>) This action allows to "
-"change names of both files and folders. As in the Dolphin file manager, this"
-" action can be called via a shortcut and renaming is done via inline "
-"editing. There are also filename checks provided, which prevent usage of "
-"invalid characters such as <userinput>/</userinput>, "
-"<userinput>.</userinput> and <userinput>..</userinput> in filenames."
+"<guimenuitem>Rename</guimenuitem> (<keycombo action=\"simul\">&Alt;"
+"<keycap>F2</keycap></keycombo>) This action allows to change names of both "
+"files and folders. As in the Dolphin file manager, this action can be called "
+"via a shortcut and renaming is done via inline editing. There are also "
+"filename checks provided, which prevent usage of invalid characters such as "
+"<userinput>/</userinput>, <userinput>.</userinput> and <userinput>..</"
+"userinput> in filenames."
 msgstr ""
 
 # automatic translation
@@ -405,11 +403,10 @@ msgstr ""
 #: index.docbook:195
 #, no-c-format
 msgid ""
-"<guimenuitem>Extract</guimenuitem> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo>) opens a submenu with "
-"previously accessed folders, and you can choose to quickly extract into any "
-"of these or browse to a non-listed folder. See the next section for more "
-"details on extraction."
+"<guimenuitem>Extract</guimenuitem> (<keycombo action=\"simul\">&Ctrl;"
+"<keycap>E</keycap></keycombo>) opens a submenu with previously accessed "
+"folders, and you can choose to quickly extract into any of these or browse "
+"to a non-listed folder. See the next section for more details on extraction."
 msgstr ""
 
 # automatic translation
@@ -417,18 +414,17 @@ msgstr ""
 #: index.docbook:201
 #, no-c-format
 msgid ""
-"<guimenuitem>Cut</guimenuitem> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo>) / "
-"<guimenuitem>Copy</guimenuitem> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>) / "
-"<guimenuitem>Paste</guimenuitem> (<keycombo "
-"action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo>): As in typical file "
-"managers, moving, pasting and copying are provided. Users can move or copy "
-"files from different folders (which are expandable in the tree view) and "
-"paste them to the same destination at once. A folder can be copied into "
-"itself, but can not be moved. There are also checks for conflicting "
-"filenames: You won't be able to copy or move files into a folder that has "
-"entries with the same names - that could lead to data loss."
+"<guimenuitem>Cut</guimenuitem> (<keycombo action=\"simul\">&Ctrl;<keycap>X</"
+"keycap></keycombo>) / <guimenuitem>Copy</guimenuitem> (<keycombo action="
+"\"simul\">&Ctrl;<keycap>C</keycap></keycombo>) / <guimenuitem>Paste</"
+"guimenuitem> (<keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></"
+"keycombo>): As in typical file managers, moving, pasting and copying are "
+"provided. Users can move or copy files from different folders (which are "
+"expandable in the tree view) and paste them to the same destination at once. "
+"A folder can be copied into itself, but can not be moved. There are also "
+"checks for conflicting filenames: You won't be able to copy or move files "
+"into a folder that has entries with the same names - that could lead to data "
+"loss."
 msgstr ""
 
 # automatic translation
@@ -436,11 +432,11 @@ msgstr ""
 #: index.docbook:211
 #, no-c-format
 msgid ""
-"<guimenuitem>Add Files</guimenuitem> (<keycombo "
-"action=\"simul\">&Alt;<keycap>A</keycap></keycombo>) This action can be used"
-" to add files at any location within the archive. If you select a folder and"
-" use this action, files will be added to the selected folder. Otherwise, the"
-" new files will be added to the root of the archive."
+"<guimenuitem>Add Files</guimenuitem> (<keycombo action=\"simul\">&Alt;"
+"<keycap>A</keycap></keycombo>) This action can be used to add files at any "
+"location within the archive. If you select a folder and use this action, "
+"files will be added to the selected folder. Otherwise, the new files will be "
+"added to the root of the archive."
 msgstr ""
 
 # automatic translation
@@ -455,10 +451,10 @@ msgstr ""
 #: index.docbook:221
 #, no-c-format
 msgid ""
-"If you edit and save a file which you opened using "
-"<guimenuitem>Open</guimenuitem> or <guimenuitem>Open With...</guimenuitem>, "
-"Ark will ask you if you want to update the file in the archive. If you "
-"answer Yes, the archive will be updated with the saved file."
+"If you edit and save a file which you opened using <guimenuitem>Open</"
+"guimenuitem> or <guimenuitem>Open With...</guimenuitem>, Ark will ask you if "
+"you want to update the file in the archive. If you answer Yes, the archive "
+"will be updated with the saved file."
 msgstr ""
 
 # automatic translation
@@ -474,13 +470,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Once an archive has been opened in &ark;, it can be extracted. This can be "
-"done by selecting <guisubmenu>Extract</guisubmenu> from the "
-"<guimenu>File</guimenu> menu. This opens a submenu with previously accessed "
-"folders, and you can choose to quickly extract into any of these. "
-"Alternatively, select the submenu item <guisubmenu>Extract "
-"To...</guisubmenu> to open the <guilabel>Extract</guilabel> dialog, where "
-"you can set various options that affect the extraction. See below for "
-"information on the available options in the Extract dialog."
+"done by selecting <guisubmenu>Extract</guisubmenu> from the <guimenu>File</"
+"guimenu> menu. This opens a submenu with previously accessed folders, and "
+"you can choose to quickly extract into any of these. Alternatively, select "
+"the submenu item <guisubmenu>Extract To...</guisubmenu> to open the "
+"<guilabel>Extract</guilabel> dialog, where you can set various options that "
+"affect the extraction. See below for information on the available options in "
+"the Extract dialog."
 msgstr ""
 
 # automatic translation
@@ -488,8 +484,8 @@ msgstr ""
 #: index.docbook:238
 #, no-c-format
 msgid ""
-"You can also use the <guibutton>Extract</guibutton> button in the toolbar to"
-" access the same extraction options."
+"You can also use the <guibutton>Extract</guibutton> button in the toolbar to "
+"access the same extraction options."
 msgstr ""
 
 # automatic translation
@@ -497,8 +493,8 @@ msgstr ""
 #: index.docbook:241
 #, no-c-format
 msgid ""
-"To extract the entire archive, you can select <guisubmenu>Extract "
-"All</guisubmenu> from the <guimenu>Archive</guimenu> menu. This action "
+"To extract the entire archive, you can select <guisubmenu>Extract All</"
+"guisubmenu> from the <guimenu>Archive</guimenu> menu. This action "
 "unconditionally extracts all files in the archive."
 msgstr ""
 
@@ -507,8 +503,8 @@ msgstr ""
 #: index.docbook:244
 #, no-c-format
 msgid ""
-"It is possible to extract files and folders by simply dragging them with the"
-" mouse to a folder in &dolphin;."
+"It is possible to extract files and folders by simply dragging them with the "
+"mouse to a folder in &dolphin;."
 msgstr ""
 
 # automatic translation
@@ -532,10 +528,10 @@ msgstr ""
 #: index.docbook:252
 #, no-c-format
 msgid ""
-"The <guilabel>Extract</guilabel> dialog allows you to choose where the files"
-" will be extracted to. The default location is the folder the archive is in."
-" The dialog can also be opened by pressing <keycombo "
-"action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo>."
+"The <guilabel>Extract</guilabel> dialog allows you to choose where the files "
+"will be extracted to. The default location is the folder the archive is in. "
+"The dialog can also be opened by pressing <keycombo action=\"simul\">&Ctrl;"
+"<keycap>E</keycap></keycombo>."
 msgstr ""
 
 # automatic translation
@@ -614,11 +610,11 @@ msgstr ""
 #, no-c-format
 msgid ""
 "You can then type the name of the archive, with the appropriate extension "
-"(<literal role=\"extension\">tar.gz</literal>, <literal "
-"role=\"extension\">zip</literal>, <literal role=\"extension\">7z</literal>, "
-"&etc;) or select a supported format in the <guilabel>Filter</guilabel> combo"
-" box and check the <guilabel>Automatically add <replaceable>filename "
-"extension</replaceable></guilabel> option."
+"(<literal role=\"extension\">tar.gz</literal>, <literal role=\"extension"
+"\">zip</literal>, <literal role=\"extension\">7z</literal>, &etc;) or select "
+"a supported format in the <guilabel>Filter</guilabel> combo box and check "
+"the <guilabel>Automatically add <replaceable>filename extension</"
+"replaceable></guilabel> option."
 msgstr ""
 
 # automatic translation
@@ -626,8 +622,8 @@ msgstr ""
 #: index.docbook:309
 #, no-c-format
 msgid ""
-"To add files or folders to the new archive, choose <guimenuitem>Add "
-"Files...</guimenuitem> from the <guimenu>Archive</guimenu> menu."
+"To add files or folders to the new archive, choose <guimenuitem>Add Files..."
+"</guimenuitem> from the <guimenu>Archive</guimenu> menu."
 msgstr ""
 
 # automatic translation
@@ -662,9 +658,9 @@ msgstr ""
 #: index.docbook:322
 #, no-c-format
 msgid ""
-"A higher value generates smaller archives, but results in longer compression"
-" and decompression times. The default compression level proposed by &ark; is"
-" usually a good compromise between size and (de)compression speed. For most "
+"A higher value generates smaller archives, but results in longer compression "
+"and decompression times. The default compression level proposed by &ark; is "
+"usually a good compromise between size and (de)compression speed. For most "
 "formats the minimum compression level is equivalent to just storing the "
 "files, &ie; applying no compression."
 msgstr ""
@@ -674,10 +670,9 @@ msgstr ""
 #: index.docbook:326
 #, no-c-format
 msgid ""
-"For <literal role=\"extension\">rar</literal>, <literal "
-"role=\"extension\">7z</literal> and <literal "
-"role=\"extension\">zip</literal> archives you can select between different "
-"compression methods."
+"For <literal role=\"extension\">rar</literal>, <literal role=\"extension"
+"\">7z</literal> and <literal role=\"extension\">zip</literal> archives you "
+"can select between different compression methods."
 msgstr ""
 
 # automatic translation
@@ -685,10 +680,10 @@ msgstr ""
 #: index.docbook:329
 #, no-c-format
 msgid ""
-"Note that using compression methods other than the pre-selected defaults may"
-" limit compatibility with file archivers. For example, opening <literal "
-"role=\"extension\">zip</literal> archives with compression methods other "
-"than <quote>Deflate</quote> requires newer archiving software."
+"Note that using compression methods other than the pre-selected defaults may "
+"limit compatibility with file archivers. For example, opening <literal role="
+"\"extension\">zip</literal> archives with compression methods other than "
+"<quote>Deflate</quote> requires newer archiving software."
 msgstr ""
 
 # automatic translation
@@ -703,13 +698,12 @@ msgstr ""
 #: index.docbook:336
 #, no-c-format
 msgid ""
-"If you create a <literal role=\"extension\">zip</literal>, <literal "
-"role=\"extension\">rar</literal>, <literal role=\"extension\">7zip</literal>"
-" and <literal role=\"extension\">jar</literal> archive you can protect it "
-"with a password. Currently, only the <literal "
-"role=\"extension\">zip</literal> format supports multiple encryption "
-"methods. For other formats that support only one encryption method, the "
-"method is shown in the drop down box."
+"If you create a <literal role=\"extension\">zip</literal>, <literal role="
+"\"extension\">rar</literal>, <literal role=\"extension\">7zip</literal> and "
+"<literal role=\"extension\">jar</literal> archive you can protect it with a "
+"password. Currently, only the <literal role=\"extension\">zip</literal> "
+"format supports multiple encryption methods. For other formats that support "
+"only one encryption method, the method is shown in the drop down box."
 msgstr ""
 
 # automatic translation
@@ -735,10 +729,9 @@ msgstr ""
 msgid ""
 "Choose whether to require the password before showing the list of files. "
 "This is called header encryption and is available only with the <literal "
-"role=\"extension\">rar</literal> and <literal "
-"role=\"extension\">7zip</literal> formats. Header encryption is enabled by "
-"default (when available), in order to offer the maximum protection for "
-"novice users."
+"role=\"extension\">rar</literal> and <literal role=\"extension\">7zip</"
+"literal> formats. Header encryption is enabled by default (when available), "
+"in order to offer the maximum protection for novice users."
 msgstr ""
 
 # automatic translation
@@ -753,10 +746,9 @@ msgstr ""
 #: index.docbook:363
 #, no-c-format
 msgid ""
-"With the <literal role=\"extension\">zip</literal>, <literal "
-"role=\"extension\">rar</literal> and <literal "
-"role=\"extension\">7z</literal> formats you can create multi-volume "
-"archives, also known as multi-part or split archives."
+"With the <literal role=\"extension\">zip</literal>, <literal role=\"extension"
+"\">rar</literal> and <literal role=\"extension\">7z</literal> formats you "
+"can create multi-volume archives, also known as multi-part or split archives."
 msgstr ""
 
 # automatic translation
@@ -776,14 +768,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "To create a multi-volume archive, check the <guilabel>Create multi-volume "
-"archive</guilabel> checkbox and set a maximum <guilabel>Volume "
-"size</guilabel> in the dialog. Then add all files to the archive and &ark; "
-"will automatically generate the required number of archive volumes. "
-"Depending on the selected format the files have an extension with "
-"consecutively numbering scheme &eg; <filename>xxx.7z.001</filename>, "
-"<filename>xxx.7z.002</filename> or <filename>xxx.zip.001</filename>, "
-"<filename>xxx.zip.002</filename> or <filename>xxx.part1.rar</filename>, "
-"<filename>xxx.part2.rar</filename> &etc;."
+"archive</guilabel> checkbox and set a maximum <guilabel>Volume size</"
+"guilabel> in the dialog. Then add all files to the archive and &ark; will "
+"automatically generate the required number of archive volumes. Depending on "
+"the selected format the files have an extension with consecutively numbering "
+"scheme &eg; <filename>xxx.7z.001</filename>, <filename>xxx.7z.002</filename> "
+"or <filename>xxx.zip.001</filename>, <filename>xxx.zip.002</filename> or "
+"<filename>xxx.part1.rar</filename>, <filename>xxx.part2.rar</filename> &etc;."
 msgstr ""
 
 # automatic translation
@@ -791,9 +782,9 @@ msgstr ""
 #: index.docbook:376
 #, no-c-format
 msgid ""
-"To extract a multi-volume archive, put all archive files into one folder and"
-" open the file with the lowest extension number in &ark; and all other parts"
-" of the split archive will be opened automatically."
+"To extract a multi-volume archive, put all archive files into one folder and "
+"open the file with the lowest extension number in &ark; and all other parts "
+"of the split archive will be opened automatically."
 msgstr ""
 
 # automatic translation
@@ -809,8 +800,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Clicking with the &RMB; on an archive in a file manager like &dolphin; "
-"displays a context menu with an item <guimenuitem>Extract</guimenuitem>. The"
-" menu has these additional items to extract an archive using &ark;:"
+"displays a context menu with an item <guimenuitem>Extract</guimenuitem>. The "
+"menu has these additional items to extract an archive using &ark;:"
 msgstr ""
 
 # automatic translation
@@ -857,8 +848,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<guimenuitem>Compress to \"Archive.tar.gz\"</guimenuitem> and "
-"<guimenuitem>Compress to \"Archive.zip\"</guimenuitem> creates these archive"
-" types in the current folder."
+"<guimenuitem>Compress to \"Archive.zip\"</guimenuitem> creates these archive "
+"types in the current folder."
 msgstr ""
 
 # automatic translation
@@ -883,8 +874,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "&ark; has an advanced batch mode to manage archives without launching a "
-"graphical user interface. This mode allows you to extract or create archives"
-" and add files to them."
+"graphical user interface. This mode allows you to extract or create archives "
+"and add files to them."
 msgstr ""
 
 # automatic translation
@@ -892,8 +883,8 @@ msgstr ""
 #: index.docbook:429
 #, no-c-format
 msgid ""
-"The batch mode is documented in <ulink url=\"man:/ark\">&ark;'s man "
-"page</ulink>."
+"The batch mode is documented in <ulink url=\"man:/ark\">&ark;'s man page</"
+"ulink>."
 msgstr ""
 
 # automatic translation
@@ -991,8 +982,7 @@ msgstr ""
 #. Tag: para
 #: index.docbook:461
 #, no-c-format
-msgid ""
-"Corel Corporation (author: Emily Ezust) <email>emilye@corel.com</email>"
+msgid "Corel Corporation (author: Emily Ezust) <email>emilye@corel.com</email>"
 msgstr ""
 
 # automatic translation
@@ -1000,8 +990,7 @@ msgstr ""
 #: index.docbook:463
 #, no-c-format
 msgid ""
-"Corel Corporation (author: Michael Jarrett) "
-"<email>michaelj@corel.com</email>"
+"Corel Corporation (author: Michael Jarrett) <email>michaelj@corel.com</email>"
 msgstr ""
 
 # automatic translation
@@ -1017,8 +1006,8 @@ msgstr ""
 #: index.docbook:470
 #, no-c-format
 msgid ""
-"Documentation updated for &kde; 3.3 by &Henrique.Pinto; "
-"&Henrique.Pinto.mail;."
+"Documentation updated for &kde; 3.3 by &Henrique.Pinto; &Henrique.Pinto."
+"mail;."
 msgstr ""
 
 # automatic translation
@@ -1026,8 +1015,8 @@ msgstr ""
 #: index.docbook:473
 #, no-c-format
 msgid ""
-"Documentation updated for KDE Applications 16.04 by &Ragnar.Thomsen; "
-"&Ragnar.Thomsen.mail;."
+"Documentation updated for KDE Applications 16.04 by &Ragnar.Thomsen; &Ragnar."
+"Thomsen.mail;."
 msgstr ""
 
 # automatic translation

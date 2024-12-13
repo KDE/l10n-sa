@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -19,8 +21,8 @@ msgstr ""
 #: glossary.docbook:4
 #, no-c-format
 msgid ""
-"In this chapter you will find an explanation of most of the "
-"<quote>uncommon</quote> words that are used in the handbook."
+"In this chapter you will find an explanation of most of the <quote>uncommon</"
+"quote> words that are used in the handbook."
 msgstr ""
 
 # automatic translation
@@ -67,7 +69,13 @@ msgid ""
 "forward 50\n"
 "pencolor 255,0,0\n"
 "print \"Hello!\"\n"
-"</screen> The <userinput>forward</userinput> command takes <userinput>50</userinput> as input. <userinput>forward</userinput> needs this input to know how many <glossterm linkend=\"pixels\">pixels</glossterm> it should go forward. <userinput>pencolor</userinput> takes a color as input and <userinput>print</userinput> takes a string (a piece of text) as input. Please note that the input can also be a container. The next example illustrates this:"
+"</screen> The <userinput>forward</userinput> command takes <userinput>50</"
+"userinput> as input. <userinput>forward</userinput> needs this input to know "
+"how many <glossterm linkend=\"pixels\">pixels</glossterm> it should go "
+"forward. <userinput>pencolor</userinput> takes a color as input and "
+"<userinput>print</userinput> takes a string (a piece of text) as input. "
+"Please note that the input can also be a container. The next example "
+"illustrates this:"
 msgstr ""
 
 # automatic translation
@@ -90,7 +98,14 @@ msgid ""
 "Now some examples of commands that give output: <screen>\n"
 "$x = ask \"Please type something and press OK... thanks!\"\n"
 "$r = random 1,100\n"
-"</screen> The <userinput>ask</userinput> command takes a string as input, and outputs the number or string that is entered. As you can see, the output of <userinput>ask</userinput> is stored in the container <userinput>x</userinput>. The <userinput>random</userinput> command also gives output. In this case it outputs a number between 1 and 100. The output of the random is again stored in a container, named <userinput>r</userinput>. Note that the containers <userinput>x</userinput> and <userinput>r</userinput> are not used in the example code above."
+"</screen> The <userinput>ask</userinput> command takes a string as input, "
+"and outputs the number or string that is entered. As you can see, the output "
+"of <userinput>ask</userinput> is stored in the container <userinput>x</"
+"userinput>. The <userinput>random</userinput> command also gives output. In "
+"this case it outputs a number between 1 and 100. The output of the random is "
+"again stored in a container, named <userinput>r</userinput>. Note that the "
+"containers <userinput>x</userinput> and <userinput>r</userinput> are not "
+"used in the example code above."
 msgstr ""
 
 # automatic translation
@@ -123,8 +138,8 @@ msgstr ""
 #: glossary.docbook:31
 #, no-c-format
 msgid ""
-"This is a feature of &kturtle; that makes coding even easier. With intuitive"
-" highlighting the code that you write gets a color that indicates what type "
+"This is a feature of &kturtle; that makes coding even easier. With intuitive "
+"highlighting the code that you write gets a color that indicates what type "
 "of code it is. In the next list you will find the different types of code "
 "and the color they get in <link linkend=\"the-editor\">the editor</link>."
 msgstr ""
@@ -154,7 +169,8 @@ msgstr ""
 #. Tag: entry
 #: glossary.docbook:39
 #, no-c-format
-msgid "The regular commands are described <link linkend=\"commands\">here</link>."
+msgid ""
+"The regular commands are described <link linkend=\"commands\">here</link>."
 msgstr ""
 
 # automatic translation
@@ -176,8 +192,8 @@ msgstr ""
 #: glossary.docbook:44
 #, no-c-format
 msgid ""
-"These special commands control execution, read more on them <link "
-"linkend=\"controlling-execution\">here</link>."
+"These special commands control execution, read more on them <link linkend="
+"\"controlling-execution\">here</link>."
 msgstr ""
 
 # automatic translation
@@ -201,8 +217,8 @@ msgstr ""
 msgid ""
 "Lines that are commented start with a comment characters (#). These lines "
 "are ignored when the code is executed. Comments allow the programmer to "
-"explain a bit about his code or can be used to temporarily prevent a certain"
-" piece of code from executing."
+"explain a bit about his code or can be used to temporarily prevent a certain "
+"piece of code from executing."
 msgstr ""
 
 # automatic translation
@@ -225,8 +241,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "Brackets are used to group portions of code. Brackets are often used "
-"together with <link linkend=\"controlling-execution\">execution "
-"controllers</link>."
+"together with <link linkend=\"controlling-execution\">execution controllers</"
+"link>."
 msgstr ""
 
 # automatic translation
@@ -343,9 +359,9 @@ msgstr ""
 #: glossary.docbook:84
 #, no-c-format
 msgid ""
-"These are the mathematical operators: <userinput>+</userinput>, "
-"<userinput>-</userinput>, <userinput>*</userinput>, <userinput>/</userinput>"
-" and <userinput>^</userinput>."
+"These are the mathematical operators: <userinput>+</userinput>, <userinput>-"
+"</userinput>, <userinput>*</userinput>, <userinput>/</userinput> and "
+"<userinput>^</userinput>."
 msgstr ""
 
 # automatic translation
@@ -367,10 +383,9 @@ msgstr ""
 #: glossary.docbook:89
 #, no-c-format
 msgid ""
-"These are the comparison operators: <userinput>==</userinput>, "
-"<userinput>!=</userinput>, <userinput>&lt;</userinput>, "
-"<userinput>&gt;</userinput>, <userinput>&lt;=</userinput> and "
-"<userinput>&gt;=</userinput>."
+"These are the comparison operators: <userinput>==</userinput>, <userinput>!"
+"=</userinput>, <userinput>&lt;</userinput>, <userinput>&gt;</userinput>, "
+"<userinput>&lt;=</userinput> and <userinput>&gt;=</userinput>."
 msgstr ""
 
 # automatic translation
@@ -392,8 +407,8 @@ msgstr ""
 #: glossary.docbook:94
 #, no-c-format
 msgid ""
-"These are the boolean operators: <userinput>and</userinput>, "
-"<userinput>or</userinput> and <userinput>not</userinput>."
+"These are the boolean operators: <userinput>and</userinput>, <userinput>or</"
+"userinput> and <userinput>not</userinput>."
 msgstr ""
 
 # automatic translation
@@ -422,10 +437,9 @@ msgstr ""
 #: glossary.docbook:109
 #, no-c-format
 msgid ""
-"A pixel is a dot on the screen. If you look very close you will see that the"
-" screen of your monitor uses pixels. All images on the screen are built with"
-" these pixels. A pixel is the smallest thing that can be drawn on the "
-"screen."
+"A pixel is a dot on the screen. If you look very close you will see that the "
+"screen of your monitor uses pixels. All images on the screen are built with "
+"these pixels. A pixel is the smallest thing that can be drawn on the screen."
 msgstr ""
 
 # automatic translation
@@ -435,9 +449,9 @@ msgstr ""
 msgid ""
 "A lot of commands need a number of pixels as input. These commands are: "
 "<userinput>forward</userinput>, <userinput>backward</userinput>, "
-"<userinput>go</userinput>, <userinput>gox</userinput>, "
-"<userinput>goy</userinput>, <userinput>canvassize</userinput> and "
-"<userinput>penwidth</userinput>."
+"<userinput>go</userinput>, <userinput>gox</userinput>, <userinput>goy</"
+"userinput>, <userinput>canvassize</userinput> and <userinput>penwidth</"
+"userinput>."
 msgstr ""
 
 # automatic translation
@@ -447,8 +461,8 @@ msgstr ""
 msgid ""
 "In early versions of &kturtle; the canvas was essentially a raster image, "
 "yet for recent versions the canvas is a vector drawing. This means that the "
-"canvas can be zoomed in and out, therefore a pixel does not necessarily have"
-" to translate to one dot on the screen."
+"canvas can be zoomed in and out, therefore a pixel does not necessarily have "
+"to translate to one dot on the screen."
 msgstr ""
 
 # automatic translation
@@ -463,13 +477,13 @@ msgstr ""
 #: glossary.docbook:117
 #, no-c-format
 msgid ""
-"RGB combinations are used to describe colors. The <quote>R</quote> stand for"
-" <quote>red</quote>, the <quote>G</quote> stands for <quote>green</quote> "
-"and the <quote>B</quote> stands for <quote>blue</quote>. An example of an "
-"RGB combination is <userinput>255,0,0</userinput>: the first value "
-"(<quote>red</quote>) is 255 and the others are 0, so this represents a "
-"bright shade of red. Each value of an RGB combination has to be in the range"
-" 0 to 255. Here a small list of some often used colors:"
+"RGB combinations are used to describe colors. The <quote>R</quote> stand for "
+"<quote>red</quote>, the <quote>G</quote> stands for <quote>green</quote> and "
+"the <quote>B</quote> stands for <quote>blue</quote>. An example of an RGB "
+"combination is <userinput>255,0,0</userinput>: the first value (<quote>red</"
+"quote>) is 255 and the others are 0, so this represents a bright shade of "
+"red. Each value of an RGB combination has to be in the range 0 to 255. Here "
+"a small list of some often used colors:"
 msgstr ""
 
 # automatic translation
@@ -605,8 +619,8 @@ msgstr ""
 #: glossary.docbook:141
 #, no-c-format
 msgid ""
-"A sprite is a small picture that can be moved around the screen. Our beloved"
-" turtle, for instance, is a sprite."
+"A sprite is a small picture that can be moved around the screen. Our beloved "
+"turtle, for instance, is a sprite."
 msgstr ""
 
 # automatic translation

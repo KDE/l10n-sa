@@ -4,8 +4,10 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
 "Language: sa\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
 # automatic translation
 #. Tag: title
@@ -21,8 +23,8 @@ msgstr ""
 msgid ""
 "This how-to describes copying a partition. We will assume the intention is "
 "to copy a partition from one device to another and overwriting an existing "
-"target partition, but the general procedure would not be much different when"
-" copying to the same device or to some unallocated area."
+"target partition, but the general procedure would not be much different when "
+"copying to the same device or to some unallocated area."
 msgstr ""
 
 # automatic translation
@@ -56,11 +58,11 @@ msgstr ""
 #: copyhowto.docbook:25
 #, no-c-format
 msgid ""
-"After unmounting the partition the lock icon has gone and it is now possible"
-" to select <xref linkend=\"menu-partition-copy\"/>. This puts "
-"<quote>sdb1</quote> in &partman;'s clipboard; in other words: "
-"<quote>sdb1</quote> is now the partition that will be inserted when you "
-"select <xref linkend=\"menu-partition-paste\"/>."
+"After unmounting the partition the lock icon has gone and it is now possible "
+"to select <xref linkend=\"menu-partition-copy\"/>. This puts <quote>sdb1</"
+"quote> in &partman;'s clipboard; in other words: <quote>sdb1</quote> is now "
+"the partition that will be inserted when you select <xref linkend=\"menu-"
+"partition-paste\"/>."
 msgstr ""
 
 # automatic translation
@@ -68,9 +70,9 @@ msgstr ""
 #: copyhowto.docbook:29
 #, no-c-format
 msgid ""
-"The destination device for copying in this how-to is "
-"<quote>/dev/sdc</quote>. Click on it in the Devices panel. This is how the "
-"device looks like before copying:"
+"The destination device for copying in this how-to is <quote>/dev/sdc</"
+"quote>. Click on it in the Devices panel. This is how the device looks like "
+"before copying:"
 msgstr ""
 
 # automatic translation
@@ -88,8 +90,8 @@ msgid ""
 "The partition to overwrite is <quote>sdc5</quote>. To paste the copied "
 "partition into it, click on it and select <xref linkend=\"menu-partition-"
 "paste\"/>. You will see the operation to copy the partition has been added "
-"to the list of pending operations. Note that there is no dialog box required"
-" to insert the partition as would be the case if you pasted into an "
+"to the list of pending operations. Note that there is no dialog box required "
+"to insert the partition as would be the case if you pasted into an "
 "unallocated area: Beginning and end of the pasted partition are determined "
 "by the overwritten partition."
 msgstr ""
