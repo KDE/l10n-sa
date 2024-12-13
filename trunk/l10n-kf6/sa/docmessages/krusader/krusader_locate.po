@@ -1,31 +1,31 @@
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Sanskrit translations for PACKAGE package.
+# Kali <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: krusader_locate\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2021-09-20 00:33+0000\n"
+"PO-Revision-Date: 2024-12-13 20:57+0530\n"
+"Last-Translator: Kali <EMAIL@ADDRESS>\n"
+"Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-# automatic translation
 #. Tag: title
 #: locate.docbook:8
 #, no-c-format
 msgid "Locate &GUI; Frontend"
-msgstr ""
+msgstr "ज्ञातव्यं &GUI; अग्रभागः"
 
-# automatic translation
 #. Tag: primary
 #: locate.docbook:10
 #, no-c-format
 msgid "Locate"
-msgstr ""
+msgstr "स्थानं ज्ञातव्यम्"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:12
 #, no-c-format
@@ -38,19 +38,30 @@ msgid ""
 "<command>cron</command> often calls <command>updatedb</command> every night "
 "(set with <application>KCron</application>). Choose <menuchoice> "
 "<guimenu>Tools</guimenu> <guimenuitem>Locate...</guimenuitem> </menuchoice> "
-"or <keycombo action=\"simul\">&Ctrl;&Shift; <keycap>L</keycap></keycombo> to "
-"start this feature. <link linkend=\"konfig-advanced\">Konfigurator</link> "
+"or <keycombo action=\"simul\">&Ctrl;&Shift; <keycap>L</keycap></keycombo> to"
+" start this feature. <link linkend=\"konfig-advanced\">Konfigurator</link> "
 "can set additional arguments for <command>updatedb</command>."
 msgstr ""
+"&amp;krusader; एकं &amp;GUI अस्ति; अग्रभागस्य कृते<command> स्थानं "
+"ज्ञातव्यम्</command> आज्ञा (findutils)। Locate इत्यस्य उपयोगः "
+"द्रुतसञ्चिका-अन्वेषणाय न तु पुटतः अपितु दत्तांशकोशात् भवति । संकुलस्य "
+"अन्यसञ्चिकासु, .<command> स्थानं ज्ञातव्यम्</command> तथा<command> अद्यतनं "
+"ख</command> .<command> अद्यतनं ख</command> स्थानीयसञ्चिकातन्त्रेण गत्वा "
+"सञ्चिकाप्रविष्टयः दत्तांशकोशे संगृह्णाति ।<command> क्रोन</command> प्रायः "
+"आह्वयति<command> अद्यतनं ख</command> प्रतिरात्रं (सेट् सह<application> "
+"केक्रोन</application> ). चिनोतु<menuchoice><guimenu> "
+"उपकरणाः</guimenu><guimenuitem> स्थानं "
+"ज्ञातव्यम्...</guimenuitem></menuchoice> वा<keycombo action=\"simul\"> "
+"&amp;Ctrl;&amp;शिफ्ट;<keycap> ल</keycap></keycombo> एतत् विशेषता आरभ्यतुं "
+"।<link linkend=\"konfig-advanced\"> विन्यासकर्ता</link> कृते अतिरिक्त-तर्कं "
+"सेट् कर्तुं शक्नोति<command> अद्यतनं ख</command> ."
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:32
 #, no-c-format
 msgid "Checkbox Options"
-msgstr ""
+msgstr "चेकबॉक्स विकल्पाः"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:35
 #, no-c-format
@@ -61,8 +72,13 @@ msgid ""
 "It checks the existence of each file before the listing in the results "
 "window (slow)."
 msgstr ""
+"<guilabel>केवलं विद्यमानसञ्चिकाः दर्शयतु</guilabel>: यदि दत्तांशकोशे "
+"एतादृशाः प्रविष्टयः सन्ति ये पुनः नास्ति (विलोपनाः, अन्तिम "
+"<command>updatedb</command> इत्यस्मात् स्थानान्तरिताः), तर्हि "
+"<command>locate</command> करोति न तान् सूचीबद्धं कुर्वन्तु। एतत् "
+"परिणामविण्डो (मन्दम्) सूचीकरणात् पूर्वं प्रत्येकस्य सञ्चिकायाः अस्तित्वं "
+"परीक्षते ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:45
 #, no-c-format
@@ -70,15 +86,15 @@ msgid ""
 "<guilabel>Case Sensitive</guilabel>: unchecking it allows lower and upper "
 "case search."
 msgstr ""
+"<guilabel>अक्षरसंवेदनशीलः</guilabel>: तस्य अचेकं कृत्वा लघु-बृहत्-अक्षर-"
+"अन्वेषणं भवति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:50
 #, no-c-format
 msgid "Action buttons"
-msgstr ""
+msgstr "क्रिया बटन"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:53
 #, no-c-format
@@ -86,15 +102,16 @@ msgid ""
 "<guibutton>Locate</guibutton>: executes <command>locate <replaceable>foo "
 "foo</replaceable></command> and places its output into the results window."
 msgstr ""
+"<guibutton>Locate</guibutton>: <command>locate <replaceable>foo "
+"foo</replaceable></command> इति निष्पादयति तथा च तस्य निर्गमं परिणामविण्डो "
+"मध्ये स्थापयति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:60
 #, no-c-format
 msgid "<guibutton>Stop</guibutton>: stops the locating process."
-msgstr ""
+msgstr "<guibutton>Stop</guibutton>: स्थाननिर्धारणप्रक्रिया स्थगयति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:65
 #, no-c-format
@@ -102,22 +119,21 @@ msgid ""
 "<guibutton>UpdateDB</guibutton>: starts <command>updatedb</command> for "
 "updating the locate database after entering the root password."
 msgstr ""
+"<guibutton>UpdateDB</guibutton>: मूलगुप्तशब्दं प्रविष्ट्वा locate "
+"दत्तांशकोशस्य अद्यतनीकरणार्थं <command>updatedb</command> आरभते ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:71
 #, no-c-format
 msgid "<guibutton>Close</guibutton>: closes the locate window."
-msgstr ""
+msgstr "<guibutton>Close</guibutton>: locate विण्डो पिधायति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:76
 #, no-c-format
 msgid "Results window"
-msgstr ""
+msgstr "परिणामविण्डो"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:79
 #, no-c-format
@@ -125,38 +141,37 @@ msgid ""
 "Double-click on an item: steps to its folder, makes the item visible and "
 "closes the locate dialog."
 msgstr ""
+"कस्यचित् द्रव्यस्य उपरि द्विवारं क्लिक् कुर्वन्तु: तस्य फोल्डर् प्रति पदानि "
+"स्थापयति, द्रव्यं दृश्यमानं करोति तथा च locate संवादं बन्दं करोति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:83
 #, no-c-format
 msgid "Right click: edits/views/finds the menu."
-msgstr ""
+msgstr "राइट् क्लिक् कुर्वन्तु: मेनू सम्पादयति/दृश्यति/अन्विषति।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:86
 #, no-c-format
 msgid "<keycap>F3</keycap>: views the current item."
-msgstr ""
+msgstr "<keycap>F3</keycap>: वर्तमानं द्रव्यं पश्यति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:90
 #, no-c-format
 msgid "<keycap>F4</keycap>: edits the current item."
-msgstr ""
+msgstr "<keycap>F4</keycap>: वर्तमानं द्रव्यं सम्पादयति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:94
 #, no-c-format
 msgid ""
-"<keycombo action=\"simul\">&Ctrl; <keycap>F</keycap></keycombo>: finds files "
-"in the results window."
+"<keycombo action=\"simul\">&Ctrl; <keycap>F</keycap></keycombo>: finds files"
+" in the results window."
 msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>F</keycap></keycombo>: "
+"परिणामविण्डो मध्ये सञ्चिकाः अन्वेषयति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:100
 #, no-c-format
@@ -164,8 +179,9 @@ msgid ""
 "<keycombo action=\"simul\">&Ctrl; <keycap>N</keycap></keycombo>: shows the "
 "next search result."
 msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>N</keycap></keycombo>: अग्रिमम् "
+"अन्वेषणफलं दर्शयति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:106
 #, no-c-format
@@ -173,8 +189,9 @@ msgid ""
 "<keycombo action=\"simul\">&Ctrl; <keycap>P</keycap></keycombo>: shows the "
 "previous search result."
 msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>P</keycap></keycombo>: "
+"पूर्वसन्धानफलं दर्शयति ।"
 
-# automatic translation
 #. Tag: para
 #: locate.docbook:114
 #, no-c-format
@@ -182,3 +199,6 @@ msgid ""
 "The results window supports dragging items to other windows and copy to "
 "clipboard (<keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>)."
 msgstr ""
+"परिणामविण्डो अन्यविण्डोषु वस्तूनि कर्षयितुं क्लिपबोर्डं प्रति प्रतिलिपिं "
+"कर्तुं च समर्थयति (<keycombo "
+"action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>) ।"
