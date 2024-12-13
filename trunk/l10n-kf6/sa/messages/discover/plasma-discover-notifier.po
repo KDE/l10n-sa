@@ -1,22 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the discover package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: discover\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-18 00:40+0000\n"
-"PO-Revision-Date: 2023-10-01 00:23+0530\n"
-"Last-Translator: \n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-14 01:48+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Lokalize 24.08.2\n"
 "X-Poedit-Bookmarks: -1,-1,15,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -65,35 +64,10 @@ msgstr "पुनर्प्रारम्भः आवश्यकः अस�
 msgid "The system needs to be restarted for the updates to take effect."
 msgstr "अद्यतनस्य प्रभावाय तन्त्रस्य पुनः आरम्भस्य आवश्यकता वर्तते।."
 
-#: notifier/DiscoverNotifier.cpp:329
-#, fuzzy, kde-format
-#| msgid "Computer needs to restart"
-msgctxt "@action:button"
-msgid "Update and Restart"
-msgstr "सङ्गणकस्य पुनः आरम्भस्य आवश्यकता वर्तते"
-
-#: notifier/DiscoverNotifier.cpp:330
-#, kde-format
-msgctxt "@action:button"
-msgid "Update and Shut Down"
-msgstr ""
-
 #: notifier/DiscoverNotifier.cpp:374
 #, kde-format
 msgid "Upgrade available"
 msgstr "उन्नयनं उपलब्धम्"
-
-#: notifier/DiscoverNotifier.cpp:375
-#, kde-format
-msgctxt "A new distro release (name and version) is available for upgrade"
-msgid "%1 is now available."
-msgstr "%1 इदानीं उपलभ्यते ।."
-
-#: notifier/DiscoverNotifier.cpp:378
-#, kde-format
-msgctxt "@action:button"
-msgid "Upgrade"
-msgstr "उन्नयनं कुर्वन्तु"
 
 #: notifier/main.cpp:38
 #, kde-format
@@ -110,18 +84,6 @@ msgstr "तन्त्र अद्यतन स्थिति सूचक"
 #| msgid "© 2010-2022 Plasma Development Team"
 msgid "© 2010-2024 Plasma Development Team"
 msgstr "© २०१०-२०२२ प्लाज्मा विकासदल"
-
-#: notifier/main.cpp:46
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "श्रीकान्त् कलवार्"
-
-#: notifier/main.cpp:46
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "skkalwar999@gmail.com"
 
 #: notifier/main.cpp:51
 #, kde-format
@@ -161,12 +123,12 @@ msgstr "नवीकरणम्…"
 #: notifier/NotifierItem.cpp:50
 #, kde-format
 msgid "Install Updates and Restart…"
-msgstr ""
+msgstr "अद्यतनं संस्थाप्य पुनः आरम्भं कुर्वन्तु…"
 
 #: notifier/NotifierItem.cpp:53
 #, kde-format
 msgid "Install Updates and Shut Down…"
-msgstr ""
+msgstr "अपडेट् संस्थाप्य शट् डाउन कुर्वन्तु…"
 
 #: notifier/NotifierItem.cpp:58
 #, kde-format
@@ -178,6 +140,39 @@ msgstr "संस्थापितानि अद्यतनानि प्�
 msgid "Click to restart the device"
 msgstr "यन्त्रं पुनः आरभ्यतुं नोदनम् कुर्वन्तु"
 
-#~ msgctxt "@action:button"
-#~ msgid "Restart"
-#~ msgstr "पुनः आरभत"
+#: notifier/DiscoverNotifier.cpp:329
+#, fuzzy, kde-format
+#| msgid "Computer needs to restart"
+msgctxt "@action:button"
+msgid "Update and Restart"
+msgstr "सङ्गणकस्य पुनः आरम्भस्य आवश्यकता वर्तते"
+
+#: notifier/DiscoverNotifier.cpp:330
+#, kde-format
+msgctxt "@action:button"
+msgid "Update and Shut Down"
+msgstr "अद्यतनं कुर्वन्तु तथा शट् डाउन कुर्वन्तु"
+
+#: notifier/DiscoverNotifier.cpp:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Upgrade"
+msgstr "उन्नयनं कुर्वन्तु"
+
+#: notifier/DiscoverNotifier.cpp:375
+#, kde-format
+msgctxt "A new distro release (name and version) is available for upgrade"
+msgid "%1 is now available."
+msgstr "%1 इदानीं उपलभ्यते ।."
+
+#: notifier/main.cpp:46
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्रीकान्त् कलवार्"
+
+#: notifier/main.cpp:46
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "skkalwar999@gmail.com"

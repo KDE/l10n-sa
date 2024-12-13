@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
@@ -13,33 +13,33 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. i18n: ectx: property (text), widget (QCheckBox, toggleEditMode)
 #: connectionTool/ConnectionPointWidget.ui:48
+#. i18n: ectx: property (text), widget (QCheckBox, toggleEditMode)
 #, kde-format
 msgid "Edit Mode"
 msgstr "सम्पादन मोड"
 
-#. i18n: ectx: property (text), widget (QLabel, labelEscape)
 #: connectionTool/ConnectionPointWidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, labelEscape)
 #, kde-format
 msgid "Escape Direction"
 msgstr "पलायनदिशा"
 
-#. i18n: ectx: property (text), widget (QLabel, labelAlign)
 #: connectionTool/ConnectionPointWidget.ui:115
+#. i18n: ectx: property (text), widget (QLabel, labelAlign)
 #, kde-format
 msgid "Alignment"
 msgstr "संरेखणम्"
 
-#. i18n: ectx: property (text), widget (QToolButton, alignPercent)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleXSpinBox)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleYSpinBox)
 #: connectionTool/ConnectionPointWidget.ui:134
 #: defaulttool/DefaultToolTransformWidget.ui:106
 #: defaulttool/DefaultToolTransformWidget.ui:138
+#. i18n: ectx: property (text), widget (QToolButton, alignPercent)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleXSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, scaleYSpinBox)
 #, no-c-format, kde-format
 msgid "%"
 msgstr "% ."
@@ -114,11 +114,6 @@ msgstr "उपरि दिशि पलायनम्"
 msgid "Escape in down direction"
 msgstr "अधः दिशि पलायनम्"
 
-#: connectionTool/ConnectionTool.cpp:427
-msgctxt "(qtundo-format)"
-msgid "Create Connection"
-msgstr ""
-
 #: connectionTool/ConnectionTool.cpp:768 connectionTool/ConnectionTool.cpp:780
 #, kde-format
 msgid "Drag to edit connection."
@@ -127,8 +122,7 @@ msgstr "संयोजनं सम्पादयितुं कर्षय�
 #: connectionTool/ConnectionTool.cpp:770 connectionTool/ConnectionTool.cpp:782
 #, kde-format
 msgid "Double click connection or press delete to remove it."
-msgstr ""
-"तत् दूरीकर्तुं connection इत्यत्र डबल क्लिक् कुर्वन्तु अथवा delete नुदन्तु ।"
+msgstr "तत् दूरीकर्तुं connection इत्यत्र डबल क्लिक् कुर्वन्तु अथवा delete नुदन्तु ।"
 
 #: connectionTool/ConnectionTool.cpp:772
 #, kde-format
@@ -248,10 +242,8 @@ msgstr "मार्गदर्शिकारेखां स्थाना�
 
 #: defaulttool/DefaultTool.cpp:468
 #, kde-format
-msgid ""
-"Left click rotates around center, right click around highlighted position."
-msgstr ""
-"वामक्लिक् केन्द्रं परितः परिभ्रमति, राइट् क्लिक् हाइलाइट् कृतस्थानं परितः ।"
+msgid "Left click rotates around center, right click around highlighted position."
+msgstr "वामक्लिक् केन्द्रं परितः परिभ्रमति, राइट् क्लिक् हाइलाइट् कृतस्थानं परितः ।"
 
 #: defaulttool/DefaultTool.cpp:470
 #, kde-format
@@ -276,16 +268,6 @@ msgid ""
 msgstr ""
 "चयनस्य आकारं परिवर्तयितुं क्लिक् कृत्वा कर्षयन्तु । हाइलाइट् कृतं स्थानं "
 "सेट् कर्तुं मध्यं क्लिक् कुर्वन्तु ।"
-
-#: defaulttool/DefaultTool.cpp:1044
-msgctxt "(qtundo-format)"
-msgid "Group shapes"
-msgstr ""
-
-#: defaulttool/DefaultTool.cpp:1076
-msgctxt "(qtundo-format)"
-msgid "Ungroup shapes"
-msgstr ""
 
 #: defaulttool/DefaultTool.cpp:1169
 #, kde-format
@@ -312,95 +294,62 @@ msgstr "छाया"
 msgid "Shape handling"
 msgstr "आकारस्य संचालनम्"
 
-#: defaulttool/DefaultToolTransformWidget.cpp:97
-#: defaulttool/ShapeRotateStrategy.cpp:140
-msgctxt "(qtundo-format)"
-msgid "Rotate"
-msgstr "परिभ्रमतु"
-
-#: defaulttool/DefaultToolTransformWidget.cpp:135
-msgctxt "(qtundo-format)"
-msgid "Shear X"
-msgstr "कतरनी X"
-
-#: defaulttool/DefaultToolTransformWidget.cpp:173
-msgctxt "(qtundo-format)"
-msgid "Shear Y"
-msgstr "कतरनी Y"
-
-#: defaulttool/DefaultToolTransformWidget.cpp:215
-#: defaulttool/DefaultToolTransformWidget.cpp:252
-msgctxt "(qtundo-format)"
-msgid "Scale"
-msgstr ""
-
-#: defaulttool/DefaultToolTransformWidget.cpp:284
-msgctxt "(qtundo-format)"
-msgid "Reset Transformations"
-msgstr "परिवर्तनं पुनः सेट् कुर्वन्तु"
-
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rotateSpinBox)
 #: defaulttool/DefaultToolTransformWidget.ui:25
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, rotateSpinBox)
 #, kde-format
 msgid "°"
 msgstr "°"
 
-#. i18n: ectx: property (text), widget (QPushButton, rotateButton)
 #: defaulttool/DefaultToolTransformWidget.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, rotateButton)
 #, kde-format
 msgid "Rotate"
 msgstr "परिभ्रमतु"
 
-#. i18n: ectx: property (text), widget (QPushButton, shearXButton)
 #: defaulttool/DefaultToolTransformWidget.ui:64
+#. i18n: ectx: property (text), widget (QPushButton, shearXButton)
 #, kde-format
 msgid "Shear X"
 msgstr "कतरनी X"
 
-#. i18n: ectx: property (text), widget (QPushButton, shearYButton)
 #: defaulttool/DefaultToolTransformWidget.ui:90
+#. i18n: ectx: property (text), widget (QPushButton, shearYButton)
 #, kde-format
 msgid "Shear Y"
 msgstr "कतरनी Y"
 
-#. i18n: ectx: property (text), widget (QPushButton, scaleXButton)
 #: defaulttool/DefaultToolTransformWidget.ui:122
+#. i18n: ectx: property (text), widget (QPushButton, scaleXButton)
 #, kde-format
 msgid "Scale X"
 msgstr "स्केल X"
 
-#. i18n: ectx: property (text), widget (QPushButton, scaleYButton)
 #: defaulttool/DefaultToolTransformWidget.ui:154
+#. i18n: ectx: property (text), widget (QPushButton, scaleYButton)
 #, kde-format
 msgid "Scale Y"
 msgstr "स्केल Y"
 
-#. i18n: ectx: property (text), widget (QCheckBox, scaleAspectCheckBox)
 #: defaulttool/DefaultToolTransformWidget.ui:161
+#. i18n: ectx: property (text), widget (QCheckBox, scaleAspectCheckBox)
 #, kde-format
 msgid "Keep aspect ratio"
 msgstr "आस्पेक्ट रेश्यो रखें"
 
-#. i18n: ectx: property (text), widget (QPushButton, resetButton)
 #: defaulttool/DefaultToolTransformWidget.ui:174
+#. i18n: ectx: property (text), widget (QPushButton, resetButton)
 #, kde-format
 msgid "Reset Transformations"
 msgstr "परिवर्तनं पुनः सेट् कुर्वन्तु"
 
-#: defaulttool/DefaultToolWidget.cpp:217
-#: defaulttool/ShapeResizeStrategy.cpp:332
-msgctxt "(qtundo-format)"
-msgid "Resize"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: defaulttool/DefaultToolWidget.ui:35
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "X:"
 msgstr "X: 1 ."
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: defaulttool/DefaultToolWidget.ui:97
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Y:"
 msgstr "तथा:"
@@ -419,11 +368,6 @@ msgstr "केन्द्रात् आकारं परिवर्तय�
 #, kde-format
 msgid "Press ALT to rotate in 45 degree steps."
 msgstr "45 डिग्री चरणेषु परिभ्रमितुं ALT नुदन्तु।"
-
-#: defaulttool/ShapeShearStrategy.cpp:193
-msgctxt "(qtundo-format)"
-msgid "Shear"
-msgstr ""
 
 #: guidestool/GuidesTool.cpp:131
 #, kde-format
@@ -452,80 +396,131 @@ msgstr "मार्गदर्शकः Insertor"
 msgid "Edit guidelines"
 msgstr "मार्गदर्शिका सम्पादयतु"
 
-#. i18n: ectx: property (text), widget (QLabel, label1)
 #: guidestool/GuidesToolOptionWidget.cpp:18
 #: guidestool/InsertGuidesToolOptionWidget.ui:25
+#. i18n: ectx: property (text), widget (QLabel, label1)
 #, kde-format
 msgid "Horizontal"
 msgstr "क्षैतिज"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: guidestool/GuidesToolOptionWidget.cpp:19
 #: guidestool/InsertGuidesToolOptionWidget.ui:65
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Vertical"
 msgstr "ऊर्ध्वाधर"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: guidestool/GuidesToolOptionWidget.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Orientation:"
 msgstr "आभिमुख्य:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: guidestool/GuidesToolOptionWidget.ui:27
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Position:"
 msgstr "स्थितिः:"
 
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
 #: guidestool/GuidesToolOptionWidget.ui:37
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
 #, kde-format
 msgid "Add"
 msgstr "संयोजयति"
 
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: guidestool/GuidesToolOptionWidget.ui:44
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #, kde-format
 msgid "Remove"
 msgstr "अपाकरोति"
 
-#. i18n: ectx: property (toolTip), widget (QSpinBox, m_horizontalSpinBox)
 #: guidestool/InsertGuidesToolOptionWidget.ui:38
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_horizontalSpinBox)
 #, kde-format
 msgid "Insert this number of horizontal equally spaced guides."
-msgstr ""
-"क्षैतिजसमान्तरयुक्तानां मार्गदर्शकानां एतां संख्यां सम्मिलितं कुर्वन्तु ।"
+msgstr "क्षैतिजसमान्तरयुक्तानां मार्गदर्शकानां एतां संख्यां सम्मिलितं कुर्वन्तु ।"
 
+#: guidestool/InsertGuidesToolOptionWidget.ui:51
 #. i18n: ectx: property (toolTip), widget (QToolButton,
 #. m_horizontalEdgesCheckBox)
-#: guidestool/InsertGuidesToolOptionWidget.ui:51
 #, kde-format
 msgid "Insert guides at the horizontal edges."
 msgstr "क्षैतिज किनारेषु मार्गदर्शकान् सम्मिलितं कुर्वन्तु।"
 
-#. i18n: ectx: property (toolTip), widget (QSpinBox, m_verticalSpinBox)
 #: guidestool/InsertGuidesToolOptionWidget.ui:78
+#. i18n: ectx: property (toolTip), widget (QSpinBox, m_verticalSpinBox)
 #, kde-format
 msgid "Insert this number of vertical equally spaced guides."
-msgstr ""
-"लम्बवत् समानान्तरयुक्तानां मार्गदर्शकानां एतां संख्यां सम्मिलितं कुर्वन्तु ।"
+msgstr "लम्बवत् समानान्तरयुक्तानां मार्गदर्शकानां एतां संख्यां सम्मिलितं कुर्वन्तु ।"
 
+#: guidestool/InsertGuidesToolOptionWidget.ui:91
 #. i18n: ectx: property (toolTip), widget (QToolButton,
 #. m_verticalEdgesCheckBox)
-#: guidestool/InsertGuidesToolOptionWidget.ui:91
 #, kde-format
 msgid "Insert guides at the vertical edges."
 msgstr "लम्बवत् किनारेषु मार्गदर्शकान् सम्मिलितं कुर्वन्तु।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, m_erasePreviousCheckBox)
 #: guidestool/InsertGuidesToolOptionWidget.ui:105
+#. i18n: ectx: property (text), widget (QCheckBox, m_erasePreviousCheckBox)
 #, kde-format
 msgid "Erase previous guides"
 msgstr "पूर्वमार्गदर्शिकाः मेटयन्तु"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_createButton)
 #: guidestool/InsertGuidesToolOptionWidget.ui:112
+#. i18n: ectx: property (text), widget (QPushButton, m_createButton)
 #, kde-format
 msgid "Create"
 msgstr "निर्मियताम्"
+
+#: connectionTool/ConnectionTool.cpp:427
+msgctxt "(qtundo-format)"
+msgid "Create Connection"
+msgstr "संयोजनं रचयन्तु"
+
+#: defaulttool/DefaultTool.cpp:1044
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "समूहाकाराः"
+
+#: defaulttool/DefaultTool.cpp:1076
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "आकारान् विसमूहयन्तु"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:97
+#: defaulttool/ShapeRotateStrategy.cpp:140
+msgctxt "(qtundo-format)"
+msgid "Rotate"
+msgstr "परिभ्रमतु"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:135
+msgctxt "(qtundo-format)"
+msgid "Shear X"
+msgstr "कतरनी X"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:173
+msgctxt "(qtundo-format)"
+msgid "Shear Y"
+msgstr "कतरनी Y"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:215
+#: defaulttool/DefaultToolTransformWidget.cpp:252
+msgctxt "(qtundo-format)"
+msgid "Scale"
+msgstr "मापन"
+
+#: defaulttool/DefaultToolTransformWidget.cpp:284
+msgctxt "(qtundo-format)"
+msgid "Reset Transformations"
+msgstr "परिवर्तनं पुनः सेट् कुर्वन्तु"
+
+#: defaulttool/DefaultToolWidget.cpp:217
+#: defaulttool/ShapeResizeStrategy.cpp:332
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "आकारं परिवर्तयतु"
+
+#: defaulttool/ShapeShearStrategy.cpp:193
+msgctxt "(qtundo-format)"
+msgid "Shear"
+msgstr "कतरनी"

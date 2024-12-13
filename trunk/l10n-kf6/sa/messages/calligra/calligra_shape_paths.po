@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
@@ -13,13 +13,8 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: ellipse/EllipseShapeConfigCommand.cpp:23
-msgctxt "(qtundo-format)"
-msgid "Change ellipse"
-msgstr ""
 
 #: ellipse/EllipseShapeConfigWidget.cpp:16
 #, kde-format
@@ -36,41 +31,41 @@ msgstr "इत्युपरि"
 msgid "Chord"
 msgstr "तार"
 
+#: ellipse/EllipseShapeConfigWidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget,
 #. EllipseShapeConfigWidget)
-#: ellipse/EllipseShapeConfigWidget.ui:13
 #, kde-format
 msgid "Ellipse Shape"
 msgstr "दीर्घवृत्ताकारः"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: ellipse/EllipseShapeConfigWidget.ui:19 spiral/SpiralShapeConfigWidget.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Type:"
 msgstr "प्रकारः:"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: ellipse/EllipseShapeConfigWidget.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Start angle:"
 msgstr "प्रारम्भकोणः १."
 
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, startAngle)
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, endAngle)
 #: ellipse/EllipseShapeConfigWidget.ui:39
 #: ellipse/EllipseShapeConfigWidget.ui:56
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, startAngle)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, endAngle)
 #, kde-format
 msgid "°"
 msgstr "°"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ellipse/EllipseShapeConfigWidget.ui:46
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "End angle:"
 msgstr "अन्त्यकोणः १."
 
-#. i18n: ectx: property (text), widget (QPushButton, closeEllipse)
 #: ellipse/EllipseShapeConfigWidget.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, closeEllipse)
 #, kde-format
 msgid "Close ellipse"
 msgstr "दीर्घवृत्तं निमील्यताम्"
@@ -178,26 +173,21 @@ msgstr "गियरहेड"
 msgid "A gearhead"
 msgstr "एकः गियरशिरः"
 
-#: rectangle/RectangleShapeConfigCommand.cpp:19
-msgctxt "(qtundo-format)"
-msgid "Change rectangle"
-msgstr ""
-
+#: rectangle/RectangleShapeConfigWidget.ui:5
 #. i18n: ectx: property (windowTitle), widget (QWidget,
 #. RectangleShapeConfigWidget)
-#: rectangle/RectangleShapeConfigWidget.ui:5
 #, kde-format
 msgid "Rectangle Shape"
 msgstr "आयत आकार"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: rectangle/RectangleShapeConfigWidget.ui:21
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Corner radius x:"
 msgstr "कोणत्रिज्या x: ."
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rectangle/RectangleShapeConfigWidget.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Corner radius y:"
 msgstr "कोणत्रिज्या य : १."
@@ -211,11 +201,6 @@ msgstr "आयत"
 #, kde-format
 msgid "A rectangle"
 msgstr "आयतम्"
-
-#: spiral/SpiralShapeConfigCommand.cpp:19
-msgctxt "(qtundo-format)"
-msgid "Change spiral"
-msgstr ""
 
 #: spiral/SpiralShapeConfigWidget.cpp:16
 #, kde-format
@@ -237,21 +222,21 @@ msgstr "घड़ीयाः दिशि"
 msgid "Anticlockwise"
 msgstr "घड़ीयाः विपरीतदिशा"
 
+#: spiral/SpiralShapeConfigWidget.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget,
 #. SpiralShapeConfigWidget)
-#: spiral/SpiralShapeConfigWidget.ui:13
 #, kde-format
 msgid "Spiral Shape"
 msgstr "सर्पिल आकार"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: spiral/SpiralShapeConfigWidget.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Fade:"
 msgstr "म्लै:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: spiral/SpiralShapeConfigWidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "Direction:"
 msgstr "निर्देश:"
@@ -266,37 +251,32 @@ msgstr "सर्पिल"
 msgid "A spiral shape"
 msgstr "एकः सर्पिलः आकारः"
 
-#: star/StarShapeConfigCommand.cpp:21
-msgctxt "(qtundo-format)"
-msgid "Change star"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, StarShapeConfigWidget)
 #: star/StarShapeConfigWidget.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, StarShapeConfigWidget)
 #, kde-format
 msgid "Star shape"
 msgstr "ताराकारः"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: star/StarShapeConfigWidget.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "Polygon:"
 msgstr "बहुभुजः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: star/StarShapeConfigWidget.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Corners:"
 msgstr "कोणाः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: star/StarShapeConfigWidget.ui:46
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Inner radius:"
 msgstr "आन्तरिकत्रिज्या : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: star/StarShapeConfigWidget.ui:60
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Outer radius:"
 msgstr "बाह्यत्रिज्या : १."
@@ -345,3 +325,23 @@ msgstr "षट्कोणः"
 #, kde-format
 msgid "A hexagon"
 msgstr "षट्कोणः"
+
+#: ellipse/EllipseShapeConfigCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Change ellipse"
+msgstr "दीर्घवृत्तं परिवर्तयतु"
+
+#: rectangle/RectangleShapeConfigCommand.cpp:19
+msgctxt "(qtundo-format)"
+msgid "Change rectangle"
+msgstr "आयतं परिवर्तयन्तु"
+
+#: spiral/SpiralShapeConfigCommand.cpp:19
+msgctxt "(qtundo-format)"
+msgid "Change spiral"
+msgstr "सर्पिलं परिवर्तयतु"
+
+#: star/StarShapeConfigCommand.cpp:21
+msgctxt "(qtundo-format)"
+msgid "Change star"
+msgstr "तारकं परिवर्तयतु"
