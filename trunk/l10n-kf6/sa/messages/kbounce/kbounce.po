@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kbounce package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: kbounce\n"
@@ -13,45 +13,36 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
 
 #: backgroundselector.cpp:98
 #, kde-format
 msgid "No background pictures found."
 msgstr "पृष्ठभूमिचित्रं न प्राप्तम्।"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, KBounceBackgroundSelector)
 #: backgroundselector.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget,
+#. KBounceBackgroundSelector)
 #, kde-format
 msgid "kbouncebackgroundselector"
 msgstr "kbounceपृष्ठभूमिचयनकर्ता"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseRandomBackgroundPictures)
 #: backgroundselector.ui:24
+#. i18n: ectx: property (text), widget (QCheckBox,
+#. kcfg_UseRandomBackgroundPictures)
 #, kde-format
 msgid "Enable random pictures as background"
 msgstr "पृष्ठभूमिरूपेण यादृच्छिकचित्रं सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, backgoundPicturePathLabel)
 #: backgroundselector.ui:54
+#. i18n: ectx: property (text), widget (QLabel, backgoundPicturePathLabel)
 #, kde-format
 msgid "Choose picture path:"
 msgstr "चित्रमार्गं चिनुत : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: backgroundselector.ui:78
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Preview"
 msgstr "पूर्वावलोकनम्"
@@ -108,14 +99,14 @@ msgstr ""
 "गेम ओवर।\n"
 " क्रीडां आरभ्यतुं क्लिक् कुर्वन्तु"
 
-#. i18n: ectx: label, entry (PlaySounds), group (Sound)
 #: kbounce.kcfg:16
+#. i18n: ectx: label, entry (PlaySounds), group (Sound)
 #, kde-format
 msgid "Whether game sounds are played."
 msgstr "क्रीडाध्वनयः क्रीड्यन्ते वा।"
 
-#. i18n: ectx: ToolBar (mainToolBar)
 #: kbounceui.rc:17
+#. i18n: ectx: ToolBar (mainToolBar)
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
@@ -224,36 +215,46 @@ msgstr "जीवति: %1"
 msgid "Time: %1"
 msgstr "समयः %1"
 
-#: mainwindow.cpp:93
-#, kde-format
-msgctxt "@option:check"
-msgid "Play Sounds"
-msgstr ""
-
 #: mainwindow.cpp:133
 #, kde-format
 msgid "Are you sure you want to quit the current game?"
 msgstr "किं भवन्तः वर्तमानक्रीडां त्यक्तुम् इच्छन्ति इति निश्चितम्?"
-
-#: mainwindow.cpp:135
-#, kde-format
-msgctxt "@action;button"
-msgid "Quit Game"
-msgstr ""
 
 #: mainwindow.cpp:149 mainwindow.cpp:252
 #, kde-format
 msgid "Game over. Click to start a game"
 msgstr "गेम ओवर। क्रीडां आरभ्यतुं क्लिक् कुर्वन्तु"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: mainwindow.cpp:93
+#, kde-format
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "ध्वनयः वादयन्तु"
+
+#: mainwindow.cpp:135
+#, kde-format
+msgctxt "@action;button"
+msgid "Quit Game"
+msgstr "क्रीडां त्यजतु"
+
 #: mainwindow.cpp:184
 #, kde-format
 msgctxt "@title:tab"
 msgid "Theme"
-msgstr ""
+msgstr "विषयवस्तु"
 
 #: mainwindow.cpp:185
 #, kde-format
 msgctxt "@title:tab"
 msgid "Background"
-msgstr ""
+msgstr "पृष्ठभूमि"

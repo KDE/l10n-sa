@@ -1,4 +1,3 @@
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -9,7 +8,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.3.2\n"
@@ -50,20 +49,20 @@ msgstr "उपयोगः: preg [वर्तमानप्रकल्पे 
 msgid "Export Search Result Matches"
 msgstr "अन्वेषणपरिणाममेलनानि निर्यातयन्तु"
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, exportPatternText)
 #: MatchExportDialog.ui:31
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, exportPatternText)
 #, kde-format
 msgid "Export Pattern"
 msgstr "निर्यात प्रतिरूपम्"
 
-#. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #: MatchExportDialog.ui:38
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
 #, kde-format
 msgid "Generate"
 msgstr "जनयतु"
 
-#. i18n: ectx: property (placeholderText), widget (QPlainTextEdit, exportResultText)
 #: MatchExportDialog.ui:50
+#. i18n: ectx: property (placeholderText), widget (QPlainTextEdit, exportResultText)
 #, kde-format
 msgid "Result"
 msgstr "परिणाम"
@@ -124,12 +123,14 @@ msgstr[1] "<b><i>%1 मेलाः (%4) परियोजना %2 (%3)</i></b
 
 #: MatchModel.cpp:582
 #, kde-format
-msgid ""
-"<b><i>One match (%3) found in all open projects (common parent: %2)</i></b>"
-msgid_plural ""
-"<b><i>%1 matches (%3) found in all open projects (common parent: %2)</i></b>"
-msgstr[0] "<b><i>एकः मेलः (%3) सर्वेषु मुक्तप्रकल्पेषु (सामान्यमातापिता: %2)</i></b> दृश्यते"
-msgstr[1] "<b><i>%1 मेलाः (%3) सर्वेषु मुक्तप्रकल्पेषु (सामान्यमातापिता: %2)</i></b> दृश्यते"
+msgid "<b><i>One match (%3) found in all open projects (common parent: %2)</i></b>"
+msgid_plural "<b><i>%1 matches (%3) found in all open projects (common parent: %2)</i></b>"
+msgstr[0] ""
+"<b><i>एकः मेलः (%3) सर्वेषु मुक्तप्रकल्पेषु (सामान्यमातापिता: %2)</i></b> "
+"दृश्यते"
+msgstr[1] ""
+"<b><i>%1 मेलाः (%3) सर्वेषु मुक्तप्रकल्पेषु (सामान्यमातापिता: %2)</i></b> "
+"दृश्यते"
 
 #: MatchModel.cpp:696 MatchModel.cpp:698
 #, kde-format
@@ -182,8 +183,12 @@ msgstr[1] "%1 मेलाः (%4) परियोजना %2 (%3) मध्य
 #, kde-format
 msgid "One match (%3) found in all open projects (common parent: %2)"
 msgid_plural "%1 matches (%3) found in all open projects (common parent: %2)"
-msgstr[0] "सर्वेषु उद्घाटितेषु परियोजनासु एकः मेलः (%3) प्राप्तः (सामान्यः मातापिता: %2)"
-msgstr[1] "सर्वेषु उद्घाटितेषु परियोजनासु %1 मेलाः (%3) प्राप्ताः (सामान्यः मातापिता: %2)"
+msgstr[0] ""
+"सर्वेषु उद्घाटितेषु परियोजनासु एकः मेलः (%3) प्राप्तः (सामान्यः मातापिता: "
+"%2)"
+msgstr[1] ""
+"सर्वेषु उद्घाटितेषु परियोजनासु %1 मेलाः (%3) प्राप्ताः (सामान्यः मातापिता: "
+"%2)"
 
 #: Results.cpp:32
 #, fuzzy, kde-format
@@ -191,175 +196,166 @@ msgstr[1] "सर्वेषु उद्घाटितेषु परिय�
 msgid "Filter…"
 msgstr "शोधक:"
 
+#: search.ui:37 search.ui:40 SearchPlugin.cpp:294
 #. i18n: ectx: property (toolTip), widget (QPushButton, searchButton)
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
-#: search.ui:37 search.ui:40 SearchPlugin.cpp:294
 #, kde-format
 msgid "Search"
 msgstr "अन्वेषण"
 
-#. i18n: ectx: property (text), widget (QPushButton, replaceCheckedBtn)
-#: search.ui:50
-#, fuzzy, kde-format
-#| msgid "Replace Checked"
-msgctxt ""
-"Checked here refers to the items  on the list below that can have a "
-"checkmark or not. It's not about any verification or similar, plainly about "
-"user interface"
-msgid "Replace Checked"
-msgstr "प्रतिस्थापनं परीक्षितम्"
-
+#: search.ui:70 search.ui:73
 #. i18n: ectx: property (toolTip), widget (QPushButton, nextButton)
 #. i18n: ectx: property (text), widget (QPushButton, nextButton)
-#: search.ui:70 search.ui:73
 #, kde-format
 msgid "Next"
 msgstr "अग्रिम"
 
+#: search.ui:78 search.ui:81
 #. i18n: ectx: property (toolTip), widget (QPushButton, stopButton)
 #. i18n: ectx: property (text), widget (QPushButton, stopButton)
-#: search.ui:78 search.ui:81
 #, kde-format
 msgid "Stop"
 msgstr "विरमतु"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, matchCase)
 #: search.ui:118
+#. i18n: ectx: property (toolTip), widget (QToolButton, matchCase)
 #, kde-format
 msgid "Match case"
 msgstr "मेलप्रकरणम्"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, useRegExp)
 #: search.ui:134
+#. i18n: ectx: property (toolTip), widget (QToolButton, useRegExp)
 #, kde-format
 msgid ""
-"<html><head/><body><p>Enable regular expressions. Find help for regex syntax "
-"by using the buttons in the search and replace text fields.</p></body></html>"
+"<html><head/><body><p>Enable regular expressions. Find help for regex "
+"syntax by using the buttons in the search and replace text "
+"fields.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>नियमितव्यञ्जनानि सक्षमं कुर्वन्तु । अन्वेषणे गण्ड-प्रयोगेन regex "
-"syntax कृते सहायतां ज्ञात्वा पाठक्षेत्राणि प्रतिस्थापयन्तु ।</p></body></html>"
+"<html><head/><body><p>नियमितव्यञ्जनानि सक्षमं कुर्वन्तु । अन्वेषणे "
+"गण्ड-प्रयोगेन regex syntax कृते सहायतां ज्ञात्वा पाठक्षेत्राणि "
+"प्रतिस्थापयन्तु ।</p></body></html>"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, expandResults)
 #: search.ui:163
+#. i18n: ectx: property (toolTip), widget (QToolButton, expandResults)
 #, kde-format
 msgid "Expand results"
 msgstr "परिणामान् विस्तारयतु"
 
+#: search.ui:179 search.ui:249 search.ui:262
 #. i18n: ectx: property (text), widget (QToolButton, filterBtn)
 #. i18n: ectx: property (text), widget (QToolButton, displayOptions)
 #. i18n: ectx: property (text), widget (QToolButton, newTabButton)
-#: search.ui:179 search.ui:249 search.ui:262
 #, kde-format
 msgid "..."
 msgstr "..."
 
-#. i18n: ectx: property (text), widget (QPushButton, replaceButton)
 #: search.ui:195 SearchPlugin.cpp:507
+#. i18n: ectx: property (text), widget (QPushButton, replaceButton)
 #, kde-format
 msgid "Replace"
 msgstr "प्रत्याहृ"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, searchPlaceCombo)
 #: search.ui:218
+#. i18n: ectx: property (text), item, widget (QComboBox, searchPlaceCombo)
 #, kde-format
 msgid "In Current File"
 msgstr "वर्तमानसञ्चिकायां"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, searchPlaceCombo)
 #: search.ui:223
+#. i18n: ectx: property (text), item, widget (QComboBox, searchPlaceCombo)
 #, kde-format
 msgid "In Open Files"
 msgstr "उद्घाटितसञ्चिकासु"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, searchPlaceCombo)
 #: search.ui:228
+#. i18n: ectx: property (text), item, widget (QComboBox, searchPlaceCombo)
 #, kde-format
 msgid "In Folder"
 msgstr "पुटे"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, currentFolderButton)
 #: search.ui:236
+#. i18n: ectx: property (toolTip), widget (QToolButton, currentFolderButton)
 #, kde-format
 msgid "Use the current document's path."
 msgstr "वर्तमानदस्तावेजस्य मार्गस्य उपयोगं कुर्वन्तु ।."
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, displayOptions)
 #: search.ui:246
+#. i18n: ectx: property (toolTip), widget (QToolButton, displayOptions)
 #, kde-format
 msgid "Show more search options"
 msgstr "अधिकानि अन्वेषणविकल्पानि दर्शयतु"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, newTabButton)
 #: search.ui:259
+#. i18n: ectx: property (toolTip), widget (QToolButton, newTabButton)
 #, kde-format
 msgid "Add new search tab"
 msgstr "नूतनं अन्वेषण ट्याब् योजयन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, folderLabel)
 #: search.ui:356
+#. i18n: ectx: property (text), widget (QLabel, folderLabel)
 #, kde-format
 msgid "Folder:"
 msgstr "पुटम् :"
 
-#. i18n: ectx: property (toolTip), widget (QToolButton, folderUpButton)
 #: search.ui:374
+#. i18n: ectx: property (toolTip), widget (QToolButton, folderUpButton)
 #, kde-format
 msgid "Go one folder up."
 msgstr "एकं पुटं उपरि गच्छतु।."
 
-#. i18n: ectx: property (text), widget (QLabel, filterLabel)
 #: search.ui:383
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
 #, kde-format
 msgid "Filter:"
 msgstr "शोधक:"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, filterCombo)
 #: search.ui:405
+#. i18n: ectx: property (text), item, widget (KComboBox, filterCombo)
 #, kde-format
 msgid "*"
 msgstr "*"
 
-#. i18n: ectx: property (text), widget (QLabel, excludeLabel)
 #: search.ui:413
+#. i18n: ectx: property (text), widget (QLabel, excludeLabel)
 #, kde-format
 msgid "Exclude:"
 msgstr "बहिष्कृत्य :"
 
-#. i18n: ectx: property (text), widget (QCheckBox, recursiveCheckBox)
 #: search.ui:434
+#. i18n: ectx: property (text), widget (QCheckBox, recursiveCheckBox)
 #, kde-format
 msgid "Recursive"
 msgstr "पुनरावर्तनीयम्"
 
-#. i18n: ectx: property (text), widget (QCheckBox, hiddenCheckBox)
 #: search.ui:444
+#. i18n: ectx: property (text), widget (QCheckBox, hiddenCheckBox)
 #, kde-format
 msgid "Include hidden"
 msgstr "गुप्तं समावेशयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, symLinkCheckBox)
 #: search.ui:451
+#. i18n: ectx: property (text), widget (QCheckBox, symLinkCheckBox)
 #, kde-format
 msgid "Follow symbolic links"
 msgstr "प्रतीकात्मकाः कडिानां अनुसरणं कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, binaryCheckBox)
 #: search.ui:458
+#. i18n: ectx: property (text), widget (QCheckBox, binaryCheckBox)
 #, kde-format
 msgid "Include binary files"
 msgstr "द्विचक्रीयसञ्चिकाः समाविष्टाः कुर्वन्तु"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, sizeLimitSpinBox)
 #: search.ui:465
+#. i18n: ectx: property (suffix), widget (QSpinBox, sizeLimitSpinBox)
 #, kde-format
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: search.ui:478
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Size limit"
-msgstr ""
+msgstr "आकारसीमा"
 
 #: SearchPlugin.cpp:81 SearchPlugin.cpp:114
 #, kde-format
@@ -557,8 +553,8 @@ msgid ""
 "This will cut all highlighted search match lines from the current document "
 "to the clipboard"
 msgstr ""
-"एतेन वर्तमानदस्तावेजात् अंशफलक यावत् सर्वाणि प्रकाशितम् कृतानि अन्वेषणमेलनरेखाः कटितानि "
-"भविष्यन्ति"
+"एतेन वर्तमानदस्तावेजात् अंशफलक यावत् सर्वाणि प्रकाशितम् कृतानि "
+"अन्वेषणमेलनरेखाः कटितानि भविष्यन्ति"
 
 #: SearchPlugin.cpp:359
 #, kde-format
@@ -568,17 +564,18 @@ msgstr "मिलान रेखाः प्रतिलिपि कुर्
 #: SearchPlugin.cpp:361
 #, kde-format
 msgid ""
-"This will copy all highlighted search match lines in the current document to "
-"the clipboard"
+"This will copy all highlighted search match lines in the current document "
+"to the clipboard"
 msgstr ""
-"एतेन वर्तमानदस्तावेजे सर्वाणि प्रकाशितानि अन्वेषणमेलनपङ्क्तयः अंशफलक प्रति प्रतिलिपिताः "
-"भविष्यन्ति"
+"एतेन वर्तमानदस्तावेजे सर्वाणि प्रकाशितानि अन्वेषणमेलनपङ्क्तयः अंशफलक प्रति "
+"प्रतिलिपिताः भविष्यन्ति"
 
 #: SearchPlugin.cpp:394
 #, kde-format
-msgid ""
-"Comma separated list of file types to search in. Example: \"*.cpp,*.h\"\n"
-msgstr "अन्वेषणार्थं सञ्चिकाप्रकारस्य अल्पविरामेन पृथक्कृता सूची उदाहरणम् : \"*.cpp,*.h\".\n"
+msgid "Comma separated list of file types to search in. Example: \"*.cpp,*.h\"\n"
+msgstr ""
+"अन्वेषणार्थं सञ्चिकाप्रकारस्य अल्पविरामेन पृथक्कृता सूची उदाहरणम् : "
+"\"*.cpp,*.h\".\n"
 
 #: SearchPlugin.cpp:395
 #, kde-format
@@ -586,8 +583,8 @@ msgid ""
 "Comma separated list of files and directories to exclude from the search. "
 "Example: \"build*\""
 msgstr ""
-"अन्वेषणात् बहिष्कृत्य सञ्चिकानां पुटानां च अल्पविरामेन पृथक्कृता सूची । उदाहरणम् : \"build*\" "
-"।"
+"अन्वेषणात् बहिष्कृत्य सञ्चिकानां पुटानां च अल्पविरामेन पृथक्कृता सूची । "
+"उदाहरणम् : \"build*\" ।"
 
 #: SearchPlugin.cpp:397
 #, kde-format
@@ -684,20 +681,25 @@ msgstr "वर्तमान परियोजनायां"
 msgid "In All Open Projects"
 msgstr "सर्वेषु उद्घाटितेषु परियोजनासु"
 
-#. i18n: ectx: Menu (edit)
 #: ui.rc:6
+#. i18n: ectx: Menu (edit)
 #, kde-format
 msgid "&Edit"
 msgstr "&सम्पादयतु"
 
-#. i18n: ectx: Menu (search_more)
 #: ui.rc:9
+#. i18n: ectx: Menu (search_more)
 #, kde-format
 msgid "Find in Files Variants"
 msgstr "\"सञ्चिकानां रूपान्तराणि\" इत्यत्र अन्वेषणं कुर्वन्तु"
 
-#~ msgid "Filter..."
-#~ msgstr "शोधक..."
-
-#~ msgid "Message ID"
-#~ msgstr "सन्देशपरिचयः"
+#: search.ui:50
+#. i18n: ectx: property (text), widget (QPushButton, replaceCheckedBtn)
+#, fuzzy, kde-format
+#| msgid "Replace Checked"
+msgctxt ""
+"Checked here refers to the items  on the list below that can have a "
+"checkmark or not. It's not about any verification or similar, plainly about "
+"user interface"
+msgid "Replace Checked"
+msgstr "प्रतिस्थापनं परीक्षितम्"
