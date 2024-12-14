@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: kanagram\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-17 00:36+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
+"PO-Revision-Date: 2024-12-14 02:16+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Poedit 3.5\n"
 
 #. i18n: ectx: label, entry (currentVocabulary), group (kanagram)
 #: kanagram.kcfg:9
@@ -33,42 +33,37 @@ msgstr "एतत् सेटिङ्ग् भवन्तं एक-क्�
 #: kanagram.kcfg:17
 #, kde-format
 msgid ""
-"This setting allows you to set in seconds how long Kanagram's hint bubble is "
-"shown."
+"This setting allows you to set in seconds how long Kanagram's hint bubble is shown."
 msgstr ""
-"एतत् सेटिङ्ग् भवन्तं सेकेण्ड्-मात्रेषु सेट् कर्तुं शक्नोति यत् Kanagram इत्यस्य hint bubble "
-"कियत्कालं यावत् दर्शितम् अस्ति ।"
+"एतत् सेटिङ्ग् भवन्तं सेकेण्ड्-मात्रेषु सेट् कर्तुं शक्नोति यत् Kanagram इत्यस्य hint bubble कियत्कालं यावत् "
+"दर्शितम् अस्ति ।"
 
 #. i18n: ectx: label, entry (resolveTime), group (kanagram)
 #: kanagram.kcfg:21
 #, kde-format
 msgid ""
-"This setting allows you to set in seconds how much time is available for "
-"resolving the anagram."
+"This setting allows you to set in seconds how much time is available for resolving "
+"the anagram."
 msgstr ""
-"एतेन सेटिङ्ग् इत्यनेन एनाग्रामस्य समाधानार्थं कियत् समयः उपलब्धः इति सेकेण्ड्-मात्रेषु सेट् कर्तुं "
-"शक्यते ।"
+"एतेन सेटिङ्ग् इत्यनेन एनाग्रामस्य समाधानार्थं कियत् समयः उपलब्धः इति सेकेण्ड्-मात्रेषु सेट् कर्तुं शक्यते ।"
 
 #. i18n: ectx: label, entry (scoreTime), group (kanagram)
 #: kanagram.kcfg:26
 #, kde-format
 msgid ""
-"This setting allows you to set in seconds the time interval of the score "
-"timer."
+"This setting allows you to set in seconds the time interval of the score timer."
 msgstr "एतेन सेटिङ्ग् इत्यनेन स्कोर टाइमर् इत्यस्य समयान्तरं सेकेण्ड्-मात्रेषु सेट् कर्तुं शक्यते ।"
 
 #. i18n: ectx: label, entry (correctAnswerScore), group (kanagram)
 #: kanagram.kcfg:30
 #, kde-format
-msgid ""
-"This setting allows you to set the score associated with a correct answer."
+msgid "This setting allows you to set the score associated with a correct answer."
 msgstr "एतत् सेटिङ्ग् भवन्तं सम्यक् उत्तरेण सह सम्बद्धं स्कोरं सेट् कर्तुं शक्नोति ।"
 
 #. i18n: ectx: label, entry (incorrectAnswerScore), group (kanagram)
 #: kanagram.kcfg:34
 #, kde-format
-msgid ""
-"This setting allows you to set the score associated with an incorrect answer."
+msgid "This setting allows you to set the score associated with an incorrect answer."
 msgstr "एतत् सेटिङ्ग् भवन्तं अशुद्धोत्तरसम्बद्धं स्कोरं सेट् कर्तुं शक्नोति ।"
 
 #. i18n: ectx: label, entry (revealAnswerScore), group (kanagram)
@@ -80,8 +75,7 @@ msgstr "एतत् सेटिङ्ग् भवन्तं reveal answer �
 #. i18n: ectx: label, entry (skippedWordScore), group (kanagram)
 #: kanagram.kcfg:42
 #, kde-format
-msgid ""
-"This setting allows you to set the score associated with a skipped word."
+msgid "This setting allows you to set the score associated with a skipped word."
 msgstr "एतत् सेटिङ्ग् भवन्तं त्यक्तशब्देन सह सम्बद्धं स्कोरं सेट् कर्तुं शक्नोति ।"
 
 #. i18n: ectx: label, entry (useSounds), group (kanagram)
@@ -109,13 +103,6 @@ msgstr "उच्चारणं चालू/निष्क्रान्त�
 msgid "Set the default translation"
 msgstr "पूर्वनिर्धारितं अनुवादं सेट् कुर्वन्तु"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, MainSettingsWidget)
-#: kanagramconfigdialog.cpp:37 mainsettingswidget.ui:14
-#, kde-format
-msgctxt "@title:group main settings page name"
-msgid "General"
-msgstr ""
-
 #. i18n: ectx: property (windowTitle), widget (QWidget, VocabSettingsWidget)
 #: kanagramconfigdialog.cpp:42 vocabsettingswidget.ui:20
 #, kde-format
@@ -126,12 +113,6 @@ msgstr "शब्दावली"
 #, kde-format
 msgid "No hint"
 msgstr "न संकेतः"
-
-#: kanagramgame.cpp:359 mainsettings.cpp:90
-#, kde-format
-msgctxt "@item:inlistbox no language for that locale"
-msgid "None"
-msgstr ""
 
 #: main.cpp:46
 #, kde-format
@@ -316,27 +297,14 @@ msgstr "सायं विश्वासः"
 msgid "Letters turned to clickable buttons"
 msgstr "अक्षराणि क्लिक् कर्तुं शक्यन्ते बटन् प्रति परिवर्तितानि"
 
-#: main.cpp:69
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: main.cpp:69
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (QWidget, MainSettingsWidget)
 #: mainsettingswidget.ui:17
 #, kde-format
 msgid ""
-"This setting allows you to set the length of time Kanagram's hint bubble is "
-"shown."
+"This setting allows you to set the length of time Kanagram's hint bubble is shown."
 msgstr ""
-"एतत् सेटिङ्ग् भवन्तं Kanagram इत्यस्य hint bubble इत्यस्य दर्शितस्य समयस्य दीर्घतां सेट् कर्तुं "
-"शक्नोति ।"
+"एतत् सेटिङ्ग् भवन्तं Kanagram इत्यस्य hint bubble इत्यस्य दर्शितस्य समयस्य दीर्घतां सेट् कर्तुं शक्नोति "
+"।"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: mainsettingswidget.ui:23
@@ -456,25 +424,29 @@ msgstr "स्कोर बिन्दु सेटिंग्स"
 msgid "Assign score for correct answer : "
 msgstr "सम्यक् उत्तराय स्कोरं नियुक्तं कुर्वन्तु : . "
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_correctAnswerScore)
 #: mainsettingswidget.ui:182
 #, kde-format
 msgid "+5 points"
 msgstr "+५ अंक"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_correctAnswerScore)
 #: mainsettingswidget.ui:187
 #, kde-format
 msgid "+10 points"
 msgstr "+१० अंक"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_correctAnswerScore)
 #: mainsettingswidget.ui:192
 #, kde-format
 msgid "+15 points"
 msgstr "+१५ अंक"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_correctAnswerScore)
 #: mainsettingswidget.ui:197
 #, kde-format
 msgid "+20 points"
@@ -486,32 +458,38 @@ msgstr "+२० अंक"
 msgid "Assign score for incorrect answer : "
 msgstr "अशुद्ध उत्तरस्य कृते स्कोरं नियुक्तं कुर्वन्तु : . "
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_incorrectAnswerScore)
 #: mainsettingswidget.ui:213
 #, kde-format
 msgid "-1 point"
 msgstr "-1 बिन्दु"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
-#: mainsettingswidget.ui:218 mainsettingswidget.ui:244
-#: mainsettingswidget.ui:275
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_incorrectAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_skippedWordScore)
+#: mainsettingswidget.ui:218 mainsettingswidget.ui:244 mainsettingswidget.ui:275
 #, kde-format
 msgid "-2 points"
 msgstr "-2 अंक"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_incorrectAnswerScore)
 #: mainsettingswidget.ui:223
 #, kde-format
 msgid "-3 points"
 msgstr "-3 अंक"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
-#: mainsettingswidget.ui:228 mainsettingswidget.ui:249
-#: mainsettingswidget.ui:280
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_incorrectAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_skippedWordScore)
+#: mainsettingswidget.ui:228 mainsettingswidget.ui:249 mainsettingswidget.ui:280
 #, kde-format
 msgid "-4 points"
 msgstr "-4 अंक"
@@ -522,15 +500,19 @@ msgstr "-4 अंक"
 msgid "Assign score for reveal answer : "
 msgstr "reveal answer कृते स्कोरं नियुक्तं कुर्वन्तु : "
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_skippedWordScore)
 #: mainsettingswidget.ui:254 mainsettingswidget.ui:285
 #, kde-format
 msgid "-6 points"
 msgstr "-६ अंक"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox,
+#. kcfg_skippedWordScore)
 #: mainsettingswidget.ui:259 mainsettingswidget.ui:290
 #, kde-format
 msgid "-8 points"
@@ -560,7 +542,8 @@ msgstr "केवलं बृहत् अक्षराणां प्रय
 msgid "Only uppercase letters"
 msgstr "केवलं बृहत् अक्षराणि"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_enablePronunciation)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. kcfg_enablePronunciation)
 #: mainsettingswidget.ui:321
 #, kde-format
 msgid "Turn pronunciations on or off."
@@ -741,12 +724,12 @@ msgstr "&पिधानं करोतु"
 #: vocabeditwidget.ui:127
 #, kde-format
 msgid ""
-"The description of the vocabulary. If you are creating a new vocabulary, add "
-"a description so that users of your vocabulary will know what kinds of words "
-"it contains."
+"The description of the vocabulary. If you are creating a new vocabulary, add a "
+"description so that users of your vocabulary will know what kinds of words it "
+"contains."
 msgstr ""
-"शब्दावलीनिरूपणम् । यदि भवान् नूतनं शब्दावलीं निर्माति तर्हि विवरणं योजयतु येन भवतः "
-"शब्दावलीयाः उपयोक्तारः ज्ञास्यन्ति यत् तस्मिन् के प्रकाराः शब्दाः सन्ति ।"
+"शब्दावलीनिरूपणम् । यदि भवान् नूतनं शब्दावलीं निर्माति तर्हि विवरणं योजयतु येन भवतः शब्दावलीयाः "
+"उपयोक्तारः ज्ञास्यन्ति यत् तस्मिन् के प्रकाराः शब्दाः सन्ति ।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: vocabeditwidget.ui:130
@@ -873,3 +856,28 @@ msgstr "शीर्षक"
 #, kde-format
 msgid "Description"
 msgstr "वर्णनम्‌"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainSettingsWidget)
+#: kanagramconfigdialog.cpp:37 mainsettingswidget.ui:14
+#, kde-format
+msgctxt "@title:group main settings page name"
+msgid "General"
+msgstr "सामान्य"
+
+#: kanagramgame.cpp:359 mainsettings.cpp:90
+#, kde-format
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: main.cpp:69
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: main.cpp:69
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
