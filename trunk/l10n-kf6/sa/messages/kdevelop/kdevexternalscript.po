@@ -20,7 +20,8 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines the command that should be executed when this script is run. Basic shell features of your platform should be available.</p>\n"
+"<p>Defines the command that should be executed when this script is run. "
+"Basic shell features of your platform should be available.</p>\n"
 "<p>There are a few placeholders you can use in the command:</p>\n"
 "<dl>\n"
 "  <dt><code>%u</code></dt>\n"
@@ -28,43 +29,49 @@ msgid ""
 "  <dt><code>%f</code></dt>\n"
 "  <dd>Gets replaced by the local filepath to the active document.</dd>\n"
 "  <dt><code>%n</code></dt>\n"
-"  <dd>Gets replaced by the name of the active document, including its extension.</dd>\n"
+"  <dd>Gets replaced by the name of the active document, including its "
+"extension.</dd>\n"
 "  <dt><code>%b</code></dt>\n"
-"  <dd>Gets replaced by the name of the active document without its extension.</dd>\n"
+"  <dd>Gets replaced by the name of the active document without its extension."
+"</dd>\n"
 "  <dt><code>%d</code></dt>\n"
-"  <dd>Gets replaced by the path to the directory of the active document.</dd>\n"
+"  <dd>Gets replaced by the path to the directory of the active document.</"
+"dd>\n"
 "  <dt><code>%p</code></dt>\n"
 "  <dd>Gets replaced by the URL to the project of the active document.</dd>\n"
 "  <dt><code>%s</code></dt>\n"
-"  <dd>Gets replaced with the shell escaped contents of the selection in the active document.</dd>\n"
+"  <dd>Gets replaced with the shell escaped contents of the selection in the "
+"active document.</dd>\n"
 "  <dt><code>%i</code></dt>\n"
-"  <dd>Gets replaced with the PID of the currently running KDevelop process.</dd>\n"
+"  <dd>Gets replaced with the PID of the currently running KDevelop process.</"
+"dd>\n"
 "</dl>\n"
-"<p><b>NOTE:</b>  It is your responsibility to prevent running hazardous commands that could lead to data loss.</p>\n"
+"<p><b>NOTE:</b>  It is your responsibility to prevent running hazardous "
+"commands that could lead to data loss.</p>\n"
 msgstr ""
 
 #: editexternalscript.cpp:56
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines what the external script should get as input (via "
-"<code>STDIN</code>).</p>"
+"<p>Defines what the external script should get as input (via <code>STDIN</"
+"code>).</p>"
 msgstr ""
 
 #: editexternalscript.cpp:62
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines what should be done with the output (i.e. <code>STDOUT</code>) of"
-" the script.</p>"
+"<p>Defines what should be done with the output (i.e. <code>STDOUT</code>) of "
+"the script.</p>"
 msgstr ""
 
 #: editexternalscript.cpp:68
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines what should be done with the errors (i.e. <code>STDERR</code>) of"
-" the script.</p><p>Note: if the action is the same as that chosen for the "
+"<p>Defines what should be done with the errors (i.e. <code>STDERR</code>) of "
+"the script.</p><p>Note: if the action is the same as that chosen for the "
 "output, the channels will be merged and handled together.</p>"
 msgstr ""
 
@@ -85,16 +92,16 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines whether documents should be saved before the script gets "
-"executed.</p>"
+"<p>Defines whether documents should be saved before the script gets executed."
+"</p>"
 msgstr ""
 
 #: editexternalscript.cpp:94
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines whether the output of the script should be shown in a tool "
-"view.</p>"
+"<p>Defines whether the output of the script should be shown in a tool view.</"
+"p>"
 msgstr ""
 
 #: editexternalscript.cpp:98
@@ -370,8 +377,8 @@ msgid ""
 "Cannot run script '%1' since it tries to access the editor contents but no "
 "document is open."
 msgstr ""
-"'%1' स्क्रिप्ट् चालयितुं न शक्यते यतः सम्पादकस्य सामग्रीं प्राप्तुं प्रयतते "
-"परन्तु कोऽपि दस्तावेजः उद्घाटितः नास्ति ।"
+"'%1' स्क्रिप्ट् चालयितुं न शक्यते यतः सम्पादकस्य सामग्रीं प्राप्तुं प्रयतते परन्तु कोऽपि दस्तावेजः "
+"उद्घाटितः नास्ति ।"
 
 #: externalscriptjob.cpp:224
 #, kde-format
@@ -409,8 +416,7 @@ msgid ""
 "*** Could not start program '%1'. Make sure that the path is specified "
 "correctly ***"
 msgstr ""
-"*** '%1' इति कार्यक्रमं आरभुं न शक्तम् । मार्गः सम्यक् निर्दिष्टः इति "
-"सुनिश्चितं कुर्वन्तु *** ."
+"*** '%1' इति कार्यक्रमं आरभुं न शक्तम् । मार्गः सम्यक् निर्दिष्टः इति सुनिश्चितं कुर्वन्तु *** ."
 
 #: externalscriptplugin.cpp:126
 #, kde-format
@@ -470,11 +476,11 @@ msgstr ""
 #: externalscriptview.cpp:147
 #, kde-format
 msgid ""
-"<p>Do you really want to remove the external script configuration for "
-"<i>%1</i>?</p><p><i>Note:</i> The script itself will not be removed.</p>"
+"<p>Do you really want to remove the external script configuration for <i>%1</"
+"i>?</p><p><i>Note:</i> The script itself will not be removed.</p>"
 msgstr ""
-"<p>किं भवान् वास्तवमेव <i>%1</i> कृते बाह्यस्क्रिप्टविन्यासं हर्तुं इच्छति "
-"?</p><p> <i>नोटः-</i> स्क्रिप्ट् एव न निष्कासिता भविष्यति।</p>"
+"<p>किं भवान् वास्तवमेव <i>%1</i> कृते बाह्यस्क्रिप्टविन्यासं हर्तुं इच्छति ?</p><p> <i>नोटः-"
+"</i> स्क्रिप्ट् एव न निष्कासिता भविष्यति।</p>"
 
 #: externalscriptview.cpp:150
 #, kde-format

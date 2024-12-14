@@ -1994,8 +1994,7 @@ msgstr "पैरामीटर्स: union(... पैरामीटर्स
 msgid ""
 "Example: x-&gt;union(list { 1, 2, 3 }, list { 4, 5, 6 })[rem(floor(x), 5)+3]"
 msgstr ""
-"उदाहरणम् : x-&gt;union(सूची { 1, 2, 3 }, सूची { 4, 5, 6 })[rem(floor(x), "
-"5)+3]"
+"उदाहरणम् : x-&gt;union(सूची { 1, 2, 3 }, सूची { 4, 5, 6 })[rem(floor(x), 5)+3]"
 
 #. Tag: title
 #: commands.docbook:399
@@ -2025,11 +2024,10 @@ msgstr "पैरामीटर्स: forall(par1 : var)"
 #: commands.docbook:403
 #, no-c-format
 msgid ""
-"Example: x-&gt;piecewise { forall(t:t@list { true, false, false }) ? 1, ? 0 "
-"}"
+"Example: x-&gt;piecewise { forall(t:t@list { true, false, false }) ? 1, ? 0 }"
 msgstr ""
-"उदाहरणम् : x-&gt;piecewise { forall(t:t@list { सत्य, मिथ्या, मिथ्या }) ? १, "
-"? ० } ९."
+"उदाहरणम् : x-&gt;piecewise { forall(t:t@list { सत्य, मिथ्या, मिथ्या }) ? १, ? "
+"० } ९."
 
 #. Tag: title
 #: commands.docbook:405
@@ -2059,8 +2057,7 @@ msgstr "मापदण्डः अस्ति(par1 : var)"
 #: commands.docbook:409
 #, no-c-format
 msgid ""
-"Example: x-&gt;piecewise { exists(t:t@list { true, false, false }) ? 1, ? 0 "
-"}"
+"Example: x-&gt;piecewise { exists(t:t@list { true, false, false }) ? 1, ? 0 }"
 msgstr ""
 "उदाहरणम् : x-&gt;piecewise { exists(t:t@list { true, false, false }) ? १, ? "
 "० } ९."
@@ -2095,8 +2092,7 @@ msgstr "पैरामीटर्स: map(par1, par2)"
 msgid ""
 "Example: x-&gt;map(x-&gt;x+x, list { 1, 2, 3, 4, 5, 6 })[rem(floor(x), 5)+3]"
 msgstr ""
-"उदाहरणम् : x-&gt;map(x-&gt;x+x, list { 1, 2, 3, 4, 5, 6 })[rem(floor(x), "
-"5)+3]"
+"उदाहरणम् : x-&gt;map(x-&gt;x+x, list { 1, 2, 3, 4, 5, 6 })[rem(floor(x), 5)+3]"
 
 #. Tag: title
 #: commands.docbook:417
@@ -2114,8 +2110,7 @@ msgstr "नाम: फ़िल्टर"
 #: commands.docbook:419
 #, no-c-format
 msgid "Description: Removes all elements that don't fit a condition"
-msgstr ""
-"विवरणम् : सर्वाणि तत्त्वानि निष्कासयति ये कस्मिंश्चित् शर्ते न उपयुज्यन्ते"
+msgstr "विवरणम् : सर्वाणि तत्त्वानि निष्कासयति ये कस्मिंश्चित् शर्ते न उपयुज्यन्ते"
 
 #. Tag: para
 #: commands.docbook:420
@@ -2127,11 +2122,11 @@ msgstr "पैरामीटर्स: filter(par1, par2)"
 #: commands.docbook:421
 #, no-c-format
 msgid ""
-"Example: x-&gt;filter(u-&gt;rem(u, 2)=0, list { 2, 4, 3, 4, 8, 6 "
-"})[rem(floor(x), 5)+3]"
+"Example: x-&gt;filter(u-&gt;rem(u, 2)=0, list { 2, 4, 3, 4, 8, 6 })"
+"[rem(floor(x), 5)+3]"
 msgstr ""
-"उदाहरणम् : x-&gt;filter(u-&gt;rem(u, 2)=0, list { 2, 4, 3, 4, 8, 6 "
-"})[rem(floor(x), 5)+3]"
+"उदाहरणम् : x-&gt;filter(u-&gt;rem(u, 2)=0, list { 2, 4, 3, 4, 8, 6 })"
+"[rem(floor(x), 5)+3]"
 
 #. Tag: title
 #: commands.docbook:423
@@ -2161,8 +2156,8 @@ msgstr "पैरामीटर्स: transpose(par1)"
 #: commands.docbook:427
 #, no-c-format
 msgid ""
-"Example: x-&gt;transpose(matrix { matrixrow { 1, 2, 3, 4, 5, 6 } "
-"})[rem(floor(x), 5)+3][1]"
+"Example: x-&gt;transpose(matrix { matrixrow { 1, 2, 3, 4, 5, 6 } })"
+"[rem(floor(x), 5)+3][1]"
 msgstr ""
-"उदाहरणम् : x-&gt;transpose(matrix { matrixrow { 1, 2, 3, 4, 5, 6 } "
-"})[rem(floor(x), 5)+3][1]"
+"उदाहरणम् : x-&gt;transpose(matrix { matrixrow { 1, 2, 3, 4, 5, 6 } })"
+"[rem(floor(x), 5)+3][1]"

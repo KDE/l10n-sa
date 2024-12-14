@@ -19,11 +19,9 @@ msgstr ""
 #: executeplugin.cpp:68
 #, kde-format
 msgid ""
-"There is a quoting error in the arguments for the launch configuration '%1'."
-" Aborting start."
-msgstr ""
-"'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः उद्धरणदोषः अस्ति । गर्भपातस्य "
-"आरम्भः।"
+"There is a quoting error in the arguments for the launch configuration '%1'. "
+"Aborting start."
+msgstr "'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः उद्धरणदोषः अस्ति । गर्भपातस्य आरम्भः।"
 
 #: executeplugin.cpp:72
 #, kde-format
@@ -31,8 +29,8 @@ msgid ""
 "A shell meta character was included in the arguments for the launch "
 "configuration '%1', this is not supported currently. Aborting start."
 msgstr ""
-"'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः एकः शेल् मेटा वर्णः समाविष्टः "
-"आसीत्, एतत् सम्प्रति समर्थितं नास्ति । गर्भपातस्य आरम्भः।"
+"'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः एकः शेल् मेटा वर्णः समाविष्टः आसीत्, एतत् सम्प्रति "
+"समर्थितं नास्ति । गर्भपातस्य आरम्भः।"
 
 #: executeplugin.cpp:99
 #, kde-format
@@ -50,8 +48,7 @@ msgid ""
 "There is a quoting error in the executable for the launch configuration "
 "'%1'. Aborting start."
 msgstr ""
-"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कार्यान्वयनयोग्ये उद्धरणदोषः अस्ति । "
-"गर्भपातस्य आरम्भः।"
+"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कार्यान्वयनयोग्ये उद्धरणदोषः अस्ति । गर्भपातस्य आरम्भः।"
 
 #: executeplugin.cpp:169
 #, kde-format
@@ -59,8 +56,8 @@ msgid ""
 "A shell meta character was included in the executable for the launch "
 "configuration '%1', this is not supported currently. Aborting start."
 msgstr ""
-"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कृते कार्यान्वयनीयमध्ये एकः शेल् मेटा वर्णः"
-" समाविष्टः आसीत्, एतत् सम्प्रति समर्थितं नास्ति । गर्भपातस्य आरम्भः।"
+"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कृते कार्यान्वयनीयमध्ये एकः शेल् मेटा वर्णः समाविष्टः आसीत्, "
+"एतत् सम्प्रति समर्थितं नास्ति । गर्भपातस्य आरम्भः।"
 
 #: nativeappconfig.cpp:104
 #, kde-format
@@ -128,8 +125,7 @@ msgctxt "@label:chooser"
 msgid "E&xecutable:"
 msgstr ""
 
-#. i18n: ectx: property (placeholderText), widget (KUrlRequester,
-#. executablePath)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, executablePath)
 #: nativeappconfig.ui:106
 #, kde-format
 msgctxt "@info:placeholder"
@@ -162,9 +158,9 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<html><head/><body><p>Enter arguments to give to the executable.<br/>You can"
-" pass arguments containing space characters by putting them in double-"
-"quotes.</p></body></html>"
+"<html><head/><body><p>Enter arguments to give to the executable.<br/>You can "
+"pass arguments containing space characters by putting them in double-quotes."
+"</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -188,8 +184,7 @@ msgctxt "@label:chooser"
 msgid "E&nvironment:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget
-#. (KDevelop::EnvironmentSelectionWidget, environment)
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, environment)
 #: nativeappconfig.ui:179
 #, kde-format
 msgctxt "@info:tooltip"
@@ -203,8 +198,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "<p>By default applications will be run in the background and only their "
 "output will be displayed in a tool view. This makes it impossible to "
-"interact with applications requiring user input from a terminal emulator. To"
-" run such applications, you should use an external terminal.</p>"
+"interact with applications requiring user input from a terminal emulator. To "
+"run such applications, you should use an external terminal.</p>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, runInTerminal)
@@ -219,7 +214,8 @@ msgstr ""
 #, no-c-format, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"<p>Defines the command to execute the external terminal emulator. Use the following placeholders:</p>\n"
+"<p>Defines the command to execute the external terminal emulator. Use the "
+"following placeholders:</p>\n"
 "<dl>\n"
 "<dt><code>%exe</code></dt>\n"
 "<dd>The path to the executable selected above.</dd>\n"
@@ -266,8 +262,7 @@ msgctxt "@info:whatsthis"
 msgid ""
 "The selected action will be run before the executable is started.  This "
 "allows there to be parts of a project, upon which the executable does not "
-"directly depend, to be built and/or installed before running the "
-"application."
+"directly depend, to be built and/or installed before running the application."
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dependencyAction)
@@ -304,8 +299,8 @@ msgid ""
 "No environment profile specified, looks like a broken configuration, please "
 "check run configuration '%1'. Using default environment profile."
 msgstr ""
-"कोऽपि वातावरणरूपरेखा निर्दिष्टा, भग्नविन्यासः इव दृश्यते, कृपया '%1' "
-"चालनविन्यासं परीक्ष्यताम् । पूर्वनिर्धारितपर्यावरणरूपरेखायाः उपयोगेन।"
+"कोऽपि वातावरणरूपरेखा निर्दिष्टा, भग्नविन्यासः इव दृश्यते, कृपया '%1' चालनविन्यासं "
+"परीक्ष्यताम् । पूर्वनिर्धारितपर्यावरणरूपरेखायाः उपयोगेन।"
 
 #: nativeappjob.cpp:142
 #, kde-format

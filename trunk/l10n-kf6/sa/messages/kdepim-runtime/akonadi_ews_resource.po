@@ -135,8 +135,8 @@ msgid ""
 "Autodiscovery failed. This can be caused by incorrect parameters. Do you "
 "still want to save your settings?"
 msgstr ""
-"स्वतः आविष्कारः विफलः अभवत् । एतत् अशुद्धमापदण्डैः कारणं भवितुम् अर्हति । "
-"किं भवन्तः अद्यापि स्वस्य सेटिङ्ग्स् रक्षितुं इच्छन्ति?"
+"स्वतः आविष्कारः विफलः अभवत् । एतत् अशुद्धमापदण्डैः कारणं भवितुम् अर्हति । किं भवन्तः "
+"अद्यापि स्वस्य सेटिङ्ग्स् रक्षितुं इच्छन्ति?"
 
 #: ewsconfigdialog.cpp:343 ewsprogressdialog.cpp:48
 #, kde-format
@@ -150,8 +150,8 @@ msgid ""
 "Connecting to Exchange failed. This can be caused by incorrect parameters. "
 "Do you still want to save your settings?"
 msgstr ""
-"Exchange इत्यनेन सह संयोजनं विफलम् अभवत् । एतत् अशुद्धमापदण्डैः कारणं "
-"भवितुम् अर्हति । किं भवन्तः अद्यापि स्वस्य सेटिङ्ग्स् रक्षितुं इच्छन्ति?"
+"Exchange इत्यनेन सह संयोजनं विफलम् अभवत् । एतत् अशुद्धमापदण्डैः कारणं भवितुम् अर्हति । किं "
+"भवन्तः अद्यापि स्वस्य सेटिङ्ग्स् रक्षितुं इच्छन्ति?"
 
 #: ewsconfigdialog.cpp:374
 #, kde-format
@@ -216,8 +216,7 @@ msgstr "अस्य खातेः ई-मेल-सङ्केतः"
 msgid "Authentication"
 msgstr "प्रमाणीकरणम्"
 
-#. i18n: ectx: property (whatsThis), widget (QRadioButton,
-#. authUsernameRadioButton)
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, authUsernameRadioButton)
 #: ewsconfigdialog.ui:94
 #, kde-format
 msgid ""
@@ -225,14 +224,13 @@ msgid ""
 "against the Exchange server. This includes methods like Basic, NTLM or "
 "Kerberos.</p><p>This authentication method is considered to be somewhat "
 "legacy and is mostly used for smaller on-premise Exchange installations and "
-"hosted Office 365 instances, where the administrator has chosen to enable "
-"it.</p></body></html>"
+"hosted Office 365 instances, where the administrator has chosen to enable it."
+"</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Exchange सर्वरस्य विरुद्धं पारम्परिकं "
-"उपयोक्तृनाम/गुप्तशब्दप्रमाणीकरणं सक्षमं करोति । अस्मिन् Basic, NTLM अथवा "
-"Kerberos इत्यादीनि पद्धतयः सन्ति ।</p><p> इयं प्रमाणीकरणविधिः किञ्चित् "
-"विरासतां मन्यते तथा च अधिकतया लघु-स्थानीय-Exchange-स्थापनानाम्, "
-"होस्ट्-कृत-Office 365-दृष्टान्तानां च कृते उपयुज्यते, यत्र प्रशासकेन तत् "
+"<html><head/><body><p>Exchange सर्वरस्य विरुद्धं पारम्परिकं उपयोक्तृनाम/"
+"गुप्तशब्दप्रमाणीकरणं सक्षमं करोति । अस्मिन् Basic, NTLM अथवा Kerberos इत्यादीनि पद्धतयः "
+"सन्ति ।</p><p> इयं प्रमाणीकरणविधिः किञ्चित् विरासतां मन्यते तथा च अधिकतया लघु-स्थानीय-"
+"Exchange-स्थापनानाम्, होस्ट्-कृत-Office 365-दृष्टान्तानां च कृते उपयुज्यते, यत्र प्रशासकेन तत् "
 "सक्षमीकरणाय चयनं कृतम् अस्ति</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, authUsernameRadioButton)
@@ -247,24 +245,22 @@ msgstr ""
 #, kde-format
 msgid ""
 "<html><head/><body><p>Allows to specify an Active Directory domain for the "
-"user.</p><p><span style=\" font-weight:600;\">Note:</span> There is a subtle"
-" difference between &quot;empty domain&quot; and &quot;no-"
-"domain&quot;.</p><p>With an empty domain (Domain checkbox checked, empty "
-"domain in edit box) the EWS resource will pass the user with an explicitly "
-"empty domain (&quot;\\username&quot;).</p><p>With no domain set (Domain "
-"checkbox cleared) the username will be passed without the domain "
-"(&quot;username&quot;), which will cause the server to set the domain to the"
-" default one its configured with.</p></body></html>"
+"user.</p><p><span style=\" font-weight:600;\">Note:</span> There is a subtle "
+"difference between &quot;empty domain&quot; and &quot;no-domain&quot;.</"
+"p><p>With an empty domain (Domain checkbox checked, empty domain in edit "
+"box) the EWS resource will pass the user with an explicitly empty domain "
+"(&quot;\\username&quot;).</p><p>With no domain set (Domain checkbox cleared) "
+"the username will be passed without the domain (&quot;username&quot;), which "
+"will cause the server to set the domain to the default one its configured "
+"with.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>उपयोक्तुः कृते Active Directory डोमेन् निर्दिष्टुं "
-"शक्नोति ।</p><p> <span style=\" font-weight:600;\">नोटः-</span> "
-"&quot;रिक्तक्षेत्रम्&quot; &quot;कोऽपि क्षेत्रं नास्ति&quot; इति सूक्ष्मः "
-"अन्तरः अस्ति ।</p><p> रिक्त डोमेन (Domain चेकबॉक्स चेक्ड्, सम्पादन बॉक्स "
-"मध्ये रिक्त डोमेन) सह EWS संसाधनं स्पष्टतया रिक्त डोमेन "
-"(&quot;\\username&quot;) सह उपयोक्तारं पारयिष्यति ।</p><p> डोमेन सेट् न "
-"कृत्वा (Domain checkbox cleared) उपयोक्तृनाम डोमेन् (&quot;username&quot;) "
-"विना पारितं भविष्यति, येन सर्वरः डोमेन् पूर्वनिर्धारितरूपेण सेट् करिष्यति "
-"यस्य सह विन्यस्तम् अस्ति</p></body></html>"
+"<html><head/><body><p>उपयोक्तुः कृते Active Directory डोमेन् निर्दिष्टुं शक्नोति ।</"
+"p><p> <span style=\" font-weight:600;\">नोटः-</span> &quot;रिक्तक्षेत्रम्&quot; "
+"&quot;कोऽपि क्षेत्रं नास्ति&quot; इति सूक्ष्मः अन्तरः अस्ति ।</p><p> रिक्त डोमेन (Domain "
+"चेकबॉक्स चेक्ड्, सम्पादन बॉक्स मध्ये रिक्त डोमेन) सह EWS संसाधनं स्पष्टतया रिक्त डोमेन (&quot;"
+"\\username&quot;) सह उपयोक्तारं पारयिष्यति ।</p><p> डोमेन सेट् न कृत्वा (Domain "
+"checkbox cleared) उपयोक्तृनाम डोमेन् (&quot;username&quot;) विना पारितं भविष्यति, "
+"येन सर्वरः डोमेन् पूर्वनिर्धारितरूपेण सेट् करिष्यति यस्य सह विन्यस्तम् अस्ति</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HasDomain)
 #: ewsconfigdialog.ui:146
@@ -295,25 +291,25 @@ msgstr "समाभाष्:"
 #: ewsconfigdialog.ui:186
 #, kde-format
 msgid ""
-"<html><head/><body><p>The password used to login to the Exchange "
-"server.</p><p><span style=\" font-weight:600;\">Note:</span> This can be "
-"left empty when using Kerberos authentication.</p></body></html>"
+"<html><head/><body><p>The password used to login to the Exchange server.</"
+"p><p><span style=\" font-weight:600;\">Note:</span> This can be left empty "
+"when using Kerberos authentication.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Exchange सर्वरे प्रवेशार्थं प्रयुक्तः गुप्तशब्दः "
-"।</p><p> <span style=\" font-weight:600;\">नोट्:</span> Kerberos "
-"प्रमाणीकरणस्य उपयोगं कुर्वन् एतत् रिक्तं त्यक्तुं शक्यते ।</p></body></html>"
+"<html><head/><body><p>Exchange सर्वरे प्रवेशार्थं प्रयुक्तः गुप्तशब्दः ।</p><p> <span "
+"style=\" font-weight:600;\">नोट्:</span> Kerberos प्रमाणीकरणस्य उपयोगं कुर्वन् एतत् "
+"रिक्तं त्यक्तुं शक्यते ।</p></body></html>"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_Username)
 #: ewsconfigdialog.ui:193
 #, kde-format
 msgid ""
-"<html><head/><body><p>The username used to login to the Exchange "
-"server.</p><p><span style=\" font-weight:600;\">Note:</span> This can be "
-"left empty when using Kerberos authentication.</p></body></html>"
+"<html><head/><body><p>The username used to login to the Exchange server.</"
+"p><p><span style=\" font-weight:600;\">Note:</span> This can be left empty "
+"when using Kerberos authentication.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>Exchange सर्वरे प्रवेशार्थं प्रयुक्तं उपयोक्तृनाम "
-"।</p><p> <span style=\" font-weight:600;\">नोट्:</span> Kerberos "
-"प्रमाणीकरणस्य उपयोगं कुर्वन् एतत् रिक्तं त्यक्तुं शक्यते ।</p></body></html>"
+"<html><head/><body><p>Exchange सर्वरे प्रवेशार्थं प्रयुक्तं उपयोक्तृनाम ।</p><p> <span "
+"style=\" font-weight:600;\">नोट्:</span> Kerberos प्रमाणीकरणस्य उपयोगं कुर्वन् एतत् "
+"रिक्तं त्यक्तुं शक्यते ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, kerberosNoteLabel)
 #: ewsconfigdialog.ui:203
@@ -323,12 +319,11 @@ msgid ""
 "Username and password are not needed (can be empty) when Kerberos is "
 "properly configured on your system.</p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">नोट्:</span> यदा "
-"भवतः प्रणाल्यां Kerberos सम्यक् विन्यस्तं भवति तदा उपयोक्तृनामस्य "
-"गुप्तशब्दस्य च आवश्यकता नास्ति (रिक्तं भवितुम् अर्हति) ।</p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">नोट्:</span> यदा भवतः "
+"प्रणाल्यां Kerberos सम्यक् विन्यस्तं भवति तदा उपयोक्तृनामस्य गुप्तशब्दस्य च आवश्यकता नास्ति "
+"(रिक्तं भवितुम् अर्हति) ।</p></body></html>"
 
-#. i18n: ectx: property (whatsThis), widget (QRadioButton,
-#. authOAuth2RadioButton)
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, authOAuth2RadioButton)
 #: ewsconfigdialog.ui:222
 #, kde-format
 msgid ""
@@ -336,15 +331,14 @@ msgid ""
 "on OAuth2.</p><p>This type of authentication will open an organization-"
 "supplied webpage, where the user will be able to enter authentication "
 "information, which may also include multifactor authentication in form of "
-"one-time-passwords generated by tokens.</p><p>This method is mostly used for"
-" hosted Office 365 instances.</p></body></html>"
+"one-time-passwords generated by tokens.</p><p>This method is mostly used for "
+"hosted Office 365 instances.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>OAuth2 इत्यस्य आधारेण अधिकं आधुनिकं सशक्तं च "
-"प्रमाणीकरणं सक्षमं करोति ।</p><p> एतादृशः प्रमाणीकरणं संस्थायाः आपूर्तिं "
-"कृतं जालपुटं उद्घाटयिष्यति, यत्र उपयोक्ता प्रमाणीकरणसूचनाः प्रविष्टुं "
-"शक्नोति, यस्मिन् टोकनद्वारा उत्पन्नस्य एकवारं-गुप्तशब्दरूपेण "
-"बहुकारकप्रमाणीकरणं अपि अन्तर्भवितुं शक्नोति</p><p> एषा पद्धतिः अधिकतया "
-"होस्ट् कृते Office 365 उदाहरणानां कृते उपयुज्यते ।</p></body></html>"
+"<html><head/><body><p>OAuth2 इत्यस्य आधारेण अधिकं आधुनिकं सशक्तं च प्रमाणीकरणं सक्षमं "
+"करोति ।</p><p> एतादृशः प्रमाणीकरणं संस्थायाः आपूर्तिं कृतं जालपुटं उद्घाटयिष्यति, यत्र "
+"उपयोक्ता प्रमाणीकरणसूचनाः प्रविष्टुं शक्नोति, यस्मिन् टोकनद्वारा उत्पन्नस्य एकवारं-"
+"गुप्तशब्दरूपेण बहुकारकप्रमाणीकरणं अपि अन्तर्भवितुं शक्नोति</p><p> एषा पद्धतिः अधिकतया होस्ट् "
+"कृते Office 365 उदाहरणानां कृते उपयुज्यते ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, authOAuth2RadioButton)
 #: ewsconfigdialog.ui:225
@@ -377,8 +371,8 @@ msgid ""
 "<html><head/><body><p>Attempts to find out the Microsoft Exchange server "
 "address relevant to the supplied e-mail address.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>आपूर्तिकृतस्य ई-मेल-सङ्केतस्य प्रासंगिकं Microsoft "
-"Exchange सर्वर-सङ्केतं ज्ञातुं प्रयतते ।</p></body></html>"
+"<html><head/><body><p>आपूर्तिकृतस्य ई-मेल-सङ्केतस्य प्रासंगिकं Microsoft Exchange सर्वर-"
+"सङ्केतं ज्ञातुं प्रयतते ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoDiscovery)
 #. i18n: ectx: label, entry (AutoDiscovery), group (General)
@@ -413,15 +407,14 @@ msgid ""
 "requirements for strong authentication, in which case entering the MFA code "
 "is not required.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>निजीकुंजी (PKey) प्रमाणीकरणं "
-"OAuth2-आधारितप्रमाणीकरणस्य अतिरिक्तप्रमाणीकरणपदरूपेण उपयुज्यते । एतत् X.509 "
-"प्रमाणपत्रं निजकुंजी च उपयुङ्क्ते यत् विश्वसनीयं उपकरणं चिनोति, यत् "
-"Workplace Join इत्यस्य उपयोगेन Azure Directory इत्यनेन सह संयोजितम् आसीत् "
-"।</p><p> केचन प्रशासकाः निगमजालस्य बहिः Office 365 इत्यनेन सह सम्बद्धतां "
-"कुर्वन्तः PKey प्रमाणीकरणस्य उपयोगं आज्ञापयितुं शक्नुवन्ति । अन्येषु "
-"सन्दर्भेषु, यदा बहुकारकप्रमाणीकरणं स्थापितं भवति, तदा PKey प्रमाणीकरणस्य "
-"उपयोगेन दृढप्रमाणीकरणस्य आवश्यकताः पूरयितुं शक्यन्ते, अस्मिन् सन्दर्भे MFA "
-"कोडं प्रविष्टुं आवश्यकं नास्ति</p></body></html>"
+"<html><head/><body><p>निजीकुंजी (PKey) प्रमाणीकरणं OAuth2-आधारितप्रमाणीकरणस्य "
+"अतिरिक्तप्रमाणीकरणपदरूपेण उपयुज्यते । एतत् X.509 प्रमाणपत्रं निजकुंजी च उपयुङ्क्ते यत् "
+"विश्वसनीयं उपकरणं चिनोति, यत् Workplace Join इत्यस्य उपयोगेन Azure Directory इत्यनेन "
+"सह संयोजितम् आसीत् ।</p><p> केचन प्रशासकाः निगमजालस्य बहिः Office 365 इत्यनेन सह "
+"सम्बद्धतां कुर्वन्तः PKey प्रमाणीकरणस्य उपयोगं आज्ञापयितुं शक्नुवन्ति । अन्येषु सन्दर्भेषु, यदा "
+"बहुकारकप्रमाणीकरणं स्थापितं भवति, तदा PKey प्रमाणीकरणस्य उपयोगेन दृढप्रमाणीकरणस्य "
+"आवश्यकताः पूरयितुं शक्यन्ते, अस्मिन् सन्दर्भे MFA कोडं प्रविष्टुं आवश्यकं नास्ति</p></body></"
+"html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, pkeyAuthGroupBox)
 #: ewsconfigdialog.ui:327
@@ -471,11 +464,11 @@ msgstr "पुनर्प्राप्ति"
 #: ewsconfigdialog.ui:413
 #, kde-format
 msgid ""
-"<html><head/><body><p>Periodically asks for new item change "
-"events.</p></body></html>"
+"<html><head/><body><p>Periodically asks for new item change events.</p></"
+"body></html>"
 msgstr ""
-"<html><head/><body><p>समये समये नूतनानि द्रव्यपरिवर्तनघटनानि "
-"पृच्छति।</p></body></html>"
+"<html><head/><body><p>समये समये नूतनानि द्रव्यपरिवर्तनघटनानि पृच्छति।</p></body></"
+"html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, pollRadioButton)
 #: ewsconfigdialog.ui:416
@@ -495,8 +488,7 @@ msgstr " पन्चनिमेषः"
 msgid "Interval"
 msgstr "अन्तराल"
 
-#. i18n: ectx: property (whatsThis), widget (QRadioButton,
-#. streamingRadioButton)
+#. i18n: ectx: property (whatsThis), widget (QRadioButton, streamingRadioButton)
 #: ewsconfigdialog.ui:470
 #, kde-format
 msgid ""
@@ -505,10 +497,10 @@ msgid ""
 "delivered instantly.</p><p><br/></p><p>This option requires Exchange server "
 "version 2010 SP1 or later.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>स्ट्रीमिंग् सूचनाः पुश मोड् इत्यस्य सदृशं वर्तन्ते - "
-"एकं संयोजनं जीवितं भवति तथा च मदपरिवर्तनस्य विषये सूचनाः तत्क्षणमेव वितरिताः"
-" भवन्ति ।</p><p><br/></p><p> अस्य विकल्पस्य कृते Exchange server version "
-"2010 SP1 अथवा ततः परं आवश्यकम् ।</p></body></html>"
+"<html><head/><body><p>स्ट्रीमिंग् सूचनाः पुश मोड् इत्यस्य सदृशं वर्तन्ते - एकं संयोजनं जीवितं "
+"भवति तथा च मदपरिवर्तनस्य विषये सूचनाः तत्क्षणमेव वितरिताः भवन्ति ।</p><p><br/></"
+"p><p> अस्य विकल्पस्य कृते Exchange server version 2010 SP1 अथवा ततः परं आवश्यकम् ।</"
+"p></body></html>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, streamingRadioButton)
 #: ewsconfigdialog.ui:473
@@ -526,11 +518,10 @@ msgid ""
 "allow NTLMv2 authentication. In such case this option must be enabled in "
 "order to connect successfully.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>पूर्वनिर्धारितरूपेण KDE न्यूनसुरक्षितं NTLMv1 "
-"प्रमाणीकरणं उपयुङ्क्ते । एतत् सक्षमीकरणेन अधिकसुरक्षितस्य NTLMv2 "
-"प्रोटोकॉलस्य उपयोगः भविष्यति ।</p><p> केचन नूतनाः Microsoft Exchange सर्वराः"
-" केवलं NTLMv2 प्रमाणीकरणस्य अनुमतिं दातुं विन्यस्ताः सन्ति । एतादृशे सति "
-"सफलतया संयोजितुं एषः विकल्पः सक्षमः भवितुमर्हति ।</p></body></html>"
+"<html><head/><body><p>पूर्वनिर्धारितरूपेण KDE न्यूनसुरक्षितं NTLMv1 प्रमाणीकरणं उपयुङ्क्ते । "
+"एतत् सक्षमीकरणेन अधिकसुरक्षितस्य NTLMv2 प्रोटोकॉलस्य उपयोगः भविष्यति ।</p><p> केचन "
+"नूतनाः Microsoft Exchange सर्वराः केवलं NTLMv2 प्रमाणीकरणस्य अनुमतिं दातुं विन्यस्ताः "
+"सन्ति । एतादृशे सति सफलतया संयोजितुं एषः विकल्पः सक्षमः भवितुमर्हति ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableNTLMv2)
 #: ewsconfigdialog.ui:495
@@ -547,16 +538,15 @@ msgid ""
 "implemented by analyzing the User-Agent string and only allowing a list of "
 "approved clients.</p><p>This setting allows to emulate some well known "
 "clients as well as providing a custom User-Agent string.</p><p>Please be "
-"advised that bypassing company policies may result in personal "
-"consequences.</p></body></html>"
+"advised that bypassing company policies may result in personal consequences."
+"</p></body></html>"
 msgstr ""
-"<html><head/><body><p>केचन संस्थाः केवलं अनुमोदितग्राहकानाम् कृते "
-"मेल-प्रवेशं प्रतिबन्धयन्ति, यथा Microsoft Outlook । सर्वर-पक्षे एतत् User-"
-"Agent स्ट्रिंग् विश्लेष्य केवलं अनुमोदितानां क्लायन्ट्-सूचीं अनुमन्यमानं "
-"कार्यान्वितं भवति ।</p><p> एषा सेटिङ्ग् केषाञ्चन सुप्रसिद्धग्राहकानाम् "
-"अनुकरणं कर्तुं तथा च कस्टम् User-Agent स्ट्रिंग् प्रदातुं शक्नोति ।</p><p> "
-"कृपया सूचितं यत् कम्पनीनीतिं त्यक्त्वा व्यक्तिगतपरिणामाः भवितुम् अर्हन्ति "
-"।</p></body></html>"
+"<html><head/><body><p>केचन संस्थाः केवलं अनुमोदितग्राहकानाम् कृते मेल-प्रवेशं प्रतिबन्धयन्ति, "
+"यथा Microsoft Outlook । सर्वर-पक्षे एतत् User-Agent स्ट्रिंग् विश्लेष्य केवलं अनुमोदितानां "
+"क्लायन्ट्-सूचीं अनुमन्यमानं कार्यान्वितं भवति ।</p><p> एषा सेटिङ्ग् केषाञ्चन "
+"सुप्रसिद्धग्राहकानाम् अनुकरणं कर्तुं तथा च कस्टम् User-Agent स्ट्रिंग् प्रदातुं शक्नोति ।</p><p> "
+"कृपया सूचितं यत् कम्पनीनीतिं त्यक्त्वा व्यक्तिगतपरिणामाः भवितुम् अर्हन्ति ।</p></body></"
+"html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, userAgentGroupBox)
 #: ewsconfigdialog.ui:508
@@ -577,19 +567,16 @@ msgid ""
 "Resets synchronization state between Exchange and Akonadi. Use in case some "
 "items or folders are not showing up despite existing in Exchange."
 msgstr ""
-"Exchange तथा Akonadi इत्येतयोः मध्ये समन्वयनस्थितिं पुनः सेट् करोति । "
-"Exchange मध्ये विद्यमानाः अपि केचन वस्तूनि वा पुटं वा न दर्शयन्ति इति "
-"सन्दर्भे उपयोगं कुर्वन्तु ।"
+"Exchange तथा Akonadi इत्येतयोः मध्ये समन्वयनस्थितिं पुनः सेट् करोति । Exchange मध्ये "
+"विद्यमानाः अपि केचन वस्तूनि वा पुटं वा न दर्शयन्ति इति सन्दर्भे उपयोगं कुर्वन्तु ।"
 
-#. i18n: ectx: property (text), widget (QPushButton,
-#. clearFolderTreeSyncStateButton)
+#. i18n: ectx: property (text), widget (QPushButton, clearFolderTreeSyncStateButton)
 #: ewsconfigdialog.ui:564
 #, kde-format
 msgid "Clear Folder Tree State"
 msgstr "Folder Tree State स्वच्छं कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QPushButton,
-#. clearFolderItemSyncStateButton)
+#. i18n: ectx: property (text), widget (QPushButton, clearFolderItemSyncStateButton)
 #: ewsconfigdialog.ui:571
 #, kde-format
 msgid "Clear Folder Item State"
@@ -1066,8 +1053,8 @@ msgstr "सर्वर URL"
 #: ewsresource.kcfg:12 ewsresource.kcfg:13
 #, kde-format
 msgid ""
-"The URL of the Microsoft Exchange server, should be something like "
-"https://myserver.org/EWS/Exchange.asmx"
+"The URL of the Microsoft Exchange server, should be something like https://"
+"myserver.org/EWS/Exchange.asmx"
 msgstr ""
 "Microsoft Exchange सर्वरस्य URL, https://myserver.org/EWS/Exchange.asmx इव "
 "किमपि भवेत्"
@@ -1132,8 +1119,7 @@ msgid ""
 "Attempts to find out the Microsoft Exchange server address relevant to the "
 "supplied e-mail address."
 msgstr ""
-"आपूर्तिकृतस्य ई-मेल-सङ्केतस्य प्रासंगिकं Microsoft Exchange सर्वर-सङ्केतं "
-"ज्ञातुं प्रयतते ।"
+"आपूर्तिकृतस्य ई-मेल-सङ्केतस्य प्रासंगिकं Microsoft Exchange सर्वर-सङ्केतं ज्ञातुं प्रयतते ।"
 
 #. i18n: ectx: label, entry (PollInterval), group (General)
 #: ewsresource.kcfg:40

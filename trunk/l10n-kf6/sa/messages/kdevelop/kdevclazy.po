@@ -57,8 +57,8 @@ msgstr ""
 msgid ""
 "Very stable checks, 99.99% safe, mostly no false-positives, very desirable."
 msgstr ""
-"अतीव स्थिरपरीक्षाः, ९९.९९% सुरक्षिताः, अधिकतया मिथ्या-सकारात्मकाः नास्ति, "
-"अतीव वांछनीयम्।"
+"अतीव स्थिरपरीक्षाः, ९९.९९% सुरक्षिताः, अधिकतया मिथ्या-सकारात्मकाः नास्ति, अतीव "
+"वांछनीयम्।"
 
 #: checksdb.cpp:40
 #, kde-format
@@ -66,8 +66,8 @@ msgid ""
 "The default level. Very similar to level 0, slightly more false-positives "
 "but very few."
 msgstr ""
-"पूर्वनिर्धारितस्तरः । स्तर 0 इत्यस्य अत्यन्तं सदृशं, किञ्चित् अधिकं "
-"मिथ्या-सकारात्मकं किन्तु अत्यल्पम्।"
+"पूर्वनिर्धारितस्तरः । स्तर 0 इत्यस्य अत्यन्तं सदृशं, किञ्चित् अधिकं मिथ्या-सकारात्मकं किन्तु "
+"अत्यल्पम्।"
 
 #: checksdb.cpp:43
 #, kde-format
@@ -75,8 +75,8 @@ msgid ""
 "Also very few false-positives, but contains noisy checks which not everyone "
 "agree should be default."
 msgstr ""
-"अपि च अत्यल्पाः मिथ्या-सकारात्मकाः, परन्तु कोलाहलपूर्णाः जाँचाः सन्ति येषां "
-"पूर्वनिर्धारितं भवेत् इति सर्वे न सहमताः ।"
+"अपि च अत्यल्पाः मिथ्या-सकारात्मकाः, परन्तु कोलाहलपूर्णाः जाँचाः सन्ति येषां पूर्वनिर्धारितं "
+"भवेत् इति सर्वे न सहमताः ।"
 
 #: checksdb.cpp:46
 #, kde-format
@@ -89,17 +89,15 @@ msgid ""
 "Checks here need to be enabled explicitly, as they don't belong to any "
 "level. Checks here are very stable and have very few false-positives."
 msgstr ""
-"अत्र जाँचः स्पष्टतया सक्षमीकरणीयः, यतः ते कस्यापि स्तरस्य न सन्ति । अत्र "
-"चेक् अतीव स्थिराः सन्ति, अत्यल्पाः मिथ्या-सकारात्मकाः च सन्ति ।"
+"अत्र जाँचः स्पष्टतया सक्षमीकरणीयः, यतः ते कस्यापि स्तरस्य न सन्ति । अत्र चेक् अतीव स्थिराः "
+"सन्ति, अत्यल्पाः मिथ्या-सकारात्मकाः च सन्ति ।"
 
 #: checksdb.cpp:54
 #, kde-format
 msgid ""
 "Unable to load Clazy checks information from '%1'. Please check your "
 "settings."
-msgstr ""
-"Clazy '%1' तः सूचनां जाँचयति लोड् कर्तुं असमर्थः । कृपया स्वस्य सेटिङ्ग्स् "
-"पश्यन्तु।"
+msgstr "Clazy '%1' तः सूचनां जाँचयति लोड् कर्तुं असमर्थः । कृपया स्वस्य सेटिङ्ग्स् पश्यन्तु।"
 
 #: config/checksetmanagewidget.cpp:89
 #, kde-format
@@ -120,40 +118,35 @@ msgctxt "@label:listbox"
 msgid "Check set:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton,
-#. addCheckSetSelectionButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, addCheckSetSelectionButton)
 #: config/checksetmanagewidget.ui:48
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add check set"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton,
-#. cloneCheckSetSelectionButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, cloneCheckSetSelectionButton)
 #: config/checksetmanagewidget.ui:58
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Clone check set"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton,
-#. removeCheckSetSelectionButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, removeCheckSetSelectionButton)
 #: config/checksetmanagewidget.ui:68
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove check set"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton,
-#. setAsDefaultCheckSetSelectionButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultCheckSetSelectionButton)
 #: config/checksetmanagewidget.ui:78
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Set as default"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QPushButton,
-#. editCheckSetSelectionNameButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, editCheckSetSelectionNameButton)
 #: config/checksetmanagewidget.ui:88
 #, kde-format
 msgctxt "@info:tooltip"
@@ -196,9 +189,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "Since nothing is selected Clazy will use all checks from levels 0 and 1."
-msgstr ""
-"यतः किमपि चयनितं नास्ति तस्मात् Clazy स्तर 0 तथा 1 तः सर्वाणि चेक् उपयुज्यते"
-" ।"
+msgstr "यतः किमपि चयनितं नास्ति तस्मात् Clazy स्तर 0 तथा 1 तः सर्वाणि चेक् उपयुज्यते ।"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: config/commandlinewidget.ui:29
@@ -382,7 +373,8 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid ""
 "For visiting implicit code like compiler generated constructors.\n"
-"None of the built-in checks benefit from this, but can be useful for custom checks."
+"None of the built-in checks benefit from this, but can be useful for custom "
+"checks."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_visitImplicitCode)
@@ -392,13 +384,13 @@ msgctxt "@option:check"
 msgid "Visit implicit code"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox,
-#. kcfg_ignoreIncludedFiles)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ignoreIncludedFiles)
 #: config/projectconfigpage.ui:129
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Only emit warnings for the current file being compiled and ignore any includes.\n"
+"Only emit warnings for the current file being compiled and ignore any "
+"includes.\n"
 "Useful for performance reasons."
 msgstr ""
 
@@ -421,7 +413,8 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Regular expression matching the names of the headers to output diagnostics from.\n"
+"Regular expression matching the names of the headers to output diagnostics "
+"from.\n"
 "Diagnostics from the main file of each translation unit are always displayed."
 msgstr ""
 
@@ -450,10 +443,13 @@ msgstr ""
 #: config/projectconfigpage.ui:192
 #, kde-format
 msgid ""
-"Please backup your code before fix-its applying. For better results also disable \n"
-"parallel checking, which can lead to multiple fix-it applying for header files."
+"Please backup your code before fix-its applying. For better results also "
+"disable \n"
+"parallel checking, which can lead to multiple fix-it applying for header "
+"files."
 msgstr ""
-"कृपया fix-its applying इत्यस्मात् पूर्वं स्वस्य कोडस्य बैकअपं गृह्यताम् । उत्तमपरिणामानां कृते अपि अक्षमीकरणं कुर्वन्तु \n"
+"कृपया fix-its applying इत्यस्मात् पूर्वं स्वस्य कोडस्य बैकअपं गृह्यताम् । उत्तमपरिणामानां कृते "
+"अपि अक्षमीकरणं कुर्वन्तु \n"
 "समानान्तरपरीक्षणम्, यत् शीर्षकसञ्चिकानां कृते बहुविधं fix-it अनुप्रयोगं कर्तुं शक्नोति ।"
 
 #. i18n: ectx: attribute (title), widget (QWidget, extraTab)
@@ -552,8 +548,8 @@ msgid ""
 "clazy-standalone path cannot be detected. Set the path manually if Clazy is "
 "already installed."
 msgstr ""
-"clazy-standalone मार्गः ज्ञातुं न शक्यते। यदि Clazy पूर्वमेव संस्थापितम् "
-"अस्ति तर्हि मार्गं मैन्युअल् रूपेण सेट् कुर्वन्तु ।"
+"clazy-standalone मार्गः ज्ञातुं न शक्यते। यदि Clazy पूर्वमेव संस्थापितम् अस्ति तर्हि मार्गं "
+"मैन्युअल् रूपेण सेट् कुर्वन्तु ।"
 
 #: jobparameters.cpp:42
 #, kde-format
@@ -576,8 +572,8 @@ msgid ""
 "Clazy documentation path cannot be detected. Set the path manually if Clazy "
 "is already installed."
 msgstr ""
-"मलिनदस्तावेजमार्गः ज्ञातुं न शक्यते । यदि Clazy पूर्वमेव संस्थापितम् अस्ति "
-"तर्हि मार्गं मैन्युअल् रूपेण सेट् कुर्वन्तु ।"
+"मलिनदस्तावेजमार्गः ज्ञातुं न शक्यते । यदि Clazy पूर्वमेव संस्थापितम् अस्ति तर्हि मार्गं मैन्युअल् "
+"रूपेण सेट् कुर्वन्तु ।"
 
 #: jobparameters.cpp:67
 #, kde-format

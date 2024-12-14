@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-27 00:42+0000\n"
+"POT-Creation-Date: 2024-12-14 00:54+0000\n"
 "PO-Revision-Date: 2024-12-13 20:50+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -21,8 +21,8 @@ msgstr ""
 
 #: editor/connectioneditorbase.cpp:203
 #, kde-format
-msgctxt "General"
-msgid "General configuration"
+msgctxt "@title:tab General configuration"
+msgid "General"
 msgstr ""
 
 #: editor/connectioneditorbase.cpp:210 editor/connectioneditorbase.cpp:227
@@ -92,8 +92,8 @@ msgstr "बन्ध"
 msgid "Bridge"
 msgstr "सेतु"
 
-#: editor/connectioneditorbase.cpp:256
-#: models/creatableconnectionsmodel.cpp:220 models/networkmodelitem.cpp:742
+#: editor/connectioneditorbase.cpp:256 models/creatableconnectionsmodel.cpp:220
+#: models/networkmodelitem.cpp:742
 #, kde-format
 msgid "Vlan"
 msgstr "व्लान्"
@@ -296,14 +296,13 @@ msgstr "DNS सर्वरः : १."
 #, kde-format
 msgid ""
 "<qt>You can find more information about these values here:<br/><a "
-"href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://dev"
-"eloper.gnome.org/NetworkManager/stable/ch01.htmlnm-"
-"settings-nmcli.html</a></qt>"
+"href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://"
+"developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</"
+"a></qt>"
 msgstr ""
-"<qt>एतेषां मूल्यानां विषये अधिकानि सूचनानि अत्र प्राप्नुवन्ति:<br/> <a "
-"href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://dev"
-"eloper.gnome.org/NetworkManager/stable/ch01.htmlnm-सेटिंग्स्-nmcli.html"
-" इति</a></qt>"
+"<qt>एतेषां मूल्यानां विषये अधिकानि सूचनानि अत्र प्राप्नुवन्ति:<br/> <a href='https://"
+"developer.gnome.org/NetworkManager/stable/ch01.html'>https://developer.gnome."
+"org/NetworkManager/stable/ch01.htmlnm-सेटिंग्स्-nmcli.html इति</a></qt>"
 
 #: editor/settings/ipv4widget.cpp:430
 #, kde-format
@@ -368,13 +367,13 @@ msgstr "वैकल्पिक विषय मेल"
 #: editor/settings/security802-1x.cpp:509
 #, kde-format
 msgid ""
-"<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip "
-"address&gt;</li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. "
-"https://www.kde.org&gt;</li></ul></qt>"
+"<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip address&gt;</"
+"li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. https://www.kde."
+"org&gt;</li></ul></qt>"
 msgstr ""
-"<qt>एषा प्रविष्टिः अवश्यमेव निम्नलिखितयोः एकः भवितुमर्हति:<ul><li> DNS: "
-"&lt;नाम वा ip पता&gt;</li><li> EMAIL: &lt;email&gt; इति</li><li> उरी: "
-"&lt;uri, यथा https://www.kde.org&gt;</li></ul></qt>"
+"<qt>एषा प्रविष्टिः अवश्यमेव निम्नलिखितयोः एकः भवितुमर्हति:<ul><li> DNS: &lt;नाम वा "
+"ip पता&gt;</li><li> EMAIL: &lt;email&gt; इति</li><li> उरी: &lt;uri, यथा "
+"https://www.kde.org&gt;</li></ul></qt>"
 
 #: editor/settings/security802-1x.cpp:526
 #, kde-format
@@ -688,8 +687,7 @@ msgstr "लुप्"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, modeLabel)
-#: editor/settings/ui/bond.ui:110
-#: editor/settings/ui/wificonnectionwidget.ui:43
+#: editor/settings/ui/bond.ui:110 editor/settings/ui/wificonnectionwidget.ui:43
 #, kde-format
 msgid "Mode:"
 msgstr "मोडः : १."
@@ -820,16 +818,16 @@ msgstr "प्राथमिकता सह स्वयमेव संयो
 #: editor/settings/ui/connectionwidget.ui:38
 #, kde-format
 msgid ""
-"If the connection is set to autoconnect, connections with higher priority will"
-" be preferred. Defaults to 0.\n"
-"The higher number means higher priority. A negative number can be used to indi"
-"cate priority lower than the default.\n"
+"If the connection is set to autoconnect, connections with higher priority "
+"will be preferred. Defaults to 0.\n"
+"The higher number means higher priority. A negative number can be used to "
+"indicate priority lower than the default.\n"
 "           "
 msgstr ""
-"यदि संयोजनं स्वसंयोजनं इति सेट् भवति तर्हि उच्चतरप्राथमिकतायुक्ताः संयोजनाः प्"
-"राधान्यं प्राप्नुयुः । पूर्वनिर्धारितं 0.\n"
-"अधिका संख्या अधिका प्राथमिकता इति अर्थः । पूर्वनिर्धारितात् न्यूनतरं प्राथमिकत"
-"ां सूचयितुं ऋणात्मकसङ्ख्यायाः उपयोगः कर्तुं शक्यते ।\n"
+"यदि संयोजनं स्वसंयोजनं इति सेट् भवति तर्हि उच्चतरप्राथमिकतायुक्ताः संयोजनाः प्राधान्यं "
+"प्राप्नुयुः । पूर्वनिर्धारितं 0.\n"
+"अधिका संख्या अधिका प्राथमिकता इति अर्थः । पूर्वनिर्धारितात् न्यूनतरं प्राथमिकतां सूचयितुं "
+"ऋणात्मकसङ्ख्यायाः उपयोगः कर्तुं शक्यते ।\n"
 "           "
 
 #. i18n: ectx: property (text), widget (QCheckBox, allUsers)
@@ -844,17 +842,15 @@ msgstr "सर्वे उपयोक्तारः अस्मिन् ज
 msgid "Edit advanced permissions for this connection"
 msgstr "अस्य संयोजनस्य कृते उन्नतानुमतिः सम्पादयन्तु"
 
-#. i18n: ectx: property (whatsThis), widget (QPushButton,
-#. pushButtonPermissions)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pushButtonPermissions)
 #: editor/settings/ui/connectionwidget.ui:67
 #, kde-format
 msgid ""
 "Fine-grained permissions editor for this connection. It lets you choose "
 "which users can activate/modify/delete this connection."
 msgstr ""
-"अस्य संयोजनस्य कृते सूक्ष्म-कणिका-अनुमति-सम्पादकः । एतत् भवन्तं चयनं कर्तुं "
-"शक्नोति यत् के उपयोक्तारः एतत् संयोजनं सक्रियं/परिवर्तनं/विलोपनं कर्तुं "
-"शक्नुवन्ति ।"
+"अस्य संयोजनस्य कृते सूक्ष्म-कणिका-अनुमति-सम्पादकः । एतत् भवन्तं चयनं कर्तुं शक्नोति यत् के "
+"उपयोक्तारः एतत् संयोजनं सक्रियं/परिवर्तनं/विलोपनं कर्तुं शक्नुवन्ति ।"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
@@ -885,8 +881,8 @@ msgstr "मीटर् कृतः : १."
 #: editor/settings/ui/connectionwidget.ui:149
 #, kde-format
 msgid ""
-"NetworkManager indicates to applications whether the connection is metered and"
-" therefore\n"
+"NetworkManager indicates to applications whether the connection is metered "
+"and therefore\n"
 "data usage should be restricted."
 msgstr ""
 "NetworkManager अनुप्रयोगेभ्यः सूचयति यत् संयोजनं मीटर् कृतम् अस्ति वा अतः\n"
@@ -1053,11 +1049,11 @@ msgstr "DNS सर्वरः : १."
 #: editor/settings/ui/ipv4.ui:118 editor/settings/ui/ipv6.ui:76
 #, kde-format
 msgid ""
-"Use this field to specify the IP address(es) of one or more DNS servers. Use"
-" ',' to separate entries."
+"Use this field to specify the IP address(es) of one or more DNS servers. Use "
+"',' to separate entries."
 msgstr ""
-"एकस्य वा अधिकस्य DNS सर्वरस्य IP-सङ्केतं(s) निर्दिष्टुं एतत् क्षेत्रं "
-"उपयुज्यताम् । प्रविष्टीनां पृथक्करणाय ',' इत्यस्य प्रयोगं कुर्वन्तु ।"
+"एकस्य वा अधिकस्य DNS सर्वरस्य IP-सङ्केतं(s) निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् । प्रविष्टीनां "
+"पृथक्करणाय ',' इत्यस्य प्रयोगं कुर्वन्तु ।"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, dnsMorePushButton)
 #: editor/settings/ui/ipv4.ui:125
@@ -1079,11 +1075,10 @@ msgid ""
 "Use this field to specify one or more DNS domains to search. Use ',' to "
 "separate entries."
 msgstr ""
-"अन्वेषणार्थं एकं वा अधिकं DNS डोमेन् निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् ।"
-" प्रविष्टीनां पृथक्करणाय ',' इत्यस्य प्रयोगं कुर्वन्तु ।"
+"अन्वेषणार्थं एकं वा अधिकं DNS डोमेन् निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् । प्रविष्टीनां पृथक्करणाय "
+"',' इत्यस्य प्रयोगं कुर्वन्तु ।"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton,
-#. dnsSearchMorePushButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
 #: editor/settings/ui/ipv4.ui:171 editor/settings/ui/ipv6.ui:277
 #, kde-format
 msgid "Edit the list of DNS domains being searched"
@@ -1099,16 +1094,14 @@ msgstr "DHCP क्लायन्ट् ID:"
 #: editor/settings/ui/ipv4.ui:204
 #, kde-format
 msgid ""
-"Use this field to specify the DHCP client ID which is a string sent to the DHC"
-"P server\n"
-"to identify the local machine that the DHCP server may use to customize the DH"
-"CP\n"
+"Use this field to specify the DHCP client ID which is a string sent to the "
+"DHCP server\n"
+"to identify the local machine that the DHCP server may use to customize the "
+"DHCP\n"
 "lease and options."
 msgstr ""
-"DHCP क्लायन्ट् ID निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् यत् DHCP सर्वरं प्रति "
-"प्रेषितं स्ट्रिंग् अस्ति\n"
-"स्थानीययन्त्रं चिन्तयितुं यत् DHCP सर्वरः DHCP अनुकूलनार्थं उपयोक्तुं शक्नोति"
-"\n"
+"DHCP क्लायन्ट् ID निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् यत् DHCP सर्वरं प्रति प्रेषितं स्ट्रिंग् अस्ति\n"
+"स्थानीययन्त्रं चिन्तयितुं यत् DHCP सर्वरः DHCP अनुकूलनार्थं उपयोक्तुं शक्नोति\n"
 "पट्टे विकल्पाः च।"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRemove)
@@ -1128,12 +1121,11 @@ msgstr "संयोजयति"
 #: editor/widgets/ui/ipv4routes.ui:99 editor/widgets/ui/ipv6routes.ui:39
 #, kde-format
 msgid ""
-"IP addresses identify your computer on the network. Click the \"Add\" button t"
-"o add\n"
+"IP addresses identify your computer on the network. Click the \"Add\" button "
+"to add\n"
 "an IP address"
 msgstr ""
-"IP-सङ्केताः जालपुटे भवतः सङ्गणकस्य परिचयं कुर्वन्ति । योजयितुं \"Add\" इति बटन"
-"् नुदन्तु\n"
+"IP-सङ्केताः जालपुटे भवतः सङ्गणकस्य परिचयं कुर्वन्ति । योजयितुं \"Add\" इति बटन् नुदन्तु\n"
 "एकं IP-सङ्केतं"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ipv4RequiredCB)
@@ -1162,8 +1154,8 @@ msgstr "मार्गाः..."
 #: editor/settings/ui/ipv6.ui:30
 #, kde-format
 msgid ""
-"When connecting to IPv4-capable networks, allows the connection to complete if"
-"\n"
+"When connecting to IPv4-capable networks, allows the connection to complete "
+"if\n"
 "IPv6 configuration fails but IPv4 configuration succeeds"
 msgstr ""
 "IPv4-सक्षमजालपुटेषु संयोजयन्, संयोजनं पूर्णं कर्तुं अनुमतिं ददाति if\n"
@@ -1185,15 +1177,14 @@ msgstr "DNS सर्वरस्य सूचीं सम्पादयन्
 #: editor/settings/ui/ipv6.ui:190
 #, kde-format
 msgid ""
-"Configure IPv6 Privacy Extensions for SLAAC, described in RFC4941. If enabled,"
-" it makes the kernel generate\n"
-"a temporary IPv6 address in addition to the public one generated from MAC addr"
-"ess via modified EUI-64."
+"Configure IPv6 Privacy Extensions for SLAAC, described in RFC4941. If "
+"enabled, it makes the kernel generate\n"
+"a temporary IPv6 address in addition to the public one generated from MAC "
+"address via modified EUI-64."
 msgstr ""
-"SLAAC कृते IPv6 गोपनीयताविस्तारं विन्यस्यताम्, यत् RFC4941 मध्ये वर्णितम् अस्त"
-"ि । यदि सक्षमं भवति तर्हि कर्नेल् जनयति\n"
-"परिवर्तित EUI-64 मार्गेण MAC पतातः उत्पन्नस्य सार्वजनिकस्य अतिरिक्तं अस्थायी I"
-"Pv6 पता ।"
+"SLAAC कृते IPv6 गोपनीयताविस्तारं विन्यस्यताम्, यत् RFC4941 मध्ये वर्णितम् अस्ति । यदि "
+"सक्षमं भवति तर्हि कर्नेल् जनयति\n"
+"परिवर्तित EUI-64 मार्गेण MAC पतातः उत्पन्नस्य सार्वजनिकस्य अतिरिक्तं अस्थायी IPv6 पता ।"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #: editor/settings/ui/ipv6.ui:199
@@ -1320,10 +1311,9 @@ msgid ""
 "should be left blank. It is only required if there are multiple access "
 "concentrators or a specific service is known to be required."
 msgstr ""
-"यदि निर्दिष्टं भवति तर्हि PPPoE इत्यस्मै केवलं निर्दिष्टसेवाप्रदातृभिः "
-"अभिगमसान्द्रकैः सह सत्रं आरभ्यत इति निर्देशयन्तु । अधिकांशप्रदातृणां कृते "
-"एतत् रिक्तं त्यक्तव्यम् । केवलं तदा एव आवश्यकं यदा बहुविधाः अभिगमसान्द्रकाः "
-"सन्ति अथवा विशिष्टसेवा आवश्यकी इति ज्ञायते ।"
+"यदि निर्दिष्टं भवति तर्हि PPPoE इत्यस्मै केवलं निर्दिष्टसेवाप्रदातृभिः अभिगमसान्द्रकैः सह सत्रं "
+"आरभ्यत इति निर्देशयन्तु । अधिकांशप्रदातृणां कृते एतत् रिक्तं त्यक्तव्यम् । केवलं तदा एव आवश्यकं "
+"यदा बहुविधाः अभिगमसान्द्रकाः सन्ति अथवा विशिष्टसेवा आवश्यकी इति ज्ञायते ।"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: editor/settings/ui/team.ui:31
@@ -1419,12 +1409,11 @@ msgstr "बीएसएसआईडी : १."
 #: editor/settings/ui/wificonnectionwidget.ui:101
 #, kde-format
 msgid ""
-"This option locks this connection to the Wi-Fi access point (AP) specified by "
-"the\n"
+"This option locks this connection to the Wi-Fi access point (AP) specified "
+"by the\n"
 " BSSID entered here. Example: 00:11:22:33:44:55"
 msgstr ""
-"एषः विकल्पः एतत् संयोजनं द्वारा निर्दिष्टे Wi-Fi अभिगमबिन्दु (AP) प्रति ताडयति"
-"\n"
+"एषः विकल्पः एतत् संयोजनं द्वारा निर्दिष्टे Wi-Fi अभिगमबिन्दु (AP) प्रति ताडयति\n"
 " अत्र BSSID प्रविष्टम् । उदाहरणम् : 00:11:22:33:44:55"
 
 #. i18n: ectx: property (text), widget (QLabel, bandLabel)
@@ -1437,12 +1426,12 @@ msgstr "गण:"
 #: editor/settings/ui/wificonnectionwidget.ui:137
 #, kde-format
 msgid ""
-"This option locks the connection to the Wi-Fi network associated to the specif"
-"ied band. This setting depends\n"
+"This option locks the connection to the Wi-Fi network associated to the "
+"specified band. This setting depends\n"
 " on specific driver capability and may not work with all drivers"
 msgstr ""
-"एषः विकल्पः निर्दिष्टेन पट्टिकायाः सह सम्बद्धस्य Wi-Fi संजालस्य संयोजनं ताडयति"
-" । एतत् सेटिङ्ग् निर्भरं भवति\n"
+"एषः विकल्पः निर्दिष्टेन पट्टिकायाः सह सम्बद्धस्य Wi-Fi संजालस्य संयोजनं ताडयति । एतत् "
+"सेटिङ्ग् निर्भरं भवति\n"
 " विशिष्टचालकक्षमतायां सर्वैः चालकैः सह कार्यं न कर्तुं शक्नोति"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
@@ -1474,12 +1463,12 @@ msgstr "चैनलः : १."
 #: editor/settings/ui/wificonnectionwidget.ui:179
 #, kde-format
 msgid ""
-"Wireless channel to use for the Wi-Fi connection. The device will only join (o"
-"r create for Ad-Hoc networks)\n"
+"Wireless channel to use for the Wi-Fi connection. The device will only join "
+"(or create for Ad-Hoc networks)\n"
 "a Wi-Fi network on the specified channel"
 msgstr ""
-"Wi-Fi संयोजनाय उपयोक्तुं वायरलेस् चैनल्। यन्त्रं केवलं सम्मिलितं भविष्यति (अथव"
-"ा Ad-Hoc संजालस्य कृते निर्मास्यति) ।\n"
+"Wi-Fi संयोजनाय उपयोक्तुं वायरलेस् चैनल्। यन्त्रं केवलं सम्मिलितं भविष्यति (अथवा Ad-Hoc "
+"संजालस्य कृते निर्मास्यति) ।\n"
 "निर्दिष्टे चैनले एकं Wi-Fi संजालम्"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1501,8 +1490,7 @@ msgstr "यदृच्छासङ्ख्या…"
 #: editor/settings/ui/wificonnectionwidget.ui:303
 #, kde-format
 msgid "Mark this if you want to create a connection for a hidden network"
-msgstr ""
-"यदि भवान् गुप्तजालस्य कृते संयोजनं निर्मातुम् इच्छति तर्हि एतत् चिह्नितव्यम्"
+msgstr "यदि भवान् गुप्तजालस्य कृते संयोजनं निर्मातुम् इच्छति तर्हि एतत् चिह्नितव्यम्"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: editor/settings/ui/wificonnectionwidget.ui:290
@@ -1646,12 +1634,12 @@ msgstr ""
 #, kde-format
 msgid ""
 "The MAC address entered here will be used as hardware address for the\n"
-"network device this connection is activated on. This feature is known as MAC\n"
+"network device this connection is activated on. This feature is known as "
+"MAC\n"
 "cloning or spoofing. Example 11:22:33:44:55"
 msgstr ""
 "अत्र प्रविष्टं MAC-सङ्केतं कृते हार्डवेयर-सङ्केतरूपेण उपयुज्यते\n"
-"संजालयन्त्रे एतत् संयोजनं सक्रियम् अस्ति । एतत् विशेषता MAC इति नाम्ना प्रसिद्"
-"धम् अस्ति\n"
+"संजालयन्त्रे एतत् संयोजनं सक्रियम् अस्ति । एतत् विशेषता MAC इति नाम्ना प्रसिद्धम् अस्ति\n"
 "क्लोनिंग् अथवा स्पूफिंग्। उदाहरणम् ११:२२:३३:४४:५५"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
@@ -1664,12 +1652,11 @@ msgstr "यदृच्छासङ्ख्या"
 #: editor/settings/ui/wiredconnectionwidget.ui:106
 #, kde-format
 msgid ""
-"Only transmit packets of the specified size or smaller, breaking larger packet"
-"s up\n"
+"Only transmit packets of the specified size or smaller, breaking larger "
+"packets up\n"
 "into multiple Ethernet frames"
 msgstr ""
-"केवलं निर्दिष्टप्रमाणस्य अथवा लघुतरस्य पॅकेट् प्रसारयन्तु, बृहत्तरपैकेट्-विच्छ"
-"ेदनं कुर्वन्तु\n"
+"केवलं निर्दिष्टप्रमाणस्य अथवा लघुतरस्य पॅकेट् प्रसारयन्तु, बृहत्तरपैकेट्-विच्छेदनं कुर्वन्तु\n"
 "बहुषु ईथरनेट्-चक्रेषु"
 
 #. i18n: ectx: property (text), widget (QLabel, speedLabel)
@@ -1691,8 +1678,7 @@ msgid ""
 "Request that the device use the specified duplex mode. Either \"half\" or "
 "\"full\""
 msgstr ""
-"यन्त्रं निर्दिष्टं द्वयात्मकं मोडं उपयुञ्जीत इति अनुरोधं कुर्वन्तु । "
-"\"अर्ध\" वा \"पूर्णम्\" वा ।"
+"यन्त्रं निर्दिष्टं द्वयात्मकं मोडं उपयुञ्जीत इति अनुरोधं कुर्वन्तु । \"अर्ध\" वा \"पूर्णम्\" वा ।"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, duplex)
 #: editor/settings/ui/wiredconnectionwidget.ui:158
@@ -1716,14 +1702,14 @@ msgstr "लिङ्क वार्ता : १."
 #: editor/settings/ui/wiredconnectionwidget.ui:188
 #, kde-format
 msgid ""
-"Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values wi"
-"ll be forced without checking\n"
+"Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values "
+"will be forced without checking\n"
 "the device compatibility. If unsure, leave here “Ignore” or pick “Automatic”."
 msgstr ""
-"उपकरणलिङ्क वार्ताकारिता। यदि “Manual” इति चिनोति तर्हि “Speed” तथा “Duplex” मू"
-"ल्यानि परीक्षणं विना बाध्यं भविष्यन्ति\n"
-"यन्त्रसङ्गतिः इति । यदि अनिश्चितः अस्ति तर्हि अत्र “Ignore” इति त्यक्त्वा “Aut"
-"omatic” इति चिनोतु ।"
+"उपकरणलिङ्क वार्ताकारिता। यदि “Manual” इति चिनोति तर्हि “Speed” तथा “Duplex” "
+"मूल्यानि परीक्षणं विना बाध्यं भविष्यन्ति\n"
+"यन्त्रसङ्गतिः इति । यदि अनिश्चितः अस्ति तर्हि अत्र “Ignore” इति त्यक्त्वा “Automatic” "
+"इति चिनोतु ।"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
 #: editor/settings/ui/wiredconnectionwidget.ui:192
@@ -1850,8 +1836,7 @@ msgid ""
 "Listen port number. Chosen randomly if left as 'Automatic'."
 msgstr ""
 "वैकल्पिक।\n"
-"पोर्ट् नम्बरं शृणुत। 'स्वचालित' इति रूपेण त्यक्तं चेत् यादृच्छिकरूपेण चयनितम् "
-"।"
+"पोर्ट् नम्बरं शृणुत। 'स्वचालित' इति रूपेण त्यक्तं चेत् यादृच्छिकरूपेण चयनितम् ।"
 
 #. i18n: ectx: property (text), widget (QLabel, fwmarkLabel)
 #: editor/settings/ui/wireguardinterfacewidget.ui:72
@@ -1869,8 +1854,7 @@ msgid ""
 "prepending '0x'."
 msgstr ""
 "वैकल्पिक।\n"
-"बहिर्गच्छन्तीनां पॅकेट्-कृते एकः fwmark । यदि 0 अथवा 'off' इति सेट् भवति तर्हि"
-" एतत्\n"
+"बहिर्गच्छन्तीनां पॅकेट्-कृते एकः fwmark । यदि 0 अथवा 'off' इति सेट् भवति तर्हि एतत्\n"
 "विकल्पः अक्षमः अस्ति। द्वारा षट्दशमांशेन निर्दिष्टं भवेत्\n"
 "'0x' इति पूर्ववर्ती ।"
 
@@ -1958,8 +1942,7 @@ msgstr ""
 "            अयं समवयस्कः अनुमतः अस्ति तथा च यस्मै बहिर्गच्छन्तं यातायातम् \n"
 "            अयं हि समवयस्कः निर्देशितः। ग्रहण-सर्वं 0.0.0.0/0 \n"
 "            सर्वेषां IPv4-सङ्केतानां मेलनाय निर्दिष्टं भवितुम् अर्हति, \n"
-"            तथा ::/0 सर्वेषां IPv6-सङ्केतानां मेलनाय निर्दिष्टं भवितुम् अर्हति"
-" ।"
+"            तथा ::/0 सर्वेषां IPv6-सङ्केतानां मेलनाय निर्दिष्टं भवितुम् अर्हति ।"
 
 #. i18n: ectx: property (text), widget (QLabel, endpointAddressLabel)
 #: editor/settings/ui/wireguardpeerwidget.ui:55
@@ -2007,8 +1990,7 @@ msgstr ""
 msgid "Preshared key:"
 msgstr "पूर्वसाझा कुञ्जी : १."
 
-#. i18n: ectx: property (toolTip), widget (PasswordField,
-#. presharedKeyLineEdit)
+#. i18n: ectx: property (toolTip), widget (PasswordField, presharedKeyLineEdit)
 #: editor/settings/ui/wireguardpeerwidget.ui:102
 #, kde-format
 msgid ""
@@ -2052,15 +2034,13 @@ msgstr ""
 "            कियत्वारं प्रमाणितं रिक्तं पैकेटं प्रेषयितव्यम्\n"
 "            अवस्थायुक्तं अग्निप्रावरणं स्थापयितुं समवयस्कः\n"
 "            अथवा NAT मैपिंग निरन्तरं वैधम्। यथा, यदि\n"
-"            अन्तरफलकं अतीव दुर्लभतया यातायातस्य प्रेषणं करोति, परन्तु एतत् at"
-"\n"
+"            अन्तरफलकं अतीव दुर्लभतया यातायातस्य प्रेषणं करोति, परन्तु एतत् at\n"
 "            कदापि समवयस्कात् यातायातस्य प्राप्तिः, पृष्ठतः च अस्ति\n"
 "            NAT, अन्तरफलकस्य लाभः भवेत् यत् a\n"
 "            25 सेकण्डस्य निरन्तरं keepalive अन्तरालः। यदि सेट् भवति\n"
-"            0 अथवा \"off\", एषः विकल्पः अक्षमः अस्ति । पूर्वनिर्धारितरूपेण वा"
-"\n"
-"            अनिर्दिष्टे सति एषः विकल्पः निष्क्रियः भवति । अधिकांशः उपयोक्तारः "
-"न करिष्यन्ति\n"
+"            0 अथवा \"off\", एषः विकल्पः अक्षमः अस्ति । पूर्वनिर्धारितरूपेण वा\n"
+"            अनिर्दिष्टे सति एषः विकल्पः निष्क्रियः भवति । अधिकांशः उपयोक्तारः न "
+"करिष्यन्ति\n"
 "            एतस्य आवश्यकता अस्ति।"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
@@ -3100,8 +3080,8 @@ msgstr ""
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid ""
-"Warning: Selecting an incorrect plan may result in billing issues for your bro"
-"adband account or may prevent connectivity.\n"
+"Warning: Selecting an incorrect plan may result in billing issues for your "
+"broadband account or may prevent connectivity.\n"
 "\n"
 "If you are unsure of your plan please ask your provider for your plan's APN."
 msgstr ""
@@ -3219,9 +3199,7 @@ msgstr "IPv4 मार्गाः सम्पादयन्तु"
 msgid ""
 "If enabled, this connection will never be used as the default network "
 "connection"
-msgstr ""
-"यदि सक्षमं भवति तर्हि एतत् संयोजनं कदापि पूर्वनिर्धारितजालसंयोजनरूपेण न "
-"उपयुज्यते"
+msgstr "यदि सक्षमं भवति तर्हि एतत् संयोजनं कदापि पूर्वनिर्धारितजालसंयोजनरूपेण न उपयुज्यते"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
 #: editor/widgets/ui/ipv4routes.ui:45 editor/widgets/ui/ipv6routes.ui:133

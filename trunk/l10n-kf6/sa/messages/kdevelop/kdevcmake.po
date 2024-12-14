@@ -52,8 +52,7 @@ msgstr "पूर्वमेव विन्यस्तं निर्दे�
 #: cmakebuilddirchooser.cpp:222
 #, kde-format
 msgid "This build directory is for %1, but the project directory is %2."
-msgstr ""
-"इयं बिल्ड् निर्देशिका %1 कृते अस्ति, परन्तु परियोजना निर्देशिका %2 अस्ति ।"
+msgstr "इयं बिल्ड् निर्देशिका %1 कृते अस्ति, परन्तु परियोजना निर्देशिका %2 अस्ति ।"
 
 #: cmakebuilddirchooser.cpp:225
 #, kde-format
@@ -102,8 +101,7 @@ msgid ""
 "will let CMake use its default install prefix."
 msgstr ""
 
-#. i18n: ectx: property (placeholderText), widget (KUrlRequester,
-#. installPrefix)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, installPrefix)
 #: cmakebuilddirchooser.ui:112
 #, kde-format
 msgctxt "@info:placeholder"
@@ -210,9 +208,7 @@ msgstr "<p>उत्तम CMake दस्तावेजीकरणप्र�
 #: cmakedocumentation.cpp:46 cmakemanager.cpp:76
 #, kde-format
 msgid "Unable to find a CMake executable. Is one installed on the system?"
-msgstr ""
-"CMake कार्यान्वयनीयं अन्वेष्टुं असमर्थः । प्रणाल्यां एकः संस्थापितः अस्ति वा"
-" ?"
+msgstr "CMake कार्यान्वयनीयं अन्वेष्टुं असमर्थः । प्रणाल्यां एकः संस्थापितः अस्ति वा ?"
 
 #: cmakedocumentation.cpp:81
 #, kde-format
@@ -238,24 +234,36 @@ msgstr "CMake सामग्री पृष्ठ"
 #: cmakemanager.cpp:665
 #, kde-format
 msgid ""
-"Configured project '%1' with outdated CMake data. As a result, KDevelop's code understanding may be wrong.\n"
+"Configured project '%1' with outdated CMake data. As a result, KDevelop's "
+"code understanding may be wrong.\n"
 "\n"
-"To fix this issue, please right-click the project item in the projects tool view and click 'Reload'."
+"To fix this issue, please right-click the project item in the projects tool "
+"view and click 'Reload'."
 msgstr ""
-"पुरातन CMake दत्तांशसहितं परियोजना '%1' विन्यस्तम् । फलतः KDevelop इत्यस्य कोडबोधः गलतः भवितुम् अर्हति ।\n"
+"पुरातन CMake दत्तांशसहितं परियोजना '%1' विन्यस्तम् । फलतः KDevelop इत्यस्य कोडबोधः "
+"गलतः भवितुम् अर्हति ।\n"
 "\n"
-"एतत् समस्यां निवारयितुं कृपया projects tool view इत्यस्मिन् project item इत्यत्र राइट्-क्लिक् कृत्वा 'Reload' इत्यत्र क्लिक् कुर्वन्तु ।"
+"एतत् समस्यां निवारयितुं कृपया projects tool view इत्यस्मिन् project item इत्यत्र राइट्-"
+"क्लिक् कृत्वा 'Reload' इत्यत्र क्लिक् कुर्वन्तु ।"
 
 #: cmakemanager.cpp:676
 #, kde-format
 msgid ""
-"Failed to configure project '%1' (error message: %2). As a result, KDevelop's code understanding will likely be broken.\n"
+"Failed to configure project '%1' (error message: %2). As a result, "
+"KDevelop's code understanding will likely be broken.\n"
 "\n"
-"To fix this issue, please ensure that the project's CMakeLists.txt files are correct, and KDevelop is configured to use the correct CMake version and settings. Then right-click the project item in the projects tool view and click 'Reload'."
+"To fix this issue, please ensure that the project's CMakeLists.txt files are "
+"correct, and KDevelop is configured to use the correct CMake version and "
+"settings. Then right-click the project item in the projects tool view and "
+"click 'Reload'."
 msgstr ""
-"परियोजना '%1' (दोषसन्देशः: %2) विन्यस्तुं असफलम् । फलतः KDevelop इत्यस्य कोडबोधः सम्भवतः भग्नः भविष्यति ।\n"
+"परियोजना '%1' (दोषसन्देशः: %2) विन्यस्तुं असफलम् । फलतः KDevelop इत्यस्य कोडबोधः "
+"सम्भवतः भग्नः भविष्यति ।\n"
 "\n"
-"एतत् समस्यां निवारयितुं कृपया सुनिश्चितं कुर्वन्तु यत् परियोजनायाः CMakeLists.txt सञ्चिकाः सम्यक् सन्ति, तथा च KDevelop सम्यक् CMake संस्करणं सेटिङ्ग्स् च उपयोक्तुं विन्यस्तम् अस्ति । ततः projects tool view इत्यस्मिन् project item इत्यत्र राइट्-क्लिक् कृत्वा 'Reload' इत्यत्र क्लिक् कुर्वन्तु ।"
+"एतत् समस्यां निवारयितुं कृपया सुनिश्चितं कुर्वन्तु यत् परियोजनायाः CMakeLists.txt सञ्चिकाः "
+"सम्यक् सन्ति, तथा च KDevelop सम्यक् CMake संस्करणं सेटिङ्ग्स् च उपयोक्तुं विन्यस्तम् अस्ति । "
+"ततः projects tool view इत्यस्मिन् project item इत्यत्र राइट्-क्लिक् कृत्वा 'Reload' "
+"इत्यत्र क्लिक् कुर्वन्तु ।"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: settings/cmakebuildsettings.ui:74
@@ -306,8 +314,7 @@ msgctxt "@label:chooser"
 msgid "Configure environment:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget
-#. (KDevelop::EnvironmentSelectionWidget, environment)
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, environment)
 #: settings/cmakebuildsettings.ui:213
 #, kde-format
 msgctxt "@info:tooltip"

@@ -245,16 +245,16 @@ msgstr ""
 #: solid/devices/backends/udisks2/udisksdevice.cpp:352
 #, qt-format
 msgctxt ""
-"Solid::Backends::UDisks2::Device|%1 is CD-ROM/CD-R/etc; %2 is '/DVD-"
-"ROM'/'/DVD-R'/etc (with leading slash)"
+"Solid::Backends::UDisks2::Device|%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/"
+"DVD-R'/etc (with leading slash)"
 msgid "External %1%2 Drive"
 msgstr ""
 
 #: solid/devices/backends/udisks2/udisksdevice.cpp:354
 #, qt-format
 msgctxt ""
-"Solid::Backends::UDisks2::Device|%1 is CD-ROM/CD-R/etc; %2 is '/DVD-"
-"ROM'/'/DVD-R'/etc (with leading slash)"
+"Solid::Backends::UDisks2::Device|%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/"
+"DVD-R'/etc (with leading slash)"
 msgid "%1%2 Drive"
 msgstr ""
 
@@ -725,9 +725,11 @@ msgctxt "solid-hardware|"
 msgid ""
 "             # List the hardware available in the system.\n"
 "             # - If the 'nonportableinfo' option is specified, the device\n"
-"             # properties are listed (be careful, in this case property names\n"
+"             # properties are listed (be careful, in this case property "
+"names\n"
 "             # are backend dependent),\n"
-"             # - If the 'details' option is specified, the device interfaces\n"
+"             # - If the 'details' option is specified, the device "
+"interfaces\n"
 "             # and the corresponding properties are listed in a platform\n"
 "             # neutral fashion,\n"
 "             # - Otherwise only device UDIs are listed.\n"
@@ -743,22 +745,26 @@ msgstr ""
 #: tools/solid-hardware/solid-hardware.cpp:251
 msgctxt "solid-hardware|"
 msgid ""
-"             # Display all the properties of the device corresponding to 'udi'\n"
-"             # (be careful, in this case property names are backend dependent).\n"
+"             # Display all the properties of the device corresponding to "
+"'udi'\n"
+"             # (be careful, in this case property names are backend "
+"dependent).\n"
 msgstr ""
 
 #: tools/solid-hardware/solid-hardware.cpp:257
 msgctxt "solid-hardware|"
 msgid ""
 "             # List the UDI of devices corresponding to 'predicate'.\n"
-"             # - If 'parentUdi' is specified, the search is restricted to the\n"
+"             # - If 'parentUdi' is specified, the search is restricted to "
+"the\n"
 "             # branch of the corresponding device,\n"
 "             # - Otherwise the search is done on all the devices.\n"
 msgstr ""
 
 #: tools/solid-hardware/solid-hardware.cpp:265
 msgctxt "solid-hardware|"
-msgid "             # If applicable, mount the device corresponding to 'udi'.\n"
+msgid ""
+"             # If applicable, mount the device corresponding to 'udi'.\n"
 msgstr ""
 
 #: tools/solid-hardware/solid-hardware.cpp:268
@@ -769,7 +775,8 @@ msgstr ""
 
 #: tools/solid-hardware/solid-hardware.cpp:271
 msgctxt "solid-hardware|"
-msgid "             # If applicable, eject the device corresponding to 'udi'.\n"
+msgid ""
+"             # If applicable, eject the device corresponding to 'udi'.\n"
 msgstr ""
 
 #: tools/solid-hardware/solid-hardware.cpp:274
@@ -792,8 +799,7 @@ msgstr ""
 #: tools/solid-hardware/solid-hardware.cpp:283
 msgctxt "solid-hardware|"
 msgid ""
-"             # Send \"Check\" request to the device corresponding to "
-"'udi'.\n"
+"             # Send \"Check\" request to the device corresponding to 'udi'.\n"
 msgstr ""
 
 #: tools/solid-hardware/solid-hardware.cpp:286

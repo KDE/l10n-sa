@@ -55,8 +55,8 @@ msgid ""
 "This function is not available on this system. The symbolic link to the "
 "private GnuPG keys cannot be created."
 msgstr ""
-"एतत् कार्यं अस्मिन् प्रणाल्यां उपलब्धं नास्ति । निजी GnuPG कीलानां "
-"प्रतीकात्मकं लिङ्कं निर्मातुं न शक्यते ।"
+"एतत् कार्यं अस्मिन् प्रणाल्यां उपलब्धं नास्ति । निजी GnuPG कीलानां प्रतीकात्मकं लिङ्कं निर्मातुं "
+"न शक्यते ।"
 
 #: caff.cpp:155 caff.cpp:173
 #, kde-format
@@ -88,8 +88,7 @@ msgstr[1] ""
 msgid ""
 "No mail was sent for the following user id because it was already signed:"
 msgid_plural ""
-"No mail was sent for the following user ids because they were already "
-"signed:"
+"No mail was sent for the following user ids because they were already signed:"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -116,13 +115,13 @@ msgstr ""
 #, kde-format
 msgid ""
 "<qt><b>Custom Decryption Command:</b><br />\n"
-"<p>This option allows the user to specify a custom command to be executed by G"
-"PG when decryption occurs. (This is recommended for advanced users only).</p><"
-"/qt>"
+"<p>This option allows the user to specify a custom command to be executed by "
+"GPG when decryption occurs. (This is recommended for advanced users only).</"
+"p></qt>"
 msgstr ""
-"<qt><b>कस्टम् डिक्रिप्शन आदेशः : १.</b><br /><p> एषः विकल्पः उपयोक्तारं "
-"विगुप्तीकरणे GPG द्वारा निष्पादनीयं कस्टम् आदेशं निर्दिष्टुं शक्नोति । (एतत्"
-" केवलं उन्नतप्रयोक्तृणां कृते अनुशंसितम् अस्ति)।</p></qt>"
+"<qt><b>कस्टम् डिक्रिप्शन आदेशः : १.</b><br /><p> एषः विकल्पः उपयोक्तारं विगुप्तीकरणे "
+"GPG द्वारा निष्पादनीयं कस्टम् आदेशं निर्दिष्टुं शक्नोति । (एतत् केवलं उन्नतप्रयोक्तृणां कृते "
+"अनुशंसितम् अस्ति)।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
 #: conf_decryption.ui:55
@@ -142,14 +141,13 @@ msgstr "एन्क्रिप्शन"
 #, kde-format
 msgid ""
 "<qt><b>ASCII armored encryption:</b> <br /> \n"
-"<p>Checking this option outputs all encrypted files in a format that can be op"
-"ened by a text editor and as such the output is suitable for placing in the bo"
-"dy of an e-mail message.</p></qt>"
+"<p>Checking this option outputs all encrypted files in a format that can be "
+"opened by a text editor and as such the output is suitable for placing in "
+"the body of an e-mail message.</p></qt>"
 msgstr ""
-"<qt><b>ASCII बख्तरितं एन्क्रिप्शनम् : १.</b><br /><p> एतत् विकल्पं "
-"जाँचयित्वा सर्वाणि एन्क्रिप्टेड् सञ्चिकाः एकस्मिन् प्रारूपे निर्गच्छन्ति यत्"
-" पाठसम्पादकेन उद्घाटयितुं शक्यते तथा च निर्गमः ई-मेल-सन्देशस्य मुख्यभागे "
-"स्थापयितुं उपयुक्तं भवति</p></qt>"
+"<qt><b>ASCII बख्तरितं एन्क्रिप्शनम् : १.</b><br /><p> एतत् विकल्पं जाँचयित्वा सर्वाणि "
+"एन्क्रिप्टेड् सञ्चिकाः एकस्मिन् प्रारूपे निर्गच्छन्ति यत् पाठसम्पादकेन उद्घाटयितुं शक्यते तथा च "
+"निर्गमः ई-मेल-सन्देशस्य मुख्यभागे स्थापयितुं उपयुक्तं भवति</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AsciiArmor)
 #: conf_encryption.ui:34 selectpublickeydialog.cpp:104
@@ -162,15 +160,14 @@ msgstr "ASCII बख्तरबंद एन्क्रिप्शन"
 #, kde-format
 msgid ""
 "<qt><b>Use *.pgp extension for encrypted files:</b><br />\n"
-"<p>Checking this option will append a .pgp extension to all encrypted files in"
-"stead of a .gpg extension. This option will maintain compatibility with users "
-"of PGP (Pretty Good Privacy) software.</p></qt>"
+"<p>Checking this option will append a .pgp extension to all encrypted files "
+"instead of a .gpg extension. This option will maintain compatibility with "
+"users of PGP (Pretty Good Privacy) software.</p></qt>"
 msgstr ""
-"<qt><b>एन्क्रिप्टेड् सञ्चिकानां कृते *.pgp विस्तारस्य उपयोगं "
-"कुर्वन्तु:</b><br /><p> एतत् विकल्पं जाँचयित्वा .gpg विस्तारस्य स्थाने "
-"सर्वेषु एन्क्रिप्टेड् सञ्चिकासु .pgp विस्तारः योजितः भविष्यति । एषः विकल्पः "
-"PGP (Pretty Good Privacy) सॉफ्टवेयरस्य उपयोक्तृभिः सह संगततां निर्वाहयिष्यति"
-" ।</p></qt>"
+"<qt><b>एन्क्रिप्टेड् सञ्चिकानां कृते *.pgp विस्तारस्य उपयोगं कुर्वन्तु:</b><br /><p> एतत् "
+"विकल्पं जाँचयित्वा .gpg विस्तारस्य स्थाने सर्वेषु एन्क्रिप्टेड् सञ्चिकासु .pgp विस्तारः योजितः "
+"भविष्यति । एषः विकल्पः PGP (Pretty Good Privacy) सॉफ्टवेयरस्य उपयोक्तृभिः सह संगततां "
+"निर्वाहयिष्यति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpExtension)
 #: conf_encryption.ui:45
@@ -178,23 +175,20 @@ msgstr ""
 msgid "Use *.pgp extension for encrypted files"
 msgstr "एन्क्रिप्टेड् सञ्चिकानां कृते *.pgp विस्तारस्य उपयोगं कुर्वन्तु"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_AllowCustomEncryptionOptions)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowCustomEncryptionOptions)
 #: conf_encryption.ui:69
 #, kde-format
 msgid ""
 "<qt><b>Custom encryption command:</b><br />\n"
-"<p>When activated, an entry field will be shown in the key selection dialog, e"
-"nabling you to enter a custom command for encryption. This option is recommend"
-"ed for experienced users only.</p></qt>"
+"<p>When activated, an entry field will be shown in the key selection dialog, "
+"enabling you to enter a custom command for encryption. This option is "
+"recommended for experienced users only.</p></qt>"
 msgstr ""
-"<qt><b>कस्टम् एन्क्रिप्शन आदेशः : १.</b><br /><p> सक्रियीकरणे "
-"कुञ्जीचयनसंवादे प्रविष्टिक्षेत्रं दर्शितं भविष्यति, येन भवन्तः "
-"एन्क्रिप्शनार्थं इष्टादेशं प्रविष्टुं समर्थाः भवन्ति । एषः विकल्पः केवलं "
-"अनुभविनां उपयोक्तृणां कृते अनुशंसितः अस्ति ।</p></qt>"
+"<qt><b>कस्टम् एन्क्रिप्शन आदेशः : १.</b><br /><p> सक्रियीकरणे कुञ्जीचयनसंवादे "
+"प्रविष्टिक्षेत्रं दर्शितं भविष्यति, येन भवन्तः एन्क्रिप्शनार्थं इष्टादेशं प्रविष्टुं समर्थाः भवन्ति । "
+"एषः विकल्पः केवलं अनुभविनां उपयोक्तृणां कृते अनुशंसितः अस्ति ।</p></qt>"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_AllowCustomEncryptionOptions)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowCustomEncryptionOptions)
 #: conf_encryption.ui:72
 #, kde-format
 msgid "Custom encryption command:"
@@ -205,15 +199,14 @@ msgstr "कस्टम् एन्क्रिप्शन आदेशः : �
 #, kde-format
 msgid ""
 "<qt><b>Always encrypt with:</b><br />\n"
-"<p>This ensures all files/messages will also be encrypted with the chosen key."
-" However, if the \"Encrypt files with:\" option is selected that chosen key wi"
-"ll override the \"Always encrypt with:\" selection.</p></qt>"
+"<p>This ensures all files/messages will also be encrypted with the chosen "
+"key. However, if the \"Encrypt files with:\" option is selected that chosen "
+"key will override the \"Always encrypt with:\" selection.</p></qt>"
 msgstr ""
-"<qt><b>सदैव एन्क्रिप्ट् कुर्वन्तु:</b><br /><p> एतेन सर्वाणि "
-"सञ्चिकाः/सन्देशाः अपि चयनितकुंजीद्वारा गुप्तीकरणं भविष्यन्ति इति सुनिश्चितं "
-"भवति । तथापि यदि &quot;Encrypt files with:&quot; विकल्पः चयनितः अस्ति तर्हि "
-"तत् चयनितं कुञ्जी &quot;Always encrypt with:&quot; इति चयनं अधिलिखति "
-"।</p></qt>"
+"<qt><b>सदैव एन्क्रिप्ट् कुर्वन्तु:</b><br /><p> एतेन सर्वाणि सञ्चिकाः/सन्देशाः अपि "
+"चयनितकुंजीद्वारा गुप्तीकरणं भविष्यन्ति इति सुनिश्चितं भवति । तथापि यदि &quot;Encrypt "
+"files with:&quot; विकल्पः चयनितः अस्ति तर्हि तत् चयनितं कुञ्जी &quot;Always encrypt "
+"with:&quot; इति चयनं अधिलिखति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, encrypt_to_always)
 #: conf_encryption.ui:116
@@ -226,14 +219,13 @@ msgstr "सदैव एन्क्रिप्ट् कुर्वन्त�
 #, kde-format
 msgid ""
 "<qt><b>Encrypt files with:</b><br />\n"
-"<p>Checking this option and selecting a key will force any file encryption ope"
-"ration to use the selected key. KGpg will not query for a recipient and the de"
-"fault key will be bypassed.</p></qt>"
+"<p>Checking this option and selecting a key will force any file encryption "
+"operation to use the selected key. KGpg will not query for a recipient and "
+"the default key will be bypassed.</p></qt>"
 msgstr ""
-"<qt><b>सञ्चिकाः एन्क्रिप्ट् कुर्वन्तु :</b><br /><p> एतत् विकल्पं परीक्ष्य "
-"कीलस्य चयनं कृत्वा कस्यापि सञ्चिकागुप्तीकरणक्रियायाः चयनितकुंजीयाः उपयोगं "
-"कर्तुं बाध्यं भविष्यति । KGpg ग्राहकस्य कृते प्रश्नं न करिष्यति तथा च "
-"पूर्वनिर्धारितं कुञ्जी बाईपासं भविष्यति ।</p></qt>"
+"<qt><b>सञ्चिकाः एन्क्रिप्ट् कुर्वन्तु :</b><br /><p> एतत् विकल्पं परीक्ष्य कीलस्य चयनं कृत्वा "
+"कस्यापि सञ्चिकागुप्तीकरणक्रियायाः चयनितकुंजीयाः उपयोगं कर्तुं बाध्यं भविष्यति । KGpg "
+"ग्राहकस्य कृते प्रश्नं न करिष्यति तथा च पूर्वनिर्धारितं कुञ्जी बाईपासं भविष्यति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EncryptFilesTo)
 #: conf_encryption.ui:127
@@ -241,22 +233,20 @@ msgstr ""
 msgid "Encrypt files with:"
 msgstr "सञ्चिकाः एन्क्रिप्ट् कुर्वन्तु :"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_AllowUntrustedKeys)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowUntrustedKeys)
 #: conf_encryption.ui:135
 #, kde-format
 msgid ""
 "<qt><b>Allow encryption with untrusted keys:</b><br />\n"
-"<p>When importing a public key, the key is usually marked as untrusted and as "
-"such cannot be used unless it is signed by the default key (thus making it 'tr"
-"usted'). Checking this box enables any key to be used even if it is untrusted."
-"</p></qt>"
+"<p>When importing a public key, the key is usually marked as untrusted and "
+"as such cannot be used unless it is signed by the default key (thus making "
+"it 'trusted'). Checking this box enables any key to be used even if it is "
+"untrusted.</p></qt>"
 msgstr ""
-"<qt><b>अविश्वसनीयकुंजीभिः सह एन्क्रिप्शनस्य अनुमतिं ददातु:</b><br /><p> "
-"सार्वजनिककुंजी आयाते सति कुञ्जी प्रायः अविश्वसनीयरूपेण चिह्निता भवति तथा च "
-"यावत् पूर्वनिर्धारितकुंजीद्वारा हस्ताक्षरं न भवति तावत् तस्य उपयोगः कर्तुं न"
-" शक्यते (एवं &#39;विश्वसनीयम्&#39; भवति) एतत् पेटीम् अवलोक्य अविश्वसनीयं "
-"चेदपि किमपि कीलं उपयोक्तुं समर्थं भवति ।</p></qt>"
+"<qt><b>अविश्वसनीयकुंजीभिः सह एन्क्रिप्शनस्य अनुमतिं ददातु:</b><br /><p> सार्वजनिककुंजी "
+"आयाते सति कुञ्जी प्रायः अविश्वसनीयरूपेण चिह्निता भवति तथा च यावत् पूर्वनिर्धारितकुंजीद्वारा "
+"हस्ताक्षरं न भवति तावत् तस्य उपयोगः कर्तुं न शक्यते (एवं &#39;विश्वसनीयम्&#39; भवति) एतत् "
+"पेटीम् अवलोक्य अविश्वसनीयं चेदपि किमपि कीलं उपयोक्तुं समर्थं भवति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowUntrustedKeys)
 #: conf_encryption.ui:138 selectpublickeydialog.cpp:110
@@ -264,8 +254,7 @@ msgstr ""
 msgid "Allow encryption with untrusted keys"
 msgstr "अविश्वसनीयकुंजीभिः सह एन्क्रिप्शनं अनुमन्यताम्"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_AllowUntrustedGroupMembers)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AllowUntrustedGroupMembers)
 #: conf_encryption.ui:145
 #, kde-format
 msgid ""
@@ -274,13 +263,12 @@ msgid ""
 "the <em>Allow encryption with untrusted keys</em> option this allows "
 "untrusted keys to become member of a key group.</p></qt>"
 msgstr ""
-"<qt><b>अविश्वसनीयकुंजीः कुञ्जीसमूहानां सदस्यत्वेन अनुमन्यताम्:</b><br /><p> "
-"एकः कीलसमूहः एकदा एव बहुभ्यः प्राप्तिभ्यः सरलगुप्तीकरणस्य अनुमतिं ददाति । "
-"<em>Allow encryption with unrusted keys</em> विकल्पस्य सदृशम् एतेन "
-"अविश्वसनीयाः कीलानि कीलसमूहस्य सदस्याः भवितुम् अर्हन्ति ।</p></qt>"
+"<qt><b>अविश्वसनीयकुंजीः कुञ्जीसमूहानां सदस्यत्वेन अनुमन्यताम्:</b><br /><p> एकः कीलसमूहः "
+"एकदा एव बहुभ्यः प्राप्तिभ्यः सरलगुप्तीकरणस्य अनुमतिं ददाति । <em>Allow encryption with "
+"unrusted keys</em> विकल्पस्य सदृशम् एतेन अविश्वसनीयाः कीलानि कीलसमूहस्य सदस्याः भवितुम् "
+"अर्हन्ति ।</p></qt>"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_AllowUntrustedGroupMembers)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowUntrustedGroupMembers)
 #: conf_encryption.ui:148
 #, kde-format
 msgid "Allow untrusted keys as members of key groups"
@@ -291,20 +279,19 @@ msgstr "अविश्वसनीयकुंजीः कीलसमूह�
 #, kde-format
 msgid ""
 "<qt><b>Hide user ID:</b><br /> \n"
-"<p>Checking this option will remove the keyid of the recipient from all encryp"
-"ted packets. The advantage: traffic analysis of the encrypted packets cannot b"
-"e performed as easily because the recipient is unknown. The disadvantage: the "
-"receiver of the encrypted packets is forced to try all secret keys before bein"
-"g able to decrypt the packets. This can be a lengthy process depending on the "
-"number of secret keys the receiver holds.</p></qt>"
+"<p>Checking this option will remove the keyid of the recipient from all "
+"encrypted packets. The advantage: traffic analysis of the encrypted packets "
+"cannot be performed as easily because the recipient is unknown. The "
+"disadvantage: the receiver of the encrypted packets is forced to try all "
+"secret keys before being able to decrypt the packets. This can be a lengthy "
+"process depending on the number of secret keys the receiver holds.</p></qt>"
 msgstr ""
-"<qt><b>उपयोक्तृ-परिचयः गोपयन्तु : १.</b><br /><p> एतत् विकल्पं परीक्ष्य "
-"सर्वेभ्यः एन्क्रिप्टेड्-पैकेट्-भ्यः प्राप्तकस्य कीइड् अपसारयिष्यति । लाभः : "
-"एन्क्रिप्टेड्-पैकेट्-सम्बद्धानां यातायात-विश्लेषणं तावत् सुलभतया कर्तुं न "
-"शक्यते यतोहि प्राप्तकर्ता अज्ञातः अस्ति । हानिः : "
-"एन्क्रिप्टेड्-पैकेट्-ग्राहकः पॅकेट्-विगुप्तीकरणं कर्तुं शक्नुवन् पूर्वं "
-"सर्वाणि गुप्त-कीलानि प्रयतितुं बाध्यः भवति । ग्राहकस्य "
-"धारितगुप्तकीलसङ्ख्यायाः आधारेण एषा दीर्घप्रक्रिया भवितुम् अर्हति ।</p></qt>"
+"<qt><b>उपयोक्तृ-परिचयः गोपयन्तु : १.</b><br /><p> एतत् विकल्पं परीक्ष्य सर्वेभ्यः "
+"एन्क्रिप्टेड्-पैकेट्-भ्यः प्राप्तकस्य कीइड् अपसारयिष्यति । लाभः : एन्क्रिप्टेड्-पैकेट्-सम्बद्धानां "
+"यातायात-विश्लेषणं तावत् सुलभतया कर्तुं न शक्यते यतोहि प्राप्तकर्ता अज्ञातः अस्ति । हानिः : "
+"एन्क्रिप्टेड्-पैकेट्-ग्राहकः पॅकेट्-विगुप्तीकरणं कर्तुं शक्नुवन् पूर्वं सर्वाणि गुप्त-कीलानि प्रयतितुं "
+"बाध्यः भवति । ग्राहकस्य धारितगुप्तकीलसङ्ख्यायाः आधारेण एषा दीर्घप्रक्रिया भवितुम् अर्हति ।"
+"</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUserID)
 #: conf_encryption.ui:159 selectpublickeydialog.cpp:119
@@ -317,14 +304,13 @@ msgstr "उपयोक्तृपरिचयं गोपयन्तु"
 #, kde-format
 msgid ""
 "<qt><b>PGP 6 compatibility:</b><br /> \n"
-"<p>Checking this option forces GnuPG to output encrypted packets that are as c"
-"ompliant with PGP (Pretty Good Privacy) 6 standards as possible thus allowing "
-"GnuPG users to inter operate with PGP 6 users.</p></qt>"
+"<p>Checking this option forces GnuPG to output encrypted packets that are as "
+"compliant with PGP (Pretty Good Privacy) 6 standards as possible thus "
+"allowing GnuPG users to inter operate with PGP 6 users.</p></qt>"
 msgstr ""
-"<qt><b>PGP 6 संगतता:</b><br /><p> एतस्य विकल्पस्य जाँचः GnuPG इत्यस्य "
-"एन्क्रिप्टेड् पैकेट् आउटपुट् कर्तुं बाध्यते यत् यथासम्भवं PGP (Pretty Good "
-"Privacy) 6 मानकानां अनुरूपाः सन्ति अतः GnuPG उपयोक्तारः PGP 6 उपयोक्तृभिः सह"
-" अन्तरक्रियां कर्तुं शक्नुवन्ति</p></qt>"
+"<qt><b>PGP 6 संगतता:</b><br /><p> एतस्य विकल्पस्य जाँचः GnuPG इत्यस्य एन्क्रिप्टेड् पैकेट् "
+"आउटपुट् कर्तुं बाध्यते यत् यथासम्भवं PGP (Pretty Good Privacy) 6 मानकानां अनुरूपाः सन्ति "
+"अतः GnuPG उपयोक्तारः PGP 6 उपयोक्तृभिः सह अन्तरक्रियां कर्तुं शक्नुवन्ति</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PgpCompatibility)
 #: conf_encryption.ui:170
@@ -355,9 +341,8 @@ msgid ""
 "configuration and the keyrings. If you have not changed it this is usually "
 "<em>~/.gnupg/</em></p>"
 msgstr ""
-"<b>गृहस्थानम्</b><p> एषा निर्देशिका यत्र GnuPG स्वस्य विन्यासं कीलिङ्गं च "
-"संगृह्णाति । यदि भवान् न परिवर्तयति तर्हि प्रायः एतत् <em>~/.gnupg/ "
-".</em></p>"
+"<b>गृहस्थानम्</b><p> एषा निर्देशिका यत्र GnuPG स्वस्य विन्यासं कीलिङ्गं च संगृह्णाति । यदि "
+"भवान् न परिवर्तयति तर्हि प्रायः एतत् <em>~/.gnupg/ .</em></p>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5_2)
 #: conf_gpg.ui:33
@@ -373,9 +358,9 @@ msgid ""
 "the directory specified above. The default is <em>gnupg.conf</em> while "
 "older versions of GnuPG used <em>options</em>.</p>"
 msgstr ""
-"<b>विन्याससञ्चिका</b><p> उपरि निर्दिष्टे निर्देशिकायां विन्याससञ्चिकायाः नाम"
-" एतत् अस्ति । पूर्वनिर्धारितं <em>gnupg.conf</em> अस्ति यदा GnuPG इत्यस्य "
-"प्राचीनसंस्करणाः <em>विकल्पान्</em> उपयुज्यन्ते स्म ।</p>"
+"<b>विन्याससञ्चिका</b><p> उपरि निर्दिष्टे निर्देशिकायां विन्याससञ्चिकायाः नाम एतत् अस्ति "
+"। पूर्वनिर्धारितं <em>gnupg.conf</em> अस्ति यदा GnuPG इत्यस्य प्राचीनसंस्करणाः "
+"<em>विकल्पान्</em> उपयुज्यन्ते स्म ।</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5_2_2)
 #: conf_gpg.ui:46
@@ -402,9 +387,8 @@ msgid ""
 "<b>Program path</b><p>This is the program that will be called for all GnuPG "
 "operations. The default of <em>gpg</em> will work on most systems.</p>"
 msgstr ""
-"<b>कार्यक्रम मार्ग</b><p> एषः एव कार्यक्रमः यः सर्वेषां GnuPG-सञ्चालनानां "
-"कृते आह्वयते । <em>gpg</em> इत्यस्य पूर्वनिर्धारितं अधिकांशप्रणालीषु कार्यं "
-"करिष्यति ।</p>"
+"<b>कार्यक्रम मार्ग</b><p> एषः एव कार्यक्रमः यः सर्वेषां GnuPG-सञ्चालनानां कृते आह्वयते । "
+"<em>gpg</em> इत्यस्य पूर्वनिर्धारितं अधिकांशप्रणालीषु कार्यं करिष्यति ।</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6_2)
 #: conf_gpg.ui:117
@@ -418,14 +402,13 @@ msgstr "कार्यक्रममार्गः : १."
 msgid ""
 "<b>Use GnuPG agent</b><p>The GnuPG agent stores the passwords for your "
 "secret keys in memory for a limited amount of time. If you use your secret "
-"key again while it is cached you do not have to enter it again. This is less"
-" secure than typing it every time.</p>"
+"key again while it is cached you do not have to enter it again. This is less "
+"secure than typing it every time.</p>"
 msgstr ""
-"<b>GnuPG एजेण्ट् इत्यस्य उपयोगं कुर्वन्तु</b><p> GnuPG एजेण्ट् भवतः "
-"गुप्तकुञ्जीनां गुप्तशब्दान् सीमितकालं यावत् स्मृतौ संगृह्णाति । यदि भवान् "
-"पुनः स्वस्य गुप्तकीलस्य उपयोगं करोति यदा तत् संग्रहीतं भवति तर्हि भवान् पुनः"
-" तत् प्रविष्टुं न प्रयोजनम् । प्रतिवारं टङ्कणात् इदं न्यूनसुरक्षितम् अस्ति "
-"।</p>"
+"<b>GnuPG एजेण्ट् इत्यस्य उपयोगं कुर्वन्तु</b><p> GnuPG एजेण्ट् भवतः गुप्तकुञ्जीनां गुप्तशब्दान् "
+"सीमितकालं यावत् स्मृतौ संगृह्णाति । यदि भवान् पुनः स्वस्य गुप्तकीलस्य उपयोगं करोति यदा तत् "
+"संग्रहीतं भवति तर्हि भवान् पुनः तत् प्रविष्टुं न प्रयोजनम् । प्रतिवारं टङ्कणात् इदं न्यूनसुरक्षितम् "
+"अस्ति ।</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, use_agent)
 #: conf_gpg.ui:160
@@ -444,11 +427,11 @@ msgstr "वैश्विक सेटिंग्स्"
 #, kde-format
 msgid ""
 "<qt><b>Start KGpg automatically at KDE startup:</b><br />\n"
-"<p>If checked KGpg will start automatically each time that KDE starts up.</p><"
-"/qt>"
+"<p>If checked KGpg will start automatically each time that KDE starts up.</"
+"p></qt>"
 msgstr ""
-"<qt><b>KDE प्रारम्भे स्वयमेव KGpg आरभत:</b><br /><p> यदि चेक् कृतं तर्हि "
-"KGpg स्वयमेव आरभ्यते प्रत्येकं समये यत् KDE आरभ्यते ।</p></qt>"
+"<qt><b>KDE प्रारम्भे स्वयमेव KGpg आरभत:</b><br /><p> यदि चेक् कृतं तर्हि KGpg स्वयमेव "
+"आरभ्यते प्रत्येकं समये यत् KDE आरभ्यते ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoStart)
 #: conf_misc.ui:36
@@ -456,23 +439,21 @@ msgstr ""
 msgid "Start KGpg automatically at login"
 msgstr "प्रवेशसमये स्वयमेव KGpg आरभत"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_UseMouseSelection)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseMouseSelection)
 #: conf_misc.ui:53
 #, kde-format
 msgid ""
 "<qt><b>Use mouse selection instead of clipboard:</b><br />\n"
-"<p>If checked, clipboard operations in KGpg will use the selection clipboard, "
-"that means highlighting a text to copy, and middle button (or right+left toget"
-"her) to paste. If this option is not checked, the clipboard will work with Key"
-" shortcuts (Ctrl-c, Ctrl-v).</p></qt> "
+"<p>If checked, clipboard operations in KGpg will use the selection "
+"clipboard, that means highlighting a text to copy, and middle button (or "
+"right+left together) to paste. If this option is not checked, the clipboard "
+"will work with Key shortcuts (Ctrl-c, Ctrl-v).</p></qt> "
 msgstr ""
-"<qt><b>क्लिप्बोर्डस्य स्थाने मूषकचयनस्य उपयोगं कुर्वन्तु:</b><br /><p> यदि "
-"चेक् कृतं तर्हि KGpg मध्ये क्लिप्बोर्ड्-सञ्चालनानि चयन-क्लिप्बोर्ड्-इत्यस्य "
-"उपयोगं करिष्यन्ति, तस्य अर्थः अस्ति यत् प्रतिलिपिं कर्तुं पाठं प्रकाशयितुं, "
-"तथा च चिनोतुं मध्यबटनं (अथवा एकत्र दक्षिण+वामम्) । यदि एषः विकल्पः न "
-"परीक्षितः अस्ति तर्हि क्लिप्बोर्ड् Key shortcuts (Ctrl-c, Ctrl-v) इत्यनेन सह"
-" कार्यं करिष्यति ।</p></qt> "
+"<qt><b>क्लिप्बोर्डस्य स्थाने मूषकचयनस्य उपयोगं कुर्वन्तु:</b><br /><p> यदि चेक् कृतं तर्हि "
+"KGpg मध्ये क्लिप्बोर्ड्-सञ्चालनानि चयन-क्लिप्बोर्ड्-इत्यस्य उपयोगं करिष्यन्ति, तस्य अर्थः अस्ति "
+"यत् प्रतिलिपिं कर्तुं पाठं प्रकाशयितुं, तथा च चिनोतुं मध्यबटनं (अथवा एकत्र दक्षिण+वामम्) । "
+"यदि एषः विकल्पः न परीक्षितः अस्ति तर्हि क्लिप्बोर्ड् Key shortcuts (Ctrl-c, Ctrl-v) "
+"इत्यनेन सह कार्यं करिष्यति ।</p></qt> "
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseMouseSelection)
 #: conf_misc.ui:56
@@ -487,8 +468,7 @@ msgid ""
 "<qt><b>Display warning before creating temporary files:</b><br />\n"
 "<p></p></qt>"
 msgstr ""
-"<qt><b>अस्थायीसञ्चिकानां निर्माणात् पूर्वं चेतावनी प्रदर्शयन्तु:</b><br "
-"/><p></p></qt>"
+"<qt><b>अस्थायीसञ्चिकानां निर्माणात् पूर्वं चेतावनी प्रदर्शयन्तु:</b><br /><p></p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemoteFileWarn)
 #: conf_misc.ui:74
@@ -519,8 +499,7 @@ msgid ""
 "<qt><b>Sign file service menu:</b><br />\n"
 "<p></p>\n"
 "</qt>"
-msgstr ""
-"<qt><b>सञ्चिकासेवामेनू इत्यत्र हस्ताक्षरं कुर्वन्तु:</b><br /><p></p></qt>"
+msgstr "<qt><b>सञ्चिकासेवामेनू इत्यत्र हस्ताक्षरं कुर्वन्तु:</b><br /><p></p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: conf_misc.ui:122
@@ -576,8 +555,8 @@ msgid ""
 "<qt><b>Show system tray icon:</b><br />\n"
 "<p>If checked KGpg will minimize to an icon in the system tray.</p></qt>"
 msgstr ""
-"<qt><b>सिस्टम् ट्रे चिह्नं दर्शयतु:</b><br /><p> यदि चेक् कृतं तर्हि KGpg "
-"सिस्टम् ट्रे मध्ये एकं चिह्नं यावत् न्यूनीकरोति ।</p></qt>"
+"<qt><b>सिस्टम् ट्रे चिह्नं दर्शयतु:</b><br /><p> यदि चेक् कृतं तर्हि KGpg सिस्टम् ट्रे मध्ये एकं "
+"चिह्नं यावत् न्यूनीकरोति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSystray)
 #: conf_misc.ui:211
@@ -622,13 +601,13 @@ msgstr "कीलहस्ताक्षर"
 msgid ""
 "Here you can define how User Ids that do not contain an email address (like "
 "Photo Ids) are sent to the key owner. You can choose to either send them "
-"with every other User Id you signed, only with the first Id you signed or to"
-" not send them at all."
+"with every other User Id you signed, only with the first Id you signed or to "
+"not send them at all."
 msgstr ""
-"अत्र भवान् परिभाषितुं शक्नोति यत् येषु User Ids मध्ये ईमेल-सङ्केतः नास्ति "
-"(यथा Photo Ids) ते कथं कीलस्वामिने प्रेष्यन्ते । भवान् तान् प्रेषयितुं "
-"शक्नोति यत् भवता हस्ताक्षरितेन अन्येन प्रत्येकेन User Id इत्यनेन सह, केवलं "
-"भवता हस्ताक्षरितेन प्रथमेन Id इत्यनेन सह वा तान् सर्वथा न प्रेषयितुं वा।"
+"अत्र भवान् परिभाषितुं शक्नोति यत् येषु User Ids मध्ये ईमेल-सङ्केतः नास्ति (यथा Photo Ids) "
+"ते कथं कीलस्वामिने प्रेष्यन्ते । भवान् तान् प्रेषयितुं शक्नोति यत् भवता हस्ताक्षरितेन अन्येन "
+"प्रत्येकेन User Id इत्यनेन सह, केवलं भवता हस्ताक्षरितेन प्रथमेन Id इत्यनेन सह वा तान् सर्वथा "
+"न प्रेषयितुं वा।"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: conf_misc.ui:317
@@ -666,13 +645,13 @@ msgstr "ईमेल टेम्पलेट"
 msgid ""
 "This is the text of the email sent by the \"Sign and Mail User ID\" action.\n"
 "\n"
-"The placeholders surrounded by the percent signs (like %KEYID%) will be replac"
-"ed with the corresponding text for every single mail."
+"The placeholders surrounded by the percent signs (like %KEYID%) will be "
+"replaced with the corresponding text for every single mail."
 msgstr ""
 "एषः \"Sign and Mail User ID\" क्रियाद्वारा प्रेषितस्य ईमेलस्य पाठः अस्ति ।\n"
 "\n"
-"प्रतिशतचिह्नैः परितः स्थापिताः स्थानधारकाः (%KEYID इव%) प्रत्येकस्य मेलस्य कृत"
-"े तत्सम्बद्धेन पाठेन प्रतिस्थापिताः भविष्यन्ति ।"
+"प्रतिशतचिह्नैः परितः स्थापिताः स्थानधारकाः (%KEYID इव%) प्रत्येकस्य मेलस्य कृते तत्सम्बद्धेन "
+"पाठेन प्रतिस्थापिताः भविष्यन्ति ।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #: conf_servers.ui:25
@@ -682,9 +661,8 @@ msgid ""
 "Only the default server will be stored in GnuPG's configuration file,\n"
 "all others will be stored for use by KGpg only."
 msgstr ""
-"<b>सूचना</b> : केवलं पूर्वनिर्धारितसर्वरः GnuPG इत्यस्य विन्याससञ्चिकायां "
-"संगृहीतः भविष्यति, अन्ये सर्वे केवलं KGpg द्वारा उपयोगाय संगृहीताः "
-"भविष्यन्ति ।"
+"<b>सूचना</b> : केवलं पूर्वनिर्धारितसर्वरः GnuPG इत्यस्य विन्याससञ्चिकायां संगृहीतः "
+"भविष्यति, अन्ये सर्वे केवलं KGpg द्वारा उपयोगाय संगृहीताः भविष्यन्ति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseProxy)
 #: conf_servers.ui:35
@@ -1037,8 +1015,8 @@ msgstr "फोटो आईडी"
 msgid "Info"
 msgstr "Info"
 
-#: editor/kgpgeditor.cpp:91 editor/kgpgeditor.cpp:241
-#: editor/kgpgeditor.cpp:727 editor/kgpgeditor.cpp:756
+#: editor/kgpgeditor.cpp:91 editor/kgpgeditor.cpp:241 editor/kgpgeditor.cpp:727
+#: editor/kgpgeditor.cpp:756
 #, kde-format
 msgid "Untitled"
 msgstr "अनामिका"
@@ -1118,8 +1096,7 @@ msgstr "दस्तावेजं रक्षितुं न शक्यत
 msgid ""
 "The document could not be saved, please check your permissions and disk "
 "space."
-msgstr ""
-"दस्तावेजं रक्षितुं न शक्यते, कृपया स्वस्य अनुमतिः डिस्कस्थानं च पश्यन्तु ।"
+msgstr "दस्तावेजं रक्षितुं न शक्यते, कृपया स्वस्य अनुमतिः डिस्कस्थानं च पश्यन्तु ।"
 
 #: editor/kgpgeditor.cpp:343 editor/kgpgeditor.cpp:354 keyexport.cpp:37
 #, kde-format
@@ -1175,8 +1152,8 @@ msgid ""
 "<qt><b>Missing signature:</b><br />Key id: %1<br /><br />Do you want to "
 "import this key from a keyserver?</qt>"
 msgstr ""
-"<qt><b>हस्ताक्षरं गम्यते : १.</b><br /> कील आईडी: %1<br /><br /> किं भवान् "
-"एतत् कीलम् कीलसर्वरतः आयातुम् इच्छति?</qt>"
+"<qt><b>हस्ताक्षरं गम्यते : १.</b><br /> कील आईडी: %1<br /><br /> किं भवान् एतत् कीलम् "
+"कीलसर्वरतः आयातुम् इच्छति?</qt>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_import)
 #: editor/kgpgeditor.cpp:698 keyserver.ui:33 keytreeview.cpp:158
@@ -1239,13 +1216,13 @@ msgstr "<b>गलत चेकसम, <em>सञ्चिका दूषित�
 #: editor/kgpgtextedit.cpp:85
 #, kde-format
 msgid ""
-"<qt><b>Remote file dropped</b>.<br />The remote file will now be copied to a"
-" temporary file to process requested operation. This temporary file will be "
+"<qt><b>Remote file dropped</b>.<br />The remote file will now be copied to a "
+"temporary file to process requested operation. This temporary file will be "
 "deleted after operation.</qt>"
 msgstr ""
-"<qt><b>दूरस्थसञ्चिका पातिता</b> .<br /> इदानीं दूरस्थसञ्चिका "
-"अस्थायीसञ्चिकायां प्रतिलिपिता भविष्यति यत् अनुरोधितं कार्यं संसाधितुं शक्यते"
-" । एषा अस्थायी सञ्चिका कार्यानुष्ठानानन्तरं विलोपिता भविष्यति ।</qt>"
+"<qt><b>दूरस्थसञ्चिका पातिता</b> .<br /> इदानीं दूरस्थसञ्चिका अस्थायीसञ्चिकायां "
+"प्रतिलिपिता भविष्यति यत् अनुरोधितं कार्यं संसाधितुं शक्यते । एषा अस्थायी सञ्चिका "
+"कार्यानुष्ठानानन्तरं विलोपिता भविष्यति ।</qt>"
 
 #: editor/kgpgtextedit.cpp:94
 #, kde-format
@@ -1258,17 +1235,17 @@ msgid ""
 "<qt>This file is a <b>public</b> key.<br />Do you want to import it instead "
 "of opening it in editor?</qt>"
 msgstr ""
-"<qt>इयं सञ्चिका <b>सार्वजनिककुञ्जी</b> अस्ति ।<br /> सम्पादके उद्घाटनस्य "
-"स्थाने आयातं कर्तुम् इच्छति वा?</qt>"
+"<qt>इयं सञ्चिका <b>सार्वजनिककुञ्जी</b> अस्ति ।<br /> सम्पादके उद्घाटनस्य स्थाने आयातं "
+"कर्तुम् इच्छति वा?</qt>"
 
 #: editor/kgpgtextedit.cpp:133
 #, kde-format
 msgid ""
-"<qt>This file is a <b>private</b> key.<br />Do you want to import it instead"
-" of opening it in editor?</qt>"
+"<qt>This file is a <b>private</b> key.<br />Do you want to import it instead "
+"of opening it in editor?</qt>"
 msgstr ""
-"<qt>इयं सञ्चिका <b>निजीकुञ्जी</b> अस्ति ।<br /> सम्पादके उद्घाटनस्य स्थाने "
-"आयातं कर्तुम् इच्छति वा?</qt>"
+"<qt>इयं सञ्चिका <b>निजीकुञ्जी</b> अस्ति ।<br /> सम्पादके उद्घाटनस्य स्थाने आयातं कर्तुम् "
+"इच्छति वा?</qt>"
 
 #: editor/kgpgtextedit.cpp:138
 #, kde-format
@@ -1344,9 +1321,8 @@ msgstr "लुप्त कुञ्जी"
 msgid "Processing folder compression and encryption"
 msgstr "फोल्डर् संपीडनं एन्क्रिप्शनं च प्रसंस्करणम्"
 
-#: foldercompressjob.cpp:63 foldercompressjob.cpp:114
-#: foldercompressjob.cpp:133 foldercompressjob.cpp:135
-#: transactions/kgpgtransactionjob.cpp:59
+#: foldercompressjob.cpp:63 foldercompressjob.cpp:114 foldercompressjob.cpp:133
+#: foldercompressjob.cpp:135 transactions/kgpgtransactionjob.cpp:59
 #, kde-format
 msgctxt "State of operation as in status"
 msgid "State"
@@ -1448,9 +1424,7 @@ msgstr "C&lipboard इति"
 msgid ""
 "You must define at least one keyserver in settings before you can export to "
 "one."
-msgstr ""
-"एकस्मिन् निर्यातं कर्तुं पूर्वं सेटिङ्ग्स् मध्ये न्यूनातिन्यूनम् एकं "
-"कीसर्वरं परिभाषितव्यम् ।"
+msgstr "एकस्मिन् निर्यातं कर्तुं पूर्वं सेटिङ्ग्स् मध्ये न्यूनातिन्यूनम् एकं कीसर्वरं परिभाषितव्यम् ।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, checkServer)
 #: keyexport.ui:61
@@ -1494,11 +1468,11 @@ msgstr ""
 #: keyinfodialog.cpp:175
 #, kde-format
 msgid ""
-"<qt>The requested key is not present in the keyring anymore.<br />Perhaps it"
-" was deleted by another application</qt>"
+"<qt>The requested key is not present in the keyring anymore.<br />Perhaps it "
+"was deleted by another application</qt>"
 msgstr ""
-"<qt>अनुरोधितं कीलम् इतः परं कील-रङ्गे नास्ति ।<br /> कदाचित् अन्येन "
-"अनुप्रयोगेन विलोपितम् आसीत्</qt>"
+"<qt>अनुरोधितं कीलम् इतः परं कील-रङ्गे नास्ति ।<br /> कदाचित् अन्येन अनुप्रयोगेन विलोपितम् "
+"आसीत्</qt>"
 
 #: keyinfodialog.cpp:175
 #, kde-format
@@ -1517,9 +1491,8 @@ msgid ""
 "<qt>The left part is the algorithm used by the <b>signature</b> key. The "
 "right part is the algorithm used by the <b>encryption</b> key.</qt>"
 msgstr ""
-"<qt>वामभागः <b>हस्ताक्षरकुंजीद्वारा</b> उपयुज्यमानः अल्गोरिदम् अस्ति । "
-"दक्षिणभागः <b>एन्क्रिप्शन-</b> कुंजीद्वारा उपयुज्यमानः अल्गोरिदम् अस्ति "
-"।</qt>"
+"<qt>वामभागः <b>हस्ताक्षरकुंजीद्वारा</b> उपयुज्यमानः अल्गोरिदम् अस्ति । दक्षिणभागः "
+"<b>एन्क्रिप्शन-</b> कुंजीद्वारा उपयुज्यमानः अल्गोरिदम् अस्ति ।</qt>"
 
 #: keyinfodialog.cpp:217
 #, kde-format
@@ -1530,11 +1503,11 @@ msgstr ""
 #: keyinfodialog.cpp:223
 #, kde-format
 msgid ""
-"<qt>The left part is the size of the <b>signature</b> key. The right part is"
-" the size of the <b>encryption</b> key.</qt>"
+"<qt>The left part is the size of the <b>signature</b> key. The right part is "
+"the size of the <b>encryption</b> key.</qt>"
 msgstr ""
-"<qt>वामभागः <b>हस्ताक्षरकुंजीयाः</b> आकारः अस्ति । सम्यक् भागः "
-"<b>एन्क्रिप्शन</b> कीलस्य आकारः अस्ति ।</qt>"
+"<qt>वामभागः <b>हस्ताक्षरकुंजीयाः</b> आकारः अस्ति । सम्यक् भागः <b>एन्क्रिप्शन</b> "
+"कीलस्य आकारः अस्ति ।</qt>"
 
 #: keyinfodialog.cpp:228
 #, kde-format
@@ -1575,20 +1548,19 @@ msgid ""
 "<qt><b>Key Server:</b><br /> <p>A Key Server is a centralized repository of "
 "PGP/GnuPG keys connected to the Internet which can be conveniently accessed "
 "in order to obtain or deposit keys. Select from the drop down list to "
-"specify which key server should be used.</p> <p>Often these keys are held by"
-" people whom the user has never met and as such the authenticity is dubious "
+"specify which key server should be used.</p> <p>Often these keys are held by "
+"people whom the user has never met and as such the authenticity is dubious "
 "at best. Refer to the GnuPG manual covering \"Web-of-Trust\" relationships "
-"to find out how GnuPG works around the problem of verifying "
-"authenticity.</p> </qt>"
+"to find out how GnuPG works around the problem of verifying authenticity.</"
+"p> </qt>"
 msgstr ""
-"<qt><b>मुख्यसर्वरः : १.</b><br /><p> की सर्वरः अन्तर्जालसङ्गणकेन सह "
-"सम्बद्धानां PGP/GnuPG कीलानां केन्द्रीकृतः भण्डारः अस्ति यत् "
-"कुञ्जीप्राप्त्यर्थं वा निक्षेपाय वा सुविधापूर्वकं प्राप्तुं शक्यते । कस्य "
-"कीलसर्वरस्य उपयोगः करणीयः इति निर्दिष्टुं ड्रॉप् डाउन सूचीतः चिनोतु ।</p><p>"
-" प्रायः एतानि कीलानि तेषां जनानां कृते धारयन्ति येषां कृते उपयोक्ता कदापि न "
-"मिलति तथा च प्रामाणिकता सर्वोत्तमे संदिग्धं भवति । प्रामाणिकतासत्यापनस्य "
-"समस्यायाः परितः GnuPG कथं कार्यं करोति इति ज्ञातुं &quot;Web-of-Trust&quot; "
-"सम्बन्धान् आच्छादयन् GnuPG पुस्तिका पश्यन्तु ।</p></qt>"
+"<qt><b>मुख्यसर्वरः : १.</b><br /><p> की सर्वरः अन्तर्जालसङ्गणकेन सह सम्बद्धानां PGP/"
+"GnuPG कीलानां केन्द्रीकृतः भण्डारः अस्ति यत् कुञ्जीप्राप्त्यर्थं वा निक्षेपाय वा सुविधापूर्वकं "
+"प्राप्तुं शक्यते । कस्य कीलसर्वरस्य उपयोगः करणीयः इति निर्दिष्टुं ड्रॉप् डाउन सूचीतः चिनोतु ।"
+"</p><p> प्रायः एतानि कीलानि तेषां जनानां कृते धारयन्ति येषां कृते उपयोक्ता कदापि न मिलति "
+"तथा च प्रामाणिकता सर्वोत्तमे संदिग्धं भवति । प्रामाणिकतासत्यापनस्य समस्यायाः परितः "
+"GnuPG कथं कार्यं करोति इति ज्ञातुं &quot;Web-of-Trust&quot; सम्बन्धान् आच्छादयन् GnuPG "
+"पुस्तिका पश्यन्तु ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
@@ -1602,32 +1574,30 @@ msgstr "मुख्यसर्वरः : १."
 #, kde-format
 msgid ""
 "<b>Key Server Drop Down Dialog:</b>\n"
-"Allows the user to select the Key Server which will be used to import PGP/GnuP"
-"G keys into the local keyring."
+"Allows the user to select the Key Server which will be used to import PGP/"
+"GnuPG keys into the local keyring."
 msgstr ""
-"<b>Key Server Drop Down Dialog:</b> उपयोक्तारं Key Server चयनं कर्तुं "
-"अनुमतिं ददाति यस्य उपयोगः स्थानीयकीरिंग् मध्ये PGP/GnuPG कीलानां आयाताय "
-"भविष्यति ।"
+"<b>Key Server Drop Down Dialog:</b> उपयोक्तारं Key Server चयनं कर्तुं अनुमतिं ददाति "
+"यस्य उपयोगः स्थानीयकीरिंग् मध्ये PGP/GnuPG कीलानां आयाताय भविष्यति ।"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
 #: keyserver.ui:61
 #, kde-format
 msgid ""
 "<qt><b>Text to search or ID of the key to import:</b><br />\n"
-"<p>There are multiple ways to search for a key, you can use a text or partial "
-"text search (example: entering Phil or Zimmerman will bring up all keys in whi"
-"ch Phil or Zimmerman shows up) or you can search by the ID's of the key. Key I"
-"D's are strings of letters and numbers that uniquely identify a key (example: "
-"searching for 0xED7585F4 would bring up the key associated with that ID).</p><"
-"/qt>"
+"<p>There are multiple ways to search for a key, you can use a text or "
+"partial text search (example: entering Phil or Zimmerman will bring up all "
+"keys in which Phil or Zimmerman shows up) or you can search by the ID's of "
+"the key. Key ID's are strings of letters and numbers that uniquely identify "
+"a key (example: searching for 0xED7585F4 would bring up the key associated "
+"with that ID).</p></qt>"
 msgstr ""
-"<qt><b>अन्वेषणार्थं पाठः अथवा आयातार्थं कुञ्जीयाः ID:</b><br /><p> कुञ्जीम् "
-"अन्वेष्टुं बहुविधाः उपायाः सन्ति, भवान् पाठस्य अथवा आंशिकपाठसन्धानस्य उपयोगं"
-" कर्तुं शक्नोति (उदाहरणम्: Phil अथवा Zimmerman इति प्रविष्ट्वा सर्वाणि "
-"कुञ्जीनि दृश्यन्ते येषु Phil अथवा Zimmerman दर्शयति) अथवा भवान् कुञ्जिकायाः "
-"ID&#39;s द्वारा अन्वेषणं कर्तुं शक्नोति कील-ID अक्षराणां सङ्ख्यानां च ताराः "
-"सन्ति ये कुञ्जीम् अद्वितीयरूपेण चिनोति (उदाहरणम्: 0xED7585F4 इत्यस्य "
-"अन्वेषणेन तया ID इत्यनेन सह सम्बद्धं कुञ्जी दृश्यते) ।</p></qt>"
+"<qt><b>अन्वेषणार्थं पाठः अथवा आयातार्थं कुञ्जीयाः ID:</b><br /><p> कुञ्जीम् अन्वेष्टुं "
+"बहुविधाः उपायाः सन्ति, भवान् पाठस्य अथवा आंशिकपाठसन्धानस्य उपयोगं कर्तुं शक्नोति "
+"(उदाहरणम्: Phil अथवा Zimmerman इति प्रविष्ट्वा सर्वाणि कुञ्जीनि दृश्यन्ते येषु Phil अथवा "
+"Zimmerman दर्शयति) अथवा भवान् कुञ्जिकायाः ID&#39;s द्वारा अन्वेषणं कर्तुं शक्नोति कील-ID "
+"अक्षराणां सङ्ख्यानां च ताराः सन्ति ये कुञ्जीम् अद्वितीयरूपेण चिनोति (उदाहरणम्: 0xED7585F4 "
+"इत्यस्य अन्वेषणेन तया ID इत्यनेन सह सम्बद्धं कुञ्जी दृश्यते) ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: keyserver.ui:70
@@ -1659,12 +1629,11 @@ msgstr "निर्यात"
 #, kde-format
 msgid ""
 "<qt><b>Key to be exported:</b><br />\n"
-"<p>This allows the user to specify the key from the drop down list that will b"
-"e exported to the key server selected.</p></qt>"
+"<p>This allows the user to specify the key from the drop down list that will "
+"be exported to the key server selected.</p></qt>"
 msgstr ""
-"<qt><b>निर्यातनीया कुञ्जी : १.</b><br /><p> एतेन उपयोक्तारः ड्रॉप् डाउन "
-"सूचीतः कीलं निर्दिष्टुं शक्नोति यत् चयनितकुंजीसर्वरं प्रति निर्यातितं "
-"भविष्यति ।</p></qt>"
+"<qt><b>निर्यातनीया कुञ्जी : १.</b><br /><p> एतेन उपयोक्तारः ड्रॉप् डाउन सूचीतः कीलं "
+"निर्दिष्टुं शक्नोति यत् चयनितकुंजीसर्वरं प्रति निर्यातितं भविष्यति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
 #: keyserver.ui:194
@@ -1683,11 +1652,11 @@ msgstr "विशेषताः निर्यातयन्तु (photo id)
 #, kde-format
 msgid ""
 "<qt><b>Export:</b><br />\n"
-"<p>Pushing this button will export the specified key to the specified server.<"
-"/p></qt>"
+"<p>Pushing this button will export the specified key to the specified server."
+"</p></qt>"
 msgstr ""
-"<qt><b>निर्यात:</b><br /><p> एतत् बटन् धक्कायन् निर्दिष्टं कीलं "
-"निर्दिष्टसर्वरं प्रति निर्यातयिष्यति ।</p></qt>"
+"<qt><b>निर्यात:</b><br /><p> एतत् बटन् धक्कायन् निर्दिष्टं कीलं निर्दिष्टसर्वरं प्रति "
+"निर्यातयिष्यति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QPushButton, Buttonexport)
 #: keyserver.ui:269
@@ -1708,9 +1677,7 @@ msgstr "भवता अन्वेषणमालं प्रविष्ट�
 #: keyservers.cpp:104
 #, kde-format
 msgid "You need to configure keyservers before trying to download keys."
-msgstr ""
-"कीलानि अवतरणं कर्तुं प्रयत्नात् पूर्वं भवद्भिः कीसर्वर् विन्यस्तं कर्तव्यम् "
-"।"
+msgstr "कीलानि अवतरणं कर्तुं प्रयत्नात् पूर्वं भवद्भिः कीसर्वर् विन्यस्तं कर्तव्यम् ।"
 
 #: keyservers.cpp:105
 #, kde-format
@@ -2064,9 +2031,7 @@ msgstr "gpg प्रक्रिया न समाप्तवती। न�
 #: keysmanager.cpp:736
 #, kde-format
 msgid "You can only refresh primary keys. Please check your selection."
-msgstr ""
-"भवान् केवलं प्राथमिककुंजीः ताजगीं कर्तुं शक्नोति । कृपया स्वस्य चयनं "
-"पश्यन्तु।"
+msgstr "भवान् केवलं प्राथमिककुंजीः ताजगीं कर्तुं शक्नोति । कृपया स्वस्य चयनं पश्यन्तु।"
 
 #: keysmanager.cpp:860
 #, kde-format
@@ -2085,15 +2050,15 @@ msgstr "New User Id योजयतु"
 #: keysmanager.cpp:906
 #, kde-format
 msgid ""
-"The image must be a JPEG file. Remember that the image is stored within your"
-" public key, so if you use a very large picture, your key will become very "
+"The image must be a JPEG file. Remember that the image is stored within your "
+"public key, so if you use a very large picture, your key will become very "
 "large as well. The size should not exceed 6 KiB. An image size of around "
 "240x288 is a good size to use."
 msgstr ""
-"चित्रं JPEG सञ्चिका भवितुमर्हति । स्मर्यतां यत् चित्रं भवतः सार्वजनिककीलस्य "
-"अन्तः संगृहीतम् अस्ति, अतः यदि भवान् अतीव विशालं चित्रं उपयुङ्क्ते तर्हि "
-"भवतः कीलम् अपि अतीव विशालं भविष्यति । आकारः ६ किबी इत्यस्मात् अधिकः न भवेत् "
-"। २४०x२८८ इत्यस्य परितः चित्रस्य आकारः उपयोगाय उत्तमः आकारः अस्ति ।"
+"चित्रं JPEG सञ्चिका भवितुमर्हति । स्मर्यतां यत् चित्रं भवतः सार्वजनिककीलस्य अन्तः संगृहीतम् "
+"अस्ति, अतः यदि भवान् अतीव विशालं चित्रं उपयुङ्क्ते तर्हि भवतः कीलम् अपि अतीव विशालं "
+"भविष्यति । आकारः ६ किबी इत्यस्मात् अधिकः न भवेत् । २४०x२८८ इत्यस्य परितः चित्रस्य "
+"आकारः उपयोगाय उत्तमः आकारः अस्ति ।"
 
 #: keysmanager.cpp:938
 #, kde-format
@@ -2101,8 +2066,8 @@ msgid ""
 "<qt>Are you sure you want to delete Photo id <b>%1</b><br/>from key <b>%2 "
 "&lt;%3&gt;</b>?</qt>"
 msgstr ""
-"<qt>किं भवान् निश्चितः अस्ति यत् भवान् Photo id <b>%1</b> विलोपयितुम् "
-"इच्छति<br/> कुञ्जी <b>%2 &lt;%3&gt;</b> तः ?</qt>"
+"<qt>किं भवान् निश्चितः अस्ति यत् भवान् Photo id <b>%1</b> विलोपयितुम् इच्छति<br/> "
+"कुञ्जी <b>%2 &lt;%3&gt;</b> तः ?</qt>"
 
 #: keysmanager.cpp:1076
 #, kde-format
@@ -2237,9 +2202,9 @@ msgid ""
 "someone else can access this file, encryption with this key will be "
 "compromised.<br/>Continue key export?</qt>"
 msgstr ""
-"<qt>गुप्तकुंजीः असुरक्षितस्थाने <b>न</b> रक्षितव्याः।<br/> यदि अन्यः कोऽपि "
-"एतां सञ्चिकां प्राप्तुं शक्नोति तर्हि एतेन कीलेन सह एन्क्रिप्शनं "
-"क्षतिग्रस्तं भविष्यति ।<br/> कुञ्जी निर्यातं निरन्तरं कुर्वन्तु?</qt>"
+"<qt>गुप्तकुंजीः असुरक्षितस्थाने <b>न</b> रक्षितव्याः।<br/> यदि अन्यः कोऽपि एतां सञ्चिकां "
+"प्राप्तुं शक्नोति तर्हि एतेन कीलेन सह एन्क्रिप्शनं क्षतिग्रस्तं भविष्यति ।<br/> कुञ्जी निर्यातं "
+"निरन्तरं कुर्वन्तु?</qt>"
 
 #: keysmanager.cpp:1367
 #, kde-format
@@ -2254,11 +2219,11 @@ msgstr "*.asc|*.asc सञ्चिकाः"
 #: keysmanager.cpp:1385
 #, kde-format
 msgid ""
-"<qt>Your <b>private</b> key \"%1\" was successfully exported "
-"to<br/>%2.<br/><b>Do not</b> leave it in an insecure place.</qt>"
+"<qt>Your <b>private</b> key \"%1\" was successfully exported to<br/>%2.<br/"
+"><b>Do not</b> leave it in an insecure place.</qt>"
 msgstr ""
-"<qt>भवतः <b>निजकुंजी</b> &quot;%1&quot; सफलतया निर्यातितम्<br/> %2.<br/> "
-"असुरक्षिते स्थाने मा <b>त्यजन्तु</b> ।</qt>"
+"<qt>भवतः <b>निजकुंजी</b> &quot;%1&quot; सफलतया निर्यातितम्<br/> %2.<br/> असुरक्षिते "
+"स्थाने मा <b>त्यजन्तु</b> ।</qt>"
 
 #: keysmanager.cpp:1388
 #, kde-format
@@ -2288,12 +2253,11 @@ msgstr ""
 #: keysmanager.cpp:1632
 #, kde-format
 msgid ""
-"<p>This key is an orphaned secret key (secret key without public key.) It is"
-" currently not usable.</p><p>Would you like to regenerate the public "
-"key?</p>"
+"<p>This key is an orphaned secret key (secret key without public key.) It is "
+"currently not usable.</p><p>Would you like to regenerate the public key?</p>"
 msgstr ""
-"<p>इदं कुञ्जी अनाथं गुप्तकुंजी (सार्वजनिककुंजीविना गुप्तकुंजी।) सम्प्रति "
-"उपयोगी नास्ति ।</p><p> सार्वजनिककुंजी पुनः उत्पन्नं कर्तुम् इच्छति वा?</p>"
+"<p>इदं कुञ्जी अनाथं गुप्तकुंजी (सार्वजनिककुंजीविना गुप्तकुंजी।) सम्प्रति उपयोगी नास्ति ।</"
+"p><p> सार्वजनिककुंजी पुनः उत्पन्नं कर्तुम् इच्छति वा?</p>"
 
 #: keysmanager.cpp:1634
 #, kde-format
@@ -2308,8 +2272,7 @@ msgstr "न जनयतु"
 #: keysmanager.cpp:1664
 #, kde-format
 msgid "<qt>Are you sure you want to delete group <b>%1</b> ?</qt>"
-msgstr ""
-"<qt>किं भवान् निश्चितः यत् भवान् <b>%1</b> समूहं विलोपयितुम् इच्छति ?</qt>"
+msgstr "<qt>किं भवान् निश्चितः यत् भवान् <b>%1</b> समूहं विलोपयितुम् इच्छति ?</qt>"
 
 #: keysmanager.cpp:1665 keysmanager.cpp:2335
 #, kde-format
@@ -2319,11 +2282,10 @@ msgstr "लुप्"
 #: keysmanager.cpp:1695
 #, kde-format
 msgid ""
-"<qt>You cannot create a group containing signatures, subkeys or other "
-"groups.</qt>"
+"<qt>You cannot create a group containing signatures, subkeys or other groups."
+"</qt>"
 msgstr ""
-"<qt>हस्ताक्षराणि, उपकीलानि वा अन्यसमूहानि वा समाविष्टं समूहं निर्मातुं न "
-"शक्नुथ ।</qt>"
+"<qt>हस्ताक्षराणि, उपकीलानि वा अन्यसमूहानि वा समाविष्टं समूहं निर्मातुं न शक्नुथ ।</qt>"
 
 #: keysmanager.cpp:1710 kgpgrevokewidget.cpp:52
 #, kde-format
@@ -2348,8 +2310,8 @@ msgid ""
 "Following keys are not valid or not trusted and will not be added to the "
 "group:"
 msgstr ""
-"निम्नलिखित कीलानि वैधानि न सन्ति अथवा अविश्वसनीयाः सन्ति तथा च समूहे न "
-"योजिताः भविष्यन्ति:"
+"निम्नलिखित कीलानि वैधानि न सन्ति अथवा अविश्वसनीयाः सन्ति तथा च समूहे न योजिताः "
+"भविष्यन्ति:"
 
 #: keysmanager.cpp:1727
 #, kde-format
@@ -2357,8 +2319,8 @@ msgid ""
 "<qt>No valid or trusted key was selected. The group <b>%1</b> will not be "
 "created.</qt>"
 msgstr ""
-"<qt>कोऽपि वैधः विश्वसनीयः वा कुञ्जी न चयनितः । <b>%1 इति</b> समूहः न "
-"निर्मितः भविष्यति ।</qt>"
+"<qt>कोऽपि वैधः विश्वसनीयः वा कुञ्जी न चयनितः । <b>%1 इति</b> समूहः न निर्मितः "
+"भविष्यति ।</qt>"
 
 #: keysmanager.cpp:1739
 #, kde-format
@@ -2368,9 +2330,7 @@ msgstr "समूहगुणाः"
 #: keysmanager.cpp:1775
 #, kde-format
 msgid "You can only sign primary keys. Please check your selection."
-msgstr ""
-"भवान् केवलं प्राथमिककुंजीषु हस्ताक्षरं कर्तुं शक्नोति । कृपया स्वस्य चयनं "
-"पश्यन्तु।"
+msgstr "भवान् केवलं प्राथमिककुंजीषु हस्ताक्षरं कर्तुं शक्नोति । कृपया स्वस्य चयनं पश्यन्तु।"
 
 #: keysmanager.cpp:1784
 #, kde-format
@@ -2380,23 +2340,23 @@ msgid ""
 "or meeting the key owner to be sure that someone is not trying to intercept "
 "your communications.</qt>"
 msgstr ""
-"<qt>भवान् कुञ्जीम् हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> %1<br /> "
-"ID: %2<br /> अङ्गुलिचिह्नम् : १.<br /> <b>%3</b> .<br /><br /> भवन्तः "
-"कुञ्जी-अङ्गुलिचिह्नं कुञ्जी-स्वामिने दूरभाषेण वा मिलित्वा वा पश्यन्तु यत् "
-"कोऽपि भवतः संचारं अवरुद्धुं न प्रयतते इति सुनिश्चितं भवति ।</qt>"
+"<qt>भवान् कुञ्जीम् हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> %1<br /> ID: %2<br /> "
+"अङ्गुलिचिह्नम् : १.<br /> <b>%3</b> .<br /><br /> भवन्तः कुञ्जी-अङ्गुलिचिह्नं कुञ्जी-"
+"स्वामिने दूरभाषेण वा मिलित्वा वा पश्यन्तु यत् कोऽपि भवतः संचारं अवरुद्धुं न प्रयतते इति "
+"सुनिश्चितं भवति ।</qt>"
 
 #: keysmanager.cpp:1789
 #, kde-format
 msgid ""
-"<qt>You are about to sign key:<br /><br />%1 (%2)<br />ID: %3<br "
-"/>Fingerprint: <br /><b>%4</b>.<br /><br />You should check the key "
+"<qt>You are about to sign key:<br /><br />%1 (%2)<br />ID: %3<br /"
+">Fingerprint: <br /><b>%4</b>.<br /><br />You should check the key "
 "fingerprint by phoning or meeting the key owner to be sure that someone is "
 "not trying to intercept your communications.</qt>"
 msgstr ""
-"<qt>भवान् कुञ्जीम् हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> %1 (%2) "
-"२.<br /> ID: %3<br /> अङ्गुलिचिह्नम् : १.<br /> <b>%4</b> .<br /><br /> "
-"भवन्तः कुञ्जी-अङ्गुलिचिह्नं कुञ्जी-स्वामिने दूरभाषेण वा मिलित्वा वा पश्यन्तु"
-" यत् कोऽपि भवतः संचारं अवरुद्धुं न प्रयतते इति सुनिश्चितं भवति ।</qt>"
+"<qt>भवान् कुञ्जीम् हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> %1 (%2) २.<br /> ID: "
+"%3<br /> अङ्गुलिचिह्नम् : १.<br /> <b>%4</b> .<br /><br /> भवन्तः कुञ्जी-अङ्गुलिचिह्नं "
+"कुञ्जी-स्वामिने दूरभाषेण वा मिलित्वा वा पश्यन्तु यत् कोऽपि भवतः संचारं अवरुद्धुं न प्रयतते इति "
+"सुनिश्चितं भवति ।</qt>"
 
 #: keysmanager.cpp:1804 keysmanager.cpp:1888 kgpgfirstassistant.cpp:276
 #: model/keylistproxymodel.cpp:181
@@ -2414,47 +2374,46 @@ msgstr ""
 #: keysmanager.cpp:1812
 #, kde-format
 msgid ""
-"<qt>You are about to sign the following keys in one pass.<br/><b>If you have"
-" not carefully checked all fingerprints, the security of your communications"
-" may be compromised.</b></qt>"
+"<qt>You are about to sign the following keys in one pass.<br/><b>If you have "
+"not carefully checked all fingerprints, the security of your communications "
+"may be compromised.</b></qt>"
 msgstr ""
-"<qt>भवन्तः एकस्मिन् पास-मध्ये निम्नलिखित-कीलेषु हस्ताक्षरं कर्तुं प्रवृत्ताः"
-" सन्ति ।<br/> <b>यदि भवता सर्वाणि अङ्गुलिचिह्नानि सम्यक् न परीक्षितानि तर्हि"
-" भवतः संचारस्य सुरक्षा क्षतिग्रस्तः भवितुम् अर्हति ।</b></qt>"
+"<qt>भवन्तः एकस्मिन् पास-मध्ये निम्नलिखित-कीलेषु हस्ताक्षरं कर्तुं प्रवृत्ताः सन्ति ।<br/> "
+"<b>यदि भवता सर्वाणि अङ्गुलिचिह्नानि सम्यक् न परीक्षितानि तर्हि भवतः संचारस्य सुरक्षा "
+"क्षतिग्रस्तः भवितुम् अर्हति ।</b></qt>"
 
 #: keysmanager.cpp:1854 keysmanager.cpp:2001
 #, kde-format
 msgid "You can only sign user ids and photo ids. Please check your selection."
 msgstr ""
-"भवान् केवलं user ids तथा photo ids इत्यत्र हस्ताक्षरं कर्तुं शक्नोति। कृपया "
-"स्वस्य चयनं पश्यन्तु।"
+"भवान् केवलं user ids तथा photo ids इत्यत्र हस्ताक्षरं कर्तुं शक्नोति। कृपया स्वस्य चयनं "
+"पश्यन्तु।"
 
 #: keysmanager.cpp:1868
 #, kde-format
 msgid ""
-"<qt>You are about to sign user id:<br /><br />%1<br />ID: %2<br "
-"/>Fingerprint: <br /><b>%3</b>.<br /><br />You should check the key "
+"<qt>You are about to sign user id:<br /><br />%1<br />ID: %2<br /"
+">Fingerprint: <br /><b>%3</b>.<br /><br />You should check the key "
 "fingerprint by phoning or meeting the key owner to be sure that someone is "
 "not trying to intercept your communications.</qt>"
 msgstr ""
-"<qt>भवान् user id इत्यत्र हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> "
-"%1<br /> ID: %2<br /> अङ्गुलिचिह्नम् : १.<br /> <b>%3</b> .<br /><br /> "
-"भवन्तः कुञ्जी-अङ्गुलिचिह्नं कुञ्जी-स्वामिने दूरभाषेण वा मिलित्वा वा पश्यन्तु"
-" यत् कोऽपि भवतः संचारं अवरुद्धुं न प्रयतते इति सुनिश्चितं भवति ।</qt>"
+"<qt>भवान् user id इत्यत्र हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> %1<br /> ID: "
+"%2<br /> अङ्गुलिचिह्नम् : १.<br /> <b>%3</b> .<br /><br /> भवन्तः कुञ्जी-अङ्गुलिचिह्नं "
+"कुञ्जी-स्वामिने दूरभाषेण वा मिलित्वा वा पश्यन्तु यत् कोऽपि भवतः संचारं अवरुद्धुं न प्रयतते इति "
+"सुनिश्चितं भवति ।</qt>"
 
 #: keysmanager.cpp:1872
 #, kde-format
 msgid ""
-"<qt>You are about to sign user id:<br /><br />%1 (%2)<br />ID: %3<br "
-"/>Fingerprint: <br /><b>%4</b>.<br /><br />You should check the key "
+"<qt>You are about to sign user id:<br /><br />%1 (%2)<br />ID: %3<br /"
+">Fingerprint: <br /><b>%4</b>.<br /><br />You should check the key "
 "fingerprint by phoning or meeting the key owner to be sure that someone is "
 "not trying to intercept your communications.</qt>"
 msgstr ""
-"<qt>भवान् user id इत्यत्र हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> %1 "
-"(%2) २.<br /> ID: %3<br /> अङ्गुलिचिह्नम् : १.<br /> <b>%4</b> .<br /><br />"
-" भवन्तः कुञ्जी-अङ्गुलिचिह्नं कुञ्जी-स्वामिने दूरभाषेण वा मिलित्वा वा "
-"पश्यन्तु यत् कोऽपि भवतः संचारं अवरुद्धुं न प्रयतते इति सुनिश्चितं भवति "
-"।</qt>"
+"<qt>भवान् user id इत्यत्र हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति:<br /><br /> %1 (%2) २.<br /> "
+"ID: %3<br /> अङ्गुलिचिह्नम् : १.<br /> <b>%4</b> .<br /><br /> भवन्तः कुञ्जी-"
+"अङ्गुलिचिह्नं कुञ्जी-स्वामिने दूरभाषेण वा मिलित्वा वा पश्यन्तु यत् कोऽपि भवतः संचारं अवरुद्धुं न "
+"प्रयतते इति सुनिश्चितं भवति ।</qt>"
 
 #: keysmanager.cpp:1898
 #, kde-format
@@ -2463,10 +2422,9 @@ msgid ""
 "have not carefully checked all fingerprints, the security of your "
 "communications may be compromised.</b></qt>"
 msgstr ""
-"<qt>भवान् एकस्मिन् पास-मध्ये निम्नलिखित-उपयोक्तृ-ids-इत्येतत् हस्ताक्षरं "
-"कर्तुं प्रवृत्तः अस्ति ।<br/> <b>यदि भवता सर्वाणि अङ्गुलिचिह्नानि सम्यक् न "
-"परीक्षितानि तर्हि भवतः संचारस्य सुरक्षा क्षतिग्रस्तः भवितुम् अर्हति "
-"।</b></qt>"
+"<qt>भवान् एकस्मिन् पास-मध्ये निम्नलिखित-उपयोक्तृ-ids-इत्येतत् हस्ताक्षरं कर्तुं प्रवृत्तः अस्ति ।"
+"<br/> <b>यदि भवता सर्वाणि अङ्गुलिचिह्नानि सम्यक् न परीक्षितानि तर्हि भवतः संचारस्य "
+"सुरक्षा क्षतिग्रस्तः भवितुम् अर्हति ।</b></qt>"
 
 #: keysmanager.cpp:1967
 #, kde-format
@@ -2481,11 +2439,11 @@ msgstr "<qt><b>%1 (%2)</b> इति कीलं पूर्वमेव ह�
 #: keysmanager.cpp:1976
 #, kde-format
 msgid ""
-"<qt>Signing key <b>%1</b> with key <b>%2</b> failed.<br />Do you want to try"
-" signing the key in console mode?</qt>"
+"<qt>Signing key <b>%1</b> with key <b>%2</b> failed.<br />Do you want to try "
+"signing the key in console mode?</qt>"
 msgstr ""
-"<qt><b>%2</b> कुञ्जी सह <b>%1</b> कीलस्य हस्ताक्षरं विफलम् ।<br /> किं भवान्"
-" कन्सोल् मोड् मध्ये कीलस्य हस्ताक्षरं कर्तुं प्रयतितुं इच्छति?</qt>"
+"<qt><b>%2</b> कुञ्जी सह <b>%1</b> कीलस्य हस्ताक्षरं विफलम् ।<br /> किं भवान् कन्सोल् "
+"मोड् मध्ये कीलस्य हस्ताक्षरं कर्तुं प्रयतितुं इच्छति?</qt>"
 
 #: keysmanager.cpp:1978
 #, kde-format
@@ -2511,14 +2469,13 @@ msgid ""
 "<qt>Are you sure you want to delete signature<br /><b>%1</b><br />from user "
 "id <b>%2</b><br />of key: <b>%3</b>?</qt>"
 msgstr ""
-"<qt>किं भवन्तः निश्चितरूपेण हस्ताक्षरं विलोपयितुम् इच्छन्ति<br /> "
-"<b>%1</b><br /> उपयोक्तृ-id <b>%2</b> तः<br /> कीलस्य: <b>%3</b> ?</qt>"
+"<qt>किं भवन्तः निश्चितरूपेण हस्ताक्षरं विलोपयितुम् इच्छन्ति<br /> <b>%1</b><br /> उपयोक्तृ-"
+"id <b>%2</b> तः<br /> कीलस्य: <b>%3</b> ?</qt>"
 
 #: keysmanager.cpp:2207
 #, kde-format
 msgid "Requested operation was unsuccessful, please edit the key manually."
-msgstr ""
-"अनुरोधितं कार्यं असफलम् अभवत्, कृपया कुञ्जीम् मैन्युअल् रूपेण सम्पादयन्तु ।"
+msgstr "अनुरोधितं कार्यं असफलम् अभवत्, कृपया कुञ्जीम् मैन्युअल् रूपेण सम्पादयन्तु ।"
 
 #: keysmanager.cpp:2291
 #, kde-format
@@ -2526,8 +2483,8 @@ msgid ""
 "<qt>The key you are deleting is a member of the following key group. Do you "
 "want to remove it from this group?</qt>"
 msgid_plural ""
-"<qt>The key you are deleting is a member of the following key groups. Do you"
-" want to remove it from these groups?</qt>"
+"<qt>The key you are deleting is a member of the following key groups. Do you "
+"want to remove it from these groups?</qt>"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -2544,8 +2501,7 @@ msgid ""
 "You are removing the last key from key group %1.<br/>Do you want to delete "
 "the group, too?"
 msgstr ""
-"भवान् %1 कीलसमूहात् अन्तिमं कीलं निष्कासयति ।<br/> भवान् अपि समूहं "
-"विलोपयितुम् इच्छति वा ?"
+"भवान् %1 कीलसमूहात् अन्तिमं कीलं निष्कासयति ।<br/> भवान् अपि समूहं विलोपयितुम् इच्छति वा ?"
 
 #: keysmanager.cpp:2332
 #, kde-format
@@ -2553,9 +2509,8 @@ msgid ""
 "<p>Delete <b>secret</b> key pair <b>%1</b>?</p>Deleting this key pair means "
 "you will never be able to decrypt files encrypted with this key again."
 msgstr ""
-"<p><b>गुप्तकुंजीयुगलं</b> विलोपयन्तु <b>%1</b> ?</p> एतत् कीलयुगलं "
-"विलोपयितुं भवन्तः पुनः कदापि एतेन कीलेन गुप्तसञ्चिकाः विगुप्तं कर्तुं न "
-"शक्नुवन्ति इति अर्थः ।"
+"<p><b>गुप्तकुंजीयुगलं</b> विलोपयन्तु <b>%1</b> ?</p> एतत् कीलयुगलं विलोपयितुं भवन्तः पुनः "
+"कदापि एतेन कीलेन गुप्तसञ्चिकाः विगुप्तं कर्तुं न शक्नुवन्ति इति अर्थः ।"
 
 #: keysmanager.cpp:2343 keysmanager.cpp:2372
 #, kde-format
@@ -2579,17 +2534,15 @@ msgstr "<b>%1</b> कुञ्जी विलोपनं विफलम् �
 #: keysmanager.cpp:2386
 #, kde-format
 msgid "Can not delete key <b>%1</b> while it is edited in terminal."
-msgstr ""
-"टर्मिनल् मध्ये सम्पादितं भवति चेत् <b>%1</b> कीलं विलोपयितुं न शक्यते ।"
+msgstr "टर्मिनल् मध्ये सम्पादितं भवति चेत् <b>%1</b> कीलं विलोपयितुं न शक्यते ।"
 
 #: keysmanager.cpp:2427
 #, kde-format
 msgid ""
-"You have selected items that are not keys. They can not be deleted with this"
-" menu entry."
+"You have selected items that are not keys. They can not be deleted with this "
+"menu entry."
 msgstr ""
-"भवता तानि वस्तूनि चिनोति ये कीलानि न सन्ति । एतेन मेनूप्रविष्ट्या ते "
-"लोपयितुं न शक्यन्ते ।"
+"भवता तानि वस्तूनि चिनोति ये कीलानि न सन्ति । एतेन मेनूप्रविष्ट्या ते लोपयितुं न शक्यन्ते ।"
 
 #: keysmanager.cpp:2452
 #, kde-format
@@ -2597,8 +2550,8 @@ msgid ""
 "<qt>The following are secret key pairs:<br/><b>%1</b><br/>They will not be "
 "deleted.</qt>"
 msgstr ""
-"<qt>निम्नलिखित गुप्तकुंजीयुग्मानि सन्ति :<br/> <b>%1</b><br/> तेषां लोपः न "
-"भविष्यति।</qt>"
+"<qt>निम्नलिखित गुप्तकुंजीयुग्मानि सन्ति :<br/> <b>%1</b><br/> तेषां लोपः न भविष्यति।</"
+"qt>"
 
 #: keysmanager.cpp:2462
 #, kde-format
@@ -2623,9 +2576,8 @@ msgid ""
 "<qt>The text in the clipboard does not look like a key, but like encrypted "
 "text.<br />Do you want to decrypt it first and then try importing it?</qt>"
 msgstr ""
-"<qt>क्लिप्बोर्ड् मध्ये पाठः कील इव न दृश्यते, अपितु एन्क्रिप्टेड् पाठ इव "
-"दृश्यते ।<br /> किं भवन्तः प्रथमं तस्य विगुप्तीकरणं कर्तुम् इच्छन्ति ततः "
-"आयातं कर्तुं प्रयतन्ते?</qt>"
+"<qt>क्लिप्बोर्ड् मध्ये पाठः कील इव न दृश्यते, अपितु एन्क्रिप्टेड् पाठ इव दृश्यते ।<br /> किं "
+"भवन्तः प्रथमं तस्य विगुप्तीकरणं कर्तुम् इच्छन्ति ततः आयातं कर्तुं प्रयतन्ते?</qt>"
 
 #: keysmanager.cpp:2536
 #, kde-format
@@ -2706,8 +2658,8 @@ msgid ""
 "GnuPG failed to start.<br />You must fix the GnuPG error first before "
 "running KGpg."
 msgstr ""
-"GnuPG आरम्भं कर्तुं असफलम् अभवत् ।<br /> KGpg चालयितुं पूर्वं प्रथमं GnuPG "
-"त्रुटिं निश्चयितव्यम् ।"
+"GnuPG आरम्भं कर्तुं असफलम् अभवत् ।<br /> KGpg चालयितुं पूर्वं प्रथमं GnuPG त्रुटिं निश्चयितव्यम् "
+"।"
 
 #: kgpg.cpp:63
 #, kde-format
@@ -2718,15 +2670,14 @@ msgstr "GnuPG त्रुटिः"
 #, kde-format
 msgid ""
 "<qt>The use of <b>GnuPG Agent</b> is enabled in GnuPG's configuration file "
-"(%1).<br />However, the agent does not seem to be running. This could result"
-" in problems with signing/decryption.<br />Please disable GnuPG Agent from "
+"(%1).<br />However, the agent does not seem to be running. This could result "
+"in problems with signing/decryption.<br />Please disable GnuPG Agent from "
 "KGpg settings, or fix the agent.</qt>"
 msgstr ""
-"<qt><b>GnuPG Agent</b> इत्यस्य उपयोगः GnuPG इत्यस्य विन्याससञ्चिकायां (%1) "
-"सक्षमः अस्ति ।<br /> तथापि एजेण्टः न धावति इव दृश्यते । एतेन "
-"हस्ताक्षर/विगुप्तीकरणस्य समस्याः भवितुम् अर्हन्ति ।<br /> कृपया KGpg "
-"सेटिङ्ग्स् तः GnuPG Agent निष्क्रियं कुर्वन्तु, अथवा एजेण्ट् निश्चययन्तु "
-"।</qt>"
+"<qt><b>GnuPG Agent</b> इत्यस्य उपयोगः GnuPG इत्यस्य विन्याससञ्चिकायां (%1) सक्षमः "
+"अस्ति ।<br /> तथापि एजेण्टः न धावति इव दृश्यते । एतेन हस्ताक्षर/विगुप्तीकरणस्य समस्याः "
+"भवितुम् अर्हन्ति ।<br /> कृपया KGpg सेटिङ्ग्स् तः GnuPG Agent निष्क्रियं कुर्वन्तु, अथवा "
+"एजेण्ट् निश्चययन्तु ।</qt>"
 
 #: kgpg.cpp:121 kgpg.cpp:128 kgpg.cpp:135 kgpg.cpp:142
 #, kde-format
@@ -2752,12 +2703,11 @@ msgstr "पुटस्य सत्यापनं कर्तुं न श�
 #, kde-format
 msgid ""
 "Unable to perform requested operation.\n"
-"Please select only one folder, or several files, but do not mix files and fold"
-"ers."
+"Please select only one folder, or several files, but do not mix files and "
+"folders."
 msgstr ""
 "अनुरोधितं कार्यं कर्तुं असमर्थः।\n"
-"कृपया केवलम् एकं पुटं, अथवा अनेकाः सञ्चिकाः चिनोतु, परन्तु सञ्चिकाः, पुटं च न "
-"मिश्रयन्तु ।"
+"कृपया केवलम् एकं पुटं, अथवा अनेकाः सञ्चिकाः चिनोतु, परन्तु सञ्चिकाः, पुटं च न मिश्रयन्तु ।"
 
 #: kgpg.cpp:187
 #, kde-format
@@ -2798,49 +2748,48 @@ msgstr "सञ्चिकां उद्घाटयितुं"
 msgid ""
 "Hi,\n"
 "\n"
-"please find attached the user id '%UIDNAME%' of your key %KEYID% signed by me."
-" This mail is encrypted with that key to make sure you control both the email "
-"address and the key.\n"
+"please find attached the user id '%UIDNAME%' of your key %KEYID% signed by "
+"me. This mail is encrypted with that key to make sure you control both the "
+"email address and the key.\n"
 "\n"
-"If you have multiple user ids, I sent the signature for each user id separatel"
-"y to that user id's associated email address. You can import the signatures by"
-" running each through `gpg --import` after you have decrypted them with `gpg -"
-"-decrypt`.\n"
+"If you have multiple user ids, I sent the signature for each user id "
+"separately to that user id's associated email address. You can import the "
+"signatures by running each through `gpg --import` after you have decrypted "
+"them with `gpg --decrypt`.\n"
 "\n"
-"If you are using KGpg store the attachment to disk and then import it. Just se"
-"lect `Import Key...` from `Keys` menu and open the file.\n"
+"If you are using KGpg store the attachment to disk and then import it. Just "
+"select `Import Key...` from `Keys` menu and open the file.\n"
 "\n"
-"Note that I did not upload your key to any keyservers. If you want this new si"
-"gnature to be available to others, please upload it yourself. With GnuPG this "
-"can be done using gpg --keyserver subkeys.pgp.net --send-key %KEYID%.\n"
+"Note that I did not upload your key to any keyservers. If you want this new "
+"signature to be available to others, please upload it yourself. With GnuPG "
+"this can be done using gpg --keyserver subkeys.pgp.net --send-key %KEYID%.\n"
 "\n"
-"With KGpg you can right click on the key once you imported all user ids and ch"
-"oose `Export Public Key...`.\n"
+"With KGpg you can right click on the key once you imported all user ids and "
+"choose `Export Public Key...`.\n"
 "\n"
 "If you have any questions, don't hesitate to ask.\n"
 msgstr ""
 "नमस्कार,\n"
 "\n"
-"कृपया मया हस्ताक्षरितस्य भवतः कुञ्जी %KEYID% इत्यस्य उपयोक्तृ-id '%UIDNAME%' स"
-"ंलग्नं ज्ञातव्यम् । इदं मेल तया कुञ्जिकायाः सह गुप्तं भवति यत् भवान् ईमेल-सङ्क"
-"ेतं कुञ्जी च नियन्त्रयति इति सुनिश्चितं भवति ।\n"
+"कृपया मया हस्ताक्षरितस्य भवतः कुञ्जी %KEYID% इत्यस्य उपयोक्तृ-id '%UIDNAME%' संलग्नं "
+"ज्ञातव्यम् । इदं मेल तया कुञ्जिकायाः सह गुप्तं भवति यत् भवान् ईमेल-सङ्केतं कुञ्जी च नियन्त्रयति "
+"इति सुनिश्चितं भवति ।\n"
 "\n"
-"यदि भवतां समीपे बहुविधाः उपयोक्तृ-ids सन्ति तर्हि अहं प्रत्येकस्य उपयोक्तृ-id "
-"इत्यस्य हस्ताक्षरं पृथक् पृथक् तस्य उपयोक्तृ-id इत्यस्य सम्बद्धे ईमेल-सङ्केते "
-"प्रेषितवान् । `gpg --decrypt` इत्यनेन विगुप्तीकरणानन्तरं `gpg --import` इत्यस्"
-"य माध्यमेन प्रत्येकं चालयित्वा भवान् हस्ताक्षराणि आयातयितुं शक्नोति ।\n"
+"यदि भवतां समीपे बहुविधाः उपयोक्तृ-ids सन्ति तर्हि अहं प्रत्येकस्य उपयोक्तृ-id इत्यस्य "
+"हस्ताक्षरं पृथक् पृथक् तस्य उपयोक्तृ-id इत्यस्य सम्बद्धे ईमेल-सङ्केते प्रेषितवान् । `gpg --"
+"decrypt` इत्यनेन विगुप्तीकरणानन्तरं `gpg --import` इत्यस्य माध्यमेन प्रत्येकं चालयित्वा "
+"भवान् हस्ताक्षराणि आयातयितुं शक्नोति ।\n"
 "\n"
-"यदि भवान् KGpg इत्यस्य उपयोगं करोति तर्हि संलग्नकं डिस्क मध्ये संगृह्य ततः आया"
-"तं कुर्वन्तु । केवलं `Keys` मेन्यू तः `Import Key...` इति चित्वा सञ्चिकां उद्घ"
-"ाटयन्तु ।\n"
+"यदि भवान् KGpg इत्यस्य उपयोगं करोति तर्हि संलग्नकं डिस्क मध्ये संगृह्य ततः आयातं कुर्वन्तु । "
+"केवलं `Keys` मेन्यू तः `Import Key...` इति चित्वा सञ्चिकां उद्घाटयन्तु ।\n"
 "\n"
-"ध्यानं कुर्वन्तु यत् मया भवतः कुञ्जी कस्मिन् अपि कीलसर्वर् मध्ये अपलोड् न कृता"
-" । यदि भवान् इच्छति यत् एतत् नूतनं हस्ताक्षरं अन्येभ्यः उपलभ्यते तर्हि कृपया स"
-"्वयमेव अपलोड् कुर्वन्तु। GnuPG इत्यनेन एतत् gpg --keyserver subkeys.pgp.net --"
-"send-key %KEYID% इत्यस्य उपयोगेन कर्तुं शक्यते ।\n"
+"ध्यानं कुर्वन्तु यत् मया भवतः कुञ्जी कस्मिन् अपि कीलसर्वर् मध्ये अपलोड् न कृता । यदि भवान् "
+"इच्छति यत् एतत् नूतनं हस्ताक्षरं अन्येभ्यः उपलभ्यते तर्हि कृपया स्वयमेव अपलोड् कुर्वन्तु। GnuPG "
+"इत्यनेन एतत् gpg --keyserver subkeys.pgp.net --send-key %KEYID% इत्यस्य उपयोगेन "
+"कर्तुं शक्यते ।\n"
 "\n"
-"KGpg इत्यनेन भवान् एकवारं सर्वाणि user ids आयात्य कीलस्य उपरि राइट् क्लिक् कृत"
-"्वा `Export Public Key...` इति चिन्वतु ।\n"
+"KGpg इत्यनेन भवान् एकवारं सर्वाणि user ids आयात्य कीलस्य उपरि राइट् क्लिक् कृत्वा "
+"`Export Public Key...` इति चिन्वतु ।\n"
 "\n"
 "यदि भवतः किमपि प्रश्नं अस्ति तर्हि पृच्छितुं मा संकोचयन्तु।\n"
 
@@ -2974,9 +2923,7 @@ msgstr "कीलप्रबन्धके long key id दर्शयतु�
 #: kgpg.kcfg:110
 #, kde-format
 msgid "Show only keys with at least that trust level in key manager."
-msgstr ""
-"केवलं कुञ्जीप्रबन्धके न्यूनातिन्यूनं तत् विश्वासस्तरं युक्तानि कीलानि "
-"दर्शयन्तु ।"
+msgstr "केवलं कुञ्जीप्रबन्धके न्यूनातिन्यूनं तत् विश्वासस्तरं युक्तानि कीलानि दर्शयन्तु ।"
 
 #. i18n: ectx: label, entry (UseMouseSelection), group (User Interface)
 #: kgpg.kcfg:124
@@ -2996,8 +2943,7 @@ msgstr "KDE प्रारम्भे स्वयमेव KGpg आरभत 
 msgid ""
 "Display a warning before creating temporary files during remote file "
 "operations."
-msgstr ""
-"दूरस्थसञ्चिकासञ्चालनकाले अस्थायीसञ्चिकानिर्माणपूर्वं चेतावनी प्रदर्शयन्तु ।"
+msgstr "दूरस्थसञ्चिकासञ्चालनकाले अस्थायीसञ्चिकानिर्माणपूर्वं चेतावनी प्रदर्शयन्तु ।"
 
 #. i18n: ectx: label, entry (LeftClick), group (User Interface)
 #: kgpg.kcfg:136
@@ -3093,11 +3039,9 @@ msgstr "फॉन्ट्"
 #: kgpg.kcfg:241
 #, kde-format
 msgid ""
-"Key servers used by KGpg. The first server in the list is the default "
-"server."
+"Key servers used by KGpg. The first server in the list is the default server."
 msgstr ""
-"KGpg द्वारा प्रयुक्ताः मुख्यसर्वरः । सूचीयां प्रथमः सर्वरः पूर्वनिर्धारितः "
-"सर्वरः अस्ति ।"
+"KGpg द्वारा प्रयुक्ताः मुख्यसर्वरः । सूचीयां प्रथमः सर्वरः पूर्वनिर्धारितः सर्वरः अस्ति ।"
 
 #. i18n: ectx: label, entry (InfoServers), group (Servers)
 #: kgpg.kcfg:245
@@ -3106,8 +3050,8 @@ msgid ""
 "List of URLs that show details and analysis of the given key. The first "
 "server in the list is the default server."
 msgstr ""
-"दत्तस्य कीलस्य विवरणं विश्लेषणं च दर्शयन्ति इति URL-सूची । सूचीयां प्रथमः "
-"सर्वरः पूर्वनिर्धारितः सर्वरः अस्ति ।"
+"दत्तस्य कीलस्य विवरणं विश्लेषणं च दर्शयन्ति इति URL-सूची । सूचीयां प्रथमः सर्वरः "
+"पूर्वनिर्धारितः सर्वरः अस्ति ।"
 
 #. i18n: ectx: label, entry (UseProxy), group (Key Servers)
 #: kgpg.kcfg:252
@@ -3120,8 +3064,7 @@ msgstr "उपलब्धे HTTP प्रॉक्सी इत्यस्�
 #, kde-format
 msgid ""
 "This is the text of the email sent by the \"Sign and Mail User ID\" action."
-msgstr ""
-"एषः \"Sign and Mail User ID\" क्रियाद्वारा प्रेषितस्य ईमेलस्य पाठः अस्ति ।"
+msgstr "एषः \"Sign and Mail User ID\" क्रियाद्वारा प्रेषितस्य ईमेलस्य पाठः अस्ति ।"
 
 #: kgpgexternalactions.cpp:127
 #, kde-format
@@ -3136,13 +3079,12 @@ msgstr "अस्थायी सञ्चिकानिर्माणम्"
 #: kgpgexternalactions.cpp:132
 #, kde-format
 msgid ""
-"<qt>KGpg will now create a temporary archive file:<br /><b>%1</b> to process"
-" the encryption. The file will be deleted after the encryption is "
-"finished.</qt>"
+"<qt>KGpg will now create a temporary archive file:<br /><b>%1</b> to process "
+"the encryption. The file will be deleted after the encryption is finished.</"
+"qt>"
 msgstr ""
-"<qt>KGpg इदानीं अस्थायी संग्रहसञ्चिकां निर्मास्यति:<br /> <b>%1</b> "
-"एन्क्रिप्शनं संसाधितुं । एन्क्रिप्शन समाप्तस्य अनन्तरं सञ्चिका विलोपिता "
-"भविष्यति ।</qt>"
+"<qt>KGpg इदानीं अस्थायी संग्रहसञ्चिकां निर्मास्यति:<br /> <b>%1</b> एन्क्रिप्शनं संसाधितुं "
+"। एन्क्रिप्शन समाप्तस्य अनन्तरं सञ्चिका विलोपिता भविष्यति ।</qt>"
 
 #: kgpgexternalactions.cpp:148
 #, kde-format
@@ -3163,9 +3105,9 @@ msgid ""
 "some surprising results in KGpg's execution.<br />Would you like to start "
 "KGpg's assistant to fix this problem?</qt>"
 msgstr ""
-"<qt>भवान् स्वस्य GnuPG विन्याससञ्चिकायाः मार्गं न सेट् कृतवान् ।<br /> एतेन "
-"KGpg इत्यस्य निष्पादने केचन आश्चर्यजनकाः परिणामाः भवितुम् अर्हन्ति ।<br /> "
-"एतस्याः समस्यायाः निवारणाय KGpg इत्यस्य सहायकं आरभतुम् इच्छति वा?</qt>"
+"<qt>भवान् स्वस्य GnuPG विन्याससञ्चिकायाः मार्गं न सेट् कृतवान् ।<br /> एतेन KGpg इत्यस्य "
+"निष्पादने केचन आश्चर्यजनकाः परिणामाः भवितुम् अर्हन्ति ।<br /> एतस्याः समस्यायाः "
+"निवारणाय KGpg इत्यस्य सहायकं आरभतुम् इच्छति वा?</qt>"
 
 #: kgpgexternalactions.cpp:427
 #, kde-format
@@ -3189,10 +3131,9 @@ msgid ""
 "for KGpg to work properly. Next, it will allow you to create your own key "
 "pair, enabling you to encrypt your files and emails."
 msgstr ""
-"अयं सहायकः प्रथमं KGpg इत्यस्य सम्यक् कार्यं कर्तुं आवश्यकाः केचन "
-"मूलभूतविन्यासविकल्पाः सेट्अप करिष्यति । तदनन्तरं, एतत् भवन्तं स्वकीयं "
-"कीलयुगलं निर्मातुं शक्नोति, येन भवन्तः स्वसञ्चिकाः, ईमेल-पत्राणि च "
-"गुप्तीकरणं कर्तुं शक्नुवन्ति ।"
+"अयं सहायकः प्रथमं KGpg इत्यस्य सम्यक् कार्यं कर्तुं आवश्यकाः केचन मूलभूतविन्यासविकल्पाः सेट्अप "
+"करिष्यति । तदनन्तरं, एतत् भवन्तं स्वकीयं कीलयुगलं निर्मातुं शक्नोति, येन भवन्तः स्वसञ्चिकाः, "
+"ईमेल-पत्राणि च गुप्तीकरणं कर्तुं शक्नुवन्ति ।"
 
 #: kgpgfirstassistant.cpp:67
 #, kde-format
@@ -3210,8 +3151,7 @@ msgid ""
 "Unless you want to try some unusual settings, just click on the \"next\" "
 "button."
 msgstr ""
-"यावत् भवान् कानिचन असामान्यसेटिंग्स् प्रयतितुं इच्छति तावत् केवलं \"next\" "
-"इति बटन् नुदतु ।"
+"यावत् भवान् कानिचन असामान्यसेटिंग्स् प्रयतितुं इच्छति तावत् केवलं \"next\" इति बटन् नुदतु ।"
 
 #: kgpgfirstassistant.cpp:102
 #, kde-format
@@ -3227,8 +3167,7 @@ msgstr "सर्वाणि सञ्चिकानि"
 #: kgpgfirstassistant.cpp:134
 #, kde-format
 msgid "KGpg needs to know where your GnuPG configuration file is stored."
-msgstr ""
-"KGpg इत्यनेन ज्ञातव्यं यत् भवतः GnuPG विन्याससञ्चिका कुत्र संगृहीता अस्ति ।"
+msgstr "KGpg इत्यनेन ज्ञातव्यं यत् भवतः GnuPG विन्याससञ्चिका कुत्र संगृहीता अस्ति ।"
 
 #: kgpgfirstassistant.cpp:149
 #, kde-format
@@ -3266,8 +3205,8 @@ msgid ""
 "<qt><b>The GnuPG configuration file was not found</b>. Should KGpg try to "
 "create a config file ?</qt>"
 msgstr ""
-"<qt><b>GnuPG विन्याससञ्चिका न प्राप्ता</b> . KGpg इत्यनेन विन्याससञ्चिकां "
-"निर्मातुं प्रयतितव्यम् वा ?</qt>"
+"<qt><b>GnuPG विन्याससञ्चिका न प्राप्ता</b> . KGpg इत्यनेन विन्याससञ्चिकां निर्मातुं "
+"प्रयतितव्यम् वा ?</qt>"
 
 #: kgpgfirstassistant.cpp:241
 #, kde-format
@@ -3305,8 +3244,8 @@ msgid ""
 "Your GnuPG version (%1) seems to be too old.<br />Compatibility with "
 "versions before 1.4.0 is no longer guaranteed."
 msgstr ""
-"भवतः GnuPG संस्करणं (%1) अतीव पुरातनं दृश्यते ।<br /> 1.4.0 इत्यस्मात् "
-"पूर्वं संस्करणैः सह संगततायाः गारण्टी नास्ति ।"
+"भवतः GnuPG संस्करणं (%1) अतीव पुरातनं दृश्यते ।<br /> 1.4.0 इत्यस्मात् पूर्वं संस्करणैः सह "
+"संगततायाः गारण्टी नास्ति ।"
 
 #: kgpginterface.cpp:269
 #, kde-format
@@ -3328,8 +3267,8 @@ msgstr "Expert Mode इत्यत्र गच्छन्तु"
 msgid ""
 "If you go to expert mode, you will use the command line to create your key."
 msgstr ""
-"यदि भवान् expert mode मध्ये गच्छति तर्हि भवान् स्वस्य कीलस्य निर्माणार्थं "
-"आदेशपङ्क्तिं उपयुज्यते ।"
+"यदि भवान् expert mode मध्ये गच्छति तर्हि भवान् स्वस्य कीलस्य निर्माणार्थं आदेशपङ्क्तिं "
+"उपयुज्यते ।"
 
 #: kgpgkeygenerate.cpp:57
 #, kde-format
@@ -3394,11 +3333,9 @@ msgstr "&नामः:"
 #: kgpgkeygenerate.ui:42
 #, kde-format
 msgid ""
-"The name must have a length of at least 5 characters and must not begin with"
-" a digit."
-msgstr ""
-"नामस्य दीर्घता न्यूनातिन्यूनं ५ वर्णाः भवितुमर्हति, अङ्केन आरम्भः न "
-"भवितुमर्हति ।"
+"The name must have a length of at least 5 characters and must not begin with "
+"a digit."
+msgstr "नामस्य दीर्घता न्यूनातिन्यूनं ५ वर्णाः भवितुमर्हति, अङ्केन आरम्भः न भवितुमर्हति ।"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, m_kname)
 #: kgpgkeygenerate.ui:45
@@ -3558,9 +3495,9 @@ msgid ""
 "the key. However, it should not be relied upon as the only form of "
 "authentication.</p></qt>"
 msgstr ""
-"<qt><b>चित्रं:</b><p> अतिरिक्तसुरक्षायै सार्वजनिककुंजीसहितं फोटो समाविष्टं "
-"कर्तुं शक्यते । कीलस्य प्रमाणीकरणस्य अतिरिक्तविधिरूपेण फोटो उपयोक्तुं शक्यते"
-" । तथापि प्रमाणमात्ररूपत्वेन न अवलम्बनीयम् ।</p></qt>"
+"<qt><b>चित्रं:</b><p> अतिरिक्तसुरक्षायै सार्वजनिककुंजीसहितं फोटो समाविष्टं कर्तुं शक्यते । "
+"कीलस्य प्रमाणीकरणस्य अतिरिक्तविधिरूपेण फोटो उपयोक्तुं शक्यते । तथापि प्रमाणमात्ररूपत्वेन न "
+"अवलम्बनीयम् ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QLabel, m_photo)
 #: kgpgKeyInfo.ui:313
@@ -3656,8 +3593,8 @@ msgid ""
 "Cannot create configuration file. Please check if destination media is "
 "mounted and if you have write access."
 msgstr ""
-"विन्याससञ्चिकां निर्मातुं न शक्यते । कृपया गन्तव्यमाध्यमं माउण्ट् कृतम् "
-"अस्ति वा, भवतः लेखनप्रवेशः अस्ति वा इति पश्यन्तु ।"
+"विन्याससञ्चिकां निर्मातुं न शक्यते । कृपया गन्तव्यमाध्यमं माउण्ट् कृतम् अस्ति वा, भवतः "
+"लेखनप्रवेशः अस्ति वा इति पश्यन्तु ।"
 
 #: kgpgoptions.cpp:199
 #, kde-format
@@ -3939,12 +3876,11 @@ msgstr "अङ्गुलिचिह्नम् : १."
 #, kde-format
 msgid ""
 "<qt><b>Set as your default key:</b><br />\n"
-"<p>Checking this option sets the newly created key pair as the default key pai"
-"r.</p></qt>"
+"<p>Checking this option sets the newly created key pair as the default key "
+"pair.</p></qt>"
 msgstr ""
-"<qt><b>भवतः पूर्वनिर्धारितकुंजीरूपेण सेट् कुर्वन्तु:</b><br /><p> एतत् "
-"विकल्पं परीक्ष्य नवनिर्मितं कीलयुग्मं पूर्वनिर्धारितकुंजीयुगलरूपेण सेट् भवति"
-" ।</p></qt>"
+"<qt><b>भवतः पूर्वनिर्धारितकुंजीरूपेण सेट् कुर्वन्तु:</b><br /><p> एतत् विकल्पं परीक्ष्य "
+"नवनिर्मितं कीलयुग्मं पूर्वनिर्धारितकुंजीयुगलरूपेण सेट् भवति ।</p></qt>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, CBdefault)
 #: newkey.ui:140
@@ -3962,11 +3898,9 @@ msgstr "निरस्तीकरण प्रमाण पत्र"
 #: newkey.ui:158
 #, kde-format
 msgid ""
-"It is recommended to save or print a revocation certificate in case your key"
-" is compromised."
-msgstr ""
-"भवतः कुञ्जी क्षतिग्रस्ता भवति चेत् निरसनप्रमाणपत्रं रक्षितुं मुद्रयितुं वा "
-"अनुशंसितम् ।"
+"It is recommended to save or print a revocation certificate in case your key "
+"is compromised."
+msgstr "भवतः कुञ्जी क्षतिग्रस्ता भवति चेत् निरसनप्रमाणपत्रं रक्षितुं मुद्रयितुं वा अनुशंसितम् ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, CBsave)
 #: newkey.ui:170
@@ -4034,32 +3968,29 @@ msgstr "&अन्वेषण: "
 #, kde-format
 msgid ""
 "<b>Public keys list</b>: select the key that will be used for encryption."
-msgstr ""
-"<b>Public keys list</b> : एन्क्रिप्शनार्थं यत् कुञ्जी उपयुज्यते तत् चिनोतु ।"
+msgstr "<b>Public keys list</b> : एन्क्रिप्शनार्थं यत् कुञ्जी उपयुज्यते तत् चिनोतु ।"
 
 #: selectpublickeydialog.cpp:107
 #, kde-format
 msgid ""
-"<b>ASCII encryption</b>: makes it possible to open the encrypted "
-"file/message in a text editor"
+"<b>ASCII encryption</b>: makes it possible to open the encrypted file/"
+"message in a text editor"
 msgstr ""
-"<b>ASCII एन्क्रिप्शन</b> : एन्क्रिप्टेड् सञ्चिकां/सन्देशं पाठसम्पादके "
-"उद्घाटयितुं सम्भवं करोति"
+"<b>ASCII एन्क्रिप्शन</b> : एन्क्रिप्टेड् सञ्चिकां/सन्देशं पाठसम्पादके उद्घाटयितुं सम्भवं करोति"
 
 #: selectpublickeydialog.cpp:115
 #, kde-format
 msgid ""
 "<b>Allow encryption with untrusted keys</b>: when you import a public key, "
 "it is usually marked as untrusted and you cannot use it unless you sign it "
-"in order to make it 'trusted'. Checking this box enables you to use any key,"
-" even if it has not be signed."
+"in order to make it 'trusted'. Checking this box enables you to use any key, "
+"even if it has not be signed."
 msgstr ""
-"<b>अविश्वसनीयकुंजीभिः सह एन्क्रिप्शनं अनुमन्यताम्</b> : यदा भवान् "
-"सार्वजनिककुंजीम् आयातयति तदा सामान्यतया अविश्वसनीयरूपेण चिह्नितं भवति तथा च "
-"यावत् भवन्तः तस्य उपयोगं कर्तुं न शक्नुवन्ति यावत् भवन्तः तत् "
-"&#39;विश्वसनीयम्&#39; कर्तुं हस्ताक्षरं न कुर्वन्ति एतत् पेटीम् चेक् कृत्वा "
-"भवन्तः कस्यापि कीलस्य उपयोगं कर्तुं समर्थाः भवन्ति, यद्यपि तस्य हस्ताक्षरं न"
-" कृतम् अस्ति ।"
+"<b>अविश्वसनीयकुंजीभिः सह एन्क्रिप्शनं अनुमन्यताम्</b> : यदा भवान् सार्वजनिककुंजीम् आयातयति "
+"तदा सामान्यतया अविश्वसनीयरूपेण चिह्नितं भवति तथा च यावत् भवन्तः तस्य उपयोगं कर्तुं न "
+"शक्नुवन्ति यावत् भवन्तः तत् &#39;विश्वसनीयम्&#39; कर्तुं हस्ताक्षरं न कुर्वन्ति एतत् पेटीम् चेक् "
+"कृत्वा भवन्तः कस्यापि कीलस्य उपयोगं कर्तुं समर्थाः भवन्ति, यद्यपि तस्य हस्ताक्षरं न कृतम् अस्ति "
+"।"
 
 #: selectpublickeydialog.cpp:122
 #, kde-format
@@ -4069,10 +4000,9 @@ msgid ""
 "traffic analysis. It may slow down the decryption process because all "
 "available secret keys are tried."
 msgstr ""
-"<b>Hide user ID</b> : keyid इत्येतत् एन्क्रिप्टेड् पैकेट् मध्ये न स्थापयन्तु"
-" । एषः विकल्पः सन्देशस्य ग्राहकं गोपयति, यातायातविश्लेषणस्य प्रतिकारः च "
-"अस्ति । एतत् विगुप्तीकरणप्रक्रियां मन्दं कर्तुं शक्नोति यतोहि सर्वाणि "
-"उपलब्धानि गुप्तकुञ्जीनि प्रयतन्ते ।"
+"<b>Hide user ID</b> : keyid इत्येतत् एन्क्रिप्टेड् पैकेट् मध्ये न स्थापयन्तु । एषः विकल्पः "
+"सन्देशस्य ग्राहकं गोपयति, यातायातविश्लेषणस्य प्रतिकारः च अस्ति । एतत् विगुप्तीकरणप्रक्रियां "
+"मन्दं कर्तुं शक्नोति यतोहि सर्वाणि उपलब्धानि गुप्तकुञ्जीनि प्रयतन्ते ।"
 
 #: selectpublickeydialog.cpp:126
 #, kde-format
@@ -4085,8 +4015,8 @@ msgid ""
 "<b>Symmetrical encryption</b>: encryption does not use keys. You just need "
 "to give a password to encrypt/decrypt the file"
 msgstr ""
-"<b>सममितगोपनम्</b> : एन्क्रिप्शनं कुञ्जीनां उपयोगं न करोति । सञ्चिकां "
-"एन्क्रिप्ट्/विक्रिप्ट् कर्तुं केवलं भवद्भिः गुप्तशब्दं दातव्यम्"
+"<b>सममितगोपनम्</b> : एन्क्रिप्शनं कुञ्जीनां उपयोगं न करोति । सञ्चिकां एन्क्रिप्ट्/विक्रिप्ट् "
+"कर्तुं केवलं भवद्भिः गुप्तशब्दं दातव्यम्"
 
 #: selectpublickeydialog.cpp:142
 #, kde-format
@@ -4099,8 +4029,8 @@ msgid ""
 "<b>Custom option</b>: for experienced users only, allows you to enter a gpg "
 "command line option, like: '--armor'"
 msgstr ""
-"<b>Custom option</b> : केवलं अनुभविनां उपयोक्तृणां कृते, gpg "
-"आदेशपङ्क्तिविकल्पं प्रविष्टुं शक्नोति, यथा: &#39;--armor&#39;."
+"<b>Custom option</b> : केवलं अनुभविनां उपयोक्तृणां कृते, gpg आदेशपङ्क्तिविकल्पं प्रविष्टुं "
+"शक्नोति, यथा: &#39;--armor&#39;."
 
 #: selectsecretkey.cpp:35
 #, kde-format
@@ -4164,9 +4094,7 @@ msgstr "&कीसर्वरः : १."
 #, kde-format
 msgid ""
 "Enter the ids or fingerprints of the keys to import as space separated list."
-msgstr ""
-"स्पेस पृथक्कृतसूचीरूपेण आयातयितुं कीलानां ids अथवा अङ्गुलिचिह्नानि "
-"प्रविशन्तु ।"
+msgstr "स्पेस पृथक्कृतसूचीरूपेण आयातयितुं कीलानां ids अथवा अङ्गुलिचिह्नानि प्रविशन्तु ।"
 
 #: transactions/kgpgaddphoto.cpp:38
 #, kde-format
@@ -4194,9 +4122,8 @@ msgid ""
 "<qt>Enter new passphrase for <b>%1</b><br />If you forget this passphrase "
 "all your encrypted files and messages will be inaccessible.</qt>"
 msgstr ""
-"<qt><b>%1</b> कृते नूतनं गुप्तवाक्यं प्रविशन्तु<br /> यदि भवान् एतत् "
-"गुप्तवाक्यं विस्मरति तर्हि भवतः सर्वाणि गुप्तसञ्चिकाः सन्देशाः च दुर्गमाः "
-"भविष्यन्ति ।</qt>"
+"<qt><b>%1</b> कृते नूतनं गुप्तवाक्यं प्रविशन्तु<br /> यदि भवान् एतत् गुप्तवाक्यं विस्मरति तर्हि "
+"भवतः सर्वाणि गुप्तसञ्चिकाः सन्देशाः च दुर्गमाः भविष्यन्ति ।</qt>"
 
 #: transactions/kgpgdecrypt.cpp:110
 #, kde-format
@@ -4218,11 +4145,11 @@ msgstr "%1 कृते नूतनं कुञ्जी जनयति"
 #: transactions/kgpggeneratekey.cpp:125
 #, kde-format
 msgid ""
-"<p><b>Enter passphrase for %1 &lt;%2&gt;</b>:<br />Passphrase should include"
-" non alphanumeric characters and random sequences.</p>"
+"<p><b>Enter passphrase for %1 &lt;%2&gt;</b>:<br />Passphrase should include "
+"non alphanumeric characters and random sequences.</p>"
 msgstr ""
-"<p><b>%1 &lt;%2&gt; कृते गुप्तवाक्यं प्रविशतु</b> :<br /> गुप्तवाक्ये "
-"अवर्णसंख्यायुक्ताः वर्णाः यादृच्छिकक्रमाः च समाविष्टाः भवेयुः ।</p>"
+"<p><b>%1 &lt;%2&gt; कृते गुप्तवाक्यं प्रविशतु</b> :<br /> गुप्तवाक्ये अवर्णसंख्यायुक्ताः "
+"वर्णाः यादृच्छिकक्रमाः च समाविष्टाः भवेयुः ।</p>"
 
 #: transactions/kgpggeneratekey.cpp:128
 #, kde-format
@@ -4230,8 +4157,8 @@ msgid ""
 "<p><b>Enter passphrase for %1</b>:<br />Passphrase should include non "
 "alphanumeric characters and random sequences.</p>"
 msgstr ""
-"<p><b>%1 कृते गुप्तवाक्यं प्रविशतु</b> :<br /> गुप्तवाक्ये "
-"अवर्णसंख्यायुक्ताः वर्णाः यादृच्छिकक्रमाः च समाविष्टाः भवेयुः ।</p>"
+"<p><b>%1 कृते गुप्तवाक्यं प्रविशतु</b> :<br /> गुप्तवाक्ये अवर्णसंख्यायुक्ताः वर्णाः "
+"यादृच्छिकक्रमाः च समाविष्टाः भवेयुः ।</p>"
 
 #: transactions/kgpggeneratekey.cpp:139
 #, kde-format
@@ -4262,14 +4189,13 @@ msgstr "एन्ट्रोपी प्रतीक्षते"
 #, kde-format
 msgid ""
 "The entropy pool ran empty. The key generation process is stalled until "
-"enough entropy is present. You can generate entropy e.g. by moving the mouse"
-" or typing at the keyboard. The easiest way is by using another application "
+"enough entropy is present. You can generate entropy e.g. by moving the mouse "
+"or typing at the keyboard. The easiest way is by using another application "
 "until the key generation continues."
 msgstr ""
-"एन्ट्रोपी-कुण्डः रिक्तः धावितः । कुञ्जीजननप्रक्रिया यावत् पर्याप्तं "
-"एन्ट्रोपी न भवति तावत् स्थगितम् अस्ति । भवान् एन्ट्रोपी जनयितुं शक्नोति उदा."
-" मूषकं चालयित्वा कीबोर्ड् मध्ये टङ्कयित्वा वा । सुलभतमः उपायः अन्यस्य "
-"अनुप्रयोगस्य उपयोगेन यावत् कीलजननं निरन्तरं न भवति ।"
+"एन्ट्रोपी-कुण्डः रिक्तः धावितः । कुञ्जीजननप्रक्रिया यावत् पर्याप्तं एन्ट्रोपी न भवति तावत् "
+"स्थगितम् अस्ति । भवान् एन्ट्रोपी जनयितुं शक्नोति उदा. मूषकं चालयित्वा कीबोर्ड् मध्ये "
+"टङ्कयित्वा वा । सुलभतमः उपायः अन्यस्य अनुप्रयोगस्य उपयोगेन यावत् कीलजननं निरन्तरं न भवति ।"
 
 #: transactions/kgpggeneratekey.cpp:206
 #, kde-format
@@ -4405,11 +4331,10 @@ msgstr[1] ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para><emphasis strong='true'>You have imported a secret "
-"key.</emphasis><nl/>Please note that imported secret keys are not trusted by"
-" default.<nl/>To fully use this secret key for signing and encryption, you "
-"must edit the key (double click on it) and set its trust to Full or "
-"Ultimate.</para>"
+"<para><emphasis strong='true'>You have imported a secret key.</emphasis><nl/"
+">Please note that imported secret keys are not trusted by default.<nl/>To "
+"fully use this secret key for signing and encryption, you must edit the key "
+"(double click on it) and set its trust to Full or Ultimate.</para>"
 msgstr ""
 
 #: transactions/kgpgimport.cpp:175
@@ -4514,16 +4439,16 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info Good signature from: NAME , Key ID: HEXID"
 msgid ""
-"<para>Good signature from:<nl/><emphasis strong='true'>%1</emphasis><nl/>Key"
-" ID: %2<nl/></para>"
+"<para>Good signature from:<nl/><emphasis strong='true'>%1</emphasis><nl/>Key "
+"ID: %2<nl/></para>"
 msgstr ""
 
 #: transactions/kgpgverify.cpp:126
 #, kde-kuit-format
 msgctxt "@info Good signature from: NAME <EMAIL>, Key ID: HEXID"
 msgid ""
-"<para>Good signature from:<nl/><emphasis strong='true'>%1 "
-"<email>%2</email></emphasis><nl/>Key ID: %3</para>"
+"<para>Good signature from:<nl/><emphasis strong='true'>%1 <email>%2</email></"
+"emphasis><nl/>Key ID: %3</para>"
 msgstr ""
 
 #: transactions/kgpgverify.cpp:139
@@ -4536,25 +4461,25 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Good signature from:<nl/><emphasis strong='true'>%1</emphasis><nl/>Key"
-" ID: %2<nl/></para>"
+"<para>Good signature from:<nl/><emphasis strong='true'>%1</emphasis><nl/>Key "
+"ID: %2<nl/></para>"
 msgstr ""
 
 #: transactions/kgpgverify.cpp:160
 #, kde-kuit-format
 msgctxt "@info Good signature from: NAME <EMAIL>, Key ID: HEXID"
 msgid ""
-"<para>Good signature from:<nl/><emphasis strong='true'>%1 "
-"<email>%2</email></emphasis><nl/>Key ID: %3<nl/></para>"
+"<para>Good signature from:<nl/><emphasis strong='true'>%1 <email>%2</email></"
+"emphasis><nl/>Key ID: %3<nl/></para>"
 msgstr ""
 
 #: transactions/kgpgverify.cpp:172
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para><emphasis strong='true'>BAD signature</emphasis> from:<nl/> %1<nl/>Key"
-" ID: %2<nl/><nl/><emphasis strong='true'>The file is "
-"corrupted</emphasis></para>"
+"<para><emphasis strong='true'>BAD signature</emphasis> from:<nl/> %1<nl/>Key "
+"ID: %2<nl/><nl/><emphasis strong='true'>The file is corrupted</emphasis></"
+"para>"
 msgstr ""
 
 #: transactions/kgpgverify.cpp:175

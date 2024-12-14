@@ -42,8 +42,7 @@ msgstr "<refname>&create_makefiles;</refname> इति"
 #: man-create_makefiles.1.docbook:19
 #, no-c-format
 msgid "Recreates all <filename>Makefile</filename>s beneath a directory"
-msgstr ""
-"निर्देशिकायाः अधः सर्वाणि <filename>Makefile</filename>s पुनः निर्माति"
+msgstr "निर्देशिकायाः अधः सर्वाणि <filename>Makefile</filename>s पुनः निर्माति"
 
 #. Tag: cmdsynopsis
 #: man-create_makefiles.1.docbook:23
@@ -66,9 +65,8 @@ msgid ""
 "corresponding <filename>Makefile.am</filename> templates."
 msgstr ""
 "&create_makefiles; <replaceable>dir</replaceable> इत्यस्मिन् सर्वाणि "
-"<filename>Makefile</filename>s तथा तस्य (पुनरावृत्तिः) उपनिर्देशिकाः "
-"तत्सम्बद्धेभ्यः <filename>Makefile.am</filename> टेम्पलेट् इत्यस्मात् पुनः "
-"सृजति ।"
+"<filename>Makefile</filename>s तथा तस्य (पुनरावृत्तिः) उपनिर्देशिकाः तत्सम्बद्धेभ्यः "
+"<filename>Makefile.am</filename> टेम्पलेट् इत्यस्मात् पुनः सृजति ।"
 
 #. Tag: para
 #: man-create_makefiles.1.docbook:38
@@ -78,8 +76,8 @@ msgid ""
 "configure). This script saves time compared to re-running configure "
 "completely."
 msgstr ""
-"इयं स्क्रिप्ट् toplevel निर्देशिकातः (configure युक्तात्) चालनीया । एषा "
-"स्क्रिप्ट् पूर्णतया विन्यासस्य पुनः चालनस्य तुलने समयस्य रक्षणं करोति ।"
+"इयं स्क्रिप्ट् toplevel निर्देशिकातः (configure युक्तात्) चालनीया । एषा स्क्रिप्ट् पूर्णतया "
+"विन्यासस्य पुनः चालनस्य तुलने समयस्य रक्षणं करोति ।"
 
 #. Tag: para
 #: man-create_makefiles.1.docbook:42
@@ -88,14 +86,13 @@ msgid ""
 "If the source directory is different from the build directory (see the "
 "environment variables below), it will be assumed that each "
 "<filename>Makefile.am</filename> and <filename>Makefile.in</filename> "
-"belongs beneath the source directory and that each "
-"<filename>Makefile</filename> belongs beneath the build directory."
+"belongs beneath the source directory and that each <filename>Makefile</"
+"filename> belongs beneath the build directory."
 msgstr ""
-"यदि स्रोतनिर्देशिका निर्माणनिर्देशिकातः भिन्ना अस्ति (अधः वातावरणचराः "
-"पश्यन्तु), तर्हि प्रत्येकं <filename>Makefile.am</filename> तथा "
-"<filename>Makefile.in</filename> इत्येतत् स्रोतनिर्देशिकायाः अधः अस्ति इति "
-"कल्प्यते तथा च प्रत्येकं <filename>Makefile</filename> निर्माणनिर्देशिकायाः "
-"अधः अस्ति इति ।"
+"यदि स्रोतनिर्देशिका निर्माणनिर्देशिकातः भिन्ना अस्ति (अधः वातावरणचराः पश्यन्तु), तर्हि "
+"प्रत्येकं <filename>Makefile.am</filename> तथा <filename>Makefile.in</filename> "
+"इत्येतत् स्रोतनिर्देशिकायाः अधः अस्ति इति कल्प्यते तथा च प्रत्येकं <filename>Makefile</"
+"filename> निर्माणनिर्देशिकायाः अधः अस्ति इति ।"
 
 #. Tag: para
 #: man-create_makefiles.1.docbook:49
@@ -118,10 +115,9 @@ msgid ""
 "simply a subdirectory of the source directory, the simpler variable "
 "<envar>OBJ_SUBDIR</envar> should be used."
 msgstr ""
-"यदि स्रोतनिर्देशिका build निर्देशिकातः भिन्ना अस्ति तर्हि निम्नलिखितचरानाम् "
-"एकः (किन्तु उभयत्र न) सेट् कर्तव्यः । यदि build निर्देशिका केवलं "
-"स्रोतनिर्देशिकायाः उपनिर्देशिका अस्ति तर्हि सरलतरं चरं "
-"<envar>OBJ_SUBDIR</envar> उपयोक्तव्यम् ।"
+"यदि स्रोतनिर्देशिका build निर्देशिकातः भिन्ना अस्ति तर्हि निम्नलिखितचरानाम् एकः (किन्तु "
+"उभयत्र न) सेट् कर्तव्यः । यदि build निर्देशिका केवलं स्रोतनिर्देशिकायाः उपनिर्देशिका अस्ति "
+"तर्हि सरलतरं चरं <envar>OBJ_SUBDIR</envar> उपयोक्तव्यम् ।"
 
 #. Tag: envar
 #: man-create_makefiles.1.docbook:62
@@ -134,18 +130,16 @@ msgstr "OBJ_SUBJDIR"
 #, no-c-format
 msgid ""
 "Indicates that the build directory is in the given subdirectory of the "
-"source directory. For instance, if the source directory is <filename "
-"class=\"directory\">kdesdk</filename> and the build directory is <filename "
-"class=\"directory\">kdesdk/obj-i386-linux</filename>, then "
-"<envar>OBJ_SUBDIR</envar> should be set to "
-"<parameter>obj-i386-linux</parameter>."
+"source directory. For instance, if the source directory is <filename class="
+"\"directory\">kdesdk</filename> and the build directory is <filename class="
+"\"directory\">kdesdk/obj-i386-linux</filename>, then <envar>OBJ_SUBDIR</"
+"envar> should be set to <parameter>obj-i386-linux</parameter>."
 msgstr ""
-"build directory स्रोतनिर्देशिकायाः दत्ते उपनिर्देशिकायां अस्ति इति सूचयति । "
-"यथा, यदि स्रोतनिर्देशिका <filename class=\"directory\">kdesdk</filename> "
-"अस्ति तथा च निर्माणनिर्देशिका <filename "
-"class=\"directory\">kdesdk/obj-i386-linux</filename> अस्ति, तर्हि <envar> "
-"OBJ_SUBDIR</envar> इत्येतत् <parameter>obj-i386-linux</parameter> इति सेट् "
-"कर्तव्यम् ।"
+"build directory स्रोतनिर्देशिकायाः दत्ते उपनिर्देशिकायां अस्ति इति सूचयति । यथा, यदि "
+"स्रोतनिर्देशिका <filename class=\"directory\">kdesdk</filename> अस्ति तथा च "
+"निर्माणनिर्देशिका <filename class=\"directory\">kdesdk/obj-i386-linux</"
+"filename> अस्ति, तर्हि <envar> OBJ_SUBDIR</envar> इत्येतत् <parameter>obj-i386-"
+"linux</parameter> इति सेट् कर्तव्यम् ।"
 
 #. Tag: envar
 #: man-create_makefiles.1.docbook:66
@@ -158,16 +152,15 @@ msgstr "OBJ_REPLACEMENT इति"
 #, no-c-format
 msgid ""
 "A <command>sed</command> expression that is used to transform the source "
-"directory into the build directory. For instance, if the source directory is"
-" <filename class=\"directory\">kdesdk/obj-i386-linux</filename>, then "
+"directory into the build directory. For instance, if the source directory is "
+"<filename class=\"directory\">kdesdk/obj-i386-linux</filename>, then "
 "<envar>OBJ_REPLACEMENT</envar> should be set to <parameter>s#kdesdk#kdesdk-"
 "obj#</parameter>."
 msgstr ""
-"एकं <command>sed</command> व्यञ्जनं यत् स्रोतनिर्देशिकायाः "
-"निर्माणनिर्देशिकायां परिवर्तनार्थं उपयुज्यते । यथा, यदि स्रोतनिर्देशिका "
-"<filename class=\"directory\">kdesdk/obj-i386-linux</filename> अस्ति, तर्हि "
-"<envar>OBJ_REPLACEMENT</envar> इति <parameter>s#kdesdk#kdesdk- इति सेट् "
-"कर्तव्यम् । obj#</parameter> इति ।"
+"एकं <command>sed</command> व्यञ्जनं यत् स्रोतनिर्देशिकायाः निर्माणनिर्देशिकायां "
+"परिवर्तनार्थं उपयुज्यते । यथा, यदि स्रोतनिर्देशिका <filename class=\"directory"
+"\">kdesdk/obj-i386-linux</filename> अस्ति, तर्हि <envar>OBJ_REPLACEMENT</"
+"envar> इति <parameter>s#kdesdk#kdesdk- इति सेट् कर्तव्यम् । obj#</parameter> इति ।"
 
 #. Tag: title
 #: man-create_makefiles.1.docbook:74
@@ -197,12 +190,10 @@ msgstr "&create_makefiles; लिखितः आसीत् &David.Faure; &ड
 #: man-create_makefiles.1.docbook:85
 #, no-c-format
 msgid ""
-"This manual page was prepared by "
-"<personname><firstname>Ben</firstname><surname>Burton</surname></personname>"
-" <email>bab@debian.org</email> for the Debian GNU/Linux system (but may be "
-"used by others)."
+"This manual page was prepared by <personname><firstname>Ben</"
+"firstname><surname>Burton</surname></personname> <email>bab@debian.org</"
+"email> for the Debian GNU/Linux system (but may be used by others)."
 msgstr ""
-"इदं पुस्तिकापृष्ठं "
-"<personname><firstname>Ben</firstname><surname>Burton</surname></personname>"
-" <email>bab@debian.org</email> इत्यनेन Debian GNU/Linux प्रणाल्याः कृते "
-"(किन्तु... अन्यैः प्रयुक्तः स्यात्) ।"
+"इदं पुस्तिकापृष्ठं <personname><firstname>Ben</firstname><surname>Burton</"
+"surname></personname> <email>bab@debian.org</email> इत्यनेन Debian GNU/Linux "
+"प्रणाल्याः कृते (किन्तु... अन्यैः प्रयुक्तः स्यात्) ।"

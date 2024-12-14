@@ -161,9 +161,7 @@ msgstr "कैनबस सॉकेट अभिगमः"
 #: flatpakpermission.cpp:855
 #, kde-format
 msgid "Share dev/shm across all instances of an app per user ID"
-msgstr ""
-"प्रति उपयोक्तृ-ID एकस्य एप्-इत्यस्य सर्वेषु उदाहरणेषु dev/shm साझां "
-"कुर्वन्तु"
+msgstr "प्रति उपयोक्तृ-ID एकस्य एप्-इत्यस्य सर्वेषु उदाहरणेषु dev/shm साझां कुर्वन्तु"
 
 #: flatpakpermission.cpp:913
 #, kde-format
@@ -260,6 +258,18 @@ msgstr "नूतनं वातावरणचरं योजयन्तु"
 msgid "Set Environment Variable"
 msgstr "पर्यावरण चर सेट् करें"
 
+#: ui/AddEnvironmentVariableDialog.qml:34
+#, kde-format
+msgctxt "@label:textbox name of environment variable"
+msgid "Name:"
+msgstr "नामः:"
+
+#: ui/AddEnvironmentVariableDialog.qml:45
+#, kde-format
+msgctxt "@label:textbox value of environment variable"
+msgid "Value:"
+msgstr "मूल्यम्‌:"
+
 #: ui/main.qml:19
 #, kde-format
 msgid "Flatpak Applications"
@@ -276,8 +286,8 @@ msgid ""
 "The permissions of application %1 have been changed. Do you want to apply "
 "these changes or discard them?"
 msgstr ""
-"अनुप्रयोगस्य %1 इत्यस्य अनुमतिः परिवर्तिता अस्ति । किं भवन्तः एतान् "
-"परिवर्तनान् प्रयोक्तुं इच्छन्ति वा परित्यक्तुं इच्छन्ति वा?"
+"अनुप्रयोगस्य %1 इत्यस्य अनुमतिः परिवर्तिता अस्ति । किं भवन्तः एतान् परिवर्तनान् प्रयोक्तुं "
+"इच्छन्ति वा परित्यक्तुं इच्छन्ति वा?"
 
 #: ui/permissions.qml:22
 #, kde-format
@@ -333,15 +343,3 @@ msgstr "सत्रबसनाम प्रविष्टं कुर्व�
 #, kde-format
 msgid "Enter system bus name:"
 msgstr "सिस्टम् बसनाम प्रविष्टं कुर्वन्तु:"
-
-#: ui/AddEnvironmentVariableDialog.qml:34
-#, kde-format
-msgctxt "@label:textbox name of environment variable"
-msgid "Name:"
-msgstr "नामः:"
-
-#: ui/AddEnvironmentVariableDialog.qml:45
-#, kde-format
-msgctxt "@label:textbox value of environment variable"
-msgid "Value:"
-msgstr "मूल्यम्‌:"

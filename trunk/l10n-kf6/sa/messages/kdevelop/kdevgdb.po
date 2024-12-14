@@ -53,9 +53,11 @@ msgstr ""
 msgctxt "@info:whatsthis"
 msgid ""
 "<b>Custom format string</b>\n"
-"<p>Specify a C-style format string that will be used when printing the chosen expression. For example:\n"
+"<p>Specify a C-style format string that will be used when printing the "
+"chosen expression. For example:\n"
 "<p align=\"center\"> <tt>Tracepoint 1: g = %d</tt></p>\n"
-"If custom format string is not enabled, names and values of all expressions will be printed, using \"%d\" as format specifier for all expressions."
+"If custom format string is not enabled, names and values of all expressions "
+"will be printed, using \"%d\" as format specifier for all expressions."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, expressionsLabel)
@@ -71,7 +73,9 @@ msgstr ""
 msgctxt "@info:whatthis"
 msgid ""
 "<b>Enable tracing</b>\n"
-"<p>Tracing is a mechanism to automatically print values of the chosen expressions and continue execution when breakpoint is hit. You can think of it as printf debugging that does not require modifying the source.</p>"
+"<p>Tracing is a mechanism to automatically print values of the chosen "
+"expressions and continue execution when breakpoint is hit. You can think of "
+"it as printf debugging that does not require modifying the source.</p>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enable)
@@ -94,8 +98,8 @@ msgid ""
 "No environment profile specified, looks like a broken configuration, please "
 "check run configuration '%1'. Using default environment profile."
 msgstr ""
-"कोऽपि वातावरणप्रोफाइलः निर्दिष्टः नास्ति, भग्नविन्यासः इव दृश्यते, कृपया "
-"'%1' चालनविन्यासं परीक्ष्यताम् । पूर्वनिर्धारितपर्यावरणरूपरेखायाः उपयोगेन।"
+"कोऽपि वातावरणप्रोफाइलः निर्दिष्टः नास्ति, भग्नविन्यासः इव दृश्यते, कृपया '%1' "
+"चालनविन्यासं परीक्ष्यताम् । पूर्वनिर्धारितपर्यावरणरूपरेखायाः उपयोगेन।"
 
 #: debugsession.cpp:272
 #, kde-format
@@ -115,11 +119,11 @@ msgstr "<b>त्रुटिनिवारणं आरभ्यतुं न 
 #: debugsession.cpp:322
 #, kde-format
 msgid ""
-"<b>Failed to load core file</b><p>Debugger reported the following "
-"error:<p><tt>%1"
+"<b>Failed to load core file</b><p>Debugger reported the following error:"
+"<p><tt>%1"
 msgstr ""
-"<b>कोर सञ्चिकां लोड् कर्तुं असफलम्</b><p> Debugger इत्यनेन निम्नलिखितदोषः "
-"निवेदितः ।<p> <tt>%1</tt>"
+"<b>कोर सञ्चिकां लोड् कर्तुं असफलम्</b><p> Debugger इत्यनेन निम्नलिखितदोषः निवेदितः ।<p> "
+"<tt>%1</tt>"
 
 #: gdb.cpp:68
 #, kde-format
@@ -138,8 +142,8 @@ msgid ""
 "A program is already being debugged. Do you want to abort the currently "
 "running debug session and continue with the launch?"
 msgstr ""
-"पूर्वमेव एकः कार्यक्रमः त्रुटिनिवारणं क्रियते । किं भवान् वर्तमानं चालितं "
-"त्रुटिनिवारणसत्रं निरस्तं कृत्वा प्रक्षेपणं निरन्तरं कर्तुम् इच्छति?"
+"पूर्वमेव एकः कार्यक्रमः त्रुटिनिवारणं क्रियते । किं भवान् वर्तमानं चालितं त्रुटिनिवारणसत्रं "
+"निरस्तं कृत्वा प्रक्षेपणं निरन्तरं कर्तुम् इच्छति?"
 
 #: gdbconfigpage.cpp:140
 #, kde-format
@@ -185,8 +189,7 @@ msgid ""
 "executable."
 msgstr ""
 
-#. i18n: ectx: property (placeholderText), widget (KUrlRequester,
-#. kcfg_gdbPath)
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, kcfg_gdbPath)
 #: gdbconfigpage.ui:54
 #, kde-format
 msgctxt "@info:placeholder"
@@ -200,12 +203,11 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid ""
 "<html><head/><body><p>If you want gdb to be executed by a special shell "
-"script, which for example properly sets the library path, insert it here "
-"e.g.: /path/to/script.sh --scriptArguments</p><p>Note: your script'll be "
-"invoked like this: /path/to/script.sh --scriptArguments debugger "
-"--debuggerArguments. So script.sh <span style=\" font-"
-"weight:600;\">must</span> invoke &quot;debugger&quot; executable "
-"manually.</p></body></html>"
+"script, which for example properly sets the library path, insert it here e."
+"g.: /path/to/script.sh --scriptArguments</p><p>Note: your script'll be "
+"invoked like this: /path/to/script.sh --scriptArguments debugger --"
+"debuggerArguments. So script.sh <span style=\" font-weight:600;\">must</"
+"span> invoke &quot;debugger&quot; executable manually.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, debuggingShell_label)
@@ -229,8 +231,7 @@ msgctxt "@option:check"
 msgid "Display static &members:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_displayStaticMembers)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_displayStaticMembers)
 #: gdbconfigpage.ui:111
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -293,7 +294,8 @@ msgstr ""
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"This script is intended for the actual commands needed to connect to a remotely running executable.\n"
+"This script is intended for the actual commands needed to connect to a "
+"remotely running executable.\n"
 "\tshell sleep 5\twait for remote program to start\n"
 "\ttarget remote ...\tconnect to the remote debugger\n"
 "\tcontinue\t[optional] run debugging to the first breakpoint"
@@ -313,12 +315,12 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid ""
 "<html><head/><body><p>Script to start remote application</p><p></p><p>This "
-"shell script is run after the Gdb Config script has been sourced by "
-"gdb.</p><p>It's purpose is to actually start the remote process.</p><p>1) "
-"Find a way to execute a command remotely - rsh, ssh, telnet, ...</p><p>2a) "
-"Execute &quot;gdbserver ... application&quot; on target.</p><p>or if your "
-"executable contains the gdb stub:</p><p>2b) Execute &quot;application&quot; "
-"on target.</p></body></html>"
+"shell script is run after the Gdb Config script has been sourced by gdb.</"
+"p><p>It's purpose is to actually start the remote process.</p><p>1) Find a "
+"way to execute a command remotely - rsh, ssh, telnet, ...</p><p>2a) Execute "
+"&quot;gdbserver ... application&quot; on target.</p><p>or if your executable "
+"contains the gdb stub:</p><p>2b) Execute &quot;application&quot; on target.</"
+"p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, runShellScript_label)
@@ -329,8 +331,7 @@ msgid "R&un shell script:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, configGdbScript_label)
-#. i18n: ectx: property (toolTip), widget (KUrlRequester,
-#. kcfg_configGdbScript)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_configGdbScript)
 #: gdbconfigpage.ui:210 gdbconfigpage.ui:249
 #, kde-format
 msgctxt "@info:tooltip"
@@ -351,10 +352,9 @@ msgstr ""
 msgctxt "@info:tooltip"
 msgid ""
 "<html><head/><body><p>Script to connect with remote application</p><p>For "
-"example:</p><p>\tshell sleep 5\t #wait for remote program to "
-"start</p><p>\ttarget remote ...\t#connect to the remote "
-"debugger</p><p>\tcontinue\t#[optional] run debugging to the first "
-"breakpoint.</p></body></html>"
+"example:</p><p>\tshell sleep 5\t #wait for remote program to start</p><p>"
+"\ttarget remote ...\t#connect to the remote debugger</p><p>\tcontinue"
+"\t#[optional] run debugging to the first breakpoint.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, runGdbScript_label)
@@ -400,9 +400,9 @@ msgstr ""
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Controls if commands issued internally by KDevelop will be shown or "
-"not.<br>This option will affect only future commands, it will not add or "
-"remove already issued commands from the view."
+"Controls if commands issued internally by KDevelop will be shown or not."
+"<br>This option will affect only future commands, it will not add or remove "
+"already issued commands from the view."
 msgstr ""
 
 #: gdboutputwidget.cpp:381

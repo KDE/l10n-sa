@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
@@ -13,8 +13,13 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: AddTextRangeCommand.cpp:19 AddTextRangeCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Add text range"
+msgstr "पाठपरिधिं योजयन्तु"
 
 #: ArtisticTextShapeFactory.cpp:17
 #, kde-format
@@ -106,6 +111,11 @@ msgstr "सम्पादनं समाप्तुं escape नुदन्
 msgid "Press return to finish editing."
 msgstr "सम्पादनं समाप्तुं return नुदन्तु ।"
 
+#: ArtisticTextTool.cpp:588
+msgctxt "(qtundo-format)"
+msgid "Convert to Path"
+msgstr "मार्गे परिवर्तनं कुर्वन्तु"
+
 #: ArtisticTextTool.cpp:601
 #, kde-format
 msgid "Text Properties"
@@ -120,16 +130,6 @@ msgstr "पाठः On Path इति"
 #, kde-format
 msgid "Artistic text editing"
 msgstr "कलात्मक पाठ सम्पादन"
-
-#: AddTextRangeCommand.cpp:19 AddTextRangeCommand.cpp:29
-msgctxt "(qtundo-format)"
-msgid "Add text range"
-msgstr "पाठपरिधिं योजयन्तु"
-
-#: ArtisticTextTool.cpp:588
-msgctxt "(qtundo-format)"
-msgid "Convert to Path"
-msgstr "मार्गे परिवर्तनं कुर्वन्तु"
 
 #: AttachTextToPathCommand.cpp:17
 msgctxt "(qtundo-format)"

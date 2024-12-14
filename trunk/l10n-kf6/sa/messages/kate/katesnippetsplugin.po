@@ -78,8 +78,7 @@ msgstr "&सञ्चिकाप्रकाराः : १."
 msgid "A short name for the repository"
 msgstr "भण्डारस्य लघुनाम"
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit,
-#. repoNamespaceEdit)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, repoNamespaceEdit)
 #: editrepository.ui:103
 #, kde-format
 msgid "Prefix to show in code completion"
@@ -98,17 +97,14 @@ msgstr "भण्डार %1 मध्ये नूतनं स्निपे
 #: editsnippet.cpp:146
 #, kde-format
 msgid "Snippet names with spaces may not work well in completions"
-msgstr ""
-"रिक्तस्थानयुक्तानि स्निपेट्-नामानि समाप्तिषु सम्यक् कार्यं न कर्तुं "
-"शक्नुवन्ति"
+msgstr "रिक्तस्थानयुक्तानि स्निपेट्-नामानि समाप्तिषु सम्यक् कार्यं न कर्तुं शक्नुवन्ति"
 
 #: editsnippet.cpp:186
 #, kde-format
 msgid ""
 "The snippet contains unsaved changes. Do you want to discard all changes?"
 msgstr ""
-"स्निपेट् मध्ये अरक्षिताः परिवर्तनाः सन्ति । किं भवन्तः सर्वान् परिवर्तनान् "
-"परित्यक्तुं इच्छन्ति ?"
+"स्निपेट् मध्ये अरक्षिताः परिवर्तनाः सन्ति । किं भवन्तः सर्वान् परिवर्तनान् परित्यक्तुं इच्छन्ति ?"
 
 #: editsnippet.cpp:187
 #, kde-format
@@ -136,33 +132,33 @@ msgstr "&स्निपेट्"
 #: editsnippet.ui:68
 #, kde-format
 msgid ""
-"The text your snippet will insert into the document. <a href=\"A snippet can"
-" contain editable fields. They can be cycled by pressing Tab. The following "
-"expressions can be used in the template text to create fields: "
-"<br><tt>${field_name}</tt> creates a simple, editable field. All subsequent "
-"occurrences of the same field_name create fields which mirror the contents "
-"of the first during editing.<br><tt>${field_name=default}</tt> can be used "
-"to specify a default value for the field. <tt>default</tt> can be any "
-"JavaScript expression.<br>Use <tt>${field_name=text}</tt> to specify a fixed"
-" string as default value.<br><tt>${func(other_field1, other_field2, "
-"...)}</tt> can be used to create a field which evaluates a JavaScript "
-"function on each edit and contains its contents. See the Scripts tab for "
-"more information.<br><tt>${cursor}</tt> can be used to mark the end position"
-" of the cursor after everything else was filled in.\">More...</a>"
-msgstr ""
-"भवतः स्निपेट् यत् पाठं दस्तावेजे निवेशयिष्यति । <a href=\"A snippet can "
+"The text your snippet will insert into the document. <a href=\"A snippet can "
 "contain editable fields. They can be cycled by pressing Tab. The following "
-"expressions can be used in the template text to create fields: "
-"<br><tt>${field_name}</tt> creates a simple, editable field. All subsequent "
+"expressions can be used in the template text to create fields: <br><tt>"
+"${field_name}</tt> creates a simple, editable field. All subsequent "
 "occurrences of the same field_name create fields which mirror the contents "
 "of the first during editing.<br><tt>${field_name=default}</tt> can be used "
 "to specify a default value for the field. <tt>default</tt> can be any "
-"JavaScript expression.<br>Use <tt>${field_name=text}</tt> to specify a fixed"
-" string as default value.<br><tt>${func(other_field1, other_field2, "
-"...)}</tt> can be used to create a field which evaluates a JavaScript "
-"function on each edit and contains its contents. See the Scripts tab for "
-"more information.<br><tt>${cursor}</tt> can be used to mark the end position"
-" of the cursor after everything else was filled in.\">अधिकः...</a>"
+"JavaScript expression.<br>Use <tt>${field_name=text}</tt> to specify a fixed "
+"string as default value.<br><tt>${func(other_field1, other_field2, ...)}</"
+"tt> can be used to create a field which evaluates a JavaScript function on "
+"each edit and contains its contents. See the Scripts tab for more "
+"information.<br><tt>${cursor}</tt> can be used to mark the end position of "
+"the cursor after everything else was filled in.\">More...</a>"
+msgstr ""
+"भवतः स्निपेट् यत् पाठं दस्तावेजे निवेशयिष्यति । <a href=\"A snippet can contain "
+"editable fields. They can be cycled by pressing Tab. The following "
+"expressions can be used in the template text to create fields: <br><tt>"
+"${field_name}</tt> creates a simple, editable field. All subsequent "
+"occurrences of the same field_name create fields which mirror the contents "
+"of the first during editing.<br><tt>${field_name=default}</tt> can be used "
+"to specify a default value for the field. <tt>default</tt> can be any "
+"JavaScript expression.<br>Use <tt>${field_name=text}</tt> to specify a fixed "
+"string as default value.<br><tt>${func(other_field1, other_field2, ...)}</"
+"tt> can be used to create a field which evaluates a JavaScript function on "
+"each edit and contains its contents. See the Scripts tab for more "
+"information.<br><tt>${cursor}</tt> can be used to mark the end position of "
+"the cursor after everything else was filled in.\">अधिकः...</a>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, scriptTab)
 #: editsnippet.ui:82
@@ -174,33 +170,33 @@ msgstr "S&cripts"
 #: editsnippet.ui:88
 #, kde-format
 msgid ""
-"Write down JavaScript helper functions to use in your snippets here. <a "
-"href=\"All JavaScript functions should return the contents you want to place"
-" in a template field as a string.<br>Functions are called in a scope which "
+"Write down JavaScript helper functions to use in your snippets here. <a href="
+"\"All JavaScript functions should return the contents you want to place in a "
+"template field as a string.<br>Functions are called in a scope which "
 "contains the contents of all editable template fields as local variables. "
 "For example in a snippet containing <tt>${field}</tt>, a variable called "
-"<tt>field</tt> will be present which contains the up-to-date contents of the"
-" template field. Those variables can either be used in the function "
+"<tt>field</tt> will be present which contains the up-to-date contents of the "
+"template field. Those variables can either be used in the function "
 "statically or passed as arguments, by using the <tt>${func(field)}</tt> or "
 "<tt>${field2=func(field)}</tt> syntax in the snippet string.<br>You can use "
 "the kate scripting API to get the selected text, full text, file name and "
-"more by using the appropriate methods of the <tt>document</tt> and "
-"<tt>view</tt> objects. Refer to the scripting API documentation for more "
-"information.\">More...</a>"
+"more by using the appropriate methods of the <tt>document</tt> and <tt>view</"
+"tt> objects. Refer to the scripting API documentation for more information."
+"\">More...</a>"
 msgstr ""
-"अत्र स्वस्य स्निपेट् मध्ये उपयोक्तुं JavaScript helper functions लिखन्तु । "
-"<a href=\"All JavaScript functions should return the contents you want to "
-"place in a template field as a string.<br>Functions are called in a scope "
-"which contains the contents of all editable template fields as local "
-"variables. For example in a snippet containing <tt>${field}</tt>, a variable"
-" called <tt>field</tt> will be present which contains the up-to-date "
-"contents of the template field. Those variables can either be used in the "
-"function statically or passed as arguments, by using the "
-"<tt>${func(field)}</tt> or <tt>${field2=func(field)}</tt> syntax in the "
-"snippet string.<br>You can use the kate scripting API to get the selected "
-"text, full text, file name and more by using the appropriate methods of the "
-"<tt>document</tt> and <tt>view</tt> objects. Refer to the scripting API "
-"documentation for more information.\">अधिकः...</a>"
+"अत्र स्वस्य स्निपेट् मध्ये उपयोक्तुं JavaScript helper functions लिखन्तु । <a href=\"All "
+"JavaScript functions should return the contents you want to place in a "
+"template field as a string.<br>Functions are called in a scope which "
+"contains the contents of all editable template fields as local variables. "
+"For example in a snippet containing <tt>${field}</tt>, a variable called "
+"<tt>field</tt> will be present which contains the up-to-date contents of the "
+"template field. Those variables can either be used in the function "
+"statically or passed as arguments, by using the <tt>${func(field)}</tt> or "
+"<tt>${field2=func(field)}</tt> syntax in the snippet string.<br>You can use "
+"the kate scripting API to get the selected text, full text, file name and "
+"more by using the appropriate methods of the <tt>document</tt> and <tt>view</"
+"tt> objects. Refer to the scripting API documentation for more information."
+"\">अधिकः...</a>"
 
 #. i18n: ectx: property (text), widget (QPushButton, dotest_button)
 #: editsnippet.ui:105
@@ -244,12 +240,11 @@ msgstr "<रिक्तं भण्डारः>"
 #, kde-format
 msgid ""
 "You have edited a snippet repository file not located in your personal "
-"directory; as such, a copy of the original file has been created within your"
-" personal data directory."
+"directory; as such, a copy of the original file has been created within your "
+"personal data directory."
 msgstr ""
-"भवता स्वस्य व्यक्तिगतनिर्देशिकायां न स्थिता स्निपेट् भण्डारसञ्चिका "
-"सम्पादिता; तथा च, भवतः व्यक्तिगतदत्तांशनिर्देशिकायाः अन्तः मूलसञ्चिकायाः "
-"प्रतिलिपिः निर्मितः अस्ति ।"
+"भवता स्वस्य व्यक्तिगतनिर्देशिकायां न स्थिता स्निपेट् भण्डारसञ्चिका सम्पादिता; तथा च, भवतः "
+"व्यक्तिगतदत्तांशनिर्देशिकायाः अन्तः मूलसञ्चिकायाः प्रतिलिपिः निर्मितः अस्ति ।"
 
 #: snippetrepository.cpp:239
 #, kde-format
@@ -265,9 +260,7 @@ msgstr "स्निपेट् भण्डारं %1 उद्घाटय�
 #, kde-format
 msgid ""
 "<qt>The error <b>%4</b><br /> has been detected in the file %1 at %2/%3</qt>"
-msgstr ""
-"<qt><b>%4</b> इति त्रुटिः<br /> %2/%3 इत्यत्र %1 सञ्चिकायां ज्ञातम् "
-"अस्ति</qt>"
+msgstr "<qt><b>%4</b> इति त्रुटिः<br /> %2/%3 इत्यत्र %1 सञ्चिकायां ज्ञातम् अस्ति</qt>"
 
 #: snippetrepository.cpp:292
 #, kde-format
@@ -277,11 +270,9 @@ msgstr "अमान्य XML स्निपेट् सञ्चिका: %
 #: snippetrepository.cpp:354
 #, kde-format
 msgid ""
-"Repository is disabled, the contained snippets will not be shown during "
-"code-completion."
-msgstr ""
-"भण्डारः अक्षमः अस्ति, समाविष्टाः स्निपेट् कोड-समाप्तेः समये न दर्शिताः "
-"भविष्यन्ति ।"
+"Repository is disabled, the contained snippets will not be shown during code-"
+"completion."
+msgstr "भण्डारः अक्षमः अस्ति, समाविष्टाः स्निपेट् कोड-समाप्तेः समये न दर्शिताः भविष्यन्ति ।"
 
 #: snippetrepository.cpp:357
 #, kde-format
@@ -345,10 +336,9 @@ msgstr "किं भवान् वास्तवमेव \"%1\" इति �
 
 #: snippetview.cpp:327
 #, kde-format
-msgid "Do you really want to delete the repository \"%1\" with all its snippets?"
-msgstr ""
-"किं भवान् वास्तवमेव \"%1\" भण्डारं तस्य सर्वैः स्निपेट्-सहितं विलोपयितुम् "
-"इच्छति?"
+msgid ""
+"Do you really want to delete the repository \"%1\" with all its snippets?"
+msgstr "किं भवान् वास्तवमेव \"%1\" भण्डारं तस्य सर्वैः स्निपेट्-सहितं विलोपयितुम् इच्छति?"
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, filterText)
 #: snippetview.ui:35

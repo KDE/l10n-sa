@@ -27,8 +27,8 @@ msgid ""
 "<firstname>Valentin</firstname> <surname>Rusu</surname> <contrib>Original "
 "author</contrib> <address> <email>kde@rusu.info</email> </address>"
 msgstr ""
-"<firstname>वैलेन्टिन</firstname><surname> रुसु</surname><contrib> मूल "
-"लेखक</contrib><address><email> kde@rusu.info</email></address>"
+"<firstname>वैलेन्टिन</firstname><surname> रुसु</surname><contrib> मूल लेखक</"
+"contrib><address><email> kde@rusu.info</email></address>"
 
 #. Tag: date
 #: man-kwallet-query.1.docbook:19
@@ -82,11 +82,11 @@ msgstr "&kde; बटुआ आदेश-रेखा-हेरफेर-उप�
 #: man-kwallet-query.1.docbook:34
 #, no-c-format
 msgid ""
-"<emphasis role=\"strong\">kwallet-query</emphasis> "
-"<emphasis>OPTIONS</emphasis> <emphasis>wallet</emphasis>"
+"<emphasis role=\"strong\">kwallet-query</emphasis> <emphasis>OPTIONS</"
+"emphasis> <emphasis>wallet</emphasis>"
 msgstr ""
-"<emphasis role=\"strong\">kwallet-query</emphasis> "
-"<emphasis>विकल्पाः</emphasis> <emphasis>बटुआ</emphasis> इति"
+"<emphasis role=\"strong\">kwallet-query</emphasis> <emphasis>विकल्पाः</"
+"emphasis> <emphasis>बटुआ</emphasis> इति"
 
 #. Tag: title
 #: man-kwallet-query.1.docbook:41
@@ -105,11 +105,10 @@ msgid ""
 "the tool should read or update. The operation mode is specified by the "
 "options."
 msgstr ""
-"<command>kwallet-query</command> तदा उपयोगी भवति यदा शेल् स्क्रिप्ट्-मध्ये "
-"&kde; लघुपुट। <emphasis role=\"strong\">&kde; बटुआ प्रबन्धक</emphasis> "
-"उपयोगिता । अस्य एकमात्रं पैरामीटर् अस्ति यत् <emphasis>wallet</emphasis>नाम "
-"साधनेन पठितव्यं अथवा अद्यतनं कर्तव्यम् । विकल्पैः संचालनविधिः निर्दिष्टा "
-"भवति ।"
+"<command>kwallet-query</command> तदा उपयोगी भवति यदा शेल् स्क्रिप्ट्-मध्ये &kde; "
+"लघुपुट। <emphasis role=\"strong\">&kde; बटुआ प्रबन्धक</emphasis> उपयोगिता । अस्य "
+"एकमात्रं पैरामीटर् अस्ति यत् <emphasis>wallet</emphasis>नाम साधनेन पठितव्यं अथवा "
+"अद्यतनं कर्तव्यम् । विकल्पैः संचालनविधिः निर्दिष्टा भवति ।"
 
 #. Tag: title
 #: man-kwallet-query.1.docbook:45
@@ -139,66 +138,63 @@ msgstr "-ल,--सूची-प्रविष्टयः"
 #: man-kwallet-query.1.docbook:60
 #, no-c-format
 msgid ""
-"List password entries. These are the folder names displayed in the <emphasis"
-" role=\"strong\">&kde; Wallet Manager</emphasis> utility. If the <emphasis "
+"List password entries. These are the folder names displayed in the <emphasis "
+"role=\"strong\">&kde; Wallet Manager</emphasis> utility. If the <emphasis "
 "role=\"strong\">-f</emphasis> option is given, this will only display the "
 "subfolders of the specified folder."
 msgstr ""
-"गुप्तशब्दप्रविष्टीनां सूचीं कुर्वन्तु। एतानि <emphasis role=\"strong\">&kde;"
-" बटुआ प्रबन्धक</emphasis> उपयोगिता । यदि <emphasis "
-"role=\"strong\">-f</emphasis> विकल्पः दत्तः अस्ति तर्हि एतत् केवलं "
-"निर्दिष्टपुटस्य उपपुटं प्रदर्शयिष्यति ।"
+"गुप्तशब्दप्रविष्टीनां सूचीं कुर्वन्तु। एतानि <emphasis role=\"strong\">&kde; बटुआ प्रबन्धक</"
+"emphasis> उपयोगिता । यदि <emphasis role=\"strong\">-f</emphasis> विकल्पः दत्तः "
+"अस्ति तर्हि एतत् केवलं निर्दिष्टपुटस्य उपपुटं प्रदर्शयिष्यति ।"
 
 #. Tag: term
 #: man-kwallet-query.1.docbook:64
 #, no-c-format
 msgid ""
-"<emphasis role=\"strong\">-r,--read-password</emphasis> "
-"<emphasis>Entry</emphasis>"
+"<emphasis role=\"strong\">-r,--read-password</emphasis> <emphasis>Entry</"
+"emphasis>"
 msgstr ""
-"<emphasis role=\"strong\">-र,--पठ-गुप्तशब्द</emphasis> "
-"<emphasis>प्रविष्टि</emphasis>"
+"<emphasis role=\"strong\">-र,--पठ-गुप्तशब्द</emphasis> <emphasis>प्रविष्टि</"
+"emphasis>"
 
 #. Tag: simpara
 #: man-kwallet-query.1.docbook:69
 #, no-c-format
 msgid ""
-"Read the contents of the given <emphasis>Entry</emphasis> from the <emphasis"
-" role=\"strong\">Folder</emphasis>section of the <emphasis>wallet</emphasis>"
-" and output it on the standard output. Maps are exported as &JSON; object."
+"Read the contents of the given <emphasis>Entry</emphasis> from the <emphasis "
+"role=\"strong\">Folder</emphasis>section of the <emphasis>wallet</emphasis> "
+"and output it on the standard output. Maps are exported as &JSON; object."
 msgstr ""
-"<emphasis>wallet</emphasis> इत्यस्य <emphasis "
-"role=\"strong\">Folder</emphasis>विभागात् दत्तस्य <emphasis>Entry</emphasis>"
-" इत्यस्य सामग्रीं पठित्वा मानकनिर्गमस्य उपरि आउटपुट् कुर्वन्तु नक्शाः &JSON;"
-" वस्तु।"
+"<emphasis>wallet</emphasis> इत्यस्य <emphasis role=\"strong\">Folder</"
+"emphasis>विभागात् दत्तस्य <emphasis>Entry</emphasis> इत्यस्य सामग्रीं पठित्वा "
+"मानकनिर्गमस्य उपरि आउटपुट् कुर्वन्तु नक्शाः &JSON; वस्तु।"
 
 #. Tag: term
 #: man-kwallet-query.1.docbook:73
 #, no-c-format
 msgid ""
-"<emphasis role=\"strong\">-w,--write-password</emphasis> "
-"<emphasis>Entry</emphasis>"
+"<emphasis role=\"strong\">-w,--write-password</emphasis> <emphasis>Entry</"
+"emphasis>"
 msgstr ""
-"<emphasis role=\"strong\">-w,--write-password</emphasis> "
-"<emphasis>प्रविष्टि</emphasis>"
+"<emphasis role=\"strong\">-w,--write-password</emphasis> <emphasis>प्रविष्टि</"
+"emphasis>"
 
 #. Tag: simpara
 #: man-kwallet-query.1.docbook:78
 #, no-c-format
 msgid ""
 "Write secrets to the given <emphasis>Entry</emphasis> under the <emphasis "
-"role=\"strong\">Folder</emphasis> section of the given "
-"<emphasis>wallet</emphasis>. The secrets are read from the standard input. "
-"Maps take in input a well-formed &JSON; object. <emphasis "
-"role=\"strong\">IMPORTANT</emphasis> previous wallet entry value will be "
-"overwritten by this option, so be careful when using it!"
+"role=\"strong\">Folder</emphasis> section of the given <emphasis>wallet</"
+"emphasis>. The secrets are read from the standard input. Maps take in input "
+"a well-formed &JSON; object. <emphasis role=\"strong\">IMPORTANT</emphasis> "
+"previous wallet entry value will be overwritten by this option, so be "
+"careful when using it!"
 msgstr ""
-"दत्तस्य <emphasis>वालेट्</emphasis> इत्यस्य <emphasis "
-"role=\"strong\">पुट</emphasis> विभागस्य अन्तर्गतं दत्तस्य "
-"<emphasis>प्रविष्टिः</emphasis> इत्यस्य रहस्यं लिखन्तु । रहस्यानि "
-"मानकनिवेशात् पठ्यन्ते । नक्शाः एकं सुनिर्मितं &JSON; वस्तु। <emphasis "
-"role=\"strong\">महत्त्वपूर्ण</emphasis> पूर्वं बटुकप्रविष्टिमूल्यं अस्मिन् "
-"विकल्पेन अधिलिखितं भविष्यति, अतः तस्य उपयोगं कुर्वन् सावधानाः भवन्तु!"
+"दत्तस्य <emphasis>वालेट्</emphasis> इत्यस्य <emphasis role=\"strong\">पुट</"
+"emphasis> विभागस्य अन्तर्गतं दत्तस्य <emphasis>प्रविष्टिः</emphasis> इत्यस्य रहस्यं "
+"लिखन्तु । रहस्यानि मानकनिवेशात् पठ्यन्ते । नक्शाः एकं सुनिर्मितं &JSON; वस्तु। <emphasis "
+"role=\"strong\">महत्त्वपूर्ण</emphasis> पूर्वं बटुकप्रविष्टिमूल्यं अस्मिन् विकल्पेन अधिलिखितं "
+"भविष्यति, अतः तस्य उपयोगं कुर्वन् सावधानाः भवन्तु!"
 
 #. Tag: term
 #: man-kwallet-query.1.docbook:82
@@ -215,9 +211,9 @@ msgid ""
 "Set the <emphasis>wallet</emphasis> folder to <emphasis>Folder</emphasis> "
 "value. By default <emphasis role=\"strong\">Passwords</emphasis> is used."
 msgstr ""
-"<emphasis>wallet</emphasis> पुटं <emphasis>Folder</emphasis> मूल्ये सेट् "
-"कुर्वन्तु । पूर्वनिर्धारितरूपेण <emphasis "
-"role=\"strong\">गुप्तशब्दाः</emphasis> इत्यस्य उपयोगः भवति ।"
+"<emphasis>wallet</emphasis> पुटं <emphasis>Folder</emphasis> मूल्ये सेट् कुर्वन्तु । "
+"पूर्वनिर्धारितरूपेण <emphasis role=\"strong\">गुप्तशब्दाः</emphasis> इत्यस्य उपयोगः "
+"भवति ।"
 
 #. Tag: emphasis
 #: man-kwallet-query.1.docbook:92
@@ -230,8 +226,7 @@ msgstr "-व,--वाचक"
 #, no-c-format
 msgid ""
 "Output more information when performing the operation, to help debugging."
-msgstr ""
-"ऑपरेशनं कुर्वन् अधिकानि सूचनानि निर्गच्छन्तु, त्रुटिनिवारणे सहायतार्थम् ।"
+msgstr "ऑपरेशनं कुर्वन् अधिकानि सूचनानि निर्गच्छन्तु, त्रुटिनिवारणे सहायतार्थम् ।"
 
 #. Tag: title
 #: man-kwallet-query.1.docbook:102
@@ -290,12 +285,11 @@ msgstr "< emphasis>3</emphasis> इति"
 #: man-kwallet-query.1.docbook:137
 #, no-c-format
 msgid ""
-"The <emphasis role=\"strong\">Folder</emphasis> section was not found inside"
-" the wallet <emphasis>wallet</emphasis>. Perhaps the wallet file is corrupt?"
+"The <emphasis role=\"strong\">Folder</emphasis> section was not found inside "
+"the wallet <emphasis>wallet</emphasis>. Perhaps the wallet file is corrupt?"
 msgstr ""
-"<emphasis role=\"strong\">पुट</emphasis> इति विभागः बटुकस्य "
-"<emphasis>wallet</emphasis> इत्यस्य अन्तः न प्राप्तः । कदाचित् बटुकसञ्चिका "
-"दूषिता अस्ति वा?"
+"<emphasis role=\"strong\">पुट</emphasis> इति विभागः बटुकस्य <emphasis>wallet</"
+"emphasis> इत्यस्य अन्तः न प्राप्तः । कदाचित् बटुकसञ्चिका दूषिता अस्ति वा?"
 
 #. Tag: emphasis
 #: man-kwallet-query.1.docbook:142
@@ -322,8 +316,8 @@ msgid ""
 "Please report all bugs on the &kde; bug reporting website: bugs.kde.org. Be "
 "sure to select <quote>kwallet-query</quote> when submitting your bug-report."
 msgstr ""
-"कृपया &kde; बग रिपोर्टिंग् वेबसाइट्: bugs.kde.org. स्वस्य दोष-अभिलेखं "
-"प्रस्तौति चेत् <quote>kwallet-query</quote> इति अवश्यं चिनोतु ।"
+"कृपया &kde; बग रिपोर्टिंग् वेबसाइट्: bugs.kde.org. स्वस्य दोष-अभिलेखं प्रस्तौति चेत् "
+"<quote>kwallet-query</quote> इति अवश्यं चिनोतु ।"
 
 #. Tag: title
 #: man-kwallet-query.1.docbook:158
@@ -335,11 +329,11 @@ msgstr "लेखकः"
 #: man-kwallet-query.1.docbook:159
 #, no-c-format
 msgid ""
-"<command>kwallet-query</command> was originally written by Valentin Rusu and"
-" is part of &kde;."
+"<command>kwallet-query</command> was originally written by Valentin Rusu and "
+"is part of &kde;."
 msgstr ""
-"<command>kwallet-query</command> मूलतः वैलेन्टिन् रुसु इत्यनेन लिखितम् "
-"आसीत्, &kde; इत्यस्य भागः अस्ति ।"
+"<command>kwallet-query</command> मूलतः वैलेन्टिन् रुसु इत्यनेन लिखितम् आसीत्, &kde; "
+"इत्यस्य भागः अस्ति ।"
 
 #. Tag: title
 #: man-kwallet-query.1.docbook:163
@@ -351,8 +345,8 @@ msgstr "प्रतिलिपिः"
 #: man-kwallet-query.1.docbook:164
 #, no-c-format
 msgid ""
-"Copyright (C) 2015 Valentin Rusu. Free use of this software is granted under"
-" the terms of the &GNU; General Public License (GPL)."
+"Copyright (C) 2015 Valentin Rusu. Free use of this software is granted under "
+"the terms of the &GNU; General Public License (GPL)."
 msgstr ""
-"प्रतिलिपि अधिकार (C) 2015 Valentin Rusu. अस्य सॉफ्टवेयरस्य निःशुल्कप्रयोगः "
-"&GNU; सामान्य सार्वजनिक अनुज्ञापत्र (GPL)।"
+"प्रतिलिपि अधिकार (C) 2015 Valentin Rusu. अस्य सॉफ्टवेयरस्य निःशुल्कप्रयोगः &GNU; "
+"सामान्य सार्वजनिक अनुज्ञापत्र (GPL)।"

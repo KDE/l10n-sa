@@ -47,8 +47,7 @@ msgstr ""
 #: app/config/appearancesettings.cpp:279
 #, kde-kuit-format
 msgctxt "@info"
-msgid ""
-"This skin appears to be already installed. Do you want to overwrite it?"
+msgid "This skin appears to be already installed. Do you want to overwrite it?"
 msgstr ""
 
 #: app/config/appearancesettings.cpp:280
@@ -105,11 +104,10 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"The following skin is missing required files. Thus it was removed:<ul>%2</"
-"ul>"
+"The following skin is missing required files. Thus it was removed:<ul>%2</ul>"
 msgid_plural ""
-"The following skins are missing required files. Thus they were removed:"
-"<ul>%2</ul>"
+"The following skins are missing required files. Thus they were removed:<ul>"
+"%2</ul>"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -120,8 +118,7 @@ msgctxt "@title:group Group box label"
 msgid "General"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_TerminalHighlightOnManualActivation)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_TerminalHighlightOnManualActivation)
 #: app/config/appearancesettings.ui:35
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -132,8 +129,7 @@ msgid ""
 "switching to a session with multiple terminals."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_TerminalHighlightOnManualActivation)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TerminalHighlightOnManualActivation)
 #: app/config/appearancesettings.ui:38
 #, kde-format
 msgctxt "@option:check"
@@ -183,22 +179,20 @@ msgctxt "@label:spinbox"
 msgid "Background color opacity:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox,
-#. kcfg_BackgroundColorOpacity)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_BackgroundColorOpacity)
 #: app/config/appearancesettings.ui:136
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "When using translucency, the background color will be filled in using the "
-"given opacity before the skin elements are painted on top of the "
-"background. This allows influencing the opacity and color tint of "
-"translucent areas of the skin."
+"given opacity before the skin elements are painted on top of the background. "
+"This allows influencing the opacity and color tint of translucent areas of "
+"the skin."
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Width)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Height)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_BackgroundColorOpacity)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_BackgroundColorOpacity)
 #: app/config/appearancesettings.ui:139 app/config/windowsettings.ui:146
 #: app/config/windowsettings.ui:200
 #, no-c-format, kde-format
@@ -279,9 +273,9 @@ msgstr ""
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"If this option is enabled, the window will automatically open when the "
-"mouse pointer is moved to the same edge of the screen that it would open on "
-"when using the shortcut."
+"If this option is enabled, the window will automatically open when the mouse "
+"pointer is moved to the same edge of the screen that it would open on when "
+"using the shortcut."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PollMouse)
@@ -310,8 +304,7 @@ msgctxt "@option:check"
 msgid "Keep window open when it loses focus"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeepOpenAfterLastSessionCloses)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepOpenAfterLastSessionCloses)
 #: app/config/behaviorsettings.ui:141
 #, kde-format
 msgctxt "@option:check"
@@ -598,14 +591,12 @@ msgctxt "@label"
 msgid "Keep window open after last session closes"
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry (KeepOpenAfterLastSessionCloses), group
-#. (Window)
+#. i18n: ectx: whatsthis, entry (KeepOpenAfterLastSessionCloses), group (Window)
 #: app/config/yakuake.kcfg:46
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"Whether to keep the application window open after the last session is "
-"closed."
+"Whether to keep the application window open after the last session is closed."
 msgstr ""
 
 #. i18n: ectx: label, entry (ToggleToFocus), group (Window)
@@ -811,16 +802,14 @@ msgctxt "@info:whatsthis"
 msgid "The opacity of the background color fill when using translucency."
 msgstr ""
 
-#. i18n: ectx: label, entry (TerminalHighlightOnManualActivation), group
-#. (Appearance)
+#. i18n: ectx: label, entry (TerminalHighlightOnManualActivation), group (Appearance)
 #: app/config/yakuake.kcfg:126
 #, kde-format
 msgctxt "@label"
 msgid "Highlight newly focused terminals"
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry (TerminalHighlightOnManualActivation), group
-#. (Appearance)
+#. i18n: ectx: whatsthis, entry (TerminalHighlightOnManualActivation), group (Appearance)
 #: app/config/yakuake.kcfg:127
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -869,56 +858,49 @@ msgctxt "@label"
 msgid "Terminal highlight duration"
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry (TerminalHighlightDuration), group
-#. (Appearance)
+#. i18n: ectx: whatsthis, entry (TerminalHighlightDuration), group (Appearance)
 #: app/config/yakuake.kcfg:144
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The duration of the terminal highlight overlay."
 msgstr ""
 
-#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorColor), group
-#. (Appearance)
+#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorColor), group (Appearance)
 #: app/config/yakuake.kcfg:150
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator color"
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorColor), group
-#. (Appearance)
+#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorColor), group (Appearance)
 #: app/config/yakuake.kcfg:151
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The color of the keyboard input block indicator overlay."
 msgstr ""
 
-#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorOpacity), group
-#. (Appearance)
+#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:155
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator opacity"
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorOpacity), group
-#. (Appearance)
+#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorOpacity), group (Appearance)
 #: app/config/yakuake.kcfg:156
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "The opacity of the keyboard input block indicator overlay."
 msgstr ""
 
-#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorDuration), group
-#. (Appearance)
+#. i18n: ectx: label, entry (KeyboardInputBlockIndicatorDuration), group (Appearance)
 #: app/config/yakuake.kcfg:162
 #, kde-format
 msgctxt "@label"
 msgid "Keyboard input block indicator duration"
 msgstr ""
 
-#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorDuration), group
-#. (Appearance)
+#. i18n: ectx: whatsthis, entry (KeyboardInputBlockIndicatorDuration), group (Appearance)
 #: app/config/yakuake.kcfg:163
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -955,8 +937,8 @@ msgstr ""
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"The number of frames of the open/retract animation. One frame is taken to "
-"be 10 miliseconds."
+"The number of frames of the open/retract animation. One frame is taken to be "
+"10 miliseconds."
 msgstr ""
 
 #. i18n: ectx: label, entry (PollMouse), group (AutoOpen)
@@ -1163,8 +1145,8 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "<warning>There are multiple open sessions, <emphasis>some of which you have "
-"locked to prevent closing them accidentally.</emphasis> These will be "
-"killed if you continue.</warning>"
+"locked to prevent closing them accidentally.</emphasis> These will be killed "
+"if you continue.</warning>"
 msgstr ""
 
 #: app/mainwindow.cpp:211
@@ -1179,9 +1161,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<warning>There are one or more open sessions that you have locked to "
-"prevent closing them accidentally. These will be killed if you continue.</"
-"warning>"
+"<warning>There are one or more open sessions that you have locked to prevent "
+"closing them accidentally. These will be killed if you continue.</warning>"
 msgstr ""
 
 #: app/mainwindow.cpp:220
@@ -1495,9 +1476,9 @@ msgstr ""
 #, kde-format
 msgid ""
 "The D-Bus method runCommand was just used.  There are security concerns "
-"about allowing these methods to be public.  If desired, these methods can "
-"be changed to internal use only by re-compiling Yakuake. <p>This warning "
-"will only show once for this Yakuake instance.</p>"
+"about allowing these methods to be public.  If desired, these methods can be "
+"changed to internal use only by re-compiling Yakuake. <p>This warning will "
+"only show once for this Yakuake instance.</p>"
 msgstr ""
 "D-Bus मेथड् runCommand इत्यस्य उपयोगः एव अभवत् । एतानि पद्धतीनि सार्वजनिकरूपेण भवितुं "
 "अनुमतिं दातुं सुरक्षाचिन्ताः सन्ति। इष्टे सति एतानि पद्धतयः केवलं याकुआके इत्यस्य पुनः संकलनेन "

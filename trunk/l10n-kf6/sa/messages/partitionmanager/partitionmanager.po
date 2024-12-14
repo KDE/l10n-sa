@@ -67,8 +67,8 @@ msgstr "उन्नत सेटिंग्स्"
 msgctxt "@info"
 msgid ""
 "<para>Do you really want to change the backend?</para><para><warning>This "
-"will also rescan devices and thus clear the list of pending "
-"operations.</warning></para>"
+"will also rescan devices and thus clear the list of pending operations.</"
+"warning></para>"
 msgstr ""
 
 #: config/configureoptionsdialog.cpp:139
@@ -532,8 +532,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"Could not create temporary file when trying to save to "
-"<filename>%1</filename>."
+"Could not create temporary file when trying to save to <filename>%1</"
+"filename>."
 msgstr ""
 
 #: gui/applyprogressdialog.cpp:423
@@ -606,10 +606,10 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Do you really want to create an MS-Dos partition table on "
-"<filename>%1</filename>?</para><para>This device has more than 2^32 sectors."
-" That is the most the MS-Dos partition table type supports, so you will not "
-"be able to use the whole device.</para>"
+"<para>Do you really want to create an MS-Dos partition table on <filename>"
+"%1</filename>?</para><para>This device has more than 2^32 sectors. That is "
+"the most the MS-Dos partition table type supports, so you will not be able "
+"to use the whole device.</para>"
 msgstr ""
 
 #: gui/createpartitiontabledialog.cpp:58
@@ -678,8 +678,7 @@ msgctxt "@label SMART disk status"
 msgid "good"
 msgstr ""
 
-#: gui/devicepropsdialog.cpp:104 gui/smartdialog.cpp:84
-#: gui/smartdialog.cpp:149
+#: gui/devicepropsdialog.cpp:104 gui/smartdialog.cpp:84 gui/smartdialog.cpp:149
 #, kde-kuit-format
 msgctxt "@label SMART disk status"
 msgid "BAD"
@@ -765,8 +764,7 @@ msgctxt "@title:window"
 msgid "Edit additional mount options"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget,
-#. EditMountOptionsDialogWidgetBase)
+#. i18n: ectx: property (windowTitle), widget (QWidget, EditMountOptionsDialogWidgetBase)
 #: gui/editmountoptionsdialogwidgetbase.ui:19
 #, kde-format
 msgid "Edit Mount Options"
@@ -778,8 +776,7 @@ msgstr "माउण्ट् विकल्पाः सम्पादयन�
 msgid "Edit the mount options for this file system:"
 msgstr "अस्य सञ्चिकातन्त्रस्य कृते माउण्ट् विकल्पान् सम्पादयन्तु:"
 
-#. i18n: ectx: property (placeholderText), widget (QPlainTextEdit,
-#. m_EditOptions)
+#. i18n: ectx: property (placeholderText), widget (QPlainTextEdit, m_EditOptions)
 #: gui/editmountoptionsdialogwidgetbase.ui:32
 #, kde-format
 msgid "Option1,Option2"
@@ -795,8 +792,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Are you sure you want to save the changes you made to the system table"
-" file <filename>/etc/fstab</filename>?</para><para><warning>This will "
+"<para>Are you sure you want to save the changes you made to the system table "
+"file <filename>/etc/fstab</filename>?</para><para><warning>This will "
 "overwrite the existing file on your hard drive now. This <emphasis "
 "strong='1'>can not be undone</emphasis>.</warning></para>"
 msgstr ""
@@ -961,18 +958,18 @@ msgstr ""
 #: gui/filesystemsupportdialogwidgetbase.ui:23
 #, kde-format
 msgid ""
-"This table shows which file systems are supported and which specific operation"
-"s can be performed on them.\n"
-"Some file systems need external tools to be installed for them to be supported"
-". But not all operations can be performed on all file systems, even if all req"
-"uired tools are installed. Please see the documentation for details. "
+"This table shows which file systems are supported and which specific "
+"operations can be performed on them.\n"
+"Some file systems need external tools to be installed for them to be "
+"supported. But not all operations can be performed on all file systems, even "
+"if all required tools are installed. Please see the documentation for "
+"details. "
 msgstr ""
-"अस्मिन् सारणी दर्शयति यत् के सञ्चिकातन्त्राणि समर्थितानि सन्ति, तेषु के के विश"
-"िष्टानि कार्याणि कर्तुं शक्यन्ते ।\n"
-"केषाञ्चन सञ्चिकातन्त्राणां समर्थनार्थं बाह्यसाधनानाम् संस्थापनस्य आवश्यकता भवत"
-"ि । परन्तु सर्वेषु सञ्चिकातन्त्रेषु सर्वाणि कार्याणि कर्तुं न शक्यन्ते, यद्यपि"
-" सर्वाणि आवश्यकानि साधनानि संस्थापितानि सन्ति । विस्तरेण कृपया दस्तावेजीकरणं प"
-"श्यन्तु। "
+"अस्मिन् सारणी दर्शयति यत् के सञ्चिकातन्त्राणि समर्थितानि सन्ति, तेषु के के विशिष्टानि "
+"कार्याणि कर्तुं शक्यन्ते ।\n"
+"केषाञ्चन सञ्चिकातन्त्राणां समर्थनार्थं बाह्यसाधनानाम् संस्थापनस्य आवश्यकता भवति । परन्तु सर्वेषु "
+"सञ्चिकातन्त्रेषु सर्वाणि कार्याणि कर्तुं न शक्यन्ते, यद्यपि सर्वाणि आवश्यकानि साधनानि "
+"संस्थापितानि सन्ति । विस्तरेण कृपया दस्तावेजीकरणं पश्यन्तु। "
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_Tree)
 #: gui/filesystemsupportdialogwidgetbase.ui:70
@@ -1294,8 +1291,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Do you really want to quit the application?</para><para>There is still"
-" an operation pending.</para>"
+"<para>Do you really want to quit the application?</para><para>There is still "
+"an operation pending.</para>"
 msgid_plural ""
 "<para>Do you really want to quit the application?</para><para>There are "
 "still %1 operations pending.</para>"
@@ -1898,9 +1895,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Do you really want to apply the pending operations listed "
-"below?</para><para><warning>This will permanently modify your "
-"disks.</warning></para>"
+"<para>Do you really want to apply the pending operations listed below?</"
+"para><para><warning>This will permanently modify your disks.</warning></para>"
 msgstr ""
 
 #: gui/mainwindow.cpp:947
@@ -1974,8 +1970,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"Could not open temporary file <filename>%1</filename> while trying to import"
-" from <filename>%2</filename>."
+"Could not open temporary file <filename>%1</filename> while trying to import "
+"from <filename>%2</filename>."
 msgstr ""
 
 #: gui/mainwindow.cpp:1091
@@ -2084,17 +2080,16 @@ msgstr "<tr><td>%1</td><td> %2</td><td> %3</td><td><link> %4</link></td></tr>"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>No support tools were found for file systems currently present on hard"
-" disks in this computer:</para><table style='margin-top:12px'><tr><td "
-"style='font-weight:bold;padding-right:12px;white-"
-"space:nowrap;'>Partition</td><td style='font-weight:bold;padding-"
-"right:12px;white-space:nowrap;'>File System</td><td style='font-"
-"weight:bold;padding-right:12px;white-space:nowrap;'>Support Tools</td><td "
-"style='font-weight:bold;padding-right:12px;white-"
-"space:nowrap;'>URL</td></tr>%1</table><para>As long as the support tools for"
-" these file systems are not installed you will not be able to modify "
-"them.</para><para>You should find packages with these support tools in your "
-"distribution's package manager.</para>"
+"<para>No support tools were found for file systems currently present on hard "
+"disks in this computer:</para><table style='margin-top:12px'><tr><td "
+"style='font-weight:bold;padding-right:12px;white-space:nowrap;'>Partition</"
+"td><td style='font-weight:bold;padding-right:12px;white-space:nowrap;'>File "
+"System</td><td style='font-weight:bold;padding-right:12px;white-space:"
+"nowrap;'>Support Tools</td><td style='font-weight:bold;padding-right:12px;"
+"white-space:nowrap;'>URL</td></tr>%1</table><para>As long as the support "
+"tools for these file systems are not installed you will not be able to "
+"modify them.</para><para>You should find packages with these support tools "
+"in your distribution's package manager.</para>"
 msgstr ""
 
 #: gui/mainwindow.cpp:1441
@@ -2122,8 +2117,7 @@ msgid "Error opening partition"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindowBase)
-#. i18n: ectx: property (windowTitle), widget (QWidget,
-#. PartitionManagerWidgetBase)
+#. i18n: ectx: property (windowTitle), widget (QWidget, PartitionManagerWidgetBase)
 #: gui/mainwindowbase.ui:18 gui/partitionmanagerwidgetbase.ui:20
 #, kde-format
 msgctxt "@title:window"
@@ -2286,9 +2280,9 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "<para>The partition <filename>%1</filename> cannot currently be deleted "
-"because one or more partitions with higher logical numbers are still "
-"mounted.</para><para>Please unmount all partitions with higher logical "
-"numbers than %2 first.</para>"
+"because one or more partitions with higher logical numbers are still mounted."
+"</para><para>Please unmount all partitions with higher logical numbers than "
+"%2 first.</para>"
 msgstr ""
 
 #: gui/partitionmanagerwidget.cpp:563
@@ -2336,12 +2330,12 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para><warning>You are about to lose all data on partition "
-"<filename>%1</filename>.</warning></para><para>Overwriting one partition "
-"with another (or with an image file) will destroy all data on this target "
-"partition.</para><para>If you continue now and apply the resulting operation"
-" in the main window, all data currently stored on <filename>%1</filename> "
-"will unrecoverably be overwritten.</para>"
+"<para><warning>You are about to lose all data on partition <filename>%1</"
+"filename>.</warning></para><para>Overwriting one partition with another (or "
+"with an image file) will destroy all data on this target partition.</"
+"para><para>If you continue now and apply the resulting operation in the main "
+"window, all data currently stored on <filename>%1</filename> will "
+"unrecoverably be overwritten.</para>"
 msgstr ""
 
 #: gui/partitionmanagerwidget.cpp:727
@@ -2361,8 +2355,8 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "<para>The selected partition is not large enough to hold the source "
-"partition or the backup file.</para><para>Pick another target or resize this"
-" partition so it is as large as the source.</para>"
+"partition or the backup file.</para><para>Pick another target or resize this "
+"partition so it is as large as the source.</para>"
 msgstr ""
 
 #: gui/partitionmanagerwidget.cpp:737
@@ -2375,8 +2369,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>It is not possible to create the target partition large enough to hold"
-" the source.</para><para>This may happen if not all partitions on a device "
+"<para>It is not possible to create the target partition large enough to hold "
+"the source.</para><para>This may happen if not all partitions on a device "
 "are correctly aligned or when copying a primary partition into an extended "
 "partition.</para>"
 msgstr ""
@@ -2391,8 +2385,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"The file system in the image file <filename>%1</filename> is too large to be"
-" restored to the selected partition."
+"The file system in the image file <filename>%1</filename> is too large to be "
+"restored to the selected partition."
 msgstr ""
 
 #: gui/partitionmanagerwidget.cpp:801
@@ -2538,11 +2532,11 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para><warning>You are about to lose all data on partition "
-"<filename>%1</filename>.</warning></para><para>Changing the file system on a"
-" partition already on disk will erase all its contents. If you continue now "
-"and apply the resulting operation in the main window, all data on "
-"<filename>%1</filename> will unrecoverably be lost.</para>"
+"<para><warning>You are about to lose all data on partition <filename>%1</"
+"filename>.</warning></para><para>Changing the file system on a partition "
+"already on disk will erase all its contents. If you continue now and apply "
+"the resulting operation in the main window, all data on <filename>%1</"
+"filename> will unrecoverably be lost.</para>"
 msgstr ""
 
 #: gui/partpropsdialog.cpp:362
@@ -2567,11 +2561,11 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para><warning>You are about to lose all data on partition "
-"<filename>%1</filename>.</warning></para><para>Recreating a file system will"
-" erase all its contents. If you continue now and apply the resulting "
-"operation in the main window, all data on <filesystem>%1</filesystem> will "
-"unrecoverably be lost.</para>"
+"<para><warning>You are about to lose all data on partition <filename>%1</"
+"filename>.</warning></para><para>Recreating a file system will erase all its "
+"contents. If you continue now and apply the resulting operation in the main "
+"window, all data on <filesystem>%1</filesystem> will unrecoverably be lost.</"
+"para>"
 msgstr ""
 
 #: gui/partpropsdialog.cpp:385
@@ -2691,11 +2685,11 @@ msgstr "विभाजनस्य नाम : १."
 #: gui/partpropswidgetbase.ui:346
 #, kde-format
 msgid ""
-"This will reformat the filesystem, losing all contents, but keeping the same"
-" filesystem type."
+"This will reformat the filesystem, losing all contents, but keeping the same "
+"filesystem type."
 msgstr ""
-"एतेन सञ्चिकातन्त्रं पुनः स्वरूपितं भविष्यति, सर्वाणि सामग्रीनि नष्टानि, "
-"परन्तु समानं सञ्चिकातन्त्रप्रकारं स्थापयित्वा ।"
+"एतेन सञ्चिकातन्त्रं पुनः स्वरूपितं भविष्यति, सर्वाणि सामग्रीनि नष्टानि, परन्तु समानं "
+"सञ्चिकातन्त्रप्रकारं स्थापयित्वा ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_CheckRecreate)
 #: gui/partpropswidgetbase.ui:349
@@ -2884,8 +2878,8 @@ msgid ""
 "Set up encryption for this filesystem with LUKS. You will be asked to "
 "provide a passphrase."
 msgstr ""
-"अस्य सञ्चिकातन्त्रस्य कृते LUKS इत्यनेन सह एन्क्रिप्शनं स्थापयन्तु । भवन्तः "
-"गुप्तवाक्यं दातुं प्रार्थयिष्यन्ति।"
+"अस्य सञ्चिकातन्त्रस्य कृते LUKS इत्यनेन सह एन्क्रिप्शनं स्थापयन्तु । भवन्तः गुप्तवाक्यं दातुं "
+"प्रार्थयिष्यन्ति।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_CheckBoxEncrypt)
 #: gui/sizedialogwidgetbase.ui:262
@@ -2915,11 +2909,11 @@ msgstr "प्रत्येकं"
 #: gui/sizedialogwidgetbase.ui:315
 #, kde-format
 msgid ""
-"Allow only root to write and read on this device, you will need to setup "
-"per-folder permissions"
+"Allow only root to write and read on this device, you will need to setup per-"
+"folder permissions"
 msgstr ""
-"अस्मिन् उपकरणे केवलं root इत्यस्य लेखनस्य पठनस्य च अनुमतिं ददातु, भवद्भिः "
-"प्रति-पुट-अनुमतिः सेटअप कर्तव्या भविष्यति"
+"अस्मिन् उपकरणे केवलं root इत्यस्य लेखनस्य पठनस्य च अनुमतिं ददातु, भवद्भिः प्रति-पुट-अनुमतिः "
+"सेटअप कर्तव्या भविष्यति"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_permissionOnlyRoot)
 #: gui/sizedialogwidgetbase.ui:318
@@ -2954,8 +2948,8 @@ msgid ""
 "Use LUKS2 instead of LUKS1 for better security, but compatibility may be "
 "compromised."
 msgstr ""
-"उत्तमसुरक्षायै LUKS1 इत्यस्य स्थाने LUKS2 इत्यस्य उपयोगं कुर्वन्तु, परन्तु "
-"संगततायाः क्षतिः भवितुम् अर्हति ।"
+"उत्तमसुरक्षायै LUKS1 इत्यस्य स्थाने LUKS2 इत्यस्य उपयोगं कुर्वन्तु, परन्तु संगततायाः क्षतिः "
+"भवितुम् अर्हति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_CheckBoxLuks2)
 #: gui/sizedialogwidgetbase.ui:379
@@ -3053,8 +3047,7 @@ msgstr "शक्तिचक्राः : १."
 msgid "Self tests:"
 msgstr "आत्मपरीक्षाः : १."
 
-#. i18n: ectx: property (text), widget (QLabel,
-#. m_LabelTextSmartOverallAssessment)
+#. i18n: ectx: property (text), widget (QLabel, m_LabelTextSmartOverallAssessment)
 #: gui/smartdialog.cpp:163 gui/smartdialogwidgetbase.ui:383
 #, kde-format
 msgid "Overall assessment:"
@@ -3393,9 +3386,8 @@ msgstr "प्राधान्यं एककं : १."
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>The configured backend plugin \"%1\" could not be "
-"loaded.</para><para>Loading the default backend plugin \"%2\" "
-"instead.</para>"
+"<para>The configured backend plugin \"%1\" could not be loaded.</"
+"para><para>Loading the default backend plugin \"%2\" instead.</para>"
 msgstr ""
 
 #: util/guihelpers.cpp:53 util/guihelpers.cpp:60

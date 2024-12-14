@@ -96,12 +96,11 @@ msgstr "सार"
 #: man-kbuildsycoca6.8.docbook:46
 #, no-c-format
 msgid ""
-"<command>kbuildsycoca6</command> <group choice=\"opt\" "
-"rep=\"repeat\"><replaceable class=\"option\">OPTIONS</replaceable></group>"
+"<command>kbuildsycoca6</command> <group choice=\"opt\" rep=\"repeat"
+"\"><replaceable class=\"option\">OPTIONS</replaceable></group>"
 msgstr ""
-"<command>kbuildsycoca6</command> <group choice=\"opt\" "
-"rep=\"repeat\"><replaceable class=\"option\">विकल्पाः</replaceable></group> "
-"इति"
+"<command>kbuildsycoca6</command> <group choice=\"opt\" rep=\"repeat"
+"\"><replaceable class=\"option\">विकल्पाः</replaceable></group> इति"
 
 #. Tag: title
 #: man-kbuildsycoca6.8.docbook:56
@@ -114,15 +113,14 @@ msgstr "वर्णनम्‌"
 #, no-c-format
 msgid ""
 "<command>kbuildsycoca6</command> builds binary cache of the data stored in "
-"<literal role=\"extension\">.desktop</literal> and &MIME; type <literal "
-"role=\"extension\">.xml</literal> files that the KService framework uses to "
-"find plugins, applications and other services."
+"<literal role=\"extension\">.desktop</literal> and &MIME; type <literal role="
+"\"extension\">.xml</literal> files that the KService framework uses to find "
+"plugins, applications and other services."
 msgstr ""
-"<command>kbuildsycoca6</command> <literal "
-"role=\"extension\">.desktop</literal> इत्यत्र संगृहीतदत्तांशस्य "
-"द्विचक्रीयसञ्चयं निर्माति तथा च &MIME; <literal "
-"role=\"extension\">.xml</literal> सञ्चिकाः टङ्कयन्तु येषां उपयोगं "
-"KService-रूपरेखा प्लगिन्स्, अनुप्रयोगाः अन्यसेवाः च अन्वेष्टुं करोति ।"
+"<command>kbuildsycoca6</command> <literal role=\"extension\">.desktop</"
+"literal> इत्यत्र संगृहीतदत्तांशस्य द्विचक्रीयसञ्चयं निर्माति तथा च &MIME; <literal role="
+"\"extension\">.xml</literal> सञ्चिकाः टङ्कयन्तु येषां उपयोगं KService-रूपरेखा प्लगिन्स्, "
+"अनुप्रयोगाः अन्यसेवाः च अन्वेष्टुं करोति ।"
 
 #. Tag: para
 #: man-kbuildsycoca6.8.docbook:65
@@ -131,8 +129,8 @@ msgid ""
 "The KService library uses this database to efficiently provide the "
 "information requested of it."
 msgstr ""
-"KService पुस्तकालयः अस्य दत्तांशकोशस्य उपयोगं कृत्वा तस्य अनुरोधितसूचनाः "
-"कुशलतया प्रदातुं शक्नोति ।"
+"KService पुस्तकालयः अस्य दत्तांशकोशस्य उपयोगं कृत्वा तस्य अनुरोधितसूचनाः कुशलतया प्रदातुं "
+"शक्नोति ।"
 
 #. Tag: para
 #: man-kbuildsycoca6.8.docbook:70
@@ -141,9 +139,9 @@ msgid ""
 "Users do not normally need to run this application directly; KService will "
 "run it if necessary, when any of the files whose data is cached are changed."
 msgstr ""
-"उपयोक्तृभ्यः सामान्यतया एतत् अनुप्रयोगं प्रत्यक्षतया चालयितुं आवश्यकता "
-"नास्ति; KService आवश्यके सति तत् चालयिष्यति, यदा येषां सञ्चिकानां दत्तांशः "
-"संग्रहीतः अस्ति तेषु कापि परिवर्तनं भवति ।"
+"उपयोक्तृभ्यः सामान्यतया एतत् अनुप्रयोगं प्रत्यक्षतया चालयितुं आवश्यकता नास्ति; KService "
+"आवश्यके सति तत् चालयिष्यति, यदा येषां सञ्चिकानां दत्तांशः संग्रहीतः अस्ति तेषु कापि परिवर्तनं "
+"भवति ।"
 
 #. Tag: title
 #: man-kbuildsycoca6.8.docbook:79
@@ -164,8 +162,8 @@ msgid ""
 "Ignores any user-set files (in <varname>XDG_DATA_HOME</varname>). This is "
 "currently only supported on &UNIX; systems."
 msgstr ""
-"कस्यापि उपयोक्तृ-समूहस्य सञ्चिकायाः (<varname>XDG_DATA_HOME</varname> "
-"इत्यत्र) अवहेलनां करोति । इदं सम्प्रति केवलं &UNIX; प्रणाल्याः ।"
+"कस्यापि उपयोक्तृ-समूहस्य सञ्चिकायाः (<varname>XDG_DATA_HOME</varname> इत्यत्र) "
+"अवहेलनां करोति । इदं सम्प्रति केवलं &UNIX; प्रणाल्याः ।"
 
 #. Tag: option
 #: man-kbuildsycoca6.8.docbook:90
@@ -178,12 +176,11 @@ msgstr "--अवृद्धि"
 #, no-c-format
 msgid ""
 "Rather than using the existing cache and only updating the information that "
-"has changed or been added, start with an empty cache. Ignored if "
-"<option>--global</option> is set."
+"has changed or been added, start with an empty cache. Ignored if <option>--"
+"global</option> is set."
 msgstr ""
-"विद्यमानसञ्चयस्य उपयोगेन केवलं परिवर्तितां वा योजितां वा सूचनां "
-"अद्यतनीकर्तुं न अपि तु रिक्तसञ्चयेन आरभत । उपेक्षितम् यदि<option "
-"value=--global> --वैश्विक</option> सेट् भवति।"
+"विद्यमानसञ्चयस्य उपयोगेन केवलं परिवर्तितां वा योजितां वा सूचनां अद्यतनीकर्तुं न अपि तु "
+"रिक्तसञ्चयेन आरभत । उपेक्षितम् यदि<option value=--global> --वैश्विक</option> सेट् भवति।"
 
 #. Tag: option
 #: man-kbuildsycoca6.8.docbook:97
@@ -197,9 +194,7 @@ msgstr "-- मेनू परीक्षण"
 msgid ""
 "Test the generation of the application menu database. Does not actually "
 "build the cache."
-msgstr ""
-"अनुप्रयोगमेनूदत्तांशकोशस्य जननस्य परीक्षणं कुर्वन्तु। वस्तुतः सञ्चयं न "
-"निर्माति ।"
+msgstr "अनुप्रयोगमेनूदत्तांशकोशस्य जननस्य परीक्षणं कुर्वन्तु। वस्तुतः सञ्चयं न निर्माति ।"
 
 #. Tag: option
 #: man-kbuildsycoca6.8.docbook:104
@@ -214,8 +209,8 @@ msgid ""
 "Use the QStandardPaths \"test mode\" to avoid interfering with user data. "
 "This is intended for use with unit tests."
 msgstr ""
-"उपयोक्तृदत्तांशस्य हस्तक्षेपं परिहरितुं QStandardPaths \"test mode\" इत्यस्य"
-" उपयोगं कुर्वन्तु । एतत् एककपरीक्षाभिः सह उपयोगाय अभिप्रेतम् अस्ति ।"
+"उपयोक्तृदत्तांशस्य हस्तक्षेपं परिहरितुं QStandardPaths \"test mode\" इत्यस्य उपयोगं कुर्वन्तु "
+"। एतत् एककपरीक्षाभिः सह उपयोगाय अभिप्रेतम् अस्ति ।"
 
 #. Tag: option
 #: man-kbuildsycoca6.8.docbook:111
@@ -294,12 +289,12 @@ msgstr "<varname>cachedir</varname>/क्सायकोका6_[लङ्ग]_
 #, no-c-format
 msgid ""
 "The KService cache generated by <command>kbuildsycoca6</command>. On &UNIX; "
-"systems, <varname>cachedir</varname> is typically <filename "
-"class=\"directory\"><envar>XDG_CACHE_HOME</envar></filename>."
+"systems, <varname>cachedir</varname> is typically <filename class=\"directory"
+"\"><envar>XDG_CACHE_HOME</envar></filename>."
 msgstr ""
-"<command>kbuildsycoca6</command> द्वारा उत्पन्नं KService-सञ्चयं । &UNIX; "
-"प्रणालीषु, <varname>cachedir</varname> सामान्यतया <filename "
-"class=\"directory\"><envar>XDG_CACHE_HOME</envar></filename> अस्ति ।"
+"<command>kbuildsycoca6</command> द्वारा उत्पन्नं KService-सञ्चयं । &UNIX; प्रणालीषु, "
+"<varname>cachedir</varname> सामान्यतया <filename class=\"directory"
+"\"><envar>XDG_CACHE_HOME</envar></filename> अस्ति ।"
 
 #. Tag: title
 #: man-kbuildsycoca6.8.docbook:174
@@ -311,14 +306,13 @@ msgstr "इदमपि पश्यन्तु"
 #: man-kbuildsycoca6.8.docbook:175
 #, no-c-format
 msgid ""
-"<citerefentry><refentrytitle>kded5</refentrytitle><manvolnum>8</manvolnum></citerefentry>,"
-" "
-"<citerefentry><refentrytitle>kdeinit5</refentrytitle><manvolnum>8</manvolnum></citerefentry>"
+"<citerefentry><refentrytitle>kded5</refentrytitle><manvolnum>8</manvolnum></"
+"citerefentry>, <citerefentry><refentrytitle>kdeinit5</"
+"refentrytitle><manvolnum>8</manvolnum></citerefentry>"
 msgstr ""
-"<citerefentry><refentrytitle>kded5</refentrytitle><manvolnum>8</manvolnum></citerefentry>,"
-" "
-"<citerefentry><refentrytitle>kdeinit5</refentrytitle><manvolnum>8</manvolnum></citerefentry>"
-" इति"
+"<citerefentry><refentrytitle>kded5</refentrytitle><manvolnum>8</manvolnum></"
+"citerefentry>, <citerefentry><refentrytitle>kdeinit5</"
+"refentrytitle><manvolnum>8</manvolnum></citerefentry> इति"
 
 #. Tag: title
 #: man-kbuildsycoca6.8.docbook:184
@@ -330,8 +324,8 @@ msgstr "बग्स्"
 #: man-kbuildsycoca6.8.docbook:185
 #, no-c-format
 msgid ""
-"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to"
-" report bugs."
+"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to "
+"report bugs."
 msgstr ""
-"कृपया दोषान् प्रतिवेदयितुं <ulink url=\"https://bugs.kde.org\">&kde;'s "
-"bugtracker</ulink> इत्यस्य उपयोगं कुर्वन्तु ।"
+"कृपया दोषान् प्रतिवेदयितुं <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</"
+"ulink> इत्यस्य उपयोगं कुर्वन्तु ।"

@@ -180,8 +180,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
-"Partition <filename>%1</filename> is not properly aligned (first sector: %2,"
-" modulo: %3)."
+"Partition <filename>%1</filename> is not properly aligned (first sector: %2, "
+"modulo: %3)."
 msgstr ""
 
 #: core/partitionalignment.cpp:65
@@ -459,10 +459,9 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
-"Count of reallocated sectors. When the hard drive finds a "
-"read/write/verification error, it marks this sector as "
-"&quot;reallocated&quot; and transfers data to a special reserved area (spare"
-" area)."
+"Count of reallocated sectors. When the hard drive finds a read/write/"
+"verification error, it marks this sector as &quot;reallocated&quot; and "
+"transfers data to a special reserved area (spare area)."
 msgstr ""
 
 #: core/smartattribute.cpp:106
@@ -530,8 +529,8 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
-"Count of retry of spin start attempts if the first attempt was unsuccessful."
-" An increase of this attribute value is a sign of problems in the hard disk "
+"Count of retry of spin start attempts if the first attempt was unsuccessful. "
+"An increase of this attribute value is a sign of problems in the hard disk "
 "mechanical subsystem."
 msgstr ""
 
@@ -877,8 +876,7 @@ msgstr ""
 msgctxt "SMART attr description"
 msgid ""
 "Count of remap operations. The raw value of this attribute shows the total "
-"number of attempts to transfer data from reallocated sectors to a spare "
-"area."
+"number of attempts to transfer data from reallocated sectors to a spare area."
 msgstr ""
 
 #: core/smartattribute.cpp:141
@@ -998,8 +996,8 @@ msgstr ""
 msgctxt "SMART attr description"
 msgid ""
 "Height of heads above the disk surface. A flying height that is too low "
-"increases the chances of a head crash while a flying height that is too high"
-" increases the chances of a read/write error."
+"increases the chances of a head crash while a flying height that is too high "
+"increases the chances of a read/write error."
 msgstr ""
 
 #: core/smartattribute.cpp:151
@@ -1209,8 +1207,8 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
-"Count of physical erase cycles completed on the drive as a percentage of the"
-" maximum physical erase cycles the drive supports"
+"Count of physical erase cycles completed on the drive as a percentage of the "
+"maximum physical erase cycles the drive supports"
 msgstr ""
 
 #: core/smartattribute.cpp:168
@@ -1261,8 +1259,8 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
-"Time while head is positioning<br/>or counts the number of times the link is"
-" reset during a data transfer."
+"Time while head is positioning<br/>or counts the number of times the link is "
+"reset during a data transfer."
 msgstr ""
 
 #: core/smartattribute.cpp:172
@@ -1447,8 +1445,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"<warning>Resizing Bcachefs file system on partition <filename>%1</filename>:"
-" Unmount failed.</warning>"
+"<warning>Resizing Bcachefs file system on partition <filename>%1</filename>: "
+"Unmount failed.</warning>"
 msgstr ""
 
 #: fs/bcachefs.cpp:144
@@ -1829,8 +1827,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Updating boot sector for NTFS file system on partition "
-"<filename>%1</filename>."
+"Updating boot sector for NTFS file system on partition <filename>%1</"
+"filename>."
 msgstr ""
 
 #: fs/ntfs.cpp:194 fs/ntfs.cpp:202
@@ -1898,8 +1896,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Back up file system on partition <filename>%1</filename> to "
-"<filename>%2</filename>"
+"Back up file system on partition <filename>%1</filename> to <filename>%2</"
+"filename>"
 msgstr ""
 
 #: jobs/changepermissionsjob.cpp:49
@@ -1918,9 +1916,9 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Cannot copy file system: File system on target partition "
-"<filename>%1</filename> is smaller than the file system on source partition "
-"<filename>%2</filename>."
+"Cannot copy file system: File system on target partition <filename>%1</"
+"filename> is smaller than the file system on source partition <filename>%2</"
+"filename>."
 msgstr ""
 
 #: jobs/copyfilesystemjob.cpp:56
@@ -1951,16 +1949,16 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Copy file system on partition <filename>%1</filename> to partition "
-"<filename>%2</filename>"
+"Copy file system on partition <filename>%1</filename> to partition <filename>"
+"%2</filename>"
 msgstr ""
 
 #: jobs/createfilesystemjob.cpp:66
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Failed to set the system type for the file system on partition "
-"<filename>%1</filename>."
+"Failed to set the system type for the file system on partition <filename>%1</"
+"filename>."
 msgstr ""
 
 #: jobs/createfilesystemjob.cpp:68
@@ -1983,16 +1981,16 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Create file system <filename>%1</filename> on partition "
-"<filename>%2</filename>"
+"Create file system <filename>%1</filename> on partition <filename>%2</"
+"filename>"
 msgstr ""
 
 #: jobs/createpartitionjob.cpp:72
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid ""
-"Failed to add partition <filename>%1</filename> to device "
-"<filename>%2</filename>."
+"Failed to add partition <filename>%1</filename> to device <filename>%2</"
+"filename>."
 msgstr ""
 
 #: jobs/createpartitionjob.cpp:74
@@ -2027,8 +2025,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Creating partition table failed: Could not open device "
-"<filename>%1</filename>."
+"Creating partition table failed: Could not open device <filename>%1</"
+"filename>."
 msgstr ""
 
 #: jobs/createpartitiontablejob.cpp:61
@@ -2081,8 +2079,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Could not delete file system signature for partition "
-"<filename>%1</filename>: Failed to open device <filename>%2</filename>."
+"Could not delete file system signature for partition <filename>%1</"
+"filename>: Failed to open device <filename>%2</filename>."
 msgstr ""
 
 #: jobs/deletefilesystemjob.cpp:93
@@ -2121,8 +2119,7 @@ msgstr ""
 #: jobs/job.cpp:45
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid ""
-"Source and target for copying do not overlap: Rollback is not required."
+msgid "Source and target for copying do not overlap: Rollback is not required."
 msgstr ""
 
 #: jobs/job.cpp:69
@@ -2190,8 +2187,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Could not create target for moving file system on partition "
-"<filename>%1</filename>."
+"Could not create target for moving file system on partition <filename>%1</"
+"filename>."
 msgstr ""
 
 #: jobs/movefilesystemjob.cpp:63
@@ -2347,7 +2344,8 @@ msgstr ""
 #: jobs/setfilesystemlabeljob.cpp:81
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Set the file system label on partition <filename>%1</filename> to \"%2\""
+msgid ""
+"Set the file system label on partition <filename>%1</filename> to \"%2\""
 msgstr ""
 
 #: jobs/setpartflagsjob.cpp:65
@@ -2410,8 +2408,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Set geometry of partition <filename>%1</filename>: Start sector: %2, length:"
-" %3"
+"Set geometry of partition <filename>%1</filename>: Start sector: %2, length: "
+"%3"
 msgstr ""
 
 #: jobs/setpartitionattributesjob.cpp:47
@@ -2425,8 +2423,7 @@ msgstr ""
 #: jobs/setpartitionattributesjob.cpp:59
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid ""
-"Failed to set the attributes for the partition <filename>%1</filename>."
+msgid "Failed to set the attributes for the partition <filename>%1</filename>."
 msgstr ""
 
 #: jobs/setpartitionattributesjob.cpp:61
@@ -2755,8 +2752,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
-"Move partition <filename>%1</filename> to the left by %2 and grow it from %3"
-" to %4"
+"Move partition <filename>%1</filename> to the left by %2 and grow it from %3 "
+"to %4"
 msgstr ""
 
 #: ops/resizeoperation.cpp:216
@@ -2779,8 +2776,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
-"Move partition <filename>%1</filename> to the right by %2 and shrink it from"
-" %3 to %4"
+"Move partition <filename>%1</filename> to the right by %2 and shrink it from "
+"%3 to %4"
 msgstr ""
 
 #: ops/resizeoperation.cpp:229
@@ -2800,8 +2797,7 @@ msgstr ""
 #: ops/resizeoperation.cpp:263
 #, kde-kuit-format
 msgctxt "@info:status"
-msgid ""
-"Resize/move failed: Could not shrink partition <filename>%1</filename>."
+msgid "Resize/move failed: Could not shrink partition <filename>%1</filename>."
 msgstr ""
 
 #: ops/resizeoperation.cpp:282
@@ -2836,8 +2832,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
-"Resize/move failed: Could not resize the file system on partition "
-"<filename>%1</filename>"
+"Resize/move failed: Could not resize the file system on partition <filename>"
+"%1</filename>"
 msgstr ""
 
 #: ops/resizeoperation.cpp:312
@@ -2884,8 +2880,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
-"Restore partition on <filename>%1</filename> at %2 from "
-"<filename>%3</filename>"
+"Restore partition on <filename>%1</filename> at %2 from <filename>%3</"
+"filename>"
 msgstr ""
 
 #: ops/setfilesystemlabeloperation.cpp:58
@@ -2935,16 +2931,16 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Failed to add partition <filename>%1</filename> to device "
-"<filename>%2</filename>."
+"Failed to add partition <filename>%1</filename> to device <filename>%2</"
+"filename>."
 msgstr ""
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:114
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
-"Could not set geometry for partition <filename>%1</filename> while trying to"
-" resize/move it."
+"Could not set geometry for partition <filename>%1</filename> while trying to "
+"resize/move it."
 msgstr ""
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:124
@@ -3106,8 +3102,7 @@ msgstr[1] ""
 #: util/externalcommandhelper.cpp:288
 #, kde-kuit-format
 msgctxt ""
-"@info:progress argument 2 is a string such as 7 bytes (localized "
-"accordingly)"
+"@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
 msgid "Copying 1 chunk (%2) finished."
 msgid_plural "Copying %1 chunks (%2) finished."
 msgstr[0] ""

@@ -35,10 +35,9 @@ msgid ""
 "\"Mount all removable media at login\" is unchecked. The same applies for "
 "\"Automount on Attach\"."
 msgstr ""
-"अस्मिन् सूचौ प्रणाल्याः ज्ञातानि भण्डारणयन्त्राणि सन्ति । यदि \"Automount on"
-" Login\" इति जाँचितम् अस्ति तर्हि \"Mount all removable media at login\" इति"
-" अचेक् कृत्वा अपि यन्त्रं स्वयमेव माउण्ट् भविष्यति । \"Automount on Attach\""
-" इत्यस्य अपि तथैव भवति ।"
+"अस्मिन् सूचौ प्रणाल्याः ज्ञातानि भण्डारणयन्त्राणि सन्ति । यदि \"Automount on Login\" "
+"इति जाँचितम् अस्ति तर्हि \"Mount all removable media at login\" इति अचेक् कृत्वा अपि "
+"यन्त्रं स्वयमेव माउण्ट् भविष्यति । \"Automount on Attach\" इत्यस्य अपि तथैव भवति ।"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, forgetDevice)
 #: DeviceAutomounterKCM.ui:54
@@ -50,11 +49,10 @@ msgid ""
 "system is set to only automatically mount familiar devices, the device will "
 "not be automatically mounted."
 msgstr ""
-"एतत् बटन् नुदनेन चयनितयन्त्राणि 'विस्मृतानि' भवन्ति । इदं केवलं तदा एव "
-"उपयोगी भवति यदा \"केवलं स्वयमेव हटनीयं माध्यमं माउण्ट् कुर्वन्तु यत् पूर्वं "
-"मैन्युअल् रूपेण माउण्ट् कृतम् अस्ति\" इति परीक्षितम् अस्ति । एकदा यन्त्रं "
-"विस्मृतं भवति तथा च प्रणाली केवलं परिचितयन्त्राणि स्वयमेव माउण्ट् कर्तुं "
-"सेट् भवति तदा यन्त्रं स्वयमेव माउण्ट् न भविष्यति ।"
+"एतत् बटन् नुदनेन चयनितयन्त्राणि 'विस्मृतानि' भवन्ति । इदं केवलं तदा एव उपयोगी भवति यदा "
+"\"केवलं स्वयमेव हटनीयं माध्यमं माउण्ट् कुर्वन्तु यत् पूर्वं मैन्युअल् रूपेण माउण्ट् कृतम् अस्ति\" इति "
+"परीक्षितम् अस्ति । एकदा यन्त्रं विस्मृतं भवति तथा च प्रणाली केवलं परिचितयन्त्राणि स्वयमेव "
+"माउण्ट् कर्तुं सेट् भवति तदा यन्त्रं स्वयमेव माउण्ट् न भविष्यति ।"
 
 #. i18n: ectx: property (text), widget (QPushButton, forgetDevice)
 #: DeviceAutomounterKCM.ui:57
@@ -62,8 +60,7 @@ msgstr ""
 msgid "Forget Device"
 msgstr "Device विस्मरतु"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_AutomountUnknownDevices)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutomountUnknownDevices)
 #: DeviceAutomounterKCM.ui:67
 #, kde-format
 msgid ""
@@ -71,24 +68,20 @@ msgid ""
 "mounted. A device is 'remembered' if it has ever been mounted before. For "
 "instance, plugging in a USB media player to charge is not sufficient to "
 "'remember' it - if the files are not accessed, it will not be automatically "
-"mounted the next time it is seen. Once they have been accessed, however, the"
-" device's contents will be automatically made available to the system."
+"mounted the next time it is seen. Once they have been accessed, however, the "
+"device's contents will be automatically made available to the system."
 msgstr ""
-"यदा एतत् न परीक्षितं भवति तदा केवलं स्मरणीययन्त्राणि एव स्वयमेव माउण्ट् "
-"भविष्यन्ति । यदि पूर्वं कदापि यन्त्रं स्थापितं भवति तर्हि यन्त्रं 'स्मर्यते'"
-" । यथा, चार्जं कर्तुं USB मीडिया प्लेयर् प्लग् करणं तस्य 'स्मरणार्थं' "
-"पर्याप्तं नास्ति - यदि सञ्चिकाः न अभिगताः तर्हि अग्रिमे समये स्वयमेव माउण्ट्"
-" न भविष्यति परन्तु एकदा तेषां अभिगमनं जातं चेत्, यन्त्रस्य सामग्रीः स्वयमेव "
+"यदा एतत् न परीक्षितं भवति तदा केवलं स्मरणीययन्त्राणि एव स्वयमेव माउण्ट् भविष्यन्ति । यदि "
+"पूर्वं कदापि यन्त्रं स्थापितं भवति तर्हि यन्त्रं 'स्मर्यते' । यथा, चार्जं कर्तुं USB मीडिया प्लेयर् "
+"प्लग् करणं तस्य 'स्मरणार्थं' पर्याप्तं नास्ति - यदि सञ्चिकाः न अभिगताः तर्हि अग्रिमे समये "
+"स्वयमेव माउण्ट् न भविष्यति परन्तु एकदा तेषां अभिगमनं जातं चेत्, यन्त्रस्य सामग्रीः स्वयमेव "
 "प्रणाल्याः कृते उपलब्धा भविष्यति ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_AutomountUnknownDevices)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutomountUnknownDevices)
 #: DeviceAutomounterKCM.ui:70
 #, kde-format
-msgid ""
-"Automatically mount removable media that have never been mounted before"
-msgstr ""
-"पूर्वं कदापि न स्थापितानि हटनीयानि माध्यमानि स्वयमेव माउण्ट् कुर्वन्तु"
+msgid "Automatically mount removable media that have never been mounted before"
+msgstr "पूर्वं कदापि न स्थापितानि हटनीयानि माध्यमानि स्वयमेव माउण्ट् कुर्वन्तु"
 
 #: DeviceModel.cpp:52
 #, kde-format

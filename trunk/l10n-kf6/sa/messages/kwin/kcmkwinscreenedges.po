@@ -93,8 +93,8 @@ msgid ""
 "You can trigger an action by pushing the mouse cursor against the "
 "corresponding screen edge or corner."
 msgstr ""
-"भवन्तः मूषकस्य कर्सरं तत्सम्बद्धस्य स्क्रीन-धारस्य अथवा कोणस्य विरुद्धं "
-"धक्कायित्वा क्रियां प्रेरयितुं शक्नुवन्ति ।"
+"भवन्तः मूषकस्य कर्सरं तत्सम्बद्धस्य स्क्रीन-धारस्य अथवा कोणस्य विरुद्धं धक्कायित्वा क्रियां "
+"प्रेरयितुं शक्नुवन्ति ।"
 
 #. i18n: ectx: property (text), widget (QLabel, quickMaximizeLabel)
 #: main.ui:67
@@ -102,8 +102,7 @@ msgstr ""
 msgid "&Maximize:"
 msgstr "&अधिकतमम् : १."
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_ElectricBorderMaximize)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ElectricBorderMaximize)
 #: main.ui:77
 #, kde-format
 msgid "Windows dragged to top edge"
@@ -133,22 +132,19 @@ msgstr "व्यवहार:"
 msgid "Remain active when windows are fullscreen"
 msgstr "यदा विण्डोजः पूर्णपर्दे भवन्ति तदा सक्रियः तिष्ठतु"
 
-#. i18n: ectx: property (text), widget (QLabel,
-#. electricBorderCornerRatioLabel)
+#. i18n: ectx: property (text), widget (QLabel, electricBorderCornerRatioLabel)
 #: main.ui:115
 #, kde-format
 msgid "Trigger &quarter tiling in:"
 msgstr "ट्रिगर & क्वार्टर टाइलिंग in:"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. electricBorderCornerRatioSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, electricBorderCornerRatioSpin)
 #: main.ui:130
 #, no-c-format, kde-format
 msgid "%"
 msgstr "% ."
 
-#. i18n: ectx: property (prefix), widget (QSpinBox,
-#. electricBorderCornerRatioSpin)
+#. i18n: ectx: property (prefix), widget (QSpinBox, electricBorderCornerRatioSpin)
 #: main.ui:133
 #, kde-format
 msgid "Outer "
@@ -164,10 +160,8 @@ msgstr "पटलस्य"
 #: main.ui:174
 #, kde-format
 msgid ""
-"Change desktop when the mouse cursor is pushed against the edge of the "
-"screen"
-msgstr ""
-"यदा मूषकस्य कर्सरः स्क्रीनस्य धारं प्रति धक्कायते तदा डेस्कटॉप् परिवर्तयन्तु"
+"Change desktop when the mouse cursor is pushed against the edge of the screen"
+msgstr "यदा मूषकस्य कर्सरः स्क्रीनस्य धारं प्रति धक्कायते तदा डेस्कटॉप् परिवर्तयन्तु"
 
 #. i18n: ectx: property (text), widget (QLabel, desktopSwitchLabel)
 #: main.ui:177
@@ -201,8 +195,7 @@ msgid ""
 "Amount of time required for the mouse cursor to be pushed against the edge "
 "of the screen before the action is triggered"
 msgstr ""
-"क्रियायाः आरम्भात् पूर्वं मूषकस्य कर्सरस्य पटलस्य धारायाम् उपरि धक्कायितुं "
-"आवश्यकः समयः"
+"क्रियायाः आरम्भात् पूर्वं मूषकस्य कर्सरस्य पटलस्य धारायाम् उपरि धक्कायितुं आवश्यकः समयः"
 
 #. i18n: ectx: property (text), widget (QLabel, activationDelayLabel)
 #: main.ui:209
@@ -211,8 +204,7 @@ msgid "Activation &delay:"
 msgstr "सक्रियता &विलम्बः : १."
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ElectricBorderDelay)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_ElectricBorderCooldown)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ElectricBorderCooldown)
 #: main.ui:219 main.ui:254
 #, kde-format
 msgid " ms"
@@ -225,8 +217,7 @@ msgid ""
 "Amount of time required after triggering an action until the next trigger "
 "can occur"
 msgstr ""
-"क्रियायाः प्रवर्तनानन्तरं यावत् अग्रिमः प्रवर्तकः न भवितुम् अर्हति तावत् "
-"यावत् समयः आवश्यकः"
+"क्रियायाः प्रवर्तनानन्तरं यावत् अग्रिमः प्रवर्तकः न भवितुम् अर्हति तावत् यावत् समयः आवश्यकः"
 
 #. i18n: ectx: property (text), widget (QLabel, triggerCooldownLabel)
 #: main.ui:241
@@ -247,13 +238,12 @@ msgid ""
 "Here you can enable or disable the virtual corner barrier between screens. "
 "The barrier prevents the cursor from moving to another screen when it is "
 "already touching a screen corner. This makes it easier to trigger user "
-"interface elements like maximized windows' close buttons when using multiple"
-" screens."
+"interface elements like maximized windows' close buttons when using multiple "
+"screens."
 msgstr ""
-"अत्र भवान् पटलानां मध्ये वर्चुअल् कोणबाधां सक्षमं निष्क्रियं वा कर्तुं "
-"शक्नोति । यदा पूर्वमेव पटलकोणं स्पृशति तदा कर्सरं अन्यस्मिन् पटलं प्रति "
-"गन्तुं बाधकः निवारयति । एतेन बहुपर्दे उपयोगे अधिकतमविण्डोजस्य बन्दबटन् "
-"इत्यादीनां उपयोक्तृ-अन्तरफलक-तत्त्वानां प्रवर्तनं सुकरं भवति ।"
+"अत्र भवान् पटलानां मध्ये वर्चुअल् कोणबाधां सक्षमं निष्क्रियं वा कर्तुं शक्नोति । यदा पूर्वमेव "
+"पटलकोणं स्पृशति तदा कर्सरं अन्यस्मिन् पटलं प्रति गन्तुं बाधकः निवारयति । एतेन बहुपर्दे उपयोगे "
+"अधिकतमविण्डोजस्य बन्दबटन् इत्यादीनां उपयोक्तृ-अन्तरफलक-तत्त्वानां प्रवर्तनं सुकरं भवति ।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_CornerBarrier)
 #: main.ui:283
@@ -278,10 +268,10 @@ msgid ""
 "interface elements like Plasma Panels that are located on an edge between "
 "screens."
 msgstr ""
-"अत्र भवान् भिन्न-भिन्न-पर्देषु धार-बाधायाः आकारं सेट् कर्तुं शक्नोति । बाधकः"
-" अतिरिक्तं दूरं योजयति यत् भवद्भिः स्वस्य सूचकं अन्यपर्दे धारं लङ्घयितुं "
-"पूर्वं स्थानान्तरितव्यम् । एतेन Plasma Panels इत्यादीनां उपयोक्तृ-अन्तरफलक-"
-"तत्त्वानां प्रवेशः सुलभः भवति ये स्क्रीन-मध्ये धारायाम् स्थिताः सन्ति ।"
+"अत्र भवान् भिन्न-भिन्न-पर्देषु धार-बाधायाः आकारं सेट् कर्तुं शक्नोति । बाधकः अतिरिक्तं दूरं "
+"योजयति यत् भवद्भिः स्वस्य सूचकं अन्यपर्दे धारं लङ्घयितुं पूर्वं स्थानान्तरितव्यम् । एतेन Plasma "
+"Panels इत्यादीनां उपयोक्तृ-अन्तरफलक-तत्त्वानां प्रवेशः सुलभः भवति ये स्क्रीन-मध्ये धारायाम् "
+"स्थिताः सन्ति ।"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_EdgeBarrier)
 #: main.ui:303
@@ -290,8 +280,7 @@ msgctxt "@info:tooltip"
 msgid "Additional distance cursor needs to travel to cross screen edges."
 msgstr ""
 
-#. i18n: ectx: property (specialValueText), widget (QSpinBox,
-#. kcfg_EdgeBarrier)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_EdgeBarrier)
 #: main.ui:306
 #, kde-format
 msgid "None"
@@ -307,8 +296,6 @@ msgstr " px"
 #: touch.ui:17
 #, kde-format
 msgid ""
-"You can trigger an action by swiping from the screen edge towards the center"
-" of the screen."
-msgstr ""
-"स्क्रीन-धारात् स्क्रीन-केन्द्रं प्रति स्वाइप् कृत्वा भवन्तः क्रियां "
-"प्रेरयितुं शक्नुवन्ति ।"
+"You can trigger an action by swiping from the screen edge towards the center "
+"of the screen."
+msgstr "स्क्रीन-धारात् स्क्रीन-केन्द्रं प्रति स्वाइप् कृत्वा भवन्तः क्रियां प्रेरयितुं शक्नुवन्ति ।"

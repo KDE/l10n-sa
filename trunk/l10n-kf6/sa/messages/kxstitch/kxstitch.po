@@ -126,8 +126,7 @@ msgstr "पूर्वनिर्धारितं जूम कारक"
 msgid "Enable color highlighting mode"
 msgstr "वर्णप्रकाशनविधिं सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: label, entry (Renderer_RenderBackgroundImages), group
-#. (renderer)
+#. i18n: ectx: label, entry (Renderer_RenderBackgroundImages), group (renderer)
 #: kxstitch.kcfg:95
 #, kde-format
 msgid "Render the background images"
@@ -459,16 +458,13 @@ msgstr "टेम्पलेट् जनितमुद्रकविन्�
 msgid "Minimum number of cells that can be on a page of its own"
 msgstr "न्यूनतमं कोष्ठकानां संख्या यत् स्वस्य पृष्ठे भवितुम् अर्हति"
 
-#. i18n: ectx: label, entry (PatternElement_SelectedAreaColor), group
-#. (printer)
+#. i18n: ectx: label, entry (PatternElement_SelectedAreaColor), group (printer)
 #: kxstitch.kcfg:359
 #, kde-format
 msgid ""
 "The color used to represented already selected areas in existing pattern "
 "elements"
-msgstr ""
-"प्रयुक्तः वर्णः विद्यमानप्रतिमानतत्त्वेषु पूर्वमेव चयनितक्षेत्राणां "
-"प्रतिनिधित्वं करोति स्म"
+msgstr "प्रयुक्तः वर्णः विद्यमानप्रतिमानतत्त्वेषु पूर्वमेव चयनितक्षेत्राणां प्रतिनिधित्वं करोति स्म"
 
 #. i18n: ectx: label, entry (ImageElement_ShowBorder), group (printer)
 #: kxstitch.kcfg:364
@@ -495,8 +491,7 @@ msgstr "पृष्ठभूमिं पूरयन्तु"
 msgid "The color of the background"
 msgstr "पृष्ठभूमिस्य वर्णः"
 
-#. i18n: ectx: label, entry (KeyElement_BackgroundTransparency), group
-#. (printer)
+#. i18n: ectx: label, entry (KeyElement_BackgroundTransparency), group (printer)
 #: kxstitch.kcfg:397
 #, kde-format
 msgid "Transparency of the background"
@@ -550,8 +545,7 @@ msgstr "कीलतत्त्वं floss name स्तम्भं दर�
 msgid "Show the key element floss strands column"
 msgstr "मुख्यतत्त्वं floss strands स्तम्भं दर्शयतु"
 
-#. i18n: ectx: label, entry (KeyElement_FlossDescriptionColumn), group
-#. (printer)
+#. i18n: ectx: label, entry (KeyElement_FlossDescriptionColumn), group (printer)
 #: kxstitch.kcfg:433
 #, kde-format
 msgid "Show the key element floss description column"
@@ -602,8 +596,7 @@ msgstr "सीमायाः मोटाई १/१० मि.मी"
 msgid "Color of the background"
 msgstr "पृष्ठभूमिस्य वर्णः"
 
-#. i18n: ectx: label, entry (TextElement_BackgroundTransparency), group
-#. (printer)
+#. i18n: ectx: label, entry (TextElement_BackgroundTransparency), group (printer)
 #: kxstitch.kcfg:470
 #, kde-format
 msgid "The transparency value"
@@ -971,8 +964,7 @@ msgstr "पूर्वनिर्धारित (सेन्टिमीट�
 msgid "Default (Inches)"
 msgstr "पूर्वनिर्धारित (इञ्च) २."
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Editor_ClothCountUnits)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_ClothCountUnits)
 #: src/ConfigurationDialogs.cpp:35 ui/PatternConfigPage.ui:164
 #, kde-format
 msgid "Default"
@@ -1036,31 +1028,24 @@ msgid "The floss name %1 was not found"
 msgstr "%1 इति फ्लॉसनाम न प्राप्तम्"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Document_UnitsFormat)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Editor_FormatScalesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderStitchesAs)
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_StitchesColumn)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_FormatScalesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderStitchesAs)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_StitchesColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, StitchesColumn)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderStitchesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
 #: src/Document.cpp:1798 src/Document.cpp:1991 src/Element.cpp:473
 #: src/Element.cpp:508 src/ImportImageDlg.cpp:200 src/MainWindow.cpp:1500
-#: ui/EditorConfigPage.ui:72 ui/EditorConfigPage.ui:304
-#: ui/FileProperties.ui:82 ui/KeyElement.ui:417 ui/PatternConfigPage.ui:86
-#: ui/PatternElement.ui:81 ui/PatternElement.ui:200
-#: ui/PrinterConfigPage.ui:882
+#: ui/EditorConfigPage.ui:72 ui/EditorConfigPage.ui:304 ui/FileProperties.ui:82
+#: ui/KeyElement.ui:417 ui/PatternConfigPage.ui:86 ui/PatternElement.ui:81
+#: ui/PatternElement.ui:200 ui/PrinterConfigPage.ui:882
 #, kde-format
 msgid "Stitches"
 msgstr "सिलाई"
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Editor_ClothCountUnits)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Editor_FormatScalesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_ClothCountUnits)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_FormatScalesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
 #: src/Document.cpp:1802 src/Document.cpp:1995 ui/EditorConfigPage.ui:82
 #: ui/PatternConfigPage.ui:159 ui/PatternElement.ui:210
@@ -1069,12 +1054,9 @@ msgid "CM"
 msgstr "सी. एम."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Document_UnitsFormat)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Editor_ClothCountUnits)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Editor_FormatScalesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_ClothCountUnits)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Editor_FormatScalesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, FormatScalesAs)
 #: src/Document.cpp:1806 src/Document.cpp:1999 src/ImportImageDlg.cpp:206
 #: src/MainWindow.cpp:1514 ui/EditorConfigPage.ui:77 ui/FileProperties.ui:87
@@ -1105,8 +1087,8 @@ msgid ""
 "There are insufficient symbols available in the symbol library for this "
 "pattern. An extra %1 are required."
 msgstr ""
-"अस्य प्रतिरूपस्य कृते प्रतीकपुस्तकालये अपर्याप्तचिह्नानि उपलभ्यन्ते । "
-"अतिरिक्तं %1 आवश्यकम् अस्ति ।"
+"अस्य प्रतिरूपस्य कृते प्रतीकपुस्तकालये अपर्याप्तचिह्नानि उपलभ्यन्ते । अतिरिक्तं %1 आवश्यकम् अस्ति "
+"।"
 
 #: src/DocumentPalette.cpp:416
 #, kde-format
@@ -1186,8 +1168,7 @@ msgctxt "The name of the floss"
 msgid "Name"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_StrandsColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_StrandsColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, StrandsColumn)
 #: src/Element.cpp:471 src/Element.cpp:500 ui/KeyElement.ui:403
 #: ui/PrinterConfigPage.ui:872
@@ -1249,8 +1230,7 @@ msgid "Import Image - Image Size %1 x %2 pixels"
 msgstr "चित्रं आयातयतु - चित्रस्य आकारः %1 x %2 पिक्सेलः"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, UnitsFormat)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Document_UnitsFormat)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Document_UnitsFormat)
 #: src/ImportImageDlg.cpp:212 src/MainWindow.cpp:1507 ui/FileProperties.ui:92
 #: ui/PatternConfigPage.ui:96
 #, kde-format
@@ -1428,8 +1408,7 @@ msgstr "श्रेणी विद्यते"
 msgid "Delete this pattern."
 msgstr "एतत् प्रतिरूपं विलोपयन्तु।"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget,
-#. LibraryPatternProperties)
+#. i18n: ectx: property (windowTitle), widget (QWidget, LibraryPatternProperties)
 #: src/LibraryPatternPropertiesDlg.cpp:30 ui/LibraryPatternProperties.ui:14
 #, kde-format
 msgid "Library Pattern Properties"
@@ -1816,8 +1795,7 @@ msgstr "पुस्तकालय प्रबन्धक..."
 msgid "Regular Stitches"
 msgstr "नियमित सिलाई"
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderBackstitchesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderBackstitchesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderStitchesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderBackstitchesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderKnotsAs)
@@ -1828,10 +1806,8 @@ msgstr "नियमित सिलाई"
 msgid "Black & White Symbols"
 msgstr "कृष्ण & श्वेत प्रतीक"
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderStitchesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderKnotsAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderStitchesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderKnotsAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderStitchesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderKnotsAs)
 #: src/MainWindow.cpp:1544 src/MainWindow.cpp:1617 ui/EditorConfigPage.ui:314
@@ -1840,10 +1816,8 @@ msgstr "कृष्ण & श्वेत प्रतीक"
 msgid "Color Symbols"
 msgstr "वर्ण प्रतीक"
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderStitchesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderKnotsAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderStitchesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderKnotsAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderStitchesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderKnotsAs)
 #: src/MainWindow.cpp:1553 src/MainWindow.cpp:1598 ui/EditorConfigPage.ui:319
@@ -1858,8 +1832,7 @@ msgstr "वर्णखण्डाः"
 msgid "Color Blocks & Symbols"
 msgstr "रंग खण्ड एवं प्रतीक"
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderBackstitchesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderBackstitchesAs)
 #. i18n: ectx: property (text), item, widget (KComboBox, RenderBackstitchesAs)
 #: src/MainWindow.cpp:1575 ui/EditorConfigPage.ui:340 ui/PatternElement.ui:127
 #, kde-format
@@ -1956,8 +1929,8 @@ msgstr "पृष्ठ गुण"
 #: src/Palette.cpp:132
 #, kde-format
 msgctxt ""
-"%1 is the number of stitches of a particular floss, %2 is the floss name and"
-" %3 the floss description"
+"%1 is the number of stitches of a particular floss, %2 is the floss name and "
+"%3 the floss description"
 msgid ""
 "%2 %3\n"
 "%1 Stitch"
@@ -1994,8 +1967,7 @@ msgstr "तत्र अधिकानि प्रतीकाः न उप�
 msgid ""
 "The selected symbol library does not have enough symbols for the flosses in "
 "the palette."
-msgstr ""
-"चयनितचिह्नपुस्तकालयस्य पॅलेट् मध्ये फ्लॉस्स् कृते पर्याप्तं चिह्नं नास्ति ।"
+msgstr "चयनितचिह्नपुस्तकालयस्य पॅलेट् मध्ये फ्लॉस्स् कृते पर्याप्तं चिह्नं नास्ति ।"
 
 #: src/Pattern.cpp:284
 #, kde-format
@@ -2311,44 +2283,38 @@ msgstr "प्रतिपादकः"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Renderer_RenderGrid)
 #. i18n: ectx: property (text), widget (QCheckBox, ShowGrid)
-#: ui/EditorConfigPage.ui:245 ui/PageProperties.ui:179
-#: ui/PatternElement.ui:218
+#: ui/EditorConfigPage.ui:245 ui/PageProperties.ui:179 ui/PatternElement.ui:218
 #, kde-format
 msgid "Show grid"
 msgstr "जालं दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_Renderer_RenderBackgroundImages)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Renderer_RenderBackgroundImages)
 #: ui/EditorConfigPage.ui:252
 #, kde-format
 msgid "Show background images"
 msgstr "पृष्ठभूमिचित्रं दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_Renderer_RenderStitches)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Renderer_RenderStitches)
 #. i18n: ectx: property (text), widget (QCheckBox, ShowStitches)
 #: ui/EditorConfigPage.ui:259 ui/PatternElement.ui:63
 #, kde-format
 msgid "Show stitches"
 msgstr "सिलाईं दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_Renderer_RenderStitchHints)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Renderer_RenderStitchHints)
 #: ui/EditorConfigPage.ui:266
 #, kde-format
 msgid "Show stitch hints"
 msgstr "सिलाई संकेतं दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_Renderer_RenderBackstitches)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Renderer_RenderBackstitches)
 #. i18n: ectx: property (text), widget (QCheckBox, ShowBackstitches)
 #: ui/EditorConfigPage.ui:273 ui/PatternElement.ui:109
 #, kde-format
 msgid "Show backstitches"
 msgstr "पृष्ठसिलेखान् दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_Renderer_RenderFrenchKnots)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Renderer_RenderFrenchKnots)
 #. i18n: ectx: property (text), widget (QCheckBox, ShowKnots)
 #: ui/EditorConfigPage.ui:280 ui/PatternElement.ui:140
 #, kde-format
@@ -2367,19 +2333,15 @@ msgstr "रङ्ग हाइलाइट्"
 msgid "Render stitches as"
 msgstr "सिलेन्थान् यथा प्रस्तुतं कुर्वन्तु"
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderStitchesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderKnotsAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderStitchesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderKnotsAs)
 #: ui/EditorConfigPage.ui:309 ui/EditorConfigPage.ui:376
 #, kde-format
 msgid "Black and White Symbols"
 msgstr "कृष्णशुक्लचिह्नानि"
 
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderStitchesAs)
-#. i18n: ectx: property (text), item, widget (KComboBox,
-#. kcfg_Renderer_RenderKnotsAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderStitchesAs)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Renderer_RenderKnotsAs)
 #: ui/EditorConfigPage.ui:324 ui/EditorConfigPage.ui:366
 #, kde-format
 msgid "Color Blocks and Symbols"
@@ -2403,8 +2365,7 @@ msgstr "ग्रन्थिः यथा भवति"
 msgid "Tools"
 msgstr "उपकरणाः"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_ToolShapes_UseFractionals)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ToolShapes_UseFractionals)
 #: ui/EditorConfigPage.ui:396
 #, kde-format
 msgid "Tool Fractionals"
@@ -2523,12 +2484,12 @@ msgstr "निर्देशाः"
 #, kde-format
 msgid ""
 "<html><head/><body>Click and drag to select the area of the pattern to be "
-"displayed.<br />Grayed out areas have already been selected on this or other"
-" pages.</body></html>"
+"displayed.<br />Grayed out areas have already been selected on this or other "
+"pages.</body></html>"
 msgstr ""
-"<html><head/><body>प्रदर्शनीयस्य प्रतिमानस्य क्षेत्रं चिन्वन्तु इति क्लिक् "
-"कृत्वा कर्षयन्तु ।<br /> अस्मिन् वा अन्येषु वा पृष्ठेषु ग्रे-आउट् क्षेत्राणि"
-" पूर्वमेव चयनितानि सन्ति ।</body></html>"
+"<html><head/><body>प्रदर्शनीयस्य प्रतिमानस्य क्षेत्रं चिन्वन्तु इति क्लिक् कृत्वा कर्षयन्तु ।"
+"<br /> अस्मिन् वा अन्येषु वा पृष्ठेषु ग्रे-आउट् क्षेत्राणि पूर्वमेव चयनितानि सन्ति ।</body></"
+"html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
@@ -2540,8 +2501,7 @@ msgstr ""
 msgid "Border"
 msgstr "सीमा"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_TextElement_ShowBorder)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextElement_ShowBorder)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_ShowBorder)
 #. i18n: ectx: property (text), widget (QCheckBox, ShowBorder)
 #: ui/ImageElement.ui:67 ui/KeyElement.ui:174 ui/PrinterConfigPage.ui:472
@@ -2572,33 +2532,20 @@ msgstr "रेखास्थूलता"
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Page_MarginRight)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Page_MarginTop)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Page_MarginBottom)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_PatternElement_MarginLeft)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_PatternElement_MarginRight)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_PatternElement_MarginTop)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_PatternElement_MarginBottom)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_TextElement_BorderThickness)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_TextElement_MarginLeft)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_TextElement_MarginRight)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_TextElement_MarginTop)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_TextElement_MarginBottom)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_KeyElement_BorderThickness)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_KeyElement_MarginLeft)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_KeyElement_MarginRight)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_PatternElement_MarginLeft)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_PatternElement_MarginRight)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_PatternElement_MarginTop)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_PatternElement_MarginBottom)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TextElement_BorderThickness)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TextElement_MarginLeft)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TextElement_MarginRight)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TextElement_MarginTop)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TextElement_MarginBottom)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_KeyElement_BorderThickness)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_KeyElement_MarginLeft)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_KeyElement_MarginRight)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_KeyElement_MarginTop)
-#. i18n: ectx: property (suffix), widget (QSpinBox,
-#. kcfg_KeyElement_MarginBottom)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_KeyElement_MarginBottom)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, BorderThickness)
 #. i18n: ectx: property (suffix), widget (QSpinBox, MarginTop)
 #. i18n: ectx: property (suffix), widget (QSpinBox, MarginLeft)
@@ -2617,9 +2564,9 @@ msgstr "रेखास्थूलता"
 #: ui/PrinterConfigPage.ui:564 ui/PrinterConfigPage.ui:584
 #: ui/PrinterConfigPage.ui:604 ui/PrinterConfigPage.ui:681
 #: ui/PrinterConfigPage.ui:767 ui/PrinterConfigPage.ui:787
-#: ui/PrinterConfigPage.ui:807 ui/PrinterConfigPage.ui:827
-#: ui/TextElement.ui:45 ui/TextElement.ui:74 ui/TextElement.ui:103
-#: ui/TextElement.ui:132 ui/TextElement.ui:204
+#: ui/PrinterConfigPage.ui:807 ui/PrinterConfigPage.ui:827 ui/TextElement.ui:45
+#: ui/TextElement.ui:74 ui/TextElement.ui:103 ui/TextElement.ui:132
+#: ui/TextElement.ui:204
 #, kde-format
 msgid "mm"
 msgstr "मि.मी"
@@ -2631,8 +2578,7 @@ msgid "Import Configuration"
 msgstr "आयात विन्यासः"
 
 #. i18n: ectx: property (text), widget (QCheckBox, UseMaximumColors)
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_Import_UseMaximumColors)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Import_UseMaximumColors)
 #: ui/ImportConfigPage.ui:20 ui/ImportImage.ui:71
 #, kde-format
 msgid "Maximum colors"
@@ -2750,13 +2696,11 @@ msgctxt "Groupbox title for background properties"
 msgid "Background"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_TextElement_FillBackground)
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_FillBackground)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TextElement_FillBackground)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_FillBackground)
 #. i18n: ectx: property (text), widget (QCheckBox, FillBackground)
-#: ui/KeyElement.ui:246 ui/PrinterConfigPage.ui:456
-#: ui/PrinterConfigPage.ui:699 ui/TextElement.ui:238
+#: ui/KeyElement.ui:246 ui/PrinterConfigPage.ui:456 ui/PrinterConfigPage.ui:699
+#: ui/TextElement.ui:238
 #, kde-format
 msgid "Fill background"
 msgstr "पृष्ठभूमिं पूरयन्तु"
@@ -2765,8 +2709,8 @@ msgstr "पृष्ठभूमिं पूरयन्तु"
 #. i18n: ectx: property (text), widget (QLabel, label_26)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: ui/KeyElement.ui:269 ui/PrinterConfigPage.ui:436
-#: ui/PrinterConfigPage.ui:723 ui/TextElement.ui:262
+#: ui/KeyElement.ui:269 ui/PrinterConfigPage.ui:436 ui/PrinterConfigPage.ui:723
+#: ui/TextElement.ui:262
 #, kde-format
 msgid "Transparency"
 msgstr "पारदर्शिता"
@@ -2826,8 +2770,7 @@ msgstr "स्तम्भाः"
 msgid "Color"
 msgstr "वर्ण"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_FlossNameColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_FlossNameColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, FlossNameColumn)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ui/KeyElement.ui:396 ui/NewFloss.ui:34 ui/PrinterConfigPage.ui:855
@@ -2835,24 +2778,21 @@ msgstr "वर्ण"
 msgid "Floss name"
 msgstr "फ्लॉस नाम"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_FlossDescriptionColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_FlossDescriptionColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, FlossDescriptionColumn)
 #: ui/KeyElement.ui:410 ui/PrinterConfigPage.ui:865
 #, kde-format
 msgid "Floss description"
 msgstr "फ्लॉस वर्णन"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_LengthColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_LengthColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, LengthColumn)
 #: ui/KeyElement.ui:424 ui/PrinterConfigPage.ui:889
 #, kde-format
 msgid "Length"
 msgstr "दैर्घ्यम्‌"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_SkeinsColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_SkeinsColumn)
 #. i18n: ectx: property (text), widget (QCheckBox, SkeinsColumn)
 #: ui/KeyElement.ui:431 ui/PrinterConfigPage.ui:896
 #, kde-format
@@ -3279,8 +3219,7 @@ msgstr "स्थूलता"
 msgid "Elements"
 msgstr "तत्त्वानि"
 
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_KeyElement_SymbolColumn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeyElement_SymbolColumn)
 #: ui/PrinterConfigPage.ui:845
 #, kde-format
 msgid "Symbols"

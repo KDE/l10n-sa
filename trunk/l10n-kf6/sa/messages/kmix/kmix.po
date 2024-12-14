@@ -116,10 +116,8 @@ msgstr "सोलारिस् समर्थनम्"
 
 #. i18n("Helge Deller")      , i18n("HP/UX port"), "deller@gmx.de");
 #. The initial support was for ALSA 0.5. The new code is not based on it IIRC.
-#. i18n("Nick Lopez")        , i18n("Initial ALSA port"),
-#. "kimo_sabe@usa.net");
-#. Credit Policy: Authors who did a discrete part, like the Dataengine, OSD,
-#. help on specific platforms or soundcards.
+#. i18n("Nick Lopez")        , i18n("Initial ALSA port"), "kimo_sabe@usa.net");
+#. Credit Policy: Authors who did a discrete part, like the Dataengine, OSD, help on specific platforms or soundcards.
 #: apps/kmixmain.cpp:74
 #, kde-format
 msgid "Jonathan Marten"
@@ -366,8 +364,7 @@ msgid ""
 "The current master device was disconnected. Changing master to '%1' on "
 "device '%2'."
 msgstr ""
-"वर्तमानस्य मुख्ययन्त्रस्य संयोजनं विच्छिन्नम् आसीत् । '%2' उपकरणे '%1' इति "
-"मास्टरं परिवर्तयन् ।"
+"वर्तमानस्य मुख्ययन्त्रस्य संयोजनं विच्छिन्नम् आसीत् । '%2' उपकरणे '%1' इति मास्टरं परिवर्तयन् ।"
 
 #: apps/kmixwindow.cpp:941
 #, kde-format
@@ -546,8 +543,8 @@ msgid ""
 "Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
 msgstr ""
 "kmix: भवतः मिश्रकयन्त्रं प्राप्तुं अनुमतिः नास्ति ।\n"
-"रूट् इति रूपेण प्रवेशं कुर्वन्तु तथा च अभिगमनस्य अनुमतिं दातुं 'chmod a+rw /de"
-"v/mixer*' कुर्वन्तु ।"
+"रूट् इति रूपेण प्रवेशं कुर्वन्तु तथा च अभिगमनस्य अनुमतिं दातुं 'chmod a+rw /dev/mixer*' "
+"कुर्वन्तु ।"
 
 #: backends/mixer_oss.cpp:244
 #, kde-format
@@ -561,8 +558,7 @@ msgstr ""
 "kmix: मिश्रकः न लभ्यते।\n"
 "कृपया पश्यन्तु यत् ध्वनिपत्रं संस्थापितम् अस्ति तथा च...\n"
 "soundcard चालकः लोड् भवति।\n"
-"Linux इत्यत्र भवद्भिः चालकं लोड् कर्तुं 'insmod' इत्यस्य उपयोगः करणीयः भवेत् ।"
-"\n"
+"Linux इत्यत्र भवद्भिः चालकं लोड् कर्तुं 'insmod' इत्यस्य उपयोगः करणीयः भवेत् ।\n"
 "व्यावसायिक OSS इत्यस्य उपयोगं कुर्वन् 'soundon' इत्यस्य उपयोगं कुर्वन्तु ।"
 
 #: backends/mixer_oss4.cpp:530
@@ -577,8 +573,7 @@ msgstr ""
 "kmix: मिश्रकः न लभ्यते।\n"
 "कृपया पश्यन्तु यत् ध्वनिपत्रं संस्थापितम् अस्ति तथा च...\n"
 "soundcard चालकः लोड् भवति।\n"
-"Linux इत्यत्र भवद्भिः चालकं लोड् कर्तुं 'insmod' इत्यस्य उपयोगः करणीयः भवेत् ।"
-"\n"
+"Linux इत्यत्र भवद्भिः चालकं लोड् कर्तुं 'insmod' इत्यस्य उपयोगः करणीयः भवेत् ।\n"
 "4front तः OSS4 इत्यस्य उपयोगं कुर्वन् 'soundon' इत्यस्य उपयोगं कुर्वन्तु ।"
 
 #: backends/mixer_pulse.cpp:352 backends/mixer_pulse.cpp:409
@@ -653,8 +648,7 @@ msgid ""
 "Ask your system administrator to fix /dev/audioctl to allow access."
 msgstr ""
 "kmix: भवतः मिश्रकयन्त्रं प्राप्तुं अनुमतिः नास्ति ।\n"
-"अभिगमनस्य अनुमतिं दातुं /dev/audioctl इति निश्चयं कर्तुं स्वस्य प्रणालीप्रशासक"
-"ं पृच्छन्तु ।"
+"अभिगमनस्य अनुमतिं दातुं /dev/audioctl इति निश्चयं कर्तुं स्वस्य प्रणालीप्रशासकं पृच्छन्तु ।"
 
 #: backends/mixerbackend.cpp:324
 #, kde-format
@@ -663,8 +657,7 @@ msgid ""
 "Please check your operating systems manual to allow the access."
 msgstr ""
 "kmix:भवतः मिश्रकयन्त्रं प्राप्तुं अनुमतिः नास्ति ।\n"
-"कृपया प्रवेशस्य अनुमतिं दातुं स्वस्य प्रचालनतन्त्रपुस्तिकायाः जाँचं कुर्वन्तु "
-"।"
+"कृपया प्रवेशस्य अनुमतिं दातुं स्वस्य प्रचालनतन्त्रपुस्तिकायाः जाँचं कुर्वन्तु ।"
 
 #: backends/mixerbackend.cpp:328
 #, kde-format
@@ -700,15 +693,14 @@ msgstr "माइक्रोफोन-निवेशस्य रिकार�
 #: backends/mixerbackend.cpp:352
 #, kde-format
 msgid ""
-"Controls the volume of the front speakers or all speakers (depending on your"
-" soundcard model). If you use a digital output, you might need to also use "
+"Controls the volume of the front speakers or all speakers (depending on your "
+"soundcard model). If you use a digital output, you might need to also use "
 "other controls like ADC or DAC. For headphones, soundcards often supply a "
 "Headphone control."
 msgstr ""
-"अग्रे स्पीकरस्य अथवा सर्वेषां स्पीकरस्य (भवतः ध्वनिकार्ड मॉडलस्य आधारेण) "
-"मात्रां नियन्त्रयति । यदि भवान् डिजिटल आउटपुट् उपयुङ्क्ते तर्हि अन्येषां "
-"नियन्त्रणानां अपि उपयोगं कर्तुं शक्नोति यथा ADC अथवा DAC । हेडफोनस्य कृते "
-"ध्वनिकार्ड् प्रायः हेडफोननियन्त्रणं प्रयच्छति ।"
+"अग्रे स्पीकरस्य अथवा सर्वेषां स्पीकरस्य (भवतः ध्वनिकार्ड मॉडलस्य आधारेण) मात्रां नियन्त्रयति "
+"। यदि भवान् डिजिटल आउटपुट् उपयुङ्क्ते तर्हि अन्येषां नियन्त्रणानां अपि उपयोगं कर्तुं शक्नोति "
+"यथा ADC अथवा DAC । हेडफोनस्य कृते ध्वनिकार्ड् प्रायः हेडफोननियन्त्रणं प्रयच्छति ।"
 
 #: backends/mixerbackend.cpp:353
 #, kde-format
@@ -717,19 +709,18 @@ msgid ""
 "As such, the playback volume of such media is controlled by both this and "
 "the Master or Headphone channels."
 msgstr ""
-"अधिकांशं माध्यमं, यथा MP3s अथवा Videos, PCM चैनलस्य उपयोगेन वाद्यते । अतः "
-"एतादृशानां माध्यमानां प्लेबैक-आयतनं एतेन तथा च Master अथवा Headphone चैनल् "
-"इत्येतयोः द्वयोः द्वारा नियन्त्रितं भवति ।"
+"अधिकांशं माध्यमं, यथा MP3s अथवा Videos, PCM चैनलस्य उपयोगेन वाद्यते । अतः एतादृशानां "
+"माध्यमानां प्लेबैक-आयतनं एतेन तथा च Master अथवा Headphone चैनल् इत्येतयोः द्वयोः द्वारा "
+"नियन्त्रितं भवति ।"
 
 #: backends/mixerbackend.cpp:354
 #, kde-format
 msgid ""
-"Controls the headphone volume. Some soundcards include a switch that must be"
-" manually activated to enable the headphone output."
+"Controls the headphone volume. Some soundcards include a switch that must be "
+"manually activated to enable the headphone output."
 msgstr ""
-"हेडफोनस्य मात्रां नियन्त्रयति । केषुचित् ध्वनिकार्ड्-मध्ये एकः स्विच् "
-"अन्तर्भवति यत् हेडफोन-निर्गमं सक्षमं कर्तुं हस्तचलितरूपेण सक्रियः "
-"भवितुमर्हति ।"
+"हेडफोनस्य मात्रां नियन्त्रयति । केषुचित् ध्वनिकार्ड्-मध्ये एकः स्विच् अन्तर्भवति यत् हेडफोन-"
+"निर्गमं सक्षमं कर्तुं हस्तचलितरूपेण सक्रियः भवितुमर्हति ।"
 
 #: backends/mixerbackend.cpp:355
 #, kde-format
@@ -871,9 +862,7 @@ msgstr "चैनल्स् विन्यस्तं कुर्वन्�
 #: gui/dialogviewconfiguration.cpp:143
 #, kde-format
 msgid "Configure the visible channels. Drag icons between the lists to update."
-msgstr ""
-"दृश्यमानं चैनल्स् विन्यस्यताम्। अद्यतनीकरणार्थं सूचीनां मध्ये चिह्नानि "
-"कर्षयन्तु ।"
+msgstr "दृश्यमानं चैनल्स् विन्यस्यताम्। अद्यतनीकरणार्थं सूचीनां मध्ये चिह्नानि कर्षयन्तु ।"
 
 #: gui/dialogviewconfiguration.cpp:213
 #, kde-format
@@ -987,8 +976,7 @@ msgstr ""
 #: gui/kmixprefdlg.cpp:141
 #, kde-format
 msgid "Restore previous volume settings on desktop startup"
-msgstr ""
-"डेस्कटॉप् स्टार्टअप इत्यत्र पूर्ववर्ती वॉल्यूम सेटिंग्स् पुनः स्थापयन्तु"
+msgstr "डेस्कटॉप् स्टार्टअप इत्यत्र पूर्ववर्ती वॉल्यूम सेटिंग्स् पुनः स्थापयन्तु"
 
 #: gui/kmixprefdlg.cpp:145
 #, kde-format
@@ -996,15 +984,14 @@ msgid ""
 "Restore all mixer volume levels and switches to their last used settings "
 "when the desktop starts"
 msgstr ""
-"सर्वाणि मिश्रकस्य आयतनस्तराः पुनः स्थापयन्तु तथा च डेस्कटॉप् आरभ्यते तदा "
-"तेषां अन्तिमप्रयुक्तसेटिंग्स् प्रति स्विच् कुर्वन्तु"
+"सर्वाणि मिश्रकस्य आयतनस्तराः पुनः स्थापयन्तु तथा च डेस्कटॉप् आरभ्यते तदा तेषां "
+"अन्तिमप्रयुक्तसेटिंग्स् प्रति स्विच् कुर्वन्तु"
 
 #: gui/kmixprefdlg.cpp:148
 #, kde-format
 msgid ""
 "The volume of PulseAudio or MPRIS2 dynamic controls will not be restored."
-msgstr ""
-"PulseAudio अथवा MPRIS2 गतिशीलनियन्त्रणानां आयतनं पुनः न स्थापितं भविष्यति ।"
+msgstr "PulseAudio अथवा MPRIS2 गतिशीलनियन्त्रणानां आयतनं पुनः न स्थापितं भविष्यति ।"
 
 #: gui/kmixprefdlg.cpp:166
 #, kde-format
@@ -1058,18 +1045,16 @@ msgstr ""
 #: gui/kmixprefdlg.cpp:264
 #, kde-format
 msgid "Volume feedback is only available when configured with Canberra."
-msgstr ""
-"मात्राप्रतिक्रिया केवलं तदा एव उपलभ्यते यदा केनबरा-सहितं विन्यस्तं भवति ।"
+msgstr "मात्राप्रतिक्रिया केवलं तदा एव उपलभ्यते यदा केनबरा-सहितं विन्यस्तं भवति ।"
 
 #: gui/kmixprefdlg.cpp:286
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
-"<para>Set the volume step as a percentage of the volume "
-"range.</para><para>This affects changing the volume via hot keys, with the "
-"mouse wheel over the system tray icon, or moving sliders by a page "
-"step.</para><para>%1 must be restarted for this change to take "
-"effect.</para>"
+"<para>Set the volume step as a percentage of the volume range.</"
+"para><para>This affects changing the volume via hot keys, with the mouse "
+"wheel over the system tray icon, or moving sliders by a page step.</"
+"para><para>%1 must be restarted for this change to take effect.</para>"
 msgstr ""
 
 #: gui/kmixprefdlg.cpp:293
@@ -1130,8 +1115,7 @@ msgstr "मुख्यविण्डो नियन्त्रणस्ल�
 #: gui/kmixprefdlg.cpp:336
 #, kde-format
 msgid "Set the orientation of the system tray volume control sliders"
-msgstr ""
-"सिस्टम् ट्रे वॉल्यूम् कण्ट्रोल् स्लाइडर् इत्यस्य अभिमुखीकरणं सेट् कुर्वन्तु"
+msgstr "सिस्टम् ट्रे वॉल्यूम् कण्ट्रोल् स्लाइडर् इत्यस्य अभिमुखीकरणं सेट् कुर्वन्तु"
 
 #: gui/kmixprefdlg.cpp:348
 #, kde-format
@@ -1144,8 +1128,8 @@ msgid ""
 "Dock the mixer into the system tray. Click on it to open the popup volume "
 "control."
 msgstr ""
-"मिश्रकं सिस्टम् ट्रे मध्ये डॉक् कुर्वन्तु। तस्मिन् क्लिक् कृत्वा popup "
-"volume control उद्घाटयितुं शक्यते ।"
+"मिश्रकं सिस्टम् ट्रे मध्ये डॉक् कुर्वन्तु। तस्मिन् क्लिक् कृत्वा popup volume control उद्घाटयितुं "
+"शक्यते ।"
 
 #: gui/kmixprefdlg.cpp:355
 #, kde-format
@@ -1161,9 +1145,7 @@ msgstr "Mixers इति चयनं कुर्वन्तु"
 #, kde-format
 msgid ""
 "The mixers that are checked here will be shown in the popup volume control."
-msgstr ""
-"अत्र ये मिश्रकाः परीक्षिताः ते popup volume control मध्ये दर्शिताः "
-"भविष्यन्ति ।"
+msgstr "अत्र ये मिश्रकाः परीक्षिताः ते popup volume control मध्ये दर्शिताः भविष्यन्ति ।"
 
 #: gui/kmixtoolbox.cpp:96
 #, kde-format
