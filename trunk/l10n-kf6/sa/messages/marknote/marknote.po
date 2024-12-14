@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the marknote package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: marknote\n"
@@ -13,45 +13,8 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#: application.cpp:34
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "New Notebook"
-msgstr ""
-
-#: application.cpp:43
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "New Note"
-msgstr ""
-
-#: application.cpp:59
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Import from KNotes"
-msgstr ""
-
-#: application.cpp:66
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Import from Maildir"
-msgstr ""
-
-#: maildirimport.cpp:91
-#, kde-format
-msgctxt "@status"
-msgid "An error occurred while writing to '%1'"
-msgstr ""
-
-#: main.cpp:68 qml/Main.qml:345
-#, kde-format
-msgctxt "Application name"
-msgid "Marknote"
-msgstr ""
 
 #: main.cpp:70
 #, kde-format
@@ -78,24 +41,6 @@ msgstr "परिपालकः"
 msgid "Carl Schwan"
 msgstr "कार्ल स्वान्"
 
-#: main.cpp:83
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: main.cpp:83
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#: notesmodel.cpp:112
-#, kde-format
-msgctxt "@info:status"
-msgid "Unable to rename note. A note already exists with the same name."
-msgstr ""
-
 #: qml/EditPage.qml:77 qml/EditPage.qml:551 qml/EditPage.qml:564
 #, kde-format
 msgid "undo"
@@ -110,133 +55,6 @@ msgstr "पुनः करोतु"
 #, kde-format
 msgid "Focus Mode"
 msgstr "फोकस मोड"
-
-#: qml/EditPage.qml:161 qml/NativeWindowMenu.qml:21 qml/NotesPage.qml:169
-#: qml/WelcomePage.qml:29
-#, kde-format
-msgctxt "@action:menu"
-msgid "Exit Full Screen"
-msgstr ""
-
-#: qml/EditPage.qml:212
-#, kde-format
-msgctxt "@action:button"
-msgid "Bold"
-msgstr ""
-
-#: qml/EditPage.qml:231
-#, kde-format
-msgctxt "@action:button"
-msgid "Italic"
-msgstr ""
-
-#: qml/EditPage.qml:250
-#, kde-format
-msgctxt "@action:button"
-msgid "Underline"
-msgstr ""
-
-#: qml/EditPage.qml:264
-#, kde-format
-msgctxt "@action:button"
-msgid "Strikethrough"
-msgstr ""
-
-#: qml/EditPage.qml:282
-#, kde-format
-msgctxt "@action:button"
-msgid "Increase List Level"
-msgstr ""
-
-#: qml/EditPage.qml:293
-#, kde-format
-msgctxt "@action:button"
-msgid "Decrease List Level"
-msgstr ""
-
-#: qml/EditPage.qml:335
-#, kde-format
-msgctxt "@item:inmenu no list style"
-msgid "No list"
-msgstr ""
-
-#: qml/EditPage.qml:336
-#, kde-format
-msgctxt "@item:inmenu unordered style"
-msgid "Unordered list"
-msgstr ""
-
-#: qml/EditPage.qml:337
-#, kde-format
-msgctxt "@item:inmenu ordered style"
-msgid "Ordered list"
-msgstr ""
-
-#: qml/EditPage.qml:347
-#, kde-format
-msgctxt "@action:button"
-msgid "Insert checkbox"
-msgstr ""
-
-#: qml/EditPage.qml:362
-#, kde-format
-msgctxt "@action:button"
-msgid "Insert link"
-msgstr ""
-
-#: qml/EditPage.qml:378
-#, kde-format
-msgctxt "@action:button"
-msgid "Insert image"
-msgstr ""
-
-#: qml/EditPage.qml:391
-#, kde-format
-msgctxt "@action:button"
-msgid "Insert table"
-msgstr ""
-
-#: qml/EditPage.qml:411
-#, kde-format
-msgctxt "@item:inmenu no heading"
-msgid "Basic text"
-msgstr ""
-
-#: qml/EditPage.qml:412
-#, kde-format
-msgctxt "@item:inmenu heading level 1 (largest)"
-msgid "Title"
-msgstr ""
-
-#: qml/EditPage.qml:413
-#, kde-format
-msgctxt "@item:inmenu heading level 2"
-msgid "Subtitle"
-msgstr ""
-
-#: qml/EditPage.qml:414
-#, kde-format
-msgctxt "@item:inmenu heading level 3"
-msgid "Section"
-msgstr ""
-
-#: qml/EditPage.qml:415
-#, kde-format
-msgctxt "@item:inmenu heading level 4"
-msgid "Subsection"
-msgstr ""
-
-#: qml/EditPage.qml:416
-#, kde-format
-msgctxt "@item:inmenu heading level 5"
-msgid "Paragraph"
-msgstr ""
-
-#: qml/EditPage.qml:417
-#, kde-format
-msgctxt "@item:inmenu heading level 6 (smallest)"
-msgid "Subparagraph"
-msgstr ""
 
 #: qml/EditPage.qml:597
 #, kde-format
@@ -253,30 +71,6 @@ msgstr "सूचीः"
 msgid "Insert"
 msgstr "युज्"
 
-#: qml/FormIconDelegate.qml:17
-#, kde-format
-msgctxt "@action:button"
-msgid "Icon"
-msgstr ""
-
-#: qml/GlobalMenuBar.qml:18
-#, kde-format
-msgctxt "@action:menu"
-msgid "Settings"
-msgstr ""
-
-#: qml/ImageDialog.qml:18
-#, kde-format
-msgctxt "@title:window"
-msgid "Insert Image"
-msgstr ""
-
-#: qml/ImageDialog.qml:24 qml/ImportMaildirDialog.qml:56
-#, kde-format
-msgctxt "@title:window"
-msgid "Select an image"
-msgstr ""
-
 #: qml/ImageDialog.qml:27
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
@@ -286,90 +80,6 @@ msgstr "चित्रसञ्चिकाः (*.jpg *.jpeg *.png *.svg *.webp
 #, kde-format
 msgid "All files (*)"
 msgstr "सर्वाणि सञ्चिकाः (*) ."
-
-#: qml/ImageDialog.qml:42
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Image Location:"
-msgstr ""
-
-#: qml/ImageDialog.qml:53
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Quick Sketch"
-msgstr ""
-
-#: qml/ImportMaildirDialog.qml:32
-#, kde-format
-msgctxt "@title:window"
-msgid "Import from Maildir"
-msgstr ""
-
-#: qml/ImportMaildirDialog.qml:32
-#, kde-format
-msgctxt "@title:window"
-msgid "Import from KNotes"
-msgstr ""
-
-#: qml/ImportMaildirDialog.qml:37 qml/NotebookMetadataDialog.qml:39
-#, kde-format
-msgctxt "@label:textbox Notebook name"
-msgid "Name:"
-msgstr ""
-
-#: qml/ImportMaildirDialog.qml:50
-#, kde-format
-msgctxt "@label:textbox Notebook name"
-msgid "Maildir location:"
-msgstr ""
-
-#: qml/ImportMaildirDialog.qml:103
-#, kde-format
-msgctxt "@action:button"
-msgid "Import"
-msgstr ""
-
-#: qml/LinkDialog.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Insert Link"
-msgstr ""
-
-#: qml/LinkDialog.qml:23
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Link Text:"
-msgstr ""
-
-#: qml/LinkDialog.qml:31
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Link URL:"
-msgstr ""
-
-#: qml/Main.qml:104
-#, kde-format
-msgctxt "@info:status"
-msgid "Unable to create a new note, you need to create a notebook first."
-msgstr ""
-
-#: qml/Main.qml:104
-#, kde-format
-msgctxt "@action:button"
-msgid "Create Notebook"
-msgstr ""
-
-#: qml/Main.qml:271
-#, kde-format
-msgctxt "@title:menu"
-msgid "Import"
-msgstr ""
-
-#: qml/Main.qml:285
-#, kde-format
-msgctxt "@title:menu"
-msgid "Sort Notes List"
-msgstr ""
 
 #: qml/Main.qml:291
 #, kde-format
@@ -396,134 +106,14 @@ msgstr "पार्श्वपट्टिका विस्तारयत�
 msgid "Your Notebooks"
 msgstr "भवतः नोटबुकाः"
 
-#: qml/NativeEditMenu.qml:10
-#, kde-format
-msgctxt "@action:menu"
-msgid "Edit"
-msgstr ""
-
-#: qml/NativeEditMenu.qml:39
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Undo"
-msgstr ""
-
-#: qml/NativeEditMenu.qml:49
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Redo"
-msgstr ""
-
-#: qml/NativeEditMenu.qml:62
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Cut"
-msgstr ""
-
-#: qml/NativeEditMenu.qml:72
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Copy"
-msgstr ""
-
-#: qml/NativeEditMenu.qml:82
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Paste"
-msgstr ""
-
-#: qml/NativeEditMenu.qml:92
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Delete"
-msgstr ""
-
-#: qml/NativeEditMenu.qml:105
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Select All"
-msgstr ""
-
-#: qml/NativeFileMenu.qml:11
-#, kde-format
-msgctxt "@action:menu"
-msgid "File"
-msgstr ""
-
-#: qml/NativeHelpMenu.qml:11
-#, kde-format
-msgctxt "@action:menu"
-msgid "Help"
-msgstr ""
-
-#: qml/NativeWindowMenu.qml:13
-#, kde-format
-msgctxt "@action:menu"
-msgid "Window"
-msgstr ""
-
-#: qml/NativeWindowMenu.qml:21
-#, kde-format
-msgctxt "@action:menu"
-msgid "Enter Full Screen"
-msgstr ""
-
-#: qml/NotebookContextMenu.qml:16
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Edit Notebook"
-msgstr ""
-
-#: qml/NotebookContextMenu.qml:33 qml/NotebookDeleteAction.qml:15
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete Notebook"
-msgstr ""
-
-#: qml/NotebookDeleteDialog.qml:31
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete Notebook"
-msgstr ""
-
 #: qml/NotebookDeleteDialog.qml:38
 #, kde-format
 msgid ""
 "Are you sure you want to delete the Notebook <b> %1 </b>? This will delete "
 "the content of <b>%2</b> definitively."
 msgstr ""
-"किं भवान् निश्चयेन Notebook <b>%1</b> विलोपयितुम् इच्छति ? एतेन <b>%2</b> इत्यस्य "
-"सामग्रीः निश्चितरूपेण विलोप्यते ।"
-
-#: qml/NotebookMetadataDialog.qml:32
-#, kde-format
-msgctxt "@title:window"
-msgid "New Notebook"
-msgstr ""
-
-#: qml/NotebookMetadataDialog.qml:32
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit Notebook"
-msgstr ""
-
-#: qml/NoteMetadataDialog.qml:27
-#, kde-format
-msgctxt "@title:window"
-msgid "New Note"
-msgstr ""
-
-#: qml/NoteMetadataDialog.qml:27
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit Note"
-msgstr ""
-
-#: qml/NoteMetadataDialog.qml:58
-#, kde-format
-msgctxt "@label:textbox Note name"
-msgid "Name:"
-msgstr ""
+"किं भवान् निश्चयेन Notebook <b>%1</b> विलोपयितुम् इच्छति ? एतेन <b>%2</b> "
+"इत्यस्य सामग्रीः निश्चितरूपेण विलोप्यते ।"
 
 #: qml/NotesPage.qml:48
 #, kde-format
@@ -540,78 +130,24 @@ msgstr "अन्वेषणात् निर्गच्छन्तु (%1)
 msgid "Search notes (%1)"
 msgstr "अन्वेषणटिप्पणी (%1) ."
 
-#: qml/NotesPage.qml:189
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete Note"
-msgstr ""
-
 #: qml/NotesPage.qml:202
 #, kde-format
 msgid ""
 "Are you sure you want to delete the note <b> %1 </b>? This will delete the "
 "file <b>%2</b> definitively."
 msgstr ""
-"किं भवान् निश्चयेन <b>%1 इति</b> टिप्पणीं विलोपयितुम् इच्छति ? एतेन <b>%2</b> सञ्चिका "
-"निश्चितरूपेण विलोप्यते ।"
-
-#: qml/NotesPage.qml:316
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Rename Note"
-msgstr ""
-
-#: qml/NotesPage.qml:322
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete Note"
-msgstr ""
-
-#: qml/NotesPage.qml:333
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Export to HTML"
-msgstr ""
-
-#: qml/NotesPage.qml:339
-#, kde-format
-msgctxt "@title:window"
-msgid "Export to HTML"
-msgstr ""
+"किं भवान् निश्चयेन <b>%1 इति</b> टिप्पणीं विलोपयितुम् इच्छति ? एतेन "
+"<b>%2</b> सञ्चिका निश्चितरूपेण विलोप्यते ।"
 
 #: qml/NotesPage.qml:340
 #, kde-format
 msgid "HTML file (*.html)"
 msgstr "HTML सञ्चिका (*.html) २."
 
-#: qml/NotesPage.qml:346
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Export to PDF"
-msgstr ""
-
-#: qml/NotesPage.qml:352
-#, kde-format
-msgctxt "@title:window"
-msgid "Export to PDF"
-msgstr ""
-
 #: qml/NotesPage.qml:353
 #, kde-format
 msgid "PDF file (*.pdf)"
 msgstr "PDF सञ्चिका (*.pdf) २."
-
-#: qml/NotesPage.qml:359
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Export to ODT"
-msgstr ""
-
-#: qml/NotesPage.qml:365
-#, kde-format
-msgctxt "@title:window"
-msgid "Export to ODT"
-msgstr ""
 
 #: qml/NotesPage.qml:366
 #, kde-format
@@ -623,94 +159,10 @@ msgstr "ODF पाठ दस्तावेज (*.odt) 1.1."
 msgid "Add a note!"
 msgstr "एकं टिप्पणीं योजयन्तु !"
 
-#: qml/TableDialog.qml:18
-#, kde-format
-msgctxt "@title:window"
-msgid "Insert Table"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:226
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Ignore"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:241
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Spell Check"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:258
-#, kde-format
-msgctxt "@inmenu"
-msgid "Open Link"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:268
-#, kde-format
-msgctxt "@inmenu"
-msgid "Insert"
-msgstr "युज्"
-
-#: qml/TextFieldContextMenu.qml:290
-#, kde-format
-msgctxt "@inmenu"
-msgid "Remove"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:310
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Undo"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:325
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Redo"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:343
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Cut"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:358
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Copy"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:373
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Paste"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:388
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr ""
-
-#: qml/TextFieldContextMenu.qml:407
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Select All"
-msgstr ""
-
 #: qml/WelcomePage.qml:22
 #, kde-format
 msgid "Start by creating your first notebook!"
 msgstr "प्रथमं नोटबुकं निर्माय आरभत!"
-
-#: settings/MarkNoteGeneralPage.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "General"
-msgstr ""
 
 #: settings/MarkNoteGeneralPage.qml:19
 #, kde-format
@@ -726,48 +178,6 @@ msgstr "रङ्ग विषय"
 #, kde-format
 msgid "Editor Settings"
 msgstr "सम्पादक सेटिंग्स्"
-
-#: settings/MarkNoteGeneralPage.qml:45
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Notes Directory:"
-msgstr ""
-
-#: settings/MarkNoteGeneralPage.qml:54
-#, kde-format
-msgctxt "@title:window"
-msgid "Select the notes directory"
-msgstr ""
-
-#: settings/MarkNoteGeneralPage.qml:69
-#, kde-format
-msgctxt "@label:spinbox"
-msgid "Font family:"
-msgstr ""
-
-#: settings/MarkNoteGeneralPage.qml:110
-#, kde-format
-msgctxt "@label:spinbox"
-msgid "Font size:"
-msgstr ""
-
-#: settings/MarkNoteSettings.qml:15
-#, kde-format
-msgctxt "@action:button"
-msgid "General"
-msgstr ""
-
-#: settings/MarkNoteSettings.qml:21
-#, kde-format
-msgctxt "@action:button"
-msgid "About MarkNote"
-msgstr ""
-
-#: settings/MarkNoteSettings.qml:27
-#, kde-format
-msgctxt "@action:button"
-msgid "About KDE"
-msgstr ""
 
 #: tableactionhelper.cpp:118
 #, kde-format
@@ -803,3 +213,594 @@ msgstr "स्तम्भ"
 #, kde-format
 msgid "Cell Contents"
 msgstr "कोष्ठक सामग्री"
+
+#: application.cpp:34
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Notebook"
+msgstr "नवीन नोटबुक"
+
+#: application.cpp:43
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Note"
+msgstr "नवीन टिप्पणी"
+
+#: application.cpp:59
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import from KNotes"
+msgstr "KNotes तः आयातम्"
+
+#: application.cpp:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Import from Maildir"
+msgstr "मैल्डिरतः आयातम्"
+
+#: qml/NotebookContextMenu.qml:16
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit Notebook"
+msgstr "नोटबुक सम्पादयतु"
+
+#: qml/NotebookContextMenu.qml:33 qml/NotebookDeleteAction.qml:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete Notebook"
+msgstr "नोटबुकं विलोपयन्तु"
+
+#: qml/NotesPage.qml:316
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename Note"
+msgstr "Rename Note"
+
+#: qml/NotesPage.qml:322
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete Note"
+msgstr "Delete Note"
+
+#: qml/NotesPage.qml:333
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to HTML"
+msgstr "HTML मध्ये निर्यातं कुर्वन्तु"
+
+#: qml/NotesPage.qml:346
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to PDF"
+msgstr "PDF मध्ये निर्यातं कुर्वन्तु"
+
+#: qml/NotesPage.qml:359
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to ODT"
+msgstr "ODT मध्ये निर्यातं कुर्वन्तु"
+
+#: qml/TextFieldContextMenu.qml:226
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Ignore"
+msgstr "उपेक्षा"
+
+#: qml/TextFieldContextMenu.qml:241
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Spell Check"
+msgstr "वर्तनीपरीक्षा"
+
+#: qml/TextFieldContextMenu.qml:310
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Undo"
+msgstr "पूर्ववत"
+
+#: qml/TextFieldContextMenu.qml:325
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Redo"
+msgstr "पुनः करो"
+
+#: qml/TextFieldContextMenu.qml:343
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "छिन्न"
+
+#: qml/TextFieldContextMenu.qml:358
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "प्रतिलिपि"
+
+#: qml/TextFieldContextMenu.qml:373
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "चिनोतु"
+
+#: qml/TextFieldContextMenu.qml:388
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "लुप्"
+
+#: qml/TextFieldContextMenu.qml:407
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "All इति चिनोतु"
+
+#: maildirimport.cpp:91
+#, kde-format
+msgctxt "@status"
+msgid "An error occurred while writing to '%1'"
+msgstr "'%1' इति लेखनकाले त्रुटिः अभवत् ।"
+
+#: main.cpp:68 qml/Main.qml:345
+#, kde-format
+msgctxt "Application name"
+msgid "Marknote"
+msgstr "मार्कनोट्"
+
+#: main.cpp:83
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: main.cpp:83
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: notesmodel.cpp:112
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to rename note. A note already exists with the same name."
+msgstr ""
+"नोट् इत्यस्य नाम परिवर्तनं कर्तुं असमर्थः । समाननाम्ना पूर्वमेव एकः टिप्पणः "
+"विद्यते ।"
+
+#: qml/Main.qml:104
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create a new note, you need to create a notebook first."
+msgstr "नूतनं टिप्पणं निर्मातुं असमर्थः, प्रथमं भवद्भिः नोटबुकं निर्मातव्यम् ।"
+
+#: qml/EditPage.qml:161 qml/NativeWindowMenu.qml:21 qml/NotesPage.qml:169
+#: qml/WelcomePage.qml:29
+#, kde-format
+msgctxt "@action:menu"
+msgid "Exit Full Screen"
+msgstr "पूर्णपर्दे निर्गच्छन्तु"
+
+#: qml/GlobalMenuBar.qml:18
+#, kde-format
+msgctxt "@action:menu"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
+#: qml/NativeEditMenu.qml:10
+#, kde-format
+msgctxt "@action:menu"
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: qml/NativeFileMenu.qml:11
+#, kde-format
+msgctxt "@action:menu"
+msgid "File"
+msgstr "संचिका"
+
+#: qml/NativeHelpMenu.qml:11
+#, kde-format
+msgctxt "@action:menu"
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
+#: qml/NativeWindowMenu.qml:13
+#, kde-format
+msgctxt "@action:menu"
+msgid "Window"
+msgstr "कोष्ठ"
+
+#: qml/NativeWindowMenu.qml:21
+#, kde-format
+msgctxt "@action:menu"
+msgid "Enter Full Screen"
+msgstr "Full Screen इति प्रविष्टं कुर्वन्तु"
+
+#: qml/EditPage.qml:212
+#, kde-format
+msgctxt "@action:button"
+msgid "Bold"
+msgstr "विक्रान्तः"
+
+#: qml/EditPage.qml:231
+#, kde-format
+msgctxt "@action:button"
+msgid "Italic"
+msgstr "इटालिक"
+
+#: qml/EditPage.qml:250
+#, kde-format
+msgctxt "@action:button"
+msgid "Underline"
+msgstr "रेखांकनम्"
+
+#: qml/EditPage.qml:264
+#, kde-format
+msgctxt "@action:button"
+msgid "Strikethrough"
+msgstr "स्ट्राइकथ्रू"
+
+#: qml/EditPage.qml:282
+#, kde-format
+msgctxt "@action:button"
+msgid "Increase List Level"
+msgstr "सूचीस्तरं वर्धयन्तु"
+
+#: qml/EditPage.qml:293
+#, kde-format
+msgctxt "@action:button"
+msgid "Decrease List Level"
+msgstr "सूचीस्तरं न्यूनीकरोतु"
+
+#: qml/EditPage.qml:347
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert checkbox"
+msgstr "चेकबॉक्सं सम्मिलितं कुर्वन्तु"
+
+#: qml/EditPage.qml:362
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert link"
+msgstr "लिङ्कं सम्मिलितं कुर्वन्तु"
+
+#: qml/EditPage.qml:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert image"
+msgstr "चित्रं सम्मिलितं कुर्वन्तु"
+
+#: qml/EditPage.qml:391
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert table"
+msgstr "सारणीं सम्मिलितं कुर्वन्तु"
+
+#: qml/FormIconDelegate.qml:17
+#, kde-format
+msgctxt "@action:button"
+msgid "Icon"
+msgstr "चिह्नम्"
+
+#: qml/ImportMaildirDialog.qml:103
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "आयात"
+
+#: qml/Main.qml:104
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Notebook"
+msgstr "नोटबुक रचयन्तु"
+
+#: settings/MarkNoteSettings.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "General"
+msgstr "सामान्य"
+
+#: settings/MarkNoteSettings.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "About MarkNote"
+msgstr "MarkNote इत्यस्य विषये"
+
+#: settings/MarkNoteSettings.qml:27
+#, kde-format
+msgctxt "@action:button"
+msgid "About KDE"
+msgstr "KDE विषये"
+
+#: qml/EditPage.qml:335
+#, kde-format
+msgctxt "@item:inmenu no list style"
+msgid "No list"
+msgstr "सूची नास्ति"
+
+#: qml/EditPage.qml:336
+#, kde-format
+msgctxt "@item:inmenu unordered style"
+msgid "Unordered list"
+msgstr "अक्रमितसूची"
+
+#: qml/EditPage.qml:337
+#, kde-format
+msgctxt "@item:inmenu ordered style"
+msgid "Ordered list"
+msgstr "क्रमबद्धसूची"
+
+#: qml/EditPage.qml:411
+#, kde-format
+msgctxt "@item:inmenu no heading"
+msgid "Basic text"
+msgstr "मूलग्रन्थः"
+
+#: qml/EditPage.qml:412
+#, kde-format
+msgctxt "@item:inmenu heading level 1 (largest)"
+msgid "Title"
+msgstr "शीर्षक"
+
+#: qml/EditPage.qml:413
+#, kde-format
+msgctxt "@item:inmenu heading level 2"
+msgid "Subtitle"
+msgstr "उपशीर्षकम्"
+
+#: qml/EditPage.qml:414
+#, kde-format
+msgctxt "@item:inmenu heading level 3"
+msgid "Section"
+msgstr "खंड"
+
+#: qml/EditPage.qml:415
+#, kde-format
+msgctxt "@item:inmenu heading level 4"
+msgid "Subsection"
+msgstr "उपखण्ड"
+
+#: qml/EditPage.qml:416
+#, kde-format
+msgctxt "@item:inmenu heading level 5"
+msgid "Paragraph"
+msgstr "अनुच्छेदः"
+
+#: qml/EditPage.qml:417
+#, kde-format
+msgctxt "@item:inmenu heading level 6 (smallest)"
+msgid "Subparagraph"
+msgstr "उपपरिच्छेदः"
+
+#: qml/ImageDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Image"
+msgstr "चित्रं सम्मिलितं कुर्वन्तु"
+
+#: qml/ImageDialog.qml:24 qml/ImportMaildirDialog.qml:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image"
+msgstr "एकं चित्रं चिनोतु"
+
+#: qml/ImportMaildirDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Import from Maildir"
+msgstr "मैल्डिरतः आयातम्"
+
+#: qml/ImportMaildirDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Import from KNotes"
+msgstr "KNotes तः आयातम्"
+
+#: qml/LinkDialog.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Link"
+msgstr "लिङ्कं सम्मिलितं कुर्वन्तु"
+
+#: qml/NotebookDeleteDialog.qml:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Notebook"
+msgstr "नोटबुकं विलोपयन्तु"
+
+#: qml/NotebookMetadataDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "New Notebook"
+msgstr "नवीन नोटबुक"
+
+#: qml/NotebookMetadataDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Notebook"
+msgstr "नोटबुक सम्पादयतु"
+
+#: qml/NoteMetadataDialog.qml:27
+#, kde-format
+msgctxt "@title:window"
+msgid "New Note"
+msgstr "नवीन टिप्पणी"
+
+#: qml/NoteMetadataDialog.qml:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Note"
+msgstr "सम्पादन टिप्पणी"
+
+#: qml/NotesPage.qml:189
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Note"
+msgstr "Delete Note"
+
+#: qml/NotesPage.qml:339
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to HTML"
+msgstr "HTML मध्ये निर्यातं कुर्वन्तु"
+
+#: qml/NotesPage.qml:352
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to PDF"
+msgstr "PDF मध्ये निर्यातं कुर्वन्तु"
+
+#: qml/NotesPage.qml:365
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to ODT"
+msgstr "ODT मध्ये निर्यातं कुर्वन्तु"
+
+#: qml/TableDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Table"
+msgstr "सारणी सम्मिलित करें"
+
+#: settings/MarkNoteGeneralPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "सामान्य"
+
+#: settings/MarkNoteGeneralPage.qml:54
+#, kde-format
+msgctxt "@title:window"
+msgid "Select the notes directory"
+msgstr "notes निर्देशिकां चिनोतु"
+
+#: qml/ImageDialog.qml:42
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Image Location:"
+msgstr "चित्रस्थानम् : १."
+
+#: qml/ImageDialog.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Quick Sketch"
+msgstr "त्वरित स्केच"
+
+#: qml/LinkDialog.qml:23
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Link Text:"
+msgstr "लिङ्क पाठः १."
+
+#: qml/LinkDialog.qml:31
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Link URL:"
+msgstr "लिङ्क URL:"
+
+#: settings/MarkNoteGeneralPage.qml:45
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Notes Directory:"
+msgstr "टिप्पणियाँ निर्देशिका : १."
+
+#: qml/ImportMaildirDialog.qml:37 qml/NotebookMetadataDialog.qml:39
+#, kde-format
+msgctxt "@label:textbox Notebook name"
+msgid "Name:"
+msgstr "नामः:"
+
+#: qml/ImportMaildirDialog.qml:50
+#, kde-format
+msgctxt "@label:textbox Notebook name"
+msgid "Maildir location:"
+msgstr "मैल्डिर स्थान : १."
+
+#: qml/Main.qml:271
+#, kde-format
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "आयात"
+
+#: qml/Main.qml:285
+#, kde-format
+msgctxt "@title:menu"
+msgid "Sort Notes List"
+msgstr "क्रमबद्ध टिप्पणियाँ सूची"
+
+#: qml/NativeEditMenu.qml:39
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Undo"
+msgstr "पूर्ववत"
+
+#: qml/NativeEditMenu.qml:49
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Redo"
+msgstr "पुनः करो"
+
+#: qml/NativeEditMenu.qml:62
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Cut"
+msgstr "छिन्न"
+
+#: qml/NativeEditMenu.qml:72
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Copy"
+msgstr "प्रतिलिपि"
+
+#: qml/NativeEditMenu.qml:82
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Paste"
+msgstr "चिनोतु"
+
+#: qml/NativeEditMenu.qml:92
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Delete"
+msgstr "लुप्"
+
+#: qml/NativeEditMenu.qml:105
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Select All"
+msgstr "All इति चिनोतु"
+
+#: qml/NoteMetadataDialog.qml:58
+#, kde-format
+msgctxt "@label:textbox Note name"
+msgid "Name:"
+msgstr "नामः:"
+
+#: qml/TextFieldContextMenu.qml:258
+#, kde-format
+msgctxt "@inmenu"
+msgid "Open Link"
+msgstr "लिङ्कं उद्घाटयतु"
+
+#: qml/TextFieldContextMenu.qml:268
+#, kde-format
+msgctxt "@inmenu"
+msgid "Insert"
+msgstr "युज्"
+
+#: qml/TextFieldContextMenu.qml:290
+#, kde-format
+msgctxt "@inmenu"
+msgid "Remove"
+msgstr "अपाकरोति"
+
+#: settings/MarkNoteGeneralPage.qml:69
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Font family:"
+msgstr "फन्ट् परिवारः : १."
+
+#: settings/MarkNoteGeneralPage.qml:110
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Font size:"
+msgstr "फ़ॉन्ट् आकारः : १."
