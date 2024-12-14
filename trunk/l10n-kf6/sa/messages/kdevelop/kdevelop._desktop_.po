@@ -1,4 +1,3 @@
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
@@ -9,122 +8,48 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
 
 #: app/kdevelop.notifyrc:4
 msgctxt "Comment"
 msgid "KDevelop"
-msgstr ""
-
-#: app/kdevelop.notifyrc:58
-msgctxt "Name"
-msgid "Debugger"
-msgstr ""
-
-#: app/kdevelop.notifyrc:105
-msgctxt "Name"
-msgid "Breakpoint Hit"
-msgstr ""
+msgstr "KDevelop"
 
 #: app/kdevelop.notifyrc:147
 msgctxt "Comment"
 msgid "A Breakpoint has been hit by the debugger"
-msgstr ""
-
-#: app/kdevelop.notifyrc:193
-msgctxt "Name"
-msgid "Breakpoint Error"
-msgstr ""
+msgstr "एकः Breakpoint इति त्रुटिनिवारकेन आहतः अस्ति"
 
 #: app/kdevelop.notifyrc:223
 msgctxt "Comment"
 msgid "An error was reported by the debugger"
-msgstr ""
-
-#: app/kdevelop.notifyrc:257
-msgctxt "Name"
-msgid "Watchpoint Hit"
-msgstr ""
+msgstr "त्रुटिनिवारणकर्तृणा त्रुटिः निवेदिता"
 
 #: app/kdevelop.notifyrc:299
 msgctxt "Comment"
 msgid "A Watchpoint has been hit by the debugger"
-msgstr ""
-
-#: app/org.kde.kdevelop.desktop:10 app/org.kde.kdevelop_kdev4.desktop:7
-msgctxt "Name"
-msgid "KDevelop"
-msgstr ""
-
-#: app/org.kde.kdevelop.desktop:44 app/org.kde.kdevelop_kdev4.desktop:41
-#: plugins/bazaar/org.kde.kdevelop_bzr.desktop:37
-#: plugins/git/org.kde.kdevelop_git.desktop:37
-#: plugins/subversion/org.kde.kdevelop_svn.desktop:37
-msgctxt "GenericName"
-msgid "Integrated Development Environment"
-msgstr ""
-
-#: app/org.kde.kdevelop.desktop:92
-msgctxt "Name"
-msgid "Open a Session"
-msgstr ""
-
-#: app/org.kde.kdevelop_ps.desktop:7
-msgctxt "Name"
-msgid "KDevelop (Pick Session)"
-msgstr ""
-
-#: app/org.kde.kdevelop_ps.desktop:39
-msgctxt "GenericName"
-msgid "Integrated Development Environment (Pick Session to start with)"
-msgstr ""
-
-#: app_templates/c/CMake/cmake_plainc/cmake_plainc.kdevtemplate:3
-msgctxt "Name"
-msgid "CMake C"
-msgstr ""
+msgstr "एकः Watchpoint इति त्रुटिनिवारकेन आहतः अस्ति"
 
 #: app_templates/c/CMake/cmake_plainc/cmake_plainc.kdevtemplate:34
 msgctxt "Comment"
 msgid "Simple CMake-based C application"
-msgstr ""
-
-#: app_templates/c/meson/meson_plainc/meson_plainc.kdevtemplate:3
-msgctxt "Name"
-msgid "Meson C"
-msgstr ""
+msgstr "सरल CMake-आधारित C अनुप्रयोग"
 
 #: app_templates/c/meson/meson_plainc/meson_plainc.kdevtemplate:30
 msgctxt "Comment"
 msgid "Simple Meson-based C application"
-msgstr ""
-
-#: app_templates/cpp/CMake/cmake_kdevplugin/cmake_kdevplugin.kdevtemplate:3
-msgctxt "Name"
-msgid "Simple KDevelop Plugin"
-msgstr ""
+msgstr "सरल मेसोन-आधारित सी अनुप्रयोग"
 
 #: app_templates/cpp/CMake/cmake_kdevplugin/cmake_kdevplugin.kdevtemplate:35
 msgctxt "Comment"
 msgid "Generate a general KDevelop plugin, using CMake and C++"
-msgstr ""
-
-#: app_templates/cpp/CMake/cmake_plaincpp/cmake_plaincpp.kdevtemplate:3
-msgctxt "Name"
-msgid "CMake C++"
-msgstr ""
+msgstr "CMake तथा C++ इत्येतयोः उपयोगेन सामान्यं KDevelop प्लगिन् जनयन्तु"
 
 #: app_templates/cpp/CMake/cmake_plaincpp/cmake_plaincpp.kdevtemplate:41
 msgctxt "Comment"
 msgid "Simple CMake-based C++ application"
-msgstr ""
-
-#: app_templates/cpp/CMake/cmake_qt5guiapp/cmake_qt5guiapp.kdevtemplate:3
-msgctxt "Name"
-msgid "CMake Qt5 - C++"
-msgstr ""
+msgstr "सरलं CMake-आधारितं C++ अनुप्रयोगम्"
 
 #: app_templates/cpp/CMake/cmake_qt5guiapp/cmake_qt5guiapp.kdevtemplate:34
 msgctxt "Comment"
@@ -132,101 +57,287 @@ msgid ""
 "Qt5 CMake Gui application. Generate a CMake/Qt5 based GUI application "
 "(crossplatform compatible)"
 msgstr ""
+"Qt5 CMake Gui अनुप्रयोग। CMake/Qt5 आधारितं GUI अनुप्रयोगं जनयन्तु "
+"(crossplatform compatible)"
+
+#: app_templates/cpp/CMake/cmake_qt5-qml2/cmake_qt5-qml2.kdevtemplate:35
+msgctxt "Comment"
+msgid "A Qt5 and QtQuick2 basic application using CMake"
+msgstr "CMake इत्यस्य उपयोगेन एकः Qt5 तथा QtQuick2 मूलभूतः अनुप्रयोगः"
+
+#: app_templates/cpp/CMake/cmake_qt6quick_app/cmake_qt6quick_app.kdevtemplate:25
+msgctxt "Comment"
+msgid "Generate a CMake & Qt6 Quick based application (crossplatform compatible)"
+msgstr ""
+"CMake & Qt6 Quick based application (crossplatform compatible) उत्पन्नं "
+"कुर्वन्तु"
+
+#: app_templates/cpp/CMake/cmake_qt6widgetsapp/cmake_qt6widgetsapp.kdevtemplate:25
+msgctxt "Comment"
+msgid "Generate a CMake & Qt6 Widgets based application (crossplatform compatible)"
+msgstr "CMake & Qt6 Widgets आधारितं अनुप्रयोगं जनयन्तु (crossplatform compatible)"
+
+#: app_templates/cpp/meson/meson_plaincpp/meson_plaincpp.kdevtemplate:30
+msgctxt "Comment"
+msgid "Simple Meson-based C++ application"
+msgstr "सरलं मेसोन्-आधारितं C++ अनुप्रयोगम्"
+
+#: app_templates/cpp/QMake/qmake_qt5guiapp/qmake_qt5guiapp.kdevtemplate:33
+msgctxt "Comment"
+msgid "Generate a QMake/Qt5 based GUI application (crossplatform compatible)"
+msgstr "QMake/Qt5 आधारितं GUI अनुप्रयोगं जनयन्तु (crossplatform compatible)"
+
+#: app_templates/cpp/QMake/qt5-qml2/qt5-qml2.kdevtemplate:35
+msgctxt "Comment"
+msgid "A Qt5 and QML2 basic application using QMake"
+msgstr "QMake इत्यस्य उपयोगेन एकः Qt5 तथा QML2 मूलभूतः अनुप्रयोगः"
+
+#: app_templates/empty/empty.kdevtemplate:37
+msgctxt "Comment"
+msgid "A project to fill with your ideas"
+msgstr "भवतः विचारैः पूरयितुं एकः परियोजना"
+
+#: app_templates/kdevelop/file_template_template/kdevelop_file_template_template.kdevtemplate:32
+msgctxt "Comment"
+msgid "Setup for KDevelop File Template which is packaged using CMake"
+msgstr "KDevelop File Template कृते सेटअप यत् CMake इत्यस्य उपयोगेन संकुलितम् अस्ति"
+
+#: file_templates/classes/c_gobject/c_gobject.desktop:40
+msgctxt "Comment"
+msgid "A simple GObject subclass"
+msgstr "एकः सरलः GObject उपवर्गः"
+
+#: file_templates/classes/c_gobject_private/c_gobject_private.desktop:37
+msgctxt "Comment"
+msgid "A GObject subclass with a private pointer"
+msgstr "निजीसूचकयुक्तः GObject उपवर्गः"
+
+#: file_templates/classes/c_gobject_properties/c_gobject_properties.desktop:37
+msgctxt "Comment"
+msgid "A GObject subclass with a private pointer and properties"
+msgstr "निजीसूचकः गुणाः च सह GObject उपवर्गः"
+
+#: file_templates/classes/cpp_basic/cpp_basic.desktop:42
+msgctxt "Comment"
+msgid "Basic C++ Class"
+msgstr "मूलभूत C++ वर्ग"
+
+#: file_templates/classes/private_pointer/private_pointer.desktop:37
+msgctxt "Comment"
+msgid "C++ Class with a private D-pointer"
+msgstr "निजी D-सूचकेन सह C++ वर्गः"
+
+#: file_templates/classes/python_basic/python_basic.desktop:42
+msgctxt "Comment"
+msgid "Basic Python Class"
+msgstr "मूलभूत पायथन वर्ग"
+
+#: file_templates/classes/qabstractitemmodel_pimpl/qabstractitemmodel_pimpl.desktop:33
+msgctxt "Comment"
+msgid "QAbstractItemModel subclass with private implementation"
+msgstr "निजीकार्यन्वयनसहितं QAbstractItemModel उपवर्गः"
+
+#: file_templates/classes/qabstractitemmodel/qabstractitemmodel.desktop:33
+msgctxt "Comment"
+msgid "QAbstractItemModel subclass with properties"
+msgstr "गुणैः सह QAbstractItemModel उपवर्गः"
+
+#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:32
+msgctxt "Comment"
+msgid "QDialog subclass with a separate Qt Designer file and private implementation"
+msgstr "पृथक् Qt Designer सञ्चिकायाः निजीकार्यन्वयनस्य च सह QDialog उपवर्गः"
+
+#: file_templates/classes/qdialog/qdialog.desktop:32
+msgctxt "Comment"
+msgid "QDialog subclass with a separate Qt Designer file"
+msgstr "पृथक् Qt Designer सञ्चिकायाः सह QDialog उपवर्गः"
+
+#: file_templates/classes/qobject_pimpl/qobject_pimpl.desktop:34
+msgctxt "Comment"
+msgid "QObject subclass with private implementation"
+msgstr "निजीकार्यन्वयनसहितं QObject उपवर्गः"
+
+#: file_templates/classes/qobject/qobject.desktop:39
+msgctxt "Comment"
+msgid "QObject subclass with properties"
+msgstr "गुणैः सह QObject उपवर्गः"
+
+#: file_templates/classes/qt_interface/qt_interface.desktop:33
+msgctxt "Comment"
+msgid "QObject interface class with properties"
+msgstr "गुणैः सह QObject अन्तरफलकवर्गः"
+
+#: file_templates/classes/qt_shared/qt_shared.desktop:37
+msgctxt "Comment"
+msgid "Class with a private QSharedData member"
+msgstr "निजी QSharedData सदस्येन सह वर्गः"
+
+#: file_templates/classes/qt_widget/qt_widget.desktop:37
+msgctxt "Comment"
+msgid "QWidget subclass with a separate Qt Designer file"
+msgstr "पृथक् Qt Designer सञ्चिकायाः सह QWidget उपवर्गः"
+
+#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:32
+msgctxt "Comment"
+msgid "QWidget subclass with a separate Qt Designer file and private implementation"
+msgstr "पृथक् Qt Designer सञ्चिकायाः निजीकार्यन्वयनस्य च सह QWidget उपवर्गः"
+
+#: file_templates/other/cmake_module/cmake_module.desktop:37
+msgctxt "Comment"
+msgid "CMake module for finding a library using pkg-config"
+msgstr "CMake pkg-config इत्यस्य उपयोगेन पुस्तकालयं अन्वेष्टुं मॉड्यूल्"
+
+#: file_templates/other/qt_qrc_file/qt_qrc_file.desktop:24
+msgctxt "Comment"
+msgid "A simple version with one prefix and one file."
+msgstr "एकेन उपसर्गेन एकेन सञ्चिकायाः च सह सरलं संस्करणम् ।"
+
+#: file_templates/testing/cpp_cpputest/cpp_cpputest.desktop:33
+msgctxt "Comment"
+msgid "A unit test using the CppUTest library"
+msgstr "CppUTest पुस्तकालयस्य उपयोगेन एकः एककपरीक्षा"
+
+#: file_templates/testing/cpp_gtest/cpp_gtest.desktop:33
+msgctxt "Comment"
+msgid "A unit test using the Google Test library"
+msgstr "Google Test पुस्तकालयस्य उपयोगेन एकः एककपरीक्षा"
+
+#: file_templates/testing/cpp_qtestlib/cpp_qtestlib.desktop:38
+msgctxt "Comment"
+msgid "A unit test suite using the QTest library without a graphical user interface"
+msgstr ""
+"चित्रात्मकं उपयोक्तृ-अन्तरफलकं विना QTest पुस्तकालयस्य उपयोगेन एकः "
+"यूनिट-परीक्षण-समूहः"
+
+#: file_templates/testing/cpp_qtestlib_kdevelop/cpp_qtestlib_kdevelop.desktop:37
+msgctxt "Comment"
+msgid "A unit test using the QTest library with KDevPlatform test helpers"
+msgstr "KDevPlatform परीक्षणसहायकैः सह QTest पुस्तकालयस्य उपयोगेन एकः इकाईपरीक्षा"
+
+#: file_templates/testing/php_phpunit/php_phpunit.desktop:40
+msgctxt "Comment"
+msgid "A unit test using the PHPUnit framework"
+msgstr "PHPUnit framework इत्यस्य उपयोगेन एकः यूनिट् परीक्षणः"
+
+#: file_templates/testing/python_pyunit/python_pyunit.desktop:41
+msgctxt "Comment"
+msgid "A unit test using the PyUnit framework"
+msgstr "PyUnit framework इत्यस्य उपयोगेन एकः यूनिट् परीक्षणः"
+
+#: plugins/docker/dockerfile-template/dockerfile-template.desktop:34
+msgctxt "Comment"
+msgid ""
+"A Dockerfile is a text document that contains all the commands a user could "
+"call on the command line to assemble an image"
+msgstr ""
+"Dockerfile इति पाठदस्तावेजः यस्मिन् सर्वे आदेशाः सन्ति ये उपयोक्ता "
+"आदेशपङ्क्तौ चित्रं संयोजयितुं आह्वयितुं शक्नोति स्म"
+
+#: plugins/flatpak/flatpak-template/flatpak-builder-manifest.desktop:31
+msgctxt "Comment"
+msgid "A file to configure how a project is built by flatpak"
+msgstr "flatpak द्वारा परियोजना कथं निर्मितं भवति इति विन्यस्तुं सञ्चिका"
+
+#: app/kdevelop.notifyrc:58
+msgctxt "Name"
+msgid "Debugger"
+msgstr "त्रुटिनिवारकः"
+
+#: app/kdevelop.notifyrc:105
+msgctxt "Name"
+msgid "Breakpoint Hit"
+msgstr "ब्रेकपॉइंट हिट"
+
+#: app/kdevelop.notifyrc:193
+msgctxt "Name"
+msgid "Breakpoint Error"
+msgstr "भङ्गबिन्दु त्रुटिः"
+
+#: app/kdevelop.notifyrc:257
+msgctxt "Name"
+msgid "Watchpoint Hit"
+msgstr "Watchpoint हिट"
+
+#: app/org.kde.kdevelop.desktop:10 app/org.kde.kdevelop_kdev4.desktop:7
+msgctxt "Name"
+msgid "KDevelop"
+msgstr "KDevelop"
+
+#: app/org.kde.kdevelop.desktop:92
+msgctxt "Name"
+msgid "Open a Session"
+msgstr "एकं सत्रं उद्घाटयन्तु"
+
+#: app/org.kde.kdevelop_ps.desktop:7
+msgctxt "Name"
+msgid "KDevelop (Pick Session)"
+msgstr "KDevelop (चयन सत्र) 1.1."
+
+#: app_templates/c/CMake/cmake_plainc/cmake_plainc.kdevtemplate:3
+msgctxt "Name"
+msgid "CMake C"
+msgstr "CMake C"
+
+#: app_templates/c/meson/meson_plainc/meson_plainc.kdevtemplate:3
+msgctxt "Name"
+msgid "Meson C"
+msgstr "मेसोन सी"
+
+#: app_templates/cpp/CMake/cmake_kdevplugin/cmake_kdevplugin.kdevtemplate:3
+msgctxt "Name"
+msgid "Simple KDevelop Plugin"
+msgstr "सरलं KDevelop प्लगिन्"
+
+#: app_templates/cpp/CMake/cmake_plaincpp/cmake_plaincpp.kdevtemplate:3
+msgctxt "Name"
+msgid "CMake C++"
+msgstr "CMake C++"
+
+#: app_templates/cpp/CMake/cmake_qt5guiapp/cmake_qt5guiapp.kdevtemplate:3
+msgctxt "Name"
+msgid "CMake Qt5 - C++"
+msgstr "CMake Qt5 - C++"
 
 #: app_templates/cpp/CMake/cmake_qt5-qml2/cmake_qt5-qml2.kdevtemplate:3
 #: app_templates/cpp/QMake/qt5-qml2/qt5-qml2.kdevtemplate:3
 msgctxt "Name"
 msgid "QtQuick 2 Application"
-msgstr ""
-
-#: app_templates/cpp/CMake/cmake_qt5-qml2/cmake_qt5-qml2.kdevtemplate:35
-msgctxt "Comment"
-msgid "A Qt5 and QtQuick2 basic application using CMake"
-msgstr ""
+msgstr "QtQuick २ अनुप्रयोगः"
 
 #: app_templates/cpp/CMake/cmake_qt6quick_app/cmake_qt6quick_app.kdevtemplate:2
 msgctxt "Name"
 msgid "CMake Qt6 Quick Application"
-msgstr ""
-
-#: app_templates/cpp/CMake/cmake_qt6quick_app/cmake_qt6quick_app.kdevtemplate:25
-msgctxt "Comment"
-msgid ""
-"Generate a CMake & Qt6 Quick based application (crossplatform compatible)"
-msgstr ""
+msgstr "CMake Qt6 त्वरित अनुप्रयोग"
 
 #: app_templates/cpp/CMake/cmake_qt6widgetsapp/cmake_qt6widgetsapp.kdevtemplate:2
 msgctxt "Name"
 msgid "CMake Qt6 Widgets Application"
-msgstr ""
-
-#: app_templates/cpp/CMake/cmake_qt6widgetsapp/cmake_qt6widgetsapp.kdevtemplate:25
-msgctxt "Comment"
-msgid ""
-"Generate a CMake & Qt6 Widgets based application (crossplatform compatible)"
-msgstr ""
+msgstr "CMake Qt6 Widgets अनुप्रयोग"
 
 #: app_templates/cpp/meson/meson_plaincpp/meson_plaincpp.kdevtemplate:3
 msgctxt "Name"
 msgid "Meson C++"
-msgstr ""
-
-#: app_templates/cpp/meson/meson_plaincpp/meson_plaincpp.kdevtemplate:30
-msgctxt "Comment"
-msgid "Simple Meson-based C++ application"
-msgstr ""
+msgstr "मेसोन सी++"
 
 #: app_templates/cpp/QMake/qmake_qt5guiapp/qmake_qt5guiapp.kdevtemplate:2
 msgctxt "Name"
 msgid "QMake Qt5 QWidgets GUI Application"
-msgstr ""
-
-#: app_templates/cpp/QMake/qmake_qt5guiapp/qmake_qt5guiapp.kdevtemplate:33
-msgctxt "Comment"
-msgid "Generate a QMake/Qt5 based GUI application (crossplatform compatible)"
-msgstr ""
-
-#: app_templates/cpp/QMake/qt5-qml2/qt5-qml2.kdevtemplate:35
-msgctxt "Comment"
-msgid "A Qt5 and QML2 basic application using QMake"
-msgstr ""
+msgstr "QMake Qt5 QWidgets GUI अनुप्रयोग"
 
 #: app_templates/empty/empty.kdevtemplate:2
 msgctxt "Name"
 msgid "Empty"
-msgstr ""
-
-#: app_templates/empty/empty.kdevtemplate:37
-msgctxt "Comment"
-msgid "A project to fill with your ideas"
-msgstr ""
+msgstr "रिक्तम्‌"
 
 #: app_templates/kdevelop/file_template_template/kdevelop_file_template_template.kdevtemplate:2
 msgctxt "Name"
 msgid "KDevelop File Template"
-msgstr ""
-
-#: app_templates/kdevelop/file_template_template/kdevelop_file_template_template.kdevtemplate:32
-msgctxt "Comment"
-msgid "Setup for KDevelop File Template which is packaged using CMake"
-msgstr ""
+msgstr "KDevelop सञ्चिका टेम्पलेट"
 
 #: file_templates/classes/c_gobject/c_gobject.desktop:2
 msgctxt "Name"
 msgid "GObject"
-msgstr ""
-
-#: file_templates/classes/c_gobject/c_gobject.desktop:40
-msgctxt "Comment"
-msgid "A simple GObject subclass"
-msgstr ""
-
-#: file_templates/classes/c_gobject/c_gobject.desktop:76
-#: file_templates/classes/c_gobject_private/c_gobject_private.desktop:73
-#: file_templates/classes/c_gobject_properties/c_gobject_properties.desktop:73
-msgctxt "Language"
-msgid "C"
-msgstr ""
+msgstr "GObject"
 
 #: file_templates/classes/c_gobject/c_gobject.desktop:124
 #: file_templates/classes/c_gobject_private/c_gobject_private.desktop:121
@@ -238,7 +349,7 @@ msgstr ""
 #: file_templates/testing/cpp_qtestlib_kdevelop/cpp_qtestlib_kdevelop.desktop:122
 msgctxt "Name"
 msgid "Header"
-msgstr ""
+msgstr "शीर्षकम्"
 
 #: file_templates/classes/c_gobject/c_gobject.desktop:167
 #: file_templates/classes/c_gobject_private/c_gobject_private.desktop:164
@@ -265,38 +376,224 @@ msgstr ""
 #: plugins/flatpak/flatpak-template/flatpak-builder-manifest.desktop:102
 msgctxt "Name"
 msgid "Implementation"
-msgstr ""
+msgstr "कार्यान्वयनम्"
 
 #: file_templates/classes/c_gobject_private/c_gobject_private.desktop:2
 msgctxt "Name"
 msgid "GObject with private pointer"
-msgstr ""
-
-#: file_templates/classes/c_gobject_private/c_gobject_private.desktop:37
-msgctxt "Comment"
-msgid "A GObject subclass with a private pointer"
-msgstr ""
+msgstr "निजीसूचकेन सह GObject"
 
 #: file_templates/classes/c_gobject_properties/c_gobject_properties.desktop:2
 msgctxt "Name"
 msgid "GObject with properties"
-msgstr ""
-
-#: file_templates/classes/c_gobject_properties/c_gobject_properties.desktop:37
-msgctxt "Comment"
-msgid "A GObject subclass with a private pointer and properties"
-msgstr ""
+msgstr "गुणैः सह GObject"
 
 #: file_templates/classes/cpp_basic/cpp_basic.desktop:2
 #: file_templates/classes/python_basic/python_basic.desktop:2
 msgctxt "Name"
 msgid "Basic"
-msgstr ""
+msgstr "आधारभूत"
 
-#: file_templates/classes/cpp_basic/cpp_basic.desktop:42
-msgctxt "Comment"
-msgid "Basic C++ Class"
-msgstr ""
+#: file_templates/classes/private_pointer/private_pointer.desktop:2
+msgctxt "Name"
+msgid "Private Pointer"
+msgstr "निजी सूचक"
+
+#: file_templates/classes/private_pointer/private_pointer.desktop:122
+#: file_templates/classes/qabstractitemmodel/qabstractitemmodel.desktop:114
+#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:113
+#: file_templates/classes/qdialog/qdialog.desktop:113
+#: file_templates/classes/qobject/qobject.desktop:125
+#: file_templates/classes/qt_interface/qt_interface.desktop:113
+#: file_templates/classes/qt_shared/qt_shared.desktop:121
+#: file_templates/classes/qt_widget/qt_widget.desktop:122
+#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:112
+msgctxt "Name"
+msgid "Public Header"
+msgstr "सार्वजनिक शीर्षक"
+
+#: file_templates/classes/private_pointer/private_pointer.desktop:161
+#: file_templates/classes/qabstractitemmodel_pimpl/qabstractitemmodel_pimpl.desktop:157
+#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:152
+#: file_templates/classes/qobject_pimpl/qobject_pimpl.desktop:157
+#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:151
+msgctxt "Name"
+msgid "Private Header"
+msgstr "निजी शीर्षक"
+
+#: file_templates/classes/python_basic/python_basic.desktop:127
+msgctxt "Name"
+msgid "Definition"
+msgstr "परिभाषा"
+
+#: file_templates/classes/qabstractitemmodel_pimpl/qabstractitemmodel_pimpl.desktop:2
+msgctxt "Name"
+msgid "QAbstractItemModel pimpl subclass"
+msgstr "QAbstractItemModel pimpl उपवर्ग"
+
+#: file_templates/classes/qabstractitemmodel/qabstractitemmodel.desktop:2
+msgctxt "Name"
+msgid "QAbstractItemModel subclass"
+msgstr "QAbstractItemModel उपवर्ग"
+
+#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:2
+msgctxt "Name"
+msgid "Dialog (pimpl) with a UI File"
+msgstr "UI File इत्यनेन सह संवादः (pimpl)"
+
+#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:234
+#: file_templates/classes/qdialog/qdialog.desktop:195
+#: file_templates/classes/qt_widget/qt_widget.desktop:204
+#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:233
+msgctxt "Name"
+msgid "User Interface"
+msgstr "उपयोक्तृ-अन्तरफलकम्"
+
+#: file_templates/classes/qdialog/qdialog.desktop:2
+msgctxt "Name"
+msgid "Dialog with a UI File"
+msgstr "UI File इत्यनेन सह संवादः"
+
+#: file_templates/classes/qobject_pimpl/qobject_pimpl.desktop:2
+msgctxt "Name"
+msgid "QObject pimpl subclass"
+msgstr "QObject pimpl उपवर्ग"
+
+#: file_templates/classes/qobject/qobject.desktop:2
+msgctxt "Name"
+msgid "QObject subclass"
+msgstr "QObject उपवर्ग"
+
+#: file_templates/classes/qt_interface/qt_interface.desktop:2
+msgctxt "Name"
+msgid "QObject interface class"
+msgstr "QObject अन्तरफलक वर्ग"
+
+#: file_templates/classes/qt_shared/qt_shared.desktop:2
+msgctxt "Name"
+msgid "Implicitly shared class"
+msgstr "अन्तर्निहितरूपेण साझाः वर्गः"
+
+#: file_templates/classes/qt_widget/qt_widget.desktop:2
+msgctxt "Name"
+msgid "Widget with a UI File"
+msgstr "UI File इत्यनेन सह विजेट्"
+
+#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:2
+msgctxt "Name"
+msgid "Widget (pimpl) with a UI File"
+msgstr "UI File इत्यनेन सह विजेट् (pimpl)"
+
+#: file_templates/other/cmake_module/cmake_module.desktop:2
+msgctxt "Name"
+msgid "CMake Module with pkg-config"
+msgstr "CMake Module pkg-config इत्यनेन सह"
+
+#: file_templates/other/cmake_module/cmake_module.desktop:121
+msgctxt "Name"
+msgid "Module"
+msgstr "मॉड्यूल"
+
+#: file_templates/other/qt_qrc_file/qt_qrc_file.desktop:2
+#: file_templates/other/qt_qrc_file/qt_qrc_file.desktop:95
+msgctxt "Name"
+msgid "Qt Resource Collection File"
+msgstr "Qt संसाधन संग्रह सञ्चिका"
+
+#: file_templates/testing/cpp_cpputest/cpp_cpputest.desktop:2
+msgctxt "Name"
+msgid "CppUTest"
+msgstr "CppUTest"
+
+#: file_templates/testing/cpp_gtest/cpp_gtest.desktop:2
+msgctxt "Name"
+msgid "Google Test"
+msgstr "गूगल टेस्ट्"
+
+#: file_templates/testing/cpp_qtestlib/cpp_qtestlib.desktop:2
+msgctxt "Name"
+msgid "Test Suite"
+msgstr "परीक्षण सुइट्"
+
+#: file_templates/testing/cpp_qtestlib_kdevelop/cpp_qtestlib_kdevelop.desktop:2
+msgctxt "Name"
+msgid "A test for KDevPlatform"
+msgstr "KDevPlatform इत्यस्य कृते एकः परीक्षणः"
+
+#: file_templates/testing/php_phpunit/php_phpunit.desktop:2
+msgctxt "Name"
+msgid "PHPUnit"
+msgstr "PHPUnit"
+
+#: file_templates/testing/python_pyunit/python_pyunit.desktop:2
+msgctxt "Name"
+msgid "PyUnit"
+msgstr "PyUnit"
+
+#: kdevplatform/interfaces/kdevelopplugin.desktop:5
+msgctxt "Name"
+msgid "KDevelop Plugin"
+msgstr "KDevelop प्लगिन्"
+
+#: plugins/appwizard/kdevappwizard.knsrc:2
+msgctxt "Name"
+msgid "Application Templates (SDK)"
+msgstr "अनुप्रयोग टेम्पलेट्स (SDK) ."
+
+#: plugins/bazaar/org.kde.kdevelop_bzr.desktop:7
+msgctxt "Name"
+msgid "KDevelop (Fetch Bazaar Project)"
+msgstr "KDevelop (बजार परियोजना आनेतु) 1.1."
+
+#: plugins/docker/dockerfile-template/dockerfile-template.desktop:2
+msgctxt "Name"
+msgid "Dockerfile"
+msgstr "डॉकरसञ्चिका"
+
+#: plugins/filetemplates/kdevfiletemplates.knsrc:2
+msgctxt "Name"
+msgid "File Templates (SDK)"
+msgstr "सञ्चिका टेम्पलेट्स (SDK) ."
+
+#: plugins/flatpak/flatpak-template/flatpak-builder-manifest.desktop:2
+msgctxt "Name"
+msgid "Flatpak Builder Manifest"
+msgstr "फ्लैटपैक बिल्डर मेनिफेस्ट"
+
+#: plugins/git/org.kde.kdevelop_git.desktop:7
+msgctxt "Name"
+msgid "KDevelop (Fetch git Project)"
+msgstr "KDevelop (Fetch git परियोजना) २."
+
+#: plugins/qthelp/kdevelop-qthelp.knsrc:2
+msgctxt "Name"
+msgid "API Documentation (QtHelp)"
+msgstr "एपिआइ दस्तावेजीकरण (QtHelp) ."
+
+#: plugins/subversion/org.kde.kdevelop_svn.desktop:7
+msgctxt "Name"
+msgid "KDevelop (Fetch Subversion Project)"
+msgstr "KDevelop (Fetch Subversion Project) इति ."
+
+#: app/org.kde.kdevelop.desktop:44 app/org.kde.kdevelop_kdev4.desktop:41
+#: plugins/bazaar/org.kde.kdevelop_bzr.desktop:37
+#: plugins/git/org.kde.kdevelop_git.desktop:37
+#: plugins/subversion/org.kde.kdevelop_svn.desktop:37
+msgctxt "GenericName"
+msgid "Integrated Development Environment"
+msgstr "एकीकृत विकास वातावरण"
+
+#: app/org.kde.kdevelop_ps.desktop:39
+msgctxt "GenericName"
+msgid "Integrated Development Environment (Pick Session to start with)"
+msgstr "एकीकृतविकासवातावरणम् (प्रारम्भार्थं सत्रं चिनुत)"
+
+#: file_templates/classes/c_gobject/c_gobject.desktop:76
+#: file_templates/classes/c_gobject_private/c_gobject_private.desktop:73
+#: file_templates/classes/c_gobject_properties/c_gobject_properties.desktop:73
+msgctxt "Language"
+msgid "C"
+msgstr "ग"
 
 #: file_templates/classes/cpp_basic/cpp_basic.desktop:79
 #: file_templates/classes/private_pointer/private_pointer.desktop:73
@@ -317,322 +614,26 @@ msgstr ""
 #: file_templates/testing/cpp_qtestlib_kdevelop/cpp_qtestlib_kdevelop.desktop:73
 msgctxt "Language"
 msgid "C++"
-msgstr ""
-
-#: file_templates/classes/private_pointer/private_pointer.desktop:2
-msgctxt "Name"
-msgid "Private Pointer"
-msgstr ""
-
-#: file_templates/classes/private_pointer/private_pointer.desktop:37
-msgctxt "Comment"
-msgid "C++ Class with a private D-pointer"
-msgstr ""
-
-#: file_templates/classes/private_pointer/private_pointer.desktop:122
-#: file_templates/classes/qabstractitemmodel/qabstractitemmodel.desktop:114
-#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:113
-#: file_templates/classes/qdialog/qdialog.desktop:113
-#: file_templates/classes/qobject/qobject.desktop:125
-#: file_templates/classes/qt_interface/qt_interface.desktop:113
-#: file_templates/classes/qt_shared/qt_shared.desktop:121
-#: file_templates/classes/qt_widget/qt_widget.desktop:122
-#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:112
-msgctxt "Name"
-msgid "Public Header"
-msgstr ""
-
-#: file_templates/classes/private_pointer/private_pointer.desktop:161
-#: file_templates/classes/qabstractitemmodel_pimpl/qabstractitemmodel_pimpl.desktop:157
-#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:152
-#: file_templates/classes/qobject_pimpl/qobject_pimpl.desktop:157
-#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:151
-msgctxt "Name"
-msgid "Private Header"
-msgstr ""
-
-#: file_templates/classes/python_basic/python_basic.desktop:42
-msgctxt "Comment"
-msgid "Basic Python Class"
-msgstr ""
+msgstr "C++ इति"
 
 #: file_templates/classes/python_basic/python_basic.desktop:79
 #: file_templates/testing/python_pyunit/python_pyunit.desktop:77
 msgctxt "Language"
 msgid "Python"
-msgstr ""
-
-#: file_templates/classes/python_basic/python_basic.desktop:127
-msgctxt "Name"
-msgid "Definition"
-msgstr ""
-
-#: file_templates/classes/qabstractitemmodel_pimpl/qabstractitemmodel_pimpl.desktop:2
-msgctxt "Name"
-msgid "QAbstractItemModel pimpl subclass"
-msgstr ""
-
-#: file_templates/classes/qabstractitemmodel_pimpl/qabstractitemmodel_pimpl.desktop:33
-msgctxt "Comment"
-msgid "QAbstractItemModel subclass with private implementation"
-msgstr ""
-
-#: file_templates/classes/qabstractitemmodel/qabstractitemmodel.desktop:2
-msgctxt "Name"
-msgid "QAbstractItemModel subclass"
-msgstr ""
-
-#: file_templates/classes/qabstractitemmodel/qabstractitemmodel.desktop:33
-msgctxt "Comment"
-msgid "QAbstractItemModel subclass with properties"
-msgstr ""
-
-#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:2
-msgctxt "Name"
-msgid "Dialog (pimpl) with a UI File"
-msgstr ""
-
-#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:32
-msgctxt "Comment"
-msgid ""
-"QDialog subclass with a separate Qt Designer file and private implementation"
-msgstr ""
-
-#: file_templates/classes/qdialog_pimpl/qdialog_pimpl.desktop:234
-#: file_templates/classes/qdialog/qdialog.desktop:195
-#: file_templates/classes/qt_widget/qt_widget.desktop:204
-#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:233
-msgctxt "Name"
-msgid "User Interface"
-msgstr ""
-
-#: file_templates/classes/qdialog/qdialog.desktop:2
-msgctxt "Name"
-msgid "Dialog with a UI File"
-msgstr ""
-
-#: file_templates/classes/qdialog/qdialog.desktop:32
-msgctxt "Comment"
-msgid "QDialog subclass with a separate Qt Designer file"
-msgstr ""
-
-#: file_templates/classes/qobject_pimpl/qobject_pimpl.desktop:2
-msgctxt "Name"
-msgid "QObject pimpl subclass"
-msgstr ""
-
-#: file_templates/classes/qobject_pimpl/qobject_pimpl.desktop:34
-msgctxt "Comment"
-msgid "QObject subclass with private implementation"
-msgstr ""
-
-#: file_templates/classes/qobject/qobject.desktop:2
-msgctxt "Name"
-msgid "QObject subclass"
-msgstr ""
-
-#: file_templates/classes/qobject/qobject.desktop:39
-msgctxt "Comment"
-msgid "QObject subclass with properties"
-msgstr ""
-
-#: file_templates/classes/qt_interface/qt_interface.desktop:2
-msgctxt "Name"
-msgid "QObject interface class"
-msgstr ""
-
-#: file_templates/classes/qt_interface/qt_interface.desktop:33
-msgctxt "Comment"
-msgid "QObject interface class with properties"
-msgstr ""
-
-#: file_templates/classes/qt_shared/qt_shared.desktop:2
-msgctxt "Name"
-msgid "Implicitly shared class"
-msgstr ""
-
-#: file_templates/classes/qt_shared/qt_shared.desktop:37
-msgctxt "Comment"
-msgid "Class with a private QSharedData member"
-msgstr ""
-
-#: file_templates/classes/qt_widget/qt_widget.desktop:2
-msgctxt "Name"
-msgid "Widget with a UI File"
-msgstr ""
-
-#: file_templates/classes/qt_widget/qt_widget.desktop:37
-msgctxt "Comment"
-msgid "QWidget subclass with a separate Qt Designer file"
-msgstr ""
-
-#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:2
-msgctxt "Name"
-msgid "Widget (pimpl) with a UI File"
-msgstr ""
-
-#: file_templates/classes/qwidget_pimpl/qwidget_pimpl.desktop:32
-msgctxt "Comment"
-msgid ""
-"QWidget subclass with a separate Qt Designer file and private implementation"
-msgstr ""
-
-#: file_templates/other/cmake_module/cmake_module.desktop:2
-msgctxt "Name"
-msgid "CMake Module with pkg-config"
-msgstr ""
-
-#: file_templates/other/cmake_module/cmake_module.desktop:37
-msgctxt "Comment"
-msgid "CMake module for finding a library using pkg-config"
-msgstr ""
+msgstr "अजगर"
 
 #: file_templates/other/cmake_module/cmake_module.desktop:73
 msgctxt "Language"
 msgid "CMake"
-msgstr ""
-
-#: file_templates/other/cmake_module/cmake_module.desktop:121
-msgctxt "Name"
-msgid "Module"
-msgstr ""
-
-#: file_templates/other/qt_qrc_file/qt_qrc_file.desktop:2
-#: file_templates/other/qt_qrc_file/qt_qrc_file.desktop:95
-msgctxt "Name"
-msgid "Qt Resource Collection File"
-msgstr ""
-
-#: file_templates/other/qt_qrc_file/qt_qrc_file.desktop:24
-msgctxt "Comment"
-msgid "A simple version with one prefix and one file."
-msgstr ""
-
-#: file_templates/testing/cpp_cpputest/cpp_cpputest.desktop:2
-msgctxt "Name"
-msgid "CppUTest"
-msgstr ""
-
-#: file_templates/testing/cpp_cpputest/cpp_cpputest.desktop:33
-msgctxt "Comment"
-msgid "A unit test using the CppUTest library"
-msgstr ""
-
-#: file_templates/testing/cpp_gtest/cpp_gtest.desktop:2
-msgctxt "Name"
-msgid "Google Test"
-msgstr ""
-
-#: file_templates/testing/cpp_gtest/cpp_gtest.desktop:33
-msgctxt "Comment"
-msgid "A unit test using the Google Test library"
-msgstr ""
-
-#: file_templates/testing/cpp_qtestlib/cpp_qtestlib.desktop:2
-msgctxt "Name"
-msgid "Test Suite"
-msgstr ""
-
-#: file_templates/testing/cpp_qtestlib/cpp_qtestlib.desktop:38
-msgctxt "Comment"
-msgid ""
-"A unit test suite using the QTest library without a graphical user interface"
-msgstr ""
-
-#: file_templates/testing/cpp_qtestlib_kdevelop/cpp_qtestlib_kdevelop.desktop:2
-msgctxt "Name"
-msgid "A test for KDevPlatform"
-msgstr ""
-
-#: file_templates/testing/cpp_qtestlib_kdevelop/cpp_qtestlib_kdevelop.desktop:37
-msgctxt "Comment"
-msgid "A unit test using the QTest library with KDevPlatform test helpers"
-msgstr ""
-
-#: file_templates/testing/php_phpunit/php_phpunit.desktop:2
-msgctxt "Name"
-msgid "PHPUnit"
-msgstr ""
-
-#: file_templates/testing/php_phpunit/php_phpunit.desktop:40
-msgctxt "Comment"
-msgid "A unit test using the PHPUnit framework"
-msgstr ""
+msgstr "CMake इति"
 
 #: file_templates/testing/php_phpunit/php_phpunit.desktop:76
 msgctxt "Language"
 msgid "Php"
-msgstr ""
-
-#: file_templates/testing/python_pyunit/python_pyunit.desktop:2
-msgctxt "Name"
-msgid "PyUnit"
-msgstr ""
-
-#: file_templates/testing/python_pyunit/python_pyunit.desktop:41
-msgctxt "Comment"
-msgid "A unit test using the PyUnit framework"
-msgstr ""
-
-#: kdevplatform/interfaces/kdevelopplugin.desktop:5
-msgctxt "Name"
-msgid "KDevelop Plugin"
-msgstr ""
-
-#: plugins/appwizard/kdevappwizard.knsrc:2
-msgctxt "Name"
-msgid "Application Templates (SDK)"
-msgstr ""
-
-#: plugins/bazaar/org.kde.kdevelop_bzr.desktop:7
-msgctxt "Name"
-msgid "KDevelop (Fetch Bazaar Project)"
-msgstr ""
-
-#: plugins/docker/dockerfile-template/dockerfile-template.desktop:2
-msgctxt "Name"
-msgid "Dockerfile"
-msgstr ""
-
-#: plugins/docker/dockerfile-template/dockerfile-template.desktop:34
-msgctxt "Comment"
-msgid ""
-"A Dockerfile is a text document that contains all the commands a user could "
-"call on the command line to assemble an image"
-msgstr ""
+msgstr "Php"
 
 #: plugins/docker/dockerfile-template/dockerfile-template.desktop:64
 #: plugins/flatpak/flatpak-template/flatpak-builder-manifest.desktop:62
 msgctxt "Language"
 msgid "JSON"
-msgstr ""
-
-#: plugins/filetemplates/kdevfiletemplates.knsrc:2
-msgctxt "Name"
-msgid "File Templates (SDK)"
-msgstr ""
-
-#: plugins/flatpak/flatpak-template/flatpak-builder-manifest.desktop:2
-msgctxt "Name"
-msgid "Flatpak Builder Manifest"
-msgstr ""
-
-#: plugins/flatpak/flatpak-template/flatpak-builder-manifest.desktop:31
-msgctxt "Comment"
-msgid "A file to configure how a project is built by flatpak"
-msgstr ""
-
-#: plugins/git/org.kde.kdevelop_git.desktop:7
-msgctxt "Name"
-msgid "KDevelop (Fetch git Project)"
-msgstr ""
-
-#: plugins/qthelp/kdevelop-qthelp.knsrc:2
-msgctxt "Name"
-msgid "API Documentation (QtHelp)"
-msgstr ""
-
-#: plugins/subversion/org.kde.kdevelop_svn.desktop:7
-msgctxt "Name"
-msgid "KDevelop (Fetch Subversion Project)"
-msgstr ""
+msgstr "JSON"
