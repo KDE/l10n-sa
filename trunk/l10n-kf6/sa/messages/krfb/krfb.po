@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the krfb package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: krfb\n"
@@ -13,19 +13,8 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
 
 #: connectiondialog.cpp:26
 #, kde-format
@@ -57,58 +46,58 @@ msgstr "%1 तः संयोजनं प्राप्तम्, स्थ�
 msgid "%1@%2 (shared desktop)"
 msgstr "%1@%2 (साझा डेस्कटॉपः)"
 
-#. i18n: ectx: label, entry (startMinimized), group (MainWindow)
 #: krfb.kcfg:9
+#. i18n: ectx: label, entry (startMinimized), group (MainWindow)
 #, kde-format
 msgid "Start minimized"
 msgstr "न्यूनतमं कृत्वा आरभत"
 
-#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
 #: krfb.kcfg:15
+#. i18n: ectx: label, entry (useDefaultPort), group (TCP)
 #, kde-format
 msgid "Use the default port for VNC (5900)"
 msgstr "VNC (5900) कृते पूर्वनिर्धारितं पोर्ट् उपयुज्यताम् ।"
 
-#. i18n: ectx: label, entry (port), group (TCP)
 #: krfb.kcfg:19
+#. i18n: ectx: label, entry (port), group (TCP)
 #, kde-format
 msgid "This is the port on which krfb will listen."
 msgstr "एषः एव पोर्ट् यस्मिन् krfb श्रोष्यति ।"
 
+#: krfb.kcfg:23 ui/configtcp.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_publishService)
 #. i18n: ectx: label, entry (publishService), group (TCP)
-#: krfb.kcfg:23 ui/configtcp.ui:16
 #, kde-format
 msgid "Announce the service on the local network"
 msgstr "स्थानीयजालपुटे सेवायाः घोषणां कुर्वन्तु"
 
-#. i18n: ectx: label, entry (noWallet), group (Security)
 #: krfb.kcfg:29
+#. i18n: ectx: label, entry (noWallet), group (Security)
 #, kde-format
 msgid "Do not store passwords in KWallet"
 msgstr "KWallet मध्ये गुप्तशब्दान् न संग्रहयन्तु"
 
-#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
 #: krfb.kcfg:33
+#. i18n: ectx: label, entry (allowDesktopControl), group (Security)
 #, kde-format
 msgid "Allow remote connections to manage the desktop."
 msgstr "डेस्कटॉप् प्रबन्धनार्थं दूरस्थसंयोजनानां अनुमतिं ददातु ।"
 
-#. i18n: ectx: label, entry (allowUnattendedAccess), group (Security)
 #: krfb.kcfg:37
+#. i18n: ectx: label, entry (allowUnattendedAccess), group (Security)
 #, kde-format
 msgid "Allow connections without an invitation."
 msgstr "आमन्त्रणं विना संयोजनानि अनुमन्यताम्।"
 
+#: krfb.kcfg:41 krfb.kcfg:44
 #. i18n: ectx: label, entry (unattendedAccessPassword), group (Security)
 #. i18n: ectx: label, entry (desktopSharingPassword), group (Security)
-#: krfb.kcfg:41 krfb.kcfg:44
 #, kde-format
 msgid "Password for uninvited connections."
 msgstr "अनमन्त्रितसंयोजनानां कृते गुप्तशब्दः।"
 
-#. i18n: ectx: label, entry (preferredFrameBufferPlugin), group (FrameBuffer)
 #: krfb.kcfg:49
+#. i18n: ectx: label, entry (preferredFrameBufferPlugin), group (FrameBuffer)
 #, kde-format
 msgid "Preferred Frame Buffer Plugin"
 msgstr "पसंदीदा फ्रेम बफर प्लगिन्"
@@ -273,8 +262,8 @@ msgid ""
 "Your X11 Server does not support the required XTest extension version 2.2. "
 "Sharing your desktop is not possible."
 msgstr ""
-"भवतः X11 Server आवश्यकं XTest विस्तारसंस्करणं 2.2 समर्थयति न । भवतः डेस्कटॉप् साझाकरणं "
-"सम्भवं नास्ति ।"
+"भवतः X11 Server आवश्यकं XTest विस्तारसंस्करणं 2.2 समर्थयति न । भवतः "
+"डेस्कटॉप् साझाकरणं सम्भवं नास्ति ।"
 
 #: main.cpp:40 main.cpp:141
 #, kde-format
@@ -331,14 +320,14 @@ msgid ""
 "Failed to start the krfb server. Desktop sharing will not work. Try setting "
 "another port in the settings and restart krfb."
 msgstr ""
-"krfb सर्वरं आरभ्यतुं असफलम्। डेस्कटॉप् साझेदारी कार्यं न करिष्यति। सेटिङ्ग्स् मध्ये अन्यं पोर्ट् सेट् "
-"कृत्वा krfb पुनः आरभ्यताम् ।"
+"krfb सर्वरं आरभ्यतुं असफलम्। डेस्कटॉप् साझेदारी कार्यं न करिष्यति। "
+"सेटिङ्ग्स् मध्ये अन्यं पोर्ट् सेट् कृत्वा krfb पुनः आरभ्यताम् ।"
 
+#: mainwindow.cpp:220 mainwindow.cpp:227 ui/mainwidget.ui:83
+#: ui/mainwidget.ui:86 ui/mainwidget.ui:114
 #. i18n: ectx: property (whatsThis), widget (QLabel, titleLabel)
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #. i18n: ectx: property (whatsThis), widget (QLabel, aboutLabel)
-#: mainwindow.cpp:220 mainwindow.cpp:227 ui/mainwidget.ui:83
-#: ui/mainwidget.ui:86 ui/mainwidget.ui:114
 #, kde-format
 msgid "KDE Desktop Sharing"
 msgstr "KDE डेस्कटॉप् साझेदारी"
@@ -352,22 +341,23 @@ msgid ""
 "The address is just a hint - you can use any address that can reach your "
 "computer.\n"
 "\n"
-"Desktop Sharing tries to guess your address from your network configuration, "
-"but does not always succeed in doing so.\n"
+"Desktop Sharing tries to guess your address from your network "
+"configuration, but does not always succeed in doing so.\n"
 "\n"
 "If your computer is behind a firewall it may have a different address or be "
 "unreachable for other computers."
 msgstr ""
-"अस्मिन् क्षेत्रे भवतः सङ्गणकस्य पता, पोर्ट् सङ्ख्या च सन्ति, ये कोलोनेन पृथक् भवन्ति ।\n"
+"अस्मिन् क्षेत्रे भवतः सङ्गणकस्य पता, पोर्ट् सङ्ख्या च सन्ति, ये कोलोनेन "
+"पृथक् भवन्ति ।\n"
 "\n"
-"पता केवलं संकेतः एव - भवान् यत्किमपि पतां उपयोक्तुं शक्नोति यत् भवतां सङ्गणकं प्राप्तुं शक्नोति "
-"।\n"
+"पता केवलं संकेतः एव - भवान् यत्किमपि पतां उपयोक्तुं शक्नोति यत् भवतां "
+"सङ्गणकं प्राप्तुं शक्नोति ।\n"
 "\n"
-"डेस्कटॉप् साझेदारी भवतः संजालविन्यासात् भवतः पतां अनुमानयितुं प्रयतते, परन्तु सर्वदा तत् सफलं "
-"न भवति ।\n"
+"डेस्कटॉप् साझेदारी भवतः संजालविन्यासात् भवतः पतां अनुमानयितुं प्रयतते, "
+"परन्तु सर्वदा तत् सफलं न भवति ।\n"
 "\n"
-"यदि भवतः सङ्गणकः अग्निप्रावरणस्य पृष्ठतः अस्ति तर्हि तस्य भिन्नः पता वा अन्यसङ्गणकानां कृते "
-"अप्राप्यः वा भवितुम् अर्हति ।"
+"यदि भवतः सङ्गणकः अग्निप्रावरणस्य पृष्ठतः अस्ति तर्हि तस्य भिन्नः पता वा "
+"अन्यसङ्गणकानां कृते अप्राप्यः वा भवितुम् अर्हति ।"
 
 #: mainwindow.cpp:228
 #, kde-format
@@ -379,11 +369,12 @@ msgid ""
 "password, desktop sharing access will be granted without explicit "
 "confirmation."
 msgstr ""
-"सामान्यडेस्कटॉपसाझेदारीगुप्तशब्दयुक्तः कोऽपि दूरस्थः उपयोक्ता प्रमाणीकरणं कर्तव्यः भविष्यति "
-"।\n"
+"सामान्यडेस्कटॉपसाझेदारीगुप्तशब्दयुक्तः कोऽपि दूरस्थः उपयोक्ता प्रमाणीकरणं "
+"कर्तव्यः भविष्यति ।\n"
 "\n"
-"यदि अप्रयुक्तप्रवेशः चालू अस्ति, दूरस्थः उपयोक्ता च अनअटेण्डेड मोड गुप्तशब्दं प्रदाति, तर्हि "
-"स्पष्टपुष्टिं विना डेस्कटॉप् साझेदारीप्रवेशः प्रदत्तः भविष्यति ।"
+"यदि अप्रयुक्तप्रवेशः चालू अस्ति, दूरस्थः उपयोक्ता च अनअटेण्डेड मोड "
+"गुप्तशब्दं प्रदाति, तर्हि स्पष्टपुष्टिं विना डेस्कटॉप् साझेदारीप्रवेशः "
+"प्रदत्तः भविष्यति ।"
 
 #: mainwindow.cpp:246
 #, kde-format
@@ -403,7 +394,9 @@ msgstr "स्क्रीन कैप्चर"
 #: mainwindow.cpp:253
 #, kde-format
 msgid "To apply framebuffer plugin setting, you need to restart the program."
-msgstr "framebuffer plugin सेटिंग् प्रयोक्तुं भवद्भिः प्रोग्राम् पुनः आरभ्यत इति आवश्यकम् ।"
+msgstr ""
+"framebuffer plugin सेटिंग् प्रयोक्तुं भवद्भिः प्रोग्राम् पुनः आरभ्यत इति "
+"आवश्यकम् ।"
 
 #: rfbservermanager.cpp:226
 #, kde-format
@@ -440,80 +433,82 @@ msgstr "डेस्कटॉप् साझेदारी - %1 इत्य�
 msgid "Desktop Sharing - connected"
 msgstr "डेस्कटॉप् साझेदारी - सम्बद्धम्"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configframebuffer.ui:19
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Preferred frameb&uffer plugin:"
 msgstr "प्राधान्यं frameb&uffer प्लगिन्:"
 
-#. i18n: ectx: property (text), widget (QLabel, helpText)
 #: ui/configframebuffer.ui:44
+#. i18n: ectx: property (text), widget (QLabel, helpText)
 #, kde-format
 msgid ""
-"<html><head/><body><p>When using x11, <span style=\" font-weight:600;\">xcb</"
-"span> plugin should be preferred, because it is more performant.<br/><span "
-"style=\" font-weight:600;\">qt</span> plugin is a safe fallback, if for some "
-"reason others don't work. But also it is very slow.</p></body></html>"
+"<html><head/><body><p>When using x11, <span style=\" "
+"font-weight:600;\">xcb</span> plugin should be preferred, because it is "
+"more performant.<br/><span style=\" font-weight:600;\">qt</span> plugin is "
+"a safe fallback, if for some reason others don't work. But also it is very "
+"slow.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>x11 इत्यस्य उपयोगं कुर्वन् <span style=\" font-weight:600;"
-"\">xcb</span> प्लगिन् इत्येतत् प्राधान्यं दातव्यम्, यतः इदं अधिकं कार्यक्षमम् अस्ति ।<br/> "
-"<span style=\" font-weight:600;\">qt</span> प्लगिन् सुरक्षितं fallback अस्ति, यदि "
-"केनचित् कारणेन अन्ये कार्यं न कुर्वन्ति । परन्तु अपि अतीव मन्दम् अस्ति।</p></body></html>"
+"<html><head/><body><p>x11 इत्यस्य उपयोगं कुर्वन् <span style=\" "
+"font-weight:600;\">xcb</span> प्लगिन् इत्येतत् प्राधान्यं दातव्यम्, यतः इदं "
+"अधिकं कार्यक्षमम् अस्ति ।<br/> <span style=\" font-weight:600;\">qt</span> "
+"प्लगिन् सुरक्षितं fallback अस्ति, यदि केनचित् कारणेन अन्ये कार्यं न "
+"कुर्वन्ति । परन्तु अपि अतीव मन्दम् अस्ति।</p></body></html>"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
 #: ui/configsecurity.ui:17
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowDesktopControl)
 #, kde-format
 msgid "Allow remote connections to control your desktop"
 msgstr "दूरस्थसंयोजनानि भवतः डेस्कटॉप् नियन्त्रयितुं अनुमन्यताम्"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_noWallet)
 #: ui/configsecurity.ui:27
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_noWallet)
 #, kde-format
 msgid "Do not store passwords using KDE wallet"
 msgstr "KDE बटुकस्य उपयोगेन गुप्तशब्दान् न संग्रहयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDefaultPort)
 #: ui/configtcp.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useDefaultPort)
 #, kde-format
 msgid "Use default port"
 msgstr "पूर्वनिर्धारित पोर्ट् इत्यस्य उपयोगं कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/configtcp.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Listening port:"
 msgstr "श्रवण-बन्दरम् : १."
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #: ui/connectionwidget.ui:47
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #, kde-format
 msgid "Attention"
 msgstr "अवधानम्‌"
 
-#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
 #: ui/connectionwidget.ui:72
+#. i18n: ectx: property (text), widget (QLabel, mainTextLabel)
 #, kde-format
 msgid ""
 "Somebody is requesting a connection to your computer. Granting this will "
 "allow the remote user to watch your desktop. "
 msgstr ""
-"कश्चन भवतः सङ्गणकेन सह संयोजनं याचते। एतत् स्वीकृत्य दूरस्थः उपयोक्ता भवतः डेस्कटॉप् द्रष्टुं "
-"शक्नोति । "
+"कश्चन भवतः सङ्गणकेन सह संयोजनं याचते। एतत् स्वीकृत्य दूरस्थः उपयोक्ता भवतः "
+"डेस्कटॉप् द्रष्टुं शक्नोति । "
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: ui/connectionwidget.ui:102
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #, kde-format
 msgid "Remote system:"
 msgstr "दूरस्थ प्रणाली : १."
 
-#. i18n: ectx: property (text), widget (QLabel, remoteHost)
 #: ui/connectionwidget.ui:118
+#. i18n: ectx: property (text), widget (QLabel, remoteHost)
 #, kde-format
 msgid "123.234.123.234"
 msgstr "१२३.२३४.१२३.२३४ इति"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAllowRemoteControl)
 #: ui/connectionwidget.ui:136
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAllowRemoteControl)
 #, kde-format
 msgid ""
 "If you turn this option on, the remote user can enter keystrokes and use "
@@ -521,172 +516,187 @@ msgid ""
 "careful. When the option is disabled the remote user can only watch your "
 "screen."
 msgstr ""
-"यदि भवान् एतत् विकल्पं चालू करोति तर्हि दूरस्थः उपयोक्ता कीलप्रहारं प्रविश्य भवतः "
-"मूषकसूचकस्य उपयोगं कर्तुं शक्नोति । एतेन तेषां भवतः सङ्गणकस्य पूर्णं नियन्त्रणं भवति अतः "
-"सावधानाः भवन्तु । यदा विकल्पः अक्षमः भवति तदा दूरस्थः उपयोक्ता केवलं भवतः पटलं द्रष्टुं "
-"शक्नोति ।"
+"यदि भवान् एतत् विकल्पं चालू करोति तर्हि दूरस्थः उपयोक्ता कीलप्रहारं "
+"प्रविश्य भवतः मूषकसूचकस्य उपयोगं कर्तुं शक्नोति । एतेन तेषां भवतः सङ्गणकस्य "
+"पूर्णं नियन्त्रणं भवति अतः सावधानाः भवन्तु । यदा विकल्पः अक्षमः भवति तदा "
+"दूरस्थः उपयोक्ता केवलं भवतः पटलं द्रष्टुं शक्नोति ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, cbAllowRemoteControl)
 #: ui/connectionwidget.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, cbAllowRemoteControl)
 #, kde-format
 msgid "Allow remote user to &control keyboard and mouse"
 msgstr "दूरस्थं उपयोक्तारं कीबोर्डं मूषकं च &नियन्त्रणं कर्तुं अनुमतिं ददातु"
 
-#. i18n: ectx: property (text), widget (QLabel, aboutLabel)
 #: ui/mainwidget.ui:117
+#. i18n: ectx: property (text), widget (QLabel, aboutLabel)
 #, kde-format
 msgid ""
 "KDE Desktop Sharing allows you to grant permission to someone at a remote "
 "location for viewing and possibly controlling your desktop."
 msgstr ""
-"KDE डेस्कटॉप् साझेदारी भवन्तं दूरस्थस्थाने कस्मैचित् स्वस्य डेस्कटॉप् द्रष्टुं सम्भवतः नियन्त्रणार्थं च "
-"अनुमतिं दातुं शक्नोति ।"
+"KDE डेस्कटॉप् साझेदारी भवन्तं दूरस्थस्थाने कस्मैचित् स्वस्य डेस्कटॉप् "
+"द्रष्टुं सम्भवतः नियन्त्रणार्थं च अनुमतिं दातुं शक्नोति ।"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, enableSharingCheckBox)
 #: ui/mainwidget.ui:145
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, enableSharingCheckBox)
 #, kde-format
 msgid "Starts/Stops Remote Desktop Sharing"
 msgstr "दूरस्थं डेस्कटॉपसाझेदारी आरभ्यते/स्थगयति"
 
-#. i18n: ectx: property (text), widget (QCheckBox, enableSharingCheckBox)
 #: ui/mainwidget.ui:148
+#. i18n: ectx: property (text), widget (QCheckBox, enableSharingCheckBox)
 #, kde-format
 msgid "&Enable Desktop Sharing"
 msgstr "&डेस्कटॉप् साझाकरणं सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
 #: ui/mainwidget.ui:170
+#. i18n: ectx: property (title), widget (QGroupBox, detailsGroupBox)
 #, kde-format
 msgid "Connection Details"
 msgstr "संयोजनविवरणम्"
 
-#. i18n: ectx: property (text), widget (QLabel, addressLabel)
 #: ui/mainwidget.ui:193
+#. i18n: ectx: property (text), widget (QLabel, addressLabel)
 #, kde-format
 msgid "&Address"
 msgstr "&पत्रसङ्केतः"
 
-#. i18n: ectx: property (whatsThis), widget (QToolButton, addressAboutButton)
 #: ui/mainwidget.ui:214
+#. i18n: ectx: property (whatsThis), widget (QToolButton, addressAboutButton)
 #, kde-format
 msgid "More about this address"
 msgstr "अस्य सम्बोधनस्य विषये अधिकं"
 
+#: ui/mainwidget.ui:217 ui/mainwidget.ui:397
 #. i18n: ectx: property (text), widget (QToolButton, addressAboutButton)
 #. i18n: ectx: property (text), widget (QToolButton, unattendedAboutButton)
-#: ui/mainwidget.ui:217 ui/mainwidget.ui:397
 #, kde-format
 msgid "About"
 msgstr "विषये"
 
-#. i18n: ectx: property (whatsThis), widget (QLabel, addressDisplayLabel)
 #: ui/mainwidget.ui:235
+#. i18n: ectx: property (whatsThis), widget (QLabel, addressDisplayLabel)
 #, kde-format
 msgid ""
 "Address required by remote users to connect to your desktop. Click about "
 "button on the right for more info."
 msgstr ""
-"दूरस्थप्रयोक्तृभिः भवतः डेस्कटॉप् इत्यनेन सह सम्बद्धं कर्तुं आवश्यकं पता । अधिकविवरणार्थं "
-"दक्षिणभागे about बटनं नुदन्तु।"
+"दूरस्थप्रयोक्तृभिः भवतः डेस्कटॉप् इत्यनेन सह सम्बद्धं कर्तुं आवश्यकं पता । "
+"अधिकविवरणार्थं दक्षिणभागे about बटनं नुदन्तु।"
 
-#. i18n: ectx: property (text), widget (QLabel, addressDisplayLabel)
 #: ui/mainwidget.ui:238
+#. i18n: ectx: property (text), widget (QLabel, addressDisplayLabel)
 #, kde-format
 msgid "127.0.0.1 : 5900"
 msgstr "१२७.०.०.१ : ५९००"
 
-#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: ui/mainwidget.ui:269
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #, kde-format
 msgid "&Password"
 msgstr "&समाभाष्"
 
-#. i18n: ectx: property (whatsThis), widget (QToolButton, passwordEditButton)
 #: ui/mainwidget.ui:290
+#. i18n: ectx: property (whatsThis), widget (QToolButton, passwordEditButton)
 #, kde-format
 msgid "Edit/Save Desktop Sharing Password"
 msgstr "डेस्कटॉप् साझेदारी गुप्तशब्दं सम्पादयन्तु/रक्षन्तु"
 
-#. i18n: ectx: property (text), widget (QToolButton, passwordEditButton)
 #: ui/mainwidget.ui:293
+#. i18n: ectx: property (text), widget (QToolButton, passwordEditButton)
 #, kde-format
 msgid "Edit"
 msgstr "सम्पादन"
 
-#. i18n: ectx: property (whatsThis), widget (QLabel, passwordDisplayLabel)
 #: ui/mainwidget.ui:311
+#. i18n: ectx: property (whatsThis), widget (QLabel, passwordDisplayLabel)
 #, kde-format
 msgid ""
-"Password required by remote users to connect to your desktop. Click the edit "
-"button on the right to change password."
+"Password required by remote users to connect to your desktop. Click the "
+"edit button on the right to change password."
 msgstr ""
-"दूरस्थप्रयोक्तृभिः भवतः डेस्कटॉप्-सङ्गतिं कर्तुं आवश्यकः गुप्तशब्दः । गुप्तशब्दं परिवर्तयितुं "
-"दक्षिणभागे edit बटन् नुदन्तु ।"
+"दूरस्थप्रयोक्तृभिः भवतः डेस्कटॉप्-सङ्गतिं कर्तुं आवश्यकः गुप्तशब्दः । "
+"गुप्तशब्दं परिवर्तयितुं दक्षिणभागे edit बटन् नुदन्तु ।"
 
-#. i18n: ectx: property (text), widget (QLabel, passwordDisplayLabel)
 #: ui/mainwidget.ui:314
+#. i18n: ectx: property (text), widget (QLabel, passwordDisplayLabel)
 #, kde-format
 msgid "TemporaryPassword"
 msgstr "अस्थायीगुप्तशब्द"
 
+#: ui/mainwidget.ui:340 ui/mainwidget.ui:378
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, unattendedGroupBox)
 #. i18n: ectx: property (text), widget (QLabel, unattendedAboutLabel)
-#: ui/mainwidget.ui:340 ui/mainwidget.ui:378
 #, kde-format
 msgid ""
 "Unattended Access allows a remote user with the password to gain control to "
 "your desktop without your explicit confirmation."
 msgstr ""
-"अप्रयुक्तः अभिगमः गुप्तशब्दयुक्तं दूरस्थं उपयोक्तारं भवतः स्पष्टपुष्टिं विना भवतः डेस्कटॉप् प्रति "
-"नियन्त्रणं प्राप्तुं शक्नोति ।"
+"अप्रयुक्तः अभिगमः गुप्तशब्दयुक्तं दूरस्थं उपयोक्तारं भवतः स्पष्टपुष्टिं "
+"विना भवतः डेस्कटॉप् प्रति नियन्त्रणं प्राप्तुं शक्नोति ।"
 
-#. i18n: ectx: property (title), widget (QGroupBox, unattendedGroupBox)
 #: ui/mainwidget.ui:343
+#. i18n: ectx: property (title), widget (QGroupBox, unattendedGroupBox)
 #, kde-format
 msgid "Unattended Access"
 msgstr "अनअटेण्डेड एक्सेस"
 
-#. i18n: ectx: property (whatsThis), widget (QLabel, unattendedAboutLabel)
 #: ui/mainwidget.ui:375
+#. i18n: ectx: property (whatsThis), widget (QLabel, unattendedAboutLabel)
 #, kde-format
 msgid ""
 "Unattended Access allows a remote user with the password to gain control to "
 "your desktop without your explicit confirmation. Click \"About\" button on "
 "right to know more."
 msgstr ""
-"अप्रयुक्तः अभिगमः गुप्तशब्दयुक्तं दूरस्थं उपयोक्तारं भवतः स्पष्टपुष्टिं विना भवतः डेस्कटॉप् प्रति "
-"नियन्त्रणं प्राप्तुं शक्नोति । अधिकं ज्ञातुं दक्षिणभागे \"About\" इति बटन् नुदन्तु ।"
+"अप्रयुक्तः अभिगमः गुप्तशब्दयुक्तं दूरस्थं उपयोक्तारं भवतः स्पष्टपुष्टिं "
+"विना भवतः डेस्कटॉप् प्रति नियन्त्रणं प्राप्तुं शक्नोति । अधिकं ज्ञातुं "
+"दक्षिणभागे \"About\" इति बटन् नुदन्तु ।"
 
-#. i18n: ectx: property (whatsThis), widget (QToolButton, unattendedAboutButton)
 #: ui/mainwidget.ui:394
+#. i18n: ectx: property (whatsThis), widget (QToolButton,
+#. unattendedAboutButton)
 #, kde-format
 msgid "Know more about Unattended Access"
 msgstr "अनटेण्डेड् एक्सेस इत्यस्य विषये अधिकं ज्ञातव्यम्"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, enableUnattendedCheckBox)
 #: ui/mainwidget.ui:437
+#. i18n: ectx: property (whatsThis), widget (QCheckBox,
+#. enableUnattendedCheckBox)
 #, kde-format
 msgid ""
 "Starts/Stops unattended access to your desktop. Click on button on right to "
 "change password, and \"About\" button to know more."
 msgstr ""
-"भवतः डेस्कटॉप् प्रति अनपेक्षितप्रवेशं आरभते/स्थगयति। गुप्तशब्दं परिवर्तयितुं दक्षिणभागे बटनं "
-"नुदन्तु, अधिकं ज्ञातुं \"About\" इति बटन् नुदन्तु ।"
+"भवतः डेस्कटॉप् प्रति अनपेक्षितप्रवेशं आरभते/स्थगयति। गुप्तशब्दं "
+"परिवर्तयितुं दक्षिणभागे बटनं नुदन्तु, अधिकं ज्ञातुं \"About\" इति बटन् "
+"नुदन्तु ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, enableUnattendedCheckBox)
 #: ui/mainwidget.ui:440
+#. i18n: ectx: property (text), widget (QCheckBox, enableUnattendedCheckBox)
 #, kde-format
 msgid "Enable &Unattended Access"
 msgstr "&Unattended Access सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: property (whatsThis), widget (QPushButton, unattendedPasswordButton)
 #: ui/mainwidget.ui:465
+#. i18n: ectx: property (whatsThis), widget (QPushButton,
+#. unattendedPasswordButton)
 #, kde-format
 msgid "Change password for Unattended Access"
 msgstr "अनटेण्डेड् एक्सेस् इत्यस्य गुप्तशब्दं परिवर्तयन्तु"
 
-#. i18n: ectx: property (text), widget (QPushButton, unattendedPasswordButton)
 #: ui/mainwidget.ui:468
+#. i18n: ectx: property (text), widget (QPushButton, unattendedPasswordButton)
 #, kde-format
 msgid "&Change Unattended Password"
 msgstr "&अनटेण्डेड पासवर्ड परिवर्तयतु"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
