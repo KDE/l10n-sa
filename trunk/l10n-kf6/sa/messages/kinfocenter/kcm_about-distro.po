@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kinfocenter package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -21,44 +21,13 @@ msgstr ""
 #, kde-format
 msgid "Processor:"
 msgid_plural "Processors:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: CPUEntry.cpp:22
-#, kde-format
-msgctxt ""
-"unknown CPU type/product name; presented as `Processors: 4 × Unknown Type'"
-msgid "Unknown Type"
-msgstr ""
-
-#: GPUEntry.cpp:17
-#, kde-format
-msgctxt "@label %1 is the GPU index number"
-msgid "Graphics Processor %1:"
-msgstr ""
+msgstr[0] "संसाधकः : १."
+msgstr[1] "संसाधकाः : १."
 
 #: GPUEntry.cpp:18
 #, kde-format
 msgid "Graphics Processor:"
 msgstr "ग्राफिक्स प्रोसेसर : १."
-
-#: GPUEntry.cpp:28
-#, kde-format
-msgctxt "@label GPU type"
-msgid "integrated"
-msgstr ""
-
-#: GPUEntry.cpp:30
-#, kde-format
-msgctxt "@label GPU type"
-msgid "discrete"
-msgstr ""
-
-#: GPUEntry.cpp:32
-#, kde-format
-msgctxt "@label GPU type. GPU of a virtual machine"
-msgid "virtual"
-msgstr ""
 
 #: GraphicsPlatformEntry.cpp:10
 #, kde-format
@@ -69,48 +38,6 @@ msgstr "ग्राफिक्स मञ्चः : १."
 #, kde-format
 msgid "Kernel Version:"
 msgstr "कर्नेल् संस्करणम् : १."
-
-#: KernelEntry.cpp:23
-#, kde-format
-msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
-msgid "%1 (%2-bit)"
-msgstr ""
-
-#: main.cpp:199
-#, kde-format
-msgctxt "@label"
-msgid "Manufacturer:"
-msgstr ""
-
-#: main.cpp:202 main.cpp:219
-#, kde-format
-msgctxt "@label"
-msgid "Product Name:"
-msgstr ""
-
-#: main.cpp:205
-#, kde-format
-msgctxt "@label"
-msgid "System Version:"
-msgstr ""
-
-#: main.cpp:208 main.cpp:222
-#, kde-format
-msgctxt "@label"
-msgid "Serial Number:"
-msgstr ""
-
-#: main.cpp:212 main.cpp:229
-#, kde-format
-msgctxt "@label unknown entry in table"
-msgid "Unknown:"
-msgstr ""
-
-#: main.cpp:225
-#, kde-format
-msgctxt "@label uboot is the name of a bootloader for embedded devices"
-msgid "U-Boot Version:"
-msgstr ""
 
 #: main.cpp:263
 #, kde-format
@@ -127,28 +54,105 @@ msgstr "Qt संस्करणम् : १."
 msgid "Memory:"
 msgstr "स्मृति:"
 
-#: MemoryEntry.cpp:49
-#, kde-format
-msgctxt "@label %1 is the formatted amount of system memory (e.g. 7,7 GiB)"
-msgid "%1 of RAM"
-msgstr ""
-
-#: MemoryEntry.cpp:53
-#, kde-format
-msgctxt "Unknown amount of RAM"
-msgid "Unknown"
-msgstr ""
-
 #: OSVersionEntry.cpp:9
 #, kde-format
 msgid "Operating System:"
 msgstr "प्रचालन प्रणाली : १."
 
+#: PlasmaEntry.cpp:15
+#, kde-format
+msgid "KDE Plasma Version:"
+msgstr "केडीई प्लाज्मा संस्करणम् : १."
+
+#: CPUEntry.cpp:22
+#, kde-format
+msgctxt "unknown CPU type/product name; presented as `Processors: 4 × Unknown Type'"
+msgid "Unknown Type"
+msgstr "अज्ञात प्रकार"
+
+#: GPUEntry.cpp:17
+#, kde-format
+msgctxt "@label %1 is the GPU index number"
+msgid "Graphics Processor %1:"
+msgstr "ग्राफिक्स प्रोसेसर %1:"
+
+#: GPUEntry.cpp:28
+#, kde-format
+msgctxt "@label GPU type"
+msgid "integrated"
+msgstr "एकीकृत"
+
+#: GPUEntry.cpp:30
+#, kde-format
+msgctxt "@label GPU type"
+msgid "discrete"
+msgstr "विच्छिन्नम्"
+
+#: GPUEntry.cpp:32
+#, kde-format
+msgctxt "@label GPU type. GPU of a virtual machine"
+msgid "virtual"
+msgstr "आभास"
+
+#: KernelEntry.cpp:23
+#, kde-format
+msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
+msgid "%1 (%2-bit)"
+msgstr "%1 (%2-बिट) २."
+
+#: main.cpp:199
+#, kde-format
+msgctxt "@label"
+msgid "Manufacturer:"
+msgstr "निर्माता : १."
+
+#: main.cpp:202 main.cpp:219
+#, kde-format
+msgctxt "@label"
+msgid "Product Name:"
+msgstr "उत्पाद का नाम : १."
+
+#: main.cpp:205
+#, kde-format
+msgctxt "@label"
+msgid "System Version:"
+msgstr "प्रणालीसंस्करणम् : १."
+
+#: main.cpp:208 main.cpp:222
+#, kde-format
+msgctxt "@label"
+msgid "Serial Number:"
+msgstr "क्रमाङ्कः : १."
+
+#: main.cpp:212 main.cpp:229
+#, kde-format
+msgctxt "@label unknown entry in table"
+msgid "Unknown:"
+msgstr "अज्ञात:"
+
+#: main.cpp:225
+#, kde-format
+msgctxt "@label uboot is the name of a bootloader for embedded devices"
+msgid "U-Boot Version:"
+msgstr "यू-बूट् संस्करणम् : १."
+
+#: MemoryEntry.cpp:49
+#, kde-format
+msgctxt "@label %1 is the formatted amount of system memory (e.g. 7,7 GiB)"
+msgid "%1 of RAM"
+msgstr "%1 RAM इत्यस्य"
+
+#: MemoryEntry.cpp:53
+#, kde-format
+msgctxt "Unknown amount of RAM"
+msgid "Unknown"
+msgstr "अज्ञात"
+
 #: OSVersionEntry.cpp:11
 #, kde-format
 msgctxt "@label %1 is the distro name, %2 is the version"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
 
 #: OSVersionEntry.cpp:13
 #, kde-format
@@ -156,75 +160,70 @@ msgctxt ""
 "@label %1 is the distro name, %2 is the version, %3 is the 'build' which "
 "should be a number, or 'rolling'"
 msgid "%1 %2 Build: %3"
-msgstr ""
-
-#: PlasmaEntry.cpp:15
-#, kde-format
-msgid "KDE Plasma Version:"
-msgstr "केडीई प्लाज्मा संस्करणम् : १."
+msgstr "%1 %2 निर्माणम्: %3"
 
 #: ThirdPartyEntry.cpp:12
 #, kde-format
 msgctxt "Unused but needs to be : to avoid assertion in Entry constructor"
 msgid ":"
-msgstr ""
+msgstr ": १."
 
 #: ui/main.qml:106
 #, kde-format
 msgctxt "@title"
 msgid "Serial Number"
-msgstr ""
+msgstr "क्रमाङ्कः"
 
 #: ui/main.qml:112
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy"
-msgstr ""
-
-#: ui/main.qml:164
-#, kde-format
-msgctxt "@action:button show a hidden entry in an overlay"
-msgid "Show"
-msgstr ""
-
-#: ui/main.qml:176
-#, kde-format
-msgctxt "@title:group"
-msgid "Software"
-msgstr ""
-
-#: ui/main.qml:186
-#, kde-format
-msgctxt "@title:group"
-msgid "Hardware"
-msgstr ""
-
-#: ui/main.qml:203
-#, kde-format
-msgctxt "@action:button launches kinfocenter from systemsettings"
-msgid "More System Information"
-msgstr ""
-
-#: ui/main.qml:204
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Launch %1"
-msgstr ""
+msgstr "प्रतिलिपि"
 
 #: ui/main.qml:212 ui/main.qml:220
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
-msgstr ""
+msgstr "विवरणं प्रतिलिपितु"
+
+#: ui/main.qml:164
+#, kde-format
+msgctxt "@action:button show a hidden entry in an overlay"
+msgid "Show"
+msgstr "दर्शयतु"
+
+#: ui/main.qml:176
+#, kde-format
+msgctxt "@title:group"
+msgid "Software"
+msgstr "तन्त्रांश"
+
+#: ui/main.qml:186
+#, kde-format
+msgctxt "@title:group"
+msgid "Hardware"
+msgstr "हार्डवेयर"
+
+#: ui/main.qml:203
+#, kde-format
+msgctxt "@action:button launches kinfocenter from systemsettings"
+msgid "More System Information"
+msgstr "अधिकानि प्रणालीसूचना"
+
+#: ui/main.qml:204
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Launch %1"
+msgstr "%1 प्रारम्भं कुर्वन्तु"
 
 #: ui/main.qml:223
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In current language"
-msgstr ""
+msgstr "वर्तमानभाषायां"
 
 #: ui/main.qml:229
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In English"
-msgstr ""
+msgstr "आङ्ग्लभाषायां"

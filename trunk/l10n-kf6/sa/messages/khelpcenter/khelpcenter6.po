@@ -2,30 +2,22 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the khelpcenter package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: khelpcenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-07 00:42+0000\n"
-"PO-Revision-Date: 2024-12-13 19:10+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-14 01:10+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #: application.cpp:30
 #, kde-format
@@ -72,18 +64,6 @@ msgstr "Info पृष्ठ समर्थन"
 msgid "Top-Level Documentation"
 msgstr "शीर्षस्तरीय दस्तावेजीकरण"
 
-#: docmetainfo.cpp:79
-#, kde-format
-msgctxt "doctitle (language)"
-msgid "%1 (%2)"
-msgstr ""
-
-#: docmetainfo.cpp:112
-#, kde-format
-msgctxt "Describes documentation entries that are in English"
-msgid "English"
-msgstr ""
-
 #: fontdialog.cpp:36
 #, kde-format
 msgid "Font Configuration"
@@ -93,18 +73,6 @@ msgstr "फ़ॉन्ट् विन्यासः"
 #, kde-format
 msgid "Sizes"
 msgstr "आकाराः"
-
-#: fontdialog.cpp:66
-#, kde-format
-msgctxt "The smallest size a will have"
-msgid "M&inimum font size:"
-msgstr ""
-
-#: fontdialog.cpp:73
-#, kde-format
-msgctxt "The normal size a font will have"
-msgid "M&edium font size:"
-msgstr ""
 
 #: fontdialog.cpp:83
 #, kde-format
@@ -181,12 +149,6 @@ msgstr "शब्दावली-सञ्चयस्य पुनर्नि�
 msgid "Rebuilding cache... done."
 msgstr "कैशस्य पुनर्निर्माणम्... कृतम्।"
 
-#: grantleeformatter.cpp:97
-#, kde-format
-msgctxt "%1 is a glossary term"
-msgid "KDE Glossary: %1"
-msgstr ""
-
 #: grantleeformatter.cpp:98
 #, kde-format
 msgid "KDE Glossary"
@@ -212,44 +174,44 @@ msgstr "'%1' इत्यस्य अन्वेषणपरिणामाः
 msgid "By Category"
 msgstr "श्रेणी द्वारा"
 
-#. i18n: ectx: label, entry, group (Search)
 #: khelpcenter.kcfg:31
+#. i18n: ectx: label, entry, group (Search)
 #, kde-format
 msgid "Path to index directory."
 msgstr "अनुक्रमणिकानिर्देशिकायाः मार्गः ।"
 
-#. i18n: ectx: whatsthis, entry, group (Search)
 #: khelpcenter.kcfg:32
+#. i18n: ectx: whatsthis, entry, group (Search)
 #, kde-format
 msgid "Path to directory containing search indices."
 msgstr "अन्वेषणसूचकाङ्काः समाविष्टाः निर्देशिकाः मार्गः ।"
 
-#. i18n: ectx: label, entry, group (Layout)
 #: khelpcenter.kcfg:46
+#. i18n: ectx: label, entry, group (Layout)
 #, kde-format
 msgid "Currently visible navigator tab"
 msgstr "सम्प्रति दृश्यमानं नेविगेटर् ट्याब्"
 
-#. i18n: ectx: Menu (edit)
 #: khelpcenterui.rc:5
+#. i18n: ectx: Menu (edit)
 #, kde-format
 msgid "&Edit"
 msgstr "&सम्पादन"
 
-#. i18n: ectx: Menu (view)
 #: khelpcenterui.rc:13
+#. i18n: ectx: Menu (view)
 #, kde-format
 msgid "&View"
 msgstr "&दृश्यं"
 
-#. i18n: ectx: Menu (go)
 #: khelpcenterui.rc:19
+#. i18n: ectx: Menu (go)
 #, kde-format
 msgid "&Go"
 msgstr "&गच्छ"
 
-#. i18n: ectx: ToolBar (mainToolBar)
 #: khelpcenterui.rc:36
+#. i18n: ectx: ToolBar (mainToolBar)
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
@@ -288,12 +250,6 @@ msgstr "पुनः विषयसूचीं प्रति गच्छन
 #, kde-format
 msgid "&Last Search Result"
 msgstr "&अन्तिम अन्वेषण परिणाम"
-
-#: mainwindow.cpp:241
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Bookmarks"
-msgstr ""
 
 #: navigator.cpp:64
 #, kde-format
@@ -344,12 +300,6 @@ msgstr "अन्वेषणसूचकाङ्कस्य अद्यत�
 #, kde-format
 msgid "Could not generate print preview."
 msgstr "मुद्रणपूर्वावलोकनं जनयितुं न शक्तवान् ।"
-
-#: printdoc.cpp:96
-#, kde-format
-msgctxt "@title:window"
-msgid "Print Document"
-msgstr ""
 
 #: searchengine.cpp:62
 #, kde-format
@@ -421,37 +371,89 @@ msgstr "&व्याप्तिचयनम् : १."
 msgid "Scope"
 msgstr "लब्द्धावसर"
 
+#: view.cpp:303
+#, kde-format
+msgid "Save Page"
+msgstr "पृष्ठं रक्षतु"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: docmetainfo.cpp:79
+#, kde-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr "%1 (%2) २."
+
+#: docmetainfo.cpp:112
+#, kde-format
+msgctxt "Describes documentation entries that are in English"
+msgid "English"
+msgstr "आंग्ल"
+
+#: fontdialog.cpp:66
+#, kde-format
+msgctxt "The smallest size a will have"
+msgid "M&inimum font size:"
+msgstr "M& न्यूनतमं फ़ॉन्ट आकारः : १."
+
+#: fontdialog.cpp:73
+#, kde-format
+msgctxt "The normal size a font will have"
+msgid "M&edium font size:"
+msgstr "मध्यमः फ़ॉन्ट् आकारः : १."
+
+#: grantleeformatter.cpp:97
+#, kde-format
+msgctxt "%1 is a glossary term"
+msgid "KDE Glossary: %1"
+msgstr "KDE शब्दावली: %1"
+
+#: mainwindow.cpp:241
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Bookmarks"
+msgstr "&पुस्तकचिह्न"
+
+#: printdoc.cpp:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Document"
+msgstr "दस्तावेजं मुद्रयन्तु"
+
 #: searchwidget.cpp:335
 #, kde-format
 msgctxt "Label for searching documentation using custom (user defined) scope"
 msgid "Custom"
-msgstr ""
+msgstr "आचारः"
 
 #: searchwidget.cpp:337
 #, kde-format
 msgctxt "Label for searching documentation using default search scope"
 msgid "Default"
-msgstr ""
+msgstr "मूलभूतम्‌"
 
 #: searchwidget.cpp:339
 #, kde-format
 msgctxt "Label for searching documentation in all subsections"
 msgid "All"
-msgstr ""
+msgstr "सर्वे"
 
 #: searchwidget.cpp:341
 #, kde-format
 msgctxt "Label for scope that deselects all search subsections"
 msgid "None"
-msgstr ""
+msgstr "न कश्चित्"
 
 #: searchwidget.cpp:343
 #, kde-format
 msgctxt "Label for Unknown search scope, that should never appear"
 msgid "unknown"
-msgstr ""
-
-#: view.cpp:303
-#, kde-format
-msgid "Save Page"
-msgstr "पृष्ठं रक्षतु"
+msgstr "अज्ञात"

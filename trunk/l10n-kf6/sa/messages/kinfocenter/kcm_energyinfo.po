@@ -2,21 +2,21 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kinfocenter package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-21 00:42+0000\n"
-"PO-Revision-Date: 2024-12-13 20:20+0530\n"
+"PO-Revision-Date: 2024-12-14 01:08+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
 #: ui/main.qml:45
@@ -74,39 +74,15 @@ msgstr "तन्त्रज्ञान"
 msgid "Energy"
 msgstr "ऊर्जा"
 
-#: ui/main.qml:61
-#, kde-format
-msgctxt "current power draw from the battery in W"
-msgid "Consumption"
-msgstr ""
-
-#: ui/main.qml:61
-#, kde-format
-msgctxt "Watt"
-msgid "W"
-msgstr ""
-
 #: ui/main.qml:62
 #, kde-format
 msgid "Voltage"
 msgstr "वोल्टेज"
 
-#: ui/main.qml:62
-#, kde-format
-msgctxt "Volt"
-msgid "V"
-msgstr ""
-
 #: ui/main.qml:63
 #, kde-format
 msgid "Remaining energy"
 msgstr "अवशिष्ट ऊर्जा"
-
-#: ui/main.qml:63 ui/main.qml:64 ui/main.qml:65
-#, kde-format
-msgctxt "Watt-hours"
-msgid "Wh"
-msgstr ""
 
 #: ui/main.qml:64
 #, kde-format
@@ -127,12 +103,6 @@ msgstr "पर्यावरणम्‌"
 #, kde-format
 msgid "Temperature"
 msgstr "तापमान"
-
-#: ui/main.qml:71
-#, kde-format
-msgctxt "Degree Celsius"
-msgid "°C"
-msgstr ""
 
 #: ui/main.qml:78
 #, kde-format
@@ -219,12 +189,6 @@ msgstr "गत ४८ घण्टा"
 msgid "Last 7 days"
 msgstr "गत ७ दिवस"
 
-#: ui/main.qml:112
-#, kde-format
-msgctxt "@info:status"
-msgid "No energy information available on this system"
-msgstr ""
-
 #: ui/main.qml:188
 #, kde-format
 msgid "PDA Battery"
@@ -305,30 +269,6 @@ msgstr "टचपैड बैटरी"
 msgid "Unknown Battery"
 msgstr "अज्ञात बैटरी"
 
-#: ui/main.qml:231
-#, kde-format
-msgctxt "Battery charge percentage"
-msgid "%1% (Charging)"
-msgstr ""
-
-#: ui/main.qml:232
-#, kde-format
-msgctxt "Battery charge percentage"
-msgid "%1%"
-msgstr ""
-
-#: ui/main.qml:281
-#, kde-format
-msgctxt "Shorthand for Watts"
-msgid "W"
-msgstr ""
-
-#: ui/main.qml:281
-#, kde-format
-msgctxt "literal percent sign"
-msgid "%"
-msgstr ""
-
 #: ui/main.qml:307
 #, kde-format
 msgid "Charge Percentage"
@@ -374,14 +314,74 @@ msgstr "आम्‌"
 msgid "No"
 msgstr "नहि"
 
+#: ui/main.qml:61
+#, kde-format
+msgctxt "current power draw from the battery in W"
+msgid "Consumption"
+msgstr "उपभोग"
+
+#: ui/main.qml:61
+#, kde-format
+msgctxt "Watt"
+msgid "W"
+msgstr "इत्यस्मिन्‌"
+
+#: ui/main.qml:62
+#, kde-format
+msgctxt "Volt"
+msgid "V"
+msgstr "वि"
+
+#: ui/main.qml:63 ui/main.qml:64 ui/main.qml:65
+#, kde-format
+msgctxt "Watt-hours"
+msgid "Wh"
+msgstr "ह्"
+
+#: ui/main.qml:71
+#, kde-format
+msgctxt "Degree Celsius"
+msgid "°C"
+msgstr "°C"
+
+#: ui/main.qml:112
+#, kde-format
+msgctxt "@info:status"
+msgid "No energy information available on this system"
+msgstr "अस्मिन् प्रणाल्यां ऊर्जासूचना उपलब्धा नास्ति"
+
+#: ui/main.qml:231
+#, kde-format
+msgctxt "Battery charge percentage"
+msgid "%1% (Charging)"
+msgstr "%1% (चार्जिंग) २."
+
+#: ui/main.qml:232
+#, kde-format
+msgctxt "Battery charge percentage"
+msgid "%1%"
+msgstr "%1% २."
+
+#: ui/main.qml:281
+#, kde-format
+msgctxt "Shorthand for Watts"
+msgid "W"
+msgstr "इत्यस्मिन्‌"
+
+#: ui/main.qml:281
+#, kde-format
+msgctxt "literal percent sign"
+msgid "%"
+msgstr "% ."
+
 #: ui/main.qml:442
 #, kde-format
 msgctxt "%1 is a percentage value"
 msgid "%1%"
-msgstr ""
+msgstr "%1% २."
 
 #: ui/main.qml:444
 #, kde-format
 msgctxt "%1 is value, %2 is unit"
 msgid "%1 %2"
-msgstr ""
+msgstr "%1 %2"
