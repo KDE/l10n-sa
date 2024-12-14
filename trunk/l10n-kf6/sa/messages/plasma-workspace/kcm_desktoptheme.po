@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-workspace package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
@@ -13,12 +13,11 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
 
-#. i18n: ectx: label, entry (name), group (Theme)
 #: desktopthemesettings.kcfg:9
+#. i18n: ectx: label, entry (name), group (Theme)
 #, kde-format
 msgid "Name of the current Plasma Style"
 msgstr "वर्तमानप्लाज्माशैल्याः नाम"
@@ -51,12 +50,13 @@ msgstr "विषयवस्तुं निष्कासयितुं व�
 #: plasma-apply-desktoptheme.cpp:33
 #, kde-format
 msgid ""
-"This tool allows you to set the theme of the current Plasma session, without "
-"accidentally setting it to one that is either not available, or which is "
-"already set."
+"This tool allows you to set the theme of the current Plasma session, "
+"without accidentally setting it to one that is either not available, or "
+"which is already set."
 msgstr ""
-"एतत् साधनं वर्तमानस्य Plasma सत्रस्य विषयं सेट् कर्तुं शक्नोति, यदृच्छया एकं न उपलभ्यते, अथवा "
-"यत् पूर्वमेव सेट् कृतम् अस्ति इति सेट् कर्तुं न शक्नोति ।"
+"एतत् साधनं वर्तमानस्य Plasma सत्रस्य विषयं सेट् कर्तुं शक्नोति, यदृच्छया "
+"एकं न उपलभ्यते, अथवा यत् पूर्वमेव सेट् कृतम् अस्ति इति सेट् कर्तुं न "
+"शक्नोति ।"
 
 #: plasma-apply-desktoptheme.cpp:37
 #, kde-format
@@ -64,13 +64,12 @@ msgid ""
 "The name of the theme you wish to set for your current Plasma session "
 "(passing a full path will only use the last part of the path)"
 msgstr ""
-"यस्य विषयस्य नाम भवान् स्वस्य वर्तमानस्य प्लाज्मा सत्रस्य कृते सेट् कर्तुम् इच्छति (पूर्णमार्गं "
-"पारयन् केवलं मार्गस्य अन्तिमभागस्य उपयोगं करिष्यति)"
+"यस्य विषयस्य नाम भवान् स्वस्य वर्तमानस्य प्लाज्मा सत्रस्य कृते सेट् कर्तुम् "
+"इच्छति (पूर्णमार्गं पारयन् केवलं मार्गस्य अन्तिमभागस्य उपयोगं करिष्यति)"
 
 #: plasma-apply-desktoptheme.cpp:38
 #, kde-format
-msgid ""
-"Show all the themes available on the system (and which is the current theme)"
+msgid "Show all the themes available on the system (and which is the current theme)"
 msgstr "प्रणाल्यां उपलभ्यमानानि सर्वाणि विषयाणि दर्शयन्तु (वर्तमानः विषयः च कः)"
 
 #: plasma-apply-desktoptheme.cpp:51
@@ -78,7 +77,9 @@ msgstr "प्रणाल्यां उपलभ्यमानानि स�
 msgid ""
 "The requested theme \"%1\" is already set as the theme for the current "
 "Plasma session."
-msgstr "अनुरोधितः विषयः \"%1\" पूर्वमेव वर्तमानप्लाज्मासत्रस्य विषयरूपेण सेट् कृतः अस्ति ।"
+msgstr ""
+"अनुरोधितः विषयः \"%1\" पूर्वमेव वर्तमानप्लाज्मासत्रस्य विषयरूपेण सेट् कृतः "
+"अस्ति ।"
 
 #: plasma-apply-desktoptheme.cpp:67
 #, kde-format
@@ -96,30 +97,6 @@ msgstr "\"%1\" इति विषयः न लब्धः । विषयः
 #, kde-format
 msgid "You have the following Plasma themes on your system:"
 msgstr "भवतः प्रणाल्यां निम्नलिखितप्लाज्मा-विषयाणि सन्ति ।"
-
-#: ui/main.qml:101
-#, kde-format
-msgctxt "@item:inlistbox filters displayed themes"
-msgid "All themes"
-msgstr ""
-
-#: ui/main.qml:102
-#, kde-format
-msgctxt "@item:inlistbox filters displayed themes"
-msgid "Light themes"
-msgstr ""
-
-#: ui/main.qml:103
-#, kde-format
-msgctxt "@item:inlistbox filters displayed themes"
-msgid "Dark themes"
-msgstr ""
-
-#: ui/main.qml:104
-#, kde-format
-msgctxt "@item:inlistbox filters displayed themes"
-msgid "Color scheme compatible"
-msgstr ""
 
 #: ui/main.qml:130
 #, kde-format
@@ -160,3 +137,27 @@ msgstr "Open Theme इति विषयः"
 #, kde-format
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr "विषयसञ्चिकाः (*.zip *.tar.gz *.tar.bz2)"
+
+#: ui/main.qml:101
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "All themes"
+msgstr "सर्वे विषयाः"
+
+#: ui/main.qml:102
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Light themes"
+msgstr "प्रकाश विषयाः"
+
+#: ui/main.qml:103
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Dark themes"
+msgstr "अन्धकारमयाः विषयाः"
+
+#: ui/main.qml:104
+#, kde-format
+msgctxt "@item:inlistbox filters displayed themes"
+msgid "Color scheme compatible"
+msgstr "वर्ण योजना संगत"
