@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the ktextwidgets package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: ktextwidgets\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -46,8 +46,8 @@ msgstr "<qt>&#39; <b>%1</b> &#39; इत्यस्य अग्रिमः �
 #, kde-format
 msgid "1 match found."
 msgid_plural "%1 matches found."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ मेलः प्राप्तः ।"
+msgstr[1] "%1 मेलनं प्राप्तम् ।"
 
 #: findreplace/kfind.cpp:575
 #, kde-format
@@ -69,9 +69,9 @@ msgstr "दस्तावेजस्य आरम्भः प्राप्�
 msgid "End of document reached."
 msgstr "दस्तावेजस्य अन्तः प्राप्तः।"
 
+#: findreplace/kfind.cpp:608
 #. i18n() of the first if() because of the plural form.
 #. Hope this word puzzle is ok, it's a different sentence
-#: findreplace/kfind.cpp:608
 #, kde-format
 msgid "Continue from the end?"
 msgstr "अन्त्यतः निरन्तरं कुर्वन्तु ?"
@@ -86,12 +86,6 @@ msgstr "आरम्भादेव निरन्तरं कुर्वन�
 msgid "Find Text"
 msgstr "पाठं ज्ञातव्यम्"
 
-#: findreplace/kfinddialog.cpp:76
-#, kde-format
-msgctxt "@title:group"
-msgid "Find"
-msgstr ""
-
 #: findreplace/kfinddialog.cpp:79
 #, kde-format
 msgid "&Text to find:"
@@ -101,12 +95,6 @@ msgstr "&अन्वेषणार्थं पाठः : १."
 #, kde-format
 msgid "Regular e&xpression"
 msgstr "नियमित e&xpression"
-
-#: findreplace/kfinddialog.cpp:84
-#, kde-format
-msgctxt "@action:button"
-msgid "&Edit…"
-msgstr ""
 
 #: findreplace/kfinddialog.cpp:93
 #, kde-format
@@ -180,8 +168,9 @@ msgid ""
 "searched for within the document and any occurrence is replaced with the "
 "replacement text.</qt>"
 msgstr ""
-"<qt>यदि भवान् <b>Replace</b> बटनं नुदति तर्हि उपरि भवता प्रविष्टः पाठः दस्तावेजस्य "
-"अन्तः अन्वेषितः भवति तथा च यत्किमपि घटनां प्रतिस्थापनपाठेन प्रतिस्थापितं भवति ।</qt>"
+"<qt>यदि भवान् <b>Replace</b> बटनं नुदति तर्हि उपरि भवता प्रविष्टः पाठः "
+"दस्तावेजस्य अन्तः अन्वेषितः भवति तथा च यत्किमपि घटनां प्रतिस्थापनपाठेन "
+"प्रतिस्थापितं भवति ।</qt>"
 
 #: findreplace/kfinddialog.cpp:212
 #, kde-format
@@ -199,13 +188,12 @@ msgid ""
 "<qt>If you press the <b>Find</b> button, the text you entered above is "
 "searched for within the document.</qt>"
 msgstr ""
-"<qt>यदि भवान् <b>Find इति</b> बटन् नुदति तर्हि उपरि भवता प्रविष्टः पाठः दस्तावेजस्य "
-"अन्तः अन्वेषितः भवति ।</qt>"
+"<qt>यदि भवान् <b>Find इति</b> बटन् नुदति तर्हि उपरि भवता प्रविष्टः पाठः "
+"दस्तावेजस्य अन्तः अन्वेषितः भवति ।</qt>"
 
 #: findreplace/kfinddialog.cpp:220
 #, kde-format
-msgid ""
-"Enter a pattern to search for, or select a previous pattern from the list."
+msgid "Enter a pattern to search for, or select a previous pattern from the list."
 msgstr "अन्वेषणार्थं प्रतिमानं प्रविशतु, अथवा सूचीतः पूर्वप्रतिरूपं चिनोतु ।"
 
 #: findreplace/kfinddialog.cpp:221
@@ -216,7 +204,9 @@ msgstr "यदि सक्षमम् अस्ति तर्हि नि�
 #: findreplace/kfinddialog.cpp:222
 #, kde-format
 msgid "Click here to edit your regular expression using a graphical editor."
-msgstr "चित्रात्मकसम्पादकस्य उपयोगेन स्वस्य नियमितव्यञ्जनं सम्पादयितुं अत्र क्लिक् कुर्वन्तु ।"
+msgstr ""
+"चित्रात्मकसम्पादकस्य उपयोगेन स्वस्य नियमितव्यञ्जनं सम्पादयितुं अत्र क्लिक् "
+"कुर्वन्तु ।"
 
 #: findreplace/kfinddialog.cpp:223
 #, kde-format
@@ -226,17 +216,18 @@ msgstr "प्रतिस्थापनमालं प्रविशतु, 
 #: findreplace/kfinddialog.cpp:225
 #, kde-format
 msgid ""
-"<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where <code><b>N</"
-"b></code> is an integer number, will be replaced with the corresponding "
-"capture (\"parenthesized substring\") from the pattern.<p>To include (a "
-"literal <code><b>\\N</b></code> in your replacement, put an extra backslash "
-"in front of it, like <code><b>\\\\N</b></code>.</p></qt>"
+"<qt>If enabled, any occurrence of <code><b>\\N</b></code>, where "
+"<code><b>N</b></code> is an integer number, will be replaced with the "
+"corresponding capture (\"parenthesized substring\") from the pattern.<p>To "
+"include (a literal <code><b>\\N</b></code> in your replacement, put an "
+"extra backslash in front of it, like <code><b>\\\\N</b></code>.</p></qt>"
 msgstr ""
 "<qt>यदि सक्षमं भवति तर्हि <code><b>\\N</b></code> इत्यस्य कोऽपि घटना, यत्र "
-"<code><b>N</b></code> पूर्णाङ्कसङ्ख्या अस्ति, तस्य स्थाने प्रतिरूपात् तत्सम्बद्धेन कैप्चरेन "
-"(&quot;कोष्ठकयुक्तेन उपस्ट्रिंग्&quot;) प्रतिस्थापिता भविष्यति ।<p> समावेशयितुं (भवतः "
-"प्रतिस्थापनस्य अक्षरशः <code><b>\\N</b></code> , तस्य पुरतः अतिरिक्तं बैकस्लैशं स्थापयन्तु, "
-"यथा <code><b>\\\\N</b></code> ।</p></qt>"
+"<code><b>N</b></code> पूर्णाङ्कसङ्ख्या अस्ति, तस्य स्थाने प्रतिरूपात् "
+"तत्सम्बद्धेन कैप्चरेन (&quot;कोष्ठकयुक्तेन उपस्ट्रिंग्&quot;) प्रतिस्थापिता "
+"भविष्यति ।<p> समावेशयितुं (भवतः प्रतिस्थापनस्य अक्षरशः "
+"<code><b>\\N</b></code> , तस्य पुरतः अतिरिक्तं बैकस्लैशं स्थापयन्तु, यथा "
+"<code><b>\\\\N</b></code> ।</p></qt>"
 
 #: findreplace/kfinddialog.cpp:231
 #, kde-format
@@ -264,8 +255,9 @@ msgid ""
 "Perform a case sensitive search: entering the pattern 'Joe' will not match "
 "'joe' or 'JOE', only 'Joe'."
 msgstr ""
-"केस-संवेदनशीलं अन्वेषणं कुर्वन्तु: 'Joe' इति प्रतिरूपं प्रविष्ट्वा 'joe' अथवा 'JOE' इत्यनेन सह "
-"मेलनं न भविष्यति, केवलं 'Joe' इत्यनेन सह मेलनं भविष्यति ।"
+"केस-संवेदनशीलं अन्वेषणं कुर्वन्तु: 'Joe' इति प्रतिरूपं प्रविष्ट्वा 'joe' "
+"अथवा 'JOE' इत्यनेन सह मेलनं न भविष्यति, केवलं 'Joe' इत्यनेन सह मेलनं "
+"भविष्यति ।"
 
 #: findreplace/kfinddialog.cpp:236
 #, kde-format
@@ -354,12 +346,6 @@ msgstr "अमान्य PCRE प्रतिरूपवाक्यविन
 msgid "Replace"
 msgstr "प्रत्याहृ"
 
-#: findreplace/kreplace.cpp:55
-#, kde-format
-msgctxt "@action:button Replace all occurrences"
-msgid "&All"
-msgstr ""
-
 #: findreplace/kreplace.cpp:57
 #, kde-format
 msgid "&Skip"
@@ -379,8 +365,8 @@ msgstr "न कोऽपि पाठः प्रतिस्थापितः
 #, kde-format
 msgid "1 replacement done."
 msgid_plural "%1 replacements done."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ प्रतिस्थापनं कृतम् ।"
+msgstr[1] "%1 प्रतिस्थापनं कृतम् ।"
 
 #: findreplace/kreplace.cpp:393
 #, kde-format
@@ -392,18 +378,6 @@ msgstr "किं भवन्तः अन्ते अन्वेषणं �
 msgid "Do you want to restart search at the beginning?"
 msgstr "किं भवन्तः आरम्भे अन्वेषणं पुनः आरभतुम् इच्छन्ति?"
 
-#: findreplace/kreplace.cpp:398
-#, kde-format
-msgctxt "@action:button Restart find & replace"
-msgid "Restart"
-msgstr ""
-
-#: findreplace/kreplace.cpp:399
-#, kde-format
-msgctxt "@action:button Stop find & replace"
-msgid "Stop"
-msgstr ""
-
 #: findreplace/kreplacedialog.cpp:153
 #, kde-format
 msgid "Your replacement string is referencing a capture greater than '\\%1', "
@@ -413,8 +387,8 @@ msgstr "भवतः प्रतिस्थापनस्ट्रिंग�
 #, kde-format
 msgid "but your pattern only defines 1 capture."
 msgid_plural "but your pattern only defines %1 captures."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "परन्तु भवतः प्रतिमानं केवलं १ कैप्चरं परिभाषयति ।"
+msgstr[1] "परन्तु भवतः प्रतिमानं केवलं %1 कैप्चर्स् परिभाषयति ।"
 
 #: findreplace/kreplacedialog.cpp:155
 #, kde-format
@@ -430,298 +404,10 @@ msgstr ""
 "\n"
 "कृपया सम्यक् करें।"
 
-#: widgets/krichtextwidget.cpp:207
-#, kde-format
-msgctxt "@action"
-msgid "Text &Color…"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:208
-#, kde-format
-msgctxt "@label stroke color"
-msgid "Color"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:221
-#, kde-format
-msgctxt "@action"
-msgid "Text &Highlight…"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:234
-#, kde-format
-msgctxt "@action"
-msgid "&Font"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:244
-#, kde-format
-msgctxt "@action"
-msgid "Font &Size"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:253
-#, kde-format
-msgctxt "@action boldify selected text"
-msgid "&Bold"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:267
-#, kde-format
-msgctxt "@action italicize selected text"
-msgid "&Italic"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:281
-#, kde-format
-msgctxt "@action underline selected text"
-msgid "&Underline"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:294
-#, kde-format
-msgctxt "@action"
-msgid "&Strike Out"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:308
-#, kde-format
-msgctxt "@action"
-msgid "Align &Left"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:309
-#, kde-format
-msgctxt "@label left justify"
-msgid "Left"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:314
-#, kde-format
-msgctxt "@action"
-msgid "Align &Center"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:315
-#, kde-format
-msgctxt "@label center justify"
-msgid "Center"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:320
-#, kde-format
-msgctxt "@action"
-msgid "Align &Right"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:321
-#, kde-format
-msgctxt "@label right justify"
-msgid "Right"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:326
-#, kde-format
-msgctxt "@action"
-msgid "&Justify"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:327
-#, kde-format
-msgctxt "@label justify fill"
-msgid "Justify"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:345
-#, kde-format
-msgctxt "@action"
-msgid "Left-to-Right"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:346
-#, kde-format
-msgctxt "@label left-to-right"
-msgid "Left-to-Right"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:351
-#, kde-format
-msgctxt "@action"
-msgid "Right-to-Left"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:352
-#, kde-format
-msgctxt "@label right-to-left"
-msgid "Right-to-Left"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:366
-#, kde-format
-msgctxt "@title:menu"
-msgid "List Style"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:369
-#, kde-format
-msgctxt "@item:inmenu no list style"
-msgid "None"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:370
-#, kde-format
-msgctxt "@item:inmenu disc list style"
-msgid "Disc"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:371
-#, kde-format
-msgctxt "@item:inmenu circle list style"
-msgid "Circle"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:372
-#, kde-format
-msgctxt "@item:inmenu square list style"
-msgid "Square"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:373
-#, kde-format
-msgctxt "@item:inmenu numbered lists"
-msgid "123"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:374
-#, kde-format
-msgctxt "@item:inmenu lowercase abc lists"
-msgid "abc"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:375
-#, kde-format
-msgctxt "@item:inmenu uppercase abc lists"
-msgid "ABC"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:376
-#, kde-format
-msgctxt "@item:inmenu lower case roman numerals"
-msgid "i ii iii"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:377
-#, kde-format
-msgctxt "@item:inmenu upper case roman numerals"
-msgid "I II III"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:397
-#, kde-format
-msgctxt "@action"
-msgid "Increase Indent"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:409
-#, kde-format
-msgctxt "@action"
-msgid "Decrease Indent"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:421
-#, kde-format
-msgctxt "@action"
-msgid "Insert Rule Line"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:430
-#, kde-format
-msgctxt "@action"
-msgid "Link"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:442
-#, kde-format
-msgctxt "@action"
-msgid "Format Painter"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:454
-#, kde-format
-msgctxt "@action"
-msgid "To Plain Text"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:463
-#, kde-format
-msgctxt "@action"
-msgid "Subscript"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:468
-#, kde-format
-msgctxt "@action"
-msgid "Superscript"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:480
-#, kde-format
-msgctxt "@title:menu"
-msgid "Heading Level"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:481
-#, kde-format
-msgctxt "@item:inmenu no heading"
-msgid "Basic text"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:482
-#, kde-format
-msgctxt "@item:inmenu heading level 1 (largest)"
-msgid "Title"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:483
-#, kde-format
-msgctxt "@item:inmenu heading level 2"
-msgid "Subtitle"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:484
-#, kde-format
-msgctxt "@item:inmenu heading level 3"
-msgid "Section"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:485
-#, kde-format
-msgctxt "@item:inmenu heading level 4"
-msgid "Subsection"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:486
-#, kde-format
-msgctxt "@item:inmenu heading level 5"
-msgid "Paragraph"
-msgstr ""
-
-#: widgets/krichtextwidget.cpp:487
-#, kde-format
-msgctxt "@item:inmenu heading level 6 (smallest)"
-msgid "Subparagraph"
-msgstr ""
-
 #: widgets/ktextedit.cpp:47
 #, kde-format
 msgid "Nothing to spell check."
 msgstr "वर्तनीपरीक्षायै किमपि नास्ति।"
-
-#: widgets/ktextedit.cpp:501
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Check Spelling…"
-msgstr ""
 
 #: widgets/ktextedit.cpp:506
 #, kde-format
@@ -742,3 +428,321 @@ msgstr "सारणीकरणं अनुमन्यताम्"
 #, kde-format
 msgid "Speak Text"
 msgstr "पाठं वदतु"
+
+#: findreplace/kfinddialog.cpp:76
+#, kde-format
+msgctxt "@title:group"
+msgid "Find"
+msgstr "अन्वेषय"
+
+#: findreplace/kfinddialog.cpp:84
+#, kde-format
+msgctxt "@action:button"
+msgid "&Edit…"
+msgstr "&सम्पादन…"
+
+#: findreplace/kreplace.cpp:55
+#, kde-format
+msgctxt "@action:button Replace all occurrences"
+msgid "&All"
+msgstr "&सर्वे"
+
+#: findreplace/kreplace.cpp:398
+#, kde-format
+msgctxt "@action:button Restart find & replace"
+msgid "Restart"
+msgstr "पुनः आरभत"
+
+#: findreplace/kreplace.cpp:399
+#, kde-format
+msgctxt "@action:button Stop find & replace"
+msgid "Stop"
+msgstr "विरमतु"
+
+#: widgets/krichtextwidget.cpp:207
+#, kde-format
+msgctxt "@action"
+msgid "Text &Color…"
+msgstr "पाठ &रंग..."
+
+#: widgets/krichtextwidget.cpp:221
+#, kde-format
+msgctxt "@action"
+msgid "Text &Highlight…"
+msgstr "पाठ &Highlight..."
+
+#: widgets/krichtextwidget.cpp:234
+#, kde-format
+msgctxt "@action"
+msgid "&Font"
+msgstr "&फॉन्ट्"
+
+#: widgets/krichtextwidget.cpp:244
+#, kde-format
+msgctxt "@action"
+msgid "Font &Size"
+msgstr "फ़ॉन्ट & आकार"
+
+#: widgets/krichtextwidget.cpp:294
+#, kde-format
+msgctxt "@action"
+msgid "&Strike Out"
+msgstr "&स्ट्राइक आउट"
+
+#: widgets/krichtextwidget.cpp:308
+#, kde-format
+msgctxt "@action"
+msgid "Align &Left"
+msgstr "संरेखणं &वाम"
+
+#: widgets/krichtextwidget.cpp:314
+#, kde-format
+msgctxt "@action"
+msgid "Align &Center"
+msgstr "संरेखित & केन्द्र"
+
+#: widgets/krichtextwidget.cpp:320
+#, kde-format
+msgctxt "@action"
+msgid "Align &Right"
+msgstr "Align &Right"
+
+#: widgets/krichtextwidget.cpp:326
+#, kde-format
+msgctxt "@action"
+msgid "&Justify"
+msgstr "&प्रमाणय्"
+
+#: widgets/krichtextwidget.cpp:345
+#, kde-format
+msgctxt "@action"
+msgid "Left-to-Right"
+msgstr "वाम-दक्षिणम्"
+
+#: widgets/krichtextwidget.cpp:351
+#, kde-format
+msgctxt "@action"
+msgid "Right-to-Left"
+msgstr "दक्षिणतः वामतः"
+
+#: widgets/krichtextwidget.cpp:397
+#, kde-format
+msgctxt "@action"
+msgid "Increase Indent"
+msgstr "इन्डेण्ट् वर्धयतु"
+
+#: widgets/krichtextwidget.cpp:409
+#, kde-format
+msgctxt "@action"
+msgid "Decrease Indent"
+msgstr "इण्डेन्ट् न्यूनीकरोतु"
+
+#: widgets/krichtextwidget.cpp:421
+#, kde-format
+msgctxt "@action"
+msgid "Insert Rule Line"
+msgstr "नियम रेखा सम्मिलित करें"
+
+#: widgets/krichtextwidget.cpp:430
+#, kde-format
+msgctxt "@action"
+msgid "Link"
+msgstr "सम्बन्ध"
+
+#: widgets/krichtextwidget.cpp:442
+#, kde-format
+msgctxt "@action"
+msgid "Format Painter"
+msgstr "प्रारूप चित्रकार"
+
+#: widgets/krichtextwidget.cpp:454
+#, kde-format
+msgctxt "@action"
+msgid "To Plain Text"
+msgstr "To Plain Text इति"
+
+#: widgets/krichtextwidget.cpp:463
+#, kde-format
+msgctxt "@action"
+msgid "Subscript"
+msgstr "उपलिपिः"
+
+#: widgets/krichtextwidget.cpp:468
+#, kde-format
+msgctxt "@action"
+msgid "Superscript"
+msgstr "अधिलिपि"
+
+#: widgets/krichtextwidget.cpp:208
+#, kde-format
+msgctxt "@label stroke color"
+msgid "Color"
+msgstr "वर्ण"
+
+#: widgets/krichtextwidget.cpp:253
+#, kde-format
+msgctxt "@action boldify selected text"
+msgid "&Bold"
+msgstr "&विक्रान्तः"
+
+#: widgets/krichtextwidget.cpp:267
+#, kde-format
+msgctxt "@action italicize selected text"
+msgid "&Italic"
+msgstr "&इटालिक"
+
+#: widgets/krichtextwidget.cpp:281
+#, kde-format
+msgctxt "@action underline selected text"
+msgid "&Underline"
+msgstr "&अधोरेखा"
+
+#: widgets/krichtextwidget.cpp:309
+#, kde-format
+msgctxt "@label left justify"
+msgid "Left"
+msgstr "वामः"
+
+#: widgets/krichtextwidget.cpp:315
+#, kde-format
+msgctxt "@label center justify"
+msgid "Center"
+msgstr "केंद्र"
+
+#: widgets/krichtextwidget.cpp:321
+#, kde-format
+msgctxt "@label right justify"
+msgid "Right"
+msgstr "दक्षिणः"
+
+#: widgets/krichtextwidget.cpp:327
+#, kde-format
+msgctxt "@label justify fill"
+msgid "Justify"
+msgstr "प्रमाणय्"
+
+#: widgets/krichtextwidget.cpp:346
+#, kde-format
+msgctxt "@label left-to-right"
+msgid "Left-to-Right"
+msgstr "वाम-दक्षिणम्"
+
+#: widgets/krichtextwidget.cpp:352
+#, kde-format
+msgctxt "@label right-to-left"
+msgid "Right-to-Left"
+msgstr "दक्षिणतः वामतः"
+
+#: widgets/krichtextwidget.cpp:366
+#, kde-format
+msgctxt "@title:menu"
+msgid "List Style"
+msgstr "सूचीशैली"
+
+#: widgets/krichtextwidget.cpp:480
+#, kde-format
+msgctxt "@title:menu"
+msgid "Heading Level"
+msgstr "शीर्षकस्तरः"
+
+#: widgets/krichtextwidget.cpp:369
+#, kde-format
+msgctxt "@item:inmenu no list style"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: widgets/krichtextwidget.cpp:370
+#, kde-format
+msgctxt "@item:inmenu disc list style"
+msgid "Disc"
+msgstr "डिस्क"
+
+#: widgets/krichtextwidget.cpp:371
+#, kde-format
+msgctxt "@item:inmenu circle list style"
+msgid "Circle"
+msgstr "वृत्त"
+
+#: widgets/krichtextwidget.cpp:372
+#, kde-format
+msgctxt "@item:inmenu square list style"
+msgid "Square"
+msgstr "चतुरश्रः"
+
+#: widgets/krichtextwidget.cpp:373
+#, kde-format
+msgctxt "@item:inmenu numbered lists"
+msgid "123"
+msgstr "१२३ इति"
+
+#: widgets/krichtextwidget.cpp:374
+#, kde-format
+msgctxt "@item:inmenu lowercase abc lists"
+msgid "abc"
+msgstr "abc"
+
+#: widgets/krichtextwidget.cpp:375
+#, kde-format
+msgctxt "@item:inmenu uppercase abc lists"
+msgid "ABC"
+msgstr "एबीसी"
+
+#: widgets/krichtextwidget.cpp:376
+#, kde-format
+msgctxt "@item:inmenu lower case roman numerals"
+msgid "i ii iii"
+msgstr "i ii iii"
+
+#: widgets/krichtextwidget.cpp:377
+#, kde-format
+msgctxt "@item:inmenu upper case roman numerals"
+msgid "I II III"
+msgstr "I II III"
+
+#: widgets/krichtextwidget.cpp:481
+#, kde-format
+msgctxt "@item:inmenu no heading"
+msgid "Basic text"
+msgstr "मूलग्रन्थः"
+
+#: widgets/krichtextwidget.cpp:482
+#, kde-format
+msgctxt "@item:inmenu heading level 1 (largest)"
+msgid "Title"
+msgstr "शीर्षक"
+
+#: widgets/krichtextwidget.cpp:483
+#, kde-format
+msgctxt "@item:inmenu heading level 2"
+msgid "Subtitle"
+msgstr "उपशीर्षकम्"
+
+#: widgets/krichtextwidget.cpp:484
+#, kde-format
+msgctxt "@item:inmenu heading level 3"
+msgid "Section"
+msgstr "खंड"
+
+#: widgets/krichtextwidget.cpp:485
+#, kde-format
+msgctxt "@item:inmenu heading level 4"
+msgid "Subsection"
+msgstr "उपखण्ड"
+
+#: widgets/krichtextwidget.cpp:486
+#, kde-format
+msgctxt "@item:inmenu heading level 5"
+msgid "Paragraph"
+msgstr "अनुच्छेदः"
+
+#: widgets/krichtextwidget.cpp:487
+#, kde-format
+msgctxt "@item:inmenu heading level 6 (smallest)"
+msgid "Subparagraph"
+msgstr "उपपरिच्छेदः"
+
+#: widgets/ktextedit.cpp:501
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Check Spelling…"
+msgstr "वर्तनीपरीक्षां कुर्वन्तु..."
