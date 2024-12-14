@@ -2,32 +2,22 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kolourpaint package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kolourpaint\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-10-07 00:38+0000\n"
-"PO-Revision-Date: 2024-12-13 20:25+0530\n"
+"PO-Revision-Date: 2024-12-14 01:10+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
 
 #: commands/imagelib/effects/kpEffectBalanceCommand.cpp:40
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:112
@@ -230,8 +220,8 @@ msgstr "%1: %2"
 #, kde-format
 msgid "%1 more item"
 msgid_plural "%1 more items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 अधिकं द्रव्यम्"
+msgstr[1] "%1 अधिकानि वस्तूनि"
 
 #: commands/tools/kpToolColorPickerCommand.cpp:59
 #: tools/kpToolColorPicker.cpp:45
@@ -243,18 +233,6 @@ msgstr "रङ्ग पिकर"
 #, kde-format
 msgid "Flood Fill"
 msgstr "जलप्रलयः पूरयतु"
-
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:89
-#, kde-format
-msgctxt "@title:window"
-msgid "More Image Effects (Selection)"
-msgstr ""
-
-#: dialogs/imagelib/effects/kpEffectsDialog.cpp:92
-#, kde-format
-msgctxt "@title:window"
-msgid "More Image Effects"
-msgstr ""
 
 #: dialogs/imagelib/effects/kpEffectsDialog.cpp:106
 #, kde-format
@@ -271,12 +249,6 @@ msgstr "वर्णाः न्यूनीकरोतु"
 msgid "Soften & Sharpen"
 msgstr "मृदु & तीक्ष्ण"
 
-#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:121
-#, kde-format
-msgctxt "@title:window"
-msgid "Document Properties"
-msgstr "दस्तावेज गुणाः"
-
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:141
 #, kde-format
 msgid "Dots &Per Inch (DPI)"
@@ -287,12 +259,6 @@ msgstr "बिन्दु एवं प्रति इंच (DPI) 1 ."
 #, kde-format
 msgid "Unspecified"
 msgstr "अनिर्दिष्टम्"
-
-#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:151
-#, kde-format
-msgctxt "Horizontal DPI 'x' Vertical DPI"
-msgid " x "
-msgstr ""
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:164
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:215
@@ -318,18 +284,20 @@ msgid ""
 "the image's DPI values to be the same as the screen's.</p><p>If either DPI "
 "value is <b>Unspecified</b>, the image will also be printed to be the same "
 "size as on the screen.</p><p>Not all image formats support DPI values. If "
-"the format you save in does not support them, they will not be saved.</p></"
-"qt>"
+"the format you save in does not support them, they will not be "
+"saved.</p></qt>"
 msgstr ""
-"<qt><p><b>Dots Per Inch</b> (DPI) इत्यनेन एकस्य इञ्च् (2.54cm) अन्तः मुद्रितव्यस्य "
-"चित्रस्य पिक्सेलसङ्ख्या निर्दिश्यते ।</p><p> चित्रस्य DPI यथा अधिकं भवति तथा मुद्रितं चित्रं "
-"लघु भवति । ध्यानं कुर्वन्तु यत् यदि भवान् मुद्रकस्य आधारेण एतत् 300 अथवा 600 DPI अधिकं "
-"वर्धयति तर्हि भवतां मुद्रकस्य उच्चगुणवत्तायुक्तानि मुद्रणानि उत्पादयितुं असम्भाव्यम् ।</p><p> "
-"यदि भवान् चित्रं मुद्रयितुम् इच्छति यत् तस्य आकारः पटले प्रदर्शितस्य समानः भवति तर्हि "
-"चित्रस्य DPI मूल्यानि पटलस्य समानानि इति सेट् कुर्वन्तु ।</p><p> यदि DPI मूल्यं वा "
-"<b>Unspecified</b> अस्ति तर्हि चित्रं अपि पर्दायां यथा आकारं भवति तथा मुद्रितं भविष्यति "
-"।</p><p> सर्वे चित्रस्वरूपाः DPI मूल्यानां समर्थनं न कुर्वन्ति । यदि भवता रक्षितं प्रारूपं तान् "
-"न समर्थयति तर्हि ते रक्षिताः न भविष्यन्ति ।</p></qt>"
+"<qt><p><b>Dots Per Inch</b> (DPI) इत्यनेन एकस्य इञ्च् (2.54cm) अन्तः "
+"मुद्रितव्यस्य चित्रस्य पिक्सेलसङ्ख्या निर्दिश्यते ।</p><p> चित्रस्य DPI यथा "
+"अधिकं भवति तथा मुद्रितं चित्रं लघु भवति । ध्यानं कुर्वन्तु यत् यदि भवान् "
+"मुद्रकस्य आधारेण एतत् 300 अथवा 600 DPI अधिकं वर्धयति तर्हि भवतां मुद्रकस्य "
+"उच्चगुणवत्तायुक्तानि मुद्रणानि उत्पादयितुं असम्भाव्यम् ।</p><p> यदि भवान् "
+"चित्रं मुद्रयितुम् इच्छति यत् तस्य आकारः पटले प्रदर्शितस्य समानः भवति तर्हि "
+"चित्रस्य DPI मूल्यानि पटलस्य समानानि इति सेट् कुर्वन्तु ।</p><p> यदि DPI "
+"मूल्यं वा <b>Unspecified</b> अस्ति तर्हि चित्रं अपि पर्दायां यथा आकारं भवति "
+"तथा मुद्रितं भविष्यति ।</p><p> सर्वे चित्रस्वरूपाः DPI मूल्यानां समर्थनं न "
+"कुर्वन्ति । यदि भवता रक्षितं प्रारूपं तान् न समर्थयति तर्हि ते रक्षिताः न "
+"भविष्यन्ति ।</p></qt>"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:205
 #, kde-format
@@ -339,15 +307,15 @@ msgstr "ओ&ffset"
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:225
 #, kde-format
 msgid ""
-"<qt><p>The <b>Offset</b> is the relative position where this image should be "
-"placed, compared to other images.</p><p>Not all image formats support the "
-"<b>Offset</b> feature. If the format you save in does not support it, the "
-"values specified here will not be saved.</p></qt>"
+"<qt><p>The <b>Offset</b> is the relative position where this image should "
+"be placed, compared to other images.</p><p>Not all image formats support "
+"the <b>Offset</b> feature. If the format you save in does not support it, "
+"the values specified here will not be saved.</p></qt>"
 msgstr ""
-"<qt><p><b>Offset</b> इति सापेक्षिकं स्थानं यत्र एतत् चित्रं स्थापनीयम्, अन्येषां चित्राणां "
-"तुलने ।</p><p> सर्वे चित्रस्वरूपाः <b>Offset</b> इति विशेषतां समर्थयन्ति न । यदि भवता "
-"रक्षितं प्रारूपं तस्य समर्थनं न करोति तर्हि अत्र निर्दिष्टानि मूल्यानि न रक्षितानि भविष्यन्ति "
-"।</p></qt>"
+"<qt><p><b>Offset</b> इति सापेक्षिकं स्थानं यत्र एतत् चित्रं स्थापनीयम्, "
+"अन्येषां चित्राणां तुलने ।</p><p> सर्वे चित्रस्वरूपाः <b>Offset</b> इति "
+"विशेषतां समर्थयन्ति न । यदि भवता रक्षितं प्रारूपं तस्य समर्थनं न करोति "
+"तर्हि अत्र निर्दिष्टानि मूल्यानि न रक्षितानि भविष्यन्ति ।</p></qt>"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:241
 #, kde-format
@@ -373,19 +341,21 @@ msgstr "&पुनः सेट् कुर्वन्तु"
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:282
 #, kde-format
 msgid ""
-"<qt><p><b>Text Fields</b> provide extra information about the image. This is "
-"probably a comment area that you can freely write any text in.</"
-"p><p>However, this is format-specific so the fields could theoretically be "
-"computer-interpreted data - that you should not modify - but this is "
-"unlikely.</p><p>Not all image formats support <b>Text Fields</b>. If the "
-"format you save in does not support them, they will not be saved.</p></qt>"
+"<qt><p><b>Text Fields</b> provide extra information about the image. This "
+"is probably a comment area that you can freely write any text "
+"in.</p><p>However, this is format-specific so the fields could "
+"theoretically be computer-interpreted data - that you should not modify - "
+"but this is unlikely.</p><p>Not all image formats support <b>Text "
+"Fields</b>. If the format you save in does not support them, they will not "
+"be saved.</p></qt>"
 msgstr ""
-"<qt><p><b>Text Fields इत्यनेन</b> चित्रस्य विषये अतिरिक्तसूचना प्राप्यते । सम्भवतः एषः "
-"टिप्पणीक्षेत्रः अस्ति यस्मिन् भवान् स्वतन्त्रतया किमपि पाठं लिखितुं शक्नोति ।</p><p> तथापि, "
-"एतत् प्रारूप-विशिष्टम् अस्ति अतः क्षेत्राणि सैद्धान्तिकरूपेण सङ्गणक-व्याख्यातदत्तांशः भवितुम् "
-"अर्हन्ति - यत् भवद्भिः परिवर्तनं न कर्तव्यम् - परन्तु एतत् असम्भाव्यम् ।</p><p> सर्वे "
-"चित्रस्वरूपाः <b>Text Fields इत्यस्य</b> समर्थनं न कुर्वन्ति . यदि भवता रक्षितं प्रारूपं "
-"तान् समर्थयति न तर्हि ते रक्षिताः न भविष्यन्ति ।</p></qt>"
+"<qt><p><b>Text Fields इत्यनेन</b> चित्रस्य विषये अतिरिक्तसूचना प्राप्यते । "
+"सम्भवतः एषः टिप्पणीक्षेत्रः अस्ति यस्मिन् भवान् स्वतन्त्रतया किमपि पाठं "
+"लिखितुं शक्नोति ।</p><p> तथापि, एतत् प्रारूप-विशिष्टम् अस्ति अतः क्षेत्राणि "
+"सैद्धान्तिकरूपेण सङ्गणक-व्याख्यातदत्तांशः भवितुम् अर्हन्ति - यत् भवद्भिः "
+"परिवर्तनं न कर्तव्यम् - परन्तु एतत् असम्भाव्यम् ।</p><p> सर्वे "
+"चित्रस्वरूपाः <b>Text Fields इत्यस्य</b> समर्थनं न कुर्वन्ति . यदि भवता "
+"रक्षितं प्रारूपं तान् समर्थयति न तर्हि ते रक्षिताः न भविष्यन्ति ।</p></qt>"
 
 #: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:372
 #, kde-format
@@ -408,14 +378,8 @@ msgid ""
 "All text keys must be unique. The text key \"%1\" on lines %2 and %3 are "
 "identical."
 msgstr ""
-"सर्वाणि पाठकुंजीनि अद्वितीयाः भवितुमर्हन्ति। %2 तथा %3 पङ्क्तौ \"%1\" इति पाठकुंजी "
-"समाना अस्ति ।"
-
-#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:746
-#, kde-format
-msgctxt "@title:window"
-msgid "Invalid Text Fields"
-msgstr ""
+"सर्वाणि पाठकुंजीनि अद्वितीयाः भवितुमर्हन्ति। %2 तथा %3 पङ्क्तौ \"%1\" इति "
+"पाठकुंजी समाना अस्ति ।"
 
 #: dialogs/imagelib/transforms/kpTransformPreviewDialog.cpp:137
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:281
@@ -449,12 +413,6 @@ msgstr "पूर्वावलोकनम्"
 msgid "&Update"
 msgstr "&अद्यतन"
 
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:90
-#, kde-format
-msgctxt "@title:window"
-msgid "Resize / Scale"
-msgstr ""
-
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:159
 #, kde-format
 msgid "Ac&t on:"
@@ -485,19 +443,20 @@ msgstr "संचालन"
 #, kde-format
 msgid ""
 "<qt><ul><li><b>Resize</b>: The size of the picture will be increased by "
-"creating new areas to the right and/or bottom (filled in with the background "
-"color) or decreased by cutting it at the right and/or bottom.</"
-"li><li><b>Scale</b>: The picture will be expanded by duplicating pixels or "
-"squashed by dropping pixels.</li><li><b>Smooth Scale</b>: This is the same "
-"as <i>Scale</i> except that it blends neighboring pixels to produce a "
-"smoother looking picture.</li></ul></qt>"
+"creating new areas to the right and/or bottom (filled in with the "
+"background color) or decreased by cutting it at the right and/or "
+"bottom.</li><li><b>Scale</b>: The picture will be expanded by duplicating "
+"pixels or squashed by dropping pixels.</li><li><b>Smooth Scale</b>: This is "
+"the same as <i>Scale</i> except that it blends neighboring pixels to "
+"produce a smoother looking picture.</li></ul></qt>"
 msgstr ""
-"<qt><ul><li><b>आकारान्तरं कुर्वन्तु</b> : चित्रस्य आकारः दक्षिणतः/अथवा अधः नूतनान् "
-"क्षेत्रान् निर्माय वर्धितः भविष्यति (पृष्ठभूमिरङ्गेन पूरितः) अथवा दक्षिणतः/अथवा अधः "
-"कटयित्वा न्यूनीकृतः भविष्यति</li><li> <b>Scale</b> : चित्रं पिक्सेलस्य डुप्लिकेशनं कृत्वा "
-"विस्तारितं भविष्यति अथवा पिक्सेलं पातयित्वा स्क्वैश भविष्यति ।</li><li> <b>Smooth "
-"Scale</b> : इदं <i>Scale इत्यस्य</i> समानं भवति केवलं एतत् व्यतिरिक्तं यत् इदं "
-"समीपस्थपिक्सेल्स् मिश्रयित्वा स्निग्धतरं दृश्यमानं चित्रं निर्माति ।</li></ul></qt>"
+"<qt><ul><li><b>आकारान्तरं कुर्वन्तु</b> : चित्रस्य आकारः दक्षिणतः/अथवा अधः "
+"नूतनान् क्षेत्रान् निर्माय वर्धितः भविष्यति (पृष्ठभूमिरङ्गेन पूरितः) अथवा "
+"दक्षिणतः/अथवा अधः कटयित्वा न्यूनीकृतः भविष्यति</li><li> <b>Scale</b> : "
+"चित्रं पिक्सेलस्य डुप्लिकेशनं कृत्वा विस्तारितं भविष्यति अथवा पिक्सेलं "
+"पातयित्वा स्क्वैश भविष्यति ।</li><li> <b>Smooth Scale</b> : इदं <i>Scale "
+"इत्यस्य</i> समानं भवति केवलं एतत् व्यतिरिक्तं यत् इदं समीपस्थपिक्सेल्स् "
+"मिश्रयित्वा स्निग्धतरं दृश्यमानं चित्रं निर्माति ।</li></ul></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:243
 #, kde-format
@@ -558,18 +517,13 @@ msgstr "&aspect ratio रखें"
 msgid ""
 "<qt><p>Resizing the text box to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to resize the text box?</p></"
-"qt>"
+"resource problems.</p><p>Are you sure you want to resize the text "
+"box?</p></qt>"
 msgstr ""
-"<qt><p>पाठपेटिकायाः आकारं %1x%2 इति परिवर्तयितुं पर्याप्तं स्मृतिः गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः पाठपेटिकायाः आकारं परिवर्तयितुम् इच्छन्ति इति निश्चितम्?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:732
-#, kde-format
-msgctxt "@title:window"
-msgid "Resize Text Box?"
-msgstr ""
+"<qt><p>पाठपेटिकायाः आकारं %1x%2 इति परिवर्तयितुं पर्याप्तं स्मृतिः "
+"गृह्णीयात् । एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये "
+"अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं भवन्तः पाठपेटिकायाः आकारं "
+"परिवर्तयितुम् इच्छन्ति इति निश्चितम्?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:733
 #, kde-format
@@ -584,16 +538,10 @@ msgid ""
 "This can reduce system responsiveness and cause other application resource "
 "problems.</p><p>Are you sure you want to resize the image?</p></qt>"
 msgstr ""
-"<qt><p>चित्रस्य आकारं %1x%2 इति परिवर्तयितुं पर्याप्तं स्मृतिः गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चयेन चित्रस्य आकारं परिवर्तयितुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:746
-#: mainWindow/kpMainWindow_Tools.cpp:662
-#, kde-format
-msgctxt "@title:window"
-msgid "Resize Image?"
-msgstr ""
+"<qt><p>चित्रस्य आकारं %1x%2 इति परिवर्तयितुं पर्याप्तं स्मृतिः गृह्णीयात् । "
+"एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च "
+"उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चयेन चित्रस्य आकारं परिवर्तयितुम् "
+"इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:747
 #: mainWindow/kpMainWindow_Tools.cpp:663
@@ -608,15 +556,10 @@ msgid ""
 "This can reduce system responsiveness and cause other application resource "
 "problems.</p><p>Are you sure you want to scale the image?</p></qt>"
 msgstr ""
-"<qt><p>चित्रं %1x%2 यावत् स्केल करणेन स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः चित्रस्य स्केलं कर्तुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:764
-#, kde-format
-msgctxt "@title:window"
-msgid "Scale Image?"
-msgstr ""
+"<qt><p>चित्रं %1x%2 यावत् स्केल करणेन स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् "
+"। एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च "
+"उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः चित्रस्य "
+"स्केलं कर्तुम् इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:765
 #, kde-format
@@ -628,18 +571,13 @@ msgstr "स्केल&ई इमेज"
 msgid ""
 "<qt><p>Scaling the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to scale the selection?</p></"
-"qt>"
+"resource problems.</p><p>Are you sure you want to scale the "
+"selection?</p></qt>"
 msgstr ""
-"<qt><p>चयनं %1x%2 यावत् स्केल करणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चितरूपेण चयनं स्केल कर्तुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:778
-#, kde-format
-msgctxt "@title:window"
-msgid "Scale Selection?"
-msgstr ""
+"<qt><p>चयनं %1x%2 यावत् स्केल करणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । "
+"एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च "
+"उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चितरूपेण चयनं स्केल कर्तुम् "
+"इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:779
 #, kde-format
@@ -651,18 +589,13 @@ msgstr "Scal&e चयनम्"
 msgid ""
 "<qt><p>Smooth Scaling the image to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to smooth scale the image?</"
-"p></qt>"
+"resource problems.</p><p>Are you sure you want to smooth scale the "
+"image?</p></qt>"
 msgstr ""
-"<qt><p>Smooth चित्रं %1x%2 यावत् स्केल करणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः चित्रस्य सुचारुरूपेण स्केलं कर्तुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:796
-#, kde-format
-msgctxt "@title:window"
-msgid "Smooth Scale Image?"
-msgstr ""
+"<qt><p>Smooth चित्रं %1x%2 यावत् स्केल करणं स्मृतेः पर्याप्तं परिमाणं "
+"गृह्णीयात् । एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये "
+"अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चिन्ताः सन्ति "
+"यत् भवन्तः चित्रस्य सुचारुरूपेण स्केलं कर्तुम् इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:797
 #, kde-format
@@ -673,36 +606,19 @@ msgstr "चिकनी स्केल&e इमेज"
 #, kde-format
 msgid ""
 "<qt><p>Smooth Scaling the selection to %1x%2 may take a substantial amount "
-"of memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to smooth scale the selection?"
-"</p></qt>"
+"of memory. This can reduce system responsiveness and cause other "
+"application resource problems.</p><p>Are you sure you want to smooth scale "
+"the selection?</p></qt>"
 msgstr ""
-"<qt><p>Smooth चयनं %1x%2 यावत् स्केल करणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चितरूपेण चयनं सुचारुरूपेण स्केल कर्तुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:810
-#, kde-format
-msgctxt "@title:window"
-msgid "Smooth Scale Selection?"
-msgstr ""
+"<qt><p>Smooth चयनं %1x%2 यावत् स्केल करणं स्मृतेः पर्याप्तं परिमाणं "
+"गृह्णीयात् । एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये "
+"अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चितरूपेण चयनं "
+"सुचारुरूपेण स्केल कर्तुम् इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:811
 #, kde-format
 msgid "Smooth Scal&e Selection"
 msgstr "चिकनी स्केल&e चयन"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:64
-#, kde-format
-msgctxt "@title:window"
-msgid "Rotate Selection"
-msgstr ""
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:64
-#, kde-format
-msgctxt "@title:window"
-msgid "Rotate Image"
-msgstr ""
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:65
 #, kde-format
@@ -762,18 +678,13 @@ msgstr "उपाधिः"
 msgid ""
 "<qt><p>Rotating the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to rotate the selection?</p></"
-"qt>"
+"resource problems.</p><p>Are you sure you want to rotate the "
+"selection?</p></qt>"
 msgstr ""
-"<qt><p>चयनं %1x%2 इत्यत्र परिभ्रमणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चितरूपेण चयनं परिवर्तयितुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:298
-#, kde-format
-msgctxt "@title:window"
-msgid "Rotate Selection?"
-msgstr ""
+"<qt><p>चयनं %1x%2 इत्यत्र परिभ्रमणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । "
+"एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च "
+"उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चितरूपेण चयनं परिवर्तयितुम् "
+"इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:299
 #, kde-format
@@ -787,32 +698,15 @@ msgid ""
 "This can reduce system responsiveness and cause other application resource "
 "problems.</p><p>Are you sure you want to rotate the image?</p></qt>"
 msgstr ""
-"<qt><p>चित्रं %1x%2 इत्यत्र परिभ्रमणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चयेन चित्रं परिभ्रमितुं इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:313
-#, kde-format
-msgctxt "@title:window"
-msgid "Rotate Image?"
-msgstr ""
+"<qt><p>चित्रं %1x%2 इत्यत्र परिभ्रमणं स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् "
+"। एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च "
+"उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चयेन चित्रं परिभ्रमितुं "
+"इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:314
 #, kde-format
 msgid "Rotat&e Image"
 msgstr "चित्रं परिभ्रमन्तु"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:64
-#, kde-format
-msgctxt "@title:window"
-msgid "Skew Selection"
-msgstr ""
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:64
-#, kde-format
-msgctxt "@title:window"
-msgid "Skew Image"
-msgstr ""
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:65
 #, kde-format
@@ -834,18 +728,13 @@ msgstr "&ऊर्ध्वाधर:"
 msgid ""
 "<qt><p>Skewing the selection to %1x%2 may take a substantial amount of "
 "memory. This can reduce system responsiveness and cause other application "
-"resource problems.</p><p>Are you sure you want to skew the selection?</p></"
-"qt>"
+"resource problems.</p><p>Are you sure you want to skew the "
+"selection?</p></qt>"
 msgstr ""
-"<qt><p>चयनं %1x%2 प्रति तिर्यक् कृत्वा स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चयेन चयनं तिर्यक् कर्तुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:259
-#, kde-format
-msgctxt "@title:window"
-msgid "Skew Selection?"
-msgstr ""
+"<qt><p>चयनं %1x%2 प्रति तिर्यक् कृत्वा स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् "
+"। एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च "
+"उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चयेन चयनं तिर्यक् कर्तुम् "
+"इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:260
 #, kde-format
@@ -859,26 +748,15 @@ msgid ""
 "This can reduce system responsiveness and cause other application resource "
 "problems.</p><p>Are you sure you want to skew the image?</p></qt>"
 msgstr ""
-"<qt><p>चित्रं %1x%2 प्रति तिर्यक् कृत्वा स्मृतेः पर्याप्तं परिमाणं गृह्णीयात् । एतेन "
-"प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं "
-"भवन्तः निश्चयेन चित्रं तिर्यक् कर्तुम् इच्छन्ति?</p></qt>"
-
-#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:274
-#, kde-format
-msgctxt "@title:window"
-msgid "Skew Image?"
-msgstr ""
+"<qt><p>चित्रं %1x%2 प्रति तिर्यक् कृत्वा स्मृतेः पर्याप्तं परिमाणं "
+"गृह्णीयात् । एतेन प्रणालीप्रतिसादः न्यूनीकर्तुं शक्यते अन्ये "
+"अनुप्रयोगसंसाधनसमस्याः च उत्पद्यन्ते ।</p><p> किं भवन्तः निश्चयेन चित्रं "
+"तिर्यक् कर्तुम् इच्छन्ति?</p></qt>"
 
 #: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:275
 #, kde-format
 msgid "Sk&ew Image"
 msgstr "Sk&ew इमेज"
-
-#: dialogs/kpColorSimilarityDialog.cpp:46
-#, kde-format
-msgctxt "@title:window"
-msgid "Color Similarity"
-msgstr ""
 
 #: dialogs/kpColorSimilarityDialog.cpp:75
 #, kde-format
@@ -895,18 +773,12 @@ msgstr "सटीक मेल"
 msgid "<a href=\"dummy_to_make_link_clickable\">What is Color Similarity?</a>"
 msgstr "<a href=\"dummy_to_make_link_clickable\">वर्णसादृश्यं किम् ?</a>"
 
-#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:58
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Preview"
-msgstr ""
-
 #: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:126
 #, kde-format
 msgid "1 byte (approx. %2%)"
 msgid_plural "%1 bytes (approx. %2%)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "१ बाइट् (लगभग %2%) २."
+msgstr[1] "%1 बाइट् (लगभग %2%) ."
 
 #: document/kpDocument_Open.cpp:114
 #, kde-format
@@ -941,44 +813,26 @@ msgstr ""
 msgid "<empty>"
 msgstr "<रिक्त>"
 
-#: document/kpDocument_Save.cpp:81
-#, kde-format
-msgctxt "@title:window"
-msgid "Internal Error"
-msgstr ""
-
 #: document/kpDocument_Save.cpp:116
 #, kde-format
 msgid ""
 "<qt><p>The <b>%1</b> format may not be able to preserve all of the image's "
-"color information.</p><p>Are you sure you want to save in this format?</p></"
-"qt>"
+"color information.</p><p>Are you sure you want to save in this "
+"format?</p></qt>"
 msgstr ""
-"<qt><p><b>%1</b> प्रारूपं चित्रस्य सर्वाणि वर्णसूचनाः रक्षितुं न शक्नोति ।</p><p> किं "
-"भवन्तः निश्चयेन अस्मिन् प्रारूपे रक्षितुं इच्छन्ति?</p></qt>"
-
-#: document/kpDocument_Save.cpp:123
-#, kde-format
-msgctxt "@title:window"
-msgid "Lossy File Format"
-msgstr ""
+"<qt><p><b>%1</b> प्रारूपं चित्रस्य सर्वाणि वर्णसूचनाः रक्षितुं न शक्नोति "
+"।</p><p> किं भवन्तः निश्चयेन अस्मिन् प्रारूपे रक्षितुं इच्छन्ति?</p></qt>"
 
 #: document/kpDocument_Save.cpp:132
 #, kde-format
 msgid ""
 "<qt><p>Saving the image at the low color depth of %1-bit may result in the "
-"loss of color information. Any transparency might also be removed.</p><p>Are "
-"you sure you want to save at this color depth?</p></qt>"
+"loss of color information. Any transparency might also be "
+"removed.</p><p>Are you sure you want to save at this color depth?</p></qt>"
 msgstr ""
-"<qt><p>%1-bit इत्यस्य न्यूनवर्णगहनतायां चित्रस्य रक्षणेन वर्णसूचनायाः हानिः भवितुम् अर्हति "
-"। यत्किमपि पारदर्शिता अपि निष्कासिता भवेत्।</p><p> किं भवन्तः निश्चयेन अस्मिन् "
-"वर्णगहनतायां रक्षितुम् इच्छन्ति?</p></qt>"
-
-#: document/kpDocument_Save.cpp:142
-#, kde-format
-msgctxt "@title:window"
-msgid "Low Color Depth"
-msgstr ""
+"<qt><p>%1-bit इत्यस्य न्यूनवर्णगहनतायां चित्रस्य रक्षणेन वर्णसूचनायाः हानिः "
+"भवितुम् अर्हति । यत्किमपि पारदर्शिता अपि निष्कासिता भवेत्।</p><p> किं "
+"भवन्तः निश्चयेन अस्मिन् वर्णगहनतायां रक्षितुम् इच्छन्ति?</p></qt>"
 
 #: document/kpDocument_Save.cpp:268
 #, kde-format
@@ -1023,16 +877,11 @@ msgstr "स्वसस्य"
 #: imagelib/transforms/kpTransformAutoCrop.cpp:623
 #, kde-format
 msgid ""
-"KolourPaint cannot remove the selection's internal border as it could not be "
-"located."
+"KolourPaint cannot remove the selection's internal border as it could not "
+"be located."
 msgstr ""
-"KolourPaint चयनस्य आन्तरिकसीमाम् अपसारयितुं न शक्नोति यतः सा स्थानं प्राप्तुं न शक्तवान् ।"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:625
-#, kde-format
-msgctxt "@title:window"
-msgid "Cannot Remove Internal Border"
-msgstr ""
+"KolourPaint चयनस्य आन्तरिकसीमाम् अपसारयितुं न शक्नोति यतः सा स्थानं "
+"प्राप्तुं न शक्तवान् ।"
 
 #: imagelib/transforms/kpTransformAutoCrop.cpp:631
 #, kde-format
@@ -1040,13 +889,8 @@ msgid ""
 "KolourPaint cannot automatically crop the image as its border could not be "
 "located."
 msgstr ""
-"KolourPaint स्वयमेव चित्रं क्रॉप् कर्तुं न शक्नोति यतः तस्य सीमा स्थानं प्राप्तुं न शक्यते स्म ।"
-
-#: imagelib/transforms/kpTransformAutoCrop.cpp:633
-#, kde-format
-msgctxt "@title:window"
-msgid "Cannot Autocrop"
-msgstr ""
+"KolourPaint स्वयमेव चित्रं क्रॉप् कर्तुं न शक्नोति यतः तस्य सीमा स्थानं "
+"प्राप्तुं न शक्यते स्म ।"
 
 #: imagelib/transforms/kpTransformCrop.cpp:69
 #: imagelib/transforms/kpTransformCrop.cpp:72
@@ -1168,9 +1012,10 @@ msgstr "केएफ ५ पोर्टिंग्"
 
 #: kolourpaint.cpp:87
 #, kde-format
-msgid ""
-"Thanks to the many others who have helped to make this program possible."
-msgstr "अन्येषां बहूनां धन्यवादः ये अस्य कार्यक्रमस्य सम्भवं कर्तुं साहाय्यं कृतवन्तः।"
+msgid "Thanks to the many others who have helped to make this program possible."
+msgstr ""
+"अन्येषां बहूनां धन्यवादः ये अस्य कार्यक्रमस्य सम्भवं कर्तुं साहाय्यं "
+"कृतवन्तः।"
 
 #: kolourpaint.cpp:93
 #, kde-format
@@ -1192,53 +1037,47 @@ msgstr "दत्त आकारस्य उपयोगेन नूतनप
 msgid "[width]x[height]"
 msgstr "[विस्तार]x[उच्चता] २."
 
-#. i18n: ectx: Menu (view)
 #: kolourpaintui.rc:36
+#. i18n: ectx: Menu (view)
 #, kde-format
 msgid "&View"
 msgstr "&दृश्यं"
 
-#. i18n: ectx: Menu (image)
 #: kolourpaintui.rc:71 kolourpaintui.rc:207
+#. i18n: ectx: Menu (image)
 #, kde-format
 msgid "&Image"
 msgstr "&छवि"
 
-#. i18n: ectx: Menu (colors)
 #: kolourpaintui.rc:99
+#. i18n: ectx: Menu (colors)
 #, kde-format
 msgid "&Colors"
 msgstr "&रंग"
 
-#. i18n: ectx: ToolBar (mainToolBar)
 #: kolourpaintui.rc:147
+#. i18n: ectx: ToolBar (mainToolBar)
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
-#. i18n: ectx: ToolBar (textToolBar)
 #: kolourpaintui.rc:162
+#. i18n: ectx: ToolBar (textToolBar)
 #, kde-format
 msgid "Text Toolbar"
 msgstr "पाठसाधनपट्टिका"
 
-#. i18n: ectx: Menu (selectionToolRMBMenu)
 #: kolourpaintui.rc:172
+#. i18n: ectx: Menu (selectionToolRMBMenu)
 #, kde-format
 msgid "Selection Tool RMB Menu"
 msgstr "चयनसाधन RMB मेनू"
 
-#. i18n: ectx: Menu (edit)
 #: kolourpaintui.rc:174
+#. i18n: ectx: Menu (edit)
 #, kde-format
 msgid "&Edit"
 msgstr "&सम्पादन"
-
-#: kpThumbnail.cpp:129
-#, kde-format
-msgctxt "@title:window"
-msgid "Thumbnail"
-msgstr ""
 
 #: kpViewScrollableContainer.cpp:155 kpViewScrollableContainer.cpp:863
 #: kpViewScrollableContainer.cpp:867 kpViewScrollableContainer.cpp:871
@@ -1297,48 +1136,6 @@ msgstr "अनामिका"
 msgid "Use KolourPaint Defaults"
 msgstr "KolourPaint Defaults इत्यस्य उपयोगं कुर्वन्तु"
 
-#: mainWindow/kpMainWindow_Colors.cpp:66
-#, kde-format
-msgctxt "@item:inmenu colors"
-msgid "Use KDE's"
-msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:78
-#, kde-format
-msgctxt "@item:inmenu colors"
-msgid "&Open..."
-msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:82
-#, kde-format
-msgctxt "@item:inmenu colors"
-msgid "Reloa&d"
-msgstr "रेलोआ&ड"
-
-#: mainWindow/kpMainWindow_Colors.cpp:87
-#, kde-format
-msgctxt "@item:inmenu colors"
-msgid "&Save"
-msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:92
-#, kde-format
-msgctxt "@item:inmenu colors"
-msgid "Save &As..."
-msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:97
-#, kde-format
-msgctxt "@item:inmenu colors"
-msgid "Add Row"
-msgstr ""
-
-#: mainWindow/kpMainWindow_Colors.cpp:102
-#, kde-format
-msgctxt "@item:inmenu colors"
-msgid "Delete Last Row"
-msgstr ""
-
 #: mainWindow/kpMainWindow_Colors.cpp:115
 #, kde-format
 msgid "Color Box"
@@ -1371,12 +1168,6 @@ msgstr ""
 "पूर्वनिर्धारितं वर्णपैलेट् परिवर्तितम् अस्ति ।\n"
 "किं भवन्तः तत् सञ्चिकायां रक्षितुम् इच्छन्ति ?"
 
-#: mainWindow/kpMainWindow_Colors.cpp:340
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Color Palette"
-msgstr ""
-
 #: mainWindow/kpMainWindow_Colors.cpp:369
 #, kde-format
 msgid ""
@@ -1385,13 +1176,14 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "\"%1\" इति वर्णपैलेट् परिवर्तितम् अस्ति ।\n"
-"पुनः लोड् करणं भवता अन्तिमे समये रक्षितस्य सर्वाणि परिवर्तनानि नष्टानि भविष्यन्ति ।\n"
+"पुनः लोड् करणं भवता अन्तिमे समये रक्षितस्य सर्वाणि परिवर्तनानि नष्टानि "
+"भविष्यन्ति ।\n"
 "किं त्वं निश्चिन्तः असि ?"
 
 #: mainWindow/kpMainWindow_Colors.cpp:374
 #: mainWindow/kpMainWindow_Colors.cpp:387
-#: mainWindow/kpMainWindow_Colors.cpp:396 mainWindow/kpMainWindow_File.cpp:1087
-#: mainWindow/kpMainWindow_File.cpp:1097
+#: mainWindow/kpMainWindow_Colors.cpp:396
+#: mainWindow/kpMainWindow_File.cpp:1087 mainWindow/kpMainWindow_File.cpp:1097
 #, kde-format
 msgid "&Reload"
 msgstr "&पुनः भार"
@@ -1444,7 +1236,8 @@ msgid "Paste &From File..."
 msgstr "पेस्ट &From File..."
 
 #: mainWindow/kpMainWindow_Edit.cpp:364 mainWindow/kpMainWindow_Edit.cpp:438
-#: mainWindow/kpMainWindow_Image.cpp:323 tools/selection/text/kpToolText.cpp:89
+#: mainWindow/kpMainWindow_Image.cpp:323
+#: tools/selection/text/kpToolText.cpp:89
 #, kde-format
 msgid "Text: Create Box"
 msgstr "पाठः - पेटी रचयतु"
@@ -1460,8 +1253,8 @@ msgid ""
 "<qt>KolourPaint cannot paste the contents of the clipboard as it has an "
 "unknown format.</qt>"
 msgstr ""
-"<qt>KolourPaint क्लिप्बोर्डस्य सामग्रीं चिनोतुम् न शक्नोति यतः तस्य अज्ञातस्वरूपम् अस्ति ।</"
-"qt>"
+"<qt>KolourPaint क्लिप्बोर्डस्य सामग्रीं चिनोतुम् न शक्नोति यतः तस्य "
+"अज्ञातस्वरूपम् अस्ति ।</qt>"
 
 #: mainWindow/kpMainWindow_Edit.cpp:613
 #, kde-format
@@ -1473,8 +1266,8 @@ msgstr "पेस्ट् कर्तुं न शक्यते"
 msgid "Text: Delete Box"
 msgstr "पाठः - Delete Box इति"
 
-#. i18n ("Text: Delete")
 #: mainWindow/kpMainWindow_Edit.cpp:693
+#. i18n ("Text: Delete")
 #, kde-format
 msgid "Selection: Delete"
 msgstr "चयनम् : विलोपनम्"
@@ -1489,38 +1282,10 @@ msgstr "पाठः समाप्तः"
 msgid "Selection: Deselect"
 msgstr "चयनम् : अचयनम्"
 
-#: mainWindow/kpMainWindow_Edit.cpp:852
-#, kde-format
-msgctxt "@title:window"
-msgid "Copy to File"
-msgstr ""
-
-#: mainWindow/kpMainWindow_Edit.cpp:899
-#, kde-format
-msgctxt "@title:window"
-msgid "Paste From File"
-msgstr ""
-
 #: mainWindow/kpMainWindow_File.cpp:105
 #, kde-format
 msgid "E&xport..."
 msgstr "निर्यात..."
-
-#: mainWindow/kpMainWindow_File.cpp:107
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Export to another file"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:109
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"This saves the document with a different name, similar to <interface>Save "
-"As</interface>, but the current document is not changed.<nl/>This way you "
-"can keep the last-used save folder independent from the folder of the "
-"current document."
-msgstr ""
 
 #: mainWindow/kpMainWindow_File.cpp:115
 #, kde-format
@@ -1547,22 +1312,10 @@ msgstr "रेलोआ&ड"
 msgid "All Supported Files (%1)"
 msgstr "सर्वाणि समर्थितसञ्चिकाः (%1)"
 
-#: mainWindow/kpMainWindow_File.cpp:489
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Image"
-msgstr ""
-
 #: mainWindow/kpMainWindow_File.cpp:552
 #, kde-format
 msgid "Failed to open scanning dialog."
 msgstr "स्कैनिङ्ग संवादं उद्घाटयितुं असफलम्।"
-
-#: mainWindow/kpMainWindow_File.cpp:553
-#, kde-format
-msgctxt "@title:window"
-msgid "Scanning Failed"
-msgstr ""
 
 #: mainWindow/kpMainWindow_File.cpp:670
 #, kde-format
@@ -1573,8 +1326,8 @@ msgstr "स्नैपशॉट विलम्ब"
 #, kde-format
 msgid "%v second"
 msgid_plural "%v seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%v द्वितीयः"
+msgstr[1] "%v सेकण्ड्"
 
 #: mainWindow/kpMainWindow_File.cpp:674
 #, kde-format
@@ -1591,18 +1344,6 @@ msgstr "मुख्यविण्डो गोपयन्तु"
 msgid "Document Properties"
 msgstr "दस्तावेज गुणाः"
 
-#: mainWindow/kpMainWindow_File.cpp:970
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Image As"
-msgstr ""
-
-#: mainWindow/kpMainWindow_File.cpp:1018
-#, kde-format
-msgctxt "@title:window"
-msgid "Export"
-msgstr ""
-
 #: mainWindow/kpMainWindow_File.cpp:1082
 #, kde-format
 msgid ""
@@ -1611,7 +1352,8 @@ msgid ""
 "Are you sure?"
 msgstr ""
 "\"%1\" इति दस्तावेजं परिवर्तितम् अस्ति ।\n"
-"पुनः लोड् करणं भवता अन्तिमे समये रक्षितस्य सर्वाणि परिवर्तनानि नष्टानि भविष्यन्ति ।\n"
+"पुनः लोड् करणं भवता अन्तिमे समये रक्षितस्य सर्वाणि परिवर्तनानि नष्टानि "
+"भविष्यन्ति ।\n"
 "किं त्वं निश्चिन्तः असि ?"
 
 #: mainWindow/kpMainWindow_File.cpp:1092
@@ -1624,12 +1366,6 @@ msgstr ""
 "\"%1\" इति दस्तावेजं परिवर्तितम् अस्ति ।\n"
 "पुनः लोड् करणं सर्वाणि परिवर्तनानि नष्टानि भविष्यन्ति ।\n"
 "किं त्वं निश्चिन्तः असि ?"
-
-#: mainWindow/kpMainWindow_File.cpp:1340
-#, kde-format
-msgctxt "@title:window"
-msgid "Print Image"
-msgstr ""
 
 #: mainWindow/kpMainWindow_File.cpp:1420
 #, kde-format
@@ -1718,22 +1454,6 @@ msgstr "गोपनीयं कुरुत"
 #, kde-format
 msgid "&More Effects..."
 msgstr "&अधिक प्रभाव..."
-
-#: mainWindow/kpMainWindow_Image.cpp:230
-#, kde-format
-msgctxt ""
-"Image/Selection Menu caption - make sure the translation has the same accel "
-"as the Select&ion translation"
-msgid "&Image"
-msgstr "&छवि"
-
-#: mainWindow/kpMainWindow_Image.cpp:234
-#, kde-format
-msgctxt ""
-"Image/Selection Menu caption - make sure that translation has the same accel "
-"as the &Image translation"
-msgid "Select&ion"
-msgstr ""
 
 #: mainWindow/kpMainWindow_Settings.cpp:66
 #, kde-format
@@ -1862,12 +1582,6 @@ msgstr "लघुचित्र & आयत सक्षम करें"
 #, kde-format
 msgid "&Zoom"
 msgstr "&ज़ूम"
-
-#: scan/sanedialog.cpp:41
-#, kde-format
-msgctxt "@title:window"
-msgid "Acquire Image"
-msgstr ""
 
 #: scan/sanedialog.cpp:73
 #, kde-format
@@ -1999,13 +1713,6 @@ msgstr "जूम"
 msgid "Zooms in and out of the image"
 msgstr "चित्रस्य अन्तः बहिः च जूम करोति"
 
-#: tools/kpToolZoom.cpp:119
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Click to zoom in. Right-click to zoom out. Drag to zoom into a specific area."
-msgstr ""
-
 #: tools/polygonal/kpToolCurve.cpp:103
 #, kde-format
 msgid "Curve"
@@ -2024,22 +1731,30 @@ msgstr "आरम्भबिन्दून् अन्त्यबिन्�
 #: tools/polygonal/kpToolCurve.cpp:157
 #, kde-format
 msgid "Left drag to set the first control point or right click to finish."
-msgstr "प्रथमं नियन्त्रणबिन्दुं सेट् कर्तुं वाम-कर्षणं कुर्वन्तु अथवा समाप्तुं दक्षिण-क्लिक् कुर्वन्तु ।"
+msgstr ""
+"प्रथमं नियन्त्रणबिन्दुं सेट् कर्तुं वाम-कर्षणं कुर्वन्तु अथवा समाप्तुं "
+"दक्षिण-क्लिक् कुर्वन्तु ।"
 
 #: tools/polygonal/kpToolCurve.cpp:162
 #, kde-format
 msgid "Right drag to set the first control point or left click to finish."
-msgstr "प्रथमं नियन्त्रणबिन्दुं सेट् कर्तुं दक्षिणतः कर्षयन्तु अथवा समाप्तुं वामक्लिक् कुर्वन्तु ।"
+msgstr ""
+"प्रथमं नियन्त्रणबिन्दुं सेट् कर्तुं दक्षिणतः कर्षयन्तु अथवा समाप्तुं "
+"वामक्लिक् कुर्वन्तु ।"
 
 #: tools/polygonal/kpToolCurve.cpp:172
 #, kde-format
 msgid "Left drag to set the last control point or right click to finish."
-msgstr "अन्तिमनियन्त्रणबिन्दुं सेट् कर्तुं वाम-कर्षणं कुर्वन्तु अथवा समाप्तुं दक्षिण-क्लिक् कुर्वन्तु ।"
+msgstr ""
+"अन्तिमनियन्त्रणबिन्दुं सेट् कर्तुं वाम-कर्षणं कुर्वन्तु अथवा समाप्तुं "
+"दक्षिण-क्लिक् कुर्वन्तु ।"
 
 #: tools/polygonal/kpToolCurve.cpp:177
 #, kde-format
 msgid "Right drag to set the last control point or left click to finish."
-msgstr "अन्तिमनियन्त्रणबिन्दुं सेट् कर्तुं दक्षिणतः कर्षयन्तु अथवा समाप्तुं वामक्लिक् कुर्वन्तु ।"
+msgstr ""
+"अन्तिमनियन्त्रणबिन्दुं सेट् कर्तुं दक्षिणतः कर्षयन्तु अथवा समाप्तुं "
+"वामक्लिक् कुर्वन्तु ।"
 
 #: tools/polygonal/kpToolLine.cpp:41
 #, kde-format
@@ -2072,12 +1787,14 @@ msgstr "बहुभुजान् आकर्षयति"
 msgid "Drag to draw the first line."
 msgstr "प्रथमरेखां आकर्षितुं कर्षन्तु ।"
 
-#: tools/polygonal/kpToolPolygon.cpp:182 tools/polygonal/kpToolPolyline.cpp:117
+#: tools/polygonal/kpToolPolygon.cpp:182
+#: tools/polygonal/kpToolPolyline.cpp:117
 #, kde-format
 msgid "Left drag another line or right click to finish."
 msgstr "वामभागे अन्यपङ्क्तिं कर्षयन्तु अथवा समाप्तुं दक्षिणक्लिक् कुर्वन्तु ।"
 
-#: tools/polygonal/kpToolPolygon.cpp:186 tools/polygonal/kpToolPolyline.cpp:121
+#: tools/polygonal/kpToolPolygon.cpp:186
+#: tools/polygonal/kpToolPolyline.cpp:121
 #, kde-format
 msgid "Right drag another line or left click to finish."
 msgstr "अन्यां रेखां दक्षिणतः कर्षयन्तु अथवा समाप्तुं वामक्लिक् कुर्वन्तु ।"
@@ -2315,103 +2032,118 @@ msgstr "%1% - लघुचित्रम्"
 #: widgets/colorSimilarity/kpColorSimilarityHolder.cpp:67
 #, kde-format
 msgid ""
-"<qt><p><b>Color Similarity</b> is how <i>similar</i> the colors of different "
-"pixels must be, for operations to consider them to be the same.</p><p>If you "
-"set it to something other than <b>Exact Match</b>, you can work more "
-"effectively with dithered images and photos, in a comparable manner to the "
-"\"Magic Wand\" feature of other paint programs.</p><p>This feature applies "
-"to:</p><ul><li><b>Selections</b>: In <b>Transparent</b> mode, any color in "
-"the selection that is <i>similar</i> to the background color will be made "
-"transparent.</li><li><b>Flood Fill</b>: For regions with <i>similar</i> - "
-"but not identical - colored pixels, a higher setting is likely to fill more "
-"pixels.</li><li><b>Color Eraser</b>: Any pixel whose color is <i>similar</i> "
-"to the foreground color will be replaced with the background color.</"
-"li><li><b>Autocrop</b> and <b>Remove Internal Border</b>: For borders with "
+"<qt><p><b>Color Similarity</b> is how <i>similar</i> the colors of "
+"different pixels must be, for operations to consider them to be the "
+"same.</p><p>If you set it to something other than <b>Exact Match</b>, you "
+"can work more effectively with dithered images and photos, in a comparable "
+"manner to the \"Magic Wand\" feature of other paint programs.</p><p>This "
+"feature applies to:</p><ul><li><b>Selections</b>: In <b>Transparent</b> "
+"mode, any color in the selection that is <i>similar</i> to the background "
+"color will be made transparent.</li><li><b>Flood Fill</b>: For regions with "
 "<i>similar</i> - but not identical - colored pixels, a higher setting is "
-"more likely to crop the whole border.</li></ul><p>Higher settings mean that "
-"operations consider an increased range of colors to be sufficiently "
-"<i>similar</i> so as to be the same. Therefore, you should increase the "
-"setting if the above operations are not affecting pixels whose colors you "
-"consider to be similar enough.</p><p>However, if they are having too much of "
-"an effect and are changing pixels whose colors you do not consider to be "
-"similar (e.g. if <b>Flood Fill</b> is changing too many pixels), you should "
-"decrease this setting.</p><p>To configure it, click on the cube.</p></qt>"
+"likely to fill more pixels.</li><li><b>Color Eraser</b>: Any pixel whose "
+"color is <i>similar</i> to the foreground color will be replaced with the "
+"background color.</li><li><b>Autocrop</b> and <b>Remove Internal "
+"Border</b>: For borders with <i>similar</i> - but not identical - colored "
+"pixels, a higher setting is more likely to crop the whole "
+"border.</li></ul><p>Higher settings mean that operations consider an "
+"increased range of colors to be sufficiently <i>similar</i> so as to be the "
+"same. Therefore, you should increase the setting if the above operations "
+"are not affecting pixels whose colors you consider to be similar "
+"enough.</p><p>However, if they are having too much of an effect and are "
+"changing pixels whose colors you do not consider to be similar (e.g. if "
+"<b>Flood Fill</b> is changing too many pixels), you should decrease this "
+"setting.</p><p>To configure it, click on the cube.</p></qt>"
 msgstr ""
-"<qt><p><b>वर्णसादृश्यं</b> भिन्नपिक्सेलस्य वर्णाः कियत् <i>समानाः</i> भवितुमर्हन्ति, "
-"क्रियाः तान् समानान् मन्यन्ते ।</p><p> यदि भवान् तत् <b>Exact Match</b> इत्यस्मात् परं "
-"किमपि सेट् करोति तर्हि अन्येषां रङ्गकार्यक्रमानाम् &quot;Magic Wand&quot; इति "
-"विशेषतायाः तुलनीयरूपेण, dithered इमेज् तथा फोटोस् इत्यनेन सह अधिकं प्रभावीरूपेण कार्यं कर्तुं "
-"शक्नोति</p><p> एतत् विशेषता निम्नलिखितयोः कृते प्रवर्तते :</p><ul><li> <b>चयनम्</b> : "
-"<b>Transparent</b> मोड् मध्ये चयनस्य यः कोऽपि वर्णः पृष्ठभूमिवर्णस्य <i>सदृशः</i> भवति "
-"सः पारदर्शकः भविष्यति ।</li><li> <b>Flood Fill</b> : <i>समान</i> - परन्तु समानं न "
-"- वर्णयुक्तानां क्षेत्राणां कृते उच्चतरसेटिंग् अधिकानि पिक्सेल्स् पूरयितुं शक्यते ।</li><li> "
-"<b>Color Eraser</b> : यस्य कस्यचित् पिक्सेलस्य वर्णः अग्रभूमिवर्णस्य <i>सदृशः</i> भवति "
-"तस्य स्थाने पृष्ठभूमिवर्णः स्थापितः भविष्यति ।</li><li> <b>Autocrop</b> and <b>Remove "
-"Internal Border</b> : <i>समान</i> - परन्तु समानं न - वर्णयुक्तपिक्सेलयुक्तानां सीमानां "
-"कृते उच्चतरसेटिंग् सम्पूर्णसीमायां क्रॉप् कर्तुं अधिका सम्भावना वर्तते</li></ul><p> उच्चतरसेटिंग्स् "
-"इत्यस्य अर्थः अस्ति यत् क्रियाः वर्धितां वर्णपरिधिं पर्याप्तरूपेण <i>समानं</i> मन्यन्ते येन "
-"समाना भवति । अतः यदि उपर्युक्तानि कार्याणि येषां पिक्सेल्स् इत्यस्य प्रभावं न कुर्वन्ति येषां "
-"वर्णाः भवन्तः पर्याप्तरूपेण समानाः इति मन्यन्ते तर्हि भवन्तः सेटिङ्ग् वर्धयितव्याः ।</p><p> "
-"परन्तु यदि तेषां प्रभावः अधिकः भवति तथा च येषां वर्णाः भवन्तः समानाः न मन्यन्ते "
-"(उदाहरणार्थं यदि <b>Flood Fill</b> अत्यधिकं पिक्सेलं परिवर्तयति) पिक्सेल् परिवर्तयन्ति "
-"तर्हि भवन्तः एतत् सेटिङ्ग् न्यूनीकर्तव्यम्</p><p> तत् विन्यस्तुं घनस्य उपरि नुदन्तु ।</p></qt>"
+"<qt><p><b>वर्णसादृश्यं</b> भिन्नपिक्सेलस्य वर्णाः कियत् <i>समानाः</i> "
+"भवितुमर्हन्ति, क्रियाः तान् समानान् मन्यन्ते ।</p><p> यदि भवान् तत् "
+"<b>Exact Match</b> इत्यस्मात् परं किमपि सेट् करोति तर्हि अन्येषां "
+"रङ्गकार्यक्रमानाम् &quot;Magic Wand&quot; इति विशेषतायाः तुलनीयरूपेण, "
+"dithered इमेज् तथा फोटोस् इत्यनेन सह अधिकं प्रभावीरूपेण कार्यं कर्तुं "
+"शक्नोति</p><p> एतत् विशेषता निम्नलिखितयोः कृते प्रवर्तते :</p><ul><li> "
+"<b>चयनम्</b> : <b>Transparent</b> मोड् मध्ये चयनस्य यः कोऽपि वर्णः "
+"पृष्ठभूमिवर्णस्य <i>सदृशः</i> भवति सः पारदर्शकः भविष्यति ।</li><li> "
+"<b>Flood Fill</b> : <i>समान</i> - परन्तु समानं न - वर्णयुक्तानां "
+"क्षेत्राणां कृते उच्चतरसेटिंग् अधिकानि पिक्सेल्स् पूरयितुं शक्यते "
+"।</li><li> <b>Color Eraser</b> : यस्य कस्यचित् पिक्सेलस्य वर्णः "
+"अग्रभूमिवर्णस्य <i>सदृशः</i> भवति तस्य स्थाने पृष्ठभूमिवर्णः स्थापितः "
+"भविष्यति ।</li><li> <b>Autocrop</b> and <b>Remove Internal Border</b> : "
+"<i>समान</i> - परन्तु समानं न - वर्णयुक्तपिक्सेलयुक्तानां सीमानां कृते "
+"उच्चतरसेटिंग् सम्पूर्णसीमायां क्रॉप् कर्तुं अधिका सम्भावना "
+"वर्तते</li></ul><p> उच्चतरसेटिंग्स् इत्यस्य अर्थः अस्ति यत् क्रियाः "
+"वर्धितां वर्णपरिधिं पर्याप्तरूपेण <i>समानं</i> मन्यन्ते येन समाना भवति । "
+"अतः यदि उपर्युक्तानि कार्याणि येषां पिक्सेल्स् इत्यस्य प्रभावं न कुर्वन्ति "
+"येषां वर्णाः भवन्तः पर्याप्तरूपेण समानाः इति मन्यन्ते तर्हि भवन्तः सेटिङ्ग् "
+"वर्धयितव्याः ।</p><p> परन्तु यदि तेषां प्रभावः अधिकः भवति तथा च येषां "
+"वर्णाः भवन्तः समानाः न मन्यन्ते (उदाहरणार्थं यदि <b>Flood Fill</b> अत्यधिकं "
+"पिक्सेलं परिवर्तयति) पिक्सेल् परिवर्तयन्ति तर्हि भवन्तः एतत् सेटिङ्ग् "
+"न्यूनीकर्तव्यम्</p><p> तत् विन्यस्तुं घनस्य उपरि नुदन्तु ।</p></qt>"
 
 #: widgets/colorSimilarity/kpColorSimilarityHolder.cpp:117
 #, kde-format
 msgid ""
-"<qt><p><b>Color Similarity</b> is how <i>similar</i> the colors of different "
-"pixels must be, for operations to consider them to be the same.</p><p>If you "
-"set it to something other than <b>Exact Match</b>, you can work more "
-"effectively with dithered images and photos, in a comparable manner to the "
-"\"Magic Wand\" feature of other paint programs.</p><p>This feature applies "
-"to:</p><ul><li><b>Selections</b>: In <b>Transparent</b> mode, any color in "
-"the selection that is <i>similar</i> to the background color will be made "
-"transparent.</li><li><b>Flood Fill</b>: For regions with <i>similar</i> - "
-"but not identical - colored pixels, a higher setting is likely to fill more "
-"pixels.</li><li><b>Color Eraser</b>: Any pixel whose color is <i>similar</i> "
-"to the foreground color will be replaced with the background color.</"
-"li><li><b>Autocrop</b> and <b>Remove Internal Border</b>: For borders with "
+"<qt><p><b>Color Similarity</b> is how <i>similar</i> the colors of "
+"different pixels must be, for operations to consider them to be the "
+"same.</p><p>If you set it to something other than <b>Exact Match</b>, you "
+"can work more effectively with dithered images and photos, in a comparable "
+"manner to the \"Magic Wand\" feature of other paint programs.</p><p>This "
+"feature applies to:</p><ul><li><b>Selections</b>: In <b>Transparent</b> "
+"mode, any color in the selection that is <i>similar</i> to the background "
+"color will be made transparent.</li><li><b>Flood Fill</b>: For regions with "
 "<i>similar</i> - but not identical - colored pixels, a higher setting is "
-"more likely to crop the whole border.</li></ul><p>Higher settings mean that "
-"operations consider an increased range of colors to be sufficiently "
-"<i>similar</i> so as to be the same. Therefore, you should increase the "
-"setting if the above operations are not affecting pixels whose colors you "
-"consider to be similar enough.</p><p>However, if they are having too much of "
-"an effect and are changing pixels whose colors you do not consider to be "
-"similar (e.g. if <b>Flood Fill</b> is changing too many pixels), you should "
-"decrease this setting.</p></qt>"
+"likely to fill more pixels.</li><li><b>Color Eraser</b>: Any pixel whose "
+"color is <i>similar</i> to the foreground color will be replaced with the "
+"background color.</li><li><b>Autocrop</b> and <b>Remove Internal "
+"Border</b>: For borders with <i>similar</i> - but not identical - colored "
+"pixels, a higher setting is more likely to crop the whole "
+"border.</li></ul><p>Higher settings mean that operations consider an "
+"increased range of colors to be sufficiently <i>similar</i> so as to be the "
+"same. Therefore, you should increase the setting if the above operations "
+"are not affecting pixels whose colors you consider to be similar "
+"enough.</p><p>However, if they are having too much of an effect and are "
+"changing pixels whose colors you do not consider to be similar (e.g. if "
+"<b>Flood Fill</b> is changing too many pixels), you should decrease this "
+"setting.</p></qt>"
 msgstr ""
-"<qt><p><b>वर्णसादृश्यं</b> भिन्नपिक्सेलस्य वर्णाः कियत् <i>समानाः</i> भवितुमर्हन्ति, "
-"क्रियाः तान् समानान् मन्यन्ते ।</p><p> यदि भवान् तत् <b>Exact Match</b> इत्यस्मात् परं "
-"किमपि सेट् करोति तर्हि अन्येषां रङ्गकार्यक्रमानाम् &quot;Magic Wand&quot; इति "
-"विशेषतायाः तुलनीयरूपेण, dithered इमेज् तथा फोटोस् इत्यनेन सह अधिकं प्रभावीरूपेण कार्यं कर्तुं "
-"शक्नोति</p><p> एतत् विशेषता निम्नलिखितयोः कृते प्रवर्तते:</p><ul><li> <b>चयनम्</b> : "
-"<b>Transparent</b> मोड् मध्ये चयनस्य यः कोऽपि वर्णः पृष्ठभूमिवर्णस्य <i>सदृशः</i> भवति "
-"सः पारदर्शकः भविष्यति ।</li><li> <b>Flood Fill</b> : <i>समान</i> - परन्तु समानं न "
-"- वर्णयुक्तानां क्षेत्राणां कृते उच्चतरसेटिंग् अधिकानि पिक्सेल्स् पूरयितुं शक्यते ।</li><li> "
-"<b>Color Eraser</b> : यस्य कस्यचित् पिक्सेलस्य वर्णः अग्रभूमिवर्णस्य <i>सदृशः</i> भवति "
-"तस्य स्थाने पृष्ठभूमिवर्णः स्थापितः भविष्यति ।</li><li> <b>Autocrop</b> and <b>Remove "
-"Internal Border</b> : <i>समान</i> - परन्तु समानं न - वर्णयुक्तपिक्सेलयुक्तानां सीमानां "
-"कृते उच्चतरसेटिंग् सम्पूर्णसीमायां क्रॉप् कर्तुं अधिका सम्भावना वर्तते</li></ul><p> उच्चतरसेटिंग्स् "
-"इत्यस्य अर्थः अस्ति यत् क्रियाः वर्धितां वर्णपरिधिं पर्याप्तरूपेण <i>समानं</i> मन्यन्ते येन "
-"समाना भवति । अतः यदि उपर्युक्तानि कार्याणि येषां पिक्सेल्स् इत्यस्य प्रभावं न कुर्वन्ति येषां "
-"वर्णाः भवन्तः पर्याप्तरूपेण समानाः इति मन्यन्ते तर्हि भवन्तः सेटिङ्ग् वर्धयितव्याः ।</p><p> "
-"परन्तु यदि तेषां प्रभावः अधिकः भवति तथा च येषां वर्णाः भवन्तः समानाः न मन्यन्ते "
-"(उदाहरणार्थं यदि <b>Flood Fill</b> अत्यधिकं पिक्सेलं परिवर्तयति) पिक्सेल् परिवर्तयन्ति "
-"तर्हि भवन्तः एतत् सेटिङ्ग् न्यूनीकर्तव्यम्</p></qt>"
+"<qt><p><b>वर्णसादृश्यं</b> भिन्नपिक्सेलस्य वर्णाः कियत् <i>समानाः</i> "
+"भवितुमर्हन्ति, क्रियाः तान् समानान् मन्यन्ते ।</p><p> यदि भवान् तत् "
+"<b>Exact Match</b> इत्यस्मात् परं किमपि सेट् करोति तर्हि अन्येषां "
+"रङ्गकार्यक्रमानाम् &quot;Magic Wand&quot; इति विशेषतायाः तुलनीयरूपेण, "
+"dithered इमेज् तथा फोटोस् इत्यनेन सह अधिकं प्रभावीरूपेण कार्यं कर्तुं "
+"शक्नोति</p><p> एतत् विशेषता निम्नलिखितयोः कृते प्रवर्तते:</p><ul><li> "
+"<b>चयनम्</b> : <b>Transparent</b> मोड् मध्ये चयनस्य यः कोऽपि वर्णः "
+"पृष्ठभूमिवर्णस्य <i>सदृशः</i> भवति सः पारदर्शकः भविष्यति ।</li><li> "
+"<b>Flood Fill</b> : <i>समान</i> - परन्तु समानं न - वर्णयुक्तानां "
+"क्षेत्राणां कृते उच्चतरसेटिंग् अधिकानि पिक्सेल्स् पूरयितुं शक्यते "
+"।</li><li> <b>Color Eraser</b> : यस्य कस्यचित् पिक्सेलस्य वर्णः "
+"अग्रभूमिवर्णस्य <i>सदृशः</i> भवति तस्य स्थाने पृष्ठभूमिवर्णः स्थापितः "
+"भविष्यति ।</li><li> <b>Autocrop</b> and <b>Remove Internal Border</b> : "
+"<i>समान</i> - परन्तु समानं न - वर्णयुक्तपिक्सेलयुक्तानां सीमानां कृते "
+"उच्चतरसेटिंग् सम्पूर्णसीमायां क्रॉप् कर्तुं अधिका सम्भावना "
+"वर्तते</li></ul><p> उच्चतरसेटिंग्स् इत्यस्य अर्थः अस्ति यत् क्रियाः "
+"वर्धितां वर्णपरिधिं पर्याप्तरूपेण <i>समानं</i> मन्यन्ते येन समाना भवति । "
+"अतः यदि उपर्युक्तानि कार्याणि येषां पिक्सेल्स् इत्यस्य प्रभावं न कुर्वन्ति "
+"येषां वर्णाः भवन्तः पर्याप्तरूपेण समानाः इति मन्यन्ते तर्हि भवन्तः सेटिङ्ग् "
+"वर्धयितव्याः ।</p><p> परन्तु यदि तेषां प्रभावः अधिकः भवति तथा च येषां "
+"वर्णाः भवन्तः समानाः न मन्यन्ते (उदाहरणार्थं यदि <b>Flood Fill</b> अत्यधिकं "
+"पिक्सेलं परिवर्तयति) पिक्सेल् परिवर्तयन्ति तर्हि भवन्तः एतत् सेटिङ्ग् "
+"न्यूनीकर्तव्यम्</p></qt>"
 
 #: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:231
 #, kde-format
 msgid "<p>Color Similarity: %1%</p><p align=\"center\">Click to configure.</p>"
-msgstr "<p>वर्णसादृश्यम् : %1% .</p><p align=\"center\"> विन्यस्तुं क्लिक् कुर्वन्तु ।</p>"
+msgstr ""
+"<p>वर्णसादृश्यम् : %1% .</p><p align=\"center\"> विन्यस्तुं क्लिक् "
+"कुर्वन्तु ।</p>"
 
 #: widgets/colorSimilarity/kpColorSimilarityToolBarItem.cpp:238
 #, kde-format
 msgid ""
-"<p>Color Similarity: Exact Match</p><p align=\"center\">Click to configure.</"
-"p>"
+"<p>Color Similarity: Exact Match</p><p align=\"center\">Click to "
+"configure.</p>"
 msgstr ""
-"<p>वर्णसादृश्यम् : सटीकमेलनम्</p><p align=\"center\"> विन्यस्तुं क्लिक् कुर्वन्तु ।</p>"
+"<p>वर्णसादृश्यम् : सटीकमेलनम्</p><p align=\"center\"> विन्यस्तुं क्लिक् "
+"कुर्वन्तु ।</p>"
 
 #: widgets/imagelib/effects/kpEffectBalanceWidget.cpp:60
 #, kde-format
@@ -2500,12 +2232,6 @@ msgstr "&हुए: १."
 msgid "&Saturation:"
 msgstr "&संतृप्ति: १."
 
-#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:49
-#, kde-format
-msgctxt "The V of HSV"
-msgid "&Value:"
-msgstr ""
-
 #: widgets/imagelib/effects/kpEffectInvertWidget.cpp:57
 #, kde-format
 msgid "&Red"
@@ -2570,19 +2296,21 @@ msgstr "&कणिकात्वम् : १."
 #, kde-format
 msgid ""
 "<qt><p>To select the foreground color that tools use to draw, left-click on "
-"a filled-in color cell. To select the background color, right-click instead."
-"</p><p>To change the color of a color cell itself, double-click on it.</"
-"p><p>You can also swap the color of a filled-in cell with any other cell "
-"using drag and drop. Also, if you hold down the <b>Ctrl</b> key, the "
+"a filled-in color cell. To select the background color, right-click "
+"instead.</p><p>To change the color of a color cell itself, double-click on "
+"it.</p><p>You can also swap the color of a filled-in cell with any other "
+"cell using drag and drop. Also, if you hold down the <b>Ctrl</b> key, the "
 "destination cell's color will be overwritten, instead of being swapped with "
 "the color of the source cell.</p></qt>"
 msgstr ""
-"<qt><p>साधनानि यत् अग्रभूमिवर्णं चित्रयितुं उपयुञ्जते तत् चिन्वितुं, पूरितवर्णकोष्ठके वाम-क्लिक् "
-"कुर्वन्तु । पृष्ठभूमिवर्णं चिन्वितुं, तस्य स्थाने राइट्-क्लिक् कुर्वन्तु ।</p><p> वर्णकोष्ठस्य एव वर्णं "
-"परिवर्तयितुं तस्मिन् द्विवारं क्लिक् कुर्वन्तु ।</p><p> भवन्तः पूरितस्य कोष्ठकस्य वर्णं अन्येन "
-"कोष्ठकेन सह drag and drop इत्यस्य उपयोगेन अपि स्वैप् कर्तुं शक्नुवन्ति । अपि च, यदि भवान् "
-"<b>Ctrl</b> कीलं धारयति तर्हि गन्तव्यकोष्ठकस्य वर्णः अधिलिखितः भविष्यति, स्रोतकोष्ठस्य "
-"वर्णेन सह स्वैपस्य स्थाने ।</p></qt>"
+"<qt><p>साधनानि यत् अग्रभूमिवर्णं चित्रयितुं उपयुञ्जते तत् चिन्वितुं, "
+"पूरितवर्णकोष्ठके वाम-क्लिक् कुर्वन्तु । पृष्ठभूमिवर्णं चिन्वितुं, तस्य "
+"स्थाने राइट्-क्लिक् कुर्वन्तु ।</p><p> वर्णकोष्ठस्य एव वर्णं परिवर्तयितुं "
+"तस्मिन् द्विवारं क्लिक् कुर्वन्तु ।</p><p> भवन्तः पूरितस्य कोष्ठकस्य वर्णं "
+"अन्येन कोष्ठकेन सह drag and drop इत्यस्य उपयोगेन अपि स्वैप् कर्तुं "
+"शक्नुवन्ति । अपि च, यदि भवान् <b>Ctrl</b> कीलं धारयति तर्हि "
+"गन्तव्यकोष्ठकस्य वर्णः अधिलिखितः भविष्यति, स्रोतकोष्ठस्य वर्णेन सह स्वैपस्य "
+"स्थाने ।</p></qt>"
 
 #: widgets/kpDocumentSaveOptionsWidget.cpp:85
 #, kde-format
@@ -2624,12 +2352,6 @@ msgstr "२५६ वर्ण (Dithered) २."
 msgid "24-bit Color"
 msgstr "२४-बिट् रङ्गः"
 
-#: widgets/kpPrintDialogPage.cpp:57
-#, kde-format
-msgctxt "@title:tab"
-msgid "I&mage Position"
-msgstr ""
-
 #: widgets/kpPrintDialogPage.cpp:59
 #, kde-format
 msgid "&Center of the page"
@@ -2646,44 +2368,10 @@ msgstr "पृष्ठस्य उपरि-&वामभागे"
 msgid "Transparent"
 msgstr "पारदर्शी"
 
-#: widgets/toolbars/kpColorToolBar.cpp:120
-#, kde-format
-msgctxt "@action:inmenu Panels"
-msgid "Unlock Panels"
-msgstr ""
-
-#: widgets/toolbars/kpColorToolBar.cpp:122
-#, kde-format
-msgctxt "@action:inmenu Panels"
-msgid "Lock Panels"
-msgstr ""
-
-#: widgets/toolbars/kpColorToolBar.cpp:125
-#, kde-kuit-format
-msgctxt "@info:whatsthis"
-msgid ""
-"This switches between having panels <emphasis>locked</emphasis> or "
-"<emphasis>unlocked</emphasis>.<nl/>Unlocked panels can be dragged to the "
-"other side of the window and have a close button.<nl/>Locked panels are "
-"embedded more cleanly."
-msgstr ""
-
 #: widgets/toolbars/kpColorToolBar.cpp:307
 #, kde-format
 msgid "KolourPaint Defaults"
 msgstr "KolourPaint पूर्वनिर्धारित"
-
-#: widgets/toolbars/kpColorToolBar.cpp:322
-#, kde-format
-msgctxt "Colors: name_or_url_of_color_palette"
-msgid "Colors: %1"
-msgstr ""
-
-#: widgets/toolbars/kpColorToolBar.cpp:329
-#, kde-format
-msgctxt "Colors: name_or_url_of_color_palette [modified]"
-msgid "Colors: %1 [modified]"
-msgstr ""
 
 #: widgets/toolbars/options/kpToolWidgetBrush.cpp:199
 #, kde-format
@@ -2734,3 +2422,373 @@ msgstr "अग्रभूमिवर्णेन पूरयन्तु"
 #, kde-format
 msgid "Opaque"
 msgstr "अपारदर्शी"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:89
+#, kde-format
+msgctxt "@title:window"
+msgid "More Image Effects (Selection)"
+msgstr "अधिकानि चित्रप्रभावाः (चयनम्)"
+
+#: dialogs/imagelib/effects/kpEffectsDialog.cpp:92
+#, kde-format
+msgctxt "@title:window"
+msgid "More Image Effects"
+msgstr "अधिकानि चित्रप्रभावाः"
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:121
+#, kde-format
+msgctxt "@title:window"
+msgid "Document Properties"
+msgstr "दस्तावेज गुणाः"
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:746
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid Text Fields"
+msgstr "अमान्यपाठक्षेत्राणि"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:90
+#, kde-format
+msgctxt "@title:window"
+msgid "Resize / Scale"
+msgstr "आकार परिवर्तन / स्केल"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:732
+#, kde-format
+msgctxt "@title:window"
+msgid "Resize Text Box?"
+msgstr "पाठपेटिकायाः आकारं परिवर्तयतु?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:746
+#: mainWindow/kpMainWindow_Tools.cpp:662
+#, kde-format
+msgctxt "@title:window"
+msgid "Resize Image?"
+msgstr "चित्रस्य आकारं परिवर्तयतु?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:764
+#, kde-format
+msgctxt "@title:window"
+msgid "Scale Image?"
+msgstr "स्केल इमेज?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:778
+#, kde-format
+msgctxt "@title:window"
+msgid "Scale Selection?"
+msgstr "स्केल चयनम् ?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:796
+#, kde-format
+msgctxt "@title:window"
+msgid "Smooth Scale Image?"
+msgstr "चिकनी स्केल इमेज?"
+
+#: dialogs/imagelib/transforms/kpTransformResizeScaleDialog.cpp:810
+#, kde-format
+msgctxt "@title:window"
+msgid "Smooth Scale Selection?"
+msgstr "स्मूथ स्केल चयन?"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Rotate Selection"
+msgstr "चयनं परिभ्रमन्तु"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Rotate Image"
+msgstr "चित्रं परिभ्रमन्तु"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:298
+#, kde-format
+msgctxt "@title:window"
+msgid "Rotate Selection?"
+msgstr "चयनं परिभ्रमन्तु ?"
+
+#: dialogs/imagelib/transforms/kpTransformRotateDialog.cpp:313
+#, kde-format
+msgctxt "@title:window"
+msgid "Rotate Image?"
+msgstr "चित्रं परिभ्रमन्तु ?"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Skew Selection"
+msgstr "तिर्यक् चयनम्"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Skew Image"
+msgstr "तिर्यक् प्रतिमा"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:259
+#, kde-format
+msgctxt "@title:window"
+msgid "Skew Selection?"
+msgstr "तिर्यक् चयनम् ?"
+
+#: dialogs/imagelib/transforms/kpTransformSkewDialog.cpp:274
+#, kde-format
+msgctxt "@title:window"
+msgid "Skew Image?"
+msgstr "तिर्यक् प्रतिमा ?"
+
+#: dialogs/kpColorSimilarityDialog.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Color Similarity"
+msgstr "वर्णसादृश्यम्"
+
+#: dialogs/kpDocumentSaveOptionsPreviewDialog.cpp:58
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Preview"
+msgstr "पूर्वावलोकनं रक्षतु"
+
+#: document/kpDocument_Save.cpp:81
+#, kde-format
+msgctxt "@title:window"
+msgid "Internal Error"
+msgstr "आन्तरिकदोषः"
+
+#: document/kpDocument_Save.cpp:123
+#, kde-format
+msgctxt "@title:window"
+msgid "Lossy File Format"
+msgstr "हानियुक्त सञ्चिका प्रारूप"
+
+#: document/kpDocument_Save.cpp:142
+#, kde-format
+msgctxt "@title:window"
+msgid "Low Color Depth"
+msgstr "न्यूनवर्णगहनता"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:625
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot Remove Internal Border"
+msgstr "आन्तरिकसीमाम् अपसारयितुं न शक्नोति"
+
+#: imagelib/transforms/kpTransformAutoCrop.cpp:633
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot Autocrop"
+msgstr "Autocrop कर्तुं न शक्यते"
+
+#: kpThumbnail.cpp:129
+#, kde-format
+msgctxt "@title:window"
+msgid "Thumbnail"
+msgstr "लघुचित्रम्"
+
+#: mainWindow/kpMainWindow_Colors.cpp:340
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Color Palette"
+msgstr "रङ्गपैलेट् उद्घाटयतु"
+
+#: mainWindow/kpMainWindow_Edit.cpp:852
+#, kde-format
+msgctxt "@title:window"
+msgid "Copy to File"
+msgstr "सञ्चिकायां प्रतिलिपिं कुर्वन्तु"
+
+#: mainWindow/kpMainWindow_Edit.cpp:899
+#, kde-format
+msgctxt "@title:window"
+msgid "Paste From File"
+msgstr "सञ्चिकातः चिनोतु"
+
+#: mainWindow/kpMainWindow_File.cpp:489
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "चित्रं उद्घाटयतु"
+
+#: mainWindow/kpMainWindow_File.cpp:553
+#, kde-format
+msgctxt "@title:window"
+msgid "Scanning Failed"
+msgstr "स्कैनिङ्ग विफलम्"
+
+#: mainWindow/kpMainWindow_File.cpp:970
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Image As"
+msgstr "चित्रं यथा रक्षन्तु"
+
+#: mainWindow/kpMainWindow_File.cpp:1018
+#, kde-format
+msgctxt "@title:window"
+msgid "Export"
+msgstr "निर्यात"
+
+#: mainWindow/kpMainWindow_File.cpp:1340
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Image"
+msgstr "चित्रं मुद्रयन्तु"
+
+#: scan/sanedialog.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "Acquire Image"
+msgstr "प्रतिबिम्बं अधिगन्तुम्"
+
+#: dialogs/imagelib/kpDocumentMetaInfoDialog.cpp:151
+#, kde-format
+msgctxt "Horizontal DPI 'x' Vertical DPI"
+msgid " x "
+msgstr " x "
+
+#: mainWindow/kpMainWindow_Colors.cpp:66
+#, kde-format
+msgctxt "@item:inmenu colors"
+msgid "Use KDE's"
+msgstr "KDE इत्यस्य उपयोगं कुर्वन्तु"
+
+#: mainWindow/kpMainWindow_Colors.cpp:78
+#, kde-format
+msgctxt "@item:inmenu colors"
+msgid "&Open..."
+msgstr "&उद्घाटित..."
+
+#: mainWindow/kpMainWindow_Colors.cpp:82
+#, kde-format
+msgctxt "@item:inmenu colors"
+msgid "Reloa&d"
+msgstr "रेलोआ&ड"
+
+#: mainWindow/kpMainWindow_Colors.cpp:87
+#, kde-format
+msgctxt "@item:inmenu colors"
+msgid "&Save"
+msgstr "&रक्ष्"
+
+#: mainWindow/kpMainWindow_Colors.cpp:92
+#, kde-format
+msgctxt "@item:inmenu colors"
+msgid "Save &As..."
+msgstr "Save &As..."
+
+#: mainWindow/kpMainWindow_Colors.cpp:97
+#, kde-format
+msgctxt "@item:inmenu colors"
+msgid "Add Row"
+msgstr "पङ्क्तिं योजयतु"
+
+#: mainWindow/kpMainWindow_Colors.cpp:102
+#, kde-format
+msgctxt "@item:inmenu colors"
+msgid "Delete Last Row"
+msgstr "अन्तिमपङ्क्तिं विलोपयतु"
+
+#: mainWindow/kpMainWindow_File.cpp:107
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export to another file"
+msgstr "अन्यसञ्चिकायां निर्यातयन्तु"
+
+#: mainWindow/kpMainWindow_File.cpp:109
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This saves the document with a different name, similar to <interface>Save "
+"As</interface>, but the current document is not changed.<nl/>This way you "
+"can keep the last-used save folder independent from the folder of the "
+"current document."
+msgstr ""
+"एतेन दस्तावेजं भिन्ननाम्ना रक्षितं भवति, <interface>Save As</interface> "
+"इत्यस्य सदृशं, परन्तु वर्तमानदस्तावेजं परिवर्तनं न भवति ।<nl/>एवं भवन्तः "
+"अन्तिमप्रयुक्तं रक्षणपुटं स्वतन्त्रं स्थापयितुं शक्नुवन्ति वर्तमान दस्तावेज।"
+
+#: widgets/toolbars/kpColorToolBar.cpp:125
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This switches between having panels <emphasis>locked</emphasis> or "
+"<emphasis>unlocked</emphasis>.<nl/>Unlocked panels can be dragged to the "
+"other side of the window and have a close button.<nl/>Locked panels are "
+"embedded more cleanly."
+msgstr ""
+"एतत् पटलानां <emphasis>locked</emphasis> अथवा <emphasis>unlocked</emphasis> "
+"इति मध्ये स्विच् भवति ।<nl/>अनलॉक्ड् panels विण्डो इत्यस्य परे पार्श्वे "
+"कर्षितुं शक्यते तथा च close button भवति ।<nl/>Locked पटलाः अधिकं स्वच्छतया "
+"निहिताः भवन्ति।"
+
+#: mainWindow/kpMainWindow_Image.cpp:230
+#, kde-format
+msgctxt ""
+"Image/Selection Menu caption - make sure the translation has the same accel "
+"as the Select&ion translation"
+msgid "&Image"
+msgstr "&छवि"
+
+#: mainWindow/kpMainWindow_Image.cpp:234
+#, kde-format
+msgctxt ""
+"Image/Selection Menu caption - make sure that translation has the same "
+"accel as the &Image translation"
+msgid "Select&ion"
+msgstr "चयन&आयन"
+
+#: tools/kpToolZoom.cpp:119
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Click to zoom in. Right-click to zoom out. Drag to zoom into a specific "
+"area."
+msgstr ""
+"जूम कर्तुं क्लिक् कुर्वन्तु जूम आउट् कर्तुं राइट्-क्लिक् कुर्वन्तु। "
+"विशिष्टक्षेत्रे जूम कर्तुं कर्षन्तु ।"
+
+#: widgets/imagelib/effects/kpEffectHSVWidget.cpp:49
+#, kde-format
+msgctxt "The V of HSV"
+msgid "&Value:"
+msgstr "&मूल्यम्‌:"
+
+#: widgets/kpPrintDialogPage.cpp:57
+#, kde-format
+msgctxt "@title:tab"
+msgid "I&mage Position"
+msgstr "I&mage स्थितिः"
+
+#: widgets/toolbars/kpColorToolBar.cpp:120
+#, kde-format
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "Panels अनलॉक करें"
+
+#: widgets/toolbars/kpColorToolBar.cpp:122
+#, kde-format
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "ताला फलकम्"
+
+#: widgets/toolbars/kpColorToolBar.cpp:322
+#, kde-format
+msgctxt "Colors: name_or_url_of_color_palette"
+msgid "Colors: %1"
+msgstr "वर्णाः %1"
+
+#: widgets/toolbars/kpColorToolBar.cpp:329
+#, kde-format
+msgctxt "Colors: name_or_url_of_color_palette [modified]"
+msgid "Colors: %1 [modified]"
+msgstr "वर्णाः %1 [संशोधितम्] ।"
