@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the vakzination package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: vakzination\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-12-14 00:42+0000\n"
-"PO-Revision-Date: 2024-12-13 20:01+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-14 01:45+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #: certificatesmodel.cpp:112
 #, kde-format
@@ -74,8 +75,8 @@ msgid ""
 "Vakzination manages your health certificates like vaccination, test, and "
 "recovery certificates."
 msgstr ""
-"Vakzination भवतः स्वास्थ्यप्रमाणपत्राणि यथा टीकाकरणं, परीक्षणं, पुनर्प्राप्तिप्रमाणपत्राणि "
-"च प्रबन्धयति।"
+"Vakzination भवतः स्वास्थ्यप्रमाणपत्राणि यथा टीकाकरणं, परीक्षणं, "
+"पुनर्प्राप्तिप्रमाणपत्राणि च प्रबन्धयति।"
 
 #: main.cpp:47
 #, kde-format
@@ -91,18 +92,6 @@ msgstr "निकोलस फेला"
 #, kde-format
 msgid "Maintainer"
 msgstr "परिपालकः"
-
-#: main.cpp:50
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#: main.cpp:50
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
 
 #: main.cpp:56
 #, kde-format
@@ -299,12 +288,6 @@ msgstr "परिणाम:"
 msgid "Test Center:"
 msgstr "परीक्षणकेन्द्रम् : १."
 
-#: qml/TestDetailsSheet.qml:86 qml/VaccinationDetailsSheet.qml:86
-#, kde-format
-msgctxt "%1 a flag emoji, %2 is a country name"
-msgid "%1 %2"
-msgstr ""
-
 #: qml/TestDetailsSheet.qml:87 qml/VaccinationDetailsSheet.qml:87
 #, kde-format
 msgid "Country:"
@@ -319,8 +302,8 @@ msgstr "रोगप्रतिबन्ध"
 #, kde-format
 msgid "%2 (%1 day ago)"
 msgid_plural "%2 (%1 days ago)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2 (%1 दिवसपूर्वम्) २."
+msgstr[1] "%2 (%1 दिवसपूर्वम्) २."
 
 #: qml/VaccinationDetailsSheet.qml:69
 #, kde-format
@@ -341,3 +324,21 @@ msgstr "%1/%2"
 #, kde-format
 msgid "Dose:"
 msgstr "मात्रा : १."
+
+#: main.cpp:50
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: main.cpp:50
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: qml/TestDetailsSheet.qml:86 qml/VaccinationDetailsSheet.qml:86
+#, kde-format
+msgctxt "%1 a flag emoji, %2 is a country name"
+msgid "%1 %2"
+msgstr "%1 %2"

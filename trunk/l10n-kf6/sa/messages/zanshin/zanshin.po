@@ -2,32 +2,16 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the zanshin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: zanshin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"Project-Id-Version: zanshin\n"
 "POT-Creation-Date: 2024-10-13 00:40+0000\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
-
-#: src/akonadi/akonadiconfigdialog.cpp:36
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure"
-msgstr ""
 
 # automatic translation
 #: src/akonadi/akonadiconfigdialog.cpp:40
@@ -36,8 +20,8 @@ msgid ""
 "Please select or create a resource which will be used by the application to "
 "store and query its TODOs."
 msgstr ""
-"कृपया एकं संसाधनं चिनुत अथवा रचयन्तु यस्य उपयोगः अनुप्रयोगेन स्वस्य TODOs संग्रहणार्थं "
-"प्रश्नार्थं च भविष्यति ।"
+"कृपया एकं संसाधनं चिनुत अथवा रचयन्तु यस्य उपयोगः अनुप्रयोगेन स्वस्य TODOs "
+"संग्रहणार्थं प्रश्नार्थं च भविष्यति ।"
 
 # automatic translation
 #: src/akonadi/akonadiconfigdialog.cpp:50
@@ -367,12 +351,6 @@ msgstr "अग्रिमः पृष्ठः"
 msgid "Go to Page..."
 msgstr "पृष्ठं गच्छन्तु..."
 
-#: src/widgets/availablepagesview.cpp:240
-#, kde-format
-msgctxt "@title:window"
-msgid "Add a context"
-msgstr ""
-
 # automatic translation
 #: src/widgets/availablepagesview.cpp:265
 #, kde-format
@@ -383,7 +361,9 @@ msgstr "परियोजनां विलोपयन्तु"
 #: src/widgets/availablepagesview.cpp:266
 #, kde-format
 msgid "Do you really want to delete the project '%1', with all its actions?"
-msgstr "किं भवान् वास्तवमेव '%1' परियोजनां विलोपयितुम् इच्छति, तस्य सर्वैः क्रियाभिः सह?"
+msgstr ""
+"किं भवान् वास्तवमेव '%1' परियोजनां विलोपयितुम् इच्छति, तस्य सर्वैः "
+"क्रियाभिः सह?"
 
 # automatic translation
 #: src/widgets/availablepagesview.cpp:268
@@ -446,59 +426,59 @@ msgid "Yearly"
 msgstr "वार्षिकम्"
 
 # automatic translation
-#. i18n: ectx: property (windowTitle), widget (QWidget, EditorView)
-#. i18n: ectx: property (text), widget (QListView, attachmentList)
 #: src/widgets/editorview.ui:14 src/widgets/editorview.ui:184
 #: src/zanshin/app/main.cpp:89
+#. i18n: ectx: property (windowTitle), widget (QWidget, EditorView)
+#. i18n: ectx: property (text), widget (QListView, attachmentList)
 #, kde-format
 msgid "Editor"
 msgstr "सम्पादक"
 
 # automatic translation
-#. i18n: ectx: property (text), widget (QLabel, dueDateLabel)
 #: src/widgets/editorview.ui:41
+#. i18n: ectx: property (text), widget (QLabel, dueDateLabel)
 #, kde-format
 msgid "D&ue Date "
 msgstr "D&ue Date "
 
 # automatic translation
-#. i18n: ectx: property (text), widget (QCheckBox, doneButton)
 #: src/widgets/editorview.ui:62 src/widgets/runningtaskwidget.cpp:53
+#. i18n: ectx: property (text), widget (QCheckBox, doneButton)
 #, kde-format
 msgid "Done"
 msgstr "कृतम्‌"
 
 # automatic translation
-#. i18n: ectx: property (toolTip), widget (QToolButton, addAttachmentButton)
 #: src/widgets/editorview.ui:86
+#. i18n: ectx: property (toolTip), widget (QToolButton, addAttachmentButton)
 #, kde-format
 msgid "Add Attachment..."
 msgstr "संलग्नकं योजयतु..."
 
 # automatic translation
-#. i18n: ectx: property (toolTip), widget (QToolButton, removeAttachmentButton)
 #: src/widgets/editorview.ui:100
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeAttachmentButton)
 #, kde-format
 msgid "Remove Attachment"
 msgstr "आसक्तिं निष्कासयतु"
 
 # automatic translation
-#. i18n: ectx: property (text), widget (QPushButton, startTodayButton)
 #: src/widgets/editorview.ui:121
+#. i18n: ectx: property (text), widget (QPushButton, startTodayButton)
 #, kde-format
 msgid "Select for &Today"
 msgstr "&Today कृते चयनं कुर्वन्तु"
 
 # automatic translation
-#. i18n: ectx: property (text), widget (QLabel, recurrenceLabel)
 #: src/widgets/editorview.ui:130
+#. i18n: ectx: property (text), widget (QLabel, recurrenceLabel)
 #, kde-format
 msgid "&Recurrence"
 msgstr "&पुनरावृत्ति"
 
 # automatic translation
-#. i18n: ectx: property (text), widget (QLabel, startDateLabel)
 #: src/widgets/editorview.ui:146
+#. i18n: ectx: property (text), widget (QLabel, startDateLabel)
 #, kde-format
 msgid "St&art Date"
 msgstr "St&art Date"
@@ -516,22 +496,22 @@ msgid "Sort by date"
 msgstr "तिथ्यानुसारं क्रमयन्तु"
 
 # automatic translation
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterEdit)
 #: src/widgets/filterwidget.ui:31 src/widgets/pageview.cpp:200
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, filterEdit)
 #, kde-format
 msgid "Filter..."
 msgstr "फ़िल्टर..."
 
 # automatic translation
-#. i18n: ectx: property (toolTip), widget (QToolButton, descendingButton)
 #: src/widgets/filterwidget.ui:65
+#. i18n: ectx: property (toolTip), widget (QToolButton, descendingButton)
 #, kde-format
 msgid "Sort in descending order"
 msgstr "अवरोहणक्रमेण क्रमणं कुर्वन्तु"
 
 # automatic translation
-#. i18n: ectx: property (toolTip), widget (QToolButton, ascendingButton)
 #: src/widgets/filterwidget.ui:88
+#. i18n: ectx: property (toolTip), widget (QToolButton, ascendingButton)
 #, kde-format
 msgid "Sort in ascending order"
 msgstr "आरोहणक्रमेण क्रमणं कुर्वन्तु"
@@ -543,31 +523,25 @@ msgid "Project: %1"
 msgstr "परियोजना: %1"
 
 # automatic translation
-#. i18n: ectx: property (windowTitle), widget (QDialog, NameAndDataSourceDialog)
 #: src/widgets/nameanddatasourcedialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, NameAndDataSourceDialog)
 #, kde-format
 msgid "Add a project"
 msgstr "परियोजनां योजयन्तु"
 
 # automatic translation
-#. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: src/widgets/nameanddatasourcedialog.ui:25
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #, kde-format
 msgid "Name"
 msgstr "नामः"
 
 # automatic translation
-#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
 #: src/widgets/nameanddatasourcedialog.ui:42
+#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
 #, kde-format
 msgid "Source"
 msgstr "स्रोतः"
-
-#: src/widgets/pageview.cpp:156
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Type and press enter to add a task"
-msgstr ""
 
 # automatic translation
 #: src/widgets/pageview.cpp:173
@@ -627,19 +601,15 @@ msgstr "किं भवन्तः वास्तवमेव चयनित
 #: src/widgets/pageview.cpp:396
 #, kde-format
 msgid "Do you really want to delete the selected task and all its children?"
-msgstr "किं भवन्तः वास्तवमेव चयनितं कार्यं तस्य सर्वान् बालकान् च विलोपयितुम् इच्छन्ति?"
+msgstr ""
+"किं भवन्तः वास्तवमेव चयनितं कार्यं तस्य सर्वान् बालकान् च विलोपयितुम् "
+"इच्छन्ति?"
 
 # automatic translation
 #: src/widgets/pageview.cpp:400
 #, kde-format
 msgid "Delete Tasks"
 msgstr "कार्याणि विलोपयन्तु"
-
-#: src/widgets/quickselectdialog.cpp:30
-#, kde-format
-msgctxt "@title:window"
-msgid "Quick Select Dialog"
-msgstr ""
 
 # automatic translation
 #: src/widgets/quickselectdialog.cpp:32 src/widgets/quickselectdialog.cpp:70
@@ -652,12 +622,6 @@ msgstr "उपलब्धपृष्ठानां सूचीं छान�
 #, kde-format
 msgid "Path: %1"
 msgstr "मार्गः %1"
-
-#: src/widgets/runningtaskwidget.cpp:39
-#, kde-format
-msgctxt "@title:window"
-msgid "Zanshin Running Task Banner"
-msgstr ""
 
 # automatic translation
 #: src/widgets/runningtaskwidget.cpp:49
@@ -674,9 +638,10 @@ msgstr "ज़ान्शिन् कार्यम्"
 # automatic translation
 #: src/zanshin/app/aboutdata.cpp:15
 #, kde-format
-msgid ""
-"A Getting Things Done application which aims at getting your mind like water"
-msgstr "एकः Getting Things Done अनुप्रयोगः यस्य उद्देश्यं भवतः मनः जलवत् प्राप्तुं भवति"
+msgid "A Getting Things Done application which aims at getting your mind like water"
+msgstr ""
+"एकः Getting Things Done अनुप्रयोगः यस्य उद्देश्यं भवतः मनः जलवत् प्राप्तुं "
+"भवति"
 
 # automatic translation
 #: src/zanshin/app/aboutdata.cpp:17
@@ -684,35 +649,17 @@ msgstr "एकः Getting Things Done अनुप्रयोगः यस्�
 msgid "Copyright 2008-2016, Kevin Ottens <ervin@kde.org>"
 msgstr "प्रतिलिपिधर्मः २००८-२०१६, केविन् ओटेन्स <ervin@kde.org>"
 
-#: src/zanshin/app/aboutdata.cpp:19
-#, kde-format
-msgctxt "@info:credit"
-msgid "Kevin Ottens"
-msgstr ""
-
 # automatic translation
 #: src/zanshin/app/aboutdata.cpp:20
 #, kde-format
 msgid "Lead Developer"
 msgstr "लीड डेवलपर"
 
-#: src/zanshin/app/aboutdata.cpp:23
-#, kde-format
-msgctxt "@info:credit"
-msgid "Mario Bensi"
-msgstr ""
-
 # automatic translation
 #: src/zanshin/app/aboutdata.cpp:24 src/zanshin/app/aboutdata.cpp:28
 #, kde-format
 msgid "Developer"
 msgstr "विकासकः"
-
-#: src/zanshin/app/aboutdata.cpp:27
-#, kde-format
-msgctxt "@info:credit"
-msgid "Franck Arrecot"
-msgstr ""
 
 # automatic translation
 #: src/zanshin/app/main.cpp:81
@@ -727,28 +674,86 @@ msgid "Pages"
 msgstr "पृष्ठहरू"
 
 # automatic translation
-#. i18n: ectx: Menu (go)
 #: src/zanshin/app/zanshinui.rc:15 src/zanshin/kontact/zanshin_part.rc:15
+#. i18n: ectx: Menu (go)
 #, kde-format
 msgid "&Go"
 msgstr "&गच्छ"
 
 # automatic translation
-#. i18n: ectx: Menu
 #: src/zanshin/app/zanshinui.rc:27
+#. i18n: ectx: Menu
 #, kde-format
 msgid "&Panels"
 msgstr "&पैनल"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: src/zanshin/app/zanshinui.rc:35 src/zanshin/kontact/zanshin_part.rc:27
-#, kde-format
-msgctxt "@title:menu"
-msgid "Main Toolbar"
-msgstr ""
 
 # automatic translation
 #: src/zanshin/runner/zanshinrunner.cpp:56
 #, kde-format
 msgid "Add \"%1\" to your todo list"
 msgstr "स्वस्य todo सूचीयां \"%1\" योजयन्तु"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: src/akonadi/akonadiconfigdialog.cpp:36
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "विन्यस्तं कुर्वन्तु"
+
+#: src/widgets/availablepagesview.cpp:240
+#, kde-format
+msgctxt "@title:window"
+msgid "Add a context"
+msgstr "सन्दर्भं योजयन्तु"
+
+#: src/widgets/quickselectdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Quick Select Dialog"
+msgstr "त्वरित चयन संवाद"
+
+#: src/widgets/runningtaskwidget.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "Zanshin Running Task Banner"
+msgstr "ज़नशिन रनिंग टास्क बैनर"
+
+#: src/widgets/pageview.cpp:156
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Type and press enter to add a task"
+msgstr "कार्यं योजयितुं enter टङ्कयित्वा नुदन्तु"
+
+#: src/zanshin/app/aboutdata.cpp:19
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kevin Ottens"
+msgstr "केविन् ओटेन्स्"
+
+#: src/zanshin/app/aboutdata.cpp:23
+#, kde-format
+msgctxt "@info:credit"
+msgid "Mario Bensi"
+msgstr "मारियो बेन्सी"
+
+#: src/zanshin/app/aboutdata.cpp:27
+#, kde-format
+msgctxt "@info:credit"
+msgid "Franck Arrecot"
+msgstr "फ्रैङ्क अरेकोट्"
+
+#: src/zanshin/app/zanshinui.rc:35 src/zanshin/kontact/zanshin_part.rc:27
+#. i18n: ectx: ToolBar (mainToolBar)
+#, kde-format
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "मुख्य साधनपट्टी"
