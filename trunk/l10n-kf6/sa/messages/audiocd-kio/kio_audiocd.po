@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the audiocd-kio package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: audiocd-kio\n"
@@ -13,19 +13,8 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: audiocd.cpp:116
 #, kde-format
@@ -49,14 +38,8 @@ msgid ""
 "You cannot specify a host with this protocol. Please use the audiocd:/ "
 "format instead."
 msgstr ""
-"एतेन प्रोटोकॉलेन सह होस्ट् निर्दिष्टुं न शक्नुवन्ति । कृपया तस्य स्थाने audiocd:/ प्रारूपस्य "
-"उपयोगं कुर्वन्तु ।"
-
-#: audiocd.cpp:876
-#, kde-format
-msgctxt "The URL does not include a device name"
-msgid "Missing device specification"
-msgstr "यन्त्रविनिर्देशः अनुपलब्धः"
+"एतेन प्रोटोकॉलेन सह होस्ट् निर्दिष्टुं न शक्नुवन्ति । कृपया तस्य स्थाने "
+"audiocd:/ प्रारूपस्य उपयोगं कुर्वन्तु ।"
 
 #: audiocd.cpp:886
 #, kde-format
@@ -70,27 +53,31 @@ msgstr "अस्य खातेः पठन-अनुमतिः उपक�
 msgid ""
 "Device does not have write permissions for this account.  Check the write "
 "permissions on the device."
-msgstr "अस्य खातेः लेखनस्य अनुमतिः उपकरणस्य नास्ति ।  यन्त्रे लेखन-अनुमतिः पश्यन्तु ।"
+msgstr ""
+"अस्य खातेः लेखनस्य अनुमतिः उपकरणस्य नास्ति ।  यन्त्रे लेखन-अनुमतिः पश्यन्तु "
+"।"
 
 #: audiocd.cpp:896
 #, kde-format
 msgid ""
-"Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ as "
-"yourself (not root). Do you see a track list? If not, make sure you have "
+"Unknown error.  If you have a cd in the drive try running cdparanoia -vsQ "
+"as yourself (not root). Do you see a track list? If not, make sure you have "
 "permission to access the CD device. If you are using SCSI emulation "
 "(possible if you have an IDE CD writer) then make sure you check that you "
 "have read and write permissions on the generic SCSI device, which is "
 "probably /dev/sg0, /dev/sg1, etc.. If it still does not work, try typing "
-"audiocd:/?device=/dev/sg0 (or similar) to tell kio_audiocd which device your "
-"CD-ROM is."
+"audiocd:/?device=/dev/sg0 (or similar) to tell kio_audiocd which device "
+"your CD-ROM is."
 msgstr ""
-"अज्ञातदोषः ।  यदि भवतः ड्राइव् मध्ये cd अस्ति तर्हि cdparanoia -vsQ इत्येतत् स्वयमेव (रूट् "
-"न) चालयितुं प्रयतध्वम् । किं भवन्तः पटलसूचीं पश्यन्ति ? यदि न, तर्हि CD-यन्त्रं प्राप्तुं भवतः "
-"अनुमतिः अस्ति इति सुनिश्चितं कुर्वन्तु । यदि भवान् SCSI अनुकरणस्य उपयोगं करोति (सम्भवं यदि "
-"भवतां समीपे IDE CD लेखकः अस्ति) तर्हि सुनिश्चितं कुरुत यत् भवान् सामान्य SCSI उपकरणे "
-"पठनलेखन अनुमतिः अस्ति वा इति परीक्षते, यत् सम्भवतः /dev/sg0, /dev/sg1, इत्यादिषु अस्ति "
-"यदि अद्यापि कार्यं न करोति तर्हि kio_audiocd इत्यस्मै कथयितुं audiocd:/?device=/dev/"
-"sg0 (अथवा तत्सदृशं) टङ्कयितुं प्रयतस्व सीडी-रोम इति ।"
+"अज्ञातदोषः ।  यदि भवतः ड्राइव् मध्ये cd अस्ति तर्हि cdparanoia -vsQ "
+"इत्येतत् स्वयमेव (रूट् न) चालयितुं प्रयतध्वम् । किं भवन्तः पटलसूचीं "
+"पश्यन्ति ? यदि न, तर्हि CD-यन्त्रं प्राप्तुं भवतः अनुमतिः अस्ति इति "
+"सुनिश्चितं कुर्वन्तु । यदि भवान् SCSI अनुकरणस्य उपयोगं करोति (सम्भवं यदि "
+"भवतां समीपे IDE CD लेखकः अस्ति) तर्हि सुनिश्चितं कुरुत यत् भवान् सामान्य "
+"SCSI उपकरणे पठनलेखन अनुमतिः अस्ति वा इति परीक्षते, यत् सम्भवतः /dev/sg0, "
+"/dev/sg1, इत्यादिषु अस्ति यदि अद्यापि कार्यं न करोति तर्हि kio_audiocd "
+"इत्यस्मै कथयितुं audiocd:/?device=/dev/sg0 (अथवा तत्सदृशं) टङ्कयितुं "
+"प्रयतस्व सीडी-रोम इति ।"
 
 #: audiocd.cpp:974
 #, kde-format
@@ -111,3 +98,19 @@ msgstr "%1 पठितुं न शक्तम्: एन्कोडिं�
 #, kde-format
 msgid "Track %1"
 msgstr "%1 पटलः"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: audiocd.cpp:876
+#, kde-format
+msgctxt "The URL does not include a device name"
+msgid "Missing device specification"
+msgstr "यन्त्रविनिर्देशः अनुपलब्धः"

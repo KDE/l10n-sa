@@ -64,35 +64,10 @@ msgstr "पुनर्प्रारम्भः आवश्यकः अस�
 msgid "The system needs to be restarted for the updates to take effect."
 msgstr "अद्यतनस्य प्रभावाय तन्त्रस्य पुनः आरम्भस्य आवश्यकता वर्तते।."
 
-#: notifier/DiscoverNotifier.cpp:329
-#, fuzzy, kde-format
-#| msgid "Computer needs to restart"
-msgctxt "@action:button"
-msgid "Update and Restart"
-msgstr "सङ्गणकस्य पुनः आरम्भस्य आवश्यकता वर्तते"
-
-#: notifier/DiscoverNotifier.cpp:330
-#, kde-format
-msgctxt "@action:button"
-msgid "Update and Shut Down"
-msgstr "अद्यतनं कुर्वन्तु तथा शट् डाउन कुर्वन्तु"
-
 #: notifier/DiscoverNotifier.cpp:374
 #, kde-format
 msgid "Upgrade available"
 msgstr "उन्नयनं उपलब्धम्"
-
-#: notifier/DiscoverNotifier.cpp:375
-#, kde-format
-msgctxt "A new distro release (name and version) is available for upgrade"
-msgid "%1 is now available."
-msgstr "%1 इदानीं उपलभ्यते ।."
-
-#: notifier/DiscoverNotifier.cpp:378
-#, kde-format
-msgctxt "@action:button"
-msgid "Upgrade"
-msgstr "उन्नयनं कुर्वन्तु"
 
 #: notifier/main.cpp:38
 #, kde-format
@@ -109,18 +84,6 @@ msgstr "तन्त्र अद्यतन स्थिति सूचक"
 #| msgid "© 2010-2022 Plasma Development Team"
 msgid "© 2010-2024 Plasma Development Team"
 msgstr "© २०१०-२०२२ प्लाज्मा विकासदल"
-
-#: notifier/main.cpp:46
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "श्रीकान्त् कलवार्"
-
-#: notifier/main.cpp:46
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "skkalwar999@gmail.com"
 
 #: notifier/main.cpp:51
 #, kde-format
@@ -176,3 +139,40 @@ msgstr "संस्थापितानि अद्यतनानि प्�
 #, kde-format
 msgid "Click to restart the device"
 msgstr "यन्त्रं पुनः आरभ्यतुं नोदनम् कुर्वन्तु"
+
+#: notifier/DiscoverNotifier.cpp:329
+#, fuzzy, kde-format
+#| msgid "Computer needs to restart"
+msgctxt "@action:button"
+msgid "Update and Restart"
+msgstr "सङ्गणकस्य पुनः आरम्भस्य आवश्यकता वर्तते"
+
+#: notifier/DiscoverNotifier.cpp:330
+#, kde-format
+msgctxt "@action:button"
+msgid "Update and Shut Down"
+msgstr "अद्यतनं कुर्वन्तु तथा शट् डाउन कुर्वन्तु"
+
+#: notifier/DiscoverNotifier.cpp:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Upgrade"
+msgstr "उन्नयनं कुर्वन्तु"
+
+#: notifier/DiscoverNotifier.cpp:375
+#, kde-format
+msgctxt "A new distro release (name and version) is available for upgrade"
+msgid "%1 is now available."
+msgstr "%1 इदानीं उपलभ्यते ।."
+
+#: notifier/main.cpp:46
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्रीकान्त् कलवार्"
+
+#: notifier/main.cpp:46
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "skkalwar999@gmail.com"

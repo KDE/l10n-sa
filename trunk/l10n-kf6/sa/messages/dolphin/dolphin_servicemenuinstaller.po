@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the dolphin package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
@@ -13,9 +13,8 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
 
 #: servicemenuinstaller.cpp:43
 #, kde-format
@@ -72,18 +71,6 @@ msgstr "संस्थापकस्क्रिप्ट् %1 चालय�
 msgid "Failed to set permissions on %1: %2"
 msgstr "%1: %2 इत्यत्र अनुमतिः सेट् कर्तुं असफलम्"
 
-#: servicemenuinstaller.cpp:273
-#, kde-format
-msgctxt "%2 = comma separated list of arguments"
-msgid "Installer script %1 failed, tried arguments \"%2\"."
-msgstr "संस्थापकस्क्रिप्ट् %1 विफलः, तर्काः \"%2\" प्रयतिताः ।"
-
-#: servicemenuinstaller.cpp:275
-#, kde-format
-msgctxt "Separator between arguments"
-msgid "\", \""
-msgstr "\", \" इति ।"
-
 #: servicemenuinstaller.cpp:289
 #, kde-format
 msgid "Failed to create path %1"
@@ -119,18 +106,6 @@ msgstr ".desktop सञ्चिकां निष्कासयितुं �
 msgid "Failed to find an uninstallation script in %1"
 msgstr "%1 मध्ये विस्थापनस्क्रिप्ट् अन्वेष्टुं असफलम्"
 
-#: servicemenuinstaller.cpp:436
-#, kde-format
-msgctxt "@info:shell"
-msgid "Command to execute: install or uninstall."
-msgstr "निष्पादयितुं आदेशः: संस्थापयन्तु अथवा विस्थापनं कुर्वन्तु।"
-
-#: servicemenuinstaller.cpp:437
-#, kde-format
-msgctxt "@info:shell"
-msgid "Path to archive."
-msgstr "संग्रहालयस्य मार्गः ।"
-
 #: servicemenuinstaller.cpp:442
 #, kde-format
 msgid "Command is required."
@@ -145,3 +120,27 @@ msgstr "संग्रहणमार्गः आवश्यकः अस्�
 #, kde-format
 msgid "Unsupported command %1"
 msgstr "असमर्थितः आदेशः %1"
+
+#: servicemenuinstaller.cpp:273
+#, kde-format
+msgctxt "%2 = comma separated list of arguments"
+msgid "Installer script %1 failed, tried arguments \"%2\"."
+msgstr "संस्थापकस्क्रिप्ट् %1 विफलः, तर्काः \"%2\" प्रयतिताः ।"
+
+#: servicemenuinstaller.cpp:275
+#, kde-format
+msgctxt "Separator between arguments"
+msgid "\", \""
+msgstr "\", \" इति ।"
+
+#: servicemenuinstaller.cpp:436
+#, kde-format
+msgctxt "@info:shell"
+msgid "Command to execute: install or uninstall."
+msgstr "निष्पादयितुं आदेशः: संस्थापयन्तु अथवा विस्थापनं कुर्वन्तु।"
+
+#: servicemenuinstaller.cpp:437
+#, kde-format
+msgctxt "@info:shell"
+msgid "Path to archive."
+msgstr "संग्रहालयस्य मार्गः ।"

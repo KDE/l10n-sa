@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the grantlee-editor package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,34 +14,24 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: editorpage.cpp:52
 #, kde-format
 msgid "Theme Templates:"
 msgstr "विषय टेम्पलेट्स:"
 
-#. i18n: ectx: Menu (edit)
 #: headerthemeeditorui.rc:16
+#. i18n: ectx: Menu (edit)
 #, kde-format
 msgid "&Edit"
 msgstr "&सम्पादन"
 
-#. i18n: ectx: Menu (Display)
 #: headerthemeeditorui.rc:22
+#. i18n: ectx: Menu (Display)
 #, kde-format
 msgid "&Display"
 msgstr "&प्रदर्शन"
@@ -63,32 +53,8 @@ msgstr "प्रतिलिपि अधिकार © 2013-%1 headerthemeedi
 
 #: main.cpp:29
 #, kde-format
-msgctxt "@info:credit"
-msgid "Laurent Montel"
-msgstr "लॉरेण्ट् मोंटेल्"
-
-#: main.cpp:29
-#, kde-format
 msgid "Maintainer"
 msgstr "परिपालकः"
-
-#: previewwidget.cpp:34
-#, kde-format
-msgctxt "@action:button"
-msgid "Update view"
-msgstr "दृश्यं अद्यतनं कुर्वन्तु"
-
-#: themeconfiguredialog.cpp:27
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "विन्यस्तं कुर्वन्तु"
-
-#: themeconfiguredialog.cpp:37
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Default email:"
-msgstr "पूर्वनिर्धारित ईमेल : १."
 
 #: themeconfiguredialog.cpp:42
 #, kde-format
@@ -125,12 +91,6 @@ msgstr "Cc"
 msgid "Load Recent Theme..."
 msgstr "हाले विषयः लोड् कुर्वन्तु..."
 
-#: themeeditormainwindow.cpp:86
-#, kde-format
-msgctxt "@action"
-msgid "Add Extra Page..."
-msgstr "अतिरिक्त पृष्ठं योजयतु..."
-
 #: themeeditormainwindow.cpp:91
 #, kde-format
 msgid "Upload theme..."
@@ -156,18 +116,6 @@ msgstr "विषयं रक्षतु"
 msgid "Save theme as..."
 msgstr "विषयं रक्षन्तु यथा..."
 
-#: themeeditormainwindow.cpp:111
-#, kde-format
-msgctxt "@action"
-msgid "Install theme"
-msgstr "विषयं संस्थापयन्तु"
-
-#: themeeditormainwindow.cpp:115
-#, kde-format
-msgctxt "@action"
-msgid "Insert File..."
-msgstr "सञ्चिका सम्मिलितं कुर्वन्तु..."
-
 #: themeeditormainwindow.cpp:121
 #, kde-format
 msgid "Printing mode"
@@ -177,12 +125,6 @@ msgstr "मुद्रणविधिः"
 #, kde-format
 msgid "Normal mode"
 msgstr "सामान्य मोड"
-
-#: themeeditormainwindow.cpp:132
-#, kde-format
-msgctxt "@action"
-msgid "Manage themes..."
-msgstr "विषयवस्तु प्रबन्धयन्तु..."
 
 #: themeeditormainwindow.cpp:136
 #, kde-format
@@ -268,3 +210,61 @@ msgstr "वर्तमान परियोजना रक्षतु"
 #, kde-format
 msgid "You can drag and drop element on editor to import template"
 msgstr "टेम्पलेट् आयातयितुं एडिटर् इत्यत्र एलिमेण्ट् कर्षितुं पातयितुं च शक्नुवन्ति"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: main.cpp:29
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "लॉरेण्ट् मोंटेल्"
+
+#: previewwidget.cpp:34
+#, kde-format
+msgctxt "@action:button"
+msgid "Update view"
+msgstr "दृश्यं अद्यतनं कुर्वन्तु"
+
+#: themeconfiguredialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "विन्यस्तं कुर्वन्तु"
+
+#: themeconfiguredialog.cpp:37
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Default email:"
+msgstr "पूर्वनिर्धारित ईमेल : १."
+
+#: themeeditormainwindow.cpp:86
+#, kde-format
+msgctxt "@action"
+msgid "Add Extra Page..."
+msgstr "अतिरिक्त पृष्ठं योजयतु..."
+
+#: themeeditormainwindow.cpp:111
+#, kde-format
+msgctxt "@action"
+msgid "Install theme"
+msgstr "विषयं संस्थापयन्तु"
+
+#: themeeditormainwindow.cpp:115
+#, kde-format
+msgctxt "@action"
+msgid "Insert File..."
+msgstr "सञ्चिका सम्मिलितं कुर्वन्तु..."
+
+#: themeeditormainwindow.cpp:132
+#, kde-format
+msgctxt "@action"
+msgid "Manage themes..."
+msgstr "विषयवस्तु प्रबन्धयन्तु..."

@@ -17,23 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 24.08.2\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: bluetooth.cpp:102
-#, kde-format
-msgctxt "DeviceName Network (Service)"
-msgid "%1 Network (%2)"
-msgstr "%1 संजाल (%2) ."
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ui/Device.qml:108 ui/main.qml:211
 #, kde-format
@@ -48,7 +32,8 @@ msgstr "संयुज्"
 #: ui/Device.qml:111
 #, kde-format
 msgid "Unblock the device first to be able to connect to it"
-msgstr "प्रथमं यन्त्रं अनब्लॉक् कुर्वन्तु यत् तेन सह सम्बद्धं कर्तुं शक्नुवन्ति"
+msgstr ""
+"प्रथमं यन्त्रं अनब्लॉक् कुर्वन्तु यत् तेन सह सम्बद्धं कर्तुं शक्नुवन्ति"
 
 #: ui/Device.qml:132
 #, kde-format
@@ -94,7 +79,8 @@ msgstr "अवरुद्धम्"
 #, kde-format
 msgid ""
 "Any incoming connections from a blocked device will be immediately rejected."
-msgstr "अवरुद्धयन्त्रात् आगच्छन्तं किमपि संयोजनं तत्क्षणमेव अङ्गीकृतं भविष्यति ।"
+msgstr ""
+"अवरुद्धयन्त्रात् आगच्छन्तं किमपि संयोजनं तत्क्षणमेव अङ्गीकृतं भविष्यति ।"
 
 #: ui/Device.qml:179
 #, kde-format
@@ -111,18 +97,6 @@ msgstr "NAP Network सेटअप…"
 msgid "Setup DUN Network…"
 msgstr "DUN Network सेटअप…"
 
-#: ui/Device.qml:210
-#, kde-format
-msgctxt "@action:button Forget the Bluetooth device"
-msgid "Forget"
-msgstr "विस्मृत"
-
-#: ui/ForgetDeviceAction.qml:17
-#, kde-format
-msgctxt "@action:button %1 is the name of a Bluetooth device"
-msgid "Forget \"%1\""
-msgstr "\"%1\" विस्मरतु।"
-
 #: ui/ForgetDeviceDialog.qml:34
 #, kde-format
 msgid "Forget this Device?"
@@ -132,18 +106,6 @@ msgstr "एतत् Device विस्मरतु?"
 #, kde-format
 msgid "Are you sure you want to forget \"%1\"?"
 msgstr "किं भवन्तः \"%1\" विस्मर्तुं इच्छन्ति इति निश्चितम्?"
-
-#: ui/ForgetDeviceDialog.qml:47
-#, kde-format
-msgctxt "@action:button"
-msgid "Forget Device"
-msgstr "Device विस्मरतु"
-
-#: ui/ForgetDeviceDialog.qml:54
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "निरसयतु"
 
 #: ui/General.qml:24
 #, kde-format
@@ -215,12 +177,6 @@ msgstr "सञ्चिकाः अत्र रक्षन्तु :"
 msgid "Select folder"
 msgstr "फोल्डरं चिनोतु"
 
-#: ui/main.qml:34
-#, kde-format
-msgctxt "@action: button as in, 'enable Bluetooth'"
-msgid "Enabled"
-msgstr "सक्षमम्"
-
 #: ui/main.qml:47
 #, kde-format
 msgid "Pair Device…"
@@ -256,12 +212,6 @@ msgstr "सक्रियं करोतु"
 msgid "No devices paired"
 msgstr "न यन्त्राणि युग्मिताः"
 
-#: ui/main.qml:151
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Click <interface>Pair Device…</interface> to pair some"
-msgstr "केचन युग्मीकरणं कर्तुं <interface>Pair Device…</interface> नुदन्तु"
-
 #: ui/main.qml:180
 #, kde-format
 msgid "Connected"
@@ -276,6 +226,88 @@ msgstr "उपलब्धः"
 #, kde-format
 msgid "%1% Battery"
 msgstr "%1% बैटरी"
+
+#: ui/script.js:53
+#, kde-format
+msgid "File transfer"
+msgstr "सञ्चिका स्थानान्तरणम्"
+
+#: ui/script.js:56
+#, kde-format
+msgid "Send file"
+msgstr "सञ्चिकां प्रेषयन्तु"
+
+#: ui/script.js:59
+#, kde-format
+msgid "Input"
+msgstr "निवेशः"
+
+#: ui/script.js:62
+#, kde-format
+msgid "Audio"
+msgstr "श्रव्यः"
+
+#: ui/script.js:65
+#, kde-format
+msgid "Network"
+msgstr "जाल"
+
+#: ui/script.js:69
+#, kde-format
+msgid "Other"
+msgstr "इतर"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: bluetooth.cpp:102
+#, kde-format
+msgctxt "DeviceName Network (Service)"
+msgid "%1 Network (%2)"
+msgstr "%1 संजाल (%2) ."
+
+#: ui/Device.qml:210
+#, kde-format
+msgctxt "@action:button Forget the Bluetooth device"
+msgid "Forget"
+msgstr "विस्मृत"
+
+#: ui/ForgetDeviceAction.qml:17
+#, kde-format
+msgctxt "@action:button %1 is the name of a Bluetooth device"
+msgid "Forget \"%1\""
+msgstr "\"%1\" विस्मरतु।"
+
+#: ui/ForgetDeviceDialog.qml:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Forget Device"
+msgstr "Device विस्मरतु"
+
+#: ui/ForgetDeviceDialog.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: ui/main.qml:34
+#, kde-format
+msgctxt "@action: button as in, 'enable Bluetooth'"
+msgid "Enabled"
+msgstr "सक्षमम्"
+
+#: ui/main.qml:151
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click <interface>Pair Device…</interface> to pair some"
+msgstr "केचन युग्मीकरणं कर्तुं <interface>Pair Device…</interface> नुदन्तु"
 
 #: ui/script.js:13
 #, kde-format
@@ -385,36 +417,6 @@ msgstr "खिलौना"
 msgctxt "This device is a Health device"
 msgid "Health"
 msgstr "आरोग्यम्‌"
-
-#: ui/script.js:53
-#, kde-format
-msgid "File transfer"
-msgstr "सञ्चिका स्थानान्तरणम्"
-
-#: ui/script.js:56
-#, kde-format
-msgid "Send file"
-msgstr "सञ्चिकां प्रेषयन्तु"
-
-#: ui/script.js:59
-#, kde-format
-msgid "Input"
-msgstr "निवेशः"
-
-#: ui/script.js:62
-#, kde-format
-msgid "Audio"
-msgstr "श्रव्यः"
-
-#: ui/script.js:65
-#, kde-format
-msgid "Network"
-msgstr "जाल"
-
-#: ui/script.js:69
-#, kde-format
-msgid "Other"
-msgstr "इतर"
 
 #: ui/script.js:72
 #, kde-format

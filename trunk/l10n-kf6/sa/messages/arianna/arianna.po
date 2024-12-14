@@ -16,14 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#: content/ui/BookDetailsPage.qml:16
-#, kde-format
-msgctxt "@info:title"
-msgid "Book Details"
-msgstr "पुस्तक विवरण"
 
 #: content/ui/BookDetailsPage.qml:24
 #, kde-format
@@ -66,12 +60,6 @@ msgstr "लोडिंग"
 msgid "No search results"
 msgstr "अन्वेषणफलं नास्ति"
 
-#: content/ui/EpubViewerPage.qml:122
-#, kde-format
-msgctxt "@action:intoolbar"
-msgid "Search"
-msgstr "अन्वेषण"
-
 #: content/ui/EpubViewerPage.qml:128
 #, kde-format
 msgid "Book Details"
@@ -92,12 +80,6 @@ msgstr "सञ्चिकां उद्घाटयन्तु"
 msgid "Please choose a file"
 msgstr "कृपया सञ्चिकां चिनोतु"
 
-#: content/ui/EpubViewerPage.qml:176 content/ui/main.qml:361
-#, kde-format
-msgctxt "Name filter for EPUB files"
-msgid "eBook files (*.epub *.cb* *.fb2 *.fb2zip)"
-msgstr "ईपुस्तकसञ्चिकाः (*.epub *.cb* *.fb2 *.fb2zip)"
-
 #: content/ui/EpubViewerPage.qml:225
 #, kde-format
 msgid "Copy"
@@ -107,12 +89,6 @@ msgstr "प्रतिलिपि"
 #, kde-format
 msgid "Find"
 msgstr "अन्वेषय"
-
-#: content/ui/EpubViewerPage.qml:242
-#, kde-format
-msgctxt "Book reading progress"
-msgid "%1%"
-msgstr "%1% २."
 
 #: content/ui/EpubViewerPage.qml:262
 #, kde-format
@@ -204,113 +180,25 @@ msgstr "ग्रन्थसूची"
 msgid "Go to Bibliography"
 msgstr "ग्रन्थसूचीं गच्छन्तु"
 
-#: content/ui/GridBrowserDelegate.qml:146
-#, kde-format
-msgctxt "should be keep short, inside a label. Will be in uppercase"
-msgid "New"
-msgstr "नूतनम्‌"
-
 #: content/ui/LibraryPage.qml:18
 #, kde-format
 msgid "Library"
 msgstr "पुस्तकालय"
-
-#: content/ui/LibraryPage.qml:86
-#, kde-format
-msgctxt "@info placeholder"
-msgid "Add some books"
-msgstr "केचन पुस्तकानि योजयन्तु"
 
 #: content/ui/main.qml:18 content/ui/main.qml:299 main.cpp:64
 #, kde-format
 msgid "Arianna"
 msgstr "एरियान्ना"
 
-#: content/ui/main.qml:202
-#, kde-format
-msgctxt "Switch to the listing page showing the most recently read books"
-msgid "Home"
-msgstr "गृहम्‌"
-
 #: content/ui/main.qml:206
 #, kde-format
 msgid "Home"
 msgstr "गृहम्‌"
 
-#: content/ui/main.qml:209
-#, kde-format
-msgctxt "Switch to the listing page showing the most recently discovered books"
-msgid "Recently Added Books"
-msgstr "सद्यः एव योजिताः पुस्तकानि"
-
-#: content/ui/main.qml:215
-#, kde-format
-msgctxt ""
-"Open a book from somewhere on disk (uses the open dialog, or a drilldown on "
-"touch devices)"
-msgid "Open Other..."
-msgstr "Open अन्ये..."
-
-#: content/ui/main.qml:223
-#, kde-format
-msgctxt "Open the settings page"
-msgid "Settings"
-msgstr "सेटिंग्स्"
-
-#: content/ui/main.qml:232
-#, kde-format
-msgctxt ""
-"Heading for switching to listing page showing items grouped by some "
-"properties"
-msgid "Group By"
-msgstr "Group By"
-
-#: content/ui/main.qml:235
-#, kde-format
-msgctxt "Switch to the listing page showing items grouped by author"
-msgid "Author"
-msgstr "लेखकः"
-
-#: content/ui/main.qml:241
-#, kde-format
-msgctxt "Switch to the listing page showing items grouped by series"
-msgid "Series"
-msgstr "श्रेणी"
-
-#: content/ui/main.qml:243
-#, kde-format
-msgctxt "Title of the page with books grouped by what series they are in"
-msgid "Group by Series"
-msgstr "समूहः श्रृङ्खलानुसारम्"
-
-#: content/ui/main.qml:247
-#, kde-format
-msgctxt "Switch to the listing page showing items grouped by publisher"
-msgid "Publisher"
-msgstr "प्रकाशक"
-
-#: content/ui/main.qml:253
-#, kde-format
-msgctxt "Switch to the listing page showing items grouped by genres"
-msgid "Keywords"
-msgstr "कीवर्ड"
-
-#: content/ui/main.qml:255
-#, kde-format
-msgctxt "Title of the page with books grouped by genres"
-msgid "Group by Genres"
-msgstr "विधानुसारं समूहः"
-
 #: content/ui/main.qml:331 content/ui/SettingsPage.qml:16
 #, kde-format
 msgid "Settings"
 msgstr "सेटिंग्स्"
-
-#: content/ui/main.qml:339
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Book…"
-msgstr "पुस्तकं योजयतु…"
 
 #: content/ui/SettingsPage.qml:19
 #, kde-format
@@ -392,24 +280,6 @@ msgstr "एरियाना विषये"
 msgid "About KDE"
 msgstr "KDE विषये"
 
-#: content/ui/TableOfContentDrawer.qml:23
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Open table of contents"
-msgstr "सामग्रीसूचीं उद्घाटयन्तु"
-
-#: content/ui/TableOfContentDrawer.qml:24
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Close table of contents"
-msgstr "सामग्रीसूचीं बन्दं कुर्वन्तु"
-
-#: content/ui/TableOfContentDrawer.qml:45
-#, kde-format
-msgctxt "@info:title"
-msgid "Table of Contents"
-msgstr "विषयसूची"
-
 #: main.cpp:66
 #, kde-format
 msgid "EPub Reader"
@@ -435,6 +305,146 @@ msgstr "परिपालकः"
 msgid "Carl Schwan"
 msgstr "कार्ल स्वान्"
 
+#: main.cpp:85
+#, kde-format
+msgid "Epub reader"
+msgstr "Epub पाठकः"
+
+#: main.cpp:86
+#, kde-format
+msgid "Epub file to open"
+msgstr "Epub सञ्चिकां उद्घाटयितुं"
+
+#: content/ui/BookDetailsPage.qml:16
+#, kde-format
+msgctxt "@info:title"
+msgid "Book Details"
+msgstr "पुस्तक विवरण"
+
+#: content/ui/TableOfContentDrawer.qml:45
+#, kde-format
+msgctxt "@info:title"
+msgid "Table of Contents"
+msgstr "विषयसूची"
+
+#: content/ui/EpubViewerPage.qml:122
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Search"
+msgstr "अन्वेषण"
+
+#: content/ui/EpubViewerPage.qml:176 content/ui/main.qml:361
+#, kde-format
+msgctxt "Name filter for EPUB files"
+msgid "eBook files (*.epub *.cb* *.fb2 *.fb2zip)"
+msgstr "ईपुस्तकसञ्चिकाः (*.epub *.cb* *.fb2 *.fb2zip)"
+
+#: content/ui/EpubViewerPage.qml:242
+#, kde-format
+msgctxt "Book reading progress"
+msgid "%1%"
+msgstr "%1% २."
+
+#: content/ui/GridBrowserDelegate.qml:146
+#, kde-format
+msgctxt "should be keep short, inside a label. Will be in uppercase"
+msgid "New"
+msgstr "नूतनम्‌"
+
+#: content/ui/LibraryPage.qml:86
+#, kde-format
+msgctxt "@info placeholder"
+msgid "Add some books"
+msgstr "केचन पुस्तकानि योजयन्तु"
+
+#: content/ui/main.qml:202
+#, kde-format
+msgctxt "Switch to the listing page showing the most recently read books"
+msgid "Home"
+msgstr "गृहम्‌"
+
+#: content/ui/main.qml:209
+#, kde-format
+msgctxt "Switch to the listing page showing the most recently discovered books"
+msgid "Recently Added Books"
+msgstr "सद्यः एव योजिताः पुस्तकानि"
+
+#: content/ui/main.qml:215
+#, kde-format
+msgctxt ""
+"Open a book from somewhere on disk (uses the open dialog, or a drilldown on "
+"touch devices)"
+msgid "Open Other..."
+msgstr "Open अन्ये..."
+
+#: content/ui/main.qml:223
+#, kde-format
+msgctxt "Open the settings page"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
+#: content/ui/main.qml:232
+#, kde-format
+msgctxt ""
+"Heading for switching to listing page showing items grouped by some "
+"properties"
+msgid "Group By"
+msgstr "Group By"
+
+#: content/ui/main.qml:235
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by author"
+msgid "Author"
+msgstr "लेखकः"
+
+#: content/ui/main.qml:241
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by series"
+msgid "Series"
+msgstr "श्रेणी"
+
+#: content/ui/main.qml:243
+#, kde-format
+msgctxt "Title of the page with books grouped by what series they are in"
+msgid "Group by Series"
+msgstr "समूहः श्रृङ्खलानुसारम्"
+
+#: content/ui/main.qml:247
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by publisher"
+msgid "Publisher"
+msgstr "प्रकाशक"
+
+#: content/ui/main.qml:253
+#, kde-format
+msgctxt "Switch to the listing page showing items grouped by genres"
+msgid "Keywords"
+msgstr "कीवर्ड"
+
+#: content/ui/main.qml:255
+#, kde-format
+msgctxt "Title of the page with books grouped by genres"
+msgid "Group by Genres"
+msgstr "विधानुसारं समूहः"
+
+#: content/ui/main.qml:339
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Book…"
+msgstr "पुस्तकं योजयतु…"
+
+#: content/ui/TableOfContentDrawer.qml:23
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open table of contents"
+msgstr "सामग्रीसूचीं उद्घाटयन्तु"
+
+#: content/ui/TableOfContentDrawer.qml:24
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close table of contents"
+msgstr "सामग्रीसूचीं बन्दं कुर्वन्तु"
+
 #: main.cpp:71
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -446,13 +456,3 @@ msgstr "भवतः नामानि"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "भवतः ईमेलपत्राणि"
-
-#: main.cpp:85
-#, kde-format
-msgid "Epub reader"
-msgstr "Epub पाठकः"
-
-#: main.cpp:86
-#, kde-format
-msgid "Epub file to open"
-msgstr "Epub सञ्चिकां उद्घाटयितुं"
