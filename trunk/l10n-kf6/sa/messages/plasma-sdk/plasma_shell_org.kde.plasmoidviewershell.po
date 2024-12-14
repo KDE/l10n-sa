@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-sdk package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-sdk\n"
@@ -13,9 +13,8 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>2);\n"
 
 #: contents/applet/AppletError.qml:164
 msgid "Copy to Clipboard"
@@ -38,11 +37,6 @@ msgstr "विषये"
 msgid "Send an email to %1"
 msgstr "%1 इत्यस्मै ईमेल प्रेषयन्तु"
 
-#: contents/configuration/AboutPlugin.qml:64
-msgctxt "@info:tooltip %1 url"
-msgid "Open website %1"
-msgstr ""
-
 #: contents/configuration/AboutPlugin.qml:137
 msgid "Copyright"
 msgstr "प्रतिलिपि अधिकार"
@@ -50,11 +44,6 @@ msgstr "प्रतिलिपि अधिकार"
 #: contents/configuration/AboutPlugin.qml:158
 msgid "License:"
 msgstr "अनुज्ञापत्रम् : १."
-
-#: contents/configuration/AboutPlugin.qml:163
-msgctxt "@info:whatsthis"
-msgid "View license text"
-msgstr ""
 
 #: contents/configuration/AboutPlugin.qml:177
 msgid "Authors"
@@ -85,7 +74,8 @@ msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
 msgstr ""
-"वर्तमानमॉड्यूलस्य सेटिङ्ग्स् परिवर्तिताः सन्ति । परिवर्तनं प्रयोक्तुं इच्छति वा परित्यक्तुं वा?"
+"वर्तमानमॉड्यूलस्य सेटिङ्ग्स् परिवर्तिताः सन्ति । परिवर्तनं प्रयोक्तुं "
+"इच्छति वा परित्यक्तुं वा?"
 
 #: contents/configuration/AppletConfiguration.qml:384
 msgid "OK"
@@ -146,16 +136,6 @@ msgstr "सर्वे"
 #: contents/configuration/ConfigurationContainmentActions.qml:33
 msgid "Meta"
 msgstr "मेटा"
-
-#: contents/configuration/ConfigurationContainmentActions.qml:95
-msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
-msgid "+"
-msgstr ""
-
-#: contents/configuration/ConfigurationContainmentActions.qml:167
-msgctxt "@title"
-msgid "About"
-msgstr "विषये"
 
 #: contents/configuration/ConfigurationContainmentActions.qml:182
 #: contents/configuration/MouseEventInputButton.qml:14
@@ -347,11 +327,6 @@ msgstr "फोकस शॉर्टकट् : १."
 msgid "Press this keyboard shortcut to move focus to the Panel"
 msgstr "Panel मध्ये फोकस गन्तुं एतत् कीबोर्ड शॉर्टकट् नुदन्तु"
 
-#: contents/configuration/PanelConfiguration.qml:582
-msgctxt "@action:button Delete the panel"
-msgid "Delete Panel"
-msgstr ""
-
 #: contents/configuration/PanelConfiguration.qml:585
 msgid "Remove this panel; this action is undo-able"
 msgstr "एतत् पटलं निष्कासयन्तु; एतत् कर्म अण्डो-सक्षमम् अस्ति"
@@ -411,3 +386,28 @@ msgstr "दक्षिण एज"
 #: contents/views/SdkButtons.qml:126
 msgid "Configure Containment"
 msgstr "Containment विन्यस्तं कुर्वन्तु"
+
+#: contents/configuration/AboutPlugin.qml:64
+msgctxt "@info:tooltip %1 url"
+msgid "Open website %1"
+msgstr "वेबसाइट् %1 उद्घाटयन्तु"
+
+#: contents/configuration/AboutPlugin.qml:163
+msgctxt "@info:whatsthis"
+msgid "View license text"
+msgstr "अनुज्ञापत्रपाठं पश्यन्तु"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:95
+msgctxt "Concatenation sign for shortcuts, e.g. Ctrl+Shift"
+msgid "+"
+msgstr "+"
+
+#: contents/configuration/ConfigurationContainmentActions.qml:167
+msgctxt "@title"
+msgid "About"
+msgstr "विषये"
+
+#: contents/configuration/PanelConfiguration.qml:582
+msgctxt "@action:button Delete the panel"
+msgid "Delete Panel"
+msgstr "पटलं विलोपयन्तु"

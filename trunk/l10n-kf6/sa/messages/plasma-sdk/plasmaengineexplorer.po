@@ -3,29 +3,21 @@
 # This file is distributed under the same license as the plasma-sdk package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-sdk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-10-28 01:46+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-14 19:31+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr ""
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr ""
+"X-Generator: Poedit 3.5\n"
 
 #: engineexplorer.cpp:45
 #, kde-format
@@ -87,52 +79,22 @@ msgstr "स्रोतः निष्कासयतु"
 #, kde-format
 msgid "<1 bit>"
 msgid_plural "<%1 bits>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<१ बिट्>"
+msgstr[1] "<%1 बिट्>"
 
 #: engineexplorer.cpp:330
 #, kde-format
 msgid "<1 byte>"
 msgid_plural "<%1 bytes>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<१ बाइट्>"
+msgstr[1] "<%1 बाइट्स>"
 
 #: engineexplorer.cpp:352
 #, kde-format
 msgid "<1 item>"
 msgid_plural "<%1 items>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: engineexplorer.cpp:427
-#, kde-format
-msgctxt "The user did a query to a dataengine and it returned empty data"
-msgid "<empty>"
-msgstr ""
-
-#: engineexplorer.cpp:433
-#, kde-format
-msgctxt ""
-"A the dataengine returned something that the humble view on the "
-"engineexplorer can't display, like a picture"
-msgid "<not displayable>"
-msgstr ""
-
-#: engineexplorer.cpp:487 engineexplorer.cpp:502
-#, kde-format
-msgctxt "Length of the list"
-msgid "<%1 item>"
-msgid_plural "<%1 items>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: engineexplorer.cpp:517
-#, kde-format
-msgctxt "Size of the map"
-msgid "<%1 pair>"
-msgid_plural "<%1 pairs>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<१ मद>"
+msgstr[1] "<%1 द्रव्यम्>"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, m_title)
 #: engineexplorer.cpp:530 engineexplorer.ui:29
@@ -140,21 +102,15 @@ msgstr[1] ""
 msgid "Plasma DataEngine Explorer"
 msgstr "प्लाज्मा डाटाइञ्जिन एक्सप्लोरर"
 
-#: engineexplorer.cpp:534
-#, kde-format
-msgctxt "The name of the engine followed by the number of data sources"
-msgid "%1 Engine - 1 data source"
-msgid_plural "%1 Engine - %2 data sources"
-msgstr[0] ""
-msgstr[1] ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_sourceRequester)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit,
+#. m_sourceRequester)
 #: engineexplorer.ui:50
 #, kde-format
 msgid "Source name"
 msgstr "स्रोतनाम"
 
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox,
+#. m_updateInterval)
 #: engineexplorer.ui:75
 #, kde-format
 msgid "Update on demand"
@@ -178,7 +134,8 @@ msgstr "Update Every "
 msgid "Request Source"
 msgstr "अनुरोध स्रोतः"
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_serviceRequester)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit,
+#. m_serviceRequester)
 #: engineexplorer.ui:120
 #, kde-format
 msgid "Service for source"
@@ -279,36 +236,16 @@ msgstr ""
 "केवलं मातापितृ-अनुप्रयोगेन सह सम्बद्धानि इञ्जिनानि दर्शयन्तु; DataEngine इत्यस्य .desktop "
 "सञ्चिकायां X-KDE-ParentApp प्रविष्टिं प्रति नक्शाङ्कयति ।"
 
-#: modelviewer.cpp:85 serviceviewer.cpp:53
-#, kde-format
-msgctxt "Plasma engine with unknown name"
-msgid "Unknown"
-msgstr ""
-
 #: modelviewer.cpp:98
 #, kde-format
 msgid ""
-"No valid model was returned. Verify that a model is available for this "
-"source."
-msgstr ""
-"कोऽपि वैधः प्रतिरूपः न प्रत्यागतः । अस्य स्रोतस्य कृते प्रतिरूपं उपलब्धम् इति सत्यापयन्तु ।"
-
-#: modelviewer.cpp:103
-#, kde-format
-msgctxt "%1 is a Plasma dataengine name"
-msgid "%1 Model Explorer"
-msgstr ""
+"No valid model was returned. Verify that a model is available for this source."
+msgstr "कोऽपि वैधः प्रतिरूपः न प्रत्यागतः । अस्य स्रोतस्य कृते प्रतिरूपं उपलब्धम् इति सत्यापयन्तु ।"
 
 #: serviceviewer.cpp:27
 #, kde-format
 msgid "Start Operation"
 msgstr "संचालनम् आरभत"
-
-#: serviceviewer.cpp:54
-#, kde-format
-msgctxt "Plasma service with unknown name"
-msgid "Unknown"
-msgstr ""
 
 #: serviceviewer.cpp:69
 #, kde-format
@@ -316,18 +253,6 @@ msgid ""
 "No valid service was returned. Verify that a service is available for this "
 "source."
 msgstr "वैधसेवा न प्रत्यागतवती । अस्य स्रोतस्य कृते सेवा उपलब्धा इति सत्यापयन्तु ।"
-
-#: serviceviewer.cpp:74
-#, kde-format
-msgctxt "%1 is a Plasma service name"
-msgid "%1 Service Explorer"
-msgstr ""
-
-#: serviceviewer.cpp:77
-#, kde-format
-msgctxt "Source: name of the data, Service: writes data instead of fetching"
-msgid "Engine: <b>%1</b>; Source: <b>%2</b>; Service: <b>%3</b>"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
 #: serviceviewer.cpp:153 serviceviewer.ui:73
@@ -341,8 +266,8 @@ msgid ""
 "<b>'%1'</b> operation with destination <b>'%2'</b> failed. <p>The error was: "
 "<b>'%3: %4'</b></p>"
 msgstr ""
-"गन्तव्यं <b>&#39;%2</b> &#39; सह <b>&#39;%1</b> &#39; कार्यं विफलम् ।<p> त्रुटिः "
-"आसीत् : <b>&#39;%3: %4&#39; ।</b></p>"
+"गन्तव्यं <b>&#39;%2</b> &#39; सह <b>&#39;%1</b> &#39; कार्यं विफलम् ।<p> त्रुटिः आसीत् : "
+"<b>&#39;%3: %4&#39; ।</b></p>"
 
 #: serviceviewer.cpp:193 serviceviewer.cpp:206
 #, kde-format
@@ -357,18 +282,18 @@ msgstr "कार्यात् प्रतिक्रिया नास्�
 #: serviceviewer.cpp:201
 #, kde-format
 msgid ""
-"<b>'%1'</b> operation with destination <b>'%2'</b> returned successfully. "
-"<p>The result was: <b>'%3'</b></p>"
+"<b>'%1'</b> operation with destination <b>'%2'</b> returned successfully. <p>The "
+"result was: <b>'%3'</b></p>"
 msgstr ""
-"गन्तव्यं <b>&#39;%2&#39;</b> सह <b>&#39;%1&#39;</b> क्रिया सफलतया प्रत्यागतवती ।"
-"<p> परिणामः अभवत् : <b>&#39;%3&#39; ।</b></p>"
+"गन्तव्यं <b>&#39;%2&#39;</b> सह <b>&#39;%1&#39;</b> क्रिया सफलतया प्रत्यागतवती ।<p> "
+"परिणामः अभवत् : <b>&#39;%3&#39; ।</b></p>"
 
 #: serviceviewer.cpp:228
 #, kde-format
 msgid "One active operation…"
 msgid_plural "%1 operations active…"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "एकं सक्रियं कार्यं..."
+msgstr[1] "%1 कार्याणि सक्रियम्..."
 
 #. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
 #: serviceviewer.ui:39
@@ -386,3 +311,81 @@ msgstr "संचालन गणना"
 #, kde-format
 msgid "Data Engines"
 msgstr "डाटा इञ्जिन"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: engineexplorer.cpp:427
+#, kde-format
+msgctxt "The user did a query to a dataengine and it returned empty data"
+msgid "<empty>"
+msgstr "<रिक्त>"
+
+#: engineexplorer.cpp:433
+#, kde-format
+msgctxt ""
+"A the dataengine returned something that the humble view on the engineexplorer "
+"can't display, like a picture"
+msgid "<not displayable>"
+msgstr "<न प्रदर्श्यम्>"
+
+#: engineexplorer.cpp:487 engineexplorer.cpp:502
+#, kde-format
+msgctxt "Length of the list"
+msgid "<%1 item>"
+msgid_plural "<%1 items>"
+msgstr[0] "<%1 मद>"
+msgstr[1] "<%1 द्रव्यम्>"
+
+#: engineexplorer.cpp:517
+#, kde-format
+msgctxt "Size of the map"
+msgid "<%1 pair>"
+msgid_plural "<%1 pairs>"
+msgstr[0] "<%1 युग्मम्>"
+msgstr[1] "<%1 युग्मानि>"
+
+#: engineexplorer.cpp:534
+#, kde-format
+msgctxt "The name of the engine followed by the number of data sources"
+msgid "%1 Engine - 1 data source"
+msgid_plural "%1 Engine - %2 data sources"
+msgstr[0] "%1 इञ्जिन - 1 दत्तांशस्रोतः"
+msgstr[1] "%1 इञ्जिन - %2 दत्तांशस्रोताः"
+
+#: modelviewer.cpp:85 serviceviewer.cpp:53
+#, kde-format
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: modelviewer.cpp:103
+#, kde-format
+msgctxt "%1 is a Plasma dataengine name"
+msgid "%1 Model Explorer"
+msgstr "%1 मॉडल एक्सप्लोरर"
+
+#: serviceviewer.cpp:54
+#, kde-format
+msgctxt "Plasma service with unknown name"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: serviceviewer.cpp:74
+#, kde-format
+msgctxt "%1 is a Plasma service name"
+msgid "%1 Service Explorer"
+msgstr "%1 सेवा अन्वेषक"
+
+#: serviceviewer.cpp:77
+#, kde-format
+msgctxt "Source: name of the data, Service: writes data instead of fetching"
+msgid "Engine: <b>%1</b>; Source: <b>%2</b>; Service: <b>%3</b>"
+msgstr "इञ्जिनम् : <b>%1</b> ; स्रोतः <b>%2</b> ; सेवा: <b>%3</b>"
