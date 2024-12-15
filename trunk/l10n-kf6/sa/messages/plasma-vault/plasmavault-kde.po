@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-vault package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-vault\n"
@@ -13,8 +13,26 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: fileitemplugin/plasmavaultfileitemaction.cpp:74
+#, kde-format
+msgctxt "@action Action to unmount a vault"
+msgid "Close this Plasma Vault"
+msgstr "एतत् Plasma Vault बन्दं कुर्वन्तु"
+
+#: fileitemplugin/plasmavaultfileitemaction.cpp:75
+#, kde-format
+msgctxt "@action Action to mount a vault"
+msgid "Open this Plasma Vault"
+msgstr "एतत् Plasma Vault उद्घाटयन्तु"
+
+#: kded/engine/backend_p.cpp:46
+#, kde-format
+msgctxt "formatting the message for a command, as in encfs: not found"
+msgid "%1: %2"
+msgstr "%1: %2"
 
 #: kded/engine/backends/cryfs/cryfsbackend.cpp:92
 #: kded/engine/backends/encfs/encfsbackend.cpp:51
@@ -39,11 +57,11 @@ msgid ""
 "\n"
 "Do you want to perform the upgrade now?"
 msgstr ""
-"इदं तिजोरी cryfs इत्यस्य प्राचीनसंस्करणेन सह निर्मितम् अस्ति, तस्य "
-"उन्नयनस्य आवश्यकता अस्ति ।\n"
+"इदं तिजोरी cryfs इत्यस्य प्राचीनसंस्करणेन सह निर्मितम् अस्ति, तस्य उन्नयनस्य आवश्यकता अस्ति "
+"।\n"
 "\n"
-"मनसि यत् एषा प्रक्रिया अपरिवर्तनीया अस्ति तथा च तिजोरी cryfs इत्यस्य "
-"प्राचीनसंस्करणैः सह कार्यं न करिष्यति।\n"
+"मनसि यत् एषा प्रक्रिया अपरिवर्तनीया अस्ति तथा च तिजोरी cryfs इत्यस्य प्राचीनसंस्करणैः "
+"सह कार्यं न करिष्यति।\n"
 "\n"
 "इदानीं उन्नयनं कर्तुम् इच्छति वा ?"
 
@@ -69,8 +87,7 @@ msgstr "भवता गलत् गुप्तशब्दः प्रवि
 #, kde-format
 msgid "The installed version of cryfs is too old to open this vault."
 msgstr ""
-"cryfs इत्यस्य संस्थापितं संस्करणम् अतीव पुरातनम् अस्ति यत् एतत् तिजोरी "
-"उद्घाटयितुं न शक्नोति ।"
+"cryfs इत्यस्य संस्थापितं संस्करणम् अतीव पुरातनम् अस्ति यत् एतत् तिजोरी उद्घाटयितुं न शक्नोति ।"
 
 #: kded/engine/backends/cryfs/cryfsbackend.cpp:169
 #: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:118
@@ -90,10 +107,11 @@ msgstr "गुप्तशब्दः रिक्तः अस्ति, त�
 
 #: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:114
 #, kde-format
-msgid "Cannot write gocryptfs.conf inside cipher directory, check your permissions."
+msgid ""
+"Cannot write gocryptfs.conf inside cipher directory, check your permissions."
 msgstr ""
-"cipher निर्देशिकायाः अन्तः gocryptfs.conf इति लिखितुं न शक्यते, स्वस्य "
-"अनुमतिः परीक्ष्यताम् ।"
+"cipher निर्देशिकायाः अन्तः gocryptfs.conf इति लिखितुं न शक्यते, स्वस्य अनुमतिः "
+"परीक्ष्यताम् ।"
 
 #: kded/engine/backends/gocryptfs/gocryptfsbackend.cpp:142
 #: kded/engine/fusebackend_p.cpp:165
@@ -140,8 +158,7 @@ msgid ""
 "You need to select empty directories for the encrypted storage and for the "
 "mount point"
 msgstr ""
-"भवद्भिः एन्क्रिप्टेड् भण्डारणस्य कृते तथा च माउण्ट् बिन्दुस्य कृते "
-"रिक्तनिर्देशिकाः चिन्वितव्याः"
+"भवद्भिः एन्क्रिप्टेड् भण्डारणस्य कृते तथा च माउण्ट् बिन्दुस्य कृते रिक्तनिर्देशिकाः चिन्वितव्याः"
 
 #: kded/engine/fusebackend_p.cpp:114
 #, kde-format
@@ -236,9 +253,7 @@ msgstr "एतत् तिजोरी उपयुज्य अनुप्र
 #: kded/engine/vault.cpp:604
 #, kde-format
 msgid "Cannot delete the vault; there are other vaults with overlapping paths."
-msgstr ""
-"तिजोरीं विलोपयितुं न शक्नोति; अन्ये अपि आच्छादितमार्गयुक्ताः कक्ष्याः सन्ति "
-"।"
+msgstr "तिजोरीं विलोपयितुं न शक्नोति; अन्ये अपि आच्छादितमार्गयुक्ताः कक्ष्याः सन्ति ।"
 
 #: kded/engine/vault.cpp:609
 #, kde-format
@@ -271,8 +286,8 @@ msgstr "विलोपनक्रिया रद्दीकृता"
 msgid "Error deleting vault"
 msgstr "तिजोरीं विलोपयन् त्रुटिः"
 
-#: kded/ui/activitieslinkingwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/activitieslinkingwidget.ui:22
 #, kde-format
 msgid ""
 "If you limit this vault only to certain activities, it will be shown in the "
@@ -280,13 +295,12 @@ msgid ""
 "to an activity it should not be available in, it will automatically be "
 "closed."
 msgstr ""
-"यदि भवान् एतत् कक्षं केवलं कतिपयेषु कार्येषु एव सीमितं करोति तर्हि एप्लेट् "
-"मध्ये केवलं तदा एव दर्शितं भविष्यति यदा भवान् तेषु कार्येषु भवति । अपि च, "
-"यदा भवन्तः कस्मिंश्चित् क्रियाकलापे परिवर्तयन्ति यस्मिन् तत् उपलब्धं न "
-"भवितुमर्हति तदा तत् स्वयमेव पिहितं भविष्यति ।"
+"यदि भवान् एतत् कक्षं केवलं कतिपयेषु कार्येषु एव सीमितं करोति तर्हि एप्लेट् मध्ये केवलं तदा एव "
+"दर्शितं भविष्यति यदा भवान् तेषु कार्येषु भवति । अपि च, यदा भवन्तः कस्मिंश्चित् क्रियाकलापे "
+"परिवर्तयन्ति यस्मिन् तत् उपलब्धं न भवितुमर्हति तदा तत् स्वयमेव पिहितं भविष्यति ।"
 
-#: kded/ui/activitieslinkingwidget.ui:32
 #. i18n: ectx: property (text), widget (QCheckBox, checkLimitActivities)
+#: kded/ui/activitieslinkingwidget.ui:32
 #, kde-format
 msgid "Limit to the selected activities:"
 msgstr "चयनितक्रियाकलापानाम् सीमाः १."
@@ -296,26 +310,26 @@ msgstr "चयनितक्रियाकलापानाम् सीम�
 msgid "The specified backend is not available"
 msgstr "निर्दिष्टः पृष्ठभागः उपलब्धः नास्ति"
 
-#: kded/ui/backendchooserwidget.ui:17 kded/ui/namechooserwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, labelVaultName)
+#: kded/ui/backendchooserwidget.ui:17 kded/ui/namechooserwidget.ui:22
 #, kde-format
 msgid "Vaul&t name:"
 msgstr "वौल&त नाम : १."
 
-#: kded/ui/backendchooserwidget.ui:67
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/backendchooserwidget.ui:67
 #, kde-format
 msgid "Backend:"
 msgstr "पृष्ठभागः : १."
 
-#: kded/ui/backendchooserwidget.ui:94
 #. i18n: ectx: property (text), widget (QPushButton, pickBackendButton)
+#: kded/ui/backendchooserwidget.ui:94
 #, kde-format
 msgid "Change"
 msgstr "परिवर्तय"
 
-#: kded/ui/backendchooserwidget.ui:132
 #. i18n: ectx: property (text), widget (QLabel, labelEncryptionSystem)
+#: kded/ui/backendchooserwidget.ui:132
 #, kde-format
 msgid "Choose the encryption system you want to use for this vault:"
 msgstr "अस्य तिजोरीयाः कृते यत् एन्क्रिप्शन-प्रणालीं उपयोक्तुं इच्छति तत् चिनोतु:"
@@ -325,14 +339,14 @@ msgstr "अस्य तिजोरीयाः कृते यत् एन�
 msgid "Use the default cipher"
 msgstr "पूर्वनिर्धारितं सिफरं उपयुज्यताम्"
 
-#: kded/ui/cryfscypherchooserwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, labelCypher)
+#: kded/ui/cryfscypherchooserwidget.ui:22
 #, kde-format
 msgid "Choose the used cipher:"
 msgstr "प्रयुक्तं सिफरं चिनोतु :"
 
-#: kded/ui/directorychooserwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, labelDevice)
+#: kded/ui/directorychooserwidget.ui:22
 #, kde-format
 msgid "Mount point:"
 msgstr "माउण्ट् बिन्दुः : १."
@@ -352,17 +366,23 @@ msgstr "निर्दिष्टनिर्देशिका रिक्�
 msgid "The specified directory is empty"
 msgstr "निर्दिष्टनिर्देशिका रिक्तम् अस्ति"
 
-#: kded/ui/directorypairchooserwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, labelDevice)
+#: kded/ui/directorypairchooserwidget.ui:22
 #, kde-format
 msgid "Encrypted data location"
 msgstr "एन्क्रिप्टेड् दत्तांशस्थानं"
 
-#: kded/ui/directorypairchooserwidget.ui:36
 #. i18n: ectx: property (text), widget (QLabel, labelMountPoint)
+#: kded/ui/directorypairchooserwidget.ui:36
 #, kde-format
 msgid "Mount point"
 msgstr "माउण्ट् बिन्दु"
+
+#: kded/ui/mountdialog.cpp:20
+#, kde-format
+msgctxt "%1 is the name of the Plasma Vault to open"
+msgid "Open '%1' Plasma Vault"
+msgstr "'%1' प्लाज्मा तिजोरी उद्घाटयन्तु"
 
 #: kded/ui/mountdialog.cpp:29
 #, kde-format
@@ -392,67 +412,67 @@ msgstr "त्रुटिविवरणम्"
 msgid "Failed to open: %1"
 msgstr "उद्घाटयितुं असफलम्: %1"
 
-#: kded/ui/mountdialog.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/mountdialog.ui:61
 #, kde-format
 msgid "Please enter the password to open this vault:"
 msgstr "कृपया एतत् तिजोरीं उद्घाटयितुं गुप्तशब्दं प्रविशन्तु:"
 
-#: kded/ui/mountdialog.ui:93
 #. i18n: ectx: property (text), widget (QLabel, pwdLabel)
+#: kded/ui/mountdialog.ui:93
 #, kde-format
 msgid "Password:"
 msgstr "समाभाष्:"
 
-#: kded/ui/noticewidget.ui:38
 #. i18n: ectx: property (html), widget (QTextBrowser, textNotice)
+#: kded/ui/noticewidget.ui:38
 #, kde-format
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
-"type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'hlv'; font-size:9pt; "
-"font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:'hlv'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"><br /></p></body></html>"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><br /></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
-"type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'hlv'; font-size:9pt; "
-"font-weight:400; font-style:normal;\">\n"
+"</style></head><body style=\" font-family:'hlv'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"><br /></p></body></html>"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"
+"\"><br /></p></body></html>"
 
-#: kded/ui/noticewidget.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, checkShouldBeHidden)
+#: kded/ui/noticewidget.ui:45
 #, kde-format
 msgid "Do not show this notice again"
 msgstr "पुनः एतत् सूचनां न दर्शयतु"
 
-#: kded/ui/offlineonlywidget.ui:34
 #. i18n: ectx: property (text), widget (QCheckBox, checkShouldBeOffline)
-#, kde-format
-msgid "Go offline while this vault is open (switch off networking and bluetooth)"
-msgstr ""
-"एतत् तिजोरी उद्घाटितं भवति चेत् अफलाइनं गच्छन्तु (संजालीकरणं ब्लूटूथं च "
-"निष्क्रियं कुर्वन्तु)"
-
-#: kded/ui/passwordchooserwidget.ui:22
-#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/offlineonlywidget.ui:34
 #, kde-format
 msgid ""
-"Mind that there is no way to recover a forgotten password. If you forget "
-"the password, your data is as good as gone."
+"Go offline while this vault is open (switch off networking and bluetooth)"
 msgstr ""
-"विस्मृतं गुप्तशब्दं पुनः प्राप्तुं कोऽपि उपायः नास्ति इति मनसि। यदि भवान् "
-"गुप्तशब्दं विस्मरति तर्हि भवतः दत्तांशः गतः इव उत्तमः अस्ति ।"
+"एतत् तिजोरी उद्घाटितं भवति चेत् अफलाइनं गच्छन्तु (संजालीकरणं ब्लूटूथं च निष्क्रियं कुर्वन्तु)"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/passwordchooserwidget.ui:22
+#, kde-format
+msgid ""
+"Mind that there is no way to recover a forgotten password. If you forget the "
+"password, your data is as good as gone."
+msgstr ""
+"विस्मृतं गुप्तशब्दं पुनः प्राप्तुं कोऽपि उपायः नास्ति इति मनसि। यदि भवान् गुप्तशब्दं विस्मरति "
+"तर्हि भवतः दत्तांशः गतः इव उत्तमः अस्ति ।"
 
 #: kded/ui/vaultconfigurationdialog.cpp:47
 #, kde-format
@@ -492,24 +512,23 @@ msgstr "gocryptfs"
 msgid "Configure"
 msgstr "विन्यस्तं कुर्वन्तु"
 
-#: kded/ui/vaultconfigurationdialog.ui:19 kded/ui/vaultcreationwizard.ui:19
-#: kded/ui/vaultimportingwizard.ui:19
-#. i18n: ectx: property (windowTitle), widget (QDialog,
-#. VaultConfigurationDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, VaultConfigurationDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, VaultImportingWizard)
 #. i18n: ectx: property (windowTitle), widget (QDialog, VaultCreationWizard)
+#: kded/ui/vaultconfigurationdialog.ui:19 kded/ui/vaultcreationwizard.ui:19
+#: kded/ui/vaultimportingwizard.ui:19
 #, kde-format
 msgid "Dialog"
 msgstr "संवादः"
 
-#: kded/ui/vaultconfigurationdialog.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: kded/ui/vaultconfigurationdialog.ui:37
 #, kde-format
 msgid "The vault configuration can only be changed while it is closed."
 msgstr "तिजोरीविन्यासः केवलं पिहितसमये एव परिवर्तयितुं शक्यते ।"
 
-#: kded/ui/vaultconfigurationdialog.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, buttonCloseVault)
+#: kded/ui/vaultconfigurationdialog.ui:57
 #, kde-format
 msgid "Close the vault"
 msgstr "तिजोरीं पिधाय"
@@ -538,22 +557,18 @@ msgid ""
 "attacker\n"
 "                             can frequently access the encrypted data.\n"
 "                             <br /><br />\n"
-"                             See <a "
-"href='https://defuse.ca/audits/encfs.htm'>defuse.ca/audits/encfs.htm</a> "
-"for more information."
+"                             See <a href='https://defuse.ca/audits/encfs."
+"htm'>defuse.ca/audits/encfs.htm</a> for more information."
 msgstr ""
-"<b>सुरक्षासूचना:</b> Taylor Hornby (Defuse Security) इत्यस्य "
-"सुरक्षालेखापरीक्षायाः अनुसारं Encfs इत्यस्य वर्तमानकार्यन्वयनं बहुप्रकारस्य "
-"आक्रमणानां कृते दुर्बलं वा सम्भाव्यतया दुर्बलं वा अस्ति यथा, "
-"एन्क्रिप्टेड्-दत्तांशस्य पठन/लेखन-प्रवेशं विद्यमानः आक्रमणकारी तदनन्तरं "
-"एन्क्रिप्टेड्-दत्तांशस्य कृते विगुप्तीकरण-जटिलतां न्यूनीकर्तुं शक्नोति, "
-"एतत् वैध-उपयोक्तृणा न लक्षितं, अथवा सूचनां निष्कर्षयितुं समय-विश्लेषणस्य "
-"उपयोगं कर्तुं शक्नोति<br /><br /> अस्य अर्थः अस्ति यत् भवद्भिः "
-"गुप्तदत्तांशं मेघभण्डारणसेवायां समन्वयनं न कर्तव्यम्, अन्येषु परिस्थितिषु "
-"वा यत्र आक्रमणकर्त्ता गुप्तदत्तांशं बहुधा प्राप्तुं शक्नोति तत्र तस्य "
-"उपयोगं न कर्तव्यम्<br /><br /> अधिकविवरणार्थं <a "
-"href='https://defuse.ca/audits/encfs.htm'>defuse.ca/audits/encfs.htm</a> "
-"पश्यन्तु ।"
+"<b>सुरक्षासूचना:</b> Taylor Hornby (Defuse Security) इत्यस्य सुरक्षालेखापरीक्षायाः "
+"अनुसारं Encfs इत्यस्य वर्तमानकार्यन्वयनं बहुप्रकारस्य आक्रमणानां कृते दुर्बलं वा सम्भाव्यतया "
+"दुर्बलं वा अस्ति यथा, एन्क्रिप्टेड्-दत्तांशस्य पठन/लेखन-प्रवेशं विद्यमानः आक्रमणकारी तदनन्तरं "
+"एन्क्रिप्टेड्-दत्तांशस्य कृते विगुप्तीकरण-जटिलतां न्यूनीकर्तुं शक्नोति, एतत् वैध-उपयोक्तृणा न "
+"लक्षितं, अथवा सूचनां निष्कर्षयितुं समय-विश्लेषणस्य उपयोगं कर्तुं शक्नोति<br /><br /> अस्य "
+"अर्थः अस्ति यत् भवद्भिः गुप्तदत्तांशं मेघभण्डारणसेवायां समन्वयनं न कर्तव्यम्, अन्येषु परिस्थितिषु "
+"वा यत्र आक्रमणकर्त्ता गुप्तदत्तांशं बहुधा प्राप्तुं शक्नोति तत्र तस्य उपयोगं न कर्तव्यम्<br /"
+"><br /> अधिकविवरणार्थं <a href='https://defuse.ca/audits/encfs.htm'>defuse.ca/"
+"audits/encfs.htm</a> पश्यन्तु ।"
 
 #: kded/ui/vaultcreationwizard.cpp:56
 #, kde-format
@@ -561,8 +576,8 @@ msgid ""
 "<b>Security notice:</b>\n"
 "                             CryFS encrypts your files, so you can safely "
 "store them anywhere.\n"
-"                             It works well together with cloud services "
-"like Dropbox, iCloud, OneDrive and others.\n"
+"                             It works well together with cloud services like "
+"Dropbox, iCloud, OneDrive and others.\n"
 "                             <br /><br />\n"
 "                             Unlike some other file-system overlay "
 "solutions,\n"
@@ -575,14 +590,13 @@ msgid ""
 "                             there is no independent security audit\n"
 "                             which confirms this."
 msgstr ""
-"<b>सुरक्षासूचना:</b> CryFS भवतः सञ्चिकाः गुप्तीकरणं करोति, अतः भवान् तान् "
-"कुत्रापि सुरक्षिततया संग्रहीतुं शक्नोति । इदं Dropbox, iCloud, OneDrive "
-"इत्यादिभिः क्लाउड् सेवाभिः सह मिलित्वा सम्यक् कार्यं करोति ।<br /><br /> "
-"अन्येषां केषाञ्चन सञ्चिका-प्रणाली-आच्छादन-समाधानानाम् विपरीतम्, एतत् "
-"एन्क्रिप्टेड्-दत्तांश-स्वरूपस्य माध्यमेन निर्देशिका-संरचनां, सञ्चिकानां "
-"संख्यां, सञ्चिका-आकारं वा न प्रकाशयति ।<br /><br /> एकं महत्त्वपूर्णं वस्तु "
-"ज्ञातव्यं यत्, यद्यपि CryFS सुरक्षितं मन्यते तथापि स्वतन्त्रं "
-"सुरक्षालेखापरीक्षा नास्ति यत् एतस्य पुष्टिं करोति ।"
+"<b>सुरक्षासूचना:</b> CryFS भवतः सञ्चिकाः गुप्तीकरणं करोति, अतः भवान् तान् कुत्रापि "
+"सुरक्षिततया संग्रहीतुं शक्नोति । इदं Dropbox, iCloud, OneDrive इत्यादिभिः क्लाउड् "
+"सेवाभिः सह मिलित्वा सम्यक् कार्यं करोति ।<br /><br /> अन्येषां केषाञ्चन सञ्चिका-प्रणाली-"
+"आच्छादन-समाधानानाम् विपरीतम्, एतत् एन्क्रिप्टेड्-दत्तांश-स्वरूपस्य माध्यमेन निर्देशिका-संरचनां, "
+"सञ्चिकानां संख्यां, सञ्चिका-आकारं वा न प्रकाशयति ।<br /><br /> एकं महत्त्वपूर्णं वस्तु "
+"ज्ञातव्यं यत्, यद्यपि CryFS सुरक्षितं मन्यते तथापि स्वतन्त्रं सुरक्षालेखापरीक्षा नास्ति यत् एतस्य "
+"पुष्टिं करोति ।"
 
 #: kded/ui/vaultcreationwizard.cpp:76
 #, kde-format
@@ -590,53 +604,54 @@ msgid ""
 "<b>Security notice:</b>\n"
 "                             Gocryptfs encrypts your files, so you can "
 "safely store them anywhere.\n"
-"                             It works well together with cloud services "
-"like Dropbox, iCloud, OneDrive and others.\n"
+"                             It works well together with cloud services like "
+"Dropbox, iCloud, OneDrive and others.\n"
 "                             <br /><br />\n"
-"                             A threat model for gocryptfs is provided by "
-"the author at                              <a "
-"href='https://nuetzlich.net/gocryptfs/threat_model'>nuetzlich.net/gocryptfs/"
-"threat_model</a>.                              <br /><br />\n"
-"                             According to a security audit performed in "
-"2017 by Taylor Hornby (Defuse Security),\n"
-"                             gocryptfs keeps file contents secret against "
-"an adversary that can read and modify the                              "
+"                             A threat model for gocryptfs is provided by the "
+"author at                              <a href='https://nuetzlich.net/"
+"gocryptfs/threat_model'>nuetzlich.net/gocryptfs/threat_model</"
+"a>.                              <br /><br />\n"
+"                             According to a security audit performed in 2017 "
+"by Taylor Hornby (Defuse Security),\n"
+"                             gocryptfs keeps file contents secret against an "
+"adversary that can read and modify the                              "
 "ciphertext.                              <br /><br />\n"
-"                             See <a "
-"href='https://defuse.ca/audits/gocryptfs.htm'>defuse.ca/audits/gocryptfs."
-"htm</a> for more information."
+"                             See <a href='https://defuse.ca/audits/gocryptfs."
+"htm'>defuse.ca/audits/gocryptfs.htm</a> for more information."
 msgstr ""
-"<b>सुरक्षासूचना:</b> Gocryptfs भवतः सञ्चिकाः गुप्तीकरणं करोति, अतः भवान् "
-"तान् कुत्रापि सुरक्षिततया संग्रहीतुं शक्नोति । इदं Dropbox, iCloud, "
-"OneDrive इत्यादिभिः क्लाउड् सेवाभिः सह मिलित्वा सम्यक् कार्यं करोति ।<br "
-"/><br /> gocryptfs कृते धमकीप्रतिरूपं लेखकेन <a "
-"href='https://nuetzlich.net/gocryptfs/threat_model'>nuetzlich.net/gocryptfs/"
-"threat_model</a> इत्यत्र प्रदत्तम् अस्ति ।<br /><br /> टेलर हॉर्न्बी "
-"(Defuse Security) इत्यनेन २०१७ तमे वर्षे कृतस्य सुरक्षालेखापरीक्षायाः "
-"अनुसारं gocryptfs इत्यनेन सञ्चिकासामग्रीः गुप्तरूपेण रक्षिता यस्य "
-"प्रतिद्वन्द्वस्य विरुद्धं भवति यः सिफरपाठं पठितुं परिवर्तयितुं च शक्नोति<br "
-"/><br /> अधिकसूचनार्थं <a "
-"href='https://defuse.ca/audits/gocryptfs.htm'>defuse.ca/audits/gocryptfs."
-"htm</a> पश्यन्तु ।"
+"<b>सुरक्षासूचना:</b> Gocryptfs भवतः सञ्चिकाः गुप्तीकरणं करोति, अतः भवान् तान् कुत्रापि "
+"सुरक्षिततया संग्रहीतुं शक्नोति । इदं Dropbox, iCloud, OneDrive इत्यादिभिः क्लाउड् "
+"सेवाभिः सह मिलित्वा सम्यक् कार्यं करोति ।<br /><br /> gocryptfs कृते धमकीप्रतिरूपं लेखकेन "
+"<a href='https://nuetzlich.net/gocryptfs/threat_model'>nuetzlich.net/"
+"gocryptfs/threat_model</a> इत्यत्र प्रदत्तम् अस्ति ।<br /><br /> टेलर हॉर्न्बी "
+"(Defuse Security) इत्यनेन २०१७ तमे वर्षे कृतस्य सुरक्षालेखापरीक्षायाः अनुसारं gocryptfs "
+"इत्यनेन सञ्चिकासामग्रीः गुप्तरूपेण रक्षिता यस्य प्रतिद्वन्द्वस्य विरुद्धं भवति यः सिफरपाठं पठितुं "
+"परिवर्तयितुं च शक्नोति<br /><br /> अधिकसूचनार्थं <a href='https://defuse.ca/audits/"
+"gocryptfs.htm'>defuse.ca/audits/gocryptfs.htm</a> पश्यन्तु ।"
 
-#: kded/ui/vaultdeletionwidget.ui:22
+#: kded/ui/vaultcreationwizard.cpp:138
+#, kde-format
+msgctxt "@title:window"
+msgid "Create a New Vault"
+msgstr "एकं नवीनं तिजोरीं रचयन्तु"
+
 #. i18n: ectx: property (text), widget (QLabel, labelWarning)
+#: kded/ui/vaultdeletionwidget.ui:22
 #, kde-format
 msgid ""
 "This action <b>cannot</b> be undone. This will permanently delete the "
 "selected vault!"
 msgstr ""
-"एतत् कर्म न निवर्तयितुं <b>शक्यते</b> । एतेन चयनितं तिजोरी स्थायिरूपेण "
-"विलोपितं भविष्यति!"
+"एतत् कर्म न निवर्तयितुं <b>शक्यते</b> । एतेन चयनितं तिजोरी स्थायिरूपेण विलोपितं भविष्यति!"
 
-#: kded/ui/vaultdeletionwidget.ui:29
 #. i18n: ectx: property (text), widget (QLabel, labelConfirm)
+#: kded/ui/vaultdeletionwidget.ui:29
 #, kde-format
 msgid "Please type in the name of the vault to confirm:"
 msgstr "कृपया पुष्ट्यर्थं तिजोरीयाः नाम टङ्कयन्तु:"
 
-#: kded/ui/vaultdeletionwidget.ui:44
 #. i18n: ectx: property (text), widget (QPushButton, buttonDeleteVault)
+#: kded/ui/vaultdeletionwidget.ui:44
 #, kde-format
 msgid "Delete this vault"
 msgstr "एतत् तिजोरीं विलोपयन्तु"
@@ -645,6 +660,12 @@ msgstr "एतत् तिजोरीं विलोपयन्तु"
 #, kde-format
 msgid "Import"
 msgstr "आयात"
+
+#: kded/ui/vaultimportingwizard.cpp:93
+#, kde-format
+msgctxt "@title:window"
+msgid "Import an Existing Vault"
+msgstr "एकं विद्यमानं तिजोरी आयातयन्तु"
 
 #: kded/ui/vaultwizardbase.h:39 kded/ui/vaultwizardbase.h:90
 #, kde-format
@@ -700,39 +721,3 @@ msgstr "तिजोरी अनलॉक करू"
 #, kde-format
 msgid "Configure Vault…"
 msgstr "तिजोरी विन्यस्तं कुर्वन्तु..."
-
-#: fileitemplugin/plasmavaultfileitemaction.cpp:74
-#, kde-format
-msgctxt "@action Action to unmount a vault"
-msgid "Close this Plasma Vault"
-msgstr "एतत् Plasma Vault बन्दं कुर्वन्तु"
-
-#: fileitemplugin/plasmavaultfileitemaction.cpp:75
-#, kde-format
-msgctxt "@action Action to mount a vault"
-msgid "Open this Plasma Vault"
-msgstr "एतत् Plasma Vault उद्घाटयन्तु"
-
-#: kded/engine/backend_p.cpp:46
-#, kde-format
-msgctxt "formatting the message for a command, as in encfs: not found"
-msgid "%1: %2"
-msgstr "%1: %2"
-
-#: kded/ui/mountdialog.cpp:20
-#, kde-format
-msgctxt "%1 is the name of the Plasma Vault to open"
-msgid "Open '%1' Plasma Vault"
-msgstr "'%1' प्लाज्मा तिजोरी उद्घाटयन्तु"
-
-#: kded/ui/vaultcreationwizard.cpp:138
-#, kde-format
-msgctxt "@title:window"
-msgid "Create a New Vault"
-msgstr "एकं नवीनं तिजोरीं रचयन्तु"
-
-#: kded/ui/vaultimportingwizard.cpp:93
-#, kde-format
-msgctxt "@title:window"
-msgid "Import an Existing Vault"
-msgstr "एकं विद्यमानं तिजोरी आयातयन्तु"

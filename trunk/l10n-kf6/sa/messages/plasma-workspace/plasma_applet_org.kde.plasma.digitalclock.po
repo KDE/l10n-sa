@@ -2,7 +2,7 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-workspace package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -39,6 +39,18 @@ msgstr "समयक्षेत्राणि"
 #, kde-format
 msgid "Events"
 msgstr "आयोजनानि"
+
+#: package/contents/ui/CalendarView.qml:157
+#, kde-format
+msgctxt "@action:button Add event"
+msgid "Add…"
+msgstr "योजयतु…"
+
+#: package/contents/ui/CalendarView.qml:161
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a new event"
+msgstr "नूतनं आयोजनं योजयन्तु"
 
 #: package/contents/ui/CalendarView.qml:386
 #, kde-format
@@ -92,6 +104,18 @@ msgstr "सदा कालस्य अधः"
 msgid "Show seconds:"
 msgstr "सेकण्ड् दर्शयतु:"
 
+#: package/contents/ui/configAppearance.qml:76
+#, kde-format
+msgctxt "@option:check"
+msgid "Never"
+msgstr "कदापि न"
+
+#: package/contents/ui/configAppearance.qml:77
+#, kde-format
+msgctxt "@option:check"
+msgid "Only in the tooltip"
+msgstr "केवलं टूलटिप् इत्यत्र एव"
+
 #: package/contents/ui/configAppearance.qml:78
 #: package/contents/ui/configAppearance.qml:99
 #, kde-format
@@ -128,196 +152,12 @@ msgstr "नगरम्"
 msgid "Offset from UTC time"
 msgstr "UTC समयातिक्रमः"
 
-#: package/contents/ui/configAppearance.qml:212
-#, fuzzy, kde-format
-#| msgid ""
-#| "<a href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method"
-#| "\">Time Format Documentation</a>"
-msgid ""
-"<a "
-"href=\"https://doc.qt.io/qt-6/qml-qtqml-qt.html#formatDateTime-method\""
-">Time Format Documentation</a>"
-msgstr ""
-"<a "
-"href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method\">समय "
-"प्रारूप प्रलेखन</a>"
-
-#: package/contents/ui/configCalendar.qml:41
-#, kde-format
-msgid "General:"
-msgstr "सर्वत्रगत:"
-
-#: package/contents/ui/configCalendar.qml:42
-#, kde-format
-msgid "Show week numbers"
-msgstr "सप्ताहस्य संख्याः दर्शयन्तु"
-
-#: package/contents/ui/configCalendar.qml:72
-#, kde-format
-msgid "Available Plugins:"
-msgstr "उपलब्धाः प्लगिन्स् :"
-
-#: package/contents/ui/configTimeZones.qml:42
-#, kde-format
-msgid ""
-"Tip: if you travel frequently, add your home time zone to this list. It "
-"will only appear when you change the systemwide time zone to something else."
-msgstr ""
-"युक्तिः : यदि भवान् बहुधा यात्रां करोति तर्हि अस्मिन् सूचौ स्वस्य "
-"गृहसमयक्षेत्रं योजयतु। यदा भवान् सङ्गणकतन्त्रव्यापी समयक्षेत्रं अन्यत् "
-"किमपि परिवर्तयति तदा एव दृश्यते ।."
-
-#: package/contents/ui/configTimeZones.qml:59
-#, kde-format
-msgid "Add Time Zones…"
-msgstr "समयक्षेत्राणि योजयन्तु…"
-
-#: package/contents/ui/configTimeZones.qml:94
-#, kde-format
-msgid "Clock is currently using this time zone"
-msgstr "घड़ी सम्प्रति एतत् समयक्षेत्रं उपयुज्यते"
-
-#: package/contents/ui/configTimeZones.qml:126
-#, kde-format
-msgid "Switch Systemwide Time Zone…"
-msgstr "सङ्गणकतन्त्रव्यापी समयक्षेत्रं परिवर्तयन्तु…"
-
-#: package/contents/ui/configTimeZones.qml:138
-#, kde-format
-msgid "Remove this time zone"
-msgstr "एतत् समयक्षेत्रं निष्कासयन्तु"
-
-#: package/contents/ui/configTimeZones.qml:150
-#, kde-format
-msgid "Systemwide Time Zone"
-msgstr "सङ्गणकतन्त्रव्यापी समयक्षेत्रम्"
-
-#: package/contents/ui/configTimeZones.qml:150
-#, kde-format
-msgid "Additional Time Zones"
-msgstr "अतिरिक्तसमयक्षेत्राणि"
-
-#: package/contents/ui/configTimeZones.qml:163
-#, kde-format
-msgid ""
-"Add more time zones to display all of them in the applet's pop-up, or use "
-"one of them for the clock itself"
-msgstr ""
-"एप्लेट्-पॉप्-अप-मध्ये तान् सर्वान् प्रदर्शयितुं अधिकानि समयक्षेत्राणि "
-"योजयन्तु, अथवा तेषु एकं घडिकायाः कृते एव उपयुज्यताम्"
-
-#: package/contents/ui/configTimeZones.qml:177
-#, kde-format
-msgid "Switch displayed time zone by scrolling over clock applet"
-msgstr "घड़ी एप्लेट् उपरि सारण कृत्वा प्रदर्शितं समयक्षेत्रं परिवर्तयन्तु"
-
-#: package/contents/ui/configTimeZones.qml:184
-#, kde-format
-msgid ""
-"Using this feature does not change the systemwide time zone. When you "
-"travel, switch the systemwide time zone instead."
-msgstr ""
-"एतस्य विशेषतायाः उपयोगेन सङ्गणकतन्त्रव्यापी समयक्षेत्रं न परिवर्तते । यदा "
-"भवन्तः यात्रां कुर्वन्ति तदा तस्य स्थाने सङ्गणकतन्त्रव्यापी समयक्षेत्रं "
-"परिवर्तयन्तु ।."
-
-#: package/contents/ui/configTimeZones.qml:209
-#, fuzzy, kde-format
-#| msgid "Add More Timezones"
-msgid "Add More Time Zones"
-msgstr "अधिकानि समयक्षेत्राणि योजयन्तु"
-
-#: package/contents/ui/configTimeZones.qml:221
-#, fuzzy, kde-format
-#| msgid ""
-#| "At least one time zone needs to be enabled. Your local timezone was "
-#| "enabled automatically."
-msgid ""
-"At least one time zone needs to be enabled. Your local time zone was "
-"enabled automatically."
-msgstr ""
-"न्यूनातिन्यूनम् एकः समयक्षेत्रः सक्षमः करणीयः । भवतः स्थानीयसमयक्षेत्रं "
-"स्वयमेव सक्षमम् अभवत् ।."
-
-#: package/contents/ui/configTimeZones.qml:257
-#, kde-format
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
-
-#: package/contents/ui/configTimeZones.qml:259
-#, kde-format
-msgid "%1, %2"
-msgstr "%1, %2"
-
-#: package/contents/ui/main.qml:215
-#, kde-format
-msgid "Copy to Clipboard"
-msgstr "अंशफलकम् प्रति प्रतिलिख्यताम्"
-
-#: package/contents/ui/main.qml:219
-#, kde-format
-msgid "Adjust Date and Time…"
-msgstr "तिथिं समयं च समायोजयन्तु…"
-
-#: package/contents/ui/main.qml:225
-#, kde-format
-msgid "Set Time Format…"
-msgstr "समय प्रारूपं निरूपयतु…"
-
-#: plugin/clipboardmenu.cpp:110
-#, kde-format
-msgid "Other Calendars"
-msgstr "अन्ये पञ्चाङ्गानि"
-
-#: plugin/timezonemodel.cpp:149
-#, kde-format
-msgid "System's local time zone"
-msgstr "सङ्गणकप्रणाल्याः स्थानीयसमयक्षेत्रम्"
-
-#: package/contents/ui/CalendarView.qml:157
-#, kde-format
-msgctxt "@action:button Add event"
-msgid "Add…"
-msgstr "योजयतु…"
-
-#: package/contents/ui/CalendarView.qml:161
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Add a new event"
-msgstr "नूतनं आयोजनं योजयन्तु"
-
-#: package/contents/ui/configAppearance.qml:76
-#, kde-format
-msgctxt "@option:check"
-msgid "Never"
-msgstr "कदापि न"
-
-#: package/contents/ui/configAppearance.qml:77
-#, kde-format
-msgctxt "@option:check"
-msgid "Only in the tooltip"
-msgstr "केवलं टूलटिप् इत्यत्र एव"
-
 #: package/contents/ui/configAppearance.qml:126
 #, fuzzy, kde-format
 #| msgid "Time display:"
 msgctxt "@label:listbox"
 msgid "Time display:"
 msgstr "समयस्य प्रदर्शनम् :"
-
-#: package/contents/ui/configAppearance.qml:152
-#, fuzzy, kde-format
-#| msgid "Date format:"
-msgctxt "@label:listbox"
-msgid "Date format:"
-msgstr "तिथि प्रारूपः :"
-
-#: package/contents/ui/configCalendar.qml:49
-#, fuzzy, kde-format
-#| msgid "First day of week:"
-msgctxt "@label:listbox"
-msgid "First day of week:"
-msgstr "सप्ताहस्य प्रथमदिनम् :"
 
 #: package/contents/ui/configAppearance.qml:132
 #, fuzzy, kde-format
@@ -346,6 +186,13 @@ msgstr "२४ - घण्टा"
 msgctxt "@action:button opens kcm"
 msgid "Change Regional Settings…"
 msgstr "क्षेत्रीय समायोजनानि परिवर्तयन्तु…"
+
+#: package/contents/ui/configAppearance.qml:152
+#, fuzzy, kde-format
+#| msgid "Date format:"
+msgctxt "@label:listbox"
+msgid "Date format:"
+msgstr "तिथि प्रारूपः :"
 
 #: package/contents/ui/configAppearance.qml:161
 #, fuzzy, kde-format
@@ -378,6 +225,18 @@ msgctxt "@item:inlistbox custom date format"
 msgid "Custom"
 msgstr "अनुकूलितं कुर्वन्तु"
 
+#: package/contents/ui/configAppearance.qml:212
+#, fuzzy, kde-format
+#| msgid ""
+#| "<a href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method"
+#| "\">Time Format Documentation</a>"
+msgid ""
+"<a href=\"https://doc.qt.io/qt-6/qml-qtqml-qt.html#formatDateTime-method"
+"\">Time Format Documentation</a>"
+msgstr ""
+"<a href=\"https://doc.qt.io/qt-5/qml-qtqml-qt.html#formatDateTime-method"
+"\">समय प्रारूप प्रलेखन</a>"
+
 #: package/contents/ui/configAppearance.qml:237
 #, kde-format
 msgctxt "@label:group"
@@ -393,10 +252,9 @@ msgstr "स्वचालितम्"
 #: package/contents/ui/configAppearance.qml:242
 #, kde-format
 msgctxt "@label"
-msgid "Text will follow the system font and expand to fill the available space."
-msgstr ""
-"पाठ्यः सङ्गणकतन्त्रस्य वर्णचित्र अनुसृत्य उपलब्धं स्थानं पूरयितुं विस्तारं "
-"करिष्यति ।."
+msgid ""
+"Text will follow the system font and expand to fill the available space."
+msgstr "पाठ्यः सङ्गणकतन्त्रस्य वर्णचित्र अनुसृत्य उपलब्धं स्थानं पूरयितुं विस्तारं करिष्यति ।."
 
 #: package/contents/ui/configAppearance.qml:254
 #, kde-format
@@ -428,12 +286,53 @@ msgctxt "@title:window"
 msgid "Choose a Font"
 msgstr "एकं वर्णचित्र चिनुत"
 
+#: package/contents/ui/configCalendar.qml:41
+#, kde-format
+msgid "General:"
+msgstr "सर्वत्रगत:"
+
+#: package/contents/ui/configCalendar.qml:42
+#, kde-format
+msgid "Show week numbers"
+msgstr "सप्ताहस्य संख्याः दर्शयन्तु"
+
+#: package/contents/ui/configCalendar.qml:49
+#, fuzzy, kde-format
+#| msgid "First day of week:"
+msgctxt "@label:listbox"
+msgid "First day of week:"
+msgstr "सप्ताहस्य प्रथमदिनम् :"
+
 #: package/contents/ui/configCalendar.qml:55
 #, fuzzy, kde-format
 #| msgid "Use Region Defaults"
 msgctxt "@item:inlistbox first day of week option"
 msgid "Use region defaults"
 msgstr "क्षेत्रपूर्वनिर्धारितस्य उपयोगं कुर्वन्तु"
+
+#: package/contents/ui/configCalendar.qml:72
+#, kde-format
+msgid "Available Plugins:"
+msgstr "उपलब्धाः प्लगिन्स् :"
+
+#: package/contents/ui/configTimeZones.qml:42
+#, kde-format
+msgid ""
+"Tip: if you travel frequently, add your home time zone to this list. It will "
+"only appear when you change the systemwide time zone to something else."
+msgstr ""
+"युक्तिः : यदि भवान् बहुधा यात्रां करोति तर्हि अस्मिन् सूचौ स्वस्य गृहसमयक्षेत्रं योजयतु। यदा "
+"भवान् सङ्गणकतन्त्रव्यापी समयक्षेत्रं अन्यत् किमपि परिवर्तयति तदा एव दृश्यते ।."
+
+#: package/contents/ui/configTimeZones.qml:59
+#, kde-format
+msgid "Add Time Zones…"
+msgstr "समयक्षेत्राणि योजयन्तु…"
+
+#: package/contents/ui/configTimeZones.qml:94
+#, kde-format
+msgid "Clock is currently using this time zone"
+msgstr "घड़ी सम्प्रति एतत् समयक्षेत्रं उपयुज्यते"
 
 #: package/contents/ui/configTimeZones.qml:96
 #, fuzzy, kde-format
@@ -449,13 +348,97 @@ msgctxt ""
 msgid "Hidden while this is the local time zone's city"
 msgstr "गुप्तं यदा एतत् स्थानीयसमयक्षेत्रस्य नगरम् अस्ति"
 
+#: package/contents/ui/configTimeZones.qml:126
+#, kde-format
+msgid "Switch Systemwide Time Zone…"
+msgstr "सङ्गणकतन्त्रव्यापी समयक्षेत्रं परिवर्तयन्तु…"
+
+#: package/contents/ui/configTimeZones.qml:138
+#, kde-format
+msgid "Remove this time zone"
+msgstr "एतत् समयक्षेत्रं निष्कासयन्तु"
+
+#: package/contents/ui/configTimeZones.qml:150
+#, kde-format
+msgid "Systemwide Time Zone"
+msgstr "सङ्गणकतन्त्रव्यापी समयक्षेत्रम्"
+
+#: package/contents/ui/configTimeZones.qml:150
+#, kde-format
+msgid "Additional Time Zones"
+msgstr "अतिरिक्तसमयक्षेत्राणि"
+
+#: package/contents/ui/configTimeZones.qml:163
+#, kde-format
+msgid ""
+"Add more time zones to display all of them in the applet's pop-up, or use "
+"one of them for the clock itself"
+msgstr ""
+"एप्लेट्-पॉप्-अप-मध्ये तान् सर्वान् प्रदर्शयितुं अधिकानि समयक्षेत्राणि योजयन्तु, अथवा तेषु एकं "
+"घडिकायाः कृते एव उपयुज्यताम्"
+
+#: package/contents/ui/configTimeZones.qml:177
+#, kde-format
+msgid "Switch displayed time zone by scrolling over clock applet"
+msgstr "घड़ी एप्लेट् उपरि सारण कृत्वा प्रदर्शितं समयक्षेत्रं परिवर्तयन्तु"
+
+#: package/contents/ui/configTimeZones.qml:184
+#, kde-format
+msgid ""
+"Using this feature does not change the systemwide time zone. When you "
+"travel, switch the systemwide time zone instead."
+msgstr ""
+"एतस्य विशेषतायाः उपयोगेन सङ्गणकतन्त्रव्यापी समयक्षेत्रं न परिवर्तते । यदा भवन्तः यात्रां "
+"कुर्वन्ति तदा तस्य स्थाने सङ्गणकतन्त्रव्यापी समयक्षेत्रं परिवर्तयन्तु ।."
+
+#: package/contents/ui/configTimeZones.qml:209
+#, fuzzy, kde-format
+#| msgid "Add More Timezones"
+msgid "Add More Time Zones"
+msgstr "अधिकानि समयक्षेत्राणि योजयन्तु"
+
+#: package/contents/ui/configTimeZones.qml:221
+#, fuzzy, kde-format
+#| msgid ""
+#| "At least one time zone needs to be enabled. Your local timezone was "
+#| "enabled automatically."
+msgid ""
+"At least one time zone needs to be enabled. Your local time zone was enabled "
+"automatically."
+msgstr ""
+"न्यूनातिन्यूनम् एकः समयक्षेत्रः सक्षमः करणीयः । भवतः स्थानीयसमयक्षेत्रं स्वयमेव सक्षमम् अभवत् ।."
+
+#: package/contents/ui/configTimeZones.qml:257
+#, kde-format
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: package/contents/ui/configTimeZones.qml:259
+#, kde-format
+msgid "%1, %2"
+msgstr "%1, %2"
+
+#: package/contents/ui/main.qml:215
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "अंशफलकम् प्रति प्रतिलिख्यताम्"
+
+#: package/contents/ui/main.qml:219
+#, kde-format
+msgid "Adjust Date and Time…"
+msgstr "तिथिं समयं च समायोजयन्तु…"
+
+#: package/contents/ui/main.qml:225
+#, kde-format
+msgid "Set Time Format…"
+msgstr "समय प्रारूपं निरूपयतु…"
+
 #: package/contents/ui/NoTimezoneWarning.qml:37
 #, kde-format
 msgctxt "@label Shown in place of digital clock when no timezone is set"
-msgid "Time zone is not set; click here to open Date & Time settings and set one"
-msgstr ""
-"समयक्षेत्रं न सेट् भवति; Date & Time सेटिंग्स् उद्घाट्य एकं सेट् कर्तुं "
-"अत्र क्लिक् कुर्वन्तु"
+msgid ""
+"Time zone is not set; click here to open Date & Time settings and set one"
+msgstr "समयक्षेत्रं न सेट् भवति; Date & Time सेटिंग्स् उद्घाट्य एकं सेट् कर्तुं अत्र क्लिक् कुर्वन्तु"
 
 #: package/contents/ui/Tooltip.qml:34
 #, kde-format
@@ -466,13 +449,15 @@ msgstr "अद्य %1 अस्ति"
 #: package/contents/ui/Tooltip.qml:65
 #, fuzzy, kde-format
 #| msgid "Time Zones"
-msgctxt "@label main text shown in digital clock's tooltip when timezone is missing"
+msgctxt ""
+"@label main text shown in digital clock's tooltip when timezone is missing"
 msgid "Time zone is not set"
 msgstr "समयक्षेत्राणि"
 
 #: package/contents/ui/Tooltip.qml:86
 #, kde-format
-msgctxt "@label sub text shown in digital clock's tooltip when timezone is missing"
+msgctxt ""
+"@label sub text shown in digital clock's tooltip when timezone is missing"
 msgid "Click the clock icon to open Date & Time settings and set a time zone."
 msgstr "Date & Time सेटिंग्स् उद्घाट्य समयक्षेत्रं सेट् कर्तुं घण्टाचिह्नं नुदन्तु ।"
 
@@ -481,6 +466,11 @@ msgstr "Date & Time सेटिंग्स् उद्घाट्य सम�
 msgctxt "@label %1 is a city or time zone name"
 msgid "%1:"
 msgstr "%1:"
+
+#: plugin/clipboardmenu.cpp:110
+#, kde-format
+msgid "Other Calendars"
+msgstr "अन्ये पञ्चाङ्गानि"
 
 #: plugin/clipboardmenu.cpp:118
 #, kde-format
@@ -499,3 +489,8 @@ msgstr "%1 (Julian तिथि)"
 msgctxt "This means \"Local Timezone\""
 msgid "Local"
 msgstr "स्थानीय"
+
+#: plugin/timezonemodel.cpp:149
+#, kde-format
+msgid "System's local time zone"
+msgstr "सङ्गणकप्रणाल्याः स्थानीयसमयक्षेत्रम्"

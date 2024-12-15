@@ -19,15 +19,53 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#: emaillineedit/emaillineedit.cpp:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Click on button for selecting contacts…"
+msgstr "सम्पर्कस्य चयनार्थं बटनं क्लिक् कुर्वन्तु…"
+
 #: emaillineedit/emaillineedit.cpp:37
 #, kde-format
 msgid "…"
 msgstr "…"
 
+#: emaillineedit/emaillineedit.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select Emails"
+msgstr "ईमेल चयनं कुर्वन्तु"
+
+#: emaillineedit/emaillineedit.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Emails"
+msgstr "ईमेल चयनं कुर्वन्तु"
+
+#: imapfoldercompletion/selectimapcreatefolderjob.cpp:90
+#: imapfoldercompletion/selectimapfolderwidget.cpp:114
+#: imapfoldercompletion/selectimapfolderwidget.cpp:120
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Folder"
+msgstr "Folder रचयन्तु"
+
 #: imapfoldercompletion/selectimapcreatefolderjob.cpp:90
 #, kde-format
 msgid "Error during creating folder: %1"
 msgstr "पुटस्य निर्माणकाले त्रुटिः: %1"
+
+#: imapfoldercompletion/selectimapfolderdialog.cpp:27
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Folder…"
+msgstr "फोल्डर् रचयन्तु…"
+
+#: imapfoldercompletion/selectimapfolderdialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Select IMAP folder"
+msgstr "IMAP फोल्डर् चिनोतु"
 
 #: imapfoldercompletion/selectimapfoldertreeview.cpp:37
 #, kde-format
@@ -38,6 +76,18 @@ msgstr "पुटसूचीं लोड् कर्तुं असमर्
 #, kde-format
 msgid "Loading in progress…"
 msgstr "लोडिंग् प्रचलति…"
+
+#: imapfoldercompletion/selectimapfolderwidget.cpp:42
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr "अन्वेषण…"
+
+#: imapfoldercompletion/selectimapfolderwidget.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Refresh IMAP Folder List"
+msgstr "IMAP पुटसूचीं ताजगीं कुर्वन्तु"
 
 #: imapfoldercompletion/selectimapfolderwidget.cpp:107
 #, kde-format
@@ -64,35 +114,11 @@ msgstr "रिक्तपुटनाम समर्थितं नास्�
 msgid "Error during loading folders: %1"
 msgstr "पुटं लोड् करणस्य समये त्रुटिः: %1"
 
-#: emaillineedit/emaillineedit.cpp:33
+#: imapfoldercompletion/selectimaploadfoldersjob.cpp:137
 #, kde-format
-msgctxt "@info:placeholder"
-msgid "Click on button for selecting contacts…"
-msgstr "सम्पर्कस्य चयनार्थं बटनं क्लिक् कुर्वन्तु…"
-
-#: imapfoldercompletion/selectimapfolderwidget.cpp:42
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search…"
-msgstr "अन्वेषण…"
-
-#: imapfoldercompletion/selectimapwidget.cpp:58
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Click on button for selecting folder…"
-msgstr "फोल्डर् चयनार्थं बटनं क्लिक् कुर्वन्तु…"
-
-#: emaillineedit/emaillineedit.cpp:39
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Select Emails"
-msgstr "ईमेल चयनं कुर्वन्तु"
-
-#: imapfoldercompletion/selectimapfolderwidget.cpp:48
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Refresh IMAP Folder List"
-msgstr "IMAP पुटसूचीं ताजगीं कुर्वन्तु"
+msgctxt "@title:window"
+msgid "Load Folders"
+msgstr "फोल्डर् लोड् कुर्वन्तु"
 
 #: imapfoldercompletion/selectimapwidget.cpp:31
 #, kde-format
@@ -100,34 +126,8 @@ msgctxt "@info:tooltip"
 msgid "Select IMAP folder"
 msgstr "IMAP फोल्डर् चिनोतु"
 
-#: emaillineedit/emaillineedit.cpp:86
+#: imapfoldercompletion/selectimapwidget.cpp:58
 #, kde-format
-msgctxt "@title:window"
-msgid "Select Emails"
-msgstr "ईमेल चयनं कुर्वन्तु"
-
-#: imapfoldercompletion/selectimapcreatefolderjob.cpp:90
-#: imapfoldercompletion/selectimapfolderwidget.cpp:114
-#: imapfoldercompletion/selectimapfolderwidget.cpp:120
-#, kde-format
-msgctxt "@title:window"
-msgid "Create Folder"
-msgstr "Folder रचयन्तु"
-
-#: imapfoldercompletion/selectimapfolderdialog.cpp:29
-#, kde-format
-msgctxt "@title:window"
-msgid "Select IMAP folder"
-msgstr "IMAP फोल्डर् चिनोतु"
-
-#: imapfoldercompletion/selectimaploadfoldersjob.cpp:137
-#, kde-format
-msgctxt "@title:window"
-msgid "Load Folders"
-msgstr "फोल्डर् लोड् कुर्वन्तु"
-
-#: imapfoldercompletion/selectimapfolderdialog.cpp:27
-#, kde-format
-msgctxt "@action:button"
-msgid "Create Folder…"
-msgstr "फोल्डर् रचयन्तु…"
+msgctxt "@info:placeholder"
+msgid "Click on button for selecting folder…"
+msgstr "फोल्डर् चयनार्थं बटनं क्लिक् कुर्वन्तु…"

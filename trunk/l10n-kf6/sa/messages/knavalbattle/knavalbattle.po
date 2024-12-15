@@ -19,53 +19,62 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: controller.cpp:50
 #, kde-format
 msgid "Computer"
 msgstr "संगणक"
 
-#: knavalbattle.kcfg:9
 #. i18n: ectx: label, entry (Hostname), group (network)
+#: knavalbattle.kcfg:9
 #, kde-format
 msgid "Default hostname for multiplayer games."
 msgstr "बहुक्रीडकक्रीडाणां कृते पूर्वनिर्धारितं होस्टनाम ।"
 
-#: knavalbattle.kcfg:13
 #. i18n: ectx: label, entry (Port), group (network)
+#: knavalbattle.kcfg:13
 #, kde-format
 msgid "Default port for multiplayer games."
 msgstr "बहुक्रीडकक्रीडाणां कृते पूर्वनिर्धारितं पोर्ट् ।"
 
-#: knavalbattle.kcfg:19
 #. i18n: ectx: label, entry (Nickname), group (general)
+#: knavalbattle.kcfg:19
 #, kde-format
 msgid "User nickname."
 msgstr "उपयोक्तृ उपनाम।"
 
-#: knavalbattle.kcfg:22
 #. i18n: ectx: label, entry (EnableSounds), group (general)
+#: knavalbattle.kcfg:22
 #, kde-format
 msgid "Whether sound effects should be played."
 msgstr "ध्वनिप्रभावाः वादनीयाः वा।"
 
-#: knavalbattle.kcfg:26
 #. i18n: ectx: label, entry (AdjacentShips), group (general)
+#: knavalbattle.kcfg:26
 #, kde-format
 msgid "Allow the ships to be adjacent without one empty space between them."
-msgstr ""
-"तयोः मध्ये एकं शून्यं स्थानं विना जहाजानां समीपस्थं भवितुं अनुमन्यताम् ।"
+msgstr "तयोः मध्ये एकं शून्यं स्थानं विना जहाजानां समीपस्थं भवितुं अनुमन्यताम् ।"
 
-#: knavalbattle.kcfg:30
 #. i18n: ectx: label, entry (SeveralShips), group (general)
+#: knavalbattle.kcfg:30
 #, kde-format
 msgid ""
 "Allow multiple ships of any size, default: 4 of 1, 3 of 2, 2 of 3, 1 of 4."
 msgstr ""
-"कस्यापि आकारस्य बहुविधं जहाजं अनुमन्यताम्, पूर्वनिर्धारितरूपेण: १ मध्ये ४, "
-"२ मध्ये ३, ३ मध्ये २, ४ मध्ये १ ।"
+"कस्यापि आकारस्य बहुविधं जहाजं अनुमन्यताम्, पूर्वनिर्धारितरूपेण: १ मध्ये ४, २ मध्ये ३, ३ मध्ये "
+"२, ४ मध्ये १ ।"
 
-#: knavalbattleui.rc:29
 #. i18n: ectx: ToolBar (gameToolbar)
+#: knavalbattleui.rc:29
 #, kde-format
 msgid "Game Toolbar"
 msgstr "गेम टूलबार"
@@ -274,6 +283,66 @@ msgstr "[URL] ९."
 msgid "URL of a Naval Battle game server to connect to after startup"
 msgstr "प्रारम्भानन्तरं सम्बद्धं कर्तुं नौसेनायुद्धक्रीडासर्वरस्य URL"
 
+#: mainwindow.cpp:59
+#, kde-format
+msgctxt "@action"
+msgid "&Single Player"
+msgstr "&एकल खिलाडी"
+
+#: mainwindow.cpp:63
+#, kde-format
+msgctxt "@action"
+msgid "&Host Game…"
+msgstr "&होस्ट गेम…"
+
+#: mainwindow.cpp:67
+#, kde-format
+msgctxt "@action"
+msgid "&Connect to Game…"
+msgstr "&खेलेन सह कनेक्ट् कुर्वन्तु…"
+
+#: mainwindow.cpp:72
+#, kde-format
+msgctxt "@action"
+msgid "Change &Nickname…"
+msgstr "परिवर्तन &उपनाम…"
+
+#: mainwindow.cpp:76
+#, kde-format
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "ध्वनयः वादयन्तु"
+
+#: mainwindow.cpp:81
+#, kde-format
+msgctxt "@option:check"
+msgid "&Adjacent Ships"
+msgstr "&समीपस्थ जहाज"
+
+#: mainwindow.cpp:86
+#, kde-format
+msgctxt "@option:check"
+msgid "&Multiple Ships"
+msgstr "&बहु जहाज"
+
+#: mainwindow.cpp:91
+#, kde-format
+msgctxt "@option:check"
+msgid "Show End-of-Game Message"
+msgstr "क्रीडायाः अन्त्यसन्देशं दर्शयतु"
+
+#: mainwindow.cpp:96
+#, kde-format
+msgctxt "@option:check"
+msgid "Show &Left Grid"
+msgstr "&Left Grid दर्शयतु"
+
+#: mainwindow.cpp:100
+#, kde-format
+msgctxt "@option:check"
+msgid "Show &Right Grid"
+msgstr "&Right Grid दर्शयतु"
+
 #: networkdialog.cpp:61
 #, kde-format
 msgid "&Nickname:"
@@ -293,6 +362,18 @@ msgstr "&होस्टनाम: १."
 #, kde-format
 msgid "&Port:"
 msgstr "&पोताश्रय:"
+
+#: networkdialog.cpp:116
+#, kde-format
+msgctxt "@action:button"
+msgid "&Enter Server Address Manually"
+msgstr "&सर्वर-पतेः मैन्युअल् रूपेण प्रविष्टं कुर्वन्तु"
+
+#: networkdialog.cpp:148
+#, kde-format
+msgctxt "@title:window"
+msgid "Network Parameters"
+msgstr "संजाल पैरामीटर"
 
 #: networkdialog.cpp:210
 #, kde-format
@@ -374,12 +455,40 @@ msgstr "त्वं हास्यसि।"
 msgid "You lose. Better luck next time!"
 msgstr "त्वं हास्यसि। अग्रिमे समये उत्तमं भाग्यम्!"
 
+#: playfield.cpp:209
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Nickname"
+msgstr "उपनाम परिवर्तयतु"
+
+#: playfield.cpp:209
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enter new nickname:"
+msgstr "नूतनं उपनाम प्रविष्टं कुर्वन्तु:"
+
+#: playfield.cpp:238
+#, kde-format
+msgctxt "@title:window"
+msgid "Restart Game"
+msgstr "पुनः क्रीडां आरभत"
+
 #: playfield.cpp:239
 #, kde-format
 msgid "Your opponent has requested to restart the game. Do you accept?"
-msgstr ""
-"भवतः प्रतिद्वन्द्वी पुनः क्रीडां आरभ्य प्रार्थितवान् अस्ति। किं भवन्तः "
-"स्वीकुर्वन्ति ?"
+msgstr "भवतः प्रतिद्वन्द्वी पुनः क्रीडां आरभ्य प्रार्थितवान् अस्ति। किं भवन्तः स्वीकुर्वन्ति ?"
+
+#: playfield.cpp:240
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr "स्वीकरोतु"
+
+#: playfield.cpp:241
+#, kde-format
+msgctxt "@action:button"
+msgid "Reject"
+msgstr "अस्वीकार"
 
 #: playfield.cpp:250
 #, kde-format
@@ -388,10 +497,9 @@ msgid ""
 "according to the rules enforced by old clients, ships cannot be placed "
 "adjacent to one another and only one ship of each size is allowed."
 msgstr ""
-"भवतः प्रतिद्वन्द्वी Naval Battle इत्यस्य पूर्व-KDE4 संस्करणस्य उपयोगं करोति "
-"। ध्यानं कुर्वन्तु यत्, पुरातनग्राहकैः प्रवर्तितानां नियमानाम् अनुसारं "
-"जहाजाः परस्परं समीपे स्थापयितुं न शक्यन्ते तथा च प्रत्येकस्य आकारस्य एकमेव "
-"जहाजं अनुमतम्"
+"भवतः प्रतिद्वन्द्वी Naval Battle इत्यस्य पूर्व-KDE4 संस्करणस्य उपयोगं करोति । ध्यानं कुर्वन्तु "
+"यत्, पुरातनग्राहकैः प्रवर्तितानां नियमानाम् अनुसारं जहाजाः परस्परं समीपे स्थापयितुं न शक्यन्ते "
+"तथा च प्रत्येकस्य आकारस्य एकमेव जहाजं अनुमतम्"
 
 #: playfield.cpp:263
 #, kde-format
@@ -421,116 +529,12 @@ msgstr "अन्यस्य खिलाडयः स्वस्य जहा
 #: playfield.cpp:297
 #, kde-format
 msgid "Place your %1 ships. Use the right mouse button to rotate them."
-msgstr ""
-"स्वस्य %1 जहाजानि स्थापयन्तु। तान् परिभ्रमितुं दक्षिणमूषकस्य बटनस्य उपयोगं "
-"कुर्वन्तु ।"
+msgstr "स्वस्य %1 जहाजानि स्थापयन्तु। तान् परिभ्रमितुं दक्षिणमूषकस्य बटनस्य उपयोगं कुर्वन्तु ।"
 
 #: playfield.cpp:303
 #, kde-format
 msgid "You can't place your remaining ships."
 msgstr "भवन्तः स्वस्य अवशिष्टानि पोतानि स्थापयितुं न शक्नुवन्ति।"
-
-#: playfield.cpp:307
-#, kde-format
-msgid ""
-"You can't place your remaining ships. Please restart placing ships or abort "
-"game"
-msgstr ""
-"भवन्तः स्वस्य अवशिष्टानि पोतानि स्थापयितुं न शक्नुवन्ति। कृपया जहाजस्थापनं "
-"पुनः आरभत अथवा क्रीडां गर्भपातं कुर्वन्तु"
-
-#: simplemenu.cpp:132 simplemenu.cpp:149
-#, kde-format
-msgid "Remote player"
-msgstr "दूरस्थः खिलाडी"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: mainwindow.cpp:59
-#, kde-format
-msgctxt "@action"
-msgid "&Single Player"
-msgstr "&एकल खिलाडी"
-
-#: mainwindow.cpp:63
-#, kde-format
-msgctxt "@action"
-msgid "&Host Game…"
-msgstr "&होस्ट गेम…"
-
-#: mainwindow.cpp:67
-#, kde-format
-msgctxt "@action"
-msgid "&Connect to Game…"
-msgstr "&खेलेन सह कनेक्ट् कुर्वन्तु…"
-
-#: mainwindow.cpp:72
-#, kde-format
-msgctxt "@action"
-msgid "Change &Nickname…"
-msgstr "परिवर्तन &उपनाम…"
-
-#: mainwindow.cpp:76
-#, kde-format
-msgctxt "@option:check"
-msgid "Play Sounds"
-msgstr "ध्वनयः वादयन्तु"
-
-#: mainwindow.cpp:81
-#, kde-format
-msgctxt "@option:check"
-msgid "&Adjacent Ships"
-msgstr "&समीपस्थ जहाज"
-
-#: mainwindow.cpp:86
-#, kde-format
-msgctxt "@option:check"
-msgid "&Multiple Ships"
-msgstr "&बहु जहाज"
-
-#: mainwindow.cpp:91
-#, kde-format
-msgctxt "@option:check"
-msgid "Show End-of-Game Message"
-msgstr "क्रीडायाः अन्त्यसन्देशं दर्शयतु"
-
-#: mainwindow.cpp:96
-#, kde-format
-msgctxt "@option:check"
-msgid "Show &Left Grid"
-msgstr "&Left Grid दर्शयतु"
-
-#: mainwindow.cpp:100
-#, kde-format
-msgctxt "@option:check"
-msgid "Show &Right Grid"
-msgstr "&Right Grid दर्शयतु"
-
-#: networkdialog.cpp:116
-#, kde-format
-msgctxt "@action:button"
-msgid "&Enter Server Address Manually"
-msgstr "&सर्वर-पतेः मैन्युअल् रूपेण प्रविष्टं कुर्वन्तु"
-
-#: playfield.cpp:240
-#, kde-format
-msgctxt "@action:button"
-msgid "Accept"
-msgstr "स्वीकरोतु"
-
-#: playfield.cpp:241
-#, kde-format
-msgctxt "@action:button"
-msgid "Reject"
-msgstr "अस्वीकार"
 
 #: playfield.cpp:304
 #, kde-format
@@ -543,6 +547,21 @@ msgstr "पुनः आरभत"
 msgctxt "@action:button"
 msgid "Abort"
 msgstr "गर्भपातं कुरुत"
+
+#: playfield.cpp:307
+#, kde-format
+msgid ""
+"You can't place your remaining ships. Please restart placing ships or abort "
+"game"
+msgstr ""
+"भवन्तः स्वस्य अवशिष्टानि पोतानि स्थापयितुं न शक्नुवन्ति। कृपया जहाजस्थापनं पुनः आरभत अथवा "
+"क्रीडां गर्भपातं कुर्वन्तु"
+
+#: playfield.cpp:308
+#, kde-format
+msgctxt "@title:window"
+msgid "Restart Placing Ships"
+msgstr "जहाजस्थापनं पुनः आरभत"
 
 #: simplemenu.cpp:40
 #, kde-format
@@ -562,32 +581,7 @@ msgctxt "@action:button"
 msgid "Connect to Network Game"
 msgstr "Network Game इत्यनेन सह सम्बद्धं कुर्वन्तु"
 
-#: networkdialog.cpp:148
+#: simplemenu.cpp:132 simplemenu.cpp:149
 #, kde-format
-msgctxt "@title:window"
-msgid "Network Parameters"
-msgstr "संजाल पैरामीटर"
-
-#: playfield.cpp:209
-#, kde-format
-msgctxt "@title:window"
-msgid "Change Nickname"
-msgstr "उपनाम परिवर्तयतु"
-
-#: playfield.cpp:238
-#, kde-format
-msgctxt "@title:window"
-msgid "Restart Game"
-msgstr "पुनः क्रीडां आरभत"
-
-#: playfield.cpp:308
-#, kde-format
-msgctxt "@title:window"
-msgid "Restart Placing Ships"
-msgstr "जहाजस्थापनं पुनः आरभत"
-
-#: playfield.cpp:209
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Enter new nickname:"
-msgstr "नूतनं उपनाम प्रविष्टं कुर्वन्तु:"
+msgid "Remote player"
+msgstr "दूरस्थः खिलाडी"

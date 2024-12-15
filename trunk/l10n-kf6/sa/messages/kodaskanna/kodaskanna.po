@@ -19,6 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: src/app/main.cpp:30
 #, kde-format
 msgid "Kodaskanna"
@@ -54,26 +64,74 @@ msgstr "चित्रसञ्चिकां उद्घाटयितु�
 msgid "Enable only one scan."
 msgstr "केवलं एकं स्कैन् सक्षमं कुर्वन्तु।"
 
-#: src/imagesource/imageselectwidget.ui:49
+#: src/clipboardexport/tool.cpp:36
+#, kde-format
+msgctxt "@action"
+msgid "Copy Text to Clipboard"
+msgstr "पाठं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#: src/clipboardexport/tool.cpp:40
+#, kde-format
+msgctxt "@action"
+msgid "Copy Data to Clipboard"
+msgstr "Data प्रतिलिपिं Clipboard मध्ये कुर्वन्तु"
+
+#: src/fileexport/tool.cpp:35
+#, kde-format
+msgctxt "@action"
+msgid "Save Text As…"
+msgstr "पाठं रक्षन्तु यथा…"
+
+#: src/fileexport/tool.cpp:39
+#, kde-format
+msgctxt "@action"
+msgid "Save Data As…"
+msgstr "दत्तांशं रक्षन्तु यथा…"
+
+#: src/fileexport/tool.cpp:67
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Text As"
+msgstr "पाठं रक्षन्तु यथा"
+
+#: src/fileexport/tool.cpp:84
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Data As"
+msgstr "Save Data As"
+
+#: src/imagesource/imageselecttool.cpp:66
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Image"
+msgstr "चित्रं उद्घाटयतु"
+
+#: src/imagesource/imageselectwidget.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "No suitable data on the clipboard."
+msgstr "क्लिप्बोर्ड् मध्ये उपयुक्तः दत्तांशः नास्ति ।"
+
 #. i18n: ectx: property (text), widget (QPushButton, openFileButton)
+#: src/imagesource/imageselectwidget.ui:49
 #, kde-format
 msgid "Select a File"
 msgstr "एकं सञ्चिकां चिनोतु"
 
-#: src/imagesource/imageselectwidget.ui:89
 #. i18n: ectx: property (text), widget (QPushButton, pasteFromClipboardButton)
+#: src/imagesource/imageselectwidget.ui:89
 #, kde-format
 msgid "Paste from Clipboard"
 msgstr "क्लिप्बोर्डतः पेस्ट् कुर्वन्तु"
 
-#: src/imagesource/imageselectwidget.ui:114
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: src/imagesource/imageselectwidget.ui:114
 #, kde-format
 msgid "or"
 msgstr "वा"
 
-#: src/imagesource/imageselectwidget.ui:121
 #. i18n: ectx: property (text), widget (QLabel, dropMessage)
+#: src/imagesource/imageselectwidget.ui:121
 #, kde-format
 msgid "Drop an image here"
 msgstr "अत्र एकं चित्रं पातयन्तु"
@@ -108,66 +166,8 @@ msgstr "एकं URL आवश्यकम्।"
 msgid "Could not find Kodaskanna."
 msgstr "कोडस्कन्नां न प्राप्नोत्।"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: src/clipboardexport/tool.cpp:36
-#, kde-format
-msgctxt "@action"
-msgid "Copy Text to Clipboard"
-msgstr "पाठं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
-
-#: src/clipboardexport/tool.cpp:40
-#, kde-format
-msgctxt "@action"
-msgid "Copy Data to Clipboard"
-msgstr "Data प्रतिलिपिं Clipboard मध्ये कुर्वन्तु"
-
-#: src/fileexport/tool.cpp:35
-#, kde-format
-msgctxt "@action"
-msgid "Save Text As…"
-msgstr "पाठं रक्षन्तु यथा…"
-
-#: src/fileexport/tool.cpp:39
-#, kde-format
-msgctxt "@action"
-msgid "Save Data As…"
-msgstr "दत्तांशं रक्षन्तु यथा…"
-
 #: src/sourcenavigation/tool.cpp:33
 #, kde-format
 msgctxt "@action"
 msgid "Choose Another Source"
 msgstr "अन्यं स्रोतं चिनोतु"
-
-#: src/fileexport/tool.cpp:67
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Text As"
-msgstr "पाठं रक्षन्तु यथा"
-
-#: src/fileexport/tool.cpp:84
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Data As"
-msgstr "Save Data As"
-
-#: src/imagesource/imageselecttool.cpp:66
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Image"
-msgstr "चित्रं उद्घाटयतु"
-
-#: src/imagesource/imageselectwidget.cpp:94
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "No suitable data on the clipboard."
-msgstr "क्लिप्बोर्ड् मध्ये उपयुक्तः दत्तांशः नास्ति ।"

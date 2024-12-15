@@ -19,6 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #. i18n: ectx: property (title), widget (QGroupBox, gameTypeGroup)
 #: general.ui:32
 #, kde-format
@@ -127,6 +137,66 @@ msgstr "क्रीडायाः प्रकारः"
 msgid "Rounds"
 msgstr "गोलम्"
 
+#: ktron.cpp:64
+#, kde-format
+msgctxt "@action"
+msgid "Right Player / KSnake mode: Up"
+msgstr "दक्षिणः खिलाडी / KSnake मोड: उपरि"
+
+#: ktron.cpp:70
+#, kde-format
+msgctxt "@action"
+msgid "Right Player / KSnake mode: Down"
+msgstr "दक्षिणः खिलाडी / KSnake मोडः: अधः"
+
+#: ktron.cpp:76
+#, kde-format
+msgctxt "@action"
+msgid "Right Player / KSnake mode: Right"
+msgstr "सम्यक् खिलाडी / KSnake मोड: सम्यक्"
+
+#: ktron.cpp:82
+#, kde-format
+msgctxt "@action"
+msgid "Right Player / KSnake mode: Left"
+msgstr "दक्षिणः खिलाडी / KSnake मोडः: वामः"
+
+#: ktron.cpp:88
+#, kde-format
+msgctxt "@action"
+msgid "Right Player: Accelerator"
+msgstr "दक्षिणः खिलाडी : त्वरकः"
+
+#: ktron.cpp:94
+#, kde-format
+msgctxt "@action"
+msgid "Left Player: Up"
+msgstr "वामः खिलाडी : उपरि"
+
+#: ktron.cpp:100
+#, kde-format
+msgctxt "@action"
+msgid "Left Player: Down"
+msgstr "वामक्रीडकः : अधः"
+
+#: ktron.cpp:106
+#, kde-format
+msgctxt "@action"
+msgid "Left Player: Right"
+msgstr "वामः खिलाडी : दक्षिणः"
+
+#: ktron.cpp:112
+#, kde-format
+msgctxt "@action"
+msgid "Left Player: Left"
+msgstr "वामः खिलाडी : वाम"
+
+#: ktron.cpp:118
+#, kde-format
+msgctxt "@action"
+msgid "Left Player: Accelerator"
+msgstr "वामः खिलाडी : त्वरक"
+
 #: ktron.cpp:162
 #, kde-format
 msgid "Failed to load \"%1\" theme. Please check your installation."
@@ -141,6 +211,42 @@ msgstr "%1 विजयी अभवत्!"
 #, kde-format
 msgid "Game paused"
 msgstr "क्रीडा विरमति स्म"
+
+#: ktron.cpp:253
+#, kde-format
+msgctxt "@label"
+msgid "Player name:"
+msgstr "खिलाडीनाम : १."
+
+#: ktron.cpp:254
+#, kde-format
+msgctxt "@label"
+msgid "Opponent:"
+msgstr "विपरीतः:"
+
+#: ktron.cpp:257
+#, kde-format
+msgctxt "@label"
+msgid "Right player:"
+msgstr "दक्षिणः खिलाडी : १."
+
+#: ktron.cpp:258
+#, kde-format
+msgctxt "@label"
+msgid "Left player:"
+msgstr "वामक्रीडकः : १."
+
+#: ktron.cpp:262
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr "सामान्य"
+
+#: ktron.cpp:263
+#, kde-format
+msgctxt "@title:tab"
+msgid "Theme"
+msgstr "विषयवस्तु"
 
 #: main.cpp:51 player.cpp:82
 #, kde-format
@@ -216,6 +322,12 @@ msgid_plural "%1 has won versus %2 with %4 versus %3 points!"
 msgstr[0] "%1 इत्यनेन %2 विरुद्धं %3 बिन्दुना %4 सह विजयः प्राप्तः!"
 msgstr[1] "%1 इत्यनेन %2 विरुद्धं %3 अंकैः %4 सह विजयः प्राप्तः!"
 
+#: tron.cpp:354
+#, kde-format
+msgctxt "%2 = 'x points' [player %1], %4 = 'x points' [player %3]"
+msgid "%1 (%2) versus %3 (%4)"
+msgstr "%1 (%2) वर्सेस् %3 (%4)"
+
 #: tron.cpp:355 tron.cpp:356
 #, kde-format
 msgid "%1 point"
@@ -232,122 +344,11 @@ msgstr[1] "%1 अंकैः क्रीडा समाप्तवती ।
 
 #: tron.cpp:369
 #, kde-format
-msgid "The game starts when each player has pressed one of their direction keys!"
+msgid ""
+"The game starts when each player has pressed one of their direction keys!"
 msgstr "यदा प्रत्येकं खिलाडी स्वस्य एकं दिशाकुंजी दबावति तदा क्रीडा आरभ्यते!"
 
 #: tron.cpp:372
 #, kde-format
 msgid "Press any of your direction keys to start!"
 msgstr "आरम्भार्थं भवतः कस्यापि दिशाकुंजी नुदन्तु!"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: ktron.cpp:64
-#, kde-format
-msgctxt "@action"
-msgid "Right Player / KSnake mode: Up"
-msgstr "दक्षिणः खिलाडी / KSnake मोड: उपरि"
-
-#: ktron.cpp:70
-#, kde-format
-msgctxt "@action"
-msgid "Right Player / KSnake mode: Down"
-msgstr "दक्षिणः खिलाडी / KSnake मोडः: अधः"
-
-#: ktron.cpp:76
-#, kde-format
-msgctxt "@action"
-msgid "Right Player / KSnake mode: Right"
-msgstr "सम्यक् खिलाडी / KSnake मोड: सम्यक्"
-
-#: ktron.cpp:82
-#, kde-format
-msgctxt "@action"
-msgid "Right Player / KSnake mode: Left"
-msgstr "दक्षिणः खिलाडी / KSnake मोडः: वामः"
-
-#: ktron.cpp:88
-#, kde-format
-msgctxt "@action"
-msgid "Right Player: Accelerator"
-msgstr "दक्षिणः खिलाडी : त्वरकः"
-
-#: ktron.cpp:94
-#, kde-format
-msgctxt "@action"
-msgid "Left Player: Up"
-msgstr "वामः खिलाडी : उपरि"
-
-#: ktron.cpp:100
-#, kde-format
-msgctxt "@action"
-msgid "Left Player: Down"
-msgstr "वामक्रीडकः : अधः"
-
-#: ktron.cpp:106
-#, kde-format
-msgctxt "@action"
-msgid "Left Player: Right"
-msgstr "वामः खिलाडी : दक्षिणः"
-
-#: ktron.cpp:112
-#, kde-format
-msgctxt "@action"
-msgid "Left Player: Left"
-msgstr "वामः खिलाडी : वाम"
-
-#: ktron.cpp:118
-#, kde-format
-msgctxt "@action"
-msgid "Left Player: Accelerator"
-msgstr "वामः खिलाडी : त्वरक"
-
-#: ktron.cpp:253
-#, kde-format
-msgctxt "@label"
-msgid "Player name:"
-msgstr "खिलाडीनाम : १."
-
-#: ktron.cpp:254
-#, kde-format
-msgctxt "@label"
-msgid "Opponent:"
-msgstr "विपरीतः:"
-
-#: ktron.cpp:257
-#, kde-format
-msgctxt "@label"
-msgid "Right player:"
-msgstr "दक्षिणः खिलाडी : १."
-
-#: ktron.cpp:258
-#, kde-format
-msgctxt "@label"
-msgid "Left player:"
-msgstr "वामक्रीडकः : १."
-
-#: ktron.cpp:262
-#, kde-format
-msgctxt "@title:tab"
-msgid "General"
-msgstr "सामान्य"
-
-#: ktron.cpp:263
-#, kde-format
-msgctxt "@title:tab"
-msgid "Theme"
-msgstr "विषयवस्तु"
-
-#: tron.cpp:354
-#, kde-format
-msgctxt "%2 = 'x points' [player %1], %4 = 'x points' [player %3]"
-msgid "%1 (%2) versus %3 (%4)"
-msgstr "%1 (%2) वर्सेस् %3 (%4)"

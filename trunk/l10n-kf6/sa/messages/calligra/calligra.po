@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,20 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
 
 #: basicflakes/plugin/KoCreatePathToolFactory.cpp:17
 #, kde-format
@@ -44,7 +54,8 @@ msgstr "कोणस्नैप सक्रियताम् : १."
 msgid "Angle Constraints"
 msgstr "कोण बाध्यता"
 
-#: basicflakes/tools/KoCreatePathTool.cpp:461 basicflakes/tools/KoPencilTool.cpp:339 widgets/KoGradientEditWidget.cpp:150
+#: basicflakes/tools/KoCreatePathTool.cpp:461
+#: basicflakes/tools/KoPencilTool.cpp:339 widgets/KoGradientEditWidget.cpp:150
 #, kde-format
 msgid "Line"
 msgstr "पंक्ति"
@@ -54,17 +65,26 @@ msgstr "पंक्ति"
 msgid "Precision:"
 msgstr "सटीकता : १."
 
-#: basicflakes/tools/KoPencilTool.cpp:279 flake/KoConnectionShapeConfigWidget.cpp:20
+#: basicflakes/tools/KoPencilTool.cpp:278
+#, kde-format
+msgctxt "The raw line data"
+msgid "Raw"
+msgstr "अपक्व"
+
+#: basicflakes/tools/KoPencilTool.cpp:279
+#: flake/KoConnectionShapeConfigWidget.cpp:20
 #, kde-format
 msgid "Curve"
 msgstr "वक्रम्"
 
-#: basicflakes/tools/KoPencilTool.cpp:280 flake/KoConnectionShapeConfigWidget.cpp:19
+#: basicflakes/tools/KoPencilTool.cpp:280
+#: flake/KoConnectionShapeConfigWidget.cpp:19
 #, kde-format
 msgid "Straight"
 msgstr "समरेखः"
 
-#: basicflakes/tools/KoPencilTool.cpp:289 basicflakes/tools/KoPencilTool.cpp:295
+#: basicflakes/tools/KoPencilTool.cpp:289
+#: basicflakes/tools/KoPencilTool.cpp:295
 #, kde-format
 msgid "Optimize"
 msgstr "अनुकूलनं कुर्वन्तु"
@@ -74,10 +94,241 @@ msgstr "अनुकूलनं कुर्वन्तु"
 msgid "Exactness:"
 msgstr "सटीकता : १."
 
-#: basicflakes/tools/KoPencilTool.cpp:334 basicflakes/tools/KoPencilTool.cpp:335
+#: basicflakes/tools/KoPencilTool.cpp:334
+#: basicflakes/tools/KoPencilTool.cpp:335
 #, kde-format
 msgid "Pencil"
 msgstr "अङ्कनी"
+
+#: flake/commands/KoConnectionShapeTypeCommand.cpp:17
+msgctxt "(qtundo-format)"
+msgid "Change Connection"
+msgstr "Connection परिवर्तनं कुर्वन्तु"
+
+#: flake/commands/KoParameterHandleMoveCommand.cpp:26
+msgctxt "(qtundo-format)"
+msgid "Change parameter"
+msgstr "पैरामीटर् परिवर्तयन्तु"
+
+#: flake/commands/KoParameterToPathCommand.cpp:32
+#: flake/commands/KoParameterToPathCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Convert to Path"
+msgstr "मार्गे परिवर्तनं कुर्वन्तु"
+
+#: flake/commands/KoPathBreakAtPointCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Break subpath at points"
+msgstr "बिन्दुषु उपमार्गं भङ्गयन्तु"
+
+#: flake/commands/KoPathCombineCommand.cpp:47
+msgctxt "(qtundo-format)"
+msgid "Combine paths"
+msgstr "मार्गान् संयोजयन्तु"
+
+#: flake/commands/KoPathControlPointMoveCommand.cpp:27
+msgctxt "(qtundo-format)"
+msgid "Move control point"
+msgstr "नियन्त्रणबिन्दुं चालयन्तु"
+
+#: flake/commands/KoPathFillRuleCommand.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Set fill rule"
+msgstr "पूरण नियमं सेट् कुर्वन्तु"
+
+#: flake/commands/KoPathPointInsertCommand.cpp:70
+msgctxt "(qtundo-format)"
+msgid "Insert points"
+msgstr "बिन्दून् सम्मिलित करें"
+
+#: flake/commands/KoPathPointMergeCommand.cpp:138
+msgctxt "(qtundo-format)"
+msgid "Merge points"
+msgstr "बिन्दून् विलीनीकरणं कुर्वन्तु"
+
+#: flake/commands/KoPathPointMoveCommand.cpp:31
+#: flake/commands/KoPathPointMoveCommand.cpp:47
+msgctxt "(qtundo-format)"
+msgid "Move points"
+msgstr "बिन्दून् चालयन्तु"
+
+#: flake/commands/KoPathPointRemoveCommand.cpp:92
+#: flake/commands/KoPathPointRemoveCommand.cpp:120
+msgctxt "(qtundo-format)"
+msgid "Remove points"
+msgstr "बिन्दून् अपसारयन्तु"
+
+#: flake/commands/KoPathPointTypeCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Set point type"
+msgstr "बिन्दुप्रकारं सेट् कुर्वन्तु"
+
+#: flake/commands/KoPathReverseCommand.cpp:39
+msgctxt "(qtundo-format)"
+msgid "Reverse paths"
+msgstr "विपर्ययमार्गाः"
+
+#: flake/commands/KoPathSegmentBreakCommand.cpp:28
+msgctxt "(qtundo-format)"
+msgid "Break subpath"
+msgstr "उपमार्गं भङ्गयतु"
+
+#: flake/commands/KoPathSegmentTypeCommand.cpp:118
+msgctxt "(qtundo-format)"
+msgid "Change segments to curves"
+msgstr "खण्डान् वक्रेषु परिवर्तयन्तु"
+
+#: flake/commands/KoPathSegmentTypeCommand.cpp:120
+msgctxt "(qtundo-format)"
+msgid "Change segments to lines"
+msgstr "खण्डान् रेखासु परिवर्तयन्तु"
+
+#: flake/commands/KoPathShapeMarkerCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Set marker"
+msgstr "चेक मार्क"
+
+#: flake/commands/KoShapeAlignCommand.cpp:78
+msgctxt "(qtundo-format)"
+msgid "Align shapes"
+msgstr "आकृतयः संरेखयन्तु"
+
+#: flake/commands/KoShapeBackgroundCommand.cpp:49
+#: flake/commands/KoShapeBackgroundCommand.cpp:60
+#: flake/commands/KoShapeBackgroundCommand.cpp:75
+msgctxt "(qtundo-format)"
+msgid "Set background"
+msgstr "पृष्ठभूमिं सेट् कुर्वन्तु"
+
+#: flake/commands/KoShapeClipCommand.cpp:64
+#: flake/commands/KoShapeClipCommand.cpp:81
+msgctxt "(qtundo-format)"
+msgid "Clip Shape"
+msgstr "क्लिप् आकृतिः"
+
+#: flake/commands/KoShapeCreateCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgstr "आकारं रचयतु"
+
+#: flake/commands/KoShapeDeleteCommand.cpp:44
+msgctxt "(qtundo-format) Delete one shape"
+msgid "Delete shape"
+msgstr "आकारं विलोपयतु"
+
+#: flake/commands/KoShapeDeleteCommand.cpp:56
+msgctxt "(qtundo-format)"
+msgid "Delete shape"
+msgid_plural "Delete shapes"
+msgstr[0] "आकारं विलोपयतु"
+msgstr[1] "आकृतयः विलोपयन्तु"
+
+#: flake/commands/KoShapeDistributeCommand.cpp:121
+msgctxt "(qtundo-format)"
+msgid "Distribute shapes"
+msgstr "आकृतयः वितरन्तु"
+
+#: flake/commands/KoShapeGroupCommand.cpp:85
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "समूहाकाराः"
+
+#: flake/commands/KoShapeGroupCommand.cpp:87
+msgctxt "(qtundo-format)"
+msgid "Add shapes to group"
+msgstr "समूहे आकृतयः योजयन्तु"
+
+#: flake/commands/KoShapeKeepAspectRatioCommand.cpp:17
+msgctxt "(qtundo-format)"
+msgid "Keep Aspect Ratio"
+msgstr "आस्पेक्ट रेशियो रखें"
+
+#: flake/commands/KoShapeLockCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Lock shapes"
+msgstr "तालाकाराः"
+
+#: flake/commands/KoShapeMoveCommand.cpp:37
+#: flake/commands/KoShapeMoveCommand.cpp:57
+msgctxt "(qtundo-format)"
+msgid "Move shapes"
+msgstr "आकारान् चालयन्तु"
+
+#: flake/commands/KoShapeRenameCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Rename Shape"
+msgstr "आकारस्य नाम परिवर्तयतु"
+
+#: flake/commands/KoShapeReorderCommand.cpp:40
+msgctxt "(qtundo-format)"
+msgid "Reorder shapes"
+msgstr "आकारान् पुनः क्रमयन्तु"
+
+#: flake/commands/KoShapeRunAroundCommand.cpp:77
+msgctxt "(qtundo-format)"
+msgid "Change Shape RunAround"
+msgstr "आकारं परिवर्तयतु RunAround"
+
+#: flake/commands/KoShapeShadowCommand.cpp:55
+#: flake/commands/KoShapeShadowCommand.cpp:72
+#: flake/commands/KoShapeShadowCommand.cpp:83
+msgctxt "(qtundo-format)"
+msgid "Set Shadow"
+msgstr "छाया सेट् कुर्वन्तु"
+
+#: flake/commands/KoShapeShearCommand.cpp:43
+msgctxt "(qtundo-format)"
+msgid "Shear shapes"
+msgstr "कतरनी आकाराः"
+
+#: flake/commands/KoShapeSizeCommand.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Resize shapes"
+msgstr "आकाराणां आकारं परिवर्तयतु"
+
+#: flake/commands/KoShapeStrokeCommand.cpp:59
+#: flake/commands/KoShapeStrokeCommand.cpp:76
+#: flake/commands/KoShapeStrokeCommand.cpp:87
+msgctxt "(qtundo-format)"
+msgid "Set stroke"
+msgstr "आघातं सेट् कुर्वन्तु"
+
+#: flake/commands/KoShapeTransparencyCommand.cpp:33
+#: flake/commands/KoShapeTransparencyCommand.cpp:44
+#: flake/commands/KoShapeTransparencyCommand.cpp:57
+msgctxt "(qtundo-format)"
+msgid "Set opacity"
+msgstr "अपारदर्शिता सेट् कुर्वन्तु"
+
+#: flake/commands/KoShapeUnclipCommand.cpp:114
+msgctxt "(qtundo-format)"
+msgid "Unclip Shape"
+msgstr "Unclip Shape इति"
+
+#: flake/commands/KoShapeUnclipCommand.cpp:124
+msgctxt "(qtundo-format)"
+msgid "Unclip Shapes"
+msgstr "आकृतयः अनक्लिप् कुर्वन्तु"
+
+#: flake/commands/KoShapeUngroupCommand.cpp:48
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "आकारान् विसमूहयन्तु"
+
+#: flake/commands/KoSubpathJoinCommand.cpp:36
+msgctxt "(qtundo-format)"
+msgid "Close subpath"
+msgstr "उपमार्गं पिधाय"
+
+#: flake/commands/KoSubpathJoinCommand.cpp:38
+msgctxt "(qtundo-format)"
+msgid "Join subpaths"
+msgstr "उपमार्गान् सम्मिलितं कुर्वन्तु"
+
+#: flake/commands/KoSubpathRemoveCommand.cpp:19
+msgctxt "(qtundo-format)"
+msgid "Remove subpath"
+msgstr "उपमार्गं निष्कासयन्तु"
 
 #: flake/KoConnectionShapeConfigWidget.cpp:17
 #, kde-format
@@ -89,9 +340,11 @@ msgstr "स्तरीय"
 msgid "Lines"
 msgstr "रेखाः"
 
-#: flake/KoConnectionShapeConfigWidget.ui:35 widgets/koDocumentInfoAboutWidget.ui:141 widgets/KoGradientEditWidget.cpp:155
 #. i18n: ectx: property (text), widget (QLabel)
 #. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
+#: flake/KoConnectionShapeConfigWidget.ui:35
+#: widgets/koDocumentInfoAboutWidget.ui:141
+#: widgets/KoGradientEditWidget.cpp:155
 #, kde-format
 msgid "Type:"
 msgstr "प्रकारः:"
@@ -126,60 +379,72 @@ msgstr "सरलमार्गाकारः"
 msgid "A simple path shape"
 msgstr "एकः सरलः मार्गाकारः"
 
-#: flake/KoShapeController.cpp:60 rdf/InsertSemanticObjectCreateAction.cpp:42 rdf/InsertSemanticObjectReferenceAction.cpp:48 text/InsertTextReferenceAction.cpp:50 text/InsertVariableAction.cpp:46
+#: flake/KoShapeController.cpp:60 rdf/InsertSemanticObjectCreateAction.cpp:42
+#: rdf/InsertSemanticObjectReferenceAction.cpp:48
+#: text/InsertTextReferenceAction.cpp:50 text/InsertVariableAction.cpp:46
 #, kde-format
 msgid "%1 Options"
 msgstr "%1 विकल्पाः"
+
+#: flake/KoShapePaste.cpp:163
+msgctxt "(qtundo-format)"
+msgid "Paste Shapes"
+msgstr "आकृतयः चिनोतु"
 
 #: flake/KoToolManager.cpp:442
 #, kde-format
 msgid "Active tool: %1"
 msgstr "सक्रिय साधनम् : %1"
 
-#: flake/SnapGuideConfigWidget.ui:30
+#: flake/KoToolProxy.cpp:590
+msgctxt "(qtundo-format)"
+msgid "Paste Image"
+msgstr "चित्रं चिनोतु"
+
 #. i18n: ectx: property (toolTip), widget (QToolButton, nodeSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:30
 #, kde-format
 msgid "Nodes"
 msgstr "नोड्स"
 
-#: flake/SnapGuideConfigWidget.ui:43
 #. i18n: ectx: property (toolTip), widget (QToolButton, extensionSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:43
 #, kde-format
 msgid "Extension of lines"
 msgstr "रेखानां विस्तारः"
 
-#: flake/SnapGuideConfigWidget.ui:56
 #. i18n: ectx: property (toolTip), widget (QToolButton, boundingBoxSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:56
 #, kde-format
 msgid "Bounding box of shape"
 msgstr "आकारस्य सीमापेटी"
 
-#: flake/SnapGuideConfigWidget.ui:72
 #. i18n: ectx: property (toolTip), widget (QSpinBox, snapDistance)
+#: flake/SnapGuideConfigWidget.ui:72
 #, kde-format
 msgid "Proximity distance where snapping happens"
 msgstr "यत्र स्नैपिंग् भवति तत्र सामीप्यदूरता"
 
-#: flake/SnapGuideConfigWidget.ui:75
 #. i18n: ectx: property (suffix), widget (QSpinBox, snapDistance)
+#: flake/SnapGuideConfigWidget.ui:75
 #, kde-format
 msgid " px"
 msgstr " px"
 
-#: flake/SnapGuideConfigWidget.ui:85
 #. i18n: ectx: property (toolTip), widget (QToolButton, orthogonalSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:85
 #, kde-format
 msgid "Orthogonal"
 msgstr "लंबवत"
 
-#: flake/SnapGuideConfigWidget.ui:98
 #. i18n: ectx: property (toolTip), widget (QToolButton, intersectionSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:98
 #, kde-format
 msgid "Intersection of lines"
 msgstr "रेखानां प्रतिच्छेदनम्"
 
-#: flake/SnapGuideConfigWidget.ui:111
 #. i18n: ectx: property (toolTip), widget (QToolButton, lineGuideSnapGuide)
+#: flake/SnapGuideConfigWidget.ui:111
 #, kde-format
 msgid "Guide lines"
 msgstr "मार्गदर्शकपङ्क्तयः"
@@ -198,6 +463,11 @@ msgstr "वस्तु रचयतु"
 #, kde-format
 msgid "Pan"
 msgstr "भ्राष्ट्र"
+
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:127
+msgctxt "(qtundo-format)"
+msgid "Change Segment"
+msgstr "खण्डं परिवर्तयतु"
 
 #: flake/tools/KoPathTool.cpp:95
 #, kde-format
@@ -282,9 +552,7 @@ msgstr "हन्डल चालयितुं कर्षन्तु।"
 #: flake/tools/KoPathTool.cpp:586
 #, kde-format
 msgid "Drag to move point. Shift click to change point type."
-msgstr ""
-"बिन्दुं चालयितुं कर्षन्तु। बिन्दुप्रकारं परिवर्तयितुं Shift क्लिक् "
-"कुर्वन्तु ।"
+msgstr "बिन्दुं चालयितुं कर्षन्तु। बिन्दुप्रकारं परिवर्तयितुं Shift क्लिक् कुर्वन्तु ।"
 
 #: flake/tools/KoPathTool.cpp:588
 #, kde-format
@@ -295,8 +563,7 @@ msgstr "नियन्त्रणबिन्दुं चालयितु�
 #, kde-format
 msgid "Drag to change curve directly. Double click to insert new path point."
 msgstr ""
-"वक्रं प्रत्यक्षतया परिवर्तयितुं कर्षयन्तु । नूतनमार्गबिन्दुं सम्मिलितुं "
-"द्विवारं क्लिक् कुर्वन्तु ।"
+"वक्रं प्रत्यक्षतया परिवर्तयितुं कर्षयन्तु । नूतनमार्गबिन्दुं सम्मिलितुं द्विवारं क्लिक् कुर्वन्तु ।"
 
 #: flake/tools/KoPathTool.cpp:620
 #, kde-format
@@ -313,24 +580,24 @@ msgstr "चयनितखण्डेषु मार्गं भङ्गय�
 msgid "Path editing"
 msgstr "पथ सम्पादन"
 
-#: flake/tools/KoZoomToolFactory.cpp:17 widgets/KoZoomController_p.h:34 widgets/KoZoomWidget.cpp:52
+#: flake/tools/KoZoomToolFactory.cpp:17 widgets/KoZoomController_p.h:34
+#: widgets/KoZoomWidget.cpp:52
 #, kde-format
 msgid "Zoom"
 msgstr "जूम"
 
-#: flake/tools/KoZoomToolWidget.ui:20
 #. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
+#: flake/tools/KoZoomToolWidget.ui:20
 #, kde-format
 msgid "Zoom In"
 msgstr "Zoom In इति"
 
-#: flake/tools/KoZoomToolWidget.ui:30
 #. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
+#: flake/tools/KoZoomToolWidget.ui:30
 #, kde-format
 msgid "Zoom Out"
 msgstr "Zoom Out इति"
 
-#: flake/tools/PathToolOptionWidgetBase.ui:39 flake/tools/PathToolOptionWidgetBase.ui:46 flake/tools/PathToolOptionWidgetBase.ui:53 flake/tools/PathToolOptionWidgetBase.ui:73 flake/tools/PathToolOptionWidgetBase.ui:80 flake/tools/PathToolOptionWidgetBase.ui:87 flake/tools/PathToolOptionWidgetBase.ui:94 flake/tools/PathToolOptionWidgetBase.ui:101 flake/tools/PathToolOptionWidgetBase.ui:108 flake/tools/PathToolOptionWidgetBase.ui:115 flake/tools/PathToolOptionWidgetBase.ui:122 flake/tools/PathToolOptionWidgetBase.ui:129 flake/tools/PathToolOptionWidgetBase.ui:136 widgets/KoEditColorSet.ui:48 widgets/KoEditColorSet.ui:58 widgets/KoEditColorSet.ui:68 widgets/KoEditColorSet.ui:78
 #. i18n: ectx: property (text), widget (QToolButton, corner)
 #. i18n: ectx: property (text), widget (QToolButton, smooth)
 #. i18n: ectx: property (text), widget (QToolButton, symmetric)
@@ -348,22 +615,51 @@ msgstr "Zoom Out इति"
 #. i18n: ectx: property (text), widget (QToolButton, remove)
 #. i18n: ectx: property (text), widget (QToolButton, open)
 #. i18n: ectx: property (text), widget (QToolButton, save)
+#: flake/tools/PathToolOptionWidgetBase.ui:39
+#: flake/tools/PathToolOptionWidgetBase.ui:46
+#: flake/tools/PathToolOptionWidgetBase.ui:53
+#: flake/tools/PathToolOptionWidgetBase.ui:73
+#: flake/tools/PathToolOptionWidgetBase.ui:80
+#: flake/tools/PathToolOptionWidgetBase.ui:87
+#: flake/tools/PathToolOptionWidgetBase.ui:94
+#: flake/tools/PathToolOptionWidgetBase.ui:101
+#: flake/tools/PathToolOptionWidgetBase.ui:108
+#: flake/tools/PathToolOptionWidgetBase.ui:115
+#: flake/tools/PathToolOptionWidgetBase.ui:122
+#: flake/tools/PathToolOptionWidgetBase.ui:129
+#: flake/tools/PathToolOptionWidgetBase.ui:136 widgets/KoEditColorSet.ui:48
+#: widgets/KoEditColorSet.ui:58 widgets/KoEditColorSet.ui:68
+#: widgets/KoEditColorSet.ui:78
 #, kde-format
 msgid "..."
 msgstr "..."
 
-#: flake/tools/PathToolOptionWidgetBase.ui:186
 #. i18n: ectx: property (text), widget (QPushButton, convertToPath)
+#: flake/tools/PathToolOptionWidgetBase.ui:186
 #, kde-format
 msgid "Convert To Path"
 msgstr "Convert To Path इति"
 
-#: kundo2/kundo2group.cpp:347 kundo2/kundo2stack.cpp:1075 main/KoUndoStackAction.cpp:41
+#: kundo2/kundo2group.cpp:347 kundo2/kundo2stack.cpp:1075
+#, kde-format
+msgctxt "Default text for undo action"
+msgid "Undo"
+msgstr "पूर्ववत"
+
+#: kundo2/kundo2group.cpp:347 kundo2/kundo2stack.cpp:1075
+#: main/KoUndoStackAction.cpp:41
 #, kde-format
 msgid "Undo %1"
 msgstr "%1 पूर्ववतं कुर्वन्तु"
 
-#: kundo2/kundo2group.cpp:372 kundo2/kundo2stack.cpp:1099 main/KoUndoStackAction.cpp:41
+#: kundo2/kundo2group.cpp:372 kundo2/kundo2stack.cpp:1099
+#, kde-format
+msgctxt "Default text for redo action"
+msgid "Redo"
+msgstr "पुनः करो"
+
+#: kundo2/kundo2group.cpp:372 kundo2/kundo2stack.cpp:1099
+#: main/KoUndoStackAction.cpp:41
 #, kde-format
 msgid "Redo %1"
 msgstr "पुनः %1"
@@ -373,30 +669,32 @@ msgstr "पुनः %1"
 msgid "<empty>"
 msgstr "<रिक्त>"
 
-#: kundo2/kundo2stack.cpp:1338 main/KoMainWindow.cpp:1434 main/KoUndoStackAction.cpp:33
+#: kundo2/kundo2stack.cpp:1338 main/KoMainWindow.cpp:1434
+#: main/KoUndoStackAction.cpp:33
 #, kde-format
 msgid "Redo"
 msgstr "पुनः करो"
 
-#: kundo2/kundo2stack.cpp:1357 main/KoMainWindow.cpp:1433 main/KoUndoStackAction.cpp:25
+#: kundo2/kundo2stack.cpp:1357 main/KoMainWindow.cpp:1433
+#: main/KoUndoStackAction.cpp:25
 #, kde-format
 msgid "Undo"
 msgstr "पूर्ववत"
 
-#: main/calligra_shell.rc:4
 #. i18n: ectx: Menu (file)
+#: main/calligra_shell.rc:4
 #, kde-format
 msgid "&File"
 msgstr "&संचिका"
 
-#: main/calligra_shell.rc:32
 #. i18n: ectx: Menu (settings)
+#: main/calligra_shell.rc:32
 #, kde-format
 msgid "&Settings"
 msgstr "&सेटिंग्स"
 
-#: main/calligra_shell.rc:46
 #. i18n: ectx: ToolBar (mainToolBar)
+#: main/calligra_shell.rc:46
 #, kde-format
 msgid "File"
 msgstr "संचिका"
@@ -405,6 +703,12 @@ msgstr "संचिका"
 #, kde-format
 msgid "No autosave"
 msgstr "न स्वतः रक्षितुम्"
+
+#: main/config/KoConfigDocumentPage.cpp:63
+#, kde-format
+msgctxt "unit symbol for minutes, leading space as separator"
+msgid " min"
+msgstr " मि"
 
 #: main/config/KoConfigDocumentPage.cpp:65
 #, kde-format
@@ -416,6 +720,18 @@ msgstr "स्वतः रक्षणान्तरम् : १."
 msgid "Create backup file:"
 msgstr "बैकअप सञ्चिकां रचयन्तु : १."
 
+#: main/config/KoConfigGridPage.cpp:57
+#, kde-format
+msgctxt "@option:check"
+msgid "Show grid"
+msgstr "जालं दर्शयतु"
+
+#: main/config/KoConfigGridPage.cpp:59
+#, kde-format
+msgctxt "@option:check"
+msgid "Snap to grid"
+msgstr "जालपर्यन्तं स्नैपं कुर्वन्तु"
+
 #: main/config/KoConfigGridPage.cpp:63
 #, kde-format
 msgid "Grid:"
@@ -425,6 +741,18 @@ msgstr "गृध्र:"
 #, kde-format
 msgid "Grid color:"
 msgstr "जालवर्णः : १."
+
+#: main/config/KoConfigGridPage.cpp:81
+#, kde-format
+msgctxt "Horizontal grid spacing"
+msgid "Horizontal spacing:"
+msgstr "क्षैतिज अन्तराल : १."
+
+#: main/config/KoConfigGridPage.cpp:82
+#, kde-format
+msgctxt "Vertical grid spacing"
+msgid "Vertical spacing:"
+msgstr "ऊर्ध्वाधरान्तरम् : १."
 
 #: main/config/KoConfigMiscPage.cpp:76
 #, kde-format
@@ -446,6 +774,12 @@ msgstr "संवेदनशीलता ग्रहण : १."
 msgid "Paste offset:"
 msgstr "पेस्ट ऑफसेट् : १."
 
+#: main/config/KoConfigMiscPage.cpp:103
+#, kde-format
+msgctxt "@option:check"
+msgid "Paste at Cursor"
+msgstr "कर्सर इत्यत्र पेस्ट् कुर्वन्तु"
+
 #: main/KoApplication.cpp:194
 #, kde-format
 msgid "Only print and exit"
@@ -454,9 +788,7 @@ msgstr "केवलं मुद्रणं निर्गन्तुं च
 #: main/KoApplication.cpp:196
 #, kde-format
 msgid "Open a new document based on the given template (desktopfile name)"
-msgstr ""
-"दत्तस्य टेम्पलेट् (desktopfile name) इत्यस्य आधारेण नूतनं दस्तावेजं "
-"उद्घाटयन्तु ।"
+msgstr "दत्तस्य टेम्पलेट् (desktopfile name) इत्यस्य आधारेण नूतनं दस्तावेजं उद्घाटयन्तु ।"
 
 #: main/KoApplication.cpp:197
 #, kde-format
@@ -496,9 +828,7 @@ msgstr "प्रोफाइलिंग् सूचनां लिखित�
 #: main/KoApplication.cpp:208
 #, kde-format
 msgid "Load a file and save it as an ODF file. Meant for debugging."
-msgstr ""
-"सञ्चिकां लोड् कृत्वा ODF सञ्चिकारूपेण रक्षन्तु । त्रुटिनिवारणार्थं "
-"अभिप्रेतम् ।"
+msgstr "सञ्चिकां लोड् कृत्वा ODF सञ्चिकारूपेण रक्षन्तु । त्रुटिनिवारणार्थं अभिप्रेतम् ।"
 
 #: main/KoApplication.cpp:210
 #, kde-format
@@ -552,6 +882,12 @@ msgstr "टेम्पलेट् %1 लोड् कर्तुं असफ
 msgid "No template found at: %1"
 msgstr "%1 इत्यत्र कोऽपि टेम्पलेट् न प्राप्तः"
 
+#: main/KoAutoSaveRecoveryDialog.cpp:158
+#, kde-format
+msgctxt "@title:window"
+msgid "Recover Files"
+msgstr "सञ्चिकाः पुनः प्राप्तुम्"
+
 #: main/KoAutoSaveRecoveryDialog.cpp:160
 #, kde-format
 msgid "Discard All"
@@ -574,19 +910,19 @@ msgid ""
 "If you press OK, selected files will be recovered, the unselected files "
 "discarded."
 msgstr ""
-"यदि भवान् Cancel इति चिनोति तर्हि सर्वाणि पुनः प्राप्तुं शक्याः सञ्चिकाः "
-"स्थापिताः भविष्यन्ति ।\n"
-"यदि भवान् OK नुदति तर्हि चयनितसञ्चिकाः पुनः प्राप्ताः भविष्यन्ति, "
-"अचयनितसञ्चिकाः परित्यज्यन्ते ।"
+"यदि भवान् Cancel इति चिनोति तर्हि सर्वाणि पुनः प्राप्तुं शक्याः सञ्चिकाः स्थापिताः "
+"भविष्यन्ति ।\n"
+"यदि भवान् OK नुदति तर्हि चयनितसञ्चिकाः पुनः प्राप्ताः भविष्यन्ति, अचयनितसञ्चिकाः "
+"परित्यज्यन्ते ।"
 
-#: main/KoDetailsPaneBase.ui:97
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_alwaysUseCheckBox)
+#: main/KoDetailsPaneBase.ui:97
 #, kde-format
 msgid "Always use this template at application start up"
 msgstr "अनुप्रयोगस्य आरम्भे सर्वदा एतस्य टेम्पलेट् इत्यस्य उपयोगं कुर्वन्तु"
 
-#: main/KoDetailsPaneBase.ui:100
 #. i18n: ectx: property (text), widget (QCheckBox, m_alwaysUseCheckBox)
+#: main/KoDetailsPaneBase.ui:100
 #, kde-format
 msgid "Always use this template"
 msgstr "सदैव एतस्य टेम्पलेट् इत्यस्य उपयोगं कुर्वन्तु"
@@ -630,8 +966,8 @@ msgid ""
 "The password of this encrypted document is not known. Autosave aborted! "
 "Please save your work manually."
 msgstr ""
-"अस्य गुप्तदस्तावेजस्य गुप्तशब्दः न ज्ञायते । स्वतः रक्षणं निरस्तम् अभवत्! "
-"कृपया स्वकार्यं स्वहस्तेन रक्षन्तु।"
+"अस्य गुप्तदस्तावेजस्य गुप्तशब्दः न ज्ञायते । स्वतः रक्षणं निरस्तम् अभवत्! कृपया स्वकार्यं स्वहस्तेन "
+"रक्षन्तु।"
 
 #: main/KoDocument.cpp:712
 #, kde-format
@@ -648,7 +984,8 @@ msgstr "autosave इत्यस्य समये त्रुटिः! व�
 msgid "Could not create the file for saving"
 msgstr "रक्षणार्थं सञ्चिकां निर्मातुं न शक्तवान्"
 
-#: main/KoDocument.cpp:856 main/KoDocument.cpp:878 main/KoDocument.cpp:908 main/KoDocument.cpp:942
+#: main/KoDocument.cpp:856 main/KoDocument.cpp:878 main/KoDocument.cpp:908
+#: main/KoDocument.cpp:942
 #, kde-format
 msgid "Not able to write '%1'. Partition full?"
 msgstr "'%1' लिखितुं न समर्थः । विभाजनं पूर्णम्?"
@@ -846,10 +1183,11 @@ msgid ""
 "Document <i>%1</i> contains several versions. Go to File->Versions to open "
 "an old version."
 msgstr ""
-"<i>%1</i> दस्तावेजे अनेकाः संस्करणाः सन्ति । पुरातनं संस्करणं उद्घाटयितुं "
-"File-&gt;Versions इत्यत्र गच्छन्तु ।"
+"<i>%1</i> दस्तावेजे अनेकाः संस्करणाः सन्ति । पुरातनं संस्करणं उद्घाटयितुं File-&gt;Versions "
+"इत्यत्र गच्छन्तु ।"
 
-#: main/KoDocument.cpp:2061 main/KoDocument.cpp:2515 main/KoDocument.cpp:2544 pigment/resources/KoColorSet.cpp:315 pigment/resources/KoColorSet.cpp:411
+#: main/KoDocument.cpp:2061 main/KoDocument.cpp:2515 main/KoDocument.cpp:2544
+#: pigment/resources/KoColorSet.cpp:315 pigment/resources/KoColorSet.cpp:411
 #, kde-format
 msgid "Untitled"
 msgstr "अनामिका"
@@ -857,11 +1195,11 @@ msgstr "अनामिका"
 #: main/KoDocument.cpp:2064 main/KoMainWindow.cpp:1136
 #, kde-format
 msgid ""
-"<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save "
-"it?</p>"
+"<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
+"</p>"
 msgstr ""
-"<p><b>&#39;%1&#39;</b> इति दस्तावेजं परिवर्तितम् अस्ति ।</p><p> किं त्वं "
-"तत् रक्षितुम् इच्छसि ?</p>"
+"<p><b>&#39;%1&#39;</b> इति दस्तावेजं परिवर्तितम् अस्ति ।</p><p> किं त्वं तत् रक्षितुम् "
+"इच्छसि ?</p>"
 
 #: main/KoDocument.cpp:2147
 #, kde-format
@@ -1054,6 +1392,12 @@ msgstr "पूर्ण स्क्रीन मोड"
 msgid "Show Dockers"
 msgstr "डॉकर्स् दर्शयतु"
 
+#: main/KoMainWindow.cpp:337
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Docker Titlebars"
+msgstr "Docker Titlebars दर्शयतु"
+
 #: main/KoMainWindow.cpp:344
 #, kde-format
 msgid "Dockers"
@@ -1085,8 +1429,8 @@ msgid ""
 "<qt>Saving as a %1 may result in some loss of formatting.<p>Do you still "
 "want to save in this format?</qt>"
 msgstr ""
-"<qt>%1 इति रक्षणेन स्वरूपणस्य किञ्चित् हानिः भवितुम् अर्हति ।<p> किं भवन्तः "
-"अद्यापि अस्मिन् प्रारूपे रक्षितुं इच्छन्ति?</qt>"
+"<qt>%1 इति रक्षणेन स्वरूपणस्य किञ्चित् हानिः भवितुम् अर्हति ।<p> किं भवन्तः अद्यापि अस्मिन् "
+"प्रारूपे रक्षितुं इच्छन्ति?</qt>"
 
 #: main/KoMainWindow.cpp:824
 #, kde-format
@@ -1099,8 +1443,8 @@ msgid ""
 "<qt>Exporting as a %1 may result in some loss of formatting.<p>Do you still "
 "want to export to this format?</qt>"
 msgstr ""
-"<qt>%1 इति निर्यातस्य परिणामः प्रारूपणस्य किञ्चित् हानिः भवितुम् अर्हति "
-"।<p> किं भवान् अद्यापि अस्मिन् प्रारूपे निर्यातं कर्तुम् इच्छति ?</qt>"
+"<qt>%1 इति निर्यातस्य परिणामः प्रारूपणस्य किञ्चित् हानिः भवितुम् अर्हति ।<p> किं भवान् "
+"अद्यापि अस्मिन् प्रारूपे निर्यातं कर्तुम् इच्छति ?</qt>"
 
 #: main/KoMainWindow.cpp:833
 #, kde-format
@@ -1171,8 +1515,8 @@ msgstr "%1 साधनपट्टिकां दर्शयतु"
 msgid "Hide %1 Toolbar"
 msgstr "%1 साधनपट्टिकां गोपयन्तु"
 
-#: main/KoOpenPane.cpp:102 main/KoOpenPane.cpp:156 main/KoOpenPaneBase.ui:99
 #. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
+#: main/KoOpenPane.cpp:102 main/KoOpenPane.cpp:156 main/KoOpenPaneBase.ui:99
 #, kde-format
 msgid "Open Existing Document"
 msgstr "विद्यमानं दस्तावेजं उद्घाटयन्तु"
@@ -1217,7 +1561,20 @@ msgstr "स्थगितम्"
 msgid "Open This Document"
 msgstr "This Document उद्घाटयन्तु"
 
-#: main/KoShapeCollectionMenu.cpp:354 text/styles/KoStyleManager.cpp:95 text/styles/KoStyleManager.cpp:100
+#: main/KoRecentDocumentsPane.cpp:165
+#, kde-format
+msgctxt "File modification date and time. %1 is date time"
+msgid "<tr><td><b>Modified:</b></td><td>%1</td></tr>"
+msgstr "<tr><td><b>परिवर्तितः : १.</b></td><td> %1</td></tr>"
+
+#: main/KoRecentDocumentsPane.cpp:168
+#, kde-format
+msgctxt "File access date and time. %1 is date time"
+msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
+msgstr "<tr><td><b>अभिगमनम् : १.</b></td><td> %1</td></tr>"
+
+#: main/KoShapeCollectionMenu.cpp:354 text/styles/KoStyleManager.cpp:95
+#: text/styles/KoStyleManager.cpp:100
 #, kde-format
 msgid "Default"
 msgstr "मूलभूतम्‌"
@@ -1251,6 +1608,12 @@ msgstr "मार्गदर्शकान् दर्शयति वा ग
 #, kde-format
 msgid "Create Template"
 msgstr "टेम्पलेट रचयन्तु"
+
+#: main/KoTemplateCreateDia.cpp:112
+#, kde-format
+msgctxt "Template name"
+msgid "Name:"
+msgstr "नामः:"
 
 #: main/KoTemplateCreateDia.cpp:121
 #, kde-format
@@ -1392,10 +1755,22 @@ msgstr "नूतनं संस्करणं योजयितुं न �
 msgid "Date: %1"
 msgstr "तिथिः %1"
 
+#: main/KoView.cpp:347
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Add Shape"
+msgstr "आकारं योजयतु"
+
 #: main/KoView.cpp:358
 #, kde-format
 msgid "Active Author Profile"
 msgstr "सक्रिय लेखक प्रोफाइल"
+
+#: main/KoView.cpp:372 main/KoView.cpp:427
+#, kde-format
+msgctxt "choice for author profile"
+msgid "Anonymous"
+msgstr "अनामक"
 
 #: main/KoView.cpp:426 widgets/KoConfigAuthorPage.cpp:68
 #, kde-format
@@ -1420,6 +1795,151 @@ msgid ""
 msgstr ""
 "%1 पङ्क्तौ, %2 स्तम्भे मुख्यदस्तावेजे विश्लेषणदोषः\n"
 "त्रुटिसन्देशः %3"
+
+#: odf/KoPageFormat.cpp:48
+msgctxt "Page size"
+msgid "ISO A3"
+msgstr "ISO A3"
+
+#: odf/KoPageFormat.cpp:49
+msgctxt "Page size"
+msgid "ISO A4"
+msgstr "ISO A4"
+
+#: odf/KoPageFormat.cpp:50
+msgctxt "Page size"
+msgid "ISO A5"
+msgstr "ISO A5"
+
+#: odf/KoPageFormat.cpp:51
+msgctxt "Page size"
+msgid "US Letter"
+msgstr "अमेरिकी पत्र"
+
+#: odf/KoPageFormat.cpp:52
+msgctxt "Page size"
+msgid "US Legal"
+msgstr "अमेरिकी कानूनी"
+
+#: odf/KoPageFormat.cpp:53
+msgctxt "Page size"
+msgid "Screen"
+msgstr "पट"
+
+#: odf/KoPageFormat.cpp:54
+msgctxt "Page size"
+msgid "Custom"
+msgstr "आचारः"
+
+#: odf/KoPageFormat.cpp:55
+msgctxt "Page size"
+msgid "ISO B5"
+msgstr "ISO B5"
+
+#: odf/KoPageFormat.cpp:56
+msgctxt "Page size"
+msgid "US Executive"
+msgstr "अमेरिकी कार्यकारी"
+
+#: odf/KoPageFormat.cpp:57
+msgctxt "Page size"
+msgid "ISO A0"
+msgstr "ISO A0"
+
+#: odf/KoPageFormat.cpp:58
+msgctxt "Page size"
+msgid "ISO A1"
+msgstr "ISO A1"
+
+#: odf/KoPageFormat.cpp:59
+msgctxt "Page size"
+msgid "ISO A2"
+msgstr "ISO A2"
+
+#: odf/KoPageFormat.cpp:60
+msgctxt "Page size"
+msgid "ISO A6"
+msgstr "ISO A6"
+
+#: odf/KoPageFormat.cpp:61
+msgctxt "Page size"
+msgid "ISO A7"
+msgstr "ISO A7"
+
+#: odf/KoPageFormat.cpp:62
+msgctxt "Page size"
+msgid "ISO A8"
+msgstr "ISO A8"
+
+#: odf/KoPageFormat.cpp:63
+msgctxt "Page size"
+msgid "ISO A9"
+msgstr "ISO A9"
+
+#: odf/KoPageFormat.cpp:64
+msgctxt "Page size"
+msgid "ISO B0"
+msgstr "ISO B0"
+
+#: odf/KoPageFormat.cpp:65
+msgctxt "Page size"
+msgid "ISO B1"
+msgstr "ISO B1"
+
+#: odf/KoPageFormat.cpp:66
+msgctxt "Page size"
+msgid "ISO B10"
+msgstr "ISO B10"
+
+#: odf/KoPageFormat.cpp:67
+msgctxt "Page size"
+msgid "ISO B2"
+msgstr "ISO B2"
+
+#: odf/KoPageFormat.cpp:68
+msgctxt "Page size"
+msgid "ISO B3"
+msgstr "ISO B3"
+
+#: odf/KoPageFormat.cpp:69
+msgctxt "Page size"
+msgid "ISO B4"
+msgstr "ISO B4"
+
+#: odf/KoPageFormat.cpp:70
+msgctxt "Page size"
+msgid "ISO B6"
+msgstr "ISO B6"
+
+#: odf/KoPageFormat.cpp:71
+msgctxt "Page size"
+msgid "ISO C5"
+msgstr "ISO C5"
+
+#: odf/KoPageFormat.cpp:72
+msgctxt "Page size"
+msgid "US Common 10"
+msgstr "अमेरिकी सामान्य 10"
+
+#: odf/KoPageFormat.cpp:73
+msgctxt "Page size"
+msgid "ISO DL"
+msgstr "ISO DL"
+
+#: odf/KoPageFormat.cpp:74
+msgctxt "Page size"
+msgid "US Folio"
+msgstr "अमेरिकी फोलियो"
+
+#: odf/KoPageFormat.cpp:75
+msgctxt "Page size"
+msgid "US Ledger"
+msgstr "अमेरिकी लेजर"
+
+#: odf/KoPageFormat.cpp:76
+msgctxt "Page size"
+msgid "US Tabloid"
+msgstr "अमेरिकी टैब्लॉइड"
 
 #: odf/KoUnit.cpp:27
 #, kde-format
@@ -1466,25 +1986,128 @@ msgstr "पिक्सेल (px) २."
 msgid "Unsupported unit"
 msgstr "असमर्थित इकाई"
 
+#: pageapp/commands/KoPAChangeMasterPageCommand.cpp:21
+msgctxt "(qtundo-format)"
+msgid "Change master slide"
+msgstr "मास्टर स्लाइड् परिवर्तयन्तु"
+
+#: pageapp/commands/KoPAChangeMasterPageCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Change master page"
+msgstr "मुख्यपृष्ठं परिवर्तयन्तु"
+
+#: pageapp/commands/KoPAChangePageLayoutCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Set Page Layout"
+msgstr "पृष्ठविन्यासं सेट् कुर्वन्तु"
+
+#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:18
+msgctxt "(qtundo-format)"
+msgid "Display master background"
+msgstr "मास्टर पृष्ठभूमि प्रदर्शित करें"
+
+#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:21
+msgctxt "(qtundo-format)"
+msgid "Display slide background"
+msgstr "स्लाइड पृष्ठभूमि प्रदर्शित करें"
+
+#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Display page background"
+msgstr "पृष्ठ पृष्ठभूमि प्रदर्शित करें"
+
+#: pageapp/commands/KoPADisplayMasterShapesCommand.cpp:18
+msgctxt "(qtundo-format)"
+msgid "Show master shapes"
+msgstr "गुरु आकारान् दर्शयतु"
+
+#: pageapp/commands/KoPADisplayMasterShapesCommand.cpp:20
+msgctxt "(qtundo-format)"
+msgid "Hide master shapes"
+msgstr "स्वामी आकारान् गोपयन्तु"
+
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:26
+msgctxt "(qtundo-format) Delete one slide"
+msgid "Delete slide"
+msgstr "स्लाइड् विलोपयन्तु"
+
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:28
+msgctxt "(qtundo-format) Delete one page"
+msgid "Delete page"
+msgstr "पृष्ठं विलोपयन्तु"
+
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:49
+msgctxt "(qtundo-format)"
+msgid "Delete slide"
+msgid_plural "Delete slides"
+msgstr[0] "स्लाइड् विलोपयन्तु"
+msgstr[1] "स्लाइड्स् विलोपयन्तु"
+
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:51
+msgctxt "(qtundo-format)"
+msgid "Delete page"
+msgid_plural "Delete pages"
+msgstr[0] "पृष्ठं विलोपयन्तु"
+msgstr[1] "पृष्ठानि विलोपयन्तु"
+
+#: pageapp/commands/KoPAPageInsertCommand.cpp:24
+msgctxt "(qtundo-format)"
+msgid "Insert slide"
+msgstr "स्लाइड् सम्मिलितं कुर्वन्तु"
+
+#: pageapp/commands/KoPAPageInsertCommand.cpp:26
+msgctxt "(qtundo-format)"
+msgid "Insert page"
+msgstr "पृष्ठं सम्मिलितं कुर्वन्तु"
+
+#: pageapp/commands/KoPAPageMoveCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Move slide"
+msgid_plural "Move slides"
+msgstr[0] "स्लाइड् चालयन्तु"
+msgstr[1] "स्लाइड्स् चालयन्तु"
+
+#: pageapp/commands/KoPAPageMoveCommand.cpp:36
+msgctxt "(qtundo-format)"
+msgid "Move page"
+msgid_plural "Move pages"
+msgstr[0] "पृष्ठं चालयन्तु"
+msgstr[1] "पृष्ठानि चालयन्तु"
+
 #: pageapp/dialogs/KoPAConfigureDialog.cpp:28
 #, kde-format
 msgid "Configure"
 msgstr "विन्यस्तं कुर्वन्तु"
 
-#: pageapp/dialogs/KoPAConfigureDialog.cpp:33 pageapp/dialogs/KoPAConfigureDialog.cpp:34 pigment/KoCompositeOp.cpp:59 pigment/KoCompositeOpRegistry.cpp:25
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:33
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:34 pigment/KoCompositeOp.cpp:59
+#: pigment/KoCompositeOpRegistry.cpp:25
 #, kde-format
 msgid "Misc"
 msgstr "विविधाः"
 
-#: pageapp/dialogs/KoPAConfigureDialog.cpp:38 pageapp/dialogs/KoPAConfigureDialog.cpp:39
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:38
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:39
 #, kde-format
 msgid "Grid"
 msgstr "गृध्र"
+
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:45
+#, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "प्रलेख"
 
 #: pageapp/dialogs/KoPAConfigureDialog.cpp:46
 #, kde-format
 msgid "Document Settings"
 msgstr "दस्तावेज सेटिंग्स्"
+
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:50
+#, kde-format
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "लेखकः"
 
 #: pageapp/dialogs/KoPAConfigureDialog.cpp:51 widgets/KoDocumentInfoDlg.cpp:125
 #, kde-format
@@ -1506,7 +2129,8 @@ msgstr "मास्टर स्लाइड"
 msgid "Select a master page design:"
 msgstr "एकं मुख्यपृष्ठस्य डिजाइनं चिनुत:"
 
-#: pageapp/dialogs/KoPAMasterPageDialog.cpp:31 pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:93
+#: pageapp/dialogs/KoPAMasterPageDialog.cpp:31
+#: pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:93
 #, kde-format
 msgid "Master Page"
 msgstr "मास्टर पेज"
@@ -1521,7 +2145,8 @@ msgstr "स्लाइड %1"
 msgid "Page  %1"
 msgstr "पृष्ठं %1"
 
-#: pageapp/KoPADocumentModel.cpp:175 pageapp/KoPADocumentStructureDocker.cpp:110
+#: pageapp/KoPADocumentModel.cpp:175
+#: pageapp/KoPADocumentStructureDocker.cpp:110
 #, kde-format
 msgid "Layer"
 msgstr "स्तर"
@@ -1536,7 +2161,23 @@ msgstr "समूह"
 msgid "Shape"
 msgstr "आकारः"
 
-#: pageapp/KoPADocumentModel.cpp:309 pageapp/KoPADocumentStructureDocker.cpp:109
+#: pageapp/KoPADocumentModel.cpp:268
+msgctxt "(qtundo-format)"
+msgid "Rename Slide"
+msgstr "स्लाइड् इत्यस्य नाम परिवर्तनं कुर्वन्तु"
+
+#: pageapp/KoPADocumentModel.cpp:270
+msgctxt "(qtundo-format)"
+msgid "Rename Page"
+msgstr "पृष्ठस्य नाम परिवर्तनं कुर्वन्तु"
+
+#: pageapp/KoPADocumentModel.cpp:273
+msgctxt "(qtundo-format)"
+msgid "Rename Layer"
+msgstr "Layer इत्यस्य नाम परिवर्तनं कुर्वन्तु"
+
+#: pageapp/KoPADocumentModel.cpp:309
+#: pageapp/KoPADocumentStructureDocker.cpp:109
 #, kde-format
 msgid "Slide"
 msgstr "च्यु"
@@ -1550,6 +2191,11 @@ msgstr "दृश्यमानम्"
 #, kde-format
 msgid "Locked"
 msgstr "तालाबद्धः"
+
+#: pageapp/KoPADocumentModel.cpp:525 pageapp/KoPADocumentModel.cpp:544
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr "पुनः आकृतयः"
 
 #: pageapp/KoPADocumentModel.cpp:676
 #, kde-format
@@ -1581,12 +2227,14 @@ msgstr "स्लाइड्स्"
 msgid "Add a new page or layer"
 msgstr "नूतनं पृष्ठं वा स्तरं वा योजयन्तु"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:109 widgets/KoPageLayoutDialog.cpp:40
+#: pageapp/KoPADocumentStructureDocker.cpp:109
+#: widgets/KoPageLayoutDialog.cpp:40
 #, kde-format
 msgid "Page"
 msgstr "पृष्ठ"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:117 pageapp/KoPADocumentStructureDocker.cpp:622
+#: pageapp/KoPADocumentStructureDocker.cpp:117
+#: pageapp/KoPADocumentStructureDocker.cpp:622
 #, kde-format
 msgid "Delete selected objects"
 msgstr "चयनितवस्तूनि विलोपयन्तु"
@@ -1636,6 +2284,16 @@ msgstr "नवीन स्तर"
 msgid "New layer"
 msgstr "नवीन स्तर"
 
+#: pageapp/KoPADocumentStructureDocker.cpp:315
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr "लेयर रचयन्तु"
+
+#: pageapp/KoPADocumentStructureDocker.cpp:341
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr "Delete Layer इति"
+
 #: pageapp/KoPADocumentStructureDocker.cpp:343
 #, kde-format
 msgid "Could not delete all layers. At least one layer is required."
@@ -1661,7 +2319,10 @@ msgstr "नूतनं पृष्ठं योजयन्तु"
 msgid "Cut"
 msgstr "छिन्न"
 
-#: pageapp/KoPADocumentStructureDocker.cpp:625 pigment/compositeops/KoCompositeOpCopy.h:22 pigment/compositeops/KoCompositeOpCopy2.h:32 pigment/KoCompositeOpRegistry.cpp:78
+#: pageapp/KoPADocumentStructureDocker.cpp:625
+#: pigment/compositeops/KoCompositeOpCopy.h:22
+#: pigment/compositeops/KoCompositeOpCopy2.h:32
+#: pigment/KoCompositeOpRegistry.cpp:78
 #, kde-format
 msgid "Copy"
 msgstr "प्रतिलिपि"
@@ -1675,6 +2336,20 @@ msgstr "चिनोतु"
 #, kde-format
 msgid "Page %1"
 msgstr "पृष्ठं %1"
+
+#: pageapp/KoPAPastePage.cpp:112
+msgctxt "(qtundo-format)"
+msgid "Paste Slide"
+msgid_plural "Paste Slides"
+msgstr[0] "पेस्ट स्लाइड"
+msgstr[1] "पेस्ट स्लाइड्स"
+
+#: pageapp/KoPAPastePage.cpp:114
+msgctxt "(qtundo-format)"
+msgid "Paste Page"
+msgid_plural "Paste Pages"
+msgstr[0] "पेज पेस्ट करें"
+msgstr[1] "पृष्ठानि चिनोतु"
 
 #: pageapp/KoPAView.cpp:298
 #, kde-format
@@ -1756,8 +2431,8 @@ msgstr "मास्टर पेज..."
 msgid "Page Layout..."
 msgstr "पृष्ठ विन्यास..."
 
-#: pageapp/KoPAView.cpp:418 rdf/KoSemanticStylesheetsEditor.ui:57
 #. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: pageapp/KoPAView.cpp:418 rdf/KoSemanticStylesheetsEditor.ui:57
 #, kde-format
 msgid "Variable"
 msgstr "चर"
@@ -1786,13 +2461,19 @@ msgstr ""
 "आयातं कर्तुं न शक्तवान्\n"
 "%1"
 
-#: pageapp/tools/backgroundTool/BackgroundToolWidget.ui:43
+#: pageapp/KoPAView.cpp:659
+msgctxt "(qtundo-format)"
+msgid "Change page layout"
+msgstr "पृष्ठविन्यासं परिवर्तयन्तु"
+
 #. i18n: ectx: property (text), widget (QPushButton, backgroundImage)
+#: pageapp/tools/backgroundTool/BackgroundToolWidget.ui:43
 #, kde-format
 msgid "Set image ..."
 msgstr "चित्रं सेट् कुर्वन्तु ..."
 
-#: pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:86 pageapp/widgets/KoPABackgroundFillWidget.cpp:21
+#: pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:86
+#: pageapp/widgets/KoPABackgroundFillWidget.cpp:21
 #, kde-format
 msgid "Background"
 msgstr "पृष्ठभूमि"
@@ -1832,6 +2513,16 @@ msgstr "मुख्यपृष्ठस्य आकृतयः प्रद�
 msgid "Display shapes of master slide"
 msgstr "मास्टर स्लाइड् इत्यस्य आकृतयः प्रदर्शयन्तु"
 
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:96
+msgctxt "(qtundo-format)"
+msgid "Change page background image"
+msgstr "पृष्ठपृष्ठभूमिप्रतिबिम्बं परिवर्तयन्तु"
+
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:96
+msgctxt "(qtundo-format)"
+msgid "Change slide background image"
+msgstr "स्लाइड पृष्ठभूमिप्रतिबिम्बं परिवर्तयन्तु"
+
 #: pageapp/widgets/KoPageNavigator.cpp:53
 #, kde-format
 msgid "Master Slide %1/%2"
@@ -1857,57 +2548,81 @@ msgstr "पृष्ठ %1/%2"
 msgid "Clear"
 msgstr "स्पष्टः"
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:102 pigment/compositeops/KoCompositeOps.h:135 pigment/KoCompositeOpRegistry.cpp:29
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:102
+#: pigment/compositeops/KoCompositeOps.h:135
+#: pigment/KoCompositeOpRegistry.cpp:29
 #, kde-format
 msgid "Subtract"
 msgstr "घटाये"
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:167 pigment/compositeops/KoCompositeOps.h:137 pigment/KoCompositeOpRegistry.cpp:30
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:167
+#: pigment/compositeops/KoCompositeOps.h:137
+#: pigment/KoCompositeOpRegistry.cpp:30
 #, kde-format
 msgid "Multiply"
 msgstr "गुणा"
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:227 pigment/colorspaces/KoAlphaColorSpace.h:205 pigment/KoColorModelStandardIds.cpp:11
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:227
+#: pigment/colorspaces/KoAlphaColorSpace.h:205
+#: pigment/KoColorModelStandardIds.cpp:11
 #, kde-format
 msgid "Alpha mask"
 msgstr "अल्फा मास्क"
 
-#: pigment/colorspaces/KoAlphaColorSpace.cpp:229 pigment/colorspaces/KoLabColorSpace.cpp:49 pigment/colorspaces/KoRgbU8ColorSpace.cpp:32
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:229
+#: pigment/colorspaces/KoLabColorSpace.cpp:49
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:32
 #, kde-format
 msgid "Alpha"
 msgstr "अल्फा"
 
-#: pigment/colorspaces/KoAlphaColorSpace.h:145 pigment/colorspaces/KoAlphaColorSpace.h:151 pigment/colorspaces/KoAlphaColorSpace.h:156 pigment/colorspaces/KoAlphaColorSpace.h:161 pigment/colorspaces/KoAlphaColorSpace.h:165 pigment/colorspaces/KoAlphaColorSpace.h:169 pigment/colorspaces/KoAlphaColorSpace.h:173 pigment/colorspaces/KoAlphaColorSpace.h:177 pigment/colorspaces/KoAlphaColorSpace.h:184 pigment/colorspaces/KoAlphaColorSpace.h:188
+#: pigment/colorspaces/KoAlphaColorSpace.h:145
+#: pigment/colorspaces/KoAlphaColorSpace.h:151
+#: pigment/colorspaces/KoAlphaColorSpace.h:156
+#: pigment/colorspaces/KoAlphaColorSpace.h:161
+#: pigment/colorspaces/KoAlphaColorSpace.h:165
+#: pigment/colorspaces/KoAlphaColorSpace.h:169
+#: pigment/colorspaces/KoAlphaColorSpace.h:173
+#: pigment/colorspaces/KoAlphaColorSpace.h:177
+#: pigment/colorspaces/KoAlphaColorSpace.h:184
+#: pigment/colorspaces/KoAlphaColorSpace.h:188
 #, kde-format
 msgid "Undefined operation in the alpha color space"
 msgstr "अल्फा वर्णस्थाने अनिर्धारितं क्रिया"
 
-#: pigment/colorspaces/KoLabColorSpace.cpp:26 pigment/colorspaces/KoLabColorSpace.h:55
+#: pigment/colorspaces/KoLabColorSpace.cpp:26
+#: pigment/colorspaces/KoLabColorSpace.h:55
 #, kde-format
 msgid "L*a*b* (16-bit integer/channel, unmanaged)"
 msgstr "L * a * b * (16-बिट पूर्णांक / चैनल, अप्रबंधित)"
 
-#: pigment/colorspaces/KoLabColorSpace.cpp:28 pigment/compositeops/KoCompositeOps.h:207 pigment/KoCompositeOpRegistry.cpp:102
+#: pigment/colorspaces/KoLabColorSpace.cpp:28
+#: pigment/compositeops/KoCompositeOps.h:207
+#: pigment/KoCompositeOpRegistry.cpp:102
 #, kde-format
 msgid "Lightness"
 msgstr "लाघवम्"
 
-#: pigment/colorspaces/KoLabColorSpace.cpp:35 pigment/KoBasicHistogramProducers.cpp:416
+#: pigment/colorspaces/KoLabColorSpace.cpp:35
+#: pigment/KoBasicHistogramProducers.cpp:416
 #, kde-format
 msgid "a*"
 msgstr "एकः*"
 
-#: pigment/colorspaces/KoLabColorSpace.cpp:42 pigment/KoBasicHistogramProducers.cpp:417
+#: pigment/colorspaces/KoLabColorSpace.cpp:42
+#: pigment/KoBasicHistogramProducers.cpp:417
 #, kde-format
 msgid "b*"
 msgstr "ख* ९."
 
-#: pigment/colorspaces/KoRgbU16ColorSpace.cpp:25 pigment/colorspaces/KoRgbU16ColorSpace.h:47
+#: pigment/colorspaces/KoRgbU16ColorSpace.cpp:25
+#: pigment/colorspaces/KoRgbU16ColorSpace.h:47
 #, kde-format
 msgid "RGB (16-bit integer/channel, unmanaged)"
 msgstr "RGB (16-बिट पूर्णाङ्क/चैनल, अप्रबन्धित)"
 
-#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:27 pigment/colorspaces/KoRgbU8ColorSpace.h:47
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:27
+#: pigment/colorspaces/KoRgbU8ColorSpace.h:47
 #, kde-format
 msgid "RGB (8-bit integer/channel, unmanaged)"
 msgstr "RGB (8-बिट पूर्णाङ्क/चैनल, अप्रबन्धित)"
@@ -1927,12 +2642,23 @@ msgstr "हरित"
 msgid "Red"
 msgstr "रक्त"
 
-#: pigment/colorspaces/KoSimpleColorSpace.h:62 pigment/colorspaces/KoSimpleColorSpace.h:70
+#: pigment/colorspaces/KoSimpleColorSpace.h:62
+#: pigment/colorspaces/KoSimpleColorSpace.h:70
 #, kde-format
 msgid "Undefined operation in the %1 space"
 msgstr "%1 रिक्तस्थाने अनिर्धारितं क्रिया"
 
-#: pigment/colorspaces/KoSimpleColorSpace.h:91 pigment/colorspaces/KoSimpleColorSpace.h:97 pigment/colorspaces/KoSimpleColorSpace.h:103 pigment/colorspaces/KoSimpleColorSpace.h:109 pigment/colorspaces/KoSimpleColorSpace.h:115 pigment/colorspaces/KoSimpleColorSpace.h:120 pigment/colorspaces/KoSimpleColorSpace.h:125 pigment/colorspaces/KoSimpleColorSpace.h:129 pigment/colorspaces/KoSimpleColorSpace.h:133 pigment/colorspaces/KoSimpleColorSpace.h:140 pigment/colorspaces/KoSimpleColorSpace.h:144
+#: pigment/colorspaces/KoSimpleColorSpace.h:91
+#: pigment/colorspaces/KoSimpleColorSpace.h:97
+#: pigment/colorspaces/KoSimpleColorSpace.h:103
+#: pigment/colorspaces/KoSimpleColorSpace.h:109
+#: pigment/colorspaces/KoSimpleColorSpace.h:115
+#: pigment/colorspaces/KoSimpleColorSpace.h:120
+#: pigment/colorspaces/KoSimpleColorSpace.h:125
+#: pigment/colorspaces/KoSimpleColorSpace.h:129
+#: pigment/colorspaces/KoSimpleColorSpace.h:133
+#: pigment/colorspaces/KoSimpleColorSpace.h:140
+#: pigment/colorspaces/KoSimpleColorSpace.h:144
 #, kde-format
 msgid "Undefined operation in the %1 color space"
 msgstr "%1 वर्णस्थाने अनिर्धारितं कार्यं"
@@ -1942,122 +2668,149 @@ msgstr "%1 वर्णस्थाने अनिर्धारितं क�
 msgid "Simple Color Conversion Engine"
 msgstr "सरलं रङ्गरूपान्तरणइञ्जिनम्"
 
-#: pigment/compositeops/KoCompositeOpAlphaDarken.h:28 pigment/compositeops/KoOptimizedCompositeOpAlphaDarken128.h:189 pigment/compositeops/KoOptimizedCompositeOpAlphaDarken32.h:233
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:28
+#: pigment/compositeops/KoOptimizedCompositeOpAlphaDarken128.h:189
+#: pigment/compositeops/KoOptimizedCompositeOpAlphaDarken32.h:233
 #, kde-format
 msgid "Alpha darken"
 msgstr "अल्फा अन्धकारं करोतु"
 
-#: pigment/compositeops/KoCompositeOpBehind.h:26 pigment/KoCompositeOpRegistry.cpp:60
+#: pigment/compositeops/KoCompositeOpBehind.h:26
+#: pigment/KoCompositeOpRegistry.cpp:60
 #, kde-format
 msgid "Behind"
 msgstr "पृष्ठतः"
 
-#: pigment/compositeops/KoCompositeOpDissolve.h:42 pigment/KoCompositeOpRegistry.cpp:74
+#: pigment/compositeops/KoCompositeOpDissolve.h:42
+#: pigment/KoCompositeOpRegistry.cpp:74
 #, kde-format
 msgid "Dissolve"
 msgstr "विलीनम्"
 
-#: pigment/compositeops/KoCompositeOpErase.h:26 pigment/KoCompositeOpRegistry.cpp:63
+#: pigment/compositeops/KoCompositeOpErase.h:26
+#: pigment/KoCompositeOpRegistry.cpp:63
 #, kde-format
 msgid "Erase"
 msgstr "मेटयतु"
 
-#: pigment/compositeops/KoCompositeOpGreater.h:40 pigment/KoCompositeOpRegistry.cpp:61
+#: pigment/compositeops/KoCompositeOpGreater.h:40
+#: pigment/KoCompositeOpRegistry.cpp:61
 #, kde-format
 msgid "Greater"
 msgstr "बृहत्तरः"
 
-#: pigment/compositeops/KoCompositeOpOver.h:48 pigment/compositeops/KoOptimizedCompositeOpOver128.h:244 pigment/compositeops/KoOptimizedCompositeOpOver32.h:200 pigment/KoCompositeOpRegistry.cpp:59 pigment/KoCompositeOpRegistry.cpp:125
+#: pigment/compositeops/KoCompositeOpOver.h:48
+#: pigment/compositeops/KoOptimizedCompositeOpOver128.h:244
+#: pigment/compositeops/KoOptimizedCompositeOpOver32.h:200
+#: pigment/KoCompositeOpRegistry.cpp:59 pigment/KoCompositeOpRegistry.cpp:125
 #, kde-format
 msgid "Normal"
 msgstr "सामान्य"
 
-#: pigment/compositeops/KoCompositeOps.h:109 pigment/KoCompositeOpRegistry.cpp:62
+#: pigment/compositeops/KoCompositeOps.h:109
+#: pigment/KoCompositeOpRegistry.cpp:62
 #, kde-format
 msgid "Overlay"
 msgstr "आच्छादनम्"
 
-#: pigment/compositeops/KoCompositeOps.h:110 pigment/KoCompositeOpRegistry.cpp:66
+#: pigment/compositeops/KoCompositeOps.h:110
+#: pigment/KoCompositeOpRegistry.cpp:66
 #, kde-format
 msgid "Grain Merge"
 msgstr "धान्यविलयः"
 
-#: pigment/compositeops/KoCompositeOps.h:111 pigment/KoCompositeOpRegistry.cpp:67
+#: pigment/compositeops/KoCompositeOps.h:111
+#: pigment/KoCompositeOpRegistry.cpp:67
 #, kde-format
 msgid "Grain Extract"
 msgstr "धान्य अर्क"
 
-#: pigment/compositeops/KoCompositeOps.h:112 pigment/KoCompositeOpRegistry.cpp:65
+#: pigment/compositeops/KoCompositeOps.h:112
+#: pigment/KoCompositeOpRegistry.cpp:65
 #, kde-format
 msgid "Hard Mix"
 msgstr "हार्ड मिक्स"
 
-#: pigment/compositeops/KoCompositeOps.h:113 pigment/KoCompositeOpRegistry.cpp:70
+#: pigment/compositeops/KoCompositeOps.h:113
+#: pigment/KoCompositeOpRegistry.cpp:70
 #, kde-format
 msgid "Geometric Mean"
 msgstr "ज्यामितीय माध्य"
 
-#: pigment/compositeops/KoCompositeOps.h:114 pigment/KoCompositeOpRegistry.cpp:68
+#: pigment/compositeops/KoCompositeOps.h:114
+#: pigment/KoCompositeOpRegistry.cpp:68
 #, kde-format
 msgid "Parallel"
 msgstr "समानांतर"
 
-#: pigment/compositeops/KoCompositeOps.h:115 pigment/KoCompositeOpRegistry.cpp:69
+#: pigment/compositeops/KoCompositeOps.h:115
+#: pigment/KoCompositeOpRegistry.cpp:69
 #, kde-format
 msgid "Allanon"
 msgstr "बहिः"
 
-#: pigment/compositeops/KoCompositeOps.h:117 pigment/KoCompositeOpRegistry.cpp:44
+#: pigment/compositeops/KoCompositeOps.h:117
+#: pigment/KoCompositeOpRegistry.cpp:44
 #, kde-format
 msgid "Screen"
 msgstr "पट"
 
-#: pigment/compositeops/KoCompositeOps.h:118 pigment/KoCompositeOpRegistry.cpp:40
+#: pigment/compositeops/KoCompositeOps.h:118
+#: pigment/KoCompositeOpRegistry.cpp:40
 #, kde-format
 msgid "Color Dodge"
 msgstr "रङ्ग चकमा"
 
-#: pigment/compositeops/KoCompositeOps.h:119 pigment/KoCompositeOpRegistry.cpp:41
+#: pigment/compositeops/KoCompositeOps.h:119
+#: pigment/KoCompositeOpRegistry.cpp:41
 #, kde-format
 msgid "Linear Dodge"
 msgstr "रेखीय चकमा"
 
-#: pigment/compositeops/KoCompositeOps.h:120 pigment/KoCompositeOp.cpp:31 pigment/KoCompositeOpRegistry.cpp:24 pigment/KoCompositeOpRegistry.cpp:42
+#: pigment/compositeops/KoCompositeOps.h:120 pigment/KoCompositeOp.cpp:31
+#: pigment/KoCompositeOpRegistry.cpp:24 pigment/KoCompositeOpRegistry.cpp:42
 #, kde-format
 msgid "Lighten"
 msgstr "लघु करोतु"
 
-#: pigment/compositeops/KoCompositeOps.h:121 pigment/KoCompositeOpRegistry.cpp:47
+#: pigment/compositeops/KoCompositeOps.h:121
+#: pigment/KoCompositeOpRegistry.cpp:47
 #, kde-format
 msgid "Hard Light"
 msgstr "कठिन प्रकाश"
 
-#: pigment/compositeops/KoCompositeOps.h:122 pigment/KoCompositeOpRegistry.cpp:49
+#: pigment/compositeops/KoCompositeOps.h:122
+#: pigment/KoCompositeOpRegistry.cpp:49
 #, kde-format
 msgid "Soft Light (SVG)"
 msgstr "मृदु प्रकाश (SVG) ९."
 
-#: pigment/compositeops/KoCompositeOps.h:123 pigment/KoCompositeOpRegistry.cpp:48
+#: pigment/compositeops/KoCompositeOps.h:123
+#: pigment/KoCompositeOpRegistry.cpp:48
 #, kde-format
 msgid "Soft Light (Photoshop)"
 msgstr "मृदु प्रकाश (फोटोशॉप) ९."
 
-#: pigment/compositeops/KoCompositeOps.h:124 pigment/KoCompositeOpRegistry.cpp:50
+#: pigment/compositeops/KoCompositeOps.h:124
+#: pigment/KoCompositeOpRegistry.cpp:50
 #, kde-format
 msgid "Gamma Light"
 msgstr "गामा प्रकाश"
 
-#: pigment/compositeops/KoCompositeOps.h:125 pigment/KoCompositeOpRegistry.cpp:46
+#: pigment/compositeops/KoCompositeOps.h:125
+#: pigment/KoCompositeOpRegistry.cpp:46
 #, kde-format
 msgid "Vivid Light"
 msgstr "सजीव प्रकाश"
 
-#: pigment/compositeops/KoCompositeOps.h:126 pigment/KoCompositeOpRegistry.cpp:45
+#: pigment/compositeops/KoCompositeOps.h:126
+#: pigment/KoCompositeOpRegistry.cpp:45
 #, kde-format
 msgid "Pin Light"
 msgstr "पिन लाइट"
 
-#: pigment/compositeops/KoCompositeOps.h:127 pigment/KoCompositeOpRegistry.cpp:43
+#: pigment/compositeops/KoCompositeOps.h:127
+#: pigment/KoCompositeOpRegistry.cpp:43
 #, kde-format
 msgid "Linear Light"
 msgstr "रेखीय प्रकाश"
@@ -2067,22 +2820,26 @@ msgstr "रेखीय प्रकाश"
 msgid "Color Burn"
 msgstr "वर्ण दहन"
 
-#: pigment/compositeops/KoCompositeOps.h:130 pigment/KoCompositeOpRegistry.cpp:35
+#: pigment/compositeops/KoCompositeOps.h:130
+#: pigment/KoCompositeOpRegistry.cpp:35
 #, kde-format
 msgid "Linear Burn"
 msgstr "रेखीय दाह"
 
-#: pigment/compositeops/KoCompositeOps.h:131 pigment/KoCompositeOp.cpp:35 pigment/KoCompositeOpRegistry.cpp:24 pigment/KoCompositeOpRegistry.cpp:36
+#: pigment/compositeops/KoCompositeOps.h:131 pigment/KoCompositeOp.cpp:35
+#: pigment/KoCompositeOpRegistry.cpp:24 pigment/KoCompositeOpRegistry.cpp:36
 #, kde-format
 msgid "Darken"
 msgstr "अन्धकारं कुरुत"
 
-#: pigment/compositeops/KoCompositeOps.h:132 pigment/KoCompositeOpRegistry.cpp:37
+#: pigment/compositeops/KoCompositeOps.h:132
+#: pigment/KoCompositeOpRegistry.cpp:37
 #, kde-format
 msgid "Gamma Dark"
 msgstr "गामा डार्क"
 
-#: pigment/compositeops/KoCompositeOps.h:134 pigment/KoCompositeOpRegistry.cpp:28
+#: pigment/compositeops/KoCompositeOps.h:134
+#: pigment/KoCompositeOpRegistry.cpp:28
 #, kde-format
 msgid "Addition"
 msgstr "योजन"
@@ -2092,27 +2849,32 @@ msgstr "योजन"
 msgid "Inversed-Subtract"
 msgstr "विपर्यय-हरणम्"
 
-#: pigment/compositeops/KoCompositeOps.h:138 pigment/KoCompositeOpRegistry.cpp:31
+#: pigment/compositeops/KoCompositeOps.h:138
+#: pigment/KoCompositeOpRegistry.cpp:31
 #, kde-format
 msgid "Divide"
 msgstr "विभाजनं"
 
-#: pigment/compositeops/KoCompositeOps.h:140 pigment/KoCompositeOpRegistry.cpp:57
+#: pigment/compositeops/KoCompositeOps.h:140
+#: pigment/KoCompositeOpRegistry.cpp:57
 #, kde-format
 msgid "Arcus Tangent"
 msgstr "धनुः स्पृशन्ति"
 
-#: pigment/compositeops/KoCompositeOps.h:141 pigment/KoCompositeOpRegistry.cpp:53
+#: pigment/compositeops/KoCompositeOps.h:141
+#: pigment/KoCompositeOpRegistry.cpp:53
 #, kde-format
 msgid "Difference"
 msgstr "अंतरण"
 
-#: pigment/compositeops/KoCompositeOps.h:142 pigment/KoCompositeOpRegistry.cpp:56
+#: pigment/compositeops/KoCompositeOps.h:142
+#: pigment/KoCompositeOpRegistry.cpp:56
 #, kde-format
 msgid "Exclusion"
 msgstr "बहिष्कारः"
 
-#: pigment/compositeops/KoCompositeOps.h:143 pigment/KoCompositeOpRegistry.cpp:54
+#: pigment/compositeops/KoCompositeOps.h:143
+#: pigment/KoCompositeOpRegistry.cpp:54
 #, kde-format
 msgid "Equivalence"
 msgstr "तुल्यता"
@@ -2122,22 +2884,26 @@ msgstr "तुल्यता"
 msgid "Additive-Subtractive"
 msgstr "योजक-घनता"
 
-#: pigment/compositeops/KoCompositeOps.h:175 pigment/KoCompositeOpRegistry.cpp:75
+#: pigment/compositeops/KoCompositeOps.h:175
+#: pigment/KoCompositeOpRegistry.cpp:75
 #, kde-format
 msgid "Copy Red"
 msgstr "प्रतिलिपि लाल"
 
-#: pigment/compositeops/KoCompositeOps.h:176 pigment/KoCompositeOpRegistry.cpp:76
+#: pigment/compositeops/KoCompositeOps.h:176
+#: pigment/KoCompositeOpRegistry.cpp:76
 #, kde-format
 msgid "Copy Green"
 msgstr "प्रतिलिपि हरित"
 
-#: pigment/compositeops/KoCompositeOps.h:177 pigment/KoCompositeOpRegistry.cpp:77
+#: pigment/compositeops/KoCompositeOps.h:177
+#: pigment/KoCompositeOpRegistry.cpp:77
 #, kde-format
 msgid "Copy Blue"
 msgstr "नीलवर्णं प्रतिलिख्यताम्"
 
-#: pigment/compositeops/KoCompositeOps.h:178 pigment/KoCompositeOpRegistry.cpp:79
+#: pigment/compositeops/KoCompositeOps.h:178
+#: pigment/KoCompositeOpRegistry.cpp:79
 #, kde-format
 msgid "Tangent Normalmap"
 msgstr "स्पर्शरेखा सामान्यनक्शा"
@@ -2147,172 +2913,206 @@ msgstr "स्पर्शरेखा सामान्यनक्शा"
 msgid "Combine Normal Maps"
 msgstr "सामान्य मानचित्रं संयोजयन्तु"
 
-#: pigment/compositeops/KoCompositeOps.h:181 pigment/KoCompositeOp.cpp:18 pigment/KoCompositeOpRegistry.cpp:81
+#: pigment/compositeops/KoCompositeOps.h:181 pigment/KoCompositeOp.cpp:18
+#: pigment/KoCompositeOpRegistry.cpp:81
 #, kde-format
 msgid "Color"
 msgstr "वर्ण"
 
-#: pigment/compositeops/KoCompositeOps.h:182 pigment/KoCompositeOpRegistry.cpp:82
+#: pigment/compositeops/KoCompositeOps.h:182
+#: pigment/KoCompositeOpRegistry.cpp:82
 #, kde-format
 msgid "Hue"
 msgstr "हुए"
 
-#: pigment/compositeops/KoCompositeOps.h:183 pigment/KoCompositeOpRegistry.cpp:83
+#: pigment/compositeops/KoCompositeOps.h:183
+#: pigment/KoCompositeOpRegistry.cpp:83
 #, kde-format
 msgid "Saturation"
 msgstr "संतृप्ति"
 
-#: pigment/compositeops/KoCompositeOps.h:184 pigment/KoCompositeOpRegistry.cpp:86
+#: pigment/compositeops/KoCompositeOps.h:184
+#: pigment/KoCompositeOpRegistry.cpp:86
 #, kde-format
 msgid "Increase Saturation"
 msgstr "संतृप्ति वर्धयतु"
 
-#: pigment/compositeops/KoCompositeOps.h:185 pigment/KoCompositeOpRegistry.cpp:85
+#: pigment/compositeops/KoCompositeOps.h:185
+#: pigment/KoCompositeOpRegistry.cpp:85
 #, kde-format
 msgid "Decrease Saturation"
 msgstr "संतृप्तिम् न्यूनीकरोतु"
 
-#: pigment/compositeops/KoCompositeOps.h:186 pigment/KoCompositeOpRegistry.cpp:84
+#: pigment/compositeops/KoCompositeOps.h:186
+#: pigment/KoCompositeOpRegistry.cpp:84
 #, kde-format
 msgid "Luminosity"
 msgstr "प्रकाशमानता"
 
-#: pigment/compositeops/KoCompositeOps.h:187 pigment/KoCompositeOpRegistry.cpp:88
+#: pigment/compositeops/KoCompositeOps.h:187
+#: pigment/KoCompositeOpRegistry.cpp:88
 #, kde-format
 msgid "Increase Luminosity"
 msgstr "प्रकाशमानतां वर्धयन्तु"
 
-#: pigment/compositeops/KoCompositeOps.h:188 pigment/KoCompositeOpRegistry.cpp:87
+#: pigment/compositeops/KoCompositeOps.h:188
+#: pigment/KoCompositeOpRegistry.cpp:87
 #, kde-format
 msgid "Decrease Luminosity"
 msgstr "प्रकाशमानतां न्यूनीकरोतु"
 
-#: pigment/compositeops/KoCompositeOps.h:189 pigment/KoCompositeOpRegistry.cpp:38
+#: pigment/compositeops/KoCompositeOps.h:189
+#: pigment/KoCompositeOpRegistry.cpp:38
 #, kde-format
 msgid "Darker Color"
 msgstr "गहरे रंगः"
 
-#: pigment/compositeops/KoCompositeOps.h:190 pigment/KoCompositeOpRegistry.cpp:51
+#: pigment/compositeops/KoCompositeOps.h:190
+#: pigment/KoCompositeOpRegistry.cpp:51
 #, kde-format
 msgid "Lighter Color"
 msgstr "हल्कः वर्णः"
 
-#: pigment/compositeops/KoCompositeOps.h:193 pigment/KoCompositeOpRegistry.cpp:90
+#: pigment/compositeops/KoCompositeOps.h:193
+#: pigment/KoCompositeOpRegistry.cpp:90
 #, kde-format
 msgid "Color HSI"
 msgstr "रङ्ग HSI"
 
-#: pigment/compositeops/KoCompositeOps.h:194 pigment/KoCompositeOpRegistry.cpp:91
+#: pigment/compositeops/KoCompositeOps.h:194
+#: pigment/KoCompositeOpRegistry.cpp:91
 #, kde-format
 msgid "Hue HSI"
 msgstr "हुए एच.एस.आई"
 
-#: pigment/compositeops/KoCompositeOps.h:195 pigment/KoCompositeOpRegistry.cpp:92
+#: pigment/compositeops/KoCompositeOps.h:195
+#: pigment/KoCompositeOpRegistry.cpp:92
 #, kde-format
 msgid "Saturation HSI"
 msgstr "संतृप्ति HSI"
 
-#: pigment/compositeops/KoCompositeOps.h:196 pigment/KoCompositeOpRegistry.cpp:95
+#: pigment/compositeops/KoCompositeOps.h:196
+#: pigment/KoCompositeOpRegistry.cpp:95
 #, kde-format
 msgid "Increase Saturation HSI"
 msgstr "संतृप्ति HSI वर्धयन्तु"
 
-#: pigment/compositeops/KoCompositeOps.h:197 pigment/KoCompositeOpRegistry.cpp:94
+#: pigment/compositeops/KoCompositeOps.h:197
+#: pigment/KoCompositeOpRegistry.cpp:94
 #, kde-format
 msgid "Decrease Saturation HSI"
 msgstr "संतृप्ति HSI न्यूनीकरोतु"
 
-#: pigment/compositeops/KoCompositeOps.h:198 pigment/KoCompositeOpRegistry.cpp:93
+#: pigment/compositeops/KoCompositeOps.h:198
+#: pigment/KoCompositeOpRegistry.cpp:93
 #, kde-format
 msgid "Intensity"
 msgstr "तीव्रता"
 
-#: pigment/compositeops/KoCompositeOps.h:199 pigment/KoCompositeOpRegistry.cpp:97
+#: pigment/compositeops/KoCompositeOps.h:199
+#: pigment/KoCompositeOpRegistry.cpp:97
 #, kde-format
 msgid "Increase Intensity"
 msgstr "तीव्रता वर्धयतु"
 
-#: pigment/compositeops/KoCompositeOps.h:200 pigment/KoCompositeOpRegistry.cpp:96
+#: pigment/compositeops/KoCompositeOps.h:200
+#: pigment/KoCompositeOpRegistry.cpp:96
 #, kde-format
 msgid "Decrease Intensity"
 msgstr "तीव्रता न्यूनीकर्तुं"
 
-#: pigment/compositeops/KoCompositeOps.h:202 pigment/KoCompositeOpRegistry.cpp:99
+#: pigment/compositeops/KoCompositeOps.h:202
+#: pigment/KoCompositeOpRegistry.cpp:99
 #, kde-format
 msgid "Color HSL"
 msgstr "रङ्ग HSL"
 
-#: pigment/compositeops/KoCompositeOps.h:203 pigment/KoCompositeOpRegistry.cpp:100
+#: pigment/compositeops/KoCompositeOps.h:203
+#: pigment/KoCompositeOpRegistry.cpp:100
 #, kde-format
 msgid "Hue HSL"
 msgstr "ह्यू एच एस एल"
 
-#: pigment/compositeops/KoCompositeOps.h:204 pigment/KoCompositeOpRegistry.cpp:101
+#: pigment/compositeops/KoCompositeOps.h:204
+#: pigment/KoCompositeOpRegistry.cpp:101
 #, kde-format
 msgid "Saturation HSL"
 msgstr "संतृप्ति HSL"
 
-#: pigment/compositeops/KoCompositeOps.h:205 pigment/KoCompositeOpRegistry.cpp:104
+#: pigment/compositeops/KoCompositeOps.h:205
+#: pigment/KoCompositeOpRegistry.cpp:104
 #, kde-format
 msgid "Increase Saturation HSL"
 msgstr "संतृप्ति HSL वर्धयन्तु"
 
-#: pigment/compositeops/KoCompositeOps.h:206 pigment/KoCompositeOpRegistry.cpp:103
+#: pigment/compositeops/KoCompositeOps.h:206
+#: pigment/KoCompositeOpRegistry.cpp:103
 #, kde-format
 msgid "Decrease Saturation HSL"
 msgstr "संतृप्ति HSL न्यूनीकरोतु"
 
-#: pigment/compositeops/KoCompositeOps.h:208 pigment/KoCompositeOpRegistry.cpp:106
+#: pigment/compositeops/KoCompositeOps.h:208
+#: pigment/KoCompositeOpRegistry.cpp:106
 #, kde-format
 msgid "Increase Lightness"
 msgstr "लघुतां वर्धयतु"
 
-#: pigment/compositeops/KoCompositeOps.h:209 pigment/KoCompositeOpRegistry.cpp:105
+#: pigment/compositeops/KoCompositeOps.h:209
+#: pigment/KoCompositeOpRegistry.cpp:105
 #, kde-format
 msgid "Decrease Lightness"
 msgstr "लघुतां न्यूनीकरोतु"
 
-#: pigment/compositeops/KoCompositeOps.h:211 pigment/KoCompositeOpRegistry.cpp:108
+#: pigment/compositeops/KoCompositeOps.h:211
+#: pigment/KoCompositeOpRegistry.cpp:108
 #, kde-format
 msgid "Color HSV"
 msgstr "रङ्ग HSV"
 
-#: pigment/compositeops/KoCompositeOps.h:212 pigment/KoCompositeOpRegistry.cpp:109
+#: pigment/compositeops/KoCompositeOps.h:212
+#: pigment/KoCompositeOpRegistry.cpp:109
 #, kde-format
 msgid "Hue HSV"
 msgstr "हुए एच.एस.वी"
 
-#: pigment/compositeops/KoCompositeOps.h:213 pigment/KoCompositeOpRegistry.cpp:110
+#: pigment/compositeops/KoCompositeOps.h:213
+#: pigment/KoCompositeOpRegistry.cpp:110
 #, kde-format
 msgid "Saturation HSV"
 msgstr "संतृप्ति HSV"
 
-#: pigment/compositeops/KoCompositeOps.h:214 pigment/KoCompositeOpRegistry.cpp:113
+#: pigment/compositeops/KoCompositeOps.h:214
+#: pigment/KoCompositeOpRegistry.cpp:113
 #, kde-format
 msgid "Increase Saturation HSV"
 msgstr "संतृप्ति HSV वर्धयन्तु"
 
-#: pigment/compositeops/KoCompositeOps.h:215 pigment/KoCompositeOpRegistry.cpp:112
+#: pigment/compositeops/KoCompositeOps.h:215
+#: pigment/KoCompositeOpRegistry.cpp:112
 #, kde-format
 msgid "Decrease Saturation HSV"
 msgstr "संतृप्ति HSV न्यूनीकरोतु"
 
-#: pigment/compositeops/KoCompositeOps.h:216 pigment/KoCompositeOpRegistry.cpp:111
+#: pigment/compositeops/KoCompositeOps.h:216
+#: pigment/KoCompositeOpRegistry.cpp:111
 #, kde-format
 msgid "Value"
 msgstr "मूल्यम्‌"
 
-#: pigment/compositeops/KoCompositeOps.h:217 pigment/KoCompositeOpRegistry.cpp:115
+#: pigment/compositeops/KoCompositeOps.h:217
+#: pigment/KoCompositeOpRegistry.cpp:115
 #, kde-format
 msgid "Increase Value"
 msgstr "मूल्यं वर्धयतु"
 
-#: pigment/compositeops/KoCompositeOps.h:218 pigment/KoCompositeOpRegistry.cpp:114
+#: pigment/compositeops/KoCompositeOps.h:218
+#: pigment/KoCompositeOpRegistry.cpp:114
 #, kde-format
 msgid "Decrease Value"
 msgstr "मूल्यं न्यूनीकरोतु"
 
-#: pigment/KoBasicHistogramProducers.cpp:340 pigment/KoBasicHistogramProducers.cpp:405
+#: pigment/KoBasicHistogramProducers.cpp:340
+#: pigment/KoBasicHistogramProducers.cpp:405
 #, kde-format
 msgid "Generic RGB Histogram"
 msgstr "जेनेरिक आरजीबी हिस्टोग्राम"
@@ -2492,219 +3292,233 @@ msgstr "सन्दर्भः"
 msgid "Set For All Existing"
 msgstr "सर्वेषां विद्यमानानाम् कृते सेट् कुर्वन्तु"
 
+#: rdf/KoDocumentRdfEditWidget.cpp:300
+#, kde-format
+msgctxt "statement is an Rdf related term"
+msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
+msgid_plural ""
+"<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
+msgstr[0] "<qt>सम्पादनानि नष्टानि भविष्यन्ति।<p> %1 असिद्धं कथनं अवशिष्टम् अस्ति ।</qt>"
+msgstr[1] ""
+"<qt>सम्पादनानि नष्टानि भविष्यन्ति।<p> %1 अमान्यकथनानि अवशिष्टानि सन्ति ।</qt>"
+
+#: rdf/KoDocumentRdfEditWidget.cpp:303
+#, kde-format
+msgctxt "statement is an Rdf related term"
+msgid "Discard invalid statements?"
+msgstr "अमान्यकथनानि परित्यजन्तु ?"
+
 #: rdf/KoDocumentRdfEditWidget.cpp:342
 #, kde-format
 msgid "Rdf"
 msgstr "Rdf"
 
-#: rdf/KoDocumentRdfEditWidget.ui:21
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: rdf/KoDocumentRdfEditWidget.ui:21
 #, kde-format
 msgid "Triples"
 msgstr "त्रिगुणाः"
 
-#: rdf/KoDocumentRdfEditWidget.ui:39 rdf/KoDocumentRdfEditWidget.ui:84 rdf/KoSemanticStylesheetsEditor.ui:77
 #. i18n: ectx: property (text), widget (QPushButton, newStylesheet)
 #. i18n: ectx: property (text), widget (QPushButton, newTripleButton)
 #. i18n: ectx: property (text), widget (QPushButton, newNamespaceButton)
+#: rdf/KoDocumentRdfEditWidget.ui:39 rdf/KoDocumentRdfEditWidget.ui:84
+#: rdf/KoSemanticStylesheetsEditor.ui:77
 #, kde-format
 msgid "new"
 msgstr "नूतनम्‌"
 
-#: rdf/KoDocumentRdfEditWidget.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, copyTripleButton)
+#: rdf/KoDocumentRdfEditWidget.ui:46
 #, kde-format
 msgid "copy"
 msgstr "प्रतिलिपि"
 
-#: rdf/KoDocumentRdfEditWidget.ui:53 rdf/KoDocumentRdfEditWidget.ui:91 rdf/KoSemanticStylesheetsEditor.ui:84
 #. i18n: ectx: property (text), widget (QPushButton, deleteStylesheet)
 #. i18n: ectx: property (text), widget (QPushButton, deleteTripleButton)
 #. i18n: ectx: property (text), widget (QPushButton, deleteNamespaceButton)
+#: rdf/KoDocumentRdfEditWidget.ui:53 rdf/KoDocumentRdfEditWidget.ui:91
+#: rdf/KoSemanticStylesheetsEditor.ui:84
 #, kde-format
 msgid "delete"
 msgstr "लुप्"
 
-#: rdf/KoDocumentRdfEditWidget.ui:76
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rdf/KoDocumentRdfEditWidget.ui:76
 #, kde-format
 msgid "Namespaces"
 msgstr "नामस्थानानि"
 
-#: rdf/KoDocumentRdfEditWidget.ui:123
 #. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
+#: rdf/KoDocumentRdfEditWidget.ui:123
 #, kde-format
 msgid "Prefix"
 msgstr "उपसर्गः"
 
-#: rdf/KoDocumentRdfEditWidget.ui:128
 #. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
+#: rdf/KoDocumentRdfEditWidget.ui:128
 #, kde-format
 msgid "Namespace"
 msgstr "नामस्थानम्"
 
-#: rdf/KoDocumentRdfEditWidget.ui:137
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: rdf/KoDocumentRdfEditWidget.ui:137
 #, kde-format
 msgid "Semantic"
 msgstr "शब्दार्थः"
 
-#: rdf/KoDocumentRdfEditWidget.ui:156
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: rdf/KoDocumentRdfEditWidget.ui:156
 #, kde-format
 msgid "SPARQL"
 msgstr "SPARQL"
 
-#: rdf/KoDocumentRdfEditWidget.ui:182
 #. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
+#: rdf/KoDocumentRdfEditWidget.ui:182
 #, kde-format
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
-"type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; "
-"font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br "
-"/># Results are shown below.</span></p>\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br /># "
+"Results are shown below.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">prefix rdf:  "
-"&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">prefix foaf: "
-"&lt;http://xmlns.com/foaf/0.1/&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">prefix pkg:  "
-"&lt;http://docs.oasis-open.org/ns/office/1.2/meta/pkg#&gt; </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">prefix geo84: "
-"&lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3."
+"org/1999/02/22-rdf-syntax-ns#&gt; </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/"
+"foaf/0.1/&gt; </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-open."
+"org/ns/office/1.2/meta/pkg#&gt; </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3."
+"org/2003/01/geo/wgs84_pos#&gt;</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">}</span></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">where { </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">}</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p></body></html>"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\"><html><head><meta "
-"name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\"><html><head><meta name=\"qrichtext\" content=\"1\" /"
+"><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; "
-"font-size:9pt; font-weight:400; font-style:normal;\"><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Verdana'; font-size:13pt;\"># अत्र स्वस्य SPARQL प्रश्नं "
-"सम्मिलितं कुर्वन्तु<br /> # परिणामाः अधः दर्शिताः सन्ति।</span> </p><p "
-"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p><p style=\" margin-top:0px; "
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\"><p style=\" margin-top:0px; "
 "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"> <span style=\" font-family:'Verdana'; "
-"font-size:13pt;\">उपसर्ग rdf: "
-"&lt;http://www.w3.org/1999/02/22-rdf-वाक्यविन्यास-ns#&gt;</span> </p><p "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"text-indent:0px;\"> <span style=\" font-family:'Verdana'; font-size:13pt;"
+"\"># अत्र स्वस्य SPARQL प्रश्नं सम्मिलितं कुर्वन्तु<br /> # परिणामाः अधः दर्शिताः सन्ति।</"
+"span> </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px; font-family:'Verdana'; font-size:13pt;\"></p><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"> <span style=\" font-family:'Verdana'; font-"
+"size:13pt;\">उपसर्ग rdf: &lt;http://www.w3.org/1999/02/22-rdf-वाक्यविन्यास-"
+"ns#&gt;</span> </p><p style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span "
+"style=\" font-family:'Verdana'; font-size:13pt;\">उपसर्गः फोफः &lt;http://"
+"xmlns.com/foaf/0.1/&gt; इति</span> </p><p style=\" margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"> <span style=\" font-family:'Verdana'; font-size:13pt;\">उपसर्ग "
+"pkg: &lt;http://docs.oasis-open.org/ns/office/1.2/meta/pkg#&gt;</span> </"
+"p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">उपसर्ग geo84: &lt;http://www.w3."
+"org/2003/01/geo/wgs84_pos#&gt;</span> </p><p style=\"-qt-paragraph-type:"
+"empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+"-qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;"
+"\"></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
 "margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">उपसर्गः फोफः "
-"&lt;http://xmlns.com/foaf/0.1/&gt; इति</span> </p><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">उपसर्ग pkg: "
-"&lt;http://docs.oasis-open.org/ns/office/1.2/meta/pkg#&gt;</span> </p><p "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">उपसर्ग geo84: "
-"&lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</span> </p><p "
-"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p><p style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"> <span style=\" font-family:'Verdana'; "
-"font-size:13pt;\">?स् ?प ?o इति चयनं कुर्वन्तु</span> </p><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">कुत्र {</span> </p><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">?स ?प ?ओ</span> </p><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Verdana'; font-size:13pt;\">} .</span> </p><p "
-"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p><p "
-"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p><p "
-"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'Verdana'; font-size:13pt;\"></p></body></html>"
+"font-family:'Verdana'; font-size:13pt;\">?स् ?प ?o इति चयनं कुर्वन्तु</span> </"
+"p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" font-"
+"family:'Verdana'; font-size:13pt;\">कुत्र {</span> </p><p style=\" margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px;\"> <span style=\" font-family:'Verdana'; font-"
+"size:13pt;\">?स ?प ?ओ</span> </p><p style=\" margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"> <span style=\" font-family:'Verdana'; font-size:13pt;\">} .</"
+"span> </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px; font-family:'Verdana'; font-size:13pt;\"></p><p style=\"-qt-"
+"paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'Verdana'; font-size:13pt;\"></p><p style=\"-qt-paragraph-type:empty; "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
+"block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></"
+"p></body></html>"
 
-#: rdf/KoDocumentRdfEditWidget.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
+#: rdf/KoDocumentRdfEditWidget.ui:191
 #, kde-format
 msgid "Execute"
 msgstr "प्रभज्"
 
-#: rdf/KoDocumentRdfEditWidget.ui:221
 #. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#: rdf/KoDocumentRdfEditWidget.ui:221
 #, kde-format
 msgid "Stylesheets"
 msgstr "शैलीपत्रिकाः"
 
-#: rdf/KoDocumentRdfEditWidget.ui:227
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rdf/KoDocumentRdfEditWidget.ui:227
 #, kde-format
 msgid ""
 "Set the default stylesheet for Semantic objects in this document. New RDF "
-"objects will use this stylesheet automatically. The buttons allow you to "
-"set the stylesheet for all existing semantic objects to the new default "
+"objects will use this stylesheet automatically. The buttons allow you to set "
+"the stylesheet for all existing semantic objects to the new default "
 "stylesheet as well."
 msgstr ""
-"अस्मिन् दस्तावेजे Semantic ऑब्जेक्ट्स् कृते पूर्वनिर्धारितं stylesheet सेट् "
-"कुर्वन्तु । नूतनाः RDF ऑब्जेक्ट्स् स्वयमेव एतस्य स्टाइल्शीट् इत्यस्य उपयोगं "
-"करिष्यन्ति । बटन्स् भवन्तं सर्वेषां विद्यमानानाम् अर्थवस्तूनाम् कृते "
-"शैलीपत्रं नूतनपूर्वनिर्धारितशैलीपत्रे अपि सेट् कर्तुं शक्नुवन्ति ।"
+"अस्मिन् दस्तावेजे Semantic ऑब्जेक्ट्स् कृते पूर्वनिर्धारितं stylesheet सेट् कुर्वन्तु । नूतनाः RDF "
+"ऑब्जेक्ट्स् स्वयमेव एतस्य स्टाइल्शीट् इत्यस्य उपयोगं करिष्यन्ति । बटन्स् भवन्तं सर्वेषां "
+"विद्यमानानाम् अर्थवस्तूनाम् कृते शैलीपत्रं नूतनपूर्वनिर्धारितशैलीपत्रे अपि सेट् कर्तुं शक्नुवन्ति ।"
 
 #: rdf/KoRdfSemanticTreeWidgetItem.cpp:101
 #, kde-format
 msgid "Apply Stylesheet"
 msgstr "Stylesheet इत्येतत् प्रयोजयन्तु"
 
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:103 rdf/KoSemanticStylesheetsEditor.cpp:101
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:103
+#: rdf/KoSemanticStylesheetsEditor.cpp:101
 #, kde-format
 msgid "System"
 msgstr "व्यवस्था"
 
-#: rdf/KoRdfSemanticTreeWidgetItem.cpp:110 rdf/KoSemanticStylesheetsEditor.cpp:116
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:110
+#: rdf/KoSemanticStylesheetsEditor.cpp:116
 #, kde-format
 msgid "User"
 msgstr "उपयोक्ता"
@@ -2724,26 +3538,26 @@ msgstr "विसर्जनम्"
 msgid "Edit %1"
 msgstr "%1 सम्पादयतु"
 
-#: rdf/KoSemanticStylesheetsEditor.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rdf/KoSemanticStylesheetsEditor.ui:17
 #, kde-format
 msgid "Stylesheet Definition"
 msgstr "शैलीपत्रपरिभाषा"
 
-#: rdf/KoSemanticStylesheetsEditor.ui:29
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rdf/KoSemanticStylesheetsEditor.ui:29
 #, kde-format
 msgid "Variables Available"
 msgstr "चर उपलब्ध"
 
-#: rdf/KoSemanticStylesheetsEditor.ui:62
 #. i18n: ectx: property (text), widget (QTableWidget, variables)
+#: rdf/KoSemanticStylesheetsEditor.ui:62
 #, kde-format
 msgid "Description"
 msgstr "वर्णनम्‌"
 
-#: rdf/KoSemanticStylesheetsEditor.ui:107
 #. i18n: ectx: property (text), widget (QTreeWidget, stylesheets)
+#: rdf/KoSemanticStylesheetsEditor.ui:107
 #, kde-format
 msgid "Stylesheet Name"
 msgstr "शैलीपत्रस्य नाम"
@@ -2809,8 +3623,13 @@ msgid ""
 "This document contains an unknown checksum. When you give a password it "
 "might not be verified."
 msgstr ""
-"अस्मिन् दस्तावेजे अज्ञातः चेकसमः अस्ति । यदा भवन्तः गुप्तशब्दं ददति तदा तत् "
-"सत्यापितं न भवेत्।"
+"अस्मिन् दस्तावेजे अज्ञातः चेकसमः अस्ति । यदा भवन्तः गुप्तशब्दं ददति तदा तत् सत्यापितं न भवेत्।"
+
+#: store/KoEncryptedStore.cpp:245
+#, kde-format
+msgctxt "@dialog:title"
+msgid "Warning"
+msgstr "चेतवानी"
 
 #: store/KoEncryptedStore.cpp:272 store/KoEncryptedStore.cpp:291
 #, kde-format
@@ -2819,14 +3638,19 @@ msgid ""
 "unreadable."
 msgstr "अस्मिन् दस्तावेजे अज्ञातगुप्तीकरणविधिः अस्ति । केचन भागाः अपठनीयाः भवेयुः ।"
 
+#: store/KoEncryptedStore.cpp:273 store/KoEncryptedStore.cpp:292
+#: store/KoEncryptedStore.cpp:309
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Warning"
+msgstr "चेतवानी"
+
 #: store/KoEncryptedStore.cpp:308
 #, kde-format
 msgid ""
 "This document contains incomplete encryption data. Some parts may be "
 "unreadable."
-msgstr ""
-"अस्मिन् दस्तावेजे अपूर्णगुप्तीकरणदत्तांशः अस्ति । केचन भागाः अपठनीयाः "
-"भवेयुः ।"
+msgstr "अस्मिन् दस्तावेजे अपूर्णगुप्तीकरणदत्तांशः अस्ति । केचन भागाः अपठनीयाः भवेयुः ।"
 
 #: store/KoEncryptedStore.cpp:349
 #, kde-format
@@ -2835,9 +3659,8 @@ msgid ""
 "document will remain unreadable. Please try and save the document again to "
 "prevent losing your work."
 msgstr ""
-"प्रकटसञ्चिका दूषिता इव दृश्यते । तस्य परिवर्तनं कर्तुं न शक्यते, दस्तावेजं "
-"अपठनीयं एव तिष्ठति । कृपया पुनः दस्तावेजं रक्षितुं प्रयतस्व यत् भवतः "
-"कार्यस्य हानिः न भवेत् ।"
+"प्रकटसञ्चिका दूषिता इव दृश्यते । तस्य परिवर्तनं कर्तुं न शक्यते, दस्तावेजं अपठनीयं एव तिष्ठति । "
+"कृपया पुनः दस्तावेजं रक्षितुं प्रयतस्व यत् भवतः कार्यस्य हानिः न भवेत् ।"
 
 #: store/KoEncryptedStore.cpp:447
 #, kde-format
@@ -2845,8 +3668,8 @@ msgid ""
 "The manifest file cannot be written. The document will remain unreadable. "
 "Please try and save the document again to prevent losing your work."
 msgstr ""
-"मेनिफेस्ट् सञ्चिका लिखितुं न शक्यते । दस्तावेजः अपठनीयः एव तिष्ठति। कृपया "
-"पुनः दस्तावेजं रक्षितुं प्रयतध्वं यत् भवतः कार्यस्य हानिः न भवेत् ।"
+"मेनिफेस्ट् सञ्चिका लिखितुं न शक्यते । दस्तावेजः अपठनीयः एव तिष्ठति। कृपया पुनः दस्तावेजं "
+"रक्षितुं प्रयतध्वं यत् भवतः कार्यस्य हानिः न भवेत् ।"
 
 #: store/KoEncryptedStore.cpp:569
 #, kde-format
@@ -2883,1499 +3706,9 @@ msgstr "कैलिग्रा भण्डारण"
 msgid "The directory mode is not supported for remote locations."
 msgstr "दूरस्थस्थानानां कृते निर्देशिकाविधिः समर्थितः नास्ति ।"
 
-#: text/commands/ChangeTrackedDeleteCommand.cpp:263
-#, kde-format
-msgid "Delete"
-msgstr "लुप्"
-
-#: text/InsertTextLocator.cpp:13
-#, kde-format
-msgid "Index Reference"
-msgstr "अनुक्रमणिका सन्दर्भ"
-
-#: text/InsertTextReferenceAction.cpp:22 text/InsertTextReferenceAction.cpp:50
-#, kde-format
-msgid "Text Reference"
-msgstr "पाठसन्दर्भः"
-
-#: text/InsertTextReferenceAction.cpp:31
-#, kde-format
-msgid "Please create an index to reference first."
-msgstr "कृपया प्रथमं सन्दर्भार्थं अनुक्रमणिकां रचयन्तु ।"
-
-#: text/InsertTextReferenceAction.cpp:40
-#, kde-format
-msgid "Select the index you want to reference"
-msgstr "यस्य अनुक्रमणिकायाः सन्दर्भं कर्तुम् इच्छति तत् चिनोतु"
-
-#: text/KoFindStrategy.cpp:55
-#, kde-format
-msgid "Found 1 match"
-msgid_plural "Found %1 matches"
-msgstr[0] "प्राप्तः १ मेलः"
-msgstr[1] "%1 मेलनं प्राप्तम्"
-
-#: text/KoFindStrategy.cpp:55
-#, kde-format
-msgid "Found no match"
-msgstr "न मेलनं लब्धम्"
-
-#: text/KoReplaceStrategy.cpp:43
-#, kde-format
-msgid ""
-"Found no match\n"
-"\n"
-"No text was replaced"
-msgstr ""
-"न मेलनं लब्धम्\n"
-"\n"
-"न कोऽपि पाठः प्रतिस्थापितः"
-
-#: text/KoReplaceStrategy.cpp:45
-#, kde-format
-msgid "1 replacement made"
-msgid_plural "%1 replacements made"
-msgstr[0] "१ प्रतिस्थापनं कृतम्"
-msgstr[1] "%1 प्रतिस्थापनं कृतम्"
-
-#: text/KoReplaceStrategy.cpp:57
-#, kde-format
-msgid "Replace %1 with %2?"
-msgstr "%1 इत्यस्य स्थाने %2 इति स्थापयन्तु?"
-
-#: widgets/KoColorPopupAction.cpp:82
-#, kde-format
-msgid "Opacity"
-msgstr "अपारदर्शिता"
-
-#: widgets/KoColorSetWidget.cpp:150
-#, kde-format
-msgid "Recent:"
-msgstr "सद्यस्क:"
-
-#: widgets/KoColorSetWidget.cpp:163
-#, kde-format
-msgid "Add / Remove Colors..."
-msgstr "रङ्गं योजयतु / निष्कासयतु..."
-
-#: widgets/KoConfigAuthorPage.cpp:50
-#, kde-format
-msgid "Add new author profile (starts out as a copy of current)"
-msgstr "नूतनं लेखकप्रोफाइलं योजयन्तु (वर्तमानस्य प्रतिलिपिना आरभ्यते)"
-
-#: widgets/KoConfigAuthorPage.cpp:54
-#, kde-format
-msgid "Delete the author profile"
-msgstr "लेखकस्य प्रोफाइलं विलोपयन्तु"
-
-#: widgets/KoConfigAuthorPage.cpp:128
-#, kde-format
-msgid "Name (not duplicate or blank name):"
-msgstr "नाम (न तु द्वितीयकं रिक्तं वा) :"
-
-#: widgets/KoConfigAuthorPage.cpp:128
-#, kde-format
-msgid "Name of Profile"
-msgstr "प्रोफाइलस्य नाम"
-
-#: widgets/KoConfigAuthorPage.ui:20 widgets/koDocumentInfoAuthorWidget.ui:14
-#. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
-#, kde-format
-msgid "Name:"
-msgstr "नामः:"
-
-#: widgets/KoConfigAuthorPage.ui:40 widgets/koDocumentInfoAuthorWidget.ui:24
-#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
-#, kde-format
-msgid "Initials:"
-msgstr "आद्याक्षराणि : १."
-
-#: widgets/KoConfigAuthorPage.ui:63 widgets/koDocumentInfoAuthorWidget.ui:34
-#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
-#, kde-format
-msgid "Title:"
-msgstr "शीर्षक:"
-
-#: widgets/KoConfigAuthorPage.ui:79 widgets/koDocumentInfoAuthorWidget.ui:44
-#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
-#, kde-format
-msgid "Position:"
-msgstr "स्थितिः:"
-
-#: widgets/KoConfigAuthorPage.ui:95 widgets/koDocumentInfoAuthorWidget.ui:54
-#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
-#, kde-format
-msgid "Company:"
-msgstr "गोष्ठी:"
-
-#: widgets/KoConfigAuthorPage.ui:111 widgets/koDocumentInfoAuthorWidget.ui:61
-#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
-#, kde-format
-msgid "Email:"
-msgstr "ईमेलः १."
-
-#: widgets/KoConfigAuthorPage.ui:127 widgets/koDocumentInfoAuthorWidget.ui:68
-#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
-#, kde-format
-msgid "Telephone (home):"
-msgstr "दूरभाषः (गृहम्): १."
-
-#: widgets/KoConfigAuthorPage.ui:143 widgets/koDocumentInfoAuthorWidget.ui:75
-#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
-#, kde-format
-msgid "Telephone (work):"
-msgstr "दूरभाष (कार्य) : १."
-
-#: widgets/KoConfigAuthorPage.ui:159 widgets/koDocumentInfoAuthorWidget.ui:82
-#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
-#, kde-format
-msgid "Fax:"
-msgstr "फैक्सः : १."
-
-#: widgets/KoConfigAuthorPage.ui:175 widgets/koDocumentInfoAuthorWidget.ui:89
-#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
-#, kde-format
-msgid "Street:"
-msgstr "मार्गं:"
-
-#: widgets/KoConfigAuthorPage.ui:191 widgets/koDocumentInfoAuthorWidget.ui:96
-#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
-#, kde-format
-msgid "Postal code:"
-msgstr "डाकसङ्केतः : १."
-
-#: widgets/KoConfigAuthorPage.ui:207 widgets/koDocumentInfoAuthorWidget.ui:103
-#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
-#, kde-format
-msgid "City:"
-msgstr "नगरी:"
-
-#: widgets/KoConfigAuthorPage.ui:223 widgets/koDocumentInfoAuthorWidget.ui:110
-#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
-#, kde-format
-msgid "Country:"
-msgstr "देशः:"
-
-#: widgets/KoCsvImportDialog.cpp:86
-#, kde-format
-msgid "Import Data"
-msgstr "आँकडा आयात करें"
-
-#: widgets/KoCsvImportDialog.cpp:179 widgets/KoCsvImportDialog.cpp:467 widgets/KoCsvImportDialog.cpp:490
-#, kde-format
-msgid "Generic"
-msgstr "सामान्यम्"
-
-#: widgets/KoCsvImportDialog.cpp:181 widgets/KoCsvImportDialog.cpp:492 widgets/KoModeBox.cpp:498
-#, kde-format
-msgid "Text"
-msgstr "पाठ"
-
-#: widgets/KoCsvImportDialog.cpp:183 widgets/KoCsvImportDialog.cpp:494
-#, kde-format
-msgid "Date"
-msgstr "दिनाङ्कः"
-
-#: widgets/KoCsvImportDialog.cpp:185 widgets/KoCsvImportDialog.cpp:496
-#, kde-format
-msgid "Currency"
-msgstr "मुद्रा"
-
-#: widgets/KoCsvImportDialog.cpp:187 widgets/KoCsvImportDialog.cpp:498 widgets/KoCsvImportDialog.cpp:600 widgets/KoCsvImportDialog.ui:222
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#, kde-format
-msgid "None"
-msgstr "न कश्चित्"
-
-#: widgets/KoCsvImportDialog.cpp:625
-#, kde-format
-msgid ""
-"Please check the ranges you specified. The start value must be lower than "
-"the end value."
-msgstr ""
-"कृपया भवता निर्दिष्टानि श्रेणीनि पश्यन्तु । आरम्भमूल्यं अन्त्यमूल्यात् "
-"न्यूनं भवितुमर्हति ।"
-
-#: widgets/KoCsvImportDialog.ui:52
-#. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
-#, kde-format
-msgid "Data"
-msgstr "दत्तांश"
-
-#: widgets/KoCsvImportDialog.ui:64
-#. i18n: ectx: property (text), widget (QCheckBox, m_firstRowHeader)
-#, kde-format
-msgid "First row contains headers"
-msgstr "प्रथमपङ्क्तौ शीर्षकाणि सन्ति"
-
-#: widgets/KoCsvImportDialog.ui:77
-#. i18n: ectx: property (text), widget (QCheckBox, m_firstColHeader)
-#, kde-format
-msgid "First column contains headers"
-msgstr "प्रथमस्तम्भे शीर्षकाणि सन्ति"
-
-#: widgets/KoCsvImportDialog.ui:101
-#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
-#, kde-format
-msgid "Format"
-msgstr "प्रारूप"
-
-#: widgets/KoCsvImportDialog.ui:113
-#. i18n: ectx: property (title), widget (QGroupBox, m_delimiterBox)
-#, kde-format
-msgid "Delimiter"
-msgstr "परिसीमक"
-
-#: widgets/KoCsvImportDialog.ui:119
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
-#, kde-format
-msgid "Comma"
-msgstr "अल्पविरामः"
-
-#: widgets/KoCsvImportDialog.ui:129
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
-#, kde-format
-msgid "Semicolon"
-msgstr "अर्धविराम"
-
-#: widgets/KoCsvImportDialog.ui:136
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
-#, kde-format
-msgid "Other"
-msgstr "इतर"
-
-#: widgets/KoCsvImportDialog.ui:143
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
-#, kde-format
-msgid "Tabulator"
-msgstr "टब"
-
-#: widgets/KoCsvImportDialog.ui:150
-#. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
-#, kde-format
-msgid "Space"
-msgstr "स्थानं"
-
-#: widgets/KoCsvImportDialog.ui:195
-#. i18n: ectx: property (text), widget (QLabel, label2)
-#, kde-format
-msgid "Text&quote:"
-msgstr "पाठ&उद्धरण: १."
-
-#: widgets/KoCsvImportDialog.ui:212
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#, kde-format
-msgid "\""
-msgstr "\" \" ."
-
-#: widgets/KoCsvImportDialog.ui:217
-#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
-#, kde-format
-msgid "'"
-msgstr "' ."
-
-#: widgets/KoCsvImportDialog.ui:246
-#. i18n: ectx: property (text), widget (QLabel, label3)
-#, kde-format
-msgid "Decimal symbol:"
-msgstr "दशमलवचिह्नम् : १."
-
-#: widgets/KoCsvImportDialog.ui:275
-#. i18n: ectx: property (text), widget (QLabel, label4)
-#, kde-format
-msgid "Thousands separator:"
-msgstr "सहस्राणि विभाजकः : १."
-
-#: widgets/KoCsvImportDialog.ui:320
-#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
-#, kde-format
-msgid "Ignore duplicate delimiters"
-msgstr "द्वितीयकपरिसीमकानाम् अवहेलनां कुर्वन्तु"
-
-#: widgets/KoCsvImportDialog.ui:327
-#. i18n: ectx: property (text), widget (QLabel, label1)
-#, kde-format
-msgid "&Format:"
-msgstr "&स्वरूपः : १."
-
-#: widgets/KoCsvImportDialog.ui:341
-#. i18n: ectx: attribute (title), widget (QWidget, m_rangesTab)
-#, kde-format
-msgid "Ranges"
-msgstr "श्रेणयः"
-
-#: widgets/KoCsvImportDialog.ui:347
-#. i18n: ectx: property (text), widget (QPushButton, m_updateButton)
-#, kde-format
-msgid "Update"
-msgstr "अद्यतन"
-
-#: widgets/KoCsvImportDialog.ui:414
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
-#, kde-format
-msgid "Import columns:"
-msgstr "आयातस्तम्भाः : १."
-
-#: widgets/KoCsvImportDialog.ui:433
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
-#, kde-format
-msgid "Import lines:"
-msgstr "आयातपङ्क्तयः : १."
-
-#: widgets/KoCsvImportDialog.ui:443 widgets/KoCsvImportDialog.ui:466
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#, kde-format
-msgid "to"
-msgstr "इत्यस्मै"
-
-#: widgets/KoDialog.cpp:256
-#, kde-format
-msgid "&Try"
-msgstr "&प्रयततु"
-
-#: widgets/KoDialog.cpp:459
-#, kde-format
-msgid "modified"
-msgstr "परिवर्तितः"
-
-#: widgets/KoDialog.cpp:823
-#, kde-format
-msgid "&Details"
-msgstr "&वर्णन"
-
-#: widgets/KoDialog.cpp:971
-#, kde-format
-msgid "Get help..."
-msgstr "सहायतां प्राप्नुवन्तु..."
-
-#: widgets/koDocumentInfoAboutWidget.ui:23 widgets/KoDocumentInfoDlg.cpp:221 widgets/KoDocumentInfoDlg.cpp:316
-#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
-#, kde-format
-msgid "&Encrypt"
-msgstr "&गुप्तीकरण"
-
-#: widgets/koDocumentInfoAboutWidget.ui:64
-#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
-#, kde-format
-msgid "Keywords:"
-msgstr "कीवर्ड्स : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:111
-#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
-#, kde-format
-msgid "Subject:"
-msgstr "विषयः:"
-
-#: widgets/koDocumentInfoAboutWidget.ui:124
-#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
-#, kde-format
-msgid "Last printed:"
-msgstr "अन्तिम मुद्रितम् : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:158
-#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
-#, kde-format
-msgid "Total editing time:"
-msgstr "कुल सम्पादनसमयः : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:178
-#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
-#, kde-format
-msgid "Encryption:"
-msgstr "एन्क्रिप्शन : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:201
-#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
-#, kde-format
-msgid "Revision number:"
-msgstr "पुनरीक्षणसङ्ख्या : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:211
-#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
-#, kde-format
-msgid "Modified:"
-msgstr "परिवर्तितः : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:231
-#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
-#, kde-format
-msgid "Comments:"
-msgstr "टिप्पणियाँ : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:251
-#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
-#, kde-format
-msgid "Created:"
-msgstr "निर्मितः : १."
-
-#: widgets/koDocumentInfoAboutWidget.ui:261
-#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
-#, kde-format
-msgid "Path:"
-msgstr "पथं:"
-
-#: widgets/koDocumentInfoAboutWidget.ui:280
-#. i18n: ectx: property (text), widget (QPushButton, pbReset)
-#, kde-format
-msgid "&Reset"
-msgstr "&पुनः सेट् कुर्वन्तु"
-
-#: widgets/koDocumentInfoAboutWidget.ui:297
-#. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
-#, kde-format
-msgid "Language:"
-msgstr "भाषा:"
-
-#: widgets/KoDocumentInfoDlg.cpp:102 widgets/KoDocumentInfoDlg.cpp:103
-#, kde-format
-msgid "General"
-msgstr "सामान्य"
-
-#: widgets/KoDocumentInfoDlg.cpp:126
-#, kde-format
-msgid "Last saved by"
-msgstr "अन्तिमे द्वारा रक्षितम्"
-
-#: widgets/KoDocumentInfoDlg.cpp:175
-#, kde-format
-msgid "Use ';' (Example: Office;KDE;Calligra)"
-msgstr "उपयुञ्जताम्‌ ';' (उदाहरणम् : Office;KDE;Calligra)"
-
-#: widgets/KoDocumentInfoDlg.cpp:205 widgets/KoDocumentInfoDlg.cpp:301
-#, kde-format
-msgid "This document will be decrypted"
-msgstr "एतत् दस्तावेजं विगुप्तं भविष्यति"
-
-#: widgets/KoDocumentInfoDlg.cpp:207 widgets/KoDocumentInfoDlg.cpp:303
-#, kde-format
-msgid "Do not decrypt"
-msgstr "विगुप्तीकरणं न कुर्वन्तु"
-
-#: widgets/KoDocumentInfoDlg.cpp:209 widgets/KoDocumentInfoDlg.cpp:305
-#, kde-format
-msgid "This document is encrypted"
-msgstr "एतत् दस्तावेजं एन्क्रिप्टेड् अस्ति"
-
-#: widgets/KoDocumentInfoDlg.cpp:211 widgets/KoDocumentInfoDlg.cpp:307
-#, kde-format
-msgid "D&ecrypt"
-msgstr "D&ecrypt"
-
-#: widgets/KoDocumentInfoDlg.cpp:215 widgets/KoDocumentInfoDlg.cpp:310
-#, kde-format
-msgid "This document will be encrypted."
-msgstr "एतत् दस्तावेजं एन्क्रिप्टेड् भविष्यति ।"
-
-#: widgets/KoDocumentInfoDlg.cpp:217 widgets/KoDocumentInfoDlg.cpp:312
-#, kde-format
-msgid "Do not encrypt"
-msgstr "गुप्तीकरणं न कुर्वन्तु"
-
-#: widgets/KoDocumentInfoDlg.cpp:219 widgets/KoDocumentInfoDlg.cpp:314
-#, kde-format
-msgid "This document is not encrypted"
-msgstr "एतत् दस्तावेजं एन्क्रिप्टेड् नास्ति"
-
-#: widgets/KoDocumentInfoDlg.cpp:225
-#, kde-format
-msgid "This document does not support encryption"
-msgstr "एतत् दस्तावेजं एन्क्रिप्शनस्य समर्थनं न करोति"
-
-#: widgets/KoDocumentInfoDlg.cpp:337
-#, kde-format
-msgid ""
-"<qt>Decrypting the document will remove the password protection from "
-"it.<p>Do you still want to decrypt the file?</qt>"
-msgstr ""
-"<qt>दस्तावेजस्य विगुप्तीकरणेन तस्मात् गुप्तशब्दसंरक्षणं दूरं भविष्यति ।<p> "
-"किं भवन्तः अद्यापि सञ्चिकां विगुप्तं कर्तुम् इच्छन्ति ?</qt>"
-
-#: widgets/KoDocumentInfoDlg.cpp:339
-#, kde-format
-msgid "Confirm Decrypt"
-msgstr "Decrypt इति पुष्टिं कुर्वन्तु"
-
-#: widgets/KoDocumentInfoDlg.cpp:340
-#, kde-format
-msgid "Decrypt"
-msgstr "विच्छेदनं कुर्वन्तु"
-
-#: widgets/KoDocumentInfoDlg.cpp:349
-#, kde-format
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"decryption, please save the document.</qt>"
-msgstr ""
-"<qt>भवतः दस्तावेजं स्वयमेव रक्षितुं न शक्यते स्म ।<p> विगुप्तीकरणं पूर्णं "
-"कर्तुं कृपया दस्तावेजं रक्षन्तु ।</qt>"
-
-#: widgets/KoDocumentInfoDlg.cpp:351 widgets/KoDocumentInfoDlg.cpp:358 widgets/KoDocumentInfoDlg.cpp:393 widgets/KoDocumentInfoDlg.cpp:401
-#, kde-format
-msgid "Save Document"
-msgstr "दस्तावेजं रक्षन्तु"
-
-#: widgets/KoDocumentInfoDlg.cpp:356
-#, kde-format
-msgid ""
-"<qt>To complete the decryption the document needs to be saved.<p>Do you "
-"want to save the document now?</qt>"
-msgstr ""
-"<qt>विगुप्तीकरणं पूर्णं कर्तुं दस्तावेजं रक्षितुं आवश्यकम् अस्ति ।<p> "
-"इदानीं दस्तावेजं रक्षितुम् इच्छति वा ?</qt>"
-
-#: widgets/KoDocumentInfoDlg.cpp:375
-#, kde-format
-msgid ""
-"<qt>The document is currently saved as %1. The document needs to be changed "
-"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
-"file to OASIS OpenDocument?</qt>"
-msgstr ""
-"<qt>दस्तावेजं सम्प्रति %1 इति रक्षितम् अस्ति । दस्तावेजं एन्क्रिप्टेड् "
-"कर्तुं <b>OASIS OpenDocument</b> इति परिवर्तयितुं आवश्यकम् अस्ति ।<p> किं "
-"भवान् सञ्चिकां OASIS OpenDocument इति परिवर्तयितुम् इच्छति?</qt>"
-
-#: widgets/KoDocumentInfoDlg.cpp:378
-#, kde-format
-msgid "Change Filetype"
-msgstr "सञ्चिकाप्रकारं परिवर्तयन्तु"
-
-#: widgets/KoDocumentInfoDlg.cpp:379
-#, kde-format
-msgid "Change"
-msgstr "परिवर्तय"
-
-#: widgets/KoDocumentInfoDlg.cpp:391
-#, kde-format
-msgid ""
-"<qt>Your document could not be saved automatically.<p>To complete the "
-"encryption, please save the document.</qt>"
-msgstr ""
-"<qt>भवतः दस्तावेजं स्वयमेव रक्षितुं न शक्यते स्म ।<p> एन्क्रिप्शनं पूर्णं "
-"कर्तुं कृपया दस्तावेजं रक्षन्तु ।</qt>"
-
-#: widgets/KoDocumentInfoDlg.cpp:399
-#, kde-format
-msgid ""
-"<qt>The document has been changed since it was opened. To complete the "
-"encryption the document needs to be saved.<p>Do you want to save the "
-"document now?</qt>"
-msgstr ""
-"<qt>दस्तावेजं उद्घाटितस्य अनन्तरं परिवर्तितम् अस्ति । एन्क्रिप्शनं पूर्णं "
-"कर्तुं दस्तावेजं रक्षितुं आवश्यकम् ।<p> इदानीं दस्तावेजं रक्षितुम् इच्छति "
-"वा ?</qt>"
-
-#: widgets/KoEditColorSet.ui:45
-#. i18n: ectx: property (toolTip), widget (QToolButton, add)
-#, kde-format
-msgid "Add"
-msgstr "संयोजयति"
-
-#: widgets/KoEditColorSet.ui:55
-#. i18n: ectx: property (toolTip), widget (QToolButton, remove)
-#, kde-format
-msgid "Remove"
-msgstr "अपाकरोति"
-
-#: widgets/KoEditColorSet.ui:65
-#. i18n: ectx: property (toolTip), widget (QToolButton, open)
-#, kde-format
-msgid "Open palette"
-msgstr "पॅलेट् उद्घाटयन्तु"
-
-#: widgets/KoEditColorSet.ui:75
-#. i18n: ectx: property (toolTip), widget (QToolButton, save)
-#, kde-format
-msgid "Save palette"
-msgstr "पॅलेट् रक्षतु"
-
-#: widgets/KoEditColorSetDialog.cpp:146
-#, kde-format
-msgid "Add Color To Palette"
-msgstr "Add Color To Palette इति"
-
-#: widgets/KoEditColorSetDialog.cpp:146
-#, kde-format
-msgid "Color name:"
-msgstr "वर्णनाम : १."
-
-#: widgets/KoEditColorSetDialog.cpp:174
-#, kde-format
-msgid "Gimp Color Palette (*.gpl)"
-msgstr "जिम्प रंग पैलेट (*.gpl) 1.1."
-
-#: widgets/KoEditColorSetDialog.cpp:187
-#, kde-format
-msgid "Cannot write to palette file %1. Maybe it is read-only. "
-msgstr "%1 पैलेट् सञ्चिकायां लिखितुं न शक्यते । भवतु नाम केवलं पठनीयम्। "
-
-#: widgets/KoEditColorSetDialog.cpp:187
-#, kde-format
-msgid "Palette"
-msgstr "पॅलेट्"
-
-#: widgets/KoEditColorSetDialog.cpp:201
-#, kde-format
-msgid "Add/Remove Colors"
-msgstr "रङ्गं योजयतु/निष्कासयतु"
-
-#: widgets/KoFillConfigWidget.cpp:163
-#, kde-format
-msgid "Gradient"
-msgstr "ढाल"
-
-#: widgets/KoFillConfigWidget.cpp:171
-#, kde-format
-msgid "Pattern"
-msgstr "प्रतिमानम्‌"
-
-#: widgets/KoFillConfigWidget.cpp:185
-#, kde-format
-msgid "Change the filling color"
-msgstr "पूरणवर्णं परिवर्तयन्तु"
-
-#: widgets/KoFillConfigWidget.cpp:196
-#, kde-format
-msgid "Change the filling gradient"
-msgstr "पूरण-ढालं परिवर्तयन्तु"
-
-#: widgets/KoFillConfigWidget.cpp:203
-#, kde-format
-msgid "Change the filling pattern"
-msgstr "पूरणप्रतिमानं परिवर्तयन्तु"
-
-#: widgets/KoGradientEditWidget.cpp:148
-#, kde-format
-msgid "Target:"
-msgstr "लक्ष्य:"
-
-#: widgets/KoGradientEditWidget.cpp:151
-#, kde-format
-msgid "Fill"
-msgstr "पूरण"
-
-#: widgets/KoGradientEditWidget.cpp:162
-#, kde-format
-msgid "Repeat:"
-msgstr "परिहरन:"
-
-#: widgets/KoGradientEditWidget.cpp:165
-#, kde-format
-msgid "Reflect"
-msgstr "परावर्तति"
-
-#: widgets/KoGradientEditWidget.cpp:166
-#, kde-format
-msgid "Repeat"
-msgstr "परिहरन"
-
-#: widgets/KoGradientEditWidget.cpp:169
-#, kde-format
-msgid "Overall opacity:"
-msgstr "समग्ररूपेण अस्पष्टता : १."
-
-#: widgets/KoGradientEditWidget.cpp:174
-#, kde-format
-msgid "Color stop:"
-msgstr "वर्णविरामः : १."
-
-#: widgets/KoGradientEditWidget.cpp:182
-#, kde-format
-msgid "Stop color."
-msgstr "वर्णं स्थगयतु।"
-
-#: widgets/KoGradientEditWidget.cpp:185
-#, kde-format
-msgid "&Add to Predefined Gradients"
-msgstr "&पूर्वनिर्धारित ढालयोः योजयतु"
-
-#: widgets/KoModeBox.cpp:501
-#, kde-format
-msgid "Icon and Text"
-msgstr "चिह्नं पाठश्च"
-
-#: widgets/KoModeBox.cpp:502
-#, kde-format
-msgid "Icon only"
-msgstr "केवलं चिह्नम्"
-
-#: widgets/KoModeBox.cpp:505
-#, kde-format
-msgid "Sidebar side"
-msgstr "पार्श्वपट्टिकापक्षः"
-
-#: widgets/KoModeBox.cpp:514
-#, kde-format
-msgid "Left side"
-msgstr "वामपक्षः"
-
-#: widgets/KoModeBox.cpp:515
-#, kde-format
-msgid "Right side"
-msgstr "दक्षिणपार्श्वे"
-
-#: widgets/KoPageLayoutDialog.cpp:36
-#, kde-format
-msgid "Page Layout"
-msgstr "पृष्ठ विन्यास"
-
-#: widgets/KoPageLayoutDialog.cpp:95
-#, kde-format
-msgid "Apply to document"
-msgstr "दस्तावेजार्थं आवेदनं कुर्वन्तु"
-
-#: widgets/KoPageLayoutWidget.cpp:180
-#, kde-format
-msgid "Left Edge Margin:"
-msgstr "वामधारमार्जिनः : १."
-
-#: widgets/KoPageLayoutWidget.cpp:181
-#, kde-format
-msgid "Right Edge Margin:"
-msgstr "दक्षिण एज मार्जिन : १."
-
-#: widgets/KoPageLayoutWidget.cpp:183 widgets/KoPageLayoutWidget.ui:222
-#. i18n: ectx: property (text), widget (QLabel, leftLabel)
-#, kde-format
-msgid "Binding Edge Margin:"
-msgstr "बाइंडिंग एज मार्जिन : १."
-
-#: widgets/KoPageLayoutWidget.cpp:184 widgets/KoPageLayoutWidget.ui:242
-#. i18n: ectx: property (text), widget (QLabel, rightLabel)
-#, kde-format
-msgid "Page Edge Margin:"
-msgstr "पृष्ठ एज मार्जिन:"
-
-#: widgets/KoPageLayoutWidget.cpp:286
-#, kde-format
-msgid "Facing Pages:"
-msgstr "सम्मुखी पृष्ठानि : १."
-
-#: widgets/KoPageLayoutWidget.cpp:287 widgets/KoPageLayoutWidget.ui:160
-#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
-#, kde-format
-msgid "Facing pages"
-msgstr "पृष्ठानि सम्मुखीकृत्य"
-
-#: widgets/KoPageLayoutWidget.cpp:289
-#, kde-format
-msgid "Page Layout:"
-msgstr "पृष्ठविन्यासः १."
-
-#: widgets/KoPageLayoutWidget.cpp:290
-#, kde-format
-msgid "Page spread"
-msgstr "पृष्ठ प्रसारित"
-
-#: widgets/KoPageLayoutWidget.ui:25
-#. i18n: ectx: property (text), widget (QLabel, unitsLabel)
-#, kde-format
-msgid "Unit:"
-msgstr "इंकाईं:"
-
-#: widgets/KoPageLayoutWidget.ui:45
-#. i18n: ectx: property (text), widget (QLabel, stylesLabel)
-#, kde-format
-msgid "Follow style:"
-msgstr "शैलीं अनुसरणं कुर्वन्तु : १."
-
-#: widgets/KoPageLayoutWidget.ui:61
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#, kde-format
-msgid "Size:"
-msgstr "आकृति:"
-
-#: widgets/KoPageLayoutWidget.ui:77
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#, kde-format
-msgid "Width:"
-msgstr "विस्तार:"
-
-#: widgets/KoPageLayoutWidget.ui:104
-#. i18n: ectx: property (text), widget (QLabel)
-#, kde-format
-msgid "Height:"
-msgstr "औनत्यम्‌:"
-
-#: widgets/KoPageLayoutWidget.ui:119
-#. i18n: ectx: property (text), widget (QLabel)
-#, kde-format
-msgid "Orientation:"
-msgstr "आभिमुख्य:"
-
-#: widgets/KoPageLayoutWidget.ui:129
-#. i18n: ectx: property (text), widget (QRadioButton, portrait)
-#, kde-format
-msgid "Portrait"
-msgstr "चित्रम्"
-
-#: widgets/KoPageLayoutWidget.ui:136
-#. i18n: ectx: property (text), widget (QRadioButton, landscape)
-#, kde-format
-msgid "Landscape"
-msgstr "भूप्रदेश"
-
-#: widgets/KoPageLayoutWidget.ui:143
-#. i18n: ectx: property (text), widget (QLabel, facingPageLabel)
-#, kde-format
-msgid "Facing pages:"
-msgstr "सम्मुखी पृष्ठानि : १."
-
-#: widgets/KoPageLayoutWidget.ui:153
-#. i18n: ectx: property (text), widget (QRadioButton, singleSided)
-#, kde-format
-msgid "Single sided"
-msgstr "एकपक्षीयः"
-
-#: widgets/KoPageLayoutWidget.ui:167
-#. i18n: ectx: property (text), widget (QLabel, directionLabel)
-#, kde-format
-msgid "Text direction:"
-msgstr "पाठनिर्देशः : १."
-
-#: widgets/KoPageLayoutWidget.ui:184
-#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
-#, kde-format
-msgid "Automatic"
-msgstr "स्वतः"
-
-#: widgets/KoPageLayoutWidget.ui:189
-#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
-#, kde-format
-msgid "Left to right"
-msgstr "वामतः दक्षिणतः"
-
-#: widgets/KoPageLayoutWidget.ui:194
-#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
-#, kde-format
-msgid "Right to left"
-msgstr "दक्षिणतः वामतः"
-
-#: widgets/KoPageLayoutWidget.ui:202
-#. i18n: ectx: property (text), widget (QLabel)
-#, kde-format
-msgid "Top Margin:"
-msgstr "शीर्ष मार्जिन : १."
-
-#: widgets/KoPageLayoutWidget.ui:262
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#, kde-format
-msgid "Bottom Margin:"
-msgstr "तलमार्जिनम् : १."
-
-#: widgets/KoResourceItemChooserContextMenu.cpp:105 widgets/KoTagToolButton.cpp:52
-#, kde-format
-msgid "New tag"
-msgstr "नवीन टैग"
-
-#: widgets/KoResourceItemChooserContextMenu.cpp:140
-#, kde-format
-msgid "Assign to tag"
-msgstr "टैग् कर्तुं नियुक्तं कुर्वन्तु"
-
-#: widgets/KoResourceItemChooserContextMenu.cpp:149
-#, kde-format
-msgid "Remove from this tag"
-msgstr "अस्मात् टैग् तः निष्कासयन्तु"
-
-#: widgets/KoResourceItemChooserContextMenu.cpp:159
-#, kde-format
-msgid "Remove from other tag"
-msgstr "अन्यतः टैगतः निष्कासयन्तु"
-
-#: widgets/KoResourceModel.cpp:69
-#, kde-format
-msgid "Tags"
-msgstr "टैग्स"
-
-#: widgets/KoResourceTaggingManager.cpp:131
-#, kde-format
-msgid "Unable to undelete tag"
-msgstr "टैगं अविलोपनं कर्तुं असमर्थः"
-
-#: widgets/KoResourceTaggingManager.cpp:132
-#, kde-format
-msgid ""
-"<qt>The tag you are trying to undelete already exists in tag "
-"list.<br>Please enter a new, unique name for it.</qt>"
-msgstr ""
-"<qt>भवन्तः यत् टैग् अपलोपयितुं प्रयतन्ते तत् पूर्वमेव टैग् सूचीयां विद्यते "
-"।<br> कृपया तस्य नूतनं, अद्वितीयं नाम प्रविशतु ।</qt>"
-
-#: widgets/KoResourceTaggingManager.cpp:140
-#, kde-format
-msgid "Tag was not undeleted."
-msgstr "टैगः अपाकृतः न अभवत् ।"
-
-#: widgets/KoRuler.cpp:1174
-#, kde-format
-msgid "First line indent"
-msgstr "प्रथमा पङ्क्तिः इन्डेंट्"
-
-#: widgets/KoRuler.cpp:1177
-#, kde-format
-msgid "Left indent"
-msgstr "वाम इण्डेन्ट्"
-
-#: widgets/KoRuler.cpp:1180
-#, kde-format
-msgid "Right indent"
-msgstr "दक्षिणः इन्डेण्ट्"
-
-#: widgets/KoShadowConfigWidget.cpp:53
-#, kde-format
-msgid "Change the color of the shadow"
-msgstr "छायायाः वर्णं परिवर्तयन्तु"
-
-#: widgets/KoShadowConfigWidget.ui:67
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#, kde-format
-msgid "Blur:"
-msgstr "धुन्धला : १."
-
-#: widgets/KoShadowConfigWidget.ui:84
-#. i18n: ectx: property (text), widget (QLabel, label)
-#, kde-format
-msgid "Distance:"
-msgstr "दूरी:"
-
-#: widgets/KoStrokeConfigWidget.cpp:83
-#, kde-format
-msgid "Butt cap"
-msgstr "बट कैप"
-
-#: widgets/KoStrokeConfigWidget.cpp:90
-#, kde-format
-msgid "Round cap"
-msgstr "गोल टोपी"
-
-#: widgets/KoStrokeConfigWidget.cpp:97
-#, kde-format
-msgid "Square cap"
-msgstr "वर्गटोपी"
-
-#: widgets/KoStrokeConfigWidget.cpp:108
-#, kde-format
-msgid "Miter join"
-msgstr "मित्रे सम्मिलितं भवति"
-
-#: widgets/KoStrokeConfigWidget.cpp:115
-#, kde-format
-msgid "Round join"
-msgstr "गोलसंयोगः"
-
-#: widgets/KoStrokeConfigWidget.cpp:122
-#, kde-format
-msgid "Bevel join"
-msgstr "बेवल join"
-
-#: widgets/KoStrokeConfigWidget.cpp:132
-#, kde-format
-msgid "Miter limit"
-msgstr "मिटर सीमा"
-
-#: widgets/KoStrokeConfigWidget.cpp:202
-#, kde-format
-msgid "Thickness:"
-msgstr "स्थूलता : १."
-
-#: widgets/KoStrokeConfigWidget.cpp:212
-#, kde-format
-msgid "Set line width of actual selection"
-msgstr "वास्तविकचयनस्य रेखाविस्तारं सेट् कुर्वन्तु"
-
-#: widgets/KoStrokeConfigWidget.cpp:228
-#, kde-format
-msgid "Change the color of the line/border"
-msgstr "रेखायाः/सीमायाः वर्णं परिवर्तयन्तु"
-
-#: widgets/KoTagChooserWidget.cpp:42
-#, kde-format
-msgid "Tag"
-msgstr "सूचकपत्त्र"
-
-#: widgets/KoTagFilterWidget.cpp:65
-#, kde-format
-msgid "Enter resource filters here"
-msgstr "अत्र संसाधन-छिद्रकाणि प्रविशन्तु"
-
-#: widgets/KoTagToolButton.cpp:60
-#, kde-format
-msgid "Rename tag"
-msgstr "टैगस्य नाम परिवर्तनं कुर्वन्तु"
-
-#: widgets/KoTagToolButton.cpp:70
-#, kde-format
-msgid "Delete this tag"
-msgstr "एतत् टैग् विलोपयन्तु"
-
-#: widgets/KoTagToolButton.cpp:86
-#, kde-format
-msgid "Clear undelete list"
-msgstr "अविलोपनसूचीं स्वच्छं कुर्वन्तु"
-
-#: widgets/KoTagToolButton.cpp:114
-#, kde-format
-msgid "Undelete"
-msgstr "अविलोपनम्"
-
-#: widgets/KoToolBox.cpp:315
-#, kde-format
-msgid "%1x%2"
-msgstr "%1x%2"
-
-#: widgets/KoToolBoxDocker.cpp:25
-#, kde-format
-msgid "Toolbox"
-msgstr "साधनपेटी"
-
-#: widgets/KoToolBoxDocker.cpp:134
-#, kde-format
-msgid "Icon Size"
-msgstr "चिह्न आकार"
-
-#: widgets/KoToolDocker.cpp:117
-#, kde-format
-msgid "Tool Options"
-msgstr "साधनविकल्पाः"
-
-#: widgets/KoViewItemContextBar.cpp:176
-#, kde-format
-msgid "deselect item"
-msgstr "द्रव्यं विचयनं कुर्वन्तु"
-
-#: widgets/KoViewItemContextBar.cpp:176
-#, kde-format
-msgid "select item"
-msgstr "मदं चयनं कुर्वन्तु"
-
-#: widgets/KoZoomAction.cpp:189 widgets/KoZoomAction.cpp:201 widgets/KoZoomMode.cpp:11
-#, kde-format
-msgid "%1%"
-msgstr "%1%"
-
-#: widgets/KoZoomMode.cpp:12
-msgid "Fit Page Width"
-msgstr "पृष्ठ चौड़ाई फिट करें"
-
-#: widgets/KoZoomMode.cpp:13
-msgid "Fit Page"
-msgstr "फिट पेज"
-
-#: widgets/KoZoomMode.cpp:15
-msgid "Actual Pixels"
-msgstr "वास्तविक पिक्सेल"
-
-#: widgets/KoZoomMode.cpp:19
-msgid "Fit Text Width"
-msgstr "पाठ चौड़ाई फिट करें"
-
-#: widgets/KoZoomWidget.cpp:69
-#, kde-format
-msgid "Use same aspect as pixels"
-msgstr "पिक्सेल इत्यस्य समानपक्षस्य उपयोगं कुर्वन्तु"
-
-#: widgets/KoZoomWidget.cpp:78
-#, kde-format
-msgid "Zoom to Selection"
-msgstr "चयनं प्रति जूम कुर्वन्तु"
-
-#: widgets/KoZoomWidget.cpp:87
-#, kde-format
-msgid "Zoom to All"
-msgstr "सर्वेभ्यः जूम कुर्वन्तु"
-
-#: widgetutils/KoFileDialog.cpp:394
-#, kde-format
-msgid "All files"
-msgstr "सर्वाणि सञ्चिकानि"
-
-#: widgetutils/KoFileDialog.cpp:397
-#, kde-format
-msgid "All supported formats"
-msgstr "सर्वे समर्थिताः प्रारूपाः"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: basicflakes/tools/KoPencilTool.cpp:278
-#, kde-format
-msgctxt "The raw line data"
-msgid "Raw"
-msgstr "अपक्व"
-
-#: flake/commands/KoConnectionShapeTypeCommand.cpp:17
-msgctxt "(qtundo-format)"
-msgid "Change Connection"
-msgstr "Connection परिवर्तनं कुर्वन्तु"
-
-#: flake/commands/KoParameterHandleMoveCommand.cpp:26
-msgctxt "(qtundo-format)"
-msgid "Change parameter"
-msgstr "पैरामीटर् परिवर्तयन्तु"
-
-#: flake/commands/KoParameterToPathCommand.cpp:32 flake/commands/KoParameterToPathCommand.cpp:41
-msgctxt "(qtundo-format)"
-msgid "Convert to Path"
-msgstr "मार्गे परिवर्तनं कुर्वन्तु"
-
-#: flake/commands/KoPathBreakAtPointCommand.cpp:29
-msgctxt "(qtundo-format)"
-msgid "Break subpath at points"
-msgstr "बिन्दुषु उपमार्गं भङ्गयन्तु"
-
-#: flake/commands/KoPathCombineCommand.cpp:47
-msgctxt "(qtundo-format)"
-msgid "Combine paths"
-msgstr "मार्गान् संयोजयन्तु"
-
-#: flake/commands/KoPathControlPointMoveCommand.cpp:27
-msgctxt "(qtundo-format)"
-msgid "Move control point"
-msgstr "नियन्त्रणबिन्दुं चालयन्तु"
-
-#: flake/commands/KoPathFillRuleCommand.cpp:33
-msgctxt "(qtundo-format)"
-msgid "Set fill rule"
-msgstr "पूरण नियमं सेट् कुर्वन्तु"
-
-#: flake/commands/KoPathPointInsertCommand.cpp:70
-msgctxt "(qtundo-format)"
-msgid "Insert points"
-msgstr "बिन्दून् सम्मिलित करें"
-
-#: flake/commands/KoPathPointMergeCommand.cpp:138
-msgctxt "(qtundo-format)"
-msgid "Merge points"
-msgstr "बिन्दून् विलीनीकरणं कुर्वन्तु"
-
-#: flake/commands/KoPathPointMoveCommand.cpp:31 flake/commands/KoPathPointMoveCommand.cpp:47
-msgctxt "(qtundo-format)"
-msgid "Move points"
-msgstr "बिन्दून् चालयन्तु"
-
-#: flake/commands/KoPathPointRemoveCommand.cpp:92 flake/commands/KoPathPointRemoveCommand.cpp:120
-msgctxt "(qtundo-format)"
-msgid "Remove points"
-msgstr "बिन्दून् अपसारयन्तु"
-
-#: flake/commands/KoPathPointTypeCommand.cpp:32
-msgctxt "(qtundo-format)"
-msgid "Set point type"
-msgstr "बिन्दुप्रकारं सेट् कुर्वन्तु"
-
-#: flake/commands/KoPathReverseCommand.cpp:39
-msgctxt "(qtundo-format)"
-msgid "Reverse paths"
-msgstr "विपर्ययमार्गाः"
-
-#: flake/commands/KoPathSegmentBreakCommand.cpp:28
-msgctxt "(qtundo-format)"
-msgid "Break subpath"
-msgstr "उपमार्गं भङ्गयतु"
-
-#: flake/commands/KoPathSegmentTypeCommand.cpp:118
-msgctxt "(qtundo-format)"
-msgid "Change segments to curves"
-msgstr "खण्डान् वक्रेषु परिवर्तयन्तु"
-
-#: flake/commands/KoPathSegmentTypeCommand.cpp:120
-msgctxt "(qtundo-format)"
-msgid "Change segments to lines"
-msgstr "खण्डान् रेखासु परिवर्तयन्तु"
-
-#: flake/commands/KoPathShapeMarkerCommand.cpp:23
-msgctxt "(qtundo-format)"
-msgid "Set marker"
-msgstr "चेक मार्क"
-
-#: flake/commands/KoShapeAlignCommand.cpp:78
-msgctxt "(qtundo-format)"
-msgid "Align shapes"
-msgstr "आकृतयः संरेखयन्तु"
-
-#: flake/commands/KoShapeBackgroundCommand.cpp:49 flake/commands/KoShapeBackgroundCommand.cpp:60 flake/commands/KoShapeBackgroundCommand.cpp:75
-msgctxt "(qtundo-format)"
-msgid "Set background"
-msgstr "पृष्ठभूमिं सेट् कुर्वन्तु"
-
-#: flake/commands/KoShapeClipCommand.cpp:64 flake/commands/KoShapeClipCommand.cpp:81
-msgctxt "(qtundo-format)"
-msgid "Clip Shape"
-msgstr "क्लिप् आकृतिः"
-
-#: flake/commands/KoShapeCreateCommand.cpp:41
-msgctxt "(qtundo-format)"
-msgid "Create shape"
-msgstr "आकारं रचयतु"
-
-#: flake/commands/KoShapeDeleteCommand.cpp:56
-msgctxt "(qtundo-format)"
-msgid "Delete shape"
-msgid_plural "Delete shapes"
-msgstr[0] "आकारं विलोपयतु"
-msgstr[1] "आकृतयः विलोपयन्तु"
-
-#: flake/commands/KoShapeDistributeCommand.cpp:121
-msgctxt "(qtundo-format)"
-msgid "Distribute shapes"
-msgstr "आकृतयः वितरन्तु"
-
-#: flake/commands/KoShapeGroupCommand.cpp:85
-msgctxt "(qtundo-format)"
-msgid "Group shapes"
-msgstr "समूहाकाराः"
-
-#: flake/commands/KoShapeGroupCommand.cpp:87
-msgctxt "(qtundo-format)"
-msgid "Add shapes to group"
-msgstr "समूहे आकृतयः योजयन्तु"
-
-#: flake/commands/KoShapeKeepAspectRatioCommand.cpp:17
-msgctxt "(qtundo-format)"
-msgid "Keep Aspect Ratio"
-msgstr "आस्पेक्ट रेशियो रखें"
-
-#: flake/commands/KoShapeLockCommand.cpp:23
-msgctxt "(qtundo-format)"
-msgid "Lock shapes"
-msgstr "तालाकाराः"
-
-#: flake/commands/KoShapeMoveCommand.cpp:37 flake/commands/KoShapeMoveCommand.cpp:57
-msgctxt "(qtundo-format)"
-msgid "Move shapes"
-msgstr "आकारान् चालयन्तु"
-
-#: flake/commands/KoShapeRenameCommand.cpp:29
-msgctxt "(qtundo-format)"
-msgid "Rename Shape"
-msgstr "आकारस्य नाम परिवर्तयतु"
-
-#: flake/commands/KoShapeReorderCommand.cpp:40
-msgctxt "(qtundo-format)"
-msgid "Reorder shapes"
-msgstr "आकारान् पुनः क्रमयन्तु"
-
-#: flake/commands/KoShapeRunAroundCommand.cpp:77
-msgctxt "(qtundo-format)"
-msgid "Change Shape RunAround"
-msgstr "आकारं परिवर्तयतु RunAround"
-
-#: flake/commands/KoShapeShadowCommand.cpp:55 flake/commands/KoShapeShadowCommand.cpp:72 flake/commands/KoShapeShadowCommand.cpp:83
-msgctxt "(qtundo-format)"
-msgid "Set Shadow"
-msgstr "छाया सेट् कुर्वन्तु"
-
-#: flake/commands/KoShapeShearCommand.cpp:43
-msgctxt "(qtundo-format)"
-msgid "Shear shapes"
-msgstr "कतरनी आकाराः"
-
-#: flake/commands/KoShapeSizeCommand.cpp:33
-msgctxt "(qtundo-format)"
-msgid "Resize shapes"
-msgstr "आकाराणां आकारं परिवर्तयतु"
-
-#: flake/commands/KoShapeStrokeCommand.cpp:59 flake/commands/KoShapeStrokeCommand.cpp:76 flake/commands/KoShapeStrokeCommand.cpp:87
-msgctxt "(qtundo-format)"
-msgid "Set stroke"
-msgstr "आघातं सेट् कुर्वन्तु"
-
-#: flake/commands/KoShapeTransparencyCommand.cpp:33 flake/commands/KoShapeTransparencyCommand.cpp:44 flake/commands/KoShapeTransparencyCommand.cpp:57
-msgctxt "(qtundo-format)"
-msgid "Set opacity"
-msgstr "अपारदर्शिता सेट् कुर्वन्तु"
-
-#: flake/commands/KoShapeUnclipCommand.cpp:114
-msgctxt "(qtundo-format)"
-msgid "Unclip Shape"
-msgstr "Unclip Shape इति"
-
-#: flake/commands/KoShapeUnclipCommand.cpp:124
-msgctxt "(qtundo-format)"
-msgid "Unclip Shapes"
-msgstr "आकृतयः अनक्लिप् कुर्वन्तु"
-
-#: flake/commands/KoShapeUngroupCommand.cpp:48
-msgctxt "(qtundo-format)"
-msgid "Ungroup shapes"
-msgstr "आकारान् विसमूहयन्तु"
-
-#: flake/commands/KoSubpathJoinCommand.cpp:36
-msgctxt "(qtundo-format)"
-msgid "Close subpath"
-msgstr "उपमार्गं पिधाय"
-
-#: flake/commands/KoSubpathJoinCommand.cpp:38
-msgctxt "(qtundo-format)"
-msgid "Join subpaths"
-msgstr "उपमार्गान् सम्मिलितं कुर्वन्तु"
-
-#: flake/commands/KoSubpathRemoveCommand.cpp:19
-msgctxt "(qtundo-format)"
-msgid "Remove subpath"
-msgstr "उपमार्गं निष्कासयन्तु"
-
-#: flake/KoShapePaste.cpp:163
-msgctxt "(qtundo-format)"
-msgid "Paste Shapes"
-msgstr "आकृतयः चिनोतु"
-
-#: flake/KoToolProxy.cpp:590
-msgctxt "(qtundo-format)"
-msgid "Paste Image"
-msgstr "चित्रं चिनोतु"
-
-#: flake/tools/KoPathSegmentChangeStrategy.cpp:127
-msgctxt "(qtundo-format)"
-msgid "Change Segment"
-msgstr "खण्डं परिवर्तयतु"
-
-#: pageapp/commands/KoPAChangeMasterPageCommand.cpp:21
-msgctxt "(qtundo-format)"
-msgid "Change master slide"
-msgstr "मास्टर स्लाइड् परिवर्तयन्तु"
-
-#: pageapp/commands/KoPAChangeMasterPageCommand.cpp:23
-msgctxt "(qtundo-format)"
-msgid "Change master page"
-msgstr "मुख्यपृष्ठं परिवर्तयन्तु"
-
-#: pageapp/commands/KoPAChangePageLayoutCommand.cpp:23
-msgctxt "(qtundo-format)"
-msgid "Set Page Layout"
-msgstr "पृष्ठविन्यासं सेट् कुर्वन्तु"
-
-#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:18
-msgctxt "(qtundo-format)"
-msgid "Display master background"
-msgstr "मास्टर पृष्ठभूमि प्रदर्शित करें"
-
-#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:21
-msgctxt "(qtundo-format)"
-msgid "Display slide background"
-msgstr "स्लाइड पृष्ठभूमि प्रदर्शित करें"
-
-#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:23
-msgctxt "(qtundo-format)"
-msgid "Display page background"
-msgstr "पृष्ठ पृष्ठभूमि प्रदर्शित करें"
-
-#: pageapp/commands/KoPADisplayMasterShapesCommand.cpp:18
-msgctxt "(qtundo-format)"
-msgid "Show master shapes"
-msgstr "गुरु आकारान् दर्शयतु"
-
-#: pageapp/commands/KoPADisplayMasterShapesCommand.cpp:20
-msgctxt "(qtundo-format)"
-msgid "Hide master shapes"
-msgstr "स्वामी आकारान् गोपयन्तु"
-
-#: pageapp/commands/KoPAPageDeleteCommand.cpp:49
-msgctxt "(qtundo-format)"
-msgid "Delete slide"
-msgid_plural "Delete slides"
-msgstr[0] "स्लाइड् विलोपयन्तु"
-msgstr[1] "स्लाइड्स् विलोपयन्तु"
-
-#: pageapp/commands/KoPAPageDeleteCommand.cpp:51
-msgctxt "(qtundo-format)"
-msgid "Delete page"
-msgid_plural "Delete pages"
-msgstr[0] "पृष्ठं विलोपयन्तु"
-msgstr[1] "पृष्ठानि विलोपयन्तु"
-
-#: pageapp/commands/KoPAPageInsertCommand.cpp:24
-msgctxt "(qtundo-format)"
-msgid "Insert slide"
-msgstr "स्लाइड् सम्मिलितं कुर्वन्तु"
-
-#: pageapp/commands/KoPAPageInsertCommand.cpp:26
-msgctxt "(qtundo-format)"
-msgid "Insert page"
-msgstr "पृष्ठं सम्मिलितं कुर्वन्तु"
-
-#: pageapp/commands/KoPAPageMoveCommand.cpp:34
-msgctxt "(qtundo-format)"
-msgid "Move slide"
-msgid_plural "Move slides"
-msgstr[0] "स्लाइड् चालयन्तु"
-msgstr[1] "स्लाइड्स् चालयन्तु"
-
-#: pageapp/commands/KoPAPageMoveCommand.cpp:36
-msgctxt "(qtundo-format)"
-msgid "Move page"
-msgid_plural "Move pages"
-msgstr[0] "पृष्ठं चालयन्तु"
-msgstr[1] "पृष्ठानि चालयन्तु"
-
-#: pageapp/KoPADocumentModel.cpp:268
-msgctxt "(qtundo-format)"
-msgid "Rename Slide"
-msgstr "स्लाइड् इत्यस्य नाम परिवर्तनं कुर्वन्तु"
-
-#: pageapp/KoPADocumentModel.cpp:270
-msgctxt "(qtundo-format)"
-msgid "Rename Page"
-msgstr "पृष्ठस्य नाम परिवर्तनं कुर्वन्तु"
-
-#: pageapp/KoPADocumentModel.cpp:273
-msgctxt "(qtundo-format)"
-msgid "Rename Layer"
-msgstr "Layer इत्यस्य नाम परिवर्तनं कुर्वन्तु"
-
-#: pageapp/KoPADocumentModel.cpp:525 pageapp/KoPADocumentModel.cpp:544
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr "पुनः आकृतयः"
-
-#: pageapp/KoPADocumentStructureDocker.cpp:315
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "लेयर रचयन्तु"
-
-#: pageapp/KoPADocumentStructureDocker.cpp:341
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr "Delete Layer इति"
-
-#: pageapp/KoPAPastePage.cpp:112
-msgctxt "(qtundo-format)"
-msgid "Paste Slide"
-msgid_plural "Paste Slides"
-msgstr[0] "पेस्ट स्लाइड"
-msgstr[1] "पेस्ट स्लाइड्स"
-
-#: pageapp/KoPAPastePage.cpp:114
-msgctxt "(qtundo-format)"
-msgid "Paste Page"
-msgid_plural "Paste Pages"
-msgstr[0] "पेज पेस्ट करें"
-msgstr[1] "पृष्ठानि चिनोतु"
-
-#: pageapp/KoPAView.cpp:659
-msgctxt "(qtundo-format)"
-msgid "Change page layout"
-msgstr "पृष्ठविन्यासं परिवर्तयन्तु"
-
-#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:96
-msgctxt "(qtundo-format)"
-msgid "Change page background image"
-msgstr "पृष्ठपृष्ठभूमिप्रतिबिम्बं परिवर्तयन्तु"
-
-#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:96
-msgctxt "(qtundo-format)"
-msgid "Change slide background image"
-msgstr "स्लाइड पृष्ठभूमिप्रतिबिम्बं परिवर्तयन्तु"
-
-#: text/commands/ChangeListCommand.cpp:30 text/commands/ChangeListCommand.cpp:78 text/commands/ChangeListCommand.cpp:90
+#: text/commands/ChangeListCommand.cpp:30
+#: text/commands/ChangeListCommand.cpp:78
+#: text/commands/ChangeListCommand.cpp:90
 msgctxt "(qtundo-format)"
 msgid "Change List"
 msgstr "सूचीं परिवर्तयन्तु"
@@ -4385,7 +3718,15 @@ msgctxt "(qtundo-format)"
 msgid "Change Styles"
 msgstr "शैल्याः परिवर्तनं कुर्वन्तु"
 
-#: text/commands/ChangeTrackedDeleteCommand.cpp:318 text/commands/DeleteCommand.cpp:484 text/KoTextEditor_undo.cpp:80 text/KoTextEditor_undo.cpp:166 text/KoTextEditor_undo.cpp:204 text/KoTextEditor_undo.cpp:224 text/KoTextEditor_undo.cpp:268
+#: text/commands/ChangeTrackedDeleteCommand.cpp:263
+#, kde-format
+msgid "Delete"
+msgstr "लुप्"
+
+#: text/commands/ChangeTrackedDeleteCommand.cpp:318
+#: text/commands/DeleteCommand.cpp:484 text/KoTextEditor_undo.cpp:80
+#: text/KoTextEditor_undo.cpp:166 text/KoTextEditor_undo.cpp:204
+#: text/KoTextEditor_undo.cpp:224 text/KoTextEditor_undo.cpp:268
 msgctxt "(qtundo-format)"
 msgid "Text"
 msgstr "पाठ"
@@ -4485,7 +3826,87 @@ msgctxt "(qtundo-format)"
 msgid "Paste"
 msgstr "चिनोतु"
 
-#: text/KoTextEditor.cpp:180 text/KoTextEditor.cpp:1482 text/KoTextEditor.cpp:1484
+#: text/InsertTextLocator.cpp:13
+#, kde-format
+msgid "Index Reference"
+msgstr "अनुक्रमणिका सन्दर्भ"
+
+#: text/InsertTextReferenceAction.cpp:22 text/InsertTextReferenceAction.cpp:50
+#, kde-format
+msgid "Text Reference"
+msgstr "पाठसन्दर्भः"
+
+#: text/InsertTextReferenceAction.cpp:31
+#, kde-format
+msgid "Please create an index to reference first."
+msgstr "कृपया प्रथमं सन्दर्भार्थं अनुक्रमणिकां रचयन्तु ।"
+
+#: text/InsertTextReferenceAction.cpp:40
+#, kde-format
+msgid "Select the index you want to reference"
+msgstr "यस्य अनुक्रमणिकायाः सन्दर्भं कर्तुम् इच्छति तत् चिनोतु"
+
+#: text/KoFindStrategy.cpp:55
+#, kde-format
+msgid "Found 1 match"
+msgid_plural "Found %1 matches"
+msgstr[0] "प्राप्तः १ मेलः"
+msgstr[1] "%1 मेलनं प्राप्तम्"
+
+#: text/KoFindStrategy.cpp:55
+#, kde-format
+msgid "Found no match"
+msgstr "न मेलनं लब्धम्"
+
+#: text/KoReplaceStrategy.cpp:43
+#, kde-format
+msgid ""
+"Found no match\n"
+"\n"
+"No text was replaced"
+msgstr ""
+"न मेलनं लब्धम्\n"
+"\n"
+"न कोऽपि पाठः प्रतिस्थापितः"
+
+#: text/KoReplaceStrategy.cpp:45
+#, kde-format
+msgid "1 replacement made"
+msgid_plural "%1 replacements made"
+msgstr[0] "१ प्रतिस्थापनं कृतम्"
+msgstr[1] "%1 प्रतिस्थापनं कृतम्"
+
+#: text/KoReplaceStrategy.cpp:57
+#, kde-format
+msgid "Replace %1 with %2?"
+msgstr "%1 इत्यस्य स्थाने %2 इति स्थापयन्तु?"
+
+#: text/KoSectionModel.cpp:87
+#, kde-format
+msgctxt "new numbered section name"
+msgid "New section %1"
+msgstr "नवीनः खण्डः %1"
+
+#: text/KoText.cpp:19
+#, kde-format
+msgctxt "Underline Style"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: text/KoText.cpp:20
+#, kde-format
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "एकैकः"
+
+#: text/KoText.cpp:21
+#, kde-format
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "द्विद्वार"
+
+#: text/KoTextEditor.cpp:180 text/KoTextEditor.cpp:1482
+#: text/KoTextEditor.cpp:1484
 msgctxt "(qtundo-format)"
 msgid "New Paragraph"
 msgstr "नवीनः अनुच्छेदः"
@@ -4515,7 +3936,8 @@ msgctxt "(qtundo-format)"
 msgid "Insert Break"
 msgstr "Insert Break इति"
 
-#: text/KoTextEditor.cpp:912 text/KoTextEditor.cpp:914 text/KoTextEditor.cpp:929
+#: text/KoTextEditor.cpp:912 text/KoTextEditor.cpp:914
+#: text/KoTextEditor.cpp:929
 msgctxt "(qtundo-format)"
 msgid "Insert Table"
 msgstr "सारणी सम्मिलित करें"
@@ -4540,7 +3962,8 @@ msgctxt "(qtundo-format)"
 msgid "Change Border Formatting"
 msgstr "सीमास्वरूपणं परिवर्तयतु"
 
-#: text/KoTextEditor.cpp:1177 text/KoTextEditor.cpp:1179 text/KoTextEditor.cpp:1197
+#: text/KoTextEditor.cpp:1177 text/KoTextEditor.cpp:1179
+#: text/KoTextEditor.cpp:1197
 msgctxt "(qtundo-format)"
 msgid "Insert Table Of Contents"
 msgstr "सामग्रीसूचीं सम्मिलितं कुर्वन्तु"
@@ -4550,7 +3973,8 @@ msgctxt "(qtundo-format)"
 msgid "Modify Table Of Contents"
 msgstr "सामग्रीसारणी परिवर्तनं कुर्वन्तु"
 
-#: text/KoTextEditor.cpp:1253 text/KoTextEditor.cpp:1255 text/KoTextEditor.cpp:1274
+#: text/KoTextEditor.cpp:1253 text/KoTextEditor.cpp:1255
+#: text/KoTextEditor.cpp:1274
 msgctxt "(qtundo-format)"
 msgid "Insert Bibliography"
 msgstr "ग्रन्थसूची सम्मिलित करें"
@@ -4560,7 +3984,8 @@ msgctxt "(qtundo-format)"
 msgid "Add Citation"
 msgstr "प्रशस्तिपत्रं योजयतु"
 
-#: text/KoTextEditor.cpp:1340 text/KoTextEditor.cpp:1342 text/KoTextEditor.cpp:1380
+#: text/KoTextEditor.cpp:1340 text/KoTextEditor.cpp:1342
+#: text/KoTextEditor.cpp:1380
 msgctxt "(qtundo-format)"
 msgid "Typing"
 msgstr "टङ्कनम्"
@@ -4655,331 +4080,318 @@ msgctxt "(qtundo-format)"
 msgid "Format"
 msgstr "प्रारूप"
 
-#: flake/commands/KoShapeDeleteCommand.cpp:44
-msgctxt "(qtundo-format) Delete one shape"
-msgid "Delete shape"
-msgstr "आकारं विलोपयतु"
-
-#: kundo2/kundo2group.cpp:347 kundo2/kundo2stack.cpp:1075
+#: widgets/KoColorPopupAction.cpp:82
 #, kde-format
-msgctxt "Default text for undo action"
-msgid "Undo"
-msgstr "पूर्ववत"
+msgid "Opacity"
+msgstr "अपारदर्शिता"
 
-#: kundo2/kundo2group.cpp:372 kundo2/kundo2stack.cpp:1099
+#: widgets/KoColorSetWidget.cpp:150
 #, kde-format
-msgctxt "Default text for redo action"
-msgid "Redo"
-msgstr "पुनः करो"
+msgid "Recent:"
+msgstr "सद्यस्क:"
 
-#: main/config/KoConfigDocumentPage.cpp:63
+#: widgets/KoColorSetWidget.cpp:163
 #, kde-format
-msgctxt "unit symbol for minutes, leading space as separator"
-msgid " min"
-msgstr " मि"
+msgid "Add / Remove Colors..."
+msgstr "रङ्गं योजयतु / निष्कासयतु..."
 
-#: main/config/KoConfigGridPage.cpp:57
+#: widgets/KoConfigAuthorPage.cpp:50
 #, kde-format
-msgctxt "@option:check"
-msgid "Show grid"
-msgstr "जालं दर्शयतु"
+msgid "Add new author profile (starts out as a copy of current)"
+msgstr "नूतनं लेखकप्रोफाइलं योजयन्तु (वर्तमानस्य प्रतिलिपिना आरभ्यते)"
 
-#: main/config/KoConfigGridPage.cpp:59
+#: widgets/KoConfigAuthorPage.cpp:54
 #, kde-format
-msgctxt "@option:check"
-msgid "Snap to grid"
-msgstr "जालपर्यन्तं स्नैपं कुर्वन्तु"
+msgid "Delete the author profile"
+msgstr "लेखकस्य प्रोफाइलं विलोपयन्तु"
 
-#: main/config/KoConfigMiscPage.cpp:103
+#: widgets/KoConfigAuthorPage.cpp:128
 #, kde-format
-msgctxt "@option:check"
-msgid "Paste at Cursor"
-msgstr "कर्सर इत्यत्र पेस्ट् कुर्वन्तु"
+msgid "Name (not duplicate or blank name):"
+msgstr "नाम (न तु द्वितीयकं रिक्तं वा) :"
 
-#: main/config/KoConfigGridPage.cpp:81
+#: widgets/KoConfigAuthorPage.cpp:128
 #, kde-format
-msgctxt "Horizontal grid spacing"
-msgid "Horizontal spacing:"
-msgstr "क्षैतिज अन्तराल : १."
+msgid "Name of Profile"
+msgstr "प्रोफाइलस्य नाम"
 
-#: main/config/KoConfigGridPage.cpp:82
+#. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
+#: widgets/KoConfigAuthorPage.ui:20 widgets/koDocumentInfoAuthorWidget.ui:14
 #, kde-format
-msgctxt "Vertical grid spacing"
-msgid "Vertical spacing:"
-msgstr "ऊर्ध्वाधरान्तरम् : १."
-
-#: main/KoAutoSaveRecoveryDialog.cpp:158
-#, kde-format
-msgctxt "@title:window"
-msgid "Recover Files"
-msgstr "सञ्चिकाः पुनः प्राप्तुम्"
-
-#: widgets/KoResourceItemChooser.cpp:191
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose File to Add"
-msgstr "योजयितुं File इति चिनोतु"
-
-#: main/KoMainWindow.cpp:337
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Show Docker Titlebars"
-msgstr "Docker Titlebars दर्शयतु"
-
-#: main/KoRecentDocumentsPane.cpp:165
-#, kde-format
-msgctxt "File modification date and time. %1 is date time"
-msgid "<tr><td><b>Modified:</b></td><td>%1</td></tr>"
-msgstr "<tr><td><b>परिवर्तितः : १.</b></td><td> %1</td></tr>"
-
-#: main/KoRecentDocumentsPane.cpp:168
-#, kde-format
-msgctxt "File access date and time. %1 is date time"
-msgid "<tr><td><b>Accessed:</b></td><td>%1</td></tr>"
-msgstr "<tr><td><b>अभिगमनम् : १.</b></td><td> %1</td></tr>"
-
-#: main/KoTemplateCreateDia.cpp:112
-#, kde-format
-msgctxt "Template name"
 msgid "Name:"
 msgstr "नामः:"
 
-#: main/KoView.cpp:347
+#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
+#: widgets/KoConfigAuthorPage.ui:40 widgets/koDocumentInfoAuthorWidget.ui:24
 #, kde-format
-msgctxt "@action:intoolbar"
-msgid "Add Shape"
-msgstr "आकारं योजयतु"
+msgid "Initials:"
+msgstr "आद्याक्षराणि : १."
 
-#: main/KoView.cpp:372 main/KoView.cpp:427
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#: widgets/KoConfigAuthorPage.ui:63 widgets/koDocumentInfoAuthorWidget.ui:34
 #, kde-format
-msgctxt "choice for author profile"
-msgid "Anonymous"
-msgstr "अनामक"
+msgid "Title:"
+msgstr "शीर्षक:"
 
-#: odf/KoPageFormat.cpp:48
-msgctxt "Page size"
-msgid "ISO A3"
-msgstr "ISO A3"
-
-#: odf/KoPageFormat.cpp:49
-msgctxt "Page size"
-msgid "ISO A4"
-msgstr "ISO A4"
-
-#: odf/KoPageFormat.cpp:50
-msgctxt "Page size"
-msgid "ISO A5"
-msgstr "ISO A5"
-
-#: odf/KoPageFormat.cpp:51
-msgctxt "Page size"
-msgid "US Letter"
-msgstr "अमेरिकी पत्र"
-
-#: odf/KoPageFormat.cpp:52
-msgctxt "Page size"
-msgid "US Legal"
-msgstr "अमेरिकी कानूनी"
-
-#: odf/KoPageFormat.cpp:53
-msgctxt "Page size"
-msgid "Screen"
-msgstr "पट"
-
-#: odf/KoPageFormat.cpp:54
-msgctxt "Page size"
-msgid "Custom"
-msgstr "आचारः"
-
-#: odf/KoPageFormat.cpp:55
-msgctxt "Page size"
-msgid "ISO B5"
-msgstr "ISO B5"
-
-#: odf/KoPageFormat.cpp:56
-msgctxt "Page size"
-msgid "US Executive"
-msgstr "अमेरिकी कार्यकारी"
-
-#: odf/KoPageFormat.cpp:57
-msgctxt "Page size"
-msgid "ISO A0"
-msgstr "ISO A0"
-
-#: odf/KoPageFormat.cpp:58
-msgctxt "Page size"
-msgid "ISO A1"
-msgstr "ISO A1"
-
-#: odf/KoPageFormat.cpp:59
-msgctxt "Page size"
-msgid "ISO A2"
-msgstr "ISO A2"
-
-#: odf/KoPageFormat.cpp:60
-msgctxt "Page size"
-msgid "ISO A6"
-msgstr "ISO A6"
-
-#: odf/KoPageFormat.cpp:61
-msgctxt "Page size"
-msgid "ISO A7"
-msgstr "ISO A7"
-
-#: odf/KoPageFormat.cpp:62
-msgctxt "Page size"
-msgid "ISO A8"
-msgstr "ISO A8"
-
-#: odf/KoPageFormat.cpp:63
-msgctxt "Page size"
-msgid "ISO A9"
-msgstr "ISO A9"
-
-#: odf/KoPageFormat.cpp:64
-msgctxt "Page size"
-msgid "ISO B0"
-msgstr "ISO B0"
-
-#: odf/KoPageFormat.cpp:65
-msgctxt "Page size"
-msgid "ISO B1"
-msgstr "ISO B1"
-
-#: odf/KoPageFormat.cpp:66
-msgctxt "Page size"
-msgid "ISO B10"
-msgstr "ISO B10"
-
-#: odf/KoPageFormat.cpp:67
-msgctxt "Page size"
-msgid "ISO B2"
-msgstr "ISO B2"
-
-#: odf/KoPageFormat.cpp:68
-msgctxt "Page size"
-msgid "ISO B3"
-msgstr "ISO B3"
-
-#: odf/KoPageFormat.cpp:69
-msgctxt "Page size"
-msgid "ISO B4"
-msgstr "ISO B4"
-
-#: odf/KoPageFormat.cpp:70
-msgctxt "Page size"
-msgid "ISO B6"
-msgstr "ISO B6"
-
-#: odf/KoPageFormat.cpp:71
-msgctxt "Page size"
-msgid "ISO C5"
-msgstr "ISO C5"
-
-#: odf/KoPageFormat.cpp:72
-msgctxt "Page size"
-msgid "US Common 10"
-msgstr "अमेरिकी सामान्य 10"
-
-#: odf/KoPageFormat.cpp:73
-msgctxt "Page size"
-msgid "ISO DL"
-msgstr "ISO DL"
-
-#: odf/KoPageFormat.cpp:74
-msgctxt "Page size"
-msgid "US Folio"
-msgstr "अमेरिकी फोलियो"
-
-#: odf/KoPageFormat.cpp:75
-msgctxt "Page size"
-msgid "US Ledger"
-msgstr "अमेरिकी लेजर"
-
-#: odf/KoPageFormat.cpp:76
-msgctxt "Page size"
-msgid "US Tabloid"
-msgstr "अमेरिकी टैब्लॉइड"
-
-#: pageapp/commands/KoPAPageDeleteCommand.cpp:26
-msgctxt "(qtundo-format) Delete one slide"
-msgid "Delete slide"
-msgstr "स्लाइड् विलोपयन्तु"
-
-#: pageapp/commands/KoPAPageDeleteCommand.cpp:28
-msgctxt "(qtundo-format) Delete one page"
-msgid "Delete page"
-msgstr "पृष्ठं विलोपयन्तु"
-
-#: pageapp/dialogs/KoPAConfigureDialog.cpp:45
+#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
+#: widgets/KoConfigAuthorPage.ui:79 widgets/koDocumentInfoAuthorWidget.ui:44
 #, kde-format
-msgctxt "@title:tab Document settings page"
-msgid "Document"
-msgstr "प्रलेख"
+msgid "Position:"
+msgstr "स्थितिः:"
 
-#: pageapp/dialogs/KoPAConfigureDialog.cpp:50
+#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
+#: widgets/KoConfigAuthorPage.ui:95 widgets/koDocumentInfoAuthorWidget.ui:54
 #, kde-format
-msgctxt "@title:tab Author page"
-msgid "Author"
-msgstr "लेखकः"
+msgid "Company:"
+msgstr "गोष्ठी:"
 
-#: rdf/KoDocumentRdfEditWidget.cpp:300
+#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
+#: widgets/KoConfigAuthorPage.ui:111 widgets/koDocumentInfoAuthorWidget.ui:61
 #, kde-format
-msgctxt "statement is an Rdf related term"
-msgid "<qt>Edits will be lost.<p>There is %1 invalid statement left.</qt>"
-msgid_plural "<qt>Edits will be lost.<p>There are %1 invalid statements left.</qt>"
-msgstr[0] "<qt>सम्पादनानि नष्टानि भविष्यन्ति।<p> %1 असिद्धं कथनं अवशिष्टम् अस्ति ।</qt>"
-msgstr[1] ""
-"<qt>सम्पादनानि नष्टानि भविष्यन्ति।<p> %1 अमान्यकथनानि अवशिष्टानि सन्ति "
-"।</qt>"
+msgid "Email:"
+msgstr "ईमेलः १."
 
-#: rdf/KoDocumentRdfEditWidget.cpp:303
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
+#: widgets/KoConfigAuthorPage.ui:127 widgets/koDocumentInfoAuthorWidget.ui:68
 #, kde-format
-msgctxt "statement is an Rdf related term"
-msgid "Discard invalid statements?"
-msgstr "अमान्यकथनानि परित्यजन्तु ?"
+msgid "Telephone (home):"
+msgstr "दूरभाषः (गृहम्): १."
 
-#: store/KoEncryptedStore.cpp:245
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
+#: widgets/KoConfigAuthorPage.ui:143 widgets/koDocumentInfoAuthorWidget.ui:75
 #, kde-format
-msgctxt "@dialog:title"
-msgid "Warning"
-msgstr "चेतवानी"
+msgid "Telephone (work):"
+msgstr "दूरभाष (कार्य) : १."
 
-#: store/KoEncryptedStore.cpp:273 store/KoEncryptedStore.cpp:292 store/KoEncryptedStore.cpp:309
+#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
+#: widgets/KoConfigAuthorPage.ui:159 widgets/koDocumentInfoAuthorWidget.ui:82
 #, kde-format
-msgctxt "@title:dialog"
-msgid "Warning"
-msgstr "चेतवानी"
+msgid "Fax:"
+msgstr "फैक्सः : १."
 
-#: text/KoSectionModel.cpp:87
+#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
+#: widgets/KoConfigAuthorPage.ui:175 widgets/koDocumentInfoAuthorWidget.ui:89
 #, kde-format
-msgctxt "new numbered section name"
-msgid "New section %1"
-msgstr "नवीनः खण्डः %1"
+msgid "Street:"
+msgstr "मार्गं:"
 
-#: text/KoText.cpp:19
+#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
+#: widgets/KoConfigAuthorPage.ui:191 widgets/koDocumentInfoAuthorWidget.ui:96
 #, kde-format
-msgctxt "Underline Style"
+msgid "Postal code:"
+msgstr "डाकसङ्केतः : १."
+
+#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
+#: widgets/KoConfigAuthorPage.ui:207 widgets/koDocumentInfoAuthorWidget.ui:103
+#, kde-format
+msgid "City:"
+msgstr "नगरी:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
+#: widgets/KoConfigAuthorPage.ui:223 widgets/koDocumentInfoAuthorWidget.ui:110
+#, kde-format
+msgid "Country:"
+msgstr "देशः:"
+
+#: widgets/KoCsvImportDialog.cpp:86
+#, kde-format
+msgid "Import Data"
+msgstr "आँकडा आयात करें"
+
+#: widgets/KoCsvImportDialog.cpp:179 widgets/KoCsvImportDialog.cpp:467
+#: widgets/KoCsvImportDialog.cpp:490
+#, kde-format
+msgid "Generic"
+msgstr "सामान्यम्"
+
+#: widgets/KoCsvImportDialog.cpp:181 widgets/KoCsvImportDialog.cpp:492
+#: widgets/KoModeBox.cpp:498
+#, kde-format
+msgid "Text"
+msgstr "पाठ"
+
+#: widgets/KoCsvImportDialog.cpp:183 widgets/KoCsvImportDialog.cpp:494
+#, kde-format
+msgid "Date"
+msgstr "दिनाङ्कः"
+
+#: widgets/KoCsvImportDialog.cpp:185 widgets/KoCsvImportDialog.cpp:496
+#, kde-format
+msgid "Currency"
+msgstr "मुद्रा"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.cpp:187 widgets/KoCsvImportDialog.cpp:498
+#: widgets/KoCsvImportDialog.cpp:600 widgets/KoCsvImportDialog.ui:222
+#, kde-format
 msgid "None"
 msgstr "न कश्चित्"
 
-#: text/KoText.cpp:20
+#: widgets/KoCsvImportDialog.cpp:625
 #, kde-format
-msgctxt "Underline Style"
-msgid "Single"
-msgstr "एकैकः"
+msgid ""
+"Please check the ranges you specified. The start value must be lower than "
+"the end value."
+msgstr "कृपया भवता निर्दिष्टानि श्रेणीनि पश्यन्तु । आरम्भमूल्यं अन्त्यमूल्यात् न्यूनं भवितुमर्हति ।"
 
-#: text/KoText.cpp:21
+#. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
+#: widgets/KoCsvImportDialog.ui:52
 #, kde-format
-msgctxt "Underline Style"
-msgid "Double"
-msgstr "द्विद्वार"
+msgid "Data"
+msgstr "दत्तांश"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_firstRowHeader)
+#: widgets/KoCsvImportDialog.ui:64
+#, kde-format
+msgid "First row contains headers"
+msgstr "प्रथमपङ्क्तौ शीर्षकाणि सन्ति"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_firstColHeader)
+#: widgets/KoCsvImportDialog.ui:77
+#, kde-format
+msgid "First column contains headers"
+msgstr "प्रथमस्तम्भे शीर्षकाणि सन्ति"
+
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
+#: widgets/KoCsvImportDialog.ui:101
+#, kde-format
+msgid "Format"
+msgstr "प्रारूप"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_delimiterBox)
+#: widgets/KoCsvImportDialog.ui:113
+#, kde-format
+msgid "Delimiter"
+msgstr "परिसीमक"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
+#: widgets/KoCsvImportDialog.ui:119
+#, kde-format
+msgid "Comma"
+msgstr "अल्पविरामः"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
+#: widgets/KoCsvImportDialog.ui:129
+#, kde-format
+msgid "Semicolon"
+msgstr "अर्धविराम"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
+#: widgets/KoCsvImportDialog.ui:136
+#, kde-format
+msgid "Other"
+msgstr "इतर"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
+#: widgets/KoCsvImportDialog.ui:143
+#, kde-format
+msgid "Tabulator"
+msgstr "टब"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
+#: widgets/KoCsvImportDialog.ui:150
+#, kde-format
+msgid "Space"
+msgstr "स्थानं"
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: widgets/KoCsvImportDialog.ui:195
+#, kde-format
+msgid "Text&quote:"
+msgstr "पाठ&उद्धरण: १."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.ui:212
+#, kde-format
+msgid "\""
+msgstr "\" \" ."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#: widgets/KoCsvImportDialog.ui:217
+#, kde-format
+msgid "'"
+msgstr "' ."
+
+#. i18n: ectx: property (text), widget (QLabel, label3)
+#: widgets/KoCsvImportDialog.ui:246
+#, kde-format
+msgid "Decimal symbol:"
+msgstr "दशमलवचिह्नम् : १."
+
+#. i18n: ectx: property (text), widget (QLabel, label4)
+#: widgets/KoCsvImportDialog.ui:275
+#, kde-format
+msgid "Thousands separator:"
+msgstr "सहस्राणि विभाजकः : १."
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
+#: widgets/KoCsvImportDialog.ui:320
+#, kde-format
+msgid "Ignore duplicate delimiters"
+msgstr "द्वितीयकपरिसीमकानाम् अवहेलनां कुर्वन्तु"
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: widgets/KoCsvImportDialog.ui:327
+#, kde-format
+msgid "&Format:"
+msgstr "&स्वरूपः : १."
+
+#. i18n: ectx: attribute (title), widget (QWidget, m_rangesTab)
+#: widgets/KoCsvImportDialog.ui:341
+#, kde-format
+msgid "Ranges"
+msgstr "श्रेणयः"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_updateButton)
+#: widgets/KoCsvImportDialog.ui:347
+#, kde-format
+msgid "Update"
+msgstr "अद्यतन"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
+#: widgets/KoCsvImportDialog.ui:414
+#, kde-format
+msgid "Import columns:"
+msgstr "आयातस्तम्भाः : १."
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#: widgets/KoCsvImportDialog.ui:433
+#, kde-format
+msgid "Import lines:"
+msgstr "आयातपङ्क्तयः : १."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: widgets/KoCsvImportDialog.ui:443 widgets/KoCsvImportDialog.ui:466
+#, kde-format
+msgid "to"
+msgstr "इत्यस्मै"
+
+#: widgets/KoDialog.cpp:256
+#, kde-format
+msgid "&Try"
+msgstr "&प्रयततु"
+
+#: widgets/KoDialog.cpp:459
+#, kde-format
+msgid "modified"
+msgstr "परिवर्तितः"
 
 #: widgets/KoDialog.cpp:468
 #, kde-format
 msgctxt "Document/application separator in titlebar"
 msgid " – "
 msgstr " – ९. "
+
+#: widgets/KoDialog.cpp:823
+#, kde-format
+msgid "&Details"
+msgstr "&वर्णन"
+
+#: widgets/KoDialog.cpp:971
+#, kde-format
+msgid "Get help..."
+msgstr "सहायतां प्राप्नुवन्तु..."
 
 #: widgets/KoDockWidgetTitleBar.cpp:54
 #, kde-format
@@ -5005,102 +4417,146 @@ msgctxt "@info:tooltip"
 msgid "Lock Docker"
 msgstr "लॉक् डॉकर"
 
-#: widgets/KoResourceItemChooser.cpp:138
+#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
+#: widgets/koDocumentInfoAboutWidget.ui:23 widgets/KoDocumentInfoDlg.cpp:221
+#: widgets/KoDocumentInfoDlg.cpp:316
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "Import resource"
-msgstr "संसाधनम् आयातयन्तु"
+msgid "&Encrypt"
+msgstr "&गुप्तीकरण"
 
-#: widgets/KoResourceItemChooser.cpp:145
+#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:64
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "Delete resource"
-msgstr "संसाधनं विलोपयन्तु"
+msgid "Keywords:"
+msgstr "कीवर्ड्स : १."
 
-#: widgets/KoTagFilterWidget.cpp:39
+#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:111
 #, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"<qt>Entering search terms here will add to, or remove resources from the "
-"current tag view.<para>To filter based on the partial, case insensitive "
-"name of a resource:<br><icode>partialname</icode> or "
-"<icode>!partialname</icode>.</para><para>In-/exclusion of other tag "
-"sets:<br><icode>[Tagname]</icode> or "
-"<icode>![Tagname]</icode>.</para><para>Case sensitive and full name "
-"matching in-/exclusion:<br><icode>\"ExactMatch\"</icode> or "
-"<icode>!\"ExactMatch\"</icode>.</para>Filter results cannot be saved for "
-"the <interface>All Presets</interface> view.<br>In this view, pressing "
-"<interface>Enter</interface> or clearing the filter box will restore all "
-"items.<br>Create and/or switch to a different tag if you want to save "
-"filtered resources into named sets.</qt>"
-msgstr ""
-"<qt>अत्र अन्वेषणपदानि प्रविष्ट्वा वर्तमानटैग्दृश्यात् संसाधनं योजयिष्यति, "
-"अथवा निष्कासयिष्यति ।<para> संसाधनस्य आंशिकस्य, केस-असंवेदनशीलस्य नामस्य "
-"आधारेण फ़िल्टर कर्तुं:<br><icode> आंशिकनाम</icode> वा<icode> "
-"!आंशिकनाम</icode> .</para><para> अन्येषां टैग्-समूहानां अन्तः/बहिष्कारः : "
-"१.<br><icode> [तग्नाम] ९.</icode> वा<icode> ![तग्नामे]</icode> "
-".</para><para> लघुसंवेदनशीलं पूर्णनाममेलनं च-/बहिष्कारः:<br><icode> "
-"&quot;ExactMatch&quot; इति ।</icode> वा<icode> !&quot;ExactMatch&quot; इति "
-"।</icode> .</para> फ़िल्टर परिणामाः कृते रक्षितुं न शक्यन्ते<interface> "
-"सर्वे पूर्वनिर्धारिताः</interface> दृश्यं।<br> अस्मिन् दृश्ये "
-"निपीड्य<interface> प्रवेश</interface> अथवा फ़िल्टर बॉक्स् स्वच्छं कृत्वा "
-"सर्वाणि वस्तूनि पुनः स्थापितानि भविष्यन्ति ।<br> यदि भवान् फ़िल्टर कृतानि "
-"संसाधनानि नामकृतेषु समुच्चयेषु रक्षितुं इच्छति तर्हि भिन्नं टैग् "
-"रचयन्तु/अथवा स्विच् कुर्वन्तु ।</qt>"
+msgid "Subject:"
+msgstr "विषयः:"
 
-#: widgets/KoTagFilterWidget.cpp:52
+#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:124
 #, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"<qt>Entering search terms here will add to, or remove resources from the "
-"current tag view.<para>To filter based on the partial, case insensitive "
-"name of a resource:<br><icode>partialname</icode> or "
-"<icode>!partialname</icode>.</para><para>In-/exclusion of other tag "
-"sets:<br><icode>[Tagname]</icode> or "
-"<icode>![Tagname]</icode>.</para><para>Case sensitive and full name "
-"matching in-/exclusion:<br><icode>\"ExactMatch\"</icode> or "
-"<icode>!\"ExactMatch\"</icode>.</para>Pressing <interface>Enter</interface> "
-"or clicking the <interface>Save</interface> button will save the "
-"changes.</qt>"
-msgstr ""
-"<qt>अत्र अन्वेषणपदानि प्रविष्ट्वा वर्तमानटैग्दृश्यात् संसाधनं योजयिष्यति, "
-"अथवा निष्कासयिष्यति ।<para> संसाधनस्य आंशिकस्य, केस-असंवेदनशीलस्य नामस्य "
-"आधारेण फ़िल्टर कर्तुं:<br><icode> आंशिकनाम</icode> वा<icode> "
-"!आंशिकनाम</icode> .</para><para> अन्येषां टैग्-समूहानां अन्तः/बहिष्कारः : "
-"१.<br><icode> [तग्नाम] ९.</icode> वा<icode> ![तग्नामे]</icode> "
-".</para><para> लघुसंवेदनशीलं पूर्णनाममेलनं च-/बहिष्कारः:<br><icode> "
-"&quot;ExactMatch&quot; इति ।</icode> वा<icode> !&quot;ExactMatch&quot; इति "
-"।</icode> .</para> दबावन्<interface> प्रवेश</interface> अथवा क्लिक् "
-"कृत्वा<interface> रक्ष्</interface> बटन परिवर्तनं रक्षति ।</qt>"
+msgid "Last printed:"
+msgstr "अन्तिम मुद्रितम् : १."
 
-#: widgets/KoTagFilterWidget.cpp:76
+#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:158
 #, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"<qt>Save the currently filtered set as the new members of the current "
-"tag.</qt>"
-msgstr ""
-"<qt>वर्तमानं फ़िल्टर कृतं सेट् वर्तमानटैग् इत्यस्य नूतनसदस्यरूपेण रक्षन्तु "
-"।</qt>"
+msgid "Total editing time:"
+msgstr "कुल सम्पादनसमयः : १."
 
-#: widgets/KoTagToolButton.cpp:45
+#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:178
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "<qt>Show the tag box options.</qt>"
-msgstr "<qt>टैग् बॉक्स विकल्पान् दर्शयतु।</qt>"
+msgid "Encryption:"
+msgstr "एन्क्रिप्शन : १."
 
-#: widgets/KoToolBoxButton.cpp:53
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "%1"
-msgstr "%1"
-
-#: widgets/koDocumentInfoAboutWidget.ui:188
 #. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:188
 #, kde-format
 msgctxt "Document title"
 msgid "Title:"
 msgstr "शीर्षक:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:201
+#, kde-format
+msgid "Revision number:"
+msgstr "पुनरीक्षणसङ्ख्या : १."
+
+#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:211
+#, kde-format
+msgid "Modified:"
+msgstr "परिवर्तितः : १."
+
+#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:231
+#, kde-format
+msgid "Comments:"
+msgstr "टिप्पणियाँ : १."
+
+#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:251
+#, kde-format
+msgid "Created:"
+msgstr "निर्मितः : १."
+
+#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
+#: widgets/koDocumentInfoAboutWidget.ui:261
+#, kde-format
+msgid "Path:"
+msgstr "पथं:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbReset)
+#: widgets/koDocumentInfoAboutWidget.ui:280
+#, kde-format
+msgid "&Reset"
+msgstr "&पुनः सेट् कुर्वन्तु"
+
+#. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
+#: widgets/koDocumentInfoAboutWidget.ui:297
+#, kde-format
+msgid "Language:"
+msgstr "भाषा:"
+
+#: widgets/KoDocumentInfoDlg.cpp:102 widgets/KoDocumentInfoDlg.cpp:103
+#, kde-format
+msgid "General"
+msgstr "सामान्य"
+
+#: widgets/KoDocumentInfoDlg.cpp:126
+#, kde-format
+msgid "Last saved by"
+msgstr "अन्तिमे द्वारा रक्षितम्"
+
+#: widgets/KoDocumentInfoDlg.cpp:175
+#, kde-format
+msgid "Use ';' (Example: Office;KDE;Calligra)"
+msgstr "उपयुञ्जताम्‌ ';' (उदाहरणम् : Office;KDE;Calligra)"
+
+#: widgets/KoDocumentInfoDlg.cpp:205 widgets/KoDocumentInfoDlg.cpp:301
+#, kde-format
+msgid "This document will be decrypted"
+msgstr "एतत् दस्तावेजं विगुप्तं भविष्यति"
+
+#: widgets/KoDocumentInfoDlg.cpp:207 widgets/KoDocumentInfoDlg.cpp:303
+#, kde-format
+msgid "Do not decrypt"
+msgstr "विगुप्तीकरणं न कुर्वन्तु"
+
+#: widgets/KoDocumentInfoDlg.cpp:209 widgets/KoDocumentInfoDlg.cpp:305
+#, kde-format
+msgid "This document is encrypted"
+msgstr "एतत् दस्तावेजं एन्क्रिप्टेड् अस्ति"
+
+#: widgets/KoDocumentInfoDlg.cpp:211 widgets/KoDocumentInfoDlg.cpp:307
+#, kde-format
+msgid "D&ecrypt"
+msgstr "D&ecrypt"
+
+#: widgets/KoDocumentInfoDlg.cpp:215 widgets/KoDocumentInfoDlg.cpp:310
+#, kde-format
+msgid "This document will be encrypted."
+msgstr "एतत् दस्तावेजं एन्क्रिप्टेड् भविष्यति ।"
+
+#: widgets/KoDocumentInfoDlg.cpp:217 widgets/KoDocumentInfoDlg.cpp:312
+#, kde-format
+msgid "Do not encrypt"
+msgstr "गुप्तीकरणं न कुर्वन्तु"
+
+#: widgets/KoDocumentInfoDlg.cpp:219 widgets/KoDocumentInfoDlg.cpp:314
+#, kde-format
+msgid "This document is not encrypted"
+msgstr "एतत् दस्तावेजं एन्क्रिप्टेड् नास्ति"
+
+#: widgets/KoDocumentInfoDlg.cpp:225
+#, kde-format
+msgid "This document does not support encryption"
+msgstr "एतत् दस्तावेजं एन्क्रिप्शनस्य समर्थनं न करोति"
 
 #: widgets/KoDocumentInfoDlg.cpp:235
 #, kde-format
@@ -5114,6 +4570,143 @@ msgctxt "list separator"
 msgid ", "
 msgstr ", ९. "
 
+#: widgets/KoDocumentInfoDlg.cpp:337
+#, kde-format
+msgid ""
+"<qt>Decrypting the document will remove the password protection from it."
+"<p>Do you still want to decrypt the file?</qt>"
+msgstr ""
+"<qt>दस्तावेजस्य विगुप्तीकरणेन तस्मात् गुप्तशब्दसंरक्षणं दूरं भविष्यति ।<p> किं भवन्तः अद्यापि "
+"सञ्चिकां विगुप्तं कर्तुम् इच्छन्ति ?</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:339
+#, kde-format
+msgid "Confirm Decrypt"
+msgstr "Decrypt इति पुष्टिं कुर्वन्तु"
+
+#: widgets/KoDocumentInfoDlg.cpp:340
+#, kde-format
+msgid "Decrypt"
+msgstr "विच्छेदनं कुर्वन्तु"
+
+#: widgets/KoDocumentInfoDlg.cpp:349
+#, kde-format
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"decryption, please save the document.</qt>"
+msgstr ""
+"<qt>भवतः दस्तावेजं स्वयमेव रक्षितुं न शक्यते स्म ।<p> विगुप्तीकरणं पूर्णं कर्तुं कृपया दस्तावेजं "
+"रक्षन्तु ।</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:351 widgets/KoDocumentInfoDlg.cpp:358
+#: widgets/KoDocumentInfoDlg.cpp:393 widgets/KoDocumentInfoDlg.cpp:401
+#, kde-format
+msgid "Save Document"
+msgstr "दस्तावेजं रक्षन्तु"
+
+#: widgets/KoDocumentInfoDlg.cpp:356
+#, kde-format
+msgid ""
+"<qt>To complete the decryption the document needs to be saved.<p>Do you want "
+"to save the document now?</qt>"
+msgstr ""
+"<qt>विगुप्तीकरणं पूर्णं कर्तुं दस्तावेजं रक्षितुं आवश्यकम् अस्ति ।<p> इदानीं दस्तावेजं रक्षितुम् "
+"इच्छति वा ?</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:375
+#, kde-format
+msgid ""
+"<qt>The document is currently saved as %1. The document needs to be changed "
+"to <b>OASIS OpenDocument</b> to be encrypted.<p>Do you want to change the "
+"file to OASIS OpenDocument?</qt>"
+msgstr ""
+"<qt>दस्तावेजं सम्प्रति %1 इति रक्षितम् अस्ति । दस्तावेजं एन्क्रिप्टेड् कर्तुं <b>OASIS "
+"OpenDocument</b> इति परिवर्तयितुं आवश्यकम् अस्ति ।<p> किं भवान् सञ्चिकां OASIS "
+"OpenDocument इति परिवर्तयितुम् इच्छति?</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:378
+#, kde-format
+msgid "Change Filetype"
+msgstr "सञ्चिकाप्रकारं परिवर्तयन्तु"
+
+#: widgets/KoDocumentInfoDlg.cpp:379
+#, kde-format
+msgid "Change"
+msgstr "परिवर्तय"
+
+#: widgets/KoDocumentInfoDlg.cpp:391
+#, kde-format
+msgid ""
+"<qt>Your document could not be saved automatically.<p>To complete the "
+"encryption, please save the document.</qt>"
+msgstr ""
+"<qt>भवतः दस्तावेजं स्वयमेव रक्षितुं न शक्यते स्म ।<p> एन्क्रिप्शनं पूर्णं कर्तुं कृपया दस्तावेजं "
+"रक्षन्तु ।</qt>"
+
+#: widgets/KoDocumentInfoDlg.cpp:399
+#, kde-format
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the "
+"encryption the document needs to be saved.<p>Do you want to save the "
+"document now?</qt>"
+msgstr ""
+"<qt>दस्तावेजं उद्घाटितस्य अनन्तरं परिवर्तितम् अस्ति । एन्क्रिप्शनं पूर्णं कर्तुं दस्तावेजं रक्षितुं "
+"आवश्यकम् ।<p> इदानीं दस्तावेजं रक्षितुम् इच्छति वा ?</qt>"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, add)
+#: widgets/KoEditColorSet.ui:45
+#, kde-format
+msgid "Add"
+msgstr "संयोजयति"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, remove)
+#: widgets/KoEditColorSet.ui:55
+#, kde-format
+msgid "Remove"
+msgstr "अपाकरोति"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, open)
+#: widgets/KoEditColorSet.ui:65
+#, kde-format
+msgid "Open palette"
+msgstr "पॅलेट् उद्घाटयन्तु"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, save)
+#: widgets/KoEditColorSet.ui:75
+#, kde-format
+msgid "Save palette"
+msgstr "पॅलेट् रक्षतु"
+
+#: widgets/KoEditColorSetDialog.cpp:146
+#, kde-format
+msgid "Add Color To Palette"
+msgstr "Add Color To Palette इति"
+
+#: widgets/KoEditColorSetDialog.cpp:146
+#, kde-format
+msgid "Color name:"
+msgstr "वर्णनाम : १."
+
+#: widgets/KoEditColorSetDialog.cpp:174
+#, kde-format
+msgid "Gimp Color Palette (*.gpl)"
+msgstr "जिम्प रंग पैलेट (*.gpl) 1.1."
+
+#: widgets/KoEditColorSetDialog.cpp:187
+#, kde-format
+msgid "Cannot write to palette file %1. Maybe it is read-only. "
+msgstr "%1 पैलेट् सञ्चिकायां लिखितुं न शक्यते । भवतु नाम केवलं पठनीयम्। "
+
+#: widgets/KoEditColorSetDialog.cpp:187
+#, kde-format
+msgid "Palette"
+msgstr "पॅलेट्"
+
+#: widgets/KoEditColorSetDialog.cpp:201
+#, kde-format
+msgid "Add/Remove Colors"
+msgstr "रङ्गं योजयतु/निष्कासयतु"
+
 #: widgets/KoFillConfigWidget.cpp:147
 #, kde-format
 msgctxt "No stroke or fill"
@@ -5125,6 +4718,41 @@ msgstr "न कश्चित्"
 msgctxt "Solid color stroke or fill"
 msgid "Solid"
 msgstr "ठोस"
+
+#: widgets/KoFillConfigWidget.cpp:163
+#, kde-format
+msgid "Gradient"
+msgstr "ढाल"
+
+#: widgets/KoFillConfigWidget.cpp:171
+#, kde-format
+msgid "Pattern"
+msgstr "प्रतिमानम्‌"
+
+#: widgets/KoFillConfigWidget.cpp:185
+#, kde-format
+msgid "Change the filling color"
+msgstr "पूरणवर्णं परिवर्तयन्तु"
+
+#: widgets/KoFillConfigWidget.cpp:196
+#, kde-format
+msgid "Change the filling gradient"
+msgstr "पूरण-ढालं परिवर्तयन्तु"
+
+#: widgets/KoFillConfigWidget.cpp:203
+#, kde-format
+msgid "Change the filling pattern"
+msgstr "पूरणप्रतिमानं परिवर्तयन्तु"
+
+#: widgets/KoGradientEditWidget.cpp:148
+#, kde-format
+msgid "Target:"
+msgstr "लक्ष्य:"
+
+#: widgets/KoGradientEditWidget.cpp:151
+#, kde-format
+msgid "Fill"
+msgstr "पूरण"
 
 #: widgets/KoGradientEditWidget.cpp:157
 #, kde-format
@@ -5144,11 +4772,315 @@ msgctxt "Conical gradient type"
 msgid "Conical"
 msgstr "शंक्वाकारः"
 
+#: widgets/KoGradientEditWidget.cpp:162
+#, kde-format
+msgid "Repeat:"
+msgstr "परिहरन:"
+
 #: widgets/KoGradientEditWidget.cpp:164
 #, kde-format
 msgctxt "No gradient spread"
 msgid "None"
 msgstr "न कश्चित्"
+
+#: widgets/KoGradientEditWidget.cpp:165
+#, kde-format
+msgid "Reflect"
+msgstr "परावर्तति"
+
+#: widgets/KoGradientEditWidget.cpp:166
+#, kde-format
+msgid "Repeat"
+msgstr "परिहरन"
+
+#: widgets/KoGradientEditWidget.cpp:169
+#, kde-format
+msgid "Overall opacity:"
+msgstr "समग्ररूपेण अस्पष्टता : १."
+
+#: widgets/KoGradientEditWidget.cpp:174
+#, kde-format
+msgid "Color stop:"
+msgstr "वर्णविरामः : १."
+
+#: widgets/KoGradientEditWidget.cpp:182
+#, kde-format
+msgid "Stop color."
+msgstr "वर्णं स्थगयतु।"
+
+#: widgets/KoGradientEditWidget.cpp:185
+#, kde-format
+msgid "&Add to Predefined Gradients"
+msgstr "&पूर्वनिर्धारित ढालयोः योजयतु"
+
+#: widgets/KoModeBox.cpp:501
+#, kde-format
+msgid "Icon and Text"
+msgstr "चिह्नं पाठश्च"
+
+#: widgets/KoModeBox.cpp:502
+#, kde-format
+msgid "Icon only"
+msgstr "केवलं चिह्नम्"
+
+#: widgets/KoModeBox.cpp:505
+#, kde-format
+msgid "Sidebar side"
+msgstr "पार्श्वपट्टिकापक्षः"
+
+#: widgets/KoModeBox.cpp:514
+#, kde-format
+msgid "Left side"
+msgstr "वामपक्षः"
+
+#: widgets/KoModeBox.cpp:515
+#, kde-format
+msgid "Right side"
+msgstr "दक्षिणपार्श्वे"
+
+#: widgets/KoPageLayoutDialog.cpp:36
+#, kde-format
+msgid "Page Layout"
+msgstr "पृष्ठ विन्यास"
+
+#: widgets/KoPageLayoutDialog.cpp:95
+#, kde-format
+msgid "Apply to document"
+msgstr "दस्तावेजार्थं आवेदनं कुर्वन्तु"
+
+#: widgets/KoPageLayoutWidget.cpp:180
+#, kde-format
+msgid "Left Edge Margin:"
+msgstr "वामधारमार्जिनः : १."
+
+#: widgets/KoPageLayoutWidget.cpp:181
+#, kde-format
+msgid "Right Edge Margin:"
+msgstr "दक्षिण एज मार्जिन : १."
+
+#. i18n: ectx: property (text), widget (QLabel, leftLabel)
+#: widgets/KoPageLayoutWidget.cpp:183 widgets/KoPageLayoutWidget.ui:222
+#, kde-format
+msgid "Binding Edge Margin:"
+msgstr "बाइंडिंग एज मार्जिन : १."
+
+#. i18n: ectx: property (text), widget (QLabel, rightLabel)
+#: widgets/KoPageLayoutWidget.cpp:184 widgets/KoPageLayoutWidget.ui:242
+#, kde-format
+msgid "Page Edge Margin:"
+msgstr "पृष्ठ एज मार्जिन:"
+
+#: widgets/KoPageLayoutWidget.cpp:286
+#, kde-format
+msgid "Facing Pages:"
+msgstr "सम्मुखी पृष्ठानि : १."
+
+#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
+#: widgets/KoPageLayoutWidget.cpp:287 widgets/KoPageLayoutWidget.ui:160
+#, kde-format
+msgid "Facing pages"
+msgstr "पृष्ठानि सम्मुखीकृत्य"
+
+#: widgets/KoPageLayoutWidget.cpp:289
+#, kde-format
+msgid "Page Layout:"
+msgstr "पृष्ठविन्यासः १."
+
+#: widgets/KoPageLayoutWidget.cpp:290
+#, kde-format
+msgid "Page spread"
+msgstr "पृष्ठ प्रसारित"
+
+#. i18n: ectx: property (text), widget (QLabel, unitsLabel)
+#: widgets/KoPageLayoutWidget.ui:25
+#, kde-format
+msgid "Unit:"
+msgstr "इंकाईं:"
+
+#. i18n: ectx: property (text), widget (QLabel, stylesLabel)
+#: widgets/KoPageLayoutWidget.ui:45
+#, kde-format
+msgid "Follow style:"
+msgstr "शैलीं अनुसरणं कुर्वन्तु : १."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: widgets/KoPageLayoutWidget.ui:61
+#, kde-format
+msgid "Size:"
+msgstr "आकृति:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: widgets/KoPageLayoutWidget.ui:77
+#, kde-format
+msgid "Width:"
+msgstr "विस्तार:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: widgets/KoPageLayoutWidget.ui:104
+#, kde-format
+msgid "Height:"
+msgstr "औनत्यम्‌:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: widgets/KoPageLayoutWidget.ui:119
+#, kde-format
+msgid "Orientation:"
+msgstr "आभिमुख्य:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, portrait)
+#: widgets/KoPageLayoutWidget.ui:129
+#, kde-format
+msgid "Portrait"
+msgstr "चित्रम्"
+
+#. i18n: ectx: property (text), widget (QRadioButton, landscape)
+#: widgets/KoPageLayoutWidget.ui:136
+#, kde-format
+msgid "Landscape"
+msgstr "भूप्रदेश"
+
+#. i18n: ectx: property (text), widget (QLabel, facingPageLabel)
+#: widgets/KoPageLayoutWidget.ui:143
+#, kde-format
+msgid "Facing pages:"
+msgstr "सम्मुखी पृष्ठानि : १."
+
+#. i18n: ectx: property (text), widget (QRadioButton, singleSided)
+#: widgets/KoPageLayoutWidget.ui:153
+#, kde-format
+msgid "Single sided"
+msgstr "एकपक्षीयः"
+
+#. i18n: ectx: property (text), widget (QLabel, directionLabel)
+#: widgets/KoPageLayoutWidget.ui:167
+#, kde-format
+msgid "Text direction:"
+msgstr "पाठनिर्देशः : १."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
+#: widgets/KoPageLayoutWidget.ui:184
+#, kde-format
+msgid "Automatic"
+msgstr "स्वतः"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
+#: widgets/KoPageLayoutWidget.ui:189
+#, kde-format
+msgid "Left to right"
+msgstr "वामतः दक्षिणतः"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
+#: widgets/KoPageLayoutWidget.ui:194
+#, kde-format
+msgid "Right to left"
+msgstr "दक्षिणतः वामतः"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: widgets/KoPageLayoutWidget.ui:202
+#, kde-format
+msgid "Top Margin:"
+msgstr "शीर्ष मार्जिन : १."
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: widgets/KoPageLayoutWidget.ui:262
+#, kde-format
+msgid "Bottom Margin:"
+msgstr "तलमार्जिनम् : १."
+
+#: widgets/KoResourceItemChooser.cpp:138
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Import resource"
+msgstr "संसाधनम् आयातयन्तु"
+
+#: widgets/KoResourceItemChooser.cpp:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete resource"
+msgstr "संसाधनं विलोपयन्तु"
+
+#: widgets/KoResourceItemChooser.cpp:191
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose File to Add"
+msgstr "योजयितुं File इति चिनोतु"
+
+#: widgets/KoResourceItemChooserContextMenu.cpp:105
+#: widgets/KoTagToolButton.cpp:52
+#, kde-format
+msgid "New tag"
+msgstr "नवीन टैग"
+
+#: widgets/KoResourceItemChooserContextMenu.cpp:140
+#, kde-format
+msgid "Assign to tag"
+msgstr "टैग् कर्तुं नियुक्तं कुर्वन्तु"
+
+#: widgets/KoResourceItemChooserContextMenu.cpp:149
+#, kde-format
+msgid "Remove from this tag"
+msgstr "अस्मात् टैग् तः निष्कासयन्तु"
+
+#: widgets/KoResourceItemChooserContextMenu.cpp:159
+#, kde-format
+msgid "Remove from other tag"
+msgstr "अन्यतः टैगतः निष्कासयन्तु"
+
+#: widgets/KoResourceModel.cpp:69
+#, kde-format
+msgid "Tags"
+msgstr "टैग्स"
+
+#: widgets/KoResourceTaggingManager.cpp:131
+#, kde-format
+msgid "Unable to undelete tag"
+msgstr "टैगं अविलोपनं कर्तुं असमर्थः"
+
+#: widgets/KoResourceTaggingManager.cpp:132
+#, kde-format
+msgid ""
+"<qt>The tag you are trying to undelete already exists in tag list.<br>Please "
+"enter a new, unique name for it.</qt>"
+msgstr ""
+"<qt>भवन्तः यत् टैग् अपलोपयितुं प्रयतन्ते तत् पूर्वमेव टैग् सूचीयां विद्यते ।<br> कृपया तस्य नूतनं, "
+"अद्वितीयं नाम प्रविशतु ।</qt>"
+
+#: widgets/KoResourceTaggingManager.cpp:140
+#, kde-format
+msgid "Tag was not undeleted."
+msgstr "टैगः अपाकृतः न अभवत् ।"
+
+#: widgets/KoRuler.cpp:1174
+#, kde-format
+msgid "First line indent"
+msgstr "प्रथमा पङ्क्तिः इन्डेंट्"
+
+#: widgets/KoRuler.cpp:1177
+#, kde-format
+msgid "Left indent"
+msgstr "वाम इण्डेन्ट्"
+
+#: widgets/KoRuler.cpp:1180
+#, kde-format
+msgid "Right indent"
+msgstr "दक्षिणः इन्डेण्ट्"
+
+#: widgets/KoShadowConfigWidget.cpp:53
+#, kde-format
+msgid "Change the color of the shadow"
+msgstr "छायायाः वर्णं परिवर्तयन्तु"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: widgets/KoShadowConfigWidget.ui:67
+#, kde-format
+msgid "Blur:"
+msgstr "धुन्धला : १."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/KoShadowConfigWidget.ui:84
+#, kde-format
+msgid "Distance:"
+msgstr "दूरी:"
 
 #: widgets/KoShapePropertyWidget.cpp:46
 #, kde-format
@@ -5162,17 +5094,181 @@ msgctxt "@info"
 msgid "No properties available"
 msgstr "न गुणाः उपलभ्यन्ते"
 
+#: widgets/KoStrokeConfigWidget.cpp:83
+#, kde-format
+msgid "Butt cap"
+msgstr "बट कैप"
+
+#: widgets/KoStrokeConfigWidget.cpp:90
+#, kde-format
+msgid "Round cap"
+msgstr "गोल टोपी"
+
+#: widgets/KoStrokeConfigWidget.cpp:97
+#, kde-format
+msgid "Square cap"
+msgstr "वर्गटोपी"
+
+#: widgets/KoStrokeConfigWidget.cpp:108
+#, kde-format
+msgid "Miter join"
+msgstr "मित्रे सम्मिलितं भवति"
+
+#: widgets/KoStrokeConfigWidget.cpp:115
+#, kde-format
+msgid "Round join"
+msgstr "गोलसंयोगः"
+
+#: widgets/KoStrokeConfigWidget.cpp:122
+#, kde-format
+msgid "Bevel join"
+msgstr "बेवल join"
+
+#: widgets/KoStrokeConfigWidget.cpp:132
+#, kde-format
+msgid "Miter limit"
+msgstr "मिटर सीमा"
+
+#: widgets/KoStrokeConfigWidget.cpp:202
+#, kde-format
+msgid "Thickness:"
+msgstr "स्थूलता : १."
+
+#: widgets/KoStrokeConfigWidget.cpp:212
+#, kde-format
+msgid "Set line width of actual selection"
+msgstr "वास्तविकचयनस्य रेखाविस्तारं सेट् कुर्वन्तु"
+
+#: widgets/KoStrokeConfigWidget.cpp:228
+#, kde-format
+msgid "Change the color of the line/border"
+msgstr "रेखायाः/सीमायाः वर्णं परिवर्तयन्तु"
+
+#: widgets/KoTagChooserWidget.cpp:42
+#, kde-format
+msgid "Tag"
+msgstr "सूचकपत्त्र"
+
+#: widgets/KoTagFilterWidget.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<qt>Entering search terms here will add to, or remove resources from the "
+"current tag view.<para>To filter based on the partial, case insensitive name "
+"of a resource:<br><icode>partialname</icode> or <icode>!partialname</icode>."
+"</para><para>In-/exclusion of other tag sets:<br><icode>[Tagname]</icode> or "
+"<icode>![Tagname]</icode>.</para><para>Case sensitive and full name matching "
+"in-/exclusion:<br><icode>\"ExactMatch\"</icode> or <icode>!\"ExactMatch\"</"
+"icode>.</para>Filter results cannot be saved for the <interface>All Presets</"
+"interface> view.<br>In this view, pressing <interface>Enter</interface> or "
+"clearing the filter box will restore all items.<br>Create and/or switch to a "
+"different tag if you want to save filtered resources into named sets.</qt>"
+msgstr ""
+"<qt>अत्र अन्वेषणपदानि प्रविष्ट्वा वर्तमानटैग्दृश्यात् संसाधनं योजयिष्यति, अथवा निष्कासयिष्यति "
+"।<para> संसाधनस्य आंशिकस्य, केस-असंवेदनशीलस्य नामस्य आधारेण फ़िल्टर कर्तुं:<br><icode> "
+"आंशिकनाम</icode> वा<icode> !आंशिकनाम</icode> .</para><para> अन्येषां टैग्-समूहानां "
+"अन्तः/बहिष्कारः : १.<br><icode> [तग्नाम] ९.</icode> वा<icode> ![तग्नामे]</icode> ."
+"</para><para> लघुसंवेदनशीलं पूर्णनाममेलनं च-/बहिष्कारः:<br><icode> &quot;"
+"ExactMatch&quot; इति ।</icode> वा<icode> !&quot;ExactMatch&quot; इति ।</"
+"icode> .</para> फ़िल्टर परिणामाः कृते रक्षितुं न शक्यन्ते<interface> सर्वे "
+"पूर्वनिर्धारिताः</interface> दृश्यं।<br> अस्मिन् दृश्ये निपीड्य<interface> प्रवेश</"
+"interface> अथवा फ़िल्टर बॉक्स् स्वच्छं कृत्वा सर्वाणि वस्तूनि पुनः स्थापितानि भविष्यन्ति ।"
+"<br> यदि भवान् फ़िल्टर कृतानि संसाधनानि नामकृतेषु समुच्चयेषु रक्षितुं इच्छति तर्हि भिन्नं टैग् "
+"रचयन्तु/अथवा स्विच् कुर्वन्तु ।</qt>"
+
+#: widgets/KoTagFilterWidget.cpp:52
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<qt>Entering search terms here will add to, or remove resources from the "
+"current tag view.<para>To filter based on the partial, case insensitive name "
+"of a resource:<br><icode>partialname</icode> or <icode>!partialname</icode>."
+"</para><para>In-/exclusion of other tag sets:<br><icode>[Tagname]</icode> or "
+"<icode>![Tagname]</icode>.</para><para>Case sensitive and full name matching "
+"in-/exclusion:<br><icode>\"ExactMatch\"</icode> or <icode>!\"ExactMatch\"</"
+"icode>.</para>Pressing <interface>Enter</interface> or clicking the "
+"<interface>Save</interface> button will save the changes.</qt>"
+msgstr ""
+"<qt>अत्र अन्वेषणपदानि प्रविष्ट्वा वर्तमानटैग्दृश्यात् संसाधनं योजयिष्यति, अथवा निष्कासयिष्यति "
+"।<para> संसाधनस्य आंशिकस्य, केस-असंवेदनशीलस्य नामस्य आधारेण फ़िल्टर कर्तुं:<br><icode> "
+"आंशिकनाम</icode> वा<icode> !आंशिकनाम</icode> .</para><para> अन्येषां टैग्-समूहानां "
+"अन्तः/बहिष्कारः : १.<br><icode> [तग्नाम] ९.</icode> वा<icode> ![तग्नामे]</icode> ."
+"</para><para> लघुसंवेदनशीलं पूर्णनाममेलनं च-/बहिष्कारः:<br><icode> &quot;"
+"ExactMatch&quot; इति ।</icode> वा<icode> !&quot;ExactMatch&quot; इति ।</"
+"icode> .</para> दबावन्<interface> प्रवेश</interface> अथवा क्लिक् कृत्वा<interface> "
+"रक्ष्</interface> बटन परिवर्तनं रक्षति ।</qt>"
+
+#: widgets/KoTagFilterWidget.cpp:65
+#, kde-format
+msgid "Enter resource filters here"
+msgstr "अत्र संसाधन-छिद्रकाणि प्रविशन्तु"
+
+#: widgets/KoTagFilterWidget.cpp:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<qt>Save the currently filtered set as the new members of the current tag.</"
+"qt>"
+msgstr "<qt>वर्तमानं फ़िल्टर कृतं सेट् वर्तमानटैग् इत्यस्य नूतनसदस्यरूपेण रक्षन्तु ।</qt>"
+
+#: widgets/KoTagToolButton.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "<qt>Show the tag box options.</qt>"
+msgstr "<qt>टैग् बॉक्स विकल्पान् दर्शयतु।</qt>"
+
+#: widgets/KoTagToolButton.cpp:60
+#, kde-format
+msgid "Rename tag"
+msgstr "टैगस्य नाम परिवर्तनं कुर्वन्तु"
+
+#: widgets/KoTagToolButton.cpp:70
+#, kde-format
+msgid "Delete this tag"
+msgstr "एतत् टैग् विलोपयन्तु"
+
+#: widgets/KoTagToolButton.cpp:86
+#, kde-format
+msgid "Clear undelete list"
+msgstr "अविलोपनसूचीं स्वच्छं कुर्वन्तु"
+
+#: widgets/KoTagToolButton.cpp:114
+#, kde-format
+msgid "Undelete"
+msgstr "अविलोपनम्"
+
 #: widgets/KoToolBox.cpp:310
 #, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "मूलभूतम्‌"
 
+#: widgets/KoToolBox.cpp:315
+#, kde-format
+msgid "%1x%2"
+msgstr "%1x%2"
+
+#: widgets/KoToolBoxButton.cpp:53
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "%1"
+msgstr "%1"
+
 #: widgets/KoToolBoxButton.cpp:53
 #, kde-format
 msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
 msgstr "%1 (%2) २."
+
+#: widgets/KoToolBoxDocker.cpp:25
+#, kde-format
+msgid "Toolbox"
+msgstr "साधनपेटी"
+
+#: widgets/KoToolBoxDocker.cpp:134
+#, kde-format
+msgid "Icon Size"
+msgstr "चिह्न आकार"
 
 #: widgets/KoToolBoxDocker.cpp:137
 #, kde-format
@@ -5197,6 +5293,68 @@ msgstr "&वामतः दक्षिणतः"
 msgctxt "@item:inmenu Toolbox layout direction"
 msgid "&Right-to-left"
 msgstr "&दक्षिणतः वामतः"
+
+#: widgets/KoToolDocker.cpp:117
+#, kde-format
+msgid "Tool Options"
+msgstr "साधनविकल्पाः"
+
+#: widgets/KoViewItemContextBar.cpp:176
+#, kde-format
+msgid "deselect item"
+msgstr "द्रव्यं विचयनं कुर्वन्तु"
+
+#: widgets/KoViewItemContextBar.cpp:176
+#, kde-format
+msgid "select item"
+msgstr "मदं चयनं कुर्वन्तु"
+
+#: widgets/KoZoomAction.cpp:189 widgets/KoZoomAction.cpp:201
+#: widgets/KoZoomMode.cpp:11
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#: widgets/KoZoomMode.cpp:12
+msgid "Fit Page Width"
+msgstr "पृष्ठ चौड़ाई फिट करें"
+
+#: widgets/KoZoomMode.cpp:13
+msgid "Fit Page"
+msgstr "फिट पेज"
+
+#: widgets/KoZoomMode.cpp:15
+msgid "Actual Pixels"
+msgstr "वास्तविक पिक्सेल"
+
+#: widgets/KoZoomMode.cpp:19
+msgid "Fit Text Width"
+msgstr "पाठ चौड़ाई फिट करें"
+
+#: widgets/KoZoomWidget.cpp:69
+#, kde-format
+msgid "Use same aspect as pixels"
+msgstr "पिक्सेल इत्यस्य समानपक्षस्य उपयोगं कुर्वन्तु"
+
+#: widgets/KoZoomWidget.cpp:78
+#, kde-format
+msgid "Zoom to Selection"
+msgstr "चयनं प्रति जूम कुर्वन्तु"
+
+#: widgets/KoZoomWidget.cpp:87
+#, kde-format
+msgid "Zoom to All"
+msgstr "सर्वेभ्यः जूम कुर्वन्तु"
+
+#: widgetutils/KoFileDialog.cpp:394
+#, kde-format
+msgid "All files"
+msgstr "सर्वाणि सञ्चिकानि"
+
+#: widgetutils/KoFileDialog.cpp:397
+#, kde-format
+msgid "All supported formats"
+msgstr "सर्वे समर्थिताः प्रारूपाः"
 
 #: widgetutils/KoGroupButton.cpp:134
 #, kde-format

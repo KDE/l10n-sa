@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the isoimagewriter package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: isoimagewriter\n"
@@ -13,8 +13,18 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
 
 #: isoimagewriter/common.cpp:41
 #, kde-format
@@ -101,11 +111,11 @@ msgstr "इदानीं भवद्भिः स्वस्य यन्त
 #: isoimagewriter/imagewriter.cpp:243
 #, kde-format
 msgid ""
-"To be able to store data on this device again, please, use the button "
-"\"Wipe USB Disk\"."
+"To be able to store data on this device again, please, use the button \"Wipe "
+"USB Disk\"."
 msgstr ""
-"अस्मिन् उपकरणे पुनः आँकडानां संग्रहणं कर्तुं शक्नुवन्तु, कृपया, \"Wipe USB "
-"Disk\" इति बटनस्य उपयोगं कुर्वन्तु ।"
+"अस्मिन् उपकरणे पुनः आँकडानां संग्रहणं कर्तुं शक्नुवन्तु, कृपया, \"Wipe USB Disk\" इति बटनस्य "
+"उपयोगं कुर्वन्तु ।"
 
 #: isoimagewriter/isoverifier.cpp:60
 #, kde-format
@@ -124,10 +134,9 @@ msgstr "अस्य ISO कृते SHA256 चेकसमं चिनोत�
 
 #: isoimagewriter/isoverifier.cpp:131
 #, kde-format
-msgid "Could not find %1, please download PGP signature file to same directory."
-msgstr ""
-"%1 न प्राप्तम्, कृपया PGP हस्ताक्षरसञ्चिकां समाननिर्देशिकायां अवतरणं "
-"कुर्वन्तु ।"
+msgid ""
+"Could not find %1, please download PGP signature file to same directory."
+msgstr "%1 न प्राप्तम्, कृपया PGP हस्ताक्षरसञ्चिकां समाननिर्देशिकायां अवतरणं कुर्वन्तु ।"
 
 #: isoimagewriter/isoverifier.cpp:138
 #, kde-format
@@ -157,9 +166,7 @@ msgstr "एतत् एप् सत्यापनसमर्थनं वि
 #: isoimagewriter/isoverifier.cpp:183
 #, kde-format
 msgid "Could not open SHA256SUMS file, please download to same directory"
-msgstr ""
-"SHA256SUMS सञ्चिकां उद्घाटयितुं न शक्तवती, कृपया समाननिर्देशिकायां डाउनलोड् "
-"कुर्वन्तु"
+msgstr "SHA256SUMS सञ्चिकां उद्घाटयितुं न शक्तवती, कृपया समाननिर्देशिकायां डाउनलोड् कुर्वन्तु"
 
 #: isoimagewriter/isoverifier.cpp:197
 #, kde-format
@@ -187,8 +194,8 @@ msgid ""
 "Could not find SHA256SUMS.gpg, please download PGP signature file to same "
 "directory."
 msgstr ""
-"SHA256SUMS.gpg न प्राप्तम्, कृपया PGP हस्ताक्षरसञ्चिकां समाननिर्देशिकायां "
-"डाउनलोड् कुर्वन्तु ।"
+"SHA256SUMS.gpg न प्राप्तम्, कृपया PGP हस्ताक्षरसञ्चिकां समाननिर्देशिकायां डाउनलोड् कुर्वन्तु "
+"।"
 
 #: isoimagewriter/isoverifier.cpp:271
 #, kde-format
@@ -285,6 +292,12 @@ msgstr ""
 msgid "Downloading %1..."
 msgstr "%1 डाउनलोड् करणम्..."
 
+#: isoimagewriter/mainwindow.cpp:184 isoimagewriter/mainwindow.cpp:222
+#, kde-format
+msgctxt "Progress percent value"
+msgid "%p%"
+msgstr "%प% ९."
+
 #: isoimagewriter/mainwindow.cpp:190
 #, kde-format
 msgid "Abort"
@@ -305,8 +318,7 @@ msgid ""
 msgstr ""
 "भवतः USB ड्राइव् निर्मितं भवति।\n"
 "\n"
-"ISO इमेज सञ्चिकायाः आकारस्य स्थानान्तरणवेगस्य च आधारेण एतत् किञ्चित् समयं "
-"गृह्णीयात् ।"
+"ISO इमेज सञ्चिकायाः आकारस्य स्थानान्तरणवेगस्य च आधारेण एतत् किञ्चित् समयं गृह्णीयात् ।"
 
 #: isoimagewriter/mainwindow.cpp:223
 #, kde-format
@@ -381,13 +393,13 @@ msgstr "अज्ञात डिस्क आकार"
 #: isoimagewriter/mainwindow.cpp:530
 #, kde-format
 msgid ""
-"The selected disk is of unknown size, please check the image will fit "
-"before writing.\n"
+"The selected disk is of unknown size, please check the image will fit before "
+"writing.\n"
 "\n"
 "Image size: %1 (%2 b)"
 msgstr ""
-"चयनितस्य डिस्कस्य आकारः अज्ञातः अस्ति, कृपया लेखनात् पूर्वं चित्रं युक्तं "
-"भविष्यति इति पश्यन्तु ।\n"
+"चयनितस्य डिस्कस्य आकारः अज्ञातः अस्ति, कृपया लेखनात् पूर्वं चित्रं युक्तं भविष्यति इति पश्यन्तु "
+"।\n"
 "\n"
 "चित्रस्य आकारः %1 (%2 ख) ."
 
@@ -468,19 +480,3 @@ msgstr "अज्ञात यन्त्र"
 #, kde-format
 msgid "<unmounted>"
 msgstr "<अनमाउण्टे>"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: isoimagewriter/mainwindow.cpp:184 isoimagewriter/mainwindow.cpp:222
-#, kde-format
-msgctxt "Progress percent value"
-msgid "%p%"
-msgstr "%प% ९."

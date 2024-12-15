@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-workspace package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: contents/config/config.qml:13
@@ -21,10 +21,23 @@ msgstr ""
 msgid "General"
 msgstr "सामान्य"
 
+#: contents/ui/ConfigGeneral.qml:34
+#, kde-format
+msgctxt ""
+"Heading for a list of actions (leave, lock, switch user, hibernate, suspend)"
+msgid "Show actions:"
+msgstr "क्रियाः दर्शयतु : १."
+
 #: contents/ui/ConfigGeneral.qml:35
 #, kde-format
 msgid "Log Out"
 msgstr "Log Out इति"
+
+#: contents/ui/ConfigGeneral.qml:42
+#, kde-format
+msgctxt "@option:check"
+msgid "Show logout screen"
+msgstr "लॉगआउट् पटलं दर्शयतु"
 
 #: contents/ui/ConfigGeneral.qml:48
 #, kde-format
@@ -50,6 +63,12 @@ msgstr "उपयोक्तारं स्विच कुर्वन्त�
 #, kde-format
 msgid "Hibernate"
 msgstr "शीतनिद्रा"
+
+#: contents/ui/ConfigGeneral.qml:78 contents/ui/data.js:46
+#, kde-format
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "शयनं करोतु"
 
 #: contents/ui/data.js:6
 #, kde-format
@@ -96,6 +115,12 @@ msgstr "लॉगआउट्..."
 msgid "End the session"
 msgstr "सत्रस्य समाप्तिम्"
 
+#: contents/ui/data.js:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show logout screen"
+msgstr "लॉगआउट् पटलं दर्शयतु"
+
 #: contents/ui/data.js:40
 #, kde-format
 msgid "Log out, turn off, or restart the computer"
@@ -110,27 +135,3 @@ msgstr "निद्रा (रैम प्रति निलम्बनम�
 #, kde-format
 msgid "Hibernate (suspend to disk)"
 msgstr "हाइबरनेट (डिस्कं प्रति निलम्बनम्) २."
-
-#: contents/ui/ConfigGeneral.qml:34
-#, kde-format
-msgctxt "Heading for a list of actions (leave, lock, switch user, hibernate, suspend)"
-msgid "Show actions:"
-msgstr "क्रियाः दर्शयतु : १."
-
-#: contents/ui/ConfigGeneral.qml:42
-#, kde-format
-msgctxt "@option:check"
-msgid "Show logout screen"
-msgstr "लॉगआउट् पटलं दर्शयतु"
-
-#: contents/ui/ConfigGeneral.qml:78 contents/ui/data.js:46
-#, kde-format
-msgctxt "Suspend to RAM"
-msgid "Sleep"
-msgstr "शयनं करोतु"
-
-#: contents/ui/data.js:39
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Show logout screen"
-msgstr "लॉगआउट् पटलं दर्शयतु"

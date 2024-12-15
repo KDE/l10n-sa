@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
@@ -84,12 +84,14 @@ msgstr "प्रोफाइल देखें"
 msgid "%1 mentioned you"
 msgstr "%1 भवतः उल्लेखं कृतवान्"
 
-#: account/notificationhandler.cpp:84 content/ui/Notifications/UserInteractionLabel.qml:89
+#: account/notificationhandler.cpp:84
+#: content/ui/Notifications/UserInteractionLabel.qml:89
 #, kde-format
 msgid "%1 wrote a new post"
 msgstr "%1 नूतनं पदं लिखितवान्"
 
-#: account/notificationhandler.cpp:92 content/ui/Notifications/UserInteractionLabel.qml:79
+#: account/notificationhandler.cpp:92
+#: content/ui/Notifications/UserInteractionLabel.qml:79
 #, kde-format
 msgid "%1 boosted your post"
 msgstr "%1 भवतः पोस्ट् बूस्ट् कृतवान्"
@@ -104,7 +106,8 @@ msgstr "%1 भवतः अनुसरणं कृतवान्"
 msgid "%1 requested to follow you"
 msgstr "%1 भवतः अनुसरणं कर्तुं प्रार्थितवान्"
 
-#: account/notificationhandler.cpp:116 content/ui/Notifications/UserInteractionLabel.qml:83
+#: account/notificationhandler.cpp:116
+#: content/ui/Notifications/UserInteractionLabel.qml:83
 #, kde-format
 msgid "%1 favorited your post"
 msgstr "%1 भवतः पोस्ट् प्रियं कृतवान्"
@@ -141,8 +144,73 @@ msgstr "खाताविवरणं रक्षितम्"
 
 #: account/rulesmodel.cpp:104 account/rulesmodel.cpp:119
 #, kde-format
-msgid "This server provided no rules. Please see their website for more information."
+msgid ""
+"This server provided no rules. Please see their website for more information."
 msgstr "अयं सर्वरः कोऽपि नियमः न प्रदत्तवान् । अधिकविवरणार्थं तेषां जालपुटं पश्यन्तु।"
+
+#: account/socialgraphmodel.cpp:32
+#, kde-format
+msgctxt "@title"
+msgid "Follow Requests"
+msgstr "अनुरोधानाम् अनुसरणं कुर्वन्तु"
+
+#: account/socialgraphmodel.cpp:34
+#, kde-format
+msgctxt "@title"
+msgid "Followers"
+msgstr "अनुयायिनः"
+
+#: account/socialgraphmodel.cpp:36
+#, kde-format
+msgctxt "@title"
+msgid "Following"
+msgstr "अनुसरण"
+
+#: account/socialgraphmodel.cpp:38
+#, kde-format
+msgctxt "@title"
+msgid "Muted Users"
+msgstr "म्यूट् उपयोक्तारः"
+
+#: account/socialgraphmodel.cpp:40
+#, kde-format
+msgctxt "@title"
+msgid "Blocked Users"
+msgstr "अवरुद्धाः उपयोक्तारः"
+
+#: account/socialgraphmodel.cpp:42
+#, kde-format
+msgctxt "@title"
+msgid "Featured Users"
+msgstr "विशेषतायुक्ताः उपयोक्तारः"
+
+#: account/socialgraphmodel.cpp:44
+#, kde-format
+msgctxt "@title"
+msgid "%1 favorite"
+msgid_plural "%1 favorites"
+msgstr[0] "%1 प्रियम्"
+msgstr[1] "%1 प्रियाः"
+
+#: account/socialgraphmodel.cpp:46
+#, kde-format
+msgctxt "@title"
+msgid "%1 boost"
+msgid_plural "%1 boosts"
+msgstr[0] "%1 बूस्ट्"
+msgstr[1] "%1 बूस्ट् करोति"
+
+#: account/socialgraphmodel.cpp:48
+#, kde-format
+msgctxt "@title"
+msgid "Familiar Followers"
+msgstr "परिचित अनुयायी"
+
+#: account/socialgraphmodel.cpp:50
+#, kde-format
+msgctxt "@title"
+msgid "Manage List Users"
+msgstr "सूची उपयोक्तारः प्रबन्धयन्तु"
 
 #: account/socialgraphmodel.cpp:58
 #, kde-format
@@ -197,10 +265,11 @@ msgstr "न उपयोक्तारः"
 #: account/socialgraphmodel.cpp:84
 #, kde-format
 msgid ""
-"Some users need to be manually approved before they can follow you, and will show up here."
+"Some users need to be manually approved before they can follow you, and will "
+"show up here."
 msgstr ""
-"केचन उपयोक्तारः भवन्तं अनुसरणं कर्तुं शक्नुवन्ति तस्मात् पूर्वं हस्तचलितरूपेण अनुमोदितुं आवश्यकाः सन्ति, अत्र च "
-"दर्शयिष्यन्ति ।"
+"केचन उपयोक्तारः भवन्तं अनुसरणं कर्तुं शक्नुवन्ति तस्मात् पूर्वं हस्तचलितरूपेण अनुमोदितुं आवश्यकाः "
+"सन्ति, अत्र च दर्शयिष्यन्ति ।"
 
 #: account/socialgraphmodel.cpp:90
 #, kde-format
@@ -224,13 +293,22 @@ msgstr "अद्यापि कश्चन अपि एतत् पदं �
 
 #: account/socialgraphmodel.cpp:98
 #, kde-format
-msgid "No one has boosted this post yet. You should boost it to expand its reach!"
-msgstr "अद्यापि कश्चन अपि एतत् पदं न बूस्ट् कृतवान्। तस्य व्याप्तिः विस्तारयितुं भवता तस्य वर्धनं कर्तव्यम्!"
+msgid ""
+"No one has boosted this post yet. You should boost it to expand its reach!"
+msgstr ""
+"अद्यापि कश्चन अपि एतत् पदं न बूस्ट् कृतवान्। तस्य व्याप्तिः विस्तारयितुं भवता तस्य वर्धनं "
+"कर्तव्यम्!"
 
 #: account/socialgraphmodel.cpp:102
 #, kde-format
 msgid "There is no one in this list yet."
 msgstr "अस्मिन् सूचौ अद्यापि कोऽपि नास्ति।"
+
+#: account/suggestionsmodel.cpp:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Suggested Users"
+msgstr "सुझाताः उपयोक्तारः"
 
 #: admin/accounttoolmodel.cpp:298
 #, kde-format
@@ -267,6 +345,48 @@ msgstr "खातेः निलम्बनं कर्तुं न शक�
 msgid "Could not mark the account as not sensitive"
 msgstr "खातेः असंवेदनशीलः इति चिह्नितुं न शक्तवान्"
 
+#: admin/adminaccountinfo.cpp:24
+#, kde-format
+msgctxt "login status"
+msgid "Suspended"
+msgstr "निलंबित"
+
+#: admin/adminaccountinfo.cpp:26
+#, kde-format
+msgctxt "login status"
+msgid "Limited"
+msgstr "सीमित"
+
+#: admin/adminaccountinfo.cpp:28
+#, kde-format
+msgctxt "login status"
+msgid "Sensitized"
+msgstr "संवेदनशीलः"
+
+#: admin/adminaccountinfo.cpp:30
+#, kde-format
+msgctxt "login status"
+msgid "Frozen"
+msgstr "संशीत"
+
+#: admin/adminaccountinfo.cpp:32
+#, kde-format
+msgctxt "login status"
+msgid "Email Not confirmed"
+msgstr "ईमेल पुष्टिः न कृता"
+
+#: admin/adminaccountinfo.cpp:34
+#, kde-format
+msgctxt "login status"
+msgid "Not Approved"
+msgstr "न अनुमोदितम्"
+
+#: admin/adminaccountinfo.cpp:36
+#, kde-format
+msgctxt "login status"
+msgid "No Limits Imposed"
+msgstr "न सीमाः आरोपिताः"
+
 #: admin/federationtoolmodel.cpp:164 admin/iprulestoolmodel.cpp:127
 #, kde-format
 msgid "Error occurred when making a PUT request to update the domain block."
@@ -291,6 +411,15 @@ msgstr "प्रतिवेदनं नियुक्तुं न शक्
 #, kde-format
 msgid "Could not unassign report"
 msgstr "प्रतिवेदनं अनसाइन कर्तुं न शक्तवान्"
+
+#: content/ui/AccountHeader.qml:102
+#, kde-format
+msgctxt ""
+"'Mutual' is the common English word used in social media platforms describe "
+"people who follow you back. This the same meaning as 'mutual friends', for "
+"example."
+msgid "Mutual"
+msgstr "पारस्परिक"
 
 #: content/ui/AccountHeader.qml:102
 #, kde-format
@@ -377,6 +506,12 @@ msgstr "अनब्लॉक"
 msgid "Block"
 msgstr "मृदुवस्तु"
 
+#: content/ui/AccountHeader.qml:365 content/ui/PostDelegate/PostMenu.qml:177
+#, kde-format
+msgctxt "@action:inmenu Report this post"
+msgid "Report…"
+msgstr "वृत्तान्तः…"
+
 #: content/ui/AccountHeader.qml:371
 #, kde-format
 msgid "Edit Profile"
@@ -392,6 +527,13 @@ msgstr "खाता सम्पादक"
 msgid "Featured Users"
 msgstr "विशेषतायुक्ताः उपयोक्तारः"
 
+#: content/ui/AccountHeader.qml:390 content/ui/PostDelegate/LinkMenu.qml:22
+#: content/ui/PostDelegate/PostMenu.qml:43
+#, kde-format
+msgctxt "@action:inmenu 'Browser' being a web browser"
+msgid "Open in Browser"
+msgstr "ब्राउजर् मध्ये उद्घाटयन्तु"
+
 #: content/ui/AccountHeader.qml:395
 #, kde-format
 msgid "Copy Link"
@@ -402,6 +544,18 @@ msgstr "प्रतिलिपि लिङ्क"
 msgid "Profile link copied."
 msgstr "प्रोफाइल लिङ्क् प्रतिलिपिकृतम्।"
 
+#: content/ui/AccountHeader.qml:468
+#, kde-format
+msgctxt "@info:label Joined at"
+msgid "Joined"
+msgstr "सम्मिलितः"
+
+#: content/ui/AccountHeader.qml:563
+#, kde-format
+msgctxt "@label:textfield"
+msgid "Private Note:"
+msgstr "निजी टिप्पणी : १."
+
 #: content/ui/AccountHeader.qml:571
 #, kde-format
 msgid "Saved"
@@ -409,7 +563,8 @@ msgstr "रक्षितम्"
 
 #: content/ui/AccountHeader.qml:586
 #, kde-format
-msgid "Write down something about this user, this isn't visible to anyone but you."
+msgid ""
+"Write down something about this user, this isn't visible to anyone but you."
 msgstr "अस्य उपयोक्तुः विषये किमपि लिखन्तु, एतत् भवतः अतिरिक्तं कस्मैचित् न दृश्यते।"
 
 #: content/ui/AccountHeader.qml:648
@@ -417,10 +572,94 @@ msgstr "अस्य उपयोक्तुः विषये किमपि
 msgid "Also followed by:"
 msgstr "तदनन्तरं च : १."
 
+#: content/ui/AccountHeader.qml:678
+#, kde-format
+msgctxt "@action:button See all familiar followers"
+msgid "View %1 More"
+msgstr "%1 अधिकं पश्यन्तु"
+
+#: content/ui/AccountHeader.qml:678
+#, kde-format
+msgctxt "@action:button See all familiar followers"
+msgid "View All"
+msgstr "सर्वाणि पश्यन्तु"
+
+#: content/ui/AccountHeader.qml:718
+#, kde-format
+msgctxt "@label User's number of statuses"
+msgid "<b>%1</b> post"
+msgid_plural "<b>%1</b> posts"
+msgstr[0] "<b>%1</b> पदम्"
+msgstr[1] "<b>%1</b> पोस्ट्"
+
+#: content/ui/AccountHeader.qml:731
+#, kde-format
+msgctxt "@label User's number of followed accounts"
+msgid "<b>%1</b> follows"
+msgid_plural "<b>%1</b> following"
+msgstr[0] "<b>%1</b> अनुवर्तते"
+msgstr[1] "<b>%1</b> अनुसरणं करोति"
+
+#: content/ui/AccountHeader.qml:744
+#, kde-format
+msgctxt "@label User's number of followers"
+msgid "<b>%1</b> follower"
+msgid_plural "<b>%1</b> followers"
+msgstr[0] "<b>%1</b> अनुयायी"
+msgstr[1] "<b>%1</b> अनुयायिनः"
+
+#: content/ui/AccountHeader.qml:769
+#, kde-format
+msgctxt "@item:inmenu Profile Post Filter"
+msgid "Posts"
+msgstr "पद"
+
+#: content/ui/AccountHeader.qml:773
+#, kde-format
+msgctxt "@item:inmenu Profile Post Filter"
+msgid "Posts && Replies"
+msgstr "पोस्ट && उत्तर"
+
+#: content/ui/AccountHeader.qml:777
+#, kde-format
+msgctxt "@item:inmenu Profile Post Filter"
+msgid "Media"
+msgstr "मीडिया"
+
+#: content/ui/AccountHeader.qml:808
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide boosts"
+msgstr "बूस्ट्स् गोपयन्तु"
+
+#: content/ui/AccountHeader.qml:828
+#, kde-format
+msgctxt "@action:button Show all of a profile's posts"
+msgid "All"
+msgstr "सर्वे"
+
+#: content/ui/AccountInfo.qml:36 content/ui/AccountInfo.qml:45
+#, kde-format
+msgctxt "@title:window"
+msgid "Profile"
+msgstr "रूपरेखा"
+
+#: content/ui/AccountInfo.qml:125
+#, kde-format
+msgctxt "@label"
+msgid "No Posts"
+msgstr "No Posts"
+
 #: content/ui/AccountInfo.qml:126
 #, kde-format
 msgid "This user hasn't posted anything yet."
 msgstr "अयं उपयोक्ता अद्यापि किमपि न स्थापितवान्।"
+
+#: content/ui/AccountInfo.qml:222
+#, kde-format
+msgctxt "@label"
+msgid "No Media"
+msgstr "न औसतम्"
 
 #: content/ui/AccountInfo.qml:223
 #, kde-format
@@ -438,13 +677,32 @@ msgstr "संविभागः"
 msgid "Share the selected media"
 msgstr "चयनितं माध्यमं साझां कुर्वन्तु"
 
+#: content/ui/AnnouncementsPage.qml:18
+#, kde-format
+msgctxt "@title Server-wide announcements set by admins."
+msgid "Announcements"
+msgstr "उद्घोषणानि"
+
+#: content/ui/AnnouncementsPage.qml:41
+#, kde-format
+msgctxt "@label An announcement was published on a date"
+msgid "Announcement on %1"
+msgstr "%1 इत्यत्र घोषणा"
+
+#: content/ui/AnnouncementsPage.qml:69
+#, kde-format
+msgctxt "@label"
+msgid "No Announcements"
+msgstr "न घोषणाः"
+
 #: content/ui/AnnouncementsPage.qml:70
 #, kde-format
 msgid "Your server has not made any announcements yet."
 msgstr "भवतः सर्वरेण अद्यापि किमपि घोषणां न कृतम्।"
 
 #: content/ui/Components/ClickableIdentityInfo.qml:41
-#: content/ui/Notifications/UserInteractionLabel.qml:68 content/ui/PostDelegate/QuotePost.qml:60
+#: content/ui/Notifications/UserInteractionLabel.qml:68
+#: content/ui/PostDelegate/QuotePost.qml:60
 #: content/ui/PostDelegate/UserInteractionLabel.qml:64
 #, kde-format
 msgid "View profile"
@@ -455,15 +713,51 @@ msgstr "प्रोफाइलं पश्यन्तु"
 msgid "No emojis"
 msgstr "इमोजी न"
 
+#: content/ui/Components/TimelineView.qml:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Return to Top"
+msgstr "Top - मध्ये पुनः आगच्छन्तु"
+
+#: content/ui/Components/TimelineView.qml:137
+#, kde-format
+msgctxt "@info:status"
+msgid "Some replies are not available"
+msgstr "केचन उत्तराणि न प्राप्यन्ते"
+
 #: content/ui/Components/TimelineView.qml:138
 #, kde-format
 msgid "To view all replies, open the post on the original server."
 msgstr "सर्वाणि उत्तराणि द्रष्टुं मूलसर्वरस्य उपरि पोस्ट् उद्घाटयन्तु ।"
 
+#: content/ui/Components/TimelineView.qml:141
+#, kde-format
+msgctxt "@action:button 'Browser' being a web browser"
+msgid "Open in Browser"
+msgstr "ब्राउजर् मध्ये उद्घाटयन्तु"
+
+#: content/ui/Components/TimelineView.qml:150
+#, kde-format
+msgctxt "@info:status"
+msgid "End of Timeline"
+msgstr "कालरेखायाः समाप्तिः"
+
 #: content/ui/ConversationPage.qml:13 content/ui/Main.qml:467
 #, kde-format
 msgid "Conversations"
 msgstr "संभाषणानि"
+
+#: content/ui/ConversationPage.qml:18
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "New Conversation…"
+msgstr "नवीनं वार्तालापः..."
+
+#: content/ui/ConversationPage.qml:29
+#, kde-format
+msgctxt "@title"
+msgid "Search Users"
+msgstr "उपयोक्तारः अन्वेष्टुम्"
 
 #: content/ui/ConversationPage.qml:102
 #, kde-format
@@ -478,25 +772,128 @@ msgstr "न सम्भाषणानि"
 #: content/ui/ConversationPage.qml:140
 #, kde-format
 msgid ""
-"Direct messages to other users will show up here. Do not share any sensitive information over "
-"a conversation."
+"Direct messages to other users will show up here. Do not share any sensitive "
+"information over a conversation."
 msgstr ""
-"अन्येभ्यः उपयोक्तृभ्यः प्रत्यक्षसन्देशाः अत्र दर्शयिष्यन्ति । वार्तालापस्य उपरि किमपि संवेदनशीलं सूचनां न साझां कुर्वन्तु।"
+"अन्येभ्यः उपयोक्तृभ्यः प्रत्यक्षसन्देशाः अत्र दर्शयिष्यन्ति । वार्तालापस्य उपरि किमपि संवेदनशीलं "
+"सूचनां न साझां कुर्वन्तु।"
+
+#: content/ui/Debug/DebugPage.qml:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Increase follow request count"
+msgstr "अनुसरणं अनुरोधगणनां वर्धयन्तु"
+
+#: content/ui/Debug/DebugPage.qml:28
+#, kde-format
+msgctxt "@action:button"
+msgid "Decrease follow request count"
+msgstr "अनुसरणं अनुरोधगणना न्यूनीकरोतु"
+
+#: content/ui/EditListPage.qml:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Create List"
+msgstr "सूची रचयन्तु"
+
+#: content/ui/EditListPage.qml:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit List"
+msgstr "सूची सम्पादयतु"
+
+#: content/ui/EditListPage.qml:61
+#, kde-format
+msgctxt "@label:textbox List title"
+msgid "Title"
+msgstr "शीर्षक"
+
+#: content/ui/EditListPage.qml:69
+#, kde-format
+msgctxt "@label"
+msgid "Show replies for"
+msgstr "कृते उत्तराणि दर्शयतु"
+
+#: content/ui/EditListPage.qml:81
+#, kde-format
+msgctxt "@label If the list is exclusive"
+msgid "Exclusive"
+msgstr "अनन्य"
 
 #: content/ui/EditListPage.qml:82
 #, kde-format
 msgid "Posts in an exclusive list are excluded from the Home timeline."
 msgstr "अनन्यसूचौ स्थापितानि पदानि Home timeline तः बहिष्कृतानि सन्ति।"
 
+#: content/ui/EditListPage.qml:90
+#, kde-format
+msgctxt "@action:button Delete the list"
+msgid "Manage Users"
+msgstr "उपयोक्तृन् प्रबन्धयन्तु"
+
+#: content/ui/EditListPage.qml:107
+#, kde-format
+msgctxt "@action:intoolbar Add users to list"
+msgid "Add Users"
+msgstr "उपयोक्तारः योजयन्तु"
+
+#: content/ui/EditListPage.qml:118
+#, kde-format
+msgctxt "@title"
+msgid "Add Users to List…"
+msgstr "सूचीयां उपयोक्तारः योजयन्तु..."
+
+#: content/ui/EditListPage.qml:157
+#, kde-format
+msgctxt "@action:button Add user to this list"
+msgid "Add"
+msgstr "संयोजयति"
+
 #: content/ui/EditListPage.qml:204
 #, kde-format
 msgid "Search among users you follow…"
 msgstr "भवन्तः अनुसरणं कुर्वन्ति उपयोक्तृषु अन्वेषणं कुर्वन्तु..."
 
+#: content/ui/EditListPage.qml:238
+#, kde-format
+msgctxt "@action:button Create the list"
+msgid "Create"
+msgstr "निर्मियताम्"
+
+#: content/ui/EditListPage.qml:240
+#, kde-format
+msgctxt "@action:button Edit the list"
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: content/ui/EditListPage.qml:253
+#, kde-format
+msgctxt "@action:button Delete the list"
+msgid "Delete"
+msgstr "लुप्"
+
+#: content/ui/EditListPage.qml:260
+#, kde-format
+msgctxt "@title"
+msgid "Deleting List"
+msgstr "सूचीं विलोपयति"
+
+#: content/ui/EditListPage.qml:261
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to delete this list?"
+msgstr "किं भवान् निश्चितः अस्ति यत् भवान् एतां सूचीं विलोपयितुम् इच्छति?"
+
 #: content/ui/ExplorePage.qml:18 content/ui/Main.qml:510
 #, kde-format
 msgid "Explore"
 msgstr "अन्वेषण"
+
+#: content/ui/ExplorePage.qml:35 content/ui/TimelinePage.qml:85
+#, kde-format
+msgctxt "@action:button"
+msgid "Post"
+msgstr "पद"
 
 #: content/ui/ExplorePage.qml:41 search/searchmodel.cpp:155
 #, kde-format
@@ -518,6 +915,12 @@ msgstr "समाचारं"
 msgid "Users"
 msgstr "उपयोक्तारः"
 
+#: content/ui/ExplorePage.qml:135
+#, kde-format
+msgctxt "@label"
+msgid "No Trending Tags"
+msgstr "No Trending Tags नास्ति"
+
 #: content/ui/ExplorePage.qml:167
 #, kde-format
 msgid "%1 person is talking"
@@ -530,6 +933,30 @@ msgstr[1] "%1 जनाः वदन्ति"
 msgid "%1 signed up"
 msgstr "%1 पञ्जीकरणं कृतवान्"
 
+#: content/ui/FollowingPage.qml:20
+#, kde-format
+msgctxt "@title 'Following' as in the users you're following on Mastodon."
+msgid "Following"
+msgstr "अनुसरण"
+
+#: content/ui/FollowingPage.qml:43 content/ui/TimelinePage.qml:91
+#, kde-format
+msgctxt "@action:button"
+msgid "Filters"
+msgstr "फ़िल्टर"
+
+#: content/ui/FollowingPage.qml:48
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Boosts"
+msgstr "Boosts दर्शयतु"
+
+#: content/ui/FollowingPage.qml:56
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Replies"
+msgstr "उत्तराणि दर्शयतु"
+
 #: content/ui/FollowingPage.qml:151
 #, kde-format
 msgid "No User Selected"
@@ -538,13 +965,20 @@ msgstr "कोऽपि उपयोक्ता चयनितः नास्
 #: content/ui/FollowingPage.qml:152
 #, kde-format
 msgid ""
-"With the Following view, easily check on each user you're following and only their posts - "
-"sorted by recent activity."
+"With the Following view, easily check on each user you're following and only "
+"their posts - sorted by recent activity."
 msgstr ""
-"Following दृश्येन सह, भवन्तः अनुसृत्य प्रत्येकं उपयोक्तारं सहजतया पश्यन्तु तथा च केवलं तेषां पोस्ट् - "
-"अद्यतनक्रियाकलापेन क्रमबद्धाः।"
+"Following दृश्येन सह, भवन्तः अनुसृत्य प्रत्येकं उपयोक्तारं सहजतया पश्यन्तु तथा च केवलं तेषां "
+"पोस्ट् - अद्यतनक्रियाकलापेन क्रमबद्धाः।"
 
-#: content/ui/InitialSetup/SetupNotifications.qml:22 content/ui/InitialSetup/SetupPassword.qml:20
+#: content/ui/InitialSetup/SetupNotifications.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Notifications"
+msgstr "अधिसूचना"
+
+#: content/ui/InitialSetup/SetupNotifications.qml:22
+#: content/ui/InitialSetup/SetupPassword.qml:20
 #, kde-format
 msgid "Setup Required"
 msgstr "सेटअप आवश्यकम्"
@@ -552,11 +986,13 @@ msgstr "सेटअप आवश्यकम्"
 #: content/ui/InitialSetup/SetupNotifications.qml:28
 #, kde-format
 msgid ""
-"Tokodon can show notifications for activity such as users boosting or replying to your posts.\n"
+"Tokodon can show notifications for activity such as users boosting or "
+"replying to your posts.\n"
 "\n"
 "The types of notifications shown can be fine tuned when logged in."
 msgstr ""
-"Tokodon भवतः पोस्ट्-उत्पादनं वा उत्तरं वा उपयोक्तारः इत्यादीनां क्रियाकलापस्य सूचनाः दर्शयितुं शक्नोति ।\n"
+"Tokodon भवतः पोस्ट्-उत्पादनं वा उत्तरं वा उपयोक्तारः इत्यादीनां क्रियाकलापस्य सूचनाः "
+"दर्शयितुं शक्नोति ।\n"
 "\n"
 "दर्शितानां सूचनानां प्रकाराः प्रवेशसमये सूक्ष्मतया समायोजितुं शक्यन्ते ।"
 
@@ -565,16 +1001,25 @@ msgstr ""
 msgid "Allow Notifications"
 msgstr "सूचनानां अनुमतिं ददातु"
 
-#: content/ui/InitialSetup/SetupNotifications.qml:49 content/ui/InitialSetup/SetupWelcome.qml:42
-#: content/ui/LoginFlow/CodeAuthorization.qml:32 content/ui/LoginFlow/LoginPage.qml:125
+#: content/ui/InitialSetup/SetupNotifications.qml:49
+#: content/ui/InitialSetup/SetupWelcome.qml:42
+#: content/ui/LoginFlow/CodeAuthorization.qml:32
+#: content/ui/LoginFlow/LoginPage.qml:125
 #, kde-format
 msgid "Continue"
 msgstr "अनुवर्तते"
 
+#: content/ui/InitialSetup/SetupPassword.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Password Service"
+msgstr "गुप्तशब्द सेवा"
+
 #: content/ui/InitialSetup/SetupPassword.qml:25
 #, kde-format
 msgid ""
-"Tokodon requires a password service to be running to save personally sensitive information.\n"
+"Tokodon requires a password service to be running to save personally "
+"sensitive information.\n"
 "\n"
 "Tokodon can use KWallet, GNOME Keyring or any libsecret-compatible service.\n"
 "\n"
@@ -582,14 +1027,23 @@ msgid ""
 msgstr ""
 "व्यक्तिगतसंवेदनशीलसूचनाः रक्षितुं Tokodon इत्यस्य गुप्तशब्दसेवा प्रचलति इति आवश्यकम् ।\n"
 "\n"
-"Tokodon KWallet, GNOME Keyring अथवा कस्यापि libsecret-सङ्गतसेवायाः उपयोगं कर्तुं शक्नोति ।\n"
+"Tokodon KWallet, GNOME Keyring अथवा कस्यापि libsecret-सङ्गतसेवायाः उपयोगं कर्तुं "
+"शक्नोति ।\n"
 "\n"
-"भवता सेवा संस्थापितस्य अनन्तरं, सा चालिता इति सुनिश्चितं कुर्वन्तु तथा च Tokodon पुनः आरभत ।"
+"भवता सेवा संस्थापितस्य अनन्तरं, सा चालिता इति सुनिश्चितं कुर्वन्तु तथा च Tokodon पुनः आरभत "
+"।"
 
 #: content/ui/InitialSetup/SetupPassword.qml:32
 #, kde-format
 msgid "Quit Tokodon"
 msgstr "टोकोडोन् त्यजतु"
+
+#: content/ui/InitialSetup/SetupWelcome.qml:17
+#: content/ui/LoginFlow/WelcomePage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Welcome"
+msgstr "स्वागतम्‌"
 
 #: content/ui/InitialSetup/SetupWelcome.qml:30
 #, kde-format
@@ -599,7 +1053,27 @@ msgstr "टोकोडोन् मध्ये स्वागतम्"
 #: content/ui/InitialSetup/SetupWelcome.qml:35
 #, kde-format
 msgid "Some initial setup is required before you can use Tokodon."
-msgstr "भवन्तः Tokodon इत्यस्य उपयोगं कर्तुं शक्नुवन्ति तस्मात् पूर्वं किञ्चित् प्रारम्भिकं सेटअप आवश्यकम् अस्ति ।"
+msgstr ""
+"भवन्तः Tokodon इत्यस्य उपयोगं कर्तुं शक्नुवन्ति तस्मात् पूर्वं किञ्चित् प्रारम्भिकं सेटअप आवश्यकम् "
+"अस्ति ।"
+
+#: content/ui/LanguageSelector.qml:25
+#, kde-format
+msgctxt "@title"
+msgid "Select Language"
+msgstr "भाषां चिनोतु"
+
+#: content/ui/LanguageSelector.qml:50
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "पिधानं करोतु"
+
+#: content/ui/ListsPage.qml:18
+#, kde-format
+msgctxt "@title"
+msgid "Lists"
+msgstr "सूचीः"
 
 #: content/ui/ListsPage.qml:31
 #, kde-format
@@ -621,10 +1095,20 @@ msgstr "सूचीः भवन्तं कस्य अनुसरणं �
 msgid "Edit List"
 msgstr "सूची सम्पादयतु"
 
+#: content/ui/LoginFlow/BaseAuthorization.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Authorization"
+msgstr "प्राधिकरणम्"
+
 #: content/ui/LoginFlow/BaseAuthorization.qml:81
 #, kde-format
-msgid "To continue, please open the following link in your web browser to authorize Tokodon: %1"
-msgstr "निरन्तरं कर्तुं, कृपया Tokodon इत्यस्य अधिकृतीकरणार्थं स्वस्य जालपुटे निम्नलिखितलिङ्कं उद्घाटयन्तु: %1"
+msgid ""
+"To continue, please open the following link in your web browser to authorize "
+"Tokodon: %1"
+msgstr ""
+"निरन्तरं कर्तुं, कृपया Tokodon इत्यस्य अधिकृतीकरणार्थं स्वस्य जालपुटे निम्नलिखितलिङ्कं "
+"उद्घाटयन्तु: %1"
 
 #: content/ui/LoginFlow/BaseAuthorization.qml:95
 #, kde-format
@@ -656,6 +1140,12 @@ msgstr "यदि उपरिष्टाद् लिङ्क् कार्
 msgid "Enter authorization token:"
 msgstr "प्राधिकरण टोकन प्रविष्टं कुर्वन्तु:"
 
+#: content/ui/LoginFlow/LoginIssuePage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Login Issue"
+msgstr "प्रवेश मुद्दा"
+
 #: content/ui/LoginFlow/LoginIssuePage.qml:27
 #, kde-format
 msgid "There was an issue logging into the server:<br><b>%1</b>"
@@ -664,13 +1154,13 @@ msgstr "सर्वरे प्रवेशे एकः समस्या �
 #: content/ui/LoginFlow/LoginIssuePage.qml:37
 #, kde-format
 msgid ""
-"Please check if the password service is running. For other login issues, you can try logging "
-"into the server's website.\n"
+"Please check if the password service is running. For other login issues, you "
+"can try logging into the server's website.\n"
 "\n"
 "You can attempt to log in again with the button below, or restart Tokodon."
 msgstr ""
-"कृपया गुप्तशब्दसेवा प्रचलति वा इति पश्यन्तु । अन्येषां प्रवेशसमस्यानां कृते भवान् सर्वरस्य जालपुटे प्रवेशं कर्तुं प्रयतितुं "
-"शक्नोति ।\n"
+"कृपया गुप्तशब्दसेवा प्रचलति वा इति पश्यन्तु । अन्येषां प्रवेशसमस्यानां कृते भवान् सर्वरस्य जालपुटे "
+"प्रवेशं कर्तुं प्रयतितुं शक्नोति ।\n"
 "\n"
 "भवान् अधोलिखितेन बटनेन पुनः प्रवेशं कर्तुं प्रयतितुं शक्नोति, अथवा Tokodon पुनः आरभुं शक्नोति ।"
 
@@ -684,17 +1174,55 @@ msgstr "वेबसाइट् पश्यन्तु"
 msgid "Re-Attempt Log In"
 msgstr "पुनः प्रवेशस्य प्रयासः"
 
-#: content/ui/LoginFlow/LoginIssuePage.qml:68 content/ui/Settings/AccountPage.qml:34
+#: content/ui/LoginFlow/LoginIssuePage.qml:68
+#: content/ui/Settings/AccountPage.qml:34
 #, kde-format
 msgid "Logout"
 msgstr "लॉगआउट्"
 
-#: content/ui/LoginFlow/LoginPage.qml:38 content/ui/LoginFlow/RegistrationPage.qml:85
-#: content/ui/LoginFlow/RulesPage.qml:40 content/ui/LoginFlow/ServersPage.qml:93
+#: content/ui/LoginFlow/LoginIssuePage.qml:75
+#: content/ui/Settings/AccountPage.qml:54
+#, kde-format
+msgctxt "@title"
+msgid "Logout"
+msgstr "लॉगआउट्"
+
+#: content/ui/LoginFlow/LoginIssuePage.qml:76
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to log out?"
+msgstr "किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः लॉग आउट् कर्तुम् इच्छन्ति?"
+
+#: content/ui/LoginFlow/LoginPage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Login"
+msgstr "प्रवेशः"
+
+#: content/ui/LoginFlow/LoginPage.qml:24
+#: content/ui/LoginFlow/RegistrationPage.qml:25
+#: content/ui/LoginFlow/RegistrationPage.qml:36
+#: content/ui/LoginFlow/RulesPage.qml:25
+#: content/ui/LoginFlow/ServersPage.qml:29
+#, kde-format
+msgctxt "@info:status Network status"
+msgid "Failed to contact server: %1. Please check your proxy settings."
+msgstr "सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य प्रॉक्सी सेटिंग्स् पश्यन्तु।"
+
+#: content/ui/LoginFlow/LoginPage.qml:38
+#: content/ui/LoginFlow/RegistrationPage.qml:85
+#: content/ui/LoginFlow/RulesPage.qml:40
+#: content/ui/LoginFlow/ServersPage.qml:93
 #: content/ui/Settings/NetworkProxyPage.qml:70
 #, kde-format
 msgid "Proxy Settings"
 msgstr "प्रॉक्सी सेटिंग्स्"
+
+#: content/ui/LoginFlow/LoginPage.qml:100
+#, kde-format
+msgctxt "@title:group"
+msgid "Login"
+msgstr "प्रवेशः"
 
 #: content/ui/LoginFlow/LoginPage.qml:106
 #, kde-format
@@ -714,15 +1242,28 @@ msgstr "संचालनसाधनं सक्षमं कुर्वन�
 #: content/ui/LoginFlow/LoginPage.qml:117
 #, kde-format
 msgid ""
-"Allow Tokodon to access moderation tools. Try disabling this if you have trouble logging in."
+"Allow Tokodon to access moderation tools. Try disabling this if you have "
+"trouble logging in."
 msgstr ""
-"Tokodon इत्यस्य संचालनसाधनं प्राप्तुं अनुमतिं ददातु । यदि भवतः प्रवेशे समस्या अस्ति तर्हि एतत् निष्क्रियं कर्तुं "
-"प्रयतस्व ।"
+"Tokodon इत्यस्य संचालनसाधनं प्राप्तुं अनुमतिं ददातु । यदि भवतः प्रवेशे समस्या अस्ति तर्हि एतत् "
+"निष्क्रियं कर्तुं प्रयतस्व ।"
 
 #: content/ui/LoginFlow/LoginPage.qml:131
 #, kde-format
 msgid "Server URL must not be empty!"
 msgstr "सर्वरस्य URL रिक्तं न भवितुमर्हति!"
+
+#: content/ui/LoginFlow/RegistrationPage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Registration"
+msgstr "पञ्जीकरण"
+
+#: content/ui/LoginFlow/RegistrationPage.qml:94
+#, kde-format
+msgctxt "@title:group"
+msgid "Register"
+msgstr "पंजीकर्"
 
 #: content/ui/LoginFlow/RegistrationPage.qml:100
 #, kde-format
@@ -734,7 +1275,8 @@ msgstr "उपयोक्तृनाम"
 msgid "Email Address"
 msgstr "ईमेल पता"
 
-#: content/ui/LoginFlow/RegistrationPage.qml:118 content/ui/Settings/NetworkProxyPage.qml:123
+#: content/ui/LoginFlow/RegistrationPage.qml:118
+#: content/ui/Settings/NetworkProxyPage.qml:123
 #, kde-format
 msgid "Password"
 msgstr "समाभाष्"
@@ -748,6 +1290,36 @@ msgstr "कारणम्‌"
 #, kde-format
 msgid "Register"
 msgstr "पंजीकर्"
+
+#: content/ui/LoginFlow/RulesPage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Rules"
+msgstr "नियमाः"
+
+#: content/ui/LoginFlow/RulesPage.qml:47
+#, kde-format
+msgctxt "@title:group"
+msgid "Rules"
+msgstr "नियमाः"
+
+#: content/ui/LoginFlow/RulesPage.qml:81
+#, kde-format
+msgctxt "@action:button Agree to server rules"
+msgid "Agree"
+msgstr "अङ्गीकरोतु"
+
+#: content/ui/LoginFlow/RulesPage.qml:99
+#, kde-format
+msgctxt "@action:button Disagree to server rules"
+msgid "Disagree"
+msgstr "असहमतः"
+
+#: content/ui/LoginFlow/ServersPage.qml:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Pick a Server"
+msgstr "एकं Server चिनुत"
 
 #: content/ui/LoginFlow/ServersPage.qml:37
 #, kde-format
@@ -783,6 +1355,94 @@ msgstr "सार्वजनिकसर्वरः नास्ति"
 #, kde-format
 msgid "Enter a server URL manually in the search field."
 msgstr "अन्वेषणक्षेत्रे सर्वर URL मैन्युअल् रूपेण प्रविशन्तु ।"
+
+#: content/ui/LoginFlow/WebViewAuthorization.qml:22
+#, kde-format
+msgctxt "@action:button Open in external web browser"
+msgid "Open Externally"
+msgstr "बाह्यरूपेण उद्घाटयतु"
+
+#: content/ui/LoginFlow/WelcomePage.qml:49
+#, kde-format
+msgctxt "@info"
+msgid "Tokodon"
+msgstr "तोकोदोन्"
+
+#: content/ui/LoginFlow/WelcomePage.qml:58
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Browse the Fediverse and connect with people on Mastodon (and other "
+"compatible software)."
+msgstr ""
+"Fediverse ब्राउज् कृत्वा Mastodon (अन्ये च संगतसॉफ्टवेयर्) इत्यत्र जनानां सह सम्बद्धतां "
+"कुर्वन्तु ।"
+
+#: content/ui/LoginFlow/WelcomePage.qml:74
+#, kde-format
+msgctxt "@action:button Pick a Mastodon server"
+msgid "Pick a Server"
+msgstr "एकं Server चिनुत"
+
+#: content/ui/LoginFlow/WelcomePage.qml:84
+#, kde-format
+msgctxt "@action:button Use an existing Mastodon account"
+msgid "Use an Existing Account"
+msgstr "विद्यमानं खातेः उपयोगं कुर्वन्तु"
+
+#: content/ui/LoginFlow/WelcomePage.qml:99
+#, kde-format
+msgctxt "@action:button Application settings"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
+#: content/ui/LoginFlow/WelcomePage.qml:113
+#, kde-format
+msgctxt "@info Compatible with Mastodon"
+msgid "Compatible with"
+msgstr "सह सङ्गतम्"
+
+#: content/ui/LoginFlow/WelcomePage.qml:123
+#, kde-format
+msgctxt "@action:button"
+msgid "Compatible with Mastodon"
+msgstr "मस्टोडन् इत्यनेन सह सङ्गतम्"
+
+#: content/ui/Main.qml:129
+#, kde-format
+msgctxt "@title"
+msgid "Open As…"
+msgstr "Open As..."
+
+#: content/ui/Main.qml:131
+#, kde-format
+msgctxt "@title"
+msgid "Reply As…"
+msgstr "उत्तरं यथा..."
+
+#: content/ui/Main.qml:133
+#, kde-format
+msgctxt "@title"
+msgid "Favorite As…"
+msgstr "प्रियं यथा..."
+
+#: content/ui/Main.qml:135
+#, kde-format
+msgctxt "@title"
+msgid "Boost As…"
+msgstr "Boost As..."
+
+#: content/ui/Main.qml:137
+#, kde-format
+msgctxt "@title"
+msgid "Bookmark As…"
+msgstr "बुकमार्क यथा..."
+
+#: content/ui/Main.qml:139
+#, kde-format
+msgctxt "@title"
+msgid "Unknown Action"
+msgstr "अज्ञात कर्म"
 
 #: content/ui/Main.qml:239
 #, kde-format
@@ -847,8 +1507,12 @@ msgstr "न प्रियाः"
 
 #: content/ui/Main.qml:486
 #, kde-format
-msgid "Posts that you favorite will show up here. If you appreciate someone's post, favorite it!"
-msgstr "भवतः प्रियाः पोस्ट् अत्र दर्शयिष्यन्ति। यदि भवान् कस्यचित् पोस्ट् प्रशंसति तर्हि तत् प्रियं कुरुत!"
+msgid ""
+"Posts that you favorite will show up here. If you appreciate someone's post, "
+"favorite it!"
+msgstr ""
+"भवतः प्रियाः पोस्ट् अत्र दर्शयिष्यन्ति। यदि भवान् कस्यचित् पोस्ट् प्रशंसति तर्हि तत् प्रियं "
+"कुरुत!"
 
 #: content/ui/Main.qml:494
 #, kde-format
@@ -863,11 +1527,11 @@ msgstr "न बुकमार्क्स्"
 #: content/ui/Main.qml:502
 #, kde-format
 msgid ""
-"Bookmark posts and they will show up here. Bookmarks are always kept private, even to the "
-"post's author."
+"Bookmark posts and they will show up here. Bookmarks are always kept "
+"private, even to the post's author."
 msgstr ""
-"पोस्ट् बुकमार्कं कुर्वन्तु ते अत्र दर्शयिष्यन्ति। पुस्तकचिह्नानि सर्वदा निजरूपेण स्थापितानि भवन्ति, पोस्टस्य लेखकस्य कृते "
-"अपि।"
+"पोस्ट् बुकमार्कं कुर्वन्तु ते अत्र दर्शयिष्यन्ति। पुस्तकचिह्नानि सर्वदा निजरूपेण स्थापितानि "
+"भवन्ति, पोस्टस्य लेखकस्य कृते अपि।"
 
 #: content/ui/Main.qml:521
 #, kde-format
@@ -879,6 +1543,12 @@ msgstr "अनुसरण"
 msgid "Search"
 msgstr "अन्वेषण"
 
+#: content/ui/Main.qml:543
+#, kde-format
+msgctxt "@action:button Server Announcements"
+msgid "Announcements"
+msgstr "उद्घोषणानि"
+
 #: content/ui/Main.qml:555
 #, kde-format
 msgid "Lists"
@@ -889,35 +1559,279 @@ msgstr "सूचीः"
 msgid "Profile"
 msgstr "रूपरेखा"
 
+#: content/ui/Main.qml:581
+#, kde-format
+msgctxt "@action:button Open debug page"
+msgid "Debug"
+msgstr "त्रुटिनिवारणम्"
+
+#: content/ui/Main.qml:591
+#, kde-format
+msgctxt "@action:button Open moderation tools"
+msgid "Moderation Tools"
+msgstr "संयमसाधनम्"
+
+#: content/ui/Main.qml:598
+#, kde-format
+msgctxt "@action:button Open settings dialog"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
+#: content/ui/Main.qml:730
+#, kde-format
+msgctxt "@title"
+msgid "Embed Information"
+msgstr "सूचनां सम्मिलितं कुर्वन्तु"
+
 #: content/ui/ModerationTools/AccountToolPage.qml:30
 #: content/ui/ModerationTools/AccountToolPage.qml:214
 #, kde-format
 msgid "Advanced Search"
 msgstr "उन्नत अन्वेषण"
 
+#: content/ui/ModerationTools/AccountToolPage.qml:40
+#, kde-format
+msgctxt "@info:placeholder Username for searching accounts"
+msgid "Username:"
+msgstr "उपयोक्तृनाम : १."
+
+#: content/ui/ModerationTools/AccountToolPage.qml:45
+#, kde-format
+msgctxt "@info:placeholder display name for searching accounts"
+msgid "Display Name:"
+msgstr "प्रदर्शननाम : १."
+
+#: content/ui/ModerationTools/AccountToolPage.qml:50
+#, kde-format
+msgctxt "@info:placeholder email for searching accounts"
+msgid "Email:"
+msgstr "ईमेलः १."
+
+#: content/ui/ModerationTools/AccountToolPage.qml:55
+#, kde-format
+msgctxt "@info:placeholder ip for searching accounts"
+msgid "IP:"
+msgstr "IP: ."
+
+#: content/ui/ModerationTools/AccountToolPage.qml:62
+#, kde-format
+msgctxt "@info:Search button to initiate searching accounts"
+msgid "Search"
+msgstr "अन्वेषण"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:73
+#, kde-format
+msgctxt "@info:Reset button to reset all the text fields"
+msgid "Reset"
+msgstr "पुनः सेट् करें"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:78
+#: content/ui/ModerationTools/FederationToolPage.qml:140
+#: content/ui/ModerationTools/FederationToolPage.qml:171
+#: content/ui/ModerationTools/IpRulePage.qml:121
+#: content/ui/ModerationTools/MainFederationToolPage.qml:110
+#, kde-format
+msgctxt "@info:Cancel button to close the dailog"
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:95
+#, kde-format
+msgctxt "@info:Location combobox to choose location filters"
+msgid "Location"
+msgstr "स्थानीय"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:108
+#, kde-format
+msgctxt "@info:Filter out accounts from any location"
+msgid "All"
+msgstr "सर्वे"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:112
+#, kde-format
+msgctxt "@info:Filter out local accounts"
+msgid "Local"
+msgstr "स्थानिक"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:116
+#, kde-format
+msgctxt "@info:Filter out remote accounts"
+msgid "Remote"
+msgstr "दूरस्थ"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:130
+#, kde-format
+msgctxt ""
+"@info:Moderation Status combobox to choose between different moderation "
+"status filters"
+msgid "Moderation Status"
+msgstr "संयमस्थितिः"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:141
+#, kde-format
+msgctxt "@info:Filter out accounts with any moderation status"
+msgid "All"
+msgstr "सर्वे"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:145
+#, kde-format
+msgctxt "@info:Filter out accounts with active moderation status"
+msgid "Active"
+msgstr "सक्रियं"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:149
+#, kde-format
+msgctxt "@info:Filter out accounts with pending moderation status"
+msgid "Pending"
+msgstr "विचाराधीनः"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:153
+#, kde-format
+msgctxt "@info:Filter out accounts with disabled moderation status"
+msgid "Disabled"
+msgstr "अक्षमित"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:157
+#, kde-format
+msgctxt "@info:Filter out accounts with silenced moderation status"
+msgid "Silenced"
+msgstr "मौनम्"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:161
+#, kde-format
+msgctxt "@info:Filter out accounts with suspended moderation status"
+msgid "Suspended"
+msgstr "निलंबित"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:174
+#, kde-format
+msgctxt "@info:Role combobox to choose between different role filters"
+msgid "Role"
+msgstr "भूमिका"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:188
+#, kde-format
+msgctxt "@info:Filter out accounts with any role"
+msgid "All"
+msgstr "सर्वे"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:192
+#, kde-format
+msgctxt "@info:Filter out accounts with moderator role"
+msgid "Moderator"
+msgstr "संचालकः"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:196
+#, kde-format
+msgctxt "@info:Filter out accounts with admin role"
+msgid "Admin"
+msgstr "एडमिनिस्ट्री"
+
+#: content/ui/ModerationTools/AccountToolPage.qml:200
+#, kde-format
+msgctxt "@info:Filter out accounts with owner role"
+msgid "Owner"
+msgstr "स्वामी"
+
 #: content/ui/ModerationTools/AccountToolPage.qml:299
 #, kde-format
 msgid "No accounts found"
 msgstr "न लेखाः प्राप्ताः"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:17
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Email Block"
+msgstr "ईमेल ब्लॉक रचयन्तु"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:31
+#, kde-format
+msgctxt "@title"
+msgid "E-Mail Domain Info"
+msgstr "ई-मेल डोमेन सूचना"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:40
+#, kde-format
+msgctxt "@info The domain on which the block is imposed"
+msgid "Email domain name"
+msgstr "ईमेल डोमेन नाम"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:48
+#, kde-format
+msgctxt "@info Time when the block was imposed."
+msgid "Block created at"
+msgstr "इत्यत्र निर्मितः खण्डः"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:56
+#, kde-format
+msgctxt ""
+"@info The counted accounts signup attempts using that email domain within "
+"the last week."
+msgid "Account sign-up attempts in this week"
+msgstr "अस्मिन् सप्ताहे खातापञ्जीकरणस्य प्रयासाः"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:64
+#, kde-format
+msgctxt ""
+"@info The counted IP signup attempts of that email domain within that day."
+msgid "IP sign-up attempts in this week"
+msgstr "अस्मिन् सप्ताहे IP पञ्जीकरणस्य प्रयासाः"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:73
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:111
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:78
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete email block"
+msgstr "ईमेलखण्डं विलोपयन्तु"
 
 #: content/ui/ModerationTools/EmailBlockToolPage.qml:82
 #, kde-format
 msgid "Email block deleted"
 msgstr "ईमेल अवरोधः विलोपितः"
 
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:92
+#, kde-format
+msgctxt "@title"
+msgid "New E-Mail Domain Block"
+msgstr "नवीन ई-मेल डोमेन खण्डः"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:102
+#, kde-format
+msgctxt "@info The domain on which the block will be imposed"
+msgid "Domain *"
+msgstr "क्षेत्र *"
+
 #: content/ui/ModerationTools/EmailBlockToolPage.qml:103
 #, kde-format
 msgid ""
-"This can be the domain name that shows up in the e-mail address or the MX record it uses. They "
-"will be checked upon sign-up."
+"This can be the domain name that shows up in the e-mail address or the MX "
+"record it uses. They will be checked upon sign-up."
 msgstr ""
-"एतत् डोमेननाम भवितुम् अर्हति यत् ई-मेल-सङ्केते दर्शयति अथवा तया उपयुज्यमानं MX अभिलेखं भवितुम् अर्हति । "
-"पञ्जीकरणसमये तेषां जाँचः भविष्यति।"
+"एतत् डोमेननाम भवितुम् अर्हति यत् ई-मेल-सङ्केते दर्शयति अथवा तया उपयुज्यमानं MX अभिलेखं भवितुम् "
+"अर्हति । पञ्जीकरणसमये तेषां जाँचः भविष्यति।"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:116
+#, kde-format
+msgctxt "@action:button"
+msgid "Resolve domain"
+msgstr "डोमेन समाधान करें"
 
 #: content/ui/ModerationTools/EmailBlockToolPage.qml:120
 #, kde-format
 msgid "New email block added"
 msgstr "नूतनं ईमेलखण्डं योजितम्"
+
+#: content/ui/ModerationTools/EmailBlockToolPage.qml:163
+#, kde-format
+msgctxt "@info"
+msgid "%1 sign-up attempts over the last week"
+msgstr "%1 गतसप्ताहे पञ्जीकरणप्रयासाः"
 
 #: content/ui/ModerationTools/EmailBlockToolPage.qml:185
 #, kde-format
@@ -940,6 +1854,18 @@ msgstr "डोमेन सह संघस्य अनुमतिं दद�
 msgid "Allowed Domain Info"
 msgstr "अनुमत डोमेन सूचना"
 
+#: content/ui/ModerationTools/FederationToolPage.qml:44
+#, kde-format
+msgctxt "@info:The domain that is allowed to federate"
+msgid "Domain"
+msgstr "क्षेत्र"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:50
+#, kde-format
+msgctxt "@info:Time when the domain was allowed to federate."
+msgid "Created at"
+msgstr "सृष्टः at"
+
 #: content/ui/ModerationTools/FederationToolPage.qml:59
 #, kde-format
 msgid "Disallow Federation with Domain"
@@ -954,6 +1880,12 @@ msgstr "डोमेनसहितं संघं अस्वीकृतम�
 #, kde-format
 msgid "Add Domain Block"
 msgstr "Domain Block इति योजयन्तु"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:83
+#, kde-format
+msgctxt "@info:Enter the domain address of the domain block"
+msgid "Domain*"
+msgstr "क्षेत्र*"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:88
 #: content/ui/ModerationTools/MainFederationToolPage.qml:74
@@ -973,6 +1905,27 @@ msgstr "निजी टिप्पणी"
 msgid "Moderation"
 msgstr "संयमः"
 
+#: content/ui/ModerationTools/FederationToolPage.qml:103
+#: content/ui/ModerationTools/MainFederationToolPage.qml:55
+#, kde-format
+msgctxt "@info:Filter out all the allowed domains"
+msgid "Silence"
+msgstr "शांति"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:107
+#: content/ui/ModerationTools/MainFederationToolPage.qml:59
+#, kde-format
+msgctxt "@info:Filter out all the blocked domains"
+msgid "Suspend"
+msgstr "निलम्बनम्"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:111
+#: content/ui/ModerationTools/MainFederationToolPage.qml:63
+#, kde-format
+msgctxt "@info:Filter out all the blocked domains"
+msgid "None"
+msgstr "न कश्चित्"
+
 #: content/ui/ModerationTools/FederationToolPage.qml:120
 #: content/ui/ModerationTools/MainFederationToolPage.qml:85
 #, kde-format
@@ -983,10 +1936,11 @@ msgstr "माध्यमसञ्चिकाः अङ्गीकुर्�
 #: content/ui/ModerationTools/MainFederationToolPage.qml:86
 #, kde-format
 msgid ""
-"Removes locally stored media files and refuses to download any in the future. Irrelevant for "
-"suspensions"
+"Removes locally stored media files and refuses to download any in the "
+"future. Irrelevant for suspensions"
 msgstr ""
-"स्थानीयतया संगृहीतमाध्यमसञ्चिकाः निष्कासयति भविष्ये कस्यापि डाउनलोड् कर्तुं नकारयति । निलम्बनानां कृते अप्रासंगिकम्"
+"स्थानीयतया संगृहीतमाध्यमसञ्चिकाः निष्कासयति भविष्ये कस्यापि डाउनलोड् कर्तुं नकारयति । "
+"निलम्बनानां कृते अप्रासंगिकम्"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:126
 #: content/ui/ModerationTools/MainFederationToolPage.qml:93
@@ -1010,14 +1964,31 @@ msgstr "डोमेन नाम भ्रमित करें"
 #: content/ui/ModerationTools/MainFederationToolPage.qml:102
 #, kde-format
 msgid ""
-"Partially obfuscate the domain name in the list if advertising the list of domain limitations "
-"is enabled"
-msgstr "यदि डोमेनसीमानां सूचीयाः विज्ञापनं सक्षमं भवति तर्हि सूचीयां डोमेननाम आंशिकरूपेण अस्पष्टं कुर्वन्तु"
+"Partially obfuscate the domain name in the list if advertising the list of "
+"domain limitations is enabled"
+msgstr ""
+"यदि डोमेनसीमानां सूचीयाः विज्ञापनं सक्षमं भवति तर्हि सूचीयां डोमेननाम आंशिकरूपेण अस्पष्टं "
+"कुर्वन्तु"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:145
+#: content/ui/ModerationTools/FederationToolPage.qml:176
+#, kde-format
+msgctxt "@info:Button to create a domain block"
+msgid "Create Block"
+msgstr "ब्लॉक रचयतु"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:150
 #, kde-format
 msgid "New domain block added"
 msgstr "नूतनं डोमेनखण्डं योजितम्"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:165
+#, kde-format
+msgctxt ""
+"@info:This domain will be able to fetch data from this server and incoming "
+"data from it will be processed and stored"
+msgid "Domain*"
+msgstr "क्षेत्र*"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:180
 #, kde-format
@@ -1026,8 +1997,28 @@ msgstr "नवीनं अनुमतं डोमेन् योजितम
 
 #: content/ui/ModerationTools/FederationToolPage.qml:193
 #, kde-format
-msgid "Allowed domain option is available for instances with limited federation mode enabled"
+msgid ""
+"Allowed domain option is available for instances with limited federation "
+"mode enabled"
 msgstr "सीमितसङ्घविधानसक्षमयुक्तानां उदाहरणानां कृते अनुमतं डोमेनविकल्पः उपलभ्यते"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:201
+#, kde-format
+msgctxt "@info:Choose between allowed and limited domains"
+msgid "Moderation"
+msgstr "संयमः"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:216
+#, kde-format
+msgctxt "@info:Filter out all the blocked domains"
+msgid "Blocked domains"
+msgstr "अवरुद्ध डोमेन"
+
+#: content/ui/ModerationTools/FederationToolPage.qml:220
+#, kde-format
+msgctxt "@info:Filter out all the allowed domains in limited federation mode"
+msgid "Allowed domains"
+msgstr "अनुमत डोमेन"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:286
 #, kde-format
@@ -1039,27 +2030,97 @@ msgstr "संघस्य कृते अनुमतम्"
 msgid "No federations found"
 msgstr "न फेडरेशनाः प्राप्ताः"
 
+#: content/ui/ModerationTools/IpRulePage.qml:17
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Rule"
+msgstr "नियम रचयतु"
+
 #: content/ui/ModerationTools/IpRulePage.qml:25
 #, kde-format
 msgid "New IP Rule"
 msgstr "नवीनः IP नियमः"
 
-#: content/ui/ModerationTools/IpRulePage.qml:80 content/ui/ModerationTools/MainIpRulePage.qml:110
+#: content/ui/ModerationTools/IpRulePage.qml:37
+#, kde-format
+msgctxt "@info:Enter the domain address of the domain block"
+msgid "IP*"
+msgstr "IP* 1.1."
+
+#: content/ui/ModerationTools/IpRulePage.qml:43
+#, kde-format
+msgctxt "@info:Time after which the rule will be lifted"
+msgid "Expire After"
+msgstr "Expire After"
+
+#: content/ui/ModerationTools/IpRulePage.qml:48
+#, kde-format
+msgctxt "@info:Option to block out the IP for 1 day"
+msgid "1 day"
+msgstr "१ दिवसे"
+
+#: content/ui/ModerationTools/IpRulePage.qml:52
+#, kde-format
+msgctxt "@info:Option to block out the IP for 2 weeks"
+msgid "2 weeks"
+msgstr "२ सप्ताहाः"
+
+#: content/ui/ModerationTools/IpRulePage.qml:56
+#, kde-format
+msgctxt "@info:Option to block out the IP for 1 month"
+msgid "1 month"
+msgstr "१ मासः"
+
+#: content/ui/ModerationTools/IpRulePage.qml:60
+#, kde-format
+msgctxt "@info:Option to block out the IP for 6 months"
+msgid "6 month"
+msgstr "६ मासः"
+
+#: content/ui/ModerationTools/IpRulePage.qml:64
+#, kde-format
+msgctxt "@info:Option to block out the IP for 1 year"
+msgid "1 year"
+msgstr "१ वर्ष"
+
+#: content/ui/ModerationTools/IpRulePage.qml:68
+#, kde-format
+msgctxt "@info:Option to block out the IP for 3 years"
+msgid "3 year"
+msgstr "३ वर्ष"
+
+#: content/ui/ModerationTools/IpRulePage.qml:79
+#, kde-format
+msgctxt "@info: The comment attached with the ip rule"
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: content/ui/ModerationTools/IpRulePage.qml:80
+#: content/ui/ModerationTools/MainIpRulePage.qml:110
 #, kde-format
 msgid "Optional. Remember why you added this rule."
 msgstr "वैकल्पिक। स्मर्यतां यत् भवता एषः नियमः किमर्थं योजितः।"
 
-#: content/ui/ModerationTools/IpRulePage.qml:91 content/ui/ModerationTools/MainIpRulePage.qml:121
+#: content/ui/ModerationTools/IpRulePage.qml:87
+#, kde-format
+msgctxt "@info:The rule attached with the ip rule"
+msgid "Rule *"
+msgstr "नियम *"
+
+#: content/ui/ModerationTools/IpRulePage.qml:91
+#: content/ui/ModerationTools/MainIpRulePage.qml:121
 #, kde-format
 msgid "Choose what will happen with requests from this IP"
 msgstr "अस्मात् IP तः अनुरोधैः सह किं भविष्यति इति चिनोतु"
 
-#: content/ui/ModerationTools/IpRulePage.qml:98 content/ui/ModerationTools/MainIpRulePage.qml:129
+#: content/ui/ModerationTools/IpRulePage.qml:98
+#: content/ui/ModerationTools/MainIpRulePage.qml:129
 #, kde-format
 msgid "Limit sign-ups"
 msgstr "पञ्जीकरणं सीमितं कुर्वन्तु"
 
-#: content/ui/ModerationTools/IpRulePage.qml:99 content/ui/ModerationTools/MainIpRulePage.qml:130
+#: content/ui/ModerationTools/IpRulePage.qml:99
+#: content/ui/ModerationTools/MainIpRulePage.qml:130
 #, kde-format
 msgid "New sign-ups will require your approval"
 msgstr "नूतनपञ्जीकरणार्थं भवतः अनुमोदनस्य आवश्यकता भविष्यति"
@@ -1088,10 +2149,37 @@ msgstr "प्रवेशं अवरुद्धं कुर्वन्त�
 msgid "Block access to all resources"
 msgstr "सर्वेषां संसाधनानाम् अभिगमनं अवरुद्धं कुर्वन्तु"
 
+#: content/ui/ModerationTools/IpRulePage.qml:126
+#, kde-format
+msgctxt "@info:Button to create a IP rule"
+msgid "Create IP rule"
+msgstr "IP नियमं रचयन्तु"
+
 #: content/ui/ModerationTools/IpRulePage.qml:130
 #, kde-format
 msgid "New IP rule added"
 msgstr "नूतनः IP नियमः योजितः"
+
+#: content/ui/ModerationTools/IpRulePage.qml:156
+#: content/ui/ModerationTools/MainIpRulePage.qml:29
+#, kde-format
+msgctxt "@label"
+msgid "Limit sign-ups"
+msgstr "पञ्जीकरणं सीमितं कुर्वन्तु"
+
+#: content/ui/ModerationTools/IpRulePage.qml:158
+#: content/ui/ModerationTools/MainIpRulePage.qml:31
+#, kde-format
+msgctxt "@label"
+msgid "Block sign-ups"
+msgstr "पञ्जीकरणं अवरुद्धं कुर्वन्तु"
+
+#: content/ui/ModerationTools/IpRulePage.qml:160
+#: content/ui/ModerationTools/MainIpRulePage.qml:33
+#, kde-format
+msgctxt "@label"
+msgid "Block access"
+msgstr "प्रवेशं अवरुद्धं कुर्वन्तु"
 
 #: content/ui/ModerationTools/IpRulePage.qml:207
 #, kde-format
@@ -1108,10 +2196,75 @@ msgstr "न उपलब्धम्"
 msgid "Perform moderation action on %1"
 msgstr "%1 इत्यत्र संयमक्रियाम् कुर्वन्तु"
 
+#: content/ui/ModerationTools/MainAccountToolPage.qml:35
+#, kde-format
+msgctxt ""
+"@info: Use this to send a warning to the user, without triggering any other "
+"action."
+msgid "Warn"
+msgstr "सचेत"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:39
+#, kde-format
+msgctxt ""
+"@info: Prevent the user from using their account, but do not delete or hide "
+"their contents."
+msgid "Freeze"
+msgstr "स्थग्"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:44
+#, kde-format
+msgctxt ""
+"@info: Force all this user's media attachments to be flagged as sensitive."
+msgid "Force-Sensitive"
+msgstr "बल-संवेदनशीलः"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:49
+#, kde-format
+msgctxt ""
+"@info: Prevent the user from being able to post with public visibility, hide "
+"their posts and notifications from people not following them."
+msgid "Limit"
+msgstr "सीमा"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:54
+#, kde-format
+msgctxt ""
+"@info: Prevent any interaction from or to this account and delete its "
+"contents. Revertible within 30 days."
+msgid "Suspend"
+msgstr "निलम्बनम्"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:59
+#, kde-format
+msgctxt ""
+"@info: The user will receive an explanation of what happened with their "
+"account"
+msgid "Notify the user per e-mail"
+msgstr "प्रति ई-मेल उपयोक्तारं सूचयन्तु"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:65
+#, kde-format
+msgctxt "@info: Send a warning note to the user."
+msgid "Custom warning"
+msgstr "कस्टम चेतावनी"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:76
+#, kde-format
+msgctxt "@info:Button to submit the action aginst the user."
+msgid "Submit"
+msgstr "उपस्थापयतु"
+
 #: content/ui/ModerationTools/MainAccountToolPage.qml:92
 #, kde-format
 msgid "Action taken successfully"
 msgstr "सफलतया कृता कार्यवाही"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:97
+#, kde-format
+msgctxt "@info:Cancel button to close the dailog."
+msgid "Cancel"
+msgstr "निरसयतु"
 
 #: content/ui/ModerationTools/MainAccountToolPage.qml:107
 #, kde-format
@@ -1158,15 +2311,76 @@ msgstr "बल-संवेदनशीलस्य %1 इत्यस्य ख
 msgid "Successfully deleted %1's account data"
 msgstr "%1 इत्यस्य खातादत्तांशं सफलतया विलोपितम्"
 
+#: content/ui/ModerationTools/MainAccountToolPage.qml:225
+#: content/ui/ModerationTools/MainReportToolPage.qml:98
+#, kde-format
+msgctxt "@info Bio label of account."
+msgid "Bio"
+msgstr "सः आसीत्"
+
 #: content/ui/ModerationTools/MainAccountToolPage.qml:270
 #, kde-format
 msgid "Reasons for joining"
 msgstr "सम्मिलितस्य कारणानि"
 
+#: content/ui/ModerationTools/MainAccountToolPage.qml:316
+#, kde-format
+msgctxt "@info:Number of Posts"
+msgid "Posts"
+msgstr "पद"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:320
+#, kde-format
+msgctxt "@info:Number of followers."
+msgid "Followers"
+msgstr "अनुयायिनः"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:324
+#, kde-format
+msgctxt "@info:row Number of accounts followed by the account"
+msgid "Following"
+msgstr "अनुसरण"
+
 #: content/ui/ModerationTools/MainAccountToolPage.qml:327
 #, kde-format
 msgid "No role"
 msgstr "न भूमिका"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:328
+#, kde-format
+msgctxt "@info Role of the account on this server."
+msgid "Role"
+msgstr "भूमिका"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:332
+#, kde-format
+msgctxt "@info The last time the account was active."
+msgid "Last Active"
+msgstr "अन्तिमः सक्रियः"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:336
+#, kde-format
+msgctxt "@info The current login status of the account."
+msgid "Login Status"
+msgstr "प्रवेशस्थितिः"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:348
+#, kde-format
+msgctxt "@info: Role of the user."
+msgid "Role"
+msgstr "भूमिका"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:356
+#, kde-format
+msgctxt "@info: Email of the user."
+msgid "Email"
+msgstr "ईमेल"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:363
+#, kde-format
+msgctxt "@info: Email confirmation status of the user."
+msgid "Email Status"
+msgstr "ईमेल स्थिति"
 
 #: content/ui/ModerationTools/MainAccountToolPage.qml:364
 #, kde-format
@@ -1178,6 +2392,18 @@ msgstr "पुष्टिः कृता"
 msgid "Not Confirmed"
 msgstr "न पुष्टिः"
 
+#: content/ui/ModerationTools/MainAccountToolPage.qml:371
+#, kde-format
+msgctxt "@info: Locale of the user."
+msgid "Account Locale"
+msgstr "खाता स्थानम्"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:379
+#, kde-format
+msgctxt "@info: Joining date of the user"
+msgid "Joined"
+msgstr "सम्मिलितः"
+
 #: content/ui/ModerationTools/MainAccountToolPage.qml:387
 #, kde-format
 msgid "Most recent IP"
@@ -1188,10 +2414,28 @@ msgstr "अद्यतनतमः IP"
 msgid "Invited By"
 msgstr "आमन्त्रितः By"
 
+#: content/ui/ModerationTools/MainAccountToolPage.qml:437
+#, kde-format
+msgctxt "@info: Approve the user's request"
+msgid "Approve"
+msgstr "जानाति"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:449
+#, kde-format
+msgctxt "@info: Reject the user's request"
+msgid "Reject"
+msgstr "अस्वीकार"
+
 #: content/ui/ModerationTools/MainAccountToolPage.qml:460
 #, kde-format
 msgid "Delete Account Data"
 msgstr "खातादत्तांशं विलोपयन्तु"
+
+#: content/ui/ModerationTools/MainAccountToolPage.qml:472
+#, kde-format
+msgctxt "@info: Unfreeze the user's account"
+msgid "Unfreeze"
+msgstr "अनफ्रीज"
 
 #: content/ui/ModerationTools/MainAccountToolPage.qml:482
 #, kde-format
@@ -1234,6 +2478,12 @@ msgstr "डोमेन ब्लॉक सम्पादयतु"
 msgid "Private comment"
 msgstr "निजी टिप्पणी"
 
+#: content/ui/ModerationTools/MainFederationToolPage.qml:115
+#, kde-format
+msgctxt "@info:Button to update the domain block with new values"
+msgid "Update Block"
+msgstr "अपडेट् ब्लॉक"
+
 #: content/ui/ModerationTools/MainFederationToolPage.qml:122
 #, kde-format
 msgid "Domain block updated"
@@ -1245,20 +2495,165 @@ msgstr "डोमेन ब्लॉक अद्यतनम्"
 msgid "Blocked at"
 msgstr "अवरुद्धः at"
 
+#: content/ui/ModerationTools/MainFederationToolPage.qml:140
+#, kde-format
+msgctxt "@info: No public comment provided"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: content/ui/ModerationTools/MainFederationToolPage.qml:147
+#, kde-format
+msgctxt "@info: No private comment provided"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: content/ui/ModerationTools/MainFederationToolPage.qml:153
+#, kde-format
+msgctxt "@info:The policy to be applied by this domain block"
+msgid "Policy"
+msgstr "नीति"
+
+#: content/ui/ModerationTools/MainFederationToolPage.qml:160
+#, kde-format
+msgctxt "@info:Whether to obfuscate public displays of this domain block"
+msgid "Obfuscate"
+msgstr "भ्रमित कर"
+
+#: content/ui/ModerationTools/MainFederationToolPage.qml:167
+#, kde-format
+msgctxt "@info:Whether to reject incoming media from this domain"
+msgid "Reject media"
+msgstr "माध्यमं अङ्गीकुर्वन्तु"
+
+#: content/ui/ModerationTools/MainFederationToolPage.qml:174
+#, kde-format
+msgctxt "@info:Whether to reject incoming reports from this domain"
+msgid "Reject reports"
+msgstr "प्रतिवेदनानि अङ्गीकुर्वन्तु"
+
 #: content/ui/ModerationTools/MainFederationToolPage.qml:185
 #, kde-format
 msgid "Edit Domain Block"
 msgstr "डोमेन खण्ड सम्पादयतु"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:40
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove IP Rule"
+msgstr "IP Rule इत्येतत् निष्कासयन्तु"
 
 #: content/ui/ModerationTools/MainIpRulePage.qml:43
 #, kde-format
 msgid "IP Rule Removed"
 msgstr "IP Rule निष्कासितम्"
 
+#: content/ui/ModerationTools/MainIpRulePage.qml:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Update IP Rule"
+msgstr "IP नियमं अद्यतनं कुर्वन्तु"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:63
+#, kde-format
+msgctxt "@info IP address of the ip block"
+msgid "IP"
+msgstr "IP"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:72
+#, kde-format
+msgctxt "@info Time after which the rule will be lifted"
+msgid "Expire After"
+msgstr "Expire After"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:77
+#, kde-format
+msgctxt "@info Option to block out the IP for 1 day"
+msgid "1 day"
+msgstr "१ दिवसे"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:81
+#, kde-format
+msgctxt "@info Option to block out the IP for 2 weeks"
+msgid "2 weeks"
+msgstr "२ सप्ताहाः"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:85
+#, kde-format
+msgctxt "@info Option to block out the IP for 1 month"
+msgid "1 month"
+msgstr "१ मासः"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:89
+#, kde-format
+msgctxt "@info Option to block out the IP for 6 months"
+msgid "6 month"
+msgstr "६ मासः"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:93
+#, kde-format
+msgctxt "@info Option to block out the IP for 1 year"
+msgid "1 year"
+msgstr "१ वर्ष"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:97
+#, kde-format
+msgctxt "@info Option to block out the IP for 3 years"
+msgid "3 year"
+msgstr "३ वर्ष"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:108
+#: content/ui/ModerationTools/MainIpRulePage.qml:189
+#, kde-format
+msgctxt "@info The comment attached with the ip rule"
+msgid "Comment"
+msgstr "टिप्पणी"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:117
+#, kde-format
+msgctxt "@info The rule attached with the ip rule"
+msgid "Rule *"
+msgstr "नियम *"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:154
+#, kde-format
+msgctxt "@info Cancel button to close the dailog"
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:159
+#, kde-format
+msgctxt "@info Button to update an IP rule"
+msgid "Update IP rule"
+msgstr "IP नियमं अद्यतनं कुर्वन्तु"
+
 #: content/ui/ModerationTools/MainIpRulePage.qml:164
 #, kde-format
 msgid "IP rule updated"
 msgstr "IP नियमः अद्यतनः"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:182
+#, kde-format
+msgctxt "@info Time after which the rule will be lifted"
+msgid "Expires at"
+msgstr "at"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:190
+#, kde-format
+msgctxt "@info No public comment provided"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:196
+#, kde-format
+msgctxt "@info The severity to be applied by this IP rule"
+msgid "Severity"
+msgstr "तीव्रता"
+
+#: content/ui/ModerationTools/MainIpRulePage.qml:207
+#, kde-format
+msgctxt "@action:button"
+msgid "Update IP Rule"
+msgstr "IP नियमं अद्यतनं कुर्वन्तु"
 
 #: content/ui/ModerationTools/MainReportToolPage.qml:46
 #, kde-format
@@ -1284,6 +2679,48 @@ msgstr "प्रतिवेदनम् अनसमाधानम्"
 #, kde-format
 msgid "Report Resolved"
 msgstr "प्रतिवेदनं निराकृतम्"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:148
+#, kde-format
+msgctxt "@info Number of Posts"
+msgid "Posts"
+msgstr "पद"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:152
+#, kde-format
+msgctxt "@info Number of followers."
+msgid "Followers"
+msgstr "अनुयायिनः"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:156
+#, kde-format
+msgctxt "@info Row Number of accounts followed by the account"
+msgid "Following"
+msgstr "अनुसरण"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:160
+#, kde-format
+msgctxt "@info Time at which the reported account joined."
+msgid "Joined"
+msgstr "सम्मिलितः"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:164
+#, kde-format
+msgctxt "@info The last time the reported account was active."
+msgid "Last Active"
+msgstr "अन्तिमः सक्रियः"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:168
+#, kde-format
+msgctxt "@info The current login status of the account."
+msgid "Reported"
+msgstr "निवेदितम्"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:180
+#, kde-format
+msgctxt "@info Time at which the report was made"
+msgid "Reported"
+msgstr "निवेदितम्"
 
 #: content/ui/ModerationTools/MainReportToolPage.qml:188
 #, kde-format
@@ -1315,7 +2752,8 @@ msgstr "द्वारा कृत कर्म"
 msgid "Assigned moderator"
 msgstr "नियुक्तः संचालकः"
 
-#: content/ui/ModerationTools/MainReportToolPage.qml:225 editor/listeditorbackend.cpp:112
+#: content/ui/ModerationTools/MainReportToolPage.qml:225
+#: editor/listeditorbackend.cpp:112
 #, kde-format
 msgid "No one"
 msgstr "न कश्चित्"
@@ -1335,6 +2773,18 @@ msgstr "मम नियुक्तिः"
 msgid "Forwarded"
 msgstr "अग्रे प्रेषितम्"
 
+#: content/ui/ModerationTools/MainReportToolPage.qml:244
+#, kde-format
+msgctxt "@info:The report is forwarded"
+msgid "Yes"
+msgstr "आम्‌"
+
+#: content/ui/ModerationTools/MainReportToolPage.qml:244
+#, kde-format
+msgctxt "@info:The report is not forwarded"
+msgid "No"
+msgstr "नहि"
+
 #: content/ui/ModerationTools/MainReportToolPage.qml:253
 #, kde-format
 msgid "Category"
@@ -1343,8 +2793,8 @@ msgstr "कोटी"
 #: content/ui/ModerationTools/MainReportToolPage.qml:257
 #, kde-format
 msgid ""
-"The reason this account and/or content was reported will be cited in communication with the "
-"reported account"
+"The reason this account and/or content was reported will be cited in "
+"communication with the reported account"
 msgstr "अस्य खातेः/अथवा सामग्रीयाः कारणं प्रतिवेदितलेखेन सह संचारणे उद्धृतं भविष्यति"
 
 #: content/ui/ModerationTools/MainReportToolPage.qml:269
@@ -1382,6 +2832,12 @@ msgstr "श्रेणी नियम उल्लङ्घने परिव
 msgid "To provide more information, %1 wrote:"
 msgstr "अधिकाधिकं सूचनां दातुं %1 लिखितवान् यत्:"
 
+#: content/ui/ModerationTools/MainReportToolPage.qml:356
+#, kde-format
+msgctxt "@info:Account didn't provide any comment on the report "
+msgid "N/A"
+msgstr "न/अ"
+
 #: content/ui/ModerationTools/MainReportToolPage.qml:372
 #, kde-format
 msgid "Reported Content"
@@ -1389,7 +2845,8 @@ msgstr "रिपोर्ट् कृता सामग्री"
 
 #: content/ui/ModerationTools/MainReportToolPage.qml:376
 #, kde-format
-msgid "Offending content will be cited in communication with the reported account"
+msgid ""
+"Offending content will be cited in communication with the reported account"
 msgstr "रिपोर्ट् कृतेन खातेन सह संचारणे आक्षेपार्हसामग्री उद्धृता भविष्यति"
 
 #: content/ui/ModerationTools/MainReportToolPage.qml:407
@@ -1409,15 +2866,81 @@ msgstr "न्यूनं दर्शयतु"
 msgid "Show More"
 msgstr "अधिकं दर्शयतु"
 
+#: content/ui/ModerationTools/ModerationToolsView.qml:14
+#, kde-format
+msgctxt "@title"
+msgid "Accounts"
+msgstr "लेखा"
+
 #: content/ui/ModerationTools/ModerationToolsView.qml:20
 #, kde-format
 msgid "Reports"
 msgstr "प्रतिवेदनानि"
 
+#: content/ui/ModerationTools/ModerationToolsView.qml:26
+#, kde-format
+msgctxt "@title"
+msgid "Federation"
+msgstr "महासंघ"
+
+#: content/ui/ModerationTools/ModerationToolsView.qml:32
+#, kde-format
+msgctxt "@title"
+msgid "IP Rules"
+msgstr "IP नियमाः"
+
+#: content/ui/ModerationTools/ModerationToolsView.qml:38
+#, kde-format
+msgctxt "@title"
+msgid "Email Blocks"
+msgstr "ईमेल ब्लॉक्स"
+
 #: content/ui/ModerationTools/ReportToolPage.qml:15
 #, kde-format
 msgid "Accounts Tool Page"
 msgstr "लेखा साधन पृष्ठ"
+
+#: content/ui/ModerationTools/ReportToolPage.qml:33
+#, kde-format
+msgctxt "@info:Combobox to choose Report Status"
+msgid "Report Status"
+msgstr "रिपोर्ट् स्थितिः"
+
+#: content/ui/ModerationTools/ReportToolPage.qml:45
+#, kde-format
+msgctxt "@info:Filter out unresolved reports"
+msgid "Unresolved"
+msgstr "अनवधानम्"
+
+#: content/ui/ModerationTools/ReportToolPage.qml:49
+#, kde-format
+msgctxt "@info:Filter out resolved reports"
+msgid "Resolved"
+msgstr "संकल्पितम्"
+
+#: content/ui/ModerationTools/ReportToolPage.qml:63
+#, kde-format
+msgctxt "@info:Combobox to choose the origin of report"
+msgid "Report Origin"
+msgstr "उत्पत्तिं प्रतिवेदनं कुर्वन्तु"
+
+#: content/ui/ModerationTools/ReportToolPage.qml:76
+#, kde-format
+msgctxt "@info:Filter out accounts with any origin"
+msgid "All"
+msgstr "सर्वे"
+
+#: content/ui/ModerationTools/ReportToolPage.qml:80
+#, kde-format
+msgctxt "@info:Filter out accounts with local origin"
+msgid "Local"
+msgstr "स्थानिक"
+
+#: content/ui/ModerationTools/ReportToolPage.qml:84
+#, kde-format
+msgctxt "@info:Filter out accounts with remote origin"
+msgid "Remote"
+msgstr "दूरस्थ"
 
 #: content/ui/ModerationTools/ReportToolPage.qml:155
 #, kde-format
@@ -1429,10 +2952,82 @@ msgstr "Reported By:"
 msgid "Assigned Account:"
 msgstr "नियुक्तं खाता : १."
 
+#: content/ui/ModerationTools/ReportToolPage.qml:265
+#, kde-format
+msgctxt "@info: No account assigned to the report"
+msgid "N/A"
+msgstr "न/अ"
+
 #: content/ui/ModerationTools/ReportToolPage.qml:296
 #, kde-format
 msgid "No reports found"
 msgstr "न कोऽपि प्रतिवेदनः प्राप्तः"
+
+#: content/ui/NotificationPage.qml:27
+#, kde-format
+msgctxt "@action:intoolbar Mark all notifications as read"
+msgid "Mark All As Read"
+msgstr "Mark All As Read इति चिह्नं कुर्वन्तु"
+
+#: content/ui/NotificationPage.qml:33
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Configure Notifications…"
+msgstr "सूचनाः विन्यस्यताम्..."
+
+#: content/ui/NotificationPage.qml:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Notification Settings"
+msgstr "सूचना सेटिंग्स्"
+
+#: content/ui/NotificationPage.qml:46
+#, kde-format
+msgctxt "@action:intoolbar Show all notifications"
+msgid "All"
+msgstr "सर्वे"
+
+#: content/ui/NotificationPage.qml:57
+#, kde-format
+msgctxt "@action:intoolbar Show only mentions"
+msgid "Mentions"
+msgstr "उल्लेखः"
+
+#: content/ui/NotificationPage.qml:68
+#, kde-format
+msgctxt "@action:intoolbar More filter categories"
+msgid "More"
+msgstr "अधिकः"
+
+#: content/ui/NotificationPage.qml:84
+#, kde-format
+msgctxt "Show only boosts"
+msgid "Boosts"
+msgstr "बूस्ट् करोति"
+
+#: content/ui/NotificationPage.qml:89
+#, kde-format
+msgctxt "Show only favorites"
+msgid "Favorites"
+msgstr "प्रियाः"
+
+#: content/ui/NotificationPage.qml:94
+#, kde-format
+msgctxt "Show only poll results"
+msgid "Poll Results"
+msgstr "मतदानपरिणाम"
+
+#: content/ui/NotificationPage.qml:99
+#, kde-format
+msgctxt "Show only followed statuses"
+msgid "Posts"
+msgstr "पद"
+
+#: content/ui/NotificationPage.qml:104
+#, kde-format
+msgctxt "Show only follows"
+msgid "Follows"
+msgstr "अनुसरणं करोति"
 
 #: content/ui/NotificationPage.qml:258
 #, kde-format
@@ -1442,11 +3037,11 @@ msgstr "सूचनाः नास्ति"
 #: content/ui/NotificationPage.qml:259
 #, kde-format
 msgid ""
-"You have no notifications yet. When people reply, favorite or boost your posts they will show "
-"up here."
+"You have no notifications yet. When people reply, favorite or boost your "
+"posts they will show up here."
 msgstr ""
-"भवतः अद्यापि कोऽपि सूचनाः नास्ति। यदा जनाः भवतः पोस्ट् प्रति उत्तरं ददति, प्रियं वा बूस्ट् वा कुर्वन्ति तदा ते "
-"अत्र दर्शयिष्यन्ति।"
+"भवतः अद्यापि कोऽपि सूचनाः नास्ति। यदा जनाः भवतः पोस्ट् प्रति उत्तरं ददति, प्रियं वा "
+"बूस्ट् वा कुर्वन्ति तदा ते अत्र दर्शयिष्यन्ति।"
 
 #: content/ui/Notifications/AccountWarningDelegate.qml:66
 #, kde-format
@@ -1467,6 +3062,22 @@ msgstr "%1 उपयोक्तारः भवतः पोस्ट् प्
 #, kde-format
 msgid "%1 users boosted your post"
 msgstr "%1 उपयोक्तारः भवतः पोस्ट् वर्धितवन्तः"
+
+#: content/ui/Notifications/RelationshipSeveranceDelegate.qml:62
+#, kde-kuit-format
+msgctxt "@info:label"
+msgid ""
+"Moderation has blocked <b>%1</b>, including %2 of your followers and %3 "
+"account you follow."
+msgstr ""
+"मॉडरेशनेन <b>%1</b> अवरुद्धम्, यत्र भवतः अनुयायिनां %2 अपि च भवता अनुसृतानां %3 खातं च "
+"अन्तर्भवति ।"
+
+#: content/ui/Notifications/ReportDelegate.qml:61
+#, kde-format
+msgctxt "@info:label"
+msgid "A report has been filed against a user in your server."
+msgstr "भवतः सर्वरे कस्यचित् उपयोक्तुः विरुद्धं प्रतिवेदनं दाखिलम् अस्ति ।"
 
 #: content/ui/Notifications/UserInteractionLabel.qml:81
 #, kde-format
@@ -1503,6 +3114,18 @@ msgstr "Video attachment सह स्थितिः"
 msgid "Not available"
 msgstr "न लभ्यते"
 
+#: content/ui/PostDelegate/AttachmentGrid.qml:323
+#, kde-format
+msgctxt "@action:button"
+msgid "Hide Media"
+msgstr "मीडिया गोपयन्तु"
+
+#: content/ui/PostDelegate/AttachmentGrid.qml:327
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Hide media"
+msgstr "माध्यमं गोपयन्तु"
+
 #: content/ui/PostDelegate/AttachmentGrid.qml:338
 #, kde-format
 msgid "Show Media"
@@ -1528,23 +3151,34 @@ msgstr "विडियो यथा..."
 msgid "Copy Image"
 msgstr "प्रतिलिपि चित्रम्"
 
-#: content/ui/PostDelegate/InformationBar.qml:63 content/ui/PostDelegate/InformationBar.qml:71
-#: content/ui/PostDelegate/PostInfoBar.qml:85 content/ui/PostDelegate/PostInfoBar.qml:93
+#: content/ui/PostDelegate/InformationBar.qml:33
+#, kde-format
+msgctxt "Posted on 26 March 2024 Tuesday 20:43:18 +03"
+msgid "Posted on %1"
+msgstr "%1 इत्यत्र प्रकाशितम्"
+
+#: content/ui/PostDelegate/InformationBar.qml:63
+#: content/ui/PostDelegate/InformationBar.qml:71
+#: content/ui/PostDelegate/PostInfoBar.qml:85
+#: content/ui/PostDelegate/PostInfoBar.qml:93
 #, kde-format
 msgid "Public"
 msgstr "सार्वजनिक"
 
-#: content/ui/PostDelegate/InformationBar.qml:65 content/ui/PostDelegate/PostInfoBar.qml:87
+#: content/ui/PostDelegate/InformationBar.qml:65
+#: content/ui/PostDelegate/PostInfoBar.qml:87
 #, kde-format
 msgid "Unlisted"
 msgstr "असूचीकृतम्"
 
-#: content/ui/PostDelegate/InformationBar.qml:67 content/ui/PostDelegate/PostInfoBar.qml:89
+#: content/ui/PostDelegate/InformationBar.qml:67
+#: content/ui/PostDelegate/PostInfoBar.qml:89
 #, kde-format
 msgid "Private"
 msgstr "वैयक्तिक"
 
-#: content/ui/PostDelegate/InformationBar.qml:69 content/ui/PostDelegate/PostInfoBar.qml:91
+#: content/ui/PostDelegate/InformationBar.qml:69
+#: content/ui/PostDelegate/PostInfoBar.qml:91
 #, kde-format
 msgid "Direct Message"
 msgstr "प्रत्यक्ष सन्देश"
@@ -1573,7 +3207,15 @@ msgid_plural "%1 boosts"
 msgstr[0] "%1 बूस्ट्"
 msgstr[1] "%1 बूस्ट् करोति"
 
-#: content/ui/PostDelegate/LinkMenu.qml:33 content/ui/PostDelegate/PostMenu.qml:54
+#: content/ui/PostDelegate/LinkMenu.qml:30
+#: content/ui/PostDelegate/PostMenu.qml:51
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy Link"
+msgstr "प्रतिलिपि लिङ्क"
+
+#: content/ui/PostDelegate/LinkMenu.qml:33
+#: content/ui/PostDelegate/PostMenu.qml:54
 #, kde-format
 msgid "Post link copied."
 msgstr "पोस्ट लिङ्क प्रतिलिपिकृत।"
@@ -1582,6 +3224,26 @@ msgstr "पोस्ट लिङ्क प्रतिलिपिकृत।"
 #, kde-format
 msgid "Link preview: %1"
 msgstr "लिङ्क पूर्वावलोकनम्: %1"
+
+#: content/ui/PostDelegate/LinkPreview.qml:204
+#, kde-format
+msgctxt ""
+"@info:label 'More from [this author]', where we put the user's avatar and "
+"name next to this label"
+msgid "More from"
+msgstr "अधिकं तः"
+
+#: content/ui/PostDelegate/LinkPreview.qml:241
+#, kde-format
+msgctxt "@info:label 'This is written by %1'"
+msgid "By %1"
+msgstr "%1 द्वारा"
+
+#: content/ui/PostDelegate/MediaContainer.qml:67
+#, kde-format
+msgctxt "Attachment has alt-text, Short for alt-text"
+msgid "Alt"
+msgstr "सर्वे"
 
 #: content/ui/PostDelegate/MediaContainer.qml:78
 #, kde-format
@@ -1597,6 +3259,12 @@ msgstr "GIF"
 #, kde-format
 msgid "Video"
 msgstr "विडिओ"
+
+#: content/ui/PostDelegate/MediaContainer.qml:125
+#, kde-format
+msgctxt "@title"
+msgid "Media Description"
+msgstr "मीडिया विवरणम्"
 
 #: content/ui/PostDelegate/PostDelegate.qml:102
 #, kde-format
@@ -1618,10 +3286,50 @@ msgstr "छानितम्: %1"
 msgid "Show anyway"
 msgstr "तथापि दर्शयतु"
 
+#: content/ui/PostDelegate/PostDelegate.qml:189
+#, kde-format
+msgctxt "@label"
+msgid "Pinned Post"
+msgstr "पिन्ड पोस्ट"
+
+#: content/ui/PostDelegate/PostDelegate.qml:261
+#, kde-format
+msgctxt "@title"
+msgid "Delete Post"
+msgstr "पदं विलोपयतु"
+
+#: content/ui/PostDelegate/PostDelegate.qml:262
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to delete this post?"
+msgstr "किं भवन्तः निश्चयेन एतत् पदं विलोपयितुम् इच्छन्ति?"
+
+#: content/ui/PostDelegate/PostDelegate.qml:277
+#, kde-format
+msgctxt "@title"
+msgid "Delete & Re-draft Post"
+msgstr "पदं डिलीट एवं पुनः मसौदा तैयार करें"
+
+#: content/ui/PostDelegate/PostDelegate.qml:278
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Are you sure you want to redraft this post? This will delete the original "
+"post."
+msgstr ""
+"किं भवान् निश्चितः अस्ति यत् भवान् अस्य पदस्य पुनः मसौदां कर्तुम् इच्छति? एतेन मूलपोस्ट् "
+"विलोप्यते ।"
+
 #: content/ui/PostDelegate/PostDelegate.qml:342
 #, kde-format
 msgid "<b>Content Notice</b><br /> %1"
 msgstr "<b>सामग्री सूचना</b><br /> %1"
+
+#: content/ui/PostDelegate/PostDelegate.qml:453
+#, kde-format
+msgctxt "Reply to a post"
+msgid "Reply"
+msgstr "उत्तरं"
 
 #: content/ui/PostDelegate/PostDelegate.qml:480
 #, kde-format
@@ -1633,6 +3341,12 @@ msgstr "प्रत्यक्षसन्देशान् वर्धय�
 msgid "Cannot boost private posts"
 msgstr "निजीपदं वर्धयितुं न शक्यते"
 
+#: content/ui/PostDelegate/PostDelegate.qml:484
+#, kde-format
+msgctxt "Share a post"
+msgid "Boost"
+msgstr "संवेग"
+
 #: content/ui/PostDelegate/PostDelegate.qml:489
 #, kde-format
 msgid "Boosted"
@@ -1642,6 +3356,12 @@ msgstr "बूस्टेड्"
 #, kde-format
 msgid "Boost"
 msgstr "संवेग"
+
+#: content/ui/PostDelegate/PostDelegate.qml:509
+#, kde-format
+msgctxt "Favorite a post"
+msgid "Favorite"
+msgstr "प्रिय"
 
 #: content/ui/PostDelegate/PostDelegate.qml:512
 #, kde-format
@@ -1658,6 +3378,12 @@ msgstr "प्रिय"
 msgid "Remove bookmark"
 msgstr "बुकमार्कं निष्कासयन्तु"
 
+#: content/ui/PostDelegate/PostDelegate.qml:531
+#, kde-format
+msgctxt "Bookmark a post"
+msgid "Bookmark"
+msgstr "बुकमार्क"
+
 #: content/ui/PostDelegate/PostDelegate.qml:534
 #, kde-format
 msgid "Bookmarked"
@@ -1671,18 +3397,122 @@ msgstr "बुकमार्क"
 #: content/ui/PostDelegate/PostDelegate.qml:566
 #, kde-format
 msgid ""
-"This post has been marked private. Some posts may be missing because its replies are marked as "
-"private by default."
+"This post has been marked private. Some posts may be missing because its "
+"replies are marked as private by default."
 msgstr ""
-"एतत् पदं निजी इति चिह्नितम् अस्ति। केचन पोस्ट् लुप्ताः भवेयुः यतः तस्य उत्तराणि पूर्वनिर्धारितरूपेण निजी इति "
-"चिह्नितानि सन्ति ।"
+"एतत् पदं निजी इति चिह्नितम् अस्ति। केचन पोस्ट् लुप्ताः भवेयुः यतः तस्य उत्तराणि "
+"पूर्वनिर्धारितरूपेण निजी इति चिह्नितानि सन्ति ।"
 
-#: content/ui/PostDelegate/PostMenu.qml:187 content/ui/StatusComposer/EditorAttachmentGrid.qml:59
+#: content/ui/PostDelegate/PostInfoBar.qml:53
+#, kde-format
+msgctxt "Edited on <datetime>"
+msgid "Edited on %1"
+msgstr "%1 इत्यत्र सम्पादितम्"
+
+#: content/ui/PostDelegate/PostInfoBar.qml:106
+#, kde-format
+msgctxt "Show more options"
+msgid "More actions"
+msgstr "अधिकानि कर्माणि"
+
+#: content/ui/PostDelegate/PostMenu.qml:35
+#, kde-format
+msgctxt "@action:inmenu 'Thread' is a series of posts."
+msgid "Open Thread"
+msgstr "Open Thread इति"
+
+#: content/ui/PostDelegate/PostMenu.qml:62
+#, kde-format
+msgctxt "@action Open embed into website dialog"
+msgid "Embed"
+msgstr "एम्बेड्"
+
+#: content/ui/PostDelegate/PostMenu.qml:77
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open as…"
+msgstr "यथा..."
+
+#: content/ui/PostDelegate/PostMenu.qml:85
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reply as…"
+msgstr "उत्तरं यथा..."
+
+#: content/ui/PostDelegate/PostMenu.qml:93
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Favorite as…"
+msgstr "प्रियं यथा..."
+
+#: content/ui/PostDelegate/PostMenu.qml:101
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Boost as…"
+msgstr "Boost as..."
+
+#: content/ui/PostDelegate/PostMenu.qml:109
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark as…"
+msgstr "बुकमार्कं यथा..."
+
+#: content/ui/PostDelegate/PostMenu.qml:117
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Bookmark"
+msgstr "बुकमार्कं निष्कासयन्तु"
+
+#: content/ui/PostDelegate/PostMenu.qml:117
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Bookmark"
+msgstr "बुकमार्क"
+
+#: content/ui/PostDelegate/PostMenu.qml:125
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unpin on Profile"
+msgstr "प्रोफाइल इत्यत्र अनपिन् कुर्वन्तु"
+
+#: content/ui/PostDelegate/PostMenu.qml:125
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Pin on Profile"
+msgstr "प्रोफाइल इत्यत्र पिन कुर्वन्तु"
+
+#: content/ui/PostDelegate/PostMenu.qml:139
+#, kde-format
+msgctxt "@action:inmenu Unmute account"
+msgid "Unmute @%1"
+msgstr "अप्रसन्नता @%1"
+
+#: content/ui/PostDelegate/PostMenu.qml:141
+#, kde-format
+msgctxt "@action:inmenu Mute account"
+msgid "Mute @%1"
+msgstr "मूक @%1"
+
+#: content/ui/PostDelegate/PostMenu.qml:159
+#, kde-format
+msgctxt "@action:inmenu Unblock account"
+msgid "Unblock @%1"
+msgstr "@%1 अनब्लॉक करू"
+
+#: content/ui/PostDelegate/PostMenu.qml:161
+#, kde-format
+msgctxt "@action:inmenu Block account"
+msgid "Block @%1"
+msgstr "खण्ड @%1"
+
+#: content/ui/PostDelegate/PostMenu.qml:187
+#: content/ui/StatusComposer/EditorAttachmentGrid.qml:59
 #, kde-format
 msgid "Edit"
 msgstr "सम्पादन"
 
-#: content/ui/PostDelegate/PostMenu.qml:195 content/ui/Settings/ProfileEditor.qml:151
+#: content/ui/PostDelegate/PostMenu.qml:195
+#: content/ui/Settings/ProfileEditor.qml:151
 #: content/ui/Settings/ProfileEditor.qml:213
 #, kde-format
 msgid "Delete"
@@ -1692,6 +3522,12 @@ msgstr "लुप्"
 #, kde-format
 msgid "Delete & Re-draft"
 msgstr "विलोपनम् & पुनः मसौदा"
+
+#: content/ui/PostDelegate/PostPoll.qml:41
+#, kde-format
+msgctxt "Votes percentage"
+msgid "%1%"
+msgstr "%1% २."
 
 #: content/ui/PostDelegate/PostPoll.qml:60
 #, kde-format
@@ -1708,6 +3544,12 @@ msgstr "(मतदानं न कुर्वन्तु)"
 msgid "Vote"
 msgstr "मतदान करें"
 
+#: content/ui/PostDelegate/PostPoll.qml:149
+#, kde-format
+msgctxt "@option:check Show poll results"
+msgid "Show Results"
+msgstr "परिणामान् दर्शयतु"
+
 #: content/ui/PostDelegate/PostPoll.qml:155
 #, kde-format
 msgid "Poll has closed"
@@ -1723,6 +3565,12 @@ msgstr "%1 तः पोस्ट् कुर्वन्तु"
 msgid "Quoted post"
 msgstr "उद्धृत पोस्ट"
 
+#: content/ui/PostDelegate/UserInteractionLabel.qml:71
+#, kde-format
+msgctxt "@info Loading user that started this interaction"
+msgid "Loading…"
+msgstr "लोडिंग..."
+
 #: content/ui/PostDelegate/UserInteractionLabel.qml:75
 #, kde-format
 msgid "%1 boosted"
@@ -1733,10 +3581,64 @@ msgstr "%1 बूस्ट् कृतम्"
 msgid "In reply to %1"
 msgstr "%1 इत्यस्य उत्तरे"
 
+#: content/ui/PostDelegate/VideoAttachment.qml:106
+#, kde-format
+msgctxt "@action:button Start media playback"
+msgid "Play"
+msgstr "क्रीडतु"
+
+#: content/ui/ReadMarker.qml:15
+#, kde-format
+msgctxt "Last read on this date"
+msgid "Last read on %1"
+msgstr "%1 इत्यत्र अन्तिमं पठितम्"
+
+#: content/ui/ReportDialog.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Report Post"
+msgstr "रिपोर्ट पोस्ट"
+
+#: content/ui/ReportDialog.qml:22
+#, kde-format
+msgctxt "@title"
+msgid "Report User"
+msgstr "उपयोक्तारं प्रतिवेदयतु"
+
+#: content/ui/ReportDialog.qml:40
+#, kde-format
+msgctxt "@title"
+msgid "Reason for reporting this post"
+msgstr "अस्य पोस्ट् इत्यस्य रिपोर्ट् करणस्य कारणम्"
+
+#: content/ui/ReportDialog.qml:40
+#, kde-format
+msgctxt "@title"
+msgid "Reason for reporting this user"
+msgstr "अस्य उपयोक्तुः सूचनां दातुं कारणम्"
+
+#: content/ui/ReportDialog.qml:55
+#, kde-format
+msgctxt "@action:button 'Report' as in 'Report this to moderators'"
+msgid "Report"
+msgstr "वृत्तान्तः"
+
+#: content/ui/ReportDialog.qml:64
+#, kde-format
+msgctxt "@action"
+msgid "Cancel"
+msgstr "निरसयतु"
+
 #: content/ui/SearchDelegate.qml:102 content/ui/SearchView.qml:159
 #, kde-format
 msgid "Hashtag"
 msgstr "हैशटैग"
+
+#: content/ui/SearchPage.qml:16
+#, kde-format
+msgctxt "@title"
+msgid "Search"
+msgstr "अन्वेषण"
 
 #: content/ui/SearchView.qml:38
 #, kde-format
@@ -1758,10 +3660,17 @@ msgstr "उपयोक्तारः, टैग्, पोस्ट् च अ
 msgid "Edit Account"
 msgstr "खाता सम्पादयतु"
 
-#: content/ui/Settings/AccountPage.qml:46 content/ui/Settings/ProfileEditor.qml:31
+#: content/ui/Settings/AccountPage.qml:46
+#: content/ui/Settings/ProfileEditor.qml:31
 #, kde-format
 msgid "Please choose a file"
 msgstr "कृपया सञ्चिकां चिनोतु"
+
+#: content/ui/Settings/AccountPage.qml:55
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to log out of %1?"
+msgstr "किं भवान् निश्चितः यत् भवान् %1 तः बहिः गन्तुम् इच्छति?"
 
 #: content/ui/Settings/AccountPage.qml:77
 #, kde-format
@@ -1776,11 +3685,13 @@ msgstr "नूतनानां अनुयायिनां कृते अ
 #: content/ui/Settings/AccountPage.qml:129
 #, kde-format
 msgid ""
-"By default new followers are automatically accepted. Uncheck if you want to manually approve "
-"or deny new ones. You always have the option to force someone to unfollow you."
+"By default new followers are automatically accepted. Uncheck if you want to "
+"manually approve or deny new ones. You always have the option to force "
+"someone to unfollow you."
 msgstr ""
-"पूर्वनिर्धारितरूपेण नूतनाः अनुयायिनः स्वयमेव स्वीक्रियन्ते । यदि भवान् नूतनान् स्वहस्तेन अनुमोदयितुम् अथवा अङ्गीकुर्वितुं "
-"इच्छति तर्हि अचेक् कुर्वन्तु । भवतः सदैव विकल्पः भवति यत् कस्मैचित् भवतः अनुसरणं न कर्तुं बाध्यं कुर्वन्तु।"
+"पूर्वनिर्धारितरूपेण नूतनाः अनुयायिनः स्वयमेव स्वीक्रियन्ते । यदि भवान् नूतनान् स्वहस्तेन "
+"अनुमोदयितुम् अथवा अङ्गीकुर्वितुं इच्छति तर्हि अचेक् कुर्वन्तु । भवतः सदैव विकल्पः भवति यत् "
+"कस्मैचित् भवतः अनुसरणं न कर्तुं बाध्यं कुर्वन्तु।"
 
 #: content/ui/Settings/AccountPage.qml:138
 #, kde-format
@@ -1789,7 +3700,8 @@ msgstr "स्वचालितं भवति"
 
 #: content/ui/Settings/AccountPage.qml:139
 #, kde-format
-msgid "Whether to publicly mark this account as doing any kind of automated actions."
+msgid ""
+"Whether to publicly mark this account as doing any kind of automated actions."
 msgstr "किं सार्वजनिकरूपेण एतत् खातं किमपि प्रकारस्य स्वचालितं कार्यं कुर्वन् इति चिह्नितव्यम्।"
 
 #: content/ui/Settings/AccountPage.qml:148
@@ -1800,7 +3712,8 @@ msgstr "फीचर प्रोफाइल तथा पोस्ट्"
 #: content/ui/Settings/AccountPage.qml:149
 #, kde-format
 msgid "Your public profile and posts may be featured to other users."
-msgstr "भवतः सार्वजनिकप्रोफाइलः, पोस्ट् च अन्येभ्यः उपयोक्तृभ्यः प्रदर्शिताः भवितुम् अर्हन्ति ।"
+msgstr ""
+"भवतः सार्वजनिकप्रोफाइलः, पोस्ट् च अन्येभ्यः उपयोक्तृभ्यः प्रदर्शिताः भवितुम् अर्हन्ति ।"
 
 #: content/ui/Settings/AccountPage.qml:158
 #, kde-format
@@ -1811,12 +3724,61 @@ msgstr "सार्वजनिकरूपेण अनुसरणं अन�
 #, kde-format
 msgid "By default everyone you follow and everyone who follows you is public."
 msgstr ""
-"पूर्वनिर्धारितरूपेण भवन्तः येषां सर्वेषां अनुसरणं कुर्वन्ति, ये च भवतः अनुसरणं कुर्वन्ति ते सर्वे सार्वजनिकाः सन्ति।"
+"पूर्वनिर्धारितरूपेण भवन्तः येषां सर्वेषां अनुसरणं कुर्वन्ति, ये च भवतः अनुसरणं कुर्वन्ति ते सर्वे "
+"सार्वजनिकाः सन्ति।"
+
+#: content/ui/Settings/AccountPage.qml:168
+#, kde-format
+msgctxt "@label Account preferences"
+msgid "Mark uploaded media as sensitive by default"
+msgstr "अपलोड् कृतं माध्यमं पूर्वनिर्धारितरूपेण संवेदनशीलं इति चिह्नितव्यम्"
+
+#: content/ui/Settings/AccountPage.qml:177
+#, kde-format
+msgctxt "@label Account preferences"
+msgid "Default post language"
+msgstr "पूर्वनिर्धारित पोस्ट भाषा"
+
+#: content/ui/Settings/AccountPage.qml:199
+#, kde-format
+msgctxt "@label Account preferences"
+msgid "Default post visibility"
+msgstr "पूर्वनिर्धारित पोस्ट दृश्यता"
+
+#: content/ui/Settings/AccountPage.qml:201
+#, kde-format
+msgctxt "@item:inlistbox Default post visibility rule"
+msgid "Public"
+msgstr "सार्वजनिक"
+
+#: content/ui/Settings/AccountPage.qml:202
+#, kde-format
+msgctxt "@item:inlistbox Default post visibility rule"
+msgid "Unlisted"
+msgstr "असूचीकृतम्"
+
+#: content/ui/Settings/AccountPage.qml:203
+#, kde-format
+msgctxt "@item:inlistbox Default post visibility rule"
+msgid "Private"
+msgstr "वैयक्तिक"
+
+#: content/ui/Settings/AccountPage.qml:215
+#, kde-format
+msgctxt "@abel Account preferences"
+msgid "Open Server in Browser"
+msgstr "ब्राउजर् मध्ये Server उद्घाटयन्तु"
 
 #: content/ui/Settings/AccountPage.qml:216
 #, kde-format
 msgid "Some settings can only be configured on your server's website."
 msgstr "केचन सेटिङ्ग्स् केवलं भवतः सर्वरस्य जालपुटे विन्यस्तुं शक्यन्ते ।"
+
+#: content/ui/Settings/AppearancePage.qml:18
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr "सामान्य"
 
 #: content/ui/Settings/AppearancePage.qml:25
 #, kde-format
@@ -1836,11 +3798,11 @@ msgstr "यत्र अन्तिमवारं त्यक्तवान�
 #: content/ui/Settings/AppearancePage.qml:59
 #, kde-format
 msgid ""
-"If checked, the Home timeline will begin where you last read. The position in the timeline is "
-"shared with other clients."
+"If checked, the Home timeline will begin where you last read. The position "
+"in the timeline is shared with other clients."
 msgstr ""
-"यदि चेक् कृतं तर्हि Home timeline आरभ्यते यत्र भवान् अन्तिमं पठितवान् । समयरेखायां स्थितिः अन्यैः ग्राहकैः सह "
-"साझा भवति ।"
+"यदि चेक् कृतं तर्हि Home timeline आरभ्यते यत्र भवान् अन्तिमं पठितवान् । समयरेखायां स्थितिः "
+"अन्यैः ग्राहकैः सह साझा भवति ।"
 
 #: content/ui/Settings/AppearancePage.qml:72
 #, kde-format
@@ -1849,8 +3811,18 @@ msgstr "स्वतः अद्यतनं समयरेखाः कुर
 
 #: content/ui/Settings/AppearancePage.qml:73
 #, kde-format
-msgid "If checked, Tokodon will automatically update certain timelines as new posts come in."
-msgstr "यदि चेक् क्रियते तर्हि नूतनाः पोस्ट् आगच्छन्ति चेत् Tokodon स्वयमेव कतिपयानि समयरेखाः अद्यतनं करिष्यति।"
+msgid ""
+"If checked, Tokodon will automatically update certain timelines as new posts "
+"come in."
+msgstr ""
+"यदि चेक् क्रियते तर्हि नूतनाः पोस्ट् आगच्छन्ति चेत् Tokodon स्वयमेव कतिपयानि समयरेखाः अद्यतनं "
+"करिष्यति।"
+
+#: content/ui/Settings/AppearancePage.qml:84
+#, kde-format
+msgctxt "@title:group"
+msgid "Posts"
+msgstr "पद"
 
 #: content/ui/Settings/AppearancePage.qml:90
 #, kde-format
@@ -1872,6 +3844,12 @@ msgstr "सामग्री फॉन्ट"
 msgid "Please choose a font"
 msgstr "कृपया एकं फ़ॉन्ट् चिनुत"
 
+#: content/ui/Settings/AppearancePage.qml:137
+#, kde-format
+msgctxt "@title:group"
+msgid "Media"
+msgstr "मीडिया"
+
 #: content/ui/Settings/AppearancePage.qml:143
 #, kde-format
 msgid "Crop images on the timeline"
@@ -1879,13 +3857,53 @@ msgstr "समयरेखायां चित्राणि क्रॉप�
 
 #: content/ui/Settings/AppearancePage.qml:144
 #, kde-format
-msgid "If unchecked, posts with only one image attached will be uncropped and shown in full."
-msgstr "यदि अनिरीक्षितं भवति तर्हि केवलं एकं चित्रं संलग्नं पोस्ट् अनक्रॉप् कृत्वा पूर्णतया दर्शितं भविष्यति ।"
+msgid ""
+"If unchecked, posts with only one image attached will be uncropped and shown "
+"in full."
+msgstr ""
+"यदि अनिरीक्षितं भवति तर्हि केवलं एकं चित्रं संलग्नं पोस्ट् अनक्रॉप् कृत्वा पूर्णतया दर्शितं "
+"भविष्यति ।"
 
 #: content/ui/Settings/AppearancePage.qml:158
 #, kde-format
 msgid "Auto-play animated GIFs"
 msgstr "एनिमेटेड् GIFs स्वयमेव प्ले कुर्वन्तु"
+
+#: content/ui/Settings/EditProfilePage.qml:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Profile"
+msgstr "प्रोफाइल सम्पादयतु"
+
+#: content/ui/Settings/ErrorLogPage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Error Log"
+msgstr "त्रुटिलेखः"
+
+#: content/ui/Settings/ErrorLogPage.qml:22
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Clear All"
+msgstr "सर्वं स्वच्छं कुर्वन्तु"
+
+#: content/ui/Settings/ErrorLogPage.qml:72
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy To Clipboard"
+msgstr "Copy To Clipboard इति"
+
+#: content/ui/Settings/ErrorLogPage.qml:87
+#, kde-format
+msgctxt "@label"
+msgid "No Errors"
+msgstr "No Errors इति"
+
+#: content/ui/Settings/NetworkProxyPage.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Network Proxy"
+msgstr "संजाल प्रॉक्सी"
 
 #: content/ui/Settings/NetworkProxyPage.qml:24
 #, kde-format
@@ -1922,7 +3940,8 @@ msgstr "पोताश्रय"
 msgid "User"
 msgstr "उपयोक्ता"
 
-#: content/ui/Settings/NetworkProxyPage.qml:141 content/ui/Settings/ProfileEditor.qml:279
+#: content/ui/Settings/NetworkProxyPage.qml:141
+#: content/ui/Settings/ProfileEditor.qml:279
 #, kde-format
 msgid "Apply"
 msgstr "आचरतु"
@@ -1940,13 +3959,109 @@ msgstr "यदा Tokodon न चाल्यते तदा अपि सू�
 #: content/ui/Settings/NotificationsPage.qml:34
 #, kde-format
 msgid ""
-"Push notifications are available but could not be enabled. Please log out and log back in."
-msgstr "पुश सूचनाः उपलभ्यन्ते परन्तु सक्षमाः कर्तुं न शक्तवन्तः । कृपया प्रवेशं कृत्वा पुनः प्रवेशं कुर्वन्तु।"
+"Push notifications are available but could not be enabled. Please log out "
+"and log back in."
+msgstr ""
+"पुश सूचनाः उपलभ्यन्ते परन्तु सक्षमाः कर्तुं न शक्तवन्तः । कृपया प्रवेशं कृत्वा पुनः प्रवेशं कुर्वन्तु।"
 
 #: content/ui/Settings/NotificationsPage.qml:37
 #, kde-format
 msgid "Notifications will only appear when Tokodon is running."
 msgstr "सूचनाः केवलं तदा एव दृश्यन्ते यदा Tokodon चालितं भवति।"
+
+#: content/ui/Settings/NotificationsPage.qml:49
+#, kde-format
+msgctxt "@title:group"
+msgid "Filtering Policy"
+msgstr "छानननीतिः"
+
+#: content/ui/Settings/NotificationsPage.qml:59
+#, kde-format
+msgctxt "@info:Option Accept and show this in notifications"
+msgid "Accept"
+msgstr "स्वीकरोतु"
+
+#: content/ui/Settings/NotificationsPage.qml:63
+#, kde-format
+msgctxt "@info:Option Filter and send to the filtered inbox"
+msgid "Filter"
+msgstr "फ़िल्टर"
+
+#: content/ui/Settings/NotificationsPage.qml:67
+#, kde-format
+msgctxt "@info:Option Ignore completely, do not show notification"
+msgid "Ignore"
+msgstr "उपेक्षा"
+
+#: content/ui/Settings/NotificationsPage.qml:75
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "People you don't follow"
+msgstr "भवन्तः येषां जनानां अनुसरणं न कुर्वन्ति"
+
+#: content/ui/Settings/NotificationsPage.qml:76
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "Until you manually approve them."
+msgstr "यावत् भवन्तः तान् हस्तचलितरूपेण अनुमोदयन्ति।"
+
+#: content/ui/Settings/NotificationsPage.qml:82
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "People not following you"
+msgstr "जनाः भवन्तं न अनुसृत्य"
+
+#: content/ui/Settings/NotificationsPage.qml:83
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "Including people who have been following you fewer than 3 days."
+msgstr "३ दिवसाभ्यः न्यूनानि भवतः अनुसरणं कृतवन्तः जनाः अपि समाविष्टाः।"
+
+#: content/ui/Settings/NotificationsPage.qml:89
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "New accounts"
+msgstr "नवीनलेखाः"
+
+#: content/ui/Settings/NotificationsPage.qml:90
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "Created within the past 30 days."
+msgstr "विगत ३० दिवसेषु निर्मितम्।"
+
+#: content/ui/Settings/NotificationsPage.qml:96
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "Unsolicited conversations"
+msgstr "अयाचितसंभाषणानि"
+
+#: content/ui/Settings/NotificationsPage.qml:97
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid ""
+"Filtered unless it's in reply to your own mention or if you follow the "
+"sender."
+msgstr ""
+"यावत् भवतः स्वस्य उल्लेखस्य उत्तरे अथवा यदि भवान् प्रेषकस्य अनुसरणं करोति तावत् यावत् फ़िल्टर "
+"कृतम्।"
+
+#: content/ui/Settings/NotificationsPage.qml:103
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "Moderated accounts"
+msgstr "संचालक लेखा"
+
+#: content/ui/Settings/NotificationsPage.qml:104
+#, kde-format
+msgctxt "@label Notification preferences"
+msgid "Limited by server moderators."
+msgstr "सर्वर-मॉडरेटर्-द्वारा सीमितम् ।"
+
+#: content/ui/Settings/NotificationsPage.qml:111
+#, kde-format
+msgctxt "@title:group"
+msgid "Events"
+msgstr "घटनाः"
 
 #: content/ui/Settings/NotificationsPage.qml:119
 #, kde-format
@@ -1955,8 +4070,10 @@ msgstr "उल्लेखः"
 
 #: content/ui/Settings/NotificationsPage.qml:120
 #, kde-format
-msgid "When someone mentions you in a new post, or replies to one of your threads."
-msgstr "यदा कश्चन भवतः उल्लेखं नूतने पोस्ट् मध्ये करोति, अथवा भवतः एकस्य सूत्रस्य उत्तरं ददाति।"
+msgid ""
+"When someone mentions you in a new post, or replies to one of your threads."
+msgstr ""
+"यदा कश्चन भवतः उल्लेखं नूतने पोस्ट् मध्ये करोति, अथवा भवतः एकस्य सूत्रस्य उत्तरं ददाति।"
 
 #: content/ui/Settings/NotificationsPage.qml:132
 #, kde-format
@@ -2051,11 +4168,11 @@ msgstr "विच्छिन्नसम्बन्धाः"
 #: content/ui/Settings/NotificationsPage.qml:256
 #, kde-format
 msgid ""
-"When you or your server moderates another server, which you are following users or have "
-"followers with."
+"When you or your server moderates another server, which you are following "
+"users or have followers with."
 msgstr ""
-"यदा भवान् वा भवतः सर्वरः अन्यस्य सर्वरस्य संचालनं करोति, यस्य सह भवान् उपयोक्तृन् अनुसृत्य अस्ति अथवा अनुयायिनः "
-"सन्ति ।"
+"यदा भवान् वा भवतः सर्वरः अन्यस्य सर्वरस्य संचालनं करोति, यस्य सह भवान् उपयोक्तृन् अनुसृत्य "
+"अस्ति अथवा अनुयायिनः सन्ति ।"
 
 #: content/ui/Settings/ProfileEditor.qml:59
 #, kde-format
@@ -2086,6 +4203,12 @@ msgstr "अवतार"
 #, kde-format
 msgid "PNG, GIF or JPG. At most 2 MB. Will be downscaled to 400x400px"
 msgstr "PNG, GIF अथवा JPG। अधिकतमं २ एमबी । 400x400px यावत् न्यूनीकृतं भविष्यति"
+
+#: content/ui/Settings/ProfileEditor.qml:228
+#, kde-format
+msgctxt "Profile fields"
+msgid "Fields"
+msgstr "क्षेत्राणि"
 
 #: content/ui/Settings/ProfileEditor.qml:272
 #, kde-format
@@ -2132,6 +4255,13 @@ msgstr "त्रुटिलेखः"
 msgid "About Tokodon"
 msgstr "टोकोडोन् विषये"
 
+#: content/ui/Settings/TokodonConfigurationView.qml:65
+#: content/ui/Settings/TokodonConfigurationView.qml:72
+#, kde-format
+msgctxt "@title:group"
+msgid "About"
+msgstr "विषये"
+
 #: content/ui/Settings/TokodonConfigurationView.qml:69
 #, kde-format
 msgid "About KDE"
@@ -2142,29 +4272,185 @@ msgstr "KDE विषये"
 msgid "Sharing failed"
 msgstr "साझेदारी असफलम् अभवत्"
 
+#: content/ui/SocialGraphPage.qml:64
+#, kde-format
+msgctxt "@action:button Allow follow request"
+msgid "Allow"
+msgstr "अनुमन्यताम्‌"
+
+#: content/ui/SocialGraphPage.qml:71
+#, kde-format
+msgctxt "@action:button Deny follow request"
+msgid "Deny"
+msgstr "अपह्नुते"
+
+#: content/ui/SocialGraphPage.qml:78
+#, kde-format
+msgctxt "@action:button Deny follow request"
+msgid "Unfollow"
+msgstr "अनफॉलो करें"
+
+#: content/ui/SocialGraphPage.qml:85
+#, kde-format
+msgctxt "@action:button Deny follow request"
+msgid "Remove Follower"
+msgstr "अनुयायी निष्कासित करें"
+
+#: content/ui/SocialGraphPage.qml:92
+#, kde-format
+msgctxt "@action:button Deny follow request"
+msgid "Remove"
+msgstr "अपाकरोति"
+
 #: content/ui/StandaloneComposer.qml:58
 #, kde-format
 msgid "No accounts available"
 msgstr "न खातानि उपलब्धानि"
+
+#: content/ui/StatusComposer/AttachmentInfoDialog.qml:97
+#, kde-format
+msgctxt "@title:group Alternate text or description of the image"
+msgid "Description"
+msgstr "वर्णनम्‌"
+
+#: content/ui/StatusComposer/AttachmentInfoDialog.qml:115
+#, kde-format
+msgctxt "@title:group"
+msgid "Focal point"
+msgstr "केन्द्रबिन्दु"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:43
+#, kde-format
+msgctxt "@label:textbox Poll choice"
+msgid "Choice %1"
+msgstr "विकल्पः %1"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:67
+#, kde-format
+msgctxt "@action:intoolbar Poll toolbar"
+msgid "Add Choice"
+msgstr "विकल्पं योजयतु"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:68
+#, kde-format
+msgctxt "@info:tooltip Poll toolbar"
+msgid "Add a new poll choice"
+msgstr "नूतनं मतदानविकल्पं योजयन्तु"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:87
+#, kde-format
+msgctxt "@info:tooltip Poll toolbar"
+msgid "When the poll will expire"
+msgstr "यदा मतदानस्य अवधिः समाप्तः भविष्यति"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:96
+#, kde-format
+msgctxt "@option:check Poll toolbar"
+msgid "Multiple choice"
+msgstr "बहुविकल्पः"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:102
+#, kde-format
+msgctxt "@info:tooltip Poll toolbar"
+msgid "Allow multiple choices"
+msgstr "बहुविधविकल्पानां अनुमतिं ददातु"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:111
+#, kde-format
+msgctxt "@option:check Poll toolbar"
+msgid "Hide totals"
+msgstr "कुलम् गोपयन्तु"
+
+#: content/ui/StatusComposer/ComposerPoll.qml:117
+#, kde-format
+msgctxt "@info:tooltip Poll toolbar"
+msgid "Hide vote count until the poll ends"
+msgstr "मतदानस्य समाप्तिपर्यन्तं मतगणना गोपयन्तु"
 
 #: content/ui/StatusComposer/EditorAttachmentGrid.qml:96
 #, kde-format
 msgid "Remove"
 msgstr "अपाकरोति"
 
+#: content/ui/StatusComposer/StatusComposer.qml:56
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit This Post"
+msgstr "एतत् पदं सम्पादयतु"
+
+#: content/ui/StatusComposer/StatusComposer.qml:58
+#, kde-format
+msgctxt "@title:window"
+msgid "Reply to This Post"
+msgstr "अस्य पोस्ट् इत्यस्य उत्तरम्"
+
+#: content/ui/StatusComposer/StatusComposer.qml:60
+#, kde-format
+msgctxt "@title:window"
+msgid "Rewrite This Post"
+msgstr "इदं पदं पुनः लिखन्तु"
+
+#: content/ui/StatusComposer/StatusComposer.qml:62
+#, kde-format
+msgctxt "@title:window"
+msgid "Write a New Post"
+msgstr "New Post लिखें"
+
+#: content/ui/StatusComposer/StatusComposer.qml:68
+#, kde-format
+msgctxt "@action Pop out the status composer"
+msgid "Pop Out"
+msgstr "Pop Out इति"
+
 #: content/ui/StatusComposer/StatusComposer.qml:131
 #, kde-format
 msgid "Saving an edited post that has a poll will clear existing results."
 msgstr "सम्पादितं पदं रक्षित्वा यस्मिन् मतदानं भवति तत् विद्यमानं परिणामं स्वच्छं करिष्यति।"
 
+#: content/ui/StatusComposer/StatusComposer.qml:138
+#, kde-format
+msgctxt "@title"
+msgid "Discard Draft"
+msgstr "मसौदा परित्यजतु"
+
+#: content/ui/StatusComposer/StatusComposer.qml:139
+#, kde-format
+msgctxt "@label"
+msgid "Are you sure you want to discard your draft?"
+msgstr "किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः स्वस्य मसौदां परित्यक्तुं इच्छन्ति?"
+
+#: content/ui/StatusComposer/StatusComposer.qml:145
+#, kde-format
+msgctxt "@action:button Keep this draft"
+msgid "Keep"
+msgstr "स्थापय"
+
+#: content/ui/StatusComposer/StatusComposer.qml:257
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Content notice"
+msgstr "सामग्रीसूचना"
+
+#: content/ui/StatusComposer/StatusComposer.qml:271
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "What's new?"
+msgstr "किं नूतनम् ?"
+
+#: content/ui/StatusComposer/StatusComposer.qml:409
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a File"
+msgstr "एकं सञ्चिकां चिनोतु"
+
 #: content/ui/StatusComposer/StatusComposer.qml:412
 #, kde-format
 msgid ""
-"All supported formats (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.avif *.webm *.mp4 *.m4v "
-"*.mov)"
+"All supported formats (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.avif "
+"*.webm *.mp4 *.m4v *.mov)"
 msgstr ""
-"सर्वे समर्थिताः प्रारूपाः (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.avif *.webm *.mp4 *.m4v "
-"*.mov)"
+"सर्वे समर्थिताः प्रारूपाः (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.avif *."
+"webm *.mp4 *.m4v *.mov)"
 
 #: content/ui/StatusComposer/StatusComposer.qml:413
 #, kde-format
@@ -2226,6 +4512,102 @@ msgstr "त्वरितसमयविडियो (*.mov)"
 msgid "All files (*)"
 msgstr "सर्वाणि सञ्चिकाः (*) ."
 
+#: content/ui/StatusComposer/StatusComposer.qml:426
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Attach file"
+msgstr "सञ्चिकां संलग्नं कुर्वन्तु"
+
+#: content/ui/StatusComposer/StatusComposer.qml:437
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add poll"
+msgstr "मतदानं योजयतु"
+
+#: content/ui/StatusComposer/StatusComposer.qml:449
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Content Notice"
+msgstr "सामग्री सूचना"
+
+#: content/ui/StatusComposer/StatusComposer.qml:486
+#, kde-format
+msgctxt "@item:inmenu Local to this server"
+msgid "Local"
+msgstr "स्थानिक"
+
+#: content/ui/StatusComposer/StatusComposer.qml:492
+#, kde-format
+msgctxt "@item:inmenu Public to the world"
+msgid "Public"
+msgstr "सार्वजनिक"
+
+#: content/ui/StatusComposer/StatusComposer.qml:497
+#, kde-format
+msgctxt "@item:inmenu Public but less so"
+msgid "Unlisted"
+msgstr "असूचीकृतम्"
+
+#: content/ui/StatusComposer/StatusComposer.qml:502
+#, kde-format
+msgctxt "@item:inmenu Only to followers"
+msgid "Private"
+msgstr "वैयक्तिक"
+
+#: content/ui/StatusComposer/StatusComposer.qml:507
+#, kde-format
+msgctxt "@item:inmenu Only to who is explicitly mentioned"
+msgid "Direct Message"
+msgstr "प्रत्यक्ष सन्देश"
+
+#: content/ui/StatusComposer/StatusComposer.qml:512
+#, kde-format
+msgctxt "@info:tooltip Post visibility"
+msgid "Visibility"
+msgstr "दृश्यता"
+
+#: content/ui/StatusComposer/StatusComposer.qml:519
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Post language"
+msgstr "पोस्ट भाषा"
+
+#: content/ui/StatusComposer/StatusComposer.qml:553
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add emoji"
+msgstr "इमोजी योजयतु"
+
+#: content/ui/StatusComposer/StatusComposer.qml:583
+#, kde-format
+msgctxt "@label Character count in the status composer"
+msgid "<b>%1/%2</b> characters"
+msgstr "<b>%1/%2</b> वर्णाः"
+
+#: content/ui/StatusComposer/StatusComposer.qml:607
+#, kde-format
+msgctxt "@action:button Send a post"
+msgid "Send"
+msgstr "प्रेषयतु"
+
+#: content/ui/StatusComposer/StatusComposer.qml:609
+#, kde-format
+msgctxt "@action:button Reply to a post"
+msgid "Reply"
+msgstr "उत्तरं"
+
+#: content/ui/StatusComposer/StatusComposer.qml:611
+#, kde-format
+msgctxt "@action:button Send the same post again"
+msgid "Repost"
+msgstr "पुनः पोस्ट करें"
+
+#: content/ui/StatusComposer/StatusComposer.qml:613
+#, kde-format
+msgctxt "@action:Button Save an edited a post"
+msgid "Save"
+msgstr "रक्ष्"
+
 #: content/ui/TimelinePage.qml:39 timeline/accountmodel.cpp:41
 #, kde-format
 msgid "Loading"
@@ -2245,6 +4627,18 @@ msgstr "Boosts दर्शयतु"
 #, kde-format
 msgid "Show Replies"
 msgstr "उत्तराणि दर्शयतु"
+
+#: content/ui/TimelinePage.qml:121
+#, kde-format
+msgctxt "@info:status Network status"
+msgid "Failed to contact server: %1. Please check your settings."
+msgstr "सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य सेटिङ्ग्स् पश्यन्तु।"
+
+#: content/ui/TimelinePage.qml:158
+#, kde-format
+msgctxt "@action:button Load more posts above this"
+msgid "Load More"
+msgstr "अधिकं लोडं कुर्वन्तु"
 
 #: content/ui/UserInfo.qml:96
 #, kde-format
@@ -2287,2509 +4681,6 @@ msgstr "सूचीयाः सदस्याः"
 #, kde-format
 msgid "Any followed users"
 msgstr "अनुसृताः केचन उपयोक्तारः"
-
-#: editor/posteditorbackend.cpp:282
-#, kde-format
-msgid "An unknown error occurred."
-msgstr "अज्ञातदोषः अभवत् ।"
-
-#: main.cpp:69
-#, kde-format
-msgid "Receiving push notifications"
-msgstr "पुश सूचनाः प्राप्य"
-
-#: main.cpp:116
-#, kde-format
-msgid "Tokodon"
-msgstr "तोकोदोन्"
-
-#: main.cpp:118 main.cpp:143
-#, kde-format
-msgid "Browse the Fediverse"
-msgstr "Fediverse ब्राउज् कुर्वन्तु"
-
-#: main.cpp:120
-#, kde-format
-msgid "© 2021-2024 KDE Community"
-msgstr "© 2021-2024 केडीई समुदाय"
-
-#: main.cpp:121
-#, kde-format
-msgid "Carl Schwan"
-msgstr "कार्ल स्वान्"
-
-#: main.cpp:122 main.cpp:127
-#, kde-format
-msgid "Maintainer"
-msgstr "परिपालकः"
-
-#: main.cpp:126
-#, kde-format
-msgid "Joshua Goins"
-msgstr "जोशुआ गोइन्स"
-
-#: main.cpp:144
-#, kde-format
-msgid "Supports https and web+ap url scheme"
-msgstr "https तथा web+ap url योजना समर्थयति"
-
-#: main.cpp:146
-#, kde-format
-msgid "Share a line of text in the standalone composer."
-msgstr "स्वतन्त्रे संगीतकारे पाठस्य एकां पङ्क्तिं साझां कुर्वन्तु।"
-
-#: main.cpp:146
-#, kde-format
-msgid "The text to share."
-msgstr "भागं कर्तुं पाठः।"
-
-#: main.cpp:150
-#, kde-format
-msgid "Internal usage only."
-msgstr "आन्तरिकप्रयोगमात्रम् ।"
-
-#: notification/notificationmodel.cpp:98
-#, kde-format
-msgid "Error occurred when fetching the latest notification."
-msgstr "नवीनतमसूचनाम् आनयन् त्रुटिः अभवत् ।"
-
-#: timeline/tagsmodel.cpp:27
-#, kde-format
-msgid "Trending"
-msgstr "प्रवृत्तिः"
-
-#: utils/filetransferjob.cpp:36
-#, kde-format
-msgid "Could not open the temporary download file"
-msgstr "अस्थायी अवतरणं सञ्चिकां उद्घाटयितुं न शक्तवान्"
-
-#: utils/filetransferjob.cpp:78
-#, kde-format
-msgid "Could not reserve disk space for download"
-msgstr "डाउनलोड् कृते डिस्कस्थानं आरक्षितुं न शक्तवान्"
-
-#: utils/texthandler.cpp:177
-#, kde-format
-msgid "in the future"
-msgstr "भविष्ये"
-
-#: utils/texthandler.cpp:179
-#, kde-format
-msgid "%1s"
-msgstr "%1s"
-
-#: utils/texthandler.cpp:181
-#, kde-format
-msgid "%1m"
-msgstr "%1म्"
-
-#: utils/texthandler.cpp:183
-#, kde-format
-msgid "%1h"
-msgstr "%1h"
-
-#: utils/texthandler.cpp:194
-#, kde-format
-msgid "Today"
-msgstr "अद्य"
-
-#: utils/texthandler.cpp:196
-#, kde-format
-msgid "%1d"
-msgstr "%1d"
-
-#: utils/texthandler.cpp:200
-#, kde-format
-msgid "1 week ago"
-msgid_plural "%1 weeks ago"
-msgstr[0] "%1 सप्ताहपूर्वम्"
-msgstr[1] "%1 सप्ताहपूर्वम्"
-
-#: utils/texthandler.cpp:203
-#, kde-format
-msgid "1 month ago"
-msgid_plural "%1 months ago"
-msgstr[0] "%1 मासपूर्वम्"
-msgstr[1] "%1  मासपूर्वम्"
-
-#: utils/texthandler.cpp:207
-#, kde-format
-msgid "1 year ago"
-msgid_plural "%1 years ago"
-msgstr[0] "%1 वर्षपूर्वम्"
-msgstr[1] "%1 वर्षपूर्वम्"
-
-#: account/socialgraphmodel.cpp:32
-#, kde-format
-msgctxt "@title"
-msgid "Follow Requests"
-msgstr "अनुरोधानाम् अनुसरणं कुर्वन्तु"
-
-#: account/socialgraphmodel.cpp:34
-#, kde-format
-msgctxt "@title"
-msgid "Followers"
-msgstr "अनुयायिनः"
-
-#: account/socialgraphmodel.cpp:36
-#, kde-format
-msgctxt "@title"
-msgid "Following"
-msgstr "अनुसरण"
-
-#: account/socialgraphmodel.cpp:38
-#, kde-format
-msgctxt "@title"
-msgid "Muted Users"
-msgstr "म्यूट् उपयोक्तारः"
-
-#: account/socialgraphmodel.cpp:40
-#, kde-format
-msgctxt "@title"
-msgid "Blocked Users"
-msgstr "अवरुद्धाः उपयोक्तारः"
-
-#: account/socialgraphmodel.cpp:42
-#, kde-format
-msgctxt "@title"
-msgid "Featured Users"
-msgstr "विशेषतायुक्ताः उपयोक्तारः"
-
-#: account/socialgraphmodel.cpp:44
-#, kde-format
-msgctxt "@title"
-msgid "%1 favorite"
-msgid_plural "%1 favorites"
-msgstr[0] "%1 प्रियम्"
-msgstr[1] "%1 प्रियाः"
-
-#: account/socialgraphmodel.cpp:46
-#, kde-format
-msgctxt "@title"
-msgid "%1 boost"
-msgid_plural "%1 boosts"
-msgstr[0] "%1 बूस्ट्"
-msgstr[1] "%1 बूस्ट् करोति"
-
-#: account/socialgraphmodel.cpp:48
-#, kde-format
-msgctxt "@title"
-msgid "Familiar Followers"
-msgstr "परिचित अनुयायी"
-
-#: account/socialgraphmodel.cpp:50
-#, kde-format
-msgctxt "@title"
-msgid "Manage List Users"
-msgstr "सूची उपयोक्तारः प्रबन्धयन्तु"
-
-#: content/ui/ConversationPage.qml:29
-#, kde-format
-msgctxt "@title"
-msgid "Search Users"
-msgstr "उपयोक्तारः अन्वेष्टुम्"
-
-#: content/ui/EditListPage.qml:118
-#, kde-format
-msgctxt "@title"
-msgid "Add Users to List…"
-msgstr "सूचीयां उपयोक्तारः योजयन्तु..."
-
-#: content/ui/EditListPage.qml:260
-#, kde-format
-msgctxt "@title"
-msgid "Deleting List"
-msgstr "सूचीं विलोपयति"
-
-#: content/ui/LanguageSelector.qml:25
-#, kde-format
-msgctxt "@title"
-msgid "Select Language"
-msgstr "भाषां चिनोतु"
-
-#: content/ui/ListsPage.qml:18
-#, kde-format
-msgctxt "@title"
-msgid "Lists"
-msgstr "सूचीः"
-
-#: content/ui/LoginFlow/LoginIssuePage.qml:75 content/ui/Settings/AccountPage.qml:54
-#, kde-format
-msgctxt "@title"
-msgid "Logout"
-msgstr "लॉगआउट्"
-
-#: content/ui/Main.qml:129
-#, kde-format
-msgctxt "@title"
-msgid "Open As…"
-msgstr "Open As..."
-
-#: content/ui/Main.qml:131
-#, kde-format
-msgctxt "@title"
-msgid "Reply As…"
-msgstr "उत्तरं यथा..."
-
-#: content/ui/Main.qml:133
-#, kde-format
-msgctxt "@title"
-msgid "Favorite As…"
-msgstr "प्रियं यथा..."
-
-#: content/ui/Main.qml:135
-#, kde-format
-msgctxt "@title"
-msgid "Boost As…"
-msgstr "Boost As..."
-
-#: content/ui/Main.qml:137
-#, kde-format
-msgctxt "@title"
-msgid "Bookmark As…"
-msgstr "बुकमार्क यथा..."
-
-#: content/ui/Main.qml:139
-#, kde-format
-msgctxt "@title"
-msgid "Unknown Action"
-msgstr "अज्ञात कर्म"
-
-#: content/ui/Main.qml:730
-#, kde-format
-msgctxt "@title"
-msgid "Embed Information"
-msgstr "सूचनां सम्मिलितं कुर्वन्तु"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:31
-#, kde-format
-msgctxt "@title"
-msgid "E-Mail Domain Info"
-msgstr "ई-मेल डोमेन सूचना"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:92
-#, kde-format
-msgctxt "@title"
-msgid "New E-Mail Domain Block"
-msgstr "नवीन ई-मेल डोमेन खण्डः"
-
-#: content/ui/ModerationTools/ModerationToolsView.qml:14
-#, kde-format
-msgctxt "@title"
-msgid "Accounts"
-msgstr "लेखा"
-
-#: content/ui/ModerationTools/ModerationToolsView.qml:26
-#, kde-format
-msgctxt "@title"
-msgid "Federation"
-msgstr "महासंघ"
-
-#: content/ui/ModerationTools/ModerationToolsView.qml:32
-#, kde-format
-msgctxt "@title"
-msgid "IP Rules"
-msgstr "IP नियमाः"
-
-#: content/ui/ModerationTools/ModerationToolsView.qml:38
-#, kde-format
-msgctxt "@title"
-msgid "Email Blocks"
-msgstr "ईमेल ब्लॉक्स"
-
-#: content/ui/PostDelegate/MediaContainer.qml:125
-#, kde-format
-msgctxt "@title"
-msgid "Media Description"
-msgstr "मीडिया विवरणम्"
-
-#: content/ui/PostDelegate/PostDelegate.qml:261
-#, kde-format
-msgctxt "@title"
-msgid "Delete Post"
-msgstr "पदं विलोपयतु"
-
-#: content/ui/PostDelegate/PostDelegate.qml:277
-#, kde-format
-msgctxt "@title"
-msgid "Delete & Re-draft Post"
-msgstr "पदं डिलीट एवं पुनः मसौदा तैयार करें"
-
-#: content/ui/ReportDialog.qml:22
-#, kde-format
-msgctxt "@title"
-msgid "Report Post"
-msgstr "रिपोर्ट पोस्ट"
-
-#: content/ui/ReportDialog.qml:22
-#, kde-format
-msgctxt "@title"
-msgid "Report User"
-msgstr "उपयोक्तारं प्रतिवेदयतु"
-
-#: content/ui/ReportDialog.qml:40
-#, kde-format
-msgctxt "@title"
-msgid "Reason for reporting this post"
-msgstr "अस्य पोस्ट् इत्यस्य रिपोर्ट् करणस्य कारणम्"
-
-#: content/ui/ReportDialog.qml:40
-#, kde-format
-msgctxt "@title"
-msgid "Reason for reporting this user"
-msgstr "अस्य उपयोक्तुः सूचनां दातुं कारणम्"
-
-#: content/ui/SearchPage.qml:16
-#, kde-format
-msgctxt "@title"
-msgid "Search"
-msgstr "अन्वेषण"
-
-#: content/ui/StatusComposer/StatusComposer.qml:138
-#, kde-format
-msgctxt "@title"
-msgid "Discard Draft"
-msgstr "मसौदा परित्यजतु"
-
-#: timeline/maintimelinemodel.cpp:29
-#, kde-format
-msgctxt "@title"
-msgid "Home"
-msgstr "गृहम्‌"
-
-#: timeline/maintimelinemodel.cpp:31
-#, kde-format
-msgctxt "@title"
-msgid "Local"
-msgstr "स्थानिक"
-
-#: timeline/maintimelinemodel.cpp:33
-#, kde-format
-msgctxt "@title"
-msgid "Global"
-msgstr "वैश्विक"
-
-#: timeline/maintimelinemodel.cpp:35
-#, kde-format
-msgctxt "@title"
-msgid "Bookmarks"
-msgstr "बुकमार्क्स"
-
-#: timeline/maintimelinemodel.cpp:37
-#, kde-format
-msgctxt "@title"
-msgid "Favorites"
-msgstr "प्रियाः"
-
-#: timeline/maintimelinemodel.cpp:39
-#, kde-format
-msgctxt "@title"
-msgid "Trending"
-msgstr "प्रवृत्तिः"
-
-#: timeline/threadmodel.cpp:50
-#, kde-format
-msgctxt "@title"
-msgid "Post by %1"
-msgstr "%1 द्वारा पोस्ट करें"
-
-#: account/suggestionsmodel.cpp:51
-#, kde-format
-msgctxt "@title:window"
-msgid "Suggested Users"
-msgstr "सुझाताः उपयोक्तारः"
-
-#: content/ui/AccountInfo.qml:36 content/ui/AccountInfo.qml:45
-#, kde-format
-msgctxt "@title:window"
-msgid "Profile"
-msgstr "रूपरेखा"
-
-#: content/ui/EditListPage.qml:29
-#, kde-format
-msgctxt "@title:window"
-msgid "Create List"
-msgstr "सूची रचयन्तु"
-
-#: content/ui/EditListPage.qml:29
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit List"
-msgstr "सूची सम्पादयतु"
-
-#: content/ui/InitialSetup/SetupNotifications.qml:19
-#, kde-format
-msgctxt "@title:window"
-msgid "Notifications"
-msgstr "अधिसूचना"
-
-#: content/ui/InitialSetup/SetupPassword.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Password Service"
-msgstr "गुप्तशब्द सेवा"
-
-#: content/ui/InitialSetup/SetupWelcome.qml:17 content/ui/LoginFlow/WelcomePage.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Welcome"
-msgstr "स्वागतम्‌"
-
-#: content/ui/LoginFlow/BaseAuthorization.qml:26
-#, kde-format
-msgctxt "@title:window"
-msgid "Authorization"
-msgstr "प्राधिकरणम्"
-
-#: content/ui/LoginFlow/LoginIssuePage.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Login Issue"
-msgstr "प्रवेश मुद्दा"
-
-#: content/ui/LoginFlow/LoginPage.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Login"
-msgstr "प्रवेशः"
-
-#: content/ui/LoginFlow/RegistrationPage.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Registration"
-msgstr "पञ्जीकरण"
-
-#: content/ui/LoginFlow/RulesPage.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Rules"
-msgstr "नियमाः"
-
-#: content/ui/LoginFlow/ServersPage.qml:21
-#, kde-format
-msgctxt "@title:window"
-msgid "Pick a Server"
-msgstr "एकं Server चिनुत"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:51
-#, kde-format
-msgctxt "@title:window"
-msgid "Update IP Rule"
-msgstr "IP नियमं अद्यतनं कुर्वन्तु"
-
-#: content/ui/NotificationPage.qml:34
-#, kde-format
-msgctxt "@title:window"
-msgid "Notification Settings"
-msgstr "सूचना सेटिंग्स्"
-
-#: content/ui/Settings/EditProfilePage.qml:26
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit Profile"
-msgstr "प्रोफाइल सम्पादयतु"
-
-#: content/ui/Settings/ErrorLogPage.qml:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Error Log"
-msgstr "त्रुटिलेखः"
-
-#: content/ui/Settings/NetworkProxyPage.qml:15
-#, kde-format
-msgctxt "@title:window"
-msgid "Network Proxy"
-msgstr "संजाल प्रॉक्सी"
-
-#: content/ui/StatusComposer/StatusComposer.qml:56
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit This Post"
-msgstr "एतत् पदं सम्पादयतु"
-
-#: content/ui/StatusComposer/StatusComposer.qml:58
-#, kde-format
-msgctxt "@title:window"
-msgid "Reply to This Post"
-msgstr "अस्य पोस्ट् इत्यस्य उत्तरम्"
-
-#: content/ui/StatusComposer/StatusComposer.qml:60
-#, kde-format
-msgctxt "@title:window"
-msgid "Rewrite This Post"
-msgstr "इदं पदं पुनः लिखन्तु"
-
-#: content/ui/StatusComposer/StatusComposer.qml:62
-#, kde-format
-msgctxt "@title:window"
-msgid "Write a New Post"
-msgstr "New Post लिखें"
-
-#: content/ui/StatusComposer/StatusComposer.qml:409
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose a File"
-msgstr "एकं सञ्चिकां चिनोतु"
-
-#: timeline/threadmodel.cpp:45
-#, kde-format
-msgctxt "@title:window"
-msgid "Loading…"
-msgstr "लोडिंग..."
-
-#: timeline/trendingnewsmodel.cpp:55
-#, kde-format
-msgctxt "@title:window"
-msgid "Trending News"
-msgstr "ट्रेण्डिंग न्यूज"
-
-#: admin/adminaccountinfo.cpp:24
-#, kde-format
-msgctxt "login status"
-msgid "Suspended"
-msgstr "निलंबित"
-
-#: admin/adminaccountinfo.cpp:26
-#, kde-format
-msgctxt "login status"
-msgid "Limited"
-msgstr "सीमित"
-
-#: admin/adminaccountinfo.cpp:28
-#, kde-format
-msgctxt "login status"
-msgid "Sensitized"
-msgstr "संवेदनशीलः"
-
-#: admin/adminaccountinfo.cpp:30
-#, kde-format
-msgctxt "login status"
-msgid "Frozen"
-msgstr "संशीत"
-
-#: admin/adminaccountinfo.cpp:32
-#, kde-format
-msgctxt "login status"
-msgid "Email Not confirmed"
-msgstr "ईमेल पुष्टिः न कृता"
-
-#: admin/adminaccountinfo.cpp:34
-#, kde-format
-msgctxt "login status"
-msgid "Not Approved"
-msgstr "न अनुमोदितम्"
-
-#: admin/adminaccountinfo.cpp:36
-#, kde-format
-msgctxt "login status"
-msgid "No Limits Imposed"
-msgstr "न सीमाः आरोपिताः"
-
-#: content/ui/AccountHeader.qml:102
-#, kde-format
-msgctxt ""
-"'Mutual' is the common English word used in social media platforms describe people who follow "
-"you back. This the same meaning as 'mutual friends', for example."
-msgid "Mutual"
-msgstr "पारस्परिक"
-
-#: content/ui/AccountHeader.qml:365 content/ui/PostDelegate/PostMenu.qml:177
-#, kde-format
-msgctxt "@action:inmenu Report this post"
-msgid "Report…"
-msgstr "वृत्तान्तः…"
-
-#: content/ui/AccountHeader.qml:390 content/ui/PostDelegate/LinkMenu.qml:22
-#: content/ui/PostDelegate/PostMenu.qml:43
-#, kde-format
-msgctxt "@action:inmenu 'Browser' being a web browser"
-msgid "Open in Browser"
-msgstr "ब्राउजर् मध्ये उद्घाटयन्तु"
-
-#: content/ui/AccountHeader.qml:468
-#, kde-format
-msgctxt "@info:label Joined at"
-msgid "Joined"
-msgstr "सम्मिलितः"
-
-#: content/ui/AccountHeader.qml:563
-#, kde-format
-msgctxt "@label:textfield"
-msgid "Private Note:"
-msgstr "निजी टिप्पणी : १."
-
-#: content/ui/AccountHeader.qml:678
-#, kde-format
-msgctxt "@action:button See all familiar followers"
-msgid "View %1 More"
-msgstr "%1 अधिकं पश्यन्तु"
-
-#: content/ui/AccountHeader.qml:678
-#, kde-format
-msgctxt "@action:button See all familiar followers"
-msgid "View All"
-msgstr "सर्वाणि पश्यन्तु"
-
-#: content/ui/AccountHeader.qml:718
-#, kde-format
-msgctxt "@label User's number of statuses"
-msgid "<b>%1</b> post"
-msgid_plural "<b>%1</b> posts"
-msgstr[0] "<b>%1</b> पदम्"
-msgstr[1] "<b>%1</b> पोस्ट्"
-
-#: content/ui/AccountHeader.qml:731
-#, kde-format
-msgctxt "@label User's number of followed accounts"
-msgid "<b>%1</b> follows"
-msgid_plural "<b>%1</b> following"
-msgstr[0] "<b>%1</b> अनुवर्तते"
-msgstr[1] "<b>%1</b> अनुसरणं करोति"
-
-#: content/ui/AccountHeader.qml:744
-#, kde-format
-msgctxt "@label User's number of followers"
-msgid "<b>%1</b> follower"
-msgid_plural "<b>%1</b> followers"
-msgstr[0] "<b>%1</b> अनुयायी"
-msgstr[1] "<b>%1</b> अनुयायिनः"
-
-#: content/ui/AccountHeader.qml:769
-#, kde-format
-msgctxt "@item:inmenu Profile Post Filter"
-msgid "Posts"
-msgstr "पद"
-
-#: content/ui/AccountHeader.qml:773
-#, kde-format
-msgctxt "@item:inmenu Profile Post Filter"
-msgid "Posts && Replies"
-msgstr "पोस्ट && उत्तर"
-
-#: content/ui/AccountHeader.qml:777
-#, kde-format
-msgctxt "@item:inmenu Profile Post Filter"
-msgid "Media"
-msgstr "मीडिया"
-
-#: content/ui/AccountHeader.qml:808
-#, kde-format
-msgctxt "@option:check"
-msgid "Hide boosts"
-msgstr "बूस्ट्स् गोपयन्तु"
-
-#: content/ui/AccountHeader.qml:828
-#, kde-format
-msgctxt "@action:button Show all of a profile's posts"
-msgid "All"
-msgstr "सर्वे"
-
-#: content/ui/AccountInfo.qml:125
-#, kde-format
-msgctxt "@label"
-msgid "No Posts"
-msgstr "No Posts"
-
-#: content/ui/AccountInfo.qml:222
-#, kde-format
-msgctxt "@label"
-msgid "No Media"
-msgstr "न औसतम्"
-
-#: content/ui/AnnouncementsPage.qml:69
-#, kde-format
-msgctxt "@label"
-msgid "No Announcements"
-msgstr "न घोषणाः"
-
-#: content/ui/EditListPage.qml:69
-#, kde-format
-msgctxt "@label"
-msgid "Show replies for"
-msgstr "कृते उत्तराणि दर्शयतु"
-
-#: content/ui/EditListPage.qml:261
-#, kde-format
-msgctxt "@label"
-msgid "Are you sure you want to delete this list?"
-msgstr "किं भवान् निश्चितः अस्ति यत् भवान् एतां सूचीं विलोपयितुम् इच्छति?"
-
-#: content/ui/ExplorePage.qml:135
-#, kde-format
-msgctxt "@label"
-msgid "No Trending Tags"
-msgstr "No Trending Tags नास्ति"
-
-#: content/ui/LoginFlow/LoginIssuePage.qml:76
-#, kde-format
-msgctxt "@label"
-msgid "Are you sure you want to log out?"
-msgstr "किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः लॉग आउट् कर्तुम् इच्छन्ति?"
-
-#: content/ui/ModerationTools/IpRulePage.qml:156 content/ui/ModerationTools/MainIpRulePage.qml:29
-#, kde-format
-msgctxt "@label"
-msgid "Limit sign-ups"
-msgstr "पञ्जीकरणं सीमितं कुर्वन्तु"
-
-#: content/ui/ModerationTools/IpRulePage.qml:158 content/ui/ModerationTools/MainIpRulePage.qml:31
-#, kde-format
-msgctxt "@label"
-msgid "Block sign-ups"
-msgstr "पञ्जीकरणं अवरुद्धं कुर्वन्तु"
-
-#: content/ui/ModerationTools/IpRulePage.qml:160 content/ui/ModerationTools/MainIpRulePage.qml:33
-#, kde-format
-msgctxt "@label"
-msgid "Block access"
-msgstr "प्रवेशं अवरुद्धं कुर्वन्तु"
-
-#: content/ui/PostDelegate/PostDelegate.qml:189
-#, kde-format
-msgctxt "@label"
-msgid "Pinned Post"
-msgstr "पिन्ड पोस्ट"
-
-#: content/ui/PostDelegate/PostDelegate.qml:262
-#, kde-format
-msgctxt "@label"
-msgid "Are you sure you want to delete this post?"
-msgstr "किं भवन्तः निश्चयेन एतत् पदं विलोपयितुम् इच्छन्ति?"
-
-#: content/ui/PostDelegate/PostDelegate.qml:278
-#, kde-format
-msgctxt "@label"
-msgid "Are you sure you want to redraft this post? This will delete the original post."
-msgstr "किं भवान् निश्चितः अस्ति यत् भवान् अस्य पदस्य पुनः मसौदां कर्तुम् इच्छति? एतेन मूलपोस्ट् विलोप्यते ।"
-
-#: content/ui/Settings/AccountPage.qml:55
-#, kde-format
-msgctxt "@label"
-msgid "Are you sure you want to log out of %1?"
-msgstr "किं भवान् निश्चितः यत् भवान् %1 तः बहिः गन्तुम् इच्छति?"
-
-#: content/ui/Settings/ErrorLogPage.qml:87
-#, kde-format
-msgctxt "@label"
-msgid "No Errors"
-msgstr "No Errors इति"
-
-#: content/ui/StatusComposer/StatusComposer.qml:139
-#, kde-format
-msgctxt "@label"
-msgid "Are you sure you want to discard your draft?"
-msgstr "किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः स्वस्य मसौदां परित्यक्तुं इच्छन्ति?"
-
-#: content/ui/AnnouncementsPage.qml:18
-#, kde-format
-msgctxt "@title Server-wide announcements set by admins."
-msgid "Announcements"
-msgstr "उद्घोषणानि"
-
-#: content/ui/AnnouncementsPage.qml:41
-#, kde-format
-msgctxt "@label An announcement was published on a date"
-msgid "Announcement on %1"
-msgstr "%1 इत्यत्र घोषणा"
-
-#: content/ui/Components/TimelineView.qml:73
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Return to Top"
-msgstr "Top - मध्ये पुनः आगच्छन्तु"
-
-#: content/ui/PostDelegate/AttachmentGrid.qml:327
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Hide media"
-msgstr "माध्यमं गोपयन्तु"
-
-#: content/ui/StatusComposer/StatusComposer.qml:426
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Attach file"
-msgstr "सञ्चिकां संलग्नं कुर्वन्तु"
-
-#: content/ui/StatusComposer/StatusComposer.qml:437
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Add poll"
-msgstr "मतदानं योजयतु"
-
-#: content/ui/StatusComposer/StatusComposer.qml:449
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Content Notice"
-msgstr "सामग्री सूचना"
-
-#: content/ui/StatusComposer/StatusComposer.qml:519
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Post language"
-msgstr "पोस्ट भाषा"
-
-#: content/ui/StatusComposer/StatusComposer.qml:553
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Add emoji"
-msgstr "इमोजी योजयतु"
-
-#: content/ui/Components/TimelineView.qml:137
-#, kde-format
-msgctxt "@info:status"
-msgid "Some replies are not available"
-msgstr "केचन उत्तराणि न प्राप्यन्ते"
-
-#: content/ui/Components/TimelineView.qml:150
-#, kde-format
-msgctxt "@info:status"
-msgid "End of Timeline"
-msgstr "कालरेखायाः समाप्तिः"
-
-#: content/ui/Components/TimelineView.qml:141
-#, kde-format
-msgctxt "@action:button 'Browser' being a web browser"
-msgid "Open in Browser"
-msgstr "ब्राउजर् मध्ये उद्घाटयन्तु"
-
-#: content/ui/ConversationPage.qml:18
-#, kde-format
-msgctxt "@action:intoolbar"
-msgid "New Conversation…"
-msgstr "नवीनं वार्तालापः..."
-
-#: content/ui/NotificationPage.qml:33
-#, kde-format
-msgctxt "@action:intoolbar"
-msgid "Configure Notifications…"
-msgstr "सूचनाः विन्यस्यताम्..."
-
-#: content/ui/Settings/ErrorLogPage.qml:22
-#, kde-format
-msgctxt "@action:intoolbar"
-msgid "Clear All"
-msgstr "सर्वं स्वच्छं कुर्वन्तु"
-
-#: content/ui/Debug/DebugPage.qml:24
-#, kde-format
-msgctxt "@action:button"
-msgid "Increase follow request count"
-msgstr "अनुसरणं अनुरोधगणनां वर्धयन्तु"
-
-#: content/ui/Debug/DebugPage.qml:28
-#, kde-format
-msgctxt "@action:button"
-msgid "Decrease follow request count"
-msgstr "अनुसरणं अनुरोधगणना न्यूनीकरोतु"
-
-#: content/ui/ExplorePage.qml:35 content/ui/TimelinePage.qml:85
-#, kde-format
-msgctxt "@action:button"
-msgid "Post"
-msgstr "पद"
-
-#: content/ui/FollowingPage.qml:43 content/ui/TimelinePage.qml:91
-#, kde-format
-msgctxt "@action:button"
-msgid "Filters"
-msgstr "फ़िल्टर"
-
-#: content/ui/LanguageSelector.qml:50
-#, kde-format
-msgctxt "@action:button"
-msgid "Close"
-msgstr "पिधानं करोतु"
-
-#: content/ui/LoginFlow/WelcomePage.qml:123
-#, kde-format
-msgctxt "@action:button"
-msgid "Compatible with Mastodon"
-msgstr "मस्टोडन् इत्यनेन सह सङ्गतम्"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:17
-#, kde-format
-msgctxt "@action:button"
-msgid "Create Email Block"
-msgstr "ईमेल ब्लॉक रचयन्तु"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:73
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:111
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:78
-#, kde-format
-msgctxt "@action:button"
-msgid "Delete email block"
-msgstr "ईमेलखण्डं विलोपयन्तु"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:116
-#, kde-format
-msgctxt "@action:button"
-msgid "Resolve domain"
-msgstr "डोमेन समाधान करें"
-
-#: content/ui/ModerationTools/IpRulePage.qml:17
-#, kde-format
-msgctxt "@action:button"
-msgid "Create Rule"
-msgstr "नियम रचयतु"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:207
-#, kde-format
-msgctxt "@action:button"
-msgid "Update IP Rule"
-msgstr "IP नियमं अद्यतनं कुर्वन्तु"
-
-#: content/ui/PostDelegate/AttachmentGrid.qml:323
-#, kde-format
-msgctxt "@action:button"
-msgid "Hide Media"
-msgstr "मीडिया गोपयन्तु"
-
-#: content/ui/Settings/ErrorLogPage.qml:72
-#, kde-format
-msgctxt "@action:button"
-msgid "Copy To Clipboard"
-msgstr "Copy To Clipboard इति"
-
-#: tokodonapplication.cpp:59
-#, kde-format
-msgctxt "@action:button"
-msgid "Switch to '%1'"
-msgstr "'%1' इत्यत्र स्विच कुर्वन्तु।"
-
-#: tokodonapplication.cpp:60 tokodonapplication.cpp:123
-#, kde-format
-msgctxt "@action:button"
-msgid "Configure '%1'"
-msgstr "'%1' विन्यस्यताम्।"
-
-#: tokodonapplication.cpp:67
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Account"
-msgstr "खाता योजयतु"
-
-#: tokodonapplication.cpp:82
-#, kde-format
-msgctxt "@action:button"
-msgid "Write a New Post"
-msgstr "New Post लिखें"
-
-#: tokodonapplication.cpp:115
-#, kde-format
-msgctxt "@action:button"
-msgid "Switch '%1'"
-msgstr "'%1' स्विच कुर्वन्तु।"
-
-#: content/ui/EditListPage.qml:61
-#, kde-format
-msgctxt "@label:textbox List title"
-msgid "Title"
-msgstr "शीर्षक"
-
-#: content/ui/EditListPage.qml:81
-#, kde-format
-msgctxt "@label If the list is exclusive"
-msgid "Exclusive"
-msgstr "अनन्य"
-
-#: content/ui/EditListPage.qml:90
-#, kde-format
-msgctxt "@action:button Delete the list"
-msgid "Manage Users"
-msgstr "उपयोक्तृन् प्रबन्धयन्तु"
-
-#: content/ui/EditListPage.qml:253
-#, kde-format
-msgctxt "@action:button Delete the list"
-msgid "Delete"
-msgstr "लुप्"
-
-#: content/ui/EditListPage.qml:107
-#, kde-format
-msgctxt "@action:intoolbar Add users to list"
-msgid "Add Users"
-msgstr "उपयोक्तारः योजयन्तु"
-
-#: content/ui/EditListPage.qml:157
-#, kde-format
-msgctxt "@action:button Add user to this list"
-msgid "Add"
-msgstr "संयोजयति"
-
-#: content/ui/EditListPage.qml:238
-#, kde-format
-msgctxt "@action:button Create the list"
-msgid "Create"
-msgstr "निर्मियताम्"
-
-#: content/ui/EditListPage.qml:240
-#, kde-format
-msgctxt "@action:button Edit the list"
-msgid "Edit"
-msgstr "सम्पादन"
-
-#: content/ui/FollowingPage.qml:20
-#, kde-format
-msgctxt "@title 'Following' as in the users you're following on Mastodon."
-msgid "Following"
-msgstr "अनुसरण"
-
-#: content/ui/FollowingPage.qml:48
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Show Boosts"
-msgstr "Boosts दर्शयतु"
-
-#: content/ui/FollowingPage.qml:56
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Show Replies"
-msgstr "उत्तराणि दर्शयतु"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:40
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Remove IP Rule"
-msgstr "IP Rule इत्येतत् निष्कासयन्तु"
-
-#: content/ui/PostDelegate/LinkMenu.qml:30 content/ui/PostDelegate/PostMenu.qml:51
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Copy Link"
-msgstr "प्रतिलिपि लिङ्क"
-
-#: content/ui/PostDelegate/PostMenu.qml:77
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Open as…"
-msgstr "यथा..."
-
-#: content/ui/PostDelegate/PostMenu.qml:85
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Reply as…"
-msgstr "उत्तरं यथा..."
-
-#: content/ui/PostDelegate/PostMenu.qml:93
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Favorite as…"
-msgstr "प्रियं यथा..."
-
-#: content/ui/PostDelegate/PostMenu.qml:101
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Boost as…"
-msgstr "Boost as..."
-
-#: content/ui/PostDelegate/PostMenu.qml:109
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Bookmark as…"
-msgstr "बुकमार्कं यथा..."
-
-#: content/ui/PostDelegate/PostMenu.qml:117
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Remove Bookmark"
-msgstr "बुकमार्कं निष्कासयन्तु"
-
-#: content/ui/PostDelegate/PostMenu.qml:117
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Bookmark"
-msgstr "बुकमार्क"
-
-#: content/ui/PostDelegate/PostMenu.qml:125
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Unpin on Profile"
-msgstr "प्रोफाइल इत्यत्र अनपिन् कुर्वन्तु"
-
-#: content/ui/PostDelegate/PostMenu.qml:125
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Pin on Profile"
-msgstr "प्रोफाइल इत्यत्र पिन कुर्वन्तु"
-
-#: content/ui/LoginFlow/LoginPage.qml:24 content/ui/LoginFlow/RegistrationPage.qml:25
-#: content/ui/LoginFlow/RegistrationPage.qml:36 content/ui/LoginFlow/RulesPage.qml:25
-#: content/ui/LoginFlow/ServersPage.qml:29
-#, kde-format
-msgctxt "@info:status Network status"
-msgid "Failed to contact server: %1. Please check your proxy settings."
-msgstr "सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य प्रॉक्सी सेटिंग्स् पश्यन्तु।"
-
-#: content/ui/TimelinePage.qml:121
-#, kde-format
-msgctxt "@info:status Network status"
-msgid "Failed to contact server: %1. Please check your settings."
-msgstr "सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य सेटिङ्ग्स् पश्यन्तु।"
-
-#: content/ui/LoginFlow/LoginPage.qml:100
-#, kde-format
-msgctxt "@title:group"
-msgid "Login"
-msgstr "प्रवेशः"
-
-#: content/ui/LoginFlow/RegistrationPage.qml:94
-#, kde-format
-msgctxt "@title:group"
-msgid "Register"
-msgstr "पंजीकर्"
-
-#: content/ui/LoginFlow/RulesPage.qml:47
-#, kde-format
-msgctxt "@title:group"
-msgid "Rules"
-msgstr "नियमाः"
-
-#: content/ui/Settings/AppearancePage.qml:18
-#, kde-format
-msgctxt "@title:group"
-msgid "General"
-msgstr "सामान्य"
-
-#: content/ui/Settings/AppearancePage.qml:84
-#, kde-format
-msgctxt "@title:group"
-msgid "Posts"
-msgstr "पद"
-
-#: content/ui/Settings/AppearancePage.qml:137
-#, kde-format
-msgctxt "@title:group"
-msgid "Media"
-msgstr "मीडिया"
-
-#: content/ui/Settings/NotificationsPage.qml:49
-#, kde-format
-msgctxt "@title:group"
-msgid "Filtering Policy"
-msgstr "छानननीतिः"
-
-#: content/ui/Settings/NotificationsPage.qml:111
-#, kde-format
-msgctxt "@title:group"
-msgid "Events"
-msgstr "घटनाः"
-
-#: content/ui/Settings/TokodonConfigurationView.qml:65
-#: content/ui/Settings/TokodonConfigurationView.qml:72
-#, kde-format
-msgctxt "@title:group"
-msgid "About"
-msgstr "विषये"
-
-#: content/ui/StatusComposer/AttachmentInfoDialog.qml:115
-#, kde-format
-msgctxt "@title:group"
-msgid "Focal point"
-msgstr "केन्द्रबिन्दु"
-
-#: content/ui/LoginFlow/RulesPage.qml:81
-#, kde-format
-msgctxt "@action:button Agree to server rules"
-msgid "Agree"
-msgstr "अङ्गीकरोतु"
-
-#: content/ui/LoginFlow/RulesPage.qml:99
-#, kde-format
-msgctxt "@action:button Disagree to server rules"
-msgid "Disagree"
-msgstr "असहमतः"
-
-#: content/ui/LoginFlow/WebViewAuthorization.qml:22
-#, kde-format
-msgctxt "@action:button Open in external web browser"
-msgid "Open Externally"
-msgstr "बाह्यरूपेण उद्घाटयतु"
-
-#: content/ui/LoginFlow/WelcomePage.qml:49
-#, kde-format
-msgctxt "@info"
-msgid "Tokodon"
-msgstr "तोकोदोन्"
-
-#: content/ui/LoginFlow/WelcomePage.qml:58
-#, kde-format
-msgctxt "@info"
-msgid "Browse the Fediverse and connect with people on Mastodon (and other compatible software)."
-msgstr "Fediverse ब्राउज् कृत्वा Mastodon (अन्ये च संगतसॉफ्टवेयर्) इत्यत्र जनानां सह सम्बद्धतां कुर्वन्तु ।"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:163
-#, kde-format
-msgctxt "@info"
-msgid "%1 sign-up attempts over the last week"
-msgstr "%1 गतसप्ताहे पञ्जीकरणप्रयासाः"
-
-#: content/ui/LoginFlow/WelcomePage.qml:74
-#, kde-format
-msgctxt "@action:button Pick a Mastodon server"
-msgid "Pick a Server"
-msgstr "एकं Server चिनुत"
-
-#: content/ui/LoginFlow/WelcomePage.qml:84
-#, kde-format
-msgctxt "@action:button Use an existing Mastodon account"
-msgid "Use an Existing Account"
-msgstr "विद्यमानं खातेः उपयोगं कुर्वन्तु"
-
-#: content/ui/LoginFlow/WelcomePage.qml:99
-#, kde-format
-msgctxt "@action:button Application settings"
-msgid "Settings"
-msgstr "सेटिंग्स्"
-
-#: content/ui/LoginFlow/WelcomePage.qml:113
-#, kde-format
-msgctxt "@info Compatible with Mastodon"
-msgid "Compatible with"
-msgstr "सह सङ्गतम्"
-
-#: content/ui/Main.qml:543
-#, kde-format
-msgctxt "@action:button Server Announcements"
-msgid "Announcements"
-msgstr "उद्घोषणानि"
-
-#: content/ui/Main.qml:581
-#, kde-format
-msgctxt "@action:button Open debug page"
-msgid "Debug"
-msgstr "त्रुटिनिवारणम्"
-
-#: content/ui/Main.qml:591
-#, kde-format
-msgctxt "@action:button Open moderation tools"
-msgid "Moderation Tools"
-msgstr "संयमसाधनम्"
-
-#: content/ui/Main.qml:598
-#, kde-format
-msgctxt "@action:button Open settings dialog"
-msgid "Settings"
-msgstr "सेटिंग्स्"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:40
-#, kde-format
-msgctxt "@info:placeholder Username for searching accounts"
-msgid "Username:"
-msgstr "उपयोक्तृनाम : १."
-
-#: content/ui/ModerationTools/AccountToolPage.qml:45
-#, kde-format
-msgctxt "@info:placeholder display name for searching accounts"
-msgid "Display Name:"
-msgstr "प्रदर्शननाम : १."
-
-#: content/ui/ModerationTools/AccountToolPage.qml:50
-#, kde-format
-msgctxt "@info:placeholder email for searching accounts"
-msgid "Email:"
-msgstr "ईमेलः १."
-
-#: content/ui/ModerationTools/AccountToolPage.qml:55
-#, kde-format
-msgctxt "@info:placeholder ip for searching accounts"
-msgid "IP:"
-msgstr "IP: ."
-
-#: content/ui/ModerationTools/AccountToolPage.qml:62
-#, kde-format
-msgctxt "@info:Search button to initiate searching accounts"
-msgid "Search"
-msgstr "अन्वेषण"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:73
-#, kde-format
-msgctxt "@info:Reset button to reset all the text fields"
-msgid "Reset"
-msgstr "पुनः सेट् करें"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:78
-#: content/ui/ModerationTools/FederationToolPage.qml:140
-#: content/ui/ModerationTools/FederationToolPage.qml:171
-#: content/ui/ModerationTools/IpRulePage.qml:121
-#: content/ui/ModerationTools/MainFederationToolPage.qml:110
-#, kde-format
-msgctxt "@info:Cancel button to close the dailog"
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:95
-#, kde-format
-msgctxt "@info:Location combobox to choose location filters"
-msgid "Location"
-msgstr "स्थानीय"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:108
-#, kde-format
-msgctxt "@info:Filter out accounts from any location"
-msgid "All"
-msgstr "सर्वे"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:112
-#, kde-format
-msgctxt "@info:Filter out local accounts"
-msgid "Local"
-msgstr "स्थानिक"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:116
-#, kde-format
-msgctxt "@info:Filter out remote accounts"
-msgid "Remote"
-msgstr "दूरस्थ"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:130
-#, kde-format
-msgctxt "@info:Moderation Status combobox to choose between different moderation status filters"
-msgid "Moderation Status"
-msgstr "संयमस्थितिः"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:141
-#, kde-format
-msgctxt "@info:Filter out accounts with any moderation status"
-msgid "All"
-msgstr "सर्वे"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:145
-#, kde-format
-msgctxt "@info:Filter out accounts with active moderation status"
-msgid "Active"
-msgstr "सक्रियं"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:149
-#, kde-format
-msgctxt "@info:Filter out accounts with pending moderation status"
-msgid "Pending"
-msgstr "विचाराधीनः"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:153
-#, kde-format
-msgctxt "@info:Filter out accounts with disabled moderation status"
-msgid "Disabled"
-msgstr "अक्षमित"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:157
-#, kde-format
-msgctxt "@info:Filter out accounts with silenced moderation status"
-msgid "Silenced"
-msgstr "मौनम्"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:161
-#, kde-format
-msgctxt "@info:Filter out accounts with suspended moderation status"
-msgid "Suspended"
-msgstr "निलंबित"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:174
-#, kde-format
-msgctxt "@info:Role combobox to choose between different role filters"
-msgid "Role"
-msgstr "भूमिका"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:188
-#, kde-format
-msgctxt "@info:Filter out accounts with any role"
-msgid "All"
-msgstr "सर्वे"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:192
-#, kde-format
-msgctxt "@info:Filter out accounts with moderator role"
-msgid "Moderator"
-msgstr "संचालकः"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:196
-#, kde-format
-msgctxt "@info:Filter out accounts with admin role"
-msgid "Admin"
-msgstr "एडमिनिस्ट्री"
-
-#: content/ui/ModerationTools/AccountToolPage.qml:200
-#, kde-format
-msgctxt "@info:Filter out accounts with owner role"
-msgid "Owner"
-msgstr "स्वामी"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:40
-#, kde-format
-msgctxt "@info The domain on which the block is imposed"
-msgid "Email domain name"
-msgstr "ईमेल डोमेन नाम"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:48
-#, kde-format
-msgctxt "@info Time when the block was imposed."
-msgid "Block created at"
-msgstr "इत्यत्र निर्मितः खण्डः"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:56
-#, kde-format
-msgctxt ""
-"@info The counted accounts signup attempts using that email domain within the last week."
-msgid "Account sign-up attempts in this week"
-msgstr "अस्मिन् सप्ताहे खातापञ्जीकरणस्य प्रयासाः"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:64
-#, kde-format
-msgctxt "@info The counted IP signup attempts of that email domain within that day."
-msgid "IP sign-up attempts in this week"
-msgstr "अस्मिन् सप्ताहे IP पञ्जीकरणस्य प्रयासाः"
-
-#: content/ui/ModerationTools/EmailBlockToolPage.qml:102
-#, kde-format
-msgctxt "@info The domain on which the block will be imposed"
-msgid "Domain *"
-msgstr "क्षेत्र *"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:44
-#, kde-format
-msgctxt "@info:The domain that is allowed to federate"
-msgid "Domain"
-msgstr "क्षेत्र"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:50
-#, kde-format
-msgctxt "@info:Time when the domain was allowed to federate."
-msgid "Created at"
-msgstr "सृष्टः at"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:83
-#, kde-format
-msgctxt "@info:Enter the domain address of the domain block"
-msgid "Domain*"
-msgstr "क्षेत्र*"
-
-#: content/ui/ModerationTools/IpRulePage.qml:37
-#, kde-format
-msgctxt "@info:Enter the domain address of the domain block"
-msgid "IP*"
-msgstr "IP* 1.1."
-
-#: content/ui/ModerationTools/FederationToolPage.qml:103
-#: content/ui/ModerationTools/MainFederationToolPage.qml:55
-#, kde-format
-msgctxt "@info:Filter out all the allowed domains"
-msgid "Silence"
-msgstr "शांति"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:107
-#: content/ui/ModerationTools/MainFederationToolPage.qml:59
-#, kde-format
-msgctxt "@info:Filter out all the blocked domains"
-msgid "Suspend"
-msgstr "निलम्बनम्"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:111
-#: content/ui/ModerationTools/MainFederationToolPage.qml:63
-#, kde-format
-msgctxt "@info:Filter out all the blocked domains"
-msgid "None"
-msgstr "न कश्चित्"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:216
-#, kde-format
-msgctxt "@info:Filter out all the blocked domains"
-msgid "Blocked domains"
-msgstr "अवरुद्ध डोमेन"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:145
-#: content/ui/ModerationTools/FederationToolPage.qml:176
-#, kde-format
-msgctxt "@info:Button to create a domain block"
-msgid "Create Block"
-msgstr "ब्लॉक रचयतु"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:165
-#, kde-format
-msgctxt ""
-"@info:This domain will be able to fetch data from this server and incoming data from it will "
-"be processed and stored"
-msgid "Domain*"
-msgstr "क्षेत्र*"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:201
-#, kde-format
-msgctxt "@info:Choose between allowed and limited domains"
-msgid "Moderation"
-msgstr "संयमः"
-
-#: content/ui/ModerationTools/FederationToolPage.qml:220
-#, kde-format
-msgctxt "@info:Filter out all the allowed domains in limited federation mode"
-msgid "Allowed domains"
-msgstr "अनुमत डोमेन"
-
-#: content/ui/ModerationTools/IpRulePage.qml:43
-#, kde-format
-msgctxt "@info:Time after which the rule will be lifted"
-msgid "Expire After"
-msgstr "Expire After"
-
-#: content/ui/ModerationTools/IpRulePage.qml:48
-#, kde-format
-msgctxt "@info:Option to block out the IP for 1 day"
-msgid "1 day"
-msgstr "१ दिवसे"
-
-#: content/ui/ModerationTools/IpRulePage.qml:52
-#, kde-format
-msgctxt "@info:Option to block out the IP for 2 weeks"
-msgid "2 weeks"
-msgstr "२ सप्ताहाः"
-
-#: content/ui/ModerationTools/IpRulePage.qml:56
-#, kde-format
-msgctxt "@info:Option to block out the IP for 1 month"
-msgid "1 month"
-msgstr "१ मासः"
-
-#: content/ui/ModerationTools/IpRulePage.qml:60
-#, kde-format
-msgctxt "@info:Option to block out the IP for 6 months"
-msgid "6 month"
-msgstr "६ मासः"
-
-#: content/ui/ModerationTools/IpRulePage.qml:64
-#, kde-format
-msgctxt "@info:Option to block out the IP for 1 year"
-msgid "1 year"
-msgstr "१ वर्ष"
-
-#: content/ui/ModerationTools/IpRulePage.qml:68
-#, kde-format
-msgctxt "@info:Option to block out the IP for 3 years"
-msgid "3 year"
-msgstr "३ वर्ष"
-
-#: content/ui/ModerationTools/IpRulePage.qml:79
-#, kde-format
-msgctxt "@info: The comment attached with the ip rule"
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: content/ui/ModerationTools/IpRulePage.qml:87
-#, kde-format
-msgctxt "@info:The rule attached with the ip rule"
-msgid "Rule *"
-msgstr "नियम *"
-
-#: content/ui/ModerationTools/IpRulePage.qml:126
-#, kde-format
-msgctxt "@info:Button to create a IP rule"
-msgid "Create IP rule"
-msgstr "IP नियमं रचयन्तु"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:35
-#, kde-format
-msgctxt "@info: Use this to send a warning to the user, without triggering any other action."
-msgid "Warn"
-msgstr "सचेत"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:39
-#, kde-format
-msgctxt ""
-"@info: Prevent the user from using their account, but do not delete or hide their contents."
-msgid "Freeze"
-msgstr "स्थग्"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:44
-#, kde-format
-msgctxt "@info: Force all this user's media attachments to be flagged as sensitive."
-msgid "Force-Sensitive"
-msgstr "बल-संवेदनशीलः"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:49
-#, kde-format
-msgctxt ""
-"@info: Prevent the user from being able to post with public visibility, hide their posts and "
-"notifications from people not following them."
-msgid "Limit"
-msgstr "सीमा"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:54
-#, kde-format
-msgctxt ""
-"@info: Prevent any interaction from or to this account and delete its contents. Revertible "
-"within 30 days."
-msgid "Suspend"
-msgstr "निलम्बनम्"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:59
-#, kde-format
-msgctxt "@info: The user will receive an explanation of what happened with their account"
-msgid "Notify the user per e-mail"
-msgstr "प्रति ई-मेल उपयोक्तारं सूचयन्तु"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:65
-#, kde-format
-msgctxt "@info: Send a warning note to the user."
-msgid "Custom warning"
-msgstr "कस्टम चेतावनी"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:76
-#, kde-format
-msgctxt "@info:Button to submit the action aginst the user."
-msgid "Submit"
-msgstr "उपस्थापयतु"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:97
-#, kde-format
-msgctxt "@info:Cancel button to close the dailog."
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:225
-#: content/ui/ModerationTools/MainReportToolPage.qml:98
-#, kde-format
-msgctxt "@info Bio label of account."
-msgid "Bio"
-msgstr "सः आसीत्"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:316
-#, kde-format
-msgctxt "@info:Number of Posts"
-msgid "Posts"
-msgstr "पद"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:320
-#, kde-format
-msgctxt "@info:Number of followers."
-msgid "Followers"
-msgstr "अनुयायिनः"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:324
-#, kde-format
-msgctxt "@info:row Number of accounts followed by the account"
-msgid "Following"
-msgstr "अनुसरण"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:328
-#, kde-format
-msgctxt "@info Role of the account on this server."
-msgid "Role"
-msgstr "भूमिका"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:332
-#, kde-format
-msgctxt "@info The last time the account was active."
-msgid "Last Active"
-msgstr "अन्तिमः सक्रियः"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:336
-#, kde-format
-msgctxt "@info The current login status of the account."
-msgid "Login Status"
-msgstr "प्रवेशस्थितिः"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:168
-#, kde-format
-msgctxt "@info The current login status of the account."
-msgid "Reported"
-msgstr "निवेदितम्"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:348
-#, kde-format
-msgctxt "@info: Role of the user."
-msgid "Role"
-msgstr "भूमिका"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:356
-#, kde-format
-msgctxt "@info: Email of the user."
-msgid "Email"
-msgstr "ईमेल"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:363
-#, kde-format
-msgctxt "@info: Email confirmation status of the user."
-msgid "Email Status"
-msgstr "ईमेल स्थिति"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:371
-#, kde-format
-msgctxt "@info: Locale of the user."
-msgid "Account Locale"
-msgstr "खाता स्थानम्"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:379
-#, kde-format
-msgctxt "@info: Joining date of the user"
-msgid "Joined"
-msgstr "सम्मिलितः"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:437
-#, kde-format
-msgctxt "@info: Approve the user's request"
-msgid "Approve"
-msgstr "जानाति"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:449
-#, kde-format
-msgctxt "@info: Reject the user's request"
-msgid "Reject"
-msgstr "अस्वीकार"
-
-#: content/ui/ModerationTools/MainAccountToolPage.qml:472
-#, kde-format
-msgctxt "@info: Unfreeze the user's account"
-msgid "Unfreeze"
-msgstr "अनफ्रीज"
-
-#: content/ui/ModerationTools/MainFederationToolPage.qml:115
-#, kde-format
-msgctxt "@info:Button to update the domain block with new values"
-msgid "Update Block"
-msgstr "अपडेट् ब्लॉक"
-
-#: content/ui/ModerationTools/MainFederationToolPage.qml:140
-#, kde-format
-msgctxt "@info: No public comment provided"
-msgid "None"
-msgstr "न कश्चित्"
-
-#: content/ui/ModerationTools/MainFederationToolPage.qml:147
-#, kde-format
-msgctxt "@info: No private comment provided"
-msgid "None"
-msgstr "न कश्चित्"
-
-#: content/ui/ModerationTools/MainFederationToolPage.qml:153
-#, kde-format
-msgctxt "@info:The policy to be applied by this domain block"
-msgid "Policy"
-msgstr "नीति"
-
-#: content/ui/ModerationTools/MainFederationToolPage.qml:160
-#, kde-format
-msgctxt "@info:Whether to obfuscate public displays of this domain block"
-msgid "Obfuscate"
-msgstr "भ्रमित कर"
-
-#: content/ui/ModerationTools/MainFederationToolPage.qml:167
-#, kde-format
-msgctxt "@info:Whether to reject incoming media from this domain"
-msgid "Reject media"
-msgstr "माध्यमं अङ्गीकुर्वन्तु"
-
-#: content/ui/ModerationTools/MainFederationToolPage.qml:174
-#, kde-format
-msgctxt "@info:Whether to reject incoming reports from this domain"
-msgid "Reject reports"
-msgstr "प्रतिवेदनानि अङ्गीकुर्वन्तु"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:63
-#, kde-format
-msgctxt "@info IP address of the ip block"
-msgid "IP"
-msgstr "IP"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:72
-#, kde-format
-msgctxt "@info Time after which the rule will be lifted"
-msgid "Expire After"
-msgstr "Expire After"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:182
-#, kde-format
-msgctxt "@info Time after which the rule will be lifted"
-msgid "Expires at"
-msgstr "at"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:77
-#, kde-format
-msgctxt "@info Option to block out the IP for 1 day"
-msgid "1 day"
-msgstr "१ दिवसे"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:81
-#, kde-format
-msgctxt "@info Option to block out the IP for 2 weeks"
-msgid "2 weeks"
-msgstr "२ सप्ताहाः"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:85
-#, kde-format
-msgctxt "@info Option to block out the IP for 1 month"
-msgid "1 month"
-msgstr "१ मासः"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:89
-#, kde-format
-msgctxt "@info Option to block out the IP for 6 months"
-msgid "6 month"
-msgstr "६ मासः"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:93
-#, kde-format
-msgctxt "@info Option to block out the IP for 1 year"
-msgid "1 year"
-msgstr "१ वर्ष"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:97
-#, kde-format
-msgctxt "@info Option to block out the IP for 3 years"
-msgid "3 year"
-msgstr "३ वर्ष"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:108
-#: content/ui/ModerationTools/MainIpRulePage.qml:189
-#, kde-format
-msgctxt "@info The comment attached with the ip rule"
-msgid "Comment"
-msgstr "टिप्पणी"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:117
-#, kde-format
-msgctxt "@info The rule attached with the ip rule"
-msgid "Rule *"
-msgstr "नियम *"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:154
-#, kde-format
-msgctxt "@info Cancel button to close the dailog"
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:159
-#, kde-format
-msgctxt "@info Button to update an IP rule"
-msgid "Update IP rule"
-msgstr "IP नियमं अद्यतनं कुर्वन्तु"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:190
-#, kde-format
-msgctxt "@info No public comment provided"
-msgid "None"
-msgstr "न कश्चित्"
-
-#: content/ui/ModerationTools/MainIpRulePage.qml:196
-#, kde-format
-msgctxt "@info The severity to be applied by this IP rule"
-msgid "Severity"
-msgstr "तीव्रता"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:148
-#, kde-format
-msgctxt "@info Number of Posts"
-msgid "Posts"
-msgstr "पद"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:152
-#, kde-format
-msgctxt "@info Number of followers."
-msgid "Followers"
-msgstr "अनुयायिनः"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:156
-#, kde-format
-msgctxt "@info Row Number of accounts followed by the account"
-msgid "Following"
-msgstr "अनुसरण"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:160
-#, kde-format
-msgctxt "@info Time at which the reported account joined."
-msgid "Joined"
-msgstr "सम्मिलितः"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:164
-#, kde-format
-msgctxt "@info The last time the reported account was active."
-msgid "Last Active"
-msgstr "अन्तिमः सक्रियः"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:180
-#, kde-format
-msgctxt "@info Time at which the report was made"
-msgid "Reported"
-msgstr "निवेदितम्"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:244
-#, kde-format
-msgctxt "@info:The report is forwarded"
-msgid "Yes"
-msgstr "आम्‌"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:244
-#, kde-format
-msgctxt "@info:The report is not forwarded"
-msgid "No"
-msgstr "नहि"
-
-#: content/ui/ModerationTools/MainReportToolPage.qml:356
-#, kde-format
-msgctxt "@info:Account didn't provide any comment on the report "
-msgid "N/A"
-msgstr "न/अ"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:33
-#, kde-format
-msgctxt "@info:Combobox to choose Report Status"
-msgid "Report Status"
-msgstr "रिपोर्ट् स्थितिः"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:45
-#, kde-format
-msgctxt "@info:Filter out unresolved reports"
-msgid "Unresolved"
-msgstr "अनवधानम्"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:49
-#, kde-format
-msgctxt "@info:Filter out resolved reports"
-msgid "Resolved"
-msgstr "संकल्पितम्"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:63
-#, kde-format
-msgctxt "@info:Combobox to choose the origin of report"
-msgid "Report Origin"
-msgstr "उत्पत्तिं प्रतिवेदनं कुर्वन्तु"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:76
-#, kde-format
-msgctxt "@info:Filter out accounts with any origin"
-msgid "All"
-msgstr "सर्वे"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:80
-#, kde-format
-msgctxt "@info:Filter out accounts with local origin"
-msgid "Local"
-msgstr "स्थानिक"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:84
-#, kde-format
-msgctxt "@info:Filter out accounts with remote origin"
-msgid "Remote"
-msgstr "दूरस्थ"
-
-#: content/ui/ModerationTools/ReportToolPage.qml:265
-#, kde-format
-msgctxt "@info: No account assigned to the report"
-msgid "N/A"
-msgstr "न/अ"
-
-#: content/ui/NotificationPage.qml:27
-#, kde-format
-msgctxt "@action:intoolbar Mark all notifications as read"
-msgid "Mark All As Read"
-msgstr "Mark All As Read इति चिह्नं कुर्वन्तु"
-
-#: content/ui/NotificationPage.qml:46
-#, kde-format
-msgctxt "@action:intoolbar Show all notifications"
-msgid "All"
-msgstr "सर्वे"
-
-#: content/ui/NotificationPage.qml:57
-#, kde-format
-msgctxt "@action:intoolbar Show only mentions"
-msgid "Mentions"
-msgstr "उल्लेखः"
-
-#: content/ui/NotificationPage.qml:68
-#, kde-format
-msgctxt "@action:intoolbar More filter categories"
-msgid "More"
-msgstr "अधिकः"
-
-#: content/ui/NotificationPage.qml:84
-#, kde-format
-msgctxt "Show only boosts"
-msgid "Boosts"
-msgstr "बूस्ट् करोति"
-
-#: content/ui/NotificationPage.qml:89
-#, kde-format
-msgctxt "Show only favorites"
-msgid "Favorites"
-msgstr "प्रियाः"
-
-#: content/ui/NotificationPage.qml:94
-#, kde-format
-msgctxt "Show only poll results"
-msgid "Poll Results"
-msgstr "मतदानपरिणाम"
-
-#: content/ui/NotificationPage.qml:99
-#, kde-format
-msgctxt "Show only followed statuses"
-msgid "Posts"
-msgstr "पद"
-
-#: content/ui/NotificationPage.qml:104
-#, kde-format
-msgctxt "Show only follows"
-msgid "Follows"
-msgstr "अनुसरणं करोति"
-
-#: content/ui/Notifications/RelationshipSeveranceDelegate.qml:62
-#, kde-kuit-format
-msgctxt "@info:label"
-msgid ""
-"Moderation has blocked <b>%1</b>, including %2 of your followers and %3 account you follow."
-msgstr "मॉडरेशनेन <b>%1</b> अवरुद्धम्, यत्र भवतः अनुयायिनां %2 अपि च भवता अनुसृतानां %3 खातं च अन्तर्भवति ।"
-
-#: content/ui/Notifications/ReportDelegate.qml:61
-#, kde-format
-msgctxt "@info:label"
-msgid "A report has been filed against a user in your server."
-msgstr "भवतः सर्वरे कस्यचित् उपयोक्तुः विरुद्धं प्रतिवेदनं दाखिलम् अस्ति ।"
-
-#: content/ui/PostDelegate/InformationBar.qml:33
-#, kde-format
-msgctxt "Posted on 26 March 2024 Tuesday 20:43:18 +03"
-msgid "Posted on %1"
-msgstr "%1 इत्यत्र प्रकाशितम्"
-
-#: content/ui/PostDelegate/LinkPreview.qml:204
-#, kde-format
-msgctxt ""
-"@info:label 'More from [this author]', where we put the user's avatar and name next to this "
-"label"
-msgid "More from"
-msgstr "अधिकं तः"
-
-#: content/ui/PostDelegate/LinkPreview.qml:241
-#, kde-format
-msgctxt "@info:label 'This is written by %1'"
-msgid "By %1"
-msgstr "%1 द्वारा"
-
-#: content/ui/PostDelegate/MediaContainer.qml:67
-#, kde-format
-msgctxt "Attachment has alt-text, Short for alt-text"
-msgid "Alt"
-msgstr "सर्वे"
-
-#: content/ui/PostDelegate/PostDelegate.qml:453
-#, kde-format
-msgctxt "Reply to a post"
-msgid "Reply"
-msgstr "उत्तरं"
-
-#: content/ui/PostDelegate/PostDelegate.qml:484
-#, kde-format
-msgctxt "Share a post"
-msgid "Boost"
-msgstr "संवेग"
-
-#: content/ui/PostDelegate/PostDelegate.qml:509
-#, kde-format
-msgctxt "Favorite a post"
-msgid "Favorite"
-msgstr "प्रिय"
-
-#: content/ui/PostDelegate/PostDelegate.qml:531
-#, kde-format
-msgctxt "Bookmark a post"
-msgid "Bookmark"
-msgstr "बुकमार्क"
-
-#: content/ui/PostDelegate/PostInfoBar.qml:53
-#, kde-format
-msgctxt "Edited on <datetime>"
-msgid "Edited on %1"
-msgstr "%1 इत्यत्र सम्पादितम्"
-
-#: content/ui/PostDelegate/PostInfoBar.qml:106
-#, kde-format
-msgctxt "Show more options"
-msgid "More actions"
-msgstr "अधिकानि कर्माणि"
-
-#: content/ui/PostDelegate/PostMenu.qml:35
-#, kde-format
-msgctxt "@action:inmenu 'Thread' is a series of posts."
-msgid "Open Thread"
-msgstr "Open Thread इति"
-
-#: content/ui/PostDelegate/PostMenu.qml:62
-#, kde-format
-msgctxt "@action Open embed into website dialog"
-msgid "Embed"
-msgstr "एम्बेड्"
-
-#: content/ui/PostDelegate/PostMenu.qml:139
-#, kde-format
-msgctxt "@action:inmenu Unmute account"
-msgid "Unmute @%1"
-msgstr "अप्रसन्नता @%1"
-
-#: content/ui/PostDelegate/PostMenu.qml:141
-#, kde-format
-msgctxt "@action:inmenu Mute account"
-msgid "Mute @%1"
-msgstr "मूक @%1"
-
-#: content/ui/PostDelegate/PostMenu.qml:159
-#, kde-format
-msgctxt "@action:inmenu Unblock account"
-msgid "Unblock @%1"
-msgstr "@%1 अनब्लॉक करू"
-
-#: content/ui/PostDelegate/PostMenu.qml:161
-#, kde-format
-msgctxt "@action:inmenu Block account"
-msgid "Block @%1"
-msgstr "खण्ड @%1"
-
-#: content/ui/PostDelegate/PostPoll.qml:41
-#, kde-format
-msgctxt "Votes percentage"
-msgid "%1%"
-msgstr "%1% २."
-
-#: content/ui/PostDelegate/PostPoll.qml:149
-#, kde-format
-msgctxt "@option:check Show poll results"
-msgid "Show Results"
-msgstr "परिणामान् दर्शयतु"
-
-#: content/ui/PostDelegate/UserInteractionLabel.qml:71
-#, kde-format
-msgctxt "@info Loading user that started this interaction"
-msgid "Loading…"
-msgstr "लोडिंग..."
-
-#: content/ui/PostDelegate/VideoAttachment.qml:106
-#, kde-format
-msgctxt "@action:button Start media playback"
-msgid "Play"
-msgstr "क्रीडतु"
-
-#: content/ui/ReadMarker.qml:15
-#, kde-format
-msgctxt "Last read on this date"
-msgid "Last read on %1"
-msgstr "%1 इत्यत्र अन्तिमं पठितम्"
-
-#: content/ui/ReportDialog.qml:55
-#, kde-format
-msgctxt "@action:button 'Report' as in 'Report this to moderators'"
-msgid "Report"
-msgstr "वृत्तान्तः"
-
-#: content/ui/ReportDialog.qml:64
-#, kde-format
-msgctxt "@action"
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: content/ui/Settings/AccountPage.qml:168
-#, kde-format
-msgctxt "@label Account preferences"
-msgid "Mark uploaded media as sensitive by default"
-msgstr "अपलोड् कृतं माध्यमं पूर्वनिर्धारितरूपेण संवेदनशीलं इति चिह्नितव्यम्"
-
-#: content/ui/Settings/AccountPage.qml:177
-#, kde-format
-msgctxt "@label Account preferences"
-msgid "Default post language"
-msgstr "पूर्वनिर्धारित पोस्ट भाषा"
-
-#: content/ui/Settings/AccountPage.qml:199
-#, kde-format
-msgctxt "@label Account preferences"
-msgid "Default post visibility"
-msgstr "पूर्वनिर्धारित पोस्ट दृश्यता"
-
-#: content/ui/Settings/AccountPage.qml:201
-#, kde-format
-msgctxt "@item:inlistbox Default post visibility rule"
-msgid "Public"
-msgstr "सार्वजनिक"
-
-#: content/ui/Settings/AccountPage.qml:202
-#, kde-format
-msgctxt "@item:inlistbox Default post visibility rule"
-msgid "Unlisted"
-msgstr "असूचीकृतम्"
-
-#: content/ui/Settings/AccountPage.qml:203
-#, kde-format
-msgctxt "@item:inlistbox Default post visibility rule"
-msgid "Private"
-msgstr "वैयक्तिक"
-
-#: content/ui/Settings/AccountPage.qml:215
-#, kde-format
-msgctxt "@abel Account preferences"
-msgid "Open Server in Browser"
-msgstr "ब्राउजर् मध्ये Server उद्घाटयन्तु"
-
-#: content/ui/Settings/NotificationsPage.qml:59
-#, kde-format
-msgctxt "@info:Option Accept and show this in notifications"
-msgid "Accept"
-msgstr "स्वीकरोतु"
-
-#: content/ui/Settings/NotificationsPage.qml:63
-#, kde-format
-msgctxt "@info:Option Filter and send to the filtered inbox"
-msgid "Filter"
-msgstr "फ़िल्टर"
-
-#: content/ui/Settings/NotificationsPage.qml:67
-#, kde-format
-msgctxt "@info:Option Ignore completely, do not show notification"
-msgid "Ignore"
-msgstr "उपेक्षा"
-
-#: content/ui/Settings/NotificationsPage.qml:75
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "People you don't follow"
-msgstr "भवन्तः येषां जनानां अनुसरणं न कुर्वन्ति"
-
-#: content/ui/Settings/NotificationsPage.qml:76
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "Until you manually approve them."
-msgstr "यावत् भवन्तः तान् हस्तचलितरूपेण अनुमोदयन्ति।"
-
-#: content/ui/Settings/NotificationsPage.qml:82
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "People not following you"
-msgstr "जनाः भवन्तं न अनुसृत्य"
-
-#: content/ui/Settings/NotificationsPage.qml:83
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "Including people who have been following you fewer than 3 days."
-msgstr "३ दिवसाभ्यः न्यूनानि भवतः अनुसरणं कृतवन्तः जनाः अपि समाविष्टाः।"
-
-#: content/ui/Settings/NotificationsPage.qml:89
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "New accounts"
-msgstr "नवीनलेखाः"
-
-#: content/ui/Settings/NotificationsPage.qml:90
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "Created within the past 30 days."
-msgstr "विगत ३० दिवसेषु निर्मितम्।"
-
-#: content/ui/Settings/NotificationsPage.qml:96
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "Unsolicited conversations"
-msgstr "अयाचितसंभाषणानि"
-
-#: content/ui/Settings/NotificationsPage.qml:97
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "Filtered unless it's in reply to your own mention or if you follow the sender."
-msgstr "यावत् भवतः स्वस्य उल्लेखस्य उत्तरे अथवा यदि भवान् प्रेषकस्य अनुसरणं करोति तावत् यावत् फ़िल्टर कृतम्।"
-
-#: content/ui/Settings/NotificationsPage.qml:103
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "Moderated accounts"
-msgstr "संचालक लेखा"
-
-#: content/ui/Settings/NotificationsPage.qml:104
-#, kde-format
-msgctxt "@label Notification preferences"
-msgid "Limited by server moderators."
-msgstr "सर्वर-मॉडरेटर्-द्वारा सीमितम् ।"
-
-#: content/ui/Settings/ProfileEditor.qml:228
-#, kde-format
-msgctxt "Profile fields"
-msgid "Fields"
-msgstr "क्षेत्राणि"
-
-#: content/ui/SocialGraphPage.qml:64
-#, kde-format
-msgctxt "@action:button Allow follow request"
-msgid "Allow"
-msgstr "अनुमन्यताम्‌"
-
-#: content/ui/SocialGraphPage.qml:71
-#, kde-format
-msgctxt "@action:button Deny follow request"
-msgid "Deny"
-msgstr "अपह्नुते"
-
-#: content/ui/SocialGraphPage.qml:78
-#, kde-format
-msgctxt "@action:button Deny follow request"
-msgid "Unfollow"
-msgstr "अनफॉलो करें"
-
-#: content/ui/SocialGraphPage.qml:85
-#, kde-format
-msgctxt "@action:button Deny follow request"
-msgid "Remove Follower"
-msgstr "अनुयायी निष्कासित करें"
-
-#: content/ui/SocialGraphPage.qml:92
-#, kde-format
-msgctxt "@action:button Deny follow request"
-msgid "Remove"
-msgstr "अपाकरोति"
-
-#: content/ui/StatusComposer/AttachmentInfoDialog.qml:97
-#, kde-format
-msgctxt "@title:group Alternate text or description of the image"
-msgid "Description"
-msgstr "वर्णनम्‌"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:43
-#, kde-format
-msgctxt "@label:textbox Poll choice"
-msgid "Choice %1"
-msgstr "विकल्पः %1"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:67
-#, kde-format
-msgctxt "@action:intoolbar Poll toolbar"
-msgid "Add Choice"
-msgstr "विकल्पं योजयतु"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:68
-#, kde-format
-msgctxt "@info:tooltip Poll toolbar"
-msgid "Add a new poll choice"
-msgstr "नूतनं मतदानविकल्पं योजयन्तु"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:87
-#, kde-format
-msgctxt "@info:tooltip Poll toolbar"
-msgid "When the poll will expire"
-msgstr "यदा मतदानस्य अवधिः समाप्तः भविष्यति"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:102
-#, kde-format
-msgctxt "@info:tooltip Poll toolbar"
-msgid "Allow multiple choices"
-msgstr "बहुविधविकल्पानां अनुमतिं ददातु"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:117
-#, kde-format
-msgctxt "@info:tooltip Poll toolbar"
-msgid "Hide vote count until the poll ends"
-msgstr "मतदानस्य समाप्तिपर्यन्तं मतगणना गोपयन्तु"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:96
-#, kde-format
-msgctxt "@option:check Poll toolbar"
-msgid "Multiple choice"
-msgstr "बहुविकल्पः"
-
-#: content/ui/StatusComposer/ComposerPoll.qml:111
-#, kde-format
-msgctxt "@option:check Poll toolbar"
-msgid "Hide totals"
-msgstr "कुलम् गोपयन्तु"
-
-#: content/ui/StatusComposer/StatusComposer.qml:68
-#, kde-format
-msgctxt "@action Pop out the status composer"
-msgid "Pop Out"
-msgstr "Pop Out इति"
-
-#: content/ui/StatusComposer/StatusComposer.qml:145
-#, kde-format
-msgctxt "@action:button Keep this draft"
-msgid "Keep"
-msgstr "स्थापय"
-
-#: content/ui/StatusComposer/StatusComposer.qml:257
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Content notice"
-msgstr "सामग्रीसूचना"
-
-#: content/ui/StatusComposer/StatusComposer.qml:271
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "What's new?"
-msgstr "किं नूतनम् ?"
-
-#: content/ui/StatusComposer/StatusComposer.qml:486
-#, kde-format
-msgctxt "@item:inmenu Local to this server"
-msgid "Local"
-msgstr "स्थानिक"
-
-#: content/ui/StatusComposer/StatusComposer.qml:492
-#, kde-format
-msgctxt "@item:inmenu Public to the world"
-msgid "Public"
-msgstr "सार्वजनिक"
-
-#: content/ui/StatusComposer/StatusComposer.qml:497
-#, kde-format
-msgctxt "@item:inmenu Public but less so"
-msgid "Unlisted"
-msgstr "असूचीकृतम्"
-
-#: content/ui/StatusComposer/StatusComposer.qml:502
-#, kde-format
-msgctxt "@item:inmenu Only to followers"
-msgid "Private"
-msgstr "वैयक्तिक"
-
-#: content/ui/StatusComposer/StatusComposer.qml:507
-#, kde-format
-msgctxt "@item:inmenu Only to who is explicitly mentioned"
-msgid "Direct Message"
-msgstr "प्रत्यक्ष सन्देश"
-
-#: content/ui/StatusComposer/StatusComposer.qml:512
-#, kde-format
-msgctxt "@info:tooltip Post visibility"
-msgid "Visibility"
-msgstr "दृश्यता"
-
-#: content/ui/StatusComposer/StatusComposer.qml:583
-#, kde-format
-msgctxt "@label Character count in the status composer"
-msgid "<b>%1/%2</b> characters"
-msgstr "<b>%1/%2</b> वर्णाः"
-
-#: content/ui/StatusComposer/StatusComposer.qml:607
-#, kde-format
-msgctxt "@action:button Send a post"
-msgid "Send"
-msgstr "प्रेषयतु"
-
-#: content/ui/StatusComposer/StatusComposer.qml:609
-#, kde-format
-msgctxt "@action:button Reply to a post"
-msgid "Reply"
-msgstr "उत्तरं"
-
-#: content/ui/StatusComposer/StatusComposer.qml:611
-#, kde-format
-msgctxt "@action:button Send the same post again"
-msgid "Repost"
-msgstr "पुनः पोस्ट करें"
-
-#: content/ui/StatusComposer/StatusComposer.qml:613
-#, kde-format
-msgctxt "@action:Button Save an edited a post"
-msgid "Save"
-msgstr "रक्ष्"
-
-#: content/ui/TimelinePage.qml:158
-#, kde-format
-msgctxt "@action:button Load more posts above this"
-msgid "Load More"
-msgstr "अधिकं लोडं कुर्वन्तु"
 
 #: editor/polltimemodel.cpp:14
 #, kde-format
@@ -4839,6 +4730,46 @@ msgctxt "@item:inlistbox Poll expire times"
 msgid "7 days"
 msgstr "७ दिवसाः"
 
+#: editor/posteditorbackend.cpp:282
+#, kde-format
+msgid "An unknown error occurred."
+msgstr "अज्ञातदोषः अभवत् ।"
+
+#: main.cpp:69
+#, kde-format
+msgid "Receiving push notifications"
+msgstr "पुश सूचनाः प्राप्य"
+
+#: main.cpp:116
+#, kde-format
+msgid "Tokodon"
+msgstr "तोकोदोन्"
+
+#: main.cpp:118 main.cpp:143
+#, kde-format
+msgid "Browse the Fediverse"
+msgstr "Fediverse ब्राउज् कुर्वन्तु"
+
+#: main.cpp:120
+#, kde-format
+msgid "© 2021-2024 KDE Community"
+msgstr "© 2021-2024 केडीई समुदाय"
+
+#: main.cpp:121
+#, kde-format
+msgid "Carl Schwan"
+msgstr "कार्ल स्वान्"
+
+#: main.cpp:122 main.cpp:127
+#, kde-format
+msgid "Maintainer"
+msgstr "परिपालकः"
+
+#: main.cpp:126
+#, kde-format
+msgid "Joshua Goins"
+msgstr "जोशुआ गोइन्स"
+
 #: main.cpp:131
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -4851,11 +4782,125 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "भवतः ईमेलपत्राणि"
 
+#: main.cpp:144
+#, kde-format
+msgid "Supports https and web+ap url scheme"
+msgstr "https तथा web+ap url योजना समर्थयति"
+
+#: main.cpp:146
+#, kde-format
+msgid "Share a line of text in the standalone composer."
+msgstr "स्वतन्त्रे संगीतकारे पाठस्य एकां पङ्क्तिं साझां कुर्वन्तु।"
+
+#: main.cpp:146
+#, kde-format
+msgid "The text to share."
+msgstr "भागं कर्तुं पाठः।"
+
+#: main.cpp:150
+#, kde-format
+msgid "Internal usage only."
+msgstr "आन्तरिकप्रयोगमात्रम् ।"
+
+#: notification/notificationmodel.cpp:98
+#, kde-format
+msgid "Error occurred when fetching the latest notification."
+msgstr "नवीनतमसूचनाम् आनयन् त्रुटिः अभवत् ।"
+
+#: timeline/maintimelinemodel.cpp:29
+#, kde-format
+msgctxt "@title"
+msgid "Home"
+msgstr "गृहम्‌"
+
+#: timeline/maintimelinemodel.cpp:31
+#, kde-format
+msgctxt "@title"
+msgid "Local"
+msgstr "स्थानिक"
+
+#: timeline/maintimelinemodel.cpp:33
+#, kde-format
+msgctxt "@title"
+msgid "Global"
+msgstr "वैश्विक"
+
+#: timeline/maintimelinemodel.cpp:35
+#, kde-format
+msgctxt "@title"
+msgid "Bookmarks"
+msgstr "बुकमार्क्स"
+
+#: timeline/maintimelinemodel.cpp:37
+#, kde-format
+msgctxt "@title"
+msgid "Favorites"
+msgstr "प्रियाः"
+
+#: timeline/maintimelinemodel.cpp:39
+#, kde-format
+msgctxt "@title"
+msgid "Trending"
+msgstr "प्रवृत्तिः"
+
+#: timeline/tagsmodel.cpp:27
+#, kde-format
+msgid "Trending"
+msgstr "प्रवृत्तिः"
+
+#: timeline/threadmodel.cpp:45
+#, kde-format
+msgctxt "@title:window"
+msgid "Loading…"
+msgstr "लोडिंग..."
+
+#: timeline/threadmodel.cpp:50
+#, kde-format
+msgctxt "@title"
+msgid "Post by %1"
+msgstr "%1 द्वारा पोस्ट करें"
+
+#: timeline/trendingnewsmodel.cpp:55
+#, kde-format
+msgctxt "@title:window"
+msgid "Trending News"
+msgstr "ट्रेण्डिंग न्यूज"
+
 #: tokodonapplication.cpp:14
 #, kde-format
 msgctxt "@title:group Title for the group of account related actions"
 msgid "Account"
 msgstr "वृतांत्तः"
+
+#: tokodonapplication.cpp:59
+#, kde-format
+msgctxt "@action:button"
+msgid "Switch to '%1'"
+msgstr "'%1' इत्यत्र स्विच कुर्वन्तु।"
+
+#: tokodonapplication.cpp:60 tokodonapplication.cpp:123
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure '%1'"
+msgstr "'%1' विन्यस्यताम्।"
+
+#: tokodonapplication.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Account"
+msgstr "खाता योजयतु"
+
+#: tokodonapplication.cpp:82
+#, kde-format
+msgctxt "@action:button"
+msgid "Write a New Post"
+msgstr "New Post लिखें"
+
+#: tokodonapplication.cpp:115
+#, kde-format
+msgctxt "@action:button"
+msgid "Switch '%1'"
+msgstr "'%1' स्विच कुर्वन्तु।"
 
 #: utils/emojimodel.cpp:127
 #, kde-format
@@ -4923,6 +4968,16 @@ msgctxt "'Flags' is a category of emoji"
 msgid "Flags"
 msgstr "ध्वजाः"
 
+#: utils/filetransferjob.cpp:36
+#, kde-format
+msgid "Could not open the temporary download file"
+msgstr "अस्थायी अवतरणं सञ्चिकां उद्घाटयितुं न शक्तवान्"
+
+#: utils/filetransferjob.cpp:78
+#, kde-format
+msgid "Could not reserve disk space for download"
+msgstr "डाउनलोड् कृते डिस्कस्थानं आरक्षितुं न शक्तवान्"
+
 #: utils/filetransferjob.cpp:86
 #, kde-format
 msgctxt "Job heading, like 'Copying'"
@@ -4940,3 +4995,54 @@ msgstr "स्रोतः"
 msgctxt "The location being downloaded to"
 msgid "Destination"
 msgstr "गन्तव्य"
+
+#: utils/texthandler.cpp:177
+#, kde-format
+msgid "in the future"
+msgstr "भविष्ये"
+
+#: utils/texthandler.cpp:179
+#, kde-format
+msgid "%1s"
+msgstr "%1s"
+
+#: utils/texthandler.cpp:181
+#, kde-format
+msgid "%1m"
+msgstr "%1म्"
+
+#: utils/texthandler.cpp:183
+#, kde-format
+msgid "%1h"
+msgstr "%1h"
+
+#: utils/texthandler.cpp:194
+#, kde-format
+msgid "Today"
+msgstr "अद्य"
+
+#: utils/texthandler.cpp:196
+#, kde-format
+msgid "%1d"
+msgstr "%1d"
+
+#: utils/texthandler.cpp:200
+#, kde-format
+msgid "1 week ago"
+msgid_plural "%1 weeks ago"
+msgstr[0] "%1 सप्ताहपूर्वम्"
+msgstr[1] "%1 सप्ताहपूर्वम्"
+
+#: utils/texthandler.cpp:203
+#, kde-format
+msgid "1 month ago"
+msgid_plural "%1 months ago"
+msgstr[0] "%1 मासपूर्वम्"
+msgstr[1] "%1  मासपूर्वम्"
+
+#: utils/texthandler.cpp:207
+#, kde-format
+msgid "1 year ago"
+msgid_plural "%1 years ago"
+msgstr[0] "%1 वर्षपूर्वम्"
+msgstr[1] "%1 वर्षपूर्वम्"

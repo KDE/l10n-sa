@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the sweeper package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: sweeper\n"
@@ -13,8 +13,18 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
 
 #: main.cpp:25
 #, kde-format
@@ -127,8 +137,7 @@ msgid ""
 "Clears the history of commands run through the Run Command tool on the "
 "desktop"
 msgstr ""
-"डेस्कटॉप् मध्ये Run Command tool इत्यस्य माध्यमेन चालितानां आदेशानां "
-"इतिहासं स्वच्छं करोति"
+"डेस्कटॉप् मध्ये Run Command tool इत्यस्य माध्यमेन चालितानां आदेशानां इतिहासं स्वच्छं करोति"
 
 #: privacyfunctions.h:93
 #, kde-format
@@ -167,7 +176,8 @@ msgstr "अद्यतन दस्तावेज"
 
 #: privacyfunctions.h:135
 #, kde-format
-msgid "Clears the list of recently used documents from the KDE applications menu"
+msgid ""
+"Clears the list of recently used documents from the KDE applications menu"
 msgstr "KDE अनुप्रयोगमेनूतः सद्यः प्रयुक्तानां दस्तावेजानां सूचीं स्वच्छं करोति"
 
 #: privacyfunctions.h:149
@@ -190,12 +200,23 @@ msgstr "हाल के आवेदन"
 msgid "Clears the list of recently used applications from KDE menu"
 msgstr "KDE मेन्यूतः सद्यः प्रयुक्तानां अनुप्रयोगानाम् सूचीं स्वच्छं करोति"
 
+#: sweeper.cpp:22
+#, kde-format
+msgctxt "General system content"
+msgid "General"
+msgstr "सामान्य"
+
+#: sweeper.cpp:23
+#, kde-format
+msgctxt "Web browsing content"
+msgid "Web Browsing"
+msgstr "जाल ब्राउजिंग्"
+
 #: sweeper.cpp:100
 #, kde-format
-msgid "You are deleting data that is potentially valuable to you. Are you sure?"
-msgstr ""
-"भवन्तः भवतः कृते सम्भाव्यतया मूल्यवान् दत्तांशं विलोपयन्ति । किं त्वं "
-"निश्चिन्तः असि ?"
+msgid ""
+"You are deleting data that is potentially valuable to you. Are you sure?"
+msgstr "भवन्तः भवतः कृते सम्भाव्यतया मूल्यवान् दत्तांशं विलोपयन्ति । किं त्वं निश्चिन्तः असि ?"
 
 #: sweeper.cpp:107
 #, kde-format
@@ -217,70 +238,48 @@ msgstr "%1 इत्यस्य निष्कासनं विफलम्:
 msgid "Clean up finished."
 msgstr "स्वच्छता समाप्तम्।"
 
-#: sweeperdialog.ui:27
 #. i18n: ectx: property (whatsThis), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:27
 #, kde-format
 msgid ""
 "Check all cleanup actions you would like to perform. These will be executed "
 "by pressing the button below."
 msgstr ""
-"भवन्तः कर्तुम् इच्छन्ति सर्वाणि स्वच्छताक्रियाणि पश्यन्तु । एतानि अधोलिखितं "
-"बटन् नुत्वा निष्पादितानि भविष्यन्ति ।"
+"भवन्तः कर्तुम् इच्छन्ति सर्वाणि स्वच्छताक्रियाणि पश्यन्तु । एतानि अधोलिखितं बटन् नुत्वा "
+"निष्पादितानि भविष्यन्ति ।"
 
-#: sweeperdialog.ui:37
 #. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:37
 #, kde-format
 msgid "Privacy Settings"
 msgstr "गोपनीयता सेटिंग्स्"
 
-#: sweeperdialog.ui:42
 #. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#: sweeperdialog.ui:42
 #, kde-format
 msgid "Description"
 msgstr "वर्णनम्‌"
 
-#: sweeperdialog.ui:58
 #. i18n: ectx: property (text), widget (QPushButton, selectAllButton)
+#: sweeperdialog.ui:58
 #, kde-format
 msgid "Select &All"
 msgstr "&All इति चयनं कुर्वन्तु"
 
-#: sweeperdialog.ui:65
 #. i18n: ectx: property (text), widget (QPushButton, selectNoneButton)
+#: sweeperdialog.ui:65
 #, kde-format
 msgid "Select &None"
 msgstr "&None इति चिनोतु"
 
-#: sweeperdialog.ui:88
 #. i18n: ectx: property (whatsThis), widget (QPushButton, cleanupButton)
+#: sweeperdialog.ui:88
 #, kde-format
 msgid "Immediately performs the cleanup actions selected above"
 msgstr "उपरि चयनितशुद्धिक्रियाः तत्क्षणमेव करोति"
 
-#: sweeperdialog.ui:91
 #. i18n: ectx: property (text), widget (QPushButton, cleanupButton)
+#: sweeperdialog.ui:91
 #, kde-format
 msgid "&Clean Up"
 msgstr "&स्वच्छता"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: sweeper.cpp:22
-#, kde-format
-msgctxt "General system content"
-msgid "General"
-msgstr "सामान्य"
-
-#: sweeper.cpp:23
-#, kde-format
-msgctxt "Web browsing content"
-msgid "Web Browsing"
-msgstr "जाल ब्राउजिंग्"

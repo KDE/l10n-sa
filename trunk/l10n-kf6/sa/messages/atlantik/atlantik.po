@@ -19,6 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: client/atlantik.cpp:116
 #, kde-format
 msgid "Show Event &Log…"
@@ -79,6 +89,18 @@ msgstr "संयोजने त्रुटिः: होस्ट् न प�
 msgid "Error connecting: error %1."
 msgstr "संयोजने त्रुटिः: त्रुटिः %1."
 
+#: client/atlantik.cpp:730
+#, kde-format
+msgctxt "error message"
+msgid "Error"
+msgstr "त्रुटि"
+
+#: client/atlantik.cpp:733
+#, kde-format
+msgctxt "informative message"
+msgid "Info"
+msgstr "Info"
+
 #: client/atlantik.cpp:803
 #, kde-format
 msgid "It is your turn now."
@@ -90,8 +112,8 @@ msgid ""
 "You are currently part of an active game. Are you sure you want to close "
 "Atlantik? If you do, you forfeit the game."
 msgstr ""
-"भवान् सम्प्रति सक्रियक्रीडायाः भागः अस्ति । किं भवन्तः निश्चयेन अटलाण्टिकं "
-"बन्दं कर्तुम् इच्छन्ति? यदि भवन्तः कुर्वन्ति तर्हि भवन्तः क्रीडां त्यजन्ति।"
+"भवान् सम्प्रति सक्रियक्रीडायाः भागः अस्ति । किं भवन्तः निश्चयेन अटलाण्टिकं बन्दं कर्तुम् "
+"इच्छन्ति? यदि भवन्तः कुर्वन्ति तर्हि भवन्तः क्रीडां त्यजन्ति।"
 
 #: client/atlantik.cpp:919
 #, kde-format
@@ -106,11 +128,11 @@ msgstr "बन्द && जब्त"
 #: client/atlantik.cpp:952
 #, kde-format
 msgid ""
-"You are currently part of an active game. Are you sure you want to leave "
-"it? If you do, you forfeit the game."
+"You are currently part of an active game. Are you sure you want to leave it? "
+"If you do, you forfeit the game."
 msgstr ""
-"भवान् सम्प्रति सक्रियक्रीडायाः भागः अस्ति । किं त्वं निश्चयेन तत् त्यक्तुम् "
-"इच्छसि ? यदि भवन्तः कुर्वन्ति तर्हि भवन्तः क्रीडां त्यजन्ति।"
+"भवान् सम्प्रति सक्रियक्रीडायाः भागः अस्ति । किं त्वं निश्चयेन तत् त्यक्तुम् इच्छसि ? यदि "
+"भवन्तः कुर्वन्ति तर्हि भवन्तः क्रीडां त्यजन्ति।"
 
 #: client/atlantik.cpp:952
 #, kde-format
@@ -122,103 +144,109 @@ msgstr "त्यजन्तु & जब्धं कुर्वन्तु?"
 msgid "Leave && Forfeit"
 msgstr "त्यजन्तु && जब्धं कुर्वन्तु"
 
-#: client/atlantikui.rc:4
 #. i18n: ectx: Menu (game)
+#: client/atlantikui.rc:4
 #, kde-format
 msgid "&Game"
 msgstr "&क्रीडा"
 
-#: client/atlantikui.rc:10
 #. i18n: ectx: Menu (move)
+#: client/atlantikui.rc:10
 #, kde-format
 msgid "&Move"
 msgstr "&चलनम्"
 
-#: client/configboard.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: client/configboard.ui:17
 #, kde-format
 msgid "Game Status Feedback"
 msgstr "खेल स्थिति प्रतिक्रिया"
 
-#: client/configboard.ui:23
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_IndicateUnowned)
+#: client/configboard.ui:23
 #, kde-format
 msgid ""
 "If checked, unowned properties on the board display an estate card to "
 "indicate the property is for sale."
 msgstr ""
-"यदि जाँचितं भवति तर्हि बोर्डे अनामिकाः सम्पत्तिः सम्पत्तिपत्रं प्रदर्शयन्ति "
-"यत् सम्पत्तिः विक्रयणार्थं अस्ति इति सूचयति ।"
+"यदि जाँचितं भवति तर्हि बोर्डे अनामिकाः सम्पत्तिः सम्पत्तिपत्रं प्रदर्शयन्ति यत् सम्पत्तिः "
+"विक्रयणार्थं अस्ति इति सूचयति ।"
 
-#: client/configboard.ui:26
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IndicateUnowned)
+#: client/configboard.ui:26
 #, kde-format
 msgid "Display title deed card on unowned properties"
 msgstr "अस्वामिषु सम्पत्तिषु शीर्षकपत्रपत्रं प्रदर्शयन्तु"
 
-#: client/configboard.ui:33
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HighlightUnowned)
+#: client/configboard.ui:33
 #, kde-format
 msgid ""
 "If checked, unowned properties on the board are highlighted to indicate the "
 "property is for sale."
 msgstr ""
-"यदि जाँचितं भवति तर्हि फलकस्य उपरि अस्वामित्वं विद्यमानाः सम्पत्तिः "
-"प्रकाशिताः भवन्ति येन सम्पत्तिः विक्रयणार्थं अस्ति इति सूचयति ।"
+"यदि जाँचितं भवति तर्हि फलकस्य उपरि अस्वामित्वं विद्यमानाः सम्पत्तिः प्रकाशिताः भवन्ति येन "
+"सम्पत्तिः विक्रयणार्थं अस्ति इति सूचयति ।"
 
-#: client/configboard.ui:36
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightUnowned)
+#: client/configboard.ui:36
 #, kde-format
 msgid "Highlight unowned properties"
 msgstr "अस्वामित्वयुक्तान् सम्पत्तिं प्रकाशयन्तु"
 
-#: client/configboard.ui:43
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_DarkenMortgaged)
+#: client/configboard.ui:43
 #, kde-format
 msgid ""
-"If checked, mortgaged properties on the board will be colored darker than "
-"of the default color."
+"If checked, mortgaged properties on the board will be colored darker than of "
+"the default color."
 msgstr ""
-"यदि जाँचितं भवति तर्हि बोर्डे बंधकसम्पत्तयः पूर्वनिर्धारितवर्णस्य अपेक्षया "
-"कृष्णवर्णाः भविष्यन्ति ।"
+"यदि जाँचितं भवति तर्हि बोर्डे बंधकसम्पत्तयः पूर्वनिर्धारितवर्णस्य अपेक्षया कृष्णवर्णाः "
+"भविष्यन्ति ।"
 
-#: client/configboard.ui:46
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DarkenMortgaged)
+#: client/configboard.ui:46
 #, kde-format
 msgid "Darken mortgaged properties"
 msgstr "बंधकसम्पत्त्याः अन्धकारं कुर्वन्तु"
 
-#: client/configboard.ui:53
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AnimateToken)
+#: client/configboard.ui:53
 #, kde-format
 msgid ""
-"If checked, tokens will move across the board instead of jumping directly "
-"to their new location."
+"If checked, tokens will move across the board instead of jumping directly to "
+"their new location."
 msgstr ""
-"यदि परीक्षिताः सन्ति तर्हि टोकनाः प्रत्यक्षतया स्वस्य नूतनस्थानं प्रति "
-"कूर्दनस्य स्थाने बोर्डस्य पारं गमिष्यन्ति ।"
+"यदि परीक्षिताः सन्ति तर्हि टोकनाः प्रत्यक्षतया स्वस्य नूतनस्थानं प्रति कूर्दनस्य स्थाने "
+"बोर्डस्य पारं गमिष्यन्ति ।"
 
-#: client/configboard.ui:56
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateToken)
+#: client/configboard.ui:56
 #, kde-format
 msgid "Animate token movement"
 msgstr "टोकन गति सजीव"
 
-#: client/configboard.ui:63
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_QuartzEffects)
+#: client/configboard.ui:63
 #, kde-format
 msgid ""
 "If checked, the colored headers of street estates on the board will have a "
 "Quartz effect similar to the Quartz KWin style."
 msgstr ""
-"यदि जाँचः क्रियते तर्हि बोर्ड् मध्ये स्ट्रीट् एस्टेट्स् इत्यस्य रङ्गिणः "
-"हेडर्स् Quartz KWin शैल्याः सदृशः Quartz प्रभावः भविष्यति ।"
+"यदि जाँचः क्रियते तर्हि बोर्ड् मध्ये स्ट्रीट् एस्टेट्स् इत्यस्य रङ्गिणः हेडर्स् Quartz KWin शैल्याः "
+"सदृशः Quartz प्रभावः भविष्यति ।"
 
-#: client/configboard.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_QuartzEffects)
+#: client/configboard.ui:66
 #, kde-format
 msgid "Quartz effects"
 msgstr "क्वार्ट्ज प्रभाव"
+
+#: client/configdlg.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Atlantik"
+msgstr "अटलाण्टिक विन्यस्तं कुर्वन्तु"
 
 #: client/configdlg.cpp:33
 #, kde-format
@@ -240,39 +268,37 @@ msgstr "मण्डलम्‌"
 msgid "Meta Server"
 msgstr "मेटा सर्वर"
 
-#: client/configgeneral.ui:17
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ChatTimeStamps)
+#: client/configgeneral.ui:17
 #, kde-format
 msgid "If checked, Atlantik will add timestamps in front of chat messages."
 msgstr ""
-"यदि जाँचितम् अस्ति तर्हि Atlantik chat messages इत्यस्य पुरतः timestamps "
-"योजयिष्यति ।"
+"यदि जाँचितम् अस्ति तर्हि Atlantik chat messages इत्यस्य पुरतः timestamps योजयिष्यति ।"
 
-#: client/configgeneral.ui:20
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChatTimeStamps)
+#: client/configgeneral.ui:20
 #, kde-format
 msgid "Show timestamps in chat messages"
 msgstr "गपशपसन्देशेषु समयमुद्रिकाः दर्शयन्तु"
 
-#: client/configmetaserver.ui:17
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ConnectOnStart)
+#: client/configmetaserver.ui:17
 #, kde-format
 msgid ""
-"If checked, Atlantik connects to a meta server on start-up to request a "
-"list of Internet servers."
+"If checked, Atlantik connects to a meta server on start-up to request a list "
+"of Internet servers."
 msgstr ""
-"यदि परीक्षितं भवति तर्हि अटलाण्टिकः आरम्भे मेटा सर्वरेण सह सम्बद्धः भवति "
-"यत् अन्तर्जालसर्वरस्य सूचीं अनुरोधयति ।"
+"यदि परीक्षितं भवति तर्हि अटलाण्टिकः आरम्भे मेटा सर्वरेण सह सम्बद्धः भवति यत् "
+"अन्तर्जालसर्वरस्य सूचीं अनुरोधयति ।"
 
-#: client/configmetaserver.ui:20
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ConnectOnStart)
+#: client/configmetaserver.ui:20
 #, kde-format
 msgid "Request list of Internet servers on start-up"
 msgstr "प्रारम्भे अन्तर्जालसर्वरस्य सूचीं अनुरोधयन्तु"
 
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideDevelopmentServers)
 #: client/configmetaserver.ui:28
-#. i18n: ectx: property (whatsThis), widget (QCheckBox,
-#. kcfg_HideDevelopmentServers)
 #, kde-format
 msgid ""
 "Some of the Internet servers might be running development versions of the "
@@ -282,21 +308,20 @@ msgstr ""
 "केचन अन्तर्जालसर्वरः सर्वरसॉफ्टवेयरस्य विकाससंस्करणं चालयन्ति स्यात् ।\n"
 "यदि परीक्षितं तर्हि Atlantik एतान् सर्वरान् न प्रदर्शयिष्यति ।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideDevelopmentServers)
 #: client/configmetaserver.ui:31
-#. i18n: ectx: property (text), widget (QCheckBox,
-#. kcfg_HideDevelopmentServers)
 #, kde-format
 msgid "Hide development servers"
 msgstr "विकाससर्वरं गोपयन्तु"
 
-#: client/configplayer.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: client/configplayer.ui:17
 #, kde-format
 msgid "Player name:"
 msgstr "खिलाडीनाम : १."
 
-#: client/configplayer.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: client/configplayer.ui:30
 #, kde-format
 msgid "Player image:"
 msgstr "खिलाडी चित्रम् : १."
@@ -306,11 +331,17 @@ msgstr "खिलाडी चित्रम् : १."
 msgid "Date/Time"
 msgstr "तिथि/समय"
 
-#: client/eventlogwidget.cpp:117 client/selectgame.ui:35
 #. i18n: ectx: property (text), widget (QTreeWidget, m_gameList)
+#: client/eventlogwidget.cpp:117 client/selectgame.ui:35
 #, kde-format
 msgid "Description"
 msgstr "वर्णनम्‌"
+
+#: client/eventlogwidget.cpp:213
+#, kde-format
+msgctxt "@title:window"
+msgid "Event Log"
+msgstr "इवेण्ट् लॉग्"
 
 #: client/eventlogwidget.cpp:225
 #, kde-format
@@ -472,38 +503,38 @@ msgstr "क्रीडा आरब्धा। पूर्णं क्री
 msgid "Retrieved configuration list."
 msgstr "विन्याससूची पुनः प्राप्ता।"
 
-#: client/selectgame.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: client/selectgame.ui:17
 #, kde-format
 msgid "Create or Select monopd Game"
 msgstr "monopd Game रचयन्तु अथवा चयनं कुर्वन्तु"
 
-#: client/selectgame.ui:30
 #. i18n: ectx: property (text), widget (QTreeWidget, m_gameList)
+#: client/selectgame.ui:30
 #, kde-format
 msgid "Game"
 msgstr "क्रीडा"
 
-#: client/selectgame.ui:40
 #. i18n: ectx: property (text), widget (QTreeWidget, m_gameList)
+#: client/selectgame.ui:40
 #, kde-format
 msgid "Id"
 msgstr "Id"
 
-#: client/selectgame.ui:45
 #. i18n: ectx: property (text), widget (QTreeWidget, m_gameList)
+#: client/selectgame.ui:45
 #, kde-format
 msgid "Players"
 msgstr "क्रीडकाः"
 
-#: client/selectgame.ui:58
 #. i18n: ectx: property (text), widget (QPushButton, backButton)
+#: client/selectgame.ui:58
 #, kde-format
 msgid "Server List"
 msgstr "सर्वर सूची"
 
-#: client/selectgame.ui:78 client/selectgame_widget.cpp:194
 #. i18n: ectx: property (text), widget (QPushButton, m_connectButton)
+#: client/selectgame.ui:78 client/selectgame_widget.cpp:194
 #, kde-format
 msgid "Create Game"
 msgstr "गेम रचयन्तु"
@@ -540,57 +571,57 @@ msgstr "Watch Game"
 msgid "Join Game"
 msgstr "Game इत्यत्र सम्मिलितं भवतु"
 
-#: client/selectserver.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, customGroup)
+#: client/selectserver.ui:17
 #, kde-format
 msgid "Enter Custom monopd Server"
 msgstr "Custom monopd Server इति प्रविष्टं कुर्वन्तु"
 
-#: client/selectserver.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: client/selectserver.ui:23
 #, kde-format
 msgid "Hostname:"
 msgstr "होस्टनाम : १."
 
-#: client/selectserver.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: client/selectserver.ui:36
 #, kde-format
 msgid "Port:"
 msgstr "पोताश्रय:"
 
-#: client/selectserver.ui:56 client/selectserver.ui:127
 #. i18n: ectx: property (text), widget (QPushButton, m_customConnectButton)
 #. i18n: ectx: property (text), widget (QPushButton, m_connectButton)
+#: client/selectserver.ui:56 client/selectserver.ui:127
 #, kde-format
 msgid "Connect"
 msgstr "संयुज्"
 
-#: client/selectserver.ui:66
 #. i18n: ectx: property (title), widget (QGroupBox, bgroup)
+#: client/selectserver.ui:66
 #, kde-format
 msgid "Select monopd Server"
 msgstr "monopd Server इति चिनोतु"
 
-#: client/selectserver.ui:79
 #. i18n: ectx: property (text), widget (QTreeWidget, m_serverList)
+#: client/selectserver.ui:79
 #, kde-format
 msgid "Host"
 msgstr "निमन्त्रकः"
 
-#: client/selectserver.ui:84
 #. i18n: ectx: property (text), widget (QTreeWidget, m_serverList)
+#: client/selectserver.ui:84
 #, kde-format
 msgid "Latency"
 msgstr "विलम्बता"
 
-#: client/selectserver.ui:89
 #. i18n: ectx: property (text), widget (QTreeWidget, m_serverList)
+#: client/selectserver.ui:89
 #, kde-format
 msgid "Version"
 msgstr "संस्करण"
 
-#: client/selectserver.ui:94
 #. i18n: ectx: property (text), widget (QTreeWidget, m_serverList)
+#: client/selectserver.ui:94
 #, kde-format
 msgid "Users"
 msgstr "उपयोक्तारः"
@@ -650,21 +681,21 @@ msgstr "संयोजनं विफलम् अभवत् ! त्रु�
 msgid "Disconnected from %1:%2."
 msgstr "%1:%2 तः विच्छिन्नम् ।"
 
+#. i18n: ectx: property (text), widget (QTreeWidget, playerList)
 #: libatlantikui/auction.ui:21 libatlantikui/trade_widget.cpp:162
 #: libatlantikui/trade_widget.cpp:164
-#. i18n: ectx: property (text), widget (QTreeWidget, playerList)
 #, kde-format
 msgid "Player"
 msgstr "खिलाडी"
 
-#: libatlantikui/auction.ui:26
 #. i18n: ectx: property (text), widget (QTreeWidget, playerList)
+#: libatlantikui/auction.ui:26
 #, kde-format
 msgid "Bid"
 msgstr "आदिशति"
 
-#: libatlantikui/auction.ui:46
 #. i18n: ectx: property (text), widget (QPushButton, bidButton)
+#: libatlantikui/auction.ui:46
 #, kde-format
 msgid "Make Bid"
 msgstr "बोली करो"
@@ -789,6 +820,12 @@ msgstr "%1 इत्यनेन सह व्यापारस्य अनु
 msgid "Boot Player %1 to Lounge"
 msgstr "प्लेयर %1 इत्येतत् लाउन्ज इत्यत्र बूट् कुर्वन्तु"
 
+#: libatlantikui/trade_widget.cpp:49
+#, kde-format
+msgctxt "@title:window"
+msgid "Trade %1"
+msgstr "व्यापारः %1"
+
 #: libatlantikui/trade_widget.cpp:53
 #, kde-format
 msgid "Add Component"
@@ -854,6 +891,12 @@ msgstr "स्वीकरोतु"
 msgid "%1 out of %2 players accept current trade proposal."
 msgstr "%2 मध्ये %1 खिलाडयः वर्तमानव्यापारप्रस्तावम् स्वीकुर्वन्ति ।"
 
+#: libatlantikui/trade_widget.cpp:224
+#, kde-format
+msgctxt "gives is transitive ;)"
+msgid "gives"
+msgstr "ददाति"
+
 #: libatlantikui/trade_widget.cpp:285
 #, kde-format
 msgid "Trade proposal was rejected by %1."
@@ -868,49 +911,3 @@ msgstr "व्यापारप्रस्तावः अङ्गीकृ�
 #, kde-format
 msgid "Remove From Trade"
 msgstr "Remove From Trade इति"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: client/atlantik.cpp:730
-#, kde-format
-msgctxt "error message"
-msgid "Error"
-msgstr "त्रुटि"
-
-#: client/atlantik.cpp:733
-#, kde-format
-msgctxt "informative message"
-msgid "Info"
-msgstr "Info"
-
-#: client/configdlg.cpp:26
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Atlantik"
-msgstr "अटलाण्टिक विन्यस्तं कुर्वन्तु"
-
-#: client/eventlogwidget.cpp:213
-#, kde-format
-msgctxt "@title:window"
-msgid "Event Log"
-msgstr "इवेण्ट् लॉग्"
-
-#: libatlantikui/trade_widget.cpp:49
-#, kde-format
-msgctxt "@title:window"
-msgid "Trade %1"
-msgstr "व्यापारः %1"
-
-#: libatlantikui/trade_widget.cpp:224
-#, kde-format
-msgctxt "gives is transitive ;)"
-msgid "gives"
-msgstr "ददाति"

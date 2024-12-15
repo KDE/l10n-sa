@@ -8,34 +8,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-10-27 00:42+0000\n"
+"POT-Creation-Date: 2024-12-14 00:54+0000\n"
 "PO-Revision-Date: 2024-12-14 13:43+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
-#: editor/settings/ui/wifisecurity.ui:144
+#: editor/connectioneditorbase.cpp:203
 #, kde-format
-msgid "2"
-msgstr "२"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
-#: editor/settings/ui/wifisecurity.ui:149
-#, kde-format
-msgid "3"
-msgstr "३"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
-#: editor/settings/ui/wifisecurity.ui:154
-#, kde-format
-msgid "4"
-msgstr "४"
+msgctxt "@title:tab General configuration"
+msgid "General"
+msgstr ""
 
 #: editor/connectioneditorbase.cpp:210 editor/connectioneditorbase.cpp:227
 #, kde-format
@@ -173,6 +161,60 @@ msgstr "ईथरनेट्"
 msgid "InfiniBand"
 msgstr "इन्फिनिबैण्ड"
 
+#: editor/settings/bondwidget.cpp:48
+#, kde-format
+msgctxt "bond mode"
+msgid "Round-robin"
+msgstr "गोल-रोबिन्"
+
+#: editor/settings/bondwidget.cpp:49
+#, kde-format
+msgctxt "bond mode"
+msgid "Active backup"
+msgstr "सक्रियः बैकअपः"
+
+#: editor/settings/bondwidget.cpp:50
+#, kde-format
+msgctxt "bond mode"
+msgid "XOR"
+msgstr "निःशुल्कः"
+
+#: editor/settings/bondwidget.cpp:51
+#, kde-format
+msgctxt "bond mode"
+msgid "Broadcast"
+msgstr "प्रसारण"
+
+#: editor/settings/bondwidget.cpp:52
+#, kde-format
+msgctxt "bond mode"
+msgid "802.3ad"
+msgstr "८०२.३अद्"
+
+#: editor/settings/bondwidget.cpp:53
+#, kde-format
+msgctxt "bond mode"
+msgid "Adaptive transmit load balancing"
+msgstr "अनुकूली संचरण भार संतुलन"
+
+#: editor/settings/bondwidget.cpp:54
+#, kde-format
+msgctxt "bond mode"
+msgid "Adaptive load balancing"
+msgstr "अनुकूली भार संतुलन"
+
+#: editor/settings/bondwidget.cpp:57
+#, kde-format
+msgctxt "bond link monitoring"
+msgid "MII (recommended)"
+msgstr "MII (अनुशंसितम्) २."
+
+#: editor/settings/bondwidget.cpp:58
+#, kde-format
+msgctxt "bond link monitoring"
+msgid "ARP"
+msgstr "ए आर पी"
+
 #: editor/settings/bondwidget.cpp:244 editor/settings/bridgewidget.cpp:193
 #: editor/settings/teamwidget.cpp:182
 #, kde-format
@@ -201,6 +243,42 @@ msgstr "DUN (डायल अप नेटवर्किंग्) २."
 msgid "PAN (personal area network)"
 msgstr "PAN (व्यक्तिगत क्षेत्रजालम्) २."
 
+#: editor/settings/connectionwidget.cpp:158
+#, kde-format
+msgctxt "@title:window advanced permissions editor"
+msgid "Advanced Permissions Editor"
+msgstr "उन्नत अनुमति सम्पादक"
+
+#: editor/settings/infinibandwidget.cpp:22
+#, kde-format
+msgctxt "infiniband transport mode"
+msgid "Datagram"
+msgstr "डाटाग्राम"
+
+#: editor/settings/infinibandwidget.cpp:23
+#, kde-format
+msgctxt "infiniband transport mode"
+msgid "Connected"
+msgstr "संबद्धः"
+
+#: editor/settings/ipv4widget.cpp:56 editor/widgets/ipv4routeswidget.cpp:25
+#, kde-format
+msgctxt "Header text for IPv4 address"
+msgid "Address"
+msgstr "पत्रसङ्केतः"
+
+#: editor/settings/ipv4widget.cpp:58 editor/widgets/ipv4routeswidget.cpp:27
+#, kde-format
+msgctxt "Header text for IPv4 netmask"
+msgid "Netmask"
+msgstr "नेटमास्क"
+
+#: editor/settings/ipv4widget.cpp:60 editor/widgets/ipv4routeswidget.cpp:29
+#, kde-format
+msgctxt "Header text for IPv4 gateway"
+msgid "Gateway"
+msgstr "द्वारम्"
+
 #: editor/settings/ipv4widget.cpp:271 editor/settings/ipv6widget.cpp:262
 #, kde-format
 msgid "Other DNS Servers:"
@@ -217,13 +295,14 @@ msgstr "DNS सर्वरः : १."
 #: editor/settings/ipv4widget.cpp:420
 #, kde-format
 msgid ""
-"<qt>You can find more information about these values here:<br/><a href='https://"
-"developer.gnome.org/NetworkManager/stable/ch01.html'>https://developer.gnome.org/"
-"NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</a></qt>"
+"<qt>You can find more information about these values here:<br/><a "
+"href='https://developer.gnome.org/NetworkManager/stable/ch01.html'>https://"
+"developer.gnome.org/NetworkManager/stable/ch01.htmlnm-settings-nmcli.html</"
+"a></qt>"
 msgstr ""
 "<qt>एतेषां मूल्यानां विषये अधिकानि सूचनानि अत्र प्राप्नुवन्ति:<br/> <a href='https://"
-"developer.gnome.org/NetworkManager/stable/ch01.html'>https://developer.gnome.org/"
-"NetworkManager/stable/ch01.htmlnm-सेटिंग्स्-nmcli.html इति</a></qt>"
+"developer.gnome.org/NetworkManager/stable/ch01.html'>https://developer.gnome."
+"org/NetworkManager/stable/ch01.htmlnm-सेटिंग्स्-nmcli.html इति</a></qt>"
 
 #: editor/settings/ipv4widget.cpp:430
 #, kde-format
@@ -241,6 +320,12 @@ msgstr "DHCP होस्टनाम: 1.1."
 msgid "Default"
 msgstr "मूलभूतम्‌"
 
+#: editor/settings/ipv4widget.cpp:441
+#, kde-format
+msgctxt "Milliseconds"
+msgid " ms"
+msgstr " ms"
+
 #: editor/settings/ipv4widget.cpp:444
 #, kde-format
 msgid "DAD timeout:"
@@ -256,6 +341,24 @@ msgstr "DNS सर्वर सम्पादयन्तु"
 msgid "Edit DNS search domains"
 msgstr "DNS अन्वेषणक्षेत्राणि सम्पादयन्तु"
 
+#: editor/settings/ipv6widget.cpp:42 editor/widgets/ipv6routeswidget.cpp:26
+#, kde-format
+msgctxt "Header text for IPv6 address"
+msgid "Address"
+msgstr "पत्रसङ्केतः"
+
+#: editor/settings/ipv6widget.cpp:44
+#, kde-format
+msgctxt "Header text for IPv6 prefix"
+msgid "Prefix"
+msgstr "उपसर्गः"
+
+#: editor/settings/ipv6widget.cpp:46 editor/widgets/ipv6routeswidget.cpp:30
+#, kde-format
+msgctxt "Header text for IPv6 gateway"
+msgid "Gateway"
+msgstr "द्वारम्"
+
 #: editor/settings/security802-1x.cpp:507
 #, kde-format
 msgid "Alternative Subject Matches"
@@ -265,12 +368,12 @@ msgstr "वैकल्पिक विषय मेल"
 #, kde-format
 msgid ""
 "<qt>This entry must be one of:<ul><li>DNS: &lt;name or ip address&gt;</"
-"li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. https://www.kde.org&gt;</"
-"li></ul></qt>"
+"li><li>EMAIL: &lt;email&gt;</li><li>URI: &lt;uri, e.g. https://www.kde."
+"org&gt;</li></ul></qt>"
 msgstr ""
-"<qt>एषा प्रविष्टिः अवश्यमेव निम्नलिखितयोः एकः भवितुमर्हति:<ul><li> DNS: &lt;नाम वा ip "
-"पता&gt;</li><li> EMAIL: &lt;email&gt; इति</li><li> उरी: &lt;uri, यथा https://"
-"www.kde.org&gt;</li></ul></qt>"
+"<qt>एषा प्रविष्टिः अवश्यमेव निम्नलिखितयोः एकः भवितुमर्हति:<ul><li> DNS: &lt;नाम वा "
+"ip पता&gt;</li><li> EMAIL: &lt;email&gt; इति</li><li> उरी: &lt;uri, यथा "
+"https://www.kde.org&gt;</li></ul></qt>"
 
 #: editor/settings/security802-1x.cpp:526
 #, kde-format
@@ -423,7 +526,8 @@ msgstr "एतैः सर्वरैः सह सम्बद्धं क�
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, privateKeyLabel)
-#: editor/settings/ui/802-1x.ui:243 editor/settings/ui/wireguardinterfacewidget.ui:41
+#: editor/settings/ui/802-1x.ui:243
+#: editor/settings/ui/wireguardinterfacewidget.ui:41
 #, kde-format
 msgid "Private key:"
 msgstr "निजी कुञ्जी : १."
@@ -527,6 +631,13 @@ msgid "PEAP version:"
 msgstr "PEAP संस्करणम् : १."
 
 #. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
+#: editor/settings/ui/802-1x.ui:647
+#, kde-format
+msgctxt "PEAP version"
+msgid "Automatic"
+msgstr "स्वतः"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
 #: editor/settings/ui/802-1x.ui:652
 #, kde-format
 msgid "Version 0"
@@ -541,7 +652,8 @@ msgstr "संस्करणम् १"
 #. i18n: ectx: property (text), widget (QLabel, interfaceNameLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: editor/settings/ui/bond.ui:21 editor/settings/ui/bridge.ui:18
-#: editor/settings/ui/team.ui:18 editor/settings/ui/wireguardinterfacewidget.ui:26
+#: editor/settings/ui/team.ui:18
+#: editor/settings/ui/wireguardinterfacewidget.ui:26
 #, kde-format
 msgid "Interface name:"
 msgstr "अन्तरफलकस्य नाम : १."
@@ -637,6 +749,17 @@ msgstr "सेतुयुक्ताः संयोजनाः : १."
 msgid "Aging time:"
 msgstr "वृद्धावस्थाः समयः : १."
 
+#. i18n: ectx: property (suffix), widget (QSpinBox, agingTime)
+#. i18n: ectx: property (suffix), widget (QSpinBox, forwardDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, helloTime)
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxAge)
+#: editor/settings/ui/bridge.ui:123 editor/settings/ui/bridge.ui:190
+#: editor/settings/ui/bridge.ui:219 editor/settings/ui/bridge.ui:248
+#, kde-format
+msgctxt "seconds"
+msgid " s"
+msgstr " स"
+
 #. i18n: ectx: property (title), widget (QGroupBox, stpGroup)
 #: editor/settings/ui/bridge.ui:136
 #, kde-format
@@ -695,14 +818,14 @@ msgstr "प्राथमिकता सह स्वयमेव संयो
 #: editor/settings/ui/connectionwidget.ui:38
 #, kde-format
 msgid ""
-"If the connection is set to autoconnect, connections with higher priority will be "
-"preferred. Defaults to 0.\n"
-"The higher number means higher priority. A negative number can be used to indicate "
-"priority lower than the default.\n"
+"If the connection is set to autoconnect, connections with higher priority "
+"will be preferred. Defaults to 0.\n"
+"The higher number means higher priority. A negative number can be used to "
+"indicate priority lower than the default.\n"
 "           "
 msgstr ""
-"यदि संयोजनं स्वसंयोजनं इति सेट् भवति तर्हि उच्चतरप्राथमिकतायुक्ताः संयोजनाः प्राधान्यं प्राप्नुयुः । "
-"पूर्वनिर्धारितं 0.\n"
+"यदि संयोजनं स्वसंयोजनं इति सेट् भवति तर्हि उच्चतरप्राथमिकतायुक्ताः संयोजनाः प्राधान्यं "
+"प्राप्नुयुः । पूर्वनिर्धारितं 0.\n"
 "अधिका संख्या अधिका प्राथमिकता इति अर्थः । पूर्वनिर्धारितात् न्यूनतरं प्राथमिकतां सूचयितुं "
 "ऋणात्मकसङ्ख्यायाः उपयोगः कर्तुं शक्यते ।\n"
 "           "
@@ -719,16 +842,15 @@ msgstr "सर्वे उपयोक्तारः अस्मिन् ज
 msgid "Edit advanced permissions for this connection"
 msgstr "अस्य संयोजनस्य कृते उन्नतानुमतिः सम्पादयन्तु"
 
-#. i18n: ectx: property (whatsThis), widget (QPushButton,
-#. pushButtonPermissions)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pushButtonPermissions)
 #: editor/settings/ui/connectionwidget.ui:67
 #, kde-format
 msgid ""
-"Fine-grained permissions editor for this connection. It lets you choose which "
-"users can activate/modify/delete this connection."
+"Fine-grained permissions editor for this connection. It lets you choose "
+"which users can activate/modify/delete this connection."
 msgstr ""
-"अस्य संयोजनस्य कृते सूक्ष्म-कणिका-अनुमति-सम्पादकः । एतत् भवन्तं चयनं कर्तुं शक्नोति यत् के उपयोक्तारः "
-"एतत् संयोजनं सक्रियं/परिवर्तनं/विलोपनं कर्तुं शक्नुवन्ति ।"
+"अस्य संयोजनस्य कृते सूक्ष्म-कणिका-अनुमति-सम्पादकः । एतत् भवन्तं चयनं कर्तुं शक्नोति यत् के "
+"उपयोक्तारः एतत् संयोजनं सक्रियं/परिवर्तनं/विलोपनं कर्तुं शक्नुवन्ति ।"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonPermissions)
 #. i18n: ectx: property (text), widget (QPushButton, btnAdvanced)
@@ -759,12 +881,19 @@ msgstr "मीटर् कृतः : १."
 #: editor/settings/ui/connectionwidget.ui:149
 #, kde-format
 msgid ""
-"NetworkManager indicates to applications whether the connection is metered and "
-"therefore\n"
+"NetworkManager indicates to applications whether the connection is metered "
+"and therefore\n"
 "data usage should be restricted."
 msgstr ""
 "NetworkManager अनुप्रयोगेभ्यः सूचयति यत् संयोजनं मीटर् कृतम् अस्ति वा अतः\n"
 "दत्तांशस्य उपयोगः प्रतिबन्धितः भवेत्।"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, metered)
+#: editor/settings/ui/connectionwidget.ui:159
+#, kde-format
+msgctxt "Item in the Metered: list"
+msgid "Automatic"
+msgstr "स्वतः"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, metered)
 #: editor/settings/ui/connectionwidget.ui:164
@@ -822,7 +951,8 @@ msgstr "परिवहनविधिः : १."
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: editor/settings/ui/infiniband.ui:41 editor/settings/ui/wificonnectionwidget.ui:186
+#: editor/settings/ui/infiniband.ui:41
+#: editor/settings/ui/wificonnectionwidget.ui:186
 #: editor/settings/ui/wiredconnectionwidget.ui:23
 #, kde-format
 msgid "Restrict to device:"
@@ -831,15 +961,26 @@ msgstr "यन्त्रे प्रतिबन्धनम् : १."
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, mtuLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: editor/settings/ui/infiniband.ui:61 editor/settings/ui/wificonnectionwidget.ui:249
+#: editor/settings/ui/infiniband.ui:61
+#: editor/settings/ui/wificonnectionwidget.ui:249
 #: editor/settings/ui/wiredconnectionwidget.ui:89
 #: editor/settings/ui/wireguardinterfacewidget.ui:89
 #, kde-format
 msgid "MTU:"
 msgstr "व्यक्ति:"
 
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
+#: editor/settings/ui/infiniband.ui:80
+#: editor/settings/ui/wificonnectionwidget.ui:271
+#: editor/settings/ui/wiredconnectionwidget.ui:112
+#, kde-format
+msgctxt "MTU:"
+msgid "Automatic"
+msgstr "स्वतः"
+
 #. i18n: ectx: property (suffix), widget (QSpinBox, mtu)
-#: editor/settings/ui/infiniband.ui:83 editor/settings/ui/wificonnectionwidget.ui:274
+#: editor/settings/ui/infiniband.ui:83
+#: editor/settings/ui/wificonnectionwidget.ui:274
 #: editor/settings/ui/wiredconnectionwidget.ui:115
 #, kde-format
 msgid " bytes"
@@ -859,6 +1000,13 @@ msgid "Method:"
 msgstr "प्रक्रिया:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: editor/settings/ui/ipv4.ui:49 editor/settings/ui/ipv6.ui:224
+#, kde-format
+msgctxt "Method:"
+msgid "Automatic"
+msgstr "स्वतः"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:54 editor/settings/ui/ipv6.ui:229
 #, kde-format
 msgid "Automatic (Only addresses)"
@@ -871,17 +1019,38 @@ msgid "Link-Local"
 msgstr "लिङ्क-स्थानीय"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: editor/settings/ui/ipv4.ui:64 editor/settings/ui/ipv6.ui:244
+#, kde-format
+msgctxt "like in use Manual configuration"
+msgid "Manual"
+msgstr "शास्त्र"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv4.ui:69
 #, kde-format
 msgid "Shared to other computers"
 msgstr "अन्यसङ्गणकेषु साझाः"
 
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: editor/settings/ui/ipv4.ui:74
+#, kde-format
+msgctxt "like in this setting is Disabled"
+msgid "Disabled"
+msgstr "अक्षमित"
+
+#. i18n: ectx: property (text), widget (QLabel, dnsLabel)
+#: editor/settings/ui/ipv4.ui:88 editor/settings/ui/ipv6.ui:167
+#, kde-format
+msgctxt "@info"
+msgid "DNS Servers:"
+msgstr "DNS सर्वरः : १."
+
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dns)
 #: editor/settings/ui/ipv4.ui:118 editor/settings/ui/ipv6.ui:76
 #, kde-format
 msgid ""
-"Use this field to specify the IP address(es) of one or more DNS servers. Use ',' "
-"to separate entries."
+"Use this field to specify the IP address(es) of one or more DNS servers. Use "
+"',' to separate entries."
 msgstr ""
 "एकस्य वा अधिकस्य DNS सर्वरस्य IP-सङ्केतं(s) निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् । प्रविष्टीनां "
 "पृथक्करणाय ',' इत्यस्य प्रयोगं कुर्वन्तु ।"
@@ -892,18 +1061,24 @@ msgstr ""
 msgid "Edit DNS the list of servers"
 msgstr "सर्वरस्य सूचीं DNS सम्पादयन्तु"
 
+#. i18n: ectx: property (text), widget (QLabel, dnsSearchLabel)
+#: editor/settings/ui/ipv4.ui:143 editor/settings/ui/ipv6.ui:350
+#, kde-format
+msgctxt "@info"
+msgid "Search Domains:"
+msgstr "अन्वेषणक्षेत्राणि : १."
+
 #. i18n: ectx: property (toolTip), widget (KLineEdit, dnsSearch)
 #: editor/settings/ui/ipv4.ui:164 editor/settings/ui/ipv6.ui:270
 #, kde-format
 msgid ""
-"Use this field to specify one or more DNS domains to search. Use ',' to separate "
-"entries."
+"Use this field to specify one or more DNS domains to search. Use ',' to "
+"separate entries."
 msgstr ""
-"अन्वेषणार्थं एकं वा अधिकं DNS डोमेन् निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् । प्रविष्टीनां पृथक्करणाय ',' "
-"इत्यस्य प्रयोगं कुर्वन्तु ।"
+"अन्वेषणार्थं एकं वा अधिकं DNS डोमेन् निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् । प्रविष्टीनां पृथक्करणाय "
+"',' इत्यस्य प्रयोगं कुर्वन्तु ।"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton,
-#. dnsSearchMorePushButton)
+#. i18n: ectx: property (toolTip), widget (QPushButton, dnsSearchMorePushButton)
 #: editor/settings/ui/ipv4.ui:171 editor/settings/ui/ipv6.ui:277
 #, kde-format
 msgid "Edit the list of DNS domains being searched"
@@ -919,9 +1094,10 @@ msgstr "DHCP क्लायन्ट् ID:"
 #: editor/settings/ui/ipv4.ui:204
 #, kde-format
 msgid ""
-"Use this field to specify the DHCP client ID which is a string sent to the DHCP "
-"server\n"
-"to identify the local machine that the DHCP server may use to customize the DHCP\n"
+"Use this field to specify the DHCP client ID which is a string sent to the "
+"DHCP server\n"
+"to identify the local machine that the DHCP server may use to customize the "
+"DHCP\n"
 "lease and options."
 msgstr ""
 "DHCP क्लायन्ट् ID निर्दिष्टुं एतत् क्षेत्रं उपयुज्यताम् यत् DHCP सर्वरं प्रति प्रेषितं स्ट्रिंग् अस्ति\n"
@@ -945,8 +1121,8 @@ msgstr "संयोजयति"
 #: editor/widgets/ui/ipv4routes.ui:99 editor/widgets/ui/ipv6routes.ui:39
 #, kde-format
 msgid ""
-"IP addresses identify your computer on the network. Click the \"Add\" button to "
-"add\n"
+"IP addresses identify your computer on the network. Click the \"Add\" button "
+"to add\n"
 "an IP address"
 msgstr ""
 "IP-सङ्केताः जालपुटे भवतः सङ्गणकस्य परिचयं कुर्वन्ति । योजयितुं \"Add\" इति बटन् नुदन्तु\n"
@@ -978,7 +1154,8 @@ msgstr "मार्गाः..."
 #: editor/settings/ui/ipv6.ui:30
 #, kde-format
 msgid ""
-"When connecting to IPv4-capable networks, allows the connection to complete if\n"
+"When connecting to IPv4-capable networks, allows the connection to complete "
+"if\n"
 "IPv6 configuration fails but IPv4 configuration succeeds"
 msgstr ""
 "IPv4-सक्षमजालपुटेषु संयोजयन्, संयोजनं पूर्णं कर्तुं अनुमतिं ददाति if\n"
@@ -1000,14 +1177,21 @@ msgstr "DNS सर्वरस्य सूचीं सम्पादयन्
 #: editor/settings/ui/ipv6.ui:190
 #, kde-format
 msgid ""
-"Configure IPv6 Privacy Extensions for SLAAC, described in RFC4941. If enabled, it "
-"makes the kernel generate\n"
-"a temporary IPv6 address in addition to the public one generated from MAC address "
-"via modified EUI-64."
+"Configure IPv6 Privacy Extensions for SLAAC, described in RFC4941. If "
+"enabled, it makes the kernel generate\n"
+"a temporary IPv6 address in addition to the public one generated from MAC "
+"address via modified EUI-64."
 msgstr ""
-"SLAAC कृते IPv6 गोपनीयताविस्तारं विन्यस्यताम्, यत् RFC4941 मध्ये वर्णितम् अस्ति । यदि सक्षमं भवति "
-"तर्हि कर्नेल् जनयति\n"
+"SLAAC कृते IPv6 गोपनीयताविस्तारं विन्यस्यताम्, यत् RFC4941 मध्ये वर्णितम् अस्ति । यदि "
+"सक्षमं भवति तर्हि कर्नेल् जनयति\n"
 "परिवर्तित EUI-64 मार्गेण MAC पतातः उत्पन्नस्य सार्वजनिकस्य अतिरिक्तं अस्थायी IPv6 पता ।"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
+#: editor/settings/ui/ipv6.ui:199
+#, kde-format
+msgctxt "privacy disabled"
+msgid "Disabled"
+msgstr "अक्षमित"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #: editor/settings/ui/ipv6.ui:204
@@ -1026,6 +1210,13 @@ msgstr "सक्षमम् (अस्थायीपतानि प्रा
 #, kde-format
 msgid "Automatic (Only DHCP)"
 msgstr "स्वचालितम् (केवलं DHCP) २."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
+#: editor/settings/ui/ipv6.ui:249
+#, kde-format
+msgctxt "like in this setting is Disabled"
+msgid "Ignored"
+msgstr "उपेक्षितम्"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #: editor/settings/ui/ipv6.ui:254
@@ -1115,14 +1306,14 @@ msgstr "सेवा:"
 #: editor/settings/ui/pppoe.ui:30
 #, kde-format
 msgid ""
-"If specified, instruct PPPoE to only initiate sessions with access concentrators "
-"that provide the specified service. For most providers, this should be left blank. "
-"It is only required if there are multiple access concentrators or a specific "
-"service is known to be required."
+"If specified, instruct PPPoE to only initiate sessions with access "
+"concentrators that provide the specified service. For most providers, this "
+"should be left blank. It is only required if there are multiple access "
+"concentrators or a specific service is known to be required."
 msgstr ""
-"यदि निर्दिष्टं भवति तर्हि PPPoE इत्यस्मै केवलं निर्दिष्टसेवाप्रदातृभिः अभिगमसान्द्रकैः सह सत्रं आरभ्यत "
-"इति निर्देशयन्तु । अधिकांशप्रदातृणां कृते एतत् रिक्तं त्यक्तव्यम् । केवलं तदा एव आवश्यकं यदा बहुविधाः "
-"अभिगमसान्द्रकाः सन्ति अथवा विशिष्टसेवा आवश्यकी इति ज्ञायते ।"
+"यदि निर्दिष्टं भवति तर्हि PPPoE इत्यस्मै केवलं निर्दिष्टसेवाप्रदातृभिः अभिगमसान्द्रकैः सह सत्रं "
+"आरभ्यत इति निर्देशयन्तु । अधिकांशप्रदातृणां कृते एतत् रिक्तं त्यक्तव्यम् । केवलं तदा एव आवश्यकं "
+"यदा बहुविधाः अभिगमसान्द्रकाः सन्ति अथवा विशिष्टसेवा आवश्यकी इति ज्ञायते ।"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #: editor/settings/ui/team.ui:31
@@ -1218,7 +1409,8 @@ msgstr "बीएसएसआईडी : १."
 #: editor/settings/ui/wificonnectionwidget.ui:101
 #, kde-format
 msgid ""
-"This option locks this connection to the Wi-Fi access point (AP) specified by the\n"
+"This option locks this connection to the Wi-Fi access point (AP) specified "
+"by the\n"
 " BSSID entered here. Example: 00:11:22:33:44:55"
 msgstr ""
 "एषः विकल्पः एतत् संयोजनं द्वारा निर्दिष्टे Wi-Fi अभिगमबिन्दु (AP) प्रति ताडयति\n"
@@ -1234,13 +1426,20 @@ msgstr "गण:"
 #: editor/settings/ui/wificonnectionwidget.ui:137
 #, kde-format
 msgid ""
-"This option locks the connection to the Wi-Fi network associated to the specified "
-"band. This setting depends\n"
+"This option locks the connection to the Wi-Fi network associated to the "
+"specified band. This setting depends\n"
 " on specific driver capability and may not work with all drivers"
 msgstr ""
-"एषः विकल्पः निर्दिष्टेन पट्टिकायाः सह सम्बद्धस्य Wi-Fi संजालस्य संयोजनं ताडयति । एतत् सेटिङ्ग् "
-"निर्भरं भवति\n"
+"एषः विकल्पः निर्दिष्टेन पट्टिकायाः सह सम्बद्धस्य Wi-Fi संजालस्य संयोजनं ताडयति । एतत् "
+"सेटिङ्ग् निर्भरं भवति\n"
 " विशिष्टचालकक्षमतायां सर्वैः चालकैः सह कार्यं न कर्तुं शक्नोति"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, band)
+#: editor/settings/ui/wificonnectionwidget.ui:141
+#, kde-format
+msgctxt "Band:"
+msgid "Automatic"
+msgstr "स्वतः"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, band)
 #: editor/settings/ui/wificonnectionwidget.ui:146
@@ -1264,12 +1463,12 @@ msgstr "चैनलः : १."
 #: editor/settings/ui/wificonnectionwidget.ui:179
 #, kde-format
 msgid ""
-"Wireless channel to use for the Wi-Fi connection. The device will only join (or "
-"create for Ad-Hoc networks)\n"
+"Wireless channel to use for the Wi-Fi connection. The device will only join "
+"(or create for Ad-Hoc networks)\n"
 "a Wi-Fi network on the specified channel"
 msgstr ""
-"Wi-Fi संयोजनाय उपयोक्तुं वायरलेस् चैनल्। यन्त्रं केवलं सम्मिलितं भविष्यति (अथवा Ad-Hoc संजालस्य कृते "
-"निर्मास्यति) ।\n"
+"Wi-Fi संयोजनाय उपयोक्तुं वायरलेस् चैनल्। यन्त्रं केवलं सम्मिलितं भविष्यति (अथवा Ad-Hoc "
+"संजालस्य कृते निर्मास्यति) ।\n"
 "निर्दिष्टे चैनले एकं Wi-Fi संजालम्"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -1310,6 +1509,13 @@ msgstr "गुप्तजालम्"
 #, kde-format
 msgid "Wifi Security"
 msgstr "Wifi सुरक्षा"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
+#: editor/settings/ui/wifisecurity.ui:28
+#, kde-format
+msgctxt "no security"
+msgid "None"
+msgstr "न कश्चित्"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: editor/settings/ui/wifisecurity.ui:33
@@ -1383,6 +1589,24 @@ msgstr "WEP अनुक्रमणिका : १."
 msgid "1 (default)"
 msgstr "१ (पूर्वनिर्धारितम्) २."
 
+#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
+#: editor/settings/ui/wifisecurity.ui:144
+#, kde-format
+msgid "2"
+msgstr "२"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
+#: editor/settings/ui/wifisecurity.ui:149
+#, kde-format
+msgid "3"
+msgstr "३"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
+#: editor/settings/ui/wifisecurity.ui:154
+#, kde-format
+msgid "4"
+msgstr "४"
+
 #. i18n: ectx: property (text), item, widget (KComboBox, wepAuth)
 #: editor/settings/ui/wifisecurity.ui:179
 #, kde-format
@@ -1410,7 +1634,8 @@ msgstr ""
 #, kde-format
 msgid ""
 "The MAC address entered here will be used as hardware address for the\n"
-"network device this connection is activated on. This feature is known as MAC\n"
+"network device this connection is activated on. This feature is known as "
+"MAC\n"
 "cloning or spoofing. Example 11:22:33:44:55"
 msgstr ""
 "अत्र प्रविष्टं MAC-सङ्केतं कृते हार्डवेयर-सङ्केतरूपेण उपयुज्यते\n"
@@ -1427,8 +1652,8 @@ msgstr "यदृच्छासङ्ख्या"
 #: editor/settings/ui/wiredconnectionwidget.ui:106
 #, kde-format
 msgid ""
-"Only transmit packets of the specified size or smaller, breaking larger packets "
-"up\n"
+"Only transmit packets of the specified size or smaller, breaking larger "
+"packets up\n"
 "into multiple Ethernet frames"
 msgstr ""
 "केवलं निर्दिष्टप्रमाणस्य अथवा लघुतरस्य पॅकेट् प्रसारयन्तु, बृहत्तरपैकेट्-विच्छेदनं कुर्वन्तु\n"
@@ -1450,8 +1675,10 @@ msgstr "द्वैधः : १."
 #: editor/settings/ui/wiredconnectionwidget.ui:151
 #, kde-format
 msgid ""
-"Request that the device use the specified duplex mode. Either \"half\" or \"full\""
-msgstr "यन्त्रं निर्दिष्टं द्वयात्मकं मोडं उपयुञ्जीत इति अनुरोधं कुर्वन्तु । \"अर्ध\" वा \"पूर्णम्\" वा ।"
+"Request that the device use the specified duplex mode. Either \"half\" or "
+"\"full\""
+msgstr ""
+"यन्त्रं निर्दिष्टं द्वयात्मकं मोडं उपयुञ्जीत इति अनुरोधं कुर्वन्तु । \"अर्ध\" वा \"पूर्णम्\" वा ।"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, duplex)
 #: editor/settings/ui/wiredconnectionwidget.ui:158
@@ -1475,20 +1702,27 @@ msgstr "लिङ्क वार्ता : १."
 #: editor/settings/ui/wiredconnectionwidget.ui:188
 #, kde-format
 msgid ""
-"Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values will "
-"be forced without checking\n"
+"Device link negotiation. If “Manual” is chosen, “Speed” and “Duplex” values "
+"will be forced without checking\n"
 "the device compatibility. If unsure, leave here “Ignore” or pick “Automatic”."
 msgstr ""
-"उपकरणलिङ्क वार्ताकारिता। यदि “Manual” इति चिनोति तर्हि “Speed” तथा “Duplex” मूल्यानि "
-"परीक्षणं विना बाध्यं भविष्यन्ति\n"
-"यन्त्रसङ्गतिः इति । यदि अनिश्चितः अस्ति तर्हि अत्र “Ignore” इति त्यक्त्वा “Automatic” इति "
-"चिनोतु ।"
+"उपकरणलिङ्क वार्ताकारिता। यदि “Manual” इति चिनोति तर्हि “Speed” तथा “Duplex” "
+"मूल्यानि परीक्षणं विना बाध्यं भविष्यन्ति\n"
+"यन्त्रसङ्गतिः इति । यदि अनिश्चितः अस्ति तर्हि अत्र “Ignore” इति त्यक्त्वा “Automatic” "
+"इति चिनोतु ।"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
 #: editor/settings/ui/wiredconnectionwidget.ui:192
 #, kde-format
 msgid "Ignore"
 msgstr "उपेक्षा"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
+#: editor/settings/ui/wiredconnectionwidget.ui:197
+#, kde-format
+msgctxt "Link negotiation:"
+msgid "Automatic"
+msgstr "स्वतः"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
 #: editor/settings/ui/wiredconnectionwidget.ui:202
@@ -1756,8 +1990,7 @@ msgstr ""
 msgid "Preshared key:"
 msgstr "पूर्वसाझा कुञ्जी : १."
 
-#. i18n: ectx: property (toolTip), widget (PasswordField,
-#. presharedKeyLineEdit)
+#. i18n: ectx: property (toolTip), widget (PasswordField, presharedKeyLineEdit)
 #: editor/settings/ui/wireguardpeerwidget.ui:102
 #, kde-format
 msgid ""
@@ -1806,7 +2039,8 @@ msgstr ""
 "            NAT, अन्तरफलकस्य लाभः भवेत् यत् a\n"
 "            25 सेकण्डस्य निरन्तरं keepalive अन्तरालः। यदि सेट् भवति\n"
 "            0 अथवा \"off\", एषः विकल्पः अक्षमः अस्ति । पूर्वनिर्धारितरूपेण वा\n"
-"            अनिर्दिष्टे सति एषः विकल्पः निष्क्रियः भवति । अधिकांशः उपयोक्तारः न करिष्यन्ति\n"
+"            अनिर्दिष्टे सति एषः विकल्पः निष्क्रियः भवति । अधिकांशः उपयोक्तारः न "
+"करिष्यन्ति\n"
 "            एतस्य आवश्यकता अस्ति।"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
@@ -1831,6 +2065,85 @@ msgstr "एतत् Peer निष्कासयन्तु"
 #, kde-format
 msgid "%1 (%2 MHz)"
 msgstr "%1 (%2 मेगाहर्ट्ज) २."
+
+#: editor/settings/wireguardpeerwidget.cpp:71
+#: editor/settings/wireguardtabwidget.cpp:59
+#, kde-format
+msgctxt "@title: window wireguard peers properties"
+msgid "WireGuard peers properties"
+msgstr "WireGuard सहकर्मी गुणाः"
+
+#: editor/uiutils.cpp:128
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Wi-Fi"
+msgstr "वाई-फाई"
+
+#: editor/uiutils.cpp:131
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Bluetooth"
+msgstr "ब्लूटूथ"
+
+#: editor/uiutils.cpp:134
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Infiniband"
+msgstr "इन्फिनिबैण्ड"
+
+#: editor/uiutils.cpp:137
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "ADSL"
+msgstr "एडीएसएल"
+
+#: editor/uiutils.cpp:140
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Virtual (bond)"
+msgstr "आभासी (बन्धन) २."
+
+#: editor/uiutils.cpp:143
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Virtual (bridge)"
+msgstr "आभासी (सेतु) ९."
+
+#: editor/uiutils.cpp:146
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Virtual (vlan)"
+msgstr "आभासी (vlan) ९."
+
+#: editor/uiutils.cpp:149
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Virtual (team)"
+msgstr "आभासी (दल) ९."
+
+#: editor/uiutils.cpp:156
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Serial Modem"
+msgstr "धारावाहिक मोडेम"
+
+#: editor/uiutils.cpp:161
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Mobile Broadband"
+msgstr "मोबाईल ब्रॉडबैण्ड"
+
+#: editor/uiutils.cpp:170
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Loopback"
+msgstr "लूपबैक"
+
+#: editor/uiutils.cpp:174
+#, kde-format
+msgctxt "title of the interface widget in nm's popup"
+msgid "Wired Ethernet"
+msgstr "तारयुक्तं ईथरनेट्"
 
 #: editor/uiutils.cpp:186
 #, kde-format
@@ -1912,802 +2225,6 @@ msgstr "सेतु (%1) ९."
 msgid "Loopback Interface (%1)"
 msgstr "लूपबैक अन्तरफलक (%1) ."
 
-#: editor/uiutils.cpp:684
-#, kde-format
-msgid "Last used on %1"
-msgstr "%1 इत्यत्र अन्तिमवारं प्रयुक्तम्"
-
-#: editor/vpnuiplugin.cpp:42
-#, kde-format
-msgid "No VPN plugin found for type %1"
-msgstr "%1 प्रकारस्य कृते कोऽपि VPN प्लगिन् न प्राप्तः"
-
-#: editor/vpnuiplugin.cpp:99
-#, kde-format
-msgid "Importing this type of VPN is not implemented"
-msgstr "एतादृशस्य VPN आयातः कार्यान्वितः नास्ति"
-
-#: editor/vpnuiplugin.cpp:123
-#, kde-format
-msgid "Not implemented"
-msgstr "न कार्यान्वितम्"
-
-#: editor/widgets/bssidcombobox.cpp:122
-#, kde-format
-msgid "First select the SSID"
-msgstr "प्रथमं SSID इति चिनोतु"
-
-#: editor/widgets/bssidcombobox.cpp:131
-#, kde-format
-msgid ""
-"%1 (%2%)\n"
-"Frequency: %3 Mhz\n"
-"Channel: %4"
-msgstr ""
-"%1 (%2%) २.\n"
-"आवृत्तिः %3 मेगाहर्ट्ज\n"
-"चैनलः %4"
-
-#: editor/widgets/passwordfield.cpp:32
-#, kde-format
-msgid "Change the visibility of the password"
-msgstr "गुप्तशब्दस्य दृश्यतां परिवर्तयन्तु"
-
-#: editor/widgets/passwordfield.cpp:41
-#, kde-format
-msgid "Store password for this user only (encrypted)"
-msgstr "केवलं अस्य उपयोक्तुः कृते गुप्तशब्दं संग्रहीतु (गुप्तीकृतम्) ।"
-
-#: editor/widgets/passwordfield.cpp:43
-#, kde-format
-msgid "Store password for all users (not encrypted)"
-msgstr "सर्वेषां उपयोक्तृणां कृते गुप्तशब्दं संग्रहयन्तु (गुप्तीकरणं न)"
-
-#: editor/widgets/passwordfield.cpp:45 editor/widgets/passwordfield.cpp:91
-#, kde-format
-msgid "Ask for this password every time"
-msgstr "प्रतिवारं एतत् गुप्तशब्दं पृच्छन्तु"
-
-#: editor/widgets/passwordfield.cpp:106
-#, kde-format
-msgid "This password is not required"
-msgstr "एषः गुप्तशब्दः आवश्यकः नास्ति"
-
-#: editor/widgets/ssidcombobox.cpp:131
-#, kde-format
-msgid ""
-"%1 (%2%)\n"
-"Security: %3\n"
-"Frequency: %4 Mhz"
-msgstr ""
-"%1 (%2%) २.\n"
-"सुरक्षा : %3\n"
-"आवृत्तिः %4 मेगाहर्ट्ज"
-
-#: editor/widgets/ssidcombobox.cpp:139
-#, kde-format
-msgid ""
-"%1 (%2%)\n"
-"Security: Insecure\n"
-"Frequency: %3 Mhz"
-msgstr ""
-"%1 (%2%) २.\n"
-"सुरक्षा : असुरक्षित\n"
-"आवृत्तिः %3 मेगाहर्ट्ज"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: editor/widgets/ui/advancedpermissionswidget.ui:33
-#, kde-format
-msgid "Available Users"
-msgstr "उपलब्धाः उपयोक्तारः"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
-#. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
-#: editor/widgets/ui/advancedpermissionswidget.ui:83
-#: editor/widgets/ui/advancedpermissionswidget.ui:213
-#, kde-format
-msgid "Real Name"
-msgstr "वास्तविक नाम"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: editor/widgets/ui/advancedpermissionswidget.ui:160
-#, kde-format
-msgid "Users allowed to activate the connection"
-msgstr "उपयोक्तारः संयोजनं सक्रियं कर्तुं अनुमतिं दत्तवन्तः"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp4Config)
-#: editor/widgets/ui/ipv4routes.ui:20
-#, kde-format
-msgid "Edit IPv4 Routes"
-msgstr "IPv4 मार्गाः सम्पादयन्तु"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNeverDefault)
-#: editor/widgets/ui/ipv4routes.ui:42 editor/widgets/ui/ipv6routes.ui:130
-#, kde-format
-msgid ""
-"If enabled, this connection will never be used as the default network connection"
-msgstr "यदि सक्षमं भवति तर्हि एतत् संयोजनं कदापि पूर्वनिर्धारितजालसंयोजनरूपेण न उपयुज्यते"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
-#: editor/widgets/ui/ipv4routes.ui:45 editor/widgets/ui/ipv6routes.ui:133
-#, kde-format
-msgid "Use only for resources on this connection"
-msgstr "अस्मिन् संयोजने संसाधनानाम् कृते एव उपयोगं कुर्वन्तु"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, cbIgnoreAutoRoutes)
-#: editor/widgets/ui/ipv4routes.ui:136 editor/widgets/ui/ipv6routes.ui:120
-#, kde-format
-msgid ""
-"If enabled, automatically configured routes are ignored and only routes specified "
-"above are used"
-msgstr ""
-"यदि सक्षमं भवति तर्हि स्वयमेव विन्यस्तमार्गाः उपेक्षिताः भवन्ति तथा च उपरि निर्दिष्टमार्गाः एव "
-"उपयुज्यन्ते"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreAutoRoutes)
-#: editor/widgets/ui/ipv4routes.ui:139 editor/widgets/ui/ipv6routes.ui:123
-#, kde-format
-msgid "Ignore automatically obtained routes"
-msgstr "स्वयमेव प्राप्तमार्गान् अवहेलयन्तु"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp6Config)
-#: editor/widgets/ui/ipv6routes.ui:20
-#, kde-format
-msgid "Edit IPv6 Routes"
-msgstr "IPv6 मार्गाः सम्पादयन्तु"
-
-#: handler.cpp:121
-#, kde-format
-msgid "Plasma is missing support for '%1' VPN connections."
-msgstr "प्लाज्मा '%1' VPN संयोजनानां समर्थनं गम्यते ।"
-
-#: handler.cpp:124
-#, kde-format
-msgid "Report Bug"
-msgstr "बगस्य सूचनां ददातु"
-
-#: handler.cpp:147
-#, kde-format
-msgid "NetworkManager is missing support for '%1' VPN connections."
-msgstr "NetworkManager '%1' VPN संयोजनानां समर्थनं गम्यते ।"
-
-#: handler.cpp:150
-#, kde-format
-msgid "Install"
-msgstr "प्रतिस्था"
-
-#: handler.cpp:192
-#, kde-format
-msgid "Failed to activate %1"
-msgstr "%1 सक्रियीकरणे असफलम्"
-
-#: handler.cpp:366 handler.cpp:395
-#, kde-format
-msgid "Failed to add connection %1"
-msgstr "%1 संयोजनं योजयितुं असफलम्"
-
-#: handler.cpp:373 handler.cpp:404
-#, kde-format
-msgid "Connection %1 has been added"
-msgstr "%1 इति संयोजनं योजितम् अस्ति"
-
-#: handler.cpp:439
-#, kde-format
-msgid "Failed to add %1"
-msgstr "%1 योजयितुं असफलम्"
-
-#: handler.cpp:478
-#, kde-format
-msgid "Failed to deactivate %1"
-msgstr "%1 निष्क्रियं कर्तुं असफलम्"
-
-#: handler.cpp:609
-#, kde-format
-msgid "Failed to remove %1"
-msgstr "%1 निष्कासयितुं असफलम्"
-
-#: handler.cpp:616
-#, kde-format
-msgid "Connection %1 has been removed"
-msgstr "%1 इति संयोजनं निष्कासितम् अस्ति"
-
-#: handler.cpp:631
-#, kde-format
-msgid "Failed to update connection %1"
-msgstr "%1 संयोजनं अद्यतनीकर्तुं असफलम्"
-
-#: handler.cpp:638
-#, kde-format
-msgid "Connection %1 has been updated"
-msgstr "%1 संयोजनं अद्यतनं कृतम् अस्ति"
-
-#: handler.cpp:813
-#, kde-format
-msgid "Failed to create hotspot %1"
-msgstr "%1 हॉटस्पॉट् निर्मातुं असफलम्"
-
-#: models/creatableconnectionsmodel.cpp:136 models/creatableconnectionsmodel.cpp:143
-#: models/creatableconnectionsmodel.cpp:150 models/creatableconnectionsmodel.cpp:157
-#: models/creatableconnectionsmodel.cpp:164 models/creatableconnectionsmodel.cpp:174
-#: models/creatableconnectionsmodel.cpp:181
-#, kde-format
-msgid "Hardware based connections"
-msgstr "हार्डवेयर आधारितसंयोजनानि"
-
-#: models/creatableconnectionsmodel.cpp:137
-#, kde-format
-msgid "Some DSL description"
-msgstr "किञ्चित् DSL वर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:144
-#, kde-format
-msgid "Some infiniband description"
-msgstr "किञ्चित् इन्फिनबैण्ड् वर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:149
-#, kde-format
-msgid "Mobile Broadband"
-msgstr "मोबाईल ब्रॉडबैण्ड"
-
-#: models/creatableconnectionsmodel.cpp:151
-#, kde-format
-msgid "Some mobile broadband description"
-msgstr "केचन मोबाईल ब्रॉडबैण्ड् वर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:158 models/creatableconnectionsmodel.cpp:165
-#, kde-format
-msgid "Some wired ethernet description"
-msgstr "केचन तारयुक्ताः ईथरनेट् वर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:163
-#, kde-format
-msgid "Wired Ethernet (shared)"
-msgstr "तारयुक्तं ईथरनेट् (साझा) २."
-
-#: models/creatableconnectionsmodel.cpp:175 models/creatableconnectionsmodel.cpp:182
-#, kde-format
-msgid "Some wi-fi description"
-msgstr "किञ्चित् wi-fi वर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:180
-#, kde-format
-msgid "Wi-Fi (shared)"
-msgstr "वाई-फाई (साझा) २."
-
-#: models/creatableconnectionsmodel.cpp:191 models/creatableconnectionsmodel.cpp:201
-#: models/creatableconnectionsmodel.cpp:211 models/creatableconnectionsmodel.cpp:221
-#, kde-format
-msgid "Virtual connections"
-msgstr "आभासीसंयोजनानि"
-
-#: models/creatableconnectionsmodel.cpp:192 models/creatableconnectionsmodel.cpp:202
-#, kde-format
-msgid "Some bond description"
-msgstr "केचन बन्धनवर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:212
-#, kde-format
-msgid "Some team description"
-msgstr "किञ्चित् दलवर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:222
-#, kde-format
-msgid "Some vlan description"
-msgstr "किञ्चित् व्लान् वर्णनम्"
-
-#: models/creatableconnectionsmodel.cpp:242 models/creatableconnectionsmodel.cpp:255
-#, kde-format
-msgid "VPN connections"
-msgstr "VPN संयोजनानि"
-
-#: models/creatableconnectionsmodel.cpp:254 models/creatableconnectionsmodel.cpp:256
-#: networkstatus.cpp:211
-#, kde-format
-msgid "WireGuard"
-msgstr "ताररक्षक"
-
-#: models/creatableconnectionsmodel.cpp:266
-#, kde-format
-msgid "Import VPN connection…"
-msgstr "VPN संयोजन आयात करें..."
-
-#: models/creatableconnectionsmodel.cpp:267
-#, kde-format
-msgid "Other"
-msgstr "इतर"
-
-#: models/creatableconnectionsmodel.cpp:268
-#, kde-format
-msgid "Import a saved configuration file"
-msgstr "रक्षितां विन्याससञ्चिकां आयातयन्तु"
-
-#: models/networkmodelitem.cpp:585
-#, kde-format
-msgid "IPv4 Address"
-msgstr "IPv4 पता"
-
-#: models/networkmodelitem.cpp:591
-#, kde-format
-msgid "IPv4 Default Gateway"
-msgstr "IPv4 पूर्वनिर्धारितद्वारम्"
-
-#: models/networkmodelitem.cpp:598
-#, kde-format
-msgid "IPv4 Primary Nameserver"
-msgstr "IPv4 प्राथमिक नामसर्वरः"
-
-#: models/networkmodelitem.cpp:602
-#, kde-format
-msgid "IPv4 Secondary Nameserver"
-msgstr "IPv4 द्वितीयक नामसर्वरः"
-
-#: models/networkmodelitem.cpp:612
-#, kde-format
-msgid "IPv6 Address"
-msgstr "IPv6 पता"
-
-#: models/networkmodelitem.cpp:614
-#, kde-format
-msgid "IPv6 ULA Address"
-msgstr "IPv6 ULA पता"
-
-#: models/networkmodelitem.cpp:620
-#, kde-format
-msgid "IPv6 Default Gateway"
-msgstr "IPv6 पूर्वनिर्धारितद्वारम्"
-
-#: models/networkmodelitem.cpp:627
-#, kde-format
-msgid "IPv6 Primary Nameserver"
-msgstr "IPv6 प्राथमिक नामसर्वरः"
-
-#: models/networkmodelitem.cpp:631
-#, kde-format
-msgid "IPv6 Secondary Nameserver"
-msgstr "IPv6 द्वितीयक नामसर्वरः"
-
-#: models/networkmodelitem.cpp:640
-#, kde-format
-msgid "Connection speed"
-msgstr "संयोजनवेगः"
-
-#: models/networkmodelitem.cpp:642 models/networkmodelitem.cpp:667
-#: models/networkmodelitem.cpp:720 models/networkmodelitem.cpp:726
-#: models/networkmodelitem.cpp:732 models/networkmodelitem.cpp:738
-#: models/networkmodelitem.cpp:745 models/networkmodelitem.cpp:753
-#, kde-format
-msgid "MAC Address"
-msgstr "MAC Address इति"
-
-#: models/networkmodelitem.cpp:646
-#, kde-format
-msgid "Access Point (SSID)"
-msgstr "अभिगमनबिन्दु (SSID) २."
-
-#: models/networkmodelitem.cpp:648
-#, kde-format
-msgid "Signal Strength"
-msgstr "संकेतबलम्"
-
-#: models/networkmodelitem.cpp:650
-#, kde-format
-msgid "Security Type"
-msgstr "सुरक्षाप्रकारः"
-
-#: models/networkmodelitem.cpp:653
-#, kde-format
-msgid "Connection Speed"
-msgstr "संयोजनवेगः"
-
-#: models/networkmodelitem.cpp:659
-#, kde-format
-msgid "Frequency"
-msgstr "आवृत्ती"
-
-#: models/networkmodelitem.cpp:665
-#, kde-format
-msgid "BSSID"
-msgstr "BSSID"
-
-#: models/networkmodelitem.cpp:679
-#, kde-format
-msgid "Operator"
-msgstr "संचालकः"
-
-#: models/networkmodelitem.cpp:683
-#, kde-format
-msgid "Network ID"
-msgstr "संजाल ID"
-
-#: models/networkmodelitem.cpp:687
-#, kde-format
-msgid "Signal Quality"
-msgstr "संकेत गुणवत्ता"
-
-#: models/networkmodelitem.cpp:688
-#, kde-format
-msgid "Access Technology"
-msgstr "अभिगम प्रौद्योगिकी"
-
-#: models/networkmodelitem.cpp:693 models/networkmodelitem.cpp:710
-#, kde-format
-msgid "VPN Plugin"
-msgstr "वीपीएन प्लगइन"
-
-#: models/networkmodelitem.cpp:704
-#, kde-format
-msgid "Banner"
-msgstr "बैनर"
-
-#: models/networkmodelitem.cpp:714
-#, kde-format
-msgid "Name"
-msgstr "नामः"
-
-#: models/networkmodelitem.cpp:716 models/networkmodelitem.cpp:718
-#, kde-format
-msgid "Capabilities"
-msgstr "क्षमता"
-
-#: models/networkmodelitem.cpp:724 models/networkmodelitem.cpp:730
-#: models/networkmodelitem.cpp:736 models/networkmodelitem.cpp:742
-#: models/networkmodelitem.cpp:748 models/networkmodelitem.cpp:751
-#, kde-format
-msgid "Type"
-msgstr "प्रकारः"
-
-#: models/networkmodelitem.cpp:744
-#, kde-format
-msgid "Vlan ID"
-msgstr "व्लान् आईडी"
-
-#: models/networkmodelitem.cpp:748
-#, kde-format
-msgid "Adsl"
-msgstr "Adsl"
-
-#: models/networkmodelitem.cpp:758
-#, kde-format
-msgid "Device"
-msgstr "उपकरणम्‌"
-
-#: networkstatus.cpp:217
-#, kde-format
-msgid "Connecting to %1"
-msgstr "%1 इत्यनेन सह सम्बद्धं भवति"
-
-#: networkstatus.cpp:221
-#, kde-format
-msgid "Connected to %1 (no connectivity)"
-msgstr "%1 इत्यनेन सह सम्बद्धम् (संयोजनं नास्ति)"
-
-#: networkstatus.cpp:224
-#, kde-format
-msgid "Connected to %1 (limited connectivity)"
-msgstr "%1 (सीमितसंयोजनम्) इत्यनेन सह सम्बद्धम् ।"
-
-#: networkstatus.cpp:227
-#, kde-format
-msgid "Connected to %1 (log in required)"
-msgstr "%1 इत्यनेन सह सम्बद्धम् (प्रवेशः आवश्यकम्)"
-
-#: networkstatus.cpp:230
-#, kde-format
-msgid "Connected to %1"
-msgstr "%1 इत्यनेन सह सम्बद्धम्"
-
-#: networkstatus.cpp:255
-#, kde-format
-msgid "NetworkManager not running"
-msgstr "NetworkManager न चाल्यते"
-
-#: networkstatus.cpp:260
-#, kde-format
-msgid "NetworkManager 0.9.8 required, found %1."
-msgstr "NetworkManager 0.9.8 आवश्यकम्, %1 प्राप्तम् ।"
-
-#: editor/connectioneditorbase.cpp:203
-#, kde-format
-msgctxt "General"
-msgid "General configuration"
-msgstr "सामान्यविन्यासः"
-
-#: editor/settings/bondwidget.cpp:48
-#, kde-format
-msgctxt "bond mode"
-msgid "Round-robin"
-msgstr "गोल-रोबिन्"
-
-#: editor/settings/bondwidget.cpp:49
-#, kde-format
-msgctxt "bond mode"
-msgid "Active backup"
-msgstr "सक्रियः बैकअपः"
-
-#: editor/settings/bondwidget.cpp:50
-#, kde-format
-msgctxt "bond mode"
-msgid "XOR"
-msgstr "निःशुल्कः"
-
-#: editor/settings/bondwidget.cpp:51
-#, kde-format
-msgctxt "bond mode"
-msgid "Broadcast"
-msgstr "प्रसारण"
-
-#: editor/settings/bondwidget.cpp:52
-#, kde-format
-msgctxt "bond mode"
-msgid "802.3ad"
-msgstr "८०२.३अद्"
-
-#: editor/settings/bondwidget.cpp:53
-#, kde-format
-msgctxt "bond mode"
-msgid "Adaptive transmit load balancing"
-msgstr "अनुकूली संचरण भार संतुलन"
-
-#: editor/settings/bondwidget.cpp:54
-#, kde-format
-msgctxt "bond mode"
-msgid "Adaptive load balancing"
-msgstr "अनुकूली भार संतुलन"
-
-#: editor/settings/bondwidget.cpp:57
-#, kde-format
-msgctxt "bond link monitoring"
-msgid "MII (recommended)"
-msgstr "MII (अनुशंसितम्) २."
-
-#: editor/settings/bondwidget.cpp:58
-#, kde-format
-msgctxt "bond link monitoring"
-msgid "ARP"
-msgstr "ए आर पी"
-
-#: editor/settings/connectionwidget.cpp:158
-#, kde-format
-msgctxt "@title:window advanced permissions editor"
-msgid "Advanced Permissions Editor"
-msgstr "उन्नत अनुमति सम्पादक"
-
-#: editor/settings/infinibandwidget.cpp:22
-#, kde-format
-msgctxt "infiniband transport mode"
-msgid "Datagram"
-msgstr "डाटाग्राम"
-
-#: editor/settings/infinibandwidget.cpp:23
-#, kde-format
-msgctxt "infiniband transport mode"
-msgid "Connected"
-msgstr "संबद्धः"
-
-#: editor/settings/ipv4widget.cpp:56 editor/widgets/ipv4routeswidget.cpp:25
-#, kde-format
-msgctxt "Header text for IPv4 address"
-msgid "Address"
-msgstr "पत्रसङ्केतः"
-
-#: editor/settings/ipv4widget.cpp:58 editor/widgets/ipv4routeswidget.cpp:27
-#, kde-format
-msgctxt "Header text for IPv4 netmask"
-msgid "Netmask"
-msgstr "नेटमास्क"
-
-#: editor/settings/ipv4widget.cpp:60 editor/widgets/ipv4routeswidget.cpp:29
-#, kde-format
-msgctxt "Header text for IPv4 gateway"
-msgid "Gateway"
-msgstr "द्वारम्"
-
-#: editor/settings/ipv4widget.cpp:441
-#, kde-format
-msgctxt "Milliseconds"
-msgid " ms"
-msgstr " ms"
-
-#: editor/settings/ipv6widget.cpp:42 editor/widgets/ipv6routeswidget.cpp:26
-#, kde-format
-msgctxt "Header text for IPv6 address"
-msgid "Address"
-msgstr "पत्रसङ्केतः"
-
-#: editor/settings/ipv6widget.cpp:44
-#, kde-format
-msgctxt "Header text for IPv6 prefix"
-msgid "Prefix"
-msgstr "उपसर्गः"
-
-#: editor/settings/ipv6widget.cpp:46 editor/widgets/ipv6routeswidget.cpp:30
-#, kde-format
-msgctxt "Header text for IPv6 gateway"
-msgid "Gateway"
-msgstr "द्वारम्"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
-#: editor/settings/ui/802-1x.ui:647
-#, kde-format
-msgctxt "PEAP version"
-msgid "Automatic"
-msgstr "स्वतः"
-
-#. i18n: ectx: property (suffix), widget (QSpinBox, agingTime)
-#. i18n: ectx: property (suffix), widget (QSpinBox, forwardDelay)
-#. i18n: ectx: property (suffix), widget (QSpinBox, helloTime)
-#. i18n: ectx: property (suffix), widget (QSpinBox, maxAge)
-#: editor/settings/ui/bridge.ui:123 editor/settings/ui/bridge.ui:190
-#: editor/settings/ui/bridge.ui:219 editor/settings/ui/bridge.ui:248
-#, kde-format
-msgctxt "seconds"
-msgid " s"
-msgstr " स"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, metered)
-#: editor/settings/ui/connectionwidget.ui:159
-#, kde-format
-msgctxt "Item in the Metered: list"
-msgid "Automatic"
-msgstr "स्वतः"
-
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
-#: editor/settings/ui/infiniband.ui:80 editor/settings/ui/wificonnectionwidget.ui:271
-#: editor/settings/ui/wiredconnectionwidget.ui:112
-#, kde-format
-msgctxt "MTU:"
-msgid "Automatic"
-msgstr "स्वतः"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:49 editor/settings/ui/ipv6.ui:224
-#, kde-format
-msgctxt "Method:"
-msgid "Automatic"
-msgstr "स्वतः"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:64 editor/settings/ui/ipv6.ui:244
-#, kde-format
-msgctxt "like in use Manual configuration"
-msgid "Manual"
-msgstr "शास्त्र"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv4.ui:74
-#, kde-format
-msgctxt "like in this setting is Disabled"
-msgid "Disabled"
-msgstr "अक्षमित"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: editor/settings/ui/ipv6.ui:249
-#, kde-format
-msgctxt "like in this setting is Disabled"
-msgid "Ignored"
-msgstr "उपेक्षितम्"
-
-#. i18n: ectx: property (text), widget (QLabel, dnsLabel)
-#: editor/settings/ui/ipv4.ui:88 editor/settings/ui/ipv6.ui:167
-#, kde-format
-msgctxt "@info"
-msgid "DNS Servers:"
-msgstr "DNS सर्वरः : १."
-
-#. i18n: ectx: property (text), widget (QLabel, dnsSearchLabel)
-#: editor/settings/ui/ipv4.ui:143 editor/settings/ui/ipv6.ui:350
-#, kde-format
-msgctxt "@info"
-msgid "Search Domains:"
-msgstr "अन्वेषणक्षेत्राणि : १."
-
-#. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
-#: editor/settings/ui/ipv6.ui:199
-#, kde-format
-msgctxt "privacy disabled"
-msgid "Disabled"
-msgstr "अक्षमित"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, band)
-#: editor/settings/ui/wificonnectionwidget.ui:141
-#, kde-format
-msgctxt "Band:"
-msgid "Automatic"
-msgstr "स्वतः"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
-#: editor/settings/ui/wifisecurity.ui:28
-#, kde-format
-msgctxt "no security"
-msgid "None"
-msgstr "न कश्चित्"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, linkNegotiation)
-#: editor/settings/ui/wiredconnectionwidget.ui:197
-#, kde-format
-msgctxt "Link negotiation:"
-msgid "Automatic"
-msgstr "स्वतः"
-
-#: editor/settings/wireguardpeerwidget.cpp:71
-#: editor/settings/wireguardtabwidget.cpp:59
-#, kde-format
-msgctxt "@title: window wireguard peers properties"
-msgid "WireGuard peers properties"
-msgstr "WireGuard सहकर्मी गुणाः"
-
-#: editor/uiutils.cpp:128
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Wi-Fi"
-msgstr "वाई-फाई"
-
-#: editor/uiutils.cpp:131
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Bluetooth"
-msgstr "ब्लूटूथ"
-
-#: editor/uiutils.cpp:134
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Infiniband"
-msgstr "इन्फिनिबैण्ड"
-
-#: editor/uiutils.cpp:137
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "ADSL"
-msgstr "एडीएसएल"
-
-#: editor/uiutils.cpp:140
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Virtual (bond)"
-msgstr "आभासी (बन्धन) २."
-
-#: editor/uiutils.cpp:143
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Virtual (bridge)"
-msgstr "आभासी (सेतु) ९."
-
-#: editor/uiutils.cpp:146
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Virtual (vlan)"
-msgstr "आभासी (vlan) ९."
-
-#: editor/uiutils.cpp:149
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Virtual (team)"
-msgstr "आभासी (दल) ९."
-
-#: editor/uiutils.cpp:156
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Serial Modem"
-msgstr "धारावाहिक मोडेम"
-
-#: editor/uiutils.cpp:161
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Mobile Broadband"
-msgstr "मोबाईल ब्रॉडबैण्ड"
-
-#: editor/uiutils.cpp:170
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Loopback"
-msgstr "लूपबैक"
-
-#: editor/uiutils.cpp:174
-#, kde-format
-msgctxt "title of the interface widget in nm's popup"
-msgid "Wired Ethernet"
-msgstr "तारयुक्तं ईथरनेट्"
-
 #: editor/uiutils.cpp:286
 #, kde-format
 msgctxt "description of unknown network interface state"
@@ -2764,7 +2281,8 @@ msgstr "अग्रे संयोजनस्य जाँचः"
 
 #: editor/uiutils.cpp:313
 #, kde-format
-msgctxt "a secondary connection (e.g. VPN) has to be activated first to continue"
+msgctxt ""
+"a secondary connection (e.g. VPN) has to be activated first to continue"
 msgid "Waiting for a secondary connection"
 msgstr "गौणसंयोजनस्य प्रतीक्षां कुर्वन्"
 
@@ -3269,66 +2787,90 @@ msgstr "अज्ञात सुरक्षा प्रकार"
 #: editor/uiutils.cpp:637
 #, kde-format
 msgctxt ""
-"Label for last used time for a network connection used in the last hour, as the "
-"number of minutes since usage"
+"Label for last used time for a network connection used in the last hour, as "
+"the number of minutes since usage"
 msgid "One minute ago"
 msgid_plural "%1 minutes ago"
 msgstr[0] "एकनिमेषपूर्वम्"
 msgstr[1] "%1 निमेषपूर्वम्"
 
-#: editor/uiutils.cpp:671
-#, kde-format
-msgctxt ""
-"Label for last used time for a network connection used in the last hour, as the "
-"number of minutes since usage"
-msgid "Last used one minute ago"
-msgid_plural "Last used %1 minutes ago"
-msgstr[0] "अन्तिमवारं एकनिमेषपूर्वं प्रयुक्तः"
-msgstr[1] "अन्तिमप्रयुक्तः %1 निमेषपूर्वम्"
-
 #: editor/uiutils.cpp:643
 #, kde-format
 msgctxt ""
-"Label for last used time for a network connection used in the last day, as the "
-"number of hours since usage"
+"Label for last used time for a network connection used in the last day, as "
+"the number of hours since usage"
 msgid "One hour ago"
 msgid_plural "%1 hours ago"
 msgstr[0] "एकघण्टापूर्वम्"
 msgstr[1] "%1 घण्टापूर्वम्"
 
+#: editor/uiutils.cpp:648
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used the previous day"
+msgid "Yesterday"
+msgstr "ह्यः"
+
+#: editor/uiutils.cpp:656
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection that has never been used"
+msgid "Never"
+msgstr "कदापि न"
+
+#: editor/uiutils.cpp:671
+#, kde-format
+msgctxt ""
+"Label for last used time for a network connection used in the last hour, as "
+"the number of minutes since usage"
+msgid "Last used one minute ago"
+msgid_plural "Last used %1 minutes ago"
+msgstr[0] "अन्तिमवारं एकनिमेषपूर्वं प्रयुक्तः"
+msgstr[1] "अन्तिमप्रयुक्तः %1 निमेषपूर्वम्"
+
 #: editor/uiutils.cpp:677
 #, kde-format
 msgctxt ""
-"Label for last used time for a network connection used in the last day, as the "
-"number of hours since usage"
+"Label for last used time for a network connection used in the last day, as "
+"the number of hours since usage"
 msgid "Last used one hour ago"
 msgid_plural "Last used %1 hours ago"
 msgstr[0] "अन्तिमवारं एकघण्टापूर्वं प्रयुक्तम्"
 msgstr[1] "अन्तिमप्रयुक्तः %1 घण्टापूर्वम्"
 
-#: editor/uiutils.cpp:648
-#, kde-format
-msgctxt "Label for last used time for a network connection used the previous day"
-msgid "Yesterday"
-msgstr "ह्यः"
-
 #: editor/uiutils.cpp:682
 #, kde-format
-msgctxt "Label for last used time for a network connection used the previous day"
+msgctxt ""
+"Label for last used time for a network connection used the previous day"
 msgid "Last used yesterday"
 msgstr "अन्तिमवारं कालः प्रयुक्तः"
 
-#: editor/uiutils.cpp:656
+#: editor/uiutils.cpp:684
 #, kde-format
-msgctxt "Label for last used time for a network connection that has never been used"
-msgid "Never"
-msgstr "कदापि न"
+msgid "Last used on %1"
+msgstr "%1 इत्यत्र अन्तिमवारं प्रयुक्तम्"
 
 #: editor/uiutils.cpp:690
 #, kde-format
-msgctxt "Label for last used time for a network connection that has never been used"
+msgctxt ""
+"Label for last used time for a network connection that has never been used"
 msgid "Never used"
 msgstr "कदापि न प्रयुक्तम्"
+
+#: editor/vpnuiplugin.cpp:42
+#, kde-format
+msgid "No VPN plugin found for type %1"
+msgstr "%1 प्रकारस्य कृते कोऽपि VPN प्लगिन् न प्राप्तः"
+
+#: editor/vpnuiplugin.cpp:99
+#, kde-format
+msgid "Importing this type of VPN is not implemented"
+msgstr "एतादृशस्य VPN आयातः कार्यान्वितः नास्ति"
+
+#: editor/vpnuiplugin.cpp:123
+#, kde-format
+msgid "Not implemented"
+msgstr "न कार्यान्वितम्"
 
 #: editor/widgets/advancedpermissionswidget.cpp:86
 #, kde-format
@@ -3341,6 +2883,22 @@ msgstr "न/अ"
 msgctxt "@info:tooltip real user name is not available"
 msgid "Not Available"
 msgstr "न उपलब्धम्"
+
+#: editor/widgets/bssidcombobox.cpp:122
+#, kde-format
+msgid "First select the SSID"
+msgstr "प्रथमं SSID इति चिनोतु"
+
+#: editor/widgets/bssidcombobox.cpp:131
+#, kde-format
+msgid ""
+"%1 (%2%)\n"
+"Frequency: %3 Mhz\n"
+"Channel: %4"
+msgstr ""
+"%1 (%2%) २.\n"
+"आवृत्तिः %3 मेगाहर्ट्ज\n"
+"चैनलः %4"
 
 #: editor/widgets/ipv4routeswidget.cpp:31
 #, kde-format
@@ -3404,10 +2962,11 @@ msgstr "एकं Mobile Broadband Connection स्थापयन्तु"
 #, kde-format
 msgctxt "Mobile Connection Wizard"
 msgid ""
-"This assistant helps you easily set up a mobile broadband connection to a cellular "
-"(3G) network."
+"This assistant helps you easily set up a mobile broadband connection to a "
+"cellular (3G) network."
 msgstr ""
-"एषः सहायकः भवन्तं सेलुलर (3G) संजाले सहजतया मोबाईल् ब्रॉडबैण्ड् संयोजनं स्थापयितुं साहाय्यं करोति ।"
+"एषः सहायकः भवन्तं सेलुलर (3G) संजाले सहजतया मोबाईल् ब्रॉडबैण्ड् संयोजनं स्थापयितुं साहाय्यं "
+"करोति ।"
 
 #: editor/widgets/mobileconnectionwizard.cpp:244
 #, kde-format
@@ -3528,8 +3087,8 @@ msgid ""
 "\n"
 "If you are unsure of your plan please ask your provider for your plan's APN."
 msgstr ""
-"चेतावनी: अशुद्धयोजनायाः चयनेन भवतः ब्रॉडबैण्ड् खातेः बिलिंग्-समस्याः भवितुम् अर्हन्ति अथवा संयोजनं "
-"निवारयितुं शक्यते ।\n"
+"चेतावनी: अशुद्धयोजनायाः चयनेन भवतः ब्रॉडबैण्ड् खातेः बिलिंग्-समस्याः भवितुम् अर्हन्ति अथवा "
+"संयोजनं निवारयितुं शक्यते ।\n"
 "\n"
 "यदि भवान् स्वयोजनायाः विषये अनिश्चितः अस्ति तर्हि कृपया स्वस्य योजनायाः एपीएन् कृते स्वस्य "
 "प्रदातारं पृच्छतु।"
@@ -3543,7 +3102,8 @@ msgstr "मोबाईल ब्रॉडबैण्ड सेटिंग्�
 #: editor/widgets/mobileconnectionwizard.cpp:543
 #, kde-format
 msgctxt "Mobile Connection Wizard"
-msgid "Your mobile broadband connection is configured with the following settings:"
+msgid ""
+"Your mobile broadband connection is configured with the following settings:"
 msgstr "भवतः चल-ब्रॉडबैण्ड-सम्बद्धता निम्नलिखित-सेटिंग्स्-सहितं विन्यस्तम् अस्ति ।"
 
 #: editor/widgets/mobileconnectionwizard.cpp:547
@@ -3558,6 +3118,67 @@ msgctxt "Mobile Connection Wizard"
 msgid "Your Plan:"
 msgstr "भवतः योजना : १."
 
+#: editor/widgets/passwordfield.cpp:32
+#, kde-format
+msgid "Change the visibility of the password"
+msgstr "गुप्तशब्दस्य दृश्यतां परिवर्तयन्तु"
+
+#: editor/widgets/passwordfield.cpp:41
+#, kde-format
+msgid "Store password for this user only (encrypted)"
+msgstr "केवलं अस्य उपयोक्तुः कृते गुप्तशब्दं संग्रहीतु (गुप्तीकृतम्) ।"
+
+#: editor/widgets/passwordfield.cpp:43
+#, kde-format
+msgid "Store password for all users (not encrypted)"
+msgstr "सर्वेषां उपयोक्तृणां कृते गुप्तशब्दं संग्रहयन्तु (गुप्तीकरणं न)"
+
+#: editor/widgets/passwordfield.cpp:45 editor/widgets/passwordfield.cpp:91
+#, kde-format
+msgid "Ask for this password every time"
+msgstr "प्रतिवारं एतत् गुप्तशब्दं पृच्छन्तु"
+
+#: editor/widgets/passwordfield.cpp:106
+#, kde-format
+msgid "This password is not required"
+msgstr "एषः गुप्तशब्दः आवश्यकः नास्ति"
+
+#: editor/widgets/ssidcombobox.cpp:131
+#, kde-format
+msgid ""
+"%1 (%2%)\n"
+"Security: %3\n"
+"Frequency: %4 Mhz"
+msgstr ""
+"%1 (%2%) २.\n"
+"सुरक्षा : %3\n"
+"आवृत्तिः %4 मेगाहर्ट्ज"
+
+#: editor/widgets/ssidcombobox.cpp:139
+#, kde-format
+msgid ""
+"%1 (%2%)\n"
+"Security: Insecure\n"
+"Frequency: %3 Mhz"
+msgstr ""
+"%1 (%2%) २.\n"
+"सुरक्षा : असुरक्षित\n"
+"आवृत्तिः %3 मेगाहर्ट्ज"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: editor/widgets/ui/advancedpermissionswidget.ui:33
+#, kde-format
+msgid "Available Users"
+msgstr "उपलब्धाः उपयोक्तारः"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
+#. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
+#: editor/widgets/ui/advancedpermissionswidget.ui:83
+#: editor/widgets/ui/advancedpermissionswidget.ui:213
+#, kde-format
+msgid "Real Name"
+msgstr "वास्तविक नाम"
+
 #. i18n: ectx: property (text), widget (QTreeWidget, availUsers)
 #. i18n: ectx: property (text), widget (QTreeWidget, currentUsers)
 #: editor/widgets/ui/advancedpermissionswidget.ui:88
@@ -3567,18 +3188,37 @@ msgctxt "like in Username for athentication"
 msgid "Username"
 msgstr "उपयोक्तृनाम"
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: editor/widgets/ui/advancedpermissionswidget.ui:160
+#, kde-format
+msgid "Users allowed to activate the connection"
+msgstr "उपयोक्तारः संयोजनं सक्रियं कर्तुं अनुमतिं दत्तवन्तः"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp4Config)
+#: editor/widgets/ui/ipv4routes.ui:20
+#, kde-format
+msgid "Edit IPv4 Routes"
+msgstr "IPv4 मार्गाः सम्पादयन्तु"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbNeverDefault)
+#: editor/widgets/ui/ipv4routes.ui:42 editor/widgets/ui/ipv6routes.ui:130
+#, kde-format
+msgid ""
+"If enabled, this connection will never be used as the default network "
+"connection"
+msgstr "यदि सक्षमं भवति तर्हि एतत् संयोजनं कदापि पूर्वनिर्धारितजालसंयोजनरूपेण न उपयुज्यते"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbNeverDefault)
+#: editor/widgets/ui/ipv4routes.ui:45 editor/widgets/ui/ipv6routes.ui:133
+#, kde-format
+msgid "Use only for resources on this connection"
+msgstr "अस्मिन् संयोजने संसाधनानाम् कृते एव उपयोगं कुर्वन्तु"
+
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonRemove)
 #: editor/widgets/ui/ipv4routes.ui:74
 #, kde-format
 msgctxt "Remove a selected row"
 msgid "Remove"
-msgstr "अपाकरोति"
-
-#. i18n: ectx: property (text), widget (QPushButton, pushButtonRemove)
-#: editor/widgets/ui/ipv6routes.ui:92
-#, kde-format
-msgctxt "Remove a selected row"
-msgid "R&emove"
 msgstr "अपाकरोति"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushButtonAdd)
@@ -3587,6 +3227,209 @@ msgstr "अपाकरोति"
 msgctxt "Insert a row"
 msgid "Add"
 msgstr "संयोजयति"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbIgnoreAutoRoutes)
+#: editor/widgets/ui/ipv4routes.ui:136 editor/widgets/ui/ipv6routes.ui:120
+#, kde-format
+msgid ""
+"If enabled, automatically configured routes are ignored and only routes "
+"specified above are used"
+msgstr ""
+"यदि सक्षमं भवति तर्हि स्वयमेव विन्यस्तमार्गाः उपेक्षिताः भवन्ति तथा च उपरि "
+"निर्दिष्टमार्गाः एव उपयुज्यन्ते"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreAutoRoutes)
+#: editor/widgets/ui/ipv4routes.ui:139 editor/widgets/ui/ipv6routes.ui:123
+#, kde-format
+msgid "Ignore automatically obtained routes"
+msgstr "स्वयमेव प्राप्तमार्गान् अवहेलयन्तु"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, RoutesIp6Config)
+#: editor/widgets/ui/ipv6routes.ui:20
+#, kde-format
+msgid "Edit IPv6 Routes"
+msgstr "IPv6 मार्गाः सम्पादयन्तु"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonRemove)
+#: editor/widgets/ui/ipv6routes.ui:92
+#, kde-format
+msgctxt "Remove a selected row"
+msgid "R&emove"
+msgstr "अपाकरोति"
+
+#: handler.cpp:121
+#, kde-format
+msgid "Plasma is missing support for '%1' VPN connections."
+msgstr "प्लाज्मा '%1' VPN संयोजनानां समर्थनं गम्यते ।"
+
+#: handler.cpp:124
+#, kde-format
+msgid "Report Bug"
+msgstr "बगस्य सूचनां ददातु"
+
+#: handler.cpp:147
+#, kde-format
+msgid "NetworkManager is missing support for '%1' VPN connections."
+msgstr "NetworkManager '%1' VPN संयोजनानां समर्थनं गम्यते ।"
+
+#: handler.cpp:150
+#, kde-format
+msgid "Install"
+msgstr "प्रतिस्था"
+
+#: handler.cpp:192
+#, kde-format
+msgid "Failed to activate %1"
+msgstr "%1 सक्रियीकरणे असफलम्"
+
+#: handler.cpp:366 handler.cpp:395
+#, kde-format
+msgid "Failed to add connection %1"
+msgstr "%1 संयोजनं योजयितुं असफलम्"
+
+#: handler.cpp:373 handler.cpp:404
+#, kde-format
+msgid "Connection %1 has been added"
+msgstr "%1 इति संयोजनं योजितम् अस्ति"
+
+#: handler.cpp:439
+#, kde-format
+msgid "Failed to add %1"
+msgstr "%1 योजयितुं असफलम्"
+
+#: handler.cpp:478
+#, kde-format
+msgid "Failed to deactivate %1"
+msgstr "%1 निष्क्रियं कर्तुं असफलम्"
+
+#: handler.cpp:609
+#, kde-format
+msgid "Failed to remove %1"
+msgstr "%1 निष्कासयितुं असफलम्"
+
+#: handler.cpp:616
+#, kde-format
+msgid "Connection %1 has been removed"
+msgstr "%1 इति संयोजनं निष्कासितम् अस्ति"
+
+#: handler.cpp:631
+#, kde-format
+msgid "Failed to update connection %1"
+msgstr "%1 संयोजनं अद्यतनीकर्तुं असफलम्"
+
+#: handler.cpp:638
+#, kde-format
+msgid "Connection %1 has been updated"
+msgstr "%1 संयोजनं अद्यतनं कृतम् अस्ति"
+
+#: handler.cpp:813
+#, kde-format
+msgid "Failed to create hotspot %1"
+msgstr "%1 हॉटस्पॉट् निर्मातुं असफलम्"
+
+#: models/creatableconnectionsmodel.cpp:136
+#: models/creatableconnectionsmodel.cpp:143
+#: models/creatableconnectionsmodel.cpp:150
+#: models/creatableconnectionsmodel.cpp:157
+#: models/creatableconnectionsmodel.cpp:164
+#: models/creatableconnectionsmodel.cpp:174
+#: models/creatableconnectionsmodel.cpp:181
+#, kde-format
+msgid "Hardware based connections"
+msgstr "हार्डवेयर आधारितसंयोजनानि"
+
+#: models/creatableconnectionsmodel.cpp:137
+#, kde-format
+msgid "Some DSL description"
+msgstr "किञ्चित् DSL वर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:144
+#, kde-format
+msgid "Some infiniband description"
+msgstr "किञ्चित् इन्फिनबैण्ड् वर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:149
+#, kde-format
+msgid "Mobile Broadband"
+msgstr "मोबाईल ब्रॉडबैण्ड"
+
+#: models/creatableconnectionsmodel.cpp:151
+#, kde-format
+msgid "Some mobile broadband description"
+msgstr "केचन मोबाईल ब्रॉडबैण्ड् वर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:158
+#: models/creatableconnectionsmodel.cpp:165
+#, kde-format
+msgid "Some wired ethernet description"
+msgstr "केचन तारयुक्ताः ईथरनेट् वर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:163
+#, kde-format
+msgid "Wired Ethernet (shared)"
+msgstr "तारयुक्तं ईथरनेट् (साझा) २."
+
+#: models/creatableconnectionsmodel.cpp:175
+#: models/creatableconnectionsmodel.cpp:182
+#, kde-format
+msgid "Some wi-fi description"
+msgstr "किञ्चित् wi-fi वर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:180
+#, kde-format
+msgid "Wi-Fi (shared)"
+msgstr "वाई-फाई (साझा) २."
+
+#: models/creatableconnectionsmodel.cpp:191
+#: models/creatableconnectionsmodel.cpp:201
+#: models/creatableconnectionsmodel.cpp:211
+#: models/creatableconnectionsmodel.cpp:221
+#, kde-format
+msgid "Virtual connections"
+msgstr "आभासीसंयोजनानि"
+
+#: models/creatableconnectionsmodel.cpp:192
+#: models/creatableconnectionsmodel.cpp:202
+#, kde-format
+msgid "Some bond description"
+msgstr "केचन बन्धनवर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:212
+#, kde-format
+msgid "Some team description"
+msgstr "किञ्चित् दलवर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:222
+#, kde-format
+msgid "Some vlan description"
+msgstr "किञ्चित् व्लान् वर्णनम्"
+
+#: models/creatableconnectionsmodel.cpp:242
+#: models/creatableconnectionsmodel.cpp:255
+#, kde-format
+msgid "VPN connections"
+msgstr "VPN संयोजनानि"
+
+#: models/creatableconnectionsmodel.cpp:254
+#: models/creatableconnectionsmodel.cpp:256 networkstatus.cpp:211
+#, kde-format
+msgid "WireGuard"
+msgstr "ताररक्षक"
+
+#: models/creatableconnectionsmodel.cpp:266
+#, kde-format
+msgid "Import VPN connection…"
+msgstr "VPN संयोजन आयात करें..."
+
+#: models/creatableconnectionsmodel.cpp:267
+#, kde-format
+msgid "Other"
+msgstr "इतर"
+
+#: models/creatableconnectionsmodel.cpp:268
+#, kde-format
+msgid "Import a saved configuration file"
+msgstr "रक्षितां विन्याससञ्चिकां आयातयन्तु"
 
 #: models/networkmodelitem.cpp:42
 #, kde-format
@@ -3702,11 +3545,94 @@ msgctxt "@info:tooltip"
 msgid "The connection type is WireGuard"
 msgstr "संयोजनप्रकारः WireGuard इति"
 
+#: models/networkmodelitem.cpp:585
+#, kde-format
+msgid "IPv4 Address"
+msgstr "IPv4 पता"
+
+#: models/networkmodelitem.cpp:591
+#, kde-format
+msgid "IPv4 Default Gateway"
+msgstr "IPv4 पूर्वनिर्धारितद्वारम्"
+
+#: models/networkmodelitem.cpp:598
+#, kde-format
+msgid "IPv4 Primary Nameserver"
+msgstr "IPv4 प्राथमिक नामसर्वरः"
+
+#: models/networkmodelitem.cpp:602
+#, kde-format
+msgid "IPv4 Secondary Nameserver"
+msgstr "IPv4 द्वितीयक नामसर्वरः"
+
+#: models/networkmodelitem.cpp:612
+#, kde-format
+msgid "IPv6 Address"
+msgstr "IPv6 पता"
+
+#: models/networkmodelitem.cpp:614
+#, kde-format
+msgid "IPv6 ULA Address"
+msgstr "IPv6 ULA पता"
+
+#: models/networkmodelitem.cpp:620
+#, kde-format
+msgid "IPv6 Default Gateway"
+msgstr "IPv6 पूर्वनिर्धारितद्वारम्"
+
+#: models/networkmodelitem.cpp:627
+#, kde-format
+msgid "IPv6 Primary Nameserver"
+msgstr "IPv6 प्राथमिक नामसर्वरः"
+
+#: models/networkmodelitem.cpp:631
+#, kde-format
+msgid "IPv6 Secondary Nameserver"
+msgstr "IPv6 द्वितीयक नामसर्वरः"
+
+#: models/networkmodelitem.cpp:640
+#, kde-format
+msgid "Connection speed"
+msgstr "संयोजनवेगः"
+
+#: models/networkmodelitem.cpp:642 models/networkmodelitem.cpp:667
+#: models/networkmodelitem.cpp:720 models/networkmodelitem.cpp:726
+#: models/networkmodelitem.cpp:732 models/networkmodelitem.cpp:738
+#: models/networkmodelitem.cpp:745 models/networkmodelitem.cpp:753
+#, kde-format
+msgid "MAC Address"
+msgstr "MAC Address इति"
+
+#: models/networkmodelitem.cpp:646
+#, kde-format
+msgid "Access Point (SSID)"
+msgstr "अभिगमनबिन्दु (SSID) २."
+
+#: models/networkmodelitem.cpp:648
+#, kde-format
+msgid "Signal Strength"
+msgstr "संकेतबलम्"
+
 #: models/networkmodelitem.cpp:648
 #, kde-format
 msgctxt "WiFi signal strength percentage indicator"
 msgid "%1%"
 msgstr "%1% २."
+
+#: models/networkmodelitem.cpp:650
+#, kde-format
+msgid "Security Type"
+msgstr "सुरक्षाप्रकारः"
+
+#: models/networkmodelitem.cpp:653
+#, kde-format
+msgid "Connection Speed"
+msgstr "संयोजनवेगः"
+
+#: models/networkmodelitem.cpp:659
+#, kde-format
+msgid "Frequency"
+msgstr "आवृत्ती"
 
 #: models/networkmodelitem.cpp:661
 #, kde-format
@@ -3714,15 +3640,84 @@ msgctxt "Frequency (Channel)"
 msgid "%1 (Channel %2)"
 msgstr "%1 (चैनल %2) २."
 
+#: models/networkmodelitem.cpp:665
+#, kde-format
+msgid "BSSID"
+msgstr "BSSID"
+
+#: models/networkmodelitem.cpp:679
+#, kde-format
+msgid "Operator"
+msgstr "संचालकः"
+
+#: models/networkmodelitem.cpp:683
+#, kde-format
+msgid "Network ID"
+msgstr "संजाल ID"
+
+#: models/networkmodelitem.cpp:687
+#, kde-format
+msgid "Signal Quality"
+msgstr "संकेत गुणवत्ता"
+
+#: models/networkmodelitem.cpp:688
+#, kde-format
+msgid "Access Technology"
+msgstr "अभिगम प्रौद्योगिकी"
+
+#: models/networkmodelitem.cpp:693 models/networkmodelitem.cpp:710
+#, kde-format
+msgid "VPN Plugin"
+msgstr "वीपीएन प्लगइन"
+
+#: models/networkmodelitem.cpp:704
+#, kde-format
+msgid "Banner"
+msgstr "बैनर"
+
+#: models/networkmodelitem.cpp:714
+#, kde-format
+msgid "Name"
+msgstr "नामः"
+
+#: models/networkmodelitem.cpp:716 models/networkmodelitem.cpp:718
+#, kde-format
+msgid "Capabilities"
+msgstr "क्षमता"
+
+#: models/networkmodelitem.cpp:724 models/networkmodelitem.cpp:730
+#: models/networkmodelitem.cpp:736 models/networkmodelitem.cpp:742
+#: models/networkmodelitem.cpp:748 models/networkmodelitem.cpp:751
+#, kde-format
+msgid "Type"
+msgstr "प्रकारः"
+
+#: models/networkmodelitem.cpp:744
+#, kde-format
+msgid "Vlan ID"
+msgstr "व्लान् आईडी"
+
+#: models/networkmodelitem.cpp:748
+#, kde-format
+msgid "Adsl"
+msgstr "Adsl"
+
+#: models/networkmodelitem.cpp:758
+#, kde-format
+msgid "Device"
+msgstr "उपकरणम्‌"
+
 #: networkstatus.cpp:125
 #, kde-format
-msgctxt "A network device is connected, but there is only link-local connectivity"
+msgctxt ""
+"A network device is connected, but there is only link-local connectivity"
 msgid "Connected"
 msgstr "संबद्धः"
 
 #: networkstatus.cpp:128
 #, kde-format
-msgctxt "A network device is connected, but there is only site-local connectivity"
+msgctxt ""
+"A network device is connected, but there is only site-local connectivity"
 msgid "Connected"
 msgstr "संबद्धः"
 
@@ -3758,8 +3753,47 @@ msgctxt ""
 msgid "Connecting"
 msgstr "संयोजयन्"
 
+#: networkstatus.cpp:217
+#, kde-format
+msgid "Connecting to %1"
+msgstr "%1 इत्यनेन सह सम्बद्धं भवति"
+
+#: networkstatus.cpp:221
+#, kde-format
+msgid "Connected to %1 (no connectivity)"
+msgstr "%1 इत्यनेन सह सम्बद्धम् (संयोजनं नास्ति)"
+
+#: networkstatus.cpp:224
+#, kde-format
+msgid "Connected to %1 (limited connectivity)"
+msgstr "%1 (सीमितसंयोजनम्) इत्यनेन सह सम्बद्धम् ।"
+
+#: networkstatus.cpp:227
+#, kde-format
+msgid "Connected to %1 (log in required)"
+msgstr "%1 इत्यनेन सह सम्बद्धम् (प्रवेशः आवश्यकम्)"
+
+#: networkstatus.cpp:230
+#, kde-format
+msgid "Connected to %1"
+msgstr "%1 इत्यनेन सह सम्बद्धम्"
+
+#: networkstatus.cpp:255
+#, kde-format
+msgid "NetworkManager not running"
+msgstr "NetworkManager न चाल्यते"
+
+#: networkstatus.cpp:260
+#, kde-format
+msgid "NetworkManager 0.9.8 required, found %1."
+msgstr "NetworkManager 0.9.8 आवश्यकम्, %1 प्राप्तम् ।"
+
 #: networkstatus.cpp:263
 #, kde-format
 msgctxt "global connection state"
 msgid "Unknown"
 msgstr "अज्ञात"
+
+#~ msgctxt "General"
+#~ msgid "General configuration"
+#~ msgstr "सामान्यविन्यासः"

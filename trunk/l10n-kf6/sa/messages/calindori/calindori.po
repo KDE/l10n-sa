@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calindori\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-03 00:41+0000\n"
+"POT-Creation-Date: 2024-12-15 00:43+0000\n"
 "PO-Revision-Date: 2024-12-14 01:42+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -18,6 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
 
 #: attendeesmodel.cpp:183
 #, kde-format
@@ -199,9 +209,7 @@ msgstr "अध्यक्षः"
 msgid ""
 "Attendee management is available only in external calendars that are "
 "synchronized online"
-msgstr ""
-"उपस्थितानां प्रबन्धनं केवलं बाह्यपञ्चाङ्गेषु एव उपलभ्यते ये ऑनलाइन "
-"समन्वयिताः सन्ति"
+msgstr "उपस्थितानां प्रबन्धनं केवलं बाह्यपञ्चाङ्गेषु एव उपलभ्यते ये ऑनलाइन समन्वयिताः सन्ति"
 
 #: contents/ui/Attendees.qml:31
 #, kde-format
@@ -266,7 +274,7 @@ msgid "Tasks"
 msgstr "कार्याणि"
 
 #: contents/ui/CalendarMonthPage.qml:77 contents/ui/EventsCardView.qml:19
-#: contents/ui/IncidenceListView.qml:30 contents/ui/SettingsPage.qml:90
+#: contents/ui/IncidenceListView.qml:30 contents/ui/SettingsPage.qml:88
 #, kde-format
 msgid "Events"
 msgstr "घटनाः"
@@ -302,7 +310,7 @@ msgstr "कार्यसूची"
 msgid "Events List"
 msgstr "घटनासूची"
 
-#: contents/ui/CalindoriGlobalDrawer.qml:198 contents/ui/SettingsPage.qml:52
+#: contents/ui/CalindoriGlobalDrawer.qml:198 contents/ui/SettingsPage.qml:50
 #, kde-format
 msgid "Calendars"
 msgstr "पञ्चाङ्गाः"
@@ -575,9 +583,7 @@ msgstr "दृढी करोतु"
 #, kde-format
 msgid ""
 "All data included in this calendar will be deleted. Proceed with deletion?"
-msgstr ""
-"अस्मिन् पञ्चाङ्गे समाविष्टाः सर्वे दत्तांशाः विलोपिताः भविष्यन्ति । लोपं "
-"प्रवर्तयतु ?"
+msgstr "अस्मिन् पञ्चाङ्गे समाविष्टाः सर्वे दत्तांशाः विलोपिताः भविष्यन्ति । लोपं प्रवर्तयतु ?"
 
 #: contents/ui/ManageCalendarsPage.qml:230
 #, kde-format
@@ -694,42 +700,42 @@ msgstr "विषये"
 msgid "About Calindori"
 msgstr "कलिण्डोरी विषये"
 
-#: contents/ui/SettingsPage.qml:40
+#: contents/ui/SettingsPage.qml:38
 #, kde-format
 msgid "About KDE"
 msgstr "KDE विषये"
 
-#: contents/ui/SettingsPage.qml:57
+#: contents/ui/SettingsPage.qml:55
 #, kde-format
 msgid "Manage internal calendars"
 msgstr "आन्तरिकपञ्चाङ्गानां प्रबन्धनं कुर्वन्तु"
 
-#: contents/ui/SettingsPage.qml:64
+#: contents/ui/SettingsPage.qml:62
 #, kde-format
 msgid "Manage Internal Calendars"
 msgstr "आन्तरिकपञ्चाङ्गानां प्रबन्धनं कुर्वन्तु"
 
-#: contents/ui/SettingsPage.qml:73
+#: contents/ui/SettingsPage.qml:71
 #, kde-format
 msgid "Manage external calendars"
 msgstr "बाह्यपञ्चाङ्गानां प्रबन्धनं कुर्वन्तु"
 
-#: contents/ui/SettingsPage.qml:80
+#: contents/ui/SettingsPage.qml:78
 #, kde-format
 msgid "Manage External Calendars"
 msgstr "बाह्यपञ्चाङ्गानां प्रबन्धनं कुर्वन्तु"
 
-#: contents/ui/SettingsPage.qml:96
+#: contents/ui/SettingsPage.qml:94
 #, kde-format
 msgid "Initial duration (minutes)"
 msgstr "प्रारम्भिक अवधि (निमेष) २."
 
-#: contents/ui/SettingsPage.qml:105
+#: contents/ui/SettingsPage.qml:103
 #, kde-format
 msgid "Remind before event (minutes)"
 msgstr "आयोजनात् पूर्वं स्मरणं कुर्वन्तु (निमेषाः) ."
 
-#: contents/ui/SettingsPage.qml:114
+#: contents/ui/SettingsPage.qml:112
 #, kde-format
 msgid "Add reminder to new events"
 msgstr "नूतनघटनासु स्मारकं योजयन्तु"
@@ -857,6 +863,42 @@ msgstr "समाननाम्ना पञ्चाङ्गं पूर्�
 msgid "Calindori"
 msgstr "कलिन्दोरी"
 
+#: main.cpp:74
+#, kde-format
+msgctxt "@title"
+msgid "Calendar application"
+msgstr "पञ्चाङ्ग अनुप्रयोग"
+
+#: main.cpp:74
+#, kde-format
+msgctxt "@info:credit"
+msgid "(c) 2018-2022 The Calindori Team"
+msgstr "(ग) 2018-2022 द कैलिन्डोरी दल"
+
+#: main.cpp:79
+#, kde-format
+msgctxt "@info:credit"
+msgid "Dimitris Kardarakos"
+msgstr "दिमित्री कर्दराकोस"
+
+#: main.cpp:79 main.cpp:81 main.cpp:83
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "विकासकः"
+
+#: main.cpp:81
+#, kde-format
+msgctxt "@info:credit"
+msgid "Nicolas Fella"
+msgstr "निकोलस फेला"
+
+#: main.cpp:83
+#, kde-format
+msgctxt "@info:credit"
+msgid "Devin Lin"
+msgstr "डेविन् लिन्"
+
 #: recurrenceperiodmodel.cpp:114
 #, kde-format
 msgid "Do not repeat"
@@ -921,49 +963,3 @@ msgid "; once"
 msgid_plural "; %1 times"
 msgstr[0] "; एकदा"
 msgstr[1] "; %1 वारं"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: main.cpp:74
-#, kde-format
-msgctxt "@title"
-msgid "Calendar application"
-msgstr "पञ्चाङ्ग अनुप्रयोग"
-
-#: main.cpp:74
-#, kde-format
-msgctxt "@info:credit"
-msgid "(c) 2018-2022 The Calindori Team"
-msgstr "(ग) 2018-2022 द कैलिन्डोरी दल"
-
-#: main.cpp:79
-#, kde-format
-msgctxt "@info:credit"
-msgid "Dimitris Kardarakos"
-msgstr "दिमित्री कर्दराकोस"
-
-#: main.cpp:79 main.cpp:81 main.cpp:83
-#, kde-format
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "विकासकः"
-
-#: main.cpp:81
-#, kde-format
-msgctxt "@info:credit"
-msgid "Nicolas Fella"
-msgstr "निकोलस फेला"
-
-#: main.cpp:83
-#, kde-format
-msgctxt "@info:credit"
-msgid "Devin Lin"
-msgstr "डेविन् लिन्"

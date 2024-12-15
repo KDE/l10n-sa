@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-firewall package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,20 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
 
 #: backends/firewalld/firewalldclient.cpp:600 backends/ufw/ufwclient.cpp:697
 #, kde-format
@@ -43,6 +53,42 @@ msgstr "अग्निप्रावरण %1"
 #, kde-format
 msgid "firewalld listing rules and services"
 msgstr "firewald सूचीकरणनियमाः सेवाश्च"
+
+#: backends/netstat/connectionsmodel.cpp:97 core/loglistmodel.cpp:96
+#, kde-format
+msgctxt "@title:column"
+msgid "Protocol"
+msgstr "प्रोटोकॉल"
+
+#: backends/netstat/connectionsmodel.cpp:99
+#, kde-format
+msgctxt "@title:column"
+msgid "Local address"
+msgstr "स्थानीय पता"
+
+#: backends/netstat/connectionsmodel.cpp:101
+#, kde-format
+msgctxt "@title:column"
+msgid "Foreign address"
+msgstr "विदेशीय सम्बोधनम्"
+
+#: backends/netstat/connectionsmodel.cpp:103
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr "स्थितिः"
+
+#: backends/netstat/connectionsmodel.cpp:105
+#, kde-format
+msgctxt "@title:column"
+msgid "PID"
+msgstr "पीआईडी"
+
+#: backends/netstat/connectionsmodel.cpp:107
+#, kde-format
+msgctxt "@title:column"
+msgid "Program"
+msgstr "कार्यक्रम"
 
 #: backends/netstat/connectionsmodel.cpp:115
 #, kde-format
@@ -113,15 +159,99 @@ msgstr "अग्निप्रावरणवृत्तलेखान् �
 msgid "Any"
 msgstr "कश्चित्‌"
 
+#: core/loglistmodel.cpp:88 core/rulelistmodel.cpp:89
+#, kde-format
+msgctxt "@title:column"
+msgid "From"
+msgstr "इत्यस्मात्‌"
+
+#: core/loglistmodel.cpp:90
+#, kde-format
+msgctxt "@title:column"
+msgid "Source port"
+msgstr "स्रोत पोर्ट्"
+
+#: core/loglistmodel.cpp:92 core/rulelistmodel.cpp:91
+#, kde-format
+msgctxt "@title:column"
+msgid "To"
+msgstr "इत्यस्मै"
+
+#: core/loglistmodel.cpp:94
+#, kde-format
+msgctxt "@title:column"
+msgid "Destination port"
+msgstr "गन्तव्यं पोर्ट्"
+
+#: core/loglistmodel.cpp:98
+#, kde-format
+msgctxt "@title:column"
+msgid "Interface"
+msgstr "अन्तरफलकम्"
+
+#: core/loglistmodel.cpp:100 core/rulelistmodel.cpp:87
+#, kde-format
+msgctxt "@title:column"
+msgid "Action"
+msgstr "नामपत्र"
+
+#: core/loglistmodel.cpp:102
+#, kde-format
+msgctxt "@title:column"
+msgid "Time"
+msgstr "कालः"
+
+#: core/loglistmodel.cpp:104
+#, kde-format
+msgctxt "@title:column"
+msgid "Date"
+msgstr "दिनाङ्कः"
+
+#: core/rule.cpp:46
+#, kde-format
+msgctxt "address on interface"
+msgid "%1 on %2"
+msgstr "%2 इत्यत्र %1"
+
 #: core/rule.cpp:75 core/rule.cpp:165 core/rule.cpp:171
 #, kde-format
 msgid "Anywhere"
 msgstr "कुत्रापि"
 
+#: core/rule.cpp:96 core/rule.cpp:109 core/rule.cpp:126
+#, kde-format
+msgctxt "service/application name (port numbers)"
+msgid "%1 (%2)"
+msgstr "%1 (%2) २."
+
+#: core/rule.cpp:199
+#, kde-format
+msgctxt "firewallAction incoming"
+msgid "%1 incoming"
+msgstr "%1 आगच्छन्"
+
+#: core/rule.cpp:200
+#, kde-format
+msgctxt "firewallAction outgoing"
+msgid "%1 outgoing"
+msgstr "%1 बहिर्गमनम्"
+
 #: core/rule.cpp:205
 #, kde-format
 msgid "Yes"
 msgstr "आम्‌"
+
+#: core/rulelistmodel.cpp:93
+#, kde-format
+msgctxt "@title:column"
+msgid "IP"
+msgstr "IP"
+
+#: core/rulelistmodel.cpp:95
+#, kde-format
+msgctxt "@title:column"
+msgid "Logging"
+msgstr "लॉगिंग"
 
 #: core/systemdjob.cpp:51
 #, kde-format
@@ -431,11 +561,11 @@ msgstr "उपेक्षा"
 #: ui/main.qml:26
 #, kde-format
 msgid ""
-"Keeps the program waiting until the connection attempt times out, some "
-"short time later."
+"Keeps the program waiting until the connection attempt times out, some short "
+"time later."
 msgstr ""
-"यावत् संयोजनप्रयासस्य समयः समाप्तः न भवति तावत् कार्यक्रमं प्रतीक्षते, "
-"किञ्चित् अल्पकालानन्तरं ।"
+"यावत् संयोजनप्रयासस्य समयः समाप्तः न भवति तावत् कार्यक्रमं प्रतीक्षते, किञ्चित् "
+"अल्पकालानन्तरं ।"
 
 #: ui/main.qml:27
 #, kde-format
@@ -446,6 +576,18 @@ msgstr "तत्कालं अतीव सूचनाप्रदं 'Conne
 #, kde-format
 msgid "Add Rule…"
 msgstr "नियमं योजयतु..."
+
+#: ui/main.qml:42
+#, kde-format
+msgctxt "'view' is being used as a verb here"
+msgid "View Connections"
+msgstr "संयोजनानि पश्यन्तु"
+
+#: ui/main.qml:48
+#, kde-format
+msgctxt "'view' is being used as a verb here"
+msgid "View Logs"
+msgstr "लॉग्स् पश्यन्तु"
 
 #: ui/main.qml:64
 #, kde-format
@@ -483,8 +625,8 @@ msgid ""
 "You recently updated your kernel. Iptables is failing to initialize, please "
 "reboot."
 msgstr ""
-"भवान् अद्यैव स्वस्य कर्नेल् अद्यतनं कृतवान् । Iptables आरम्भं कर्तुं असफलः "
-"अस्ति, कृपया पुनः आरम्भं कुर्वन्तु ।"
+"भवान् अद्यैव स्वस्य कर्नेल् अद्यतनं कृतवान् । Iptables आरम्भं कर्तुं असफलः अस्ति, कृपया पुनः "
+"आरम्भं कुर्वन्तु ।"
 
 #: ui/main.qml:112
 #, kde-format
@@ -536,6 +678,12 @@ msgstr "रक्ष्"
 msgid "Firewall type:"
 msgstr "अग्निप्रावरणस्य प्रकारः : १."
 
+#: ui/main.qml:247
+#, kde-format
+msgctxt "@info"
+msgid "Firewall version: %1"
+msgstr "अग्निप्रावरणसंस्करणम् : %1"
+
 #: ui/main.qml:254
 #, kde-format
 msgid "Default Incoming Policy:"
@@ -551,10 +699,22 @@ msgstr "पूर्वनिर्धारित बहिर्गमनन�
 msgid "Error changing policy: %1"
 msgstr "नीतिपरिवर्तने त्रुटिः: %1"
 
+#: ui/main.qml:407
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Edit Rule"
+msgstr "सम्पादन नियम"
+
 #: ui/main.qml:427
 #, kde-format
 msgid "Error removing rule: %1"
 msgstr "नियमं निष्कासयितुं त्रुटिः: %1"
+
+#: ui/main.qml:434
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove Rule"
+msgstr "नियमं निष्कासयतु"
 
 #: ui/main.qml:459
 #, kde-format
@@ -565,6 +725,18 @@ msgstr "अग्निप्रावरणं अक्षमम् अस्�
 #, kde-format
 msgid "No firewall rules have been added"
 msgstr "अग्निप्रावरणनियमाः न योजिताः"
+
+#: ui/main.qml:461
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click the <interface>Add Rule…</interface> button to add one"
+msgstr "एकं योजयितुं <interface>Add Rule...</interface> इति बटन् नुदन्तु"
+
+#: ui/main.qml:462
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click switch above to enable it"
+msgstr "तत् सक्षमं कर्तुं उपरि switch नुदन्तु"
 
 #: ui/main.qml:468
 #, kde-format
@@ -610,175 +782,3 @@ msgstr "अनुप्रयोगः:"
 #, kde-format
 msgid "Blacklist Connection"
 msgstr "कालीसूचीसंयोजनम्"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: backends/netstat/connectionsmodel.cpp:97 core/loglistmodel.cpp:96
-#, kde-format
-msgctxt "@title:column"
-msgid "Protocol"
-msgstr "प्रोटोकॉल"
-
-#: backends/netstat/connectionsmodel.cpp:99
-#, kde-format
-msgctxt "@title:column"
-msgid "Local address"
-msgstr "स्थानीय पता"
-
-#: backends/netstat/connectionsmodel.cpp:101
-#, kde-format
-msgctxt "@title:column"
-msgid "Foreign address"
-msgstr "विदेशीय सम्बोधनम्"
-
-#: backends/netstat/connectionsmodel.cpp:103
-#, kde-format
-msgctxt "@title:column"
-msgid "Status"
-msgstr "स्थितिः"
-
-#: backends/netstat/connectionsmodel.cpp:105
-#, kde-format
-msgctxt "@title:column"
-msgid "PID"
-msgstr "पीआईडी"
-
-#: backends/netstat/connectionsmodel.cpp:107
-#, kde-format
-msgctxt "@title:column"
-msgid "Program"
-msgstr "कार्यक्रम"
-
-#: core/loglistmodel.cpp:88 core/rulelistmodel.cpp:89
-#, kde-format
-msgctxt "@title:column"
-msgid "From"
-msgstr "इत्यस्मात्‌"
-
-#: core/loglistmodel.cpp:90
-#, kde-format
-msgctxt "@title:column"
-msgid "Source port"
-msgstr "स्रोत पोर्ट्"
-
-#: core/loglistmodel.cpp:92 core/rulelistmodel.cpp:91
-#, kde-format
-msgctxt "@title:column"
-msgid "To"
-msgstr "इत्यस्मै"
-
-#: core/loglistmodel.cpp:94
-#, kde-format
-msgctxt "@title:column"
-msgid "Destination port"
-msgstr "गन्तव्यं पोर्ट्"
-
-#: core/loglistmodel.cpp:98
-#, kde-format
-msgctxt "@title:column"
-msgid "Interface"
-msgstr "अन्तरफलकम्"
-
-#: core/loglistmodel.cpp:100 core/rulelistmodel.cpp:87
-#, kde-format
-msgctxt "@title:column"
-msgid "Action"
-msgstr "नामपत्र"
-
-#: core/loglistmodel.cpp:102
-#, kde-format
-msgctxt "@title:column"
-msgid "Time"
-msgstr "कालः"
-
-#: core/loglistmodel.cpp:104
-#, kde-format
-msgctxt "@title:column"
-msgid "Date"
-msgstr "दिनाङ्कः"
-
-#: core/rulelistmodel.cpp:93
-#, kde-format
-msgctxt "@title:column"
-msgid "IP"
-msgstr "IP"
-
-#: core/rulelistmodel.cpp:95
-#, kde-format
-msgctxt "@title:column"
-msgid "Logging"
-msgstr "लॉगिंग"
-
-#: core/rule.cpp:46
-#, kde-format
-msgctxt "address on interface"
-msgid "%1 on %2"
-msgstr "%2 इत्यत्र %1"
-
-#: core/rule.cpp:96 core/rule.cpp:109 core/rule.cpp:126
-#, kde-format
-msgctxt "service/application name (port numbers)"
-msgid "%1 (%2)"
-msgstr "%1 (%2) २."
-
-#: core/rule.cpp:199
-#, kde-format
-msgctxt "firewallAction incoming"
-msgid "%1 incoming"
-msgstr "%1 आगच्छन्"
-
-#: core/rule.cpp:200
-#, kde-format
-msgctxt "firewallAction outgoing"
-msgid "%1 outgoing"
-msgstr "%1 बहिर्गमनम्"
-
-#: ui/main.qml:42
-#, kde-format
-msgctxt "'view' is being used as a verb here"
-msgid "View Connections"
-msgstr "संयोजनानि पश्यन्तु"
-
-#: ui/main.qml:48
-#, kde-format
-msgctxt "'view' is being used as a verb here"
-msgid "View Logs"
-msgstr "लॉग्स् पश्यन्तु"
-
-#: ui/main.qml:247
-#, kde-format
-msgctxt "@info"
-msgid "Firewall version: %1"
-msgstr "अग्निप्रावरणसंस्करणम् : %1"
-
-#: ui/main.qml:461
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Click the <interface>Add Rule…</interface> button to add one"
-msgstr "एकं योजयितुं <interface>Add Rule...</interface> इति बटन् नुदन्तु"
-
-#: ui/main.qml:462
-#, kde-kuit-format
-msgctxt "@info"
-msgid "Click switch above to enable it"
-msgstr "तत् सक्षमं कर्तुं उपरि switch नुदन्तु"
-
-#: ui/main.qml:407
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Edit Rule"
-msgstr "सम्पादन नियम"
-
-#: ui/main.qml:434
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Remove Rule"
-msgstr "नियमं निष्कासयतु"

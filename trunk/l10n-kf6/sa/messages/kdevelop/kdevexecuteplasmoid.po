@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdevelop package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
@@ -13,8 +13,14 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: plasmoidexecutionconfig.cpp:117
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure Plasmoid Execution"
+msgstr "प्लाज्मोइड् निष्पादनं विन्यस्यताम्"
 
 #: plasmoidexecutionconfig.cpp:127
 #, kde-format
@@ -30,6 +36,61 @@ msgstr "प्लाज्मोइड प्रक्षेपक"
 #, kde-format
 msgid "Could not resolve the dependency: %1"
 msgstr "आश्रयस्य समाधानं कर्तुं न शक्तवान्: %1"
+
+#: plasmoidexecutionconfig.cpp:297
+#, kde-format
+msgctxt "@title:menu"
+msgid "Plasmoids"
+msgstr "प्लाज्मोइड्स"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: plasmoidexecutionconfig.ui:29
+#, kde-format
+msgctxt "@title:group"
+msgid "Plasmoid"
+msgstr "प्लाज्मोइड"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plasmoidexecutionconfig.ui:35
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Path or name:"
+msgstr "मार्गः नाम वा : १."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: plasmoidexecutionconfig.ui:67
+#, kde-format
+msgctxt "@title:group"
+msgid "Behavior"
+msgstr "व्यवहार"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plasmoidexecutionconfig.ui:73
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Form factor:"
+msgstr "रूपकारकः : १."
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plasmoidexecutionconfig.ui:107
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Theme:"
+msgstr "विषयवस्तु:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: plasmoidexecutionconfig.ui:123
+#, kde-format
+msgctxt "@title:group"
+msgid "Dependencies"
+msgstr "आश्रयाः"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: plasmoidexecutionconfig.ui:132
+#, kde-format
+msgctxt "@label:chooser"
+msgid "&Targets:"
+msgstr "&लक्ष्यम् : १."
 
 #: plasmoidexecutionjob.cpp:35
 #, kde-format
@@ -55,64 +116,3 @@ msgstr "*** सम्पूर्ण ***"
 #, kde-format
 msgid "Plasmoid failed to execute on %1"
 msgstr "%1 इत्यत्र प्लाज्मोइड् निष्पादयितुं असफलः अभवत्"
-
-#: plasmoidexecutionconfig.cpp:117
-#, kde-format
-msgctxt "@title:tab"
-msgid "Configure Plasmoid Execution"
-msgstr "प्लाज्मोइड् निष्पादनं विन्यस्यताम्"
-
-#: plasmoidexecutionconfig.cpp:297
-#, kde-format
-msgctxt "@title:menu"
-msgid "Plasmoids"
-msgstr "प्लाज्मोइड्स"
-
-#: plasmoidexecutionconfig.ui:29
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#, kde-format
-msgctxt "@title:group"
-msgid "Plasmoid"
-msgstr "प्लाज्मोइड"
-
-#: plasmoidexecutionconfig.ui:67
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#, kde-format
-msgctxt "@title:group"
-msgid "Behavior"
-msgstr "व्यवहार"
-
-#: plasmoidexecutionconfig.ui:123
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#, kde-format
-msgctxt "@title:group"
-msgid "Dependencies"
-msgstr "आश्रयाः"
-
-#: plasmoidexecutionconfig.ui:35
-#. i18n: ectx: property (text), widget (QLabel, label)
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Path or name:"
-msgstr "मार्गः नाम वा : १."
-
-#: plasmoidexecutionconfig.ui:73
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Form factor:"
-msgstr "रूपकारकः : १."
-
-#: plasmoidexecutionconfig.ui:107
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#, kde-format
-msgctxt "@label:listbox"
-msgid "Theme:"
-msgstr "विषयवस्तु:"
-
-#: plasmoidexecutionconfig.ui:132
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#, kde-format
-msgctxt "@label:chooser"
-msgid "&Targets:"
-msgstr "&लक्ष्यम् : १."

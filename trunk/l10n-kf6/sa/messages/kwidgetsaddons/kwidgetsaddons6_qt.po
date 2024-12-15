@@ -7,29 +7,26 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
 #: fonthelpers_p.h:22
-#. Generic sans serif font presented in font choosers. When selected, the
-#. system will choose a real font, mandated by distro settings.
 msgctxt "FontHelpers|@item Font name"
 msgid "Sans Serif"
 msgstr "संस सेरिफ"
 
+#. Generic serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
 #: fonthelpers_p.h:25
-#. Generic serif font presented in font choosers. When selected, the system
-#. will choose a real font, mandated by distro settings.
 msgctxt "FontHelpers|@item Font name"
 msgid "Serif"
 msgstr "सेरिफ"
 
+#. Generic monospace font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
 #: fonthelpers_p.h:28
-#. Generic monospace font presented in font choosers. When selected, the
-#. system will choose a real font, mandated by distro settings.
 msgctxt "FontHelpers|@item Font name"
 msgid "Monospace"
 msgstr "मिनीवैन"
@@ -1061,31 +1058,6 @@ msgctxt "KCharSelect|@info:tooltip"
 msgid "Enter a search term or character here"
 msgstr "अत्र अन्वेषणपदं वर्णं वा प्रविशतु"
 
-#: kcharselect.cpp:426
-msgctxt "KCharSelect|@info:tooltip"
-msgid "Go to previous character in history"
-msgstr "इतिहासे पूर्वचरित्रं गच्छतु"
-
-#: kcharselect.cpp:464
-msgctxt "KCharSelect|@info:tooltip"
-msgid "Select a category"
-msgstr "एकं वर्गं चिनुत"
-
-#: kcharselect.cpp:468
-msgctxt "KCharSelect|@info:tooltip"
-msgid "Select a block to be displayed"
-msgstr "प्रदर्शयितुम् एकं खण्डं चिनोतु"
-
-#: kcharselect.cpp:487
-msgctxt "KCharSelect|@info:tooltip"
-msgid "Set font"
-msgstr "फन्ट् सेट् कुर्वन्तु"
-
-#: kcharselect.cpp:494
-msgctxt "KCharSelect|@info:tooltip"
-msgid "Set font size"
-msgstr "फन्ट् आकारं सेट् कुर्वन्तु"
-
 #: kcharselect.cpp:400
 msgctxt "KCharSelect|@action"
 msgid "&Find…"
@@ -1095,6 +1067,11 @@ msgstr "&अन्वेषय…"
 msgctxt "KCharSelect|@action:button Goes to previous character"
 msgid "Previous in History"
 msgstr "इतिहासे पूर्वम्"
+
+#: kcharselect.cpp:426
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Go to previous character in history"
+msgstr "इतिहासे पूर्वचरित्रं गच्छतु"
 
 #: kcharselect.cpp:431
 msgctxt "KCharSelect|@action:button Goes to next character"
@@ -1115,6 +1092,26 @@ msgstr "&पृष्ठभागः"
 msgctxt "KCharSelect|@action go forward"
 msgid "&Forward"
 msgstr "&अग्रतः"
+
+#: kcharselect.cpp:464
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Select a category"
+msgstr "एकं वर्गं चिनुत"
+
+#: kcharselect.cpp:468
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Select a block to be displayed"
+msgstr "प्रदर्शयितुम् एकं खण्डं चिनोतु"
+
+#: kcharselect.cpp:487
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Set font"
+msgstr "फन्ट् सेट् कुर्वन्तु"
+
+#: kcharselect.cpp:494
+msgctxt "KCharSelect|@info:tooltip"
+msgid "Set font size"
+msgstr "फन्ट् आकारं सेट् कुर्वन्तु"
 
 #: kcharselect.cpp:796
 msgctxt "KCharSelect|"
@@ -1281,6 +1278,11 @@ msgctxt "KCharSelectData|"
 msgid "<not assigned>"
 msgstr "<न नियुक्तः>"
 
+#: kcharselectdata.cpp:440
+msgctxt "KCharSelectData|KCharselect unicode section name"
+msgid "All"
+msgstr "सर्वे"
+
 #: kcharselectdata.cpp:752
 msgctxt "KCharSelectData|"
 msgid "Non-printable"
@@ -1440,11 +1442,6 @@ msgstr "विभाजक, अन्तरिक्ष"
 msgctxt "KCharSelectData|"
 msgid "Unknown"
 msgstr "अज्ञात"
-
-#: kcharselectdata.cpp:440
-msgctxt "KCharSelectData|KCharselect unicode section name"
-msgid "All"
-msgstr "सर्वे"
 
 #: kcolorcombo.cpp:333
 msgctxt "KColorCombo|@item:inlistbox Custom color"
@@ -1676,8 +1673,7 @@ msgid ""
 "This sample text illustrates the current settings. You may edit it to test "
 "special characters."
 msgstr ""
-"एषः नमूनापाठः वर्तमानसेटिंग्स् दर्शयति । विशेषवर्णानां परीक्षणार्थं भवान् "
-"सम्पादयितुं शक्नोति ।"
+"एषः नमूनापाठः वर्तमानसेटिंग्स् दर्शयति । विशेषवर्णानां परीक्षणार्थं भवान् सम्पादयितुं शक्नोति ।"
 
 #: kfontchooserwidget.ui:51
 msgctxt "KFontChooserWidget|"
@@ -1729,20 +1725,20 @@ msgctxt "KFontRequester|@info:tooltip"
 msgid "Preview of the selected font"
 msgstr "चयनितस्य फ़ॉन्ट् इत्यस्य पूर्वावलोकनम्"
 
-#: kfontrequester.cpp:196
-#, qt-format
-msgctxt "KFontRequester|@info:tooltip"
-msgid "Preview of the \"%1\" font"
-msgstr "\"%1\" फ़ॉन्ट् इत्यस्य पूर्वावलोकनम्"
-
 #: kfontrequester.cpp:192
 msgctxt "KFontRequester|@info:whatsthis"
 msgid ""
 "This is a preview of the selected font. You can change it by clicking the "
 "\"Choose Font...\" button."
 msgstr ""
-"एतत् चयनितस्य फन्ट् इत्यस्य पूर्वावलोकनम् अस्ति । \"Choose Font...\" इति "
-"बटन् नुत्वा परिवर्तयितुं शक्नुवन्ति ।"
+"एतत् चयनितस्य फन्ट् इत्यस्य पूर्वावलोकनम् अस्ति । \"Choose Font...\" इति बटन् नुत्वा "
+"परिवर्तयितुं शक्नुवन्ति ।"
+
+#: kfontrequester.cpp:196
+#, qt-format
+msgctxt "KFontRequester|@info:tooltip"
+msgid "Preview of the \"%1\" font"
+msgstr "\"%1\" फ़ॉन्ट् इत्यस्य पूर्वावलोकनम्"
 
 #: kfontrequester.cpp:197
 #, qt-format
@@ -1751,8 +1747,8 @@ msgid ""
 "This is a preview of the \"%1\" font. You can change it by clicking the "
 "\"Choose Font...\" button."
 msgstr ""
-"एतत् \"%1\" फ़ॉन्ट् इत्यस्य पूर्वावलोकनम् अस्ति । \"Choose Font...\" इति "
-"बटन् नुत्वा परिवर्तयितुं शक्नुवन्ति ।"
+"एतत् \"%1\" फ़ॉन्ट् इत्यस्य पूर्वावलोकनम् अस्ति । \"Choose Font...\" इति बटन् नुत्वा "
+"परिवर्तयितुं शक्नुवन्ति ।"
 
 #: kled.cpp:172
 msgctxt "KLed|Accessible name of a Led whose state is on"
@@ -1837,23 +1833,25 @@ msgstr "सन्देशं बन्दं कुर्वन्तु"
 
 #: kmessagewidget.cpp:288
 msgctxt ""
-"KMessageWidget|accessible name of positively-colored (e.g. green) message "
-"box"
+"KMessageWidget|accessible name of positively-colored (e.g. green) message box"
 msgid "Success"
 msgstr "सफलता"
 
 #: kmessagewidget.cpp:291
-msgctxt "KMessageWidget|accessible name of info-colored (e.g. blue) message box"
+msgctxt ""
+"KMessageWidget|accessible name of info-colored (e.g. blue) message box"
 msgid "Note"
 msgstr "टीका"
 
 #: kmessagewidget.cpp:294
-msgctxt "KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
+msgctxt ""
+"KMessageWidget|accessible name of warning-colored (e.g. orange) message box"
 msgid "Warning"
 msgstr "चेतवानी"
 
 #: kmessagewidget.cpp:297
-msgctxt "KMessageWidget|accessible name of error-colored (e.g. red) message box"
+msgctxt ""
+"KMessageWidget|accessible name of error-colored (e.g. red) message box"
 msgid "Error"
 msgstr "त्रुटि"
 
@@ -1902,9 +1900,7 @@ msgctxt "QObject|"
 msgid ""
 "Could not start the \"keditfiletype\" executable, please check your "
 "installation."
-msgstr ""
-"\"keditfiletype\" कार्यान्वयनीयं आरभुं न शक्तवान्, कृपया स्वस्य संस्थापनं "
-"पश्यन्तु ।"
+msgstr "\"keditfiletype\" कार्यान्वयनीयं आरभुं न शक्तवान्, कृपया स्वस्य संस्थापनं पश्यन्तु ।"
 
 #: knewpassworddialog.cpp:63
 #, qt-format
@@ -1937,16 +1933,15 @@ msgstr "न्यूनगुप्तशब्दशक्तिः"
 #: knewpassworddialog.cpp:134
 msgctxt "KNewPasswordDialog|"
 msgid ""
-"The password you have entered has a low strength. To improve the strength "
-"of the password, try:\n"
+"The password you have entered has a low strength. To improve the strength of "
+"the password, try:\n"
 " - using a longer password;\n"
 " - using a mixture of upper- and lower-case letters;\n"
 " - using numbers or symbols as well as letters.\n"
 "\n"
 "Would you like to use this password anyway?"
 msgstr ""
-"भवता प्रविष्टस्य गुप्तशब्दस्य बलं न्यूनम् अस्ति । गुप्तशब्दस्य बलं "
-"वर्धयितुं प्रयतध्वम् :\n"
+"भवता प्रविष्टस्य गुप्तशब्दस्य बलं न्यूनम् अस्ति । गुप्तशब्दस्य बलं वर्धयितुं प्रयतध्वम् :\n"
 " - दीर्घतरं गुप्तशब्दं उपयुज्य;\n"
 " - बृहत्- लघु-अक्षरयोः मिश्रणस्य प्रयोगः;\n"
 " - संख्यानां वा प्रतीकानाम् अपि च अक्षराणां प्रयोगः।\n"
@@ -1957,15 +1952,14 @@ msgstr ""
 msgctxt "KNewPasswordWidget|@info:whatsthis"
 msgid ""
 "The password strength meter gives an indication of the security of the "
-"password you have entered. To improve the strength of the password, "
-"try:<ul><li>using a longer password;</li><li>using a mixture of upper- and "
-"lower-case letters;</li><li>using numbers or symbols, such as #, as well as "
+"password you have entered. To improve the strength of the password, try:"
+"<ul><li>using a longer password;</li><li>using a mixture of upper- and lower-"
+"case letters;</li><li>using numbers or symbols, such as #, as well as "
 "letters.</li></ul>"
 msgstr ""
-"गुप्तशब्दबलमापकं भवता प्रविष्टस्य गुप्तशब्दस्य सुरक्षायाः सूचकं ददाति । "
-"गुप्तशब्दस्य बलं वर्धयितुं प्रयतध्वम् :<ul><li> दीर्घतरं गुप्तशब्दं "
-"उपयुज्य;</li><li> उच्च- लघु-अक्षरयोः मिश्रणं प्रयुज्य;</li><li> # "
-"इत्यादीनां संख्यानां वा चिह्नानां प्रयोगेन तथा अक्षराणां प्रयोगः ।</li></ul>"
+"गुप्तशब्दबलमापकं भवता प्रविष्टस्य गुप्तशब्दस्य सुरक्षायाः सूचकं ददाति । गुप्तशब्दस्य बलं वर्धयितुं "
+"प्रयतध्वम् :<ul><li> दीर्घतरं गुप्तशब्दं उपयुज्य;</li><li> उच्च- लघु-अक्षरयोः मिश्रणं प्रयुज्य;"
+"</li><li> # इत्यादीनां संख्यानां वा चिह्नानां प्रयोगेन तथा अक्षराणां प्रयोगः ।</li></ul>"
 
 #: knewpasswordwidget.ui:19
 msgctxt "KNewPasswordWidget|@label:textbox"
@@ -2119,10 +2113,9 @@ msgstr "परिवर्तनं परित्यजन्तु"
 
 #: kstandardguiitem.cpp:165
 msgctxt "KStandardGuiItem|"
-msgid "Pressing this button will discard all recent changes made in this dialog."
-msgstr ""
-"एतत् बटन् नुदनेन अस्मिन् संवादे कृतानि सर्वाणि हाले परिवर्तनानि "
-"परित्यज्यन्ते ।"
+msgid ""
+"Pressing this button will discard all recent changes made in this dialog."
+msgstr "एतत् बटन् नुदनेन अस्मिन् संवादे कृतानि सर्वाणि हाले परिवर्तनानि परित्यज्यन्ते ।"
 
 #: kstandardguiitem.cpp:172
 msgctxt "KStandardGuiItem|"
@@ -2171,9 +2164,8 @@ msgid ""
 "program, but the dialog will not be closed.\n"
 "Use this to try different settings."
 msgstr ""
-"यदा भवान् <b>Apply</b> नुदति तदा सेटिङ्ग्स् प्रोग्राम् प्रति समर्पिताः "
-"भविष्यन्ति, परन्तु संवादः न पिहितः भविष्यति । भिन्नानि सेटिङ्ग्स् "
-"प्रयत्नार्थं एतस्य उपयोगं कुर्वन्तु ।"
+"यदा भवान् <b>Apply</b> नुदति तदा सेटिङ्ग्स् प्रोग्राम् प्रति समर्पिताः भविष्यन्ति, परन्तु "
+"संवादः न पिहितः भविष्यति । भिन्नानि सेटिङ्ग्स् प्रयत्नार्थं एतस्य उपयोगं कुर्वन्तु ।"
 
 #: kstandardguiitem.cpp:203
 msgctxt "KStandardGuiItem|"
@@ -2192,9 +2184,8 @@ msgid ""
 "administrator (root) password in order to make changes which require root "
 "privileges."
 msgstr ""
-"यदा भवान् <b>Administrator Mode</b> नुदति तदा भवान् परिवर्तनं कर्तुं "
-"administrator (root) गुप्तशब्दं प्रार्थयिष्यते यस्य कृते root "
-"विशेषाधिकारस्य आवश्यकता भवति ।"
+"यदा भवान् <b>Administrator Mode</b> नुदति तदा भवान् परिवर्तनं कर्तुं administrator "
+"(root) गुप्तशब्दं प्रार्थयिष्यते यस्य कृते root विशेषाधिकारस्य आवश्यकता भवति ।"
 
 #: kstandardguiitem.cpp:214
 msgctxt "KStandardGuiItem|"
@@ -2210,6 +2201,11 @@ msgstr "निवेशं स्पष्टं कुर्वन्तु"
 msgctxt "KStandardGuiItem|"
 msgid "Clear the input in the edit field"
 msgstr "सम्पादनक्षेत्रे निवेशं स्वच्छं कुर्वन्तु"
+
+#: kstandardguiitem.cpp:222
+msgctxt "KStandardGuiItem|show help"
+msgid "&Help"
+msgstr "&साहाय्यम्‌"
 
 #: kstandardguiitem.cpp:224
 msgctxt "KStandardGuiItem|"
@@ -2257,9 +2253,19 @@ msgid "Reset all items to their default values"
 msgstr "सर्वाणि वस्तूनि पूर्वनिर्धारितमूल्यानि पुनः सेट् कुर्वन्तु"
 
 #: kstandardguiitem.cpp:258
+msgctxt "KStandardGuiItem|go back"
+msgid "&Back"
+msgstr "&पृष्ठभागः"
+
+#: kstandardguiitem.cpp:258
 msgctxt "KStandardGuiItem|"
 msgid "Go back one step"
 msgstr "एकं पदं पश्चात् गच्छतु"
+
+#: kstandardguiitem.cpp:264
+msgctxt "KStandardGuiItem|go forward"
+msgid "&Forward"
+msgstr "&अग्रतः"
 
 #: kstandardguiitem.cpp:266
 msgctxt "KStandardGuiItem|"
@@ -2326,6 +2332,11 @@ msgctxt "KStandardGuiItem|"
 msgid "Reset configuration"
 msgstr "विन्यासः पुनः सेट् कुर्वन्तु"
 
+#: kstandardguiitem.cpp:320
+msgctxt "KStandardGuiItem|Verb"
+msgid "&Insert"
+msgstr "&युज्"
+
 #: kstandardguiitem.cpp:325
 msgctxt "KStandardGuiItem|"
 msgid "Confi&gure…"
@@ -2365,26 +2376,6 @@ msgstr "गुणाः"
 msgctxt "KStandardGuiItem|"
 msgid "&Overwrite"
 msgstr "&अतिलेखनम्"
-
-#: kstandardguiitem.cpp:222
-msgctxt "KStandardGuiItem|show help"
-msgid "&Help"
-msgstr "&साहाय्यम्‌"
-
-#: kstandardguiitem.cpp:258
-msgctxt "KStandardGuiItem|go back"
-msgid "&Back"
-msgstr "&पृष्ठभागः"
-
-#: kstandardguiitem.cpp:264
-msgctxt "KStandardGuiItem|go forward"
-msgid "&Forward"
-msgstr "&अग्रतः"
-
-#: kstandardguiitem.cpp:320
-msgctxt "KStandardGuiItem|Verb"
-msgid "&Insert"
-msgstr "&युज्"
 
 #: ktimecombobox.cpp:243
 msgctxt "KTimeComboBox|@info"

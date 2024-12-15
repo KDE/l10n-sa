@@ -24,6 +24,36 @@ msgstr ""
 msgid "Autocorrect Text"
 msgstr "स्वतः सम्यक् पाठः"
 
+#: autocorrection/autocorrectionplugineditorinterface.cpp:28
+#, kde-format
+msgctxt "@action"
+msgid "Autocorrect Full Text"
+msgstr "पूर्णपाठः स्वयमेव सम्यक् कुर्वन्तु"
+
+#: autocorrection/autocorrectionplugineditorinterface.cpp:32
+#, kde-format
+msgctxt "@action"
+msgid "Autocorrect Selected Text"
+msgstr "चयनितं पाठं स्वयमेव सम्यक् कुर्वन्तु"
+
+#: insertemail/insertemailplugineditorinterface.cpp:23
+#, kde-format
+msgctxt "@action"
+msgid "Insert Email…"
+msgstr "ईमेल सम्मिलितं कुर्वन्तु…"
+
+#: insertshorturl/insertshorturlconfigurewidget.cpp:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select Short URL server:"
+msgstr "लघु URL सर्वरं चिनोतु:"
+
+#: insertshorturl/insertshorturlplugineditorinterface.cpp:61
+#, kde-format
+msgctxt "@action"
+msgid "Insert Short URL…"
+msgstr "लघु URL सम्मिलितं कुर्वन्तु…"
+
 #: insertshorturl/insertshorturlplugineditorinterface.cpp:85
 #, kde-format
 msgid "No network connection detected, we cannot shorten URL."
@@ -49,70 +79,22 @@ msgstr ""
 "सर्वरेण निवेदिता त्रुटिः:\n"
 "'%1' इति ।"
 
-#: insertspecialcharacter/insertspecialcharacterplugineditorinterface.cpp:38
-#, kde-format
-msgid "Insert"
-msgstr "युज्"
-
-#: quicktext/quicktexttreewidget.cpp:85
-#, kde-format
-msgid "Text Snippets"
-msgstr "पाठ स्निपेट्स्"
-
-#: quicktext/quicktextwidget.cpp:68
-#, kde-format
-msgid "QuickText was changed. Do you want to save it?"
-msgstr "QuickText परिवर्तनं जातम्। किं त्वं तत् रक्षितुम् इच्छसि ?"
-
-#: quicktext/quicktextwidget.cpp:111
-#, kde-format
-msgid "General"
-msgstr "सामान्य"
-
-#: sharetext/sharetextplugineditorinterface.cpp:33
-#, kde-format
-msgid "Share Mail Text…"
-msgstr "मेल पाठं साझां कुर्वन्तु…"
-
-#: zoomtext/zoomlabel.cpp:20
-#, kde-format
-msgid "Zoom: %1%"
-msgstr "जूमः %1% ."
-
-#: zoomtext/zoomtextplugineditorinterface.cpp:25
-#, kde-format
-msgid "Zoom…"
-msgstr "जूम…"
-
-#: autocorrection/autocorrectionplugineditorinterface.cpp:28
-#, kde-format
-msgctxt "@action"
-msgid "Autocorrect Full Text"
-msgstr "पूर्णपाठः स्वयमेव सम्यक् कुर्वन्तु"
-
-#: autocorrection/autocorrectionplugineditorinterface.cpp:32
-#, kde-format
-msgctxt "@action"
-msgid "Autocorrect Selected Text"
-msgstr "चयनितं पाठं स्वयमेव सम्यक् कुर्वन्तु"
-
-#: insertemail/insertemailplugineditorinterface.cpp:23
-#, kde-format
-msgctxt "@action"
-msgid "Insert Email…"
-msgstr "ईमेल सम्मिलितं कुर्वन्तु…"
-
-#: insertshorturl/insertshorturlplugineditorinterface.cpp:61
-#, kde-format
-msgctxt "@action"
-msgid "Insert Short URL…"
-msgstr "लघु URL सम्मिलितं कुर्वन्तु…"
-
 #: insertspecialcharacter/insertspecialcharacterplugineditorinterface.cpp:21
 #, kde-format
 msgctxt "@action"
 msgid "Insert Special Character…"
 msgstr "विशेषवर्णं सम्मिलितं कुर्वन्तु…"
+
+#: insertspecialcharacter/insertspecialcharacterplugineditorinterface.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Special Character"
+msgstr "विशेष वर्ण सम्मिलित करें"
+
+#: insertspecialcharacter/insertspecialcharacterplugineditorinterface.cpp:38
+#, kde-format
+msgid "Insert"
+msgstr "युज्"
 
 #: nonbreakingspace/nonbreakingspaceplugineditorinterface.cpp:22
 #, kde-format
@@ -120,9 +102,45 @@ msgctxt "@action"
 msgid "Insert Non Breaking Space"
 msgstr "Non Breaking Space सम्मिलित करें"
 
+#: quicktext/quicktextconfiguredialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure quick text"
+msgstr "द्रुतपाठं विन्यस्यताम्"
+
+#: quicktext/quicktextconfiguredialog.cpp:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Import…"
+msgstr "आयात…"
+
+#: quicktext/quicktextconfiguredialog.cpp:41
+#, kde-format
+msgctxt "@action:button"
+msgid "Export…"
+msgstr "निर्यात…"
+
+#: quicktext/quicktextmanager.cpp:78
+#, kde-format
+msgctxt "@title:window"
+msgid "Import QuickText"
+msgstr "त्वरितपाठम् आयातयतु"
+
+#: quicktext/quicktextmanager.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Export QuickText"
+msgstr "QuickText निर्यातयन्तु"
+
 #: quicktext/quicktextplugineditorinterface.cpp:40
 #, kde-format
 msgctxt "@action"
+msgid "Variables"
+msgstr "चराः"
+
+#: quicktext/quicktextplugineditorinterface.cpp:46
+#, kde-format
+msgctxt "@action:button"
 msgid "Variables"
 msgstr "चराः"
 
@@ -162,35 +180,41 @@ msgctxt "@action"
 msgid "Remove Group"
 msgstr "समूहं निष्कासयन्तु"
 
-#: insertshorturl/insertshorturlconfigurewidget.cpp:29
+#: quicktext/quicktexttreewidget.cpp:85
 #, kde-format
-msgctxt "@label:textbox"
-msgid "Select Short URL server:"
-msgstr "लघु URL सर्वरं चिनोतु:"
+msgid "Text Snippets"
+msgstr "पाठ स्निपेट्स्"
 
-#: insertspecialcharacter/insertspecialcharacterplugineditorinterface.cpp:37
-#, kde-format
-msgctxt "@title:window"
-msgid "Insert Special Character"
-msgstr "विशेष वर्ण सम्मिलित करें"
+#: quicktext/quicktexttreewidget.cpp:142
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove snippet \"%1\"?<nl/><warning>There is no way to "
+"undo the removal.</warning>"
+msgstr ""
+"किं भवान् वास्तवमेव \"%1\" इति स्निपेट् अपसारयितुम् इच्छति?<nl/><warning>निष्कासनं पूर्ववत् "
+"कर्तुं कोऽपि उपायः नास्ति ।</warning>"
 
-#: quicktext/quicktextconfiguredialog.cpp:27
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure quick text"
-msgstr "द्रुतपाठं विन्यस्यताम्"
+#: quicktext/quicktexttreewidget.cpp:167
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove group \"%1\" along with all its snippets?<nl/"
+"><warning>There is no way to undo the removal.</warning>"
+msgstr ""
+"किं भवान् वास्तवमेव \"%1\" समूहं तस्य सर्वैः स्निपेट्-सहितं निष्कासयितुम् इच्छति?<nl/"
+"><warning>निष्कासनं पूर्ववत् कर्तुं कोऽपि उपायः नास्ति ।</warning>"
 
-#: quicktext/quicktextmanager.cpp:78
+#: quicktext/quicktexttreewidget.cpp:177
 #, kde-format
-msgctxt "@title:window"
-msgid "Import QuickText"
-msgstr "त्वरितपाठम् आयातयतु"
+msgctxt "@info"
+msgid "Do you really want to remove group \"%1\"?"
+msgstr "किं भवान् वास्तवमेव \"%1\" इति समूहं हर्तुं इच्छति?"
 
-#: quicktext/quicktextmanager.cpp:86
+#: quicktext/quicktextwidget.cpp:68
 #, kde-format
-msgctxt "@title:window"
-msgid "Export QuickText"
-msgstr "QuickText निर्यातयन्तु"
+msgid "QuickText was changed. Do you want to save it?"
+msgstr "QuickText परिवर्तनं जातम्। किं त्वं तत् रक्षितुम् इच्छसि ?"
 
 #: quicktext/quicktextwidget.cpp:69
 #, kde-format
@@ -198,48 +222,22 @@ msgctxt "@title:window"
 msgid "Save"
 msgstr "रक्ष्"
 
-#: quicktext/quicktextconfiguredialog.cpp:38
+#: quicktext/quicktextwidget.cpp:111
 #, kde-format
-msgctxt "@action:button"
-msgid "Import…"
-msgstr "आयात…"
+msgid "General"
+msgstr "सामान्य"
 
-#: quicktext/quicktextconfiguredialog.cpp:41
+#: sharetext/sharetextplugineditorinterface.cpp:33
 #, kde-format
-msgctxt "@action:button"
-msgid "Export…"
-msgstr "निर्यात…"
+msgid "Share Mail Text…"
+msgstr "मेल पाठं साझां कुर्वन्तु…"
 
-#: quicktext/quicktextplugineditorinterface.cpp:46
+#: zoomtext/zoomlabel.cpp:20
 #, kde-format
-msgctxt "@action:button"
-msgid "Variables"
-msgstr "चराः"
+msgid "Zoom: %1%"
+msgstr "जूमः %1% ."
 
-#: quicktext/quicktexttreewidget.cpp:142
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Do you really want to remove snippet \"%1\"?<nl/><warning>There is no way "
-"to undo the removal.</warning>"
-msgstr ""
-"किं भवान् वास्तवमेव \"%1\" इति स्निपेट् अपसारयितुम् "
-"इच्छति?<nl/><warning>निष्कासनं पूर्ववत् कर्तुं कोऽपि उपायः नास्ति "
-"।</warning>"
-
-#: quicktext/quicktexttreewidget.cpp:167
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"Do you really want to remove group \"%1\" along with all its "
-"snippets?<nl/><warning>There is no way to undo the removal.</warning>"
-msgstr ""
-"किं भवान् वास्तवमेव \"%1\" समूहं तस्य सर्वैः स्निपेट्-सहितं निष्कासयितुम् "
-"इच्छति?<nl/><warning>निष्कासनं पूर्ववत् कर्तुं कोऽपि उपायः नास्ति "
-"।</warning>"
-
-#: quicktext/quicktexttreewidget.cpp:177
+#: zoomtext/zoomtextplugineditorinterface.cpp:25
 #, kde-format
-msgctxt "@info"
-msgid "Do you really want to remove group \"%1\"?"
-msgstr "किं भवान् वास्तवमेव \"%1\" इति समूहं हर्तुं इच्छति?"
+msgid "Zoom…"
+msgstr "जूम…"

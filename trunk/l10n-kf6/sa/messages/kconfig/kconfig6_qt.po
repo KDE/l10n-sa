@@ -628,10 +628,30 @@ msgctxt "KStandardShortcut|@action"
 msgid "Replace"
 msgstr "प्रत्याहृ"
 
+#: gui/kstandardshortcut.cpp:121
+msgctxt "KStandardShortcut|@action Go to main page"
+msgid "Home"
+msgstr "गृहम्‌"
+
+#: gui/kstandardshortcut.cpp:129
+msgctxt "KStandardShortcut|@action Beginning of document"
+msgid "Begin"
+msgstr "आरम्भ"
+
+#: gui/kstandardshortcut.cpp:135
+msgctxt "KStandardShortcut|@action End of document"
+msgid "End"
+msgstr "अंत"
+
 #: gui/kstandardshortcut.cpp:136
 msgctxt "KStandardShortcut|@action"
 msgid "Prior"
 msgstr "पूर्वतर"
+
+#: gui/kstandardshortcut.cpp:139
+msgctxt "KStandardShortcut|@action Opposite to Prior"
+msgid "Next"
+msgstr "अग्रिम"
 
 #: gui/kstandardshortcut.cpp:146
 msgctxt "KStandardShortcut|@action"
@@ -918,36 +938,16 @@ msgctxt "KStandardShortcut|@action"
 msgid "Create Folder"
 msgstr "Folder रचयन्तु"
 
-#: gui/kstandardshortcut.cpp:420
-msgctxt "KStandardShortcut|@action"
-msgid "Open Context Menu"
-msgstr "सन्दर्भ मेनू उद्घाटयन्तु"
-
-#: gui/kstandardshortcut.cpp:121
-msgctxt "KStandardShortcut|@action Go to main page"
-msgid "Home"
-msgstr "गृहम्‌"
-
-#: gui/kstandardshortcut.cpp:129
-msgctxt "KStandardShortcut|@action Beginning of document"
-msgid "Begin"
-msgstr "आरम्भ"
-
-#: gui/kstandardshortcut.cpp:135
-msgctxt "KStandardShortcut|@action End of document"
-msgid "End"
-msgstr "अंत"
-
-#: gui/kstandardshortcut.cpp:139
-msgctxt "KStandardShortcut|@action Opposite to Prior"
-msgid "Next"
-msgstr "अग्रिम"
-
 #: gui/kstandardshortcut.cpp:412
 msgctxt ""
 "KStandardShortcut|@action referring to the menu bar or a hamburger menu"
 msgid "Open Main Menu"
 msgstr "मुख्यमेनू उद्घाटयन्तु"
+
+#: gui/kstandardshortcut.cpp:420
+msgctxt "KStandardShortcut|@action"
+msgid "Open Context Menu"
+msgstr "सन्दर्भ मेनू उद्घाटयन्तु"
 
 #: kconf_update/kconf_update.cpp:368
 msgctxt "main|"
@@ -962,11 +962,11 @@ msgstr "स्क्रिप्ट्-तः आउटपुट्-परिण
 #: kconf_update/kconf_update.cpp:373
 msgctxt "main|"
 msgid ""
-"For unit tests only: do not write the done entries, so that with every "
-"re-run, the scripts are executed again"
+"For unit tests only: do not write the done entries, so that with every re-"
+"run, the scripts are executed again"
 msgstr ""
-"केवलं एककपरीक्षाणां कृते: कृताः प्रविष्टयः न लिखन्तु, येन प्रत्येकं पुनः "
-"चालनेन सह, स्क्रिप्ट् पुनः निष्पादिताः भवन्ति"
+"केवलं एककपरीक्षाणां कृते: कृताः प्रविष्टयः न लिखन्तु, येन प्रत्येकं पुनः चालनेन सह, स्क्रिप्ट् पुनः "
+"निष्पादिताः भवन्ति"
 
 #: kconf_update/kconf_update.cpp:375
 msgctxt "main|"
@@ -1004,8 +1004,8 @@ msgid ""
 "Group to look in. Use \"<default>\" for the root group, or use repeatedly "
 "for nested groups."
 msgstr ""
-"समूहं द्रष्टुं मूलसमूहस्य कृते \"<default>\" इत्यस्य उपयोगं कुर्वन्तु, अथवा "
-"नेस्टेड् समूहानां कृते पुनः पुनः उपयोगं कुर्वन्तु ।"
+"समूहं द्रष्टुं मूलसमूहस्य कृते \"<default>\" इत्यस्य उपयोगं कुर्वन्तु, अथवा नेस्टेड् समूहानां कृते पुनः "
+"पुनः उपयोगं कुर्वन्तु ।"
 
 #: kreadconfig/kreadconfig.cpp:52 kreadconfig/kwriteconfig.cpp:31
 msgctxt "main|"
@@ -1025,9 +1025,7 @@ msgstr "चरस्य प्रकारः"
 #: kreadconfig/kreadconfig.cpp:84 kreadconfig/kwriteconfig.cpp:69
 msgctxt "main|"
 msgid "Group name cannot be empty, use \"<default>\" for the root group"
-msgstr ""
-"समूहनाम रिक्तं न भवितुम् अर्हति, मूलसमूहस्य कृते \"<default>\" इत्यस्य "
-"उपयोगं कुर्वन्तु"
+msgstr "समूहनाम रिक्तं न भवितुम् अर्हति, मूलसमूहस्य कृते \"<default>\" इत्यस्य उपयोगं कुर्वन्तु"
 
 #: kreadconfig/kwriteconfig.cpp:34
 msgctxt "main|"
@@ -1035,8 +1033,8 @@ msgid ""
 "Type of variable. Use \"bool\" for a boolean, otherwise it is treated as a "
 "string"
 msgstr ""
-"चरस्य प्रकारः । बूलियनस्य कृते \"bool\" इत्यस्य उपयोगं कुर्वन्तु, अन्यथा "
-"तत् स्ट्रिंग् इव व्यवह्रियते"
+"चरस्य प्रकारः । बूलियनस्य कृते \"bool\" इत्यस्य उपयोगं कुर्वन्तु, अन्यथा तत् स्ट्रिंग् इव "
+"व्यवह्रियते"
 
 #: kreadconfig/kwriteconfig.cpp:36
 msgctxt "main|"

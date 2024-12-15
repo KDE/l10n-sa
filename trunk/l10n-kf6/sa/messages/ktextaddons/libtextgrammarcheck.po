@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the ktextaddons package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: ktextaddons\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: common/grammarresulttextedit.cpp:36
@@ -46,6 +46,18 @@ msgstr "विन्यस्तं कुर्वन्तु..."
 msgid "See on: %1"
 msgstr "अत्र पश्यन्तु: %1"
 
+#: common/grammarresultwidget.cpp:32
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr "पिधानं करोतु"
+
+#: grammalecte/grammalecteconfigdialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Grammalecte"
+msgstr "Grammalecte विन्यस्तं कुर्वन्तु"
+
 #: grammalecte/grammalecteconfigwidget.cpp:35
 #, kde-format
 msgid "General"
@@ -61,14 +73,36 @@ msgstr "व्याकरणस्य सेटिंग्स्"
 msgid ""
 "Impossible to get options. Please verify that you have grammalected "
 "installed."
-msgstr ""
-"विकल्पान् प्राप्तुं असम्भवम्। कृपया सत्यापयन्तु यत् भवता व्याकरणं "
-"संस्थापितम् अस्ति ।"
+msgstr "विकल्पान् प्राप्तुं असम्भवम्। कृपया सत्यापयन्तु यत् भवता व्याकरणं संस्थापितम् अस्ति ।"
+
+#: grammalecte/grammalecteconfigwidget.cpp:62
+#, kde-format
+msgctxt "@title:window"
+msgid "Error during Extracting Options"
+msgstr "विकल्पान् निष्कासयितुं समये त्रुटिः"
+
+#: grammalecte/grammalecteconfigwidget.cpp:111
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Press Button for Reloading Settings"
+msgstr "सेटिङ्ग्स् पुनः लोड् कर्तुं बटन् नुदन्तु"
+
+#: grammalecte/grammalecteconfigwidget.cpp:118
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reload Settings"
+msgstr "सेटिंग्स् पुनः लोड् कुर्वन्तु"
 
 #: grammalecte/grammalecteconfigwidget.cpp:135
 #, kde-format
 msgid "Python Path:"
 msgstr "पायथन मार्गः : १."
+
+#: grammalecte/grammalecteconfigwidget.cpp:139
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add full 'grammalecte-cli.py' path"
+msgstr "पूर्णं 'grammalecte-cli.py' मार्गं योजयन्तु"
 
 #: grammalecte/grammalecteconfigwidget.cpp:141
 #, kde-format
@@ -78,12 +112,11 @@ msgstr "व्याकरणलेक्टे पथः १."
 #: grammalecte/grammalecteconfigwidget.cpp:147
 #, kde-format
 msgid ""
-"Grammalecte can be found <a "
-"href=\"https://grammalecte.net/#download\">here</a>. Download it and "
-"extract it."
+"Grammalecte can be found <a href=\"https://grammalecte.net/#download\">here</"
+"a>. Download it and extract it."
 msgstr ""
-"Grammalecte <a href=\"https://grammalecte.net/#download\">अत्र</a> "
-"प्राप्यते . तत् डाउनलोड् कृत्वा निष्कासयन्तु।"
+"Grammalecte <a href=\"https://grammalecte.net/#download\">अत्र</a> प्राप्यते . "
+"तत् डाउनलोड् कृत्वा निष्कासयन्तु।"
 
 #: grammalecte/grammalecteresultwidget.cpp:54
 #, kde-format
@@ -104,6 +137,12 @@ msgstr "Grammalecte कार्यक्रमसञ्चिका न प्�
 #, kde-format
 msgid "Grammalecte cli file not found."
 msgstr "Grammalecte cli सञ्चिका न प्राप्ता।"
+
+#: grammalecte/grammalecteresultwidget.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "Grammalecte error"
+msgstr "Grammalecte त्रुटिः"
 
 #: grammalecte/grammalecteurlrequesterwidget.cpp:33
 #, kde-format
@@ -260,85 +299,17 @@ msgstr "तमिल"
 msgid "Ukrainian"
 msgstr "युक्रेनियन"
 
-#: languagetool/languagetoolresultwidget.cpp:60
-#, kde-format
-msgid "An error was reported: %1"
-msgstr "एकः त्रुटिः निवेदिता: %1"
-
-#: languagetool/languagetoolupdatecombobox.cpp:76
-#, kde-format
-msgid ""
-"An error occurred attempting to load the list of available languages:\n"
-"%1"
-msgstr ""
-"उपलब्धभाषासूचीं लोड् कर्तुं प्रयतमाने त्रुटिः अभवत्:\n"
-"%1"
-
-#: common/grammarresultwidget.cpp:32
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Close"
-msgstr "पिधानं करोतु"
-
-#: grammalecte/grammalecteconfigwidget.cpp:118
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Reload Settings"
-msgstr "सेटिंग्स् पुनः लोड् कुर्वन्तु"
-
-#: languagetool/languagetoolconfigwidget.cpp:65
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Refresh"
-msgstr "ताजगी"
-
-#: languagetool/languagetoolresultwidget.cpp:76
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Check"
-msgstr "अनुशीलय"
-
-#: grammalecte/grammalecteconfigdialog.cpp:25
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Grammalecte"
-msgstr "Grammalecte विन्यस्तं कुर्वन्तु"
-
-#: grammalecte/grammalecteconfigwidget.cpp:62
-#, kde-format
-msgctxt "@title:window"
-msgid "Error during Extracting Options"
-msgstr "विकल्पान् निष्कासयितुं समये त्रुटिः"
-
-#: grammalecte/grammalecteresultwidget.cpp:73
-#, kde-format
-msgctxt "@title:window"
-msgid "Grammalecte error"
-msgstr "Grammalecte त्रुटिः"
-
 #: languagetool/languagetoolconfigdialog.cpp:26
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure LanguageTool"
 msgstr "LanguageTool विन्यस्तं कुर्वन्तु"
 
-#: languagetool/languagetoolresultwidget.cpp:60
+#: languagetool/languagetoolconfigwidget.cpp:22
 #, kde-format
-msgctxt "@title:window"
-msgid "Failed to check grammar."
-msgstr "व्याकरणस्य जाँचं कर्तुं असफलम्।"
-
-#: languagetool/languagetoolupdatecombobox.cpp:77
-#, kde-format
-msgctxt "@title:window"
-msgid "List of Languages"
-msgstr "भाषाणां सूची"
-
-#: grammalecte/grammalecteconfigwidget.cpp:111
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Press Button for Reloading Settings"
-msgstr "सेटिङ्ग्स् पुनः लोड् कर्तुं बटन् नुदन्तु"
+msgctxt "@option:check"
+msgid "Use Local Instance"
+msgstr "स्थानीयदृष्टान्तस्य उपयोगं कुर्वन्तु"
 
 #: languagetool/languagetoolconfigwidget.cpp:24
 #, kde-format
@@ -352,14 +323,40 @@ msgctxt "@label:textbox"
 msgid "Language:"
 msgstr "भाषा:"
 
-#: grammalecte/grammalecteconfigwidget.cpp:139
+#: languagetool/languagetoolconfigwidget.cpp:65
 #, kde-format
-msgctxt "@info:placeholder"
-msgid "Add full 'grammalecte-cli.py' path"
-msgstr "पूर्णं 'grammalecte-cli.py' मार्गं योजयन्तु"
+msgctxt "@info:tooltip"
+msgid "Refresh"
+msgstr "ताजगी"
 
-#: languagetool/languagetoolconfigwidget.cpp:22
+#: languagetool/languagetoolresultwidget.cpp:60
 #, kde-format
-msgctxt "@option:check"
-msgid "Use Local Instance"
-msgstr "स्थानीयदृष्टान्तस्य उपयोगं कुर्वन्तु"
+msgid "An error was reported: %1"
+msgstr "एकः त्रुटिः निवेदिता: %1"
+
+#: languagetool/languagetoolresultwidget.cpp:60
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to check grammar."
+msgstr "व्याकरणस्य जाँचं कर्तुं असफलम्।"
+
+#: languagetool/languagetoolresultwidget.cpp:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Check"
+msgstr "अनुशीलय"
+
+#: languagetool/languagetoolupdatecombobox.cpp:76
+#, kde-format
+msgid ""
+"An error occurred attempting to load the list of available languages:\n"
+"%1"
+msgstr ""
+"उपलब्धभाषासूचीं लोड् कर्तुं प्रयतमाने त्रुटिः अभवत्:\n"
+"%1"
+
+#: languagetool/languagetoolupdatecombobox.cpp:77
+#, kde-format
+msgctxt "@title:window"
+msgid "List of Languages"
+msgstr "भाषाणां सूची"

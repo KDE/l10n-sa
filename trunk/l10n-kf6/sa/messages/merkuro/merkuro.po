@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the merkuro package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,40 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#: calendar/qml/incidenceeditor/PriorityComboBox.qml:23
-#, kde-format
-msgid "2"
-msgstr "२"
-
-#: calendar/qml/incidenceeditor/PriorityComboBox.qml:24
-#, kde-format
-msgid "3"
-msgstr "३"
-
-#: calendar/qml/incidenceeditor/PriorityComboBox.qml:25
-#, kde-format
-msgid "4"
-msgstr "४"
-
-#: calendar/qml/incidenceeditor/PriorityComboBox.qml:27
-#, kde-format
-msgid "6"
-msgstr "६"
-
-#: calendar/qml/incidenceeditor/PriorityComboBox.qml:28
-#, kde-format
-msgid "7"
-msgstr "७"
-
-#: calendar/qml/incidenceeditor/PriorityComboBox.qml:29
-#, kde-format
-msgid "8"
-msgstr "८"
 
 #: calendar/calendarapplication.cpp:28 calendar/calendarapplication.cpp:32
 #: calendar/qml/MainViews/TodoView.qml:69
@@ -194,7 +164,8 @@ msgstr "घटना(s) चालयन्तु ."
 
 #: calendar/calendarmanager.cpp:528
 #, kde-format
-msgid "Unable to add the exception item to the calendar. No change will be done."
+msgid ""
+"Unable to add the exception item to the calendar. No change will be done."
 msgstr "अपवाद-वस्तुं पञ्चाङ्गे योजयितुं असमर्थः । परिवर्तनं न भविष्यति।"
 
 #: calendar/calendarmanager.cpp:568
@@ -206,6 +177,12 @@ msgstr "कार्यं तस्य उपकार्यं च विल�
 #, kde-format
 msgid "Delete task and make sub-tasks independent"
 msgstr "कार्यं विलोप्य उपकार्यं स्वतन्त्रं कुर्वन्तु"
+
+#: calendar/calendarmanager.cpp:733
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Calendar %1"
+msgstr "पञ्चाङ्गस्य गुणाः %1"
 
 #: calendar/importer.cpp:49
 #, kde-format
@@ -219,6 +196,12 @@ msgstr "त्रुटिः अभवत्: %1"
 msgid "Task"
 msgstr "कार्य"
 
+#: calendar/main.cpp:57
+#, kde-format
+msgctxt "@title"
+msgid "Merkuro Calendar"
+msgstr "बुध पञ्चाङ्ग"
+
 #: calendar/main.cpp:60
 #, kde-format
 msgid "Calendar Application"
@@ -228,6 +211,45 @@ msgstr "पञ्चाङ्ग अनुप्रयोग"
 #, kde-format
 msgid "(c) KDE Community 2021-2024"
 msgstr "(ग) केडीई समुदाय 2021-2024"
+
+#: calendar/main.cpp:66 contacts/main.cpp:60 launcher/main.cpp:56
+#: mail/main.cpp:61
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "कार्ल स्वान्"
+
+#: calendar/main.cpp:67 calendar/main.cpp:72 contacts/main.cpp:61
+#: contacts/main.cpp:66 launcher/main.cpp:56 mail/main.cpp:62 mail/main.cpp:67
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr "परिपालकः"
+
+#: calendar/main.cpp:71 contacts/main.cpp:65 mail/main.cpp:66
+#, kde-format
+msgctxt "@info:credit"
+msgid "Clau Cambra"
+msgstr "चैम्बर की"
+
+#: calendar/main.cpp:75
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "फेलिप किनोशिता"
+
+#: calendar/main.cpp:76
+#, kde-format
+msgctxt "@info:credit"
+msgid "Developer"
+msgstr "विकासकः"
+
+#: calendar/models/todosortfilterproxymodel.cpp:161
+#: calendar/qml/Dialogs/IncidenceEditorPage.qml:854
+#, kde-format
+msgctxt "List separator"
+msgid ", "
+msgstr ", ९. "
 
 #: calendar/models/todosortfilterproxymodel.cpp:179
 #, kde-format
@@ -247,6 +269,18 @@ msgstr "अतिदेयम्"
 #, kde-format
 msgid "Today"
 msgstr "अद्य"
+
+#: calendar/models/todosortfilterproxymodel.cpp:212
+#, kde-format
+msgctxt "Please retain space"
+msgid " at %1"
+msgstr " %1 इत्यत्र"
+
+#: calendar/models/todosortfilterproxymodel.cpp:213
+#, kde-format
+msgctxt "Please retain parenthesis and space"
+msgid " (overdue)"
+msgstr " (अतिरिक्तम्) २."
 
 #: calendar/qml/Bars/FilterHeaderBar.qml:41
 #, kde-format
@@ -354,10 +388,46 @@ msgstr "%1 इत्यत्र समाप्तं भवति"
 msgid "Ends after %1 occurrences"
 msgstr "%1 घटनानां अनन्तरं समाप्तं भवति"
 
+#: calendar/qml/CalendarUtils/labelutils.js:189
+#, kde-format
+msgctxt "%1 is the priority level number"
+msgid "%1 (Highest priority)"
+msgstr "%1 (उच्चतमप्राथमिकता) २."
+
+#: calendar/qml/CalendarUtils/labelutils.js:191
+#, kde-format
+msgctxt "%1 is the priority level number"
+msgid "%1 (Mid-high priority)"
+msgstr "%1 (मध्य-उच्चप्राथमिकता)"
+
+#: calendar/qml/CalendarUtils/labelutils.js:193
+#, kde-format
+msgctxt "%1 is the priority level number"
+msgid "%1 (Medium priority)"
+msgstr "%1 (मध्यमप्राथमिकता) २."
+
+#: calendar/qml/CalendarUtils/labelutils.js:195
+#, kde-format
+msgctxt "%1 is the priority level number"
+msgid "%1 (Mid-low priority)"
+msgstr "%1 (मध्य-निम्नप्राथमिकता) २."
+
+#: calendar/qml/CalendarUtils/labelutils.js:197
+#, kde-format
+msgctxt "%1 is the priority level number"
+msgid "%1 (Lowest priority)"
+msgstr "%1 (निम्नप्राथमिकता) २."
+
 #: calendar/qml/CalendarUtils/labelutils.js:199
 #, kde-format
 msgid "No set priority level"
 msgstr "न निर्धारितप्राथमिकतास्तरः"
+
+#: calendar/qml/Controls/CalendarItemTapHandler.qml:44
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Calendar Color"
+msgstr "Calendar Color इति चिनोतु"
 
 #: calendar/qml/Controls/CheckableCollectionNavigationView.qml:55
 #, kde-format
@@ -374,6 +444,19 @@ msgstr "पञ्चाङ्गाः"
 msgid "Min. Interval:"
 msgstr "मम। पङ्क्तिः:"
 
+#: calendar/qml/Controls/ImportHandler.qml:45
+#, kde-format
+msgctxt "%1 is a number"
+msgid "%1 incidences were imported successfully."
+msgstr "%1 घटनाः सफलतया आयाताः।"
+
+#: calendar/qml/Controls/ImportHandler.qml:50
+#: calendar/qml/Controls/ImportHandler.qml:64
+#, kde-format
+msgctxt "%1 is the error message"
+msgid "An error occurred importing incidences: %1"
+msgstr "घटनानां आयाते त्रुटिः अभवत्: %1"
+
 #: calendar/qml/Controls/ImportHandler.qml:59
 #, kde-format
 msgid "New calendar created from imported file successfully."
@@ -389,6 +472,12 @@ msgstr "एकं पञ्चाङ्गं आयातयन्तु"
 msgid "Calendar files (*.ics *.vcs)"
 msgstr "पञ्चाङ्गसञ्चिकाः (*.ics *.vcs) ."
 
+#: calendar/qml/Controls/ImportHandler.qml:99
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Import Calendar"
+msgstr "आयात पञ्चाङ्ग"
+
 #: calendar/qml/Controls/ImportHandler.qml:104
 #, kde-format
 msgid ""
@@ -397,10 +486,27 @@ msgid ""
 "file?\n"
 " "
 msgstr ""
-"किं भवान् अस्याः पञ्चाङ्गसञ्चिकायाः घटनाः कार्याणि च स्वस्य "
-"विद्यमानपञ्चाङ्गेषु एकस्मिन् विलीनीकर्तुं इच्छति, अथवा अस्मात् सञ्चिकातः "
-"नूतनं पञ्चाङ्गं निर्मातुम् इच्छति?\n"
+"किं भवान् अस्याः पञ्चाङ्गसञ्चिकायाः घटनाः कार्याणि च स्वस्य विद्यमानपञ्चाङ्गेषु एकस्मिन् "
+"विलीनीकर्तुं इच्छति, अथवा अस्मात् सञ्चिकातः नूतनं पञ्चाङ्गं निर्मातुम् इच्छति?\n"
 " "
+
+#: calendar/qml/Controls/ImportHandler.qml:116
+#, kde-format
+msgctxt "@action:button merge with existing calendar"
+msgid "Merge with Existing"
+msgstr "Existing इत्यनेन सह विलयः"
+
+#: calendar/qml/Controls/ImportHandler.qml:134
+#, kde-format
+msgctxt "@action:button Create new calendar"
+msgid "Create New"
+msgstr "New रचयतु"
+
+#: calendar/qml/Controls/ImportHandler.qml:148
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "निरसयतु"
 
 #: calendar/qml/Controls/IncidenceInfoContents.qml:113
 #, kde-format
@@ -413,6 +519,12 @@ msgid "This event has reminder"
 msgid_plural "This event has reminders"
 msgstr[0] "अस्मिन् आयोजने स्मारकं वर्तते"
 msgstr[1] "अस्मिन् आयोजने स्मारकाः सन्ति"
+
+#: calendar/qml/Controls/IncidenceInfoContents.qml:146
+#, kde-format
+msgctxt "%1 is a percentage number"
+msgid "<b>%1%</b> Complete"
+msgstr "<b>%1%</b> सम्पूर्णम्"
 
 #: calendar/qml/Controls/IncidenceInfoContents.qml:176
 #, kde-format
@@ -649,6 +761,26 @@ msgstr "मुख्य दराज ढहना"
 msgid "Remove Tag"
 msgstr "टैग हटाएँ"
 
+#: calendar/qml/Controls/TitleDateButton.qml:31
+#: calendar/qml/Controls/TitleDateButton.qml:36
+#, kde-format
+msgctxt "%1 is month name, %2 is year"
+msgid "<b>%1</b> %2"
+msgstr "<b>%1</b> %2"
+
+#: calendar/qml/Controls/TitleDateButton.qml:39
+#, kde-format
+msgctxt ""
+"%1 is the month and year of the range start, %2 is the same for range end"
+msgid "%1 - %2"
+msgstr "%1 - %2"
+
+#: calendar/qml/Controls/TitleDateButton.qml:41
+#, kde-format
+msgctxt "%1 is month of range start, %2 is month + year of range end"
+msgid "<b>%1</b> - %2"
+msgstr "<b>%1</b> - %2"
+
 #: calendar/qml/Dialogs/CollectionPickerPage.qml:21
 #, kde-format
 msgid "Choose a Task Calendar"
@@ -663,6 +795,18 @@ msgstr "एकं पञ्चाङ्गं चिनोतु"
 #, kde-format
 msgid "Choose an Address Book"
 msgstr "एकं पतापुस्तकं चिनोतु"
+
+#: calendar/qml/Dialogs/DeleteCalendarDialog.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete calendar"
+msgstr "पञ्चाङ्गं विलोपयन्तु"
+
+#: calendar/qml/Dialogs/DeleteCalendarDialog.qml:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete"
+msgstr "लुप्"
 
 #: calendar/qml/Dialogs/DeleteCalendarDialog.qml:42
 #, kde-format
@@ -690,6 +834,12 @@ msgstr "निरसयतु"
 msgid "Delete calendar"
 msgstr "पञ्चाङ्गं विलोपयन्तु"
 
+#: calendar/qml/Dialogs/DeleteIncidenceDialog.qml:31
+#, kde-format
+msgctxt "%1 is the type of the incidence (e.g event, todo, journal entry)"
+msgid "Delete %1"
+msgstr "%1 विलोपयन्तु"
+
 #: calendar/qml/Dialogs/DeleteIncidenceDialog.qml:49
 #, kde-format
 msgid "Do you want to delete item: \"%1\"?"
@@ -701,25 +851,24 @@ msgid ""
 "Item \"%1\" has sub-items. Do you want to delete all related items, or just "
 "the currently selected item?"
 msgstr ""
-"\"%1\" मदस्य उपवस्तुः सन्ति । किं भवान् सर्वाणि सम्बद्धानि वस्तूनि "
-"विलोपयितुम् इच्छति, अथवा केवलं वर्तमानकाले चयनितं द्रव्यम्?"
+"\"%1\" मदस्य उपवस्तुः सन्ति । किं भवान् सर्वाणि सम्बद्धानि वस्तूनि विलोपयितुम् इच्छति, "
+"अथवा केवलं वर्तमानकाले चयनितं द्रव्यम्?"
 
 #: calendar/qml/Dialogs/DeleteIncidenceDialog.qml:53
 #, kde-format
 msgid ""
-"The calendar item \"%1\" recurs over multiple dates. This item also has "
-"sub-items.\n"
+"The calendar item \"%1\" recurs over multiple dates. This item also has sub-"
+"items.\n"
 "\n"
 "Do you want to delete the selected occurrence on %2, also future "
 "occurrences, or all of its occurrences?\n"
 "\n"
 "Deleting all will also delete sub-items!"
 msgstr ""
-"पञ्चाङ्गवस्तु \"%1\" बहुतिथिषु पुनरावृत्तिः भवति । अस्मिन् द्रव्ये "
-"उपवस्तूनि अपि सन्ति ।\n"
+"पञ्चाङ्गवस्तु \"%1\" बहुतिथिषु पुनरावृत्तिः भवति । अस्मिन् द्रव्ये उपवस्तूनि अपि सन्ति ।\n"
 "\n"
-"किं भवान् %2 इत्यत्र चयनितं घटनां, भविष्यत्घटनानि अपि, अथवा तस्य सर्वाणि "
-"घटनानि विलोपयितुम् इच्छति?\n"
+"किं भवान् %2 इत्यत्र चयनितं घटनां, भविष्यत्घटनानि अपि, अथवा तस्य सर्वाणि घटनानि "
+"विलोपयितुम् इच्छति?\n"
 "\n"
 "सर्वाणि विलोपनेन उपवस्तूनाम् अपि विलोपनं भविष्यति!"
 
@@ -730,9 +879,8 @@ msgid ""
 "the selected occurrence on %2, also future occurrences, or all of its "
 "occurrences?"
 msgstr ""
-"पञ्चाङ्गवस्तु \"%1\" बहुतिथिषु पुनरावृत्तिः भवति । किं भवान् %2 इत्यत्र "
-"चयनितं घटनां, भविष्यत्घटनानि अपि, अथवा तस्य सर्वाणि घटनानि विलोपयितुम् "
-"इच्छति?"
+"पञ्चाङ्गवस्तु \"%1\" बहुतिथिषु पुनरावृत्तिः भवति । किं भवान् %2 इत्यत्र चयनितं घटनां, "
+"भविष्यत्घटनानि अपि, अथवा तस्य सर्वाणि घटनानि विलोपयितुम् इच्छति?"
 
 #: calendar/qml/Dialogs/DeleteIncidenceDialog.qml:70
 #, kde-format
@@ -753,6 +901,18 @@ msgstr "केवलं एतत् विलोपयतु"
 #, kde-format
 msgid "Delete All"
 msgstr "सर्वं विलोपयतु"
+
+#: calendar/qml/Dialogs/IncidenceEditorPage.qml:43
+#, kde-format
+msgctxt "%1 is incidence type"
+msgid "Edit %1"
+msgstr "%1 सम्पादयतु"
+
+#: calendar/qml/Dialogs/IncidenceEditorPage.qml:44
+#, kde-format
+msgctxt "%1 is incidence type"
+msgid "Add %1"
+msgstr "%1 योजयन्तु"
 
 #: calendar/qml/Dialogs/IncidenceEditorPage.qml:57
 #, kde-format
@@ -901,6 +1061,18 @@ msgstr[1] "वर्षाः"
 #, kde-format
 msgid "On:"
 msgstr "इत्युपरि:"
+
+#: calendar/qml/Dialogs/IncidenceEditorPage.qml:575
+#, kde-format
+msgctxt "%1 is the day number of month"
+msgid "The %1 of each month"
+msgstr "प्रत्येकस्य मासस्य %1"
+
+#: calendar/qml/Dialogs/IncidenceEditorPage.qml:587
+#, kde-format
+msgctxt "the weekOfMonth dayOfWeekString of each month"
+msgid "The %1 %2 of each month"
+msgstr "प्रत्येकस्य मासस्य %1 %2"
 
 #: calendar/qml/Dialogs/IncidenceEditorPage.qml:598
 #, kde-format
@@ -1056,13 +1228,12 @@ msgstr "घटनातिथिं परिवर्तयन्तु"
 #: calendar/qml/Dialogs/RecurringIncidenceChangePage.qml:47
 #, kde-format
 msgid ""
-"The item you are trying to change is a recurring item. Should the changes "
-"be applied only to this single occurrence, also to future items, or to all "
+"The item you are trying to change is a recurring item. Should the changes be "
+"applied only to this single occurrence, also to future items, or to all "
 "items in the recurrence?"
 msgstr ""
-"भवन्तः यत् द्रव्यं परिवर्तयितुं प्रयतन्ते तत् पुनरावर्तनीयं द्रव्यम् अस्ति "
-"। किं परिवर्तनं केवलम् अस्मिन् एकस्मिन् घटनायां प्रयोक्तव्यं, "
-"भविष्यत्विषयेषु अपि, पुनरावृत्तौ सर्वेषु द्रव्येषु वा?"
+"भवन्तः यत् द्रव्यं परिवर्तयितुं प्रयतन्ते तत् पुनरावर्तनीयं द्रव्यम् अस्ति । किं परिवर्तनं केवलम् "
+"अस्मिन् एकस्मिन् घटनायां प्रयोक्तव्यं, भविष्यत्विषयेषु अपि, पुनरावृत्तौ सर्वेषु द्रव्येषु वा?"
 
 #: calendar/qml/Dialogs/RecurringIncidenceChangePage.qml:62
 #, kde-format
@@ -1117,8 +1288,20 @@ msgstr "विन्यस्तं कुर्वन्तु"
 
 #: calendar/qml/Drawers/MainDrawer.qml:289
 #, kde-format
+msgctxt "@action:inmenu %1 is the name of the action getting reverted"
+msgid "Undo: %1"
+msgstr "पूर्ववतं कुर्वन्तु: %1"
+
+#: calendar/qml/Drawers/MainDrawer.qml:289
+#, kde-format
 msgid "Undo"
 msgstr "पूर्ववत"
+
+#: calendar/qml/Drawers/MainDrawer.qml:294
+#, kde-format
+msgctxt "@action:inmenu %1 is the name of the action getting re-applied"
+msgid "Redo: %1"
+msgstr "पुनः करोतु: %1"
 
 #: calendar/qml/Drawers/MainDrawer.qml:294
 #, kde-format
@@ -1150,15 +1333,51 @@ msgstr "अनिर्दिष्टः"
 msgid "1 (Highest Priority)"
 msgstr "१ (उच्चप्राथमिकता) २."
 
+#: calendar/qml/incidenceeditor/PriorityComboBox.qml:23
+#, kde-format
+msgid "2"
+msgstr "२"
+
+#: calendar/qml/incidenceeditor/PriorityComboBox.qml:24
+#, kde-format
+msgid "3"
+msgstr "३"
+
+#: calendar/qml/incidenceeditor/PriorityComboBox.qml:25
+#, kde-format
+msgid "4"
+msgstr "४"
+
 #: calendar/qml/incidenceeditor/PriorityComboBox.qml:26
 #, kde-format
 msgid "5 (Medium Priority)"
 msgstr "५ (मध्यमप्राथमिकता) २."
 
+#: calendar/qml/incidenceeditor/PriorityComboBox.qml:27
+#, kde-format
+msgid "6"
+msgstr "६"
+
+#: calendar/qml/incidenceeditor/PriorityComboBox.qml:28
+#, kde-format
+msgid "7"
+msgstr "७"
+
+#: calendar/qml/incidenceeditor/PriorityComboBox.qml:29
+#, kde-format
+msgid "8"
+msgstr "८"
+
 #: calendar/qml/incidenceeditor/PriorityComboBox.qml:30
 #, kde-format
 msgid "9 (Lowest Priority)"
 msgstr "९ (अल्पप्राथमिकता) ९."
+
+#: calendar/qml/incidenceeditor/ReminderDelegate.qml:50
+#, kde-format
+msgctxt "Custom reminder"
+msgid "Custom"
+msgstr "आचारः"
 
 #: calendar/qml/incidenceeditor/ReminderDelegate.qml:145
 #, kde-format
@@ -1231,10 +1450,22 @@ msgstr "कार्यक्रमः"
 msgid "Tasks"
 msgstr "कार्याणि"
 
+#: calendar/qml/MainViews/BasicInternalHourlyView.qml:240
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset"
+msgstr "पुनः सेट् करें"
+
 #: calendar/qml/MainViews/BasicInternalHourlyView.qml:253
 #, kde-format
 msgid "All day or Multi day"
 msgstr "सर्वं दिवसं बहु दिवसं वा"
+
+#: calendar/qml/MainViews/BasicMonthListView.qml:238
+#, kde-format
+msgctxt "Date has no events or tasks set"
+msgid "Clear day."
+msgstr "स्पष्टः दिवसः।"
 
 #: calendar/qml/MainViews/BasicMonthListView.qml:257
 #, kde-format
@@ -1251,10 +1482,22 @@ msgstr "क्लिक् कुर्वन्तु"
 msgid "Nothing on the books today. %1 to add something."
 msgstr "अद्य पुस्तकेषु किमपि नास्ति। %1 किमपि योजयितुं ।"
 
+#: calendar/qml/MainViews/BasicMonthListView.qml:381
+#, kde-format
+msgctxt "%1 is the name of the event"
+msgid "%1 (Day %2 of %3)"
+msgstr "%1 (%3 इत्यस्य %2 दिवसः)"
+
 #: calendar/qml/MainViews/BasicMonthListView.qml:437
 #, kde-format
 msgid "Runs all day"
 msgstr "सर्वं दिवसं धावति"
+
+#: calendar/qml/MainViews/BasicMonthListView.qml:441
+#, kde-format
+msgctxt "Displays times between incidence start and end"
+msgid "%1 - %2"
+msgstr "%1 - %2"
 
 #: calendar/qml/MainViews/BasicMonthListView.qml:444
 #, kde-format
@@ -1310,6 +1553,24 @@ msgstr "अग्रिमे सप्ताहे"
 #, kde-format
 msgid "Now"
 msgstr "अधुना"
+
+#: calendar/qml/MainViews/HourlyView.qml:111
+#, kde-format
+msgctxt "@action:inmenu open week view"
+msgid "Week"
+msgstr "सप्ताहः"
+
+#: calendar/qml/MainViews/HourlyView.qml:119
+#, kde-format
+msgctxt "@action:inmenu open 3 days view"
+msgid "3 Days"
+msgstr "३ दिवसाः"
+
+#: calendar/qml/MainViews/HourlyView.qml:126
+#, kde-format
+msgctxt "@action:inmenu open day view"
+msgid "Day"
+msgstr "दिनं"
 
 #: calendar/qml/MainViews/MonthView.qml:28
 #: calendar/qml/MainViews/ScheduleView.qml:25
@@ -1389,6 +1650,84 @@ msgstr "नूतनं कार्यं रचयन्तु..."
 msgid "Quickly Add a New Task."
 msgstr "शीघ्रं नूतनं कार्यं योजयन्तु।"
 
+#: calendar/qml/Menus/CalendarItemMenu.qml:22
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit calendar…"
+msgstr "पञ्चाङ्गं सम्पादयन्तु..."
+
+#: calendar/qml/Menus/CalendarItemMenu.qml:28
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update calendar"
+msgstr "पञ्चाङ्गं अद्यतनं कुर्वन्तु"
+
+#: calendar/qml/Menus/CalendarItemMenu.qml:34
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete calendar"
+msgstr "पञ्चाङ्गं विलोपयन्तु"
+
+#: calendar/qml/Menus/CalendarItemMenu.qml:56
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set calendar colour…"
+msgstr "पञ्चाङ्गस्य रङ्गं सेट् कुर्वन्तु..."
+
+#: calendar/qml/Menus/CalendarItemMenu.qml:68
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Calendar source settings…"
+msgstr "पञ्चाङ्गस्य स्रोतसेटिंग्स्..."
+
+#: calendar/qml/Menus/CalendarItemMenu.qml:74
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update calendar source"
+msgstr "पञ्चाङ्गस्य स्रोतः अद्यतनं कुर्वन्तु"
+
+#: calendar/qml/Menus/CalendarItemMenu.qml:80
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete calendar source"
+msgstr "पञ्चाङ्गस्य स्रोतः विलोपयन्तु"
+
+#: calendar/qml/Menus/GlobalMenuBar.qml:39 calendar/qml/Menus/MenuBar.qml:33
+#: contacts/qml/GlobalMenuBar.qml:19 contacts/qml/MenuBar.qml:17
+#: mail/qml/app/GlobalMenuBar.qml:19 mail/qml/app/MenuBar.qml:18
+#, kde-format
+msgctxt "@action:menu"
+msgid "View"
+msgstr "दृश्यं"
+
+#: calendar/qml/Menus/GlobalMenuBar.qml:80
+#, kde-format
+msgctxt "@action:menu"
+msgid "Sort Tasks"
+msgstr "कार्याणि क्रमयन्तु"
+
+#: calendar/qml/Menus/GlobalMenuBar.qml:129 calendar/qml/Menus/MenuBar.qml:108
+#, kde-format
+msgctxt "@action:menu"
+msgid "Go"
+msgstr "गच्छ"
+
+#: calendar/qml/Menus/GlobalMenuBar.qml:157 calendar/qml/Menus/MenuBar.qml:134
+#: contacts/qml/GlobalMenuBar.qml:33 contacts/qml/MenuBar.qml:29
+#: mail/qml/app/GlobalMenuBar.qml:55 mail/qml/app/MenuBar.qml:26
+#: mail/qml/FolderView.qml:49
+#, kde-format
+msgctxt "@action:menu"
+msgid "Create"
+msgstr "निर्मियताम्"
+
+#: calendar/qml/Menus/GlobalMenuBar.qml:173 components/qml/SettingsMenu.qml:14
+#: contacts/qml/GlobalMenuBar.qml:49
+#, kde-format
+msgctxt "@action:menu"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
 #: calendar/qml/Menus/MenuBar.qml:63
 #, kde-format
 msgid "Sort Tasks"
@@ -1429,10 +1768,9 @@ msgid ""
 "that are already marked as busy are disclosed, without revealing the "
 "specific reasons for your availability."
 msgstr ""
-"यदा भवान् स्वस्य निःशुल्क/व्यस्तसूचनाः प्रकाशयति तदा अन्ये भवन्तं सभायां "
-"आमन्त्रयन्ते सति भवतः पञ्चाङ्गस्य उपलब्धतायाः विषये विचारं कर्तुं समर्थं "
-"करोति। केवलं ते समयाः एव प्रकटिताः भवन्ति ये पूर्वमेव व्यस्ताः इति "
-"चिह्निताः सन्ति, भवतः उपलब्धतायाः विशिष्टकारणानि न प्रकाशयन्ति ।"
+"यदा भवान् स्वस्य निःशुल्क/व्यस्तसूचनाः प्रकाशयति तदा अन्ये भवन्तं सभायां आमन्त्रयन्ते सति भवतः "
+"पञ्चाङ्गस्य उपलब्धतायाः विषये विचारं कर्तुं समर्थं करोति। केवलं ते समयाः एव प्रकटिताः भवन्ति "
+"ये पूर्वमेव व्यस्ताः इति चिह्निताः सन्ति, भवतः उपलब्धतायाः विशिष्टकारणानि न प्रकाशयन्ति ।"
 
 #: calendar/qml/Settings/FreeBusySettingsPage.qml:31
 #, kde-format
@@ -1508,11 +1846,11 @@ msgstr "निःशुल्क/व्यस्त पुनर्प्रा�
 #: calendar/qml/Settings/FreeBusySettingsPage.qml:147
 #, kde-format
 msgid ""
-"By retrieving Free/Busy information that others have published, you can "
-"take their calendar into account when inviting them to a meeting."
+"By retrieving Free/Busy information that others have published, you can take "
+"their calendar into account when inviting them to a meeting."
 msgstr ""
-"अन्येषां प्रकाशितानां Free/Busy सूचनानां पुनः प्राप्तिः कृत्वा, भवान् तान् "
-"सभायां आमन्त्रयन् तेषां पञ्चाङ्गं गृहीतुं शक्नोति।"
+"अन्येषां प्रकाशितानां Free/Busy सूचनानां पुनः प्राप्तिः कृत्वा, भवान् तान् सभायां आमन्त्रयन् "
+"तेषां पञ्चाङ्गं गृहीतुं शक्नोति।"
 
 #: calendar/qml/Settings/FreeBusySettingsPage.qml:152
 #, kde-format
@@ -1677,9 +2015,7 @@ msgstr "मूलभूतं समयसूची दृश्यम्"
 #: calendar/qml/Settings/ViewSettingsPage.qml:306
 #, kde-format
 msgid "Swipeable schedule view requires higher system performance."
-msgstr ""
-"स्वाइप-करणीय-अनुसूची-दृश्यस्य कृते उच्चतर-प्रणाली-प्रदर्शनस्य आवश्यकता भवति "
-"।"
+msgstr "स्वाइप-करणीय-अनुसूची-दृश्यस्य कृते उच्चतर-प्रणाली-प्रदर्शनस्य आवश्यकता भवति ।"
 
 #: calendar/qml/Settings/ViewSettingsPage.qml:315
 #, kde-format
@@ -1726,10 +2062,22 @@ msgstr "वृत्तम् (स्थानस्य क्षेत्रं
 msgid "Pin (shows exact location)"
 msgstr "पिन (सटीकस्थानं दर्शयति) २."
 
+#: calendar/utils.cpp:21
+#, kde-format
+msgctxt "%1 is 2 or more"
+msgid "%1 days"
+msgstr "%1 दिवसाः"
+
 #: calendar/utils.cpp:23
 #, kde-format
 msgid "1 day"
 msgstr "१ दिवसे"
+
+#: calendar/utils.cpp:25
+#, kde-format
+msgctxt "%1 is 2 or mores"
+msgid "%1 hours"
+msgstr "%1 घण्टा"
 
 #: calendar/utils.cpp:27
 #, kde-format
@@ -1766,11 +2114,158 @@ msgstr "टैग्स् प्रबन्धयन्तु..."
 msgid "Show Menubar"
 msgstr "मेनूबारं दर्शयतु"
 
+#: components/colorproxymodel.cpp:80
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Offline)"
+msgstr "%1 (अफलाइन) २."
+
+#: components/colorproxymodel.cpp:83
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Default)"
+msgstr "%1 (पूर्वनिर्धारितम्) ."
+
+#: components/qml/EditMenu.qml:15 components/qml/NativeEditMenu.qml:11
+#, kde-format
+msgctxt "@action:menu"
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: components/qml/EditMenu.qml:45
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Undo Text"
+msgstr "पाठं पूर्ववत कुर्वन्तु"
+
+#: components/qml/EditMenu.qml:54
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Redo Text"
+msgstr "पाठं पुनः कुर्वन्तु"
+
+#: components/qml/EditMenu.qml:66 components/qml/NativeEditMenu.qml:63
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Cut"
+msgstr "छिन्न"
+
+#: components/qml/EditMenu.qml:75 components/qml/NativeEditMenu.qml:73
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Copy"
+msgstr "प्रतिलिपि"
+
+#: components/qml/EditMenu.qml:84 components/qml/NativeEditMenu.qml:83
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Paste"
+msgstr "चिनोतु"
+
+#: components/qml/EditMenu.qml:93 components/qml/NativeEditMenu.qml:93
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Delete"
+msgstr "लुप्"
+
+#: components/qml/EditMenu.qml:105 components/qml/NativeEditMenu.qml:106
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Select All"
+msgstr "All इति चिनोतु"
+
+#: components/qml/FileMenu.qml:16 components/qml/NativeFileMenu.qml:10
+#, kde-format
+msgctxt "@action:menu"
+msgid "File"
+msgstr "संचिका"
+
+#: components/qml/FileMenu.qml:21 components/qml/NativeFileMenu.qml:16
+#, kde-format
+msgctxt "@action:menu"
+msgid "Quit Merkuro"
+msgstr "बुध त्यजतु"
+
+#: components/qml/HelpMenu.qml:14 components/qml/NativeHelpMenu.qml:13
+#, kde-format
+msgctxt "@action:menu"
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
+#: components/qml/HelpMenu.qml:25 components/qml/NativeHelpMenu.qml:26
+#, kde-format
+msgctxt "@action:menu"
+msgid "Merkuro Handbook"
+msgstr "बुध हस्तपुस्तिका"
+
+#: components/qml/NativeEditMenu.qml:40
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Undo"
+msgstr "पूर्ववत"
+
+#: components/qml/NativeEditMenu.qml:50
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Redo"
+msgstr "पुनः करो"
+
+#: components/qml/NativeWindowMenu.qml:12 components/qml/WindowMenu.qml:12
+#: mail/qml/app/GlobalMenuBar.qml:62
+#, kde-format
+msgctxt "@action:menu"
+msgid "Window"
+msgstr "कोष्ठ"
+
+#: components/qml/NativeWindowMenu.qml:15 components/qml/WindowMenu.qml:15
+#: mail/qml/app/GlobalMenuBar.qml:65
+#, kde-format
+msgctxt "@action:menu"
+msgid "Exit Full Screen"
+msgstr "पूर्णपर्दे निर्गच्छन्तु"
+
+#: components/qml/NativeWindowMenu.qml:15 components/qml/WindowMenu.qml:15
+#: mail/qml/app/GlobalMenuBar.qml:65
+#, kde-format
+msgctxt "@action:menu"
+msgid "Enter Full Screen"
+msgstr "Full Screen इति प्रविष्टं कुर्वन्तु"
+
 #: contacts/autotests/emailmodeltest.cpp:36 contacts/emailmodel.cpp:56
 #: contacts/qml/private/ContactPage.qml:234
 #, kde-format
 msgid "Home:"
 msgstr "गृहम्‌:"
+
+#: contacts/certificatesmodel.cpp:84
+#, kde-format
+msgctxt "@info: shorthand for the key is revoked"
+msgid "Revoked"
+msgstr "निरस्त"
+
+#: contacts/certificatesmodel.cpp:87
+#, kde-format
+msgctxt "@info: shorthand for the key is expired"
+msgid "Expired"
+msgstr "परीत"
+
+#: contacts/certificatesmodel.cpp:90
+#, kde-format
+msgctxt "@info: shorthand for the key is disabled"
+msgid "Disabled"
+msgstr "अक्षमित"
+
+#: contacts/certificatesmodel.cpp:93
+#, kde-format
+msgctxt "@info: shorthand for the key is invalid"
+msgid "Invalid"
+msgstr "अप्रतिषेध"
+
+#: contacts/certificatesmodel.cpp:96
+#, kde-format
+msgctxt "@info: shorthand for the key is valid"
+msgid "Valid"
+msgstr "मान्य"
 
 #: contacts/contactapplication.cpp:15 contacts/contactapplication.cpp:17
 #, kde-format
@@ -1807,6 +2302,24 @@ msgstr "<b>%1</b> इति नामकः सदस्यः ईमेल-स�
 msgid "Contact does not exist any more"
 msgstr "सम्पर्कः अधुना नास्ति"
 
+#: contacts/contactgroupmodel.cpp:348
+#, kde-format
+msgctxt "contact's name"
+msgid "Name"
+msgstr "नामः"
+
+#: contacts/contactgroupmodel.cpp:350
+#, kde-format
+msgctxt "contact's email address"
+msgid "EMail"
+msgstr "ईमेल"
+
+#: contacts/contactmanager.cpp:201
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Address Book %1"
+msgstr "पतापुस्तिकायाः गुणाः %1"
+
 #: contacts/emailmodel.cpp:50
 #, kde-format
 msgid "Both:"
@@ -1822,10 +2335,22 @@ msgstr "कार्यम्‌:"
 msgid "Other:"
 msgstr "इतर:"
 
+#: contacts/main.cpp:51
+#, kde-format
+msgctxt "@title"
+msgid "Merkuro Contact"
+msgstr "बुध सम्पर्क"
+
 #: contacts/main.cpp:54
 #, kde-format
 msgid "Address Book Application"
 msgstr "पता पुस्तिका आवेदन"
+
+#: contacts/qml/AddressBookCollectionHandler.qml:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Address Book Color"
+msgstr "Address Book Color इति चिनोतु"
 
 #: contacts/qml/ContactChooserPage.qml:22
 #, kde-format
@@ -1843,10 +2368,90 @@ msgstr "ईमेल-सङ्केतं चिनोतु"
 msgid "Contacts"
 msgstr "सम्पर्क"
 
+#: contacts/qml/ContactView.qml:21
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Create"
+msgstr "निर्मियताम्"
+
+#: contacts/qml/ContactView.qml:24
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Contact"
+msgstr "नया सम्पर्क"
+
+#: contacts/qml/ContactView.qml:31
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New Contact Group"
+msgstr "नया सम्पर्क समूह"
+
+#: contacts/qml/ContactView.qml:57 contacts/qml/ContactView.qml:65
+#: contacts/qml/private/ContactPage.qml:63
+#, kde-format
+msgctxt "Placeholder"
+msgid "No Name"
+msgstr "न नाम"
+
+#: contacts/qml/ContactView.qml:92
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit contact…"
+msgstr "सम्पर्क सम्पादयतु..."
+
+#: contacts/qml/ContactView.qml:107
+#: contacts/qml/private/DeleteContactAction.qml:59
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete contact"
+msgstr "सम्पर्क विलोपना"
+
 #: contacts/qml/ContactView.qml:125 contacts/qml/private/ContactsPage.qml:46
 #, kde-format
 msgid "No contacts"
 msgstr "सम्पर्कः नास्ति"
+
+#: contacts/qml/private/AddressBookMenu.qml:24
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit address book…"
+msgstr "पतापुस्तिका सम्पादयतु..."
+
+#: contacts/qml/private/AddressBookMenu.qml:29
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update address book"
+msgstr "पतापुस्तिका अद्यतन करें"
+
+#: contacts/qml/private/AddressBookMenu.qml:34
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete address book"
+msgstr "पतापुस्तकं विलोपयन्तु"
+
+#: contacts/qml/private/AddressBookMenu.qml:42
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set address book colour…"
+msgstr "पतापुस्तकस्य रङ्गं सेट् कुर्वन्तु..."
+
+#: contacts/qml/private/AddressBookMenu.qml:54
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Address book source settings…"
+msgstr "पतापुस्तकस्य स्रोतसेटिंग्स्..."
+
+#: contacts/qml/private/AddressBookMenu.qml:60
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Update address book source"
+msgstr "पतापुस्तिका स्रोतः अद्यतनं कुर्वन्तु"
+
+#: contacts/qml/private/AddressBookMenu.qml:66
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete address source"
+msgstr "पता स्रोतः विलोपयन्तु"
 
 #: contacts/qml/private/contact_editor/AddressBookEditorCard.qml:30
 #, kde-format
@@ -1989,35 +2594,77 @@ msgstr "https://planet.kde.org/ इति ग्रन्थः ।"
 msgid "Organization"
 msgstr "संघठनं"
 
+#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:25
+#, kde-format
+msgctxt "Placeholder value for name of Organization"
+msgid "KDE"
+msgstr "कुत्र"
+
 #: contacts/qml/private/contact_editor/BusinessEditorCard.qml:32
 #, kde-format
 msgid "Profession"
 msgstr "व्यवसाय"
+
+#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:35
+#, kde-format
+msgctxt "Placeholder value for name of Profession"
+msgid "Software Developer"
+msgstr "सॉफ्टवेयर डेवलपर"
 
 #: contacts/qml/private/contact_editor/BusinessEditorCard.qml:42
 #, kde-format
 msgid "Title"
 msgstr "शीर्षक"
 
+#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:45
+#, kde-format
+msgctxt "Placeholder value for Title"
+msgid "SDE-1"
+msgstr "SDE-1"
+
 #: contacts/qml/private/contact_editor/BusinessEditorCard.qml:52
 #, kde-format
 msgid "Department"
 msgstr "विभागः"
+
+#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:55
+#, kde-format
+msgctxt "Placeholder value for name of Department"
+msgid "Merkuro-Team"
+msgstr "बुध दल"
 
 #: contacts/qml/private/contact_editor/BusinessEditorCard.qml:62
 #, kde-format
 msgid "Office"
 msgstr "कार्यालयं"
 
+#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:65
+#, kde-format
+msgctxt "Placeholder value for Office"
+msgid "Tech Wing, 4th Floor"
+msgstr "टेक् विङ्ग, चतुर्थ तल"
+
 #: contacts/qml/private/contact_editor/BusinessEditorCard.qml:72
 #, kde-format
 msgid "Manager's Name"
 msgstr "प्रबन्धकस्य नाम"
 
+#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:75
+#, kde-format
+msgctxt "Placeholder value for Manager's Name"
+msgid "Bob"
+msgstr "बब"
+
 #: contacts/qml/private/contact_editor/BusinessEditorCard.qml:82
 #, kde-format
 msgid "Assistant's Name"
 msgstr "सहायक का नाम"
+
+#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:85
+#, kde-format
+msgctxt "Placeholder value for Assistants's Name"
+msgid "Jill"
+msgstr "जिल्"
 
 #: contacts/qml/private/contact_editor/ContactEditorPage.qml:60
 #, kde-format
@@ -2170,6 +2817,24 @@ msgstr "ईमेल योजयन्तु"
 msgid "protocol:person@example.com"
 msgstr "प्रोटोकॉल:व्यक्ति@उदाहरण.com"
 
+#: contacts/qml/private/contact_editor/PersonalInfoEditorCard.qml:23
+#, kde-format
+msgctxt "@label"
+msgid "Partner's name"
+msgstr "भागीदारस्य नाम"
+
+#: contacts/qml/private/contact_editor/PersonalInfoEditorCard.qml:32
+#, kde-format
+msgctxt "@label"
+msgid "Anniversary"
+msgstr "वार्षिकी"
+
+#: contacts/qml/private/contact_editor/PersonalInfoEditorCard.qml:42
+#, kde-format
+msgctxt "@label"
+msgid "Birthday"
+msgstr "जन्मदिवस"
+
 #: contacts/qml/private/contact_editor/PhoneEditorCard.qml:36
 #: contacts/qml/private/contact_editor/PhoneEditorCard.qml:84
 #, kde-format
@@ -2271,6 +2936,24 @@ msgstr "प्रोफाइल चित्रं योजयन्तु"
 msgid "Update Profile Picture"
 msgstr "प्रोफाइल चित्र अद्यतन करें"
 
+#: contacts/qml/private/ContactGroupPage.qml:35
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: contacts/qml/private/ContactPage.qml:36
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: contacts/qml/private/ContactPage.qml:44
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cancel"
+msgstr "निरसयतु"
+
 #: contacts/qml/private/ContactPage.qml:66
 #, kde-format
 msgid "Call"
@@ -2343,6 +3026,12 @@ msgid_plural "Phone Numbers"
 msgstr[0] "फ़ोन नम्बर"
 msgstr[1] "दूरभाषसङ्ख्याः"
 
+#: contacts/qml/private/ContactPage.qml:209
+#, kde-format
+msgctxt "Label for a phone number type"
+msgid "%1:"
+msgstr "%1: १."
+
 #: contacts/qml/private/ContactPage.qml:217
 #, kde-format
 msgid "Address"
@@ -2350,10 +3039,22 @@ msgid_plural "Addresses"
 msgstr[0] "पत्रसङ्केतः"
 msgstr[1] "सम्बोधनानि"
 
+#: contacts/qml/private/ContactPage.qml:234
+#, kde-format
+msgctxt "%1 is the type of the address, e.g. home, work, ..."
+msgid "%1:"
+msgstr "%1: १."
+
 #: contacts/qml/private/ContactPage.qml:241
 #, kde-format
 msgid "Instant Messaging"
 msgstr "तत्काल सन्देशप्रसारणम्"
+
+#: contacts/qml/private/ContactPage.qml:262
+#, kde-format
+msgctxt "Label for a messaging protocol"
+msgid "%1:"
+msgstr "%1: १."
 
 #: contacts/qml/private/ContactPage.qml:290
 #, kde-format
@@ -2397,6 +3098,24 @@ msgid_plural "Email Addresses"
 msgstr[0] "ईमेल पता"
 msgstr[1] "ईमेल पता"
 
+#: contacts/qml/private/ContactPage.qml:360
+#, kde-format
+msgctxt "@title:group"
+msgid "Cryptographic Certificates"
+msgstr "क्रिप्टोग्राफिक प्रमाणपत्र"
+
+#: contacts/qml/private/DeleteContactAction.qml:20
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Confirm Contact Deletion"
+msgstr "सम्पर्कविलोपनस्य पुष्टिः कुर्वन्तु"
+
+#: contacts/qml/private/DeleteContactAction.qml:25
+#, kde-format
+msgctxt "Placeholder when no name is set"
+msgid "No name"
+msgstr "न नाम"
+
 #: contacts/qml/private/DeleteContactAction.qml:25
 #, kde-format
 msgid "Do you really want to delete your contact: <b>%1</b>?"
@@ -2417,6 +3136,12 @@ msgstr "QR कोड"
 msgid "Creating QR code failed"
 msgstr "QR कोडस्य निर्माणं विफलम् अभवत्"
 
+#: contacts/qml/Settings.qml:13
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
 #: contacts/qml/Settings.qml:16
 #, kde-format
 msgid "Contact Books"
@@ -2427,6 +3152,12 @@ msgstr "सम्पर्क पुस्तकें"
 msgid "Add New Address Book Source…"
 msgstr "नवीनं पतापुस्तकं योजयतु स्रोतः..."
 
+#: launcher/main.cpp:51
+#, kde-format
+msgctxt "@title"
+msgid "Merkuro Launcher"
+msgstr "बुध प्रक्षेपक"
+
 #: launcher/main.cpp:53
 #, kde-format
 msgid "merkuro Launcher"
@@ -2436,6 +3167,18 @@ msgstr "बुध प्रक्षेपक"
 #, kde-format
 msgid "(c) 2024"
 msgstr "(ग) 2024"
+
+#: launcher/main.cpp:57
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: launcher/main.cpp:57
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
 
 #: launcher/Main.qml:58
 #, kde-format
@@ -2491,6 +3234,30 @@ msgstr ""
 "संसाधनं %1 भग्नम् अस्ति।\n"
 "%2"
 
+#: mail/mailmanager.cpp:239
+#, kde-format
+msgctxt "@title:window"
+msgid "Account Configuration: %1"
+msgstr "खाताविन्यासः %1"
+
+#: mail/mailmodel.cpp:48
+#, kde-format
+msgctxt "displayed as subject when the subject of a mail is empty"
+msgid "No Subject"
+msgstr "न विषयः"
+
+#: mail/mailmodel.cpp:49
+#, kde-format
+msgctxt "displayed when a mail has unknown sender, receiver or date"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: mail/main.cpp:52
+#, kde-format
+msgctxt "@title"
+msgid "Merkuro Mail"
+msgstr "बुध मेल"
+
 #: mail/main.cpp:55
 #, kde-format
 msgid "Email Client"
@@ -2506,18 +3273,36 @@ msgstr "पुटं विलोपयन्तु"
 #: mail/qml/actions/DeleteFolderAction.qml:39
 #, kde-format
 msgid ""
-"Are you sure you want to delete the folder %1, discarding its contents? <br "
-"/> <b>Beware</b> that discarded messages are not saved into your Trash "
-"folder and are permanently deleted."
+"Are you sure you want to delete the folder %1, discarding its contents? <br /"
+"> <b>Beware</b> that discarded messages are not saved into your Trash folder "
+"and are permanently deleted."
 msgstr ""
-"किं भवान् निश्चितः यत् भवान् %1 पुटं विलोपयितुम् इच्छति, तस्य सामग्रीं "
-"परित्यजति?<br /> <b>सावधानं भवतु</b> यत् परित्यक्ताः सन्देशाः भवतः Trash "
-"फोल्डर् मध्ये न रक्षिताः भवन्ति तथा च स्थायिरूपेण विलोपिताः भवन्ति ।"
+"किं भवान् निश्चितः यत् भवान् %1 पुटं विलोपयितुम् इच्छति, तस्य सामग्रीं परित्यजति?<br /> "
+"<b>सावधानं भवतु</b> यत् परित्यक्ताः सन्देशाः भवतः Trash फोल्डर् मध्ये न रक्षिताः भवन्ति "
+"तथा च स्थायिरूपेण विलोपिताः भवन्ति ।"
 
 #: mail/qml/actions/MailItemMenu.qml:25
 #, kde-format
 msgid "Add Folder"
 msgstr "पुटं योजयतु"
+
+#: mail/qml/actions/MailItemMenu.qml:40
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Folder Properties"
+msgstr "फोल्डर गुणाः"
+
+#: mail/qml/actions/MailItemMenu.qml:49
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Restart Account"
+msgstr "खाता पुनः आरभत"
+
+#: mail/qml/actions/MailItemMenu.qml:55
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Account Settings"
+msgstr "खाता सेटिंग्स्"
 
 #: mail/qml/actions/NewFolderAction.qml:18
 #, kde-format
@@ -2559,6 +3344,12 @@ msgstr "सन्देशं रक्षतु - बुध मेल"
 msgid "email messages (*.mbox)"
 msgstr "ईमेल सन्देशाः (*.mbox) ."
 
+#: mail/qml/FolderView.qml:66
+#, kde-format
+msgctxt "@action:menu"
+msgid "Mark Message"
+msgstr "सन्देशं चिह्नितव्यम्"
+
 #: mail/qml/FolderView.qml:68
 #, kde-format
 msgid "Mark Message as Read"
@@ -2599,6 +3390,12 @@ msgstr "सन्देशं प्रतिलिख्य..."
 msgid "Add Followup Reminder"
 msgstr "अनुवर्तन स्मरणं योजयतु"
 
+#: mail/qml/FolderView.qml:103
+#, kde-format
+msgctxt "@action:button"
+msgid "Save as..."
+msgstr "यथा रक्षन्तु..."
+
 #: mail/qml/FolderView.qml:121
 #, kde-format
 msgid "No mailbox selected"
@@ -2624,6 +3421,12 @@ msgstr "मेलबॉक्साः"
 #, kde-format
 msgid "Mail"
 msgstr "मेल"
+
+#: mail/qml/MailComposer.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "New Message"
+msgstr "नवीन सन्देश"
 
 #: mail/qml/MailComposer.qml:31
 #, kde-format
@@ -2665,10 +3468,36 @@ msgstr "विषयः:"
 msgid "This mail contains an invitation"
 msgstr "अस्मिन् मेलपत्रे आमन्त्रणं भवति"
 
+#: mail/qml/private/AttachmentDelegate.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Import key"
+msgstr "आयात कील"
+
+#: mail/settings/AccountSettingsPage.qml:17
+#, kde-format
+msgctxt "@action:group"
+msgid "Identities"
+msgstr "तादात्म्यम्"
+
+#: mail/settings/AccountSettingsPage.qml:27
+#, kde-format
+msgctxt ""
+"@title:group Title for the list of receiving accounts which are imap or pop3 "
+"email accounts"
+msgid "Receiving Accounts"
+msgstr "लेखा प्राप्ति"
+
 #: mail/settings/AccountSettingsPage.qml:32
 #, kde-format
 msgid "Mail Account Configuration"
 msgstr "मेल खाता विन्यास"
+
+#: mail/settings/Settings.qml:12
+#, kde-format
+msgctxt "@title"
+msgid "Accounts"
+msgstr "लेखा"
 
 #: quick/qml/AgentConfigurationForm.qml:29
 #, kde-format
@@ -2680,6 +3509,18 @@ msgstr "%1 विन्यस्यताम्"
 msgid "Modify or delete this account agent."
 msgstr "एतत् खाता एजेण्टं परिवर्तयन्तु अथवा विलोपयन्तु।"
 
+#: quick/qml/AgentConfigurationForm.qml:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Modify"
+msgstr "परिवर्तनं कुर्वन्तु"
+
+#: quick/qml/AgentConfigurationForm.qml:56
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "लुप्"
+
 #: quick/qml/AgentConfigurationForm.qml:99
 #, kde-format
 msgid "Add Account"
@@ -2689,6 +3530,12 @@ msgstr "खाता योजयतु"
 #, kde-format
 msgid "Manage Tags"
 msgstr "टैग्स् प्रबन्धयन्तु"
+
+#: quick/qml/TagManagerPage.qml:25
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Confirm Tag Deletion"
+msgstr "टैग विलोपनस्य पुष्टिं कुर्वन्तु"
 
 #: quick/qml/TagManagerPage.qml:29
 #, kde-format
@@ -2709,855 +3556,3 @@ msgstr "एकं नवीनं टैगं रचयन्तु..."
 #, kde-format
 msgid "Quickly Add a New Tag."
 msgstr "शीघ्रं नूतनं टैगं योजयन्तु।"
-
-#: calendar/calendarmanager.cpp:733
-#, kde-format
-msgctxt "@title:window"
-msgid "Properties of Calendar %1"
-msgstr "पञ्चाङ्गस्य गुणाः %1"
-
-#: calendar/qml/Controls/CalendarItemTapHandler.qml:44
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose Calendar Color"
-msgstr "Calendar Color इति चिनोतु"
-
-#: calendar/qml/Dialogs/DeleteCalendarDialog.qml:22
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete calendar"
-msgstr "पञ्चाङ्गं विलोपयन्तु"
-
-#: calendar/qml/Dialogs/DeleteCalendarDialog.qml:22
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete"
-msgstr "लुप्"
-
-#: contacts/contactmanager.cpp:201
-#, kde-format
-msgctxt "@title:window"
-msgid "Properties of Address Book %1"
-msgstr "पतापुस्तिकायाः गुणाः %1"
-
-#: contacts/qml/AddressBookCollectionHandler.qml:34
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose Address Book Color"
-msgstr "Address Book Color इति चिनोतु"
-
-#: contacts/qml/Settings.qml:13
-#, kde-format
-msgctxt "@title:window"
-msgid "Settings"
-msgstr "सेटिंग्स्"
-
-#: mail/mailmanager.cpp:239
-#, kde-format
-msgctxt "@title:window"
-msgid "Account Configuration: %1"
-msgstr "खाताविन्यासः %1"
-
-#: mail/qml/MailComposer.qml:16
-#, kde-format
-msgctxt "@title:window"
-msgid "New Message"
-msgstr "नवीन सन्देश"
-
-#: calendar/main.cpp:57
-#, kde-format
-msgctxt "@title"
-msgid "Merkuro Calendar"
-msgstr "बुध पञ्चाङ्ग"
-
-#: contacts/main.cpp:51
-#, kde-format
-msgctxt "@title"
-msgid "Merkuro Contact"
-msgstr "बुध सम्पर्क"
-
-#: launcher/main.cpp:51
-#, kde-format
-msgctxt "@title"
-msgid "Merkuro Launcher"
-msgstr "बुध प्रक्षेपक"
-
-#: mail/main.cpp:52
-#, kde-format
-msgctxt "@title"
-msgid "Merkuro Mail"
-msgstr "बुध मेल"
-
-#: mail/settings/Settings.qml:12
-#, kde-format
-msgctxt "@title"
-msgid "Accounts"
-msgstr "लेखा"
-
-#: calendar/main.cpp:66 contacts/main.cpp:60 launcher/main.cpp:56
-#: mail/main.cpp:61
-#, kde-format
-msgctxt "@info:credit"
-msgid "Carl Schwan"
-msgstr "कार्ल स्वान्"
-
-#: calendar/main.cpp:67 calendar/main.cpp:72 contacts/main.cpp:61
-#: contacts/main.cpp:66 launcher/main.cpp:56 mail/main.cpp:62 mail/main.cpp:67
-#, kde-format
-msgctxt "@info:credit"
-msgid "Maintainer"
-msgstr "परिपालकः"
-
-#: calendar/main.cpp:71 contacts/main.cpp:65 mail/main.cpp:66
-#, kde-format
-msgctxt "@info:credit"
-msgid "Clau Cambra"
-msgstr "चैम्बर की"
-
-#: calendar/main.cpp:75
-#, kde-format
-msgctxt "@info:credit"
-msgid "Felipe Kinoshita"
-msgstr "फेलिप किनोशिता"
-
-#: calendar/main.cpp:76
-#, kde-format
-msgctxt "@info:credit"
-msgid "Developer"
-msgstr "विकासकः"
-
-#: calendar/models/todosortfilterproxymodel.cpp:161
-#: calendar/qml/Dialogs/IncidenceEditorPage.qml:854
-#, kde-format
-msgctxt "List separator"
-msgid ", "
-msgstr ", ९. "
-
-#: calendar/models/todosortfilterproxymodel.cpp:212
-#, kde-format
-msgctxt "Please retain space"
-msgid " at %1"
-msgstr " %1 इत्यत्र"
-
-#: calendar/models/todosortfilterproxymodel.cpp:213
-#, kde-format
-msgctxt "Please retain parenthesis and space"
-msgid " (overdue)"
-msgstr " (अतिरिक्तम्) २."
-
-#: calendar/qml/CalendarUtils/labelutils.js:189
-#, kde-format
-msgctxt "%1 is the priority level number"
-msgid "%1 (Highest priority)"
-msgstr "%1 (उच्चतमप्राथमिकता) २."
-
-#: calendar/qml/CalendarUtils/labelutils.js:191
-#, kde-format
-msgctxt "%1 is the priority level number"
-msgid "%1 (Mid-high priority)"
-msgstr "%1 (मध्य-उच्चप्राथमिकता)"
-
-#: calendar/qml/CalendarUtils/labelutils.js:193
-#, kde-format
-msgctxt "%1 is the priority level number"
-msgid "%1 (Medium priority)"
-msgstr "%1 (मध्यमप्राथमिकता) २."
-
-#: calendar/qml/CalendarUtils/labelutils.js:195
-#, kde-format
-msgctxt "%1 is the priority level number"
-msgid "%1 (Mid-low priority)"
-msgstr "%1 (मध्य-निम्नप्राथमिकता) २."
-
-#: calendar/qml/CalendarUtils/labelutils.js:197
-#, kde-format
-msgctxt "%1 is the priority level number"
-msgid "%1 (Lowest priority)"
-msgstr "%1 (निम्नप्राथमिकता) २."
-
-#: calendar/qml/Controls/ImportHandler.qml:45
-#, kde-format
-msgctxt "%1 is a number"
-msgid "%1 incidences were imported successfully."
-msgstr "%1 घटनाः सफलतया आयाताः।"
-
-#: calendar/qml/Controls/ImportHandler.qml:50
-#: calendar/qml/Controls/ImportHandler.qml:64
-#, kde-format
-msgctxt "%1 is the error message"
-msgid "An error occurred importing incidences: %1"
-msgstr "घटनानां आयाते त्रुटिः अभवत्: %1"
-
-#: calendar/qml/Controls/ImportHandler.qml:99
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Import Calendar"
-msgstr "आयात पञ्चाङ्ग"
-
-#: contacts/qml/private/DeleteContactAction.qml:20
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Confirm Contact Deletion"
-msgstr "सम्पर्कविलोपनस्य पुष्टिः कुर्वन्तु"
-
-#: quick/qml/TagManagerPage.qml:25
-#, kde-format
-msgctxt "@title:dialog"
-msgid "Confirm Tag Deletion"
-msgstr "टैग विलोपनस्य पुष्टिं कुर्वन्तु"
-
-#: calendar/qml/Controls/ImportHandler.qml:116
-#, kde-format
-msgctxt "@action:button merge with existing calendar"
-msgid "Merge with Existing"
-msgstr "Existing इत्यनेन सह विलयः"
-
-#: calendar/qml/Controls/ImportHandler.qml:134
-#, kde-format
-msgctxt "@action:button Create new calendar"
-msgid "Create New"
-msgstr "New रचयतु"
-
-#: calendar/qml/Controls/ImportHandler.qml:148
-#, kde-format
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: calendar/qml/MainViews/BasicInternalHourlyView.qml:240
-#, kde-format
-msgctxt "@action:button"
-msgid "Reset"
-msgstr "पुनः सेट् करें"
-
-#: contacts/qml/private/ContactGroupPage.qml:35
-#, kde-format
-msgctxt "@action:button"
-msgid "Edit"
-msgstr "सम्पादन"
-
-#: mail/qml/FolderView.qml:103
-#, kde-format
-msgctxt "@action:button"
-msgid "Save as..."
-msgstr "यथा रक्षन्तु..."
-
-#: mail/qml/private/AttachmentDelegate.qml:57
-#, kde-format
-msgctxt "@action:button"
-msgid "Import key"
-msgstr "आयात कील"
-
-#: quick/qml/AgentConfigurationForm.qml:47
-#, kde-format
-msgctxt "@action:button"
-msgid "Modify"
-msgstr "परिवर्तनं कुर्वन्तु"
-
-#: quick/qml/AgentConfigurationForm.qml:56
-#, kde-format
-msgctxt "@action:button"
-msgid "Delete"
-msgstr "लुप्"
-
-#: calendar/qml/Controls/IncidenceInfoContents.qml:146
-#, kde-format
-msgctxt "%1 is a percentage number"
-msgid "<b>%1%</b> Complete"
-msgstr "<b>%1%</b> सम्पूर्णम्"
-
-#: calendar/qml/Controls/TitleDateButton.qml:31
-#: calendar/qml/Controls/TitleDateButton.qml:36
-#, kde-format
-msgctxt "%1 is month name, %2 is year"
-msgid "<b>%1</b> %2"
-msgstr "<b>%1</b> %2"
-
-#: calendar/qml/Controls/TitleDateButton.qml:39
-#, kde-format
-msgctxt "%1 is the month and year of the range start, %2 is the same for range end"
-msgid "%1 - %2"
-msgstr "%1 - %2"
-
-#: calendar/qml/Controls/TitleDateButton.qml:41
-#, kde-format
-msgctxt "%1 is month of range start, %2 is month + year of range end"
-msgid "<b>%1</b> - %2"
-msgstr "<b>%1</b> - %2"
-
-#: calendar/qml/Dialogs/DeleteIncidenceDialog.qml:31
-#, kde-format
-msgctxt "%1 is the type of the incidence (e.g event, todo, journal entry)"
-msgid "Delete %1"
-msgstr "%1 विलोपयन्तु"
-
-#: calendar/qml/Dialogs/IncidenceEditorPage.qml:43
-#, kde-format
-msgctxt "%1 is incidence type"
-msgid "Edit %1"
-msgstr "%1 सम्पादयतु"
-
-#: calendar/qml/Dialogs/IncidenceEditorPage.qml:44
-#, kde-format
-msgctxt "%1 is incidence type"
-msgid "Add %1"
-msgstr "%1 योजयन्तु"
-
-#: calendar/qml/Dialogs/IncidenceEditorPage.qml:575
-#, kde-format
-msgctxt "%1 is the day number of month"
-msgid "The %1 of each month"
-msgstr "प्रत्येकस्य मासस्य %1"
-
-#: calendar/qml/Dialogs/IncidenceEditorPage.qml:587
-#, kde-format
-msgctxt "the weekOfMonth dayOfWeekString of each month"
-msgid "The %1 %2 of each month"
-msgstr "प्रत्येकस्य मासस्य %1 %2"
-
-#: calendar/qml/Drawers/MainDrawer.qml:289
-#, kde-format
-msgctxt "@action:inmenu %1 is the name of the action getting reverted"
-msgid "Undo: %1"
-msgstr "पूर्ववतं कुर्वन्तु: %1"
-
-#: calendar/qml/Drawers/MainDrawer.qml:294
-#, kde-format
-msgctxt "@action:inmenu %1 is the name of the action getting re-applied"
-msgid "Redo: %1"
-msgstr "पुनः करोतु: %1"
-
-#: calendar/qml/incidenceeditor/ReminderDelegate.qml:50
-#, kde-format
-msgctxt "Custom reminder"
-msgid "Custom"
-msgstr "आचारः"
-
-#: calendar/qml/MainViews/BasicMonthListView.qml:238
-#, kde-format
-msgctxt "Date has no events or tasks set"
-msgid "Clear day."
-msgstr "स्पष्टः दिवसः।"
-
-#: calendar/qml/MainViews/BasicMonthListView.qml:381
-#, kde-format
-msgctxt "%1 is the name of the event"
-msgid "%1 (Day %2 of %3)"
-msgstr "%1 (%3 इत्यस्य %2 दिवसः)"
-
-#: calendar/qml/MainViews/BasicMonthListView.qml:441
-#, kde-format
-msgctxt "Displays times between incidence start and end"
-msgid "%1 - %2"
-msgstr "%1 - %2"
-
-#: calendar/qml/MainViews/HourlyView.qml:111
-#, kde-format
-msgctxt "@action:inmenu open week view"
-msgid "Week"
-msgstr "सप्ताहः"
-
-#: calendar/qml/MainViews/HourlyView.qml:119
-#, kde-format
-msgctxt "@action:inmenu open 3 days view"
-msgid "3 Days"
-msgstr "३ दिवसाः"
-
-#: calendar/qml/MainViews/HourlyView.qml:126
-#, kde-format
-msgctxt "@action:inmenu open day view"
-msgid "Day"
-msgstr "दिनं"
-
-#: calendar/qml/Menus/CalendarItemMenu.qml:22
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Edit calendar…"
-msgstr "पञ्चाङ्गं सम्पादयन्तु..."
-
-#: calendar/qml/Menus/CalendarItemMenu.qml:28
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Update calendar"
-msgstr "पञ्चाङ्गं अद्यतनं कुर्वन्तु"
-
-#: calendar/qml/Menus/CalendarItemMenu.qml:34
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete calendar"
-msgstr "पञ्चाङ्गं विलोपयन्तु"
-
-#: calendar/qml/Menus/CalendarItemMenu.qml:56
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Set calendar colour…"
-msgstr "पञ्चाङ्गस्य रङ्गं सेट् कुर्वन्तु..."
-
-#: calendar/qml/Menus/CalendarItemMenu.qml:68
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Calendar source settings…"
-msgstr "पञ्चाङ्गस्य स्रोतसेटिंग्स्..."
-
-#: calendar/qml/Menus/CalendarItemMenu.qml:74
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Update calendar source"
-msgstr "पञ्चाङ्गस्य स्रोतः अद्यतनं कुर्वन्तु"
-
-#: calendar/qml/Menus/CalendarItemMenu.qml:80
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete calendar source"
-msgstr "पञ्चाङ्गस्य स्रोतः विलोपयन्तु"
-
-#: contacts/qml/ContactView.qml:21
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Create"
-msgstr "निर्मियताम्"
-
-#: contacts/qml/ContactView.qml:24
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "New Contact"
-msgstr "नया सम्पर्क"
-
-#: contacts/qml/ContactView.qml:31
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "New Contact Group"
-msgstr "नया सम्पर्क समूह"
-
-#: contacts/qml/ContactView.qml:92
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Edit contact…"
-msgstr "सम्पर्क सम्पादयतु..."
-
-#: contacts/qml/ContactView.qml:107
-#: contacts/qml/private/DeleteContactAction.qml:59
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete contact"
-msgstr "सम्पर्क विलोपना"
-
-#: contacts/qml/private/AddressBookMenu.qml:24
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Edit address book…"
-msgstr "पतापुस्तिका सम्पादयतु..."
-
-#: contacts/qml/private/AddressBookMenu.qml:29
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Update address book"
-msgstr "पतापुस्तिका अद्यतन करें"
-
-#: contacts/qml/private/AddressBookMenu.qml:34
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete address book"
-msgstr "पतापुस्तकं विलोपयन्तु"
-
-#: contacts/qml/private/AddressBookMenu.qml:42
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Set address book colour…"
-msgstr "पतापुस्तकस्य रङ्गं सेट् कुर्वन्तु..."
-
-#: contacts/qml/private/AddressBookMenu.qml:54
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Address book source settings…"
-msgstr "पतापुस्तकस्य स्रोतसेटिंग्स्..."
-
-#: contacts/qml/private/AddressBookMenu.qml:60
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Update address book source"
-msgstr "पतापुस्तिका स्रोतः अद्यतनं कुर्वन्तु"
-
-#: contacts/qml/private/AddressBookMenu.qml:66
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Delete address source"
-msgstr "पता स्रोतः विलोपयन्तु"
-
-#: contacts/qml/private/ContactPage.qml:36
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Edit"
-msgstr "सम्पादन"
-
-#: contacts/qml/private/ContactPage.qml:44
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: mail/qml/actions/MailItemMenu.qml:40
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Folder Properties"
-msgstr "फोल्डर गुणाः"
-
-#: mail/qml/actions/MailItemMenu.qml:49
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Restart Account"
-msgstr "खाता पुनः आरभत"
-
-#: mail/qml/actions/MailItemMenu.qml:55
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Account Settings"
-msgstr "खाता सेटिंग्स्"
-
-#: calendar/qml/Menus/GlobalMenuBar.qml:39 calendar/qml/Menus/MenuBar.qml:33
-#: contacts/qml/GlobalMenuBar.qml:19 contacts/qml/MenuBar.qml:17
-#: mail/qml/app/GlobalMenuBar.qml:19 mail/qml/app/MenuBar.qml:18
-#, kde-format
-msgctxt "@action:menu"
-msgid "View"
-msgstr "दृश्यं"
-
-#: calendar/qml/Menus/GlobalMenuBar.qml:80
-#, kde-format
-msgctxt "@action:menu"
-msgid "Sort Tasks"
-msgstr "कार्याणि क्रमयन्तु"
-
-#: calendar/qml/Menus/GlobalMenuBar.qml:129 calendar/qml/Menus/MenuBar.qml:108
-#, kde-format
-msgctxt "@action:menu"
-msgid "Go"
-msgstr "गच्छ"
-
-#: calendar/qml/Menus/GlobalMenuBar.qml:157 calendar/qml/Menus/MenuBar.qml:134
-#: contacts/qml/GlobalMenuBar.qml:33 contacts/qml/MenuBar.qml:29
-#: mail/qml/app/GlobalMenuBar.qml:55 mail/qml/app/MenuBar.qml:26
-#: mail/qml/FolderView.qml:49
-#, kde-format
-msgctxt "@action:menu"
-msgid "Create"
-msgstr "निर्मियताम्"
-
-#: calendar/qml/Menus/GlobalMenuBar.qml:173 components/qml/SettingsMenu.qml:14
-#: contacts/qml/GlobalMenuBar.qml:49
-#, kde-format
-msgctxt "@action:menu"
-msgid "Settings"
-msgstr "सेटिंग्स्"
-
-#: components/qml/EditMenu.qml:15 components/qml/NativeEditMenu.qml:11
-#, kde-format
-msgctxt "@action:menu"
-msgid "Edit"
-msgstr "सम्पादन"
-
-#: components/qml/FileMenu.qml:16 components/qml/NativeFileMenu.qml:10
-#, kde-format
-msgctxt "@action:menu"
-msgid "File"
-msgstr "संचिका"
-
-#: components/qml/FileMenu.qml:21 components/qml/NativeFileMenu.qml:16
-#, kde-format
-msgctxt "@action:menu"
-msgid "Quit Merkuro"
-msgstr "बुध त्यजतु"
-
-#: components/qml/HelpMenu.qml:14 components/qml/NativeHelpMenu.qml:13
-#, kde-format
-msgctxt "@action:menu"
-msgid "Help"
-msgstr "साहाय्यम्‌"
-
-#: components/qml/HelpMenu.qml:25 components/qml/NativeHelpMenu.qml:26
-#, kde-format
-msgctxt "@action:menu"
-msgid "Merkuro Handbook"
-msgstr "बुध हस्तपुस्तिका"
-
-#: components/qml/NativeWindowMenu.qml:12 components/qml/WindowMenu.qml:12
-#: mail/qml/app/GlobalMenuBar.qml:62
-#, kde-format
-msgctxt "@action:menu"
-msgid "Window"
-msgstr "कोष्ठ"
-
-#: components/qml/NativeWindowMenu.qml:15 components/qml/WindowMenu.qml:15
-#: mail/qml/app/GlobalMenuBar.qml:65
-#, kde-format
-msgctxt "@action:menu"
-msgid "Exit Full Screen"
-msgstr "पूर्णपर्दे निर्गच्छन्तु"
-
-#: components/qml/NativeWindowMenu.qml:15 components/qml/WindowMenu.qml:15
-#: mail/qml/app/GlobalMenuBar.qml:65
-#, kde-format
-msgctxt "@action:menu"
-msgid "Enter Full Screen"
-msgstr "Full Screen इति प्रविष्टं कुर्वन्तु"
-
-#: mail/qml/FolderView.qml:66
-#, kde-format
-msgctxt "@action:menu"
-msgid "Mark Message"
-msgstr "सन्देशं चिह्नितव्यम्"
-
-#: calendar/utils.cpp:21
-#, kde-format
-msgctxt "%1 is 2 or more"
-msgid "%1 days"
-msgstr "%1 दिवसाः"
-
-#: calendar/utils.cpp:25
-#, kde-format
-msgctxt "%1 is 2 or mores"
-msgid "%1 hours"
-msgstr "%1 घण्टा"
-
-#: components/colorproxymodel.cpp:80
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Offline)"
-msgstr "%1 (अफलाइन) २."
-
-#: components/colorproxymodel.cpp:83
-#, kde-format
-msgctxt "@item this is the default calendar"
-msgid "%1 (Default)"
-msgstr "%1 (पूर्वनिर्धारितम्) ."
-
-#: components/qml/EditMenu.qml:45
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Undo Text"
-msgstr "पाठं पूर्ववत कुर्वन्तु"
-
-#: components/qml/EditMenu.qml:54
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Redo Text"
-msgstr "पाठं पुनः कुर्वन्तु"
-
-#: components/qml/EditMenu.qml:66 components/qml/NativeEditMenu.qml:63
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Cut"
-msgstr "छिन्न"
-
-#: components/qml/EditMenu.qml:75 components/qml/NativeEditMenu.qml:73
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Copy"
-msgstr "प्रतिलिपि"
-
-#: components/qml/EditMenu.qml:84 components/qml/NativeEditMenu.qml:83
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Paste"
-msgstr "चिनोतु"
-
-#: components/qml/EditMenu.qml:93 components/qml/NativeEditMenu.qml:93
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Delete"
-msgstr "लुप्"
-
-#: components/qml/EditMenu.qml:105 components/qml/NativeEditMenu.qml:106
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Select All"
-msgstr "All इति चिनोतु"
-
-#: components/qml/NativeEditMenu.qml:40
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Undo"
-msgstr "पूर्ववत"
-
-#: components/qml/NativeEditMenu.qml:50
-#, kde-format
-msgctxt "text editing menu action"
-msgid "Redo"
-msgstr "पुनः करो"
-
-#: contacts/certificatesmodel.cpp:84
-#, kde-format
-msgctxt "@info: shorthand for the key is revoked"
-msgid "Revoked"
-msgstr "निरस्त"
-
-#: contacts/certificatesmodel.cpp:87
-#, kde-format
-msgctxt "@info: shorthand for the key is expired"
-msgid "Expired"
-msgstr "परीत"
-
-#: contacts/certificatesmodel.cpp:90
-#, kde-format
-msgctxt "@info: shorthand for the key is disabled"
-msgid "Disabled"
-msgstr "अक्षमित"
-
-#: contacts/certificatesmodel.cpp:93
-#, kde-format
-msgctxt "@info: shorthand for the key is invalid"
-msgid "Invalid"
-msgstr "अप्रतिषेध"
-
-#: contacts/certificatesmodel.cpp:96
-#, kde-format
-msgctxt "@info: shorthand for the key is valid"
-msgid "Valid"
-msgstr "मान्य"
-
-#: contacts/contactgroupmodel.cpp:348
-#, kde-format
-msgctxt "contact's name"
-msgid "Name"
-msgstr "नामः"
-
-#: contacts/contactgroupmodel.cpp:350
-#, kde-format
-msgctxt "contact's email address"
-msgid "EMail"
-msgstr "ईमेल"
-
-#: contacts/qml/ContactView.qml:57 contacts/qml/ContactView.qml:65
-#: contacts/qml/private/ContactPage.qml:63
-#, kde-format
-msgctxt "Placeholder"
-msgid "No Name"
-msgstr "न नाम"
-
-#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:25
-#, kde-format
-msgctxt "Placeholder value for name of Organization"
-msgid "KDE"
-msgstr "कुत्र"
-
-#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:35
-#, kde-format
-msgctxt "Placeholder value for name of Profession"
-msgid "Software Developer"
-msgstr "सॉफ्टवेयर डेवलपर"
-
-#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:45
-#, kde-format
-msgctxt "Placeholder value for Title"
-msgid "SDE-1"
-msgstr "SDE-1"
-
-#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:55
-#, kde-format
-msgctxt "Placeholder value for name of Department"
-msgid "Merkuro-Team"
-msgstr "बुध दल"
-
-#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:65
-#, kde-format
-msgctxt "Placeholder value for Office"
-msgid "Tech Wing, 4th Floor"
-msgstr "टेक् विङ्ग, चतुर्थ तल"
-
-#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:75
-#, kde-format
-msgctxt "Placeholder value for Manager's Name"
-msgid "Bob"
-msgstr "बब"
-
-#: contacts/qml/private/contact_editor/BusinessEditorCard.qml:85
-#, kde-format
-msgctxt "Placeholder value for Assistants's Name"
-msgid "Jill"
-msgstr "जिल्"
-
-#: contacts/qml/private/contact_editor/PersonalInfoEditorCard.qml:23
-#, kde-format
-msgctxt "@label"
-msgid "Partner's name"
-msgstr "भागीदारस्य नाम"
-
-#: contacts/qml/private/contact_editor/PersonalInfoEditorCard.qml:32
-#, kde-format
-msgctxt "@label"
-msgid "Anniversary"
-msgstr "वार्षिकी"
-
-#: contacts/qml/private/contact_editor/PersonalInfoEditorCard.qml:42
-#, kde-format
-msgctxt "@label"
-msgid "Birthday"
-msgstr "जन्मदिवस"
-
-#: contacts/qml/private/ContactPage.qml:209
-#, kde-format
-msgctxt "Label for a phone number type"
-msgid "%1:"
-msgstr "%1: १."
-
-#: contacts/qml/private/ContactPage.qml:234
-#, kde-format
-msgctxt "%1 is the type of the address, e.g. home, work, ..."
-msgid "%1:"
-msgstr "%1: १."
-
-#: contacts/qml/private/ContactPage.qml:262
-#, kde-format
-msgctxt "Label for a messaging protocol"
-msgid "%1:"
-msgstr "%1: १."
-
-#: contacts/qml/private/ContactPage.qml:360
-#, kde-format
-msgctxt "@title:group"
-msgid "Cryptographic Certificates"
-msgstr "क्रिप्टोग्राफिक प्रमाणपत्र"
-
-#: contacts/qml/private/DeleteContactAction.qml:25
-#, kde-format
-msgctxt "Placeholder when no name is set"
-msgid "No name"
-msgstr "न नाम"
-
-#: launcher/main.cpp:57
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#: launcher/main.cpp:57
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: mail/mailmodel.cpp:48
-#, kde-format
-msgctxt "displayed as subject when the subject of a mail is empty"
-msgid "No Subject"
-msgstr "न विषयः"
-
-#: mail/mailmodel.cpp:49
-#, kde-format
-msgctxt "displayed when a mail has unknown sender, receiver or date"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: mail/settings/AccountSettingsPage.qml:17
-#, kde-format
-msgctxt "@action:group"
-msgid "Identities"
-msgstr "तादात्म्यम्"
-
-#: mail/settings/AccountSettingsPage.qml:27
-#, kde-format
-msgctxt ""
-"@title:group Title for the list of receiving accounts which are imap or "
-"pop3 email accounts"
-msgid "Receiving Accounts"
-msgstr "लेखा प्राप्ति"

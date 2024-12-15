@@ -8,7 +8,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.3.2\n"
@@ -16,6 +16,11 @@ msgstr ""
 
 #: appiumtests/applets/kicker/kickertest.desktop:2
 msgctxt "Name"
+msgid "DONT TRANSLATE TEST ONLY"
+msgstr "DONT TRANSLATE TEST केवलम्"
+
+#: appiumtests/applets/kicker/kickertest.desktop:23
+msgctxt "Comment"
 msgid "DONT TRANSLATE TEST ONLY"
 msgstr "DONT TRANSLATE TEST केवलम्"
 
@@ -50,11 +55,22 @@ msgctxt "Name"
 msgid "Request for Donation"
 msgstr "दानस्य अनुरोधः"
 
+#: donationmessage/donationmessage.notifyrc:45
+#: donationmessage/donationmessage.notifyrc:187
+msgctxt "Comment"
+msgid "Shows a yearly request to donate to KDE"
+msgstr "KDE कृते दानं कर्तुं वार्षिकं अनुरोधं दर्शयति"
+
 #: donationmessage/donationmessage.notifyrc:83
 #: phonon/platform_kde/phonon.notifyrc:79
 msgctxt "Name"
 msgid "Application"
 msgstr "अनुप्रयोग"
+
+#: freespacenotifier/freespacenotifier.notifyrc:3
+msgctxt "Comment"
+msgid "KDE Free Space Notifier Daemon"
+msgstr "KDE मुक्तस्थानसूचक डेमन्"
 
 #: freespacenotifier/freespacenotifier.notifyrc:73
 msgctxt "Name"
@@ -66,10 +82,20 @@ msgctxt "Name"
 msgid "Warning"
 msgstr "चेतवानी"
 
+#: freespacenotifier/freespacenotifier.notifyrc:235
+msgctxt "Comment"
+msgid "Used for warning notifications"
+msgstr "चेतावनीसूचनानां कृते उपयुज्यते"
+
 #: freespacenotifier/freespacenotifier.notifyrc:313
 msgctxt "Name"
 msgid "Running low on disk space"
 msgstr "डिस्कस्थानं न्यूनं भवति"
+
+#: freespacenotifier/freespacenotifier.notifyrc:383
+msgctxt "Comment"
+msgid "You are running low on disk space"
+msgstr "भवतः डिस्कस्थानं न्यूनं भवति"
 
 #: gmenu-dbusmenu-proxy/gmenudbusmenuproxy.desktop:3
 msgctxt "Name"
@@ -81,10 +107,20 @@ msgctxt "Name"
 msgid "Color Schemes"
 msgstr "रङ्ग योजनाः"
 
+#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:2
+msgctxt "GenericName"
+msgid "Color scheme editor"
+msgstr "रङ्ग योजना सम्पादक"
+
 #: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:54
 msgctxt "Name"
 msgid "KColorSchemeEditor"
 msgstr "KColorSchemeEditor"
+
+#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:106
+msgctxt "Comment"
+msgid "Plasma color scheme editor"
+msgstr "प्लाज्मा रङ्ग योजना सम्पादक"
 
 #: kcms/cursortheme/xcursor/xcursor.knsrc:2
 msgctxt "Name"
@@ -114,10 +150,23 @@ msgctxt "Name"
 msgid "KFontInst"
 msgstr "वर्णचित्राः"
 
+#: kcms/kfontinst/apps/org.kde.kfontinst.desktop:49
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Font Installer"
+msgctxt "GenericName"
+msgid "Font Installer"
+msgstr "वर्णचित्र संस्थापक"
+
 #: kcms/kfontinst/apps/org.kde.kfontview.desktop:2
 msgctxt "Name"
 msgid "KFontView"
 msgstr "KFontView"
+
+#: kcms/kfontinst/apps/org.kde.kfontview.desktop:58
+msgctxt "GenericName"
+msgid "Font Viewer"
+msgstr "वर्णचित्र दर्शक"
 
 #: kcms/kfontinst/dbus/fontinst.actions:2
 msgctxt "Name"
@@ -128,6 +177,11 @@ msgstr "वर्णचित्र संस्थापक"
 msgctxt "Name"
 msgid "Manage system-wide fonts."
 msgstr "प्रणालीव्यापी वर्णचित्र प्रबन्धयन् तु।."
+
+#: kcms/kfontinst/dbus/fontinst.actions:109
+msgctxt "Description"
+msgid "Modifying the system-wide font configuration requires privileges."
+msgstr "प्रणालीव्यापी वर्णचित्र विन्यासस्य परिवर्तनार्थं विशेषाधिकारस्य आवश्यकता भवति ।."
 
 #: kcms/kfontinst/kcmfontinst/kfontinst.knsrc:2
 #: kcms/kfontinst/kio/fonts.desktop:5
@@ -150,10 +204,117 @@ msgctxt "Name"
 msgid "Trash"
 msgstr "पुनःप्रयोगस्य कूप"
 
+#: kioworkers/desktop/./directory.trash:61
+msgctxt "Comment"
+msgid "Contains removed files"
+msgstr "निष्कासिताः सञ्चिकाः समाविष्टाः सन्ति"
+
+#: klipper/klipperrc.desktop:14
+msgctxt "Description"
+msgid "Jpeg-Image"
+msgstr "Jpeg-Image"
+
+#: klipper/klipperrc.desktop:111
+msgctxt "Description"
+msgid "Launch &Gwenview"
+msgstr "&Gwenview आरभत"
+
+#: klipper/klipperrc.desktop:196
+msgctxt "Description"
+msgid "Web-URL"
+msgstr "वेब-URL"
+
+#: klipper/klipperrc.desktop:291 klipper/klipperrc.desktop:1986
+msgctxt "Description"
+msgid "Open with &default Browser"
+msgstr "&पूर्वनिर्धारित गवेषक इत्यनेन सह उद्घाटयन्तु"
+
+#: klipper/klipperrc.desktop:377 klipper/klipperrc.desktop:2072
+msgctxt "Description"
+msgid "Open with &Konqueror"
+msgstr "&कॉन्करर् इत्यनेन उद्घाटयन्तु"
+
+#: klipper/klipperrc.desktop:472 klipper/klipperrc.desktop:2166
+msgctxt "Description"
+msgid "Open with &Mozilla"
+msgstr "&मोज़िला इत्यनेन उद्घाटयन्तु"
+
+#: klipper/klipperrc.desktop:566 klipper/klipperrc.desktop:1416
+#: klipper/klipperrc.desktop:1701 klipper/klipperrc.desktop:2260
+msgctxt "Description"
+msgid "Send &URL"
+msgstr "&URL प्रेषयतु"
+
+#: klipper/klipperrc.desktop:662
+msgctxt "Description"
+msgid "Open with &Firefox"
+msgstr "&फ़ायरफ़ॉक्स इत्यनेन उद्घाटयन्तु"
+
+#: klipper/klipperrc.desktop:754
+msgctxt "Description"
+msgid "Send &Page"
+msgstr "प्रेषयतु &पृष्ठम्"
+
+#: klipper/klipperrc.desktop:849
+msgctxt "Description"
+msgid "Mail-URL"
+msgstr "मेल-URL"
+
+#: klipper/klipperrc.desktop:944
+msgctxt "Description"
+msgid "Launch &Kmail"
+msgstr "&Kmail प्रारम्भं कुर्वन्तु"
+
+#: klipper/klipperrc.desktop:1038
+msgctxt "Description"
+msgid "Launch &mutt"
+msgstr "&mutt प्रारभत"
+
+#: klipper/klipperrc.desktop:1131
+msgctxt "Description"
+msgid "Text File"
+msgstr "पाठ्यसञ्चिका"
+
+#: klipper/klipperrc.desktop:1228
+msgctxt "Description"
+msgid "Launch K&Write"
+msgstr "K&Write प्रारम्भं कुर्वन्तु"
+
+#: klipper/klipperrc.desktop:1321
+msgctxt "Description"
+msgid "Local file URL"
+msgstr "स्थानीयसञ्चिका URL"
+
+#: klipper/klipperrc.desktop:1511 klipper/klipperrc.desktop:1796
+#: klipper/klipperrc.desktop:2355
+msgctxt "Description"
+msgid "Send &File"
+msgstr "&सञ्चिका प्रेषयतु"
+
+#: klipper/klipperrc.desktop:1606
+msgctxt "Description"
+msgid "Gopher URL"
+msgstr "गोफर URL"
+
+#: klipper/klipperrc.desktop:1891
+msgctxt "Description"
+msgid "ftp URL"
+msgstr "ftp URL"
+
 #: klipper/org.kde.klipper.desktop:2
 msgctxt "Name"
 msgid "Klipper"
 msgstr "शिलाः"
+
+#: klipper/org.kde.klipper.desktop:90
+msgctxt "GenericName"
+msgid "Clipboard Tool"
+msgstr "क्लिपबोर्ड टूल"
+
+#: klipper/org.kde.klipper.desktop:186
+msgctxt "Comment"
+msgid "A cut & paste history utility"
+msgstr "एकः कट & पेस्ट इतिहास उपयोगिता"
 
 #: krunner/org.kde.krunner.desktop.cmake:3
 msgctxt "Name"
@@ -169,6 +330,14 @@ msgstr "अंशफलक सामग्रीषु आदेशं चाल
 msgctxt "Name"
 msgid "Plasma (Wayland)"
 msgstr "प्लाज्मा (वेलैण्ड्)"
+
+#: login-sessions/plasmawayland.desktop.cmake:59
+#: login-sessions/plasmawayland-dev.desktop.cmake:54
+#: login-sessions/plasmax11.desktop.cmake:58
+#: login-sessions/plasmax11-dev.desktop.cmake:55
+msgctxt "Comment"
+msgid "Plasma by KDE"
+msgstr "KDE इत्यस्मात् प्लाज्मा"
 
 #: login-sessions/plasmawayland-dev.desktop.cmake:4
 msgctxt "Name"
@@ -356,8 +525,18 @@ msgctxt "Name"
 msgid "Accessibility"
 msgstr "अभिगम्यता"
 
+#: menu/desktop/kf5-utilities-accessibility.directory:99
+msgctxt "Comment"
+msgid "Accessibility"
+msgstr "अभिगम्यता"
+
 #: menu/desktop/kf5-utilities-desktop.directory:3
 msgctxt "Name"
+msgid "Desktop"
+msgstr "कार्यमुखम्"
+
+#: menu/desktop/kf5-utilities-desktop.directory:67
+msgctxt "Comment"
 msgid "Desktop"
 msgstr "कार्यमुखम्"
 
@@ -366,8 +545,18 @@ msgctxt "Name"
 msgid "Utilities"
 msgstr "उपयोगिताः"
 
+#: menu/desktop/kf5-utilities.directory:67
+msgctxt "Comment"
+msgid "Utilities"
+msgstr "उपयोगिताः"
+
 #: menu/desktop/kf5-utilities-file.directory:3
 msgctxt "Name"
+msgid "File"
+msgstr "सञ्चिका"
+
+#: menu/desktop/kf5-utilities-file.directory:68
+msgctxt "Comment"
 msgid "File"
 msgstr "सञ्चिका"
 
@@ -376,8 +565,18 @@ msgctxt "Name"
 msgid "Peripherals"
 msgstr "परिधीय"
 
+#: menu/desktop/kf5-utilities-peripherals.directory:95
+msgctxt "Comment"
+msgid "Peripherals"
+msgstr "परिधीय"
+
 #: menu/desktop/kf5-utilities-pim.directory:3
 msgctxt "Name"
+msgid "PIM"
+msgstr "PIM"
+
+#: menu/desktop/kf5-utilities-pim.directory:91
+msgctxt "Comment"
 msgid "PIM"
 msgstr "PIM"
 
@@ -386,30 +585,65 @@ msgctxt "Name"
 msgid "X-Utilities"
 msgstr "X-उपयोगिताः"
 
+#: menu/desktop/kf5-utilities-xutils.directory:66
+msgctxt "Comment"
+msgid "X Window Utilities"
+msgstr "X- गवाक्ष उपयोगिताः"
+
 #: oom-notifier/oom-notifier.notifyrc:6
 msgctxt "Name"
 msgid "Linux Kernel"
 msgstr "लिनक्स कर्नेल"
+
+#: oom-notifier/oom-notifier.notifyrc:38
+msgctxt "Comment"
+msgid "The core of the operating system"
+msgstr "प्रचालनतन्त्रस्य मूलः"
 
 #: oom-notifier/oom-notifier.notifyrc:75
 msgctxt "Name"
 msgid "Catastrophe"
 msgstr "प्रलय"
 
+#: oom-notifier/oom-notifier.notifyrc:114
+msgctxt "Comment"
+msgid "A very serious error has occurred"
+msgstr "अतीव गम्भीरः दोषः अभवत्"
+
+#: phonon/platform_kde/phonon.notifyrc:3
+msgctxt "Comment"
+msgid "Multimedia System"
+msgstr "माध्यमसमूह प्रणाली"
+
 #: phonon/platform_kde/phonon.notifyrc:144
 msgctxt "Name"
 msgid "Audio Output Device Changed"
 msgstr "श्रव्यनिर्गमयन्त्रं परिवर्तितम्"
+
+#: phonon/platform_kde/phonon.notifyrc:214
+msgctxt "Comment"
+msgid "Notification when audio output device has automatically changed"
+msgstr "यदा श्रव्यनिर्गमयन्त्रं स्वयमेव परिवर्तितं भवति तदा सूचना"
 
 #: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:2
 msgctxt "Name"
 msgid "Plasma Windowed"
 msgstr "प्लाज्मा गवाक्षयुक्त"
 
+#: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:60
+msgctxt "Comment"
+msgid "Run Plasmoids as simple applications"
+msgstr "प्लाज्मोइड्स् सरल-अनुप्रयोगरूपेण चालयन्तु"
+
 #: runners/baloo/plasma-runner-baloosearch.desktop:2
 msgctxt "Name"
 msgid "File Search"
 msgstr "सञ्चिका अन्वेषणम्"
+
+#: runners/baloo/plasma-runner-baloosearch.desktop:47
+msgctxt "Comment"
+msgid "Searches for files by name and content"
+msgstr "नामेन सामग्रीना च सञ्चिकानां अन्वेषणं करोति"
 
 #: shell/org.kde.plasmashell.desktop.cmake:4
 msgctxt "Name"
@@ -437,30 +671,60 @@ msgctxt "Name"
 msgid "CDE"
 msgstr "CDE"
 
+#: themes/qtcde.themerc:94
+msgctxt "Comment"
+msgid "Built-in unthemed CDE style"
+msgstr "अन्तर्निर्मितं अविषययुक्तं CDE शैली"
+
 #: themes/qtcleanlooks.themerc:2
 msgctxt "Name"
 msgid "Cleanlooks"
 msgstr "स्वच्छं दृश्य"
+
+#: themes/qtcleanlooks.themerc:74
+msgctxt "Comment"
+msgid "Built-in unthemed style similar to Clearlooks from GNOME"
+msgstr "GNOME तः स्वच्छं दृश्य इत्यस्य सदृशं अन्तःनिर्मितं अविषयशैली"
 
 #: themes/qtgtk.themerc:2
 msgctxt "Name"
 msgid "GTK+ Style"
 msgstr "GTK+ शैली"
 
+#: themes/qtgtk.themerc:77
+msgctxt "Comment"
+msgid "Style that uses the GTK+ theming engine"
+msgstr "शैली या GTK+ थीमिंग् इञ्जिन् उपयुज्यते"
+
 #: themes/qtmotif.themerc:2
 msgctxt "Name"
 msgid "Motif"
 msgstr "Motif"
+
+#: themes/qtmotif.themerc:89
+msgctxt "Comment"
+msgid "Built-in unthemed Motif style"
+msgstr "अन्तर्निर्मित अविषयक Motif शैली"
 
 #: themes/qtplastique.themerc:2
 msgctxt "Name"
 msgid "Plastique"
 msgstr "Plastique"
 
+#: themes/qtplastique.themerc:75
+msgctxt "Comment"
+msgid "Built-in unthemed style similar to Plastik from KDE3"
+msgstr "KDE3 तः Plastik इत्यस्य सदृशं अन्तःनिर्मितं अविषयशैली"
+
 #: themes/qtwindows.themerc:2
 msgctxt "Name"
 msgid "MS Windows 9x"
 msgstr "MS Windows ९x"
+
+#: themes/qtwindows.themerc:91
+msgctxt "Comment"
+msgid "Built-in unthemed Windows 9x style"
+msgstr "अन्तर्निर्मितं अविषयकं Windows ९x शैली"
 
 #: wallpapers/image/wallpaper.knsrc:2 wallpapers/image/wallpaper-mobile.knsrc:2
 msgctxt "Name"
@@ -471,269 +735,3 @@ msgstr "दीपचित्राः"
 msgctxt "Name"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
-
-#: appiumtests/applets/kicker/kickertest.desktop:23
-msgctxt "Comment"
-msgid "DONT TRANSLATE TEST ONLY"
-msgstr "DONT TRANSLATE TEST केवलम्"
-
-#: donationmessage/donationmessage.notifyrc:45
-#: donationmessage/donationmessage.notifyrc:187
-msgctxt "Comment"
-msgid "Shows a yearly request to donate to KDE"
-msgstr "KDE कृते दानं कर्तुं वार्षिकं अनुरोधं दर्शयति"
-
-#: freespacenotifier/freespacenotifier.notifyrc:3
-msgctxt "Comment"
-msgid "KDE Free Space Notifier Daemon"
-msgstr "KDE मुक्तस्थानसूचक डेमन्"
-
-#: freespacenotifier/freespacenotifier.notifyrc:235
-msgctxt "Comment"
-msgid "Used for warning notifications"
-msgstr "चेतावनीसूचनानां कृते उपयुज्यते"
-
-#: freespacenotifier/freespacenotifier.notifyrc:383
-msgctxt "Comment"
-msgid "You are running low on disk space"
-msgstr "भवतः डिस्कस्थानं न्यूनं भवति"
-
-#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:106
-msgctxt "Comment"
-msgid "Plasma color scheme editor"
-msgstr "प्लाज्मा रङ्ग योजना सम्पादक"
-
-#: kioworkers/desktop/./directory.trash:61
-msgctxt "Comment"
-msgid "Contains removed files"
-msgstr "निष्कासिताः सञ्चिकाः समाविष्टाः सन्ति"
-
-#: klipper/org.kde.klipper.desktop:186
-msgctxt "Comment"
-msgid "A cut & paste history utility"
-msgstr "एकः कट & पेस्ट इतिहास उपयोगिता"
-
-#: login-sessions/plasmawayland.desktop.cmake:59
-#: login-sessions/plasmawayland-dev.desktop.cmake:54
-#: login-sessions/plasmax11.desktop.cmake:58
-#: login-sessions/plasmax11-dev.desktop.cmake:55
-msgctxt "Comment"
-msgid "Plasma by KDE"
-msgstr "KDE इत्यस्मात् प्लाज्मा"
-
-#: menu/desktop/kf5-utilities-accessibility.directory:99
-msgctxt "Comment"
-msgid "Accessibility"
-msgstr "अभिगम्यता"
-
-#: menu/desktop/kf5-utilities-desktop.directory:67
-msgctxt "Comment"
-msgid "Desktop"
-msgstr "कार्यमुखम्"
-
-#: menu/desktop/kf5-utilities.directory:67
-msgctxt "Comment"
-msgid "Utilities"
-msgstr "उपयोगिताः"
-
-#: menu/desktop/kf5-utilities-file.directory:68
-msgctxt "Comment"
-msgid "File"
-msgstr "सञ्चिका"
-
-#: menu/desktop/kf5-utilities-peripherals.directory:95
-msgctxt "Comment"
-msgid "Peripherals"
-msgstr "परिधीय"
-
-#: menu/desktop/kf5-utilities-pim.directory:91
-msgctxt "Comment"
-msgid "PIM"
-msgstr "PIM"
-
-#: menu/desktop/kf5-utilities-xutils.directory:66
-msgctxt "Comment"
-msgid "X Window Utilities"
-msgstr "X- गवाक्ष उपयोगिताः"
-
-#: oom-notifier/oom-notifier.notifyrc:38
-msgctxt "Comment"
-msgid "The core of the operating system"
-msgstr "प्रचालनतन्त्रस्य मूलः"
-
-#: oom-notifier/oom-notifier.notifyrc:114
-msgctxt "Comment"
-msgid "A very serious error has occurred"
-msgstr "अतीव गम्भीरः दोषः अभवत्"
-
-#: phonon/platform_kde/phonon.notifyrc:3
-msgctxt "Comment"
-msgid "Multimedia System"
-msgstr "माध्यमसमूह प्रणाली"
-
-#: phonon/platform_kde/phonon.notifyrc:214
-msgctxt "Comment"
-msgid "Notification when audio output device has automatically changed"
-msgstr "यदा श्रव्यनिर्गमयन्त्रं स्वयमेव परिवर्तितं भवति तदा सूचना"
-
-#: plasma-windowed/org.kde.plasmawindowed.desktop.cmake:60
-msgctxt "Comment"
-msgid "Run Plasmoids as simple applications"
-msgstr "प्लाज्मोइड्स् सरल-अनुप्रयोगरूपेण चालयन्तु"
-
-#: runners/baloo/plasma-runner-baloosearch.desktop:47
-msgctxt "Comment"
-msgid "Searches for files by name and content"
-msgstr "नामेन सामग्रीना च सञ्चिकानां अन्वेषणं करोति"
-
-#: themes/qtcde.themerc:94
-msgctxt "Comment"
-msgid "Built-in unthemed CDE style"
-msgstr "अन्तर्निर्मितं अविषययुक्तं CDE शैली"
-
-#: themes/qtcleanlooks.themerc:74
-msgctxt "Comment"
-msgid "Built-in unthemed style similar to Clearlooks from GNOME"
-msgstr "GNOME तः स्वच्छं दृश्य इत्यस्य सदृशं अन्तःनिर्मितं अविषयशैली"
-
-#: themes/qtgtk.themerc:77
-msgctxt "Comment"
-msgid "Style that uses the GTK+ theming engine"
-msgstr "शैली या GTK+ थीमिंग् इञ्जिन् उपयुज्यते"
-
-#: themes/qtmotif.themerc:89
-msgctxt "Comment"
-msgid "Built-in unthemed Motif style"
-msgstr "अन्तर्निर्मित अविषयक Motif शैली"
-
-#: themes/qtplastique.themerc:75
-msgctxt "Comment"
-msgid "Built-in unthemed style similar to Plastik from KDE3"
-msgstr "KDE3 तः Plastik इत्यस्य सदृशं अन्तःनिर्मितं अविषयशैली"
-
-#: themes/qtwindows.themerc:91
-msgctxt "Comment"
-msgid "Built-in unthemed Windows 9x style"
-msgstr "अन्तर्निर्मितं अविषयकं Windows ९x शैली"
-
-#: kcms/colors/editor/org.kde.kcolorschemeeditor.desktop:2
-msgctxt "GenericName"
-msgid "Color scheme editor"
-msgstr "रङ्ग योजना सम्पादक"
-
-#: kcms/kfontinst/apps/org.kde.kfontinst.desktop:49
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Font Installer"
-msgctxt "GenericName"
-msgid "Font Installer"
-msgstr "वर्णचित्र संस्थापक"
-
-#: kcms/kfontinst/apps/org.kde.kfontview.desktop:58
-msgctxt "GenericName"
-msgid "Font Viewer"
-msgstr "वर्णचित्र दर्शक"
-
-#: klipper/org.kde.klipper.desktop:90
-msgctxt "GenericName"
-msgid "Clipboard Tool"
-msgstr "क्लिपबोर्ड टूल"
-
-#: kcms/kfontinst/dbus/fontinst.actions:109
-msgctxt "Description"
-msgid "Modifying the system-wide font configuration requires privileges."
-msgstr ""
-"प्रणालीव्यापी वर्णचित्र विन्यासस्य परिवर्तनार्थं विशेषाधिकारस्य आवश्यकता "
-"भवति ।."
-
-#: klipper/klipperrc.desktop:14
-msgctxt "Description"
-msgid "Jpeg-Image"
-msgstr "Jpeg-Image"
-
-#: klipper/klipperrc.desktop:111
-msgctxt "Description"
-msgid "Launch &Gwenview"
-msgstr "&Gwenview आरभत"
-
-#: klipper/klipperrc.desktop:196
-msgctxt "Description"
-msgid "Web-URL"
-msgstr "वेब-URL"
-
-#: klipper/klipperrc.desktop:291 klipper/klipperrc.desktop:1986
-msgctxt "Description"
-msgid "Open with &default Browser"
-msgstr "&पूर्वनिर्धारित गवेषक इत्यनेन सह उद्घाटयन्तु"
-
-#: klipper/klipperrc.desktop:377 klipper/klipperrc.desktop:2072
-msgctxt "Description"
-msgid "Open with &Konqueror"
-msgstr "&कॉन्करर् इत्यनेन उद्घाटयन्तु"
-
-#: klipper/klipperrc.desktop:472 klipper/klipperrc.desktop:2166
-msgctxt "Description"
-msgid "Open with &Mozilla"
-msgstr "&मोज़िला इत्यनेन उद्घाटयन्तु"
-
-#: klipper/klipperrc.desktop:566 klipper/klipperrc.desktop:1416
-#: klipper/klipperrc.desktop:1701 klipper/klipperrc.desktop:2260
-msgctxt "Description"
-msgid "Send &URL"
-msgstr "&URL प्रेषयतु"
-
-#: klipper/klipperrc.desktop:662
-msgctxt "Description"
-msgid "Open with &Firefox"
-msgstr "&फ़ायरफ़ॉक्स इत्यनेन उद्घाटयन्तु"
-
-#: klipper/klipperrc.desktop:754
-msgctxt "Description"
-msgid "Send &Page"
-msgstr "प्रेषयतु &पृष्ठम्"
-
-#: klipper/klipperrc.desktop:849
-msgctxt "Description"
-msgid "Mail-URL"
-msgstr "मेल-URL"
-
-#: klipper/klipperrc.desktop:944
-msgctxt "Description"
-msgid "Launch &Kmail"
-msgstr "&Kmail प्रारम्भं कुर्वन्तु"
-
-#: klipper/klipperrc.desktop:1038
-msgctxt "Description"
-msgid "Launch &mutt"
-msgstr "&mutt प्रारभत"
-
-#: klipper/klipperrc.desktop:1131
-msgctxt "Description"
-msgid "Text File"
-msgstr "पाठ्यसञ्चिका"
-
-#: klipper/klipperrc.desktop:1228
-msgctxt "Description"
-msgid "Launch K&Write"
-msgstr "K&Write प्रारम्भं कुर्वन्तु"
-
-#: klipper/klipperrc.desktop:1321
-msgctxt "Description"
-msgid "Local file URL"
-msgstr "स्थानीयसञ्चिका URL"
-
-#: klipper/klipperrc.desktop:1511 klipper/klipperrc.desktop:1796
-#: klipper/klipperrc.desktop:2355
-msgctxt "Description"
-msgid "Send &File"
-msgstr "&सञ्चिका प्रेषयतु"
-
-#: klipper/klipperrc.desktop:1606
-msgctxt "Description"
-msgid "Gopher URL"
-msgstr "गोफर URL"
-
-#: klipper/klipperrc.desktop:1891
-msgctxt "Description"
-msgid "ftp URL"
-msgstr "ftp URL"

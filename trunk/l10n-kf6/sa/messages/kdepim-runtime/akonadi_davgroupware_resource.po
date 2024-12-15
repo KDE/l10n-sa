@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdepim-runtime package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,16 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#: configdialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "DAV Resource Configuration"
+msgstr "DAV संसाधन विन्यासः"
 
 #: configdialog.cpp:46
 #, kde-format
@@ -53,93 +59,92 @@ msgstr ""
 "अन्यः विन्यासप्रविष्टिः पूर्वमेव समानं URL/protocol दम्पतीं उपयुङ्क्ते ।\n"
 "कृपया भिन्नं URL उपयुज्यताम्"
 
-#: configdialog.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#: configdialog.ui:29
 #, kde-format
 msgid "Display name:"
 msgstr "प्रदर्शननाम : १."
 
-#: configdialog.ui:39
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: configdialog.ui:39
 #, kde-format
 msgid "Refresh every:"
 msgstr "प्रत्येकं ताजगीं कुर्वन्तु:"
 
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_refreshInterval)
 #: configdialog.ui:48
-#. i18n: ectx: property (specialValueText), widget (QSpinBox,
-#. kcfg_refreshInterval)
 #, kde-format
 msgid "Never"
 msgstr "कदापि न"
 
-#: configdialog.ui:58
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: configdialog.ui:58
 #, kde-format
 msgid "minutes"
 msgstr "पन्चनिमेषः"
 
-#: configdialog.ui:80 urlconfigurationdialog.ui:111
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: configdialog.ui:80 urlconfigurationdialog.ui:111
 #, kde-format
 msgid "Username:"
 msgstr "उपयोक्तृनाम : १."
 
-#: configdialog.ui:108 setupwizard.cpp:220 urlconfigurationdialog.ui:127
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configdialog.ui:108 setupwizard.cpp:220 urlconfigurationdialog.ui:127
 #, kde-format
 msgid "Password:"
 msgstr "समाभाष्:"
 
-#: configdialog.ui:136
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_limitSyncRange)
+#: configdialog.ui:136
 #, kde-format
 msgid ""
 "Select this if your calendars contain a lot of events and the server cannot "
 "fulfill the requests"
 msgstr ""
-"यदि भवतः पञ्चाङ्गेषु बहुधा घटनाः सन्ति तथा च सर्वरः अनुरोधं पूरयितुं न "
-"शक्नोति तर्हि एतत् चिनोतु"
+"यदि भवतः पञ्चाङ्गेषु बहुधा घटनाः सन्ति तथा च सर्वरः अनुरोधं पूरयितुं न शक्नोति तर्हि एतत् "
+"चिनोतु"
 
-#: configdialog.ui:139
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitSyncRange)
+#: configdialog.ui:139
 #, kde-format
 msgid "Limit CalDav retrieval time range"
 msgstr "CalDav पुनर्प्राप्तिसमयपरिधिं सीमितं कुर्वन्तु"
 
-#: configdialog.ui:151
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: configdialog.ui:151
 #, kde-format
 msgid "Only sync events more recent than"
 msgstr "केवलं समन्वयनघटनानि अद्यतनतराणि"
 
-#: configdialog.ui:190
 #. i18n: ectx: property (text), widget (QLabel, label_41)
+#: configdialog.ui:190
 #, kde-format
 msgid "Server Configuration:"
 msgstr "सर्वर विन्यासः : १."
 
-#: configdialog.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: configdialog.ui:204
 #, kde-format
 msgid "Add"
 msgstr "संयोजयति"
 
-#: configdialog.ui:211 searchdialog.ui:151
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
+#: configdialog.ui:211 searchdialog.ui:151
 #, kde-format
 msgid "Search"
 msgstr "अन्वेषण"
 
-#: configdialog.ui:218
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: configdialog.ui:218
 #, kde-format
 msgid "Remove"
 msgstr "अपाकरोति"
 
-#: configdialog.ui:225
 #. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: configdialog.ui:225
 #, kde-format
 msgid "Edit"
 msgstr "सम्पादन"
@@ -183,9 +188,7 @@ msgstr "संग्रहस्य कृते प्रोटोकॉलः 
 msgid ""
 "The server encountered an error that prevented it from completing your "
 "request: %1 (%2)"
-msgstr ""
-"सर्वरः एकं त्रुटिं प्राप्नोत् यत् भवतः अनुरोधं पूर्णं कर्तुं न शक्नोति स्म: "
-"%1 (%2)"
+msgstr "सर्वरः एकं त्रुटिं प्राप्नोत् यत् भवतः अनुरोधं पूर्णं कर्तुं न शक्नोति स्म: %1 (%2)"
 
 #: daverror-kdepim-runtime.cpp:48
 #, kde-format
@@ -256,8 +259,8 @@ msgstr ""
 #: daverror-kdepim-runtime.cpp:87
 #, kde-format
 msgid ""
-"There was a problem with the request. The item has not been deleted from "
-"the server.\n"
+"There was a problem with the request. The item has not been deleted from the "
+"server.\n"
 "%1 (%2)."
 msgstr ""
 "अनुरोधस्य समस्या आसीत् । सर्वरात् द्रव्यं न लोपितम्।\n"
@@ -356,8 +359,7 @@ msgid ""
 "Unable to retrieve item: failed to parse item data. Maybe it was deleted "
 "already."
 msgstr ""
-"मदं पुनः प्राप्तुं असमर्थः: मददत्तांशं विश्लेषणं कर्तुं असफलः। भवतु नाम "
-"पूर्वमेव विलोपितम् आसीत्।"
+"मदं पुनः प्राप्तुं असमर्थः: मददत्तांशं विश्लेषणं कर्तुं असफलः। भवतु नाम पूर्वमेव विलोपितम् आसीत्।"
 
 #: davgroupwareresource.cpp:1145
 #, kde-format
@@ -380,81 +382,85 @@ msgstr "मदं निष्कासयितुं असमर्थः: %1
 msgid "The resource is not configured yet"
 msgstr "संसाधनम् अद्यापि विन्यस्तं नास्ति"
 
-#: davgroupwareresource.kcfg:10
 #. i18n: ectx: label, entry (settingsVersion), group (General)
+#: davgroupwareresource.kcfg:10
 #, kde-format
 msgid "Settings Version"
 msgstr "सेटिंग्स् संस्करणम्"
 
-#: davgroupwareresource.kcfg:14
 #. i18n: ectx: label, entry (displayName), group (General)
+#: davgroupwareresource.kcfg:14
 #, kde-format
 msgid "Display name"
 msgstr "नाम प्रदर्शयतु"
 
-#: davgroupwareresource.kcfg:18
 #. i18n: ectx: label, entry (refreshInterval), group (General)
+#: davgroupwareresource.kcfg:18
 #, kde-format
 msgid "Refresh every"
 msgstr "प्रत्येकं ताजगीं कुर्वन्तु"
 
-#: davgroupwareresource.kcfg:22
 #. i18n: ectx: label, entry (remoteUrls), group (General)
+#: davgroupwareresource.kcfg:22
 #, kde-format
 msgid "Remote URLs"
 msgstr "दूरस्थ URLs"
 
-#: davgroupwareresource.kcfg:26
 #. i18n: ectx: label, entry (defaultUsername), group (General)
+#: davgroupwareresource.kcfg:26
 #, kde-format
 msgid "User name"
 msgstr "उपयोक्तृनाम"
 
-#: davgroupwareresource.kcfg:30
 #. i18n: ectx: label, entry (limitSyncRange), group (General)
+#: davgroupwareresource.kcfg:30
 #, kde-format
 msgid "Limit the events retrieval to the specified time range"
 msgstr "घटनापुनर्प्राप्तिः निर्दिष्टसमयपरिधिपर्यन्तं सीमितं कुर्वन्तु"
 
-#: davgroupwareresource.kcfg:34
 #. i18n: ectx: label, entry (syncRangeStartNumber), group (General)
+#: davgroupwareresource.kcfg:34
 #, kde-format
 msgid "Period for which to retrieve events, quantity"
 msgstr "अवधिः यस्य कृते घटनाः पुनः प्राप्तव्याः, परिमाणम्"
 
-#: davgroupwareresource.kcfg:38
 #. i18n: ectx: label, entry (syncRangeStartType), group (General)
+#: davgroupwareresource.kcfg:38
 #, kde-format
 msgid "Period for which to retrieve events, type"
 msgstr "यस्य अवधिः कृते घटनाः पुनः प्राप्तव्याः, टङ्कयन्तु"
 
-#: davgroupwareresource.kcfg:42
 #. i18n: ectx: label, entry (collectionsUrlsMappings), group (General)
+#: davgroupwareresource.kcfg:42
 #, kde-format
 msgid ""
 "String representation of the mappings between discovered collections and "
 "configured URLs"
-msgstr ""
-"आविष्कृतसङ्ग्रहानां विन्यस्त-URL-इत्यस्य च मध्ये मैपिङ्ग्स् इत्यस्य "
-"स्ट्रिंग्-प्रतिपादनम्"
+msgstr "आविष्कृतसङ्ग्रहानां विन्यस्त-URL-इत्यस्य च मध्ये मैपिङ्ग्स् इत्यस्य स्ट्रिंग्-प्रतिपादनम्"
 
-#: davgroupwareresource.kcfg:46
 #. i18n: ectx: label, entry (readOnly), group (General)
+#: davgroupwareresource.kcfg:46
 #, kde-format
 msgid "Do not change the actual backend data."
 msgstr "वास्तविकं पृष्ठभागदत्तांशं न परिवर्तयन्तु ।"
 
-#: davgroupwareresource.kcfg:50
 #. i18n: ectx: label, entry (AccountId), group (General)
+#: davgroupwareresource.kcfg:50
 #, kde-format
 msgid "The account id in WebAccounts framework."
 msgstr "WebAccounts framework इत्यस्मिन् account id ।"
 
-#: davgroupwareresource.kcfg:53
 #. i18n: ectx: label, entry (AccountServices), group (General)
+#: davgroupwareresource.kcfg:53
 #, kde-format
 msgid "Account enabled services"
 msgstr "खाता सक्षमसेवाः"
+
+#: searchdialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Search"
+msgstr "अन्वेषण"
 
 #: searchdialog.cpp:41
 #, kde-format
@@ -470,59 +476,77 @@ msgstr ""
 "अन्वेषणं निष्पादयन् त्रुटिः अभवत्:\n"
 "%1"
 
-#: searchdialog.ui:32 urlconfigurationdialog.ui:85
 #. i18n: ectx: property (text), widget (QRadioButton, useDefaultCreds)
+#: searchdialog.ui:32 urlconfigurationdialog.ui:85
 #, kde-format
 msgid "Use global creden&tials"
 msgstr "वैश्विकप्रमाणपत्रस्य उपयोगं कुर्वन्तु"
 
-#: searchdialog.ui:42 urlconfigurationdialog.ui:95
 #. i18n: ectx: property (text), widget (QRadioButton, useSpecificCreds)
+#: searchdialog.ui:42 urlconfigurationdialog.ui:95
 #, kde-format
 msgid "Use specific credentials"
 msgstr "विशिष्टप्रमाणपत्राणां उपयोगं कुर्वन्तु"
 
-#: searchdialog.ui:49
 #. i18n: ectx: property (title), widget (QGroupBox, credentialsGroup)
+#: searchdialog.ui:49
 #, kde-format
 msgid "Credentials"
 msgstr "प्रमाणपत्राणि"
 
-#: searchdialog.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: searchdialog.ui:61
 #, kde-format
 msgid "Username"
 msgstr "उपयोक्तृनाम"
 
-#: searchdialog.ui:77
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: searchdialog.ui:77
 #, kde-format
 msgid "Password"
 msgstr "समाभाष्"
 
-#: searchdialog.ui:96
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: searchdialog.ui:96
 #, kde-format
 msgid "Search URL"
 msgstr "URL अन्वेषणं कुर्वन्तु"
 
-#: searchdialog.ui:106
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: searchdialog.ui:106
 #, kde-format
 msgid "Search for"
 msgstr "अन्वेषणं कुर्वन्तु"
 
-#: searchdialog.ui:116
 #. i18n: ectx: property (text), item, widget (QComboBox, searchType)
+#: searchdialog.ui:116
 #, kde-format
 msgid "a person named"
 msgstr "नामकः व्यक्तिः"
 
-#: searchdialog.ui:121
 #. i18n: ectx: property (text), item, widget (QComboBox, searchType)
+#: searchdialog.ui:121
 #, kde-format
 msgid "a contact with email"
 msgstr "ईमेलेन सह सम्पर्कः"
+
+#: settings.cpp:477
+#, kde-format
+msgctxt "@label:textbox"
+msgid "A password is required for user %1"
+msgstr "उपयोक्तुः %1 कृते गुप्तशब्दः आवश्यकः"
+
+#: settings.cpp:481
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password: "
+msgstr "समाभाष्: "
+
+#: setupwizard.cpp:137
+#, kde-format
+msgctxt "@title:window"
+msgid "DAV groupware configuration wizard"
+msgstr "DAV groupware विन्यासविजार्डः"
 
 #: setupwizard.cpp:210
 #, kde-format
@@ -538,6 +562,12 @@ msgstr "समूहवेयर सर्वरे प्रवेशार्�
 #, kde-format
 msgid "User:"
 msgstr "उपयोक्ता : १."
+
+#: setupwizard.cpp:255
+#, kde-format
+msgctxt "@option:radio"
+msgid "No, choose another server"
+msgstr "न, अन्यं सर्वरं चिनुत"
 
 #: setupwizard.cpp:257
 #, kde-format
@@ -575,6 +605,18 @@ msgstr "ग्रुपवेयर सर्वर"
 msgid "Select the groupware server the resource shall be configured for"
 msgstr "संसाधनं विन्यस्तं भविष्यति इति groupware सर्वरं चिनोतु"
 
+#: setupwizard.cpp:338
+#, kde-format
+msgctxt "@option:radio"
+msgid "Use one of those servers:"
+msgstr "तेषु सर्वरेषु एकस्य उपयोगं कुर्वन्तु:"
+
+#: setupwizard.cpp:347
+#, kde-format
+msgctxt "@option:radio"
+msgid "Configure the resource manually"
+msgstr "संसाधनं मैन्युअल् रूपेण विन्यस्यताम्"
+
 #: setupwizard.cpp:381
 #, kde-format
 msgid "Connection"
@@ -595,127 +637,11 @@ msgstr "निमन्त्रकः"
 msgid "Installation path"
 msgstr "संस्थापनमार्गः"
 
-#: setupwizard.cpp:497
+#: setupwizard.cpp:395
 #, kde-format
-msgid "Test Connection"
-msgstr "परीक्षणसंयोजनम्"
-
-#: setupwizard.cpp:498
-#, kde-format
-msgid ""
-"You can test now whether the groupware server can be accessed with the "
-"current configuration"
-msgstr ""
-"इदानीं भवान् परीक्षितुं शक्नोति यत् वर्तमानविन्यासेन सह groupware सर्वरं "
-"अभिगन्तुं शक्यते वा इति"
-
-#: setupwizard.cpp:543
-#, kde-format
-msgid "An error occurred: %1"
-msgstr "त्रुटिः अभवत्: %1"
-
-#: setupwizard.cpp:546
-#, kde-format
-msgid "Connected successfully"
-msgstr "सफलतया सम्बद्धम्"
-
-#: urlconfigurationdialog.cpp:267
-#, kde-format
-msgid "Display Name"
-msgstr "प्रदर्शन नाम"
-
-#: urlconfigurationdialog.ui:35
-#. i18n: ectx: property (text), widget (QLabel, remoteProtocol)
-#, kde-format
-msgid "Access protocol:"
-msgstr "अभिगमनप्रोटोकॉलः : १."
-
-#: urlconfigurationdialog.ui:42
-#. i18n: ectx: property (text), widget (QRadioButton, caldav)
-#, kde-format
-msgid "CalDA&V"
-msgstr "CalDA&V"
-
-#: urlconfigurationdialog.ui:52
-#. i18n: ectx: property (text), widget (QRadioButton, carddav)
-#, kde-format
-msgid "CardDAV"
-msgstr "कार्डडाव"
-
-#: urlconfigurationdialog.ui:59
-#. i18n: ectx: property (text), widget (QRadioButton, groupdav)
-#, kde-format
-msgid "GroupDAV"
-msgstr "समूहDAV"
-
-#: urlconfigurationdialog.ui:66
-#. i18n: ectx: property (text), widget (QLabel, label)
-#, kde-format
-msgid "Remote URL:"
-msgstr "दूरस्थं URL : १."
-
-#: urlconfigurationdialog.ui:76
-#. i18n: ectx: property (text), widget (QLabel, label1)
-#, kde-format
-msgid "Access:"
-msgstr "अभिगमः:"
-
-#: urlconfigurationdialog.ui:146
-#. i18n: ectx: property (text), widget (QLabel, collectionsLabel)
-#, kde-format
-msgid "Discovered collections:"
-msgstr "आविष्कृताः संग्रहाः : १."
-
-#: urlconfigurationdialog.ui:174
-#. i18n: ectx: property (text), widget (QPushButton, fetchButton)
-#, kde-format
-msgid "Fetch"
-msgstr "उपानी"
-
-#: utils.cpp:47 utils.cpp:64
-#, kde-format
-msgid "CalDav"
-msgstr "काल्दव"
-
-#: utils.cpp:50 utils.cpp:66
-#, kde-format
-msgid "CardDav"
-msgstr "कार्डदव"
-
-#: utils.cpp:53 utils.cpp:68
-#, kde-format
-msgid "GroupDav"
-msgstr "समूहदव"
-
-#: configdialog.cpp:33
-#, kde-format
-msgctxt "@title:window"
-msgid "DAV Resource Configuration"
-msgstr "DAV संसाधन विन्यासः"
-
-#: searchdialog.cpp:26
-#, kde-format
-msgctxt "@title:window"
-msgid "Search"
-msgstr "अन्वेषण"
-
-#: setupwizard.cpp:137
-#, kde-format
-msgctxt "@title:window"
-msgid "DAV groupware configuration wizard"
-msgstr "DAV groupware विन्यासविजार्डः"
-
-#: settings.cpp:477
-#, kde-format
-msgctxt "@label:textbox"
-msgid "A password is required for user %1"
-msgstr "उपयोक्तुः %1 कृते गुप्तशब्दः आवश्यकः"
-
-#: settings.cpp:481
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Password: "
-msgstr "समाभाष्: "
+msgctxt "@option:check"
+msgid "Use secure connection"
+msgstr "सुरक्षितसंयोजनस्य उपयोगं कुर्वन्तु"
 
 #: setupwizard.cpp:423
 #, kde-format
@@ -735,32 +661,100 @@ msgctxt "@label:textbox"
 msgid "Final URL (GroupDav)"
 msgstr "अन्तिमः URL (GroupDav) २."
 
-#: setupwizard.cpp:255
+#: setupwizard.cpp:497
 #, kde-format
-msgctxt "@option:radio"
-msgid "No, choose another server"
-msgstr "न, अन्यं सर्वरं चिनुत"
+msgid "Test Connection"
+msgstr "परीक्षणसंयोजनम्"
 
-#: setupwizard.cpp:338
+#: setupwizard.cpp:498
 #, kde-format
-msgctxt "@option:radio"
-msgid "Use one of those servers:"
-msgstr "तेषु सर्वरेषु एकस्य उपयोगं कुर्वन्तु:"
-
-#: setupwizard.cpp:347
-#, kde-format
-msgctxt "@option:radio"
-msgid "Configure the resource manually"
-msgstr "संसाधनं मैन्युअल् रूपेण विन्यस्यताम्"
-
-#: setupwizard.cpp:395
-#, kde-format
-msgctxt "@option:check"
-msgid "Use secure connection"
-msgstr "सुरक्षितसंयोजनस्य उपयोगं कुर्वन्तु"
+msgid ""
+"You can test now whether the groupware server can be accessed with the "
+"current configuration"
+msgstr ""
+"इदानीं भवान् परीक्षितुं शक्नोति यत् वर्तमानविन्यासेन सह groupware सर्वरं अभिगन्तुं शक्यते वा "
+"इति"
 
 #: setupwizard.cpp:503
 #, kde-format
 msgctxt "@action:button"
 msgid "Test Connection"
 msgstr "परीक्षणसंयोजनम्"
+
+#: setupwizard.cpp:543
+#, kde-format
+msgid "An error occurred: %1"
+msgstr "त्रुटिः अभवत्: %1"
+
+#: setupwizard.cpp:546
+#, kde-format
+msgid "Connected successfully"
+msgstr "सफलतया सम्बद्धम्"
+
+#: urlconfigurationdialog.cpp:267
+#, kde-format
+msgid "Display Name"
+msgstr "प्रदर्शन नाम"
+
+#. i18n: ectx: property (text), widget (QLabel, remoteProtocol)
+#: urlconfigurationdialog.ui:35
+#, kde-format
+msgid "Access protocol:"
+msgstr "अभिगमनप्रोटोकॉलः : १."
+
+#. i18n: ectx: property (text), widget (QRadioButton, caldav)
+#: urlconfigurationdialog.ui:42
+#, kde-format
+msgid "CalDA&V"
+msgstr "CalDA&V"
+
+#. i18n: ectx: property (text), widget (QRadioButton, carddav)
+#: urlconfigurationdialog.ui:52
+#, kde-format
+msgid "CardDAV"
+msgstr "कार्डडाव"
+
+#. i18n: ectx: property (text), widget (QRadioButton, groupdav)
+#: urlconfigurationdialog.ui:59
+#, kde-format
+msgid "GroupDAV"
+msgstr "समूहDAV"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: urlconfigurationdialog.ui:66
+#, kde-format
+msgid "Remote URL:"
+msgstr "दूरस्थं URL : १."
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#: urlconfigurationdialog.ui:76
+#, kde-format
+msgid "Access:"
+msgstr "अभिगमः:"
+
+#. i18n: ectx: property (text), widget (QLabel, collectionsLabel)
+#: urlconfigurationdialog.ui:146
+#, kde-format
+msgid "Discovered collections:"
+msgstr "आविष्कृताः संग्रहाः : १."
+
+#. i18n: ectx: property (text), widget (QPushButton, fetchButton)
+#: urlconfigurationdialog.ui:174
+#, kde-format
+msgid "Fetch"
+msgstr "उपानी"
+
+#: utils.cpp:47 utils.cpp:64
+#, kde-format
+msgid "CalDav"
+msgstr "काल्दव"
+
+#: utils.cpp:50 utils.cpp:66
+#, kde-format
+msgid "CardDav"
+msgstr "कार्डदव"
+
+#: utils.cpp:53 utils.cpp:68
+#, kde-format
+msgid "GroupDav"
+msgstr "समूहदव"

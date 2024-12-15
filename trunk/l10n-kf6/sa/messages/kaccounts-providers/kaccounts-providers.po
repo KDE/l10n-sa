@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kaccounts-providers package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kaccounts-providers\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: plugins/nextcloud-ui/nextcloudcontroller.cpp:89
@@ -22,8 +22,7 @@ msgid ""
 "Unable to connect to Nextcloud at the given server URL. Please check the "
 "server URL."
 msgstr ""
-"दत्तसर्वर URL मध्ये Nextcloud इत्यनेन सह सम्बद्धं कर्तुं असमर्थः । कृपया "
-"सर्वरस्य URL पश्यन्तु ।"
+"दत्तसर्वर URL मध्ये Nextcloud इत्यनेन सह सम्बद्धं कर्तुं असमर्थः । कृपया सर्वरस्य URL पश्यन्तु ।"
 
 #: plugins/nextcloud-ui/nextcloudcontroller.cpp:148
 #: plugins/owncloud-ui/owncloudcontroller.cpp:174
@@ -31,9 +30,9 @@ msgstr ""
 msgid "Unable to authenticate using the provided username and password"
 msgstr "प्रदत्तं उपयोक्तृनाम गुप्तशब्दं च उपयुज्य प्रमाणीकरणं कर्तुं असमर्थः"
 
+#. TODO Find a way to not hardcode this
 #: plugins/nextcloud-ui/nextcloudcontroller.cpp:202
 #: services/nextcloud-contacts.service.in:4
-#. TODO Find a way to not hardcode this
 #, kde-format
 msgid "Contacts"
 msgstr "सम्पर्क"
@@ -43,16 +42,14 @@ msgstr "सम्पर्क"
 msgid "Synchronize contacts"
 msgstr "सम्पर्कं समन्वययन्तु"
 
+#. Runners-ID Storage - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#. TODO Find a way to not hardcode this
 #: plugins/nextcloud-ui/nextcloudcontroller.cpp:203
 #: plugins/owncloud-ui/owncloudcontroller.cpp:231
 #: services/disabled/runners-storage.service.in:6
 #: services/nextcloud-storage.service.in:4
 #: services/owncloud-storage.service.in:4
-#. Runners-ID Storage - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-#. TODO Find a way to not hardcode this
 #, kde-format
 msgid "Storage"
 msgstr "संग्रहण"
@@ -97,8 +94,7 @@ msgid ""
 "Unable to connect to ownCloud at the given server URL. Please check the "
 "server URL."
 msgstr ""
-"दत्तसर्वर URL मध्ये ownCloud इत्यनेन सह सम्बद्धं कर्तुं असमर्थः । कृपया "
-"सर्वरस्य URL पश्यन्तु ।"
+"दत्तसर्वर URL मध्ये ownCloud इत्यनेन सह सम्बद्धं कर्तुं असमर्थः । कृपया सर्वरस्य URL पश्यन्तु ।"
 
 #: plugins/owncloud-ui/owncloudcontroller.cpp:231
 #, kde-format
@@ -120,115 +116,87 @@ msgstr "उपयोक्तृनाम : १."
 msgid "Password:"
 msgstr "समाभाष्:"
 
-#: services/disabled/facebook-events.service.in:6
-#. "Events" on Facebook - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Events"
-msgstr "घटनाः"
-
-#: services/disabled/facebook-feed.service.in:6
-#. "Posts Feed" on Facebook - Service name being displayed as a checkbox label
-#. to enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Posts Feed"
-msgstr "पद फीड"
-
-#: services/disabled/facebook-notes.service.in:6
-#. "Notes" on Facebook - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Notes"
-msgstr "टिप्पणियाँ"
-
-#: services/disabled/facebook-notifications.service.in:6
-#. "Notifications" on Facebook - Service name being displayed as a checkbox
-#. label to enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Notifications"
-msgstr "अधिसूचना"
-
-#: services/disabled/google-calendar.service.in:6
-#. Google's Calendars - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Calendars and Tasks"
-msgstr "पञ्चाङ्गानि कार्याणि च"
-
-#: services/disabled/identica-microblog.service.in:6
-#. identi.ca microblog feed - Service name being displayed as a checkbox label
-#. to enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "identi.ca"
-msgstr "identi.ca"
-
-#: services/disabled/owncloud-calendar.service.in:6
-#: services/disabled/runners-calendar.service.in:6
-#. ownCloud's Calendar - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-#. Runners-ID Calendar - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Calendar"
-msgstr "पञ्चाङ्गम्"
-
-#: services/disabled/runners-music.service.in:6
-#. Runners-ID Music - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Music"
-msgstr "संगीतं"
-
-#: services/disabled/twitter-microblog.service.in:6
-#. Twitter's feed - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
-msgid "Twitter"
-msgstr "ट्विटर"
-
+#. "Contacts" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
 #: services/disabled/facebook-contacts.service.in:6
-#. "Contacts" on Facebook - Service name being displayed as a checkbox label
-#. to enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
 msgctxt "Facebook Contacts"
 msgid "Contacts"
 msgstr "सम्पर्क"
 
+#. "Events" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-events.service.in:6
+msgid "Events"
+msgstr "घटनाः"
+
+#. "Posts Feed" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-feed.service.in:6
+msgid "Posts Feed"
+msgstr "पद फीड"
+
+#. "Notes" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-notes.service.in:6
+msgid "Notes"
+msgstr "टिप्पणियाँ"
+
+#. "Notifications" on Facebook - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/facebook-notifications.service.in:6
+msgid "Notifications"
+msgstr "अधिसूचना"
+
+#. Google's Calendars - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/google-calendar.service.in:6
+msgid "Calendars and Tasks"
+msgstr "पञ्चाङ्गानि कार्याणि च"
+
+#. Google's Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
 #: services/disabled/google-contacts.service.in:6
-#. Google's Contacts - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
 msgctxt "Google Contacts"
 msgid "Contacts"
 msgstr "सम्पर्क"
 
+#. identi.ca microblog feed - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/identica-microblog.service.in:6
+msgid "identi.ca"
+msgstr "identi.ca"
+
+#. ownCloud's Calendar - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#. Runners-ID Calendar - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/owncloud-calendar.service.in:6
+#: services/disabled/runners-calendar.service.in:6
+msgid "Calendar"
+msgstr "पञ्चाङ्गम्"
+
+#. ownCloud's Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
 #: services/disabled/owncloud-contacts.service.in:6
-#. ownCloud's Contacts - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
 msgctxt "ownCloud Contacts"
 msgid "Contacts"
 msgstr "सम्पर्क"
 
+#. Runners-ID Contacts - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
 #: services/disabled/runners-contacts.service.in:6
-#. Runners-ID Contacts - Service name being displayed as a checkbox label to
-#. enable/disable this service
-#. Would be nice to use the localized name of this service if it exists/makes
-#. sense
 msgctxt "Runners-ID Contacts"
 msgid "Contacts"
 msgstr "सम्पर्क"
+
+#. Runners-ID Music - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/runners-music.service.in:6
+msgid "Music"
+msgstr "संगीतं"
+
+#. Twitter's feed - Service name being displayed as a checkbox label to enable/disable this service
+#. Would be nice to use the localized name of this service if it exists/makes sense
+#: services/disabled/twitter-microblog.service.in:6
+msgid "Twitter"
+msgstr "ट्विटर"

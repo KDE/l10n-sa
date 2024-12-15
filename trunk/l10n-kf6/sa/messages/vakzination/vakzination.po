@@ -75,8 +75,8 @@ msgid ""
 "Vakzination manages your health certificates like vaccination, test, and "
 "recovery certificates."
 msgstr ""
-"Vakzination भवतः स्वास्थ्यप्रमाणपत्राणि यथा टीकाकरणं, परीक्षणं, "
-"पुनर्प्राप्तिप्रमाणपत्राणि च प्रबन्धयति।"
+"Vakzination भवतः स्वास्थ्यप्रमाणपत्राणि यथा टीकाकरणं, परीक्षणं, पुनर्प्राप्तिप्रमाणपत्राणि "
+"च प्रबन्धयति।"
 
 #: main.cpp:47
 #, kde-format
@@ -92,6 +92,18 @@ msgstr "निकोलस फेला"
 #, kde-format
 msgid "Maintainer"
 msgstr "परिपालकः"
+
+#: main.cpp:50
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: main.cpp:50
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
 
 #: main.cpp:56
 #, kde-format
@@ -288,6 +300,12 @@ msgstr "परिणाम:"
 msgid "Test Center:"
 msgstr "परीक्षणकेन्द्रम् : १."
 
+#: qml/TestDetailsSheet.qml:86 qml/VaccinationDetailsSheet.qml:86
+#, kde-format
+msgctxt "%1 a flag emoji, %2 is a country name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
 #: qml/TestDetailsSheet.qml:87 qml/VaccinationDetailsSheet.qml:87
 #, kde-format
 msgid "Country:"
@@ -324,21 +342,3 @@ msgstr "%1/%2"
 #, kde-format
 msgid "Dose:"
 msgstr "मात्रा : १."
-
-#: main.cpp:50
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#: main.cpp:50
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: qml/TestDetailsSheet.qml:86 qml/VaccinationDetailsSheet.qml:86
-#, kde-format
-msgctxt "%1 a flag emoji, %2 is a country name"
-msgid "%1 %2"
-msgstr "%1 %2"

@@ -19,13 +19,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: config/qml/AlternateCalendarConfig.qml:79
-#, kde-format
-msgid "%1 day"
-msgid_plural "%1 days"
-msgstr[0] "%1 दिवसः"
-msgstr[1] "%1 दिवसाः"
-
 #: calendarsystem.h:50
 #, kde-format
 msgctxt "@item:inlist"
@@ -43,6 +36,30 @@ msgstr "मिलान्कोविच्"
 msgctxt "@item:inlist"
 msgid "The Solar Hijri Calendar (Persian)"
 msgstr "सौर हिजरी पञ्चाङ्ग (फारसी) २."
+
+#: calendarsystem.h:62
+#, kde-format
+msgctxt ""
+"@item:inlist See https://cldr.unicode.org/development/development-process/"
+"design-proposals/islamic-calendar-types for more details"
+msgid "Islamic Calendar (Astronomical)"
+msgstr "इस्लामिक पञ्चाङ्ग (खगोलीय) २."
+
+#: calendarsystem.h:66
+#, kde-format
+msgctxt ""
+"@item:inlist See https://cldr.unicode.org/development/development-process/"
+"design-proposals/islamic-calendar-types for more details"
+msgid "The Islamic Civil Calendar (Tabular)"
+msgstr "इस्लामिक नागरिक पञ्चाङ्गम् (सारणीबद्धम्) २."
+
+#: calendarsystem.h:70
+#, kde-format
+msgctxt ""
+"@item:inlist See https://cldr.unicode.org/development/development-process/"
+"design-proposals/islamic-calendar-types for more details"
+msgid "Islamic Calendar (Umm al-Qura)"
+msgstr "इस्लामिक पंचांग (उम्म अल-कुरा) २."
 
 #: calendarsystem.h:74
 #, kde-format
@@ -62,33 +79,6 @@ msgctxt "@item:inlist"
 msgid "Hebrew Calendar"
 msgstr "हिब्रू पञ्चाङ्ग"
 
-#: calendarsystem.h:62
-#, kde-format
-msgctxt ""
-"@item:inlist See "
-"https://cldr.unicode.org/development/development-process/design-proposals/"
-"islamic-calendar-types for more details"
-msgid "Islamic Calendar (Astronomical)"
-msgstr "इस्लामिक पञ्चाङ्ग (खगोलीय) २."
-
-#: calendarsystem.h:66
-#, kde-format
-msgctxt ""
-"@item:inlist See "
-"https://cldr.unicode.org/development/development-process/design-proposals/"
-"islamic-calendar-types for more details"
-msgid "The Islamic Civil Calendar (Tabular)"
-msgstr "इस्लामिक नागरिक पञ्चाङ्गम् (सारणीबद्धम्) २."
-
-#: calendarsystem.h:70
-#, kde-format
-msgctxt ""
-"@item:inlist See "
-"https://cldr.unicode.org/development/development-process/design-proposals/"
-"islamic-calendar-types for more details"
-msgid "Islamic Calendar (Umm al-Qura)"
-msgstr "इस्लामिक पंचांग (उम्म अल-कुरा) २."
-
 #: config/qml/AlternateCalendarConfig.qml:39
 #, kde-format
 msgctxt "@label:listbox"
@@ -99,11 +89,23 @@ msgstr "पञ्चाङ्गव्यवस्था : १."
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"This calendar is based on pure astronomical calculation. It doesn't "
-"consider any crescent visibility criteria."
+"This calendar is based on pure astronomical calculation. It doesn't consider "
+"any crescent visibility criteria."
 msgstr ""
-"एतत् पञ्चाङ्गं शुद्धखगोलगणनायाम् आधारितम् अस्ति । अस्मिन् "
-"अर्धचन्द्रदृश्यतामापदण्डं न विचार्यते ।"
+"एतत् पञ्चाङ्गं शुद्धखगोलगणनायाम् आधारितम् अस्ति । अस्मिन् अर्धचन्द्रदृश्यतामापदण्डं न विचार्यते ।"
+
+#: config/qml/AlternateCalendarConfig.qml:68
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Date offset:"
+msgstr "तिथि ऑफसेटः : १."
+
+#: config/qml/AlternateCalendarConfig.qml:79
+#, kde-format
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 दिवसः"
+msgstr[1] "%1 दिवसाः"
 
 #: config/qml/AlternateCalendarConfig.qml:82
 #, kde-format
@@ -111,15 +113,7 @@ msgctxt "@info:tooltip"
 msgid ""
 "A positive offset signifies a later date, while a negative offset signifies "
 "an earlier date."
-msgstr ""
-"सकारात्मकः आफ्सेट् पश्चात् तिथिं सूचयति, ऋणात्मकः आफ्सेट् पूर्वतिथिं सूचयति "
-"।"
-
-#: config/qml/AlternateCalendarConfig.qml:68
-#, kde-format
-msgctxt "@label:spinbox"
-msgid "Date offset:"
-msgstr "तिथि ऑफसेटः : १."
+msgstr "सकारात्मकः आफ्सेट् पश्चात् तिथिं सूचयति, ऋणात्मकः आफ्सेट् पूर्वतिथिं सूचयति ।"
 
 #: provider/hebrewcalendar.cpp:91
 #, kde-format

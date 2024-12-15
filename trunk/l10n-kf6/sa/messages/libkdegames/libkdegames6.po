@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the libkdegames package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,19 +14,101 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#: highscore/kgamehighscore.cpp:154
+#, kde-format
+msgctxt "@action:button"
+msgid "Retry"
+msgstr "पुनः प्रयासं कुर्वन्तु"
+
 #: highscore/kgamehighscore.cpp:156
 #, kde-format
 msgid ""
-"Cannot access the highscore file. Another user is probably currently "
-"writing to it."
-msgstr ""
-"उच्चाङ्कसञ्चिकां प्राप्तुं न शक्यते । अन्यः उपयोक्ता सम्भवतः सम्प्रति तस्मै "
-"लिखति ।"
+"Cannot access the highscore file. Another user is probably currently writing "
+"to it."
+msgstr "उच्चाङ्कसञ्चिकां प्राप्तुं न शक्यते । अन्यः उपयोक्ता सम्भवतः सम्प्रति तस्मै लिखति ।"
+
+#: highscore/kgamehighscoredialog.cpp:100
+#, kde-format
+msgctxt "@title:window"
+msgid "High Scores"
+msgstr "उच्चाङ्काः"
+
+#: highscore/kgamehighscoredialog.cpp:114
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "नामः"
+
+#: highscore/kgamehighscoredialog.cpp:116
+#, kde-format
+msgctxt "@title:column"
+msgid "Date"
+msgstr "दिनाङ्कः"
+
+#: highscore/kgamehighscoredialog.cpp:118
+#, kde-format
+msgctxt "@title:column"
+msgid "Level"
+msgstr "स्तर"
+
+#: highscore/kgamehighscoredialog.cpp:120
+#, kde-format
+msgctxt "@title:column"
+msgid "Score"
+msgstr "अंक"
+
+#: highscore/kgamehighscoredialog.cpp:122
+#, kde-format
+msgctxt "@title:column"
+msgid "Time"
+msgstr "कालः"
+
+#: highscore/kgamehighscoredialog.cpp:271
+#, kde-format
+msgctxt "@title:tab"
+msgid "High Scores"
+msgstr "उच्चाङ्काः"
+
+#: highscore/kgamehighscoredialog.cpp:288
+#, kde-format
+msgctxt "@title:group"
+msgid "Rank"
+msgstr "रङ्कः"
+
+#: highscore/kgamehighscoredialog.cpp:309
+#, kde-format
+msgctxt "Enumeration (#1, #2 ...) of the highscore entries"
+msgid "#%1"
+msgstr "#%1"
+
+#: highscore/kgamehighscoredialog.cpp:548
+#, kde-format
+msgctxt "@action:button"
+msgid "&Remember"
+msgstr "&स्मरतु"
+
+#: highscore/kgamehighscoredialog.cpp:549
+#, kde-format
+msgctxt "@action:button"
+msgid "&Forget"
+msgstr "&विस्मृत"
+
+#: highscore/kgamehighscoredialog.cpp:550
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remember this high score"
+msgstr "एतत् उच्चं स्कोरं स्मर्यताम्"
+
+#: highscore/kgamehighscoredialog.cpp:551
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Forget this high score"
+msgstr "एतत् उच्चं स्कोरं विस्मरतु"
 
 #: highscore/kgamehighscoredialog.cpp:559
 #, kde-format
@@ -46,10 +128,93 @@ msgstr ""
 "सद् कृत!\n"
 "भवान् उच्चाङ्कसूचौ प्राप्तवान्!"
 
+#: kgamedifficulty.cpp:76
+#, kde-format
+msgctxt "Game difficulty level 1 out of 8"
+msgid "Ridiculously Easy"
+msgstr "हास्यास्पदरूपेण सुलभम्"
+
+#: kgamedifficulty.cpp:79
+#, kde-format
+msgctxt "Game difficulty level 2 out of 8"
+msgid "Very Easy"
+msgstr "अतीव सुलभम्"
+
+#: kgamedifficulty.cpp:82
+#, kde-format
+msgctxt "Game difficulty level 3 out of 8"
+msgid "Easy"
+msgstr "सरलम्‌"
+
+#: kgamedifficulty.cpp:85
+#, kde-format
+msgctxt "Game difficulty level 4 out of 8"
+msgid "Medium"
+msgstr "मध्यम"
+
+#: kgamedifficulty.cpp:88
+#, kde-format
+msgctxt "Game difficulty level 5 out of 8"
+msgid "Hard"
+msgstr "रूक्षः"
+
+#: kgamedifficulty.cpp:91
+#, kde-format
+msgctxt "Game difficulty level 6 out of 8"
+msgid "Very Hard"
+msgstr "अतीव कठिनम्"
+
+#: kgamedifficulty.cpp:94
+#, kde-format
+msgctxt "Game difficulty level 7 out of 8"
+msgid "Extremely Hard"
+msgstr "अत्यन्तं कठिनम्"
+
+#: kgamedifficulty.cpp:97
+#, kde-format
+msgctxt "Game difficulty level 8 out of 8"
+msgid "Impossible"
+msgstr "असंभवः"
+
 #: kgamedifficulty.cpp:316
 #, kde-format
 msgid "Changing the difficulty level will end the current game!"
 msgstr "कठिनतास्तरं परिवर्तयित्वा वर्तमानक्रीडा समाप्तं भविष्यति!"
+
+#: kgamedifficulty.cpp:318
+#, kde-format
+msgctxt "@action:button"
+msgid "Change the Difficulty Level"
+msgstr "कठिनतास्तरं परिवर्तयन्तु"
+
+#: kgamedifficulty.cpp:402
+#, kde-format
+msgctxt "@info:tooltip Game difficulty level"
+msgid "Difficulty"
+msgstr "कष्टम्"
+
+#: kgamedifficulty.cpp:410
+#, kde-format
+msgctxt "@title:menu Game difficulty level"
+msgid "Difficulty"
+msgstr "कष्टम्"
+
+#: kgamedifficulty.cpp:411
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Set the difficulty level"
+msgstr "कठिनतास्तरं निर्धारयन्तु"
+
+#: kgamedifficulty.cpp:412
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Sets the difficulty level of the game."
+msgstr "क्रीडायाः कठिनतास्तरं निर्धारयति ।"
+
+#: kgamestandardaction.cpp:68
+msgctxt "new game"
+msgid "&New"
+msgstr "&नूतनम्‌"
 
 #: kgamestandardaction.cpp:68
 msgid "Start a new game."
@@ -227,6 +392,30 @@ msgstr "&Carddecks विन्यस्तं कुर्वन्तु..."
 msgid "Configure &High Scores…"
 msgstr "&High scores विन्यस्तं कुर्वन्तु..."
 
+#: kgamethemeselector.cpp:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Download New Themes…"
+msgstr "नवीन विषयाः डाउनलोड् कुर्वन्तु..."
+
+#: kgamethemeselector.cpp:210
+#, kde-format
+msgctxt "@title:window config dialog"
+msgid "Select theme"
+msgstr "विषयं चिनुत"
+
+#: kgamethemeselector.cpp:282
+#, kde-format
+msgctxt "@item name of theme, missing"
+msgid "[No name]"
+msgstr "[नाम नास्ति] ।"
+
+#: kgamethemeselector.cpp:298
+#, kde-format
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr "%1 द्वारा"
+
 #: private/kchatbase.cpp:98
 #, kde-format
 msgid "Send to All Players"
@@ -262,6 +451,12 @@ msgstr "GameStatus इति"
 #, kde-format
 msgid "Player %1"
 msgstr "खिलाडी %1"
+
+#: private/kgame/kgamechat.cpp:89
+#, kde-format
+msgctxt "Unknown player"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: private/kgame/kgamechat.cpp:231
 #, kde-format
@@ -456,200 +651,3 @@ msgstr "AsyncInput इति"
 #, kde-format
 msgid "myTurn"
 msgstr "myTurn इति"
-
-#: highscore/kgamehighscore.cpp:154
-#, kde-format
-msgctxt "@action:button"
-msgid "Retry"
-msgstr "पुनः प्रयासं कुर्वन्तु"
-
-#: highscore/kgamehighscoredialog.cpp:548
-#, kde-format
-msgctxt "@action:button"
-msgid "&Remember"
-msgstr "&स्मरतु"
-
-#: highscore/kgamehighscoredialog.cpp:549
-#, kde-format
-msgctxt "@action:button"
-msgid "&Forget"
-msgstr "&विस्मृत"
-
-#: kgamedifficulty.cpp:318
-#, kde-format
-msgctxt "@action:button"
-msgid "Change the Difficulty Level"
-msgstr "कठिनतास्तरं परिवर्तयन्तु"
-
-#: kgamethemeselector.cpp:108
-#, kde-format
-msgctxt "@action:button"
-msgid "Download New Themes…"
-msgstr "नवीन विषयाः डाउनलोड् कुर्वन्तु..."
-
-#: highscore/kgamehighscoredialog.cpp:100
-#, kde-format
-msgctxt "@title:window"
-msgid "High Scores"
-msgstr "उच्चाङ्काः"
-
-#: highscore/kgamehighscoredialog.cpp:114
-#, kde-format
-msgctxt "@title:column"
-msgid "Name"
-msgstr "नामः"
-
-#: highscore/kgamehighscoredialog.cpp:116
-#, kde-format
-msgctxt "@title:column"
-msgid "Date"
-msgstr "दिनाङ्कः"
-
-#: highscore/kgamehighscoredialog.cpp:118
-#, kde-format
-msgctxt "@title:column"
-msgid "Level"
-msgstr "स्तर"
-
-#: highscore/kgamehighscoredialog.cpp:120
-#, kde-format
-msgctxt "@title:column"
-msgid "Score"
-msgstr "अंक"
-
-#: highscore/kgamehighscoredialog.cpp:122
-#, kde-format
-msgctxt "@title:column"
-msgid "Time"
-msgstr "कालः"
-
-#: highscore/kgamehighscoredialog.cpp:271
-#, kde-format
-msgctxt "@title:tab"
-msgid "High Scores"
-msgstr "उच्चाङ्काः"
-
-#: highscore/kgamehighscoredialog.cpp:288
-#, kde-format
-msgctxt "@title:group"
-msgid "Rank"
-msgstr "रङ्कः"
-
-#: highscore/kgamehighscoredialog.cpp:309
-#, kde-format
-msgctxt "Enumeration (#1, #2 ...) of the highscore entries"
-msgid "#%1"
-msgstr "#%1"
-
-#: highscore/kgamehighscoredialog.cpp:550
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Remember this high score"
-msgstr "एतत् उच्चं स्कोरं स्मर्यताम्"
-
-#: highscore/kgamehighscoredialog.cpp:551
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Forget this high score"
-msgstr "एतत् उच्चं स्कोरं विस्मरतु"
-
-#: kgamedifficulty.cpp:411
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Set the difficulty level"
-msgstr "कठिनतास्तरं निर्धारयन्तु"
-
-#: kgamedifficulty.cpp:76
-#, kde-format
-msgctxt "Game difficulty level 1 out of 8"
-msgid "Ridiculously Easy"
-msgstr "हास्यास्पदरूपेण सुलभम्"
-
-#: kgamedifficulty.cpp:79
-#, kde-format
-msgctxt "Game difficulty level 2 out of 8"
-msgid "Very Easy"
-msgstr "अतीव सुलभम्"
-
-#: kgamedifficulty.cpp:82
-#, kde-format
-msgctxt "Game difficulty level 3 out of 8"
-msgid "Easy"
-msgstr "सरलम्‌"
-
-#: kgamedifficulty.cpp:85
-#, kde-format
-msgctxt "Game difficulty level 4 out of 8"
-msgid "Medium"
-msgstr "मध्यम"
-
-#: kgamedifficulty.cpp:88
-#, kde-format
-msgctxt "Game difficulty level 5 out of 8"
-msgid "Hard"
-msgstr "रूक्षः"
-
-#: kgamedifficulty.cpp:91
-#, kde-format
-msgctxt "Game difficulty level 6 out of 8"
-msgid "Very Hard"
-msgstr "अतीव कठिनम्"
-
-#: kgamedifficulty.cpp:94
-#, kde-format
-msgctxt "Game difficulty level 7 out of 8"
-msgid "Extremely Hard"
-msgstr "अत्यन्तं कठिनम्"
-
-#: kgamedifficulty.cpp:97
-#, kde-format
-msgctxt "Game difficulty level 8 out of 8"
-msgid "Impossible"
-msgstr "असंभवः"
-
-#: kgamedifficulty.cpp:402
-#, kde-format
-msgctxt "@info:tooltip Game difficulty level"
-msgid "Difficulty"
-msgstr "कष्टम्"
-
-#: kgamedifficulty.cpp:410
-#, kde-format
-msgctxt "@title:menu Game difficulty level"
-msgid "Difficulty"
-msgstr "कष्टम्"
-
-#: kgamedifficulty.cpp:412
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid "Sets the difficulty level of the game."
-msgstr "क्रीडायाः कठिनतास्तरं निर्धारयति ।"
-
-#: kgamestandardaction.cpp:68
-msgctxt "new game"
-msgid "&New"
-msgstr "&नूतनम्‌"
-
-#: kgamethemeselector.cpp:210
-#, kde-format
-msgctxt "@title:window config dialog"
-msgid "Select theme"
-msgstr "विषयं चिनुत"
-
-#: kgamethemeselector.cpp:282
-#, kde-format
-msgctxt "@item name of theme, missing"
-msgid "[No name]"
-msgstr "[नाम नास्ति] ।"
-
-#: kgamethemeselector.cpp:298
-#, kde-format
-msgctxt "@info author attribution"
-msgid "By %1"
-msgstr "%1 द्वारा"
-
-#: private/kgame/kgamechat.cpp:89
-#, kde-format
-msgctxt "Unknown player"
-msgid "Unknown"
-msgstr "अज्ञात"

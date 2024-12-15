@@ -54,6 +54,12 @@ msgstr "आम्‌"
 msgid "No"
 msgstr "नहि"
 
+#: package/contents/ui/DeviceItem.qml:211
+#, kde-format
+msgctxt "@label %1 is human-readable adapter name, %2 is HCI"
+msgid "%1 (%2)"
+msgstr "%1 (%2) २."
+
 #: package/contents/ui/DeviceItem.qml:219
 #, kde-format
 msgid "Remote Name"
@@ -205,6 +211,14 @@ msgstr "न सम्बद्धानि उपकरणानि"
 msgid "%1 connected"
 msgstr "%1 सम्बद्धम्"
 
+#: package/contents/ui/main.qml:75
+#, kde-format
+msgctxt "Number of connected devices"
+msgid "%1 connected device"
+msgid_plural "%1 connected devices"
+msgstr[0] "%1 सम्बद्धं यन्त्रम्"
+msgstr[1] "%1 सम्बद्धानि उपकरणानि"
+
 #: package/contents/ui/main.qml:102
 #, kde-format
 msgid "Pair Device…"
@@ -219,20 +233,6 @@ msgstr "ब्लूटूथं सक्षमं कुर्वन्तु"
 #, kde-format
 msgid "Configure &Bluetooth…"
 msgstr "&Bluetooth विन्यस्तं कुर्वन्तु…"
-
-#: package/contents/ui/DeviceItem.qml:211
-#, kde-format
-msgctxt "@label %1 is human-readable adapter name, %2 is HCI"
-msgid "%1 (%2)"
-msgstr "%1 (%2) २."
-
-#: package/contents/ui/main.qml:75
-#, kde-format
-msgctxt "Number of connected devices"
-msgid "%1 connected device"
-msgid_plural "%1 connected devices"
-msgstr[0] "%1 सम्बद्धं यन्त्रम्"
-msgstr[1] "%1 सम्बद्धानि उपकरणानि"
 
 #: plugin/devicesstateproxymodel.cpp:220
 #, kde-format

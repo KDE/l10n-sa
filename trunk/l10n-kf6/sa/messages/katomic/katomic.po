@@ -19,13 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: chooselevelsetdialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Level Sets"
+msgstr "स्तर सेट्"
+
 #: gamewidget.cpp:84
 #, kde-format
 msgid ""
 "Failed to load level set \"%1\". Check if it is installed on your computer."
-msgstr ""
-"\"%1\" सेट् स्तरं लोड् कर्तुं असफलम् । भवतः सङ्गणके संस्थापितम् अस्ति वा "
-"इति पश्यन्तु ।"
+msgstr "\"%1\" सेट् स्तरं लोड् कर्तुं असफलम् । भवतः सङ्गणके संस्थापितम् अस्ति वा इति पश्यन्तु ।"
 
 #: gamewidget.cpp:140
 #, kde-format
@@ -37,38 +51,38 @@ msgstr "स्तरः %1 समाप्तः । "
 msgid "Congratulations! You have a new highscore!"
 msgstr "अभिनन्दनम् ! भवतः नूतनः उच्चाङ्कः अस्ति!"
 
-#: katomic.kcfg:9
 #. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#: katomic.kcfg:9
 #, kde-format
 msgid "The speed of the animations."
 msgstr "एनिमेशनानाम् वेगः ।"
 
-#: katomic.kcfg:20
 #. i18n: ectx: label, entry (SavedBackgroundWidth), group (General)
+#: katomic.kcfg:20
 #, kde-format
 msgid "Width of saved background"
 msgstr "रक्षितपृष्ठभूमिविस्तारः"
 
-#: katomic.kcfg:24
 #. i18n: ectx: label, entry (SavedBackgroundHeight), group (General)
+#: katomic.kcfg:24
 #, kde-format
 msgid "Height of saved background"
 msgstr "रक्षितपृष्ठभूमिस्य ऊर्ध्वता"
 
-#: katomic.kcfg:28
 #. i18n: ectx: label, entry (LastPlayedLevelSet), group (General)
+#: katomic.kcfg:28
 #, kde-format
 msgid "Last played levelset"
 msgstr "अन्तिमवारं लेवलसेट् क्रीडितः"
 
-#: katomicui.rc:16
 #. i18n: ectx: Menu (settings)
+#: katomicui.rc:16
 #, kde-format
 msgid "&Settings"
 msgstr "&सेटिंग्स"
 
-#: katomicui.rc:25
 #. i18n: ectx: ToolBar (mainToolBar)
+#: katomicui.rc:25
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
@@ -78,6 +92,12 @@ msgstr "मुख्य साधनपट्टी"
 msgid "Noname"
 msgstr "नोनाम"
 
+#: levelsetdelegate.cpp:81
+#, kde-format
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr "%1 द्वारा"
+
 #: levelsetdelegate.cpp:87
 #, kde-format
 msgid ", contains 1 level"
@@ -85,14 +105,14 @@ msgid_plural ", contains %1 levels"
 msgstr[0] ", इत्यत्र १ स्तरः अस्ति"
 msgstr[1] ", %1 स्तराः सन्ति"
 
-#: levelsetwidget.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: levelsetwidget.ui:20
 #, kde-format
 msgid "Choose a level set to play:"
 msgstr "क्रीडितुं स्तरसेट् चिनुत:"
 
-#: levelsetwidget.ui:45
 #. i18n: ectx: property (text), widget (KNSWidgets::Button, m_pbNewStuff)
+#: levelsetwidget.ui:45
 #, kde-format
 msgid "Download New Levels…"
 msgstr "नवीनस्तरं डाउनलोड् कुर्वन्तु…"
@@ -207,45 +227,8 @@ msgid ""
 "KAtomic failed to find its default level set and will quit. Please check "
 "your installation."
 msgstr ""
-"KAtomic स्वस्य पूर्वनिर्धारितस्तरस्य सेट् अन्वेष्टुं असफलः अभवत् तथा च "
-"त्यक्ष्यति । कृपया स्वस्य संस्थापनं पश्यन्तु।"
-
-#: toplevel.cpp:190
-#, kde-format
-msgid "Level: %1 (%2)"
-msgstr "स्तरः %1 (%2) ."
-
-#: toplevel.cpp:191
-#, kde-format
-msgid "Current score: %1"
-msgstr "वर्तमान स्कोरः %1"
-
-#: toplevel.cpp:197
-#, kde-format
-msgid "Highscore: %1"
-msgstr "उच्चाङ्कः %1"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: chooselevelsetdialog.cpp:29
-#, kde-format
-msgctxt "@title:window"
-msgid "Level Sets"
-msgstr "स्तर सेट्"
-
-#: levelsetdelegate.cpp:81
-#, kde-format
-msgctxt "@info author attribution"
-msgid "By %1"
-msgstr "%1 द्वारा"
+"KAtomic स्वस्य पूर्वनिर्धारितस्तरस्य सेट् अन्वेष्टुं असफलः अभवत् तथा च त्यक्ष्यति । कृपया स्वस्य "
+"संस्थापनं पश्यन्तु।"
 
 #: toplevel.cpp:41
 #, kde-format
@@ -282,6 +265,30 @@ msgstr "अग्रिमः स्तरः"
 msgctxt "@action"
 msgid "Choose Level Set…"
 msgstr "Level Set इति चयनं कुर्वन्तु…"
+
+#: toplevel.cpp:107
+#, kde-format
+msgctxt "@title:menu"
+msgid "Animation Speed"
+msgstr "एनिमेशन गति"
+
+#: toplevel.cpp:110
+#, kde-format
+msgctxt "@item animation speed"
+msgid "Slow"
+msgstr "मन्द"
+
+#: toplevel.cpp:111
+#, kde-format
+msgctxt "@item animation speed"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: toplevel.cpp:112
+#, kde-format
+msgctxt "@item animation speed"
+msgid "Fast"
+msgstr "उपवासः"
 
 #: toplevel.cpp:120
 #, kde-format
@@ -331,26 +338,17 @@ msgctxt "@action"
 msgid "Previous Atom"
 msgstr "पूर्वपरमाणु"
 
-#: toplevel.cpp:107
+#: toplevel.cpp:190
 #, kde-format
-msgctxt "@title:menu"
-msgid "Animation Speed"
-msgstr "एनिमेशन गति"
+msgid "Level: %1 (%2)"
+msgstr "स्तरः %1 (%2) ."
 
-#: toplevel.cpp:110
+#: toplevel.cpp:191
 #, kde-format
-msgctxt "@item animation speed"
-msgid "Slow"
-msgstr "मन्द"
+msgid "Current score: %1"
+msgstr "वर्तमान स्कोरः %1"
 
-#: toplevel.cpp:111
+#: toplevel.cpp:197
 #, kde-format
-msgctxt "@item animation speed"
-msgid "Normal"
-msgstr "सामान्य"
-
-#: toplevel.cpp:112
-#, kde-format
-msgctxt "@item animation speed"
-msgid "Fast"
-msgstr "उपवासः"
+msgid "Highscore: %1"
+msgstr "उच्चाङ्कः %1"

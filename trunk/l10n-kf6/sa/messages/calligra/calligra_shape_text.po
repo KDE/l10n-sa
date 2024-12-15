@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: AnnotationTextShapeFactory.cpp:31 AnnotationTextShapeFactory.cpp:39
@@ -31,57 +31,109 @@ msgstr "एनोटेशन सामग्रीं दर्शयितु�
 msgid "Annotation Shape"
 msgstr "एनोटेशन आकार"
 
+#: commands/AcceptChangeCommand.cpp:31
+msgctxt "(qtundo-format)"
+msgid "Accept change"
+msgstr "परिवर्तनं स्वीकुरुत"
+
+#: commands/AutoResizeCommand.cpp:19
+#, kde-format
+msgctxt "Disable Shrink To Fit"
+msgid "Disable"
+msgstr "अक्षम"
+
+#: commands/AutoResizeCommand.cpp:19
+#, kde-format
+msgctxt "Enable Shrink To Fit"
+msgid "Enable"
+msgstr "सक्रियं करोतु"
+
+#: commands/AutoResizeCommand.cpp:22
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
+msgid "%1 Grow To Fit Width"
+msgstr "%1 Grow To Fit Width इति"
+
+#: commands/AutoResizeCommand.cpp:25
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
+msgid "%1 Grow To Fit Height"
+msgstr "%1 Grow To Fit Height इति"
+
+#: commands/AutoResizeCommand.cpp:28
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
+msgid "%1 Shrink To Fit"
+msgstr "%1 Shrink To Fit इति"
+
+#: commands/ChangeListLevelCommand.cpp:28
+msgctxt "(qtundo-format)"
+msgid "Change List Level"
+msgstr "सूचीस्तरं परिवर्तयन्तु"
+
+#: commands/RejectChangeCommand.cpp:35
+msgctxt "(qtundo-format)"
+msgid "Reject change"
+msgstr "परिवर्तनं अङ्गीकुरुत"
+
+#: commands/ShowChangesCommand.cpp:40
+msgctxt "(qtundo-format)"
+msgid "Show Changes"
+msgstr "परिवर्तनं दर्शयतु"
+
+#: commands/ShowChangesCommand.cpp:42
+msgctxt "(qtundo-format)"
+msgid "Hide Changes"
+msgstr "परिवर्तनं गोपयन्तु"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsStyleConfigure)
+#. i18n: ectx: property (windowTitle), widget (QDialog, AcceptRejectChangeDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsConfigure)
 #: dialogs/AcceptRejectChangeDialog.ui:26
 #: dialogs/TableOfContentsConfigure.ui:14
 #: dialogs/TableOfContentsStyleConfigure.ui:14
-#. i18n: ectx: property (windowTitle), widget (QDialog,
-#. TableOfContentsStyleConfigure)
-#. i18n: ectx: property (windowTitle), widget (QDialog,
-#. AcceptRejectChangeDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog,
-#. TableOfContentsConfigure)
 #, kde-format
 msgid "Dialog"
 msgstr "संवादः"
 
-#: dialogs/AcceptRejectChangeDialog.ui:44
 #. i18n: ectx: property (text), widget (QPushButton, acceptButton)
+#: dialogs/AcceptRejectChangeDialog.ui:44
 #, kde-format
 msgid "Accept"
 msgstr "स्वीकरोतु"
 
-#: dialogs/AcceptRejectChangeDialog.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, rejectButton)
+#: dialogs/AcceptRejectChangeDialog.ui:57
 #, kde-format
 msgid "Reject"
 msgstr "अस्वीकार"
 
-#: dialogs/AcceptRejectChangeDialog.ui:70
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: dialogs/AcceptRejectChangeDialog.ui:70
 #, kde-format
 msgid "Cancel"
 msgstr "निरसयतु"
 
-#: dialogs/AcceptRejectChangeDialog.ui:96
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/AcceptRejectChangeDialog.ui:96
 #, kde-format
 msgid "Change Log"
 msgstr "Log परिवर्तनं कुर्वन्तु"
 
-#: dialogs/AcceptRejectChangeDialog.ui:109
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/AcceptRejectChangeDialog.ui:109
 #, kde-format
 msgid "Author"
 msgstr "लेखकः"
 
-#: dialogs/AcceptRejectChangeDialog.ui:122
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/AcceptRejectChangeDialog.ui:122
 #, kde-format
 msgid "Date"
 msgstr "दिनाङ्कः"
 
-#: dialogs/AcceptRejectChangeDialog.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/AcceptRejectChangeDialog.ui:135
 #, kde-format
 msgid "Type"
 msgstr "प्रकारः"
@@ -96,76 +148,75 @@ msgstr "आरोहणम्"
 msgid "Descending"
 msgstr "अवतरन्"
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, BibliographyConfigureDialog)
+#. i18n: ectx: property (toolTip), widget (QToolButton, configureBibliography)
 #: dialogs/BibliographyConfigureDialog.ui:14
 #: dialogs/SimpleCitationBibliographyWidget.ui:55
-#. i18n: ectx: property (windowTitle), widget (QDialog,
-#. BibliographyConfigureDialog)
-#. i18n: ectx: property (toolTip), widget (QToolButton, configureBibliography)
 #, kde-format
 msgid "Configure bibliography"
 msgstr "ग्रन्थसूचीं विन्यस्यताम्"
 
-#: dialogs/BibliographyConfigureDialog.ui:20
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/BibliographyConfigureDialog.ui:20
 #, kde-format
 msgid "Formatting of bibliography entries"
 msgstr "ग्रन्थसूचीप्रविष्टीनां प्रारूपणम्"
 
-#: dialogs/BibliographyConfigureDialog.ui:28 dialogs/ListLevelWidget.ui:396
-#: dialogs/ParagraphBulletsNumbers.ui:70
 #. i18n: ectx: property (text), widget (QLabel, prefixLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/BibliographyConfigureDialog.ui:28 dialogs/ListLevelWidget.ui:396
+#: dialogs/ParagraphBulletsNumbers.ui:70
 #, kde-format
 msgid "Prefix:"
 msgstr "उपसर्गः : १."
 
-#: dialogs/BibliographyConfigureDialog.ui:48 dialogs/ListLevelWidget.ui:373
-#: dialogs/ParagraphBulletsNumbers.ui:86
 #. i18n: ectx: property (text), widget (QLabel, suffixLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/BibliographyConfigureDialog.ui:48 dialogs/ListLevelWidget.ui:373
+#: dialogs/ParagraphBulletsNumbers.ui:86
 #, kde-format
 msgid "Suffix:"
 msgstr "प्रत्ययः : १."
 
-#: dialogs/BibliographyConfigureDialog.ui:70
 #. i18n: ectx: property (text), widget (QCheckBox, numberedEntries)
+#: dialogs/BibliographyConfigureDialog.ui:70
 #, kde-format
 msgid "Number entries"
 msgstr "संख्याप्रविष्टयः"
 
-#: dialogs/BibliographyConfigureDialog.ui:80
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/BibliographyConfigureDialog.ui:80
 #, kde-format
 msgid "Sort"
 msgstr "प्रकारं"
 
-#: dialogs/BibliographyConfigureDialog.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, sortByPosition)
+#: dialogs/BibliographyConfigureDialog.ui:86
 #, kde-format
 msgid "Sort by position"
 msgstr "स्थितिनुसारं क्रमयन्तु"
 
-#: dialogs/BibliographyConfigureDialog.ui:93
 #. i18n: ectx: property (title), widget (QGroupBox, sortKeyGroupBox)
+#: dialogs/BibliographyConfigureDialog.ui:93
 #, kde-format
 msgid "Sort keys"
 msgstr "कुञ्जिकाः क्रमबद्धाः"
 
-#: dialogs/BibliographyConfigureDialog.ui:103
 #. i18n: ectx: property (text), widget (QPushButton, addSortKeyButton)
+#: dialogs/BibliographyConfigureDialog.ui:103
 #, kde-format
 msgid "Add sort key"
 msgstr "क्रमबद्धकुंजी योजयन्तु"
 
-#: dialogs/BibliographyConfigureDialog.ui:131
 #. i18n: ectx: property (text), widget (QLabel, sortAlgorithmLabel)
+#: dialogs/BibliographyConfigureDialog.ui:131
 #, kde-format
 msgid "Sort algorithm:"
 msgstr "क्रमाङ्कन एल्गोरिदम् : १."
 
-#: dialogs/BibliographyConfigureDialog.ui:139
 #. i18n: ectx: property (text), item, widget (QComboBox, sortAlgorithm)
+#: dialogs/BibliographyConfigureDialog.ui:139
 #, kde-format
 msgid "Alphanumeric"
 msgstr "अल्फान्यूमेरिक"
@@ -195,78 +246,63 @@ msgstr "एषा लोपितपाठपङ्क्तिः ।"
 msgid "This is a line of text whose format has been changed."
 msgstr "एषा पाठपङ्क्तिः यस्याः प्रारूपं परिवर्तितम् अस्ति ।"
 
-#: dialogs/ChangeConfigureDialog.ui:17
 #. i18n: ectx: property (windowTitle), widget (QDialog, ChangeConfigureDialog)
+#: dialogs/ChangeConfigureDialog.ui:17
 #, kde-format
 msgid "Configure Change Tracking"
 msgstr "परिवर्तननिरीक्षणं विन्यस्यताम्"
 
-#: dialogs/ChangeConfigureDialog.ui:30
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/ChangeConfigureDialog.ui:30
 #, kde-format
 msgid "General Settings"
 msgstr "सामान्य सेटिंग्स्"
 
-#: dialogs/ChangeConfigureDialog.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/ChangeConfigureDialog.ui:37
 #, kde-format
 msgid "Saving Format"
 msgstr "प्रारूपं रक्षति"
 
-#: dialogs/ChangeConfigureDialog.ui:44
 #. i18n: ectx: property (text), widget (QRadioButton, odf12RadioButton)
+#: dialogs/ChangeConfigureDialog.ui:44
 #, kde-format
 msgid "ODF 1.2"
 msgstr "ओडीएफ १.२"
 
-#: dialogs/ChangeConfigureDialog.ui:51
 #. i18n: ectx: property (text), widget (QRadioButton, deltaXmlRadioButton)
+#: dialogs/ChangeConfigureDialog.ui:51
 #, kde-format
 msgid "DeltaXML (Experimental)"
 msgstr "DeltaXML (प्रयोगात्मक) २."
 
-#: dialogs/ChangeConfigureDialog.ui:58
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/ChangeConfigureDialog.ui:58
 #, kde-format
 msgid "Author Name"
 msgstr "लेखक का नाम"
 
-#: dialogs/ChangeConfigureDialog.ui:75
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/ChangeConfigureDialog.ui:75
 #, kde-format
 msgid "Change Visualization Settings"
 msgstr "दृश्यीकरणसेटिंग्स् परिवर्तयन्तु"
 
-#: dialogs/ChangeConfigureDialog.ui:89
 #. i18n: ectx: property (title), widget (QGroupBox, insertionGroupBox)
+#: dialogs/ChangeConfigureDialog.ui:89
 #, kde-format
 msgid "Insertions"
 msgstr "निवेशाः"
 
-#: dialogs/ChangeConfigureDialog.ui:105 dialogs/ChangeConfigureDialog.ui:188
-#: dialogs/ChangeConfigureDialog.ui:247
 #. i18n: ectx: property (text), widget (QLabel, insertionColorLabel)
 #. i18n: ectx: property (text), widget (QLabel, deletionColorLabel)
 #. i18n: ectx: property (text), widget (QLabel, formatColorLabel)
+#: dialogs/ChangeConfigureDialog.ui:105 dialogs/ChangeConfigureDialog.ui:188
+#: dialogs/ChangeConfigureDialog.ui:247
 #, kde-format
 msgid "Background Color"
 msgstr "पृष्ठभूमि रंग"
 
-#: dialogs/ChangeConfigureDialog.ui:127 dialogs/ChangeConfigureDialog.ui:207
-#: dialogs/ChangeConfigureDialog.ui:266 dialogs/CharacterHighlighting.ui:40
-#: dialogs/CharacterHighlighting.ui:84 dialogs/FontDecorations.ui:36
-#: dialogs/FontDecorations.ui:62 dialogs/FontDecorations.ui:109
-#: dialogs/FontDecorations.ui:122 dialogs/FontDecorations.ui:135
-#: dialogs/FontDecorations.ui:148 dialogs/FontDecorations.ui:161
-#: dialogs/FontDecorations.ui:174 dialogs/FontDecorations.ui:187
-#: dialogs/FontDecorations.ui:200 dialogs/ParagraphBulletsNumbers.ui:221
-#: dialogs/SimpleCharacterWidget.ui:128 dialogs/SimpleInsertWidget.ui:49
-#: dialogs/SimpleInsertWidget.ui:62 dialogs/SimpleInsertWidget.ui:75
-#: dialogs/SimpleInsertWidget.ui:88 dialogs/SimpleInsertWidget.ui:101
-#: dialogs/SimpleInsertWidget.ui:114 dialogs/SimpleInsertWidget.ui:124
-#: dialogs/SimpleParagraphWidget.ui:73 dialogs/SimpleParagraphWidget.ui:167
-#: dialogs/SimpleSpellCheckingWidget.ui:26 dialogs/SimpleTableWidget.ui:101
-#: dialogs/SimpleTableWidget.ui:111 dialogs/SimpleTableWidget.ui:137
 #. i18n: ectx: property (text), widget (QToolButton, moreOptions)
 #. i18n: ectx: property (text), widget (QToolButton, toolAutoSpellCheck)
 #. i18n: ectx: property (text), widget (QToolButton, configureSection)
@@ -294,137 +330,147 @@ msgstr "पृष्ठभूमि रंग"
 #. i18n: ectx: property (text), widget (QPushButton, deletionColorButton)
 #. i18n: ectx: property (text), widget (QPushButton, formatColorButton)
 #. i18n: ectx: property (text), widget (QToolButton, customCharacter)
+#: dialogs/ChangeConfigureDialog.ui:127 dialogs/ChangeConfigureDialog.ui:207
+#: dialogs/ChangeConfigureDialog.ui:266 dialogs/CharacterHighlighting.ui:40
+#: dialogs/CharacterHighlighting.ui:84 dialogs/FontDecorations.ui:36
+#: dialogs/FontDecorations.ui:62 dialogs/FontDecorations.ui:109
+#: dialogs/FontDecorations.ui:122 dialogs/FontDecorations.ui:135
+#: dialogs/FontDecorations.ui:148 dialogs/FontDecorations.ui:161
+#: dialogs/FontDecorations.ui:174 dialogs/FontDecorations.ui:187
+#: dialogs/FontDecorations.ui:200 dialogs/ParagraphBulletsNumbers.ui:221
+#: dialogs/SimpleCharacterWidget.ui:128 dialogs/SimpleInsertWidget.ui:49
+#: dialogs/SimpleInsertWidget.ui:62 dialogs/SimpleInsertWidget.ui:75
+#: dialogs/SimpleInsertWidget.ui:88 dialogs/SimpleInsertWidget.ui:101
+#: dialogs/SimpleInsertWidget.ui:114 dialogs/SimpleInsertWidget.ui:124
+#: dialogs/SimpleParagraphWidget.ui:73 dialogs/SimpleParagraphWidget.ui:167
+#: dialogs/SimpleSpellCheckingWidget.ui:26 dialogs/SimpleTableWidget.ui:101
+#: dialogs/SimpleTableWidget.ui:111 dialogs/SimpleTableWidget.ui:137
 #, kde-format
 msgid "..."
 msgstr "..."
 
-#: dialogs/ChangeConfigureDialog.ui:158
 #. i18n: ectx: property (html), widget (QTextEdit, previewTextEdit)
+#: dialogs/ChangeConfigureDialog.ui:158
 #, kde-format
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
-"type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; "
-"font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; "
-"font-size:11pt; font-weight:600; text-decoration: "
-"underline;\">Preview</span></p>\n"
-"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:12pt; "
-"font-weight:600;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'MS Shell Dlg 2'; font-weight:600;\">Inserted Text</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text "
-"before the inserted text. This is a line of inserted text. This is a line "
-"after the inserted text.</span></p>\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-"
+"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span "
+"style=\" font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:600; text-"
+"decoration: underline;\">Preview</span></p>\n"
+"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600;"
+"\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-weight:600;\">Inserted Text</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the "
+"inserted text. This is a line of inserted text. This is a line after the "
+"inserted text.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'MS Shell Dlg 2';\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'MS Shell Dlg 2'; font-weight:600;\">Deleted Text</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text "
-"before the deleted text. This is a line of deleted text. This is a line "
-"after the deleted text.</span></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'MS Shell Dlg 2';\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-weight:600;\">Deleted Text</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the "
+"deleted text. This is a line of deleted text. This is a line after the "
+"deleted text.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'MS Shell Dlg 2';\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'MS Shell Dlg 2'; font-weight:600;\">Formatted Text</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
-"font-family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text "
-"before the format-change text. This is a line of text whose format has been "
-"changed. This is a line of text after the format-change "
-"text.</span></p></body></html>"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
+"family:'MS Shell Dlg 2';\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-weight:600;\">Formatted Text</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the "
+"format-change text. This is a line of text whose format has been changed. "
+"This is a line of text after the format-change text.</span></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\"><html><head><meta "
-"name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\"><html><head><meta name=\"qrichtext\" content=\"1\" /"
+"><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Bitstream Vera Sans'; "
-"font-size:9pt; font-weight:400; font-style:normal;\"><p align=\"center\" "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:600; "
-"text-decoration: underline;\">पूर्वावलोकनम्</span> </p><p align=\"center\" "
-"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
-"font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600;\"></p><p "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'MS Shell Dlg 2'; font-weight:600;\">प्रविष्टः पाठः</span> "
-"</p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'MS Shell Dlg 2'; font-size:8pt;\">एषा निवेशितपाठस्य पूर्वं "
-"पाठपङ्क्तिः अस्ति । एषा निवेशितपाठपङ्क्तिः अस्ति । एषा निवेशितपाठस्य "
-"अनन्तरं रेखा अस्ति ।</span> </p><p style=\"-qt-paragraph-type:empty; "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2';\"></p><p "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'MS Shell Dlg 2'; font-weight:600;\">विलोपितः पाठः</span> "
-"</p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'MS Shell Dlg 2'; font-size:8pt;\">एषा लोपितपाठस्य पूर्वं "
-"पाठपङ्क्तिः अस्ति । एषा लोपितपाठपङ्क्तिः । एषा लोपितपाठस्य अनन्तरं रेखा "
-"अस्ति ।</span> </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:9pt; font-weight:400; font-style:normal;\"><p align=\"center\" style=\" "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
+"block-indent:0; text-indent:0px;\"> <span style=\" font-family:'MS Shell Dlg "
+"2'; font-size:11pt; font-weight:600; text-decoration: underline;"
+"\">पूर्वावलोकनम्</span> </p><p align=\"center\" style=\"-qt-paragraph-type:"
+"empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+"-qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-"
+"size:12pt; font-weight:600;\"></p><p style=\" margin-top:0px; margin-"
+"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"> <span style=\" font-family:'MS Shell Dlg 2'; font-weight:600;"
+"\">प्रविष्टः पाठः</span> </p><p style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> "
+"<span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\">एषा "
+"निवेशितपाठस्य पूर्वं पाठपङ्क्तिः अस्ति । एषा निवेशितपाठपङ्क्तिः अस्ति । एषा निवेशितपाठस्य "
+"अनन्तरं रेखा अस्ति ।</span> </p><p style=\"-qt-paragraph-type:empty; margin-"
+"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+"indent:0; text-indent:0px; font-family:'MS Shell Dlg 2';\"></p><p style=\" "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
+"block-indent:0; text-indent:0px;\"> <span style=\" font-family:'MS Shell Dlg "
+"2'; font-weight:600;\">विलोपितः पाठः</span> </p><p style=\" margin-top:0px; "
 "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px; font-family:'MS Shell Dlg 2';\"></p><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> <span style=\" font-family:'MS "
-"Shell Dlg 2'; font-weight:600;\">प्रारूपित पाठ</span> </p><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> <span style=\" font-family:'MS "
-"Shell Dlg 2'; font-size:8pt;\">एषा प्रारूपपरिवर्तनपाठात् पूर्वं पाठपङ्क्तिः "
-"अस्ति । एषा पाठपङ्क्तिः यस्याः प्रारूपं परिवर्तितम् अस्ति । एषा "
-"प्रारूपपरिवर्तनपाठस्य अनन्तरं पाठपङ्क्तिः अस्ति ।</span></p></body></html>"
+"text-indent:0px;\"> <span style=\" font-family:'MS Shell Dlg 2'; font-"
+"size:8pt;\">एषा लोपितपाठस्य पूर्वं पाठपङ्क्तिः अस्ति । एषा लोपितपाठपङ्क्तिः । एषा "
+"लोपितपाठस्य अनन्तरं रेखा अस्ति ।</span> </p><p style=\"-qt-paragraph-type:empty; "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
+"block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2';\"></p><p "
+"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" font-"
+"family:'MS Shell Dlg 2'; font-weight:600;\">प्रारूपित पाठ</span> </p><p style="
+"\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
+"block-indent:0; text-indent:0px;\"> <span style=\" font-family:'MS Shell Dlg "
+"2'; font-size:8pt;\">एषा प्रारूपपरिवर्तनपाठात् पूर्वं पाठपङ्क्तिः अस्ति । एषा "
+"पाठपङ्क्तिः यस्याः प्रारूपं परिवर्तितम् अस्ति । एषा प्रारूपपरिवर्तनपाठस्य अनन्तरं पाठपङ्क्तिः "
+"अस्ति ।</span></p></body></html>"
 
-#: dialogs/ChangeConfigureDialog.ui:172
 #. i18n: ectx: property (title), widget (QGroupBox, deletionGroupBox)
+#: dialogs/ChangeConfigureDialog.ui:172
 #, kde-format
 msgid "Deletions"
 msgstr "लोपाः"
 
-#: dialogs/ChangeConfigureDialog.ui:231
 #. i18n: ectx: property (title), widget (QGroupBox, formatGroupBox)
+#: dialogs/ChangeConfigureDialog.ui:231
 #, kde-format
 msgid "Format Changes"
 msgstr "प्रारूप परिवर्तनम्"
 
-#: dialogs/ChangeTrackingOptionsWidget.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, ChangeTrackingOptions)
+#: dialogs/ChangeTrackingOptionsWidget.ui:14
 #, kde-format
 msgid "Change Tracking Options"
 msgstr "Tracking विकल्पान् परिवर्तयन्तु"
 
+#. i18n: ectx: property (text), widget (QPushButton, configureChangeTrackingButton)
 #: dialogs/ChangeTrackingOptionsWidget.ui:142
-#. i18n: ectx: property (text), widget (QPushButton,
-#. configureChangeTrackingButton)
 #, kde-format
 msgid "Configure Settings"
 msgstr "सेटिंग्स् विन्यस्तं कुर्वन्तु"
 
-#: dialogs/ChangeTrackingOptionsWidget.ui:175
 #. i18n: ectx: property (text), widget (QCheckBox, recordChangesCheckBox)
+#: dialogs/ChangeTrackingOptionsWidget.ui:175
 #, kde-format
 msgid "Record Changes"
 msgstr "परिवर्तनं अभिलेखयन्तु"
 
-#: dialogs/ChangeTrackingOptionsWidget.ui:182
 #. i18n: ectx: property (text), widget (QCheckBox, showChangesCheckBox)
+#: dialogs/ChangeTrackingOptionsWidget.ui:182
 #, kde-format
 msgid "Show Changes"
 msgstr "परिवर्तनं दर्शयतु"
@@ -434,26 +480,33 @@ msgstr "परिवर्तनं दर्शयतु"
 msgid "Font"
 msgstr "फॉन्ट्"
 
-#: dialogs/CharacterGeneral.ui:33
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#: dialogs/CharacterGeneral.ui:33
 #, kde-format
 msgid "General"
 msgstr "सामान्य"
 
-#: dialogs/CharacterGeneral.ui:52
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/CharacterGeneral.ui:39
+#, kde-format
+msgctxt "Name of the style"
+msgid "Name:"
+msgstr "नामः:"
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/CharacterGeneral.ui:52
 #, kde-format
 msgid "Next style:"
 msgstr "अग्रिमशैली : १."
 
-#: dialogs/CharacterGeneral.ui:68
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/CharacterGeneral.ui:68
 #, kde-format
 msgid "Parent style:"
 msgstr "मातापितृशैली : १."
 
-#: dialogs/CharacterGeneral.ui:84
 #. i18n: ectx: property (text), widget (QCheckBox, inToc)
+#: dialogs/CharacterGeneral.ui:84
 #, kde-format
 msgid "Include in table of contents"
 msgstr "विषयवस्तुसूचौ समावेशयन्तु"
@@ -493,36 +546,43 @@ msgstr "अधिलिपि"
 msgid "Subscript"
 msgstr "उपलिपिः"
 
-#: dialogs/CharacterHighlighting.ui:27 dialogs/FontDecorations.ui:49
 #. i18n: ectx: property (text), widget (QLabel, textColorLabel)
+#: dialogs/CharacterHighlighting.ui:27 dialogs/FontDecorations.ui:49
 #, kde-format
 msgid "Text color:"
 msgstr "पाठवर्णः : १."
 
+#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
 #: dialogs/CharacterHighlighting.ui:71 dialogs/FontDecorations.ui:69
 #: dialogs/ParagraphDecorations.ui:15
-#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
 #, kde-format
 msgid "Background color:"
 msgstr "पृष्ठभूमिवर्णः : १."
 
-#: dialogs/CharacterHighlighting.ui:110
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:110
 #, kde-format
 msgid "Underlining:"
 msgstr "रेखांकनम् : १."
 
-#: dialogs/CharacterHighlighting.ui:141
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:141
 #, kde-format
 msgid "Strikethrough:"
 msgstr "स्ट्राइकथ्रू : १."
 
-#: dialogs/CharacterHighlighting.ui:172
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:172
 #, kde-format
 msgid "Capitalization:"
 msgstr "पूंजीकरणम् : १."
+
+#. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/CharacterHighlighting.ui:185
+#, kde-format
+msgctxt "Character position"
+msgid "Position:"
+msgstr "स्थितिः:"
 
 #: dialogs/CitationInsertionDialog.cpp:24
 #, kde-format
@@ -549,378 +609,372 @@ msgstr ""
 msgid "Short name%1"
 msgstr "लघु नाम%1"
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, CitationInsertionDialog)
 #: dialogs/CitationInsertionDialog.ui:20
-#. i18n: ectx: property (windowTitle), widget (QDialog,
-#. CitationInsertionDialog)
 #, kde-format
 msgid "Insert Bibliography entry"
 msgstr "ग्रन्थसूची प्रविष्टि सम्मिलित करें"
 
-#: dialogs/CitationInsertionDialog.ui:32
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/CitationInsertionDialog.ui:32
 #, kde-format
 msgid "Insert Bibliography Entry Details"
 msgstr "ग्रन्थसूची प्रविष्टि विवरणं सम्मिलितं कुर्वन्तु"
 
-#: dialogs/CitationInsertionDialog.ui:38
 #. i18n: ectx: property (text), widget (QLabel, shortnameLabel)
+#: dialogs/CitationInsertionDialog.ui:38
 #, kde-format
 msgid "Short Name:"
 msgstr "लघु नाम : १."
 
-#: dialogs/CitationInsertionDialog.ui:52
 #. i18n: ectx: property (text), widget (QLabel, sourcetypeLabel)
+#: dialogs/CitationInsertionDialog.ui:52
 #, kde-format
 msgid "Source:"
 msgstr "स्रोतः:"
 
-#: dialogs/CitationInsertionDialog.ui:60
-#: dialogs/InsertBibliographyDialog.ui:61
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:60 dialogs/InsertBibliographyDialog.ui:61
 #, kde-format
 msgid "Article"
 msgstr "आलेख"
 
-#: dialogs/CitationInsertionDialog.ui:65
-#: dialogs/InsertBibliographyDialog.ui:66
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:65 dialogs/InsertBibliographyDialog.ui:66
 #, kde-format
 msgid "Book"
 msgstr "पुस्तकम्‌"
 
-#: dialogs/CitationInsertionDialog.ui:70
-#: dialogs/InsertBibliographyDialog.ui:71
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:70 dialogs/InsertBibliographyDialog.ui:71
 #, kde-format
 msgid "Booklet"
 msgstr "पुस्तिका"
 
-#: dialogs/CitationInsertionDialog.ui:75
-#: dialogs/InsertBibliographyDialog.ui:76
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:75 dialogs/InsertBibliographyDialog.ui:76
 #, kde-format
 msgid "Conference"
 msgstr "परिषद"
 
-#: dialogs/CitationInsertionDialog.ui:80
-#: dialogs/InsertBibliographyDialog.ui:81
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:80 dialogs/InsertBibliographyDialog.ui:81
 #, kde-format
 msgid "Email"
 msgstr "ईमेल"
 
-#: dialogs/CitationInsertionDialog.ui:85
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:85
 #, kde-format
 msgid "Inbook"
 msgstr "Inbook"
 
-#: dialogs/CitationInsertionDialog.ui:90
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:90
 #, kde-format
 msgid "Incollection"
 msgstr "असङ्ग्रहः"
 
-#: dialogs/CitationInsertionDialog.ui:95
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:95
 #, kde-format
 msgid "Inproceedings"
 msgstr "आन्तरिक कार्यवाही"
 
-#: dialogs/CitationInsertionDialog.ui:100
-#: dialogs/InsertBibliographyDialog.ui:101
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:100
+#: dialogs/InsertBibliographyDialog.ui:101
 #, kde-format
 msgid "Journal"
 msgstr "जर्नल"
 
-#: dialogs/CitationInsertionDialog.ui:105
-#: dialogs/InsertBibliographyDialog.ui:106
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:105
+#: dialogs/InsertBibliographyDialog.ui:106
 #, kde-format
 msgid "Manual"
 msgstr "शास्त्र"
 
-#: dialogs/CitationInsertionDialog.ui:110
-#: dialogs/InsertBibliographyDialog.ui:111
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:110
+#: dialogs/InsertBibliographyDialog.ui:111
 #, kde-format
 msgid "Masters thesis"
 msgstr "स्नातकोत्तर शोधप्रबन्ध"
 
-#: dialogs/CitationInsertionDialog.ui:115
-#: dialogs/InsertBibliographyDialog.ui:116
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:115
+#: dialogs/InsertBibliographyDialog.ui:116
 #, kde-format
 msgid "Misc"
 msgstr "विविधाः"
 
-#: dialogs/CitationInsertionDialog.ui:120
-#: dialogs/InsertBibliographyDialog.ui:121
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:120
+#: dialogs/InsertBibliographyDialog.ui:121
 #, kde-format
 msgid "PhD thesis"
 msgstr "पीएचडी शोध प्रबंध"
 
-#: dialogs/CitationInsertionDialog.ui:125
-#: dialogs/InsertBibliographyDialog.ui:126
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:125
+#: dialogs/InsertBibliographyDialog.ui:126
 #, kde-format
 msgid "Proceedings"
 msgstr "कार्यवाही"
 
-#: dialogs/CitationInsertionDialog.ui:130
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:130
 #, kde-format
 msgid "Tech Report"
 msgstr "टेक् रिपोर्ट"
 
-#: dialogs/CitationInsertionDialog.ui:135
-#: dialogs/InsertBibliographyDialog.ui:136
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:135
+#: dialogs/InsertBibliographyDialog.ui:136
 #, kde-format
 msgid "Unpublished"
 msgstr "अप्रकाशित"
 
-#: dialogs/CitationInsertionDialog.ui:140
-#: dialogs/InsertBibliographyDialog.ui:141
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/CitationInsertionDialog.ui:140
+#: dialogs/InsertBibliographyDialog.ui:141
 #, kde-format
 msgid "WWW"
 msgstr "WWW"
 
-#: dialogs/CitationInsertionDialog.ui:145
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:145
 #, kde-format
 msgid "custom 1"
 msgstr "प्रथा १"
 
-#: dialogs/CitationInsertionDialog.ui:150
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:150
 #, kde-format
 msgid "custom 2"
 msgstr "प्रथा २"
 
-#: dialogs/CitationInsertionDialog.ui:155
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:155
 #, kde-format
 msgid "custom 3"
 msgstr "प्रथा ३"
 
-#: dialogs/CitationInsertionDialog.ui:160
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:160
 #, kde-format
 msgid "custom 4"
 msgstr "प्रथा ४"
 
-#: dialogs/CitationInsertionDialog.ui:165
 #. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#: dialogs/CitationInsertionDialog.ui:165
 #, kde-format
 msgid "custom 5"
 msgstr "प्रथा ५"
 
-#: dialogs/CitationInsertionDialog.ui:173
 #. i18n: ectx: property (text), widget (QLabel, authorLabel)
+#: dialogs/CitationInsertionDialog.ui:173
 #, kde-format
 msgid "Author:"
 msgstr "लेखकः:"
 
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #: dialogs/CitationInsertionDialog.ui:183
 #: dialogs/InsertBibliographyDialog.ui:32
-#. i18n: ectx: property (text), widget (QLabel, titleLabel)
 #, kde-format
 msgid "Title:"
 msgstr "शीर्षक:"
 
-#: dialogs/CitationInsertionDialog.ui:193
 #. i18n: ectx: property (text), widget (QLabel, yearLabel)
+#: dialogs/CitationInsertionDialog.ui:193
 #, kde-format
 msgid "Year:"
 msgstr "वर्ष:"
 
-#: dialogs/CitationInsertionDialog.ui:203
 #. i18n: ectx: property (text), widget (QLabel, publisherLabel)
+#: dialogs/CitationInsertionDialog.ui:203
 #, kde-format
 msgid "Publisher:"
 msgstr "प्रकाशक : १."
 
-#: dialogs/CitationInsertionDialog.ui:213
 #. i18n: ectx: property (text), widget (QLabel, addressLabel)
+#: dialogs/CitationInsertionDialog.ui:213
 #, kde-format
 msgid "Address:"
 msgstr "पत्रसङ्केतः:"
 
-#: dialogs/CitationInsertionDialog.ui:223
 #. i18n: ectx: property (text), widget (QLabel, isbnLabel)
+#: dialogs/CitationInsertionDialog.ui:223
 #, kde-format
 msgid "ISBN:"
 msgstr "ISBN: १."
 
-#: dialogs/CitationInsertionDialog.ui:233
 #. i18n: ectx: property (text), widget (QLabel, chapterLabel)
+#: dialogs/CitationInsertionDialog.ui:233
 #, kde-format
 msgid "Chapter:"
 msgstr "अध्यायः १."
 
-#: dialogs/CitationInsertionDialog.ui:243
 #. i18n: ectx: property (text), widget (QLabel, issnLabel)
+#: dialogs/CitationInsertionDialog.ui:243
 #, kde-format
 msgid "ISSN:"
 msgstr "ISSN: १."
 
-#: dialogs/CitationInsertionDialog.ui:253
 #. i18n: ectx: property (text), widget (QLabel, editorLabel)
+#: dialogs/CitationInsertionDialog.ui:253
 #, kde-format
 msgid "Editor:"
 msgstr "सम्पादकः : १."
 
-#: dialogs/CitationInsertionDialog.ui:263
 #. i18n: ectx: property (text), widget (QLabel, pagesLabel)
+#: dialogs/CitationInsertionDialog.ui:263
 #, kde-format
 msgid "Page(s):"
 msgstr "पृष्ठ (पृष्ठ): ."
 
-#: dialogs/CitationInsertionDialog.ui:273
 #. i18n: ectx: property (text), widget (QLabel, booktitleLabel)
+#: dialogs/CitationInsertionDialog.ui:273
 #, kde-format
 msgid "Book title:"
 msgstr "पुस्तकस्य शीर्षकम् : १."
 
-#: dialogs/CitationInsertionDialog.ui:283
 #. i18n: ectx: property (text), widget (QLabel, editionLabel)
+#: dialogs/CitationInsertionDialog.ui:283
 #, kde-format
 msgid "Edition:"
 msgstr "संस्करणम् : १."
 
-#: dialogs/CitationInsertionDialog.ui:293
 #. i18n: ectx: property (text), widget (QLabel, publicationLabel)
+#: dialogs/CitationInsertionDialog.ui:293
 #, kde-format
 msgid "Publication:"
 msgstr "प्रकाशन : १."
 
-#: dialogs/CitationInsertionDialog.ui:303
 #. i18n: ectx: property (text), widget (QLabel, volumeLabel)
+#: dialogs/CitationInsertionDialog.ui:303
 #, kde-format
 msgid "Volume:"
 msgstr "मात्रा:"
 
-#: dialogs/CitationInsertionDialog.ui:313
 #. i18n: ectx: property (text), widget (QLabel, institutionLabel)
+#: dialogs/CitationInsertionDialog.ui:313
 #, kde-format
 msgid "Institution:"
 msgstr "संस्था : १."
 
-#: dialogs/CitationInsertionDialog.ui:323
 #. i18n: ectx: property (text), widget (QLabel, organisationLabel)
+#: dialogs/CitationInsertionDialog.ui:323
 #, kde-format
 msgid "Organisation:"
 msgstr "संघठनं:"
 
-#: dialogs/CitationInsertionDialog.ui:333
 #. i18n: ectx: property (text), widget (QLabel, reporttypeLabel)
+#: dialogs/CitationInsertionDialog.ui:333
 #, kde-format
 msgid "Type of Report:"
 msgstr "प्रतिवेदनस्य प्रकारः : १."
 
-#: dialogs/CitationInsertionDialog.ui:343
 #. i18n: ectx: property (text), widget (QLabel, schoolLabel)
+#: dialogs/CitationInsertionDialog.ui:343
 #, kde-format
 msgid "University:"
 msgstr "विश्वविद्यालयं:"
 
-#: dialogs/CitationInsertionDialog.ui:353
 #. i18n: ectx: property (text), widget (QLabel, journalLabel)
+#: dialogs/CitationInsertionDialog.ui:353
 #, kde-format
 msgid "Journal:"
 msgstr "पत्रिका : १."
 
-#: dialogs/CitationInsertionDialog.ui:363
 #. i18n: ectx: property (text), widget (QLabel, monthLabel)
+#: dialogs/CitationInsertionDialog.ui:363
 #, kde-format
 msgid "Month:"
 msgstr "माह:"
 
-#: dialogs/CitationInsertionDialog.ui:373
 #. i18n: ectx: property (text), widget (QLabel, seriesLabel)
+#: dialogs/CitationInsertionDialog.ui:373
 #, kde-format
 msgid "Series:"
 msgstr "श्रेणी:"
 
-#: dialogs/CitationInsertionDialog.ui:383
 #. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: dialogs/CitationInsertionDialog.ui:383
 #, kde-format
 msgid "Number:"
 msgstr "संख्या:"
 
-#: dialogs/CitationInsertionDialog.ui:393
 #. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#: dialogs/CitationInsertionDialog.ui:393
 #, kde-format
 msgid "Note:"
 msgstr "टीका:"
 
-#: dialogs/CitationInsertionDialog.ui:403
 #. i18n: ectx: property (text), widget (QLabel, annotationLabel)
+#: dialogs/CitationInsertionDialog.ui:403
 #, kde-format
 msgid "Annotation:"
 msgstr "टिप्पणी : १."
 
-#: dialogs/CitationInsertionDialog.ui:413
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: dialogs/CitationInsertionDialog.ui:413
 #, kde-format
 msgid "URL:"
 msgstr "URL: 1.1."
 
-#: dialogs/CitationInsertionDialog.ui:423
 #. i18n: ectx: property (text), widget (QLabel, ud1Label)
+#: dialogs/CitationInsertionDialog.ui:423
 #, kde-format
 msgid "User-defined 1:"
 msgstr "उपयोक्तृनिर्धारितः १ : १."
 
-#: dialogs/CitationInsertionDialog.ui:433
 #. i18n: ectx: property (text), widget (QLabel, ud3Label)
+#: dialogs/CitationInsertionDialog.ui:433
 #, kde-format
 msgid "User-defined 3:"
 msgstr "उपयोक्तृनिर्धारितः ३ : १."
 
-#: dialogs/CitationInsertionDialog.ui:440
 #. i18n: ectx: property (text), widget (QLabel, ud2Label)
+#: dialogs/CitationInsertionDialog.ui:440
 #, kde-format
 msgid "User-defined 2:"
 msgstr "उपयोक्तृनिर्धारितः २ : १."
 
-#: dialogs/CitationInsertionDialog.ui:453
 #. i18n: ectx: property (text), widget (QLabel, ud4Label)
+#: dialogs/CitationInsertionDialog.ui:453
 #, kde-format
 msgid "User-defined 4:"
 msgstr "उपयोक्तृनिर्धारितं ४ : १."
 
-#: dialogs/CitationInsertionDialog.ui:463
 #. i18n: ectx: property (text), widget (QLabel, ud5Label)
+#: dialogs/CitationInsertionDialog.ui:463
 #, kde-format
 msgid "User-defined 5:"
 msgstr "उपयोक्तृनिर्धारितं ५ : १."
 
-#: dialogs/CitationInsertionDialog.ui:485
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/CitationInsertionDialog.ui:485
 #, kde-format
 msgid "OR"
 msgstr "वा"
 
-#: dialogs/CitationInsertionDialog.ui:509
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/CitationInsertionDialog.ui:509
 #, kde-format
 msgid "From the document:"
 msgstr "दस्तावेजात् : १."
@@ -935,38 +989,38 @@ msgstr "प्रयुक्त शैल्याः"
 msgid "Unused Styles"
 msgstr "अप्रयुक्त शैल्याः"
 
-#: dialogs/FontDecorations.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox)
+#: dialogs/FontDecorations.ui:17
 #, kde-format
 msgid "Colors"
 msgstr "वर्णाः"
 
-#: dialogs/FontDecorations.ui:95
 #. i18n: ectx: property (title), widget (QGroupBox, shadowGroupBox)
+#: dialogs/FontDecorations.ui:95
 #, kde-format
 msgid "Text Shadow"
 msgstr "छाया इति पाठः"
 
-#: dialogs/FontDecorations.ui:244
 #. i18n: ectx: property (text), widget (QLabel, shadowColorLabel)
+#: dialogs/FontDecorations.ui:244
 #, kde-format
 msgid "Color:"
 msgstr "वर्ण:"
 
-#: dialogs/FontDecorations.ui:257
 #. i18n: ectx: property (text), widget (QLabel, shadowDistanceLabel)
+#: dialogs/FontDecorations.ui:257
 #, kde-format
 msgid "Distance:"
 msgstr "दूरी:"
 
-#: dialogs/FontDecorations.ui:289
 #. i18n: ectx: property (title), widget (QGroupBox, positionGroupBox)
+#: dialogs/FontDecorations.ui:289
 #, kde-format
 msgid "Position"
 msgstr "स्थितिः"
 
-#: dialogs/FontDecorations.ui:295
 #. i18n: ectx: property (text), widget (QCheckBox, hyphenate)
+#: dialogs/FontDecorations.ui:295
 #, kde-format
 msgid "Automatic hyphenation"
 msgstr "स्वचालितं हाइफनीकरणम्"
@@ -976,113 +1030,117 @@ msgstr "स्वचालितं हाइफनीकरणम्"
 msgid "Select Font"
 msgstr "Font इति चिनोतु"
 
+#: dialogs/FontDia.cpp:70
+msgctxt "(qtundo-format)"
+msgid "Font"
+msgstr "फॉन्ट्"
+
+#. i18n: ectx: property (text), widget (FormattingButton, addBibliography)
+#. i18n: ectx: property (windowTitle), widget (QDialog, InsertBibliographyDialog)
 #: dialogs/InsertBibliographyDialog.ui:17
 #: dialogs/SimpleCitationBibliographyWidget.ui:39 ReferencesTool.cpp:162
-#. i18n: ectx: property (text), widget (FormattingButton, addBibliography)
-#. i18n: ectx: property (windowTitle), widget (QDialog,
-#. InsertBibliographyDialog)
 #, kde-format
 msgid "Insert Bibliography"
 msgstr "ग्रन्थसूची सम्मिलित करें"
 
-#: dialogs/InsertBibliographyDialog.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, titlegroupBox)
+#: dialogs/InsertBibliographyDialog.ui:26
 #, kde-format
 msgid "Bibliography title"
 msgstr "ग्रन्थसूची शीर्षक"
 
-#: dialogs/InsertBibliographyDialog.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/InsertBibliographyDialog.ui:45
 #, kde-format
 msgid "Bibliography entries"
 msgstr "ग्रन्थसूची प्रविष्टियाँ"
 
-#: dialogs/InsertBibliographyDialog.ui:53
 #. i18n: ectx: property (text), widget (QLabel, bibTypesLabel)
+#: dialogs/InsertBibliographyDialog.ui:53
 #, kde-format
 msgid "Bibliography type:"
 msgstr "ग्रन्थसूची प्रकारः १."
 
-#: dialogs/InsertBibliographyDialog.ui:86
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:86
 #, kde-format
 msgid "In book"
 msgstr "पुस्तके"
 
-#: dialogs/InsertBibliographyDialog.ui:91
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:91
 #, kde-format
 msgid "In collection"
 msgstr "संग्रहे"
 
-#: dialogs/InsertBibliographyDialog.ui:96
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:96
 #, kde-format
 msgid "In proceedings"
 msgstr "कार्यवाहीयां"
 
-#: dialogs/InsertBibliographyDialog.ui:131
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:131
 #, kde-format
 msgid "Tech report"
 msgstr "टेक् रिपोर्ट"
 
-#: dialogs/InsertBibliographyDialog.ui:146
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:146
 #, kde-format
 msgid "custom1"
 msgstr "प्रथा1"
 
-#: dialogs/InsertBibliographyDialog.ui:151
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:151
 #, kde-format
 msgid "custom2"
 msgstr "प्रथा2"
 
-#: dialogs/InsertBibliographyDialog.ui:156
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:156
 #, kde-format
 msgid "custom3"
 msgstr "प्रथा३"
 
-#: dialogs/InsertBibliographyDialog.ui:161
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:161
 #, kde-format
 msgid "custom4"
 msgstr "प्रथा4"
 
-#: dialogs/InsertBibliographyDialog.ui:166
 #. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#: dialogs/InsertBibliographyDialog.ui:166
 #, kde-format
 msgid "custom5"
 msgstr "प्रथा ५"
 
-#: dialogs/InsertBibliographyDialog.ui:178
 #. i18n: ectx: property (text), widget (QLabel, availableFieldsLabel)
+#: dialogs/InsertBibliographyDialog.ui:178
 #, kde-format
 msgid "Available fields "
 msgstr "उपलब्धानि क्षेत्राणि "
 
-#: dialogs/InsertBibliographyDialog.ui:192
 #. i18n: ectx: property (text), widget (QPushButton, add)
+#: dialogs/InsertBibliographyDialog.ui:192
 #, kde-format
 msgid "Add >>"
 msgstr "योजयतु >>"
 
-#: dialogs/InsertBibliographyDialog.ui:199
 #. i18n: ectx: property (text), widget (QPushButton, span)
+#: dialogs/InsertBibliographyDialog.ui:199
 #, kde-format
 msgid "Span"
 msgstr "अवधि"
 
-#: dialogs/InsertBibliographyDialog.ui:206
 #. i18n: ectx: property (text), widget (QPushButton, remove)
+#: dialogs/InsertBibliographyDialog.ui:206
 #, kde-format
 msgid "<<Remove"
 msgstr "<<निष्कासन"
 
-#: dialogs/InsertBibliographyDialog.ui:217
 #. i18n: ectx: property (text), widget (QLabel, addedFieldsLabel)
+#: dialogs/InsertBibliographyDialog.ui:217
 #, kde-format
 msgid "Fields added"
 msgstr "क्षेत्राणि योजितवन्तः"
@@ -1092,15 +1150,21 @@ msgstr "क्षेत्राणि योजितवन्तः"
 msgid "Special Characters"
 msgstr "विशेषवर्णाः"
 
+#. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
 #: dialogs/InsertCharacter.cpp:26 dialogs/ManageBookmark.ui:34
 #: ReferencesTool.cpp:114 TextTool.cpp:2261
-#. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
 #, kde-format
 msgid "Insert"
 msgstr "युज्"
 
-#: dialogs/LanguageTab.ui:19
+#: dialogs/InsertCharacter.cpp:28
+#, kde-format
+msgctxt "Close dialog"
+msgid "Close"
+msgstr "पिधानं करोतु"
+
 #. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: dialogs/LanguageTab.ui:19
 #, kde-format
 msgid "Quick search:"
 msgstr "त्वरित अन्वेषणम् : १."
@@ -1131,134 +1195,131 @@ msgstr "आनेतुं समयः समाप्तः"
 msgid "Fetching the title: %1% complete"
 msgstr "शीर्षकं आनयति: %1% सम्पन्नम्"
 
-#: dialogs/LinkInsertionDialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, LinkInsertionDialog)
+#: dialogs/LinkInsertionDialog.ui:14
 #, kde-format
 msgid "Link"
 msgstr "सम्बन्ध"
 
-#: dialogs/LinkInsertionDialog.ui:30
 #. i18n: ectx: attribute (title), widget (QWidget, weblinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:30
 #, kde-format
 msgid "Web Link"
 msgstr "Web Link"
 
-#: dialogs/LinkInsertionDialog.ui:34
 #. i18n: ectx: attribute (toolTip), widget (QWidget, weblinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:34
 #, kde-format
 msgid ""
 "Insert links to web documents. You can provide both URL and a label for the "
 "link,\n"
 " or just enter the URL and hit \"Fetch the title from URL\""
 msgstr ""
-"जालदस्तावेजानां लिङ्कानि सम्मिलितं कुर्वन्तु। भवान् लिङ्कस्य कृते URL तथा "
-"लेबलं द्वयमपि प्रदातुं शक्नोति,\n"
+"जालदस्तावेजानां लिङ्कानि सम्मिलितं कुर्वन्तु। भवान् लिङ्कस्य कृते URL तथा लेबलं द्वयमपि प्रदातुं "
+"शक्नोति,\n"
 " अथवा केवलं URL प्रविश्य \"URL तः शीर्षकं आनयन्तु\" इति नुदन्तु ।"
 
-#: dialogs/LinkInsertionDialog.ui:42
 #. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#: dialogs/LinkInsertionDialog.ui:42
 #, kde-format
 msgid "The address of your document (Uniform Resource Locator)"
 msgstr "भवतः दस्तावेजस्य पता (Uniform Resource Locator)"
 
-#: dialogs/LinkInsertionDialog.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/LinkInsertionDialog.ui:45
 #, kde-format
 msgid " URL:"
 msgstr " URL: 1.1."
 
-#: dialogs/LinkInsertionDialog.ui:58
 #. i18n: ectx: property (toolTip), widget (QPushButton, fetchTitleButton)
+#: dialogs/LinkInsertionDialog.ui:58
 #, kde-format
 msgid ""
 "Hit this button to get the title from the URL. Redirections are also "
 "handled. "
-msgstr ""
-"URL तः शीर्षकं प्राप्तुं एतत् बटन् नुदन्तु । पुनर्निर्देशनानि अपि "
-"सम्पाद्यन्ते । "
+msgstr "URL तः शीर्षकं प्राप्तुं एतत् बटन् नुदन्तु । पुनर्निर्देशनानि अपि सम्पाद्यन्ते । "
 
-#: dialogs/LinkInsertionDialog.ui:61
 #. i18n: ectx: property (text), widget (QPushButton, fetchTitleButton)
+#: dialogs/LinkInsertionDialog.ui:61
 #, kde-format
 msgid "Fetch Title From URL"
 msgstr "URL तः शीर्षकं आनयन्तु"
 
-#: dialogs/LinkInsertionDialog.ui:81 dialogs/LinkInsertionDialog.ui:165
 #. i18n: ectx: property (toolTip), widget (QLabel, label)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#: dialogs/LinkInsertionDialog.ui:81 dialogs/LinkInsertionDialog.ui:165
 #, kde-format
 msgid "The text that will be displayed for your link"
 msgstr "भवतः लिङ्कस्य कृते यः पाठः प्रदर्शितः भविष्यति"
 
-#: dialogs/LinkInsertionDialog.ui:84 dialogs/LinkInsertionDialog.ui:168
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/LinkInsertionDialog.ui:84 dialogs/LinkInsertionDialog.ui:168
 #, kde-format
 msgid " Text:"
 msgstr " पाठ:"
 
-#: dialogs/LinkInsertionDialog.ui:113
 #. i18n: ectx: attribute (title), widget (QWidget, bookmarkLinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:113
 #, kde-format
 msgid "Link To Bookmark"
 msgstr "Link To Bookmark इति"
 
-#: dialogs/LinkInsertionDialog.ui:117
 #. i18n: ectx: attribute (toolTip), widget (QWidget, bookmarkLinkInsertionTab)
+#: dialogs/LinkInsertionDialog.ui:117
 #, kde-format
 msgid ""
 "Insert links to Bookmarks. To create bookmarks,\n"
 "click \"Bookmarks\" in the Links and Bookmarks section"
 msgstr ""
-"Bookmarks इत्यस्य लिङ्कानि सम्मिलितं कुर्वन्तु । पुस्तकचिह्नानि निर्मातुं, "
-".\n"
+"Bookmarks इत्यस्य लिङ्कानि सम्मिलितं कुर्वन्तु । पुस्तकचिह्नानि निर्मातुं, .\n"
 "Links and Bookmarks इति विभागे \"Bookmarks\" इत्यत्र क्लिक् कुर्वन्तु"
 
-#: dialogs/LinkInsertionDialog.ui:132
 #. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#: dialogs/LinkInsertionDialog.ui:132
 #, kde-format
 msgid "The name of the bookmark to where the link has to point to"
 msgstr "यत्र लिङ्क् सूचयितव्यं तत्र बुकमार्कस्य नाम"
 
-#: dialogs/LinkInsertionDialog.ui:135
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: dialogs/LinkInsertionDialog.ui:135
 #, kde-format
 msgid " Name:"
 msgstr " नामः:"
 
-#: dialogs/ListLevelWidget.ui:14 dialogs/ParagraphIndentSpacing.ui:14
 #. i18n: ectx: property (whatsThis), widget (QWidget, ParagraphIndentSpacing)
 #. i18n: ectx: property (whatsThis), widget (QWidget, ListLevelWidget)
+#: dialogs/ListLevelWidget.ui:14 dialogs/ParagraphIndentSpacing.ui:14
 #, kde-format
 msgid "<p><ul><li><b>Single</b>: The normal linespacing</li></ul></p> "
 msgstr "<p><ul><li><b>एकल</b> : सामान्यरेखाअन्तरालम्</li></ul></p> "
 
-#: dialogs/ListLevelWidget.ui:47
 #. i18n: ectx: property (text), widget (QCheckBox, addTabStop)
+#: dialogs/ListLevelWidget.ui:47
 #, kde-format
 msgid "Add tab stop"
 msgstr "ट्याब् स्टॉप् योजयन्तु"
 
-#: dialogs/ListLevelWidget.ui:71
 #. i18n: ectx: property (text), item, widget (QComboBox, labelFollowedBy)
+#: dialogs/ListLevelWidget.ui:71
 #, kde-format
 msgid "Tab character"
 msgstr "टब वर्ण"
 
-#: dialogs/ListLevelWidget.ui:76
 #. i18n: ectx: property (text), item, widget (QComboBox, labelFollowedBy)
+#: dialogs/ListLevelWidget.ui:76
 #, kde-format
 msgid "Space character"
 msgstr "अन्तरिक्षवर्णः"
 
-#: dialogs/ListLevelWidget.ui:81
 #. i18n: ectx: property (text), item, widget (QComboBox, labelFollowedBy)
+#: dialogs/ListLevelWidget.ui:81
 #, kde-format
 msgid "Nothing"
 msgstr "किमपि न"
 
-#: dialogs/ListLevelWidget.ui:95
 #. i18n: ectx: property (text), widget (QLabel, loremIpsum)
+#: dialogs/ListLevelWidget.ui:95
 #, kde-format
 msgid ""
 "              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed "
@@ -1269,102 +1330,101 @@ msgid ""
 "cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id "
 "est laborum."
 msgstr ""
-"              रोगी पालनं, रोगी अनुसरणं कर्तुं महत्त्वपूर्णं, परन्तु एतादृशे "
-"समये भविष्यति यत् बहु कार्यं, पीडा च भवति। लघुतमविवरणं हि आगन्तुं कोऽपि "
-"किमपि प्रकारस्य कार्यस्य अभ्यासं न कुर्यात् यावत् तस्मात् किमपि लाभं न "
-"लभते। भर्त्सने पीडां मा कुपस्व सुखे स वेदनाद् केशः भवितुमर्हति प्रजनं "
-"नास्ति इति आशायाम्। यावत् कामान्धाः न भवन्ति तावत् ते दोषिणः सन्ति ये "
+"              रोगी पालनं, रोगी अनुसरणं कर्तुं महत्त्वपूर्णं, परन्तु एतादृशे समये भविष्यति यत् "
+"बहु कार्यं, पीडा च भवति। लघुतमविवरणं हि आगन्तुं कोऽपि किमपि प्रकारस्य कार्यस्य अभ्यासं न "
+"कुर्यात् यावत् तस्मात् किमपि लाभं न लभते। भर्त्सने पीडां मा कुपस्व सुखे स वेदनाद् केशः "
+"भवितुमर्हति प्रजनं नास्ति इति आशायाम्। यावत् कामान्धाः न भवन्ति तावत् ते दोषिणः सन्ति ये "
 "स्वकर्तव्यं त्यक्त्वा हृदयं मृदु कुर्वन्ति, अर्थात् परिश्रमः।"
 
-#: dialogs/ListLevelWidget.ui:117
 #. i18n: ectx: property (text), widget (QLabel, labelLabel)
+#: dialogs/ListLevelWidget.ui:117
 #, kde-format
 msgid "LABEL"
 msgstr "नामपत्र"
 
-#: dialogs/ListLevelWidget.ui:149
 #. i18n: ectx: property (text), widget (QLabel, tabStopLabel)
+#: dialogs/ListLevelWidget.ui:149
 #, kde-format
 msgid "First line separated from label by:"
 msgstr "प्रथमपङ्क्तिः लेबलतः पृथक् कृता अस्ति :"
 
-#: dialogs/ListLevelWidget.ui:204 dialogs/ParagraphLayout.ui:22
 #. i18n: ectx: property (text), widget (QRadioButton, left)
 #. i18n: ectx: property (text), item, widget (QComboBox, alignment)
+#: dialogs/ListLevelWidget.ui:204 dialogs/ParagraphLayout.ui:22
 #, kde-format
 msgid "Left"
 msgstr "वामः"
 
-#: dialogs/ListLevelWidget.ui:209 dialogs/ParagraphLayout.ui:29
 #. i18n: ectx: property (text), widget (QRadioButton, center)
 #. i18n: ectx: property (text), item, widget (QComboBox, alignment)
+#: dialogs/ListLevelWidget.ui:209 dialogs/ParagraphLayout.ui:29
 #, kde-format
 msgid "Center"
 msgstr "केंद्र"
 
-#: dialogs/ListLevelWidget.ui:214 dialogs/ParagraphLayout.ui:36
 #. i18n: ectx: property (text), widget (QRadioButton, right)
 #. i18n: ectx: property (text), item, widget (QComboBox, alignment)
+#: dialogs/ListLevelWidget.ui:214 dialogs/ParagraphLayout.ui:36
 #, kde-format
 msgid "Right"
 msgstr "दक्षिणः"
 
-#: dialogs/ListLevelWidget.ui:300
 #. i18n: ectx: property (text), widget (QLabel, increaseLabel)
+#: dialogs/ListLevelWidget.ui:300
 #, kde-format
 msgid "Per level increase:"
 msgstr "प्रतिस्तरवृद्धिः : १."
 
-#: dialogs/ListLevelWidget.ui:334
 #. i18n: ectx: attribute (title), widget (QWidget, numberTab)
+#: dialogs/ListLevelWidget.ui:334
 #, kde-format
 msgid "Number"
 msgstr "संख्या"
 
-#: dialogs/ListLevelWidget.ui:366
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/ListLevelWidget.ui:366
 #, kde-format
 msgid "Format:"
 msgstr "प्रारूपः : १."
 
-#: dialogs/ListLevelWidget.ui:429
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/ListLevelWidget.ui:429
 #, kde-format
 msgid "Display levels above:"
 msgstr "उपरि स्तराः प्रदर्शयन्तु : १."
 
-#: dialogs/ListLevelWidget.ui:436
 #. i18n: ectx: property (text), widget (QCheckBox, synchro)
+#: dialogs/ListLevelWidget.ui:436
 #, kde-format
 msgid "Letter synchronization"
 msgstr "अक्षर समन्वयन"
 
-#: dialogs/ListLevelWidget.ui:454
 #. i18n: ectx: attribute (title), widget (QWidget, bulletTab)
+#: dialogs/ListLevelWidget.ui:454
 #, kde-format
 msgid "Bullet"
 msgstr "गोली"
 
-#: dialogs/ListLevelWidget.ui:459
 #. i18n: ectx: attribute (title), widget (QWidget, imageTab)
+#: dialogs/ListLevelWidget.ui:459
 #, kde-format
 msgid "Picture"
 msgstr "चित्र"
 
-#: dialogs/ListLevelWidget.ui:481
 #. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#: dialogs/ListLevelWidget.ui:481
 #, kde-format
 msgid "Load Image..."
 msgstr "चित्रं लोडं कुर्वन्तु..."
 
-#: dialogs/ManageBookmark.ui:20
 #. i18n: ectx: property (text), widget (QPushButton, buttonRename)
+#: dialogs/ManageBookmark.ui:20
 #, kde-format
 msgid "&Rename"
 msgstr "&नाम पुनर्नाम"
 
-#: dialogs/ManageBookmark.ui:27
 #. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
+#: dialogs/ManageBookmark.ui:27
 #, kde-format
 msgid "&Delete"
 msgstr "&लुप्"
@@ -1409,228 +1469,276 @@ msgstr "पादटिप्पणी सेटिंग्स्"
 msgid "Endnote Settings"
 msgstr "अन्त्यटिप्पणी सेटिंग्स्"
 
-#: dialogs/NotesConfigurationDialog.ui:54
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/NotesConfigurationDialog.ui:54
 #, kde-format
 msgid "Automatic Numbering:"
 msgstr "स्वचालितं संख्याकरणम् : १."
 
-#: dialogs/NotesConfigurationDialog.ui:75
 #. i18n: ectx: property (text), widget (QLabel, prefix)
+#: dialogs/NotesConfigurationDialog.ui:75
 #, kde-format
 msgid " Prefix:"
 msgstr " उपसर्गः : १."
 
-#: dialogs/NotesConfigurationDialog.ui:85
 #. i18n: ectx: property (text), widget (QLabel, startAt)
+#: dialogs/NotesConfigurationDialog.ui:85
 #, kde-format
 msgid " Start at:"
 msgstr " अत्र आरभ्यताम् : १."
 
-#: dialogs/NotesConfigurationDialog.ui:95
 #. i18n: ectx: property (text), widget (QLabel, numStyle)
+#: dialogs/NotesConfigurationDialog.ui:95
 #, kde-format
 msgid " Format:"
 msgstr " प्रारूपः : १."
 
-#: dialogs/NotesConfigurationDialog.ui:111
 #. i18n: ectx: property (text), widget (QLabel, suffix)
+#: dialogs/NotesConfigurationDialog.ui:111
 #, kde-format
 msgid " Suffix:"
 msgstr " प्रत्ययः : १."
 
-#: dialogs/NotesConfigurationDialog.ui:127
 #. i18n: ectx: property (text), widget (QLabel, beginAt)
+#: dialogs/NotesConfigurationDialog.ui:127
 #, kde-format
 msgid "Starts over at:"
 msgstr "पुनः आरभ्यते :"
 
-#: dialogs/NotesConfigurationDialog.ui:144
 #. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#: dialogs/NotesConfigurationDialog.ui:144
 #, kde-format
 msgid "Page"
 msgstr "पृष्ठ"
 
-#: dialogs/NotesConfigurationDialog.ui:149
 #. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#: dialogs/NotesConfigurationDialog.ui:149
 #, kde-format
 msgid "Chapter"
 msgstr "अध्यायः"
 
-#: dialogs/NotesConfigurationDialog.ui:154
 #. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#: dialogs/NotesConfigurationDialog.ui:154
 #, kde-format
 msgid "Document"
 msgstr "प्रलेख"
 
-#: dialogs/NotesConfigurationDialog.ui:233
 #. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:233
 #, kde-format
 msgid "1, 2, 3, ..."
 msgstr "१, २, ३, ..."
 
-#: dialogs/NotesConfigurationDialog.ui:238
 #. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:238
 #, kde-format
 msgid "a, b, c, ..., aa, ab, ..., ba, bb, ..."
 msgstr "क, ख, ग, ..., आ, अब, ..., बा, बब्, ..."
 
-#: dialogs/NotesConfigurationDialog.ui:243
 #. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:243
 #, kde-format
 msgid "A, B, C, ..., AA, AB, ..., BA, BB, ..."
 msgstr "क, ख, ग, ..., आ, अब्, ..., बीए, बीबी, ..."
 
-#: dialogs/NotesConfigurationDialog.ui:248
 #. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:248
 #, kde-format
 msgid "a, b, c, ..., aa, bb, ..., aaa, bbb, ..."
 msgstr "क, ख, ग, ..., आ, बब्, ..., आ, बब्ब, ..."
 
-#: dialogs/NotesConfigurationDialog.ui:253
 #. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:253
 #, kde-format
 msgid "A, B, C, ..., AA, BB, ..., AAA, BBB, ..."
 msgstr "क, ख, ग, ..., एए, बीबी, ..., आआ, बीबीबी, ..."
 
-#: dialogs/NotesConfigurationDialog.ui:258
 #. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:258
 #, kde-format
 msgid "i, ii, iii, ..."
 msgstr "i, ii, iii, ..."
 
-#: dialogs/NotesConfigurationDialog.ui:263
 #. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#: dialogs/NotesConfigurationDialog.ui:263
 #, kde-format
 msgid "I,II,III, ..."
 msgstr "अहं, द्वितीय, तृतीय, ..."
 
-#: dialogs/NotesConfigurationDialog.ui:290
 #. i18n: ectx: property (title), widget (QGroupBox, continuationBox)
+#: dialogs/NotesConfigurationDialog.ui:290
 #, kde-format
 msgid "Continuation Notice:"
 msgstr "निरन्तरतासूचना : १."
 
-#: dialogs/NotesConfigurationDialog.ui:305
 #. i18n: ectx: property (text), widget (QLabel, cont2)
+#: dialogs/NotesConfigurationDialog.ui:305
 #, kde-format
 msgid "Text saying it is a continuation:"
 msgstr "निरन्तरता इति पाठः- १."
 
-#: dialogs/NotesConfigurationDialog.ui:315
 #. i18n: ectx: property (text), widget (QLabel, cont1)
+#: dialogs/NotesConfigurationDialog.ui:315
 #, kde-format
 msgid " Text saying it will continue:"
 msgstr " अग्रे भविष्यति इति पाठः- १."
+
+#: dialogs/ParagraphBulletsNumbers.cpp:34
+#, kde-format
+msgctxt "Automatic horizontal alignment"
+msgid "Auto"
+msgstr "ऑटो"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:35
+#, kde-format
+msgctxt "Text alignment"
+msgid "Left"
+msgstr "वामः"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:36
+#, kde-format
+msgctxt "Text alignment"
+msgid "Right"
+msgstr "दक्षिणः"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:37
+#, kde-format
+msgctxt "Text alignment"
+msgid "Centered"
+msgstr "केन्द्रित"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:39
+#, kde-format
+msgctxt "Tab follows the bullet or number"
+msgid "Tab Stop"
+msgstr "ट्याब् स्टॉप्"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:40
+#, kde-format
+msgctxt "Space"
+msgid "Space"
+msgstr "स्थानं"
+
+#: dialogs/ParagraphBulletsNumbers.cpp:41
+#, kde-format
+msgctxt "None"
+msgid "Nothing"
+msgstr "किमपि न"
 
 #: dialogs/ParagraphBulletsNumbers.cpp:347
 #, kde-format
 msgid "Select a list image"
 msgstr "सूचीप्रतिबिम्बं चिनोतु"
 
-#: dialogs/ParagraphBulletsNumbers.ui:31
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/ParagraphBulletsNumbers.ui:31
 #, kde-format
 msgid "Start at:"
 msgstr "अत्र आरभ्यताम् : १."
 
-#: dialogs/ParagraphBulletsNumbers.ui:57 dialogs/ParagraphLayout.ui:15
 #. i18n: ectx: property (text), widget (QLabel, distanceLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#: dialogs/ParagraphBulletsNumbers.ui:57 dialogs/ParagraphLayout.ui:15
 #, kde-format
 msgid "Alignment:"
 msgstr "संरेखणम् : १."
 
-#: dialogs/ParagraphBulletsNumbers.ui:105
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/ParagraphBulletsNumbers.ui:105
 #, kde-format
 msgid "Depth:"
 msgstr "गहनता:"
 
-#: dialogs/ParagraphBulletsNumbers.ui:128
 #. i18n: ectx: property (text), widget (QLabel, label_7)
+#: dialogs/ParagraphBulletsNumbers.ui:128
 #, kde-format
 msgid "Display Levels:"
 msgstr "प्रदर्शनस्तराः : १."
 
-#: dialogs/ParagraphBulletsNumbers.ui:148
 #. i18n: ectx: property (text), widget (QLabel, label_8)
+#: dialogs/ParagraphBulletsNumbers.ui:148
 #, kde-format
 msgid "Bullet/Number followed by"
 msgstr "गोली/संख्या तदनन्तरं"
 
-#: dialogs/ParagraphBulletsNumbers.ui:158
-#: dialogs/ParagraphBulletsNumbers.ui:175
-#: dialogs/ParagraphBulletsNumbers.ui:192
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox_2)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox_3)
+#: dialogs/ParagraphBulletsNumbers.ui:158
+#: dialogs/ParagraphBulletsNumbers.ui:175
+#: dialogs/ParagraphBulletsNumbers.ui:192
 #, kde-format
 msgid " cm"
 msgstr " से.मी"
 
-#: dialogs/ParagraphBulletsNumbers.ui:165
 #. i18n: ectx: property (text), widget (QLabel, label_9)
+#: dialogs/ParagraphBulletsNumbers.ui:165
 #, kde-format
 msgid "at"
 msgstr "इत्युपरि"
 
-#: dialogs/ParagraphBulletsNumbers.ui:182
 #. i18n: ectx: property (text), widget (QLabel, label_10)
+#: dialogs/ParagraphBulletsNumbers.ui:182
 #, kde-format
 msgid "Aligned at"
 msgstr "संरेखितम् at"
 
-#: dialogs/ParagraphBulletsNumbers.ui:199
 #. i18n: ectx: property (text), widget (QLabel, label_11)
+#: dialogs/ParagraphBulletsNumbers.ui:199
 #, kde-format
 msgid "Indented at"
 msgstr "इन्डेण्ट् अट्"
 
-#: dialogs/ParagraphBulletsNumbers.ui:211
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: dialogs/ParagraphBulletsNumbers.ui:211
 #, kde-format
 msgid "Custom character:"
 msgstr "कस्टम वर्णः : १."
 
-#: dialogs/ParagraphBulletsNumbers.ui:241
 #. i18n: ectx: property (text), widget (QCheckBox, restartNumbering)
+#: dialogs/ParagraphBulletsNumbers.ui:241
 #, kde-format
 msgid "Restart numbering at this paragraph"
 msgstr "अस्मिन् अनुच्छेदे संख्याकरणं पुनः आरभत"
 
-#: dialogs/ParagraphBulletsNumbers.ui:248
 #. i18n: ectx: property (text), widget (QCheckBox, letterSynchronization)
+#: dialogs/ParagraphBulletsNumbers.ui:248
 #, kde-format
 msgid "Letter Synchronization"
 msgstr "अक्षर समन्वयन"
 
-#: dialogs/ParagraphBulletsNumbers.ui:257
 #. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#: dialogs/ParagraphBulletsNumbers.ui:257
 #, kde-format
 msgid "Width"
 msgstr "विस्तार"
 
-#: dialogs/ParagraphBulletsNumbers.ui:264
 #. i18n: ectx: property (text), widget (QLabel, insertImageLabel)
+#: dialogs/ParagraphBulletsNumbers.ui:264
 #, kde-format
 msgid "Insert Image"
 msgstr "चित्रं सम्मिलितं कुर्वन्तु"
 
-#: dialogs/ParagraphBulletsNumbers.ui:274
 #. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#: dialogs/ParagraphBulletsNumbers.ui:274
 #, kde-format
 msgid "Height"
 msgstr "औनत्यम्‌"
 
-#: dialogs/ParagraphBulletsNumbers.ui:284
 #. i18n: ectx: property (text), widget (QPushButton, insertImage)
+#: dialogs/ParagraphBulletsNumbers.ui:284
 #, kde-format
 msgid "Browse..."
 msgstr "ब्राउज़ करें..."
 
-#: dialogs/ParagraphDecorations.ui:36
+#: dialogs/ParagraphDecorations.cpp:18
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset background color"
+msgstr "पृष्ठभूमिवर्णं पुनः सेट् कुर्वन्तु"
+
 #. i18n: ectx: property (toolTip), widget (QToolButton, resetBackgroundColor)
+#: dialogs/ParagraphDecorations.ui:36
 #, kde-format
 msgid "Reset background color"
 msgstr "पृष्ठभूमिवर्णं पुनः सेट् कुर्वन्तु"
@@ -1640,21 +1748,21 @@ msgstr "पृष्ठभूमिवर्णं पुनः सेट् क
 msgid "Whole Word"
 msgstr "सम्पूर्ण शब्द"
 
-#: dialogs/ParagraphDropCaps.ui:15
 #. i18n: ectx: property (text), widget (QCheckBox, capsState)
+#: dialogs/ParagraphDropCaps.ui:15
 #, kde-format
 msgid "Enable drop caps"
 msgstr "ड्रॉप् कैप्स् सक्षमं कुर्वन्तु"
 
-#: dialogs/ParagraphDropCaps.ui:22 dialogs/ParagraphDropCaps.ui:42
 #. i18n: ectx: property (text), widget (QLabel, distanceLabel)
 #. i18n: ectx: property (text), widget (QLabel, charactersLabel)
+#: dialogs/ParagraphDropCaps.ui:22 dialogs/ParagraphDropCaps.ui:42
 #, kde-format
 msgid "Distance to paragraph:"
 msgstr "अनुच्छेदस्य दूरम् : १."
 
-#: dialogs/ParagraphDropCaps.ui:71
 #. i18n: ectx: property (text), widget (QLabel, linesLabel)
+#: dialogs/ParagraphDropCaps.ui:71
 #, kde-format
 msgid "Number of lines it covers:"
 msgstr "अस्मिन् आच्छादितानां रेखानां संख्या : १."
@@ -1684,92 +1792,134 @@ msgstr "अलङ्काराः"
 msgid "Drop Caps"
 msgstr "ड्रॉप कैप्स"
 
-#: dialogs/ParagraphIndentSpacing.ui:22
+#: dialogs/ParagraphIndentSpacing.cpp:28
+#, kde-format
+msgctxt "Line spacing value"
+msgid "Single"
+msgstr "एकैकः"
+
+#: dialogs/ParagraphIndentSpacing.cpp:29
+#, kde-format
+msgctxt "Line spacing value"
+msgid "1.5 Lines"
+msgstr "१.५ पङ्क्तयः"
+
+#: dialogs/ParagraphIndentSpacing.cpp:30
+#, kde-format
+msgctxt "Line spacing value"
+msgid "Double"
+msgstr "द्विद्वार"
+
+#: dialogs/ParagraphIndentSpacing.cpp:31
+#, kde-format
+msgctxt "Line spacing type"
+msgid "Proportional"
+msgstr "आनुपातिक"
+
+#: dialogs/ParagraphIndentSpacing.cpp:32
+#, kde-format
+msgctxt "Line spacing type"
+msgid "Additional"
+msgstr "अतिरिक्त रूपेन"
+
+#: dialogs/ParagraphIndentSpacing.cpp:33
+#, kde-format
+msgctxt "Line spacing type"
+msgid "Fixed"
+msgstr "युक्त"
+
+#: dialogs/ParagraphIndentSpacing.cpp:34
+#, kde-format
+msgctxt "Line spacing type"
+msgid "At least"
+msgstr "न्यूनतम"
+
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:22
 #, kde-format
 msgid "Left Indent:"
 msgstr "वाम इण्डेन्टः : १."
 
-#: dialogs/ParagraphIndentSpacing.ui:35
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:35
 #, kde-format
 msgid "Right Indent:"
 msgstr "दक्षिणः इन्डेंटः : १."
 
-#: dialogs/ParagraphIndentSpacing.ui:48
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:48
 #, kde-format
 msgid "First Line Indent:"
 msgstr "प्रथमपङ्क्तिः इन्डेंटः : १."
 
-#: dialogs/ParagraphIndentSpacing.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, autoTextIndent)
+#: dialogs/ParagraphIndentSpacing.ui:66
 #, kde-format
 msgid "Auto-infer from text size"
 msgstr "पाठस्य आकारात् स्वयमेव अनुमानं कुर्वन्तु"
 
-#: dialogs/ParagraphIndentSpacing.ui:75
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:75
 #, kde-format
 msgid "Line Spacing:"
 msgstr "रेखा अन्तरालः : १."
 
-#: dialogs/ParagraphIndentSpacing.ui:107
 #. i18n: ectx: property (suffix), widget (QSpinBox, percentPage)
+#: dialogs/ParagraphIndentSpacing.ui:107
 #, no-c-format, kde-format
 msgid " %"
 msgstr " % ."
 
-#: dialogs/ParagraphIndentSpacing.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, useFont)
+#: dialogs/ParagraphIndentSpacing.ui:129
 #, kde-format
 msgid "Use Font Metrics"
 msgstr "Font Metrics इत्यस्य उपयोगं कुर्वन्तु"
 
-#: dialogs/ParagraphIndentSpacing.ui:136
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:136
 #, kde-format
 msgid "Paragraph Space Before:"
 msgstr "अनुच्छेद स्थानं पूर्वम् : १."
 
-#: dialogs/ParagraphIndentSpacing.ui:146
 #. i18n: ectx: property (text), widget (QLabel)
+#: dialogs/ParagraphIndentSpacing.ui:146
 #, kde-format
 msgid "Paragraph Space After:"
 msgstr "अनुच्छेद स्थानं पश्चात् : १."
 
-#: dialogs/ParagraphLayout.ui:43
 #. i18n: ectx: property (text), widget (QRadioButton, justify)
+#: dialogs/ParagraphLayout.ui:43
 #, kde-format
 msgid "Justify"
 msgstr "प्रमाणय्"
 
-#: dialogs/ParagraphLayout.ui:50
 #. i18n: ectx: property (text), widget (QLabel, distanceLabel)
+#: dialogs/ParagraphLayout.ui:50
 #, kde-format
 msgid "Behavior at end of frame and page:"
 msgstr "फ्रेमस्य पृष्ठस्य च अन्ते व्यवहारः : १."
 
-#: dialogs/ParagraphLayout.ui:57
 #. i18n: ectx: property (text), widget (QCheckBox, keepTogether)
+#: dialogs/ParagraphLayout.ui:57
 #, kde-format
 msgid "Keep lines together"
 msgstr "रेखाः एकत्र स्थापयन्तु"
 
-#: dialogs/ParagraphLayout.ui:64
 #. i18n: ectx: property (text), widget (QCheckBox, breakBefore)
+#: dialogs/ParagraphLayout.ui:64
 #, kde-format
 msgid "Insert break before paragraph"
 msgstr "अनुच्छेदस्य पूर्वं विरामं निवेशयन्तु"
 
-#: dialogs/ParagraphLayout.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, breakAfter)
+#: dialogs/ParagraphLayout.ui:71
 #, kde-format
 msgid "Insert break after paragraph"
 msgstr "अनुच्छेदस्य अनन्तरं विरामं सम्मिलितं कुर्वन्तु"
 
-#: dialogs/ParagraphLayout.ui:78
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/ParagraphLayout.ui:78
 #, kde-format
 msgid "Leave at least this many lines (orphans):"
 msgstr "न्यूनातिन्यूनं एतावता पङ्क्तयः (अनाथाः) त्यजन्तु :"
@@ -1799,50 +1949,50 @@ msgstr "खण्डान् विन्यस्यताम्"
 msgid "Invalid characters or section with such name exists."
 msgstr "असिद्धवर्णाः अथवा तादृशनाम्ना खण्डः अस्ति।"
 
-#: dialogs/SectionFormatDialog.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/SectionFormatDialog.ui:29
 #, kde-format
 msgid "Section name:"
 msgstr "खण्डनाम : १."
 
-#: dialogs/SectionsSplitDialog.ui:6
 #. i18n: ectx: property (windowTitle), widget (QWidget, SectionsSplitDialog)
+#: dialogs/SectionsSplitDialog.ui:6
 #, kde-format
 msgid "Split sections"
 msgstr "खण्डाः विभक्ताः"
 
-#: dialogs/SectionsSplitDialog.ui:12
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/SectionsSplitDialog.ui:12
 #, kde-format
 msgid "Insert paragraph..."
 msgstr "अनुच्छेदं सम्मिलितं कुर्वन्तु..."
 
-#: dialogs/SectionsSplitDialog.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: dialogs/SectionsSplitDialog.ui:23
 #, kde-format
 msgid "before start of section:"
 msgstr "खण्डस्य आरम्भात् पूर्वं : १."
 
-#: dialogs/SectionsSplitDialog.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: dialogs/SectionsSplitDialog.ui:37
 #, kde-format
 msgid "after end of section:"
 msgstr "खण्डस्य समाप्तेः अनन्तरं : १."
 
-#: dialogs/SimpleAnnotationWidget.ui:32
 #. i18n: ectx: property (text), widget (QToolButton, insertAnnotation)
+#: dialogs/SimpleAnnotationWidget.ui:32
 #, kde-format
 msgid "Insert Note"
 msgstr "टिप्पणी सम्मिलित करें"
 
-#: dialogs/SimpleAnnotationWidget.ui:42
 #. i18n: ectx: property (text), widget (QToolButton, removeAnnotation)
+#: dialogs/SimpleAnnotationWidget.ui:42
 #, kde-format
 msgid "Remove Note"
 msgstr "Remove Note"
 
-#: dialogs/SimpleCaptionsWidget.ui:34
 #. i18n: ectx: property (text), widget (QToolButton, addCitation)
+#: dialogs/SimpleCaptionsWidget.ui:34
 #, kde-format
 msgid "Add caption"
 msgstr "शीर्षकं योजयन्तु"
@@ -1852,20 +2002,20 @@ msgstr "शीर्षकं योजयन्तु"
 msgid "Change font format"
 msgstr "फन्ट् प्रारूपं परिवर्तयन्तु"
 
-#: dialogs/SimpleCitationBibliographyWidget.ui:26
 #. i18n: ectx: property (toolTip), widget (QToolButton, addCitation)
+#: dialogs/SimpleCitationBibliographyWidget.ui:26
 #, kde-format
 msgid "Insert citation at current position"
 msgstr "वर्तमानस्थाने उद्धरणं सम्मिलितं कुर्वन्तु"
 
-#: dialogs/SimpleCitationBibliographyWidget.ui:29 ReferencesTool.cpp:157
 #. i18n: ectx: property (text), widget (QToolButton, addCitation)
+#: dialogs/SimpleCitationBibliographyWidget.ui:29 ReferencesTool.cpp:157
 #, kde-format
 msgid "Insert Citation"
 msgstr "प्रशस्तिपत्रं सम्मिलितं कुर्वन्तु"
 
-#: dialogs/SimpleCitationBibliographyWidget.ui:58
 #. i18n: ectx: property (text), widget (QToolButton, configureBibliography)
+#: dialogs/SimpleCitationBibliographyWidget.ui:58
 #, kde-format
 msgid "Configure Bibliography"
 msgstr "ग्रन्थसूची विन्यस्तं कुर्वन्तु"
@@ -1880,35 +2030,32 @@ msgstr "वर्तमान कर्सरस्थाने पादटि�
 msgid "Inserts an endnote at the current cursor position"
 msgstr "वर्तमान कर्सरस्थाने एकं अन्त्यटिप्पणीं सम्मिलितं करोति"
 
-#: dialogs/SimpleFootEndNotesWidget.ui:29
 #. i18n: ectx: property (text), widget (FormattingButton, addEndnote)
+#: dialogs/SimpleFootEndNotesWidget.ui:29
 #, kde-format
 msgid "Endnote"
 msgstr "अन्त्यटिप्पणी"
 
-#: dialogs/SimpleFootEndNotesWidget.ui:48
 #. i18n: ectx: property (text), widget (FormattingButton, addFootnote)
+#: dialogs/SimpleFootEndNotesWidget.ui:48
 #, kde-format
 msgid "Footnote"
 msgstr "पादटिप्पणी"
 
-#: dialogs/SimpleInsertWidget.ui:20
 #. i18n: ectx: property (toolTip), widget (QWidget, SimpleInsertWidget)
+#: dialogs/SimpleInsertWidget.ui:20
 #, kde-format
 msgid "Other insertions from \"References\"  below and in \"Add Shape\" docker"
-msgstr ""
-"अधः \"References\" इत्यस्मात् अन्ये सम्मिलनानि \"Add Shape\" docker इत्यत्र "
-"च"
+msgstr "अधः \"References\" इत्यस्मात् अन्ये सम्मिलनानि \"Add Shape\" docker इत्यत्र च"
 
-#: dialogs/SimpleLinksWidget.ui:34
 #. i18n: ectx: property (text), widget (QToolButton, insertLink)
+#: dialogs/SimpleLinksWidget.ui:34
 #, kde-format
 msgid "Hyperlinks"
 msgstr "अतिलिङ्कानि"
 
+#. i18n: ectx: property (text), widget (FormattingButton, invokeBookmarkHandler)
 #: dialogs/SimpleLinksWidget.ui:44 ReferencesTool.cpp:189
-#. i18n: ectx: property (text), widget (FormattingButton,
-#. invokeBookmarkHandler)
 #, kde-format
 msgid "Bookmarks"
 msgstr "बुकमार्क्स"
@@ -1928,9 +2075,9 @@ msgstr "सद्यः प्रयुक्ताः स्तरस्वर�
 msgid "Library of Level Formats"
 msgstr "स्तर प्रारूपस्य पुस्तकालयः"
 
+#. i18n: ectx: property (text), widget (QPushButton, bDelete)
 #: dialogs/SimpleParagraphWidget.cpp:301 dialogs/SimpleParagraphWidget.cpp:356
 #: dialogs/StyleManager.ui:104 TextTool.cpp:2640
-#. i18n: ectx: property (text), widget (QPushButton, bDelete)
 #, kde-format
 msgid "Delete"
 msgstr "लुप्"
@@ -1960,9 +2107,9 @@ msgstr "New List Level Format परिभाषयन्तु"
 msgid "Edit List Level Format"
 msgstr "सूची स्तर प्रारूपं सम्पादयतु"
 
+#. i18n: ectx: property (text), widget (FormattingButton, addToC)
 #: dialogs/SimpleTableOfContentsWidget.ui:34
 #: dialogs/TableOfContentsTemplate.cpp:38
-#. i18n: ectx: property (text), widget (FormattingButton, addToC)
 #, kde-format
 msgid "Contents"
 msgstr "विषयवस्तु"
@@ -1971,6 +2118,12 @@ msgstr "विषयवस्तु"
 #, kde-format
 msgid "Set Border Color..."
 msgstr "सीमा रङ्ग सेट् करें..."
+
+#: dialogs/SimpleTableWidget.cpp:173
+#, kde-format
+msgctxt "No border - has to fit in 48pixels"
+msgid "None"
+msgstr "न कश्चित्"
 
 #: dialogs/SimpleTableWidget.cpp:174
 #, kde-format
@@ -1992,20 +2145,20 @@ msgstr "नवीन शैली"
 msgid "Another style named '%1' already exist. Please choose another name."
 msgstr "'%1' इति अन्यः शैली पूर्वमेव अस्ति । कृपया अन्यत् नाम चिनुत।"
 
-#: dialogs/StyleManager.ui:52 TextTool.cpp:2253
 #. i18n: ectx: attribute (title), widget (QListView, paragraphStylesListView)
+#: dialogs/StyleManager.ui:52 TextTool.cpp:2253
 #, kde-format
 msgid "Paragraph"
 msgstr "अनुच्छेदः"
 
-#: dialogs/StyleManager.ui:66 TextTool.cpp:2251
 #. i18n: ectx: attribute (title), widget (QListView, characterStylesListView)
+#: dialogs/StyleManager.ui:66 TextTool.cpp:2251
 #, kde-format
 msgid "Character"
 msgstr "स्वभावः"
 
-#: dialogs/StyleManager.ui:97
 #. i18n: ectx: property (text), widget (QPushButton, bNew)
+#: dialogs/StyleManager.ui:97
 #, kde-format
 msgid "&New"
 msgstr "&नूतनम्‌"
@@ -2025,43 +2178,41 @@ msgstr "परिवर्तनं रक्षतु"
 msgid ""
 "You have changes that are not applied. What do you want to do with those "
 "changes?"
-msgstr ""
-"भवतः परिवर्तनानि सन्ति ये न प्रयुक्ताः। तेषु परिवर्तनेषु भवन्तः किं कर्तुम् "
-"इच्छन्ति ?"
+msgstr "भवतः परिवर्तनानि सन्ति ये न प्रयुक्ताः। तेषु परिवर्तनेषु भवन्तः किं कर्तुम् इच्छन्ति ?"
 
-#: dialogs/StyleManagerWelcome.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: dialogs/StyleManagerWelcome.ui:42
 #, kde-format
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
-"type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
-"font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">It is possible to "
-"assign a named style to text and alter the style properties to change all "
-"text with that style.</p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Applying a style "
-"change will reformat all text that previously got the named style assigned "
-"to it. Use the Styles docker to apply styles to text.</p></body></html>"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">It is possible to assign a "
+"named style to text and alter the style properties to change all text with "
+"that style.</p>\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Applying a style change "
+"will reformat all text that previously got the named style assigned to it. "
+"Use the Styles docker to apply styles to text.</p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
-"\"http://www.w3.org/TR/REC-html40/strict.dtd\"><html><head><meta "
-"name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\"><html><head><meta name=\"qrichtext\" content=\"1\" /"
+"><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; "
-"font-weight:400; font-style:normal;\"><p style=\" margin-top:12px; "
-"margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"> पाठाय नामकृतशैलीं नियुक्त्य शैलीगुणान् परिवर्तयितुं "
-"शक्यते यत् तया शैल्या सह सर्वं पाठं परिवर्तयितुं शक्यते । </p><p style=\" "
-"margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px;\"> शैलीपरिवर्तनं प्रयोक्तुं पूर्वं "
-"नामशैलीं नियुक्तं प्राप्तं सर्वं पाठं पुनः स्वरूपयिष्यति । पाठे शैल्याः "
-"प्रयोक्तुं Styles docker इत्यस्य उपयोगं कुर्वन्तु ।</p></body></html>"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-"
+"weight:400; font-style:normal;\"><p style=\" margin-top:12px; margin-"
+"bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"> पाठाय नामकृतशैलीं नियुक्त्य शैलीगुणान् परिवर्तयितुं शक्यते यत् तया शैल्या सह "
+"सर्वं पाठं परिवर्तयितुं शक्यते । </p><p style=\" margin-top:12px; margin-"
+"bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+"indent:0px;\"> शैलीपरिवर्तनं प्रयोक्तुं पूर्वं नामशैलीं नियुक्तं प्राप्तं सर्वं पाठं पुनः "
+"स्वरूपयिष्यति । पाठे शैल्याः प्रयोक्तुं Styles docker इत्यस्य उपयोगं कुर्वन्तु ।</p></body></"
+"html>"
 
 #: dialogs/StylesComboPreview.cpp:68
 #, kde-format
@@ -2084,44 +2235,44 @@ msgstr "न कश्चित्"
 msgid "Insert Table"
 msgstr "सारणी सम्मिलित करें"
 
-#: dialogs/TableDialog.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, groupLogical)
+#: dialogs/TableDialog.ui:23
 #, kde-format
 msgid "Columns and rows"
 msgstr "स्तम्भाः पङ्क्तयः च"
 
-#: dialogs/TableDialog.ui:32
 #. i18n: ectx: property (text), widget (QLabel, labelColumns)
+#: dialogs/TableDialog.ui:32
 #, kde-format
 msgid "Number of columns:"
 msgstr "स्तम्भानां संख्या : १."
 
-#: dialogs/TableDialog.ui:55
 #. i18n: ectx: property (text), widget (QLabel, labelRows)
+#: dialogs/TableDialog.ui:55
 #, kde-format
 msgid "Number of rows:"
 msgstr "पङ्क्तयः संख्या : १."
 
-#: dialogs/TableDialog.ui:97
 #. i18n: ectx: property (title), widget (QGroupBox, groupPhysical)
+#: dialogs/TableDialog.ui:97
 #, kde-format
 msgid "Width strategy"
 msgstr "चौड़ाई रणनीति"
 
-#: dialogs/TableDialog.ui:112
 #. i18n: ectx: property (text), widget (QRadioButton, radioFixed)
+#: dialogs/TableDialog.ui:112
 #, kde-format
 msgid "Fixed column width:"
 msgstr "नियतस्तम्भविस्तारः : १."
 
-#: dialogs/TableDialog.ui:125
 #. i18n: ectx: property (text), widget (QRadioButton, radioFitContents)
+#: dialogs/TableDialog.ui:125
 #, kde-format
 msgid "Fit to contents"
 msgstr "सामग्रीं प्रति उपयुक्तम्"
 
-#: dialogs/TableDialog.ui:138
 #. i18n: ectx: property (text), widget (QRadioButton, radioFitAvail)
+#: dialogs/TableDialog.ui:138
 #, kde-format
 msgid "Fit to available surrounding"
 msgstr "उपलब्धपरिवेशे उपयुक्तः"
@@ -2162,35 +2313,35 @@ msgstr "अनुक्रमणिका"
 msgid "Styles"
 msgstr "शैल्याः"
 
-#: dialogs/TableOfContentsConfigure.ui:49
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: dialogs/TableOfContentsConfigure.ui:49
 #, kde-format
 msgid "Tab 1"
 msgstr "टब 1"
 
+#. i18n: ectx: property (text), widget (QLabel, labelTitle)
 #: dialogs/TableOfContentsConfigure.ui:57
 #: dialogs/TableOfContentsEntryModel.cpp:27
-#. i18n: ectx: property (text), widget (QLabel, labelTitle)
 #, kde-format
 msgid "Title"
 msgstr "शीर्षक"
 
-#: dialogs/TableOfContentsConfigure.ui:69
-#: dialogs/TableOfContentsConfigure.ui:78
 #. i18n: ectx: property (text), widget (QCheckBox, useOutline)
 #. i18n: ectx: property (text), widget (QCheckBox, useStyles)
+#: dialogs/TableOfContentsConfigure.ui:69
+#: dialogs/TableOfContentsConfigure.ui:78
 #, kde-format
 msgid "CheckBox"
 msgstr "चेकबॉक्स"
 
-#: dialogs/TableOfContentsConfigure.ui:85
 #. i18n: ectx: property (text), widget (QPushButton, configureStyles)
+#: dialogs/TableOfContentsConfigure.ui:85
 #, kde-format
 msgid "PushButton"
 msgstr "पुशबटन"
 
-#: dialogs/TableOfContentsConfigure.ui:108
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: dialogs/TableOfContentsConfigure.ui:108
 #, kde-format
 msgid "Tab 2"
 msgstr "टब 2"
@@ -2221,8 +2372,8 @@ msgstr "सामग्रीसूची - शैल्याः विन्�
 msgid "Styles available"
 msgstr "शैल्याः उपलभ्यन्ते"
 
-#: dialogs/TableOfContentsStyleConfigure.ui:20
 #. i18n: ectx: property (text), widget (QLabel, stylesAvailableLabel)
+#: dialogs/TableOfContentsStyleConfigure.ui:20
 #, kde-format
 msgid "TextLabel"
 msgstr "TextLabel इति"
@@ -2341,11 +2492,11 @@ msgstr "पुस्तकचिह्नं योजयतु :"
 #: ReferencesTool.cpp:187
 #, kde-format
 msgid ""
-"Insert a Bookmark. This is useful to create links that point to areas "
-"within the document"
+"Insert a Bookmark. This is useful to create links that point to areas within "
+"the document"
 msgstr ""
-"एकं Bookmark सम्मिलितं कुर्वन्तु। दस्तावेजस्य अन्तः क्षेत्राणि दर्शयन्तः "
-"लिङ्क् निर्मातुं एतत् उपयोगी भवति"
+"एकं Bookmark सम्मिलितं कुर्वन्तु। दस्तावेजस्य अन्तः क्षेत्राणि दर्शयन्तः लिङ्क् निर्मातुं एतत् "
+"उपयोगी भवति"
 
 #: ReferencesTool.cpp:191
 #, kde-format
@@ -2353,15 +2504,20 @@ msgid ""
 "Display a pop up that hosts the options to add new Bookmark or handle "
 "existing Bookmarks"
 msgstr ""
-"एकं pop up प्रदर्शयन्तु यत् नूतनं Bookmark योजयितुं अथवा विद्यमानं "
-"Bookmarks नियन्त्रयितुं विकल्पान् आतिथ्यं करोति"
+"एकं pop up प्रदर्शयन्तु यत् नूतनं Bookmark योजयितुं अथवा विद्यमानं Bookmarks नियन्त्रयितुं "
+"विकल्पान् आतिथ्यं करोति"
 
 #: ReferencesTool.cpp:195
 #, kde-format
-msgid "Manage your Bookmarks. Check where are they pointing to, Delete or Rename."
-msgstr ""
-"स्वस्य Bookmarks प्रबन्धयन्तु। ते कुत्र सूचयन्ति, Delete अथवा Rename इति "
-"पश्यन्तु।"
+msgid ""
+"Manage your Bookmarks. Check where are they pointing to, Delete or Rename."
+msgstr "स्वस्य Bookmarks प्रबन्धयन्तु। ते कुत्र सूचयन्ति, Delete अथवा Rename इति पश्यन्तु।"
+
+#: ReferencesTool.cpp:230
+#, kde-format
+msgctxt "as in table of contents, list of pictures, index"
+msgid "Tables, Lists & Indexes"
+msgstr "सारणी, सूची एवं अनुक्रमणिका"
 
 #: ReferencesTool.cpp:233
 #, kde-format
@@ -2457,6 +2613,12 @@ msgstr "विक्रान्तः"
 #, kde-format
 msgid "Italic"
 msgstr "इटालिक"
+
+#: TextTool.cpp:232
+#, kde-format
+msgctxt "Text formatting"
+msgid "Underline"
+msgstr "रेखांकनम्"
 
 #: TextTool.cpp:238
 #, kde-format
@@ -2721,22 +2883,19 @@ msgstr "अनुच्छेद..."
 #: TextTool.cpp:458
 #, kde-format
 msgid "Change paragraph margins, text flow, borders, bullets, numbering etc."
-msgstr ""
-"अनुच्छेदमार्जिनं, पाठप्रवाहं, सीमां, गोलिकां, संख्याकरणं इत्यादीनि "
-"परिवर्तयन्तु।"
+msgstr "अनुच्छेदमार्जिनं, पाठप्रवाहं, सीमां, गोलिकां, संख्याकरणं इत्यादीनि परिवर्तयन्तु।"
 
 #: TextTool.cpp:460
 #, kde-format
 msgid ""
-"<p>Change paragraph margins, text flow, borders, bullets, numbering "
-"etc.</p><p>Select text in multiple paragraphs to change the formatting of "
-"all selected paragraphs.</p><p>If no text is selected, the paragraph where "
-"the cursor is located will be changed.</p>"
+"<p>Change paragraph margins, text flow, borders, bullets, numbering etc.</"
+"p><p>Select text in multiple paragraphs to change the formatting of all "
+"selected paragraphs.</p><p>If no text is selected, the paragraph where the "
+"cursor is located will be changed.</p>"
 msgstr ""
-"<p>अनुच्छेदमार्जिनं, पाठप्रवाहं, सीमां, गोलिकां, संख्याकरणं इत्यादीनि "
-"परिवर्तयन्तु।</p><p> सर्वेषां चयनितपरिच्छेदानां प्रारूपणं परिवर्तयितुं "
-"बहुषु अनुच्छेदेषु पाठं चिनोतु ।</p><p> यदि कोऽपि पाठः न चिनोति तर्हि यत्र "
-"कर्सरः अस्ति सः अनुच्छेदः परिवर्तितः भविष्यति ।</p>"
+"<p>अनुच्छेदमार्जिनं, पाठप्रवाहं, सीमां, गोलिकां, संख्याकरणं इत्यादीनि परिवर्तयन्तु।</p><p> "
+"सर्वेषां चयनितपरिच्छेदानां प्रारूपणं परिवर्तयितुं बहुषु अनुच्छेदेषु पाठं चिनोतु ।</p><p> यदि "
+"कोऽपि पाठः न चिनोति तर्हि यत्र कर्सरः अस्ति सः अनुच्छेदः परिवर्तितः भविष्यति ।</p>"
 
 #: TextTool.cpp:464
 #, kde-format
@@ -2751,11 +2910,11 @@ msgstr "शैल्याः विशेषताः परिवर्तय�
 #: TextTool.cpp:467
 #, kde-format
 msgid ""
-"<p>Change font and paragraph attributes of styles.</p><p>Multiple styles "
-"can be changed using the dialog box.</p>"
+"<p>Change font and paragraph attributes of styles.</p><p>Multiple styles can "
+"be changed using the dialog box.</p>"
 msgstr ""
-"<p>शैल्याः फन्ट् तथा पैराग्राफ् एट्रिब्यूट् परिवर्तयन्तु ।</p><p> "
-"संवादपेटिकायाः उपयोगेन बहुशैल्याः परिवर्तनं कर्तुं शक्यते ।</p>"
+"<p>शैल्याः फन्ट् तथा पैराग्राफ् एट्रिब्यूट् परिवर्तयन्तु ।</p><p> संवादपेटिकायाः उपयोगेन "
+"बहुशैल्याः परिवर्तनं कर्तुं शक्यते ।</p>"
 
 #: TextTool.cpp:474
 #, kde-format
@@ -2822,56 +2981,6 @@ msgstr "अनुवर्तते"
 msgid "Press shift to not resize this"
 msgstr "एतस्य आकारं न परिवर्तयितुं shift नुदन्तु"
 
-#: TextTool.cpp:2259
-#, kde-format
-msgid "Table"
-msgstr "पीठिका"
-
-#: TextTool.cpp:2635 TextTool.cpp:2640
-#, kde-format
-msgid "Autocorrection"
-msgstr "स्वशुद्धिकरणम्"
-
-#: TextTool.cpp:2635
-#, kde-format
-msgid "Key Press"
-msgstr "कील प्रेस"
-
-#: TextToolFactory.cpp:18
-#, kde-format
-msgid "Text editing"
-msgstr "पाठसम्पादनम्"
-
-#: commands/AcceptChangeCommand.cpp:31
-msgctxt "(qtundo-format)"
-msgid "Accept change"
-msgstr "परिवर्तनं स्वीकुरुत"
-
-#: commands/ChangeListLevelCommand.cpp:28
-msgctxt "(qtundo-format)"
-msgid "Change List Level"
-msgstr "सूचीस्तरं परिवर्तयन्तु"
-
-#: commands/RejectChangeCommand.cpp:35
-msgctxt "(qtundo-format)"
-msgid "Reject change"
-msgstr "परिवर्तनं अङ्गीकुरुत"
-
-#: commands/ShowChangesCommand.cpp:40
-msgctxt "(qtundo-format)"
-msgid "Show Changes"
-msgstr "परिवर्तनं दर्शयतु"
-
-#: commands/ShowChangesCommand.cpp:42
-msgctxt "(qtundo-format)"
-msgid "Hide Changes"
-msgstr "परिवर्तनं गोपयन्तु"
-
-#: dialogs/FontDia.cpp:70
-msgctxt "(qtundo-format)"
-msgid "Font"
-msgstr "फॉन्ट्"
-
 #: TextTool.cpp:930
 msgctxt "(qtundo-format)"
 msgid "Change Border Formatting"
@@ -2892,160 +3001,22 @@ msgctxt "(qtundo-format)"
 msgid "Adjust Row Height"
 msgstr "पंक्ति ऊर्ध्वता समायोजित करें"
 
-#: commands/AutoResizeCommand.cpp:19
+#: TextTool.cpp:2259
 #, kde-format
-msgctxt "Disable Shrink To Fit"
-msgid "Disable"
-msgstr "अक्षम"
+msgid "Table"
+msgstr "पीठिका"
 
-#: commands/AutoResizeCommand.cpp:19
+#: TextTool.cpp:2635 TextTool.cpp:2640
 #, kde-format
-msgctxt "Enable Shrink To Fit"
-msgid "Enable"
-msgstr "सक्रियं करोतु"
+msgid "Autocorrection"
+msgstr "स्वशुद्धिकरणम्"
 
-#: commands/AutoResizeCommand.cpp:22
+#: TextTool.cpp:2635
 #, kde-format
-msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
-msgid "%1 Grow To Fit Width"
-msgstr "%1 Grow To Fit Width इति"
+msgid "Key Press"
+msgstr "कील प्रेस"
 
-#: commands/AutoResizeCommand.cpp:25
+#: TextToolFactory.cpp:18
 #, kde-format
-msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
-msgid "%1 Grow To Fit Height"
-msgstr "%1 Grow To Fit Height इति"
-
-#: commands/AutoResizeCommand.cpp:28
-#, kde-format
-msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
-msgid "%1 Shrink To Fit"
-msgstr "%1 Shrink To Fit इति"
-
-#: dialogs/CharacterGeneral.ui:39
-#. i18n: ectx: property (text), widget (QLabel, label)
-#, kde-format
-msgctxt "Name of the style"
-msgid "Name:"
-msgstr "नामः:"
-
-#: dialogs/CharacterHighlighting.ui:185
-#. i18n: ectx: property (text), widget (QLabel)
-#, kde-format
-msgctxt "Character position"
-msgid "Position:"
-msgstr "स्थितिः:"
-
-#: dialogs/InsertCharacter.cpp:28
-#, kde-format
-msgctxt "Close dialog"
-msgid "Close"
-msgstr "पिधानं करोतु"
-
-#: dialogs/ParagraphBulletsNumbers.cpp:34
-#, kde-format
-msgctxt "Automatic horizontal alignment"
-msgid "Auto"
-msgstr "ऑटो"
-
-#: dialogs/ParagraphBulletsNumbers.cpp:35
-#, kde-format
-msgctxt "Text alignment"
-msgid "Left"
-msgstr "वामः"
-
-#: dialogs/ParagraphBulletsNumbers.cpp:36
-#, kde-format
-msgctxt "Text alignment"
-msgid "Right"
-msgstr "दक्षिणः"
-
-#: dialogs/ParagraphBulletsNumbers.cpp:37
-#, kde-format
-msgctxt "Text alignment"
-msgid "Centered"
-msgstr "केन्द्रित"
-
-#: dialogs/ParagraphBulletsNumbers.cpp:39
-#, kde-format
-msgctxt "Tab follows the bullet or number"
-msgid "Tab Stop"
-msgstr "ट्याब् स्टॉप्"
-
-#: dialogs/ParagraphBulletsNumbers.cpp:40
-#, kde-format
-msgctxt "Space"
-msgid "Space"
-msgstr "स्थानं"
-
-#: dialogs/ParagraphBulletsNumbers.cpp:41
-#, kde-format
-msgctxt "None"
-msgid "Nothing"
-msgstr "किमपि न"
-
-#: dialogs/ParagraphDecorations.cpp:18
-#, kde-format
-msgctxt "@action:button"
-msgid "Reset background color"
-msgstr "पृष्ठभूमिवर्णं पुनः सेट् कुर्वन्तु"
-
-#: dialogs/ParagraphIndentSpacing.cpp:28
-#, kde-format
-msgctxt "Line spacing value"
-msgid "Single"
-msgstr "एकैकः"
-
-#: dialogs/ParagraphIndentSpacing.cpp:29
-#, kde-format
-msgctxt "Line spacing value"
-msgid "1.5 Lines"
-msgstr "१.५ पङ्क्तयः"
-
-#: dialogs/ParagraphIndentSpacing.cpp:30
-#, kde-format
-msgctxt "Line spacing value"
-msgid "Double"
-msgstr "द्विद्वार"
-
-#: dialogs/ParagraphIndentSpacing.cpp:31
-#, kde-format
-msgctxt "Line spacing type"
-msgid "Proportional"
-msgstr "आनुपातिक"
-
-#: dialogs/ParagraphIndentSpacing.cpp:32
-#, kde-format
-msgctxt "Line spacing type"
-msgid "Additional"
-msgstr "अतिरिक्त रूपेन"
-
-#: dialogs/ParagraphIndentSpacing.cpp:33
-#, kde-format
-msgctxt "Line spacing type"
-msgid "Fixed"
-msgstr "युक्त"
-
-#: dialogs/ParagraphIndentSpacing.cpp:34
-#, kde-format
-msgctxt "Line spacing type"
-msgid "At least"
-msgstr "न्यूनतम"
-
-#: dialogs/SimpleTableWidget.cpp:173
-#, kde-format
-msgctxt "No border - has to fit in 48pixels"
-msgid "None"
-msgstr "न कश्चित्"
-
-#: ReferencesTool.cpp:230
-#, kde-format
-msgctxt "as in table of contents, list of pictures, index"
-msgid "Tables, Lists & Indexes"
-msgstr "सारणी, सूची एवं अनुक्रमणिका"
-
-#: TextTool.cpp:232
-#, kde-format
-msgctxt "Text formatting"
-msgid "Underline"
-msgstr "रेखांकनम्"
+msgid "Text editing"
+msgstr "पाठसम्पादनम्"

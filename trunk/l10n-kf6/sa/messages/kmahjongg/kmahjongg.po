@@ -19,10 +19,98 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: src/editor.cpp:70
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Board Layout"
+msgstr "बोर्ड लेआउट सम्पादयतु"
+
+#: src/editor.cpp:110
+#, kde-format
+msgctxt "@action"
+msgid "New Board"
+msgstr "नवीन बोर्ड"
+
+#: src/editor.cpp:117
+#, kde-format
+msgctxt "@action"
+msgid "Open Board"
+msgstr "खुला बोर्ड"
+
+#: src/editor.cpp:124
+#, kde-format
+msgctxt "@action"
+msgid "Save Board"
+msgstr "सेव बोर्ड"
+
+#: src/editor.cpp:134
+#, kde-format
+msgctxt "@action"
+msgid "Select"
+msgstr "विचि"
+
+#: src/editor.cpp:150
+#, kde-format
+msgctxt "@action"
+msgid "Move Tiles"
+msgstr "टाइल्स् चालयन्तु"
+
+#: src/editor.cpp:155
+#, kde-format
+msgctxt "@option:check"
+msgid "Add Tiles"
+msgstr "टाइल्स् योजयन्तु"
+
+#: src/editor.cpp:159
+#, kde-format
+msgctxt "@option:check"
+msgid "Remove Tiles"
+msgstr "टाइल्स् निष्कासयन्तु"
+
+#: src/editor.cpp:183
+#, kde-format
+msgctxt "@action"
+msgid "Shift Left"
+msgstr "शिफ्ट वाम"
+
+#: src/editor.cpp:189
+#, kde-format
+msgctxt "@action"
+msgid "Shift Up"
+msgstr "शिफ्ट अप"
+
+#: src/editor.cpp:195
+#, kde-format
+msgctxt "@action"
+msgid "Shift Down"
+msgstr "Shift Down इति"
+
+#: src/editor.cpp:201
+#, kde-format
+msgctxt "@action"
+msgid "Shift Right"
+msgstr "शिफ्ट राइट"
+
 #: src/editor.cpp:283
 #, kde-format
 msgid "Tiles: %1 Pos: %2,%3,%4"
 msgstr "टाइल्स्: %1 पद: %2,%3,%4"
+
+#: src/editor.cpp:292
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Board Layout"
+msgstr "ओपन बोर्ड लेआउट"
 
 #: src/editor.cpp:293 src/editor.cpp:331
 #, kde-format
@@ -33,6 +121,12 @@ msgstr "बोर्ड लेआउट (*.layout);;सर्व सञ्चि
 #, kde-format
 msgid "You can only save with a even number of tiles."
 msgstr "भवन्तः केवलं समसङ्ख्यायाः टाइल्स् इत्यनेन एव रक्षितुं शक्नुवन्ति ।"
+
+#: src/editor.cpp:330
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Board Layout"
+msgstr "बोर्ड लेआउट् रक्षतु"
 
 #: src/editor.cpp:358
 #, kde-format
@@ -49,44 +143,44 @@ msgstr "रक्षणं विफलम् अभवत्। ऑपरेश
 msgid "Removed tiles"
 msgstr "टाइल्स् निष्कासितम्"
 
-#: src/gametype.ui:25
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RandomLayout)
+#: src/gametype.ui:25
 #, kde-format
 msgid "Random Layout"
 msgstr "यादृच्छिक विन्यास"
 
-#: src/gametype.ui:54
 #. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#: src/gametype.ui:54
 #, kde-format
 msgid "Download New Layouts…"
 msgstr "नवीनविन्यासाः डाउनलोड् कुर्वन्तु…"
 
-#: src/gametype.ui:63
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: src/gametype.ui:63
 #, kde-format
 msgid "Preview"
 msgstr "पूर्वावलोकनम्"
 
-#: src/gametype.ui:90
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/gametype.ui:90
 #, kde-format
 msgid "Layout Details"
 msgstr "विन्यासविवरणम्"
 
-#: src/gametype.ui:96
 #. i18n: ectx: property (text), widget (QLabel, labelAuthor)
+#: src/gametype.ui:96
 #, kde-format
 msgid "Author:"
 msgstr "लेखकः:"
 
-#: src/gametype.ui:106
 #. i18n: ectx: property (text), widget (QLabel, labelContact)
+#: src/gametype.ui:106
 #, kde-format
 msgid "Contact:"
 msgstr "संपर्कः:"
 
-#: src/gametype.ui:116
 #. i18n: ectx: property (text), widget (QLabel, labelDescription)
+#: src/gametype.ui:116
 #, kde-format
 msgid "Description:"
 msgstr "वर्णनम्‌:"
@@ -111,6 +205,12 @@ msgstr "किं पूर्ववत् कर्तुम् इच्छस
 msgid "Your computer has lost the game."
 msgstr "भवतः सङ्गणकः क्रीडां हारितवान् अस्ति।"
 
+#: src/gameview.cpp:203
+#, kde-format
+msgctxt "@info:status"
+msgid "Calculating new game…"
+msgstr "नूतनक्रीडायाः गणना…"
+
 #: src/gameview.cpp:261
 #, kde-format
 msgid "Error generating new game!"
@@ -120,6 +220,36 @@ msgstr "नूतनं क्रीडां जनयन् त्रुटि
 #, kde-format
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "डेमो मोड। स्थगयितुं mousebutton नुदन्तु ।"
+
+#: src/kmahjongg.cpp:141
+#, kde-format
+msgctxt "@action"
+msgid "New Numbered Game…"
+msgstr "नवीन संख्याबद्ध खेल…"
+
+#: src/kmahjongg.cpp:148
+#, kde-format
+msgctxt "@action"
+msgid "Shu&ffle"
+msgstr "शु&फ्ले"
+
+#: src/kmahjongg.cpp:153
+#, kde-format
+msgctxt "@action"
+msgid "Rotate View Counterclockwise"
+msgstr "दृश्यं घड़ीयाः विपरीतदिशायां परिभ्रमन्तु"
+
+#: src/kmahjongg.cpp:159
+#, kde-format
+msgctxt "@action"
+msgid "Rotate View Clockwise"
+msgstr "View Clockwise परिभ्रमन्तु"
+
+#: src/kmahjongg.cpp:179
+#, kde-format
+msgctxt "@action"
+msgid "&Board Editor"
+msgstr "&बोर्ड सम्पादक"
 
 #: src/kmahjongg.cpp:199
 #, kde-format
@@ -141,10 +271,52 @@ msgstr "खेलः 00000000000000000000"
 msgid "Time: %1"
 msgstr "समयः %1"
 
+#: src/kmahjongg.cpp:232
+#, kde-format
+msgctxt "@title:window"
+msgid "New Game"
+msgstr "नवीन खेल"
+
+#: src/kmahjongg.cpp:232
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Game number:"
+msgstr "क्रीडासङ्ख्या : १."
+
+#: src/kmahjongg.cpp:267
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr "सामान्य"
+
+#: src/kmahjongg.cpp:268
+#, kde-format
+msgctxt "@title:tab"
+msgid "Board Layout"
+msgstr "बोर्ड लेआउट"
+
 #: src/kmahjongg.cpp:405
 #, kde-format
 msgid "Game Over: You have no moves left."
 msgstr "Game Over: भवतः कोऽपि चालः अवशिष्टः नास्ति।"
+
+#: src/kmahjongg.cpp:406
+#, kde-format
+msgctxt "@title:window"
+msgid "Game Over"
+msgstr "गेम ओवर"
+
+#: src/kmahjongg.cpp:407
+#, kde-format
+msgctxt "@action:button"
+msgid "New Game"
+msgstr "नवीन खेल"
+
+#: src/kmahjongg.cpp:408
+#, kde-format
+msgctxt "@action:button"
+msgid "Restart"
+msgstr "पुनः आरभत"
 
 #: src/kmahjongg.cpp:529
 #, kde-format
@@ -160,6 +332,12 @@ msgstr "क्रीडासङ्ख्या: %1"
 #, kde-format
 msgid "Removed: %1/%2  Combinations left: %3"
 msgstr "निष्कासितम्: %1/%2 संयोजनानि अवशिष्टानि: %3"
+
+#: src/kmahjongg.cpp:623
+#, kde-format
+msgctxt "@title:window"
+msgid "Load Game"
+msgstr "लोड गेम"
 
 #: src/kmahjongg.cpp:623 src/kmahjongg.cpp:698
 #, kde-format
@@ -181,6 +359,12 @@ msgstr "सञ्चिका KMahjongg क्रीडा नास्ति �
 msgid "File format not recognized."
 msgstr "सञ्चिकास्वरूपं न ज्ञातम्।"
 
+#: src/kmahjongg.cpp:698 src/kmahjongg.cpp:744
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Game"
+msgstr "गेम रक्षतु"
+
 #: src/kmahjongg.cpp:708
 #, kde-format
 msgid "Could not open file for saving."
@@ -191,68 +375,68 @@ msgstr "रक्षणार्थं सञ्चिकां उद्घा�
 msgid "Do you want to save your game?"
 msgstr "किं भवन्तः स्वक्रीडां रक्षितुम् इच्छन्ति ?"
 
-#: src/kmahjongg.kcfg:9
 #. i18n: ectx: label, entry (TileSet), group (General)
+#: src/kmahjongg.kcfg:9
 #, kde-format
 msgid "The tile-set to use."
 msgstr "उपयोक्तुं टाइल्-सेट् ।"
 
-#: src/kmahjongg.kcfg:12
 #. i18n: ectx: label, entry (Background), group (General)
+#: src/kmahjongg.kcfg:12
 #, kde-format
 msgid "The background to use."
 msgstr "उपयोक्तुं पृष्ठभूमिः ।"
 
-#: src/kmahjongg.kcfg:15
 #. i18n: ectx: label, entry (Layout), group (General)
+#: src/kmahjongg.kcfg:15
 #, kde-format
 msgid "The layout of the tiles."
 msgstr "टाइल्स् इत्यस्य विन्यासः ।"
 
-#: src/kmahjongg.kcfg:21
 #. i18n: ectx: label, entry (RemovedTiles), group (General)
+#: src/kmahjongg.kcfg:21
 #, kde-format
 msgid "Whether the removed tiles will be shown on the board."
 msgstr "निष्कासितानि टाइल्स् फलकस्य उपरि दर्शितानि भविष्यन्ति वा।"
 
-#: src/kmahjongg.kcfg:25
 #. i18n: ectx: label, entry (RandomLayout), group (General)
+#: src/kmahjongg.kcfg:25
 #, kde-format
 msgid "Whether a random layout is chosen on startup."
 msgstr "प्रारम्भे यादृच्छिकविन्यासः चयनितः भवति वा।"
 
-#: src/kmahjongg.kcfg:29
 #. i18n: ectx: label, entry (SolvableGames), group (General)
+#: src/kmahjongg.kcfg:29
 #, kde-format
 msgid "Whether all games should be solvable."
 msgstr "सर्वे क्रीडाः समाधानयोग्याः भवेयुः वा।"
 
-#: src/kmahjongg.kcfg:33
 #. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
+#: src/kmahjongg.kcfg:33
 #, kde-format
 msgid "Whether matching tiles are shown."
 msgstr "मेलयुक्तानि टाइल्स् दर्शितानि वा।"
 
-#: src/kmahjonggui.rc:10
 #. i18n: ectx: Menu (game)
+#: src/kmahjonggui.rc:10
 #, kde-format
 msgid "&Game"
 msgstr "&क्रीडा"
 
-#: src/kmahjonggui.rc:14
 #. i18n: ectx: Menu (move)
+#: src/kmahjonggui.rc:14
 #, kde-format
 msgid "&Move"
 msgstr "&चलनम्"
 
-#: src/kmahjonggui.rc:17
 #. i18n: ectx: Menu (view)
+#: src/kmahjonggui.rc:17
 #, kde-format
 msgid "&View"
 msgstr "&दृश्यं"
 
-#: src/kmahjonggui.rc:23
 #. i18n: ectx: ToolBar (mainToolBar)
+#: src/kmahjonggui.rc:23
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
@@ -372,204 +556,20 @@ msgstr "बेन्जामिन मेयर"
 msgid "Code cleanup"
 msgstr "कोड सफाई"
 
-#: src/settings.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
+#: src/settings.ui:16
 #, kde-format
 msgid "Blink matching tiles when first one is selected"
 msgstr "प्रथमं चयनं कृत्वा मेलयुक्तानि टाइल्स् निमिषयन्तु"
 
-#: src/settings.ui:23
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
+#: src/settings.ui:23
 #, kde-format
 msgid "Generate solvable games"
 msgstr "समाधानयोग्याः क्रीडाः जनयन्तु"
 
-#: src/settings.ui:30
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_RemovedTiles)
+#: src/settings.ui:30
 #, kde-format
 msgid "Show removed tiles"
 msgstr "निष्कासितानि टाइल्स् दर्शयन्तु"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: src/editor.cpp:70
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit Board Layout"
-msgstr "बोर्ड लेआउट सम्पादयतु"
-
-#: src/editor.cpp:292
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Board Layout"
-msgstr "ओपन बोर्ड लेआउट"
-
-#: src/editor.cpp:330
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Board Layout"
-msgstr "बोर्ड लेआउट् रक्षतु"
-
-#: src/kmahjongg.cpp:232
-#, kde-format
-msgctxt "@title:window"
-msgid "New Game"
-msgstr "नवीन खेल"
-
-#: src/kmahjongg.cpp:406
-#, kde-format
-msgctxt "@title:window"
-msgid "Game Over"
-msgstr "गेम ओवर"
-
-#: src/kmahjongg.cpp:623
-#, kde-format
-msgctxt "@title:window"
-msgid "Load Game"
-msgstr "लोड गेम"
-
-#: src/kmahjongg.cpp:698 src/kmahjongg.cpp:744
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Game"
-msgstr "गेम रक्षतु"
-
-#: src/editor.cpp:110
-#, kde-format
-msgctxt "@action"
-msgid "New Board"
-msgstr "नवीन बोर्ड"
-
-#: src/editor.cpp:117
-#, kde-format
-msgctxt "@action"
-msgid "Open Board"
-msgstr "खुला बोर्ड"
-
-#: src/editor.cpp:124
-#, kde-format
-msgctxt "@action"
-msgid "Save Board"
-msgstr "सेव बोर्ड"
-
-#: src/editor.cpp:134
-#, kde-format
-msgctxt "@action"
-msgid "Select"
-msgstr "विचि"
-
-#: src/editor.cpp:150
-#, kde-format
-msgctxt "@action"
-msgid "Move Tiles"
-msgstr "टाइल्स् चालयन्तु"
-
-#: src/editor.cpp:183
-#, kde-format
-msgctxt "@action"
-msgid "Shift Left"
-msgstr "शिफ्ट वाम"
-
-#: src/editor.cpp:189
-#, kde-format
-msgctxt "@action"
-msgid "Shift Up"
-msgstr "शिफ्ट अप"
-
-#: src/editor.cpp:195
-#, kde-format
-msgctxt "@action"
-msgid "Shift Down"
-msgstr "Shift Down इति"
-
-#: src/editor.cpp:201
-#, kde-format
-msgctxt "@action"
-msgid "Shift Right"
-msgstr "शिफ्ट राइट"
-
-#: src/kmahjongg.cpp:141
-#, kde-format
-msgctxt "@action"
-msgid "New Numbered Game…"
-msgstr "नवीन संख्याबद्ध खेल…"
-
-#: src/kmahjongg.cpp:148
-#, kde-format
-msgctxt "@action"
-msgid "Shu&ffle"
-msgstr "शु&फ्ले"
-
-#: src/kmahjongg.cpp:153
-#, kde-format
-msgctxt "@action"
-msgid "Rotate View Counterclockwise"
-msgstr "दृश्यं घड़ीयाः विपरीतदिशायां परिभ्रमन्तु"
-
-#: src/kmahjongg.cpp:159
-#, kde-format
-msgctxt "@action"
-msgid "Rotate View Clockwise"
-msgstr "View Clockwise परिभ्रमन्तु"
-
-#: src/kmahjongg.cpp:179
-#, kde-format
-msgctxt "@action"
-msgid "&Board Editor"
-msgstr "&बोर्ड सम्पादक"
-
-#: src/editor.cpp:155
-#, kde-format
-msgctxt "@option:check"
-msgid "Add Tiles"
-msgstr "टाइल्स् योजयन्तु"
-
-#: src/editor.cpp:159
-#, kde-format
-msgctxt "@option:check"
-msgid "Remove Tiles"
-msgstr "टाइल्स् निष्कासयन्तु"
-
-#: src/gameview.cpp:203
-#, kde-format
-msgctxt "@info:status"
-msgid "Calculating new game…"
-msgstr "नूतनक्रीडायाः गणना…"
-
-#: src/kmahjongg.cpp:232
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Game number:"
-msgstr "क्रीडासङ्ख्या : १."
-
-#: src/kmahjongg.cpp:267
-#, kde-format
-msgctxt "@title:tab"
-msgid "General"
-msgstr "सामान्य"
-
-#: src/kmahjongg.cpp:268
-#, kde-format
-msgctxt "@title:tab"
-msgid "Board Layout"
-msgstr "बोर्ड लेआउट"
-
-#: src/kmahjongg.cpp:407
-#, kde-format
-msgctxt "@action:button"
-msgid "New Game"
-msgstr "नवीन खेल"
-
-#: src/kmahjongg.cpp:408
-#, kde-format
-msgctxt "@action:button"
-msgid "Restart"
-msgstr "पुनः आरभत"

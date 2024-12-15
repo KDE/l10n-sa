@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the baloo-widgets package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,35 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#: src/keditcommentdialog.cpp:33 src/kedittagsdialog.cpp:40
-#, kde-format
-msgid "Save"
-msgstr "रक्ष्"
-
-#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:28
-#, kde-format
-msgid "Assign Tags"
-msgstr "टैग्स नियुक्त करें"
-
-#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:62
-#, kde-format
-msgid "Create New..."
-msgstr "नूतनं रचयतु..."
-
-#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:66
-#, kde-format
-msgid "New tag"
-msgstr "नवीन टैग"
-
-#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:66
-#, kde-format
-msgid "New tag:"
-msgstr "नवीनं टैगम् : १."
 
 #: src/filemetadataprovider.cpp:204 src/filemetadataprovider.cpp:210
 #: src/filemetadataprovider.cpp:305 src/filemetadataprovider.cpp:308
@@ -161,6 +136,12 @@ msgctxt "@label"
 msgid "GPS Location"
 msgstr "जीपीएस स्थानम्"
 
+#: src/filepropertiesplugin/baloofilepropertiesplugin.cpp:65
+#, kde-format
+msgctxt "Tab page with file meta data"
+msgid "&Details"
+msgstr "&वर्णन"
+
 #: src/kcommentwidget.cpp:48 src/tagwidget.cpp:86
 #, kde-format
 msgctxt "@label"
@@ -173,18 +154,6 @@ msgctxt "@label"
 msgid "Edit..."
 msgstr "सम्पादन..."
 
-#: src/kedittagsdialog.cpp:64
-#, kde-format
-msgctxt "@label"
-msgid "Create new tag:"
-msgstr "नूतनं टैगं रचयन्तु : १."
-
-#: src/filepropertiesplugin/baloofilepropertiesplugin.cpp:65
-#, kde-format
-msgctxt "Tab page with file meta data"
-msgid "&Details"
-msgstr "&वर्णन"
-
 #: src/kcommentwidget.cpp:99
 #, kde-format
 msgctxt "@title:window"
@@ -196,6 +165,11 @@ msgstr "टिप्पणी सम्पादयतु"
 msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "टिप्पणीं योजयतु"
+
+#: src/keditcommentdialog.cpp:33 src/kedittagsdialog.cpp:40
+#, kde-format
+msgid "Save"
+msgstr "रक्ष्"
 
 #: src/kedittagsdialog.cpp:36
 #, kde-format
@@ -214,6 +188,32 @@ msgstr "टैग्स् योजयतु"
 msgctxt "@label:textbox"
 msgid "Configure which tags should be applied."
 msgstr "केषां टैग्स् प्रयोक्तव्याः इति विन्यस्यताम् ।"
+
+#: src/kedittagsdialog.cpp:64
+#, kde-format
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "नूतनं टैगं रचयन्तु : १."
+
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:28
+#, kde-format
+msgid "Assign Tags"
+msgstr "टैग्स नियुक्त करें"
+
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:62
+#, kde-format
+msgid "Create New..."
+msgstr "नूतनं रचयतु..."
+
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:66
+#, kde-format
+msgid "New tag"
+msgstr "नवीन टैग"
+
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:66
+#, kde-format
+msgid "New tag:"
+msgstr "नवीनं टैगम् : १."
 
 #: src/widgetfactory.cpp:71 src/widgetfactory.cpp:82
 #, kde-format

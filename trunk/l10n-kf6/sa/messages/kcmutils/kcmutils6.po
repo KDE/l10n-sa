@@ -19,6 +19,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: kcmoduleloader.cpp:49
 #, kde-format
 msgid ""
@@ -28,12 +38,11 @@ msgid ""
 "carefully and try to remove the module mentioned in the error message. If "
 "this fails, consider contacting your distributor or packager.</p></qt>"
 msgstr ""
-"<qt><p>सम्भाव्यकारणानि : १.<ul><li> भवतः अन्तिमप्रणाली उन्नयनस्य समये एकः "
-"त्रुटिः अभवत्, अनाथं नियन्त्रणमॉड्यूल् त्यक्त्वा</li><li> भवतः पुराणाः "
-"तृतीयपक्षस्य मॉड्यूलाः परितः शयिताः सन्ति ।</li></ul></p><p> एतान् बिन्दून् "
-"सावधानीपूर्वकं पश्यन्तु तथा च त्रुटिसन्देशे उल्लिखितं मॉड्यूल् दूरीकर्तुं "
-"प्रयतध्वम् । यदि एतत् विफलं भवति तर्हि स्वस्य वितरकस्य वा संकुलकस्य वा "
-"सम्पर्कं कर्तुं विचारयन्तु ।</p></qt>"
+"<qt><p>सम्भाव्यकारणानि : १.<ul><li> भवतः अन्तिमप्रणाली उन्नयनस्य समये एकः त्रुटिः "
+"अभवत्, अनाथं नियन्त्रणमॉड्यूल् त्यक्त्वा</li><li> भवतः पुराणाः तृतीयपक्षस्य मॉड्यूलाः परितः "
+"शयिताः सन्ति ।</li></ul></p><p> एतान् बिन्दून् सावधानीपूर्वकं पश्यन्तु तथा च त्रुटिसन्देशे "
+"उल्लिखितं मॉड्यूल् दूरीकर्तुं प्रयतध्वम् । यदि एतत् विफलं भवति तर्हि स्वस्य वितरकस्य वा संकुलकस्य "
+"वा सम्पर्कं कर्तुं विचारयन्तु ।</p></qt>"
 
 #: kcmoduleloader.cpp:79
 #, kde-format
@@ -79,6 +88,24 @@ msgstr "अन्वेषण…"
 msgid "About"
 msgstr "विषये"
 
+#: qml/components/ContextualHelpButton.qml:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Contextual Help"
+msgstr "सन्दर्भसहायतां दर्शयतु"
+
+#: qml/components/PluginDelegate.qml:89
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "About"
+msgstr "विषये"
+
+#: qml/components/PluginDelegate.qml:104
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Configure…"
+msgstr "विन्यस्तं कुर्वन्तु…"
+
 #: qml/components/PluginSelector.qml:84
 #, kde-format
 msgid "No matches"
@@ -88,6 +115,12 @@ msgstr "न मेलनं"
 #, kde-format
 msgid "No plugins found"
 msgstr "प्लगिन्स् न प्राप्ताः"
+
+#: qml/components/private/AboutPlugin.qml:40
+#, kde-format
+msgctxt "Plugin name and plugin version"
+msgid "%1 %2"
+msgstr "%1 %2"
 
 #: qml/components/private/AboutPlugin.qml:62
 #, kde-format
@@ -128,37 +161,3 @@ msgstr "न कोऽपि वस्तूनि लब्धानि"
 #, kde-format
 msgid "Could not find resource '%1'"
 msgstr "'%1' इति संसाधनं न लब्धम् ।"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: qml/components/ContextualHelpButton.qml:49
-#, kde-format
-msgctxt "@action:button"
-msgid "Show Contextual Help"
-msgstr "सन्दर्भसहायतां दर्शयतु"
-
-#: qml/components/PluginDelegate.qml:89
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "About"
-msgstr "विषये"
-
-#: qml/components/PluginDelegate.qml:104
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Configure…"
-msgstr "विन्यस्तं कुर्वन्तु…"
-
-#: qml/components/private/AboutPlugin.qml:40
-#, kde-format
-msgctxt "Plugin name and plugin version"
-msgid "%1 %2"
-msgstr "%1 %2"

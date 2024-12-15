@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-desktop package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: package/contents/config/config.qml:13
@@ -50,6 +50,18 @@ msgstr "प्रियेषु दर्शयतु"
 #, kde-format
 msgid "Icon:"
 msgstr "चिह्नम् : १."
+
+#: package/contents/ui/ConfigGeneral.qml:129
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr "चिनोतु…"
+
+#: package/contents/ui/ConfigGeneral.qml:134
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "स्पष्टं चिह्नम्"
 
 #: package/contents/ui/ConfigGeneral.qml:152
 #, kde-format
@@ -126,6 +138,20 @@ msgstr "प्रायः प्रयुक्ताः सञ्चिका�
 msgid "Sort items in categories by:"
 msgstr "श्रेणीषु वस्तूनि क्रमेण क्रमयन्तु:"
 
+#: package/contents/ui/ConfigGeneral.qml:211
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr "अद्यतनं प्रयुक्तम्"
+
+#: package/contents/ui/ConfigGeneral.qml:211
+#, kde-format
+msgctxt ""
+"@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+msgid "Often used"
+msgstr "प्रायः प्रयुक्तम्"
+
 #: package/contents/ui/ConfigGeneral.qml:221
 #, kde-format
 msgid "Search:"
@@ -146,6 +172,12 @@ msgstr "अन्वेषणपरिणामान् अधः संरे�
 msgid "Searching for '%1'"
 msgstr "'%1' इत्यस्य अन्वेषणम् ।"
 
+#: package/contents/ui/DashboardRepresentation.qml:227
+#, kde-format
+msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
+msgid "Type to search…"
+msgstr "अन्वेषणार्थं टङ्कयन्तु..."
+
 #: package/contents/ui/DashboardRepresentation.qml:323
 #, kde-format
 msgid "Favorites"
@@ -155,33 +187,3 @@ msgstr "प्रियाः"
 #, kde-format
 msgid "Edit Applications…"
 msgstr "अनुप्रयोगाः सम्पादयन्तु..."
-
-#: package/contents/ui/ConfigGeneral.qml:129
-#, kde-format
-msgctxt "@item:inmenu Open icon chooser dialog"
-msgid "Choose…"
-msgstr "चिनोतु…"
-
-#: package/contents/ui/ConfigGeneral.qml:134
-#, kde-format
-msgctxt "@item:inmenu Reset icon to default"
-msgid "Clear Icon"
-msgstr "स्पष्टं चिह्नम्"
-
-#: package/contents/ui/ConfigGeneral.qml:211
-#, kde-format
-msgctxt "@item:inlistbox Sort items in categories by [Recently used | Often used]"
-msgid "Recently used"
-msgstr "अद्यतनं प्रयुक्तम्"
-
-#: package/contents/ui/ConfigGeneral.qml:211
-#, kde-format
-msgctxt "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
-msgid "Often used"
-msgstr "प्रायः प्रयुक्तम्"
-
-#: package/contents/ui/DashboardRepresentation.qml:227
-#, kde-format
-msgctxt "@info:placeholder as in, 'start typing to initiate a search'"
-msgid "Type to search…"
-msgstr "अन्वेषणार्थं टङ्कयन्तु..."

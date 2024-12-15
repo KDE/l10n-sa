@@ -19,6 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: ../infodialog.cpp:53
+#, kde-format
+msgctxt "Percent value; %p is the value, % is the percent sign"
+msgid "%p%"
+msgstr "%प% ९."
+
 #: ../kmigratorbase.cpp:116
 #, kde-format
 msgid "Creating instance of type %1"
@@ -63,56 +79,6 @@ msgstr "प्रवासः विरामः अभवत्"
 #, kde-format
 msgid "This migration has already been started once but was aborted"
 msgstr "एषः प्रवासः एकवारं आरब्धः अस्ति किन्तु गर्भपातः अभवत्"
-
-#: gidmigrator.cpp:27
-#, kde-format
-msgid ""
-"Ensures that all items with the mimetype %1 have a GID if a GID extractor "
-"is available."
-msgstr ""
-"%1 mimetype युक्तानां सर्वेषां वस्तूनाम् GID अस्ति इति सुनिश्चितं करोति यदि "
-"GID निष्कर्षकः उपलब्धः अस्ति ।"
-
-#: gidmigrator.cpp:49
-#, kde-format
-msgid "Migration failed: %1"
-msgstr "प्रवासनं विफलम्: %1"
-
-#: main.cpp:26
-#, kde-format
-msgid "GID Migration Tool"
-msgstr "GID प्रवासन साधनम्"
-
-#: main.cpp:28
-#, kde-format
-msgid "Migration of Akonadi Items to support GID"
-msgstr "जीआईडी समर्थयितुं अकोनाडी-वस्तूनाम् प्रवासः"
-
-#: main.cpp:30
-#, kde-format
-msgid "(c) 2013-2022 the Akonadi developers"
-msgstr "(ग) २०१३-२०२२ अकोनाडी विकासकाः"
-
-#: main.cpp:33
-#, kde-format
-msgid "Author"
-msgstr "लेखकः"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: ../infodialog.cpp:53
-#, kde-format
-msgctxt "Percent value; %p is the value, % is the percent sign"
-msgid "%p%"
-msgstr "%प% ९."
 
 #: ../migratorbase.cpp:270
 #, kde-format
@@ -162,11 +128,45 @@ msgctxt "Name of the GID Migrator (intended for advanced users)."
 msgid "GID Migrator: %1"
 msgstr "प्रवासी GID: %1"
 
+#: gidmigrator.cpp:27
+#, kde-format
+msgid ""
+"Ensures that all items with the mimetype %1 have a GID if a GID extractor is "
+"available."
+msgstr ""
+"%1 mimetype युक्तानां सर्वेषां वस्तूनाम् GID अस्ति इति सुनिश्चितं करोति यदि GID निष्कर्षकः "
+"उपलब्धः अस्ति ।"
+
+#: gidmigrator.cpp:49
+#, kde-format
+msgid "Migration failed: %1"
+msgstr "प्रवासनं विफलम्: %1"
+
+#: main.cpp:26
+#, kde-format
+msgid "GID Migration Tool"
+msgstr "GID प्रवासन साधनम्"
+
+#: main.cpp:28
+#, kde-format
+msgid "Migration of Akonadi Items to support GID"
+msgstr "जीआईडी समर्थयितुं अकोनाडी-वस्तूनाम् प्रवासः"
+
+#: main.cpp:30
+#, kde-format
+msgid "(c) 2013-2022 the Akonadi developers"
+msgstr "(ग) २०१३-२०२२ अकोनाडी विकासकाः"
+
 #: main.cpp:33
 #, kde-format
 msgctxt "@info:credit"
 msgid "Christian Mollekopf"
 msgstr "क्रिश्चियन Mollekopf"
+
+#: main.cpp:33
+#, kde-format
+msgid "Author"
+msgstr "लेखकः"
 
 #: main.cpp:36
 #, kde-format

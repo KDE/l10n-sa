@@ -55,9 +55,27 @@ msgid ""
 "The item \"%1\" has sub-to-dos. Do you want to cut just this item and make "
 "all its sub-to-dos independent, or cut the to-do with all its sub-to-dos?"
 msgstr ""
-"\"%1\" इत्यस्य द्रव्यस्य उप-कार्यं भवति । किं भवन्तः केवलम् एतत् द्रव्यं "
-"छित्त्वा तस्य सर्वाणि उप-कार्य-कार्यं स्वतन्त्राणि कर्तुम् इच्छन्ति, अथवा "
-"कर्तव्यं सर्वैः उप-कार्यैः सह कटयितुम् इच्छन्ति?"
+"\"%1\" इत्यस्य द्रव्यस्य उप-कार्यं भवति । किं भवन्तः केवलम् एतत् द्रव्यं छित्त्वा तस्य सर्वाणि "
+"उप-कार्य-कार्यं स्वतन्त्राणि कर्तुम् इच्छन्ति, अथवा कर्तव्यं सर्वैः उप-कार्यैः सह कटयितुम् "
+"इच्छन्ति?"
+
+#: calendarclipboard.cpp:180 calendarclipboard.cpp:219
+#, kde-format
+msgctxt "@title:window"
+msgid "KOrganizer Confirmation"
+msgstr "KOrganizer पुष्टिकरण"
+
+#: calendarclipboard.cpp:181
+#, kde-format
+msgctxt "@action:button"
+msgid "Cut Only This"
+msgstr "केवलं एतत् कटयतु"
+
+#: calendarclipboard.cpp:182
+#, kde-format
+msgctxt "@action:button"
+msgid "Cut All"
+msgstr "सर्वान् कटयतु"
 
 #: calendarclipboard.cpp:215
 #, kde-format
@@ -65,177 +83,224 @@ msgid ""
 "The item \"%1\" has sub-to-dos. Do you want to copy just this item or copy "
 "the to-do with all its sub-to-dos?"
 msgstr ""
-"\"%1\" इत्यस्य द्रव्यस्य उप-कार्यं भवति । किं भवान् केवलं एतत् द्रव्यं "
-"प्रतिलिखितुं इच्छति अथवा तस्य सर्वैः उप-कार्यैः सह कर्तव्यस्य प्रतिलिपिं "
-"कर्तुम् इच्छति?"
+"\"%1\" इत्यस्य द्रव्यस्य उप-कार्यं भवति । किं भवान् केवलं एतत् द्रव्यं प्रतिलिखितुं इच्छति अथवा "
+"तस्य सर्वैः उप-कार्यैः सह कर्तव्यस्य प्रतिलिपिं कर्तुम् इच्छति?"
 
-#: calendarsettings.kcfg:23
+#: calendarclipboard.cpp:220
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy Only This"
+msgstr "केवलं एतत् प्रतिलिपि कुर्वन्तु"
+
+#: calendarclipboard.cpp:221
+#, kde-format
+msgctxt "@action:button"
+msgid "Copy All"
+msgstr "सर्वाणि प्रतिलिख्यताम्"
+
+#: calendarmodel.cpp:192
+#, kde-format
+msgctxt "@title:column calendar event summary"
+msgid "Summary"
+msgstr "संक्षेपः"
+
+#: calendarmodel.cpp:194
+#, kde-format
+msgctxt "@title:column calendar event start date and time"
+msgid "Start Date and Time"
+msgstr "प्रारम्भ तिथि समय"
+
+#: calendarmodel.cpp:196
+#, kde-format
+msgctxt "@title:column calendar event end date and time"
+msgid "End Date and Time"
+msgstr "समाप्तितिथिः समयः च"
+
+#: calendarmodel.cpp:198
+#, kde-format
+msgctxt "@title:column calendar event type"
+msgid "Type"
+msgstr "प्रकारः"
+
+#: calendarmodel.cpp:200
+#, kde-format
+msgctxt "@title:column todo item due date and time"
+msgid "Due Date and Time"
+msgstr "नियततिथिः समयः च"
+
+#: calendarmodel.cpp:202
+#, kde-format
+msgctxt "@title:column todo item priority"
+msgid "Priority"
+msgstr "पूर्ववर्तिता"
+
+#: calendarmodel.cpp:204
+#, kde-format
+msgctxt "@title:column todo item completion in percent"
+msgid "Complete"
+msgstr "पूर्णं करोतु"
+
+#: calendarmodel.cpp:213
+#, kde-format
+msgctxt "@title:column calendar title"
+msgid "Calendar"
+msgstr "पञ्चाङ्गम्"
+
 #. i18n: ectx: label, entry (FreeBusyPublishUrl), group (FreeBusy Publish)
+#: calendarsettings.kcfg:23
 #, kde-format
 msgid "Free/Busy Publish URL"
 msgstr "निःशुल्क/व्यस्त प्रकाशन URL"
 
-#: calendarsettings.kcfg:24
 #. i18n: ectx: whatsthis, entry (FreeBusyPublishUrl), group (FreeBusy Publish)
+#: calendarsettings.kcfg:24
 #, kde-format
 msgid "URL for publishing free/busy information"
 msgstr "मुक्त/व्यस्तसूचना प्रकाशयितुं URL"
 
-#: calendarsettings.kcfg:28
 #. i18n: ectx: label, entry (FreeBusyPublishUser), group (FreeBusy Publish)
+#: calendarsettings.kcfg:28
 #, kde-format
 msgid "Free/Busy Publish Username"
 msgstr "निःशुल्क/व्यस्त प्रयोक्तृनाम प्रकाशयतु"
 
+#. i18n: ectx: whatsthis, entry (FreeBusyPublishUser), group (FreeBusy Publish)
 #: calendarsettings.kcfg:29
-#. i18n: ectx: whatsthis, entry (FreeBusyPublishUser), group (FreeBusy
-#. Publish)
 #, kde-format
 msgid "Username for publishing free/busy information"
 msgstr "निःशुल्क/व्यस्तसूचना प्रकाशयितुं उपयोक्तृनाम"
 
+#. i18n: ectx: label, entry (FreeBusyPublishPassword), group (FreeBusy Publish)
 #: calendarsettings.kcfg:33
-#. i18n: ectx: label, entry (FreeBusyPublishPassword), group (FreeBusy
-#. Publish)
 #, kde-format
 msgid "Free/Busy Publish Password"
 msgstr "निःशुल्क/व्यस्त गुप्तशब्द प्रकाशित करें"
 
+#. i18n: ectx: whatsthis, entry (FreeBusyPublishPassword), group (FreeBusy Publish)
 #: calendarsettings.kcfg:34
-#. i18n: ectx: whatsthis, entry (FreeBusyPublishPassword), group (FreeBusy
-#. Publish)
 #, kde-format
 msgid "Password for publishing free/busy information"
 msgstr "निःशुल्क/व्यस्तसूचनाः प्रकाशयितुं गुप्तशब्दः"
 
-#: calendarsettings.kcfg:45
 #. i18n: ectx: label, entry (FreeBusyRetrieveAuto), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:45
 #, kde-format
 msgid "Enable Automatic Free/Busy Retrieval"
 msgstr "स्वचालितं मुक्त/व्यस्तपुनर्प्राप्तिः सक्षमं कुर्वन्तु"
 
+#. i18n: ectx: label, entry (FreeBusyFullDomainRetrieval), group (FreeBusy Retrieve)
 #: calendarsettings.kcfg:50
-#. i18n: ectx: label, entry (FreeBusyFullDomainRetrieval), group (FreeBusy
-#. Retrieve)
 #, kde-format
 msgid "Use full email address for retrieval"
 msgstr "पुनः प्राप्त्यर्थं पूर्णं ईमेल-सङ्केतं उपयुज्यताम्"
 
+#. i18n: ectx: whatsthis, entry (FreeBusyFullDomainRetrieval), group (FreeBusy Retrieve)
 #: calendarsettings.kcfg:51
-#. i18n: ectx: whatsthis, entry (FreeBusyFullDomainRetrieval), group (FreeBusy
-#. Retrieve)
 #, kde-format
 msgid ""
-"With this setting, you can change the filename that will be fetched from "
-"the server. With this checked, it will download a free/busy file called "
+"With this setting, you can change the filename that will be fetched from the "
+"server. With this checked, it will download a free/busy file called "
 "user@domain.ifb, for example nn@kde.org.ifb. Without this set, it will "
 "download user.ifb, for example nn.ifb."
 msgstr ""
-"एतेन सेटिङ्ग् इत्यनेन भवान् सर्वरात् यत् सञ्चिकानाम आनयिष्यते तत् "
-"परिवर्तयितुं शक्नोति । एतत् जाँचयित्वा, एतत् user@domain.ifb इति "
-"निःशुल्कं/व्यस्तसञ्चिकां डाउनलोड् करिष्यति, उदाहरणार्थं nn@kde.org.ifb । "
-"एतत् सेट् विना, एतत् user.ifb डाउनलोड् करिष्यति, उदाहरणार्थं nn.ifb ।"
+"एतेन सेटिङ्ग् इत्यनेन भवान् सर्वरात् यत् सञ्चिकानाम आनयिष्यते तत् परिवर्तयितुं शक्नोति । एतत् "
+"जाँचयित्वा, एतत् user@domain.ifb इति निःशुल्कं/व्यस्तसञ्चिकां डाउनलोड् करिष्यति, "
+"उदाहरणार्थं nn@kde.org.ifb । एतत् सेट् विना, एतत् user.ifb डाउनलोड् करिष्यति, "
+"उदाहरणार्थं nn.ifb ।"
 
-#: calendarsettings.kcfg:56
 #. i18n: ectx: label, entry (FreeBusyRetrieveUrl), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:56
 #, kde-format
 msgid "Free/Busy Retrieval URL"
 msgstr "मुक्त/व्यस्त पुनर्प्राप्ति URL"
 
-#: calendarsettings.kcfg:60
 #. i18n: ectx: label, entry (FreeBusyRetrieveUser), group (FreeBusy Retrieve)
+#: calendarsettings.kcfg:60
 #, kde-format
 msgid "Free/Busy Retrieval Username"
 msgstr "निःशुल्क/व्यस्त पुनर्प्राप्ति उपयोक्तृनाम"
 
+#. i18n: ectx: label, entry (FreeBusyRetrievePassword), group (FreeBusy Retrieve)
 #: calendarsettings.kcfg:64
-#. i18n: ectx: label, entry (FreeBusyRetrievePassword), group (FreeBusy
-#. Retrieve)
 #, kde-format
 msgid "Free/Busy Retrieval Password"
 msgstr "निःशुल्क/व्यस्त पुनर्प्राप्ति गुप्तशब्द"
 
+#. i18n: ectx: whatsthis, entry (FreeBusyRetrievePassword), group (FreeBusy Retrieve)
 #: calendarsettings.kcfg:65
-#. i18n: ectx: whatsthis, entry (FreeBusyRetrievePassword), group (FreeBusy
-#. Retrieve)
 #, kde-format
 msgid "Password for retrieving free/busy information"
 msgstr "निःशुल्क/व्यस्तसूचनाः पुनः प्राप्तुं गुप्तशब्दः"
 
-#: calendarsettings.kcfg:76
 #. i18n: ectx: label, entry, group (Group Scheduling)
+#: calendarsettings.kcfg:76
 #, kde-format
 msgid "Send copy to owner when mailing events"
 msgstr "घटनां मेलद्वारा स्वामिने प्रतिलिपिं प्रेषयन्तु"
 
-#: calendarsettings.kcfg:77
 #. i18n: ectx: whatsthis, entry, group (Group Scheduling)
+#: calendarsettings.kcfg:77
 #, kde-format
 msgid ""
-"Check this box to get a copy of all e-mail messages that KOrganizer sends "
-"at your request to event attendees."
+"Check this box to get a copy of all e-mail messages that KOrganizer sends at "
+"your request to event attendees."
 msgstr ""
-"KOrganizer इत्यनेन भवतः अनुरोधेन इवेण्ट्-उपस्थितेभ्यः प्रेषितानां सर्वेषां "
-"ई-मेल-सन्देशानां प्रतिलिपिं प्राप्तुं एतत् पेटीं चिनोतु ।"
+"KOrganizer इत्यनेन भवतः अनुरोधेन इवेण्ट्-उपस्थितेभ्यः प्रेषितानां सर्वेषां ई-मेल-सन्देशानां "
+"प्रतिलिपिं प्राप्तुं एतत् पेटीं चिनोतु ।"
 
+#. i18n: ectx: label, entry (HideDeclinedInvitations), group (Group Scheduling)
 #: calendarsettings.kcfg:82
-#. i18n: ectx: label, entry (HideDeclinedInvitations), group (Group
-#. Scheduling)
 #, kde-format
 msgid "Hide declined invitations"
 msgstr "अङ्गीकृतानि आमन्त्रणानि गोपयन्तु"
 
+#. i18n: ectx: whatsthis, entry (HideDeclinedInvitations), group (Group Scheduling)
 #: calendarsettings.kcfg:83
-#. i18n: ectx: whatsthis, entry (HideDeclinedInvitations), group (Group
-#. Scheduling)
 #, kde-format
 msgid "Check this box to hide declined invitations in event views."
 msgstr "इवेण्ट् दृश्येषु अस्वीकृतानि आमन्त्रणानि गोपयितुं एतत् पेटीम् चिनोतु ।"
 
-#: calendarsettings.kcfg:91
 #. i18n: ectx: label, entry, group (Reminders)
+#: calendarsettings.kcfg:91
 #, kde-format
 msgid "Only show reminders for events I organize or attend"
 msgstr "केवलं मया आयोजितानां वा उपस्थितानां वा आयोजनानां स्मारकं दर्शयतु"
 
-#: calendarsettings.kcfg:92
 #. i18n: ectx: whatsthis, entry, group (Reminders)
+#: calendarsettings.kcfg:92
 #, kde-format
 msgid ""
 "Check this to only receive reminders for events that you are the organizer "
 "of or that you are attending."
 msgstr ""
-"केवलं तेषां आयोजनानां स्मरणं प्राप्तुं एतत् परीक्ष्यताम् यस्य भवन्तः "
-"आयोजकाः सन्ति अथवा भवन्तः उपस्थिताः सन्ति।"
+"केवलं तेषां आयोजनानां स्मरणं प्राप्तुं एतत् परीक्ष्यताम् यस्य भवन्तः आयोजकाः सन्ति अथवा भवन्तः "
+"उपस्थिताः सन्ति।"
 
+#. i18n: ectx: label, entry (OutlookCompatCounterProposals), group (Hidden Options)
 #: calendarsettings.kcfg:100
-#. i18n: ectx: label, entry (OutlookCompatCounterProposals), group (Hidden
-#. Options)
 #, kde-format
 msgid "Send Outlook-like pseudo counter proposals"
 msgstr "Outlook-सदृशानि छद्म-गणक-प्रस्तावान् प्रेषयन्तु"
 
-#: calendarsettings.kcfg:105
 #. i18n: ectx: label, entry (FreeBusyCheckHostname), group (Hidden Options)
+#: calendarsettings.kcfg:105
 #, kde-format
 msgid "Check whether hostname and retrieval email address match"
 msgstr "होस्ट्नाम पुनर्प्राप्ति-ईमेल-सङ्केतः च मेलति वा इति पश्यन्तु"
 
+#. i18n: ectx: whatsthis, entry (FreeBusyCheckHostname), group (Hidden Options)
 #: calendarsettings.kcfg:106
-#. i18n: ectx: whatsthis, entry (FreeBusyCheckHostname), group (Hidden
-#. Options)
 #, kde-format
 msgid ""
-"With this setting you can configure whether the domain part of the "
-"free/busy URL has to match the domain part of the user ID you are looking "
-"for. For example, if this option is set, then looking for the free/busy "
-"data of joe@mydomain.com on the server www.yourdomain.com will fail."
+"With this setting you can configure whether the domain part of the free/busy "
+"URL has to match the domain part of the user ID you are looking for. For "
+"example, if this option is set, then looking for the free/busy data of "
+"joe@mydomain.com on the server www.yourdomain.com will fail."
 msgstr ""
-"एतेन सेटिङ्ग् इत्यनेन भवान् विन्यस्तुं शक्नोति यत् मुक्त/व्यस्त URL इत्यस्य "
-"डोमेन् भागः भवता अन्विष्यमाणस्य उपयोक्तृ-ID इत्यस्य डोमेन् भागेन सह "
-"मेलयितुम् अस्ति वा इति । यथा, यदि एषः विकल्पः सेट् भवति तर्हि "
-"www.yourdomain.com इति सर्वरे joe@mydomain.com इत्यस्य मुक्त/व्यस्तदत्तांशं "
-"अन्वेष्टुं विफलं भविष्यति ।"
+"एतेन सेटिङ्ग् इत्यनेन भवान् विन्यस्तुं शक्नोति यत् मुक्त/व्यस्त URL इत्यस्य डोमेन् भागः भवता "
+"अन्विष्यमाणस्य उपयोक्तृ-ID इत्यस्य डोमेन् भागेन सह मेलयितुम् अस्ति वा इति । यथा, यदि एषः "
+"विकल्पः सेट् भवति तर्हि www.yourdomain.com इति सर्वरे joe@mydomain.com इत्यस्य मुक्त/"
+"व्यस्तदत्तांशं अन्वेष्टुं विफलं भविष्यति ।"
 
 #: calendarutils.cpp:103 calendarutils.cpp:120 calendarutils.cpp:168
 #: todomodel.cpp:477
@@ -258,10 +323,70 @@ msgstr "जर्नल"
 msgid "Notes"
 msgstr "टिप्पणियाँ"
 
+#: calendarutils.cpp:133
+#, kde-format
+msgctxt "%1 is folder contents"
+msgid "My Kolab %1"
+msgstr "मम कोलाब %1"
+
+#: calendarutils.cpp:136
+#, kde-format
+msgctxt "%1 is folder name, %2 is folder contents"
+msgid "Shared Kolab %1 %2"
+msgstr "साझा कोलाब %1 %2"
+
+#: calendarutils.cpp:139
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder contents"
+msgid "%1's Kolab %2"
+msgstr "%1 इत्यस्य Collab %2"
+
+#: calendarutils.cpp:141
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder name, %3 is folder contents"
+msgid "%1's %2 Kolab %3"
+msgstr "%1 इत्यस्य %2 कोलाब %3"
+
+#: calendarutils.cpp:145
+#, kde-format
+msgctxt "%1 is folder contents"
+msgid "Kolab %1"
+msgstr "कोलाब %1"
+
+#: calendarutils.cpp:152
+#, kde-format
+msgctxt "%1 is the folder name"
+msgid "%1 in %2"
+msgstr "%2 मध्ये %1"
+
+#: calendarutils.cpp:185
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder contents"
+msgid "%1's Google %2"
+msgstr "%1 इत्यस्य गूगल %2"
+
+#: calendarutils.cpp:187
+#, kde-format
+msgctxt "%1 is folder owner name, %2 is folder name"
+msgid "%1's %2"
+msgstr "%1 इत्यस्य %2"
+
+#: calendarutils.cpp:190
+#, kde-format
+msgctxt "%1 is folder contents"
+msgid "Google %1"
+msgstr "गूगल %1"
+
 #: calendarutils.cpp:198
 #, kde-format
 msgid "My %1"
 msgstr "मम %1"
+
+#: calendarutils.cpp:202
+#, kde-format
+msgctxt "unknown resource"
+msgid "Unknown"
+msgstr "अज्ञात"
 
 #: freebusymanager.cpp:380
 #, kde-format
@@ -272,12 +397,16 @@ msgstr ""
 "मुक्त/व्यस्तदत्तांशं डाउनलोड् कर्तुं असफलम्: %1\n"
 "कारणम् : %2"
 
+#: freebusymanager.cpp:381 freebusymanager.cpp:404
+#, kde-format
+msgctxt "@title:window"
+msgid "Free/Busy Retrieval Error"
+msgstr "मुक्त/व्यस्त पुनर्प्राप्ति त्रुटि"
+
 #: freebusymanager.cpp:403
 #, kde-format
 msgid "Failed to parse free/busy information that was retrieved from: %1"
-msgstr ""
-"मुक्त/व्यस्तसूचनायाः विश्लेषणं कर्तुं असफलम् यत्: %1 इत्यस्मात् पुनः "
-"प्राप्तम्"
+msgstr "मुक्त/व्यस्तसूचनायाः विश्लेषणं कर्तुं असफलम् यत्: %1 इत्यस्मात् पुनः प्राप्तम्"
 
 #: freebusymanager.cpp:418
 #, kde-format
@@ -287,15 +416,21 @@ msgid ""
 "incorrect URL. The system said: <em>%2</em>.</p><p>Please check the URL or "
 "contact your system administrator.</p></qt>"
 msgstr ""
-"<qt><p>सॉफ्टवेयर भवतः मुक्त/व्यस्तसूचीं &#39;%1&#39; URL मध्ये अपलोड् "
-"कर्तुं न शक्तवान् । अभिगमाधिकारस्य समस्या भवितुम् अर्हति, अथवा भवता अशुद्धं "
-"URL निर्दिष्टम् । प्रणाली अवदत्- <em>%2</em> .</p><p> कृपया URL पश्यन्तु "
-"अथवा स्वस्य प्रणालीप्रशासकेन सह सम्पर्कं कुर्वन्तु ।</p></qt>"
+"<qt><p>सॉफ्टवेयर भवतः मुक्त/व्यस्तसूचीं &#39;%1&#39; URL मध्ये अपलोड् कर्तुं न शक्तवान् । "
+"अभिगमाधिकारस्य समस्या भवितुम् अर्हति, अथवा भवता अशुद्धं URL निर्दिष्टम् । प्रणाली अवदत्- "
+"<em>%2</em> .</p><p> कृपया URL पश्यन्तु अथवा स्वस्य प्रणालीप्रशासकेन सह सम्पर्कं कुर्वन्तु ।"
+"</p></qt>"
 
 #: freebusymanager.cpp:619
 #, kde-format
 msgid "The free/busy information was successfully sent."
 msgstr "निःशुल्क/व्यस्तसूचना सफलतया प्रेषिता।"
+
+#: freebusymanager.cpp:620 itiphandler_p.cpp:136
+#, kde-format
+msgctxt "@title:window"
+msgid "Sending Free/Busy"
+msgstr "निःशुल्क/व्यस्तं प्रेषयति"
 
 #: freebusymanager.cpp:623
 #, kde-format
@@ -305,25 +440,53 @@ msgstr "मुक्त/व्यस्तदत्तांशं प्रक�
 #: freebusymanager.cpp:747
 #, kde-format
 msgid ""
-"<qt><p>No URL configured for uploading your free/busy list. Please set it "
-"in KOrganizer's configuration dialog, on the \"Free/Busy\" "
-"page.</p><p>Contact your system administrator for the exact URL and the "
-"account details.</p></qt>"
+"<qt><p>No URL configured for uploading your free/busy list. Please set it in "
+"KOrganizer's configuration dialog, on the \"Free/Busy\" page.</p><p>Contact "
+"your system administrator for the exact URL and the account details.</p></qt>"
 msgstr ""
-"<qt><p>भवतः मुक्त/व्यस्तसूचीं अपलोड् कर्तुं कोऽपि URL विन्यस्तः नास्ति । "
-"कृपया KOrganizer इत्यस्य विन्याससंवादे, &quot;Free/Busy&quot; पृष्ठे सेट् "
-"कुर्वन्तु ।</p><p> सटीक URL तथा खाताविवरणार्थं स्वस्य प्रणालीप्रशासकेन सह "
-"सम्पर्कं कुर्वन्तु ।</p></qt>"
+"<qt><p>भवतः मुक्त/व्यस्तसूचीं अपलोड् कर्तुं कोऽपि URL विन्यस्तः नास्ति । कृपया KOrganizer "
+"इत्यस्य विन्याससंवादे, &quot;Free/Busy&quot; पृष्ठे सेट् कुर्वन्तु ।</p><p> सटीक URL तथा "
+"खाताविवरणार्थं स्वस्य प्रणालीप्रशासकेन सह सम्पर्कं कुर्वन्तु ।</p></qt>"
+
+#: freebusymanager.cpp:752
+#, kde-format
+msgctxt "@title:window"
+msgid "No Free/Busy Upload URL"
+msgstr "मुक्त/व्यस्त अपलोड URL नास्ति"
 
 #: freebusymanager.cpp:762
 #, kde-format
 msgid "<qt>The target URL '%1' provided is invalid.</qt>"
 msgstr "<qt>प्रदत्तं लक्ष्य-URL '%1' अमान्यम् अस्ति ।</qt>"
 
+#: freebusymanager.cpp:763
+#, kde-format
+msgctxt "@title:window"
+msgid "Invalid URL"
+msgstr "अमान्य URL"
+
 #: history_p.cpp:71
 #, kde-format
 msgid "General error"
 msgstr "सामान्यदोषः"
+
+#: history_p.cpp:82
+#, kde-format
+msgctxt "%1 is event, todo or journal"
+msgid "%1 creation"
+msgstr "%1 सृष्टिः"
+
+#: history_p.cpp:150
+#, kde-format
+msgctxt "%1 is event, todo or journal"
+msgid "%1 deletion"
+msgstr "%1 लोपः"
+
+#: history_p.cpp:232
+#, kde-format
+msgctxt "%1 is event, todo or journal"
+msgid "%1 modification"
+msgstr "%1 परिवर्तनम्"
 
 #: icalimporter.cpp:83
 #, kde-format
@@ -363,11 +526,11 @@ msgstr "चयनिता सञ्चिका पठनीया सञ्च
 #: icalimporter.cpp:187
 #, kde-format
 msgid ""
-"The selected file is not properly formatted, or in a format not supported "
-"by this software."
+"The selected file is not properly formatted, or in a format not supported by "
+"this software."
 msgstr ""
-"चयनितसञ्चिका सम्यक् प्रारूपिता नास्ति, अथवा अस्मिन् सॉफ्टवेयरद्वारा "
-"समर्थितरूपेण न प्रारूपिता अस्ति ।"
+"चयनितसञ्चिका सम्यक् प्रारूपिता नास्ति, अथवा अस्मिन् सॉफ्टवेयरद्वारा समर्थितरूपेण न "
+"प्रारूपिता अस्ति ।"
 
 #: icalimporter.cpp:195
 #, kde-format
@@ -388,6 +551,12 @@ msgstr "पञ्चाङ्गवस्तु निर्मातुं प�
 #, kde-format
 msgid "Error while trying to delete calendar item. Error was: %1"
 msgstr "पञ्चाङ्गवस्तु विलोपयितुं प्रयतमाने त्रुटिः। त्रुटिः आसीत् : %1"
+
+#: incidencechanger.cpp:374
+#, kde-format
+msgctxt "errormessage for a job ended with an unexpected result"
+msgid "An unknown error occurred"
+msgstr "अज्ञातदोषः अभवत्"
 
 #: incidencechanger.cpp:411
 #, kde-format
@@ -428,9 +597,7 @@ msgstr "समूहसञ्चालने item id इत्यस्य ड�
 msgid ""
 "One change belonging to a group of changes failed. All changes are being "
 "rolled back."
-msgstr ""
-"परिवर्तनसमूहस्य एकः परिवर्तनः असफलः अभवत् । सर्वे परिवर्तनानि पुनः रोल "
-"क्रियन्ते।"
+msgstr "परिवर्तनसमूहस्य एकः परिवर्तनः असफलः अभवत् । सर्वे परिवर्तनानि पुनः रोल क्रियन्ते।"
 
 #: incidencechanger.cpp:1215
 #, kde-format
@@ -482,8 +649,25 @@ msgstr "काउण्टरप्रस्तावस्य सम्पा�
 msgid ""
 "The item '%1' has no attendees. Therefore no groupware message will be sent."
 msgstr ""
-"'%1' इति मदस्य उपस्थिताः नास्ति । अतः कोऽपि समूहसामग्रीसन्देशः न प्रेषितः "
-"भविष्यति ।"
+"'%1' इति मदस्य उपस्थिताः नास्ति । अतः कोऽपि समूहसामग्रीसन्देशः न प्रेषितः भविष्यति ।"
+
+#: itiphandler.cpp:273
+#, kde-format
+msgctxt "@title:window"
+msgid "Message Not Sent"
+msgstr "सन्देशः न प्रेषितः"
+
+#: itiphandler.h:108 itiphandler.h:126 itiphandler.h:142 itiphandler.h:155
+#, kde-format
+msgctxt "@action:button dialog positive answer"
+msgid "Send Email"
+msgstr "ईमेल प्रेषयन्तु"
+
+#: itiphandler.h:109 itiphandler.h:127 itiphandler.h:143 itiphandler.h:156
+#, kde-format
+msgctxt "@action:button dialog negative answer"
+msgid "Do Not Send"
+msgstr "मा प्रेषयतु"
 
 #: itiphandler_p.cpp:59 itiphandler_p.cpp:61 itiphandler_p.cpp:115
 #: itiphandlerhelper_p.cpp:510
@@ -505,25 +689,60 @@ msgstr ""
 "'%1' इति द्रव्यस्य समूहवेयरसन्देशः सफलतया प्रेषितः ।\n"
 "विधिः %2"
 
+#: itiphandler_p.cpp:144
+#, kde-format
+msgctxt ""
+"Groupware message sending failed. %2 is request/reply/add/cancel/counter/etc."
+msgid ""
+"Unable to send the item '%1'.\n"
+"Method: %2"
+msgstr ""
+"'%1' इति द्रव्यं प्रेषयितुं असमर्थः ।\n"
+"विधिः %2"
+
 #: itiphandler_p.cpp:160 itiphandler_p.cpp:180
 #, kde-format
 msgid "The item information was successfully sent."
 msgstr "मदसूचना सफलतया प्रेषिता।"
+
+#: itiphandler_p.cpp:161
+#, kde-format
+msgctxt "@title:window"
+msgid "Publishing"
+msgstr "प्रकाशन"
 
 #: itiphandler_p.cpp:166
 #, kde-format
 msgid "Unable to publish the item '%1'"
 msgstr "'%1' इति द्रव्यं प्रकाशयितुं असमर्थः ।"
 
+#: itiphandler_p.cpp:181
+#, kde-format
+msgctxt "@title:window"
+msgid "Forwarding"
+msgstr "अग्रे प्रेषणम्"
+
 #: itiphandler_p.cpp:188
 #, kde-format
 msgid "Unable to forward the item '%1'"
 msgstr "'%1' इति द्रव्यं अग्रे प्रेषयितुं असमर्थः ।"
 
+#: itiphandler_p.cpp:189
+#, kde-format
+msgctxt "@title:window"
+msgid "Forwarding Error"
+msgstr "अग्रे प्रेषणदोषः"
+
 #: itiphandlerhelper_p.cpp:37
 #, kde-format
 msgid "Proposed new meeting time: %1 - %2"
 msgstr "प्रस्तावितः नूतनः सभासमयः : %1 - %2"
+
+#: itiphandlerhelper_p.cpp:69
+#, kde-format
+msgctxt "@title:window"
+msgid "Group Scheduling Email"
+msgstr "समूह समयनिर्धारण ईमेल"
 
 #: itiphandlerhelper_p.cpp:146
 #, kde-kuit-format
@@ -553,20 +772,16 @@ msgstr ""
 msgid ""
 "This incidence includes other people. Should an email be sent to the "
 "attendees?"
-msgstr ""
-"अस्मिन् प्रसङ्गे अन्ये जनाः अपि अन्तर्भवन्ति । उपस्थितानां कृते ईमेल "
-"प्रेषणीयम् वा ?"
+msgstr "अस्मिन् प्रसङ्गे अन्ये जनाः अपि अन्तर्भवन्ति । उपस्थितानां कृते ईमेल प्रेषणीयम् वा ?"
 
 #: itiphandlerhelper_p.cpp:271
 #, kde-format
 msgid ""
-"You are not the organizer of this event. Editing it will bring your "
-"calendar out of sync with the organizer's calendar. Do you really want to "
-"edit it?"
+"You are not the organizer of this event. Editing it will bring your calendar "
+"out of sync with the organizer's calendar. Do you really want to edit it?"
 msgstr ""
-"भवान् अस्य आयोजनस्य आयोजकः नास्ति। तस्य सम्पादनेन भवतः पञ्चाङ्गं आयोजकस्य "
-"पञ्चाङ्गेन सह समन्वयात् बहिः आनयिष्यति । किं भवन्तः तस्य सम्पादनं कर्तुम् "
-"इच्छन्ति ?"
+"भवान् अस्य आयोजनस्य आयोजकः नास्ति। तस्य सम्पादनेन भवतः पञ्चाङ्गं आयोजकस्य पञ्चाङ्गेन सह "
+"समन्वयात् बहिः आनयिष्यति । किं भवन्तः तस्य सम्पादनं कर्तुम् इच्छन्ति ?"
 
 #: itiphandlerhelper_p.cpp:304
 #, kde-format
@@ -576,6 +791,13 @@ msgid ""
 msgstr ""
 "भवता \"%1\" इति आमन्त्रणं परिवर्तितम् ।\n"
 "किं भवान् उपस्थितानां कृते अद्यतनसन्देशं ईमेलद्वारा प्रेषयितुम् इच्छति?"
+
+#: itiphandlerhelper_p.cpp:312 itiphandlerhelper_p.cpp:333
+#: itiphandlerhelper_p.cpp:346
+#, kde-format
+msgctxt "@action:button"
+msgid "Send Update"
+msgstr "Update प्रेषयतु"
 
 #: itiphandlerhelper_p.cpp:327 itiphandlerhelper_p.cpp:411
 #, kde-format
@@ -588,8 +810,8 @@ msgid ""
 "Your status as an attendee of this event changed. Do you want to send a "
 "status update to the event organizer?"
 msgstr ""
-"अस्य आयोजनस्य उपस्थितत्वेन भवतः स्थितिः परिवर्तिता । किं भवान् इवेण्ट् "
-"आयोजकं प्रति स्थिति-अद्यतनं प्रेषयितुम् इच्छति?"
+"अस्य आयोजनस्य उपस्थितत्वेन भवतः स्थितिः परिवर्तिता । किं भवान् इवेण्ट् आयोजकं प्रति स्थिति-"
+"अद्यतनं प्रेषयितुम् इच्छति?"
 
 #: itiphandlerhelper_p.cpp:382
 #, kde-format
@@ -598,8 +820,7 @@ msgid ""
 "Do you want to email the attendees that the event is canceled?"
 msgstr ""
 "भवान् \"%1\" इति आमन्त्रणं निष्कासितवान् ।\n"
-"किं भवान् उपस्थितानां कृते ईमेलद्वारा प्रेषयितुम् इच्छति यत् आयोजनं रद्दं "
-"कृतम्?"
+"किं भवान् उपस्थितानां कृते ईमेलद्वारा प्रेषयितुम् इच्छति यत् आयोजनं रद्दं कृतम्?"
 
 #: itiphandlerhelper_p.cpp:387
 #, kde-format
@@ -608,8 +829,7 @@ msgid ""
 "Do you want to email the attendees that the todo is canceled?"
 msgstr ""
 "भवान् \"%1\" इति आमन्त्रणं निष्कासितवान् ।\n"
-"किं भवान् उपस्थितानां कृते ईमेलद्वारा प्रेषयितुम् इच्छति यत् todo रद्दः "
-"अस्ति?"
+"किं भवान् उपस्थितानां कृते ईमेलद्वारा प्रेषयितुम् इच्छति यत् todo रद्दः अस्ति?"
 
 #: itiphandlerhelper_p.cpp:392
 #, kde-format
@@ -618,22 +838,27 @@ msgid ""
 "Do you want to email the attendees that the journal is canceled?"
 msgstr ""
 "भवान् \"%1\" इति आमन्त्रणं निष्कासितवान् ।\n"
-"किं भवान् उपस्थितानां कृते ईमेलद्वारा प्रेषयितुम् इच्छति यत् पत्रिका "
-"रद्दीकृता अस्ति?"
+"किं भवान् उपस्थितानां कृते ईमेलद्वारा प्रेषयितुम् इच्छति यत् पत्रिका रद्दीकृता अस्ति?"
 
 #: itiphandlerhelper_p.cpp:414
 #, kde-format
 msgid "Do you want to send a status update to the organizer of this journal?"
 msgstr "अस्य पत्रिकायाः आयोजकं प्रति स्थिति-अद्यतनं प्रेषयितुम् इच्छति वा?"
 
+#: itiphandlerhelper_p.cpp:419 itiphandlerhelper_p.cpp:440
+#, kde-format
+msgctxt "@action:button dialog positive answer"
+msgid "Send Update"
+msgstr "Update प्रेषयतु"
+
 #: itiphandlerhelper_p.cpp:434
 #, kde-format
 msgid ""
-"You had previously accepted an invitation to this event. Do you want to "
-"send an updated response to the organizer declining the invitation?"
+"You had previously accepted an invitation to this event. Do you want to send "
+"an updated response to the organizer declining the invitation?"
 msgstr ""
-"भवता पूर्वं अस्य आयोजनस्य निमन्त्रणं स्वीकृतम् आसीत् । आमन्त्रणं अङ्गीकृत्य "
-"आयोजकं प्रति अद्यतनं प्रतिक्रियां प्रेषयितुम् इच्छति वा?"
+"भवता पूर्वं अस्य आयोजनस्य निमन्त्रणं स्वीकृतम् आसीत् । आमन्त्रणं अङ्गीकृत्य आयोजकं प्रति अद्यतनं "
+"प्रतिक्रियां प्रेषयितुम् इच्छति वा?"
 
 #: itiphandlerhelper_p.cpp:478 mailscheduler_p.cpp:124
 #, kde-format
@@ -644,6 +869,12 @@ msgstr "प्रतिप्रस्तावः %1"
 #, kde-format
 msgid "Sending group scheduling email failed."
 msgstr "समूहनिर्धारण ईमेल प्रेषणं विफलम्।"
+
+#: itiphandlerhelper_p.cpp:503
+#, kde-format
+msgctxt "@action:button dialog positive answer to abort question"
+msgid "Abort Update"
+msgstr "अद्यतनं निरस्तं कुर्वन्तु"
 
 #: mailclient_p.cpp:377 mailclient_p.cpp:415
 #, kde-format
@@ -678,18 +909,30 @@ msgstr "बहिःपेटिकायां सन्देशस्य प�
 #: mailclient_p.cpp:701
 #, kde-format
 msgid ""
-"Examination of the recipient's signing preferences yielded that you be "
-"asked whether or not to sign this message.\n"
+"Examination of the recipient's signing preferences yielded that you be asked "
+"whether or not to sign this message.\n"
 "Sign this message?"
 msgstr ""
-"प्राप्तकस्य हस्ताक्षरप्राथमिकतानां परीक्षणेन भवन्तः पृष्टाः यत् अस्मिन् "
-"सन्देशे हस्ताक्षरं कर्तव्यं वा न वा इति ।\n"
+"प्राप्तकस्य हस्ताक्षरप्राथमिकतानां परीक्षणेन भवन्तः पृष्टाः यत् अस्मिन् सन्देशे हस्ताक्षरं कर्तव्यं "
+"वा न वा इति ।\n"
 "अस्मिन् सन्देशे हस्ताक्षरं कुर्वन्तु?"
 
 #: mailclient_p.cpp:706 mailclient_p.cpp:732
 #, kde-format
 msgid "Sign Message?"
 msgstr "हस्ताक्षरं सन्देशः?"
+
+#: mailclient_p.cpp:707 mailclient_p.cpp:733
+#, kde-format
+msgctxt "to sign"
+msgid "&Sign"
+msgstr "&चिह्नम्‌"
+
+#: mailclient_p.cpp:708 mailclient_p.cpp:734
+#, kde-format
+msgctxt "@action:button"
+msgid "Do &Not Sign"
+msgstr "हस्ताक्षरं कुर्वन्तु &न कुर्वन्तु"
 
 #: mailclient_p.cpp:728
 #, kde-format
@@ -703,11 +946,23 @@ msgstr ""
 #: mailclient_p.cpp:753
 #, kde-format
 msgid ""
-"You have requested to sign this message, but no valid signing keys have "
-"been configured for this identity."
+"You have requested to sign this message, but no valid signing keys have been "
+"configured for this identity."
 msgstr ""
-"भवता एतत् सन्देशं हस्ताक्षरं कर्तुं अनुरोधः कृतः, परन्तु अस्य परिचयस्य कृते "
-"वैधहस्ताक्षरकुंजी विन्यस्ताः न सन्ति ।"
+"भवता एतत् सन्देशं हस्ताक्षरं कर्तुं अनुरोधः कृतः, परन्तु अस्य परिचयस्य कृते वैधहस्ताक्षरकुंजी "
+"विन्यस्ताः न सन्ति ।"
+
+#: mailclient_p.cpp:756
+#, kde-format
+msgctxt "@title:window"
+msgid "Send Unsigned?"
+msgstr "अहस्ताक्षरितं प्रेषयतु?"
+
+#: mailclient_p.cpp:756
+#, kde-format
+msgctxt "@action:button"
+msgid "Send &Unsigned"
+msgstr "प्रेषयतु &अनहस्ताक्षरितम्"
 
 #: mailclient_p.cpp:770
 #, kde-format
@@ -717,8 +972,7 @@ msgid ""
 "Sign all parts instead?"
 msgstr ""
 "अस्य सन्देशस्य केचन भागाः हस्ताक्षरिताः न भविष्यन्ति ।\n"
-"केवलं आंशिकरूपेण हस्ताक्षरितसन्देशान् प्रेषयित्वा साइट् नीतिस्य उल्लङ्घनं "
-"भवितुम् अर्हति ।\n"
+"केवलं आंशिकरूपेण हस्ताक्षरितसन्देशान् प्रेषयित्वा साइट् नीतिस्य उल्लङ्घनं भवितुम् अर्हति ।\n"
 "तस्य स्थाने सर्वेषु भागेषु हस्ताक्षरं कुर्वन्तु?"
 
 #: mailclient_p.cpp:774
@@ -742,6 +996,18 @@ msgstr "&सभी भागों पर हस्ताक्षर करे�
 msgid "&Sign"
 msgstr "&चिह्नम्‌"
 
+#: mailclient_p.cpp:779
+#, kde-format
+msgctxt "@title:window"
+msgid "Unsigned-Message Warning"
+msgstr "अहस्ताक्षरित-सन्देश चेतावनी"
+
+#: mailclient_p.cpp:781
+#, kde-format
+msgctxt "@action:button"
+msgid "Send &As Is"
+msgstr "प्रेषयतु &यथा अस्ति"
+
 #: mailclient_p.cpp:834
 #, kde-format
 msgid ""
@@ -758,9 +1024,15 @@ msgid ""
 "asked whether or not to encrypt this message.\n"
 "Encrypt this message?"
 msgstr ""
-"प्राप्तकस्य गोपनप्राथमिकतानां परीक्षणेन भवन्तः पृष्टाः यत् एतत् सन्देशं "
-"गोपनं कर्तव्यं वा न वा इति ।\n"
+"प्राप्तकस्य गोपनप्राथमिकतानां परीक्षणेन भवन्तः पृष्टाः यत् एतत् सन्देशं गोपनं कर्तव्यं वा न वा "
+"इति ।\n"
 "एतत् सन्देशं एन्क्रिप्ट् कुर्वन्तु?"
+
+#: mailclient_p.cpp:842
+#, kde-format
+msgctxt "@title:window"
+msgid "Encrypt Message?"
+msgstr "सन्देशं एन्क्रिप्ट् कुर्वन्तु?"
 
 #: mailclient_p.cpp:843
 #, kde-format
@@ -796,21 +1068,38 @@ msgstr ""
 msgid "Encrypt Message?"
 msgstr "सन्देशं एन्क्रिप्ट् कुर्वन्तु?"
 
+#: mailclient_p.cpp:869
+#, kde-format
+msgctxt "@action:button"
+msgid "&Encrypt"
+msgstr "&गुप्तीकरण"
+
+#: mailclient_p.cpp:870
+#, kde-format
+msgctxt "@action:button"
+msgid "Do &Not Encrypt"
+msgstr "एन्क्रिप्ट् कुर्वन्तु &न कुर्वन्तु"
+
 #: mailclient_p.cpp:889
 #, kde-format
 msgid ""
 "You have requested to encrypt this message, and to encrypt a copy to "
-"yourself, but no valid trusted encryption keys have been configured for "
-"this identity."
+"yourself, but no valid trusted encryption keys have been configured for this "
+"identity."
 msgstr ""
-"भवता एतत् सन्देशं गोपनीयं कर्तुं, प्रतिलिपिं च स्वस्य कृते गोपनं कर्तुं "
-"प्रार्थितं, परन्तु अस्य परिचयस्य कृते वैधविश्वसनीयगुप्तीकरणकुंजी विन्यस्तं "
-"नास्ति ।"
+"भवता एतत् सन्देशं गोपनीयं कर्तुं, प्रतिलिपिं च स्वस्य कृते गोपनं कर्तुं प्रार्थितं, परन्तु अस्य "
+"परिचयस्य कृते वैधविश्वसनीयगुप्तीकरणकुंजी विन्यस्तं नास्ति ।"
 
 #: mailclient_p.cpp:893
 #, kde-format
 msgid "Send Unencrypted?"
 msgstr "अगुप्तं प्रेषयतु?"
+
+#: mailclient_p.cpp:893
+#, kde-format
+msgctxt "@action:button"
+msgid "Send &Unencrypted"
+msgstr "प्रेषयतु &अगुप्तम्"
 
 #: mailclient_p.cpp:907
 #, kde-format
@@ -821,21 +1110,21 @@ msgid ""
 "Encrypt all parts instead?"
 msgstr ""
 "अस्य सन्देशस्य केचन भागाः गुप्तीकरणं न भविष्यन्ति ।\n"
-"केवलं आंशिकरूपेण एन्क्रिप्टेड् सन्देशान् प्रेषयित्वा साइट् नीतेः उल्लङ्घनं "
-"भवितुम् अर्हति तथा/वा संवेदनशीलसूचनाः लीकं कर्तुं शक्नुवन्ति ।\n"
+"केवलं आंशिकरूपेण एन्क्रिप्टेड् सन्देशान् प्रेषयित्वा साइट् नीतेः उल्लङ्घनं भवितुम् अर्हति तथा/वा "
+"संवेदनशीलसूचनाः लीकं कर्तुं शक्नुवन्ति ।\n"
 "तस्य स्थाने सर्वान् भागान् एन्क्रिप्ट् कुर्वन्तु?"
 
 #: mailclient_p.cpp:912
 #, kde-format
 msgid ""
 "This message will not be encrypted.\n"
-"Sending unencrypted messages might violate site policy and/or leak "
-"sensitive information.\n"
+"Sending unencrypted messages might violate site policy and/or leak sensitive "
+"information.\n"
 "Encrypt messages instead?"
 msgstr ""
 "एषः सन्देशः गुप्तीकरणं न भविष्यति ।\n"
-"अगुप्तसन्देशप्रेषणेन साइटनीतेः उल्लङ्घनं भवितुम् अर्हति तथा/वा "
-"संवेदनशीलसूचनाः लीकं भवितुम् अर्हन्ति ।\n"
+"अगुप्तसन्देशप्रेषणेन साइटनीतेः उल्लङ्घनं भवितुम् अर्हति तथा/वा संवेदनशीलसूचनाः लीकं भवितुम् "
+"अर्हन्ति ।\n"
 "तस्य स्थाने सन्देशान् एन्क्रिप्ट् कुर्वन्तु?"
 
 #: mailclient_p.cpp:916
@@ -853,14 +1142,30 @@ msgstr "अगुप्तसन्देश चेतावनी"
 msgid "Error sending e-mail: "
 msgstr "ई-मेलप्रेषणे त्रुटिः : १. "
 
+#: publishdialog.cpp:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Addresses"
+msgstr "Addresses इति चिनोतु"
+
+#: publishdialog.cpp:61
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Send email to these recipients"
+msgstr "एतेभ्यः प्राप्तिभ्यः ईमेल प्रेषयन्तु"
+
 #: publishdialog.cpp:63
 #, kde-format
 msgid ""
 "Clicking the <b>Ok</b> button will cause an email to be sent to the "
 "recipients you have entered."
-msgstr ""
-"<b>Ok</b> बटन् नुदने भवता प्रविष्टानां प्राप्तकर्तृभ्यः ईमेल प्रेषितं "
-"भविष्यति ।"
+msgstr "<b>Ok</b> बटन् नुदने भवता प्रविष्टानां प्राप्तकर्तृभ्यः ईमेल प्रेषितं भविष्यति ।"
+
+#: publishdialog.cpp:68
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cancel recipient selection and the email"
+msgstr "प्राप्तकर्ता चयनं ईमेलं च रद्दं कुर्वन्तु"
 
 #: publishdialog.cpp:70
 #, kde-format
@@ -872,10 +1177,8 @@ msgstr "<b>Cancel</b> बटन् नुदनेन ईमेल-सञ्च�
 #: publishdialog.cpp:75
 #, kde-format
 msgid ""
-"Click the <b>Help</b> button to read more information about Group "
-"Scheduling."
-msgstr ""
-"Group Scheduling विषये अधिकानि सूचनानि पठितुं <b>Help</b> बटन् नुदन्तु ।"
+"Click the <b>Help</b> button to read more information about Group Scheduling."
+msgstr "Group Scheduling विषये अधिकानि सूचनानि पठितुं <b>Help</b> बटन् नुदन्तु ।"
 
 #: publishdialog.cpp:123
 #, kde-format
@@ -887,108 +1190,138 @@ msgstr ""
 "अमान्यग्राहकतारस्य कारणेन पञ्चाङ्गप्रसङ्गं प्रकाशयितुं असमर्थः ।\n"
 "%1"
 
-#: publishdialog_base.ui:38
+#: publishdialog.cpp:126
+#, kde-format
+msgctxt "@title:window"
+msgid "Publishing Error"
+msgstr "प्रकाशन त्रुटि"
+
 #. i18n: ectx: property (toolTip), widget (QListWidget, mListWidget)
+#: publishdialog_base.ui:38
 #, kde-format
 msgid "The list of addressees to receive the invitation"
 msgstr "आमन्त्रणं प्राप्तुं सम्बोधिनां सूची"
 
-#: publishdialog_base.ui:41
 #. i18n: ectx: property (whatsThis), widget (QListWidget, mListWidget)
+#: publishdialog_base.ui:41
 #, kde-format
 msgid ""
 "This is a list of all the addresses you have currently selected to receive "
 "the iCalendar invitation."
 msgstr ""
-"एषा भवता सम्प्रति iCalendar आमन्त्रणं प्राप्तुं चयनितानां सर्वेषां "
-"पत्तनानां सूची अस्ति ।"
+"एषा भवता सम्प्रति iCalendar आमन्त्रणं प्राप्तुं चयनितानां सर्वेषां पत्तनानां सूची अस्ति ।"
 
-#: publishdialog_base.ui:52
 #. i18n: ectx: property (toolTip), widget (QPushButton, mNew)
+#: publishdialog_base.ui:52
 #, kde-format
 msgid "Create a new recipient"
 msgstr "नूतनं प्राप्तकं रचयन्तु"
 
-#: publishdialog_base.ui:55
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mNew)
+#: publishdialog_base.ui:55
 #, kde-format
 msgid ""
 "Click this button and you will be able to enter a name and email for a new "
 "addressee to add to the recipients list"
 msgstr ""
-"एतत् बटन् नुदन्तु ततः भवन्तः प्राप्तकर्तासूचौ योजयितुं नूतनस्य सम्बोधकस्य "
-"नाम ईमेलं च प्रविष्टुं शक्नुवन्ति"
+"एतत् बटन् नुदन्तु ततः भवन्तः प्राप्तकर्तासूचौ योजयितुं नूतनस्य सम्बोधकस्य नाम ईमेलं च प्रविष्टुं "
+"शक्नुवन्ति"
 
-#: publishdialog_base.ui:58
 #. i18n: ectx: property (text), widget (QPushButton, mNew)
+#: publishdialog_base.ui:58
 #, kde-format
 msgid "&New"
 msgstr "&नूतनम्‌"
 
-#: publishdialog_base.ui:65
 #. i18n: ectx: property (toolTip), widget (QPushButton, mRemove)
+#: publishdialog_base.ui:65
 #, kde-format
 msgid "Remove the recipient currently selected"
 msgstr "वर्तमान चयनितं प्राप्तकं निष्कासयन्तु"
 
-#: publishdialog_base.ui:68
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mRemove)
+#: publishdialog_base.ui:68
 #, kde-format
 msgid ""
 "Click this button to remove the recipient currently selected from the list"
 msgstr "सूचीतः वर्तमानकाले चयनितं प्राप्तकं निष्कासयितुं एतत् बटन् नुदन्तु"
 
-#: publishdialog_base.ui:71
 #. i18n: ectx: property (text), widget (QPushButton, mRemove)
+#: publishdialog_base.ui:71
 #, kde-format
 msgid "&Remove"
 msgstr "&अपाकरोति"
 
-#: publishdialog_base.ui:78
 #. i18n: ectx: property (toolTip), widget (QPushButton, mSelectAddressee)
+#: publishdialog_base.ui:78
 #, kde-format
 msgid "Select a recipient from your address book"
 msgstr "स्वस्य पतापुस्तकात् एकं प्राप्तकं चिनुत"
 
-#: publishdialog_base.ui:81
 #. i18n: ectx: property (whatsThis), widget (QPushButton, mSelectAddressee)
+#: publishdialog_base.ui:81
 #, kde-format
 msgid ""
 "Click this button to show another dialog where you will be able to select a "
 "recipient from your address book"
 msgstr ""
-"अन्यं संवादं दर्शयितुं एतत् बटन् नुदन्तु यत्र भवान् स्वस्य पतापुस्तकात् "
-"प्राप्तकर्तां चिन्वितुं शक्नोति"
+"अन्यं संवादं दर्शयितुं एतत् बटन् नुदन्तु यत्र भवान् स्वस्य पतापुस्तकात् प्राप्तकर्तां चिन्वितुं शक्नोति"
 
-#: publishdialog_base.ui:84
 #. i18n: ectx: property (text), widget (QPushButton, mSelectAddressee)
+#: publishdialog_base.ui:84
 #, kde-format
 msgid "&Select…"
 msgstr "&विचि…"
 
-#: publishdialog_base.ui:123
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: publishdialog_base.ui:113
+#, kde-format
+msgctxt "recipient name"
+msgid "Name:"
+msgstr "नामः:"
+
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mNameLineEdit)
+#: publishdialog_base.ui:123
 #, kde-format
 msgid "The recipient's name"
 msgstr "ग्राहकस्य नाम"
 
-#: publishdialog_base.ui:126
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, mNameLineEdit)
+#: publishdialog_base.ui:126
 #, kde-format
 msgid "This field contains the name of the recipient"
 msgstr "अस्मिन् क्षेत्रे प्राप्तकस्य नाम अस्ति"
 
-#: publishdialog_base.ui:146
+#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
+#: publishdialog_base.ui:136
+#, kde-format
+msgctxt "recipient email"
+msgid "E&mail:"
+msgstr "ई-मेलः : १."
+
 #. i18n: ectx: property (toolTip), widget (QLineEdit, mEmailLineEdit)
+#: publishdialog_base.ui:146
 #, kde-format
 msgid "The recipient's email address"
 msgstr "प्राप्तकर्तायाः ईमेल-सङ्केतः"
 
-#: publishdialog_base.ui:149
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, mEmailLineEdit)
+#: publishdialog_base.ui:149
 #, kde-format
 msgid "This field contains the email address of the recipient"
 msgstr "अस्मिन् क्षेत्रे प्राप्तकस्य ईमेल-सङ्केतः भवति"
+
+#: publishdialog_p.cpp:44
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "(EmptyName)"
+msgstr "(रिक्तनाम) ९."
+
+#: publishdialog_p.cpp:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "(EmptyEmail)"
+msgstr "(रिक्तईमेल) २."
 
 #: scheduler_p.cpp:132 scheduler_p.cpp:239
 #, kde-format
@@ -1005,6 +1338,32 @@ msgstr "एतत् अद्यतनं नास्ति। प्राप
 msgid "Error modifying incidence"
 msgstr "घटनां परिवर्तयन् त्रुटिः"
 
+#: scheduler_p.cpp:288
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>You added an invitation update, but an earlier version of the item "
+"could not be found in your calendar.</para><para>This may have occurred "
+"because:<list><item>the organizer did not include you in the original "
+"invitation</item><item>you did not accept the original invitation yet</"
+"item><item>you deleted the original invitation from your calendar</"
+"item><item>you no longer have access to the calendar containing the "
+"invitation</item></list></para><para>This is not a problem, but we thought "
+"you should know.</para>"
+msgstr ""
+"<para>भवन्तः आमन्त्रण-अद्यतनं योजितवन्तः, परन्तु भवतः पञ्चाङ्गे द्रव्यस्य पूर्वसंस्करणं न लब्धम् ।"
+"</para><para>एतत् अभवत् यतः:<list><item>आयोजकः भवन्तं न समाविष्टवान् मूलनिमन्त्रणं</"
+"item><item>भवता मूलनिमन्त्रणं न स्वीकृतम् अद्यापि</item><item>भवता स्वस्य पञ्चाङ्गात् "
+"मूलनिमन्त्रणं लोपितम्</item><item>भवन्तः न longer कृते आमन्त्रणं युक्ते पञ्चाङ्गे प्रवेशः भवति</"
+"item></list></para><para>एषा समस्या नास्ति, परन्तु अस्माभिः चिन्तितम् यत् भवान् "
+"ज्ञातव्यः।</para>"
+
+#: scheduler_p.cpp:297
+#, kde-format
+msgctxt "@title:window"
+msgid "Cannot Find Invitation to be Updated"
+msgstr "अद्यतनं कर्तुं आमन्त्रणं न प्राप्नुयात्"
+
 #: scheduler_p.cpp:304
 #, kde-format
 msgid "Error adding incidence"
@@ -1020,11 +1379,86 @@ msgstr "विलोपयितुं घटनां न प्राप्न
 msgid "Error recording exception"
 msgstr "त्रुटि अभिलेखन अपवादः"
 
+#: scheduler_p.cpp:408
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The event or task could not be removed from your calendar. Maybe it has "
+"already been deleted or is not owned by you. Or it might belong to a read-"
+"only or disabled calendar."
+msgstr ""
+"भवतः पञ्चाङ्गात् घटना वा कार्यं वा निष्कासयितुं न शक्यते स्म । भवतु नाम पूर्वमेव लोपितं वा "
+"भवतः स्वामित्वं नास्ति वा। अथवा केवलं पठनीयस्य अथवा अक्षमस्य पञ्चाङ्गस्य अन्तर्गतं भवेत् ।"
+
 #: scheduler_p.cpp:418 scheduler_p.cpp:433 scheduler_p.cpp:568
 #: scheduler_p.cpp:574
 #, kde-format
 msgid "Generic Error"
 msgstr "सामान्यदोषः"
+
+#: scheduler_p.cpp:476
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 but was not invited."
+msgstr "%1 %2 उपस्थितिम् इच्छति परन्तु आमन्त्रितः नासीत् ।"
+
+#: scheduler_p.cpp:478
+#, kde-format
+msgctxt "@info"
+msgid "%1 wants to attend %2 on behalf of %3."
+msgstr "%1 %3 इत्यस्य पक्षतः %2 इत्यत्र उपस्थितिम् इच्छति ।"
+
+#: scheduler_p.cpp:482
+#, kde-format
+msgctxt "@title:window"
+msgid "Uninvited Attendee"
+msgstr "अनिमन्त्रित उपस्थित"
+
+#: scheduler_p.cpp:483
+#, kde-format
+msgctxt "@option"
+msgid "Accept Attendance"
+msgstr "उपस्थिति स्वीकार करें"
+
+#: scheduler_p.cpp:484
+#, kde-format
+msgctxt "@option"
+msgid "Reject Attendance"
+msgstr "उपस्थिति अस्वीकार करें"
+
+#: scheduler_p.cpp:487
+#, kde-format
+msgctxt "@info"
+msgid "The organizer rejected your attendance at this meeting."
+msgstr "आयोजकः अस्मिन् सत्रे भवतः उपस्थितिम् अङ्गीकृतवान्।"
+
+#: scheduler_p.cpp:508
+#, kde-format
+msgctxt "@info"
+msgid ""
+"An attendee was added to the incidence. Do you want to email the attendees "
+"an update message?"
+msgstr ""
+"घटनायां एकः उपस्थितः अपि योजितः आसीत् । किं भवान् उपस्थितानां कृते अद्यतनसन्देशं ईमेलद्वारा "
+"प्रेषयितुम् इच्छति?"
+
+#: scheduler_p.cpp:510
+#, kde-format
+msgctxt "@title:window"
+msgid "Attendee Added"
+msgstr "उपस्थितः योजितः"
+
+#: scheduler_p.cpp:511
+#, kde-format
+msgctxt "@option"
+msgid "Send Messages"
+msgstr "सन्देशान् प्रेषयन्तु"
+
+#: scheduler_p.cpp:512
+#, kde-format
+msgctxt "@option"
+msgid "Do Not Send"
+msgstr "मा प्रेषयतु"
 
 #: scheduler_p.cpp:558
 #, kde-format
@@ -1041,6 +1475,18 @@ msgstr "कोऽपि निःशुल्कः व्यस्तः सं
 msgid "Error saving freebusy object"
 msgstr "freebusy वस्तु रक्षणे त्रुटिः"
 
+#: searchcollectionhelper.cpp:179
+#, kde-format
+msgctxt "A collection of all declined invidations."
+msgid "Declined Invitations"
+msgstr "अङ्गीकृतानि आमन्त्रणानि"
+
+#: searchcollectionhelper.cpp:187
+#, kde-format
+msgctxt "A collection of all open invidations."
+msgid "Open Invitations"
+msgstr "आमन्त्रणपत्राणि उद्घाटयन्तु"
+
 #: standardcalendaractionmanager.cpp:46
 #, kde-format
 msgid "Add Folder…"
@@ -1051,10 +1497,22 @@ msgstr "पुटं योजयतु…"
 msgid "Add a new calendar folder to the currently selected calendar folder."
 msgstr "वर्तमान चयनितपञ्चाङ्गपुटे नूतनं पञ्चाङ्गपुटं योजयन्तु ।"
 
+#: standardcalendaractionmanager.cpp:49
+#, kde-format
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "नवीनं पुटम्"
+
 #: standardcalendaractionmanager.cpp:53
 #, kde-format
 msgid "Could not create calendar folder: %1"
 msgstr "पञ्चाङ्गपुटं निर्मातुं न शक्तम्: %1"
+
+#: standardcalendaractionmanager.cpp:57
+#, kde-format
+msgctxt "@title:window"
+msgid "Calendar Folder Creation Failed"
+msgstr "पञ्चाङ्गपुटस्य निर्माणं विफलम्"
 
 #: standardcalendaractionmanager.cpp:66
 #, kde-format
@@ -1086,17 +1544,27 @@ msgid ""
 "Do you really want to delete this calendar folder and all its sub-folders?"
 msgid_plural ""
 "Do you really want to delete %1 calendar folders and all their sub-folders?"
-msgstr[0] ""
-"किं भवान् वास्तवमेव एतत् पञ्चाङ्गपुटं तस्य सर्वाणि उपपुटं च विलोपयितुम् "
-"इच्छति?"
-msgstr[1] ""
-"किं भवान् वास्तवमेव %1 पञ्चाङ्गपुटं तेषां सर्वाणि उपपुटं च विलोपयितुम् "
-"इच्छति?"
+msgstr[0] "किं भवान् वास्तवमेव एतत् पञ्चाङ्गपुटं तस्य सर्वाणि उपपुटं च विलोपयितुम् इच्छति?"
+msgstr[1] "किं भवान् वास्तवमेव %1 पञ्चाङ्गपुटं तेषां सर्वाणि उपपुटं च विलोपयितुम् इच्छति?"
+
+#: standardcalendaractionmanager.cpp:81
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Calendar Folder?"
+msgid_plural "Delete Calendar Folders?"
+msgstr[0] "पञ्चाङ्गपुटं विलोपयन्तु?"
+msgstr[1] "पञ्चाङ्गपुटं विलोपयन्तु?"
 
 #: standardcalendaractionmanager.cpp:85
 #, kde-format
 msgid "Could not delete calendar folder: %1"
 msgstr "पञ्चाङ्गपुटं विलोपयितुं न शक्तम्: %1"
+
+#: standardcalendaractionmanager.cpp:89
+#, kde-format
+msgctxt "@title:window"
+msgid "Calendar Folder Deletion Failed"
+msgstr "पञ्चाङ्गपुटस्य विलोपनं विफलम्"
 
 #: standardcalendaractionmanager.cpp:93
 #, kde-format
@@ -1132,6 +1600,12 @@ msgstr "फोल्डर गुणाः…"
 msgid "Open a dialog to edit the properties of the selected calendar folder."
 msgstr "चयनितस्य पञ्चाङ्गपुटस्य गुणाः सम्पादयितुं संवादं उद्घाटयन्तु ।"
 
+#: standardcalendaractionmanager.cpp:108
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Calendar Folder %1"
+msgstr "Calendar Folder %1 इत्यस्य गुणाः"
+
 #: standardcalendaractionmanager.cpp:111 standardcalendaractionmanager.cpp:299
 #, kde-format
 msgid "Copy Event"
@@ -1163,10 +1637,24 @@ msgid_plural "Do you really want to delete %1 events?"
 msgstr[0] "किं भवान् वास्तवमेव चयनितं घटनां विलोपयितुम् इच्छति?"
 msgstr[1] "किं भवान् वास्तवमेव %1 घटनाः विलोपयितुम् इच्छति?"
 
+#: standardcalendaractionmanager.cpp:124
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Event?"
+msgid_plural "Delete Events?"
+msgstr[0] "इवेण्ट् विलोपयन्तु?"
+msgstr[1] "घटनाः विलोपयन्तु?"
+
 #: standardcalendaractionmanager.cpp:126
 #, kde-format
 msgid "Could not delete event: %1"
 msgstr "घटनां विलोपयितुं न शक्तम्: %1"
+
+#: standardcalendaractionmanager.cpp:130
+#, kde-format
+msgctxt "@title:window"
+msgid "Event Deletion Failed"
+msgstr "घटनाविलोपनं विफलम्"
 
 #: standardcalendaractionmanager.cpp:134 standardcalendaractionmanager.cpp:313
 #, kde-format
@@ -1191,13 +1679,25 @@ msgid ""
 "Add a new calendar<p>You will be presented with a dialog where you can "
 "select the type of the calendar that shall be added.</p>"
 msgstr ""
-"नूतनं पञ्चाङ्गं योजयन्तु<p> भवन्तः एकं संवादं प्रस्तुतं भविष्यन्ति यत्र "
-"भवन्तः यत् पञ्चाङ्गं योजयिष्यन्ते तस्य प्रकारं चिन्वितुं शक्नुवन्ति ।</p>"
+"नूतनं पञ्चाङ्गं योजयन्तु<p> भवन्तः एकं संवादं प्रस्तुतं भविष्यन्ति यत्र भवन्तः यत् पञ्चाङ्गं "
+"योजयिष्यन्ते तस्य प्रकारं चिन्वितुं शक्नुवन्ति ।</p>"
+
+#: standardcalendaractionmanager.cpp:143
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Calendar"
+msgstr "पञ्चाङ्गं योजयतु"
 
 #: standardcalendaractionmanager.cpp:147
 #, kde-format
 msgid "Could not create calendar: %1"
 msgstr "पञ्चाङ्गं निर्मातुं न शक्तम्: %1"
+
+#: standardcalendaractionmanager.cpp:151
+#, kde-format
+msgctxt "@title:window"
+msgid "Calendar Creation Failed"
+msgstr "पञ्चाङ्गनिर्माणं विफलम्"
 
 #: standardcalendaractionmanager.cpp:156
 #, kde-format
@@ -1212,8 +1712,8 @@ msgid ""
 "Delete the selected calendars<p>The currently selected calendars will be "
 "deleted, along with all the events, todos and journals they contain.</p>"
 msgstr ""
-"चयनितपञ्चाङ्गानि विलोपयन्तु<p> वर्तमानकाले चयनितपञ्चाङ्गाः, तेषु समाविष्टाः "
-"सर्वेऽपि घटनाः, टोडोः, पत्रिकाः च सह विलोपिताः भविष्यन्ति ।</p>"
+"चयनितपञ्चाङ्गानि विलोपयन्तु<p> वर्तमानकाले चयनितपञ्चाङ्गाः, तेषु समाविष्टाः सर्वेऽपि "
+"घटनाः, टोडोः, पत्रिकाः च सह विलोपिताः भविष्यन्ति ।</p>"
 
 #: standardcalendaractionmanager.cpp:163
 #, kde-format
@@ -1221,6 +1721,14 @@ msgid "Do you really want to delete this calendar?"
 msgid_plural "Do you really want to delete %1 calendars?"
 msgstr[0] "किं भवान् वास्तवमेव एतत् पञ्चाङ्गं विलोपयितुम् इच्छति ?"
 msgstr[1] "किं भवान् वास्तवमेव %1 पञ्चाङ्गं विलोपयितुम् इच्छति?"
+
+#: standardcalendaractionmanager.cpp:167
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Calendar?"
+msgid_plural "Delete Calendars?"
+msgstr[0] "पञ्चाङ्गं विलोपयन्तु?"
+msgstr[1] "पञ्चाङ्गानि विलोपयन्तु?"
 
 #: standardcalendaractionmanager.cpp:171
 #, kde-format
@@ -1268,6 +1776,12 @@ msgstr "चयनितं घटनां भिन्नं पञ्चाङ
 #, kde-format
 msgid "Could not paste event: %1"
 msgstr "घटनां चिनोतु न शक्तम्: %1"
+
+#: standardcalendaractionmanager.cpp:192
+#, kde-format
+msgctxt "@title:window"
+msgid "Paste Failed"
+msgstr "पेस्ट् विफलम्"
 
 #: standardcalendaractionmanager.cpp:195
 #, kde-format
@@ -1416,602 +1930,6 @@ msgstr "&सम्पादन…"
 msgid "Edit the selected incidence."
 msgstr "चयनितं घटनां सम्पादयन्तु।"
 
-#: todomodel.cpp:459
-#, kde-format
-msgid "Summary"
-msgstr "संक्षेपः"
-
-#: todomodel.cpp:461
-#, kde-format
-msgid "Recurs"
-msgstr "पुनरावृत्तिः भवति"
-
-#: todomodel.cpp:463
-#, kde-format
-msgid "Priority"
-msgstr "पूर्ववर्तिता"
-
-#: todomodel.cpp:467
-#, kde-format
-msgid "Start Date"
-msgstr "प्रारम्भ तिथि"
-
-#: todomodel.cpp:469
-#, kde-format
-msgid "Due Date"
-msgstr "द्वे तिथौ"
-
-#: todomodel.cpp:473
-#, kde-format
-msgid "Tags"
-msgstr "टैग्स"
-
-#: todomodel.cpp:475
-#, kde-format
-msgid "Description"
-msgstr "वर्णनम्‌"
-
-#: todopurger.cpp:61
-#, kde-format
-msgid "Purging completed to-dos"
-msgstr "शुद्धिकरणं सम्पन्नं टू-डोस्"
-
-#: calendarclipboard.cpp:180 calendarclipboard.cpp:219
-#, kde-format
-msgctxt "@title:window"
-msgid "KOrganizer Confirmation"
-msgstr "KOrganizer पुष्टिकरण"
-
-#: freebusymanager.cpp:381 freebusymanager.cpp:404
-#, kde-format
-msgctxt "@title:window"
-msgid "Free/Busy Retrieval Error"
-msgstr "मुक्त/व्यस्त पुनर्प्राप्ति त्रुटि"
-
-#: freebusymanager.cpp:620 itiphandler_p.cpp:136
-#, kde-format
-msgctxt "@title:window"
-msgid "Sending Free/Busy"
-msgstr "निःशुल्क/व्यस्तं प्रेषयति"
-
-#: freebusymanager.cpp:752
-#, kde-format
-msgctxt "@title:window"
-msgid "No Free/Busy Upload URL"
-msgstr "मुक्त/व्यस्त अपलोड URL नास्ति"
-
-#: freebusymanager.cpp:763
-#, kde-format
-msgctxt "@title:window"
-msgid "Invalid URL"
-msgstr "अमान्य URL"
-
-#: itiphandler.cpp:273
-#, kde-format
-msgctxt "@title:window"
-msgid "Message Not Sent"
-msgstr "सन्देशः न प्रेषितः"
-
-#: itiphandler_p.cpp:161
-#, kde-format
-msgctxt "@title:window"
-msgid "Publishing"
-msgstr "प्रकाशन"
-
-#: itiphandler_p.cpp:181
-#, kde-format
-msgctxt "@title:window"
-msgid "Forwarding"
-msgstr "अग्रे प्रेषणम्"
-
-#: itiphandler_p.cpp:189
-#, kde-format
-msgctxt "@title:window"
-msgid "Forwarding Error"
-msgstr "अग्रे प्रेषणदोषः"
-
-#: itiphandlerhelper_p.cpp:69
-#, kde-format
-msgctxt "@title:window"
-msgid "Group Scheduling Email"
-msgstr "समूह समयनिर्धारण ईमेल"
-
-#: mailclient_p.cpp:756
-#, kde-format
-msgctxt "@title:window"
-msgid "Send Unsigned?"
-msgstr "अहस्ताक्षरितं प्रेषयतु?"
-
-#: mailclient_p.cpp:779
-#, kde-format
-msgctxt "@title:window"
-msgid "Unsigned-Message Warning"
-msgstr "अहस्ताक्षरित-सन्देश चेतावनी"
-
-#: mailclient_p.cpp:842
-#, kde-format
-msgctxt "@title:window"
-msgid "Encrypt Message?"
-msgstr "सन्देशं एन्क्रिप्ट् कुर्वन्तु?"
-
-#: publishdialog.cpp:34
-#, kde-format
-msgctxt "@title:window"
-msgid "Select Addresses"
-msgstr "Addresses इति चिनोतु"
-
-#: publishdialog.cpp:126
-#, kde-format
-msgctxt "@title:window"
-msgid "Publishing Error"
-msgstr "प्रकाशन त्रुटि"
-
-#: scheduler_p.cpp:297
-#, kde-format
-msgctxt "@title:window"
-msgid "Cannot Find Invitation to be Updated"
-msgstr "अद्यतनं कर्तुं आमन्त्रणं न प्राप्नुयात्"
-
-#: scheduler_p.cpp:482
-#, kde-format
-msgctxt "@title:window"
-msgid "Uninvited Attendee"
-msgstr "अनिमन्त्रित उपस्थित"
-
-#: scheduler_p.cpp:510
-#, kde-format
-msgctxt "@title:window"
-msgid "Attendee Added"
-msgstr "उपस्थितः योजितः"
-
-#: standardcalendaractionmanager.cpp:49
-#, kde-format
-msgctxt "@title:window"
-msgid "New Folder"
-msgstr "नवीनं पुटम्"
-
-#: standardcalendaractionmanager.cpp:57
-#, kde-format
-msgctxt "@title:window"
-msgid "Calendar Folder Creation Failed"
-msgstr "पञ्चाङ्गपुटस्य निर्माणं विफलम्"
-
-#: standardcalendaractionmanager.cpp:81
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete Calendar Folder?"
-msgid_plural "Delete Calendar Folders?"
-msgstr[0] "पञ्चाङ्गपुटं विलोपयन्तु?"
-msgstr[1] "पञ्चाङ्गपुटं विलोपयन्तु?"
-
-#: standardcalendaractionmanager.cpp:89
-#, kde-format
-msgctxt "@title:window"
-msgid "Calendar Folder Deletion Failed"
-msgstr "पञ्चाङ्गपुटस्य विलोपनं विफलम्"
-
-#: standardcalendaractionmanager.cpp:108
-#, kde-format
-msgctxt "@title:window"
-msgid "Properties of Calendar Folder %1"
-msgstr "Calendar Folder %1 इत्यस्य गुणाः"
-
-#: standardcalendaractionmanager.cpp:124
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete Event?"
-msgid_plural "Delete Events?"
-msgstr[0] "इवेण्ट् विलोपयन्तु?"
-msgstr[1] "घटनाः विलोपयन्तु?"
-
-#: standardcalendaractionmanager.cpp:130
-#, kde-format
-msgctxt "@title:window"
-msgid "Event Deletion Failed"
-msgstr "घटनाविलोपनं विफलम्"
-
-#: standardcalendaractionmanager.cpp:143
-#, kde-format
-msgctxt "@title:window"
-msgid "Add Calendar"
-msgstr "पञ्चाङ्गं योजयतु"
-
-#: standardcalendaractionmanager.cpp:151
-#, kde-format
-msgctxt "@title:window"
-msgid "Calendar Creation Failed"
-msgstr "पञ्चाङ्गनिर्माणं विफलम्"
-
-#: standardcalendaractionmanager.cpp:167
-#, kde-format
-msgctxt "@title:window"
-msgid "Delete Calendar?"
-msgid_plural "Delete Calendars?"
-msgstr[0] "पञ्चाङ्गं विलोपयन्तु?"
-msgstr[1] "पञ्चाङ्गानि विलोपयन्तु?"
-
-#: standardcalendaractionmanager.cpp:192
-#, kde-format
-msgctxt "@title:window"
-msgid "Paste Failed"
-msgstr "पेस्ट् विफलम्"
-
-#: calendarclipboard.cpp:181
-#, kde-format
-msgctxt "@action:button"
-msgid "Cut Only This"
-msgstr "केवलं एतत् कटयतु"
-
-#: calendarclipboard.cpp:182
-#, kde-format
-msgctxt "@action:button"
-msgid "Cut All"
-msgstr "सर्वान् कटयतु"
-
-#: calendarclipboard.cpp:220
-#, kde-format
-msgctxt "@action:button"
-msgid "Copy Only This"
-msgstr "केवलं एतत् प्रतिलिपि कुर्वन्तु"
-
-#: calendarclipboard.cpp:221
-#, kde-format
-msgctxt "@action:button"
-msgid "Copy All"
-msgstr "सर्वाणि प्रतिलिख्यताम्"
-
-#: itiphandlerhelper_p.cpp:312 itiphandlerhelper_p.cpp:333
-#: itiphandlerhelper_p.cpp:346
-#, kde-format
-msgctxt "@action:button"
-msgid "Send Update"
-msgstr "Update प्रेषयतु"
-
-#: mailclient_p.cpp:708 mailclient_p.cpp:734
-#, kde-format
-msgctxt "@action:button"
-msgid "Do &Not Sign"
-msgstr "हस्ताक्षरं कुर्वन्तु &न कुर्वन्तु"
-
-#: mailclient_p.cpp:756
-#, kde-format
-msgctxt "@action:button"
-msgid "Send &Unsigned"
-msgstr "प्रेषयतु &अनहस्ताक्षरितम्"
-
-#: mailclient_p.cpp:781
-#, kde-format
-msgctxt "@action:button"
-msgid "Send &As Is"
-msgstr "प्रेषयतु &यथा अस्ति"
-
-#: mailclient_p.cpp:869
-#, kde-format
-msgctxt "@action:button"
-msgid "&Encrypt"
-msgstr "&गुप्तीकरण"
-
-#: mailclient_p.cpp:870
-#, kde-format
-msgctxt "@action:button"
-msgid "Do &Not Encrypt"
-msgstr "एन्क्रिप्ट् कुर्वन्तु &न कुर्वन्तु"
-
-#: mailclient_p.cpp:893
-#, kde-format
-msgctxt "@action:button"
-msgid "Send &Unencrypted"
-msgstr "प्रेषयतु &अगुप्तम्"
-
-#: calendarmodel.cpp:192
-#, kde-format
-msgctxt "@title:column calendar event summary"
-msgid "Summary"
-msgstr "संक्षेपः"
-
-#: calendarmodel.cpp:194
-#, kde-format
-msgctxt "@title:column calendar event start date and time"
-msgid "Start Date and Time"
-msgstr "प्रारम्भ तिथि समय"
-
-#: calendarmodel.cpp:196
-#, kde-format
-msgctxt "@title:column calendar event end date and time"
-msgid "End Date and Time"
-msgstr "समाप्तितिथिः समयः च"
-
-#: calendarmodel.cpp:198
-#, kde-format
-msgctxt "@title:column calendar event type"
-msgid "Type"
-msgstr "प्रकारः"
-
-#: calendarmodel.cpp:200
-#, kde-format
-msgctxt "@title:column todo item due date and time"
-msgid "Due Date and Time"
-msgstr "नियततिथिः समयः च"
-
-#: calendarmodel.cpp:202
-#, kde-format
-msgctxt "@title:column todo item priority"
-msgid "Priority"
-msgstr "पूर्ववर्तिता"
-
-#: calendarmodel.cpp:204
-#, kde-format
-msgctxt "@title:column todo item completion in percent"
-msgid "Complete"
-msgstr "पूर्णं करोतु"
-
-#: calendarmodel.cpp:213
-#, kde-format
-msgctxt "@title:column calendar title"
-msgid "Calendar"
-msgstr "पञ्चाङ्गम्"
-
-#: calendarutils.cpp:133
-#, kde-format
-msgctxt "%1 is folder contents"
-msgid "My Kolab %1"
-msgstr "मम कोलाब %1"
-
-#: calendarutils.cpp:145
-#, kde-format
-msgctxt "%1 is folder contents"
-msgid "Kolab %1"
-msgstr "कोलाब %1"
-
-#: calendarutils.cpp:190
-#, kde-format
-msgctxt "%1 is folder contents"
-msgid "Google %1"
-msgstr "गूगल %1"
-
-#: calendarutils.cpp:136
-#, kde-format
-msgctxt "%1 is folder name, %2 is folder contents"
-msgid "Shared Kolab %1 %2"
-msgstr "साझा कोलाब %1 %2"
-
-#: calendarutils.cpp:139
-#, kde-format
-msgctxt "%1 is folder owner name, %2 is folder contents"
-msgid "%1's Kolab %2"
-msgstr "%1 इत्यस्य Collab %2"
-
-#: calendarutils.cpp:185
-#, kde-format
-msgctxt "%1 is folder owner name, %2 is folder contents"
-msgid "%1's Google %2"
-msgstr "%1 इत्यस्य गूगल %2"
-
-#: calendarutils.cpp:141
-#, kde-format
-msgctxt "%1 is folder owner name, %2 is folder name, %3 is folder contents"
-msgid "%1's %2 Kolab %3"
-msgstr "%1 इत्यस्य %2 कोलाब %3"
-
-#: calendarutils.cpp:152
-#, kde-format
-msgctxt "%1 is the folder name"
-msgid "%1 in %2"
-msgstr "%2 मध्ये %1"
-
-#: calendarutils.cpp:187
-#, kde-format
-msgctxt "%1 is folder owner name, %2 is folder name"
-msgid "%1's %2"
-msgstr "%1 इत्यस्य %2"
-
-#: calendarutils.cpp:202
-#, kde-format
-msgctxt "unknown resource"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: history_p.cpp:82
-#, kde-format
-msgctxt "%1 is event, todo or journal"
-msgid "%1 creation"
-msgstr "%1 सृष्टिः"
-
-#: history_p.cpp:150
-#, kde-format
-msgctxt "%1 is event, todo or journal"
-msgid "%1 deletion"
-msgstr "%1 लोपः"
-
-#: history_p.cpp:232
-#, kde-format
-msgctxt "%1 is event, todo or journal"
-msgid "%1 modification"
-msgstr "%1 परिवर्तनम्"
-
-#: incidencechanger.cpp:374
-#, kde-format
-msgctxt "errormessage for a job ended with an unexpected result"
-msgid "An unknown error occurred"
-msgstr "अज्ञातदोषः अभवत्"
-
-#: itiphandler.h:108 itiphandler.h:126 itiphandler.h:142 itiphandler.h:155
-#, kde-format
-msgctxt "@action:button dialog positive answer"
-msgid "Send Email"
-msgstr "ईमेल प्रेषयन्तु"
-
-#: itiphandlerhelper_p.cpp:419 itiphandlerhelper_p.cpp:440
-#, kde-format
-msgctxt "@action:button dialog positive answer"
-msgid "Send Update"
-msgstr "Update प्रेषयतु"
-
-#: itiphandler.h:109 itiphandler.h:127 itiphandler.h:143 itiphandler.h:156
-#, kde-format
-msgctxt "@action:button dialog negative answer"
-msgid "Do Not Send"
-msgstr "मा प्रेषयतु"
-
-#: itiphandler_p.cpp:144
-#, kde-format
-msgctxt ""
-"Groupware message sending failed. %2 is "
-"request/reply/add/cancel/counter/etc."
-msgid ""
-"Unable to send the item '%1'.\n"
-"Method: %2"
-msgstr ""
-"'%1' इति द्रव्यं प्रेषयितुं असमर्थः ।\n"
-"विधिः %2"
-
-#: itiphandlerhelper_p.cpp:503
-#, kde-format
-msgctxt "@action:button dialog positive answer to abort question"
-msgid "Abort Update"
-msgstr "अद्यतनं निरस्तं कुर्वन्तु"
-
-#: mailclient_p.cpp:707 mailclient_p.cpp:733
-#, kde-format
-msgctxt "to sign"
-msgid "&Sign"
-msgstr "&चिह्नम्‌"
-
-#: publishdialog.cpp:61
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Send email to these recipients"
-msgstr "एतेभ्यः प्राप्तिभ्यः ईमेल प्रेषयन्तु"
-
-#: publishdialog.cpp:68
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Cancel recipient selection and the email"
-msgstr "प्राप्तकर्ता चयनं ईमेलं च रद्दं कुर्वन्तु"
-
-#: publishdialog_base.ui:113
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#, kde-format
-msgctxt "recipient name"
-msgid "Name:"
-msgstr "नामः:"
-
-#: publishdialog_base.ui:136
-#. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#, kde-format
-msgctxt "recipient email"
-msgid "E&mail:"
-msgstr "ई-मेलः : १."
-
-#: publishdialog_p.cpp:44
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "(EmptyName)"
-msgstr "(रिक्तनाम) ९."
-
-#: publishdialog_p.cpp:45
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "(EmptyEmail)"
-msgstr "(रिक्तईमेल) २."
-
-#: scheduler_p.cpp:288
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>You added an invitation update, but an earlier version of the item "
-"could not be found in your calendar.</para><para>This may have occurred "
-"because:<list><item>the organizer did not include you in the original "
-"invitation</item><item>you did not accept the original invitation "
-"yet</item><item>you deleted the original invitation from your "
-"calendar</item><item>you no longer have access to the calendar containing "
-"the invitation</item></list></para><para>This is not a problem, but we "
-"thought you should know.</para>"
-msgstr ""
-"<para>भवन्तः आमन्त्रण-अद्यतनं योजितवन्तः, परन्तु भवतः पञ्चाङ्गे द्रव्यस्य "
-"पूर्वसंस्करणं न लब्धम् ।</para><para>एतत् अभवत् यतः:<list><item>आयोजकः "
-"भवन्तं न समाविष्टवान् मूलनिमन्त्रणं</item><item>भवता मूलनिमन्त्रणं न "
-"स्वीकृतम् अद्यापि</item><item>भवता स्वस्य पञ्चाङ्गात् मूलनिमन्त्रणं "
-"लोपितम्</item><item>भवन्तः न longer कृते आमन्त्रणं युक्ते पञ्चाङ्गे प्रवेशः "
-"भवति</item></list></para><para>एषा समस्या नास्ति, परन्तु अस्माभिः चिन्तितम् "
-"यत् भवान् ज्ञातव्यः।</para>"
-
-#: scheduler_p.cpp:408
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The event or task could not be removed from your calendar. Maybe it has "
-"already been deleted or is not owned by you. Or it might belong to a "
-"read-only or disabled calendar."
-msgstr ""
-"भवतः पञ्चाङ्गात् घटना वा कार्यं वा निष्कासयितुं न शक्यते स्म । भवतु नाम "
-"पूर्वमेव लोपितं वा भवतः स्वामित्वं नास्ति वा। अथवा केवलं पठनीयस्य अथवा "
-"अक्षमस्य पञ्चाङ्गस्य अन्तर्गतं भवेत् ।"
-
-#: scheduler_p.cpp:476
-#, kde-format
-msgctxt "@info"
-msgid "%1 wants to attend %2 but was not invited."
-msgstr "%1 %2 उपस्थितिम् इच्छति परन्तु आमन्त्रितः नासीत् ।"
-
-#: scheduler_p.cpp:478
-#, kde-format
-msgctxt "@info"
-msgid "%1 wants to attend %2 on behalf of %3."
-msgstr "%1 %3 इत्यस्य पक्षतः %2 इत्यत्र उपस्थितिम् इच्छति ।"
-
-#: scheduler_p.cpp:487
-#, kde-format
-msgctxt "@info"
-msgid "The organizer rejected your attendance at this meeting."
-msgstr "आयोजकः अस्मिन् सत्रे भवतः उपस्थितिम् अङ्गीकृतवान्।"
-
-#: scheduler_p.cpp:508
-#, kde-format
-msgctxt "@info"
-msgid ""
-"An attendee was added to the incidence. Do you want to email the attendees "
-"an update message?"
-msgstr ""
-"घटनायां एकः उपस्थितः अपि योजितः आसीत् । किं भवान् उपस्थितानां कृते "
-"अद्यतनसन्देशं ईमेलद्वारा प्रेषयितुम् इच्छति?"
-
-#: scheduler_p.cpp:483
-#, kde-format
-msgctxt "@option"
-msgid "Accept Attendance"
-msgstr "उपस्थिति स्वीकार करें"
-
-#: scheduler_p.cpp:484
-#, kde-format
-msgctxt "@option"
-msgid "Reject Attendance"
-msgstr "उपस्थिति अस्वीकार करें"
-
-#: scheduler_p.cpp:511
-#, kde-format
-msgctxt "@option"
-msgid "Send Messages"
-msgstr "सन्देशान् प्रेषयन्तु"
-
-#: scheduler_p.cpp:512
-#, kde-format
-msgctxt "@option"
-msgid "Do Not Send"
-msgstr "मा प्रेषयतु"
-
-#: searchcollectionhelper.cpp:179
-#, kde-format
-msgctxt "A collection of all declined invidations."
-msgid "Declined Invitations"
-msgstr "अङ्गीकृतानि आमन्त्रणानि"
-
-#: searchcollectionhelper.cpp:187
-#, kde-format
-msgctxt "A collection of all open invidations."
-msgid "Open Invitations"
-msgstr "आमन्त्रणपत्राणि उद्घाटयन्तु"
-
 #: todomodel.cpp:159 todomodel.cpp:194
 #, kde-format
 msgctxt "yes, an exception to a recurring to-do"
@@ -2036,14 +1954,54 @@ msgctxt "delimiter for joining category/tag names"
 msgid ","
 msgstr ", ९."
 
+#: todomodel.cpp:459
+#, kde-format
+msgid "Summary"
+msgstr "संक्षेपः"
+
+#: todomodel.cpp:461
+#, kde-format
+msgid "Recurs"
+msgstr "पुनरावृत्तिः भवति"
+
+#: todomodel.cpp:463
+#, kde-format
+msgid "Priority"
+msgstr "पूर्ववर्तिता"
+
 #: todomodel.cpp:465
 #, kde-format
 msgctxt "@title:column percent complete"
 msgid "Complete"
 msgstr "पूर्णं करोतु"
 
+#: todomodel.cpp:467
+#, kde-format
+msgid "Start Date"
+msgstr "प्रारम्भ तिथि"
+
+#: todomodel.cpp:469
+#, kde-format
+msgid "Due Date"
+msgstr "द्वे तिथौ"
+
 #: todomodel.cpp:471
 #, kde-format
 msgctxt "@title:column date completed"
 msgid "Completed"
 msgstr "सम्पन्न"
+
+#: todomodel.cpp:473
+#, kde-format
+msgid "Tags"
+msgstr "टैग्स"
+
+#: todomodel.cpp:475
+#, kde-format
+msgid "Description"
+msgstr "वर्णनम्‌"
+
+#: todopurger.cpp:61
+#, kde-format
+msgid "Purging completed to-dos"
+msgstr "शुद्धिकरणं सम्पन्नं टू-डोस्"
