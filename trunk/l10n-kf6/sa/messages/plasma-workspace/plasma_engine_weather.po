@@ -8,11 +8,33 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+
+#: ions/envcan/ion_envcan.cpp:883 ions/envcan/ion_envcan.cpp:885
+#: ions/envcan/ion_envcan.cpp:1371 ions/envcan/ion_envcan.cpp:1500
+#: ions/envcan/ion_envcan.cpp:1516 ions/noaa/ion_noaa.cpp:423
+#, kde-format
+msgid "N/A"
+msgstr "न प्रयोज्यम्"
+
+#: ions/envcan/ion_envcan.cpp:1504
+#, kde-format
+msgid "day"
+msgstr "दिनं"
+
+#: ions/wetter.com/ion_wettercom.cpp:670
+#, kde-format
+msgid "Day"
+msgstr "दिनं"
+
+#: ions/wetter.com/ion_wettercom.cpp:680
+#, kde-format
+msgid "Night"
+msgstr "निशा"
 
 #: bbcukmet_i18n.dat:1
 #, kde-format
@@ -318,336 +340,6 @@ msgstr "उष्णकटिबंधीय तूफान"
 msgctxt "weather condition"
 msgid "white cloud"
 msgstr "श्वेतमेघः"
-
-#: bbcukmet_i18n.dat:51
-#, kde-format
-msgctxt "weather forecast"
-msgid "clear"
-msgstr "निर्मल"
-
-#: bbcukmet_i18n.dat:52
-#, kde-format
-msgctxt "weather forecast"
-msgid "clear intervals"
-msgstr "निर्मलं अन्तराल"
-
-#: bbcukmet_i18n.dat:53
-#, kde-format
-msgctxt "weather forecast"
-msgid "clear sky"
-msgstr "निर्मलं आकाशम्"
-
-#: bbcukmet_i18n.dat:54
-#, kde-format
-msgctxt "weather forecast"
-msgid "cloudy"
-msgstr "धूमिल"
-
-#: bbcukmet_i18n.dat:55
-#, kde-format
-msgctxt "weather forecast"
-msgid "cloudy with hail"
-msgstr "अश्मपातेन सह मेघयुक्तः"
-
-#: bbcukmet_i18n.dat:56
-#, kde-format
-msgctxt "weather forecast"
-msgid "cloudy with heavy snow"
-msgstr "मेघयुक्तं गुरुहिमेन सह"
-
-#: bbcukmet_i18n.dat:57
-#, kde-format
-msgctxt "weather forecast"
-msgid "cloudy with light snow"
-msgstr "मेघयुक्तं लघुहिमेन सह"
-
-#: bbcukmet_i18n.dat:58
-#, kde-format
-msgctxt "weather forecast"
-msgid "cloudy with sleet"
-msgstr "मेघयुक्तः स्लीट् सह"
-
-#: bbcukmet_i18n.dat:59
-#, kde-format
-msgctxt "weather forecast"
-msgid "drizzle"
-msgstr "बूंदाबांदी"
-
-#: bbcukmet_i18n.dat:60
-#, kde-format
-msgctxt "weather forecast"
-msgid "fog"
-msgstr "धूमिका"
-
-#: bbcukmet_i18n.dat:61
-#, kde-format
-msgctxt "weather forecast"
-msgid "foggy"
-msgstr "नभस्य"
-
-#: bbcukmet_i18n.dat:62
-#, kde-format
-msgctxt "weather forecast"
-msgid "grey cloud"
-msgstr "धूसर मेघः"
-
-#: bbcukmet_i18n.dat:63
-#, kde-format
-msgctxt "weather forecast"
-msgid "hail"
-msgstr "सभागृह"
-
-#: bbcukmet_i18n.dat:64
-#, kde-format
-msgctxt "weather forecast"
-msgid "hail shower"
-msgstr "अश्मवृष्टिः"
-
-#: bbcukmet_i18n.dat:65
-#, kde-format
-msgctxt "weather forecast"
-msgid "hail showers"
-msgstr "अश्मवृष्टिः"
-
-#: bbcukmet_i18n.dat:66
-#, kde-format
-msgctxt "weather forecast"
-msgid "hazy"
-msgstr "धुन्धला"
-
-#: bbcukmet_i18n.dat:67
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy rain"
-msgstr "प्रचण्डवृष्टिः"
-
-#: bbcukmet_i18n.dat:68
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy rain shower"
-msgstr "प्रचण्डवृष्टिः"
-
-#: bbcukmet_i18n.dat:69
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy rain showers"
-msgstr "प्रचण्डवृष्टिः"
-
-#: bbcukmet_i18n.dat:70
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy shower"
-msgstr "भारी वर्षा"
-
-#: bbcukmet_i18n.dat:71
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy showers"
-msgstr "प्रचण्डवृष्टिः"
-
-#: bbcukmet_i18n.dat:72
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy snow"
-msgstr "गुरु हिमम्"
-
-#: bbcukmet_i18n.dat:73
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy snow shower"
-msgstr "भारी हिमवृष्टिः"
-
-#: bbcukmet_i18n.dat:74
-#, kde-format
-msgctxt "weather forecast"
-msgid "heavy snow showers"
-msgstr "प्रचण्ड हिमवृष्टिः"
-
-#: bbcukmet_i18n.dat:75
-#, kde-format
-msgctxt "weather forecast"
-msgid "light cloud"
-msgstr "लघु मेघः"
-
-#: bbcukmet_i18n.dat:76
-#, kde-format
-msgctxt "weather forecast"
-msgid "light rain"
-msgstr "लघु वर्षा"
-
-#: bbcukmet_i18n.dat:77
-#, kde-format
-msgctxt "weather forecast"
-msgid "light rain shower"
-msgstr "लघु वर्षा वर्षा"
-
-#: bbcukmet_i18n.dat:78
-#, kde-format
-msgctxt "weather forecast"
-msgid "light rain showers"
-msgstr "लघु वर्षा वर्षा"
-
-#: bbcukmet_i18n.dat:79
-#, kde-format
-msgctxt "weather forecast"
-msgid "light shower"
-msgstr "लघु वर्षा"
-
-#: bbcukmet_i18n.dat:80
-#, kde-format
-msgctxt "weather forecast"
-msgid "light showers"
-msgstr "लघुवृष्टिः"
-
-#: bbcukmet_i18n.dat:81
-#, kde-format
-msgctxt "weather forecast"
-msgid "light snow"
-msgstr "लघु हिमम्"
-
-#: bbcukmet_i18n.dat:82
-#, kde-format
-msgctxt "weather forecast"
-msgid "light snow shower"
-msgstr "लघु हिमवृष्टिः"
-
-#: bbcukmet_i18n.dat:83
-#, kde-format
-msgctxt "weather forecast"
-msgid "light snow showers"
-msgstr "लघु हिमवृष्टिः"
-
-#: bbcukmet_i18n.dat:84
-#, kde-format
-msgctxt "weather forecast"
-msgid "mist"
-msgstr "तुहिनं"
-
-#: bbcukmet_i18n.dat:85
-#, kde-format
-msgctxt "weather forecast"
-msgid "misty"
-msgstr "कुहरे"
-
-#: bbcukmet_i18n.dat:86
-#, kde-format
-msgctxt "weather forecast"
-msgid "na"
-msgstr "न प्रयोज्यम्"
-
-#: bbcukmet_i18n.dat:87
-#, kde-format
-msgctxt "weather forecast"
-msgid "partly cloudy"
-msgstr "आंशिकरूपेण मेघयुक्तः"
-
-#: bbcukmet_i18n.dat:88
-#, kde-format
-msgctxt "weather forecast"
-msgid "sandstorm"
-msgstr "वालुकातूफानम्"
-
-#: bbcukmet_i18n.dat:89
-#, kde-format
-msgctxt "weather forecast"
-msgid "sleet"
-msgstr "स्लीट्"
-
-#: bbcukmet_i18n.dat:90
-#, kde-format
-msgctxt "weather forecast"
-msgid "sleet shower"
-msgstr "स्लीट्-वृष्टिः"
-
-#: bbcukmet_i18n.dat:91
-#, kde-format
-msgctxt "weather forecast"
-msgid "sleet showers"
-msgstr "स्लीट् वर्षा"
-
-#: bbcukmet_i18n.dat:92
-#, kde-format
-msgctxt "weather forecast"
-msgid "sunny"
-msgstr "आतपीय"
-
-#: bbcukmet_i18n.dat:93
-#, kde-format
-msgctxt "weather forecast"
-msgid "sunny intervals"
-msgstr "सूर्य्यन्तराः"
-
-#: bbcukmet_i18n.dat:94
-#, kde-format
-msgctxt "weather forecast"
-msgid "thick cloud"
-msgstr "घन मेघः"
-
-#: bbcukmet_i18n.dat:95
-#, kde-format
-msgctxt "weather forecast"
-msgid "thunderstorm"
-msgstr "वज्रपातः"
-
-#: bbcukmet_i18n.dat:96
-#, kde-format
-msgctxt "weather forecast"
-msgid "thundery shower"
-msgstr "वज्रवृष्टिः"
-
-#: bbcukmet_i18n.dat:97
-#, kde-format
-msgctxt "weather forecast"
-msgid "thundery showers"
-msgstr "मेघगर्जनवृष्टिः"
-
-#: bbcukmet_i18n.dat:98
-#, kde-format
-msgctxt "weather forecast"
-msgid "tropical storm"
-msgstr "उष्णकटिबंधीय तूफान"
-
-#: bbcukmet_i18n.dat:99
-#, kde-format
-msgctxt "weather forecast"
-msgid "white cloud"
-msgstr "श्वेतमेघः"
-
-#: bbcukmet_i18n.dat:100
-#, kde-format
-msgctxt "visibility"
-msgid "Excellent"
-msgstr "सर्वोत्कृष्ट"
-
-#: bbcukmet_i18n.dat:101
-#, kde-format
-msgctxt "visibility"
-msgid "Very Good"
-msgstr "अति उत्तम"
-
-#: bbcukmet_i18n.dat:102
-#, kde-format
-msgctxt "visibility"
-msgid "Good"
-msgstr "शोभन"
-
-#: bbcukmet_i18n.dat:103
-#, kde-format
-msgctxt "visibility"
-msgid "Moderate"
-msgstr "सन्तुलित"
-
-#: bbcukmet_i18n.dat:104
-#, kde-format
-msgctxt "visibility"
-msgid "Poor"
-msgstr "दुर्बल"
-
-#: bbcukmet_i18n.dat:105
-#, kde-format
-msgctxt "visibility"
-msgid "Very Poor"
-msgstr "अतीव दुर्बलं"
 
 #: envcan_i18n.dat:2 noaa_i18n.dat:7
 #, kde-format
@@ -1170,6 +862,1869 @@ msgstr "वज्रपात विना वर्षा"
 msgctxt "weather condition"
 msgid "Tornado"
 msgstr "बवंडर"
+
+#: ions/wetter.com/ion_wettercom.cpp:156 ions/wetter.com/ion_wettercom.cpp:157
+#, kde-format
+msgctxt "weather condition"
+msgid "few clouds"
+msgstr "अल्पाः मेघाः"
+
+#: ions/wetter.com/ion_wettercom.cpp:160 ions/wetter.com/ion_wettercom.cpp:161
+#, kde-format
+msgctxt "weather condition"
+msgid "overcast"
+msgstr "मेघयुक्तः"
+
+#: ions/wetter.com/ion_wettercom.cpp:162 ions/wetter.com/ion_wettercom.cpp:163
+#: ions/wetter.com/ion_wettercom.cpp:164
+#, kde-format
+msgctxt "weather condition"
+msgid "haze"
+msgstr "धुंध"
+
+#: ions/wetter.com/ion_wettercom.cpp:165 ions/wetter.com/ion_wettercom.cpp:166
+#, kde-format
+msgctxt "weather condition"
+msgid "fog with icing"
+msgstr "आइसिंग् सह नीहारः"
+
+#: ions/wetter.com/ion_wettercom.cpp:169
+#, kde-format
+msgctxt "weather condition"
+msgid "light drizzle"
+msgstr "लघु बूंदाबांदी"
+
+#: ions/wetter.com/ion_wettercom.cpp:171
+#, kde-format
+msgctxt "weather condition"
+msgid "heavy drizzle"
+msgstr "भारी बूंदाबांदी"
+
+#: ions/wetter.com/ion_wettercom.cpp:172
+#, kde-format
+msgctxt "weather condition"
+msgid "freezing drizzle"
+msgstr "हिमपातः"
+
+#: ions/wetter.com/ion_wettercom.cpp:173
+#, kde-format
+msgctxt "weather condition"
+msgid "heavy freezing drizzle"
+msgstr "भारी हिमवृष्टिः"
+
+#: ions/wetter.com/ion_wettercom.cpp:174
+#, kde-format
+msgctxt "weather condition"
+msgid "rain"
+msgstr "वृष्टि"
+
+#: ions/wetter.com/ion_wettercom.cpp:177
+#, kde-format
+msgctxt "weather condition"
+msgid "moderate rain"
+msgstr "मध्यमवृष्टिः"
+
+#: ions/wetter.com/ion_wettercom.cpp:179
+#, kde-format
+msgctxt "weather condition"
+msgid "light freezing rain"
+msgstr "लघु हिमवृष्टिः"
+
+#: ions/wetter.com/ion_wettercom.cpp:180
+#, kde-format
+msgctxt "weather condition"
+msgid "freezing rain"
+msgstr "हिमवृष्टिः"
+
+#: ions/wetter.com/ion_wettercom.cpp:181
+#, kde-format
+msgctxt "weather condition"
+msgid "light rain snow"
+msgstr "लघु वर्षा हिम"
+
+#: ions/wetter.com/ion_wettercom.cpp:182
+#, kde-format
+msgctxt "weather condition"
+msgid "heavy rain snow"
+msgstr "प्रचण्डवृष्टिहिमः"
+
+#: ions/wetter.com/ion_wettercom.cpp:183
+#, kde-format
+msgctxt "weather condition"
+msgid "snow"
+msgstr "तुषार"
+
+#: ions/wetter.com/ion_wettercom.cpp:186
+#, kde-format
+msgctxt "weather condition"
+msgid "moderate snow"
+msgstr "मध्यमः हिमः"
+
+#: ions/wetter.com/ion_wettercom.cpp:188 ions/wetter.com/ion_wettercom.cpp:190
+#, kde-format
+msgctxt "weather condition"
+msgid "showers"
+msgstr "वर्षा"
+
+#: ions/wetter.com/ion_wettercom.cpp:192
+#, kde-format
+msgctxt "weather condition"
+msgid "light snow rain showers"
+msgstr "लघु हिमवृष्टिः"
+
+#: ions/wetter.com/ion_wettercom.cpp:193
+#, kde-format
+msgctxt "weather condition"
+msgid "heavy snow rain showers"
+msgstr "प्रचण्ड हिमवृष्टिः"
+
+#: ions/wetter.com/ion_wettercom.cpp:195
+#, kde-format
+msgctxt "weather condition"
+msgid "snow showers"
+msgstr "हिमवृष्टिः"
+
+#: ions/wetter.com/ion_wettercom.cpp:198
+#, kde-format
+msgctxt "weather condition"
+msgid "light thunderstorm"
+msgstr "लघु वज्रपातः"
+
+#: ions/wetter.com/ion_wettercom.cpp:199
+#, kde-format
+msgctxt "weather condition"
+msgid "heavy thunderstorm"
+msgstr "प्रचण्डवज्रपातः"
+
+#: ions/wetter.com/ion_wettercom.cpp:200
+#, kde-format
+msgctxt "weather condition"
+msgid "n/a"
+msgstr "न प्रयोज्यम्"
+
+#: noaa_i18n.dat:1
+#, kde-format
+msgctxt "weather condition"
+msgid "A Few Clouds"
+msgstr "कतिचन मेघाः"
+
+#: noaa_i18n.dat:2
+#, kde-format
+msgctxt "weather condition"
+msgid "A Few Clouds and Breezy"
+msgstr "कतिपय मेघाः वायुः च"
+
+#: noaa_i18n.dat:3
+#, kde-format
+msgctxt "weather condition"
+msgid "A Few Clouds and Windy"
+msgstr "कतिपय मेघाः वायुः च"
+
+#: noaa_i18n.dat:4
+#, kde-format
+msgctxt "weather condition"
+msgid "A Few Clouds with Haze"
+msgstr "धुन्धयुक्ताः कतिपये मेघाः"
+
+#: noaa_i18n.dat:5
+#, kde-format
+msgctxt "weather condition"
+msgid "Blowing Dust"
+msgstr "धूल फूत्कार"
+
+#: noaa_i18n.dat:6
+#, kde-format
+msgctxt "weather condition"
+msgid "Blowing Sand"
+msgstr "फूत्कारवालुका"
+
+#: noaa_i18n.dat:8
+#, kde-format
+msgctxt "weather condition"
+msgid "Blowing Snow in Vicinity"
+msgstr "समीपस्थे हिमपातः"
+
+#: noaa_i18n.dat:9
+#, kde-format
+msgctxt "weather condition"
+msgid "Breezy"
+msgstr "वायुमय"
+
+#: noaa_i18n.dat:11
+#, kde-format
+msgctxt "weather condition"
+msgid "Clear and Breezy"
+msgstr "निर्मलं वायुमयम् च"
+
+#: noaa_i18n.dat:12
+#, kde-format
+msgctxt "weather condition"
+msgid "Clear with Haze"
+msgstr "धुन्धेन सह निर्मलम्"
+
+#: noaa_i18n.dat:14
+#, kde-format
+msgctxt "weather condition"
+msgid "Drizzle Fog"
+msgstr "बूंदाबांदी कोहरा"
+
+#: noaa_i18n.dat:15
+#, kde-format
+msgctxt "weather condition"
+msgid "Drizzle Fog/Mist"
+msgstr "बूंदाबांदी कोहरा/धुंध"
+
+#: noaa_i18n.dat:16
+#, kde-format
+msgctxt "weather condition"
+msgid "Drizzle Ice Pellets"
+msgstr "बूंदाबांदी बर्फ गोलियां"
+
+#: noaa_i18n.dat:17
+#, kde-format
+msgctxt "weather condition"
+msgid "Drizzle Snow"
+msgstr "बूंदाबांदी हिम"
+
+#: noaa_i18n.dat:19
+#, kde-format
+msgctxt "weather condition"
+msgid "Dust/Sand Whirls"
+msgstr "धूल/वालुका भंवर"
+
+#: noaa_i18n.dat:20
+#, kde-format
+msgctxt "weather condition"
+msgid "Dust/Sand Whirls in Vicinity"
+msgstr "समीपस्थे धूलि/वालुका भंवर"
+
+#: noaa_i18n.dat:21
+#, kde-format
+msgctxt "weather condition"
+msgid "Dust Storm"
+msgstr "धूलतूफान"
+
+#: noaa_i18n.dat:22
+#, kde-format
+msgctxt "weather condition"
+msgid "Dust Storm in Vicinity"
+msgstr "समीपस्थे धूलितूफानम्"
+
+#: noaa_i18n.dat:23
+#, kde-format
+msgctxt "weather condition"
+msgid "Fair"
+msgstr "उचितः"
+
+#: noaa_i18n.dat:24
+#, kde-format
+msgctxt "weather condition"
+msgid "Fair and Breezy"
+msgstr "मेला च वायुमय च"
+
+#: noaa_i18n.dat:25
+#, kde-format
+msgctxt "weather condition"
+msgid "Fair and Windy"
+msgstr "मेला च वायुमयः च"
+
+#: noaa_i18n.dat:26
+#, kde-format
+msgctxt "weather condition"
+msgid "Fair with Haze"
+msgstr "धुन्धेन सह मेला"
+
+#: noaa_i18n.dat:28
+#, kde-format
+msgctxt "weather condition"
+msgid "Fog in Vicinity"
+msgstr "समीपस्थे नीहारः"
+
+#: noaa_i18n.dat:29
+#, kde-format
+msgctxt "weather condition"
+msgid "Fog/Mist"
+msgstr "कोहरा/कुहरा"
+
+#: noaa_i18n.dat:30
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Drizzle"
+msgstr "जमति बूंदाबांदी"
+
+#: noaa_i18n.dat:31
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Drizzle in Vicinity"
+msgstr "समीपस्थे हिमपातः"
+
+#: noaa_i18n.dat:32
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Drizzle Rain"
+msgstr "हिमपात बूंदाबांदी वर्षा"
+
+#: noaa_i18n.dat:33
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Drizzle Snow"
+msgstr "हिमपातः बूंदाबांदी हिम"
+
+#: noaa_i18n.dat:34
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Fog"
+msgstr "हिमपातः कोहरा"
+
+#: noaa_i18n.dat:35
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Fog in Vicinity"
+msgstr "समीपस्थे हिमपातः नीहारः"
+
+#: noaa_i18n.dat:36
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Rain"
+msgstr "हिमवृष्टिः"
+
+#: noaa_i18n.dat:37
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Rain in Vicinity"
+msgstr "समीपस्थे हिमवृष्टिः"
+
+#: noaa_i18n.dat:38
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Rain Rain"
+msgstr "हिमवृष्टि वर्षा"
+
+#: noaa_i18n.dat:39
+#, kde-format
+msgctxt "weather condition"
+msgid "Freezing Rain Snow"
+msgstr "हिमपातः वर्षा हिमः"
+
+#: noaa_i18n.dat:41
+#, kde-format
+msgctxt "weather condition"
+msgid "Funnel Cloud in Vicinity"
+msgstr "समीपस्थे कीपमेघः"
+
+#: noaa_i18n.dat:43
+#, kde-format
+msgctxt "weather condition"
+msgid "Hail Showers"
+msgstr "अश्मवृष्टिः"
+
+#: noaa_i18n.dat:47
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Drizzle Fog"
+msgstr "भारी बूंदाबांदी कोहरा"
+
+#: noaa_i18n.dat:48
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Drizzle Fog/Mist"
+msgstr "भारी बूंदाबांदी कोहरा/धुंध"
+
+#: noaa_i18n.dat:49
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Drizzle Ice Pellets"
+msgstr "भारी बूंदाबांदी बर्फ गोलियां"
+
+#: noaa_i18n.dat:50
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Drizzle Snow"
+msgstr "भारी बूंदाबांदी हिम"
+
+#: noaa_i18n.dat:51
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Dust Storm"
+msgstr "भारी धूलतूफान"
+
+#: noaa_i18n.dat:52
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Freezing Drizzle"
+msgstr "भारी हिमपात बूंदाबांदी"
+
+#: noaa_i18n.dat:53
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Freezing Drizzle Rain"
+msgstr "भारी हिमपात बूंदाबांदी वर्षा"
+
+#: noaa_i18n.dat:54
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Freezing Drizzle Snow"
+msgstr "भारी हिमपात बूंदाबांदी हिम"
+
+#: noaa_i18n.dat:55
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Freezing Fog"
+msgstr "भारी हिमपात कोहरा"
+
+#: noaa_i18n.dat:56
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Freezing Rain"
+msgstr "भारी हिमवृष्टि"
+
+#: noaa_i18n.dat:57
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Freezing Rain Rain"
+msgstr "भारी हिम वर्षा वर्षा"
+
+#: noaa_i18n.dat:58
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Freezing Rain Snow"
+msgstr "भारी हिम वर्षा हिम"
+
+#: noaa_i18n.dat:59
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Ice Pellets"
+msgstr "भारी हिमगोली"
+
+#: noaa_i18n.dat:60
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Ice Pellets Drizzle"
+msgstr "भारी हिमगोली बूंदाबांदी"
+
+#: noaa_i18n.dat:61
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Ice Pellets Rain"
+msgstr "भारी हिमगोली वर्षा"
+
+#: noaa_i18n.dat:63
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Fog"
+msgstr "भारी वर्षा कोहरा"
+
+#: noaa_i18n.dat:64
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Fog/Mist"
+msgstr "भारी वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:65
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Freezing Drizzle"
+msgstr "भारी वर्षा जमती बूंदाबांदी"
+
+#: noaa_i18n.dat:66
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Freezing Rain"
+msgstr "भारी वर्षा हिमवृष्टि"
+
+#: noaa_i18n.dat:67
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Ice Pellets"
+msgstr "भारी वर्षा हिमगोली"
+
+#: noaa_i18n.dat:68
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Showers"
+msgstr "भारी वर्षा वर्षा"
+
+#: noaa_i18n.dat:69
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Showers Fog/Mist"
+msgstr "भारी वर्षा वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:70
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Rain Snow"
+msgstr "भारी वर्षा हिम"
+
+#: noaa_i18n.dat:71
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Sand Storm"
+msgstr "भारी रेत तूफान"
+
+#: noaa_i18n.dat:72
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Showers Rain"
+msgstr "भारी वर्षा वर्षा"
+
+#: noaa_i18n.dat:73
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Showers Rain Fog/Mist"
+msgstr "भारी वर्षा वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:74
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Showers Snow"
+msgstr "भारी वर्षा हिम"
+
+#: noaa_i18n.dat:75
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Showers Snow Fog"
+msgstr "भारी वर्षा हिम कोहरा"
+
+#: noaa_i18n.dat:76
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Showers Snow Fog/Mist"
+msgstr "भारी वर्षा हिम कोहरा/धुंध"
+
+#: noaa_i18n.dat:77
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy small Hail/Snow Pellets"
+msgstr "भारी लघु ओला/हिमगोली"
+
+#: noaa_i18n.dat:79
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Blowing Snow"
+msgstr "भारी हिमपातः हिमम्"
+
+#: noaa_i18n.dat:80
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Fog"
+msgstr "भारी हिमकोहरा"
+
+#: noaa_i18n.dat:81
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Fog/Mist"
+msgstr "भारी हिम कोहरा/धुंध"
+
+#: noaa_i18n.dat:82
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Freezing Drizzle"
+msgstr "भारी हिम जमने बूंदाबांदी"
+
+#: noaa_i18n.dat:83
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Freezing Rain"
+msgstr "भारी हिम हिम वर्षा"
+
+#: noaa_i18n.dat:84
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Grains"
+msgstr "भारी हिमकणिका"
+
+#: noaa_i18n.dat:85
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Low Drifting Snow"
+msgstr "भारी हिम न्यून बहाव हिम"
+
+#: noaa_i18n.dat:86
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Rain"
+msgstr "प्रचण्ड हिमवृष्टिः"
+
+#: noaa_i18n.dat:87
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Showers"
+msgstr "भारी हिमवृष्टिः"
+
+#: noaa_i18n.dat:88
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Showers Fog"
+msgstr "भारी हिमवृष्टिः कोहरा"
+
+#: noaa_i18n.dat:89
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Snow Showers Fog/Mist"
+msgstr "भारी हिमवृष्टिः कोहरा/धुंधः"
+
+#: noaa_i18n.dat:90
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain"
+msgstr "भारी वज्रपात वर्षा"
+
+#: noaa_i18n.dat:91
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Fog"
+msgstr "भारी वज्रपात वर्षा कोहरा"
+
+#: noaa_i18n.dat:92
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Fog and Windy"
+msgstr "भारी वज्रपातः वर्षा नीहारः वायुः च"
+
+#: noaa_i18n.dat:93
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Fog/Mist"
+msgstr "भारी वज्रपात वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:94
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Hail"
+msgstr "भारी वज्रपात वर्षा ओला"
+
+#: noaa_i18n.dat:95
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Hail Fog"
+msgstr "भारी वज्रपात वर्षा ओला कोहरा"
+
+#: noaa_i18n.dat:96
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Hail Fog/Hail"
+msgstr "भारी वज्रपात वर्षा ओला कोहरा/ओला"
+
+#: noaa_i18n.dat:97
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Hail Haze"
+msgstr "भारी वज्रपात वर्षा ओला धुंध"
+
+#: noaa_i18n.dat:98
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Haze"
+msgstr "भारी वज्रपात वर्षा धुंध"
+
+#: noaa_i18n.dat:99
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Rain Small Hail/Snow Pellets"
+msgstr "भारी वज्रपात वर्षा लघु ओला/हिम गोलियां"
+
+#: noaa_i18n.dat:100
+#, kde-format
+msgctxt "weather condition"
+msgid "Heavy Thunderstorm Snow"
+msgstr "भारी वज्रपातः हिम"
+
+#: noaa_i18n.dat:103
+#, kde-format
+msgctxt "weather condition"
+msgid "Ice Pellets Drizzle"
+msgstr "हिम गोलियाँ बूंदाबांदी"
+
+#: noaa_i18n.dat:104
+#, kde-format
+msgctxt "weather condition"
+msgid "Ice Pellets in Vicinity"
+msgstr "समीपस्थे हिमगोलानि"
+
+#: noaa_i18n.dat:105
+#, kde-format
+msgctxt "weather condition"
+msgid "Ice Pellets Rain"
+msgstr "हिमगोली वर्षा"
+
+#: noaa_i18n.dat:107
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Drizzle Fog"
+msgstr "हल्की बूंदाबांदी कोहरा"
+
+#: noaa_i18n.dat:108
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Drizzle Fog/Mist"
+msgstr "हल्की बूंदाबांदी कोहरा/धुंध"
+
+#: noaa_i18n.dat:109
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Drizzle Ice Pellets"
+msgstr "हल्की बूंदाबांदी बर्फ गोलियां"
+
+#: noaa_i18n.dat:110
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Drizzle Snow"
+msgstr "हल्की बूंदाबांदी हिम"
+
+#: noaa_i18n.dat:112
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Freezing Drizzle Rain"
+msgstr "हल्के हिमपात बूंदाबांदी वर्षा"
+
+#: noaa_i18n.dat:113
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Freezing Drizzle Snow"
+msgstr "हल्कं हिमपात बूंदाबांदी हिम"
+
+#: noaa_i18n.dat:114
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Freezing Fog"
+msgstr "प्रकाशः हिमपातः कोहरा"
+
+#: noaa_i18n.dat:116
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Freezing Rain Rain"
+msgstr "हल्की हिम वर्षा वर्षा"
+
+#: noaa_i18n.dat:117
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Freezing Rain Snow"
+msgstr "लघु हिम वर्षा हिम"
+
+#: noaa_i18n.dat:118
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Ice Pellets"
+msgstr "हल्के हिमगोले"
+
+#: noaa_i18n.dat:119
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Ice Pellets Drizzle"
+msgstr "हल्के हिमगोले बूंदाबांदी"
+
+#: noaa_i18n.dat:120
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Ice Pellets Rain"
+msgstr "हल्कं हिमगोली वर्षा"
+
+#: noaa_i18n.dat:122
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain and Breezy"
+msgstr "लघु वर्षा तथा वायुमय"
+
+#: noaa_i18n.dat:123
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Fog"
+msgstr "हल्की वर्षा कोहरा"
+
+#: noaa_i18n.dat:124
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Fog/Mist"
+msgstr "हल्की वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:125
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Freezing Drizzle"
+msgstr "हल्की वर्षा जमती बूंदाबांदी"
+
+#: noaa_i18n.dat:126
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Freezing Rain"
+msgstr "हल्की वर्षा हिम वर्षा"
+
+#: noaa_i18n.dat:127
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Ice Pellets"
+msgstr "हल्की वर्षा हिम गोलियाँ"
+
+#: noaa_i18n.dat:128
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Showers"
+msgstr "हल्की वर्षा वर्षा"
+
+#: noaa_i18n.dat:129
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Showers Fog/Mist"
+msgstr "हल्की वर्षा वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:130
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Rain Snow"
+msgstr "लघु वर्षा हिम"
+
+#: noaa_i18n.dat:131
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Showers Rain"
+msgstr "लघु वर्षा वर्षा"
+
+#: noaa_i18n.dat:132
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Showers Rain Fog/Mist"
+msgstr "लघु वर्षा वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:133
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Showers Snow"
+msgstr "लघु वर्षा हिम"
+
+#: noaa_i18n.dat:134
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Showers Snow Fog"
+msgstr "लघु वर्षा हिम कोहरा"
+
+#: noaa_i18n.dat:135
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Showers Snow Fog/Mist"
+msgstr "लघु वर्षा हिम कोहरा/धुंध"
+
+#: noaa_i18n.dat:136
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Small Hail/Snow Pellets"
+msgstr "हल्के लघु ओला/हिमगोली"
+
+#: noaa_i18n.dat:138
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Blowing Snow"
+msgstr "लघु हिम उड्डी हिम"
+
+#: noaa_i18n.dat:139
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Blowing Snow Fog/Mist"
+msgstr "हल्की हिम उड्डाण हिम कोहरा/धुंध"
+
+#: noaa_i18n.dat:140
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Drizzle"
+msgstr "हल्की हिम बूंदाबांदी"
+
+#: noaa_i18n.dat:141
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Fog"
+msgstr "लघु हिम कोहरा"
+
+#: noaa_i18n.dat:142
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Fog/Mist"
+msgstr "लघु हिम कोहरा/धुंध"
+
+#: noaa_i18n.dat:143
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Freezing Drizzle"
+msgstr "हल्की हिम जमने बूंदाबांदी"
+
+#: noaa_i18n.dat:144
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Freezing Rain"
+msgstr "लघु हिम हिम वर्षा"
+
+#: noaa_i18n.dat:145
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Grains"
+msgstr "लघु हिमकणिका"
+
+#: noaa_i18n.dat:146
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Low Drifting Snow"
+msgstr "लघु हिम न्यून बहाव हिम"
+
+#: noaa_i18n.dat:147
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Rain"
+msgstr "लघु हिम वर्षा"
+
+#: noaa_i18n.dat:148
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Showers"
+msgstr "हल्के हिमवृष्टिः"
+
+#: noaa_i18n.dat:149
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Showers Fog"
+msgstr "हल्कं हिमवृष्टिः कोहरा"
+
+#: noaa_i18n.dat:150
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Snow Showers Fog/Mist"
+msgstr "हल्कं हिमवृष्टिः कोहरा/धुंधः"
+
+#: noaa_i18n.dat:151
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain"
+msgstr "हल्के वज्रपात वर्षा"
+
+#: noaa_i18n.dat:152
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Fog"
+msgstr "हल्के वज्रपात वर्षा कोहरा"
+
+#: noaa_i18n.dat:153
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Fog/Mist"
+msgstr "हल्के वज्रपात वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:154
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Hail"
+msgstr "हल्के वज्रपात वर्षा ओला"
+
+#: noaa_i18n.dat:155
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Hail Fog"
+msgstr "हल्के वज्रपात वर्षा ओला कोहरा"
+
+#: noaa_i18n.dat:156
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Hail Fog/Mist"
+msgstr "हल्के वज्रपात वर्षा ओला कोहरा/धुंध"
+
+#: noaa_i18n.dat:157
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Hail Haze"
+msgstr "हल्के वज्रपात वर्षा ओला धुंध"
+
+#: noaa_i18n.dat:158
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Haze"
+msgstr "हल्के वज्रपात वर्षा धुंध"
+
+#: noaa_i18n.dat:159
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Rain Small Hail/Snow Pellets"
+msgstr "हल्के वज्रपात वर्षा लघु ओला/हिम गोलियाँ"
+
+#: noaa_i18n.dat:160
+#, kde-format
+msgctxt "weather condition"
+msgid "Light Thunderstorm Snow"
+msgstr "लघु वज्रपात हिम"
+
+#: noaa_i18n.dat:161
+#, kde-format
+msgctxt "weather condition"
+msgid "Low Drifting Dust"
+msgstr "न्यून बहाव धूल"
+
+#: noaa_i18n.dat:162
+#, kde-format
+msgctxt "weather condition"
+msgid "Low Drifting Sand"
+msgstr "निम्न बहाव वाला रेत"
+
+#: noaa_i18n.dat:163
+#, kde-format
+msgctxt "weather condition"
+msgid "Low Drifting Snow"
+msgstr "न्यून बहाव हिम"
+
+#: noaa_i18n.dat:164
+#, fuzzy, kde-format
+#| msgctxt "weather forecast"
+#| msgid "Mostly Clear"
+msgctxt "weather condition"
+msgid "Mostly Clear"
+msgstr "अधिकांशतः निर्मलम्"
+
+#: noaa_i18n.dat:166
+#, kde-format
+msgctxt "weather condition"
+msgid "Mostly Cloudy and Breezy"
+msgstr "अधिकतया मेघयुक्तः वायुमयः च"
+
+#: noaa_i18n.dat:167
+#, kde-format
+msgctxt "weather condition"
+msgid "Mostly Cloudy and Windy"
+msgstr "प्रायः मेघयुक्तः वायुयुक्तः च"
+
+#: noaa_i18n.dat:168
+#, kde-format
+msgctxt "weather condition"
+msgid "Mostly Cloudy with Haze"
+msgstr "प्रायः धुन्धयुक्तः मेघयुक्तः"
+
+#: noaa_i18n.dat:169
+#, kde-format
+msgctxt "weather condition"
+msgid "Overcast"
+msgstr "मेघयुक्तः"
+
+#: noaa_i18n.dat:170
+#, kde-format
+msgctxt "weather condition"
+msgid "Overcast and Breezy"
+msgstr "मेघयुक्तः वायुमयः च"
+
+#: noaa_i18n.dat:171
+#, kde-format
+msgctxt "weather condition"
+msgid "Overcast and Windy"
+msgstr "मेघयुक्तः वायुमयः च"
+
+#: noaa_i18n.dat:172
+#, kde-format
+msgctxt "weather condition"
+msgid "Overcast with Haze"
+msgstr "धुन्धेन सह मेघयुक्तः"
+
+#: noaa_i18n.dat:173
+#, kde-format
+msgctxt "weather condition"
+msgid "Partial Fog"
+msgstr "आंशिक कोहरा"
+
+#: noaa_i18n.dat:174
+#, kde-format
+msgctxt "weather condition"
+msgid "Partial Fog in Vicinity"
+msgstr "समीपस्थे आंशिक कोहरा"
+
+#: noaa_i18n.dat:176
+#, kde-format
+msgctxt "weather condition"
+msgid "Partly Cloudy and Breezy"
+msgstr "आंशिकरूपेण मेघयुक्तः वायुमयः च"
+
+#: noaa_i18n.dat:177
+#, kde-format
+msgctxt "weather condition"
+msgid "Partly Cloudy and Windy"
+msgstr "आंशिकरूपेण मेघयुक्तः वायुयुक्तः च"
+
+#: noaa_i18n.dat:178
+#, kde-format
+msgctxt "weather condition"
+msgid "Partly Cloudy with Haze"
+msgstr "आंशिकरूपेण मेघयुक्तः धुन्धयुक्तः"
+
+#: noaa_i18n.dat:179
+#, kde-format
+msgctxt "weather condition"
+msgid "Patchy Freezing Fog"
+msgstr "खण्डित हिम कोहरा"
+
+#: noaa_i18n.dat:180
+#, kde-format
+msgctxt "weather condition"
+msgid "Patches of Fog"
+msgstr "नीहारस्य पट्टिकाः"
+
+#: noaa_i18n.dat:181
+#, kde-format
+msgctxt "weather condition"
+msgid "Patches of Fog in Vicinity"
+msgstr "समीपस्थे नीहारस्य पटलाः"
+
+#: noaa_i18n.dat:182
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Fog"
+msgstr "वर्षा कोहरा"
+
+#: noaa_i18n.dat:183
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Fog/Mist"
+msgstr "वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:184
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Freezing Drizzle"
+msgstr "वर्षा हिमपात बूंदाबांदी"
+
+#: noaa_i18n.dat:185
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Freezing Rain"
+msgstr "वर्षा हिमपात वर्षा"
+
+#: noaa_i18n.dat:186
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Ice Pellets"
+msgstr "वर्षा हिम गोलियाँ"
+
+#: noaa_i18n.dat:187
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Showers"
+msgstr "वर्षा वर्षा"
+
+#: noaa_i18n.dat:188
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Showers Fog/Mist"
+msgstr "वर्षा वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:189
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Showers in Vicinity"
+msgstr "समीपस्थे वर्षावृष्टिः"
+
+#: noaa_i18n.dat:190
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Showers in Vicinity Fog/Mist"
+msgstr "समीपस्थेषु वर्षा-वृष्टिः कोहरा/धुन्धः"
+
+#: noaa_i18n.dat:191
+#, kde-format
+msgctxt "weather condition"
+msgid "Rain Snow"
+msgstr "वर्षा हिम"
+
+#: noaa_i18n.dat:192
+#, kde-format
+msgctxt "weather condition"
+msgid "Sand"
+msgstr "वालुका"
+
+#: noaa_i18n.dat:193
+#, kde-format
+msgctxt "weather condition"
+msgid "Sand Storm"
+msgstr "रेत तूफान"
+
+#: noaa_i18n.dat:194
+#, kde-format
+msgctxt "weather condition"
+msgid "Sand Storm in Vicinity"
+msgstr "समीपस्थे रेततूफानम्"
+
+#: noaa_i18n.dat:196
+#, kde-format
+msgctxt "weather condition"
+msgid "Shallow Fog in Vicinity"
+msgstr "समीपस्थे उथले नीहारः"
+
+#: noaa_i18n.dat:197
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Hail"
+msgstr "वर्षा अला"
+
+#: noaa_i18n.dat:198
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Ice Pellets"
+msgstr "वर्षा हिमगोली"
+
+#: noaa_i18n.dat:199
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers in Vicinity Fog"
+msgstr "समीपस्थे नीहारे वर्षा"
+
+#: noaa_i18n.dat:200
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers in Vicinity Snow"
+msgstr "समीपस्थे हिमवृष्टिः"
+
+#: noaa_i18n.dat:201
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Rain"
+msgstr "वर्षा वर्षा"
+
+#: noaa_i18n.dat:202
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Rain Fog/Mist"
+msgstr "वर्षा वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:203
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Rain in Vicinity"
+msgstr "वर्षा समीपस्थे वर्षा"
+
+#: noaa_i18n.dat:204
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Rain in Vicinity Fog/Mist"
+msgstr "वर्षा वर्षा आसपास कोहरा/धुंध"
+
+#: noaa_i18n.dat:205
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Snow"
+msgstr "वर्षा हिम"
+
+#: noaa_i18n.dat:206
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Snow Fog"
+msgstr "वर्षा हिम कोहरा"
+
+#: noaa_i18n.dat:207
+#, kde-format
+msgctxt "weather condition"
+msgid "Showers Snow Fog/Mist"
+msgstr "वर्षा हिम कोहरा/धुंध"
+
+#: noaa_i18n.dat:208
+#, kde-format
+msgctxt "weather condition"
+msgid "Small Hail/Snow Pellets"
+msgstr "लघु ओला/हिमगोली"
+
+#: noaa_i18n.dat:211
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Blowing Snow"
+msgstr "हिम उड्डीयते हिम"
+
+#: noaa_i18n.dat:212
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Drizzle"
+msgstr "हिम बूंदाबांदी"
+
+#: noaa_i18n.dat:213
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Fog"
+msgstr "हिमकोहरा"
+
+#: noaa_i18n.dat:214
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Fog/Mist"
+msgstr "हिम कोहरा/धुंध"
+
+#: noaa_i18n.dat:215
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Freezing Drizzle"
+msgstr "हिम हिम बूंदाबांदी"
+
+#: noaa_i18n.dat:216
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Freezing Rain"
+msgstr "हिम हिम वर्षा"
+
+#: noaa_i18n.dat:218
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Low Drifting Snow"
+msgstr "हिम न्यून बहाव हिम"
+
+#: noaa_i18n.dat:219
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Rain"
+msgstr "हिमवृष्टिः"
+
+#: noaa_i18n.dat:220
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Showers"
+msgstr "हिमवृष्टिः"
+
+#: noaa_i18n.dat:221
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Showers Fog"
+msgstr "हिमवृष्टिः कोहरा"
+
+#: noaa_i18n.dat:222
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Showers Fog/Mist"
+msgstr "हिमवृष्टिः कोहरा/धुंधः"
+
+#: noaa_i18n.dat:223
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Showers in Vicinity"
+msgstr "समीपस्थेषु हिमवृष्टिः"
+
+#: noaa_i18n.dat:224
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Showers in Vicinity Fog"
+msgstr "समीपस्थे नीहारे हिमवृष्टिः"
+
+#: noaa_i18n.dat:225
+#, kde-format
+msgctxt "weather condition"
+msgid "Snow Showers in Vicinity Fog/Mist"
+msgstr "समीपस्थेषु हिमवृष्टिः कोहरा/धुन्धः"
+
+#: noaa_i18n.dat:227
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Fog"
+msgstr "वज्रपातः कोहरा"
+
+#: noaa_i18n.dat:228
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Hail"
+msgstr "वज्रपातः अश्म"
+
+#: noaa_i18n.dat:229
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Hail Fog"
+msgstr "वज्रपात ओला कोहरा"
+
+#: noaa_i18n.dat:230
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Haze in Vicinity"
+msgstr "समीपस्थे वज्रपातः धुन्धः"
+
+#: noaa_i18n.dat:231
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Haze in Vicinity Hail"
+msgstr "वज्रपातः धुन्धः समीपस्थे ओला"
+
+#: noaa_i18n.dat:232
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain"
+msgstr "वज्रपातः प्रचण्डवृष्टिः"
+
+#: noaa_i18n.dat:233
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain Fog"
+msgstr "वज्रपात भारी वर्षा कोहरा"
+
+#: noaa_i18n.dat:234
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain Fog/Mist"
+msgstr "वज्रपात भारी वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:235
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain Hail"
+msgstr "वज्रपात प्रचण्ड वर्षा ओला"
+
+#: noaa_i18n.dat:236
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain Hail Fog"
+msgstr "वज्रपात भारी वर्षा ओला कोहरा"
+
+#: noaa_i18n.dat:237
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain Hail Fog/Mist"
+msgstr "वज्रपात भारी वर्षा ओला कोहरा/धुंध"
+
+#: noaa_i18n.dat:238
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain Hail Haze"
+msgstr "वज्रपात भारी वर्षा ओला धुंध"
+
+#: noaa_i18n.dat:239
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Heavy Rain Haze"
+msgstr "वज्रपात प्रचण्ड वर्षा धुंध"
+
+#: noaa_i18n.dat:240
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Ice Pellets"
+msgstr "वज्रपातः हिमगोलानि"
+
+#: noaa_i18n.dat:241
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm in Vicinity"
+msgstr "समीपस्थे वज्रपातः"
+
+#: noaa_i18n.dat:242
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm in Vicinity Fog"
+msgstr "समीपस्थे नीहारे वज्रपातः"
+
+#: noaa_i18n.dat:243
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm in Vicinity Fog/Mist"
+msgstr "समीपस्थे वज्रपातः कोहरा/कुहरा"
+
+#: noaa_i18n.dat:244
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm in Vicinity Hail"
+msgstr "समीपस्थे वज्रपातः अश्म"
+
+#: noaa_i18n.dat:245
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm in Vicinity Hail Haze"
+msgstr "समीपस्थे वज्रपातः अला धुन्धः"
+
+#: noaa_i18n.dat:246
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm in Vicinity Haze"
+msgstr "समीपस्थे धुन्धे वज्रपातः"
+
+#: noaa_i18n.dat:247
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain"
+msgstr "वज्रपात लघु वर्षा"
+
+#: noaa_i18n.dat:248
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain Fog"
+msgstr "वज्रपात हल्की वर्षा कोहरा"
+
+#: noaa_i18n.dat:249
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain Fog/Mist"
+msgstr "वज्रपात हल्की वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:250
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain Hail"
+msgstr "वज्रपात लघु वर्षा ओला"
+
+#: noaa_i18n.dat:251
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain Hail Fog"
+msgstr "वज्रपात हल्की वर्षा ओला कोहरा"
+
+#: noaa_i18n.dat:252
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain Hail Fog/Mist"
+msgstr "वज्रपात हल्की वर्षा ओला कोहरा/धुंध"
+
+#: noaa_i18n.dat:253
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain Hail Haze"
+msgstr "वज्रपात लघु वर्षा ओला धुंध"
+
+#: noaa_i18n.dat:254
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Light Rain Haze"
+msgstr "वज्रपात लघु वर्षा धुंध"
+
+#: noaa_i18n.dat:255
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Rain"
+msgstr "वज्रपात वर्षा"
+
+#: noaa_i18n.dat:256
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Rain Fog/Mist"
+msgstr "वज्रपात वर्षा कोहरा/धुंध"
+
+#: noaa_i18n.dat:257
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Rain Hail Fog/Mist"
+msgstr "वज्रपात वर्षा ओला कोहरा/धुंध"
+
+#: noaa_i18n.dat:258
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Rain Small Hail/Snow Pellets"
+msgstr "वज्रपात वर्षा लघु ओला/हिम गोलियाँ"
+
+#: noaa_i18n.dat:259
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Showers in Vicinity"
+msgstr "समीपस्थे वज्रपातस्य वर्षा"
+
+#: noaa_i18n.dat:260
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Showers in Vicinity Hail"
+msgstr "समीपस्थेषु वज्रपातस्य वर्षा अला"
+
+#: noaa_i18n.dat:261
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Small Hail/Snow Pellets"
+msgstr "वज्रपातः लघु ओला/हिमगोली"
+
+#: noaa_i18n.dat:262
+#, kde-format
+msgctxt "weather condition"
+msgid "Thunderstorm Snow"
+msgstr "वज्रपातः हिम"
+
+#: noaa_i18n.dat:263
+#, kde-format
+msgctxt "weather condition"
+msgid "Tornado/Water Spout"
+msgstr "बवंडर/जल टोंटी"
+
+#: noaa_i18n.dat:264
+#, kde-format
+msgctxt "weather condition"
+msgid "Windy"
+msgstr "वातमय"
+
+#: bbcukmet_i18n.dat:51
+#, kde-format
+msgctxt "weather forecast"
+msgid "clear"
+msgstr "निर्मल"
+
+#: bbcukmet_i18n.dat:52
+#, kde-format
+msgctxt "weather forecast"
+msgid "clear intervals"
+msgstr "निर्मलं अन्तराल"
+
+#: bbcukmet_i18n.dat:53
+#, kde-format
+msgctxt "weather forecast"
+msgid "clear sky"
+msgstr "निर्मलं आकाशम्"
+
+#: bbcukmet_i18n.dat:54
+#, kde-format
+msgctxt "weather forecast"
+msgid "cloudy"
+msgstr "धूमिल"
+
+#: bbcukmet_i18n.dat:55
+#, kde-format
+msgctxt "weather forecast"
+msgid "cloudy with hail"
+msgstr "अश्मपातेन सह मेघयुक्तः"
+
+#: bbcukmet_i18n.dat:56
+#, kde-format
+msgctxt "weather forecast"
+msgid "cloudy with heavy snow"
+msgstr "मेघयुक्तं गुरुहिमेन सह"
+
+#: bbcukmet_i18n.dat:57
+#, kde-format
+msgctxt "weather forecast"
+msgid "cloudy with light snow"
+msgstr "मेघयुक्तं लघुहिमेन सह"
+
+#: bbcukmet_i18n.dat:58
+#, kde-format
+msgctxt "weather forecast"
+msgid "cloudy with sleet"
+msgstr "मेघयुक्तः स्लीट् सह"
+
+#: bbcukmet_i18n.dat:59
+#, kde-format
+msgctxt "weather forecast"
+msgid "drizzle"
+msgstr "बूंदाबांदी"
+
+#: bbcukmet_i18n.dat:60
+#, kde-format
+msgctxt "weather forecast"
+msgid "fog"
+msgstr "धूमिका"
+
+#: bbcukmet_i18n.dat:61
+#, kde-format
+msgctxt "weather forecast"
+msgid "foggy"
+msgstr "नभस्य"
+
+#: bbcukmet_i18n.dat:62
+#, kde-format
+msgctxt "weather forecast"
+msgid "grey cloud"
+msgstr "धूसर मेघः"
+
+#: bbcukmet_i18n.dat:63
+#, kde-format
+msgctxt "weather forecast"
+msgid "hail"
+msgstr "सभागृह"
+
+#: bbcukmet_i18n.dat:64
+#, kde-format
+msgctxt "weather forecast"
+msgid "hail shower"
+msgstr "अश्मवृष्टिः"
+
+#: bbcukmet_i18n.dat:65
+#, kde-format
+msgctxt "weather forecast"
+msgid "hail showers"
+msgstr "अश्मवृष्टिः"
+
+#: bbcukmet_i18n.dat:66
+#, kde-format
+msgctxt "weather forecast"
+msgid "hazy"
+msgstr "धुन्धला"
+
+#: bbcukmet_i18n.dat:67
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy rain"
+msgstr "प्रचण्डवृष्टिः"
+
+#: bbcukmet_i18n.dat:68
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy rain shower"
+msgstr "प्रचण्डवृष्टिः"
+
+#: bbcukmet_i18n.dat:69
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy rain showers"
+msgstr "प्रचण्डवृष्टिः"
+
+#: bbcukmet_i18n.dat:70
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy shower"
+msgstr "भारी वर्षा"
+
+#: bbcukmet_i18n.dat:71
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy showers"
+msgstr "प्रचण्डवृष्टिः"
+
+#: bbcukmet_i18n.dat:72
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy snow"
+msgstr "गुरु हिमम्"
+
+#: bbcukmet_i18n.dat:73
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy snow shower"
+msgstr "भारी हिमवृष्टिः"
+
+#: bbcukmet_i18n.dat:74
+#, kde-format
+msgctxt "weather forecast"
+msgid "heavy snow showers"
+msgstr "प्रचण्ड हिमवृष्टिः"
+
+#: bbcukmet_i18n.dat:75
+#, kde-format
+msgctxt "weather forecast"
+msgid "light cloud"
+msgstr "लघु मेघः"
+
+#: bbcukmet_i18n.dat:76
+#, kde-format
+msgctxt "weather forecast"
+msgid "light rain"
+msgstr "लघु वर्षा"
+
+#: bbcukmet_i18n.dat:77
+#, kde-format
+msgctxt "weather forecast"
+msgid "light rain shower"
+msgstr "लघु वर्षा वर्षा"
+
+#: bbcukmet_i18n.dat:78
+#, kde-format
+msgctxt "weather forecast"
+msgid "light rain showers"
+msgstr "लघु वर्षा वर्षा"
+
+#: bbcukmet_i18n.dat:79
+#, kde-format
+msgctxt "weather forecast"
+msgid "light shower"
+msgstr "लघु वर्षा"
+
+#: bbcukmet_i18n.dat:80
+#, kde-format
+msgctxt "weather forecast"
+msgid "light showers"
+msgstr "लघुवृष्टिः"
+
+#: bbcukmet_i18n.dat:81
+#, kde-format
+msgctxt "weather forecast"
+msgid "light snow"
+msgstr "लघु हिमम्"
+
+#: bbcukmet_i18n.dat:82
+#, kde-format
+msgctxt "weather forecast"
+msgid "light snow shower"
+msgstr "लघु हिमवृष्टिः"
+
+#: bbcukmet_i18n.dat:83
+#, kde-format
+msgctxt "weather forecast"
+msgid "light snow showers"
+msgstr "लघु हिमवृष्टिः"
+
+#: bbcukmet_i18n.dat:84
+#, kde-format
+msgctxt "weather forecast"
+msgid "mist"
+msgstr "तुहिनं"
+
+#: bbcukmet_i18n.dat:85
+#, kde-format
+msgctxt "weather forecast"
+msgid "misty"
+msgstr "कुहरे"
+
+#: bbcukmet_i18n.dat:86
+#, kde-format
+msgctxt "weather forecast"
+msgid "na"
+msgstr "न प्रयोज्यम्"
+
+#: bbcukmet_i18n.dat:87
+#, kde-format
+msgctxt "weather forecast"
+msgid "partly cloudy"
+msgstr "आंशिकरूपेण मेघयुक्तः"
+
+#: bbcukmet_i18n.dat:88
+#, kde-format
+msgctxt "weather forecast"
+msgid "sandstorm"
+msgstr "वालुकातूफानम्"
+
+#: bbcukmet_i18n.dat:89
+#, kde-format
+msgctxt "weather forecast"
+msgid "sleet"
+msgstr "स्लीट्"
+
+#: bbcukmet_i18n.dat:90
+#, kde-format
+msgctxt "weather forecast"
+msgid "sleet shower"
+msgstr "स्लीट्-वृष्टिः"
+
+#: bbcukmet_i18n.dat:91
+#, kde-format
+msgctxt "weather forecast"
+msgid "sleet showers"
+msgstr "स्लीट् वर्षा"
+
+#: bbcukmet_i18n.dat:92
+#, kde-format
+msgctxt "weather forecast"
+msgid "sunny"
+msgstr "आतपीय"
+
+#: bbcukmet_i18n.dat:93
+#, kde-format
+msgctxt "weather forecast"
+msgid "sunny intervals"
+msgstr "सूर्य्यन्तराः"
+
+#: bbcukmet_i18n.dat:94
+#, kde-format
+msgctxt "weather forecast"
+msgid "thick cloud"
+msgstr "घन मेघः"
+
+#: bbcukmet_i18n.dat:95
+#, kde-format
+msgctxt "weather forecast"
+msgid "thunderstorm"
+msgstr "वज्रपातः"
+
+#: bbcukmet_i18n.dat:96
+#, kde-format
+msgctxt "weather forecast"
+msgid "thundery shower"
+msgstr "वज्रवृष्टिः"
+
+#: bbcukmet_i18n.dat:97
+#, kde-format
+msgctxt "weather forecast"
+msgid "thundery showers"
+msgstr "मेघगर्जनवृष्टिः"
+
+#: bbcukmet_i18n.dat:98
+#, kde-format
+msgctxt "weather forecast"
+msgid "tropical storm"
+msgstr "उष्णकटिबंधीय तूफान"
+
+#: bbcukmet_i18n.dat:99
+#, kde-format
+msgctxt "weather forecast"
+msgid "white cloud"
+msgstr "श्वेतमेघः"
 
 #: envcan_i18n.dat:89
 #, kde-format
@@ -2689,1716 +4244,6 @@ msgctxt "weather forecast"
 msgid "Windy"
 msgstr "वातमय"
 
-#: ions/bbcukmet/ion_bbcukmet.cpp:697 ions/dwd/ion_dwd.cpp:511
-#, kde-format
-msgctxt "Short for Today"
-msgid "Today"
-msgstr "अद्य"
-
-#: ions/bbcukmet/ion_bbcukmet.cpp:697
-#, kde-format
-msgctxt "Short for Tonight"
-msgid "Tonight"
-msgstr "अद्यरात्री"
-
-#: ions/bbcukmet/ion_bbcukmet.cpp:718
-#, kde-format
-msgctxt "credit line, keep string short"
-msgid "Data from BBC Weather"
-msgstr "BBC Weather इत्यस्मात् आँकडा"
-
-#: ions/dwd/ion_dwd.cpp:515 ions/envcan/ion_envcan.cpp:1507
-#, kde-format
-msgctxt "Short for Saturday"
-msgid "Sat"
-msgstr "उपविष्टवन्तः"
-
-#: ions/dwd/ion_dwd.cpp:516 ions/envcan/ion_envcan.cpp:1508
-#, kde-format
-msgctxt "Short for Sunday"
-msgid "Sun"
-msgstr "सूर्य"
-
-#: ions/dwd/ion_dwd.cpp:517 ions/envcan/ion_envcan.cpp:1509
-#, kde-format
-msgctxt "Short for Monday"
-msgid "Mon"
-msgstr "सोम"
-
-#: ions/dwd/ion_dwd.cpp:518 ions/envcan/ion_envcan.cpp:1510
-#, kde-format
-msgctxt "Short for Tuesday"
-msgid "Tue"
-msgstr "मंगलवार"
-
-#: ions/dwd/ion_dwd.cpp:519 ions/envcan/ion_envcan.cpp:1511
-#, kde-format
-msgctxt "Short for Wednesday"
-msgid "Wed"
-msgstr "बुध"
-
-#: ions/dwd/ion_dwd.cpp:520 ions/envcan/ion_envcan.cpp:1512
-#, kde-format
-msgctxt "Short for Thursday"
-msgid "Thu"
-msgstr "थु"
-
-#: ions/dwd/ion_dwd.cpp:521 ions/envcan/ion_envcan.cpp:1513
-#, kde-format
-msgctxt "Short for Friday"
-msgid "Fri"
-msgstr "शुक्र"
-
-#: ions/dwd/ion_dwd.cpp:546
-#, kde-format
-msgctxt "credit line, don't change name!"
-msgid "Source: Deutscher Wetterdienst"
-msgstr "स्रोतः : ड्यूशर् वेटरडिएन्स्ट्"
-
-#: ions/envcan/ion_envcan.cpp:883 ions/envcan/ion_envcan.cpp:885
-#: ions/envcan/ion_envcan.cpp:1371 ions/envcan/ion_envcan.cpp:1500
-#: ions/envcan/ion_envcan.cpp:1516 ions/noaa/ion_noaa.cpp:423
-#, kde-format
-msgid "N/A"
-msgstr "न प्रयोज्यम्"
-
-#: ions/envcan/ion_envcan.cpp:1504
-#, kde-format
-msgid "day"
-msgstr "दिनं"
-
-#: ions/envcan/ion_envcan.cpp:1505
-#, kde-format
-msgctxt "Short for tonight"
-msgid "nite"
-msgstr "निते"
-
-#: ions/envcan/ion_envcan.cpp:1506
-#, kde-format
-msgctxt "Short for night, appended to the end of the weekday"
-msgid "nt"
-msgstr "nt"
-
-#: ions/envcan/ion_envcan.cpp:1537
-#, kde-format
-msgctxt "precipitation total, very little"
-msgid "Trace"
-msgstr "चिह्न"
-
-#: ions/envcan/ion_envcan.cpp:1563
-#, kde-format
-msgctxt "credit line, keep string short"
-msgid "Data from Environment and Climate Change Canada"
-msgstr "पर्यावरणस्य जलवायुपरिवर्तनस्य च कनाडादेशस्य आँकडा"
-
-#: ions/noaa/ion_noaa.cpp:522
-#, kde-format
-msgctxt "credit line, keep string short)"
-msgid "Data from NOAA National Weather Service"
-msgstr "एनओएए राष्ट्रियमौसमसेवायाः आँकडा"
-
-#. i18n: The forecast summary can include several single conditions that follow
-#. a temporary sequence, separated by " then ". Also include spaces if necessary.
-#. If there is no suitable separtor, a sentence separator might do.
-#: ions/noaa/ion_noaa.cpp:658
-#, kde-format
-msgctxt ""
-"Separator between forecast conditions that follow a temporal sequence (ex. "
-"\"Rain then Sunny\")"
-msgid " then "
-msgstr " तदा "
-
-#: ions/wetter.com/ion_wettercom.cpp:156 ions/wetter.com/ion_wettercom.cpp:157
-#, kde-format
-msgctxt "weather condition"
-msgid "few clouds"
-msgstr "अल्पाः मेघाः"
-
-#: ions/wetter.com/ion_wettercom.cpp:160 ions/wetter.com/ion_wettercom.cpp:161
-#, kde-format
-msgctxt "weather condition"
-msgid "overcast"
-msgstr "मेघयुक्तः"
-
-#: ions/wetter.com/ion_wettercom.cpp:162 ions/wetter.com/ion_wettercom.cpp:163
-#: ions/wetter.com/ion_wettercom.cpp:164
-#, kde-format
-msgctxt "weather condition"
-msgid "haze"
-msgstr "धुंध"
-
-#: ions/wetter.com/ion_wettercom.cpp:165 ions/wetter.com/ion_wettercom.cpp:166
-#, kde-format
-msgctxt "weather condition"
-msgid "fog with icing"
-msgstr "आइसिंग् सह नीहारः"
-
-#: ions/wetter.com/ion_wettercom.cpp:169
-#, kde-format
-msgctxt "weather condition"
-msgid "light drizzle"
-msgstr "लघु बूंदाबांदी"
-
-#: ions/wetter.com/ion_wettercom.cpp:171
-#, kde-format
-msgctxt "weather condition"
-msgid "heavy drizzle"
-msgstr "भारी बूंदाबांदी"
-
-#: ions/wetter.com/ion_wettercom.cpp:172
-#, kde-format
-msgctxt "weather condition"
-msgid "freezing drizzle"
-msgstr "हिमपातः"
-
-#: ions/wetter.com/ion_wettercom.cpp:173
-#, kde-format
-msgctxt "weather condition"
-msgid "heavy freezing drizzle"
-msgstr "भारी हिमवृष्टिः"
-
-#: ions/wetter.com/ion_wettercom.cpp:174
-#, kde-format
-msgctxt "weather condition"
-msgid "rain"
-msgstr "वृष्टि"
-
-#: ions/wetter.com/ion_wettercom.cpp:177
-#, kde-format
-msgctxt "weather condition"
-msgid "moderate rain"
-msgstr "मध्यमवृष्टिः"
-
-#: ions/wetter.com/ion_wettercom.cpp:179
-#, kde-format
-msgctxt "weather condition"
-msgid "light freezing rain"
-msgstr "लघु हिमवृष्टिः"
-
-#: ions/wetter.com/ion_wettercom.cpp:180
-#, kde-format
-msgctxt "weather condition"
-msgid "freezing rain"
-msgstr "हिमवृष्टिः"
-
-#: ions/wetter.com/ion_wettercom.cpp:181
-#, kde-format
-msgctxt "weather condition"
-msgid "light rain snow"
-msgstr "लघु वर्षा हिम"
-
-#: ions/wetter.com/ion_wettercom.cpp:182
-#, kde-format
-msgctxt "weather condition"
-msgid "heavy rain snow"
-msgstr "प्रचण्डवृष्टिहिमः"
-
-#: ions/wetter.com/ion_wettercom.cpp:183
-#, kde-format
-msgctxt "weather condition"
-msgid "snow"
-msgstr "तुषार"
-
-#: ions/wetter.com/ion_wettercom.cpp:186
-#, kde-format
-msgctxt "weather condition"
-msgid "moderate snow"
-msgstr "मध्यमः हिमः"
-
-#: ions/wetter.com/ion_wettercom.cpp:188 ions/wetter.com/ion_wettercom.cpp:190
-#, kde-format
-msgctxt "weather condition"
-msgid "showers"
-msgstr "वर्षा"
-
-#: ions/wetter.com/ion_wettercom.cpp:192
-#, kde-format
-msgctxt "weather condition"
-msgid "light snow rain showers"
-msgstr "लघु हिमवृष्टिः"
-
-#: ions/wetter.com/ion_wettercom.cpp:193
-#, kde-format
-msgctxt "weather condition"
-msgid "heavy snow rain showers"
-msgstr "प्रचण्ड हिमवृष्टिः"
-
-#: ions/wetter.com/ion_wettercom.cpp:195
-#, kde-format
-msgctxt "weather condition"
-msgid "snow showers"
-msgstr "हिमवृष्टिः"
-
-#: ions/wetter.com/ion_wettercom.cpp:198
-#, kde-format
-msgctxt "weather condition"
-msgid "light thunderstorm"
-msgstr "लघु वज्रपातः"
-
-#: ions/wetter.com/ion_wettercom.cpp:199
-#, kde-format
-msgctxt "weather condition"
-msgid "heavy thunderstorm"
-msgstr "प्रचण्डवज्रपातः"
-
-#: ions/wetter.com/ion_wettercom.cpp:200
-#, kde-format
-msgctxt "weather condition"
-msgid "n/a"
-msgstr "न प्रयोज्यम्"
-
-#: ions/wetter.com/ion_wettercom.cpp:362
-#, kde-format
-msgctxt "Geographical location: city, state, ISO-country-code"
-msgid "%1, %2, %3"
-msgstr "%1, %2, %3"
-
-#: ions/wetter.com/ion_wettercom.cpp:364
-#, kde-format
-msgctxt "Geographical location: quarter (city), state, ISO-country-code"
-msgid "%1 (%2), %3, %4"
-msgstr "%1 (%2), %3, %4"
-
-#: ions/wetter.com/ion_wettercom.cpp:670
-#, kde-format
-msgid "Day"
-msgstr "दिनं"
-
-#: ions/wetter.com/ion_wettercom.cpp:680
-#, kde-format
-msgid "Night"
-msgstr "निशा"
-
-#: noaa_i18n.dat:1
-#, kde-format
-msgctxt "weather condition"
-msgid "A Few Clouds"
-msgstr "कतिचन मेघाः"
-
-#: noaa_i18n.dat:2
-#, kde-format
-msgctxt "weather condition"
-msgid "A Few Clouds and Breezy"
-msgstr "कतिपय मेघाः वायुः च"
-
-#: noaa_i18n.dat:3
-#, kde-format
-msgctxt "weather condition"
-msgid "A Few Clouds and Windy"
-msgstr "कतिपय मेघाः वायुः च"
-
-#: noaa_i18n.dat:4
-#, kde-format
-msgctxt "weather condition"
-msgid "A Few Clouds with Haze"
-msgstr "धुन्धयुक्ताः कतिपये मेघाः"
-
-#: noaa_i18n.dat:5
-#, kde-format
-msgctxt "weather condition"
-msgid "Blowing Dust"
-msgstr "धूल फूत्कार"
-
-#: noaa_i18n.dat:6
-#, kde-format
-msgctxt "weather condition"
-msgid "Blowing Sand"
-msgstr "फूत्कारवालुका"
-
-#: noaa_i18n.dat:8
-#, kde-format
-msgctxt "weather condition"
-msgid "Blowing Snow in Vicinity"
-msgstr "समीपस्थे हिमपातः"
-
-#: noaa_i18n.dat:9
-#, kde-format
-msgctxt "weather condition"
-msgid "Breezy"
-msgstr "वायुमय"
-
-#: noaa_i18n.dat:11
-#, kde-format
-msgctxt "weather condition"
-msgid "Clear and Breezy"
-msgstr "निर्मलं वायुमयम् च"
-
-#: noaa_i18n.dat:12
-#, kde-format
-msgctxt "weather condition"
-msgid "Clear with Haze"
-msgstr "धुन्धेन सह निर्मलम्"
-
-#: noaa_i18n.dat:14
-#, kde-format
-msgctxt "weather condition"
-msgid "Drizzle Fog"
-msgstr "बूंदाबांदी कोहरा"
-
-#: noaa_i18n.dat:15
-#, kde-format
-msgctxt "weather condition"
-msgid "Drizzle Fog/Mist"
-msgstr "बूंदाबांदी कोहरा/धुंध"
-
-#: noaa_i18n.dat:16
-#, kde-format
-msgctxt "weather condition"
-msgid "Drizzle Ice Pellets"
-msgstr "बूंदाबांदी बर्फ गोलियां"
-
-#: noaa_i18n.dat:17
-#, kde-format
-msgctxt "weather condition"
-msgid "Drizzle Snow"
-msgstr "बूंदाबांदी हिम"
-
-#: noaa_i18n.dat:19
-#, kde-format
-msgctxt "weather condition"
-msgid "Dust/Sand Whirls"
-msgstr "धूल/वालुका भंवर"
-
-#: noaa_i18n.dat:20
-#, kde-format
-msgctxt "weather condition"
-msgid "Dust/Sand Whirls in Vicinity"
-msgstr "समीपस्थे धूलि/वालुका भंवर"
-
-#: noaa_i18n.dat:21
-#, kde-format
-msgctxt "weather condition"
-msgid "Dust Storm"
-msgstr "धूलतूफान"
-
-#: noaa_i18n.dat:22
-#, kde-format
-msgctxt "weather condition"
-msgid "Dust Storm in Vicinity"
-msgstr "समीपस्थे धूलितूफानम्"
-
-#: noaa_i18n.dat:23
-#, kde-format
-msgctxt "weather condition"
-msgid "Fair"
-msgstr "उचितः"
-
-#: noaa_i18n.dat:24
-#, kde-format
-msgctxt "weather condition"
-msgid "Fair and Breezy"
-msgstr "मेला च वायुमय च"
-
-#: noaa_i18n.dat:25
-#, kde-format
-msgctxt "weather condition"
-msgid "Fair and Windy"
-msgstr "मेला च वायुमयः च"
-
-#: noaa_i18n.dat:26
-#, kde-format
-msgctxt "weather condition"
-msgid "Fair with Haze"
-msgstr "धुन्धेन सह मेला"
-
-#: noaa_i18n.dat:28
-#, kde-format
-msgctxt "weather condition"
-msgid "Fog in Vicinity"
-msgstr "समीपस्थे नीहारः"
-
-#: noaa_i18n.dat:29
-#, kde-format
-msgctxt "weather condition"
-msgid "Fog/Mist"
-msgstr "कोहरा/कुहरा"
-
-#: noaa_i18n.dat:30
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Drizzle"
-msgstr "जमति बूंदाबांदी"
-
-#: noaa_i18n.dat:31
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Drizzle in Vicinity"
-msgstr "समीपस्थे हिमपातः"
-
-#: noaa_i18n.dat:32
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Drizzle Rain"
-msgstr "हिमपात बूंदाबांदी वर्षा"
-
-#: noaa_i18n.dat:33
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Drizzle Snow"
-msgstr "हिमपातः बूंदाबांदी हिम"
-
-#: noaa_i18n.dat:34
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Fog"
-msgstr "हिमपातः कोहरा"
-
-#: noaa_i18n.dat:35
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Fog in Vicinity"
-msgstr "समीपस्थे हिमपातः नीहारः"
-
-#: noaa_i18n.dat:36
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Rain"
-msgstr "हिमवृष्टिः"
-
-#: noaa_i18n.dat:37
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Rain in Vicinity"
-msgstr "समीपस्थे हिमवृष्टिः"
-
-#: noaa_i18n.dat:38
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Rain Rain"
-msgstr "हिमवृष्टि वर्षा"
-
-#: noaa_i18n.dat:39
-#, kde-format
-msgctxt "weather condition"
-msgid "Freezing Rain Snow"
-msgstr "हिमपातः वर्षा हिमः"
-
-#: noaa_i18n.dat:41
-#, kde-format
-msgctxt "weather condition"
-msgid "Funnel Cloud in Vicinity"
-msgstr "समीपस्थे कीपमेघः"
-
-#: noaa_i18n.dat:43
-#, kde-format
-msgctxt "weather condition"
-msgid "Hail Showers"
-msgstr "अश्मवृष्टिः"
-
-#: noaa_i18n.dat:47
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Drizzle Fog"
-msgstr "भारी बूंदाबांदी कोहरा"
-
-#: noaa_i18n.dat:48
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Drizzle Fog/Mist"
-msgstr "भारी बूंदाबांदी कोहरा/धुंध"
-
-#: noaa_i18n.dat:49
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Drizzle Ice Pellets"
-msgstr "भारी बूंदाबांदी बर्फ गोलियां"
-
-#: noaa_i18n.dat:50
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Drizzle Snow"
-msgstr "भारी बूंदाबांदी हिम"
-
-#: noaa_i18n.dat:51
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Dust Storm"
-msgstr "भारी धूलतूफान"
-
-#: noaa_i18n.dat:52
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Freezing Drizzle"
-msgstr "भारी हिमपात बूंदाबांदी"
-
-#: noaa_i18n.dat:53
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Freezing Drizzle Rain"
-msgstr "भारी हिमपात बूंदाबांदी वर्षा"
-
-#: noaa_i18n.dat:54
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Freezing Drizzle Snow"
-msgstr "भारी हिमपात बूंदाबांदी हिम"
-
-#: noaa_i18n.dat:55
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Freezing Fog"
-msgstr "भारी हिमपात कोहरा"
-
-#: noaa_i18n.dat:56
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Freezing Rain"
-msgstr "भारी हिमवृष्टि"
-
-#: noaa_i18n.dat:57
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Freezing Rain Rain"
-msgstr "भारी हिम वर्षा वर्षा"
-
-#: noaa_i18n.dat:58
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Freezing Rain Snow"
-msgstr "भारी हिम वर्षा हिम"
-
-#: noaa_i18n.dat:59
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Ice Pellets"
-msgstr "भारी हिमगोली"
-
-#: noaa_i18n.dat:60
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Ice Pellets Drizzle"
-msgstr "भारी हिमगोली बूंदाबांदी"
-
-#: noaa_i18n.dat:61
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Ice Pellets Rain"
-msgstr "भारी हिमगोली वर्षा"
-
-#: noaa_i18n.dat:63
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Fog"
-msgstr "भारी वर्षा कोहरा"
-
-#: noaa_i18n.dat:64
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Fog/Mist"
-msgstr "भारी वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:65
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Freezing Drizzle"
-msgstr "भारी वर्षा जमती बूंदाबांदी"
-
-#: noaa_i18n.dat:66
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Freezing Rain"
-msgstr "भारी वर्षा हिमवृष्टि"
-
-#: noaa_i18n.dat:67
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Ice Pellets"
-msgstr "भारी वर्षा हिमगोली"
-
-#: noaa_i18n.dat:68
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Showers"
-msgstr "भारी वर्षा वर्षा"
-
-#: noaa_i18n.dat:69
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Showers Fog/Mist"
-msgstr "भारी वर्षा वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:70
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Rain Snow"
-msgstr "भारी वर्षा हिम"
-
-#: noaa_i18n.dat:71
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Sand Storm"
-msgstr "भारी रेत तूफान"
-
-#: noaa_i18n.dat:72
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Showers Rain"
-msgstr "भारी वर्षा वर्षा"
-
-#: noaa_i18n.dat:73
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Showers Rain Fog/Mist"
-msgstr "भारी वर्षा वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:74
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Showers Snow"
-msgstr "भारी वर्षा हिम"
-
-#: noaa_i18n.dat:75
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Showers Snow Fog"
-msgstr "भारी वर्षा हिम कोहरा"
-
-#: noaa_i18n.dat:76
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Showers Snow Fog/Mist"
-msgstr "भारी वर्षा हिम कोहरा/धुंध"
-
-#: noaa_i18n.dat:77
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy small Hail/Snow Pellets"
-msgstr "भारी लघु ओला/हिमगोली"
-
-#: noaa_i18n.dat:79
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Blowing Snow"
-msgstr "भारी हिमपातः हिमम्"
-
-#: noaa_i18n.dat:80
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Fog"
-msgstr "भारी हिमकोहरा"
-
-#: noaa_i18n.dat:81
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Fog/Mist"
-msgstr "भारी हिम कोहरा/धुंध"
-
-#: noaa_i18n.dat:82
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Freezing Drizzle"
-msgstr "भारी हिम जमने बूंदाबांदी"
-
-#: noaa_i18n.dat:83
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Freezing Rain"
-msgstr "भारी हिम हिम वर्षा"
-
-#: noaa_i18n.dat:84
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Grains"
-msgstr "भारी हिमकणिका"
-
-#: noaa_i18n.dat:85
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Low Drifting Snow"
-msgstr "भारी हिम न्यून बहाव हिम"
-
-#: noaa_i18n.dat:86
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Rain"
-msgstr "प्रचण्ड हिमवृष्टिः"
-
-#: noaa_i18n.dat:87
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Showers"
-msgstr "भारी हिमवृष्टिः"
-
-#: noaa_i18n.dat:88
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Showers Fog"
-msgstr "भारी हिमवृष्टिः कोहरा"
-
-#: noaa_i18n.dat:89
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Snow Showers Fog/Mist"
-msgstr "भारी हिमवृष्टिः कोहरा/धुंधः"
-
-#: noaa_i18n.dat:90
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain"
-msgstr "भारी वज्रपात वर्षा"
-
-#: noaa_i18n.dat:91
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Fog"
-msgstr "भारी वज्रपात वर्षा कोहरा"
-
-#: noaa_i18n.dat:92
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Fog and Windy"
-msgstr "भारी वज्रपातः वर्षा नीहारः वायुः च"
-
-#: noaa_i18n.dat:93
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Fog/Mist"
-msgstr "भारी वज्रपात वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:94
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Hail"
-msgstr "भारी वज्रपात वर्षा ओला"
-
-#: noaa_i18n.dat:95
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Hail Fog"
-msgstr "भारी वज्रपात वर्षा ओला कोहरा"
-
-#: noaa_i18n.dat:96
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Hail Fog/Hail"
-msgstr "भारी वज्रपात वर्षा ओला कोहरा/ओला"
-
-#: noaa_i18n.dat:97
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Hail Haze"
-msgstr "भारी वज्रपात वर्षा ओला धुंध"
-
-#: noaa_i18n.dat:98
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Haze"
-msgstr "भारी वज्रपात वर्षा धुंध"
-
-#: noaa_i18n.dat:99
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Rain Small Hail/Snow Pellets"
-msgstr "भारी वज्रपात वर्षा लघु ओला/हिम गोलियां"
-
-#: noaa_i18n.dat:100
-#, kde-format
-msgctxt "weather condition"
-msgid "Heavy Thunderstorm Snow"
-msgstr "भारी वज्रपातः हिम"
-
-#: noaa_i18n.dat:103
-#, kde-format
-msgctxt "weather condition"
-msgid "Ice Pellets Drizzle"
-msgstr "हिम गोलियाँ बूंदाबांदी"
-
-#: noaa_i18n.dat:104
-#, kde-format
-msgctxt "weather condition"
-msgid "Ice Pellets in Vicinity"
-msgstr "समीपस्थे हिमगोलानि"
-
-#: noaa_i18n.dat:105
-#, kde-format
-msgctxt "weather condition"
-msgid "Ice Pellets Rain"
-msgstr "हिमगोली वर्षा"
-
-#: noaa_i18n.dat:107
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Drizzle Fog"
-msgstr "हल्की बूंदाबांदी कोहरा"
-
-#: noaa_i18n.dat:108
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Drizzle Fog/Mist"
-msgstr "हल्की बूंदाबांदी कोहरा/धुंध"
-
-#: noaa_i18n.dat:109
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Drizzle Ice Pellets"
-msgstr "हल्की बूंदाबांदी बर्फ गोलियां"
-
-#: noaa_i18n.dat:110
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Drizzle Snow"
-msgstr "हल्की बूंदाबांदी हिम"
-
-#: noaa_i18n.dat:112
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Freezing Drizzle Rain"
-msgstr "हल्के हिमपात बूंदाबांदी वर्षा"
-
-#: noaa_i18n.dat:113
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Freezing Drizzle Snow"
-msgstr "हल्कं हिमपात बूंदाबांदी हिम"
-
-#: noaa_i18n.dat:114
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Freezing Fog"
-msgstr "प्रकाशः हिमपातः कोहरा"
-
-#: noaa_i18n.dat:116
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Freezing Rain Rain"
-msgstr "हल्की हिम वर्षा वर्षा"
-
-#: noaa_i18n.dat:117
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Freezing Rain Snow"
-msgstr "लघु हिम वर्षा हिम"
-
-#: noaa_i18n.dat:118
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Ice Pellets"
-msgstr "हल्के हिमगोले"
-
-#: noaa_i18n.dat:119
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Ice Pellets Drizzle"
-msgstr "हल्के हिमगोले बूंदाबांदी"
-
-#: noaa_i18n.dat:120
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Ice Pellets Rain"
-msgstr "हल्कं हिमगोली वर्षा"
-
-#: noaa_i18n.dat:122
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain and Breezy"
-msgstr "लघु वर्षा तथा वायुमय"
-
-#: noaa_i18n.dat:123
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Fog"
-msgstr "हल्की वर्षा कोहरा"
-
-#: noaa_i18n.dat:124
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Fog/Mist"
-msgstr "हल्की वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:125
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Freezing Drizzle"
-msgstr "हल्की वर्षा जमती बूंदाबांदी"
-
-#: noaa_i18n.dat:126
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Freezing Rain"
-msgstr "हल्की वर्षा हिम वर्षा"
-
-#: noaa_i18n.dat:127
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Ice Pellets"
-msgstr "हल्की वर्षा हिम गोलियाँ"
-
-#: noaa_i18n.dat:128
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Showers"
-msgstr "हल्की वर्षा वर्षा"
-
-#: noaa_i18n.dat:129
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Showers Fog/Mist"
-msgstr "हल्की वर्षा वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:130
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Rain Snow"
-msgstr "लघु वर्षा हिम"
-
-#: noaa_i18n.dat:131
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Showers Rain"
-msgstr "लघु वर्षा वर्षा"
-
-#: noaa_i18n.dat:132
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Showers Rain Fog/Mist"
-msgstr "लघु वर्षा वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:133
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Showers Snow"
-msgstr "लघु वर्षा हिम"
-
-#: noaa_i18n.dat:134
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Showers Snow Fog"
-msgstr "लघु वर्षा हिम कोहरा"
-
-#: noaa_i18n.dat:135
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Showers Snow Fog/Mist"
-msgstr "लघु वर्षा हिम कोहरा/धुंध"
-
-#: noaa_i18n.dat:136
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Small Hail/Snow Pellets"
-msgstr "हल्के लघु ओला/हिमगोली"
-
-#: noaa_i18n.dat:138
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Blowing Snow"
-msgstr "लघु हिम उड्डी हिम"
-
-#: noaa_i18n.dat:139
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Blowing Snow Fog/Mist"
-msgstr "हल्की हिम उड्डाण हिम कोहरा/धुंध"
-
-#: noaa_i18n.dat:140
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Drizzle"
-msgstr "हल्की हिम बूंदाबांदी"
-
-#: noaa_i18n.dat:141
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Fog"
-msgstr "लघु हिम कोहरा"
-
-#: noaa_i18n.dat:142
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Fog/Mist"
-msgstr "लघु हिम कोहरा/धुंध"
-
-#: noaa_i18n.dat:143
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Freezing Drizzle"
-msgstr "हल्की हिम जमने बूंदाबांदी"
-
-#: noaa_i18n.dat:144
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Freezing Rain"
-msgstr "लघु हिम हिम वर्षा"
-
-#: noaa_i18n.dat:145
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Grains"
-msgstr "लघु हिमकणिका"
-
-#: noaa_i18n.dat:146
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Low Drifting Snow"
-msgstr "लघु हिम न्यून बहाव हिम"
-
-#: noaa_i18n.dat:147
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Rain"
-msgstr "लघु हिम वर्षा"
-
-#: noaa_i18n.dat:148
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Showers"
-msgstr "हल्के हिमवृष्टिः"
-
-#: noaa_i18n.dat:149
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Showers Fog"
-msgstr "हल्कं हिमवृष्टिः कोहरा"
-
-#: noaa_i18n.dat:150
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Snow Showers Fog/Mist"
-msgstr "हल्कं हिमवृष्टिः कोहरा/धुंधः"
-
-#: noaa_i18n.dat:151
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain"
-msgstr "हल्के वज्रपात वर्षा"
-
-#: noaa_i18n.dat:152
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Fog"
-msgstr "हल्के वज्रपात वर्षा कोहरा"
-
-#: noaa_i18n.dat:153
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Fog/Mist"
-msgstr "हल्के वज्रपात वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:154
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Hail"
-msgstr "हल्के वज्रपात वर्षा ओला"
-
-#: noaa_i18n.dat:155
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Hail Fog"
-msgstr "हल्के वज्रपात वर्षा ओला कोहरा"
-
-#: noaa_i18n.dat:156
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Hail Fog/Mist"
-msgstr "हल्के वज्रपात वर्षा ओला कोहरा/धुंध"
-
-#: noaa_i18n.dat:157
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Hail Haze"
-msgstr "हल्के वज्रपात वर्षा ओला धुंध"
-
-#: noaa_i18n.dat:158
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Haze"
-msgstr "हल्के वज्रपात वर्षा धुंध"
-
-#: noaa_i18n.dat:159
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Rain Small Hail/Snow Pellets"
-msgstr "हल्के वज्रपात वर्षा लघु ओला/हिम गोलियाँ"
-
-#: noaa_i18n.dat:160
-#, kde-format
-msgctxt "weather condition"
-msgid "Light Thunderstorm Snow"
-msgstr "लघु वज्रपात हिम"
-
-#: noaa_i18n.dat:161
-#, kde-format
-msgctxt "weather condition"
-msgid "Low Drifting Dust"
-msgstr "न्यून बहाव धूल"
-
-#: noaa_i18n.dat:162
-#, kde-format
-msgctxt "weather condition"
-msgid "Low Drifting Sand"
-msgstr "निम्न बहाव वाला रेत"
-
-#: noaa_i18n.dat:163
-#, kde-format
-msgctxt "weather condition"
-msgid "Low Drifting Snow"
-msgstr "न्यून बहाव हिम"
-
-#: noaa_i18n.dat:164
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Mostly Clear"
-msgctxt "weather condition"
-msgid "Mostly Clear"
-msgstr "अधिकांशतः निर्मलम्"
-
-#: noaa_i18n.dat:166
-#, kde-format
-msgctxt "weather condition"
-msgid "Mostly Cloudy and Breezy"
-msgstr "अधिकतया मेघयुक्तः वायुमयः च"
-
-#: noaa_i18n.dat:167
-#, kde-format
-msgctxt "weather condition"
-msgid "Mostly Cloudy and Windy"
-msgstr "प्रायः मेघयुक्तः वायुयुक्तः च"
-
-#: noaa_i18n.dat:168
-#, kde-format
-msgctxt "weather condition"
-msgid "Mostly Cloudy with Haze"
-msgstr "प्रायः धुन्धयुक्तः मेघयुक्तः"
-
-#: noaa_i18n.dat:169
-#, kde-format
-msgctxt "weather condition"
-msgid "Overcast"
-msgstr "मेघयुक्तः"
-
-#: noaa_i18n.dat:170
-#, kde-format
-msgctxt "weather condition"
-msgid "Overcast and Breezy"
-msgstr "मेघयुक्तः वायुमयः च"
-
-#: noaa_i18n.dat:171
-#, kde-format
-msgctxt "weather condition"
-msgid "Overcast and Windy"
-msgstr "मेघयुक्तः वायुमयः च"
-
-#: noaa_i18n.dat:172
-#, kde-format
-msgctxt "weather condition"
-msgid "Overcast with Haze"
-msgstr "धुन्धेन सह मेघयुक्तः"
-
-#: noaa_i18n.dat:173
-#, kde-format
-msgctxt "weather condition"
-msgid "Partial Fog"
-msgstr "आंशिक कोहरा"
-
-#: noaa_i18n.dat:174
-#, kde-format
-msgctxt "weather condition"
-msgid "Partial Fog in Vicinity"
-msgstr "समीपस्थे आंशिक कोहरा"
-
-#: noaa_i18n.dat:176
-#, kde-format
-msgctxt "weather condition"
-msgid "Partly Cloudy and Breezy"
-msgstr "आंशिकरूपेण मेघयुक्तः वायुमयः च"
-
-#: noaa_i18n.dat:177
-#, kde-format
-msgctxt "weather condition"
-msgid "Partly Cloudy and Windy"
-msgstr "आंशिकरूपेण मेघयुक्तः वायुयुक्तः च"
-
-#: noaa_i18n.dat:178
-#, kde-format
-msgctxt "weather condition"
-msgid "Partly Cloudy with Haze"
-msgstr "आंशिकरूपेण मेघयुक्तः धुन्धयुक्तः"
-
-#: noaa_i18n.dat:179
-#, kde-format
-msgctxt "weather condition"
-msgid "Patchy Freezing Fog"
-msgstr "खण्डित हिम कोहरा"
-
-#: noaa_i18n.dat:180
-#, kde-format
-msgctxt "weather condition"
-msgid "Patches of Fog"
-msgstr "नीहारस्य पट्टिकाः"
-
-#: noaa_i18n.dat:181
-#, kde-format
-msgctxt "weather condition"
-msgid "Patches of Fog in Vicinity"
-msgstr "समीपस्थे नीहारस्य पटलाः"
-
-#: noaa_i18n.dat:182
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Fog"
-msgstr "वर्षा कोहरा"
-
-#: noaa_i18n.dat:183
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Fog/Mist"
-msgstr "वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:184
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Freezing Drizzle"
-msgstr "वर्षा हिमपात बूंदाबांदी"
-
-#: noaa_i18n.dat:185
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Freezing Rain"
-msgstr "वर्षा हिमपात वर्षा"
-
-#: noaa_i18n.dat:186
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Ice Pellets"
-msgstr "वर्षा हिम गोलियाँ"
-
-#: noaa_i18n.dat:187
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Showers"
-msgstr "वर्षा वर्षा"
-
-#: noaa_i18n.dat:188
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Showers Fog/Mist"
-msgstr "वर्षा वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:189
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Showers in Vicinity"
-msgstr "समीपस्थे वर्षावृष्टिः"
-
-#: noaa_i18n.dat:190
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Showers in Vicinity Fog/Mist"
-msgstr "समीपस्थेषु वर्षा-वृष्टिः कोहरा/धुन्धः"
-
-#: noaa_i18n.dat:191
-#, kde-format
-msgctxt "weather condition"
-msgid "Rain Snow"
-msgstr "वर्षा हिम"
-
-#: noaa_i18n.dat:192
-#, kde-format
-msgctxt "weather condition"
-msgid "Sand"
-msgstr "वालुका"
-
-#: noaa_i18n.dat:193
-#, kde-format
-msgctxt "weather condition"
-msgid "Sand Storm"
-msgstr "रेत तूफान"
-
-#: noaa_i18n.dat:194
-#, kde-format
-msgctxt "weather condition"
-msgid "Sand Storm in Vicinity"
-msgstr "समीपस्थे रेततूफानम्"
-
-#: noaa_i18n.dat:196
-#, kde-format
-msgctxt "weather condition"
-msgid "Shallow Fog in Vicinity"
-msgstr "समीपस्थे उथले नीहारः"
-
-#: noaa_i18n.dat:197
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Hail"
-msgstr "वर्षा अला"
-
-#: noaa_i18n.dat:198
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Ice Pellets"
-msgstr "वर्षा हिमगोली"
-
-#: noaa_i18n.dat:199
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers in Vicinity Fog"
-msgstr "समीपस्थे नीहारे वर्षा"
-
-#: noaa_i18n.dat:200
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers in Vicinity Snow"
-msgstr "समीपस्थे हिमवृष्टिः"
-
-#: noaa_i18n.dat:201
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Rain"
-msgstr "वर्षा वर्षा"
-
-#: noaa_i18n.dat:202
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Rain Fog/Mist"
-msgstr "वर्षा वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:203
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Rain in Vicinity"
-msgstr "वर्षा समीपस्थे वर्षा"
-
-#: noaa_i18n.dat:204
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Rain in Vicinity Fog/Mist"
-msgstr "वर्षा वर्षा आसपास कोहरा/धुंध"
-
-#: noaa_i18n.dat:205
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Snow"
-msgstr "वर्षा हिम"
-
-#: noaa_i18n.dat:206
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Snow Fog"
-msgstr "वर्षा हिम कोहरा"
-
-#: noaa_i18n.dat:207
-#, kde-format
-msgctxt "weather condition"
-msgid "Showers Snow Fog/Mist"
-msgstr "वर्षा हिम कोहरा/धुंध"
-
-#: noaa_i18n.dat:208
-#, kde-format
-msgctxt "weather condition"
-msgid "Small Hail/Snow Pellets"
-msgstr "लघु ओला/हिमगोली"
-
-#: noaa_i18n.dat:211
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Blowing Snow"
-msgstr "हिम उड्डीयते हिम"
-
-#: noaa_i18n.dat:212
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Drizzle"
-msgstr "हिम बूंदाबांदी"
-
-#: noaa_i18n.dat:213
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Fog"
-msgstr "हिमकोहरा"
-
-#: noaa_i18n.dat:214
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Fog/Mist"
-msgstr "हिम कोहरा/धुंध"
-
-#: noaa_i18n.dat:215
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Freezing Drizzle"
-msgstr "हिम हिम बूंदाबांदी"
-
-#: noaa_i18n.dat:216
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Freezing Rain"
-msgstr "हिम हिम वर्षा"
-
-#: noaa_i18n.dat:218
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Low Drifting Snow"
-msgstr "हिम न्यून बहाव हिम"
-
-#: noaa_i18n.dat:219
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Rain"
-msgstr "हिमवृष्टिः"
-
-#: noaa_i18n.dat:220
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Showers"
-msgstr "हिमवृष्टिः"
-
-#: noaa_i18n.dat:221
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Showers Fog"
-msgstr "हिमवृष्टिः कोहरा"
-
-#: noaa_i18n.dat:222
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Showers Fog/Mist"
-msgstr "हिमवृष्टिः कोहरा/धुंधः"
-
-#: noaa_i18n.dat:223
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Showers in Vicinity"
-msgstr "समीपस्थेषु हिमवृष्टिः"
-
-#: noaa_i18n.dat:224
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Showers in Vicinity Fog"
-msgstr "समीपस्थे नीहारे हिमवृष्टिः"
-
-#: noaa_i18n.dat:225
-#, kde-format
-msgctxt "weather condition"
-msgid "Snow Showers in Vicinity Fog/Mist"
-msgstr "समीपस्थेषु हिमवृष्टिः कोहरा/धुन्धः"
-
-#: noaa_i18n.dat:227
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Fog"
-msgstr "वज्रपातः कोहरा"
-
-#: noaa_i18n.dat:228
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Hail"
-msgstr "वज्रपातः अश्म"
-
-#: noaa_i18n.dat:229
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Hail Fog"
-msgstr "वज्रपात ओला कोहरा"
-
-#: noaa_i18n.dat:230
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Haze in Vicinity"
-msgstr "समीपस्थे वज्रपातः धुन्धः"
-
-#: noaa_i18n.dat:231
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Haze in Vicinity Hail"
-msgstr "वज्रपातः धुन्धः समीपस्थे ओला"
-
-#: noaa_i18n.dat:232
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain"
-msgstr "वज्रपातः प्रचण्डवृष्टिः"
-
-#: noaa_i18n.dat:233
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain Fog"
-msgstr "वज्रपात भारी वर्षा कोहरा"
-
-#: noaa_i18n.dat:234
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain Fog/Mist"
-msgstr "वज्रपात भारी वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:235
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain Hail"
-msgstr "वज्रपात प्रचण्ड वर्षा ओला"
-
-#: noaa_i18n.dat:236
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain Hail Fog"
-msgstr "वज्रपात भारी वर्षा ओला कोहरा"
-
-#: noaa_i18n.dat:237
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain Hail Fog/Mist"
-msgstr "वज्रपात भारी वर्षा ओला कोहरा/धुंध"
-
-#: noaa_i18n.dat:238
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain Hail Haze"
-msgstr "वज्रपात भारी वर्षा ओला धुंध"
-
-#: noaa_i18n.dat:239
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Heavy Rain Haze"
-msgstr "वज्रपात प्रचण्ड वर्षा धुंध"
-
-#: noaa_i18n.dat:240
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Ice Pellets"
-msgstr "वज्रपातः हिमगोलानि"
-
-#: noaa_i18n.dat:241
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm in Vicinity"
-msgstr "समीपस्थे वज्रपातः"
-
-#: noaa_i18n.dat:242
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm in Vicinity Fog"
-msgstr "समीपस्थे नीहारे वज्रपातः"
-
-#: noaa_i18n.dat:243
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm in Vicinity Fog/Mist"
-msgstr "समीपस्थे वज्रपातः कोहरा/कुहरा"
-
-#: noaa_i18n.dat:244
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm in Vicinity Hail"
-msgstr "समीपस्थे वज्रपातः अश्म"
-
-#: noaa_i18n.dat:245
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm in Vicinity Hail Haze"
-msgstr "समीपस्थे वज्रपातः अला धुन्धः"
-
-#: noaa_i18n.dat:246
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm in Vicinity Haze"
-msgstr "समीपस्थे धुन्धे वज्रपातः"
-
-#: noaa_i18n.dat:247
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain"
-msgstr "वज्रपात लघु वर्षा"
-
-#: noaa_i18n.dat:248
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain Fog"
-msgstr "वज्रपात हल्की वर्षा कोहरा"
-
-#: noaa_i18n.dat:249
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain Fog/Mist"
-msgstr "वज्रपात हल्की वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:250
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain Hail"
-msgstr "वज्रपात लघु वर्षा ओला"
-
-#: noaa_i18n.dat:251
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain Hail Fog"
-msgstr "वज्रपात हल्की वर्षा ओला कोहरा"
-
-#: noaa_i18n.dat:252
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain Hail Fog/Mist"
-msgstr "वज्रपात हल्की वर्षा ओला कोहरा/धुंध"
-
-#: noaa_i18n.dat:253
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain Hail Haze"
-msgstr "वज्रपात लघु वर्षा ओला धुंध"
-
-#: noaa_i18n.dat:254
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Light Rain Haze"
-msgstr "वज्रपात लघु वर्षा धुंध"
-
-#: noaa_i18n.dat:255
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Rain"
-msgstr "वज्रपात वर्षा"
-
-#: noaa_i18n.dat:256
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Rain Fog/Mist"
-msgstr "वज्रपात वर्षा कोहरा/धुंध"
-
-#: noaa_i18n.dat:257
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Rain Hail Fog/Mist"
-msgstr "वज्रपात वर्षा ओला कोहरा/धुंध"
-
-#: noaa_i18n.dat:258
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Rain Small Hail/Snow Pellets"
-msgstr "वज्रपात वर्षा लघु ओला/हिम गोलियाँ"
-
-#: noaa_i18n.dat:259
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Showers in Vicinity"
-msgstr "समीपस्थे वज्रपातस्य वर्षा"
-
-#: noaa_i18n.dat:260
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Showers in Vicinity Hail"
-msgstr "समीपस्थेषु वज्रपातस्य वर्षा अला"
-
-#: noaa_i18n.dat:261
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Small Hail/Snow Pellets"
-msgstr "वज्रपातः लघु ओला/हिमगोली"
-
-#: noaa_i18n.dat:262
-#, kde-format
-msgctxt "weather condition"
-msgid "Thunderstorm Snow"
-msgstr "वज्रपातः हिम"
-
-#: noaa_i18n.dat:263
-#, kde-format
-msgctxt "weather condition"
-msgid "Tornado/Water Spout"
-msgstr "बवंडर/जल टोंटी"
-
-#: noaa_i18n.dat:264
-#, kde-format
-msgctxt "weather condition"
-msgid "Windy"
-msgstr "वातमय"
-
 #: noaa_i18n.dat:266
 #, kde-format
 msgctxt "weather forecast"
@@ -4879,14 +4724,6 @@ msgctxt "weather forecast"
 msgid "Mostly Clear"
 msgstr "अधिकांशतः निर्मलम्"
 
-#: noaa_i18n.dat:358
-#, fuzzy, kde-format
-#| msgctxt "weather forecast"
-#| msgid "Showers or thunderstorms"
-msgctxt "weahter forecast"
-msgid "Showers And Thunderstorms"
-msgstr "वर्षा वा वज्रपातः वा"
-
 #: noaa_i18n.dat:359
 #, fuzzy, kde-format
 #| msgctxt "weather forecast"
@@ -4910,3 +4747,166 @@ msgstr "वर्षाणां वा वज्रपातस्य वा �
 msgctxt "weather forecast"
 msgid "Showers And Thunderstorms Likely"
 msgstr "वज्रपातः सम्भाव्यते"
+
+#: bbcukmet_i18n.dat:100
+#, kde-format
+msgctxt "visibility"
+msgid "Excellent"
+msgstr "सर्वोत्कृष्ट"
+
+#: bbcukmet_i18n.dat:101
+#, kde-format
+msgctxt "visibility"
+msgid "Very Good"
+msgstr "अति उत्तम"
+
+#: bbcukmet_i18n.dat:102
+#, kde-format
+msgctxt "visibility"
+msgid "Good"
+msgstr "शोभन"
+
+#: bbcukmet_i18n.dat:103
+#, kde-format
+msgctxt "visibility"
+msgid "Moderate"
+msgstr "सन्तुलित"
+
+#: bbcukmet_i18n.dat:104
+#, kde-format
+msgctxt "visibility"
+msgid "Poor"
+msgstr "दुर्बल"
+
+#: bbcukmet_i18n.dat:105
+#, kde-format
+msgctxt "visibility"
+msgid "Very Poor"
+msgstr "अतीव दुर्बलं"
+
+#: ions/bbcukmet/ion_bbcukmet.cpp:697 ions/dwd/ion_dwd.cpp:511
+#, kde-format
+msgctxt "Short for Today"
+msgid "Today"
+msgstr "अद्य"
+
+#: ions/bbcukmet/ion_bbcukmet.cpp:697
+#, kde-format
+msgctxt "Short for Tonight"
+msgid "Tonight"
+msgstr "अद्यरात्री"
+
+#: ions/bbcukmet/ion_bbcukmet.cpp:718
+#, kde-format
+msgctxt "credit line, keep string short"
+msgid "Data from BBC Weather"
+msgstr "BBC Weather इत्यस्मात् आँकडा"
+
+#: ions/envcan/ion_envcan.cpp:1563
+#, kde-format
+msgctxt "credit line, keep string short"
+msgid "Data from Environment and Climate Change Canada"
+msgstr "पर्यावरणस्य जलवायुपरिवर्तनस्य च कनाडादेशस्य आँकडा"
+
+#: ions/dwd/ion_dwd.cpp:515 ions/envcan/ion_envcan.cpp:1507
+#, kde-format
+msgctxt "Short for Saturday"
+msgid "Sat"
+msgstr "उपविष्टवन्तः"
+
+#: ions/dwd/ion_dwd.cpp:516 ions/envcan/ion_envcan.cpp:1508
+#, kde-format
+msgctxt "Short for Sunday"
+msgid "Sun"
+msgstr "सूर्य"
+
+#: ions/dwd/ion_dwd.cpp:517 ions/envcan/ion_envcan.cpp:1509
+#, kde-format
+msgctxt "Short for Monday"
+msgid "Mon"
+msgstr "सोम"
+
+#: ions/dwd/ion_dwd.cpp:518 ions/envcan/ion_envcan.cpp:1510
+#, kde-format
+msgctxt "Short for Tuesday"
+msgid "Tue"
+msgstr "मंगलवार"
+
+#: ions/dwd/ion_dwd.cpp:519 ions/envcan/ion_envcan.cpp:1511
+#, kde-format
+msgctxt "Short for Wednesday"
+msgid "Wed"
+msgstr "बुध"
+
+#: ions/dwd/ion_dwd.cpp:520 ions/envcan/ion_envcan.cpp:1512
+#, kde-format
+msgctxt "Short for Thursday"
+msgid "Thu"
+msgstr "थु"
+
+#: ions/dwd/ion_dwd.cpp:521 ions/envcan/ion_envcan.cpp:1513
+#, kde-format
+msgctxt "Short for Friday"
+msgid "Fri"
+msgstr "शुक्र"
+
+#: ions/dwd/ion_dwd.cpp:546
+#, kde-format
+msgctxt "credit line, don't change name!"
+msgid "Source: Deutscher Wetterdienst"
+msgstr "स्रोतः : ड्यूशर् वेटरडिएन्स्ट्"
+
+#: ions/envcan/ion_envcan.cpp:1505
+#, kde-format
+msgctxt "Short for tonight"
+msgid "nite"
+msgstr "निते"
+
+#: ions/envcan/ion_envcan.cpp:1506
+#, kde-format
+msgctxt "Short for night, appended to the end of the weekday"
+msgid "nt"
+msgstr "nt"
+
+#: ions/envcan/ion_envcan.cpp:1537
+#, kde-format
+msgctxt "precipitation total, very little"
+msgid "Trace"
+msgstr "चिह्न"
+
+#: ions/noaa/ion_noaa.cpp:522
+#, kde-format
+msgctxt "credit line, keep string short)"
+msgid "Data from NOAA National Weather Service"
+msgstr "एनओएए राष्ट्रियमौसमसेवायाः आँकडा"
+
+#: ions/noaa/ion_noaa.cpp:658
+#. i18n: The forecast summary can include several single conditions that follow
+#. a temporary sequence, separated by " then ". Also include spaces if necessary.
+#. If there is no suitable separtor, a sentence separator might do.
+#, kde-format
+msgctxt ""
+"Separator between forecast conditions that follow a temporal sequence (ex. "
+"\"Rain then Sunny\")"
+msgid " then "
+msgstr " तदा "
+
+#: ions/wetter.com/ion_wettercom.cpp:362
+#, kde-format
+msgctxt "Geographical location: city, state, ISO-country-code"
+msgid "%1, %2, %3"
+msgstr "%1, %2, %3"
+
+#: ions/wetter.com/ion_wettercom.cpp:364
+#, kde-format
+msgctxt "Geographical location: quarter (city), state, ISO-country-code"
+msgid "%1 (%2), %3, %4"
+msgstr "%1 (%2), %3, %4"
+
+#: noaa_i18n.dat:358
+#, fuzzy, kde-format
+#| msgctxt "weather forecast"
+#| msgid "Showers or thunderstorms"
+msgctxt "weahter forecast"
+msgid "Showers And Thunderstorms"
+msgstr "वर्षा वा वज्रपातः वा"

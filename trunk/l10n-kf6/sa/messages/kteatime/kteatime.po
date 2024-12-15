@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kteatime package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
@@ -70,18 +70,6 @@ msgstr "डैनियल टेस्के"
 msgid "Many patches"
 msgstr "अनेकाः पटलाः"
 
-#: src/main.cpp:49
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#: src/main.cpp:49
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
 #: src/main.cpp:64
 #, kde-format
 msgid "Start a new tea with this time."
@@ -102,9 +90,9 @@ msgstr "--समयेन आरब्धस्य चायस्य कृत�
 msgid "name"
 msgstr "नामः"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, TimeEditWidget)
 #: src/main.cpp:79 src/tea.cpp:25 src/timeedit.cpp:36 src/timeedit.cpp:104
 #: src/timeedit.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, TimeEditWidget)
 #, kde-format
 msgid "Custom Tea"
 msgstr "कस्टम चाय"
@@ -129,84 +117,68 @@ msgstr "परिवर्तनं रक्षितं विना संव
 msgid "Show help page for this dialog."
 msgstr "अस्य संवादस्य कृते सहायतापृष्ठं दर्शयतु ।"
 
-#: src/settings.cpp:83
-#, kde-format
-msgctxt "Auto hide popup after"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " क्षण"
-msgstr[1] " सेकण्ड्"
-
-#: src/settings.cpp:84
-#, kde-format
-msgctxt "Reminder every"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " क्षण"
-msgstr[1] " सेकण्ड्"
-
-#. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup1)
 #: src/settings.ui:18
+#. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup1)
 #, kde-format
 msgid "Tea List"
 msgstr "चायसूची"
 
-#. i18n: ectx: property (title), widget (QGroupBox, teaPropertiesGroup)
 #: src/settings.ui:112
+#. i18n: ectx: property (title), widget (QGroupBox, teaPropertiesGroup)
 #, kde-format
 msgid "Tea Properties"
 msgstr "चाय गुणाः"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/settings.ui:118 src/tealistmodel.cpp:93
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Name"
 msgstr "नामः"
 
-#. i18n: ectx: property (text), widget (QLabel, label_7)
 #: src/settings.ui:132 src/tealistmodel.cpp:93
+#. i18n: ectx: property (text), widget (QLabel, label_7)
 #, kde-format
 msgid "Time"
 msgstr "कालः"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/settings.ui:149
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "min"
 msgstr "मि"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/settings.ui:166
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "sec"
 msgstr "सेक"
 
-#. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup2)
 #: src/settings.ui:189
+#. i18n: ectx: property (title), widget (QGroupBox, kbuttongroup2)
 #, kde-format
 msgid "Action"
 msgstr "नामपत्र"
 
-#. i18n: ectx: property (text), widget (QCheckBox, popupCheckBox)
 #: src/settings.ui:195
+#. i18n: ectx: property (text), widget (QCheckBox, popupCheckBox)
 #, kde-format
 msgid "Popup"
 msgstr "पॉपअप"
 
-#. i18n: ectx: property (text), widget (QCheckBox, autohideCheckBox)
 #: src/settings.ui:226
+#. i18n: ectx: property (text), widget (QCheckBox, autohideCheckBox)
 #, kde-format
 msgid "Auto hide popup after"
 msgstr "ततः परं स्वतः पॉपअपं गोपयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, reminderCheckBox)
 #: src/settings.ui:275
+#. i18n: ectx: property (text), widget (QCheckBox, reminderCheckBox)
 #, kde-format
 msgid "Reminder every"
 msgstr "स्मरणं प्रत्येकं"
 
-#. i18n: ectx: property (text), widget (QCheckBox, visualizeCheckBox)
 #: src/settings.ui:322
+#. i18n: ectx: property (text), widget (QCheckBox, visualizeCheckBox)
 #, kde-format
 msgid "Visualize progress in icon tray"
 msgstr "चिह्न ट्रे मध्ये प्रगतिम् कल्पयन्तु"
@@ -320,8 +292,8 @@ msgid_plural " seconds"
 msgstr[0] " क्षण"
 msgstr[1] " सेकण्ड्"
 
-#. i18n: ectx: property (text), widget (QLabel, minutesLabel_2)
 #: src/timeedit.ui:32
+#. i18n: ectx: property (text), widget (QLabel, minutesLabel_2)
 #, kde-format
 msgid "Tea time:"
 msgstr "चायसमयः : १."
@@ -381,12 +353,6 @@ msgstr "&आचारः..."
 msgid "No steeping tea."
 msgstr "न मग्नचायः।"
 
-#: src/toplevel.cpp:207
-#, kde-format
-msgctxt "%1 - name of the tea, %2 - the predefined time for the tea"
-msgid "%1 (%2)"
-msgstr "%1 (%2) २."
-
 #: src/toplevel.cpp:285 src/toplevel.cpp:390
 #, kde-format
 msgid "The Tea Cooker"
@@ -401,6 +367,40 @@ msgstr "%1 इदानीं सज्जम् अस्ति!"
 #, kde-format
 msgid "%1 is ready since %2!"
 msgstr "%1 सज्जः अस्ति यतः %2!"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: src/main.cpp:49
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: src/settings.cpp:83
+#, kde-format
+msgctxt "Auto hide popup after"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " क्षण"
+msgstr[1] " सेकण्ड्"
+
+#: src/settings.cpp:84
+#, kde-format
+msgctxt "Reminder every"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " क्षण"
+msgstr[1] " सेकण्ड्"
+
+#: src/toplevel.cpp:207
+#, kde-format
+msgctxt "%1 - name of the tea, %2 - the predefined time for the tea"
+msgid "%1 (%2)"
+msgstr "%1 (%2) २."
 
 #: src/toplevel.cpp:325
 #, kde-format

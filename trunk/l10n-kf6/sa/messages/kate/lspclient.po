@@ -9,7 +9,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
@@ -65,12 +65,13 @@ msgstr "LSP विरतारक् आरम्भस्य अनुरोध
 #: lspclientplugin.cpp:226
 #, kde-format
 msgid ""
-"Do you want the LSP server to be started?<br><br>The full command line is:"
-"<br><br><b>%1</b><br><br>The choice can be altered via the config page of "
-"the plugin."
+"Do you want the LSP server to be started?<br><br>The full command line "
+"is:<br><br><b>%1</b><br><br>The choice can be altered via the config page "
+"of the plugin."
 msgstr ""
-"किं भवान् इच्छति यत् LSP वितारक् आरभ्यताम्?<br><br>पूर्णा आदेशपङ्क्तिः अस्ति:<br><br><b>"
-"%1</b><br><br>प्लगिन् इत्यस्य विन्यासपृष्ठद्वारा विकल्पं परिवर्तयितुं शक्यते ।."
+"किं भवान् इच्छति यत् LSP वितारक् आरभ्यताम्?<br><br>पूर्णा आदेशपङ्क्तिः "
+"अस्ति:<br><br><b>%1</b><br><br>प्लगिन् इत्यस्य विन्यासपृष्ठद्वारा विकल्पं "
+"परिवर्तयितुं शक्यते ।."
 
 #: lspclientplugin.cpp:239
 #, kde-format
@@ -79,7 +80,8 @@ msgid ""
 "Use the config page of the plugin to undo this block."
 msgstr ""
 "उपयोक्त्रेण स्थायिरूपेण अवरुद्धः आरम्भः: '%1' ।\n"
-"एतत् खण्डं पूर्ववत् कर्तुं प्लगिन् इत्यस्य विन्यासपृष्ठस्य उपयोगं कुर्वन्तु ।."
+"एतत् खण्डं पूर्ववत् कर्तुं प्लगिन् इत्यस्य विन्यासपृष्ठस्य उपयोगं कुर्वन्तु "
+"।."
 
 #: lspclientpluginview.cpp:439 lspclientpluginview.cpp:679
 #, kde-format
@@ -182,8 +184,8 @@ msgstr "स्वतः समाप्ति सह हस्ताक्षर
 msgid "Include declaration in references"
 msgstr "सन्दर्भेषु घोषणां समावेशयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkComplParens)
 #: lspclientpluginview.cpp:565 lspconfigwidget.ui:103
+#. i18n: ectx: property (text), widget (QCheckBox, chkComplParens)
 #, kde-format
 msgid "Add parentheses upon function completion"
 msgstr "नियोज्य समाप्तौ कोष्ठकं योजयन्तु"
@@ -193,8 +195,8 @@ msgstr "नियोज्य समाप्तौ कोष्ठकं यो
 msgid "Show hover information"
 msgstr "भ्रमण् सूचनां दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkOnTypeFormatting)
 #: lspclientpluginview.cpp:571 lspconfigwidget.ui:47
+#. i18n: ectx: property (text), widget (QCheckBox, chkOnTypeFormatting)
 #, kde-format
 msgid "Format on typing"
 msgstr "टङ्कनसमये प्रारूपं कुर्वन्तु"
@@ -280,42 +282,6 @@ msgstr "रेखाः %1: "
 msgid "No results"
 msgstr "न परिणामः"
 
-#: lspclientpluginview.cpp:1570
-#, kde-format
-msgctxt "@title:tab"
-msgid "Definition: %1"
-msgstr "परिभाषा : %1"
-
-#: lspclientpluginview.cpp:1576
-#, kde-format
-msgctxt "@title:tab"
-msgid "Declaration: %1"
-msgstr "घोषणा : %1"
-
-#: lspclientpluginview.cpp:1582
-#, kde-format
-msgctxt "@title:tab"
-msgid "Type Definition: %1"
-msgstr "प्रकारपरिभाषा: %1"
-
-#: lspclientpluginview.cpp:1588
-#, kde-format
-msgctxt "@title:tab"
-msgid "References: %1"
-msgstr "सन्दर्भाः %1"
-
-#: lspclientpluginview.cpp:1600
-#, kde-format
-msgctxt "@title:tab"
-msgid "Implementation: %1"
-msgstr "कार्यान्वयनम् : %1"
-
-#: lspclientpluginview.cpp:1613
-#, kde-format
-msgctxt "@title:tab"
-msgid "Highlight: %1"
-msgstr "प्रकाशयन्तु: %1"
-
 #: lspclientpluginview.cpp:1637 lspclientpluginview.cpp:1648
 #: lspclientpluginview.cpp:1661
 #, kde-format
@@ -332,18 +298,6 @@ msgstr "आरोपण..."
 msgid "No edits"
 msgstr "सम्पादनं नास्ति"
 
-#: lspclientpluginview.cpp:1818
-#, kde-format
-msgctxt "@title:window"
-msgid "Rename"
-msgstr "नामान्तरितम्"
-
-#: lspclientpluginview.cpp:1819
-#, kde-format
-msgctxt "@label:textbox"
-msgid "New name (caution: not all references may be replaced)"
-msgstr "नूतनं नाम (सावधानी: सर्वे सन्दर्भाः प्रतिस्थापिताः न भवेयुः)"
-
 #: lspclientpluginview.cpp:1865
 #, kde-format
 msgid "Not enough results"
@@ -353,18 +307,6 @@ msgstr "न पर्याप्तं परिणामः"
 #, kde-format
 msgid "Corresponding Header/Source not found"
 msgstr "तत्सम्बद्धं शीर्षकं/स्रोतः न प्राप्तम्"
-
-#: lspclientpluginview.cpp:2130 lspclientpluginview.cpp:2173
-#, kde-format
-msgctxt "@info"
-msgid "LSP Server"
-msgstr "LSP वितारक्"
-
-#: lspclientpluginview.cpp:2196
-#, kde-format
-msgctxt "@info"
-msgid "LSP Client"
-msgstr "LSP ग्राहिका"
 
 #: lspclientpluginview.cpp:2439
 #, kde-format
@@ -466,172 +408,232 @@ msgstr "LSP सर्वरः प्रतीकरूपरेखायाः 
 msgid "No LSP server for this document."
 msgstr "अस्य दस्तावेजस्य कृते LSP वितारक् नास्ति ।."
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: lspconfigwidget.ui:33
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #, kde-format
 msgid "Client Settings"
 msgstr "ग्राहिका समयोजनानि"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkFmtOnSave)
 #: lspconfigwidget.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, chkFmtOnSave)
 #, kde-format
 msgid "Format on save"
 msgstr "रक्षणं कुर्वन् प्रारूपं करोति"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSemanticHighlighting)
 #: lspconfigwidget.ui:61
+#. i18n: ectx: property (text), widget (QCheckBox, chkSemanticHighlighting)
 #, kde-format
 msgid "Enable semantic highlighting"
 msgstr "शब्दार्थप्रकाशनं सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkInlayHint)
 #: lspconfigwidget.ui:68
+#. i18n: ectx: property (text), widget (QCheckBox, chkInlayHint)
 #, kde-format
 msgid "Enable inlay hints"
 msgstr "जड़न संकेतं सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: lspconfigwidget.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Completions:"
 msgstr "समाप्तयः :"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowCompl)
 #: lspconfigwidget.ui:82
+#. i18n: ectx: property (text), widget (QCheckBox, chkShowCompl)
 #, fuzzy, kde-format
 #| msgid "Completions:"
 msgid "Show completions"
 msgstr "समाप्तयः :"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkComplDoc)
 #: lspconfigwidget.ui:89
+#. i18n: ectx: property (text), widget (QCheckBox, chkComplDoc)
 #, kde-format
 msgid "Show inline docs for selected completion"
 msgstr "चयनितसमाप्त्यर्थं पङ्क्ति-अन्तर्गत-दस्तावेजाः दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSignatureHelp)
 #: lspconfigwidget.ui:96
+#. i18n: ectx: property (text), widget (QCheckBox, chkSignatureHelp)
 #, kde-format
 msgid "Show function signature when typing a function call"
 msgstr "नियोज्य आह्वान टङ्कयन्ते सति नियोज्यस्य हस्ताक्षरं दर्शयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkAutoImport)
 #: lspconfigwidget.ui:110
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoImport)
 #, kde-format
 msgid "Add imports automatically if needed upon completion"
 msgstr "समाप्तेः समये आवश्यकता चेत् स्वयमेव आयातान् योजयन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: lspconfigwidget.ui:117
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #, kde-format
 msgid "Navigation:"
 msgstr "मार्गण :"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkRefDeclaration)
 #: lspconfigwidget.ui:124
+#. i18n: ectx: property (text), widget (QCheckBox, chkRefDeclaration)
 #, kde-format
 msgid "Count declarations when searching for references to a symbol"
 msgstr "चिह्नस्य सन्दर्भान् अन्वेष्टुं घोषणां गणयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkAutoHover)
 #: lspconfigwidget.ui:131
+#. i18n: ectx: property (text), widget (QCheckBox, chkAutoHover)
 #, kde-format
 msgid "Show information about currently hovered symbol"
 msgstr "वर्तमानकाले भ्रमितचिह्नस्य विषये सूचनां दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkHighlightGoto)
 #: lspconfigwidget.ui:138
+#. i18n: ectx: property (text), widget (QCheckBox, chkHighlightGoto)
 #, kde-format
 msgid "Highlight target line when hopping to it"
 msgstr "तस्मिन् कूर्दने लक्ष्यरेखां प्रकाशयन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: lspconfigwidget.ui:145
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Server:"
 msgstr "वितारक् :"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkDiagnostics)
 #: lspconfigwidget.ui:152
+#. i18n: ectx: property (text), widget (QCheckBox, chkDiagnostics)
 #, kde-format
 msgid "Show program diagnostics"
 msgstr "कार्यक्रमनिदानं दर्शयतु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkMessages)
 #: lspconfigwidget.ui:159
+#. i18n: ectx: property (text), widget (QCheckBox, chkMessages)
 #, kde-format
 msgid "Show notifications from the LSP server"
 msgstr "LSP वितारकात सूचनाः दर्शयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkIncrementalSync)
 #: lspconfigwidget.ui:166
+#. i18n: ectx: property (text), widget (QCheckBox, chkIncrementalSync)
 #, kde-format
 msgid "Incrementally synchronize documents with the LSP server"
 msgstr "LSP वितारकेण् सह दस्तावेजान् क्रमेण समन्वययन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: lspconfigwidget.ui:173
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #, kde-format
 msgid "Document outline:"
 msgstr "दस्तावेजरूपरेखा :"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolSort)
 #: lspconfigwidget.ui:180
+#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolSort)
 #, kde-format
 msgid "Sort symbols alphabetically"
 msgstr "चिह्नानि वर्णमालानुसारं क्रमयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolDetails)
 #: lspconfigwidget.ui:187
+#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolDetails)
 #, kde-format
 msgid "Display additional details for symbols"
 msgstr "प्रतीकानाम् अतिरिक्तविवरणं प्रदर्शयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolTree)
 #: lspconfigwidget.ui:194
+#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolTree)
 #, kde-format
 msgid "Present symbols in a hierarchy instead of a flat list"
 msgstr "सपाटसूचिकायाः स्थाने श्रेणीक्रमे चिह्नानि प्रस्तुतानि कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolExpand)
 #: lspconfigwidget.ui:209
+#. i18n: ectx: property (text), widget (QCheckBox, chkSymbolExpand)
 #, kde-format
 msgid "Automatically expand tree"
 msgstr "स्वयमेव वृक्षस्य विस्तारं कुर्वन्तु"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: lspconfigwidget.ui:234
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #, kde-format
 msgid "Allowed && Blocked Servers"
 msgstr "अनुमत && अवरुद्ध वितारकाः"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: lspconfigwidget.ui:244
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #, kde-format
 msgid "User Server Settings"
 msgstr "उपयोक्तृवितारकसमयोजनानि"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: lspconfigwidget.ui:252
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Settings File:"
 msgstr "समयोजनानि सञ्चिका :"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: lspconfigwidget.ui:279
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #, kde-format
 msgid "Default Server Settings"
 msgstr "पूर्वनिर्धारित वितारक् समयोजनानि"
 
-#. i18n: ectx: Menu (LSPClient Menubar)
 #: ui.rc:6
+#. i18n: ectx: Menu (LSPClient Menubar)
 #, fuzzy, kde-format
 #| msgid "LSP Client"
 msgid "&LSP Client"
 msgstr "LSP ग्राहिका"
 
-#. i18n: ectx: Menu (lspclient_more_options)
 #: ui.rc:31
+#. i18n: ectx: Menu (lspclient_more_options)
 #, kde-format
 msgid "More Options"
 msgstr "अधिकविकल्पाः"
+
+#: lspclientpluginview.cpp:1570
+#, kde-format
+msgctxt "@title:tab"
+msgid "Definition: %1"
+msgstr "परिभाषा : %1"
+
+#: lspclientpluginview.cpp:1576
+#, kde-format
+msgctxt "@title:tab"
+msgid "Declaration: %1"
+msgstr "घोषणा : %1"
+
+#: lspclientpluginview.cpp:1582
+#, kde-format
+msgctxt "@title:tab"
+msgid "Type Definition: %1"
+msgstr "प्रकारपरिभाषा: %1"
+
+#: lspclientpluginview.cpp:1588
+#, kde-format
+msgctxt "@title:tab"
+msgid "References: %1"
+msgstr "सन्दर्भाः %1"
+
+#: lspclientpluginview.cpp:1600
+#, kde-format
+msgctxt "@title:tab"
+msgid "Implementation: %1"
+msgstr "कार्यान्वयनम् : %1"
+
+#: lspclientpluginview.cpp:1613
+#, kde-format
+msgctxt "@title:tab"
+msgid "Highlight: %1"
+msgstr "प्रकाशयन्तु: %1"
+
+#: lspclientpluginview.cpp:1818
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "नामान्तरितम्"
+
+#: lspclientpluginview.cpp:1819
+#, kde-format
+msgctxt "@label:textbox"
+msgid "New name (caution: not all references may be replaced)"
+msgstr "नूतनं नाम (सावधानी: सर्वे सन्दर्भाः प्रतिस्थापिताः न भवेयुः)"
+
+#: lspclientpluginview.cpp:2130 lspclientpluginview.cpp:2173
+#, kde-format
+msgctxt "@info"
+msgid "LSP Server"
+msgstr "LSP वितारक्"
+
+#: lspclientpluginview.cpp:2196
+#, kde-format
+msgctxt "@info"
+msgid "LSP Client"
+msgstr "LSP ग्राहिका"

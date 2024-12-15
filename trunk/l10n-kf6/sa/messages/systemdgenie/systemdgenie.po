@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the systemdgenie package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: systemdgenie\n"
@@ -13,22 +13,12 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
 #: src/main.cpp:38 src/mainwindow.cpp:50 src/mainwindow.ui:14
+#. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
 #, kde-format
 msgid "SystemdGenie"
 msgstr "SystemdGenie इति"
@@ -103,8 +93,8 @@ msgstr "व्याप्तयः"
 msgid "Slices"
 msgstr "स्लाइस्"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabTimers)
 #: src/mainwindow.cpp:68 src/mainwindow.ui:343
+#. i18n: ectx: attribute (title), widget (QWidget, tabTimers)
 #, kde-format
 msgid "Timers"
 msgstr "समयनिर्धारकाः"
@@ -239,36 +229,6 @@ msgstr "समयसमन्वयनसेटिंग्स्"
 msgid "Systemd user daemon configuration"
 msgstr "Systemd उपयोक्तृ-डेमन-विन्यासः"
 
-#: src/mainwindow.cpp:817 src/mainwindow.cpp:826
-#, kde-format
-msgctxt "First part of 'Total: %1, %2, %3'"
-msgid "1 unit"
-msgid_plural "%1 units"
-msgstr[0] "१ एककम्"
-msgstr[1] "%1 एककाः"
-
-#: src/mainwindow.cpp:819 src/mainwindow.cpp:828
-#, kde-format
-msgctxt "Second part of 'Total: %1, %2, %3'"
-msgid "1 active"
-msgid_plural "%1 active"
-msgstr[0] "१ सक्रियः"
-msgstr[1] "%1 सक्रियः"
-
-#: src/mainwindow.cpp:821 src/mainwindow.cpp:830
-#, kde-format
-msgctxt "Third part of 'Total: %1, %2, %3'"
-msgid "1 displayed"
-msgid_plural "%1 displayed"
-msgstr[0] "१ प्रदर्शितम्"
-msgstr[1] "%1 प्रदर्शितम्"
-
-#: src/mainwindow.cpp:823 src/mainwindow.cpp:832
-#, kde-format
-msgctxt "%1 is '%1 units' and %2 is '%2 active' and %3 is '%3 displayed'"
-msgid "Total: %1, %2, %3"
-msgstr "कुलम् : %1, %2, %3"
-
 #: src/mainwindow.cpp:857 src/mainwindow.cpp:1610
 #, kde-format
 msgid "Unable to authenticate/execute the action: %1"
@@ -278,12 +238,6 @@ msgstr "क्रियायाः प्रमाणीकरणं/निष�
 #, kde-format
 msgid "&Refresh"
 msgstr "&ताजगी"
-
-#: src/mainwindow.cpp:1039
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Refresh"
-msgstr "ताजगी"
 
 #: src/mainwindow.cpp:1045
 #, kde-format
@@ -330,44 +284,20 @@ msgstr "अनमास्क यूनिट"
 msgid "Re&load systemd"
 msgstr "पुनः&भार प्रणालीd"
 
-#: src/mainwindow.cpp:1094
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to reload all unit files"
-msgstr "सर्वाणि unit files पुनः लोड् कर्तुं क्लिक् कुर्वन्तु"
-
 #: src/mainwindow.cpp:1100
 #, kde-format
 msgid "Re-e&xecute systemd"
 msgstr "पुनः e&execute systemd"
-
-#: src/mainwindow.cpp:1101
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to re-execute the systemd daemon"
-msgstr "systemd डेमन् पुनः निष्पादयितुं क्लिक् कुर्वन्तु"
 
 #: src/mainwindow.cpp:1107
 #, kde-format
 msgid "Re&load user systemd"
 msgstr "पुनः&लोड उपयोक्ता systemd"
 
-#: src/mainwindow.cpp:1108
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to reload all user unit files"
-msgstr "सर्वाणि उपयोक्तृ-एकक-सञ्चिकाः पुनः लोड् कर्तुं क्लिक् कुर्वन्तु"
-
 #: src/mainwindow.cpp:1114
 #, kde-format
 msgid "Re-e&xecute user systemd"
 msgstr "पुनः e&execute user systemd"
-
-#: src/mainwindow.cpp:1115
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to re-execute the user systemd daemon"
-msgstr "उपयोक्तृ systemd डेमन् पुनः निष्पादयितुं क्लिक् कुर्वन्तु"
 
 #: src/mainwindow.cpp:1121
 #, kde-format
@@ -402,11 +332,11 @@ msgstr "ताला सत्रम्"
 #: src/mainwindow.cpp:1172
 #, kde-format
 msgid ""
-"KHelpCenter executable not found in path. Please install KHelpCenter to view "
-"man pages."
+"KHelpCenter executable not found in path. Please install KHelpCenter to "
+"view man pages."
 msgstr ""
-"KHelpCenter कार्यान्वयनीयः मार्गे न प्राप्तः । कृपया man पृष्ठानि द्रष्टुं KHelpCenter "
-"संस्थापयन्तु।"
+"KHelpCenter कार्यान्वयनीयः मार्गे न प्राप्तः । कृपया man पृष्ठानि द्रष्टुं "
+"KHelpCenter संस्थापयन्तु।"
 
 #: src/mainwindow.cpp:1303
 #, kde-format
@@ -497,108 +427,109 @@ msgstr ""
 "यूनिट् सञ्चिकां उद्घाटयितुं असफलम्:\n"
 "%1"
 
-#. i18n("Unit file successfully written."));
 #: src/mainwindow.cpp:1614
+#. i18n("Unit file successfully written."));
 #, kde-format
 msgid "%1: %2 successfully written..."
 msgstr "%1: %2 सफलतया लिखितम्..."
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabUnits)
 #: src/mainwindow.ui:52
+#. i18n: ectx: attribute (title), widget (QWidget, tabUnits)
 #, kde-format
 msgid "System Units"
 msgstr "प्रणाली इकाइयाँ"
 
+#: src/mainwindow.ui:58 src/mainwindow.ui:236
 #. i18n: ectx: property (text), widget (QLabel, lblUnitCount)
 #. i18n: ectx: property (text), widget (QLabel, lblUserUnitCount)
-#: src/mainwindow.ui:58 src/mainwindow.ui:236
 #, kde-format
 msgid "Overall stats:"
 msgstr "समग्ररूपेण आँकडा: १."
 
-#. i18n: ectx: property (toolTip), widget (QComboBox, cmbUnitTypes)
 #: src/mainwindow.ui:73
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbUnitTypes)
 #, kde-format
 msgid "<html><head/><body><p>Filter unit types.</p></body></html>"
 msgstr "<html><head/><body><p>एककप्रकाराः छानयन्तु।</p></body></html>"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkInactiveUnits)
 #: src/mainwindow.ui:83
+#. i18n: ectx: property (toolTip), widget (QCheckBox, chkInactiveUnits)
 #, kde-format
 msgid "<html><head/><body><p>Toggle show inactive units.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>निष्क्रिय-एककाः दर्शयन्तु इति टॉगल कुर्वन्तु ।</p></body></html>"
+"<html><head/><body><p>निष्क्रिय-एककाः दर्शयन्तु इति टॉगल कुर्वन्तु "
+"।</p></body></html>"
 
+#: src/mainwindow.ui:86 src/mainwindow.ui:176
 #. i18n: ectx: property (text), widget (QCheckBox, chkInactiveUnits)
 #. i18n: ectx: property (text), widget (QCheckBox, chkInactiveUserUnits)
-#: src/mainwindow.ui:86 src/mainwindow.ui:176
 #, kde-format
 msgid "Show inactive"
 msgstr "निष्क्रियं दर्शयतु"
 
+#: src/mainwindow.ui:96 src/mainwindow.ui:183
 #. i18n: ectx: property (text), widget (QCheckBox, chkUnloadedUnits)
 #. i18n: ectx: property (text), widget (QCheckBox, chkUnloadedUserUnits)
-#: src/mainwindow.ui:96 src/mainwindow.ui:183
 #, kde-format
 msgid "Show unloaded"
 msgstr "अवरोहितं दर्शयतु"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabUserUnits)
 #: src/mainwindow.ui:165
+#. i18n: ectx: attribute (title), widget (QWidget, tabUserUnits)
 #, kde-format
 msgid "User Units"
 msgstr "उपयोक्तृ-एककाः"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabConf)
 #: src/mainwindow.ui:244
+#. i18n: ectx: attribute (title), widget (QWidget, tabConf)
 #, kde-format
 msgid "Config Files"
 msgstr "सञ्चिकाः विन्यस्तं कुर्वन्तु"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tabSessions)
 #: src/mainwindow.ui:289
+#. i18n: ectx: attribute (title), widget (QWidget, tabSessions)
 #, kde-format
 msgid "Sessions"
 msgstr "सत्रम्"
 
-#. i18n: ectx: Menu (file)
 #: src/systemdgenieui.rc:10
+#. i18n: ectx: Menu (file)
 #, kde-format
 msgid "&File"
 msgstr "&संचिका"
 
-#. i18n: ectx: Menu (view)
 #: src/systemdgenieui.rc:13
+#. i18n: ectx: Menu (view)
 #, kde-format
 msgid "&View"
 msgstr "&दृश्यं"
 
-#. i18n: ectx: Menu (daemon)
 #: src/systemdgenieui.rc:17
+#. i18n: ectx: Menu (daemon)
 #, kde-format
 msgid "&Daemon"
 msgstr "&डेमनः"
 
-#. i18n: ectx: Menu (unit)
 #: src/systemdgenieui.rc:25
+#. i18n: ectx: Menu (unit)
 #, kde-format
 msgid "&Unit"
 msgstr "&इंकाईं"
 
-#. i18n: ectx: Menu (session)
 #: src/systemdgenieui.rc:41
+#. i18n: ectx: Menu (session)
 #, kde-format
 msgid "&Session"
 msgstr "&सत्र"
 
-#. i18n: ectx: ToolBar (unitToolBar)
 #: src/systemdgenieui.rc:49
+#. i18n: ectx: ToolBar (unitToolBar)
 #, kde-format
 msgid "Unit Toolbar"
 msgstr "इकाई साधनपट्टी"
 
-#. i18n: ectx: ToolBar (confFileToolBar)
 #: src/systemdgenieui.rc:56
+#. i18n: ectx: ToolBar (confFileToolBar)
 #, kde-format
 msgid "Config File Toolbar"
 msgstr "सञ्चिकासाधनपट्टिकां विन्यस्तं कुर्वन्तु"
@@ -667,3 +598,73 @@ msgstr "<hr><b>अन्तिम-लॉग-प्रविष्टयः : १
 #, kde-format
 msgid "<br><i>No log entries found for this unit.</i>"
 msgstr "<br><i>अस्य एककस्य कृते कोऽपि लॉग-प्रविष्टयः न प्राप्यन्ते ।</i>"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: src/mainwindow.cpp:817 src/mainwindow.cpp:826
+#, kde-format
+msgctxt "First part of 'Total: %1, %2, %3'"
+msgid "1 unit"
+msgid_plural "%1 units"
+msgstr[0] "१ एककम्"
+msgstr[1] "%1 एककाः"
+
+#: src/mainwindow.cpp:819 src/mainwindow.cpp:828
+#, kde-format
+msgctxt "Second part of 'Total: %1, %2, %3'"
+msgid "1 active"
+msgid_plural "%1 active"
+msgstr[0] "१ सक्रियः"
+msgstr[1] "%1 सक्रियः"
+
+#: src/mainwindow.cpp:821 src/mainwindow.cpp:830
+#, kde-format
+msgctxt "Third part of 'Total: %1, %2, %3'"
+msgid "1 displayed"
+msgid_plural "%1 displayed"
+msgstr[0] "१ प्रदर्शितम्"
+msgstr[1] "%1 प्रदर्शितम्"
+
+#: src/mainwindow.cpp:823 src/mainwindow.cpp:832
+#, kde-format
+msgctxt "%1 is '%1 units' and %2 is '%2 active' and %3 is '%3 displayed'"
+msgid "Total: %1, %2, %3"
+msgstr "कुलम् : %1, %2, %3"
+
+#: src/mainwindow.cpp:1039
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Refresh"
+msgstr "ताजगी"
+
+#: src/mainwindow.cpp:1094
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to reload all unit files"
+msgstr "सर्वाणि unit files पुनः लोड् कर्तुं क्लिक् कुर्वन्तु"
+
+#: src/mainwindow.cpp:1101
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to re-execute the systemd daemon"
+msgstr "systemd डेमन् पुनः निष्पादयितुं क्लिक् कुर्वन्तु"
+
+#: src/mainwindow.cpp:1108
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to reload all user unit files"
+msgstr "सर्वाणि उपयोक्तृ-एकक-सञ्चिकाः पुनः लोड् कर्तुं क्लिक् कुर्वन्तु"
+
+#: src/mainwindow.cpp:1115
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to re-execute the user systemd daemon"
+msgstr "उपयोक्तृ systemd डेमन् पुनः निष्पादयितुं क्लिक् कुर्वन्तु"

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdevelop package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
@@ -13,9 +13,20 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+
+#: contextbrowser.cpp:1558
+#, kde-format
+msgid "(changed)"
+msgstr "(परिवर्तितः) २."
+
+#: kdevcontextbrowser.rc:25
+#. i18n: ectx: ToolBar (KDevCodebrowserToolBar)
+#, kde-format
+msgid "Code Browser Toolbar"
+msgstr "कोड ब्राउज़र टूलबार"
 
 #: contextbrowser.cpp:161
 #, kde-format
@@ -29,6 +40,32 @@ msgctxt "@info:tooltip"
 msgid "Go forward in context history"
 msgstr "सन्दर्भ इतिहासे अग्रे गच्छतु"
 
+#: contextbrowser.cpp:191
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Navigate outline of active document, click to browse"
+msgstr ""
+"सक्रियदस्तावेजस्य रूपरेखां नेविगेट् कुर्वन्तु, ब्राउज् कर्तुं क्लिक् "
+"कुर्वन्तु"
+
+#: contextbrowserview.cpp:178
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show declaration menu"
+msgstr "घोषणा मेनू दर्शयतु"
+
+#: contextbrowserview.cpp:186
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Lock current view"
+msgstr "वर्तमानदृश्यं ताडयन्तु"
+
+#: contextbrowserview.cpp:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Unlock current view"
+msgstr "वर्तमानदृश्यं अनलॉकं कुर्वन्तु"
+
 #: contextbrowser.cpp:189
 #, kde-format
 msgctxt "item quick open item type"
@@ -40,12 +77,6 @@ msgstr "रूपरेखा"
 msgctxt "@info:placeholder"
 msgid "Outline"
 msgstr "रूपरेखा"
-
-#: contextbrowser.cpp:191
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Navigate outline of active document, click to browse"
-msgstr "सक्रियदस्तावेजस्य रूपरेखां नेविगेट् कुर्वन्तु, ब्राउज् कर्तुं क्लिक् कुर्वन्तु"
 
 #: contextbrowser.cpp:232
 #, kde-format
@@ -83,28 +114,11 @@ msgctxt "@action"
 msgid "Context Browser"
 msgstr "सन्दर्भ ब्राउजर"
 
-#: contextbrowser.cpp:293 contextbrowser.cpp:372 contextbrowserview.cpp:172
-#, kde-format
-msgctxt "@title:window"
-msgid "Code Browser"
-msgstr "कोड ब्राउज़र"
-
 #: contextbrowser.cpp:309
 #, kde-format
 msgctxt "@action"
 msgid "Find Uses"
 msgstr "उपयोगान् अन्वेष्टुम्"
-
-#: contextbrowser.cpp:1558
-#, kde-format
-msgid "(changed)"
-msgstr "(परिवर्तितः) २."
-
-#: contextbrowserview.cpp:178
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Show declaration menu"
-msgstr "घोषणा मेनू दर्शयतु"
 
 #: contextbrowserview.cpp:181
 #, kde-format
@@ -118,26 +132,14 @@ msgctxt "@action"
 msgid "Lock Current View"
 msgstr "वर्तमान दृश्यं ताडयन्तु"
 
-#: contextbrowserview.cpp:186
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Lock current view"
-msgstr "वर्तमानदृश्यं ताडयन्तु"
-
 #: contextbrowserview.cpp:187
 #, kde-format
 msgctxt "@action"
 msgid "Unlock Current View"
 msgstr "वर्तमान दृश्यं अनलॉक कुर्वन्तु"
 
-#: contextbrowserview.cpp:189
+#: contextbrowser.cpp:293 contextbrowser.cpp:372 contextbrowserview.cpp:172
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "Unlock current view"
-msgstr "वर्तमानदृश्यं अनलॉकं कुर्वन्तु"
-
-#. i18n: ectx: ToolBar (KDevCodebrowserToolBar)
-#: kdevcontextbrowser.rc:25
-#, kde-format
-msgid "Code Browser Toolbar"
-msgstr "कोड ब्राउज़र टूलबार"
+msgctxt "@title:window"
+msgid "Code Browser"
+msgstr "कोड ब्राउज़र"

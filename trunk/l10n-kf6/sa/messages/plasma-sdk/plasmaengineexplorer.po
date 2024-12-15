@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-sdk package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,20 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: engineexplorer.cpp:45
 #, kde-format
@@ -59,8 +49,8 @@ msgstr "दत्तांशस्रोत/कुंजी"
 msgid "Type"
 msgstr "प्रकारः"
 
-#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
 #: engineexplorer.cpp:176 serviceviewer.cpp:153 serviceviewer.ui:78
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
 #, kde-format
 msgid "Value"
 msgstr "मूल्यम्‌"
@@ -106,88 +96,50 @@ msgid_plural "<%1 items>"
 msgstr[0] "<१ मद>"
 msgstr[1] "<%1 द्रव्यम्>"
 
-#: engineexplorer.cpp:427
-#, kde-format
-msgctxt "The user did a query to a dataengine and it returned empty data"
-msgid "<empty>"
-msgstr "<रिक्त>"
-
-#: engineexplorer.cpp:433
-#, kde-format
-msgctxt ""
-"A the dataengine returned something that the humble view on the "
-"engineexplorer can't display, like a picture"
-msgid "<not displayable>"
-msgstr "<न प्रदर्श्यम्>"
-
-#: engineexplorer.cpp:487 engineexplorer.cpp:502
-#, kde-format
-msgctxt "Length of the list"
-msgid "<%1 item>"
-msgid_plural "<%1 items>"
-msgstr[0] "<%1 मद>"
-msgstr[1] "<%1 द्रव्यम्>"
-
-#: engineexplorer.cpp:517
-#, kde-format
-msgctxt "Size of the map"
-msgid "<%1 pair>"
-msgid_plural "<%1 pairs>"
-msgstr[0] "<%1 युग्मम्>"
-msgstr[1] "<%1 युग्मानि>"
-
-#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
 #: engineexplorer.cpp:530 engineexplorer.ui:29
+#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
 #, kde-format
 msgid "Plasma DataEngine Explorer"
 msgstr "प्लाज्मा डाटाइञ्जिन एक्सप्लोरर"
 
-#: engineexplorer.cpp:534
-#, kde-format
-msgctxt "The name of the engine followed by the number of data sources"
-msgid "%1 Engine - 1 data source"
-msgid_plural "%1 Engine - %2 data sources"
-msgstr[0] "%1 इञ्जिन - 1 दत्तांशस्रोतः"
-msgstr[1] "%1 इञ्जिन - %2 दत्तांशस्रोताः"
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_sourceRequester)
 #: engineexplorer.ui:50
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_sourceRequester)
 #, kde-format
 msgid "Source name"
 msgstr "स्रोतनाम"
 
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
 #: engineexplorer.ui:75
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
 #, kde-format
 msgid "Update on demand"
 msgstr "माङ्गल्यां अद्यतनं कुर्वन्तु"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
 #: engineexplorer.ui:81
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
 #, kde-format
 msgid " ms"
 msgstr " ms"
 
-#. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
 #: engineexplorer.ui:84
+#. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
 #, kde-format
 msgid "Update Every "
 msgstr "Update Every "
 
-#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
 #: engineexplorer.ui:100
+#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
 #, kde-format
 msgid "Request Source"
 msgstr "अनुरोध स्रोतः"
 
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_serviceRequester)
 #: engineexplorer.ui:120
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_serviceRequester)
 #, kde-format
 msgid "Service for source"
 msgstr "स्रोतस्य कृते सेवा"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
 #: engineexplorer.ui:133
+#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
 #, kde-format
 msgid "Request Service for Source"
 msgstr "स्रोतस्य कृते सेवां अनुरोधयन्तु"
@@ -275,17 +227,11 @@ msgstr "मिलीसेकेण्ड् मध्ये अन्तरा�
 #: main.cpp:77
 #, kde-format
 msgid ""
-"Only show engines associated with the parent application; maps to the X-KDE-"
-"ParentApp entry in the DataEngine's .desktop file."
+"Only show engines associated with the parent application; maps to the "
+"X-KDE-ParentApp entry in the DataEngine's .desktop file."
 msgstr ""
-"केवलं मातापितृ-अनुप्रयोगेन सह सम्बद्धानि इञ्जिनानि दर्शयन्तु; DataEngine इत्यस्य .desktop "
-"सञ्चिकायां X-KDE-ParentApp प्रविष्टिं प्रति नक्शाङ्कयति ।"
-
-#: modelviewer.cpp:85 serviceviewer.cpp:53
-#, kde-format
-msgctxt "Plasma engine with unknown name"
-msgid "Unknown"
-msgstr "अज्ञात"
+"केवलं मातापितृ-अनुप्रयोगेन सह सम्बद्धानि इञ्जिनानि दर्शयन्तु; DataEngine "
+"इत्यस्य .desktop सञ्चिकायां X-KDE-ParentApp प्रविष्टिं प्रति नक्शाङ्कयति ।"
 
 #: modelviewer.cpp:98
 #, kde-format
@@ -293,24 +239,13 @@ msgid ""
 "No valid model was returned. Verify that a model is available for this "
 "source."
 msgstr ""
-"कोऽपि वैधः प्रतिरूपः न प्रत्यागतः । अस्य स्रोतस्य कृते प्रतिरूपं उपलब्धम् इति सत्यापयन्तु ।"
-
-#: modelviewer.cpp:103
-#, kde-format
-msgctxt "%1 is a Plasma dataengine name"
-msgid "%1 Model Explorer"
-msgstr "%1 मॉडल एक्सप्लोरर"
+"कोऽपि वैधः प्रतिरूपः न प्रत्यागतः । अस्य स्रोतस्य कृते प्रतिरूपं उपलब्धम् "
+"इति सत्यापयन्तु ।"
 
 #: serviceviewer.cpp:27
 #, kde-format
 msgid "Start Operation"
 msgstr "संचालनम् आरभत"
-
-#: serviceviewer.cpp:54
-#, kde-format
-msgctxt "Plasma service with unknown name"
-msgid "Unknown"
-msgstr "अज्ञात"
 
 #: serviceviewer.cpp:69
 #, kde-format
@@ -319,20 +254,8 @@ msgid ""
 "source."
 msgstr "वैधसेवा न प्रत्यागतवती । अस्य स्रोतस्य कृते सेवा उपलब्धा इति सत्यापयन्तु ।"
 
-#: serviceviewer.cpp:74
-#, kde-format
-msgctxt "%1 is a Plasma service name"
-msgid "%1 Service Explorer"
-msgstr "%1 सेवा अन्वेषक"
-
-#: serviceviewer.cpp:77
-#, kde-format
-msgctxt "Source: name of the data, Service: writes data instead of fetching"
-msgid "Engine: <b>%1</b>; Source: <b>%2</b>; Service: <b>%3</b>"
-msgstr "इञ्जिनम् : <b>%1</b> ; स्रोतः <b>%2</b> ; सेवा: <b>%3</b>"
-
-#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
 #: serviceviewer.cpp:153 serviceviewer.ui:73
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
 #, kde-format
 msgid "Key"
 msgstr "कुंजी"
@@ -340,11 +263,11 @@ msgstr "कुंजी"
 #: serviceviewer.cpp:187
 #, kde-format
 msgid ""
-"<b>'%1'</b> operation with destination <b>'%2'</b> failed. <p>The error was: "
-"<b>'%3: %4'</b></p>"
+"<b>'%1'</b> operation with destination <b>'%2'</b> failed. <p>The error "
+"was: <b>'%3: %4'</b></p>"
 msgstr ""
-"गन्तव्यं <b>&#39;%2</b> &#39; सह <b>&#39;%1</b> &#39; कार्यं विफलम् ।<p> त्रुटिः "
-"आसीत् : <b>&#39;%3: %4&#39; ।</b></p>"
+"गन्तव्यं <b>&#39;%2</b> &#39; सह <b>&#39;%1</b> &#39; कार्यं विफलम् ।<p> "
+"त्रुटिः आसीत् : <b>&#39;%3: %4&#39; ।</b></p>"
 
 #: serviceviewer.cpp:193 serviceviewer.cpp:206
 #, kde-format
@@ -362,8 +285,8 @@ msgid ""
 "<b>'%1'</b> operation with destination <b>'%2'</b> returned successfully. "
 "<p>The result was: <b>'%3'</b></p>"
 msgstr ""
-"गन्तव्यं <b>&#39;%2&#39;</b> सह <b>&#39;%1&#39;</b> क्रिया सफलतया प्रत्यागतवती ।"
-"<p> परिणामः अभवत् : <b>&#39;%3&#39; ।</b></p>"
+"गन्तव्यं <b>&#39;%2&#39;</b> सह <b>&#39;%1&#39;</b> क्रिया सफलतया "
+"प्रत्यागतवती ।<p> परिणामः अभवत् : <b>&#39;%3&#39; ।</b></p>"
 
 #: serviceviewer.cpp:228
 #, kde-format
@@ -372,14 +295,14 @@ msgid_plural "%1 operations active…"
 msgstr[0] "एकं सक्रियं कार्यं..."
 msgstr[1] "%1 कार्याणि सक्रियम्..."
 
-#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
 #: serviceviewer.ui:39
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
 #, kde-format
 msgid "Opera&tion:"
 msgstr "संचालन:"
 
-#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
 #: serviceviewer.ui:86
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
 #, kde-format
 msgid "Operation count"
 msgstr "संचालन गणना"
@@ -388,3 +311,81 @@ msgstr "संचालन गणना"
 #, kde-format
 msgid "Data Engines"
 msgstr "डाटा इञ्जिन"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: engineexplorer.cpp:427
+#, kde-format
+msgctxt "The user did a query to a dataengine and it returned empty data"
+msgid "<empty>"
+msgstr "<रिक्त>"
+
+#: engineexplorer.cpp:433
+#, kde-format
+msgctxt ""
+"A the dataengine returned something that the humble view on the "
+"engineexplorer can't display, like a picture"
+msgid "<not displayable>"
+msgstr "<न प्रदर्श्यम्>"
+
+#: engineexplorer.cpp:487 engineexplorer.cpp:502
+#, kde-format
+msgctxt "Length of the list"
+msgid "<%1 item>"
+msgid_plural "<%1 items>"
+msgstr[0] "<%1 मद>"
+msgstr[1] "<%1 द्रव्यम्>"
+
+#: engineexplorer.cpp:517
+#, kde-format
+msgctxt "Size of the map"
+msgid "<%1 pair>"
+msgid_plural "<%1 pairs>"
+msgstr[0] "<%1 युग्मम्>"
+msgstr[1] "<%1 युग्मानि>"
+
+#: engineexplorer.cpp:534
+#, kde-format
+msgctxt "The name of the engine followed by the number of data sources"
+msgid "%1 Engine - 1 data source"
+msgid_plural "%1 Engine - %2 data sources"
+msgstr[0] "%1 इञ्जिन - 1 दत्तांशस्रोतः"
+msgstr[1] "%1 इञ्जिन - %2 दत्तांशस्रोताः"
+
+#: modelviewer.cpp:85 serviceviewer.cpp:53
+#, kde-format
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: modelviewer.cpp:103
+#, kde-format
+msgctxt "%1 is a Plasma dataengine name"
+msgid "%1 Model Explorer"
+msgstr "%1 मॉडल एक्सप्लोरर"
+
+#: serviceviewer.cpp:54
+#, kde-format
+msgctxt "Plasma service with unknown name"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: serviceviewer.cpp:74
+#, kde-format
+msgctxt "%1 is a Plasma service name"
+msgid "%1 Service Explorer"
+msgstr "%1 सेवा अन्वेषक"
+
+#: serviceviewer.cpp:77
+#, kde-format
+msgctxt "Source: name of the data, Service: writes data instead of fetching"
+msgid "Engine: <b>%1</b>; Source: <b>%2</b>; Service: <b>%3</b>"
+msgstr "इञ्जिनम् : <b>%1</b> ; स्रोतः <b>%2</b> ; सेवा: <b>%3</b>"

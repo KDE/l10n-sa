@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the parley package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,20 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: src/collection/containermodel.cpp:150
 #, kde-format
@@ -45,91 +35,86 @@ msgid ""
 "The vocabulary document contains no entries that can be used for the chosen "
 "type of practice."
 msgstr ""
-"शब्दावलीदस्तावेजे एतादृशाः प्रविष्टयः न सन्ति येषां उपयोगः चयनितप्रकारस्य अभ्यासस्य कृते कर्तुं "
-"शक्यते ।"
+"शब्दावलीदस्तावेजे एतादृशाः प्रविष्टयः न सन्ति येषां उपयोगः चयनितप्रकारस्य "
+"अभ्यासस्य कृते कर्तुं शक्यते ।"
 
-#. i18n: ectx: property (windowTitle), widget (QDialog, EntryFilterDialog)
 #: src/collection/entryfilterdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QDialog, EntryFilterDialog)
 #, kde-format
 msgid "Start Practice"
 msgstr "अभ्यासं आरभत"
 
-#. i18n: ectx: property (text), widget (QLabel, headerLabel)
 #: src/collection/entryfilterdialog.ui:20
+#. i18n: ectx: property (text), widget (QLabel, headerLabel)
 #, kde-format
 msgid ""
 "<p>Your selection of vocabulary for the practice is empty.</p><p>Below you "
-"can choose to ignore some of your configuration settings to start a practice "
-"anyway.</p>"
+"can choose to ignore some of your configuration settings to start a "
+"practice anyway.</p>"
 msgstr ""
-"<p>अभ्यासार्थं भवतः शब्दावलीचयनं शून्यम् अस्ति।</p><p> अधः भवान् तथापि अभ्यासं आरभ्य स्वस्य "
-"केचन विन्याससेटिंग्स् उपेक्षितुं चयनं कर्तुं शक्नोति ।</p>"
+"<p>अभ्यासार्थं भवतः शब्दावलीचयनं शून्यम् अस्ति।</p><p> अधः भवान् तथापि "
+"अभ्यासं आरभ्य स्वस्य केचन विन्याससेटिंग्स् उपेक्षितुं चयनं कर्तुं शक्नोति "
+"।</p>"
 
-#. i18n: ectx: property (title), widget (QGroupBox, ignoreGroupBox)
 #: src/collection/entryfilterdialog.ui:30
+#. i18n: ectx: property (title), widget (QGroupBox, ignoreGroupBox)
 #, kde-format
 msgid "Ignore Configuration for:"
 msgstr "कृते विन्यासम् अवहेलयन्तु:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, lessonCheckBox)
 #: src/collection/entryfilterdialog.ui:36
+#. i18n: ectx: property (text), widget (QCheckBox, lessonCheckBox)
 #, kde-format
 msgid "Ignore Lessons"
 msgstr "पाठानाम् अवहेलना कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, wordTypeCheckBox)
 #: src/collection/entryfilterdialog.ui:56
+#. i18n: ectx: property (text), widget (QCheckBox, wordTypeCheckBox)
 #, kde-format
 msgid "Ignore Word Types"
 msgstr "शब्दप्रकारानाम् अवहेलना कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, blockedCheckBox)
 #: src/collection/entryfilterdialog.ui:76
+#. i18n: ectx: property (text), widget (QCheckBox, blockedCheckBox)
 #, kde-format
 msgid "Ignore Blocked"
 msgstr "अवहेलना अवरुद्धम्"
 
-#. i18n: ectx: property (text), widget (QCheckBox, timesWrongCheckBox)
 #: src/collection/entryfilterdialog.ui:96
+#. i18n: ectx: property (text), widget (QCheckBox, timesWrongCheckBox)
 #, kde-format
 msgid "Ignore Times Answered Incorrectly"
 msgstr "अशुद्धरूपेण उत्तरं दत्तसमयानां अवहेलनां कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, timesPracticedCheckBox)
 #: src/collection/entryfilterdialog.ui:116
+#. i18n: ectx: property (text), widget (QCheckBox, timesPracticedCheckBox)
 #, kde-format
 msgid "Ignore Times Practiced"
 msgstr "अभ्यासस्य समयस्य अवहेलना"
 
-#. i18n: ectx: property (text), widget (QCheckBox, minMaxGradeCheckBox)
 #: src/collection/entryfilterdialog.ui:136
+#. i18n: ectx: property (text), widget (QCheckBox, minMaxGradeCheckBox)
 #, kde-format
 msgid "Ignore Minimum/Maximum Grade"
 msgstr "न्यूनतम/अधिकतम ग्रेडस्य अवहेलना कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, numberAffectedWordsLabel)
 #: src/collection/entryfilterdialog.ui:156
+#. i18n: ectx: property (text), widget (QLabel, numberAffectedWordsLabel)
 #, kde-format
 msgid "Number of Affected Words"
 msgstr "प्रभावितशब्दानां संख्या"
 
-#. i18n: ectx: property (text), widget (QLabel, documentTotalDescriptionLabel)
 #: src/collection/entryfilterdialog.ui:171
+#. i18n: ectx: property (text), widget (QLabel, documentTotalDescriptionLabel)
 #, kde-format
 msgid "Total number of entries:"
 msgstr "प्रविष्टीनां कुलसंख्या : १."
 
-#. i18n: ectx: property (text), widget (QLabel, totalDescriptionLabel)
 #: src/collection/entryfilterdialog.ui:192
+#. i18n: ectx: property (text), widget (QLabel, totalDescriptionLabel)
 #, kde-format
 msgid "Resulting number of words to practice:"
 msgstr "अभ्यासार्थं शब्दानां परिणामी संख्या : १."
-
-#: src/collection/lessonmodel.cpp:47
-#, kde-format
-msgctxt "display of the name of the vocabulary collection"
-msgid "Collection: %1"
-msgstr "संग्रहः %1"
 
 #: src/collection/readonlycontainermodel.cpp:131
 #, kde-format
@@ -171,8 +156,8 @@ msgstr "शब्दप्रकार (%1) २."
 msgid "Word Type"
 msgstr "शब्दप्रकारः"
 
-#. i18n: ectx: property (text), widget (QPushButton, synonymButton)
 #: src/collection/vocabularymodel.cpp:285 src/editor/synonymwidget.ui:26
+#. i18n: ectx: property (text), widget (QPushButton, synonymButton)
 #, kde-format
 msgid "Synonym"
 msgstr "समानार्थी शब्द"
@@ -225,7 +210,9 @@ msgstr "परवाक्यम्"
 #: src/collection/vocabularymodel.cpp:312
 #, kde-format
 msgid "Please use Edit -> Languages to set up your document."
-msgstr "कृपया स्वस्य दस्तावेजस्य सेटअपं कर्तुं Edit -> Languages इत्यस्य उपयोगं कुर्वन्तु ।"
+msgstr ""
+"कृपया स्वस्य दस्तावेजस्य सेटअपं कर्तुं Edit -> Languages इत्यस्य उपयोगं "
+"कुर्वन्तु ।"
 
 #: src/collection/vocabularymodel.cpp:312
 #, kde-format
@@ -270,20 +257,20 @@ msgstr "अभ्यासः तथापि"
 msgid "Practice"
 msgstr "अभ्यासः"
 
-#. i18n: ectx: property (text), widget (QLabel, recentLabel)
 #: src/dashboard/dashboard.cpp:225 src/dashboard/dashboard.ui:38
+#. i18n: ectx: property (text), widget (QLabel, recentLabel)
 #, kde-format
 msgid "Active Collections"
 msgstr "सक्रिय संग्रह"
 
-#. i18n: ectx: property (text), widget (QLabel, completedLabel)
 #: src/dashboard/dashboard.cpp:230 src/dashboard/dashboard.ui:77
+#. i18n: ectx: property (text), widget (QLabel, completedLabel)
 #, kde-format
 msgid "Completed Collections"
 msgstr "सम्पूर्ण संग्रह"
 
-#. i18n: ectx: property (text), widget (QPushButton, removeChoiceButton)
 #: src/dashboard/dashboard.cpp:278 src/editor/multiplechoicewidget.ui:28
+#. i18n: ectx: property (text), widget (QPushButton, removeChoiceButton)
 #, kde-format
 msgid "Remove"
 msgstr "अपाकरोति"
@@ -293,73 +280,73 @@ msgstr "अपाकरोति"
 msgid "Are you sure you want to remove this collection?"
 msgstr "किं भवन्तः निश्चितरूपेण एतत् संग्रहं हर्तुं इच्छन्ति?"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, Dashboard)
 #: src/dashboard/dashboard.ui:14 src/main.cpp:25
+#. i18n: ectx: property (windowTitle), widget (QWidget, Dashboard)
 #, kde-format
 msgid "Parley"
 msgstr "पार्ले"
 
-#. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: src/dashboard/dashboard.ui:120
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
 #, kde-format
 msgid "Create a New Collection..."
 msgstr "नूतनं संग्रहं रचयन्तु..."
 
-#. i18n: ectx: property (text), widget (QPushButton, openButton)
 #: src/dashboard/dashboard.ui:127
+#. i18n: ectx: property (text), widget (QPushButton, openButton)
 #, kde-format
 msgid "Open an Existing Collection..."
 msgstr "एकं विद्यमानं संग्रहं उद्घाटयन्तु..."
 
-#. i18n: ectx: property (text), widget (KNSWidgets::Button, ghnsButton)
 #: src/dashboard/dashboard.ui:134
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, ghnsButton)
 #, kde-format
 msgid "Download New Collections..."
 msgstr "नवीनसङ्ग्रहान् डाउनलोड् कुर्वन्तु..."
 
-#. i18n: ectx: property (text), widget (QLabel, headingLabel)
 #: src/dashboard/dashboard.ui:141
+#. i18n: ectx: property (text), widget (QLabel, headingLabel)
 #, kde-format
 msgid "<h1>Parley</h1>"
 msgstr "<h1>पार्ले</h1>"
 
-#. i18n: ectx: property (text), widget (QPushButton, playButton)
-#. i18n: ectx: property (text), widget (Practice::AudioButton, solutionSoundButton)
-#. i18n: ectx: property (text), widget (Practice::AudioButton, questionSoundButton)
 #: src/editor/audiowidget.ui:19 src/practice/audiobutton.cpp:19
 #: src/practice/audiobutton.cpp:20 src/practice/audiobutton.cpp:65
 #: src/practice/audiobutton.cpp:66 src/practice/practice_widget_flashcard.ui:48
 #: src/practice/practice_widget_flashcard.ui:103
+#. i18n: ectx: property (text), widget (QPushButton, playButton)
+#. i18n: ectx: property (text), widget (Practice::AudioButton, solutionSoundButton)
+#. i18n: ectx: property (text), widget (Practice::AudioButton, questionSoundButton)
 #, kde-format
 msgid "Play"
 msgstr "क्रीडतु"
 
-#. i18n: ectx: property (text), widget (QPushButton, recordButton)
 #: src/editor/audiowidget.ui:26
+#. i18n: ectx: property (text), widget (QPushButton, recordButton)
 #, kde-format
 msgid "Record"
 msgstr "अभिलेख"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, downloadButton)
 #: src/editor/audiowidget.ui:33
+#. i18n: ectx: property (toolTip), widget (QPushButton, downloadButton)
 #, kde-format
 msgid "Download audio file with webservice"
 msgstr "webservice इत्यनेन सह audio file डाउनलोड् कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QPushButton, downloadButton)
 #: src/editor/audiowidget.ui:36
+#. i18n: ectx: property (text), widget (QPushButton, downloadButton)
 #, kde-format
 msgid "Download"
 msgstr "अवाहरन"
 
-#. i18n: ectx: property (text), widget (QPushButton, showCurrentButton)
 #: src/editor/browserwidget.ui:18
+#. i18n: ectx: property (text), widget (QPushButton, showCurrentButton)
 #, kde-format
 msgid "Lookup Current"
 msgstr "वर्तमानं पश्यन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, followTableCheckBox)
 #: src/editor/browserwidget.ui:33
+#. i18n: ectx: property (text), widget (QCheckBox, followTableCheckBox)
 #, kde-format
 msgid "Follow Table"
 msgstr "सारणी अनुसरणं कुर्वन्तु"
@@ -374,243 +361,194 @@ msgstr "विशेषणानां शब्दप्रकारं नि�
 msgid "Could not determine word type of adverbs"
 msgstr "तद्धितानां शब्दप्रकारं निर्धारयितुं न शक्तवान्"
 
+#: src/editor/comparisonwidget.ui:24 src/editor/comparisonwidget.ui:56
 #. i18n: ectx: property (toolTip), widget (QLabel, absoluteLabel)
 #. i18n: ectx: property (toolTip), widget (QLabel, comparativeLabel)
-#: src/editor/comparisonwidget.ui:24 src/editor/comparisonwidget.ui:56
 #, kde-format
 msgid "The comparative is used to compare nouns or verbs (faster)"
 msgstr "संज्ञानां वा क्रियापदानां वा तुलनायां तुल्यः प्रयुज्यते (वेगतरम्) ।"
 
-#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
 #: src/editor/comparisonwidget.ui:27
+#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
 #, kde-format
 msgid "Absolute:"
 msgstr "निरपेक्षः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
 #: src/editor/comparisonwidget.ui:59
+#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
 #, kde-format
 msgid "Comparative:"
 msgstr "तुलनात्मकः : १."
 
-#. i18n: ectx: property (toolTip), widget (QLabel, superlativeLabel)
 #: src/editor/comparisonwidget.ui:88
+#. i18n: ectx: property (toolTip), widget (QLabel, superlativeLabel)
 #, kde-format
 msgid "The superlative (fastest)"
 msgstr "अतिशयोक्तिः (वेगतमः) २."
 
-#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
 #: src/editor/comparisonwidget.ui:91
+#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
 #, kde-format
 msgid "Superlative:"
 msgstr "अतिशयोक्तिः : १."
 
-#. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
 #: src/editor/comparisonwidget.ui:116 src/editor/inflectionwidget.cpp:42
 #: src/editor/wordtypeview.cpp:96 src/parleydocument.cpp:487
+#. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
 #, kde-format
 msgid "Adjective"
 msgstr "विशेषणं"
 
-#. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
 #: src/editor/comparisonwidget.ui:123 src/editor/wordtypeview.cpp:104
 #: src/parleydocument.cpp:491
+#. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
 #, kde-format
 msgid "Adverb"
 msgstr "क्रियाविशेषण"
 
+#: src/editor/conjugationwidget.ui:26 src/editor/declensionwidget.ui:26
+#: src/editor/FromToEntryPageForm.ui:20 src/settings/documentproperties.ui:20
+#: src/settings/optionlistform.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, DocumentProperties)
 #. i18n: ectx: property (windowTitle), widget (QWidget, OptionListForm)
 #. i18n: ectx: property (windowTitle), widget (QWidget, FromToEntryPageForm)
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConjugationWidget)
 #. i18n: ectx: property (windowTitle), widget (QWidget, DeclensionWidget)
-#: src/editor/conjugationwidget.ui:26 src/editor/declensionwidget.ui:26
-#: src/editor/FromToEntryPageForm.ui:20 src/settings/documentproperties.ui:20
-#: src/settings/optionlistform.ui:19
 #, kde-format
 msgid "-"
 msgstr "- ९."
 
-#. i18n: ectx: property (title), widget (QGroupBox, layout)
 #: src/editor/conjugationwidget.ui:32
+#. i18n: ectx: property (title), widget (QGroupBox, layout)
 #, kde-format
 msgid "Conjugation Forms"
 msgstr "संधिरूपाः"
 
+#: src/editor/conjugationwidget.ui:38 src/editor/conjugationwidget.ui:132
+#: src/editor/conjugationwidget.ui:209
 #. i18n: ectx: property (text), widget (QLabel, singularFirstPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualFirstPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, pluralFirstPersonLabel)
-#: src/editor/conjugationwidget.ui:38 src/editor/conjugationwidget.ui:132
-#: src/editor/conjugationwidget.ui:209
 #, kde-format
 msgid "First"
 msgstr "प्रथमः"
 
+#: src/editor/conjugationwidget.ui:61 src/editor/conjugationwidget.ui:148
+#: src/editor/conjugationwidget.ui:225
 #. i18n: ectx: property (text), widget (QLabel, singularSecondPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualSecondPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, pluralSecondPersonLabel)
-#: src/editor/conjugationwidget.ui:61 src/editor/conjugationwidget.ui:148
-#: src/editor/conjugationwidget.ui:225
 #, kde-format
 msgid "Second"
 msgstr "क्षण"
 
+#: src/editor/conjugationwidget.ui:84 src/editor/conjugationwidget.ui:164
+#: src/editor/conjugationwidget.ui:241
 #. i18n: ectx: property (text), widget (QLabel, singularThirdMalePersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualThirdMalePersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, pluralThirdMalePersonLabel)
-#: src/editor/conjugationwidget.ui:84 src/editor/conjugationwidget.ui:164
-#: src/editor/conjugationwidget.ui:241
 #, kde-format
 msgid "Third Male"
 msgstr "तृतीयः पुरुषः"
 
+#: src/editor/conjugationwidget.ui:100 src/editor/conjugationwidget.ui:177
+#: src/editor/conjugationwidget.ui:260
 #. i18n: ectx: property (text), widget (QLabel, singularThirdFemalePersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualThirdFemalePersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, pluralThirdFemalePersonLabel)
-#: src/editor/conjugationwidget.ui:100 src/editor/conjugationwidget.ui:177
-#: src/editor/conjugationwidget.ui:260
 #, kde-format
 msgid "Third Female"
 msgstr "तृतीया स्त्री"
 
+#: src/editor/conjugationwidget.ui:116 src/editor/conjugationwidget.ui:193
+#: src/editor/conjugationwidget.ui:279
 #. i18n: ectx: property (text), widget (QLabel, singularThirdNeutralPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, dualThirdNeutralPersonLabel)
 #. i18n: ectx: property (text), widget (QLabel, pluralThirdNeutralPersonLabel)
-#: src/editor/conjugationwidget.ui:116 src/editor/conjugationwidget.ui:193
-#: src/editor/conjugationwidget.ui:279
 #, kde-format
 msgid "Third Neutral"
 msgstr "तृतीय तटस्थ"
 
-#. i18n: ectx: property (text), widget (QPushButton, nextTenseButton)
 #: src/editor/conjugationwidget.ui:317
+#. i18n: ectx: property (text), widget (QPushButton, nextTenseButton)
 #, kde-format
 msgid "Ne&xt"
 msgstr "अग्रिम"
 
-#. i18n: ectx: property (text), widget (QLabel, tenselabel)
 #: src/editor/conjugationwidget.ui:330
+#. i18n: ectx: property (text), widget (QLabel, tenselabel)
 #, kde-format
 msgid "&Tense:"
 msgstr "&लकार:"
 
-#. i18n: ectx: property (text), widget (QLabel, male_label_3)
-#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
-#. i18n: ectx: property (text), widget (QLabel, singularLabel)
-#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
 #: src/editor/conjugationwidget.ui:349 src/editor/declensionwidget.cpp:120
 #: src/editor/declensionwidget.ui:459
 #: src/settings/languagepropertiespage.ui:378
 #: src/settings/languagepropertiespage.ui:486
+#. i18n: ectx: property (text), widget (QLabel, male_label_3)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
+#. i18n: ectx: property (text), widget (QLabel, singularLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
 #, kde-format
 msgid "Singular"
 msgstr "एकवचनम्"
 
-#. i18n: ectx: property (text), widget (QLabel, dualLabel)
-#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
 #: src/editor/conjugationwidget.ui:368 src/editor/declensionwidget.cpp:121
 #: src/editor/declensionwidget.ui:464
 #: src/settings/languagepropertiespage.ui:493
+#. i18n: ectx: property (text), widget (QLabel, dualLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
 #, kde-format
 msgid "Dual"
 msgstr "द्वयम्"
 
-#. i18n: ectx: property (text), widget (QLabel, male_label_4)
-#. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
-#. i18n: ectx: property (text), widget (QLabel, pluralLabel)
-#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
 #: src/editor/conjugationwidget.ui:387 src/editor/declensionwidget.cpp:122
 #: src/editor/declensionwidget.ui:469
 #: src/settings/languagepropertiespage.ui:388
 #: src/settings/languagepropertiespage.ui:500
+#. i18n: ectx: property (text), widget (QLabel, male_label_4)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
+#. i18n: ectx: property (text), widget (QLabel, pluralLabel)
+#. i18n: ectx: property (text), item, widget (QComboBox, numberSelection)
 #, kde-format
 msgid "Plural"
 msgstr "बहुवाचक"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/editor/declensionwidget.cpp:153 src/editor/declensionwidget.ui:185
 #: src/editor/inflectionwidget.cpp:114 src/parleydocument.cpp:473
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Masculine"
 msgstr "पुल्लिङ्गि"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/editor/declensionwidget.cpp:154 src/editor/declensionwidget.ui:271
 #: src/editor/inflectionwidget.cpp:116 src/parleydocument.cpp:476
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "Feminine"
 msgstr "स्त्रीलिङ्गम्"
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/editor/declensionwidget.cpp:155 src/editor/declensionwidget.ui:357
 #: src/editor/inflectionwidget.cpp:115 src/parleydocument.cpp:479
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #, kde-format
 msgid "Neuter"
 msgstr "नपुंसक"
 
-#. i18n: ectx: property (title), widget (QGroupBox, declensionGroupBox)
 #: src/editor/declensionwidget.ui:38
+#. i18n: ectx: property (title), widget (QGroupBox, declensionGroupBox)
 #, kde-format
 msgid "Declension Forms"
 msgstr "निपातन रूपम्"
 
-#. i18n: ectx: property (text), widget (QLabel, nominativeLabel)
-#: src/editor/declensionwidget.ui:52
-#, kde-format
-msgctxt "one of the seven cases (grammatical)"
-msgid "Nominative:"
-msgstr "नामवाचक : १."
-
-#. i18n: ectx: property (text), widget (QLabel, genitivLabel)
-#: src/editor/declensionwidget.ui:71
-#, kde-format
-msgctxt "one of the seven cases (grammatical)"
-msgid "Genitive:"
-msgstr "जन्यम् : १."
-
-#. i18n: ectx: property (text), widget (QLabel, dativLabel)
-#: src/editor/declensionwidget.ui:90
-#, kde-format
-msgctxt "one of the seven cases (grammatical)"
-msgid "Dative:"
-msgstr "कर्मधारयः : १."
-
-#. i18n: ectx: property (text), widget (QLabel, accusativeLabel)
-#: src/editor/declensionwidget.ui:109
-#, kde-format
-msgctxt "one of the seven cases (grammatical)"
-msgid "Accusative:"
-msgstr "अभियोगात्मकः : १."
-
-#. i18n: ectx: property (text), widget (QLabel, ablativLabel)
-#: src/editor/declensionwidget.ui:128
-#, kde-format
-msgctxt "one of the seven cases (grammatical)"
-msgid "Ablative:"
-msgstr "अब्लेटिवः : १."
-
-#. i18n: ectx: property (text), widget (QLabel, locativeLabel)
-#: src/editor/declensionwidget.ui:147
-#, kde-format
-msgctxt "one of the seven cases (grammatical)"
-msgid "Locative:"
-msgstr "स्थानिकम् : १."
-
-#. i18n: ectx: property (text), widget (QLabel, vocativeLabel)
-#: src/editor/declensionwidget.ui:166
-#, kde-format
-msgctxt "one of the seven cases (grammatical)"
-msgid "Vocative:"
-msgstr "व्यावसायिकः : १."
-
-#. i18n: ectx: property (text), widget (QLabel, numberLabel)
 #: src/editor/declensionwidget.ui:445
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
 #, kde-format
 msgid "Number:"
 msgstr "संख्या:"
 
-#. i18n: ectx: property (text), widget (QPushButton, nextButton)
 #: src/editor/declensionwidget.ui:477
+#. i18n: ectx: property (text), widget (QPushButton, nextButton)
 #, kde-format
 msgid "Next"
 msgstr "अग्रिम"
@@ -628,7 +566,8 @@ msgid ""
 "Only checked units [x] will be asked in the practice!"
 msgstr ""
 "यूनिट् योजयितुं, विलोपयितुं, नाम परिवर्तयितुं वा राइट् क्लिक् कुर्वन्तु । \n"
-"चेकबॉक्सैः सह भवान् केषां यूनिट्-अभ्यासं कर्तुम् इच्छति इति चिन्वितुं शक्नोति । \n"
+"चेकबॉक्सैः सह भवान् केषां यूनिट्-अभ्यासं कर्तुम् इच्छति इति चिन्वितुं "
+"शक्नोति । \n"
 "अभ्यासे केवलं चेक्ड् यूनिट् [x] एव पृष्टाः भविष्यन्ति!"
 
 #: src/editor/editor.cpp:163
@@ -641,23 +580,23 @@ msgstr "शब्दप्रकाराः"
 msgid "Inflection (verbs, adjectives, nouns)"
 msgstr "विभक्ति (कर्म, विशेषण, संज्ञा) २."
 
-#. i18n: ectx: property (text), widget (QRadioButton, comparisonForms)
 #: src/editor/editor.cpp:197 src/statistics/statisticsmainwindow.ui:135
+#. i18n: ectx: property (text), widget (QRadioButton, comparisonForms)
 #, kde-format
 msgid "Comparison Forms"
 msgstr "तुलनारूपाः"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/editor/editor.cpp:212
 #: src/practice/configure/specificpracticeoptions.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #, kde-format
 msgid "Multiple Choice"
 msgstr "बहुविकल्पः"
 
-#. i18n: ectx: property (text), widget (QLabel, synonymLabel)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/editor/editor.cpp:226 src/editor/synonymwidget.ui:16
 #: src/practice/configure/generalpracticeoptions.ui:152
+#. i18n: ectx: property (text), widget (QLabel, synonymLabel)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #, kde-format
 msgid "Synonyms"
 msgstr "समानार्थी शब्द"
@@ -687,9 +626,9 @@ msgstr "छवि"
 msgid "Summary"
 msgstr "संक्षेपः"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
 #: src/editor/editor.cpp:312
 #: src/practice/configure/generalpracticeoptions.ui:139
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PracticeSoundEnabled)
 #, kde-format
 msgid "Sound"
 msgstr "ध्वनि"
@@ -719,118 +658,118 @@ msgstr "भवतः शब्दावलीं अन्वेष्टुम�
 msgid "S&earch:"
 msgstr "अन्वेषण:"
 
-#. i18n: ectx: Menu (file)
 #: src/editor/editorui.rc:7 src/practice/practicesummaryui.rc:7
 #: src/practice/practiceui.rc:7 src/statistics/statisticsui.rc:7
+#. i18n: ectx: Menu (file)
 #, kde-format
 msgid "&File"
 msgstr "&संचिका"
 
-#. i18n: ectx: Menu (edit)
 #: src/editor/editorui.rc:12
+#. i18n: ectx: Menu (edit)
 #, kde-format
 msgid "&Edit"
 msgstr "&सम्पादन"
 
-#. i18n: ectx: Menu (view)
 #: src/editor/editorui.rc:25 src/practice/practiceui.rc:12
+#. i18n: ectx: Menu (view)
 #, kde-format
 msgid "&View"
 msgstr "&दृश्यं"
 
-#. i18n: ectx: Menu (lesson)
 #: src/editor/editorui.rc:51
+#. i18n: ectx: Menu (lesson)
 #, kde-format
 msgid "&Unit"
 msgstr "&इंकाईं"
 
-#. i18n: ectx: Menu (learning)
 #: src/editor/editorui.rc:65 src/practice/practicesummaryui.rc:12
 #: src/statistics/statisticsui.rc:12
+#. i18n: ectx: Menu (learning)
 #, kde-format
 msgid "&Practice"
 msgstr "&अभ्यासः"
 
-#. i18n: ectx: ToolBar (editorToolBar)
 #: src/editor/editorui.rc:72 src/parleyui.rc:24
+#. i18n: ectx: ToolBar (editorToolBar)
 #, kde-format
 msgid "Editor Toolbar"
 msgstr "सम्पादक साधनपट्टिका"
 
-#. i18n: ectx: property (title), widget (QGroupBox, direc_label)
 #: src/editor/FromToEntryPageForm.ui:26
+#. i18n: ectx: property (title), widget (QGroupBox, direc_label)
 #, kde-format
 msgid "Properties From Original"
 msgstr "गुणाः मूलतः"
 
-#. i18n: ectx: property (text), widget (QLabel, grade_label)
 #: src/editor/FromToEntryPageForm.ui:72
+#. i18n: ectx: property (text), widget (QLabel, grade_label)
 #, kde-format
 msgid "&Confidence Level:"
 msgstr "&विश्वासस्तरः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, fauxami_label)
 #: src/editor/FromToEntryPageForm.ui:95
+#. i18n: ectx: property (text), widget (QLabel, fauxami_label)
 #, kde-format
 msgid "&False friend:"
 msgstr "&मिथ्या मित्रः : १."
 
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
 #: src/editor/FromToEntryPageForm.ui:110
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
 #, kde-format
 msgid "Practice &Counts"
 msgstr "अभ्यास &गणना"
 
-#. i18n: ectx: property (text), widget (QLabel, bcount_label)
 #: src/editor/FromToEntryPageForm.ui:142
+#. i18n: ectx: property (text), widget (QLabel, bcount_label)
 #, kde-format
 msgid "&Wrong:"
 msgstr "&दोषपूर्णः:"
 
-#. i18n: ectx: property (text), widget (QLabel, qcount_label)
 #: src/editor/FromToEntryPageForm.ui:155
+#. i18n: ectx: property (text), widget (QLabel, qcount_label)
 #, kde-format
 msgid "Tot&al:"
 msgstr "कुल:"
 
-#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
 #: src/editor/FromToEntryPageForm.ui:171
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
 #, kde-format
 msgid "&Last Practiced"
 msgstr "&अन्तिम अभ्यास"
 
-#. i18n: ectx: property (text), widget (QPushButton, never)
 #: src/editor/FromToEntryPageForm.ui:183
+#. i18n: ectx: property (text), widget (QPushButton, never)
 #, kde-format
 msgid "&Never"
 msgstr "&कदापि न"
 
-#. i18n: ectx: property (text), widget (QPushButton, today)
 #: src/editor/FromToEntryPageForm.ui:190
+#. i18n: ectx: property (text), widget (QPushButton, today)
 #, kde-format
 msgid "T&oday"
 msgstr "अद्य"
 
-#. i18n: ectx: property (toolTip), widget (QDateEdit, queryDateEdit)
 #: src/editor/FromToEntryPageForm.ui:206
+#. i18n: ectx: property (toolTip), widget (QDateEdit, queryDateEdit)
 #, kde-format
 msgid "The date this expression was last practiced"
 msgstr "अस्य व्यञ्जनस्य अन्तिमवारं अभ्यासः कृतः इति तिथिः"
 
-#. i18n: ectx: property (specialValueText), widget (QDateEdit, queryDateEdit)
 #: src/editor/FromToEntryPageForm.ui:209
+#. i18n: ectx: property (specialValueText), widget (QDateEdit, queryDateEdit)
 #, kde-format
 msgid "Not Practiced Yet"
 msgstr "अद्यापि अभ्यासः न कृतः"
 
-#. i18n: ectx: property (displayFormat), widget (QDateEdit, queryDateEdit)
 #: src/editor/FromToEntryPageForm.ui:229
+#. i18n: ectx: property (displayFormat), widget (QDateEdit, queryDateEdit)
 #, kde-format
 msgid "dd.MM.yyyy"
 msgstr "द्द.म्.म्.यय्यय्"
 
-#. i18n: ectx: property (text), widget (QPushButton, resetGradesButton)
 #: src/editor/FromToEntryPageForm.ui:260
+#. i18n: ectx: property (text), widget (QPushButton, resetGradesButton)
 #, kde-format
 msgid "&Reset Confidence Levels"
 msgstr "&विश्वासस्तरं पुनः सेट् कुर्वन्तु"
@@ -852,33 +791,27 @@ msgstr "संज्ञा"
 msgid "\"%1\" is a:"
 msgstr "\"%1\" इति एक:"
 
-#: src/editor/inflectionwidget.cpp:124
-#, kde-format
-msgctxt "@title:window"
-msgid "Please select the noun's gender"
-msgstr "कृपया संज्ञायाः लिङ्गं चिनोतु"
-
 #: src/editor/latexwidget.cpp:22
 #, kde-format
 msgid "Enter LaTeX code here."
 msgstr "अत्र LaTeX कोडं प्रविशन्तु ।"
 
-#. i18n: ectx: property (text), widget (QLabel, texLabel)
 #: src/editor/latexwidget.ui:17
+#. i18n: ectx: property (text), widget (QLabel, texLabel)
 #, kde-format
 msgid "LaTeX code:"
 msgstr "LaTeX कोडः : १."
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/editor/latexwidget.ui:37
 #: src/settings/kgametheme/kgamethemeselector.ui:52
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Preview"
 msgstr "पूर्वावलोकनम्"
 
-#. i18n: ectx: property (text), widget (QCheckBox, mathModeCheckBox)
 #: src/editor/latexwidget.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, mathModeCheckBox)
 #, kde-format
 msgid "Math mode"
 msgstr "गणितविधिः"
@@ -976,10 +909,11 @@ msgstr "मूलपाठं लोपयितुं न शक्यते।
 #: src/editor/lessonview.cpp:200
 #, kde-format
 msgid "There is %1 word left in this unit. Do you want to delete it?"
-msgid_plural ""
-"There are %1 words left in this unit. Do you want to delete them?"
+msgid_plural "There are %1 words left in this unit. Do you want to delete them?"
 msgstr[0] "अस्मिन् एकके %1 शब्दः अवशिष्टः अस्ति । किं भवन्तः तत् विलोपयितुम् इच्छन्ति ?"
-msgstr[1] "अस्मिन् एकके %1 शब्दाः अवशिष्टाः सन्ति । किं भवन्तः तान् विलोपयितुम् इच्छन्ति ?"
+msgstr[1] ""
+"अस्मिन् एकके %1 शब्दाः अवशिष्टाः सन्ति । किं भवन्तः तान् विलोपयितुम् "
+"इच्छन्ति ?"
 
 #: src/editor/lessonview.cpp:221
 #, kde-format
@@ -991,57 +925,59 @@ msgstr "प्रति यूनिट् प्रविष्टयः"
 msgid ""
 "The unit will be split into smaller unit. How many entries in each unit do "
 "you want?"
-msgstr "एककं लघुएककेषु विभक्तं भविष्यति। प्रत्येकस्मिन् एकके कति प्रविष्टयः इच्छन्ति ?"
+msgstr ""
+"एककं लघुएककेषु विभक्तं भविष्यति। प्रत्येकस्मिन् एकके कति प्रविष्टयः "
+"इच्छन्ति ?"
 
 #: src/editor/lessonview.cpp:245
 #, kde-format
 msgid "New Lesson"
 msgstr "नवीनः पाठः"
 
-#. i18n: ectx: property (text), widget (QPushButton, addChoiceButton)
 #: src/editor/multiplechoicewidget.ui:21
+#. i18n: ectx: property (text), widget (QPushButton, addChoiceButton)
 #, kde-format
 msgid "Add"
 msgstr "संयोजयति"
 
-#. i18n: ectx: property (text), widget (QLabel, languageLabel)
 #: src/editor/summarywordwidget.ui:16
+#. i18n: ectx: property (text), widget (QLabel, languageLabel)
 #, kde-format
 msgid "Language"
 msgstr "भाषा"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/editor/summarywordwidget.ui:32
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Lesson"
 msgstr "पाठ"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/editor/summarywordwidget.ui:42
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Word type:"
 msgstr "शब्दप्रकारः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/editor/summarywordwidget.ui:55
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Pronunciation:"
 msgstr "उच्चारणं:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/editor/summarywordwidget.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "Example:"
 msgstr "उदाहरण:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/editor/summarywordwidget.ui:87
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #, kde-format
 msgid "Paraphrase:"
 msgstr "परवाक्यम् : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: src/editor/summarywordwidget.ui:103
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #, kde-format
 msgid "Comment:"
 msgstr "टिप्पणी:"
@@ -1080,32 +1016,6 @@ msgstr "%1 तथा %2 मिथ्यामित्रौ न सन्ति
 #, kde-format
 msgid "%1 and %2 are False Friends"
 msgstr "%1 तथा %2 मिथ्यामित्रौ स्तः"
-
-#: src/editor/synonymwidget.cpp:90
-#, kde-format
-msgctxt "Title for a list of synonyms for a word"
-msgid "Synonyms of %1:"
-msgstr "%1 के समानार्थी शब्द: १."
-
-#: src/editor/synonymwidget.cpp:93
-#, kde-format
-msgctxt "Title for a list of antonyms (opposites) for a word"
-msgid "Antonyms of %1:"
-msgstr "%1 इत्यस्य विलोम शब्दाः : १."
-
-#: src/editor/synonymwidget.cpp:97
-#, kde-format
-msgctxt ""
-"Title for a list of false friend (things that sound similar but have "
-"different meanings) for a word"
-msgid "False Friends of %1:"
-msgstr "%1 इत्यस्य मिथ्यामित्राः:"
-
-#: src/editor/vocabularycolumnsdialog.cpp:43
-#, kde-format
-msgctxt "@title:window"
-msgid "Vocabulary Columns"
-msgstr "शब्दावली स्तम्भ"
 
 #: src/editor/vocabularycolumnsdialog.cpp:58
 #, kde-format
@@ -1194,20 +1104,6 @@ msgstr "लुप्"
 msgid "Nothing to spell check."
 msgstr "वर्तनीपरीक्षायै किमपि नास्ति।"
 
-#: src/editor/vocabularyview.cpp:383
-#, kde-format
-msgctxt "@title of a popup"
-msgid "No Spell Checker Available"
-msgstr "कोऽपि वर्तनीपरीक्षकः उपलब्धः नास्ति"
-
-#: src/editor/vocabularyview.cpp:384
-#, kde-format
-msgctxt "@popupmessage"
-msgid ""
-"Either the language set up is incorrect or no spellchecker was installed for "
-"this locale: %1."
-msgstr "भाषासंस्थापनं अशुद्धम् अथवा अस्य स्थानस्य कृते वर्तनीपरीक्षकः संस्थापितः नासीत्: %1."
-
 #: src/editor/wordtypeview.cpp:31
 #, kde-format
 msgid "New"
@@ -1237,14 +1133,6 @@ msgstr "शब्दप्रकारं विलोपयन्तु"
 #, kde-format
 msgid "Delete the selected word type."
 msgstr "चयनितं शब्दप्रकारं विलोपयन्तु।"
-
-#: src/editor/wordtypeview.cpp:56
-#, kde-format
-msgctxt ""
-"Let the user select what grammatical meaning is connected to a word type "
-"(nouns have gender, verbs conjugations etc)"
-msgid "Grammar"
-msgstr "व्याकरणम्"
 
 #: src/editor/wordtypeview.cpp:58
 #, kde-format
@@ -1328,21 +1216,16 @@ msgstr "मूलशब्दप्रकारः लोपयितुं न 
 
 #: src/editor/wordtypeview.cpp:219
 #, kde-format
-msgid ""
-"There is a word left with this word type. It will lose its type. Continue?"
+msgid "There is a word left with this word type. It will lose its type. Continue?"
 msgid_plural ""
-"There are %1 words left with this word type. They will lose their word type. "
-"Continue?"
+"There are %1 words left with this word type. They will lose their word "
+"type. Continue?"
 msgstr[0] ""
-"अनेन शब्दप्रकारेण सह एकः शब्दः अवशिष्टः अस्ति। तस्य प्रकारः नष्टः भविष्यति। अनुवर्तते?"
+"अनेन शब्दप्रकारेण सह एकः शब्दः अवशिष्टः अस्ति। तस्य प्रकारः नष्टः भविष्यति। "
+"अनुवर्तते?"
 msgstr[1] ""
-"एतेन शब्दप्रकारेण सह %1 शब्दाः अवशिष्टाः सन्ति । तेषां शब्दप्रकारः नष्टः भविष्यति। अनुवर्तते?"
-
-#: src/exportdialog.cpp:53
-#, kde-format
-msgctxt "@title:window"
-msgid "Export"
-msgstr "निर्यात"
+"एतेन शब्दप्रकारेण सह %1 शब्दाः अवशिष्टाः सन्ति । तेषां शब्दप्रकारः नष्टः "
+"भविष्यति। अनुवर्तते?"
 
 #: src/exportdialog.cpp:79
 #, kde-format
@@ -1364,26 +1247,26 @@ msgstr "निर्यात As"
 msgid "Untitled"
 msgstr "अनामिका"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, ExportOptions)
 #: src/exportdialog.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExportOptions)
 #, kde-format
 msgid "Export"
 msgstr "निर्यात"
 
-#. i18n: ectx: property (text), widget (QRadioButton, flashCardRadio)
 #: src/exportdialog.ui:20
+#. i18n: ectx: property (text), widget (QRadioButton, flashCardRadio)
 #, kde-format
 msgid "Flash Cards - to print learning cards (HTML)"
 msgstr "Flash Cards - शिक्षणपत्राणि (HTML) मुद्रयितुं"
 
-#. i18n: ectx: property (text), widget (QRadioButton, tableRadio)
 #: src/exportdialog.ui:30
+#. i18n: ectx: property (text), widget (QRadioButton, tableRadio)
 #, kde-format
 msgid "A vocabulary list that works in a web-browser and can be printed (HTML)"
 msgstr "जालपुटे कार्यं कुर्वन् मुद्रयितुं शक्यते (HTML) इति शब्दावलीसूची ।"
 
-#. i18n: ectx: property (text), widget (QRadioButton, csvRadio)
 #: src/exportdialog.ui:40
+#. i18n: ectx: property (text), widget (QRadioButton, csvRadio)
 #, kde-format
 msgid "Comma separated values (CSV)"
 msgstr "अल्पविरामेन पृथक्कृतानि मूल्यानि (CSV) ."
@@ -1623,8 +1506,7 @@ msgstr "&भाषा..."
 
 #: src/parleyactions.cpp:142
 #, kde-format
-msgid ""
-"Edit which languages are in the collection and their grammar properties."
+msgid "Edit which languages are in the collection and their grammar properties."
 msgstr "संग्रहे काः भाषाः सन्ति, तेषां व्याकरणगुणाः च सम्पादयन्तु ।"
 
 #: src/parleyactions.cpp:151
@@ -1647,8 +1529,8 @@ msgstr "प्रत्येकस्मिन् एकके बाल-एक
 msgid "Automatic Translation"
 msgstr "स्वचालित अनुवाद"
 
-#. i18n: ectx: label, entry (AutomaticTranslation), group (General)
 #: src/parleyactions.cpp:174 src/settings/parley.kcfg:50
+#. i18n: ectx: label, entry (AutomaticTranslation), group (General)
 #, kde-format
 msgid "Enable automatic translation of the unit entries."
 msgstr "एककप्रविष्टीनां स्वचालितं अनुवादं सक्षमं कुर्वन्तु।"
@@ -1703,18 +1585,6 @@ msgstr "Se&arch दर्शयतु"
 msgid "Toggle display of the search bar"
 msgstr "अन्वेषणपट्टिकायाः प्रदर्शनं टॉगल कुर्वन्तु"
 
-#: src/parleydocument.cpp:122 src/parleydocument.cpp:578
-#, kde-format
-msgctxt "@title:window document properties"
-msgid "Properties for %1"
-msgstr "%1 कृते गुणाः"
-
-#: src/parleydocument.cpp:159
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Vocabulary Collection"
-msgstr "मुक्त शब्दावली संग्रह"
-
 #: src/parleydocument.cpp:160
 #, kde-format
 msgid "Open in practice &mode"
@@ -1724,13 +1594,14 @@ msgstr "व्यवहारे &mode इत्यत्र उद्घाट�
 #, kde-format
 msgid ""
 "The vocabulary collection is locked by another process.  You can open the "
-"file if you take over the lock, but you will lose any changes from the other "
-"process.\n"
+"file if you take over the lock, but you will lose any changes from the "
+"other process.\n"
 "\n"
 "Do you want to take over the lock?\n"
 msgstr ""
-"शब्दावलीसङ्ग्रहः अन्येन प्रक्रियायाः कृते ताडितः भवति।  यदि भवान् तालं गृह्णाति तर्हि "
-"सञ्चिकां उद्घाटयितुं शक्नोति, परन्तु अन्यप्रक्रियायाः परिवर्तनं नष्टं करिष्यति ।\n"
+"शब्दावलीसङ्ग्रहः अन्येन प्रक्रियायाः कृते ताडितः भवति।  यदि भवान् तालं "
+"गृह्णाति तर्हि सञ्चिकां उद्घाटयितुं शक्नोति, परन्तु अन्यप्रक्रियायाः "
+"परिवर्तनं नष्टं करिष्यति ।\n"
 "\n"
 "किं त्वं तालं ग्रहीतुं इच्छसि ?\n"
 
@@ -1744,12 +1615,6 @@ msgstr "ताले अधिग्रहणं कुर्वन्तु"
 msgid "Opening collection \"%1\" resulted in an error: %2"
 msgstr "\"%1\" संग्रहं उद्घाट्य त्रुटिः अभवत्: %2"
 
-#: src/parleydocument.cpp:236
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Collection"
-msgstr "मुक्त संग्रह"
-
 #: src/parleydocument.cpp:264
 #, kde-format
 msgid ""
@@ -1761,12 +1626,6 @@ msgstr ""
 "\n"
 "निर्गमनपूर्वं सञ्चिकां रक्षतु?\n"
 
-#: src/parleydocument.cpp:297
-#, kde-format
-msgctxt "@title:window"
-msgid "Open Downloaded Vocabulary Collection"
-msgstr "Open Downloaded शब्दावली संग्रह"
-
 #: src/parleydocument.cpp:336 src/parleydocument.cpp:424
 #, kde-format
 msgid ""
@@ -1775,8 +1634,9 @@ msgid ""
 "\n"
 "Do you want to take over the lock?\n"
 msgstr ""
-"\"%1\" सञ्चिका अन्येन प्रक्रियाया ताडिता अस्ति ।  यदि भवान् तालं गृह्णाति तर्हि "
-"सञ्चिकायां रक्षितुं शक्नोति, परन्तु अन्यप्रक्रियायाः परिवर्तनं नष्टं करिष्यति ।\n"
+"\"%1\" सञ्चिका अन्येन प्रक्रियाया ताडिता अस्ति ।  यदि भवान् तालं गृह्णाति "
+"तर्हि सञ्चिकायां रक्षितुं शक्नोति, परन्तु अन्यप्रक्रियायाः परिवर्तनं नष्टं "
+"करिष्यति ।\n"
 "\n"
 "किं त्वं तालं ग्रहीतुं इच्छसि ?\n"
 
@@ -1785,44 +1645,27 @@ msgstr ""
 msgid "Writing file \"%1\" resulted in an error: %2"
 msgstr "\"%1\" सञ्चिकां लिखित्वा त्रुटिः अभवत्: %2"
 
-#: src/parleydocument.cpp:368 src/parleydocument.cpp:461
-#, kde-format
-msgctxt "@title:window"
-msgid "Save File"
-msgstr "सञ्चिकां रक्षतु"
-
-#: src/parleydocument.cpp:383
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Vocabulary As"
-msgstr "Save Vocabulary As"
-
 #: src/parleydocument.cpp:395
 #, kde-format
 msgid ""
-"<qt>The file<p><b>%1</b></p>already exists. Do you want to overwrite it?</qt>"
+"<qt>The file<p><b>%1</b></p>already exists. Do you want to overwrite "
+"it?</qt>"
 msgstr ""
-"<qt>सञ्चिका<p> <b>%1</b></p> पूर्वमेव विद्यते। किं भवन्तः तस्य अधिलेखनं कर्तुम् इच्छन्ति ?</"
-"qt>"
+"<qt>सञ्चिका<p> <b>%1</b></p> पूर्वमेव विद्यते। किं भवन्तः तस्य अधिलेखनं "
+"कर्तुम् इच्छन्ति ?</qt>"
 
-#: src/parleydocument.cpp:403
-#, kde-format
-msgctxt "@info:status saving a file"
-msgid "Saving %1"
-msgstr "%1 रक्षणम्"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
 #: src/parleydocument.cpp:507 src/settings/documentproperties.ui:234
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
 #, kde-format
 msgid "Public Domain"
 msgstr "Public Domain"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
-#. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBoxLanguages)
 #: src/parleydocument.cpp:508 src/settings/documentproperties.ui:180
 #: src/settings/documentproperties.ui:250
 #: src/statistics/statisticsmainwindow.ui:23
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
+#. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxLanguages)
 #, kde-format
 msgid "Languages"
 msgstr "भाषाः"
@@ -1842,21 +1685,14 @@ msgstr "पाठः १"
 msgid "Could not open vocabulary collection \"%1\""
 msgstr "\"%1\" शब्दावलीसङ्ग्रहं उद्घाटयितुं न शक्तवान् ।"
 
-#: src/parleymainwindow.cpp:134
-#, kde-format
-msgctxt ""
-"Title and a modified status indicator.  [*] is exact and will be shown only "
-"when document is modified"
-msgid "%1 [*]"
-msgstr "%1 [*] ९."
-
 #: src/parleymainwindow.cpp:174
 #, kde-format
 msgid ""
 "You cannot start to practice when the known language is the same as the "
 "language to learn."
 msgstr ""
-"यदा ज्ञाता भाषा शिक्षितव्या भाषायाः समाना भवति तदा भवन्तः अभ्यासं आरभुं न शक्नुवन्ति।"
+"यदा ज्ञाता भाषा शिक्षितव्या भाषायाः समाना भवति तदा भवन्तः अभ्यासं आरभुं न "
+"शक्नुवन्ति।"
 
 #: src/parleymainwindow.cpp:174
 #, kde-format
@@ -1873,26 +1709,26 @@ msgstr "Download नवीन शब्दावली..."
 msgid "Downloads new vocabulary collections"
 msgstr "नवीनशब्दकोशसङ्ग्रहान् डाउनलोड् करोति"
 
-#. i18n: ectx: ToolBar (mainToolBar)
 #: src/parleyui.rc:21
+#. i18n: ectx: ToolBar (mainToolBar)
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
-#. i18n: ectx: ToolBar (practiceToolBar)
 #: src/parleyui.rc:29 src/practice/practiceui.rc:18
+#. i18n: ectx: ToolBar (practiceToolBar)
 #, kde-format
 msgid "Practice Toolbar"
 msgstr "साधनपट्टिकायाः अभ्यासं कुर्वन्तु"
 
-#. i18n: ectx: ToolBar (statisticsToolBar)
 #: src/parleyui.rc:33 src/statistics/statisticsui.rc:19
+#. i18n: ectx: ToolBar (statisticsToolBar)
 #, kde-format
 msgid "Statistics Toolbar"
 msgstr "सांख्यिकी साधनपट्टी"
 
-#. i18n: ectx: ToolBar (practiceSummaryToolBar)
 #: src/parleyui.rc:40 src/practice/practicesummaryui.rc:20
+#. i18n: ectx: ToolBar (practiceSummaryToolBar)
 #, kde-format
 msgid "Practice Summary Toolbar"
 msgstr "सारांशसाधनपट्टिकायाः अभ्यासं कुर्वन्तु"
@@ -1906,38 +1742,6 @@ msgstr "विरमतु"
 #, kde-format
 msgid "All comparison forms were right."
 msgstr "सर्वे तुलनारूपाः सम्यक् आसन्।"
-
-#: src/practice/comparisonbackendmode.cpp:65
-#, kde-format
-msgctxt ""
-"the user entered the wrong absolute form when practicing comparison forms of "
-"adjectives (the base form of the adjective is wrong)"
-msgid "\"%1\" is the wrong word."
-msgstr "\"%1\" इति गलत् शब्दः ।"
-
-#: src/practice/comparisonbackendmode.cpp:70
-#, kde-format
-msgctxt ""
-"the user entered the wrong comparison forms when practicing comparison forms "
-"of adjectives (good, better, best)"
-msgid "Both comparison forms (comparative and superlative) are wrong."
-msgstr "तुलनारूपद्वयं (तुलनारूपं अतिशयोक्तिकं च) गलतम् अस्ति।"
-
-#: src/practice/comparisonbackendmode.cpp:74
-#, kde-format
-msgctxt ""
-"the user entered the wrong comparison forms when practicing comparison forms "
-"of adjectives (second form wrong - better)"
-msgid "The comparative is wrong."
-msgstr "तुलनात्मकं दोषं भवति।"
-
-#: src/practice/comparisonbackendmode.cpp:78
-#, kde-format
-msgctxt ""
-"the user entered the wrong comparison forms when practicing comparison forms "
-"of adjectives (third form wrong - best)"
-msgid "The superlative is wrong."
-msgstr "अतिशयोक्तिः गलत् अस्ति।"
 
 #: src/practice/comparisonmodewidget.cpp:65
 #, kde-format
@@ -2079,8 +1883,7 @@ msgstr ""
 
 #: src/practice/configure/blockoptions.cpp:249
 #, kde-format
-msgid ""
-"The blocking time at level %1 should be lower than the expiration time.\n"
+msgid "The blocking time at level %1 should be lower than the expiration time.\n"
 msgstr "%1 स्तरस्य अवरोधसमयः समाप्तिसमयात् न्यूनः भवेत् ।\n"
 
 #: src/practice/configure/blockoptions.cpp:255
@@ -2088,333 +1891,290 @@ msgstr "%1 स्तरस्य अवरोधसमयः समाप्त�
 msgid "Illogical Values"
 msgstr "अतार्किकमूल्यानि"
 
-#. i18n: ectx: property (text), widget (QLabel, l_lev2)
 #: src/practice/configure/blockoptions.ui:40
+#. i18n: ectx: property (text), widget (QLabel, l_lev2)
 #, kde-format
 msgid "Level &2:"
 msgstr "स्तरः &2: ."
 
-#. i18n: ectx: property (text), widget (QLabel, l_lev5)
 #: src/practice/configure/blockoptions.ui:53
+#. i18n: ectx: property (text), widget (QLabel, l_lev5)
 #, kde-format
 msgid "Level &5:"
 msgstr "स्तरः &5: ."
 
-#. i18n: ectx: property (text), widget (QLabel, l_lev6)
 #: src/practice/configure/blockoptions.ui:63
+#. i18n: ectx: property (text), widget (QLabel, l_lev6)
 #, kde-format
 msgid "Level &6:"
 msgstr "स्तर &६: १."
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Expire)
 #: src/practice/configure/blockoptions.ui:79
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Expire)
 #, kde-format
 msgid "E&xpiring"
 msgstr "E&xpiring"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Block)
 #: src/practice/configure/blockoptions.ui:95
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Block)
 #, kde-format
 msgid "Bl&ocking"
 msgstr "Bl&ocking इति"
 
-#. i18n: ectx: property (text), widget (QLabel, l_lev4)
 #: src/practice/configure/blockoptions.ui:118
+#. i18n: ectx: property (text), widget (QLabel, l_lev4)
 #, kde-format
 msgid "Level &4:"
 msgstr "स्तरः &४: १."
 
-#. i18n: ectx: property (text), widget (QLabel, l_lev7)
 #: src/practice/configure/blockoptions.ui:128
+#. i18n: ectx: property (text), widget (QLabel, l_lev7)
 #, kde-format
 msgid "Level &7:"
 msgstr "स्तरः &7: ."
 
-#. i18n: ectx: property (text), widget (QLabel, l_lev1)
 #: src/practice/configure/blockoptions.ui:150
+#. i18n: ectx: property (text), widget (QLabel, l_lev1)
 #, kde-format
 msgid "Level &1:"
 msgstr "स्तरः &१: १."
 
-#. i18n: ectx: property (text), widget (QLabel, l_lev3)
 #: src/practice/configure/blockoptions.ui:192
+#. i18n: ectx: property (text), widget (QLabel, l_lev3)
 #, kde-format
 msgid "Level &3:"
 msgstr "स्तरः &3: ."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/practice/configure/blockoptions.ui:218
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Do not practice vocabulary that has been asked within:"
 msgstr "अन्तः पृष्टानां शब्दावलीनां अभ्यासं न कुर्वन्तु : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/practice/configure/blockoptions.ui:228
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Vocabulary drops one grade after this much time:"
 msgstr "एतावता समयानन्तरं शब्दावली एकं ग्रेडं पतति-"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdjective)
 #: src/practice/configure/comparisonoptionswidget.ui:16
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdjective)
 #, kde-format
 msgid "Include Adjectives"
 msgstr "विशेषणानि समावेशयन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdverb)
 #: src/practice/configure/comparisonoptionswidget.ui:23
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ComparisonIncludeAdverb)
 #, kde-format
 msgid "Include Adverbs"
 msgstr "तद्धितानि समावेशयन्तु"
-
-#: src/practice/configure/configurepracticedialog.cpp:23
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Practice"
-msgstr "अभ्यासं विन्यस्तं कुर्वन्तु"
-
-#: src/practice/configure/configurepracticedialog.cpp:28
-#, kde-format
-msgctxt ""
-"@title:group Configure general settings for practicing vocabulary, short "
-"title in config dialog."
-msgid "General"
-msgstr "सामान्य"
-
-#: src/practice/configure/configurepracticedialog.cpp:30
-#, kde-format
-msgctxt "Configure general settings for practicing vocabulary."
-msgid "General Practice Settings"
-msgstr "सामान्य अभ्यास सेटिंग्स"
-
-#: src/practice/configure/configurepracticedialog.cpp:35
-#, kde-format
-msgctxt ""
-"@title:group vocabulary can be set to be blocked for a certain amount of time"
-msgid "Blocking"
-msgstr "अवरोधनम्"
 
 #: src/practice/configure/configurepracticedialog.cpp:37
 #, kde-format
 msgid "Blocking Settings"
 msgstr "सेटिंग्स् अवरोधनम्"
 
-#: src/practice/configure/configurepracticedialog.cpp:42
-#, kde-format
-msgctxt ""
-"@title:group ignore vocabulary based on some properties like word type"
-msgid "Thresholds"
-msgstr "दहलीजम्"
-
 #: src/practice/configure/configurepracticedialog.cpp:44
 #, kde-format
 msgid "Threshold Settings"
 msgstr "थ्रेशोल्ड सेटिंग्स्"
 
-#: src/practice/configure/configurepracticedialog.cpp:49
-#, kde-format
-msgctxt ""
-"@title:group Configure specific settings for practicing vocabulary, short "
-"title in config dialog."
-msgid "Specific"
-msgstr "विशिष्टः"
-
-#: src/practice/configure/configurepracticedialog.cpp:51
-#, kde-format
-msgctxt "Configure specific settings for practicing vocabulary."
-msgid "Specific Practice Settings"
-msgstr "विशिष्टाभ्याससेटिंग्स्"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/practice/configure/generalpracticeoptions.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #, kde-format
 msgid "Correction"
 msgstr "सुधारः"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:23
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
 #, kde-format
 msgid "Answers with wrong accents are still counted as correct."
 msgstr "गलत् उच्चारणयुक्तानि उत्तराणि अद्यापि सम्यक् इति गण्यन्ते।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreAccentMistakes)
 #, kde-format
 msgid "Ignore accents"
 msgstr "उच्चारणं उपेक्ष्यताम्"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:36
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
 #, kde-format
 msgid "Any captitalization in the answer is counted as correct."
 msgstr "उत्तरे यत्किमपि कैपिटलीकरणं सम्यक् इति गण्यते।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:39
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreCapitalizationMistakes)
 #, kde-format
 msgid "Ignore capitalization"
 msgstr "कैपिटलीकरणस्य अवहेलना कुर्वन्तु"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnorePunctuationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:49
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_IgnorePunctuationMistakes)
 #, kde-format
 msgid "Any punctuation mistake in the answer is counted as correct."
 msgstr "उत्तरे यत्किमपि विरामचिह्नदोषः भवति तत् सम्यक् इति गण्यते ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnorePunctuationMistakes)
 #: src/practice/configure/generalpracticeoptions.ui:52
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnorePunctuationMistakes)
 #, kde-format
 msgid "Ignore punctuation"
 msgstr "विरामचिह्नस्य अवहेलनां कुर्वन्तु"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHints)
 #: src/practice/configure/generalpracticeoptions.ui:62
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHints)
 #, kde-format
 msgid ""
-"During the practice you can use the hint button to see parts of the solution."
+"During the practice you can use the hint button to see parts of the "
+"solution."
 msgstr ""
-"अभ्यासस्य समये भवन्तः समाधानस्य भागान् द्रष्टुं hint बटन् इत्यस्य उपयोगं कर्तुं शक्नुवन्ति ।"
+"अभ्यासस्य समये भवन्तः समाधानस्य भागान् द्रष्टुं hint बटन् इत्यस्य उपयोगं "
+"कर्तुं शक्नुवन्ति ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHints)
 #: src/practice/configure/generalpracticeoptions.ui:65
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHints)
 #, kde-format
 msgid "Enable hints"
 msgstr "संकेतान् सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: src/practice/configure/generalpracticeoptions.ui:91
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #, kde-format
 msgid "Images and Sound"
 msgstr "बिम्बाः ध्वनिः च"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsFrontImage)
 #: src/practice/configure/generalpracticeoptions.ui:97
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsFrontImage)
 #, kde-format
 msgid "During the practice, images are shown for the question."
 msgstr "अभ्यासस्य समये प्रश्नाय चित्राणि दर्शितानि भवन्ति ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsFrontImage)
 #: src/practice/configure/generalpracticeoptions.ui:100
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsFrontImage)
 #, kde-format
 msgid "Image for question"
 msgstr "प्रश्नार्थं चित्रम्"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsBackImage)
 #: src/practice/configure/generalpracticeoptions.ui:110
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FlashcardsBackImage)
 #, kde-format
 msgid "During the practice, images are shown for the solution."
 msgstr "अभ्यासस्य समये समाधानार्थं चित्राणि दर्शितानि भवन्ति ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsBackImage)
 #: src/practice/configure/generalpracticeoptions.ui:113
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FlashcardsBackImage)
 #, kde-format
 msgid "Image for solution"
 msgstr "समाधानार्थं प्रतिबिम्बम्"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
 #: src/practice/configure/generalpracticeoptions.ui:123
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
 #, kde-format
 msgid "Allow using images instead of words in flashcards."
 msgstr "फ्लैशकार्ड् मध्ये शब्दानां स्थाने चित्राणां उपयोगं अनुमन्यताम् ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
 #: src/practice/configure/generalpracticeoptions.ui:126
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowImageInsteadOfWord)
 #, kde-format
 msgid "Allow images instead of words"
 msgstr "शब्दानां स्थाने चित्राणि अनुमन्यताम्"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PracticeSoundEnabled)
 #: src/practice/configure/generalpracticeoptions.ui:136
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PracticeSoundEnabled)
 #, kde-format
 msgid "Enable playing of pronunciation sound files during the practice."
 msgstr "अभ्यासस्य समये उच्चारणध्वनिसञ्चिकानां वादनं सक्षमं कुर्वन्तु।"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/practice/configure/generalpracticeoptions.ui:158
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid ""
 "By default you are asked to enter synonyms until you enter the one that is "
 "associated directly with the current word. With this option enabled any "
 "synonym is accepted."
 msgstr ""
-"पूर्वनिर्धारितरूपेण भवन्तः पर्यायवाचीनां प्रविष्टुं प्रार्थ्यन्ते यावत् भवन्तः वर्तमानशब्देन सह "
-"प्रत्यक्षतया सम्बद्धं न प्रविशन्ति । एतत् विकल्पं सक्षमं कृत्वा कोऽपि पर्यायः स्वीक्रियते ।"
+"पूर्वनिर्धारितरूपेण भवन्तः पर्यायवाचीनां प्रविष्टुं प्रार्थ्यन्ते यावत् "
+"भवन्तः वर्तमानशब्देन सह प्रत्यक्षतया सम्बद्धं न प्रविशन्ति । एतत् विकल्पं "
+"सक्षमं कृत्वा कोऽपि पर्यायः स्वीक्रियते ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CountSynonymsAsCorrect)
 #: src/practice/configure/generalpracticeoptions.ui:168
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CountSynonymsAsCorrect)
 #, kde-format
 msgid "Accept any synonym"
 msgstr "कोऽपि पर्यायः स्वीकुरुत"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/practice/configure/generalpracticeoptions.ui:191
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #, kde-format
 msgid "Sessions"
 msgstr "सत्रम्"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/practice/configure/generalpracticeoptions.ui:202
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "Max session size:"
 msgstr "अधिकतमः सत्रस्य आकारः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/practice/configure/generalpracticeoptions.ui:251
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #, kde-format
 msgid "Max number of new words:"
 msgstr "नूतनशब्दानां अधिकतमसंख्या : १."
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
 #: src/practice/configure/specificpracticeoptions.ui:23
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
 #, kde-format
 msgid ""
 "When creating multiple choice practices, try to show answers of the same "
 "word type."
-msgstr "बहुविकल्पाभ्यासानां निर्माणकाले समानशब्दप्रकारस्य उत्तराणि दर्शयितुं प्रयतध्वम् ।"
+msgstr ""
+"बहुविकल्पाभ्यासानां निर्माणकाले समानशब्दप्रकारस्य उत्तराणि दर्शयितुं "
+"प्रयतध्वम् ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
 #: src/practice/configure/specificpracticeoptions.ui:26
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MultipleChoiceWordTypeConsistancy)
 #, kde-format
 msgid "Use choices of the same word type"
 msgstr "समानशब्दप्रकारस्य विकल्पानां प्रयोगं कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/practice/configure/specificpracticeoptions.ui:41
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "Number of choices:"
 msgstr "विकल्पानां संख्या : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
 #: src/practice/configure/thresholdoptions.ui:17
+#. i18n: ectx: property (text), widget (QLabel, label_8)
 #, kde-format
 msgid "Only practice vocabulary that fulfills the following conditions:"
 msgstr "केवलं तादृशी शब्दावली अभ्यासं कुर्वन्तु या निम्नलिखितशर्ताः पूरयति।"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/practice/configure/thresholdoptions.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "At least"
 msgstr "न्यूनतम"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/practice/configure/thresholdoptions.ui:33
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "At most"
 msgstr "अधिकतया"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/practice/configure/thresholdoptions.ui:43
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Grade:"
 msgstr "वर्ग:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/practice/configure/thresholdoptions.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #, kde-format
 msgid "Times practiced:"
 msgstr "अभ्यासः कालः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: src/practice/configure/thresholdoptions.ui:80
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #, kde-format
 msgid "Answered incorrectly:"
 msgstr "गलत् उत्तरं दत्तम् : १."
@@ -2423,14 +2183,6 @@ msgstr "गलत् उत्तरं दत्तम् : १."
 #, kde-format
 msgid "All conjugation forms were right."
 msgstr "सर्वे संधिरूपाः सम्यक् आसन्।"
-
-#: src/practice/conjugationbackendmode.cpp:97
-#, kde-format
-msgctxt "You did not get the conjugation forms right."
-msgid "You answered %1 conjugation form correctly."
-msgid_plural "You answered %1 conjugation forms correctly."
-msgstr[0] "भवान् %1 संधिरूपस्य सम्यक् उत्तरं दत्तवान् ।"
-msgstr[1] "भवान् %1 संधिरूपेषु सम्यक् उत्तरं दत्तवान् ।"
 
 #: src/practice/conjugationmodewidget.cpp:111
 #, kde-format
@@ -2442,42 +2194,10 @@ msgstr "सर्वाणि संधिरूपाणि प्रविश�
 msgid "Choose the right article for \"%1\""
 msgstr "\"%1\" कृते योग्यं लेखं चिनोतु ।"
 
-#: src/practice/genderbackendmode.cpp:82
-#, kde-format
-msgctxt "@label the gender of the word: masculine"
-msgid "%1 is masculine"
-msgstr "%1 इति पुंलिङ्गम्"
-
-#: src/practice/genderbackendmode.cpp:87
-#, kde-format
-msgctxt "@label the gender of the word: feminine"
-msgid "%1 is feminine"
-msgstr "%1 स्त्रीलिङ्गम्"
-
-#: src/practice/genderbackendmode.cpp:92
-#, kde-format
-msgctxt "@label the gender of the word: neuter"
-msgid "%1 is neuter"
-msgstr "%1 नपुंसकम् अस्ति"
-
-#: src/practice/guifrontend.cpp:122
-#, kde-format
-msgctxt "Display of the current unit during practice"
-msgid "Unit: %1"
-msgstr "इकाई: %1"
-
 #: src/practice/guifrontend.cpp:128
 #, kde-format
 msgid "New word"
 msgstr "नवशब्दः"
-
-#: src/practice/guifrontend.cpp:131
-#, kde-format
-msgctxt ""
-"Display of the current confidence level during practice, 1st param is either "
-"initial or long term"
-msgid "%1, confidence %2"
-msgstr "%1, विश्वासः %2"
 
 #: src/practice/guifrontend.cpp:132
 #, kde-format
@@ -2520,62 +2240,62 @@ msgstr "LaTeX त्रुटिः।"
 msgid "You revealed the answer by using too many hints."
 msgstr "भवता बहुसंकेतानां उपयोगेन उत्तरं प्रकाशितम्।"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, answerLaterButton)
 #: src/practice/practice_mainwindow.ui:128
+#. i18n: ectx: property (toolTip), widget (QPushButton, answerLaterButton)
 #, kde-format
 msgid "Skip this word for now and ask again later"
 msgstr "इदानीं कृते एतत् शब्दं त्यक्त्वा पश्चात् पुनः पृच्छतु"
 
-#. i18n: ectx: property (text), widget (QPushButton, answerLaterButton)
 #: src/practice/practice_mainwindow.ui:131
+#. i18n: ectx: property (text), widget (QPushButton, answerLaterButton)
 #, kde-format
 msgid "Answer Later"
 msgstr "उत्तरम् पश्चात्"
 
-#. i18n: ectx: property (text), widget (QPushButton, hintButton)
 #: src/practice/practice_mainwindow.ui:141
+#. i18n: ectx: property (text), widget (QPushButton, hintButton)
 #, kde-format
 msgid "Hint"
 msgstr "संकेत"
 
-#. i18n: ectx: property (text), widget (QPushButton, continueButton)
 #: src/practice/practice_mainwindow.ui:202
+#. i18n: ectx: property (text), widget (QPushButton, continueButton)
 #, kde-format
 msgid "Continue"
 msgstr "अनुवर्तते"
 
-#. i18n: ectx: property (text), widget (QPushButton, countAsWrongButton)
 #: src/practice/practice_mainwindow.ui:219
+#. i18n: ectx: property (text), widget (QPushButton, countAsWrongButton)
 #, kde-format
 msgid "I Did not Know it"
 msgstr "अहं तत् न जानामि स्म"
 
-#. i18n: ectx: property (text), widget (QPushButton, countAsCorrectButton)
 #: src/practice/practice_mainwindow.ui:226
+#. i18n: ectx: property (text), widget (QPushButton, countAsCorrectButton)
 #, kde-format
 msgid "I Knew it"
 msgstr "अहं तत् जानामि स्म"
 
-#. i18n: ectx: property (format), widget (QProgressBar, totalProgress)
 #: src/practice/practice_mainwindow.ui:300
+#. i18n: ectx: property (format), widget (QProgressBar, totalProgress)
 #, no-c-format, kde-format
 msgid "%v/%m"
 msgstr "%v/%m"
 
-#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
 #: src/practice/practice_widget_comparison.ui:35
+#. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
 #, kde-format
 msgid "absolute"
 msgstr "निरपेक्षः"
 
-#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
 #: src/practice/practice_widget_comparison.ui:80
+#. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
 #, kde-format
 msgid "comparative"
 msgstr "तुलनात्मकः"
 
-#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
 #: src/practice/practice_widget_comparison.ui:125
+#. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
 #, kde-format
 msgid "superlative"
 msgstr "अतिशयोक्तिः"
@@ -2601,14 +2321,9 @@ msgid ""
 "When you answered, Parley will display that the answer was right or wrong.\n"
 "This shortcut changes how the answer is counted."
 msgstr ""
-"यदा भवान् उत्तरं दत्तवान् तदा पार्ले उत्तरं सम्यक् अथवा अशुद्धम् इति प्रदर्शयिष्यति।\n"
+"यदा भवान् उत्तरं दत्तवान् तदा पार्ले उत्तरं सम्यक् अथवा अशुद्धम् इति "
+"प्रदर्शयिष्यति।\n"
 "एतेन शॉर्टकट् उत्तरस्य गणना कथं भवति इति परिवर्तयति ।"
-
-#: src/practice/practicesummarycomponent.cpp:57
-#, kde-format
-msgctxt "number of words, minutes, seconds"
-msgid "You practiced %1 in %2 and %3."
-msgstr "भवता %2 तथा %3 मध्ये %1 अभ्यासः कृतः ।"
 
 #: src/practice/practicesummarycomponent.cpp:58
 #, kde-format
@@ -2701,26 +2416,26 @@ msgstr "%1 इत्यत्र लिखितुं न शक्तम्"
 msgid "Could not write file"
 msgstr "सञ्चिकां लिखितुं न शक्तवान्"
 
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:28
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #, kde-format
 msgid "Attempts"
 msgstr "प्रयत्नाः"
 
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:33
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #, kde-format
 msgid "Question"
 msgstr "प्रश्न"
 
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:38
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #, kde-format
 msgid "Solution"
 msgstr "समाधानं"
 
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:43
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #, kde-format
 msgid "Your Answer"
 msgstr "भवतः उत्तरम्"
@@ -2765,24 +2480,6 @@ msgstr ""
 msgid "Count this answer as correct"
 msgstr "एतत् उत्तरं सम्यक् इति गणयन्तु"
 
-#: src/practice/summarybarwidget.cpp:78
-#, kde-format
-msgctxt "test results"
-msgid "%1 % correct"
-msgstr "%1 % सम्यक्"
-
-#: src/practice/summarybarwidget.cpp:80
-#, kde-format
-msgctxt "test results"
-msgid "%1 % wrong"
-msgstr "%1 % गलत्"
-
-#: src/practice/summarybarwidget.cpp:82
-#, kde-format
-msgctxt "test results"
-msgid "%1 % not answered"
-msgstr "%1 % उत्तरं न दत्तम्"
-
 #: src/practice/summarybarwidget.cpp:140
 #, kde-format
 msgid "Answered correctly on the first attempt: %1 of %2 (%3 %)"
@@ -2808,7 +2505,9 @@ msgstr "भवतः उत्तरं गलतम् आसीत्।"
 msgid ""
 "Your answer was a synonym. Please enter another word with the same "
 "translation."
-msgstr "भवतः उत्तरं पर्यायवाची आसीत्। कृपया अन्यं शब्दं समानानुवादयुक्तं प्रविशन्तु ।"
+msgstr ""
+"भवतः उत्तरं पर्यायवाची आसीत्। कृपया अन्यं शब्दं समानानुवादयुक्तं प्रविशन्तु "
+"।"
 
 #: src/practice/writtenbackendmode.cpp:88
 #, kde-format
@@ -2841,7 +2540,8 @@ msgid ""
 "Your answer was wrong as punctuation mistakes are not accepted. Please try "
 "again."
 msgstr ""
-"भवतः उत्तरं गलतम् आसीत् यतः विरामचिह्नदोषाः न स्वीक्रियन्ते। कृपया पुनः प्रयासं कुर्वन्तु।"
+"भवतः उत्तरं गलतम् आसीत् यतः विरामचिह्नदोषाः न स्वीक्रियन्ते। कृपया पुनः "
+"प्रयासं कुर्वन्तु।"
 
 #: src/practice/writtenbackendmode.cpp:107
 #, kde-format
@@ -2849,14 +2549,15 @@ msgid ""
 "Your answer was wrong as capitalization mistakes are not accepted. Please "
 "try again."
 msgstr ""
-"भवतः उत्तरं गलतम् आसीत् यतः दीर्घलेखनदोषाः न स्वीक्रियन्ते। कृपया पुनः प्रयासं कुर्वन्तु।"
+"भवतः उत्तरं गलतम् आसीत् यतः दीर्घलेखनदोषाः न स्वीक्रियन्ते। कृपया पुनः "
+"प्रयासं कुर्वन्तु।"
 
 #: src/practice/writtenbackendmode.cpp:109
 #, kde-format
-msgid ""
-"Your answer was wrong as accent mistakes are not accepted. Please try again."
+msgid "Your answer was wrong as accent mistakes are not accepted. Please try again."
 msgstr ""
-"उच्चारणदोषाः न स्वीक्रियन्ते इति कारणेन भवतः उत्तरं गलतम् आसीत्। कृपया पुनः प्रयासं कुर्वन्तु।"
+"उच्चारणदोषाः न स्वीक्रियन्ते इति कारणेन भवतः उत्तरं गलतम् आसीत्। कृपया पुनः "
+"प्रयासं कुर्वन्तु।"
 
 #: src/practice/writtenbackendmode.cpp:111
 #, kde-format
@@ -2888,19 +2589,22 @@ msgstr "भवतः उत्तरं सम्यक् आसीत्।"
 msgid ""
 "Your answer was right... but not on the first try and your punctuation was "
 "wrong."
-msgstr "भवतः उत्तरं सम्यक् आसीत्... परन्तु प्रथमप्रयासे न भवतः विरामचिह्नं च गलतम् आसीत्।"
+msgstr ""
+"भवतः उत्तरं सम्यक् आसीत्... परन्तु प्रथमप्रयासे न भवतः विरामचिह्नं च गलतम् "
+"आसीत्।"
 
 #: src/practice/writtenbackendmode.cpp:130
 #, kde-format
 msgid ""
 "Your answer was right... but not on the first try and your capitalization "
 "was wrong."
-msgstr "भवतः उत्तरं सम्यक् आसीत्... परन्तु प्रथमे प्रयासे न भवतः पूंजीकरणं च गलतम् आसीत्।"
+msgstr ""
+"भवतः उत्तरं सम्यक् आसीत्... परन्तु प्रथमे प्रयासे न भवतः पूंजीकरणं च गलतम् "
+"आसीत्।"
 
 #: src/practice/writtenbackendmode.cpp:132
 #, kde-format
-msgid ""
-"Your answer was right... but not on the first try and accents were wrong."
+msgid "Your answer was right... but not on the first try and accents were wrong."
 msgstr "भवतः उत्तरं सम्यक् आसीत्... परन्तु प्रथमे प्रयासे न उच्चारणं च गलतम् आसीत्।"
 
 #: src/practice/writtenbackendmode.cpp:134
@@ -2918,105 +2622,105 @@ msgstr "समाधानं आरभ्यते : %1"
 msgid "Synonym: "
 msgstr "समानार्थी शब्द: १. "
 
-#. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
 #: src/settings/documentproperties.ui:38
+#. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
 #, kde-format
 msgid "General Document Properties"
 msgstr "सामान्यदस्तावेजगुणाः"
 
-#. i18n: ectx: property (text), widget (QLabel, label_title)
 #: src/settings/documentproperties.ui:50
+#. i18n: ectx: property (text), widget (QLabel, label_title)
 #, kde-format
 msgid "&Title:"
 msgstr "&शीर्षक:"
 
+#: src/settings/documentproperties.ui:69 src/settings/documentproperties.ui:95
 #. i18n: ectx: property (toolTip), widget (QLineEdit, titleLineEdit)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, authorLineEdit)
-#: src/settings/documentproperties.ui:69 src/settings/documentproperties.ui:95
 #, kde-format
 msgid "A title for your document."
 msgstr "भवतः दस्तावेजस्य कृते एकं शीर्षकम्।"
 
-#. i18n: ectx: property (text), widget (QLabel, label_author)
 #: src/settings/documentproperties.ui:76
+#. i18n: ectx: property (text), widget (QLabel, label_author)
 #, kde-format
 msgid "&Author:"
 msgstr "&लेखकः:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_author_2)
 #: src/settings/documentproperties.ui:102
+#. i18n: ectx: property (text), widget (QLabel, label_author_2)
 #, kde-format
 msgid "E&mail:"
 msgstr "ई-मेलः : १."
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, contactLineEdit)
 #: src/settings/documentproperties.ui:121
+#. i18n: ectx: property (toolTip), widget (QLineEdit, contactLineEdit)
 #, kde-format
 msgid "A way to contact you (email or a webpage)."
 msgstr "भवता सह सम्पर्कस्य एकः उपायः (ईमेल अथवा जालपुटम्)।"
 
-#. i18n: ectx: property (text), widget (QLabel, label_remark)
 #: src/settings/documentproperties.ui:128
+#. i18n: ectx: property (text), widget (QLabel, label_remark)
 #, kde-format
 msgid "&Comment:"
 msgstr "&टिप्पणी:"
 
-#. i18n: ectx: property (toolTip), widget (KTextEdit, commentTextEdit)
 #: src/settings/documentproperties.ui:147
+#. i18n: ectx: property (toolTip), widget (KTextEdit, commentTextEdit)
 #, kde-format
 msgid "Any additional information."
 msgstr "किमपि अतिरिक्तं सूचना।"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/settings/documentproperties.ui:160
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Cate&gory:"
 msgstr "कोटी:"
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:173
+#. i18n: ectx: property (toolTip), widget (KComboBox, categoryComboBox)
 #, kde-format
 msgid "A general category into which your document belongs."
 msgstr "एकः सामान्यः वर्गः यस्मिन् भवतः दस्तावेजः अन्तर्भवति ।"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:185
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #, kde-format
 msgid "Music"
 msgstr "संगीतं"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:190
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #, kde-format
 msgid "Geography"
 msgstr "भूगोल"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:195
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #, kde-format
 msgid "Anatomy"
 msgstr "शरीररचना विज्ञान"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:200
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #, kde-format
 msgid "History"
 msgstr "इतिहास"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #: src/settings/documentproperties.ui:205
+#. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #, kde-format
 msgid "Test Preparation"
 msgstr "परीक्षणस्य सज्जता"
 
-#. i18n: ectx: property (text), widget (QLabel, label_license)
 #: src/settings/documentproperties.ui:213
+#. i18n: ectx: property (text), widget (QLabel, label_license)
 #, kde-format
 msgid "&License:"
 msgstr "&अनुज्ञापत्रः : १."
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, licenseComboBox)
 #: src/settings/documentproperties.ui:227
+#. i18n: ectx: property (toolTip), widget (KComboBox, licenseComboBox)
 #, kde-format
 msgid ""
 "The license under which your document will be.\n"
@@ -3024,253 +2728,187 @@ msgid ""
 "license is required."
 msgstr ""
 "यस्य अनुज्ञापत्रस्य अन्तर्गतं भवतः दस्तावेजः भविष्यति।\n"
-"यदि भवान् भविष्ये स्वस्य सञ्चिकां KDE मध्ये योगदानं कर्तुं विचारयति तर्हि समुचितं अनुज्ञापत्रं "
-"आवश्यकम् ।"
+"यदि भवान् भविष्ये स्वस्य सञ्चिकां KDE मध्ये योगदानं कर्तुं विचारयति तर्हि "
+"समुचितं अनुज्ञापत्रं आवश्यकम् ।"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
 #: src/settings/documentproperties.ui:239
+#. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
 #, kde-format
 msgid "GPLv2+ (GNU General Public License version 2 or later)"
 msgstr "GPLv2+ (GNU General Public License संस्करणं 2 अथवा ततः परं)"
 
-#. i18n: ectx: property (text), widget (QLabel, label_language_1)
 #: src/settings/documentproperties.ui:256
+#. i18n: ectx: property (text), widget (QLabel, label_language_1)
 #, kde-format
 msgid "&First language:"
 msgstr "&प्रथम भाषा : १."
 
-#. i18n: ectx: property (text), widget (QLabel, label_language_2)
 #: src/settings/documentproperties.ui:282
+#. i18n: ectx: property (text), widget (QLabel, label_language_2)
 #, kde-format
 msgid "&Second language:"
 msgstr "&द्वितीय भाषा : १."
 
-#. i18n: ectx: property (text), widget (QCheckBox, grammarCheckBox)
 #: src/settings/documentproperties.ui:311
+#. i18n: ectx: property (text), widget (QCheckBox, grammarCheckBox)
 #, kde-format
 msgid "&Setup grammar details"
 msgstr "&व्याकरणविवरणं सेटअप कुर्वन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, downloadGrammarCheckBox)
-#: src/settings/documentproperties.ui:321
-#, kde-format
-msgctxt "Attept to download grammar properties for the selected languages"
-msgid "Download grammar"
-msgstr "व्याकरणं डाउनलोड् कुर्वन्तु"
-
+#: src/settings/documentsettings.kcfg:11 src/settings/documentsettings.kcfg:12
+#: src/settings/languagesettings.kcfg:23 src/settings/languagesettings.kcfg:24
 #. i18n: ectx: label, entry (ConjugationTenses), group (Document $(fileurl))
 #. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Document $(fileurl))
 #. i18n: ectx: label, entry (ConjugationTenses), group (Locale $(locale))
 #. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Locale $(locale))
-#: src/settings/documentsettings.kcfg:11 src/settings/documentsettings.kcfg:12
-#: src/settings/languagesettings.kcfg:23 src/settings/languagesettings.kcfg:24
 #, kde-format
 msgid "Selected tenses for conjugation practice."
 msgstr "संधि-अभ्यासार्थं चयनिताः कालाः।"
 
+#: src/settings/documentsettings.kcfg:16 src/settings/documentsettings.kcfg:17
+#: src/settings/languagesettings.kcfg:28 src/settings/languagesettings.kcfg:29
 #. i18n: ectx: label, entry (VisibleColumns), group (Document $(fileurl))
 #. i18n: ectx: whatsthis, entry (VisibleColumns), group (Document $(fileurl))
 #. i18n: ectx: label, entry (VisibleColumns), group (Locale $(locale))
 #. i18n: ectx: whatsthis, entry (VisibleColumns), group (Locale $(locale))
-#: src/settings/documentsettings.kcfg:16 src/settings/documentsettings.kcfg:17
-#: src/settings/languagesettings.kcfg:28 src/settings/languagesettings.kcfg:29
 #, kde-format
 msgid "Visible columns in the main editor window."
 msgstr "मुख्यसम्पादकविण्डो मध्ये दृश्यमानाः स्तम्भाः ।"
 
+#: src/settings/documentsettings.kcfg:20 src/settings/documentsettings.kcfg:21
 #. i18n: ectx: label, entry (CollapsedStatisticsViewItems), group (Document $(fileurl))
 #. i18n: ectx: whatsthis, entry (CollapsedStatisticsViewItems), group (Document $(fileurl))
-#: src/settings/documentsettings.kcfg:20 src/settings/documentsettings.kcfg:21
 #, kde-format
 msgid "Collapsed tree view items of statistics view window."
 msgstr "सांख्यिकीदृश्यविण्डो इत्यस्य संकुचितवृक्षदृश्यवस्तूनाम् ।"
 
-#: src/settings/generaloptions.cpp:41
-#, kde-format
-msgctxt "CSV separator"
-msgid ";"
-msgstr ";"
-
-#: src/settings/generaloptions.cpp:42
-#, kde-format
-msgctxt "CSV separator"
-msgid "#"
-msgstr "# # ."
-
-#: src/settings/generaloptions.cpp:43
-#, kde-format
-msgctxt "CSV separator"
-msgid "!"
-msgstr "!"
-
-#: src/settings/generaloptions.cpp:44
-#, kde-format
-msgctxt "CSV separator"
-msgid "|"
-msgstr "|"
-
-#: src/settings/generaloptions.cpp:45
-#, kde-format
-msgctxt "CSV separator"
-msgid ","
-msgstr ", ९."
-
-#: src/settings/generaloptions.cpp:46
-#, kde-format
-msgctxt "CSV separator: tabulator"
-msgid "TAB"
-msgstr "TAB"
-
-#: src/settings/generaloptions.cpp:47
-#, kde-format
-msgctxt "CSV separator"
-msgid ">= 2 SPACES"
-msgstr ">= २ रिक्तस्थानम्"
-
-#: src/settings/generaloptions.cpp:48
-#, kde-format
-msgctxt "CSV separator"
-msgid " : "
-msgstr " : १. "
-
-#: src/settings/generaloptions.cpp:49
-#, kde-format
-msgctxt "CSV separator"
-msgid " :: "
-msgstr " :: "
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/settings/generaloptionsbase.ui:17
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #, kde-format
 msgid "Open/Save"
 msgstr "उद्घाटयतु/रक्षतु"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoOpenLast)
 #: src/settings/generaloptionsbase.ui:23
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoOpenLast)
 #, kde-format
 msgid "Always open the collection that was active when quitting Parley"
 msgstr "पार्ले त्यक्त्वा यः संग्रहः सक्रियः आसीत् सः सर्वदा उद्घाटयन्तु"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoOpenLast)
 #: src/settings/generaloptionsbase.ui:26
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoOpenLast)
 #, kde-format
 msgid ""
 "When this option is checked, the last active collection will be loaded "
 "automatically when starting Parley instead of showing the welcome screen."
 msgstr ""
-"यदा एषः विकल्पः परीक्षितः भवति तदा स्वागतपर्दे दर्शयितुं स्थाने Parley आरभ्यमाणे अन्तिमः "
-"सक्रियसङ्ग्रहः स्वयमेव लोड् भविष्यति ।"
+"यदा एषः विकल्पः परीक्षितः भवति तदा स्वागतपर्दे दर्शयितुं स्थाने Parley "
+"आरभ्यमाणे अन्तिमः सक्रियसङ्ग्रहः स्वयमेव लोड् भविष्यति ।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
 #: src/settings/generaloptionsbase.ui:29
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
 #, kde-format
 msgid "Always load the last opened collection on start"
 msgstr "आरम्भे एव अन्तिमः उद्घाटितः संग्रहः सर्वदा लोड् कुर्वन्तु"
 
+#: src/settings/generaloptionsbase.ui:39 src/settings/generaloptionsbase.ui:60
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSave)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoBackup)
-#: src/settings/generaloptionsbase.ui:39 src/settings/generaloptionsbase.ui:60
 #, kde-format
 msgid "Allow automatic saving of your work"
 msgstr "स्वकार्यस्य स्वचालितं रक्षणं अनुमन्यताम्"
 
+#: src/settings/generaloptionsbase.ui:42 src/settings/generaloptionsbase.ui:63
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSave)
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoBackup)
-#: src/settings/generaloptionsbase.ui:42 src/settings/generaloptionsbase.ui:63
 #, kde-format
 msgid "Your work will be automatically saved if you check this option"
 msgstr "यदि भवान् एतत् विकल्पं परीक्षते तर्हि भवतः कार्यं स्वयमेव रक्षितं भविष्यति"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
 #: src/settings/generaloptionsbase.ui:45
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
 #, kde-format
 msgid "&Save vocabularies automatically on close and quit"
 msgstr "&close इत्यत्र स्वयमेव शब्दावलीं रक्षन्तु तथा च त्यजन्तु"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoBackup)
 #: src/settings/generaloptionsbase.ui:66
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoBackup)
 #, kde-format
 msgid "&Create a backup every"
 msgstr "&प्रत्येकं बैकअपं रचयन्तु"
 
-#. i18n: ectx: property (text), widget (QLabel, lblBackupInterva)
 #: src/settings/generaloptionsbase.ui:89
+#. i18n: ectx: property (text), widget (QLabel, lblBackupInterva)
 #, kde-format
 msgid "minutes"
 msgstr "पन्चनिमेषः"
 
-#. i18n: ectx: property (text), widget (QLabel, label_sep)
 #: src/settings/generaloptionsbase.ui:100
+#. i18n: ectx: property (text), widget (QLabel, label_sep)
 #, kde-format
 msgid "Sep&arator for text file import/export (CSV):"
 msgstr "पाठसञ्चिका आयात/निर्यातस्य (CSV) कृते Sep&arator:"
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SeparatorCombo)
 #: src/settings/generaloptionsbase.ui:116
+#. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SeparatorCombo)
 #, kde-format
 msgid ""
 "Choose which separator you want to use to separate your data when importing "
 "and exporting text."
 msgstr ""
-"पाठस्य आयातस्य निर्यातस्य च समये भवान् स्वदत्तांशं पृथक् कर्तुं कस्य विभाजकस्य उपयोगं कर्तुम् "
-"इच्छति इति चिनोतु ।"
+"पाठस्य आयातस्य निर्यातस्य च समये भवान् स्वदत्तांशं पृथक् कर्तुं कस्य "
+"विभाजकस्य उपयोगं कर्तुम् इच्छति इति चिनोतु ।"
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SeparatorCombo)
 #: src/settings/generaloptionsbase.ui:119
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SeparatorCombo)
 #, kde-format
 msgid ""
 "Choose the separator to use to divide the parts of an expression when "
 "importing or exporting data as text."
 msgstr ""
-"पाठरूपेण दत्तांशस्य आयाते निर्याते वा व्यञ्जनस्य भागानां विभाजनार्थं उपयोक्तुं विभाजकं चिनोतु ।"
+"पाठरूपेण दत्तांशस्य आयाते निर्याते वा व्यञ्जनस्य भागानां विभाजनार्थं "
+"उपयोक्तुं विभाजकं चिनोतु ।"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/settings/generaloptionsbase.ui:144
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #, kde-format
 msgid "Editing"
 msgstr "सम्पादनम्"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmartAppend)
 #: src/settings/generaloptionsbase.ui:162
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmartAppend)
 #, kde-format
 msgid "&Append new rows automatically when editing"
 msgstr "&सम्पादनकाले स्वयमेव नूतनाः पङ्क्तयः योजयन्तु"
 
-#. i18n: ectx: property (text), widget (KNSWidgets::Button, getNewButton)
 #: src/settings/kgametheme/kgamethemeselector.ui:37
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, getNewButton)
 #, kde-format
 msgid "&Get New Themes..."
 msgstr "&नए विषयवस्तु प्राप्त करें..."
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/settings/kgametheme/kgamethemeselector.ui:94
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #, kde-format
 msgid "Theme Details"
 msgstr "विषयविवरणम्"
 
-#. i18n: ectx: property (text), widget (QLabel, labelContact)
 #: src/settings/kgametheme/kgamethemeselector.ui:128
+#. i18n: ectx: property (text), widget (QLabel, labelContact)
 #, kde-format
 msgid "Contact:"
 msgstr "संपर्कः:"
 
-#. i18n: ectx: property (text), widget (QLabel, labelDescription)
 #: src/settings/kgametheme/kgamethemeselector.ui:163
+#. i18n: ectx: property (text), widget (QLabel, labelDescription)
 #, kde-format
 msgid "Description:"
 msgstr "वर्णनम्‌:"
 
-#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
 #: src/settings/kgametheme/kgamethemeselector.ui:198
+#. i18n: ectx: property (text), widget (QLabel, labelAuthor)
 #, kde-format
 msgid "Author:"
 msgstr "लेखकः:"
-
-#: src/settings/languageproperties.cpp:23
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit Languages"
-msgstr "भाषा सम्पादयतु"
 
 #: src/settings/languageproperties.cpp:27
 #, kde-format
@@ -3286,12 +2924,6 @@ msgstr "भाषां निष्कासयतु"
 #, kde-format
 msgid "New Language"
 msgstr "नवीन भाषा"
-
-#: src/settings/languageproperties.cpp:58
-#, kde-format
-msgctxt "Edit language properties"
-msgid "Properties for %1"
-msgstr "%1 कृते गुणाः"
 
 #: src/settings/languageproperties.cpp:88
 #, kde-format
@@ -3334,725 +2966,739 @@ msgstr ""
 msgid "Deleting Tense Description"
 msgstr "कालविवरणं विलोपयन्"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: src/settings/languagepropertiespage.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
 #, kde-format
 msgid "General"
 msgstr "सामान्य"
 
-#. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #: src/settings/languagepropertiespage.ui:30
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #, kde-format
 msgid "Name:"
 msgstr "नामः:"
 
-#. i18n: ectx: property (text), widget (QLabel, keyboardLayoutLabel)
 #: src/settings/languagepropertiespage.ui:46
+#. i18n: ectx: property (text), widget (QLabel, keyboardLayoutLabel)
 #, kde-format
 msgid "Keyboard layout:"
 msgstr "कीबोर्डविन्यासः : १."
 
-#. i18n: ectx: property (text), widget (QPushButton, downloadGrammarButton)
 #: src/settings/languagepropertiespage.ui:75
+#. i18n: ectx: property (text), widget (QPushButton, downloadGrammarButton)
 #, kde-format
 msgid "&Download grammar"
 msgstr "&व्याकरण डाउनलोड करें"
 
-#. i18n: ectx: property (text), widget (QLabel, spellcheckerLabel)
 #: src/settings/languagepropertiespage.ui:88
+#. i18n: ectx: property (text), widget (QLabel, spellcheckerLabel)
 #, kde-format
 msgid "Spell checker:"
 msgstr "वर्तनीपरीक्षकः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, localeSelectionLabel)
 #: src/settings/languagepropertiespage.ui:101
+#. i18n: ectx: property (text), widget (QLabel, localeSelectionLabel)
 #, kde-format
 msgid "Language:"
 msgstr "भाषा:"
 
-#. i18n: ectx: property (text), widget (QLabel, fontLabel_2)
 #: src/settings/languagepropertiespage.ui:117
+#. i18n: ectx: property (text), widget (QLabel, fontLabel_2)
 #, kde-format
 msgid "Font (practice):"
 msgstr "फ़ॉन्ट (अभ्यास) : १."
 
-#. i18n: ectx: property (text), widget (QLabel, fontLabel_3)
 #: src/settings/languagepropertiespage.ui:127
+#. i18n: ectx: property (text), widget (QLabel, fontLabel_3)
 #, kde-format
 msgid "Font (editor):"
 msgstr "फॉन्ट (सम्पादक) : १."
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/settings/languagepropertiespage.ui:141
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #, kde-format
 msgid "Articles"
 msgstr "लेख"
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
-#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
 #: src/settings/languagepropertiespage.ui:153
 #: src/settings/languagepropertiespage.ui:404
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
 #, kde-format
 msgid "Definite"
 msgstr "निश्चितम्"
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
 #: src/settings/languagepropertiespage.ui:160
 #: src/settings/languagepropertiespage.ui:411
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
 #, kde-format
 msgid "Indefinite"
 msgstr "अनिश्चितकाल"
 
-#. i18n: ectx: property (text), widget (QLabel, male_label)
-#. i18n: ectx: property (text), widget (QLabel, male_label_2)
 #: src/settings/languagepropertiespage.ui:167
 #: src/settings/languagepropertiespage.ui:365
+#. i18n: ectx: property (text), widget (QLabel, male_label)
+#. i18n: ectx: property (text), widget (QLabel, male_label_2)
 #, kde-format
 msgid "&Male:"
 msgstr "&पुरुषः:"
 
-#. i18n: ectx: property (text), widget (QLabel, female_label)
-#. i18n: ectx: property (text), widget (QLabel, female_label_2)
 #: src/settings/languagepropertiespage.ui:190
 #: src/settings/languagepropertiespage.ui:352
+#. i18n: ectx: property (text), widget (QLabel, female_label)
+#. i18n: ectx: property (text), widget (QLabel, female_label_2)
 #, kde-format
 msgid "&Female:"
 msgstr "&महिला:"
 
-#. i18n: ectx: property (text), widget (QLabel, natural_label)
-#. i18n: ectx: property (text), widget (QLabel, natural_label_2)
 #: src/settings/languagepropertiespage.ui:223
 #: src/settings/languagepropertiespage.ui:339
+#. i18n: ectx: property (text), widget (QLabel, natural_label)
+#. i18n: ectx: property (text), widget (QLabel, natural_label_2)
 #, kde-format
 msgid "&Neutral:"
 msgstr "&तटस्थ:"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: src/settings/languagepropertiespage.ui:451
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #, kde-format
 msgid "Personal Pronouns"
 msgstr "व्यक्तिगत सर्वनाम"
 
-#. i18n: ectx: property (text), widget (QLabel, pers1_label)
 #: src/settings/languagepropertiespage.ui:507
+#. i18n: ectx: property (text), widget (QLabel, pers1_label)
 #, kde-format
 msgid "&1. Person:"
 msgstr "&1. व्यक्ति:"
 
-#. i18n: ectx: property (text), widget (QLabel, pers2_label)
 #: src/settings/languagepropertiespage.ui:543
+#. i18n: ectx: property (text), widget (QLabel, pers2_label)
 #, kde-format
 msgid "&2. Person:"
 msgstr "&2. व्यक्ति:"
 
-#. i18n: ectx: property (text), widget (QLabel, pers3_label)
 #: src/settings/languagepropertiespage.ui:579
+#. i18n: ectx: property (text), widget (QLabel, pers3_label)
 #, kde-format
 msgid "3. Person:"
 msgstr "3. व्यक्तिः : १."
 
-#. i18n: ectx: property (text), widget (QLabel, male_c_label)
 #: src/settings/languagepropertiespage.ui:589
+#. i18n: ectx: property (text), widget (QLabel, male_c_label)
 #, kde-format
 msgid "M&ale:"
 msgstr "एम एण्ड ए : १."
 
-#. i18n: ectx: property (text), widget (QLabel, female_c_label)
 #: src/settings/languagepropertiespage.ui:625
+#. i18n: ectx: property (text), widget (QLabel, female_c_label)
 #, kde-format
 msgid "F&emale:"
 msgstr "एफ एण्ड एम कृते : १."
 
-#. i18n: ectx: property (text), widget (QLabel, natural_c_label)
 #: src/settings/languagepropertiespage.ui:661
+#. i18n: ectx: property (text), widget (QLabel, natural_c_label)
 #, kde-format
 msgid "Neu&ter:"
 msgstr "नवीन&ter: १."
 
-#. i18n: ectx: property (text), widget (QCheckBox, dualCheckBox)
 #: src/settings/languagepropertiespage.ui:697
+#. i18n: ectx: property (text), widget (QCheckBox, dualCheckBox)
 #, kde-format
 msgid "Dual conjugations"
 msgstr "द्वन्द्वसंधिः"
 
-#. i18n: ectx: property (text), widget (QCheckBox, neutralCheckBox)
 #: src/settings/languagepropertiespage.ui:704
+#. i18n: ectx: property (text), widget (QCheckBox, neutralCheckBox)
 #, kde-format
 msgid "A neutral conjugation form exists"
 msgstr "तटस्थं संधिरूपं विद्यते"
 
-#. i18n: ectx: property (text), widget (QCheckBox, maleFemaleDifferCheckBox)
 #: src/settings/languagepropertiespage.ui:717
+#. i18n: ectx: property (text), widget (QCheckBox, maleFemaleDifferCheckBox)
 #, kde-format
 msgid "Male/female have different conjugations"
 msgstr "पुरुष/स्त्री इत्यस्य भिन्नाः संयोगाः सन्ति"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: src/settings/languagepropertiespage.ui:725
 #: src/statistics/conjugationoptions.cpp:24
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #, kde-format
 msgid "Tenses"
 msgstr "कालाः"
 
-#. i18n: ectx: property (text), widget (QPushButton, newButton)
 #: src/settings/languagepropertiespage.ui:752 src/settings/optionlistform.ui:63
+#. i18n: ectx: property (text), widget (QPushButton, newButton)
 #, kde-format
 msgid "&New..."
 msgstr "&नूतनम्‌..."
 
-#. i18n: ectx: property (text), widget (QPushButton, modifyButton)
 #: src/settings/languagepropertiespage.ui:765 src/settings/optionlistform.ui:78
+#. i18n: ectx: property (text), widget (QPushButton, modifyButton)
 #, kde-format
 msgid "&Modify..."
 msgstr "&संशोधन..."
 
-#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #: src/settings/languagepropertiespage.ui:778 src/settings/optionlistform.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #, kde-format
 msgid "&Delete"
 msgstr "&लुप्"
 
+#: src/settings/languagesettings.kcfg:12 src/settings/languagesettings.kcfg:13
 #. i18n: ectx: label, entry (KeyboardLayout), group (Locale $(locale))
 #. i18n: ectx: whatsthis, entry (KeyboardLayout), group (Locale $(locale))
-#: src/settings/languagesettings.kcfg:12 src/settings/languagesettings.kcfg:13
 #, kde-format
 msgid "Keyboard layout for this locale"
 msgstr "अस्य लोकेलस्य कीबोर्डविन्यासः"
 
+#: src/settings/languagesettings.kcfg:17 src/settings/languagesettings.kcfg:18
 #. i18n: ectx: label, entry (SpellChecker), group (Locale $(locale))
 #. i18n: ectx: whatsthis, entry (SpellChecker), group (Locale $(locale))
-#: src/settings/languagesettings.kcfg:17 src/settings/languagesettings.kcfg:18
 #, kde-format
 msgid "Spell checker for this language"
 msgstr "अस्याः भाषायाः वर्तनीपरीक्षकः"
 
-#. i18n: ectx: label, entry (PracticeFont), group (Locale $(locale))
 #: src/settings/languagesettings.kcfg:32
+#. i18n: ectx: label, entry (PracticeFont), group (Locale $(locale))
 #, kde-format
 msgid "The font used during practice"
 msgstr "अभ्यासकाले प्रयुक्तः फन्ट्"
 
-#. i18n: ectx: label, entry (EditorFont), group (Locale $(locale))
 #: src/settings/languagesettings.kcfg:36
+#. i18n: ectx: label, entry (EditorFont), group (Locale $(locale))
 #, kde-format
 msgid "The font used in the editor"
 msgstr "सम्पादके प्रयुक्तः फ़ॉन्ट्"
 
-#. i18n: ectx: property (text), widget (QPushButton, cleanUpButton)
 #: src/settings/optionlistform.ui:124
+#. i18n: ectx: property (text), widget (QPushButton, cleanUpButton)
 #, kde-format
 msgid "&Clean Up"
 msgstr "&स्वच्छता"
 
-#. i18n: ectx: label, entry (Theme), group (General)
 #: src/settings/parley.kcfg:11
+#. i18n: ectx: label, entry (Theme), group (General)
 #, kde-format
 msgid "Theme to use for practice and welcome screen"
 msgstr "अभ्यासस्य स्वागतपर्दे च उपयोक्तुं विषयः"
 
-#. i18n: ectx: label, entry (NumPreSetting), group (General)
 #: src/settings/parley.kcfg:15
+#. i18n: ectx: label, entry (NumPreSetting), group (General)
 #, kde-format
 msgid "Number of stored setting profiles"
 msgstr "संगृहीतसेटिंगप्रोफाइलस्य संख्या"
 
-#. i18n: ectx: label, entry (SmartAppend), group (General)
 #: src/settings/parley.kcfg:19
+#. i18n: ectx: label, entry (SmartAppend), group (General)
 #, kde-format
-msgid ""
-"If true, when using the entry dialog, new rows will be appended as needed"
+msgid "If true, when using the entry dialog, new rows will be appended as needed"
 msgstr ""
-"यदि सत्यं तर्हि प्रविष्टिसंवादस्य उपयोगं कुर्वन् आवश्यकतानुसारं नूतनाः पङ्क्तयः योजिताः "
-"भविष्यन्ति"
+"यदि सत्यं तर्हि प्रविष्टिसंवादस्य उपयोगं कुर्वन् आवश्यकतानुसारं नूतनाः "
+"पङ्क्तयः योजिताः भविष्यन्ति"
 
-#. i18n: ectx: label, entry (Separator), group (General)
 #: src/settings/parley.kcfg:23
+#. i18n: ectx: label, entry (Separator), group (General)
 #, kde-format
 msgid "This sets the separator used when copying/pasting text, default is Tab"
-msgstr "एतेन पाठस्य प्रतिलिपिं/चिपकने प्रयुक्तं विभाजकं सेट् भवति, पूर्वनिर्धारितं Tab अस्ति"
+msgstr ""
+"एतेन पाठस्य प्रतिलिपिं/चिपकने प्रयुक्तं विभाजकं सेट् भवति, पूर्वनिर्धारितं "
+"Tab अस्ति"
 
-#. i18n: ectx: label, entry (EntriesPerLesson), group (General)
 #: src/settings/parley.kcfg:27
+#. i18n: ectx: label, entry (EntriesPerLesson), group (General)
 #, kde-format
 msgid "The number of entries per unit"
 msgstr "प्रति-एककं प्रविष्टीनां संख्या"
 
-#. i18n: ectx: label, entry (AutoOpenLast), group (General)
 #: src/settings/parley.kcfg:31
+#. i18n: ectx: label, entry (AutoOpenLast), group (General)
 #, kde-format
 msgid "If true, on each application start the last opened file will be loaded"
-msgstr "यदि सत्यं तर्हि प्रत्येकस्मिन् अनुप्रयोगे आरम्भे अन्तिमः उद्घाटितः सञ्चिका लोड् भविष्यति"
+msgstr ""
+"यदि सत्यं तर्हि प्रत्येकस्मिन् अनुप्रयोगे आरम्भे अन्तिमः उद्घाटितः सञ्चिका "
+"लोड् भविष्यति"
 
-#. i18n: ectx: label, entry (AutoSave), group (General)
 #: src/settings/parley.kcfg:35
+#. i18n: ectx: label, entry (AutoSave), group (General)
 #, kde-format
 msgid "If true, vocabularies are automatically saved on close and exit"
 msgstr "यदि सत्यं तर्हि शब्दावलीः स्वयमेव close and exit इत्यत्र रक्षिताः भवन्ति"
 
-#. i18n: ectx: label, entry (AutoBackup), group (General)
 #: src/settings/parley.kcfg:42
+#. i18n: ectx: label, entry (AutoBackup), group (General)
 #, kde-format
 msgid "If true, a backup is saved every BackupTime minutes"
 msgstr "यदि सत्यं तर्हि प्रत्येकं BackupTime निमेषेषु एकः बैकअपः रक्षितः भवति"
 
-#. i18n: ectx: label, entry (BackupTime), group (General)
 #: src/settings/parley.kcfg:46
+#. i18n: ectx: label, entry (BackupTime), group (General)
 #, kde-format
 msgid "Time interval between two automatic backups"
 msgstr "स्वचालितबैकअपद्वयस्य मध्ये समयान्तरम्"
 
-#. i18n: ectx: label, entry (FlashcardsFrontImage), group (PracticeOptions)
 #: src/settings/parley.kcfg:57
+#. i18n: ectx: label, entry (FlashcardsFrontImage), group (PracticeOptions)
 #, kde-format
 msgid "Show images on the front of the flashcard."
 msgstr "फ्लैशकार्डस्य अग्रे चित्राणि दर्शयन्तु।"
 
-#. i18n: ectx: label, entry (FlashcardsBackImage), group (PracticeOptions)
 #: src/settings/parley.kcfg:61
+#. i18n: ectx: label, entry (FlashcardsBackImage), group (PracticeOptions)
 #, kde-format
 msgid "Show images on the back of the flashcard."
 msgstr "फ्लैशकार्डस्य पृष्ठभागे चित्राणि दर्शयन्तु।"
 
-#. i18n: ectx: label, entry (Block), group (PracticeOptions)
 #: src/settings/parley.kcfg:65
+#. i18n: ectx: label, entry (Block), group (PracticeOptions)
 #, kde-format
 msgid "In Blocking Query Tab Dialog, if checked then the Query is blocked"
 msgstr "Blocking Query Tab Dialog इत्यस्मिन् यदि चेक् कृतः तर्हि Query अवरुद्धः भवति"
 
-#. i18n: ectx: label, entry (Expire), group (PracticeOptions)
 #: src/settings/parley.kcfg:69
+#. i18n: ectx: label, entry (Expire), group (PracticeOptions)
 #, kde-format
 msgid ""
 "In Blocking Query Tab Dialog, if checked then the Query accepts an expiring "
 "time"
 msgstr ""
-"Blocking Query Tab Dialog इत्यस्मिन् यदि चेक् क्रियते तर्हि Query समाप्तसमयं स्वीकुर्वति"
+"Blocking Query Tab Dialog इत्यस्मिन् यदि चेक् क्रियते तर्हि Query "
+"समाप्तसमयं स्वीकुर्वति"
 
-#. i18n: ectx: label, entry (TestOrderLesson), group (PracticeOptions)
 #: src/settings/parley.kcfg:73
+#. i18n: ectx: label, entry (TestOrderLesson), group (PracticeOptions)
 #, kde-format
 msgid ""
 "Append new vocabulary in a collection in order of their units. Note that "
-"this will not be a hard transition, but a slow mix from one unit to the next."
+"this will not be a hard transition, but a slow mix from one unit to the "
+"next."
 msgstr ""
-"संग्रहे नूतनानि शब्दावलीं तेषां एककक्रमेण योजयन्तु। ध्यानं कुर्वन्तु यत् एषः कठिनः संक्रमणः न "
-"भविष्यति, अपितु एकस्मात् एककात् परं मन्दं मिश्रणं भविष्यति ।"
+"संग्रहे नूतनानि शब्दावलीं तेषां एककक्रमेण योजयन्तु। ध्यानं कुर्वन्तु यत् "
+"एषः कठिनः संक्रमणः न भविष्यति, अपितु एकस्मात् एककात् परं मन्दं मिश्रणं "
+"भविष्यति ।"
 
-#. i18n: ectx: label, entry (TestNumberOfEntries), group (PracticeOptions)
 #: src/settings/parley.kcfg:77
+#. i18n: ectx: label, entry (TestNumberOfEntries), group (PracticeOptions)
 #, kde-format
 msgid ""
 "The number of entries that are practiced at the same time. If one of these "
 "is answered correctly another entry will be appended."
 msgstr ""
-"एकस्मिन् समये यावन्तः प्रविष्टयः अभ्यासिताः भवन्ति। एतेषु एकस्य सम्यक् उत्तरं दत्तं चेत् अन्यः "
-"प्रविष्टिः संलग्नः भविष्यति ।"
+"एकस्मिन् समये यावन्तः प्रविष्टयः अभ्यासिताः भवन्ति। एतेषु एकस्य सम्यक् "
+"उत्तरं दत्तं चेत् अन्यः प्रविष्टिः संलग्नः भविष्यति ।"
 
-#. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
 #: src/settings/parley.kcfg:81
+#. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
 #, kde-format
 msgid "Swap direction randomly"
 msgstr "यादृच्छिकरूपेण दिशां अदला-बदली कुर्वन्तु"
 
-#. i18n: ectx: label, entry (PracticeTimeout), group (PracticeOptions)
 #: src/settings/parley.kcfg:86
+#. i18n: ectx: label, entry (PracticeTimeout), group (PracticeOptions)
 #, kde-format
 msgid "Limit the time for the user to answer in a test."
 msgstr "परीक्षायां उपयोक्तुः उत्तरं दातुं समयं सीमितं कुर्वन्तु।"
 
-#. i18n: ectx: label, entry (PracticeTimeoutMode), group (PracticeOptions)
 #: src/settings/parley.kcfg:90
+#. i18n: ectx: label, entry (PracticeTimeoutMode), group (PracticeOptions)
 #, kde-format
 msgid ""
 "Show - show the solution after the given time; Continue - go to the next "
 "question after the given time."
 msgstr ""
-"दर्शयतु - दत्तसमयानन्तरं समाधानं दर्शयतु; निरन्तरं कुर्वन्तु - दत्तसमयानन्तरं अग्रिमप्रश्ने गच्छन्तु।"
+"दर्शयतु - दत्तसमयानन्तरं समाधानं दर्शयतु; निरन्तरं कुर्वन्तु - "
+"दत्तसमयानन्तरं अग्रिमप्रश्ने गच्छन्तु।"
 
-#. i18n: ectx: label, entry (PracticeTimeoutTimePerAnswer), group (PracticeOptions)
 #: src/settings/parley.kcfg:98
+#. i18n: ectx: label, entry (PracticeTimeoutTimePerAnswer), group (PracticeOptions)
 #, kde-format
 msgid "Maximum time allowed to answer."
 msgstr "उत्तरं दातुं अधिकतमः समयः अनुमतः।"
 
-#. i18n: ectx: label, entry (Suggestions), group (PracticeOptions)
 #: src/settings/parley.kcfg:103
+#. i18n: ectx: label, entry (Suggestions), group (PracticeOptions)
 #, kde-format
 msgid "Enable suggestion lists in written practice."
 msgstr "लिखितव्यवहारे सुझावसूचीं सक्षमं कुर्वन्तु।"
 
-#. i18n: ectx: label, entry (ShowHints), group (PracticeOptions)
 #: src/settings/parley.kcfg:107
+#. i18n: ectx: label, entry (ShowHints), group (PracticeOptions)
 #, kde-format
 msgid "Enable the showing of hints."
 msgstr "संकेतानां प्रदर्शनं सक्षमं कुर्वन्तु।"
 
-#. i18n: ectx: label, entry (IgnoreAccentMistakes), group (PracticeOptions)
 #: src/settings/parley.kcfg:111
+#. i18n: ectx: label, entry (IgnoreAccentMistakes), group (PracticeOptions)
 #, kde-format
 msgid "Count answers as right when only the accentuation is wrong."
 msgstr "उत्तराणि सम्यक् इति गणयन्तु यदा केवलं उच्चारणं गलतं भवति।"
 
-#. i18n: ectx: label, entry (IgnoreCapitalizationMistakes), group (PracticeOptions)
 #: src/settings/parley.kcfg:115
+#. i18n: ectx: label, entry (IgnoreCapitalizationMistakes), group (PracticeOptions)
 #, kde-format
 msgid "Count answers as right when only the capitalization is wrong."
 msgstr "उत्तराणि सम्यक् इति गणयन्तु यदा केवलं दीर्घलेखनं गलतं भवति।"
 
-#. i18n: ectx: label, entry (IgnorePunctuationMistakes), group (PracticeOptions)
 #: src/settings/parley.kcfg:119
+#. i18n: ectx: label, entry (IgnorePunctuationMistakes), group (PracticeOptions)
 #, kde-format
 msgid "Count answers as right when only the punctuation is wrong."
 msgstr "यदा केवलं विरामचिह्नं दोषपूर्णं भवति तदा उत्तराणि सम्यक् इति गणयन्तु।"
 
-#. i18n: ectx: label, entry (SplitTranslations), group (PracticeOptions)
 #: src/settings/parley.kcfg:124
+#. i18n: ectx: label, entry (SplitTranslations), group (PracticeOptions)
 #, kde-format
 msgid "Split translations in written practice."
 msgstr "लिखित व्यवहारे अनुवादाः विभक्ताः।"
 
-#. i18n: ectx: label, entry (Periods), group (PracticeOptions)
 #: src/settings/parley.kcfg:128
+#. i18n: ectx: label, entry (Periods), group (PracticeOptions)
 #, kde-format
 msgid "Split translations at periods."
 msgstr "अवधिषु अनुवादाः विभक्ताः।"
 
-#. i18n: ectx: label, entry (Colons), group (PracticeOptions)
 #: src/settings/parley.kcfg:132
+#. i18n: ectx: label, entry (Colons), group (PracticeOptions)
 #, kde-format
 msgid "Split translations at colons."
 msgstr "कोलोन इत्यत्र अनुवादाः विभक्ताः ।"
 
-#. i18n: ectx: label, entry (Semicolons), group (PracticeOptions)
 #: src/settings/parley.kcfg:136
+#. i18n: ectx: label, entry (Semicolons), group (PracticeOptions)
 #, kde-format
 msgid "Split translations at semicolons."
 msgstr "अर्धविरामस्थानेषु अनुवादाः विभक्ताः ।"
 
-#. i18n: ectx: label, entry (Commas), group (PracticeOptions)
 #: src/settings/parley.kcfg:140
+#. i18n: ectx: label, entry (Commas), group (PracticeOptions)
 #, kde-format
 msgid "Split translations at commas."
 msgstr "अल्पविरामस्थाने अनुवादाः विभक्ताः ।"
 
-#. i18n: ectx: label, entry (ShowMore), group (PracticeOptions)
 #: src/settings/parley.kcfg:146
+#. i18n: ectx: label, entry (ShowMore), group (PracticeOptions)
 #, kde-format
-msgid ""
-"Enable Show More button to reveal parts of the solution in written practice."
+msgid "Enable Show More button to reveal parts of the solution in written practice."
 msgstr "लिखितव्यवहारे समाधानस्य भागं प्रकाशयितुं Show More बटनं सक्षमं कुर्वन्तु।"
 
-#. i18n: ectx: label, entry (SkipKnownEnabled), group (PracticeOptions)
 #: src/settings/parley.kcfg:150
+#. i18n: ectx: label, entry (SkipKnownEnabled), group (PracticeOptions)
 #, kde-format
 msgid "Enable Skip (I Know It) button in written practice."
 msgstr "लिखितव्यवहारे Skip (I Know It) बटनं सक्षमं कुर्वन्तु।"
 
-#. i18n: ectx: label, entry (CountSynonymsAsCorrect), group (PracticeOptions)
 #: src/settings/parley.kcfg:154
+#. i18n: ectx: label, entry (CountSynonymsAsCorrect), group (PracticeOptions)
 #, kde-format
-msgid ""
-"When the synonym instead of the word was entered, does it count as correct?"
+msgid "When the synonym instead of the word was entered, does it count as correct?"
 msgstr "यदा शब्दस्य स्थाने पर्यायः प्रविष्टः तदा किं तत् सम्यक् इति गण्यते ?"
 
-#. i18n: ectx: label, entry (PracticeImagesEnabled), group (PracticeOptions)
 #: src/settings/parley.kcfg:158
+#. i18n: ectx: label, entry (PracticeImagesEnabled), group (PracticeOptions)
 #, kde-format
 msgid "Enable image display in the practice dialogs."
 msgstr "अभ्याससंवादेषु चित्रप्रदर्शनं सक्षमं कुर्वन्तु ।"
 
-#. i18n: ectx: label, entry (PracticeSoundEnabled), group (PracticeOptions)
 #: src/settings/parley.kcfg:162
+#. i18n: ectx: label, entry (PracticeSoundEnabled), group (PracticeOptions)
 #, kde-format
 msgid "Enable sound playback in the practice dialogs."
 msgstr "अभ्याससंवादेषु ध्वनिवादनं सक्षमं कुर्वन्तु ।"
 
-#. i18n: ectx: label, entry (AllowImageInsteadOfWord), group (PracticeOptions)
 #: src/settings/parley.kcfg:166
+#. i18n: ectx: label, entry (AllowImageInsteadOfWord), group (PracticeOptions)
 #, kde-format
 msgid ""
-"Allow using images instead of words in flashcards. This will only be done if "
-"there is no word in the entry."
+"Allow using images instead of words in flashcards. This will only be done "
+"if there is no word in the entry."
 msgstr ""
-"फ्लैशकार्ड् मध्ये शब्दानां स्थाने चित्राणां उपयोगं अनुमन्यताम् । एतत् केवलं तदा एव भविष्यति यदा "
-"प्रविष्टौ शब्दः नास्ति।"
+"फ्लैशकार्ड् मध्ये शब्दानां स्थाने चित्राणां उपयोगं अनुमन्यताम् । एतत् केवलं "
+"तदा एव भविष्यति यदा प्रविष्टौ शब्दः नास्ति।"
 
-#. i18n: ectx: label, entry (SessionMaxSize), group (PracticeOptions)
 #: src/settings/parley.kcfg:172
+#. i18n: ectx: label, entry (SessionMaxSize), group (PracticeOptions)
 #, kde-format
-msgid ""
-"The maximum number of words that will be practiced in a training session."
+msgid "The maximum number of words that will be practiced in a training session."
 msgstr "प्रशिक्षणसत्रे यत् शब्दानां अधिकतमं अभ्यासः भविष्यति।"
 
-#. i18n: ectx: label, entry (SessionMaxNewWords), group (PracticeOptions)
 #: src/settings/parley.kcfg:176
+#. i18n: ectx: label, entry (SessionMaxNewWords), group (PracticeOptions)
 #, kde-format
 msgid ""
 "The maximum number of new (untrained) words that will be used in a training "
 "session."
 msgstr "प्रशिक्षणसत्रे यत् अधिकतमं नूतनं (अप्रशिक्षितं) शब्दं प्रयुक्तं भविष्यति।"
 
-#. i18n: ectx: label, entry (SessionLimitWordsInitialPhase), group (PracticeOptions)
 #: src/settings/parley.kcfg:180
+#. i18n: ectx: label, entry (SessionLimitWordsInitialPhase), group (PracticeOptions)
 #, kde-format
 msgid "Limit the number of words in the initial phase."
 msgstr "प्रारम्भिकपदे शब्दानां संख्यां सीमितं कुर्वन्तु।"
 
-#. i18n: ectx: label, entry (SessionMaxWordsInitialPhase), group (PracticeOptions)
 #: src/settings/parley.kcfg:184
+#. i18n: ectx: label, entry (SessionMaxWordsInitialPhase), group (PracticeOptions)
 #, kde-format
 msgid ""
-"The maximum number of words in the initial phase. If this limit is exceeded, "
-"no new words will be introduced."
+"The maximum number of words in the initial phase. If this limit is "
+"exceeded, no new words will be introduced."
 msgstr ""
-"प्रारम्भिकचरणस्य अधिकतमं शब्दसङ्ख्या । यदि एषा सीमा अतिक्रान्ता भवति तर्हि नूतनाः शब्दाः "
-"न प्रवर्तन्ते ।"
+"प्रारम्भिकचरणस्य अधिकतमं शब्दसङ्ख्या । यदि एषा सीमा अतिक्रान्ता भवति तर्हि "
+"नूतनाः शब्दाः न प्रवर्तन्ते ।"
 
-#. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
 #: src/settings/parley.kcfg:190
+#. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
 #, kde-format
 msgid ""
 "Use the same word type as the solution for the incorrect answers in a "
 "multiple choice practice."
-msgstr "बहुविकल्पाभ्यासे अशुद्धोत्तराणां समाधानरूपेण समानशब्दप्रकारस्य उपयोगं कुर्वन्तु।"
+msgstr ""
+"बहुविकल्पाभ्यासे अशुद्धोत्तराणां समाधानरूपेण समानशब्दप्रकारस्य उपयोगं "
+"कुर्वन्तु।"
 
-#. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group (PracticeOptions)
 #: src/settings/parley.kcfg:194
+#. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group (PracticeOptions)
 #, kde-format
 msgid ""
 "How many answers are provided for a multiple choice question, including the "
 "correct answer."
-msgstr "बहुविकल्पीयप्रश्नस्य कृते कति उत्तराणि प्रदत्तानि सन्ति, यत्र सम्यक् उत्तरं अपि अस्ति।"
+msgstr ""
+"बहुविकल्पीयप्रश्नस्य कृते कति उत्तराणि प्रदत्तानि सन्ति, यत्र सम्यक् उत्तरं "
+"अपि अस्ति।"
 
-#. i18n: ectx: label, entry (ShowSearch), group (Appearance)
 #: src/settings/parley.kcfg:201
+#. i18n: ectx: label, entry (ShowSearch), group (Appearance)
 #, kde-format
 msgid "Toggle display of the search bar."
 msgstr "अन्वेषणपट्टिकायाः प्रदर्शनं टॉगल कुर्वन्तु ।"
 
-#. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
 #: src/settings/parley.kcfg:206
+#. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
 #, kde-format
 msgid "When enabled a unit also shows entries from its subunits."
 msgstr "यदा सक्षमः भवति तदा कश्चन एककः स्वस्य उप-एककानां प्रविष्टयः अपि दर्शयति ।"
 
-#. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
 #: src/settings/parley.kcfg:211
+#. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
 #, kde-format
 msgid "Show/hide the unit column."
 msgstr "एककस्तम्भं दर्शयतु/गोपयतु।"
 
-#. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
 #: src/settings/parley.kcfg:216
+#. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
 #, kde-format
 msgid "Show/hide the active column."
 msgstr "सक्रियस्तम्भं दर्शयतु/गोपयतु।"
 
-#. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
 #: src/settings/parley.kcfg:221
+#. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
 #, kde-format
 msgid "Select which units are displayed for editing"
 msgstr "सम्पादनार्थं के के यूनिट् प्रदर्शिताः इति चिनोतु"
 
-#. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
 #: src/settings/parley.kcfg:231
+#. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
 #, kde-format
 msgid "How the main window is divided."
 msgstr "मुख्यजालकं कथं विभक्तम् अस्ति।"
 
-#. i18n: ectx: label, entry (PracticeFont), group (Appearance)
 #: src/settings/parley.kcfg:235
+#. i18n: ectx: label, entry (PracticeFont), group (Appearance)
 #, kde-format
 msgid "The font used in the vocabulary table"
 msgstr "शब्दावलीसारणीयां प्रयुक्तः फन्ट्"
 
-#. i18n: ectx: label, entry (IPAFont), group (Appearance)
 #: src/settings/parley.kcfg:239
+#. i18n: ectx: label, entry (IPAFont), group (Appearance)
 #, kde-format
 msgid "The font used for phonetics"
 msgstr "ध्वन्यात्मकतायाः कृते प्रयुक्तः फन्ट्"
 
-#. i18n: ectx: label, entry (CurrentCol), group (Appearance)
 #: src/settings/parley.kcfg:243
+#. i18n: ectx: label, entry (CurrentCol), group (Appearance)
 #, kde-format
 msgid "Currently selected column"
 msgstr "सम्प्रति चयनितः स्तम्भः"
 
-#. i18n: ectx: label, entry (CurrentRow), group (Appearance)
 #: src/settings/parley.kcfg:247
+#. i18n: ectx: label, entry (CurrentRow), group (Appearance)
 #, kde-format
 msgid "Currently selected row"
 msgstr "सम्प्रति चयनिता पङ्क्तिः"
 
-#. i18n: ectx: label, entry (GradeColor), group (Appearance)
 #: src/settings/parley.kcfg:251
+#. i18n: ectx: label, entry (GradeColor), group (Appearance)
 #, kde-format
 msgid "Color used to display the confidence levels"
 msgstr "विश्वासस्तरं प्रदर्शयितुं प्रयुक्तः वर्णः"
 
-#. i18n: ectx: label, entry (PreGradeColor), group (Appearance)
 #: src/settings/parley.kcfg:255
+#. i18n: ectx: label, entry (PreGradeColor), group (Appearance)
 #, kde-format
 msgid "Color used to display the early confidence levels"
 msgstr "प्रारम्भिकविश्वासस्तरं प्रदर्शयितुं प्रयुक्तः वर्णः"
 
+#: src/settings/parley.kcfg:259 src/settings/viewoptionsbase.ui:184
 #. i18n: ectx: label, entry (InvalidUnitColor), group (Appearance)
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_InvalidUnitColor)
-#: src/settings/parley.kcfg:259 src/settings/viewoptionsbase.ui:184
 #, kde-format
 msgid "Color used to display invalid units"
 msgstr "अमान्य-एककानां प्रदर्शनार्थं प्रयुक्तः वर्णः"
 
-#. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
 #: src/settings/parley.kcfg:267
+#. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
 #, kde-format
 msgid ""
 "The entry must have been asked at least this often to be included in the "
 "practice."
 msgstr "प्रविष्टिः अभ्यासे समाविष्टुं न्यूनातिन्यूनं एतत् प्रायः पृष्टा स्यात्।"
 
-#. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
 #: src/settings/parley.kcfg:271
+#. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
 #, kde-format
 msgid ""
 "The entry must have been asked at most this often to be included in the "
 "practice."
 msgstr "प्रविष्टिः अभ्यासे समाविष्टुं अधिकतया एतत् प्रायः पृष्टा स्यात्।"
 
-#. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
 #: src/settings/parley.kcfg:276
+#. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
 #, kde-format
 msgid ""
 "The entry must have been answered incorrectly at least this often to be "
 "included in the practice."
-msgstr "अभ्यासे समाविष्टुं प्रविष्टेः न्यूनातिन्यूनम् एतत् प्रायः गलत् उत्तरं दत्तं भवितुमर्हति।"
+msgstr ""
+"अभ्यासे समाविष्टुं प्रविष्टेः न्यूनातिन्यूनम् एतत् प्रायः गलत् उत्तरं दत्तं "
+"भवितुमर्हति।"
 
-#. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
 #: src/settings/parley.kcfg:280
+#. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
 #, kde-format
 msgid ""
 "The entry must have been answered incorrectly at most this often to be "
 "included in the practice."
-msgstr "अभ्यासे समाविष्टुं प्रविष्टेः अधिकतया एतत् प्रायः गलत् उत्तरं दत्तं भवितुमर्हति।"
+msgstr ""
+"अभ्यासे समाविष्टुं प्रविष्टेः अधिकतया एतत् प्रायः गलत् उत्तरं दत्तं "
+"भवितुमर्हति।"
 
-#. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
 #: src/settings/parley.kcfg:285
+#. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
 #, kde-format
 msgid ""
 "The entry must have at least this confidence level to be included in the "
 "practice (0..7)."
-msgstr "अभ्यासे (0..7) समाविष्टुं प्रविष्टेः न्यूनातिन्यूनं एषः विश्वासस्तरः भवितुमर्हति।"
+msgstr ""
+"अभ्यासे (0..7) समाविष्टुं प्रविष्टेः न्यूनातिन्यूनं एषः विश्वासस्तरः "
+"भवितुमर्हति।"
 
-#. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
 #: src/settings/parley.kcfg:289
+#. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
 #, kde-format
 msgid ""
 "The entry must have at most this confidence level to be included in the "
 "practice (0..7)."
 msgstr "अभ्यासे (0..7) समाविष्टुं प्रविष्टेः अधिकतमं एषः विश्वासस्तरः भवितुमर्हति।"
 
-#. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
 #: src/settings/parley.kcfg:293
+#. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
 #, kde-format
 msgid "Only selected word types will be included in practice."
 msgstr "केवलं चयनितशब्दप्रकाराः एव व्यवहारे समाविष्टाः भविष्यन्ति।"
 
+#: src/settings/parley.kcfg:297 src/settings/parley.kcfg:298
 #. i18n: ectx: label, entry (WordTypesInPractice), group (Thresholds)
 #. i18n: ectx: whatsthis, entry (WordTypesInPractice), group (Thresholds)
-#: src/settings/parley.kcfg:297 src/settings/parley.kcfg:298
 #, kde-format
 msgid "Selected word types for practices."
 msgstr "अभ्यासानां कृते चयनितशब्दप्रकाराः।"
 
+#: src/settings/parley.kcfg:301 src/settings/parley.kcfg:302
 #. i18n: ectx: label, entry (SubWordTypesInPractice), group (Thresholds)
 #. i18n: ectx: whatsthis, entry (SubWordTypesInPractice), group (Thresholds)
-#: src/settings/parley.kcfg:301 src/settings/parley.kcfg:302
 #, kde-format
 msgid "Selected sub word types for practices."
 msgstr "अभ्यासानां कृते उपशब्दप्रकाराः चयनिताः।"
 
-#. i18n: ectx: label, entry (LearningLanguage), group (PracticeManager)
 #: src/settings/parley.kcfg:309
+#. i18n: ectx: label, entry (LearningLanguage), group (PracticeManager)
 #, kde-format
 msgid "The language that you are learning."
 msgstr "या भाषा भवन्तः शिक्षन्ते।"
 
-#. i18n: ectx: label, entry (KnownLanguage), group (PracticeManager)
 #: src/settings/parley.kcfg:313
+#. i18n: ectx: label, entry (KnownLanguage), group (PracticeManager)
 #, kde-format
 msgid "The language that you know already."
 msgstr "या भाषा भवन्तः पूर्वमेव जानन्ति।"
 
-#. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
 #: src/settings/parley.kcfg:318
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
 #, kde-format
 msgid "Show the solution after an answer was given."
 msgstr "उत्तरं दत्तस्य अनन्तरं समाधानं दर्शयतु।"
 
-#. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group (PracticeManager)
 #: src/settings/parley.kcfg:322
+#. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group (PracticeManager)
 #, kde-format
 msgid "The time the solution is shown (seconds). 0 is unlimited."
 msgstr "समाधानं दर्शितं समयं (सेकेण्ड्)। ० असीमितम् ।"
 
-#. i18n: ectx: label, entry (PracticeMode), group (PracticeManager)
 #: src/settings/parley.kcfg:337
+#. i18n: ectx: label, entry (PracticeMode), group (PracticeManager)
 #, kde-format
 msgid "The practice method that is currently selected."
 msgstr "अभ्यासविधिः यः सम्प्रति चयनितः अस्ति।"
 
-#. i18n: ectx: label, entry (PracticeDirection), group (PracticeManager)
 #: src/settings/parley.kcfg:348
+#. i18n: ectx: label, entry (PracticeDirection), group (PracticeManager)
 #, kde-format
 msgid "The practice mode that is currently selected."
 msgstr "अभ्यासविधिः यः सम्प्रति चयनितः अस्ति ।"
 
-#. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
 #: src/settings/parley.kcfg:354
+#. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
 #, kde-format
 msgid "Amount of time different confidence levels should be blocked"
 msgstr "समयस्य परिमाणं भिन्नविश्वासस्तराः अवरुद्धाः भवेयुः"
 
-#. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
 #: src/settings/parley.kcfg:365
+#. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
 #, kde-format
 msgid "Amount of time after which different confidence levels should expire"
 msgstr "यस्य समयस्य अनन्तरं भिन्नाः विश्वासस्तराः समाप्ताः भवेयुः"
 
-#. i18n: ectx: label, entry (RememberPracticeDirection), group (PracticeManager)
 #: src/settings/parley.kcfg:375
+#. i18n: ectx: label, entry (RememberPracticeDirection), group (PracticeManager)
 #, kde-format
 msgid "If true, the practice direction for each practice mode is stored."
 msgstr "यदि सत्यं तर्हि प्रत्येकस्य अभ्यासविधानस्य अभ्यासदिशा संगृहीता भवति ।"
 
-#. i18n: ectx: whatsthis, entry (RememberPracticeDirection), group (PracticeManager)
 #: src/settings/parley.kcfg:376
+#. i18n: ectx: whatsthis, entry (RememberPracticeDirection), group (PracticeManager)
 #, kde-format
 msgid "Should the practice direction for each practice mode be stored?"
 msgstr "प्रत्येकस्य अभ्यासविधानस्य अभ्यासदिशा संग्रहणीया वा ?"
 
+#: src/settings/parley.kcfg:380 src/settings/parley.kcfg:381
 #. i18n: ectx: label, entry (PracticeDirectionsByPracticeMode), group (PracticeManager)
 #. i18n: ectx: whatsthis, entry (PracticeDirectionsByPracticeMode), group (PracticeManager)
-#: src/settings/parley.kcfg:380 src/settings/parley.kcfg:381
 #, kde-format
 msgid "Stored values of practice direction for each practice mode."
 msgstr "प्रत्येकस्य अभ्यासविधानस्य कृते अभ्यासदिशायाः संगृहीतमूल्यानि।"
 
-#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
 #: src/settings/parley.kcfg:387
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
 #, kde-format
 msgid "The Providers path for Parley"
 msgstr "पार्ले कृते प्रदातृमार्गः"
 
-#. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
 #: src/settings/parley.kcfg:391
+#. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
 #, kde-format
 msgid "The command used to start a downloaded vocabulary"
 msgstr "डाउनलोड् कृतं शब्दावलीं आरभ्यतुं प्रयुक्तः आदेशः"
 
-#. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
 #: src/settings/parley.kcfg:395
+#. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
 #, kde-format
 msgid "The folder where downloaded vocabularies are saved by default"
 msgstr "यत्र डाउनलोड् कृताः शब्दावलीः पूर्वनिर्धारितरूपेण रक्षिताः भवन्ति तत् पुटम्"
@@ -4061,12 +3707,6 @@ msgstr "यत्र डाउनलोड् कृताः शब्दाव
 #, kde-format
 msgid "Theme"
 msgstr "विषयवस्तु"
-
-#: src/settings/parleyprefs.cpp:27
-#, kde-format
-msgctxt "title:window general settings"
-msgid "General"
-msgstr "सामान्य"
 
 #: src/settings/parleyprefs.cpp:27
 #, kde-format
@@ -4108,132 +3748,137 @@ msgstr "translate-shell कार्यान्वयनीयं न लब्
 msgid "Error"
 msgstr "त्रुटि"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBoxInstalledStatus)
 #: src/settings/translationshellpage.ui:18
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxInstalledStatus)
 #, kde-format
 msgid "Translation Shell Integration"
 msgstr "अनुवाद शेल एकीकरण"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/settings/translationshellpage.ui:52
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #, kde-format
 msgid "Run Interactive Functionality Test"
 msgstr "अन्तरक्रियाशील कार्यक्षमता परीक्षण चालित करें"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/settings/translationshellpage.ui:58
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid ""
 "The interaction test request translation of English word \"parley\" into "
 "German."
 msgstr ""
-"The interaction test request translation of English word \"parley\" in जर्मन."
+"The interaction test request translation of English word \"parley\" in "
+"जर्मन."
 
-#. i18n: ectx: property (text), widget (QToolButton, buttonRunTest)
 #: src/settings/translationshellpage.ui:68
+#. i18n: ectx: property (text), widget (QToolButton, buttonRunTest)
 #, kde-format
 msgid "Start online test"
 msgstr "ऑनलाइन परीक्षणं आरभत"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/settings/translationshellpage.ui:88
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Result:"
 msgstr "परिणाम:"
 
-#. i18n: ectx: property (text), widget (QLabel, labelResultArea)
 #: src/settings/translationshellpage.ui:101
+#. i18n: ectx: property (text), widget (QLabel, labelResultArea)
 #, kde-format
 msgid "..."
 msgstr "..."
 
-#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_IPAFont)
 #: src/settings/viewoptionsbase.ui:41
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_IPAFont)
 #, kde-format
 msgid ""
 "Specify which font to use for displaying pronunciations using phonetic "
 "symbols."
 msgstr ""
-"ध्वन्यात्मकचिह्नानां उपयोगेन उच्चारणं प्रदर्शयितुं कस्य फन्ट् इत्यस्य उपयोगः करणीयः इति "
-"निर्दिशन्तु ।"
+"ध्वन्यात्मकचिह्नानां उपयोगेन उच्चारणं प्रदर्शयितुं कस्य फन्ट् इत्यस्य "
+"उपयोगः करणीयः इति निर्दिशन्तु ।"
 
-#. i18n: ectx: property (text), widget (QLabel, IPAFontLabel)
 #: src/settings/viewoptionsbase.ui:48
+#. i18n: ectx: property (text), widget (QLabel, IPAFontLabel)
 #, kde-format
 msgid "&Pronunciation symbols font:"
 msgstr "&उच्चारण चिह्न font:"
 
-#. i18n: ectx: property (text), widget (QLabel, gradeColorLabel)
 #: src/settings/viewoptionsbase.ui:77
+#. i18n: ectx: property (text), widget (QLabel, gradeColorLabel)
 #, kde-format
 msgid "Base color for displaying grades:"
 msgstr "ग्रेड् प्रदर्शयितुं आधारवर्णः : १."
 
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor)
 #: src/settings/viewoptionsbase.ui:96
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GradeColor)
 #, kde-format
 msgid "Color used to display the progress"
 msgstr "प्रगतिप्रदर्शनार्थं प्रयुक्तः वर्णः"
 
-#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor)
 #: src/settings/viewoptionsbase.ui:99
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GradeColor)
 #, kde-format
 msgid "Click here to change the color used to display the progress."
 msgstr "प्रगतिप्रदर्शनार्थं प्रयुक्तं वर्णं परिवर्तयितुं अत्र क्लिक् कुर्वन्तु ।"
 
+#: src/settings/viewoptionsbase.ui:102 src/settings/viewoptionsbase.ui:146
+#: src/settings/viewoptionsbase.ui:190
 #. i18n: ectx: property (text), widget (KColorButton, kcfg_GradeColor)
 #. i18n: ectx: property (text), widget (KColorButton, kcfg_PreGradeColor)
 #. i18n: ectx: property (text), widget (KColorButton, kcfg_InvalidUnitColor)
-#: src/settings/viewoptionsbase.ui:102 src/settings/viewoptionsbase.ui:146
-#: src/settings/viewoptionsbase.ui:190
 #, kde-format
 msgid "&Base"
 msgstr "&आधार"
 
-#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor)
 #: src/settings/viewoptionsbase.ui:105
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_GradeColor)
 #, kde-format
 msgid "Alt+0"
 msgstr "अल्ट+०"
 
-#. i18n: ectx: property (text), widget (QLabel, preGradeColorLabel)
 #: src/settings/viewoptionsbase.ui:121
+#. i18n: ectx: property (text), widget (QLabel, preGradeColorLabel)
 #, kde-format
 msgid "Color for displaying early progress:"
 msgstr "प्रारम्भिकप्रगतेः प्रदर्शनार्थं वर्णः : १."
 
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:140
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_PreGradeColor)
 #, kde-format
 msgid "Color used to display the early progress"
 msgstr "प्रारम्भिकप्रगतिः प्रदर्शयितुं प्रयुक्तः वर्णः"
 
-#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:143
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_PreGradeColor)
 #, kde-format
 msgid "Click here to change the color used to display the early progress."
-msgstr "प्रारम्भिकप्रगतिः प्रदर्शयितुं प्रयुक्तं वर्णं परिवर्तयितुं अत्र क्लिक् कुर्वन्तु ।"
+msgstr ""
+"प्रारम्भिकप्रगतिः प्रदर्शयितुं प्रयुक्तं वर्णं परिवर्तयितुं अत्र क्लिक् "
+"कुर्वन्तु ।"
 
-#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:149
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_PreGradeColor)
 #, kde-format
 msgid "Alt+1"
 msgstr "अल्ट+१"
 
-#. i18n: ectx: property (text), widget (QLabel, invalidUnitColorLabel)
 #: src/settings/viewoptionsbase.ui:165
+#. i18n: ectx: property (text), widget (QLabel, invalidUnitColorLabel)
 #, kde-format
 msgid "Color used to display the grades:"
 msgstr "ग्रेड्स् प्रदर्शयितुं प्रयुक्तः वर्णः : १."
 
-#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_InvalidUnitColor)
 #: src/settings/viewoptionsbase.ui:187
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_InvalidUnitColor)
 #, kde-format
 msgid "Click here to change the color used to display invalid units."
-msgstr "अमान्य-एककान् प्रदर्शयितुं प्रयुक्तं वर्णं परिवर्तयितुं अत्र क्लिक् कुर्वन्तु ।"
+msgstr ""
+"अमान्य-एककान् प्रदर्शयितुं प्रयुक्तं वर्णं परिवर्तयितुं अत्र क्लिक् "
+"कुर्वन्तु ।"
 
-#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_InvalidUnitColor)
 #: src/settings/viewoptionsbase.ui:193
+#. i18n: ectx: property (shortcut), widget (KColorButton, kcfg_InvalidUnitColor)
 #, kde-format
 msgid "Alt+2"
 msgstr "Alt+2"
@@ -4274,18 +3919,6 @@ msgstr "न अभ्यासः"
 msgid "Invalid Entries"
 msgstr "अमान्य प्रविष्टयः"
 
-#: src/statistics/statisticslegendwidget.cpp:46
-#, kde-format
-msgctxt "adjective, The word has been properly and fully learned by the user"
-msgid "Fully learned"
-msgstr "पूर्णतया विद्वान्"
-
-#: src/statistics/statisticslegendwidget.cpp:47
-#, kde-format
-msgctxt "adjective, The word has not even been practiced once by the user"
-msgid "Not practiced"
-msgstr "न अभ्यासः"
-
 #: src/statistics/statisticsmainwindow.cpp:192
 #, kde-format
 msgid "Known to Learning"
@@ -4301,77 +3934,489 @@ msgstr "ज्ञातुं शिक्षणम्"
 msgid "Mixed Directions"
 msgstr "मिश्रित दिशाएँ"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: src/statistics/statisticsmainwindow.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Language to Learn"
 msgstr "शिक्षणीय भाषा"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/statistics/statisticsmainwindow.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Known Language"
 msgstr "ज्ञाता भाषा"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeMode)
 #: src/statistics/statisticsmainwindow.ui:75
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeMode)
 #, kde-format
 msgid "Practice Mode"
 msgstr "अभ्यासविधिः"
 
-#. i18n: ectx: property (text), widget (QRadioButton, flashCard)
 #: src/statistics/statisticsmainwindow.ui:81
+#. i18n: ectx: property (text), widget (QRadioButton, flashCard)
 #, kde-format
 msgid "Flash Cards"
 msgstr "फ्लैश कार्ड्स्"
 
-#. i18n: ectx: property (text), widget (QRadioButton, mixedLetters)
 #: src/statistics/statisticsmainwindow.ui:91
+#. i18n: ectx: property (text), widget (QRadioButton, mixedLetters)
 #, kde-format
 msgid "Mixed &Letters"
 msgstr "मिश्रित &अक्षर"
 
-#. i18n: ectx: property (text), widget (QRadioButton, multipleChoice)
 #: src/statistics/statisticsmainwindow.ui:98
+#. i18n: ectx: property (text), widget (QRadioButton, multipleChoice)
 #, kde-format
 msgid "M&ultiple Choice"
 msgstr "M&multiple Choice इति"
 
-#. i18n: ectx: property (text), widget (QRadioButton, written)
 #: src/statistics/statisticsmainwindow.ui:105
+#. i18n: ectx: property (text), widget (QRadioButton, written)
 #, kde-format
 msgid "Wri&tten"
 msgstr "लिखित"
 
-#. i18n: ectx: property (text), widget (QRadioButton, exampleSentence)
 #: src/statistics/statisticsmainwindow.ui:115
+#. i18n: ectx: property (text), widget (QRadioButton, exampleSentence)
 #, kde-format
 msgid "E&xample Sentences"
 msgstr "E&उदाहरण वाक्यानि"
 
-#. i18n: ectx: property (text), widget (QRadioButton, gender)
 #: src/statistics/statisticsmainwindow.ui:125
+#. i18n: ectx: property (text), widget (QRadioButton, gender)
 #, kde-format
 msgid "&Gender of Nouns"
 msgstr "&संज्ञा का लिङ्ग"
 
-#. i18n: ectx: property (text), widget (QRadioButton, conjugations)
 #: src/statistics/statisticsmainwindow.ui:145
+#. i18n: ectx: property (text), widget (QRadioButton, conjugations)
 #, kde-format
 msgid "Co&njugations"
 msgstr "सह&विवेचन"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeDirection)
 #: src/statistics/statisticsmainwindow.ui:191
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxPracticeDirection)
 #, kde-format
 msgid "Practice Direction"
 msgstr "अभ्यास दिशा"
 
-#. i18n: ectx: property (text), widget (QCheckBox, rememberPracticeDirection)
 #: src/statistics/statisticsmainwindow.ui:200
+#. i18n: ectx: property (text), widget (QCheckBox, rememberPracticeDirection)
 #, kde-format
 msgid "Remember for each Practice Mode"
 msgstr "प्रत्येकं Practice Mode कृते स्मर्यताम्"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: src/collection/lessonmodel.cpp:47
+#, kde-format
+msgctxt "display of the name of the vocabulary collection"
+msgid "Collection: %1"
+msgstr "संग्रहः %1"
+
+#: src/editor/declensionwidget.ui:52
+#. i18n: ectx: property (text), widget (QLabel, nominativeLabel)
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Nominative:"
+msgstr "नामवाचक : १."
+
+#: src/editor/declensionwidget.ui:71
+#. i18n: ectx: property (text), widget (QLabel, genitivLabel)
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Genitive:"
+msgstr "जन्यम् : १."
+
+#: src/editor/declensionwidget.ui:90
+#. i18n: ectx: property (text), widget (QLabel, dativLabel)
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Dative:"
+msgstr "कर्मधारयः : १."
+
+#: src/editor/declensionwidget.ui:109
+#. i18n: ectx: property (text), widget (QLabel, accusativeLabel)
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Accusative:"
+msgstr "अभियोगात्मकः : १."
+
+#: src/editor/declensionwidget.ui:128
+#. i18n: ectx: property (text), widget (QLabel, ablativLabel)
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Ablative:"
+msgstr "अब्लेटिवः : १."
+
+#: src/editor/declensionwidget.ui:147
+#. i18n: ectx: property (text), widget (QLabel, locativeLabel)
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Locative:"
+msgstr "स्थानिकम् : १."
+
+#: src/editor/declensionwidget.ui:166
+#. i18n: ectx: property (text), widget (QLabel, vocativeLabel)
+#, kde-format
+msgctxt "one of the seven cases (grammatical)"
+msgid "Vocative:"
+msgstr "व्यावसायिकः : १."
+
+#: src/editor/inflectionwidget.cpp:124
+#, kde-format
+msgctxt "@title:window"
+msgid "Please select the noun's gender"
+msgstr "कृपया संज्ञायाः लिङ्गं चिनोतु"
+
+#: src/editor/vocabularycolumnsdialog.cpp:43
+#, kde-format
+msgctxt "@title:window"
+msgid "Vocabulary Columns"
+msgstr "शब्दावली स्तम्भ"
+
+#: src/exportdialog.cpp:53
+#, kde-format
+msgctxt "@title:window"
+msgid "Export"
+msgstr "निर्यात"
+
+#: src/parleydocument.cpp:159
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Vocabulary Collection"
+msgstr "मुक्त शब्दावली संग्रह"
+
+#: src/parleydocument.cpp:236
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Collection"
+msgstr "मुक्त संग्रह"
+
+#: src/parleydocument.cpp:297
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Downloaded Vocabulary Collection"
+msgstr "Open Downloaded शब्दावली संग्रह"
+
+#: src/parleydocument.cpp:368 src/parleydocument.cpp:461
+#, kde-format
+msgctxt "@title:window"
+msgid "Save File"
+msgstr "सञ्चिकां रक्षतु"
+
+#: src/parleydocument.cpp:383
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Vocabulary As"
+msgstr "Save Vocabulary As"
+
+#: src/practice/configure/configurepracticedialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Practice"
+msgstr "अभ्यासं विन्यस्तं कुर्वन्तु"
+
+#: src/settings/languageproperties.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Languages"
+msgstr "भाषा सम्पादयतु"
+
+#: src/editor/synonymwidget.cpp:90
+#, kde-format
+msgctxt "Title for a list of synonyms for a word"
+msgid "Synonyms of %1:"
+msgstr "%1 के समानार्थी शब्द: १."
+
+#: src/editor/synonymwidget.cpp:93
+#, kde-format
+msgctxt "Title for a list of antonyms (opposites) for a word"
+msgid "Antonyms of %1:"
+msgstr "%1 इत्यस्य विलोम शब्दाः : १."
+
+#: src/editor/synonymwidget.cpp:97
+#, kde-format
+msgctxt ""
+"Title for a list of false friend (things that sound similar but have "
+"different meanings) for a word"
+msgid "False Friends of %1:"
+msgstr "%1 इत्यस्य मिथ्यामित्राः:"
+
+#: src/editor/vocabularyview.cpp:383
+#, kde-format
+msgctxt "@title of a popup"
+msgid "No Spell Checker Available"
+msgstr "कोऽपि वर्तनीपरीक्षकः उपलब्धः नास्ति"
+
+#: src/editor/vocabularyview.cpp:384
+#, kde-format
+msgctxt "@popupmessage"
+msgid ""
+"Either the language set up is incorrect or no spellchecker was installed "
+"for this locale: %1."
+msgstr ""
+"भाषासंस्थापनं अशुद्धम् अथवा अस्य स्थानस्य कृते वर्तनीपरीक्षकः संस्थापितः "
+"नासीत्: %1."
+
+#: src/editor/wordtypeview.cpp:56
+#, kde-format
+msgctxt ""
+"Let the user select what grammatical meaning is connected to a word type "
+"(nouns have gender, verbs conjugations etc)"
+msgid "Grammar"
+msgstr "व्याकरणम्"
+
+#: src/parleydocument.cpp:122 src/parleydocument.cpp:578
+#, kde-format
+msgctxt "@title:window document properties"
+msgid "Properties for %1"
+msgstr "%1 कृते गुणाः"
+
+#: src/parleydocument.cpp:403
+#, kde-format
+msgctxt "@info:status saving a file"
+msgid "Saving %1"
+msgstr "%1 रक्षणम्"
+
+#: src/parleymainwindow.cpp:134
+#, kde-format
+msgctxt ""
+"Title and a modified status indicator.  [*] is exact and will be shown only "
+"when document is modified"
+msgid "%1 [*]"
+msgstr "%1 [*] ९."
+
+#: src/practice/comparisonbackendmode.cpp:65
+#, kde-format
+msgctxt ""
+"the user entered the wrong absolute form when practicing comparison forms "
+"of adjectives (the base form of the adjective is wrong)"
+msgid "\"%1\" is the wrong word."
+msgstr "\"%1\" इति गलत् शब्दः ।"
+
+#: src/practice/comparisonbackendmode.cpp:70
+#, kde-format
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison "
+"forms of adjectives (good, better, best)"
+msgid "Both comparison forms (comparative and superlative) are wrong."
+msgstr "तुलनारूपद्वयं (तुलनारूपं अतिशयोक्तिकं च) गलतम् अस्ति।"
+
+#: src/practice/comparisonbackendmode.cpp:74
+#, kde-format
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison "
+"forms of adjectives (second form wrong - better)"
+msgid "The comparative is wrong."
+msgstr "तुलनात्मकं दोषं भवति।"
+
+#: src/practice/comparisonbackendmode.cpp:78
+#, kde-format
+msgctxt ""
+"the user entered the wrong comparison forms when practicing comparison "
+"forms of adjectives (third form wrong - best)"
+msgid "The superlative is wrong."
+msgstr "अतिशयोक्तिः गलत् अस्ति।"
+
+#: src/practice/configure/configurepracticedialog.cpp:28
+#, kde-format
+msgctxt ""
+"@title:group Configure general settings for practicing vocabulary, short "
+"title in config dialog."
+msgid "General"
+msgstr "सामान्य"
+
+#: src/practice/configure/configurepracticedialog.cpp:30
+#, kde-format
+msgctxt "Configure general settings for practicing vocabulary."
+msgid "General Practice Settings"
+msgstr "सामान्य अभ्यास सेटिंग्स"
+
+#: src/practice/configure/configurepracticedialog.cpp:35
+#, kde-format
+msgctxt ""
+"@title:group vocabulary can be set to be blocked for a certain amount of "
+"time"
+msgid "Blocking"
+msgstr "अवरोधनम्"
+
+#: src/practice/configure/configurepracticedialog.cpp:42
+#, kde-format
+msgctxt "@title:group ignore vocabulary based on some properties like word type"
+msgid "Thresholds"
+msgstr "दहलीजम्"
+
+#: src/practice/configure/configurepracticedialog.cpp:49
+#, kde-format
+msgctxt ""
+"@title:group Configure specific settings for practicing vocabulary, short "
+"title in config dialog."
+msgid "Specific"
+msgstr "विशिष्टः"
+
+#: src/practice/configure/configurepracticedialog.cpp:51
+#, kde-format
+msgctxt "Configure specific settings for practicing vocabulary."
+msgid "Specific Practice Settings"
+msgstr "विशिष्टाभ्याससेटिंग्स्"
+
+#: src/practice/conjugationbackendmode.cpp:97
+#, kde-format
+msgctxt "You did not get the conjugation forms right."
+msgid "You answered %1 conjugation form correctly."
+msgid_plural "You answered %1 conjugation forms correctly."
+msgstr[0] "भवान् %1 संधिरूपस्य सम्यक् उत्तरं दत्तवान् ।"
+msgstr[1] "भवान् %1 संधिरूपेषु सम्यक् उत्तरं दत्तवान् ।"
+
+#: src/practice/genderbackendmode.cpp:82
+#, kde-format
+msgctxt "@label the gender of the word: masculine"
+msgid "%1 is masculine"
+msgstr "%1 इति पुंलिङ्गम्"
+
+#: src/practice/genderbackendmode.cpp:87
+#, kde-format
+msgctxt "@label the gender of the word: feminine"
+msgid "%1 is feminine"
+msgstr "%1 स्त्रीलिङ्गम्"
+
+#: src/practice/genderbackendmode.cpp:92
+#, kde-format
+msgctxt "@label the gender of the word: neuter"
+msgid "%1 is neuter"
+msgstr "%1 नपुंसकम् अस्ति"
+
+#: src/practice/guifrontend.cpp:122
+#, kde-format
+msgctxt "Display of the current unit during practice"
+msgid "Unit: %1"
+msgstr "इकाई: %1"
+
+#: src/practice/guifrontend.cpp:131
+#, kde-format
+msgctxt ""
+"Display of the current confidence level during practice, 1st param is "
+"either initial or long term"
+msgid "%1, confidence %2"
+msgstr "%1, विश्वासः %2"
+
+#: src/practice/practicesummarycomponent.cpp:57
+#, kde-format
+msgctxt "number of words, minutes, seconds"
+msgid "You practiced %1 in %2 and %3."
+msgstr "भवता %2 तथा %3 मध्ये %1 अभ्यासः कृतः ।"
+
+#: src/practice/summarybarwidget.cpp:78
+#, kde-format
+msgctxt "test results"
+msgid "%1 % correct"
+msgstr "%1 % सम्यक्"
+
+#: src/practice/summarybarwidget.cpp:80
+#, kde-format
+msgctxt "test results"
+msgid "%1 % wrong"
+msgstr "%1 % गलत्"
+
+#: src/practice/summarybarwidget.cpp:82
+#, kde-format
+msgctxt "test results"
+msgid "%1 % not answered"
+msgstr "%1 % उत्तरं न दत्तम्"
+
+#: src/settings/documentproperties.ui:321
+#. i18n: ectx: property (text), widget (QCheckBox, downloadGrammarCheckBox)
+#, kde-format
+msgctxt "Attept to download grammar properties for the selected languages"
+msgid "Download grammar"
+msgstr "व्याकरणं डाउनलोड् कुर्वन्तु"
+
+#: src/settings/generaloptions.cpp:41
+#, kde-format
+msgctxt "CSV separator"
+msgid ";"
+msgstr ";"
+
+#: src/settings/generaloptions.cpp:42
+#, kde-format
+msgctxt "CSV separator"
+msgid "#"
+msgstr "# # ."
+
+#: src/settings/generaloptions.cpp:43
+#, kde-format
+msgctxt "CSV separator"
+msgid "!"
+msgstr "!"
+
+#: src/settings/generaloptions.cpp:44
+#, kde-format
+msgctxt "CSV separator"
+msgid "|"
+msgstr "|"
+
+#: src/settings/generaloptions.cpp:45
+#, kde-format
+msgctxt "CSV separator"
+msgid ","
+msgstr ", ९."
+
+#: src/settings/generaloptions.cpp:47
+#, kde-format
+msgctxt "CSV separator"
+msgid ">= 2 SPACES"
+msgstr ">= २ रिक्तस्थानम्"
+
+#: src/settings/generaloptions.cpp:48
+#, kde-format
+msgctxt "CSV separator"
+msgid " : "
+msgstr " : १. "
+
+#: src/settings/generaloptions.cpp:49
+#, kde-format
+msgctxt "CSV separator"
+msgid " :: "
+msgstr " :: "
+
+#: src/settings/generaloptions.cpp:46
+#, kde-format
+msgctxt "CSV separator: tabulator"
+msgid "TAB"
+msgstr "TAB"
+
+#: src/settings/languageproperties.cpp:58
+#, kde-format
+msgctxt "Edit language properties"
+msgid "Properties for %1"
+msgstr "%1 कृते गुणाः"
+
+#: src/settings/parleyprefs.cpp:27
+#, kde-format
+msgctxt "title:window general settings"
+msgid "General"
+msgstr "सामान्य"
+
+#: src/statistics/statisticslegendwidget.cpp:46
+#, kde-format
+msgctxt "adjective, The word has been properly and fully learned by the user"
+msgid "Fully learned"
+msgstr "पूर्णतया विद्वान्"
+
+#: src/statistics/statisticslegendwidget.cpp:47
+#, kde-format
+msgctxt "adjective, The word has not even been practiced once by the user"
+msgid "Not practiced"
+msgstr "न अभ्यासः"
 
 #: src/statistics/statisticsmodel.cpp:26
 #, kde-format

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kclock package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,20 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: main.cpp:44
 #, kde-format
@@ -38,8 +28,8 @@ msgstr "उद्घाटितं पृष्ठं चिनोतु"
 #, kde-format
 msgid "Set alarms and timers, use a stopwatch, and manage world clocks"
 msgstr ""
-"अलार्म, टाइमर् च सेट् कुर्वन्तु, स्टॉपवॉच् इत्यस्य उपयोगं कुर्वन्तु, विश्वघटिकानां प्रबन्धनं कुर्वन्तु "
-"च"
+"अलार्म, टाइमर् च सेट् कुर्वन्तु, स्टॉपवॉच् इत्यस्य उपयोगं कुर्वन्तु, "
+"विश्वघटिकानां प्रबन्धनं कुर्वन्तु च"
 
 #: main.cpp:69
 #, kde-format
@@ -158,12 +148,6 @@ msgstr "पूर्वनिर्धारित ध्वनि"
 msgid "Alarm"
 msgstr "आपत्सङ्केत"
 
-#: qml/alarm/AlarmFormPage.qml:26
-#, kde-format
-msgctxt "Edit alarm page title"
-msgid "Editing %1"
-msgstr "सम्पादनम् %1"
-
 #: qml/alarm/AlarmFormPage.qml:27 qml/alarm/AlarmListPage.qml:30
 #, kde-format
 msgid "New Alarm"
@@ -186,12 +170,6 @@ msgid "Snoozed %1 minute"
 msgid_plural "Snoozed %1 minutes"
 msgstr[0] "%1 मिनिट् स्नूज् कृतवान्"
 msgstr[1] "%1 मिनिट् स्नूज् कृतवान्"
-
-#: qml/alarm/AlarmListDelegate.qml:126 qml/time/TimePageDelegate.qml:60
-#, kde-format
-msgctxt "@action:button"
-msgid "Delete"
-msgstr "लुप्"
 
 #: qml/alarm/AlarmListPage.qml:24 qml/components/BottomToolbar.qml:118
 #: qml/components/Sidebar.qml:112
@@ -549,36 +527,6 @@ msgstr "समयनिर्धारकं रचयन्तु"
 msgid "Save As Preset"
 msgstr "पूर्वनिर्धारितरूपेण रक्षन्तु"
 
-#: qml/timer/TimerListDelegate.qml:145
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Loop timer"
-msgstr "पाशसमयनिर्धारकः"
-
-#: qml/timer/TimerListDelegate.qml:156
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Pause"
-msgstr "विराम"
-
-#: qml/timer/TimerListDelegate.qml:156
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Start"
-msgstr "प्रारंभः"
-
-#: qml/timer/TimerListDelegate.qml:166
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Reset"
-msgstr "पुनः सेट् करें"
-
-#: qml/timer/TimerListDelegate.qml:176
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Delete"
-msgstr "लुप्"
-
 #: qml/timer/TimerListPage.qml:28
 #, kde-format
 msgid "New Timer"
@@ -716,3 +664,55 @@ msgstr "एकनिमेषात् न्यूनेन समये अल
 #, kde-format
 msgid "Alarm will ring in %1"
 msgstr "%1 मध्ये अलार्मः ध्वनिं करिष्यति"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: qml/alarm/AlarmFormPage.qml:26
+#, kde-format
+msgctxt "Edit alarm page title"
+msgid "Editing %1"
+msgstr "सम्पादनम् %1"
+
+#: qml/alarm/AlarmListDelegate.qml:126 qml/time/TimePageDelegate.qml:60
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "लुप्"
+
+#: qml/timer/TimerListDelegate.qml:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Loop timer"
+msgstr "पाशसमयनिर्धारकः"
+
+#: qml/timer/TimerListDelegate.qml:156
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr "विराम"
+
+#: qml/timer/TimerListDelegate.qml:156
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Start"
+msgstr "प्रारंभः"
+
+#: qml/timer/TimerListDelegate.qml:166
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reset"
+msgstr "पुनः सेट् करें"
+
+#: qml/timer/TimerListDelegate.qml:176
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete"
+msgstr "लुप्"

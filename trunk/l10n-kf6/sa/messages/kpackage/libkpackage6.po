@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kpackage package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: kpackage\n"
@@ -13,19 +13,9 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: kpackage/private/packagejobthread.cpp:164
 #, kde-format
@@ -64,20 +54,22 @@ msgstr "संकुलप्लगिन् id %1 अमान्यवर्�
 
 #: kpackage/private/packagejobthread.cpp:277
 #, kde-format
-msgid ""
-"The new package has a different type from the old version already installed."
+msgid "The new package has a different type from the old version already installed."
 msgstr "नूतनसङ्कुलस्य पूर्वमेव संस्थापितात् पुरातनसंस्करणात् भिन्नः प्रकारः अस्ति ।"
 
 #: kpackage/private/packagejobthread.cpp:282
 #, kde-format
-msgid ""
-"Impossible to remove the old installation of %1 located at %2. error: %3"
-msgstr "%2 इत्यत्र स्थितस्य %1 इत्यस्य पुरातनं संस्थापनं निष्कासयितुं असम्भवम् । त्रुटिः %3"
+msgid "Impossible to remove the old installation of %1 located at %2. error: %3"
+msgstr ""
+"%2 इत्यत्र स्थितस्य %1 इत्यस्य पुरातनं संस्थापनं निष्कासयितुं असम्भवम् । "
+"त्रुटिः %3"
 
 #: kpackage/private/packagejobthread.cpp:286
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
-msgstr "%2 इत्यस्य %1 संस्करणं न संस्थापितम् । %3 संस्करणं पूर्वमेव संस्थापितम् अस्ति ।"
+msgstr ""
+"%2 इत्यस्य %1 संस्करणं न संस्थापितम् । %3 संस्करणं पूर्वमेव संस्थापितम् "
+"अस्ति ।"
 
 #: kpackage/private/packagejobthread.cpp:290
 #, kde-format
@@ -134,14 +126,6 @@ msgstr "KPackageType इत्यस्य सूचीकरणम्: %2 म�
 msgid "Error: Plugin %1 is not installed."
 msgstr "त्रुटिः : प्लगिन् %1 संस्थापितम् नास्ति ।"
 
-#: kpackagetool/kpackagetool.cpp:212
-#, kde-format
-msgctxt ""
-"No option was given, this is the error message telling the user he needs at "
-"least one, do not translate install, remove, upgrade nor list"
-msgid "One of install, remove, upgrade or list is required."
-msgstr "संस्थापनं, निष्कासनं, उन्नयनं वा सूचीं वा इति एकं आवश्यकम् ।"
-
 #: kpackagetool/kpackagetool.cpp:255 kpackagetool/kpackagetool.cpp:333
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
@@ -176,17 +160,6 @@ msgstr "  लेखक : %1"
 #, kde-format
 msgid "  Path       : %1"
 msgstr "  पथ : %1"
-
-#: kpackagetool/kpackagetool.cpp:429
-#, kde-format
-msgctxt ""
-"The user entered conflicting options packageroot and global, this is the "
-"error message telling the user he can use only one"
-msgid ""
-"The packageroot and global options conflict with each other, please select "
-"only one."
-msgstr ""
-"packageroot तथा global विकल्पाः परस्परं विग्रहं कुर्वन्ति, कृपया केवलम् एकं चिनोतु ।"
 
 #: kpackagetool/kpackagetool.cpp:457
 #, kde-format
@@ -258,49 +231,12 @@ msgstr "त्रुटिः: %1 इत्यस्य विस्थापन
 msgid "KPackage Manager"
 msgstr "केपैकेज प्रबन्धक"
 
-#: kpackagetool/options.h:11
-#, kde-format
-msgctxt "Do not translate <path>"
-msgid "Generate a SHA1 hash for the package at <path>"
-msgstr "<path> इत्यत्र संकुलस्य कृते SHA1 हैशं जनयन्तु"
-
 #: kpackagetool/options.h:18
 #, kde-format
 msgid "For install or remove, operates on packages installed for all users."
 msgstr ""
-"संस्थापनार्थं वा निष्कासयितुं वा, सर्वेषां उपयोक्तृणां कृते संस्थापितेषु संकुलेषु कार्यं करोति ।"
-
-#: kpackagetool/options.h:27
-#, kde-format
-msgctxt ""
-"theme, wallpaper, etc. are keywords, but they may be translated, as both "
-"versions are recognized by the application (if translated, should be same as "
-"messages with 'package type' context below)"
-msgid ""
-"The type of package, corresponding to the service type of the package "
-"plugin, e.g. KPackage/Generic, Plasma/Theme, Plasma/Wallpaper, Plasma/"
-"Applet, etc."
-msgstr ""
-"संकुलस्य प्रकारः, संकुलप्लगिन् इत्यस्य सेवाप्रकारस्य अनुरूपः, उदा. केपैकेज/सामान्य, प्लाज्मा/थीम, "
-"प्लाज्मा/वॉलपेपर, प्लाज्मा/एप्लेट, आदि।"
-
-#: kpackagetool/options.h:36
-#, kde-format
-msgctxt "Do not translate <path>"
-msgid "Install the package at <path>"
-msgstr "<path> इत्यत्र संकुलं संस्थापयन्तु"
-
-#: kpackagetool/options.h:43
-#, kde-format
-msgctxt "Do not translate <name>"
-msgid "Show information of package <name>"
-msgstr "<name> इत्यस्य संकुलस्य सूचनां दर्शयतु"
-
-#: kpackagetool/options.h:50
-#, kde-format
-msgctxt "Do not translate <path>"
-msgid "Upgrade the package at <path>"
-msgstr "<path> इत्यत्र संकुलं उन्नयनं कुर्वन्तु"
+"संस्थापनार्थं वा निष्कासयितुं वा, सर्वेषां उपयोक्तृणां कृते संस्थापितेषु "
+"संकुलेषु कार्यं करोति ।"
 
 #: kpackagetool/options.h:56
 #, kde-format
@@ -312,20 +248,62 @@ msgstr "संस्थापितानां संकुलानाम् �
 msgid "List all known package types that can be installed"
 msgstr "संस्थापनीयानां सर्वेषां ज्ञातानां संकुलप्रकारानाम् सूचीं कुर्वन्तु"
 
-#: kpackagetool/options.h:67
-#, kde-format
-msgctxt "Do not translate <name>"
-msgid "Remove the package named <name>"
-msgstr "<name> इति नामकं संकुलं निष्कासयन्तु"
-
 #: kpackagetool/options.h:74
 #, kde-format
 msgid ""
 "Absolute path to the package root. If not supplied, then the standard data "
 "directories for this KDE session will be searched instead."
 msgstr ""
-"संकुलमूलस्य निरपेक्षः मार्गः । यदि न आपूर्तिः, तर्हि अस्य KDE सत्रस्य मानकदत्तांशनिर्देशिकाः "
-"तस्य स्थाने अन्वेषिताः भविष्यन्ति ।"
+"संकुलमूलस्य निरपेक्षः मार्गः । यदि न आपूर्तिः, तर्हि अस्य KDE सत्रस्य "
+"मानकदत्तांशनिर्देशिकाः तस्य स्थाने अन्वेषिताः भविष्यन्ति ।"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: kpackagetool/kpackagetool.cpp:212
+#, kde-format
+msgctxt ""
+"No option was given, this is the error message telling the user he needs at "
+"least one, do not translate install, remove, upgrade nor list"
+msgid "One of install, remove, upgrade or list is required."
+msgstr "संस्थापनं, निष्कासनं, उन्नयनं वा सूचीं वा इति एकं आवश्यकम् ।"
+
+#: kpackagetool/kpackagetool.cpp:429
+#, kde-format
+msgctxt ""
+"The user entered conflicting options packageroot and global, this is the "
+"error message telling the user he can use only one"
+msgid ""
+"The packageroot and global options conflict with each other, please select "
+"only one."
+msgstr ""
+"packageroot तथा global विकल्पाः परस्परं विग्रहं कुर्वन्ति, कृपया केवलम् एकं "
+"चिनोतु ।"
+
+#: kpackagetool/options.h:11
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Generate a SHA1 hash for the package at <path>"
+msgstr "<path> इत्यत्र संकुलस्य कृते SHA1 हैशं जनयन्तु"
+
+#: kpackagetool/options.h:36
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Install the package at <path>"
+msgstr "<path> इत्यत्र संकुलं संस्थापयन्तु"
+
+#: kpackagetool/options.h:50
+#, kde-format
+msgctxt "Do not translate <path>"
+msgid "Upgrade the package at <path>"
+msgstr "<path> इत्यत्र संकुलं उन्नयनं कुर्वन्तु"
 
 #: kpackagetool/options.h:82
 #, kde-format
@@ -338,3 +316,29 @@ msgstr "<path> संकुलस्य कृते मेटाडाटा �
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "संकुलस्य कृते मेटाडाटा <path> इत्यत्र निर्गच्छति"
+
+#: kpackagetool/options.h:27
+#, kde-format
+msgctxt ""
+"theme, wallpaper, etc. are keywords, but they may be translated, as both "
+"versions are recognized by the application (if translated, should be same "
+"as messages with 'package type' context below)"
+msgid ""
+"The type of package, corresponding to the service type of the package "
+"plugin, e.g. KPackage/Generic, Plasma/Theme, Plasma/Wallpaper, "
+"Plasma/Applet, etc."
+msgstr ""
+"संकुलस्य प्रकारः, संकुलप्लगिन् इत्यस्य सेवाप्रकारस्य अनुरूपः, उदा. "
+"केपैकेज/सामान्य, प्लाज्मा/थीम, प्लाज्मा/वॉलपेपर, प्लाज्मा/एप्लेट, आदि।"
+
+#: kpackagetool/options.h:43
+#, kde-format
+msgctxt "Do not translate <name>"
+msgid "Show information of package <name>"
+msgstr "<name> इत्यस्य संकुलस्य सूचनां दर्शयतु"
+
+#: kpackagetool/options.h:67
+#, kde-format
+msgctxt "Do not translate <name>"
+msgid "Remove the package named <name>"
+msgstr "<name> इति नामकं संकुलं निष्कासयन्तु"

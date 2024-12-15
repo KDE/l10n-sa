@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the dolphin-plugins package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: dolphin-plugins\n"
@@ -13,9 +13,146 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+
+#: fileviewsvnpluginsettings.kcfg:9
+#. i18n: ectx: label, entry (showUpdates), group (General)
+#, kde-format
+msgid "Show updates"
+msgstr "अद्यतनं दर्शयतु"
+
+#: svncheckoutdialog.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, SvnCheckoutDialog)
+#, kde-format
+msgid "SVN Checkout"
+msgstr "एसवीएन चेकआउट"
+
+#: svncheckoutdialog.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#, kde-format
+msgid "URL of repository:"
+msgstr "भण्डारस्य URL : १."
+
+#: svncheckoutdialog.ui:36
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#, kde-format
+msgid "Checkout directory:"
+msgstr "चेकआउट निर्देशिका : १."
+
+#: svncheckoutdialog.ui:46
+#. i18n: ectx: property (text), widget (QCheckBox, cbOmitExternals)
+#, kde-format
+msgid "Omit externals"
+msgstr "बाह्यान् लोपयतु"
+
+#: svncheckoutdialog.ui:71 svncleanupdialog.ui:80 svnlogdialog.ui:146
+#: svnprogressdialog.ui:46
+#. i18n: ectx: property (text), widget (QPushButton, pbOk)
+#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
+#, kde-format
+msgid "OK"
+msgstr "अस्तु"
+
+#: svncheckoutdialog.ui:81 svncleanupdialog.ui:96 svnprogressdialog.ui:33
+#. i18n: ectx: property (text), widget (QPushButton, pbCancel)
+#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
+#, kde-format
+msgid "Cancel"
+msgstr "निरसयतु"
+
+#: svncleanupdialog.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, SvnCleanupDialog)
+#, kde-format
+msgid "SVN Cleanup..."
+msgstr "एसवीएन सफाई..."
+
+#: svncleanupdialog.ui:26
+#. i18n: ectx: property (text), widget (QLabel, label)
+#, kde-format
+msgid "Clean up directory:"
+msgstr "निर्देशिकां स्वच्छं कुर्वन्तु : १."
+
+#: svncleanupdialog.ui:43
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxUnversioned)
+#, kde-format
+msgid "Delete unversioned files and directories"
+msgstr "असंस्करणरहितसञ्चिकाः निर्देशिकाः च विलोपयन्तु"
+
+#: svncleanupdialog.ui:50
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxIgnored)
+#, kde-format
+msgid "Delete ignored files and directories"
+msgstr "उपेक्षिताः सञ्चिकाः निर्देशिकाः च विलोपयन्तु"
+
+#: svncleanupdialog.ui:57
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxExternals)
+#, kde-format
+msgid "Include externals"
+msgstr "बाह्यान् समावेशयन्तु"
+
+#: svnlogdialog.cpp:90
+#, kde-format
+msgid "Update to revision"
+msgstr "संशोधनं प्रति अद्यतनं कुर्वन्तु"
+
+#: svnlogdialog.cpp:94 svnlogdialog.cpp:112
+#, kde-format
+msgid "Revert to revision"
+msgstr "पुनरीक्षणं प्रति प्रत्यागच्छन्तु"
+
+#: svnlogdialog.cpp:98
+#, kde-format
+msgid "Show changes"
+msgstr "परिवर्तनं दर्शयतु"
+
+#: svnlogdialog.cpp:105
+#, kde-format
+msgid "Changes against working copy"
+msgstr "कार्यरतप्रतिलिपिं विरुद्धं परिवर्तनम्"
+
+#: svnlogdialog.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, SvnLogDialog)
+#, kde-format
+msgid "SVN Log"
+msgstr "SVN Log"
+
+#: svnlogdialog.ui:55
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#, kde-format
+msgid "Revision"
+msgstr "कार्यदर्शन"
+
+#: svnlogdialog.ui:60
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#, kde-format
+msgid "Author"
+msgstr "लेखकः"
+
+#: svnlogdialog.ui:65
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#, kde-format
+msgid "Date"
+msgstr "दिनाङ्कः"
+
+#: svnlogdialog.ui:70
+#. i18n: ectx: property (text), widget (QTableWidget, tLog)
+#, kde-format
+msgid "Message"
+msgstr "सन्देशः"
+
+#: svnlogdialog.ui:104
+#. i18n: ectx: property (text), widget (QPushButton, pbNext100)
+#, kde-format
+msgid "Next 100"
+msgstr "अग्रिमः १००"
+
+#: svnlogdialog.ui:114
+#. i18n: ectx: property (text), widget (QPushButton, pbRefresh)
+#, kde-format
+msgid "Refresh"
+msgstr "ताजगी"
 
 #: fileviewsvnplugin.cpp:71
 #, kde-format
@@ -59,6 +196,24 @@ msgctxt "@item:inmenu"
 msgid "Show SVN Updates"
 msgstr "SVN Updates दर्शयतु"
 
+#: svncommitdialog.cpp:112
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Revert"
+msgstr "प्रत्यावर्तयतु"
+
+#: svncommitdialog.cpp:119
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Show changes"
+msgstr "परिवर्तनं दर्शयतु"
+
+#: svncommitdialog.cpp:126
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Add file"
+msgstr "सञ्चिकां योजयन्तु"
+
 #: fileviewsvnplugin.cpp:107
 #, kde-format
 msgctxt "@action:inmenu"
@@ -81,13 +236,9 @@ msgstr "एसवीएन सफाई..."
 #, kde-format
 msgctxt "@info:status"
 msgid "SVN status update failed. Disabling Option \"Show SVN Updates\"."
-msgstr "SVN स्थिति अद्यतनं विफलम्। \"SVN अद्यतनं दर्शयतु\" विकल्पं निष्क्रियं करणम् ।"
-
-#: fileviewsvnplugin.cpp:361
-#, kde-format
-msgctxt "@title:window"
-msgid "SVN Update"
-msgstr "एसवीएन अपडेट"
+msgstr ""
+"SVN स्थिति अद्यतनं विफलम्। \"SVN अद्यतनं दर्शयतु\" विकल्पं निष्क्रियं करणम् "
+"।"
 
 #: fileviewsvnplugin.cpp:366
 #, kde-format
@@ -162,12 +313,6 @@ msgctxt "@info:status"
 msgid "Removed files from SVN repository."
 msgstr "SVN भण्डारतः सञ्चिकाः निष्कासिताः ।"
 
-#: fileviewsvnplugin.cpp:461 fileviewsvnplugin.cpp:567
-#, kde-format
-msgctxt "@title:window"
-msgid "SVN Revert"
-msgstr "SVN Revert"
-
 #: fileviewsvnplugin.cpp:466
 #, kde-format
 msgctxt "@info:status"
@@ -210,12 +355,6 @@ msgctxt "@info:status"
 msgid "SVN checkout: checkout successful."
 msgstr "SVN चेकआउट्: चेकआउट् सफलम्।"
 
-#: fileviewsvnplugin.cpp:507
-#, kde-format
-msgctxt "@title:window"
-msgid "SVN Checkout"
-msgstr "एसवीएन चेकआउट"
-
 #: fileviewsvnplugin.cpp:572
 #, kde-format
 msgctxt "@info:status"
@@ -240,19 +379,14 @@ msgstr "सञ्चिका प्रत्यावर्तिता ।"
 msgctxt "@info:status"
 msgid "Could not show local SVN changes for a file: could not get file."
 msgstr ""
-"सञ्चिकायाः कृते स्थानीयं SVN परिवर्तनं दर्शयितुं न शक्तवान्: सञ्चिकां प्राप्तुं न शक्तवान् ।"
+"सञ्चिकायाः कृते स्थानीयं SVN परिवर्तनं दर्शयितुं न शक्तवान्: सञ्चिकां "
+"प्राप्तुं न शक्तवान् ।"
 
 #: fileviewsvnplugin.cpp:648 fileviewsvnplugin.cpp:674
 #, kde-format
 msgctxt "@info:status"
 msgid "Commit of SVN changes failed."
 msgstr "SVN परिवर्तनस्य प्रतिबद्धता विफलम् अभवत् ।"
-
-#: fileviewsvnplugin.cpp:668 svncommitdialog.cpp:152
-#, kde-format
-msgctxt "@title:window"
-msgid "SVN Commit"
-msgstr "एस वी एन कमिट"
 
 #: fileviewsvnplugin.cpp:673
 #, kde-format
@@ -266,63 +400,6 @@ msgctxt "@info:status"
 msgid "Committed SVN changes."
 msgstr "प्रतिबद्धः SVN परिवर्तनः ।"
 
-#. i18n: ectx: label, entry (showUpdates), group (General)
-#: fileviewsvnpluginsettings.kcfg:9
-#, kde-format
-msgid "Show updates"
-msgstr "अद्यतनं दर्शयतु"
-
-#: svncheckoutdialog.cpp:63
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose a directory to checkout"
-msgstr "चेकआउट् कर्तुं निर्देशिकां चिनोतु"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, SvnCheckoutDialog)
-#: svncheckoutdialog.ui:20
-#, kde-format
-msgid "SVN Checkout"
-msgstr "एसवीएन चेकआउट"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: svncheckoutdialog.ui:26
-#, kde-format
-msgid "URL of repository:"
-msgstr "भण्डारस्य URL : १."
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: svncheckoutdialog.ui:36
-#, kde-format
-msgid "Checkout directory:"
-msgstr "चेकआउट निर्देशिका : १."
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbOmitExternals)
-#: svncheckoutdialog.ui:46
-#, kde-format
-msgid "Omit externals"
-msgstr "बाह्यान् लोपयतु"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbOk)
-#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: svncheckoutdialog.ui:71 svncleanupdialog.ui:80 svnlogdialog.ui:146
-#: svnprogressdialog.ui:46
-#, kde-format
-msgid "OK"
-msgstr "अस्तु"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbCancel)
-#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#: svncheckoutdialog.ui:81 svncleanupdialog.ui:96 svnprogressdialog.ui:33
-#, kde-format
-msgid "Cancel"
-msgstr "निरसयतु"
-
-#: svncleanupdialog.cpp:27
-#, kde-format
-msgctxt "@title:window"
-msgid "Choose a directory to clean up"
-msgstr "स्वच्छं कर्तुं निर्देशिकां चिनोतु"
-
 #: svncleanupdialog.cpp:62
 #, kde-format
 msgctxt "@info:status"
@@ -335,35 +412,71 @@ msgctxt "@info:status"
 msgid "SVN clean up failed for %1"
 msgstr "%1 कृते SVN स्वच्छता विफलम्"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, SvnCleanupDialog)
-#: svncleanupdialog.ui:20
+#: svnlogdialog.cpp:267
 #, kde-format
-msgid "SVN Cleanup..."
-msgstr "एसवीएन सफाई..."
+msgctxt "@info:status"
+msgid "SVN log: update to revision failed."
+msgstr "SVN log: पुनरीक्षणं प्रति अद्यतनं विफलम्।"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: svncleanupdialog.ui:26
+#: svnlogdialog.cpp:269
 #, kde-format
-msgid "Clean up directory:"
-msgstr "निर्देशिकां स्वच्छं कुर्वन्तु : १."
+msgctxt "@info:status"
+msgid "SVN log: update to revision %1 successful."
+msgstr "SVN log: संशोधनं प्रति अद्यतनं %1 सफलम्।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxUnversioned)
-#: svncleanupdialog.ui:43
+#: svnlogdialog.cpp:279 svnlogdialog.cpp:290
 #, kde-format
-msgid "Delete unversioned files and directories"
-msgstr "असंस्करणरहितसञ्चिकाः निर्देशिकाः च विलोपयन्तु"
+msgctxt "@info:status"
+msgid "SVN log: revert to revision failed."
+msgstr "SVN log: पुनरीक्षणं प्रति प्रत्यागमनं विफलम्।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxIgnored)
-#: svncleanupdialog.ui:50
+#: svnlogdialog.cpp:281 svnlogdialog.cpp:292
 #, kde-format
-msgid "Delete ignored files and directories"
-msgstr "उपेक्षिताः सञ्चिकाः निर्देशिकाः च विलोपयन्तु"
+msgctxt "@info:status"
+msgid "SVN log: revert to revision %1 successful."
+msgstr "SVN log: पुनरीक्षणं प्रति प्रत्यागन्तुं %1 सफलम्।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxExternals)
-#: svncleanupdialog.ui:57
+#: svnprogressdialog.cpp:53
 #, kde-format
-msgid "Include externals"
-msgstr "बाह्यान् समावेशयन्तु"
+msgctxt "@info:status"
+msgid "Error starting: %1"
+msgstr "आरम्भे त्रुटिः: %1"
+
+#: fileviewsvnplugin.cpp:361
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Update"
+msgstr "एसवीएन अपडेट"
+
+#: fileviewsvnplugin.cpp:461 fileviewsvnplugin.cpp:567
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Revert"
+msgstr "SVN Revert"
+
+#: fileviewsvnplugin.cpp:507
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Checkout"
+msgstr "एसवीएन चेकआउट"
+
+#: fileviewsvnplugin.cpp:668 svncommitdialog.cpp:152
+#, kde-format
+msgctxt "@title:window"
+msgid "SVN Commit"
+msgstr "एस वी एन कमिट"
+
+#: svncheckoutdialog.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a directory to checkout"
+msgstr "चेकआउट् कर्तुं निर्देशिकां चिनोतु"
+
+#: svncleanupdialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a directory to clean up"
+msgstr "स्वच्छं कर्तुं निर्देशिकां चिनोतु"
 
 #: svncommitdialog.cpp:86
 #, kde-format
@@ -382,24 +495,6 @@ msgstr "ताजगी"
 msgctxt "@action:button"
 msgid "Commit"
 msgstr "प्रविश्"
-
-#: svncommitdialog.cpp:112
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Revert"
-msgstr "प्रत्यावर्तयतु"
-
-#: svncommitdialog.cpp:119
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Show changes"
-msgstr "परिवर्तनं दर्शयतु"
-
-#: svncommitdialog.cpp:126
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Add file"
-msgstr "सञ्चिकां योजयन्तु"
 
 #: svncommitdialog.cpp:154
 #, kde-format
@@ -454,95 +549,3 @@ msgstr "असमेत"
 msgctxt "@item:intable"
 msgid "Update required"
 msgstr "अपडेट् आवश्यकम्"
-
-#: svnlogdialog.cpp:90
-#, kde-format
-msgid "Update to revision"
-msgstr "संशोधनं प्रति अद्यतनं कुर्वन्तु"
-
-#: svnlogdialog.cpp:94 svnlogdialog.cpp:112
-#, kde-format
-msgid "Revert to revision"
-msgstr "पुनरीक्षणं प्रति प्रत्यागच्छन्तु"
-
-#: svnlogdialog.cpp:98
-#, kde-format
-msgid "Show changes"
-msgstr "परिवर्तनं दर्शयतु"
-
-#: svnlogdialog.cpp:105
-#, kde-format
-msgid "Changes against working copy"
-msgstr "कार्यरतप्रतिलिपिं विरुद्धं परिवर्तनम्"
-
-#: svnlogdialog.cpp:267
-#, kde-format
-msgctxt "@info:status"
-msgid "SVN log: update to revision failed."
-msgstr "SVN log: पुनरीक्षणं प्रति अद्यतनं विफलम्।"
-
-#: svnlogdialog.cpp:269
-#, kde-format
-msgctxt "@info:status"
-msgid "SVN log: update to revision %1 successful."
-msgstr "SVN log: संशोधनं प्रति अद्यतनं %1 सफलम्।"
-
-#: svnlogdialog.cpp:279 svnlogdialog.cpp:290
-#, kde-format
-msgctxt "@info:status"
-msgid "SVN log: revert to revision failed."
-msgstr "SVN log: पुनरीक्षणं प्रति प्रत्यागमनं विफलम्।"
-
-#: svnlogdialog.cpp:281 svnlogdialog.cpp:292
-#, kde-format
-msgctxt "@info:status"
-msgid "SVN log: revert to revision %1 successful."
-msgstr "SVN log: पुनरीक्षणं प्रति प्रत्यागन्तुं %1 सफलम्।"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, SvnLogDialog)
-#: svnlogdialog.ui:20
-#, kde-format
-msgid "SVN Log"
-msgstr "SVN Log"
-
-#. i18n: ectx: property (text), widget (QTableWidget, tLog)
-#: svnlogdialog.ui:55
-#, kde-format
-msgid "Revision"
-msgstr "कार्यदर्शन"
-
-#. i18n: ectx: property (text), widget (QTableWidget, tLog)
-#: svnlogdialog.ui:60
-#, kde-format
-msgid "Author"
-msgstr "लेखकः"
-
-#. i18n: ectx: property (text), widget (QTableWidget, tLog)
-#: svnlogdialog.ui:65
-#, kde-format
-msgid "Date"
-msgstr "दिनाङ्कः"
-
-#. i18n: ectx: property (text), widget (QTableWidget, tLog)
-#: svnlogdialog.ui:70
-#, kde-format
-msgid "Message"
-msgstr "सन्देशः"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbNext100)
-#: svnlogdialog.ui:104
-#, kde-format
-msgid "Next 100"
-msgstr "अग्रिमः १००"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbRefresh)
-#: svnlogdialog.ui:114
-#, kde-format
-msgid "Refresh"
-msgstr "ताजगी"
-
-#: svnprogressdialog.cpp:53
-#, kde-format
-msgctxt "@info:status"
-msgid "Error starting: %1"
-msgstr "आरम्भे त्रुटिः: %1"

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdeplasma-addons package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,16 +14,27 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#: package/contents/ui/main.qml:22
+#, kde-format
+msgid "Open Wallpaper Image"
+msgstr "वॉलपेपर इमेज उद्घाटयन्तु"
 
 #: package/contents/ui/config.qml:49
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Positioning:"
 msgstr "स्थितिः : १."
+
+#: package/contents/ui/config.qml:94
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Provider:"
+msgstr "प्रदाता : १."
 
 #: package/contents/ui/config.qml:52
 #, kde-format
@@ -67,11 +78,11 @@ msgctxt "@title:window"
 msgid "Select Background Color"
 msgstr "Background Color इति चिनोतु"
 
-#: package/contents/ui/config.qml:94
+#: plugins/potdbackend.cpp:213
 #, kde-format
-msgctxt "@label:listbox"
-msgid "Provider:"
-msgstr "प्रदाता : १."
+msgctxt "@title:window"
+msgid "Save Today's Picture"
+msgstr "अद्यतनं चित्रं रक्षतु"
 
 #: package/contents/ui/config.qml:113
 #, kde-format
@@ -80,8 +91,8 @@ msgid ""
 "This wallpaper provider does not filter out images that may be sensitive or "
 "objectionable. Use caution if these images will be displayed in public."
 msgstr ""
-"अयं वॉलपेपरप्रदाता संवेदनशीलाः आक्षेपार्हाः वा चित्राणि न छानति । यदि एतानि चित्राणि "
-"सार्वजनिकरूपेण प्रदर्शितानि भविष्यन्ति तर्हि सावधानतां कुर्वन्तु।"
+"अयं वॉलपेपरप्रदाता संवेदनशीलाः आक्षेपार्हाः वा चित्राणि न छानति । यदि एतानि "
+"चित्राणि सार्वजनिकरूपेण प्रदर्शितानि भविष्यन्ति तर्हि सावधानतां कुर्वन्तु।"
 
 #: package/contents/ui/config.qml:122
 #, kde-format
@@ -119,11 +130,6 @@ msgctxt "@info:whatsthis for a button"
 msgid "Open the destination folder where the wallpaper image was saved."
 msgstr "गन्तव्यपुटं उद्घाटयन्तु यत्र वॉलपेपरप्रतिबिम्बं रक्षितम् आसीत् ।"
 
-#: package/contents/ui/main.qml:22
-#, kde-format
-msgid "Open Wallpaper Image"
-msgstr "वॉलपेपर इमेज उद्घाटयन्तु"
-
 #: package/contents/ui/WallpaperDelegate.qml:137
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -142,12 +148,6 @@ msgctxt "@info:whatsthis"
 msgid "Unavailable"
 msgstr "अनुपलब्धम्"
 
-#: package/contents/ui/WallpaperDelegate.qml:140
-#, kde-format
-msgctxt "@info:whatsthis for an image %1 title %2 author"
-msgid "%1 Author: %2. Right-click on the image to see more actions."
-msgstr "%1 लेखकः %2. अधिकानि क्रियाणि द्रष्टुं चित्रे राइट्-क्लिक् कुर्वन्तु ।"
-
 #: package/contents/ui/WallpaperDelegate.qml:141
 #, kde-format
 msgctxt "@info:whatsthis"
@@ -159,6 +159,12 @@ msgstr "अन्तर्जालतः वॉलपेपरम् आनय�
 msgctxt "@info:whatsthis"
 msgid "Failed to fetch the wallpaper from the Internet."
 msgstr "अन्तर्जालतः वॉलपेपरं आनेतुं असफलम्।"
+
+#: package/contents/ui/WallpaperDelegate.qml:140
+#, kde-format
+msgctxt "@info:whatsthis for an image %1 title %2 author"
+msgid "%1 Author: %2. Right-click on the image to see more actions."
+msgstr "%1 लेखकः %2. अधिकानि क्रियाणि द्रष्टुं चित्रे राइट्-क्लिक् कुर्वन्तु ।"
 
 #: package/contents/ui/WallpaperPreview.qml:48
 #, kde-format
@@ -175,7 +181,8 @@ msgstr "अद्यतनं चित्रं स्थानीयडिस�
 #: package/contents/ui/WallpaperPreview.qml:57
 #, kde-format
 msgctxt ""
-"@action:inmenu wallpaper preview menu, will open the website of the wallpaper"
+"@action:inmenu wallpaper preview menu, will open the website of the "
+"wallpaper"
 msgid "Open Link in Browser…"
 msgstr "ब्राउजर् मध्ये लिङ्कं उद्घाटयन्तु…"
 
@@ -184,12 +191,6 @@ msgstr "ब्राउजर् मध्ये लिङ्कं उद्घ
 msgctxt "@info:whatsthis for a menu item"
 msgid "Open the website of today's picture in the default browser"
 msgstr "अद्यतनचित्रस्य जालपुटं पूर्वनिर्धारितब्राउजरे उद्घाटयन्तु"
-
-#: plugins/potdbackend.cpp:213
-#, kde-format
-msgctxt "@title:window"
-msgid "Save Today's Picture"
-msgstr "अद्यतनं चित्रं रक्षतु"
 
 #: plugins/potdbackend.cpp:215
 #, kde-format

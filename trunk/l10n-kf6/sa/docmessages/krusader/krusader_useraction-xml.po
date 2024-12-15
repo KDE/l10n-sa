@@ -1,6 +1,6 @@
 # Sanskrit translations for PACKAGE package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: krusader_useraction-xml\n"
@@ -11,60 +11,64 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
-#. Tag: title
 #: useraction-xml.docbook:8
+#. Tag: title
 #, no-c-format
 msgid "useractions.xml"
 msgstr "useractions.xml इति"
 
-#. Tag: para
 #: useraction-xml.docbook:9
+#. Tag: para
 #, no-c-format
 msgid ""
-"This appendix gives several examples of <filename>useractions.xml</filename> "
-"files. With this you can begin to discover the power of the <link linkend="
-"\"useractions\">UserActions</link> and start learning how to use them. Once "
-"you understand how to write UserActions you will find that &krusader; is an "
-"even more powerful, customizable tool."
+"This appendix gives several examples of "
+"<filename>useractions.xml</filename> files. With this you can begin to "
+"discover the power of the <link linkend=\"useractions\">UserActions</link> "
+"and start learning how to use them. Once you understand how to write "
+"UserActions you will find that &krusader; is an even more powerful, "
+"customizable tool."
 msgstr ""
-"अस्मिन् परिशिष्टे अनेकानि उदाहरणानि दत्तानि सन्ति<filename> useractions.xml इति</"
-"filename> सञ्चिकाः । एतेन भवन्तः तस्य शक्तिं आविष्कर्तुं आरभुं शक्नुवन्ति<link linkend="
-"\"useractions\"> उपयोक्तृक्रियाः</link> तथा तेषां उपयोगः कथं करणीयः इति शिक्षितुं "
-"आरभत। एकदा भवन्तः UserActions कथं लिखितव्यम् इति अवगत्य भवन्तः तत् &amp;krusader; "
-"अतः अपि अधिकं शक्तिशाली, अनुकूलनीयं साधनम् अस्ति ।"
+"अस्मिन् परिशिष्टे अनेकानि उदाहरणानि दत्तानि सन्ति<filename> useractions.xml "
+"इति</filename> सञ्चिकाः । एतेन भवन्तः तस्य शक्तिं आविष्कर्तुं आरभुं "
+"शक्नुवन्ति<link linkend=\"useractions\"> उपयोक्तृक्रियाः</link> तथा तेषां "
+"उपयोगः कथं करणीयः इति शिक्षितुं आरभत। एकदा भवन्तः UserActions कथं "
+"लिखितव्यम् इति अवगत्य भवन्तः तत् &amp;krusader; अतः अपि अधिकं शक्तिशाली, "
+"अनुकूलनीयं साधनम् अस्ति ।"
 
-#. Tag: para
 #: useraction-xml.docbook:15
+#. Tag: para
 #, no-c-format
 msgid ""
-"Please consider uploading your UserActions at <ulink url=\"https://store.kde."
-"org\">store.kde.org</ulink> as we are collecting them. If your UserAction is "
-"selected by us it will be shipped with &krusader; at the next release."
+"Please consider uploading your UserActions at <ulink "
+"url=\"https://store.kde.org\">store.kde.org</ulink> as we are collecting "
+"them. If your UserAction is selected by us it will be shipped with "
+"&krusader; at the next release."
 msgstr ""
-"कृपया भवतः UserActions <ulink url=\"https://store.kde.org\">store.kde.org</"
-"ulink> इत्यत्र अपलोड् कर्तुं विचारयन्तु यतः वयं तान् संग्रहयामः । यदि भवतः UserAction "
-"अस्माभिः चयनितं तर्हि &krusader; अग्रिमे विमोचनसमये।"
+"कृपया भवतः UserActions <ulink "
+"url=\"https://store.kde.org\">store.kde.org</ulink> इत्यत्र अपलोड् कर्तुं "
+"विचारयन्तु यतः वयं तान् संग्रहयामः । यदि भवतः UserAction अस्माभिः चयनितं "
+"तर्हि &krusader; अग्रिमे विमोचनसमये।"
 
-#. Tag: para
 #: useraction-xml.docbook:20
+#. Tag: para
 #, no-c-format
 msgid "Runs <command>uptime</command>"
 msgstr "<command>uptime</command> इति चालयति"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:21
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
 " &lt;KrusaderUserActions>\n"
 "  &lt;action name=\"uptime\" >\n"
 "  &lt;title>Up-time&lt;/title>\n"
-"  &lt;tooltip>tells how long since the computer has been booted&lt;/"
-"tooltip>\n"
+"  &lt;tooltip>tells how long since the computer has been "
+"booted&lt;/tooltip>\n"
 "  &lt;icon>clock&lt;/icon>\n"
 "  &lt;category>information&lt;/category>\n"
 "  &lt;description same_as=\"tooltip\" />\n"
@@ -86,14 +90,14 @@ msgstr ""
 " &lt;/कर्म>\n"
 "&lt;/क्रूसाडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:24
+#. Tag: para
 #, no-c-format
 msgid "Runs <command>ls -l</command>"
 msgstr "<command>ls -l</command> चालयति"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:25
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -101,8 +105,8 @@ msgid ""
 "  &lt;action name=\"ls -l\" >\n"
 "  &lt;title>ls -l in current dir&lt;/title>\n"
 "  &lt;description same_as=\"tooltip\" />\n"
-"  &lt;command executionmode=\"collect_output\" >ls -l %aPath% %oPath%&lt;/"
-"command>\n"
+"  &lt;command executionmode=\"collect_output\" >ls -l %aPath% "
+"%oPath%&lt;/command>\n"
 " &lt;/action>\n"
 "&lt;/KrusaderUserActions>"
 msgstr ""
@@ -111,19 +115,19 @@ msgstr ""
 "  &lt;क्रिया नाम=\"ls -l\" >\n"
 "  &lt;title>ls -l वर्तमान dir&lt;/title> मध्ये\n"
 "  &lt;वर्णन same_as=\"उपकरणसूची\" />\n"
-"  &lt;command executionmode=\"कलेक्ट_आउटपुट\" >ls -l % aPath% % oPath%&lt;/"
-"आदेश>\n"
+"  &lt;command executionmode=\"कलेक्ट_आउटपुट\" >ls -l % aPath% % "
+"oPath%&lt;/आदेश>\n"
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:28
+#. Tag: para
 #, no-c-format
 msgid "Echo Placeholder"
 msgstr "प्रतिध्वनि स्थानधारक"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:29
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -133,9 +137,9 @@ msgid ""
 "  &lt;tooltip>Echo's the placeholder values&lt;/tooltip>\n"
 "  &lt;category>Testing&lt;/category>\n"
 "  &lt;description same_as=\"tooltip\" />\n"
-"  &lt;command executionmode=\"collect_output\" onmultiplefiles=\"call_each\" "
-">echo -e &quot;aPath %aPath()%  \\naCurrent: %aCurrent()%&quot;&lt;/"
-"command>\n"
+"  &lt;command executionmode=\"collect_output\" "
+"onmultiplefiles=\"call_each\" >echo -e &quot;aPath %aPath()%  \\n"
+"aCurrent: %aCurrent()%&quot;&lt;/command>\n"
 " &lt;/action>\n"
 "&lt;/KrusaderUserActions>"
 msgstr ""
@@ -146,19 +150,20 @@ msgstr ""
 "  &lt;tooltip>Echo इत्यस्य स्थानधारकमूल्यानि&lt;/tooltip> सन्ति\n"
 "  &lt;वर्ग>परीक्षण&lt;/श्रेणी>\n"
 "  &lt;वर्णन same_as=\"उपकरणसूची\" />\n"
-"  &lt;command executionmode=\"collect_output\" onmultiplefiles=\"call_each\" "
-">echo -e &quot;aPath %aPath()% \\naवर्तमान: %aवर्तमान()%&quot;&lt;/आदेश>\n"
+"  &lt;command executionmode=\"collect_output\" "
+"onmultiplefiles=\"call_each\" >echo -e &quot;aPath %aPath()% \\n"
+"aवर्तमान: %aवर्तमान()%&quot;&lt;/आदेश>\n"
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:32
+#. Tag: para
 #, no-c-format
 msgid "This useraction copies current path and filename to clipboard:"
 msgstr "इदं useraction वर्तमानमार्गं सञ्चिकानाम च क्लिप्बोर्ड् प्रति प्रतिलिखति:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:33
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -168,8 +173,8 @@ msgid ""
 "  &lt;tooltip>Copy to clipboard&lt;/tooltip>\n"
 "  &lt;icon>klipper&lt;/icon>\n"
 "  &lt;category>System&lt;/category>\n"
-"  &lt;description>Copy current path and filename to clipboard&lt;/"
-"description>\n"
+"  &lt;description>Copy current path and filename to "
+"clipboard&lt;/description>\n"
 "  &lt;command>%_Clipboard(&quot;%aCurrent%&quot;)%&lt;/command>\n"
 "  &lt;defaultshortcut>Win+C&lt;/defaultshortcut>\n"
 " &lt;/action>\n"
@@ -182,25 +187,25 @@ msgstr ""
 "  &lt;tooltip>क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्&lt;/tooltip>\n"
 "  &lt;चिह्न>क्लिपर&lt;/चिह्न>\n"
 "  &lt;वर्ग>प्रणाली&lt;/श्रेणी>\n"
-"  &lt;description>वर्तमानमार्गं सञ्चिकानाम च क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्&lt;/"
-"description>\n"
+"  &lt;description>वर्तमानमार्गं सञ्चिकानाम च क्लिप्बोर्ड् प्रति "
+"प्रतिलिख्यताम्&lt;/description>\n"
 "  &lt;command>%_Clipboard(&quot;%aवर्तमान%&quot;)%&lt;/आदेश>\n"
 "  &lt;defaulttshortcut>विजय+C&lt;/defaulttshortcut>\n"
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:36
+#. Tag: para
 #, no-c-format
 msgid ""
-"Selects <literal role=\"extension\">.diff</literal> and <literal role="
-"\"extension\">*.h</literal> in the active panel:"
+"Selects <literal role=\"extension\">.diff</literal> and <literal "
+"role=\"extension\">*.h</literal> in the active panel:"
 msgstr ""
-"सक्रियपटले <literal role=\"extension\">.diff</literal> तथा <literal role="
-"\"extension\">*.h</literal> इति चयनं करोति:"
+"सक्रियपटले <literal role=\"extension\">.diff</literal> तथा <literal "
+"role=\"extension\">*.h</literal> इति चयनं करोति:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:37
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -208,8 +213,8 @@ msgid ""
 " &lt;action name=\"test_select\" >\n"
 "  &lt;title>Add selection *.diff and *.h&lt;/title>\n"
 "  &lt;category>Selection&lt;/category>\n"
-"  &lt;command>%aSelect(&quot;*.diff&quot;, &quot;add&quot;)% %aSelect(&quot;"
-"*.h&quot;, &quot;add&quot;)%&lt;/command>\n"
+"  &lt;command>%aSelect(&quot;*.diff&quot;, &quot;add&quot;)% "
+"%aSelect(&quot;*.h&quot;, &quot;add&quot;)%&lt;/command>\n"
 " &lt;/action>\n"
 "&lt;/KrusaderUserActions>"
 msgstr ""
@@ -218,19 +223,19 @@ msgstr ""
 " &lt;action name=\"परीक्षण_चयन\" >\n"
 "  &lt;title>चयनं *.diff तथा *.h&lt;/title> योजयतु\n"
 "  &lt;वर्ग>चयन&lt;/श्रेणी>\n"
-"  &lt;आदेश>% aSelect(&quot;*.diff&quot;, &quot;जोड&quot;)% %aSelect(&quot;*."
-"h&quot;, &quot;जोड़े&quot;)%&lt;/आदेश>\n"
+"  &lt;आदेश>% aSelect(&quot;*.diff&quot;, &quot;जोड&quot;)% "
+"%aSelect(&quot;*.h&quot;, &quot;जोड़े&quot;)%&lt;/आदेश>\n"
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:40
+#. Tag: para
 #, no-c-format
 msgid "Active panel changes to <filename>mnt/floppy</filename> (bookmark):"
 msgstr "सक्रियपटलः <filename>mnt/floppy</filename> (बुकमार्क) इति परिवर्तते:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:41
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -238,8 +243,8 @@ msgid ""
 "&lt;action name=\"mnt/floppy bookmark\" >\n"
 "  &lt;title>Jump to /mnt/floppy&lt;/title>\n"
 "  &lt;category>Bookmarks&lt;/category>\n"
-"  &lt;command>%aGoto(&quot;/mnt/floppy&quot;, &quot;yes&quot;)%&lt;/"
-"command>\n"
+"  &lt;command>%aGoto(&quot;/mnt/floppy&quot;, "
+"&quot;yes&quot;)%&lt;/command>\n"
 " &lt;/action>\n"
 "&lt;/KrusaderUserActions>"
 msgstr ""
@@ -252,16 +257,16 @@ msgstr ""
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:44
+#. Tag: para
 #, no-c-format
 msgid ""
 "Select in the non-active panel, all filenames that are highlighted in the "
 "active panel:"
 msgstr "अ-सक्रिय-पटले, सक्रिय-पटले प्रकाशितानि सर्वाणि सञ्चिकानामानि चिनोतु:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:45
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -281,24 +286,25 @@ msgstr ""
 " &lt;क्रिया नाम=\"asdfasdf\" >\n"
 "  &lt;title>अन्यपटलमध्ये चिनोतु&lt;/title>\n"
 "  &lt;वर्ग>चयन&lt;/श्रेणी>\n"
-"  &lt;description>सक्रियफलके चयनितानि सर्वाणि सञ्चिकानामानि चिनोतु, असक्रियफलके "
-"अपि&lt;/description>\n"
-"  &lt;command>%oSelect(&quot;%aList(&quot;चयनित&quot;, &quot; &quot;, &quot;"
-"हाँ&quot;)%&quot;)%&lt;/आदेश>\n"
+"  &lt;description>सक्रियफलके चयनितानि सर्वाणि सञ्चिकानामानि चिनोतु, "
+"असक्रियफलके अपि&lt;/description>\n"
+"  &lt;command>%oSelect(&quot;%aList(&quot;चयनित&quot;, &quot; &quot;, "
+"&quot;हाँ&quot;)%&quot;)%&lt;/आदेश>\n"
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:48
+#. Tag: para
 #, no-c-format
 msgid ""
 "Make a backup of the current file/folder to <filename>foo.bak</filename> "
 "into the current folder:"
 msgstr ""
-"वर्तमानसञ्चिकायाः/पुटस्य <filename>foo.bak</filename> इत्यत्र वर्तमानपुटे बैकअपं कुर्वन्तु:"
+"वर्तमानसञ्चिकायाः/पुटस्य <filename>foo.bak</filename> इत्यत्र वर्तमानपुटे "
+"बैकअपं कुर्वन्तु:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:49
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -329,14 +335,14 @@ msgstr ""
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:52
+#. Tag: para
 #, no-c-format
 msgid "Opens <link linkend=\"krusearcher\">KruSearcher</link>:"
 msgstr "उद्घाट्यते<link linkend=\"krusearcher\"> क्रूसर्चर</link> : १."
 
-#. Tag: programlisting
 #: useraction-xml.docbook:53
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -355,14 +361,14 @@ msgstr ""
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:56
+#. Tag: para
 #, no-c-format
 msgid "Sets the selected picture as wallpaper:"
 msgstr "चयनितं चित्रं वॉलपेपररूपेण सेट् करोति:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:57
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -373,8 +379,8 @@ msgid ""
 "  &lt;icon>image&lt;/icon>\n"
 "  &lt;category>Service Menu&lt;/category>\n"
 "  &lt;description>Set as wallpaper (scaled)&lt;/description>\n"
-"  &lt;command>dcop kdesktop KBackgroundIface setWallpaper &quot;%aCurrent"
-"%&quot; 6&lt;/command>\n"
+"  &lt;command>dcop kdesktop KBackgroundIface setWallpaper "
+"&quot;%aCurrent%&quot; 6&lt;/command>\n"
 "  &lt;defaultshortcut>Win+W&lt;/defaultshortcut>\n"
 " &lt;/action>\n"
 "&lt;/KrusaderUserActions>"
@@ -387,24 +393,24 @@ msgstr ""
 "  &lt;चिह्न>प्रतिबिम्ब&lt;/चिह्न>\n"
 "  &lt;category>सेवा मेनू&lt;/category>\n"
 "  &lt;description>वॉलपेपर (स्केल) इति सेट् कुर्वन्तु&lt;/description>\n"
-"  &lt;command>dcop kdesktop KBackgroundIface setWallpaper &quot;%aवर्तमान"
-"%&quot; ६&lt;/आदेशः>\n"
+"  &lt;command>dcop kdesktop KBackgroundIface setWallpaper "
+"&quot;%aवर्तमान%&quot; ६&lt;/आदेशः>\n"
 "  &lt;defaulttshortcut>विजय+W&lt;/defaulttshortcut>\n"
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:60
+#. Tag: para
 #, no-c-format
 msgid ""
-"This useraction edits a file with root permissions using <command>kdesu</"
-"command>:"
+"This useraction edits a file with root permissions using "
+"<command>kdesu</command>:"
 msgstr ""
-"इदं useraction <command>kdesu</command> इत्यस्य उपयोगेन मूल-अनुमतियुक्तां सञ्चिकां "
-"सम्पादयति:"
+"इदं useraction <command>kdesu</command> इत्यस्य उपयोगेन मूल-अनुमतियुक्तां "
+"सञ्चिकां सम्पादयति:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:61
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -414,8 +420,8 @@ msgid ""
 "  &lt;tooltip>Edit as root&lt;/tooltip>\n"
 "  &lt;icon>kwrite&lt;/icon>\n"
 "  &lt;category>System&lt;/category>\n"
-"  &lt;description>Edit a file with root permissions using kdesu&lt;/"
-"description>\n"
+"  &lt;description>Edit a file with root permissions using "
+"kdesu&lt;/description>\n"
 "  &lt;command>kdesu kwrite %aCurrent%&lt;/command>\n"
 "  &lt;defaultshortcut>Win+F4&lt;/defaultshortcut>\n"
 " &lt;/action>\n"
@@ -428,21 +434,21 @@ msgstr ""
 "  &lt;tooltip>मूलरूपेण सम्पादयतु&lt;/tooltip>\n"
 "  &lt;चिह्न>कलेखन&lt;/चिह्न>\n"
 "  &lt;वर्ग>प्रणाली&lt;/श्रेणी>\n"
-"  &lt;description>kdesu&lt;/description> इत्यस्य उपयोगेन मूलानुमतियुक्तां सञ्चिकां "
-"सम्पादयन्तु\n"
+"  &lt;description>kdesu&lt;/description> इत्यस्य उपयोगेन मूलानुमतियुक्तां "
+"सञ्चिकां सम्पादयन्तु\n"
 "  &lt;आदेश>kdesu kwrite %aवर्तमान%&lt;/आदेश>\n"
 "  &lt;defaulttshortcut>विजय+F4&lt;/defaulttshortcut>\n"
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:64
+#. Tag: para
 #, no-c-format
 msgid "This useraction Add item(s) to Amarok playlist:"
 msgstr "This useraction Amarok प्लेलिस्ट् मध्ये द्रव्यं (वस्तूनि) योजयन्तु:"
 
-#. Tag: programlisting
 #: useraction-xml.docbook:65
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"
@@ -462,7 +468,8 @@ msgstr ""
 "&lt;क्रूसेडरप्रयोक्तृक्रियाः>\n"
 " &lt;action name=\"अमारोक् एनक्यू\" >\n"
 "  &lt;title>अमारोक्&lt;/title> इत्यत्र पङ्क्तिं कुर्वन्तु\n"
-"  &lt;tooltip>चयनितं द्रव्यं (वस्तूनि) Amarok प्लेलिस्ट् मध्ये योजयन्तु&lt;/tooltip>\n"
+"  &lt;tooltip>चयनितं द्रव्यं (वस्तूनि) Amarok प्लेलिस्ट् मध्ये "
+"योजयन्तु&lt;/tooltip>\n"
 "  &lt;चिह्न>अमारोक्&lt;/चिह्न>\n"
 "  &lt;वर्ग>बहुमाध्यम&lt;/श्रेणी>\n"
 "  &lt;वर्णन same_as=\"उपकरणसूची\" />\n"
@@ -471,14 +478,14 @@ msgstr ""
 " &lt;/कर्म>\n"
 "&lt;/क्रूसेडरप्रयोक्तृक्रियाः>"
 
-#. Tag: para
 #: useraction-xml.docbook:68
+#. Tag: para
 #, no-c-format
 msgid "Opens <link linkend=\"synchronizer\">Synchronizer</link>:"
 msgstr "उद्घाट्यते<link linkend=\"synchronizer\"> समन्वयक</link> : १."
 
-#. Tag: programlisting
 #: useraction-xml.docbook:69
+#. Tag: programlisting
 #, no-c-format
 msgid ""
 "&lt;!DOCTYPE KrusaderUserActions>\n"

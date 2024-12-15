@@ -8,7 +8,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
 "X-Qt-Contexts: true\n"
@@ -351,14 +351,19 @@ msgctxt "BrowserWindow|"
 msgid "There are still open tabs"
 msgstr "अद्यापि उद्घाटिताः ट्याब्स् सन्ति"
 
+#: lib/tabwidget/tabbar.cpp:111
+msgctxt "BrowserWindow|"
+msgid "Close Tab"
+msgstr "ट्याब् बन्दं कुर्वन्तु"
+
 #: lib/app/mainapplication.cpp:1113
 msgctxt "MainApplication|"
 msgid ""
-"Falkon is not currently your default browser. Would you like to make it your "
-"default browser?"
+"Falkon is not currently your default browser. Would you like to make it "
+"your default browser?"
 msgstr ""
-"Falkon सम्प्रति भवतः पूर्वनिर्धारितं ब्राउजर् नास्ति । किं भवन्तः तत् स्वस्य पूर्वनिर्धारितं "
-"ब्राउजर् कर्तुम् इच्छन्ति?"
+"Falkon सम्प्रति भवतः पूर्वनिर्धारितं ब्राउजर् नास्ति । किं भवन्तः तत् "
+"स्वस्य पूर्वनिर्धारितं ब्राउजर् कर्तुम् इच्छन्ति?"
 
 #: lib/app/mainapplication.cpp:1114
 msgctxt "MainApplication|"
@@ -392,9 +397,9 @@ msgid ""
 "version 3 or (at your option) any later version. It is based on QtWebEngine "
 "and Qt Framework."
 msgstr ""
-"Falkon इति नूतनं अतीव द्रुतं च Qt जालपुटम् अस्ति । Falkon GPL संस्करण 3 अथवा (भवतः "
-"विकल्पे) परवर्ती संस्करणस्य अन्तर्गतं अनुज्ञापत्रं प्राप्तवान् अस्ति । इदं QtWebEngine तथा Qt "
-"Framework इत्येतयोः आधारेण अस्ति ।"
+"Falkon इति नूतनं अतीव द्रुतं च Qt जालपुटम् अस्ति । Falkon GPL संस्करण 3 "
+"अथवा (भवतः विकल्पे) परवर्ती संस्करणस्य अन्तर्गतं अनुज्ञापत्रं प्राप्तवान् "
+"अस्ति । इदं QtWebEngine तथा Qt Framework इत्येतयोः आधारेण अस्ति ।"
 
 #: lib/app/mainmenu.cpp:84 lib/app/mainmenu.cpp:501
 msgctxt "MainMenu|"
@@ -646,6 +651,11 @@ msgctxt "AutoFillWidget|"
 msgid "Choose username to login"
 msgstr "प्रवेशार्थं उपयोक्तृनाम चिनोतु"
 
+#: lib/autofill/autofillwidget.ui:11
+msgctxt "AutoFillWidget|"
+msgid "Login as:"
+msgstr "यथा प्रवेशं कुर्वन्तु:"
+
 #: lib/autofill/autofillnotification.cpp:39
 #, qt-format
 msgctxt "AutoFillNotification|"
@@ -690,33 +700,10 @@ msgctxt "AutoFillNotification|"
 msgid "Not Now"
 msgstr "न खलु"
 
-#: lib/autofill/autofillwidget.ui:11
-msgctxt "AutoFillWidget|"
-msgid "Login as:"
-msgstr "यथा प्रवेशं कुर्वन्तु:"
-
 #: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:258
 msgctxt "AutoFill|"
 msgid "Database (encrypted)"
 msgstr "दत्तांशकोशः (गुप्तः) २."
-
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:547
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:552
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:601
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:644
-msgctxt "MasterPasswordDialog|"
-msgid "Warning!"
-msgstr "चेतवानी!"
-
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:547
-msgctxt "MasterPasswordDialog|"
-msgid "You entered a wrong password!"
-msgstr "भवता गलत् गुप्तशब्दः प्रविष्टः!"
-
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:552
-msgctxt "MasterPasswordDialog|"
-msgid "New/Confirm password fields do not match!"
-msgstr "नवीन/गुप्तशब्दपुष्टिक्षेत्राणि न मेलन्ति!"
 
 #: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:579
 msgctxt "AutoFill|"
@@ -729,20 +716,8 @@ msgid ""
 "This backend needs a master password to be set! Falkon just switches to its "
 "default backend"
 msgstr ""
-"अस्य पृष्ठभागस्य सेट् कर्तुं मुख्यगुप्तशब्दस्य आवश्यकता अस्ति! Falkon केवलं स्वस्य "
-"पूर्वनिर्धारितपृष्ठभागं प्रति स्विच करोति"
-
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:601
-msgctxt "MasterPasswordDialog|"
-msgid "Are you sure you want to clear master password and decrypt data?"
-msgstr ""
-"किं भवान् निश्चितः अस्ति यत् भवान् मुख्यगुप्तशब्दं स्वच्छं कर्तुम् इच्छति तथा च दत्तांशं विगुप्तं "
-"कर्तुम् इच्छति?"
-
-#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:644
-msgctxt "MasterPasswordDialog|"
-msgid "Some data has not been decrypted. The master password was not cleared!"
-msgstr "केचन दत्तांशाः विगुप्ताः न कृताः । मुख्यगुप्तशब्दः न स्वच्छः अभवत्!"
+"अस्य पृष्ठभागस्य सेट् कर्तुं मुख्यगुप्तशब्दस्य आवश्यकता अस्ति! Falkon केवलं "
+"स्वस्य पूर्वनिर्धारितपृष्ठभागं प्रति स्विच करोति"
 
 #: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:670
 msgctxt "AutoFill|"
@@ -763,6 +738,36 @@ msgstr "प्रविष्टः गुप्तशब्दः गलतः 
 msgctxt "AutoFill|"
 msgid "Database (plaintext)"
 msgstr "दत्तांशकोशः (सादा पाठः) २."
+
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:547
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:552
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:601
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:644
+msgctxt "MasterPasswordDialog|"
+msgid "Warning!"
+msgstr "चेतवानी!"
+
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:547
+msgctxt "MasterPasswordDialog|"
+msgid "You entered a wrong password!"
+msgstr "भवता गलत् गुप्तशब्दः प्रविष्टः!"
+
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:552
+msgctxt "MasterPasswordDialog|"
+msgid "New/Confirm password fields do not match!"
+msgstr "नवीन/गुप्तशब्दपुष्टिक्षेत्राणि न मेलन्ति!"
+
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:601
+msgctxt "MasterPasswordDialog|"
+msgid "Are you sure you want to clear master password and decrypt data?"
+msgstr ""
+"किं भवान् निश्चितः अस्ति यत् भवान् मुख्यगुप्तशब्दं स्वच्छं कर्तुम् इच्छति "
+"तथा च दत्तांशं विगुप्तं कर्तुम् इच्छति?"
+
+#: lib/autofill/passwordbackends/databaseencryptedpasswordbackend.cpp:644
+msgctxt "MasterPasswordDialog|"
+msgid "Some data has not been decrypted. The master password was not cleared!"
+msgstr "केचन दत्तांशाः विगुप्ताः न कृताः । मुख्यगुप्तशब्दः न स्वच्छः अभवत्!"
 
 #: lib/autofill/passwordbackends/masterpassworddialog.ui:20
 msgctxt "MasterPasswordDialog|"
@@ -790,8 +795,9 @@ msgid ""
 "This option clears the master password and moves all encrypted data to the "
 "\"DataBase (Plain Text)\" backend, and switches to it."
 msgstr ""
-"एषः विकल्पः मुख्यगुप्तशब्दं स्वच्छं करोति तथा च सर्वान् एन्क्रिप्टेड् दत्तांशं \"DataBase (Plain "
-"Text)\" पृष्ठभागे स्थानान्तरयति, तस्मिन् च स्विच करोति ।"
+"एषः विकल्पः मुख्यगुप्तशब्दं स्वच्छं करोति तथा च सर्वान् एन्क्रिप्टेड् "
+"दत्तांशं \"DataBase (Plain Text)\" पृष्ठभागे स्थानान्तरयति, तस्मिन् च स्विच "
+"करोति ।"
 
 #: lib/autofill/passwordbackends/masterpassworddialog.ui:64
 msgctxt "MasterPasswordDialog|"
@@ -799,8 +805,9 @@ msgid ""
 "The Master Password is used to protect site passwords and form data. If you "
 "set a Master Password you will be asked to enter it once per session."
 msgstr ""
-"साइट् गुप्तशब्दानां रक्षणाय, दत्तांशरूपस्य च कृते Master Password इत्यस्य उपयोगः भवति । "
-"यदि भवान् Master Password सेट् करोति तर्हि प्रतिसत्रं एकवारं प्रविष्टुं प्रार्थयिष्यते ।"
+"साइट् गुप्तशब्दानां रक्षणाय, दत्तांशरूपस्य च कृते Master Password इत्यस्य "
+"उपयोगः भवति । यदि भवान् Master Password सेट् करोति तर्हि प्रतिसत्रं एकवारं "
+"प्रविष्टुं प्रार्थयिष्यते ।"
 
 #: lib/autofill/passwordbackends/masterpassworddialog.ui:76
 msgctxt "MasterPasswordDialog|"
@@ -820,8 +827,11 @@ msgstr "गुप्तशब्दस्य पुष्टिः कुर्�
 #: lib/autofill/passwordbackends/masterpassworddialog.ui:120
 msgctxt "MasterPasswordDialog|"
 msgid ""
-"<b>Note:</b> The Master Password is not resettable. Do not forget it, please."
-msgstr "<b>नोटः-</b> Master Password पुनः सेट् कर्तुं न शक्यते । मा विस्मरन्तु कृपया ।"
+"<b>Note:</b> The Master Password is not resettable. Do not forget it, "
+"please."
+msgstr ""
+"<b>नोटः-</b> Master Password पुनः सेट् कर्तुं न शक्यते । मा विस्मरन्तु "
+"कृपया ।"
 
 #: lib/bookmarks/bookmarks.cpp:208
 msgctxt "Bookmarks|"
@@ -852,6 +862,69 @@ msgstr "अक्रमित बुकमार्क"
 msgctxt "Bookmarks|"
 msgid "All other bookmarks"
 msgstr "अन्ये सर्वे पुस्तकचिह्नानि"
+
+#: lib/bookmarks/bookmarkstools.cpp:153
+msgctxt "Bookmarks|"
+msgid "Choose name and location of this bookmark."
+msgstr "अस्य पुस्तकचिह्नस्य नाम स्थानं च चिनोतु ।"
+
+#: lib/bookmarks/bookmarkstools.cpp:157
+msgctxt "Bookmarks|"
+msgid "Add New Bookmark"
+msgstr "New Bookmark योजयतु"
+
+#: lib/bookmarks/bookmarkstools.cpp:197
+msgctxt "Bookmarks|"
+msgid "Choose folder for bookmarks:"
+msgstr "पुस्तकचिह्नानां कृते पुटं चिनोतु:"
+
+#: lib/bookmarks/bookmarkstools.cpp:198
+msgctxt "Bookmarks|"
+msgid "Bookmark All Tabs"
+msgstr "सर्वाणि ट्याब्स् बुकमार्कं कुर्वन्तु"
+
+#: lib/bookmarks/bookmarkstools.cpp:239
+msgctxt "Bookmarks|"
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: lib/bookmarks/bookmarkstools.cpp:242
+msgctxt "Bookmarks|"
+msgid "Address:"
+msgstr "पत्रसङ्केतः:"
+
+#: lib/bookmarks/bookmarkstools.cpp:244
+msgctxt "Bookmarks|"
+msgid "Keyword:"
+msgstr "कीवर्ड : १."
+
+#: lib/bookmarks/bookmarkstools.cpp:247
+msgctxt "Bookmarks|"
+msgid "Description:"
+msgstr "वर्णनम्‌:"
+
+#: lib/bookmarks/bookmarkstools.cpp:252
+msgctxt "Bookmarks|"
+msgid "Edit Bookmark"
+msgstr "बुकमार्क सम्पादयतु"
+
+#: lib/bookmarks/bookmarkstools.cpp:344
+msgctxt "Bookmarks|"
+msgid "Confirmation"
+msgstr "पुष्टिः"
+
+#: lib/bookmarks/bookmarkstools.cpp:345
+#, qt-format
+msgctxt "Bookmarks|"
+msgid "Are you sure you want to open all bookmarks from '%1' folder in tabs?"
+msgstr ""
+"किं भवान् निश्चयेन '%1' पुटतः सर्वाणि पुस्तकचिह्नानि ट्याब्-मध्ये "
+"उद्घाटयितुम् इच्छति?"
+
+#: lib/bookmarks/bookmarkstools.cpp:440
+msgctxt "Bookmarks|"
+msgid "Empty"
+msgstr "रिक्तम्‌"
 
 #: lib/bookmarks/bookmarksexport/bookmarksexportdialog.cpp:64
 msgctxt "BookmarksExportDialog|"
@@ -981,13 +1054,24 @@ msgctxt "BookmarksImportDialog|"
 msgid "< Back"
 msgstr "< पृष्ठतः"
 
+#: lib/bookmarks/bookmarksimport/firefoximporter.cpp:70
+msgctxt "BookmarksImportDialog|"
+msgid "File does not exist."
+msgstr "सञ्चिका नास्ति ।"
+
+#: lib/bookmarks/bookmarksimport/firefoximporter.cpp:77
+msgctxt "BookmarksImportDialog|"
+msgid "Unable to open database. Is Firefox running?"
+msgstr "दत्तांशकोशं उद्घाटयितुं असमर्थः। Firefox चाल्यते वा ?"
+
 #: lib/bookmarks/bookmarksimport/chromeimporter.cpp:33
 msgctxt "BookmarksImporter|"
 msgid ""
 "Google Chrome stores its bookmarks in <b>Bookmarks</b> text file. This file "
 "is usually located in"
 msgstr ""
-"गूगल क्रोम् स्वस्य बुकमार्क्स् <b>Bookmarks</b> पाठसञ्चिकायां संगृह्णाति । इयं सञ्चिका प्रायः"
+"गूगल क्रोम् स्वस्य बुकमार्क्स् <b>Bookmarks</b> पाठसञ्चिकायां संगृह्णाति । "
+"इयं सञ्चिका प्रायः"
 
 #: lib/bookmarks/bookmarksimport/chromeimporter.cpp:50
 #: lib/bookmarks/bookmarksimport/firefoximporter.cpp:57
@@ -1016,27 +1100,17 @@ msgid ""
 "Mozilla Firefox stores its bookmarks in <b>places.sqlite</b> SQLite "
 "database. This file is usually located in"
 msgstr ""
-"Mozilla Firefox स्वस्य बुकमार्कं <b>places.sqlite</b> SQLite database इत्यत्र "
-"संगृह्णाति । इयं सञ्चिका प्रायः"
-
-#: lib/bookmarks/bookmarksimport/firefoximporter.cpp:70
-msgctxt "BookmarksImportDialog|"
-msgid "File does not exist."
-msgstr "सञ्चिका नास्ति ।"
-
-#: lib/bookmarks/bookmarksimport/firefoximporter.cpp:77
-msgctxt "BookmarksImportDialog|"
-msgid "Unable to open database. Is Firefox running?"
-msgstr "दत्तांशकोशं उद्घाटयितुं असमर्थः। Firefox चाल्यते वा ?"
+"Mozilla Firefox स्वस्य बुकमार्कं <b>places.sqlite</b> SQLite database "
+"इत्यत्र संगृह्णाति । इयं सञ्चिका प्रायः"
 
 #: lib/bookmarks/bookmarksimport/htmlimporter.cpp:32
 msgctxt "BookmarksImporter|"
 msgid ""
-"You can import bookmarks from any browser that supports HTML exporting. This "
-"file has usually these suffixes"
+"You can import bookmarks from any browser that supports HTML exporting. "
+"This file has usually these suffixes"
 msgstr ""
-"HTML निर्यातस्य समर्थनं कुर्वन्तः कस्मात् अपि ब्राउजर् तः बुकमार्क् आयातुं शक्नुवन्ति । अस्मिन् "
-"सञ्चिकायां प्रायः एते प्रत्ययाः सन्ति"
+"HTML निर्यातस्य समर्थनं कुर्वन्तः कस्मात् अपि ब्राउजर् तः बुकमार्क् आयातुं "
+"शक्नुवन्ति । अस्मिन् सञ्चिकायां प्रायः एते प्रत्ययाः सन्ति"
 
 #: lib/bookmarks/bookmarksimport/htmlimporter.cpp:43
 msgctxt "BookmarksImporter|"
@@ -1049,8 +1123,8 @@ msgid ""
 "Internet Explorer stores its bookmarks in <b>Favorites</b> folder. This "
 "folder is usually located in"
 msgstr ""
-"Internet Explorer स्वस्य बुकमार्कं <b>Favorites</b> फोल्डर् मध्ये संगृह्णाति । इदं पुटं "
-"प्रायः अत्र स्थितम् अस्ति"
+"Internet Explorer स्वस्य बुकमार्कं <b>Favorites</b> फोल्डर् मध्ये "
+"संगृह्णाति । इदं पुटं प्रायः अत्र स्थितम् अस्ति"
 
 #: lib/bookmarks/bookmarksimport/ieimporter.cpp:52
 msgctxt "BookmarksImporter|"
@@ -1063,8 +1137,8 @@ msgid ""
 "Opera stores its bookmarks in <b>bookmarks.adr</b> text file. This file is "
 "usually located in"
 msgstr ""
-"Opera स्वस्य पुस्तकचिह्नानि <b>bookmarks.adr</b> पाठसञ्चिकायां संगृह्णाति । इयं सञ्चिका "
-"प्रायः"
+"Opera स्वस्य पुस्तकचिह्नानि <b>bookmarks.adr</b> पाठसञ्चिकायां संगृह्णाति । "
+"इयं सञ्चिका प्रायः"
 
 #: lib/bookmarks/bookmarksimport/operaimporter.cpp:64
 msgctxt "BookmarksImporter|"
@@ -1218,67 +1292,6 @@ msgstr "पुटस्य नाम प्रविष्टं कुर्व
 msgctxt "BookmarksFoldersMenu|"
 msgid "Choose %1"
 msgstr "%1 चिनोतु"
-
-#: lib/bookmarks/bookmarkstools.cpp:153
-msgctxt "Bookmarks|"
-msgid "Choose name and location of this bookmark."
-msgstr "अस्य पुस्तकचिह्नस्य नाम स्थानं च चिनोतु ।"
-
-#: lib/bookmarks/bookmarkstools.cpp:157
-msgctxt "Bookmarks|"
-msgid "Add New Bookmark"
-msgstr "New Bookmark योजयतु"
-
-#: lib/bookmarks/bookmarkstools.cpp:197
-msgctxt "Bookmarks|"
-msgid "Choose folder for bookmarks:"
-msgstr "पुस्तकचिह्नानां कृते पुटं चिनोतु:"
-
-#: lib/bookmarks/bookmarkstools.cpp:198
-msgctxt "Bookmarks|"
-msgid "Bookmark All Tabs"
-msgstr "सर्वाणि ट्याब्स् बुकमार्कं कुर्वन्तु"
-
-#: lib/bookmarks/bookmarkstools.cpp:239
-msgctxt "Bookmarks|"
-msgid "Title:"
-msgstr "शीर्षक:"
-
-#: lib/bookmarks/bookmarkstools.cpp:242
-msgctxt "Bookmarks|"
-msgid "Address:"
-msgstr "पत्रसङ्केतः:"
-
-#: lib/bookmarks/bookmarkstools.cpp:244
-msgctxt "Bookmarks|"
-msgid "Keyword:"
-msgstr "कीवर्ड : १."
-
-#: lib/bookmarks/bookmarkstools.cpp:247
-msgctxt "Bookmarks|"
-msgid "Description:"
-msgstr "वर्णनम्‌:"
-
-#: lib/bookmarks/bookmarkstools.cpp:252
-msgctxt "Bookmarks|"
-msgid "Edit Bookmark"
-msgstr "बुकमार्क सम्पादयतु"
-
-#: lib/bookmarks/bookmarkstools.cpp:344
-msgctxt "Bookmarks|"
-msgid "Confirmation"
-msgstr "पुष्टिः"
-
-#: lib/bookmarks/bookmarkstools.cpp:345
-#, qt-format
-msgctxt "Bookmarks|"
-msgid "Are you sure you want to open all bookmarks from '%1' folder in tabs?"
-msgstr "किं भवान् निश्चयेन '%1' पुटतः सर्वाणि पुस्तकचिह्नानि ट्याब्-मध्ये उद्घाटयितुम् इच्छति?"
-
-#: lib/bookmarks/bookmarkstools.cpp:440
-msgctxt "Bookmarks|"
-msgid "Empty"
-msgstr "रिक्तम्‌"
 
 #: lib/bookmarks/bookmarkswidget.cpp:98
 msgctxt "BookmarksWidget|"
@@ -1477,8 +1490,8 @@ msgid ""
 "Cookies from these servers will ALWAYS be accepted (even if you have "
 "disabled saving cookies)"
 msgstr ""
-"एतेभ्यः सर्वरेभ्यः कुकीजः सर्वदा स्वीकृताः भविष्यन्ति (यद्यपि भवान् कुकीजं रक्षणं निष्क्रियं "
-"कृतवान् अस्ति)"
+"एतेभ्यः सर्वरेभ्यः कुकीजः सर्वदा स्वीकृताः भविष्यन्ति (यद्यपि भवान् कुकीजं "
+"रक्षणं निष्क्रियं कृतवान् अस्ति)"
 
 #: lib/cookies/cookiemanager.ui:307 lib/cookies/cookiemanager.ui:361
 msgctxt "CookieManager|"
@@ -1750,9 +1763,10 @@ msgstr "चेतवानी"
 
 #: lib/downloads/downloadmanager.cpp:465
 msgctxt "DownloadManager|"
-msgid ""
-"Are you sure you want to quit? All uncompleted downloads will be cancelled!"
-msgstr "किं त्वं निश्चयेन त्यक्तुम् इच्छसि ? सर्वाणि अपूर्णानि डाउनलोड् रद्दानि भविष्यन्ति!"
+msgid "Are you sure you want to quit? All uncompleted downloads will be cancelled!"
+msgstr ""
+"किं त्वं निश्चयेन त्यक्तुम् इच्छसि ? सर्वाणि अपूर्णानि डाउनलोड् रद्दानि "
+"भविष्यन्ति!"
 
 #: lib/downloads/downloadmanager.ui:69
 msgctxt "DownloadManager|"
@@ -2073,6 +2087,11 @@ msgctxt "LocationBar|"
 msgid "Enter address"
 msgstr "पता प्रविशतु"
 
+#: lib/navigation/siteicon.cpp:40
+msgctxt "LocationBar|"
+msgid "Show information about this page"
+msgstr "अस्य पृष्ठस्य विषये सूचनां दर्शयतु"
+
 #: lib/navigation/navigationbar.cpp:49
 msgctxt "NavigationBar|"
 msgid "Empty Page"
@@ -2198,11 +2217,6 @@ msgctxt "ReloadStopButton|"
 msgid "Reload"
 msgstr "पुनः लोड करें"
 
-#: lib/navigation/siteicon.cpp:40
-msgctxt "LocationBar|"
-msgid "Show information about this page"
-msgstr "अस्य पृष्ठस्य विषये सूचनां दर्शयतु"
-
 #: lib/navigation/websearchbar.cpp:97
 msgctxt "WebSearchBar|"
 msgid "Paste And &Search"
@@ -2250,7 +2264,9 @@ msgctxt "NetworkManager|"
 msgid ""
 "The page you are trying to access has the following errors in the SSL "
 "certificate:"
-msgstr "यस्मिन् पृष्ठे भवान् अभिगन्तुं प्रयतते तस्मिन् SSL प्रमाणपत्रे निम्नलिखितदोषाः सन्ति ।"
+msgstr ""
+"यस्मिन् पृष्ठे भवान् अभिगन्तुं प्रयतते तस्मिन् SSL प्रमाणपत्रे "
+"निम्नलिखितदोषाः सन्ति ।"
 
 #: lib/network/networkmanager.cpp:93
 msgctxt "NetworkManager|"
@@ -2280,8 +2296,7 @@ msgstr "अस्य साइट् कृते उपयोक्तृना
 #: lib/network/networkmanager.cpp:146
 #, qt-format
 msgctxt "NetworkManager|"
-msgid ""
-"A username and password are being requested by %1. The site says: \"%2\""
+msgid "A username and password are being requested by %1. The site says: \"%2\""
 msgstr "%1 द्वारा उपयोक्तृनाम गुप्तशब्दश्च प्रार्थ्यते । साइट् वदति: \"%2\" इति ।"
 
 #: lib/network/networkmanager.cpp:210
@@ -2301,7 +2316,8 @@ msgid ""
 "The certificate did not match the built-in public keys pinned for the host "
 "name."
 msgstr ""
-"प्रमाणपत्रं होस्ट्-नामस्य कृते पिन-कृतैः अन्तःनिर्मित-सार्वजनिक-कुंजीभिः सह न मेलति स्म ।"
+"प्रमाणपत्रं होस्ट्-नामस्य कृते पिन-कृतैः अन्तःनिर्मित-सार्वजनिक-कुंजीभिः सह "
+"न मेलति स्म ।"
 
 #: lib/network/networkmanager.cpp:346
 msgctxt "NetworkManager|"
@@ -2325,8 +2341,7 @@ msgstr "प्रमाणपत्रे त्रुटयः सन्ति 
 
 #: lib/network/networkmanager.cpp:354
 msgctxt "NetworkManager|"
-msgid ""
-"The certificate has no mechanism for determining if it has been revoked."
+msgid "The certificate has no mechanism for determining if it has been revoked."
 msgstr "प्रमाणपत्रे निरस्तं कृतम् अस्ति वा इति निर्धारयितुं तन्त्रं नास्ति ।"
 
 #: lib/network/networkmanager.cpp:356
@@ -2361,8 +2376,7 @@ msgstr "प्रमाणपत्रे दुर्बलं कुञ्ज�
 
 #: lib/network/networkmanager.cpp:368
 msgctxt "NetworkManager|"
-msgid ""
-"The certificate claimed DNS names that are in violation of name constraints."
+msgid "The certificate claimed DNS names that are in violation of name constraints."
 msgstr "प्रमाणपत्रेण नामप्रतिबन्धानां उल्लङ्घनेन DNS-नामानि दावितम् ।"
 
 #: lib/network/networkmanager.cpp:370
@@ -2376,8 +2390,8 @@ msgid ""
 "Certificate Transparency was required for this connection, but the server "
 "did not provide CT information that complied with the policy."
 msgstr ""
-"अस्य संयोजनस्य कृते प्रमाणपत्रपारदर्शिता आवश्यकी आसीत्, परन्तु सर्वरेण नीतेः अनुपालनं कृत्वा CT "
-"सूचना न दत्ता ।"
+"अस्य संयोजनस्य कृते प्रमाणपत्रपारदर्शिता आवश्यकी आसीत्, परन्तु सर्वरेण "
+"नीतेः अनुपालनं कृत्वा CT सूचना न दत्ता ।"
 
 #: lib/network/networkmanager.cpp:374
 msgctxt "NetworkManager|"
@@ -2483,7 +2497,9 @@ msgstr "किं भवन्तः निश्चयेन एतत् स�
 #: lib/network/schemehandlers/falkonschemehandler.cpp:218
 msgctxt "FalkonSchemeReply|"
 msgid "Are you sure you want to reload all speed dials?"
-msgstr "किं भवान् निश्चिन्तः अस्ति यत् भवान् सर्वाणि स्पीड् डायल्स् पुनः लोड् कर्तुम् इच्छति?"
+msgstr ""
+"किं भवान् निश्चिन्तः अस्ति यत् भवान् सर्वाणि स्पीड् डायल्स् पुनः लोड् "
+"कर्तुम् इच्छति?"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:219
 msgctxt "FalkonSchemeReply|"
@@ -2598,12 +2614,16 @@ msgstr "उफ्, फाल्कनः दुर्घटनाग्रस्
 #: lib/network/schemehandlers/falkonschemehandler.cpp:266
 msgctxt "FalkonSchemeReply|"
 msgid "We apologize for this. Would you like to restore the last saved state?"
-msgstr "अस्य कृते वयं क्षमायाचनां कुर्मः। अन्तिमं रक्षितां अवस्थां पुनः स्थापयितुम् इच्छति वा?"
+msgstr ""
+"अस्य कृते वयं क्षमायाचनां कुर्मः। अन्तिमं रक्षितां अवस्थां पुनः स्थापयितुम् "
+"इच्छति वा?"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:267
 msgctxt "FalkonSchemeReply|"
 msgid "Try removing one or more tabs that you think cause troubles"
-msgstr "एकं वा अधिकं वा ट्याब् अपसारयितुं प्रयतस्व यत् भवन्तः मन्यन्ते यत् ते कष्टं जनयन्ति"
+msgstr ""
+"एकं वा अधिकं वा ट्याब् अपसारयितुं प्रयतस्व यत् भवन्तः मन्यन्ते यत् ते कष्टं "
+"जनयन्ति"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:268
 msgctxt "FalkonSchemeReply|"
@@ -2648,8 +2668,9 @@ msgid ""
 "relevant for troubleshooting. Please include this information when "
 "submitting bug reports."
 msgstr ""
-"अस्मिन् पृष्ठे Falkon इत्यस्य वर्तमानविन्यासस्य विषये सूचनाः सन्ति - समस्यानिवारणाय "
-"प्रासंगिकाः । कृपया दोषप्रतिवेदनानि प्रस्तूयन्ते सति एतां सूचनां समावेशयन्तु ।"
+"अस्मिन् पृष्ठे Falkon इत्यस्य वर्तमानविन्यासस्य विषये सूचनाः सन्ति - "
+"समस्यानिवारणाय प्रासंगिकाः । कृपया दोषप्रतिवेदनानि प्रस्तूयन्ते सति एतां "
+"सूचनां समावेशयन्तु ।"
 
 #: lib/network/schemehandlers/falkonschemehandler.cpp:293
 msgctxt "FalkonSchemeReply|"
@@ -2801,6 +2822,60 @@ msgctxt "QObject|"
 msgid "Native System Notification"
 msgstr "देशी प्रणाली अधिसूचना"
 
+#: lib/opensearch/opensearchreader.cpp:105
+msgctxt "QObject|"
+msgid "The file is not an OpenSearch 1.1 file."
+msgstr "सञ्चिका OpenSearch 1.1 सञ्चिका नास्ति ।"
+
+#: lib/tools/certificateinfowidget.cpp:300
+msgctxt "QObject|"
+msgid "<not set in certificate>"
+msgstr "<प्रमाणपत्रे न सेट् कृतम्>"
+
+#: lib/tools/qztools.cpp:379
+msgctxt "QObject|"
+msgid "Unknown size"
+msgstr "अज्ञात आकार"
+
+#: lib/tools/qztools.cpp:386
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 kB"
+msgstr "%1 केबी"
+
+#: lib/tools/qztools.cpp:391
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 MB"
+msgstr "%1 MB"
+
+#: lib/tools/qztools.cpp:395
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 GB"
+msgstr "%1 जीबी"
+
+#: lib/tools/qztools.cpp:854
+msgctxt "QObject|"
+msgid "Executable: "
+msgstr "निष्पादनीयः : १. "
+
+#: lib/tools/qztools.cpp:855
+msgctxt "QObject|"
+msgid "Arguments: "
+msgstr "तर्काः : १. "
+
+#: lib/tools/qztools.cpp:857
+msgctxt "QObject|"
+msgid "Cannot start external program"
+msgstr "बाह्यकार्यक्रमं आरभुं न शक्यते"
+
+#: lib/tools/qztools.cpp:858
+#, qt-format
+msgctxt "QObject|"
+msgid "Cannot start external program! %1"
+msgstr "बाह्यकार्यक्रमं आरभुं न शक्यते! %1"
+
 #: lib/opensearch/editsearchengine.ui:20
 msgctxt "EditSearchEngine|"
 msgid "Name:"
@@ -2836,11 +2911,6 @@ msgctxt "EditSearchEngine|"
 msgid "Post Data:"
 msgstr "पददत्तांशः : १."
 
-#: lib/opensearch/opensearchreader.cpp:105
-msgctxt "QObject|"
-msgid "The file is not an OpenSearch 1.1 file."
-msgstr "सञ्चिका OpenSearch 1.1 सञ्चिका नास्ति ।"
-
 #: lib/opensearch/searchenginesdialog.cpp:52
 #: lib/opensearch/searchenginesmanager.cpp:314
 msgctxt "SearchEnginesDialog|"
@@ -2859,8 +2929,8 @@ msgid ""
 "You can't remove the default search engine.<br>Set a different engine as "
 "default before removing %1."
 msgstr ""
-"पूर्वनिर्धारितं अन्वेषणयन्त्रं हर्तुं न शक्नुथ ।<br> %1 निष्कासनात् पूर्वं पूर्वनिर्धारितरूपेण भिन्नं "
-"इञ्जिनं सेट् कुर्वन्तु ।"
+"पूर्वनिर्धारितं अन्वेषणयन्त्रं हर्तुं न शक्नुथ ।<br> %1 निष्कासनात् पूर्वं "
+"पूर्वनिर्धारितरूपेण भिन्नं इञ्जिनं सेट् कुर्वन्तु ।"
 
 #: lib/opensearch/searchenginesdialog.cpp:107
 msgctxt "SearchEnginesDialog|"
@@ -3010,11 +3080,11 @@ msgstr "डाटाबेस अनुकूलित"
 #, qt-format
 msgctxt "ClearPrivateData|"
 msgid ""
-"Database successfully optimized.<br/><br/><b>Database Size Before: </b>%1<br/"
-"><b>Database Size After: </b>%2"
+"Database successfully optimized.<br/><br/><b>Database Size Before: "
+"</b>%1<br/><b>Database Size After: </b>%2"
 msgstr ""
-"दत्तांशकोशः सफलतया अनुकूलितः।<br/><br/> <b>दत्तांशकोशस्य आकारः पूर्वं:</b> %1<br/> "
-"<b>दत्तांशकोशस्य आकारः पश्चात्:</b> %2"
+"दत्तांशकोशः सफलतया अनुकूलितः।<br/><br/> <b>दत्तांशकोशस्य आकारः पूर्वं:</b> "
+"%1<br/> <b>दत्तांशकोशस्य आकारः पश्चात्:</b> %2"
 
 #: lib/other/clearprivatedata.ui:14
 msgctxt "ClearPrivateData|"
@@ -3722,7 +3792,9 @@ msgstr "पृष्ठभागं परिवर्तयन्तु : १."
 #: lib/preferences/autofillmanager.cpp:179
 msgctxt "AutoFillManager|"
 msgid "Are you sure that you want to show all passwords?"
-msgstr "किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः सर्वाणि गुप्तशब्दानि दर्शयितुम् इच्छन्ति?"
+msgstr ""
+"किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः सर्वाणि गुप्तशब्दानि दर्शयितुम् "
+"इच्छन्ति?"
 
 #: lib/preferences/autofillmanager.cpp:194
 msgctxt "AutoFillManager|"
@@ -3945,8 +4017,7 @@ msgstr "अपाकरोति"
 
 #: lib/preferences/pluginslist.ui:81
 msgctxt "PluginsList|"
-msgid ""
-"<a href=\"https://store.kde.org/browse/cat/571/\">Get more extensions...</a>"
+msgid "<a href=\"https://store.kde.org/browse/cat/571/\">Get more extensions...</a>"
 msgstr ""
 "<a href=\"https://store.kde.org/browse/cat/571/\">अधिकानि विस्ताराणि "
 "प्राप्नुवन्तु...</a>"
@@ -4060,8 +4131,8 @@ msgid ""
 "Are you sure you want to permanently delete \"%1\" profile? This action "
 "cannot be undone!"
 msgstr ""
-"किं भवान् निश्चितरूपेण \"%1\" प्रोफाइलं स्थायिरूपेण विलोपयितुम् इच्छति? एतत् कर्म न "
-"निवर्तयितुं शक्यते!"
+"किं भवान् निश्चितरूपेण \"%1\" प्रोफाइलं स्थायिरूपेण विलोपयितुम् इच्छति? "
+"एतत् कर्म न निवर्तयितुं शक्यते!"
 
 #: lib/preferences/preferences.cpp:879 lib/preferences/preferences.ui:241
 msgctxt "Preferences|"
@@ -4395,9 +4466,10 @@ msgstr "इनलाइन सुझावः सक्षमाः कुर्
 
 #: lib/preferences/preferences.ui:821
 msgctxt "Preferences|"
-msgid ""
-"Press \"Shift\" to not switch the tab but load the url in the current tab"
-msgstr "ट्याब् स्विच् न कर्तुं परन्तु वर्तमान ट्याब् मध्ये url लोड् कर्तुं \"Shift\" नुदन्तु"
+msgid "Press \"Shift\" to not switch the tab but load the url in the current tab"
+msgstr ""
+"ट्याब् स्विच् न कर्तुं परन्तु वर्तमान ट्याब् मध्ये url लोड् कर्तुं "
+"\"Shift\" नुदन्तु"
 
 #: lib/preferences/preferences.ui:824
 msgctxt "Preferences|"
@@ -4511,14 +4583,14 @@ msgctxt "Preferences|"
 msgid "Include links in focus chain"
 msgstr "फोकस श्रृङ्खलायां लिङ्कानि समाविष्टानि कुर्वन्तु"
 
-#. try to detect possible XSS attacks when executing javascript
 #: lib/preferences/preferences.ui:1067
+#. try to detect possible XSS attacks when executing javascript
 msgctxt "Preferences|"
 msgid "Enable XSS Auditing"
 msgstr "XSS Auditing सक्षमं कुर्वन्तु"
 
-#. when you are printing page (on printer), it determine whether to also print background (color, image) of html elements
 #: lib/preferences/preferences.ui:1074
+#. when you are printing page (on printer), it determine whether to also print background (color, image) of html elements
 msgctxt "Preferences|"
 msgid "Print element background"
 msgstr "मुद्रण तत्व पृष्ठभूमि"
@@ -4766,11 +4838,11 @@ msgstr "Ctrl + स्पीडडायलस्य संख्यायाः 
 #: lib/preferences/preferences.ui:1778
 msgctxt "Preferences|"
 msgid ""
-"Existing shortcuts:<br/><b>1</b> - previous tab<br/><b>2</b> - next tab<br/"
-"><b>/</b> - search on page"
+"Existing shortcuts:<br/><b>1</b> - previous tab<br/><b>2</b> - next "
+"tab<br/><b>/</b> - search on page"
 msgstr ""
-"विद्यमानाः शॉर्टकट् : १.<br/> <b>१</b> - पूर्व टब<br/> <b>२</b> - अग्रिमः टबः<br/> "
-"<b>/</b> - पृष्ठे अन्वेषणं कुर्वन्तु"
+"विद्यमानाः शॉर्टकट् : १.<br/> <b>१</b> - पूर्व टब<br/> <b>२</b> - अग्रिमः "
+"टबः<br/> <b>/</b> - पृष्ठे अन्वेषणं कुर्वन्तु"
 
 #: lib/preferences/preferences.ui:1781
 msgctxt "Preferences|"
@@ -4783,8 +4855,8 @@ msgid ""
 "If unchecked, prevents accidental exit from the application if the Ctrl-W "
 "shortcut was intended."
 msgstr ""
-"यदि अनिरीक्षितं भवति तर्हि अनुप्रयोगात् आकस्मिकनिर्गमनं निवारयति यदि Ctrl-W शॉर्टकट् "
-"अभिप्रेतः आसीत् ।"
+"यदि अनिरीक्षितं भवति तर्हि अनुप्रयोगात् आकस्मिकनिर्गमनं निवारयति यदि Ctrl-W "
+"शॉर्टकट् अभिप्रेतः आसीत् ।"
 
 #: lib/preferences/preferences.ui:1791
 msgctxt "Preferences|"
@@ -4942,8 +5014,8 @@ msgid ""
 "<b>Note: </b>You can change position of OSD Notification by dragging it on "
 "the screen."
 msgstr ""
-"<b>नोटः-</b> भवान् OSD Notification इत्यस्य स्थानं स्क्रीन् मध्ये कर्षयित्वा परिवर्तयितुं "
-"शक्नोति ।"
+"<b>नोटः-</b> भवान् OSD Notification इत्यस्य स्थानं स्क्रीन् मध्ये "
+"कर्षयित्वा परिवर्तयितुं शक्नोति ।"
 
 #: lib/preferences/preferences.ui:2325
 msgctxt "Preferences|"
@@ -4958,11 +5030,11 @@ msgstr "पूर्वावलोकनम्"
 #: lib/preferences/preferences.ui:2397
 msgctxt "Preferences|"
 msgid ""
-"For more information about Spell Check, please see <a href=\"https://"
-"userbase.kde.org/Falkon#Spell_Check\">wiki</a>."
+"For more information about Spell Check, please see <a "
+"href=\"https://userbase.kde.org/Falkon#Spell_Check\">wiki</a>."
 msgstr ""
-"वर्तनीपरीक्षायाः विषये अधिकविवरणार्थं <a href=\"https://userbase.kde.org/"
-"Falkon#Spell_Check\">विकिं</a> पश्यन्तु ।"
+"वर्तनीपरीक्षायाः विषये अधिकविवरणार्थं <a "
+"href=\"https://userbase.kde.org/Falkon#Spell_Check\">विकिं</a> पश्यन्तु ।"
 
 #: lib/preferences/preferences.ui:2439
 msgctxt "Preferences|"
@@ -5154,12 +5226,12 @@ msgstr "Url: १."
 #: lib/preferences/sitesettingsbrowsedialog.ui:29
 msgctxt "SiteSettingsBrowseDialog|"
 msgid "https://kde.org"
-msgstr ""
+msgstr "https://kde.org इति"
 
 #: lib/preferences/sitesettingsbrowsedialog.ui:48
 msgctxt "SiteSettingsBrowseDialog|"
 msgid "Set"
-msgstr ""
+msgstr "दृढः"
 
 #: lib/preferences/sitesettingsbrowsedialog.ui:65
 msgctxt "SiteSettingsBrowseDialog|"
@@ -5214,11 +5286,10 @@ msgstr "अपाकरोति"
 
 #: lib/preferences/thememanager.ui:175
 msgctxt "ThemeManager|"
-msgid ""
-"<a href=\"https://store.kde.org/browse/cat/572/\">Get more themes...</a>"
+msgid "<a href=\"https://store.kde.org/browse/cat/572/\">Get more themes...</a>"
 msgstr ""
-"<a href=\"https://store.kde.org/browse/cat/572/\">अधिकानि विषयाणि प्राप्नुवन्तु..."
-"</a>"
+"<a href=\"https://store.kde.org/browse/cat/572/\">अधिकानि विषयाणि "
+"प्राप्नुवन्तु...</a>"
 
 #: lib/preferences/useragentdialog.cpp:99
 msgctxt "UserAgentDialog|"
@@ -5518,11 +5589,6 @@ msgctxt "SideBar|"
 msgid "History"
 msgstr "इतिहास"
 
-#: lib/tabwidget/tabbar.cpp:111
-msgctxt "BrowserWindow|"
-msgid "Close Tab"
-msgstr "ट्याब् बन्दं कुर्वन्तु"
-
 #: lib/tabwidget/tabcontextmenu.cpp:63
 msgctxt "TabBar|"
 msgid "Don't ask again"
@@ -5718,11 +5784,6 @@ msgstr ""
 "फाल्कन् इत्यस्य नूतनतरसंस्करणेन सह आँकडा गुप्तीकरणं कृतम् अस्ति ।\n"
 "कृपया Falkon इत्यस्य नवीनतमं संस्करणं संस्थापयन्तु।"
 
-#: lib/tools/certificateinfowidget.cpp:300
-msgctxt "QObject|"
-msgid "<not set in certificate>"
-msgstr "<प्रमाणपत्रे न सेट् कृतम्>"
-
 #: lib/tools/certificateinfowidget.ui:17
 msgctxt "CertificateInfoWidget|"
 msgid "<b>Issued To</b>"
@@ -5836,50 +5897,6 @@ msgctxt "HTML5PermissionsNotification|"
 msgid "Deny"
 msgstr "अपह्नुते"
 
-#: lib/tools/qztools.cpp:379
-msgctxt "QObject|"
-msgid "Unknown size"
-msgstr "अज्ञात आकार"
-
-#: lib/tools/qztools.cpp:386
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 kB"
-msgstr "%1 केबी"
-
-#: lib/tools/qztools.cpp:391
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 MB"
-msgstr "%1 MB"
-
-#: lib/tools/qztools.cpp:395
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 GB"
-msgstr "%1 जीबी"
-
-#: lib/tools/qztools.cpp:854
-msgctxt "QObject|"
-msgid "Executable: "
-msgstr "निष्पादनीयः : १. "
-
-#: lib/tools/qztools.cpp:855
-msgctxt "QObject|"
-msgid "Arguments: "
-msgstr "तर्काः : १. "
-
-#: lib/tools/qztools.cpp:857
-msgctxt "QObject|"
-msgid "Cannot start external program"
-msgstr "बाह्यकार्यक्रमं आरभुं न शक्यते"
-
-#: lib/tools/qztools.cpp:858
-#, qt-format
-msgctxt "QObject|"
-msgid "Cannot start external program! %1"
-msgstr "बाह्यकार्यक्रमं आरभुं न शक्यते! %1"
-
 #: lib/webengine/jsalert.ui:125
 msgctxt "jsAlert|"
 msgid "Prevent this page from creating additional dialogs"
@@ -5889,11 +5906,13 @@ msgstr "अस्य पृष्ठस्य अतिरिक्तसंव�
 #, qt-format
 msgctxt "WebPage|"
 msgid ""
-"Falkon cannot handle <b>%1:</b> links. The requested link is <ul><li>%2</"
-"li></ul>Do you want Falkon to try open this link in system application?"
+"Falkon cannot handle <b>%1:</b> links. The requested link is "
+"<ul><li>%2</li></ul>Do you want Falkon to try open this link in system "
+"application?"
 msgstr ""
-"Falkon <b>%1:</b> लिङ्क्स् सम्भालितुं न शक्नोति । अनुरोधितः लिङ्कः अस्ति<ul><li> %2</"
-"li></ul> किं भवान् इच्छति यत् Falkon इदं लिङ्क् सिस्टम् एप्लिकेशन् मध्ये उद्घाटयितुं प्रयतेत?"
+"Falkon <b>%1:</b> लिङ्क्स् सम्भालितुं न शक्नोति । अनुरोधितः लिङ्कः "
+"अस्ति<ul><li> %2</li></ul> किं भवान् इच्छति यत् Falkon इदं लिङ्क् सिस्टम् "
+"एप्लिकेशन् मध्ये उद्घाटयितुं प्रयतेत?"
 
 #: lib/webengine/webpage.cpp:331
 msgctxt "WebPage|"
@@ -5917,9 +5936,10 @@ msgstr "एतत् पृष्ठं लोड् कुर्वन् क�
 
 #: lib/webengine/webpage.cpp:415
 msgctxt "WebPage|"
-msgid ""
-"Try reloading the page or closing some tabs to make more memory available."
-msgstr "अधिकस्मृतिः उपलब्धं कर्तुं पृष्ठं पुनः लोड् कर्तुं वा केचन ट्याब्स् बन्दं कर्तुं वा प्रयतस्व ।"
+msgid "Try reloading the page or closing some tabs to make more memory available."
+msgstr ""
+"अधिकस्मृतिः उपलब्धं कर्तुं पृष्ठं पुनः लोड् कर्तुं वा केचन ट्याब्स् बन्दं "
+"कर्तुं वा प्रयतस्व ।"
 
 #: lib/webengine/webpage.cpp:416
 msgctxt "WebPage|"

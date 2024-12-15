@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kmail package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,113 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#: attachpropertydialog.cpp:61
+#, kde-format
+msgid "Save…"
+msgstr "रक्ष्…"
+
+#: attachpropertydialog.cpp:98
+#, kde-format
+msgid " bytes"
+msgstr " बाइट्"
+
+#: ktnefmain.cpp:527
+#, kde-format
+msgid "Open &with %1"
+msgstr "&%1 इत्यनेन सह उद्घाटयन्तु"
+
+#: ktnefui.rc:6
+#. i18n: ectx: Menu (file)
+#, kde-format
+msgid "&File"
+msgstr "&संचिका"
+
+#: ktnefui.rc:9
+#. i18n: ectx: Menu (action)
+#, kde-format
+msgid "&Action"
+msgstr "&नामपत्र"
+
+#: ktnefui.rc:24
+#. i18n: ectx: Menu (settings)
+#, kde-format
+msgid "&Settings"
+msgstr "&सेटिंग्स"
+
+#: ktnefui.rc:29
+#. i18n: ectx: ToolBar (mainToolBar)
+#, kde-format
+msgid "Main Toolbar"
+msgstr "मुख्य साधनपट्टी"
+
+#: main.cpp:30
+#, kde-format
+msgid "KTnef"
+msgstr "KTnef"
+
+#: main.cpp:32
+#, kde-format
+msgid "Viewer for mail attachments using TNEF format"
+msgstr "TNEF प्रारूपस्य उपयोगेन मेलसंलग्नकानां कृते दर्शकः"
+
+#: main.cpp:34
+#, kde-format
+msgid ""
+"Copyright 2000 Michael Goffioul \n"
+"Copyright 2012  Allen Winter"
+msgstr ""
+"प्रतिलिपि अधिकार 2000 Michael Goffioul \n"
+"प्रतिलिपि अधिकार 2012 Allen Winter"
+
+#: main.cpp:36
+#, kde-format
+msgid "Author"
+msgstr "लेखकः"
+
+#: main.cpp:38
+#, kde-format
+msgid "Author, Ported to Qt4/KDE4"
+msgstr "लेखकः, Qt4/KDE4 मध्ये पोर्ट् कृतः"
+
+#: main.cpp:45
+#, kde-format
+msgid "An optional argument 'file' "
+msgstr "एकः वैकल्पिकः तर्कः 'file'. "
+
+#: ui/attachpropertywidgetbase.ui:45
+#. i18n: ectx: property (text), widget (QLabel, mDescriptionLabel)
+#, kde-format
+msgid "Description:"
+msgstr "वर्णनम्‌:"
+
+#: ui/attachpropertywidgetbase.ui:68
+#. i18n: ectx: property (text), widget (QLabel, mIndexLabel)
+#, kde-format
+msgid "Index:"
+msgstr "अनुक्रमणिका : १."
+
+#: ui/attachpropertywidgetbase.ui:107
+#. i18n: ectx: property (text), widget (QLabel, mDisplayLabel)
+#, kde-format
+msgid "Comment:"
+msgstr "टिप्पणी:"
+
+#: ui/attachpropertywidgetbase.ui:143
+#. i18n: ectx: property (text), widget (QLabel, mSizeLabel)
+#, kde-format
+msgid "File size:"
+msgstr "सञ्चिकायाः आकारः : १."
+
+#: ui/attachpropertywidgetbase.ui:199
+#. i18n: ectx: property (text), widget (QLabel, mMimeLabel)
+#, kde-format
+msgid "MIME type:"
+msgstr "MIME प्रकारः : १."
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,21 +132,23 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "भवतः ईमेलपत्राणि"
 
-#: attachpropertydialog.cpp:61
-#, kde-format
-msgid "Save…"
-msgstr "रक्ष्…"
-
 #: attachpropertydialog.cpp:94
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties for Attachment %1"
 msgstr "संलग्नकस्य कृते गुणाः %1"
 
-#: attachpropertydialog.cpp:98
+#: ktnefmain.cpp:210
 #, kde-format
-msgid " bytes"
-msgstr " बाइट्"
+msgctxt "@title:window"
+msgid "Open TNEF File"
+msgstr "TNEF सञ्चिकां उद्घाटयन्तु"
+
+#: messagepropertydialog.cpp:42
+#, kde-format
+msgctxt "@title:window"
+msgid "Message Properties"
+msgstr "सन्देशगुणाः"
 
 #: attachpropertydialog.cpp:159
 #, kde-format
@@ -69,14 +174,49 @@ msgctxt "@info"
 msgid "Unable to open file for writing, check file permissions."
 msgstr "लेखनार्थं सञ्चिकां उद्घाटयितुं असमर्थः, सञ्चिकायाः अनुमतिः परीक्ष्यताम् ।"
 
+#: ktnefmain.cpp:195
+#, kde-format
+msgctxt "@info"
+msgid "Unable to open file \"%1\"."
+msgstr "\"%1\" सञ्चिकां उद्घाटयितुं असमर्थः ।"
+
+#: ktnefmain.cpp:246 ktnefmain.cpp:277
+#, kde-format
+msgctxt "@info"
+msgid "There is no file selected. Please select a file an try again."
+msgstr ""
+"तत्र कोऽपि सञ्चिका चयनिता नास्ति । कृपया सञ्चिकां चिनोतु पुनः प्रयासं "
+"कुर्वन्तु ।"
+
+#: ktnefmain.cpp:306 ktnefmain.cpp:382
+#, kde-format
+msgctxt "@info"
+msgid "Unable to extract file \"%1\"."
+msgstr "\"%1\" सञ्चिकां निष्कासयितुं असमर्थः ।"
+
+#: ktnefmain.cpp:487
+#, kde-format
+msgctxt "@info"
+msgid "The message does not contain any Rich Text data."
+msgstr "सन्देशे कोऽपि Rich Text दत्तांशः नास्ति ।"
+
+#: ktnefmain.cpp:505
+#, kde-format
+msgctxt "@info"
+msgid "Unable to open file \"%1\" for writing, check file permissions."
+msgstr ""
+"लेखनार्थं \"%1\" सञ्चिकां उद्घाटयितुं असमर्थः, सञ्चिकायाः अनुमतिः "
+"परीक्ष्यताम् ।"
+
 #: ktnefmain.cpp:96
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"You will be presented with a dialog where you can configure the application-"
-"wide shortcuts."
+"You will be presented with a dialog where you can configure the "
+"application-wide shortcuts."
 msgstr ""
-"भवन्तः एकं संवादं प्रस्तुतं भविष्यन्ति यत्र भवन्तः अनुप्रयोगव्यापीं शॉर्टकट् विन्यस्तुं शक्नुवन्ति ।"
+"भवन्तः एकं संवादं प्रस्तुतं भविष्यन्ति यत्र भवन्तः अनुप्रयोगव्यापीं "
+"शॉर्टकट् विन्यस्तुं शक्नुवन्ति ।"
 
 #: ktnefmain.cpp:110
 #, kde-format
@@ -144,12 +284,6 @@ msgctxt "@info:status"
 msgid "No file loaded"
 msgstr "न सञ्चिका लोड् कृता"
 
-#: ktnefmain.cpp:195
-#, kde-format
-msgctxt "@info"
-msgid "Unable to open file \"%1\"."
-msgstr "\"%1\" सञ्चिकां उद्घाटयितुं असमर्थः ।"
-
 #: ktnefmain.cpp:200
 #, kde-format
 msgctxt "@info:status"
@@ -157,41 +291,6 @@ msgid "%1 attachment found"
 msgid_plural "%1 attachments found"
 msgstr[0] "%1 आसक्तिः प्राप्तः"
 msgstr[1] "%1 संलग्नकानि प्राप्तानि"
-
-#: ktnefmain.cpp:210
-#, kde-format
-msgctxt "@title:window"
-msgid "Open TNEF File"
-msgstr "TNEF सञ्चिकां उद्घाटयन्तु"
-
-#: ktnefmain.cpp:246 ktnefmain.cpp:277
-#, kde-format
-msgctxt "@info"
-msgid "There is no file selected. Please select a file an try again."
-msgstr "तत्र कोऽपि सञ्चिका चयनिता नास्ति । कृपया सञ्चिकां चिनोतु पुनः प्रयासं कुर्वन्तु ।"
-
-#: ktnefmain.cpp:306 ktnefmain.cpp:382
-#, kde-format
-msgctxt "@info"
-msgid "Unable to extract file \"%1\"."
-msgstr "\"%1\" सञ्चिकां निष्कासयितुं असमर्थः ।"
-
-#: ktnefmain.cpp:487
-#, kde-format
-msgctxt "@info"
-msgid "The message does not contain any Rich Text data."
-msgstr "सन्देशे कोऽपि Rich Text दत्तांशः नास्ति ।"
-
-#: ktnefmain.cpp:505
-#, kde-format
-msgctxt "@info"
-msgid "Unable to open file \"%1\" for writing, check file permissions."
-msgstr "लेखनार्थं \"%1\" सञ्चिकां उद्घाटयितुं असमर्थः, सञ्चिकायाः अनुमतिः परीक्ष्यताम् ।"
-
-#: ktnefmain.cpp:527
-#, kde-format
-msgid "Open &with %1"
-msgstr "&%1 इत्यनेन सह उद्घाटयन्तु"
 
 #: ktnefmain.cpp:529
 #, kde-format
@@ -205,41 +304,17 @@ msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Open With"
 
-#: ktnefmain.cpp:570
-#, kde-format
-msgctxt "@action:inmenu Open With"
-msgid "&Other…"
-msgstr "&इतर…"
-
 #: ktnefmain.cpp:572 ktnefmain.cpp:580
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With…"
 msgstr "&Open With…"
 
-#. i18n: ectx: Menu (file)
-#: ktnefui.rc:6
+#: ktnefmain.cpp:570
 #, kde-format
-msgid "&File"
-msgstr "&संचिका"
-
-#. i18n: ectx: Menu (action)
-#: ktnefui.rc:9
-#, kde-format
-msgid "&Action"
-msgstr "&नामपत्र"
-
-#. i18n: ectx: Menu (settings)
-#: ktnefui.rc:24
-#, kde-format
-msgid "&Settings"
-msgstr "&सेटिंग्स"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: ktnefui.rc:29
-#, kde-format
-msgid "Main Toolbar"
-msgstr "मुख्य साधनपट्टी"
+msgctxt "@action:inmenu Open With"
+msgid "&Other…"
+msgstr "&इतर…"
 
 #: ktnefview.cpp:71
 #, kde-format
@@ -259,57 +334,17 @@ msgctxt "@title:column file size"
 msgid "Size"
 msgstr "आकृति"
 
-#: main.cpp:30
-#, kde-format
-msgid "KTnef"
-msgstr "KTnef"
-
-#: main.cpp:32
-#, kde-format
-msgid "Viewer for mail attachments using TNEF format"
-msgstr "TNEF प्रारूपस्य उपयोगेन मेलसंलग्नकानां कृते दर्शकः"
-
-#: main.cpp:34
-#, kde-format
-msgid ""
-"Copyright 2000 Michael Goffioul \n"
-"Copyright 2012  Allen Winter"
-msgstr ""
-"प्रतिलिपि अधिकार 2000 Michael Goffioul \n"
-"प्रतिलिपि अधिकार 2012 Allen Winter"
-
 #: main.cpp:36
 #, kde-format
 msgctxt "@info:credit"
 msgid "Michael Goffioul"
 msgstr "माइकल गोफियोल"
 
-#: main.cpp:36
-#, kde-format
-msgid "Author"
-msgstr "लेखकः"
-
 #: main.cpp:38
 #, kde-format
 msgctxt "@info:credit"
 msgid "Allen Winter"
 msgstr "सर्वं शिशिरं"
-
-#: main.cpp:38
-#, kde-format
-msgid "Author, Ported to Qt4/KDE4"
-msgstr "लेखकः, Qt4/KDE4 मध्ये पोर्ट् कृतः"
-
-#: main.cpp:45
-#, kde-format
-msgid "An optional argument 'file' "
-msgstr "एकः वैकल्पिकः तर्कः 'file'. "
-
-#: messagepropertydialog.cpp:42
-#, kde-format
-msgctxt "@title:window"
-msgid "Message Properties"
-msgstr "सन्देशगुणाः"
 
 #: messagepropertydialog.cpp:55
 #, kde-format
@@ -322,33 +357,3 @@ msgstr "नामः"
 msgctxt "@title:column property value"
 msgid "Value"
 msgstr "मूल्यम्‌"
-
-#. i18n: ectx: property (text), widget (QLabel, mDescriptionLabel)
-#: ui/attachpropertywidgetbase.ui:45
-#, kde-format
-msgid "Description:"
-msgstr "वर्णनम्‌:"
-
-#. i18n: ectx: property (text), widget (QLabel, mIndexLabel)
-#: ui/attachpropertywidgetbase.ui:68
-#, kde-format
-msgid "Index:"
-msgstr "अनुक्रमणिका : १."
-
-#. i18n: ectx: property (text), widget (QLabel, mDisplayLabel)
-#: ui/attachpropertywidgetbase.ui:107
-#, kde-format
-msgid "Comment:"
-msgstr "टिप्पणी:"
-
-#. i18n: ectx: property (text), widget (QLabel, mSizeLabel)
-#: ui/attachpropertywidgetbase.ui:143
-#, kde-format
-msgid "File size:"
-msgstr "सञ्चिकायाः आकारः : १."
-
-#. i18n: ectx: property (text), widget (QLabel, mMimeLabel)
-#: ui/attachpropertywidgetbase.ui:199
-#, kde-format
-msgid "MIME type:"
-msgstr "MIME प्रकारः : १."

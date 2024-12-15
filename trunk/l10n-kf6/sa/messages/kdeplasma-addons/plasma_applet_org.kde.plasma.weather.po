@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdeplasma-addons package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,47 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#: package/contents/ui/config/ConfigWeatherStation.qml:53
+#, kde-format
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 मिनिट्"
+msgstr[1] "%1 निमेषाः"
+
+#: package/contents/ui/FullRepresentation.qml:37
+#, kde-format
+msgid "Please set your location"
+msgstr "कृपया स्वस्थानं सेट् कुर्वन्तु"
+
+#: package/contents/ui/FullRepresentation.qml:40
+#, kde-format
+msgid "Set location…"
+msgstr "स्थानं सेट् कुर्वन्तु…"
+
+#: package/contents/ui/FullRepresentation.qml:55
+#, kde-format
+msgid "Unable to retrieve weather information for %1"
+msgstr "%1 कृते मौसमसूचनाः पुनः प्राप्तुं असमर्थः"
+
+#: package/contents/ui/main.qml:401
+#, kde-format
+msgid "Humidity: %1"
+msgstr "आर्द्रता : %1"
+
+#: plugin/locationlistmodel.cpp:41
+#, kde-format
+msgid "Cannot find '%1' using %2."
+msgstr "%2 इत्यस्य उपयोगेन '%1' न प्राप्नुयात् ।"
+
+#: plugin/locationlistmodel.cpp:65
+#, kde-format
+msgid "Connection to %1 weather server timed out."
+msgstr "%1 मौसमसर्वरस्य संयोजनस्य समयः समाप्तः ।"
 
 #: i18n.dat:1
 #, kde-format
@@ -157,6 +194,48 @@ msgctxt "@label"
 msgid "Show temperature:"
 msgstr "तापमानं दर्शयतु : १."
 
+#: package/contents/ui/config/ConfigAppearance.qml:70
+#, kde-format
+msgctxt "@label"
+msgid "Show in tooltip:"
+msgstr "tooltip इत्यत्र दर्शयतु:"
+
+#: package/contents/ui/config/ConfigWeatherStation.qml:65
+#, kde-format
+msgctxt "@label"
+msgid "Location:"
+msgstr "स्थानीय:"
+
+#: package/contents/ui/config/ConfigWeatherStation.qml:76
+#, kde-format
+msgctxt "@label"
+msgid "Provider:"
+msgstr "प्रदाता : १."
+
+#: package/contents/ui/main.qml:184
+#, kde-format
+msgctxt "@label"
+msgid "Pressure:"
+msgstr "प्रबलता:"
+
+#: package/contents/ui/main.qml:198
+#, kde-format
+msgctxt "@label"
+msgid "Visibility:"
+msgstr "दृश्यता : १."
+
+#: package/contents/ui/main.qml:205
+#, kde-format
+msgctxt "@label"
+msgid "Humidity:"
+msgstr "आर्द्रता:"
+
+#: package/contents/ui/main.qml:212
+#, kde-format
+msgctxt "@label"
+msgid "Wind Gust:"
+msgstr "वायुप्रवाहः : १."
+
 #: package/contents/ui/config/ConfigAppearance.qml:46
 #, kde-format
 msgctxt "@option:radio Show temperature:"
@@ -174,12 +253,6 @@ msgstr "विजेट् चिह्नस्य पार्श्वे"
 msgctxt "@option:radio Show temperature:"
 msgid "Do not show"
 msgstr "मा दर्शयतु"
-
-#: package/contents/ui/config/ConfigAppearance.qml:70
-#, kde-format
-msgctxt "@label"
-msgid "Show in tooltip:"
-msgstr "tooltip इत्यत्र दर्शयतु:"
 
 #: package/contents/ui/config/ConfigAppearance.qml:71
 #, kde-format
@@ -235,30 +308,11 @@ msgctxt "@label:spinbox"
 msgid "Update every:"
 msgstr "प्रत्येकं अद्यतनं कुर्वन्तु:"
 
-#: package/contents/ui/config/ConfigWeatherStation.qml:53
-#, kde-format
-msgid "%1 minute"
-msgid_plural "%1 minutes"
-msgstr[0] "%1 मिनिट्"
-msgstr[1] "%1 निमेषाः"
-
-#: package/contents/ui/config/ConfigWeatherStation.qml:65
-#, kde-format
-msgctxt "@label"
-msgid "Location:"
-msgstr "स्थानीय:"
-
 #: package/contents/ui/config/ConfigWeatherStation.qml:71
 #, kde-format
 msgctxt "No location is currently selected"
 msgid "None selected"
 msgstr "न कश्चित् चयनितः"
-
-#: package/contents/ui/config/ConfigWeatherStation.qml:76
-#, kde-format
-msgctxt "@label"
-msgid "Provider:"
-msgstr "प्रदाता : १."
 
 #: package/contents/ui/config/ConfigWeatherStation.qml:101
 #, kde-format
@@ -271,6 +325,12 @@ msgstr "नूतनं स्थानं प्रविशतु"
 msgctxt "@info:placeholder"
 msgid "Enter location"
 msgstr "स्थानं प्रविशतु"
+
+#: package/contents/ui/SwitchPanel.qml:114
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Unable to load weather forecast"
+msgstr "मौसमस्य पूर्वानुमानं लोड् कर्तुं असमर्थः"
 
 #: package/contents/ui/config/ConfigWeatherStation.qml:185
 #, kde-format
@@ -294,12 +354,33 @@ msgstr "भवतः स्थानं निर्धारयितुं म
 #, kde-format
 msgctxt "@info:usagetip"
 msgid ""
-"If you've used this weather station in the past, it's possible that a server "
-"outage at the weather station provider has made it temporarily unavailable. "
-"Try again later."
+"If you've used this weather station in the past, it's possible that a "
+"server outage at the weather station provider has made it temporarily "
+"unavailable. Try again later."
 msgstr ""
-"यदि भवान् पूर्वं एतत् मौसमस्थानकं उपयुज्यते तर्हि सम्भवति यत् मौसमस्थानकप्रदातृस्थाने "
-"सर्वरविच्छेदेन अस्थायीरूपेण अनुपलब्धं जातम् । पश्चात् पुनः प्रयासं कुर्वन्तु।"
+"यदि भवान् पूर्वं एतत् मौसमस्थानकं उपयुज्यते तर्हि सम्भवति यत् "
+"मौसमस्थानकप्रदातृस्थाने सर्वरविच्छेदेन अस्थायीरूपेण अनुपलब्धं जातम् । "
+"पश्चात् पुनः प्रयासं कुर्वन्तु।"
+
+#: package/contents/ui/FullRepresentation.qml:57
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"The network request timed out, possibly due to a server outage at the "
+"weather station provider. Check again later."
+msgstr ""
+"संजाल-अनुरोधस्य समयः समाप्तः, सम्भवतः मौसम-स्थानक-प्रदातुः सर्वर-विच्छेदस्य "
+"कारणतः । पश्चात् पुनः पश्यन्तु।"
+
+#: package/contents/ui/SwitchPanel.qml:116
+#, kde-format
+msgctxt "@info:usagetip"
+msgid ""
+"There may be a technical issue with the weather provider. If the issue "
+"persists for longer than a day, submit a bug report."
+msgstr ""
+"मौसमप्रदातृणां सह तान्त्रिकविषयः भवितुम् अर्हति । यदि समस्या एकदिनात् अधिकं "
+"यावत् स्थास्यति तर्हि दोषप्रतिवेदनं प्रस्तूयताम् ।"
 
 #: package/contents/ui/ForecastView.qml:45
 #, kde-format
@@ -331,31 +412,6 @@ msgstr "☂%1% २."
 msgctxt "Short for no data available"
 msgid "-"
 msgstr "- ९."
-
-#: package/contents/ui/FullRepresentation.qml:37
-#, kde-format
-msgid "Please set your location"
-msgstr "कृपया स्वस्थानं सेट् कुर्वन्तु"
-
-#: package/contents/ui/FullRepresentation.qml:40
-#, kde-format
-msgid "Set location…"
-msgstr "स्थानं सेट् कुर्वन्तु…"
-
-#: package/contents/ui/FullRepresentation.qml:55
-#, kde-format
-msgid "Unable to retrieve weather information for %1"
-msgstr "%1 कृते मौसमसूचनाः पुनः प्राप्तुं असमर्थः"
-
-#: package/contents/ui/FullRepresentation.qml:57
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"The network request timed out, possibly due to a server outage at the "
-"weather station provider. Check again later."
-msgstr ""
-"संजाल-अनुरोधस्य समयः समाप्तः, सम्भवतः मौसम-स्थानक-प्रदातुः सर्वर-विच्छेदस्य कारणतः । "
-"पश्चात् पुनः पश्यन्तु।"
 
 #: package/contents/ui/main.qml:93
 #, kde-format
@@ -395,35 +451,11 @@ msgctxt "@label ground temperature"
 msgid "Dewpoint:"
 msgstr "ओसबिन्दुः १."
 
-#: package/contents/ui/main.qml:184
-#, kde-format
-msgctxt "@label"
-msgid "Pressure:"
-msgstr "प्रबलता:"
-
 #: package/contents/ui/main.qml:191
 #, kde-format
 msgctxt "@label pressure tendency, rising/falling/steady"
 msgid "Pressure Tendency:"
 msgstr "दबाव प्रवृत्तिः : १."
-
-#: package/contents/ui/main.qml:198
-#, kde-format
-msgctxt "@label"
-msgid "Visibility:"
-msgstr "दृश्यता : १."
-
-#: package/contents/ui/main.qml:205
-#, kde-format
-msgctxt "@label"
-msgid "Humidity:"
-msgstr "आर्द्रता:"
-
-#: package/contents/ui/main.qml:212
-#, kde-format
-msgctxt "@label"
-msgid "Wind Gust:"
-msgstr "वायुप्रवाहः : १."
 
 #: package/contents/ui/main.qml:364
 #, kde-format
@@ -455,11 +487,6 @@ msgctxt "pressure (tendency)"
 msgid "%1 (%2)"
 msgstr "%1 (%2) २."
 
-#: package/contents/ui/main.qml:401
-#, kde-format
-msgid "Humidity: %1"
-msgstr "आर्द्रता : %1"
-
 #: package/contents/ui/NoticesView.qml:61
 #, kde-format
 msgctxt "@action:button"
@@ -481,47 +508,21 @@ msgstr "वर्णन"
 #: package/contents/ui/SwitchPanel.qml:42
 #, kde-format
 msgctxt ""
-"@title:tab %1 is the number of weather notices (alerts, warnings, "
-"watches, ...) issued"
+"@title:tab %1 is the number of weather notices (alerts, warnings, watches, "
+"...) issued"
 msgid "%1 Notice"
 msgid_plural "%1 Notices"
 msgstr[0] "%1 सूचना"
 msgstr[1] "%1 सूचनाः"
 
-#: package/contents/ui/SwitchPanel.qml:114
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Unable to load weather forecast"
-msgstr "मौसमस्य पूर्वानुमानं लोड् कर्तुं असमर्थः"
-
-#: package/contents/ui/SwitchPanel.qml:116
-#, kde-format
-msgctxt "@info:usagetip"
-msgid ""
-"There may be a technical issue with the weather provider. If the issue "
-"persists for longer than a day, submit a bug report."
-msgstr ""
-"मौसमप्रदातृणां सह तान्त्रिकविषयः भवितुम् अर्हति । यदि समस्या एकदिनात् अधिकं यावत् "
-"स्थास्यति तर्हि दोषप्रतिवेदनं प्रस्तूयताम् ।"
-
 #: package/contents/ui/TopPanel.qml:83
 #, kde-format
 msgctxt ""
 "@label %1 is the perceived temperature due to conditions like wind or "
-"humidity. Use the common phrasing for this concept and keep it short, adding "
-"a colon if necessary"
+"humidity. Use the common phrasing for this concept and keep it short, "
+"adding a colon if necessary"
 msgid "Feels like %1"
 msgstr "%1 इव अनुभूयते"
-
-#: plugin/locationlistmodel.cpp:41
-#, kde-format
-msgid "Cannot find '%1' using %2."
-msgstr "%2 इत्यस्य उपयोगेन '%1' न प्राप्नुयात् ।"
-
-#: plugin/locationlistmodel.cpp:65
-#, kde-format
-msgid "Connection to %1 weather server timed out."
-msgstr "%1 मौसमसर्वरस्य संयोजनस्य समयः समाप्तः ।"
 
 #: plugin/locationlistmodel.cpp:150
 #, kde-format

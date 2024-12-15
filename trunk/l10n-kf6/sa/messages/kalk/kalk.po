@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kalk package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: kalk\n"
@@ -13,19 +13,9 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: main.cpp:55 qml/CalculationPage.qml:16 qml/Main.qml:78 qml/Main.qml:126
 #: qml/Main.qml:129 qml/Main.qml:135
@@ -99,18 +89,6 @@ msgstr "इतिहासं स्पष्टं कुरुत"
 msgid "History is empty"
 msgstr "इतिहासः शून्यः अस्ति"
 
-#: qml/HistoryView.qml:142
-#, kde-format
-msgctxt "Delete all items from a list"
-msgid "Clear All History?"
-msgstr "सर्वं इतिहासं स्वच्छं कुर्वन्तु?"
-
-#: qml/HistoryView.qml:143
-#, kde-format
-msgctxt "Deleted items cannot be recovered"
-msgid "This is permanent and cannot be undone"
-msgstr "एतत् स्थायित्वं न च निवर्तयितुं शक्यते"
-
 #: qml/Main.qml:85 qml/Main.qml:153 qml/UnitConverter.qml:16
 #, kde-format
 msgid "Converter"
@@ -130,6 +108,33 @@ msgstr "विषये"
 #, kde-format
 msgid "Binary Calculator"
 msgstr "द्विचक्रीय गणक"
+
+#: qml/UnitConverter.qml:66
+#, kde-format
+msgid "Category"
+msgstr "कोटी"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: qml/HistoryView.qml:142
+#, kde-format
+msgctxt "Delete all items from a list"
+msgid "Clear All History?"
+msgstr "सर्वं इतिहासं स्वच्छं कुर्वन्तु?"
+
+#: qml/HistoryView.qml:143
+#, kde-format
+msgctxt "Deleted items cannot be recovered"
+msgid "This is permanent and cannot be undone"
+msgstr "एतत् स्थायित्वं न च निवर्तयितुं शक्यते"
 
 #: qml/SettingsPage.qml:17
 #, kde-format
@@ -154,6 +159,12 @@ msgstr "कोण एकक"
 msgctxt "@info:whatsthis"
 msgid "Default angle unit for trigonometric functions."
 msgstr "त्रिकोणमितीयफलनानां कृते पूर्वनिर्धारितकोण-एककम् ।"
+
+#: qml/SettingsPage.qml:61
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Expression evaluation order."
+msgstr "अभिव्यक्तिमूल्यांकनक्रमः।"
 
 #: qml/SettingsPage.qml:43
 #, kde-format
@@ -197,12 +208,6 @@ msgctxt "@label:listbox control how expressions are parsed (read/interpreted)"
 msgid "Parsing mode"
 msgstr "पार्सिंग् मोड्"
 
-#: qml/SettingsPage.qml:61
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid "Expression evaluation order."
-msgstr "अभिव्यक्तिमूल्यांकनक्रमः।"
-
 #: qml/SettingsPage.qml:64
 #, kde-format
 msgctxt "@item:inlistbox Parsing mode"
@@ -226,8 +231,3 @@ msgstr "अन्तर्निहितं प्रथमं"
 msgctxt "@item:inlistbox Parsing mode"
 msgid "Chain"
 msgstr "शृङ्खला"
-
-#: qml/UnitConverter.qml:66
-#, kde-format
-msgid "Category"
-msgstr "कोटी"

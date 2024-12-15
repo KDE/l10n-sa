@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the khangman package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: khangman\n"
@@ -13,57 +13,39 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
-#. i18n: tag theme attribute uiname
 #: ../themes/standardthemes.xml:4
+#. i18n: tag theme attribute uiname
 #, kde-format
 msgid "Notes Theme"
 msgstr "नोट्स् विषयः"
 
-#. i18n: tag theme attribute uiname
 #: ../themes/standardthemes.xml:20
+#. i18n: tag theme attribute uiname
 #, kde-format
 msgid "Sea Theme"
 msgstr "समुद्र विषयः"
 
-#. i18n: tag theme attribute uiname
 #: ../themes/standardthemes.xml:36
+#. i18n: tag theme attribute uiname
 #, kde-format
 msgid "Winter Theme"
 msgstr "शिशिर विषयः"
 
-#. i18n: tag theme attribute uiname
 #: ../themes/standardthemes.xml:52
+#. i18n: tag theme attribute uiname
 #, kde-format
 msgid "Bee Theme"
 msgstr "मधुमक्खी विषयः"
 
-#. i18n: tag theme attribute uiname
 #: ../themes/standardthemes.xml:68
+#. i18n: tag theme attribute uiname
 #, kde-format
 msgid "Desert Theme"
 msgstr "मरुभूमि विषय"
-
-#: data.i18n:2
-#, kde-format
-msgctxt "NOTE_TO_THE_TRANSLATORS"
-msgid ""
-"The translators have the opportunity to translate the\n"
-"words in the game.\n"
-"See the file README.languages in khangman's source directory\n"
-"for more information on how to do that.\n"
-"(translate this message as \"DONE\" when you have translated\n"
-"the words; otherwise leave it untranslated as a reminder)"
-msgstr ""
-"अनुवादकानां कृते अनुवादस्य अवसरः अस्ति\n"
-"क्रीडायां शब्दाः ।\n"
-"khangman इत्यस्य स्रोतनिर्देशिकायां README.languages इति सञ्चिकां पश्यन्तु\n"
-"तत् कथं कर्तव्यमिति अधिकविवरणार्थम्।\n"
-"(अनुवादं कृत्वा एतत् सन्देशं \"DONE\" इति अनुवादयन्तु\n"
-"वचनानि; अन्यथा स्मरणार्थं अननुवादं त्यजन्तु)"
 
 #: khangman.cpp:72
 #, kde-format
@@ -84,57 +66,51 @@ msgstr ""
 msgid "No word list loaded"
 msgstr "शब्दसूची लोड् न कृता"
 
-#: khangman.cpp:407
-#, kde-format
-msgctxt "@item:inlistbox no language for that locale"
-msgid "None"
-msgstr "न कश्चित्"
-
 #: khangman.cpp:429
 #, kde-format
 msgid "No kvtml files found."
 msgstr "kvtml सञ्चिकाः न प्राप्ताः ।"
 
-#. i18n: ectx: label, entry (CurrentLevel), group (Language)
 #: khangman.kcfg:10
+#. i18n: ectx: label, entry (CurrentLevel), group (Language)
 #, kde-format
 msgid "Level"
 msgstr "स्तर"
 
-#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
 #: khangman.kcfg:17
+#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
 #, kde-format
 msgid "The language selected by the user"
 msgstr "उपयोक्त्रेण चयनिता भाषा"
 
-#. i18n: ectx: label, entry (Theme), group (Look)
 #: khangman.kcfg:33
+#. i18n: ectx: label, entry (Theme), group (Look)
 #, kde-format
 msgid "Background theme name"
 msgstr "पृष्ठभूमि विषय नाम"
 
-#. i18n: ectx: label, entry (OneLetter), group (General)
 #: khangman.kcfg:40
+#. i18n: ectx: label, entry (OneLetter), group (General)
 #, kde-format
-msgid ""
-"Check this if you do not want to discover each instance of the same letter."
+msgid "Check this if you do not want to discover each instance of the same letter."
 msgstr ""
-"यदि भवान् एकस्यैव अक्षरस्य प्रत्येकं उदाहरणं आविष्कर्तुं न इच्छति तर्हि एतत् परीक्ष्यताम् ।"
+"यदि भवान् एकस्यैव अक्षरस्य प्रत्येकं उदाहरणं आविष्कर्तुं न इच्छति तर्हि "
+"एतत् परीक्ष्यताम् ।"
 
-#. i18n: ectx: label, entry (EnableAnimations), group (General)
 #: khangman.kcfg:44
+#. i18n: ectx: label, entry (EnableAnimations), group (General)
 #, kde-format
 msgid "Enable Animations"
 msgstr "एनिमेशनं सक्षमं कुर्वन्तु"
 
-#. i18n: ectx: label, entry (Sound), group (General)
 #: khangman.kcfg:48
+#. i18n: ectx: label, entry (Sound), group (General)
 #, kde-format
 msgid "If checked, sounds will be played for New Game and Win Game"
 msgstr "यदि चेक् कृतं तर्हि New Game तथा Win Game इत्येतयोः कृते ध्वनयः वाद्यन्ते"
 
-#. i18n: ectx: label, entry (Hint), group (General)
 #: khangman.kcfg:53
+#. i18n: ectx: label, entry (Hint), group (General)
 #, kde-format
 msgid ""
 "If checked, hints will always been displayed. If this is not checked "
@@ -142,28 +118,29 @@ msgid ""
 "            hints will be displayed only per word when the user chooses to "
 "show the hint."
 msgstr ""
-"यदि परीक्षितं तर्हि संकेताः सर्वदा प्रदर्शिताः भविष्यन्ति । यदि एतत् न परीक्षितम् "
-"(पूर्वनिर्धारितम्)\n"
-"            hints केवलं प्रतिशब्दं प्रदर्शितं भविष्यति यदा उपयोक्ता hint दर्शयितुं चयनं "
-"करोति ।"
+"यदि परीक्षितं तर्हि संकेताः सर्वदा प्रदर्शिताः भविष्यन्ति । यदि एतत् न "
+"परीक्षितम् (पूर्वनिर्धारितम्)\n"
+"            hints केवलं प्रतिशब्दं प्रदर्शितं भविष्यति यदा उपयोक्ता hint "
+"दर्शयितुं चयनं करोति ।"
 
-#. i18n: ectx: label, entry (resolveTime), group (General)
 #: khangman.kcfg:57
+#. i18n: ectx: label, entry (resolveTime), group (General)
 #, kde-format
 msgid ""
 "This setting allows you to set in seconds how much time is available for "
 "resolving the word."
 msgstr ""
-"एतेन सेटिङ्ग् इत्यनेन शब्दस्य समाधानार्थं कियत् समयः उपलब्धः इति सेकेण्ड्-मात्रेषु सेट् कर्तुं शक्यते ।"
+"एतेन सेटिङ्ग् इत्यनेन शब्दस्य समाधानार्थं कियत् समयः उपलब्धः इति "
+"सेकेण्ड्-मात्रेषु सेट् कर्तुं शक्यते ।"
 
-#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
 #: khangman.kcfg:64
+#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
 #, kde-format
 msgid "Type accented letters separately from normal letters"
 msgstr "सामान्याक्षराभ्यां पृथक् उदात्ताक्षराणि टङ्कयन्तु"
 
-#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
 #: khangman.kcfg:71
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
 #, kde-format
 msgid "The Providers path for KHangMan"
 msgstr "KHangMan कृते Providers मार्गः"
@@ -478,18 +455,6 @@ msgstr "इङ्गे वालिन्"
 msgid "Code cleaning"
 msgstr "संहिता सफाई"
 
-#: main.cpp:109
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#: main.cpp:109
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
 #: qml/GamePage.qml:126
 #, kde-format
 msgid "Choose the word category"
@@ -514,12 +479,6 @@ msgstr "विराम"
 #, kde-format
 msgid "Play"
 msgstr "क्रीडतु"
-
-#: qml/GamePage.qml:270
-#, kde-format
-msgctxt "@action:button"
-msgid "Configure"
-msgstr "विन्यस्तं कुर्वन्तु"
 
 #: qml/GamePage.qml:284
 #, kde-format
@@ -601,12 +560,6 @@ msgstr "अग्रिमशब्दं लोड् कृत्वा नू
 msgid "Error: %1"
 msgstr "त्रुटिः %1"
 
-#: qml/SelectionDialog.qml:54
-#, kde-format
-msgctxt "@action:button"
-msgid "Close"
-msgstr "पिधानं करोतु"
-
 #: qml/Settings/SettingsPage.qml:20
 #, kde-format
 msgid "KHangMan Settings"
@@ -632,11 +585,53 @@ msgstr "स्कोर गुणनकारकः : १."
 msgid "Determine the factor by which the scores will be multiplied."
 msgstr "येन कारकेन स्कोराः गुणिताः भविष्यन्ति इति निर्धारयन्तु।"
 
-#: qml/Settings/SettingsPage.qml:96
+#: data.i18n:2
 #, kde-format
-msgctxt "@option:check"
-msgid "Enable sounds"
-msgstr "ध्वनयः सक्षमाः कुर्वन्तु"
+msgctxt "NOTE_TO_THE_TRANSLATORS"
+msgid ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+msgstr ""
+"अनुवादकानां कृते अनुवादस्य अवसरः अस्ति\n"
+"क्रीडायां शब्दाः ।\n"
+"khangman इत्यस्य स्रोतनिर्देशिकायां README.languages इति सञ्चिकां पश्यन्तु\n"
+"तत् कथं कर्तव्यमिति अधिकविवरणार्थम्।\n"
+"(अनुवादं कृत्वा एतत् सन्देशं \"DONE\" इति अनुवादयन्तु\n"
+"वचनानि; अन्यथा स्मरणार्थं अननुवादं त्यजन्तु)"
+
+#: khangman.cpp:407
+#, kde-format
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: main.cpp:109
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: main.cpp:109
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: qml/GamePage.qml:270
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure"
+msgstr "विन्यस्तं कुर्वन्तु"
+
+#: qml/SelectionDialog.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "पिधानं करोतु"
 
 #: qml/Settings/SettingsPage.qml:107
 #, kde-format
@@ -649,3 +644,9 @@ msgstr "रक्ष्"
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "निरसयतु"
+
+#: qml/Settings/SettingsPage.qml:96
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable sounds"
+msgstr "ध्वनयः सक्षमाः कुर्वन्तु"

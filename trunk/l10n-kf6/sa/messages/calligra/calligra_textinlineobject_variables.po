@@ -3,7 +3,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -57,12 +57,6 @@ msgstr "स्तर:"
 #, kde-format
 msgid "Chapter"
 msgstr "अध्यायः"
-
-#: DateVariableFactory.cpp:22
-#, kde-format
-msgctxt "date that can not be changed later"
-msgid "Date (Fixed)"
-msgstr "तिथि (नियत) ९."
 
 #: FixedDateFormat.cpp:34
 #, kde-format
@@ -194,32 +188,32 @@ msgstr "am/pm"
 msgid "AM/PM"
 msgstr "प्र./प"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: FixedDateFormat.ui:21
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Date Correction:"
 msgstr "तिथि सुधारः : १."
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, correction)
 #: FixedDateFormat.ui:28
+#. i18n: ectx: property (suffix), widget (QSpinBox, correction)
 #, kde-format
 msgid " days"
 msgstr " दिवसाः"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: FixedDateFormat.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Select the way the date should be displayed:"
 msgstr "तिथिः यथा प्रदर्शितव्या तत् चिनोतु:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, custom)
 #: FixedDateFormat.ui:60
+#. i18n: ectx: property (text), widget (QCheckBox, custom)
 #, kde-format
 msgid "Custom format"
 msgstr "कस्टम प्रारूप"
 
-#. i18n: ectx: property (text), widget (QToolButton, formatButton)
 #: FixedDateFormat.ui:101
+#. i18n: ectx: property (text), widget (QToolButton, formatButton)
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -353,3 +347,9 @@ msgstr "<b>%1</b> चरं विलोपयतु ?"
 #, kde-format
 msgid "Delete Variable"
 msgstr "चर विलोपयतु"
+
+#: DateVariableFactory.cpp:22
+#, kde-format
+msgctxt "date that can not be changed later"
+msgid "Date (Fixed)"
+msgstr "तिथि (नियत) ९."

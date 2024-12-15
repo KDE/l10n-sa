@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
@@ -36,16 +36,6 @@ msgctxt "QCoreApplication|"
 msgid "Unknown identifier: '%1'"
 msgstr "अज्ञातपरिचयः : '%1'."
 
-#: analitza/analyzer.cpp:257 analitza/analyzer.cpp:290
-msgctxt "identifier separator in error message|"
-msgid "', '"
-msgstr "', ' इति ।"
-
-#: analitza/analyzer.cpp:615
-msgctxt "Error message, no proper condition found.|"
-msgid "Could not find a proper choice for a condition statement."
-msgstr "कण्डिशन् स्टेट्मेण्ट् इत्यस्य सम्यक् विकल्पं न प्राप्नोत् ।"
-
 #: analitza/analyzer.cpp:936
 msgctxt "QCoreApplication|"
 msgid "Type not supported for bounding."
@@ -66,11 +56,6 @@ msgstr "अशुद्धं उत्थानं वा अधः सीम�
 msgctxt "QCoreApplication|"
 msgid "Invalid type for parameter '%1'"
 msgstr "'%1' पैरामीटर् कृते अमान्यः प्रकारः ।"
-
-#: analitza/analyzer.cpp:1877
-msgctxt "By a cycle i mean a variable that depends on itself|"
-msgid "Defined a variable cycle"
-msgstr "एकं चरचक्रं परिभाषितवान्"
 
 #: analitza/analyzer.cpp:1919
 msgctxt "QCoreApplication|"
@@ -129,7 +114,8 @@ msgstr "रिक्तसदिश/मातृपङ्क्तितत्�
 msgctxt "QCoreApplication|"
 msgid "Matrix constructor needs vectors or matrixrow elements"
 msgstr ""
-"Matrix constructor इत्यस्य vectors अथवा matrixrow elements इत्यस्य आवश्यकता भवति"
+"Matrix constructor इत्यस्य vectors अथवा matrixrow elements इत्यस्य आवश्यकता "
+"भवति"
 
 #: analitza/commands/blockmatrixcommands.cpp:244
 #: analitza/commands/matrixcommands.cpp:288
@@ -155,16 +141,11 @@ msgstr "'%1' आदेशस्य उपयोगाय निवेशमा�
 #, qt-format
 msgctxt "QCoreApplication|"
 msgid ""
-"Invalid parameter type in matrix entry (%1,%2) for '%3', it must be a number "
-"value"
+"Invalid parameter type in matrix entry (%1,%2) for '%3', it must be a "
+"number value"
 msgstr ""
-"'%3' कृते मैट्रिक्सप्रविष्टौ (%1,%2) अमान्यः पैरामीटर् प्रकारः, एतत् संख्यामूल्यं भवितुमर्हति"
-
-#: analitza/commands/eigencommands.cpp:126
-#: analitza/commands/eigencommands.cpp:193
-msgctxt "QCoreApplication|NaN means Not a Number, is an invalid float number"
-msgid "Returned eigenvalue is NaN"
-msgstr "प्रत्यागतं eigenvalue NaN अस्ति"
+"'%3' कृते मैट्रिक्सप्रविष्टौ (%1,%2) अमान्यः पैरामीटर् प्रकारः, एतत् "
+"संख्यामूल्यं भवितुमर्हति"
 
 #: analitza/commands/eigencommands.cpp:132
 #: analitza/commands/eigencommands.cpp:196
@@ -276,28 +257,11 @@ msgctxt "QCoreApplication|"
 msgid "Empty container: %1"
 msgstr "रिक्तं पात्रम् : %1"
 
-#: analitza/expression.cpp:228
-msgctxt "there was a conditional outside a condition structure|"
-msgid "We can only have conditionals inside piecewise structures."
-msgstr "अस्माकं कृते केवलं खण्ड-खण्ड-संरचनानां अन्तः एव सशर्ताः भवितुम् अर्हन्ति ।"
-
 #: analitza/expression.cpp:244
 #, qt-format
 msgctxt "QCoreApplication|"
 msgid "Cannot have two parameters with the same name like '%1'."
 msgstr "'%1' इत्यादिनाम्ना द्वौ मापदण्डौ न भवितुं शक्यते ।"
-
-#: analitza/expression.cpp:259
-msgctxt ""
-"this is an error message. otherwise is the else in a mathml condition|"
-msgid "The <em>otherwise</em> parameter should be the last one"
-msgstr "<em>अन्यथा</em> पैरामीटर् अन्तिमः भवेत्"
-
-#: analitza/expression.cpp:267
-#, qt-format
-msgctxt "there was an element that was not a conditional inside a condition|"
-msgid "%1 is not a proper condition inside the piecewise"
-msgstr "%1 खण्डवत् अन्तः सम्यक् स्थितिः नास्ति"
 
 #: analitza/expression.cpp:273
 msgctxt "QCoreApplication|"
@@ -324,12 +288,6 @@ msgstr "आकृतिः केवलं आकृतिपङ्क्ति�
 msgctxt "QCoreApplication|"
 msgid "Error while parsing: %1"
 msgstr "विश्लेषणं कुर्वन् त्रुटिः: %1"
-
-#: analitza/expression.cpp:450
-#, qt-format
-msgctxt "An error message|"
-msgid "Container unknown: %1"
-msgstr "पात्रम् अज्ञातम् : %1"
 
 #: analitza/expression.cpp:456
 #, qt-format
@@ -359,22 +317,10 @@ msgctxt "QCoreApplication|"
 msgid "Do not want empty matrices"
 msgstr "रिक्तं मैट्रिक्सं न इच्छति"
 
-#: analitza/expression.cpp:508
-#, qt-format
-msgctxt "Error message due to an unrecognized input|"
-msgid "Not supported/unknown: %1"
-msgstr "समर्थितं/अज्ञातं नास्ति: %1"
-
 #: analitza/expressionparser.cpp:296
 msgctxt "QCoreApplication|"
 msgid ", "
 msgstr ", ९. "
-
-#: analitza/expressionparser.cpp:296
-#, qt-format
-msgctxt "error message|"
-msgid "Expected %1 instead of '%2'"
-msgstr "'%2' इत्यस्य स्थाने %1 अपेक्षितम्।"
 
 #: analitza/expressionparser.cpp:298
 msgctxt "QCoreApplication|"
@@ -409,17 +355,13 @@ msgctxt "QCoreApplication|"
 msgid "The domain should be either a vector or a list"
 msgstr "डोमेन् सदिशः वा सूची वा भवेत्"
 
-#: analitza/expressiontypechecker.cpp:558
-#, qt-format
-msgctxt "type error message|"
-msgid "Cannot call '%1'"
-msgstr "'%1' इति आह्वयितुं न शक्यते।"
-
 #: analitza/expressiontypechecker.cpp:593
 #, qt-format
 msgctxt "QCoreApplication|"
 msgid "Cannot reduce '%1' to '%2'. Invalid type of parameter '%3' for '%4'"
-msgstr "'%1' '%2' यावत् न्यूनीकर्तुं न शक्यते । '%4' कृते '%3' पैरामीटर् अमान्यः प्रकारः ।"
+msgstr ""
+"'%1' '%2' यावत् न्यूनीकर्तुं न शक्यते । '%4' कृते '%3' पैरामीटर् अमान्यः "
+"प्रकारः ।"
 
 #: analitza/expressiontypechecker.cpp:604
 #, qt-format
@@ -432,8 +374,8 @@ msgstr "'%2' कृते अमान्यमापदण्डगणना �
 msgctxt "QCoreApplication|"
 msgid "Cannot compare '%1' to '%2'. Invalid type of parameter '%3' for '%4'"
 msgstr ""
-"'%1' इत्यस्य '%2' इत्यनेन सह तुलनां कर्तुं न शक्यते । '%4' कृते '%3' पैरामीटर् अमान्यः "
-"प्रकारः ।"
+"'%1' इत्यस्य '%2' इत्यनेन सह तुलनां कर्तुं न शक्यते । '%4' कृते '%3' "
+"पैरामीटर् अमान्यः प्रकारः ।"
 
 #: analitza/expressiontypechecker.cpp:654
 #, qt-format
@@ -468,24 +410,6 @@ msgstr "अप्रत्याशित प्रकार"
 msgctxt "QCoreApplication|"
 msgid "Cannot convert '%1' to '%2'"
 msgstr "'%1' '%2' मध्ये परिवर्तयितुं न शक्यते ।"
-
-#: analitza/htmlexpressionwriter.cpp:54 analitza/htmlexpressionwriter.cpp:55
-#, qt-format
-msgctxt "html representation of an operator|"
-msgid "<span class='op'>%1</span>"
-msgstr "<span class='op'>%1</span>"
-
-#: analitza/htmlexpressionwriter.cpp:56
-#, qt-format
-msgctxt "html representation of an operator|"
-msgid "<span class='keyword'>%1</span>"
-msgstr "<span class='keyword'>%1</span>"
-
-#: analitza/mathmlpresentationlexer.cpp:94
-#, qt-format
-msgctxt "Error message|"
-msgid "Unknown token '%1'"
-msgstr "अज्ञात टोकन '%1'."
 
 #: analitza/operations.cpp:54 analitza/operations.cpp:191
 msgctxt "QCoreApplication|"
@@ -547,8 +471,8 @@ msgid ""
 "Multiplication between a matrix and a vector is allowed provided that the "
 "number of columns of the matrix equals the size of the vector"
 msgstr ""
-"मैट्रिक्सस्य सदिशस्य च मध्ये गुणनं अनुमतं भवति यद्यपि मैट्रिक्सस्य स्तम्भसङ्ख्या सदिशस्य आकारस्य "
-"बराबरं भवति"
+"मैट्रिक्सस्य सदिशस्य च मध्ये गुणनं अनुमतं भवति यद्यपि मैट्रिक्सस्य "
+"स्तम्भसङ्ख्या सदिशस्य आकारस्य बराबरं भवति"
 
 #: analitza/operations.cpp:570 analitza/operations.cpp:707
 msgctxt "QCoreApplication|"
@@ -573,7 +497,8 @@ msgid ""
 "Multiplication between a vector and a matrix is allowed provided that the "
 "matrix has only one matrixrow element"
 msgstr ""
-"सदिशस्य आकृतिस्य च मध्ये गुणनं अनुमतं भवति यद्यपि आकृतिः केवलं एकः आकृतिपङ्क्तितत्त्वं भवति"
+"सदिशस्य आकृतिस्य च मध्ये गुणनं अनुमतं भवति यद्यपि आकृतिः केवलं एकः "
+"आकृतिपङ्क्तितत्त्वं भवति"
 
 #: analitza/operations.cpp:730
 msgctxt "QCoreApplication|"
@@ -581,8 +506,8 @@ msgid ""
 "Addition of two matrices is allowed provided that both matrices have the "
 "same number of rows and the same number of columns"
 msgstr ""
-"द्वयोः मैट्रिक्सयोः योजनं अनुमतं भवति यद्यपि द्वयोः मेट्रिक्सयोः समानाः पङ्क्तयः समानाः "
-"स्तम्भाः च सन्ति"
+"द्वयोः मैट्रिक्सयोः योजनं अनुमतं भवति यद्यपि द्वयोः मेट्रिक्सयोः समानाः "
+"पङ्क्तयः समानाः स्तम्भाः च सन्ति"
 
 #: analitza/operations.cpp:762
 msgctxt "QCoreApplication|"
@@ -590,8 +515,8 @@ msgid ""
 "Multiplication of two matrices is allowed provided that the number of "
 "columns of the first matrix equals the number of rows of the second matrix"
 msgstr ""
-"प्रथममात्रिकायाः स्तम्भसङ्ख्या द्वितीयमात्रिकायाः पङ्क्तिसङ्ख्यायाः बराबरं भवति इति शर्तेन "
-"द्वयोः मैट्रिक्सयोः गुणनं अनुमतम्"
+"प्रथममात्रिकायाः स्तम्भसङ्ख्या द्वितीयमात्रिकायाः पङ्क्तिसङ्ख्यायाः बराबरं "
+"भवति इति शर्तेन द्वयोः मैट्रिक्सयोः गुणनं अनुमतम्"
 
 #: analitza/operations.cpp:766 analitza/operations.cpp:804
 #: analitza/operations.cpp:887
@@ -620,37 +545,6 @@ msgstr "मैट्रिक्सस्य त्रुटिप्रका�
 msgctxt "QCoreApplication|"
 msgid "Could not calculate the derivative for '%1'"
 msgstr "'%1' कृते व्युत्पन्नस्य गणनां कर्तुं न शक्तवान् ।"
-
-#: analitzagui/operatorsmodel.cpp:96 analitzagui/variablesmodel.cpp:91
-#: analitzaplot/plotsdictionarymodel.cpp:36 analitzaplot/plotsmodel.cpp:78
-msgctxt "@title:column|"
-msgid "Name"
-msgstr "नामः"
-
-#: analitzagui/operatorsmodel.cpp:99
-msgctxt "@title:column|"
-msgid "Description"
-msgstr "वर्णनम्‌"
-
-#: analitzagui/operatorsmodel.cpp:102
-msgctxt "@title:column|"
-msgid "Parameters"
-msgstr "पैरामीटर्"
-
-#: analitzagui/operatorsmodel.cpp:105
-msgctxt "@title:column|"
-msgid "Example"
-msgstr "उदाहरण"
-
-#: analitzagui/operatorsmodel.cpp:136
-msgctxt "Syntax for function bounding|"
-msgid " : var"
-msgstr " : आसीत्‌"
-
-#: analitzagui/operatorsmodel.cpp:138
-msgctxt "Syntax for function bounding values|"
-msgid "=from..to"
-msgstr "=तः..त"
 
 #: analitzagui/operatorsmodel.cpp:141
 #, qt-format
@@ -1025,6 +919,187 @@ msgctxt "QCoreApplication|"
 msgid "Transpose"
 msgstr "स्थानान्तरणं कुर्वन्तु"
 
+#: analitzaplot/plotsfactory.cpp:49
+msgctxt "QCoreApplication|"
+msgid "The expression is not correct"
+msgstr "व्यञ्जनं सम्यक् नास्ति"
+
+#: analitzaplot/plotsfactory.cpp:72
+#, qt-format
+msgctxt "QCoreApplication|"
+msgid "Function type '%1' not recognized"
+msgstr "'%1' इति कार्यप्रकारः न ज्ञातः"
+
+#: analitzaplot/plotsfactory.cpp:74
+#, qt-format
+msgctxt "QCoreApplication|"
+msgid "Function '%1' not recognized"
+msgstr "'%1' कार्यं न ज्ञातम्"
+
+#: analitzaplot/private/backends/cartesiancurve.cpp:137
+#: analitzaplot/private/backends/cartesiancurve.cpp:245
+msgctxt "QCoreApplication|"
+msgid "We can only draw Real results."
+msgstr "वयं केवलं Real परिणामान् एव आकर्षितुं शक्नुमः।"
+
+#: analitzaplot/private/backends/cartesiancurve.cpp:248
+#: analitzawidgets/plotsview2d.cpp:236
+#, qt-format
+msgctxt "QCoreApplication|"
+msgid "x=%1 y=%2"
+msgstr "x=%1 य=%2"
+
+#: analitzawidgets/expressionedit.cpp:295
+#, qt-format
+msgctxt "QCoreApplication|"
+msgid "Result: %1"
+msgstr "परिणामः %1"
+
+#: analitzawidgets/expressionedit.cpp:405
+msgctxt "QCoreApplication|"
+msgid "To Expression"
+msgstr "To Expression इति"
+
+#: analitzawidgets/expressionedit.cpp:407
+msgctxt "QCoreApplication|"
+msgid "To MathML"
+msgstr "To MathML इति"
+
+#: analitzawidgets/expressionedit.cpp:409
+msgctxt "QCoreApplication|"
+msgid "Simplify"
+msgstr "सरलं कुरुत"
+
+#: analitzawidgets/expressionedit.cpp:411
+msgctxt "QCoreApplication|"
+msgid "Examples"
+msgstr "उदाहरणानि"
+
+#: analitzawidgets/plotsview2d.cpp:214
+msgctxt "QCoreApplication|"
+msgid "Selected viewport too small"
+msgstr "चयनितं दृश्यस्थानकं अतिलघु"
+
+#: analitza/analyzer.cpp:257 analitza/analyzer.cpp:290
+msgctxt "identifier separator in error message|"
+msgid "', '"
+msgstr "', ' इति ।"
+
+#: analitza/analyzer.cpp:615
+msgctxt "Error message, no proper condition found.|"
+msgid "Could not find a proper choice for a condition statement."
+msgstr "कण्डिशन् स्टेट्मेण्ट् इत्यस्य सम्यक् विकल्पं न प्राप्नोत् ।"
+
+#: analitza/analyzer.cpp:1877
+msgctxt "By a cycle i mean a variable that depends on itself|"
+msgid "Defined a variable cycle"
+msgstr "एकं चरचक्रं परिभाषितवान्"
+
+#: analitza/commands/eigencommands.cpp:126
+#: analitza/commands/eigencommands.cpp:193
+msgctxt "QCoreApplication|NaN means Not a Number, is an invalid float number"
+msgid "Returned eigenvalue is NaN"
+msgstr "प्रत्यागतं eigenvalue NaN अस्ति"
+
+#: analitza/expression.cpp:228
+msgctxt "there was a conditional outside a condition structure|"
+msgid "We can only have conditionals inside piecewise structures."
+msgstr "अस्माकं कृते केवलं खण्ड-खण्ड-संरचनानां अन्तः एव सशर्ताः भवितुम् अर्हन्ति ।"
+
+#: analitza/expression.cpp:259
+msgctxt "this is an error message. otherwise is the else in a mathml condition|"
+msgid "The <em>otherwise</em> parameter should be the last one"
+msgstr "<em>अन्यथा</em> पैरामीटर् अन्तिमः भवेत्"
+
+#: analitza/expression.cpp:267
+#, qt-format
+msgctxt "there was an element that was not a conditional inside a condition|"
+msgid "%1 is not a proper condition inside the piecewise"
+msgstr "%1 खण्डवत् अन्तः सम्यक् स्थितिः नास्ति"
+
+#: analitza/expression.cpp:450
+#, qt-format
+msgctxt "An error message|"
+msgid "Container unknown: %1"
+msgstr "पात्रम् अज्ञातम् : %1"
+
+#: analitza/expression.cpp:508
+#, qt-format
+msgctxt "Error message due to an unrecognized input|"
+msgid "Not supported/unknown: %1"
+msgstr "समर्थितं/अज्ञातं नास्ति: %1"
+
+#: analitza/expressionparser.cpp:296
+#, qt-format
+msgctxt "error message|"
+msgid "Expected %1 instead of '%2'"
+msgstr "'%2' इत्यस्य स्थाने %1 अपेक्षितम्।"
+
+#: analitza/expressiontypechecker.cpp:558
+#, qt-format
+msgctxt "type error message|"
+msgid "Cannot call '%1'"
+msgstr "'%1' इति आह्वयितुं न शक्यते।"
+
+#: analitza/htmlexpressionwriter.cpp:54 analitza/htmlexpressionwriter.cpp:55
+#, qt-format
+msgctxt "html representation of an operator|"
+msgid "<span class='op'>%1</span>"
+msgstr "<span class='op'>%1</span>"
+
+#: analitza/htmlexpressionwriter.cpp:56
+#, qt-format
+msgctxt "html representation of an operator|"
+msgid "<span class='keyword'>%1</span>"
+msgstr "<span class='keyword'>%1</span>"
+
+#: analitza/mathmlpresentationlexer.cpp:94
+#, qt-format
+msgctxt "Error message|"
+msgid "Unknown token '%1'"
+msgstr "अज्ञात टोकन '%1'."
+
+#: analitzagui/operatorsmodel.cpp:96 analitzagui/variablesmodel.cpp:91
+#: analitzaplot/plotsdictionarymodel.cpp:36 analitzaplot/plotsmodel.cpp:78
+msgctxt "@title:column|"
+msgid "Name"
+msgstr "नामः"
+
+#: analitzagui/operatorsmodel.cpp:99
+msgctxt "@title:column|"
+msgid "Description"
+msgstr "वर्णनम्‌"
+
+#: analitzagui/operatorsmodel.cpp:102
+msgctxt "@title:column|"
+msgid "Parameters"
+msgstr "पैरामीटर्"
+
+#: analitzagui/operatorsmodel.cpp:105
+msgctxt "@title:column|"
+msgid "Example"
+msgstr "उदाहरण"
+
+#: analitzagui/variablesmodel.cpp:94
+msgctxt "@title:column|"
+msgid "Value"
+msgstr "मूल्यम्‌"
+
+#: analitzaplot/plotsmodel.cpp:79
+msgctxt "@title:column|"
+msgid "Plot"
+msgstr "भूखण्ड"
+
+#: analitzagui/operatorsmodel.cpp:136
+msgctxt "Syntax for function bounding|"
+msgid " : var"
+msgstr " : आसीत्‌"
+
+#: analitzagui/operatorsmodel.cpp:138
+msgctxt "Syntax for function bounding values|"
+msgid "=from..to"
+msgstr "=तः..त"
+
 #: analitzagui/operatorsmodel.cpp:573
 #, qt-format
 msgctxt "n-ary function prototype|"
@@ -1065,33 +1140,6 @@ msgctxt "Current parameter is the bounding|"
 msgid " : bounds"
 msgstr " : सीमाः"
 
-#: analitzagui/variablesmodel.cpp:94
-msgctxt "@title:column|"
-msgid "Value"
-msgstr "मूल्यम्‌"
-
-#: analitzaplot/plotsfactory.cpp:49
-msgctxt "QCoreApplication|"
-msgid "The expression is not correct"
-msgstr "व्यञ्जनं सम्यक् नास्ति"
-
-#: analitzaplot/plotsfactory.cpp:72
-#, qt-format
-msgctxt "QCoreApplication|"
-msgid "Function type '%1' not recognized"
-msgstr "'%1' इति कार्यप्रकारः न ज्ञातः"
-
-#: analitzaplot/plotsfactory.cpp:74
-#, qt-format
-msgctxt "QCoreApplication|"
-msgid "Function '%1' not recognized"
-msgstr "'%1' कार्यं न ज्ञातम्"
-
-#: analitzaplot/plotsmodel.cpp:79
-msgctxt "@title:column|"
-msgid "Plot"
-msgstr "भूखण्ड"
-
 #: analitzaplot/plotter3d_es.cpp:534 declarative/graph2dmobile.cpp:141
 msgctxt "QObject|"
 msgid "PNG Image (*.png)"
@@ -1121,19 +1169,6 @@ msgstr "समतल वक्र F(y) 1 ."
 msgctxt "Function type|"
 msgid "Plane Curve F(x)"
 msgstr "समतल वक्र F(x) ."
-
-#: analitzaplot/private/backends/cartesiancurve.cpp:137
-#: analitzaplot/private/backends/cartesiancurve.cpp:245
-msgctxt "QCoreApplication|"
-msgid "We can only draw Real results."
-msgstr "वयं केवलं Real परिणामान् एव आकर्षितुं शक्नुमः।"
-
-#: analitzaplot/private/backends/cartesiancurve.cpp:248
-#: analitzawidgets/plotsview2d.cpp:236
-#, qt-format
-msgctxt "QCoreApplication|"
-msgid "x=%1 y=%2"
-msgstr "x=%1 य=%2"
 
 #: analitzaplot/private/backends/cartesiansurface.cpp:52
 msgctxt "Function type|"
@@ -1194,34 +1229,3 @@ msgstr "ध्रुवीय वक्र r=F(p: ध्रुवीय)"
 msgctxt "Function type|"
 msgid "Spherical Surface Radial=F(t:Azimuth, p: Polar)"
 msgstr "गोलाकार पृष्ठ रेडियल=F(t:Azimuth, p: Polar)"
-
-#: analitzawidgets/expressionedit.cpp:295
-#, qt-format
-msgctxt "QCoreApplication|"
-msgid "Result: %1"
-msgstr "परिणामः %1"
-
-#: analitzawidgets/expressionedit.cpp:405
-msgctxt "QCoreApplication|"
-msgid "To Expression"
-msgstr "To Expression इति"
-
-#: analitzawidgets/expressionedit.cpp:407
-msgctxt "QCoreApplication|"
-msgid "To MathML"
-msgstr "To MathML इति"
-
-#: analitzawidgets/expressionedit.cpp:409
-msgctxt "QCoreApplication|"
-msgid "Simplify"
-msgstr "सरलं कुरुत"
-
-#: analitzawidgets/expressionedit.cpp:411
-msgctxt "QCoreApplication|"
-msgid "Examples"
-msgstr "उदाहरणानि"
-
-#: analitzawidgets/plotsview2d.cpp:214
-msgctxt "QCoreApplication|"
-msgid "Selected viewport too small"
-msgstr "चयनितं दृश्यस्थानकं अतिलघु"

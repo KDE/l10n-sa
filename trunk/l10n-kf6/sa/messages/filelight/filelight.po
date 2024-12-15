@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the filelight package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,20 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: src/Config.cpp:57
 #, kde-format
@@ -42,11 +32,11 @@ msgstr "पुटं पूर्वमेव उपेक्षितम्"
 #: src/contextMenuContext.cpp:63
 #, kde-format
 msgid ""
-"<qt>The folder at <i>'%1'</i> will be <b>recursively</b> and <b>permanently</"
-"b> deleted.</qt>"
+"<qt>The folder at <i>'%1'</i> will be <b>recursively</b> and "
+"<b>permanently</b> deleted.</qt>"
 msgstr ""
-"<qt><i>&#39;%1&#39;</i> इत्यत्र स्थितं पुटं <b>पुनरावर्तनीयरूपेण</b> <b>स्थायिरूपेण</b> च "
-"विलोपितं भविष्यति ।</qt>"
+"<qt><i>&#39;%1&#39;</i> इत्यत्र स्थितं पुटं <b>पुनरावर्तनीयरूपेण</b> "
+"<b>स्थायिरूपेण</b> च विलोपितं भविष्यति ।</qt>"
 
 #: src/contextMenuContext.cpp:64
 #, kde-format
@@ -57,12 +47,6 @@ msgstr "<qt><i>&#39;%1&#39;</i> <b>स्थायिरूपेण</b> लो�
 #, kde-format
 msgid "&Delete"
 msgstr "&लुप्"
-
-#: src/contextMenuContext.cpp:92
-#, kde-format
-msgctxt "@info:notification"
-msgid "Error while deleting: %1"
-msgstr "विलोपनकाले त्रुटिः: %1"
 
 #: src/main.cpp:88
 #, kde-format
@@ -210,6 +194,42 @@ msgstr "प्रविष्टुं असमर्थः: %1"
 msgid "You do not have access rights to this location."
 msgstr "अस्मिन् स्थाने भवतः प्रवेशाधिकारः नास्ति ।"
 
+#: src/qml/MapPage.qml:567
+#, kde-format
+msgid "No data available"
+msgstr "न कोऽपि दत्तांशः उपलब्धः"
+
+#: src/radialMap/map.cpp:62
+#, kde-format
+msgid ""
+"\n"
+"%1 file, with an average size of %2"
+msgid_plural ""
+"\n"
+"%1 files, with an average size of %2"
+msgstr[0] ""
+"\n"
+"%1 सञ्चिका, %2 इत्यस्य औसतप्रमाणेन सह"
+msgstr[1] ""
+"\n"
+"%1 सञ्चिकाः, %2 इत्यस्य औसतप्रमाणेन सह"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: src/contextMenuContext.cpp:92
+#, kde-format
+msgctxt "@info:notification"
+msgid "Error while deleting: %1"
+msgstr "विलोपनकाले त्रुटिः: %1"
+
 #: src/qml/GlobalMenu.qml:15
 #, kde-format
 msgctxt "@item:inmenu"
@@ -258,49 +278,11 @@ msgctxt "@action"
 msgid "Quit"
 msgstr "परिजहातु"
 
-#: src/qml/main.qml:71
-#, kde-format
-msgctxt "@action configure app"
-msgid "Configure…"
-msgstr "विन्यस्तं कुर्वन्तु…"
-
-#: src/qml/main.qml:76
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "विन्यस्तं कुर्वन्तु"
-
 #: src/qml/main.qml:88
 #, kde-format
 msgctxt "@action"
 msgid "Open Handbook"
 msgstr "Open Handbook"
-
-#: src/qml/main.qml:96
-#, kde-format
-msgctxt "@action opens about app page"
-msgid "About"
-msgstr "विषये"
-
-#: src/qml/main.qml:173
-#, kde-format
-msgctxt "@info:status"
-msgid "Failed to abort scan"
-msgstr "स्कैन् गर्भपातं कर्तुं असफलम्"
-
-#: src/qml/MapPage.qml:40
-#, kde-format
-msgctxt "@info:status"
-msgid "No files shown."
-msgstr "न सञ्चिकाः दर्शिताः।"
-
-#: src/qml/MapPage.qml:41
-#, kde-format
-msgctxt "@info:status"
-msgid "1 file shown"
-msgid_plural "%1 files shown"
-msgstr[0] "१ सञ्चिका दर्शिता"
-msgstr[1] "%1 सञ्चिकाः दर्शिताः"
 
 #: src/qml/MapPage.qml:49
 #, kde-format
@@ -338,23 +320,11 @@ msgctxt "@action"
 msgid "Zoom Out"
 msgstr "Zoom Out इति"
 
-#: src/qml/MapPage.qml:126 src/qml/MapPage.qml:249
-#, kde-format
-msgctxt "@action Open file or directory from context menu"
-msgid "Open"
-msgstr "उद्घाटित"
-
 #: src/qml/MapPage.qml:134 src/qml/MapPage.qml:257
 #, kde-format
 msgctxt "@action"
 msgid "Open Terminal Here"
 msgstr "अत्र टर्मिनल् उद्घाटयन्तु"
-
-#: src/qml/MapPage.qml:142
-#, kde-format
-msgctxt "@action focuses the filelight view on a given map segment"
-msgid "Center Map Here"
-msgstr "केन्द्र मानचित्रम् अत्र"
 
 #: src/qml/MapPage.qml:153 src/qml/MapPage.qml:265
 #, kde-format
@@ -362,17 +332,67 @@ msgctxt "@action"
 msgid "Add to Do Not Scan List"
 msgstr "Do Not Scan List इत्यत्र योजयतु"
 
-#: src/qml/MapPage.qml:161
-#, kde-format
-msgctxt "@action rescan filelight map"
-msgid "Rescan"
-msgstr "पुनः स्कैन करें"
-
 #: src/qml/MapPage.qml:168 src/qml/MapPage.qml:272
 #, kde-format
 msgctxt "@action"
 msgid "Copy to clipboard"
 msgstr "क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#: src/qml/main.qml:71
+#, kde-format
+msgctxt "@action configure app"
+msgid "Configure…"
+msgstr "विन्यस्तं कुर्वन्तु…"
+
+#: src/qml/main.qml:76
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "विन्यस्तं कुर्वन्तु"
+
+#: src/qml/main.qml:96
+#, kde-format
+msgctxt "@action opens about app page"
+msgid "About"
+msgstr "विषये"
+
+#: src/qml/main.qml:173
+#, kde-format
+msgctxt "@info:status"
+msgid "Failed to abort scan"
+msgstr "स्कैन् गर्भपातं कर्तुं असफलम्"
+
+#: src/qml/MapPage.qml:40
+#, kde-format
+msgctxt "@info:status"
+msgid "No files shown."
+msgstr "न सञ्चिकाः दर्शिताः।"
+
+#: src/qml/MapPage.qml:41
+#, kde-format
+msgctxt "@info:status"
+msgid "1 file shown"
+msgid_plural "%1 files shown"
+msgstr[0] "१ सञ्चिका दर्शिता"
+msgstr[1] "%1 सञ्चिकाः दर्शिताः"
+
+#: src/qml/MapPage.qml:126 src/qml/MapPage.qml:249
+#, kde-format
+msgctxt "@action Open file or directory from context menu"
+msgid "Open"
+msgstr "उद्घाटित"
+
+#: src/qml/MapPage.qml:142
+#, kde-format
+msgctxt "@action focuses the filelight view on a given map segment"
+msgid "Center Map Here"
+msgstr "केन्द्र मानचित्रम् अत्र"
+
+#: src/qml/MapPage.qml:161
+#, kde-format
+msgctxt "@action rescan filelight map"
+msgid "Rescan"
+msgstr "पुनः स्कैन करें"
 
 #: src/qml/MapPage.qml:176 src/qml/MapPage.qml:280
 #, kde-format
@@ -410,11 +430,6 @@ msgid_plural "%1 Files, %2"
 msgstr[0] "%1 सञ्चिका, %2"
 msgstr[1] "%1 सञ्चिकाः, %2"
 
-#: src/qml/MapPage.qml:567
-#, kde-format
-msgid "No data available"
-msgstr "न कोऽपि दत्तांशः उपलब्धः"
-
 #: src/qml/OverviewPage.qml:14
 #, kde-format
 msgctxt "@title"
@@ -427,16 +442,6 @@ msgctxt "@title"
 msgid "Welcome to Filelight"
 msgstr "Filelight इत्यत्र स्वागतम्"
 
-#: src/qml/OverviewPage.qml:50
-#, kde-format
-msgctxt "@info"
-msgid ""
-"Filelight analyzes disk usage so you can see what's using lots of space. "
-"Choose a folder to proceed:"
-msgstr ""
-"Filelight डिस्क-उपयोगं विश्लेषयति येन भवान् द्रष्टुं शक्नोति यत् किं बहु स्थानं उपयुज्यते । अग्रे "
-"गन्तुं एकं पुटं चिनोतु:"
-
 #: src/qml/SettingsPage.qml:22
 #, kde-format
 msgctxt "@title"
@@ -448,6 +453,16 @@ msgstr "स्कैनिङ्ग"
 msgctxt "@title"
 msgid "Appearance"
 msgstr "स्वरूपम्‌"
+
+#: src/qml/OverviewPage.qml:50
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Filelight analyzes disk usage so you can see what's using lots of space. "
+"Choose a folder to proceed:"
+msgstr ""
+"Filelight डिस्क-उपयोगं विश्लेषयति येन भवान् द्रष्टुं शक्नोति यत् किं बहु "
+"स्थानं उपयुज्यते । अग्रे गन्तुं एकं पुटं चिनोतु:"
 
 #: src/qml/SettingsPageAppearance.qml:16
 #, kde-format
@@ -485,6 +500,18 @@ msgctxt "@checkbox"
 msgid "Show small files"
 msgstr "लघुसञ्चिकाः दर्शयतु"
 
+#: src/qml/SettingsPageScanning.qml:110
+#, kde-format
+msgctxt "@checkbox"
+msgid "Scan across filesystem boundaries"
+msgstr "सञ्चिकातन्त्रसीमानां पारं स्कैन् कुर्वन्तु"
+
+#: src/qml/SettingsPageScanning.qml:122
+#, kde-format
+msgctxt "@checkbox"
+msgid "Exclude remote filesystems"
+msgstr "दूरस्थसञ्चिकातन्त्राणि बहिष्कृत्य"
+
 #: src/qml/SettingsPageScanning.qml:33
 #, kde-format
 msgctxt "@label"
@@ -502,30 +529,3 @@ msgstr "संयोजयति…"
 msgctxt "@action:button remove list entry"
 msgid "Remove"
 msgstr "अपाकरोति"
-
-#: src/qml/SettingsPageScanning.qml:110
-#, kde-format
-msgctxt "@checkbox"
-msgid "Scan across filesystem boundaries"
-msgstr "सञ्चिकातन्त्रसीमानां पारं स्कैन् कुर्वन्तु"
-
-#: src/qml/SettingsPageScanning.qml:122
-#, kde-format
-msgctxt "@checkbox"
-msgid "Exclude remote filesystems"
-msgstr "दूरस्थसञ्चिकातन्त्राणि बहिष्कृत्य"
-
-#: src/radialMap/map.cpp:62
-#, kde-format
-msgid ""
-"\n"
-"%1 file, with an average size of %2"
-msgid_plural ""
-"\n"
-"%1 files, with an average size of %2"
-msgstr[0] ""
-"\n"
-"%1 सञ्चिका, %2 इत्यस्य औसतप्रमाणेन सह"
-msgstr[1] ""
-"\n"
-"%1 सञ्चिकाः, %2 इत्यस्य औसतप्रमाणेन सह"

@@ -7,7 +7,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
@@ -32,6 +32,11 @@ msgstr "चित्राणि (*.jpg *.png *.jpeg *.gif *.bmp)"
 msgctxt "MindMap|"
 msgid "Images (*.png)"
 msgstr "चित्राणि (*.png)"
+
+#: src/libraries/mindmap/resources/qml/MindMap.qml:70
+msgctxt "MindMap|"
+msgid "is linked"
+msgstr "सम्बद्धः अस्ति"
 
 #: src/binaries/rcse/borderlisteditor.cpp:29
 msgctxt "BorderListEditor|"
@@ -260,81 +265,85 @@ msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Rolisteam Character "
 "Sheet Editor</span></p><p><br/></p><p>This software is dedicated to create "
 "character sheet for Rolisteam v1.8 and more. <br/>Please check the "
-"documentation at: <a href=\"http://wiki.rolisteam.org/index.php/En:"
-"CharacterSheet\"><span style=\" text-decoration: underline; color:#007af4;"
-"\">wiki.rolisteam.org</span></a></p></body></html>"
+"documentation at: <a "
+"href=\"http://wiki.rolisteam.org/index.php/En:CharacterSheet\"><span "
+"style=\" text-decoration: underline; "
+"color:#007af4;\">wiki.rolisteam.org</span></a></p></body></html>"
 msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">रोलिस्टीम चरित्रपत्र "
-"सम्पादक</span></p><p><br/></p><p> इदं सॉफ्टवेयरं Rolisteam v1.8 इत्यादीनां कृते "
-"वर्णपत्रस्य निर्माणार्थं समर्पितं अस्ति ।<br/> कृपया दस्तावेजीकरणं पश्यन्तु: <a href="
-"\"http://wiki.rolisteam.org/index.php/En:CharacterSheet\"><span style=\" "
-"text-decoration: underline; color:#007af4;\">wiki.rolisteam.org</span></a></"
-"p></body></html>"
+"<html><head/><body><p><span style=\" font-weight:600;\">रोलिस्टीम "
+"चरित्रपत्र सम्पादक</span></p><p><br/></p><p> इदं सॉफ्टवेयरं Rolisteam v1.8 "
+"इत्यादीनां कृते वर्णपत्रस्य निर्माणार्थं समर्पितं अस्ति ।<br/> कृपया "
+"दस्तावेजीकरणं पश्यन्तु: <a "
+"href=\"http://wiki.rolisteam.org/index.php/En:CharacterSheet\"><span "
+"style=\" text-decoration: underline; "
+"color:#007af4;\">wiki.rolisteam.org</span></a></p></body></html>"
 
 #: src/binaries/rcse/dialog/aboutrcse.ui:33
 msgctxt "AboutRcse|"
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-"
-"weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Sans Serif'; font-size:9pt;\">Author:</span></p>\n"
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; "
+"font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-family:'Sans Serif'; font-size:9pt;\">Author:</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Sans Serif'; font-size:9pt;\">-Renaud Guezennec</span></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-family:'Sans Serif'; font-size:9pt;\">-Renaud Guezennec</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Sans Serif'; font-size:9pt;\">Translators:</span></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-family:'Sans Serif'; font-size:9pt;\">Translators:</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"family:'Sans Serif'; font-size:9pt;\">-Renaud Guezennec (english and "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-family:'Sans Serif'; font-size:9pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-family:'Sans Serif'; font-size:9pt;\">-Renaud Guezennec (english and "
 "french)</span></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\"><html><head><meta name=\"qrichtext\" content=\"1\" /"
-"><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\"><html><head><meta "
+"name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; font-"
-"weight:400; font-style:normal;\"><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"> <span style=\" font-family:'Sans Serif'; font-size:9pt;"
-"\">लेखकः:</span> </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
+"</style></head><body style=\" font-family:'Ubuntu'; font-size:11pt; "
+"font-weight:400; font-style:normal;\"><p style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"> <span style=\" font-family:'Sans Serif'; "
+"font-size:9pt;\">लेखकः:</span> </p><p style=\"-qt-paragraph-type:empty; "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+"-qt-block-indent:0; text-indent:0px; font-family:'Sans Serif'; "
+"font-size:9pt;\"><br /></p><p style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> "
+"<span style=\" font-family:'Sans Serif'; font-size:9pt;\">-रेनौड "
+"गुएजेनेक</span> </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
 "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
 "text-indent:0px; font-family:'Sans Serif'; font-size:9pt;\"><br /></p><p "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" font-"
-"family:'Sans Serif'; font-size:9pt;\">-रेनौड गुएजेनेक</span> </p><p style=\"-qt-"
-"paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Sans "
-"Serif'; font-size:9pt;\"><br /></p><p style=\"-qt-paragraph-type:empty; "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
-"block-indent:0; text-indent:0px; font-family:'Sans Serif'; font-size:9pt;"
-"\"><br /></p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" "
-"font-family:'Sans Serif'; font-size:9pt;\">अनुवादकाः : १.</span> </p><p style="
-"\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"family:'Sans Serif'; font-size:9pt;\"><br /></p><p style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"> <span style=\" font-family:'Sans Serif'; font-size:9pt;"
-"\">-Renaud Guezennec (अङ्ग्रेजी तथा फ्रेंच)</span></p></body></html>"
+"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-family:'Sans Serif'; font-size:9pt;\"><br /></p><p style=\" "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+"-qt-block-indent:0; text-indent:0px;\"> <span style=\" font-family:'Sans "
+"Serif'; font-size:9pt;\">अनुवादकाः : १.</span> </p><p "
+"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-family:'Sans Serif'; font-size:9pt;\"><br /></p><p style=\" "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+"-qt-block-indent:0; text-indent:0px;\"> <span style=\" font-family:'Sans "
+"Serif'; font-size:9pt;\">-Renaud Guezennec (अङ्ग्रेजी तथा "
+"फ्रेंच)</span></p></body></html>"
 
 #: src/binaries/rcse/dialog/codeeditordialog.ui:14
 msgctxt "CodeEditorDialog|"
@@ -705,6 +714,623 @@ msgctxt "QObject|"
 msgid "open <file>."
 msgstr "<सञ्चिका> उद्घाटयन्तु ।"
 
+#: src/binaries/rcse/undo/addcharactercommand.cpp:27
+#, qt-format
+msgctxt "QObject|"
+msgid "Add Character #%1"
+msgstr "वर्ण #%1 योजयतु"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:56
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:47
+msgctxt "QObject|"
+msgid "checkbox"
+msgstr "checkbox"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:60
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:51
+msgctxt "QObject|"
+msgid "TextInput"
+msgstr "TextInput इति"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:64
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:55
+msgctxt "QObject|"
+msgid "TextArea"
+msgstr "पाठक्षेत्रम्"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:68
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:59
+msgctxt "QObject|"
+msgid "TextField"
+msgstr "पाठक्षेत्रम्"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:73
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:64
+msgctxt "QObject|"
+msgid "Table"
+msgstr "पीठिका"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:78
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:69
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:43
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
+msgctxt "QObject|"
+msgid "Image"
+msgstr "छवि"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:85
+msgctxt "QObject|"
+msgid "Slider"
+msgstr "स्लाइडर"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:89
+#: src/libraries/core/src/data/cleveruri.cpp:235
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:34
+msgctxt "QObject|"
+msgid "Hidden"
+msgstr "अदृष्ट"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:93
+msgctxt "QObject|"
+msgid "LabelField"
+msgstr "लेबलक्षेत्रम्"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:97
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:73
+msgctxt "QObject|"
+msgid "function"
+msgstr "नियोग"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:102
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:78
+msgctxt "QObject|"
+msgid "Dice Button"
+msgstr "पासा बटन"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:106
+msgctxt "QObject|"
+msgid "Web Page"
+msgstr "जालपुटम्"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:110
+msgctxt "QObject|"
+msgid "Next Page Button"
+msgstr "अग्रिम पृष्ठ बटन"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:114
+msgctxt "QObject|"
+msgid "Previous Page Button"
+msgstr "पूर्व पृष्ठ बटन"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:120
+#: src/libraries/core/src/network/connectionprofile.cpp:7
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:84
+msgctxt "QObject|"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: src/binaries/rcse/undo/addfieldcommand.cpp:124
+#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:88
+#, qt-format
+msgctxt "QObject|"
+msgid "Add %1 Field"
+msgstr "%1 क्षेत्रं योजयन्तु"
+
+#: src/binaries/rcse/undo/addpagecommand.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "Add Page #%1"
+msgstr "पृष्ठं #%1 योजयतु"
+
+#: src/binaries/rcse/undo/deletecharactercommand.cpp:27
+#, qt-format
+msgctxt "QObject|"
+msgid "Delete Character #%1"
+msgstr "वर्ण #%1 विलोपयन्तु"
+
+#: src/binaries/rcse/undo/deletefieldcommand.cpp:45
+#, qt-format
+msgctxt "QObject|"
+msgid "Delete %n Field(s)"
+msgid_plural "Delete %n Field(s)"
+msgstr[0] "%n क्षेत्र(क्षेत्राणि) विलोपयतु ."
+msgstr[1] "%n क्षेत्र(क्षेत्राणि) विलोपयतु ."
+
+#: src/binaries/rcse/undo/deletepagecommand.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "Delete Page #%1"
+msgstr "पृष्ठं #%1 विलोपयन्तु"
+
+#: src/binaries/rcse/undo/movefieldcommand.cpp:32
+#, qt-format
+msgctxt "QObject|"
+msgid "Move %n Field(s)"
+msgid_plural "Move %n Field(s)"
+msgstr[0] "चालयन्तु %n क्षेत्र(क्षेत्राणि) ."
+msgstr[1] "चालयन्तु %n क्षेत्र(क्षेत्राणि) ."
+
+#: src/binaries/rcse/undo/setbackgroundimage.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Set background on Page #%1"
+msgstr "पृष्ठे #%1 इत्यत्र पृष्ठभूमिं सेट् कुर्वन्तु"
+
+#: src/binaries/rcse/undo/setbackgroundimage.cpp:53
+#, qt-format
+msgctxt "QObject|"
+msgid "Add Page #%1 and Set background on it"
+msgstr "Page #%1 योजयित्वा तस्मिन् पृष्ठभूमिं सेट् कुर्वन्तु"
+
+#: src/binaries/rcse/undo/setfieldproperties.cpp:34
+#, qt-format
+msgctxt "QObject|"
+msgid "Set Property %1"
+msgstr "गुणः %1 सेट् कुर्वन्तु"
+
+#: src/binaries/rcse/undo/setpropertyonallcharacters.cpp:15
+#, qt-format
+msgctxt "QObject|"
+msgid "Set property on all characters: %1"
+msgstr "सर्वेषु वर्णेषु गुणं सेट् कुर्वन्तु: %1"
+
+#: src/binaries/server/main.cpp:109
+msgctxt "QObject|"
+msgid "Set the path to configuration file [mandatory]"
+msgstr "विन्याससञ्चिकायां मार्गं सेट् कुर्वन्तु [अनिवार्यम्] ।"
+
+#: src/binaries/server/main.cpp:112
+msgctxt "QObject|"
+msgid "Print a default configuration file into Standard output"
+msgstr "पूर्वनिर्धारितविन्याससञ्चिकां Standard आउटपुट् मध्ये मुद्रयन्तु"
+
+#: src/binaries/server/main.cpp:115
+msgctxt "QObject|"
+msgid "Ask for password and return its hash key."
+msgstr "गुप्तशब्दं पृच्छन्तु तस्य हैश कीलं च प्रत्यागच्छन्तु ।"
+
+#: src/binaries/widget/mainwindow.cpp:920
+msgctxt "QObject|"
+msgid "path to the translation file: <translationfile>"
+msgstr "अनुवादसञ्चिकायाः मार्गः: <translationfile>"
+
+#: src/binaries/widget/mainwindow.cpp:923
+msgctxt "QObject|"
+msgid "Define URL to connect to server: <url>"
+msgstr "सर्वरेण सह सम्बद्धं कर्तुं URL परिभाषयन्तु: <url>"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:87
+msgctxt "QObject|"
+msgid "abs : too many arguments"
+msgstr "abs : अत्यधिकं तर्कः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:91
+msgctxt "QObject|"
+msgid "abs : too few arguments"
+msgstr "abs : अति अल्पाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:109
+msgctxt "QObject|"
+msgid "ceil : too many arguments"
+msgstr "ceil : अत्यधिकाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:113
+msgctxt "QObject|"
+msgid "ceil : too few arguments"
+msgstr "ceil : अत्यल्पाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:130
+msgctxt "QObject|"
+msgid "floor : too many arguments"
+msgstr "तल : अत्यधिकं तर्कः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:134
+msgctxt "QObject|"
+msgid "floor : too few arguments"
+msgstr "floor : अति अल्पाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:151
+msgctxt "QObject|"
+msgid "concatenate : too few arguments"
+msgstr "concatenate : अत्यल्पाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:174
+msgctxt "QObject|"
+msgid "min : too few arguments"
+msgstr "min : अति अल्पाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:203
+msgctxt "QObject|"
+msgid "max : too few arguments"
+msgstr "max : अत्यल्पाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:232
+msgctxt "QObject|"
+msgid "avg : too few arguments"
+msgstr "avg : अत्यल्पाः तर्काः"
+
+#: src/libraries/charactersheet/src/formula/nodes/scalaroperatorfnode.cpp:74
+msgctxt "QObject|"
+msgid "Error: division by Zero"
+msgstr "त्रुटिः शून्येन विभागः"
+
+#: src/libraries/core/src/controller/view_controller/selectconnprofilecontroller.cpp:45
+#: src/libraries/core/src/undoCmd/addlocalcharactercommand.cpp:36
+msgctxt "QObject|"
+msgid "Unknown Character"
+msgstr "अज्ञात चरित्र"
+
+#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:54
+msgctxt "QObject|"
+msgid "Character"
+msgstr "स्वभावः"
+
+#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:52
+msgctxt "QObject|"
+msgid "Ground"
+msgstr "भूमि"
+
+#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:53
+msgctxt "QObject|"
+msgid "Object"
+msgstr "वस्तु"
+
+#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:55
+msgctxt "QObject|"
+msgid "GameMaster"
+msgstr "गेममास्टर"
+
+#: src/libraries/core/src/data/cleveruri.cpp:230
+msgctxt "QObject|"
+msgid "Internal"
+msgstr "आंतरिक"
+
+#: src/libraries/core/src/data/cleveruri.cpp:230
+msgctxt "QObject|"
+msgid "Linked"
+msgstr "लिङ्क्ड्"
+
+#: src/libraries/core/src/data/cleveruri.cpp:235
+msgctxt "QObject|"
+msgid "Closed"
+msgstr "निमीलितम्"
+
+#: src/libraries/core/src/data/cleveruri.cpp:235
+msgctxt "QObject|"
+msgid "Displayed"
+msgstr "प्रदर्शितम्"
+
+#: src/libraries/core/src/network/connectionprofile.cpp:7
+msgctxt "QObject|"
+msgid "Player"
+msgstr "खिलाडी"
+
+#: src/libraries/core/src/undoCmd/addfogofwarchangecommand.cpp:28
+msgctxt "QObject|"
+msgid "Conceal vectorial map"
+msgstr "सदिश मानचित्र गोपनीय"
+
+#: src/libraries/core/src/undoCmd/addfogofwarchangecommand.cpp:28
+msgctxt "QObject|"
+msgid "Unveil vectorial map"
+msgstr "सदिश मानचित्र अनावरण"
+
+#: src/libraries/core/src/undoCmd/addlocalcharactercommand.cpp:28
+#, qt-format
+msgctxt "QObject|"
+msgid "Add character to %1"
+msgstr "%1 मध्ये वर्णं योजयन्तु"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:34
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
+msgctxt "QObject|"
+msgid "Line"
+msgstr "पंक्ति"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:35
+msgctxt "QObject|"
+msgid "Filled Ellipse"
+msgstr "पूरितं दीर्घवृत्तम्"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:36
+msgctxt "QObject|"
+msgid "Empty Ellipse"
+msgstr "रिक्त दीर्घवृत्तम्"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:37
+msgctxt "QObject|"
+msgid "Empty Rectangle"
+msgstr "रिक्त आयत"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:38
+msgctxt "QObject|"
+msgid "Filled Rectangle"
+msgstr "भरा आयत"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:39
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
+msgctxt "QObject|"
+msgid "Text"
+msgstr "पाठ"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:40
+msgctxt "QObject|"
+msgid "Text with border"
+msgstr "सीमायुक्तः पाठः"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:41
+msgctxt "QObject|"
+msgid "NPC Token"
+msgstr "एनपीसी टोकन"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:42
+msgctxt "QObject|"
+msgid "PC Token"
+msgstr "पीसी टोकन"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:44
+msgctxt "QObject|"
+msgid "Pen"
+msgstr "लेखनी"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:45
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
+msgctxt "QObject|"
+msgid "Path"
+msgstr "पथं"
+
+#: src/libraries/core/src/undoCmd/addvmapitem.cpp:48
+#, qt-format
+msgctxt "QObject|"
+msgid "add %1 item"
+msgstr "%1 द्रव्यं योजयन्तु"
+
+#: src/libraries/core/src/undoCmd/changecoloritem.cpp:29
+#, qt-format
+msgctxt "QObject|"
+msgid "Change Item Color to %1"
+msgstr "मदवर्णं %1 इति परिवर्तयन्तु"
+
+#: src/libraries/core/src/undoCmd/changesizevmapitem.cpp:98
+#, qt-format
+msgctxt "QObject|"
+msgid "Change size of %1 item(s)"
+msgstr "%1 द्रव्यस्य (वस्तूनाम्) आकारं परिवर्तयन्तु ।"
+
+#: src/libraries/core/src/undoCmd/deletevmapitem.cpp:33
+#, qt-format
+msgctxt "QObject|"
+msgid "Delete %1 Item(s) From Map"
+msgstr "मानचित्रात् %1 द्रव्यं (वस्तूनि) विलोपयन्तु"
+
+#: src/libraries/core/src/undoCmd/newmediacontroller.cpp:65
+#, qt-format
+msgctxt "QObject|"
+msgid "Create new %1 %2"
+msgstr "नूतनं %1 %2 रचयन्तु"
+
+#: src/libraries/core/src/undoCmd/openmediacontroller.cpp:43
+#, qt-format
+msgctxt "QObject|"
+msgid "Open %1"
+msgstr "%1 उद्घाटयन्तु"
+
+#: src/libraries/core/src/undoCmd/removelocalcharactercommand.cpp:32
+#, qt-format
+msgctxt "QObject|"
+msgid "Remove character %1"
+msgstr "%1 वर्णं निष्कासयन्तु"
+
+#: src/libraries/core/src/undoCmd/removemediacontrollercommand.cpp:40
+#, qt-format
+msgctxt "QObject|"
+msgid "Close %1"
+msgstr "%1 बन्दं कुर्वन्तु"
+
+#: src/libraries/core/src/worker/fileserializer.cpp:96
+#, qt-format
+msgctxt "QObject|"
+msgid "Error: %1 does not exist or it is not readable."
+msgstr "त्रुटि: %1 नास्ति अथवा पठनीयं नास्ति।"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:166
+#, qt-format
+msgctxt "QObject|"
+msgid "Character Sheets files  (%1)"
+msgstr "वर्णपत्रिकाः सञ्चिकाः (%1) ."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:169
+#, qt-format
+msgctxt "QObject|"
+msgid "Supported Image formats (%1)"
+msgstr "समर्थिताः चित्रस्वरूपाः (%1) ."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:172
+#, qt-format
+msgctxt "QObject|"
+msgid "Supported Text Files (%1)"
+msgstr "समर्थितपाठसञ्चिकाः (%1) ."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:175
+#, qt-format
+msgctxt "QObject|"
+msgid "Supported Shared Note formats (%1)"
+msgstr "समर्थिताः साझाटिप्पणीस्वरूपाः (%1) ."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:178
+#, qt-format
+msgctxt "QObject|"
+msgid "Supported WebPage (%1)"
+msgstr "समर्थितं जालपुटम् (%1) ."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:181
+#, qt-format
+msgctxt "QObject|"
+msgid "Pdf File (%1)"
+msgstr "Pdf सञ्चिका (%1) ."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:184
+#, qt-format
+msgctxt "QObject|"
+msgid "Vectorial Map (%1)"
+msgstr "सदिश मानचित्र (%1) ."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:187
+#, qt-format
+msgctxt "QObject|"
+msgid "Mindmap (%1)"
+msgstr "मनः मानचित्र (%1) २."
+
+#: src/libraries/core/src/worker/utilshelper.cpp:201
+msgctxt "QObject|"
+msgid "Vectorial Map"
+msgstr "सदिश मानचित्र"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:202
+msgctxt "QObject|"
+msgid "Picture"
+msgstr "चित्र"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:203
+msgctxt "QObject|"
+msgid "Minutes"
+msgstr "पन्चनिमेषः"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:204
+msgctxt "QObject|"
+msgid "Character Sheet"
+msgstr "वर्णपत्रम्"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:205
+msgctxt "QObject|"
+msgid "Mindmap"
+msgstr "मन मानचित्र"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:206
+msgctxt "QObject|"
+msgid "Shared Notes"
+msgstr "साझा टिप्पणी"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:207
+msgctxt "QObject|"
+msgid "Pdf"
+msgstr "Pdf"
+
+#: src/libraries/core/src/worker/utilshelper.cpp:208
+msgctxt "QObject|"
+msgid "Webview"
+msgstr "जालदृश्यम्"
+
+#: src/libraries/mindmap/src/command/addimagetonodecommand.cpp:44
+#, qt-format
+msgctxt "QObject|"
+msgid "Add %1 image"
+msgstr "%1 चित्रं योजयन्तु"
+
+#: src/libraries/mindmap/src/command/removeimagefromnodecommand.cpp:33
+msgctxt "QObject|"
+msgid "Removing image from node"
+msgstr "नोडतः चित्रं निष्कासयति"
+
+#: src/libraries/rwidgets/commands/movevmapitem.cpp:34
+#, qt-format
+msgctxt "QObject|"
+msgid "Move %n item(s)"
+msgid_plural "Move %n item(s)"
+msgstr[0] "%n मद(s) चालयन्तु ."
+msgstr[1] "%n मद(s) चालयन्तु ."
+
+#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:7
+msgctxt "QObject|"
+msgid "Currency"
+msgstr "मुद्रा"
+
+#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:8
+msgctxt "QObject|"
+msgid "Distance"
+msgstr "दूरी"
+
+#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:9
+msgctxt "QObject|"
+msgid "Temperature"
+msgstr "तापमान"
+
+#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:10
+msgctxt "QObject|"
+msgid "MASS"
+msgstr "घन"
+
+#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:11
+msgctxt "QObject|"
+msgid "OTHER"
+msgstr "इतर"
+
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
+msgctxt "QObject|"
+msgid "Ellipse"
+msgstr "दीर्घवृत्तम्"
+
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
+msgctxt "QObject|"
+msgid "Rect"
+msgstr "Rect"
+
+#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
+msgctxt "QObject|"
+msgid "Rule"
+msgstr "नियम"
+
+#: src/libraries/rwidgets/mediacontainers/mediacontainer.cpp:54
+msgctxt "QObject|"
+msgid "Loading error"
+msgstr "लोडिंग् त्रुटिः"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:34
+msgctxt "QObject|"
+msgid "Fog Of War"
+msgstr "युद्धस्य कोहरा"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:34
+msgctxt "QObject|"
+msgid "All visible"
+msgstr "सर्वे दृश्यन्ते"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:46
+msgctxt "QObject|"
+msgid "No Right"
+msgstr "न अधिकारः"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:46
+msgctxt "QObject|"
+msgid "His character"
+msgstr "तस्य चरित्रम्"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:46
+msgctxt "QObject|"
+msgid "All Permissions"
+msgstr "सर्वाणि अनुमतिः"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:56
+msgctxt "QObject|"
+msgid "Fog Layer"
+msgstr "कोहरा स्तर"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:57
+msgctxt "QObject|"
+msgid "Grid Layer"
+msgstr "जालस्तर"
+
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:58
+#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:62
+msgctxt "QObject|"
+msgid "No Layer"
+msgstr "No Layer इति"
+
 #: src/binaries/rcse/mainwindow.cpp:170
 msgctxt "rcse::MainWindow|"
 msgid "Log panel"
@@ -729,11 +1355,13 @@ msgstr "समर्थनम्‌"
 #, qt-format
 msgctxt "rcse::MainWindow|"
 msgid ""
-"The %1 donation page can be found online at :<br> <a href=\"https://"
-"liberapay.com/Rolisteam/donate\">https://liberapay.com/Rolisteam/donate</a>"
+"The %1 donation page can be found online at :<br> <a "
+"href=\"https://liberapay.com/Rolisteam/donate\">https://liberapay.com/"
+"Rolisteam/donate</a>"
 msgstr ""
-"%1 दानस्य पृष्ठं अत्र अन्तर्जालद्वारा प्राप्यते :<br> <a href=\"https://liberapay.com/"
-"Rolisteam/donate\">https://liberapay.com/Rolisteam/दानं कुर्वन्तु</a>"
+"%1 दानस्य पृष्ठं अत्र अन्तर्जालद्वारा प्राप्यते :<br> <a "
+"href=\"https://liberapay.com/Rolisteam/donate\">https://liberapay.com/"
+"Rolisteam/दानं कुर्वन्तु</a>"
 
 #: src/binaries/rcse/mainwindow.cpp:432
 msgctxt "rcse::MainWindow|"
@@ -748,10 +1376,10 @@ msgstr "साहाय्यम्‌"
 #: src/binaries/rcse/mainwindow.cpp:470
 #, qt-format
 msgctxt "rcse::MainWindow|"
-msgid ""
-"Documentation of Rcse can be found online at :<br> <a href=\"%1\">%1</a>"
+msgid "Documentation of Rcse can be found online at :<br> <a href=\"%1\">%1</a>"
 msgstr ""
-"Rcse इत्यस्य दस्तावेजीकरणं अत्र अन्तर्जालद्वारा प्राप्यते :<br> <a href=\"%1\">%1</a>"
+"Rcse इत्यस्य दस्तावेजीकरणं अत्र अन्तर्जालद्वारा प्राप्यते :<br> <a "
+"href=\"%1\">%1</a>"
 
 #: src/binaries/rcse/mainwindow.cpp:482
 msgctxt "rcse::MainWindow|"
@@ -805,8 +1433,8 @@ msgid ""
 "Generate QML code will override any change you made in the QML.<br/>Do you "
 "really want to generate QML code ?"
 msgstr ""
-"QML कोड जनयन्तु भवता QML मध्ये कृतं किमपि परिवर्तनं अधिलिखति ।<br/> किं भवान् वास्तवमेव "
-"QML कोडं जनयितुम् इच्छति ?"
+"QML कोड जनयन्तु भवता QML मध्ये कृतं किमपि परिवर्तनं अधिलिखति ।<br/> किं "
+"भवान् वास्तवमेव QML कोडं जनयितुम् इच्छति ?"
 
 #: src/binaries/rcse/mainwindow.cpp:777
 msgctxt "rcse::MainWindow|"
@@ -1243,356 +1871,6 @@ msgctxt "MainWindow|"
 msgid "Hidden Field (for intermediate calculations)"
 msgstr "गुप्तक्षेत्रम् (अन्तरगणनार्थं) २."
 
-#: src/binaries/rcse/preferences/preferencesdialog.cpp:37
-msgctxt "PreferencesDialog|"
-msgid "Directory to save QML file"
-msgstr "QML सञ्चिकां रक्षितुं निर्देशिका"
-
-#: src/binaries/rcse/preferences/preferencesdialog.cpp:37
-msgctxt "PreferencesDialog|"
-msgid "Place to save Generated files"
-msgstr "उत्पन्नसञ्चिकाः रक्षितुं स्थानम्"
-
-#: src/binaries/rcse/preferences/preferencesdialog.ui:14
-msgctxt "PreferencesDialog|"
-msgid "Dialog"
-msgstr "संवादः"
-
-#: src/binaries/rcse/preferences/preferencesdialog.ui:20
-msgctxt "PreferencesDialog|"
-msgid "QML Generation"
-msgstr "QML जनरेशन"
-
-#: src/binaries/rcse/preferences/preferencesdialog.ui:26
-msgctxt "PreferencesDialog|"
-msgid "Custom path"
-msgstr "कस्टम पथ"
-
-#: src/binaries/rcse/preferences/preferencesdialog.ui:35
-msgctxt "PreferencesDialog|"
-msgid "Generation Path"
-msgstr "जनन पथ"
-
-#: src/binaries/rcse/preferences/preferencesdialog.ui:52
-msgctxt "PreferencesDialog|"
-msgid "Select"
-msgstr "विचि"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:60
-msgctxt "TableCanvasField|"
-msgid "TextInput"
-msgstr "TextInput इति"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:61
-msgctxt "TableCanvasField|"
-msgid "TextField"
-msgstr "पाठक्षेत्रम्"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:62
-msgctxt "TableCanvasField|"
-msgid "TextArea"
-msgstr "पाठक्षेत्रम्"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:63
-msgctxt "TableCanvasField|"
-msgid "Select"
-msgstr "विचि"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:64
-msgctxt "TableCanvasField|"
-msgid "CheckBox"
-msgstr "चेकबॉक्स"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:65
-msgctxt "TableCanvasField|"
-msgid "Image"
-msgstr "छवि"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:66
-msgctxt "TableCanvasField|"
-msgid "Label"
-msgstr "नामपत्र"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:67
-msgctxt "TableCanvasField|"
-msgid "Dice Button"
-msgstr "पासा बटन"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:68
-msgctxt "TableCanvasField|"
-msgid "Function Button"
-msgstr "कार्य बटन"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:69
-msgctxt "TableCanvasField|"
-msgid "Web page"
-msgstr "जालपुटम्"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:70
-msgctxt "TableCanvasField|"
-msgid "Slider"
-msgstr "स्लाइडर"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:323
-msgctxt "TableCanvasField|"
-msgid "Select the column type"
-msgstr "स्तम्भप्रकारं चिनोतु"
-
-#: src/binaries/rcse/tablecanvasfield.cpp:324
-msgctxt "TableCanvasField|"
-msgid "Type of Field:"
-msgstr "क्षेत्रस्य प्रकारः : १."
-
-#: src/binaries/rcse/undo/addcharactercommand.cpp:27
-#, qt-format
-msgctxt "QObject|"
-msgid "Add Character #%1"
-msgstr "वर्ण #%1 योजयतु"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:56
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:47
-msgctxt "QObject|"
-msgid "checkbox"
-msgstr "checkbox"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:60
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:51
-msgctxt "QObject|"
-msgid "TextInput"
-msgstr "TextInput इति"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:64
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:55
-msgctxt "QObject|"
-msgid "TextArea"
-msgstr "पाठक्षेत्रम्"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:68
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:59
-msgctxt "QObject|"
-msgid "TextField"
-msgstr "पाठक्षेत्रम्"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:73
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:64
-msgctxt "QObject|"
-msgid "Table"
-msgstr "पीठिका"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:78
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:69
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:43
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
-msgctxt "QObject|"
-msgid "Image"
-msgstr "छवि"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:85
-msgctxt "QObject|"
-msgid "Slider"
-msgstr "स्लाइडर"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:89
-#: src/libraries/core/src/data/cleveruri.cpp:235
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:34
-msgctxt "QObject|"
-msgid "Hidden"
-msgstr "अदृष्ट"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:93
-msgctxt "QObject|"
-msgid "LabelField"
-msgstr "लेबलक्षेत्रम्"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:97
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:73
-msgctxt "QObject|"
-msgid "function"
-msgstr "नियोग"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:102
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:78
-msgctxt "QObject|"
-msgid "Dice Button"
-msgstr "पासा बटन"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:106
-msgctxt "QObject|"
-msgid "Web Page"
-msgstr "जालपुटम्"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:110
-msgctxt "QObject|"
-msgid "Next Page Button"
-msgstr "अग्रिम पृष्ठ बटन"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:114
-msgctxt "QObject|"
-msgid "Previous Page Button"
-msgstr "पूर्व पृष्ठ बटन"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:120
-#: src/libraries/core/src/network/connectionprofile.cpp:7
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:84
-msgctxt "QObject|"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: src/binaries/rcse/undo/addfieldcommand.cpp:124
-#: src/libraries/core/src/undoCmd/addfieldcommand.cpp:88
-#, qt-format
-msgctxt "QObject|"
-msgid "Add %1 Field"
-msgstr "%1 क्षेत्रं योजयन्तु"
-
-#: src/binaries/rcse/undo/addpagecommand.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "Add Page #%1"
-msgstr "पृष्ठं #%1 योजयतु"
-
-#: src/binaries/rcse/undo/deletecharactercommand.cpp:27
-#, qt-format
-msgctxt "QObject|"
-msgid "Delete Character #%1"
-msgstr "वर्ण #%1 विलोपयन्तु"
-
-#: src/binaries/rcse/undo/deletefieldcommand.cpp:45
-#, qt-format
-msgctxt "QObject|"
-msgid "Delete %n Field(s)"
-msgid_plural "Delete %n Field(s)"
-msgstr[0] "%n क्षेत्र(क्षेत्राणि) विलोपयतु ."
-msgstr[1] "%n क्षेत्र(क्षेत्राणि) विलोपयतु ."
-
-#: src/binaries/rcse/undo/deletepagecommand.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Delete Page #%1"
-msgstr "पृष्ठं #%1 विलोपयन्तु"
-
-#: src/binaries/rcse/undo/movefieldcommand.cpp:32
-#, qt-format
-msgctxt "QObject|"
-msgid "Move %n Field(s)"
-msgid_plural "Move %n Field(s)"
-msgstr[0] "चालयन्तु %n क्षेत्र(क्षेत्राणि) ."
-msgstr[1] "चालयन्तु %n क्षेत्र(क्षेत्राणि) ."
-
-#: src/binaries/rcse/undo/setbackgroundimage.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Set background on Page #%1"
-msgstr "पृष्ठे #%1 इत्यत्र पृष्ठभूमिं सेट् कुर्वन्तु"
-
-#: src/binaries/rcse/undo/setbackgroundimage.cpp:53
-#, qt-format
-msgctxt "QObject|"
-msgid "Add Page #%1 and Set background on it"
-msgstr "Page #%1 योजयित्वा तस्मिन् पृष्ठभूमिं सेट् कुर्वन्तु"
-
-#: src/binaries/rcse/undo/setfieldproperties.cpp:34
-#, qt-format
-msgctxt "QObject|"
-msgid "Set Property %1"
-msgstr "गुणः %1 सेट् कुर्वन्तु"
-
-#: src/binaries/rcse/undo/setpropertyonallcharacters.cpp:15
-#, qt-format
-msgctxt "QObject|"
-msgid "Set property on all characters: %1"
-msgstr "सर्वेषु वर्णेषु गुणं सेट् कुर्वन्तु: %1"
-
-#: src/binaries/rcse/widgets/codeedit.ui:14
-msgctxt "CodeEdit|"
-msgid "Dialog"
-msgstr "संवादः"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:25
-msgctxt "FieldView|"
-msgid "Lock up Item"
-msgstr "Lock up Item इति"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:26
-msgctxt "FieldView|"
-msgid "Delete Item"
-msgstr "Delete Item"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:27
-msgctxt "FieldView|"
-msgid "Apply on Selection"
-msgstr "चयनं प्रति आवेदनं कुर्वन्तु"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:28
-msgctxt "FieldView|"
-msgid "Apply on all lines"
-msgstr "सर्वेषु पङ्क्तौ प्रयोजयन्तु"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:29
-msgctxt "FieldView|"
-msgid "Define Field Code"
-msgstr "क्षेत्रसङ्केतं परिभाषयन्तु"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:30
-msgctxt "FieldView|"
-msgid "Reset Field Code"
-msgstr "क्षेत्रसङ्केतं पुनः सेट् कुर्वन्तु"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:34
-msgctxt "FieldView|"
-msgid "Position columns"
-msgstr "स्तम्भान् स्थापयन्तु"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:47
-msgctxt "FieldView|"
-msgid "Aesthetic columns"
-msgstr "शृङ्गारस्तम्भाः"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:61
-msgctxt "FieldView|"
-msgid "Value columns"
-msgstr "मूल्य स्तम्भ"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:72
-msgctxt "FieldView|"
-msgid "Id columns"
-msgstr "Id स्तम्भाः"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:81
-msgctxt "FieldView|"
-msgid "All columns"
-msgstr "सर्वे स्तम्भाः"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:150
-msgctxt "FieldView|"
-msgid "Show"
-msgstr "दर्शयतु"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:157
-msgctxt "FieldView|"
-msgid "Show/Hide"
-msgstr "दर्शयतु/गोपयतु"
-
-#: src/binaries/rcse/widgets/fieldview.cpp:332
-msgctxt "FieldView|"
-msgid "Get Color"
-msgstr "वर्णं प्राप्नुत"
-
-#: src/binaries/server/main.cpp:109
-msgctxt "QObject|"
-msgid "Set the path to configuration file [mandatory]"
-msgstr "विन्याससञ्चिकायां मार्गं सेट् कुर्वन्तु [अनिवार्यम्] ।"
-
-#: src/binaries/server/main.cpp:112
-msgctxt "QObject|"
-msgid "Print a default configuration file into Standard output"
-msgstr "पूर्वनिर्धारितविन्याससञ्चिकां Standard आउटपुट् मध्ये मुद्रयन्तु"
-
-#: src/binaries/server/main.cpp:115
-msgctxt "QObject|"
-msgid "Ask for password and return its hash key."
-msgstr "गुप्तशब्दं पृच्छन्तु तस्य हैश कीलं च प्रत्यागच्छन्तु ।"
-
 #: src/binaries/widget/mainwindow.cpp:369
 msgctxt "MainWindow|"
 msgid "SidePanels"
@@ -1670,7 +1948,8 @@ msgstr "खुला अभियान"
 msgctxt "MainWindow|"
 msgid "Documentation of %1 can be found online at :<br> <a href=\"%2\">%2</a>"
 msgstr ""
-"%1 इत्यस्य दस्तावेजीकरणं अत्र अन्तर्जालद्वारा प्राप्यते :<br> <a href=\"%2\">%2</a>"
+"%1 इत्यस्य दस्तावेजीकरणं अत्र अन्तर्जालद्वारा प्राप्यते :<br> <a "
+"href=\"%2\">%2</a>"
 
 #: src/binaries/widget/mainwindow.cpp:667
 msgctxt "MainWindow|"
@@ -1709,11 +1988,12 @@ msgstr "सूचना अद्यतन करें"
 #, qt-format
 msgctxt "MainWindow|"
 msgid ""
-"The %1 version has been released. Please take a look at <a href=\"https://"
-"www.rolisteam.org/download\">Download page</a> for more information"
+"The %1 version has been released. Please take a look at <a "
+"href=\"https://www.rolisteam.org/download\">Download page</a> for more "
+"information"
 msgstr ""
-"%1 संस्करणं मुक्तम् अस्ति । अधिकविवरणार्थं <a href=\"https://www.rolisteam.org/"
-"download\">Download पृष्ठं</a> पश्यन्तु"
+"%1 संस्करणं मुक्तम् अस्ति । अधिकविवरणार्थं <a "
+"href=\"https://www.rolisteam.org/download\">Download पृष्ठं</a> पश्यन्तु"
 
 #: src/binaries/widget/mainwindow.cpp:814
 #, qt-format
@@ -1762,16 +2042,6 @@ msgstr "<उपयोक्तृनाम> परिभाषयन्तु"
 msgctxt "MainWindow|"
 msgid "Remove limit to PDF file size"
 msgstr "PDF सञ्चिकायाः आकारस्य सीमां निष्कासयन्तु"
-
-#: src/binaries/widget/mainwindow.cpp:920
-msgctxt "QObject|"
-msgid "path to the translation file: <translationfile>"
-msgstr "अनुवादसञ्चिकायाः मार्गः: <translationfile>"
-
-#: src/binaries/widget/mainwindow.cpp:923
-msgctxt "QObject|"
-msgid "Define URL to connect to server: <url>"
-msgstr "सर्वरेण सह सम्बद्धं कर्तुं URL परिभाषयन्तु: <url>"
 
 #: src/binaries/widget/mainwindow.cpp:1016
 #, qt-format
@@ -2229,6 +2499,331 @@ msgctxt "MainWindow|"
 msgid "Import from another campaign…"
 msgstr "अन्यस्मात् अभियानात् आयातम्..."
 
+#: src/binaries/rcse/preferences/preferencesdialog.cpp:37
+msgctxt "PreferencesDialog|"
+msgid "Directory to save QML file"
+msgstr "QML सञ्चिकां रक्षितुं निर्देशिका"
+
+#: src/binaries/rcse/preferences/preferencesdialog.cpp:37
+msgctxt "PreferencesDialog|"
+msgid "Place to save Generated files"
+msgstr "उत्पन्नसञ्चिकाः रक्षितुं स्थानम्"
+
+#: src/binaries/rcse/preferences/preferencesdialog.ui:14
+msgctxt "PreferencesDialog|"
+msgid "Dialog"
+msgstr "संवादः"
+
+#: src/binaries/rcse/preferences/preferencesdialog.ui:20
+msgctxt "PreferencesDialog|"
+msgid "QML Generation"
+msgstr "QML जनरेशन"
+
+#: src/binaries/rcse/preferences/preferencesdialog.ui:26
+msgctxt "PreferencesDialog|"
+msgid "Custom path"
+msgstr "कस्टम पथ"
+
+#: src/binaries/rcse/preferences/preferencesdialog.ui:35
+msgctxt "PreferencesDialog|"
+msgid "Generation Path"
+msgstr "जनन पथ"
+
+#: src/binaries/rcse/preferences/preferencesdialog.ui:52
+msgctxt "PreferencesDialog|"
+msgid "Select"
+msgstr "विचि"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:69
+msgctxt "PreferencesDialog|"
+msgid "GM Only"
+msgstr "जीएम केवलम्"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:70
+msgctxt "PreferencesDialog|"
+msgid "PC Move"
+msgstr "PC Move"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:71
+msgctxt "PreferencesDialog|"
+msgid "PC All"
+msgstr "PC All"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:145
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:14
+msgctxt "PreferencesDialog|"
+msgid "Preferences"
+msgstr "प्राधान्यानि"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:310
+msgctxt "PreferencesDialog|"
+msgid "Images (*.png *.xpm *.jpg *.gif *.bmp)"
+msgstr "चित्राणि (*.png*.xpm*.jpg*.gif*.bmp)"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:366
+msgctxt "PreferencesDialog|"
+msgid "Css Editor"
+msgstr "Css सम्पादक"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:366
+msgctxt "PreferencesDialog|"
+msgid "Css"
+msgstr "Css"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:397
+#, qt-format
+msgctxt "PreferencesDialog|"
+msgid "<li>Image Format : %1 value %2</li>"
+msgstr "<li>चित्रस्वरूपम् : %1 मूल्यं %2</li>"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:398
+msgctxt "PreferencesDialog|"
+msgid "<h2>Supported Image Formats:</h2><ul>"
+msgstr "<h2>समर्थिताः चित्रस्वरूपाः : १.</h2><ul>"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:405
+msgctxt "PreferencesDialog|"
+msgid "</ul>End of Image Format"
+msgstr "</ul>प्रतिबिम्बस्वरूपस्य समाप्तिः"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:408
+msgctxt "PreferencesDialog|"
+msgid "<h2>Font families:</h2><ul>"
+msgstr "<h2>फन्ट् परिवाराः : १.</h2><ul>"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:415
+msgctxt "PreferencesDialog|"
+msgid "</ul>End of Font families"
+msgstr "</ul>फॉन्ट्-परिवारानाम् अन्तः"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:418
+msgctxt "PreferencesDialog|"
+msgid "<h2>Audio file formats Support:</h2><ul>"
+msgstr "<h2>श्रव्यसञ्चिकास्वरूपाः समर्थनम् : १.</h2><ul>"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:453
+msgctxt "PreferencesDialog|"
+msgid "</ul>End of Supported Audio file formats"
+msgstr "</ul>समर्थितस्य श्रव्यसञ्चिकास्वरूपस्य समाप्तिः"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:470
+msgctxt "PreferencesDialog|"
+msgid "Export Rolisteam Theme"
+msgstr "निर्यात Rolisteam विषयवस्तु"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:472
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:481
+#, qt-format
+msgctxt "PreferencesDialog|"
+msgid "Rolisteam Theme: %1"
+msgstr "रोलिस्टीम विषयः %1"
+
+#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:480
+msgctxt "PreferencesDialog|"
+msgid "Import Rolisteam Theme"
+msgstr "आयात रोलिस्टीम थीम"
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:27
+msgctxt "PreferencesDialog|"
+msgid "Fonts"
+msgstr "फॉन्ट्"
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:39
+msgctxt "PreferencesDialog|"
+msgid "Code Editor:"
+msgstr "संहिता सम्पादकः : १."
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:54
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:130
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:206
+msgctxt "PreferencesDialog|"
+msgid "Courier 12"
+msgstr "कूरियर 12"
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:82
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:158
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:234
+msgctxt "PreferencesDialog|"
+msgid "Set Font"
+msgstr "Font सेट् कुर्वन्तु"
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:97
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:173
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:249
+msgctxt "PreferencesDialog|"
+msgid "Default"
+msgstr "मूलभूतम्‌"
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:115
+msgctxt "PreferencesDialog|"
+msgid "Chat Pane:"
+msgstr "गपशपफलकम् : १."
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:191
+msgctxt "PreferencesDialog|"
+msgid "Participants Pane:"
+msgstr "प्रतिभागिनः फलकम् : १."
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:275
+msgctxt "PreferencesDialog|"
+msgid "Sharing"
+msgstr "साझेदारी"
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:289
+msgctxt "PreferencesDialog|"
+msgid "Announcing:"
+msgstr "घोषणा करते हुए : १."
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:311
+msgctxt "PreferencesDialog|"
+msgid "Default Name:"
+msgstr "पूर्वनिर्धारित नाम : १."
+
+#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:338
+msgctxt "PreferencesDialog|"
+msgid "Always use default name "
+msgstr "सर्वदा पूर्वनिर्धारितनामस्य उपयोगं कुर्वन्तु "
+
+#: src/binaries/rcse/tablecanvasfield.cpp:60
+msgctxt "TableCanvasField|"
+msgid "TextInput"
+msgstr "TextInput इति"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:61
+msgctxt "TableCanvasField|"
+msgid "TextField"
+msgstr "पाठक्षेत्रम्"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:62
+msgctxt "TableCanvasField|"
+msgid "TextArea"
+msgstr "पाठक्षेत्रम्"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:63
+msgctxt "TableCanvasField|"
+msgid "Select"
+msgstr "विचि"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:64
+msgctxt "TableCanvasField|"
+msgid "CheckBox"
+msgstr "चेकबॉक्स"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:65
+msgctxt "TableCanvasField|"
+msgid "Image"
+msgstr "छवि"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:66
+msgctxt "TableCanvasField|"
+msgid "Label"
+msgstr "नामपत्र"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:67
+msgctxt "TableCanvasField|"
+msgid "Dice Button"
+msgstr "पासा बटन"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:68
+msgctxt "TableCanvasField|"
+msgid "Function Button"
+msgstr "कार्य बटन"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:69
+msgctxt "TableCanvasField|"
+msgid "Web page"
+msgstr "जालपुटम्"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:70
+msgctxt "TableCanvasField|"
+msgid "Slider"
+msgstr "स्लाइडर"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:323
+msgctxt "TableCanvasField|"
+msgid "Select the column type"
+msgstr "स्तम्भप्रकारं चिनोतु"
+
+#: src/binaries/rcse/tablecanvasfield.cpp:324
+msgctxt "TableCanvasField|"
+msgid "Type of Field:"
+msgstr "क्षेत्रस्य प्रकारः : १."
+
+#: src/binaries/rcse/widgets/codeedit.ui:14
+msgctxt "CodeEdit|"
+msgid "Dialog"
+msgstr "संवादः"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:25
+msgctxt "FieldView|"
+msgid "Lock up Item"
+msgstr "Lock up Item इति"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:26
+msgctxt "FieldView|"
+msgid "Delete Item"
+msgstr "Delete Item"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:27
+msgctxt "FieldView|"
+msgid "Apply on Selection"
+msgstr "चयनं प्रति आवेदनं कुर्वन्तु"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:28
+msgctxt "FieldView|"
+msgid "Apply on all lines"
+msgstr "सर्वेषु पङ्क्तौ प्रयोजयन्तु"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:29
+msgctxt "FieldView|"
+msgid "Define Field Code"
+msgstr "क्षेत्रसङ्केतं परिभाषयन्तु"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:30
+msgctxt "FieldView|"
+msgid "Reset Field Code"
+msgstr "क्षेत्रसङ्केतं पुनः सेट् कुर्वन्तु"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:34
+msgctxt "FieldView|"
+msgid "Position columns"
+msgstr "स्तम्भान् स्थापयन्तु"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:47
+msgctxt "FieldView|"
+msgid "Aesthetic columns"
+msgstr "शृङ्गारस्तम्भाः"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:61
+msgctxt "FieldView|"
+msgid "Value columns"
+msgstr "मूल्य स्तम्भ"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:72
+msgctxt "FieldView|"
+msgid "Id columns"
+msgstr "Id स्तम्भाः"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:81
+msgctxt "FieldView|"
+msgid "All columns"
+msgstr "सर्वे स्तम्भाः"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:150
+msgctxt "FieldView|"
+msgid "Show"
+msgstr "दर्शयतु"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:157
+msgctxt "FieldView|"
+msgid "Show/Hide"
+msgstr "दर्शयतु/गोपयतु"
+
+#: src/binaries/rcse/widgets/fieldview.cpp:332
+msgctxt "FieldView|"
+msgid "Get Color"
+msgstr "वर्णं प्राप्नुत"
+
 #: src/libraries/charactersheet/qml/Rolisteam/ContextualMenu.qml:13
 msgctxt "ContextualMenu|"
 msgid "Next Page"
@@ -2390,61 +2985,6 @@ msgctxt "ImageModel|"
 msgid "Is Background"
 msgstr "पृष्ठभूमिः अस्ति"
 
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:87
-msgctxt "QObject|"
-msgid "abs : too many arguments"
-msgstr "abs : अत्यधिकं तर्कः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:91
-msgctxt "QObject|"
-msgid "abs : too few arguments"
-msgstr "abs : अति अल्पाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:109
-msgctxt "QObject|"
-msgid "ceil : too many arguments"
-msgstr "ceil : अत्यधिकाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:113
-msgctxt "QObject|"
-msgid "ceil : too few arguments"
-msgstr "ceil : अत्यल्पाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:130
-msgctxt "QObject|"
-msgid "floor : too many arguments"
-msgstr "तल : अत्यधिकं तर्कः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:134
-msgctxt "QObject|"
-msgid "floor : too few arguments"
-msgstr "floor : अति अल्पाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:151
-msgctxt "QObject|"
-msgid "concatenate : too few arguments"
-msgstr "concatenate : अत्यल्पाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:174
-msgctxt "QObject|"
-msgid "min : too few arguments"
-msgstr "min : अति अल्पाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:203
-msgctxt "QObject|"
-msgid "max : too few arguments"
-msgstr "max : अत्यल्पाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/operator.cpp:232
-msgctxt "QObject|"
-msgid "avg : too few arguments"
-msgstr "avg : अत्यल्पाः तर्काः"
-
-#: src/libraries/charactersheet/src/formula/nodes/scalaroperatorfnode.cpp:74
-msgctxt "QObject|"
-msgid "Error: division by Zero"
-msgstr "त्रुटिः शून्येन विभागः"
-
 #: src/libraries/common/widgets/logpanel.cpp:85
 msgctxt "LogPanel|"
 msgid "Saving logs"
@@ -2546,37 +3086,6 @@ msgctxt "MindMapControllerBase|"
 msgid "Root"
 msgstr "मूलं"
 
-#: src/libraries/core/src/controller/view_controller/selectconnprofilecontroller.cpp:45
-#: src/libraries/core/src/undoCmd/addlocalcharactercommand.cpp:36
-msgctxt "QObject|"
-msgid "Unknown Character"
-msgstr "अज्ञात चरित्र"
-
-#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:54
-msgctxt "QObject|"
-msgid "Character"
-msgstr "स्वभावः"
-
-#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:52
-msgctxt "QObject|"
-msgid "Ground"
-msgstr "भूमि"
-
-#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:53
-msgctxt "QObject|"
-msgid "Object"
-msgstr "वस्तु"
-
-#: src/libraries/core/src/controller/view_controller/vectorialmapcontroller.cpp:274
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:55
-msgctxt "QObject|"
-msgid "GameMaster"
-msgstr "गेममास्टर"
-
 #: src/libraries/core/src/data/campaign.cpp:56
 msgctxt "Campaign|"
 msgid "Unknown"
@@ -2613,26 +3122,6 @@ msgstr "अस्मिन् स्थाने अभियानसाचा�
 msgctxt "ChatRoom|"
 msgid "No Diceparser Object"
 msgstr "न Diceparser Object"
-
-#: src/libraries/core/src/data/cleveruri.cpp:230
-msgctxt "QObject|"
-msgid "Internal"
-msgstr "आंतरिक"
-
-#: src/libraries/core/src/data/cleveruri.cpp:230
-msgctxt "QObject|"
-msgid "Linked"
-msgstr "लिङ्क्ड्"
-
-#: src/libraries/core/src/data/cleveruri.cpp:235
-msgctxt "QObject|"
-msgid "Closed"
-msgstr "निमीलितम्"
-
-#: src/libraries/core/src/data/cleveruri.cpp:235
-msgctxt "QObject|"
-msgid "Displayed"
-msgstr "प्रदर्शितम्"
 
 #: src/libraries/core/src/data/shortcutmodel.cpp:105
 msgctxt "ShortCutModel|"
@@ -3004,11 +3493,6 @@ msgctxt "ClientManager|"
 msgid "Connection to the server has been closed."
 msgstr "सर्वरेण सह संयोजनं निरुद्धम् अस्ति ।"
 
-#: src/libraries/core/src/network/connectionprofile.cpp:7
-msgctxt "QObject|"
-msgid "Player"
-msgstr "खिलाडी"
-
 #: src/libraries/core/src/network/rserver.cpp:41
 msgctxt "RServer|"
 msgid "[Upnp] Port mapping has been done"
@@ -3023,9 +3507,10 @@ msgstr "व्यवस्थापकरूपेण प्रमाणीक�
 #: src/libraries/core/src/network/serverconnectionmanager.cpp:272
 #, qt-format
 msgctxt "ServerConnectionManager|"
-msgid ""
-"Authentification fails: %1 try to connect to the server with wrong password."
-msgstr "प्रमाणीकरणं विफलं भवति: %1 गलतगुप्तशब्देन सर्वरेण सह सम्बद्धं कर्तुं प्रयतन्ते ।"
+msgid "Authentification fails: %1 try to connect to the server with wrong password."
+msgstr ""
+"प्रमाणीकरणं विफलं भवति: %1 गलतगुप्तशब्देन सर्वरेण सह सम्बद्धं कर्तुं "
+"प्रयतन्ते ।"
 
 #: src/libraries/core/src/network/serverconnectionmanager.cpp:290
 #, qt-format
@@ -3081,104 +3566,6 @@ msgctxt "SessionItemModel|"
 msgid "Path"
 msgstr "पथं"
 
-#: src/libraries/core/src/undoCmd/addfogofwarchangecommand.cpp:28
-msgctxt "QObject|"
-msgid "Conceal vectorial map"
-msgstr "सदिश मानचित्र गोपनीय"
-
-#: src/libraries/core/src/undoCmd/addfogofwarchangecommand.cpp:28
-msgctxt "QObject|"
-msgid "Unveil vectorial map"
-msgstr "सदिश मानचित्र अनावरण"
-
-#: src/libraries/core/src/undoCmd/addlocalcharactercommand.cpp:28
-#, qt-format
-msgctxt "QObject|"
-msgid "Add character to %1"
-msgstr "%1 मध्ये वर्णं योजयन्तु"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:34
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
-msgctxt "QObject|"
-msgid "Line"
-msgstr "पंक्ति"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:35
-msgctxt "QObject|"
-msgid "Filled Ellipse"
-msgstr "पूरितं दीर्घवृत्तम्"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:36
-msgctxt "QObject|"
-msgid "Empty Ellipse"
-msgstr "रिक्त दीर्घवृत्तम्"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:37
-msgctxt "QObject|"
-msgid "Empty Rectangle"
-msgstr "रिक्त आयत"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:38
-msgctxt "QObject|"
-msgid "Filled Rectangle"
-msgstr "भरा आयत"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:39
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
-msgctxt "QObject|"
-msgid "Text"
-msgstr "पाठ"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:40
-msgctxt "QObject|"
-msgid "Text with border"
-msgstr "सीमायुक्तः पाठः"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:41
-msgctxt "QObject|"
-msgid "NPC Token"
-msgstr "एनपीसी टोकन"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:42
-msgctxt "QObject|"
-msgid "PC Token"
-msgstr "पीसी टोकन"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:44
-msgctxt "QObject|"
-msgid "Pen"
-msgstr "लेखनी"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:45
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
-msgctxt "QObject|"
-msgid "Path"
-msgstr "पथं"
-
-#: src/libraries/core/src/undoCmd/addvmapitem.cpp:48
-#, qt-format
-msgctxt "QObject|"
-msgid "add %1 item"
-msgstr "%1 द्रव्यं योजयन्तु"
-
-#: src/libraries/core/src/undoCmd/changecoloritem.cpp:29
-#, qt-format
-msgctxt "QObject|"
-msgid "Change Item Color to %1"
-msgstr "मदवर्णं %1 इति परिवर्तयन्तु"
-
-#: src/libraries/core/src/undoCmd/changesizevmapitem.cpp:98
-#, qt-format
-msgctxt "QObject|"
-msgid "Change size of %1 item(s)"
-msgstr "%1 द्रव्यस्य (वस्तूनाम्) आकारं परिवर्तयन्तु ।"
-
-#: src/libraries/core/src/undoCmd/deletevmapitem.cpp:33
-#, qt-format
-msgctxt "QObject|"
-msgid "Delete %1 Item(s) From Map"
-msgstr "मानचित्रात् %1 द्रव्यं (वस्तूनि) विलोपयन्तु"
-
 #: src/libraries/core/src/undoCmd/importdatamedia.cpp:41
 #, qt-format
 msgctxt "ImportDataMedia|"
@@ -3197,30 +3584,6 @@ msgctxt "ImportMedia|"
 msgid "Import media: %1"
 msgstr "माध्यमम् आयातयतु: %1"
 
-#: src/libraries/core/src/undoCmd/newmediacontroller.cpp:65
-#, qt-format
-msgctxt "QObject|"
-msgid "Create new %1 %2"
-msgstr "नूतनं %1 %2 रचयन्तु"
-
-#: src/libraries/core/src/undoCmd/openmediacontroller.cpp:43
-#, qt-format
-msgctxt "QObject|"
-msgid "Open %1"
-msgstr "%1 उद्घाटयन्तु"
-
-#: src/libraries/core/src/undoCmd/removelocalcharactercommand.cpp:32
-#, qt-format
-msgctxt "QObject|"
-msgid "Remove character %1"
-msgstr "%1 वर्णं निष्कासयन्तु"
-
-#: src/libraries/core/src/undoCmd/removemediacontrollercommand.cpp:40
-#, qt-format
-msgctxt "QObject|"
-msgid "Close %1"
-msgstr "%1 बन्दं कुर्वन्तु"
-
 #: src/libraries/core/src/updater/media/campaignupdater.cpp:193
 #, qt-format
 msgctxt "CampaignUpdater|"
@@ -3232,100 +3595,6 @@ msgstr "'%1' रिक्तं नास्ति"
 msgctxt "CampaignUpdater|"
 msgid "Could not create '%1'"
 msgstr "'%1' निर्मातुं न शक्तवान् ।"
-
-#: src/libraries/core/src/worker/fileserializer.cpp:96
-#, qt-format
-msgctxt "QObject|"
-msgid "Error: %1 does not exist or it is not readable."
-msgstr "त्रुटि: %1 नास्ति अथवा पठनीयं नास्ति।"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:166
-#, qt-format
-msgctxt "QObject|"
-msgid "Character Sheets files  (%1)"
-msgstr "वर्णपत्रिकाः सञ्चिकाः (%1) ."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:169
-#, qt-format
-msgctxt "QObject|"
-msgid "Supported Image formats (%1)"
-msgstr "समर्थिताः चित्रस्वरूपाः (%1) ."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:172
-#, qt-format
-msgctxt "QObject|"
-msgid "Supported Text Files (%1)"
-msgstr "समर्थितपाठसञ्चिकाः (%1) ."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:175
-#, qt-format
-msgctxt "QObject|"
-msgid "Supported Shared Note formats (%1)"
-msgstr "समर्थिताः साझाटिप्पणीस्वरूपाः (%1) ."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:178
-#, qt-format
-msgctxt "QObject|"
-msgid "Supported WebPage (%1)"
-msgstr "समर्थितं जालपुटम् (%1) ."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:181
-#, qt-format
-msgctxt "QObject|"
-msgid "Pdf File (%1)"
-msgstr "Pdf सञ्चिका (%1) ."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:184
-#, qt-format
-msgctxt "QObject|"
-msgid "Vectorial Map (%1)"
-msgstr "सदिश मानचित्र (%1) ."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:187
-#, qt-format
-msgctxt "QObject|"
-msgid "Mindmap (%1)"
-msgstr "मनः मानचित्र (%1) २."
-
-#: src/libraries/core/src/worker/utilshelper.cpp:201
-msgctxt "QObject|"
-msgid "Vectorial Map"
-msgstr "सदिश मानचित्र"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:202
-msgctxt "QObject|"
-msgid "Picture"
-msgstr "चित्र"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:203
-msgctxt "QObject|"
-msgid "Minutes"
-msgstr "पन्चनिमेषः"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:204
-msgctxt "QObject|"
-msgid "Character Sheet"
-msgstr "वर्णपत्रम्"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:205
-msgctxt "QObject|"
-msgid "Mindmap"
-msgstr "मन मानचित्र"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:206
-msgctxt "QObject|"
-msgid "Shared Notes"
-msgstr "साझा टिप्पणी"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:207
-msgctxt "QObject|"
-msgid "Pdf"
-msgstr "Pdf"
-
-#: src/libraries/core/src/worker/utilshelper.cpp:208
-msgctxt "QObject|"
-msgid "Webview"
-msgstr "जालदृश्यम्"
 
 #: src/libraries/mindmap/resources/qml/ButtonGrid.qml:27
 msgctxt "ButtonGrid|"
@@ -3432,11 +3701,6 @@ msgid ""
 msgstr ""
 "दोषाः : १.\n"
 "%1"
-
-#: src/libraries/mindmap/resources/qml/MindMap.qml:70
-msgctxt "MindMap|"
-msgid "is linked"
-msgstr "सम्बद्धः अस्ति"
 
 #: src/libraries/mindmap/resources/qml/MindMenu.qml:11
 msgctxt "MindMenu|"
@@ -3561,11 +3825,25 @@ msgctxt "SideMenu|"
 msgid "Tags"
 msgstr "टैग्स"
 
-#: src/libraries/mindmap/src/command/addimagetonodecommand.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "Add %1 image"
-msgstr "%1 चित्रं योजयन्तु"
+#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:37
+msgctxt "SideMenu|"
+msgid "Sound Notification"
+msgstr "ध्वनि सूचना"
+
+#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:48
+msgctxt "SideMenu|"
+msgid "Select Font…"
+msgstr "Font... इति चयनं कुर्वन्तु..."
+
+#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:55
+msgctxt "SideMenu|"
+msgid "Font Family:"
+msgstr "फ़ॉन्ट परिवारः : १."
+
+#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:61
+msgctxt "SideMenu|"
+msgid "Font size:"
+msgstr "फ़ॉन्ट् आकारः : १."
 
 #: src/libraries/mindmap/src/command/additemcommand.cpp:73
 #, qt-format
@@ -3577,11 +3855,6 @@ msgstr "प्रकारस्य द्रव्यं योजयन्त�
 msgctxt "AddLinkCommand|"
 msgid "Add link"
 msgstr "लिङ्कं योजयन्तु"
-
-#: src/libraries/mindmap/src/command/removeimagefromnodecommand.cpp:33
-msgctxt "QObject|"
-msgid "Removing image from node"
-msgstr "नोडतः चित्रं निष्कासयति"
 
 #: src/libraries/mindmap/src/data/link.cpp:35
 msgctxt "Link|"
@@ -3633,8 +3906,8 @@ msgctxt "AddChatRoomDialog|"
 msgid "Everybody"
 msgstr "प्रत्येकं"
 
-#. translator please, Keep it short.
 #: src/libraries/qml_views/InstantMessaging/AddChatRoomDialog.qml:84
+#. translator please, Keep it short.
 msgctxt "AddChatRoomDialog|"
 msgid "Add Chatroom"
 msgstr "गपशपस्थलं योजयतु"
@@ -3690,26 +3963,6 @@ msgstr "सेटिंग्स्"
 msgctxt "InstantMessagingMain|"
 msgid "Add chatroom"
 msgstr "गपशपगृहं योजयन्तु"
-
-#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:37
-msgctxt "SideMenu|"
-msgid "Sound Notification"
-msgstr "ध्वनि सूचना"
-
-#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:48
-msgctxt "SideMenu|"
-msgid "Select Font…"
-msgstr "Font... इति चयनं कुर्वन्तु..."
-
-#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:55
-msgctxt "SideMenu|"
-msgid "Font Family:"
-msgstr "फ़ॉन्ट परिवारः : १."
-
-#: src/libraries/qml_views/InstantMessaging/SideMenu.qml:61
-msgctxt "SideMenu|"
-msgid "Font size:"
-msgstr "फ़ॉन्ट् आकारः : १."
 
 #: src/libraries/qml_views/views/ConnectionForm.qml:75
 msgctxt "ConnectionForm|"
@@ -3796,14 +4049,6 @@ msgstr "निरसयतु"
 msgctxt "ChangeStackOrderVMapCommand|"
 msgid "Change stack order of %1 item(s)"
 msgstr "%1 मद(s) इत्यस्य स्टैक् क्रमं परिवर्तयन्तु ।"
-
-#: src/libraries/rwidgets/commands/movevmapitem.cpp:34
-#, qt-format
-msgctxt "QObject|"
-msgid "Move %n item(s)"
-msgid_plural "Move %n item(s)"
-msgstr[0] "%n मद(s) चालयन्तु ."
-msgstr[1] "%n मद(s) चालयन्तु ."
 
 #: src/libraries/rwidgets/customs/colorselector.cpp:154
 #, qt-format
@@ -3965,8 +4210,8 @@ msgid ""
 "You are about to load an new playlist. All previously load file will be "
 "dropped."
 msgstr ""
-"भवान् नूतनं प्लेलिस्ट् लोड् कर्तुं प्रवृत्तः अस्ति। पूर्वं लोड् सञ्चिकाः सर्वाणि पातिताः भविष्यन्ति "
-"।"
+"भवान् नूतनं प्लेलिस्ट् लोड् कर्तुं प्रवृत्तः अस्ति। पूर्वं लोड् सञ्चिकाः "
+"सर्वाणि पातिताः भविष्यन्ति ।"
 
 #: src/libraries/rwidgets/customs/playerwidget.cpp:350
 msgctxt "PlayerWidget|"
@@ -4412,16 +4657,17 @@ msgid ""
 "also includes tool to communicate with your friends/players. The goal is to "
 "make Rolisteam-managed RPG games as good as RPG games around your table. To "
 "achieve it, we are working hard to provide you more and more features. "
-"Existing features : Map sharing (with permission management), Image sharing, "
-"background music, dice roll and so on. Rolisteam is written in Qt5"
+"Existing features : Map sharing (with permission management), Image "
+"sharing, background music, dice roll and so on. Rolisteam is written in Qt5"
 msgstr ""
-"Rolisteam दूरस्थमित्रैः/क्रीडकैः सह टेबलटॉप् भूमिकानिर्वाहक्रीडां प्रबन्धयितुं भवन्तं सहायं "
-"करोति। एतत् नक्शान्, चित्राणि च साझां कर्तुं बहवः विशेषताः प्रदाति तथा च अस्मिन् भवतः "
-"मित्रैः/क्रीडकैः सह संवादं कर्तुं साधनम् अपि अन्तर्भवति । लक्ष्यं भवतः मेजस्य परितः रोलिस्टीम्-"
-"प्रबन्धितानि आरपीजी-क्रीडाः आरपीजी-क्रीडाः इव उत्तमाः करणीयाः । तत् प्राप्तुं वयं "
-"भवद्भ्यः अधिकाधिकं विशेषतां प्रदातुं परिश्रमं कुर्मः। विद्यमानविशेषताः : नक्शासाझेदारी "
-"(अनुमतिप्रबन्धनसहितं), चित्रसाझेदारी, पृष्ठभूमिसंगीतं, पासारोलम् इत्यादयः । Rolisteam इति "
-"Qt5 इत्यनेन लिखितम् अस्ति"
+"Rolisteam दूरस्थमित्रैः/क्रीडकैः सह टेबलटॉप् भूमिकानिर्वाहक्रीडां "
+"प्रबन्धयितुं भवन्तं सहायं करोति। एतत् नक्शान्, चित्राणि च साझां कर्तुं बहवः "
+"विशेषताः प्रदाति तथा च अस्मिन् भवतः मित्रैः/क्रीडकैः सह संवादं कर्तुं "
+"साधनम् अपि अन्तर्भवति । लक्ष्यं भवतः मेजस्य परितः रोलिस्टीम्-प्रबन्धितानि "
+"आरपीजी-क्रीडाः आरपीजी-क्रीडाः इव उत्तमाः करणीयाः । तत् प्राप्तुं वयं "
+"भवद्भ्यः अधिकाधिकं विशेषतां प्रदातुं परिश्रमं कुर्मः। विद्यमानविशेषताः : "
+"नक्शासाझेदारी (अनुमतिप्रबन्धनसहितं), चित्रसाझेदारी, पृष्ठभूमिसंगीतं, "
+"पासारोलम् इत्यादयः । Rolisteam इति Qt5 इत्यनेन लिखितम् अस्ति"
 
 #: src/libraries/rwidgets/dialogs/aboutrolisteam.cpp:63
 msgctxt "AboutRolisteam|"
@@ -4432,11 +4678,12 @@ msgid ""
 "See the 'COPYRIGHT' file for the complete list of contributors. We provide "
 "no warranty for this program."
 msgstr ""
-"GPL (संस्करणं 2 अथवा ततः परं) इत्यस्य शर्तानाम् अन्तर्गतं भवान् कार्यक्रमं परिवर्तयितुं पुनः "
-"वितरितुं च शक्नोति । GPL इत्यस्य प्रतिलिपिः Rolisteam इत्यनेन सह वितरितायाः "
-"'COPYING' सञ्चिकायां भवति । Rolisteam इत्यस्य प्रतिलिपिधर्मः अस्य योगदातृभिः अस्ति । "
-"योगदातृणां सम्पूर्णसूचीं प्राप्तुं 'COPYRIGHT' सञ्चिकां पश्यन्तु । अस्य कार्यक्रमस्य कृते वयं कोऽपि "
-"वारण्टी न दद्मः।"
+"GPL (संस्करणं 2 अथवा ततः परं) इत्यस्य शर्तानाम् अन्तर्गतं भवान् कार्यक्रमं "
+"परिवर्तयितुं पुनः वितरितुं च शक्नोति । GPL इत्यस्य प्रतिलिपिः Rolisteam "
+"इत्यनेन सह वितरितायाः 'COPYING' सञ्चिकायां भवति । Rolisteam इत्यस्य "
+"प्रतिलिपिधर्मः अस्य योगदातृभिः अस्ति । योगदातृणां सम्पूर्णसूचीं प्राप्तुं "
+"'COPYRIGHT' सञ्चिकां पश्यन्तु । अस्य कार्यक्रमस्य कृते वयं कोऽपि वारण्टी न "
+"दद्मः।"
 
 #: src/libraries/rwidgets/dialogs/aboutrolisteam.cpp:67
 msgctxt "AboutRolisteam|"
@@ -4862,95 +5109,6 @@ msgctxt "PersonDialog|"
 msgid "Color:"
 msgstr "वर्ण:"
 
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:69
-msgctxt "PreferencesDialog|"
-msgid "GM Only"
-msgstr "जीएम केवलम्"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:70
-msgctxt "PreferencesDialog|"
-msgid "PC Move"
-msgstr "PC Move"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:71
-msgctxt "PreferencesDialog|"
-msgid "PC All"
-msgstr "PC All"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:145
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:14
-msgctxt "PreferencesDialog|"
-msgid "Preferences"
-msgstr "प्राधान्यानि"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:310
-msgctxt "PreferencesDialog|"
-msgid "Images (*.png *.xpm *.jpg *.gif *.bmp)"
-msgstr "चित्राणि (*.png*.xpm*.jpg*.gif*.bmp)"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:366
-msgctxt "PreferencesDialog|"
-msgid "Css Editor"
-msgstr "Css सम्पादक"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:366
-msgctxt "PreferencesDialog|"
-msgid "Css"
-msgstr "Css"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:397
-#, qt-format
-msgctxt "PreferencesDialog|"
-msgid "<li>Image Format : %1 value %2</li>"
-msgstr "<li>चित्रस्वरूपम् : %1 मूल्यं %2</li>"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:398
-msgctxt "PreferencesDialog|"
-msgid "<h2>Supported Image Formats:</h2><ul>"
-msgstr "<h2>समर्थिताः चित्रस्वरूपाः : १.</h2><ul>"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:405
-msgctxt "PreferencesDialog|"
-msgid "</ul>End of Image Format"
-msgstr "</ul>प्रतिबिम्बस्वरूपस्य समाप्तिः"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:408
-msgctxt "PreferencesDialog|"
-msgid "<h2>Font families:</h2><ul>"
-msgstr "<h2>फन्ट् परिवाराः : १.</h2><ul>"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:415
-msgctxt "PreferencesDialog|"
-msgid "</ul>End of Font families"
-msgstr "</ul>फॉन्ट्-परिवारानाम् अन्तः"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:418
-msgctxt "PreferencesDialog|"
-msgid "<h2>Audio file formats Support:</h2><ul>"
-msgstr "<h2>श्रव्यसञ्चिकास्वरूपाः समर्थनम् : १.</h2><ul>"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:453
-msgctxt "PreferencesDialog|"
-msgid "</ul>End of Supported Audio file formats"
-msgstr "</ul>समर्थितस्य श्रव्यसञ्चिकास्वरूपस्य समाप्तिः"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:470
-msgctxt "PreferencesDialog|"
-msgid "Export Rolisteam Theme"
-msgstr "निर्यात Rolisteam विषयवस्तु"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:472
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:481
-#, qt-format
-msgctxt "PreferencesDialog|"
-msgid "Rolisteam Theme: %1"
-msgstr "रोलिस्टीम विषयः %1"
-
-#: src/libraries/rwidgets/dialogs/preferencesdialog.cpp:480
-msgctxt "PreferencesDialog|"
-msgid "Import Rolisteam Theme"
-msgstr "आयात रोलिस्टीम थीम"
-
 #: src/libraries/rwidgets/dialogs/preferencesdialogbox.ui:14
 msgctxt "PreferencesDialogBox|"
 msgid "Dialog"
@@ -5023,9 +5181,9 @@ msgid ""
 "don't send or receive any message. </p><p>This feature is sending heartbeat "
 "message to prevent that behaviour.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>केचन उपयोक्तारः किमपि सन्देशं न प्रेषयन्ति वा न प्राप्नुवन्ति चेत् "
-"विच्छेदः अनुभवन्ति ।</p><p> तत् व्यवहारं निवारयितुं एतत् विशेषता हृदयस्पन्दनसन्देशं प्रेषयति ।</"
-"p></body></html>"
+"<html><head/><body><p>केचन उपयोक्तारः किमपि सन्देशं न प्रेषयन्ति वा न "
+"प्राप्नुवन्ति चेत् विच्छेदः अनुभवन्ति ।</p><p> तत् व्यवहारं निवारयितुं एतत् "
+"विशेषता हृदयस्पन्दनसन्देशं प्रेषयति ।</p></body></html>"
 
 #: src/libraries/rwidgets/dialogs/preferencesdialogbox.ui:225
 msgctxt "PreferencesDialogBox|"
@@ -6066,16 +6224,6 @@ msgctxt "VmapTopBar|"
 msgid "Show Transparent Item"
 msgstr "पारदर्शी मदं दर्शयतु"
 
-#: src/libraries/rwidgets/docks/vmaptoolbar.cpp:220
-msgctxt "VmapTopBar|PC = playable character"
-msgid "Show/Hide PC name"
-msgstr "PC नाम दर्शयतु/गोपयतु"
-
-#: src/libraries/rwidgets/docks/vmaptoolbar.cpp:224
-msgctxt "VmapTopBar|NPC = non-playable character"
-msgid "Show/Hide NPC name"
-msgstr "एनपीसी नाम दर्शयतु/गोपयतु"
-
 #: src/libraries/rwidgets/docks/vmaptoolbar.cpp:227
 msgctxt "VmapTopBar|"
 msgid "Show/Hide NPC number"
@@ -6111,6 +6259,16 @@ msgstr "पादः"
 msgctxt "VmapTopBar|"
 msgid "px"
 msgstr "px"
+
+#: src/libraries/rwidgets/docks/vmaptoolbar.cpp:220
+msgctxt "VmapTopBar|PC = playable character"
+msgid "Show/Hide PC name"
+msgstr "PC नाम दर्शयतु/गोपयतु"
+
+#: src/libraries/rwidgets/docks/vmaptoolbar.cpp:224
+msgctxt "VmapTopBar|NPC = non-playable character"
+msgid "Show/Hide NPC name"
+msgstr "एनपीसी नाम दर्शयतु/गोपयतु"
 
 #: src/libraries/rwidgets/editors/mrichtextedit.cpp:65
 msgctxt "MRichTextEdit|"
@@ -6180,8 +6338,7 @@ msgstr "एकं चित्रं चिनोतु"
 #: src/libraries/rwidgets/editors/mrichtextedit.cpp:683
 msgctxt "MRichTextEdit|"
 msgid "JPEG (*.jpg);; GIF (*.gif);; PNG (*.png);; BMP (*.bmp);; All (*)"
-msgstr ""
-"जेपीईजी (*.jpg);; GIF (*.gif);; पीएनजी (*.png);; बीएमपी (*.bmp);; सर्वे (*)"
+msgstr "जेपीईजी (*.jpg);; GIF (*.gif);; पीएनजी (*.png);; बीएमपी (*.bmp);; सर्वे (*)"
 
 #: src/libraries/rwidgets/editors/mrichtextedit.ui:56
 msgctxt "MRichTextEdit|"
@@ -6533,8 +6690,8 @@ msgid ""
 "This example demonstrates Qt's rich text editing facilities in action, "
 "providing an example document for you to experiment with."
 msgstr ""
-"इदं उदाहरणं Qt इत्यस्य समृद्धानि पाठसम्पादनसुविधानि कार्ये प्रदर्शयति, यत् भवद्भ्यः प्रयोगाय "
-"उदाहरणदस्तावेजं प्रदाति ।"
+"इदं उदाहरणं Qt इत्यस्य समृद्धानि पाठसम्पादनसुविधानि कार्ये प्रदर्शयति, यत् "
+"भवद्भ्यः प्रयोगाय उदाहरणदस्तावेजं प्रदाति ।"
 
 #: src/libraries/rwidgets/editors/noteeditor/src/textedit.cpp:658
 msgctxt "TextEdit|"
@@ -6565,6 +6722,11 @@ msgstr "सर्वदा एतत् नाम प्रयोजयन्त
 msgctxt "AnnounceDocumentDialog|"
 msgid "You can change this in the preferences dialog."
 msgstr "प्राधान्यसंवादे एतत् परिवर्तयितुं शक्नुवन्ति ।"
+
+#: src/libraries/rwidgets/editors/sharededitor/connecttodocument.ui:166
+msgctxt "ConnectToDocument|"
+msgid "3000"
+msgstr "३०००"
 
 #: src/libraries/rwidgets/editors/sharededitor/connecttodocument.ui:14
 msgctxt "ConnectToDocument|"
@@ -6600,11 +6762,6 @@ msgstr "१२७.०.०.१ इति"
 msgctxt "ConnectToDocument|"
 msgid "Port:"
 msgstr "पोताश्रय:"
-
-#: src/libraries/rwidgets/editors/sharededitor/connecttodocument.ui:166
-msgctxt "ConnectToDocument|"
-msgid "3000"
-msgstr "३०००"
 
 #: src/libraries/rwidgets/editors/sharededitor/connecttodocument.ui:190
 msgctxt "ConnectToDocument|"
@@ -6709,182 +6866,189 @@ msgstr "Cahoots इत्यत्र स्वागतम्"
 #: src/libraries/rwidgets/editors/sharededitor/firstrundialog.ui:46
 msgctxt "FirstRunDialog|"
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Lucida Grande'; font-size:13pt; "
 "font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/images/"
-"cahootssplash.png\" /></p></body></html>"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img "
+"src=\":/images/cahootssplash.png\" /></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Lucida Grande'; font-size:13pt; "
 "font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/images/"
-"cahootssplash.png\" /></p></body></html>"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img "
+"src=\":/images/cahootssplash.png\" /></p></body></html>"
 
 #: src/libraries/rwidgets/editors/sharededitor/firstrundialog.ui:70
 msgctxt "FirstRunDialog|"
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Lucida Grande'; font-size:13pt; "
 "font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"size:28pt; font-weight:600;\">Welcome to Cahoots! </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-size:28pt; font-weight:600;\">Welcome to Cahoots! </span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"size:16pt; font-weight:600;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Cahoots is an open-source, "
-"crossplatform collaborative text editor as the Pepperdine Computer Science "
-"2010 Senior Capstone project.</p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:16pt; font-weight:600;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cahoots is an "
+"open-source, crossplatform collaborative text editor as the Pepperdine "
+"Computer Science 2010 Senior Capstone project.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
-"p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Connecting and Announcing "
-"documents for collaboration is available under the <span style=\" font-"
-"weight:600;\">Tools</span> menu.</p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Connecting and "
+"Announcing documents for collaboration is available under the <span "
+"style=\" font-weight:600;\">Tools</span> menu.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
-"p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">Cahoots is freely "
-"available under the LGPL <a href=\"http://code.google.com/p/cahootseditor/"
-"\"><span style=\" text-decoration: underline; color:#0000ff;\">here</span></"
-"a>.</p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Cahoots is freely "
+"available under the LGPL <a "
+"href=\"http://code.google.com/p/cahootseditor/\"><span style=\" "
+"text-decoration: underline; color:#0000ff;\">here</span></a>.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
-"p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">- Chris, Anandi, and "
-"David</p></body></html>"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\">- Chris, Anandi, "
+"and David</p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\"><html><head><meta name=\"qrichtext\" content=\"1\" /"
-"><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\"><html><head><meta "
+"name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Lucida Grande'; font-size:13pt; "
-"font-weight:400; font-style:normal;\"><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"> <span style=\" font-size:28pt; font-weight:600;\">Cahoots "
-"इत्यत्र भवतः स्वागतम्!</span> </p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:16pt; font-weight:600;\"></p><p style="
-"\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
-"block-indent:0; text-indent:0px;\"> काहूट्स् पेपरडाइन् कम्प्यूटर साइंस २०१० सीनियर "
-"कैप्स्टोन् परियोजनायाः रूपेण एकः मुक्त-स्रोतः, क्रॉस्-प्लेटफॉर्म-सहकारि-पाठ-सम्पादकः अस्ति । "
-"</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
-"p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"> सहकार्यार्थं दस्तावेजानां संयोजनं "
-"घोषणां च <span style=\" font-weight:600;\">Tools</span> मेन्यू इत्यस्य अधः उपलभ्यते "
-"। </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> <a href="
-"\"http://code.google.com/p/cahootseditor/\"><span style=\" text-decoration: "
-"underline; color:#0000ff;\">अत्र</span></a> LGPL इत्यस्य अन्तर्गतं Cahoots इत्येतत् "
-"स्वतन्त्रतया उपलभ्यते . </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
+"font-weight:400; font-style:normal;\"><p style=\" margin-top:0px; "
 "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> - क्रिसः, "
-"आनन्दी, डेविड् च</p></body></html>"
+"text-indent:0px;\"> <span style=\" font-size:28pt; "
+"font-weight:600;\">Cahoots इत्यत्र भवतः स्वागतम्!</span> </p><p "
+"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:16pt; font-weight:600;\"></p><p style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"> काहूट्स् पेपरडाइन् कम्प्यूटर साइंस २०१० सीनियर "
+"कैप्स्टोन् परियोजनायाः रूपेण एकः मुक्त-स्रोतः, "
+"क्रॉस्-प्लेटफॉर्म-सहकारि-पाठ-सम्पादकः अस्ति । </p><p "
+"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> "
+"सहकार्यार्थं दस्तावेजानां संयोजनं घोषणां च <span style=\" "
+"font-weight:600;\">Tools</span> मेन्यू इत्यस्य अधः उपलभ्यते । </p><p "
+"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> "
+"<a href=\"http://code.google.com/p/cahootseditor/\"><span style=\" "
+"text-decoration: underline; color:#0000ff;\">अत्र</span></a> LGPL इत्यस्य "
+"अन्तर्गतं Cahoots इत्येतत् स्वतन्त्रतया उपलभ्यते . </p><p "
+"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> "
+"- क्रिसः, आनन्दी, डेविड् च</p></body></html>"
 
 #: src/libraries/rwidgets/editors/sharededitor/firstrundialog.ui:106
 msgctxt "FirstRunDialog|"
 msgid ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style "
+"type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:28pt; "
 "font-weight:600; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"size:20pt;\">Welcome to Cahoots! </span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-size:20pt;\">Welcome to Cahoots! </span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"size:10pt;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"size:10pt; font-weight:400;\">Cahoots is an open-source, crossplatform "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:10pt;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-size:10pt; font-weight:400;\">Cahoots is an open-source, crossplatform "
 "collaborative text editor as the Pepperdine Computer Science 2010 Senior "
 "Capstone project.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"size:10pt; font-weight:400;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"size:10pt; font-weight:400;\">Connecting and Announcing documents for "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:10pt; font-weight:400;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-size:10pt; font-weight:400;\">Connecting and Announcing documents for "
 "collaboration is available under the Tools menu.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"size:10pt; font-weight:400;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"size:10pt; font-weight:400;\">Cahoots is freely available under the LGPL </"
-"span><a href=\"http://code.google.com/p/cahootseditor/\"><span style=\" font-"
-"size:10pt; font-weight:400; text-decoration: underline; color:#0000ff;"
-"\">here</span></a><span style=\" font-size:10pt; font-weight:400;\">.</"
-"span></p>\n"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:10pt; font-weight:400;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-size:10pt; font-weight:400;\">Cahoots is freely available under the "
+"LGPL </span><a href=\"http://code.google.com/p/cahootseditor/\"><span "
+"style=\" font-size:10pt; font-weight:400; text-decoration: underline; "
+"color:#0000ff;\">here</span></a><span style=\" font-size:10pt; "
+"font-weight:400;\">.</span></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"size:10pt; font-weight:400;\"></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"size:10pt; font-weight:400;\">- Chris, Anandi, and David</span></p></body></"
-"html>"
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:10pt; font-weight:400;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; "
+"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" "
+"font-size:10pt; font-weight:400;\">- Chris, Anandi, and "
+"David</span></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
-"REC-html40/strict.dtd\"><html><head><meta name=\"qrichtext\" content=\"1\" /"
-"><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" "
+"\"http://www.w3.org/TR/REC-html40/strict.dtd\"><html><head><meta "
+"name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:28pt; "
-"font-weight:600; font-style:normal;\"><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"> <span style=\" font-size:20pt;\">Cahoots इत्यत्र भवतः स्वागतम्!</"
-"span> </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"> <span style=\" font-size:10pt; font-weight:400;\">काहूट्स् "
-"पेपरडाइन् कम्प्यूटर साइंस २०१० सीनियर कैप्स्टोन् परियोजनायाः रूपेण एकः मुक्त-स्रोतः, क्रॉस्-"
-"प्लेटफॉर्म-सहकारि-पाठ-सम्पादकः अस्ति ।</span> </p><p style=\"-qt-paragraph-type:"
-"empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
-"-qt-block-indent:0; text-indent:0px; font-size:10pt; font-weight:400;\"></"
-"p><p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"> <span style=\" font-"
-"size:10pt; font-weight:400;\">सहकार्यार्थं दस्तावेजानां संयोजनं घोषणां च Tools मेन्यू "
-"इत्यस्य अधः उपलभ्यते ।</span> </p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:400;\"></p><p style="
-"\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
-"block-indent:0; text-indent:0px;\"> <a href=\"http://code.google.com/p/"
-"cahootseditor/\"><span style=\" font-size:10pt; font-weight:400; text-"
-"decoration: underline; color:#0000ff;\">अत्र</span></a> <span style=\" font-"
-"size:10pt; font-weight:400;\">LGPL इत्यस्य अन्तर्गतं Cahoots इत्येतत् स्वतन्त्रतया "
-"उपलभ्यते</span> <span style=\" font-size:10pt; font-weight:400;\">.</span> </"
-"p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
-"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-"
-"size:10pt; font-weight:400;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"> <span style=\" font-size:10pt; font-weight:400;\">- क्रिसः, "
-"आनन्दी, डेविड् च</span></p></body></html>"
+"font-weight:600; font-style:normal;\"><p style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"> <span style=\" font-size:20pt;\">Cahoots इत्यत्र भवतः "
+"स्वागतम्!</span> </p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"> <span style=\" font-size:10pt; "
+"font-weight:400;\">काहूट्स् पेपरडाइन् कम्प्यूटर साइंस २०१० सीनियर "
+"कैप्स्टोन् परियोजनायाः रूपेण एकः मुक्त-स्रोतः, "
+"क्रॉस्-प्लेटफॉर्म-सहकारि-पाठ-सम्पादकः अस्ति ।</span> </p><p "
+"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:10pt; font-weight:400;\"></p><p style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"> <span style=\" font-size:10pt; "
+"font-weight:400;\">सहकार्यार्थं दस्तावेजानां संयोजनं घोषणां च Tools मेन्यू "
+"इत्यस्य अधः उपलभ्यते ।</span> </p><p style=\"-qt-paragraph-type:empty; "
+"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+"-qt-block-indent:0; text-indent:0px; font-size:10pt; "
+"font-weight:400;\"></p><p style=\" margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"> "
+"<a href=\"http://code.google.com/p/cahootseditor/\"><span style=\" "
+"font-size:10pt; font-weight:400; text-decoration: underline; "
+"color:#0000ff;\">अत्र</span></a> <span style=\" font-size:10pt; "
+"font-weight:400;\">LGPL इत्यस्य अन्तर्गतं Cahoots इत्येतत् स्वतन्त्रतया "
+"उपलभ्यते</span> <span style=\" font-size:10pt; font-weight:400;\">.</span> "
+"</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; "
+"font-size:10pt; font-weight:400;\"></p><p style=\" margin-top:0px; "
+"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
+"text-indent:0px;\"> <span style=\" font-size:10pt; font-weight:400;\">- "
+"क्रिसः, आनन्दी, डेविड् च</span></p></body></html>"
 
 #: src/libraries/rwidgets/editors/sharededitor/participantspane.ui:26
 msgctxt "ParticipantsPane|"
@@ -6905,67 +7069,6 @@ msgstr "प्रोत्साहन"
 msgctxt "ParticipantsPane|"
 msgid "Demote"
 msgstr "अवनतिं कुर्वन्तु"
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:27
-msgctxt "PreferencesDialog|"
-msgid "Fonts"
-msgstr "फॉन्ट्"
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:39
-msgctxt "PreferencesDialog|"
-msgid "Code Editor:"
-msgstr "संहिता सम्पादकः : १."
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:54
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:130
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:206
-msgctxt "PreferencesDialog|"
-msgid "Courier 12"
-msgstr "कूरियर 12"
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:82
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:158
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:234
-msgctxt "PreferencesDialog|"
-msgid "Set Font"
-msgstr "Font सेट् कुर्वन्तु"
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:97
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:173
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:249
-msgctxt "PreferencesDialog|"
-msgid "Default"
-msgstr "मूलभूतम्‌"
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:115
-msgctxt "PreferencesDialog|"
-msgid "Chat Pane:"
-msgstr "गपशपफलकम् : १."
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:191
-msgctxt "PreferencesDialog|"
-msgid "Participants Pane:"
-msgstr "प्रतिभागिनः फलकम् : १."
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:275
-msgctxt "PreferencesDialog|"
-msgid "Sharing"
-msgstr "साझेदारी"
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:289
-msgctxt "PreferencesDialog|"
-msgid "Announcing:"
-msgstr "घोषणा करते हुए : १."
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:311
-msgctxt "PreferencesDialog|"
-msgid "Default Name:"
-msgstr "पूर्वनिर्धारित नाम : १."
-
-#: src/libraries/rwidgets/editors/sharededitor/preferencesdialog.ui:338
-msgctxt "PreferencesDialog|"
-msgid "Always use default name "
-msgstr "सर्वदा पूर्वनिर्धारितनामस्य उपयोगं कुर्वन्तु "
 
 #: src/libraries/rwidgets/editors/sharededitor/sharednote.cpp:54
 #, qt-format
@@ -7442,31 +7545,6 @@ msgctxt "GMTOOL::CustomRuleModel|"
 msgid "New Unit"
 msgstr "नवीन इकाई"
 
-#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:7
-msgctxt "QObject|"
-msgid "Currency"
-msgstr "मुद्रा"
-
-#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:8
-msgctxt "QObject|"
-msgid "Distance"
-msgstr "दूरी"
-
-#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:9
-msgctxt "QObject|"
-msgid "Temperature"
-msgstr "तापमान"
-
-#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:10
-msgctxt "QObject|"
-msgid "MASS"
-msgstr "घन"
-
-#: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:11
-msgctxt "QObject|"
-msgid "OTHER"
-msgstr "इतर"
-
 #: src/libraries/rwidgets/gmtoolbox/UnitConvertor/unitmodel.cpp:162
 msgctxt "GMTOOL::UnitModel|"
 msgid "New Unit"
@@ -7566,21 +7644,6 @@ msgstr "पाठ"
 msgctxt "TextItem|"
 msgid "Font Size"
 msgstr "फ़ॉन्ट आकार"
-
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:41
-msgctxt "QObject|"
-msgid "Ellipse"
-msgstr "दीर्घवृत्तम्"
-
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
-msgctxt "QObject|"
-msgid "Rect"
-msgstr "Rect"
-
-#: src/libraries/rwidgets/graphicsItems/visualitem.cpp:42
-msgctxt "QObject|"
-msgid "Rule"
-msgstr "नियम"
 
 #: src/libraries/rwidgets/mediacontainers/charactersheetwindow.cpp:101
 #, qt-format
@@ -7683,11 +7746,6 @@ msgctxt "Image|"
 msgid "increase zoom level"
 msgstr "जूम स्तरं वर्धयन्तु"
 
-#: src/libraries/rwidgets/mediacontainers/image.cpp:217
-msgctxt "Image|Zoom In"
-msgid "Ctrl++"
-msgstr "Ctrl++ इति"
-
 #: src/libraries/rwidgets/mediacontainers/image.cpp:222
 msgctxt "Image|"
 msgid "Zoom out"
@@ -7697,11 +7755,6 @@ msgstr "जूम आउट् कुर्वन्तु"
 msgctxt "Image|"
 msgid "Reduce zoom level"
 msgstr "जूम स्तरं न्यूनीकरोतु"
-
-#: src/libraries/rwidgets/mediacontainers/image.cpp:227
-msgctxt "Image|Zoom Out"
-msgid "Ctrl+-"
-msgstr "Ctrl+- ९."
 
 #: src/libraries/rwidgets/mediacontainers/image.cpp:238
 msgctxt "Image|"
@@ -7713,11 +7766,6 @@ msgctxt "Image|"
 msgid "The window and the image fit the workspace"
 msgstr "विण्डो, इमेज् च कार्यक्षेत्रस्य अनुरूपं भवति"
 
-#: src/libraries/rwidgets/mediacontainers/image.cpp:243
-msgctxt "Image|Fit the workspace"
-msgid "Ctrl+m"
-msgstr "Ctrl+m"
-
 #: src/libraries/rwidgets/mediacontainers/image.cpp:250
 msgctxt "Image|"
 msgid "Fit Window"
@@ -7727,11 +7775,6 @@ msgstr "फिट विण्डो"
 msgctxt "Image|"
 msgid "Image will take the best dimension to fit the window."
 msgstr "इमेज् विण्डो इत्यस्य अनुकूलतायै उत्तमं आयामं गृह्णीयात् ।"
-
-#: src/libraries/rwidgets/mediacontainers/image.cpp:258
-msgctxt "Image|Fit the window"
-msgid "Ctrl+f"
-msgstr "Ctrl+f"
 
 #: src/libraries/rwidgets/mediacontainers/image.cpp:265
 msgctxt "Image|"
@@ -7743,11 +7786,6 @@ msgctxt "Image|"
 msgid "Set the zoom level at 20% "
 msgstr "जूम स्तरं २०% इति सेट् कुर्वन्तु । "
 
-#: src/libraries/rwidgets/mediacontainers/image.cpp:269
-msgctxt "Image|Set the zoom level at 20%"
-msgid "Ctrl+l"
-msgstr "Ctrl+l"
-
 #: src/libraries/rwidgets/mediacontainers/image.cpp:276
 msgctxt "Image|"
 msgid "Normal"
@@ -7758,11 +7796,6 @@ msgctxt "Image|"
 msgid "No Zoom"
 msgstr "न जूम"
 
-#: src/libraries/rwidgets/mediacontainers/image.cpp:280
-msgctxt "Image|Normal"
-msgid "Ctrl+n"
-msgstr "Ctrl+n"
-
 #: src/libraries/rwidgets/mediacontainers/image.cpp:287
 msgctxt "Image|"
 msgid "Big"
@@ -7772,11 +7805,6 @@ msgstr "विशालः"
 msgctxt "Image|"
 msgid "Set the zoom level at 400%"
 msgstr "जूम स्तरं ४००% इति सेट् कुर्वन्तु ।"
-
-#: src/libraries/rwidgets/mediacontainers/image.cpp:291
-msgctxt "Image|Zoom Out"
-msgid "Ctrl+b"
-msgstr "Ctrl+b"
 
 #: src/libraries/rwidgets/mediacontainers/image.cpp:296
 msgctxt "Image|"
@@ -7810,6 +7838,41 @@ msgctxt "Image|"
 msgid "Pause"
 msgstr "विराम"
 
+#: src/libraries/rwidgets/mediacontainers/image.cpp:217
+msgctxt "Image|Zoom In"
+msgid "Ctrl++"
+msgstr "Ctrl++ इति"
+
+#: src/libraries/rwidgets/mediacontainers/image.cpp:227
+msgctxt "Image|Zoom Out"
+msgid "Ctrl+-"
+msgstr "Ctrl+- ९."
+
+#: src/libraries/rwidgets/mediacontainers/image.cpp:291
+msgctxt "Image|Zoom Out"
+msgid "Ctrl+b"
+msgstr "Ctrl+b"
+
+#: src/libraries/rwidgets/mediacontainers/image.cpp:243
+msgctxt "Image|Fit the workspace"
+msgid "Ctrl+m"
+msgstr "Ctrl+m"
+
+#: src/libraries/rwidgets/mediacontainers/image.cpp:258
+msgctxt "Image|Fit the window"
+msgid "Ctrl+f"
+msgstr "Ctrl+f"
+
+#: src/libraries/rwidgets/mediacontainers/image.cpp:269
+msgctxt "Image|Set the zoom level at 20%"
+msgid "Ctrl+l"
+msgstr "Ctrl+l"
+
+#: src/libraries/rwidgets/mediacontainers/image.cpp:280
+msgctxt "Image|Normal"
+msgid "Ctrl+n"
+msgstr "Ctrl+n"
+
 #: src/libraries/rwidgets/mediacontainers/instantmessagingview.cpp:86
 msgctxt "InstantMessagingView|"
 msgid "Instant Messaging"
@@ -7824,11 +7887,6 @@ msgstr "InstantMessaging इति"
 msgctxt "MediaContainer|"
 msgid "Detach the view"
 msgstr "दृश्यं विरक्तं कुरुत"
-
-#: src/libraries/rwidgets/mediacontainers/mediacontainer.cpp:54
-msgctxt "QObject|"
-msgid "Loading error"
-msgstr "लोडिंग् त्रुटिः"
 
 #: src/libraries/rwidgets/mediacontainers/mindmapview.cpp:138
 #: src/libraries/rwidgets/mediacontainers/mindmapview.cpp:140
@@ -7986,47 +8044,6 @@ msgstr "अग्रिमः पृष्ठः"
 msgctxt "PdfViewer|"
 msgid "Text"
 msgstr "पाठ"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:34
-msgctxt "QObject|"
-msgid "Fog Of War"
-msgstr "युद्धस्य कोहरा"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:34
-msgctxt "QObject|"
-msgid "All visible"
-msgstr "सर्वे दृश्यन्ते"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:46
-msgctxt "QObject|"
-msgid "No Right"
-msgstr "न अधिकारः"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:46
-msgctxt "QObject|"
-msgid "His character"
-msgstr "तस्य चरित्रम्"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:46
-msgctxt "QObject|"
-msgid "All Permissions"
-msgstr "सर्वाणि अनुमतिः"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:56
-msgctxt "QObject|"
-msgid "Fog Layer"
-msgstr "कोहरा स्तर"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:57
-msgctxt "QObject|"
-msgid "Grid Layer"
-msgstr "जालस्तर"
-
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:58
-#: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:62
-msgctxt "QObject|"
-msgid "No Layer"
-msgstr "No Layer इति"
 
 #: src/libraries/rwidgets/mediacontainers/vmapframe.cpp:83
 #, qt-format

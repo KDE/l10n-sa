@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the spacebar package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,20 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: daemon/channellogger.cpp:598 src/contents/ui/MessagesPage.qml:62
 #, kde-format
@@ -38,20 +28,6 @@ msgstr "नूतनः सन्देशः"
 #, kde-format
 msgid "Message from %1"
 msgstr "%1 तः सन्देशः"
-
-#: daemon/channellogger.cpp:616
-#, kde-format
-msgctxt "Number of files attached"
-msgid "%1 Attachment"
-msgid_plural "%1 Attachments"
-msgstr[0] "%1 आसक्तिः"
-msgstr[1] "%1 संलग्नकाः"
-
-#: daemon/channellogger.cpp:643
-#, kde-format
-msgctxt "@action open message in application"
-msgid "Open"
-msgstr "उद्घाटित"
 
 #: daemon/main.cpp:43
 #, kde-format
@@ -90,40 +66,10 @@ msgstr "चटः"
 msgid "New Conversation"
 msgstr "नवीनं सम्भाषणम्"
 
-#: src/contents/ui/ChatsPage.qml:52
-#, kde-format
-msgctxt "Configuring application settings"
-msgid "Settings"
-msgstr "सेटिंग्स्"
-
-#: src/contents/ui/ChatsPage.qml:60
-#, kde-format
-msgctxt "Deleting a conversation"
-msgid "Delete"
-msgstr "लुप्"
-
 #: src/contents/ui/ChatsPage.qml:72 src/contents/ui/MessagesPage.qml:147
 #, kde-format
 msgid "Unable to connect to messaging daemon"
 msgstr "सन्देश-दैमन्-सङ्गतिं कर्तुं असमर्थः"
-
-#: src/contents/ui/ChatsPage.qml:96
-#, kde-format
-msgctxt "Selecting recipients from contacts list"
-msgid "Create a chat"
-msgstr "गपशपं रचयन्तु"
-
-#: src/contents/ui/ChatsPage.qml:184
-#, kde-format
-msgctxt "Indicating that message was sent by you"
-msgid "You"
-msgstr "त्वम्‌"
-
-#: src/contents/ui/ChatsPage.qml:184
-#, kde-format
-msgctxt "Indicating that message contains an image"
-msgid "Picture"
-msgstr "चित्र"
 
 #: src/contents/ui/ChatsPage.qml:273
 #, kde-format
@@ -219,12 +165,6 @@ msgstr "आसक्तिं रक्षतु"
 msgid "Delete message"
 msgstr "सन्देशं विलोपयतु"
 
-#: src/contents/ui/MessagesPage.qml:880
-#, kde-format
-msgctxt "Retry sending message"
-msgid "Resend"
-msgstr "पुनः प्रेषयतु"
-
 #: src/contents/ui/MessagesPage.qml:950
 #, kde-format
 msgid "Save"
@@ -235,22 +175,10 @@ msgstr "रक्ष्"
 msgid "Cancel"
 msgstr "निरसयतु"
 
-#: src/contents/ui/MessagesPage.qml:1075
-#, kde-format
-msgctxt "Remove item from list"
-msgid "Remove"
-msgstr "अपाकरोति"
-
 #: src/contents/ui/MessagesPage.qml:1113
 #, kde-format
 msgid "Write Message..."
 msgstr "सन्देश लिखें..."
-
-#: src/contents/ui/MessagesPage.qml:1115
-#, kde-format
-msgctxt "%1 is a phone number"
-msgid "Send Message from %1..."
-msgstr "%1 तः सन्देशं प्रेषयन्तु..."
 
 #: src/contents/ui/MessagesPage.qml:1168
 #, kde-format
@@ -266,24 +194,6 @@ msgstr "एकं सङ्ख्यां चिनोतु"
 #, kde-format
 msgid "Search or enter number…"
 msgstr "अन्वेषणं कुर्वन्तु अथवा संख्यां प्रविशन्तु..."
-
-#: src/contents/ui/NewConversationContactsList.qml:250
-#, kde-format
-msgctxt "Number of items selected"
-msgid "%1 Selected"
-msgstr "%1 चयनितम्"
-
-#: src/contents/ui/NewConversationContactsList.qml:259
-#, kde-format
-msgctxt "Open chat conversation window"
-msgid "Create"
-msgstr "निर्मियताम्"
-
-#: src/contents/ui/NewConversationContactsList.qml:274
-#, kde-format
-msgctxt "@info:status Error message displayed when no contact is selected"
-msgid "No contact selected"
-msgstr "कोऽपि सम्पर्कः चयनितः नास्ति"
 
 #: src/contents/ui/NewConversationContactsList.qml:319
 #, kde-format
@@ -529,3 +439,93 @@ msgstr "स्पेसबार एसएमएस/एमएमएस क्ल
 #, kde-format
 msgid "Open a chat with the given phone number"
 msgstr "दत्तेन दूरभाषसङ्ख्यायाः सह गपशपं उद्घाटयन्तु"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: daemon/channellogger.cpp:616
+#, kde-format
+msgctxt "Number of files attached"
+msgid "%1 Attachment"
+msgid_plural "%1 Attachments"
+msgstr[0] "%1 आसक्तिः"
+msgstr[1] "%1 संलग्नकाः"
+
+#: daemon/channellogger.cpp:643
+#, kde-format
+msgctxt "@action open message in application"
+msgid "Open"
+msgstr "उद्घाटित"
+
+#: src/contents/ui/ChatsPage.qml:52
+#, kde-format
+msgctxt "Configuring application settings"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
+#: src/contents/ui/ChatsPage.qml:60
+#, kde-format
+msgctxt "Deleting a conversation"
+msgid "Delete"
+msgstr "लुप्"
+
+#: src/contents/ui/ChatsPage.qml:96
+#, kde-format
+msgctxt "Selecting recipients from contacts list"
+msgid "Create a chat"
+msgstr "गपशपं रचयन्तु"
+
+#: src/contents/ui/ChatsPage.qml:184
+#, kde-format
+msgctxt "Indicating that message was sent by you"
+msgid "You"
+msgstr "त्वम्‌"
+
+#: src/contents/ui/ChatsPage.qml:184
+#, kde-format
+msgctxt "Indicating that message contains an image"
+msgid "Picture"
+msgstr "चित्र"
+
+#: src/contents/ui/MessagesPage.qml:880
+#, kde-format
+msgctxt "Retry sending message"
+msgid "Resend"
+msgstr "पुनः प्रेषयतु"
+
+#: src/contents/ui/MessagesPage.qml:1075
+#, kde-format
+msgctxt "Remove item from list"
+msgid "Remove"
+msgstr "अपाकरोति"
+
+#: src/contents/ui/MessagesPage.qml:1115
+#, kde-format
+msgctxt "%1 is a phone number"
+msgid "Send Message from %1..."
+msgstr "%1 तः सन्देशं प्रेषयन्तु..."
+
+#: src/contents/ui/NewConversationContactsList.qml:250
+#, kde-format
+msgctxt "Number of items selected"
+msgid "%1 Selected"
+msgstr "%1 चयनितम्"
+
+#: src/contents/ui/NewConversationContactsList.qml:259
+#, kde-format
+msgctxt "Open chat conversation window"
+msgid "Create"
+msgstr "निर्मियताम्"
+
+#: src/contents/ui/NewConversationContactsList.qml:274
+#, kde-format
+msgctxt "@info:status Error message displayed when no contact is selected"
+msgid "No contact selected"
+msgstr "कोऽपि सम्पर्कः चयनितः नास्ति"

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kapman package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,20 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
 
 #: gamescene.cpp:90
 #, kde-format
@@ -44,70 +34,22 @@ msgstr "आरम्भार्थं कोऽपि बाणकुंजी 
 msgid "PAUSED"
 msgstr "PAUSED इति"
 
-#: gamescene.cpp:228
-#, kde-format
-msgctxt "The number of the game level"
-msgid "Level %1"
-msgstr "स्तरः %1"
-
-#. i18n: ectx: label, entry (Theme), group (General)
 #: kapman.kcfg:9
+#. i18n: ectx: label, entry (Theme), group (General)
 #, kde-format
 msgid "The graphical theme to be used."
 msgstr "प्रयोक्तव्यः चित्रात्मकः विषयः ।"
 
-#. i18n: ectx: label, entry (Sounds), group (General)
 #: kapman.kcfg:13
+#. i18n: ectx: label, entry (Sounds), group (General)
 #, kde-format
 msgid "Whether sound effects should be played."
 msgstr "ध्वनिप्रभावाः वादनीयाः वा।"
-
-#: kapmanmainwindow.cpp:61
-#, kde-format
-msgctxt "@option:check"
-msgid "Play Sounds"
-msgstr "ध्वनयः वादयन्तु"
-
-#: kapmanmainwindow.cpp:65
-#, kde-format
-msgctxt "@action"
-msgid "&Change Level…"
-msgstr "&स्तरं परिवर्तयतु…"
-
-#: kapmanmainwindow.cpp:70 kapmanmainwindow.cpp:256
-#, kde-format
-msgctxt "Used to display the current level of play to the user"
-msgid "Level: %1"
-msgstr "स्तरः %1"
-
-#: kapmanmainwindow.cpp:72 kapmanmainwindow.cpp:261
-#, kde-format
-msgctxt "Used to inform the user of their current score"
-msgid "Score: %1"
-msgstr "स्कोरः %1"
-
-#: kapmanmainwindow.cpp:74 kapmanmainwindow.cpp:266
-#, kde-format
-msgctxt "Used to tell the user how many lives they have left"
-msgid "Lives: %1"
-msgstr "जीवति: %1"
 
 #: kapmanmainwindow.cpp:136
 #, kde-format
 msgid "Are you sure you want to quit the current game?"
 msgstr "किं भवन्तः वर्तमानक्रीडां त्यक्तुम् इच्छन्ति इति निश्चितम्?"
-
-#: kapmanmainwindow.cpp:137
-#, kde-format
-msgctxt "@title:window"
-msgid "New Game"
-msgstr "नवीन खेल"
-
-#: kapmanmainwindow.cpp:138
-#, kde-format
-msgctxt "@action;button"
-msgid "Quit Game"
-msgstr "क्रीडां त्यजतु"
 
 #: kapmanmainwindow.cpp:163
 #, kde-format
@@ -131,28 +73,10 @@ msgstr "त्वं वञ्चितवान्, भवतः कृते �
 msgid "Cheater!"
 msgstr "वञ्चकः !"
 
-#: kapmanmainwindow.cpp:188
-#, kde-format
-msgctxt "@title:window"
-msgid "Change Level"
-msgstr "स्तरं परिवर्तयतु"
-
-#: kapmanmainwindow.cpp:189
-#, kde-format
-msgctxt "@label:textbox The number of the game level"
-msgid "Level:"
-msgstr "स्तर:"
-
 #: kapmanmainwindow.cpp:239
 #, kde-format
 msgid "Are you sure you want to quit Kapman?"
 msgstr "किं भवन्तः निश्चिताः सन्ति यत् भवन्तः कप्मैन् त्यक्तुम् इच्छन्ति?"
-
-#: kapmanmainwindow.cpp:240
-#, kde-format
-msgctxt "@title:window To quit Kapman"
-msgid "Quit"
-msgstr "परिजहातु"
 
 #: main.cpp:45
 #, kde-format
@@ -213,3 +137,79 @@ msgstr "रोनी गोम्स"
 #, kde-format
 msgid "Port to KgSound framework"
 msgstr "पोर्ट् टु KgSound framework"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: gamescene.cpp:228
+#, kde-format
+msgctxt "The number of the game level"
+msgid "Level %1"
+msgstr "स्तरः %1"
+
+#: kapmanmainwindow.cpp:61
+#, kde-format
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "ध्वनयः वादयन्तु"
+
+#: kapmanmainwindow.cpp:65
+#, kde-format
+msgctxt "@action"
+msgid "&Change Level…"
+msgstr "&स्तरं परिवर्तयतु…"
+
+#: kapmanmainwindow.cpp:70 kapmanmainwindow.cpp:256
+#, kde-format
+msgctxt "Used to display the current level of play to the user"
+msgid "Level: %1"
+msgstr "स्तरः %1"
+
+#: kapmanmainwindow.cpp:72 kapmanmainwindow.cpp:261
+#, kde-format
+msgctxt "Used to inform the user of their current score"
+msgid "Score: %1"
+msgstr "स्कोरः %1"
+
+#: kapmanmainwindow.cpp:74 kapmanmainwindow.cpp:266
+#, kde-format
+msgctxt "Used to tell the user how many lives they have left"
+msgid "Lives: %1"
+msgstr "जीवति: %1"
+
+#: kapmanmainwindow.cpp:137
+#, kde-format
+msgctxt "@title:window"
+msgid "New Game"
+msgstr "नवीन खेल"
+
+#: kapmanmainwindow.cpp:188
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Level"
+msgstr "स्तरं परिवर्तयतु"
+
+#: kapmanmainwindow.cpp:138
+#, kde-format
+msgctxt "@action;button"
+msgid "Quit Game"
+msgstr "क्रीडां त्यजतु"
+
+#: kapmanmainwindow.cpp:189
+#, kde-format
+msgctxt "@label:textbox The number of the game level"
+msgid "Level:"
+msgstr "स्तर:"
+
+#: kapmanmainwindow.cpp:240
+#, kde-format
+msgctxt "@title:window To quit Kapman"
+msgid "Quit"
+msgstr "परिजहातु"

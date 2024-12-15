@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -102,13 +102,9 @@ msgstr "प्रोफाइल नाम"
 #: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:208
 #, kde-format
 msgid "Please insert the name by which you want to save this profile:"
-msgstr "कृपया येन नामेन भवान् एतत् प्रोफाइलं रक्षितुं इच्छति तत् नाम सम्मिलितं कुर्वन्तु:"
-
-#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
-#, kde-format
-msgctxt "invalid profile name"
-msgid "Invalid name."
-msgstr "असिद्धं नाम ।"
+msgstr ""
+"कृपया येन नामेन भवान् एतत् प्रोफाइलं रक्षितुं इच्छति तत् नाम सम्मिलितं "
+"कुर्वन्तु:"
 
 #: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
 #, kde-format
@@ -167,11 +163,6 @@ msgstr "सुलेखः कोणं न्यूनीकरोतु"
 msgid "Calligraphy"
 msgstr "सुलेख"
 
-#: filterEffectTool/FilterAddCommand.cpp:21
-msgctxt "(qtundo-format)"
-msgid "Add filter effect"
-msgstr "फ़िल्टर इफेक्ट् योजयन्तु"
-
 #: filterEffectTool/FilterEffectEditWidget.cpp:60
 #, kde-format
 msgid "Add effect to current filter stack"
@@ -197,57 +188,47 @@ msgstr "प्रभाव नाम"
 msgid "Please enter a name for the filter effect"
 msgstr "कृपया फ़िल्टर इफेक्ट् इत्यस्य नाम प्रविशतु"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
 #: filterEffectTool/FilterEffectEditWidget.ui:32
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:320
+#. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
 #, kde-format
 msgid "Filter Effect Editor"
 msgstr "फ़िल्टर प्रभाव सम्पादक"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: filterEffectTool/FilterEffectEditWidget.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #, kde-format
 msgid "Effects and Connections"
 msgstr "प्रभावाः सम्बन्धाः च"
 
-#. i18n: ectx: property (text), widget (QToolButton, removeEffect)
-#. i18n: ectx: property (text), widget (QToolButton, addEffect)
-#. i18n: ectx: property (text), widget (QToolButton, raiseEffect)
-#. i18n: ectx: property (text), widget (QToolButton, lowerEffect)
-#. i18n: ectx: property (text), widget (QToolButton, addPreset)
-#. i18n: ectx: property (text), widget (QToolButton, removePreset)
 #: filterEffectTool/FilterEffectEditWidget.ui:57
 #: filterEffectTool/FilterEffectEditWidget.ui:67
 #: filterEffectTool/FilterEffectEditWidget.ui:74
 #: filterEffectTool/FilterEffectEditWidget.ui:81
 #: filterEffectTool/FilterEffectEditWidget.ui:102
 #: filterEffectTool/FilterEffectEditWidget.ui:109
+#. i18n: ectx: property (text), widget (QToolButton, removeEffect)
+#. i18n: ectx: property (text), widget (QToolButton, addEffect)
+#. i18n: ectx: property (text), widget (QToolButton, raiseEffect)
+#. i18n: ectx: property (text), widget (QToolButton, lowerEffect)
+#. i18n: ectx: property (text), widget (QToolButton, addPreset)
+#. i18n: ectx: property (text), widget (QToolButton, removePreset)
 #, kde-format
 msgid "..."
 msgstr "..."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #: filterEffectTool/FilterEffectEditWidget.ui:92
+#. i18n: ectx: property (text), widget (QLabel, label)
 #, kde-format
 msgid "Filter Presets"
 msgstr "फ़िल्टर पूर्वनिर्धारित"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: filterEffectTool/FilterEffectEditWidget.ui:116
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:474
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #, kde-format
 msgid "Effect Properties"
 msgstr "प्रभाव गुण"
-
-#: filterEffectTool/FilterRemoveCommand.cpp:23
-msgctxt "(qtundo-format)"
-msgid "Remove filter effect"
-msgstr "फ़िल्टर प्रभावं निष्कासयन्तु"
-
-#: filterEffectTool/FilterStackSetCommand.cpp:25
-msgctxt "(qtundo-format)"
-msgid "Set filter stack"
-msgstr "फ़िल्टर ढेरं सेट् कुर्वन्तु"
 
 #: filterEffectTool/KarbonFilterEffectsTool.cpp:439
 #, kde-format
@@ -307,7 +288,9 @@ msgstr "ढालस्थानं चालयितुं कर्षन्�
 #: KarbonGradientTool.cpp:208
 #, kde-format
 msgid "Drag to move color stop. Double click to remove color stop."
-msgstr "वर्णविरामं चालयितुं कर्षन्तु। वर्णविरामं दूरीकर्तुं द्विवारं क्लिक् कुर्वन्तु ।"
+msgstr ""
+"वर्णविरामं चालयितुं कर्षन्तु। वर्णविरामं दूरीकर्तुं द्विवारं क्लिक् "
+"कुर्वन्तु ।"
 
 #: KarbonGradientTool.cpp:210
 #, kde-format
@@ -317,7 +300,9 @@ msgstr "वर्णविरामं चालयितुं कर्षन�
 #: KarbonGradientTool.cpp:217
 #, kde-format
 msgid "Drag to move gradient position. Double click to insert color stop."
-msgstr "ढालस्थानं चालयितुं कर्षन्तु । वर्णविरामं सम्मिलितुं द्विवारं क्लिक् कुर्वन्तु ।"
+msgstr ""
+"ढालस्थानं चालयितुं कर्षन्तु । वर्णविरामं सम्मिलितुं द्विवारं क्लिक् "
+"कुर्वन्तु ।"
 
 #: KarbonGradientTool.cpp:493
 #, kde-format
@@ -408,3 +393,24 @@ msgstr "प्रतिमानाः"
 #, kde-format
 msgid "Pattern editing"
 msgstr "पैटर्न सम्पादन"
+
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
+#, kde-format
+msgctxt "invalid profile name"
+msgid "Invalid name."
+msgstr "असिद्धं नाम ।"
+
+#: filterEffectTool/FilterAddCommand.cpp:21
+msgctxt "(qtundo-format)"
+msgid "Add filter effect"
+msgstr "फ़िल्टर इफेक्ट् योजयन्तु"
+
+#: filterEffectTool/FilterRemoveCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Remove filter effect"
+msgstr "फ़िल्टर प्रभावं निष्कासयन्तु"
+
+#: filterEffectTool/FilterStackSetCommand.cpp:25
+msgctxt "(qtundo-format)"
+msgid "Set filter stack"
+msgstr "फ़िल्टर ढेरं सेट् कुर्वन्तु"

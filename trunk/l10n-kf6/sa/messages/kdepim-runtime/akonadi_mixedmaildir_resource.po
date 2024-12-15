@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdepim-runtime package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -42,6 +42,47 @@ msgstr "चयनितः मार्गः अद्यापि नास्
 msgid "The selected path does not exist."
 msgstr "चयनितः मार्गः नास्ति।"
 
+#: mixedmaildirresource.cpp:346
+#, kde-format
+msgid "Cannot delete top-level maildir folder '%1'."
+msgstr "शीर्षस्तरीयं maildir पुटं '%1' विलोपयितुं न शक्यते ।"
+
+#: mixedmaildirresource.kcfg:10
+#. i18n: ectx: label, entry (Path), group (General)
+#, kde-format
+msgid "Path to KMail mail folder"
+msgstr "KMail मेलपुटस्य मार्गः"
+
+#: mixedmaildirresource.kcfg:14
+#. i18n: ectx: label, entry (TopLevelIsContainer), group (General)
+#, kde-format
+msgid "Path points to a folder containing Maildirs instead of to a maildir itself."
+msgstr "मार्गः स्वयं maildir इत्यस्य स्थाने Maildirs युक्तं पुटं दर्शयति ।"
+
+#: mixedmaildirresource.kcfg:18
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#, kde-format
+msgid "Do not change the actual backend data."
+msgstr "वास्तविकं पृष्ठभागदत्तांशं न परिवर्तयन्तु ।"
+
+#: settings.ui:15
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigWidget)
+#, kde-format
+msgid "Mail Directory Settings"
+msgstr "मेल निर्देशिका सेटिंग्स्"
+
+#: settings.ui:21
+#. i18n: ectx: property (text), widget (QLabel, label)
+#, kde-format
+msgid "Select the folder containing the maildir information:"
+msgstr "maildir सूचनायुक्तं पुटं चिनोतु:"
+
+#: settings.ui:31
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#, kde-format
+msgid "Open in read-only mode"
+msgstr "केवलं पठनीयविधाने उद्घाटयन्तु"
+
 #: mixedmaildirresource.cpp:102 mixedmaildirresource.cpp:117
 #: mixedmaildirresource.cpp:148 mixedmaildirresource.cpp:178
 #: mixedmaildirresource.cpp:193 mixedmaildirresource.cpp:208
@@ -56,8 +97,7 @@ msgstr "अनुपयोगी विन्यास।"
 #: mixedmaildirresource.cpp:171
 #, kde-format
 msgctxt "@info:status"
-msgid ""
-"Item %1 belongs to invalid collection %2. Maybe it was deleted meanwhile?"
+msgid "Item %1 belongs to invalid collection %2. Maybe it was deleted meanwhile?"
 msgstr "%1 मदः अमान्यसङ्ग्रहस्य %2 अस्ति । कदाचित् तावत्पर्यन्तं लोपितम् आसीत्?"
 
 #: mixedmaildirresource.cpp:202
@@ -78,11 +118,6 @@ msgctxt "@info:status"
 msgid "Cannot move root maildir folder '%1'."
 msgstr "'%1' मूलं maildir पुटं स्थानान्तरयितुं न शक्यते ।"
 
-#: mixedmaildirresource.cpp:346
-#, kde-format
-msgid "Cannot delete top-level maildir folder '%1'."
-msgstr "शीर्षस्तरीयं maildir पुटं '%1' विलोपयितुं न शक्यते ।"
-
 #: mixedmaildirresource.cpp:360
 #, kde-format
 msgctxt "@info:status"
@@ -94,25 +129,6 @@ msgstr "maildir '%1' निर्मातुं असमर्थः ।"
 msgctxt "@info:status"
 msgid "No usable storage location configured."
 msgstr "न कोऽपि उपयोगी भण्डारणस्थानं विन्यस्तम् ।"
-
-#. i18n: ectx: label, entry (Path), group (General)
-#: mixedmaildirresource.kcfg:10
-#, kde-format
-msgid "Path to KMail mail folder"
-msgstr "KMail मेलपुटस्य मार्गः"
-
-#. i18n: ectx: label, entry (TopLevelIsContainer), group (General)
-#: mixedmaildirresource.kcfg:14
-#, kde-format
-msgid ""
-"Path points to a folder containing Maildirs instead of to a maildir itself."
-msgstr "मार्गः स्वयं maildir इत्यस्य स्थाने Maildirs युक्तं पुटं दर्शयति ।"
-
-#. i18n: ectx: label, entry (ReadOnly), group (General)
-#: mixedmaildirresource.kcfg:18
-#, kde-format
-msgid "Do not change the actual backend data."
-msgstr "वास्तविकं पृष्ठभागदत्तांशं न परिवर्तयन्तु ।"
 
 #: mixedmaildirstore.cpp:550
 #, kde-format
@@ -254,21 +270,3 @@ msgstr "%1 पुटे ईमेल योजयितुं न शक्य�
 msgctxt "@info:status"
 msgid "Cannot modify email in folder %1 because there is no email content"
 msgstr "%1 पुटे ईमेल परिवर्तयितुं न शक्यते यतः ईमेल सामग्री नास्ति"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigWidget)
-#: settings.ui:15
-#, kde-format
-msgid "Mail Directory Settings"
-msgstr "मेल निर्देशिका सेटिंग्स्"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: settings.ui:21
-#, kde-format
-msgid "Select the folder containing the maildir information:"
-msgstr "maildir सूचनायुक्तं पुटं चिनोतु:"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
-#: settings.ui:31
-#, kde-format
-msgid "Open in read-only mode"
-msgstr "केवलं पठनीयविधाने उद्घाटयन्तु"

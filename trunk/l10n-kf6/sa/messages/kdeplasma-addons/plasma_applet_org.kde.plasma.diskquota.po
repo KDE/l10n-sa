@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdeplasma-addons package.
 # Kali <EMAIL@ADDRESS>, 2024.
-#
+# 
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,30 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#: plugin/DiskQuota.cpp:44 plugin/DiskQuota.cpp:166 plugin/DiskQuota.cpp:252
+#, kde-format
+msgid "Disk Quota"
+msgstr "डिस्क कोटा"
+
+#: plugin/DiskQuota.cpp:45
+#, kde-format
+msgid "Please install 'quota'"
+msgstr "कृपया 'quota' संस्थापयन्तु।"
+
+#: plugin/DiskQuota.cpp:167
+#, kde-format
+msgid "Running quota failed"
+msgstr "कोटा चालनं विफलम् अभवत्"
+
+#: plugin/DiskQuota.cpp:253
+#, kde-format
+msgid "No quota restrictions found."
+msgstr "कोटाप्रतिबन्धाः न प्राप्ताः।"
 
 #: package/contents/ui/main.qml:77
 #, kde-format
@@ -36,21 +56,6 @@ msgstr "कोटा साधनं न प्राप्तम्"
 msgctxt "@info:usagetip"
 msgid "Please install 'quota'"
 msgstr "कृपया 'quota' संस्थापयन्तु।"
-
-#: plugin/DiskQuota.cpp:44 plugin/DiskQuota.cpp:166 plugin/DiskQuota.cpp:252
-#, kde-format
-msgid "Disk Quota"
-msgstr "डिस्क कोटा"
-
-#: plugin/DiskQuota.cpp:45
-#, kde-format
-msgid "Please install 'quota'"
-msgstr "कृपया 'quota' संस्थापयन्तु।"
-
-#: plugin/DiskQuota.cpp:167
-#, kde-format
-msgid "Running quota failed"
-msgstr "कोटा चालनं विफलम् अभवत्"
 
 #: plugin/DiskQuota.cpp:227
 #, kde-format
@@ -75,8 +80,3 @@ msgstr "%1 मुक्तम्"
 msgctxt "example: Quota: 83% used"
 msgid "Quota: %1% used"
 msgstr "कोटा: %1% प्रयुक्तम्"
-
-#: plugin/DiskQuota.cpp:253
-#, kde-format
-msgid "No quota restrictions found."
-msgstr "कोटाप्रतिबन्धाः न प्राप्ताः।"

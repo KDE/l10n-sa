@@ -7,7 +7,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
@@ -23,12 +23,12 @@ msgstr "--- विभाजक --- ."
 msgctxt "KBookmarkManager|"
 msgid ""
 "Unable to save bookmarks in %1. Reported error was: %2. This error message "
-"will only be shown once. The cause of the error needs to be fixed as quickly "
-"as possible, which is most likely a full hard drive."
+"will only be shown once. The cause of the error needs to be fixed as "
+"quickly as possible, which is most likely a full hard drive."
 msgstr ""
-"%1 मध्ये पुस्तकचिह्नानि रक्षितुं असमर्थम् । निवेदितः त्रुटिः आसीत्: %2. एषः त्रुटिसन्देशः "
-"एकवारं एव दर्शितः भविष्यति । त्रुटिकारणं यथाशीघ्रं निवारयितुं आवश्यकं भवति, यत् अधिकतया "
-"पूर्णहार्डड्राइवः अस्ति ।"
+"%1 मध्ये पुस्तकचिह्नानि रक्षितुं असमर्थम् । निवेदितः त्रुटिः आसीत्: %2. एषः "
+"त्रुटिसन्देशः एकवारं एव दर्शितः भविष्यति । त्रुटिकारणं यथाशीघ्रं निवारयितुं "
+"आवश्यकं भवति, यत् अधिकतया पूर्णहार्डड्राइवः अस्ति ।"
 
 #: keditbookmarks.cpp:59
 msgctxt "QObject|"
@@ -125,15 +125,15 @@ msgctxt "KBookmarkDialog|@label:textbox"
 msgid "Comment:"
 msgstr "टिप्पणी:"
 
+#: widgets/kbookmarkdialog.cpp:345
+msgctxt "KBookmarkDialog|@label:textbox"
+msgid "New folder:"
+msgstr "नवीनं पुटम् : १."
+
 #: widgets/kbookmarkdialog.cpp:177
 msgctxt "KBookmarkDialog|@action:button"
 msgid "Update"
 msgstr "अद्यतन"
-
-#: widgets/kbookmarkdialog.cpp:178
-msgctxt "KBookmarkDialog|@title:window"
-msgid "Bookmark Properties"
-msgstr "बुकमार्क गुण"
 
 #: widgets/kbookmarkdialog.cpp:208 widgets/kbookmarkdialog.cpp:246
 #: widgets/kbookmarkdialog.cpp:280
@@ -145,6 +145,11 @@ msgstr "&नवीन फोल्डर…"
 msgctxt "KBookmarkDialog|@action:button"
 msgid "Add"
 msgstr "संयोजयति"
+
+#: widgets/kbookmarkdialog.cpp:178
+msgctxt "KBookmarkDialog|@title:window"
+msgid "Bookmark Properties"
+msgstr "बुकमार्क गुण"
 
 #: widgets/kbookmarkdialog.cpp:213
 msgctxt "KBookmarkDialog|@title:window"
@@ -177,11 +182,6 @@ msgctxt "KBookmarkDialog|@title:window"
 msgid "Create New Bookmark Folder in %1"
 msgstr "%1 मध्ये नूतनं बुकमार्कपुटं रचयन्तु"
 
-#: widgets/kbookmarkdialog.cpp:345
-msgctxt "KBookmarkDialog|@label:textbox"
-msgid "New folder:"
-msgstr "नवीनं पुटम् : १."
-
 #: widgets/kbookmarkdialog.cpp:366
 msgctxt "KBookmarkDialog|name of the container of all browser bookmarks"
 msgid "Bookmarks"
@@ -192,15 +192,20 @@ msgctxt "KBookmarkMenu|@action:inmenu"
 msgid "Open Folder in Tabs"
 msgstr "Tabs इत्यत्र Folder उद्घाटयन्तु"
 
-#: widgets/kbookmarkmenu.cpp:246
-msgctxt "KBookmarkMenu|@info:tooltip"
-msgid "Open all bookmarks in this folder as a new tab"
-msgstr "अस्मिन् पुटे सर्वाणि पुस्तकचिह्नानि नूतनट्याब्रूपेण उद्घाटयन्तु"
-
 #: widgets/kbookmarkmenu.cpp:262
 msgctxt "KBookmarkMenu|@action:inmenu"
 msgid "Bookmark Tabs as Folder…"
 msgstr "पुटरूपेण ट्याब्स् बुकमार्कं कुर्वन्तु…"
+
+#: widgets/kbookmarkmenu.cpp:331
+msgctxt "KBookmarkMenu|@action:inmenu"
+msgid "New Bookmark Folder…"
+msgstr "नवीनं बुकमार्कपुटम्…"
+
+#: widgets/kbookmarkmenu.cpp:246
+msgctxt "KBookmarkMenu|@info:tooltip"
+msgid "Open all bookmarks in this folder as a new tab"
+msgstr "अस्मिन् पुटे सर्वाणि पुस्तकचिह्नानि नूतनट्याब्रूपेण उद्घाटयन्तु"
 
 #: widgets/kbookmarkmenu.cpp:270
 msgctxt "KBookmarkMenu|@info:tooltip"
@@ -211,11 +216,6 @@ msgstr "सर्वेषां उद्घाटितानां ट्य�
 msgctxt "KBookmarkMenu|@info:tooltip"
 msgid "Edit your bookmark collection in a separate window"
 msgstr "पृथक् विण्डो मध्ये स्वस्य बुकमार्कसङ्ग्रहं सम्पादयन्तु"
-
-#: widgets/kbookmarkmenu.cpp:331
-msgctxt "KBookmarkMenu|@action:inmenu"
-msgid "New Bookmark Folder…"
-msgstr "नवीनं बुकमार्कपुटम्…"
 
 #: widgets/kbookmarkmenu.cpp:333
 msgctxt "KBookmarkMenu|@info:tooltip"
