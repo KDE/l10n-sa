@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-12 00:43+0000\n"
-"PO-Revision-Date: 2024-12-14 01:48+0530\n"
+"PO-Revision-Date: 2024-12-15 21:02+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #: branchcheckoutdialog.cpp:29
 #, kde-format
@@ -188,17 +188,14 @@ msgid "Refresh git status"
 msgstr "\"git\" स्थितिं ताजगीं कुर्वन्तु"
 
 #: gitwidget.cpp:353 kateprojectview.cpp:59
-#, fuzzy, kde-format
-#| msgid "Filter..."
+#, kde-format
 msgid "Filter…"
 msgstr "छायांकन…"
 
 #: gitwidget.cpp:443
 #, kde-format
 msgid "Failed to find .git directory for '%1', things may not work correctly"
-msgstr ""
-"'%1' कृते .git पुटं अन्वेष्टुं असफलम्, वस्तूनि सम्यक् कार्यं न कर्तुं "
-"शक्नुवन्ति"
+msgstr "'%1' कृते .git पुटं अन्वेष्टुं असफलम्, वस्तूनि सम्यक् कार्यं न कर्तुं शक्नुवन्ति"
 
 #: gitwidget.cpp:653
 #, kde-format
@@ -301,10 +298,9 @@ msgid "Show Commit"
 msgstr "प्रतिबद्धं दर्शयतु"
 
 #: gitwidget.cpp:1103
-#, fuzzy, kde-format
-#| msgid "Last Commit"
+#, kde-format
 msgid "Show Last Commit"
-msgstr "अन्तिमप्रतिबद्धता"
+msgstr "अन्तिमप्रतिबद्धतां दर्शयतु"
 
 #: gitwidget.cpp:1121
 #, kde-format
@@ -475,9 +471,7 @@ msgstr "किं भवन्तः परिवर्तनं परित्
 #: gitwidget.cpp:1408
 #, kde-format
 msgid "Are you sure you want to remove these untracked changes?"
-msgstr ""
-"किं भवान् निश्चितः अस्ति यत् भवान् एतान् अनिरीक्षितपरिवर्तनानि दूरीकर्तुं "
-"इच्छति?"
+msgstr "किं भवान् निश्चितः अस्ति यत् भवान् एतान् अनिरीक्षितपरिवर्तनानि दूरीकर्तुं इच्छति?"
 
 #: kateproject.cpp:297
 #, kde-format
@@ -502,16 +496,13 @@ msgid "Project Completion"
 msgstr "परियोजना समाप्ति"
 
 #: kateprojectconfigpage.cpp:26
-#, fuzzy, kde-format
-#| msgid ""
-#| "Project plugin is able to autoload repository working copies when there "
-#| "is no .kateproject file defined yet."
+#, kde-format
 msgid ""
-"Project plugin is able to autoload repository working copies and build "
-"trees when there is no .kateproject file defined yet."
+"Project plugin is able to autoload repository working copies and build trees "
+"when there is no .kateproject file defined yet."
 msgstr ""
-"परियोजना प्लगिन् भण्डारस्य कार्यरतप्रतियाः स्वयमेव आरोपयतुं समर्थः भवति यदा "
-"अद्यापि .kateproject सञ्चिका परिभाषिता नास्ति ।."
+"परियोजना प्लगिन् भण्डारस्य कार्यरतप्रतियाः स्वयमेव लोड् कर्तुं वृक्षान् निर्मातुं च समर्थः भवति "
+"यदा अद्यापि .kateproject सञ्चिका परिभाषिता नास्ति ।."
 
 #: kateprojectconfigpage.cpp:29
 #, kde-format
@@ -566,11 +557,11 @@ msgstr "अनुक्रमणिकासञ्चिकानां कृ�
 #: kateprojectconfigpage.cpp:65
 #, kde-format
 msgid ""
-"The system temporary directory is used if not specified, which may overflow "
-"for very large repositories"
+"The system temporary directory is used if not specified, which may overflow for "
+"very large repositories"
 msgstr ""
-"यदि न निर्दिष्टं तर्हि प्रणाली अस्थायी पुटं उपयुज्यते, यत् अत्यन्तं "
-"विशालानां भण्डाराणां कृते अतिप्रवाहं कर्तुं शक्नोति"
+"यदि न निर्दिष्टं तर्हि प्रणाली अस्थायी पुटं उपयुज्यते, यत् अत्यन्तं विशालानां भण्डाराणां कृते "
+"अतिप्रवाहं कर्तुं शक्नोति"
 
 #: kateprojectconfigpage.cpp:73
 #, kde-format
@@ -628,10 +619,9 @@ msgid "Terminal (Base)"
 msgstr "टर्मिनल् (आधार)"
 
 #: kateprojectinfoview.cpp:86
-#, fuzzy, kde-format
-#| msgid "Terminal (Base)"
+#, kde-format
 msgid "Terminal (build)"
-msgstr "टर्मिनल् (आधार)"
+msgstr "टर्मिनल् (निर्माणम्)"
 
 #: kateprojectinfoview.cpp:93
 #, kde-format
@@ -654,31 +644,24 @@ msgid "Start Analysis..."
 msgstr "विश्लेषणं आरभत..."
 
 #: kateprojectinfoviewcodeanalysis.cpp:100
-#, fuzzy, kde-format
-#| msgid ""
-#| "%1<br/><br/>The tool will be run on all project files which match this "
-#| "list of file extensions:<br/><br/><b>%2</b>"
+#, kde-format
 msgid ""
-"'%1' is not installed on your system, %2.<br/><br/>%3. The tool will be run "
-"on all project files which match this list of file extensions:<br/><b>%4</b>"
+"'%1' is not installed on your system, %2.<br/><br/>%3. The tool will be run on "
+"all project files which match this list of file extensions:<br/><b>%4</b>"
 msgstr ""
-"%1<br/><br/>उपकरणं सर्वेषु परियोजनासञ्चिकासु चालितं भविष्यति ये "
-"सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><br/><b>%2</b>"
+"'%1' भवतः प्रणाल्यां न संस्थापितम्, %2.<br/><br/>%3. साधनं सर्वेषु परियोजनासञ्चिकासु चालितं "
+"भविष्यति ये सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><b>%4</b>"
 
 #: kateprojectinfoviewcodeanalysis.cpp:110
-#, fuzzy, kde-format
-#| msgid ""
-#| "%1<br/><br/>The tool will be run on all project files which match this "
-#| "list of file extensions:<br/><br/><b>%2</b>"
+#, kde-format
 msgid ""
 "Using %1 installed at: %2.<br/><br/>%3. The tool will be run on all project "
 "files which match this list of file extensions:<br/><b>%4</b>"
 msgstr ""
-"%1<br/><br/>उपकरणं सर्वेषु परियोजनासञ्चिकासु चालितं भविष्यति ये "
-"सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><br/><b>%2</b>"
+"%1 संस्थापितम् इत्यस्य उपयोगेन: %2.<br/><br/>%3. साधनं सर्वेषु परियोजनासञ्चिकासु चालितं "
+"भविष्यति ये सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><b>%4</b>"
 
-#: kateprojectinfoviewcodeanalysis.cpp:152
-#: kateprojectinfoviewcodeanalysis.cpp:212
+#: kateprojectinfoviewcodeanalysis.cpp:152 kateprojectinfoviewcodeanalysis.cpp:212
 #: kateprojectinfoviewcodeanalysis.cpp:216
 #, kde-format
 msgid "CodeAnalysis"
@@ -742,9 +725,7 @@ msgstr "परियोजना समापनस्य पुष्टिं 
 #: kateprojectplugin.cpp:217
 #, kde-format
 msgid "Do you want to close the project %1 and the related %2 open documents?"
-msgstr ""
-"किं भवान् परियोजना %1 तथा तत्सम्बद्धानि %2 उद्घाटितदस्तावेजानि पिधातुम् "
-"इच्छति?"
+msgstr "किं भवान् परियोजना %1 तथा तत्सम्बद्धानि %2 उद्घाटितदस्तावेजानि पिधातुम् इच्छति?"
 
 #: kateprojectplugin.cpp:594
 #, kde-format
@@ -757,8 +738,8 @@ msgid ""
 "Full path to current project excluding the file name, with native path "
 "separator (backslash on Windows)."
 msgstr ""
-"सञ्चिकानाम विहाय वर्तमानप्रकल्पस्य पूर्णमार्गः, देशीमार्गविभाजकेन (गवाक्ष "
-"इत्यत्र प्रतिक्रिया) सह ।."
+"सञ्चिकानाम विहाय वर्तमानप्रकल्पस्य पूर्णमार्गः, देशीमार्गविभाजकेन (गवाक्ष इत्यत्र प्रतिक्रिया) "
+"सह ।."
 
 #: kateprojectpluginview.cpp:56
 #, kde-format
@@ -781,10 +762,9 @@ msgid "Close project"
 msgstr "परियोजनां बन्दं कुर्वन्तु"
 
 #: kateprojectpluginview.cpp:162
-#, fuzzy, kde-format
-#| msgid "Open Folder..."
+#, kde-format
 msgid "Open &Folder..."
-msgstr "पुटं उद्घाटयन्तु..."
+msgstr "&पुटं उद्घाटयन्तु..."
 
 #: kateprojectpluginview.cpp:168
 #, kde-format
@@ -872,16 +852,14 @@ msgid "Copy Location"
 msgstr "स्थानं प्रतिलिख्यताम्"
 
 #: kateprojecttreeviewcontextmenu.cpp:97
-#, fuzzy, kde-format
-#| msgid "Open File"
+#, kde-format
 msgid "New File…"
-msgstr "सञ्चिकां उद्घाटयन्तु"
+msgstr "नवीनं सञ्चिका…"
 
 #: kateprojecttreeviewcontextmenu.cpp:98
-#, fuzzy, kde-format
-#| msgid "Add Folder"
+#, kde-format
 msgid "New Folder…"
-msgstr "पुटं योजयतु"
+msgstr "नवीनं पुटम्…"
 
 #: kateprojecttreeviewcontextmenu.cpp:105
 #, kde-format
@@ -919,16 +897,14 @@ msgid "Show Git History"
 msgstr "गिट् इतिहासं दर्शयतु"
 
 #: kateprojecttreeviewcontextmenu.cpp:210
-#, fuzzy, kde-format
-#| msgid "Open File"
+#, kde-format
 msgid "New File"
-msgstr "सञ्चिकां उद्घाटयन्तु"
+msgstr "नवीनं सञ्चिका"
 
 #: kateprojecttreeviewcontextmenu.cpp:215
-#, fuzzy, kde-format
-#| msgid "Add Folder"
+#, kde-format
 msgid "New Folder"
-msgstr "पुटं योजयतु"
+msgstr "नवीनं पुटम्"
 
 #: kateprojectviewtree.cpp:218
 #, kde-format
@@ -943,29 +919,23 @@ msgstr "पुटं निर्मातुं असफलम्: %1"
 #: kateprojectworker.cpp:734
 #, kde-format
 msgid ""
-"Unable to load %1 based project because either %1 is not installed or it "
-"wasn't found in PATH environment variable. Please install %1 or "
-"alternatively disable the option 'Autoload Repositories && Build Trees' in "
-"project settings."
+"Unable to load %1 based project because either %1 is not installed or it wasn't "
+"found in PATH environment variable. Please install %1 or alternatively disable "
+"the option 'Autoload Repositories && Build Trees' in project settings."
 msgstr ""
-"%1 आधारितं परियोजनां लोड् कर्तुं असमर्थम् यतः %1 संस्थापितम् अथवा PATH "
-"वातावरणचरमध्ये न प्राप्तम् । कृपया %1 संस्थापयन्तु अथवा वैकल्पिकरूपेण "
-"परियोजनासेटिंग्स् मध्ये 'Autoload Repositories && Build Trees' इति विकल्पं "
-"निष्क्रियं कुर्वन्तु ।"
+"%1 आधारितं परियोजनां लोड् कर्तुं असमर्थम् यतः %1 संस्थापितम् अथवा PATH वातावरणचरमध्ये न "
+"प्राप्तम् । कृपया %1 संस्थापयन्तु अथवा वैकल्पिकरूपेण परियोजनासेटिंग्स् मध्ये 'Autoload "
+"Repositories && Build Trees' इति विकल्पं निष्क्रियं कुर्वन्तु ।"
 
 #: stashdialog.cpp:36
 #, kde-format
 msgid "Stash message (optional). Enter to confirm, Esc to leave."
-msgstr ""
-"सन्देशं स्तम्भयन्तु (वैकल्पिकम्)। पुष्ट्यर्थं प्रविशन्तु, निर्गन्तुं Esc "
-"प्रविशन्तु ।."
+msgstr "सन्देशं स्तम्भयन्तु (वैकल्पिकम्)। पुष्ट्यर्थं प्रविशन्तु, निर्गन्तुं Esc प्रविशन्तु ।."
 
 #: stashdialog.cpp:43
 #, kde-format
 msgid "Type to filter, Enter to pop stash, Esc to leave."
-msgstr ""
-"छानने टङ्कयन्तु, संग्रहं पॉप् कुर्वन्तुं कृते ENTER, त्यक्तुं Esc इति "
-"टङ्कयन्तु ।."
+msgstr "छानने टङ्कयन्तु, संग्रहं पॉप् कुर्वन्तुं कृते ENTER, त्यक्तुं Esc इति टङ्कयन्तु ।."
 
 #: stashdialog.cpp:142
 #, kde-format
@@ -1017,8 +987,8 @@ msgstr "संग्रहं सफलतया पोप् अभवत्।
 msgid "Show stash failed. Error: "
 msgstr "संग्रहं दर्शयतु विफलम् अभवत्। त्रुटि: "
 
-#: ui.rc:9
 #. i18n: ectx: Menu (projects)
+#: ui.rc:9
 #, kde-format
 msgid "&Projects"
 msgstr "&परियोजना"
@@ -1054,12 +1024,10 @@ msgid "<span style=\"color:%1;\">%2</span> / 52"
 msgstr "<span style=\"color:%1;\">%2</span> / 52"
 
 #: kateprojectconfigpage.cpp:24
-#, fuzzy, kde-format
-#| msgctxt "Groupbox title"
-#| msgid "Autoload Repositories"
+#, kde-format
 msgctxt "Groupbox title"
 msgid "Autoload Repositories && Build Trees"
-msgstr "भण्डारः स्वतः आरोपयतु"
+msgstr "भण्डारः तथा वृक्षाः निर्माणं कर्तुं इत्येतत् स्वयमेव लोड् कुर्वन्तु"
 
 #: kateprojectconfigpage.cpp:47
 #, kde-format
@@ -1100,9 +1068,8 @@ msgstr "विध्यादेश विश्लेषण - %1"
 #: kateprojectinfoviewcodeanalysis.cpp:207
 #, kde-format
 msgctxt ""
-"Message to the user that analysis finished. %1 is the name of the program "
-"that did the analysis, %2 is a number. e.g., [clang-tidy]Analysis on 5 "
-"files finished"
+"Message to the user that analysis finished. %1 is the name of the program that "
+"did the analysis, %2 is a number. e.g., [clang-tidy]Analysis on 5 files finished"
 msgid "[%1]Analysis on %2 file finished."
 msgid_plural "[%1]Analysis on %2 files finished."
 msgstr[0] "[%1] %2 सञ्चिकायां विश्लेषणं समाप्तम्।."

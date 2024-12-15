@@ -2,13 +2,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-systemmonitor package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-systemmonitor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-09 00:40+0000\n"
-"PO-Revision-Date: 2023-09-24 21:53+0530\n"
+"PO-Revision-Date: 2024-12-15 21:59+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -16,42 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:263
-#, fuzzy, kde-format
-#| msgid ""
-#| "Are you sure you want to quit this application?\n"
-#| "Any unsaved work may be lost."
-#| msgid_plural ""
-#| "Are you sure you want to quit these %1 applications?\n"
-#| "Any unsaved work may be lost."
+#, kde-format
 msgid "Force quit (SIGKILL) the application? Unsaved work may be lost."
 msgid_plural "Force quit (SIGKILL) these %1 applications Unsaved work may be lost."
-msgstr[0] ""
-"किं भवान् निश्चितः अस्ति यत् भवान् एतत् अनुप्रयोगं त्यक्तुम् इच्छति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
-msgstr[1] ""
-"किं भवान् निश्चितः अस्ति यत् भवान् एतान् %1 अनुप्रयोगान् त्यक्तुम् इच्छति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
+msgstr[0] "बलेन अनुप्रयोगं त्यक्तवान् (SIGKILL)? अरक्षितं कार्यं नष्टं भवेत्।"
+msgstr[1] "बलात् त्यक्त्वा (SIGKILL) एतानि %1 अनुप्रयोगाः असरक्षितं कार्यं नष्टं भवितुम् अर्हति ।"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:266
-#, fuzzy, kde-format
-#| msgid ""
-#| "Are you sure you want to quit this application?\n"
-#| "Any unsaved work may be lost."
-#| msgid_plural ""
-#| "Are you sure you want to quit these %1 applications?\n"
-#| "Any unsaved work may be lost."
+#, kde-format
 msgid "Quit this application? Unsaved work may be lost."
 msgid_plural "Quit these %1 applications? Unsaved work may be lost."
-msgstr[0] ""
-"किं भवान् निश्चितः अस्ति यत् भवान् एतत् अनुप्रयोगं त्यक्तुम् इच्छति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
-msgstr[1] ""
-"किं भवान् निश्चितः अस्ति यत् भवान् एतान् %1 अनुप्रयोगान् त्यक्तुम् इच्छति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
+msgstr[0] "एतत् अनुप्रयोगं त्यजन्तु? अरक्षितं कार्यं नष्टं भवेत्।"
+msgstr[1] "एतानि %1 अनुप्रयोगाः त्यजन्तु? अरक्षितं कार्यं नष्टं भवेत्।"
 
 #: src/faces/applicationstable/contents/ui/ApplicationDetails.qml:48
 #, kde-format
@@ -60,15 +40,12 @@ msgid "Details"
 msgstr "विवरणम्"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:256
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Quit Application"
-#| msgid_plural "Quit %1 Applications"
+#, kde-format
 msgctxt "@title:window"
 msgid "Force Quit Application"
 msgid_plural "Force Quit %1 Applications"
-msgstr[0] "अनुप्रयोगं त्यजतु"
-msgstr[1] "%1 अनुप्रयोगाः त्यजन्तु"
+msgstr[0] "बलेन अनुप्रयोगं त्यजतु"
+msgstr[1] "बलेन %1 अनुप्रयोगाः त्यजन्तु"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:257
 #, kde-format
@@ -151,9 +128,7 @@ msgid "Show Details Sidebar"
 msgstr "विवरणस्य पार्श्वपट्टिका दर्शयतु"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:58
-#, fuzzy, kde-format
-#| msgctxt "@action"
-#| msgid "Configure columns…"
+#, kde-format
 msgctxt "@action"
 msgid "Configure Columns…"
 msgstr "स्तम्भान् विन्यस्यताम्…"
@@ -233,15 +208,12 @@ msgid "Hide"
 msgstr "गोपयतु"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:259
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Quit Application"
-#| msgid_plural "Quit Applications"
+#, kde-format
 msgctxt "@action:button"
 msgid "Force Quit Application"
 msgid_plural "Force Quit Applications"
-msgstr[0] "अनुप्रयोगं त्यजतु"
-msgstr[1] "अनुप्रयोगाः त्यजन्तु"
+msgstr[0] "बलेन अनुप्रयोगं त्यजतु"
+msgstr[1] "बलेन अनुप्रयोगाः त्यजन्तु"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:260
 #, kde-format

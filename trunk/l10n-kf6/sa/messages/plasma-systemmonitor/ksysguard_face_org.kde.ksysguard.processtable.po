@@ -2,13 +2,13 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-systemmonitor package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-systemmonitor\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-09 00:40+0000\n"
-"PO-Revision-Date: 2023-09-23 14:42+0530\n"
+"PO-Revision-Date: 2024-12-15 22:02+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -16,47 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:263
-#, fuzzy, kde-format
-#| msgid ""
-#| "Are you sure you want to end this process?\n"
-#| "Any unsaved work may be lost."
-#| msgid_plural ""
-#| "Are you sure you want to end these %1 processes?\n"
-#| "Any unsaved work may be lost."
+#, kde-format
 msgid "Forcibly end (SIGKILL) this process? Unsaved work may be lost."
 msgid_plural "Forcibly end (SIGKILL) these %1 processes? Unsaved work may be lost."
-msgstr[0] ""
-"किं भवन्तः निश्चयेन एतां प्रक्रियां समाप्तुं इच्छन्ति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
-msgstr[1] ""
-"किं भवान् निश्चयेन एताः %1 प्रक्रियाः समाप्तुं इच्छति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
+msgstr[0] "बलात् एतां प्रक्रियां समाप्तं (SIGKILL)? अरक्षितं कार्यं नष्टं भवेत्।"
+msgstr[1] "बलात् एताः %1 प्रक्रियाः समाप्ताः (SIGKILL)? अरक्षितं कार्यं नष्टं भवेत्।"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:266
-#, fuzzy, kde-format
-#| msgid ""
-#| "Are you sure you want to end this process?\n"
-#| "Any unsaved work may be lost."
-#| msgid_plural ""
-#| "Are you sure you want to end these %1 processes?\n"
-#| "Any unsaved work may be lost."
+#, kde-format
 msgid "End this process? Unsaved work may be lost."
 msgid_plural "End these %1 processes? Unsaved work may be lost."
-msgstr[0] ""
-"किं भवन्तः निश्चयेन एतां प्रक्रियां समाप्तुं इच्छन्ति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
-msgstr[1] ""
-"किं भवान् निश्चयेन एताः %1 प्रक्रियाः समाप्तुं इच्छति?\n"
-"यत्किमपि अरक्षितं कार्यं नष्टं भवितुम् अर्हति।."
+msgstr[0] "एतस्याः प्रक्रियायाः समाप्तिः ? अरक्षितं कार्यं नष्टं भवेत्।"
+msgstr[1] "एताः %1 प्रक्रियाः समाप्ताः? अरक्षितं कार्यं नष्टं भवेत्।"
 
 #: src/faces/processtable/contents/ui/Config.qml:24
-#, fuzzy, kde-format
-#| msgctxt "@option:check"
-#| msgid "Confirm ending processes."
+#, kde-format
 msgctxt "@option:check"
 msgid "Confirm ending processes"
 msgstr "समाप्तिप्रक्रियाः पुष्टयन्तु।."
@@ -68,33 +46,25 @@ msgid "By default show:"
 msgstr "पूर्वनिर्धारितरूपेण दर्शयतु:"
 
 #: src/faces/processtable/contents/ui/Config.qml:38
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "Own Processes"
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Own processes"
 msgstr "स्वकीयाः प्रक्रियाः"
 
 #: src/faces/processtable/contents/ui/Config.qml:39
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "User Processes"
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "User processes"
 msgstr "उपयोक्तृप्रक्रियाः"
 
 #: src/faces/processtable/contents/ui/Config.qml:40
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "System Processes"
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "System processes"
 msgstr "सङ्गणकतन्त्रस्य प्रक्रियाः"
 
 #: src/faces/processtable/contents/ui/Config.qml:41
-#, fuzzy, kde-format
-#| msgctxt "@item:inlistbox"
-#| msgid "All Processes"
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "All processes"
 msgstr "सर्वाणि प्रक्रियाः"
@@ -124,9 +94,7 @@ msgid "Display as Tree"
 msgstr "वृक्षरूपेण प्रदर्शयतु"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:127
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Configure Columns…"
+#, kde-format
 msgctxt "@action"
 msgid "Configure Columns…"
 msgstr "स्तम्भान् विन्यस्यताम्…"
@@ -168,12 +136,10 @@ msgid "Send Signal"
 msgstr "संकेतं प्रेषयन्तु"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:217
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Configure Columns…"
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Copy Current Column"
-msgstr "स्तम्भान् विन्यस्यताम्…"
+msgstr "वर्तमान स्तम्भं प्रतिलिख्यताम्"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:226
 #, kde-format
@@ -244,15 +210,12 @@ msgid "Hide"
 msgstr "गोपयतु"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:256
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "End Process"
-#| msgid_plural "End %1 Processes"
+#, kde-format
 msgctxt "@title:window"
 msgid "Forcibly End Process"
 msgid_plural "Forcibly End %1 Processes"
-msgstr[0] "प्रक्रियां समाप्तं कुर्वन्तु"
-msgstr[1] "%1 प्रक्रियाः समाप्ताः"
+msgstr[0] "बलात् प्रक्रिया समाप्ति"
+msgstr[1] "बलात् %1 प्रक्रियाः समाप्तं कुर्वन्तु"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:257
 #, kde-format
@@ -263,15 +226,12 @@ msgstr[0] "प्रक्रियां समाप्तं कुर्व�
 msgstr[1] "%1 प्रक्रियाः समाप्ताः"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:259
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "End Process"
-#| msgid_plural "End Processes"
+#, kde-format
 msgctxt "@action:button"
 msgid "Forcibly End Process"
 msgid_plural "Forcibly End Processes"
-msgstr[0] "प्रक्रियां समाप्तं कुर्वन्तु"
-msgstr[1] "प्रक्रियाः समाप्तं कुर्वन्तु"
+msgstr[0] "बलात् प्रक्रिया समाप्तं कुर्वन्तु"
+msgstr[1] "बलात् प्रक्रियाः समाप्तं कुर्वन्तु"
 
 #: src/faces/processtable/contents/ui/FullRepresentation.qml:260
 #, kde-format
