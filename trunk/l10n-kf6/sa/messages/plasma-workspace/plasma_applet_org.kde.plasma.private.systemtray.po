@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-workspace package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -52,6 +52,12 @@ msgstr "हार्डवेयर नियन्त्रणम्"
 msgid "Miscellaneous"
 msgstr "विविध"
 
+#: package/contents/ui/ConfigEntries.qml:74
+#, kde-format
+msgctxt "Name of the system tray entry"
+msgid "Entry"
+msgstr "प्रविष्टि"
+
 #: package/contents/ui/ConfigEntries.qml:81
 #, kde-format
 msgid "Visibility"
@@ -87,6 +93,12 @@ msgstr "अक्षमित"
 msgid "Always show all entries"
 msgstr "सर्वदा सर्वाणि प्रविष्टयः दर्शयन्तु"
 
+#: package/contents/ui/ConfigGeneral.qml:23
+#, kde-format
+msgctxt "The arrangement of system tray icons in the Panel"
+msgid "Panel icon size:"
+msgstr "फलकचिह्न आकारः : १."
+
 #: package/contents/ui/ConfigGeneral.qml:25
 #, kde-format
 msgid "Small"
@@ -106,48 +118,6 @@ msgstr "Panel width सह स्केल"
 #, kde-format
 msgid "Automatically enabled when in Touch Mode"
 msgstr "टच मोड् मध्ये स्थित्वा स्वयमेव सक्षमम्"
-
-#: package/contents/ui/ExpandedRepresentation.qml:71
-#, kde-format
-msgid "Status and Notifications"
-msgstr "स्थितिः अधिसूचना च"
-
-#: package/contents/ui/ExpandedRepresentation.qml:140
-#, kde-format
-msgid "More actions"
-msgstr "अधिकानि कर्माणि"
-
-#: package/contents/ui/ExpandedRepresentation.qml:240
-#, kde-format
-msgid "Keep Open"
-msgstr "खुले रखें"
-
-#: package/contents/ui/ExpanderArrow.qml:26
-#, kde-format
-msgid "Show all the items in the system tray in a popup"
-msgstr "सिस्टम् ट्रे मध्ये सर्वाणि वस्तूनि popup मध्ये दर्शयन्तु"
-
-#: package/contents/ui/ExpanderArrow.qml:40
-#, kde-format
-msgid "Close popup"
-msgstr "पॉपअपं बन्दं कुर्वन्तु"
-
-#: package/contents/ui/ExpanderArrow.qml:40
-#, kde-format
-msgid "Show hidden icons"
-msgstr "गुप्तचिह्नानि दर्शयतु"
-
-#: package/contents/ui/ConfigEntries.qml:74
-#, kde-format
-msgctxt "Name of the system tray entry"
-msgid "Entry"
-msgstr "प्रविष्टि"
-
-#: package/contents/ui/ConfigGeneral.qml:23
-#, kde-format
-msgctxt "The arrangement of system tray icons in the Panel"
-msgid "Panel icon size:"
-msgstr "फलकचिह्न आकारः : १."
 
 #: package/contents/ui/ConfigGeneral.qml:49
 #, kde-format
@@ -184,6 +154,36 @@ msgstr "स्पर्शविधौ स्थित्वा स्वयम�
 msgctxt "@action:button"
 msgid "Go Back"
 msgstr "Go Back इति"
+
+#: package/contents/ui/ExpandedRepresentation.qml:71
+#, kde-format
+msgid "Status and Notifications"
+msgstr "स्थितिः अधिसूचना च"
+
+#: package/contents/ui/ExpandedRepresentation.qml:140
+#, kde-format
+msgid "More actions"
+msgstr "अधिकानि कर्माणि"
+
+#: package/contents/ui/ExpandedRepresentation.qml:240
+#, kde-format
+msgid "Keep Open"
+msgstr "खुले रखें"
+
+#: package/contents/ui/ExpanderArrow.qml:26
+#, kde-format
+msgid "Show all the items in the system tray in a popup"
+msgstr "सिस्टम् ट्रे मध्ये सर्वाणि वस्तूनि popup मध्ये दर्शयन्तु"
+
+#: package/contents/ui/ExpanderArrow.qml:40
+#, kde-format
+msgid "Close popup"
+msgstr "पॉपअपं बन्दं कुर्वन्तु"
+
+#: package/contents/ui/ExpanderArrow.qml:40
+#, kde-format
+msgid "Show hidden icons"
+msgstr "गुप्तचिह्नानि दर्शयतु"
 
 #: package/contents/ui/HiddenItemsView.qml:43
 #, kde-format

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kbreakout package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kbreakout\n"
@@ -13,29 +13,39 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
-#: generalsettings.ui:13
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, GeneralSettings)
+#: generalsettings.ui:13
 #, kde-format
 msgid "General Settings"
 msgstr "सामान्य सेटिंग्स्"
 
-#: generalsettings.ui:28
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: generalsettings.ui:28
 #, kde-format
 msgid ""
 "Enabling the following option will make the game steal the mouse cursor, "
 "pause the game to get the cursor back."
 msgstr ""
-"निम्नलिखितविकल्पं सक्षमीकरणेन क्रीडा मूषकस्य कर्सरं चोर्यते, कर्सरं पुनः "
-"प्राप्तुं क्रीडां विरामं करिष्यति ।"
+"निम्नलिखितविकल्पं सक्षमीकरणेन क्रीडा मूषकस्य कर्सरं चोर्यते, कर्सरं पुनः प्राप्तुं क्रीडां विरामं "
+"करिष्यति ।"
 
-#: generalsettings.ui:38 kbreakout.kcfg:9
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FireOnClick)
 #. i18n: ectx: label, entry (FireOnClick), group (General)
+#: generalsettings.ui:38 kbreakout.kcfg:9
 #, kde-format
 msgid "Fire on mouse click"
 msgstr "मूषकस्य क्लिक् इत्यत्र अग्निः"
@@ -110,73 +120,6 @@ msgstr "विरञ्च मेहता"
 msgid "port to QtQuick"
 msgstr "पोर्ट् to QtQuick"
 
-#: mainwindow.cpp:169
-#, kde-format
-msgid "   Time (hh:mm)"
-msgstr "   काल (हः:म्) २."
-
-#: mainwindow.cpp:178
-#, kde-format
-msgid "Starting a new game will end the current one!"
-msgstr "नूतनं क्रीडां आरभ्य वर्तमानस्य क्रीडायाः समाप्तिः भविष्यति!"
-
-#: mainwindow.cpp:214
-#, kde-format
-msgid "Game won!"
-msgstr "क्रीडा विजयी अभवत्!"
-
-#: mainwindow.cpp:221
-#, kde-format
-msgid "Time (hh:mm)"
-msgstr "काल (हः:म्) २."
-
-#: mainwindow.cpp:300
-#, kde-format
-msgid ""
-"Do you want to fire the ball on mouse click?\n"
-"Answering Yes will make the game steal the\n"
-"mouse cursor, pause the game to get\n"
-"the cursor back."
-msgstr ""
-"मूषकस्य क्लिक् करणेन कन्दुकं प्रहारयितुम् इच्छति वा ?\n"
-"हाँ इति उत्तरं दत्त्वा क्रीडा चोरणं करिष्यति\n"
-"mouse cursor, प्राप्तुं क्रीडां विरामयन्तु\n"
-"कर्सरः पृष्ठतः ।"
-
-#: qml/logic.js:199
-msgid "Well done! You won the game"
-msgstr "सद् कृत! त्वं क्रीडां जित्वा"
-
-#: qml/logic.js:206 qml/main.qml:145
-msgid "Level %1"
-msgstr "स्तरः %1"
-
-#: qml/logic.js:347
-msgid "Game Paused!"
-msgstr "खेल विरामितः!"
-
-#: qml/logic.js:497
-msgid "Oops! You have lost the ball!"
-msgstr "उफ ! त्वं कन्दुकं नष्टवान् !"
-
-#: qml/logic.js:552
-msgid "Game Over!"
-msgstr "गेम ओवर!"
-
-#: qml/main.qml:115
-msgid "Press %1 to fire the ball"
-msgstr "कन्दुकं प्रज्वलितुं %1 नुदन्तु"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
 #: mainwindow.cpp:107
 #, kde-format
 msgctxt "Key (shortcut) to toggle full screen"
@@ -219,23 +162,56 @@ msgctxt "@title:tab"
 msgid "General"
 msgstr "सामान्य"
 
+#: mainwindow.cpp:169
+#, kde-format
+msgid "   Time (hh:mm)"
+msgstr "   काल (हः:म्) २."
+
+#: mainwindow.cpp:178
+#, kde-format
+msgid "Starting a new game will end the current one!"
+msgstr "नूतनं क्रीडां आरभ्य वर्तमानस्य क्रीडायाः समाप्तिः भविष्यति!"
+
 #: mainwindow.cpp:179
 #, kde-format
 msgctxt "@title:window"
 msgid "New Game"
 msgstr "नवीन खेल"
 
-#: mainwindow.cpp:304
-#, kde-format
-msgctxt "@title:window"
-msgid "Fire on Click"
-msgstr "क्लिक् इत्यत्र अग्निः"
-
 #: mainwindow.cpp:180
 #, kde-format
 msgctxt "@action:button"
 msgid "Start a New Game"
 msgstr "नूतनं क्रीडां आरभत"
+
+#: mainwindow.cpp:214
+#, kde-format
+msgid "Game won!"
+msgstr "क्रीडा विजयी अभवत्!"
+
+#: mainwindow.cpp:221
+#, kde-format
+msgid "Time (hh:mm)"
+msgstr "काल (हः:म्) २."
+
+#: mainwindow.cpp:300
+#, kde-format
+msgid ""
+"Do you want to fire the ball on mouse click?\n"
+"Answering Yes will make the game steal the\n"
+"mouse cursor, pause the game to get\n"
+"the cursor back."
+msgstr ""
+"मूषकस्य क्लिक् करणेन कन्दुकं प्रहारयितुम् इच्छति वा ?\n"
+"हाँ इति उत्तरं दत्त्वा क्रीडा चोरणं करिष्यति\n"
+"mouse cursor, प्राप्तुं क्रीडां विरामयन्तु\n"
+"कर्सरः पृष्ठतः ।"
+
+#: mainwindow.cpp:304
+#, kde-format
+msgctxt "@title:window"
+msgid "Fire on Click"
+msgstr "क्लिक् इत्यत्र अग्निः"
 
 #: mainwindow.cpp:305
 #, kde-format
@@ -248,3 +224,27 @@ msgstr "Mouse Click इत्यस्य उपयोगं कुर्वन�
 msgctxt "@action;button"
 msgid "Ignore Mouse Click"
 msgstr "मूषकस्य क्लिक् इत्यस्य अवहेलनां कुर्वन्तु"
+
+#: qml/logic.js:199
+msgid "Well done! You won the game"
+msgstr "सद् कृत! त्वं क्रीडां जित्वा"
+
+#: qml/logic.js:206 qml/main.qml:145
+msgid "Level %1"
+msgstr "स्तरः %1"
+
+#: qml/logic.js:347
+msgid "Game Paused!"
+msgstr "खेल विरामितः!"
+
+#: qml/logic.js:497
+msgid "Oops! You have lost the ball!"
+msgstr "उफ ! त्वं कन्दुकं नष्टवान् !"
+
+#: qml/logic.js:552
+msgid "Game Over!"
+msgstr "गेम ओवर!"
+
+#: qml/main.qml:115
+msgid "Press %1 to fire the ball"
+msgstr "कन्दुकं प्रज्वलितुं %1 नुदन्तु"

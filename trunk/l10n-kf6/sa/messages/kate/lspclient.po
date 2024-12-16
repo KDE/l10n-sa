@@ -9,7 +9,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
@@ -68,8 +68,8 @@ msgid ""
 "<br><br><b>%1</b><br><br>The choice can be altered via the config page of "
 "the plugin."
 msgstr ""
-"किं भवान् इच्छति यत् LSP वितारक् आरभ्यताम्?<br><br>पूर्णा आदेशपङ्क्तिः अस्ति:"
-"<br><br><b>%1</b><br><br>प्लगिन् इत्यस्य विन्यासपृष्ठद्वारा विकल्पं परिवर्तयितुं शक्यते ।."
+"किं भवान् इच्छति यत् LSP वितारक् आरभ्यताम्?<br><br>पूर्णा आदेशपङ्क्तिः अस्ति:<br><br><b>"
+"%1</b><br><br>प्लगिन् इत्यस्य विन्यासपृष्ठद्वारा विकल्पं परिवर्तयितुं शक्यते ।."
 
 #: lspclientplugin.cpp:239
 #, kde-format
@@ -278,6 +278,42 @@ msgstr "रेखाः %1: "
 msgid "No results"
 msgstr "न परिणामः"
 
+#: lspclientpluginview.cpp:1570
+#, kde-format
+msgctxt "@title:tab"
+msgid "Definition: %1"
+msgstr "परिभाषा : %1"
+
+#: lspclientpluginview.cpp:1576
+#, kde-format
+msgctxt "@title:tab"
+msgid "Declaration: %1"
+msgstr "घोषणा : %1"
+
+#: lspclientpluginview.cpp:1582
+#, kde-format
+msgctxt "@title:tab"
+msgid "Type Definition: %1"
+msgstr "प्रकारपरिभाषा: %1"
+
+#: lspclientpluginview.cpp:1588
+#, kde-format
+msgctxt "@title:tab"
+msgid "References: %1"
+msgstr "सन्दर्भाः %1"
+
+#: lspclientpluginview.cpp:1600
+#, kde-format
+msgctxt "@title:tab"
+msgid "Implementation: %1"
+msgstr "कार्यान्वयनम् : %1"
+
+#: lspclientpluginview.cpp:1613
+#, kde-format
+msgctxt "@title:tab"
+msgid "Highlight: %1"
+msgstr "प्रकाशयन्तु: %1"
+
 #: lspclientpluginview.cpp:1637 lspclientpluginview.cpp:1648
 #: lspclientpluginview.cpp:1661
 #, kde-format
@@ -294,6 +330,18 @@ msgstr "आरोपण..."
 msgid "No edits"
 msgstr "सम्पादनं नास्ति"
 
+#: lspclientpluginview.cpp:1818
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "नामान्तरितम्"
+
+#: lspclientpluginview.cpp:1819
+#, kde-format
+msgctxt "@label:textbox"
+msgid "New name (caution: not all references may be replaced)"
+msgstr "नूतनं नाम (सावधानी: सर्वे सन्दर्भाः प्रतिस्थापिताः न भवेयुः)"
+
 #: lspclientpluginview.cpp:1865
 #, kde-format
 msgid "Not enough results"
@@ -303,6 +351,18 @@ msgstr "न पर्याप्तं परिणामः"
 #, kde-format
 msgid "Corresponding Header/Source not found"
 msgstr "तत्सम्बद्धं शीर्षकं/स्रोतः न प्राप्तम्"
+
+#: lspclientpluginview.cpp:2130 lspclientpluginview.cpp:2173
+#, kde-format
+msgctxt "@info"
+msgid "LSP Server"
+msgstr "LSP वितारक्"
+
+#: lspclientpluginview.cpp:2196
+#, kde-format
+msgctxt "@info"
+msgid "LSP Client"
+msgstr "LSP ग्राहिका"
 
 #: lspclientpluginview.cpp:2439
 #, kde-format
@@ -571,63 +631,3 @@ msgstr "&LSP ग्राहिका"
 #, kde-format
 msgid "More Options"
 msgstr "अधिकविकल्पाः"
-
-#: lspclientpluginview.cpp:1570
-#, kde-format
-msgctxt "@title:tab"
-msgid "Definition: %1"
-msgstr "परिभाषा : %1"
-
-#: lspclientpluginview.cpp:1576
-#, kde-format
-msgctxt "@title:tab"
-msgid "Declaration: %1"
-msgstr "घोषणा : %1"
-
-#: lspclientpluginview.cpp:1582
-#, kde-format
-msgctxt "@title:tab"
-msgid "Type Definition: %1"
-msgstr "प्रकारपरिभाषा: %1"
-
-#: lspclientpluginview.cpp:1588
-#, kde-format
-msgctxt "@title:tab"
-msgid "References: %1"
-msgstr "सन्दर्भाः %1"
-
-#: lspclientpluginview.cpp:1600
-#, kde-format
-msgctxt "@title:tab"
-msgid "Implementation: %1"
-msgstr "कार्यान्वयनम् : %1"
-
-#: lspclientpluginview.cpp:1613
-#, kde-format
-msgctxt "@title:tab"
-msgid "Highlight: %1"
-msgstr "प्रकाशयन्तु: %1"
-
-#: lspclientpluginview.cpp:1818
-#, kde-format
-msgctxt "@title:window"
-msgid "Rename"
-msgstr "नामान्तरितम्"
-
-#: lspclientpluginview.cpp:1819
-#, kde-format
-msgctxt "@label:textbox"
-msgid "New name (caution: not all references may be replaced)"
-msgstr "नूतनं नाम (सावधानी: सर्वे सन्दर्भाः प्रतिस्थापिताः न भवेयुः)"
-
-#: lspclientpluginview.cpp:2130 lspclientpluginview.cpp:2173
-#, kde-format
-msgctxt "@info"
-msgid "LSP Server"
-msgstr "LSP वितारक्"
-
-#: lspclientpluginview.cpp:2196
-#, kde-format
-msgctxt "@info"
-msgid "LSP Client"
-msgstr "LSP ग्राहिका"

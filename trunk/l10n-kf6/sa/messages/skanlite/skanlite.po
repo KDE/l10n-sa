@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the skanlite package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: skanlite\n"
@@ -13,39 +13,9 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-
-#: settings.ui:253
-#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
-#, kde-format
-msgid "50"
-msgstr "५०"
-
-#: settings.ui:258
-#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
-#, kde-format
-msgid "75"
-msgstr "७५"
-
-#: settings.ui:263
-#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
-#, kde-format
-msgid "100"
-msgstr "१००"
-
-#: settings.ui:268
-#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
-#, kde-format
-msgid "150"
-msgstr "१५० इति"
-
-#: settings.ui:273
-#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
-#, kde-format
-msgid "300"
-msgstr "३००"
 
 #: ImageViewer.cpp:45
 #, kde-format
@@ -147,142 +117,182 @@ msgstr "अनुवादेषु सहायतां कुर्वन्�
 msgid "Albert Astals Cid"
 msgstr "अल्बर्ट एस्टल्स सिड"
 
+#: main.cpp:56
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: main.cpp:56
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: main.cpp:66
 #, kde-format
 msgid "Sane scanner device name. Use 'test' for test device."
-msgstr ""
-"सने स्कैनर उपकरण नाम। परीक्षणयन्त्रस्य कृते 'test' इत्यस्य उपयोगं कुर्वन्तु "
-"।"
+msgstr "सने स्कैनर उपकरण नाम। परीक्षणयन्त्रस्य कृते 'test' इत्यस्य उपयोगं कुर्वन्तु ।"
 
 #: main.cpp:67
 #, kde-format
 msgid "device"
 msgstr "उपकरणम्‌"
 
-#: SaveLocation.ui:20
 #. i18n: ectx: property (windowTitle), widget (QDialog, SaveLocation)
+#: SaveLocation.ui:20
 #, kde-format
 msgid "Save Location"
 msgstr "स्थानं रक्षतु"
 
-#: SaveLocation.ui:28 settings.ui:80
 #. i18n: ectx: property (text), widget (QLabel, locationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: SaveLocation.ui:28 settings.ui:80
 #, kde-format
 msgid "Save Location:"
 msgstr "स्थानं रक्षतु : १."
 
-#: SaveLocation.ui:55
 #. i18n: ectx: property (text), widget (QLabel, namePrefixLabel)
+#: SaveLocation.ui:55
 #, kde-format
 msgid "Name & Format:"
 msgstr "नाम एवं प्रारूप : १."
 
-#: SaveLocation.ui:74 settings.ui:112
 #. i18n: ectx: property (text), widget (QLabel, numberLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: SaveLocation.ui:74 settings.ui:112
 #, kde-format
 msgid "####."
 msgstr "####।"
 
-#: SaveLocation.ui:86
 #. i18n: ectx: property (text), widget (QLabel, numStartFromLabel)
+#: SaveLocation.ui:86
 #, kde-format
 msgid "Start numbering from:"
 msgstr "संख्याकरणं आरभ्यताम् :"
 
-#: SaveLocation.ui:123
 #. i18n: ectx: property (text), widget (QLabel, u_resultLabel)
+#: SaveLocation.ui:123
 #, kde-format
 msgid "Example:"
 msgstr "उदाहरण:"
 
-#: SaveLocation.ui:130
 #. i18n: ectx: property (text), widget (QLabel, u_resultValue)
+#: SaveLocation.ui:130
 #, kde-format
 msgid "/home/joe/example.png"
 msgstr "/गृह/जो/उदाहरण.पङ्"
 
-#: settings.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkanliteSettings)
+#: settings.ui:14
 #, kde-format
 msgid "Settings"
 msgstr "सेटिंग्स्"
 
-#: settings.ui:20
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: settings.ui:20
 #, kde-format
 msgid "Image saving"
 msgstr "चित्रस्य रक्षणम्"
 
-#: settings.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label_7)
+#: settings.ui:26
 #, kde-format
 msgid "Preview before saving:"
 msgstr "रक्षणात् पूर्वं पूर्वावलोकनम् : १."
 
-#: settings.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#: settings.ui:46
 #, kde-format
 msgid "Save mode:"
 msgstr "रक्षणविधिः : १."
 
-#: settings.ui:60
 #. i18n: ectx: property (text), item, widget (QComboBox, saveModeCB)
+#: settings.ui:60
 #, kde-format
 msgid "Open the save dialog for every image"
 msgstr "प्रत्येकं चित्रस्य कृते save संवादं उद्घाटयन्तु"
 
-#: settings.ui:65
 #. i18n: ectx: property (text), item, widget (QComboBox, saveModeCB)
+#: settings.ui:65
 #, kde-format
 msgid "Open the save dialog for the first image only"
 msgstr "केवलं प्रथमप्रतिबिम्बस्य कृते save संवादं उद्घाटयन्तु"
 
-#: settings.ui:90
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings.ui:90
 #, kde-format
 msgid "Name && Format:"
 msgstr "नाम && प्रारूपः : १."
 
-#: settings.ui:105
 #. i18n: ectx: property (text), widget (QLineEdit, imgPrefix)
+#: settings.ui:105
 #, kde-format
 msgid "Image"
 msgstr "छवि"
 
-#: settings.ui:124
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: settings.ui:124
 #, kde-format
 msgid "Specify save quality:"
 msgstr "रक्षणगुणवत्ता निर्दिशन्तु : १."
 
-#: settings.ui:192
 #. i18n: ectx: property (suffix), widget (QSpinBox, imgQuality)
+#: settings.ui:192
 #, no-c-format, kde-format
 msgid "%"
 msgstr "% ."
 
-#: settings.ui:233
 #. i18n: ectx: property (title), widget (QGroupBox, generalGB)
+#: settings.ui:233
 #, kde-format
 msgid "General"
 msgstr "सामान्य"
 
-#: settings.ui:239
 #. i18n: ectx: property (text), widget (QCheckBox, setPreviewDPI)
+#: settings.ui:239
 #, kde-format
 msgid "Set preview resolution (DPI)"
 msgstr "पूर्वावलोकनसंकल्पं (DPI) सेट् कुर्वन्तु ।"
 
-#: settings.ui:286
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#: settings.ui:253
+#, kde-format
+msgid "50"
+msgstr "५०"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#: settings.ui:258
+#, kde-format
+msgid "75"
+msgstr "७५"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#: settings.ui:263
+#, kde-format
+msgid "100"
+msgstr "१००"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#: settings.ui:268
+#, kde-format
+msgid "150"
+msgstr "१५० इति"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#: settings.ui:273
+#, kde-format
+msgid "300"
+msgstr "३००"
+
 #. i18n: ectx: property (text), widget (QCheckBox, u_disableSelections)
+#: settings.ui:286
 #, kde-format
 msgid "Disable automatic selections"
 msgstr "स्वचालितचयनं निष्क्रियं कुर्वन्तु"
 
-#: settings.ui:319
 #. i18n: ectx: property (text), widget (QPushButton, revertOptions)
+#: settings.ui:319
 #, kde-format
 msgid "Revert scanner options to default values"
 msgstr "स्कैनर विकल्पान् पूर्वनिर्धारितमूल्येषु पुनः स्थापयन्तु"
@@ -317,14 +327,20 @@ msgstr "चयनितं स्कैनरं उद्घाटयितु�
 msgid "%1: %2"
 msgstr "%1: %2"
 
+#: skanlite.cpp:337
+#, kde-format
+msgctxt "prefix for auto naming"
+msgid "Image-"
+msgstr "छवि-"
+
 #: skanlite.cpp:472
 #, kde-format
 msgid ""
 "The image will be saved in the PNG format, as the selected image type does "
 "not support saving 16 bit color images."
 msgstr ""
-"चित्रं PNG प्रारूपेण रक्षितं भविष्यति, यतः चयनितः चित्रप्रकारः 16 बिट् "
-"वर्णचित्रस्य रक्षणं समर्थयति नास्ति ।"
+"चित्रं PNG प्रारूपेण रक्षितं भविष्यति, यतः चयनितः चित्रप्रकारः 16 बिट् वर्णचित्रस्य रक्षणं "
+"समर्थयति नास्ति ।"
 
 #: skanlite.cpp:494
 #, kde-format
@@ -340,24 +356,6 @@ msgstr "चित्रं रक्षितुं असफलम्"
 #, kde-format
 msgid "Failed to upload image"
 msgstr "चित्रं अपलोड् कर्तुं असफलम्"
-
-#: main.cpp:56
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#: main.cpp:56
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: skanlite.cpp:337
-#, kde-format
-msgctxt "prefix for auto naming"
-msgid "Image-"
-msgstr "छवि-"
 
 #: skanlite.cpp:758
 #, kde-format

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the akonadiconsole package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,25 +14,43 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: browserwidget_contentview.ui:191 browserwidget_contentview.ui:249
-#: browserwidget_contentview.ui:273 browserwidget_contentview.ui:297
-#. i18n: ectx: property (text), widget (QLabel, id)
-#. i18n: ectx: property (text), widget (QLabel, revision)
-#. i18n: ectx: property (text), widget (QLabel, size)
-#. i18n: ectx: property (text), widget (QLabel, modificationtime)
 #, kde-format
-msgid "0"
-msgstr "०"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: agentconfigdialog.cpp:33
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Configuration"
+msgstr "विन्यासः रक्षतु"
+
+#: agentconfigdialog.cpp:34
+#, kde-format
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr "ताजगी"
 
 #: agentconfigdialog.cpp:35
 #, kde-format
 msgid "Apply Configuration"
 msgstr "विन्यासम् प्रयोजयन्तु"
+
+#: agentconfigdialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Agent Configuration"
+msgstr "एजेण्ट् विन्यासः"
 
 #: agentwidget.cpp:95
 #, kde-format
@@ -49,8 +67,8 @@ msgstr "देशीरूपेण विन्यस्तं कुर्व�
 msgid "Configure Remotely..."
 msgstr "दूरस्थरूपेण विन्यस्तं कुर्वन्तु..."
 
-#: agentwidget.cpp:103 agentwidget.ui:240
 #. i18n: ectx: property (text), widget (QPushButton, syncButton)
+#: agentwidget.cpp:103 agentwidget.ui:240
 #, kde-format
 msgid "Synchronize"
 msgstr "समन्वयनम्"
@@ -87,6 +105,18 @@ msgstr "एजेण्ट् विलोपनम्"
 msgid "Multiple Agent Deletion"
 msgstr "बहुविध एजेण्ट् विलोपनम्"
 
+#: agentwidget.cpp:266
+#, kde-format
+msgctxt "@title:window"
+msgid "Resource Task List"
+msgstr "संसाधन कार्यसूची"
+
+#: agentwidget.cpp:290
+#, kde-format
+msgctxt "@title:window"
+msgid "Change Notification Log"
+msgstr "सूचनावृत्तं परिवर्तयतु"
+
 #: agentwidget.cpp:340
 #, kde-format
 msgid "Cloning agent failed: %1."
@@ -121,6 +151,13 @@ msgstr "भंजित"
 #, kde-format
 msgid "Not Configured"
 msgstr "न विन्यस्तम्"
+
+#: agentwidget.cpp:419
+#, kde-format
+msgctxt ""
+"Two statuses, for example \"Online, Running (66%)\" or \"Offline, Broken\""
+msgid "%1, %2"
+msgstr "%1, %2"
 
 #: agentwidget.cpp:435
 #, kde-format
@@ -162,76 +199,83 @@ msgstr "परिवर्तन-सूचना-वृत्तलेखं द
 msgid "Remove Agent"
 msgstr "एजेण्ट् निष्कासयन्तु"
 
-#: agentwidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, detailsBox)
+#: agentwidget.ui:37
 #, kde-format
 msgid "Details"
 msgstr "वर्णन"
 
-#: agentwidget.ui:46 collectioninternalspage.ui:34 tagpropertiesdialog.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, idLabelBuddy)
+#: agentwidget.ui:46 collectioninternalspage.ui:34 tagpropertiesdialog.ui:27
 #, kde-format
 msgid "Identifier:"
 msgstr "परिचयकः : १."
 
-#: agentwidget.ui:69 tagpropertiesdialog.ui:65
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: agentwidget.ui:69 tagpropertiesdialog.ui:65
 #, kde-format
 msgid "Type:"
 msgstr "प्रकारः:"
 
-#: agentwidget.ui:92
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: agentwidget.ui:92
 #, kde-format
 msgid "Status:"
 msgstr "स्थितिः:"
 
-#: agentwidget.ui:118
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#: agentwidget.ui:118
 #, kde-format
 msgid "Status Message:"
 msgstr "स्थितिसन्देशः : १."
 
-#: agentwidget.ui:144
 #. i18n: ectx: property (text), widget (QLabel, label_7)
+#: agentwidget.ui:144
 #, kde-format
 msgid "Capabilities:"
 msgstr "क्षमता : १."
 
-#: agentwidget.ui:170
 #. i18n: ectx: property (text), widget (QLabel, label_9)
+#: agentwidget.ui:170
 #, kde-format
 msgid "Mimetypes:"
 msgstr "अनुकरणप्रकाराः : १."
 
-#: agentwidget.ui:212
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: agentwidget.ui:212
 #, kde-format
 msgid "Add..."
 msgstr "संयोजयति..."
 
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #: agentwidget.ui:219 notificationmodel.cpp:93 notificationmodel.cpp:115
 #: notificationmodel.cpp:131 notificationmodel.cpp:143
 #: notificationmonitor.cpp:175 notificationmonitor.cpp:355
 #: notificationmonitor.cpp:389 notificationmonitor.cpp:413
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
 #, kde-format
 msgid "Remove"
 msgstr "अपाकरोति"
 
-#: agentwidget.ui:226
 #. i18n: ectx: property (text), widget (QPushButton, configButton)
+#: agentwidget.ui:226
 #, kde-format
 msgid "Configure..."
 msgstr "विन्यस्तं कुर्वन्तु..."
 
-#: agentwidget.ui:233
 #. i18n: ectx: property (text), widget (QPushButton, abortButton)
+#: agentwidget.ui:233
 #, kde-format
 msgid "Abort"
 msgstr "गर्भपातं कुरुत"
+
+#. i18n: ectx: property (text), widget (QPushButton, restartButton)
+#: agentwidget.ui:247
+#, kde-format
+msgctxt "restart the agent"
+msgid "Restart"
+msgstr "पुनः आरभत"
 
 #: akonadibrowsermodel.cpp:74 notificationmodel.cpp:75
 #: notificationmonitor.cpp:373
@@ -254,26 +298,26 @@ msgstr "प्रेषकः"
 msgid "Date"
 msgstr "दिनाङ्कः"
 
-#: akonadiconsoleui.rc:8
 #. i18n: ectx: Menu (collection)
+#: akonadiconsoleui.rc:8
 #, kde-format
 msgid "&Collection"
 msgstr "&सङ्ग्रह"
 
-#: akonadiconsoleui.rc:28
 #. i18n: ectx: Menu (item)
+#: akonadiconsoleui.rc:28
 #, kde-format
 msgid "&Item"
 msgstr "&वस्तु"
 
-#: akonadiconsoleui.rc:36
 #. i18n: ectx: Menu (cache)
+#: akonadiconsoleui.rc:36
 #, kde-format
 msgid "&Cache"
 msgstr "&Cache"
 
-#: akonadiconsoleui.rc:39
 #. i18n: ectx: Menu (server)
+#: akonadiconsoleui.rc:39
 #, kde-format
 msgid "&Server"
 msgstr "&सर्वर"
@@ -333,6 +377,24 @@ msgstr "&सम्पादन टैग..."
 msgid "&Delete tag..."
 msgstr "&टैग डिलीट..."
 
+#: browserwidget.cpp:570
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Tag"
+msgstr "Add Tag"
+
+#: browserwidget.cpp:585
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Subtag"
+msgstr "उपटैग योजयतु"
+
+#: browserwidget.cpp:596 browserwidget.cpp:613
+#, kde-format
+msgctxt "@title:window"
+msgid "Modify Tag"
+msgstr "टैग परिवर्तन करें"
+
 #: browserwidget.cpp:622
 #, kde-format
 msgid "Do you really want to remove selected tag?"
@@ -343,201 +405,217 @@ msgstr "किं भवान् वास्तवमेव चयनितं
 msgid "Delete tag?"
 msgstr "टैगं विलोपयन्तु?"
 
-#: browserwidget_contentview.ui:30
 #. i18n: ectx: property (text), widget (QPushButton, saveButton)
+#: browserwidget_contentview.ui:30
 #, kde-format
 msgid "&Save"
 msgstr "&रक्ष्"
 
-#: browserwidget_contentview.ui:41
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: browserwidget_contentview.ui:41
 #, kde-format
 msgid "Payload"
 msgstr "पेलोड"
 
-#: browserwidget_contentview.ui:81
 #. i18n: ectx: property (text), widget (QLabel, unsupportedType)
+#: browserwidget_contentview.ui:81
 #, kde-format
 msgid "Unsupported Type"
 msgstr "असमर्थितः प्रकारः"
 
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#. i18n: ectx: attribute (title), widget (QWidget, attributesTab)
 #: browserwidget_contentview.ui:103 collectionattributespage.cpp:21
 #: monitorswidget.cpp:112 monitorswidget.cpp:119 monitorswidget.cpp:152
 #: notificationmonitor.cpp:239 notificationmonitor.cpp:511
 #: notificationmonitor.cpp:536 tagpropertiesdialog.ui:76
-#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#. i18n: ectx: attribute (title), widget (QWidget, attributesTab)
 #, kde-format
 msgid "Attributes"
 msgstr "गुणाः"
 
-#: browserwidget_contentview.ui:116 collectionattributespage.ui:23
-#: tagpropertiesdialog.ui:82
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, attrName)
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, newAttrEdit)
+#: browserwidget_contentview.ui:116 collectionattributespage.ui:23
+#: tagpropertiesdialog.ui:82
 #, kde-format
 msgid "New Attribute"
 msgstr "नवीन विशेषता"
 
-#: browserwidget_contentview.ui:123 collectionattributespage.ui:30
-#: tagpropertiesdialog.ui:89 tagpropertiesdialog.ui:126
 #. i18n: ectx: property (text), widget (QPushButton, attrAddButton)
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #. i18n: ectx: property (text), widget (QPushButton, addAttrButton)
 #. i18n: ectx: property (text), widget (QPushButton, addRIDButton)
+#: browserwidget_contentview.ui:123 collectionattributespage.ui:30
+#: tagpropertiesdialog.ui:89 tagpropertiesdialog.ui:126
 #, kde-format
 msgid "&Add"
 msgstr "&संयोजयति"
 
-#: browserwidget_contentview.ui:130 collectionattributespage.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, attrDeleteButton)
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: browserwidget_contentview.ui:130 collectionattributespage.ui:40
 #, kde-format
 msgid "&Delete"
 msgstr "&लुप्"
 
-#: browserwidget_contentview.ui:138
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: browserwidget_contentview.ui:138
 #, kde-format
 msgid "Raw Payload"
 msgstr "कच्चा पेलोड"
 
-#: browserwidget_contentview.ui:155 collectioninternalspage.cpp:15
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: browserwidget_contentview.ui:155 collectioninternalspage.cpp:15
 #, kde-format
 msgid "Internals"
 msgstr "आन्तरिकाः"
 
-#: browserwidget_contentview.ui:178
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: browserwidget_contentview.ui:178
 #, kde-format
 msgid "Unique ID:"
 msgstr "अद्वितीय ID: 1.1."
 
-#: browserwidget_contentview.ui:202
+#. i18n: ectx: property (text), widget (QLabel, id)
+#. i18n: ectx: property (text), widget (QLabel, revision)
+#. i18n: ectx: property (text), widget (QLabel, size)
+#. i18n: ectx: property (text), widget (QLabel, modificationtime)
+#: browserwidget_contentview.ui:191 browserwidget_contentview.ui:249
+#: browserwidget_contentview.ui:273 browserwidget_contentview.ui:297
+#, kde-format
+msgid "0"
+msgstr "०"
+
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: browserwidget_contentview.ui:202
 #, kde-format
 msgid "Remote ID:"
 msgstr "दूरस्थः आईडी : १."
 
-#: browserwidget_contentview.ui:219 tagpropertiesdialog.ui:41
 #. i18n: ectx: property (text), widget (QLabel, label_gid)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: browserwidget_contentview.ui:219 tagpropertiesdialog.ui:41
 #, kde-format
 msgid "GID:"
 msgstr "जीआईडी : १."
 
-#: browserwidget_contentview.ui:236
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: browserwidget_contentview.ui:236
 #, kde-format
 msgid "Revision:"
 msgstr "कार्यदर्शन:"
 
-#: browserwidget_contentview.ui:260
 #. i18n: ectx: property (text), widget (QLabel, label_7)
+#: browserwidget_contentview.ui:260
 #, kde-format
 msgid "Size:"
 msgstr "आकृति:"
 
-#: browserwidget_contentview.ui:284
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: browserwidget_contentview.ui:284
 #, kde-format
 msgid "Last modification time:"
 msgstr "अन्तिमः परिवर्तनसमयः : १."
 
-#: browserwidget_contentview.ui:308
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#: browserwidget_contentview.ui:308
 #, kde-format
 msgid "Mimetype:"
 msgstr "अनुकरणप्रकारः : १."
 
-#: browserwidget_contentview.ui:321
 #. i18n: ectx: property (text), widget (QLabel, mimeType)
+#: browserwidget_contentview.ui:321
 #, kde-format
 msgid "invalid/invalid"
 msgstr "असिद्ध/असिद्ध"
 
-#: browserwidget_contentview.ui:330 browserwidget_contentview.ui:345
-#: browserwidget_contentview.ui:370 notificationmonitor.cpp:256
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (KEditListWidget, flags)
 #. i18n: ectx: property (title), widget (KEditListWidget, tags)
+#: browserwidget_contentview.ui:330 browserwidget_contentview.ui:345
+#: browserwidget_contentview.ui:370 notificationmonitor.cpp:256
 #, kde-format
 msgid "Flags"
 msgstr "ध्वजाः"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: browserwidget_contentview.ui:355 monitorswidget.cpp:84
 #: notificationmonitor.cpp:257 notificationmonitor.cpp:435
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #, kde-format
 msgid "Tags"
 msgstr "टैग्स"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: browserwidget_itemview.ui:31
+#, kde-format
+msgctxt "model name"
+msgid "Model:"
+msgstr "प्रतिकृति:"
 
 #: collectionaclpage.cpp:17
 #, kde-format
 msgid "ACL"
 msgstr "एसीएल"
 
-#: collectionaclpage.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: collectionaclpage.ui:17
 #, kde-format
 msgid "Item Access Rights"
 msgstr "मद अभिगमन अधिकार"
 
-#: collectionaclpage.ui:23 collectionaclpage.ui:67
 #. i18n: ectx: property (text), widget (QCheckBox, createItem)
 #. i18n: ectx: property (text), widget (QCheckBox, createCollection)
+#: collectionaclpage.ui:23 collectionaclpage.ui:67
 #, kde-format
 msgid "Create"
 msgstr "निर्मियताम्"
 
+#. i18n: ectx: property (text), widget (QCheckBox, changeItem)
+#. i18n: ectx: property (text), widget (QCheckBox, changeCollection)
 #: collectionaclpage.ui:30 collectionaclpage.ui:74 notificationmodel.cpp:89
 #: notificationmodel.cpp:111 notificationmodel.cpp:129
 #: notificationmodel.cpp:141 notificationmonitor.cpp:169
 #: notificationmonitor.cpp:349 notificationmonitor.cpp:386
 #: notificationmonitor.cpp:410
-#. i18n: ectx: property (text), widget (QCheckBox, changeItem)
-#. i18n: ectx: property (text), widget (QCheckBox, changeCollection)
 #, kde-format
 msgid "Modify"
 msgstr "परिवर्तनं कुर्वन्तु"
 
-#: collectionaclpage.ui:37 collectionaclpage.ui:81
 #. i18n: ectx: property (text), widget (QCheckBox, deleteItem)
 #. i18n: ectx: property (text), widget (QCheckBox, deleteCollection)
+#: collectionaclpage.ui:37 collectionaclpage.ui:81
 #, kde-format
 msgid "Delete"
 msgstr "लुप्"
 
-#: collectionaclpage.ui:44 notificationmodel.cpp:95 notificationmonitor.cpp:178
 #. i18n: ectx: property (text), widget (QCheckBox, linkItem)
+#: collectionaclpage.ui:44 notificationmodel.cpp:95 notificationmonitor.cpp:178
 #, kde-format
 msgid "Link"
 msgstr "सम्बन्ध"
 
-#: collectionaclpage.ui:51 notificationmodel.cpp:97 notificationmonitor.cpp:181
 #. i18n: ectx: property (text), widget (QCheckBox, unlinkItem)
+#: collectionaclpage.ui:51 notificationmodel.cpp:97 notificationmonitor.cpp:181
 #, kde-format
 msgid "Unlink"
 msgstr "अनलिङ्क्"
 
-#: collectionaclpage.ui:61
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: collectionaclpage.ui:61
 #, kde-format
 msgid "Collection Access Rights"
 msgstr "संग्रह अभिगमन अधिकार"
 
-#: collectionaclpage.ui:91
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: collectionaclpage.ui:91
 #, kde-format
 msgid ""
 "<b>Note: </b>These values are provided by the corresponding backend and are "
 "not intended to be changed by you, so be warned if something breaks when "
 "changing them nevertheless!"
 msgstr ""
-"<b>नोटः-</b> एतानि मूल्यानि तत्सम्बद्धेन पृष्ठभागेन प्रदत्तानि सन्ति तथा च "
-"भवता परिवर्तनं कर्तुं न अभिप्रेतानि, अतः तथापि परिवर्तनकाले किमपि भग्नं "
-"भवति चेत् सावधानाः भवन्तु!"
+"<b>नोटः-</b> एतानि मूल्यानि तत्सम्बद्धेन पृष्ठभागेन प्रदत्तानि सन्ति तथा च भवता परिवर्तनं "
+"कर्तुं न अभिप्रेतानि, अतः तथापि परिवर्तनकाले किमपि भग्नं भवति चेत् सावधानाः भवन्तु!"
 
 #: collectionattributespage.cpp:39 tagpropertiesdialog.cpp:73
 #, kde-format
@@ -549,52 +627,58 @@ msgstr "गुण"
 msgid "Value"
 msgstr "मूल्यम्‌"
 
-#: collectioninternalspage.ui:21 tagpropertiesdialog.ui:230
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: collectioninternalspage.ui:21 tagpropertiesdialog.ui:230
 #, kde-format
 msgid "Do not even think about changing anything in here!"
 msgstr "अत्र किमपि परिवर्तनं कर्तुं अपि न चिन्तयन्तु!"
 
-#: collectioninternalspage.ui:28
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: collectioninternalspage.ui:28
 #, kde-format
 msgid "Identification"
 msgstr "परिचयः"
 
-#: collectioninternalspage.ui:48
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: collectioninternalspage.ui:48
 #, kde-format
 msgid "Remote identifier:"
 msgstr "दूरस्थपरिचयः : १."
 
-#: collectioninternalspage.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: collectioninternalspage.ui:61
 #, kde-format
 msgid "Owner:"
 msgstr "स्वामी:"
 
-#: collectioninternalspage.ui:75
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: collectioninternalspage.ui:75
 #, kde-format
 msgid "Remote Revision:"
 msgstr "दूरस्थसंशोधनम् : १."
 
-#: collectioninternalspage.ui:88
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: collectioninternalspage.ui:88
 #, kde-format
 msgid "Virtual:"
 msgstr "आभास:"
 
-#: collectioninternalspage.ui:106 collectioninternalspage.ui:115
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #. i18n: ectx: property (title), widget (KEditListWidget, contentTypes)
+#: collectioninternalspage.ui:106 collectioninternalspage.ui:115
 #, kde-format
 msgid "Content Types"
 msgstr "सामग्रीप्रकाराः"
 
-#: dbbrowser.ui:28
+#: connectionpage.cpp:37 logging.cpp:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Programs:"
+msgstr "कार्यक्रमाः : १."
+
 #. i18n: ectx: property (text), widget (QPushButton, refreshButton)
+#: dbbrowser.ui:28
 #, kde-format
 msgid "Refresh"
 msgstr "ताजगी"
@@ -604,8 +688,8 @@ msgstr "ताजगी"
 msgid "Query #%1"
 msgstr "प्रश्न #%1"
 
-#: dbconsoletab.ui:87
 #. i18n: ectx: property (toolTip), widget (QPushButton, execButton)
+#: dbconsoletab.ui:87
 #, kde-format
 msgid "Execute query"
 msgstr "प्रश्नं निष्पादयन्तु"
@@ -620,25 +704,73 @@ msgstr "निर्देश"
 msgid "Message"
 msgstr "सन्देशः"
 
+#: debugwidget.cpp:40
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable debugger"
+msgstr "त्रुटिनिवारणं सक्षमं कुर्वन्तु"
+
 #: debugwidget.cpp:49 notificationmonitor.cpp:516
 #, kde-format
 msgid "All"
 msgstr "सर्वे"
+
+#: debugwidget.cpp:64
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear Information View"
+msgstr "स्पष्ट सूचना दृश्य"
+
+#: debugwidget.cpp:65
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear Filtered Messages"
+msgstr "छानितसन्देशान् स्वच्छं कुर्वन्तु"
+
+#: debugwidget.cpp:66
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear All Messages"
+msgstr "सर्वे सन्देशाः स्वच्छं कुर्वन्तु"
+
+#: debugwidget.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Filtered Messages ..."
+msgstr "फ़िल्टर कृतानि सन्देशानि रक्षन्तु ..."
+
+#: debugwidget.cpp:68
+#, kde-format
+msgctxt "@action:button"
+msgid "Save All Messages ..."
+msgstr "सर्वे सन्देशाः रक्षन्तु ..."
 
 #: instanceselector.cpp:44
 #, kde-format
 msgid "Connect"
 msgstr "संयुज्"
 
-#: instanceselector.ui:20
+#: instanceselector.cpp:88
+#, kde-format
+msgctxt "@title:window"
+msgid "Remote Akonadi Console (%1)"
+msgstr "दूरस्थ अकोनाडी कन्सोल (%1) ."
+
+#: instanceselector.cpp:90
+#, kde-format
+msgctxt "@title:window"
+msgid "Akonadi Console (Instance: %1)"
+msgstr "अकोनाडी कन्सोल (उदाहरण: %1) ."
+
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: instanceselector.ui:20
 #, kde-format
 msgid ""
 "There are multiple instances of Akonadi running in the current D-Bus "
 "session. Please select the instance you want to connect to."
 msgstr ""
-"वर्तमान D-Bus सत्रे अकोनाडी इत्यस्य अनेकाः उदाहरणानि प्रचलन्ति । कृपया यत् "
-"उदाहरणं भवन्तः सम्बद्धं कर्तुम् इच्छन्ति तत् चिनोतु ।"
+"वर्तमान D-Bus सत्रे अकोनाडी इत्यस्य अनेकाः उदाहरणानि प्रचलन्ति । कृपया यत् उदाहरणं "
+"भवन्तः सम्बद्धं कर्तुम् इच्छन्ति तत् चिनोतु ।"
 
 #: jobtracker.cpp:26
 #, kde-format
@@ -701,10 +833,28 @@ msgstr "राज्यम्‌"
 msgid "Info"
 msgstr "Info"
 
+#: jobtrackersearchwidget.cpp:20
+#, kde-format
+msgctxt "@option:check"
+msgid "Show Only Errors"
+msgstr "केवलं त्रुटयः दर्शयतु"
+
+#: jobtrackersearchwidget.cpp:28
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "अन्वेषण..."
+
 #: jobtrackersearchwidget.cpp:38
 #, kde-format
 msgid "All Columns"
 msgstr "सर्वे स्तम्भाः"
+
+#: jobtrackerwidget.cpp:73
+#, kde-format
+msgctxt "@action:button"
+msgid "Save to file..."
+msgstr "सञ्चिकायां रक्षन्तु..."
 
 #: jobtrackerwidget.cpp:105 notificationmonitor.cpp:119
 #, kde-format
@@ -726,6 +876,18 @@ msgstr "ध्वस्तं कुर्वन्तु सर्वे"
 msgid "Expand All"
 msgstr "सर्वं विस्तारयतु"
 
+#: logging.cpp:44
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable"
+msgstr "सक्रियं करोतु"
+
+#: logging.cpp:56 notificationmonitor.cpp:64
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Types:"
+msgstr "प्रकाराः : १."
+
 #: logging.cpp:59 loggingmodel.cpp:137
 #, kde-format
 msgid "Debug"
@@ -745,6 +907,18 @@ msgstr "गंभीरः"
 #, kde-format
 msgid "Fatal"
 msgstr "प्राणहर"
+
+#: logging.cpp:64
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Categories:"
+msgstr "श्रेणियाँ : १."
+
+#: logging.cpp:90 notificationmonitor.cpp:93
+#, kde-format
+msgctxt "@action:button"
+msgid "Save to File..."
+msgstr "सञ्चिकायां रक्षतु..."
 
 #: logging.cpp:129
 #, kde-format
@@ -918,14 +1092,14 @@ msgid ""
 "<p>Akonadi Console is purely a development tool. It allows you to view and "
 "change internal data structures of Akonadi. You should only change data in "
 "here if you know what you are doing, otherwise you risk damaging or losing "
-"your personal information management data.<br/><b>Use at your own "
-"risk!</b></p>"
+"your personal information management data.<br/><b>Use at your own risk!</b></"
+"p>"
 msgstr ""
 "<p>अकोनाडी कन्सोल् विशुद्धरूपेण विकाससाधनम् अस्ति । एतेन अकोनाडी इत्यस्य "
-"आन्तरिकदत्तांशसंरचनानि द्रष्टुं परिवर्तनं च कर्तुं शक्यते । भवद्भिः अत्र "
-"केवलं तदा एव दत्तांशं परिवर्तयितव्यं यदा भवान् जानाति यत् भवान् किं करोति, "
-"अन्यथा भवान् स्वस्य व्यक्तिगतसूचनाप्रबन्धनदत्तांशस्य क्षतिं वा हानिः वा "
-"कर्तुं जोखिमं प्राप्नोति ।<br/> <b>स्वस्य जोखिमे उपयोगं कुर्वन्तु!</b></p>"
+"आन्तरिकदत्तांशसंरचनानि द्रष्टुं परिवर्तनं च कर्तुं शक्यते । भवद्भिः अत्र केवलं तदा एव दत्तांशं "
+"परिवर्तयितव्यं यदा भवान् जानाति यत् भवान् किं करोति, अन्यथा भवान् स्वस्य "
+"व्यक्तिगतसूचनाप्रबन्धनदत्तांशस्य क्षतिं वा हानिः वा कर्तुं जोखिमं प्राप्नोति ।<br/> <b>स्वस्य "
+"जोखिमे उपयोगं कुर्वन्तु!</b></p>"
 
 #: monitorsmodel.cpp:97
 #, kde-format
@@ -1717,54 +1891,90 @@ msgstr "औसत। अवधिः [ms] ।"
 msgid "Affected Rows:"
 msgstr "प्रभावित पङ्क्तयः : १."
 
-#: querydebugger.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, enableDebuggingChkBox)
+#: querydebugger.ui:17
 #, kde-format
 msgid "Enable query debugging (slows down server!)"
 msgstr "प्रश्नदोषनिवारणं सक्षमं कुर्वन्तु (सर्वरं मन्दं करोति!)"
 
-#: querydebugger.ui:28
 #. i18n: ectx: attribute (title), widget (QWidget, querySequenceTab)
+#: querydebugger.ui:28
 #, kde-format
 msgid "Query Sequence"
 msgstr "प्रश्नक्रमः"
 
-#: querydebugger.ui:48
 #. i18n: ectx: attribute (title), widget (QWidget, queryTreeTab)
+#: querydebugger.ui:48
 #, kde-format
 msgid "Query Tree"
 msgstr "प्रश्नवृक्षः"
 
-#: querydebugger.ui:72
 #. i18n: ectx: property (text), widget (QPushButton, saveToFileBtn)
+#: querydebugger.ui:72
 #, kde-format
 msgid "Save To File"
 msgstr "Save To File इति"
 
-#: queryviewdialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, QueryViewDialog)
+#: queryviewdialog.ui:14
 #, kde-format
 msgid "Query View"
 msgstr "क्वेरी व्यू"
 
-#: queryviewdialog.ui:28
 #. i18n: ectx: property (text), widget (QLabel, queryLabelLbl)
+#: queryviewdialog.ui:28
 #, kde-format
 msgid "Query:"
 msgstr "उत्प्रेक्षा:"
 
-#: queryviewdialog.ui:41 queryviewdialog.ui:67
 #. i18n: ectx: property (text), widget (QLabel, queryLbl)
 #. i18n: ectx: property (text), widget (QLabel, resultsLbl)
+#: queryviewdialog.ui:41 queryviewdialog.ui:67
 #, kde-format
 msgid "TextLabel"
 msgstr "TextLabel इति"
 
-#: queryviewdialog.ui:60
 #. i18n: ectx: property (text), widget (QLabel, resultsLabelLbl)
+#: queryviewdialog.ui:60
 #, kde-format
 msgid "Results:"
 msgstr "परिणामाः:"
+
+#: searchwidget.cpp:50
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Search store:"
+msgstr "अन्वेषण भण्डारः : १."
+
+#: searchwidget.cpp:55
+#, kde-format
+msgctxt "@action:button"
+msgid "Search"
+msgstr "अन्वेषण"
+
+#: searchwidget.cpp:63
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Search query:"
+msgstr "अन्वेषणप्रश्नः : १."
+
+#: searchwidget.cpp:72
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Results (Documents):"
+msgstr "परिणाम (दस्तावेज) : १."
+
+#: searchwidget.cpp:82
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Document:"
+msgstr "प्रलेख:"
+
+#: searchwidget.cpp:92
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Item:"
+msgstr "वस्तु:"
 
 #: searchwidget.cpp:154
 #, kde-format
@@ -1806,237 +2016,27 @@ msgstr "उपधा"
 msgid "Error on fetching item"
 msgstr "मदं आनयितुं त्रुटिः"
 
-#: tagpropertiesdialog.ui:21
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#: tagpropertiesdialog.ui:21
 #, kde-format
 msgid "General"
 msgstr "सामान्य"
 
-#: tagpropertiesdialog.ui:51
 #. i18n: ectx: property (text), widget (QLabel, parentIdLabelBuddy)
+#: tagpropertiesdialog.ui:51
 #, kde-format
 msgid "Parent Tag Id:"
 msgstr "अभिभावक टैग आईडी:"
 
-#: tagpropertiesdialog.ui:96 tagpropertiesdialog.ui:116
 #. i18n: ectx: property (text), widget (QPushButton, deleteAttrButton)
 #. i18n: ectx: property (text), widget (QPushButton, deleteRIDButton)
+#: tagpropertiesdialog.ui:96 tagpropertiesdialog.ui:116
 #, kde-format
 msgid "&Remove"
 msgstr "&अपाकरोति"
 
-#: tagpropertiesdialog.ui:107
 #. i18n: ectx: attribute (title), widget (QWidget, remoteIDsTab)
+#: tagpropertiesdialog.ui:107
 #, kde-format
 msgid "Remote Identifiers"
 msgstr "दूरस्थपरिचयकाः"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: agentconfigdialog.cpp:33
-#, kde-format
-msgctxt "@action:button"
-msgid "Save Configuration"
-msgstr "विन्यासः रक्षतु"
-
-#: agentconfigdialog.cpp:34
-#, kde-format
-msgctxt "@action:button"
-msgid "Refresh"
-msgstr "ताजगी"
-
-#: debugwidget.cpp:64
-#, kde-format
-msgctxt "@action:button"
-msgid "Clear Information View"
-msgstr "स्पष्ट सूचना दृश्य"
-
-#: debugwidget.cpp:65
-#, kde-format
-msgctxt "@action:button"
-msgid "Clear Filtered Messages"
-msgstr "छानितसन्देशान् स्वच्छं कुर्वन्तु"
-
-#: debugwidget.cpp:66
-#, kde-format
-msgctxt "@action:button"
-msgid "Clear All Messages"
-msgstr "सर्वे सन्देशाः स्वच्छं कुर्वन्तु"
-
-#: debugwidget.cpp:67
-#, kde-format
-msgctxt "@action:button"
-msgid "Save Filtered Messages ..."
-msgstr "फ़िल्टर कृतानि सन्देशानि रक्षन्तु ..."
-
-#: debugwidget.cpp:68
-#, kde-format
-msgctxt "@action:button"
-msgid "Save All Messages ..."
-msgstr "सर्वे सन्देशाः रक्षन्तु ..."
-
-#: jobtrackerwidget.cpp:73
-#, kde-format
-msgctxt "@action:button"
-msgid "Save to file..."
-msgstr "सञ्चिकायां रक्षन्तु..."
-
-#: logging.cpp:90 notificationmonitor.cpp:93
-#, kde-format
-msgctxt "@action:button"
-msgid "Save to File..."
-msgstr "सञ्चिकायां रक्षतु..."
-
-#: searchwidget.cpp:55
-#, kde-format
-msgctxt "@action:button"
-msgid "Search"
-msgstr "अन्वेषण"
-
-#: agentconfigdialog.cpp:37
-#, kde-format
-msgctxt "@title:window"
-msgid "Agent Configuration"
-msgstr "एजेण्ट् विन्यासः"
-
-#: agentwidget.cpp:266
-#, kde-format
-msgctxt "@title:window"
-msgid "Resource Task List"
-msgstr "संसाधन कार्यसूची"
-
-#: agentwidget.cpp:290
-#, kde-format
-msgctxt "@title:window"
-msgid "Change Notification Log"
-msgstr "सूचनावृत्तं परिवर्तयतु"
-
-#: browserwidget.cpp:570
-#, kde-format
-msgctxt "@title:window"
-msgid "Add Tag"
-msgstr "Add Tag"
-
-#: browserwidget.cpp:585
-#, kde-format
-msgctxt "@title:window"
-msgid "Add Subtag"
-msgstr "उपटैग योजयतु"
-
-#: browserwidget.cpp:596 browserwidget.cpp:613
-#, kde-format
-msgctxt "@title:window"
-msgid "Modify Tag"
-msgstr "टैग परिवर्तन करें"
-
-#: instanceselector.cpp:88
-#, kde-format
-msgctxt "@title:window"
-msgid "Remote Akonadi Console (%1)"
-msgstr "दूरस्थ अकोनाडी कन्सोल (%1) ."
-
-#: instanceselector.cpp:90
-#, kde-format
-msgctxt "@title:window"
-msgid "Akonadi Console (Instance: %1)"
-msgstr "अकोनाडी कन्सोल (उदाहरण: %1) ."
-
-#: agentwidget.cpp:419
-#, kde-format
-msgctxt "Two statuses, for example \"Online, Running (66%)\" or \"Offline, Broken\""
-msgid "%1, %2"
-msgstr "%1, %2"
-
-#: agentwidget.ui:247
-#. i18n: ectx: property (text), widget (QPushButton, restartButton)
-#, kde-format
-msgctxt "restart the agent"
-msgid "Restart"
-msgstr "पुनः आरभत"
-
-#: browserwidget_itemview.ui:31
-#. i18n: ectx: property (text), widget (QLabel, label)
-#, kde-format
-msgctxt "model name"
-msgid "Model:"
-msgstr "प्रतिकृति:"
-
-#: connectionpage.cpp:37 logging.cpp:53
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Programs:"
-msgstr "कार्यक्रमाः : १."
-
-#: logging.cpp:56 notificationmonitor.cpp:64
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Types:"
-msgstr "प्रकाराः : १."
-
-#: logging.cpp:64
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Categories:"
-msgstr "श्रेणियाँ : १."
-
-#: searchwidget.cpp:50
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Search store:"
-msgstr "अन्वेषण भण्डारः : १."
-
-#: searchwidget.cpp:63
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Search query:"
-msgstr "अन्वेषणप्रश्नः : १."
-
-#: searchwidget.cpp:72
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Results (Documents):"
-msgstr "परिणाम (दस्तावेज) : १."
-
-#: searchwidget.cpp:82
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Document:"
-msgstr "प्रलेख:"
-
-#: searchwidget.cpp:92
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Item:"
-msgstr "वस्तु:"
-
-#: debugwidget.cpp:40
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable debugger"
-msgstr "त्रुटिनिवारणं सक्षमं कुर्वन्तु"
-
-#: jobtrackersearchwidget.cpp:20
-#, kde-format
-msgctxt "@option:check"
-msgid "Show Only Errors"
-msgstr "केवलं त्रुटयः दर्शयतु"
-
-#: logging.cpp:44
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable"
-msgstr "सक्रियं करोतु"
-
-#: jobtrackersearchwidget.cpp:28
-#, kde-format
-msgctxt "@info:placeholder"
-msgid "Search..."
-msgstr "अन्वेषण..."

@@ -9,7 +9,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
@@ -96,6 +96,24 @@ msgstr "गिट्"
 msgid "Back"
 msgstr "पृष्ठभागः"
 
+#: currentgitbranchbutton.cpp:122
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' commit is checked out"
+msgid "HEAD at commit %1"
+msgstr "%1 प्रतिबद्धतायां HEAD"
+
+#: currentgitbranchbutton.cpp:124
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' tag is checked out"
+msgid "HEAD is at this tag %1"
+msgstr "HEAD अस्मिन् सूचकपत्त्र %1 मध्ये अस्ति"
+
+#: currentgitbranchbutton.cpp:126
+#, kde-format
+msgctxt "Tooltip text, describing that '%1' branch is checked out"
+msgid "Active branch: %1"
+msgstr "सक्रियशाखाः %1"
+
 #: gitcommitdialog.cpp:69 gitcommitdialog.cpp:120
 #, kde-format
 msgid "Commit Changes"
@@ -141,6 +159,18 @@ msgstr "अन्तिम समिति संशोधन"
 #, kde-format
 msgid "Amending Commit"
 msgstr "संशोधन समिति"
+
+#: gitcommitdialog.cpp:207
+#, kde-format
+msgctxt "Number of characters"
+msgid "%1 / 52"
+msgstr "%1 / 52"
+
+#: gitcommitdialog.cpp:211
+#, kde-format
+msgctxt "Number of characters"
+msgid "<span style=\"color:%1;\">%2</span> / 52"
+msgstr "<span style=\"color:%1;\">%2</span> / 52"
 
 #: gitstatusmodel.cpp:85
 #, kde-format
@@ -495,6 +525,12 @@ msgstr "<untracked>"
 msgid "Project Completion"
 msgstr "परियोजना समाप्ति"
 
+#: kateprojectconfigpage.cpp:24
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Autoload Repositories && Build Trees"
+msgstr "भण्डारः तथा वृक्षाः निर्माणं कर्तुं इत्येतत् स्वयमेव लोड् कुर्वन्तु"
+
 #: kateprojectconfigpage.cpp:26
 #, kde-format
 msgid ""
@@ -529,6 +565,12 @@ msgstr "&फोस्सिल्"
 msgid "&CMake"
 msgstr "&CMake"
 
+#: kateprojectconfigpage.cpp:47
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Session Behavior"
+msgstr "सत्रव्यवहारः"
+
 #: kateprojectconfigpage.cpp:48
 #, kde-format
 msgid "Session settings for projects"
@@ -538,6 +580,12 @@ msgstr "परियोजनानां कृते सत्रसमयो�
 #, kde-format
 msgid "Restore Open Projects"
 msgstr "उद्घाटितानि परियोजनानि पुनःस्थापयन्तु"
+
+#: kateprojectconfigpage.cpp:56
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Project Index"
+msgstr "परियोजना अनुक्रमणिका"
 
 #: kateprojectconfigpage.cpp:57
 #, kde-format
@@ -557,15 +605,22 @@ msgstr "अनुक्रमणिकासञ्चिकानां कृ�
 #: kateprojectconfigpage.cpp:65
 #, kde-format
 msgid ""
-"The system temporary directory is used if not specified, which may overflow for "
-"very large repositories"
+"The system temporary directory is used if not specified, which may overflow "
+"for very large repositories"
 msgstr ""
 "यदि न निर्दिष्टं तर्हि प्रणाली अस्थायी पुटं उपयुज्यते, यत् अत्यन्तं विशालानां भण्डाराणां कृते "
 "अतिप्रवाहं कर्तुं शक्नोति"
 
+#: kateprojectconfigpage.cpp:72
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Cross-Project Functionality"
+msgstr "पार-परियोजना कार्यक्षमता"
+
 #: kateprojectconfigpage.cpp:73
 #, kde-format
-msgid "Project plugin is able to perform some operations across multiple projects"
+msgid ""
+"Project plugin is able to perform some operations across multiple projects"
 msgstr "परियोजना प्लगिन् बहुविधप्रकल्पेषु केचन कार्याणि कर्तुं समर्थः अस्ति"
 
 #: kateprojectconfigpage.cpp:74
@@ -577,6 +632,12 @@ msgstr "पार-परियोजना समाप्ति"
 #, kde-format
 msgid "Cross-Project Goto Symbol"
 msgstr "पार-परियोजना गच्छतु प्रतीक"
+
+#: kateprojectconfigpage.cpp:84
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Git"
+msgstr "गिट्"
 
 #: kateprojectconfigpage.cpp:87
 #, kde-format
@@ -607,6 +668,12 @@ msgstr "\"git\" स्थितिदृश्ये क्रियायां
 #, kde-format
 msgid "Projects"
 msgstr "परियोजनाएँ"
+
+#: kateprojectconfigpage.cpp:147
+#, kde-format
+msgctxt "Groupbox title"
+msgid "Projects Properties"
+msgstr "परियोजना गुणाः"
 
 #: kateprojectinfoview.cpp:68
 #, kde-format
@@ -643,14 +710,20 @@ msgstr "टिप्पणियाँ"
 msgid "Start Analysis..."
 msgstr "विश्लेषणं आरभत..."
 
+#: kateprojectinfoviewcodeanalysis.cpp:43
+#, kde-format
+msgctxt "'%1' refers to project name, e.g,. Code Analysis - MyProject"
+msgid "Code Analysis - %1"
+msgstr "विध्यादेश विश्लेषण - %1"
+
 #: kateprojectinfoviewcodeanalysis.cpp:100
 #, kde-format
 msgid ""
-"'%1' is not installed on your system, %2.<br/><br/>%3. The tool will be run on "
-"all project files which match this list of file extensions:<br/><b>%4</b>"
+"'%1' is not installed on your system, %2.<br/><br/>%3. The tool will be run "
+"on all project files which match this list of file extensions:<br/><b>%4</b>"
 msgstr ""
-"'%1' भवतः प्रणाल्यां न संस्थापितम्, %2.<br/><br/>%3. साधनं सर्वेषु परियोजनासञ्चिकासु चालितं "
-"भविष्यति ये सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><b>%4</b>"
+"'%1' भवतः प्रणाल्यां न संस्थापितम्, %2.<br/><br/>%3. साधनं सर्वेषु परियोजनासञ्चिकासु "
+"चालितं भविष्यति ये सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><b>%4</b>"
 
 #: kateprojectinfoviewcodeanalysis.cpp:110
 #, kde-format
@@ -661,11 +734,23 @@ msgstr ""
 "%1 संस्थापितम् इत्यस्य उपयोगेन: %2.<br/><br/>%3. साधनं सर्वेषु परियोजनासञ्चिकासु चालितं "
 "भविष्यति ये सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><b>%4</b>"
 
-#: kateprojectinfoviewcodeanalysis.cpp:152 kateprojectinfoviewcodeanalysis.cpp:212
+#: kateprojectinfoviewcodeanalysis.cpp:152
+#: kateprojectinfoviewcodeanalysis.cpp:212
 #: kateprojectinfoviewcodeanalysis.cpp:216
 #, kde-format
 msgid "CodeAnalysis"
 msgstr "विध्यादेश विश्लेषणम्"
+
+#: kateprojectinfoviewcodeanalysis.cpp:207
+#, kde-format
+msgctxt ""
+"Message to the user that analysis finished. %1 is the name of the program "
+"that did the analysis, %2 is a number. e.g., [clang-tidy]Analysis on 5 files "
+"finished"
+msgid "[%1]Analysis on %2 file finished."
+msgid_plural "[%1]Analysis on %2 files finished."
+msgstr[0] "[%1] %2 सञ्चिकायां विश्लेषणं समाप्तम्।."
+msgstr[1] "[%1]%2 सञ्चिकासु विश्लेषणं समाप्तम् ।."
 
 #: kateprojectinfoviewcodeanalysis.cpp:215
 #, kde-format
@@ -738,8 +823,8 @@ msgid ""
 "Full path to current project excluding the file name, with native path "
 "separator (backslash on Windows)."
 msgstr ""
-"सञ्चिकानाम विहाय वर्तमानप्रकल्पस्य पूर्णमार्गः, देशीमार्गविभाजकेन (गवाक्ष इत्यत्र प्रतिक्रिया) "
-"सह ।."
+"सञ्चिकानाम विहाय वर्तमानप्रकल्पस्य पूर्णमार्गः, देशीमार्गविभाजकेन (गवाक्ष इत्यत्र "
+"प्रतिक्रिया) सह ।."
 
 #: kateprojectpluginview.cpp:56
 #, kde-format
@@ -919,9 +1004,10 @@ msgstr "पुटं निर्मातुं असफलम्: %1"
 #: kateprojectworker.cpp:734
 #, kde-format
 msgid ""
-"Unable to load %1 based project because either %1 is not installed or it wasn't "
-"found in PATH environment variable. Please install %1 or alternatively disable "
-"the option 'Autoload Repositories && Build Trees' in project settings."
+"Unable to load %1 based project because either %1 is not installed or it "
+"wasn't found in PATH environment variable. Please install %1 or "
+"alternatively disable the option 'Autoload Repositories && Build Trees' in "
+"project settings."
 msgstr ""
 "%1 आधारितं परियोजनां लोड् कर्तुं असमर्थम् यतः %1 संस्थापितम् अथवा PATH वातावरणचरमध्ये न "
 "प्राप्तम् । कृपया %1 संस्थापयन्तु अथवा वैकल्पिकरूपेण परियोजनासेटिंग्स् मध्ये 'Autoload "
@@ -992,85 +1078,3 @@ msgstr "संग्रहं दर्शयतु विफलम् अभव
 #, kde-format
 msgid "&Projects"
 msgstr "&परियोजना"
-
-#: currentgitbranchbutton.cpp:122
-#, kde-format
-msgctxt "Tooltip text, describing that '%1' commit is checked out"
-msgid "HEAD at commit %1"
-msgstr "%1 प्रतिबद्धतायां HEAD"
-
-#: currentgitbranchbutton.cpp:124
-#, kde-format
-msgctxt "Tooltip text, describing that '%1' tag is checked out"
-msgid "HEAD is at this tag %1"
-msgstr "HEAD अस्मिन् सूचकपत्त्र %1 मध्ये अस्ति"
-
-#: currentgitbranchbutton.cpp:126
-#, kde-format
-msgctxt "Tooltip text, describing that '%1' branch is checked out"
-msgid "Active branch: %1"
-msgstr "सक्रियशाखाः %1"
-
-#: gitcommitdialog.cpp:207
-#, kde-format
-msgctxt "Number of characters"
-msgid "%1 / 52"
-msgstr "%1 / 52"
-
-#: gitcommitdialog.cpp:211
-#, kde-format
-msgctxt "Number of characters"
-msgid "<span style=\"color:%1;\">%2</span> / 52"
-msgstr "<span style=\"color:%1;\">%2</span> / 52"
-
-#: kateprojectconfigpage.cpp:24
-#, kde-format
-msgctxt "Groupbox title"
-msgid "Autoload Repositories && Build Trees"
-msgstr "भण्डारः तथा वृक्षाः निर्माणं कर्तुं इत्येतत् स्वयमेव लोड् कुर्वन्तु"
-
-#: kateprojectconfigpage.cpp:47
-#, kde-format
-msgctxt "Groupbox title"
-msgid "Session Behavior"
-msgstr "सत्रव्यवहारः"
-
-#: kateprojectconfigpage.cpp:56
-#, kde-format
-msgctxt "Groupbox title"
-msgid "Project Index"
-msgstr "परियोजना अनुक्रमणिका"
-
-#: kateprojectconfigpage.cpp:72
-#, kde-format
-msgctxt "Groupbox title"
-msgid "Cross-Project Functionality"
-msgstr "पार-परियोजना कार्यक्षमता"
-
-#: kateprojectconfigpage.cpp:84
-#, kde-format
-msgctxt "Groupbox title"
-msgid "Git"
-msgstr "गिट्"
-
-#: kateprojectconfigpage.cpp:147
-#, kde-format
-msgctxt "Groupbox title"
-msgid "Projects Properties"
-msgstr "परियोजना गुणाः"
-
-#: kateprojectinfoviewcodeanalysis.cpp:43
-#, kde-format
-msgctxt "'%1' refers to project name, e.g,. Code Analysis - MyProject"
-msgid "Code Analysis - %1"
-msgstr "विध्यादेश विश्लेषण - %1"
-
-#: kateprojectinfoviewcodeanalysis.cpp:207
-#, kde-format
-msgctxt ""
-"Message to the user that analysis finished. %1 is the name of the program that "
-"did the analysis, %2 is a number. e.g., [clang-tidy]Analysis on 5 files finished"
-msgid "[%1]Analysis on %2 file finished."
-msgid_plural "[%1]Analysis on %2 files finished."
-msgstr[0] "[%1] %2 सञ्चिकायां विश्लेषणं समाप्तम्।."
-msgstr[1] "[%1]%2 सञ्चिकासु विश्लेषणं समाप्तम् ।."

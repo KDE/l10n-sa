@@ -13,47 +13,17 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Poedit 3.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-
-#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:263
-#, kde-format
-msgid "Force quit (SIGKILL) the application? Unsaved work may be lost."
-msgid_plural "Force quit (SIGKILL) these %1 applications Unsaved work may be lost."
-msgstr[0] "बलेन अनुप्रयोगं त्यक्तवान् (SIGKILL)? अरक्षितं कार्यं नष्टं भवेत्।"
-msgstr[1] "बलात् त्यक्त्वा (SIGKILL) एतानि %1 अनुप्रयोगाः असरक्षितं कार्यं नष्टं भवितुम् अर्हति ।"
-
-#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:266
-#, kde-format
-msgid "Quit this application? Unsaved work may be lost."
-msgid_plural "Quit these %1 applications? Unsaved work may be lost."
-msgstr[0] "एतत् अनुप्रयोगं त्यजन्तु? अरक्षितं कार्यं नष्टं भवेत्।"
-msgstr[1] "एतानि %1 अनुप्रयोगाः त्यजन्तु? अरक्षितं कार्यं नष्टं भवेत्।"
 
 #: src/faces/applicationstable/contents/ui/ApplicationDetails.qml:48
 #, kde-format
 msgctxt "@title:window"
 msgid "Details"
 msgstr "विवरणम्"
-
-#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:256
-#, kde-format
-msgctxt "@title:window"
-msgid "Force Quit Application"
-msgid_plural "Force Quit %1 Applications"
-msgstr[0] "बलेन अनुप्रयोगं त्यजतु"
-msgstr[1] "बलेन %1 अनुप्रयोगाः त्यजन्तु"
-
-#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:257
-#, kde-format
-msgctxt "@title:window"
-msgid "Quit Application"
-msgid_plural "Quit %1 Applications"
-msgstr[0] "अनुप्रयोगं त्यजतु"
-msgstr[1] "%1 अनुप्रयोगाः त्यजन्तु"
 
 #: src/faces/applicationstable/contents/ui/ApplicationDetails.qml:72
 #, kde-format
@@ -145,14 +115,6 @@ msgctxt "@action:inmenu"
 msgid "Send Signal"
 msgstr "संकेतं प्रेषयन्तु"
 
-#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:231
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "Quit Application"
-msgid_plural "Quit %1 Applications"
-msgstr[0] "अनुप्रयोगं त्यजतु"
-msgstr[1] "%1 अनुप्रयोगाः त्यजन्तु"
-
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:196
 #, kde-format
 msgctxt "@action:inmenu Send Signal"
@@ -201,11 +163,35 @@ msgctxt "@action:inmenu Send Signal"
 msgid "User 2 (USR2)"
 msgstr "उपयोक्ता २ (USR2)"
 
+#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:231
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Quit Application"
+msgid_plural "Quit %1 Applications"
+msgstr[0] "अनुप्रयोगं त्यजतु"
+msgstr[1] "%1 अनुप्रयोगाः त्यजन्तु"
+
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:241
 #, kde-format
 msgctxt "@action:inmenu hide column"
 msgid "Hide"
 msgstr "गोपयतु"
+
+#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:256
+#, kde-format
+msgctxt "@title:window"
+msgid "Force Quit Application"
+msgid_plural "Force Quit %1 Applications"
+msgstr[0] "बलेन अनुप्रयोगं त्यजतु"
+msgstr[1] "बलेन %1 अनुप्रयोगाः त्यजन्तु"
+
+#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:257
+#, kde-format
+msgctxt "@title:window"
+msgid "Quit Application"
+msgid_plural "Quit %1 Applications"
+msgstr[0] "अनुप्रयोगं त्यजतु"
+msgstr[1] "%1 अनुप्रयोगाः त्यजन्तु"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:259
 #, kde-format
@@ -222,6 +208,22 @@ msgid "Quit Application"
 msgid_plural "Quit Applications"
 msgstr[0] "अनुप्रयोगं त्यजतु"
 msgstr[1] "अनुप्रयोगाः त्यजन्तु"
+
+#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:263
+#, kde-format
+msgid "Force quit (SIGKILL) the application? Unsaved work may be lost."
+msgid_plural ""
+"Force quit (SIGKILL) these %1 applications Unsaved work may be lost."
+msgstr[0] "बलेन अनुप्रयोगं त्यक्तवान् (SIGKILL)? अरक्षितं कार्यं नष्टं भवेत्।"
+msgstr[1] ""
+"बलात् त्यक्त्वा (SIGKILL) एतानि %1 अनुप्रयोगाः असरक्षितं कार्यं नष्टं भवितुम् अर्हति ।"
+
+#: src/faces/applicationstable/contents/ui/FullRepresentation.qml:266
+#, kde-format
+msgid "Quit this application? Unsaved work may be lost."
+msgid_plural "Quit these %1 applications? Unsaved work may be lost."
+msgstr[0] "एतत् अनुप्रयोगं त्यजन्तु? अरक्षितं कार्यं नष्टं भवेत्।"
+msgstr[1] "एतानि %1 अनुप्रयोगाः त्यजन्तु? अरक्षितं कार्यं नष्टं भवेत्।"
 
 #: src/faces/applicationstable/contents/ui/FullRepresentation.qml:281
 #, kde-format

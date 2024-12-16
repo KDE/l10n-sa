@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-pa package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
@@ -29,10 +29,28 @@ msgstr "सम्प्रति रिकार्डिङ्ग् न भव
 msgid "Currently not playing"
 msgstr "सम्प्रति न क्रीडति"
 
+#: contents/ui/ListItemBase.qml:191
+#, kde-format
+msgctxt "@action:button"
+msgid "Additional Options"
+msgstr "अतिरिक्तविकल्पाः"
+
 #: contents/ui/ListItemBase.qml:193
 #, kde-format
 msgid "Show additional options for %1"
 msgstr "%1 कृते अतिरिक्तविकल्पान् दर्शयतु"
+
+#: contents/ui/ListItemBase.qml:212
+#, kde-format
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr "अप्रसन्नता"
+
+#: contents/ui/ListItemBase.qml:212
+#, kde-format
+msgctxt "@action:button"
+msgid "Mute"
+msgstr "मूक"
 
 #: contents/ui/ListItemBase.qml:214
 #, kde-format
@@ -44,15 +62,45 @@ msgstr "अप्रसन्नता %1"
 msgid "Mute %1"
 msgstr "म्यूट %1"
 
+#: contents/ui/ListItemBase.qml:235
+#, kde-format
+msgctxt "Accessibility data on volume slider"
+msgid "Adjust volume for %1"
+msgstr "%1 कृते आयतनं समायोजयन्तु"
+
+#: contents/ui/ListItemBase.qml:296
+#, kde-format
+msgctxt "volume percentage"
+msgid "%1%"
+msgstr "%1% २."
+
+#: contents/ui/ListItemBase.qml:316
+#, kde-format
+msgctxt "only used for sizing, should be widest possible string"
+msgid "100%"
+msgstr "१००% २."
+
 #: contents/ui/main.qml:32
 #, kde-format
 msgid "Audio Volume"
 msgstr "श्रव्य मात्रा"
 
+#: contents/ui/main.qml:43 contents/ui/main.qml:45
+#, kde-format
+msgctxt "@label"
+msgid "Connection to the Sound Service Lost"
+msgstr "ध्वनिसेवायाः सह संयोजनं नष्टम्"
+
 #: contents/ui/main.qml:47
 #, kde-format
 msgid "No output or input devices found"
 msgstr "न आउटपुट् अथवा इनपुट् उपकरणानि प्राप्तानि"
+
+#: contents/ui/main.qml:51
+#, kde-format
+msgctxt "@info reconnecting to pulseaudio"
+msgid "Trying to reconnect…"
+msgstr "पुनः संयोजयितुं प्रयतमानोऽस्मि..."
 
 #: contents/ui/main.qml:68
 #, kde-format
@@ -99,6 +147,12 @@ msgstr "अनुप्रयोगाः"
 msgid "Force mute all playback devices"
 msgstr "सर्वाणि प्लेबैक-यन्त्राणि बलात् म्यूट् कुर्वन्तु"
 
+#: contents/ui/main.qml:361
+#, kde-format
+msgctxt "@action retry connecting to pulseaudio"
+msgid "Retry"
+msgstr "पुनः प्रयासं कुर्वन्तु"
+
 #: contents/ui/main.qml:385
 #, kde-format
 msgid "No applications playing or recording audio"
@@ -123,57 +177,3 @@ msgstr "&श्रव्ययन्त्राणि विन्यस्त�
 #, kde-format
 msgid "Stream name not found"
 msgstr "धारानाम न प्राप्तम्"
-
-#: contents/ui/ListItemBase.qml:191
-#, kde-format
-msgctxt "@action:button"
-msgid "Additional Options"
-msgstr "अतिरिक्तविकल्पाः"
-
-#: contents/ui/ListItemBase.qml:212
-#, kde-format
-msgctxt "@action:button"
-msgid "Unmute"
-msgstr "अप्रसन्नता"
-
-#: contents/ui/ListItemBase.qml:212
-#, kde-format
-msgctxt "@action:button"
-msgid "Mute"
-msgstr "मूक"
-
-#: contents/ui/ListItemBase.qml:235
-#, kde-format
-msgctxt "Accessibility data on volume slider"
-msgid "Adjust volume for %1"
-msgstr "%1 कृते आयतनं समायोजयन्तु"
-
-#: contents/ui/ListItemBase.qml:296
-#, kde-format
-msgctxt "volume percentage"
-msgid "%1%"
-msgstr "%1% २."
-
-#: contents/ui/ListItemBase.qml:316
-#, kde-format
-msgctxt "only used for sizing, should be widest possible string"
-msgid "100%"
-msgstr "१००% २."
-
-#: contents/ui/main.qml:43 contents/ui/main.qml:45
-#, kde-format
-msgctxt "@label"
-msgid "Connection to the Sound Service Lost"
-msgstr "ध्वनिसेवायाः सह संयोजनं नष्टम्"
-
-#: contents/ui/main.qml:51
-#, kde-format
-msgctxt "@info reconnecting to pulseaudio"
-msgid "Trying to reconnect…"
-msgstr "पुनः संयोजयितुं प्रयतमानोऽस्मि..."
-
-#: contents/ui/main.qml:361
-#, kde-format
-msgctxt "@action retry connecting to pulseaudio"
-msgid "Retry"
-msgstr "पुनः प्रयासं कुर्वन्तु"

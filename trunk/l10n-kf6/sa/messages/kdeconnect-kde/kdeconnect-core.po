@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdeconnect-kde package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeconnect-kde\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -67,6 +67,26 @@ msgstr "उपयोक्त्रा रद्दं कृतम्"
 msgid "Timed out"
 msgstr "समयः समाप्तः"
 
+#: compositefiletransferjob.cpp:47
+#, kde-format
+msgctxt "@title job"
+msgid "Receiving file"
+msgid_plural "Receiving files"
+msgstr[0] "सञ्चिकां प्राप्य"
+msgstr[1] "सञ्चिकाः प्राप्य"
+
+#: compositefiletransferjob.cpp:48
+#, kde-format
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "स्रोतः"
+
+#: compositefiletransferjob.cpp:49
+#, kde-format
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "गन्तव्य"
+
 #: device.cpp:459
 #, kde-format
 msgid "SHA256 fingerprint of your device certificate is: %1\n"
@@ -111,23 +131,3 @@ msgstr "यन्त्रप्रमाणपत्रं जनयितु�
 #, kde-format
 msgid "Could not store certificate file: %1"
 msgstr "प्रमाणपत्रसञ्चिकां संग्रहीतुं न शक्तवान्: %1"
-
-#: compositefiletransferjob.cpp:47
-#, kde-format
-msgctxt "@title job"
-msgid "Receiving file"
-msgid_plural "Receiving files"
-msgstr[0] "सञ्चिकां प्राप्य"
-msgstr[1] "सञ्चिकाः प्राप्य"
-
-#: compositefiletransferjob.cpp:48
-#, kde-format
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr "स्रोतः"
-
-#: compositefiletransferjob.cpp:49
-#, kde-format
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr "गन्तव्य"

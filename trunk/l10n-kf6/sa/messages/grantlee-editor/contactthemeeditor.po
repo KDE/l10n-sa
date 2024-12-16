@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the grantlee-editor package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: grantlee-editor\n"
@@ -13,9 +13,31 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: contactconfigurationdialog.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "विन्यस्तं कुर्वन्तु"
+
+#: contactconfigurationdialog.cpp:41
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Default contact:"
+msgstr "पूर्वनिर्धारित सम्पर्कः : १."
 
 #: contactconfigurationdialog.cpp:47
 #, kde-format
@@ -31,6 +53,12 @@ msgstr "पूर्वनिर्धारित टेम्पलेट"
 #, kde-format
 msgid "Load Recent Theme..."
 msgstr "हाले विषयः लोड् कुर्वन्तु..."
+
+#: contacteditormainwindow.cpp:82
+#, kde-format
+msgctxt "@action"
+msgid "Add Extra Page..."
+msgstr "अतिरिक्त पृष्ठं योजयतु..."
 
 #: contacteditormainwindow.cpp:87
 #, kde-format
@@ -56,6 +84,24 @@ msgstr "विषयं रक्षतु"
 #, kde-format
 msgid "Save theme as..."
 msgstr "विषयं रक्षन्तु यथा..."
+
+#: contacteditormainwindow.cpp:106
+#, kde-format
+msgctxt "@action"
+msgid "Install theme"
+msgstr "विषयवस्तु संस्थापयन्तु"
+
+#: contacteditormainwindow.cpp:110
+#, kde-format
+msgctxt "@action"
+msgid "Insert File..."
+msgstr "सञ्चिका सम्मिलितं कुर्वन्तु..."
+
+#: contacteditormainwindow.cpp:114
+#, kde-format
+msgctxt "@action"
+msgid "Manage themes..."
+msgstr "विषयवस्तु प्रबन्धयन्तु..."
 
 #: contacteditormainwindow.cpp:118
 #, kde-format
@@ -152,14 +198,14 @@ msgstr "समूह"
 msgid "You can drag and drop element on editor to import template"
 msgstr "टेम्पलेट् आयातयितुं एडिटर् इत्यत्र एलिमेण्ट् कर्षितुं पातयितुं च शक्नुवन्ति"
 
-#: contactthemeeditorui.rc:16
 #. i18n: ectx: Menu (edit)
+#: contactthemeeditorui.rc:16
 #, kde-format
 msgid "&Edit"
 msgstr "&सम्पादन"
 
-#: contactthemeeditorui.rc:22
 #. i18n: ectx: Menu (Display)
+#: contactthemeeditorui.rc:22
 #, kde-format
 msgid "&Display"
 msgstr "&प्रदर्शन"
@@ -181,57 +227,11 @@ msgstr "प्रतिलिपि अधिकार © 2013-%1 contactthemeed
 
 #: main.cpp:28
 #, kde-format
-msgid "Maintainer"
-msgstr "परिपालकः"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: contactconfigurationdialog.cpp:31
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "विन्यस्तं कुर्वन्तु"
-
-#: contactconfigurationdialog.cpp:41
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Default contact:"
-msgstr "पूर्वनिर्धारित सम्पर्कः : १."
-
-#: contacteditormainwindow.cpp:82
-#, kde-format
-msgctxt "@action"
-msgid "Add Extra Page..."
-msgstr "अतिरिक्त पृष्ठं योजयतु..."
-
-#: contacteditormainwindow.cpp:106
-#, kde-format
-msgctxt "@action"
-msgid "Install theme"
-msgstr "विषयवस्तु संस्थापयन्तु"
-
-#: contacteditormainwindow.cpp:110
-#, kde-format
-msgctxt "@action"
-msgid "Insert File..."
-msgstr "सञ्चिका सम्मिलितं कुर्वन्तु..."
-
-#: contacteditormainwindow.cpp:114
-#, kde-format
-msgctxt "@action"
-msgid "Manage themes..."
-msgstr "विषयवस्तु प्रबन्धयन्तु..."
-
-#: main.cpp:28
-#, kde-format
 msgctxt "@info:credit"
 msgid "Laurent Montel"
 msgstr "लॉरेण्ट् मोंटेल्"
+
+#: main.cpp:28
+#, kde-format
+msgid "Maintainer"
+msgstr "परिपालकः"

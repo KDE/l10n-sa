@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kinfocenter package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,75 +14,10 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
-
-#: kcmusb.cpp:35
-#, kde-format
-msgid "Device"
-msgstr "उपकरणम्‌"
-
-#: usbdevices.cpp:215
-#, kde-format
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: usbdevices.cpp:225
-#, kde-format
-msgid "<b>Manufacturer:</b> "
-msgstr "<b>निर्माता : १.</b> "
-
-#: usbdevices.cpp:227
-#, kde-format
-msgid "<b>Serial #:</b> "
-msgstr "<b>धारावाहिक #: .</b> "
-
-#: usbdevices.cpp:240
-#, kde-format
-msgid "<tr><td><i>Class</i></td>%1</tr>"
-msgstr "<tr><td><i>श्रेणी</i></td> %1</tr>"
-
-#: usbdevices.cpp:245
-#, kde-format
-msgid "<tr><td><i>Subclass</i></td>%1</tr>"
-msgstr "<tr><td><i>उपवर्गः</i></td> %1</tr>"
-
-#: usbdevices.cpp:250
-#, kde-format
-msgid "<tr><td><i>Protocol</i></td>%1</tr>"
-msgstr "<tr><td><i>प्रोटोकॉल</i></td> %1</tr>"
-
-#: usbdevices.cpp:251
-#, kde-format
-msgid "<tr><td><i>USB Version</i></td><td>%1.%2</td></tr>"
-msgstr "<tr><td><i>USB संस्करणम्</i></td><td> %1.%2</td></tr>"
-
-#: usbdevices.cpp:258
-#, kde-format
-msgid "<tr><td><i>Vendor ID</i></td><td>0x%1</td></tr>"
-msgstr "<tr><td><i>विक्रेता आईडी</i></td><td> ०x%1</td></tr>"
-
-#: usbdevices.cpp:263
-#, kde-format
-msgid "<tr><td><i>Product ID</i></td><td>0x%1</td></tr>"
-msgstr "<tr><td><i>उत्पाद आईडी</i></td><td> ०x%1</td></tr>"
-
-#: usbdevices.cpp:266
-#, kde-format
-msgid "<tr><td><i>Speed</i></td><td>%1 Mbit/s</td></tr>"
-msgstr "<tr><td><i>गति</i></td><td> %1 Mbit/s</td></tr>"
-
-#: usbdevices.cpp:267
-#, kde-format
-msgid "<tr><td><i>Channels</i></td><td>%1</td></tr>"
-msgstr "<tr><td><i>चैनल्स्</i></td><td> %1</td></tr>"
-
-#: usbdevices.cpp:268
-#, kde-format
-msgid "<tr><td><i>Max. Packet Size</i></td><td>%1</td></tr>"
-msgstr "<tr><td><i>मैक्स। पैकेट आकार</i></td><td> %1</td></tr>"
 
 #: classes.i18n:2 usbdevices.cpp:66
 #, kde-format
@@ -197,12 +132,6 @@ msgstr "वायरलेस्"
 msgctxt "USB device class"
 msgid "Xbox"
 msgstr "Xbox"
-
-#: usbdevices.cpp:92
-#, kde-format
-msgctxt "USB device class"
-msgid "Personal Healthcare"
-msgstr "व्यक्तिगत स्वास्थ्यसेवा"
 
 #: classes.i18n:21
 #, kde-format
@@ -443,3 +372,74 @@ msgstr "वायरलेस हैण्डसेट नियन्त्र�
 msgctxt "USB device subclass"
 msgid "Wireless USB Wire Adapter"
 msgstr "वायरलेस USB तार एडाप्टर"
+
+#: kcmusb.cpp:35
+#, kde-format
+msgid "Device"
+msgstr "उपकरणम्‌"
+
+#: usbdevices.cpp:92
+#, kde-format
+msgctxt "USB device class"
+msgid "Personal Healthcare"
+msgstr "व्यक्तिगत स्वास्थ्यसेवा"
+
+#: usbdevices.cpp:215
+#, kde-format
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: usbdevices.cpp:225
+#, kde-format
+msgid "<b>Manufacturer:</b> "
+msgstr "<b>निर्माता : १.</b> "
+
+#: usbdevices.cpp:227
+#, kde-format
+msgid "<b>Serial #:</b> "
+msgstr "<b>धारावाहिक #: .</b> "
+
+#: usbdevices.cpp:240
+#, kde-format
+msgid "<tr><td><i>Class</i></td>%1</tr>"
+msgstr "<tr><td><i>श्रेणी</i></td> %1</tr>"
+
+#: usbdevices.cpp:245
+#, kde-format
+msgid "<tr><td><i>Subclass</i></td>%1</tr>"
+msgstr "<tr><td><i>उपवर्गः</i></td> %1</tr>"
+
+#: usbdevices.cpp:250
+#, kde-format
+msgid "<tr><td><i>Protocol</i></td>%1</tr>"
+msgstr "<tr><td><i>प्रोटोकॉल</i></td> %1</tr>"
+
+#: usbdevices.cpp:251
+#, kde-format
+msgid "<tr><td><i>USB Version</i></td><td>%1.%2</td></tr>"
+msgstr "<tr><td><i>USB संस्करणम्</i></td><td> %1.%2</td></tr>"
+
+#: usbdevices.cpp:258
+#, kde-format
+msgid "<tr><td><i>Vendor ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>विक्रेता आईडी</i></td><td> ०x%1</td></tr>"
+
+#: usbdevices.cpp:263
+#, kde-format
+msgid "<tr><td><i>Product ID</i></td><td>0x%1</td></tr>"
+msgstr "<tr><td><i>उत्पाद आईडी</i></td><td> ०x%1</td></tr>"
+
+#: usbdevices.cpp:266
+#, kde-format
+msgid "<tr><td><i>Speed</i></td><td>%1 Mbit/s</td></tr>"
+msgstr "<tr><td><i>गति</i></td><td> %1 Mbit/s</td></tr>"
+
+#: usbdevices.cpp:267
+#, kde-format
+msgid "<tr><td><i>Channels</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>चैनल्स्</i></td><td> %1</td></tr>"
+
+#: usbdevices.cpp:268
+#, kde-format
+msgid "<tr><td><i>Max. Packet Size</i></td><td>%1</td></tr>"
+msgstr "<tr><td><i>मैक्स। पैकेट आकार</i></td><td> %1</td></tr>"

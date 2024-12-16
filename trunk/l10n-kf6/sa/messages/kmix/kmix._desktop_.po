@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-19 00:46+0000\n"
+"POT-Creation-Date: 2024-12-16 00:53+0000\n"
 "PO-Revision-Date: 2024-12-13 19:09+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -17,7 +17,7 @@ msgctxt "GenericName"
 msgid "Sound Mixer"
 msgstr "ध्वनिमिश्रकः"
 
-#: desktop/kmix_autostart.desktop:67 desktop/org.kde.kmix.desktop:62
+#: desktop/kmix_autostart.desktop:68 desktop/org.kde.kmix.desktop:63
 msgctxt "Name"
 msgid "KMix"
 msgstr "केमिक्स"
@@ -27,20 +27,45 @@ msgctxt "Name"
 msgid "Restore Mixer Settings"
 msgstr "मिक्सर सेटिंग्स् पुनःस्थापयन्तु"
 
-#: desktop/kmix.notifyrc:61
+#: desktop/kmix.notifyrc:4
+msgctxt "Comment"
+msgid "Sound Mixer"
+msgstr "ध्वनिमिश्रकः"
+
+#: desktop/kmix.notifyrc:62
 msgctxt "Name"
 msgid "Audio Device Fallback"
 msgstr "श्रव्ययन्त्र Fallback"
 
-#: desktop/kmix.notifyrc:150
+#: desktop/kmix.notifyrc:117
+msgctxt "Comment"
+msgid "Automatic fallback if the preferred device is unavailable"
+msgstr "यदि प्राधान्यं यन्त्रं अनुपलब्धं भवति तर्हि स्वचालितं fallback"
+
+#: desktop/kmix.notifyrc:153
 msgctxt "Name"
 msgid "Audio Device Connected"
 msgstr "श्रव्ययन्त्रं संयोजितम्"
 
-#: desktop/kmix.notifyrc:216
+#: desktop/kmix.notifyrc:185
+msgctxt "Comment"
+msgid "A sound device was connected"
+msgstr "एकं ध्वनियन्त्रं संयोजितम् आसीत्"
+
+#: desktop/kmix.notifyrc:221
 msgctxt "Name"
 msgid "Audio Device Disconnected"
 msgstr "श्रव्ययन्त्रं विच्छिन्नम्"
+
+#: desktop/kmix.notifyrc:253
+msgctxt "Comment"
+msgid "A sound device was disconnected"
+msgstr "एकं ध्वनियन्त्रं विच्छिन्नम् आसीत्"
+
+#: desktop/org.kde.kmix.desktop:119
+msgctxt "Comment"
+msgid "Control sound volumes"
+msgstr "ध्वनि मात्रां नियन्त्रयन्तु"
 
 #: desktop/restore_kmix_volumes.desktop:8
 msgctxt "Name"
@@ -51,28 +76,3 @@ msgstr "Mixer Volumes पुनःस्थापयन्तु"
 msgctxt "Name"
 msgid "Mixer DataEngine"
 msgstr "मिक्सर डाटाइञ्जिन"
-
-#: desktop/kmix.notifyrc:4
-msgctxt "Comment"
-msgid "Sound Mixer"
-msgstr "ध्वनिमिश्रकः"
-
-#: desktop/kmix.notifyrc:115
-msgctxt "Comment"
-msgid "Automatic fallback if the preferred device is unavailable"
-msgstr "यदि प्राधान्यं यन्त्रं अनुपलब्धं भवति तर्हि स्वचालितं fallback"
-
-#: desktop/kmix.notifyrc:181
-msgctxt "Comment"
-msgid "A sound device was connected"
-msgstr "एकं ध्वनियन्त्रं संयोजितम् आसीत्"
-
-#: desktop/kmix.notifyrc:247
-msgctxt "Comment"
-msgid "A sound device was disconnected"
-msgstr "एकं ध्वनियन्त्रं विच्छिन्नम् आसीत्"
-
-#: desktop/org.kde.kmix.desktop:117
-msgctxt "Comment"
-msgid "Control sound volumes"
-msgstr "ध्वनि मात्रां नियन्त्रयन्तु"

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kblocks package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kblocks\n"
@@ -13,18 +13,28 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
-#: config/kblocks.kcfg:9
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #. i18n: ectx: label, entry (Theme), group (General)
+#: config/kblocks.kcfg:9
 #, kde-format
 msgid "The graphical theme to be used."
 msgstr "प्रयोक्तव्यः चित्रात्मकः विषयः ।"
 
-#: config/kblocks.kcfg:14
 #. i18n: ectx: label, entry (Sounds), group (Preferences)
+#: config/kblocks.kcfg:14
 #, kde-format
 msgid "Whether sound effects should be played."
 msgstr "ध्वनिप्रभावाः वादनीयाः वा।"
@@ -38,6 +48,42 @@ msgstr "स्कोर सूची : 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0"
 #, kde-format
 msgid "Score List : %1 - %2 - %3 - %4 - %5 - %6 - %7 - %8"
 msgstr "स्कोरसूची : %1 - %2 - %3 - %4 - %5 - %6 - %7 - %8"
+
+#: KBlocksKeyboardPlayer.cpp:76
+#, kde-format
+msgctxt "@action"
+msgid "Rotate Piece Clockwise"
+msgstr "Piece Clockwise परिभ्रमन्तु"
+
+#: KBlocksKeyboardPlayer.cpp:82
+#, kde-format
+msgctxt "@action"
+msgid "Rotate Piece Counterclockwise"
+msgstr "Piece इत्यस्य विपरीतदिशायां परिभ्रमन्तु"
+
+#: KBlocksKeyboardPlayer.cpp:88
+#, kde-format
+msgctxt "@action"
+msgid "Move Piece Left"
+msgstr "Piece Left इति चालयन्तु"
+
+#: KBlocksKeyboardPlayer.cpp:94
+#, kde-format
+msgctxt "@action"
+msgid "Move Piece Right"
+msgstr "Piece Right चालयन्तु"
+
+#: KBlocksKeyboardPlayer.cpp:100
+#, kde-format
+msgctxt "@action"
+msgid "Move Piece Down"
+msgstr "Piece Down चालयन्तु"
+
+#: KBlocksKeyboardPlayer.cpp:106
+#, kde-format
+msgctxt "@action"
+msgid "Drop the Piece"
+msgstr "खण्डं पातयतु"
 
 #: KBlocksScene.cpp:216
 #, kde-format
@@ -69,8 +115,8 @@ msgstr "त्वं विजयसि!"
 msgid "You Lose!"
 msgstr "त्वं हारसि !"
 
-#: kblocksui.rc:24
 #. i18n: ectx: ToolBar (mainToolBar)
+#: kblocksui.rc:24
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
@@ -79,6 +125,24 @@ msgstr "मुख्य साधनपट्टी"
 #, kde-format
 msgid "Points: %1 - Lines: %2 - Level: %3"
 msgstr "बिन्दुः %1 - पङ्क्तयः %2 - स्तरः %3"
+
+#: KBlocksWin.cpp:290
+#, kde-format
+msgctxt "@action"
+msgid "Single Game"
+msgstr "एकल खेल"
+
+#: KBlocksWin.cpp:294
+#, kde-format
+msgctxt "@action"
+msgid "Human vs AI"
+msgstr "मानव बनाम ऐ"
+
+#: KBlocksWin.cpp:313
+#, kde-format
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "ध्वनयः वादयन्तु"
 
 #: KBlocksWin.cpp:320
 #, kde-format
@@ -157,69 +221,4 @@ msgid ""
 "Setup the configuration file for tetris researcher mode. Not for desktop "
 "users."
 msgstr ""
-"tetris researcher mode कृते विन्याससञ्चिकां सेट् कुर्वन्तु । न तु डेस्कटॉप "
-"उपयोक्तृणां कृते।"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: KBlocksKeyboardPlayer.cpp:76
-#, kde-format
-msgctxt "@action"
-msgid "Rotate Piece Clockwise"
-msgstr "Piece Clockwise परिभ्रमन्तु"
-
-#: KBlocksKeyboardPlayer.cpp:82
-#, kde-format
-msgctxt "@action"
-msgid "Rotate Piece Counterclockwise"
-msgstr "Piece इत्यस्य विपरीतदिशायां परिभ्रमन्तु"
-
-#: KBlocksKeyboardPlayer.cpp:88
-#, kde-format
-msgctxt "@action"
-msgid "Move Piece Left"
-msgstr "Piece Left इति चालयन्तु"
-
-#: KBlocksKeyboardPlayer.cpp:94
-#, kde-format
-msgctxt "@action"
-msgid "Move Piece Right"
-msgstr "Piece Right चालयन्तु"
-
-#: KBlocksKeyboardPlayer.cpp:100
-#, kde-format
-msgctxt "@action"
-msgid "Move Piece Down"
-msgstr "Piece Down चालयन्तु"
-
-#: KBlocksKeyboardPlayer.cpp:106
-#, kde-format
-msgctxt "@action"
-msgid "Drop the Piece"
-msgstr "खण्डं पातयतु"
-
-#: KBlocksWin.cpp:290
-#, kde-format
-msgctxt "@action"
-msgid "Single Game"
-msgstr "एकल खेल"
-
-#: KBlocksWin.cpp:294
-#, kde-format
-msgctxt "@action"
-msgid "Human vs AI"
-msgstr "मानव बनाम ऐ"
-
-#: KBlocksWin.cpp:313
-#, kde-format
-msgctxt "@option:check"
-msgid "Play Sounds"
-msgstr "ध्वनयः वादयन्तु"
+"tetris researcher mode कृते विन्याससञ्चिकां सेट् कुर्वन्तु । न तु डेस्कटॉप उपयोक्तृणां कृते।"

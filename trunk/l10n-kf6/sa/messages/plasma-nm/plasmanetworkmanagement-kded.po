@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-nm package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -47,9 +47,413 @@ msgstr "सीमितसंपर्कता"
 msgid ""
 "This device appears to be connected to a network but is unable to reach the "
 "Internet."
-msgstr ""
-"एतत् यन्त्रं जालपुटेन सह सम्बद्धं दृश्यते परन्तु अन्तर्जालं प्राप्तुं "
-"असमर्थम् अस्ति ।"
+msgstr "एतत् यन्त्रं जालपुटेन सह सम्बद्धं दृश्यते परन्तु अन्तर्जालं प्राप्तुं असमर्थम् अस्ति ।"
+
+#: modemmonitor.cpp:182
+#, kde-format
+msgctxt "Text in GSM PIN/PUK unlock error dialog"
+msgid "Error unlocking modem: %1"
+msgstr "मोडेम् अनलॉक् करणं त्रुटि: %1"
+
+#: modemmonitor.cpp:183
+#, kde-format
+msgctxt "Title for GSM PIN/PUK unlock error dialog"
+msgid "PIN/PUK unlock error"
+msgstr "पिन/PUK अनलॉक त्रुटि"
+
+#: notification.cpp:97
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ConfigFailedReason"
+msgid "The device could not be configured"
+msgstr "यन्त्रं विन्यस्तुं न शक्यते स्म"
+
+#: notification.cpp:100
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"ConfigUnavailableReason"
+msgid "IP configuration was unavailable"
+msgstr "IP विन्यासः अनुपलब्धः आसीत्"
+
+#: notification.cpp:103
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ConfigExpiredReason"
+msgid "IP configuration expired"
+msgstr "IP विन्यासस्य अवधिः समाप्तः"
+
+#: notification.cpp:106
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to NoSecretsReason"
+msgid "No secrets were provided"
+msgstr "न किमपि रहस्यं प्रदत्तम्"
+
+#: notification.cpp:109
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"AuthSupplicantDisconnectReason"
+msgid "Authorization supplicant disconnected"
+msgstr "प्राधिकरण याचिका विच्छिन्न"
+
+#: notification.cpp:113
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"AuthSupplicantConfigFailedReason"
+msgid "Authorization supplicant's configuration failed"
+msgstr "प्राधिकरणयाचकस्य विन्यासः विफलः अभवत्"
+
+#: notification.cpp:116
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"AuthSupplicantFailedReason"
+msgid "Authorization supplicant failed"
+msgstr "प्राधिकरण याचिका असफल"
+
+#: notification.cpp:119
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"AuthSupplicantTimeoutReason"
+msgid "Authorization supplicant timed out"
+msgstr "प्राधिकरण याचिकाकर्ता समय समाप्त"
+
+#: notification.cpp:122
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to PppStartFailedReason"
+msgid "PPP failed to start"
+msgstr "पीपीपी आरम्भं कर्तुं असफलः अभवत्"
+
+#: notification.cpp:125
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to PppDisconnectReason"
+msgid "PPP disconnected"
+msgstr "पीपीपी विच्छिन्न"
+
+#: notification.cpp:128
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to PppFailedReason"
+msgid "PPP failed"
+msgstr "पीपीपी असफलः अभवत्"
+
+#: notification.cpp:131
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to DhcpStartFailedReason"
+msgid "DHCP failed to start"
+msgstr "DHCP आरम्भं कर्तुं असफलम् अभवत्"
+
+#: notification.cpp:134
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to DhcpErrorReason"
+msgid "A DHCP error occurred"
+msgstr "DHCP त्रुटिः अभवत्"
+
+#: notification.cpp:137
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to DhcpFailedReason"
+msgid "DHCP failed "
+msgstr "DHCP विफलम् अभवत् "
+
+#: notification.cpp:140
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"SharedStartFailedReason"
+msgid "The shared service failed to start"
+msgstr "साझीकृतसेवा आरम्भं कर्तुं असफलतां प्राप्तवती"
+
+#: notification.cpp:143
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to SharedFailedReason"
+msgid "The shared service failed"
+msgstr "साझीकृतसेवा विफलतां प्राप्तवती"
+
+#: notification.cpp:146
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"AutoIpStartFailedReason"
+msgid "The auto IP service failed to start"
+msgstr "स्वतः IP सेवा आरम्भं कर्तुं असफलतां प्राप्तवती"
+
+#: notification.cpp:149
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to AutoIpErrorReason"
+msgid "The auto IP service reported an error"
+msgstr "स्वतः IP सेवा त्रुटिं निवेदितवती"
+
+#: notification.cpp:152
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to AutoIpFailedReason"
+msgid "The auto IP service failed"
+msgstr "स्वतः IP सेवा विफलतां प्राप्तवती"
+
+#: notification.cpp:155
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ModemBusyReason"
+msgid "The modem is busy"
+msgstr "मोडेमः व्यस्तः अस्ति"
+
+#: notification.cpp:158
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ModemNoDialToneReason"
+msgid "The modem has no dial tone"
+msgstr "मोडेमस्य डायल-स्वरः नास्ति"
+
+#: notification.cpp:161
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ModemNoCarrierReason"
+msgid "The modem shows no carrier"
+msgstr "मोडेम् कोऽपि वाहकः न दर्शयति"
+
+#: notification.cpp:164
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"ModemDialTimeoutReason"
+msgid "The modem dial timed out"
+msgstr "मोडेम-डायलस्य समयः समाप्तः"
+
+#: notification.cpp:167
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ModemDialFailedReason"
+msgid "The modem dial failed"
+msgstr "मोडेम-डायलः विफलः अभवत्"
+
+#: notification.cpp:170
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ModemInitFailedReason"
+msgid "The modem could not be initialized"
+msgstr "मोडेम् आरम्भं कर्तुं न शक्यते स्म"
+
+#: notification.cpp:173
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"GsmApnSelectFailedReason"
+msgid "The GSM APN could not be selected"
+msgstr "GSM APN इत्यस्य चयनं कर्तुं न शक्यते स्म"
+
+#: notification.cpp:176
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to GsmNotSearchingReason"
+msgid "The GSM modem is not searching"
+msgstr "GSM मोडेम् अन्वेषणं न करोति"
+
+#: notification.cpp:179
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"GsmRegistrationDeniedReason"
+msgid "GSM network registration was denied"
+msgstr "जीएसएम संजालपञ्जीकरणं अङ्गीकृतम्"
+
+#: notification.cpp:182
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"GsmRegistrationTimeoutReason"
+msgid "GSM network registration timed out"
+msgstr "जीएसएम संजालपञ्जीकरणस्य समयः समाप्तः"
+
+#: notification.cpp:185
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"GsmRegistrationFailedReason"
+msgid "GSM registration failed"
+msgstr "जीएसएम पञ्जीकरणं विफलम् अभवत्"
+
+#: notification.cpp:188
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"GsmPinCheckFailedReason"
+msgid "The GSM PIN check failed"
+msgstr "GSM PIN जाँचः विफलः अभवत्"
+
+#: notification.cpp:191
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to FirmwareMissingReason"
+msgid "Device firmware is missing"
+msgstr "उपकरणस्य फर्मवेयरः अनुपलब्धः अस्ति"
+
+#: notification.cpp:194
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to DeviceRemovedReason"
+msgid "The device was removed"
+msgstr "यन्त्रं निष्कासितम् आसीत्"
+
+#: notification.cpp:197
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to SleepingReason"
+msgid "The networking system is now sleeping"
+msgstr "संजालव्यवस्था अधुना सुप्तवती अस्ति"
+
+#: notification.cpp:200
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"ConnectionRemovedReason"
+msgid "The connection was removed"
+msgstr "संयोजनं निष्कासितम्"
+
+#: notification.cpp:205
+#, kde-format
+msgctxt "@info:status Notification when the device failed due to CarrierReason"
+msgid "The cable was disconnected"
+msgstr "केबलस्य सम्बन्धः विच्छिन्नः आसीत्"
+
+#: notification.cpp:211
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ModemNotFoundReason"
+msgid "The modem could not be found"
+msgstr "मोडेमः न लब्धः"
+
+#: notification.cpp:214
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to BluetoothFailedReason"
+msgid "The bluetooth connection failed or timed out"
+msgstr "ब्लूटूथ-संयोजनं विफलं जातम् अथवा समयः समाप्तः"
+
+#: notification.cpp:217
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to GsmSimNotInserted"
+msgid "GSM Modem's SIM Card not inserted"
+msgstr "GSM Modem इत्यस्य SIM Card न प्रविष्टम्"
+
+#: notification.cpp:220
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to GsmSimPinRequired"
+msgid "GSM Modem's SIM Pin required"
+msgstr "GSM Modem इत्यस्य SIM Pin आवश्यकम्"
+
+#: notification.cpp:223
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to GsmSimPukRequired"
+msgid "GSM Modem's SIM Puk required"
+msgstr "GSM Modem इत्यस्य SIM Puk आवश्यकम्"
+
+#: notification.cpp:226
+#, kde-format
+msgctxt "@info:status Notification when the device failed due to GsmSimWrong"
+msgid "GSM Modem's SIM wrong"
+msgstr "GSM Modem इत्यस्य SIM गलतः"
+
+#: notification.cpp:229
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to InfiniBandMode"
+msgid "InfiniBand device does not support connected mode"
+msgstr "InfiniBand उपकरणं संयोजितं मोडं न समर्थयति"
+
+#: notification.cpp:232
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to DependencyFailed"
+msgid "A dependency of the connection failed"
+msgstr "संयोजनस्य एकः आश्रयः विफलः अभवत्"
+
+#: notification.cpp:235
+#, kde-format
+msgctxt "@info:status Notification when the device failed due to Br2684Failed"
+msgid "Problem with the RFC 2684 Ethernet over ADSL bridge"
+msgstr "ADSL सेतुः उपरि RFC 2684 Ethernet इत्यस्य समस्या"
+
+#: notification.cpp:238
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"ModemManagerUnavailable"
+msgid "ModemManager not running"
+msgstr "ModemManager न चाल्यते"
+
+#: notification.cpp:244
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to "
+"SecondaryConnectionFailed"
+msgid "A secondary connection of the base connection failed"
+msgstr "आधारसंयोजनस्य गौणसंयोजनं विफलम् अभवत्"
+
+#: notification.cpp:247
+#, kde-format
+msgctxt "@info:status Notification when the device failed due to DcbFcoeFailed"
+msgid "DCB or FCoE setup failed"
+msgstr "DCB अथवा FCoE सेटअप विफलम्"
+
+#: notification.cpp:250
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to TeamdControlFailed"
+msgid "teamd control failed"
+msgstr "teamd control विफलम् अभवत्"
+
+#: notification.cpp:253
+#, kde-format
+msgctxt "@info:status Notification when the device failed due to ModemFailed"
+msgid "Modem failed or no longer available"
+msgstr "मोडेमः विफलः अथवा अधुना उपलब्धः नास्ति"
+
+#: notification.cpp:256
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ModemAvailable"
+msgid "Modem now ready and available"
+msgstr "मोडेम इदानीं सज्जः उपलब्धः च"
+
+#: notification.cpp:259
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to SimPinIncorrect"
+msgid "The SIM PIN was incorrect"
+msgstr "सिमपिन् अशुद्धम् आसीत्"
+
+#: notification.cpp:262
+#, kde-format
+msgctxt "@info:status Notification when the device failed due to NewActivation"
+msgid "A new connection activation was enqueued"
+msgstr "नूतनं संयोजनसक्रियीकरणं पङ्क्तिबद्धम् आसीत्"
+
+#: notification.cpp:265
+#, kde-format
+msgctxt "@info:status Notification when the device failed due to ParentChanged"
+msgid "The device's parent changed"
+msgstr "यन्त्रस्य मातापिता परिवर्तत"
+
+#: notification.cpp:268
+#, kde-format
+msgctxt ""
+"@info:status Notification when the device failed due to ParentManagedChanged"
+msgid "The device parent's management changed"
+msgstr "यन्त्रस्य मातापितृणां प्रबन्धनं परिवर्तितम्"
 
 #: notification.cpp:344
 #, kde-format
@@ -81,9 +485,7 @@ msgstr "VPN संयोजनं '%1' निष्क्रियम्।"
 msgid ""
 "VPN connection '%1' was deactivated because the device it was using was "
 "disconnected."
-msgstr ""
-"VPN संयोजनं '%1' निष्क्रियं कृतम् यतः तत् उपयुज्यमानं यन्त्रं विच्छिन्नम् "
-"आसीत् ।"
+msgstr "VPN संयोजनं '%1' निष्क्रियं कृतम् यतः तत् उपयुज्यमानं यन्त्रं विच्छिन्नम् आसीत् ।"
 
 #: notification.cpp:442
 #, kde-format
@@ -142,6 +544,12 @@ msgstr "भवन्तः जालपुटेन सह न सम्बद�
 msgid "Authenticate %1"
 msgstr "%1 प्रमाणीकरणं कुर्वन्तु"
 
+#: passworddialog.cpp:90
+#, kde-format
+msgctxt "@info:status 'secrets' means the authentication needed for a VPN"
+msgid "No secrets were requested"
+msgstr "न किमपि रहस्यं प्रार्थितम्"
+
 #: passworddialog.cpp:99
 #, kde-format
 msgid "Incorrect password for the wireless network \"%1\". Please try again."
@@ -167,6 +575,12 @@ msgstr "\"%1\" संयोजनस्य गुप्तशब्दं प्
 msgid "%1 password dialog"
 msgstr "%1 गुप्तशब्दसंवादः"
 
+#: passworddialog.cpp:121
+#, kde-format
+msgctxt "@info:status"
+msgid "VPN settings are missing"
+msgstr "VPN सेटिंग्स् अनुपलब्धाः सन्ति"
+
 #: passworddialog.cpp:134
 #, kde-format
 msgid "Provide the secrets for the VPN connection \"%1\":"
@@ -177,14 +591,14 @@ msgstr "VPN संयोजनस्य रहस्यं \"%1\" प्रद�
 msgid "VPN secrets (%1) dialog"
 msgstr "VPN रहस्यानि (%1) संवादः"
 
-#: passworddialog.ui:26
 #. i18n: ectx: property (windowTitle), widget (QWidget, PasswordDialog)
+#: passworddialog.ui:26
 #, kde-format
 msgid "Password dialog"
 msgstr "गुप्तशब्दसंवादः"
 
-#: passworddialog.ui:92
 #. i18n: ectx: property (text), widget (QLabel, labelPass)
+#: passworddialog.ui:92
 #, kde-format
 msgid "Password:"
 msgstr "समाभाष्:"
@@ -236,7 +650,8 @@ msgstr "%1 अनलॉक आवश्यकम्"
 
 #: pindialog.cpp:85 pindialog.cpp:117
 #, kde-format
-msgid "The mobile broadband device '%1' requires a %2 code before it can be used."
+msgid ""
+"The mobile broadband device '%1' requires a %2 code before it can be used."
 msgstr "'%1' चल-ब्रॉडबैण्ड्-यन्त्रस्य उपयोगात् पूर्वं %2-सङ्केतस्य आवश्यकता भवति ।"
 
 #: pindialog.cpp:86 pindialog.cpp:118
@@ -244,8 +659,8 @@ msgstr "'%1' चल-ब्रॉडबैण्ड्-यन्त्रस्�
 msgid "%1 code:"
 msgstr "%1 कोडः:"
 
-#: pindialog.cpp:87 pinwidget.ui:153
 #. i18n: ectx: property (text), widget (QLabel, pinLabel)
+#: pindialog.cpp:87 pinwidget.ui:153
 #, kde-format
 msgid "New PIN code:"
 msgstr "नवीनः पिनसङ्केतः : १."
@@ -255,8 +670,8 @@ msgstr "नवीनः पिनसङ्केतः : १."
 msgid "Re-enter new PIN code:"
 msgstr "नूतनं पिनसङ्केतं पुनः प्रविष्टं कुर्वन्तु:"
 
-#: pindialog.cpp:89 pinwidget.ui:193
 #. i18n: ectx: property (text), widget (QCheckBox, chkShowPass)
+#: pindialog.cpp:89 pinwidget.ui:193
 #, kde-format
 msgid "Show PIN/PUK code"
 msgstr "पिन/PUK कोडं दर्शयतु"
@@ -326,31 +741,29 @@ msgstr "PUK कोडः अतीव लघुः। ८ अङ्काः भ
 msgid "Unknown Error"
 msgstr "अज्ञातदोषः"
 
-#: pinwidget.ui:14 pinwidget.ui:47
 #. i18n: ectx: property (windowTitle), widget (QWidget, PinWidget)
 #. i18n: ectx: property (text), widget (QLabel, title)
+#: pinwidget.ui:14 pinwidget.ui:47
 #, kde-format
 msgid "SIM PIN unlock required"
 msgstr "SIM PIN अनलॉक आवश्यकम्"
 
-#: pinwidget.ui:76
 #. i18n: ectx: property (text), widget (QLabel, prompt)
+#: pinwidget.ui:76
 #, no-c-format, kde-format
 msgid ""
 "The mobile broadband device '%1' requires a SIM PIN code before it can be "
 "used."
-msgstr ""
-"'%1' इति चल-ब्रॉडबैण्ड्-यन्त्रस्य उपयोगात् पूर्वं सिम-पिन्-सङ्केतस्य "
-"आवश्यकता भवति ।"
+msgstr "'%1' इति चल-ब्रॉडबैण्ड्-यन्त्रस्य उपयोगात् पूर्वं सिम-पिन्-सङ्केतस्य आवश्यकता भवति ।"
 
-#: pinwidget.ui:133
 #. i18n: ectx: property (text), widget (QLabel, pukLabel)
+#: pinwidget.ui:133
 #, kde-format
 msgid "PUK code:"
 msgstr "PUK कोडः : १."
 
-#: pinwidget.ui:173
 #. i18n: ectx: property (text), widget (QLabel, pin2Label)
+#: pinwidget.ui:173
 #, kde-format
 msgid "Re-enter PIN code:"
 msgstr "पुनः पिन कोडं प्रविष्टं कुर्वन्तु:"
@@ -359,403 +772,3 @@ msgstr "पुनः पिन कोडं प्रविष्टं कु�
 #, kde-format
 msgid "Authentication to %1 failed. Wrong password?"
 msgstr "%1 प्रति प्रमाणीकरणं विफलम् । गलतगुप्तशब्दः ?"
-
-#: modemmonitor.cpp:182
-#, kde-format
-msgctxt "Text in GSM PIN/PUK unlock error dialog"
-msgid "Error unlocking modem: %1"
-msgstr "मोडेम् अनलॉक् करणं त्रुटि: %1"
-
-#: modemmonitor.cpp:183
-#, kde-format
-msgctxt "Title for GSM PIN/PUK unlock error dialog"
-msgid "PIN/PUK unlock error"
-msgstr "पिन/PUK अनलॉक त्रुटि"
-
-#: notification.cpp:97
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ConfigFailedReason"
-msgid "The device could not be configured"
-msgstr "यन्त्रं विन्यस्तुं न शक्यते स्म"
-
-#: notification.cpp:100
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"ConfigUnavailableReason"
-msgid "IP configuration was unavailable"
-msgstr "IP विन्यासः अनुपलब्धः आसीत्"
-
-#: notification.cpp:103
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ConfigExpiredReason"
-msgid "IP configuration expired"
-msgstr "IP विन्यासस्य अवधिः समाप्तः"
-
-#: notification.cpp:106
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to NoSecretsReason"
-msgid "No secrets were provided"
-msgstr "न किमपि रहस्यं प्रदत्तम्"
-
-#: notification.cpp:109
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"AuthSupplicantDisconnectReason"
-msgid "Authorization supplicant disconnected"
-msgstr "प्राधिकरण याचिका विच्छिन्न"
-
-#: notification.cpp:113
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"AuthSupplicantConfigFailedReason"
-msgid "Authorization supplicant's configuration failed"
-msgstr "प्राधिकरणयाचकस्य विन्यासः विफलः अभवत्"
-
-#: notification.cpp:116
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"AuthSupplicantFailedReason"
-msgid "Authorization supplicant failed"
-msgstr "प्राधिकरण याचिका असफल"
-
-#: notification.cpp:119
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"AuthSupplicantTimeoutReason"
-msgid "Authorization supplicant timed out"
-msgstr "प्राधिकरण याचिकाकर्ता समय समाप्त"
-
-#: notification.cpp:122
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to PppStartFailedReason"
-msgid "PPP failed to start"
-msgstr "पीपीपी आरम्भं कर्तुं असफलः अभवत्"
-
-#: notification.cpp:125
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to PppDisconnectReason"
-msgid "PPP disconnected"
-msgstr "पीपीपी विच्छिन्न"
-
-#: notification.cpp:128
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to PppFailedReason"
-msgid "PPP failed"
-msgstr "पीपीपी असफलः अभवत्"
-
-#: notification.cpp:131
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"DhcpStartFailedReason"
-msgid "DHCP failed to start"
-msgstr "DHCP आरम्भं कर्तुं असफलम् अभवत्"
-
-#: notification.cpp:134
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to DhcpErrorReason"
-msgid "A DHCP error occurred"
-msgstr "DHCP त्रुटिः अभवत्"
-
-#: notification.cpp:137
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to DhcpFailedReason"
-msgid "DHCP failed "
-msgstr "DHCP विफलम् अभवत् "
-
-#: notification.cpp:140
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"SharedStartFailedReason"
-msgid "The shared service failed to start"
-msgstr "साझीकृतसेवा आरम्भं कर्तुं असफलतां प्राप्तवती"
-
-#: notification.cpp:143
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to SharedFailedReason"
-msgid "The shared service failed"
-msgstr "साझीकृतसेवा विफलतां प्राप्तवती"
-
-#: notification.cpp:146
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"AutoIpStartFailedReason"
-msgid "The auto IP service failed to start"
-msgstr "स्वतः IP सेवा आरम्भं कर्तुं असफलतां प्राप्तवती"
-
-#: notification.cpp:149
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to AutoIpErrorReason"
-msgid "The auto IP service reported an error"
-msgstr "स्वतः IP सेवा त्रुटिं निवेदितवती"
-
-#: notification.cpp:152
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to AutoIpFailedReason"
-msgid "The auto IP service failed"
-msgstr "स्वतः IP सेवा विफलतां प्राप्तवती"
-
-#: notification.cpp:155
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ModemBusyReason"
-msgid "The modem is busy"
-msgstr "मोडेमः व्यस्तः अस्ति"
-
-#: notification.cpp:158
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"ModemNoDialToneReason"
-msgid "The modem has no dial tone"
-msgstr "मोडेमस्य डायल-स्वरः नास्ति"
-
-#: notification.cpp:161
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ModemNoCarrierReason"
-msgid "The modem shows no carrier"
-msgstr "मोडेम् कोऽपि वाहकः न दर्शयति"
-
-#: notification.cpp:164
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"ModemDialTimeoutReason"
-msgid "The modem dial timed out"
-msgstr "मोडेम-डायलस्य समयः समाप्तः"
-
-#: notification.cpp:167
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"ModemDialFailedReason"
-msgid "The modem dial failed"
-msgstr "मोडेम-डायलः विफलः अभवत्"
-
-#: notification.cpp:170
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"ModemInitFailedReason"
-msgid "The modem could not be initialized"
-msgstr "मोडेम् आरम्भं कर्तुं न शक्यते स्म"
-
-#: notification.cpp:173
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"GsmApnSelectFailedReason"
-msgid "The GSM APN could not be selected"
-msgstr "GSM APN इत्यस्य चयनं कर्तुं न शक्यते स्म"
-
-#: notification.cpp:176
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"GsmNotSearchingReason"
-msgid "The GSM modem is not searching"
-msgstr "GSM मोडेम् अन्वेषणं न करोति"
-
-#: notification.cpp:179
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"GsmRegistrationDeniedReason"
-msgid "GSM network registration was denied"
-msgstr "जीएसएम संजालपञ्जीकरणं अङ्गीकृतम्"
-
-#: notification.cpp:182
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"GsmRegistrationTimeoutReason"
-msgid "GSM network registration timed out"
-msgstr "जीएसएम संजालपञ्जीकरणस्य समयः समाप्तः"
-
-#: notification.cpp:185
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"GsmRegistrationFailedReason"
-msgid "GSM registration failed"
-msgstr "जीएसएम पञ्जीकरणं विफलम् अभवत्"
-
-#: notification.cpp:188
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"GsmPinCheckFailedReason"
-msgid "The GSM PIN check failed"
-msgstr "GSM PIN जाँचः विफलः अभवत्"
-
-#: notification.cpp:191
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"FirmwareMissingReason"
-msgid "Device firmware is missing"
-msgstr "उपकरणस्य फर्मवेयरः अनुपलब्धः अस्ति"
-
-#: notification.cpp:194
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to DeviceRemovedReason"
-msgid "The device was removed"
-msgstr "यन्त्रं निष्कासितम् आसीत्"
-
-#: notification.cpp:197
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to SleepingReason"
-msgid "The networking system is now sleeping"
-msgstr "संजालव्यवस्था अधुना सुप्तवती अस्ति"
-
-#: notification.cpp:200
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"ConnectionRemovedReason"
-msgid "The connection was removed"
-msgstr "संयोजनं निष्कासितम्"
-
-#: notification.cpp:205
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to CarrierReason"
-msgid "The cable was disconnected"
-msgstr "केबलस्य सम्बन्धः विच्छिन्नः आसीत्"
-
-#: notification.cpp:211
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ModemNotFoundReason"
-msgid "The modem could not be found"
-msgstr "मोडेमः न लब्धः"
-
-#: notification.cpp:214
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"BluetoothFailedReason"
-msgid "The bluetooth connection failed or timed out"
-msgstr "ब्लूटूथ-संयोजनं विफलं जातम् अथवा समयः समाप्तः"
-
-#: notification.cpp:217
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to GsmSimNotInserted"
-msgid "GSM Modem's SIM Card not inserted"
-msgstr "GSM Modem इत्यस्य SIM Card न प्रविष्टम्"
-
-#: notification.cpp:220
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to GsmSimPinRequired"
-msgid "GSM Modem's SIM Pin required"
-msgstr "GSM Modem इत्यस्य SIM Pin आवश्यकम्"
-
-#: notification.cpp:223
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to GsmSimPukRequired"
-msgid "GSM Modem's SIM Puk required"
-msgstr "GSM Modem इत्यस्य SIM Puk आवश्यकम्"
-
-#: notification.cpp:226
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to GsmSimWrong"
-msgid "GSM Modem's SIM wrong"
-msgstr "GSM Modem इत्यस्य SIM गलतः"
-
-#: notification.cpp:229
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to InfiniBandMode"
-msgid "InfiniBand device does not support connected mode"
-msgstr "InfiniBand उपकरणं संयोजितं मोडं न समर्थयति"
-
-#: notification.cpp:232
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to DependencyFailed"
-msgid "A dependency of the connection failed"
-msgstr "संयोजनस्य एकः आश्रयः विफलः अभवत्"
-
-#: notification.cpp:235
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to Br2684Failed"
-msgid "Problem with the RFC 2684 Ethernet over ADSL bridge"
-msgstr "ADSL सेतुः उपरि RFC 2684 Ethernet इत्यस्य समस्या"
-
-#: notification.cpp:238
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"ModemManagerUnavailable"
-msgid "ModemManager not running"
-msgstr "ModemManager न चाल्यते"
-
-#: notification.cpp:244
-#, kde-format
-msgctxt ""
-"@info:status Notification when the device failed due to "
-"SecondaryConnectionFailed"
-msgid "A secondary connection of the base connection failed"
-msgstr "आधारसंयोजनस्य गौणसंयोजनं विफलम् अभवत्"
-
-#: notification.cpp:247
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to DcbFcoeFailed"
-msgid "DCB or FCoE setup failed"
-msgstr "DCB अथवा FCoE सेटअप विफलम्"
-
-#: notification.cpp:250
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to TeamdControlFailed"
-msgid "teamd control failed"
-msgstr "teamd control विफलम् अभवत्"
-
-#: notification.cpp:253
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ModemFailed"
-msgid "Modem failed or no longer available"
-msgstr "मोडेमः विफलः अथवा अधुना उपलब्धः नास्ति"
-
-#: notification.cpp:256
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ModemAvailable"
-msgid "Modem now ready and available"
-msgstr "मोडेम इदानीं सज्जः उपलब्धः च"
-
-#: notification.cpp:259
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to SimPinIncorrect"
-msgid "The SIM PIN was incorrect"
-msgstr "सिमपिन् अशुद्धम् आसीत्"
-
-#: notification.cpp:262
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to NewActivation"
-msgid "A new connection activation was enqueued"
-msgstr "नूतनं संयोजनसक्रियीकरणं पङ्क्तिबद्धम् आसीत्"
-
-#: notification.cpp:265
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ParentChanged"
-msgid "The device's parent changed"
-msgstr "यन्त्रस्य मातापिता परिवर्तत"
-
-#: notification.cpp:268
-#, kde-format
-msgctxt "@info:status Notification when the device failed due to ParentManagedChanged"
-msgid "The device parent's management changed"
-msgstr "यन्त्रस्य मातापितृणां प्रबन्धनं परिवर्तितम्"
-
-#: passworddialog.cpp:90
-#, kde-format
-msgctxt "@info:status 'secrets' means the authentication needed for a VPN"
-msgid "No secrets were requested"
-msgstr "न किमपि रहस्यं प्रार्थितम्"
-
-#: passworddialog.cpp:121
-#, kde-format
-msgctxt "@info:status"
-msgid "VPN settings are missing"
-msgstr "VPN सेटिंग्स् अनुपलब्धाः सन्ति"

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the symboleditor package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 #: src/Editor.cpp:173 src/Editor.cpp:174 src/Editor.cpp:178 src/Editor.cpp:179
 #: src/Editor.cpp:189 src/Editor.cpp:194 src/Editor.cpp:198 src/Editor.cpp:199
 #, fuzzy, kde-format
@@ -16,7 +16,7 @@ msgstr ""
 "Language-Team: Sanskrit\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 
@@ -220,10 +220,34 @@ msgstr "(ग)2011-2019 स्टीफन एलेवेल्"
 msgid "Project Lead"
 msgstr "परियोजना प्रमुख"
 
+#: src/Main.cpp:99
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: src/Main.cpp:99
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: src/MainWindow.cpp:199 src/MainWindow.cpp:453 src/MainWindow.cpp:600
 #, kde-format
 msgid "Untitled"
 msgstr "अनामिका"
+
+#: src/MainWindow.cpp:208
+#, kde-format
+msgctxt "The editor tab title"
+msgid "Editor"
+msgstr "सम्पादक"
+
+#: src/MainWindow.cpp:209
+#, kde-format
+msgctxt "The library tab title"
+msgid "Library"
+msgstr "पुस्तकालय"
 
 #: src/MainWindow.cpp:284
 #, kde-format
@@ -255,13 +279,12 @@ msgstr "एषा वैधचिह्नसञ्चिका न दृश्
 msgid ""
 "Version %1 of the library file is not supported in this version of "
 "SymbolEditor"
-msgstr ""
-"पुस्तकालयसञ्चिकायाः %1 संस्करणं SymbolEditor इत्यस्य अस्मिन् संस्करणे "
-"समर्थितं नास्ति"
+msgstr "पुस्तकालयसञ्चिकायाः %1 संस्करणं SymbolEditor इत्यस्य अस्मिन् संस्करणे समर्थितं नास्ति"
 
 #: src/MainWindow.cpp:425
 #, kde-format
-msgid "Version %1 of the symbol is not supported in this version of SymbolEditor"
+msgid ""
+"Version %1 of the symbol is not supported in this version of SymbolEditor"
 msgstr "SymbolEditor इत्यस्य अस्मिन् संस्करणे चिह्नस्य %1 संस्करणं समर्थितं नास्ति"
 
 #: src/MainWindow.cpp:427
@@ -316,14 +339,30 @@ msgstr "%1 पूर्ववतं कुर्वन्तु"
 msgid "Redo %1"
 msgstr "पुनः %1"
 
+#: src/MainWindow.cpp:673
+#, kde-format
+msgctxt "The library tab title %1 is the file name"
+msgid "%1 Library"
+msgstr "%1 पुस्तकालयः"
+
+#: src/MainWindow.cpp:675
+#, kde-format
+msgctxt "The editor tab title %1 is the file name"
+msgid "%1 Editor"
+msgstr "%1 सम्पादकः"
+
+#: src/MainWindow.cpp:767
+#, kde-format
+msgctxt "The Editor configuration page"
+msgid "Editor"
+msgstr "सम्पादक"
+
 #: src/MainWindow.cpp:799
 #, kde-format
 msgid ""
 "Imports another library appending the symbols it contains to the current "
 "library."
-msgstr ""
-"तस्मिन् समाविष्टानि चिह्नानि वर्तमानपुस्तकालये योजयित्वा अन्यं पुस्तकालयं "
-"आयातयति ।"
+msgstr "तस्मिन् समाविष्टानि चिह्नानि वर्तमानपुस्तकालये योजयित्वा अन्यं पुस्तकालयं आयातयति ।"
 
 #: src/MainWindow.cpp:804
 #, kde-format
@@ -337,10 +376,9 @@ msgid ""
 "will create additional symbols in the library. If the symbol was selected "
 "from the library to edit then saving will update that symbol in the library."
 msgstr ""
-"चिह्नं पुस्तकालये रक्षन्तु । यदि एतत् नूतनं चिह्नं भवति तर्हि अनन्तरं "
-"रक्षणं पुस्तकालये अतिरिक्तचिह्नानि निर्मास्यति । यदि सम्पादनार्थं "
-"पुस्तकालयात् चिह्नं चयनितम् आसीत् तर्हि रक्षणेन तत् चिह्नं पुस्तकालये "
-"अद्यतनं भविष्यति ।"
+"चिह्नं पुस्तकालये रक्षन्तु । यदि एतत् नूतनं चिह्नं भवति तर्हि अनन्तरं रक्षणं पुस्तकालये "
+"अतिरिक्तचिह्नानि निर्मास्यति । यदि सम्पादनार्थं पुस्तकालयात् चिह्नं चयनितम् आसीत् तर्हि "
+"रक्षणेन तत् चिह्नं पुस्तकालये अद्यतनं भविष्यति ।"
 
 #: src/MainWindow.cpp:811
 #, kde-format
@@ -352,9 +390,7 @@ msgstr "Symbol इत्येतत् New इति रक्षन्तु"
 msgid ""
 "Save the current symbol as a new one in the library. Subsequent saves will "
 "update the new symbol."
-msgstr ""
-"वर्तमानचिह्नं पुस्तकालये नूतनरूपेण रक्षन्तु । अनन्तरं रक्षणं नूतनं चिह्नं "
-"अद्यतनं करिष्यति ।"
+msgstr "वर्तमानचिह्नं पुस्तकालये नूतनरूपेण रक्षन्तु । अनन्तरं रक्षणं नूतनं चिह्नं अद्यतनं करिष्यति ।"
 
 #: src/MainWindow.cpp:825
 #, kde-format
@@ -367,8 +403,8 @@ msgid ""
 "Enable path filling. The path defines the closed boundary of the shape and "
 "the path is filled with the selected fill method."
 msgstr ""
-"मार्गपूरणं सक्षमं कुर्वन्तु। मार्गः आकारस्य निमीलितसीमाम् परिभाषयति तथा च "
-"मार्गः चयनितपूरणविधिना पूरितः भवति ।"
+"मार्गपूरणं सक्षमं कुर्वन्तु। मार्गः आकारस्य निमीलितसीमाम् परिभाषयति तथा च मार्गः "
+"चयनितपूरणविधिना पूरितः भवति ।"
 
 #: src/MainWindow.cpp:836
 #, kde-format
@@ -420,8 +456,8 @@ msgid ""
 "\n"
 "This is only applicable to non-filled paths."
 msgstr ""
-"Square Cap अन्त्यप्रकारः एकं वर्गान्तं प्रदाति यत् रेखायाः अन्त्यबिन्दुतः "
-"परं रेखाविस्तारस्य आर्धेन प्रक्षेपणं करोति ।\n"
+"Square Cap अन्त्यप्रकारः एकं वर्गान्तं प्रदाति यत् रेखायाः अन्त्यबिन्दुतः परं रेखाविस्तारस्य "
+"आर्धेन प्रक्षेपणं करोति ।\n"
 "\n"
 "एतत् केवलं अपूरितमार्गेषु एव प्रयोज्यम् ।"
 
@@ -438,8 +474,8 @@ msgid ""
 "\n"
 "This is only applicable to non-filled paths."
 msgstr ""
-"Round Cap अन्त्यप्रकारः एकं गोलान्तं प्रदाति यत् रेखायाः अन्त्यबिन्दुतः परं "
-"रेखाविस्तारस्य आर्धत्रिज्या सह प्रक्षेपयति ।\n"
+"Round Cap अन्त्यप्रकारः एकं गोलान्तं प्रदाति यत् रेखायाः अन्त्यबिन्दुतः परं रेखाविस्तारस्य "
+"आर्धत्रिज्या सह प्रक्षेपयति ।\n"
 "\n"
 "एतत् केवलं अपूरितमार्गेषु एव प्रयोज्यम् ।"
 
@@ -483,13 +519,12 @@ msgstr "गोल जॉइन्"
 #: src/MainWindow.cpp:910
 #, kde-format
 msgid ""
-"The Round Join provides a rounded corner between two lines using a radius "
-"of half the line width.\n"
+"The Round Join provides a rounded corner between two lines using a radius of "
+"half the line width.\n"
 "\n"
 "This is only applicable to non-filled paths."
 msgstr ""
-"गोलसंयोगः रेखाविस्तारस्य अर्धत्रिज्यायाः उपयोगेन द्वयोः रेखायोः मध्ये "
-"गोलकोणं प्रदाति ।\n"
+"गोलसंयोगः रेखाविस्तारस्य अर्धत्रिज्यायाः उपयोगेन द्वयोः रेखायोः मध्ये गोलकोणं प्रदाति ।\n"
 "\n"
 "एतत् केवलं अपूरितमार्गेषु एव प्रयोज्यम् ।"
 
@@ -521,8 +556,8 @@ msgid ""
 "Move the current point to a new position. This implicitly closes any "
 "existing sub path, starting a new one."
 msgstr ""
-"वर्तमानबिन्दुं नूतनस्थानं प्रति चालयन्तु । एतेन नूतनं आरभ्य, विद्यमानं "
-"कोऽपि उपमार्गः अन्तर्निहितरूपेण बन्दः भवति ।"
+"वर्तमानबिन्दुं नूतनस्थानं प्रति चालयन्तु । एतेन नूतनं आरभ्य, विद्यमानं कोऽपि उपमार्गः "
+"अन्तर्निहितरूपेण बन्दः भवति ।"
 
 #: src/MainWindow.cpp:948
 #, kde-format
@@ -530,8 +565,8 @@ msgid ""
 "Add a straight line from the current position to a defined end point. The "
 "end point becomes the new current position."
 msgstr ""
-"वर्तमानस्थानात् परिभाषितान्तबिन्दुपर्यन्तं ऋजुरेखां योजयन्तु । "
-"अन्त्यबिन्दुः नूतनं वर्तमानस्थानं भवति।"
+"वर्तमानस्थानात् परिभाषितान्तबिन्दुपर्यन्तं ऋजुरेखां योजयन्तु । अन्त्यबिन्दुः नूतनं वर्तमानस्थानं "
+"भवति।"
 
 #: src/MainWindow.cpp:957
 #, kde-format
@@ -539,8 +574,8 @@ msgid ""
 "Add a cubic bezier curve from the current position using two control points "
 "and an end point. The end point becomes the new current position."
 msgstr ""
-"वर्तमानस्थानात् घनबेजियरवक्रं योजयन्तु नियन्त्रणबिन्दुद्वयस्य "
-"अन्त्यबिन्दुस्य च उपयोगेन । अन्त्यबिन्दुः नूतनं वर्तमानस्थानं भवति।"
+"वर्तमानस्थानात् घनबेजियरवक्रं योजयन्तु नियन्त्रणबिन्दुद्वयस्य अन्त्यबिन्दुस्य च उपयोगेन । "
+"अन्त्यबिन्दुः नूतनं वर्तमानस्थानं भवति।"
 
 #: src/MainWindow.cpp:965
 #, kde-format
@@ -553,8 +588,7 @@ msgid ""
 "Add a rectangle as a separate sub path defined by two points representing "
 "the opposite corners."
 msgstr ""
-"विपरीतकोणानां प्रतिनिधित्वेन द्वयोः बिन्दुयोः परिभाषितं पृथक् उपमार्गरूपेण "
-"आयतं योजयन्तु ।"
+"विपरीतकोणानां प्रतिनिधित्वेन द्वयोः बिन्दुयोः परिभाषितं पृथक् उपमार्गरूपेण आयतं योजयन्तु ।"
 
 #: src/MainWindow.cpp:974
 #, kde-format
@@ -567,8 +601,8 @@ msgid ""
 "Add an ellipse as a separate sub path defined by a bounding rectangle "
 "represented by two opposite corners."
 msgstr ""
-"विपरीतकोणद्वयेन प्रतिनिधित्वेन सीमाबद्धेन आयतेन परिभाषितेन पृथक् "
-"उपमार्गरूपेण दीर्घवृत्तं योजयन्तु ।"
+"विपरीतकोणद्वयेन प्रतिनिधित्वेन सीमाबद्धेन आयतेन परिभाषितेन पृथक् उपमार्गरूपेण दीर्घवृत्तं "
+"योजयन्तु ।"
 
 #: src/MainWindow.cpp:983
 #, kde-format
@@ -578,13 +612,13 @@ msgstr "वर्णं सम्मिलितं कुर्वन्तु"
 #: src/MainWindow.cpp:984
 #, kde-format
 msgid ""
-"Allows selection of a character from any font to be inserted as a closed "
-"sub path. The inserted character will overwrite any existing path, but "
+"Allows selection of a character from any font to be inserted as a closed sub "
+"path. The inserted character will overwrite any existing path, but "
 "additional sub paths may be added to the character."
 msgstr ""
-"कस्यापि फॉन्ट् तः वर्णस्य चयनं निमीलित उपमार्गरूपेण सम्मिलितुं अनुमतिं "
-"ददाति । सम्मिलितः वर्णः विद्यमानं किमपि मार्गं अधिलेखयिष्यति, परन्तु "
-"वर्णस्य अतिरिक्ताः उपमार्गाः योजिताः भवितुम् अर्हन्ति ।"
+"कस्यापि फॉन्ट् तः वर्णस्य चयनं निमीलित उपमार्गरूपेण सम्मिलितुं अनुमतिं ददाति । सम्मिलितः "
+"वर्णः विद्यमानं किमपि मार्गं अधिलेखयिष्यति, परन्तु वर्णस्य अतिरिक्ताः उपमार्गाः योजिताः "
+"भवितुम् अर्हन्ति ।"
 
 #: src/MainWindow.cpp:995
 #, kde-format
@@ -592,44 +626,38 @@ msgid ""
 "Rotate all the points of a path counter-clockwise 90 degrees around the "
 "center of the editor."
 msgstr ""
-"कस्यचित् मार्गस्य सर्वाणि बिन्दून् घण्टायाः विपरीतदिशि सम्पादकस्य केन्द्रं "
-"परितः ९० डिग्री परिभ्रमन्तु ।"
+"कस्यचित् मार्गस्य सर्वाणि बिन्दून् घण्टायाः विपरीतदिशि सम्पादकस्य केन्द्रं परितः ९० डिग्री "
+"परिभ्रमन्तु ।"
 
 #: src/MainWindow.cpp:1002
 #, kde-format
 msgid ""
-"Rotate all the points of a path clockwise 90 degrees around the center "
-"point of the editor."
+"Rotate all the points of a path clockwise 90 degrees around the center point "
+"of the editor."
 msgstr ""
-"सम्पादकस्य केन्द्रबिन्दुस्य परितः ९० डिग्रीपर्यन्तं मार्गस्य सर्वान् "
-"बिन्दून् घण्टायाः दिशि परिभ्रमन्तु ।"
+"सम्पादकस्य केन्द्रबिन्दुस्य परितः ९० डिग्रीपर्यन्तं मार्गस्य सर्वान् बिन्दून् घण्टायाः दिशि "
+"परिभ्रमन्तु ।"
 
 #: src/MainWindow.cpp:1009
 #, kde-format
 msgid ""
 "Flip all the points of the path horizontally about the vertical center of "
 "the editor."
-msgstr ""
-"सम्पादकस्य लम्बकेन्द्रस्य विषये मार्गस्य सर्वान् बिन्दून् क्षैतिजरूपेण "
-"प्लवन्तु ।"
+msgstr "सम्पादकस्य लम्बकेन्द्रस्य विषये मार्गस्य सर्वान् बिन्दून् क्षैतिजरूपेण प्लवन्तु ।"
 
 #: src/MainWindow.cpp:1016
 #, kde-format
 msgid ""
 "Flip all the points of the path vertically about the horizontal center of "
 "the editor."
-msgstr ""
-"सम्पादकस्य क्षैतिजकेन्द्रस्य विषये मार्गस्य सर्वाणि बिन्दून् लम्बवत् "
-"प्लवन्तु ।"
+msgstr "सम्पादकस्य क्षैतिजकेन्द्रस्य विषये मार्गस्य सर्वाणि बिन्दून् लम्बवत् प्लवन्तु ।"
 
 #: src/MainWindow.cpp:1023
 #, kde-format
 msgid ""
 "Scale the current symbol so that it fits within the preferred size of a "
 "symbol."
-msgstr ""
-"वर्तमानचिह्नं स्केल कुर्वन्तु येन सः चिह्नस्य इष्टप्रमाणस्य अन्तः उपयुज्यते "
-"।"
+msgstr "वर्तमानचिह्नं स्केल कुर्वन्तु येन सः चिह्नस्य इष्टप्रमाणस्य अन्तः उपयुज्यते ।"
 
 #: src/MainWindow.cpp:1029
 #, kde-format
@@ -639,9 +667,7 @@ msgstr "Snap सक्षमं कुर्वन्तु"
 #: src/MainWindow.cpp:1030
 #, kde-format
 msgid "Enable snapping of points to guide intersections or to the grid."
-msgstr ""
-"चौराहान् मार्गदर्शयितुं वा जालपर्यन्तं वा बिन्दुनाम् स्नैपिंग् सक्षमं "
-"कुर्वन्तु ।"
+msgstr "चौराहान् मार्गदर्शयितुं वा जालपर्यन्तं वा बिन्दुनाम् स्नैपिंग् सक्षमं कुर्वन्तु ।"
 
 #: src/MainWindow.cpp:1037
 #, kde-format
@@ -653,182 +679,140 @@ msgstr "मार्गदर्शिकाः सक्षमाः कुर�
 msgid "Enable the generation of guide intersections."
 msgstr "मार्गदर्शकचतुष्कोणानां जननं सक्षमं कुर्वन्तु।"
 
-#: SymbolEditor.kcfg:10
 #. i18n: ectx: label, entry (Editor_GridElements), group (editor)
+#: SymbolEditor.kcfg:10
 #, kde-format
 msgid "The number of elements in a grid."
 msgstr "जालपुटे तत्त्वानां संख्या ।"
 
-#: SymbolEditor.kcfg:14
 #. i18n: ectx: label, entry (Editor_ElementSize), group (editor)
+#: SymbolEditor.kcfg:14
 #, kde-format
 msgid "The size in pixels of a grid element."
 msgstr "जालतत्त्वस्य पिक्सेल्-मात्रायां आकारः ।"
 
-#: SymbolEditor.kcfg:18
 #. i18n: ectx: label, entry (Editor_ElementGrouping), group (editor)
+#: SymbolEditor.kcfg:18
 #, kde-format
 msgid "The number of elements in a group."
 msgstr "समूहे तत्त्वानां संख्या ।"
 
-#: SymbolEditor.kcfg:22
 #. i18n: ectx: label, entry (Editor_PointSize), group (editor)
+#: SymbolEditor.kcfg:22
 #, kde-format
 msgid "The size of a point in pixels."
 msgstr "पिक्सेल्-मात्रायां बिन्दुस्य आकारः ।"
 
-#: SymbolEditor.kcfg:26
 #. i18n: ectx: label, entry (Editor_SnapThreshold), group (editor)
+#: SymbolEditor.kcfg:26
 #, kde-format
 msgid "The distance to check within the range of a point."
 msgstr "बिन्दुस्य परिधिमध्ये परीक्षितुं दूरम् ।"
 
-#: SymbolEditor.kcfg:30
 #. i18n: ectx: label, entry (Editor_BorderSize), group (editor)
+#: SymbolEditor.kcfg:30
 #, kde-format
 msgid "The number of cell elements used for the border."
 msgstr "सीमायाः कृते प्रयुक्तानां कोष्ठतत्त्वानां संख्या ।"
 
-#: SymbolEditor.kcfg:34
 #. i18n: ectx: label, entry (Editor_PreferredSizeColor), group (editor)
+#: SymbolEditor.kcfg:34
 #, kde-format
 msgid "The color of the preferred size rectangle"
 msgstr "प्राधान्ययुक्तस्य आकारस्य आयतस्य वर्णः"
 
-#: SymbolEditor.kcfg:38
 #. i18n: ectx: label, entry (Editor_GuideLineColor), group (editor)
+#: SymbolEditor.kcfg:38
 #, kde-format
 msgid "The color of the guide lines"
 msgstr "मार्गदर्शकरेखानां वर्णः"
 
-#: SymbolEditor.kcfg:42
 #. i18n: ectx: label, entry (Editor_SimplifiedGuideLines), group (editor)
+#: SymbolEditor.kcfg:42
 #, kde-format
 msgid "Whether to use a simplified range of angles to test"
 msgstr "परीक्षणार्थं कोणानां सरलपरिधिस्य उपयोगः करणीयः वा इति"
 
-#: SymbolEditorui.rc:10
 #. i18n: ectx: Menu (tools)
+#: SymbolEditorui.rc:10
 #, kde-format
 msgid "&Tools"
 msgstr "&उपकरणाः"
 
-#: SymbolEditorui.rc:27
 #. i18n: ectx: Menu (rendering)
+#: SymbolEditorui.rc:27
 #, kde-format
 msgid "&Rendering"
 msgstr "&प्रतिपादनम्"
 
-#: SymbolEditorui.rc:47
 #. i18n: ectx: ToolBar (ToolsToolbar)
+#: SymbolEditorui.rc:47
 #, kde-format
 msgid "Tool Toolbar"
 msgstr "टूल टूलबार"
 
-#: SymbolEditorui.rc:64
 #. i18n: ectx: ToolBar (RenderingToolbar)
+#: SymbolEditorui.rc:64
 #, kde-format
 msgid "Rendering Toolbar"
 msgstr "Rendering Toolbar इति"
 
-#: ui/EditorConfigPage.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, EditorConfigPage)
+#: ui/EditorConfigPage.ui:14
 #, kde-format
 msgid "Editor Configuration Page"
 msgstr "सम्पादक विन्यास पृष्ठ"
 
-#: ui/EditorConfigPage.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/EditorConfigPage.ui:20
 #, kde-format
 msgid "Grid elements"
 msgstr "जालतत्त्वानि"
 
-#: ui/EditorConfigPage.ui:40
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/EditorConfigPage.ui:40
 #, kde-format
 msgid "Element size"
 msgstr "तत्त्वस्य आकारः"
 
-#: ui/EditorConfigPage.ui:60
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/EditorConfigPage.ui:60
 #, kde-format
 msgid "Element grouping"
 msgstr "तत्त्वसमूहीकरणम्"
 
-#: ui/EditorConfigPage.ui:80
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/EditorConfigPage.ui:80
 #, kde-format
 msgid "Point size"
 msgstr "बिन्दु आकार"
 
-#: ui/EditorConfigPage.ui:100
 #. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/EditorConfigPage.ui:100
 #, kde-format
 msgid "Snap threshold"
 msgstr "स्नैप थ्रेशोल्ड"
 
-#: ui/EditorConfigPage.ui:123
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/EditorConfigPage.ui:123
 #, kde-format
 msgid "Border size"
 msgstr "सीमाप्रमाणम्"
 
-#: ui/EditorConfigPage.ui:140
 #. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ui/EditorConfigPage.ui:140
 #, kde-format
 msgid "Preferred size box color"
 msgstr "प्राधान्यं आकारः पेटीवर्णः"
 
-#: ui/EditorConfigPage.ui:158
 #. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ui/EditorConfigPage.ui:158
 #, kde-format
 msgid "Guide line color"
 msgstr "मार्गदर्शिका रेखा वर्ण"
 
-#: ui/EditorConfigPage.ui:176
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Editor_SimplifiedGuideLines)
+#: ui/EditorConfigPage.ui:176
 #, kde-format
 msgid "Simplified guide lines"
 msgstr "सरलीकृतमार्गदर्शिकाः"
-
-#: src/Main.cpp:99
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#: src/Main.cpp:99
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: src/MainWindow.cpp:208
-#, kde-format
-msgctxt "The editor tab title"
-msgid "Editor"
-msgstr "सम्पादक"
-
-#: src/MainWindow.cpp:209
-#, kde-format
-msgctxt "The library tab title"
-msgid "Library"
-msgstr "पुस्तकालय"
-
-#: src/MainWindow.cpp:673
-#, kde-format
-msgctxt "The library tab title %1 is the file name"
-msgid "%1 Library"
-msgstr "%1 पुस्तकालयः"
-
-#: src/MainWindow.cpp:675
-#, kde-format
-msgctxt "The editor tab title %1 is the file name"
-msgid "%1 Editor"
-msgstr "%1 सम्पादकः"
-
-#: src/MainWindow.cpp:767
-#, kde-format
-msgctxt "The Editor configuration page"
-msgid "Editor"
-msgstr "सम्पादक"

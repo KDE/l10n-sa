@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kruler package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,42 +14,48 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: cfg_advanced.ui:20
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:20
 #, kde-format
-msgid "If this option is enabled, the window is being kept above other windows."
+msgid ""
+"If this option is enabled, the window is being kept above other windows."
 msgstr ""
-"यदि एषः विकल्पः सक्षमः अस्ति तर्हि अन्येभ्यः विण्डोभ्यः उपरि विण्डो "
-"स्थापितः अस्ति ।"
+"यदि एषः विकल्पः सक्षमः अस्ति तर्हि अन्येभ्यः विण्डोभ्यः उपरि विण्डो स्थापितः अस्ति ।"
 
-#: cfg_advanced.ui:23
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:23
 #, kde-format
 msgid "Always on top"
 msgstr "सदा उपरि"
 
-#: cfg_appearance.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
+#: cfg_appearance.ui:17
 #, kde-format
 msgid "Background color:"
 msgstr "पृष्ठभूमिवर्णः : १."
 
-#: cfg_appearance.ui:27
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: cfg_appearance.ui:27
 #, kde-format
 msgid "Font:"
 msgstr "फन्ट् : १."
 
-#: cfg_appearance.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_TrayIcon)
+#: cfg_appearance.ui:37
 #, kde-format
 msgid "Show tray icon"
 msgstr "ट्रे चिह्नं दर्शयतु"
+
+#: klineal.cpp:85
+#, kde-format
+msgctxt "@title:window"
+msgid "KRuler"
+msgstr "के नियमाः"
 
 #: klineal.cpp:88
 #, kde-format
@@ -57,8 +63,8 @@ msgid ""
 "This is a tool to measure pixel distances on the screen. It is useful for "
 "working on layouts of dialogs, web pages etc."
 msgstr ""
-"एतत् पर्दायां पिक्सेल-अन्तराणि मापनार्थं साधनम् अस्ति । "
-"संवादजालपुटादिविन्यासेषु कार्यं कर्तुं उपयोगी भवति ।"
+"एतत् पर्दायां पिक्सेल-अन्तराणि मापनार्थं साधनम् अस्ति । संवादजालपुटादिविन्यासेषु कार्यं कर्तुं "
+"उपयोगी भवति ।"
 
 #: klineal.cpp:108
 #, kde-format
@@ -112,6 +118,12 @@ msgstr "उपरितः अधः यावत्"
 
 #: klineal.cpp:376
 #, kde-format
+msgctxt "@title:window"
+msgid "Scale Offset"
+msgstr "स्केल ऑफसेट"
+
+#: klineal.cpp:376
+#, kde-format
 msgid "Offset:"
 msgstr "ऑफसेट् : १."
 
@@ -135,62 +147,62 @@ msgstr "%1 px"
 msgid "%1%"
 msgstr "%1% २."
 
-#: kruler.kcfg:11
 #. i18n: ectx: label, entry (BgColor), group (StoredSettings)
+#: kruler.kcfg:11
 #, kde-format
 msgid "Background color of the ruler."
 msgstr "शासकस्य पृष्ठभूमिवर्णः।"
 
-#: kruler.kcfg:15
 #. i18n: ectx: label, entry (Length), group (StoredSettings)
+#: kruler.kcfg:15
 #, kde-format
 msgid "Length of the ruler."
 msgstr "शासकस्य दीर्घता ।"
 
-#: kruler.kcfg:19
 #. i18n: ectx: label, entry (ScaleFont), group (StoredSettings)
+#: kruler.kcfg:19
 #, kde-format
 msgid "Font of the text on the ruler scale."
 msgstr "शासकपरिमाणे पाठस्य फन्ट् ।"
 
-#: kruler.kcfg:23
 #. i18n: ectx: label, entry (Horizontal), group (StoredSettings)
+#: kruler.kcfg:23
 #, kde-format
 msgid "Horizontal ruler"
 msgstr "क्षैतिज शासक"
 
-#: kruler.kcfg:27
 #. i18n: ectx: label, entry (LeftToRight), group (StoredSettings)
+#: kruler.kcfg:27
 #, kde-format
 msgid "Direction of the ruler"
 msgstr "शासकस्य दिशा"
 
-#: kruler.kcfg:31
 #. i18n: ectx: label, entry (Offset), group (StoredSettings)
+#: kruler.kcfg:31
 #, kde-format
 msgid "Offset of the origin"
 msgstr "उत्पत्तिस्य विक्षेपः"
 
-#: kruler.kcfg:35
 #. i18n: ectx: label, entry (RelativeScale), group (StoredSettings)
+#: kruler.kcfg:35
 #, kde-format
 msgid "Is the scale of the ruler relative (percentage)"
 msgstr "किं शासकस्य स्केलः सापेक्षः (प्रतिशतः) २."
 
-#: kruler.kcfg:39
 #. i18n: ectx: label, entry (TrayIcon), group (StoredSettings)
+#: kruler.kcfg:39
 #, kde-format
 msgid "Is a tray icon used"
 msgstr "किं ट्रे चिह्नं प्रयुक्तम् अस्ति"
 
-#: kruler.kcfg:43
 #. i18n: ectx: label, entry (Opacity), group (StoredSettings)
+#: kruler.kcfg:43
 #, kde-format
 msgid "Opacity of the window"
 msgstr "खिडकीयाः अस्पष्टता"
 
-#: kruler.kcfg:47
 #. i18n: ectx: label, entry (AlwaysOnTop), group (StoredSettings)
+#: kruler.kcfg:47
 #, kde-format
 msgid "Is always on top"
 msgstr "सर्वदा उपरि भवति"
@@ -243,18 +255,6 @@ msgstr "गुन्स्टीन लाय"
 #, kde-format
 msgid "Initial port to KDE 2"
 msgstr "KDE 2 कृते प्रारम्भिकं पोर्ट्"
-
-#: klineal.cpp:85
-#, kde-format
-msgctxt "@title:window"
-msgid "KRuler"
-msgstr "के नियमाः"
-
-#: klineal.cpp:376
-#, kde-format
-msgctxt "@title:window"
-msgid "Scale Offset"
-msgstr "स्केल ऑफसेट"
 
 #: main.cpp:32
 #, kde-format

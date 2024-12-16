@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdepim-addons package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,28 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#: confirmbeforedeleting/confirmbeforedeletingcreateruledialog.cpp:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Rule"
+msgstr "नियमं विन्यस्तं कुर्वन्तु"
+
+#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:24
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Type:"
+msgstr "प्रकारः:"
+
+#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:31
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Contains:"
+msgstr "भरति:"
 
 #: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:74
 #, kde-format
@@ -56,6 +74,18 @@ msgstr "अपठित"
 msgid "Important"
 msgstr "महत्वपूर्णः"
 
+#: confirmbeforedeleting/confirmbeforedeletingdialog.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Before Deleting Mail"
+msgstr "मेल विलोपनात् पूर्वं विन्यस्तं कुर्वन्तु"
+
+#: confirmbeforedeleting/confirmbeforedeletinginterface.cpp:32
+#, kde-format
+msgctxt "@action"
+msgid "Confirm Before Deleting"
+msgstr "विलोपनात् पूर्वं पुष्टिं कुर्वन्तु"
+
 #: confirmbeforedeleting/confirmbeforedeletinginterface.cpp:34
 #, kde-format
 msgid "Configure"
@@ -70,6 +100,18 @@ msgstr ""
 "किं भवान् एतत् ईमेल-पत्रं विलोपयितुम् इच्छति ?\n"
 "%1"
 
+#: confirmbeforedeleting/confirmbeforedeletingmessageboxdialog.cpp:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirm Delete Mail"
+msgstr "मेल विलोपनं पुष्टिः कुर्वन्तु"
+
+#: confirmbeforedeleting/confirmbeforedeletingmessageboxwidget.cpp:19
+#, kde-format
+msgctxt "@option:check"
+msgid "Apply to All"
+msgstr "सर्वेभ्यः आवेदनं कुर्वन्तु"
+
 #: confirmbeforedeleting/confirmbeforedeletingrule.cpp:199
 #, kde-format
 msgid "The message with subject '%2' contains '%1'"
@@ -79,6 +121,24 @@ msgstr "'%2' इति विषययुक्ते सन्देशे '%1'
 #, kde-format
 msgid "The message with subject '%1' is %2"
 msgstr "'%1' इति विषययुक्तः सन्देशः %2 अस्ति"
+
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Rule…"
+msgstr "नियमं योजयतु…"
+
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Rule"
+msgstr "नियमं निष्कासयतु"
+
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:25
+#, kde-format
+msgctxt "@action:button"
+msgid "Modify Rule…"
+msgstr "नियमं परिवर्तयतु…"
 
 #: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:42
 #, kde-format
@@ -114,79 +174,19 @@ msgid_plural "Do you want to remove these rules?"
 msgstr[0] "किं भवन्तः एतत् नियमं दूरीकर्तुं इच्छन्ति ?"
 msgstr[1] "किं भवन्तः एतान् नियमान् अपसारयितुम् इच्छन्ति ?"
 
+#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:139
+#, kde-format
+msgctxt "@title"
+msgid "Remove Rule"
+msgstr "नियमं निष्कासयतु"
+
 #: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:167
 #, kde-format
 msgid "Same rule already exists."
 msgstr "स एव नियमः पूर्वमेव अस्ति।"
-
-#: confirmbeforedeleting/confirmbeforedeletingcreateruledialog.cpp:17
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Rule"
-msgstr "नियमं विन्यस्तं कुर्वन्तु"
-
-#: confirmbeforedeleting/confirmbeforedeletingdialog.cpp:25
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Before Deleting Mail"
-msgstr "मेल विलोपनात् पूर्वं विन्यस्तं कुर्वन्तु"
-
-#: confirmbeforedeleting/confirmbeforedeletingmessageboxdialog.cpp:18
-#, kde-format
-msgctxt "@title:window"
-msgid "Confirm Delete Mail"
-msgstr "मेल विलोपनं पुष्टिः कुर्वन्तु"
 
 #: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:167
 #, kde-format
 msgctxt "@title:window"
 msgid "Create Rule"
 msgstr "नियम रचयतु"
-
-#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:24
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Type:"
-msgstr "प्रकारः:"
-
-#: confirmbeforedeleting/confirmbeforedeletingcreaterulewidget.cpp:31
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Contains:"
-msgstr "भरति:"
-
-#: confirmbeforedeleting/confirmbeforedeletinginterface.cpp:32
-#, kde-format
-msgctxt "@action"
-msgid "Confirm Before Deleting"
-msgstr "विलोपनात् पूर्वं पुष्टिं कुर्वन्तु"
-
-#: confirmbeforedeleting/confirmbeforedeletingmessageboxwidget.cpp:19
-#, kde-format
-msgctxt "@option:check"
-msgid "Apply to All"
-msgstr "सर्वेभ्यः आवेदनं कुर्वन्तु"
-
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:23
-#, kde-format
-msgctxt "@action:button"
-msgid "Add Rule…"
-msgstr "नियमं योजयतु…"
-
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:24
-#, kde-format
-msgctxt "@action:button"
-msgid "Remove Rule"
-msgstr "नियमं निष्कासयतु"
-
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:25
-#, kde-format
-msgctxt "@action:button"
-msgid "Modify Rule…"
-msgstr "नियमं परिवर्तयतु…"
-
-#: confirmbeforedeleting/confirmbeforedeletingwidget.cpp:139
-#, kde-format
-msgctxt "@title"
-msgid "Remove Rule"
-msgstr "नियमं निष्कासयतु"

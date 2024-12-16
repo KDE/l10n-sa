@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kmail-account-wizard package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,80 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: accountconfiguration.cpp:200 ispdb/configurationmodel.cpp:147
+#, kde-format
+msgctxt "Default name for new email accounts/identities."
+msgid "Unnamed"
+msgstr "अनामिका"
+
+#: accountconfiguration.cpp:211
+#, kde-format
+msgctxt "log entry content"
+msgid "Create email identity: %1"
+msgstr "ईमेलपरिचयं रचयन्तु: %1"
+
+#: accountconfiguration.cpp:214
+#, kde-format
+msgctxt "log entry content"
+msgid "Full name:"
+msgstr "सम्पूर्ण नाम : १."
+
+#: accountconfiguration.cpp:215
+#, kde-format
+msgctxt "log entry content"
+msgid "Primary email address:"
+msgstr "प्राथमिकं ईमेल-सङ्केतं : १."
+
+#: accountconfiguration.cpp:244
+#, kde-format
+msgctxt "log entry content"
+msgid "Mail transport setup completed: %1"
+msgstr "मेलपरिवहनव्यवस्थापनं सम्पन्नम्: %1"
+
+#: accountconfiguration.cpp:247
+#, kde-format
+msgctxt "log entry content"
+msgid "Host:"
+msgstr "निमन्त्रकः:"
+
+#: accountconfiguration.cpp:248
+#, kde-format
+msgctxt "log entry content"
+msgid "Port:"
+msgstr "पोताश्रय:"
+
+#: accountconfiguration.cpp:249
+#, kde-format
+msgctxt "log entry content"
+msgid "Username:"
+msgstr "उपयोक्तृनाम : १."
+
+#: accountconfiguration.cpp:251
+#, kde-format
+msgctxt "log entry content"
+msgid "Encryption:"
+msgstr "एन्क्रिप्शन : १."
+
+#: accountconfiguration.cpp:253
+#, kde-format
+msgctxt "log entry content"
+msgid "Authentication:"
+msgstr "प्रमाणीकरणम् : १."
 
 #: ispdb/configurationmodel.cpp:49 ispdb/serverconfiguration.cpp:23
 #: qml/ManualConfigurationPage.qml:89
@@ -57,6 +127,12 @@ msgstr "SSL/TLS इति"
 msgid "StartTLS"
 msgstr "StartTLS इति"
 
+#: ispdb/serverconfiguration.cpp:41
+#, kde-format
+msgctxt "No security mechanism"
+msgid "None"
+msgstr "न कश्चित्"
+
 #: ispdbservice.cpp:130
 #, kde-format
 msgid "Configuration found auto config file."
@@ -89,13 +165,31 @@ msgstr "(ग) २००९-२०२४ अकोनाडी विकासक
 
 #: main.cpp:46
 #, kde-format
+msgctxt "@info:credit"
+msgid "Volker Krause"
+msgstr "वोल्कर क्राउस"
+
+#: main.cpp:46
+#, kde-format
 msgid "Author"
 msgstr "लेखकः"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "लॉरेण्ट् मोंटेल्"
 
 #: main.cpp:47 main.cpp:48
 #, kde-format
 msgid "Maintainer"
 msgstr "परिपालकः"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "कार्ल स्वान्"
 
 #: qml/ConfigurationDelegate.qml:93
 #, kde-format
@@ -106,6 +200,12 @@ msgstr "आगमनम्"
 #, kde-format
 msgid "Outgoing"
 msgstr "बहिर्गामी"
+
+#: qml/ConfigurationSelectionPage.qml:16
+#, kde-format
+msgctxt "@title:group"
+msgid "Configuration Selection"
+msgstr "विन्यासचयनम्"
 
 #: qml/ConfigurationSelectionPage.qml:39
 #, kde-format
@@ -122,10 +222,40 @@ msgstr "अस्य सर्वरस्य कृते अन्तर्ज
 msgid "Manual Configuration"
 msgstr "मैनुअल विन्यास"
 
+#: qml/ConfigurationSelectionPage.qml:115
+#, kde-format
+msgctxt "@title:group"
+msgid "Calendar and Contacts"
+msgstr "पञ्चाङ्ग एवं सम्पर्क"
+
+#: qml/ConfigurationSelectionPage.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable calendar and contact integration"
+msgstr "पञ्चाङ्गं सम्पर्कं च एकीकरणं सक्षमं कुर्वन्तु"
+
+#: qml/DetailsPage.qml:15
+#, kde-format
+msgctxt "@title:group"
+msgid "Details"
+msgstr "वर्णन"
+
+#: qml/DetailsPage.qml:18
+#, kde-format
+msgctxt "@action:button"
+msgid "Quit"
+msgstr "परिजहातु"
+
 #: qml/DetailsPage.qml:24
 #, kde-format
 msgid "Details"
 msgstr "वर्णन"
+
+#: qml/DetailsPage.qml:61
+#, kde-format
+msgctxt "Placeholder"
+msgid "No details available."
+msgstr "विवरणं उपलब्धं नास्ति।"
 
 #: qml/ManualConfigurationPage.qml:18
 #, kde-format
@@ -260,29 +390,53 @@ msgstr "स्वस्य Email खातं संयोजयन्तु"
 #: qml/PersonalDataPage.qml:51
 #, kde-format
 msgid ""
-"To use your current email address fill in your credentials. This wizard "
-"will automatically search for a working and recommended server "
-"configuration. Only the domain name part of the e-mail address will be sent "
-"over the Internet."
+"To use your current email address fill in your credentials. This wizard will "
+"automatically search for a working and recommended server configuration. "
+"Only the domain name part of the e-mail address will be sent over the "
+"Internet."
 msgstr ""
-"वर्तमानं ईमेल-सङ्केतं उपयोक्तुं स्वस्य प्रमाणपत्राणि पूरयन्तु । एषः "
-"विजार्ड् स्वयमेव कार्यं कुर्वन् अनुशंसितं च सर्वर-विन्यासं अन्वेषयिष्यति । "
-"केवलं ई-मेल-सङ्केतस्य डोमेन-नामभागः एव अन्तर्जालमाध्यमेन प्रेषितः भविष्यति ।"
+"वर्तमानं ईमेल-सङ्केतं उपयोक्तुं स्वस्य प्रमाणपत्राणि पूरयन्तु । एषः विजार्ड् स्वयमेव कार्यं कुर्वन् "
+"अनुशंसितं च सर्वर-विन्यासं अन्वेषयिष्यति । केवलं ई-मेल-सङ्केतस्य डोमेन-नामभागः एव "
+"अन्तर्जालमाध्यमेन प्रेषितः भविष्यति ।"
 
 #: qml/PersonalDataPage.qml:57
 #, kde-format
 msgid "Full name:"
 msgstr "सम्पूर्ण नाम : १."
 
+#: qml/PersonalDataPage.qml:58
+#, kde-format
+msgctxt "Generic name"
+msgid "John Smith"
+msgstr "जॉन् स्मिथः"
+
 #: qml/PersonalDataPage.qml:67
 #, kde-format
 msgid "E-mail address:"
 msgstr "ई-मेल-सङ्केतः : १."
 
+#: qml/PersonalDataPage.qml:68
+#, kde-format
+msgctxt "Generic email address"
+msgid "boss@example.corp"
+msgstr "boss@example.corp"
+
 #: qml/PersonalDataPage.qml:86
 #, kde-format
 msgid "Password (optional):"
 msgstr "गुप्तशब्दः (वैकल्पिकः): १."
+
+#: qml/WizardPage.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "Previous"
+msgstr "पूर्वतनम्‌"
+
+#: qml/WizardPage.qml:22
+#, kde-format
+msgctxt "@action:button"
+msgid "Next"
+msgstr "अग्रिम"
 
 #: resource.cpp:72
 #, kde-format
@@ -316,10 +470,9 @@ msgstr "संसाधनदृष्टान्तं विन्यस्�
 
 #: resource.cpp:131
 #, kde-format
-msgid "Could not convert value of setting '%1' with type %2 to required type %3."
-msgstr ""
-"%2 प्रकारेण सह '%1' सेटिङ्ग् इत्यस्य मूल्यं आवश्यकप्रकारं %3 मध्ये "
-"परिवर्तयितुं न शक्तम् ।"
+msgid ""
+"Could not convert value of setting '%1' with type %2 to required type %3."
+msgstr "%2 प्रकारेण सह '%1' सेटिङ्ग् इत्यस्य मूल्यं आवश्यकप्रकारं %3 मध्ये परिवर्तयितुं न शक्तम् ।"
 
 #: resource.cpp:144
 #, kde-format
@@ -330,76 +483,6 @@ msgstr "'%1': %2 सेटिङ्ग् सेट् कर्तुं न �
 #, kde-format
 msgid "Could not save settings: %1"
 msgstr "सेटिङ्ग्स् रक्षितुम् न शक्तम्: %1"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: accountconfiguration.cpp:200 ispdb/configurationmodel.cpp:147
-#, kde-format
-msgctxt "Default name for new email accounts/identities."
-msgid "Unnamed"
-msgstr "अनामिका"
-
-#: accountconfiguration.cpp:211
-#, kde-format
-msgctxt "log entry content"
-msgid "Create email identity: %1"
-msgstr "ईमेलपरिचयं रचयन्तु: %1"
-
-#: accountconfiguration.cpp:214
-#, kde-format
-msgctxt "log entry content"
-msgid "Full name:"
-msgstr "सम्पूर्ण नाम : १."
-
-#: accountconfiguration.cpp:215
-#, kde-format
-msgctxt "log entry content"
-msgid "Primary email address:"
-msgstr "प्राथमिकं ईमेल-सङ्केतं : १."
-
-#: accountconfiguration.cpp:244
-#, kde-format
-msgctxt "log entry content"
-msgid "Mail transport setup completed: %1"
-msgstr "मेलपरिवहनव्यवस्थापनं सम्पन्नम्: %1"
-
-#: accountconfiguration.cpp:247
-#, kde-format
-msgctxt "log entry content"
-msgid "Host:"
-msgstr "निमन्त्रकः:"
-
-#: accountconfiguration.cpp:248
-#, kde-format
-msgctxt "log entry content"
-msgid "Port:"
-msgstr "पोताश्रय:"
-
-#: accountconfiguration.cpp:249
-#, kde-format
-msgctxt "log entry content"
-msgid "Username:"
-msgstr "उपयोक्तृनाम : १."
-
-#: accountconfiguration.cpp:251
-#, kde-format
-msgctxt "log entry content"
-msgid "Encryption:"
-msgstr "एन्क्रिप्शन : १."
-
-#: accountconfiguration.cpp:253
-#, kde-format
-msgctxt "log entry content"
-msgid "Authentication:"
-msgstr "प्रमाणीकरणम् : १."
 
 #: resource.cpp:156
 #, kde-format
@@ -412,90 +495,6 @@ msgstr "संसाधनस्थापनं सम्पन्नम्: %1"
 msgctxt "log entry content"
 msgid "Resource type:"
 msgstr "संसाधनप्रकारः : १."
-
-#: ispdb/serverconfiguration.cpp:41
-#, kde-format
-msgctxt "No security mechanism"
-msgid "None"
-msgstr "न कश्चित्"
-
-#: main.cpp:46
-#, kde-format
-msgctxt "@info:credit"
-msgid "Volker Krause"
-msgstr "वोल्कर क्राउस"
-
-#: main.cpp:47
-#, kde-format
-msgctxt "@info:credit"
-msgid "Laurent Montel"
-msgstr "लॉरेण्ट् मोंटेल्"
-
-#: main.cpp:48
-#, kde-format
-msgctxt "@info:credit"
-msgid "Carl Schwan"
-msgstr "कार्ल स्वान्"
-
-#: qml/ConfigurationSelectionPage.qml:16
-#, kde-format
-msgctxt "@title:group"
-msgid "Configuration Selection"
-msgstr "विन्यासचयनम्"
-
-#: qml/ConfigurationSelectionPage.qml:115
-#, kde-format
-msgctxt "@title:group"
-msgid "Calendar and Contacts"
-msgstr "पञ्चाङ्ग एवं सम्पर्क"
-
-#: qml/DetailsPage.qml:15
-#, kde-format
-msgctxt "@title:group"
-msgid "Details"
-msgstr "वर्णन"
-
-#: qml/ConfigurationSelectionPage.qml:126
-#, kde-format
-msgctxt "@option:check"
-msgid "Enable calendar and contact integration"
-msgstr "पञ्चाङ्गं सम्पर्कं च एकीकरणं सक्षमं कुर्वन्तु"
-
-#: qml/DetailsPage.qml:18
-#, kde-format
-msgctxt "@action:button"
-msgid "Quit"
-msgstr "परिजहातु"
-
-#: qml/WizardPage.qml:15
-#, kde-format
-msgctxt "@action:button"
-msgid "Previous"
-msgstr "पूर्वतनम्‌"
-
-#: qml/WizardPage.qml:22
-#, kde-format
-msgctxt "@action:button"
-msgid "Next"
-msgstr "अग्रिम"
-
-#: qml/DetailsPage.qml:61
-#, kde-format
-msgctxt "Placeholder"
-msgid "No details available."
-msgstr "विवरणं उपलब्धं नास्ति।"
-
-#: qml/PersonalDataPage.qml:58
-#, kde-format
-msgctxt "Generic name"
-msgid "John Smith"
-msgstr "जॉन् स्मिथः"
-
-#: qml/PersonalDataPage.qml:68
-#, kde-format
-msgctxt "Generic email address"
-msgid "boss@example.corp"
-msgstr "boss@example.corp"
 
 #: resource.cpp:169
 #, kde-format

@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the libkleo package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
@@ -199,6 +199,12 @@ msgstr "पृच्छतु"
 msgid "Ask Whenever Possible"
 msgstr "यदा सम्भवं तदा पृच्छतु"
 
+#: kleo/enum.cpp:157
+#, kde-kuit-format
+msgctxt "no specific preference"
+msgid "<placeholder>none</placeholder>"
+msgstr "<स्थानधारक>न कश्चित्</स्थानधारक>"
+
 #: kleo/enum.cpp:204
 #, kde-format
 msgid "Never Sign"
@@ -214,20 +220,32 @@ msgstr "सदा चिह्न"
 msgid "Always Sign If Possible"
 msgstr "सम्भवं चेत् सदैव हस्ताक्षरं कुर्वन्तु"
 
+#: kleo/enum.cpp:214
+#, kde-format
+msgctxt "no specific preference"
+msgid "<none>"
+msgstr "<कोऽपि नास्ति>"
+
+#: kleo/expirychecker.cpp:80
+#, kde-format
+msgctxt "<b>User ID of key</b> (Key ID key ID of key in hex notation)"
+msgid "<b>%1</b> (Key ID 0x%2)"
+msgstr "<b>%1</b> (कुंजी आईडी 0x%2)"
+
 #: kleo/expirychecker.cpp:88
 #, kde-format
 msgid ""
 "<p>Your OpenPGP signing key</p><p align=center>%1</p><p>expired less than a "
 "day ago.</p>"
 msgstr ""
-"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %1</p><p> एकदिनात् "
-"न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
+"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं "
+"अवधिः समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:90
 #, kde-format
 msgid ""
-"<p>Your OpenPGP encryption key</p><p align=center>%1</p><p>expired less "
-"than a day ago.</p>"
+"<p>Your OpenPGP encryption key</p><p align=center>%1</p><p>expired less than "
+"a day ago.</p>"
 msgstr ""
 "<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %1</p><p> एकदिनात् "
 "न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
@@ -238,122 +256,128 @@ msgid ""
 "<p>The OpenPGP key for</p><p align=center>%1</p><p>expired less than a day "
 "ago.</p>"
 msgstr ""
-"<p>कृते OpenPGP कीलम्</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं "
-"अवधिः समाप्तः।</p>"
+"<p>कृते OpenPGP कीलम्</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः "
+"समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:98
 #, kde-format
 msgid ""
-"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expired "
-"yesterday.</p>"
+"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expired yesterday.</"
+"p>"
 msgid_plural ""
-"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expired %1 days "
-"ago.</p>"
+"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expired %1 days ago."
+"</p>"
 msgstr[0] ""
-"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> कालः "
-"समाप्तः।</p>"
+"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> %1 दिवसपूर्वं "
-"अवधिः समाप्तः ।</p>"
+"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः "
+"समाप्तः ।</p>"
 
 #: kleo/expirychecker.cpp:101
 #, kde-format
 msgid ""
-"<p>Your OpenPGP encryption key</p><p align=center>%2</p><p>expired "
-"yesterday.</p>"
+"<p>Your OpenPGP encryption key</p><p align=center>%2</p><p>expired yesterday."
+"</p>"
 msgid_plural ""
 "<p>Your OpenPGP encryption key</p><p align=center>%2</p><p>expired %1 days "
 "ago.</p>"
 msgstr[0] ""
-"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> कालः "
-"समाप्तः।</p>"
+"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> %1 "
-"दिवसपूर्वं अवधिः समाप्तः ।</p>"
+"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः "
+"समाप्तः ।</p>"
 
 #: kleo/expirychecker.cpp:104
 #, kde-format
-msgid "<p>The OpenPGP key for</p><p align=center>%2</p><p>expired yesterday.</p>"
-msgid_plural "<p>The OpenPGP key for</p><p align=center>%2</p><p>expired %1 days ago.</p>"
+msgid ""
+"<p>The OpenPGP key for</p><p align=center>%2</p><p>expired yesterday.</p>"
+msgid_plural ""
+"<p>The OpenPGP key for</p><p align=center>%2</p><p>expired %1 days ago.</p>"
 msgstr[0] "<p>कृते OpenPGP कीलम्</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>कृते OpenPGP कीलम्</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः "
-"समाप्तः ।</p>"
+"<p>कृते OpenPGP कीलम्</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः ।</"
+"p>"
 
 #: kleo/expirychecker.cpp:113
 #, kde-format
-msgid "<p>Your OpenPGP signing key</p><p align=center>%1</p><p>expires today.</p>"
+msgid ""
+"<p>Your OpenPGP signing key</p><p align=center>%1</p><p>expires today.</p>"
 msgstr ""
-"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %1</p><p> अद्य अवधिः "
-"समाप्तः भवति।</p>"
+"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %1</p><p> अद्य अवधिः समाप्तः "
+"भवति।</p>"
 
 #: kleo/expirychecker.cpp:115
 #, kde-format
 msgid ""
-"<p>Your OpenPGP encryption key</p><p align=center>%1</p><p>expires "
-"today.</p>"
+"<p>Your OpenPGP encryption key</p><p align=center>%1</p><p>expires today.</p>"
 msgstr ""
-"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %1</p><p> अद्य अवधिः "
-"समाप्तः भवति।</p>"
+"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %1</p><p> अद्य अवधिः समाप्तः "
+"भवति।</p>"
 
 #: kleo/expirychecker.cpp:117
 #, kde-format
 msgid "<p>The OpenPGP key for</p><p align=center>%1</p><p>expires today.</p>"
 msgstr ""
-"<p>कृते OpenPGP कीलम्</p><p align=center> %1</p><p> अद्य अवधिः समाप्तः "
-"भवति।</p>"
+"<p>कृते OpenPGP कीलम्</p><p align=center> %1</p><p> अद्य अवधिः समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:123
 #, kde-format
 msgid ""
-"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expires "
-"tomorrow.</p>"
+"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expires tomorrow.</p>"
 msgid_plural ""
-"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expires in %1 "
-"days.</p>"
+"<p>Your OpenPGP signing key</p><p align=center>%2</p><p>expires in %1 days.</"
+"p>"
 msgstr[0] ""
-"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> श्वः अवधिः "
-"समाप्तः भवति।</p>"
+"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः "
+"भवति।</p>"
 msgstr[1] ""
-"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> %1 दिवसेषु "
-"अवधिः समाप्तः भवति ।</p>"
+"<p>भवतः OpenPGP हस्ताक्षरकुंजी</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः "
+"समाप्तः भवति ।</p>"
 
 #: kleo/expirychecker.cpp:126
 #, kde-format
 msgid ""
-"<p>Your OpenPGP encryption key</p><p align=center>%2</p><p>expires "
-"tomorrow.</p>"
+"<p>Your OpenPGP encryption key</p><p align=center>%2</p><p>expires tomorrow."
+"</p>"
 msgid_plural ""
 "<p>Your OpenPGP encryption key</p><p align=center>%2</p><p>expires in %1 "
 "days.</p>"
 msgstr[0] ""
-"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> श्वः अवधिः "
-"समाप्तः भवति।</p>"
+"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः "
+"भवति।</p>"
 msgstr[1] ""
-"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> %1 दिवसेषु "
-"अवधिः समाप्तः भवति ।</p>"
+"<p>भवतः OpenPGP एन्क्रिप्शन कुञ्जी</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः "
+"समाप्तः भवति ।</p>"
 
 #: kleo/expirychecker.cpp:129
 #, kde-format
-msgid "<p>The OpenPGP key for</p><p align=center>%2</p><p>expires tomorrow.</p>"
-msgid_plural "<p>The OpenPGP key for</p><p align=center>%2</p><p>expires in %1 days.</p>"
+msgid ""
+"<p>The OpenPGP key for</p><p align=center>%2</p><p>expires tomorrow.</p>"
+msgid_plural ""
+"<p>The OpenPGP key for</p><p align=center>%2</p><p>expires in %1 days.</p>"
 msgstr[0] ""
-"<p>कृते OpenPGP कीलम्</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः "
-"भवति।</p>"
+"<p>कृते OpenPGP कीलम्</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</p>"
 msgstr[1] ""
-"<p>कृते OpenPGP कीलम्</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः "
-"समाप्तः भवति ।</p>"
+"<p>कृते OpenPGP कीलम्</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः भवति ।"
+"</p>"
+
+#: kleo/expirychecker.cpp:141
+#, kde-format
+msgctxt ""
+"<b>User ID of certificate</b> (serial number serial no. of certificate)"
+msgid "<b>%1</b> (serial number %2)"
+msgstr "<b>%1</b> (क्रमाङ्कः %2)"
 
 #: kleo/expirychecker.cpp:152
 #, kde-format
 msgid ""
 "<p>The root certificate</p><p align=center><b>%2</b></p><p>for your S/MIME "
-"signing certificate</p><p align=center>%1</p><p>expired less than a day "
-"ago.</p>"
+"signing certificate</p><p align=center>%1</p><p>expired less than a day ago."
+"</p>"
 msgstr ""
 "<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> भवतः S/MIME "
-"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् "
-"न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः "
+"समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:157
 #, kde-format
@@ -362,9 +386,9 @@ msgid ""
 "encryption certificate</p><p align=center>%1</p><p>expired less than a day "
 "ago.</p>"
 msgstr ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> भवतः S/MIME "
-"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् "
-"न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> भवतः S/MIME एन्क्रिप्शन "
+"प्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः समाप्तः।</"
+"p>"
 
 #: kleo/expirychecker.cpp:162
 #, kde-format
@@ -372,9 +396,8 @@ msgid ""
 "<p>The root certificate</p><p align=center><b>%2</b></p><p>for S/MIME "
 "certificate</p><p align=center>%1</p><p>expired less than a day ago.</p>"
 msgstr ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं "
-"अवधिः समाप्तः।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> S/MIME प्रमाणपत्रस्य कृते</"
+"p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:171
 #, kde-format
@@ -389,8 +412,8 @@ msgstr[0] ""
 "हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
 "<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं "
-"अवधिः समाप्तः ।</p>"
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः ।"
+"</p>"
 
 #: kleo/expirychecker.cpp:179
 #, kde-format
@@ -401,13 +424,11 @@ msgid_plural ""
 "<p>The root certificate</p><p align=center><b>%3</b></p><p>for your S/MIME "
 "encryption certificate</p><p align=center>%2</p><p>expired %1 days ago.</p>"
 msgstr[0] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः "
-"समाप्तः।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME एन्क्रिप्शन "
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं "
-"अवधिः समाप्तः ।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME एन्क्रिप्शन "
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः ।</p>"
 
 #: kleo/expirychecker.cpp:187
 #, kde-format
@@ -418,12 +439,11 @@ msgid_plural ""
 "<p>The root certificate</p><p align=center><b>%3</b></p><p>for S/MIME "
 "certificate</p><p align=center>%2</p><p>expired %1 days ago.</p>"
 msgstr[0] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME प्रमाणपत्रस्य कृते</"
+"p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः "
-"समाप्तः ।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME प्रमाणपत्रस्य कृते</"
+"p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः ।</p>"
 
 #: kleo/expirychecker.cpp:200
 #, kde-format
@@ -432,9 +452,9 @@ msgid ""
 "your S/MIME signing certificate</p><p align=center>%1</p><p>expired less "
 "than a day ago.</p>"
 msgstr ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> भवतः "
-"S/MIME हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् "
-"न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> भवतः S/MIME "
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः "
+"समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:205
 #, kde-format
@@ -443,20 +463,19 @@ msgid ""
 "your S/MIME encryption certificate</p><p align=center>%1</p><p>expired less "
 "than a day ago.</p>"
 msgstr ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> भवतः "
-"S/MIME एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> "
-"एकदिनात् न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> भवतः S/MIME "
+"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः "
+"समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:210
 #, kde-format
 msgid ""
-"<p>The intermediate CA certificate</p><p align=center><b>%2</b></p><p>for "
-"S/MIME certificate</p><p align=center>%1</p><p>expired less than a day "
-"ago.</p>"
+"<p>The intermediate CA certificate</p><p align=center><b>%2</b></p><p>for S/"
+"MIME certificate</p><p align=center>%1</p><p>expired less than a day ago.</p>"
 msgstr ""
 "<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%2</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं "
-"अवधिः समाप्तः।</p>"
+"प्रमाणपत्रस्य कृते</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः समाप्तः।</"
+"p>"
 
 #: kleo/expirychecker.cpp:219
 #, kde-format
@@ -469,13 +488,12 @@ msgid_plural ""
 "your S/MIME signing certificate</p><p align=center>%2</p><p>expired %1 days "
 "ago.</p>"
 msgstr[0] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः "
-"समाप्तः।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 "
-"दिवसपूर्वं अवधिः समाप्तः ।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः ।"
+"</p>"
 
 #: kleo/expirychecker.cpp:227
 #, kde-format
@@ -488,29 +506,27 @@ msgid_plural ""
 "your S/MIME encryption certificate</p><p align=center>%2</p><p>expired %1 "
 "days ago.</p>"
 msgstr[0] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः "
-"समाप्तः।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 "
-"दिवसपूर्वं अवधिः समाप्तः ।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः "
+"।</p>"
 
 #: kleo/expirychecker.cpp:235
 #, kde-format
 msgid ""
-"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"S/MIME certificate</p><p align=center>%2</p><p>expired yesterday.</p>"
+"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for S/"
+"MIME certificate</p><p align=center>%2</p><p>expired yesterday.</p>"
 msgid_plural ""
-"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"S/MIME certificate</p><p align=center>%2</p><p>expired %1 days ago.</p>"
+"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for S/"
+"MIME certificate</p><p align=center>%2</p><p>expired %1 days ago.</p>"
 msgstr[0] ""
 "<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
 "प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
 "<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः "
-"समाप्तः ।</p>"
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः ।</p>"
 
 #: kleo/expirychecker.cpp:248
 #, kde-format
@@ -527,8 +543,8 @@ msgid ""
 "<p>Your S/MIME encryption certificate</p><p align=center>%1</p><p>expired "
 "less than a day ago.</p>"
 msgstr ""
-"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %1</p><p> "
-"एकदिनात् न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
+"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %1</p><p> एकदिनात् "
+"न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:252
 #, kde-format
@@ -536,8 +552,8 @@ msgid ""
 "<p>The S/MIME certificate for</p><p align=center>%1</p><p>expired less than "
 "a day ago.</p>"
 msgstr ""
-"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %1</p><p> एकदिनात् "
-"न्यूनकालपूर्वं अवधिः समाप्तः।</p>"
+"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %1</p><p> एकदिनात् न्यूनकालपूर्वं अवधिः "
+"समाप्तः।</p>"
 
 #: kleo/expirychecker.cpp:258
 #, kde-format
@@ -548,11 +564,11 @@ msgid_plural ""
 "<p>Your S/MIME signing certificate</p><p align=center>%2</p><p>expired %1 "
 "days ago.</p>"
 msgstr[0] ""
-"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> कालः "
-"समाप्तः।</p>"
+"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> कालः समाप्तः।</"
+"p>"
 msgstr[1] ""
-"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> %1 "
-"दिवसपूर्वं अवधिः समाप्तः ।</p>"
+"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसपूर्वं "
+"अवधिः समाप्तः ।</p>"
 
 #: kleo/expirychecker.cpp:261
 #, kde-format
@@ -560,27 +576,28 @@ msgid ""
 "<p>Your S/MIME encryption certificate</p><p align=center>%2</p><p>expired "
 "yesterday.</p>"
 msgid_plural ""
-"<p>Your S/MIME encryption certificate</p><p align=center>%2</p><p>expired "
-"%1 days ago.</p>"
+"<p>Your S/MIME encryption certificate</p><p align=center>%2</p><p>expired %1 "
+"days ago.</p>"
 msgstr[0] ""
-"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> कालः "
-"समाप्तः।</p>"
+"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> कालः समाप्तः।"
+"</p>"
 msgstr[1] ""
-"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 "
-"दिवसपूर्वं अवधिः समाप्तः ।</p>"
+"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसपूर्वं "
+"अवधिः समाप्तः ।</p>"
 
 #: kleo/expirychecker.cpp:264
 #, kde-format
 msgid ""
-"<p>The S/MIME certificate for</p><p align=center>%2</p><p>expired "
-"yesterday.</p>"
+"<p>The S/MIME certificate for</p><p align=center>%2</p><p>expired yesterday."
+"</p>"
 msgid_plural ""
 "<p>The S/MIME certificate for</p><p align=center>%2</p><p>expired %1 days "
 "ago.</p>"
-msgstr[0] "<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
+msgstr[0] ""
+"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> कालः समाप्तः।</p>"
 msgstr[1] ""
-"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसपूर्वं "
-"अवधिः समाप्तः ।</p>"
+"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसपूर्वं अवधिः समाप्तः "
+"।</p>"
 
 #: kleo/expirychecker.cpp:277
 #, kde-format
@@ -589,8 +606,7 @@ msgid ""
 "signing certificate</p><p align=center>%2</p><p>expires today.</p>"
 msgstr ""
 "<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः "
-"समाप्तः भवति।</p>"
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:282
 #, kde-format
@@ -598,9 +614,8 @@ msgid ""
 "<p>The root certificate</p><p align=center><b>%3</b></p><p>for your S/MIME "
 "encryption certificate</p><p align=center>%2</p><p>expires today.</p>"
 msgstr ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः "
-"समाप्तः भवति।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME एन्क्रिप्शन "
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:287
 #, kde-format
@@ -608,9 +623,8 @@ msgid ""
 "<p>The root certificate</p><p align=center><b>%3</b></p><p>for S/MIME "
 "certificate</p><p align=center>%2</p><p>expires today.</p>"
 msgstr ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः "
-"भवति।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME प्रमाणपत्रस्य कृते</"
+"p><p align=center> %2</p><p> अद्य अवधिः समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:296
 #, kde-format
@@ -622,12 +636,11 @@ msgid_plural ""
 "signing certificate</p><p align=center>%2</p><p>expires in %1 days.</p>"
 msgstr[0] ""
 "<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः "
-"समाप्तः भवति।</p>"
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</p>"
 msgstr[1] ""
 "<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः "
-"समाप्तः भवति ।</p>"
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः "
+"भवति ।</p>"
 
 #: kleo/expirychecker.cpp:304
 #, kde-format
@@ -638,13 +651,11 @@ msgid_plural ""
 "<p>The root certificate</p><p align=center><b>%3</b></p><p>for your S/MIME "
 "encryption certificate</p><p align=center>%2</p><p>expires in %1 days.</p>"
 msgstr[0] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः "
-"समाप्तः भवति।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME एन्क्रिप्शन "
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</p>"
 msgstr[1] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
-"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु "
-"अवधिः समाप्तः भवति ।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME एन्क्रिप्शन "
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः भवति ।</p>"
 
 #: kleo/expirychecker.cpp:312
 #, kde-format
@@ -655,64 +666,59 @@ msgid_plural ""
 "<p>The root certificate</p><p align=center><b>%3</b></p><p>for S/MIME "
 "certificate</p><p align=center>%2</p><p>expires in %1 days.</p>"
 msgstr[0] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः "
-"भवति।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME प्रमाणपत्रस्य कृते</"
+"p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</p>"
 msgstr[1] ""
-"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः "
-"भवति ।</p>"
+"<p>मूलप्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME प्रमाणपत्रस्य कृते</"
+"p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः भवति ।</p>"
 
 #: kleo/expirychecker.cpp:325
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"your S/MIME signing certificate</p><p align=center>%2</p><p>expires "
-"today.</p>"
+"your S/MIME signing certificate</p><p align=center>%2</p><p>expires today.</"
+"p>"
 msgstr ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः "
-"समाप्तः भवति।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:330
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"your S/MIME encryption certificate</p><p align=center>%2</p><p>expires "
-"today.</p>"
+"your S/MIME encryption certificate</p><p align=center>%2</p><p>expires today."
+"</p>"
 msgstr ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य "
-"अवधिः समाप्तः भवति।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः भवति।</"
+"p>"
 
 #: kleo/expirychecker.cpp:335
 #, kde-format
 msgid ""
-"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"S/MIME certificate</p><p align=center>%2</p><p>expires today.</p>"
+"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for S/"
+"MIME certificate</p><p align=center>%2</p><p>expires today.</p>"
 msgstr ""
 "<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः "
-"भवति।</p>"
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:343
 #, kde-format
 msgid ""
 "<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"your S/MIME signing certificate</p><p align=center>%2</p><p>expires "
-"tomorrow.</p>"
+"your S/MIME signing certificate</p><p align=center>%2</p><p>expires tomorrow."
+"</p>"
 msgid_plural ""
 "<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
 "your S/MIME signing certificate</p><p align=center>%2</p><p>expires in %1 "
 "days.</p>"
 msgstr[0] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः "
-"समाप्तः भवति।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</p>"
 msgstr[1] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु "
-"अवधिः समाप्तः भवति ।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"हस्ताक्षरप्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः "
+"भवति ।</p>"
 
 #: kleo/expirychecker.cpp:351
 #, kde-format
@@ -722,42 +728,40 @@ msgid ""
 "tomorrow.</p>"
 msgid_plural ""
 "<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"your S/MIME encryption certificate</p><p align=center>%2</p><p>expires in "
-"%1 days.</p>"
+"your S/MIME encryption certificate</p><p align=center>%2</p><p>expires in %1 "
+"days.</p>"
 msgstr[0] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः "
-"अवधिः समाप्तः भवति।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</"
+"p>"
 msgstr[1] ""
-"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः "
-"S/MIME एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 "
-"दिवसेषु अवधिः समाप्तः भवति ।</p>"
+"<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> भवतः S/MIME "
+"एन्क्रिप्शन प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः "
+"भवति ।</p>"
 
 #: kleo/expirychecker.cpp:359
 #, kde-format
 msgid ""
-"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"S/MIME certificate</p><p align=center>%2</p><p>expires tomorrow.</p>"
+"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for S/"
+"MIME certificate</p><p align=center>%2</p><p>expires tomorrow.</p>"
 msgid_plural ""
-"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for "
-"S/MIME certificate</p><p align=center>%2</p><p>expires in %1 days.</p>"
+"<p>The intermediate CA certificate</p><p align=center><b>%3</b></p><p>for S/"
+"MIME certificate</p><p align=center>%2</p><p>expires in %1 days.</p>"
 msgstr[0] ""
 "<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः "
-"भवति।</p>"
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</p>"
 msgstr[1] ""
 "<p>मध्यवर्ती CA प्रमाणपत्रम्</p><p align=center> <b>%3</b></p><p> S/MIME "
-"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः "
-"भवति ।</p>"
+"प्रमाणपत्रस्य कृते</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः भवति ।</p>"
 
 #: kleo/expirychecker.cpp:371
 #, kde-format
 msgid ""
-"<p>Your S/MIME signing certificate</p><p align=center>%2</p><p>expires "
-"today.</p>"
+"<p>Your S/MIME signing certificate</p><p align=center>%2</p><p>expires today."
+"</p>"
 msgstr ""
-"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> अद्य "
-"अवधिः समाप्तः भवति।</p>"
+"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> अद्य अवधिः "
+"समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:373
 #, kde-format
@@ -765,15 +769,16 @@ msgid ""
 "<p>Your S/MIME encryption certificate</p><p align=center>%2</p><p>expires "
 "today.</p>"
 msgstr ""
-"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> अद्य "
-"अवधिः समाप्तः भवति।</p>"
+"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> अद्य अवधिः "
+"समाप्तः भवति।</p>"
 
 #: kleo/expirychecker.cpp:375
 #, kde-format
-msgid "<p>The S/MIME certificate for</p><p align=center>%2</p><p>expires today.</p>"
+msgid ""
+"<p>The S/MIME certificate for</p><p align=center>%2</p><p>expires today.</p>"
 msgstr ""
-"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> अद्य अवधिः "
-"समाप्तः भवति।</p>"
+"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> अद्य अवधिः समाप्तः भवति।</"
+"p>"
 
 #: kleo/expirychecker.cpp:382
 #, kde-format
@@ -781,14 +786,14 @@ msgid ""
 "<p>Your S/MIME signing certificate</p><p align=center>%2</p><p>expires "
 "tomorrow.</p>"
 msgid_plural ""
-"<p>Your S/MIME signing certificate</p><p align=center>%2</p><p>expires in "
-"%1 days.</p>"
+"<p>Your S/MIME signing certificate</p><p align=center>%2</p><p>expires in %1 "
+"days.</p>"
 msgstr[0] ""
-"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> श्वः "
-"अवधिः समाप्तः भवति।</p>"
+"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> श्वः अवधिः "
+"समाप्तः भवति।</p>"
 msgstr[1] ""
-"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> %1 "
-"दिवसेषु अवधिः समाप्तः भवति ।</p>"
+"<p>भवतः S/MIME हस्ताक्षरप्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः "
+"समाप्तः भवति ।</p>"
 
 #: kleo/expirychecker.cpp:388
 #, kde-format
@@ -796,57 +801,83 @@ msgid ""
 "<p>Your S/MIME encryption certificate</p><p align=center>%2</p><p>expires "
 "tomorrow.</p>"
 msgid_plural ""
-"<p>Your S/MIME encryption certificate</p><p align=center>%2</p><p>expires "
-"in %1 days.</p>"
+"<p>Your S/MIME encryption certificate</p><p align=center>%2</p><p>expires in "
+"%1 days.</p>"
 msgstr[0] ""
-"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> श्वः "
-"अवधिः समाप्तः भवति।</p>"
+"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> श्वः अवधिः "
+"समाप्तः भवति।</p>"
 msgstr[1] ""
-"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 "
-"दिवसेषु अवधिः समाप्तः भवति ।</p>"
+"<p>भवतः S/MIME एन्क्रिप्शन प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसेषु "
+"अवधिः समाप्तः भवति ।</p>"
 
 #: kleo/expirychecker.cpp:394
 #, kde-format
 msgid ""
-"<p>The S/MIME certificate for</p><p align=center>%2</p><p>expires "
-"tomorrow.</p>"
+"<p>The S/MIME certificate for</p><p align=center>%2</p><p>expires tomorrow.</"
+"p>"
 msgid_plural ""
-"<p>The S/MIME certificate for</p><p align=center>%2</p><p>expires in %1 "
-"days.</p>"
+"<p>The S/MIME certificate for</p><p align=center>%2</p><p>expires in %1 days."
+"</p>"
 msgstr[0] ""
-"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> श्वः अवधिः "
-"समाप्तः भवति।</p>"
+"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> श्वः अवधिः समाप्तः भवति।</"
+"p>"
 msgstr[1] ""
-"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः "
-"समाप्तः भवति ।</p>"
+"<p>कृते S/MIME प्रमाणपत्रम्</p><p align=center> %2</p><p> %1 दिवसेषु अवधिः समाप्तः "
+"भवति ।</p>"
+
+#: kleo/keyfiltermanager.cpp:90
+#, kde-format
+msgctxt "All Certificates"
+msgid "All"
+msgstr "सर्वे"
 
 #: kleo/keyfiltermanager.cpp:91
 #, kde-format
 msgid "All certificates (except disabled ones)"
 msgstr "सर्वाणि प्रमाणपत्राणि (अक्षमान् विहाय)"
 
+#: kleo/keyfiltermanager.cpp:108
+#, kde-format
+msgctxt "My own Certificates"
+msgid "My Own"
+msgstr "मम स्वकीयः"
+
 #: kleo/keyfiltermanager.cpp:109
 #, kde-format
 msgid "My own certificates (except disabled ones)"
 msgstr "मम स्वकीयाः प्रमाणपत्राणि (अक्षमान् विहाय)"
+
+#: kleo/keyfiltermanager.cpp:127
+#, kde-format
+msgctxt "Certified Certificates"
+msgid "Certified"
+msgstr "प्रमाणित"
 
 #: kleo/keyfiltermanager.cpp:128
 #, kde-format
 msgid ""
 "Certificates for which the primary user ID is certified (except disabled "
 "ones)"
-msgstr ""
-"येषां प्रमाणपत्राणां कृते प्राथमिकः उपयोक्तृ-परिचयः प्रमाणितः भवति "
-"(अक्षमान् विहाय)"
+msgstr "येषां प्रमाणपत्राणां कृते प्राथमिकः उपयोक्तृ-परिचयः प्रमाणितः भवति (अक्षमान् विहाय)"
+
+#: kleo/keyfiltermanager.cpp:146
+#, kde-format
+msgctxt "Not Certified Certificates"
+msgid "Not Certified"
+msgstr "प्रमाणितं नास्ति"
 
 #: kleo/keyfiltermanager.cpp:147
 #, kde-format
 msgid ""
-"Certificates for which the primary user ID is not certified (except "
-"disabled ones)"
-msgstr ""
-"येषां प्रमाणपत्राणां कृते प्राथमिकप्रयोक्तृपरिचयः प्रमाणितः नास्ति "
-"(अक्षमान् विहाय)"
+"Certificates for which the primary user ID is not certified (except disabled "
+"ones)"
+msgstr "येषां प्रमाणपत्राणां कृते प्राथमिकप्रयोक्तृपरिचयः प्रमाणितः नास्ति (अक्षमान् विहाय)"
+
+#: kleo/keyfiltermanager.cpp:162
+#, kde-format
+msgctxt "Certificates to certify by the user"
+msgid "To Certify"
+msgstr "प्रमाणीकरणार्थम्"
 
 #: kleo/keyfiltermanager.cpp:163
 #, kde-format
@@ -854,27 +885,151 @@ msgid ""
 "Certificates that are not fully certified and that you may want to certify "
 "yourself (except disabled ones)"
 msgstr ""
-"यत् प्रमाणपत्रं पूर्णतया प्रमाणितं नास्ति तथा च यत् भवान् स्वयमेव "
-"प्रमाणितुम् इच्छति (अक्षमान् विहाय)"
+"यत् प्रमाणपत्रं पूर्णतया प्रमाणितं नास्ति तथा च यत् भवान् स्वयमेव प्रमाणितुम् इच्छति (अक्षमान् "
+"विहाय)"
+
+#: kleo/keyfiltermanager.cpp:191
+#, kde-format
+msgctxt "Not Fully Certified Certificates"
+msgid "Not Fully Certified"
+msgstr "पूर्णतया प्रमाणितं नास्ति"
 
 #: kleo/keyfiltermanager.cpp:192
 #, kde-format
-msgid "Certificates for which not all user IDs are certified (except disabled ones)"
-msgstr ""
-"येषां प्रमाणपत्राणां कृते सर्वे उपयोक्तृ-ID प्रमाणीकृताः न सन्ति (अक्षमान् "
-"विहाय)"
+msgid ""
+"Certificates for which not all user IDs are certified (except disabled ones)"
+msgstr "येषां प्रमाणपत्राणां कृते सर्वे उपयोक्तृ-ID प्रमाणीकृताः न सन्ति (अक्षमान् विहाय)"
+
+#: kleo/keyfiltermanager.cpp:216
+#, kde-format
+msgctxt "Fully Certified Certificates"
+msgid "Fully Certified"
+msgstr "पूर्णतया प्रमाणित"
 
 #: kleo/keyfiltermanager.cpp:217
 #, kde-format
-msgid "Certificates for which all user IDs are certified (except disabled ones)"
-msgstr ""
-"प्रमाणपत्राणि येषां कृते सर्वे उपयोक्तृ-ID प्रमाणीकृताः सन्ति (अक्षमान् "
-"विहाय)"
+msgid ""
+"Certificates for which all user IDs are certified (except disabled ones)"
+msgstr "प्रमाणपत्राणि येषां कृते सर्वे उपयोक्तृ-ID प्रमाणीकृताः सन्ति (अक्षमान् विहाय)"
+
+#: models/keylistmodel.cpp:326
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "नामः"
+
+#: models/keylistmodel.cpp:328
+#, kde-format
+msgctxt "@title:column"
+msgid "E-Mail"
+msgstr "ई-मेल"
+
+#: models/keylistmodel.cpp:330
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr "स्थितिः"
+
+#: models/keylistmodel.cpp:332
+#, kde-format
+msgctxt "@title:column"
+msgid "Valid From"
+msgstr "वैध From"
+
+#: models/keylistmodel.cpp:334
+#, kde-format
+msgctxt "@title:column"
+msgid "Valid Until"
+msgstr "वैध यावत्"
+
+#: models/keylistmodel.cpp:336
+#, kde-format
+msgctxt "@title:column"
+msgid "Protocol"
+msgstr "प्रोटोकॉल"
+
+#: models/keylistmodel.cpp:338
+#, kde-format
+msgctxt "@title:column"
+msgid "Key ID"
+msgstr "कील आईडी"
+
+#: models/keylistmodel.cpp:340
+#, kde-format
+msgctxt "@title:column"
+msgid "Fingerprint"
+msgstr "अङ्गुलिचिह्न"
+
+#: models/keylistmodel.cpp:342
+#, kde-format
+msgctxt "@title:column"
+msgid "Issuer"
+msgstr "जारीकर्ता"
+
+#: models/keylistmodel.cpp:344
+#, kde-format
+msgctxt "@title:column"
+msgid "Serial Number"
+msgstr "क्रमाङ्कः"
+
+#: models/keylistmodel.cpp:346
+#, kde-format
+msgctxt "@title:column"
+msgid "Origin"
+msgstr "श्रोतं"
+
+#: models/keylistmodel.cpp:348
+#, kde-format
+msgctxt "@title:column"
+msgid "Last Update"
+msgstr "अन्तिम अपडेट"
+
+#: models/keylistmodel.cpp:350
+#, kde-format
+msgctxt "@title:column"
+msgid "Certification Trust"
+msgstr "प्रमाणीकरण न्यास"
+
+#: models/keylistmodel.cpp:352
+#, kde-format
+msgctxt "@title:column"
+msgid "Tags"
+msgstr "टैग्स"
+
+#: models/keylistmodel.cpp:354
+#, kde-format
+msgctxt "@title:column"
+msgid "Algorithm"
+msgstr "एल्गोरिदम"
+
+#: models/keylistmodel.cpp:356
+#, kde-format
+msgctxt "@title:column"
+msgid "Keygrip"
+msgstr "कीग्रिप्"
+
+#: models/keylistmodel.cpp:404 models/useridlistmodel.cpp:69
+#, kde-format
+msgctxt "text for screen readers for an empty name"
+msgid "no name"
+msgstr "न नाम"
+
+#: models/keylistmodel.cpp:411 models/useridlistmodel.cpp:70
+#, kde-format
+msgctxt "text for screen readers for an empty email address"
+msgid "no email"
+msgstr "ईमेल नास्ति"
 
 #: models/keylistmodel.cpp:474
 #, kde-format
 msgid "Loading..."
 msgstr "लोडिंग..."
+
+#: models/keylistmodel.cpp:557
+#, kde-format
+msgctxt "text for screen readers"
+msgid "not applicable"
+msgstr "न प्रयोज्यम्"
 
 #: models/subkeylistmodel.cpp:155
 #, kde-format
@@ -913,6 +1068,24 @@ msgstr "बलः"
 #, kde-format
 msgid "Usage"
 msgstr "प्रयोगः"
+
+#: models/useridlistmodel.cpp:72
+#, kde-format
+msgctxt "yes, is exportable"
+msgid "yes"
+msgstr "आम्‌"
+
+#: models/useridlistmodel.cpp:72
+#, kde-format
+msgctxt "no, is not exportable"
+msgid "no"
+msgstr "नहि"
+
+#: models/useridlistmodel.cpp:75
+#, kde-format
+msgctxt "accessible text for empty list of tags"
+msgid "none"
+msgstr "न कश्चित्"
 
 #: models/useridlistmodel.cpp:76
 #, kde-format
@@ -959,10 +1132,34 @@ msgstr "टैग्स"
 msgid "Trust Signature For"
 msgstr "Trust Signature For"
 
+#: ui/auditlogviewer.cpp:43
+#, kde-format
+msgctxt "@title:window"
+msgid "View GnuPG Audit Log"
+msgstr "GnuPG Audit Log पश्यन्तु"
+
+#: ui/auditlogviewer.cpp:46
+#, kde-format
+msgctxt "@action:button"
+msgid "&Copy to Clipboard"
+msgstr "&Clipboard मध्ये प्रतिलिपिं कुर्वन्तु"
+
+#: ui/auditlogviewer.cpp:51
+#, kde-format
+msgctxt "@action:button"
+msgid "&Save to Disk..."
+msgstr "&डिस्क मध्ये रक्षन्तु..."
+
 #: ui/auditlogviewer.cpp:93
 #, kde-format
 msgid "Your system does not have support for GnuPG Audit Logs"
 msgstr "भवतः प्रणाल्याः GnuPG Audit Logs इत्यस्य समर्थनं नास्ति"
+
+#: ui/auditlogviewer.cpp:93
+#, kde-format
+msgctxt "@title:window"
+msgid "System Error"
+msgstr "प्रणाली त्रुटि"
 
 #: ui/auditlogviewer.cpp:98
 #, kde-format
@@ -983,6 +1180,18 @@ msgstr "GnuPG लेखापरीक्षा लॉग त्रुटि"
 msgid "No GnuPG Audit Log available for this operation."
 msgstr "अस्य कार्यस्य कृते GnuPG Audit Log उपलब्धः नास्ति ।"
 
+#: ui/auditlogviewer.cpp:103
+#, kde-format
+msgctxt "@title:window"
+msgid "No GnuPG Audit Log"
+msgstr "GnuPG Audit Log नास्ति"
+
+#: ui/auditlogviewer.cpp:109
+#, kde-format
+msgctxt "@title:window"
+msgid "GnuPG Audit Log Viewer"
+msgstr "GnuPG लेखापरीक्षा लॉग दर्शक"
+
 #: ui/auditlogviewer.cpp:124
 #, kde-format
 msgid "Choose File to Save GnuPG Audit Log to"
@@ -993,16 +1202,39 @@ msgstr "GnuPG Audit Log इत्यत्र रक्षितुं सञ्
 msgid "Could not save to file \"%1\": %2"
 msgstr "\"%1\" सञ्चिकायां रक्षितुं न शक्यते: %2"
 
+#: ui/auditlogviewer.cpp:145
+#, kde-format
+msgctxt "@title:window"
+msgid "File Save Error"
+msgstr "सञ्चिका रक्षणदोषः"
+
+#: ui/cryptoconfigentryreaderport.cpp:45
+#, kde-format
+msgctxt "@label:listbox Reader for smart cards"
+msgid "Reader to connect to"
+msgstr "पाठकं सम्बद्धं कर्तुं"
+
 #: ui/cryptoconfigmodule.cpp:107
 #, kde-format
 msgid ""
 "The gpgconf tool used to provide the information for this dialog does not "
-"seem to be installed properly. It did not return any components. Try "
-"running \"%1\" on the command line for more information."
+"seem to be installed properly. It did not return any components. Try running "
+"\"%1\" on the command line for more information."
 msgstr ""
-"अस्य संवादस्य सूचनां दातुं प्रयुक्तं gpgconf साधनं सम्यक् संस्थापितं न "
-"दृश्यते । तया किमपि घटकं न प्रत्यागच्छत् । अधिकसूचनार्थं आदेशपङ्क्तौ \"%1\" "
-"चालयितुं प्रयतस्व ।"
+"अस्य संवादस्य सूचनां दातुं प्रयुक्तं gpgconf साधनं सम्यक् संस्थापितं न दृश्यते । तया किमपि घटकं न "
+"प्रत्यागच्छत् । अधिकसूचनार्थं आदेशपङ्क्तौ \"%1\" चालयितुं प्रयतस्व ।"
+
+#: ui/cryptoconfigmodule.cpp:538
+#, kde-format
+msgctxt ""
+"Translate this to 'yes' or 'no' (use the English words!) depending on "
+"whether your language uses Sentence style capitalization in GUI labels (yes) "
+"or not (no). Context: We get some backend strings in that have the wrong "
+"capitalization (in English, at least) so we need to force the first "
+"character to upper-case. It is this behaviour you can control for your "
+"language with this translation."
+msgid "yes"
+msgstr "आम्‌"
 
 #: ui/cryptoconfigmodule.cpp:592
 msgid "0 - None"
@@ -1024,6 +1256,12 @@ msgstr "३ - अधिकं वाच्यम्"
 msgid "4 - All"
 msgstr "४ - सर्वे"
 
+#: ui/cryptoconfigmodule.cpp:608
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Set the debugging level to"
+msgstr "त्रुटिनिवारणस्तरं इति सेट् कुर्वन्तु"
+
 #: ui/cryptoconfigmodule.cpp:831
 #, kde-format
 msgid "Show..."
@@ -1033,6 +1271,12 @@ msgstr "दर्शयतु..."
 #, kde-format
 msgid "Edit..."
 msgstr "सम्पादन..."
+
+#: ui/cryptoconfigmodule.cpp:885
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Directory Services"
+msgstr "निर्देशिकासेवाः विन्यस्यताम्"
 
 #: ui/cryptoconfigmodule.cpp:914
 #, kde-format
@@ -1051,20 +1295,124 @@ msgstr[1] "%1 सर्वराः विन्यस्ताः"
 msgid "Active Directory"
 msgstr "सक्रिय निर्देशिका"
 
+#: ui/directoryserviceswidget.cpp:187
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This is a list of all directory services that are configured for use with "
+"X.509."
+msgstr ""
+"एषा सर्वेषां निर्देशिकासेवानां सूची अस्ति ये X.509 इत्यनेन सह उपयोगाय विन्यस्ताः सन्ति ।"
+
+#: ui/directoryserviceswidget.cpp:197
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Click to use a directory service running on your Active Directory. This "
+"works only on Windows and requires GnuPG 2.2.28 or later."
+msgstr ""
+"स्वस्य सक्रियनिर्देशिकायां चालितस्य निर्देशिकासेवायाः उपयोगाय क्लिक् कुर्वन्तु । एतत् केवलं "
+"विण्डोज इत्यत्र कार्यं करोति तथा च GnuPG 2.2.28 अथवा ततः परं आवश्यकम् ।"
+
 #: ui/directoryserviceswidget.cpp:200
 #, kde-format
 msgid "LDAP Server"
 msgstr "LDAP सर्वरः"
+
+#: ui/directoryserviceswidget.cpp:203
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to add a directory service provided by an LDAP server."
+msgstr "LDAP सर्वरेण प्रदत्तां निर्देशिकासेवां योजयितुं क्लिक् कुर्वन्तु ।"
 
 #: ui/directoryserviceswidget.cpp:205
 #, kde-format
 msgid "Add"
 msgstr "संयोजयति"
 
+#: ui/directoryserviceswidget.cpp:206
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to add a directory service."
+msgstr "निर्देशिकासेवां योजयितुं क्लिक् कुर्वन्तु ।"
+
+#: ui/directoryserviceswidget.cpp:208
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to add a directory service to the list of services. The "
+"change will only take effect once you acknowledge the configuration dialog."
+msgstr ""
+"सेवासूचौ निर्देशिकासेवा योजयितुं एतत् बटन् नुदन्तु । परिवर्तनं केवलं एकवारं भवता विन्याससंवादं "
+"स्वीकृत्य प्रभावी भविष्यति ।"
+
+#: ui/directoryserviceswidget.cpp:216
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: ui/directoryserviceswidget.cpp:217
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to edit the selected service."
+msgstr "चयनितसेवा सम्पादयितुं क्लिक् कुर्वन्तु ।"
+
+#: ui/directoryserviceswidget.cpp:219
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to edit the settings of the currently selected directory "
+"service. The changes will only take effect once you acknowledge the "
+"configuration dialog."
+msgstr ""
+"वर्तमान चयनितनिर्देशिकासेवायाः सेटिङ्ग्स् सम्पादयितुं एतत् बटन् नुदन्तु । परिवर्तनं केवलं एकवारं "
+"भवता विन्याससंवादं स्वीकृत्य प्रभावी भविष्यति ।"
+
+#: ui/directoryserviceswidget.cpp:224
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "लुप्"
+
+#: ui/directoryserviceswidget.cpp:225
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Click to remove the selected service."
+msgstr "चयनितसेवाम् अपसारयितुं क्लिक् कुर्वन्तु ।"
+
+#: ui/directoryserviceswidget.cpp:227
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to remove the currently selected directory service. The "
+"change will only take effect once you acknowledge the configuration dialog."
+msgstr ""
+"वर्तमान चयनितं निर्देशिकासेवां निष्कासयितुं एतत् बटन् नुदन्तु । परिवर्तनं केवलं एकवारं भवता "
+"विन्याससंवादं स्वीकृत्य प्रभावी भविष्यति ।"
+
+#: ui/directoryserviceswidget.cpp:352 ui/directoryserviceswidget.cpp:369
+#, kde-format
+msgctxt "@title:window"
+msgid "LDAP Directory Service"
+msgstr "LDAP निर्देशिका सेवा"
+
 #: ui/dnattributeorderconfigwidget.cpp:75
 #, kde-format
 msgid "Description"
 msgstr "वर्णनम्‌"
+
+#: ui/dnattributeorderconfigwidget.cpp:90
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Available attributes:"
+msgstr "उपलब्धगुणाः : १."
+
+#: ui/dnattributeorderconfigwidget.cpp:92
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Current attribute order:"
+msgstr "वर्तमान विशेषताक्रमः : १."
 
 #: ui/dnattributeorderconfigwidget.cpp:100
 #, kde-format
@@ -1077,25 +1425,55 @@ msgstr "उपलब्धगुणाः"
 msgid "All others"
 msgstr "अन्ये सर्वे"
 
+#: ui/dnattributeorderconfigwidget.cpp:120
+msgctxt "@action:button"
+msgid "Add"
+msgstr "संयोजयति"
+
 #: ui/dnattributeorderconfigwidget.cpp:121
 msgid "Add to current attribute order"
 msgstr "वर्तमान विशेषताक्रमे योजयन्तु"
+
+#: ui/dnattributeorderconfigwidget.cpp:127
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "अपाकरोति"
 
 #: ui/dnattributeorderconfigwidget.cpp:128
 msgid "Remove from current attribute order"
 msgstr "वर्तमान विशेषताक्रमात् निष्कासयन्तु"
 
+#: ui/dnattributeorderconfigwidget.cpp:134
+msgctxt "@action:button"
+msgid "Move to Top"
+msgstr "उपरि गच्छन्तु"
+
 #: ui/dnattributeorderconfigwidget.cpp:135
 msgid "Move to top"
 msgstr "उपरि गच्छन्तु"
+
+#: ui/dnattributeorderconfigwidget.cpp:141
+msgctxt "@action:button"
+msgid "Move Up"
+msgstr "उपरि गच्छतु"
 
 #: ui/dnattributeorderconfigwidget.cpp:142
 msgid "Move one up"
 msgstr "एकं उपरि चालयन्तु"
 
+#: ui/dnattributeorderconfigwidget.cpp:148
+msgctxt "@action:button"
+msgid "Move Down"
+msgstr "अधः गच्छतु"
+
 #: ui/dnattributeorderconfigwidget.cpp:149
 msgid "Move one down"
 msgstr "एकं अधः चालयन्तु"
+
+#: ui/dnattributeorderconfigwidget.cpp:155
+msgctxt "@action:button"
+msgid "Move to Bottom"
+msgstr "अधः गच्छन्तु"
 
 #: ui/dnattributeorderconfigwidget.cpp:156
 msgid "Move to bottom"
@@ -1111,10 +1489,33 @@ msgstr "वर्तमान विशेषता क्रम"
 msgid "Host:"
 msgstr "निमन्त्रकः:"
 
+#: ui/editdirectoryservicedialog.cpp:103
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Enter the name or IP address of the server hosting the directory service."
+msgstr "निर्देशिकासेवायाः आतिथ्यं कुर्वतः सर्वरस्य नाम वा IP-सङ्केतं वा प्रविशन्तु ।"
+
+#: ui/editdirectoryservicedialog.cpp:112
+#, kde-format
+msgctxt "@info:label"
+msgid "Error: Enter a hostname in the correct format, like ldap.example.com."
+msgstr "त्रुटिः : ldap.example.com इत्यादिषु समीचीनरूपेण होस्ट्-नाम प्रविष्टं कुर्वन्तु ।"
+
 #: ui/editdirectoryservicedialog.cpp:116
 #, kde-format
 msgid "Port:"
 msgstr "पोताश्रय:"
+
+#: ui/editdirectoryservicedialog.cpp:119
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<b>(Optional, the default is fine in most cases)</b> Pick the port number "
+"the directory service is listening on."
+msgstr ""
+"<b>(वैकल्पिकं, पूर्वनिर्धारितं अधिकतया सम्यक् भवति)</b> निर्देशिकासेवा शृणोति इति पोर्ट् "
+"सङ्ख्यां चिनुत ।"
 
 #: ui/editdirectoryservicedialog.cpp:122
 #, kde-format
@@ -1131,6 +1532,12 @@ msgstr "प्रमाणीकरणम्"
 msgid "Anonymous"
 msgstr "अनामक"
 
+#: ui/editdirectoryservicedialog.cpp:133
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use an anonymous LDAP server that does not require authentication."
+msgstr "अनामिकं LDAP सर्वरं उपयुज्यताम् यस्य प्रमाणीकरणस्य आवश्यकता नास्ति ।"
+
 #: ui/editdirectoryservicedialog.cpp:139
 #, kde-format
 msgid "Authenticate via Active Directory"
@@ -1139,24 +1546,56 @@ msgstr "सक्रियनिर्देशिकाद्वारा प�
 #: ui/editdirectoryservicedialog.cpp:141
 #, kde-format
 msgid "Authenticate via Active Directory (requires GnuPG 2.2.28 or later)"
+msgstr "सक्रियनिर्देशिकाद्वारा प्रमाणीकरणं कुर्वन्तु (GnuPG 2.2.28 अथवा ततः परं आवश्यकम्)"
+
+#: ui/editdirectoryservicedialog.cpp:144
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"On Windows, authenticate to the LDAP server using the Active Directory with "
+"the current user."
 msgstr ""
-"सक्रियनिर्देशिकाद्वारा प्रमाणीकरणं कुर्वन्तु (GnuPG 2.2.28 अथवा ततः परं "
-"आवश्यकम्)"
+"विण्डोज इत्यत्र वर्तमानप्रयोक्त्रेण सह Active Directory इत्यस्य उपयोगेन LDAP सर्वरं प्रति "
+"प्रमाणीकरणं कुर्वन्तु ।"
 
 #: ui/editdirectoryservicedialog.cpp:149
 #, kde-format
 msgid "Authenticate with user and password"
 msgstr "उपयोक्त्रेण गुप्तशब्देन च प्रमाणीकरणं कुर्वन्तु"
 
+#: ui/editdirectoryservicedialog.cpp:150
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Authenticate to the LDAP server with your LDAP credentials."
+msgstr "स्वस्य LDAP प्रमाणपत्रैः सह LDAP सर्वरं प्रति प्रमाणीकरणं कुर्वन्तु ।"
+
 #: ui/editdirectoryservicedialog.cpp:160
 #, kde-format
 msgid "User:"
 msgstr "उपयोक्ता : १."
 
+#: ui/editdirectoryservicedialog.cpp:161
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Enter your LDAP user resp. Bind DN for authenticating to the LDAP server."
+msgstr "स्वस्य LDAP उपयोक्तृं resp. LDAP सर्वरं प्रति प्रमाणीकरणार्थं DN बन्धयन्तु ।"
+
 #: ui/editdirectoryservicedialog.cpp:165
 #, kde-format
 msgid "Password:"
 msgstr "समाभाष्:"
+
+#: ui/editdirectoryservicedialog.cpp:167
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Enter your password for authenticating to the LDAP server.<nl/><warning>The "
+"password will be saved in the clear in a configuration file in your home "
+"directory.</warning>"
+msgstr ""
+"LDAP सर्वरे प्रमाणीकरणार्थं स्वस्य गुप्तशब्दं प्रविशतु।<nl/><warning>गुप्तशब्दः भवतः "
+"गृहनिर्देशिकायां विन्याससञ्चिकायां clear इत्यत्र रक्षितः भविष्यति।</warning>"
 
 #: ui/editdirectoryservicedialog.cpp:177
 #, kde-format
@@ -1173,20 +1612,61 @@ msgstr "संयोजनसुरक्षा (GnuPG 2.2.28 अथवा त�
 msgid "Use default connection (probably not TLS secured)"
 msgstr "पूर्वनिर्धारितसंयोजनस्य उपयोगं कुर्वन्तु (सम्भवतः TLS सुरक्षितं न)"
 
+#: ui/editdirectoryservicedialog.cpp:186
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use GnuPG's default to connect to the LDAP server. By default, GnuPG 2.3 and "
+"earlier use a plain, not TLS secured connection. <b>(Not recommended)</b>"
+msgstr ""
+"LDAP सर्वरेण सह सम्बद्धं कर्तुं GnuPG इत्यस्य पूर्वनिर्धारितं उपयोगं कुर्वन्तु । पूर्वनिर्धारितरूपेण "
+"GnuPG 2.3 पूर्ववर्ती च साधारणं, न तु TLS सुरक्षितं संयोजनं उपयुञ्जते । <b>(न अनुशंसितम्) २.</"
+"b>"
+
 #: ui/editdirectoryservicedialog.cpp:194
 #, kde-format
 msgid "Do not use a TLS secured connection"
 msgstr "TLS सुरक्षितं संयोजनं न उपयुञ्जीत"
+
+#: ui/editdirectoryservicedialog.cpp:196
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use a plain, not TLS secured connection to connect to the LDAP server. "
+"<b>(Not recommended)</b>"
+msgstr ""
+"LDAP सर्वरेण सह सम्बद्धं कर्तुं साधारणं, न तु TLS सुरक्षितं संयोजनं उपयुज्यताम् । <b>(न "
+"अनुशंसितम्) २.</b>"
 
 #: ui/editdirectoryservicedialog.cpp:202
 #, kde-format
 msgid "Use TLS secured connection"
 msgstr "TLS सुरक्षितसंयोजनस्य उपयोगं कुर्वन्तु"
 
+#: ui/editdirectoryservicedialog.cpp:204
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use a standard TLS secured connection (initiated with STARTTLS) to connect "
+"to the LDAP server. <b>(Recommended)</b>"
+msgstr ""
+"LDAP सर्वरेण सह संयोजयितुं मानक TLS सुरक्षितसंयोजनस्य (STARTTLS इत्यनेन आरब्धस्य) उपयोगं "
+"कुर्वन्तु । <b>(प्रस्तावित)</b>"
+
 #: ui/editdirectoryservicedialog.cpp:211
 #, kde-format
 msgid "Tunnel LDAP through a TLS connection"
 msgstr "TLS संयोजनद्वारा LDAP सुरङ्गं कुर्वन्तु"
+
+#: ui/editdirectoryservicedialog.cpp:213
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use a TLS secured connection through which the connection to the LDAP server "
+"is tunneled. <b>(Not recommended)</b>"
+msgstr ""
+"TLS सुरक्षितं संयोजनं उपयुज्यताम् यस्य माध्यमेन LDAP सर्वरेण सह संयोजनं सुरङ्गं भवति । <b>(न "
+"अनुशंसितम्) २.</b>"
 
 #: ui/editdirectoryservicedialog.cpp:222
 #, kde-format
@@ -1198,10 +1678,44 @@ msgstr "उन्नत सेटिंग्स्"
 msgid "Base DN:"
 msgstr "आधार डी एन : १."
 
+#: ui/editdirectoryservicedialog.cpp:229
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<b>(Optional, can usually be left empty)</b> Enter the base DN for this LDAP "
+"server to limit searches to only that subtree of the directory."
+msgstr ""
+"<b>(वैकल्पिकं, सामान्यतया रिक्तं त्यक्तुं शक्यते)</b> अन्वेषणं केवलं निर्देशिकायाः तस्मिन् उपवृक्षे "
+"सीमितं कर्तुं अस्य LDAP सर्वरस्य आधार DN प्रविष्टं कुर्वन्तु ।"
+
 #: ui/editdirectoryservicedialog.cpp:235
 #, kde-format
 msgid "Additional flags:"
 msgstr "अतिरिक्तध्वजाः : १."
+
+#: ui/editdirectoryservicedialog.cpp:237
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Here you can enter additional flags that are not yet (or no longer) "
+"supported by Kleopatra. For example, older versions of GnuPG use "
+"<code>ldaps</code> to request a TLS secured connection."
+msgstr ""
+"अत्र भवान् अतिरिक्तध्वजान् प्रविष्टुं शक्नोति ये अद्यापि (अथवा न पुनः) Kleopatra द्वारा "
+"समर्थिताः सन्ति । यथा, GnuPG इत्यस्य प्राचीनसंस्करणाः TLS सुरक्षितसम्बद्धस्य अनुरोधाय "
+"<code>ldaps</code> उपयोगं कुर्वन्ति ।"
+
+#: ui/editdirectoryservicedialog.cpp:410
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Directory Service"
+msgstr "निर्देशिका सेवा सम्पादयतु"
+
+#: ui/filenamerequester.cpp:81
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open file dialog"
+msgstr "सञ्चिकासंवादं उद्घाटयन्तु"
 
 #: ui/filenamerequester.cpp:82
 #, kde-format
@@ -1217,6 +1731,26 @@ msgstr "त्रुटिः - मूल्यं प्रविशतु ।"
 #, kde-format
 msgid "Error: Enter a value in the correct format."
 msgstr "त्रुटिः : समीचीनस्वरूपेण मूल्यं प्रविशन्तु ।"
+
+#: ui/formtextinput.cpp:92
+#, kde-format
+msgctxt "@label label text (required)"
+msgid "%1 (required)"
+msgstr "%1 (आवश्यकम्) २."
+
+#: ui/formtextinput.cpp:126
+#, kde-format
+msgctxt "@info"
+msgid "Error: %1"
+msgstr "त्रुटिः %1"
+
+#: ui/formtextinput.cpp:230
+#, kde-format
+msgctxt ""
+"text for screen readers to indicate that the associated object, such as a "
+"form field, has an error"
+msgid "invalid entry"
+msgstr "अमान्यप्रविष्टिः"
 
 #: ui/keyapprovaldialog.cpp:76
 #, kde-kuit-format
@@ -1248,6 +1782,54 @@ msgstr "सदा पृच्छतु"
 msgid "Ask Whenever Encryption is Possible"
 msgstr "यदा कदापि एन्क्रिप्शनं सम्भवति तदा पृच्छन्तु"
 
+#: ui/keyapprovaldialog.cpp:102
+#, kde-format
+msgctxt "@title:window"
+msgid "Encryption Key Approval"
+msgstr "एन्क्रिप्शन कुञ्जी अनुमोदनम्"
+
+#: ui/keyapprovaldialog.cpp:118
+#, kde-format
+msgctxt "@label:textbox"
+msgid "The following keys will be used for encryption:"
+msgstr "एन्क्रिप्शनार्थं निम्नलिखितकुञ्जीनां उपयोगः भविष्यति ।"
+
+#: ui/keyapprovaldialog.cpp:134
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Your keys:"
+msgstr "भवतः कीलानि : १."
+
+#: ui/keyapprovaldialog.cpp:146
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Recipient:"
+msgstr "प्राप्तकर्ता : १."
+
+#: ui/keyapprovaldialog.cpp:151
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Encryption keys:"
+msgstr "एन्क्रिप्शन कुञ्जिकाः : १."
+
+#: ui/keyapprovaldialog.cpp:158
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Encryption preference:"
+msgstr "एन्क्रिप्शन प्राधान्यम् : १."
+
+#: ui/keyrequester.cpp:89
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear"
+msgstr "स्पष्टः"
+
+#: ui/keyrequester.cpp:92
+#, kde-format
+msgctxt "@action:button"
+msgid "Change..."
+msgstr "परिवर्तय..."
+
 #: ui/keyrequester.cpp:212 ui/keyselectiondialog.cpp:218
 #, kde-kuit-format
 msgid "<placeholder>unknown</placeholder>"
@@ -1256,23 +1838,28 @@ msgstr "<स्थानधारक>अज्ञात</स्थानधा�
 #: ui/keyrequester.cpp:235 ui/keyselectiondialog.cpp:675
 #, kde-format
 msgid ""
-"<qt><p>An error occurred while fetching the keys from the "
-"backend:</p><p><b>%1</b></p></qt>"
+"<qt><p>An error occurred while fetching the keys from the backend:</p><p><b>"
+"%1</b></p></qt>"
 msgstr "<qt><p>पृष्ठभागात् कीलानि आनयन् त्रुटिः अभवत्:</p><p> <b>%1</b></p></qt>"
+
+#: ui/keyrequester.cpp:240 ui/keyrequester.cpp:273 ui/keyrequester.cpp:295
+#: ui/keyselectiondialog.cpp:644 ui/keyselectiondialog.cpp:680
+#, kde-format
+msgctxt "@title:window"
+msgid "Key Listing Failed"
+msgstr "कीलसूची विफलम्"
 
 #: ui/keyrequester.cpp:271
 #, kde-format
-msgid "The OpenPGP backend does not support listing keys. Check your installation."
-msgstr ""
-"OpenPGP पृष्ठभागः सूचीकरणकुञ्जीनां समर्थनं न करोति । स्वस्य संस्थापनं "
-"पश्यन्तु।"
+msgid ""
+"The OpenPGP backend does not support listing keys. Check your installation."
+msgstr "OpenPGP पृष्ठभागः सूचीकरणकुञ्जीनां समर्थनं न करोति । स्वस्य संस्थापनं पश्यन्तु।"
 
 #: ui/keyrequester.cpp:293
 #, kde-format
-msgid "The S/MIME backend does not support listing keys. Check your installation."
-msgstr ""
-"S/MIME पृष्ठभागः सूचीकरणकुञ्जीनां समर्थनं न करोति । स्वस्य संस्थापनं "
-"पश्यन्तु।"
+msgid ""
+"The S/MIME backend does not support listing keys. Check your installation."
+msgstr "S/MIME पृष्ठभागः सूचीकरणकुञ्जीनां समर्थनं न करोति । स्वस्य संस्थापनं पश्यन्तु।"
 
 #: ui/keyrequester.cpp:413
 #, kde-format
@@ -1303,6 +1890,24 @@ msgstr "कीलचयनम्"
 #, kde-format
 msgid "Please select an (OpenPGP or S/MIME) key to use."
 msgstr "कृपया उपयोगाय (OpenPGP अथवा S/MIME) कुञ्जी चिनोतु ।"
+
+#: ui/keyselectioncombo.cpp:87 ui/useridselectioncombo.cpp:93
+#, kde-format
+msgctxt "Name <email>"
+msgid "%1 <%2>"
+msgstr "%1 <%2>"
+
+#: ui/keyselectioncombo.cpp:178 ui/useridselectioncombo.cpp:175
+#, kde-format
+msgctxt "Name <email> (validity, created: date)"
+msgid "%1 (%2, created: %3)"
+msgstr "%1 (%2, निर्मितम्: %3)"
+
+#: ui/keyselectioncombo.cpp:184 ui/useridselectioncombo.cpp:181
+#, kde-format
+msgctxt "Name <email> (validity, type, created: date)"
+msgid "%1 (%2, %3, created: %4)"
+msgstr "%1 (%2, %3, निर्मितम्: %4)"
 
 #: ui/keyselectioncombo.cpp:923 ui/useridselectioncombo.cpp:713
 #, kde-format
@@ -1397,26 +2002,84 @@ msgstr "तः वैधम्"
 msgid "Valid until"
 msgstr "यावत् वैधम्"
 
+#: ui/keyselectiondialog.cpp:275
+#, kde-format
+msgctxt "Key fingerprint"
+msgid "Fingerprint"
+msgstr "अङ्गुलिचिह्न"
+
+#: ui/keyselectiondialog.cpp:277
+#, kde-format
+msgctxt "Key issuer"
+msgid "Issuer"
+msgstr "जारीकर्ता"
+
+#: ui/keyselectiondialog.cpp:279
+#, kde-format
+msgctxt "Key status"
+msgid "Status"
+msgstr "स्थितिः"
+
+#: ui/keyselectiondialog.cpp:281
+#, kde-format
+msgctxt "Compliance of key"
+msgid "Compliance"
+msgstr "अनुबद्ध"
+
+#: ui/keyselectiondialog.cpp:421
+#, kde-format
+msgctxt "@action:button"
+msgid "Search for &External Certificates"
+msgstr "&External Certificates इत्यस्य अन्वेषणं कुर्वन्तु"
+
+#: ui/keyselectiondialog.cpp:435
+#, kde-format
+msgctxt "@label:textbox"
+msgid "&Search for:"
+msgstr "&अन्वेषणं कुर्वन्तु:"
+
+#: ui/keyselectiondialog.cpp:460
+#, kde-format
+msgctxt "@option:check"
+msgid "&Remember choice"
+msgstr "&चयनं स्मर्यताम्"
+
 #: ui/keyselectiondialog.cpp:463
 #, kde-format
 msgid ""
 "<qt><p>If you check this box your choice will be stored and you will not be "
 "asked again.</p></qt>"
 msgstr ""
-"<qt><p>यदि भवान् एतत् पेटीम् चिह्नयति तर्हि भवतः विकल्पः संगृहीतः भविष्यति, "
-"पुनः भवान् न पृष्टः भविष्यति ।</p></qt>"
+"<qt><p>यदि भवान् एतत् पेटीम् चिह्नयति तर्हि भवतः विकल्पः संगृहीतः भविष्यति, पुनः भवान् न "
+"पृष्टः भविष्यति ।</p></qt>"
+
+#: ui/keyselectiondialog.cpp:477
+#, kde-format
+msgctxt "@action:button"
+msgid "&Reread Keys"
+msgstr "&पुनः पठन्तु कुञ्जी"
+
+#: ui/keyselectiondialog.cpp:482
+#, kde-format
+msgctxt "@action:button"
+msgid "&Start Certificate Manager"
+msgstr "&प्रमाणपत्र प्रबन्धकं आरभत"
 
 #: ui/keyselectiondialog.cpp:642
 #, kde-format
 msgid "No backends found for listing keys. Check your installation."
-msgstr ""
-"कुञ्जीनां सूचीकरणार्थं कोऽपि पृष्ठभागः न प्राप्यते । स्वस्य संस्थापनं "
-"पश्यन्तु।"
+msgstr "कुञ्जीनां सूचीकरणार्थं कोऽपि पृष्ठभागः न प्राप्यते । स्वस्य संस्थापनं पश्यन्तु।"
 
 #: ui/keyselectiondialog.cpp:660
 #, kde-format
 msgid "Could not start certificate manager; please check your installation."
 msgstr "प्रमाणपत्रप्रबन्धकं आरभुं न शक्तवान्; कृपया स्वस्य संस्थापनं पश्यन्तु।"
+
+#: ui/keyselectiondialog.cpp:662
+#, kde-format
+msgctxt "@title:window"
+msgid "Certificate Manager Error"
+msgstr "प्रमाणपत्र प्रबन्धक त्रुटि"
 
 #: ui/keyselectiondialog.cpp:719
 #, kde-format
@@ -1437,11 +2100,11 @@ msgid_plural ""
 "<qt>%1 backends returned truncated output.<p>Not all available keys are "
 "shown</p></qt>"
 msgstr[0] ""
-"<qt>एकः पृष्ठभागः ट्रंकटेड् आउटपुट् प्रत्यागच्छत् ।<p> सर्वाणि उपलब्धानि "
-"कीलानि न दर्शितानि</p></qt>"
+"<qt>एकः पृष्ठभागः ट्रंकटेड् आउटपुट् प्रत्यागच्छत् ।<p> सर्वाणि उपलब्धानि कीलानि न "
+"दर्शितानि</p></qt>"
 msgstr[1] ""
-"<qt>%1 पृष्ठभागाः च्छिन्ननिर्गमं प्रत्यागतवन्तः ।<p> सर्वाणि उपलब्धानि "
-"कीलानि न दर्शितानि</p></qt>"
+"<qt>%1 पृष्ठभागाः च्छिन्ननिर्गमं प्रत्यागतवन्तः ।<p> सर्वाणि उपलब्धानि कीलानि न "
+"दर्शितानि</p></qt>"
 
 #: ui/keyselectiondialog.cpp:756
 #, kde-format
@@ -1453,10 +2116,40 @@ msgstr "की सूची परिणाम"
 msgid "Recheck Key"
 msgstr "कील पुनः जाँच करें"
 
+#: ui/messagebox.cpp:69
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Audit Log"
+msgstr "Audit Log दर्शयतु"
+
+#: ui/messagebox.cpp:91
+#, kde-format
+msgctxt "@title:window"
+msgid "Information"
+msgstr "सूचना"
+
+#: ui/messagebox.cpp:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Error"
+msgstr "त्रुटि"
+
+#: ui/nameandemailwidget.cpp:59 ui/nameandemailwidget.cpp:159
+#, kde-format
+msgctxt "@label"
+msgid "Name"
+msgstr "नामः"
+
 #: ui/nameandemailwidget.cpp:60
 #, kde-format
 msgid "Enter a name."
 msgstr "एकं नाम प्रविशतु।"
+
+#: ui/nameandemailwidget.cpp:75 ui/nameandemailwidget.cpp:213
+#, kde-format
+msgctxt "@label"
+msgid "Email address"
+msgstr "ईमेल पता"
 
 #: ui/nameandemailwidget.cpp:76
 #, kde-format
@@ -1468,14 +2161,30 @@ msgstr "ईमेल-सङ्केतं प्रविशतु ।"
 msgid "The name must not include <, >, and @."
 msgstr "नाम्नि <, >, @ च न समाविष्टानि भवेयुः ।"
 
+#: ui/nameandemailwidget.cpp:95
+#, kde-format
+msgctxt "text for screen readers"
+msgid ""
+"The name must not include less-than sign, greater-than sign, and at sign."
+msgstr "नामे चिह्नात् न्यूनः, चिह्नात् अधिकः, चिह्ने च न भवितव्यम् ।"
+
 #: ui/nameandemailwidget.cpp:98
 #, kde-format
 msgid ""
-"The name must be in the format required by your organization and it must "
-"not include <, >, and @."
+"The name must be in the format required by your organization and it must not "
+"include <, >, and @."
 msgstr ""
-"नाम भवतः संस्थायाः अपेक्षितरूपेण भवितुमर्हति तथा च तस्मिन् <, >, @ च न "
-"समाविष्टाः भवेयुः ।"
+"नाम भवतः संस्थायाः अपेक्षितरूपेण भवितुमर्हति तथा च तस्मिन् <, >, @ च न समाविष्टाः भवेयुः ।"
+
+#: ui/nameandemailwidget.cpp:101
+#, kde-format
+msgctxt "text for screen readers"
+msgid ""
+"The name must be in the format required by your organization and it must not "
+"include less-than sign, greater-than sign, and at sign."
+msgstr ""
+"नाम भवतः संस्थायाः अपेक्षितरूपेण भवितुमर्हति तथा च तस्मिन् चिह्नात् न्यूनः, चिह्नात् अधिकः, "
+"चिह्ने च न समाविष्टः भवेत् ।"
 
 #: ui/nameandemailwidget.cpp:110
 #, kde-format
@@ -1484,8 +2193,83 @@ msgstr "समीचीनरूपेण ईमेल-सङ्केतं प
 
 #: ui/nameandemailwidget.cpp:113
 #, kde-format
-msgid "Enter an email address in the correct format required by your organization."
+msgid ""
+"Enter an email address in the correct format required by your organization."
 msgstr "भवतः संस्थायाः अपेक्षिते समीचीनरूपेण ईमेल-सङ्केतं प्रविशन्तु ।"
+
+#: ui/newkeyapprovaldialog.cpp:142
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Details"
+msgstr "विवरणं दर्शयतु"
+
+#: ui/newkeyapprovaldialog.cpp:184
+#, kde-format
+msgctxt "@action:button"
+msgid "Show Matching Keys"
+msgstr "मेल कुञ्जी दर्शयतु"
+
+#: ui/newkeyapprovaldialog.cpp:185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show keys matching the email address"
+msgstr "ईमेल-सङ्केतेन सह मेलनं कुर्वन्तः कीलानि दर्शयन्तु"
+
+#: ui/newkeyapprovaldialog.cpp:188
+#, kde-format
+msgctxt "@action:button short for 'Show all keys'"
+msgid "Show All"
+msgstr "सर्वाणि दर्शयतु"
+
+#: ui/newkeyapprovaldialog.cpp:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show all keys"
+msgstr "सर्वाणि कीलानि दर्शयतु"
+
+#: ui/newkeyapprovaldialog.cpp:272
+#, kde-format
+msgctxt ""
+"@info:tooltip for a 'Generate new key pair' action in a combobox when a user "
+"does not yet have an OpenPGP or S/MIME key."
+msgid ""
+"Generate a new key using your email address.<br/><br/>The key is necessary "
+"to decrypt and sign emails. You will be asked for a passphrase to protect "
+"this key and the protected key will be stored in your home directory."
+msgstr ""
+"स्वस्य ईमेल-सङ्केतं उपयुज्य नूतनं कीलं जनयन्तु ।<br/><br/> ईमेल-पत्राणां विगुप्तीकरणं हस्ताक्षरं च "
+"कर्तुं कुञ्जी आवश्यकी अस्ति । एतस्य कीलस्य रक्षणार्थं भवन्तः गुप्तवाक्यं याचयिष्यन्ति तथा च "
+"रक्षितं कीलं भवतः गृहनिर्देशिकायां संगृहीतं भविष्यति ।"
+
+#: ui/newkeyapprovaldialog.cpp:297
+#, kde-format
+msgctxt "@title:window"
+msgid "Security approval"
+msgstr "सुरक्षा अनुमोदनम्"
+
+#: ui/newkeyapprovaldialog.cpp:304
+#, kde-format
+msgctxt "@option:check"
+msgid "OpenPGP"
+msgstr "ओपनपीजीपी"
+
+#: ui/newkeyapprovaldialog.cpp:305
+#, kde-format
+msgctxt "@option:check"
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: ui/newkeyapprovaldialog.cpp:307
+#, kde-format
+msgctxt "@option:radio"
+msgid "OpenPGP"
+msgstr "ओपनपीजीपी"
+
+#: ui/newkeyapprovaldialog.cpp:308
+#, kde-format
+msgctxt "@option:radio"
+msgid "S/MIME"
+msgstr "S/MIME"
 
 #: ui/newkeyapprovaldialog.cpp:398
 #, kde-format
@@ -1497,6 +2281,18 @@ msgstr "'%1' कृते कुञ्जी जनयति..."
 msgid "This can take several minutes."
 msgstr "एतेन कतिपयानि निमेषाणि यावत् समयः भवितुं शक्नोति ।"
 
+#: ui/newkeyapprovaldialog.cpp:400
+#, kde-format
+msgctxt "@title:window"
+msgid "Key generation"
+msgstr "कीज जनरेशन"
+
+#: ui/newkeyapprovaldialog.cpp:439
+#, kde-format
+msgctxt "@title:window"
+msgid "Operation Failed"
+msgstr "संचालनं विफलम्"
+
 #: ui/newkeyapprovaldialog.cpp:554 ui/newkeyapprovaldialog.cpp:650
 #, kde-format
 msgid "Generate a new key pair"
@@ -1507,10 +2303,39 @@ msgstr "नूतनं कीलयुग्मं जनयन्तु"
 msgid "Do not sign this email"
 msgstr "अस्मिन् ईमेलपत्रे हस्ताक्षरं न कुर्वन्तु"
 
+#: ui/newkeyapprovaldialog.cpp:559
+#, kde-format
+msgctxt "@info:tooltip for not selecting a key for signing."
+msgid "The email will not be cryptographically signed."
+msgstr "ईमेल क्रिप्टोग्राफिकरूपेण हस्ताक्षरं न भविष्यति।"
+
+#: ui/newkeyapprovaldialog.cpp:577
+#, kde-format
+msgctxt "Caption for signing key selection"
+msgid "Confirm identity '%1' as:"
+msgstr "'%1' इति परिचयं पुष्टयन्तु यथा:"
+
 #: ui/newkeyapprovaldialog.cpp:654
 #, kde-format
 msgid "No key. Recipient will be unable to decrypt."
 msgstr "न कुञ्जी। प्राप्तकर्ता विगुप्तीकरणं कर्तुं असमर्थः भविष्यति।"
+
+#: ui/newkeyapprovaldialog.cpp:657
+#, kde-format
+msgctxt "@info:tooltip for No Key selected for a specific recipient."
+msgid ""
+"Do not select a key for this recipient.<br/><br/>The recipient will receive "
+"the encrypted email, but it can only be decrypted with the other keys "
+"selected in this dialog."
+msgstr ""
+"अस्य प्राप्तकर्तायाः कृते कीलं न चिनोतु ।<br/><br/> ग्राहकः एन्क्रिप्टेड् ईमेल प्राप्स्यति, "
+"परन्तु अस्मिन् संवादे चयनितैः अन्यैः कीलैः सह एव तस्य विगुप्तीकरणं कर्तुं शक्यते ।"
+
+#: ui/newkeyapprovaldialog.cpp:774
+#, kde-format
+msgctxt "Encrypt to self (email address):"
+msgid "Encrypt to self (%1):"
+msgstr "स्वयमेव (%1) एन्क्रिप्ट् कुर्वन्तु:"
 
 #: ui/newkeyapprovaldialog.cpp:791
 #, kde-format
@@ -1533,13 +2358,25 @@ msgid ""
 "Encrypts the secret key with an unrecoverable passphrase. You will be asked "
 "for the passphrase during key generation."
 msgstr ""
-"गुप्तकुंजीम् अपुनर्प्राप्तियुक्तेन गुप्तवाक्येन गुप्तीकरणं करोति । "
-"कीलजननस्य समये भवन्तः गुप्तवाक्यं पृष्टाः भविष्यन्ति ।"
+"गुप्तकुंजीम् अपुनर्प्राप्तियुक्तेन गुप्तवाक्येन गुप्तीकरणं करोति । कीलजननस्य समये भवन्तः गुप्तवाक्यं "
+"पृष्टाः भविष्यन्ति ।"
 
 #: ui/openpgpcertificatecreationdialog.cpp:97
 #, kde-format
 msgid "Advanced options"
 msgstr "उन्नतविकल्पाः"
+
+#: ui/openpgpcertificatecreationdialog.cpp:104
+#, kde-format
+msgctxt "The algorithm and strength of encryption key"
+msgid "Key Material"
+msgstr "मुख्य सामग्री"
+
+#: ui/openpgpcertificatecreationdialog.cpp:148
+#, kde-format
+msgctxt "title:window"
+msgid "Create OpenPGP Certificate"
+msgstr "OpenPGP प्रमाणपत्रं रचयन्तु"
 
 #: ui/openpgpcertificatecreationdialog.cpp:156
 #, kde-format
@@ -1561,6 +2398,45 @@ msgstr "नाम वा ईमेल-सङ्केतं वा प्रव�
 msgid "There is a problem."
 msgstr "समस्या अस्ति।"
 
+#: ui/readerportselection.cpp:58
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Default reader"
+msgstr "पूर्वनिर्धारित पाठकः"
+
+#: ui/readerportselection.cpp:73
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"<para>Select the smart card reader that GnuPG shall use.<list><item>The "
+"first item will make GnuPG use the first reader that is found.</"
+"item><item>The last item allows you to enter a custom reader ID or reader "
+"port number.</item><item>All other items represent readers that were found "
+"by GnuPG.</item></list></para>"
+msgstr ""
+"<para>स्मार्टकार्डरीडरं चिनोतु यस्य उपयोगं GnuPG करिष्यति।<list><item>प्रथमः द्रव्यः "
+"GnuPG प्रथमपाठकस्य उपयोगं करिष्यति यत् लभ्यते।</item><item>अन्तिमवस्तु भवन्तं कस्टम् रीडरं "
+"प्रविष्टुं शक्नोति ID अथवा रीडर पोर्ट् सङ्ख्या।</item><item>अन्ये सर्वे वस्तूनि GnuPG द्वारा "
+"प्राप्तान् पाठकान् प्रतिनिधियन्ति।</item></list></para>"
+
+#: ui/readerportselection.cpp:114
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Custom reader ID or port number"
+msgstr "कस्टम् रीडर आईडी अथवा पोर्ट् सङ्ख्या"
+
+#: ui/treeview.cpp:69 ui/treewidget.cpp:172
+#, kde-format
+msgctxt "@title:menu"
+msgid "View Columns"
+msgstr "स्तम्भान् पश्यन्तु"
+
+#: ui/useridselectioncombo.cpp:542
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show certificate list"
+msgstr "प्रमाणपत्रसूचीं दर्शयतु"
+
 #: ui/useridselectioncombo.cpp:543
 #, kde-format
 msgid "Show certificate list"
@@ -1575,6 +2451,54 @@ msgstr "VS-NfD अनुरूप"
 #, kde-format
 msgid "Not VS-NfD compliant"
 msgstr "न VS-NfD अनुरूपम्"
+
+#: utils/compliance.cpp:196
+#, kde-format
+msgctxt "@info append beta-marker to compliance"
+msgid "%1 (beta)"
+msgstr "%1 (बीटा) ९."
+
+#: utils/expiration.cpp:102
+#, kde-format
+msgctxt "@label Valid until (<a date>):"
+msgid "Valid until (%1):"
+msgstr "(%1) पर्यन्तं वैधम् ।"
+
+#: utils/expiration.cpp:105
+#, kde-format
+msgctxt "@label ... (between <a date> and <another date>):"
+msgid "Valid until (between %1 and %2):"
+msgstr "यावत् (%1 तः %2 पर्यन्तं) वैधम् ।"
+
+#: utils/expiration.cpp:116
+#, kde-format
+msgctxt "@info"
+msgid "The date cannot be changed."
+msgstr "तिथिं परिवर्तयितुं न शक्यते।"
+
+#: utils/expiration.cpp:119 utils/expiration.cpp:125
+#, kde-format
+msgctxt "@info ... between <a date> and <another date>."
+msgid "Enter a date between %1 and %2."
+msgstr "%1 तः %2 पर्यन्तं तिथिं प्रविशन्तु ।"
+
+#: utils/expiration.cpp:147
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Three years from now"
+msgstr "इतः परं वर्षत्रयम्"
+
+#: utils/expiration.cpp:148
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Two years from now"
+msgstr "अधुना वर्षद्वयानन्तरं"
+
+#: utils/expiration.cpp:149
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "One year from now"
+msgstr "एकवर्षात् परं"
 
 #: utils/formatting.cpp:330
 #, kde-format
@@ -1704,6 +2628,18 @@ msgstr "नहि"
 msgid "Stored"
 msgstr "संगृहीतम्"
 
+#: utils/formatting.cpp:514 utils/formatting.cpp:544
+#, kde-format
+msgctxt "stored..."
+msgid "on SmartCard with serial no. %1"
+msgstr "on SmartCard with serial no. %1"
+
+#: utils/formatting.cpp:516 utils/formatting.cpp:546
+#, kde-format
+msgctxt "stored..."
+msgid "on this computer"
+msgstr "अस्मिन् सङ्गणके"
+
 #: utils/formatting.cpp:522
 #, kde-format
 msgid "Subkey"
@@ -1729,25 +2665,111 @@ msgstr "केचन कीलानि प्रमाणीकृतानि 
 msgid "The validity of the keys cannot be checked at the moment."
 msgstr "कीलानां वैधता अस्मिन् क्षणे परीक्षितुं न शक्यते ।"
 
+#: utils/formatting.cpp:599
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This group does not contain any keys."
+msgstr "अस्मिन् समूहे किमपि कीलं नास्ति ।"
+
+#: utils/formatting.cpp:605
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Some of the certificates in this group cannot be used for encryption. Using "
+"this group can lead to unexpected results."
+msgstr ""
+"अस्मिन् समूहे केचन प्रमाणपत्राणि गोपनार्थं उपयोक्तुं न शक्यन्ते । अस्य समूहस्य उपयोगेन "
+"अप्रत्याशितफलं प्राप्तुं शक्यते ।"
+
 #: utils/formatting.cpp:625
 #, kde-format
 msgid "Keys:"
 msgstr "कीलम् : १."
+
+#: utils/formatting.cpp:634
+#, kde-format
+msgctxt "this follows a list of keys"
+msgid "and 1 more key"
+msgid_plural "and %1 more keys"
+msgstr[0] "तथा १ अधिकं कीलम्"
+msgstr[1] "तथा %1 अधिकानि कीलानि"
+
+#: utils/formatting.cpp:667
+#, kde-format
+msgctxt ""
+"date format suitable for screen readers; d: day as a number without a "
+"leading zero, MMMM: localized month name, yyyy: year as a four digit number"
+msgid "MMMM d, yyyy"
+msgstr "म्म्म्म् द, य्यय्य्"
+
+#: utils/formatting.cpp:713 utils/formatting.cpp:748
+#, kde-format
+msgctxt "@info the expiration date of the key is unknown"
+msgid "unknown"
+msgstr "अज्ञात"
 
 #: utils/formatting.cpp:755 utils/formatting.cpp:764
 #, kde-format
 msgid "unlimited"
 msgstr "असीमित"
 
+#: utils/formatting.cpp:817
+#, kde-format
+msgctxt "X.509/CMS encryption standard"
+msgid "S/MIME"
+msgstr "S/MIME"
+
 #: utils/formatting.cpp:820
 #, kde-format
 msgid "OpenPGP"
 msgstr "ओपनपीजीपी"
 
+#: utils/formatting.cpp:822
+#, kde-format
+msgctxt "Unknown encryption protocol"
+msgid "Unknown"
+msgstr "अज्ञात"
+
+#: utils/formatting.cpp:838
+#, kde-format
+msgctxt "a group of keys/certificates"
+msgid "Group"
+msgstr "समूह"
+
+#: utils/formatting.cpp:854 utils/formatting.cpp:899
+#, kde-format
+msgctxt "unknown trust level"
+msgid "unknown"
+msgstr "अज्ञात"
+
 #: utils/formatting.cpp:856 utils/formatting.cpp:903
 #, kde-format
 msgid "untrusted"
 msgstr "अविश्वासः"
+
+#: utils/formatting.cpp:858 utils/formatting.cpp:905
+#, kde-format
+msgctxt "marginal trust"
+msgid "marginal"
+msgstr "सीमान्त"
+
+#: utils/formatting.cpp:860 utils/formatting.cpp:907
+#, kde-format
+msgctxt "full trust"
+msgid "full"
+msgstr "पूर्ण"
+
+#: utils/formatting.cpp:862 utils/formatting.cpp:909
+#, kde-format
+msgctxt "ultimate trust"
+msgid "ultimate"
+msgstr "अंतिम"
+
+#: utils/formatting.cpp:864 utils/formatting.cpp:901
+#, kde-format
+msgctxt "undefined trust"
+msgid "undefined"
+msgstr "अनिर्दिष्टः"
 
 #: utils/formatting.cpp:875 utils/formatting.cpp:1335 utils/formatting.cpp:1360
 #, kde-format
@@ -1772,6 +2794,12 @@ msgstr "परीत"
 msgid "invalid"
 msgstr "अप्रतिषेध"
 
+#: utils/formatting.cpp:886
+#, kde-format
+msgctxt "as in 'this subkey is ok'"
+msgid "OK"
+msgstr "अस्तु"
+
 #: utils/formatting.cpp:925
 #, kde-format
 msgid "valid"
@@ -1786,6 +2814,12 @@ msgstr "class %1"
 #, kde-format
 msgid "certificate expired"
 msgstr "प्रमाणपत्रस्य अवधिः समाप्तः"
+
+#: utils/formatting.cpp:941
+#, kde-format
+msgctxt "fake/invalid signature"
+msgid "bad"
+msgstr "असमीचीनः"
 
 #: utils/formatting.cpp:947
 #, kde-format
@@ -1806,6 +2840,12 @@ msgstr "कील निरस्त"
 #, kde-format
 msgid "key expired"
 msgstr "कीलस्य अवधिः समाप्तः"
+
+#: utils/formatting.cpp:1009
+#, kde-format
+msgctxt "name, email, key id"
+msgid "%1 %2 (%3)"
+msgstr "%1 %2 (%3) २."
 
 #: utils/formatting.cpp:1067
 #, kde-format
@@ -1870,9 +2910,7 @@ msgstr "एतत् प्रमाणपत्रं आयाते त्र
 #: utils/formatting.cpp:1126
 #, kde-format
 msgid "This certificate was new to your keystore. The secret key is available."
-msgstr ""
-"एतत् प्रमाणपत्रं भवतः कीलभण्डारस्य कृते नूतनम् आसीत् । गुप्तकुंजी उपलब्धा "
-"अस्ति।"
+msgstr "एतत् प्रमाणपत्रं भवतः कीलभण्डारस्य कृते नूतनम् आसीत् । गुप्तकुंजी उपलब्धा अस्ति।"
 
 #: utils/formatting.cpp:1127
 #, kde-format
@@ -1897,9 +2935,7 @@ msgstr "आयातेन अस्मिन् प्रमाणपत्र�
 #: utils/formatting.cpp:1141
 #, kde-format
 msgid "The import contained no new data for this certificate. It is unchanged."
-msgstr ""
-"आयाते अस्य प्रमाणपत्रस्य कृते कोऽपि नूतनः दत्तांशः नासीत् । अपरिवर्तितम् "
-"अस्ति।"
+msgstr "आयाते अस्य प्रमाणपत्रस्य कृते कोऽपि नूतनः दत्तांशः नासीत् । अपरिवर्तितम् अस्ति।"
 
 #: utils/formatting.cpp:1157
 #, kde-format
@@ -1920,6 +2956,49 @@ msgstr "एन्क्रिप्ट् कुर्वन्तु"
 #, kde-format
 msgid "Authenticate"
 msgstr "प्रमाणीकरणं कुर्वन्तु"
+
+#: utils/formatting.cpp:1169
+#, kde-format
+msgctxt ""
+"Means 'Additional Decryption Subkey'; Don't try translating that, though."
+msgid "ADSK"
+msgstr "एडीएससी"
+
+#: utils/formatting.cpp:1177
+#, kde-format
+msgctxt "name <email> (validity, protocol, creation date)"
+msgid "%1 (%2, %3, created: %4)"
+msgstr "%1 (%2, %3, निर्मितम्: %4)"
+
+#: utils/formatting.cpp:1188
+#, kde-format
+msgctxt "(validity, protocol, creation date)"
+msgid "(%1, %2, created: %3)"
+msgstr "(%1, %2, निर्मितम्: %3)"
+
+#: utils/formatting.cpp:1200
+#, kde-format
+msgctxt "name of group of keys (n key(s), validity)"
+msgid "%2 (1 key, %3)"
+msgid_plural "%2 (%1 keys, %3)"
+msgstr[0] "%2 (१ कील, %3) २."
+msgstr[1] "%2 (%1 कीलानि, %3)"
+
+#: utils/formatting.cpp:1207
+#, kde-format
+msgctxt "name of group of keys (n key(s), validity, tag)"
+msgid "%2 (1 key, %3, tag)"
+msgid_plural "%2 (%1 keys, %3, tag)"
+msgstr[0] "%2 (1 कील, %3, टैग)"
+msgstr[1] "%2 (%1 कीलानि, %3, टैग्)"
+
+#: utils/formatting.cpp:1214
+#, kde-format
+msgctxt "name of group of keys (n key(s), validity, group ...)"
+msgid "%2 (1 key, %3, unknown origin)"
+msgid_plural "%2 (%1 keys, %3, unknown origin)"
+msgstr[0] "%2 (1 कील, %3, अज्ञातमूलम्)"
+msgstr[1] "%2 (%1 कीलानि, %3, अज्ञातमूलम्)"
 
 #: utils/formatting.cpp:1235
 #, kde-format
@@ -1953,6 +3032,60 @@ msgstr "एतत् प्रमाणपत्रम् अस्य प्र
 msgid "This group does not contain any keys."
 msgstr "अस्मिन् समूहे किमपि कीलं नास्ति ।"
 
+#: utils/formatting.cpp:1307 utils/formatting.cpp:1319
+#, kde-format
+msgctxt "@info the compliance of the key with certain requirements is unknown"
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: utils/formatting.cpp:1332
+#, kde-format
+msgctxt "As in 'this user ID is valid.'"
+msgid "certified"
+msgstr "प्रमाणित"
+
+#: utils/formatting.cpp:1347
+#, kde-format
+msgctxt "As in 'this user ID is not certified'"
+msgid "not certified"
+msgstr "प्रमाणितं न भवति"
+
+#: utils/formatting.cpp:1350
+#, kde-format
+msgctxt "The validity of this user ID has not been/could not be checked"
+msgid "not checked"
+msgstr "न परीक्षितम्"
+
+#: utils/formatting.cpp:1372
+#, kde-format
+msgctxt "As in all user IDs are valid."
+msgid "certified"
+msgstr "प्रमाणित"
+
+#: utils/formatting.cpp:1375
+#, kde-format
+msgctxt "As in not all user IDs are valid."
+msgid "not certified"
+msgstr "प्रमाणितं न भवति"
+
+#: utils/formatting.cpp:1378
+#, kde-format
+msgctxt "The validity of the user IDs has not been/could not be checked"
+msgid "not checked"
+msgstr "न परीक्षितम्"
+
+#: utils/formatting.cpp:1387
+#, kde-format
+msgctxt "As in all keys are valid."
+msgid "all certified"
+msgstr "सर्वे प्रमाणिताः"
+
+#: utils/formatting.cpp:1390
+#, kde-format
+msgctxt "As in not all keys are valid."
+msgid "not all certified"
+msgstr "न सर्वे प्रमाणिताः"
+
 #: utils/formatting.cpp:1434
 #, kde-format
 msgid "Keyserver"
@@ -1968,911 +3101,17 @@ msgstr "सञ्चिका आयातम्"
 msgid "Generated"
 msgstr "उत्पन्नः"
 
-#: utils/formatting.cpp:1554
+#: utils/formatting.cpp:1479
 #, kde-format
-msgid ""
-"The signature is valid but the trust in the certificate's validity is only "
-"marginal."
-msgstr ""
-"हस्ताक्षरं वैधं भवति परन्तु प्रमाणपत्रस्य वैधतायां विश्वासः केवलं सीमान्तः "
-"एव भवति।"
+msgctxt "Certifies this key as partially trusted introducer for 'domain name'."
+msgid "Certifies this key as partially trusted introducer for '%1'."
+msgstr "'%1' कृते आंशिकरूपेण विश्वसनीयप्रवर्तकत्वेन एतत् कुञ्जी प्रमाणयति ।"
 
-#: utils/formatting.cpp:1556
+#: utils/formatting.cpp:1483
 #, kde-format
-msgid "The signature is valid and the certificate's validity is fully trusted."
-msgstr "हस्ताक्षरं वैधं प्रमाणपत्रस्य वैधता च पूर्णतया विश्वसिति।"
-
-#: utils/formatting.cpp:1558
-#, kde-format
-msgid "The signature is valid and the certificate's validity is ultimately trusted."
-msgstr "हस्ताक्षरं वैधं भवति तथा च प्रमाणपत्रस्य वैधता अन्ते विश्वसिति।"
-
-#: utils/formatting.cpp:1560
-#, kde-format
-msgid ""
-"The signature is valid but the certificate's validity is <em>not "
-"trusted</em>."
-msgstr "हस्ताक्षरं वैधं किन्तु प्रमाणपत्रस्य वैधता <em>विश्वसनीयं नास्ति</em> ."
-
-#: utils/formatting.cpp:1562
-#, kde-format
-msgid "The signature is valid but the certificate's validity is unknown."
-msgstr "हस्ताक्षरं वैधं किन्तु प्रमाणपत्रस्य वैधता अज्ञाता अस्ति।"
-
-#: utils/formatting.cpp:1565
-#, kde-format
-msgid "The signature is valid but the certificate's validity is undefined."
-msgstr "हस्ताक्षरं वैधं किन्तु प्रमाणपत्रस्य वैधता अपरिभाषिता अस्ति ।"
-
-#: utils/formatting.cpp:1577
-#, kde-format
-msgid "Unknown certificate"
-msgstr "अज्ञात प्रमाण पत्र"
-
-#: utils/formatting.cpp:1598
-#, kde-format
-msgid "Signature created using an unknown certificate with fingerprint %1"
-msgstr "%1 अङ्गुलिचिह्नसहितं अज्ञातप्रमाणपत्रस्य उपयोगेन निर्मितं हस्ताक्षरम्"
-
-#: utils/formatting.cpp:1604
-#, kde-format
-msgid "Signature created with certificate: %1"
-msgstr "प्रमाणपत्रेण सह निर्मितः हस्ताक्षरः: %1"
-
-#: utils/formatting.cpp:1623
-#, kde-format
-msgid "Error: Signature not verified"
-msgstr "त्रुटिः : हस्ताक्षरं सत्यापितं न"
-
-#: utils/formatting.cpp:1625
-#, kde-format
-msgid "Good signature"
-msgstr "उत्तमहस्ताक्षरम्"
-
-#: utils/formatting.cpp:1627
-#, kde-format
-msgid "Signing certificate was revoked"
-msgstr "हस्ताक्षरप्रमाणपत्रं निरस्तं जातम्"
-
-#: utils/formatting.cpp:1629
-#, kde-format
-msgid "Signing certificate is expired"
-msgstr "हस्ताक्षरप्रमाणपत्रस्य अवधिः समाप्तः अस्ति"
-
-#: utils/formatting.cpp:1631
-#, kde-format
-msgid "Certificate is not available"
-msgstr "प्रमाणपत्रं न प्राप्यते"
-
-#: utils/formatting.cpp:1633
-#, kde-format
-msgid "Signature expired"
-msgstr "हस्ताक्षरस्य अवधिः समाप्तः"
-
-#: utils/formatting.cpp:1635
-#, kde-format
-msgid "CRL missing"
-msgstr "सीआरएल अनुपलब्ध"
-
-#: utils/formatting.cpp:1637
-#, kde-format
-msgid "CRL too old"
-msgstr "CRL अतीव पुरातनम्"
-
-#: utils/formatting.cpp:1639
-#, kde-format
-msgid "Bad policy"
-msgstr "दुर्नीतिः"
-
-#: utils/formatting.cpp:1641
-#, kde-format
-msgid "System error"
-msgstr "प्रणालीदोषः"
-
-#: utils/formatting.cpp:1643
-#, kde-format
-msgid "Bad signature"
-msgstr "दुष्टहस्ताक्षरम्"
-
-#: utils/formatting.cpp:1719 utils/formatting.cpp:1742
-#, kde-format
-msgid "The signature is invalid: %1"
-msgstr "हस्ताक्षरम् अमान्यम् अस्ति: %1"
-
-#: utils/formatting.cpp:1728
-#, kde-format
-msgid "You can search the certificate on a keyserver or import it from a file."
-msgstr ""
-"भवान् प्रमाणपत्रं कीसर्वर् इत्यत्र अन्वेष्टुं वा सञ्चिकातः आयातयितुं वा "
-"शक्नोति ।"
-
-#: utils/formatting.cpp:1737
-#, kde-format
-msgid "The used key is not certified by you or any trusted person."
-msgstr "प्रयुक्ता कुञ्जी भवता वा केनापि विश्वसनीयेन व्यक्तिना प्रमाणीकृता नास्ति।"
-
-#: utils/formatting.cpp:1738
-#, kde-format
-msgid ""
-"The used certificate is not certified by a trustworthy Certificate "
-"Authority or the Certificate Authority is unknown."
-msgstr ""
-"प्रयुक्तं प्रमाणपत्रं विश्वसनीयेन प्रमाणपत्रप्राधिकरणेन प्रमाणितं नास्ति "
-"अथवा प्रमाणपत्रप्राधिकरणं अज्ञातम् अस्ति।"
-
-#: utils/hex.cpp:35
-#, kde-format
-msgid "Invalid hex char '%1' in input stream."
-msgstr "निवेशप्रवाहे अमान्यः हेक्स char '%1' ।"
-
-#: utils/hex.cpp:47 utils/hex.cpp:52
-#, kde-format
-msgid "Premature end of hex-encoded char in input stream"
-msgstr "इनपुट् स्ट्रीमे हेक्स-एन्कोडेड् char इत्यस्य अकालः अन्तः"
-
-#: kleo/enum.cpp:157
-#, kde-kuit-format
-msgctxt "no specific preference"
-msgid "<placeholder>none</placeholder>"
-msgstr "<स्थानधारक>न कश्चित्</स्थानधारक>"
-
-#: kleo/enum.cpp:214
-#, kde-format
-msgctxt "no specific preference"
-msgid "<none>"
-msgstr "<कोऽपि नास्ति>"
-
-#: kleo/expirychecker.cpp:80
-#, kde-format
-msgctxt "<b>User ID of key</b> (Key ID key ID of key in hex notation)"
-msgid "<b>%1</b> (Key ID 0x%2)"
-msgstr "<b>%1</b> (कुंजी आईडी 0x%2)"
-
-#: kleo/expirychecker.cpp:141
-#, kde-format
-msgctxt "<b>User ID of certificate</b> (serial number serial no. of certificate)"
-msgid "<b>%1</b> (serial number %2)"
-msgstr "<b>%1</b> (क्रमाङ्कः %2)"
-
-#: kleo/keyfiltermanager.cpp:90
-#, kde-format
-msgctxt "All Certificates"
-msgid "All"
-msgstr "सर्वे"
-
-#: kleo/keyfiltermanager.cpp:108
-#, kde-format
-msgctxt "My own Certificates"
-msgid "My Own"
-msgstr "मम स्वकीयः"
-
-#: kleo/keyfiltermanager.cpp:127
-#, kde-format
-msgctxt "Certified Certificates"
-msgid "Certified"
-msgstr "प्रमाणित"
-
-#: kleo/keyfiltermanager.cpp:146
-#, kde-format
-msgctxt "Not Certified Certificates"
-msgid "Not Certified"
-msgstr "प्रमाणितं नास्ति"
-
-#: kleo/keyfiltermanager.cpp:162
-#, kde-format
-msgctxt "Certificates to certify by the user"
-msgid "To Certify"
-msgstr "प्रमाणीकरणार्थम्"
-
-#: kleo/keyfiltermanager.cpp:191
-#, kde-format
-msgctxt "Not Fully Certified Certificates"
-msgid "Not Fully Certified"
-msgstr "पूर्णतया प्रमाणितं नास्ति"
-
-#: kleo/keyfiltermanager.cpp:216
-#, kde-format
-msgctxt "Fully Certified Certificates"
-msgid "Fully Certified"
-msgstr "पूर्णतया प्रमाणित"
-
-#: models/keylistmodel.cpp:326
-#, kde-format
-msgctxt "@title:column"
-msgid "Name"
-msgstr "नामः"
-
-#: models/keylistmodel.cpp:328
-#, kde-format
-msgctxt "@title:column"
-msgid "E-Mail"
-msgstr "ई-मेल"
-
-#: models/keylistmodel.cpp:330
-#, kde-format
-msgctxt "@title:column"
-msgid "Status"
-msgstr "स्थितिः"
-
-#: models/keylistmodel.cpp:332
-#, kde-format
-msgctxt "@title:column"
-msgid "Valid From"
-msgstr "वैध From"
-
-#: models/keylistmodel.cpp:334
-#, kde-format
-msgctxt "@title:column"
-msgid "Valid Until"
-msgstr "वैध यावत्"
-
-#: models/keylistmodel.cpp:336
-#, kde-format
-msgctxt "@title:column"
-msgid "Protocol"
-msgstr "प्रोटोकॉल"
-
-#: models/keylistmodel.cpp:338
-#, kde-format
-msgctxt "@title:column"
-msgid "Key ID"
-msgstr "कील आईडी"
-
-#: models/keylistmodel.cpp:340
-#, kde-format
-msgctxt "@title:column"
-msgid "Fingerprint"
-msgstr "अङ्गुलिचिह्न"
-
-#: models/keylistmodel.cpp:342
-#, kde-format
-msgctxt "@title:column"
-msgid "Issuer"
-msgstr "जारीकर्ता"
-
-#: models/keylistmodel.cpp:344
-#, kde-format
-msgctxt "@title:column"
-msgid "Serial Number"
-msgstr "क्रमाङ्कः"
-
-#: models/keylistmodel.cpp:346
-#, kde-format
-msgctxt "@title:column"
-msgid "Origin"
-msgstr "श्रोतं"
-
-#: models/keylistmodel.cpp:348
-#, kde-format
-msgctxt "@title:column"
-msgid "Last Update"
-msgstr "अन्तिम अपडेट"
-
-#: models/keylistmodel.cpp:350
-#, kde-format
-msgctxt "@title:column"
-msgid "Certification Trust"
-msgstr "प्रमाणीकरण न्यास"
-
-#: models/keylistmodel.cpp:352
-#, kde-format
-msgctxt "@title:column"
-msgid "Tags"
-msgstr "टैग्स"
-
-#: models/keylistmodel.cpp:354
-#, kde-format
-msgctxt "@title:column"
-msgid "Algorithm"
-msgstr "एल्गोरिदम"
-
-#: models/keylistmodel.cpp:356
-#, kde-format
-msgctxt "@title:column"
-msgid "Keygrip"
-msgstr "कीग्रिप्"
-
-#: models/keylistmodel.cpp:404 models/useridlistmodel.cpp:69
-#, kde-format
-msgctxt "text for screen readers for an empty name"
-msgid "no name"
-msgstr "न नाम"
-
-#: models/keylistmodel.cpp:411 models/useridlistmodel.cpp:70
-#, kde-format
-msgctxt "text for screen readers for an empty email address"
-msgid "no email"
-msgstr "ईमेल नास्ति"
-
-#: models/keylistmodel.cpp:557
-#, kde-format
-msgctxt "text for screen readers"
-msgid "not applicable"
-msgstr "न प्रयोज्यम्"
-
-#: ui/nameandemailwidget.cpp:95
-#, kde-format
-msgctxt "text for screen readers"
-msgid "The name must not include less-than sign, greater-than sign, and at sign."
-msgstr "नामे चिह्नात् न्यूनः, चिह्नात् अधिकः, चिह्ने च न भवितव्यम् ।"
-
-#: ui/nameandemailwidget.cpp:101
-#, kde-format
-msgctxt "text for screen readers"
-msgid ""
-"The name must be in the format required by your organization and it must "
-"not include less-than sign, greater-than sign, and at sign."
-msgstr ""
-"नाम भवतः संस्थायाः अपेक्षितरूपेण भवितुमर्हति तथा च तस्मिन् चिह्नात् न्यूनः, "
-"चिह्नात् अधिकः, चिह्ने च न समाविष्टः भवेत् ।"
-
-#: models/useridlistmodel.cpp:72
-#, kde-format
-msgctxt "yes, is exportable"
-msgid "yes"
-msgstr "आम्‌"
-
-#: models/useridlistmodel.cpp:72
-#, kde-format
-msgctxt "no, is not exportable"
-msgid "no"
-msgstr "नहि"
-
-#: models/useridlistmodel.cpp:75
-#, kde-format
-msgctxt "accessible text for empty list of tags"
-msgid "none"
-msgstr "न कश्चित्"
-
-#: ui/auditlogviewer.cpp:43
-#, kde-format
-msgctxt "@title:window"
-msgid "View GnuPG Audit Log"
-msgstr "GnuPG Audit Log पश्यन्तु"
-
-#: ui/auditlogviewer.cpp:93
-#, kde-format
-msgctxt "@title:window"
-msgid "System Error"
-msgstr "प्रणाली त्रुटि"
-
-#: ui/auditlogviewer.cpp:103
-#, kde-format
-msgctxt "@title:window"
-msgid "No GnuPG Audit Log"
-msgstr "GnuPG Audit Log नास्ति"
-
-#: ui/auditlogviewer.cpp:109
-#, kde-format
-msgctxt "@title:window"
-msgid "GnuPG Audit Log Viewer"
-msgstr "GnuPG लेखापरीक्षा लॉग दर्शक"
-
-#: ui/auditlogviewer.cpp:145
-#, kde-format
-msgctxt "@title:window"
-msgid "File Save Error"
-msgstr "सञ्चिका रक्षणदोषः"
-
-#: ui/cryptoconfigmodule.cpp:885
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Directory Services"
-msgstr "निर्देशिकासेवाः विन्यस्यताम्"
-
-#: ui/directoryserviceswidget.cpp:352 ui/directoryserviceswidget.cpp:369
-#, kde-format
-msgctxt "@title:window"
-msgid "LDAP Directory Service"
-msgstr "LDAP निर्देशिका सेवा"
-
-#: ui/editdirectoryservicedialog.cpp:410
-#, kde-format
-msgctxt "@title:window"
-msgid "Edit Directory Service"
-msgstr "निर्देशिका सेवा सम्पादयतु"
-
-#: ui/keyapprovaldialog.cpp:102
-#, kde-format
-msgctxt "@title:window"
-msgid "Encryption Key Approval"
-msgstr "एन्क्रिप्शन कुञ्जी अनुमोदनम्"
-
-#: ui/keyrequester.cpp:240 ui/keyrequester.cpp:273 ui/keyrequester.cpp:295
-#: ui/keyselectiondialog.cpp:644 ui/keyselectiondialog.cpp:680
-#, kde-format
-msgctxt "@title:window"
-msgid "Key Listing Failed"
-msgstr "कीलसूची विफलम्"
-
-#: ui/keyselectiondialog.cpp:662
-#, kde-format
-msgctxt "@title:window"
-msgid "Certificate Manager Error"
-msgstr "प्रमाणपत्र प्रबन्धक त्रुटि"
-
-#: ui/messagebox.cpp:91
-#, kde-format
-msgctxt "@title:window"
-msgid "Information"
-msgstr "सूचना"
-
-#: ui/messagebox.cpp:96
-#, kde-format
-msgctxt "@title:window"
-msgid "Error"
-msgstr "त्रुटि"
-
-#: ui/newkeyapprovaldialog.cpp:297
-#, kde-format
-msgctxt "@title:window"
-msgid "Security approval"
-msgstr "सुरक्षा अनुमोदनम्"
-
-#: ui/newkeyapprovaldialog.cpp:400
-#, kde-format
-msgctxt "@title:window"
-msgid "Key generation"
-msgstr "कीज जनरेशन"
-
-#: ui/newkeyapprovaldialog.cpp:439
-#, kde-format
-msgctxt "@title:window"
-msgid "Operation Failed"
-msgstr "संचालनं विफलम्"
-
-#: ui/auditlogviewer.cpp:46
-#, kde-format
-msgctxt "@action:button"
-msgid "&Copy to Clipboard"
-msgstr "&Clipboard मध्ये प्रतिलिपिं कुर्वन्तु"
-
-#: ui/auditlogviewer.cpp:51
-#, kde-format
-msgctxt "@action:button"
-msgid "&Save to Disk..."
-msgstr "&डिस्क मध्ये रक्षन्तु..."
-
-#: ui/directoryserviceswidget.cpp:216
-#, kde-format
-msgctxt "@action:button"
-msgid "Edit"
-msgstr "सम्पादन"
-
-#: ui/directoryserviceswidget.cpp:224
-#, kde-format
-msgctxt "@action:button"
-msgid "Delete"
-msgstr "लुप्"
-
-#: ui/dnattributeorderconfigwidget.cpp:120
-msgctxt "@action:button"
-msgid "Add"
-msgstr "संयोजयति"
-
-#: ui/dnattributeorderconfigwidget.cpp:127
-msgctxt "@action:button"
-msgid "Remove"
-msgstr "अपाकरोति"
-
-#: ui/dnattributeorderconfigwidget.cpp:134
-msgctxt "@action:button"
-msgid "Move to Top"
-msgstr "उपरि गच्छन्तु"
-
-#: ui/dnattributeorderconfigwidget.cpp:141
-msgctxt "@action:button"
-msgid "Move Up"
-msgstr "उपरि गच्छतु"
-
-#: ui/dnattributeorderconfigwidget.cpp:148
-msgctxt "@action:button"
-msgid "Move Down"
-msgstr "अधः गच्छतु"
-
-#: ui/dnattributeorderconfigwidget.cpp:155
-msgctxt "@action:button"
-msgid "Move to Bottom"
-msgstr "अधः गच्छन्तु"
-
-#: ui/keyrequester.cpp:92
-#, kde-format
-msgctxt "@action:button"
-msgid "Change..."
-msgstr "परिवर्तय..."
-
-#: ui/keyselectiondialog.cpp:421
-#, kde-format
-msgctxt "@action:button"
-msgid "Search for &External Certificates"
-msgstr "&External Certificates इत्यस्य अन्वेषणं कुर्वन्तु"
-
-#: ui/keyselectiondialog.cpp:477
-#, kde-format
-msgctxt "@action:button"
-msgid "&Reread Keys"
-msgstr "&पुनः पठन्तु कुञ्जी"
-
-#: ui/keyselectiondialog.cpp:482
-#, kde-format
-msgctxt "@action:button"
-msgid "&Start Certificate Manager"
-msgstr "&प्रमाणपत्र प्रबन्धकं आरभत"
-
-#: ui/messagebox.cpp:69
-#, kde-format
-msgctxt "@action:button"
-msgid "Show Audit Log"
-msgstr "Audit Log दर्शयतु"
-
-#: ui/newkeyapprovaldialog.cpp:142
-#, kde-format
-msgctxt "@action:button"
-msgid "Show Details"
-msgstr "विवरणं दर्शयतु"
-
-#: ui/newkeyapprovaldialog.cpp:184
-#, kde-format
-msgctxt "@action:button"
-msgid "Show Matching Keys"
-msgstr "मेल कुञ्जी दर्शयतु"
-
-#: ui/cryptoconfigentryreaderport.cpp:45
-#, kde-format
-msgctxt "@label:listbox Reader for smart cards"
-msgid "Reader to connect to"
-msgstr "पाठकं सम्बद्धं कर्तुं"
-
-#: ui/cryptoconfigmodule.cpp:538
-#, kde-format
-msgctxt ""
-"Translate this to 'yes' or 'no' (use the English words!) depending on "
-"whether your language uses Sentence style capitalization in GUI labels "
-"(yes) or not (no). Context: We get some backend strings in that have the "
-"wrong capitalization (in English, at least) so we need to force the first "
-"character to upper-case. It is this behaviour you can control for your "
-"language with this translation."
-msgid "yes"
-msgstr "आम्‌"
-
-#: ui/cryptoconfigmodule.cpp:608
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Set the debugging level to"
-msgstr "त्रुटिनिवारणस्तरं इति सेट् कुर्वन्तु"
-
-#: ui/dnattributeorderconfigwidget.cpp:90
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Available attributes:"
-msgstr "उपलब्धगुणाः : १."
-
-#: ui/dnattributeorderconfigwidget.cpp:92
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Current attribute order:"
-msgstr "वर्तमान विशेषताक्रमः : १."
-
-#: ui/keyapprovaldialog.cpp:118
-#, kde-format
-msgctxt "@label:textbox"
-msgid "The following keys will be used for encryption:"
-msgstr "एन्क्रिप्शनार्थं निम्नलिखितकुञ्जीनां उपयोगः भविष्यति ।"
-
-#: ui/keyapprovaldialog.cpp:134
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Your keys:"
-msgstr "भवतः कीलानि : १."
-
-#: ui/keyapprovaldialog.cpp:146
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Recipient:"
-msgstr "प्राप्तकर्ता : १."
-
-#: ui/keyapprovaldialog.cpp:151
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Encryption keys:"
-msgstr "एन्क्रिप्शन कुञ्जिकाः : १."
-
-#: ui/keyapprovaldialog.cpp:158
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Encryption preference:"
-msgstr "एन्क्रिप्शन प्राधान्यम् : १."
-
-#: ui/keyselectiondialog.cpp:435
-#, kde-format
-msgctxt "@label:textbox"
-msgid "&Search for:"
-msgstr "&अन्वेषणं कुर्वन्तु:"
-
-#: ui/directoryserviceswidget.cpp:187
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"This is a list of all directory services that are configured for use with "
-"X.509."
-msgstr ""
-"एषा सर्वेषां निर्देशिकासेवानां सूची अस्ति ये X.509 इत्यनेन सह उपयोगाय "
-"विन्यस्ताः सन्ति ।"
-
-#: ui/directoryserviceswidget.cpp:208
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Click this button to add a directory service to the list of services. The "
-"change will only take effect once you acknowledge the configuration dialog."
-msgstr ""
-"सेवासूचौ निर्देशिकासेवा योजयितुं एतत् बटन् नुदन्तु । परिवर्तनं केवलं एकवारं "
-"भवता विन्याससंवादं स्वीकृत्य प्रभावी भविष्यति ।"
-
-#: ui/directoryserviceswidget.cpp:219
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Click this button to edit the settings of the currently selected directory "
-"service. The changes will only take effect once you acknowledge the "
-"configuration dialog."
-msgstr ""
-"वर्तमान चयनितनिर्देशिकासेवायाः सेटिङ्ग्स् सम्पादयितुं एतत् बटन् नुदन्तु । "
-"परिवर्तनं केवलं एकवारं भवता विन्याससंवादं स्वीकृत्य प्रभावी भविष्यति ।"
-
-#: ui/directoryserviceswidget.cpp:227
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Click this button to remove the currently selected directory service. The "
-"change will only take effect once you acknowledge the configuration dialog."
-msgstr ""
-"वर्तमान चयनितं निर्देशिकासेवां निष्कासयितुं एतत् बटन् नुदन्तु । परिवर्तनं "
-"केवलं एकवारं भवता विन्याससंवादं स्वीकृत्य प्रभावी भविष्यति ।"
-
-#: ui/directoryserviceswidget.cpp:197
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Click to use a directory service running on your Active Directory. This "
-"works only on Windows and requires GnuPG 2.2.28 or later."
-msgstr ""
-"स्वस्य सक्रियनिर्देशिकायां चालितस्य निर्देशिकासेवायाः उपयोगाय क्लिक् "
-"कुर्वन्तु । एतत् केवलं विण्डोज इत्यत्र कार्यं करोति तथा च GnuPG 2.2.28 अथवा "
-"ततः परं आवश्यकम् ।"
-
-#: ui/directoryserviceswidget.cpp:203
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to add a directory service provided by an LDAP server."
-msgstr "LDAP सर्वरेण प्रदत्तां निर्देशिकासेवां योजयितुं क्लिक् कुर्वन्तु ।"
-
-#: ui/directoryserviceswidget.cpp:206
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to add a directory service."
-msgstr "निर्देशिकासेवां योजयितुं क्लिक् कुर्वन्तु ।"
-
-#: ui/directoryserviceswidget.cpp:217
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to edit the selected service."
-msgstr "चयनितसेवा सम्पादयितुं क्लिक् कुर्वन्तु ।"
-
-#: ui/directoryserviceswidget.cpp:225
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Click to remove the selected service."
-msgstr "चयनितसेवाम् अपसारयितुं क्लिक् कुर्वन्तु ।"
-
-#: ui/editdirectoryservicedialog.cpp:103
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Enter the name or IP address of the server hosting the directory service."
-msgstr "निर्देशिकासेवायाः आतिथ्यं कुर्वतः सर्वरस्य नाम वा IP-सङ्केतं वा प्रविशन्तु ।"
-
-#: ui/editdirectoryservicedialog.cpp:119
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"<b>(Optional, the default is fine in most cases)</b> Pick the port number "
-"the directory service is listening on."
-msgstr ""
-"<b>(वैकल्पिकं, पूर्वनिर्धारितं अधिकतया सम्यक् भवति)</b> निर्देशिकासेवा "
-"शृणोति इति पोर्ट् सङ्ख्यां चिनुत ।"
-
-#: ui/editdirectoryservicedialog.cpp:133
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Use an anonymous LDAP server that does not require authentication."
-msgstr "अनामिकं LDAP सर्वरं उपयुज्यताम् यस्य प्रमाणीकरणस्य आवश्यकता नास्ति ।"
-
-#: ui/editdirectoryservicedialog.cpp:144
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"On Windows, authenticate to the LDAP server using the Active Directory with "
-"the current user."
-msgstr ""
-"विण्डोज इत्यत्र वर्तमानप्रयोक्त्रेण सह Active Directory इत्यस्य उपयोगेन "
-"LDAP सर्वरं प्रति प्रमाणीकरणं कुर्वन्तु ।"
-
-#: ui/editdirectoryservicedialog.cpp:150
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Authenticate to the LDAP server with your LDAP credentials."
-msgstr "स्वस्य LDAP प्रमाणपत्रैः सह LDAP सर्वरं प्रति प्रमाणीकरणं कुर्वन्तु ।"
-
-#: ui/editdirectoryservicedialog.cpp:161
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Enter your LDAP user resp. Bind DN for authenticating to the LDAP server."
-msgstr "स्वस्य LDAP उपयोक्तृं resp. LDAP सर्वरं प्रति प्रमाणीकरणार्थं DN बन्धयन्तु ।"
-
-#: ui/editdirectoryservicedialog.cpp:167
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid ""
-"Enter your password for authenticating to the LDAP server.<nl/><warning>The "
-"password will be saved in the clear in a configuration file in your home "
-"directory.</warning>"
-msgstr ""
-"LDAP सर्वरे प्रमाणीकरणार्थं स्वस्य गुप्तशब्दं "
-"प्रविशतु।<nl/><warning>गुप्तशब्दः भवतः गृहनिर्देशिकायां विन्याससञ्चिकायां "
-"clear इत्यत्र रक्षितः भविष्यति।</warning>"
-
-#: ui/editdirectoryservicedialog.cpp:186
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Use GnuPG's default to connect to the LDAP server. By default, GnuPG 2.3 "
-"and earlier use a plain, not TLS secured connection. <b>(Not "
-"recommended)</b>"
-msgstr ""
-"LDAP सर्वरेण सह सम्बद्धं कर्तुं GnuPG इत्यस्य पूर्वनिर्धारितं उपयोगं "
-"कुर्वन्तु । पूर्वनिर्धारितरूपेण GnuPG 2.3 पूर्ववर्ती च साधारणं, न तु TLS "
-"सुरक्षितं संयोजनं उपयुञ्जते । <b>(न अनुशंसितम्) २.</b>"
-
-#: ui/editdirectoryservicedialog.cpp:196
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Use a plain, not TLS secured connection to connect to the LDAP server. "
-"<b>(Not recommended)</b>"
-msgstr ""
-"LDAP सर्वरेण सह सम्बद्धं कर्तुं साधारणं, न तु TLS सुरक्षितं संयोजनं "
-"उपयुज्यताम् । <b>(न अनुशंसितम्) २.</b>"
-
-#: ui/editdirectoryservicedialog.cpp:204
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Use a standard TLS secured connection (initiated with STARTTLS) to connect "
-"to the LDAP server. <b>(Recommended)</b>"
-msgstr ""
-"LDAP सर्वरेण सह संयोजयितुं मानक TLS सुरक्षितसंयोजनस्य (STARTTLS इत्यनेन "
-"आरब्धस्य) उपयोगं कुर्वन्तु । <b>(प्रस्तावित)</b>"
-
-#: ui/editdirectoryservicedialog.cpp:213
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Use a TLS secured connection through which the connection to the LDAP "
-"server is tunneled. <b>(Not recommended)</b>"
-msgstr ""
-"TLS सुरक्षितं संयोजनं उपयुज्यताम् यस्य माध्यमेन LDAP सर्वरेण सह संयोजनं "
-"सुरङ्गं भवति । <b>(न अनुशंसितम्) २.</b>"
-
-#: ui/editdirectoryservicedialog.cpp:229
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"<b>(Optional, can usually be left empty)</b> Enter the base DN for this "
-"LDAP server to limit searches to only that subtree of the directory."
-msgstr ""
-"<b>(वैकल्पिकं, सामान्यतया रिक्तं त्यक्तुं शक्यते)</b> अन्वेषणं केवलं "
-"निर्देशिकायाः तस्मिन् उपवृक्षे सीमितं कर्तुं अस्य LDAP सर्वरस्य आधार DN "
-"प्रविष्टं कुर्वन्तु ।"
-
-#: ui/editdirectoryservicedialog.cpp:237
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Here you can enter additional flags that are not yet (or no longer) "
-"supported by Kleopatra. For example, older versions of GnuPG use "
-"<code>ldaps</code> to request a TLS secured connection."
-msgstr ""
-"अत्र भवान् अतिरिक्तध्वजान् प्रविष्टुं शक्नोति ये अद्यापि (अथवा न पुनः) "
-"Kleopatra द्वारा समर्थिताः सन्ति । यथा, GnuPG इत्यस्य प्राचीनसंस्करणाः TLS "
-"सुरक्षितसम्बद्धस्य अनुरोधाय <code>ldaps</code> उपयोगं कुर्वन्ति ।"
-
-#: ui/filenamerequester.cpp:81
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Open file dialog"
-msgstr "सञ्चिकासंवादं उद्घाटयन्तु"
-
-#: ui/keyrequester.cpp:89
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Clear"
-msgstr "स्पष्टः"
-
-#: ui/newkeyapprovaldialog.cpp:185
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Show keys matching the email address"
-msgstr "ईमेल-सङ्केतेन सह मेलनं कुर्वन्तः कीलानि दर्शयन्तु"
-
-#: ui/newkeyapprovaldialog.cpp:189
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Show all keys"
-msgstr "सर्वाणि कीलानि दर्शयतु"
-
-#: ui/readerportselection.cpp:73
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid ""
-"<para>Select the smart card reader that GnuPG shall use.<list><item>The "
-"first item will make GnuPG use the first reader that is "
-"found.</item><item>The last item allows you to enter a custom reader ID or "
-"reader port number.</item><item>All other items represent readers that were "
-"found by GnuPG.</item></list></para>"
-msgstr ""
-"<para>स्मार्टकार्डरीडरं चिनोतु यस्य उपयोगं GnuPG "
-"करिष्यति।<list><item>प्रथमः द्रव्यः GnuPG प्रथमपाठकस्य उपयोगं करिष्यति यत् "
-"लभ्यते।</item><item>अन्तिमवस्तु भवन्तं कस्टम् रीडरं प्रविष्टुं शक्नोति ID "
-"अथवा रीडर पोर्ट् सङ्ख्या।</item><item>अन्ये सर्वे वस्तूनि GnuPG द्वारा "
-"प्राप्तान् पाठकान् प्रतिनिधियन्ति।</item></list></para>"
-
-#: ui/useridselectioncombo.cpp:542
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Show certificate list"
-msgstr "प्रमाणपत्रसूचीं दर्शयतु"
-
-#: utils/formatting.cpp:599
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "This group does not contain any keys."
-msgstr "अस्मिन् समूहे किमपि कीलं नास्ति ।"
-
-#: utils/formatting.cpp:605
-#, kde-format
-msgctxt "@info:tooltip"
-msgid ""
-"Some of the certificates in this group cannot be used for encryption. Using "
-"this group can lead to unexpected results."
-msgstr ""
-"अस्मिन् समूहे केचन प्रमाणपत्राणि गोपनार्थं उपयोक्तुं न शक्यन्ते । अस्य "
-"समूहस्य उपयोगेन अप्रत्याशितफलं प्राप्तुं शक्यते ।"
-
-#: ui/editdirectoryservicedialog.cpp:112
-#, kde-format
-msgctxt "@info:label"
-msgid "Error: Enter a hostname in the correct format, like ldap.example.com."
-msgstr ""
-"त्रुटिः : ldap.example.com इत्यादिषु समीचीनरूपेण होस्ट्-नाम प्रविष्टं "
-"कुर्वन्तु ।"
-
-#: ui/formtextinput.cpp:92
-#, kde-format
-msgctxt "@label label text (required)"
-msgid "%1 (required)"
-msgstr "%1 (आवश्यकम्) २."
-
-#: ui/formtextinput.cpp:126
-#, kde-format
-msgctxt "@info"
-msgid "Error: %1"
-msgstr "त्रुटिः %1"
-
-#: utils/expiration.cpp:116
-#, kde-format
-msgctxt "@info"
-msgid "The date cannot be changed."
-msgstr "तिथिं परिवर्तयितुं न शक्यते।"
+msgctxt "Certifies this key as fully trusted introducer for 'domain name'."
+msgid "Certifies this key as fully trusted introducer for '%1'."
+msgstr "'%1' कृते पूर्णतया विश्वसनीयप्रवर्तकत्वेन एतत् कुञ्जी प्रमाणयति ।"
 
 #: utils/formatting.cpp:1520
 #, kde-format
@@ -3006,440 +3245,45 @@ msgctxt "@info"
 msgid "Elgamal 4096"
 msgstr "एल्गमल 4096"
 
-#: utils/gnupg.cpp:486
+#: utils/formatting.cpp:1554
 #, kde-format
-msgctxt "@info"
-msgid "GnuPG provides support for OpenPGP/LibrePGP and S/MIME."
-msgstr "GnuPG OpenPGP/LibrePGP तथा S/MIME इत्येतयोः समर्थनं प्रदाति ।"
-
-#: utils/gnupg.cpp:495
-#, kde-format
-msgctxt "@info"
-msgid "Libgcrypt is a general purpose cryptographic library."
-msgstr "Libgcrypt इति सामान्यप्रयोजनं क्रिप्टोग्राफिकपुस्तकालयः अस्ति ।"
-
-#: ui/formtextinput.cpp:230
-#, kde-format
-msgctxt ""
-"text for screen readers to indicate that the associated object, such as a "
-"form field, has an error"
-msgid "invalid entry"
-msgstr "अमान्यप्रविष्टिः"
-
-#: ui/keyselectioncombo.cpp:87 ui/useridselectioncombo.cpp:93
-#, kde-format
-msgctxt "Name <email>"
-msgid "%1 <%2>"
-msgstr "%1 <%2>"
-
-#: ui/keyselectioncombo.cpp:178 ui/useridselectioncombo.cpp:175
-#, kde-format
-msgctxt "Name <email> (validity, created: date)"
-msgid "%1 (%2, created: %3)"
-msgstr "%1 (%2, निर्मितम्: %3)"
-
-#: ui/keyselectioncombo.cpp:184 ui/useridselectioncombo.cpp:181
-#, kde-format
-msgctxt "Name <email> (validity, type, created: date)"
-msgid "%1 (%2, %3, created: %4)"
-msgstr "%1 (%2, %3, निर्मितम्: %4)"
-
-#: ui/keyselectiondialog.cpp:275
-#, kde-format
-msgctxt "Key fingerprint"
-msgid "Fingerprint"
-msgstr "अङ्गुलिचिह्न"
-
-#: ui/keyselectiondialog.cpp:277
-#, kde-format
-msgctxt "Key issuer"
-msgid "Issuer"
-msgstr "जारीकर्ता"
-
-#: ui/keyselectiondialog.cpp:279
-#, kde-format
-msgctxt "Key status"
-msgid "Status"
-msgstr "स्थितिः"
-
-#: ui/keyselectiondialog.cpp:281
-#, kde-format
-msgctxt "Compliance of key"
-msgid "Compliance"
-msgstr "अनुबद्ध"
-
-#: ui/keyselectiondialog.cpp:460
-#, kde-format
-msgctxt "@option:check"
-msgid "&Remember choice"
-msgstr "&चयनं स्मर्यताम्"
-
-#: ui/newkeyapprovaldialog.cpp:304
-#, kde-format
-msgctxt "@option:check"
-msgid "OpenPGP"
-msgstr "ओपनपीजीपी"
-
-#: ui/newkeyapprovaldialog.cpp:305
-#, kde-format
-msgctxt "@option:check"
-msgid "S/MIME"
-msgstr "S/MIME"
-
-#: ui/nameandemailwidget.cpp:59 ui/nameandemailwidget.cpp:159
-#, kde-format
-msgctxt "@label"
-msgid "Name"
-msgstr "नामः"
-
-#: ui/nameandemailwidget.cpp:75 ui/nameandemailwidget.cpp:213
-#, kde-format
-msgctxt "@label"
-msgid "Email address"
-msgstr "ईमेल पता"
-
-#: ui/newkeyapprovaldialog.cpp:188
-#, kde-format
-msgctxt "@action:button short for 'Show all keys'"
-msgid "Show All"
-msgstr "सर्वाणि दर्शयतु"
-
-#: ui/newkeyapprovaldialog.cpp:272
-#, kde-format
-msgctxt ""
-"@info:tooltip for a 'Generate new key pair' action in a combobox when a "
-"user does not yet have an OpenPGP or S/MIME key."
 msgid ""
-"Generate a new key using your email address.<br/><br/>The key is necessary "
-"to decrypt and sign emails. You will be asked for a passphrase to protect "
-"this key and the protected key will be stored in your home directory."
-msgstr ""
-"स्वस्य ईमेल-सङ्केतं उपयुज्य नूतनं कीलं जनयन्तु ।<br/><br/> ईमेल-पत्राणां "
-"विगुप्तीकरणं हस्ताक्षरं च कर्तुं कुञ्जी आवश्यकी अस्ति । एतस्य कीलस्य "
-"रक्षणार्थं भवन्तः गुप्तवाक्यं याचयिष्यन्ति तथा च रक्षितं कीलं भवतः "
-"गृहनिर्देशिकायां संगृहीतं भविष्यति ।"
+"The signature is valid but the trust in the certificate's validity is only "
+"marginal."
+msgstr "हस्ताक्षरं वैधं भवति परन्तु प्रमाणपत्रस्य वैधतायां विश्वासः केवलं सीमान्तः एव भवति।"
 
-#: ui/newkeyapprovaldialog.cpp:307
+#: utils/formatting.cpp:1556
 #, kde-format
-msgctxt "@option:radio"
-msgid "OpenPGP"
-msgstr "ओपनपीजीपी"
+msgid "The signature is valid and the certificate's validity is fully trusted."
+msgstr "हस्ताक्षरं वैधं प्रमाणपत्रस्य वैधता च पूर्णतया विश्वसिति।"
 
-#: ui/newkeyapprovaldialog.cpp:308
+#: utils/formatting.cpp:1558
 #, kde-format
-msgctxt "@option:radio"
-msgid "S/MIME"
-msgstr "S/MIME"
-
-#: ui/newkeyapprovaldialog.cpp:559
-#, kde-format
-msgctxt "@info:tooltip for not selecting a key for signing."
-msgid "The email will not be cryptographically signed."
-msgstr "ईमेल क्रिप्टोग्राफिकरूपेण हस्ताक्षरं न भविष्यति।"
-
-#: ui/newkeyapprovaldialog.cpp:577
-#, kde-format
-msgctxt "Caption for signing key selection"
-msgid "Confirm identity '%1' as:"
-msgstr "'%1' इति परिचयं पुष्टयन्तु यथा:"
-
-#: ui/newkeyapprovaldialog.cpp:657
-#, kde-format
-msgctxt "@info:tooltip for No Key selected for a specific recipient."
 msgid ""
-"Do not select a key for this recipient.<br/><br/>The recipient will receive "
-"the encrypted email, but it can only be decrypted with the other keys "
-"selected in this dialog."
-msgstr ""
-"अस्य प्राप्तकर्तायाः कृते कीलं न चिनोतु ।<br/><br/> ग्राहकः एन्क्रिप्टेड् "
-"ईमेल प्राप्स्यति, परन्तु अस्मिन् संवादे चयनितैः अन्यैः कीलैः सह एव तस्य "
-"विगुप्तीकरणं कर्तुं शक्यते ।"
+"The signature is valid and the certificate's validity is ultimately trusted."
+msgstr "हस्ताक्षरं वैधं भवति तथा च प्रमाणपत्रस्य वैधता अन्ते विश्वसिति।"
 
-#: ui/newkeyapprovaldialog.cpp:774
+#: utils/formatting.cpp:1560
 #, kde-format
-msgctxt "Encrypt to self (email address):"
-msgid "Encrypt to self (%1):"
-msgstr "स्वयमेव (%1) एन्क्रिप्ट् कुर्वन्तु:"
+msgid ""
+"The signature is valid but the certificate's validity is <em>not trusted</"
+"em>."
+msgstr "हस्ताक्षरं वैधं किन्तु प्रमाणपत्रस्य वैधता <em>विश्वसनीयं नास्ति</em> ."
 
-#: ui/openpgpcertificatecreationdialog.cpp:104
+#: utils/formatting.cpp:1562
 #, kde-format
-msgctxt "The algorithm and strength of encryption key"
-msgid "Key Material"
-msgstr "मुख्य सामग्री"
+msgid "The signature is valid but the certificate's validity is unknown."
+msgstr "हस्ताक्षरं वैधं किन्तु प्रमाणपत्रस्य वैधता अज्ञाता अस्ति।"
 
-#: ui/openpgpcertificatecreationdialog.cpp:148
+#: utils/formatting.cpp:1565
 #, kde-format
-msgctxt "title:window"
-msgid "Create OpenPGP Certificate"
-msgstr "OpenPGP प्रमाणपत्रं रचयन्तु"
+msgid "The signature is valid but the certificate's validity is undefined."
+msgstr "हस्ताक्षरं वैधं किन्तु प्रमाणपत्रस्य वैधता अपरिभाषिता अस्ति ।"
 
-#: ui/readerportselection.cpp:58
+#: utils/formatting.cpp:1577
 #, kde-format
-msgctxt "@item:inlistbox"
-msgid "Default reader"
-msgstr "पूर्वनिर्धारित पाठकः"
-
-#: ui/readerportselection.cpp:114
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Custom reader ID or port number"
-msgstr "कस्टम् रीडर आईडी अथवा पोर्ट् सङ्ख्या"
-
-#: utils/expiration.cpp:147
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Three years from now"
-msgstr "इतः परं वर्षत्रयम्"
-
-#: utils/expiration.cpp:148
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "Two years from now"
-msgstr "अधुना वर्षद्वयानन्तरं"
-
-#: utils/expiration.cpp:149
-#, kde-format
-msgctxt "@item:inlistbox"
-msgid "One year from now"
-msgstr "एकवर्षात् परं"
-
-#: ui/treeview.cpp:69 ui/treewidget.cpp:172
-#, kde-format
-msgctxt "@title:menu"
-msgid "View Columns"
-msgstr "स्तम्भान् पश्यन्तु"
-
-#: utils/compliance.cpp:196
-#, kde-format
-msgctxt "@info append beta-marker to compliance"
-msgid "%1 (beta)"
-msgstr "%1 (बीटा) ९."
-
-#: utils/expiration.cpp:102
-#, kde-format
-msgctxt "@label Valid until (<a date>):"
-msgid "Valid until (%1):"
-msgstr "(%1) पर्यन्तं वैधम् ।"
-
-#: utils/expiration.cpp:105
-#, kde-format
-msgctxt "@label ... (between <a date> and <another date>):"
-msgid "Valid until (between %1 and %2):"
-msgstr "यावत् (%1 तः %2 पर्यन्तं) वैधम् ।"
-
-#: utils/expiration.cpp:119 utils/expiration.cpp:125
-#, kde-format
-msgctxt "@info ... between <a date> and <another date>."
-msgid "Enter a date between %1 and %2."
-msgstr "%1 तः %2 पर्यन्तं तिथिं प्रविशन्तु ।"
-
-#: utils/formatting.cpp:514 utils/formatting.cpp:544
-#, kde-format
-msgctxt "stored..."
-msgid "on SmartCard with serial no. %1"
-msgstr "on SmartCard with serial no. %1"
-
-#: utils/formatting.cpp:516 utils/formatting.cpp:546
-#, kde-format
-msgctxt "stored..."
-msgid "on this computer"
-msgstr "अस्मिन् सङ्गणके"
-
-#: utils/formatting.cpp:634
-#, kde-format
-msgctxt "this follows a list of keys"
-msgid "and 1 more key"
-msgid_plural "and %1 more keys"
-msgstr[0] "तथा १ अधिकं कीलम्"
-msgstr[1] "तथा %1 अधिकानि कीलानि"
-
-#: utils/formatting.cpp:667
-#, kde-format
-msgctxt ""
-"date format suitable for screen readers; d: day as a number without a "
-"leading zero, MMMM: localized month name, yyyy: year as a four digit number"
-msgid "MMMM d, yyyy"
-msgstr "म्म्म्म् द, य्यय्य्"
-
-#: utils/formatting.cpp:713 utils/formatting.cpp:748
-#, kde-format
-msgctxt "@info the expiration date of the key is unknown"
-msgid "unknown"
-msgstr "अज्ञात"
-
-#: utils/formatting.cpp:817
-#, kde-format
-msgctxt "X.509/CMS encryption standard"
-msgid "S/MIME"
-msgstr "S/MIME"
-
-#: utils/formatting.cpp:822
-#, kde-format
-msgctxt "Unknown encryption protocol"
-msgid "Unknown"
-msgstr "अज्ञात"
-
-#: utils/formatting.cpp:838
-#, kde-format
-msgctxt "a group of keys/certificates"
-msgid "Group"
-msgstr "समूह"
-
-#: utils/formatting.cpp:854 utils/formatting.cpp:899
-#, kde-format
-msgctxt "unknown trust level"
-msgid "unknown"
-msgstr "अज्ञात"
-
-#: utils/formatting.cpp:858 utils/formatting.cpp:905
-#, kde-format
-msgctxt "marginal trust"
-msgid "marginal"
-msgstr "सीमान्त"
-
-#: utils/formatting.cpp:860 utils/formatting.cpp:907
-#, kde-format
-msgctxt "full trust"
-msgid "full"
-msgstr "पूर्ण"
-
-#: utils/formatting.cpp:862 utils/formatting.cpp:909
-#, kde-format
-msgctxt "ultimate trust"
-msgid "ultimate"
-msgstr "अंतिम"
-
-#: utils/formatting.cpp:864 utils/formatting.cpp:901
-#, kde-format
-msgctxt "undefined trust"
-msgid "undefined"
-msgstr "अनिर्दिष्टः"
-
-#: utils/formatting.cpp:886
-#, kde-format
-msgctxt "as in 'this subkey is ok'"
-msgid "OK"
-msgstr "अस्तु"
-
-#: utils/formatting.cpp:941
-#, kde-format
-msgctxt "fake/invalid signature"
-msgid "bad"
-msgstr "असमीचीनः"
-
-#: utils/formatting.cpp:1009
-#, kde-format
-msgctxt "name, email, key id"
-msgid "%1 %2 (%3)"
-msgstr "%1 %2 (%3) २."
-
-#: utils/formatting.cpp:1169
-#, kde-format
-msgctxt "Means 'Additional Decryption Subkey'; Don't try translating that, though."
-msgid "ADSK"
-msgstr "एडीएससी"
-
-#: utils/formatting.cpp:1177
-#, kde-format
-msgctxt "name <email> (validity, protocol, creation date)"
-msgid "%1 (%2, %3, created: %4)"
-msgstr "%1 (%2, %3, निर्मितम्: %4)"
-
-#: utils/formatting.cpp:1188
-#, kde-format
-msgctxt "(validity, protocol, creation date)"
-msgid "(%1, %2, created: %3)"
-msgstr "(%1, %2, निर्मितम्: %3)"
-
-#: utils/formatting.cpp:1200
-#, kde-format
-msgctxt "name of group of keys (n key(s), validity)"
-msgid "%2 (1 key, %3)"
-msgid_plural "%2 (%1 keys, %3)"
-msgstr[0] "%2 (१ कील, %3) २."
-msgstr[1] "%2 (%1 कीलानि, %3)"
-
-#: utils/formatting.cpp:1207
-#, kde-format
-msgctxt "name of group of keys (n key(s), validity, tag)"
-msgid "%2 (1 key, %3, tag)"
-msgid_plural "%2 (%1 keys, %3, tag)"
-msgstr[0] "%2 (1 कील, %3, टैग)"
-msgstr[1] "%2 (%1 कीलानि, %3, टैग्)"
-
-#: utils/formatting.cpp:1214
-#, kde-format
-msgctxt "name of group of keys (n key(s), validity, group ...)"
-msgid "%2 (1 key, %3, unknown origin)"
-msgid_plural "%2 (%1 keys, %3, unknown origin)"
-msgstr[0] "%2 (1 कील, %3, अज्ञातमूलम्)"
-msgstr[1] "%2 (%1 कीलानि, %3, अज्ञातमूलम्)"
-
-#: utils/formatting.cpp:1307 utils/formatting.cpp:1319
-#, kde-format
-msgctxt "@info the compliance of the key with certain requirements is unknown"
-msgid "unknown"
-msgstr "अज्ञात"
-
-#: utils/formatting.cpp:1332
-#, kde-format
-msgctxt "As in 'this user ID is valid.'"
-msgid "certified"
-msgstr "प्रमाणित"
-
-#: utils/formatting.cpp:1347
-#, kde-format
-msgctxt "As in 'this user ID is not certified'"
-msgid "not certified"
-msgstr "प्रमाणितं न भवति"
-
-#: utils/formatting.cpp:1350
-#, kde-format
-msgctxt "The validity of this user ID has not been/could not be checked"
-msgid "not checked"
-msgstr "न परीक्षितम्"
-
-#: utils/formatting.cpp:1372
-#, kde-format
-msgctxt "As in all user IDs are valid."
-msgid "certified"
-msgstr "प्रमाणित"
-
-#: utils/formatting.cpp:1375
-#, kde-format
-msgctxt "As in not all user IDs are valid."
-msgid "not certified"
-msgstr "प्रमाणितं न भवति"
-
-#: utils/formatting.cpp:1378
-#, kde-format
-msgctxt "The validity of the user IDs has not been/could not be checked"
-msgid "not checked"
-msgstr "न परीक्षितम्"
-
-#: utils/formatting.cpp:1387
-#, kde-format
-msgctxt "As in all keys are valid."
-msgid "all certified"
-msgstr "सर्वे प्रमाणिताः"
-
-#: utils/formatting.cpp:1390
-#, kde-format
-msgctxt "As in not all keys are valid."
-msgid "not all certified"
-msgstr "न सर्वे प्रमाणिताः"
-
-#: utils/formatting.cpp:1479
-#, kde-format
-msgctxt "Certifies this key as partially trusted introducer for 'domain name'."
-msgid "Certifies this key as partially trusted introducer for '%1'."
-msgstr "'%1' कृते आंशिकरूपेण विश्वसनीयप्रवर्तकत्वेन एतत् कुञ्जी प्रमाणयति ।"
-
-#: utils/formatting.cpp:1483
-#, kde-format
-msgctxt "Certifies this key as fully trusted introducer for 'domain name'."
-msgid "Certifies this key as fully trusted introducer for '%1'."
-msgstr "'%1' कृते पूर्णतया विश्वसनीयप्रवर्तकत्वेन एतत् कुञ्जी प्रमाणयति ।"
+msgid "Unknown certificate"
+msgstr "अज्ञात प्रमाण पत्र"
 
 #: utils/formatting.cpp:1581
 #, kde-format
@@ -3450,16 +3294,26 @@ msgstr "%1 (%2) २."
 #: utils/formatting.cpp:1596
 #, kde-format
 msgctxt "1 is a date"
-msgid "Signature created on %1 using an unknown certificate with fingerprint %2"
+msgid ""
+"Signature created on %1 using an unknown certificate with fingerprint %2"
 msgstr ""
-"%1 इत्यत्र अङ्गुलिचिह्नस्य %2 इत्यनेन सह अज्ञातप्रमाणपत्रस्य उपयोगेन "
-"निर्मितः हस्ताक्षरः"
+"%1 इत्यत्र अङ्गुलिचिह्नस्य %2 इत्यनेन सह अज्ञातप्रमाणपत्रस्य उपयोगेन निर्मितः हस्ताक्षरः"
+
+#: utils/formatting.cpp:1598
+#, kde-format
+msgid "Signature created using an unknown certificate with fingerprint %1"
+msgstr "%1 अङ्गुलिचिह्नसहितं अज्ञातप्रमाणपत्रस्य उपयोगेन निर्मितं हस्ताक्षरम्"
 
 #: utils/formatting.cpp:1602
 #, kde-format
 msgctxt "1 is a date"
 msgid "Signature created on %1 with certificate: %2"
 msgstr "प्रमाणपत्रेण सह %1 इत्यत्र निर्मितं हस्ताक्षरम्: %2"
+
+#: utils/formatting.cpp:1604
+#, kde-format
+msgid "Signature created with certificate: %1"
+msgstr "प्रमाणपत्रेण सह निर्मितः हस्ताक्षरः: %1"
 
 #: utils/formatting.cpp:1610
 #, kde-format
@@ -3476,3 +3330,104 @@ msgctxt ""
 "compliant or VS-NfD compliant"
 msgid "The signature <b>is not</b> %1."
 msgstr "हस्ताक्षरं %1 <b>नास्ति</b> ।"
+
+#: utils/formatting.cpp:1623
+#, kde-format
+msgid "Error: Signature not verified"
+msgstr "त्रुटिः : हस्ताक्षरं सत्यापितं न"
+
+#: utils/formatting.cpp:1625
+#, kde-format
+msgid "Good signature"
+msgstr "उत्तमहस्ताक्षरम्"
+
+#: utils/formatting.cpp:1627
+#, kde-format
+msgid "Signing certificate was revoked"
+msgstr "हस्ताक्षरप्रमाणपत्रं निरस्तं जातम्"
+
+#: utils/formatting.cpp:1629
+#, kde-format
+msgid "Signing certificate is expired"
+msgstr "हस्ताक्षरप्रमाणपत्रस्य अवधिः समाप्तः अस्ति"
+
+#: utils/formatting.cpp:1631
+#, kde-format
+msgid "Certificate is not available"
+msgstr "प्रमाणपत्रं न प्राप्यते"
+
+#: utils/formatting.cpp:1633
+#, kde-format
+msgid "Signature expired"
+msgstr "हस्ताक्षरस्य अवधिः समाप्तः"
+
+#: utils/formatting.cpp:1635
+#, kde-format
+msgid "CRL missing"
+msgstr "सीआरएल अनुपलब्ध"
+
+#: utils/formatting.cpp:1637
+#, kde-format
+msgid "CRL too old"
+msgstr "CRL अतीव पुरातनम्"
+
+#: utils/formatting.cpp:1639
+#, kde-format
+msgid "Bad policy"
+msgstr "दुर्नीतिः"
+
+#: utils/formatting.cpp:1641
+#, kde-format
+msgid "System error"
+msgstr "प्रणालीदोषः"
+
+#: utils/formatting.cpp:1643
+#, kde-format
+msgid "Bad signature"
+msgstr "दुष्टहस्ताक्षरम्"
+
+#: utils/formatting.cpp:1719 utils/formatting.cpp:1742
+#, kde-format
+msgid "The signature is invalid: %1"
+msgstr "हस्ताक्षरम् अमान्यम् अस्ति: %1"
+
+#: utils/formatting.cpp:1728
+#, kde-format
+msgid "You can search the certificate on a keyserver or import it from a file."
+msgstr "भवान् प्रमाणपत्रं कीसर्वर् इत्यत्र अन्वेष्टुं वा सञ्चिकातः आयातयितुं वा शक्नोति ।"
+
+#: utils/formatting.cpp:1737
+#, kde-format
+msgid "The used key is not certified by you or any trusted person."
+msgstr "प्रयुक्ता कुञ्जी भवता वा केनापि विश्वसनीयेन व्यक्तिना प्रमाणीकृता नास्ति।"
+
+#: utils/formatting.cpp:1738
+#, kde-format
+msgid ""
+"The used certificate is not certified by a trustworthy Certificate Authority "
+"or the Certificate Authority is unknown."
+msgstr ""
+"प्रयुक्तं प्रमाणपत्रं विश्वसनीयेन प्रमाणपत्रप्राधिकरणेन प्रमाणितं नास्ति अथवा "
+"प्रमाणपत्रप्राधिकरणं अज्ञातम् अस्ति।"
+
+#: utils/gnupg.cpp:486
+#, kde-format
+msgctxt "@info"
+msgid "GnuPG provides support for OpenPGP/LibrePGP and S/MIME."
+msgstr "GnuPG OpenPGP/LibrePGP तथा S/MIME इत्येतयोः समर्थनं प्रदाति ।"
+
+#: utils/gnupg.cpp:495
+#, kde-format
+msgctxt "@info"
+msgid "Libgcrypt is a general purpose cryptographic library."
+msgstr "Libgcrypt इति सामान्यप्रयोजनं क्रिप्टोग्राफिकपुस्तकालयः अस्ति ।"
+
+#: utils/hex.cpp:35
+#, kde-format
+msgid "Invalid hex char '%1' in input stream."
+msgstr "निवेशप्रवाहे अमान्यः हेक्स char '%1' ।"
+
+#: utils/hex.cpp:47 utils/hex.cpp:52
+#, kde-format
+msgid "Premature end of hex-encoded char in input stream"
+msgstr "इनपुट् स्ट्रीमे हेक्स-एन्कोडेड् char इत्यस्य अकालः अन्तः"

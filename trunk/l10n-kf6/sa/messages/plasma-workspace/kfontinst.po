@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the plasma-workspace package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,19 +14,29 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: apps/Installer.cpp:36 kcmfontinst/KCmFontInst.cpp:949
 #, kde-format
 msgid ""
-"Do you wish to install the font(s) for personal use (only available to "
-"you), or system-wide (available to all users)?"
+"Do you wish to install the font(s) for personal use (only available to you), "
+"or system-wide (available to all users)?"
 msgstr ""
-"किं भवान् व्यक्तिगतप्रयोगाय (केवलं भवतः कृते उपलब्धम्), अथवा प्रणालीव्यापी "
-"(सर्वप्रयोक्तृभ्यः उपलब्धम्) फ़ॉन्ट्(s) संस्थापयितुम् इच्छति?"
+"किं भवान् व्यक्तिगतप्रयोगाय (केवलं भवतः कृते उपलब्धम्), अथवा प्रणालीव्यापी (सर्वप्रयोक्तृभ्यः "
+"उपलब्धम्) फ़ॉन्ट्(s) संस्थापयितुम् इच्छति?"
 
 #: apps/Installer.cpp:37 kcmfontinst/KCmFontInst.cpp:952
 #, kde-format
@@ -91,11 +101,11 @@ msgstr "फन्ट् मुद्रयितुं आकारसूचक�
 #: apps/Printer.cpp:344
 #, kde-format
 msgid ""
-"Font to print, specified as \"Family,Style\" where Style is a 24-bit "
-"decimal number composed as: <weight><width><slant>"
+"Font to print, specified as \"Family,Style\" where Style is a 24-bit decimal "
+"number composed as: <weight><width><slant>"
 msgstr ""
-"मुद्रणार्थं फन्ट्, \"Family,Style\" इति निर्दिष्टं यत्र Style इति २४-बिट् "
-"दशमलवसङ्ख्या अस्ति यस्य रचना अस्ति: <weight><width><slant>"
+"मुद्रणार्थं फन्ट्, \"Family,Style\" इति निर्दिष्टं यत्र Style इति २४-बिट् दशमलवसङ्ख्या "
+"अस्ति यस्य रचना अस्ति: <weight><width><slant>"
 
 #: apps/Printer.cpp:347
 #, kde-format
@@ -312,15 +322,13 @@ msgstr "अयं स्तम्भः फन्ट्-परिवारस्
 msgid ""
 "<p>This list shows your installed fonts. The fonts are grouped by family, "
 "and the number in square brackets represents the number of styles in which "
-"the family is available. e.g.</p><ul><li>Times "
-"[4]<ul><li>Regular</li><li>Bold</li><li>Bold "
-"Italic</li><li>Italic</li></ul></li></ul>"
+"the family is available. e.g.</p><ul><li>Times [4]<ul><li>Regular</"
+"li><li>Bold</li><li>Bold Italic</li><li>Italic</li></ul></li></ul>"
 msgstr ""
-"<p>एषा सूची भवतः संस्थापितानि फन्ट् दर्शयति । फन्ट्-पत्राणि परिवारानुसारं "
-"समूहीकृतानि सन्ति, वर्गकोष्ठकेषु स्थापिता संख्या च तासां शैल्याः संख्यां "
-"प्रतिनिधियति यस्मिन् परिवारः उपलब्धः अस्ति । यथा---</p><ul><li> काल [4] "
-"।<ul><li> नियमित</li><li> विक्रान्तः</li><li> बोल्ड इटालिक</li><li> "
-"इटालिक</li></ul></li></ul>"
+"<p>एषा सूची भवतः संस्थापितानि फन्ट् दर्शयति । फन्ट्-पत्राणि परिवारानुसारं समूहीकृतानि "
+"सन्ति, वर्गकोष्ठकेषु स्थापिता संख्या च तासां शैल्याः संख्यां प्रतिनिधियति यस्मिन् परिवारः "
+"उपलब्धः अस्ति । यथा---</p><ul><li> काल [4] ।<ul><li> नियमित</li><li> विक्रान्तः</"
+"li><li> बोल्ड इटालिक</li><li> इटालिक</li></ul></li></ul>"
 
 #: kcmfontinst/FontList.cpp:950 kcmfontinst/FontList.cpp:974
 #, kde-format
@@ -395,8 +403,8 @@ msgid ""
 "<p>Do you really want to remove '<b>%1</b>'?</p><p><i>This will only remove "
 "the group, and not the actual fonts.</i></p>"
 msgstr ""
-"<p>किं भवान् वास्तवमेव &#39; <b>%1</b> &#39; अपसारयितुम् इच्छति ?</p><p> "
-"<i>एतेन केवलं समूहः अपसारितः भविष्यति, न तु वास्तविक-अक्षराणि ।</i></p>"
+"<p>किं भवान् वास्तवमेव &#39; <b>%1</b> &#39; अपसारयितुम् इच्छति ?</p><p> <i>एतेन केवलं "
+"समूहः अपसारितः भविष्यति, न तु वास्तविक-अक्षराणि ।</i></p>"
 
 #: kcmfontinst/GroupList.cpp:541
 #, kde-format
@@ -421,44 +429,42 @@ msgid ""
 "special groups used by the font manager.<ul>%1</ul></li><li><b>Custom</b> "
 "are groups created by you. To add a font family to one of these groups "
 "simply drag it from the list of fonts, and drop onto the desired group. To "
-"remove a family from the group, drag the font onto the \"All Fonts\" "
-"group.</li></ul></p>"
+"remove a family from the group, drag the font onto the \"All Fonts\" group.</"
+"li></ul></p>"
 msgstr ""
-"<h3>फ़ॉन्ट् समूहाः</h3><p> एषा सूची भवतः प्रणाल्यां उपलब्धानि "
-"फ़ॉन्ट्-समूहानि प्रदर्शयति । फ़ॉन्ट्-समूहानां २ मुख्याः प्रकाराः सन्ति : "
-"१.<ul><li> <b>मानकं</b> फ़ॉन्ट् प्रबन्धकेन उपयुज्यमानाः विशेषसमूहाः सन्ति "
-"।<ul> %1</ul></li><li> <b>कस्टम्</b> भवता निर्मिताः समूहाः सन्ति। एतेषु "
-"कस्मिन् अपि समूहे फ़ॉन्ट्-परिवारं योजयितुं केवलं फन्ट्-सूचिकातः कर्षयन्तु, "
-"इष्टसमूहे च पातयन्तु । समूहात् परिवारं निष्कासयितुं &quot;All Fonts&quot; "
-"समूहे फ़ॉन्ट् कर्षयन्तु ।</li></ul></p>"
+"<h3>फ़ॉन्ट् समूहाः</h3><p> एषा सूची भवतः प्रणाल्यां उपलब्धानि फ़ॉन्ट्-समूहानि प्रदर्शयति । "
+"फ़ॉन्ट्-समूहानां २ मुख्याः प्रकाराः सन्ति : १.<ul><li> <b>मानकं</b> फ़ॉन्ट् प्रबन्धकेन "
+"उपयुज्यमानाः विशेषसमूहाः सन्ति ।<ul> %1</ul></li><li> <b>कस्टम्</b> भवता निर्मिताः "
+"समूहाः सन्ति। एतेषु कस्मिन् अपि समूहे फ़ॉन्ट्-परिवारं योजयितुं केवलं फन्ट्-सूचिकातः कर्षयन्तु, "
+"इष्टसमूहे च पातयन्तु । समूहात् परिवारं निष्कासयितुं &quot;All Fonts&quot; समूहे फ़ॉन्ट् "
+"कर्षयन्तु ।</li></ul></p>"
 
 #: kcmfontinst/GroupList.cpp:596
 #, kde-format
 msgid ""
-"<li><i>All Fonts</i> contains all the fonts installed on your "
-"system.</li><li><i>Unclassified</i> contains all fonts that have not yet "
-"been placed within a \"Custom\" group.</li>"
+"<li><i>All Fonts</i> contains all the fonts installed on your system.</"
+"li><li><i>Unclassified</i> contains all fonts that have not yet been placed "
+"within a \"Custom\" group.</li>"
 msgstr ""
-"<li><i>All Fonts इत्यत्र</i> भवतः प्रणाल्यां संस्थापितानि सर्वाणि fonts "
-"सन्ति ।</li><li> <i>अवर्गीकृते</i> सर्वे फन्ट् सन्ति ये अद्यापि "
-"&quot;Custom&quot; समूहे न स्थापिताः ।</li>"
+"<li><i>All Fonts इत्यत्र</i> भवतः प्रणाल्यां संस्थापितानि सर्वाणि fonts सन्ति ।</"
+"li><li> <i>अवर्गीकृते</i> सर्वे फन्ट् सन्ति ये अद्यापि &quot;Custom&quot; समूहे न "
+"स्थापिताः ।</li>"
 
 #: kcmfontinst/GroupList.cpp:599
 #, kde-format
 msgid ""
-"<li><i>All Fonts</i> contains all the fonts installed on your system - both "
-" \"System\" and \"Personal\".</li><li><i>System</i> contains all fonts that "
-"are installed system-wide (i.e. available to all "
-"users).</li><li><i>Personal</i> contains your personal "
-"fonts.</li><li><i>Unclassified</i> contains all fonts that have not yet "
-"been placed within a \"Custom\" group.</li>"
+"<li><i>All Fonts</i> contains all the fonts installed on your system - both  "
+"\"System\" and \"Personal\".</li><li><i>System</i> contains all fonts that "
+"are installed system-wide (i.e. available to all users).</"
+"li><li><i>Personal</i> contains your personal fonts.</"
+"li><li><i>Unclassified</i> contains all fonts that have not yet been placed "
+"within a \"Custom\" group.</li>"
 msgstr ""
-"<li><i>All Fonts</i> इत्यत्र भवतः प्रणाल्यां संस्थापिताः सर्वे फन्ट् सन्ति "
-"- &quot;System&quot; तथा &quot;Personal&quot; इति द्वयोः अपि ।</li><li> "
-"<i>सिस्टम्</i> मध्ये सर्वे फन्ट् सन्ति ये सिस्टम्-व्यापी (अर्थात् सर्वेषां "
-"उपयोक्तृभ्यः उपलभ्यन्ते) संस्थापिताः सन्ति ।</li><li> <i>व्यक्तिगतं</i> "
-"भवतः व्यक्तिगतं फन्ट् अस्ति ।</li><li> <i>अवर्गीकृते</i> सर्वे फन्ट् सन्ति "
-"ये अद्यापि &quot;Custom&quot; समूहे न स्थापिताः ।</li>"
+"<li><i>All Fonts</i> इत्यत्र भवतः प्रणाल्यां संस्थापिताः सर्वे फन्ट् सन्ति - &quot;"
+"System&quot; तथा &quot;Personal&quot; इति द्वयोः अपि ।</li><li> <i>सिस्टम्</i> "
+"मध्ये सर्वे फन्ट् सन्ति ये सिस्टम्-व्यापी (अर्थात् सर्वेषां उपयोक्तृभ्यः उपलभ्यन्ते) संस्थापिताः "
+"सन्ति ।</li><li> <i>व्यक्तिगतं</i> भवतः व्यक्तिगतं फन्ट् अस्ति ।</li><li> <i>अवर्गीकृते</"
+"i> सर्वे फन्ट् सन्ति ये अद्यापि &quot;Custom&quot; समूहे न स्थापिताः ।</li>"
 
 #: kcmfontinst/GroupList.cpp:701
 #, kde-format
@@ -516,8 +522,8 @@ msgid ""
 "<h3>Finished</h3><p>Please note that any open applications will need to be "
 "restarted in order for any changes to be noticed.</p>"
 msgstr ""
-"<h3>सम्पूर्ण</h3><p> कृपया ज्ञातव्यं यत् यत्किमपि मुक्तं अनुप्रयोगं पुनः "
-"आरभ्यत यत् किमपि परिवर्तनं लक्ष्यते ।</p>"
+"<h3>सम्पूर्ण</h3><p> कृपया ज्ञातव्यं यत् यत्किमपि मुक्तं अनुप्रयोगं पुनः आरभ्यत यत् किमपि "
+"परिवर्तनं लक्ष्यते ।</p>"
 
 #: kcmfontinst/JobRunner.cpp:206
 #, kde-format
@@ -591,10 +597,9 @@ msgstr "सिस्टम् बैकएण्ड् मृतः। कृप
 
 #: kcmfontinst/JobRunner.cpp:694
 #, kde-format
-msgid "<i>%1</i> is a bitmap font, and these have been disabled on your system."
-msgstr ""
-"<i>%1</i> एकः बिटमैप् फ़ॉन्ट् अस्ति, एतानि च भवतः प्रणाल्यां निष्क्रियं "
-"कृतवन्तः ।"
+msgid ""
+"<i>%1</i> is a bitmap font, and these have been disabled on your system."
+msgstr "<i>%1</i> एकः बिटमैप् फ़ॉन्ट् अस्ति, एतानि च भवतः प्रणाल्यां निष्क्रियं कृतवन्तः ।"
 
 #: kcmfontinst/JobRunner.cpp:696
 #, kde-format
@@ -602,8 +607,7 @@ msgid ""
 "<i>%1</i> contains the font <b>%2</b>, which is already installed on your "
 "system."
 msgstr ""
-"<i>%1</i> मध्ये <b>%2</b> इति फ़ॉन्ट् अस्ति, यत् भवतः प्रणाल्यां पूर्वमेव "
-"संस्थापितम् अस्ति ।"
+"<i>%1</i> मध्ये <b>%2</b> इति फ़ॉन्ट् अस्ति, यत् भवतः प्रणाल्यां पूर्वमेव संस्थापितम् अस्ति ।"
 
 #: kcmfontinst/JobRunner.cpp:698
 #, kde-format
@@ -757,9 +761,7 @@ msgstr "किमपि विलोपनीयं नास्ति"
 #: kcmfontinst/KCmFontInst.cpp:615
 #, kde-format
 msgid "<p>Do you really want to delete</p><p>'<b>%1</b>'?</p>"
-msgstr ""
-"<p>किं भवन्तः वास्तवमेव विलोपयितुम् इच्छन्ति</p><p> &#39; <b>%1</b> "
-"&#39;?</p>"
+msgstr "<p>किं भवन्तः वास्तवमेव विलोपयितुम् इच्छन्ति</p><p> &#39; <b>%1</b> &#39;?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:618
 #, kde-format
@@ -796,11 +798,11 @@ msgstr "न किमपि चालनीयम्"
 #: kcmfontinst/KCmFontInst.cpp:657
 #, kde-format
 msgid ""
-"<p>Do you really want to move</p><p>'<b>%1</b>'</p><p>from <i>%2</i> to "
-"<i>%3</i>?</p>"
+"<p>Do you really want to move</p><p>'<b>%1</b>'</p><p>from <i>%2</i> to <i>"
+"%3</i>?</p>"
 msgstr ""
-"<p>किं त्वं वास्तवमेव गन्तुं इच्छसि</p><p> &#39; <b>%1</b> &#39; .</p><p> "
-"<i>%2</i> तः <i>%3</i> पर्यन्तं ?</p>"
+"<p>किं त्वं वास्तवमेव गन्तुं इच्छसि</p><p> &#39; <b>%1</b> &#39; .</p><p> <i>%2</i> "
+"तः <i>%3</i> पर्यन्तं ?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:662
 #, kde-format
@@ -814,16 +816,16 @@ msgstr "चलनम्"
 
 #: kcmfontinst/KCmFontInst.cpp:668
 #, kde-format
-msgid "<p>Do you really want to move this font from <i>%2</i> to <i>%3</i>?</p>"
+msgid ""
+"<p>Do you really want to move this font from <i>%2</i> to <i>%3</i>?</p>"
 msgid_plural ""
-"<p>Do you really want to move these %1 fonts from <i>%2</i> to "
-"<i>%3</i>?</p>"
+"<p>Do you really want to move these %1 fonts from <i>%2</i> to <i>%3</i>?</p>"
 msgstr[0] ""
-"<p>किं भवान् वास्तवम् एतत् फ़ॉन्ट् <i>%2</i> तः <i>%3 -</i> मध्ये "
-"स्थानान्तरयितुम् इच्छति ?</p>"
+"<p>किं भवान् वास्तवम् एतत् फ़ॉन्ट् <i>%2</i> तः <i>%3 -</i> मध्ये स्थानान्तरयितुम् इच्छति ?"
+"</p>"
 msgstr[1] ""
-"<p>किं भवान् वास्तवमेव एतानि %1 फ़ॉन्ट् <i>%2</i> तः <i>%3</i> मध्ये "
-"स्थानान्तरयितुम् इच्छति ?</p>"
+"<p>किं भवान् वास्तवमेव एतानि %1 फ़ॉन्ट् <i>%2</i> तः <i>%3</i> मध्ये स्थानान्तरयितुम् "
+"इच्छति ?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:674
 #, kde-format
@@ -895,26 +897,26 @@ msgstr[1] "%1 फ़ॉन्ट्स"
 #: kcmfontinst/KCmFontInst.cpp:895
 #, kde-format
 msgid ""
-"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td "
-"align=\"right\">Disabled:</td><td>%2</td></tr><tr><td "
-"align=\"right\">Partially enabled:</td><td>%3</td></tr><tr><td "
-"align=\"right\">Total:</td><td>%4</td></tr></table>"
+"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td align="
+"\"right\">Disabled:</td><td>%2</td></tr><tr><td align=\"right\">Partially "
+"enabled:</td><td>%3</td></tr><tr><td align=\"right\">Total:</td><td>%4</td></"
+"tr></table>"
 msgstr ""
-"<table><tr><td align=\"right\">सक्षमम् : १.</td><td> %1</td></tr><tr><td "
-"align=\"right\"> अक्षमित:</td><td> %2</td></tr><tr><td align=\"right\"> "
-"आंशिकरूपेण सक्षमम् : १.</td><td> %3</td></tr><tr><td align=\"right\"> "
-"कुल:</td><td> %4</td></tr></table>"
+"<table><tr><td align=\"right\">सक्षमम् : १.</td><td> %1</td></tr><tr><td align="
+"\"right\"> अक्षमित:</td><td> %2</td></tr><tr><td align=\"right\"> आंशिकरूपेण "
+"सक्षमम् : १.</td><td> %3</td></tr><tr><td align=\"right\"> कुल:</td><td> %4</"
+"td></tr></table>"
 
 #: kcmfontinst/KCmFontInst.cpp:905
 #, kde-format
 msgid ""
-"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td "
-"align=\"right\">Disabled:</td><td>%2</td></tr><tr><td "
-"align=\"right\">Total:</td><td>%3</td></tr></table>"
+"<table><tr><td align=\"right\">Enabled:</td><td>%1</td></tr><tr><td align="
+"\"right\">Disabled:</td><td>%2</td></tr><tr><td align=\"right\">Total:</"
+"td><td>%3</td></tr></table>"
 msgstr ""
-"<table><tr><td align=\"right\">सक्षमम् : १.</td><td> %1</td></tr><tr><td "
-"align=\"right\"> अक्षमित:</td><td> %2</td></tr><tr><td align=\"right\"> "
-"कुल:</td><td> %3</td></tr></table>"
+"<table><tr><td align=\"right\">सक्षमम् : १.</td><td> %1</td></tr><tr><td align="
+"\"right\"> अक्षमित:</td><td> %2</td></tr><tr><td align=\"right\"> कुल:</"
+"td><td> %3</td></tr></table>"
 
 #: kcmfontinst/KCmFontInst.cpp:982
 #, kde-format
@@ -964,16 +966,12 @@ msgstr "अक्षम कर्तुं किमपि नास्ति"
 #: kcmfontinst/KCmFontInst.cpp:1110
 #, kde-format
 msgid "<p>Do you really want to enable</p><p>'<b>%1</b>'?</p>"
-msgstr ""
-"<p>किं भवन्तः वास्तवमेव सक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> "
-"&#39;?</p>"
+msgstr "<p>किं भवन्तः वास्तवमेव सक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> &#39;?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1111
 #, kde-format
 msgid "<p>Do you really want to disable</p><p>'<b>%1</b>'?</p>"
-msgstr ""
-"<p>किं भवन्तः वास्तवमेव अक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> "
-"&#39;?</p>"
+msgstr "<p>किं भवन्तः वास्तवमेव अक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> &#39;?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1112
 #, kde-format
@@ -981,8 +979,8 @@ msgid ""
 "<p>Do you really want to enable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
 msgstr ""
-"<p>किं भवन्तः वास्तवमेव सक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> "
-"&#39;, समूहस्य अन्तः समाविष्टम् &#39; <b>%2</b> &#39;?</p>"
+"<p>किं भवन्तः वास्तवमेव सक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> &#39;, समूहस्य "
+"अन्तः समाविष्टम् &#39; <b>%2</b> &#39;?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1113
 #, kde-format
@@ -990,8 +988,8 @@ msgid ""
 "<p>Do you really want to disable</p><p>'<b>%1</b>', contained within group "
 "'<b>%2</b>'?</p>"
 msgstr ""
-"<p>किं भवन्तः वास्तवमेव अक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> "
-"&#39;, समूहस्य अन्तः समाविष्टम् &#39; <b>%2</b> &#39;?</p>"
+"<p>किं भवन्तः वास्तवमेव अक्षमं कर्तुम् इच्छन्ति</p><p> &#39; <b>%1</b> &#39;, समूहस्य "
+"अन्तः समाविष्टम् &#39; <b>%2</b> &#39;?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1114 kcmfontinst/KCmFontInst.cpp:1115
 #, kde-format
@@ -1020,32 +1018,32 @@ msgstr[1] "किं भवान् वास्तवमेव एतानि
 #: kcmfontinst/KCmFontInst.cpp:1125
 #, kde-format
 msgid ""
-"<p>Do you really want to enable this font contained within group "
-"'<b>%2</b>'?</p>"
+"<p>Do you really want to enable this font contained within group '<b>%2</b>'?"
+"</p>"
 msgid_plural ""
-"<p>Do you really want to enable these %1 fonts contained within group "
-"'<b>%2</b>'?</p>"
+"<p>Do you really want to enable these %1 fonts contained within group '<b>"
+"%2</b>'?</p>"
 msgstr[0] ""
-"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टं एतत् "
-"फ़ॉन्ट् सक्षमं कर्तुम् इच्छति?</p>"
+"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टं एतत् फ़ॉन्ट् सक्षमं "
+"कर्तुम् इच्छति?</p>"
 msgstr[1] ""
-"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टानि "
-"एतानि %1 फ़ॉन्ट् सक्षमं कर्तुम् इच्छति?</p>"
+"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टानि एतानि %1 फ़ॉन्ट् "
+"सक्षमं कर्तुम् इच्छति?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1129
 #, kde-format
 msgid ""
-"<p>Do you really want to disable this font contained within group "
-"'<b>%2</b>'?</p>"
+"<p>Do you really want to disable this font contained within group '<b>%2</"
+"b>'?</p>"
 msgid_plural ""
-"<p>Do you really want to disable these %1 fonts contained within group "
-"'<b>%2</b>'?</p>"
+"<p>Do you really want to disable these %1 fonts contained within group '<b>"
+"%2</b>'?</p>"
 msgstr[0] ""
-"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टं एतत् "
-"फ़ॉन्ट् निष्क्रियं कर्तुम् इच्छति?</p>"
+"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टं एतत् फ़ॉन्ट् निष्क्रियं "
+"कर्तुम् इच्छति?</p>"
 msgstr[1] ""
-"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टानि "
-"एतानि %1 फ़ॉन्ट् निष्क्रियं कर्तुम् इच्छति?</p>"
+"<p>किं भवान् वास्तवमेव &#39; <b>%2</b> &#39; समूहस्य अन्तः समाविष्टानि एतानि %1 फ़ॉन्ट् "
+"निष्क्रियं कर्तुम् इच्छति?</p>"
 
 #: kcmfontinst/KCmFontInst.cpp:1133 kcmfontinst/KCmFontInst.cpp:1135
 #, kde-format
@@ -1173,10 +1171,9 @@ msgstr "%1 एकः बिटमैप् फ़ॉन्ट् अस्ति
 
 #: kio/KioFonts.cpp:712
 #, kde-format
-msgid "%1 contains the font <b>%2</b>, which is already installed on your system."
-msgstr ""
-"%1 मध्ये <b>%2</b> इति फ़ॉन्ट् अस्ति, यत् भवतः प्रणाल्यां पूर्वमेव "
-"संस्थापितम् अस्ति ।"
+msgid ""
+"%1 contains the font <b>%2</b>, which is already installed on your system."
+msgstr "%1 मध्ये <b>%2</b> इति फ़ॉन्ट् अस्ति, यत् भवतः प्रणाल्यां पूर्वमेव संस्थापितम् अस्ति ।"
 
 #: kio/KioFonts.cpp:714
 #, kde-format
@@ -1193,10 +1190,47 @@ msgstr "%1 इत्यनेन सह सम्बद्धाः सर्व
 msgid "Unknown"
 msgstr "अज्ञात"
 
+#: lib/FcEngine.cpp:869
+#, kde-format
+msgctxt "First letter of the alphabet (in upper then lower case)"
+msgid "Aa"
+msgstr "आ"
+
+#: lib/FcEngine.cpp:871
+#, kde-format
+msgctxt ""
+"All letters of the alphabet (in upper/lower case pairs), followed by numbers"
+msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
+msgstr "आBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
+
 #: lib/FcEngine.cpp:1033
 #, kde-format
 msgid "No characters found."
 msgstr "न वर्णाः प्राप्ताः।"
+
+#: lib/FcEngine.cpp:1071
+#, kde-format
+msgctxt "A sentence that uses all of the letters of the alphabet"
+msgid "The quick brown fox jumps over the lazy dog"
+msgstr "द्रुतगतिः शृगालः आलस्यस्य श्वः उपरि कूर्दति"
+
+#: lib/FcEngine.cpp:1076
+#, kde-format
+msgctxt "All of the letters of the alphabet, uppercase"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+#: lib/FcEngine.cpp:1081
+#, kde-format
+msgctxt "All of the letters of the alphabet, lowercase"
+msgid "abcdefghijklmnopqrstuvwxyz"
+msgstr "abcdefghijklmnopqrstuvwxyz"
+
+#: lib/FcEngine.cpp:1086
+#, kde-format
+msgctxt "Numbers and characters"
+msgid "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
+msgstr "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
 
 #: lib/FcEngine.cpp:1484
 #, kde-format
@@ -1543,8 +1577,8 @@ msgstr "पूर्वावलोकन String"
 msgid "Please enter new string:"
 msgstr "कृपया नूतनं स्ट्रिंग् प्रविशतु:"
 
-#: viewpart/kfontviewpart.rc:4
 #. i18n: ectx: ToolBar (mainToolBar)
+#: viewpart/kfontviewpart.rc:4
 #, kde-format
 msgid "&Main Toolbar"
 msgstr "&मुख्यसाधनपट्टिका"
@@ -2241,49 +2275,3 @@ msgstr "फग्स् पा"
 #: viewpart/UnicodeScripts.h:80
 msgid "Yi"
 msgstr "करोतु"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: lib/FcEngine.cpp:869
-#, kde-format
-msgctxt "First letter of the alphabet (in upper then lower case)"
-msgid "Aa"
-msgstr "आ"
-
-#: lib/FcEngine.cpp:871
-#, kde-format
-msgctxt "All letters of the alphabet (in upper/lower case pairs), followed by numbers"
-msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
-msgstr "आBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
-
-#: lib/FcEngine.cpp:1071
-#, kde-format
-msgctxt "A sentence that uses all of the letters of the alphabet"
-msgid "The quick brown fox jumps over the lazy dog"
-msgstr "द्रुतगतिः शृगालः आलस्यस्य श्वः उपरि कूर्दति"
-
-#: lib/FcEngine.cpp:1076
-#, kde-format
-msgctxt "All of the letters of the alphabet, uppercase"
-msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-#: lib/FcEngine.cpp:1081
-#, kde-format
-msgctxt "All of the letters of the alphabet, lowercase"
-msgid "abcdefghijklmnopqrstuvwxyz"
-msgstr "abcdefghijklmnopqrstuvwxyz"
-
-#: lib/FcEngine.cpp:1086
-#, kde-format
-msgctxt "Numbers and characters"
-msgid "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
-msgstr "0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"

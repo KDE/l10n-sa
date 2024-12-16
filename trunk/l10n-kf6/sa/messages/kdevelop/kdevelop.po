@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kdevelop package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,13 +14,121 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: kdevelopui.rc:186
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#. i18n: ectx: Menu (session)
+#: kdevelopui.rc:6
+#, kde-format
+msgctxt "@title:menu"
+msgid "Session"
+msgstr "सत्र"
+
+#. i18n: ectx: Menu (project)
+#: kdevelopui.rc:10
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Project"
+msgstr "&प्रकल्प"
+
+#. i18n: ectx: Menu (run)
+#: kdevelopui.rc:29
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Run"
+msgstr "&धावनं करोतु"
+
+#. i18n: ectx: Menu (debug_core_menu)
+#: kdevelopui.rc:39
+#, kde-format
+msgctxt "@title:menu"
+msgid "Examine Core File"
+msgstr "Core File इत्यस्य परीक्षणं कुर्वन्तु"
+
+#. i18n: ectx: Menu (debug_attach_menu)
+#: kdevelopui.rc:43
+#, kde-format
+msgctxt "@title:menu"
+msgid "Attach to Process"
+msgstr "प्रक्रियां प्रति संलग्नं कुर्वन्तु"
+
+#. i18n: ectx: Menu (navigation)
+#: kdevelopui.rc:65
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Navigation"
+msgstr "&नेविगेशन"
+
+#. i18n: ectx: Menu (file)
+#: kdevelopui.rc:89
+#, kde-format
+msgctxt "@title:menu"
+msgid "&File"
+msgstr "&संचिका"
+
+#. i18n: ectx: Menu (edit)
+#: kdevelopui.rc:100
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Edit"
+msgstr "&सम्पादन"
+
+#. i18n: ectx: Menu (code)
+#: kdevelopui.rc:113
+#, kde-format
+msgctxt "@title:menu"
+msgid "Code"
+msgstr "संहिता"
+
+#. i18n: ectx: Menu (analyze_file)
+#: kdevelopui.rc:115
+#, kde-format
+msgctxt "@title:menu"
+msgid "Analyze Current File With"
+msgstr "वर्तमान सञ्चिकायाः विश्लेषणं कुर्वन्तु सह"
+
+#. i18n: ectx: Menu (analyze_project)
+#: kdevelopui.rc:119
+#, kde-format
+msgctxt "@title:menu"
+msgid "Analyze Current Project With"
+msgstr "वर्तमान परियोजनायाः विश्लेषणं कुर्वन्तु सह"
+
+#. i18n: ectx: Menu (window)
+#: kdevelopui.rc:128
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Window"
+msgstr "&कोष्ठ"
+
+#. i18n: ectx: Menu (settings)
+#: kdevelopui.rc:170
+#, kde-format
+msgctxt "@title:menu"
+msgid "Settings"
+msgstr "सेटिंग्स्"
+
+#. i18n: ectx: Menu (help)
+#: kdevelopui.rc:179
+#, kde-format
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
 #. i18n: ectx: ToolBar (mainToolBar)
+#: kdevelopui.rc:186
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
@@ -61,8 +169,8 @@ msgid ""
 "Cannot open unknown session %1. See `--list-sessions` switch for available "
 "sessions or use `-n` to create a new one."
 msgstr ""
-"अज्ञातसत्र %1 उद्घाटयितुं न शक्यते । उपलब्धसत्रेषु `--list-sessions` स्विच् "
-"पश्यन्तु अथवा नूतनं निर्मातुं `-n` इत्यस्य उपयोगं कुर्वन्तु ।"
+"अज्ञातसत्र %1 उद्घाटयितुं न शक्यते । उपलब्धसत्रेषु `--list-sessions` स्विच् पश्यन्तु अथवा "
+"नूतनं निर्मातुं `-n` इत्यस्य उपयोगं कुर्वन्तु ।"
 
 #: main.cpp:370
 #, kde-format
@@ -116,7 +224,8 @@ msgstr "मिलियन वोल्फ"
 
 #: main.cpp:379
 #, kde-format
-msgid "C++/Clang, Generic manager, Webdevelopment Plugins, Snippets, Performance"
+msgid ""
+"C++/Clang, Generic manager, Webdevelopment Plugins, Snippets, Performance"
 msgstr "C++/Clang, जेनेरिक प्रबन्धकः, वेबविकास प्लगिन्, स्निपेट्स्, प्रदर्शनम्"
 
 #: main.cpp:380
@@ -136,7 +245,8 @@ msgstr "आन्द्रियास पकुलट्"
 
 #: main.cpp:381
 #, kde-format
-msgid "Architecture, VCS Support, Project Management Support, QMake Projectmanager"
+msgid ""
+"Architecture, VCS Support, Project Management Support, QMake Projectmanager"
 msgstr "वास्तुकला, VCS समर्थन, परियोजना प्रबन्धन समर्थन, QMake परियोजना प्रबंधक"
 
 #: main.cpp:382
@@ -160,8 +270,8 @@ msgid ""
 "Definition-Use Chain, C++ Support, Code Navigation, Code Completion, Coding "
 "Assistance, Refactoring"
 msgstr ""
-"परिभाषा-उपयोगशृङ्खला, C++ समर्थनम्, कोड नेविगेशन, कोड समाप्ति, कोडिंग "
-"सहायता, रिफैक्टरिंग्"
+"परिभाषा-उपयोगशृङ्खला, C++ समर्थनम्, कोड नेविगेशन, कोड समाप्ति, कोडिंग सहायता, "
+"रिफैक्टरिंग्"
 
 #: main.cpp:384
 #, kde-format
@@ -233,8 +343,8 @@ msgstr "एवगेनिय इवानोव"
 msgid "Distributed VCS, Git, Mercurial"
 msgstr "वितरित वीसीएस, गिट, बुध"
 
-#: main.cpp:395
 #. i18n("Manuel Breugelmanns"), i18n( "Veritas, QTest integration"), "mbr.nxi@gmail.com" );
+#: main.cpp:395
 #, kde-format
 msgid "Robert Gruber"
 msgstr "रोबर्ट ग्रुबर"
@@ -450,8 +560,7 @@ msgid ""
 "Replace, Bookmarks, FileList and CTags2 plugins. Overall improvements and "
 "patches"
 msgstr ""
-"Replace, Bookmarks, FileList तथा CTags2 प्लगिन्स् । समग्रतया सुधाराः "
-"पट्टिकाः च"
+"Replace, Bookmarks, FileList तथा CTags2 प्लगिन्स् । समग्रतया सुधाराः पट्टिकाः च"
 
 #: main.cpp:418
 #, kde-format
@@ -586,11 +695,10 @@ msgstr "टोबियास ग्लेस्र"
 #: main.cpp:432
 #, kde-format
 msgid ""
-"Documentation Finder,  qmake projectmanager patches, usability "
-"improvements, bugfixes ... "
+"Documentation Finder,  qmake projectmanager patches, usability improvements, "
+"bugfixes ... "
 msgstr ""
-"दस्तावेजीकरण अन्वेषकः, qmake projectmanager पैचः, उपयोगितासुधारः, बगफिक्स "
-"... "
+"दस्तावेजीकरण अन्वेषकः, qmake projectmanager पैचः, उपयोगितासुधारः, बगफिक्स ... "
 
 #: main.cpp:433
 #, kde-format
@@ -648,16 +756,12 @@ msgstr ""
 #: main.cpp:461
 #, kde-format
 msgid "Shows all available sessions and lets you select one to open."
-msgstr ""
-"सर्वाणि उपलब्धानि सत्राणि दर्शयति तथा च उद्घाटयितुं एकं चयनं कर्तुं शक्नोति "
-"।"
+msgstr "सर्वाणि उपलब्धानि सत्राणि दर्शयति तथा च उद्घाटयितुं एकं चयनं कर्तुं शक्नोति ।"
 
 #: main.cpp:463
 #, kde-format
 msgid "List all available sessions on shell and lets you select one to open."
-msgstr ""
-"शेल् इत्यत्र सर्वाणि उपलब्धानि सत्राणि सूचीकृत्य उद्घाटयितुं एकं चयनं "
-"कर्तुं शक्नोति ।"
+msgstr "शेल् इत्यत्र सर्वाणि उपलब्धानि सत्राणि सूचीकृत्य उद्घाटयितुं एकं चयनं कर्तुं शक्नोति ।"
 
 #: main.cpp:465
 #, kde-format
@@ -675,8 +779,8 @@ msgid ""
 "Open KDevelop and load the given project. <project> can be either a .kdev4 "
 "file or a directory path."
 msgstr ""
-"KDevelop उद्घाट्य दत्तं परियोजनां लोड् कुर्वन्तु । <project> .kdev4 सञ्चिका "
-"अथवा निर्देशिकामार्गः भवितुम् अर्हति ।"
+"KDevelop उद्घाट्य दत्तं परियोजनां लोड् कुर्वन्तु । <project> .kdev4 सञ्चिका अथवा "
+"निर्देशिकामार्गः भवितुम् अर्हति ।"
 
 #: main.cpp:473
 #, kde-format
@@ -685,10 +789,8 @@ msgid ""
 "The executable that should be debugged must follow - including arguments.\n"
 "Example: kdevelop --debug gdb myapp --foo bar"
 msgstr ""
-"दत्तेन त्रुटिनिवारणकर्तृणा सह KDevelop मध्ये अनुप्रयोगस्य त्रुटिनिवारणं "
-"आरभत ।\n"
-"यत् कार्यान्वयनीयं त्रुटिनिवारणं कर्तव्यं तस्य अनुसरणं कर्तव्यम् - "
-"तर्कसहितम् ।\n"
+"दत्तेन त्रुटिनिवारणकर्तृणा सह KDevelop मध्ये अनुप्रयोगस्य त्रुटिनिवारणं आरभत ।\n"
+"यत् कार्यान्वयनीयं त्रुटिनिवारणं कर्तव्यं तस्य अनुसरणं कर्तव्यम् - तर्कसहितम् ।\n"
 "उदाहरणम् : kdevelop --debug gdb myapp --foo bar"
 
 #: main.cpp:487
@@ -700,8 +802,7 @@ msgstr "लोड् कर्तुं सञ्चिकाः, अथवा �
 #, kde-format
 msgid "Available sessions (use '-s HASH' or '-s NAME' to open a specific one):"
 msgstr ""
-"उपलब्धाः सत्राः (विशिष्टं उद्घाटयितुं '-s HASH' अथवा '-s NAME' इत्यस्य "
-"उपयोगं कुर्वन्तु):"
+"उपलब्धाः सत्राः (विशिष्टं उद्घाटयितुं '-s HASH' अथवा '-s NAME' इत्यस्य उपयोगं कुर्वन्तु):"
 
 #: main.cpp:499
 #, kde-format
@@ -723,6 +824,18 @@ msgstr "[चलति]"
 msgid "Select the session you would like to use"
 msgstr "यत् सत्रं भवन्तः उपयोक्तुं इच्छन्ति तत् चिनोतु"
 
+#: main.cpp:618
+#, kde-format
+msgctxt "@info:shell"
+msgid "Specify the executable you want to debug."
+msgstr "यत् कार्यान्वयनीयं भवन्तः त्रुटिनिवारणं कर्तुम् इच्छन्ति तत् निर्दिशन्तु ।"
+
+#: main.cpp:627
+#, kde-format
+msgctxt "@info:shell"
+msgid "Specified executable does not exist."
+msgstr "निर्दिष्टं कार्यान्वयनीयं नास्ति ।"
+
 #: main.cpp:633
 #, kde-format
 msgid "Debug %1"
@@ -730,10 +843,9 @@ msgstr "%1 त्रुटिनिवारणं कुर्वन्तु"
 
 #: main.cpp:641
 #, kde-format
-msgid "A session with the name %1 exists already. Use the -s switch to open it."
-msgstr ""
-"%1 इति नाम्ना सत्रं पूर्वमेव विद्यते । तत् उद्घाटयितुं -s स्विच् इत्यस्य "
-"उपयोगं कुर्वन्तु ।"
+msgid ""
+"A session with the name %1 exists already. Use the -s switch to open it."
+msgstr "%1 इति नाम्ना सत्रं पूर्वमेव विद्यते । तत् उद्घाटयितुं -s स्विच् इत्यस्य उपयोगं कुर्वन्तु ।"
 
 #: main.cpp:657
 #, kde-format
@@ -782,123 +894,3 @@ msgstr "भवतः खाते सर्वाणि KDevelop सम्पा
 #, kde-format
 msgid "Open KDevelop Session"
 msgstr "KDevelop सत्रं उद्घाटयन्तु"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: kdevelopui.rc:6
-#. i18n: ectx: Menu (session)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Session"
-msgstr "सत्र"
-
-#: kdevelopui.rc:10
-#. i18n: ectx: Menu (project)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Project"
-msgstr "&प्रकल्प"
-
-#: kdevelopui.rc:29
-#. i18n: ectx: Menu (run)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Run"
-msgstr "&धावनं करोतु"
-
-#: kdevelopui.rc:39
-#. i18n: ectx: Menu (debug_core_menu)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Examine Core File"
-msgstr "Core File इत्यस्य परीक्षणं कुर्वन्तु"
-
-#: kdevelopui.rc:43
-#. i18n: ectx: Menu (debug_attach_menu)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Attach to Process"
-msgstr "प्रक्रियां प्रति संलग्नं कुर्वन्तु"
-
-#: kdevelopui.rc:65
-#. i18n: ectx: Menu (navigation)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Navigation"
-msgstr "&नेविगेशन"
-
-#: kdevelopui.rc:89
-#. i18n: ectx: Menu (file)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&File"
-msgstr "&संचिका"
-
-#: kdevelopui.rc:100
-#. i18n: ectx: Menu (edit)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Edit"
-msgstr "&सम्पादन"
-
-#: kdevelopui.rc:113
-#. i18n: ectx: Menu (code)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Code"
-msgstr "संहिता"
-
-#: kdevelopui.rc:115
-#. i18n: ectx: Menu (analyze_file)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Analyze Current File With"
-msgstr "वर्तमान सञ्चिकायाः विश्लेषणं कुर्वन्तु सह"
-
-#: kdevelopui.rc:119
-#. i18n: ectx: Menu (analyze_project)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Analyze Current Project With"
-msgstr "वर्तमान परियोजनायाः विश्लेषणं कुर्वन्तु सह"
-
-#: kdevelopui.rc:128
-#. i18n: ectx: Menu (window)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Window"
-msgstr "&कोष्ठ"
-
-#: kdevelopui.rc:170
-#. i18n: ectx: Menu (settings)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Settings"
-msgstr "सेटिंग्स्"
-
-#: kdevelopui.rc:179
-#. i18n: ectx: Menu (help)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Help"
-msgstr "साहाय्यम्‌"
-
-#: main.cpp:618
-#, kde-format
-msgctxt "@info:shell"
-msgid "Specify the executable you want to debug."
-msgstr "यत् कार्यान्वयनीयं भवन्तः त्रुटिनिवारणं कर्तुम् इच्छन्ति तत् निर्दिशन्तु ।"
-
-#: main.cpp:627
-#, kde-format
-msgctxt "@info:shell"
-msgid "Specified executable does not exist."
-msgstr "निर्दिष्टं कार्यान्वयनीयं नास्ति ।"

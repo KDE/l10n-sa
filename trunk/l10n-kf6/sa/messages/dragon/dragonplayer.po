@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the dragon package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,21 +14,96 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: misc/dragonplayerui.rc:37
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#. i18n: ectx: Menu (file)
+#: misc/dragonplayerui.rc:4
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Play"
+msgstr "&क्रीडतु"
+
+#. i18n: ectx: Menu (play_media_menu)
+#: misc/dragonplayerui.rc:5
+#, kde-format
+msgctxt "@title:menu"
+msgid "Play Media"
+msgstr "प्ले मीडिया"
+
+#. i18n: ectx: Menu (settings)
+#: misc/dragonplayerui.rc:20
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Settings"
+msgstr "&सेटिंग्स"
+
 #. i18n: ectx: ToolBar (mainToolBar)
+#: misc/dragonplayerui.rc:37
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
+
+#: src/app/actions.cpp:24
+#, kde-format
+msgctxt "@action"
+msgid "Play"
+msgstr "क्रीडतु"
+
+#: src/app/actions.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Pause"
+msgstr "विराम"
+
+#: src/app/actions.cpp:40
+#, kde-format
+msgctxt "@option:check Volume of sound output"
+msgid "Volume"
+msgstr "मात्रा"
+
+#: src/app/adjustSizeButton.cpp:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Preferred Scale"
+msgstr "प्राथमिकता स्केल"
+
+#: src/app/adjustSizeButton.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "Scale 100%"
+msgstr "स्केल १००% २."
 
 #: src/app/adjustSizeButton.cpp:49
 #, kde-format
 msgid "<b>Adjust video scale?</b>"
 msgstr "<b>विडियो स्केल समायोजयन्तु?</b>"
+
+#: src/app/discSelectionDialog.cpp:37
+#, kde-format
+msgctxt ""
+"%1 is the disc type, %2 is the name of the disc that the user can choose. "
+"Ex. 'DVD: OfficeSpace'"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: src/app/discSelectionDialog.cpp:56
+#, kde-format
+msgctxt "Digital Versatile Disc, but keep it short"
+msgid "DVD"
+msgstr "DVD"
 
 #: src/app/discSelectionDialog.cpp:58
 #, kde-format
@@ -45,13 +120,19 @@ msgstr "श्रव्य सीडी"
 msgid "Data CD"
 msgstr "डाटा सीडी"
 
+#: src/app/discSelectionDialog.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a Disc"
+msgstr "एकं डिस्कं चिनोतु"
+
 #: src/app/discSelectionDialog.cpp:75
 #, kde-format
 msgid "Select a disc to play."
 msgstr "वादयितुं डिस्कं चिनोतु।"
 
-#: src/app/loadView.ui:61
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/app/loadView.ui:61
 #, kde-format
 msgid "Welcome to Dragon Player"
 msgstr "Dragon Player इत्यत्र स्वागतम्"
@@ -103,9 +184,7 @@ msgstr "महान् सन्दर्भसङ्केतः"
 #: src/app/main.cpp:47
 #, kde-format
 msgid "Yatta happened to be the only video on my laptop to test with. :)"
-msgstr ""
-"संयोगेन मम लैपटॉपे यट्टा एकमात्रः विडियो आसीत् यस्य परीक्षणं कर्तुं "
-"शक्नोमि। :)"
+msgstr "संयोगेन मम लैपटॉपे यट्टा एकमात्रः विडियो आसीत् यस्य परीक्षणं कर्तुं शक्नोमि। :)"
 
 #: src/app/main.cpp:48
 #, kde-format
@@ -127,100 +206,6 @@ msgstr "DVD Video प्ले कुर्वन्तु"
 msgid "Play 'URL'"
 msgstr "'URL' इति क्रीडन्तु।"
 
-#: src/app/mainWindow.cpp:237
-#, kde-format
-msgid ""
-"<qt>Phonon could not be successfully initialized. Dragon Player will now "
-"exit.</qt>"
-msgstr ""
-"<qt>फोनोन् सफलतया आरम्भं कर्तुं न शक्तवान् । ड्रैगन प्लेयर इदानीं "
-"निर्गमिष्यति।</qt>"
-
-#: src/app/mainWindow.cpp:376 src/app/part.cpp:54
-#, kde-format
-msgid "Position Slider"
-msgstr "स्थिति स्लाइडर"
-
-#: src/app/mainWindow.cpp:580
-#, kde-format
-msgid "Dragon Player was asked to open an empty URL; it cannot."
-msgstr "Dragon Player इत्यस्मै रिक्तं URL उद्घाटयितुं कथितम् आसीत्; न शक्नोति ।"
-
-#: src/app/mainWindow.cpp:814
-#, kde-format
-msgid "Sorry, no media was found in the drop"
-msgstr "क्षम्यतां, बून्दे कोऽपि माध्यमः न प्राप्तः"
-
-#: src/app/mainWindow.cpp:914
-#, kde-format
-msgid "No media loaded"
-msgstr "न मीडिया लोड् अभवत्"
-
-#: src/app/mainWindow.cpp:916
-#, kde-format
-msgid "Paused"
-msgstr "विरामः कृतः"
-
-#: src/app/playlistFile.cpp:37
-#, kde-format
-msgid "The file is not a playlist"
-msgstr "सञ्चिका प्लेलिस्ट् नास्ति"
-
-#: src/app/playlistFile.cpp:45
-#, kde-format
-msgid "Dragon Player could not download the remote playlist: %1"
-msgstr "Dragon Player दूरस्थं प्लेलिस्ट् डाउनलोड् कर्तुं न शक्तवान्: %1"
-
-#: src/app/playlistFile.cpp:66
-#, kde-format
-msgid ""
-"<qt>The playlist, <i>'%1'</i>, could not be interpreted. Perhaps it is "
-"empty?</qt>"
-msgstr ""
-"<qt><i>&#39;%1&#39;</i> इति प्लेलिस्ट् व्याख्यातुं न शक्यते स्म । कदाचित् "
-"शून्यम् अस्ति ?</qt>"
-
-#: src/app/playlistFile.cpp:70
-#, kde-format
-msgid "Dragon Player could not open the file: %1"
-msgstr "Dragon Player सञ्चिकां उद्घाटयितुं न शक्तवान्: %1"
-
-#: src/app/theStream.cpp:145
-#, kde-format
-msgid "Track %1/%2"
-msgstr "%1/%2 इति पटलम्"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: misc/dragonplayerui.rc:4
-#. i18n: ectx: Menu (file)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Play"
-msgstr "&क्रीडतु"
-
-#: misc/dragonplayerui.rc:5
-#. i18n: ectx: Menu (play_media_menu)
-#, kde-format
-msgctxt "@title:menu"
-msgid "Play Media"
-msgstr "प्ले मीडिया"
-
-#: misc/dragonplayerui.rc:20
-#. i18n: ectx: Menu (settings)
-#, kde-format
-msgctxt "@title:menu"
-msgid "&Settings"
-msgstr "&सेटिंग्स"
-
 #: src/app/mainWindow.cpp:138
 #, kde-format
 msgctxt "@title:menu"
@@ -239,23 +224,48 @@ msgctxt "@title:menu"
 msgid "&Subtitles"
 msgstr "&उपशीर्षक"
 
-#: src/app/actions.cpp:24
+#: src/app/mainWindow.cpp:153
 #, kde-format
-msgctxt "@action"
-msgid "Play"
-msgstr "क्रीडतु"
+msgctxt "@option:radio aspect ratio"
+msgid "Determine &Automatically"
+msgstr "&स्वचालितरूपेण निर्धारयतु"
 
-#: src/app/actions.cpp:25
+#: src/app/mainWindow.cpp:154
 #, kde-format
-msgctxt "@action"
-msgid "Pause"
-msgstr "विराम"
+msgctxt "@option:radio aspect ratio"
+msgid "&4:3"
+msgstr "&4:3"
+
+#: src/app/mainWindow.cpp:155
+#, kde-format
+msgctxt "@option:radio aspect ratio"
+msgid "Ana&morphic (16:9)"
+msgstr "अन&मोर्फिक (१६:९) २."
+
+#: src/app/mainWindow.cpp:156
+#, kde-format
+msgctxt "@option:radio aspect ratio"
+msgid "&Window Size"
+msgstr "&विण्डो आकार"
+
+#: src/app/mainWindow.cpp:237
+#, kde-format
+msgid ""
+"<qt>Phonon could not be successfully initialized. Dragon Player will now "
+"exit.</qt>"
+msgstr "<qt>फोनोन् सफलतया आरम्भं कर्तुं न शक्तवान् । ड्रैगन प्लेयर इदानीं निर्गमिष्यति।</qt>"
 
 #: src/app/mainWindow.cpp:300
 #, kde-format
 msgctxt "@action"
 msgid "Play File…"
 msgstr "प्ले सञ्चिका…"
+
+#: src/app/mainWindow.cpp:301
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Open a media file for playback"
+msgstr "प्लेबैक् कृते मीडिया सञ्चिकां उद्घाटयन्तु"
 
 #: src/app/mainWindow.cpp:310
 #, kde-format
@@ -287,6 +297,12 @@ msgctxt "@action"
 msgid "Stop"
 msgstr "विरमतु"
 
+#: src/app/mainWindow.cpp:356
+#, kde-format
+msgctxt "@action Mute the sound output"
+msgid "Mute"
+msgstr "मूक"
+
 #: src/app/mainWindow.cpp:362
 #, kde-format
 msgctxt "@action"
@@ -298,6 +314,37 @@ msgstr "विडियो स्केल पुनः सेट् कुर�
 msgctxt "@action"
 msgid "Menu Toggle"
 msgstr "मेनू टॉगल"
+
+#: src/app/mainWindow.cpp:376 src/app/part.cpp:54
+#, kde-format
+msgid "Position Slider"
+msgstr "स्थिति स्लाइडर"
+
+#: src/app/mainWindow.cpp:380
+#, kde-format
+msgctxt "@option:check"
+msgid "Video Settings"
+msgstr "विडियो सेटिंग्स्"
+
+#: src/app/mainWindow.cpp:388
+#, kde-format
+msgctxt ""
+"@option:check Whether only one instance of dragon can be started and will be "
+"reused when the user tries to play another file."
+msgid "One Instance Only"
+msgstr "एकः दृष्टान्तः एव"
+
+#: src/app/mainWindow.cpp:396
+#, kde-format
+msgctxt "@action previous chapter"
+msgid "Previous"
+msgstr "पूर्वतनम्‌"
+
+#: src/app/mainWindow.cpp:402
+#, kde-format
+msgctxt "@action next chapter"
+msgid "Next"
+msgstr "अग्रिम"
 
 #: src/app/mainWindow.cpp:409
 #, no-c-format, kde-format
@@ -323,57 +370,16 @@ msgctxt "@action"
 msgid "Go 10 Seconds Forward"
 msgstr "१० सेकेण्ड् अग्रे गच्छतु"
 
-#: src/app/actions.cpp:40
+#: src/app/mainWindow.cpp:508
 #, kde-format
-msgctxt "@option:check Volume of sound output"
-msgid "Volume"
-msgstr "मात्रा"
+msgctxt "@option:check Mute the sound output"
+msgid "Mute"
+msgstr "मूक"
 
-#: src/app/adjustSizeButton.cpp:38
+#: src/app/mainWindow.cpp:580
 #, kde-format
-msgctxt "@action:button"
-msgid "Preferred Scale"
-msgstr "प्राथमिकता स्केल"
-
-#: src/app/adjustSizeButton.cpp:42
-#, kde-format
-msgctxt "@action:button"
-msgid "Scale 100%"
-msgstr "स्केल १००% २."
-
-#: src/app/videoSettingsWidget.ui:128
-#. i18n: ectx: property (text), widget (QPushButton, defaultsButton)
-#, kde-format
-msgctxt "@action:button"
-msgid "Restore Defaults"
-msgstr "पूर्वनिर्धारितं पुनः स्थापयतु"
-
-#: src/app/videoSettingsWidget.ui:135
-#. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#, kde-format
-msgctxt "@action:button"
-msgid "Close"
-msgstr "पिधानं करोतु"
-
-#: src/app/discSelectionDialog.cpp:37
-#, kde-format
-msgctxt ""
-"%1 is the disc type, %2 is the name of the disc that the user can choose. "
-"Ex. 'DVD: OfficeSpace'"
-msgid "%1: %2"
-msgstr "%1: %2"
-
-#: src/app/discSelectionDialog.cpp:56
-#, kde-format
-msgctxt "Digital Versatile Disc, but keep it short"
-msgid "DVD"
-msgstr "DVD"
-
-#: src/app/discSelectionDialog.cpp:73
-#, kde-format
-msgctxt "@title:window"
-msgid "Select a Disc"
-msgstr "एकं डिस्कं चिनोतु"
+msgid "Dragon Player was asked to open an empty URL; it cannot."
+msgstr "Dragon Player इत्यस्मै रिक्तं URL उद्घाटयितुं कथितम् आसीत्; न शक्नोति ।"
 
 #: src/app/mainWindow.cpp:657
 #, kde-format
@@ -387,79 +393,16 @@ msgctxt "@title:window"
 msgid "Stream to Play"
 msgstr "स्ट्रीम टू प्ले"
 
-#: src/app/mainWindow.cpp:153
-#, kde-format
-msgctxt "@option:radio aspect ratio"
-msgid "Determine &Automatically"
-msgstr "&स्वचालितरूपेण निर्धारयतु"
-
-#: src/app/mainWindow.cpp:154
-#, kde-format
-msgctxt "@option:radio aspect ratio"
-msgid "&4:3"
-msgstr "&4:3"
-
-#: src/app/mainWindow.cpp:155
-#, kde-format
-msgctxt "@option:radio aspect ratio"
-msgid "Ana&morphic (16:9)"
-msgstr "अन&मोर्फिक (१६:९) २."
-
-#: src/app/mainWindow.cpp:156
-#, kde-format
-msgctxt "@option:radio aspect ratio"
-msgid "&Window Size"
-msgstr "&विण्डो आकार"
-
-#: src/app/mainWindow.cpp:301
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Open a media file for playback"
-msgstr "प्लेबैक् कृते मीडिया सञ्चिकां उद्घाटयन्तु"
-
-#: src/app/mainWindow.cpp:356
-#, kde-format
-msgctxt "@action Mute the sound output"
-msgid "Mute"
-msgstr "मूक"
-
-#: src/app/mainWindow.cpp:380
-#, kde-format
-msgctxt "@option:check"
-msgid "Video Settings"
-msgstr "विडियो सेटिंग्स्"
-
-#: src/app/mainWindow.cpp:388
-#, kde-format
-msgctxt ""
-"@option:check Whether only one instance of dragon can be started and will "
-"be reused when the user tries to play another file."
-msgid "One Instance Only"
-msgstr "एकः दृष्टान्तः एव"
-
-#: src/app/mainWindow.cpp:396
-#, kde-format
-msgctxt "@action previous chapter"
-msgid "Previous"
-msgstr "पूर्वतनम्‌"
-
-#: src/app/mainWindow.cpp:402
-#, kde-format
-msgctxt "@action next chapter"
-msgid "Next"
-msgstr "अग्रिम"
-
-#: src/app/mainWindow.cpp:508
-#, kde-format
-msgctxt "@option:check Mute the sound output"
-msgid "Mute"
-msgstr "मूक"
-
 #: src/app/mainWindow.cpp:684
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Stream:"
 msgstr "धारा:"
+
+#: src/app/mainWindow.cpp:814
+#, kde-format
+msgid "Sorry, no media was found in the drop"
+msgstr "क्षम्यतां, बून्दे कोऽपि माध्यमः न प्राप्तः"
 
 #: src/app/mainWindow.cpp:867
 #, kde-format
@@ -467,33 +410,86 @@ msgctxt "Notification inhibition reason"
 msgid "Playing a video"
 msgstr "एकं विडियो वादयन्"
 
-#: src/app/videoSettingsWidget.ui:19
+#: src/app/mainWindow.cpp:914
+#, kde-format
+msgid "No media loaded"
+msgstr "न मीडिया लोड् अभवत्"
+
+#: src/app/mainWindow.cpp:916
+#, kde-format
+msgid "Paused"
+msgstr "विरामः कृतः"
+
+#: src/app/playlistFile.cpp:37
+#, kde-format
+msgid "The file is not a playlist"
+msgstr "सञ्चिका प्लेलिस्ट् नास्ति"
+
+#: src/app/playlistFile.cpp:45
+#, kde-format
+msgid "Dragon Player could not download the remote playlist: %1"
+msgstr "Dragon Player दूरस्थं प्लेलिस्ट् डाउनलोड् कर्तुं न शक्तवान्: %1"
+
+#: src/app/playlistFile.cpp:66
+#, kde-format
+msgid ""
+"<qt>The playlist, <i>'%1'</i>, could not be interpreted. Perhaps it is empty?"
+"</qt>"
+msgstr ""
+"<qt><i>&#39;%1&#39;</i> इति प्लेलिस्ट् व्याख्यातुं न शक्यते स्म । कदाचित् शून्यम् अस्ति ?</"
+"qt>"
+
+#: src/app/playlistFile.cpp:70
+#, kde-format
+msgid "Dragon Player could not open the file: %1"
+msgstr "Dragon Player सञ्चिकां उद्घाटयितुं न शक्तवान्: %1"
+
+#: src/app/theStream.cpp:145
+#, kde-format
+msgid "Track %1/%2"
+msgstr "%1/%2 इति पटलम्"
+
 #. i18n: ectx: property (text), widget (QLabel, brightnessLabel)
+#: src/app/videoSettingsWidget.ui:19
 #, kde-format
 msgctxt "@label:slider"
 msgid "Brightness:"
 msgstr "कान्तिः : १."
 
-#: src/app/videoSettingsWidget.ui:42
 #. i18n: ectx: property (text), widget (QLabel, contrastLabel)
+#: src/app/videoSettingsWidget.ui:42
 #, kde-format
 msgctxt "@label:slider"
 msgid "Contrast:"
 msgstr "विप्रकर्ष:"
 
-#: src/app/videoSettingsWidget.ui:65
 #. i18n: ectx: property (text), widget (QLabel, hueLabel)
+#: src/app/videoSettingsWidget.ui:65
 #, kde-format
 msgctxt "@label:slider"
 msgid "Hue:"
 msgstr "ह्युः : १."
 
-#: src/app/videoSettingsWidget.ui:88
 #. i18n: ectx: property (text), widget (QLabel, saturationLabel)
+#: src/app/videoSettingsWidget.ui:88
 #, kde-format
 msgctxt "@label:slider"
 msgid "Saturation:"
 msgstr "संतृप्ति : १."
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultsButton)
+#: src/app/videoSettingsWidget.ui:128
+#, kde-format
+msgctxt "@action:button"
+msgid "Restore Defaults"
+msgstr "पूर्वनिर्धारितं पुनः स्थापयतु"
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: src/app/videoSettingsWidget.ui:135
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "पिधानं करोतु"
 
 #: src/app/videoWindow.cpp:107
 #, kde-format

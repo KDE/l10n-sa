@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the marble package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,45 +14,57 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#: Bookmarks.qml:20
+#, kde-format
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "बुकमार्क्स"
 
 #: Bookmarks.qml:69
 #, kde-format
 msgid "Your bookmarks will appear here."
 msgstr "भवतः पुस्तकचिह्नानि अत्र दृश्यन्ते।"
 
-#: config.kcfg:14
 #. i18n: ectx: label, entry (MapThemeId), group (General)
+#: config.kcfg:14
 #, kde-format
 msgid "The marble theme id"
 msgstr "संगमरमरस्य विषयः id"
 
-#: config.kcfg:20
 #. i18n: ectx: label, entry (Profile), group (Routing)
+#: config.kcfg:20
 #, kde-format
 msgid "Routing profile"
 msgstr "रूटिंग प्रोफाइल"
 
-#: config.kcfg:23
 #. i18n: ectx: label, entry (Profile), group (Routing)
+#: config.kcfg:23
 #, kde-format
 msgid "Car"
 msgstr "कारयानम्‌"
 
-#: config.kcfg:26 ProfileSelectorMenu.qml:134
 #. i18n: ectx: label, entry (Profile), group (Routing)
+#: config.kcfg:26 ProfileSelectorMenu.qml:134
 #, kde-format
 msgid "Bicycle"
 msgstr "द्विचक्रिका"
 
-#: config.kcfg:29 ProfileSelectorMenu.qml:144
 #. i18n: ectx: label, entry (Profile), group (Routing)
+#: config.kcfg:29 ProfileSelectorMenu.qml:144
 #, kde-format
 msgid "Pedestrian"
 msgstr "पदयात्री"
+
+#: CurrentPosition.qml:54
+#, kde-format
+msgctxt "@option:check"
+msgid "Follow Current Position"
+msgstr "वर्तमान स्थिति अनुसरण करें"
 
 #: main.cpp:42 MainScreen.qml:21 MainScreen.qml:190
 #, kde-format
@@ -79,6 +91,18 @@ msgstr "कार्ल स्वान्"
 msgid "Developer"
 msgstr "विकासकः"
 
+#: main.cpp:58
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#: main.cpp:58
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
 #: MainScreen.qml:87
 #, kde-format
 msgid "Public Transport"
@@ -88,6 +112,36 @@ msgstr "सार्वजनिक परिवहन"
 #, kde-format
 msgid "Outdoor Activities"
 msgstr "बहिः क्रियाकलापाः"
+
+#: MainScreen.qml:114
+#, kde-format
+msgctxt "@action:button"
+msgid "Accessibility"
+msgstr "सुलभता"
+
+#: MainScreen.qml:123
+#, kde-format
+msgctxt "@action:button"
+msgid "About"
+msgstr "विषये"
+
+#: MainScreen.qml:134
+#, kde-format
+msgctxt "@action:button"
+msgid "Bookmarks"
+msgstr "बुकमार्क्स"
+
+#: MainScreen.qml:145
+#, kde-format
+msgctxt "@action:button"
+msgid "Layer Options"
+msgstr "स्तर विकल्प"
+
+#: MainScreen.qml:156
+#, kde-format
+msgctxt "@action:button"
+msgid "Theme Options"
+msgstr "विषयविकल्पाः"
 
 #: MainScreen.qml:167
 #, kde-format
@@ -99,31 +153,23 @@ msgstr "मार्गनिर्धारणम्"
 msgid "%1 km"
 msgstr "%1 कि.मी"
 
-#: Options.qml:64
+#: NavigationInfoBar.qml:20
 #, kde-format
-msgid "Outdoor Activities Layers"
-msgstr "बहिः क्रियाकलापाः स्तराः"
+msgctxt "distance in km"
+msgid "%1 km"
+msgstr "%1 कि.मी"
 
-#: ProfileSelectorMenu.qml:124
+#: NavigationInfoBar.qml:22
 #, kde-format
-msgid "Car (fastest)"
-msgstr "कार (वेगतम) २."
+msgctxt "distance in m"
+msgid "%1 m"
+msgstr "%1 मी"
 
-#: SettingsDialog.qml:48
+#: NavigationInfoBar.qml:24
 #, kde-format
-msgid "Network Settings"
-msgstr "संजालसेटिंग्स्"
-
-#: SettingsDialog.qml:53
-#, kde-format
-msgid "Download Maps via WLAN only"
-msgstr "केवलं WLAN मार्गेण नक्शाः डाउनलोड् कुर्वन्तु"
-
-#: Bookmarks.qml:20
-#, kde-format
-msgctxt "@title:window"
-msgid "Bookmarks"
-msgstr "बुकमार्क्स"
+msgctxt "distance in m with decimals"
+msgid "%1 m"
+msgstr "%1 मी"
 
 #: Options.qml:20
 #, kde-format
@@ -131,17 +177,11 @@ msgctxt "@title:window"
 msgid "Layer Options"
 msgstr "स्तर विकल्प"
 
-#: ThemeConfigPage.qml:19
+#: Options.qml:23
 #, kde-format
-msgctxt "@title:window"
-msgid "Themes"
-msgstr "विषयाः"
-
-#: CurrentPosition.qml:54
-#, kde-format
-msgctxt "@option:check"
-msgid "Follow Current Position"
-msgstr "वर्तमान स्थिति अनुसरण करें"
+msgctxt "@title:group"
+msgid "Public Transport Layers"
+msgstr "सार्वजनिक परिवहन स्तर"
 
 #: Options.qml:28
 #, kde-format
@@ -172,6 +212,11 @@ msgstr "बस"
 msgctxt "@option:check"
 msgid "Trolley Bus"
 msgstr "ट्रॉली बस"
+
+#: Options.qml:64
+#, kde-format
+msgid "Outdoor Activities Layers"
+msgstr "बहिः क्रियाकलापाः स्तराः"
 
 #: Options.qml:69
 #, kde-format
@@ -209,71 +254,11 @@ msgctxt "@option:check"
 msgid "Bridleways"
 msgstr "लङ्घनमार्गः"
 
-#: main.cpp:58
+#: PlacemarkDialog.qml:48
 #, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#: main.cpp:58
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: MainScreen.qml:114
-#, kde-format
-msgctxt "@action:button"
-msgid "Accessibility"
-msgstr "सुलभता"
-
-#: MainScreen.qml:123
-#, kde-format
-msgctxt "@action:button"
-msgid "About"
-msgstr "विषये"
-
-#: MainScreen.qml:134
-#, kde-format
-msgctxt "@action:button"
-msgid "Bookmarks"
-msgstr "बुकमार्क्स"
-
-#: MainScreen.qml:145
-#, kde-format
-msgctxt "@action:button"
-msgid "Layer Options"
-msgstr "स्तर विकल्प"
-
-#: MainScreen.qml:156
-#, kde-format
-msgctxt "@action:button"
-msgid "Theme Options"
-msgstr "विषयविकल्पाः"
-
-#: NavigationInfoBar.qml:20
-#, kde-format
-msgctxt "distance in km"
-msgid "%1 km"
-msgstr "%1 कि.मी"
-
-#: NavigationInfoBar.qml:22
-#, kde-format
-msgctxt "distance in m"
-msgid "%1 m"
-msgstr "%1 मी"
-
-#: NavigationInfoBar.qml:24
-#, kde-format
-msgctxt "distance in m with decimals"
-msgid "%1 m"
-msgstr "%1 मी"
-
-#: Options.qml:23
-#, kde-format
-msgctxt "@title:group"
-msgid "Public Transport Layers"
-msgstr "सार्वजनिक परिवहन स्तर"
+msgctxt "placeholder"
+msgid "No Name"
+msgstr "न नाम"
 
 #: PlacemarkDialog.qml:168
 #, kde-format
@@ -281,11 +266,10 @@ msgctxt "@title:group"
 msgid "Tags:"
 msgstr "टैग्स:"
 
-#: PlacemarkDialog.qml:48
+#: ProfileSelectorMenu.qml:124
 #, kde-format
-msgctxt "placeholder"
-msgid "No Name"
-msgstr "न नाम"
+msgid "Car (fastest)"
+msgstr "कार (वेगतम) २."
 
 #: RouteEditorPage.qml:19
 #, kde-format
@@ -316,3 +300,19 @@ msgstr "मार्गबिन्दुः १."
 msgctxt "@label:listbox"
 msgid "Alternatives:"
 msgstr "विकल्पाः : १."
+
+#: SettingsDialog.qml:48
+#, kde-format
+msgid "Network Settings"
+msgstr "संजालसेटिंग्स्"
+
+#: SettingsDialog.qml:53
+#, kde-format
+msgid "Download Maps via WLAN only"
+msgstr "केवलं WLAN मार्गेण नक्शाः डाउनलोड् कुर्वन्तु"
+
+#: ThemeConfigPage.qml:19
+#, kde-format
+msgctxt "@title:window"
+msgid "Themes"
+msgstr "विषयाः"

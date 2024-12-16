@@ -2,7 +2,7 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kconfigwidgets package.
 # Kali <EMAIL@ADDRESS>, 2024.
-# 
+#
 # SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
@@ -14,10 +14,32 @@ msgstr ""
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "भवतः नामानि"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "भवतः ईमेलपत्राणि"
+
+#: kcodecaction.cpp:62
+#, kde-format
+msgctxt "Encodings menu"
+msgid "Default"
+msgstr "मूलभूतम्‌"
+
+#: kcodecaction.cpp:70
+#, kde-format
+msgctxt "Encodings menu"
+msgid "Autodetect"
+msgstr "ऑटोडिटेक्ट्"
 
 #: kcolorschememenu.cpp:24
 #, kde-format
@@ -34,6 +56,37 @@ msgstr "प्रदर्शयितुं आदेशाः नास्त�
 msgid "No commands matching the filter"
 msgstr "फ़िल्टरस्य मेलनं कुर्वन्तः आदेशाः नास्ति"
 
+#: kconfigdialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "विन्यस्तं कुर्वन्तु"
+
+#: khamburgermenu.cpp:126
+#, kde-format
+msgctxt "@action:inmenu General purpose menu"
+msgid "&Menu"
+msgstr "&मेनू"
+
+#: khamburgermenu.cpp:329
+#, kde-format
+msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
+msgid "Show &Menubar with All Actions"
+msgstr "सर्वेषां क्रियाभिः सह &Menubar दर्शयतु"
+
+#: khamburgermenu.cpp:355
+#, kde-format
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "More"
+msgstr "अधिकः"
+
+#: khamburgermenu.cpp:356
+#, kde-format
+msgctxt ""
+"@action:inmenu A section heading advertising the contents of the menu bar"
+msgid "More Actions"
+msgstr "अधिकानि क्रियाः"
+
 #: krecentfilesaction.cpp:78
 #, kde-format
 msgid "No Entries"
@@ -43,6 +96,24 @@ msgstr "प्रविष्टयः नास्ति"
 #, kde-format
 msgid "Clear List"
 msgstr "स्पष्ट सूची"
+
+#: kstandardaction.cpp:157
+#, kde-format
+msgctxt "go back"
+msgid "&Back"
+msgstr "&पृष्ठभागः"
+
+#: kstandardaction.cpp:164
+#, kde-format
+msgctxt "go forward"
+msgid "&Forward"
+msgstr "&अग्रतः"
+
+#: kstandardaction.cpp:171
+#, kde-format
+msgctxt "home page"
+msgid "&Home"
+msgstr "&गृहम्‌"
 
 #: kstandardaction.cpp:230
 #, kde-format
@@ -55,8 +126,8 @@ msgid ""
 "Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
 "window used for status information.</p>"
 msgstr ""
-"स्थितिपट्टिकां दर्शयतु<p> स्थितिपट्टिकां दर्शयति, यत् स्थितिसूचनार्थं "
-"प्रयुक्तं विण्डो इत्यस्य अधः स्थितं पट्टिका अस्ति ।</p>"
+"स्थितिपट्टिकां दर्शयतु<p> स्थितिपट्टिकां दर्शयति, यत् स्थितिसूचनार्थं प्रयुक्तं विण्डो इत्यस्य "
+"अधः स्थितं पट्टिका अस्ति ।</p>"
 
 #: kstandardaction_p.h:63
 msgid "&New"
@@ -454,73 +525,3 @@ msgstr "अनुप्रयोगशैली"
 #, kde-format
 msgid "Default"
 msgstr "मूलभूतम्‌"
-
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "भवतः नामानि"
-
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
-
-#: kcodecaction.cpp:62
-#, kde-format
-msgctxt "Encodings menu"
-msgid "Default"
-msgstr "मूलभूतम्‌"
-
-#: kcodecaction.cpp:70
-#, kde-format
-msgctxt "Encodings menu"
-msgid "Autodetect"
-msgstr "ऑटोडिटेक्ट्"
-
-#: kconfigdialog.cpp:37
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "विन्यस्तं कुर्वन्तु"
-
-#: khamburgermenu.cpp:126
-#, kde-format
-msgctxt "@action:inmenu General purpose menu"
-msgid "&Menu"
-msgstr "&मेनू"
-
-#: khamburgermenu.cpp:329
-#, kde-format
-msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
-msgid "Show &Menubar with All Actions"
-msgstr "सर्वेषां क्रियाभिः सह &Menubar दर्शयतु"
-
-#: khamburgermenu.cpp:355
-#, kde-format
-msgctxt "@action:inmenu A menu text advertising its contents (more features)."
-msgid "More"
-msgstr "अधिकः"
-
-#: khamburgermenu.cpp:356
-#, kde-format
-msgctxt "@action:inmenu A section heading advertising the contents of the menu bar"
-msgid "More Actions"
-msgstr "अधिकानि क्रियाः"
-
-#: kstandardaction.cpp:157
-#, kde-format
-msgctxt "go back"
-msgid "&Back"
-msgstr "&पृष्ठभागः"
-
-#: kstandardaction.cpp:164
-#, kde-format
-msgctxt "go forward"
-msgid "&Forward"
-msgstr "&अग्रतः"
-
-#: kstandardaction.cpp:171
-#, kde-format
-msgctxt "home page"
-msgid "&Home"
-msgstr "&गृहम्‌"

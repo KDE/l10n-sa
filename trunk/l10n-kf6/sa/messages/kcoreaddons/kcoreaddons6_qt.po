@@ -7,7 +7,7 @@ msgstr ""
 "Language-Team: Sanskrit, skkalwar999@gmail.com\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
 "X-Qt-Contexts: true\n"
@@ -69,11 +69,11 @@ msgstr "अयं कार्यक्रमः %1 इत्यस्य शर
 #, qt-format
 msgctxt "KAboutLicense|"
 msgid ""
-"You can find the full term <a href=\"https://spdx.org/licenses/%1.html\">the SPDX "
-"website</a>"
+"You can find the full term <a href=\"https://spdx.org/licenses/%1.html\">the "
+"SPDX website</a>"
 msgstr ""
-"भवन्तः पूर्णपदं <a href=\"https://spdx.org/licenses/%1.html\">SPDX वेबसाइट्</a> द्रष्टुं "
-"शक्नुवन्ति"
+"भवन्तः पूर्णपदं <a href=\"https://spdx.org/licenses/%1.html\">SPDX वेबसाइट्</a> "
+"द्रष्टुं शक्नुवन्ति"
 
 #: lib/kaboutdata.cpp:292
 msgctxt "KAboutLicense|"
@@ -91,13 +91,28 @@ msgctxt "KAboutLicense|@item license (short name)"
 msgid "GPL v2"
 msgstr "GPL संस्करणसङ्ख्या २"
 
+#: lib/kaboutdata.cpp:345
+msgctxt "KAboutLicense|@item license"
+msgid "GNU General Public License Version 2"
+msgstr "GNU सामान्यसार्वजनिक अनुज्ञापत्रसंस्करणम् २"
+
 #: lib/kaboutdata.cpp:348
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "LGPL v2"
 msgstr "LGPL संस्करणसङ्ख्या २"
 
+#: lib/kaboutdata.cpp:349
+msgctxt "KAboutLicense|@item license"
+msgid "GNU Lesser General Public License Version 2"
+msgstr "GNU न्यूनसामान्यसार्वजनिक अनुज्ञापत्र संस्करण २"
+
 #: lib/kaboutdata.cpp:352
 msgctxt "KAboutLicense|@item license (short name)"
+msgid "BSD License"
+msgstr "BSD अनुज्ञापत्रम्"
+
+#: lib/kaboutdata.cpp:353
+msgctxt "KAboutLicense|@item license"
 msgid "BSD License"
 msgstr "BSD अनुज्ञापत्रम्"
 
@@ -106,23 +121,48 @@ msgctxt "KAboutLicense|@item license (short name)"
 msgid "Artistic License"
 msgstr "कलात्मक अनुज्ञापत्र"
 
+#: lib/kaboutdata.cpp:357
+msgctxt "KAboutLicense|@item license"
+msgid "Artistic License"
+msgstr "कलात्मक अनुज्ञापत्र"
+
 #: lib/kaboutdata.cpp:360
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "GPL v3"
 msgstr "GPL संस्करणसङ्ख्या ३"
+
+#: lib/kaboutdata.cpp:361
+msgctxt "KAboutLicense|@item license"
+msgid "GNU General Public License Version 3"
+msgstr "GNU सामान्यसार्वजनिक अनुज्ञापत्रसंस्करणम् ३"
 
 #: lib/kaboutdata.cpp:364
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "LGPL v3"
 msgstr "LGPL संस्करणसङ्ख्या ३"
 
+#: lib/kaboutdata.cpp:365
+msgctxt "KAboutLicense|@item license"
+msgid "GNU Lesser General Public License Version 3"
+msgstr "GNU न्यूनसामान्यसार्वजनिक अनुज्ञापत्र संस्करण ३"
+
 #: lib/kaboutdata.cpp:368
 msgctxt "KAboutLicense|@item license (short name)"
 msgid "LGPL v2.1"
 msgstr "LGPL संस्करणसङ्ख्या २.१"
 
+#: lib/kaboutdata.cpp:369
+msgctxt "KAboutLicense|@item license"
+msgid "GNU Lesser General Public License Version 2.1"
+msgstr "GNU न्यूनसामान्यसार्वजनिक अनुज्ञापत्र संस्करण २.१"
+
 #: lib/kaboutdata.cpp:372
 msgctxt "KAboutLicense|@item license (short name)"
+msgid "MIT License"
+msgstr "MIT अनुज्ञापत्रम्"
+
+#: lib/kaboutdata.cpp:373
+msgctxt "KAboutLicense|@item license"
 msgid "MIT License"
 msgstr "MIT अनुज्ञापत्रम्"
 
@@ -131,95 +171,55 @@ msgctxt "KAboutLicense|@item license (short name)"
 msgid "CC0"
 msgstr "सीसी०"
 
-#: lib/kaboutdata.cpp:380
-msgctxt "KAboutLicense|@item license (short name)"
-msgid "ODbL v1.0"
-msgstr "ODbL v1.0"
-
-#: lib/kaboutdata.cpp:384
-msgctxt "KAboutLicense|@item license (short name)"
-msgid "Apache 2.0"
-msgstr "अपाचे २.०"
-
-#: lib/kaboutdata.cpp:388
-msgctxt "KAboutLicense|@item license (short name)"
-msgid "FTL"
-msgstr "FTL"
-
-#: lib/kaboutdata.cpp:392
-msgctxt "KAboutLicense|@item license (short name)"
-msgid "Boost License"
-msgstr "Boost अनुज्ञापत्रम्"
-
-#: lib/kaboutdata.cpp:396
-msgctxt "KAboutLicense|@item license (short name)"
-msgid "BSD-3-Clause"
-msgstr "BSD-3-खण्डः"
-
-#: lib/kaboutdata.cpp:345
-msgctxt "KAboutLicense|@item license"
-msgid "GNU General Public License Version 2"
-msgstr "GNU सामान्यसार्वजनिक अनुज्ञापत्रसंस्करणम् २"
-
-#: lib/kaboutdata.cpp:349
-msgctxt "KAboutLicense|@item license"
-msgid "GNU Lesser General Public License Version 2"
-msgstr "GNU न्यूनसामान्यसार्वजनिक अनुज्ञापत्र संस्करण २"
-
-#: lib/kaboutdata.cpp:353
-msgctxt "KAboutLicense|@item license"
-msgid "BSD License"
-msgstr "BSD अनुज्ञापत्रम्"
-
-#: lib/kaboutdata.cpp:357
-msgctxt "KAboutLicense|@item license"
-msgid "Artistic License"
-msgstr "कलात्मक अनुज्ञापत्र"
-
-#: lib/kaboutdata.cpp:361
-msgctxt "KAboutLicense|@item license"
-msgid "GNU General Public License Version 3"
-msgstr "GNU सामान्यसार्वजनिक अनुज्ञापत्रसंस्करणम् ३"
-
-#: lib/kaboutdata.cpp:365
-msgctxt "KAboutLicense|@item license"
-msgid "GNU Lesser General Public License Version 3"
-msgstr "GNU न्यूनसामान्यसार्वजनिक अनुज्ञापत्र संस्करण ३"
-
-#: lib/kaboutdata.cpp:369
-msgctxt "KAboutLicense|@item license"
-msgid "GNU Lesser General Public License Version 2.1"
-msgstr "GNU न्यूनसामान्यसार्वजनिक अनुज्ञापत्र संस्करण २.१"
-
-#: lib/kaboutdata.cpp:373
-msgctxt "KAboutLicense|@item license"
-msgid "MIT License"
-msgstr "MIT अनुज्ञापत्रम्"
-
 #: lib/kaboutdata.cpp:377
 msgctxt "KAboutLicense|@item license"
 msgid "Creative Commons Zero"
 msgstr "क्रिएटिव कॉमन्स शून्य"
+
+#: lib/kaboutdata.cpp:380
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "ODbL v1.0"
+msgstr "ODbL v1.0"
 
 #: lib/kaboutdata.cpp:381
 msgctxt "KAboutLicense|@item license"
 msgid "Open Data Commons Open Database License v1.0"
 msgstr "ओपन डाटा कॉमन्स् ओपन डाटाबेस लाइसेंस v1.0"
 
+#: lib/kaboutdata.cpp:384
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "Apache 2.0"
+msgstr "अपाचे २.०"
+
 #: lib/kaboutdata.cpp:385
 msgctxt "KAboutLicense|@item license"
 msgid "Apache License 2.0"
 msgstr "अपाचे अनुज्ञापत्र 2.0"
+
+#: lib/kaboutdata.cpp:388
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "FTL"
+msgstr "FTL"
 
 #: lib/kaboutdata.cpp:389
 msgctxt "KAboutLicense|@item license"
 msgid "Freetype Project License"
 msgstr "Freetype परियोजना अनुज्ञापत्रम्"
 
+#: lib/kaboutdata.cpp:392
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "Boost License"
+msgstr "Boost अनुज्ञापत्रम्"
+
 #: lib/kaboutdata.cpp:393
 msgctxt "KAboutLicense|@item license"
 msgid "Boost Software License 1.0"
 msgstr "सॉफ्टवेयर अनुज्ञापत्रं वर्धयन्तु 1.0"
+
+#: lib/kaboutdata.cpp:396
+msgctxt "KAboutLicense|@item license (short name)"
+msgid "BSD-3-Clause"
+msgstr "BSD-3-खण्डः"
 
 #: lib/kaboutdata.cpp:397
 msgctxt "KAboutLicense|@item license"
@@ -239,13 +239,14 @@ msgstr "न निर्दिष्टम्"
 #: lib/kaboutdata.cpp:986
 msgctxt "KAboutData|replace this with information about your translation team"
 msgid ""
-"<p>KDE is translated into many languages thanks to the work of the translation "
-"teams all over the world.</p><p>For more information on KDE internationalization "
-"visit <a href=\"https://l10n.kde.org\">https://l10n.kde.org</a></p>"
+"<p>KDE is translated into many languages thanks to the work of the "
+"translation teams all over the world.</p><p>For more information on KDE "
+"internationalization visit <a href=\"https://l10n.kde.org\">https://l10n.kde."
+"org</a></p>"
 msgstr ""
 "<p>सम्पूर्णे विश्वे अनुवाददलानां कार्यस्य कारणेन KDE अनेकभाषासु अनुवादितं भवति ।.</p><p>KDE "
-"अन्तर्राष्ट्रीयकरणस्य विषये अधिकविवरणार्थम् प्रत्यगमनम् <a href=\"https://"
-"l10n.kde.org\">https://l10n.kde.org</a></p>"
+"अन्तर्राष्ट्रीयकरणस्य विषये अधिकविवरणार्थम् प्रत्यगमनम् <a href=\"https://l10n.kde.org"
+"\">https://l10n.kde.org</a></p>"
 
 #: lib/kaboutdata.cpp:1219
 msgctxt "KAboutData CLI|"
@@ -806,6 +807,13 @@ msgctxt "KFormat|"
 msgid "%1 and %2"
 msgstr "%1 च %2"
 
+#: lib/util/kformatprivate.cpp:484
+msgctxt ""
+"KFormat|used when a relative date string can't be generated because the date "
+"is invalid"
+msgid "Invalid date"
+msgstr "अमान्य तिथि"
+
 #: lib/util/kformatprivate.cpp:494
 msgctxt "KFormat|"
 msgid "In two days"
@@ -851,13 +859,6 @@ msgstr[1] "%n निमेषपूर्वम्"
 msgctxt "KFormat|"
 msgid "%1 at %2"
 msgstr "%1 %2 इत्यत्र"
-
-#: lib/util/kformatprivate.cpp:484
-msgctxt ""
-"KFormat|used when a relative date string can't be generated because the date is "
-"invalid"
-msgid "Invalid date"
-msgstr "अमान्य तिथि"
 
 #: lib/util/klistopenfilesjob_unix.cpp:39
 #, qt-format
