@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-18 00:42+0000\n"
-"PO-Revision-Date: 2024-12-14 01:12+0530\n"
+"PO-Revision-Date: 2024-12-19 22:17+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -17,51 +17,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Lokalize 24.08.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #: PowerButtonActionModel.cpp:32
 #, kde-format
 msgid "Do nothing"
-msgstr ""
+msgstr "किमपि न कुरु"
 
 #: PowerButtonActionModel.cpp:41
 #, kde-format
 msgctxt "Suspend to RAM"
 msgid "Sleep"
-msgstr ""
+msgstr "शयनं करोतु"
 
 #: PowerButtonActionModel.cpp:51
 #, kde-format
 msgid "Hibernate"
-msgstr ""
+msgstr "शीतनिद्रा"
 
 #: PowerButtonActionModel.cpp:60
 #, kde-format
 msgctxt "Power down the computer"
 msgid "Shut down"
-msgstr ""
+msgstr "निरुद्धं कुरुत"
 
 #: PowerButtonActionModel.cpp:68
 #, kde-format
 msgid "Lock screen"
-msgstr ""
+msgstr "स्क्रीन् लॉक् कुर्वन्तु"
 
 #: PowerButtonActionModel.cpp:76
 #, kde-format
 msgid "Show logout screen"
-msgstr ""
+msgstr "लॉगआउट् स्क्रीन् दर्शयतु"
 
 #: PowerButtonActionModel.cpp:84
-#, fuzzy, kde-format
-#| msgctxt "@label:combobox After X minutes"
-#| msgid "&Turn off screen:"
+#, kde-format
 msgid "Turn off screen"
-msgstr "&पर्दे निष्क्रियं कुर्वन्तु:"
+msgstr "स्क्रीनम् अवरम्भयन्तु"
 
 #: PowerButtonActionModel.cpp:92
 #, kde-format
 msgid "Toggle screen on/off"
-msgstr ""
+msgstr "स्क्रीन चालू/बन्दं कुर्वन्तु"
 
 #: PowerKCM.cpp:458
 #, kde-format
@@ -72,58 +70,58 @@ msgstr "विद्युत्प्रबन्धनसेवा न प्�
 #, kde-format
 msgctxt "@option:combobox Power profile"
 msgid "Power Save"
-msgstr ""
+msgstr "शक्तिं रक्षतु"
 
 #: PowerProfileModel.cpp:41
 #, kde-format
 msgctxt "@option:combobox Power profile"
 msgid "Balanced"
-msgstr ""
+msgstr "सन्तुलितम्"
 
 #: PowerProfileModel.cpp:42
 #, kde-format
 msgctxt "@option:combobox Power profile"
 msgid "Performance"
-msgstr ""
+msgstr "प्रदर्शनम्‌"
 
 #: PowerProfileModel.cpp:47
 #, kde-format
 msgid "Leave unchanged"
-msgstr ""
+msgstr "अपरिवर्तितं त्यजतु"
 
 #: SleepModeModel.cpp:21
 #, kde-format
 msgctxt "Suspend to RAM"
 msgid "Standby"
-msgstr ""
+msgstr "स्टैंडबाई"
 
 #: SleepModeModel.cpp:22
 #, kde-format
 msgctxt "Subtitle description for 'Standby' sleep option"
 msgid "Save session to memory"
-msgstr ""
+msgstr "सत्रं स्मृतौ रक्षन्तु"
 
 #: SleepModeModel.cpp:29
 #, kde-format
 msgid "Hybrid sleep"
-msgstr ""
+msgstr "संकरनिद्रा"
 
 #: SleepModeModel.cpp:30
 #, kde-format
 msgctxt "Subtitle description for 'Hybrid sleep' sleep option"
 msgid "Save session to both memory and disk"
-msgstr ""
+msgstr "सत्रं स्मृति-डिस्क-योः मध्ये रक्षन्तु"
 
 #: SleepModeModel.cpp:37
 #, kde-format
 msgid "Standby, then hibernate"
-msgstr ""
+msgstr "स्टैण्डबाई, ततः हाइबरनेट"
 
 #: SleepModeModel.cpp:38
 #, kde-format
 msgctxt "Subtitle description for 'Standby, then hibernate' sleep option"
 msgid "Switch to hibernation after a period of inactivity"
-msgstr ""
+msgstr "निष्क्रियतायाः अवधिपश्चात् शीतनिद्रां प्रति गच्छन्तु"
 
 #: ui/DurationPromptDialog.qml:130
 #, kde-format
@@ -245,11 +243,9 @@ msgstr "उन्नत शक्ति सेटिंग्स्"
 
 #: ui/GlobalConfig.qml:21
 #, kde-format
-msgctxt ""
-"Percentage value example, used for formatting battery levels in the power "
-"management settings"
+msgctxt "Percentage value example, used for formatting battery levels in the power management settings"
 msgid "10%"
-msgstr "१०% २."
+msgstr "१०%"
 
 #: ui/GlobalConfig.qml:57
 #, kde-format
@@ -259,10 +255,9 @@ msgstr "बैटरी स्तर"
 
 #: ui/GlobalConfig.qml:65
 #, kde-format
-msgctxt ""
-"@label:spinbox Low battery level percentage for the main power supply battery"
+msgctxt "@label:spinbox Low battery level percentage for the main power supply battery"
 msgid "&Low level:"
-msgstr "&निम्नस्तरः : १."
+msgstr "&निम्नस्तरः :"
 
 #: ui/GlobalConfig.qml:73
 #, kde-format
@@ -274,19 +269,17 @@ msgstr "बैटरी स्तरः न्यूनः"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"The battery charge will be considered low when it drops to this level. "
-"Settings for low battery will be used instead of regular battery settings."
+"The battery charge will be considered low when it drops to this level. Settings for low battery will "
+"be used instead of regular battery settings."
 msgstr ""
-"यदा बैटरी-चार्जः अस्मिन् स्तरे पतति तदा न्यूनः इति गण्यते । नियमितबैटरीसेटिंग्स् इत्यस्य स्थाने "
-"न्यूनबैटरी इत्यस्य सेटिङ्ग्स् उपयुज्यन्ते ।"
+"यदा बैटरी-चार्जः अस्मिन् स्तरे पतति तदा न्यूनः इति गण्यते । नियमितबैटरीसेटिंग्स् इत्यस्य स्थाने न्यूनबैटरी इत्यस्य सेटिङ्ग्स् "
+"उपयुज्यन्ते ।"
 
 #: ui/GlobalConfig.qml:105
 #, kde-format
-msgctxt ""
-"@label:spinbox Critical battery level percentage for the main power supply "
-"battery"
+msgctxt "@label:spinbox Critical battery level percentage for the main power supply battery"
 msgid "Cr&itical level:"
-msgstr "Cr&itical स्तरः : १."
+msgstr "Cr&itical स्तरः :"
 
 #: ui/GlobalConfig.qml:113
 #, kde-format
@@ -298,31 +291,28 @@ msgstr "गम्भीर बैटरी स्तर"
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"The battery charge will be considered critical when it drops to this level. "
-"After a brief warning, the system will automatically suspend or shut down, "
-"according to the configured critical battery level action."
+"The battery charge will be considered critical when it drops to this level. After a brief warning, "
+"the system will automatically suspend or shut down, according to the configured critical battery "
+"level action."
 msgstr ""
-"यदा बैटरी-चार्जः अस्मिन् स्तरे पतति तदा महत्त्वपूर्णः इति गण्यते । संक्षिप्तचेतावनीयाः अनन्तरं "
-"विन्यस्तस्य महत्त्वपूर्णस्य बैटरीस्तरस्य क्रियायाः अनुसारं प्रणाली स्वयमेव निलम्बयिष्यति वा "
-"निष्क्रियं वा करिष्यति ।"
+"यदा बैटरी-चार्जः अस्मिन् स्तरे पतति तदा महत्त्वपूर्णः इति गण्यते । संक्षिप्तचेतावनीयाः अनन्तरं विन्यस्तस्य महत्त्वपूर्णस्य "
+"बैटरीस्तरस्य क्रियायाः अनुसारं प्रणाली स्वयमेव निलम्बयिष्यति वा निष्क्रियं वा करिष्यति ।"
 
 #: ui/GlobalConfig.qml:147
 #, kde-format
 msgctxt "@info:status"
 msgid ""
-"The action you had previously configured for reaching the critical battery "
-"level is now unsupported on your system. Please select a different one."
-msgstr ""
-"भवता पूर्वं महत्त्वपूर्णबैटरीस्तरं प्राप्तुं विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् अस्ति "
-"। कृपया भिन्नं चिनुत।"
+"The action you had previously configured for reaching the critical battery level is now unsupported "
+"on your system. Please select a different one."
+msgstr "भवता पूर्वं महत्त्वपूर्णबैटरीस्तरं प्राप्तुं विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् अस्ति । कृपया भिन्नं चिनुत।"
 
 #: ui/GlobalConfig.qml:154
 #, kde-format
 msgctxt ""
-"@label:combobox Power action such as sleep/hibernate that will be executed "
-"when the critical battery level is reached"
+"@label:combobox Power action such as sleep/hibernate that will be executed when the critical battery "
+"level is reached"
 msgid "A&t critical level:"
-msgstr "ए एण्ड टी क्रिटिकल लेवल : १."
+msgstr "ए एण्ड टी क्रिटिकल लेवल :"
 
 #: ui/GlobalConfig.qml:156
 #, kde-format
@@ -334,7 +324,7 @@ msgstr "गम्भीरबैटरीस्तरस्य कृतक्�
 #, kde-format
 msgctxt "@label:spinbox Low battery level percentage for peripheral devices"
 msgid "Low level for peripheral d&evices:"
-msgstr "परिधीय d&evices कृते निम्नस्तरः : १."
+msgstr "परिधीय d&evices कृते निम्नस्तरः :"
 
 #: ui/GlobalConfig.qml:189
 #, kde-format
@@ -345,9 +335,7 @@ msgstr "परिधीययन्त्राणां कृते न्य�
 #: ui/GlobalConfig.qml:214
 #, kde-format
 msgctxt "@info:whatsthis"
-msgid ""
-"The battery charge for peripheral devices will be considered low when it "
-"reaches this level."
+msgid "The battery charge for peripheral devices will be considered low when it reaches this level."
 msgstr "परिधीययन्त्राणां बैटरीचार्जः न्यूनः इति गण्यते यदा एतत् स्तरं प्राप्नोति ।"
 
 #: ui/GlobalConfig.qml:222
@@ -360,7 +348,7 @@ msgstr "शुल्क सीमा"
 #, kde-format
 msgctxt "@label:checkbox"
 msgid "&Battery protection:"
-msgstr "&बैटरी रक्षणम् : १."
+msgstr "&बैटरी रक्षणम् :"
 
 #: ui/GlobalConfig.qml:234
 #, kde-format
@@ -370,17 +358,15 @@ msgstr "अधिकतमं बैटरीचार्जं सीमित�
 
 #: ui/GlobalConfig.qml:242
 #, kde-format
-msgctxt ""
-"@label:spinbox Battery will stop charging when this charge percentage is "
-"reached"
+msgctxt "@label:spinbox Battery will stop charging when this charge percentage is reached"
 msgid "&Stop charging at:"
 msgstr "&अत्र चार्जिंगं स्थगयन्तु:"
 
 #: ui/GlobalConfig.qml:268
 #, kde-format
 msgctxt ""
-"@label:spinbox Battery will start charging again when this charge percentage "
-"is reached, after having hit the stop-charging threshold earlier"
+"@label:spinbox Battery will start charging again when this charge percentage is reached, after having "
+"hit the stop-charging threshold earlier"
 msgid "Start charging once &below:"
 msgstr "एकवारं &अधः चार्जिंग् आरभत:"
 
@@ -388,27 +374,22 @@ msgstr "एकवारं &अधः चार्जिंग् आरभत:"
 #, kde-format
 msgctxt "@info:status"
 msgid ""
-"You might have to disconnect and re-connect the power source to start "
-"charging the battery again."
+"You might have to disconnect and re-connect the power source to start charging the battery again."
 msgstr "पुनः बैटरी चार्जं आरभ्यतुं भवद्भिः शक्तिस्रोतं विच्छिद्य पुनः संयोजयितुं शक्यते ।"
 
 #: ui/GlobalConfig.qml:336
 #, kde-format
 msgctxt "@info"
 msgid ""
-"Regularly charging the battery close to 100%, or fully discharging it, may "
-"accelerate deterioration of battery health. By limiting the maximum battery "
-"charge, you can help extend the battery lifespan."
+"Regularly charging the battery close to 100%, or fully discharging it, may accelerate deterioration "
+"of battery health. By limiting the maximum battery charge, you can help extend the battery lifespan."
 msgstr ""
-"नियमितरूपेण बैटरी 100% समीपे चार्जं कृत्वा, अथवा पूर्णतया डिस्चार्जं कृत्वा, बैटरी स्वास्थ्यस्य "
-"क्षयः त्वरितुं शक्नोति । अधिकतमं बैटरी-चार्जं सीमितं कृत्वा भवान् बैटरी-आयुः विस्तारयितुं "
-"साहाय्यं कर्तुं शक्नोति ।"
+"नियमितरूपेण बैटरी 100% समीपे चार्जं कृत्वा, अथवा पूर्णतया डिस्चार्जं कृत्वा, बैटरी स्वास्थ्यस्य क्षयः त्वरितुं शक्नोति । "
+"अधिकतमं बैटरी-चार्जं सीमितं कृत्वा भवान् बैटरी-आयुः विस्तारयितुं साहाय्यं कर्तुं शक्नोति ।"
 
 #: ui/GlobalConfig.qml:344
 #, kde-format
-msgctxt ""
-"@title:group Miscellaneous power management settings that didn't fit "
-"elsewhere"
+msgctxt "@title:group Miscellaneous power management settings that didn't fit elsewhere"
 msgid "Other Settings"
 msgstr "अन्ये सेटिङ्ग्स्"
 
@@ -428,7 +409,7 @@ msgstr "निलम्बनकाले मीडियाप्लेयर�
 #, kde-format
 msgctxt "@label:button"
 msgid "Related pages:"
-msgstr "सम्बन्धित पृष्ठ : १."
+msgstr "सम्बन्धित पृष्ठ :"
 
 #: ui/GlobalConfig.qml:381
 #, kde-format
@@ -493,8 +474,7 @@ msgstr "न्यून बैटरी पर"
 #: ui/ProfileConfig.qml:24
 #, kde-format
 msgctxt ""
-"Percentage value example, used for formatting brightness levels in the power "
-"management settings"
+"Percentage value example, used for formatting brightness levels in the power management settings"
 msgid "10%"
 msgstr "१०% २."
 
@@ -508,19 +488,15 @@ msgstr "सत्रं निलम्बयतु"
 #, kde-format
 msgctxt "@info:status"
 msgid ""
-"The action you had previously configured to happen when inactive is now "
-"unsupported on your system. Please select a different one."
-msgstr ""
-"भवता पूर्वं निष्क्रियसमये भवितुं विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् अस्ति । कृपया "
-"भिन्नं चिनुत।"
+"The action you had previously configured to happen when inactive is now unsupported on your system. "
+"Please select a different one."
+msgstr "भवता पूर्वं निष्क्रियसमये भवितुं विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् अस्ति । कृपया भिन्नं चिनुत।"
 
 #: ui/ProfileConfig.qml:55
 #, kde-format
-msgctxt ""
-"@label:combobox Suspend action such as sleep/hibernate to perform when the "
-"system is idle"
+msgctxt "@label:combobox Suspend action such as sleep/hibernate to perform when the system is idle"
 msgid "When &inactive:"
-msgstr "यदा &निष्क्रियः : १."
+msgstr "यदा &निष्क्रियः :"
 
 #: ui/ProfileConfig.qml:63
 #, kde-format
@@ -544,11 +520,9 @@ msgid_plural "After %1 minutes"
 msgstr[0] "%1 निमेषस्य अनन्तरं"
 msgstr[1] "%1 निमेषेभ्यः अनन्तरं"
 
-#: ui/ProfileConfig.qml:109 ui/ProfileConfig.qml:381 ui/ProfileConfig.qml:522
-#: ui/ProfileConfig.qml:830
+#: ui/ProfileConfig.qml:109 ui/ProfileConfig.qml:381 ui/ProfileConfig.qml:522 ui/ProfileConfig.qml:830
 #, kde-format
-msgctxt ""
-"@option:combobox Choose a custom value outside the list of preset values"
+msgctxt "@option:combobox Choose a custom value outside the list of preset values"
 msgid "Custom…"
 msgstr "आचारः…"
 
@@ -556,17 +530,14 @@ msgstr "आचारः…"
 #, kde-format
 msgctxt "@info:status"
 msgid ""
-"The action you had previously configured for when the power button is "
-"pressed is now unsupported on your system. Please select a different one."
-msgstr ""
-"भवता पूर्वं यदा शक्तिबटनं निपीड्यते तदा विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् "
-"अस्ति । कृपया भिन्नं चिनुत।"
+"The action you had previously configured for when the power button is pressed is now unsupported on "
+"your system. Please select a different one."
+msgstr "भवता पूर्वं यदा शक्तिबटनं निपीड्यते तदा विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् अस्ति । कृपया भिन्नं चिनुत।"
 
 #: ui/ProfileConfig.qml:154
 #, kde-format
 msgctxt ""
-"@label:combobox Suspend action such as sleep/hibernate to perform when the "
-"power button is pressed"
+"@label:combobox Suspend action such as sleep/hibernate to perform when the power button is pressed"
 msgid "When &power button pressed:"
 msgstr "यदा &power बटनं नुदति:"
 
@@ -580,17 +551,14 @@ msgstr "शक्तिबटनं नुदने सति कर्तुं
 #, kde-format
 msgctxt "@info:status"
 msgid ""
-"The action you had previously configured for when the lid is closed is now "
-"unsupported on your system. Please select a different one."
-msgstr ""
-"भवता पूर्वं ढक्कनस्य निमीलनस्य समये विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् अस्ति । "
-"कृपया भिन्नं चिनुत।"
+"The action you had previously configured for when the lid is closed is now unsupported on your "
+"system. Please select a different one."
+msgstr "भवता पूर्वं ढक्कनस्य निमीलनस्य समये विन्यस्तं कार्यं इदानीं भवतः प्रणाल्यां असमर्थितम् अस्ति । कृपया भिन्नं चिनुत।"
 
 #: ui/ProfileConfig.qml:193
 #, kde-format
 msgctxt ""
-"@label:combobox Suspend action such as sleep/hibernate to perform when the "
-"power button is pressed"
+"@label:combobox Suspend action such as sleep/hibernate to perform when the power button is pressed"
 msgid "When laptop &lid closed:"
 msgstr "यदा लैपटॉप &lid बन्दः अभवत्:"
 
@@ -602,9 +570,7 @@ msgstr "यदा लैपटॉपस्य ढक्कनं पिहित
 
 #: ui/ProfileConfig.qml:224
 #, kde-format
-msgctxt ""
-"@text:checkbox Trigger laptop lid action even when an external monitor is "
-"connected"
+msgctxt "@text:checkbox Trigger laptop lid action even when an external monitor is connected"
 msgid "Even when an external monitor is connected"
 msgstr "यदा बाह्यनिरीक्षकः संयोजितः भवति तदा अपि"
 
@@ -617,16 +583,13 @@ msgstr "बाह्यनिरीक्षकः संयोजितः अ�
 #, kde-format
 msgctxt "@info:status"
 msgid ""
-"The sleep mode you had previously configured is now unsupported on your "
-"system. Please select a different one."
-msgstr ""
-"भवता पूर्वं विन्यस्तः निद्राविधिः इदानीं भवतः प्रणाल्यां असमर्थितः अस्ति । कृपया भिन्नं "
-"चिनुत।"
+"The sleep mode you had previously configured is now unsupported on your system. Please select a "
+"different one."
+msgstr "भवता पूर्वं विन्यस्तः निद्राविधिः इदानीं भवतः प्रणाल्यां असमर्थितः अस्ति । कृपया भिन्नं चिनुत।"
 
 #: ui/ProfileConfig.qml:251
 #, kde-format
-msgctxt ""
-"@label:combobox Sleep mode selection - suspend to memory, disk or both"
+msgctxt "@label:combobox Sleep mode selection - suspend to memory, disk or both"
 msgid "When sleeping, enter:"
 msgstr "सुप्तसमये प्रविशतु : १."
 
@@ -685,8 +648,7 @@ msgstr "कदापि न"
 #: ui/ProfileConfig.qml:426
 #, kde-format
 msgctxt "@info:status"
-msgid ""
-"The screen will not be dimmed because it is configured to turn off sooner."
+msgid "The screen will not be dimmed because it is configured to turn off sooner."
 msgstr "शीघ्रं निष्क्रियं कर्तुं विन्यस्तं भवति इति कारणेन पटलः मन्दः न भविष्यति ।"
 
 #: ui/ProfileConfig.qml:431
@@ -726,8 +688,8 @@ msgstr "कदापि न"
 #: ui/ProfileConfig.qml:463
 #, kde-format
 msgctxt ""
-"@option:combobox Choose a custom value outside the list of preset values "
-"(caution: watch for string length)"
+"@option:combobox Choose a custom value outside the list of preset values (caution: watch for string "
+"length)"
 msgid "Custom…"
 msgstr "आचारः…"
 
@@ -756,8 +718,8 @@ msgstr[1] "यदा ताडितम् अस्ति: %1 निमेष�
 #: ui/ProfileConfig.qml:515
 #, kde-format
 msgctxt ""
-"@option:combobox Turn off screen after X minutes regardless of lock screen "
-"(caution: watch for string length)"
+"@option:combobox Turn off screen after X minutes regardless of lock screen (caution: watch for string "
+"length)"
 msgid "When locked and unlocked"
 msgstr "यदा तालं कृत्वा अनलॉक् भवति"
 
@@ -782,16 +744,15 @@ msgstr "अन्ये सेटिङ्ग्स्"
 #: ui/ProfileConfig.qml:611
 #, kde-format
 msgctxt ""
-"@label:combobox Power Save, Balanced or Performance profile - same options "
-"as in the Battery applet"
+"@label:combobox Power Save, Balanced or Performance profile - same options as in the Battery applet"
 msgid "Switch to po&wer profile:"
 msgstr "po&wer profile इत्यत्र स्विच कुर्वन्तु:"
 
 #: ui/ProfileConfig.qml:615
 #, kde-format
 msgctxt ""
-"@accessible:name:combobox Power Save, Balanced or Performance profile - same "
-"options as in the Battery applet"
+"@accessible:name:combobox Power Save, Balanced or Performance profile - same options as in the "
+"Battery applet"
 msgid "Switch to power profile"
 msgstr "शक्तिप्रोफाइलं प्रति स्विच् कुर्वन्तु"
 
@@ -803,9 +764,7 @@ msgstr "आदेशं वा स्क्रिप्ट् वा चाल�
 
 #: ui/ProfileConfig.qml:652
 #, kde-format
-msgctxt ""
-"@text:button Determine what will trigger a command or script to run in this "
-"power state"
+msgctxt "@text:button Determine what will trigger a command or script to run in this power state"
 msgid "Choose run conditions"
 msgstr "run conditions इति चिनोतु"
 
@@ -817,17 +776,13 @@ msgstr "आदेशस्य अथवा स्क्रिप्ट् कृ
 
 #: ui/ProfileConfig.qml:674
 #, kde-format
-msgctxt ""
-"@text:action:menu Command or script to run for power state (On AC Power, On "
-"Battery, ...)"
+msgctxt "@text:action:menu Command or script to run for power state (On AC Power, On Battery, ...)"
 msgid "When entering \"%1\" state"
 msgstr "\"%1\" अवस्थां प्रविशति"
 
 #: ui/ProfileConfig.qml:692
 #, kde-format
-msgctxt ""
-"@text:action:menu Command or script to run for power state (On AC Power, On "
-"Battery, ...)"
+msgctxt "@text:action:menu Command or script to run for power state (On AC Power, On Battery, ...)"
 msgid "When exiting \"%1\" state"
 msgstr "\"%1\" अवस्थायाः निर्गमनसमये"
 
@@ -839,9 +794,7 @@ msgstr "यदा निष्क्रियः"
 
 #: ui/ProfileConfig.qml:733
 #, kde-format
-msgctxt ""
-"@label:textfield Command or script to run for power state (On AC Power, On "
-"Battery, ...)"
+msgctxt "@label:textfield Command or script to run for power state (On AC Power, On Battery, ...)"
 msgid "When e&ntering \"%1\" state:"
 msgstr "\"%1\" अवस्थां e&nter करणसमये:"
 
@@ -853,9 +806,7 @@ msgstr "\"%1\" अवस्थां प्रविशन् आदेशः �
 
 #: ui/ProfileConfig.qml:768
 #, kde-format
-msgctxt ""
-"@label:textfield Command or script to run for power state (On AC Power, On "
-"Battery, ...)"
+msgctxt "@label:textfield Command or script to run for power state (On AC Power, On Battery, ...)"
 msgid "When e&xiting \"%1\" state:"
 msgstr "यदा \"%1\" अवस्थातः बहिः गच्छति:"
 

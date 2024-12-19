@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kiten\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-22 01:34+0000\n"
-"PO-Revision-Date: 2024-12-14 01:42+0530\n"
+"PO-Revision-Date: 2024-12-19 21:41+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -361,7 +361,8 @@ msgid ""
 "0=No filter, 1=Limit search results to \"common\" entries only, 2=Separate "
 "common and uncommon entries"
 msgstr ""
-"0=कोऽपि फ़िल्टरः नास्ति, 1=अन्वेषणपरिणामान् केवलं \"सामान्य\"-प्रविष्टिषु सीमितं कुर्वन्तु, "
+"0=कोऽपि फ़िल्टरः नास्ति, 1=अन्वेषणपरिणामान् केवलं \"सामान्य\"-प्रविष्टिषु सीमि"
+"तं कुर्वन्तु, "
 "2=सामान्य-असामान्य-प्रविष्टयः पृथक् कुर्वन्तु"
 
 #. i18n: ectx: label, entry, group (app)
@@ -371,7 +372,8 @@ msgid ""
 "The user's last type of search, 0=Exact, 1=Match Start, 2=Match End, 3=Match "
 "Anywhere"
 msgstr ""
-"उपयोक्तुः अन्तिमः प्रकारः अन्वेषणः, 0=सटीकः, 1=मेलनप्रारम्भः, 2=मेलनसमाप्तिः, 3=कुत्रापि "
+"उपयोक्तुः अन्तिमः प्रकारः अन्वेषणः, 0=सटीकः, 1=मेलनप्रारम्भः, 2=मेलनसमाप्तिः, "
+"3=कुत्रापि "
 "मेलनं कुर्वन्तु"
 
 #. i18n: ectx: label, entry, group (app)
@@ -381,7 +383,8 @@ msgid ""
 "The user's last type of search, 0=Any, 1=Verb, 2=Noun, 3=Adjective, "
 "4=Adverb, 5=Prefix, 6=Suffix, 7=Expression"
 msgstr ""
-"प्रयोक्तुः अन्तिमप्रकारः अन्वेषणः, ०=कोऽपि, १=क्रियापदः, २=संज्ञा, ३=विशेषणः, ४=विशेषणः, "
+"प्रयोक्तुः अन्तिमप्रकारः अन्वेषणः, ०=कोऽपि, १=क्रियापदः, २=संज्ञा, ३=विशेषणः, "
+"४=विशेषणः, "
 "५=उपसर्गः, ६=प्रत्ययः, ७=व्यञ्जनम्"
 
 #. i18n: ectx: label, entry, group (app)
@@ -465,8 +468,10 @@ msgid ""
 "generator.\n"
 "Also is main author of edict and kanjidic, which Kiten essentially require."
 msgstr ""
-"xjdic लिखितवान्, यस्य Kiten कोडं ऋणं गृह्णाति, xjdic अनुक्रमणिका सञ्चिका जनरेटर् च ।\n"
-"अपि च आज्ञापत्रस्य कञ्जिदिकस्य च मुख्यलेखकः अस्ति, यस्य किटेन् अनिवार्यतया आवश्यकः अस्ति ।"
+"xjdic लिखितवान्, यस्य Kiten कोडं ऋणं गृह्णाति, xjdic अनुक्रमणिका सञ्चिका जनरेट"
+"र् च ।\n"
+"अपि च आज्ञापत्रस्य कञ्जिदिकस्य च मुख्यलेखकः अस्ति, यस्य किटेन् अनिवार्यतया आवश"
+"्यकः अस्ति ।"
 
 #: app/main.cpp:48
 #, kde-format
@@ -715,17 +720,17 @@ msgstr "ओन्योमिः १."
 #: kanjibrowser/kanjibrowserview.cpp:309
 #, kde-format
 msgid "Kunyomi: "
-msgstr "विडम्बना अस्ति यत् : १. "
+msgstr "विडम्बना अस्ति यत् : "
 
 #: kanjibrowser/kanjibrowserview.cpp:317 lib/DictKanjidic/entrykanjidic.cpp:148
 #, kde-format
 msgid "In names: "
-msgstr "नामेषु : १. "
+msgstr "नामेषु : "
 
 #: kanjibrowser/kanjibrowserview.cpp:325 lib/DictKanjidic/entrykanjidic.cpp:153
 #, kde-format
 msgid "As radical: "
-msgstr "यथा कट्टरपंथी : १. "
+msgstr "यथा कट्टरपंथी : "
 
 #: kanjibrowser/kanjibrowserview.cpp:332
 #, kde-format
@@ -735,7 +740,7 @@ msgstr "अर्थ: "
 #: kanjibrowser/kanjibrowserview.cpp:334
 #, kde-format
 msgid "Meanings: "
-msgstr "अर्थ : १. "
+msgstr "अर्थ : "
 
 #: kanjibrowser/main.cpp:23
 #, kde-format
@@ -849,14 +854,17 @@ msgstr "विशेषणं"
 #, kde-format
 msgid ""
 "Verb deinflection information not found, so verb deinflection cannot be used."
-msgstr "क्रियाविभक्तिसूचना न प्राप्यते, अतः क्रियाविविभक्तिः प्रयोक्तुं न शक्यते।"
+msgstr ""
+"क्रियाविभक्तिसूचना न प्राप्यते, अतः क्रियाविविभक्तिः प्रयोक्तुं न शक्यते।"
 
 #: lib/DictEdict/deinflection.cpp:154
 #, kde-format
 msgid ""
 "Verb deinflection information could not be loaded, so verb deinflection "
 "cannot be used."
-msgstr "क्रियाविभक्तिसूचना लोड् कर्तुं न शक्यते स्म, अतः क्रियाविविभक्तिः उपयोक्तुं न शक्यते ।"
+msgstr ""
+"क्रियाविभक्तिसूचना लोड् कर्तुं न शक्यते स्म, अतः क्रियाविविभक्तिः उपयोक्तुं न "
+"शक्यते ।"
 
 #: lib/DictEdict/dictfilefieldselector.cpp:28
 #, kde-format
@@ -899,7 +907,7 @@ msgstr "कोऽपि कट्टरपंथी चयनितः नास
 #: radselect/buttongrid.cpp:149
 #, kde-format
 msgid "Selected Radicals: "
-msgstr "चयनित कट्टरपंथी : १. "
+msgstr "चयनित कट्टरपंथी : "
 
 #: radselect/main.cpp:26
 #, kde-format
@@ -923,8 +931,10 @@ msgid ""
 "are the property of the Electronic Dictionary Research and Development "
 "Group, and are used in conformance with the Group's licence."
 msgstr ""
-"अयं कार्यक्रमः KANJIDIC तथा RADKFILE शब्दकोशसञ्चिकानां उपयोगं करोति । एताः सञ्चिकाः "
-"इलेक्ट्रॉनिकशब्दकोशसंशोधनविकाससमूहस्य सम्पत्तिः सन्ति, समूहस्य अनुज्ञापत्रस्य अनुरूपं च उपयुज्यन्ते "
+"अयं कार्यक्रमः KANJIDIC तथा RADKFILE शब्दकोशसञ्चिकानां उपयोगं करोति । एताः सञ्"
+"चिकाः "
+"इलेक्ट्रॉनिकशब्दकोशसंशोधनविकाससमूहस्य सम्पत्तिः सन्ति, समूहस्य अनुज्ञापत्रस्य "
+"अनुरूपं च उपयुज्यन्ते "
 "।"
 
 #: radselect/main.cpp:44
@@ -1013,7 +1023,8 @@ msgid ""
 "Kanji radical information does not seem to be installed (file kiten/"
 "radkfile), this file is required for this app to function."
 msgstr ""
-"कान्जी कट्टरपंथी सूचना संस्थापिता न दृश्यते (file kiten/radkfile), एतस्य एप्लिकेशनस्य "
+"कान्जी कट्टरपंथी सूचना संस्थापिता न दृश्यते (file kiten/radkfile), एतस्य एप्लि"
+"केशनस्य "
 "कार्यं कर्तुं एषा सञ्चिका आवश्यकी अस्ति।"
 
 #: radselect/radselectview.cpp:45
@@ -1022,7 +1033,8 @@ msgid ""
 "Kanji dictionary does not seem to be installed (file kiten/kanjidic), stroke "
 "count information will be unavailable."
 msgstr ""
-"कान्जी शब्दकोशः संस्थापितः न दृश्यते (file kiten/kanjidic), स्ट्रोकगणनासूचना अनुपलब्धा "
+"कान्जी शब्दकोशः संस्थापितः न दृश्यते (file kiten/kanjidic), स्ट्रोकगणनासूचना अ"
+"नुपलब्धा "
 "भविष्यति।"
 
 #: radselect/radselectview.cpp:61
