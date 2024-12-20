@@ -3,26 +3,29 @@
 # This file is distributed under the same license as the kdevelop package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:28+0000\n"
-"PO-Revision-Date: 2024-12-13 19:10+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:52+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #: executeplugin.cpp:68
 #, kde-format
 msgid ""
 "There is a quoting error in the arguments for the launch configuration '%1'. "
 "Aborting start."
-msgstr "'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः उद्धरणदोषः अस्ति । गर्भपातस्य आरम्भः।"
+msgstr ""
+"'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः उद्धरणदोषः अस्ति । गर्भपातस्य आरम्भः।"
 
 #: executeplugin.cpp:72
 #, kde-format
@@ -30,7 +33,8 @@ msgid ""
 "A shell meta character was included in the arguments for the launch "
 "configuration '%1', this is not supported currently. Aborting start."
 msgstr ""
-"'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः एकः शेल् मेटा वर्णः समाविष्टः आसीत्, एतत् सम्प्रति "
+"'%1' इत्यस्य प्रक्षेपणविन्यासस्य तर्कयोः एकः शेल् मेटा वर्णः समाविष्टः आसीत्, "
+"एतत् सम्प्रति "
 "समर्थितं नास्ति । गर्भपातस्य आरम्भः।"
 
 #: executeplugin.cpp:99
@@ -49,7 +53,8 @@ msgid ""
 "There is a quoting error in the executable for the launch configuration "
 "'%1'. Aborting start."
 msgstr ""
-"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कार्यान्वयनयोग्ये उद्धरणदोषः अस्ति । गर्भपातस्य आरम्भः।"
+"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कार्यान्वयनयोग्ये उद्धरणदोषः अस्ति । गर्भपातस"
+"्य आरम्भः।"
 
 #: executeplugin.cpp:169
 #, kde-format
@@ -57,7 +62,8 @@ msgid ""
 "A shell meta character was included in the executable for the launch "
 "configuration '%1', this is not supported currently. Aborting start."
 msgstr ""
-"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कृते कार्यान्वयनीयमध्ये एकः शेल् मेटा वर्णः समाविष्टः आसीत्, "
+"'%1' इत्यस्य प्रक्षेपणविन्यासस्य कृते कार्यान्वयनीयमध्ये एकः शेल् मेटा वर्णः स"
+"माविष्टः आसीत्, "
 "एतत् सम्प्रति समर्थितं नास्ति । गर्भपातस्य आरम्भः।"
 
 #: nativeappconfig.cpp:104
@@ -117,14 +123,14 @@ msgstr "निष्पादनीयम्"
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Project &target:"
-msgstr "परियोजना &लक्ष्यम् : १."
+msgstr "परियोजना &लक्ष्यम् :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: nativeappconfig.ui:81
 #, kde-format
 msgctxt "@label:chooser"
 msgid "E&xecutable:"
-msgstr "ई&निष्पादनीयः : १."
+msgstr "ई&निष्पादनीयः :"
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, executablePath)
 #: nativeappconfig.ui:106
@@ -138,7 +144,8 @@ msgstr "निष्पादनीयं वा /मार्गं/निष�
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Enter the executable name or the absolute path to the executable file"
-msgstr "कार्यान्वयनीयं नाम अथवा कार्यान्वयनीयसञ्चिकायाः निरपेक्षमार्गं प्रविशन्तु"
+msgstr ""
+"कार्यान्वयनीयं नाम अथवा कार्यान्वयनीयसञ्चिकायाः निरपेक्षमार्गं प्रविशन्तु"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: nativeappconfig.ui:121
@@ -152,7 +159,7 @@ msgstr "व्यवहार"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Ar&guments:"
-msgstr "तर्काः : १."
+msgstr "तर्काः :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, arguments)
 #: nativeappconfig.ui:137
@@ -163,8 +170,10 @@ msgid ""
 "pass arguments containing space characters by putting them in double-quotes."
 "</p></body></html>"
 msgstr ""
-"<html><head/><body><p>एक्जीक्यूटिव् इत्यस्मै दातुं आर्गुमेण्ट् प्रविशन्तु ।<br/> भवन्तः "
-"रिक्तस्थानवर्णयुक्तान् तर्कान् द्विगुण-उद्धरणेषु स्थापयित्वा पारयितुं शक्नुवन्ति ।</p></body></"
+"<html><head/><body><p>एक्जीक्यूटिव् इत्यस्मै दातुं आर्गुमेण्ट् प्रविशन्तु ।<br"
+"/> भवन्तः "
+"रिक्तस्थानवर्णयुक्तान् तर्कान् द्विगुण-उद्धरणेषु स्थापयित्वा पारयितुं शक्नुवन्"
+"ति ।</p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -172,7 +181,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Working &directory:"
-msgstr "कार्य &निर्देशिका : १."
+msgstr "कार्य &निर्देशिका :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, workingDirectory)
 #: nativeappconfig.ui:154
@@ -205,9 +214,12 @@ msgid ""
 "interact with applications requiring user input from a terminal emulator. To "
 "run such applications, you should use an external terminal.</p>"
 msgstr ""
-"<p>पूर्वनिर्धारितरूपेण अनुप्रयोगाः पृष्ठभूमितः चालिताः भविष्यन्ति तथा च केवलं तेषां उत्पादनं "
-"साधनदृश्ये प्रदर्शितं भविष्यति । एतेन टर्मिनल् एमुलेटर् इत्यस्मात् उपयोक्तृनिवेशस्य आवश्यकतां "
-"विद्यमानानाम् अनुप्रयोगैः सह अन्तरक्रिया कर्तुं असम्भवं भवति । एतादृशान् अनुप्रयोगान् चालयितुं "
+"<p>पूर्वनिर्धारितरूपेण अनुप्रयोगाः पृष्ठभूमितः चालिताः भविष्यन्ति तथा च केवलं "
+"तेषां उत्पादनं "
+"साधनदृश्ये प्रदर्शितं भविष्यति । एतेन टर्मिनल् एमुलेटर् इत्यस्मात् उपयोक्तृनिव"
+"ेशस्य आवश्यकतां "
+"विद्यमानानाम् अनुप्रयोगैः सह अन्तरक्रिया कर्तुं असम्भवं भवति । एतादृशान् अनुप्"
+"रयोगान् चालयितुं "
 "भवद्भिः बाह्य-टर्मिनल् उपयोक्तव्यम् ।</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, runInTerminal)
@@ -215,7 +227,7 @@ msgstr ""
 #, kde-format
 msgctxt "@option:check"
 msgid "Use external terminal:"
-msgstr "बाह्यटर्मिनलस्य उपयोगं कुर्वन्तु : १."
+msgstr "बाह्यटर्मिनलस्य उपयोगं कुर्वन्तु :"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, terminal)
 #: nativeappconfig.ui:234
@@ -232,10 +244,14 @@ msgid ""
 "</dl>\n"
 "<p>The arguments defined above will get appended to this command.</p>"
 msgstr ""
-"<p>बाह्य टर्मिनल् एमुलेटर् निष्पादयितुं आदेशं परिभाषयति । निम्नलिखितस्थानधारकाणां उपयोगं "
-"कुर्वन्तु ।</p><dl><dt> <code>%exe</code></dt><dd> उपरि चयनितस्य कार्यान्वयनीयस्य "
-"मार्गः ।</dd><dt> <code>%workdir</code></dt><dd> उपरि चयनितस्य कार्यनिर्देशिकायाः "
-"मार्गः ।</dd></dl><p> उपरि परिभाषिताः तर्काः अस्मिन् आदेशे संलग्नाः भविष्यन्ति ।</p>"
+"<p>बाह्य टर्मिनल् एमुलेटर् निष्पादयितुं आदेशं परिभाषयति । निम्नलिखितस्थानधारका"
+"णां उपयोगं "
+"कुर्वन्तु ।</p><dl><dt> <code>%exe</code></dt><dd> उपरि चयनितस्य कार्यान्वयनीय"
+"स्य "
+"मार्गः ।</dd><dt> <code>%workdir</code></dt><dd> उपरि चयनितस्य कार्यनिर्देशिका"
+"याः "
+"मार्गः ।</dd></dl><p> उपरि परिभाषिताः तर्काः अस्मिन् आदेशे संलग्नाः भविष्यन्ति"
+" ।</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: nativeappconfig.ui:259
@@ -265,7 +281,8 @@ msgctxt "@info:tooltip"
 msgid ""
 "Specifies the action to take for the dependencies before starting the "
 "executable."
-msgstr "कार्यान्वयनीयं आरभ्यतुं पूर्वं आश्रयाणां कृते कर्तव्यं कार्यं निर्दिशति ।"
+msgstr ""
+"कार्यान्वयनीयं आरभ्यतुं पूर्वं आश्रयाणां कृते कर्तव्यं कार्यं निर्दिशति ।"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, dependencyAction)
 #: nativeappconfig.ui:291
@@ -276,8 +293,10 @@ msgid ""
 "allows there to be parts of a project, upon which the executable does not "
 "directly depend, to be built and/or installed before running the application."
 msgstr ""
-"चयनितक्रिया कार्यान्वयनीयस्य आरम्भात् पूर्वं चालिता भविष्यति ।  एतेन परियोजनायाः भागाः "
-"सन्ति, येषु कार्यान्वयनीयः प्रत्यक्षतया न आश्रितः, अनुप्रयोगस्य चालनात् पूर्वं निर्मिताः/"
+"चयनितक्रिया कार्यान्वयनीयस्य आरम्भात् पूर्वं चालिता भविष्यति ।  एतेन परियोजनाय"
+"ाः भागाः "
+"सन्ति, येषु कार्यान्वयनीयः प्रत्यक्षतया न आश्रितः, अनुप्रयोगस्य चालनात् पूर्वं"
+" निर्मिताः/"
 "स्थापनाः वा भवितुम् अर्हन्ति ।"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, dependencyAction)
@@ -306,7 +325,7 @@ msgstr "निर्माणं संस्थापनं च"
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Targets:"
-msgstr "लक्ष्याणि : १."
+msgstr "लक्ष्याणि :"
 
 #: nativeappjob.cpp:66
 #, kde-format
@@ -314,7 +333,8 @@ msgid ""
 "No environment profile specified, looks like a broken configuration, please "
 "check run configuration '%1'. Using default environment profile."
 msgstr ""
-"कोऽपि वातावरणरूपरेखा निर्दिष्टा, भग्नविन्यासः इव दृश्यते, कृपया '%1' चालनविन्यासं "
+"कोऽपि वातावरणरूपरेखा निर्दिष्टा, भग्नविन्यासः इव दृश्यते, कृपया '%1' चालनविन्य"
+"ासं "
 "परीक्ष्यताम् । पूर्वनिर्धारितपर्यावरणरूपरेखायाः उपयोगेन।"
 
 #: nativeappjob.cpp:142

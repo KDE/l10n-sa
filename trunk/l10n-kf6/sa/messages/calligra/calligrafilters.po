@@ -4,19 +4,21 @@
 # This file is distributed under the same license as the calligra package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: calligra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-07 00:40+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #: karbon/image/ImageExport.cpp:88
 #, kde-format
@@ -32,7 +34,7 @@ msgstr "पृष्ठं %1"
 #: karbon/image/ImageExportOptionsWidget.ui:19
 #, kde-format
 msgid "Page:"
-msgstr "पृष्ठम् : १."
+msgstr "पृष्ठम् :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: karbon/image/ImageExportOptionsWidget.ui:34
@@ -46,7 +48,7 @@ msgstr "आकारः पिक्सेलरूपेण"
 #: karbon/image/ImageExportOptionsWidget.ui:78
 #, kde-format
 msgid "Image width:"
-msgstr "चित्रस्य विस्तारः : १."
+msgstr "चित्रस्य विस्तारः :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
@@ -54,7 +56,7 @@ msgstr "चित्रस्य विस्तारः : १."
 #: karbon/image/ImageExportOptionsWidget.ui:88
 #, kde-format
 msgid "Image height:"
-msgstr "चित्रस्य ऊर्ध्वता : १."
+msgstr "चित्रस्य ऊर्ध्वता :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: karbon/image/ImageExportOptionsWidget.ui:69
@@ -133,12 +135,15 @@ msgstr "गुप्तशब्दं प्रविशतु"
 #: libmsooxml/MsooXmlImport.cpp:330 libmsooxml/MsooXmlImport.cpp:449
 #, kde-format
 msgid "This document is encrypted, please enter the password to decrypt it:"
-msgstr "एतत् दस्तावेजं गुप्तीकरणं कृतम् अस्ति, कृपया तस्य विगुप्तीकरणार्थं गुप्तशब्दं प्रविशतु:"
+msgstr ""
+"एतत् दस्तावेजं गुप्तीकरणं कृतम् अस्ति, कृपया तस्य विगुप्तीकरणार्थं गुप्तशब्दं "
+"प्रविशतु:"
 
 #: libmsooxml/MsooXmlImport.cpp:331 libmsooxml/MsooXmlImport.cpp:450
 #, kde-format
 msgid "Incorrect password, please enter the password to decrypt this document:"
-msgstr "अशुद्धगुप्तशब्दः, कृपया अस्य दस्तावेजस्य विगुप्तीकरणार्थं गुप्तशब्दं प्रविशतु:"
+msgstr ""
+"अशुद्धगुप्तशब्दः, कृपया अस्य दस्तावेजस्य विगुप्तीकरणार्थं गुप्तशब्दं प्रविशतु:"
 
 #: libmsooxml/MsooXmlImport.cpp:624
 #, kde-format
@@ -253,7 +258,8 @@ msgstr "निर्यात"
 #: sheets/csv/csvimport.cc:74
 #, kde-format
 msgid "CSV filter cannot open input file - please report."
-msgstr "CSV फ़िल्टर इनपुट् सञ्चिकां उद्घाटयितुं न शक्नोति - कृपया रिपोर्ट् कुर्वन्तु ।"
+msgstr ""
+"CSV फ़िल्टर इनपुट् सञ्चिकां उद्घाटयितुं न शक्नोति - कृपया रिपोर्ट् कुर्वन्तु ।"
 
 #. i18n: ectx: attribute (title), widget (QWidget, encodingPage)
 #: sheets/csv/exportdialogui.ui:48
@@ -265,7 +271,7 @@ msgstr "रेखायाः अन्तः"
 #: sheets/csv/exportdialogui.ui:56
 #, kde-format
 msgid "End of Line:"
-msgstr "रेखायाः अन्तः : १."
+msgstr "रेखायाः अन्तः :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioEndOfLineLF)
 #: sheets/csv/exportdialogui.ui:63
@@ -331,7 +337,7 @@ msgstr "कोशिका"
 #: sheets/csv/exportdialogui.ui:182
 #, kde-format
 msgid "Delimiter:"
-msgstr "परिसीमकः : १."
+msgstr "परिसीमकः :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
 #: sheets/csv/exportdialogui.ui:189
@@ -434,8 +440,10 @@ msgid ""
 "This option will make the HTML export filter generate a new page for each "
 "sheet. If you disable this option, all sheets are written on one page."
 msgstr ""
-"एषः विकल्पः HTML निर्यात-छिद्रकं प्रत्येकस्य पत्रस्य कृते नूतनं पृष्ठं जनयिष्यति । यदि भवान् "
-"एतत् विकल्पं निष्क्रियं करोति तर्हि सर्वाणि पत्राणि एकस्मिन् पृष्ठे लिखितानि भवन्ति ।"
+"एषः विकल्पः HTML निर्यात-छिद्रकं प्रत्येकस्य पत्रस्य कृते नूतनं पृष्ठं जनयिष्य"
+"ति । यदि भवान् "
+"एतत् विकल्पं निष्क्रियं करोति तर्हि सर्वाणि पत्राणि एकस्मिन् पृष्ठे लिखितानि भ"
+"वन्ति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mSeparateFiles)
 #: sheets/html/exportwidget.ui:73
@@ -454,7 +462,8 @@ msgstr "शैली"
 #, kde-format
 msgid ""
 "Select this option to use the default fonts and colors for the HTML page."
-msgstr "HTML पृष्ठस्य पूर्वनिर्धारित-अङ्कानां वर्णानाञ्च उपयोगाय एतत् विकल्पं चिनोतु ।"
+msgstr ""
+"HTML पृष्ठस्य पूर्वनिर्धारित-अङ्कानां वर्णानाञ्च उपयोगाय एतत् विकल्पं चिनोतु ।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mDefaultButton)
 #: sheets/html/exportwidget.ui:92
@@ -469,7 +478,8 @@ msgid ""
 "Select this option to specify a separate stylesheet for the HTML page. You "
 "can select or type on in the field below."
 msgstr ""
-"HTML पृष्ठस्य कृते पृथक् शैलीपत्रं निर्दिष्टुं एतत् विकल्पं चिनोतु । अधोलिखिते क्षेत्रे भवन्तः चयनं "
+"HTML पृष्ठस्य कृते पृथक् शैलीपत्रं निर्दिष्टुं एतत् विकल्पं चिनोतु । अधोलिखिते"
+" क्षेत्रे भवन्तः चयनं "
 "कर्तुं वा टङ्कयितुं वा शक्नुवन्ति ।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, mCustomButton)
@@ -485,7 +495,8 @@ msgid ""
 "In this field you can enter an URL for your stylesheet. It is possible to "
 "point to a stylesheet on disk, or to somewhere on the Internet."
 msgstr ""
-"अस्मिन् क्षेत्रे भवान् स्वस्य शैलीपत्रस्य URL प्रविष्टुं शक्नोति । डिस्कस्थं शैलीपत्रं, अथवा "
+"अस्मिन् क्षेत्रे भवान् स्वस्य शैलीपत्रस्य URL प्रविष्टुं शक्नोति । डिस्कस्थं श"
+"ैलीपत्रं, अथवा "
 "अन्तर्जालस्य कुत्रचित् दर्शयितुं शक्यते ।"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
@@ -498,7 +509,9 @@ msgstr "प्रारूपं"
 #: sheets/html/exportwidget.ui:131
 #, kde-format
 msgid "Use this option to enable or disable borders around the cells."
-msgstr "कोष्ठकानां परितः सीमां सक्षमं कर्तुं निष्क्रियं वा कर्तुं एतस्य विकल्पस्य उपयोगं कुर्वन्तु ।"
+msgstr ""
+"कोष्ठकानां परितः सीमां सक्षमं कर्तुं निष्क्रियं वा कर्तुं एतस्य विकल्पस्य उपयो"
+"गं कुर्वन्तु ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mUseBorders)
 #: sheets/html/exportwidget.ui:134
@@ -514,7 +527,8 @@ msgid ""
 "Use this option to define how many pixels there should be between the cells. "
 "This effect is better visible if you check <b>Use borders</b> too."
 msgstr ""
-"कोष्ठकानां मध्ये कति पिक्सेलाः भवेयुः इति परिभाषितुं एतस्य विकल्पस्य उपयोगं कुर्वन्तु । यदि "
+"कोष्ठकानां मध्ये कति पिक्सेलाः भवेयुः इति परिभाषितुं एतस्य विकल्पस्य उपयोगं कु"
+"र्वन्तु । यदि "
 "भवान् <b>Use borders</b> अपि चिनोति तर्हि एषः प्रभावः अधिकतया दृश्यते ।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
@@ -543,7 +557,7 @@ msgstr "प्रलेख"
 #: sheets/latex/export/latexexportwidget.ui:44
 #, kde-format
 msgid "Document style:"
-msgstr "दस्तावेजशैली : १."
+msgstr "दस्तावेजशैली :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, latexStyleButton)
 #: sheets/latex/export/latexexportwidget.ui:51
@@ -561,7 +575,7 @@ msgstr "शब्दशैली"
 #: sheets/latex/export/latexexportwidget.ui:68
 #, kde-format
 msgid "Document type:"
-msgstr "दस्तावेजप्रकारः : १."
+msgstr "दस्तावेजप्रकारः :"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, fullDocButton)
 #: sheets/latex/export/latexexportwidget.ui:75
@@ -577,7 +591,8 @@ msgid ""
 "include will be generated before the \\begin{document} and \\end{document} "
 "commands."
 msgstr ""
-"दस्तावेजं पूर्णं लेटेक्सदस्तावेजरूपेण उत्पद्यते यतः सर्वं include \\begin{document} तथा "
+"दस्तावेजं पूर्णं लेटेक्सदस्तावेजरूपेण उत्पद्यते यतः सर्वं include \\begin{docu"
+"ment} तथा "
 "\\end{document} आदेशात् पूर्वं उत्पद्यते ।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, fullDocButton)
@@ -600,8 +615,10 @@ msgid ""
 "included in a main latex document. It will allow you to generate several "
 "little files for each chapter of your document."
 msgstr ""
-"दस्तावेजं लेटेक्स-दस्तावेजरूपेण उत्पद्यते यत् मुख्य-लेटेक्स-दस्तावेजे समाविष्टं कर्तव्यं भविष्यति । एतत् "
-"भवतः दस्तावेजस्य प्रत्येकस्य अध्यायस्य कृते अनेकाः लघुसञ्चिकाः जनयितुं शक्नोति ।"
+"दस्तावेजं लेटेक्स-दस्तावेजरूपेण उत्पद्यते यत् मुख्य-लेटेक्स-दस्तावेजे समाविष्ट"
+"ं कर्तव्यं भविष्यति । एतत् "
+"भवतः दस्तावेजस्य प्रत्येकस्य अध्यायस्य कृते अनेकाः लघुसञ्चिकाः जनयितुं शक्नोति"
+" ।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, embededButton)
 #: sheets/latex/export/latexexportwidget.ui:97
@@ -613,7 +630,7 @@ msgstr "समावेशार्थं दस्तावेजम्"
 #: sheets/latex/export/latexexportwidget.ui:104
 #, kde-format
 msgid "Document class:"
-msgstr "दस्तावेजवर्गः : १."
+msgstr "दस्तावेजवर्गः :"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
 #: sheets/latex/export/latexexportwidget.ui:124
@@ -637,7 +654,7 @@ msgstr "प्रारूप"
 #: sheets/latex/export/latexexportwidget.ui:154
 #, kde-format
 msgid "Default font size:"
-msgstr "पूर्वनिर्धारितः फ़ॉन्ट् आकारः : १."
+msgstr "पूर्वनिर्धारितः फ़ॉन्ट् आकारः :"
 
 #. i18n: ectx: attribute (title), widget (QWidget, Widget3)
 #: sheets/latex/export/latexexportwidget.ui:186
@@ -649,13 +666,13 @@ msgstr "चित्रम्"
 #: sheets/latex/export/latexexportwidget.ui:192
 #, kde-format
 msgid "Convert the pictures:"
-msgstr "चित्राणि परिवर्तयन्तु : १."
+msgstr "चित्राणि परिवर्तयन्तु :"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
 #: sheets/latex/export/latexexportwidget.ui:209
 #, kde-format
 msgid "Pictures directory:"
-msgstr "चित्रनिर्देशिका : १."
+msgstr "चित्रनिर्देशिका :"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
@@ -669,7 +686,7 @@ msgstr "भाषा"
 #: sheets/latex/export/latexexportwidget.ui:244
 #, kde-format
 msgid "Encoding:"
-msgstr "एन्कोडिंग् : १."
+msgstr "एन्कोडिंग् :"
 
 #. i18n: ectx: property (text), widget (QPushButton, addLanguageBtn)
 #: sheets/latex/export/latexexportwidget.ui:289
@@ -693,13 +710,13 @@ msgstr "विषयवस्तु"
 #: sheets/latex/export/latexexportwidget.ui:329
 #, kde-format
 msgid "Export information about author:"
-msgstr "लेखकस्य विषये सूचना निर्यातयन्तु : १."
+msgstr "लेखकस्य विषये सूचना निर्यातयन्तु :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: sheets/latex/export/latexexportwidget.ui:349
 #, kde-format
 msgid "Add a table of content:"
-msgstr "सामग्रीसारणीं योजयन्तु : १."
+msgstr "सामग्रीसारणीं योजयन्तु :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
 #: sheets/latex/export/latexexportwidget.ui:368
@@ -748,9 +765,12 @@ msgid ""
 "crashes or incorrect display of the data. Do you want to continue converting "
 "the document?"
 msgstr ""
-"इदं दस्तावेजं OpenOffice.org संस्करणेन '%1' इत्यनेन निर्मितम् । एतत् फ़िल्टर 1.0 संस्करणस्य "
-"कृते लिखितम् आसीत् । एतां सञ्चिकां पठित्वा विचित्रव्यवहारः, दुर्घटना वा दत्तांशस्य "
-"अशुद्धप्रदर्शनं वा भवितुम् अर्हति । किं भवान् दस्तावेजस्य परिवर्तनं निरन्तरं कर्तुम् इच्छति ?"
+"इदं दस्तावेजं OpenOffice.org संस्करणेन '%1' इत्यनेन निर्मितम् । एतत् फ़िल्टर 1"
+".0 संस्करणस्य "
+"कृते लिखितम् आसीत् । एतां सञ्चिकां पठित्वा विचित्रव्यवहारः, दुर्घटना वा दत्तां"
+"शस्य "
+"अशुद्धप्रदर्शनं वा भवितुम् अर्हति । किं भवान् दस्तावेजस्य परिवर्तनं निरन्तरं क"
+"र्तुम् इच्छति ?"
 
 #: sheets/opencalc/opencalcimport.cc:1910
 #, kde-format
@@ -760,7 +780,8 @@ msgstr "असमर्थितं दस्तावेजसंस्कर�
 #: sheets/qpro/qproimport.cc:114
 #, kde-format
 msgid "QPRO filter cannot open input file - please report."
-msgstr "QPRO फ़िल्टर इनपुट् सञ्चिकां उद्घाटयितुं न शक्नोति - कृपया रिपोर्ट् कुर्वन्तु।"
+msgstr ""
+"QPRO फ़िल्टर इनपुट् सञ्चिकां उद्घाटयितुं न शक्नोति - कृपया रिपोर्ट् कुर्वन्तु।"
 
 #: sheets/qpro/qproimport.cc:219
 #, kde-format
@@ -804,7 +825,8 @@ msgid ""
 "The data could not be loaded completely because the maximum size of sheet "
 "was exceeded."
 msgstr ""
-"पत्रिकायाः अधिकतमः आकारः अतिक्रान्तः इति कारणेन दत्तांशः सम्पूर्णतया लोड् कर्तुं न शक्यते "
+"पत्रिकायाः अधिकतमः आकारः अतिक्रान्तः इति कारणेन दत्तांशः सम्पूर्णतया लोड् कर्त"
+"ुं न शक्यते "
 "स्म ।"
 
 #: sheets/xlsx/XlsxXmlWorksheetReader.cpp:1403

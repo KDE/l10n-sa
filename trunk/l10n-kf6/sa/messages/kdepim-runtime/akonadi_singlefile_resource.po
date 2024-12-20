@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdepim-runtime\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-22 00:40+0000\n"
-"PO-Revision-Date: 2024-12-14 01:48+0530\n"
+"PO-Revision-Date: 2024-12-20 21:52+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -32,7 +32,8 @@ msgid ""
 "Select settings of the directory whose contents should be represented by "
 "this resource."
 msgstr ""
-"यस्य निर्देशिकायाः सामग्रीः अस्मिन् संसाधनेन प्रतिनिधित्वं कर्तव्या तस्य सेटिङ्ग्स् चिनोतु ।"
+"यस्य निर्देशिकायाः सामग्रीः अस्मिन् संसाधनेन प्रतिनिधित्वं कर्तव्या तस्य सेटिङ"
+"्ग्स् चिनोतु ।"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: settingsdialog.ui:39
@@ -59,7 +60,8 @@ msgid ""
 "Select the directory whose contents should be represented by this resource. "
 "If the directory does not exist, it will be created."
 msgstr ""
-"यस्याः सामग्रीः एतेन संसाधनेन प्रतिनिधित्वं कर्तव्यं तत् निर्देशिकां चिनोतु । यदि निर्देशिका "
+"यस्याः सामग्रीः एतेन संसाधनेन प्रतिनिधित्वं कर्तव्यं तत् निर्देशिकां चिनोतु । "
+"यदि निर्देशिका "
 "नास्ति तर्हि तस्याः निर्माणं भविष्यति ।"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -75,7 +77,8 @@ msgid ""
 "If read-only mode is enabled, no changes will be written to the directory "
 "selected above."
 msgstr ""
-"यदि केवलं पठनीयविधिः सक्षमः अस्ति तर्हि उपरि चयनितनिर्देशिकायां कोऽपि परिवर्तनः न "
+"यदि केवलं पठनीयविधिः सक्षमः अस्ति तर्हि उपरि चयनितनिर्देशिकायां कोऽपि परिवर्तन"
+"ः न "
 "लिखितः भविष्यति ।"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ReadOnly)
@@ -87,8 +90,10 @@ msgid ""
 "selected above. Read-only mode will be automatically enabled if you do not "
 "have write access to the directory."
 msgstr ""
-"यदि केवलं पठनीयविधिः सक्षमः अस्ति तर्हि उपरि चयनितनिर्देशिकायां कोऽपि परिवर्तनः न "
-"लिखितः भविष्यति । यदि भवतः निर्देशिकायां लेखनप्रवेशः नास्ति तर्हि केवलं पठनीयविधिः "
+"यदि केवलं पठनीयविधिः सक्षमः अस्ति तर्हि उपरि चयनितनिर्देशिकायां कोऽपि परिवर्तन"
+"ः न "
+"लिखितः भविष्यति । यदि भवतः निर्देशिकायां लेखनप्रवेशः नास्ति तर्हि केवलं पठनीयव"
+"िधिः "
 "स्वयमेव सक्षमः भविष्यति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
@@ -111,15 +116,17 @@ msgid ""
 "safety and consistency against performance. In general you should be careful "
 "with changing anything here, the defaults are good enough in most cases."
 msgstr ""
-"अस्मिन् पृष्ठे विकल्पाः भवन्तं कार्यप्रदर्शनस्य विरुद्धं दत्तांशसुरक्षां स्थिरतां च सन्तुलितं कुर्वन्ति "
-"मापदण्डान् परिवर्तयितुं शक्नुवन्ति । सामान्यतया भवन्तः अत्र किमपि परिवर्तनं कर्तुं सावधानाः "
+"अस्मिन् पृष्ठे विकल्पाः भवन्तं कार्यप्रदर्शनस्य विरुद्धं दत्तांशसुरक्षां स्थिर"
+"तां च सन्तुलितं कुर्वन्ति "
+"मापदण्डान् परिवर्तयितुं शक्नुवन्ति । सामान्यतया भवन्तः अत्र किमपि परिवर्तनं कर"
+"्तुं सावधानाः "
 "भवेयुः, पूर्वनिर्धारिताः अधिकतया पर्याप्ताः सन्ति ।"
 
 #. i18n: ectx: property (text), widget (QLabel, autosaveLabel)
 #: settingsdialog.ui:145
 #, kde-format
 msgid "Autosave delay:"
-msgstr "स्वतः रक्षणविलम्बः : १."
+msgstr "स्वतः रक्षणविलम्बः :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_AutosaveInterval)
 #: settingsdialog.ui:152
@@ -201,7 +208,8 @@ msgid ""
 "The file '%1' was changed on disk. As a precaution, a backup of its previous "
 "contents has been created at '%2'."
 msgstr ""
-"'%1' इति सञ्चिका डिस्कमध्ये परिवर्तिता । सावधानतायै तस्य पूर्वसामग्रीणां बैकअपं '%2' "
+"'%1' इति सञ्चिका डिस्कमध्ये परिवर्तिता । सावधानतायै तस्य पूर्वसामग्रीणां बैकअप"
+"ं '%2' "
 "इत्यत्र निर्मितम् अस्ति ।"
 
 #: singlefileresourcebase.cpp:272
@@ -229,7 +237,7 @@ msgstr "संचिका"
 #: singlefileresourceconfigwidget_desktop.ui:47
 #, kde-format
 msgid "File or URL:"
-msgstr "सञ्चिका अथवा URL : १."
+msgstr "सञ्चिका अथवा URL :"
 
 #. i18n: ectx: property (text), widget (QLabel, pathLabel)
 #: singlefileresourceconfigwidget_desktop.ui:66
@@ -238,14 +246,15 @@ msgid ""
 "Select a local file or a remote URL to download a file from. A new local "
 "file will be created if it doesn't exist."
 msgstr ""
-"सञ्चिकां डाउनलोड् कर्तुं स्थानीयसञ्चिकां दूरस्थं URL वा चिनोतु । यदि नास्ति तर्हि नूतना "
+"सञ्चिकां डाउनलोड् कर्तुं स्थानीयसञ्चिकां दूरस्थं URL वा चिनोतु । यदि नास्ति तर"
+"्हि नूतना "
 "स्थानीयसञ्चिका निर्मीयते ।"
 
 #. i18n: ectx: property (text), widget (QLabel, displayNameLabel)
 #: singlefileresourceconfigwidget_desktop.ui:79
 #, kde-format
 msgid "Display Name:"
-msgstr "प्रदर्शननाम : १."
+msgstr "प्रदर्शननाम :"
 
 #. i18n: ectx: property (text), widget (QLabel, readOnlyLabel)
 #: singlefileresourceconfigwidget_desktop.ui:108
@@ -256,7 +265,8 @@ msgid ""
 "access or when displaying a calendar from remote URL."
 msgstr ""
 "यदा केवलं पठनीयविधिः सक्षमः भवति तदा परिवर्तनं न लिख्यते । यदा चयनितसञ्चिका "
-"लेखनप्रवेशस्य समर्थनं न करोति अथवा दूरस्थ-URL तः पञ्चाङ्गं प्रदर्शयति तदा केवलं पठनीय-विधिः "
+"लेखनप्रवेशस्य समर्थनं न करोति अथवा दूरस्थ-URL तः पञ्चाङ्गं प्रदर्शयति तदा केवल"
+"ं पठनीय-विधिः "
 "स्वयमेव सक्षमः भवति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MonitorFile)
@@ -273,8 +283,10 @@ msgid ""
 "enabled. Backups will be created to avoid conflicts when possible. "
 "Monitoring is not available for remote URLs."
 msgstr ""
-"अन्यैः अनुप्रयोगैः कृताः परिवर्तनाः निरीक्षणं सक्षमीकरणे सञ्चिकां पुनः लोड् करिष्यन्ति । यदा "
-"सम्भवं तदा विग्रहं परिहरितुं बैकअप्स निर्मिताः भविष्यन्ति । दूरस्थ-URL कृते निरीक्षणं उपलब्धं "
+"अन्यैः अनुप्रयोगैः कृताः परिवर्तनाः निरीक्षणं सक्षमीकरणे सञ्चिकां पुनः लोड् कर"
+"िष्यन्ति । यदा "
+"सम्भवं तदा विग्रहं परिहरितुं बैकअप्स निर्मिताः भविष्यन्ति । दूरस्थ-URL कृते नि"
+"रीक्षणं उपलब्धं "
 "नास्ति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PeriodicUpdate)
@@ -296,7 +308,8 @@ msgid ""
 "Periodically updates the file. Can be used when monitoring is not available "
 "(e.g. for remote calendars)."
 msgstr ""
-"समये समये सञ्चिकां अद्यतनं करोति । यदा निरीक्षणं उपलब्धं नास्ति (उदा. दूरस्थपञ्चाङ्गानां कृते) "
+"समये समये सञ्चिकां अद्यतनं करोति । यदा निरीक्षणं उपलब्धं नास्ति (उदा. दूरस्थपञ"
+"्चाङ्गानां कृते) "
 "तदा उपयोक्तुं शक्यते ।"
 
 #: singlefileresourceconfigwidgetbase.cpp:129

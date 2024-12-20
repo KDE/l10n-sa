@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the kbackup package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kbackup\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-31 00:41+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,7 +42,8 @@ msgstr "लक्ष्यं dir '%1' मान्यं नास्ति"
 #: Archiver.cxx:447
 #, kde-format
 msgid "The target dir '%1' must be a local file system dir and no remote URL"
-msgstr "लक्ष्य dir '%1' स्थानीयसञ्चिकातन्त्र dir भवितुमर्हति तथा च दूरस्थं URL नास्ति"
+msgstr ""
+"लक्ष्य dir '%1' स्थानीयसञ्चिकातन्त्र dir भवितुमर्हति तथा च दूरस्थं URL नास्ति"
 
 #: Archiver.cxx:460
 #, kde-format
@@ -93,7 +96,9 @@ msgstr "...%1 विलोपयन्"
 #, kde-format
 msgid ""
 "fetching directory listing of target failed. Can not reduce kept archives."
-msgstr "लक्ष्यस्य निर्देशिकासूचीकरणं आनयितुं विफलम् । रक्षितं अभिलेखागारं न्यूनीकर्तुं न शक्नोति।"
+msgstr ""
+"लक्ष्यस्य निर्देशिकासूचीकरणं आनयितुं विफलम् । रक्षितं अभिलेखागारं न्यूनीकर्तुं"
+" न शक्नोति।"
 
 #: Archiver.cxx:654
 #, kde-format
@@ -367,7 +372,8 @@ msgstr "एकं आर्काइव् स्लाइस् समाप्
 #, kde-format
 msgid ""
 "Automatically run the backup with the given profile and terminate when done."
-msgstr "स्वयमेव दत्तेन प्रोफाइलेन सह बैकअपं चालयन्तु तथा च कृते समाप्तिं कुर्वन्तु ।"
+msgstr ""
+"स्वयमेव दत्तेन प्रोफाइलेन सह बैकअपं चालयन्तु तथा च कृते समाप्तिं कुर्वन्तु ।"
 
 #: main.cxx:68
 #, kde-format
@@ -375,14 +381,17 @@ msgid ""
 "Automatically run the backup with the given profile in the background "
 "(without showing a window) and terminate when done."
 msgstr ""
-"पृष्ठभूमितः दत्तेन प्रोफाइलेन सह स्वयमेव बैकअपं चालयन्तु (विण्डो न दर्शयित्वा) तथा च कृत्वा "
+"पृष्ठभूमितः दत्तेन प्रोफाइलेन सह स्वयमेव बैकअपं चालयन्तु (विण्डो न दर्शयित्वा)"
+" तथा च कृत्वा "
 "समाप्तं कुर्वन्तु ।"
 
 #: main.cxx:73
 #, kde-format
 msgid ""
 "In autobg mode be verbose and print every single filename during backup."
-msgstr "autobg मोड् मध्ये verbose भवतु तथा बैकअप समये प्रत्येकं एकं सञ्चिकानाम मुद्रयन्तु ।"
+msgstr ""
+"autobg मोड् मध्ये verbose भवतु तथा बैकअप समये प्रत्येकं एकं सञ्चिकानाम मुद्रयन"
+"्तु ।"
 
 #: main.cxx:76
 #, kde-format
@@ -390,7 +399,8 @@ msgid ""
 "In auto/autobg mode force the backup to be a full backup instead of acting "
 "on the profile settings."
 msgstr ""
-"auto/autobg मोड् मध्ये प्रोफाइल सेटिंग्स् इत्यस्य कार्यं कर्तुं स्थाने बैकअपं पूर्णं बैकअप इति बाध्यं "
+"auto/autobg मोड् मध्ये प्रोफाइल सेटिंग्स् इत्यस्य कार्यं कर्तुं स्थाने बैकअपं "
+"पूर्णं बैकअप इति बाध्यं "
 "कुर्वन्तु ।"
 
 #: main.cxx:149 MainWindow.cxx:211
@@ -432,7 +442,7 @@ msgstr "बैकअप रद्दं कुर्वन्तु"
 #: MainWidgetBase.ui:92
 #, kde-format
 msgid "Next Backup:"
-msgstr "अग्रिमः बैकअपः : १."
+msgstr "अग्रिमः बैकअपः :"
 
 #. i18n: ectx: property (text), widget (QLabel, backupType)
 #: MainWidgetBase.ui:99
@@ -456,7 +466,7 @@ msgstr "लक्ष्य"
 #: MainWidgetBase.ui:127
 #, kde-format
 msgid "Folder:"
-msgstr "पुटम् : १."
+msgstr "पुटम् :"
 
 #. i18n: ectx: property (text), widget (QLabel, sliceLabel)
 #: MainWidgetBase.ui:143
@@ -493,7 +503,7 @@ msgstr "कुलम्"
 #: MainWidgetBase.ui:248
 #, kde-format
 msgid "Files:"
-msgstr "सञ्चिकाः : १."
+msgstr "सञ्चिकाः :"
 
 #. i18n: ectx: property (text), widget (QLabel, totalFiles)
 #. i18n: ectx: property (text), widget (QLabel, totalSize)
@@ -524,7 +534,7 @@ msgstr "००:००:०० वादनम्"
 #: MainWidgetBase.ui:387
 #, kde-format
 msgid "Warnings:"
-msgstr "चेतावनी : १."
+msgstr "चेतावनी :"
 
 #. i18n: ectx: property (text), widget (QLabel, fileProgressLabel)
 #: MainWidgetBase.ui:413
@@ -742,7 +752,8 @@ msgid ""
 "Uncheck if you want to avoid a confirmation dialog to change the medium when "
 "a slice was finished"
 msgstr ""
-"यदि भवान् स्लाइस् समाप्तः अभवत् तदा माध्यमं परिवर्तयितुं पुष्टिकरणसंवादं परिहरितुम् इच्छति "
+"यदि भवान् स्लाइस् समाप्तः अभवत् तदा माध्यमं परिवर्तयितुं पुष्टिकरणसंवादं परिहर"
+"ितुम् इच्छति "
 "तर्हि अनचेक् कुर्वन्तु"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mediaNeedsChange)
@@ -755,7 +766,7 @@ msgstr "लक्ष्यं मीडियापरिवर्तनस्�
 #: SettingsDialog.ui:48
 #, kde-format
 msgid "Exclude Paths Filter:"
-msgstr "मार्गाः बहिष्कृत्य फ़िल्टरः : १."
+msgstr "मार्गाः बहिष्कृत्य फ़िल्टरः :"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: SettingsDialog.ui:57
@@ -770,7 +781,8 @@ msgid ""
 "How many full backups shall be kept in the target directory before older "
 "ones will be deleted"
 msgstr ""
-"प्राचीनानां विलोपनात् पूर्वं लक्ष्यनिर्देशिकायां कति पूर्णानि बैकअप्स् स्थापितानि भविष्यन्ति"
+"प्राचीनानां विलोपनात् पूर्वं लक्ष्यनिर्देशिकायां कति पूर्णानि बैकअप्स् स्थापित"
+"ानि भविष्यन्ति"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: SettingsDialog.ui:77
@@ -800,7 +812,7 @@ msgstr " दिवसाः"
 #: SettingsDialog.ui:105
 #, kde-format
 msgid "Archive Prefix:"
-msgstr "संग्रह उपसर्गः : १."
+msgstr "संग्रह उपसर्गः :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, filter)
 #: SettingsDialog.ui:115
@@ -809,14 +821,15 @@ msgid ""
 "Defines wildcards for filenames which will be ignored for backup, separated "
 "by a space. E.g.: \"*.ogg *.wav\""
 msgstr ""
-"सञ्चिकानामानां कृते वाइल्डकार्ड्स् परिभाषयति यत् बैकअप कृते उपेक्षितं भविष्यति, रिक्तस्थानेन "
+"सञ्चिकानामानां कृते वाइल्डकार्ड्स् परिभाषयति यत् बैकअप कृते उपेक्षितं भविष्यति"
+", रिक्तस्थानेन "
 "पृथक्कृतम् । यथा- \"*.ogg *.wav\"।"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
 #: SettingsDialog.ui:122
 #, kde-format
 msgid "Maximum Archive Size:"
-msgstr "अधिकतमः अभिलेखागारस्य आकारः : १."
+msgstr "अधिकतमः अभिलेखागारस्य आकारः :"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, maxSliceSize)
 #: SettingsDialog.ui:139
@@ -838,15 +851,18 @@ msgid ""
 "used to filter complete directories,<br/>e.g. /home/*/.mozilla/*/Cache</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>निरपेक्षमार्गप्रतिमानानाम् एकां सूचीं परिभाषयति, येषां उपयोगः "
-"सम्पूर्णनिर्देशिकानां छाननाय भवति,<br/> यथा /home/*/.mozilla/*/Cache</p></body></"
+"<html><head/><body><p>निरपेक्षमार्गप्रतिमानानाम् एकां सूचीं परिभाषयति, येषां उ"
+"पयोगः "
+"सम्पूर्णनिर्देशिकानां छाननाय भवति,<br/> यथा /home/*/.mozilla/*/Cache</p></body"
+"></"
 "html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, compressFiles)
 #: SettingsDialog.ui:171
 #, kde-format
 msgid "Uncheck if you want to avoid compressing files at all"
-msgstr "यदि भवान् सञ्चिकानां संपीडनं सर्वथा परिहरितुम् इच्छति तर्हि अनचेक् कुर्वन्तु"
+msgstr ""
+"यदि भवान् सञ्चिकानां संपीडनं सर्वथा परिहरितुम् इच्छति तर्हि अनचेक् कुर्वन्तु"
 
 #. i18n: ectx: property (text), widget (QCheckBox, compressFiles)
 #: SettingsDialog.ui:174

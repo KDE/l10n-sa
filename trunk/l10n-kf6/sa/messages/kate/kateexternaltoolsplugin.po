@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the kate package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-09-29 00:42+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:51+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #. i18n: file: 7
 #, kde-format
@@ -155,7 +157,8 @@ msgstr "XML प्रारूप पूर्ण सञ्चिका"
 #, kde-format
 msgid ""
 "This list shows all the configured tools, represented by their menu text."
-msgstr "एषा सूची सर्वाणि विन्यस्तसाधनं दर्शयति, तेषां मेनूपाठेन प्रतिनिधित्वं भवति ।"
+msgstr ""
+"एषा सूची सर्वाणि विन्यस्तसाधनं दर्शयति, तेषां मेनूपाठेन प्रतिनिधित्वं भवति ।"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnAdd)
 #: configwidget.ui:29
@@ -181,7 +184,8 @@ msgid ""
 "Failed to find executable '%1'. Please make sure the executable file exists "
 "and that variable names, if used, are correct"
 msgstr ""
-"कार्यान्वयनीयम् '%1' अन्वेष्टुं असफलम् । कृपया सुनिश्चितं कुर्वन्तु यत् कार्यान्वयनीयसञ्चिका अस्ति "
+"कार्यान्वयनीयम् '%1' अन्वेष्टुं असफलम् । कृपया सुनिश्चितं कुर्वन्तु यत् कार्या"
+"न्वयनीयसञ्चिका अस्ति "
 "तथा च चरनामानि, यदि प्रयुक्तानि, तर्हि सम्यक् सन्ति"
 
 #: externaltoolsplugin.cpp:289 externaltoolsplugin.cpp:299
@@ -246,7 +250,8 @@ msgstr "भवता न्यूनातिन्यूनं नाम, क�
 #: kateexternaltoolsconfigwidget.cpp:195
 #, kde-format
 msgid "With 'Trigger' enabled, at least one mimetype needs to be specified."
-msgstr "'Trigger' सक्षमं कृत्वा न्यूनातिन्यूनम् एकं mimetype निर्दिष्टं कर्तव्यम् ।"
+msgstr ""
+"'Trigger' सक्षमं कृत्वा न्यूनातिन्यूनम् एकं mimetype निर्दिष्टं कर्तव्यम् ।"
 
 #: kateexternaltoolsconfigwidget.cpp:204
 #, kde-format
@@ -327,7 +332,7 @@ msgstr "साधनस्य लघुनाम"
 #: tooldialog.ui:47
 #, kde-format
 msgid "Executable:"
-msgstr "निष्पादनीयः : १."
+msgstr "निष्पादनीयः :"
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, edtExecutable)
 #: tooldialog.ui:57
@@ -339,7 +344,7 @@ msgstr "आवेदन या दुभाषिया"
 #: tooldialog.ui:64
 #, kde-format
 msgid "Ar&guments:"
-msgstr "तर्काः : १."
+msgstr "तर्काः :"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edtArgs)
 #: tooldialog.ui:74
@@ -351,7 +356,7 @@ msgstr "आदेशपङ्क्तितर्काः"
 #: tooldialog.ui:81
 #, kde-format
 msgid "&Input:"
-msgstr "&इनपुटः : १."
+msgstr "&इनपुटः :"
 
 #. i18n: ectx: property (placeholderText), widget (QTextEdit, edtInput)
 #: tooldialog.ui:91
@@ -363,7 +368,7 @@ msgstr "वैकल्पिकं मानकनिवेशम्"
 #: tooldialog.ui:98
 #, kde-format
 msgid "Working directory:"
-msgstr "कार्यनिर्देशिका : १."
+msgstr "कार्यनिर्देशिका :"
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, edtWorkingDir)
 #: tooldialog.ui:108
@@ -375,7 +380,7 @@ msgstr "रिक्तं चेत् वर्तमानदस्ताव�
 #: tooldialog.ui:115
 #, kde-format
 msgid "Mime &types:"
-msgstr "माइम &प्रकाराः : १."
+msgstr "माइम &प्रकाराः :"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtMimeType)
 #: tooldialog.ui:127
@@ -384,7 +389,8 @@ msgid ""
 "A semicolon-separated list of mime types for which this tool should be "
 "available. If empty, the tool is always available."
 msgstr ""
-"अर्धविरामेन पृथक्कृता माइमप्रकारस्य सूची यस्य कृते एतत् साधनं उपलब्धं भवेत् । यदि रिक्तं भवति "
+"अर्धविरामेन पृथक्कृता माइमप्रकारस्य सूची यस्य कृते एतत् साधनं उपलब्धं भवेत् । "
+"यदि रिक्तं भवति "
 "तर्हि साधनं सर्वदा उपलभ्यते ।"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edtMimeType)
@@ -397,7 +403,8 @@ msgstr "केवलं दत्तानां माइमप्रकार�
 #: tooldialog.ui:137
 #, kde-format
 msgid "Opens a dialog that helps in creating a list of mimetypes."
-msgstr "एकं संवादं उद्घाटयति यत् mimetypes इत्यस्य सूचीं निर्मातुं सहायकं भवति ।"
+msgstr ""
+"एकं संवादं उद्घाटयति यत् mimetypes इत्यस्य सूचीं निर्मातुं सहायकं भवति ।"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSave)
 #: tooldialog.ui:149
@@ -413,8 +420,10 @@ msgid ""
 "command. This is helpful if you want to pass URLs to an application like, "
 "for example, an FTP client."
 msgstr ""
-"वैकल्पिकरूपेण आदेशं चालयितुं पूर्वं वर्तमानं वा सर्वाणि परिवर्तितानि दस्तावेजानि रक्षन्तु । यदि "
-"भवान् URL-इत्येतत् अनुप्रयोगाय यथा, उदाहरणार्थं, FTP क्लायन्ट्-इत्येतत् पारयितुम् इच्छति तर्हि "
+"वैकल्पिकरूपेण आदेशं चालयितुं पूर्वं वर्तमानं वा सर्वाणि परिवर्तितानि दस्तावेजा"
+"नि रक्षन्तु । यदि "
+"भवान् URL-इत्येतत् अनुप्रयोगाय यथा, उदाहरणार्थं, FTP क्लायन्ट्-इत्येतत् पारयित"
+"ुम् इच्छति तर्हि "
 "एतत् सहायकं भवति ।"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSave)
@@ -464,7 +473,7 @@ msgstr "निष्पादनस्य अनन्तरं वर्तम�
 #: tooldialog.ui:214
 #, kde-format
 msgid "O&utput:"
-msgstr "ओ&उत्पादः : १."
+msgstr "ओ&उत्पादः :"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbOutput)
 #: tooldialog.ui:225
@@ -518,7 +527,7 @@ msgstr "फलकमध्ये प्रदर्शयतु"
 #: tooldialog.ui:268
 #, kde-format
 msgid "Editor command:"
-msgstr "सम्पादक आदेशः : १."
+msgstr "सम्पादक आदेशः :"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, edtCommand)
 #: tooldialog.ui:278
@@ -528,8 +537,10 @@ msgid ""
 "line with the_name_you_specified_here. Please do not use spaces or tabs in "
 "the name."
 msgstr ""
-"यदि भवान् अत्र नाम निर्दिशति तर्हि भवान् the_name_you_specified_here इत्यनेन view "
-"आदेशपङ्क्तौ आदेशं आह्वयितुं शक्नोति । कृपया नाम्नि रिक्तस्थानानि ट्याब्स् वा न प्रयोजयन्तु ।"
+"यदि भवान् अत्र नाम निर्दिशति तर्हि भवान् the_name_you_specified_here इत्यनेन v"
+"iew "
+"आदेशपङ्क्तौ आदेशं आह्वयितुं शक्नोति । कृपया नाम्नि रिक्तस्थानानि ट्याब्स् वा न"
+" प्रयोजयन्तु ।"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, edtCommand)
 #: tooldialog.ui:281

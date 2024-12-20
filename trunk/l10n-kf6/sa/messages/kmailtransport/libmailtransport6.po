@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kmailtransport\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-11-27 00:41+0000\n"
-"PO-Revision-Date: 2024-12-14 01:48+0530\n"
+"PO-Revision-Date: 2024-12-20 21:52+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -66,7 +66,8 @@ msgstr "सर्वरस्य पोर्ट् सङ्ख्या"
 msgid ""
 "The port number that the SMTP server is listening on. The default port is "
 "587."
-msgstr "यस्मिन् पोर्ट् सङ्ख्या SMTP सर्वरः शृणोति । पूर्वनिर्धारितं पोर्ट् ५८७ अस्ति ।"
+msgstr ""
+"यस्मिन् पोर्ट् सङ्ख्या SMTP सर्वरः शृणोति । पूर्वनिर्धारितं पोर्ट् ५८७ अस्ति ।"
 
 #. i18n: ectx: label, entry (userName), group (Transport $(transportId))
 #: mailtransport.kcfg:39
@@ -93,7 +94,8 @@ msgid ""
 "A command to run locally, prior to sending email. This can be used to set up "
 "SSH tunnels, for example. Leave it empty if no command should be run."
 msgstr ""
-"स्थानीयरूपेण चालयितुं आदेशः, ईमेल प्रेषणात् पूर्वं । एतत् SSH सुरङ्गस्थापनार्थं उपयोक्तुं शक्यते, "
+"स्थानीयरूपेण चालयितुं आदेशः, ईमेल प्रेषणात् पूर्वं । एतत् SSH सुरङ्गस्थापनार्थ"
+"ं उपयोक्तुं शक्यते, "
 "उदाहरणार्थम् । यदि कोऽपि आदेशः चालनीयः नास्ति तर्हि रिक्तं त्यजन्तु ।"
 
 #. i18n: ectx: label, entry (options), group (Transport $(transportId))
@@ -115,7 +117,8 @@ msgid ""
 "Check this option if your SMTP server requires authentication before "
 "accepting mail. This is known as 'Authenticated SMTP' or simply ASMTP."
 msgstr ""
-"यदि भवतः SMTP सर्वरः मेलस्वीकारात् पूर्वं प्रमाणीकरणस्य आवश्यकतां अनुभवति तर्हि एतत् विकल्पं "
+"यदि भवतः SMTP सर्वरः मेलस्वीकारात् पूर्वं प्रमाणीकरणस्य आवश्यकतां अनुभवति तर्ह"
+"ि एतत् विकल्पं "
 "पश्यन्तु । एतत् 'Authenticated SMTP' अथवा केवलं ASMTP इति ज्ञायते ।"
 
 #. i18n: ectx: label, entry (storePassword), group (Transport $(transportId))
@@ -137,9 +140,12 @@ msgid ""
 "configuration file is obtained."
 msgstr ""
 "भवतः गुप्तशब्दः संगृहीतः भवतु इति एतत् विकल्पं पश्यन्तु ।\n"
-"यदि KWallet उपलभ्यते तर्हि गुप्तशब्दः तत्र संगृहीतः भविष्यति, यत् सुरक्षितं मन्यते ।\n"
-"परन्तु यदि KWallet उपलब्धं नास्ति तर्हि गुप्तशब्दः विन्याससञ्चिकायां संगृहीतः भविष्यति । "
-"गुप्तशब्दः अस्पष्टरूपेण संगृह्यते, परन्तु विन्याससञ्चिकायाः प्रवेशः प्राप्तः चेत् "
+"यदि KWallet उपलभ्यते तर्हि गुप्तशब्दः तत्र संगृहीतः भविष्यति, यत् सुरक्षितं मन"
+"्यते ।\n"
+"परन्तु यदि KWallet उपलब्धं नास्ति तर्हि गुप्तशब्दः विन्याससञ्चिकायां संगृहीतः "
+"भविष्यति । "
+"गुप्तशब्दः अस्पष्टरूपेण संगृह्यते, परन्तु विन्याससञ्चिकायाः प्रवेशः प्राप्तः च"
+"ेत् "
 "विगुप्तीकरणप्रयत्नात् सुरक्षितः न गणनीयः ।"
 
 #. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
@@ -190,8 +196,10 @@ msgid ""
 "server. This is useful when your system's hostname may not be set correctly "
 "or to mask your system's true hostname."
 msgstr ""
-"मेल सर्वरं प्रति परिचयं कुर्वन् इष्टं होस्ट्नाम उपयोक्तुं एतत् विकल्पं पश्यन्तु । एतत् तदा उपयोगी "
-"भवति यदा भवतः प्रणाल्याः होस्ट्-नाम सम्यक् सेट् न भवति अथवा भवतः प्रणाल्याः यथार्थं होस्ट्-"
+"मेल सर्वरं प्रति परिचयं कुर्वन् इष्टं होस्ट्नाम उपयोक्तुं एतत् विकल्पं पश्यन्त"
+"ु । एतत् तदा उपयोगी "
+"भवति यदा भवतः प्रणाल्याः होस्ट्-नाम सम्यक् सेट् न भवति अथवा भवतः प्रणाल्याः यथ"
+"ार्थं होस्ट्-"
 "नाम मास्कं कर्तुं ।"
 
 #. i18n: ectx: whatsthis, entry (localHostname), group (Transport $(transportId))
@@ -207,7 +215,8 @@ msgid ""
 "Check this option to use a custom sender address when identifying to the "
 "mail server. If not checked, the address from the identity is used."
 msgstr ""
-"मेलसर्वरं प्रति परिचयं कुर्वन् इष्टप्रेषकसङ्केतं उपयोक्तुं एतत् विकल्पं पश्यन्तु । यदि न परीक्षितं "
+"मेलसर्वरं प्रति परिचयं कुर्वन् इष्टप्रेषकसङ्केतं उपयोक्तुं एतत् विकल्पं पश्यन्"
+"तु । यदि न परीक्षितं "
 "तर्हि परिचयात् पता उपयुज्यते ।"
 
 #. i18n: ectx: whatsthis, entry (senderOverwriteAddress), group (Transport $(transportId))
@@ -216,7 +225,8 @@ msgstr ""
 msgid ""
 "Enter the address that should be used to overwrite the default sender "
 "address."
-msgstr "पूर्वनिर्धारितप्रेषकसङ्केतस्य अधिलेखनार्थं यत् पता प्रयोक्तव्यं तत् प्रविशतु ।"
+msgstr ""
+"पूर्वनिर्धारितप्रेषकसङ्केतस्य अधिलेखनार्थं यत् पता प्रयोक्तव्यं तत् प्रविशतु ।"
 
 #. i18n: ectx: label, entry (useProxy), group (Transport $(transportId))
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxy)
@@ -231,7 +241,9 @@ msgstr "सिस्टम् प्रॉक्सी सेटिंग्स�
 msgid ""
 "If checked, the system proxy settings will be used to connect to the mail "
 "server."
-msgstr "यदि परीक्षितं तर्हि मेलसर्वरेण सह संयोजयितुं सिस्टम् प्रॉक्सी सेटिङ्ग्स् उपयुज्यन्ते ।"
+msgstr ""
+"यदि परीक्षितं तर्हि मेलसर्वरेण सह संयोजयितुं सिस्टम् प्रॉक्सी सेटिङ्ग्स् उपयुज"
+"्यन्ते ।"
 
 #: plugins/smtp/smtpconfigwidget.cpp:151
 #, kde-format
@@ -253,7 +265,8 @@ msgstr "गतिविधयः"
 #, kde-format
 msgid ""
 "Failed to check capabilities. Please verify port and authentication mode."
-msgstr "क्षमतां परीक्षितुं असफलम्। कृपया पोर्ट् प्रमाणीकरणविधानं च सत्यापयन्तु ।"
+msgstr ""
+"क्षमतां परीक्षितुं असफलम्। कृपया पोर्ट् प्रमाणीकरणविधानं च सत्यापयन्तु ।"
 
 #: plugins/smtp/smtpconfigwidget.cpp:305
 #, kde-format
@@ -264,7 +277,9 @@ msgstr "क्षमतां जाँचं विफलम्"
 #: plugins/smtp/smtpjob.cpp:227
 #, kde-format
 msgid "You need to supply a username and a password to use this SMTP server."
-msgstr "अस्य SMTP सर्वरस्य उपयोगाय भवद्भिः उपयोक्तृनाम गुप्तशब्दं च आपूर्तिः कर्तव्यः ।"
+msgstr ""
+"अस्य SMTP सर्वरस्य उपयोगाय भवद्भिः उपयोक्तृनाम गुप्तशब्दं च आपूर्तिः कर्तव्यः "
+"।"
 
 #: plugins/smtp/smtpmailtransportplugin.cpp:27
 #, kde-format
@@ -312,7 +327,7 @@ msgstr "सर्वर &प्रमाणीकरणस्य आवश्य
 #: plugins/smtp/smtpsettings.ui:80
 #, kde-format
 msgid "&Login:"
-msgstr "&प्रवेशः : १."
+msgstr "&प्रवेशः :"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: plugins/smtp/smtpsettings.ui:106
@@ -355,7 +370,7 @@ msgstr "ऑटो डिटेक्ट्"
 #: plugins/smtp/smtpsettings.ui:219
 #, kde-format
 msgid "Encryption:"
-msgstr "एन्क्रिप्शन : १."
+msgstr "एन्क्रिप्शन :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
 #: plugins/smtp/smtpsettings.ui:228
@@ -385,7 +400,7 @@ msgstr "&पोताश्रय:"
 #: plugins/smtp/smtpsettings.ui:277
 #, kde-format
 msgid "Authentication:"
-msgstr "प्रमाणीकरणम् : १."
+msgstr "प्रमाणीकरणम् :"
 
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_3)
 #: plugins/smtp/smtpsettings.ui:296
@@ -397,19 +412,19 @@ msgstr "SMTP सेटिंग्स्"
 #: plugins/smtp/smtpsettings.ui:306
 #, kde-format
 msgid "Hostna&me:"
-msgstr "होस्टना&मे: १."
+msgstr "होस्टना&मे:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/smtp/smtpsettings.ui:332
 #, kde-format
 msgid "Sender Address:"
-msgstr "प्रेषकस्य पता : १."
+msgstr "प्रेषकस्य पता :"
 
 #. i18n: ectx: property (text), widget (QLabel, precommandLabel)
 #: plugins/smtp/smtpsettings.ui:349
 #, kde-format
 msgid "Precommand:"
-msgstr "पूर्वादेशः : १."
+msgstr "पूर्वादेशः :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifyHostname)
 #: plugins/smtp/smtpsettings.ui:379
@@ -484,10 +499,13 @@ msgid ""
 "obtained.\n"
 "Do you want to store the password for server '%1' in the configuration file?"
 msgstr ""
-"QKeychain भवतः गुप्तशब्दस्य संग्रहणार्थं पृष्ठभागं न प्राप्नोत् । भवतः गुप्तशब्दानां प्रबन्धनार्थं "
+"QKeychain भवतः गुप्तशब्दस्य संग्रहणार्थं पृष्ठभागं न प्राप्नोत् । भवतः गुप्तशब"
+"्दानां प्रबन्धनार्थं "
 "दृढपृष्ठभागस्य उपयोगः दृढतया अनुशंसितः अस्ति ।\n"
-"परन्तु तस्य स्थाने गुप्तशब्दं विन्याससञ्चिकायां संग्रहीतुं शक्यते । गुप्तशब्दः अस्पष्टरूपेण संगृह्यते, "
-"परन्तु विन्याससञ्चिकायाः प्रवेशः प्राप्तः चेत् विगुप्तीकरणप्रयत्नात् सुरक्षितः न गणनीयः ।\n"
+"परन्तु तस्य स्थाने गुप्तशब्दं विन्याससञ्चिकायां संग्रहीतुं शक्यते । गुप्तशब्दः"
+" अस्पष्टरूपेण संगृह्यते, "
+"परन्तु विन्याससञ्चिकायाः प्रवेशः प्राप्तः चेत् विगुप्तीकरणप्रयत्नात् सुरक्षितः"
+" न गणनीयः ।\n"
 "किं भवान् '%1' सर्वरस्य गुप्तशब्दं विन्याससञ्चिकायां संग्रहीतुं इच्छति?"
 
 #: transport.cpp:219
@@ -541,7 +559,8 @@ msgid ""
 "Do you want to migrate your passwords to KWallet?"
 msgstr ""
 "निम्नलिखितमेलपरिवहनाः स्वगुप्तशब्दान् अगुप्तविन्याससञ्चिकायां संगृह्णन्ति ।\n"
-"सुरक्षाकारणात् कृपया एतान् गुप्तशब्दान् KWallet, KDE Wallet प्रबन्धनसाधनं प्रति प्रवासयितुं "
+"सुरक्षाकारणात् कृपया एतान् गुप्तशब्दान् KWallet, KDE Wallet प्रबन्धनसाधनं प्रत"
+"ि प्रवासयितुं "
 "विचारयन्तु,\n"
 "यत् भवतः कृते संवेदनशीलदत्तांशं दृढतया गुप्तसञ्चिकायां संगृह्णाति ।\n"
 "किं भवान् स्वस्य गुप्तशब्दान् KWallet मध्ये प्रवासयितुम् इच्छति?"

@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the kdevelop package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdevelop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2023-11-05 12:28+0000\n"
-"PO-Revision-Date: 2024-12-13 19:10+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:52+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #: analyzer.cpp:30
 #, kde-format
@@ -57,7 +59,8 @@ msgstr "मैनुअल स्तर"
 msgid ""
 "Very stable checks, 99.99% safe, mostly no false-positives, very desirable."
 msgstr ""
-"अतीव स्थिरपरीक्षाः, ९९.९९% सुरक्षिताः, अधिकतया मिथ्या-सकारात्मकाः नास्ति, अतीव "
+"अतीव स्थिरपरीक्षाः, ९९.९९% सुरक्षिताः, अधिकतया मिथ्या-सकारात्मकाः नास्ति, अतीव"
+" "
 "वांछनीयम्।"
 
 #: checksdb.cpp:40
@@ -66,7 +69,8 @@ msgid ""
 "The default level. Very similar to level 0, slightly more false-positives "
 "but very few."
 msgstr ""
-"पूर्वनिर्धारितस्तरः । स्तर 0 इत्यस्य अत्यन्तं सदृशं, किञ्चित् अधिकं मिथ्या-सकारात्मकं किन्तु "
+"पूर्वनिर्धारितस्तरः । स्तर 0 इत्यस्य अत्यन्तं सदृशं, किञ्चित् अधिकं मिथ्या-सका"
+"रात्मकं किन्तु "
 "अत्यल्पम्।"
 
 #: checksdb.cpp:43
@@ -75,7 +79,8 @@ msgid ""
 "Also very few false-positives, but contains noisy checks which not everyone "
 "agree should be default."
 msgstr ""
-"अपि च अत्यल्पाः मिथ्या-सकारात्मकाः, परन्तु कोलाहलपूर्णाः जाँचाः सन्ति येषां पूर्वनिर्धारितं "
+"अपि च अत्यल्पाः मिथ्या-सकारात्मकाः, परन्तु कोलाहलपूर्णाः जाँचाः सन्ति येषां पू"
+"र्वनिर्धारितं "
 "भवेत् इति सर्वे न सहमताः ।"
 
 #: checksdb.cpp:46
@@ -89,7 +94,8 @@ msgid ""
 "Checks here need to be enabled explicitly, as they don't belong to any "
 "level. Checks here are very stable and have very few false-positives."
 msgstr ""
-"अत्र जाँचः स्पष्टतया सक्षमीकरणीयः, यतः ते कस्यापि स्तरस्य न सन्ति । अत्र चेक् अतीव स्थिराः "
+"अत्र जाँचः स्पष्टतया सक्षमीकरणीयः, यतः ते कस्यापि स्तरस्य न सन्ति । अत्र चेक् "
+"अतीव स्थिराः "
 "सन्ति, अत्यल्पाः मिथ्या-सकारात्मकाः च सन्ति ।"
 
 #: checksdb.cpp:54
@@ -97,7 +103,9 @@ msgstr ""
 msgid ""
 "Unable to load Clazy checks information from '%1'. Please check your "
 "settings."
-msgstr "Clazy '%1' तः सूचनां जाँचयति लोड् कर्तुं असमर्थः । कृपया स्वस्य सेटिङ्ग्स् पश्यन्तु।"
+msgstr ""
+"Clazy '%1' तः सूचनां जाँचयति लोड् कर्तुं असमर्थः । कृपया स्वस्य सेटिङ्ग्स् पश्"
+"यन्तु।"
 
 #: config/checksetmanagewidget.cpp:89
 #, kde-format
@@ -189,7 +197,8 @@ msgstr "Reset Checks"
 #, kde-format
 msgid ""
 "Since nothing is selected Clazy will use all checks from levels 0 and 1."
-msgstr "यतः किमपि चयनितं नास्ति तस्मात् Clazy स्तर 0 तथा 1 तः सर्वाणि चेक् उपयुज्यते ।"
+msgstr ""
+"यतः किमपि चयनितं नास्ति तस्मात् Clazy स्तर 0 तथा 1 तः सर्वाणि चेक् उपयुज्यते ।"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: config/commandlinewidget.ui:29
@@ -243,7 +252,7 @@ msgstr "पथाः"
 #, kde-format
 msgctxt "@label:chooser"
 msgid "clazy-standalone:"
-msgstr "मृदु-स्वतन्त्रः : १."
+msgstr "मृदु-स्वतन्त्रः :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_executablePath)
 #: config/globalconfigpage.ui:42
@@ -257,7 +266,7 @@ msgstr "मृदु-स्वतन्त्र-निष्पादनीय�
 #, kde-format
 msgctxt "@label:chooser"
 msgid "Documentation:"
-msgstr "दस्तावेजीकरणम् : १."
+msgstr "दस्तावेजीकरणम् :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_docsPath)
 #: config/globalconfigpage.ui:59
@@ -285,7 +294,7 @@ msgstr "सर्वाणि CPU कोर्स् उपयुज्यता
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Maximum number of threads:"
-msgstr "अधिकतमं सूत्राणां संख्या : १."
+msgstr "अधिकतमं सूत्राणां संख्या :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: config/globalconfigpage.ui:133
@@ -330,7 +339,8 @@ msgid ""
 "Do not emit warnings for non-Qt files, or in other words, if -DQT_CORE_LIB "
 "is missing."
 msgstr ""
-"अ-Qt सञ्चिकानां कृते चेतावनी न उत्सर्जयन्तु, अथवा अन्येषु शब्देषु, यदि -DQT_CORE_LIB "
+"अ-Qt सञ्चिकानां कृते चेतावनी न उत्सर्जयन्तु, अथवा अन्येषु शब्देषु, यदि -DQT_CO"
+"RE_LIB "
 "अनुपलब्धा अस्ति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_onlyQt)
@@ -360,7 +370,9 @@ msgstr "Qt4 संगत"
 msgctxt "@info:tooltip"
 msgid ""
 "For running clazy on Qt itself, optional, but honors specific guidelines."
-msgstr "Qt इत्यत्र एव क्लेजी चालयितुं, वैकल्पिकं, परन्तु विशिष्टमार्गदर्शिकानां सम्मानं करोति।"
+msgstr ""
+"Qt इत्यत्र एव क्लेजी चालयितुं, वैकल्पिकं, परन्तु विशिष्टमार्गदर्शिकानां सम्मान"
+"ं करोति।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_qtDeveloper)
 #: config/projectconfigpage.ui:101
@@ -378,8 +390,10 @@ msgid ""
 "None of the built-in checks benefit from this, but can be useful for custom "
 "checks."
 msgstr ""
-"कम्पाइलर जनरेटेड् कन्स्ट्रक्टर् इत्यादीनां इम्प्लिट् कोड् इत्यस्य भ्रमणार्थम् ।\n"
-"अन्तर्निर्मितपरीक्षासु कस्यापि अस्मात् लाभः न भवति, परन्तु कस्टम् चेक् कृते उपयोगी भवितुम् "
+"कम्पाइलर जनरेटेड् कन्स्ट्रक्टर् इत्यादीनां इम्प्लिट् कोड् इत्यस्य भ्रमणार्थम् "
+"।\n"
+"अन्तर्निर्मितपरीक्षासु कस्यापि अस्मात् लाभः न भवति, परन्तु कस्टम् चेक् कृते उप"
+"योगी भवितुम् "
 "अर्हति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_visitImplicitCode)
@@ -398,7 +412,8 @@ msgid ""
 "includes.\n"
 "Useful for performance reasons."
 msgstr ""
-"केवलं संकलितस्य वर्तमानसञ्चिकायाः चेतावनीः उत्सर्जयन्तु तथा च कस्यापि समावेशस्य अवहेलनां "
+"केवलं संकलितस्य वर्तमानसञ्चिकायाः चेतावनीः उत्सर्जयन्तु तथा च कस्यापि समावेशस्"
+"य अवहेलनां "
 "कुर्वन्तु ।\n"
 "कार्यप्रदर्शनकारणानां कृते उपयोगी।"
 
@@ -414,7 +429,7 @@ msgstr "समाविष्टसञ्चिकानां अवहेल�
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Header filter:"
-msgstr "शीर्षकछिद्रकः : १."
+msgstr "शीर्षकछिद्रकः :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_headerFilter)
 #: config/projectconfigpage.ui:149
@@ -440,7 +455,8 @@ msgstr "सर्वाणि fix-its सक्षमं कुर्वन्�
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Fix-its will be applied to a separate file (for unit-test use only)."
-msgstr "Fix-its पृथक् सञ्चिकायां (केवलं unit-test उपयोगाय) प्रयुक्तं भविष्यति ।"
+msgstr ""
+"Fix-its पृथक् सञ्चिकायां (केवलं unit-test उपयोगाय) प्रयुक्तं भविष्यति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_noInplaceFixits)
 #: config/projectconfigpage.ui:182
@@ -458,9 +474,11 @@ msgid ""
 "parallel checking, which can lead to multiple fix-it applying for header "
 "files."
 msgstr ""
-"कृपया fix-its applying इत्यस्मात् पूर्वं स्वस्य कोडस्य बैकअपं गृह्यताम् । उत्तमपरिणामानां कृते "
+"कृपया fix-its applying इत्यस्मात् पूर्वं स्वस्य कोडस्य बैकअपं गृह्यताम् । उत्त"
+"मपरिणामानां कृते "
 "अपि अक्षमीकरणं कुर्वन्तु \n"
-"समानान्तरपरीक्षणम्, यत् शीर्षकसञ्चिकानां कृते बहुविधं fix-it अनुप्रयोगं कर्तुं शक्नोति ।"
+"समानान्तरपरीक्षणम्, यत् शीर्षकसञ्चिकानां कृते बहुविधं fix-it अनुप्रयोगं कर्तुं"
+" शक्नोति ।"
 
 #. i18n: ectx: attribute (title), widget (QWidget, extraTab)
 #: config/projectconfigpage.ui:209
@@ -474,7 +492,7 @@ msgstr "अतिरिक्त पैरामीटर"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Compiler append:"
-msgstr "संकलक परिशिष्टः : १."
+msgstr "संकलक परिशिष्टः :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extraAppend)
 #: config/projectconfigpage.ui:222
@@ -488,7 +506,7 @@ msgstr "संकलक आदेशपङ्क्तौ योजयितु�
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Compiler prepend:"
-msgstr "संकलक पूर्ववर्ती : १."
+msgstr "संकलक पूर्ववर्ती :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_extraPrepend)
 #: config/projectconfigpage.ui:239
@@ -509,7 +527,7 @@ msgstr "clazy-standalone इत्यस्य अतिरिक्ताः �
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Extra parameters:"
-msgstr "अतिरिक्तमापदण्डाः : १."
+msgstr "अतिरिक्तमापदण्डाः :"
 
 #: job.cpp:105
 #, kde-format
@@ -558,7 +576,8 @@ msgid ""
 "clazy-standalone path cannot be detected. Set the path manually if Clazy is "
 "already installed."
 msgstr ""
-"clazy-standalone मार्गः ज्ञातुं न शक्यते। यदि Clazy पूर्वमेव संस्थापितम् अस्ति तर्हि मार्गं "
+"clazy-standalone मार्गः ज्ञातुं न शक्यते। यदि Clazy पूर्वमेव संस्थापितम् अस्ति"
+" तर्हि मार्गं "
 "मैन्युअल् रूपेण सेट् कुर्वन्तु ।"
 
 #: jobparameters.cpp:42
@@ -582,7 +601,8 @@ msgid ""
 "Clazy documentation path cannot be detected. Set the path manually if Clazy "
 "is already installed."
 msgstr ""
-"मलिनदस्तावेजमार्गः ज्ञातुं न शक्यते । यदि Clazy पूर्वमेव संस्थापितम् अस्ति तर्हि मार्गं मैन्युअल् "
+"मलिनदस्तावेजमार्गः ज्ञातुं न शक्यते । यदि Clazy पूर्वमेव संस्थापितम् अस्ति तर्"
+"हि मार्गं मैन्युअल् "
 "रूपेण सेट् कुर्वन्तु ।"
 
 #: jobparameters.cpp:67

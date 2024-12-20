@@ -3,25 +3,27 @@
 # This file is distributed under the same license as the plasma-nm package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-nm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-06-10 00:40+0000\n"
-"PO-Revision-Date: 2024-12-13 19:10+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-20 21:54+0530\n"
+"Last-Translator: kali <skkalwar999@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #. i18n: ectx: property (text), widget (QLabel, labelGateway)
 #: l2tp.ui:19
 #, kde-format
 msgid "Gateway:"
-msgstr "प्रवेशद्वारः : १."
+msgstr "प्रवेशद्वारः :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, gateway)
 #: l2tp.ui:35
@@ -33,7 +35,7 @@ msgstr "L2TP सर्वर IP अथवा नाम।"
 #: l2tp.ui:45
 #, kde-format
 msgid "Authentication type:"
-msgstr "प्रमाणीकरणप्रकारः : १."
+msgstr "प्रमाणीकरणप्रकारः :"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cmbAuthType)
 #: l2tp.ui:67 l2tpipsec.ui:68
@@ -58,7 +60,7 @@ msgstr "प्रमाणपत्राणि (TLS) ९."
 #, kde-format
 msgctxt "like in Username for athentication"
 msgid "Username:"
-msgstr "उपयोक्तृनाम : १."
+msgstr "उपयोक्तृनाम :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, username)
 #: l2tp.ui:103
@@ -67,7 +69,8 @@ msgid ""
 "<html><head/><body><p>Set the name used for authenticating the local system "
 "to the peer to &lt;name&gt;.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>स्थानीयतन्त्रस्य प्रमाणीकरणार्थं प्रयुक्तं नाम समकक्षं प्रति &lt;"
+"<html><head/><body><p>स्थानीयतन्त्रस्य प्रमाणीकरणार्थं प्रयुक्तं नाम समकक्षं प"
+"्रति &lt;"
 "name&gt; इति सेट् कुर्वन्तु ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, Label_2)
@@ -83,14 +86,15 @@ msgid ""
 "<html><head/><body><p>Password passed to PPPD when prompted for it.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>तस्य कृते प्रार्थितस्य गुप्तशब्दः PPPD कृते पारितः।</p></body></"
+"<html><head/><body><p>तस्य कृते प्रार्थितस्य गुप्तशब्दः PPPD कृते पारितः।</p><"
+"/body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QLabel, Label_3)
 #: l2tp.ui:140
 #, kde-format
 msgid "NT Domain:"
-msgstr "एन टी डोमेन : १."
+msgstr "एन टी डोमेन :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, domain)
 #: l2tp.ui:150
@@ -99,7 +103,8 @@ msgid ""
 "<html><head/><body><p>Append the domain name &lt;domain&gt; to the local "
 "host name for</p><p>authentication purposes.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>कृते स्थानीयहोस्ट् नाम्ने &lt;domain&gt; इति डोमेननाम योजयन्तु</"
+"<html><head/><body><p>कृते स्थानीयहोस्ट् नाम्ने &lt;domain&gt; इति डोमेननाम यो"
+"जयन्तु</"
 "p><p> प्रमाणीकरणप्रयोजनानि ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -107,7 +112,7 @@ msgstr ""
 #: l2tp.ui:174 l2tpipsec.ui:205
 #, kde-format
 msgid "CA Certificate:"
-msgstr "CA प्रमाणपत्राणि : १."
+msgstr "CA प्रमाणपत्राणि :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, machineCA)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, userCA)
@@ -124,7 +129,7 @@ msgstr ""
 #: l2tp.ui:199
 #, kde-format
 msgid "User Certificate:"
-msgstr "उपयोक्तृप्रमाणपत्रम् : १."
+msgstr "उपयोक्तृप्रमाणपत्रम् :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, userCert)
 #: l2tp.ui:212
@@ -133,7 +138,8 @@ msgid ""
 "<html><head/><body><p>Certificate in .pem, .der, .crt, .cer or .p12 formats."
 "</p></body></html>"
 msgstr ""
-"<html><head/><body><p>.pem, .der, .crt, .cer अथवा .p12 प्रारूपेषु प्रमाणपत्रम् ।</"
+"<html><head/><body><p>.pem, .der, .crt, .cer अथवा .p12 प्रारूपेषु प्रमाणपत्रम्"
+" ।</"
 "p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -141,7 +147,7 @@ msgstr ""
 #: l2tp.ui:224 l2tpipsec.ui:156
 #, kde-format
 msgid "Private Key:"
-msgstr "निजी कुञ्जी : १."
+msgstr "निजी कुञ्जी :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, machineKey)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, userKey)
@@ -151,7 +157,8 @@ msgid ""
 "<html><head/><body><p>Private key in .pem, .der, .key, .pk8 or .p12 formats."
 "</p></body></html>"
 msgstr ""
-"<html><head/><body><p>.pem, .der, .key, .pk8 अथवा .p12 प्रारूपेषु निजीकुंजी ।</p></"
+"<html><head/><body><p>.pem, .der, .key, .pk8 अथवा .p12 प्रारूपेषु निजीकुंजी ।<"
+"/p></"
 "body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -159,7 +166,7 @@ msgstr ""
 #: l2tp.ui:249 l2tpipsec.ui:181
 #, kde-format
 msgid "Private Key Password:"
-msgstr "निजी मुख्यगुप्तशब्दः : १."
+msgstr "निजी मुख्यगुप्तशब्दः :"
 
 #. i18n: ectx: property (toolTip), widget (PasswordField, machineKeyPassword)
 #. i18n: ectx: property (toolTip), widget (PasswordField, userKeyPassword)
@@ -169,7 +176,8 @@ msgid ""
 "<html><head/><body><p>Password for private key or PKCS#12 certificate.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>निजीकुंजी अथवा PKCS#12 प्रमाणपत्रस्य गुप्तशब्दः।</p></body></"
+"<html><head/><body><p>निजीकुंजी अथवा PKCS#12 प्रमाणपत्रस्य गुप्तशब्दः।</p></bo"
+"dy></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnIPSecSettings)
@@ -187,17 +195,17 @@ msgstr "पीपीपी सेटिंग्स्..."
 #: l2tpauth.cpp:63
 #, kde-format
 msgid "User Password:"
-msgstr "उपयोक्तृगुप्तशब्दः : १."
+msgstr "उपयोक्तृगुप्तशब्दः :"
 
 #: l2tpauth.cpp:71
 #, kde-format
 msgid "User Certificate Password:"
-msgstr "उपयोक्तृप्रमाणपत्रगुप्तशब्दः : १."
+msgstr "उपयोक्तृप्रमाणपत्रगुप्तशब्दः :"
 
 #: l2tpauth.cpp:82
 #, kde-format
 msgid "Machine Certificate Password:"
-msgstr "यन्त्रप्रमाणपत्रगुप्तशब्दः : १."
+msgstr "यन्त्रप्रमाणपत्रगुप्तशब्दः :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbEnableTunnelToHost)
 #: l2tpipsec.ui:20
@@ -227,7 +235,7 @@ msgstr "पूर्वसाझा कुञ्जी (PSK) 1.1."
 #: l2tpipsec.ui:91
 #, kde-format
 msgid "Pre-shared Key:"
-msgstr "पूर्वसाझा कुञ्जी : १."
+msgstr "पूर्वसाझा कुञ्जी :"
 
 #. i18n: ectx: property (toolTip), widget (PasswordField, presharedKey)
 #: l2tpipsec.ui:103
@@ -239,7 +247,7 @@ msgstr "<html><head/><body><p>पूर्वसाझा कुञ्जी (PS
 #: l2tpipsec.ui:131
 #, kde-format
 msgid "Machine Certificate:"
-msgstr "यन्त्रप्रमाणपत्रम् : १."
+msgstr "यन्त्रप्रमाणपत्रम् :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, machineCert)
 #: l2tpipsec.ui:144
@@ -248,7 +256,8 @@ msgid ""
 "<html><head/><body><p>Certificate in .pem, .der or .p12 formats.</p></body></"
 "html>"
 msgstr ""
-"<html><head/><body><p>.pem, .der अथवा .p12 प्रारूपेषु प्रमाणपत्रम् ।</p></body></"
+"<html><head/><body><p>.pem, .der अथवा .p12 प्रारूपेषु प्रमाणपत्रम् ।</p></body"
+"></"
 "html>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbAdvanced)
@@ -261,13 +270,13 @@ msgstr "उन्नतं"
 #: l2tpipsec.ui:231
 #, kde-format
 msgid "Phase1 Algorithms:"
-msgstr "चरण1 एल्गोरिदम् : १."
+msgstr "चरण1 एल्गोरिदम् :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
 #: l2tpipsec.ui:241
 #, kde-format
 msgid "Phase2 Algorithms:"
-msgstr "चरण2 एल्गोरिदम् : १."
+msgstr "चरण2 एल्गोरिदम् :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, esp)
 #: l2tpipsec.ui:251
@@ -276,7 +285,8 @@ msgid ""
 "<html><head/><body><p>Optional. A list of proposals for ESP - Quick Mode. "
 "The format is “enc-integ,enc-integ, …”.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>वैकल्पिक। ESP - Quick Mode इत्यस्य प्रस्तावानां सूची । प्रारूपं "
+"<html><head/><body><p>वैकल्पिक। ESP - Quick Mode इत्यस्य प्रस्तावानां सूची । प"
+"्रारूपं "
 "“enc-integ,enc-integ, ...” इति ।</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QTimeEdit, ikelifetime)
@@ -286,7 +296,8 @@ msgid ""
 "<html><head/><body><p>How long the keying channel of a connection should "
 "last before being renegotiated.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>पुनर्वार्तालापात् पूर्वं संयोजनस्य कील-चैनलः कियत्कालं यावत् "
+"<html><head/><body><p>पुनर्वार्तालापात् पूर्वं संयोजनस्य कील-चैनलः कियत्कालं य"
+"ावत् "
 "स्थातव्यम् ।</p></body></html>"
 
 #. i18n: ectx: property (displayFormat), widget (QTimeEdit, ikelifetime)
@@ -300,7 +311,7 @@ msgstr "हः:म्:स्स्"
 #: l2tpipsec.ui:271
 #, kde-format
 msgid "Phase1 Lifetime:"
-msgstr "चरण१ आयुः : १."
+msgstr "चरण१ आयुः :"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, ike)
 #: l2tpipsec.ui:278
@@ -309,14 +320,15 @@ msgid ""
 "<html><head/><body><p>Optional. A list of proposals for IKE - Main Mode. The "
 "format is “enc-integ-group,enc-integ-group, …”.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>वैकल्पिक। IKE - Main Mode इत्यस्य प्रस्तावानां सूची । प्रारूपं "
+"<html><head/><body><p>वैकल्पिक। IKE - Main Mode इत्यस्य प्रस्तावानां सूची । प्"
+"रारूपं "
 "“enc-integ-group,enc-integ-group, ...” इति ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbSalifetime)
 #: l2tpipsec.ui:285
 #, kde-format
 msgid "Phase2 Lifetime:"
-msgstr "चरण२ जीवनकालः १."
+msgstr "चरण२ जीवनकालः"
 
 #. i18n: ectx: property (toolTip), widget (QTimeEdit, salifetime)
 #: l2tpipsec.ui:295
@@ -326,8 +338,10 @@ msgid ""
 "of encryption/authentication keys for user packets) should last, from "
 "successful negotiation to expiry.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>संयोजनस्य विशेषः उदाहरणः (उपयोक्तृपैकेट्-कृते एन्क्रिप्शन/"
-"प्रमाणीकरणकुञ्जीनां समुच्चयः) कियत्कालं यावत् स्थातव्यः, सफलवार्तालापात् अवधिसमाप्तिपर्यन्तं ।"
+"<html><head/><body><p>संयोजनस्य विशेषः उदाहरणः (उपयोक्तृपैकेट्-कृते एन्क्रिप्श"
+"न/"
+"प्रमाणीकरणकुञ्जीनां समुच्चयः) कियत्कालं यावत् स्थातव्यः, सफलवार्तालापात् अवधिस"
+"माप्तिपर्यन्तं ।"
 "</p></body></html>"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, remoteId)
@@ -340,10 +354,13 @@ msgid ""
 "strongSwan or Libreswan documentation for leftid/rightid syntax and identity "
 "parsing.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>वैकल्पिक। प्रमाणीकरणार्थं IPsec सर्वरः कथं चिह्नितः भवेत् । "
-"कदाचित् Peer ID अथवा Gateway ID इति उच्यते, strongSwan, Libreswan, Openswan तथा "
+"<html><head/><body><p>वैकल्पिक। प्रमाणीकरणार्थं IPsec सर्वरः कथं चिह्नितः भवेत"
+"् । "
+"कदाचित् Peer ID अथवा Gateway ID इति उच्यते, strongSwan, Libreswan, Openswan तथ"
+"ा "
 "FreeS/WAN इत्यनेन rightid इति अपि उच्यते । leftid/rightid वाक्यविन्यासस्य "
-"परिचयपार्सिङ्गस्य च कृते strongSwan अथवा Libreswan दस्तावेजीकरणं पश्यन्तु ।</p></body></"
+"परिचयपार्सिङ्गस्य च कृते strongSwan अथवा Libreswan दस्तावेजीकरणं पश्यन्तु ।</p"
+"></body></"
 "html>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbIPComp)
@@ -354,8 +371,10 @@ msgid ""
 "encrypted. This saves some bandwidth, but uses more processing power.</p></"
 "body></html>"
 msgstr ""
-"<html><head/><body><p>IPComp कच्चानि IP-पैकेट्-समूहानि एन्क्रिप्टेड्-करणात् पूर्वं संपीडयति "
-"। एतेन किञ्चित् बैण्डविड्थ् रक्षति, परन्तु अधिका प्रक्रियाशक्तिः उपयुज्यते ।</p></body></"
+"<html><head/><body><p>IPComp कच्चानि IP-पैकेट्-समूहानि एन्क्रिप्टेड्-करणात् पू"
+"र्वं संपीडयति "
+"। एतेन किञ्चित् बैण्डविड्थ् रक्षति, परन्तु अधिका प्रक्रियाशक्तिः उपयुज्यते ।</"
+"p></body></"
 "html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbIPComp)
@@ -371,7 +390,8 @@ msgid ""
 "<html><head/><body><p>Disable perfect forward secrecy. Enable this option "
 "only if the server doesn’t support PFS.</p></body></html>"
 msgstr ""
-"<html><head/><body><p>सम्यक् अग्रे गोपनीयतां अक्षमं कुर्वन्तु। केवलं तदा एव एतत् विकल्पं "
+"<html><head/><body><p>सम्यक् अग्रे गोपनीयतां अक्षमं कुर्वन्तु। केवलं तदा एव एत"
+"त् विकल्पं "
 "सक्षमं कुर्वन्तु यदा सर्वरः PFS समर्थयति नास्ति ।</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbPFS)
@@ -388,8 +408,10 @@ msgid ""
 "encapsulation even if no NAT situation is detected might help in such cases."
 "</p></body></html>"
 msgstr ""
-"<html><head/><body><p>केचन अग्निप्रावरणाः ESP यातायातस्य अवरोधं कुर्वन्ति । यदि NAT "
-"स्थितिः न ज्ञायते चेदपि UDP एन्कैप्सुलेशनं प्रवर्तयितुं एतादृशेषु सन्दर्भेषु सहायकं भवितुम् अर्हति ।</"
+"<html><head/><body><p>केचन अग्निप्रावरणाः ESP यातायातस्य अवरोधं कुर्वन्ति । यद"
+"ि NAT "
+"स्थितिः न ज्ञायते चेदपि UDP एन्कैप्सुलेशनं प्रवर्तयितुं एतादृशेषु सन्दर्भेषु स"
+"हायकं भवितुम् अर्हति ।</"
 "p></body></html>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbForceEncaps)
@@ -402,7 +424,7 @@ msgstr "UDP एनकैप्सुलेशनं प्रवर्तयन�
 #: l2tpipsec.ui:345
 #, kde-format
 msgid "Remote ID:"
-msgstr "दूरस्थः आईडी : १."
+msgstr "दूरस्थः आईडी :"
 
 #: l2tpipsecwidget.cpp:44
 #, kde-format
@@ -419,7 +441,7 @@ msgstr "प्रमाणीकरणम्"
 #: l2tpppp.ui:35
 #, kde-format
 msgid "Allow following authentication methods:"
-msgstr "निम्नलिखित प्रमाणीकरणविधयः अनुमन्यताम् : १."
+msgstr "निम्नलिखित प्रमाणीकरणविधयः अनुमन्यताम् :"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, listWidget)
 #: l2tpppp.ui:45
@@ -495,7 +517,8 @@ msgid ""
 "transmit\n"
 "and the receive directions."
 msgstr ""
-"उभयत्र संचरणयोः Van Jacobson शैली TCP/IP शीर्षकसंपीडनं अनुमन्यताम्/अक्षमं कुर्वन्तु\n"
+"उभयत्र संचरणयोः Van Jacobson शैली TCP/IP शीर्षकसंपीडनं अनुमन्यताम्/अक्षमं कुर्"
+"वन्तु\n"
 "ग्रहणदिशाश्च ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbTCPheaders)
@@ -511,7 +534,8 @@ msgid ""
 "Allow protocol field compression negotiation in both the receive and the\n"
 " transmit directions."
 msgstr ""
-"रिसीव तथा द इत्येतयोः द्वयोः अपि प्रोटोकॉलक्षेत्रसंपीडनवार्तालापस्य अनुमतिं ददातु\n"
+"रिसीव तथा द इत्येतयोः द्वयोः अपि प्रोटोकॉलक्षेत्रसंपीडनवार्तालापस्य अनुमतिं दद"
+"ातु\n"
 " दिशः संप्रेषयन्ति।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbCompressionNegotiation)
@@ -524,7 +548,9 @@ msgstr "प्रोटोकॉलक्षेत्रसंपीडनवा
 #: l2tpppp.ui:164
 #, kde-format
 msgid "Use Address/Control compression in both directions (send and receive)."
-msgstr "उभयदिशि (प्रेषणं प्राप्तुं च) Address/Control compression इत्यस्य उपयोगं कुर्वन्तु ।"
+msgstr ""
+"उभयदिशि (प्रेषणं प्राप्तुं च) Address/Control compression इत्यस्य उपयोगं कुर्व"
+"न्तु ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbAddressControlCompression)
 #: l2tpppp.ui:167
@@ -577,7 +603,8 @@ msgid ""
 "enable this checkbox, select one or more of the MSCHAP authentication\n"
 "methods: MSCHAP or MSCHAPv2."
 msgstr ""
-"नोट्: MPPE एन्क्रिप्शन केवलं MSCHAP प्रमाणीकरणविधिभिः सह एव उपलब्धम् अस्ति । इत्यस्मै\n"
+"नोट्: MPPE एन्क्रिप्शन केवलं MSCHAP प्रमाणीकरणविधिभिः सह एव उपलब्धम् अस्ति । इ"
+"त्यस्मै\n"
 "एतत् चेकबॉक्सं सक्षमं कुर्वन्तु, MSCHAP प्रमाणीकरणस्य एकं वा अधिकं वा चिनोतु\n"
 "विधियाः : MSCHAP अथवा MSCHAPv2।"
 
@@ -591,13 +618,14 @@ msgstr "MPPE Encryption इत्यस्य उपयोगं कुर्व
 #: l2tpppp.ui:281
 #, kde-format
 msgid "Crypto:"
-msgstr "क्रिप्टो : १."
+msgstr "क्रिप्टो :"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, cbMPPECrypto)
 #: l2tpppp.ui:297
 #, kde-format
 msgid "Require the use of MPPE, with 40/128-bit encryption or all."
-msgstr "MPPE इत्यस्य उपयोगः आवश्यकः, 40/128-बिट् एन्क्रिप्शनेन सह वा सर्वैः सह ।"
+msgstr ""
+"MPPE इत्यस्य उपयोगः आवश्यकः, 40/128-बिट् एन्क्रिप्शनेन सह वा सर्वैः सह ।"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbMPPECrypto)
 #: l2tpppp.ui:301
@@ -624,7 +652,8 @@ msgstr "४० बिट्"
 msgid ""
 "Allow MPPE to use stateful mode. Stateless mode is still attempted first."
 msgstr ""
-"MPPE इत्यस्य स्टेटफुल् मोड् इत्यस्य उपयोगं कर्तुं अनुमतिं ददातु । राज्यरहितविधिः अद्यापि प्रथमं "
+"MPPE इत्यस्य स्टेटफुल् मोड् इत्यस्य उपयोगं कर्तुं अनुमतिं ददातु । राज्यरहितविध"
+"िः अद्यापि प्रथमं "
 "प्रयत्नः क्रियते ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbstatefulEncryption)

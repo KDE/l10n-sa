@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ksystemlog\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-08-11 00:42+0000\n"
-"PO-Revision-Date: 2024-12-20 12:26+0530\n"
+"PO-Revision-Date: 2024-12-20 21:52+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -280,7 +280,7 @@ msgstr "लॉग लाइन्स् सूची"
 #: src/generalConfigurationWidgetBase.ui:59
 #, kde-format
 msgid "&Maximum lines displayed:"
-msgstr "&अधिकतमपङ्क्तयः प्रदर्शिताः : १."
+msgstr "&अधिकतमपङ्क्तयः प्रदर्शिताः :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, maxLines)
 #: src/generalConfigurationWidgetBase.ui:75
@@ -615,7 +615,7 @@ msgstr "दिनाङ्कः:"
 #: src/modes/cups/cupsAccessItemBuilder.cpp:19
 #, kde-format
 msgid "Hostname:"
-msgstr "होस्टनाम : १."
+msgstr "होस्टनाम :"
 
 #: src/lib/logModeItemBuilder.cpp:59 src/modes/cron/cronItemBuilder.cpp:19
 #, kde-format
@@ -643,7 +643,7 @@ msgstr "स्तर:"
 #: src/modes/xsession/xsessionItemBuilder.cpp:40
 #, kde-format
 msgid "Original file:"
-msgstr "मूलसञ्चिका : १."
+msgstr "मूलसञ्चिका :"
 
 #: src/lib/logViewExport.cpp:43
 #, kde-format
@@ -734,7 +734,7 @@ msgstr "अत्र स्वस्य अन्वेषणं प्रवि
 #: src/lib/logViewFilterWidget.cpp:103
 #, kde-format
 msgid "Filter:"
-msgstr "फ़िल्टर : १."
+msgstr "फ़िल्टर :"
 
 #: src/lib/logViewFilterWidget.cpp:123
 #, kde-format
@@ -973,7 +973,7 @@ msgstr "&सन्देशः:"
 #: src/loggerDialogBase.ui:52
 #, kde-format
 msgid "&File content:"
-msgstr "&सञ्चिकासामग्री: १."
+msgstr "&सञ्चिकासामग्री:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/loggerDialogBase.ui:75
@@ -1608,42 +1608,42 @@ msgstr "URL"
 #: src/modes/apache/apacheAccessItemBuilder.cpp:19
 #, kde-format
 msgid "Host Name:"
-msgstr "मेजबाननाम : १."
+msgstr "मेजबाननाम :"
 
 #: src/modes/apache/apacheAccessItemBuilder.cpp:20
 #: src/modes/cups/cupsAccessItemBuilder.cpp:20
 #, kde-format
 msgid "Identification:"
-msgstr "परिचयः : १."
+msgstr "परिचयः :"
 
 #: src/modes/apache/apacheAccessItemBuilder.cpp:21
 #: src/modes/cups/cupsAccessItemBuilder.cpp:21
 #: src/modes/cups/cupsPageItemBuilder.cpp:20
 #, kde-format
 msgid "Username:"
-msgstr "उपयोक्तृनाम : १."
+msgstr "उपयोक्तृनाम :"
 
 #: src/modes/apache/apacheAccessItemBuilder.cpp:22
 #: src/modes/cups/cupsAccessItemBuilder.cpp:22
 #, kde-format
 msgid "HTTP Response:"
-msgstr "HTTP प्रतिक्रिया : १."
+msgstr "HTTP प्रतिक्रिया :"
 
 #: src/modes/apache/apacheAccessItemBuilder.cpp:23
 #: src/modes/cups/cupsAccessItemBuilder.cpp:23
 #, kde-format
 msgid "Bytes Sent:"
-msgstr "बाइट्स् प्रेषिताः : १."
+msgstr "बाइट्स् प्रेषिताः :"
 
 #: src/modes/apache/apacheAccessItemBuilder.cpp:24
 #, kde-format
 msgid "Agent Identity:"
-msgstr "एजेण्ट् परिचयः : १."
+msgstr "एजेण्ट् परिचयः :"
 
 #: src/modes/apache/apacheAccessItemBuilder.cpp:25
 #, kde-format
 msgid "HTTP Request:"
-msgstr "HTTP अनुरोधः : १."
+msgstr "HTTP अनुरोधः :"
 
 #: src/modes/apache/apacheAccessLogMode.cpp:21
 #, kde-format
@@ -1777,7 +1777,7 @@ msgstr "प्रमाणीकरण लॉग सञ्चिका"
 #: src/modes/authentication/authenticationConfigurationWidget.cpp:33
 #, kde-format
 msgid "Authentication log file:"
-msgstr "प्रमाणीकरणवृत्तसञ्चिकाः : १."
+msgstr "प्रमाणीकरणवृत्तसञ्चिकाः :"
 
 #: src/modes/authentication/authenticationConfigurationWidget.cpp:38
 #, kde-format
@@ -2476,7 +2476,7 @@ msgstr "केवलं रेखाः रक्षति ये अस्य�
 #: src/modes/cron/cronItemBuilder.cpp:20
 #, kde-format
 msgid "User:"
-msgstr "उपयोक्ता : १."
+msgstr "उपयोक्ता :"
 
 #: src/modes/cron/cronLogMode.cpp:28
 #, kde-format
@@ -2669,7 +2669,7 @@ msgstr "नौकरी बिलिंग्"
 #: src/modes/cups/cupsPageItemBuilder.cpp:19
 #, kde-format
 msgid "Printer:"
-msgstr "मुद्रकः : १."
+msgstr "मुद्रकः :"
 
 #: src/modes/cups/cupsPageItemBuilder.cpp:21
 #, kde-format
@@ -2684,12 +2684,12 @@ msgstr "पृष्ठ संख्या:"
 #: src/modes/cups/cupsPageItemBuilder.cpp:23
 #, kde-format
 msgid "Num Copies:"
-msgstr "प्रतिकृतयः भवेयुः : १."
+msgstr "प्रतिकृतयः भवेयुः :"
 
 #: src/modes/cups/cupsPageItemBuilder.cpp:24
 #, kde-format
 msgid "Job Billing:"
-msgstr "नौकरी बिलिंग् : १."
+msgstr "नौकरी बिलिंग् :"
 
 #: src/modes/cups/cupsPageLogMode.cpp:21
 #, kde-format
@@ -2958,7 +2958,7 @@ msgstr "घटकः"
 #: src/modes/kernel/kernelItemBuilder.cpp:19
 #, kde-format
 msgid "Component:"
-msgstr "घटकः : १."
+msgstr "घटकः :"
 
 #: src/modes/kernel/kernelLogMode.cpp:19
 #, kde-format
@@ -3140,7 +3140,7 @@ msgstr "साम्बः"
 #: src/modes/samba/sambaItemBuilder.cpp:19
 #, kde-format
 msgid "Source File:"
-msgstr "स्रोतसञ्चिका : १."
+msgstr "स्रोतसञ्चिका :"
 
 #: src/modes/samba/sambaItemBuilder.cpp:20
 #, kde-format
@@ -3337,7 +3337,7 @@ msgstr ""
 #: src/modes/xsession/xsessionItemBuilder.cpp:37
 #, kde-format
 msgid "Program:"
-msgstr "कार्यक्रमः : १."
+msgstr "कार्यक्रमः :"
 
 #: src/modes/xsession/xsessionLogMode.cpp:28
 #, kde-format
