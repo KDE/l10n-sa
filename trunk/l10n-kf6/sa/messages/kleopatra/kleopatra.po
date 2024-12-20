@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-18 00:41+0000\n"
+"POT-Creation-Date: 2024-12-20 00:41+0000\n"
 "PO-Revision-Date: 2024-12-19 22:04+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -193,12 +193,13 @@ msgstr "एडीएसके सफलतया योजितवान्।"
 msgctxt "@info"
 msgid ""
 "By adding an ADSK to your certificate, you allow the owner of the ADSK to "
-"decrypt all new messages that are encrypted for your certificate. Do you want "
-"to add the ADSK specified in the GnuPG configuration to your certificate?"
+"decrypt all new messages that are encrypted for your certificate. Do you "
+"want to add the ADSK specified in the GnuPG configuration to your "
+"certificate?"
 msgstr ""
 "भवतः प्रमाणपत्रे ADSK योजयित्वा, भवान् ADSK-स्वामिने सर्वान् नूतनान् सन्देशान् विगुप्तं कर्तुं "
-"अनुमन्यते ये भवतः प्रमाणपत्रस्य कृते एन्क्रिप्टेड् सन्ति । किं भवान् GnuPG विन्यासे निर्दिष्टं ADSK "
-"स्वप्रमाणपत्रे योजयितुम् इच्छति?"
+"अनुमन्यते ये भवतः प्रमाणपत्रस्य कृते एन्क्रिप्टेड् सन्ति । किं भवान् GnuPG विन्यासे निर्दिष्टं "
+"ADSK स्वप्रमाणपत्रे योजयितुम् इच्छति?"
 
 #: src/commands/addadskcommand.cpp:131
 #, kde-format
@@ -214,8 +215,8 @@ msgstr "ADSK योजयन्तु"
 #: src/commands/addsubkeycommand.cpp:167
 #, kde-format
 msgid ""
-"<p>An error occurred while trying to add a new subkey to <b>%1</b>:</p><p>%2</"
-"p>"
+"<p>An error occurred while trying to add a new subkey to <b>%1</b>:</p><p>"
+"%2</p>"
 msgstr "<p><b>%1</b> मध्ये नूतनं उपकुंजी योजयितुं प्रयतमाने त्रुटिः अभवत् :</p><p> %2</p>"
 
 #: src/commands/addsubkeycommand.cpp:175
@@ -229,7 +230,8 @@ msgctxt "@info"
 msgid ""
 "<para>An error occurred while trying to add the user ID: <message>%1</"
 "message></para>"
-msgstr "<para>उपयोक्तृ-ID योजयितुं प्रयतमाने त्रुटिः अभवत्: <message>%1</message></para>"
+msgstr ""
+"<para>उपयोक्तृ-ID योजयितुं प्रयतमाने त्रुटिः अभवत्: <message>%1</message></para>"
 
 #: src/commands/adduseridcommand.cpp:206
 #, kde-format
@@ -327,8 +329,8 @@ msgstr "<para>कुंजी स्मार्टकार्ड् प्र�
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>The key was copied to the smart card.</para><para>A backup was exported "
-"to <filename>%1</filename></para>"
+"<para>The key was copied to the smart card.</para><para>A backup was "
+"exported to <filename>%1</filename></para>"
 msgstr ""
 "<para>कुंजी स्मार्टकार्ड् प्रति प्रतिलिपिता ।</para><para><filename>%1</filename></"
 "para> इत्यत्र एकं बैकअप निर्यातितम्"
@@ -389,8 +391,8 @@ msgid ""
 "<p>Please confirm that you want to write the following certificate to the %1 "
 "slot of card %2:</p><center>%3</center>"
 msgstr ""
-"<p>कृपया पुष्टिं कुर्वन्तु यत् भवान् कार्ड %2 इत्यस्य %1 स्लॉट् मध्ये निम्नलिखितप्रमाणपत्रं लिखितुम् "
-"इच्छति:</p><center> %3</center>"
+"<p>कृपया पुष्टिं कुर्वन्तु यत् भवान् कार्ड %2 इत्यस्य %1 स्लॉट् मध्ये निम्नलिखितप्रमाणपत्रं "
+"लिखितुम् इच्छति:</p><center> %3</center>"
 
 #: src/commands/certificatetopivcardcommand.cpp:148
 #, kde-format
@@ -453,7 +455,8 @@ msgid ""
 "To certify other certificates, you first need to create an OpenPGP "
 "certificate for yourself."
 msgstr ""
-"अन्येषां प्रमाणपत्राणां प्रमाणीकरणाय प्रथमं भवद्भिः स्वस्य कृते OpenPGP प्रमाणपत्रं निर्मातव्यम् ।"
+"अन्येषां प्रमाणपत्राणां प्रमाणीकरणाय प्रथमं भवद्भिः स्वस्य कृते OpenPGP प्रमाणपत्रं निर्मातव्यम् "
+"।"
 
 #: src/commands/certifycertificatecommand.cpp:174
 #, kde-format
@@ -526,8 +529,8 @@ msgid ""
 "<para>The certification of the certificates failed.</para><para>Error: "
 "<message>%1</message></para>"
 msgstr ""
-"<para>प्रमाणपत्राणां प्रमाणीकरणं विफलम् ।</para><para>दोषः : <message>%1</message></"
-"para>"
+"<para>प्रमाणपत्राणां प्रमाणीकरणं विफलम् ।</para><para>दोषः : <message>%1</"
+"message></para>"
 
 #: src/commands/certifygroupcommand.cpp:266
 #, kde-format
@@ -623,8 +626,9 @@ msgstr "न, मम न अस्ति"
 msgctxt "@info %1: a certificate, %2: name of a compliance mode"
 msgid ""
 "<para>Do you want to grant '%1' the power to mark certificates as %2 for you?"
-"</para><para><emphasis>This means that the owner of this certificate properly "
-"checks fingerprints and confirms the identities of others.</emphasis></para>"
+"</para><para><emphasis>This means that the owner of this certificate "
+"properly checks fingerprints and confirms the identities of others.</"
+"emphasis></para>"
 msgstr ""
 "<para>किं भवान् '%1' इत्यस्मै भवतः कृते प्रमाणपत्राणि %2 इति चिह्नितुं शक्तिं दातुम् इच्छति?</"
 "para><para><emphasis>अस्य अर्थः अस्ति यत् अस्य प्रमाणपत्रस्य स्वामी सम्यक् अङ्गुलिचिह्नानि "
@@ -639,8 +643,8 @@ msgid ""
 "properly checks fingerprints and confirms the identities of others.</"
 "emphasis></para>"
 msgstr ""
-"<para>किं भवान् '%1' इत्यस्मै प्रमाणपत्राणि भवतः कृते वैधानि इति चिह्नितुं शक्तिं दातुम् इच्छति?"
-"</para><para><emphasis>अस्य अर्थः अस्ति यत् अस्य प्रमाणपत्रस्य स्वामी सम्यक् "
+"<para>किं भवान् '%1' इत्यस्मै प्रमाणपत्राणि भवतः कृते वैधानि इति चिह्नितुं शक्तिं दातुम् "
+"इच्छति?</para><para><emphasis>अस्य अर्थः अस्ति यत् अस्य प्रमाणपत्रस्य स्वामी सम्यक् "
 "अङ्गुलिचिह्नानि परीक्षते अन्येषां परिचयानां च पुष्टिं करोति । </emphasis></para> इति"
 
 #: src/commands/changeownertrustcommand.cpp:146
@@ -714,8 +718,8 @@ msgid ""
 "<para>An error occurred while revoking the certification power of '%1'.</"
 "para><para><message>%2</message></para>"
 msgstr ""
-"<para>'%1' इत्यस्य प्रमाणीकरणशक्तिं निरस्तं कुर्वन् त्रुटिः अभवत् ।</"
-"para><para><message>%2</message></para>"
+"<para>'%1' इत्यस्य प्रमाणीकरणशक्तिं निरस्तं कुर्वन् त्रुटिः अभवत् ।</para><para><message>"
+"%2</message></para>"
 
 #: src/commands/changeownertrustcommand.cpp:264
 #, kde-format
@@ -904,8 +908,8 @@ msgstr "%1<nl/>&nbsp;&nbsp;&nbsp;&nbsp;%2"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Do you ultimately trust</para><para>%1</para><para>to correctly certify "
-"user certificates?</para>"
+"<para>Do you ultimately trust</para><para>%1</para><para>to correctly "
+"certify user certificates?</para>"
 msgstr ""
 "<para>किं भवान् अन्ते उपयोक्तृप्रमाणपत्राणि सम्यक् प्रमाणीकर्तुं</para><para>%1</"
 "para><para>विश्वासं करोति?</para>"
@@ -1047,8 +1051,8 @@ msgid ""
 "The DirMngr process that tried to clear the CRL cache ended prematurely "
 "because of an unexpected error. Please check the output of %1 for details."
 msgstr ""
-"CRL-सञ्चयं स्वच्छं कर्तुं प्रयतमाना DirMngr प्रक्रिया अप्रत्याशितदोषस्य कारणेन अकालं समाप्तवती "
-"। कृपया विस्तरेण %1 इत्यस्य निर्गमं पश्यन्तु ।"
+"CRL-सञ्चयं स्वच्छं कर्तुं प्रयतमाना DirMngr प्रक्रिया अप्रत्याशितदोषस्य कारणेन अकालं "
+"समाप्तवती । कृपया विस्तरेण %1 इत्यस्य निर्गमं पश्यन्तु ।"
 
 #: src/commands/clearcrlcachecommand.cpp:61
 #, kde-format
@@ -1299,8 +1303,8 @@ msgstr "CMS पृष्ठभागः: %1"
 #: src/commands/deletecertificatescommand.cpp:350
 #, kde-format
 msgid ""
-"<qt><p>An error occurred while trying to delete the certificate:</p><p><b>%1</"
-"b></p></qt>"
+"<qt><p>An error occurred while trying to delete the certificate:</p><p><b>"
+"%1</b></p></qt>"
 msgstr "<qt><p>प्रमाणपत्रं विलोपयितुं प्रयतमाने त्रुटिः अभवत्:</p><p> <b>%1</b></p></qt>"
 
 #: src/commands/dumpcertificatecommand.cpp:73
@@ -1347,8 +1351,8 @@ msgstr "डम्प प्रमाणपत्र त्रुटि"
 #: src/commands/dumpcertificatecommand.cpp:338
 #, kde-format
 msgid ""
-"An error occurred while trying to dump the certificate. The output from GpgSM "
-"was:\n"
+"An error occurred while trying to dump the certificate. The output from "
+"GpgSM was:\n"
 "%1"
 msgstr ""
 "प्रमाणपत्रं डम्पं कर्तुं प्रयतमाने त्रुटिः अभवत् । GpgSM इत्यस्मात् निर्गमः आसीत् :\n"
@@ -1415,9 +1419,9 @@ msgid ""
 "able to verify the certificate.</para><para>Do you want to continue the "
 "export?</para>"
 msgstr ""
-"<para>भवता अस्य प्रमाणपत्रस्य सर्वाणि वैधप्रयोक्तृ-ID निर्यातयोग्यप्रमाणीकरणेन प्रमाणीकृतानि "
-"न सन्ति । भवतः प्रमाणपत्रेषु अवलम्बिताः जनाः प्रमाणपत्रं सत्यापयितुं न शक्नुवन्ति।</"
-"para><para>किं भवान् निर्यातं निरन्तरं कर्तुम् इच्छति?</para>"
+"<para>भवता अस्य प्रमाणपत्रस्य सर्वाणि वैधप्रयोक्तृ-ID निर्यातयोग्यप्रमाणीकरणेन "
+"प्रमाणीकृतानि न सन्ति । भवतः प्रमाणपत्रेषु अवलम्बिताः जनाः प्रमाणपत्रं सत्यापयितुं न "
+"शक्नुवन्ति।</para><para>किं भवान् निर्यातं निरन्तरं कर्तुम् इच्छति?</para>"
 
 #: src/commands/exportcertificatecommand.cpp:186
 #: src/commands/exportcertificatecommand.cpp:201
@@ -1495,9 +1499,10 @@ msgstr "प्रमाणपत्राणि निर्यातयन्..
 #: src/commands/exportcertificatecommand.cpp:335
 #, kde-format
 msgid ""
-"<qt><p>An error occurred while trying to export the certificate:</p><p><b>%1</"
-"b></p></qt>"
-msgstr "<qt><p>प्रमाणपत्रं निर्यातयितुं प्रयतमाने त्रुटिः अभवत्:</p><p> <b>%1</b></p></qt>"
+"<qt><p>An error occurred while trying to export the certificate:</p><p><b>"
+"%1</b></p></qt>"
+msgstr ""
+"<qt><p>प्रमाणपत्रं निर्यातयितुं प्रयतमाने त्रुटिः अभवत्:</p><p> <b>%1</b></p></qt>"
 
 #: src/commands/exportcertificatecommand.cpp:339
 #: src/commands/exportcertificatecommand.cpp:385
@@ -1625,8 +1630,8 @@ msgstr "<filename>%1</filename> सञ्चिकायां प्रमा�
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>An error occurred during the export:</para><para><message>%1</message></"
-"para>"
+"<para>An error occurred during the export:</para><para><message>%1</"
+"message></para>"
 msgstr "<para>निर्यातकाले दोषः अभवत्:</para><para><message>%1</message></para>"
 
 #: src/commands/exportopenpgpcertstoservercommand.cpp:102
@@ -1652,15 +1657,15 @@ msgid ""
 "<para>When OpenPGP certificates have been exported to a public directory "
 "server, it is nearly impossible to remove them again.</para><para>Before "
 "exporting your certificate to a public directory server, make sure that you "
-"have created a revocation certificate so you can revoke the certificate if it "
-"is compromised, lost, or you forgot the passphrase.</para><para>Are you sure "
-"you want to continue?</para>"
+"have created a revocation certificate so you can revoke the certificate if "
+"it is compromised, lost, or you forgot the passphrase.</para><para>Are you "
+"sure you want to continue?</para>"
 msgstr ""
 "<para>यदा OpenPGP प्रमाणपत्राणि सार्वजनिकनिर्देशिकासर्वरं प्रति निर्यातितानि सन्ति तदा "
 "पुनः तान् निष्कासयितुं प्रायः असम्भवम्।</para><para>स्वप्रमाणपत्रं सार्वजनिकनिर्देशिकासर्वरं "
-"प्रति निर्यातयितुं पूर्वं सुनिश्चितं कुर्वन्तु यत् भवान् निरस्तीकरणप्रमाणपत्रं निर्मितवान् अतः भवान् "
-"प्रमाणपत्रं निरस्तं कर्तुं शक्नोति यदि तत् सम्झौतां कृतवान्, नष्टः अस्ति, अथवा भवान् गुप्तवाक्यं "
-"विस्मृतवान् अस्ति।</para><para>किं भवान् निश्चितरूपेण इच्छति निरन्तरं?</para> इति"
+"प्रति निर्यातयितुं पूर्वं सुनिश्चितं कुर्वन्तु यत् भवान् निरस्तीकरणप्रमाणपत्रं निर्मितवान् अतः "
+"भवान् प्रमाणपत्रं निरस्तं कर्तुं शक्नोति यदि तत् सम्झौतां कृतवान्, नष्टः अस्ति, अथवा भवान् "
+"गुप्तवाक्यं विस्मृतवान् अस्ति।</para><para>किं भवान् निश्चितरूपेण इच्छति निरन्तरं?</para> इति"
 
 #: src/commands/exportopenpgpcertstoservercommand.cpp:122
 #: src/commands/exportopenpgpcerttoprovidercommand.cpp:77
@@ -1692,9 +1697,9 @@ msgid ""
 "prematurely because of an unexpected error.</para><para>Please check the "
 "output of <icode>%1</icode> for details.</para>"
 msgstr ""
-"<para>OpenPGP प्रमाणपत्राणि निर्यातयितुं प्रयतमाना GPG प्रक्रिया अप्रत्याशितदोषस्य कारणेन "
-"अकालं समाप्तवती ।</para><para>विवरणार्थं कृपया <icode>%1</icode> इत्यस्य निर्गमं पश्यन्तु "
-"।</para>"
+"<para>OpenPGP प्रमाणपत्राणि निर्यातयितुं प्रयतमाना GPG प्रक्रिया अप्रत्याशितदोषस्य "
+"कारणेन अकालं समाप्तवती ।</para><para>विवरणार्थं कृपया <icode>%1</icode> इत्यस्य "
+"निर्गमं पश्यन्तु ।</para>"
 
 #: src/commands/exportopenpgpcertstoservercommand.cpp:165
 #: src/commands/importcertificatescommand.cpp:629
@@ -1755,10 +1760,10 @@ msgstr ""
 "व्यक्तिगतरूपेण विफलः भवितुम् अर्हति ।</para><para>यदि निर्यातितः तर्हि <email>%1</"
 "email> इत्यस्मै पुष्टिकरण-अनुरोध-मेलः प्रेषितः भविष्यति यस्य आवश्यकता अस्ति "
 "निर्यातप्रक्रियायाः पूर्णतायै मेलप्रोग्रामेन सह स्वीकारः करणीयः ।</"
-"para><para><application>KMail</application> एतानि मेलकार्यक्रमाः सम्भालितुं शक्नोति, "
-"परन्तु सर्वान् मेलकार्यक्रमान् न सम्भालितुं शक्नोति can.</para><para>एकदा निर्यातितं जातं "
-"चेत्, मानकं (अद्यापि) प्रकाशितस्य कीलस्य स्वचालितनिष्कासनस्य अनुमतिं न ददाति।</"
-"para><para>किं भवान् निश्चयेन निरन्तरं कर्तुम् इच्छति?</para>"
+"para><para><application>KMail</application> एतानि मेलकार्यक्रमाः सम्भालितुं "
+"शक्नोति, परन्तु सर्वान् मेलकार्यक्रमान् न सम्भालितुं शक्नोति can.</para><para>एकदा "
+"निर्यातितं जातं चेत्, मानकं (अद्यापि) प्रकाशितस्य कीलस्य स्वचालितनिष्कासनस्य अनुमतिं न "
+"ददाति।</para><para>किं भवान् निश्चयेन निरन्तरं कर्तुम् इच्छति?</para>"
 
 #: src/commands/exportopenpgpcerttoprovidercommand.cpp:121
 #, kde-kuit-format
@@ -1783,8 +1788,8 @@ msgstr "<para>प्रकाशनार्थं मेलस्य निर�
 msgctxt "@info"
 msgid ""
 "<para><application>Kleopatra</application> uses <application>PaperKey</"
-"application> to create a minimized and printable version of your secret key.</"
-"para><para>Please make sure it is installed.</para>"
+"application> to create a minimized and printable version of your secret key."
+"</para><para>Please make sure it is installed.</para>"
 msgstr ""
 "<para><application>Kleopatra</application> भवतः गुप्तकुञ्जीयाः न्यूनतमं मुद्रणयोग्यं च "
 "संस्करणं निर्मातुं <application>PaperKey</application> इत्यस्य उपयोगं करोति ।</"
@@ -1990,8 +1995,8 @@ msgstr ""
 #: src/commands/pivgeneratecardkeycommand.cpp:135
 #, kde-format
 msgid ""
-"It will no longer be possible to decrypt past communication encrypted for the "
-"existing key."
+"It will no longer be possible to decrypt past communication encrypted for "
+"the existing key."
 msgstr "विद्यमानस्य कीलस्य कृते एन्क्रिप्टेड् कृतं पूर्वसञ्चारं विगुप्तं कर्तुं न शक्यते ।"
 
 #: src/commands/generateopenpgpcardkeysandcertificatecommand.cpp:266
@@ -2003,8 +2008,8 @@ msgstr "गुप्त कुञ्जी विलोपनम्"
 #, kde-format
 msgctxt "@info"
 msgid ""
-"You cannot generate keys on this smart card because it doesn't support any of "
-"the compliant algorithms."
+"You cannot generate keys on this smart card because it doesn't support any "
+"of the compliant algorithms."
 msgstr ""
 "अस्मिन् स्मार्टकार्ड् मध्ये भवान् कीलानि जनयितुं न शक्नोति यतोहि एतत् अनुपालनस्य कस्यापि "
 "एल्गोरिदम् इत्यस्य समर्थनं न करोति ।"
@@ -2417,15 +2422,15 @@ msgstr "प्रमाणपत्र आयात परिणाम"
 #: src/commands/importcertificatescommand.cpp:510
 #, kde-format
 msgid ""
-"<qt><p>An error occurred while trying to import the certificate:</p><p><b>%1</"
-"b></p></qt>"
+"<qt><p>An error occurred while trying to import the certificate:</p><p><b>"
+"%1</b></p></qt>"
 msgstr "<qt><p>प्रमाणपत्रं आयातयितुं प्रयतमाने त्रुटिः अभवत्:</p><p> <b>%1</b></p></qt>"
 
 #: src/commands/importcertificatescommand.cpp:515
 #, kde-format
 msgid ""
-"<qt><p>An error occurred while trying to import the certificate %1:</"
-"p><p><b>%2</b></p></qt>"
+"<qt><p>An error occurred while trying to import the certificate %1:</p><p><b>"
+"%2</b></p></qt>"
 msgstr ""
 "<qt><p>प्रमाणपत्रं %1 आयातयितुं प्रयतमाने त्रुटिः अभवत्:</p><p> <b>%2</b></p></qt>"
 
@@ -2439,13 +2444,13 @@ msgstr "%1<item>%2</item> इति"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>You have imported a certificate with fingerprint</para><para><numid>%1</"
-"numid></para><para>and user IDs<list>%2</list></para><para>Is this your own "
-"certificate?</para>"
+"<para>You have imported a certificate with fingerprint</para><para><numid>"
+"%1</numid></para><para>and user IDs<list>%2</list></para><para>Is this your "
+"own certificate?</para>"
 msgstr ""
 "<para>भवता अङ्गुलिचिह्न</para><para><numid>%1</numid></para><para>उपयोक्तृ-"
-"ID<list>%2</list></para> च सह प्रमाणपत्रम् आयातितम् <para>इदं भवतः स्वकीयं प्रमाणपत्रम् "
-"अस्ति वा?</para>"
+"ID<list>%2</list></para> च सह प्रमाणपत्रम् आयातितम् <para>इदं भवतः स्वकीयं "
+"प्रमाणपत्रम् अस्ति वा?</para>"
 
 #: src/commands/importcertificatescommand.cpp:648
 #, kde-format
@@ -2464,8 +2469,8 @@ msgstr "न, इदं मम नास्ति"
 msgctxt "@info"
 msgid ""
 "<para>The imported group</para><para><emphasis>%1</emphasis></"
-"para><para>contains certificates that cannot be used for encryption. This may "
-"lead to unexpected results.</para>"
+"para><para>contains certificates that cannot be used for encryption. This "
+"may lead to unexpected results.</para>"
 msgstr ""
 "<para>आयातितसमूहे</para><para><emphasis>%1</emphasis></para><para>प्रमाणपत्राणि "
 "सन्ति येषां उपयोगः गोपनार्थं कर्तुं न शक्यते । अनेन अप्रत्याशितफलं भवितुं शक्नोति।</para>"
@@ -2508,9 +2513,9 @@ msgstr "CRL Cache त्रुटिं स्वच्छं कुर्वन
 #: src/commands/importcrlcommand.cpp:191
 #, kde-format
 msgid ""
-"The GpgSM process that tried to import the CRL file ended prematurely because "
-"of an unexpected error. Please check the output of gpgsm --call-dirmngr "
-"loadcrl <filename> for details."
+"The GpgSM process that tried to import the CRL file ended prematurely "
+"because of an unexpected error. Please check the output of gpgsm --call-"
+"dirmngr loadcrl <filename> for details."
 msgstr ""
 "CRL सञ्चिकां आयातयितुं प्रयतमाना GpgSM प्रक्रिया अप्रत्याशितदोषस्य कारणेन अकालं समाप्तवती "
 "। कृपया विवरणार्थं gpgsm --call-dirmngr loadcrl <filename> इत्यस्य आउटपुट् पश्यन्तु ।"
@@ -2709,7 +2714,8 @@ msgstr "क्षम्यताम्‌! एतत् कुञ्जी PIV �
 #: src/commands/keytocardcommand.cpp:396
 #, kde-format
 msgid ""
-"Sorry! Only encryption keys and signing keys can be transferred to a PIV card."
+"Sorry! Only encryption keys and signing keys can be transferred to a PIV "
+"card."
 msgstr ""
 "क्षम्यताम्‌! केवलं एन्क्रिप्शन-कुंजी, हस्ताक्षर-कुंजी च PIV-कार्ड्-मध्ये स्थानान्तरितुं शक्यन्ते ।"
 
@@ -2722,9 +2728,9 @@ msgstr "विद्यमानस्य कीलस्य कुञ्जी�
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>The key has been copied to the card.</para><para>You can now delete the "
-"copy of the key stored on this computer. Optionally, you can first create a "
-"backup of the key.</para>"
+"<para>The key has been copied to the card.</para><para>You can now delete "
+"the copy of the key stored on this computer. Optionally, you can first "
+"create a backup of the key.</para>"
 msgstr ""
 "<para>कुंजी कार्डे प्रतिलिपिता अस्ति।</para><para>अधुना भवान् अस्मिन् सङ्गणके संगृहीतस्य "
 "कीलस्य प्रतिलिपिं विलोपयितुं शक्नोति । वैकल्पिकरूपेण, भवान् प्रथमं कीलस्य बैकअपं निर्मातुम् "
@@ -2844,14 +2850,15 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>The OpenPGP keyserver returned certificates without fingerprints. Those "
-"certificates are ignored because fingerprints are required as unique "
+"<para>The OpenPGP keyserver returned certificates without fingerprints. "
+"Those certificates are ignored because fingerprints are required as unique "
 "identifiers for certificates.</para><para>You may want to configure a "
 "different OpenPGP keyserver in the configuration dialog.</para>"
 msgstr ""
-"<para>OpenPGP कीसर्वरः अङ्गुलिचिह्नं विना प्रमाणपत्राणि प्रत्यागच्छत् । तानि प्रमाणपत्राणि "
-"उपेक्षितानि यतः प्रमाणपत्राणां कृते अद्वितीयपरिचयरूपेण अङ्गुलिचिह्नानि आवश्यकानि सन्ति।</"
-"para><para>भवन्तः विन्याससंवादे भिन्नं OpenPGP कीलसर्वरं विन्यस्तुं इच्छन्ति।</para>"
+"<para>OpenPGP कीसर्वरः अङ्गुलिचिह्नं विना प्रमाणपत्राणि प्रत्यागच्छत् । तानि "
+"प्रमाणपत्राणि उपेक्षितानि यतः प्रमाणपत्राणां कृते अद्वितीयपरिचयरूपेण अङ्गुलिचिह्नानि "
+"आवश्यकानि सन्ति।</para><para>भवन्तः विन्याससंवादे भिन्नं OpenPGP कीलसर्वरं विन्यस्तुं "
+"इच्छन्ति।</para>"
 
 #: src/commands/lookupcertificatescommand.cpp:477
 #, kde-format
@@ -2889,13 +2896,13 @@ msgid ""
 "<para>The query result has been truncated.</para><para>Either the local or a "
 "remote limit on the maximum number of returned hits has been exceeded.</"
 "para><para>You can try to increase the local limit in the configuration "
-"dialog, but if one of the configured servers is the limiting factor, you have "
-"to refine your search.</para>"
+"dialog, but if one of the configured servers is the limiting factor, you "
+"have to refine your search.</para>"
 msgstr ""
 "<para>प्रश्नपरिणामं कटितम् अस्ति।</para><para>अधिकतमं प्रत्यागतानां हिट्-सङ्ख्यायाः "
-"स्थानीयं वा दूरस्थं वा सीमा अतिक्रान्तम्।</para><para>भवन्तः स्थानीयसीमाम् वर्धयितुं प्रयतितुं "
-"शक्नुवन्ति विन्याससंवादे, परन्तु यदि विन्यस्तसर्वरेषु कश्चन सीमितकारकः अस्ति तर्हि भवद्भिः "
-"अन्वेषणं परिष्कृतं कर्तव्यम् ।</para>"
+"स्थानीयं वा दूरस्थं वा सीमा अतिक्रान्तम्।</para><para>भवन्तः स्थानीयसीमाम् वर्धयितुं "
+"प्रयतितुं शक्नुवन्ति विन्याससंवादे, परन्तु यदि विन्यस्तसर्वरेषु कश्चन सीमितकारकः अस्ति तर्हि "
+"भवद्भिः अन्वेषणं परिष्कृतं कर्तव्यम् ।</para>"
 
 #: src/commands/lookupcertificatescommand.cpp:643
 #, kde-format
@@ -2969,16 +2976,16 @@ msgid ""
 "<para>The creation of a new OpenPGP certificate failed.</para><para>Error: "
 "<message>%1</message></para>"
 msgstr ""
-"<para>नवीन OpenPGP प्रमाणपत्रस्य निर्माणं विफलम् ।</para><para>त्रुटिः : <message>%1</"
-"message></para>"
+"<para>नवीन OpenPGP प्रमाणपत्रस्य निर्माणं विफलम् ।</para><para>त्रुटिः : <message>"
+"%1</message></para>"
 
 #: src/commands/newopenpgpcertificatecommand.cpp:222
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>A new OpenPGP certificate was created successfully, but it has not been "
-"found in the key ring.</para><para>Fingerprint of the new certificate:<nl/"
-">%1</para>"
+"<para>A new OpenPGP certificate was created successfully, but it has not "
+"been found in the key ring.</para><para>Fingerprint of the new certificate:"
+"<nl/>%1</para>"
 msgstr ""
 "<para>नवीन OpenPGP प्रमाणपत्रं सफलतया निर्मितम्, परन्तु कीलवलये न प्राप्तम् ।</"
 "para><para>नवप्रमाणपत्रस्य अङ्गुलिचिह्नम्:<nl/>%1</para>"
@@ -3175,10 +3182,10 @@ msgctxt "@info"
 msgid ""
 "<para>Refreshing OpenPGP certificates implies downloading all certificates "
 "anew, to check if any of them have been revoked in the meantime.</"
-"para><para>This can put a severe strain on your own as well as other people's "
-"network connections, and can take up to an hour or more to complete, "
-"depending on your network connection, and the number of certificates to check."
-"</para> <para>Are you sure you want to continue?</para>"
+"para><para>This can put a severe strain on your own as well as other "
+"people's network connections, and can take up to an hour or more to "
+"complete, depending on your network connection, and the number of "
+"certificates to check.</para> <para>Are you sure you want to continue?</para>"
 msgstr ""
 "<para>OpenPGP प्रमाणपत्राणि ताजगीकृत्य सर्वाणि प्रमाणपत्राणि नवीनतया अवतरणं करणीयम्, "
 "तदन्तरे तेषु कश्चन निरस्तः अस्ति वा इति परीक्षितुं।</para><para>एतत् भवतः स्वस्य अपि च "
@@ -3212,9 +3219,9 @@ msgid ""
 "prematurely because of an unexpected error.</para><para>Please check the "
 "output of <icode>%1</icode> for details.</para>"
 msgstr ""
-"<para>OpenPGP प्रमाणपत्राणि ताजगीं कर्तुं प्रयतमाना GPG प्रक्रिया अप्रत्याशितदोषस्य कारणेन "
-"अकालं समाप्तवती ।</para><para>विवरणार्थं कृपया <icode>%1</icode> इत्यस्य निर्गमं पश्यन्तु "
-"।</para>"
+"<para>OpenPGP प्रमाणपत्राणि ताजगीं कर्तुं प्रयतमाना GPG प्रक्रिया अप्रत्याशितदोषस्य "
+"कारणेन अकालं समाप्तवती ।</para><para>विवरणार्थं कृपया <icode>%1</icode> इत्यस्य "
+"निर्गमं पश्यन्तु ।</para>"
 
 #: src/commands/refreshopenpgpcertscommand.cpp:93
 #, kde-kuit-format
@@ -3246,8 +3253,8 @@ msgstr ""
 "<para>X.509 प्रमाणपत्राणां ताजगीकरणस्य तात्पर्यं सर्वेषां प्रमाणपत्राणां कृते CRLs अवतरणं "
 "भवति, यद्यपि ते अन्यथा अद्यापि वैधाः भवेयुः।</para><para>एतत् भवतः स्वस्य अपि च अन्येषां "
 "जालसंयोजनानां उपरि तीव्रं तनावं स्थापयितुं शक्नोति, तथा च शक्नोति भवतः जालसम्बद्धतायाः, "
-"परीक्षितुं प्रमाणपत्रसङ्ख्यायाः च आधारेण पूर्णं कर्तुं एकघण्टां वा अधिकं वा समयः भवति ।</para> "
-"<para>किं भवान् निश्चयेन इच्छति निरन्तरं?</para> इति"
+"परीक्षितुं प्रमाणपत्रसङ्ख्यायाः च आधारेण पूर्णं कर्तुं एकघण्टां वा अधिकं वा समयः भवति ।</"
+"para> <para>किं भवान् निश्चयेन इच्छति निरन्तरं?</para> इति"
 
 #: src/commands/refreshx509certscommand.cpp:48
 #, kde-format
@@ -3275,20 +3282,20 @@ msgid ""
 "prematurely because of an unexpected error.</para><para>Please check the "
 "output of <icode>%1</icode> for details.</para>"
 msgstr ""
-"<para>X.509 प्रमाणपत्राणि ताजगीं कर्तुं प्रयतमाना GpgSM प्रक्रिया अप्रत्याशितदोषस्य कारणेन "
-"अकालं समाप्तवती ।</para><para>विवरणार्थं कृपया <icode>%1</icode> इत्यस्य निर्गमं पश्यन्तु "
-"।</para>"
+"<para>X.509 प्रमाणपत्राणि ताजगीं कर्तुं प्रयतमाना GpgSM प्रक्रिया अप्रत्याशितदोषस्य "
+"कारणेन अकालं समाप्तवती ।</para><para>विवरणार्थं कृपया <icode>%1</icode> इत्यस्य "
+"निर्गमं पश्यन्तु ।</para>"
 
 #: src/commands/refreshx509certscommand.cpp:88
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "<para>An error occurred while trying to refresh X.509 certificates.</"
-"para><para>The output from <command>%1</command> was: <bcode>%2</bcode></para>"
-msgstr ""
-"<para>X.509 प्रमाणपत्राणि ताजगीं कर्तुं प्रयतमाने त्रुटिः अभवत् ।</"
-"para><para><command>%1</command> इत्यस्मात् निर्गमः आसीत् : <bcode>%2</bcode></"
+"para><para>The output from <command>%1</command> was: <bcode>%2</bcode></"
 "para>"
+msgstr ""
+"<para>X.509 प्रमाणपत्राणि ताजगीं कर्तुं प्रयतमाने त्रुटिः अभवत् ।</para><para><command>"
+"%1</command> इत्यस्मात् निर्गमः आसीत् : <bcode>%2</bcode></para>"
 
 #: src/commands/refreshx509certscommand.cpp:96
 #, kde-format
@@ -3515,8 +3522,8 @@ msgid ""
 "Please enter the new PIV Card Application Administration Key in hex-encoded "
 "form. The key needs to consist of 24 bytes, i.e. 48 hex-characters."
 msgstr ""
-"कृपया नूतनं PIV कार्ड अनुप्रयोगप्रशासनकुंजी हेक्स-एन्कोडेड् रूपेण प्रविष्टं कुर्वन्तु। कीलस्य २४ बाइट् "
-"अर्थात् ४८ हेक्स-वर्णाः भवितव्याः ।"
+"कृपया नूतनं PIV कार्ड अनुप्रयोगप्रशासनकुंजी हेक्स-एन्कोडेड् रूपेण प्रविष्टं कुर्वन्तु। कीलस्य २४ "
+"बाइट् अर्थात् ४८ हेक्स-वर्णाः भवितव्याः ।"
 
 #: src/commands/setpivcardapplicationadministrationkeycommand.cpp:166
 #, kde-format
@@ -3546,10 +3553,12 @@ msgstr "PIV कार्ड अनुप्रयोगप्रशासनक�
 msgctxt "@info"
 msgid ""
 "<para>An error occurred while trying to flag the user ID<nl/><emphasis>%1</"
-"emphasis><nl/>as the primary user ID.</para><para><message>%2</message></para>"
+"emphasis><nl/>as the primary user ID.</para><para><message>%2</message></"
+"para>"
 msgstr ""
 "<para>प्रयोक्तृ-ID<nl/><emphasis>%1</emphasis><nl/>इत्येतत् प्राथमिक-उपयोक्तृ-ID इति "
-"ध्वजं स्थापयितुं प्रयतमाने त्रुटिः अभवत्।</para><para><message>%2 सन्देशः</message></para>"
+"ध्वजं स्थापयितुं प्रयतमाने त्रुटिः अभवत्।</para><para><message>%2 सन्देशः</message></"
+"para>"
 
 #: src/commands/setprimaryuseridcommand.cpp:132
 #, kde-kuit-format
@@ -3587,7 +3596,8 @@ msgstr "हस्ताक्षरं कर्तुं तथा/वा ए�
 msgctxt "@info"
 msgid ""
 "<para>Failed to enable certificate:</para><para><message>%1</message></para>"
-msgstr "<para>प्रमाणपत्रं सक्षमीकरणे असफलम्:</para><para><message>%1</message></para>"
+msgstr ""
+"<para>प्रमाणपत्रं सक्षमीकरणे असफलम्:</para><para><message>%1</message></para>"
 
 #: src/commands/togglecertificateenabledcommand.cpp:79
 #, kde-kuit-format
@@ -3684,8 +3694,8 @@ msgid ""
 "Select the number of days you want to be warned in advance, if another "
 "person's certificate is about to expire soon."
 msgstr ""
-"यदि अन्यस्य व्यक्तिस्य प्रमाणपत्रस्य शीघ्रमेव अवधिः समाप्तः भवितुम् अर्हति तर्हि भवन्तः पूर्वमेव "
-"चेतावनीम् इच्छन्ति इति दिवसानां संख्यां चिनोतु ।"
+"यदि अन्यस्य व्यक्तिस्य प्रमाणपत्रस्य शीघ्रमेव अवधिः समाप्तः भवितुम् अर्हति तर्हि भवन्तः "
+"पूर्वमेव चेतावनीम् इच्छन्ति इति दिवसानां संख्यां चिनोतु ।"
 
 #: src/conf/appearanceconfigwidget.cpp:401
 #, kde-format
@@ -3798,8 +3808,8 @@ msgstr "GnuPG प्रणाली"
 #, kde-format
 msgctxt "@option:check"
 msgid ""
-"Create OpenPGP encrypted files with \".pgp\" file extensions instead of "
-"\".gpg\""
+"Create OpenPGP encrypted files with \".pgp\" file extensions instead of \"."
+"gpg\""
 msgstr ""
 "\".gpg\" इत्यस्य स्थाने \".pgp\" सञ्चिकाविस्तारयुक्तानि OpenPGP एन्क्रिप्टेड् सञ्चिकाः "
 "रचयन्तु ।"
@@ -3819,8 +3829,8 @@ msgid ""
 "increase file size by one third."
 msgstr ""
 "एन्क्रिप्टेड् अथवा हस्ताक्षरितसञ्चिकाः base64 एन्कोडेड् पाठरूपेण एन्कोड् कर्तुं एतत् विकल्पं सेट् "
-"कुर्वन्तु । यथा ते सम्पादकेन उद्घाटयितुं वा मेलशरीरे प्रेषयितुं वा शक्यन्ते। एतेन सञ्चिकायाः आकारः "
-"एकतृतीयभागः वर्धते ।"
+"कुर्वन्तु । यथा ते सम्पादकेन उद्घाटयितुं वा मेलशरीरे प्रेषयितुं वा शक्यन्ते। एतेन सञ्चिकायाः "
+"आकारः एकतृतीयभागः वर्धते ।"
 
 #: src/conf/cryptooperationsconfigwidget.cpp:65
 #, kde-format
@@ -3921,8 +3931,8 @@ msgid ""
 msgstr ""
 "OpenPGP प्रमाणपत्राणि अन्वेष्टुं OpenPGP प्रमाणपत्राणि अपलोड् कुर्वन् च उपयोक्तुं कीसर्वरस्य "
 "पतां प्रविशन्तु । यदि भवान् पतां न प्रविशति तर्हि आन्तरिकपूर्वनिर्धारितस्य उपयोगः भविष्यति "
-"। OpenPGP कीसर्वरस्य उपयोगं निष्क्रियं कर्तुं विशेषमूल्यं <emphasis>none</emphasis> प्रविशतु "
-"।"
+"। OpenPGP कीसर्वरस्य उपयोगं निष्क्रियं कर्तुं विशेषमूल्यं <emphasis>none</emphasis> "
+"प्रविशतु ।"
 
 #: src/conf/dirservconfigpage.cpp:169
 #, kde-format
@@ -4096,8 +4106,8 @@ msgid ""
 "<para>Do you really want to delete this %1 group?</para><para>Once deleted, "
 "it cannot be restored.</para>"
 msgid_plural ""
-"<para>Do you really want to delete these %1 groups?</para><para>Once deleted, "
-"they cannot be restored.</para>"
+"<para>Do you really want to delete these %1 groups?</para><para>Once "
+"deleted, they cannot be restored.</para>"
 msgstr[0] ""
 "<para>किं भवान् वास्तवमेव एतत् %1 समूहं विलोपयितुम् इच्छति?</para><para>एकदा विलोपनं "
 "कृत्वा पुनः स्थापयितुं न शक्यते ।</para>"
@@ -4209,8 +4219,8 @@ msgid ""
 "the Online Certificates Status Protocol (OCSP). Fill in the URL of the OCSP "
 "responder below."
 msgstr ""
-"यदि एषः विकल्पः चयनितः अस्ति तर्हि S/MIME प्रमाणपत्राणि Online Certificates Status "
-"Protocol (OCSP) इत्यस्य उपयोगेन ऑनलाइन प्रमाणीकृतानि भवन्ति । अधः OCSP "
+"यदि एषः विकल्पः चयनितः अस्ति तर्हि S/MIME प्रमाणपत्राणि Online Certificates "
+"Status Protocol (OCSP) इत्यस्य उपयोगेन ऑनलाइन प्रमाणीकृतानि भवन्ति । अधः OCSP "
 "प्रतिक्रियादातुः URL पूरयन्तु ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, OCSPCB)
@@ -4238,8 +4248,8 @@ msgid ""
 "Enter here the address of the server for online validation of certificates "
 "(OCSP responder). The URL is usually starting with http://."
 msgstr ""
-"प्रमाणपत्राणां ऑनलाइन प्रमाणीकरणार्थं सर्वरस्य पता अत्र प्रविशन्तु (OCSP responder) । URL "
-"प्रायः http:// इत्यनेन आरभ्यते ।"
+"प्रमाणपत्राणां ऑनलाइन प्रमाणीकरणार्थं सर्वरस्य पता अत्र प्रविशन्तु (OCSP responder) । "
+"URL प्रायः http:// इत्यनेन आरभ्यते ।"
 
 #. i18n: ectx: property (text), widget (QLabel, OCSPResponderSignatureLabel)
 #: src/conf/smimevalidationconfigurationwidget.ui:104
@@ -4268,9 +4278,9 @@ msgid ""
 "certificate policy is allowed. If this option is selected, policies are not "
 "checked."
 msgstr ""
-"पूर्वनिर्धारितरूपेण, GnuPG प्रमाणपत्रनीतिः अनुमतं वा इति परीक्षितुं ~/.gnupg/policies.txt "
-"इति सञ्चिकायाः उपयोगं करोति । यदि एषः विकल्पः चयनितः अस्ति तर्हि नीतयः न परीक्षिताः "
-"भवन्ति ।"
+"पूर्वनिर्धारितरूपेण, GnuPG प्रमाणपत्रनीतिः अनुमतं वा इति परीक्षितुं ~/.gnupg/policies."
+"txt इति सञ्चिकायाः उपयोगं करोति । यदि एषः विकल्पः चयनितः अस्ति तर्हि नीतयः न "
+"परीक्षिताः भवन्ति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, doNotCheckCertPolicyCB)
 #: src/conf/smimevalidationconfigurationwidget.ui:134
@@ -4302,14 +4312,14 @@ msgid ""
 "will be asked to confirm its fingerprint and to state whether or not you "
 "consider this root certificate to be trusted. A root certificate needs to be "
 "trusted before the certificates it certified become trusted, but lightly "
-"allowing trusted root certificates into your certificate store will undermine "
-"the security of the system."
+"allowing trusted root certificates into your certificate store will "
+"undermine the security of the system."
 msgstr ""
 "यदि मूल CA प्रमाणपत्रस्य आयातस्य समये एषः विकल्पः परीक्षितः भवति तर्हि भवान् तस्य "
-"अङ्गुलिचिह्नस्य पुष्टिं कर्तुं प्रार्थयिष्यते तथा च कथयिष्यते यत् भवान् एतत् मूलप्रमाणपत्रं विश्वसनीयं "
-"मन्यते वा न वा इति एकं मूलप्रमाणपत्रं तया प्रमाणितप्रमाणपत्राणां विश्वसनीयतां प्राप्तुं पूर्वं "
-"विश्वसनीयं भवितुमर्हति, परन्तु विश्वसनीयमूलप्रमाणपत्राणि भवतः प्रमाणपत्रभण्डारं प्रति हल्केन "
-"अनुमन्यमानेन प्रणाल्याः सुरक्षां क्षीणं भविष्यति"
+"अङ्गुलिचिह्नस्य पुष्टिं कर्तुं प्रार्थयिष्यते तथा च कथयिष्यते यत् भवान् एतत् मूलप्रमाणपत्रं "
+"विश्वसनीयं मन्यते वा न वा इति एकं मूलप्रमाणपत्रं तया प्रमाणितप्रमाणपत्राणां विश्वसनीयतां "
+"प्राप्तुं पूर्वं विश्वसनीयं भवितुमर्हति, परन्तु विश्वसनीयमूलप्रमाणपत्राणि भवतः प्रमाणपत्रभण्डारं "
+"प्रति हल्केन अनुमन्यमानेन प्रणाल्याः सुरक्षां क्षीणं भविष्यति"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowMarkTrustedCB)
 #: src/conf/smimevalidationconfigurationwidget.ui:154
@@ -4356,10 +4366,10 @@ msgstr "किमपि HTTP अनुरोधं न कुर्वन्त�
 #, kde-format
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
-"contains what are known as \"CRL Distribution Point\" (DP) entries, which are "
-"URLs describing the way to access the CRL. The first-found DP entry is used.  "
-"With this option, all entries using the HTTP scheme are ignored when looking "
-"for a suitable DP."
+"contains what are known as \"CRL Distribution Point\" (DP) entries, which "
+"are URLs describing the way to access the CRL. The first-found DP entry is "
+"used.  With this option, all entries using the HTTP scheme are ignored when "
+"looking for a suitable DP."
 msgstr ""
 "CRL इत्यस्य स्थानं अन्विष्यमाणे, परीक्षणीयप्रमाणपत्रे प्रायः \"CRL वितरणबिन्दु\" (DP) इति "
 "नाम्ना प्रसिद्धानि प्रविष्टयः सन्ति, ये CRL-पर्यन्तं प्रवेशस्य मार्गस्य वर्णनं कुर्वन्ति URL-"
@@ -4399,9 +4409,9 @@ msgstr "HTTP अनुरोधानाम् कृते एतत् प्�
 #: src/conf/smimevalidationconfigurationwidget.ui:225
 #, kde-format
 msgid ""
-"<p>If no system proxy is set, or you need to use a different proxy for GpgSM, "
-"you can enter its location here.</p><p>It will be used for all HTTP requests "
-"relating to S/MIME.</p><p>The syntax is host:port, for instance "
+"<p>If no system proxy is set, or you need to use a different proxy for "
+"GpgSM, you can enter its location here.</p><p>It will be used for all HTTP "
+"requests relating to S/MIME.</p><p>The syntax is host:port, for instance "
 "myproxy.nowhere.com:3128.</p>"
 msgstr ""
 "<p>यदि कोऽपि सिस्टम् प्रॉक्सी सेट् न कृतः, अथवा GpgSM कृते भिन्नं प्रॉक्सी उपयोक्तुं प्रवृत्तः "
@@ -4432,10 +4442,10 @@ msgstr "किमपि LDAP अनुरोधं न कुर्वन्त�
 #, kde-format
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
-"contains what are known as \"CRL Distribution Point\" (DP) entries, which are "
-"URLs describing the way to access the CRL. The first found DP entry is used.  "
-"With this option, all entries using the LDAP scheme are ignored when looking "
-"for a suitable DP."
+"contains what are known as \"CRL Distribution Point\" (DP) entries, which "
+"are URLs describing the way to access the CRL. The first found DP entry is "
+"used.  With this option, all entries using the LDAP scheme are ignored when "
+"looking for a suitable DP."
 msgstr ""
 "CRL इत्यस्य स्थानं अन्विष्यमाणे, परीक्षणीयप्रमाणपत्रे प्रायः \"CRL वितरणबिन्दु\" (DP) इति "
 "नाम्ना प्रसिद्धानि प्रविष्टयः सन्ति, ये CRL-पर्यन्तं प्रवेशस्य मार्गस्य वर्णनं कुर्वन्ति URL-"
@@ -4468,8 +4478,8 @@ msgid ""
 msgstr ""
 "अत्र LDAP सर्वरं प्रविष्ट्वा सर्वाणि LDAP अनुरोधाः प्रथमं तस्मिन् सर्वरे गमिष्यन्ति । "
 "अधिकसटीकतया, एषा सेटिङ्ग् LDAP URL मध्ये कस्यापि निर्दिष्टस्य होस्ट् तथा पोर्ट् भागस्य "
-"अधिलिखति तथा च यदि URL तः होस्ट् पोर्ट् च लोपिताः सन्ति तर्हि अपि उपयुज्यते । अन्ये LDAP "
-"सर्वराः केवलं तदा एव उपयुज्यन्ते यदा \"प्रॉक्सी\" इत्यनेन सह संयोजनं विफलं जातम् ।\n"
+"अधिलिखति तथा च यदि URL तः होस्ट् पोर्ट् च लोपिताः सन्ति तर्हि अपि उपयुज्यते । अन्ये "
+"LDAP सर्वराः केवलं तदा एव उपयुज्यन्ते यदा \"प्रॉक्सी\" इत्यनेन सह संयोजनं विफलं जातम् ।\n"
 "वाक्यविन्यासः \"HOST\" अथवा \"HOST:PORT\" अस्ति । यदि PORT परित्यक्तं भवति तर्हि "
 "पोर्ट् 389 (मानक LDAP पोर्ट्) उपयुज्यते ।"
 
@@ -4489,8 +4499,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"The file <filename>%1</filename> contains certificates and can't be decrypted "
-"or verified."
+"The file <filename>%1</filename> contains certificates and can't be "
+"decrypted or verified."
 msgstr ""
 "<filename>%1</filename> इति सञ्चिकायां प्रमाणपत्राणि सन्ति, तेषां विगुप्तीकरणं सत्यापनं "
 "वा कर्तुं न शक्यते ।"
@@ -4508,8 +4518,8 @@ msgid ""
 "<para>Failed to move <filename>%1</filename> to <filename>%2</filename>.</"
 "para><para><message>%3</message></para>"
 msgstr ""
-"<para><filename>%1</filename> इत्येतत् <filename>%2</filename> इत्यत्र स्थानान्तरयितुं "
-"असफलम् ।</para><para><message>%3</message></para>"
+"<para><filename>%1</filename> इत्येतत् <filename>%2</filename> इत्यत्र "
+"स्थानान्तरयितुं असफलम् ।</para><para><message>%3</message></para>"
 
 #: src/crypto/autodecryptverifyfilescontroller.cpp:622
 #, kde-kuit-format
@@ -4518,8 +4528,8 @@ msgid ""
 "<para>Failed to move <filename>%1</filename> to <filename>%2</filename>.</"
 "para>"
 msgstr ""
-"<para><filename>%1</filename> इत्येतत् <filename>%2</filename> इत्यत्र स्थानान्तरयितुं "
-"असफलम्।</para>"
+"<para><filename>%1</filename> इत्येतत् <filename>%2</filename> इत्यत्र "
+"स्थानान्तरयितुं असफलम्।</para>"
 
 #: src/crypto/autodecryptverifyfilescontroller.cpp:634
 #, kde-kuit-format
@@ -4558,8 +4568,8 @@ msgstr "<filename>%1</filename> विलोपयितुं असफलम�
 msgctxt "@info"
 msgid "Failed to move <filename>%1</filename> to <filename>%2</filename>."
 msgstr ""
-"<filename>%1</filename> इत्येतत् <filename>%2</filename> इत्यत्र स्थानान्तरयितुं असफलम् "
-"।"
+"<filename>%1</filename> इत्येतत् <filename>%2</filename> इत्यत्र स्थानान्तरयितुं "
+"असफलम् ।"
 
 #: src/crypto/createchecksumscontroller.cpp:61
 #, kde-format
@@ -4752,19 +4762,25 @@ msgctxt "@info"
 msgid "Decryption and verification of <filename>%1</filename> canceled."
 msgstr "<filename>%1</filename> इत्यस्य विगुप्तीकरणं सत्यापनञ्च रद्दं कृतम् ।"
 
-#: src/crypto/decryptverifytask.cpp:226
-#, kde-kuit-format
-msgctxt "@info Unable to decrypt and verify <file>:"
+#: src/crypto/decryptverifytask.cpp:227
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info Unable to decrypt and verify <file>:"
+#| msgid "Unable to decrypt and verify <filename>%1</filename>:"
+msgctxt ""
+"@info 'Unable' meaning that decryption can't be started because there is no "
+"secret key"
 msgid "Unable to decrypt and verify <filename>%1</filename>:"
 msgstr "<filename>%1</filename> विगुप्तीकरणं सत्यापयितुं च असमर्थः:"
 
-#: src/crypto/decryptverifytask.cpp:228
-#, kde-kuit-format
-msgctxt "@info Failed to decrypt and verify <file>:"
+#: src/crypto/decryptverifytask.cpp:231
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info Failed to decrypt and verify <file>:"
+#| msgid "Failed to decrypt and verify <filename>%1</filename>:"
+msgctxt "@info 'Failed' meaning that there was an error during decryption"
 msgid "Failed to decrypt and verify <filename>%1</filename>:"
 msgstr "<filename>%1</filename> विगुप्तीकरणं सत्यापयितुं च असफलम्:"
 
-#: src/crypto/decryptverifytask.cpp:231
+#: src/crypto/decryptverifytask.cpp:235
 #, kde-kuit-format
 msgctxt "@info Successfully decrypted and verified <file> as <file>."
 msgid ""
@@ -4774,19 +4790,19 @@ msgstr ""
 "<filename>%1</filename> इति <filename>%2</filename> इति सफलतया विगुप्तं सत्यापितं "
 "च ।"
 
-#: src/crypto/decryptverifytask.cpp:237
+#: src/crypto/decryptverifytask.cpp:241
 #, kde-format
 msgctxt "@info"
 msgid "Verification of <filename>%1</filename> canceled."
 msgstr "<filename>%1</filename> इत्यस्य सत्यापनम् रद्दम् ।"
 
-#: src/crypto/decryptverifytask.cpp:239
+#: src/crypto/decryptverifytask.cpp:243
 #, kde-kuit-format
 msgctxt "@info Failed to verify <file>:"
 msgid "Failed to verify <filename>%1</filename>:"
 msgstr "<filename>%1</filename> सत्यापयितुं असफलम्:"
 
-#: src/crypto/decryptverifytask.cpp:242
+#: src/crypto/decryptverifytask.cpp:246
 #, kde-kuit-format
 msgctxt "@info Verified <file> with signature in <file>."
 msgid ""
@@ -4794,25 +4810,31 @@ msgid ""
 msgstr ""
 "<filename>%2</filename> इत्यत्र हस्ताक्षरेण सह <filename>%1</filename> सत्यापितम् ।"
 
-#: src/crypto/decryptverifytask.cpp:248
+#: src/crypto/decryptverifytask.cpp:252
 #, kde-format
 msgctxt "@info"
 msgid "Decryption of <filename>%1</filename> canceled."
 msgstr "<filename>%1</filename> इत्यस्य विगुप्तीकरणं रद्दं कृतम् ।"
 
-#: src/crypto/decryptverifytask.cpp:250
-#, kde-kuit-format
-msgctxt "@info Unable to decrypt <file>:"
+#: src/crypto/decryptverifytask.cpp:255
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info Unable to decrypt <file>:"
+#| msgid "Unable to decrypt <filename>%1</filename>:"
+msgctxt ""
+"@info 'Unable' meaning that decryption can't be started because there is no "
+"secret key"
 msgid "Unable to decrypt <filename>%1</filename>:"
 msgstr "<filename>%1</filename> विगुप्तं कर्तुं असमर्थः:"
 
-#: src/crypto/decryptverifytask.cpp:252
-#, kde-kuit-format
-msgctxt "@info Failed to decrypt <file>:"
+#: src/crypto/decryptverifytask.cpp:258
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info Failed to decrypt <file>:"
+#| msgid "Failed to decrypt <filename>%1</filename>:"
+msgctxt "@info 'Failed' meaning that there was an error during decryption"
 msgid "Failed to decrypt <filename>%1</filename>:"
 msgstr "<filename>%1</filename> विगुप्तीकरणे असफलम्:"
 
-#: src/crypto/decryptverifytask.cpp:255
+#: src/crypto/decryptverifytask.cpp:261
 #, kde-kuit-format
 msgctxt "@info Successfully decrypted <file> as <file>."
 msgid ""
@@ -4820,18 +4842,18 @@ msgid ""
 msgstr ""
 "<filename>%1</filename> इति <filename>%2</filename> इति सफलतया विगुप्तं कृतम् ।"
 
-#: src/crypto/decryptverifytask.cpp:266
+#: src/crypto/decryptverifytask.cpp:272
 #, kde-format
 msgctxt "@info"
 msgid "The data was not encrypted for any secret key in your certificate list."
 msgstr "भवतः प्रमाणपत्रसूचौ कस्यापि गुप्तकुञ्ज्याः कृते दत्तांशः गोपनीयः नासीत् ।"
 
-#: src/crypto/decryptverifytask.cpp:270
+#: src/crypto/decryptverifytask.cpp:276
 #, kde-format
 msgid "No integrity protection (MDC)."
 msgstr "अखण्डतासंरक्षणं (MDC) नास्ति।"
 
-#: src/crypto/decryptverifytask.cpp:286
+#: src/crypto/decryptverifytask.cpp:292
 #, kde-format
 msgctxt ""
 "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED "
@@ -4839,7 +4861,7 @@ msgctxt ""
 msgid "The decryption is %1."
 msgstr "विगुप्तीकरणं %1 अस्ति ।"
 
-#: src/crypto/decryptverifytask.cpp:289
+#: src/crypto/decryptverifytask.cpp:295
 #, kde-format
 msgctxt ""
 "%1 is a placeholder for the name of a compliance mode. E.g. NATO RESTRICTED "
@@ -4847,12 +4869,12 @@ msgctxt ""
 msgid "The decryption <b>is not</b> %1."
 msgstr "विगुप्तीकरणं %1 <b>नास्ति</b> ।"
 
-#: src/crypto/decryptverifytask.cpp:299
+#: src/crypto/decryptverifytask.cpp:305
 #, kde-format
 msgid "Embedded file name: '%1'"
 msgstr "एम्बेडेड् सञ्चिकानाम: '%1'."
 
-#: src/crypto/decryptverifytask.cpp:305
+#: src/crypto/decryptverifytask.cpp:311
 #, kde-format
 msgid ""
 "<b>Note:</b> You cannot be sure who encrypted this message as it is not "
@@ -4861,7 +4883,7 @@ msgstr ""
 "<b>नोटः-</b> भवान् निश्चयं कर्तुं न शक्नोति यत् एषः सन्देशः कः गुप्तीकरणं कृतवान् यतः एषः "
 "सन्देशः हस्ताक्षरितः नास्ति ।"
 
-#: src/crypto/decryptverifytask.cpp:311
+#: src/crypto/decryptverifytask.cpp:317
 #, kde-format
 msgctxt "Integrity protection was missing because an old cipher was used."
 msgid ""
@@ -4872,7 +4894,7 @@ msgstr ""
 "<b>सङ्केतः :</b> यदि एषा सञ्चिका २००३ वर्षात् पूर्वं गुप्तरूपेण स्थापिता आसीत् तर्हि सञ्चिका "
 "वैधः इति संभावना वर्तते । यतो हि तदा अखण्डतारक्षणस्य व्यापकरूपेण उपयोगः न भवति स्म ।"
 
-#: src/crypto/decryptverifytask.cpp:316
+#: src/crypto/decryptverifytask.cpp:322
 #, kde-format
 msgctxt ""
 "The user is offered to force decrypt a non integrity protected message. With "
@@ -4881,70 +4903,70 @@ msgid ""
 "If you are confident that the file was not manipulated you should re-encrypt "
 "it after you have forced the decryption."
 msgstr ""
-"यदि भवान् विश्वसिति यत् सञ्चिकायां परिवर्तनं न कृतम् इति तर्हि भवता विगुप्तीकरणं बाध्यं कृत्वा "
-"पुनः गुप्तीकरणं कर्तव्यम् ।"
+"यदि भवान् विश्वसिति यत् सञ्चिकायां परिवर्तनं न कृतम् इति तर्हि भवता विगुप्तीकरणं बाध्यं "
+"कृत्वा पुनः गुप्तीकरणं कर्तव्यम् ।"
 
-#: src/crypto/decryptverifytask.cpp:532
+#: src/crypto/decryptverifytask.cpp:538
 #, kde-format
 msgctxt "@info"
 msgid "Failed to decrypt the notepad: %1"
 msgstr "नोटपैड् विगुप्तीकरणे असफलम्: %1"
 
-#: src/crypto/decryptverifytask.cpp:535
+#: src/crypto/decryptverifytask.cpp:541
 #, kde-format
 msgctxt "@info"
 msgid "Failed to verify the notepad: %1"
 msgstr "नोटपैड् सत्यापयितुं असफलम्: %1"
 
-#: src/crypto/decryptverifytask.cpp:539
+#: src/crypto/decryptverifytask.cpp:545
 #, kde-format
 msgctxt "@info"
 msgid "Successfully decrypted and verified the notepad"
 msgstr "सफलतया नोटपैड् विगुप्तं कृत्वा सत्यापितम्"
 
-#: src/crypto/decryptverifytask.cpp:542
+#: src/crypto/decryptverifytask.cpp:548
 #, kde-format
 msgctxt "@info"
 msgid "Successfully decrypted the notepad"
 msgstr "नोटपैड् सफलतया विगुप्तं कृतवान्"
 
-#: src/crypto/decryptverifytask.cpp:545
+#: src/crypto/decryptverifytask.cpp:551
 #, kde-format
 msgctxt "@info"
 msgid "Successfully verified the notepad"
 msgstr "नोटपैड् सफलतया सत्यापितम्"
 
-#: src/crypto/decryptverifytask.cpp:550
+#: src/crypto/decryptverifytask.cpp:556
 #, kde-format
 msgctxt "@info"
 msgid "Failed to decrypt the clipboard: %1"
 msgstr "अंशफलकं विगुप्तीकरणे असफलम्: %1"
 
-#: src/crypto/decryptverifytask.cpp:553
+#: src/crypto/decryptverifytask.cpp:559
 #, kde-format
 msgctxt "@info"
 msgid "Failed to verify the clipboard: %1"
 msgstr "अंशफलकं सत्यापयितुं असफलम्: %1"
 
-#: src/crypto/decryptverifytask.cpp:557
+#: src/crypto/decryptverifytask.cpp:563
 #, kde-format
 msgctxt "@info"
 msgid "Successfully decrypted and verified the clipboard"
 msgstr "सफलतया अंशफलकं विगुप्तं कृत्वा सत्यापितम्"
 
-#: src/crypto/decryptverifytask.cpp:560
+#: src/crypto/decryptverifytask.cpp:566
 #, kde-format
 msgctxt "@info"
 msgid "Successfully decrypted the clipboard"
 msgstr "अंशफलकं सफलतया विगुप्तं कृतवान्"
 
-#: src/crypto/decryptverifytask.cpp:563
+#: src/crypto/decryptverifytask.cpp:569
 #, kde-format
 msgctxt "@info"
 msgid "Successfully verified the clipboard"
 msgstr "अंशफलकं सफलतया सत्यापितम्"
 
-#: src/crypto/decryptverifytask.cpp:595
+#: src/crypto/decryptverifytask.cpp:601
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -4954,25 +4976,25 @@ msgstr ""
 "चेतावनी: प्रेषकस्य मेल-सङ्केतः हस्ताक्षरार्थं प्रयुक्ते <a href=\"key:%1\">प्रमाणपत्रे</a> न "
 "संगृह्यते । संगृहीतम् : १.<ul> %2</ul>"
 
-#: src/crypto/decryptverifytask.cpp:735 src/crypto/decryptverifytask.cpp:943
-#: src/crypto/decryptverifytask.cpp:1023 src/crypto/decryptverifytask.cpp:1124
-#: src/crypto/decryptverifytask.cpp:1176 src/crypto/decryptverifytask.cpp:1344
-#: src/crypto/decryptverifytask.cpp:1421 src/crypto/decryptverifytask.cpp:1555
+#: src/crypto/decryptverifytask.cpp:741 src/crypto/decryptverifytask.cpp:949
+#: src/crypto/decryptverifytask.cpp:1029 src/crypto/decryptverifytask.cpp:1130
+#: src/crypto/decryptverifytask.cpp:1182 src/crypto/decryptverifytask.cpp:1350
+#: src/crypto/decryptverifytask.cpp:1427 src/crypto/decryptverifytask.cpp:1561
 #, kde-format
 msgid "Caught exception: %1"
 msgstr "गृहीत अपवादः : %1"
 
-#: src/crypto/decryptverifytask.cpp:738 src/crypto/decryptverifytask.cpp:945
-#: src/crypto/decryptverifytask.cpp:1026 src/crypto/decryptverifytask.cpp:1126
-#: src/crypto/decryptverifytask.cpp:1179 src/crypto/decryptverifytask.cpp:1346
-#: src/crypto/decryptverifytask.cpp:1423 src/crypto/decryptverifytask.cpp:1557
+#: src/crypto/decryptverifytask.cpp:744 src/crypto/decryptverifytask.cpp:951
+#: src/crypto/decryptverifytask.cpp:1032 src/crypto/decryptverifytask.cpp:1132
+#: src/crypto/decryptverifytask.cpp:1185 src/crypto/decryptverifytask.cpp:1352
+#: src/crypto/decryptverifytask.cpp:1429 src/crypto/decryptverifytask.cpp:1563
 #: src/uiserver/assuanserverconnection.cpp:1358
 #: src/uiserver/assuanserverconnection.cpp:1407
 #, kde-format
 msgid "Caught unknown exception"
 msgstr "अज्ञात अपवादः गृहीतः"
 
-#: src/crypto/decryptverifytask.cpp:792
+#: src/crypto/decryptverifytask.cpp:798
 #, kde-format
 msgid ""
 "Could not determine whether this is an S/MIME or an OpenPGP signature/"
@@ -4981,49 +5003,49 @@ msgstr ""
 "इदं S/MIME अथवा OpenPGP हस्ताक्षर/सिफरपाठः इति निर्धारयितुं न शक्तवान् - भवतु न "
 "सिफरपाठः न च हस्ताक्षरः?"
 
-#: src/crypto/decryptverifytask.cpp:800
+#: src/crypto/decryptverifytask.cpp:806
 #, kde-format
 msgid "Decrypting %1..."
 msgstr "%1 विगुप्तीकरणम्..."
 
-#: src/crypto/decryptverifytask.cpp:1079
+#: src/crypto/decryptverifytask.cpp:1085
 #, kde-format
 msgid ""
 "Could not determine whether this was S/MIME- or OpenPGP-encrypted - maybe it "
 "is not ciphertext at all?"
 msgstr ""
-"एतत् S/MIME- अथवा OpenPGP-एन्क्रिप्टेड् आसीत् इति निर्धारयितुं न शक्तवान् - भवतु नाम सर्वथा "
-"सिफरटेक्स्ट् नास्ति?"
+"एतत् S/MIME- अथवा OpenPGP-एन्क्रिप्टेड् आसीत् इति निर्धारयितुं न शक्तवान् - भवतु नाम "
+"सर्वथा सिफरटेक्स्ट् नास्ति?"
 
-#: src/crypto/decryptverifytask.cpp:1087
+#: src/crypto/decryptverifytask.cpp:1093
 #, kde-format
 msgid "Decrypting: %1..."
 msgstr "विगुप्तीकरणम्: %1..."
 
-#: src/crypto/decryptverifytask.cpp:1233 src/crypto/decryptverifytask.cpp:1485
+#: src/crypto/decryptverifytask.cpp:1239 src/crypto/decryptverifytask.cpp:1491
 #, kde-format
 msgid ""
-"Could not determine whether this is an S/MIME or an OpenPGP signature - maybe "
-"it is not a signature at all?"
+"Could not determine whether this is an S/MIME or an OpenPGP signature - "
+"maybe it is not a signature at all?"
 msgstr ""
 "एतत् S/MIME अथवा OpenPGP हस्ताक्षरं इति निर्धारयितुं न शक्तवान् - भवतु नाम सर्वथा "
 "हस्ताक्षरं नास्ति?"
 
-#: src/crypto/decryptverifytask.cpp:1241
+#: src/crypto/decryptverifytask.cpp:1247
 #, kde-format
 msgid "Verifying %1..."
 msgstr "%1 सत्यापयन्..."
 
-#: src/crypto/decryptverifytask.cpp:1503
+#: src/crypto/decryptverifytask.cpp:1509
 #, kde-kuit-format
 msgctxt ""
-"Verification of a detached signature in progress. The first file contains the "
-"data.The second file is the signature file."
+"Verification of a detached signature in progress. The first file contains "
+"the data.The second file is the signature file."
 msgid "Verifying <filename>%1</filename> with <filename>%2</filename>..."
 msgstr ""
 "<filename>%1</filename> इत्यस्य सत्यापनम् <filename>%2</filename> इत्यनेन सह..."
 
-#: src/crypto/decryptverifytask.cpp:1507
+#: src/crypto/decryptverifytask.cpp:1513
 #, kde-format
 msgid "Verifying signature %1..."
 msgstr "हस्ताक्षरस्य सत्यापनम् %1..."
@@ -5153,11 +5175,11 @@ msgstr "<b>कर्तव्यानि क्रियाणि चिनो�
 #: src/crypto/gui/decryptverifyfileswizard.cpp:214
 #, kde-format
 msgid ""
-"Here you can check and, if needed, override the operations Kleopatra detected "
-"for the input given."
+"Here you can check and, if needed, override the operations Kleopatra "
+"detected for the input given."
 msgstr ""
-"अत्र भवान् दत्तस्य निवेशस्य कृते Kleopatra इत्यनेन ज्ञातानि कार्याणि परीक्षितुं, आवश्यकता चेत्, "
-"अधिलिखितुं च शक्नोति ।"
+"अत्र भवान् दत्तस्य निवेशस्य कृते Kleopatra इत्यनेन ज्ञातानि कार्याणि परीक्षितुं, आवश्यकता "
+"चेत्, अधिलिखितुं च शक्नोति ।"
 
 #: src/crypto/gui/decryptverifyfileswizard.cpp:217
 #, kde-format
@@ -5378,8 +5400,8 @@ msgstr ""
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:96
 #, kde-format
 msgid ""
-"Kleopatra cannot unambiguously determine matching certificates for the sender "
-"of the message.\n"
+"Kleopatra cannot unambiguously determine matching certificates for the "
+"sender of the message.\n"
 "Please select the correct certificates for the sender:"
 msgstr ""
 "क्लियोपात्रा सन्देशप्रेषकस्य कृते मेलप्रमाणपत्राणि निर्विवादरूपेण निर्धारयितुं न शक्नोति ।\n"
@@ -5399,7 +5421,8 @@ msgstr ""
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:108
 #, kde-format
 msgid ""
-"Please verify that correct certificates have been selected for each recipient:"
+"Please verify that correct certificates have been selected for each "
+"recipient:"
 msgstr ""
 "कृपया सत्यापयन्तु यत् प्रत्येकस्य प्राप्तकर्तायाः कृते सम्यक् प्रमाणपत्राणि चयनितानि सन्ति:"
 
@@ -5538,9 +5561,9 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "<para>Archiving in combination with sign-only currently requires what are "
-"known as opaque signatures - unlike detached ones, these embed the content in "
-"the signature.</para><para>This format is rather unusual. You might want to "
-"archive the files separately, and then sign the archive as one file with "
+"known as opaque signatures - unlike detached ones, these embed the content "
+"in the signature.</para><para>This format is rather unusual. You might want "
+"to archive the files separately, and then sign the archive as one file with "
 "Kleopatra.</para><para>Future versions of Kleopatra are expected to also "
 "support detached signatures in this case.</para>"
 msgstr ""
@@ -5736,9 +5759,11 @@ msgid "Results"
 msgstr "परिणामाः"
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:553
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Finished"
 msgctxt "@action:button"
-msgid "Finished"
+msgid "Finish"
 msgstr "सम्पूर्ण"
 
 #: src/crypto/gui/signencryptfilesdialog.cpp:563
@@ -6113,8 +6138,8 @@ msgstr "लेखागार"
 #: src/crypto/signencryptfilescontroller.cpp:703
 #, kde-format
 msgid ""
-"Caught unexpected exception in "
-"SignEncryptFilesController::Private::slotWizardOperationPrepared: %1"
+"Caught unexpected exception in SignEncryptFilesController::Private::"
+"slotWizardOperationPrepared: %1"
 msgstr ""
 "SignEncryptFilesController::Private::slotWizardOperationPrepared: %1 इत्यस्मिन् "
 "अप्रत्याशित अपवादः गृहीतः"
@@ -6122,8 +6147,8 @@ msgstr ""
 #: src/crypto/signencryptfilescontroller.cpp:705
 #, kde-format
 msgid ""
-"Caught unknown exception in "
-"SignEncryptFilesController::Private::slotWizardOperationPrepared"
+"Caught unknown exception in SignEncryptFilesController::Private::"
+"slotWizardOperationPrepared"
 msgstr ""
 "SignEncryptFilesController::Private::slotWizardOperationPrepared इत्यस्मिन् "
 "अज्ञात अपवादः गृहीतः"
@@ -6150,8 +6175,8 @@ msgstr "एन्क्रिप्शन रद्दम्।"
 #, kde-kuit-format
 msgctxt "@info Failed to sign and encrypt <file>: <reason>"
 msgid ""
-"Failed to sign and encrypt <filename>%1</filename>: <emphasis "
-"strong='true'>%2</emphasis>"
+"Failed to sign and encrypt <filename>%1</filename>: <emphasis strong='true'>"
+"%2</emphasis>"
 msgstr ""
 "<filename>%1</filename> इत्यत्र हस्ताक्षरं कृत्वा गोपनं कर्तुं असफलम्: <emphasis "
 "strong='true'>%2</emphasis>"
@@ -6195,8 +6220,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info Failed to sign <file> and <file>: <reason>"
 msgid ""
-"Failed to sign <filename>%1</filename> and <filename>%2</filename>: <emphasis "
-"strong='true'>%3</emphasis>"
+"Failed to sign <filename>%1</filename> and <filename>%2</filename>: "
+"<emphasis strong='true'>%3</emphasis>"
 msgstr ""
 "<filename>%1</filename> तथा <filename>%2</filename> इत्यत्र हस्ताक्षरं कर्तुं असफलम्: "
 "<emphasis strong='true'>%3</emphasis>"
@@ -6205,8 +6230,8 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info Failed to sign <file> and <n> other(s): <reason>"
 msgid ""
-"Failed to sign <filename>%2</filename> and %1 other: <emphasis "
-"strong='true'>%3</emphasis>"
+"Failed to sign <filename>%2</filename> and %1 other: <emphasis strong='true'>"
+"%3</emphasis>"
 msgid_plural ""
 "Failed to sign <filename>%2</filename> and %1 others: <emphasis "
 "strong='true'>%3</emphasis>"
@@ -6249,12 +6274,13 @@ msgstr[0] ""
 "<filename>%2</filename> तथा %1 अन्यं च गोपनीयं कर्तुं असफलम्: <emphasis "
 "strong='true'>%3</emphasis>"
 msgstr[1] ""
-"<filename>%2</filename> तथा %1 अन्ये च गोपनं कर्तुं असफलम्: <emphasis "
-"strong='true'>%3</emphasis>"
+"<filename>%2</filename> तथा %1 अन्ये च गोपनं कर्तुं असफलम्: <emphasis strong='true'>"
+"%3</emphasis>"
 
 #: src/crypto/signencrypttask.cpp:223
 #, kde-kuit-format
-msgctxt "@info Successfully signed and encrypted <file> and saved it as <file>."
+msgctxt ""
+"@info Successfully signed and encrypted <file> and saved it as <file>."
 msgid ""
 "Successfully signed and encrypted <filename>%1</filename> and saved it as "
 "<filename>%2</filename>."
@@ -6288,8 +6314,8 @@ msgstr[0] ""
 "<filename>%2</filename> तथा %1 अन्ययोः सफलतया हस्ताक्षरं कृत्वा गोपनं कृत्वा "
 "<filename>%3</filename> इति रक्षितम् ।"
 msgstr[1] ""
-"<filename>%2</filename> तथा %1 अन्ये च सफलतया हस्ताक्षरं कृत्वा गोपनं कृत्वा "
-"<filename>%3</filename> इति रक्षितम् ।"
+"<filename>%2</filename> तथा %1 अन्ये च सफलतया हस्ताक्षरं कृत्वा गोपनं कृत्वा <filename>"
+"%3</filename> इति रक्षितम् ।"
 
 #: src/crypto/signencrypttask.cpp:245
 #, kde-kuit-format
@@ -6304,13 +6330,14 @@ msgstr ""
 #: src/crypto/signencrypttask.cpp:251
 #, kde-kuit-format
 msgctxt ""
-"@info Successfully signed <file> and <file> and saved the signature in <file>."
+"@info Successfully signed <file> and <file> and saved the signature in "
+"<file>."
 msgid ""
 "Successfully signed <filename>%1</filename> and <filename>%2</filename> and "
 "saved the signature in <filename>%3</filename>."
 msgstr ""
-"<filename>%1</filename> तथा <filename>%2</filename> इत्यत्र सफलतया हस्ताक्षरं कृत्वा "
-"<filename>%3</filename> इत्यत्र हस्ताक्षरं रक्षितम् ।"
+"<filename>%1</filename> तथा <filename>%2</filename> इत्यत्र सफलतया हस्ताक्षरं "
+"कृत्वा <filename>%3</filename> इत्यत्र हस्ताक्षरं रक्षितम् ।"
 
 #: src/crypto/signencrypttask.cpp:257
 #, kde-kuit-format
@@ -6342,7 +6369,8 @@ msgstr ""
 
 #: src/crypto/signencrypttask.cpp:272
 #, kde-kuit-format
-msgctxt "@info Successfully encrypted <file> and <file> and saved it as <file>."
+msgctxt ""
+"@info Successfully encrypted <file> and <file> and saved it as <file>."
 msgid ""
 "Successfully encrypted <filename>%1</filename> and <filename>%2</filename> "
 "and saved it as <filename>%3</filename>."
@@ -6588,8 +6616,8 @@ msgstr "निरस्तीकरण प्रमाणपत्र उत्�
 #, kde-format
 msgid ""
 "A revocation certificate is a file that serves as a \"kill switch\" to "
-"publicly declare that a key shall not anymore be used.  It is not possible to "
-"retract such a revocation certificate once it has been published."
+"publicly declare that a key shall not anymore be used.  It is not possible "
+"to retract such a revocation certificate once it has been published."
 msgstr ""
 "निरसनप्रमाणपत्रं एकः सञ्चिका अस्ति या सार्वजनिकरूपेण घोषयितुं \"kill switch\" इत्यस्य "
 "कार्यं करोति यत् कुञ्जी इतः परं न उपयुज्यते इति ।  एकवारं प्रकाशितं जातं चेत् एतादृशं "
@@ -6669,8 +6697,8 @@ msgid ""
 "<interface>%1</interface> is required, but empty.<nl/>Local Admin rule: "
 "<icode>%2</icode>"
 msgstr ""
-"<interface>%1</interface> आवश्यकम्, परन्तु रिक्तम्।<nl/>स्थानीयप्रशासकनियमः: "
-"<icode>%2</icode>"
+"<interface>%1</interface> आवश्यकम्, परन्तु रिक्तम्।<nl/>स्थानीयप्रशासकनियमः: <icode>"
+"%2</icode>"
 
 #: src/dialogs/certificatedetailsinputwidget.cpp:119
 #: src/newcertificatewizard/enterdetailspage.cpp:486
@@ -7087,9 +7115,9 @@ msgstr "प्रमाणपत्रसमूहं प्रमाणयन�
 #: src/dialogs/certifywidget.cpp:160
 #, kde-format
 msgid ""
-"Verify the fingerprint, mark the user IDs you want to certify, and select the "
-"key you want to certify the user IDs with.<br><i>Note: Only the fingerprint "
-"clearly identifies the key and its owner.</i>"
+"Verify the fingerprint, mark the user IDs you want to certify, and select "
+"the key you want to certify the user IDs with.<br><i>Note: Only the "
+"fingerprint clearly identifies the key and its owner.</i>"
 msgstr ""
 "अङ्गुलिचिह्नं सत्याप्य, उपयोक्तृ-ID प्रमाणितुम् इच्छति, तत् कुञ्जी चिनोतु, यया उपयोक्तृ-ID "
 "प्रमाणितुम् इच्छति ।<br> <i>नोटः- केवलं अङ्गुलिचिह्नेन एव कीलस्य तस्य स्वामिनः च स्पष्टतया "
@@ -7113,8 +7141,8 @@ msgid ""
 "Click to set the trust level of the selected certification key to ultimate "
 "trust. This is what you usually want to do for your own keys."
 msgstr ""
-"चयनितप्रमाणीकरणकुंजीयाः विश्वासस्तरं अन्तिमविश्वासं प्रति सेट् कर्तुं क्लिक् कुर्वन्तु । एतत् भवन्तः "
-"प्रायः स्वस्य कीलानां कृते कर्तुम् इच्छन्ति ।"
+"चयनितप्रमाणीकरणकुंजीयाः विश्वासस्तरं अन्तिमविश्वासं प्रति सेट् कर्तुं क्लिक् कुर्वन्तु । एतत् "
+"भवन्तः प्रायः स्वस्य कीलानां कृते कर्तुम् इच्छन्ति ।"
 
 #: src/dialogs/certifywidget.cpp:211
 #, kde-format
@@ -7196,8 +7224,8 @@ msgstr "प्रमाणीकरणे अतिरिक्तसूचन�
 #: src/dialogs/certifywidget.cpp:269
 #, kde-format
 msgid ""
-"Tags created by anyone with full certification trust are shown in the keylist "
-"and can be searched."
+"Tags created by anyone with full certification trust are shown in the "
+"keylist and can be searched."
 msgstr ""
 "पूर्णप्रमाणीकरणविश्वासयुक्तेन केनापि निर्मिताः टैग्स् कीलिस्ट् मध्ये दर्शिताः सन्ति, तेषां अन्वेषणं "
 "कर्तुं शक्यते ।"
@@ -7240,8 +7268,8 @@ msgid ""
 "introducer acts as a kind of intermediate CA for a domain."
 msgstr ""
 "विश्वसनीयप्रवर्तकेन प्रमाणितानां डोमेनस्य ईमेल-सङ्केतानां सर्वेषां प्रमाणपत्राणां प्रमाणीकरणं "
-"प्रमाणीकृतं भवति, अर्थात् विश्वसनीयः परिचयकर्ता डोमेनस्य कृते एकप्रकारस्य मध्यवर्ती CA इत्यस्य "
-"रूपेण कार्यं करोति"
+"प्रमाणीकृतं भवति, अर्थात् विश्वसनीयः परिचयकर्ता डोमेनस्य कृते एकप्रकारस्य मध्यवर्ती CA "
+"इत्यस्य रूपेण कार्यं करोति"
 
 #: src/dialogs/certifywidget.cpp:320
 #, kde-format
@@ -7354,8 +7382,8 @@ msgid ""
 "continue:</para>"
 msgstr ""
 "<para>चयनितकुंजी: <emphasis>%1</emphasis></para><para>चयनितं स्मार्टकार्ड: "
-"<emphasis>%2</emphasis></para><para>अन्तर्निर्मितार्थं निम्नलिखितविकल्पेषु एकं चिनोतु: </"
-"para> इति"
+"<emphasis>%2</emphasis></para><para>अन्तर्निर्मितार्थं निम्नलिखितविकल्पेषु एकं चिनोतु: "
+"</para> इति"
 
 #: src/dialogs/debugdialog.cpp:64
 #, kde-format
@@ -7422,18 +7450,20 @@ msgstr[1] ""
 msgctxt "@info"
 msgid ""
 "<para>When you delete CA certificates (both root CAs and intermediate CAs), "
-"the certificates issued by them will also be deleted.</para><para>This can be "
-"nicely seen in <application>Kleopatra</application>'s hierarchical view mode: "
-"In this mode, if you delete a certificate that has children, those children "
-"will also be deleted. Think of CA certificates as folders containing other "
-"certificates: When you delete the folder, you delete its contents, too.</para>"
+"the certificates issued by them will also be deleted.</para><para>This can "
+"be nicely seen in <application>Kleopatra</application>'s hierarchical view "
+"mode: In this mode, if you delete a certificate that has children, those "
+"children will also be deleted. Think of CA certificates as folders "
+"containing other certificates: When you delete the folder, you delete its "
+"contents, too.</para>"
 msgstr ""
-"<para>यदा भवान् CA प्रमाणपत्राणि (मूल CAs तथा मध्यवर्ती CA इत्येतयोः अपि विलोपनं करोति "
-"तदा तेषां निर्गतानि प्रमाणपत्राणि अपि विलोप्यन्ते ।</para><para>एतत् "
-"<application>Kleopatra</application>'s इत्यत्र सुन्दरं द्रष्टुं शक्यते hierarchical view "
-"mode: अस्मिन् मोड् मध्ये यदि भवान् प्रमाणपत्रं विलोपयति यस्य बालकाः सन्ति तर्हि ते बालकाः "
-"अपि विलोपिताः भविष्यन्ति । CA प्रमाणपत्राणि अन्यप्रमाणपत्राणि समाविष्टानि पुटानि इति "
-"चिन्तयन्तु: यदा भवन्तः पुटं विलोपयन्ति तदा तस्य सामग्री अपि विलोपयन्ति।</para>"
+"<para>यदा भवान् CA प्रमाणपत्राणि (मूल CAs तथा मध्यवर्ती CA इत्येतयोः अपि विलोपनं "
+"करोति तदा तेषां निर्गतानि प्रमाणपत्राणि अपि विलोप्यन्ते ।</para><para>एतत् "
+"<application>Kleopatra</application>'s इत्यत्र सुन्दरं द्रष्टुं शक्यते hierarchical "
+"view mode: अस्मिन् मोड् मध्ये यदि भवान् प्रमाणपत्रं विलोपयति यस्य बालकाः सन्ति तर्हि ते "
+"बालकाः अपि विलोपिताः भविष्यन्ति । CA प्रमाणपत्राणि अन्यप्रमाणपत्राणि समाविष्टानि "
+"पुटानि इति चिन्तयन्तु: यदा भवन्तः पुटं विलोपयन्ति तदा तस्य सामग्री अपि विलोपयन्ति।</"
+"para>"
 
 #: src/dialogs/deletecertificatesdialog.cpp:209
 #, kde-format
@@ -7454,8 +7484,8 @@ msgstr[0] ""
 "भवता स्पष्टतया <b>न</b> चयनं कृत्वा अपि निम्नलिखितप्रमाणपत्रं विलोपितं भविष्यति ( <a "
 "href=\"whatsthis://\">किमर्थम्?</a> ):"
 msgstr[1] ""
-"भवता स्पष्टतया <b>न</b> चयनं कृत्वा अपि निम्नलिखितप्रमाणपत्राणि विलोप्यन्ते ( <a "
-"href=\"whatsthis://\">किमर्थम्?</a> ):"
+"भवता स्पष्टतया <b>न</b> चयनं कृत्वा अपि निम्नलिखितप्रमाणपत्राणि विलोप्यन्ते ( <a href="
+"\"whatsthis://\">किमर्थम्?</a> ):"
 
 #: src/dialogs/deletecertificatesdialog.cpp:253
 #, kde-format
@@ -7471,8 +7501,8 @@ msgstr[0] ""
 "विलोपनीयं प्रमाणपत्रं भवतः स्वकीयं भवति। अस्मिन् निजीकुञ्जीसामग्री अस्ति, या प्रमाणपत्रे "
 "गुप्तीकरणं कृतं पूर्वसञ्चारं विगुप्तं कर्तुं आवश्यकं भवति, अतः तत् न विलोपनीयम् ।"
 msgstr[1] ""
-"विलोपनीयानि प्रमाणपत्राणि सर्वाणि भवतः स्वकीयाः सन्ति । तेषु निजीकुञ्जीसामग्री भवति, या "
-"प्रमाणपत्रे गुप्तीकरणं कृतं पूर्वसञ्चारं विगुप्तं कर्तुं आवश्यकं भवति, अतः तत् न विलोपनीयम् ।"
+"विलोपनीयानि प्रमाणपत्राणि सर्वाणि भवतः स्वकीयाः सन्ति । तेषु निजीकुञ्जीसामग्री भवति, "
+"या प्रमाणपत्रे गुप्तीकरणं कृतं पूर्वसञ्चारं विगुप्तं कर्तुं आवश्यकं भवति, अतः तत् न विलोपनीयम् ।"
 
 #: src/dialogs/deletecertificatesdialog.cpp:267
 #, kde-format
@@ -7481,12 +7511,12 @@ msgid ""
 "material, which is needed to decrypt past communication encrypted to the "
 "certificate, and should therefore not be deleted."
 msgid_plural ""
-"Some of the certificates to be deleted are your own. They contain private key "
-"material, which is needed to decrypt past communication encrypted to the "
+"Some of the certificates to be deleted are your own. They contain private "
+"key material, which is needed to decrypt past communication encrypted to the "
 "certificate, and should therefore not be deleted."
 msgstr[0] ""
-"लोपनीयेषु प्रमाणपत्रेषु एकं भवतः स्वकीयं अस्ति । अस्मिन् निजीकुञ्जीसामग्री अस्ति, या प्रमाणपत्रे "
-"गुप्तीकरणं कृतं पूर्वसञ्चारं विगुप्तं कर्तुं आवश्यकं भवति, अतः तत् न विलोपनीयम् ।"
+"लोपनीयेषु प्रमाणपत्रेषु एकं भवतः स्वकीयं अस्ति । अस्मिन् निजीकुञ्जीसामग्री अस्ति, या "
+"प्रमाणपत्रे गुप्तीकरणं कृतं पूर्वसञ्चारं विगुप्तं कर्तुं आवश्यकं भवति, अतः तत् न विलोपनीयम् ।"
 msgstr[1] ""
 "केचन प्रमाणपत्राणि विलोपनीयानि भवतः स्वकीयाः सन्ति। तेषु निजीकुञ्जीसामग्री भवति, या "
 "प्रमाणपत्रे गुप्तीकरणं कृतं पूर्वसञ्चारं विगुप्तं कर्तुं आवश्यकं भवति, अतः तत् न विलोपनीयम् ।"
@@ -7713,7 +7743,8 @@ msgstr "सञ्चिकायां एन्क्रिप्शन की�
 #: src/dialogs/gencardkeydialog.cpp:84
 #, kde-format
 msgid ""
-"You will be asked for a passphrase to protect that file during key generation."
+"You will be asked for a passphrase to protect that file during key "
+"generation."
 msgstr "कीलजननस्य समये तस्याः सञ्चिकायाः रक्षणार्थं भवन्तः गुप्तवाक्यं याचयिष्यन्ति ।"
 
 #: src/dialogs/groupdetailsdialog.cpp:128
@@ -7907,24 +7938,23 @@ msgstr "त्रुटिः - वर्णने रिक्तपङ्क�
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>You are about to revoke the following certificate:</"
-"para><para>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%1</"
-"para><para><emphasis strong='true'>The revocation will take effect "
-"immediately and cannot be reverted.</emphasis></para><para>Consequences: "
-"<list><item>You can still decrypt everything encrypted for this certificate.</"
-"item><item>You cannot sign anything with this certificate anymore.</"
-"item><item>You cannot certify other certificates with it anymore.</"
-"item><item>Other people can no longer encrypt with it after receiving the "
-"revocation.</item></list></para>"
+"<para>You are about to revoke the following certificate:</para><para>&nbsp;"
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%1</para><para><emphasis "
+"strong='true'>The revocation will take effect immediately and cannot be "
+"reverted.</emphasis></para><para>Consequences: <list><item>You can still "
+"decrypt everything encrypted for this certificate.</item><item>You cannot "
+"sign anything with this certificate anymore.</item><item>You cannot certify "
+"other certificates with it anymore.</item><item>Other people can no longer "
+"encrypt with it after receiving the revocation.</item></list></para>"
 msgstr ""
-"<para>भवन्तः निम्नलिखित प्रमाणपत्रं निरस्तं कर्तुं प्रवृत्ताः सन्ति:</"
-"para><para>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%1</"
-"para><para><emphasis strong='true'>निरस्तीकरणं तत्क्षणमेव प्रभावी भविष्यति, पुनः कर्तुं "
-"न शक्यते।</emphasis></para><para>परिणामाः: <list><item>अद्यापि भवान् अस्य "
-"प्रमाणपत्रस्य कृते गुप्तीकरणं कृतं सर्वं विगुप्तं कर्तुं शक्नोति।</item><item>भवन्तः एतेन "
-"प्रमाणपत्रेण किमपि हस्ताक्षरं कर्तुं न शक्नुवन्ति।</item><item>भवन्तः एतेन अन्य प्रमाणपत्राणि "
-"प्रमाणयितुं न शक्नुवन्ति।</item><item>अन्ये जनाः निरसनं प्राप्य तेन सह गोपनं कर्तुं न शक्नुवन्ति।"
-"</item></list></para>"
+"<para>भवन्तः निम्नलिखित प्रमाणपत्रं निरस्तं कर्तुं प्रवृत्ताः सन्ति:</para><para>&nbsp;"
+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%1</para><para><emphasis "
+"strong='true'>निरस्तीकरणं तत्क्षणमेव प्रभावी भविष्यति, पुनः कर्तुं न शक्यते।</emphasis></"
+"para><para>परिणामाः: <list><item>अद्यापि भवान् अस्य प्रमाणपत्रस्य कृते गुप्तीकरणं कृतं "
+"सर्वं विगुप्तं कर्तुं शक्नोति।</item><item>भवन्तः एतेन प्रमाणपत्रेण किमपि हस्ताक्षरं कर्तुं न "
+"शक्नुवन्ति।</item><item>भवन्तः एतेन अन्य प्रमाणपत्राणि प्रमाणयितुं न शक्नुवन्ति।</"
+"item><item>अन्ये जनाः निरसनं प्राप्य तेन सह गोपनं कर्तुं न शक्नुवन्ति।</item></list></"
+"para>"
 
 #: src/dialogs/revokerswidget.cpp:78
 #, kde-format
@@ -7973,13 +8003,13 @@ msgstr "(प्रथमं परीक्षणं चिनोतु)"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>These are the results of the Kleopatra self-test suite. Click on a test "
-"for details.</para><para>Note that all but the first failure might be due to "
-"prior tests failing.</para>"
+"<para>These are the results of the Kleopatra self-test suite. Click on a "
+"test for details.</para><para>Note that all but the first failure might be "
+"due to prior tests failing.</para>"
 msgstr ""
 "<para>एते क्लियोपात्रस्वपरीक्षासमूहस्य परिणामाः सन्ति। विवरणार्थं कस्यापि परीक्षणस्य उपरि "
-"नुदन्तु ।</para><para>प्रथमं विहाय सर्वं पूर्वपरीक्षाणां विफलतायाः कारणेन भवितुम् अर्हति इति "
-"ज्ञातव्यम् ।</para>"
+"नुदन्तु ।</para><para>प्रथमं विहाय सर्वं पूर्वपरीक्षाणां विफलतायाः कारणेन भवितुम् अर्हति "
+"इति ज्ञातव्यम् ।</para>"
 
 #: src/dialogs/selftestdialog.cpp:360
 #, kde-format
@@ -8089,8 +8119,8 @@ msgstr "प्रारम्भिक पिन (NKS) सेट् कुर्
 #: src/dialogs/setinitialpindialog.ui:71
 #, kde-format
 msgid ""
-"Step 2: Set the initial PIN for the qualified signature certificate "
-"(\"SigG\"):"
+"Step 2: Set the initial PIN for the qualified signature certificate (\"SigG"
+"\"):"
 msgstr "चरण 2: योग्यहस्ताक्षरप्रमाणपत्रस्य (\"SigG\") प्रारम्भिकपिन् सेट् कुर्वन्तु:"
 
 #. i18n: ectx: property (text), widget (QPushButton, sigGPB)
@@ -8301,8 +8331,8 @@ msgstr "%1 संस्करणं उपलब्धम् अस्ति ।
 #, kde-format
 msgctxt "Link to NEWS style changelog"
 msgid ""
-"See the <a href=\"https://www.gpg4win.org/change-history.html\">new features</"
-"a>."
+"See the <a href=\"https://www.gpg4win.org/change-history.html\">new "
+"features</a>."
 msgstr ""
 "<a href=\"https://www.gpg4win.org/change-history.html\">नूतनानि विशेषतानि</a> "
 "पश्यन्तु ."
@@ -8427,11 +8457,11 @@ msgstr "एन्क्रिप्शन"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>Do you really want to revoke the user ID<nl/><emphasis>%1</emphasis> ?</"
-"para>"
-msgstr ""
-"<para>किं भवान् वास्तवमेव उपयोक्तृ-ID<nl/><emphasis>%1</emphasis> निरस्तं कर्तुम् इच्छति ?"
+"<para>Do you really want to revoke the user ID<nl/><emphasis>%1</emphasis> ?"
 "</para>"
+msgstr ""
+"<para>किं भवान् वास्तवमेव उपयोक्तृ-ID<nl/><emphasis>%1</emphasis> निरस्तं कर्तुम् "
+"इच्छति ?</para>"
 
 #: src/dialogs/useridswidget.cpp:482
 #, kde-format
@@ -8518,7 +8548,8 @@ msgstr "गम्यमानं कुञ्जीम् आनयन्तु"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Look up and import all keys that were used to certify the user IDs of this key"
+"Look up and import all keys that were used to certify the user IDs of this "
+"key"
 msgstr "अस्य कीलस्य उपयोक्तृ-ID प्रमाणीकरणार्थं प्रयुक्तानि सर्वाणि कीलानि अवलोक्य आयातयन्तु"
 
 #: src/dialogs/weboftrustwidget.cpp:142
@@ -8691,8 +8722,8 @@ msgid ""
 "increase file size by one third."
 msgstr ""
 "एन्क्रिप्टेड् अथवा हस्ताक्षरितसञ्चिकाः base64 एन्कोडेड् पाठरूपेण एन्कोड् कर्तुं एतत् विकल्पं सेट् "
-"कुर्वन्तु । यथा ते सम्पादकेन उद्घाटयितुं वा मेलशरीरे प्रेषयितुं वा शक्यन्ते। एतेन सञ्चिकायाः आकारः "
-"एकतृतीयभागः वर्धते ।"
+"कुर्वन्तु । यथा ते सम्पादकेन उद्घाटयितुं वा मेलशरीरे प्रेषयितुं वा शक्यन्ते। एतेन सञ्चिकायाः "
+"आकारः एकतृतीयभागः वर्धते ।"
 
 #. i18n: ectx: label, entry (DontUseTmpDir), group (FileOperations)
 #: src/kcfg/fileoperationspreferences.kcfg:35
@@ -8760,8 +8791,8 @@ msgid ""
 "         e.g., from the email settings of the desktop or, on Windows, from "
 "the Active Directory."
 msgstr ""
-"यदि सत्यं भवति तर्हि S/MIME प्रमाणपत्राणां सामान्यनाम (CN) क्षेत्रं प्रणाल्याः एकत्रितसूचनया "
-"पूर्वं पूरितं भविष्यति,\n"
+"यदि सत्यं भवति तर्हि S/MIME प्रमाणपत्राणां सामान्यनाम (CN) क्षेत्रं प्रणाल्याः "
+"एकत्रितसूचनया पूर्वं पूरितं भविष्यति,\n"
 "         यथा, डेस्कटॉपस्य ईमेलसेटिंग्स् तः अथवा, विण्डोज इत्यत्र, सक्रियनिर्देशिकातः ।"
 
 #. i18n: ectx: label, entry (emailPlaceholder), group (CertificateCreationWizard)
@@ -8774,8 +8805,8 @@ msgstr "EMAIL कृते संकेतः"
 #: src/kcfg/settings.kcfg:21
 #, kde-format
 msgid ""
-"This text will be shown above the email address field of OpenPGP certificates "
-"and as placeholder in that field for S/MIME certificates."
+"This text will be shown above the email address field of OpenPGP "
+"certificates and as placeholder in that field for S/MIME certificates."
 msgstr ""
 "एषः पाठः OpenPGP प्रमाणपत्राणां ईमेल-सङ्केतक्षेत्रस्य उपरि तथा च S/MIME प्रमाणपत्राणां कृते "
 "तस्मिन् क्षेत्रे स्थानधारकरूपेण दर्शितः भविष्यति ।"
@@ -8790,8 +8821,8 @@ msgstr "स्वयमेव EMAIL पूर्वपूरयन्तु"
 #: src/kcfg/settings.kcfg:27
 #, kde-format
 msgid ""
-"If true, then the email address field of OpenPGP and S/MIME certificates will "
-"be prefilled with information gathered from the system,\n"
+"If true, then the email address field of OpenPGP and S/MIME certificates "
+"will be prefilled with information gathered from the system,\n"
 "         e.g., from the email settings of the desktop or, on Windows, from "
 "the Active Directory."
 msgstr ""
@@ -8876,7 +8907,8 @@ msgstr "पूर्वनिर्धारित वैधता अवधि"
 #: src/kcfg/settings.kcfg:53
 #, kde-format
 msgid ""
-"Specifies the default validity period of new or extended OpenPGP keys in days."
+"Specifies the default validity period of new or extended OpenPGP keys in "
+"days."
 msgstr ""
 "नूतनानां अथवा विस्तारितानां OpenPGP कीलानां पूर्वनिर्धारितवैधताकालं दिवसेषु निर्दिशति ।"
 
@@ -8886,10 +8918,10 @@ msgstr ""
 msgid ""
 "This setting specifies how many days an OpenPGP key will be valid by default "
 "at creation or change of validity, or, in other words, after how many days "
-"the key will expire. Set this to 0 for unlimited validity. If this setting is "
-"not set or is set to a negative value, then new or extended OpenPGP keys will "
-"be valid for three years (possibly clamped to the allowed minimum or maximum "
-"validity period) by default."
+"the key will expire. Set this to 0 for unlimited validity. If this setting "
+"is not set or is set to a negative value, then new or extended OpenPGP keys "
+"will be valid for three years (possibly clamped to the allowed minimum or "
+"maximum validity period) by default."
 msgstr ""
 "एषा सेटिङ्ग् निर्दिशति यत् OpenPGP कुञ्जी वैधतायाः निर्माणे वा परिवर्तने वा "
 "पूर्वनिर्धारितरूपेण कति दिवसान् वैधः भविष्यति, अथवा, अन्येषु शब्देषु, कुञ्जी कियत् दिवसानन्तरं "
@@ -8908,8 +8940,8 @@ msgstr "न्यूनतम वैधता अवधि"
 #: src/kcfg/settings.kcfg:59
 #, kde-format
 msgid ""
-"Specifies the minimum allowed validity period of new or extended OpenPGP keys "
-"in days."
+"Specifies the minimum allowed validity period of new or extended OpenPGP "
+"keys in days."
 msgstr ""
 "नूतनानां अथवा विस्तारितानां OpenPGP कुञ्जीनां न्यूनतमं अनुमतवैधताकालं दिवसेषु निर्दिशति ।"
 
@@ -8934,8 +8966,8 @@ msgstr "अधिकतम वैधता अवधि"
 #: src/kcfg/settings.kcfg:65
 #, kde-format
 msgid ""
-"Specifies the maximum allowed validity period of new or extended OpenPGP keys "
-"in days."
+"Specifies the maximum allowed validity period of new or extended OpenPGP "
+"keys in days."
 msgstr ""
 "नूतनानां अथवा विस्तारितानां OpenPGP कुञ्जीनां अधिकतमं अनुमतवैधताकालं दिवसेषु निर्दिशति ।"
 
@@ -8945,8 +8977,8 @@ msgstr ""
 msgid ""
 "This setting specifies the maximum number of days a user can choose for the "
 "validity period of OpenPGP certificates. It applies at key creation and "
-"change of validity. If this setting is not set or is set to a negative value, "
-"then unlimited validity is allowed."
+"change of validity. If this setting is not set or is set to a negative "
+"value, then unlimited validity is allowed."
 msgstr ""
 "एषा सेटिङ्ग् OpenPGP प्रमाणपत्राणां वैधताकालस्य कृते उपयोक्ता अधिकतमदिनसङ्ख्यां निर्दिशति । "
 "कुञ्जीनिर्माणे वैधतायाः परिवर्तने च प्रवर्तते । यदि एतत् सेटिङ्ग् न सेट् भवति अथवा "
@@ -8981,13 +9013,13 @@ msgstr "प्रमाणीकरणानां पूर्वनिर्�
 #: src/kcfg/settings.kcfg:79
 #, kde-format
 msgid ""
-"This setting specifies how many days a certification is valid by default, or, "
-"in other words, after how many days a new certification will expire. Set this "
-"to 0 for unlimited validity of certifications."
+"This setting specifies how many days a certification is valid by default, "
+"or, in other words, after how many days a new certification will expire. Set "
+"this to 0 for unlimited validity of certifications."
 msgstr ""
 "एतत् सेटिङ्ग् प्रमाणीकरणं पूर्वनिर्धारितरूपेण कति दिवसान् वैधं भवति इति निर्दिशति, अथवा, "
-"अन्येषु शब्देषु, कियत् दिवसानन्तरं नूतनं प्रमाणीकरणस्य अवधिः समाप्तः भविष्यति । प्रमाणीकरणानां "
-"असीमितवैधतायै एतत् 0 इति सेट् कुर्वन्तु ।"
+"अन्येषु शब्देषु, कियत् दिवसानन्तरं नूतनं प्रमाणीकरणस्य अवधिः समाप्तः भविष्यति । "
+"प्रमाणीकरणानां असीमितवैधतायै एतत् 0 इति सेट् कुर्वन्तु ।"
 
 #. i18n: ectx: label, entry (ChecksumDefinitionId), group (ChecksumOperations)
 #: src/kcfg/settings.kcfg:85
@@ -9041,8 +9073,8 @@ msgid ""
 "If false, then Kleopatra's main UI will not offer any functionality related "
 "to S/MIME (CMS)."
 msgstr ""
-"यदि मिथ्या अस्ति, तर्हि Kleopatra इत्यस्य मुख्यं UI S/MIME (CMS) इत्यनेन सह सम्बद्धं किमपि "
-"कार्यक्षमतां न प्रदास्यति ।"
+"यदि मिथ्या अस्ति, तर्हि Kleopatra इत्यस्य मुख्यं UI S/MIME (CMS) इत्यनेन सह सम्बद्धं "
+"किमपि कार्यक्षमतां न प्रदास्यति ।"
 
 #. i18n: ectx: label, entry (cmsCertificateCreationAllowed), group (CMS)
 #: src/kcfg/settings.kcfg:109
@@ -9082,11 +9114,11 @@ msgstr "S/MIME प्रमाणपत्रैः सह पाठस्य �
 #: src/kcfg/settings.kcfg:117
 #, kde-format
 msgid ""
-"If false, then Kleopatra will not offer functionality for creating signatures "
-"with S/MIME certificates."
+"If false, then Kleopatra will not offer functionality for creating "
+"signatures with S/MIME certificates."
 msgstr ""
-"यदि मिथ्या अस्ति, तर्हि Kleopatra S/MIME प्रमाणपत्रैः सह हस्ताक्षरं निर्मातुं कार्यक्षमतां न "
-"प्रदास्यति ।"
+"यदि मिथ्या अस्ति, तर्हि Kleopatra S/MIME प्रमाणपत्रैः सह हस्ताक्षरं निर्मातुं कार्यक्षमतां "
+"न प्रदास्यति ।"
 
 #. i18n: ectx: label, entry (ShowAppearanceConfiguration), group (ConfigurationDialog)
 #: src/kcfg/settings.kcfg:123
@@ -9186,8 +9218,8 @@ msgid ""
 "user IDs."
 msgstr ""
 "पूर्वनिर्धारितरूपेण, Kleopatra केवलं प्रदातृणां प्रमाणपत्रनिर्देशिकाः (WKD) पृच्छति ।\n"
-"         उपयोक्तृ-ID-सम्बद्धानां कृते ये मूलतः WKD तः पुनः प्राप्ताः आसन् यदा भवान् OpenPGP "
-"प्रमाणपत्रं अद्यतनीकरोति ।\n"
+"         उपयोक्तृ-ID-सम्बद्धानां कृते ये मूलतः WKD तः पुनः प्राप्ताः आसन् यदा भवान् "
+"OpenPGP प्रमाणपत्रं अद्यतनीकरोति ।\n"
 "         यदि एषः विकल्पः सक्षमः अस्ति, तर्हि Kleopatra सर्वेषां उपयोक्तृ-ID-सम्बद्धानां "
 "कृते WKD-इत्येतत् पृच्छति ।"
 
@@ -9249,8 +9281,8 @@ msgid ""
 "LDAP keyservers."
 msgstr ""
 "स्मार्टकार्ड्स् कीलस्य प्रोटोकॉलस्य परवाहं विना कीसर्वर् इत्यत्र अन्वेषणं करोति, परवाहं विना\n"
-"        कीसर्वर प्रोटोकॉलस्य । पूर्वनिर्धारितः व्यवहारः केवलं LDAP कीलसर्वरस्य कृते एव एतत् "
-"कर्तुं भवति ।"
+"        कीसर्वर प्रोटोकॉलस्य । पूर्वनिर्धारितः व्यवहारः केवलं LDAP कीलसर्वरस्य कृते एव "
+"एतत् कर्तुं भवति ।"
 
 #. i18n: ectx: label, entry (autoLoadP15Certs), group (Smartcard)
 #: src/kcfg/settings.kcfg:203
@@ -9320,11 +9352,11 @@ msgstr "प्रमाणपत्रस्वामिनः सूचना�
 #: src/kcfg/tooltippreferences.kcfg:15
 #, kde-format
 msgid ""
-"Show owner information for certificates in tooltip, such as User IDs, subject "
-"and issuers."
+"Show owner information for certificates in tooltip, such as User IDs, "
+"subject and issuers."
 msgstr ""
-"टूलटिप् मध्ये प्रमाणपत्राणां कृते स्वामिसूचनाः दर्शयन्तु, यथा उपयोक्तृ-ID, विषयः, जारीकर्ताः च "
-"।"
+"टूलटिप् मध्ये प्रमाणपत्राणां कृते स्वामिसूचनाः दर्शयन्तु, यथा उपयोक्तृ-ID, विषयः, जारीकर्ताः "
+"च ।"
 
 #. i18n: ectx: label, entry (ShowCertificateDetails), group (Tooltip)
 #: src/kcfg/tooltippreferences.kcfg:19
@@ -9336,8 +9368,8 @@ msgstr "प्रमाणपत्रस्य विवरणं दर्श�
 #: src/kcfg/tooltippreferences.kcfg:20
 #, kde-format
 msgid ""
-"Show more certificate details, such as fingerprint, key length and expiration "
-"dates"
+"Show more certificate details, such as fingerprint, key length and "
+"expiration dates"
 msgstr ""
 "अधिकप्रमाणपत्रविवरणानि दर्शयतु, यथा अङ्गुलिचिह्नं, कुञ्जीदीर्घता, अवधिसमाप्तितिथयः च"
 
@@ -9579,7 +9611,8 @@ msgstr "अमान्य सॉकेट नाम !"
 
 #: src/libkleopatraclient/core/command.cpp:567
 #, kde-format
-msgid "Could not allocate resources to connect to Kleopatra UI server at %1: %2"
+msgid ""
+"Could not allocate resources to connect to Kleopatra UI server at %1: %2"
 msgstr "%1: %2 इत्यत्र Kleopatra UI सर्वरेण सह संयोजयितुं संसाधनानाम् आवंटनं कर्तुं न शक्तम्"
 
 #: src/libkleopatraclient/core/command.cpp:592
@@ -9694,10 +9727,10 @@ msgctxt ""
 "whole installation is buggy. e.g. GnuPG is not installed at all."
 msgid ""
 "<qt>The Kleopatra Windows Explorer Module could not be initialized.<br/>The "
-"error given was: <b>%1</b><br/>This likely means that there is a problem with "
-"your installation. Try reinstalling or contact your Administrator for support."
-"<br/>You can try to continue to use Kleopatra but there might be other "
-"problems.</qt>"
+"error given was: <b>%1</b><br/>This likely means that there is a problem "
+"with your installation. Try reinstalling or contact your Administrator for "
+"support.<br/>You can try to continue to use Kleopatra but there might be "
+"other problems.</qt>"
 msgstr ""
 "<qt>Kleopatra Windows Explorer Module इत्यस्य आरम्भः कर्तुं न शक्यते स्म ।<br/> दत्ता "
 "दोषः आसीत् : <b>%1</b><br/> सम्भवतः भवतः संस्थापनस्य समस्या अस्ति इति अर्थः । पुनः "
@@ -9727,12 +9760,12 @@ msgstr "केवलं &Close Window इति"
 msgctxt "@info"
 msgid ""
 "<application>%1</application> may be used by other applications as a service."
-"<nl/>You may instead want to close this window without exiting "
-"<application>%1</application>."
+"<nl/>You may instead want to close this window without exiting <application>"
+"%1</application>."
 msgstr ""
 "<application>%1</application> अन्यैः अनुप्रयोगैः सेवारूपेण उपयोक्तुं शक्यते ।<nl/>भवन्तः "
-"तस्य स्थाने <application>%1</application> इत्यस्मात् निर्गत्य एतत् विण्डो पिधातुम् इच्छन्ति "
-"।"
+"तस्य स्थाने <application>%1</application> इत्यस्मात् निर्गत्य एतत् विण्डो पिधातुम् "
+"इच्छन्ति ।"
 
 #: src/mainwindow.cpp:228
 #, kde-format
@@ -9863,36 +9896,24 @@ msgctxt ""
 msgid "encrypt_and_sign_gnupgvsd_en.pdf"
 msgstr "encrypt_and_sign_gnupgvsd_en.pdf"
 
-#: src/mainwindow.cpp:764
-#, kde-format
-msgid "&Password-based Encryption"
-msgstr "&गुप्तशब्द-आधारित एन्क्रिप्शन"
-
 #: src/mainwindow.cpp:765
-#, kde-format
-msgctxt ""
-"Only available in German and English. Leave to English for other languages."
-msgid "symmetric_encryption_gnupgvsd_en.pdf"
-msgstr "सममित_एन्क्रिप्शन_gnupgvsd_en.pdf"
-
-#: src/mainwindow.cpp:772
 #, kde-format
 msgid "Certificate &Groups"
 msgstr "प्रमाणपत्र &समूह"
 
-#: src/mainwindow.cpp:773
+#: src/mainwindow.cpp:766
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "groupfeature_gnupgvsd_en.pdf"
 msgstr "groupfeature_gnupgvsd_en.pdf"
 
-#: src/mainwindow.cpp:782
+#: src/mainwindow.cpp:775
 #, kde-format
 msgid "&Mail Encryption in Outlook"
 msgstr "&आउटलुक् मध्ये मेल एन्क्रिप्शन"
 
-#: src/mainwindow.cpp:783
+#: src/mainwindow.cpp:776
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages. "
@@ -9900,41 +9921,41 @@ msgctxt ""
 msgid "gpgol_outlook_addin_en.pdf"
 msgstr "gpgol_outlook_addin_hi.pdf"
 
-#: src/mainwindow.cpp:793
+#: src/mainwindow.cpp:786
 #, kde-format
 msgid "&Certification Management"
 msgstr "&प्रमाणीकरण प्रबन्धन"
 
-#: src/mainwindow.cpp:794
+#: src/mainwindow.cpp:787
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "certification_management_gnupgvsd_en.pdf"
 msgstr "प्रमाणीकरण_प्रबन्धन_gnupgvsd_en.pdf"
 
-#: src/mainwindow.cpp:802
+#: src/mainwindow.cpp:795
 #, kde-format
 msgid "&Smartcard Setup"
 msgstr "&स्मार्टकार्ड सेटअप"
 
-#: src/mainwindow.cpp:803
+#: src/mainwindow.cpp:796
 #, kde-format
 msgctxt ""
 "Only available in German and English. Leave to English for other languages."
 msgid "smartcard_setup_gnupgvsd_en.pdf"
 msgstr "smartcard_setup_gnupgvsd_hi.pdf"
 
-#: src/mainwindow.cpp:810
+#: src/mainwindow.cpp:803
 #, kde-format
 msgid "GnuPG Command&line"
 msgstr "GnuPG आदेश&पङ्क्तिः"
 
-#: src/mainwindow.cpp:820
+#: src/mainwindow.cpp:813
 #, kde-format
 msgid "Manual for VS-NfD Approval"
 msgstr "VS-NfD अनुमोदनार्थं पुस्तिका"
 
-#: src/mainwindow.cpp:821
+#: src/mainwindow.cpp:814
 #, kde-format
 msgctxt ""
 "Only available in German and English. Keep the English file name for other "
@@ -9942,12 +9963,12 @@ msgctxt ""
 msgid "handbuch_zulassung_gnupgvsd_en.pdf"
 msgstr "मैनुअल_अनुमोदन_gnupgvsd_hi.pdf"
 
-#: src/mainwindow.cpp:829
+#: src/mainwindow.cpp:822
 #, kde-format
 msgid "SecOps for VS-NfD Approval"
 msgstr "VS-NfD अनुमोदनार्थं SecOps"
 
-#: src/mainwindow.cpp:830
+#: src/mainwindow.cpp:823
 #, kde-format
 msgctxt ""
 "Only available in German and English. Keep the English file name for other "
@@ -9955,18 +9976,31 @@ msgctxt ""
 msgid "BSI-VSA-10867_ENG_secops.pdf"
 msgstr "बीएसआई-वीएसए-10867_ENG_secops.pdf"
 
-#: src/mainwindow.cpp:857
+#: src/mainwindow.cpp:850
 #, kde-format
 msgid ""
 "There are still some background operations ongoing. These will be terminated "
 "when closing the window. Proceed?"
 msgstr ""
-"अद्यापि केचन पृष्ठभूमिकार्यक्रमाः प्रचलन्ति । एते विण्डो पिधाय समाप्ताः भविष्यन्ति । प्रवर्तते?"
+"अद्यापि केचन पृष्ठभूमिकार्यक्रमाः प्रचलन्ति । एते विण्डो पिधाय समाप्ताः भविष्यन्ति । "
+"प्रवर्तते?"
 
-#: src/mainwindow.cpp:860
+#: src/mainwindow.cpp:853
 #, kde-format
 msgid "Ongoing Background Tasks"
 msgstr "सततं पृष्ठभूमिकार्यम्"
+
+#: src/mainwindow.cpp:1002
+#, kde-format
+msgid "&Password-based Encryption"
+msgstr "&गुप्तशब्द-आधारित एन्क्रिप्शन"
+
+#: src/mainwindow.cpp:1003
+#, kde-format
+msgctxt ""
+"Only available in German and English. Leave to English for other languages."
+msgid "symmetric_encryption_gnupgvsd_en.pdf"
+msgstr "सममित_एन्क्रिप्शन_gnupgvsd_en.pdf"
 
 #: src/newcertificatewizard/advancedsettingsdialog.cpp:135
 #, kde-format
@@ -10087,8 +10121,8 @@ msgid ""
 "Please enter your personal details below. If you want more control over the "
 "parameters, click on the Advanced Settings button."
 msgstr ""
-"कृपया अधः स्वस्य व्यक्तिगतविवरणं प्रविशन्तु। यदि भवान् पैरामीटर्स् इत्यस्य उपरि अधिकं नियन्त्रणं "
-"इच्छति तर्हि Advanced Settings इति बटन् नुदतु ।"
+"कृपया अधः स्वस्य व्यक्तिगतविवरणं प्रविशन्तु। यदि भवान् पैरामीटर्स् इत्यस्य उपरि अधिकं "
+"नियन्त्रणं इच्छति तर्हि Advanced Settings इति बटन् नुदतु ।"
 
 #: src/newcertificatewizard/enterdetailspage.cpp:222
 #, kde-format
@@ -10156,8 +10190,8 @@ msgstr "परिणाम"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Drag this icon to your mail application's composer to attach the request to a "
-"mail."
+"Drag this icon to your mail application's composer to attach the request to "
+"a mail."
 msgstr "अनुरोधं मेल-सङ्गतिं कर्तुं स्वस्य मेल-अनुप्रयोगस्य रचनाकारं प्रति एतत् चिह्नं कर्षयन्तु ।"
 
 #: src/newcertificatewizard/resultpage.cpp:91
@@ -10211,8 +10245,8 @@ msgstr "कीलयुग्मं सफलतया निर्मितम�
 #: src/newcertificatewizard/resultpage.cpp:151
 #, kde-format
 msgid ""
-"Your new key pair was created successfully. Please find details on the result "
-"and some suggested next steps below."
+"Your new key pair was created successfully. Please find details on the "
+"result and some suggested next steps below."
 msgstr ""
 "भवतः नूतनं कीलयुगलं सफलतया निर्मितम् । कृपया परिणामस्य विवरणं तथा च केचन सुझाताः "
 "अग्रिमपदार्थाः अधः पश्यन्तु।"
@@ -10253,16 +10287,16 @@ msgid ""
 "default mail client.</para><para>Some mail clients are known not to support "
 "attachments when invoked this way.</para><para>If your mail client does not "
 "have an attachment, then drag the <application>Kleopatra</application> icon "
-"and drop it on the message compose window of your mail client.</para><para>If "
-"that does not work, either, save the request to a file, and then attach that."
-"</para>"
+"and drop it on the message compose window of your mail client.</"
+"para><para>If that does not work, either, save the request to a file, and "
+"then attach that.</para>"
 msgstr ""
-"<para><application>Kleopatra</application> इत्यनेन भवतः पूर्वनिर्धारितमेलग्राहकद्वारा "
-"मेलप्रेषणस्य प्रयासः कृतः ।</para><para>केचन मेलग्राहकाः एवं आह्वयितुं संलग्नानाम् समर्थनं न "
-"कुर्वन्ति इति ज्ञायते ।</para><para> यदि भवतः मेलग्राहकस्य संलग्नकं नास्ति तर्हि "
-"<application>Kleopatra</application> चिह्नं कर्षयित्वा भवतः मेलस्य सन्देशरचनाविण्डो "
-"मध्ये पातयन्तु client.</para><para>यदि तदपि न कार्यं करोति तर्हि अनुरोधं सञ्चिकायां "
-"रक्षन्तु, ततः तत् संलग्नं कुर्वन्तु ।</para>"
+"<para><application>Kleopatra</application> इत्यनेन भवतः "
+"पूर्वनिर्धारितमेलग्राहकद्वारा मेलप्रेषणस्य प्रयासः कृतः ।</para><para>केचन मेलग्राहकाः एवं "
+"आह्वयितुं संलग्नानाम् समर्थनं न कुर्वन्ति इति ज्ञायते ।</para><para> यदि भवतः मेलग्राहकस्य "
+"संलग्नकं नास्ति तर्हि <application>Kleopatra</application> चिह्नं कर्षयित्वा भवतः "
+"मेलस्य सन्देशरचनाविण्डो मध्ये पातयन्तु client.</para><para>यदि तदपि न कार्यं करोति तर्हि "
+"अनुरोधं सञ्चिकायां रक्षन्तु, ततः तत् संलग्नं कुर्वन्तु ।</para>"
 
 #: src/newcertificatewizard/resultpage.cpp:246
 #, kde-format
@@ -10328,9 +10362,11 @@ msgctxt ""
 "@info %1 is a placeholder for the name of a compliance mode. E.g. NATO "
 "RESTRICTED compliant or VS-NfD compliant"
 msgid ""
-"<para>Install a version of <application>GnuPG</application> that is %1.</para>"
+"<para>Install a version of <application>GnuPG</application> that is %1.</"
+"para>"
 msgstr ""
-"<para><application>GnuPG</application> इत्यस्य संस्करणं संस्थापयन्तु यत् %1.</para> अस्ति"
+"<para><application>GnuPG</application> इत्यस्य संस्करणं संस्थापयन्तु यत् %1.</para> "
+"अस्ति"
 
 #: src/selftest/enginecheck.cpp:46
 #, kde-format
@@ -10354,8 +10390,8 @@ msgstr "GpgConf (विन्यास) संस्थापनम्"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>A problem was detected with the <application>%1</application> backend.</"
-"para>"
+"<para>A problem was detected with the <application>%1</application> backend."
+"</para>"
 msgstr "<para><application>%1</application> पृष्ठभागे समस्या ज्ञाता ।</para>"
 
 #: src/selftest/enginecheck.cpp:98
@@ -10370,8 +10406,8 @@ msgid ""
 "<para>It seems that the <icode>gpgme</icode> library was compiled without "
 "support for this backend.</para>"
 msgstr ""
-"<para>इदं दृश्यते यत् <icode>gpgme</icode> पुस्तकालयः अस्य पृष्ठभागस्य समर्थनं विना संकलितः "
-"आसीत् ।</para>"
+"<para>इदं दृश्यते यत् <icode>gpgme</icode> पुस्तकालयः अस्य पृष्ठभागस्य समर्थनं विना "
+"संकलितः आसीत् ।</para>"
 
 #: src/selftest/enginecheck.cpp:103
 #, kde-kuit-format
@@ -10422,7 +10458,8 @@ msgstr ""
 #: src/selftest/enginecheck.cpp:123 src/selftest/enginecheck.cpp:179
 #, kde-kuit-format
 msgctxt "@info"
-msgid "<para>Install <application>%1</application> version %2 or higher.</para>"
+msgid ""
+"<para>Install <application>%1</application> version %2 or higher.</para>"
 msgstr ""
 "<para><application>%1</application> संस्करणं %2 अथवा उच्चतरं संस्थापयन्तु।</para>"
 
@@ -10448,8 +10485,8 @@ msgid ""
 "<para><application>%1</application> v%2.%3.%4 is required for this test, but "
 "only %5 is installed.</para>"
 msgstr ""
-"<para><application>%1</application> अस्य परीक्षणस्य कृते v%2.%3.%4 आवश्यकं, परन्तु केवलं "
-"%5 संस्थापितम् ।</para>"
+"<para><application>%1</application> अस्य परीक्षणस्य कृते v%2.%3.%4 आवश्यकं, परन्तु "
+"केवलं %5 संस्थापितम् ।</para>"
 
 #: src/selftest/enginecheck.cpp:185
 #, kde-kuit-format
@@ -10513,8 +10550,8 @@ msgid ""
 "para>"
 msgstr ""
 "<para><application>GpgME</application> पुस्तकालयः <application>gpg-agent</"
-"application> समर्थयितुं पर्याप्तं नूतनः अस्ति, परन्तु अस्मिन् संस्थापने तत् न करोति इति भासते ।"
-"</para><para>दोषः प्रत्यागतः आसीत्: <message>%1</message>.</para>"
+"application> समर्थयितुं पर्याप्तं नूतनः अस्ति, परन्तु अस्मिन् संस्थापने तत् न करोति इति भासते "
+"।</para><para>दोषः प्रत्यागतः आसीत्: <message>%1</message>.</para>"
 
 #: src/selftest/gpgagentcheck.cpp:75
 #, kde-format
@@ -10526,7 +10563,8 @@ msgstr "अप्रत्याशितदोषः"
 msgctxt "@info"
 msgid ""
 "<para>Unexpected error while asking <application>gpg-agent</application> for "
-"its version.</para><para>The error returned was: <message>%1</message>.</para>"
+"its version.</para><para>The error returned was: <message>%1</message>.</"
+"para>"
 msgstr ""
 "<para><application>gpg-agent</application> इत्यस्य संस्करणं पृच्छन् अप्रत्याशितदोषः ।</"
 "para><para>प्रत्यागतदोषः आसीत् : <message>%1</message> ।</para>"
@@ -10592,14 +10630,14 @@ msgid ""
 "<para>Kleopatra detected an obsolete registry key (<resource>%1\\%2</"
 "resource>), added by either a previous <application>Gpg4win</application> "
 "version or applications such as <application>WinPT</application> or "
-"<application>EnigMail</application>.</para><para>Keeping the entry might lead "
-"to an old GnuPG backend being used.</para>"
+"<application>EnigMail</application>.</para><para>Keeping the entry might "
+"lead to an old GnuPG backend being used.</para>"
 msgstr ""
 "<para>क्लेओपात्रा इत्यनेन अप्रचलितं रजिस्ट्रीकुंजी (<resource>%1\\%2</resource>) ज्ञाता, "
-"यत् पूर्ववर्ती <application>Gpg4win</application> संस्करणेन अथवा <application>WinPT</"
-"application> इत्यादिभिः अनुप्रयोगैः योजितम् अथवा <application>EnigMail</"
-"application>.</para><para>प्रविष्टिं रक्षित्वा पुरातनं GnuPG पृष्ठभागस्य उपयोगः भवितुं "
-"शक्नोति ।</para>"
+"यत् पूर्ववर्ती <application>Gpg4win</application> संस्करणेन अथवा "
+"<application>WinPT</application> इत्यादिभिः अनुप्रयोगैः योजितम् अथवा "
+"<application>EnigMail</application>.</para><para>प्रविष्टिं रक्षित्वा पुरातनं GnuPG "
+"पृष्ठभागस्य उपयोगः भवितुं शक्नोति ।</para>"
 
 #: src/selftest/registrycheck.cpp:56
 #, kde-kuit-format
@@ -11095,11 +11133,11 @@ msgstr "न ग्राहकाः दत्ताः, अथवा केव�
 #: src/uiserver/encryptcommand.cpp:170
 #, kde-format
 msgid ""
-"Caught unexpected exception in "
-"EncryptCommand::Private::slotRecipientsResolved: %1"
+"Caught unexpected exception in EncryptCommand::Private::"
+"slotRecipientsResolved: %1"
 msgstr ""
-"EncryptCommand::Private::slotRecipientsResolved: %1 इत्यस्मिन् अप्रत्याशितम् अपवादः "
-"गृहीतः"
+"EncryptCommand::Private::slotRecipientsResolved: %1 इत्यस्मिन् अप्रत्याशितम् "
+"अपवादः गृहीतः"
 
 #: src/uiserver/encryptcommand.cpp:172
 #, kde-format
@@ -11129,8 +11167,8 @@ msgstr "SENDER PREP_ENCRYPT इत्यस्मात् पूर्वं �
 #: src/uiserver/prepencryptcommand.cpp:121
 #, kde-format
 msgid ""
-"Caught unexpected exception in "
-"PrepEncryptCommand::Private::slotRecipientsResolved: %1"
+"Caught unexpected exception in PrepEncryptCommand::Private::"
+"slotRecipientsResolved: %1"
 msgstr ""
 "PrepEncryptCommand::Private::slotRecipientsResolved: %1 इत्यस्मिन् अप्रत्याशित "
 "अपवादः गृहीतः"
@@ -11138,10 +11176,11 @@ msgstr ""
 #: src/uiserver/prepencryptcommand.cpp:123
 #, kde-format
 msgid ""
-"Caught unknown exception in "
-"PrepEncryptCommand::Private::slotRecipientsResolved"
+"Caught unknown exception in PrepEncryptCommand::Private::"
+"slotRecipientsResolved"
 msgstr ""
-"PrepEncryptCommand::Private::slotRecipientsResolved इत्यस्मिन् अज्ञात अपवादः गृहीतः"
+"PrepEncryptCommand::Private::slotRecipientsResolved इत्यस्मिन् अज्ञात अपवादः "
+"गृहीतः"
 
 #: src/uiserver/prepsigncommand.cpp:67
 #, kde-format
@@ -11151,7 +11190,8 @@ msgstr "INPUT/OUTPUT/MESSAGE केवलं PREP_SIGN इत्यस्य अ
 #: src/uiserver/prepsigncommand.cpp:70
 #, kde-format
 msgid ""
-"PREP_SIGN is an email mode command, connection seems to be in filemanager mode"
+"PREP_SIGN is an email mode command, connection seems to be in filemanager "
+"mode"
 msgstr "PREP_SIGN एकः ईमेल मोड आदेशः अस्ति, संयोजनं सञ्चिकाप्रबन्धकविधाने अस्ति इति भासते"
 
 #: src/uiserver/prepsigncommand.cpp:73
@@ -11170,11 +11210,11 @@ msgstr ""
 #: src/uiserver/prepsigncommand.cpp:151
 #, kde-format
 msgid ""
-"Caught unexpected exception in "
-"PrepSignCommand::Private::slotRecipientsResolved: %1"
+"Caught unexpected exception in PrepSignCommand::Private::"
+"slotRecipientsResolved: %1"
 msgstr ""
-"PrepSignCommand::Private::slotRecipientsResolved: %1 इत्यस्मिन् अप्रत्याशित अपवादः "
-"गृहीतः"
+"PrepSignCommand::Private::slotRecipientsResolved: %1 इत्यस्मिन् अप्रत्याशित "
+"अपवादः गृहीतः"
 
 #: src/uiserver/prepsigncommand.cpp:153
 #, kde-format
@@ -11186,8 +11226,8 @@ msgstr ""
 #: src/uiserver/selectcertificatecommand.cpp:176
 #, kde-format
 msgid ""
-"Caught unexpected exception in "
-"SelectCertificateCommand::Private::slotDialogAccepted: %1"
+"Caught unexpected exception in SelectCertificateCommand::Private::"
+"slotDialogAccepted: %1"
 msgstr ""
 "SelectCertificateCommand::Private::slotDialogAccepted: %1 इत्यस्मिन् अप्रत्याशितम् "
 "अपवादः गृहीतः"
@@ -11195,8 +11235,8 @@ msgstr ""
 #: src/uiserver/selectcertificatecommand.cpp:178
 #, kde-format
 msgid ""
-"Caught unknown exception in "
-"SelectCertificateCommand::Private::slotDialogAccepted"
+"Caught unknown exception in SelectCertificateCommand::Private::"
+"slotDialogAccepted"
 msgstr ""
 "SelectCertificateCommand::Private::slotDialogAccepted इत्यस्मिन् अज्ञात अपवादः "
 "गृहीतः"
@@ -11233,8 +11273,10 @@ msgstr ""
 
 #: src/uiserver/signcommand.cpp:175
 #, kde-format
-msgid "Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
-msgstr "SignCommand::Private::slotRecipientsResolved इत्यस्मिन् अज्ञात अपवादः गृहीतः"
+msgid ""
+"Caught unknown exception in SignCommand::Private::slotRecipientsResolved"
+msgstr ""
+"SignCommand::Private::slotRecipientsResolved इत्यस्मिन् अज्ञात अपवादः गृहीतः"
 
 #: src/uiserver/signencryptfilescommand.cpp:65
 #: src/uiserver/signencryptfilescommand.cpp:71
@@ -11908,7 +11950,7 @@ msgstr "आन्तरिकनिर्देशिकायां प्र�
 msgid "Search for certificates on %1"
 msgstr "%1 इत्यत्र प्रमाणपत्राणि अन्वेष्टुम्"
 
-#: src/view/keylistcontroller.cpp:403 src/view/welcomewidget.cpp:137
+#: src/view/keylistcontroller.cpp:403 src/view/welcomewidget.cpp:179
 #, kde-format
 msgid "Import..."
 msgstr "आयात..."
@@ -12099,8 +12141,8 @@ msgid ""
 "with or to encrypt for. They are not shown in the certificate list with most "
 "filters."
 msgstr ""
-"हस्ताक्षरं कर्तुं वा गोपनार्थं वा प्रमाणपत्रं चयनं कुर्वन् अक्षमप्रमाणपत्राणि न प्रदत्तानि सन्ति । "
-"ते अधिकांश-छिद्रैः सह प्रमाणपत्र-सूचौ न दर्शिताः ।"
+"हस्ताक्षरं कर्तुं वा गोपनार्थं वा प्रमाणपत्रं चयनं कुर्वन् अक्षमप्रमाणपत्राणि न प्रदत्तानि सन्ति "
+"। ते अधिकांश-छिद्रैः सह प्रमाणपत्र-सूचौ न दर्शिताः ।"
 
 #: src/view/keylistcontroller.cpp:631
 #, kde-format
@@ -12297,9 +12339,9 @@ msgid ""
 "certificates.<br/><br/>Certification is required to make sure that the "
 "certificates actually belong to the identity they claim to belong to."
 msgstr ""
-"केचन प्रमाणपत्राणि अद्यापि प्रमाणीकृतानि न सन्ति। एतेषां प्रमाणपत्राणां सूचीं द्रष्टुं अत्र क्लिक् "
-"कुर्वन्तु ।<br/><br/> प्रमाणपत्राणि वस्तुतः तस्य परिचयस्य सन्ति इति सुनिश्चित्य प्रमाणीकरणस्य "
-"आवश्यकता भवति यस्याः सन्ति इति दावान् कुर्वन्ति ।"
+"केचन प्रमाणपत्राणि अद्यापि प्रमाणीकृतानि न सन्ति। एतेषां प्रमाणपत्राणां सूचीं द्रष्टुं अत्र "
+"क्लिक् कुर्वन्तु ।<br/><br/> प्रमाणपत्राणि वस्तुतः तस्य परिचयस्य सन्ति इति सुनिश्चित्य "
+"प्रमाणीकरणस्य आवश्यकता भवति यस्याः सन्ति इति दावान् कुर्वन्ति ।"
 
 #: src/view/searchbar.cpp:207
 #, kde-format
@@ -12360,16 +12402,17 @@ msgctxt "@info:tooltip"
 msgid ""
 "<para>Generate three new keys on the smart card and create a new OpenPGP "
 "certificate with those keys. Optionally, the encryption key is generated off-"
-"card and a backup is created so that you can still access data encrypted with "
-"this key in case the card is lost or damaged.</para><para><emphasis "
+"card and a backup is created so that you can still access data encrypted "
+"with this key in case the card is lost or damaged.</para><para><emphasis "
 "strong='true'>Existing keys on the smart card will be overwritten.</"
 "emphasis></para>"
 msgstr ""
-"<para>स्मार्टकार्ड् मध्ये त्रीणि नूतनानि कीलानि जनयन्तु तथा च ताभिः कीलैः सह नूतनं OpenPGP "
-"प्रमाणपत्रं रचयन्तु । वैकल्पिकरूपेण, एन्क्रिप्शन-कुंजी कार्डात् बहिः उत्पद्यते तथा च बैकअपः "
-"निर्मितः भवति येन कार्डस्य नष्टं वा क्षतिग्रस्तं वा सन्दर्भे भवान् अद्यापि एतया कुञ्जिकायाः सह "
-"एन्क्रिप्टेड्-दत्तांशं प्राप्तुं शक्नोति ।</para><para><emphasis strong='true'> स्मार्टकार्ड् "
-"मध्ये विद्यमानाः कीलानि अधिलिखितानि भविष्यन्ति।</emphasis></para>"
+"<para>स्मार्टकार्ड् मध्ये त्रीणि नूतनानि कीलानि जनयन्तु तथा च ताभिः कीलैः सह नूतनं "
+"OpenPGP प्रमाणपत्रं रचयन्तु । वैकल्पिकरूपेण, एन्क्रिप्शन-कुंजी कार्डात् बहिः उत्पद्यते तथा च "
+"बैकअपः निर्मितः भवति येन कार्डस्य नष्टं वा क्षतिग्रस्तं वा सन्दर्भे भवान् अद्यापि एतया "
+"कुञ्जिकायाः सह एन्क्रिप्टेड्-दत्तांशं प्राप्तुं शक्नोति ।</para><para><emphasis "
+"strong='true'> स्मार्टकार्ड् मध्ये विद्यमानाः कीलानि अधिलिखितानि भविष्यन्ति।</"
+"emphasis></para>"
 
 #: src/view/smartcardactions.cpp:62 src/view/smartcardactions.cpp:86
 #, kde-format
@@ -12452,8 +12495,8 @@ msgid ""
 "Change the URL where the public key for the keys on this smartcard can be "
 "downloaded."
 msgstr ""
-"अस्मिन् स्मार्टकार्ड् मध्ये कुञ्जीनां सार्वजनिककुंजी यत्र डाउनलोड् कर्तुं शक्यते तत्र URL परिवर्तयन्तु "
-"।"
+"अस्मिन् स्मार्टकार्ड् मध्ये कुञ्जीनां सार्वजनिककुंजी यत्र डाउनलोड् कर्तुं शक्यते तत्र URL "
+"परिवर्तयन्तु ।"
 
 #: src/view/smartcardactions.cpp:87
 #, kde-format
@@ -12903,35 +12946,40 @@ msgstr "सर्वं विस्तारयतु"
 msgid "Collapse All"
 msgstr "ध्वस्तं कुर्वन्तु सर्वे"
 
-#: src/view/welcomewidget.cpp:115
+#: src/view/welcomewidget.cpp:126
 #, kde-format
 msgctxt "%1 is version"
 msgid "Welcome to Kleopatra %1"
 msgstr "क्लियोपेट्रा %1 इत्यत्र स्वागतम्"
 
-#: src/view/welcomewidget.cpp:116
+#: src/view/welcomewidget.cpp:127
 #, kde-format
 msgid ""
-"Kleopatra is a front-end for the crypto software <a href=\"https://"
-"gnupg.org\">GnuPG</a>."
+"Kleopatra is a front-end for the crypto software <a href=\"https://gnupg.org"
+"\">GnuPG</a>."
 msgstr ""
 "क्लियोपात्रा क्रिप्टो सॉफ्टवेयर <a href=\"https://gnupg.org\">GnuPG</a> इत्यस्य "
 "अग्रभागः अस्ति ।"
 
-#: src/view/welcomewidget.cpp:118
-#, kde-format
+#: src/view/welcomewidget.cpp:129
+#, fuzzy, kde-format
+#| msgid ""
+#| "For most actions you need either a public key (certificate) or your own "
+#| "private key."
 msgid ""
 "For most actions you need either a public key (certificate) or your own "
-"private key."
+"secret key."
 msgstr ""
-"अधिकांशक्रियाणां कृते भवद्भ्यः सार्वजनिककुंजी (प्रमाणपत्रम्) अथवा स्वस्य निजकुंजी आवश्यकी भवति ।"
+"अधिकांशक्रियाणां कृते भवद्भ्यः सार्वजनिककुंजी (प्रमाणपत्रम्) अथवा स्वस्य निजकुंजी आवश्यकी भवति "
+"।"
 
-#: src/view/welcomewidget.cpp:120
-#, kde-format
-msgid "The private key is needed to decrypt or sign."
+#: src/view/welcomewidget.cpp:131
+#, fuzzy, kde-format
+#| msgid "The private key is needed to decrypt or sign."
+msgid "The secret key is needed to decrypt or sign."
 msgstr "विगुप्तीकरणाय वा हस्ताक्षराय वा निजकुंजी आवश्यकी भवति ।"
 
-#: src/view/welcomewidget.cpp:121
+#: src/view/welcomewidget.cpp:132
 #, kde-format
 msgid ""
 "The public key can be used by others to verify your identity or encrypt to "
@@ -12939,26 +12987,59 @@ msgid ""
 msgstr ""
 "सार्वजनिककुंजी अन्यैः भवतः परिचयस्य सत्यापनार्थं वा भवतः कृते गोपनार्थं वा उपयोक्तुं शक्यते ।"
 
-#: src/view/welcomewidget.cpp:124
+#: src/view/welcomewidget.cpp:135
 #, kde-format
 msgctxt ""
-"More info about public key cryptography, please link to your local version of "
-"Wikipedia"
+"More info about public key cryptography, please link to your local version "
+"of Wikipedia"
 msgid "https://en.wikipedia.org/wiki/Public-key_cryptography"
 msgstr "https://en.wikipedia.org/wiki/सार्वजनिक-कुंजी_गुप्तलेखन"
 
-#: src/view/welcomewidget.cpp:125
-#, kde-format
-msgctxt "%1 is link a wiki article"
+#: src/view/welcomewidget.cpp:136
+#, fuzzy, kde-format
+#| msgctxt "%1 is link a wiki article"
+#| msgid "You can learn more about this on <a href=\"%1\">Wikipedia</a>."
+msgctxt "%1 is a link to a wiki article"
 msgid "You can learn more about this on <a href=\"%1\">Wikipedia</a>."
 msgstr "अस्य विषये अधिकं ज्ञातुं शक्नुवन्ति <a href=\"%1\">विकिपीडिया</a> ."
 
-#: src/view/welcomewidget.cpp:133
+#: src/view/welcomewidget.cpp:144
+#, kde-format
+msgctxt "@info"
+msgid ""
+"With Kleopatra you can encrypt using different methods. Please follow the "
+"regulations for classified information of your organization."
+msgstr ""
+
+#: src/view/welcomewidget.cpp:145
+#, kde-format
+msgctxt "@info"
+msgid ""
+"For password based encryption see this <a href=\"action:help_doc_symenc"
+"\">guide</a>."
+msgstr ""
+
+#: src/view/welcomewidget.cpp:146
+#, kde-format
+msgctxt "@info"
+msgid ""
+"For public key encryption you generally have to create your own key pair."
+msgstr ""
+
+#: src/view/welcomewidget.cpp:148
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You can find step-by-step instructions for public key encryption in this <a "
+"href=\"action:help_doc_quickguide\">guide</a>."
+msgstr ""
+
+#: src/view/welcomewidget.cpp:175
 #, kde-format
 msgid "New Key Pair..."
 msgstr "नवीन की युग्म..."
 
-#: src/view/welcomewidget.cpp:152
+#: src/view/welcomewidget.cpp:194
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -12969,7 +13050,7 @@ msgstr ""
 "नूतनं OpenPGP कीलयुग्मं रचयन्तु।<nl/>S/MIME प्रमाणपत्रानुरोधं निर्मातुं तस्य स्थाने "
 "<interface>New S/MIME प्रमाणीकरणानुरोधः</interface> इत्यस्य उपयोगं कुर्वन्तु ।"
 
-#: src/view/welcomewidget.cpp:167
+#: src/view/welcomewidget.cpp:209
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
