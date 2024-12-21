@@ -49,10 +49,8 @@ msgid ""
 "You can specify multiple hosts for redundancy (use commas or spaces as "
 "delimiters)."
 msgstr ""
-"दूरस्थद्वार(द्वाराः), वैकल्पिक-पोर्ट्-प्रोटोकॉल-सहितं (उदा. ovpn.corp.com:1234"
-":tcp) ।\n"
-"अतिरेकस्य कृते भवान् बहुविधं होस्ट् निर्दिष्टुं शक्नोति (अल्पविरामस्य अथवा रिक"
-"्तस्थानस्य उपयोगं "
+"दूरस्थद्वार(द्वाराः), वैकल्पिक-पोर्ट्-प्रोटोकॉल-सहितं (उदा. ovpn.corp.com:1234:tcp) ।\n"
+"अतिरेकस्य कृते भवान् बहुविधं होस्ट् निर्दिष्टुं शक्नोति (अल्पविरामस्य अथवा रिक्तस्थानस्य उपयोगं "
 "परिसीमकरूपेण) ।"
 
 #. i18n: ectx: property (text), widget (QLabel, labelConnectionType)
@@ -122,8 +120,7 @@ msgid ""
 "Local peer's signed certificate in .pem format (signed by CA of CA "
 "Certificate)."
 msgstr ""
-"स्थानीयसमवयस्कस्य हस्ताक्षरितं प्रमाणपत्रं .pem प्रारूपेण (CA प्रमाणपत्रस्य CA"
-" द्वारा "
+"स्थानीयसमवयस्कस्य हस्ताक्षरितं प्रमाणपत्रं .pem प्रारूपेण (CA प्रमाणपत्रस्य CA द्वारा "
 "हस्ताक्षरितम्) ।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
@@ -185,8 +182,7 @@ msgstr "Static Key एन्क्रिप्शन मोड (non-TLS) कृ�
 msgid ""
 "If key direction is used, it must be the opposite of that used on the VPN "
 "peer."
-msgstr ""
-"यदि कीलदिशा उपयुज्यते तर्हि VPN समकक्षे प्रयुक्तस्य विपरीतम् एव भवितुमर्हति ।"
+msgstr "यदि कीलदिशा उपयुज्यते तर्हि VPN समकक्षे प्रयुक्तस्य विपरीतम् एव भवितुमर्हति ।"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbKeyDirection)
 #: openvpn.ui:262
@@ -239,12 +235,9 @@ msgid ""
 "peer. For example, if the peer uses '1', this connection must use '0'. If "
 "you are unsure what value to use, contact your system administrator."
 msgstr ""
-"यदि कीलदिशा उपयुज्यते तर्हि VPN समकक्षे प्रयुक्तस्य विपरीतम् एव भवितुमर्हति । "
-"यथा, यदि "
-"समवयस्कः '1' इत्यस्य उपयोगं करोति तर्हि एतत् संयोजनं '0' इत्यस्य उपयोगं अवश्यं"
-" करोति । "
-"यदि भवान् अनिश्चितः अस्ति यत् किं मूल्यं उपयोक्तव्यं तर्हि स्वस्य प्रणालीप्रशा"
-"सकेन सह सम्पर्कं "
+"यदि कीलदिशा उपयुज्यते तर्हि VPN समकक्षे प्रयुक्तस्य विपरीतम् एव भवितुमर्हति । यथा, यदि "
+"समवयस्कः '1' इत्यस्य उपयोगं करोति तर्हि एतत् संयोजनं '0' इत्यस्य उपयोगं अवश्यं करोति । "
+"यदि भवान् अनिश्चितः अस्ति यत् किं मूल्यं उपयोक्तव्यं तर्हि स्वस्य प्रणालीप्रशासकेन सह सम्पर्कं "
 "कुर्वन्तु ।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel9)
@@ -297,8 +290,7 @@ msgid ""
 "TCP/UDP port number for peer. (Default value when there is no port for "
 "gateway)."
 msgstr ""
-"समवयस्कस्य कृते TCP/UDP पोर्ट् सङ्ख्या । (पूर्वनिर्धारितं मूल्यं यदा द्वारस्य "
-"कृते पोर्ट् नास्ति)।"
+"समवयस्कस्य कृते TCP/UDP पोर्ट् सङ्ख्या । (पूर्वनिर्धारितं मूल्यं यदा द्वारस्य कृते पोर्ट् नास्ति)।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCustomPort)
 #: openvpnadvanced.ui:39
@@ -320,9 +312,7 @@ msgstr "स्वतः"
 #: openvpnadvanced.ui:72 openvpnadvanced.ui:85
 #, kde-format
 msgid "Renegotiate data channel key after the specified number of seconds."
-msgstr ""
-"निर्दिष्टस्य सेकण्ड्-सङ्ख्यायाः अनन्तरं दत्तांशचैनल-कुंजी पुनः वार्तालापं कुर्"
-"वन्तु ।"
+msgstr "निर्दिष्टस्य सेकण्ड्-सङ्ख्यायाः अनन्तरं दत्तांशचैनल-कुंजी पुनः वार्तालापं कुर्वन्तु ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseCustomReneg)
 #: openvpnadvanced.ui:75
@@ -425,8 +415,7 @@ msgid ""
 "Use custom name for TUN/TAP virtual device (instead of default \"tun\" or "
 "\"tap\")."
 msgstr ""
-"TUN/TAP आभासीयन्त्रस्य कृते इष्टनामस्य उपयोगं कुर्वन्तु (पूर्वनिर्धारित \"tun"
-"\" अथवा \"tap"
+"TUN/TAP आभासीयन्त्रस्य कृते इष्टनामस्य उपयोगं कुर्वन्तु (पूर्वनिर्धारित \"tun\" अथवा \"tap"
 "\" इत्यस्य स्थाने) ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseVirtualDeviceName)
@@ -442,9 +431,7 @@ msgstr "आभासीयन्त्रस्य नाम सेट् कु
 msgid ""
 "Take the TUN device MTU to be specified value and derive the link MTU from "
 "it."
-msgstr ""
-"निर्दिष्टमूल्यं भवितुं TUN उपकरणं MTU गृहीत्वा तस्मात् लिङ्क् MTU व्युत्पादयन्"
-"तु ।"
+msgstr "निर्दिष्टमूल्यं भवितुं TUN उपकरणं MTU गृहीत्वा तस्मात् लिङ्क् MTU व्युत्पादयन्तु ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkMtu)
 #: openvpnadvanced.ui:230
@@ -484,8 +471,7 @@ msgid ""
 "Randomize the order of gateways list (remote) as a kind of basic load-\n"
 "balancing measure."
 msgstr ""
-"एकप्रकारस्य मूलभूतभाररूपेण द्वारसूचिकायाः (दूरस्थस्य) क्रमं यादृच्छिकं कुर्वन्"
-"तु-\n"
+"एकप्रकारस्य मूलभूतभाररूपेण द्वारसूचिकायाः (दूरस्थस्य) क्रमं यादृच्छिकं कुर्वन्तु-\n"
 "संतुलनमापः ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRandRemHosts)
@@ -514,8 +500,7 @@ msgid ""
 "Ping remote over the TCP/UDP control channel if no packets have been sent "
 "for at least n seconds."
 msgstr ""
-"यदि न्यूनातिन्यूनं n सेकण्ड् यावत् कोऽपि पैकेट् न प्रेषितः अस्ति तर्हि TCP/UDP"
-" नियन्त्रणचैनलस्य "
+"यदि न्यूनातिन्यूनं n सेकण्ड् यावत् कोऽपि पैकेट् न प्रेषितः अस्ति तर्हि TCP/UDP नियन्त्रणचैनलस्य "
 "उपरि दूरस्थं पिंगं कुर्वन्तु ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPingInterval)
@@ -533,8 +518,7 @@ msgid ""
 "Exit or restart after n seconds pass without reception of a ping or other "
 "packet from remote."
 msgstr ""
-"दूरस्थतः ping अथवा अन्यस्य पैकेटस्य स्वागतं विना n सेकण्ड् व्यतीतस्य अनन्तरं न"
-"िर्गमनं वा पुनः "
+"दूरस्थतः ping अथवा अन्यस्य पैकेटस्य स्वागतं विना n सेकण्ड् व्यतीतस्य अनन्तरं निर्गमनं वा पुनः "
 "आरम्भं वा कुर्वन्तु ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSpecifyExitRestartPing)
@@ -577,23 +561,17 @@ msgid ""
 "address,\n"
 "not only the address which was specified in the --remote option."
 msgstr ""
-"दूरस्थं समवयस्कं स्वस्य IP-सङ्केतं तथा/वा पोर्ट्-सङ्ख्यां परिवर्तयितुं अनुमन्य"
-"ताम् यथा कारणम्\n"
-"DHCP (यदि --remote इत्यस्य उपयोगः न भवति तर्हि एतत् पूर्वनिर्धारितम् अस्ति) । "
-"--float "
+"दूरस्थं समवयस्कं स्वस्य IP-सङ्केतं तथा/वा पोर्ट्-सङ्ख्यां परिवर्तयितुं अनुमन्यताम् यथा कारणम्\n"
+"DHCP (यदि --remote इत्यस्य उपयोगः न भवति तर्हि एतत् पूर्वनिर्धारितम् अस्ति) । --float "
 "यदा --remote इत्यनेन सह निर्दिष्टं भवति\n"
 "OpenVPN सत्रं प्रारम्भे ज्ञातपतेः सहचरेन सह सम्बद्धं कर्तुं शक्नोति,\n"
-"तथापि यदि पैकेट् नूतनपतेः आगत्य सर्वाणि प्रमाणीकरणपरीक्षाणि उत्तीर्णं कुर्वन्त"
-"ि तर्हि...\n"
-"नूतनं पता सत्रस्य नियन्त्रणं करिष्यति। यदा भवन्तः संयोजयन्ति तदा एतत् उपयोगी भ"
-"वति\n"
-"एकं समवयस्कं प्रति यत् डायल-इन-उपयोक्ता अथवा DHCP-क्लायन्ट् इत्यादिं गतिशील-सङ"
-"्केतं धारयति "
+"तथापि यदि पैकेट् नूतनपतेः आगत्य सर्वाणि प्रमाणीकरणपरीक्षाणि उत्तीर्णं कुर्वन्ति तर्हि...\n"
+"नूतनं पता सत्रस्य नियन्त्रणं करिष्यति। यदा भवन्तः संयोजयन्ति तदा एतत् उपयोगी भवति\n"
+"एकं समवयस्कं प्रति यत् डायल-इन-उपयोक्ता अथवा DHCP-क्लायन्ट् इत्यादिं गतिशील-सङ्केतं धारयति "
 "।\n"
 "\n"
 "\n"
-"अनिवार्यतया, --float OpenVPN इत्यस्मै कस्मात् अपि पतातः प्रमाणीकृतपैकेट् स्वीक"
-"ुर्वन्तु इति "
+"अनिवार्यतया, --float OpenVPN इत्यस्मै कस्मात् अपि पतातः प्रमाणीकृतपैकेट् स्वीकुर्वन्तु इति "
 "वदति,\n"
 "न केवलं तत् पता यत् --remote विकल्पे निर्दिष्टम् आसीत् ।"
 
@@ -631,8 +609,7 @@ msgid ""
 "Cipher\n"
 "Block Chaining mode)."
 msgstr ""
-"सिफर एल्गोरिदम् इत्यनेन पैकेट् एन्क्रिप्ट् कुर्वन्तु । पूर्वनिर्धारितं BF-CBC "
-"(Cipher मध्ये "
+"सिफर एल्गोरिदम् इत्यनेन पैकेट् एन्क्रिप्ट् कुर्वन्तु । पूर्वनिर्धारितं BF-CBC (Cipher मध्ये "
 "Blowfish) अस्ति\n"
 "Block Chaining मोड)।"
 
@@ -656,8 +633,7 @@ msgid ""
 "Set cipher key size to a custom value. If unspecified, it defaults to cipher-"
 "specific size."
 msgstr ""
-"सिफर कील आकारं कस्टम् मूल्ये सेट् कुर्वन्तु । यदि अनिर्दिष्टं तर्हि पूर्वनिर्ध"
-"ारितं सिफर-विशिष्टं "
+"सिफर कील आकारं कस्टम् मूल्ये सेट् कुर्वन्तु । यदि अनिर्दिष्टं तर्हि पूर्वनिर्धारितं सिफर-विशिष्टं "
 "आकारं भवति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkUseCustomCipherKey)
@@ -674,8 +650,7 @@ msgid ""
 "Authenticate packets with HMAC using message digest algorithm. The default "
 "is SHA1."
 msgstr ""
-"message digest algorithm इत्यस्य उपयोगेन HMAC इत्यनेन सह पैकेट् प्रमाणीकरणं कु"
-"र्वन्तु । "
+"message digest algorithm इत्यस्य उपयोगेन HMAC इत्यनेन सह पैकेट् प्रमाणीकरणं कुर्वन्तु । "
 "पूर्वनिर्धारितं SHA1 अस्ति ।"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -831,8 +806,7 @@ msgid ""
 "Connect only to servers whose certificate matches the given subject. "
 "Example: /CN=myvpn.company.com"
 msgstr ""
-"केवलं तेषु सर्वरेषु सम्बद्धं कुर्वन्तु येषां प्रमाणपत्रं दत्तविषयेण सह मेलति ।"
-" उदाहरणम् : /CN=myvpn."
+"केवलं तेषु सर्वरेषु सम्बद्धं कुर्वन्तु येषां प्रमाणपत्रं दत्तविषयेण सह मेलति । उदाहरणम् : /CN=myvpn."
 "company.com"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkRemoteCertTls)
@@ -845,8 +819,7 @@ msgid ""
 "extended\n"
 "key usage based on RFC3280 TLS rules."
 msgstr ""
-"अपेक्षितं यत् सहकर्मी प्रमाणपत्रं स्पष्टकुंजीप्रयोगेन सह हस्ताक्षरितं विस्तारि"
-"तं च आसीत्\n"
+"अपेक्षितं यत् सहकर्मी प्रमाणपत्रं स्पष्टकुंजीप्रयोगेन सह हस्ताक्षरितं विस्तारितं च आसीत्\n"
 "RFC3280 TLS नियमानाम् आधारेण कुञ्जीप्रयोगः ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkRemoteCertTls)
@@ -883,9 +856,7 @@ msgstr "ग्राहिका"
 msgid ""
 "Require that peer certificate was signed with an explicit nsCertType "
 "designation."
-msgstr ""
-"अपेक्षितं यत् सहकर्मी प्रमाणपत्रं स्पष्टेन nsCertType पदनामेन सह हस्ताक्षरितम्"
-" आसीत् ।"
+msgstr "अपेक्षितं यत् सहकर्मी प्रमाणपत्रं स्पष्टेन nsCertType पदनामेन सह हस्ताक्षरितम् आसीत् ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkNsCertType)
 #: openvpnadvanced.ui:809
@@ -1010,8 +981,7 @@ msgid ""
 "Select this option if your organization requires the use of a proxy server "
 "to access the Internet."
 msgstr ""
-"यदि भवतः संस्थायाः अन्तर्जालं प्राप्तुं प्रॉक्सी सर्वरस्य उपयोगः आवश्यकः अस्ति"
-" तर्हि एतत् "
+"यदि भवतः संस्थायाः अन्तर्जालं प्राप्तुं प्रॉक्सी सर्वरस्य उपयोगः आवश्यकः अस्ति तर्हि एतत् "
 "विकल्पं चिनोतु ।"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_12)
@@ -1032,9 +1002,7 @@ msgstr "सर्वर पता :"
 #: openvpnadvanced.ui:1083 openvpnadvanced.ui:1102
 #, kde-format
 msgid "Connect to remote host through a proxy with this port."
-msgstr ""
-"एतेन पोर्ट् इत्यनेन सह प्रॉक्सी इत्यस्य माध्यमेन दूरस्थं होस्ट् इत्यनेन सह संय"
-"ोजयन्तु ।"
+msgstr "एतेन पोर्ट् इत्यनेन सह प्रॉक्सी इत्यस्य माध्यमेन दूरस्थं होस्ट् इत्यनेन सह संयोजयन्तु ।"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: openvpnadvanced.ui:1086
@@ -1047,9 +1015,7 @@ msgstr "पोताश्रय:"
 #: openvpnadvanced.ui:1112 openvpnadvanced.ui:1125
 #, kde-format
 msgid "HTTP/SOCKS proxy username passed to OpenVPN when prompted for it."
-msgstr ""
-"HTTP/SOCKS प्रॉक्सी उपयोक्तृनाम OpenVPN कृते पारितं यदा तस्य कृते प्रार्थ्यते "
-"।"
+msgstr "HTTP/SOCKS प्रॉक्सी उपयोक्तृनाम OpenVPN कृते पारितं यदा तस्य कृते प्रार्थ्यते ।"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: openvpnadvanced.ui:1115
@@ -1075,8 +1041,7 @@ msgstr "प्रॉक्सी गुप्तशब्दः :"
 #, kde-format
 msgid "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset."
 msgstr ""
-"प्रॉक्सीदोषेषु अनिश्चितकालं यावत् पुनः प्रयासं कुर्वन्तु। एतत् SIGUSR1 रीसेट् "
-"अनुकरणं करोति ।"
+"प्रॉक्सीदोषेषु अनिश्चितकालं यावत् पुनः प्रयासं कुर्वन्तु। एतत् SIGUSR1 रीसेट् अनुकरणं करोति ।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkProxyRetry)
 #: openvpnadvanced.ui:1165
