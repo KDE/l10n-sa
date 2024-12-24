@@ -3,29 +3,31 @@
 # This file is distributed under the same license as the kate package.
 # Kali <EMAIL@ADDRESS>, 2024.
 #
+# SPDX-FileCopyrightText: 2024 kali <shreekantkalwar@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-17 00:43+0000\n"
-"PO-Revision-Date: 2024-12-13 19:09+0530\n"
-"Last-Translator: Kali <EMAIL@ADDRESS>\n"
-"Language-Team: Sanskrit\n"
+"PO-Revision-Date: 2024-12-24 20:39+0530\n"
+"Last-Translator: kali <shreekantkalwar@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "भवतः नामानि"
+msgstr "श्रीकान्त् कलवार्"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "भवतः ईमेलपत्राणि"
+msgstr "skkalwar999@gmail.com"
 
 #. i18n: ectx: attribute (title), widget (QWidget, errs)
 #: build.ui:36
@@ -118,7 +120,8 @@ msgstr "वर्तमान सञ्चिकायाः संकलनं 
 #: plugin_katebuild.cpp:299
 #, kde-format
 msgid "Try to compile the current file by searching a compile_commands.json"
-msgstr "compile_commands.json इत्येतत् अन्वेष्य वर्तमानसञ्चिकां संकलितुं प्रयतध्वम्"
+msgstr ""
+"compile_commands.json इत्येतत् अन्वेष्य वर्तमानसञ्चिकां संकलितुं प्रयतध्वम्"
 
 #: plugin_katebuild.cpp:304
 #, kde-format
@@ -171,7 +174,9 @@ msgstr "निर्माणार्थं सञ्चिका निर्�
 #, kde-format
 msgid ""
 "The file \"%1\" is not a local file. Non-local files cannot be compiled."
-msgstr "\"%1\" इति सञ्चिका स्थानीयसञ्चिका नास्ति । अस्थानीयसञ्चिकाः संकलितुं न शक्यन्ते ।"
+msgstr ""
+"\"%1\" इति सञ्चिका स्थानीयसञ्चिका नास्ति । अस्थानीयसञ्चिकाः संकलितुं न शक्यन्त"
+"े ।"
 
 #: plugin_katebuild.cpp:792
 #, kde-format
@@ -184,7 +189,8 @@ msgid ""
 "The configured working directory <b>%1</b> for the targetset <b>%2</b> does "
 "not exist.<br><br>Create the directory?"
 msgstr ""
-"लक्ष्यसमूहस्य <b>%2</b> विन्यस्तं कार्यनिर्देशिका <b>%1</b> नास्ति ।<br><br> निर्देशिकां "
+"लक्ष्यसमूहस्य <b>%2</b> विन्यस्तं कार्यनिर्देशिका <b>%1</b> नास्ति ।<br><br> न"
+"िर्देशिकां "
 "रचयन्तु ?"
 
 #: plugin_katebuild.cpp:803
@@ -238,12 +244,14 @@ msgid ""
 "Cannot load targets, the file %1 does not contain a proper CMAKE_COMMAND "
 "entry !"
 msgstr ""
-"लक्ष्याणि लोड् कर्तुं न शक्यते, %1 सञ्चिकायां सम्यक् CMAKE_COMMAND प्रविष्टिः नास्ति !"
+"लक्ष्याणि लोड् कर्तुं न शक्यते, %1 सञ्चिकायां सम्यक् CMAKE_COMMAND प्रविष्टिः "
+"नास्ति !"
 
 #: plugin_katebuild.cpp:1148
 #, kde-format
 msgid "Could not write CMake File API query files for build directory %1 !"
-msgstr "%1 निर्माणनिर्देशिकायाः कृते CMake File API प्रश्नसञ्चिकाः लिखितुं न शक्तम् !"
+msgstr ""
+"%1 निर्माणनिर्देशिकायाः कृते CMake File API प्रश्नसञ्चिकाः लिखितुं न शक्तम् !"
 
 #: plugin_katebuild.cpp:1154
 #, kde-format
@@ -256,7 +264,8 @@ msgid ""
 "Generating CMake File API reply files for build directory %1 failed (using "
 "%2) !"
 msgstr ""
-"%1 निर्माणनिर्देशिकायाः कृते CMake File API उत्तरसञ्चिकानां जननं विफलम् (%2 इत्यस्य "
+"%1 निर्माणनिर्देशिकायाः कृते CMake File API उत्तरसञ्चिकानां जननं विफलम् (%2 इत"
+"्यस्य "
 "उपयोगेन) !"
 
 #: plugin_katebuild.cpp:1282
@@ -272,9 +281,12 @@ msgid ""
 "b><br><br>Proceed and allow to run this command ?<br><br>The choice can be "
 "altered via the config page of the plugin."
 msgstr ""
-"Kate build plugin इत्यस्य build tree तः लक्ष्याणि पठितुं बाह्य आदेशं निष्पादयितुं आवश्यकम् "
-"अस्ति ।<br><br> पूर्णा आदेशपङ्क्तिः अस्ति : १.<br><br> <b>%1</b><br><br> अग्रे गत्वा "
-"एतत् आदेशं चालयितुं अनुमन्यताम् ?<br><br> प्लगिन् इत्यस्य config पृष्ठद्वारा विकल्पं "
+"Kate build plugin इत्यस्य build tree तः लक्ष्याणि पठितुं बाह्य आदेशं निष्पादयि"
+"तुं आवश्यकम् "
+"अस्ति ।<br><br> पूर्णा आदेशपङ्क्तिः अस्ति : १.<br><br> <b>%1</b><br><br> अग्रे"
+" गत्वा "
+"एतत् आदेशं चालयितुं अनुमन्यताम् ?<br><br> प्लगिन् इत्यस्य config पृष्ठद्वारा व"
+"िकल्पं "
 "परिवर्तयितुं शक्यते ।"
 
 #: plugin_katebuild.cpp:1317
@@ -286,7 +298,8 @@ msgstr "<title>परिणामान् कुरुत : १.</title><nl/> %
 #: plugin_katebuild.cpp:1353
 #, kde-format
 msgid "Build <b>%1</b> completed. %2 error(s), %3 warning(s), %4 note(s)"
-msgstr "<b>%1</b> निर्माणं सम्पन्नम् । %2 त्रुटि(s), %3 चेतावनी(s), %4 टिप्पणी(s)"
+msgstr ""
+"<b>%1</b> निर्माणं सम्पन्नम् । %2 त्रुटि(s), %3 चेतावनी(s), %4 टिप्पणी(s)"
 
 #: plugin_katebuild.cpp:1359
 #, kde-format
@@ -322,7 +335,8 @@ msgstr "निर्माणं समस्यां विना सम्प
 #: plugin_katebuild.cpp:1378
 #, kde-format
 msgid "Build <b>%1 canceled</b>. %2 error(s), %3 warning(s), %4 note(s)"
-msgstr "<b>%1 निर्माणं रद्दं कृतम्</b> . %2 त्रुटि(s), %3 चेतावनी(s), %4 टिप्पणी(s)"
+msgstr ""
+"<b>%1 निर्माणं रद्दं कृतम्</b> . %2 त्रुटि(s), %3 चेतावनी(s), %4 टिप्पणी(s)"
 
 #: plugin_katebuild.cpp:1402
 #, kde-format
@@ -437,7 +451,8 @@ msgstr "Run Command इति"
 #, kde-format
 msgid "Filter targets, use arrow keys to select, Enter to execute"
 msgstr ""
-"लक्ष्याणि फ़िल्टर कुर्वन्तु, चयनार्थं बाणकुंजीनां उपयोगं कुर्वन्तु, निष्पादयितुं Enter कुर्वन्तु"
+"लक्ष्याणि फ़िल्टर कुर्वन्तु, चयनार्थं बाणकुंजीनां उपयोगं कुर्वन्तु, निष्पादयित"
+"ुं Enter कुर्वन्तु"
 
 #: targets.cpp:33
 #, kde-format
