@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: smb4k\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-12-18 00:51+0000\n"
+"POT-Creation-Date: 2024-12-25 00:52+0000\n"
 "PO-Revision-Date: 2024-12-20 22:01+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -2632,7 +2632,17 @@ msgstr "बुकमार्क्स"
 
 #. Tag: para
 #: index.docbook:1082
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "You can add bookmarks to your favorite shares from within the <link "
+#| "linkend=\"network_neighborhood_browser\">network neighborhood browser</"
+#| "link>, the <link linkend=\"shares_view\">shares view</link> and the <link "
+#| "linkend=\"plasmoid\">&plasmoid;</link>. In the main window, this is done "
+#| "by selecting one or more shares and clicking the "
+#| "<menuchoice><guimenuitem>Add Bookmark</guimenuitem></menuchoice> action. "
+#| "In the &plasmoid;, you click the respective bookmark action next to the "
+#| "item's name. A dialog will then pop up where you can add a label and "
+#| "assign the bookmark to a category."
 msgid ""
 "You can add bookmarks to your favorite shares from within the <link linkend="
 "\"network_neighborhood_browser\">network neighborhood browser</link>, the "
@@ -2641,7 +2651,8 @@ msgid ""
 "selecting one or more shares and clicking the <menuchoice><guimenuitem>Add "
 "Bookmark</guimenuitem></menuchoice> action. In the &plasmoid;, you click the "
 "respective bookmark action next to the item's name. A dialog will then pop "
-"up where you can add a label and assign the bookmark to a category."
+"up where you can add a label and assign the bookmark to a category. Double-"
+"click a bookmark to open the input widget."
 msgstr ""
 "भवन्तः स्वस्य प्रियभागेषु बुकमार्कं योजयितुं शक्नुवन्ति<link linkend="
 "\"network_neighborhood_browser\"> network neighborhood ब्राउजर्</link> , "
@@ -2721,8 +2732,9 @@ msgstr "बुकमार्क पॉपअप मेनू"
 
 #. Tag: para
 #: index.docbook:1113
-#, no-c-format
-msgid "There are two static items available in the menu:"
+#, fuzzy, no-c-format
+#| msgid "There are two static items available in the menu:"
+msgid "There are two static items in the menu:"
 msgstr "मेन्यू मध्ये द्वौ स्थिरौ द्रव्यौ उपलभ्यते :"
 
 #. Tag: guimenuitem
@@ -2769,10 +2781,13 @@ msgstr "माउण्ट् बुकमार्क"
 
 #. Tag: para
 #: index.docbook:1145
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Mount all top level bookmarks at once. This entry is disabled if all "
+#| "bookmarked shares are aready mounted."
 msgid ""
 "Mount all top level bookmarks at once. This entry is disabled if all "
-"bookmarked shares are aready mounted."
+"bookmarked shares are already mounted."
 msgstr ""
 "एकदा एव सर्वाणि शीर्षस्तरीयपुस्तकचिह्नानि माउण्ट् कुर्वन्तु। यदि सर्वे बुकमार्ककृताः भागाः "
 "aready mounted भवन्ति तर्हि एषा प्रविष्टिः अक्षमः भवति ।"
@@ -2795,11 +2810,15 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:1151
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The category submenus contain the assigned bookmarks, and in each case a "
+#| "<guimenuitem>Mount Bookmarks</guimenuitem> menu item is also present. It "
+#| "can be used to mount all bookmarks in that category at once."
 msgid ""
-"The category submenus contain the assigned bookmarks, and in each case a "
-"<guimenuitem>Mount Bookmarks</guimenuitem> menu item is also present. It can "
-"be used to mount all bookmarks in that category at once."
+"The category submenus contain the assigned bookmarks as well as a "
+"<guimenuitem>Mount Bookmarks</guimenuitem> menu item. It can be used to "
+"mount all bookmarks in that category at once."
 msgstr ""
 "श्रेणी उपमेनूषु नियुक्तानि पुस्तकचिह्नानि सन्ति, प्रत्येकस्मिन् सन्दर्भे <guimenuitem>Mount "
 "Bookmarks</guimenuitem> मेनू-वस्तु अपि वर्तते । तस्मिन् वर्गे सर्वाणि पुस्तकचिह्नानि एकदा "
@@ -2839,13 +2858,21 @@ msgstr "बुकमार्क सम्पादनम्"
 
 #. Tag: para
 #: index.docbook:1163
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The bookmarks may be edited or removed via the bookmark editor. It can be "
+#| "opened by clicking the <guimenuitem>Edit Bookmarks</guimenuitem> entry in "
+#| "the <guilabel>Bookmarks</guilabel> menu or the <guimenuitem>Edit</"
+#| "guimenuitem> action in the <guilabel>Bookmarks</guilabel> tab of the "
+#| "&plasmoid;."
 msgid ""
-"The bookmarks may be edited or removed via the bookmark editor. It can be "
-"opened by clicking the <guimenuitem>Edit Bookmarks</guimenuitem> entry in "
-"the <guilabel>Bookmarks</guilabel> menu or the <guimenuitem>Edit</"
-"guimenuitem> action in the <guilabel>Bookmarks</guilabel> tab of the "
-"&plasmoid;."
+"The bookmarks may be edited or removed via the bookmark editor or the "
+"<guilabel>Bookmarks</guilabel> page in the <link linkend="
+"\"configuration_page_bookmarks\">configuration dialog</link>. The bookmark "
+"editor can be opened by clicking the <guimenuitem>Edit Bookmarks</"
+"guimenuitem> entry in the <guilabel>Bookmarks</guilabel> menu or the "
+"<guimenuitem>Edit</guimenuitem> action in the <guilabel>Bookmarks</guilabel> "
+"tab of the &plasmoid;."
 msgstr ""
 "पुस्तकचिह्नसम्पादकद्वारा सम्पादनं वा निष्कासनं वा कर्तुं शक्यते । <guilabel>Bookmarks</"
 "guilabel> मेन्यू मध्ये <guimenuitem>Edit Bookmarks</guimenuitem> इति प्रविष्टिं क्लिक् "
