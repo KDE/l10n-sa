@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: tokodon\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-27 00:41+0000\n"
-"PO-Revision-Date: 2024-12-24 20:39+0530\n"
+"PO-Revision-Date: 2024-12-29 22:50+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -25,7 +25,8 @@ msgid ""
 "All supported formats (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.avif "
 "*.webm *.mp4 *.m4v *.mov)"
 msgstr ""
-"सर्वे समर्थिताः प्रारूपाः (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.avif *."
+"सर्वे समर्थिताः प्रारूपाः (*.jpg *.jpeg *.png *.gif *.webp *.heic *.heif *.avi"
+"f *."
 "webm *.mp4 *.m4v *.mov)"
 
 #: account/abstractaccount.cpp:34
@@ -91,7 +92,7 @@ msgstr "सर्वाणि सञ्चिकाः (*) ."
 #: account/abstractaccount.cpp:479
 #, kde-format
 msgid "All supported formats (%1)"
-msgstr ""
+msgstr "सर्वे समर्थिताः प्रारूपाः (%1) ."
 
 #: account/abstractaccount.cpp:629
 #, kde-format
@@ -212,17 +213,17 @@ msgid "Unveil your year's highlights and memorable moments on Mastodon!"
 msgstr "मस्तोडने वर्षस्य प्रमुखक्षणान् स्मरणीयक्षणांश्च प्रकटय।"
 
 #: account/notificationhandler.cpp:149
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "No Notifications"
 msgctxt "@title"
 msgid "New Notification"
-msgstr "सूचनाः नास्ति"
+msgstr "नवीन अधिसूचना"
 
 #: account/notificationhandler.cpp:150
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Receiving push notifications"
 msgid "You received a new notification."
-msgstr "पुश सूचनाः प्राप्य"
+msgstr "भवन्तः नूतनं सूचनां प्राप्तवन्तः।"
 
 #: account/notificationhandler.cpp:158
 #, kde-kuit-format
@@ -232,7 +233,7 @@ msgstr "<b>सामग्रीसूचना</b> : %1"
 #: account/notificationhandler.cpp:162
 #, kde-format
 msgid "This post has no text."
-msgstr ""
+msgstr "अस्य पोस्ट् इत्यस्य पाठः नास्ति।"
 
 #: account/notificationhandler.cpp:169
 #, kde-format
@@ -240,12 +241,14 @@ msgid ""
 "The moderators of your server has limited this user, view this in Tokodon to "
 "see their profile."
 msgstr ""
+"भवतः सर्वरस्य संचालकाः एतत् उपयोक्तारं सीमितवन्तः, तेषां प्रोफाइलं द्रष्टुं To"
+"kodon मध्ये एतत् पश्यन्तु ।"
 
 #: account/notificationhandler.cpp:173
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "This user hasn't posted any media yet."
 msgid "This user doesn't have a description."
-msgstr "अयं उपयोक्ता अद्यापि किमपि माध्यमं न स्थापितवान् ।"
+msgstr "अस्य उपयोक्तुः वर्णनं नास्ति ।"
 
 #: account/profileeditor.cpp:185
 #, kde-format
@@ -266,7 +269,8 @@ msgstr "खाताविवरणं रक्षितम्"
 #, kde-format
 msgid ""
 "This server provided no rules. Please see their website for more information."
-msgstr "अयं सर्वरः कोऽपि नियमः न प्रदत्तवान् । अधिकविवरणार्थं तेषां जालपुटं पश्यन्तु।"
+msgstr ""
+"अयं सर्वरः कोऽपि नियमः न प्रदत्तवान् । अधिकविवरणार्थं तेषां जालपुटं पश्यन्तु।"
 
 #: account/scheduledstatusesmodel.cpp:59
 #, kde-format
@@ -400,7 +404,8 @@ msgid ""
 "Some users need to be manually approved before they can follow you, and will "
 "show up here."
 msgstr ""
-"केचन उपयोक्तारः भवन्तं अनुसरणं कर्तुं शक्नुवन्ति तस्मात् पूर्वं हस्तचलितरूपेण अनुमोदितुं आवश्यकाः "
+"केचन उपयोक्तारः भवन्तं अनुसरणं कर्तुं शक्नुवन्ति तस्मात् पूर्वं हस्तचलितरूपेण "
+"अनुमोदितुं आवश्यकाः "
 "सन्ति, अत्र च दर्शयिष्यन्ति ।"
 
 #: account/socialgraphmodel.cpp:90
@@ -411,24 +416,29 @@ msgstr "उपयोक्तृन् भवतः सूचनासु न �
 #: account/socialgraphmodel.cpp:92
 #, kde-format
 msgid "Block users to hide the user from your timeline entirely."
-msgstr "उपयोक्तारं पूर्णतया स्वस्य समयरेखातः गोपयितुं उपयोक्तृन् अवरुद्धं कुर्वन्तु ।"
+msgstr ""
+"उपयोक्तारं पूर्णतया स्वस्य समयरेखातः गोपयितुं उपयोक्तृन् अवरुद्धं कुर्वन्तु ।"
 
 #: account/socialgraphmodel.cpp:94
 #, kde-format
 msgid "Users you like can be featured and shown on your profile."
-msgstr "भवद्भ्यः रोचमानाः उपयोक्तारः भवतः प्रोफाइलमध्ये दर्शयितुं दर्शयितुं च शक्यन्ते ।"
+msgstr ""
+"भवद्भ्यः रोचमानाः उपयोक्तारः भवतः प्रोफाइलमध्ये दर्शयितुं दर्शयितुं च शक्यन्ते"
+" ।"
 
 #: account/socialgraphmodel.cpp:96
 #, kde-format
 msgid "No one has favorited this post yet. Maybe you'll be the first?"
-msgstr "अद्यापि कश्चन अपि एतत् पदं न पसन्दं कृतवान्। कदाचित् त्वं प्रथमः भविष्यसि ?"
+msgstr ""
+"अद्यापि कश्चन अपि एतत् पदं न पसन्दं कृतवान्। कदाचित् त्वं प्रथमः भविष्यसि ?"
 
 #: account/socialgraphmodel.cpp:98
 #, kde-format
 msgid ""
 "No one has boosted this post yet. You should boost it to expand its reach!"
 msgstr ""
-"अद्यापि कश्चन अपि एतत् पदं न बूस्ट् कृतवान्। तस्य व्याप्तिः विस्तारयितुं भवता तस्य वर्धनं "
+"अद्यापि कश्चन अपि एतत् पदं न बूस्ट् कृतवान्। तस्य व्याप्तिः विस्तारयितुं भवता "
+"तस्य वर्धनं "
 "कर्तव्यम्!"
 
 #: account/socialgraphmodel.cpp:102
@@ -714,7 +724,8 @@ msgstr "रक्षितम्"
 #, kde-format
 msgid ""
 "Write down something about this user, this isn't visible to anyone but you."
-msgstr "अस्य उपयोक्तुः विषये किमपि लिखन्तु, एतत् भवतः अतिरिक्तं कस्मैचित् न दृश्यते।"
+msgstr ""
+"अस्य उपयोक्तुः विषये किमपि लिखन्तु, एतत् भवतः अतिरिक्तं कस्मैचित् न दृश्यते।"
 
 #: content/ui/AccountHeader.qml:698
 #, kde-format
@@ -931,7 +942,8 @@ msgid ""
 "Direct messages to other users will show up here. Do not share any sensitive "
 "information over a conversation."
 msgstr ""
-"अन्येभ्यः उपयोक्तृभ्यः प्रत्यक्षसन्देशाः अत्र दर्शयिष्यन्ति । वार्तालापस्य उपरि किमपि संवेदनशीलं "
+"अन्येभ्यः उपयोक्तृभ्यः प्रत्यक्षसन्देशाः अत्र दर्शयिष्यन्ति । वार्तालापस्य उपर"
+"ि किमपि संवेदनशीलं "
 "सूचनां न साझां कुर्वन्तु।"
 
 #: content/ui/Debug/DebugPage.qml:24
@@ -1129,7 +1141,8 @@ msgid ""
 "With the Following view, easily check on each user you're following and only "
 "their posts - sorted by recent activity."
 msgstr ""
-"Following दृश्येन सह, भवन्तः अनुसृत्य प्रत्येकं उपयोक्तारं सहजतया पश्यन्तु तथा च केवलं तेषां "
+"Following दृश्येन सह, भवन्तः अनुसृत्य प्रत्येकं उपयोक्तारं सहजतया पश्यन्तु तथा"
+" च केवलं तेषां "
 "पोस्ट् - अद्यतनक्रियाकलापेन क्रमबद्धाः।"
 
 #: content/ui/InitialSetup/SetupNotifications.qml:19
@@ -1152,7 +1165,8 @@ msgid ""
 "\n"
 "The types of notifications shown can be fine tuned when logged in."
 msgstr ""
-"Tokodon भवतः पोस्ट्-उत्पादनं वा उत्तरं वा उपयोक्तारः इत्यादीनां क्रियाकलापस्य सूचनाः "
+"Tokodon भवतः पोस्ट्-उत्पादनं वा उत्तरं वा उपयोक्तारः इत्यादीनां क्रियाकलापस्य "
+"सूचनाः "
 "दर्शयितुं शक्नोति ।\n"
 "\n"
 "दर्शितानां सूचनानां प्रकाराः प्रवेशसमये सूक्ष्मतया समायोजितुं शक्यन्ते ।"
@@ -1186,12 +1200,15 @@ msgid ""
 "\n"
 "After you installed the service, make sure it's running and restart Tokodon."
 msgstr ""
-"व्यक्तिगतसंवेदनशीलसूचनाः रक्षितुं Tokodon इत्यस्य गुप्तशब्दसेवा प्रचलति इति आवश्यकम् ।\n"
+"व्यक्तिगतसंवेदनशीलसूचनाः रक्षितुं Tokodon इत्यस्य गुप्तशब्दसेवा प्रचलति इति आव"
+"श्यकम् ।\n"
 "\n"
-"Tokodon KWallet, GNOME Keyring अथवा कस्यापि libsecret-सङ्गतसेवायाः उपयोगं कर्तुं "
+"Tokodon KWallet, GNOME Keyring अथवा कस्यापि libsecret-सङ्गतसेवायाः उपयोगं कर्त"
+"ुं "
 "शक्नोति ।\n"
 "\n"
-"भवता सेवा संस्थापितस्य अनन्तरं, सा चालिता इति सुनिश्चितं कुर्वन्तु तथा च Tokodon पुनः आरभत "
+"भवता सेवा संस्थापितस्य अनन्तरं, सा चालिता इति सुनिश्चितं कुर्वन्तु तथा च Tokod"
+"on पुनः आरभत "
 "।"
 
 #: content/ui/InitialSetup/SetupPassword.qml:32
@@ -1215,7 +1232,8 @@ msgstr "टोकोडोन् मध्ये स्वागतम्"
 #, kde-format
 msgid "Some initial setup is required before you can use Tokodon."
 msgstr ""
-"भवन्तः Tokodon इत्यस्य उपयोगं कर्तुं शक्नुवन्ति तस्मात् पूर्वं किञ्चित् प्रारम्भिकं सेटअप आवश्यकम् "
+"भवन्तः Tokodon इत्यस्य उपयोगं कर्तुं शक्नुवन्ति तस्मात् पूर्वं किञ्चित् प्रारम"
+"्भिकं सेटअप आवश्यकम् "
 "अस्ति ।"
 
 #: content/ui/LanguageSelector.qml:25
@@ -1263,7 +1281,8 @@ msgid ""
 "There are no posts from the users in your list. Only new posts will appear "
 "in a list."
 msgstr ""
-"तव सूचीस्थितेषु उपयोगकर्तृषु किञ्चन लेखः नास्ति। केवलं नूतनाः लेखाः सूचीमध्ये प्रकटिष्यन्ते।"
+"तव सूचीस्थितेषु उपयोगकर्तृषु किञ्चन लेखः नास्ति। केवलं नूतनाः लेखाः सूचीमध्ये "
+"प्रकटिष्यन्ते।"
 
 #: content/ui/ListTimelinePage.qml:30
 #, kde-format
@@ -1304,7 +1323,8 @@ msgstr "प्राधिकरणसङ्केतस्य उपयोग�
 #: content/ui/LoginFlow/BrowserAuthorization.qml:26
 #, kde-format
 msgid "Use this login method if the above link does not work."
-msgstr "यदि उपरिष्टाद् लिङ्क् कार्यं न करोति तर्हि एतस्य प्रवेशविधिः उपयुज्यताम् ।"
+msgstr ""
+"यदि उपरिष्टाद् लिङ्क् कार्यं न करोति तर्हि एतस्य प्रवेशविधिः उपयुज्यताम् ।"
 
 #: content/ui/LoginFlow/CodeAuthorization.qml:25
 #, kde-format
@@ -1330,10 +1350,12 @@ msgid ""
 "\n"
 "You can attempt to log in again with the button below, or restart Tokodon."
 msgstr ""
-"कृपया गुप्तशब्दसेवा प्रचलति वा इति पश्यन्तु । अन्येषां प्रवेशसमस्यानां कृते भवान् सर्वरस्य जालपुटे "
+"कृपया गुप्तशब्दसेवा प्रचलति वा इति पश्यन्तु । अन्येषां प्रवेशसमस्यानां कृते भव"
+"ान् सर्वरस्य जालपुटे "
 "प्रवेशं कर्तुं प्रयतितुं शक्नोति ।\n"
 "\n"
-"भवान् अधोलिखितेन बटनेन पुनः प्रवेशं कर्तुं प्रयतितुं शक्नोति, अथवा Tokodon पुनः आरभुं शक्नोति ।"
+"भवान् अधोलिखितेन बटनेन पुनः प्रवेशं कर्तुं प्रयतितुं शक्नोति, अथवा Tokodon पुन"
+"ः आरभुं शक्नोति ।"
 
 #: content/ui/LoginFlow/LoginIssuePage.qml:47
 #, kde-format
@@ -1378,7 +1400,9 @@ msgstr "प्रवेशः"
 #, kde-format
 msgctxt "@info:status Network status"
 msgid "Failed to contact server: %1. Please check your proxy settings."
-msgstr "सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य प्रॉक्सी सेटिंग्स् पश्यन्तु।"
+msgstr ""
+"सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य प्रॉक्सी सेटिंग्स् पश्यन्त"
+"ु।"
 
 #: content/ui/LoginFlow/LoginPage.qml:38
 #: content/ui/LoginFlow/RegistrationPage.qml:85
@@ -1416,7 +1440,8 @@ msgid ""
 "Allow Tokodon to access moderation tools. Try disabling this if you have "
 "trouble logging in."
 msgstr ""
-"Tokodon इत्यस्य संचालनसाधनं प्राप्तुं अनुमतिं ददातु । यदि भवतः प्रवेशे समस्या अस्ति तर्हि एतत् "
+"Tokodon इत्यस्य संचालनसाधनं प्राप्तुं अनुमतिं ददातु । यदि भवतः प्रवेशे समस्या "
+"अस्ति तर्हि एतत् "
 "निष्क्रियं कर्तुं प्रयतस्व ।"
 
 #: content/ui/LoginFlow/LoginPage.qml:131
@@ -1547,7 +1572,8 @@ msgid ""
 "Browse the Fediverse and connect with people on Mastodon (and other "
 "compatible software)."
 msgstr ""
-"Fediverse ब्राउज् कृत्वा Mastodon (अन्ये च संगतसॉफ्टवेयर्) इत्यत्र जनानां सह सम्बद्धतां "
+"Fediverse ब्राउज् कृत्वा Mastodon (अन्ये च संगतसॉफ्टवेयर्) इत्यत्र जनानां सह स"
+"म्बद्धतां "
 "कुर्वन्तु ।"
 
 #: content/ui/LoginFlow/WelcomePage.qml:80
@@ -1678,7 +1704,8 @@ msgid ""
 "Posts that you favorite will show up here. If you appreciate someone's post, "
 "favorite it!"
 msgstr ""
-"भवतः प्रियाः पोस्ट् अत्र दर्शयिष्यन्ति। यदि भवान् कस्यचित् पोस्ट् प्रशंसति तर्हि तत् प्रियं "
+"भवतः प्रियाः पोस्ट् अत्र दर्शयिष्यन्ति। यदि भवान् कस्यचित् पोस्ट् प्रशंसति तर्"
+"हि तत् प्रियं "
 "कुरुत!"
 
 #: content/ui/Main.qml:507
@@ -1697,7 +1724,8 @@ msgid ""
 "Bookmark posts and they will show up here. Bookmarks are always kept "
 "private, even to the post's author."
 msgstr ""
-"पोस्ट् बुकमार्कं कुर्वन्तु ते अत्र दर्शयिष्यन्ति। पुस्तकचिह्नानि सर्वदा निजरूपेण स्थापितानि "
+"पोस्ट् बुकमार्कं कुर्वन्तु ते अत्र दर्शयिष्यन्ति। पुस्तकचिह्नानि सर्वदा निजरूप"
+"ेण स्थापितानि "
 "भवन्ति, पोस्टस्य लेखकस्य कृते अपि।"
 
 #: content/ui/Main.qml:534
@@ -1986,7 +2014,8 @@ msgid ""
 "This can be the domain name that shows up in the e-mail address or the MX "
 "record it uses. They will be checked upon sign-up."
 msgstr ""
-"एतत् डोमेननाम भवितुम् अर्हति यत् ई-मेल-सङ्केते दर्शयति अथवा तया उपयुज्यमानं MX अभिलेखं भवितुम् "
+"एतत् डोमेननाम भवितुम् अर्हति यत् ई-मेल-सङ्केते दर्शयति अथवा तया उपयुज्यमानं MX"
+" अभिलेखं भवितुम् "
 "अर्हति । पञ्जीकरणसमये तेषां जाँचः भविष्यति।"
 
 #: content/ui/ModerationTools/EmailBlockToolPage.qml:116
@@ -2112,7 +2141,8 @@ msgid ""
 "Removes locally stored media files and refuses to download any in the "
 "future. Irrelevant for suspensions"
 msgstr ""
-"स्थानीयतया संगृहीतमाध्यमसञ्चिकाः निष्कासयति भविष्ये कस्यापि डाउनलोड् कर्तुं नकारयति । "
+"स्थानीयतया संगृहीतमाध्यमसञ्चिकाः निष्कासयति भविष्ये कस्यापि डाउनलोड् कर्तुं नक"
+"ारयति । "
 "निलम्बनानां कृते अप्रासंगिकम्"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:126
@@ -2125,7 +2155,9 @@ msgstr "प्रतिवेदनानि अङ्गीकुर्वन�
 #: content/ui/ModerationTools/MainFederationToolPage.qml:94
 #, kde-format
 msgid "Ignore all reports coming from this domain. Irrelevant for suspensions"
-msgstr "अस्मात् डोमेनतः आगच्छन्तः सर्वान् प्रतिवेदनान् अवहेलयन्तु । निलम्बनानां कृते अप्रासंगिकम्"
+msgstr ""
+"अस्मात् डोमेनतः आगच्छन्तः सर्वान् प्रतिवेदनान् अवहेलयन्तु । निलम्बनानां कृते अ"
+"प्रासंगिकम्"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:132
 #: content/ui/ModerationTools/MainFederationToolPage.qml:101
@@ -2140,7 +2172,8 @@ msgid ""
 "Partially obfuscate the domain name in the list if advertising the list of "
 "domain limitations is enabled"
 msgstr ""
-"यदि डोमेनसीमानां सूचीयाः विज्ञापनं सक्षमं भवति तर्हि सूचीयां डोमेननाम आंशिकरूपेण अस्पष्टं "
+"यदि डोमेनसीमानां सूचीयाः विज्ञापनं सक्षमं भवति तर्हि सूचीयां डोमेननाम आंशिकरूप"
+"ेण अस्पष्टं "
 "कुर्वन्तु"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:145
@@ -2173,7 +2206,8 @@ msgstr "नवीनं अनुमतं डोमेन् योजितम
 msgid ""
 "Allowed domain option is available for instances with limited federation "
 "mode enabled"
-msgstr "सीमितसङ्घविधानसक्षमयुक्तानां उदाहरणानां कृते अनुमतं डोमेनविकल्पः उपलभ्यते"
+msgstr ""
+"सीमितसङ्घविधानसक्षमयुक्तानां उदाहरणानां कृते अनुमतं डोमेनविकल्पः उपलभ्यते"
 
 #: content/ui/ModerationTools/FederationToolPage.qml:201
 #, kde-format
@@ -2968,7 +3002,8 @@ msgstr "कोटी"
 msgid ""
 "The reason this account and/or content was reported will be cited in "
 "communication with the reported account"
-msgstr "अस्य खातेः/अथवा सामग्रीयाः कारणं प्रतिवेदितलेखेन सह संचारणे उद्धृतं भविष्यति"
+msgstr ""
+"अस्य खातेः/अथवा सामग्रीयाः कारणं प्रतिवेदितलेखेन सह संचारणे उद्धृतं भविष्यति"
 
 #: content/ui/ModerationTools/MainReportToolPage.qml:269
 #, kde-format
@@ -3213,7 +3248,8 @@ msgid ""
 "You have no notifications yet. When people reply, favorite or boost your "
 "posts they will show up here."
 msgstr ""
-"भवतः अद्यापि कोऽपि सूचनाः नास्ति। यदा जनाः भवतः पोस्ट् प्रति उत्तरं ददति, प्रियं वा "
+"भवतः अद्यापि कोऽपि सूचनाः नास्ति। यदा जनाः भवतः पोस्ट् प्रति उत्तरं ददति, प्रि"
+"यं वा "
 "बूस्ट् वा कुर्वन्ति तदा ते अत्र दर्शयिष्यन्ति।"
 
 #: content/ui/Notifications/AccountWarningDelegate.qml:66
@@ -3231,7 +3267,9 @@ msgctxt ""
 msgid ""
 "Your %1 #FediWrapped awaits! Unveil your year's highlights and memorable "
 "moments on Mastodon!"
-msgstr "तव %1 #FediWrapped प्रतीक्षते। मस्तोडने वर्षस्य प्रमुखक्षणान् स्मरणीयक्षणांश्च प्रकटय।"
+msgstr ""
+"तव %1 #FediWrapped प्रतीक्षते। मस्तोडने वर्षस्य प्रमुखक्षणान् स्मरणीयक्षणांश्च"
+" प्रकटय।"
 
 #: content/ui/Notifications/AnnualReportDelegate.qml:71
 #, kde-format
@@ -3261,7 +3299,8 @@ msgid ""
 "Moderation has blocked <b>%1</b>, including %2 of your followers and %3 "
 "account you follow."
 msgstr ""
-"मॉडरेशनेन <b>%1</b> अवरुद्धम्, यत्र भवतः अनुयायिनां %2 अपि च भवता अनुसृतानां %3 खातं च "
+"मॉडरेशनेन <b>%1</b> अवरुद्धम्, यत्र भवतः अनुयायिनां %2 अपि च भवता अनुसृतानां %"
+"3 खातं च "
 "अन्तर्भवति ।"
 
 #: content/ui/Notifications/ReportDelegate.qml:61
@@ -3291,22 +3330,22 @@ msgid "Status with image attachment"
 msgstr "बिम्बसंलग्नतायाः सह स्थितिः"
 
 #: content/ui/PostDelegate/AttachmentGrid.qml:96
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Status with GifV attachment"
 msgid "Status with gif attachment"
-msgstr "GifV संलग्नतायाः सह स्थितिः"
+msgstr "gif आसक्तियुक्ता स्थितिः"
 
 #: content/ui/PostDelegate/AttachmentGrid.qml:98
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Status with Video attachment"
 msgid "Status with video attachment"
-msgstr "Video attachment सह स्थितिः"
+msgstr "विडियो संलग्नकसहितं स्थितिः"
 
 #: content/ui/PostDelegate/AttachmentGrid.qml:100
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Status with Video attachment"
 msgid "Status with audio attachment"
-msgstr "Video attachment सह स्थितिः"
+msgstr "श्रव्यसंलग्नकेन सह स्थितिः"
 
 #: content/ui/PostDelegate/AttachmentGrid.qml:198
 #, kde-format
@@ -3346,10 +3385,10 @@ msgid "Save Video As…"
 msgstr "विडियो यथा..."
 
 #: content/ui/PostDelegate/AttachmentMenu.qml:53
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Save Video As…"
 msgid "Save Audio As…"
-msgstr "विडियो यथा..."
+msgstr "श्रव्यं यथा रक्षतु…"
 
 #: content/ui/PostDelegate/AttachmentMenu.qml:71
 #, kde-format
@@ -3529,7 +3568,8 @@ msgid ""
 "Are you sure you want to redraft this post? This will delete the original "
 "post."
 msgstr ""
-"किं भवान् निश्चितः अस्ति यत् भवान् अस्य पदस्य पुनः मसौदां कर्तुम् इच्छति? एतेन मूलपोस्ट् "
+"किं भवान् निश्चितः अस्ति यत् भवान् अस्य पदस्य पुनः मसौदां कर्तुम् इच्छति? एतेन"
+" मूलपोस्ट् "
 "विलोप्यते ।"
 
 #: content/ui/PostDelegate/PostDelegate.qml:344
@@ -3612,7 +3652,8 @@ msgid ""
 "This post has been marked private. Some posts may be missing because its "
 "replies are marked as private by default."
 msgstr ""
-"एतत् पदं निजी इति चिह्नितम् अस्ति। केचन पोस्ट् लुप्ताः भवेयुः यतः तस्य उत्तराणि "
+"एतत् पदं निजी इति चिह्नितम् अस्ति। केचन पोस्ट् लुप्ताः भवेयुः यतः तस्य उत्तराण"
+"ि "
 "पूर्वनिर्धारितरूपेण निजी इति चिह्नितानि सन्ति ।"
 
 #: content/ui/PostDelegate/PostInfoBar.qml:53
@@ -3901,8 +3942,10 @@ msgid ""
 "manually approve or deny new ones. You always have the option to force "
 "someone to unfollow you."
 msgstr ""
-"पूर्वनिर्धारितरूपेण नूतनाः अनुयायिनः स्वयमेव स्वीक्रियन्ते । यदि भवान् नूतनान् स्वहस्तेन "
-"अनुमोदयितुम् अथवा अङ्गीकुर्वितुं इच्छति तर्हि अचेक् कुर्वन्तु । भवतः सदैव विकल्पः भवति यत् "
+"पूर्वनिर्धारितरूपेण नूतनाः अनुयायिनः स्वयमेव स्वीक्रियन्ते । यदि भवान् नूतनान्"
+" स्वहस्तेन "
+"अनुमोदयितुम् अथवा अङ्गीकुर्वितुं इच्छति तर्हि अचेक् कुर्वन्तु । भवतः सदैव विकल"
+"्पः भवति यत् "
 "कस्मैचित् भवतः अनुसरणं न कर्तुं बाध्यं कुर्वन्तु।"
 
 #: content/ui/Settings/AccountPage.qml:138
@@ -3914,7 +3957,9 @@ msgstr "स्वचालितं भवति"
 #, kde-format
 msgid ""
 "Whether to publicly mark this account as doing any kind of automated actions."
-msgstr "किं सार्वजनिकरूपेण एतत् खातं किमपि प्रकारस्य स्वचालितं कार्यं कुर्वन् इति चिह्नितव्यम्।"
+msgstr ""
+"किं सार्वजनिकरूपेण एतत् खातं किमपि प्रकारस्य स्वचालितं कार्यं कुर्वन् इति चिह्"
+"नितव्यम्।"
 
 #: content/ui/Settings/AccountPage.qml:148
 #, kde-format
@@ -3925,7 +3970,8 @@ msgstr "फीचर प्रोफाइल तथा पोस्ट्"
 #, kde-format
 msgid "Your public profile and posts may be featured to other users."
 msgstr ""
-"भवतः सार्वजनिकप्रोफाइलः, पोस्ट् च अन्येभ्यः उपयोक्तृभ्यः प्रदर्शिताः भवितुम् अर्हन्ति ।"
+"भवतः सार्वजनिकप्रोफाइलः, पोस्ट् च अन्येभ्यः उपयोक्तृभ्यः प्रदर्शिताः भवितुम् अ"
+"र्हन्ति ।"
 
 #: content/ui/Settings/AccountPage.qml:158
 #, kde-format
@@ -3936,7 +3982,8 @@ msgstr "सार्वजनिकरूपेण अनुसरणं अन�
 #, kde-format
 msgid "By default everyone you follow and everyone who follows you is public."
 msgstr ""
-"पूर्वनिर्धारितरूपेण भवन्तः येषां सर्वेषां अनुसरणं कुर्वन्ति, ये च भवतः अनुसरणं कुर्वन्ति ते सर्वे "
+"पूर्वनिर्धारितरूपेण भवन्तः येषां सर्वेषां अनुसरणं कुर्वन्ति, ये च भवतः अनुसरणं"
+" कुर्वन्ति ते सर्वे "
 "सार्वजनिकाः सन्ति।"
 
 #: content/ui/Settings/AccountPage.qml:168
@@ -4013,7 +4060,8 @@ msgid ""
 "If checked, the Home timeline will begin where you last read. The position "
 "in the timeline is shared with other clients."
 msgstr ""
-"यदि चेक् कृतं तर्हि Home timeline आरभ्यते यत्र भवान् अन्तिमं पठितवान् । समयरेखायां स्थितिः "
+"यदि चेक् कृतं तर्हि Home timeline आरभ्यते यत्र भवान् अन्तिमं पठितवान् । समयरेख"
+"ायां स्थितिः "
 "अन्यैः ग्राहकैः सह साझा भवति ।"
 
 #: content/ui/Settings/AppearancePage.qml:72
@@ -4027,7 +4075,8 @@ msgid ""
 "If checked, Tokodon will automatically update certain timelines as new posts "
 "come in."
 msgstr ""
-"यदि चेक् क्रियते तर्हि नूतनाः पोस्ट् आगच्छन्ति चेत् Tokodon स्वयमेव कतिपयानि समयरेखाः अद्यतनं "
+"यदि चेक् क्रियते तर्हि नूतनाः पोस्ट् आगच्छन्ति चेत् Tokodon स्वयमेव कतिपयानि स"
+"मयरेखाः अद्यतनं "
 "करिष्यति।"
 
 #: content/ui/Settings/AppearancePage.qml:84
@@ -4073,7 +4122,8 @@ msgid ""
 "If unchecked, posts with only one image attached will be uncropped and shown "
 "in full."
 msgstr ""
-"यदि अनिरीक्षितं भवति तर्हि केवलं एकं चित्रं संलग्नं पोस्ट् अनक्रॉप् कृत्वा पूर्णतया दर्शितं "
+"यदि अनिरीक्षितं भवति तर्हि केवलं एकं चित्रं संलग्नं पोस्ट् अनक्रॉप् कृत्वा पूर"
+"्णतया दर्शितं "
 "भविष्यति ।"
 
 #: content/ui/Settings/AppearancePage.qml:158
@@ -4174,7 +4224,8 @@ msgid ""
 "Push notifications are available but could not be enabled. Please log out "
 "and log back in."
 msgstr ""
-"पुश सूचनाः उपलभ्यन्ते परन्तु सक्षमाः कर्तुं न शक्तवन्तः । कृपया प्रवेशं कृत्वा पुनः प्रवेशं कुर्वन्तु।"
+"पुश सूचनाः उपलभ्यन्ते परन्तु सक्षमाः कर्तुं न शक्तवन्तः । कृपया प्रवेशं कृत्वा"
+" पुनः प्रवेशं कुर्वन्तु।"
 
 #: content/ui/Settings/NotificationsPage.qml:37
 #, kde-format
@@ -4254,7 +4305,8 @@ msgid ""
 "Filtered unless it's in reply to your own mention or if you follow the "
 "sender."
 msgstr ""
-"यावत् भवतः स्वस्य उल्लेखस्य उत्तरे अथवा यदि भवान् प्रेषकस्य अनुसरणं करोति तावत् यावत् फ़िल्टर "
+"यावत् भवतः स्वस्य उल्लेखस्य उत्तरे अथवा यदि भवान् प्रेषकस्य अनुसरणं करोति तावत"
+"् यावत् फ़िल्टर "
 "कृतम्।"
 
 #: content/ui/Settings/NotificationsPage.qml:103
@@ -4285,7 +4337,8 @@ msgstr "उल्लेखः"
 msgid ""
 "When someone mentions you in a new post, or replies to one of your threads."
 msgstr ""
-"यदा कश्चन भवतः उल्लेखं नूतने पोस्ट् मध्ये करोति, अथवा भवतः एकस्य सूत्रस्य उत्तरं ददाति।"
+"यदा कश्चन भवतः उल्लेखं नूतने पोस्ट् मध्ये करोति, अथवा भवतः एकस्य सूत्रस्य उत्त"
+"रं ददाति।"
 
 #: content/ui/Settings/NotificationsPage.qml:132
 #, kde-format
@@ -4325,7 +4378,9 @@ msgstr "नवीन अनुवर्तन अनुरोध"
 #: content/ui/Settings/NotificationsPage.qml:172
 #, kde-format
 msgid "When an account who requires manual approval wants to follow you."
-msgstr "यदा कश्चन खाता यस्य हस्तानुमोदनस्य आवश्यकता भवति सः भवतः अनुसरणं कर्तुम् इच्छति।"
+msgstr ""
+"यदा कश्चन खाता यस्य हस्तानुमोदनस्य आवश्यकता भवति सः भवतः अनुसरणं कर्तुम् इच्छत"
+"ि।"
 
 #: content/ui/Settings/NotificationsPage.qml:185
 #, kde-format
@@ -4383,7 +4438,8 @@ msgid ""
 "When you or your server moderates another server, which you are following "
 "users or have followers with."
 msgstr ""
-"यदा भवान् वा भवतः सर्वरः अन्यस्य सर्वरस्य संचालनं करोति, यस्य सह भवान् उपयोक्तृन् अनुसृत्य "
+"यदा भवान् वा भवतः सर्वरः अन्यस्य सर्वरस्य संचालनं करोति, यस्य सह भवान् उपयोक्त"
+"ृन् अनुसृत्य "
 "अस्ति अथवा अनुयायिनः सन्ति ।"
 
 #: content/ui/Settings/NotificationsPage.qml:268
@@ -4415,7 +4471,8 @@ msgstr "शीर्षकम्"
 #: content/ui/Settings/ProfileEditor.qml:138
 #, kde-format
 msgid "PNG, GIF or JPG. At most 2 MB. Will be downscaled to 1500x500px"
-msgstr "PNG, GIF अथवा JPG। अधिकतमं २ एमबी । 1500x500px यावत् न्यूनीकृतं भविष्यति"
+msgstr ""
+"PNG, GIF अथवा JPG। अधिकतमं २ एमबी । 1500x500px यावत् न्यूनीकृतं भविष्यति"
 
 #: content/ui/Settings/ProfileEditor.qml:166
 #, kde-format
@@ -4425,7 +4482,8 @@ msgstr "अवतार"
 #: content/ui/Settings/ProfileEditor.qml:199
 #, kde-format
 msgid "PNG, GIF or JPG. At most 2 MB. Will be downscaled to 400x400px"
-msgstr "PNG, GIF अथवा JPG। अधिकतमं २ एमबी । 400x400px यावत् न्यूनीकृतं भविष्यति"
+msgstr ""
+"PNG, GIF अथवा JPG। अधिकतमं २ एमबी । 400x400px यावत् न्यूनीकृतं भविष्यति"
 
 #: content/ui/Settings/ProfileEditor.qml:230
 #, kde-format
@@ -4637,7 +4695,8 @@ msgstr "मसौदा परित्यजतु"
 #, kde-format
 msgctxt "@label"
 msgid "Are you sure you want to discard your draft?"
-msgstr "किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः स्वस्य मसौदां परित्यक्तुं इच्छन्ति?"
+msgstr ""
+"किं भवन्तः निश्चिन्ताः सन्ति यत् भवन्तः स्वस्य मसौदां परित्यक्तुं इच्छन्ति?"
 
 #: content/ui/StatusComposer/ScheduledPostsPage.qml:111
 #, kde-format
@@ -4684,7 +4743,9 @@ msgstr "Pop Out इति"
 #: content/ui/StatusComposer/StatusComposer.qml:147
 #, kde-format
 msgid "Saving an edited post that has a poll will clear existing results."
-msgstr "सम्पादितं पदं रक्षित्वा यस्मिन् मतदानं भवति तत् विद्यमानं परिणामं स्वच्छं करिष्यति।"
+msgstr ""
+"सम्पादितं पदं रक्षित्वा यस्मिन् मतदानं भवति तत् विद्यमानं परिणामं स्वच्छं करिष"
+"्यति।"
 
 #: content/ui/StatusComposer/StatusComposer.qml:161
 #, kde-format
@@ -4854,7 +4915,8 @@ msgstr "उत्तराणि दर्शयतु"
 #, kde-format
 msgctxt "@info:status Network status"
 msgid "Failed to contact server: %1. Please check your settings."
-msgstr "सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य सेटिङ्ग्स् पश्यन्तु।"
+msgstr ""
+"सर्वरेण सह सम्पर्कं कर्तुं असफलम्: %1. कृपया स्वस्य सेटिङ्ग्स् पश्यन्तु।"
 
 #: content/ui/TimelinePage.qml:158
 #, kde-format
