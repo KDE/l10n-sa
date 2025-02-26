@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-09-13 00:49+0000\n"
+"POT-Creation-Date: 2025-02-26 00:51+0000\n"
 "PO-Revision-Date: 2024-12-13 19:10+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -57,16 +57,6 @@ msgctxt "Name"
 msgid "WiFi"
 msgstr "वाईफाई"
 
-#: kcms/cellularnetwork/kcm_cellular_network.json
-msgctxt "Name"
-msgid "Cellular Network"
-msgstr "सेलुलर नेटवर्क"
-
-#: kcms/hotspot/kcm_mobile_hotspot.json quicksettings/hotspot/metadata.json
-msgctxt "Name"
-msgid "Hotspot"
-msgstr "हॉटस्पॉट्"
-
 #: kcms/info/kcm_mobile_info.json
 msgctxt "Name"
 msgid "Information"
@@ -91,11 +81,6 @@ msgstr "समयः तिथिः च"
 msgctxt "Name"
 msgid "On-Screen Keyboard"
 msgstr "ऑन-स्क्रीन् कीबोर्ड"
-
-#: kcms/wifi/kcm_mobile_wifi.json quicksettings/wifi/metadata.json
-msgctxt "Name"
-msgid "Wi-Fi"
-msgstr "वाई-फाई"
 
 #: kded/autodetectapn/kded_plasma_mobile_autodetectapn.json
 msgctxt "Name"
@@ -172,6 +157,11 @@ msgctxt "Name"
 msgid "Flashlight"
 msgstr "टॉर्च"
 
+#: quicksettings/hotspot/metadata.json
+msgctxt "Name"
+msgid "Hotspot"
+msgstr "हॉटस्पॉट्"
+
 #: quicksettings/keyboardtoggle/metadata.json
 msgctxt "Name"
 msgid "Virtual Keyboard Toggle"
@@ -211,6 +201,11 @@ msgstr "स्क्रीनशॉट"
 msgctxt "Name"
 msgid "Settings"
 msgstr "सेटिंग्स्"
+
+#: quicksettings/wifi/metadata.json
+msgctxt "Name"
+msgid "Wi-Fi"
+msgstr "वाई-फाई"
 
 #: shell/metadata.json
 msgctxt "Name"
@@ -262,16 +257,6 @@ msgctxt "Description"
 msgid "WiFi initialstart module for Plasma Mobile"
 msgstr "प्लाज्मा मोबाईलस्य कृते WiFi initialstart module"
 
-#: kcms/cellularnetwork/kcm_cellular_network.json
-msgctxt "Description"
-msgid "Management of cellular networks"
-msgstr "सेलुलरजालस्य प्रबन्धनम्"
-
-#: kcms/hotspot/kcm_mobile_hotspot.json
-msgctxt "Description"
-msgid "Wi-Fi Hotspot"
-msgstr "वाई-फाई हॉटस्पॉट"
-
 #: kcms/info/kcm_mobile_info.json
 msgctxt "Description"
 msgid "Software Versions"
@@ -296,11 +281,6 @@ msgstr "समयक्षेत्रम्, तिथिप्रदर्श�
 msgctxt "Description"
 msgid "On-Screen Keyboard configuration"
 msgstr "On-Screen कीबोर्ड विन्यासः"
-
-#: kcms/wifi/kcm_mobile_wifi.json
-msgctxt "Description"
-msgid "Wireless network setting"
-msgstr "वायरलेस नेटवर्क सेटिंग्"
 
 #: kded/autodetectapn/kded_plasma_mobile_autodetectapn.json
 msgctxt "Description"
@@ -464,11 +444,6 @@ msgctxt "Authors Name"
 msgid "Devin Lin"
 msgstr "डेविन् लिन्"
 
-#: kcms/hotspot/kcm_mobile_hotspot.json
-msgctxt "Authors Name"
-msgid "Tobias Fella"
-msgstr "टोबियास फेला"
-
 #: kcms/virtualkeyboard/kcm_mobile_onscreenkeyboard.json
 #: quicksettings/airplanemode/metadata.json
 msgctxt "Authors Name"
@@ -500,11 +475,6 @@ msgctxt "Authors Name"
 msgid "Aleix Pol i Gonzalez"
 msgstr "अलेक्स पोल् तथा गोन्जालेज्"
 
-#: kcms/cellularnetwork/kcm_cellular_network.json
-msgctxt "X-KDE-Keywords"
-msgid "mobile,data,network"
-msgstr "मोबाइल,डेटा,जाल"
-
 #: kcms/info/kcm_mobile_info.json
 msgctxt "X-KDE-Keywords"
 msgid "info, distro, system"
@@ -532,7 +502,30 @@ msgctxt "X-KDE-Keywords"
 msgid "onscreen,osk,virtualkeyboard,keyboard"
 msgstr "onscreen,osk,वर्चुअलकीबोर्ड,कीबोर्ड"
 
-#: kcms/wifi/kcm_mobile_wifi.json
-msgctxt "X-KDE-Keywords"
-msgid "wifi,network"
-msgstr "wifi,जालम्"
+#~ msgctxt "Name"
+#~ msgid "Cellular Network"
+#~ msgstr "सेलुलर नेटवर्क"
+
+#~ msgctxt "Description"
+#~ msgid "Management of cellular networks"
+#~ msgstr "सेलुलरजालस्य प्रबन्धनम्"
+
+#~ msgctxt "Description"
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "वाई-फाई हॉटस्पॉट"
+
+#~ msgctxt "Description"
+#~ msgid "Wireless network setting"
+#~ msgstr "वायरलेस नेटवर्क सेटिंग्"
+
+#~ msgctxt "Authors Name"
+#~ msgid "Tobias Fella"
+#~ msgstr "टोबियास फेला"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "mobile,data,network"
+#~ msgstr "मोबाइल,डेटा,जाल"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "wifi,network"
+#~ msgstr "wifi,जालम्"
