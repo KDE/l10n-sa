@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-05 00:49+0000\n"
+"POT-Creation-Date: 2025-02-27 00:48+0000\n"
 "PO-Revision-Date: 2024-12-13 19:09+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -18,8 +18,11 @@ msgid "Share"
 msgstr "संविभागः"
 
 #: src/plugins/barcode/barcodeplugin.json
+#, fuzzy
+#| msgctxt "X-Purpose-ActionDisplay"
+#| msgid "Generate QR Code"
 msgctxt "Name"
-msgid "Generate QR code"
+msgid "Generate QR Code"
 msgstr "QR कोड उत्पन्न करें"
 
 #: src/plugins/bluetooth/bluetoothplugin.json
@@ -43,13 +46,19 @@ msgid "Upload…"
 msgstr "अपलोड्..."
 
 #: src/plugins/imgur/imgurplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload pictures to Imgur"
 msgctxt "Name"
-msgid "Imgur"
-msgstr "इमगुर"
+msgid "Upload Publicly to Imgur"
+msgstr "इमगुर् इत्यत्र चित्राणि अपलोड् कुर्वन्तु"
 
 #: src/plugins/kdeconnect/kdeconnectplugin.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Send To Device"
 msgctxt "Name"
-msgid "Send To Device"
+msgid "Send to Device"
 msgstr "Send To Device इति"
 
 #: src/plugins/kdeconnect_sms/kdeconnectsmsplugin.json
@@ -58,24 +67,36 @@ msgid "Send SMS via KDE Connect"
 msgstr "KDE Connect मार्गेण SMS प्रेषयन्तु"
 
 #: src/plugins/nextcloud/nextcloudplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload files to Nextcloud"
 msgctxt "Name"
-msgid "Nextcloud"
-msgstr "Nextcloud इति"
+msgid "Upload to Nextcloud"
+msgstr "Nextcloud इत्यत्र सञ्चिकाः अपलोड् कुर्वन्तु"
 
 #: src/plugins/pastebin/pastebinplugin.json
+#, fuzzy
+#| msgctxt "X-Purpose-ActionDisplay"
+#| msgid "Upload Publicly to Pastebin"
 msgctxt "Name"
-msgid "Pastebin"
-msgstr "पेस्ट बिन"
+msgid "Upload Publicly to Pastebin"
+msgstr "Pastebin इत्यत्र सार्वजनिकरूपेण अपलोड् कुर्वन्तु"
 
 #: src/plugins/phabricator/phabricatorplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload patches to Phabricator"
 msgctxt "Name"
-msgid "Phabricator"
-msgstr "फेब्रिकेटर"
+msgid "Upload to Phabricator"
+msgstr "Phabricator इत्यत्र पैच्स् अपलोड् कुर्वन्तु"
 
 #: src/plugins/reviewboard/reviewboardplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload patches to reviewboard"
 msgctxt "Name"
-msgid "Review Board"
-msgstr "समीक्षा बोर्ड"
+msgid "Upload to Review Board"
+msgstr "समीक्षाफलके पैच अपलोड् कुर्वन्तु"
 
 #: src/plugins/saveas/saveasplugin.json
 msgctxt "Name"
@@ -93,9 +114,12 @@ msgid "Send via Telegram"
 msgstr "तारद्वारा प्रेषयन्तु"
 
 #: src/plugins/youtube/youtubeplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload videos to YouTube"
 msgctxt "Name"
-msgid "YouTube"
-msgstr "यूट्यूब"
+msgid "Upload to YouTube"
+msgstr "यूट्यूबे विडियो अपलोड् कुर्वन्तु"
 
 #: src/fileitemactionplugin/sharefileitemaction.json
 msgctxt "Description"
@@ -234,10 +258,21 @@ msgctxt "X-Purpose-ActionDisplay"
 msgid "Send via Email..."
 msgstr "ईमेलद्वारा प्रेषयन्तु..."
 
-#: src/plugins/kdeconnect/kdeconnectplugin.json
+#: src/plugins/imgur/imgurplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload pictures to Imgur"
 msgctxt "X-Purpose-ActionDisplay"
-msgid "Send To Device..."
-msgstr "Send To Device..."
+msgid "Upload Publicly to Imgur"
+msgstr "इमगुर् इत्यत्र चित्राणि अपलोड् कुर्वन्तु"
+
+#: src/plugins/kdeconnect/kdeconnectplugin.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Send To Device"
+msgctxt "X-Purpose-ActionDisplay"
+msgid "Send to Device…"
+msgstr "Send To Device इति"
 
 #: src/plugins/kdeconnect_sms/kdeconnectsmsplugin.json
 msgctxt "X-Purpose-ActionDisplay"
@@ -245,9 +280,12 @@ msgid "Send SMS via KDE Connect..."
 msgstr "KDE Connect मार्गेण SMS प्रेषयन्तु..."
 
 #: src/plugins/nextcloud/nextcloudplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload files to Nextcloud"
 msgctxt "X-Purpose-ActionDisplay"
-msgid "Nextcloud..."
-msgstr "Nextcloud..."
+msgid "Upload to Nextcloud…"
+msgstr "Nextcloud इत्यत्र सञ्चिकाः अपलोड् कुर्वन्तु"
 
 #: src/plugins/pastebin/pastebinplugin.json
 msgctxt "X-Purpose-ActionDisplay"
@@ -255,14 +293,20 @@ msgid "Upload Publicly to Pastebin"
 msgstr "Pastebin इत्यत्र सार्वजनिकरूपेण अपलोड् कुर्वन्तु"
 
 #: src/plugins/phabricator/phabricatorplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload patches to Phabricator"
 msgctxt "X-Purpose-ActionDisplay"
-msgid "Phabricator..."
-msgstr "फेब्रिकेटर..."
+msgid "Upload to Phabricator…"
+msgstr "Phabricator इत्यत्र पैच्स् अपलोड् कुर्वन्तु"
 
 #: src/plugins/reviewboard/reviewboardplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload patches to reviewboard"
 msgctxt "X-Purpose-ActionDisplay"
-msgid "Review Board..."
-msgstr "समीक्षा बोर्ड..."
+msgid "Upload to Review Board…"
+msgstr "समीक्षाफलके पैच अपलोड् कुर्वन्तु"
 
 #: src/plugins/saveas/saveasplugin.json
 msgctxt "X-Purpose-ActionDisplay"
@@ -275,9 +319,60 @@ msgid "Send via Telegram..."
 msgstr "टेलिग्रामद्वारा प्रेषयन्तु..."
 
 #: src/plugins/youtube/youtubeplugin.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Upload videos to YouTube"
 msgctxt "X-Purpose-ActionDisplay"
-msgid "Youtube..."
-msgstr "Youtube..."
+msgid "Upload to Youtube…"
+msgstr "यूट्यूबे विडियो अपलोड् कुर्वन्तु"
+
+#~ msgctxt "Name"
+#~ msgid "Generate QR code"
+#~ msgstr "QR कोड उत्पन्न करें"
+
+#~ msgctxt "Name"
+#~ msgid "Imgur"
+#~ msgstr "इमगुर"
+
+#~ msgctxt "Name"
+#~ msgid "Nextcloud"
+#~ msgstr "Nextcloud इति"
+
+#~ msgctxt "Name"
+#~ msgid "Pastebin"
+#~ msgstr "पेस्ट बिन"
+
+#~ msgctxt "Name"
+#~ msgid "Phabricator"
+#~ msgstr "फेब्रिकेटर"
+
+#~ msgctxt "Name"
+#~ msgid "Review Board"
+#~ msgstr "समीक्षा बोर्ड"
+
+#~ msgctxt "Name"
+#~ msgid "YouTube"
+#~ msgstr "यूट्यूब"
+
+#~ msgctxt "X-Purpose-ActionDisplay"
+#~ msgid "Send To Device..."
+#~ msgstr "Send To Device..."
+
+#~ msgctxt "X-Purpose-ActionDisplay"
+#~ msgid "Nextcloud..."
+#~ msgstr "Nextcloud..."
+
+#~ msgctxt "X-Purpose-ActionDisplay"
+#~ msgid "Phabricator..."
+#~ msgstr "फेब्रिकेटर..."
+
+#~ msgctxt "X-Purpose-ActionDisplay"
+#~ msgid "Review Board..."
+#~ msgstr "समीक्षा बोर्ड..."
+
+#~ msgctxt "X-Purpose-ActionDisplay"
+#~ msgid "Youtube..."
+#~ msgstr "Youtube..."
 
 #~ msgctxt "Name"
 #~ msgid "Twitter"
