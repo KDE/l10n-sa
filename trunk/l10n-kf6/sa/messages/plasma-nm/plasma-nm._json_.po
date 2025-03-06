@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-02-26 00:51+0000\n"
+"POT-Creation-Date: 2025-03-06 00:51+0000\n"
 "PO-Revision-Date: 2024-12-20 12:26+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -19,12 +19,12 @@ msgctxt "X-KDE-Keywords"
 msgid "network,internet,ethernet,wireless,wifi,wlan,vpn"
 msgstr "नेटवर्क,इंटरनेट,ईथरनेट,वायरलेस,वाईफाई,wlan,vpn"
 
-#: kcm_cellularnetwork/kcm_cellular_network.json
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
 msgctxt "X-KDE-Keywords"
 msgid "mobile,data,network"
 msgstr ""
 
-#: kcm/kcm_networkmanagement.json
+#: kcms/kcm_connections/kcm_networkmanagement.json
 msgctxt "X-KDE-Keywords"
 msgid ""
 "networks,wifi,wi-fi,ethernet,mobile,cdma,gsm,lte,wimax,apn,"
@@ -41,7 +41,7 @@ msgstr ""
 "fortinet, जुनिपर, l2tp, pptp, sstp, ssh, आयोडीन, ipsec, anyconnect ,"
 "openconnect"
 
-#: kcm_mobile_wifi/kcm_mobile_wifi.json
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
 msgctxt "X-KDE-Keywords"
 msgid "wifi,network"
 msgstr ""
@@ -51,22 +51,22 @@ msgctxt "Name"
 msgid "Networks"
 msgstr "संजालम्"
 
-#: kcm_cellularnetwork/kcm_cellular_network.json
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
 msgctxt "Name"
 msgid "Cellular Network"
 msgstr ""
 
-#: kcm_hotspot/kcm_mobile_hotspot.json
-msgctxt "Name"
-msgid "Hotspot"
-msgstr ""
-
-#: kcm/kcm_networkmanagement.json
+#: kcms/kcm_connections/kcm_networkmanagement.json
 msgctxt "Name"
 msgid "Wi-Fi & Networking"
 msgstr "वाई-फाई एवं नेटवर्किंग"
 
-#: kcm_mobile_wifi/kcm_mobile_wifi.json
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Name"
+msgid "Hotspot"
+msgstr ""
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
 msgctxt "Name"
 msgid "Wi-Fi"
 msgstr ""
@@ -166,22 +166,22 @@ msgctxt "Description"
 msgid "Network status and control"
 msgstr "संजालस्य स्थितिः नियन्त्रणं च"
 
-#: kcm_cellularnetwork/kcm_cellular_network.json
+#: kcms/kcm_cellularnetwork/kcm_cellular_network.json
 msgctxt "Description"
 msgid "Management of cellular networks"
 msgstr ""
 
-#: kcm_hotspot/kcm_mobile_hotspot.json
-msgctxt "Description"
-msgid "Wi-Fi Hotspot"
-msgstr ""
-
-#: kcm/kcm_networkmanagement.json
+#: kcms/kcm_connections/kcm_networkmanagement.json
 msgctxt "Description"
 msgid "Edit network connections"
 msgstr "संजालसंयोजनानि सम्पादयन्तु"
 
-#: kcm_mobile_wifi/kcm_mobile_wifi.json
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
+msgctxt "Description"
+msgid "Wi-Fi Hotspot"
+msgstr ""
+
+#: kcms/kcm_wifi_mobile/kcm_mobile_wifi.json
 msgctxt "Description"
 msgid "Wireless network setting"
 msgstr ""
@@ -280,7 +280,7 @@ msgctxt "Authors Name"
 msgid "Jan Grulich,Lukáš Tinkl"
 msgstr "जन ग्रुलिच, लुकाश टिंकल"
 
-#: kcm_hotspot/kcm_mobile_hotspot.json
+#: kcms/kcm_hotspot/kcm_mobile_hotspot.json
 msgctxt "Authors Name"
 msgid "Tobias Fella"
 msgstr ""
