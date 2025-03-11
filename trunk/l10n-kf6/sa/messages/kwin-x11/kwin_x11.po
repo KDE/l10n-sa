@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-07 00:43+0000\n"
+"POT-Creation-Date: 2025-03-11 00:42+0000\n"
 "PO-Revision-Date: 2025-03-02 14:47+0530\n"
 "Last-Translator: Shreekant Kalwar <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -71,7 +71,7 @@ msgstr "इनपुट् ग्रहीतुं right control key नुद�
 msgid "KDE Wayland Compositor"
 msgstr "केडीई वेलैण्ड रचनाकार"
 
-#: compositor_wayland.cpp:323 compositor_x11.cpp:457
+#: compositor_wayland.cpp:325 compositor_x11.cpp:459
 #, kde-format
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr "ग्राफिक्स् रीसेट् इत्यस्य कारणेन डेस्कटॉप् प्रभावाः पुनः आरब्धाः"
@@ -81,7 +81,7 @@ msgstr "ग्राफिक्स् रीसेट् इत्यस्य 
 msgid "Suspend Compositing"
 msgstr "कम्पोजिटिंग निलम्बित करें"
 
-#: compositor_x11.cpp:566
+#: compositor_x11.cpp:569
 #, kde-format
 msgid ""
 "<b>OpenGL compositing (the default) has crashed KWin in the past.</"
@@ -94,12 +94,12 @@ msgstr ""
 "उन्नयनं कृतवान्,<br> भवान् एतत् रक्षणं पुनः सेट् कर्तुं शक्नोति परन्तु <b>अवगच्छन्तु यत् एतस्य "
 "परिणामः तत्क्षणं दुर्घटना भवितुम् अर्हति!</b></p>"
 
-#: compositor_x11.cpp:573
+#: compositor_x11.cpp:576
 #, kde-format
 msgid "Required X extensions (XComposite and XDamage) are not available."
 msgstr "आवश्यकाः X विस्ताराः (XComposite तथा XDamage) उपलब्धाः न सन्ति ।"
 
-#: compositor_x11.cpp:576
+#: compositor_x11.cpp:579
 #, kde-format
 msgid "GLX/OpenGL is not available."
 msgstr "GLX/OpenGL उपलब्धं नास्ति ।"
@@ -1356,7 +1356,7 @@ msgstr ""
 "वामक्लिक् अथवा प्रविष्ट्या बलात् बन्दं कर्तुं विण्डो चिनोतु ।\n"
 "पलायनं कुर्वन्तु अथवा रद्दं कर्तुं राइट् क्लिक् कुर्वन्तु।"
 
-#: main.cpp:186 plugins/invert/invert_config.cpp:35
+#: main.cpp:185 plugins/invert/invert_config.cpp:35
 #: plugins/magnifier/magnifier_config.cpp:46
 #: plugins/mouseclick/mouseclick_config.cpp:40
 #: plugins/mousemark/mousemark_config.cpp:43
@@ -1371,197 +1371,70 @@ msgstr ""
 msgid "KWin"
 msgstr "केविन्"
 
-#: main.cpp:188 main.cpp:212
+#: main.cpp:187 main.cpp:211
 #, kde-format
 msgid "KDE window manager"
 msgstr "KDE विण्डो प्रबन्धकः"
 
-#: main.cpp:190
+#: main.cpp:189
 #, kde-format
 msgid "(c) 1999-2019, The KDE Developers"
 msgstr "(ग) १९९९-२०१९, द केडीई डेवलपर्स"
 
-#: main.cpp:192
+#: main.cpp:191
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "मथियस एट्रिच्"
 
-#: main.cpp:193
+#: main.cpp:192
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "क्रिस्टियन तिबिर्ना"
 
-#: main.cpp:194
+#: main.cpp:193
 #, kde-format
 msgid "Daniel M. Duley"
 msgstr "डैनियल एम. डुले"
 
-#: main.cpp:195
+#: main.cpp:194
 #, kde-format
 msgid "Luboš Luňák"
 msgstr "लुबोश लुňák"
 
-#: main.cpp:196
+#: main.cpp:195
 #, kde-format
 msgid "Martin Flöser"
 msgstr "मार्टिन् फ्लोसर"
 
-#: main.cpp:197
+#: main.cpp:196
 #, kde-format
 msgid "David Edmundson"
 msgstr "डेविड् एडमण्ड्सनः"
 
-#: main.cpp:198
+#: main.cpp:197
 #, kde-format
 msgid "Roman Gilg"
 msgstr "रोमन गिल्ग्"
 
-#: main.cpp:199
+#: main.cpp:198
 #, kde-format
 msgid "Vlad Zahorodnii"
 msgstr "व्लाद ज़ाहोरोदनी"
 
-#: main.cpp:200
+#: main.cpp:199
 #, kde-format
 msgid "Xaver Hugl"
 msgstr "जेवियर हग्ले"
 
-#: main.cpp:209
+#: main.cpp:208
 #, kde-format
 msgid "Disable configuration options"
 msgstr "विन्यासविकल्पान् निष्क्रियं कुर्वन्तु"
 
-#: main.cpp:210
+#: main.cpp:209
 #, kde-format
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "KWin अद्यतने n वारं दुर्घटनाम् अभवत् इति सूचयन्तु"
-
-#: main_wayland.cpp:296
-#, kde-format
-msgid "Start a rootless Xwayland server."
-msgstr "मूलहीनं Xwayland सर्वरं आरभत।"
-
-#: main_wayland.cpp:299
-#, kde-format
-msgid ""
-"Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
-msgstr ""
-"श्रोतुं वेलैण्ड् सॉकेटस्य नाम। यदि सेट् न भवति तर्हि \"wayland-0\" इत्यस्य उपयोगः भवति ।"
-
-#: main_wayland.cpp:303
-#, kde-format
-msgid "The X11 Display to use in windowed mode on platform X11."
-msgstr "X11 मञ्चे विण्डोड् मोड् मध्ये उपयोक्तुं X11 Display ।"
-
-#: main_wayland.cpp:307
-#, kde-format
-msgid "The Wayland Display to use in windowed mode on platform Wayland."
-msgstr "मञ्चे Wayland इत्यस्मिन् विण्डोड् मोड् इत्यस्मिन् उपयोक्तुं Wayland Display ।"
-
-#: main_wayland.cpp:309
-#, kde-format
-msgid "Render to a virtual framebuffer."
-msgstr "वर्चुअल् फ्रेमबफरं प्रति रेण्डर् कुर्वन्तु ।"
-
-#: main_wayland.cpp:311
-#, kde-format
-msgid "The width for windowed mode. Default width is 1024."
-msgstr "विण्डोड् मोड् कृते विस्तारः । पूर्वनिर्धारितविस्तारः १०२४ अस्ति ।"
-
-#: main_wayland.cpp:315
-#, kde-format
-msgid "The height for windowed mode. Default height is 768."
-msgstr "विण्डोड् मोड् कृते ऊर्ध्वता । पूर्वनिर्धारित ऊर्ध्वता ७६८ अस्ति ।"
-
-#: main_wayland.cpp:320
-#, kde-format
-msgid "The scale for windowed mode. Default value is 1."
-msgstr "विण्डोड् मोड् कृते स्केल । पूर्वनिर्धारितं मूल्यं 1 अस्ति ।"
-
-#: main_wayland.cpp:325
-#, kde-format
-msgid ""
-"The number of windows to open as outputs in windowed mode. Default value is 1"
-msgstr "विण्डोड् मोड् मध्ये आउटपुट् रूपेण उद्घाटयितुं विण्डोस् संख्या । पूर्वनिर्धारितं मूल्यं 1 अस्ति"
-
-#: main_wayland.cpp:330
-#, kde-format
-msgid ""
-"Wayland socket to use for incoming connections. This can be combined with --"
-"socket to name the socket"
-msgstr ""
-"आगच्छन्तसंयोजनानां कृते उपयोक्तुं Wayland socket । एतत् --socket इत्यनेन सह संयोजयित्वा "
-"socket इत्यस्य नामकरणं कर्तुं शक्यते"
-
-#: main_wayland.cpp:334
-#, kde-format
-msgid ""
-"XWayland socket to use for Xwayland's incoming connections. This can be set "
-"multiple times"
-msgstr ""
-"Xwayland इत्यस्य आगच्छन्तसंयोजनानां कृते उपयोक्तुं XWayland सॉकेट् । एतत् बहुवारं सेट् कर्तुं शक्यते"
-
-#: main_wayland.cpp:338
-#, kde-format
-msgid "Name of the xwayland display that has been pre-set up"
-msgstr "पूर्वं स्थापितं xwayland प्रदर्शनस्य नाम"
-
-#: main_wayland.cpp:342
-#, kde-format
-msgid "Name of the xauthority file "
-msgstr "xauthority सञ्चिकायाः नाम "
-
-#: main_wayland.cpp:346
-#, kde-format
-msgid "Exits this instance so it can be restarted by kwin_wayland_wrapper."
-msgstr ""
-"अस्मात् उदाहरणात् निर्गच्छति अतः kwin_wayland_wrapper द्वारा पुनः आरभ्यतुं शक्यते ।"
-
-#: main_wayland.cpp:348
-#, kde-format
-msgid "Render through drm node."
-msgstr "drm नोड् इत्यस्य माध्यमेन रेण्डर् कुर्वन्तु।"
-
-#: main_wayland.cpp:349
-#, kde-format
-msgid ""
-"Extract locale information from locale1 rather than the user's configuration"
-msgstr "उपयोक्तुः विन्यासस्य अपेक्षया locale1 तः locale सूचनां निष्कासयन्तु"
-
-#: main_wayland.cpp:375
-#, kde-format
-msgid "Input method that KWin starts."
-msgstr "KWin आरभ्यते इति निवेशविधिः ।"
-
-#: main_wayland.cpp:381
-#, kde-format
-msgid "Starts the session in locked mode."
-msgstr "सत्रं लॉक्ड् मोड् मध्ये आरभते ।"
-
-#: main_wayland.cpp:385
-#, kde-format
-msgid "Starts the session without lock screen support."
-msgstr "लॉक् स्क्रीन समर्थनं विना सत्रं आरभते ।"
-
-#: main_wayland.cpp:390
-#, kde-format
-msgid "Starts the session without global shortcuts support."
-msgstr "वैश्विकशॉर्टकटसमर्थनं विना सत्रं आरभते ।"
-
-#: main_wayland.cpp:395 main_x11.cpp:438
-#, kde-format
-msgid "Disable KActivities integration."
-msgstr "KActivities एकीकरण अक्षम करें।"
-
-#: main_wayland.cpp:400
-#, kde-format
-msgid "Exit after the session application, which is started by KWin, closed."
-msgstr "KWin द्वारा आरब्धस्य सत्रस्य अनुप्रयोगस्य बन्दीकरणानन्तरं निर्गच्छन्तु ।"
-
-#: main_wayland.cpp:405
-#, kde-format
-msgid "Applications to start once Wayland and Xwayland server are started"
-msgstr "एकवारं Wayland तथा Xwayland सर्वरः आरब्धः चेत् अनुप्रयोगाः आरभ्यन्ते"
 
 #: main_x11.cpp:66
 #, kde-format
@@ -1593,6 +1466,11 @@ msgstr ""
 #, kde-format
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "पूर्वमेव चालितं ICCCM2.0-अनुरूपं विण्डो प्रबन्धकं प्रतिस्थापयन्तु"
+
+#: main_x11.cpp:438
+#, kde-format
+msgid "Disable KActivities integration."
+msgstr "KActivities एकीकरण अक्षम करें।"
 
 #. i18n: ectx: property (text), widget (QLabel, labelConstantBlurDescription)
 #: plugins/blur/blur_config.ui:17
@@ -1670,12 +1548,6 @@ msgstr "विण्डो समूहेन"
 #, kde-format
 msgid "Fullscreen windows"
 msgstr "पूर्णपर्दे विण्डोज"
-
-#: plugins/eis/eisinputcapturemanager.cpp:124
-#, kde-format
-msgctxt "@action shortcut"
-msgid "Disable Active Input Capture"
-msgstr "सक्रियइनपुटग्रहणं निष्क्रियं कुरु।"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Duration)
 #: plugins/glide/glide_config.ui:19
@@ -3640,19 +3512,19 @@ msgstr "संवादः"
 msgid "..."
 msgstr "..."
 
-#: sm.cpp:479
+#: sm.cpp:480
 #, kde-format
 msgctxt "@action:button"
 msgid "Cancel Logout"
 msgstr "लॉगआउट् रद्दं कुर्वन्तु"
 
-#: sm.cpp:480
+#: sm.cpp:481
 #, kde-format
 msgctxt "@action::button"
 msgid "Log Out Anyway"
 msgstr "तथापि निर्गच्छन्तु"
 
-#: sm.cpp:526
+#: sm.cpp:527
 #, kde-format
 msgid ""
 "The following applications did not close:\n"
@@ -4259,7 +4131,7 @@ msgstr "किल विण्डो"
 msgid "Activate Window (%1)"
 msgstr "विण्डो सक्रियं कुर्वन्तु (%1) ."
 
-#: utils/edid.cpp:319
+#: utils/edid.cpp:324
 #, kde-format
 msgid "unknown"
 msgstr "अज्ञात"
@@ -4335,7 +4207,7 @@ msgctxt "Application is not responding, appended to window title"
 msgid "(Not Responding)"
 msgstr "(प्रतिक्रिया न ददाति)"
 
-#: workspace.cpp:1704
+#: workspace.cpp:1693
 #, kde-format
 msgctxt "Introductory text shown in the support information."
 msgid ""
@@ -4356,10 +4228,97 @@ msgstr ""
 "कृपया अस्य परिचयपाठस्य अधः प्रदत्तां सूचनां पेस्ट् बिन् सेवायां स्थापयन्तु\n"
 "समर्थनसूत्रेषु चिनोतुः स्थाने https://paste.kde.org इव ।\n"
 
-#: xwayland/xwaylandlauncher.cpp:270
+#: xwayland/xwaylandlauncher.cpp:272
 #, kde-format
 msgid "Xwayland has crashed"
 msgstr "Xwayland दुर्घटना अभवत्"
+
+#~ msgid "Start a rootless Xwayland server."
+#~ msgstr "मूलहीनं Xwayland सर्वरं आरभत।"
+
+#~ msgid ""
+#~ "Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
+#~ msgstr ""
+#~ "श्रोतुं वेलैण्ड् सॉकेटस्य नाम। यदि सेट् न भवति तर्हि \"wayland-0\" इत्यस्य उपयोगः भवति ।"
+
+#~ msgid "The X11 Display to use in windowed mode on platform X11."
+#~ msgstr "X11 मञ्चे विण्डोड् मोड् मध्ये उपयोक्तुं X11 Display ।"
+
+#~ msgid "The Wayland Display to use in windowed mode on platform Wayland."
+#~ msgstr "मञ्चे Wayland इत्यस्मिन् विण्डोड् मोड् इत्यस्मिन् उपयोक्तुं Wayland Display ।"
+
+#~ msgid "Render to a virtual framebuffer."
+#~ msgstr "वर्चुअल् फ्रेमबफरं प्रति रेण्डर् कुर्वन्तु ।"
+
+#~ msgid "The width for windowed mode. Default width is 1024."
+#~ msgstr "विण्डोड् मोड् कृते विस्तारः । पूर्वनिर्धारितविस्तारः १०२४ अस्ति ।"
+
+#~ msgid "The height for windowed mode. Default height is 768."
+#~ msgstr "विण्डोड् मोड् कृते ऊर्ध्वता । पूर्वनिर्धारित ऊर्ध्वता ७६८ अस्ति ।"
+
+#~ msgid "The scale for windowed mode. Default value is 1."
+#~ msgstr "विण्डोड् मोड् कृते स्केल । पूर्वनिर्धारितं मूल्यं 1 अस्ति ।"
+
+#~ msgid ""
+#~ "The number of windows to open as outputs in windowed mode. Default value "
+#~ "is 1"
+#~ msgstr ""
+#~ "विण्डोड् मोड् मध्ये आउटपुट् रूपेण उद्घाटयितुं विण्डोस् संख्या । पूर्वनिर्धारितं मूल्यं 1 अस्ति"
+
+#~ msgid ""
+#~ "Wayland socket to use for incoming connections. This can be combined with "
+#~ "--socket to name the socket"
+#~ msgstr ""
+#~ "आगच्छन्तसंयोजनानां कृते उपयोक्तुं Wayland socket । एतत् --socket इत्यनेन सह संयोजयित्वा "
+#~ "socket इत्यस्य नामकरणं कर्तुं शक्यते"
+
+#~ msgid ""
+#~ "XWayland socket to use for Xwayland's incoming connections. This can be "
+#~ "set multiple times"
+#~ msgstr ""
+#~ "Xwayland इत्यस्य आगच्छन्तसंयोजनानां कृते उपयोक्तुं XWayland सॉकेट् । एतत् बहुवारं सेट् कर्तुं "
+#~ "शक्यते"
+
+#~ msgid "Name of the xwayland display that has been pre-set up"
+#~ msgstr "पूर्वं स्थापितं xwayland प्रदर्शनस्य नाम"
+
+#~ msgid "Name of the xauthority file "
+#~ msgstr "xauthority सञ्चिकायाः नाम "
+
+#~ msgid "Exits this instance so it can be restarted by kwin_wayland_wrapper."
+#~ msgstr ""
+#~ "अस्मात् उदाहरणात् निर्गच्छति अतः kwin_wayland_wrapper द्वारा पुनः आरभ्यतुं शक्यते ।"
+
+#~ msgid "Render through drm node."
+#~ msgstr "drm नोड् इत्यस्य माध्यमेन रेण्डर् कुर्वन्तु।"
+
+#~ msgid ""
+#~ "Extract locale information from locale1 rather than the user's "
+#~ "configuration"
+#~ msgstr "उपयोक्तुः विन्यासस्य अपेक्षया locale1 तः locale सूचनां निष्कासयन्तु"
+
+#~ msgid "Input method that KWin starts."
+#~ msgstr "KWin आरभ्यते इति निवेशविधिः ।"
+
+#~ msgid "Starts the session in locked mode."
+#~ msgstr "सत्रं लॉक्ड् मोड् मध्ये आरभते ।"
+
+#~ msgid "Starts the session without lock screen support."
+#~ msgstr "लॉक् स्क्रीन समर्थनं विना सत्रं आरभते ।"
+
+#~ msgid "Starts the session without global shortcuts support."
+#~ msgstr "वैश्विकशॉर्टकटसमर्थनं विना सत्रं आरभते ।"
+
+#~ msgid ""
+#~ "Exit after the session application, which is started by KWin, closed."
+#~ msgstr "KWin द्वारा आरब्धस्य सत्रस्य अनुप्रयोगस्य बन्दीकरणानन्तरं निर्गच्छन्तु ।"
+
+#~ msgid "Applications to start once Wayland and Xwayland server are started"
+#~ msgstr "एकवारं Wayland तथा Xwayland सर्वरः आरब्धः चेत् अनुप्रयोगाः आरभ्यन्ते"
+
+#~ msgctxt "@action shortcut"
+#~ msgid "Disable Active Input Capture"
+#~ msgstr "सक्रियइनपुटग्रहणं निष्क्रियं कुरु।"
 
 #~ msgctxt "@item:inlistbox Button size:"
 #~ msgid "Tiny"
