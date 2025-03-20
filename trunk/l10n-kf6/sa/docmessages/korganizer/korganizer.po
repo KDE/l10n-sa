@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: korganizer\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-18 00:54+0000\n"
+"POT-Creation-Date: 2025-03-20 00:53+0000\n"
 "PO-Revision-Date: 2024-12-25 19:45+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -6867,13 +6867,26 @@ msgstr ""
 "guilabel> इति चिनोतु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3352
+#: index.docbook:3353
+#, fuzzy, no-c-format
+#| msgid "<guimenu> Go</guimenu><guimenuitem>Day</guimenuitem>"
+msgid "<guimenu>Go</guimenu><guimenuitem>Pick a Date</guimenuitem>"
+msgstr "<guimenu> गच्छतु</guimenu><guimenuitem>दिवसः</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:3355
+#, no-c-format
+msgid "Opens a a date selection dialog for quickly navigating the view."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:3359
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>Show</guimenuitem>"
 msgstr "<guimenu>क्रियाः</guimenu> <guimenuitem>प्रदर्शन</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3356
+#: index.docbook:3363
 #, no-c-format
 msgid ""
 "Choose <guilabel>Show</guilabel> to <action>open a dialog showing the "
@@ -6883,13 +6896,13 @@ msgstr ""
 "<action>उद्घाटयितुं <guilabel>प्रदर्शन</guilabel> इति चिनोतु ।</action>"
 
 #. Tag: menuchoice
-#: index.docbook:3362
+#: index.docbook:3369
 #, no-c-format
 msgid "<guimenu>Actions</guimenu> <guimenuitem>Edit...</guimenuitem>"
 msgstr "<guimenu>क्रियाः</guimenu> <guimenuitem>सम्पादयतु...</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3366
+#: index.docbook:3373
 #, no-c-format
 msgid ""
 "Choose <guilabel>Edit...</guilabel> to <action>edit the currently selected "
@@ -6899,7 +6912,7 @@ msgstr ""
 "<guilabel>सम्पादयतु...</guilabel> इति चिनोतु ।</action>"
 
 #. Tag: menuchoice
-#: index.docbook:3371
+#: index.docbook:3378
 #, no-c-format
 msgid ""
 "<shortcut> &Del; </shortcut> <guimenu>Actions</guimenu> <guimenuitem>Delete</"
@@ -6909,7 +6922,7 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3378
+#: index.docbook:3385
 #, no-c-format
 msgid ""
 "Choose <guilabel>Delete</guilabel> to <action>remove the currently selected "
@@ -6919,7 +6932,7 @@ msgstr ""
 "<guilabel>विलोपन</guilabel> इति चिनोतु ।</action>"
 
 #. Tag: menuchoice
-#: index.docbook:3383
+#: index.docbook:3390
 #, no-c-format
 msgid ""
 "<guimenu>Actions</guimenu> <guimenuitem>Make Sub-to-do Independent</"
@@ -6927,7 +6940,7 @@ msgid ""
 msgstr "<guimenu>क्रियाः</guimenu> <guimenuitem>उपकरणं स्वतन्त्रं कुरुत</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3387
+#: index.docbook:3394
 #, no-c-format
 msgid ""
 "Choose <guilabel>Make Sub-to-do Independent</guilabel> to detach the "
@@ -6938,13 +6951,13 @@ msgstr ""
 "कृत्वा स्वतन्त्रं कर्तव्यं द्रव्यं कर्तुं ।"
 
 #. Tag: title
-#: index.docbook:3397
+#: index.docbook:3404
 #, no-c-format
 msgid "Schedule"
 msgstr "कार्यक्रमः"
 
 #. Tag: menuchoice
-#: index.docbook:3402
+#: index.docbook:3409
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Publish Item Information...</"
@@ -6952,14 +6965,14 @@ msgid ""
 msgstr "<guimenu>अनुसूची</guimenu> <guimenuitem>वस्तुसूचना प्रकाशयतु...</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3406
+#: index.docbook:3413
 #, no-c-format
 msgid ""
 "Email the selected event, to-do or journal entry in the iCalendar format."
 msgstr "चयनितं घटनां, कर्तव्यं वा पत्रिकाप्रविष्टिं iCalendar प्रारूपेण ईमेल कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3408
+#: index.docbook:3415
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -6968,7 +6981,7 @@ msgstr ""
 "अस्य क्रियायाः विषये अधिकविवरणार्थं कृपया <xref linkend=\"publish\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3413
+#: index.docbook:3420
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Send Invitation to Attendees</"
@@ -6977,7 +6990,7 @@ msgstr ""
 "<guimenu>कार्यक्रमः</guimenu> <guimenuitem>उपस्थितेभ्यः आमन्त्रणं प्रेषयतु</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3417
+#: index.docbook:3424
 #, no-c-format
 msgid ""
 "Send the selected to-do or event to the attendees, and, if necessary, "
@@ -6986,7 +6999,7 @@ msgstr ""
 "चयनितं कार्यं वा आयोजनं वा उपस्थितानां कृते प्रेषयन्तु, आवश्यके सति तेभ्यः प्रतिक्रियां याचयन्तु ।"
 
 #. Tag: para
-#: index.docbook:3419
+#: index.docbook:3426
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -6995,14 +7008,14 @@ msgstr ""
 "अस्य क्रियायाः विषये अधिकविवरणार्थं कृपया <xref linkend=\"request\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3424
+#: index.docbook:3431
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Send Status Update</guimenuitem>"
 msgstr "<guimenu>अनुसूची</guimenu> <guimenuitem>स्थिति-अद्यतनं प्रेषयतु</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3428
+#: index.docbook:3435
 #, no-c-format
 msgid ""
 "If you changed your status as an attendee, choose this menu item to send "
@@ -7012,7 +7025,7 @@ msgstr ""
 "&etc;) द्रव्यस्य आयोजकं प्रति प्रेषयितुं एतत् मेनू-वस्तुं चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:3431
+#: index.docbook:3438
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend=\"reply"
@@ -7020,7 +7033,7 @@ msgid ""
 msgstr "अस्य क्रियायाः विषये अधिकविवरणार्थं कृपया <xref linkend=\"reply\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3436
+#: index.docbook:3443
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Send Cancellation to Attendees</"
@@ -7029,7 +7042,7 @@ msgstr ""
 "<guimenu>अनुसूची</guimenu> <guimenuitem>उपस्थितेभ्यः रद्दीकरणं प्रेषयतु</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3440
+#: index.docbook:3447
 #, no-c-format
 msgid ""
 "If you plan to cancel an event or to-do, select it, and choose this menu "
@@ -7039,7 +7052,7 @@ msgstr ""
 "कृते रद्दीकरणस्य विषये सूचयितुं एतत् मेनू-वस्तु चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:3442
+#: index.docbook:3449
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -7047,20 +7060,20 @@ msgid ""
 msgstr "अस्य क्रियायाः विषये अधिकविवरणार्थं कृपया <xref linkend=\"cancel\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3447
+#: index.docbook:3454
 #, no-c-format
 msgid "<guimenu>Schedule</guimenu> <guimenuitem>Request Update</guimenuitem>"
 msgstr "<guimenu>अनुसूची</guimenu> <guimenuitem>अद्यतनस्य अनुरोधः</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3451
+#: index.docbook:3458
 #, no-c-format
 msgid ""
 "Request the latest version of the selected event or to-do from the organizer."
 msgstr "चयनितस्य आयोजनस्य अथवा कार्यस्य नवीनतमं संस्करणं आयोजकात् अनुरोधयन्तु।"
 
 #. Tag: para
-#: index.docbook:3453
+#: index.docbook:3460
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -7069,20 +7082,20 @@ msgstr ""
 "अस्य क्रियायाः विषये अधिकविवरणार्थं कृपया <xref linkend=\"refresh\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3458
+#: index.docbook:3465
 #, no-c-format
 msgid "<guimenu>Schedule</guimenu> <guimenuitem>Request Change</guimenuitem>"
 msgstr "<guimenu>अनुसूची</guimenu> <guimenuitem>परिवर्तनस्य अनुरोधः</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3462
+#: index.docbook:3469
 #, no-c-format
 msgid ""
 "Send an alternative proposal to the organizer of the selected event or to-do."
 msgstr "चयनितस्य आयोजनस्य वा कर्तव्यस्य वा आयोजकं प्रति वैकल्पिकं प्रस्तावं प्रेषयन्तु।"
 
 #. Tag: para
-#: index.docbook:3465
+#: index.docbook:3472
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend="
@@ -7091,7 +7104,7 @@ msgstr ""
 "अस्य क्रियायाः विषये अधिकविवरणार्थं कृपया <xref linkend=\"counter\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3480
+#: index.docbook:3487
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Mail Free Busy Information...</"
@@ -7099,13 +7112,13 @@ msgid ""
 msgstr "<guimenu>अनुसूची</guimenu> <guimenuitem>मेल मुक्तव्यस्तसूचना...</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3484
+#: index.docbook:3491
 #, no-c-format
 msgid "Email your Free Busy information to one or more email addresses."
 msgstr "स्वस्य Free Busy सूचनां एकस्मिन् वा अधिके ईमेल-सङ्केते ईमेल-द्वारा प्रेषयन्तु ।"
 
 #. Tag: para
-#: index.docbook:3486 index.docbook:3497
+#: index.docbook:3493 index.docbook:3504
 #, no-c-format
 msgid ""
 "For more information about this action, please refer to <xref linkend=\"free-"
@@ -7114,7 +7127,7 @@ msgstr ""
 "अस्य क्रियायाः विषये अधिकविवरणार्थं कृपया <xref linkend=\"free-busy\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: index.docbook:3491
+#: index.docbook:3498
 #, no-c-format
 msgid ""
 "<guimenu>Schedule</guimenu> <guimenuitem>Upload Free Busy Information</"
@@ -7124,7 +7137,7 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3495
+#: index.docbook:3502
 #, no-c-format
 msgid ""
 "Upload your Free Busy information to the groupware server. Other users will "
@@ -7134,13 +7147,13 @@ msgstr ""
 "प्राप्तुं शक्नुवन्ति ।"
 
 #. Tag: title
-#: index.docbook:3506
+#: index.docbook:3513
 #, no-c-format
 msgid "Settings and Help"
 msgstr "सेटिंग्स् तथा सहायता"
 
 #. Tag: para
-#: index.docbook:3508
+#: index.docbook:3515
 #, no-c-format
 msgid ""
 "Apart from the common &kde; menus described in the <ulink url=\"help:/"
@@ -7152,13 +7165,13 @@ msgstr ""
 "अनुप्रयोगविशिष्टानि सेटिंग्स् तथा सहायता मेनू प्रविष्टयः सन्ति:"
 
 #. Tag: menuchoice
-#: index.docbook:3515
+#: index.docbook:3522
 #, no-c-format
 msgid "<guimenu>Settings</guimenu> <guisubmenu>Sidebar</guisubmenu>"
 msgstr "<guimenu>सेटिंग्स्</guimenu> <guisubmenu>पार्श्वपट्टिका</guisubmenu>"
 
 #. Tag: para
-#: index.docbook:3519
+#: index.docbook:3526
 #, no-c-format
 msgid ""
 "<action>Click the menu items of this submenu to show or hide &korganizer; "
@@ -7171,7 +7184,7 @@ msgstr ""
 "\"config-main-views\"> वर्तमानदृश्यं पूर्णविण्डो न उपयुङ्क्ते ।</link>"
 
 #. Tag: menuchoice
-#: index.docbook:3526
+#: index.docbook:3533
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu> <guimenuitem>Configure Date &amp; Time...</"
@@ -7180,7 +7193,7 @@ msgstr ""
 "<guimenu>सेटिंग्स्</guimenu> <guimenuitem>तिथिं विन्यस्य &amp; दल...</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3530
+#: index.docbook:3537
 #, no-c-format
 msgid ""
 "<action>Click this menu item to set the desktop date and time formats</"
@@ -7190,7 +7203,7 @@ msgstr ""
 "यत् एतत् सेटिङ्ग् अन्येषां डेस्कटॉप् अनुप्रयोगानाम् मध्ये साझा भवति ।"
 
 #. Tag: menuchoice
-#: index.docbook:3536
+#: index.docbook:3543
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu> <guisubmenu>Manage View Filters...</guisubmenu>"
@@ -7198,7 +7211,7 @@ msgstr ""
 "<guimenu>सेटिंग्स्</guimenu> <guisubmenu>दृश्य-छिद्राणि प्रबन्धयन्तु...</guisubmenu>"
 
 #. Tag: para
-#: index.docbook:3540
+#: index.docbook:3547
 #, no-c-format
 msgid ""
 "<action>Choose this menu item to open the <guilabel>Edit Filters</guilabel> "
@@ -7210,13 +7223,13 @@ msgstr ""
 "शक्नोति यत् &korganizer;-द्वारा केषां द्रव्याणां प्रदर्शनं भविष्यति इति प्रभावितं करिष्यति ।"
 
 #. Tag: menuchoice
-#: index.docbook:3547
+#: index.docbook:3554
 #, no-c-format
 msgid "<guimenu>Settings</guimenu> <guimenuitem>Manage Tags...</guimenuitem>"
 msgstr "<guimenu>सेटिंग्स्</guimenu> <guimenuitem>टैग्स् प्रबन्धयन्तु...</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:3551
+#: index.docbook:3558
 #, no-c-format
 msgid ""
 "<action>Choose this menu item to open the <guilabel>Manage Tags</guilabel> "
@@ -7229,13 +7242,13 @@ msgstr ""
 "शक्नोति । सम्बन्धितसमूहेषु भवतः आयोजनानि कार्याणि च व्यवस्थितुं टैग्स् उपयुज्यन्ते ।"
 
 #. Tag: title
-#: index.docbook:3566
+#: index.docbook:3573
 #, no-c-format
 msgid "Other Features"
 msgstr "अन्यविशेषताः"
 
 #. Tag: para
-#: index.docbook:3568
+#: index.docbook:3575
 #, no-c-format
 msgid ""
 "In this chapter, you'll learn of other useful features of &korganizer;: what "
@@ -7245,13 +7258,13 @@ msgstr ""
 "मूषकस्य क्लिक् कृत्वा के के युक्तयः कर्तुं शक्नुवन्ति ।"
 
 #. Tag: title
-#: index.docbook:3573
+#: index.docbook:3580
 #, no-c-format
 msgid "Command Line"
 msgstr "आदेशपङ्क्तिः"
 
 #. Tag: para
-#: index.docbook:3575
+#: index.docbook:3582
 #, no-c-format
 msgid ""
 "A nice program to access a &kde; calendar from the command line is "
@@ -7259,13 +7272,13 @@ msgid ""
 msgstr "एकं &kde; आदेशपङ्क्तौ calendar इति konsolekalendar इति ।"
 
 #. Tag: title
-#: index.docbook:3580
+#: index.docbook:3587
 #, no-c-format
 msgid "Drag and Drop Operations"
 msgstr "Drag and Drop Operations इति"
 
 #. Tag: para
-#: index.docbook:3582
+#: index.docbook:3589
 #, no-c-format
 msgid ""
 "&korganizer; can be easily controlled with your mouse. The supported drag-"
@@ -7275,7 +7288,7 @@ msgstr ""
 "अधः विस्तृताः सन्ति ।"
 
 #. Tag: para
-#: index.docbook:3587
+#: index.docbook:3594
 #, no-c-format
 msgid ""
 "Any event can be re-sized with your mouse. Simply move the mouse pointer "
@@ -7289,7 +7302,7 @@ msgstr ""
 "दृश्येषु कार्यं करोति ।"
 
 #. Tag: para
-#: index.docbook:3591
+#: index.docbook:3598
 #, no-c-format
 msgid ""
 "Any event can be rescheduled with your mouse. Move the mouse pointer over "
@@ -7301,7 +7314,7 @@ msgstr ""
 "कार्यं करोति ।"
 
 #. Tag: para
-#: index.docbook:3594
+#: index.docbook:3601
 #, no-c-format
 msgid ""
 "Events can be copied to other, presently non-visible dates. Move the mouse "
@@ -7313,7 +7326,7 @@ msgstr ""
 "Navigator प्रति कर्षयन्तु ।"
 
 #. Tag: para
-#: index.docbook:3598
+#: index.docbook:3605
 #, no-c-format
 msgid ""
 "However, you cannot drag from Agenda view in one calendar to Agenda view in "
@@ -7323,7 +7336,7 @@ msgstr ""
 "शक्नुवन्ति ।"
 
 #. Tag: para
-#: index.docbook:3600
+#: index.docbook:3607
 #, no-c-format
 msgid ""
 "Toolbars can be dragged on the screen. Move the mouse pointer over the "
@@ -7333,19 +7346,19 @@ msgstr ""
 "च स्वस्य पटले नूतनस्थानं प्रति कर्षयन्तु ।"
 
 #. Tag: title
-#: index.docbook:3610
+#: index.docbook:3617
 #, no-c-format
 msgid "Questions and Answers"
 msgstr "प्रश्नोत्तरम्"
 
 #. Tag: para
-#: index.docbook:3615
+#: index.docbook:3622
 #, no-c-format
 msgid "Can I use freebusy-time with &korganizer;?"
 msgstr "&korganizer; इत्यनेन सह freebusy-time इत्यस्य उपयोगं कर्तुं शक्नोमि वा?"
 
 #. Tag: para
-#: index.docbook:3617
+#: index.docbook:3624
 #, no-c-format
 msgid ""
 "Yes, follow the instructions in <link linkend=\"config-main-free-busy\">Free/"
@@ -7355,61 +7368,61 @@ msgstr ""
 "व्यस्त</link> ."
 
 #. Tag: title
-#: index.docbook:3626
+#: index.docbook:3633
 #, no-c-format
 msgid "Credits and License"
 msgstr "श्रेयः अनुज्ञापत्रं च"
 
 #. Tag: para
-#: index.docbook:3628
+#: index.docbook:3635
 #, no-c-format
 msgid "&korganizer;"
 msgstr "&आयोजक;"
 
 #. Tag: para
-#: index.docbook:3630
+#: index.docbook:3637
 #, no-c-format
 msgid "Program copyright 2000-2010, The &kde; Developers"
 msgstr "कार्यक्रमस्य प्रतिलिपिधर्मः २०००-२०१०, The &kde; विकासकाः"
 
 #. Tag: para
-#: index.docbook:3632
+#: index.docbook:3639
 #, no-c-format
 msgid "Contributors:"
 msgstr "योगदानकर्ताः :"
 
 #. Tag: para
-#: index.docbook:3635
+#: index.docbook:3642
 #, no-c-format
 msgid "Allen Winter <email>winter@kde.org</email>"
 msgstr "सर्वं शिशिरं <email>winter@kde.org</email>"
 
 #. Tag: para
-#: index.docbook:3637
+#: index.docbook:3644
 #, no-c-format
 msgid "Reinhold Kainhofer <email>reinhold@kainhofer.com</email>"
 msgstr "रेनहोल्ड कैनहोफर <email>reinhold@kainhofer.com</email>"
 
 #. Tag: para
-#: index.docbook:3639
+#: index.docbook:3646
 #, no-c-format
 msgid "&Cornelius.Schumacher; &Cornelius.Schumacher.mail;"
 msgstr "&कॉर्नेलियस.शुमाकर; &कॉर्नेलियस.शुमाकर.मेल;"
 
 #. Tag: para
-#: index.docbook:3641
+#: index.docbook:3648
 #, no-c-format
 msgid "&Preston.Brown; &Preston.Brown.mail;"
 msgstr "&प्रेस्टन.ब्राउन; &प्रेस्टन.ब्राउन.मेल;"
 
 #. Tag: para
-#: index.docbook:3645
+#: index.docbook:3652
 #, no-c-format
 msgid "Documentation copyright 2000 &Milos.Prudek;"
 msgstr "दस्तावेजीकरण प्रतिलिपि अधिकार 2000 &Milos.Prudek;"
 
 #. Tag: para
-#: index.docbook:3646
+#: index.docbook:3653
 #, no-c-format
 msgid ""
 "Documentation copyright 2001 Paul E. Ahlquist, Jr <email>&Paul.E.Ahlquist.Jr."
@@ -7419,7 +7432,7 @@ msgstr ""
 "mail;</email>"
 
 #. Tag: para
-#: index.docbook:3648
+#: index.docbook:3655
 #, no-c-format
 msgid ""
 "Documentation copyright 2004 J&uuml;rgen Nagel <email>juergen.nagel@student."
@@ -7429,7 +7442,7 @@ msgstr ""
 "fh-reutlingen.de</email>"
 
 #. Tag: para
-#: index.docbook:3650
+#: index.docbook:3657
 #, no-c-format
 msgid ""
 "Documentation copyright 2005 Carlos Leonhard Woelz <email>carloswoelz@imap-"
@@ -7439,31 +7452,31 @@ msgstr ""
 "mail.com</email>"
 
 #. Tag: trans_comment
-#: index.docbook:3653
+#: index.docbook:3660
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:3653
+#: index.docbook:3660
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
 
 #. Tag: title
-#: index.docbook:3661
+#: index.docbook:3668
 #, no-c-format
 msgid "Glossary"
 msgstr "शब्दावली"
 
 #. Tag: glossterm
-#: index.docbook:3664
+#: index.docbook:3671
 #, no-c-format
 msgid "Calendar Widget"
 msgstr "कैलेण्डर विजेट"
 
 #. Tag: para
-#: index.docbook:3667
+#: index.docbook:3674
 #, no-c-format
 msgid ""
 "A tool for choosing the date inside certain entry windows, such as the event "
@@ -7478,13 +7491,13 @@ msgstr ""
 "मासनाम वा वर्षसङ्ख्यां वा क्लिक् कुर्वन्तु ।"
 
 #. Tag: glossterm
-#: index.docbook:3677
+#: index.docbook:3684
 #, no-c-format
 msgid "Date Navigator"
 msgstr "तिथि नेविगेटर"
 
 #. Tag: para
-#: index.docbook:3680
+#: index.docbook:3687
 #, no-c-format
 msgid ""
 "The calendar that is in the upper-left corner of the &korganizer; window. It "
@@ -7504,7 +7517,7 @@ msgstr ""
 "बहुविधाः समीपस्थतिथिः चिन्वितुं इच्छति । मुख्यपटले तिथयः प्रदर्शिताः भविष्यन्ति ।"
 
 #. Tag: para
-#: index.docbook:3689
+#: index.docbook:3696
 #, no-c-format
 msgid ""
 "Recurring events are not always displayed. You can prevent the display of "
@@ -7516,13 +7529,13 @@ msgstr ""
 "\"config-main-views\"> अध्यायः पश्यति</link> ."
 
 #. Tag: glossterm
-#: index.docbook:3697
+#: index.docbook:3704
 #, no-c-format
 msgid "Due Date"
 msgstr "द्वे तिथौ"
 
 #. Tag: para
-#: index.docbook:3700
+#: index.docbook:3707
 #, no-c-format
 msgid ""
 "A due date is simply the date when your to-do must be finished. For "
@@ -7534,13 +7547,13 @@ msgstr ""
 "करणीयम्, तर्हि सा तिथिः <quote>कर्तव्यतिथिः</quote> इति उच्यते"
 
 #. Tag: glossterm
-#: index.docbook:3732
+#: index.docbook:3739
 #, no-c-format
 msgid "Main panel"
 msgstr "मुख्य पटल"
 
 #. Tag: para
-#: index.docbook:3734
+#: index.docbook:3741
 #, no-c-format
 msgid ""
 "Normally the largest part of the screen, to the right of the Date Navigator. "
@@ -7551,7 +7564,7 @@ msgstr ""
 "कार्यदिनानां, सप्ताहस्य वा मासस्य वा दृश्यं, सूचीदृश्यं वा To-do List दृश्यं वा प्रदर्शयति ।"
 
 #. Tag: para
-#: index.docbook:3737
+#: index.docbook:3744
 #, no-c-format
 msgid ""
 "The right mouse button can be used in the List view and To-do List view "
@@ -7562,13 +7575,13 @@ msgstr ""
 "स्थानीयं मेनू प्रदर्शयति । वाममूषकस्य बटनं कस्मिन् अपि दृश्ये उपयोक्तुं शक्यते ।"
 
 #. Tag: glossterm
-#: index.docbook:3744
+#: index.docbook:3751
 #, no-c-format
 msgid "Free/busy"
 msgstr "मुक्त/व्यस्त"
 
 #. Tag: para
-#: index.docbook:3746
+#: index.docbook:3753
 #, no-c-format
 msgid ""
 "The free/busy information is a set of busy time intervals. By presenting the "
@@ -7583,7 +7596,7 @@ msgstr ""
 "शब्देषु, निःशुल्क/व्यस्तसूचना उपलब्धतायाः समयसूची अस्ति।"
 
 #. Tag: para
-#: index.docbook:3751
+#: index.docbook:3758
 #, no-c-format
 msgid ""
 "When adding attendees to your event, you need to know if they are busy or "
