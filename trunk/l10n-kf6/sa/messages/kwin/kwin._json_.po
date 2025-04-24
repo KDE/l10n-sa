@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-03-11 00:50+0000\n"
+"POT-Creation-Date: 2025-04-24 00:50+0000\n"
 "PO-Revision-Date: 2024-12-13 19:10+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -11,6 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
+
+#: src/kcms/animations/kcm_animations.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"animations,animation speed,transitions,effects,window open close,window open/"
+"close,window maximize,window minimize,window full screen,peek at desktop,"
+"peek desktop,virtual desktop switching,fade effect,glide effect,scale effect,"
+"stretch effect,magic lamp effect,squash effect,eye on screen effect,window "
+"aperture effect,slide effect,fading popups effect,sliding popups effect,"
+"login effect,logout effect"
+msgstr ""
 
 #: src/kcms/decoration/kcm_kwindecoration.json
 msgctxt "X-KDE-Keywords"
@@ -57,22 +68,18 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop "
-"effects,animations,various animations,window management effects,window "
-"switching effect,desktop switching effect,animations,desktop animations,"
-"drivers,driver settings,rendering,render,invert effect,looking glass effect,"
+"effects,animations,various animations,window management effects,animations,"
+"desktop animations,rendering,render,invert effect,looking glass effect,"
 "magnifier effect,snap helper effect,track mouse effect,zoom effect,blur "
-"effect,fade effect,fade desktop effect,fall apart effect,glide effect,"
-"highlight window effect,login effect,logout effect,magic lamp effect,"
-"minimize animation effect,mouse mark effect,scale effect,screenshot effect,"
-"sheet effect,slide effect,sliding popups effect,thumbnail aside effect,"
-"translucency,translucency effect,transparency,window geometry effect,wobbly "
-"windows effect,startup feedback effect,dialog parent effect,dim inactive "
-"effect,dim screen effect,slide back effect,eye candy,candy,show FPS effect,"
-"show paint effect,cover switch effect,desktop cube effect,desktop cube "
-"animation effect,desktop grid effect,flip switch effect,background contrast "
-"effect,bling,fading,movement,motion,overview windows effect,accessibility,"
-"cursor,pointer,mouse,hide cursor,hide cursor effect,hide pointer,hide "
-"pointer effect,hide mouse,hide mouse effect"
+"effect,fall apart effect,highlight window effect,mouse mark effect,"
+"screenshot effect,sheet effect,thumbnail aside effect,translucency,"
+"translucency effect,transparency,window geometry effect,wobbly windows "
+"effect,startup feedback effect,dialog parent effect,dim inactive effect,dim "
+"screen effect,slide back effect,eye candy,candy,show FPS effect,show paint "
+"effect,cover switch effect,desktop cube effect,desktop cube animation effect,"
+"desktop grid effect,background contrast effect,bling,fading,movement,motion,"
+"overview windows effect,accessibility,cursor,pointer,mouse,hide cursor,hide "
+"cursor effect,hide pointer,hide pointer effect,hide mouse,hide mouse effect"
 msgstr ""
 "kwin,विंडो,प्रबंधक,प्रभाव,3D प्रभाव,2D प्रभाव,ग्राफिकल प्रभाव,डेस्कटॉप प्रभाव,एनीमेशन,"
 "विभिन्न एनीमेशन,विंडो प्रबंधन प्रभाव,विंडो स्विचिंग प्रभाव,डेस्कटॉप स्विचिंग प्रभाव,एनीमेशन,"
@@ -158,6 +165,11 @@ msgstr "सॉफ्टवेयर कीबोर्ड,वर्चुअल 
 msgctxt "X-KDE-Keywords"
 msgid "xwayland,global,keys,forward"
 msgstr "xwayland,global,keys,अग्रे"
+
+#: src/kcms/animations/kcm_animations.json
+msgctxt "Name"
+msgid "Animations"
+msgstr ""
 
 #: src/kcms/decoration/kcm_kwindecoration.json
 msgctxt "Name"
@@ -265,18 +277,17 @@ msgid "Eye on Screen"
 msgstr "पर्दायां नेत्रम्"
 
 #: src/plugins/fadedesktop/package/metadata.json
-msgctxt "Name"
-msgid "Fade Desktop"
-msgstr "डेस्कटॉपं फीका कुर्वन्तु"
-
 #: src/plugins/fade/package/metadata.json
 msgctxt "Name"
 msgid "Fade"
 msgstr "म्लै"
 
 #: src/plugins/fadingpopups/package/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Fading Popups"
 msgctxt "Name"
-msgid "Fading Popups"
+msgid "Fading popups"
 msgstr "फीका Popups"
 
 #: src/plugins/fallapart/metadata.json
@@ -290,9 +301,10 @@ msgid "Desaturate Unresponsive Applications"
 msgstr "अप्रतिसादित अनुप्रयोगों को असंतृप्त करें"
 
 #: src/plugins/fullscreen/package/metadata.json
+#: src/plugins/maximize/package/metadata.json
 msgctxt "Name"
-msgid "Full Screen"
-msgstr "पूर्णपर्दे"
+msgid "Stretch"
+msgstr ""
 
 #: src/plugins/glide/metadata.json
 msgctxt "Name"
@@ -338,11 +350,6 @@ msgstr "जादू दीपक"
 msgctxt "Name"
 msgid "Magnifier"
 msgstr "आवर्धक"
-
-#: src/plugins/maximize/package/metadata.json
-msgctxt "Name"
-msgid "Maximize"
-msgstr "अधिकतमं कुरुत"
 
 #: src/plugins/minimizeall/package/metadata.json
 msgctxt "Name"
@@ -430,8 +437,11 @@ msgid "Slide"
 msgstr "च्यु"
 
 #: src/plugins/slidingpopups/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Sliding Popups"
 msgctxt "Name"
-msgid "Sliding Popups"
+msgid "Sliding popups"
 msgstr "स्लाइडिंग पॉपअप्स"
 
 #: src/plugins/snaphelper/metadata.json
@@ -513,6 +523,14 @@ msgstr "जूम"
 msgctxt "Name"
 msgid "Thumbnail Grid"
 msgstr "लघुचित्र जाल"
+
+#: src/kcms/animations/kcm_animations.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Configure window actions and behavior"
+msgctxt "Description"
+msgid "Configure animation speed and style"
+msgstr "विण्डो क्रियाः व्यवहारः च विन्यस्यताम्"
 
 #: src/kcms/decoration/kcm_kwindecoration.json
 msgctxt "Description"
@@ -620,19 +638,25 @@ msgid "Suck windows into the desktop"
 msgstr "डेस्कटॉप् मध्ये विण्डोस् चूषयन्तु"
 
 #: src/plugins/fadedesktop/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Fade between virtual desktops when switching between them"
 msgctxt "Description"
-msgid "Fade between virtual desktops when switching between them"
+msgid "Fade between virtual desktops when switching"
 msgstr "वर्चुअल् डेस्कटॉप् मध्ये स्विच् करणसमये फीका भवति"
 
 #: src/plugins/fade/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Make windows smoothly fade in and out when they are shown or hidden"
 msgctxt "Description"
-msgid "Make windows smoothly fade in and out when they are shown or hidden"
+msgid "Make windows fade in and out when they are shown or hidden"
 msgstr "खिडकयः दर्शिते वा गुप्ते वा सुचारुतया अन्तः बहिः च क्षीणाः भवेयुः"
 
 #: src/plugins/fadingpopups/package/metadata.json
 msgctxt "Description"
-msgid "Make popups smoothly fade in and out when they are shown or hidden"
-msgstr "पॉपअप्स् दर्शिते वा गुप्ते वा सुचारुतया अन्तः बहिः च क्षीणतां कुर्वन्तु"
+msgid "Fade popups in and out"
+msgstr ""
 
 #: src/plugins/fallapart/metadata.json
 msgctxt "Description"
@@ -645,8 +669,11 @@ msgid "Desaturate windows of unresponsive (frozen) applications"
 msgstr "अप्रतिसादितानां (जमेन) अनुप्रयोगानाम् विण्डोः विसंतृप्तं कुर्वन्तु"
 
 #: src/plugins/fullscreen/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Animation for a window going to and leaving full screen mode"
 msgctxt "Description"
-msgid "Animation for a window going to and leaving full screen mode"
+msgid "Stretch windows going to and leaving full screen mode"
 msgstr "पूर्णपर्दे मोडं गत्वा निर्गच्छन्तं च विण्डो कृते एनिमेशनम्"
 
 #: src/plugins/glide/metadata.json
@@ -677,13 +704,19 @@ msgid "Helper Effect for KScreen"
 msgstr "KScreen कृते सहायकः प्रभावः"
 
 #: src/plugins/login/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Smoothly fade to the desktop when logging in"
 msgctxt "Description"
-msgid "Smoothly fade to the desktop when logging in"
+msgid "Fade to the desktop when logging in"
 msgstr "प्रवेशं कुर्वन् डेस्कटॉप् प्रति सुचारुतया क्षीणं कुर्वन्तु"
 
 #: src/plugins/logout/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Smoothly fade to the logout screen"
 msgctxt "Description"
-msgid "Smoothly fade to the logout screen"
+msgid "Fade to the logout screen"
 msgstr "सुचारुतया लॉगआउट् स्क्रीन प्रति फीका भवति"
 
 #: src/plugins/magiclamp/metadata.json
@@ -699,9 +732,12 @@ msgid ""
 msgstr "मूषकस्य कर्सरस्य समीपे स्थितस्य स्क्रीनस्य खण्डं वर्धयन्तु; कीबोर्ड-शॉर्टकट्-सहितं सक्रियम्"
 
 #: src/plugins/maximize/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Squash windows when they are minimized"
 msgctxt "Description"
-msgid "Animation for a window going to maximize/restore from maximize"
-msgstr "अधिकतमं कर्तुं/maximize तः पुनर्स्थापनं कर्तुं गच्छन्तं विण्डो कृते एनिमेशनम्"
+msgid "Stretch windows when they are maximized or restored"
+msgstr "यदा न्यूनीकृताः भवन्ति तदा खिडकयः स्क्वैश कुर्वन्तु"
 
 #: src/plugins/minimizeall/package/metadata.json
 msgctxt "Description"
@@ -737,8 +773,11 @@ msgstr ""
 "वर्चुअल् डेस्कटॉप्स् तथा विण्डोस् इत्येतयोः अवलोकनं कर्तुं शक्नोति; कीबोर्ड-शॉर्टकट्-सहितं सक्रियम्"
 
 #: src/plugins/scale/package/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Make windows smoothly scale in and out when they are shown or hidden"
 msgctxt "Description"
-msgid "Make windows smoothly scale in and out when they are shown or hidden"
+msgid "Make windows scale in and out when they are shown or hidden"
 msgstr "खिडकयः दर्शिते वा गुप्ते वा सुचारुतया अन्तः बहिः च स्केल कुर्वन्तु"
 
 #: src/plugins/screenedge/metadata.json
@@ -801,14 +840,17 @@ msgid "Slide back windows when another window is raised"
 msgstr "अन्यं खिडकं यदा उत्थापितं भवति तदा विण्डोः पृष्ठतः स्लाइड् कुर्वन्तु"
 
 #: src/plugins/slide/metadata.json
+#, fuzzy
+#| msgctxt "Description"
+#| msgid "Fade between virtual desktops when switching between them"
 msgctxt "Description"
-msgid "Slide desktops when switching virtual desktops"
-msgstr "वर्चुअल् डेस्कटॉप्स् स्विच् करणसमये डेस्कटॉप्स् स्लाइड् कुर्वन्तु"
+msgid "Slide between virtual desktops when switching"
+msgstr "वर्चुअल् डेस्कटॉप् मध्ये स्विच् करणसमये फीका भवति"
 
 #: src/plugins/slidingpopups/metadata.json
 msgctxt "Description"
-msgid "Sliding animation for Plasma popups"
-msgstr "प्लाज्मा पॉपअप्स कृते स्लाइडिंग् एनिमेशन"
+msgid "Slide Plasma popups in and out"
+msgstr ""
 
 #: src/plugins/snaphelper/metadata.json
 msgctxt "Description"
@@ -982,6 +1024,34 @@ msgstr "Luboš Luňák, मार्टिन Gräßlin"
 msgctxt "Authors Name"
 msgid "Chris Holland"
 msgstr "क्रिस हॉलैण्ड्"
+
+#~ msgctxt "Name"
+#~ msgid "Fade Desktop"
+#~ msgstr "डेस्कटॉपं फीका कुर्वन्तु"
+
+#~ msgctxt "Name"
+#~ msgid "Full Screen"
+#~ msgstr "पूर्णपर्दे"
+
+#~ msgctxt "Name"
+#~ msgid "Maximize"
+#~ msgstr "अधिकतमं कुरुत"
+
+#~ msgctxt "Description"
+#~ msgid "Make popups smoothly fade in and out when they are shown or hidden"
+#~ msgstr "पॉपअप्स् दर्शिते वा गुप्ते वा सुचारुतया अन्तः बहिः च क्षीणतां कुर्वन्तु"
+
+#~ msgctxt "Description"
+#~ msgid "Animation for a window going to maximize/restore from maximize"
+#~ msgstr "अधिकतमं कर्तुं/maximize तः पुनर्स्थापनं कर्तुं गच्छन्तं विण्डो कृते एनिमेशनम्"
+
+#~ msgctxt "Description"
+#~ msgid "Slide desktops when switching virtual desktops"
+#~ msgstr "वर्चुअल् डेस्कटॉप्स् स्विच् करणसमये डेस्कटॉप्स् स्लाइड् कुर्वन्तु"
+
+#~ msgctxt "Description"
+#~ msgid "Sliding animation for Plasma popups"
+#~ msgstr "प्लाज्मा पॉपअप्स कृते स्लाइडिंग् एनिमेशन"
 
 #~ msgctxt "X-KDE-Keywords"
 #~ msgid ""
