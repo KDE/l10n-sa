@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lokalize\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-07-11 01:51+0000\n"
+"POT-Creation-Date: 2025-05-04 00:54+0000\n"
 "PO-Revision-Date: 2024-12-20 21:51+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1080,127 +1080,17 @@ msgstr ""
 #. Tag: title
 #: index.docbook:449
 #, no-c-format
-msgid "Scripting &lokalize;"
-msgstr "स्क्रिप्टिंग् &lokalize;"
-
-#. Tag: para
-#: index.docbook:451
-#, no-c-format
-msgid ""
-"&lokalize; is extensible using scripts in several interpreted languages, "
-"including Python and &javascript;. Scripts are usually integrated into the "
-"&lokalize; UI as menu actions (to which you may assign a keyboard shortcut). "
-"The location and name of the menu entry for the script is defined in its "
-"accompanying .rc file. On each project open, &lokalize; scans "
-"<filename>PROJECTDIR/lokalize-scripts</filename> folder for .rc files and "
-"adds them to a <emphasis>cache</emphasis> file called <filename>PROJECTDIR/"
-"lokalize-scripts/scripts.rc</filename> (so you shouldn't generally want to "
-"add it project's version control system). RC files also contain script "
-"paths, which may be relative to .rc file folder, or to a system scripts "
-"folder - they both are tried (though they <emphasis>should</emphasis> be "
-"kept in a relative location if you want to share them with other people in "
-"your project). For example, you can specify <filename>../../scripts/lokalize/"
-"opensrc.py</filename> to load a script from the <ulink url=\"https://websvn."
-"kde.org/trunk/l10n-kf5/scripts/lokalize/\">global kf5-l10n scripts folder</"
-"ulink> (&ie; not specific to your language)."
+msgid "External Tools"
 msgstr ""
-"&स्थानीयकरणम्; पायथन् तथा &javascript; इत्यादिषु अनेकव्याख्यातभाषासु स्क्रिप्ट् उपयुज्य "
-"विस्तारयोग्यम् अस्ति । स्क्रिप्ट् प्रायः &lokalize; UI मेनू क्रियारूपेण (यस्य कृते भवान् "
-"कीबोर्ड-शॉर्टकट् नियुक्तुं शक्नोति) । स्क्रिप्ट् कृते मेन्यू-प्रविष्टेः स्थानं नाम च तस्य सह .rc "
-"सञ्चिकायां परिभाषितम् अस्ति । प्रत्येकं परियोजनायां उद्घाटयन्तु, &lokalize; .rc सञ्चिकानां "
-"कृते <filename>PROJECTDIR/lokalize-scripts</filename> पुटं स्कैन करोति तथा च "
-"<filename>PROJECTDIR/lokalize-scripts/scripts.rc</filename> इति "
-"<emphasis>cache</emphasis> सञ्चिकायां योजयति ( अतः सामान्यतया भवन्तः इदं "
-"परियोजनायाः संस्करणनियन्त्रणप्रणालीं योजयितुम् न इच्छन्ति)। RC सञ्चिकासु स्क्रिप्ट्मार्गाः "
-"अपि सन्ति, ये .rc सञ्चिकापुटस्य सापेक्षाः भवितुम् अर्हन्ति, अथवा सिस्टम् स्क्रिप्ट्पुटस्य "
-"सापेक्षाः भवितुम् अर्हन्ति - तौ द्वौ अपि प्रयतितौ (यद्यपि ते <emphasis>should</"
-"emphasis> सापेक्षस्थाने स्थापनीयौ यदि भवान् साझां कर्तुम् इच्छति तान् भवतः परियोजनायां "
-"अन्यैः जनानां सह)। यथा, <ulink url=\"https://websvn.kde.org/trunk/l10n तः "
-"स्क्रिप्ट् लोड् कर्तुं <filename>../../scripts/lokalize/opensrc.py</filename> इति "
-"निर्दिष्टुं शक्नुथ -kf5/scripts/lokalize/\">global kf5-l10n scripts folder</ulink> "
-"(&अर्थात् भवतः भाषायाः विशिष्टं नास्ति)।"
-
-#. Tag: para
-#: index.docbook:460
-#, no-c-format
-msgid ""
-"Examples of .rc files may be found in &lokalize; install folder (usually "
-"<filename>/usr/share/lokalize/scripts/</filename>) and in the <ulink url="
-"\"https://websvn.kde.org/trunk/l10n-kf5/scripts/lokalize/\">&kde; "
-"repository</ulink>. <ulink url=\"https://websvn.kde.org/trunk/l10n-kde4/ru/"
-"lokalize-scripts/\">Here</ulink> you can find more script examples, "
-"including &javascript;-based <filename>check-gui.js</filename> that runs "
-"automatically on each file save (this is achieved via special option in .rc "
-"file). If you're familiar with Python or &javascript;, the code should be "
-"self-explanatory."
-msgstr ""
-".rc सञ्चिकानां उदाहरणानि &lokalize; संस्थापनपुटं (प्रायः <filename>/usr/share/"
-"lokalize/scripts/</filename>) तथा च <ulink url=\"https://websvn.kde.org/"
-"trunk/l10n-kf5/scripts/lokalize/\" इत्यत्र । >&kde; भण्डार</ulink> इति । <ulink "
-"url=\"https://websvn.kde.org/trunk/l10n-kde4/ru/lokalize-scripts/\">अत्र</"
-"ulink> भवान् &javascript;-आधारित <filename>check इत्यादीनि अधिकानि लिपि-"
-"उदाहरणानि प्राप्नुयात् -gui.js</filename> यत् प्रत्येकं सञ्चिकारक्षणे स्वयमेव चाल्यते (एतत् ."
-"rc सञ्चिकायां विशेषविकल्पद्वारा प्राप्तं भवति) । यदि भवान् Python अथवा &javascript; "
-"इत्यनेन परिचितः अस्ति तर्हि कोडः स्वयमेव व्याख्यातः भवितुम् अर्हति ।"
-
-#. Tag: para
-#: index.docbook:467
-#, no-c-format
-msgid ""
-"Below are links to API references. Everything marked as "
-"<emphasis>Q_SCRIPTABLE</emphasis> may be used from scripts."
-msgstr ""
-"अधः एपिआइ-सन्दर्भाणां लिङ्कानि सन्ति । <emphasis>Q_SCRIPTABLE</emphasis> इति "
-"चिह्नितं सर्वं लिपिभ्यः उपयोक्तुं शक्यते ।"
-
-#. Tag: para
-#: index.docbook:473
-#, no-c-format
-msgid ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
-"classEditorTab.html\">Editor</ulink> object API reference"
-msgstr ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/localize/html/"
-"classEditorTab.html\">सम्पादक</ulink> वस्तु एपिआइ सन्दर्भः"
-
-#. Tag: para
-#: index.docbook:478
-#, no-c-format
-msgid ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
-"classLokalizeMainWindow.html\">&lokalize;</ulink> object API reference"
-msgstr ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/localize/html/"
-"classLocalizeMainWindow.html\">&स्थानीयकरण;</ulink> वस्तु एपिआइ सन्दर्भ"
-
-#. Tag: para
-#: index.docbook:483
-#, no-c-format
-msgid ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
-"classProjectTab.html\">Project</ulink> object API reference"
-msgstr ""
-"<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
-"classProjectTab.html\">परियोजना</ulink> वस्तु एपिआइ सन्दर्भः"
 
 #. Tag: title
-#: index.docbook:490
+#: index.docbook:452
 #, no-c-format
 msgid "Pology"
 msgstr "क्षमायाचना"
 
 #. Tag: para
-#: index.docbook:492
-#, no-c-format
-msgid ""
-"One of the best scripting capabilities application is the use of "
-"<application>Pology</application> in &lokalize;."
-msgstr ""
-"उत्तमस्क्रिप्टिङ्ग् क्षमता अनुप्रयोगेषु अन्यतमः &lokalize; इत्यस्मिन् <application>Pology</"
-"application> इत्यस्य उपयोगः अस्ति ।"
-
-#. Tag: para
-#: index.docbook:495
+#: index.docbook:454
 #, no-c-format
 msgid ""
 "The interaction with <application>Pology</application> can be configured "
@@ -1215,7 +1105,7 @@ msgstr ""
 "&lokalize;...</guimenuitem></menuchoice> मुख्यमेनूवस्तु विन्यस्यताम् ।"
 
 #. Tag: para
-#: index.docbook:498
+#: index.docbook:457
 #, no-c-format
 msgid ""
 "For more information, please refer to <ulink url=\"http://pology.nedohodnik."
@@ -1225,13 +1115,13 @@ msgstr ""
 "ulink> पश्यन्तु ।"
 
 #. Tag: title
-#: index.docbook:504
+#: index.docbook:463
 #, no-c-format
 msgid "LanguageTool"
 msgstr "भाषासाधनम्"
 
 #. Tag: para
-#: index.docbook:506
+#: index.docbook:465
 #, no-c-format
 msgid ""
 "<application>LanguageTool</application> offers spell and grammar checking of "
@@ -1241,7 +1131,7 @@ msgstr ""
 "परीक्षणं प्रदाति ।"
 
 #. Tag: para
-#: index.docbook:509
+#: index.docbook:468
 #, no-c-format
 msgid ""
 "You can configure your custom <application>LanguageTool</application> server "
@@ -1256,7 +1146,7 @@ msgstr ""
 "&lokalize;...</guimenuitem></menuchoice> मुख्यमेनूवस्तु विन्यस्यताम् ।"
 
 #. Tag: para
-#: index.docbook:512
+#: index.docbook:471
 #, no-c-format
 msgid ""
 "To utilize <application>LanguageTool</application> checking capabilities use "
@@ -1270,7 +1160,7 @@ msgstr ""
 "<keycap>J</keycap></keycombo> लघुमार्गः ।"
 
 #. Tag: para
-#: index.docbook:515
+#: index.docbook:474
 #, no-c-format
 msgid ""
 "For more information, please refer to <ulink url=\"https://languagetool.org/"
@@ -1280,19 +1170,19 @@ msgstr ""
 "मुखपृष्ठं</ulink> पश्यन्तु ।"
 
 #. Tag: title
-#: index.docbook:522
+#: index.docbook:481
 #, no-c-format
 msgid "Credits and License"
 msgstr "श्रेयः अनुज्ञापत्रं च"
 
 #. Tag: para
-#: index.docbook:524
+#: index.docbook:483
 #, no-c-format
 msgid "<para>&lokalize;</para>"
 msgstr "<para>&lokalize;</para> इति"
 
 #. Tag: para
-#: index.docbook:528
+#: index.docbook:487
 #, no-c-format
 msgid ""
 "Program Copyright &copy; 2007-2015, Nick Shaforostoff "
@@ -1302,13 +1192,13 @@ msgstr ""
 "<email>shaforostoff@kde.ru</email>"
 
 #. Tag: para
-#: index.docbook:533
+#: index.docbook:492
 #, no-c-format
 msgid "Some code was taken from KBabel, the &lokalize; predecessor."
 msgstr "KBabel इत्यस्मात् किञ्चित् कोडं गृहीतम्, &lokalize; पूर्ववर्ती ।"
 
 #. Tag: para
-#: index.docbook:537
+#: index.docbook:496
 #, no-c-format
 msgid ""
 "Documentation Copyright &copy; 2007-2009 Nick Shaforostoff "
@@ -1318,13 +1208,13 @@ msgstr ""
 "ru</email>"
 
 #. Tag: para
-#: index.docbook:542
+#: index.docbook:501
 #, no-c-format
 msgid "Author:"
 msgstr "लेखकः:"
 
 #. Tag: para
-#: index.docbook:546
+#: index.docbook:505
 #, no-c-format
 msgid ""
 "Nick Shaforostoff <email>shaforostoff AT kde.ru</email>; Shankar Prasad "
@@ -1336,7 +1226,7 @@ msgstr ""
 "com</email>"
 
 #. Tag: para
-#: index.docbook:555
+#: index.docbook:514
 #, no-c-format
 msgid ""
 "See the <ulink url=\"http://userbase.kde.org/lokalize\">&lokalize; homepage</"
@@ -1346,13 +1236,106 @@ msgstr ""
 "अधिकविवरणार्थं मुखपृष्ठं</ulink> इति ।"
 
 #. Tag: trans_comment
-#: index.docbook:558
+#: index.docbook:517
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:558
+#: index.docbook:517
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
+
+#~ msgid "Scripting &lokalize;"
+#~ msgstr "स्क्रिप्टिंग् &lokalize;"
+
+#~ msgid ""
+#~ "&lokalize; is extensible using scripts in several interpreted languages, "
+#~ "including Python and &javascript;. Scripts are usually integrated into "
+#~ "the &lokalize; UI as menu actions (to which you may assign a keyboard "
+#~ "shortcut). The location and name of the menu entry for the script is "
+#~ "defined in its accompanying .rc file. On each project open, &lokalize; "
+#~ "scans <filename>PROJECTDIR/lokalize-scripts</filename> folder for .rc "
+#~ "files and adds them to a <emphasis>cache</emphasis> file called "
+#~ "<filename>PROJECTDIR/lokalize-scripts/scripts.rc</filename> (so you "
+#~ "shouldn't generally want to add it project's version control system). RC "
+#~ "files also contain script paths, which may be relative to .rc file "
+#~ "folder, or to a system scripts folder - they both are tried (though they "
+#~ "<emphasis>should</emphasis> be kept in a relative location if you want to "
+#~ "share them with other people in your project). For example, you can "
+#~ "specify <filename>../../scripts/lokalize/opensrc.py</filename> to load a "
+#~ "script from the <ulink url=\"https://websvn.kde.org/trunk/l10n-kf5/"
+#~ "scripts/lokalize/\">global kf5-l10n scripts folder</ulink> (&ie; not "
+#~ "specific to your language)."
+#~ msgstr ""
+#~ "&स्थानीयकरणम्; पायथन् तथा &javascript; इत्यादिषु अनेकव्याख्यातभाषासु स्क्रिप्ट् उपयुज्य "
+#~ "विस्तारयोग्यम् अस्ति । स्क्रिप्ट् प्रायः &lokalize; UI मेनू क्रियारूपेण (यस्य कृते भवान् "
+#~ "कीबोर्ड-शॉर्टकट् नियुक्तुं शक्नोति) । स्क्रिप्ट् कृते मेन्यू-प्रविष्टेः स्थानं नाम च तस्य सह .rc "
+#~ "सञ्चिकायां परिभाषितम् अस्ति । प्रत्येकं परियोजनायां उद्घाटयन्तु, &lokalize; .rc "
+#~ "सञ्चिकानां कृते <filename>PROJECTDIR/lokalize-scripts</filename> पुटं स्कैन करोति "
+#~ "तथा च <filename>PROJECTDIR/lokalize-scripts/scripts.rc</filename> इति "
+#~ "<emphasis>cache</emphasis> सञ्चिकायां योजयति ( अतः सामान्यतया भवन्तः इदं "
+#~ "परियोजनायाः संस्करणनियन्त्रणप्रणालीं योजयितुम् न इच्छन्ति)। RC सञ्चिकासु स्क्रिप्ट्मार्गाः "
+#~ "अपि सन्ति, ये .rc सञ्चिकापुटस्य सापेक्षाः भवितुम् अर्हन्ति, अथवा सिस्टम् स्क्रिप्ट्पुटस्य "
+#~ "सापेक्षाः भवितुम् अर्हन्ति - तौ द्वौ अपि प्रयतितौ (यद्यपि ते <emphasis>should</"
+#~ "emphasis> सापेक्षस्थाने स्थापनीयौ यदि भवान् साझां कर्तुम् इच्छति तान् भवतः परियोजनायां "
+#~ "अन्यैः जनानां सह)। यथा, <ulink url=\"https://websvn.kde.org/trunk/l10n तः "
+#~ "स्क्रिप्ट् लोड् कर्तुं <filename>../../scripts/lokalize/opensrc.py</filename> इति "
+#~ "निर्दिष्टुं शक्नुथ -kf5/scripts/lokalize/\">global kf5-l10n scripts folder</"
+#~ "ulink> (&अर्थात् भवतः भाषायाः विशिष्टं नास्ति)।"
+
+#~ msgid ""
+#~ "Examples of .rc files may be found in &lokalize; install folder (usually "
+#~ "<filename>/usr/share/lokalize/scripts/</filename>) and in the <ulink url="
+#~ "\"https://websvn.kde.org/trunk/l10n-kf5/scripts/lokalize/\">&kde; "
+#~ "repository</ulink>. <ulink url=\"https://websvn.kde.org/trunk/l10n-kde4/"
+#~ "ru/lokalize-scripts/\">Here</ulink> you can find more script examples, "
+#~ "including &javascript;-based <filename>check-gui.js</filename> that runs "
+#~ "automatically on each file save (this is achieved via special option in ."
+#~ "rc file). If you're familiar with Python or &javascript;, the code should "
+#~ "be self-explanatory."
+#~ msgstr ""
+#~ ".rc सञ्चिकानां उदाहरणानि &lokalize; संस्थापनपुटं (प्रायः <filename>/usr/share/"
+#~ "lokalize/scripts/</filename>) तथा च <ulink url=\"https://websvn.kde.org/"
+#~ "trunk/l10n-kf5/scripts/lokalize/\" इत्यत्र । >&kde; भण्डार</ulink> इति । "
+#~ "<ulink url=\"https://websvn.kde.org/trunk/l10n-kde4/ru/lokalize-scripts/"
+#~ "\">अत्र</ulink> भवान् &javascript;-आधारित <filename>check इत्यादीनि अधिकानि "
+#~ "लिपि-उदाहरणानि प्राप्नुयात् -gui.js</filename> यत् प्रत्येकं सञ्चिकारक्षणे स्वयमेव "
+#~ "चाल्यते (एतत् .rc सञ्चिकायां विशेषविकल्पद्वारा प्राप्तं भवति) । यदि भवान् Python अथवा "
+#~ "&javascript; इत्यनेन परिचितः अस्ति तर्हि कोडः स्वयमेव व्याख्यातः भवितुम् अर्हति ।"
+
+#~ msgid ""
+#~ "Below are links to API references. Everything marked as "
+#~ "<emphasis>Q_SCRIPTABLE</emphasis> may be used from scripts."
+#~ msgstr ""
+#~ "अधः एपिआइ-सन्दर्भाणां लिङ्कानि सन्ति । <emphasis>Q_SCRIPTABLE</emphasis> इति "
+#~ "चिह्नितं सर्वं लिपिभ्यः उपयोक्तुं शक्यते ।"
+
+#~ msgid ""
+#~ "<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
+#~ "classEditorTab.html\">Editor</ulink> object API reference"
+#~ msgstr ""
+#~ "<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/localize/html/"
+#~ "classEditorTab.html\">सम्पादक</ulink> वस्तु एपिआइ सन्दर्भः"
+
+#~ msgid ""
+#~ "<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
+#~ "classLokalizeMainWindow.html\">&lokalize;</ulink> object API reference"
+#~ msgstr ""
+#~ "<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/localize/html/"
+#~ "classLocalizeMainWindow.html\">&स्थानीयकरण;</ulink> वस्तु एपिआइ सन्दर्भ"
+
+#~ msgid ""
+#~ "<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
+#~ "classProjectTab.html\">Project</ulink> object API reference"
+#~ msgstr ""
+#~ "<ulink url=\"http://api.kde.org/4.14-api/kdesdk-apidocs/lokalize/html/"
+#~ "classProjectTab.html\">परियोजना</ulink> वस्तु एपिआइ सन्दर्भः"
+
+#~ msgid ""
+#~ "One of the best scripting capabilities application is the use of "
+#~ "<application>Pology</application> in &lokalize;."
+#~ msgstr ""
+#~ "उत्तमस्क्रिप्टिङ्ग् क्षमता अनुप्रयोगेषु अन्यतमः &lokalize; इत्यस्मिन् "
+#~ "<application>Pology</application> इत्यस्य उपयोगः अस्ति ।"
