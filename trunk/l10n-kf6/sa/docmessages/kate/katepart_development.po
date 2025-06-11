@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart_development\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-08-08 00:49+0000\n"
+"POT-Creation-Date: 2025-06-11 00:54+0000\n"
 "PO-Revision-Date: 2024-12-20 21:51+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -6071,24 +6071,32 @@ msgstr "&javascript;"
 
 #. Tag: para
 #: development.docbook:2388
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The &kappname; editor component is easily extensible by writing scripts. "
+#| "The scripting language is ECMAScript (widely known as &javascript;). "
+#| "&kappname; supports two kinds of scripts: indentation and command line "
+#| "scripts."
 msgid ""
 "The &kappname; editor component is easily extensible by writing scripts. The "
 "scripting language is ECMAScript (widely known as &javascript;). &kappname; "
-"supports two kinds of scripts: indentation and command line scripts."
+"supports two kinds of scripts: indentation and command line scripts. A "
+"functionality similar to command line scripts is also provided in the <ulink "
+"url=\"help:/kate/kate-application-plugin-snippets.html\">snippets plugin</"
+"ulink>."
 msgstr ""
 "इति &कप्पनाम; editor घटकः स्क्रिप्ट् लिखित्वा सहजतया विस्तारणीयः भवति । स्क्रिप्टिङ्ग् "
 "भाषा ECMAScript (व्यापकरूपेण &javascript; इति नाम्ना प्रसिद्धा) अस्ति । &कप्पनाम; "
 "द्वौ प्रकारौ स्क्रिप्ट् समर्थयति : indentation तथा command line scripts इति ।"
 
 #. Tag: title
-#: development.docbook:2395
+#: development.docbook:2397
 #, no-c-format
 msgid "Indentation Scripts"
 msgstr "इण्डेन्टेशन लिपि"
 
 #. Tag: para
-#: development.docbook:2397
+#: development.docbook:2399
 #, no-c-format
 msgid ""
 "Indentation scripts - also referred as indenters - automatically indent the "
@@ -6099,7 +6107,7 @@ msgstr ""
 "। उदाहरणरूपेण, return key मारयित्वा प्रायः indentation level वर्धते ।"
 
 #. Tag: para
-#: development.docbook:2403
+#: development.docbook:2405
 #, no-c-format
 msgid ""
 "The following sections describe step by step how to create the skeleton for "
@@ -6118,7 +6126,7 @@ msgstr ""
 "विस्तारं करोति ।"
 
 #. Tag: para
-#: development.docbook:2411 development.docbook:2501
+#: development.docbook:2413 development.docbook:2503
 #, no-c-format
 msgid ""
 "On &Windows; these files are located in <filename>%USERPROFILE%\\AppData"
@@ -6132,13 +6140,13 @@ msgstr ""
 "\\<replaceable>user</replaceable></filename> इति विस्तारं करोति ।"
 
 #. Tag: title
-#: development.docbook:2415
+#: development.docbook:2417
 #, no-c-format
 msgid "The Indentation Script Header"
 msgstr "Indentation Script Header इति"
 
 #. Tag: para
-#: development.docbook:2416
+#: development.docbook:2418
 #, no-c-format
 msgid ""
 "The header of the file <filename>javascript.js</filename> is embedded as "
@@ -6170,7 +6178,7 @@ msgstr ""
 "</programlisting> प्रत्येकं प्रविष्टिः इदानीं विस्तरेण व्याख्याता अस्ति :"
 
 #. Tag: para
-#: development.docbook:2423
+#: development.docbook:2425
 #, no-c-format
 msgid ""
 "<literal>name</literal> [required]: This is the indenter name that appears "
@@ -6182,7 +6190,7 @@ msgstr ""
 "menuchoice> इत्यत्र तथा च विन्याससंवादे दृश्यते ."
 
 #. Tag: para
-#: development.docbook:2428 development.docbook:2551
+#: development.docbook:2430 development.docbook:2559
 #, no-c-format
 msgid ""
 "<literal>author</literal> [optional]: The author's name and contact "
@@ -6190,7 +6198,7 @@ msgid ""
 msgstr "<literal>लेखकः</literal> [वैकल्पिकः]: लेखकस्य नाम सम्पर्कसूचना च।"
 
 #. Tag: para
-#: development.docbook:2431
+#: development.docbook:2433
 #, no-c-format
 msgid ""
 "<literal>license</literal> [optional]: Short form of the license, such as "
@@ -6200,7 +6208,7 @@ msgstr ""
 "LGPLv3 ।"
 
 #. Tag: para
-#: development.docbook:2434 development.docbook:2553
+#: development.docbook:2436 development.docbook:2561
 #, no-c-format
 msgid ""
 "<literal>revision</literal> [required]: The revision of the script. This "
@@ -6210,7 +6218,7 @@ msgstr ""
 "परिवर्तनं भवति तदा तदा एषा संख्या वर्धनीया ।"
 
 #. Tag: para
-#: development.docbook:2437 development.docbook:2554
+#: development.docbook:2439 development.docbook:2562
 #, no-c-format
 msgid ""
 "<literal>kate-version</literal> [required]: Minimum required &kappname; "
@@ -6219,7 +6227,7 @@ msgstr ""
 "<literal>kate-version</literal> [आवश्यकम्]: न्यूनतमम् आवश्यकम् &kappname; संस्करण।"
 
 #. Tag: para
-#: development.docbook:2440
+#: development.docbook:2442
 #, no-c-format
 msgid ""
 "<literal>required-syntax-style</literal> [optional]: The required syntax "
@@ -6242,7 +6250,7 @@ msgstr ""
 "इति सञ्चिकासु एतस्य उपयोगं करोति ।"
 
 #. Tag: para
-#: development.docbook:2443
+#: development.docbook:2445
 #, no-c-format
 msgid ""
 "<literal>indent-languages</literal> [optional]: &JSON; array of syntax "
@@ -6253,7 +6261,7 @@ msgstr ""
 "सम्यक् इन्डेण्ट् कर्तुं शक्नोति, &eg;: <literal>[\"c++\", \"java\"]</literal> ।"
 
 #. Tag: para
-#: development.docbook:2446
+#: development.docbook:2448
 #, no-c-format
 msgid ""
 "<literal>priority</literal> [optional]: If several indenters are suited for "
@@ -6265,13 +6273,13 @@ msgstr ""
 "पूर्वनिर्धारित इन्डेण्टर् इति चिनोति ।"
 
 #. Tag: title
-#: development.docbook:2455
+#: development.docbook:2457
 #, no-c-format
 msgid "The Indenter Source Code"
 msgstr "इन्डेण्टर स्रोतसङ्केतः"
 
 #. Tag: para
-#: development.docbook:2456
+#: development.docbook:2458
 #, no-c-format
 msgid ""
 "Having specified the header this section explains how the indentation "
@@ -6363,7 +6371,7 @@ msgstr ""
 "<quote>मिश्रितविधिः</quote> इति उच्यते ।"
 
 #. Tag: para
-#: development.docbook:2488
+#: development.docbook:2490
 #, no-c-format
 msgid ""
 "Consider the following example: Assume using tabs to indent, and tab width "
@@ -6387,7 +6395,7 @@ msgstr ""
 "ट्याब् विस्तारेण सह दृश्यते तर्हि सा संरेखितं तिष्ठति"
 
 #. Tag: para
-#: development.docbook:2498
+#: development.docbook:2500
 #, no-c-format
 msgid ""
 "A default &kde; installation ships &kappname; with several indenters. The "
@@ -6399,7 +6407,7 @@ msgstr ""
 "script/indentation</filename> इत्यत्र प्राप्यते ।"
 
 #. Tag: para
-#: development.docbook:2505
+#: development.docbook:2507
 #, no-c-format
 msgid ""
 "Developing an indenter requires reloading the scripts to see whether the "
@@ -6412,7 +6420,7 @@ msgstr ""
 "scripts</command> इति आदेशं आह्वयन्तु ।"
 
 #. Tag: para
-#: development.docbook:2511 development.docbook:2617
+#: development.docbook:2513 development.docbook:2625
 #, no-c-format
 msgid ""
 "If you develop useful scripts please consider contributing to the &kappname; "
@@ -6423,13 +6431,23 @@ msgstr ""
 "kwrite-devel@kde.org\">मेलसूचीं</ulink> सम्पर्कं कृत्वा परियोजना ।"
 
 #. Tag: title
-#: development.docbook:2520
+#: development.docbook:2522
 #, no-c-format
 msgid "Command Line Scripts"
 msgstr "आदेशपङ्क्तिलिपिः"
 
 #. Tag: para
-#: development.docbook:2522
+#: development.docbook:2525
+#, no-c-format
+msgid ""
+"A functionality similar to command line scripts is also provided in the "
+"<ulink url=\"help:/kate/kate-application-plugin-snippets.html\">snippets "
+"plugin</ulink>. This plugin may provide an easier starting point, especially "
+"for small custom scripts."
+msgstr ""
+
+#. Tag: para
+#: development.docbook:2530
 #, no-c-format
 msgid ""
 "As it is hard to satisfy everyone's needs, &kappname; supports little helper "
@@ -6447,7 +6465,7 @@ msgstr ""
 "सहायकलिपिना सह।"
 
 #. Tag: para
-#: development.docbook:2531
+#: development.docbook:2539
 #, no-c-format
 msgid ""
 "Command line scripts are located in the same folder as indentation scripts. "
@@ -6465,7 +6483,7 @@ msgstr ""
 "share</filename> इत्यत्र विस्तारं करोति ।"
 
 #. Tag: para
-#: development.docbook:2538
+#: development.docbook:2546
 #, no-c-format
 msgid ""
 "On &Windows; these files are located in <filename>%USERPROFILE%\\AppData"
@@ -6479,13 +6497,13 @@ msgstr ""
 "\\<replaceable>user</replaceable></filename> इति विस्तारं करोति ।"
 
 #. Tag: title
-#: development.docbook:2543
+#: development.docbook:2551
 #, no-c-format
 msgid "The Command Line Script Header"
 msgstr "आदेशपङ्क्तिस्क्रिप्ट् शीर्षकम्"
 
 #. Tag: para
-#: development.docbook:2544
+#: development.docbook:2552
 #, no-c-format
 msgid ""
 "The header of each command line script is embedded in &JSON; at the "
@@ -6537,7 +6555,7 @@ msgstr ""
 "</programlisting> प्रत्येकं प्रविष्टिः इदानीं विस्तरेण व्याख्याता अस्ति :"
 
 #. Tag: para
-#: development.docbook:2552
+#: development.docbook:2560
 #, no-c-format
 msgid ""
 "<literal>license</literal> [optional]: Short form of the license, such as "
@@ -6547,7 +6565,7 @@ msgstr ""
 "LGPLv2 ।"
 
 #. Tag: para
-#: development.docbook:2555
+#: development.docbook:2563
 #, no-c-format
 msgid ""
 "<literal>functions</literal> [required]: &JSON; array of commands in the "
@@ -6555,7 +6573,7 @@ msgid ""
 msgstr "<शाब्दिक>कार्य</literal> [आवश्यकम्]: &JSON; स्क्रिप्ट् मध्ये आदेशानां सरणी ।"
 
 #. Tag: para
-#: development.docbook:2556
+#: development.docbook:2564
 #, no-c-format
 msgid ""
 "<literal>actions</literal> [optional]: &JSON; Array of &JSON; objects that "
@@ -6569,7 +6587,7 @@ msgstr ""
 "link> ."
 
 #. Tag: para
-#: development.docbook:2560
+#: development.docbook:2568
 #, no-c-format
 msgid ""
 "Since the value of <literal>functions</literal> is a &JSON; array, a single "
@@ -6583,13 +6601,13 @@ msgstr ""
 "अन्तः निर्मितः आदेशपङ्क्तिः</link> ."
 
 #. Tag: title
-#: development.docbook:2568
+#: development.docbook:2576
 #, no-c-format
 msgid "The Script Source Code"
 msgstr "स्क्रिप्ट् स्रोतसङ्केतः"
 
 #. Tag: para
-#: development.docbook:2570
+#: development.docbook:2578
 #, no-c-format
 msgid ""
 "All functions specified in the header have to be implemented in the script. "
@@ -6603,7 +6621,7 @@ msgstr ""
 "कार्याणां निम्नलिखितवाक्यविन्यासः भवति ।"
 
 #. Tag: programlisting
-#: development.docbook:2576
+#: development.docbook:2584
 #, no-c-format
 msgid ""
 "// required katepart js libraries, &eg; range.js if you use Range\n"
@@ -6624,7 +6642,7 @@ msgstr ""
 "} ."
 
 #. Tag: para
-#: development.docbook:2579
+#: development.docbook:2587
 #, no-c-format
 msgid ""
 "Arguments in the command line are passed to the function as <parameter>arg1</"
@@ -6658,7 +6676,7 @@ msgstr ""
 "linkend=\"dev-scripting-api-i18n\"> तारानाम् अनुवादं कुर्वन्तु</link> ."
 
 #. Tag: para
-#: development.docbook:2594
+#: development.docbook:2602
 #, no-c-format
 msgid ""
 "Developing a command line script requires reloading the scripts to see "
@@ -6671,13 +6689,13 @@ msgstr ""
 "scripts</command> इति आदेशं आह्वयन्तु ।"
 
 #. Tag: title
-#: development.docbook:2601
+#: development.docbook:2609
 #, no-c-format
 msgid "Binding Shortcuts"
 msgstr "बाध्यकारी शॉर्टकट"
 
 #. Tag: para
-#: development.docbook:2602
+#: development.docbook:2610
 #, no-c-format
 msgid ""
 "In order to make the scripts accessible in the application menu and assign "
@@ -6730,7 +6748,7 @@ msgstr ""
 "</programlisting> एकस्य क्रियायाः क्षेत्राणि यथा सन्ति ।"
 
 #. Tag: para
-#: development.docbook:2608
+#: development.docbook:2616
 #, no-c-format
 msgid ""
 "<literal>function</literal> [required]: The function that should appear in "
@@ -6741,14 +6759,14 @@ msgstr ""
 "guimenu> <guisubmenu>स्क्रिप्ट्</guisubmenu></menuchoice> इत्यत्र यत् कार्यं दृश्यते ।"
 
 #. Tag: para
-#: development.docbook:2609
+#: development.docbook:2617
 #, no-c-format
 msgid ""
 "<literal>name</literal> [required]: The text appears in the script menu."
 msgstr "<literal>name</literal> [required]: पाठः स्क्रिप्ट् मेन्यू मध्ये दृश्यते ।"
 
 #. Tag: para
-#: development.docbook:2610
+#: development.docbook:2618
 #, no-c-format
 msgid ""
 "<literal>icon</literal> [optional]: The icon appears next to the text in the "
@@ -6758,7 +6776,7 @@ msgstr ""
 "&kde; चिह्ननामानि अत्र उपयोक्तुं शक्यन्ते ।"
 
 #. Tag: para
-#: development.docbook:2611
+#: development.docbook:2619
 #, no-c-format
 msgid ""
 "<literal>category</literal> [optional]: If a category is specified, the "
@@ -6768,7 +6786,7 @@ msgstr ""
 "स्क्रिप्ट् उपमेनूमध्ये दृश्यते ।"
 
 #. Tag: para
-#: development.docbook:2612
+#: development.docbook:2620
 #, no-c-format
 msgid ""
 "<literal>shortcut</literal> [optional]: The shortcut given here is the "
@@ -6781,7 +6799,7 @@ msgstr ""
 "io/qt-5/qt.html#Key-enum\">&Qt; अधिकविवरणार्थं documentation</ulink> इति ।"
 
 #. Tag: para
-#: development.docbook:2613
+#: development.docbook:2621
 #, no-c-format
 msgid ""
 "<literal>interactive</literal> [optional]: If the script needs user input in "
@@ -6791,13 +6809,13 @@ msgstr ""
 "आवश्यकता अस्ति तर्हि एतत् <literal>true</literal> इति सेट् कुर्वन्तु ।"
 
 #. Tag: title
-#: development.docbook:2627
+#: development.docbook:2635
 #, no-c-format
 msgid "Scripting API"
 msgstr "स्क्रिप्टिंग एपिआइ"
 
 #. Tag: para
-#: development.docbook:2629
+#: development.docbook:2637
 #, no-c-format
 msgid ""
 "The scripting API presented here is available to all scripts, &ie; "
@@ -6817,7 +6835,7 @@ msgstr ""
 "कृपया आवश्यकं पुस्तकालयं समाविष्टं कुर्वन्तु:"
 
 #. Tag: programlisting
-#: development.docbook:2635
+#: development.docbook:2643
 #, no-c-format
 msgid ""
 "// required katepart js libraries, &eg; range.js if you use Range\n"
@@ -6828,7 +6846,7 @@ msgstr ""
 "require (\"range.js\");"
 
 #. Tag: para
-#: development.docbook:2638
+#: development.docbook:2646
 #, no-c-format
 msgid ""
 "To extend the standard scripting API with your own functions and prototypes "
@@ -6841,13 +6859,13 @@ msgstr ""
 "filename> इत्यस्मिन् नूतनसञ्चिकां रचयन्तु तथा च स्वस्य स्क्रिप्ट् इत्यस्य उपयोगेन :"
 
 #. Tag: programlisting
-#: development.docbook:2643
+#: development.docbook:2651
 #, no-c-format
 msgid "require (\"myscriptnamehere.js\");"
 msgstr "require (\"myscriptnamehere.js\");"
 
 #. Tag: para
-#: development.docbook:2647
+#: development.docbook:2655
 #, no-c-format
 msgid ""
 "On &Windows; these files are located in <filename>%USERPROFILE%\\AppData"
@@ -6861,7 +6879,7 @@ msgstr ""
 "\\<replaceable>user</replaceable></filename> इति विस्तारं करोति ।"
 
 #. Tag: para
-#: development.docbook:2650
+#: development.docbook:2658
 #, no-c-format
 msgid ""
 "To extend existing prototypes like <classname>Cursor</classname> or "
@@ -6878,13 +6896,13 @@ msgstr ""
 "भवतः स्क्रिप्ट् मध्ये समाविष्टस्य अनन्तरं ।"
 
 #. Tag: title
-#: development.docbook:2659
+#: development.docbook:2667
 #, no-c-format
 msgid "Cursors and Ranges"
 msgstr "कर्सर तथा रेन्ज"
 
 #. Tag: para
-#: development.docbook:2661
+#: development.docbook:2669
 #, no-c-format
 msgid ""
 "As &kappname; is a text editor, all the scripting API is based on cursors "
@@ -6900,31 +6918,31 @@ msgstr ""
 "अस्ति ।"
 
 #. Tag: title
-#: development.docbook:2670
+#: development.docbook:2678
 #, no-c-format
 msgid "The Cursor Prototype"
 msgstr "कर्सर आद्यरूपः"
 
 #. Tag: synopsis
-#: development.docbook:2673
+#: development.docbook:2681
 #, no-c-format
 msgid "Cursor();"
 msgstr "कर्सर ();"
 
 #. Tag: para
-#: development.docbook:2674
+#: development.docbook:2682
 #, no-c-format
 msgid "Constructor. Returns a Cursor at position <literal>(0, 0)</literal>."
 msgstr "कन्स्ट्रक्टर् । <literal>(0, 0)</literal> इति स्थाने Cursor प्रत्यागच्छति ।"
 
 #. Tag: para
-#: development.docbook:2676
+#: development.docbook:2684
 #, no-c-format
 msgid "Example: <function>var cursor = new Cursor();</function>"
 msgstr "उदाहरणम् : <function>var cursor = new कर्सर ();</function>"
 
 #. Tag: synopsis
-#: development.docbook:2682
+#: development.docbook:2690
 #, no-c-format
 msgid ""
 "Cursor(<parameter>int <replaceable>line</replaceable></parameter>, "
@@ -6934,25 +6952,25 @@ msgstr ""
 "<प्रतिस्थापनीय>स्तम्भ</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:2683
+#: development.docbook:2691
 #, no-c-format
 msgid "Constructor. Returns a Cursor at position (line, column)."
 msgstr "कन्स्ट्रक्टर् । स्थाने (रेखा, स्तम्भः) एकं Cursorं प्रत्यागच्छति ।"
 
 #. Tag: para
-#: development.docbook:2686
+#: development.docbook:2694
 #, no-c-format
 msgid "Example: <function>var cursor = new Cursor(3, 42);</function>"
 msgstr "उदाहरणम् : <function>var cursor = new कर्सर(3, 42);</function>"
 
 #. Tag: synopsis
-#: development.docbook:2692
+#: development.docbook:2700
 #, no-c-format
 msgid "Cursor(<parameter>Cursor <replaceable>other</replaceable></parameter>);"
 msgstr "कर्सर(<पैरामीटर>कर्सर <प्रतिस्थापनीय>अन्य</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2693
+#: development.docbook:2701
 #, no-c-format
 msgid ""
 "Copy constructor. Returns a copy of the cursor <replaceable>other</"
@@ -6962,31 +6980,31 @@ msgstr ""
 "प्रत्यागच्छति ।"
 
 #. Tag: para
-#: development.docbook:2696
+#: development.docbook:2704
 #, no-c-format
 msgid "Example: <function>var copy = new Cursor(other);</function>"
 msgstr "उदाहरणम् : <function>var copy = new कर्सर(अन्य);</function>"
 
 #. Tag: synopsis
-#: development.docbook:2702
+#: development.docbook:2710
 #, no-c-format
 msgid "Cursor Cursor.clone();"
 msgstr "कर्सर कर्सर.क्लोन ();"
 
 #. Tag: para
-#: development.docbook:2703
+#: development.docbook:2711
 #, no-c-format
 msgid "Returns a clone of the cursor."
 msgstr "कर्सरस्य क्लोन् प्रेषयति ।"
 
 #. Tag: para
-#: development.docbook:2705
+#: development.docbook:2713
 #, no-c-format
 msgid "Example: <function>var clone = cursor.clone();</function>"
 msgstr "उदाहरणम् : <function>var clone = कर्सर.क्लोन ();</function>"
 
 #. Tag: synopsis
-#: development.docbook:2711
+#: development.docbook:2719
 #, no-c-format
 msgid ""
 "Cursor.setPosition(<parameter>int <replaceable>line</replaceable></"
@@ -6996,7 +7014,7 @@ msgstr ""
 "<पैरामीटर>int <प्रतिस्थापनीय>स्तम्भ</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2712
+#: development.docbook:2720
 #, no-c-format
 msgid ""
 "Sets the cursor position to <replaceable>line</replaceable> and "
@@ -7006,19 +7024,19 @@ msgstr ""
 "replaceable> इति सेट् करोति ।"
 
 #. Tag: para
-#: development.docbook:2714 development.docbook:2826
+#: development.docbook:2722 development.docbook:2834
 #, no-c-format
 msgid "Since: &kde; 4.11"
 msgstr "यतः: &where; ४.११"
 
 #. Tag: synopsis
-#: development.docbook:2721
+#: development.docbook:2729
 #, no-c-format
 msgid "bool Cursor.isValid();"
 msgstr "bool कर्सर.isValid ();"
 
 #. Tag: para
-#: development.docbook:2722
+#: development.docbook:2730
 #, no-c-format
 msgid ""
 "Check whether the cursor is valid. The cursor is invalid, if line and/or "
@@ -7028,31 +7046,31 @@ msgstr ""
 "<literal>-1</literal> इति सेट् भवति ।"
 
 #. Tag: para
-#: development.docbook:2726
+#: development.docbook:2734
 #, no-c-format
 msgid "Example: <function>var valid = cursor.isValid();</function>"
 msgstr "उदाहरणम् : <function>var valid = कर्सर.isValid();</function>"
 
 #. Tag: synopsis
-#: development.docbook:2733
+#: development.docbook:2741
 #, no-c-format
 msgid "Cursor Cursor.invalid();"
 msgstr "कर्सर कर्सर.अमान्य ();"
 
 #. Tag: para
-#: development.docbook:2734
+#: development.docbook:2742
 #, no-c-format
 msgid "Returns a new invalid cursor located at <literal>(-1, -1)</literal>."
 msgstr "<literal>(-1, -1)</literal> इत्यत्र स्थितं नूतनं अमान्यं कर्सरं प्रत्यागच्छति ।"
 
 #. Tag: para
-#: development.docbook:2737
+#: development.docbook:2745
 #, no-c-format
 msgid "Example: <function>var invalidCursor = cursor.invalid();</function>"
 msgstr "उदाहरणम् : <function>var invalidCursor = कर्सर.अवैध ();</function>"
 
 #. Tag: synopsis
-#: development.docbook:2742
+#: development.docbook:2750
 #, no-c-format
 msgid ""
 "int Cursor.compareTo(<parameter>Cursor <replaceable>other</replaceable></"
@@ -7061,7 +7079,7 @@ msgstr ""
 "int Cursor.compareTo(<पैरामीटर>कर्सर <प्रतिस्थापनीय>अन्य</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2743
+#: development.docbook:2751
 #, no-c-format
 msgid ""
 "Compares this cursor to the cursor <replaceable>other</replaceable>. Returns"
@@ -7070,7 +7088,7 @@ msgstr ""
 "प्रत्यागच्छति"
 
 #. Tag: para
-#: development.docbook:2746
+#: development.docbook:2754
 #, no-c-format
 msgid ""
 "<literal>-1</literal>, if this cursor is located before the cursor "
@@ -7080,13 +7098,13 @@ msgstr ""
 "पुरतः स्थितः अस्ति,"
 
 #. Tag: para
-#: development.docbook:2747
+#: development.docbook:2755
 #, no-c-format
 msgid "<literal>0</literal>, if both cursors equal and"
 msgstr "<literal>0</literal>, यदि उभौ कर्सरौ समानौ तथा च"
 
 #. Tag: para
-#: development.docbook:2748
+#: development.docbook:2756
 #, no-c-format
 msgid ""
 "<literal>+1</literal>, if this cursor is located after the cursor "
@@ -7096,7 +7114,7 @@ msgstr ""
 "इत्यस्य पश्चात् स्थितः अस्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:2755
+#: development.docbook:2763
 #, no-c-format
 msgid ""
 "bool Cursor.equals(<parameter>Cursor <replaceable>other</replaceable></"
@@ -7105,7 +7123,7 @@ msgstr ""
 "bool Cursor.equals(<पैरामीटर>कर्सर <प्रतिस्थापनीय>अन्य</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2756
+#: development.docbook:2764
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if this cursor and the cursor "
@@ -7116,13 +7134,13 @@ msgstr ""
 "replaceable> च समानौ स्तः, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:2764
+#: development.docbook:2772
 #, no-c-format
 msgid "String Cursor.toString();"
 msgstr "स्ट्रिंग कर्सर.toString ();"
 
 #. Tag: para
-#: development.docbook:2765
+#: development.docbook:2773
 #, no-c-format
 msgid ""
 "Returns the cursor as a string of the form <quote><literal>Cursor(line, "
@@ -7132,19 +7150,19 @@ msgstr ""
 "रूपेण प्रत्यागच्छति ।"
 
 #. Tag: title
-#: development.docbook:2774
+#: development.docbook:2782
 #, no-c-format
 msgid "The Range Prototype"
 msgstr "द रेन्ज प्रोटोटाइप"
 
 #. Tag: synopsis
-#: development.docbook:2777
+#: development.docbook:2785
 #, no-c-format
 msgid "Range();"
 msgstr "पङ्क्तिः();"
 
 #. Tag: para
-#: development.docbook:2778
+#: development.docbook:2786
 #, no-c-format
 msgid ""
 "Constructor. Calling <literal>new Range()</literal> returns a Range at (0, "
@@ -7154,7 +7172,7 @@ msgstr ""
 "Range प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:2785
+#: development.docbook:2793
 #, no-c-format
 msgid ""
 "Range(<parameter>Cursor <replaceable>start</replaceable></parameter>, "
@@ -7164,7 +7182,7 @@ msgstr ""
 "<parameter>कर्सर <प्रतिस्थापनीय>अन्त</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:2786
+#: development.docbook:2794
 #, no-c-format
 msgid ""
 "Constructor. Calling <literal>new Range(<replaceable>start</replaceable>, "
@@ -7177,7 +7195,7 @@ msgstr ""
 "प्रत्यागच्छति )."
 
 #. Tag: synopsis
-#: development.docbook:2793
+#: development.docbook:2801
 #, no-c-format
 msgid ""
 "Range(<parameter>int <replaceable>startLine</replaceable></parameter>, "
@@ -7191,7 +7209,7 @@ msgstr ""
 "<प्रतिस्थापनीय>अन्तस्तम्भ</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2794
+#: development.docbook:2802
 #, no-c-format
 msgid ""
 "Constructor. Calling <literal>new Range(<replaceable>startLine</"
@@ -7209,13 +7227,13 @@ msgstr ""
 "<replaceable>endColumn</replaceable>) इति ।"
 
 #. Tag: synopsis
-#: development.docbook:2802
+#: development.docbook:2810
 #, no-c-format
 msgid "Range(<parameter>Range <replaceable>other</replaceable></parameter>);"
 msgstr "Range(<पैरामीटर>परिधि <प्रतिस्थापनीय>अन्य</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:2803
+#: development.docbook:2811
 #, no-c-format
 msgid ""
 "Copy constructor. Returns a copy of Range <replaceable>other</replaceable>."
@@ -7224,31 +7242,31 @@ msgstr ""
 "प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:2810
+#: development.docbook:2818
 #, no-c-format
 msgid "Range Range.clone();"
 msgstr "रेंज रेंज.क्लोन ();"
 
 #. Tag: para
-#: development.docbook:2811
+#: development.docbook:2819
 #, no-c-format
 msgid "Returns a clone of the range."
 msgstr "श्रेणीयाः क्लोन् प्रेषयति ।"
 
 #. Tag: para
-#: development.docbook:2814
+#: development.docbook:2822
 #, no-c-format
 msgid "Example: <function>var clone = range.clone();</function>"
 msgstr "उदाहरणम् : <function>var clone = range.clone();</function>"
 
 #. Tag: synopsis
-#: development.docbook:2820
+#: development.docbook:2828
 #, no-c-format
 msgid "bool Range.isEmpty();"
 msgstr "bool Range.isEmpty ();"
 
 #. Tag: para
-#: development.docbook:2821
+#: development.docbook:2829
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the start and end cursors are equal."
@@ -7256,19 +7274,19 @@ msgstr ""
 "<literal>true</literal> इति प्रेषयति, यदि आरम्भः अन्त्यः च कर्सरः समानः अस्ति ।"
 
 #. Tag: para
-#: development.docbook:2824
+#: development.docbook:2832
 #, no-c-format
 msgid "Example: <function>var empty = range.isEmpty();</function>"
 msgstr "उदाहरणम् : <function>var empty = range.isEmpty();</function>"
 
 #. Tag: synopsis
-#: development.docbook:2833
+#: development.docbook:2841
 #, no-c-format
 msgid "bool Range.isValid();"
 msgstr "bool Range.isValid ();"
 
 #. Tag: para
-#: development.docbook:2834
+#: development.docbook:2842
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if both start and end cursor are valid, "
@@ -7278,25 +7296,25 @@ msgstr ""
 "<literal>false</literal> ।"
 
 #. Tag: para
-#: development.docbook:2837
+#: development.docbook:2845
 #, no-c-format
 msgid "Example: <function>var valid = range.isValid();</function>"
 msgstr "उदाहरणम् : <function>var valid = range.isValid();</function>"
 
 #. Tag: synopsis
-#: development.docbook:2843
+#: development.docbook:2851
 #, no-c-format
 msgid "Range Range.invalid();"
 msgstr "रेंज रेंज.अवैध ();"
 
 #. Tag: para
-#: development.docbook:2844
+#: development.docbook:2852
 #, no-c-format
 msgid "Returns the Range from (-1, -1) to (-1, -1)."
 msgstr "(-1, -1) तः (-1, -1) पर्यन्तं Range प्रेषयति ।"
 
 #. Tag: synopsis
-#: development.docbook:2851
+#: development.docbook:2859
 #, no-c-format
 msgid ""
 "bool Range.contains(<parameter>Cursor <replaceable>cursor</replaceable></"
@@ -7305,7 +7323,7 @@ msgstr ""
 "bool Range.contains(<पैरामीटर>कर्सर <प्रतिस्थापनीय>कर्सर</replaceable></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2852
+#: development.docbook:2860
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if this range contains the cursor position, "
@@ -7315,7 +7333,7 @@ msgstr ""
 "अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:2859
+#: development.docbook:2867
 #, no-c-format
 msgid ""
 "bool Range.contains(<parameter>Range <replaceable>other</replaceable></"
@@ -7324,7 +7342,7 @@ msgstr ""
 "bool Range.contains(<पैरामीटर>परिधि <प्रतिस्थापनीय>अन्य</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2860
+#: development.docbook:2868
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if this range contains the Range "
@@ -7334,7 +7352,7 @@ msgstr ""
 "replaceable> इति परिधिः अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:2868
+#: development.docbook:2876
 #, no-c-format
 msgid ""
 "bool Range.containsColumn(<parameter>int <replaceable>column</replaceable></"
@@ -7344,7 +7362,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2869
+#: development.docbook:2877
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if <replaceable>column</replaceable> is in "
@@ -7356,7 +7374,7 @@ msgstr ""
 "अन्यथा <literal>false</literal> >।"
 
 #. Tag: synopsis
-#: development.docbook:2877
+#: development.docbook:2885
 #, no-c-format
 msgid ""
 "bool Range.containsLine(<parameter>int <replaceable>line</replaceable></"
@@ -7366,7 +7384,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2878
+#: development.docbook:2886
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if <replaceable>line</replaceable> is in "
@@ -7378,7 +7396,7 @@ msgstr ""
 "<literal>false</literal> >।"
 
 #. Tag: synopsis
-#: development.docbook:2886
+#: development.docbook:2894
 #, no-c-format
 msgid ""
 "bool Range.overlaps(<parameter>Range <replaceable>other</replaceable></"
@@ -7387,7 +7405,7 @@ msgstr ""
 "bool Range.overlaps(<पैरामीटर>परिधि <प्रतिस्थापनीय>अन्य</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2887
+#: development.docbook:2895
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if this range and the range "
@@ -7399,7 +7417,7 @@ msgstr ""
 "literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:2895
+#: development.docbook:2903
 #, no-c-format
 msgid ""
 "bool Range.overlapsLine(<parameter>int <replaceable>line</replaceable></"
@@ -7409,7 +7427,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2896
+#: development.docbook:2904
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if <replaceable>line</replaceable> is in "
@@ -7421,7 +7439,7 @@ msgstr ""
 "<literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:2904
+#: development.docbook:2912
 #, no-c-format
 msgid ""
 "bool Range.overlapsColumn(<parameter>int <replaceable>column</replaceable></"
@@ -7431,7 +7449,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2905
+#: development.docbook:2913
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if <replaceable>column</replaceable> is in "
@@ -7443,13 +7461,13 @@ msgstr ""
 "अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:2913
+#: development.docbook:2921
 #, no-c-format
 msgid "bool Range.onSingleLine();"
 msgstr "bool श्रेणी.onSingleLine ();"
 
 #. Tag: para
-#: development.docbook:2914
+#: development.docbook:2922
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the range starts and ends at the same "
@@ -7459,13 +7477,13 @@ msgstr ""
 "&ie; if <replaceable>Range.start.line == परिधि.अन्त.रेखा</replaceable>."
 
 #. Tag: para
-#: development.docbook:2918 development.docbook:3352 development.docbook:3491
+#: development.docbook:2926 development.docbook:3360 development.docbook:3499
 #, no-c-format
 msgid "Since: &kde; 4.9"
 msgstr "यतः: &where; ४.९"
 
 #. Tag: synopsis
-#: development.docbook:2925
+#: development.docbook:2933
 #, no-c-format
 msgid ""
 "bool Range.equals(<parameter>Range <replaceable>other</replaceable></"
@@ -7474,7 +7492,7 @@ msgstr ""
 "bool Range.equals(<पैरामीटर>परिधि <प्रतिस्थापनीय>अन्य</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2926
+#: development.docbook:2934
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if this range and the Range "
@@ -7485,13 +7503,13 @@ msgstr ""
 "replaceable> च समानौ स्तः, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:2934
+#: development.docbook:2942
 #, no-c-format
 msgid "String Range.toString();"
 msgstr "स्ट्रिंग रेंज.toString ();"
 
 #. Tag: para
-#: development.docbook:2935
+#: development.docbook:2943
 #, no-c-format
 msgid ""
 "Returns the range as a string of the form <quote><literal>Range(Cursor(line, "
@@ -7501,25 +7519,25 @@ msgstr ""
 "quote> इति रूपस्य स्ट्रिंग् रूपेण श्रेणीं प्रत्यागच्छति ।"
 
 #. Tag: title
-#: development.docbook:2944
+#: development.docbook:2952
 #, no-c-format
 msgid "Global Functions"
 msgstr "वैश्विक कार्यम्"
 
 #. Tag: para
-#: development.docbook:2945
+#: development.docbook:2953
 #, no-c-format
 msgid "This section lists all global functions."
 msgstr "अस्मिन् खण्डे सर्वाणि वैश्विककार्यं सूचीबद्धानि सन्ति ।"
 
 #. Tag: title
-#: development.docbook:2949
+#: development.docbook:2957
 #, no-c-format
 msgid "Reading &amp; Including Files"
 msgstr "पठनम् &amp; सञ्चिकाः सहितम्"
 
 #. Tag: synopsis
-#: development.docbook:2952
+#: development.docbook:2960
 #, no-c-format
 msgid ""
 "String read(<parameter>String <replaceable>file</replaceable></parameter>);"
@@ -7527,7 +7545,7 @@ msgstr ""
 "String read(<पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>सञ्चिका</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2953
+#: development.docbook:2961
 #, no-c-format
 msgid ""
 "Will search the given <replaceable>file</replaceable> relative to the "
@@ -7539,7 +7557,7 @@ msgstr ""
 "प्रत्यागमिष्यति ।"
 
 #. Tag: synopsis
-#: development.docbook:2959
+#: development.docbook:2967
 #, no-c-format
 msgid ""
 "void require(<parameter>String <replaceable>file</replaceable></parameter>);"
@@ -7547,7 +7565,7 @@ msgstr ""
 "void require(<पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>सञ्चिका</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2960
+#: development.docbook:2968
 #, no-c-format
 msgid ""
 "Will search the given <replaceable>file</replaceable> relative to the "
@@ -7561,26 +7579,26 @@ msgstr ""
 "replaceable> इत्यस्य बहुविधसमावेशानां रक्षणं भवति ।"
 
 #. Tag: para
-#: development.docbook:2964
+#: development.docbook:2972
 #, no-c-format
 msgid "Since: &kde; 4.10"
 msgstr "यतः: &where; ४.१०"
 
 #. Tag: title
-#: development.docbook:2973
+#: development.docbook:2981
 #, no-c-format
 msgid "Debugging"
 msgstr "त्रुटिनिवारणम्"
 
 #. Tag: synopsis
-#: development.docbook:2976
+#: development.docbook:2984
 #, no-c-format
 msgid ""
 "void debug(<parameter>String <replaceable>text</replaceable></parameter>);"
 msgstr "void debug(<पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>पाठ</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:2977
+#: development.docbook:2985
 #, no-c-format
 msgid ""
 "Prints <replaceable>text</replaceable> to <literal>stdout</literal> in the "
@@ -7590,13 +7608,13 @@ msgstr ""
 "<literal>stdout</literal> इत्यत्र मुद्रयति ।"
 
 #. Tag: title
-#: development.docbook:2986
+#: development.docbook:2994
 #, no-c-format
 msgid "Translation"
 msgstr "अनुवाद"
 
 #. Tag: para
-#: development.docbook:2988
+#: development.docbook:2996
 #, no-c-format
 msgid ""
 "In order to support full localization, there are several functions to "
@@ -7613,7 +7631,7 @@ msgstr ""
 "ulink> इव एव वर्तन्ते ।"
 
 #. Tag: para
-#: development.docbook:2995
+#: development.docbook:3003
 #, no-c-format
 msgid ""
 "The translation functions translate the wrapped strings through &kde;'s "
@@ -7633,7 +7651,7 @@ msgstr ""
 "अनुवादिताः भवन्ति। अतः कृपया स्वलिपिनां योगदानं &kate; यथा सम्यक् अनुवादः सम्भवति।"
 
 #. Tag: synopsis
-#: development.docbook:3007
+#: development.docbook:3015
 #, no-c-format
 msgid ""
 "void i18n(<parameter>String <replaceable>text</replaceable></parameter>, "
@@ -7643,7 +7661,7 @@ msgstr ""
 "<प्रतिस्थापनीय>arg1</प्रतिस्थापनीय>, ...);"
 
 #. Tag: para
-#: development.docbook:3008
+#: development.docbook:3016
 #, no-c-format
 msgid ""
 "Translates <replaceable>text</replaceable> into the language used by the "
@@ -7656,7 +7674,7 @@ msgstr ""
 "literal>, <literal>%2</literal>, &etc;"
 
 #. Tag: synopsis
-#: development.docbook:3015
+#: development.docbook:3023
 #, no-c-format
 msgid ""
 "void i18nc(<parameter>String <replaceable>context</replaceable></parameter>, "
@@ -7668,7 +7686,7 @@ msgstr ""
 "<प्रतिस्थापनीय>arg1</replaceable>, ...) ;"
 
 #. Tag: para
-#: development.docbook:3016
+#: development.docbook:3024
 #, no-c-format
 msgid ""
 "Translates <replaceable>text</replaceable> into the language used by the "
@@ -7683,7 +7701,7 @@ msgstr ""
 "वैकल्पिकाः सन्ति, <literal>%1</literal>, <literal>%2</literal>, &etc;"
 
 #. Tag: synopsis
-#: development.docbook:3025
+#: development.docbook:3033
 #, no-c-format
 msgid ""
 "void i18np(<parameter>String <replaceable>singular</replaceable></"
@@ -7697,7 +7715,7 @@ msgstr ""
 "<प्रतिस्थापनीय>arg1</प्रतिस्थापनीय>, ...);"
 
 #. Tag: para
-#: development.docbook:3026
+#: development.docbook:3034
 #, no-c-format
 msgid ""
 "Translates either <replaceable>singular</replaceable> or "
@@ -7712,7 +7730,7 @@ msgstr ""
 "<literal>%1</literal>, <literal>%2</literal>, &etc;"
 
 #. Tag: synopsis
-#: development.docbook:3035
+#: development.docbook:3043
 #, no-c-format
 msgid ""
 "void i18ncp(<parameter>String <replaceable>context</replaceable></"
@@ -7728,7 +7746,7 @@ msgstr ""
 "replaceable>, ...);"
 
 #. Tag: para
-#: development.docbook:3036
+#: development.docbook:3044
 #, no-c-format
 msgid ""
 "Translates either <replaceable>singular</replaceable> or "
@@ -7746,13 +7764,13 @@ msgstr ""
 "इति तर्काः वैकल्पिकाः सन्ति, <literal>%1</literal>, <literal>%2</literal>, &etc;"
 
 #. Tag: title
-#: development.docbook:3050
+#: development.docbook:3058
 #, no-c-format
 msgid "The View API"
 msgstr "दृश्य एपिआइ इति"
 
 #. Tag: para
-#: development.docbook:3051
+#: development.docbook:3059
 #, no-c-format
 msgid ""
 "Whenever a script is being executed, there is a global variable "
@@ -7764,13 +7782,13 @@ msgstr ""
 "उपलब्धानां View कार्याणां सूची अस्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:3058
+#: development.docbook:3066
 #, no-c-format
 msgid "<function>void view.copy()</function>"
 msgstr "<function>void view.copy()</function> इति"
 
 #. Tag: para
-#: development.docbook:3060
+#: development.docbook:3068
 #, no-c-format
 msgid ""
 "Copy the selection if there is one, otherwise the current line if the option "
@@ -7781,19 +7799,19 @@ msgstr ""
 "भवति ।"
 
 #. Tag: para
-#: development.docbook:3061 development.docbook:3070 development.docbook:3079
+#: development.docbook:3069 development.docbook:3078 development.docbook:3087
 #, no-c-format
 msgid "Since: &kde-frameworks; 5.79"
 msgstr "यतः: &kde-frameworks; ५.७९ इति"
 
 #. Tag: synopsis
-#: development.docbook:3067
+#: development.docbook:3075
 #, no-c-format
 msgid "<function>void view.cut()</function>"
 msgstr "<function>void view.cut()</function> इति"
 
 #. Tag: para
-#: development.docbook:3069
+#: development.docbook:3077
 #, no-c-format
 msgid ""
 "Cut the selection if there is one, otherwise the current line if the option "
@@ -7803,31 +7821,31 @@ msgstr ""
 "वर्तमानपङ्क्तिं प्रतिलिख्य/कटयतु यदि कोऽपि चयनः</userinput> सेट् न भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3076
+#: development.docbook:3084
 #, no-c-format
 msgid "<function>void view.paste()</function>"
 msgstr "<function>void view.paste()</function> इति"
 
 #. Tag: para
-#: development.docbook:3078
+#: development.docbook:3086
 #, no-c-format
 msgid "Paste the clipboard content."
 msgstr "क्लिपबोर्ड सामग्रीं चिनोतु।"
 
 #. Tag: synopsis
-#: development.docbook:3085
+#: development.docbook:3093
 #, no-c-format
 msgid "<function>Cursor view.cursorPosition()</function>"
 msgstr "<function>कर्सर view.cursorPosition()</function> इति"
 
 #. Tag: para
-#: development.docbook:3086
+#: development.docbook:3094
 #, no-c-format
 msgid "Returns the current cursor position in the view."
 msgstr "दृश्ये वर्तमानं कर्सरस्थानं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3091
+#: development.docbook:3099
 #, no-c-format
 msgid ""
 "void view.setCursorPosition(<parameter>int <replaceable>line</replaceable></"
@@ -7841,7 +7859,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3092
+#: development.docbook:3100
 #, no-c-format
 msgid ""
 "Set the current cursor position to either (line, column) or to the given "
@@ -7849,13 +7867,13 @@ msgid ""
 msgstr "वर्तमानं कर्सरस्थानं (रेखा, स्तम्भ) अथवा दत्तकर्सर इत्यत्र सेट् कुर्वन्तु ।"
 
 #. Tag: synopsis
-#: development.docbook:3099
+#: development.docbook:3107
 #, no-c-format
 msgid "Cursor view.virtualCursorPosition();"
 msgstr "कर्सर view.virtualCursorPosition ();"
 
 #. Tag: para
-#: development.docbook:3100
+#: development.docbook:3108
 #, no-c-format
 msgid ""
 "Returns the virtual cursor position with each tab counting the corresponding "
@@ -7865,7 +7883,7 @@ msgstr ""
 "कर्सरस्थानं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3107
+#: development.docbook:3115
 #, no-c-format
 msgid ""
 "void view.setVirtualCursorPosition(<parameter>int <replaceable>line</"
@@ -7881,7 +7899,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3108
+#: development.docbook:3116
 #, no-c-format
 msgid ""
 "Set the current virtual cursor position to (line, column) or to the given "
@@ -7889,13 +7907,13 @@ msgid ""
 msgstr "वर्तमान वर्चुअल् कर्सरस्थानं (रेखा, स्तम्भ) अथवा दत्तकर्सर इत्यत्र सेट् कुर्वन्तु ।"
 
 #. Tag: synopsis
-#: development.docbook:3115
+#: development.docbook:3123
 #, no-c-format
 msgid "String view.selectedText();"
 msgstr "स्ट्रिंग view.selectedText ();"
 
 #. Tag: para
-#: development.docbook:3116
+#: development.docbook:3124
 #, no-c-format
 msgid ""
 "Returns the selected text. If no text is selected, the returned string is "
@@ -7904,13 +7922,13 @@ msgstr ""
 "चयनितं पाठं प्रत्यागच्छति । यदि कोऽपि पाठः न चिनोति तर्हि प्रत्यागतं स्ट्रिंग् रिक्तं भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3123
+#: development.docbook:3131
 #, no-c-format
 msgid "bool view.hasSelection();"
 msgstr "bool view.hasचयन ();"
 
 #. Tag: para
-#: development.docbook:3124
+#: development.docbook:3132
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the view has selected text, otherwise "
@@ -7920,13 +7938,13 @@ msgstr ""
 "<literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3131
+#: development.docbook:3139
 #, no-c-format
 msgid "Range view.selection();"
 msgstr "श्रेणी दृश्य.चयन ();"
 
 #. Tag: para
-#: development.docbook:3132
+#: development.docbook:3140
 #, no-c-format
 msgid ""
 "Returns the selected text range. The returned range is invalid if there is "
@@ -7936,7 +7954,7 @@ msgstr ""
 "अमान्यः भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3140
+#: development.docbook:3148
 #, no-c-format
 msgid ""
 "void view.setSelection(<parameter>Range <replaceable>range</replaceable></"
@@ -7946,19 +7964,19 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3141
+#: development.docbook:3149
 #, no-c-format
 msgid "Set the selected text to the given range."
 msgstr "चयनितं पाठं दत्तपरिधिं प्रति सेट् कुर्वन्तु ।"
 
 #. Tag: synopsis
-#: development.docbook:3148
+#: development.docbook:3156
 #, no-c-format
 msgid "void view.removeSelectedText();"
 msgstr "void view.removeचयनित पाठ ();"
 
 #. Tag: para
-#: development.docbook:3149
+#: development.docbook:3157
 #, no-c-format
 msgid ""
 "Remove the selected text. If the view does not have any selected text, this "
@@ -7967,49 +7985,49 @@ msgstr ""
 "चयनितं पाठं निष्कासयन्तु। यदि दृश्ये कोऽपि चयनितः पाठः नास्ति तर्हि एतेन किमपि न भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3157
+#: development.docbook:3165
 #, no-c-format
 msgid "void view.selectAll();"
 msgstr "void view.selectAll ();"
 
 #. Tag: para
-#: development.docbook:3158
+#: development.docbook:3166
 #, no-c-format
 msgid "Selects the entire text in the document."
 msgstr "दस्तावेजे सम्पूर्णं पाठं चिनोति ।"
 
 #. Tag: synopsis
-#: development.docbook:3165
+#: development.docbook:3173
 #, no-c-format
 msgid "void view.clearSelection();"
 msgstr "void view.clearचयन ();"
 
 #. Tag: para
-#: development.docbook:3166
+#: development.docbook:3174
 #, no-c-format
 msgid "Clears the text selection without removing the text."
 msgstr "पाठं न निष्कास्य पाठचयनं स्वच्छं करोति ।"
 
 #. Tag: synopsis
-#: development.docbook:3173
+#: development.docbook:3181
 #, no-c-format
 msgid "void view.setBlockSelection(bool on);"
 msgstr "void view.setBlockSelection (bool पर);"
 
 #. Tag: para
-#: development.docbook:3174
+#: development.docbook:3182
 #, no-c-format
 msgid "Set block selection mode on or off."
 msgstr "ब्लॉकचयनविधिं चालू वा निष्क्रियं वा सेट् कुर्वन्तु।"
 
 #. Tag: synopsis
-#: development.docbook:3180
+#: development.docbook:3188
 #, no-c-format
 msgid "bool view.blockSelection();"
 msgstr "bool view.blockचयन ();"
 
 #. Tag: para
-#: development.docbook:3181
+#: development.docbook:3189
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if block selection mode is on, otherwise "
@@ -8019,7 +8037,7 @@ msgstr ""
 "<literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3188
+#: development.docbook:3196
 #, no-c-format
 msgid ""
 "void view.align(<parameter>Range <replaceable>range</replaceable></"
@@ -8028,7 +8046,7 @@ msgstr ""
 "void view.align(<पैरामीटर>परिधि <प्रतिस्थापनीय>परिधि</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3189
+#: development.docbook:3197
 #, no-c-format
 msgid ""
 "Properly re-indent lines within <replaceable>range</replaceable> according "
@@ -8038,7 +8056,7 @@ msgstr ""
 "रेखाः सम्यक् पुनः इन्डेण्ट् कुर्वन्तु ।"
 
 #. Tag: synopsis
-#: development.docbook:3196
+#: development.docbook:3204
 #, no-c-format
 msgid ""
 "void view.alignOn(<parameter>Range <replaceable>range</replaceable></"
@@ -8049,7 +8067,7 @@ msgstr ""
 "<पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>प्रतिमान</प्रतिस्थापनीय> = &quot;&quot;</पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3197
+#: development.docbook:3205
 #, no-c-format
 msgid ""
 "Aligns lines in <replaceable>range</replaceable> on the column given by the "
@@ -8064,13 +8082,13 @@ msgstr ""
 "संरेखयिष्यति । यदि प्रतिरूपस्य ग्रहणं भवति तर्हि सः गृहीतमेलने इन्डेण्ट् करिष्यति ।"
 
 #. Tag: emphasis
-#: development.docbook:3202
+#: development.docbook:3210
 #, no-c-format
 msgid "Examples:"
 msgstr "उदाहरणानि :"
 
 #. Tag: para
-#: development.docbook:3203
+#: development.docbook:3211
 #, no-c-format
 msgid ""
 "<literal>view.alignOn(document.documentRange(), '-');</literal> will insert "
@@ -8082,7 +8100,7 @@ msgstr ""
 "सर्वान् एकस्मिन् स्तम्भे संरेखयिष्यति ।"
 
 #. Tag: para
-#: development.docbook:3204
+#: development.docbook:3212
 #, no-c-format
 msgid ""
 "<literal>view.alignOn(document.documentRange(), ':\\\\s+(.)');</literal> "
@@ -8094,7 +8112,7 @@ msgstr ""
 "रिक्तस्थानानि सम्मिलितं करिष्यति स्तम्भ।"
 
 #. Tag: synopsis
-#: development.docbook:3209
+#: development.docbook:3217
 #, no-c-format
 msgid ""
 "object view.executeCommand(<parameter>String <replaceable>command</"
@@ -8112,7 +8130,7 @@ msgstr ""
 "replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3210
+#: development.docbook:3218
 #, no-c-format
 msgid ""
 "Executes the <link linkend=\"advanced-editing-tools-commandline\">command "
@@ -8132,14 +8150,14 @@ msgstr ""
 "अभवत् । दोषस्य सति स्ट्रिंग्<replaceable> वस्तु।स्थिति</replaceable> त्रुटिसन्देशः अस्ति ।"
 
 #. Tag: para
-#: development.docbook:3217 development.docbook:3939 development.docbook:3949
-#: development.docbook:3959
+#: development.docbook:3225 development.docbook:3947 development.docbook:3957
+#: development.docbook:3967
 #, no-c-format
 msgid "Since: &kde-frameworks; 5.50"
 msgstr "यतः: &kde-frameworks; ५.५० इति"
 
 #. Tag: synopsis
-#: development.docbook:3222
+#: development.docbook:3230
 #, no-c-format
 msgid ""
 "Range view.searchText(<parameter>Range <replaceable>range</replaceable></"
@@ -8157,7 +8175,7 @@ msgstr ""
 "मिथ्या</parameter>);"
 
 #. Tag: para
-#: development.docbook:3223
+#: development.docbook:3231
 #, no-c-format
 msgid ""
 "Search for the first occurrence of <replaceable>pattern</replaceable> in "
@@ -8171,7 +8189,7 @@ msgstr ""
 "literal> इति सेट् भवति तर्हि अन्वेषणं पश्चात् क्रियते ।"
 
 #. Tag: para
-#: development.docbook:3227
+#: development.docbook:3235
 #, no-c-format
 msgid ""
 "The returned range is invalid (see Range.isValid()) if <replaceable>pattern</"
@@ -8181,19 +8199,19 @@ msgstr ""
 "लभ्यते तर्हि प्रत्यागतपरिधिः अमान्यः अस्ति (द्रष्टव्यम् Range.isValid()) ।"
 
 #. Tag: para
-#: development.docbook:3230
+#: development.docbook:3238
 #, no-c-format
 msgid "Since: &kde-frameworks; 5.97"
 msgstr "यतः: &kde-frameworks; ५.९७ इति"
 
 #. Tag: title
-#: development.docbook:3239
+#: development.docbook:3247
 #, no-c-format
 msgid "The Document API"
 msgstr "दस्तावेज एपिआइ इति"
 
 #. Tag: para
-#: development.docbook:3240
+#: development.docbook:3248
 #, no-c-format
 msgid ""
 "Whenever a script is being executed, there is a global variable "
@@ -8205,26 +8223,26 @@ msgstr ""
 "उपलब्धानां Document कार्याणां सूची अस्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:3248
+#: development.docbook:3256
 #, no-c-format
 msgid "String document.fileName();"
 msgstr "String document.fileName ();"
 
 #. Tag: para
-#: development.docbook:3249
+#: development.docbook:3257
 #, no-c-format
 msgid ""
 "Returns the document's filename or an empty string for unsaved text buffers."
 msgstr "दस्तावेजस्य सञ्चिकानाम अथवा असरक्षितपाठबफरस्य कृते रिक्तं स्ट्रिंग् प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3256
+#: development.docbook:3264
 #, no-c-format
 msgid "String document.url();"
 msgstr "स्ट्रिंग दस्तावेज़.url ();"
 
 #. Tag: para
-#: development.docbook:3257
+#: development.docbook:3265
 #, no-c-format
 msgid ""
 "Returns the document's full &URL; or an empty string for unsaved text "
@@ -8232,13 +8250,13 @@ msgid ""
 msgstr "दस्तावेजस्य पूर्णं &URL; अथवा असरक्षितपाठबफरस्य कृते रिक्तं स्ट्रिंग् ।"
 
 #. Tag: synopsis
-#: development.docbook:3264
+#: development.docbook:3272
 #, no-c-format
 msgid "String document.mimeType();"
 msgstr "स्ट्रिंग दस्तावेज़.mimeType ();"
 
 #. Tag: para
-#: development.docbook:3265
+#: development.docbook:3273
 #, no-c-format
 msgid ""
 "Returns the document's &MIME; type or the &MIME; type <literal>application/"
@@ -8248,31 +8266,31 @@ msgstr ""
 "octet-stream</literal> इति टङ्कयन्तु &MIME; प्रकारः प्राप्यते स्म ।"
 
 #. Tag: synopsis
-#: development.docbook:3273
+#: development.docbook:3281
 #, no-c-format
 msgid "String document.encoding();"
 msgstr "String document.encoding ();"
 
 #. Tag: para
-#: development.docbook:3274
+#: development.docbook:3282
 #, no-c-format
 msgid "Returns the currently used encoding to save the file."
 msgstr "सञ्चिकां रक्षितुं वर्तमानकाले प्रयुक्तं एन्कोडिंग् प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3280
+#: development.docbook:3288
 #, no-c-format
 msgid "String document.highlightingMode();"
 msgstr "String document.highlightingMode ();"
 
 #. Tag: para
-#: development.docbook:3281
+#: development.docbook:3289
 #, no-c-format
 msgid "Returns the global highlighting mode used for the whole document."
 msgstr "सम्पूर्णदस्तावेजस्य कृते प्रयुक्तं वैश्विकं हाइलाइटिङ्ग् मोड् प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3287
+#: development.docbook:3295
 #, no-c-format
 msgid ""
 "String document.highlightingModeAt(<parameter>Cursor <replaceable>pos</"
@@ -8282,32 +8300,32 @@ msgstr ""
 "replaceable></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3288
+#: development.docbook:3296
 #, no-c-format
 msgid ""
 "Returns the highlighting mode used at the given position in the document."
 msgstr "दस्तावेजे दत्तस्थाने प्रयुक्तं हाइलाइटिङ्ग् मोड् प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3294
+#: development.docbook:3302
 #, no-c-format
 msgid "Array document.embeddedHighlightingModes();"
 msgstr "सरणी document.embeddedHighlightingModes ();"
 
 #. Tag: para
-#: development.docbook:3295
+#: development.docbook:3303
 #, no-c-format
 msgid "Returns an array of highlighting modes embedded in this document."
 msgstr "अस्मिन् दस्तावेजे निहितस्य हाइलाइटिङ्ग् मोड् इत्यस्य सरणीं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3301
+#: development.docbook:3309
 #, no-c-format
 msgid "bool document.isModified();"
 msgstr "bool दस्तावेज.isModified ();"
 
 #. Tag: para
-#: development.docbook:3302
+#: development.docbook:3310
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the document has unsaved changes "
@@ -8317,13 +8335,13 @@ msgstr ""
 "सन्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3309
+#: development.docbook:3317
 #, no-c-format
 msgid "String document.text();"
 msgstr "स्ट्रिंग दस्तावेज़.पाठ ();"
 
 #. Tag: para
-#: development.docbook:3310
+#: development.docbook:3318
 #, no-c-format
 msgid ""
 "Returns the entire content of the document in a single text string. Newlines "
@@ -8333,7 +8351,7 @@ msgstr ""
 "<quote><literal>\\n</literal></quote> इति नूतनपङ्क्तिवर्णेन चिह्निताः भवन्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:3318
+#: development.docbook:3326
 #, no-c-format
 msgid ""
 "String document.text(<parameter>int <replaceable>fromLine</replaceable></"
@@ -8355,7 +8373,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3319
+#: development.docbook:3327
 #, no-c-format
 msgid ""
 "Returns the text in the given range. It is recommended to use the cursor and "
@@ -8365,7 +8383,7 @@ msgstr ""
 "उपयोगः अनुशंसितः ।"
 
 #. Tag: synopsis
-#: development.docbook:3327
+#: development.docbook:3335
 #, no-c-format
 msgid ""
 "String document.line(<parameter>int <replaceable>line</replaceable></"
@@ -8374,7 +8392,7 @@ msgstr ""
 "String document.line(<पैरामीटर>int <प्रतिस्थापनीय>रेखा</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3328
+#: development.docbook:3336
 #, no-c-format
 msgid ""
 "Returns the given text line as string. The string is empty if the requested "
@@ -8384,7 +8402,7 @@ msgstr ""
 "तर्हि स्ट्रिंग् रिक्तं भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3336
+#: development.docbook:3344
 #, no-c-format
 msgid ""
 "String document.wordAt(<parameter>int <replaceable>line</replaceable></"
@@ -8398,13 +8416,13 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3337
+#: development.docbook:3345
 #, no-c-format
 msgid "Returns the word at the given cursor position."
 msgstr "दत्तकर्सरस्थाने शब्दं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3345
+#: development.docbook:3353
 #, no-c-format
 msgid ""
 "Range document.wordRangeAt(<parameter>int <replaceable>line</replaceable></"
@@ -8418,7 +8436,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3347
+#: development.docbook:3355
 #, no-c-format
 msgid ""
 "Return the range of the word at the given cursor position. The returned "
@@ -8431,7 +8449,7 @@ msgstr ""
 "नास्ति तर्हि रिक्तपरिधिः प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3360
+#: development.docbook:3368
 #, no-c-format
 msgid ""
 "String document.charAt(<parameter>int <replaceable>line</replaceable></"
@@ -8445,13 +8463,13 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3361
+#: development.docbook:3369
 #, no-c-format
 msgid "Returns the character at the given cursor position."
 msgstr "दत्तकर्सरस्थाने वर्णं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3368
+#: development.docbook:3376
 #, no-c-format
 msgid ""
 "String document.firstChar(<parameter>int <replaceable>line</replaceable></"
@@ -8461,7 +8479,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3369
+#: development.docbook:3377
 #, no-c-format
 msgid ""
 "Returns the first character in the given <replaceable>line</replaceable> "
@@ -8473,7 +8491,7 @@ msgstr ""
 "प्रत्यागतं स्ट्रिंग् रिक्तं भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3379
+#: development.docbook:3387
 #, no-c-format
 msgid ""
 "String document.lastChar(<parameter>int <replaceable>line</replaceable></"
@@ -8483,7 +8501,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3380
+#: development.docbook:3388
 #, no-c-format
 msgid ""
 "Returns the last character in the given <replaceable>line</replaceable> that "
@@ -8494,7 +8512,7 @@ msgstr ""
 "। यदि रेखा रिक्तं भवति अथवा केवलं श्वेतस्थानवर्णाः सन्ति तर्हि प्रत्यागतं स्ट्रिंग् रिक्तं भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3389
+#: development.docbook:3397
 #, no-c-format
 msgid ""
 "bool document.isSpace(<parameter>int <replaceable>line</replaceable></"
@@ -8508,7 +8526,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3390
+#: development.docbook:3398
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the character at the given cursor "
@@ -8518,7 +8536,7 @@ msgstr ""
 "अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3398
+#: development.docbook:3406
 #, no-c-format
 msgid ""
 "bool document.matchesAt(<parameter>int <replaceable>line</replaceable></"
@@ -8534,7 +8552,7 @@ msgstr ""
 "parameter>, <पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>पाठ</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3399
+#: development.docbook:3407
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the given <replaceable>text</"
@@ -8545,7 +8563,7 @@ msgstr ""
 "replaceable> तत्सम्बद्धे कर्सरस्थाने मेलनं करोति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3407
+#: development.docbook:3415
 #, no-c-format
 msgid ""
 "bool document.startsWith(<parameter>int <replaceable>line</replaceable></"
@@ -8557,7 +8575,7 @@ msgstr ""
 "<parameter>bool <replaceable>skipWhiteSpaces</replaceable इति ></parameter>);"
 
 #. Tag: para
-#: development.docbook:3408
+#: development.docbook:3416
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the line starts with <replaceable>text</"
@@ -8571,7 +8589,7 @@ msgstr ""
 "उपेक्षितानि वा इति नियन्त्रयति ।"
 
 #. Tag: synopsis
-#: development.docbook:3416
+#: development.docbook:3424
 #, no-c-format
 msgid ""
 "bool document.endsWith(<parameter>int <replaceable>line</replaceable></"
@@ -8583,7 +8601,7 @@ msgstr ""
 "<parameter>bool <replaceable>skipWhiteSpaces</replaceable इति ></parameter>);"
 
 #. Tag: para
-#: development.docbook:3417
+#: development.docbook:3425
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the line ends with <replaceable>text</"
@@ -8597,7 +8615,7 @@ msgstr ""
 "उपेक्षितानि वा इति नियन्त्रयति ।"
 
 #. Tag: synopsis
-#: development.docbook:3425
+#: development.docbook:3433
 #, no-c-format
 msgid ""
 "bool document.setText(<parameter>String <replaceable>text</replaceable></"
@@ -8607,25 +8625,25 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3426
+#: development.docbook:3434
 #, no-c-format
 msgid "Sets the entire document text."
 msgstr "सम्पूर्णं दस्तावेजपाठं सेट् करोति ।"
 
 #. Tag: synopsis
-#: development.docbook:3433
+#: development.docbook:3441
 #, no-c-format
 msgid "bool document.clear();"
 msgstr "bool document.clear ();"
 
 #. Tag: para
-#: development.docbook:3434
+#: development.docbook:3442
 #, no-c-format
 msgid "Removes the entire text in the document."
 msgstr "दस्तावेजे सम्पूर्णं पाठं निष्कासयति ।"
 
 #. Tag: synopsis
-#: development.docbook:3441
+#: development.docbook:3449
 #, no-c-format
 msgid ""
 "bool document.truncate(<parameter>int <replaceable>line</replaceable></"
@@ -8639,7 +8657,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3442
+#: development.docbook:3450
 #, no-c-format
 msgid ""
 "Truncate the given line at the given column or cursor position. Returns "
@@ -8651,7 +8669,7 @@ msgstr ""
 "।"
 
 #. Tag: synopsis
-#: development.docbook:3450
+#: development.docbook:3458
 #, no-c-format
 msgid ""
 "bool document.insertText(<parameter>int <replaceable>line</replaceable></"
@@ -8668,7 +8686,7 @@ msgstr ""
 "parameter>, <पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>पाठ</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3451
+#: development.docbook:3459
 #, no-c-format
 msgid ""
 "Inserts the <replaceable>text</replaceable> at the given cursor position. "
@@ -8680,7 +8698,7 @@ msgstr ""
 "पठनीयविधाने अस्ति तर्हि प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3459
+#: development.docbook:3467
 #, no-c-format
 msgid ""
 "bool document.removeText(<parameter>int <replaceable>fromLine</replaceable></"
@@ -8702,7 +8720,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3460
+#: development.docbook:3468
 #, no-c-format
 msgid ""
 "Removes the text in the given range. Returns <literal>true</literal> on "
@@ -8712,7 +8730,7 @@ msgstr ""
 "<literal>false</literal>, यदि दस्तावेजः केवलं पठनीयविधाने अस्ति तर्हि प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3468
+#: development.docbook:3476
 #, no-c-format
 msgid ""
 "bool document.insertLine(<parameter>int <replaceable>line</replaceable></"
@@ -8722,7 +8740,7 @@ msgstr ""
 "पैरामीटर>, <पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>पाठ</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3469
+#: development.docbook:3477
 #, no-c-format
 msgid ""
 "Inserts text in the given line. Returns <literal>true</literal> on success, "
@@ -8734,7 +8752,7 @@ msgstr ""
 "प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3477
+#: development.docbook:3485
 #, no-c-format
 msgid ""
 "bool document.removeLine(<parameter>int <replaceable>line</replaceable></"
@@ -8744,7 +8762,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3478
+#: development.docbook:3486
 #, no-c-format
 msgid ""
 "Removes the given text line. Returns <literal>true</literal> on success, or "
@@ -8756,7 +8774,7 @@ msgstr ""
 "दस्तावेजपरिधिषु नास्ति तर्हि प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3486
+#: development.docbook:3494
 #, no-c-format
 msgid ""
 "bool document.wrapLine(<parameter>int <replaceable>line</replaceable></"
@@ -8770,7 +8788,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3487
+#: development.docbook:3495
 #, no-c-format
 msgid ""
 "Wraps the line at the given cursor position. Returns <literal>true</literal> "
@@ -8780,7 +8798,7 @@ msgstr ""
 "<literal>false</literal>, &eg; यदि रेखा &lt; ० ।"
 
 #. Tag: synopsis
-#: development.docbook:3499
+#: development.docbook:3507
 #, no-c-format
 msgid ""
 "void document.joinLines(<parameter>int <replaceable>startLine</replaceable></"
@@ -8790,7 +8808,7 @@ msgstr ""
 "पैरामीटर>, <पैरामीटर>int <प्रतिस्थापनीय>अन्तरेखा</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3500
+#: development.docbook:3508
 #, no-c-format
 msgid ""
 "Joins the lines from <replaceable>startLine</replaceable> to "
@@ -8801,19 +8819,19 @@ msgstr ""
 "पर्यन्तं पङ्क्तयः संयोजयति । द्वौ क्रमिकौ पाठरेखाद्वयं सर्वदा एकेन रिक्तस्थानेन विभक्तौ भवतः ।"
 
 #. Tag: synopsis
-#: development.docbook:3508
+#: development.docbook:3516
 #, no-c-format
 msgid "int document.lines();"
 msgstr "int दस्तावेज़.रेखा ();"
 
 #. Tag: para
-#: development.docbook:3509
+#: development.docbook:3517
 #, no-c-format
 msgid "Returns the number of lines in the document."
 msgstr "दस्तावेजे पङ्क्तयः संख्यां प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3516
+#: development.docbook:3524
 #, no-c-format
 msgid ""
 "bool document.isLineModified(<parameter>int <replaceable>line</replaceable></"
@@ -8823,7 +8841,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3517
+#: development.docbook:3525
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if <replaceable>line</replaceable> "
@@ -8833,14 +8851,14 @@ msgstr ""
 "इत्यत्र सम्प्रति अरक्षितदत्तांशः अस्ति ।"
 
 #. Tag: para
-#: development.docbook:3520 development.docbook:3532 development.docbook:3543
-#: development.docbook:3555 development.docbook:3729
+#: development.docbook:3528 development.docbook:3540 development.docbook:3551
+#: development.docbook:3563 development.docbook:3737
 #, no-c-format
 msgid "Since: &kde; 5.0"
 msgstr "यतः: &where; ५.० इति"
 
 #. Tag: synopsis
-#: development.docbook:3527
+#: development.docbook:3535
 #, no-c-format
 msgid ""
 "bool document.isLineSaved(<parameter>int <replaceable>line</replaceable></"
@@ -8850,7 +8868,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3528
+#: development.docbook:3536
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if <replaceable>line</replaceable> was "
@@ -8861,7 +8879,7 @@ msgstr ""
 "परिवर्तिता, परन्तु दस्तावेजं रक्षितम् । अतः, रेखायां सम्प्रति किमपि असरक्षितं दत्तांशं नास्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:3539
+#: development.docbook:3547
 #, no-c-format
 msgid ""
 "bool document.isLineTouched(<parameter>int <replaceable>line</replaceable></"
@@ -8871,7 +8889,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3540
+#: development.docbook:3548
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if <replaceable>line</replaceable> "
@@ -8881,7 +8899,7 @@ msgstr ""
 "इत्यत्र सम्प्रति अरक्षितदत्तांशः अस्ति अथवा पूर्वं परिवर्तितः अस्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:3550
+#: development.docbook:3558
 #, no-c-format
 msgid ""
 "bool document.findTouchedLine(<parameter>int <replaceable>startLine</"
@@ -8893,7 +8911,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3551
+#: development.docbook:3559
 #, no-c-format
 msgid ""
 "Search for the next touched line starting at <replaceable>line</"
@@ -8905,19 +8923,19 @@ msgstr ""
 "वा क्रियते ।"
 
 #. Tag: synopsis
-#: development.docbook:3562
+#: development.docbook:3570
 #, no-c-format
 msgid "int document.length();"
 msgstr "int दस्तावेज़.दीर्घता ();"
 
 #. Tag: para
-#: development.docbook:3563
+#: development.docbook:3571
 #, no-c-format
 msgid "Returns the number of characters in the document."
 msgstr "दस्तावेजे वर्णानाम् संख्यां प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3570
+#: development.docbook:3578
 #, no-c-format
 msgid ""
 "int document.lineLength(<parameter>int <replaceable>line</replaceable></"
@@ -8927,19 +8945,19 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3571
+#: development.docbook:3579
 #, no-c-format
 msgid "Returns the <replaceable>line</replaceable>'s length."
 msgstr "<replaceable>रेखा</replaceable> इत्यस्य दीर्घतां प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3578
+#: development.docbook:3586
 #, no-c-format
 msgid "void document.editBegin();"
 msgstr "void document.editBegin ();"
 
 #. Tag: para
-#: development.docbook:3579
+#: development.docbook:3587
 #, no-c-format
 msgid ""
 "Starts an edit group for undo/redo grouping. Make sure to always call "
@@ -8953,13 +8971,13 @@ msgstr ""
 "सन्दर्भगणकस्य उपयोगं करोति, &ie;, एतत् आह्वानं नेस्ट् कर्तुं शक्यते ।"
 
 #. Tag: synopsis
-#: development.docbook:3589
+#: development.docbook:3597
 #, no-c-format
 msgid "void document.editEnd();"
 msgstr "void दस्तावेज़.संपादन समाप्त ();"
 
 #. Tag: para
-#: development.docbook:3590
+#: development.docbook:3598
 #, no-c-format
 msgid ""
 "Ends an edit group. The last call of <function>editEnd()</function> (&ie; "
@@ -8971,7 +8989,7 @@ msgstr ""
 "सम्पादनपदं समाप्तं करोति ।"
 
 #. Tag: synopsis
-#: development.docbook:3599
+#: development.docbook:3607
 #, no-c-format
 msgid ""
 "int document.firstColumn(<parameter>int <replaceable>line</replaceable></"
@@ -8981,7 +8999,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3600
+#: development.docbook:3608
 #, no-c-format
 msgid ""
 "Returns the first non-whitespace column in the given <replaceable>line</"
@@ -8992,7 +9010,7 @@ msgstr ""
 "पङ्क्तौ केवलं श्वेतस्थानानि सन्ति तर्हि प्रत्यागमनमूल्यं <literal>-1</literal> भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3608
+#: development.docbook:3616
 #, no-c-format
 msgid ""
 "int document.lastColumn(<parameter>int <replaceable>line</replaceable></"
@@ -9002,7 +9020,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3609
+#: development.docbook:3617
 #, no-c-format
 msgid ""
 "Returns the last non-whitespace column in the given <replaceable>line</"
@@ -9013,7 +9031,7 @@ msgstr ""
 "पङ्क्तौ केवलं श्वेतस्थानानि सन्ति तर्हि प्रत्यागमनमूल्यं <literal>-1</literal> भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3617
+#: development.docbook:3625
 #, no-c-format
 msgid ""
 "int document.prevNonSpaceColumn(<parameter>int <replaceable>line</"
@@ -9028,7 +9046,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3618
+#: development.docbook:3626
 #, no-c-format
 msgid ""
 "Returns the column with a non-whitespace character starting at the given "
@@ -9036,7 +9054,7 @@ msgid ""
 msgstr "दत्तकर्सरस्थानात् आरभ्य पश्चात् अन्वेषणं कृत्वा अश्वेतस्थानवर्णेन सह स्तम्भं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3626
+#: development.docbook:3634
 #, no-c-format
 msgid ""
 "int document.nextNonSpaceColumn(<parameter>int <replaceable>line</"
@@ -9051,7 +9069,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3627
+#: development.docbook:3635
 #, no-c-format
 msgid ""
 "Returns the column with a non-whitespace character starting at the given "
@@ -9059,7 +9077,7 @@ msgid ""
 msgstr "दत्तकर्सरस्थानात् आरभ्य अग्रे अन्वेषणं कृत्वा अश्वेतस्थानवर्णेन सह स्तम्भं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3635
+#: development.docbook:3643
 #, no-c-format
 msgid ""
 "int document.prevNonEmptyLine(<parameter>int <replaceable>line</"
@@ -9069,7 +9087,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3636
+#: development.docbook:3644
 #, no-c-format
 msgid ""
 "Returns the next non-empty line containing non-whitespace characters "
@@ -9078,7 +9096,7 @@ msgstr ""
 "पश्चात् अन्वेषणं कुर्वन्तः अश्वेतस्थानवर्णाः समाविष्टाः अग्रिमा-रिक्तपङ्क्तिं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3644
+#: development.docbook:3652
 #, no-c-format
 msgid ""
 "int document.nextNonEmptyLine(<parameter>int <replaceable>line</"
@@ -9088,7 +9106,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3645
+#: development.docbook:3653
 #, no-c-format
 msgid ""
 "Returns the next non-empty line containing non-whitespace characters "
@@ -9096,7 +9114,7 @@ msgid ""
 msgstr "अग्रे अन्वेषणं कुर्वन्तः अश्वेतस्थानवर्णाः समाविष्टाः अग्रिमा-रिक्तपङ्क्तिं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3653
+#: development.docbook:3661
 #, no-c-format
 msgid ""
 "bool document.isInWord(<parameter>String <replaceable>character</"
@@ -9107,7 +9125,7 @@ msgstr ""
 "parameter>, <पैरामीटर>int <प्रतिस्थापनीय>गुण</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3654
+#: development.docbook:3662
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the given <replaceable>character</"
@@ -9119,7 +9137,7 @@ msgstr ""
 "अर्हति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3663
+#: development.docbook:3671
 #, no-c-format
 msgid ""
 "bool document.canBreakAt(<parameter>String <replaceable>character</"
@@ -9130,7 +9148,7 @@ msgstr ""
 "parameter>, <पैरामीटर>int <प्रतिस्थापनीय>गुण</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3664
+#: development.docbook:3672
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the given <replaceable>character</"
@@ -9142,7 +9160,7 @@ msgstr ""
 "अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3673
+#: development.docbook:3681
 #, no-c-format
 msgid ""
 "bool document.canComment(<parameter>int <replaceable>startAttribute</"
@@ -9153,7 +9171,7 @@ msgstr ""
 "पैरामीटर>, <पैरामीटर>int <प्रतिस्थापनीय>अन्तगुण</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3674
+#: development.docbook:3682
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if a range starting and ending with the "
@@ -9164,7 +9182,7 @@ msgstr ""
 "कर्तुं उपयुक्तः अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3682
+#: development.docbook:3690
 #, no-c-format
 msgid ""
 "String document.commentMarker(<parameter>int <replaceable>attribute</"
@@ -9174,7 +9192,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3683
+#: development.docbook:3691
 #, no-c-format
 msgid ""
 "Returns the comment marker for single line comments for a given "
@@ -9184,7 +9202,7 @@ msgstr ""
 "प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3690
+#: development.docbook:3698
 #, no-c-format
 msgid ""
 "String document.commentStart(<parameter>int <replaceable>attribute</"
@@ -9194,7 +9212,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3691
+#: development.docbook:3699
 #, no-c-format
 msgid ""
 "Returns the comment marker for the start of multi-line comments for a given "
@@ -9204,7 +9222,7 @@ msgstr ""
 "टिप्पणीचिह्नं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3699
+#: development.docbook:3707
 #, no-c-format
 msgid ""
 "String document.commentEnd(<parameter>int <replaceable>attribute</"
@@ -9214,7 +9232,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3700
+#: development.docbook:3708
 #, no-c-format
 msgid ""
 "Returns the comment marker for the end of multi-line comments for a given "
@@ -9224,25 +9242,25 @@ msgstr ""
 "टिप्पणीचिह्नं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3708
+#: development.docbook:3716
 #, no-c-format
 msgid "Range document.documentRange();"
 msgstr "श्रेणी document.documentRange ();"
 
 #. Tag: para
-#: development.docbook:3709
+#: development.docbook:3717
 #, no-c-format
 msgid "Returns a range that encompasses the whole document."
 msgstr "एकं परिधिं प्रत्यागच्छति यत् सम्पूर्णं दस्तावेजं व्याप्नोति ।"
 
 #. Tag: synopsis
-#: development.docbook:3716
+#: development.docbook:3724
 #, no-c-format
 msgid "Cursor documentEnd();"
 msgstr "कर्सर documentEnd ();"
 
 #. Tag: para
-#: development.docbook:3717
+#: development.docbook:3725
 #, no-c-format
 msgid ""
 "Returns a cursor positioned at the last column of the last line in the "
@@ -9250,7 +9268,7 @@ msgid ""
 msgstr "दस्तावेजे अन्तिमपङ्क्तौ अन्तिमस्तम्भे स्थितं कर्सरं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3724
+#: development.docbook:3732
 #, no-c-format
 msgid ""
 "bool isValidTextPosition(<parameter>int <replaceable>line</replaceable></"
@@ -9264,7 +9282,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3725
+#: development.docbook:3733
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the given cursor position is positioned "
@@ -9277,7 +9295,7 @@ msgstr ""
 "यदि पाठस्थानं यूनिकोड-प्रतिनिधिस्थाने स्थितम् अस्ति तर्हि अमान्यं भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3736
+#: development.docbook:3744
 #, no-c-format
 msgid ""
 "int document.attribute(<parameter>int <replaceable>line</replaceable></"
@@ -9291,13 +9309,13 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3737
+#: development.docbook:3745
 #, no-c-format
 msgid "Returns the attribute at the given cursor position."
 msgstr "दत्तकर्सरस्थाने विशेषतां प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3744
+#: development.docbook:3752
 #, no-c-format
 msgid ""
 "bool document.isAttribute(<parameter>int <replaceable>line</replaceable></"
@@ -9314,7 +9332,7 @@ msgstr ""
 "parameter>, <पैरामीटर>int <प्रतिस्थापनीय>गुण</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3745
+#: development.docbook:3753
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute at the given cursor "
@@ -9326,7 +9344,7 @@ msgstr ""
 "literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3753
+#: development.docbook:3761
 #, no-c-format
 msgid ""
 "String document.attributeName(<parameter>int <replaceable>line</"
@@ -9341,7 +9359,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3754
+#: development.docbook:3762
 #, no-c-format
 msgid ""
 "Returns the attribute name as human readable text. This is equal to the "
@@ -9351,7 +9369,7 @@ msgstr ""
 "<literal>itemData</literal> इति नाम्नः तुल्यम् अस्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:3762
+#: development.docbook:3770
 #, no-c-format
 msgid ""
 "bool document.isAttributeName(<parameter>int <replaceable>line</"
@@ -9368,7 +9386,7 @@ msgstr ""
 "parameter>, <पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>नाम</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3763
+#: development.docbook:3771
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute name at a certain cursor "
@@ -9380,7 +9398,7 @@ msgstr ""
 "literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3771
+#: development.docbook:3779
 #, no-c-format
 msgid ""
 "String document.variable(<parameter>String <replaceable>key</replaceable></"
@@ -9390,7 +9408,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3772
+#: development.docbook:3780
 #, no-c-format
 msgid ""
 "Returns the value of the requested document variable <replaceable>key</"
@@ -9401,7 +9419,7 @@ msgstr ""
 "यदि document variable नास्ति तर्हि return value रिक्तं स्ट्रिंग् भवति ।"
 
 #. Tag: synopsis
-#: development.docbook:3780
+#: development.docbook:3788
 #, no-c-format
 msgid ""
 "void document.setVariable(<parameter>String <replaceable>key</replaceable></"
@@ -9411,7 +9429,7 @@ msgstr ""
 "parameter>, <पैरामीटर>स्ट्रिंग <प्रतिस्थापनीय>मूल्य</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3781
+#: development.docbook:3789
 #, no-c-format
 msgid ""
 "Set the value of the requested document variable <replaceable>key</"
@@ -9419,7 +9437,7 @@ msgid ""
 msgstr "अनुरोधितदस्तावेजचरस्य मूल्यं <replaceable>key</replaceable> इति सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: development.docbook:3784
+#: development.docbook:3792
 #, no-c-format
 msgid ""
 "See also: <link linkend=\"config-variables\">Kate document variables</link>"
@@ -9427,13 +9445,13 @@ msgstr ""
 "इदमपि पश्यन्तु : १.<link linkend=\"config-variables\"> केट दस्तावेज चर</link>"
 
 #. Tag: para
-#: development.docbook:3787
+#: development.docbook:3795
 #, no-c-format
 msgid "Since: &kde; 4.8"
 msgstr "यतः: &where; ४.८"
 
 #. Tag: synopsis
-#: development.docbook:3794
+#: development.docbook:3802
 #, no-c-format
 msgid ""
 "int document.firstVirtualColumn(<parameter>int <replaceable>line</"
@@ -9443,7 +9461,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3795
+#: development.docbook:3803
 #, no-c-format
 msgid ""
 "Returns the virtual column of the first non-whitespace character in the "
@@ -9454,7 +9472,7 @@ msgstr ""
 "literal>, यदि रेखा रिक्तं भवति अथवा केवलं श्वेतस्थानवर्णाः सन्ति"
 
 #. Tag: synopsis
-#: development.docbook:3803
+#: development.docbook:3811
 #, no-c-format
 msgid ""
 "int document.lastVirtualColumn(<parameter>int <replaceable>line</"
@@ -9464,7 +9482,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3804
+#: development.docbook:3812
 #, no-c-format
 msgid ""
 "Returns the virtual column of the last non-whitespace character in the given "
@@ -9475,7 +9493,7 @@ msgstr ""
 "literal>, यदि रेखा रिक्तं भवति अथवा केवलं श्वेतस्थानवर्णाः सन्ति"
 
 #. Tag: synopsis
-#: development.docbook:3812
+#: development.docbook:3820
 #, no-c-format
 msgid ""
 "int document.toVirtualColumn(<parameter>int <replaceable>line</replaceable></"
@@ -9493,7 +9511,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3813
+#: development.docbook:3821
 #, no-c-format
 msgid ""
 "Converts the given <quote>real</quote> cursor position to a virtual cursor "
@@ -9503,7 +9521,7 @@ msgstr ""
 "Cursor ऑब्जेक्ट् प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3821
+#: development.docbook:3829
 #, no-c-format
 msgid ""
 "int document.fromVirtualColumn(<parameter>int <replaceable>line</"
@@ -9522,7 +9540,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3822
+#: development.docbook:3830
 #, no-c-format
 msgid ""
 "Converts the given virtual cursor position to a <quote>real</quote> cursor "
@@ -9532,7 +9550,7 @@ msgstr ""
 "Cursor ऑब्जेक्ट् प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3830
+#: development.docbook:3838
 #, no-c-format
 msgid ""
 "Cursor document.anchor(<parameter>int <replaceable>line</replaceable></"
@@ -9549,7 +9567,7 @@ msgstr ""
 "parameter>, <पैरामीटर>चर <प्रतिस्थापनीय>वर्ण</replaceable></parameter>);"
 
 #. Tag: para
-#: development.docbook:3831
+#: development.docbook:3839
 #, no-c-format
 msgid ""
 "Searches backward for the given character starting from the given cursor. As "
@@ -9562,7 +9580,7 @@ msgstr ""
 "'(...)' उपेक्षिताः भवन्ति।"
 
 #. Tag: synopsis
-#: development.docbook:3841
+#: development.docbook:3849
 #, no-c-format
 msgid ""
 "Cursor document.rfind(<parameter>int <replaceable>line</replaceable></"
@@ -9582,7 +9600,7 @@ msgstr ""
 "<parameter>int <replaceable>गुणः</replaceable > = -1</पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3842
+#: development.docbook:3850
 #, no-c-format
 msgid ""
 "Find searching backwards the given text with the appropriate "
@@ -9595,7 +9613,7 @@ msgstr ""
 "इति सेट् कृतः चेत् उपेक्षितः भवति । प्रत्यागतः कर्सरः अमान्यः अस्ति, यदि पाठः न लब्धः ।"
 
 #. Tag: synopsis
-#: development.docbook:3851
+#: development.docbook:3859
 #, no-c-format
 msgid ""
 "int document.defStyleNum(<parameter>int <replaceable>line</replaceable></"
@@ -9609,13 +9627,13 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3852
+#: development.docbook:3860
 #, no-c-format
 msgid "Returns the default style used at the given cursor position."
 msgstr "दत्तकर्सरस्थाने प्रयुक्तां पूर्वनिर्धारितशैलीं प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3859
+#: development.docbook:3867
 #, no-c-format
 msgid ""
 "bool document.isCode(<parameter>int <replaceable>line</replaceable></"
@@ -9629,7 +9647,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3860
+#: development.docbook:3868
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute at the given cursor "
@@ -9643,7 +9661,7 @@ msgstr ""
 "<literal>dsअन्य</literal> इति ।"
 
 #. Tag: synopsis
-#: development.docbook:3871
+#: development.docbook:3879
 #, no-c-format
 msgid ""
 "bool document.isComment(<parameter>int <replaceable>line</replaceable></"
@@ -9657,7 +9675,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3872
+#: development.docbook:3880
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute of the character at the "
@@ -9668,7 +9686,7 @@ msgstr ""
 "<literal>dsComment</literal> अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3880
+#: development.docbook:3888
 #, no-c-format
 msgid ""
 "bool document.isString(<parameter>int <replaceable>line</replaceable></"
@@ -9682,7 +9700,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3881
+#: development.docbook:3889
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute of the character at the "
@@ -9693,7 +9711,7 @@ msgstr ""
 "<literal>dsString</literal> अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3889
+#: development.docbook:3897
 #, no-c-format
 msgid ""
 "bool document.isRegionMarker(<parameter>int <replaceable>line</replaceable></"
@@ -9707,7 +9725,7 @@ msgstr ""
 "प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3890
+#: development.docbook:3898
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute of the character at the "
@@ -9718,7 +9736,7 @@ msgstr ""
 "<literal>dsRegionMarker</literal> अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3898
+#: development.docbook:3906
 #, no-c-format
 msgid ""
 "bool document.isChar(<parameter>int <replaceable>line</replaceable></"
@@ -9732,7 +9750,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3899
+#: development.docbook:3907
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute of the character at the "
@@ -9743,7 +9761,7 @@ msgstr ""
 "<literal>dsChar</literal> अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3907
+#: development.docbook:3915
 #, no-c-format
 msgid ""
 "bool document.isOthers(<parameter>int <replaceable>line</replaceable></"
@@ -9757,7 +9775,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3908
+#: development.docbook:3916
 #, no-c-format
 msgid ""
 "Returns <literal>true</literal>, if the attribute of the character at the "
@@ -9768,7 +9786,7 @@ msgstr ""
 "<literal>dsOthers</literal> अस्ति, अन्यथा <literal>false</literal> ।"
 
 #. Tag: synopsis
-#: development.docbook:3915
+#: development.docbook:3923
 #, no-c-format
 msgid ""
 "void document.indent(<parameter>Range <replaceable>range</replaceable></"
@@ -9778,7 +9796,7 @@ msgstr ""
 "पैरामीटर>, <पैरामीटर>int <प्रतिस्थापनीय>परिवर्तन</प्रतिस्थापनीय></पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3916
+#: development.docbook:3924
 #, no-c-format
 msgid ""
 "Indents all lines in <replaceable>range</replaceable> by "
@@ -9792,13 +9810,13 @@ msgstr ""
 "<replaceable>change</replaceable> पैरामीटर् नकारात्मकं भवितुम् अर्हति ।"
 
 #. Tag: title
-#: development.docbook:3927
+#: development.docbook:3935
 #, no-c-format
 msgid "The Editor API"
 msgstr "सम्पादक एपिआइ इति"
 
 #. Tag: para
-#: development.docbook:3928
+#: development.docbook:3936
 #, no-c-format
 msgid ""
 "In addition to the document and view API, there is a general editor API that "
@@ -9808,25 +9826,25 @@ msgstr ""
 "सामान्यसम्पादकस्क्रिप्टिङ्ग् कार्यक्षमतायाः कृते कार्याणि प्रदाति ।"
 
 #. Tag: synopsis
-#: development.docbook:3935
+#: development.docbook:3943
 #, no-c-format
 msgid "String editor.clipboardText();"
 msgstr "स्ट्रिंग editor.clipboardText ();"
 
 #. Tag: para
-#: development.docbook:3936
+#: development.docbook:3944
 #, no-c-format
 msgid "Returns the text that currently is in the global clipboard."
 msgstr "वर्तमानकाले वैश्विकक्लिप्बोर्ड् मध्ये यत् पाठं वर्तते तत् प्रत्यागच्छति ।"
 
 #. Tag: synopsis
-#: development.docbook:3944
+#: development.docbook:3952
 #, no-c-format
 msgid "String editor.clipboardHistory();"
 msgstr "स्ट्रिंग एडिटर.क्लिपबोर्डइतिहास ();"
 
 #. Tag: para
-#: development.docbook:3945
+#: development.docbook:3953
 #, no-c-format
 msgid ""
 "The editor holds a clipboard history that contains up to 10 clipboard "
@@ -9837,7 +9855,7 @@ msgstr ""
 "फंक्शन् सर्वाणि प्रविष्टयः प्रत्यागच्छति ये सम्प्रति क्लिप्बोर्ड् इतिहासे सन्ति ।"
 
 #. Tag: synopsis
-#: development.docbook:3954
+#: development.docbook:3962
 #, no-c-format
 msgid ""
 "void editor.setClipboardText(<parameter>String <replaceable>text</"
@@ -9847,7 +9865,7 @@ msgstr ""
 "पैरामीटर>);"
 
 #. Tag: para
-#: development.docbook:3955
+#: development.docbook:3963
 #, no-c-format
 msgid ""
 "Set the contents of the clipboard to <replaceable>text</replaceable>. The "
