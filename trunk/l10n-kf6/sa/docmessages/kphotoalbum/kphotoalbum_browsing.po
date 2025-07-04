@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kphotoalbum_browsing\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-10 01:00+0000\n"
+"POT-Creation-Date: 2025-07-04 00:53+0000\n"
 "PO-Revision-Date: 2024-12-13 20:57+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -23,14 +23,20 @@ msgstr "ब्राउजिंग्"
 
 #. Tag: para
 #: browsing.docbook:11
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Once you have annotated your images and videos, &kphotoalbum; is ready to "
+#| "let you browse through your images, see <xref linkend=\"fig-browser-with-"
+#| "images\"/>. If you compare that to <xref linkend=\"fig-empty-browser-"
+#| "window\"/> , you will see that there now is items available in each of "
+#| "the categories for <literal>People</literal>, <literal>Places</literal>, "
+#| "and <literal>Keywords</literal>."
 msgid ""
 "Once you have annotated your images and videos, &kphotoalbum; is ready to "
-"let you browse through your images, see <xref linkend=\"fig-browser-with-"
-"images\"/>. If you compare that to <xref linkend=\"fig-empty-browser-window"
-"\"/> , you will see that there now is items available in each of the "
-"categories for <literal>People</literal>, <literal>Places</literal>, and "
-"<literal>Keywords</literal>."
+"let you browse through your images. If you compare that to <xref linkend="
+"\"fig-empty-browser-window\"/> , you will see that there now is items "
+"available in each of the categories for <literal>People</literal>, "
+"<literal>Places</literal>, and <literal>Keywords</literal>."
 msgstr ""
 "एकदा भवान् स्वस्य चित्राणि, भिडियो च एनोटेट् कृतवान्, &kphotoalbum; भवतः चित्राणि "
 "ब्राउज् कर्तुं सज्जः अस्ति, <xref linkend=\"fig-browser-with-images\"/> पश्यन्तु । यदि "
@@ -38,14 +44,8 @@ msgstr ""
 "भवान् पश्यति यत् इदानीं <literal>जनाः</literal>, <literal>स्थानानि< इत्यस्य "
 "प्रत्येकस्मिन् वर्गे वस्तूनि उपलभ्यन्ते /literal>, तथा <literal>कीवर्ड</literal> इति ।"
 
-#. Tag: title
-#: browsing.docbook:19
-#, no-c-format
-msgid "Browser when images and videos have been annotated"
-msgstr "यदा चित्राणि, भिडियो च टिप्पणीकृतानि सन्ति तदा ब्राउजर् कुर्वन्तु"
-
 #. Tag: para
-#: browsing.docbook:28
+#: browsing.docbook:17
 #, no-c-format
 msgid ""
 "In the browser window you can see the categories you typed information into "
@@ -60,7 +60,7 @@ msgstr ""
 "क्रमेण वर्णयामः ।"
 
 #. Tag: para
-#: browsing.docbook:34
+#: browsing.docbook:23
 #, no-c-format
 msgid ""
 "Pressing the mouse on <literal>People</literal>, the browser window will "
@@ -70,30 +70,45 @@ msgstr ""
 "linkend=\"fig-browser-for-persons\"/> इत्यत्र द्रष्टुं शक्नोति ।"
 
 #. Tag: title
-#: browsing.docbook:39
+#: browsing.docbook:28
 #, no-c-format
 msgid "Browser window when People was selected."
 msgstr "यदा People इति चयनं कृतम् आसीत् तदा ब्राउजर् विण्डो।"
 
 #. Tag: para
-#: browsing.docbook:48
-#, no-c-format
+#: browsing.docbook:37
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The browser is now populated with the people you specified for your "
+#| "images and videos <footnote><para>You may notice that the item "
+#| "<literal>Pets</literal> has a special icon. For details about that, see "
+#| "<xref linkend=\"sec-specifying-categories\"/>.</para></footnote>, "
+#| "selecting a person will bring you back to the original state for the "
+#| "browser, as we saw in <xref linkend=\"fig-browser-with-images\"/>, this "
+#| "time, however, we are <emphasis>in the scope</emphasis> of the person we "
+#| "selected. That means that we only shows information about images and "
+#| "videos containing that person. See <xref linkend=\"fig-browser-for-jesper"
+#| "\"/> below, which is the result of us selecting the Person "
+#| "<literal>Jesper</literal>, you can see an indication of that in the "
+#| "bottom of the window. Please compare <xref linkend=\"fig-browser-with-"
+#| "images\"/> with <xref linkend=\"fig-browser-for-jesper\"/>, where you "
+#| "will see that the number of available images and videos has gone down "
+#| "from 25 to 12, and the amount of items for the different categories have "
+#| "also changed."
 msgid ""
 "The browser is now populated with the people you specified for your images "
 "and videos <footnote><para>You may notice that the item <literal>Pets</"
 "literal> has a special icon. For details about that, see <xref linkend=\"sec-"
 "specifying-categories\"/>.</para></footnote>, selecting a person will bring "
-"you back to the original state for the browser, as we saw in <xref linkend="
-"\"fig-browser-with-images\"/>, this time, however, we are <emphasis>in the "
-"scope</emphasis> of the person we selected. That means that we only shows "
-"information about images and videos containing that person. See <xref "
-"linkend=\"fig-browser-for-jesper\"/> below, which is the result of us "
+"you back to the original state for the browser. This time, however, we are "
+"<emphasis>in the scope</emphasis> of the person we selected. That means that "
+"we only show information about images and videos containing that person. See "
+"<xref linkend=\"fig-browser-for-jesper\"/> below, which is the result of us "
 "selecting the Person <literal>Jesper</literal>, you can see an indication of "
-"that in the bottom of the window. Please compare <xref linkend=\"fig-browser-"
-"with-images\"/> with <xref linkend=\"fig-browser-for-jesper\"/>, where you "
-"will see that the number of available images and videos has gone down from "
-"25 to 12, and the amount of items for the different categories have also "
-"changed."
+"that in the bottom of the window. On the lower right side of <xref linkend="
+"\"fig-browser-for-jesper\"/>, you will see that the number of matching "
+"images and videos has gone down from 25 to 13, while the total number of "
+"images stayed the same."
 msgstr ""
 "ब्राउजर् इदानीं भवता भवतः चित्राणां, भिडियोनां च कृते निर्दिष्टैः जनाभिः आबादः अस्ति "
 "<footnote><para>भवन्तः अवलोकयितुं शक्नुवन्ति यत् <literal>Pets</literal> इति द्रव्यस्य "
@@ -109,14 +124,24 @@ msgstr ""
 "पश्यन्ति यत् उपलब्धानां चित्राणां, भिडियोनां च संख्या न्यूनीकृता अस्ति २५ तः १२ पर्यन्तं, "
 "भिन्नवर्गाणां कृते द्रव्याणां परिमाणमपि परिवर्तितम् अस्ति ।"
 
+#. Tag: para
+#: browsing.docbook:51
+#, no-c-format
+msgid ""
+"Note that if there are only a few images in the scope, &kphotoalbum; will "
+"directly go to the thumbnail viewer (see <xref linkend=\"chp-thumbnail-view"
+"\"/>). You can configure this behaviour in the thumbnail viewer settings "
+"(see <xref linkend=\"opt-thumbnails\"/>)."
+msgstr ""
+
 #. Tag: title
-#: browsing.docbook:65
+#: browsing.docbook:56
 #, no-c-format
 msgid "Browser limited to the scope of the person <literal>Jesper</literal>"
 msgstr "<literal>Jesper</literal> इति व्यक्तिस्य व्याप्तिपर्यन्तं सीमितः ब्राउजर्"
 
 #. Tag: para
-#: browsing.docbook:74
+#: browsing.docbook:65
 #, no-c-format
 msgid ""
 "If we now continue selecting a new person, then we will get to the images "
@@ -128,7 +153,7 @@ msgstr ""
 "संकुचितं कर्तुं शक्नुवन्ति ।"
 
 #. Tag: para
-#: browsing.docbook:79
+#: browsing.docbook:70
 #, no-c-format
 msgid ""
 "When you are done limiting the scope of images, you may select the "
@@ -140,13 +165,13 @@ msgstr ""
 "शक्नुवन्ति ।"
 
 #. Tag: title
-#: browsing.docbook:91
+#: browsing.docbook:82
 #, no-c-format
 msgid "Adding Preview Images to the Browser"
 msgstr "ब्राउजर् मध्ये पूर्वावलोकनचित्रं योजयति"
 
 #. Tag: para
-#: browsing.docbook:92
+#: browsing.docbook:83
 #, no-c-format
 msgid ""
 "Looking at <xref linkend=\"fig-browser-for-persons\"/> you will see that "
@@ -163,13 +188,13 @@ msgstr ""
 "xref linkend=\"व्यक्तिनां कृते अंजीर-प्रतिमा\"/>."
 
 #. Tag: title
-#: browsing.docbook:100
+#: browsing.docbook:91
 #, no-c-format
 msgid "Images for each Individual Person"
 msgstr "प्रत्येकस्य व्यक्तिगतव्यक्तिस्य कृते चित्राणि"
 
 #. Tag: para
-#: browsing.docbook:108
+#: browsing.docbook:99
 #, no-c-format
 msgid ""
 "To show images along with the names, choose the tool button to the very "
@@ -186,7 +211,7 @@ msgstr ""
 "उत्तमचित्रं कल्पयितुं न शक्नोति)।"
 
 #. Tag: para
-#: browsing.docbook:117
+#: browsing.docbook:108
 #, no-c-format
 msgid ""
 "It is, however, your job to tell it which images to use for each individual "
@@ -205,19 +230,19 @@ msgstr ""
 "शक्यते, तथैव कः भागः दर्शनीयः इति क्रॉप् कर्तुं शक्यते ।"
 
 #. Tag: title
-#: browsing.docbook:127
+#: browsing.docbook:118
 #, no-c-format
 msgid "Category Editor"
 msgstr "श्रेणी सम्पादक"
 
 #. Tag: title
-#: browsing.docbook:148
+#: browsing.docbook:139
 #, no-c-format
 msgid "General image searches"
 msgstr "सामान्यप्रतिबिम्बसन्धानम्"
 
 #. Tag: para
-#: browsing.docbook:149
+#: browsing.docbook:140
 #, no-c-format
 msgid ""
 "If you chose the <guilabel>Search</guilabel> item in the browser, you will "
@@ -230,13 +255,13 @@ msgstr ""
 "linkend=\"fig-search\"/> इत्यत्र एतत् संवादं द्रष्टुं शक्नुवन्ति ।"
 
 #. Tag: title
-#: browsing.docbook:155
+#: browsing.docbook:146
 #, no-c-format
 msgid "Search dialog"
 msgstr "अन्वेषणसंवादः"
 
 #. Tag: para
-#: browsing.docbook:163
+#: browsing.docbook:154
 #, no-c-format
 msgid ""
 "If you type a string in the label or description field, then that text will "
@@ -250,7 +275,7 @@ msgstr ""
 "१९७१-१९८० ।"
 
 #. Tag: para
-#: browsing.docbook:168
+#: browsing.docbook:159
 #, no-c-format
 msgid ""
 "The options item allows a very limited form of writing an expression, as you "
@@ -264,9 +289,12 @@ msgstr ""
 "इत्यनेन विना ।"
 
 #. Tag: para
-#: browsing.docbook:173
+#: browsing.docbook:164
 #, no-c-format
 msgid ""
 "The allowed operations are &amp; (meaning: and), | (meaning: or), and ! "
 "(meaning: not)."
 msgstr "अनुमताः क्रियाः &amp; (अर्थ: च), | (अर्थ: वा), तथा ! (अर्थ: न)।"
+
+#~ msgid "Browser when images and videos have been annotated"
+#~ msgstr "यदा चित्राणि, भिडियो च टिप्पणीकृतानि सन्ति तदा ब्राउजर् कुर्वन्तु"
