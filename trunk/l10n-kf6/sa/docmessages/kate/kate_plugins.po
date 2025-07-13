@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-12 00:53+0000\n"
+"POT-Creation-Date: 2025-07-13 00:54+0000\n"
 "PO-Revision-Date: 2024-12-25 19:45+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1511,7 +1511,7 @@ msgstr "अनुक्रमणिका मास्टरः एकः शा
 #. Tag: title
 #: plugins.docbook:552 plugins.docbook:871 plugins.docbook:913
 #: plugins.docbook:938 plugins.docbook:1377 plugins.docbook:1532
-#: plugins.docbook:2541 plugins.docbook:3827 plugins.docbook:3935
+#: plugins.docbook:2541 plugins.docbook:3856 plugins.docbook:3964
 #, no-c-format
 msgid "Configuration"
 msgstr "विन्यासः"
@@ -1563,7 +1563,7 @@ msgstr "<firstname>सलमा</firstname> <surname>सुल्ताना</s
 
 #. Tag: author
 #: plugins.docbook:578 plugins.docbook:1590 plugins.docbook:2809
-#: plugins.docbook:3158 plugins.docbook:3567
+#: plugins.docbook:3158 plugins.docbook:3596
 #, no-c-format
 msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
 msgstr "& टीसी.होलिंग्सवर्थ; &TC.Hollingsworth.mail;"
@@ -1578,8 +1578,8 @@ msgstr "प्लगिन् निर्माणं कुर्वन्त�
 #: plugins.docbook:584 plugins.docbook:790 plugins.docbook:859
 #: plugins.docbook:907 plugins.docbook:923 plugins.docbook:1093
 #: plugins.docbook:1399 plugins.docbook:1596 plugins.docbook:1899
-#: plugins.docbook:2816 plugins.docbook:3164 plugins.docbook:3455
-#: plugins.docbook:3573
+#: plugins.docbook:2816 plugins.docbook:3164 plugins.docbook:3484
+#: plugins.docbook:3602
 #, no-c-format
 msgid "Introduction"
 msgstr "आमुख"
@@ -1875,9 +1875,9 @@ msgstr ""
 #: plugins.docbook:707 plugins.docbook:823 plugins.docbook:1031
 #: plugins.docbook:1135 plugins.docbook:1180 plugins.docbook:1238
 #: plugins.docbook:1487 plugins.docbook:2212 plugins.docbook:3099
-#: plugins.docbook:3178 plugins.docbook:3716 plugins.docbook:3804
-#: plugins.docbook:3866 plugins.docbook:4005 plugins.docbook:4094
-#: plugins.docbook:4212
+#: plugins.docbook:3178 plugins.docbook:3745 plugins.docbook:3833
+#: plugins.docbook:3895 plugins.docbook:4034 plugins.docbook:4123
+#: plugins.docbook:4241
 #, no-c-format
 msgid "Menu Structure"
 msgstr "मेनू संरचना"
@@ -2028,8 +2028,8 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:778 plugins.docbook:1884 plugins.docbook:3437
-#: plugins.docbook:3769 plugins.docbook:4111 plugins.docbook:4261
+#: plugins.docbook:778 plugins.docbook:1884 plugins.docbook:3466
+#: plugins.docbook:3798 plugins.docbook:4140 plugins.docbook:4290
 #, no-c-format
 msgid "Thanks and Acknowledgments"
 msgstr "धन्यवादः आभारः च"
@@ -2066,7 +2066,7 @@ msgstr ""
 "एतत् प्लगिन् भवन्तं दस्तावेजानां समूहं तेषां विस्तारस्य मार्गस्य च आधारेण पिधातुं शक्नोति ।"
 
 #. Tag: title
-#: plugins.docbook:797 plugins.docbook:3784
+#: plugins.docbook:797 plugins.docbook:3813
 #, no-c-format
 msgid "Using the Close Except/Like Plugin"
 msgstr "Close Except/Like प्लगिन् इत्यस्य उपयोगः"
@@ -4027,7 +4027,7 @@ msgid "The &gdb; Plugin's <guilabel>Locals</guilabel> tool view."
 msgstr "इति &gdb; प्लगिन् इत्यस्य <guilabel>स्थानीय</guilabel> साधनदृश्यम् ।"
 
 #. Tag: para
-#: plugins.docbook:1886 plugins.docbook:3439
+#: plugins.docbook:1886 plugins.docbook:3468
 #, no-c-format
 msgid ""
 "Special thanks to Google Code-In 2011 participant Martin Gergov for writing "
@@ -6861,33 +6861,26 @@ msgstr ""
 "अनन्तरं सर्वाणि घटनानि क्षेत्राणि निर्मान्ति ये सम्पादनकाले प्रथमस्य सामग्रीं प्रतिबिम्बयन्ति ।"
 
 #. Tag: para
-#: plugins.docbook:3330
+#: plugins.docbook:3332
 #, no-c-format
 msgid ""
-"<userinput>${<replaceable>field_name=default</replaceable>}</userinput> can "
-"be used to specify a default value for the field. <replaceable>default</"
-"replaceable> can be any &javascript; expression."
+"Field names may contain any character except for the closing curly bracket "
+"(<userinput>}</userinput>)."
 msgstr ""
-"<userinput>${<replaceable>field_name=default</replaceable>}</userinput> "
-"इत्यस्य उपयोगेन क्षेत्रस्य पूर्वनिर्धारितं मूल्यं निर्दिष्टुं शक्यते । <replaceable>default</"
-"replaceable> कोऽपि &javascript; अभिव्यक्ति।"
 
 #. Tag: para
 #: plugins.docbook:3333
-#, fuzzy, no-c-format
-#| msgid ""
-#| "Use <userinput>${<replaceable>field_name</replaceable>=<replaceable>text</"
-#| "replaceable>}</userinput> to specify a fixed string as default value."
+#, no-c-format
 msgid ""
-"Use quotes (<userinput>${<replaceable>field_name</replaceable>=<replaceable>"
-"\"text\"</replaceable>}</userinput>) to specify a fixed string as default "
-"value."
+"To insert <userinput>${text}</userinput> literally in a snippet, escape the "
+"<userinput>$</userinput> sign with a backslash: <userinput>\\${text}</"
+"userinput>. The text will then not be turned into a field. To insert literal "
+"backslashes before a field, escape each individual backslash: <userinput>\\\\"
+"${field}</userinput>, <userinput>\\\\\\\\${field}</userinput>, and so on."
 msgstr ""
-"पूर्वनिर्धारितमूल्यरूपेण नियतं स्ट्रिंग् निर्दिष्टुं <userinput>${<replaceable>field_name</"
-"replaceable>=<replaceable>text</replaceable>}</userinput> इत्यस्य उपयोगं कुर्वन्तु ।"
 
 #. Tag: para
-#: plugins.docbook:3335
+#: plugins.docbook:3339
 #, fuzzy, no-c-format
 #| msgid ""
 #| "<userinput>${func(<replaceable>other_field1</replaceable>, "
@@ -6897,10 +6890,10 @@ msgstr ""
 #| "information."
 msgid ""
 "<userinput>${func(<replaceable>other_field1</replaceable>, "
-"<replaceable>other_field2</replaceable>, ...)}</userinput> can be used to "
-"create a field which evaluates a &javascript; function on each edit and is "
-"replaced by that function's return value. See the <guilabel>Script Library</"
-"guilabel> tab for more information."
+"<replaceable>other_field2</replaceable>, ...)}</userinput> creates a field "
+"which evaluates a &javascript; function on each edit and is replaced by that "
+"function's return value. See the <ulink url=\"#snippet-input-library"
+"\"><guilabel>Script Library</guilabel></ulink> tab for more information."
 msgstr ""
 "<userinput>${func(<replaceable>other_field1</replaceable>, "
 "<replaceable>other_field2</replaceable>, ...)}</userinput> इत्यस्य उपयोगेन एकं "
@@ -6908,30 +6901,74 @@ msgstr ""
 "सामग्रीः भवति । अधिकविवरणार्थं <guilabel>Scripts</guilabel> ट्याब् पश्यन्तु ।"
 
 #. Tag: para
-#: plugins.docbook:3339
+#: plugins.docbook:3345
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<userinput>${<replaceable>field_name=default</replaceable>}</userinput> "
+#| "can be used to specify a default value for the field. "
+#| "<replaceable>default</replaceable> can be any &javascript; expression."
+msgid ""
+"<userinput>${<replaceable>field_name=default</replaceable>}</userinput> sets "
+"a default value for the field. <replaceable>default</replaceable> is a "
+"&javascript; expression. Use quotes (<userinput>${<replaceable>field_name</"
+"replaceable>=<replaceable>\"text\"</replaceable>}</userinput>) to specify a "
+"fixed string as the default value."
+msgstr ""
+"<userinput>${<replaceable>field_name=default</replaceable>}</userinput> "
+"इत्यस्य उपयोगेन क्षेत्रस्य पूर्वनिर्धारितं मूल्यं निर्दिष्टुं शक्यते । <replaceable>default</"
+"replaceable> कोऽपि &javascript; अभिव्यक्ति।"
+
+#. Tag: para
+#: plugins.docbook:3351
 #, no-c-format
 msgid ""
-"<userinput>${cursor}</userinput> can be used to mark the end position of the "
-"cursor after everything else was filled in."
+"When using default values (<userinput>${<replaceable>field_name=default</"
+"replaceable>}</userinput>), keep in mind that the default value is evaluated "
+"immediately when the snippet is inserted into the document, and it is not "
+"updated later when fields are changed."
 msgstr ""
-"<userinput>${cursor}</userinput> इत्यस्य उपयोगेन अन्यत् सर्वं पूरितस्य अनन्तरं कर्सरस्य "
-"अन्त्यस्थानं चिह्नितुं शक्यते ।"
+
+#. Tag: para
+#: plugins.docbook:3354
+#, no-c-format
+msgid ""
+"You can reference other fields in default values if they are defined before "
+"the default value that is being evaluated. However, this will only give you "
+"access to the default value of these fields."
+msgstr ""
+
+#. Tag: para
+#: plugins.docbook:3356
+#, no-c-format
+msgid ""
+"If no custom default value is defined, the default value is a field's name."
+msgstr ""
+
+#. Tag: para
+#: plugins.docbook:3359
+#, no-c-format
+msgid ""
+"<userinput>${cursor}</userinput> marks the end position of the cursor after "
+"everything else was filled in. Inserting text at this position will finish "
+"editing. Plus after pressing <keycap>&Esc;</keycap> to finish editing, the "
+"cursor will jump to this position."
+msgstr ""
 
 #. Tag: term
-#: plugins.docbook:3345
+#: plugins.docbook:3366
 #, no-c-format
 msgid "<guilabel>Snippet</guilabel> (type <userinput>Script</userinput>)"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3346
+#: plugins.docbook:3367
 #, fuzzy, no-c-format
 #| msgid "&javascript; helper functions to use in your snippets."
 msgid "The &javascript; code to evaluate for this snippet"
 msgstr "&javascript; भवतः स्निपेट्-मध्ये उपयोक्तुं सहायक-कार्यं ।"
 
 #. Tag: para
-#: plugins.docbook:3347
+#: plugins.docbook:3368
 #, no-c-format
 msgid ""
 "If this code contains a <userinput>return</userinput> statement, the "
@@ -6941,22 +6978,22 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3350
+#: plugins.docbook:3371
 #, no-c-format
 msgid ""
-"Additionally, your code may use functions defined in the <guilabel>Script "
-"Library</guilabel> tab, which are shared between all snippets in a "
-"repository."
+"Additionally, your code may use functions defined in the <link linkend="
+"\"snippet-input-library\"><guilabel>Script Library</guilabel></link> tab, "
+"which are shared between all snippets in a repository."
 msgstr ""
 
 #. Tag: guilabel
-#: plugins.docbook:3356
+#: plugins.docbook:3378
 #, no-c-format
 msgid "Script Library"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3357
+#: plugins.docbook:3379
 #, fuzzy, no-c-format
 #| msgid "&javascript; helper functions to use in your snippets."
 msgid ""
@@ -6965,7 +7002,7 @@ msgid ""
 msgstr "&javascript; भवतः स्निपेट्-मध्ये उपयोक्तुं सहायक-कार्यं ।"
 
 #. Tag: para
-#: plugins.docbook:3358
+#: plugins.docbook:3380
 #, fuzzy, no-c-format
 #| msgid ""
 #| "You can use the <ulink url=\"help:/katepart/dev-scripting.html#dev-"
@@ -6986,54 +7023,54 @@ msgstr ""
 "ulink> इति स्क्रिप्टिङ्ग् करणीयम् अधिकसूचनार्थं स्क्रिप्टिङ्ग् एपिआइ दस्तावेजीकरणं पश्यन्तु ।"
 
 #. Tag: para
-#: plugins.docbook:3363
+#: plugins.docbook:3384
 #, no-c-format
 msgid ""
-"When scripting in conjunction with <userinput>Text Template</userinput> "
-"snippets, you should keep the following details/hints in mind:"
+"When a function is called in a field of a <userinput>Text Template</"
+"userinput> snippet, its <emphasis>return</emphasis> value is inserted into "
+"the text."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3366
+#: plugins.docbook:3388
+#, no-c-format
+msgid "Using functions in <userinput>Text Template</userinput> snippets:"
+msgstr ""
+
+#. Tag: para
+#: plugins.docbook:3390
 #, no-c-format
 msgid ""
-"Remember that only the <emphasis>return value</emphasis> of a function is "
-"inserted in a field."
+"Functions can access the up-to-date contents of all fields through the "
+"<userinput>fields</userinput> object: use <userinput>fields.my_field</"
+"userinput> or <userinput>fields[\"my_field\"]</userinput>. When using a "
+"function as the default value for a field, only fields defined in the text "
+"before are available."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3367
-#, fuzzy, no-c-format
-#| msgid ""
-#| "Functions are called in a scope which contains the contents of all "
-#| "editable template fields as local variables. For example in a snippet "
-#| "containing <userinput>${<replaceable>field</replaceable>}</userinput>, a "
-#| "variable called <userinput>field</userinput> will be present which "
-#| "contains the up-to-date contents of the template field. Those variables "
-#| "can either be used in the function statically or passed as arguments, by "
-#| "using the <userinput>${func(field)}</userinput> or <userinput>"
-#| "${<replaceable>field2=func(field)</replaceable>}</userinput> syntax in "
-#| "the snippet string."
+#: plugins.docbook:3393
+#, no-c-format
 msgid ""
-"The contents of all editable template fields are available as variables in "
-"this scope. For example in a snippet containing <userinput>"
-"${<replaceable>field</replaceable>}</userinput>, a variable called "
-"<userinput>field</userinput> will be present which contains the up-to-date "
-"contents of the template field. Those variables can either be used in the "
-"function statically or passed as arguments, by using the <userinput>"
-"${func(field)}</userinput> or <userinput>${<replaceable>field2=func(field)</"
-"replaceable>}</userinput> syntax in the snippet string."
+"Fields can be passed as arguments to functions. The field name can be used "
+"directly if it is a valid &javascript; identifier and no variable with that "
+"name exists. Otherwise use the <userinput>fields</userinput> object: "
+"<userinput>${func(field)}</userinput>, <userinput>${func(fields.document)}</"
+"userinput>, <userinput>${func(fields[\"my field\"])}</userinput>"
 msgstr ""
-"फंक्शन्स् एकस्मिन् व्याप्ते आह्वयन्ति यस्मिन् सर्वेषां सम्पादनयोग्यानां टेम्पलेट् क्षेत्राणां सामग्रीः "
-"स्थानीयचररूपेण भवति । यथा <userinput>${<replaceable>field</replaceable>}</"
-"userinput> इति स्निपेट् मध्ये <userinput>field</userinput> इति चरः उपस्थितः "
-"भविष्यति यस्मिन् अद्यतनसामग्रीः सन्ति टेम्पलेट क्षेत्र। ते चराः कार्ये स्थिररूपेण उपयोक्तुं शक्यन्ते "
-"अथवा तर्करूपेण पारयितुं शक्यन्ते, <userinput>${func(field)}</userinput> अथवा "
-"<userinput>${<replaceable>field2=func(field)</replaceable इत्यस्य उपयोगेन >}</"
-"userinput> स्निपेट् स्ट्रिंग् मध्ये वाक्यविन्यासः ।"
 
 #. Tag: para
-#: plugins.docbook:3374
+#: plugins.docbook:3397
+#, no-c-format
+msgid ""
+"Function fields (e.g. <userinput>${func()}</userinput>) are re-evaluated "
+"every time any field's contents are changed. However, this does not apply to "
+"function calls in default values: they are only evaluated once when the "
+"snippet is inserted into the document."
+msgstr ""
+
+#. Tag: para
+#: plugins.docbook:3400
 #, fuzzy, no-c-format
 #| msgid ""
 #| "For more complex scripts it may be important to understand that "
@@ -7057,7 +7094,7 @@ msgstr ""
 "तस्मिन् पाठे <userinput>${functionCall()}</userinput> अपि भविष्यति ।"
 
 #. Tag: para
-#: plugins.docbook:3380
+#: plugins.docbook:3406
 #, fuzzy, no-c-format
 #| msgid ""
 #| "As an example of working with selections using the scripting API, a "
@@ -7071,14 +7108,22 @@ msgstr ""
 "लपेटयितुं सरलः उपायः अस्ति: <userinput>&lt;strong&gt;${view.selectedText()}&lt;/"
 "strong&gt;</userinput>"
 
+#. Tag: para
+#: plugins.docbook:3407
+#, no-c-format
+msgid ""
+"Remember that only the <emphasis>return value</emphasis> of a function is "
+"inserted in a field."
+msgstr ""
+
 #. Tag: guilabel
-#: plugins.docbook:3386
+#: plugins.docbook:3415
 #, no-c-format
 msgid "Description"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3387
+#: plugins.docbook:3416
 #, no-c-format
 msgid ""
 "An optional description of what this snippet does. This will be shown in "
@@ -7086,13 +7131,13 @@ msgid ""
 msgstr ""
 
 #. Tag: term
-#: plugins.docbook:3392
+#: plugins.docbook:3421
 #, no-c-format
 msgid "Usage example"
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3393
+#: plugins.docbook:3422
 #, fuzzy, no-c-format
 #| msgid ""
 #| "The following example invokes a script that inserts a default text in "
@@ -7106,7 +7151,7 @@ msgstr ""
 "स्निपेट् :"
 
 #. Tag: programlisting
-#: plugins.docbook:3396
+#: plugins.docbook:3425
 #, no-c-format
 msgid ""
 "let range = view.hasSelection() ? view.selection() : new Range(view."
@@ -7118,51 +7163,51 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: plugins.docbook:3407
+#: plugins.docbook:3436
 #, no-c-format
 msgid "Using Snippets"
 msgstr "स्निपेट्स् इत्यस्य उपयोगः"
 
 #. Tag: screeninfo
-#: plugins.docbook:3410
+#: plugins.docbook:3439
 #, no-c-format
 msgid "&kate; Snippets in Action"
 msgstr "&कते; स्निपेट्स् इन एक्शन"
 
 #. Tag: phrase
-#: plugins.docbook:3413
+#: plugins.docbook:3442
 #, no-c-format
 msgid "Accessing &kate; Snippets from a tool view and a drop down menu."
 msgstr "अभिगम्य &kate; एकस्मात् साधनदृश्यात् तथा च एकस्य ड्रॉप् डाउन मेन्यूतः स्निपेट्स् ।"
 
 #. Tag: para
-#: plugins.docbook:3414
+#: plugins.docbook:3443
 #, no-c-format
 msgid "Selecting from a list of snippets."
 msgstr "स्निपेट्-सूचिकातः चयनं करणम् ।"
 
 #. Tag: para
-#: plugins.docbook:3418
+#: plugins.docbook:3447
 #, fuzzy, no-c-format
 #| msgid "You can call snippets in two ways:"
 msgid "You can call snippets in several ways:"
 msgstr "भवन्तः द्विधा स्निपेट् आह्वयितुं शक्नुवन्ति:"
 
 #. Tag: para
-#: plugins.docbook:3421
+#: plugins.docbook:3450
 #, fuzzy, no-c-format
 #| msgid "By choosing the snippet from the tool view."
 msgid "By clicking on the snippet from the tool view."
 msgstr "साधनदृश्यात् स्निपेट् चित्वा ।"
 
 #. Tag: para
-#: plugins.docbook:3422
+#: plugins.docbook:3451
 #, no-c-format
 msgid "Using a keyboard shortcut, if you have assigned one."
 msgstr ""
 
 #. Tag: para
-#: plugins.docbook:3423
+#: plugins.docbook:3452
 #, no-c-format
 msgid ""
 "While writing, you can press <keycombo action=\"simul\">&Ctrl; &Space;</"
@@ -7175,7 +7220,7 @@ msgstr ""
 "कीलसंयोजनं कोडसमाप्तिसदृशं कार्यक्षमतां प्रदाति ।"
 
 #. Tag: para
-#: plugins.docbook:3429
+#: plugins.docbook:3458
 #, no-c-format
 msgid ""
 "If the snippet contains variables (besides <literal>${cursor}</literal>) the "
@@ -7188,13 +7233,13 @@ msgstr ""
 "भवन्तः कृतवन्तः तदा भवन्तः &Tab; अग्रिमचरं प्रति गन्तुं इत्यादि ।"
 
 #. Tag: para
-#: plugins.docbook:3438
+#: plugins.docbook:3467
 #, no-c-format
 msgid "&kate; Snippets was written by Joseph Wenninger."
 msgstr "&कते; स्निपेट्स् इति पुस्तकं जोसेफ् वेनिङ्गर् इत्यनेन लिखितम् ।"
 
 #. Tag: author
-#: plugins.docbook:3449
+#: plugins.docbook:3478
 #, no-c-format
 msgid ""
 "<firstname>Pablo</firstname> <surname>Rauzy</surname> <email>r .at. uzy.me</"
@@ -7204,31 +7249,31 @@ msgstr ""
 "email> इति"
 
 #. Tag: title
-#: plugins.docbook:3452
+#: plugins.docbook:3481
 #, no-c-format
 msgid "Keyboard Macros Plugin"
 msgstr "कीबोर्ड मैक्रोस् प्लगिन्"
 
 #. Tag: para
-#: plugins.docbook:3456
+#: plugins.docbook:3485
 #, no-c-format
 msgid "Record and play keyboard macros (i.e., keyboard action sequences)."
 msgstr "कीबोर्ड-मैक्रो (अर्थात् कीबोर्ड-क्रिया-अनुक्रमाः) अभिलेखयन्तु, वादयन्तु च ।"
 
 #. Tag: title
-#: plugins.docbook:3460
+#: plugins.docbook:3489
 #, no-c-format
 msgid "Basic usage"
 msgstr "मूलभूतः प्रयोगः"
 
 #. Tag: title
-#: plugins.docbook:3463
+#: plugins.docbook:3492
 #, no-c-format
 msgid "To start recording a keyboard macro:"
 msgstr "कीबोर्ड मैक्रो रिकार्ड् कर्तुं आरभ्यतुं :"
 
 #. Tag: para
-#: plugins.docbook:3464
+#: plugins.docbook:3493
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7241,7 +7286,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: plugins.docbook:3468
+#: plugins.docbook:3497
 #, no-c-format
 msgid "The plugin will record every key presses until you end recording."
 msgstr ""
@@ -7249,13 +7294,13 @@ msgstr ""
 "करिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:3472
+#: plugins.docbook:3501
 #, no-c-format
 msgid "To end recording:"
 msgstr "रिकार्डिङ्ग् समाप्तुं :"
 
 #. Tag: para
-#: plugins.docbook:3473
+#: plugins.docbook:3502
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7268,7 +7313,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: plugins.docbook:3477
+#: plugins.docbook:3506
 #, no-c-format
 msgid ""
 "The plugin will stop recording key presses and save the sequence as the "
@@ -7276,13 +7321,13 @@ msgid ""
 msgstr "प्लगिन् कील-दबावस्य अभिलेखनं स्थगयिष्यति तथा च क्रमं वर्तमान-मैक्रो-रूपेण रक्षति ।"
 
 #. Tag: title
-#: plugins.docbook:3481
+#: plugins.docbook:3510
 #, no-c-format
 msgid "To cancel recording:"
 msgstr "रिकार्डिङ्ग् रद्दं कर्तुं :"
 
 #. Tag: para
-#: plugins.docbook:3482
+#: plugins.docbook:3511
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7295,7 +7340,7 @@ msgstr ""
 "keycombo>) इति ।"
 
 #. Tag: para
-#: plugins.docbook:3486
+#: plugins.docbook:3515
 #, no-c-format
 msgid ""
 "The plugin will stop recording key presses but the current macro won't "
@@ -7303,13 +7348,13 @@ msgid ""
 msgstr "प्लगिन् कील-दबावस्य अभिलेखनं स्थगयिष्यति परन्तु वर्तमान-मैक्रो परिवर्तनं न करिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:3490
+#: plugins.docbook:3519
 #, no-c-format
 msgid "To play the current macro:"
 msgstr "वर्तमान मैक्रो क्रीडितुं :"
 
 #. Tag: para
-#: plugins.docbook:3491
+#: plugins.docbook:3520
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7321,13 +7366,13 @@ msgstr ""
 "action=\"simul\">&Ctrl;&Alt;<keycap>K </keycap></keycombo>) इति ।"
 
 #. Tag: para
-#: plugins.docbook:3495
+#: plugins.docbook:3524
 #, no-c-format
 msgid "The plugin will play the current macro."
 msgstr "प्लगिन् वर्तमानं मैक्रो वादयिष्यति ।"
 
 #. Tag: para
-#: plugins.docbook:3496
+#: plugins.docbook:3525
 #, no-c-format
 msgid ""
 "The <userinput>kmplay</userinput> command without any arguments will also "
@@ -7336,19 +7381,19 @@ msgstr ""
 "<userinput>kmplay</userinput> आदेशः विना किमपि तर्कं वर्तमानं मैक्रो अपि वादयिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:3502
+#: plugins.docbook:3531
 #, no-c-format
 msgid "Named macros"
 msgstr "नामकृताः मैक्रोः"
 
 #. Tag: para
-#: plugins.docbook:3504
+#: plugins.docbook:3533
 #, no-c-format
 msgid "It is possible to save keyboard macros by giving them a name."
 msgstr "कीबोर्ड मैक्रोस् नाम दत्त्वा रक्षितुं शक्यते ।"
 
 #. Tag: para
-#: plugins.docbook:3505
+#: plugins.docbook:3534
 #, no-c-format
 msgid ""
 "Named macros are persistent between Kate's sessions, they're saved in the "
@@ -7360,13 +7405,13 @@ msgstr ""
 "json</filename> सञ्चिकायां रक्षिताः भवन्ति"
 
 #. Tag: title
-#: plugins.docbook:3508
+#: plugins.docbook:3537
 #, no-c-format
 msgid "To save the current macro:"
 msgstr "वर्तमान मैक्रो रक्षितुं :"
 
 #. Tag: para
-#: plugins.docbook:3509
+#: plugins.docbook:3538
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7378,13 +7423,13 @@ msgstr ""
 "(<keycombo action=\"simul\">&Alt;&Shift;<keycap> क</keycap></keycombo>) इति ।"
 
 #. Tag: para
-#: plugins.docbook:3513
+#: plugins.docbook:3542
 #, no-c-format
 msgid "The plugin will prompt you for a name and save the macro under it."
 msgstr "प्लगिन् भवन्तं नाम प्रार्थयिष्यति तस्य अधः मैक्रो रक्षति च ।"
 
 #. Tag: para
-#: plugins.docbook:3514
+#: plugins.docbook:3543
 #, no-c-format
 msgid ""
 "The <userinput>kmsave <replaceable>name</replaceable></userinput> command "
@@ -7396,13 +7441,13 @@ msgstr ""
 "रक्षिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:3518
+#: plugins.docbook:3547
 #, no-c-format
 msgid "To load a saved macro as the current one:"
 msgstr "रक्षितं मैक्रो वर्तमानरूपेण लोड् कर्तुं:"
 
 #. Tag: para
-#: plugins.docbook:3519
+#: plugins.docbook:3548
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7412,7 +7457,7 @@ msgstr ""
 "guimenuitem><guimenuitem>नाम्ना मैक्रो लोड् कुर्वन्तु...</guimenuitem></menuchoice> ।"
 
 #. Tag: para
-#: plugins.docbook:3522
+#: plugins.docbook:3551
 #, no-c-format
 msgid ""
 "The plugin lists saved macros as items in this submenu, activating an item "
@@ -7422,7 +7467,7 @@ msgstr ""
 "तत्सम्बद्धं मैक्रो वर्तमानरूपेण लोड् भविष्यति ।"
 
 #. Tag: para
-#: plugins.docbook:3523
+#: plugins.docbook:3552
 #, no-c-format
 msgid ""
 "The <userinput>kmload <replaceable>name</replaceable></userinput> command "
@@ -7434,13 +7479,13 @@ msgstr ""
 "वर्तमानरूपेण लोड् करिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:3527
+#: plugins.docbook:3556
 #, no-c-format
 msgid "To play a saved macro without loading it:"
 msgstr "रक्षितं मैक्रो लोडं विना क्रीडितुं :"
 
 #. Tag: para
-#: plugins.docbook:3528
+#: plugins.docbook:3557
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7451,7 +7496,7 @@ msgstr ""
 "कुर्वन्तु ।"
 
 #. Tag: para
-#: plugins.docbook:3531
+#: plugins.docbook:3560
 #, no-c-format
 msgid ""
 "The plugin lists saved macros as items in this submenu, activating an item "
@@ -7461,7 +7506,7 @@ msgstr ""
 "तत्सम्बद्धं मैक्रों लोड् न कृत्वा वाद्यते ।"
 
 #. Tag: para
-#: plugins.docbook:3532
+#: plugins.docbook:3561
 #, no-c-format
 msgid ""
 "Note that each saved macros is an action that is part of the current action "
@@ -7474,7 +7519,7 @@ msgstr ""
 "कुर्वन्तु...</ guimenuitem></menuchoice> अन्तरफलकम्।"
 
 #. Tag: para
-#: plugins.docbook:3533
+#: plugins.docbook:3562
 #, no-c-format
 msgid ""
 "The <userinput>kmplay <replaceable>name</replaceable></userinput> command "
@@ -7486,13 +7531,13 @@ msgstr ""
 "लोड् न कृत्वा वादयिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:3537
+#: plugins.docbook:3566
 #, no-c-format
 msgid "To wipe (i.e., delete) a saved macro:"
 msgstr "रक्षितं मैक्रों मार्जयितुं (अर्थात् विलोपयितुं) :"
 
 #. Tag: para
-#: plugins.docbook:3538
+#: plugins.docbook:3567
 #, no-c-format
 msgid ""
 "<menuchoice><guimenu>Tools</guimenu><guimenuitem>Keyboard Macros</"
@@ -7502,7 +7547,7 @@ msgstr ""
 "guimenuitem><guimenuitem>नामकं मैक्रों पोंछतु...</guimenuitem></menuchoice> ।"
 
 #. Tag: para
-#: plugins.docbook:3541
+#: plugins.docbook:3570
 #, no-c-format
 msgid ""
 "The plugin lists saved macros as items in this submenu, activating an item "
@@ -7512,7 +7557,7 @@ msgstr ""
 "तत्सम्बद्धं मैक्रों मार्ज्यते (अर्थात्, विलोप्यते) ।"
 
 #. Tag: para
-#: plugins.docbook:3542
+#: plugins.docbook:3571
 #, no-c-format
 msgid ""
 "The <userinput>kmwipe <replaceable>name</replaceable></userinput> command "
@@ -7524,13 +7569,13 @@ msgstr ""
 "मार्जयिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:3546
+#: plugins.docbook:3575
 #, no-c-format
 msgid "Tips for commands:"
 msgstr "आदेशानां कृते युक्तयः :"
 
 #. Tag: para
-#: plugins.docbook:3547
+#: plugins.docbook:3576
 #, no-c-format
 msgid ""
 "Note that after the <userinput>km</userinput> prefix, all these commands use "
@@ -7540,13 +7585,13 @@ msgstr ""
 "उपयुञ्जते येन भवान् तान् tab-completion इत्यस्य उपयोगेन कुशलतया आह्वयितुं शक्नोति!"
 
 #. Tag: title
-#: plugins.docbook:3553
+#: plugins.docbook:3582
 #, no-c-format
 msgid "Limitations"
 msgstr "सीमाः"
 
 #. Tag: para
-#: plugins.docbook:3555
+#: plugins.docbook:3584
 #, no-c-format
 msgid ""
 "As of now, keyboard macros fail to play properly if some types of GUI "
@@ -7560,7 +7605,7 @@ msgstr ""
 "अमानकरीत्या कार्यं कुर्वन्ति ।"
 
 #. Tag: author
-#: plugins.docbook:3566
+#: plugins.docbook:3595
 #, no-c-format
 msgid ""
 "<firstname>Ömer</firstname> <othername>Faruk</othername> <surname>ORUÇ</"
@@ -7569,13 +7614,13 @@ msgstr ""
 "<प्रथमनाम>Ömer</firstname> <अन्यनाम>फारुक्</othername> <उपनाम>ओरुÇ</surname>"
 
 #. Tag: title
-#: plugins.docbook:3570
+#: plugins.docbook:3599
 #, no-c-format
 msgid "SQL Plugin"
 msgstr "SQL प्लगइन"
 
 #. Tag: para
-#: plugins.docbook:3575
+#: plugins.docbook:3604
 #, no-c-format
 msgid ""
 "The Structured Query Language (SQL) is a specialized language for updating, "
@@ -7585,49 +7630,49 @@ msgstr ""
 "अनुरोधयितुं च विशेषभाषा अस्ति ।"
 
 #. Tag: para
-#: plugins.docbook:3578
+#: plugins.docbook:3607
 #, no-c-format
 msgid "The &kate; SQL Plugin allows you to:"
 msgstr "इति &कते; SQL प्लगिन् भवन्तं निम्नलिखितम् अनुमन्यते:"
 
 #. Tag: para
-#: plugins.docbook:3581
+#: plugins.docbook:3610
 #, no-c-format
 msgid "Create a database"
 msgstr "एकं दत्तांशकोशं रचयन्तु"
 
 #. Tag: para
-#: plugins.docbook:3582
+#: plugins.docbook:3611
 #, no-c-format
 msgid "Connect to existing databases"
 msgstr "विद्यमानदत्तांशकोशैः सह सम्बद्धं कुर्वन्तु"
 
 #. Tag: para
-#: plugins.docbook:3583
+#: plugins.docbook:3612
 #, no-c-format
 msgid "Insert and delete data in the database"
 msgstr "दत्तांशकोशे दत्तांशं सम्मिलितं विलोपनं च कुर्वन्तु"
 
 #. Tag: para
-#: plugins.docbook:3584
+#: plugins.docbook:3613
 #, no-c-format
 msgid "Execute queries"
 msgstr "प्रश्नान् निष्पादयन्तु"
 
 #. Tag: para
-#: plugins.docbook:3585
+#: plugins.docbook:3614
 #, no-c-format
 msgid "Display results in a table"
 msgstr "एकस्मिन् सारणीयां परिणामान् प्रदर्शयन्तु"
 
 #. Tag: title
-#: plugins.docbook:3591
+#: plugins.docbook:3620
 #, no-c-format
 msgid "Connecting to a Database"
 msgstr "Database इत्यनेन सह सम्बद्धता"
 
 #. Tag: para
-#: plugins.docbook:3593
+#: plugins.docbook:3622
 #, no-c-format
 msgid ""
 "Select <guibutton>Add Connection</guibutton> from the <guimenu>SQL</guimenu> "
@@ -7643,7 +7688,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: plugins.docbook:3599
+#: plugins.docbook:3628
 #, no-c-format
 msgid ""
 "If the database you selected uses a file, simply indicate the database's "
@@ -7659,7 +7704,7 @@ msgstr ""
 "<guibutton>Next</guibutton> इति नुदन्तु ।"
 
 #. Tag: para
-#: plugins.docbook:3605
+#: plugins.docbook:3634
 #, no-c-format
 msgid ""
 "Finally, give a name to your connection, and press <guibutton>Finish</"
@@ -7667,19 +7712,19 @@ msgid ""
 msgstr "अन्ते स्वस्य संयोजनस्य नाम ददातु, <guibutton>Finish</guibutton> नुदन्तु ।"
 
 #. Tag: title
-#: plugins.docbook:3610
+#: plugins.docbook:3639
 #, no-c-format
 msgid "Running Queries"
 msgstr "प्रश्नान् चालयति"
 
 #. Tag: title
-#: plugins.docbook:3613
+#: plugins.docbook:3642
 #, no-c-format
 msgid "INSERT/DELETE/UPDATE"
 msgstr "INSERT/DELETE/UPDATE करे"
 
 #. Tag: para
-#: plugins.docbook:3615
+#: plugins.docbook:3644
 #, no-c-format
 msgid ""
 "You can insert, delete, and update data using the SQL plugin just as you "
@@ -7695,13 +7740,13 @@ msgstr ""
 "इत्यस्य उपयोगं कुर्वन्तु =\"simul\">&Ctrl;<keycap>E</keycap></keycombo>)।"
 
 #. Tag: title
-#: plugins.docbook:3622
+#: plugins.docbook:3651
 #, no-c-format
 msgid "Some Example Queries"
 msgstr "केचन उदाहरणप्रश्नाः"
 
 #. Tag: programlisting
-#: plugins.docbook:3627
+#: plugins.docbook:3656
 #, no-c-format
 msgid ""
 "INSERT INTO <replaceable>table_name</replaceable> (\"<replaceable>feature1</"
@@ -7722,7 +7767,7 @@ msgstr ""
 "प्रतिस्थापनीय>\", \"<प्रतिस्थापनीय>।\" मूल्य५</प्रतिस्थापनीय>\" )"
 
 #. Tag: programlisting
-#: plugins.docbook:3632
+#: plugins.docbook:3661
 #, no-c-format
 msgid ""
 "DELETE FROM <replaceable>table_name</replaceable> WHERE name = "
@@ -7732,7 +7777,7 @@ msgstr ""
 "\"<प्रतिस्थापनीय>पाठ</प्रतिस्थापनीय>\" ।"
 
 #. Tag: programlisting
-#: plugins.docbook:3637
+#: plugins.docbook:3666
 #, no-c-format
 msgid ""
 "UPDATE <replaceable>table_name</replaceable> SET \"<replaceable>feature1</"
@@ -7752,13 +7797,13 @@ msgstr ""
 "\"<प्रतिस्थापनीय>पाठ</replaceable>\""
 
 #. Tag: title
-#: plugins.docbook:3646
+#: plugins.docbook:3675
 #, no-c-format
 msgid "SELECT"
 msgstr "विचि"
 
 #. Tag: para
-#: plugins.docbook:3648
+#: plugins.docbook:3677
 #, no-c-format
 msgid ""
 "After running a <command>SELECT</command> query, you can view the results as "
@@ -7771,19 +7816,19 @@ msgstr ""
 "पाठनिर्गमस्य मध्ये द्रष्टुं शक्नुवन्ति ।"
 
 #. Tag: title
-#: plugins.docbook:3654
+#: plugins.docbook:3683
 #, no-c-format
 msgid "Example <command>SELECT</command> Query"
 msgstr "उदाहरणम् <command>SELECT</command> प्रश्नः"
 
 #. Tag: programlisting
-#: plugins.docbook:3655
+#: plugins.docbook:3684
 #, no-c-format
 msgid "SELECT * FROM <replaceable>table_name</replaceable>"
 msgstr "SELECT * FROM <प्रतिस्थापनीय>सारणी_नाम</प्रतिस्थापनीय>"
 
 #. Tag: para
-#: plugins.docbook:3658
+#: plugins.docbook:3687
 #, no-c-format
 msgid ""
 "In the <guilabel>SQL Data Output</guilabel> tool view, there are several "
@@ -7791,50 +7836,50 @@ msgid ""
 msgstr "<guilabel>SQL Data Output</guilabel> इति साधनदृश्ये अनेके बटन् सन्ति :"
 
 #. Tag: guibutton
-#: plugins.docbook:3663
+#: plugins.docbook:3692
 #, no-c-format
 msgid "Resize columns to contents"
 msgstr "स्तम्भानां आकारं सामग्रीं प्रति परिवर्तयन्तु"
 
 #. Tag: para
-#: plugins.docbook:3664
+#: plugins.docbook:3693
 #, no-c-format
 msgid "Changes the size of columns to fit their contents."
 msgstr "स्तम्भानां परिमाणं परिवर्तयति यत् तेषां सामग्रीं युक्तं भवति ।"
 
 #. Tag: guibutton
-#: plugins.docbook:3668
+#: plugins.docbook:3697
 #, no-c-format
 msgid "Resize rows to contents"
 msgstr "पङ्क्तयः सामग्रीं प्रति आकारं परिवर्तयन्तु"
 
 #. Tag: para
-#: plugins.docbook:3669
+#: plugins.docbook:3698
 #, no-c-format
 msgid "Changes the size of rows to fit their contents."
 msgstr "पङ्क्तयः तेषां सामग्रीं अनुकूलतया आकारं परिवर्तयति ।"
 
 #. Tag: guibutton
-#: plugins.docbook:3673
+#: plugins.docbook:3702
 #, no-c-format
 msgid "Copy"
 msgstr "प्रतिलिपि"
 
 #. Tag: para
-#: plugins.docbook:3674
+#: plugins.docbook:3703
 #, no-c-format
 msgid ""
 "Selects all of the table contents and copies it to the clipboard buffer."
 msgstr "सारणीसामग्रीणां सर्वाणि चित्वा क्लिप्बोर्ड् बफर मध्ये प्रतिलिपिं करोति ।"
 
 #. Tag: guibutton
-#: plugins.docbook:3678
+#: plugins.docbook:3707
 #, no-c-format
 msgid "Export"
 msgstr "निर्यात"
 
 #. Tag: para
-#: plugins.docbook:3679
+#: plugins.docbook:3708
 #, no-c-format
 msgid ""
 "Exports all of the table contents to a file, the clipboard, or the current "
@@ -7844,19 +7889,19 @@ msgstr ""
 "वर्तमानदस्तावेजं प्रति निर्यातयति ।"
 
 #. Tag: guibutton
-#: plugins.docbook:3684
+#: plugins.docbook:3713
 #, no-c-format
 msgid "Clear"
 msgstr "स्पष्टः"
 
 #. Tag: para
-#: plugins.docbook:3685
+#: plugins.docbook:3714
 #, no-c-format
 msgid "Removes everything from the table view."
 msgstr "सारणीदृश्यात् सर्वं निष्कासयति ।"
 
 #. Tag: para
-#: plugins.docbook:3692
+#: plugins.docbook:3721
 #, no-c-format
 msgid ""
 "You can now change the colors displayed in the table in the <guilabel>SQL</"
@@ -7868,13 +7913,13 @@ msgstr ""
 "सारणीयां प्रदर्शितवर्णान् परिवर्तयितुं शक्नोति ."
 
 #. Tag: title
-#: plugins.docbook:3700
+#: plugins.docbook:3729
 #, no-c-format
 msgid "Browsing"
 msgstr "ब्राउजिंग्"
 
 #. Tag: para
-#: plugins.docbook:3702
+#: plugins.docbook:3731
 #, no-c-format
 msgid ""
 "You can browse your database using the <guilabel>Database schema</guilabel> "
@@ -7886,7 +7931,7 @@ msgstr ""
 "अवलम्ब्य प्रदर्शिता सूचना भिन्ना भवति ।"
 
 #. Tag: para
-#: plugins.docbook:3706
+#: plugins.docbook:3735
 #, no-c-format
 msgid ""
 "To refresh this list, right-click anywhere in the tool view and select "
@@ -7904,49 +7949,49 @@ msgstr ""
 "उपमेनूतः यत्... दृश्यते ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3720
+#: plugins.docbook:3749
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Add connection...</guimenuitem>"
 msgstr "<guimenu>SQL</guimenu><guimenuitem>संयोजनं योजयतु...</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3723
+#: plugins.docbook:3752
 #, no-c-format
 msgid "Adds a new connection using any database driver."
 msgstr "कस्यापि दत्तांशकोशचालकस्य उपयोगेन नूतनं संयोजनं योजयति ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3729
+#: plugins.docbook:3758
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Remove connection</guimenuitem>"
 msgstr "<guimenu>SQL</guimenu><guimenuitem>संयोजनं निष्कासयन्तु</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3732
+#: plugins.docbook:3761
 #, no-c-format
 msgid "Removes the selected connection."
 msgstr "चयनितं संयोजनं निष्कासयति।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3738
+#: plugins.docbook:3767
 #, no-c-format
 msgid "<guimenu>SQL</guimenu><guimenuitem>Edit connection...</guimenuitem>"
 msgstr "<guimenu>SQL</guimenu><guimenuitem>संयोजनं सम्पादयतु...</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3741
+#: plugins.docbook:3770
 #, no-c-format
 msgid "Edits the current connection's settings."
 msgstr "वर्तमानसंयोजनस्य सेटिङ्ग्स् सम्पादयति ।"
 
 #. Tag: term
-#: plugins.docbook:3747
+#: plugins.docbook:3776
 #, no-c-format
 msgid "Connections"
 msgstr "संबन्धाः"
 
 #. Tag: para
-#: plugins.docbook:3748
+#: plugins.docbook:3777
 #, no-c-format
 msgid ""
 "All database connections you have created are listed between the "
@@ -7959,7 +8004,7 @@ msgstr ""
 "प्रश्नान् चालयितुं वा तस्मिन् परिवर्तनं कर्तुं वा एकं चिनोतु ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3756
+#: plugins.docbook:3785
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo></"
@@ -7969,19 +8014,19 @@ msgstr ""
 "shortcut> <guimenu>SQL</guimenu><guimenuitem>प्रश्नं चालयन्तु</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3760
+#: plugins.docbook:3789
 #, no-c-format
 msgid "Runs your query."
 msgstr "भवतः प्रश्नं चालयति।"
 
 #. Tag: para
-#: plugins.docbook:3771
+#: plugins.docbook:3800
 #, no-c-format
 msgid "The SQL Plugin was written by Marco Mentasti."
 msgstr "SQL प्लगिन् मार्को मेन्टास्टी इत्यनेन लिखितम् आसीत् ।"
 
 #. Tag: para
-#: plugins.docbook:3772
+#: plugins.docbook:3801
 #, no-c-format
 msgid ""
 "Special thanks to Google Code-In 2011 participant Ömer Faruk ORUÇ for "
@@ -7991,13 +8036,13 @@ msgstr ""
 "विशेषं धन्यवादः।"
 
 #. Tag: title
-#: plugins.docbook:3781
+#: plugins.docbook:3810
 #, no-c-format
 msgid "Symbol Viewer Plugin"
 msgstr "प्रतीक दर्शक प्लगिन्"
 
 #. Tag: para
-#: plugins.docbook:3786
+#: plugins.docbook:3815
 #, no-c-format
 msgid ""
 "It allows developers to view symbols (functions, macros and structures) from "
@@ -8005,19 +8050,19 @@ msgid ""
 msgstr "एतेन विकासकाः स्रोतसङ्केतः चिह्नानि (कार्यं, मैक्रोः, संरचना च) द्रष्टुं शक्नुवन्ति ।"
 
 #. Tag: para
-#: plugins.docbook:3787
+#: plugins.docbook:3816
 #, no-c-format
 msgid "By clicking the parsed information you can easily browse the code."
 msgstr "विश्लेषितसूचनाः क्लिक् कृत्वा भवान् सहजतया कोडं ब्राउज् कर्तुं शक्नोति ।"
 
 #. Tag: para
-#: plugins.docbook:3788
+#: plugins.docbook:3817
 #, no-c-format
 msgid "At the moment the following languages are supported:"
 msgstr "अस्मिन् क्षणे निम्नलिखितभाषा समर्थिताः सन्ति ।"
 
 #. Tag: para
-#: plugins.docbook:3789
+#: plugins.docbook:3818
 #, no-c-format
 msgid "C/C++, &Java;, Perl, PHP, Python, Ruby, XSLT, Tcl/Tk, Fortran"
 msgstr ""
@@ -8025,43 +8070,43 @@ msgstr ""
 "फोर्ट्रान"
 
 #. Tag: para
-#: plugins.docbook:3791
+#: plugins.docbook:3820
 #, no-c-format
 msgid "Feature list:"
 msgstr "विशेषतासूची :"
 
 #. Tag: member
-#: plugins.docbook:3793
+#: plugins.docbook:3822
 #, no-c-format
 msgid "List/Tree mode"
 msgstr "सूची/वृक्ष मोड"
 
 #. Tag: member
-#: plugins.docbook:3794
+#: plugins.docbook:3823
 #, no-c-format
 msgid "Enable/disable sorting"
 msgstr "क्रमणं सक्षमं/अक्षमं कुर्वन्तु"
 
 #. Tag: member
-#: plugins.docbook:3795
+#: plugins.docbook:3824
 #, no-c-format
 msgid "Hide/Show Functions Parameters"
 msgstr "कार्याणि गोपयन्तु/दर्शयन्तु पैरामीटर्"
 
 #. Tag: member
-#: plugins.docbook:3796
+#: plugins.docbook:3825
 #, no-c-format
 msgid "Expand/collapse tree mode"
 msgstr "वृक्षविधिं विस्तारयतु/संकुचयतु"
 
 #. Tag: member
-#: plugins.docbook:3797
+#: plugins.docbook:3826
 #, no-c-format
 msgid "Auto-update on document change"
 msgstr "दस्तावेजपरिवर्तने स्वतः अद्यतनं कुर्वन्तु"
 
 #. Tag: member
-#: plugins.docbook:3798
+#: plugins.docbook:3827
 #, no-c-format
 msgid ""
 "Code parsing is based on the Syntax-Highlighting framework from &kde-"
@@ -8069,7 +8114,7 @@ msgid ""
 msgstr "कोडपार्सिंग् &kde-frameworks;"
 
 #. Tag: menuchoice
-#: plugins.docbook:3808
+#: plugins.docbook:3837
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>\\</keycap></keycombo> </"
@@ -8081,7 +8126,7 @@ msgstr ""
 "<guimenuitem>प्रदर्शनम् प्रतीकसूची</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3817
+#: plugins.docbook:3846
 #, no-c-format
 msgid ""
 "Toggle the display of &kate;'s Symbol List displaying Functions, Macros and "
@@ -8091,31 +8136,31 @@ msgstr ""
 "इत्यस्य Symbol List इत्यस्य प्रदर्शनं टॉगलं कुर्वन्तु ।"
 
 #. Tag: screeninfo
-#: plugins.docbook:3830
+#: plugins.docbook:3859
 #, no-c-format
 msgid "Symbol Viewer"
 msgstr "प्रतीक दर्शक"
 
 #. Tag: para
-#: plugins.docbook:3833
+#: plugins.docbook:3862
 #, no-c-format
 msgid "Choose the default parser options"
 msgstr "पूर्वनिर्धारितं पार्सर विकल्पं चिनोतु"
 
 #. Tag: title
-#: plugins.docbook:3843
+#: plugins.docbook:3872
 #, no-c-format
 msgid "Terminal Tool View Plugin"
 msgstr "टर्मिनल टूल् दृश्य प्लगिन्"
 
 #. Tag: primary
-#: plugins.docbook:3845
+#: plugins.docbook:3874
 #, no-c-format
 msgid "Terminal emulator"
 msgstr "टर्मिनल एमुलेटर"
 
 #. Tag: para
-#: plugins.docbook:3845
+#: plugins.docbook:3874
 #, no-c-format
 msgid ""
 "The built in Terminal Emulator is a copy of the &kde; &konsole; terminal "
@@ -8138,7 +8183,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: plugins.docbook:3857
+#: plugins.docbook:3886
 #, no-c-format
 msgid ""
 "The default location in the &kate; window is at the bottom, below the "
@@ -8146,7 +8191,7 @@ msgid ""
 msgstr "पूर्वनिर्धारितस्थानं &kate; विण्डो अधः, सम्पादनक्षेत्रस्य अधः अस्ति ।"
 
 #. Tag: para
-#: plugins.docbook:3860
+#: plugins.docbook:3889
 #, no-c-format
 msgid ""
 "You can configure the &konsole; using its &RMB; menu, for more information, "
@@ -8156,14 +8201,14 @@ msgstr ""
 "html\">&konsole; मैनुअल्</ulink> इति ।"
 
 #. Tag: para
-#: plugins.docbook:3863
+#: plugins.docbook:3892
 #, no-c-format
 msgid ""
 "The built-in terminal emulator is provided by the Terminal Tool View plugin."
 msgstr "अन्तर्निर्मितं टर्मिनल् एमुलेटर् Terminal Tool View प्लगिन् द्वारा प्रदत्तं भवति ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3871
+#: plugins.docbook:3900
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guisubmenu>Tool Views</guisubmenu> <guimenuitem>Show "
@@ -8173,19 +8218,19 @@ msgstr ""
 "<guimenuitem>टर्मिनलपटलं दर्शयतु</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3876
+#: plugins.docbook:3905
 #, no-c-format
 msgid "Toggles the display of the built-in terminal emulator."
 msgstr "अन्तर्निर्मितस्य टर्मिनल् एमुलेटर् इत्यस्य प्रदर्शनं टॉग्ल् करोति ।"
 
 #. Tag: para
-#: plugins.docbook:3877
+#: plugins.docbook:3906
 #, no-c-format
 msgid "When activated for the first time, the terminal will be created."
 msgstr "प्रथमवारं सक्रियीकरणे टर्मिनल् निर्मितं भविष्यति ।"
 
 #. Tag: para
-#: plugins.docbook:3878
+#: plugins.docbook:3907
 #, no-c-format
 msgid ""
 "When the terminal emulator is displayed, it will get the focus, so that you "
@@ -8204,13 +8249,13 @@ msgstr ""
 "अस्ति ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3889
+#: plugins.docbook:3918
 #, no-c-format
 msgid "<guimenu>Tools</guimenu><guimenuitem>Pipe to Terminal</guimenuitem>"
 msgstr "<guimenu>उपकरणाः</guimenu><guimenuitem>टर्मिनलपर्यन्तं पाइप्</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3891
+#: plugins.docbook:3920
 #, no-c-format
 msgid ""
 "Feed the currently selected text into the built-in terminal emulator. No "
@@ -8220,7 +8265,7 @@ msgstr ""
 "नूतनपङ्क्तिः न योजितः ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3896
+#: plugins.docbook:3925
 #, no-c-format
 msgid ""
 "<guimenu>Tools</guimenu> <guimenuitem>Synchronize Terminal with Current "
@@ -8230,7 +8275,7 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3900
+#: plugins.docbook:3929
 #, no-c-format
 msgid ""
 "This will cause the built-in Terminal to <command>cd</command> into the "
@@ -8240,7 +8285,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: plugins.docbook:3903
+#: plugins.docbook:3932
 #, no-c-format
 msgid ""
 "Alternatively, you can configure &kate; to always keep the terminal in sync "
@@ -8251,7 +8296,7 @@ msgstr ""
 "अधिकविवरणार्थं <xref linkend=\"konsole-config\"/> पश्यन्तु ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3910
+#: plugins.docbook:3939
 #, no-c-format
 msgid ""
 "<guimenu>Tools</guimenu> <guimenuitem>Run Current Document</guimenuitem>"
@@ -8259,7 +8304,7 @@ msgstr ""
 "<guimenu>उपकरणाः</guimenu> <guimenuitem>वर्तमानदस्तावेजं चालयन्तु</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3914
+#: plugins.docbook:3943
 #, no-c-format
 msgid ""
 "Run the current document in &konsole;. Only the local documents can be run. "
@@ -8271,7 +8316,7 @@ msgstr ""
 "भवितुम् अर्हति ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:3921
+#: plugins.docbook:3950
 #, no-c-format
 msgid ""
 "<guimenu>Tools</guimenu> <guimenuitem>Focus/Defocus Terminal Panel</"
@@ -8281,14 +8326,14 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:3926
+#: plugins.docbook:3955
 #, no-c-format
 msgid ""
 "Switch the focus from the current document to the terminal and vice versa."
 msgstr "वर्तमानदस्तावेजात् टर्मिनल् प्रति फोकस परिवर्तयन्तु तथा च विपरीतम् ।"
 
 #. Tag: para
-#: plugins.docbook:3937
+#: plugins.docbook:3966
 #, no-c-format
 msgid ""
 "You can configure the Terminal Tool View plugin on the <guilabel>Terminal</"
@@ -8299,13 +8344,13 @@ msgstr ""
 "guilabel> पृष्ठस्य<link linkend=\"configuring-kate\"> विन्याससंवादः</link> ."
 
 #. Tag: para
-#: plugins.docbook:3941
+#: plugins.docbook:3970
 #, no-c-format
 msgid "The following options are available:"
 msgstr "निम्नलिखितविकल्पाः उपलभ्यन्ते :"
 
 #. Tag: guilabel
-#: plugins.docbook:3946
+#: plugins.docbook:3975
 #, no-c-format
 msgid ""
 "Automatically synchronize the terminal with the current document when "
@@ -8313,7 +8358,7 @@ msgid ""
 msgstr "यदा सम्भवं तदा वर्तमानदस्तावेजेन सह टर्मिनल् स्वयमेव समन्वययन्तु"
 
 #. Tag: para
-#: plugins.docbook:3947
+#: plugins.docbook:3976
 #, no-c-format
 msgid ""
 "This will cause the built-in terminal to <command>cd</command> into the "
@@ -8326,13 +8371,13 @@ msgstr ""
 "भवति तर्हि भवता टर्मिनल् मध्ये सर्वं नेविगेशनं स्वयमेव कर्तव्यम् ।"
 
 #. Tag: guilabel
-#: plugins.docbook:3955
+#: plugins.docbook:3984
 #, no-c-format
 msgid "Set EDITOR environment variable to 'kate -b'"
 msgstr "EDITOR वातावरणचरं 'kate -b' इति सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: plugins.docbook:3956
+#: plugins.docbook:3985
 #, no-c-format
 msgid ""
 "This sets the <envar>EDITOR</envar> environment variable so programs run in "
@@ -8349,13 +8394,13 @@ msgstr ""
 "भवान् सञ्चिकायाः सम्पादनं समाप्तवान् ।"
 
 #. Tag: guilabel
-#: plugins.docbook:3964
+#: plugins.docbook:3993
 #, no-c-format
 msgid "Hide &konsole; on pressing 'Esc'"
 msgstr "गोपनं &konsole; 'Esc' इति दबावने।"
 
 #. Tag: para
-#: plugins.docbook:3965
+#: plugins.docbook:3994
 #, no-c-format
 msgid ""
 "This allows closing the built-in terminal by pressing the &Esc; key. May "
@@ -8368,19 +8413,19 @@ msgstr ""
 "कर्तव्यानि ।"
 
 #. Tag: title
-#: plugins.docbook:3977
+#: plugins.docbook:4006
 #, no-c-format
 msgid "Text Filter Plugin"
 msgstr "पाठ फ़िल्टर प्लगिन्"
 
 #. Tag: title
-#: plugins.docbook:3980
+#: plugins.docbook:4009
 #, no-c-format
 msgid "Using the Text Filter Plugin"
 msgstr "Text Filter Plugin इत्यस्य उपयोगः"
 
 #. Tag: para
-#: plugins.docbook:3982
+#: plugins.docbook:4011
 #, no-c-format
 msgid ""
 "You can use this plugin to process selected text using terminal commands. "
@@ -8393,13 +8438,13 @@ msgstr ""
 "भविष्यति, उपयोक्तुः प्राधान्यानुसारम्"
 
 #. Tag: title
-#: plugins.docbook:3988
+#: plugins.docbook:4017
 #, no-c-format
 msgid "Examples:"
 msgstr "उदाहरणानि :"
 
 #. Tag: para
-#: plugins.docbook:3989
+#: plugins.docbook:4018
 #, no-c-format
 msgid ""
 "<command>less /etc/fstab</command> - paste the contents of this file or copy "
@@ -8409,7 +8454,7 @@ msgstr ""
 "क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
 
 #. Tag: para
-#: plugins.docbook:3992
+#: plugins.docbook:4021
 #, no-c-format
 msgid ""
 "<command>wc</command> - count lines, words and characters of the selection "
@@ -8419,7 +8464,7 @@ msgstr ""
 "चिनोतु अथवा क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
 
 #. Tag: para
-#: plugins.docbook:3996
+#: plugins.docbook:4025
 #, no-c-format
 msgid ""
 "<command>sort</command> - sort lines of the selection and paste the result "
@@ -8429,7 +8474,7 @@ msgstr ""
 "क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
 
 #. Tag: menuchoice
-#: plugins.docbook:4010
+#: plugins.docbook:4039
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>\\</keycap></keycombo> </"
@@ -8439,19 +8484,19 @@ msgstr ""
 "shortcut> <guimenu>उपकरणं</guimenu> <guisubmenu>पाठं छानतु</guisubmenu>"
 
 #. Tag: para
-#: plugins.docbook:4019
+#: plugins.docbook:4048
 #, no-c-format
 msgid "<action>Opens</action> the Text Filter dialog:"
 msgstr "<action>Text Filter संवादं उद्घाटयति</action>:"
 
 #. Tag: screeninfo
-#: plugins.docbook:4022
+#: plugins.docbook:4051
 #, no-c-format
 msgid "Text Filter dialog"
 msgstr "Text Filter संवादः"
 
 #. Tag: para
-#: plugins.docbook:4028
+#: plugins.docbook:4057
 #, no-c-format
 msgid ""
 "Enter the shell command into the combobox or select a previous command from "
@@ -8459,25 +8504,25 @@ msgid ""
 msgstr "shell आदेशं combobox मध्ये प्रविशन्तु अथवा इतिहासात् पूर्वादेशं चिनोतु ।"
 
 #. Tag: guilabel
-#: plugins.docbook:4033
+#: plugins.docbook:4062
 #, no-c-format
 msgid "Copy the result instead of pasting it"
 msgstr "परिणामं पेस्ट् कर्तुं स्थाने प्रतिलिख्यताम्"
 
 #. Tag: para
-#: plugins.docbook:4035
+#: plugins.docbook:4064
 #, no-c-format
 msgid "Copy the result to clipboard leaving a document unchanged."
 msgstr "दस्तावेजं अपरिवर्तितं त्यक्त्वा परिणामं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम् ।"
 
 #. Tag: guilabel
-#: plugins.docbook:4040
+#: plugins.docbook:4069
 #, no-c-format
 msgid "Merge STDOUT and STDERR"
 msgstr "STDOUT तथा STDERR विलययन्तु"
 
 #. Tag: para
-#: plugins.docbook:4042
+#: plugins.docbook:4071
 #, no-c-format
 msgid ""
 "If checked, an output from STDOUT and STDERR will be merged and no errors "
@@ -8487,25 +8532,25 @@ msgstr ""
 "कोऽपि दोषः न निवेदितः भविष्यति । अन्यथा STDERR निष्क्रियसन्देशरूपेण प्रदर्शितं भविष्यति ।"
 
 #. Tag: author
-#: plugins.docbook:4062 plugins.docbook:4124
+#: plugins.docbook:4091 plugins.docbook:4153
 #, no-c-format
 msgid "&Daniel.Naber; &Daniel.Naber.mail;"
 msgstr "&Daniel.Naber; &Daniel.Naber.mail;"
 
 #. Tag: title
-#: plugins.docbook:4067
+#: plugins.docbook:4096
 #, no-c-format
 msgid "&XML; Validation"
 msgstr "&XML; प्रमाणीकरणम्"
 
 #. Tag: para
-#: plugins.docbook:4069
+#: plugins.docbook:4098
 #, no-c-format
 msgid "This plugin checks &XML; files for validity and being well-formed."
 msgstr "एतत् प्लगिन् &XML; वैधतायै सुनिर्मिततायै च सञ्चिकाः।"
 
 #. Tag: para
-#: plugins.docbook:4070
+#: plugins.docbook:4099
 #, no-c-format
 msgid ""
 "This plugin checks the current file. A list of warnings and errors will "
@@ -8529,13 +8574,13 @@ msgstr ""
 "dtd</filename> इति । तथापि http मार्गेण निर्दिष्टाः दूरस्थाः DTDs समर्थिताः सन्ति ।"
 
 #. Tag: para
-#: plugins.docbook:4079
+#: plugins.docbook:4108
 #, no-c-format
 msgid "If the file has no doctype it will be checked for being well-formed."
 msgstr "यदि सञ्चिकायाः doctype नास्ति तर्हि तस्याः सुनिर्मिततायाः परीक्षणं भविष्यति ।"
 
 #. Tag: para
-#: plugins.docbook:4081
+#: plugins.docbook:4110
 #, no-c-format
 msgid ""
 "To learn more about &XML; check out the <ulink url=\"https://www.w3.org/XML/"
@@ -8545,7 +8590,7 @@ msgstr ""
 "ulink>।"
 
 #. Tag: para
-#: plugins.docbook:4083
+#: plugins.docbook:4112
 #, no-c-format
 msgid ""
 "Internally this plugin calls the external command <command>xmllint</"
@@ -8557,7 +8602,7 @@ msgstr ""
 "कार्यं न करिष्यति ।"
 
 #. Tag: para
-#: plugins.docbook:4087
+#: plugins.docbook:4116
 #, no-c-format
 msgid ""
 "To load this plugin open &kate;'s configuration dialog under "
@@ -8573,20 +8618,20 @@ msgstr ""
 "संवादं पिधास्यति ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:4099
+#: plugins.docbook:4128
 #, no-c-format
 msgid "<guimenu>&XML;</guimenu> <guimenuitem>Validate &XML;</guimenuitem>"
 msgstr ""
 "<guimenu>&XML;</guimenu> <guimenuitem>&XML;</guimenuitem> प्रमाणीकरणं कुर्वन्तु"
 
 #. Tag: para
-#: plugins.docbook:4104
+#: plugins.docbook:4133
 #, no-c-format
 msgid "This will start the check, as described above."
 msgstr "एतेन चेकः आरभ्यते, यथा उपरि वर्णितम् ।"
 
 #. Tag: para
-#: plugins.docbook:4112
+#: plugins.docbook:4141
 #, no-c-format
 msgid ""
 "&kate; Plugin <quote>&XML; Validation</quote> copyright 2002 &Daniel.Naber; "
@@ -8596,19 +8641,19 @@ msgstr ""
 "&डैनियल.नाबेर.मेल;."
 
 #. Tag: para
-#: plugins.docbook:4116
+#: plugins.docbook:4145
 #, no-c-format
 msgid "Documentation copyright 2002 &Daniel.Naber;"
 msgstr "दस्तावेजीकरण प्रतिलिपि अधिकार 2002 &Daniel.Naber;"
 
 #. Tag: title
-#: plugins.docbook:4128
+#: plugins.docbook:4157
 #, no-c-format
 msgid "&XML; Completion"
 msgstr "&XML; समाप्ति"
 
 #. Tag: para
-#: plugins.docbook:4130
+#: plugins.docbook:4159
 #, no-c-format
 msgid ""
 "This plugin gives hints about what is allowed at a certain position in an "
@@ -8624,7 +8669,7 @@ msgstr ""
 "समीपस्थं मुक्तटैग् पिधातुं अपि शक्यते ।"
 
 #. Tag: para
-#: plugins.docbook:4137
+#: plugins.docbook:4166
 #, no-c-format
 msgid ""
 "The <acronym>DTD</acronym> must exist in &XML; format, as produced by the "
@@ -8648,13 +8693,13 @@ msgstr ""
 "sourceforge.net\"> http://dtdparse.sourceforge.net इति ग्रन्थः</ulink> ."
 
 #. Tag: title
-#: plugins.docbook:4148
+#: plugins.docbook:4177
 #, no-c-format
 msgid "How to Use"
 msgstr "कथं प्रयोगः करणीयः"
 
 #. Tag: para
-#: plugins.docbook:4150
+#: plugins.docbook:4179
 #, no-c-format
 msgid ""
 "Start &kate; and open the configuration dialog under "
@@ -8679,19 +8724,19 @@ msgstr ""
 "मेटा DTD स्वयमेव लोड् भविष्यति ।"
 
 #. Tag: para
-#: plugins.docbook:4160
+#: plugins.docbook:4189
 #, no-c-format
 msgid "You can now use the plugin while typing your text:"
 msgstr "इदानीं भवान् स्वस्य पाठं टङ्कयन् प्लगिन् उपयोक्तुं शक्नोति:"
 
 #. Tag: term
-#: plugins.docbook:4165
+#: plugins.docbook:4194
 #, no-c-format
 msgid "<keycap>&lt;</keycap> (less than key)"
 msgstr "<keycap>&lt;</keycap> (कीलात् न्यूनम्)"
 
 #. Tag: para
-#: plugins.docbook:4166
+#: plugins.docbook:4195
 #, no-c-format
 msgid ""
 "This will trigger a list of possible elements unless the cursor is inside a "
@@ -8703,13 +8748,13 @@ msgstr ""
 "उपयोगं कर्तुं न शक्नोति ।"
 
 #. Tag: term
-#: plugins.docbook:4172
+#: plugins.docbook:4201
 #, no-c-format
 msgid "<keycap>&lt;</keycap><keycap>/</keycap>(less than key + slash)"
 msgstr "<keycap>&lt;</keycap><keycap>/</keycap>(की + स्लैश इत्यस्मात् न्यूनम्)"
 
 #. Tag: para
-#: plugins.docbook:4173
+#: plugins.docbook:4202
 #, no-c-format
 msgid ""
 "Entering these characters will offer to close the current element (nearest "
@@ -8722,13 +8767,13 @@ msgstr ""
 "guimenuitem> मेन्यू-वस्तुनः विपरीतम्, एतत् केवलं DTD नियुक्तेन सह कार्यं करोति ।"
 
 #. Tag: term
-#: plugins.docbook:4180
+#: plugins.docbook:4209
 #, no-c-format
 msgid "<keycap>\"</keycap> (quote key)"
 msgstr "<keycap>\"</keycap> (उद्धरणकुंजी)"
 
 #. Tag: para
-#: plugins.docbook:4181
+#: plugins.docbook:4210
 #, no-c-format
 msgid ""
 "The quote key will trigger a list of possible attribute values (if there are "
@@ -8738,13 +8783,13 @@ msgstr ""
 "प्रेरयिष्यति ।"
 
 #. Tag: term
-#: plugins.docbook:4186
+#: plugins.docbook:4215
 #, no-c-format
 msgid "<keycap>&nbsp;</keycap> (space key)"
 msgstr "<keycap>&nbsp;</keycap> (अन्तरिक्षकुंजी)"
 
 #. Tag: para
-#: plugins.docbook:4187
+#: plugins.docbook:4216
 #, no-c-format
 msgid ""
 "This key will trigger a list of possible attributes for the current element "
@@ -8754,25 +8799,25 @@ msgstr ""
 "प्रेरयिष्यति ।"
 
 #. Tag: term
-#: plugins.docbook:4193
+#: plugins.docbook:4222
 #, no-c-format
 msgid "<keycap>&amp;</keycap> (ampersand key)"
 msgstr "<keycap>&amp;</keycap> (ampersand कीलम्)"
 
 #. Tag: para
-#: plugins.docbook:4194
+#: plugins.docbook:4223
 #, no-c-format
 msgid "This key will trigger a list of named entities."
 msgstr "एतत् कीलं नामकृतानां सत्तानां सूचीं प्रेरयिष्यति ।"
 
 #. Tag: title
-#: plugins.docbook:4201
+#: plugins.docbook:4230
 #, no-c-format
 msgid "Features and Limitations"
 msgstr "विशेषताः सीमाः च"
 
 #. Tag: para
-#: plugins.docbook:4203
+#: plugins.docbook:4232
 #, no-c-format
 msgid ""
 "You can test all functions and limitations by loading <filename>katexmltools/"
@@ -8786,7 +8831,7 @@ msgstr ""
 "सामान्यदत्तांशस्थान</option></userinput> into &amp;कते; निर्देशानुसरणं च ।"
 
 #. Tag: menuchoice
-#: plugins.docbook:4216
+#: plugins.docbook:4245
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;&Enter;</keycombo> </shortcut> "
@@ -8796,7 +8841,7 @@ msgstr ""
 "<guimenu>&XML;</guimenu> <guimenuitem>तत्त्वं सम्मिलितं कुर्वन्तु...</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:4223
+#: plugins.docbook:4252
 #, no-c-format
 msgid ""
 "This will open a dialog that lets you insert an &XML; element. The &lt;, "
@@ -8815,7 +8860,7 @@ msgstr ""
 "अस्ति"
 
 #. Tag: menuchoice
-#: plugins.docbook:4234
+#: plugins.docbook:4263
 #, no-c-format
 msgid ""
 "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>&lt;</keycap></keycombo> "
@@ -8825,7 +8870,7 @@ msgstr ""
 "</shortcut> <guimenu>&XML;</guimenu> <guimenuitem>तत्त्वं बन्दं कुरुत</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:4241
+#: plugins.docbook:4270
 #, no-c-format
 msgid ""
 "This will search your text for a tag that is not yet closed and will close "
@@ -8838,14 +8883,14 @@ msgstr ""
 "तर्हि किमपि न भविष्यति।"
 
 #. Tag: menuchoice
-#: plugins.docbook:4248
+#: plugins.docbook:4277
 #, no-c-format
 msgid "<guimenu>&XML;</guimenu> <guimenuitem>Assign Meta DTD...</guimenuitem>"
 msgstr ""
 "<guimenu>&XML;</guimenu> <guimenuitem>मेटा DTD नियुक्तं कुर्वन्तु...</guimenuitem>"
 
 #. Tag: para
-#: plugins.docbook:4252
+#: plugins.docbook:4281
 #, no-c-format
 msgid ""
 "This will tell the plugin which meta DTD to use for the current document. "
@@ -8856,7 +8901,7 @@ msgstr ""
 "ध्यानं कुर्वन्तु यत् एतत् असाइनमेण्ट् न रक्षितं भविष्यति । यदा भवन्तः &kate; अग्रिमे समये।"
 
 #. Tag: para
-#: plugins.docbook:4262
+#: plugins.docbook:4291
 #, no-c-format
 msgid ""
 "&kate; Plugin <quote>&XML; Completion</quote> copyright 2001,2002 &Daniel."
@@ -8866,25 +8911,25 @@ msgstr ""
 "&डैनियल.नाबेर.मेल;."
 
 #. Tag: para
-#: plugins.docbook:4266
+#: plugins.docbook:4295
 #, no-c-format
 msgid "&kde; SC 4 version copyright 2010 Tomáš Trnka"
 msgstr "&कुत्र; अनुसूचित जाति 4 संस्करण प्रतिलिपि अधिकार 2010 Tomáš Trnka"
 
 #. Tag: para
-#: plugins.docbook:4267
+#: plugins.docbook:4296
 #, no-c-format
 msgid "Documentation copyright 2001,2002 &Daniel.Naber;"
 msgstr "दस्तावेजीकरण प्रतिलिपि अधिकार 2001,2002 &Daniel.Naber;"
 
 #. Tag: title
-#: plugins.docbook:4272
+#: plugins.docbook:4301
 #, no-c-format
 msgid "Compiler Explorer Plugin"
 msgstr "संकलक एक्स्प्लोरर प्लगिन्"
 
 #. Tag: para
-#: plugins.docbook:4274
+#: plugins.docbook:4303
 #, no-c-format
 msgid ""
 "The compiler explorer plugin allows you to use compiler explorer from within "
@@ -8899,13 +8944,13 @@ msgstr ""
 "उद्देश्यं भवतः सञ्चिकायाः कृते compile आदेशान् स्वयमेव ज्ञात्वा एतां प्रक्रियां सरलीकर्तुं भवति ।"
 
 #. Tag: title
-#: plugins.docbook:4277 plugins.docbook:4305
+#: plugins.docbook:4306 plugins.docbook:4334
 #, no-c-format
 msgid "Usage"
 msgstr "प्रयोगः"
 
 #. Tag: para
-#: plugins.docbook:4279
+#: plugins.docbook:4308
 #, no-c-format
 msgid ""
 "The first thing you need to do is to open a compiler explorer tab. Hit "
@@ -8921,7 +8966,7 @@ msgstr ""
 "शॉर्टकट् नियुक्तुं शक्नोति ।"
 
 #. Tag: para
-#: plugins.docbook:4283
+#: plugins.docbook:4312
 #, no-c-format
 msgid ""
 "Next you need to setup a local instance of compiler explorer or use the "
@@ -8941,7 +8986,7 @@ msgstr ""
 "</guilabel> इति चिनोतु ततः कम्पाइलर् एक्सप्लोरर सर्वरस्य url प्रविशतु"
 
 #. Tag: para
-#: plugins.docbook:4285
+#: plugins.docbook:4314
 #, no-c-format
 msgid ""
 "Next you need a compile_commands.json if you need to see codegen for a file "
@@ -8963,7 +9008,7 @@ msgstr ""
 "सञ्चिकायाः संकलनार्थं आवश्यकाः compile आदेशाः दर्शयितव्याः"
 
 #. Tag: para
-#: plugins.docbook:4287
+#: plugins.docbook:4316
 #, no-c-format
 msgid ""
 "If you are just using compiler explorer to see the codegen for something "
@@ -8978,7 +9023,7 @@ msgstr ""
 "नास्ति । भवन्तः प्रत्येकं वारं सञ्चिकां पुनः संकलितुं इच्छन्ति तदा Compile इति क्लिक् कर्तव्यम्"
 
 #. Tag: para
-#: plugins.docbook:4289
+#: plugins.docbook:4318
 #, no-c-format
 msgid ""
 "Once the file is compiled you should see the codegen on the right hand side. "
@@ -8993,13 +9038,13 @@ msgstr ""
 "इति चयनं कर्तुं शक्नोति यत् दत्तायाः कोडजेन् रेखायाः स्रोतसङ्केतः दर्शयितुं शक्नोति"
 
 #. Tag: title
-#: plugins.docbook:4298
+#: plugins.docbook:4327
 #, no-c-format
 msgid "Formatting Plugin"
 msgstr "प्लगिन् स्वरूपणम्"
 
 #. Tag: para
-#: plugins.docbook:4300
+#: plugins.docbook:4329
 #, no-c-format
 msgid ""
 "The formatting plugin allows one to format code easily. The plugin aims to "
@@ -9012,25 +9057,25 @@ msgstr ""
 "उपयोक्तुः कार्यं न बाधते । इदं विशेषतया save इत्यत्र स्वचालितस्वरूपणार्थं महत्त्वपूर्णम् अस्ति ।"
 
 #. Tag: para
-#: plugins.docbook:4307
+#: plugins.docbook:4336
 #, no-c-format
 msgid "It allows the user to format code in two ways:"
 msgstr "एतेन उपयोक्तारः द्वयोः प्रकारयोः कोडस्य स्वरूपणं कर्तुं शक्नोति ।"
 
 #. Tag: para
-#: plugins.docbook:4310
+#: plugins.docbook:4339
 #, no-c-format
 msgid "Manually using the \"Format Document\" action."
 msgstr "\"Format Document\" क्रियायाः मैन्युअल् रूपेण उपयोगः ।"
 
 #. Tag: para
-#: plugins.docbook:4311
+#: plugins.docbook:4340
 #, no-c-format
 msgid "Automatically on save"
 msgstr "स्वयमेव save इत्यत्र"
 
 #. Tag: para
-#: plugins.docbook:4315
+#: plugins.docbook:4344
 #, no-c-format
 msgid ""
 "You can search for this action in the command bar and bind a shortcut to it "
@@ -9040,19 +9085,19 @@ msgstr ""
 "शक्नोति"
 
 #. Tag: title
-#: plugins.docbook:4320
+#: plugins.docbook:4349
 #, no-c-format
 msgid "Supported languages and formatters"
 msgstr "समर्थिताः भाषाः प्रारूपकाः च"
 
 #. Tag: para
-#: plugins.docbook:4322
+#: plugins.docbook:4351
 #, no-c-format
 msgid "The current list of supported languages and formatters are as follows:"
 msgstr "समर्थितभाषाणां प्रारूपकाणां च वर्तमानसूची निम्नलिखितरूपेण अस्ति ।"
 
 #. Tag: para
-#: plugins.docbook:4326
+#: plugins.docbook:4355
 #, no-c-format
 msgid ""
 "C/C++/ObjectiveC/ObjectiveC++/Protobuf/GLSL/Java - <command>clang-format</"
@@ -9061,145 +9106,145 @@ msgstr ""
 "C/C++/ObjectiveC/ObjectiveC++/Protobuf/GLSL/Java - <आदेश>क्लैङ्ग-स्वरूप</command>"
 
 #. Tag: para
-#: plugins.docbook:4329
+#: plugins.docbook:4358
 #, no-c-format
 msgid "Javascript/Typescript/JSX/TSX - <command>prettier</command>"
 msgstr "जावास्क्रिप्ट्/टाइपस्क्रिप्ट्/JSX/TSX - <command>सुन्दरतरम्</command>"
 
 #. Tag: para
-#: plugins.docbook:4332
+#: plugins.docbook:4361
 #, no-c-format
 msgid "JSON"
 msgstr "JSON"
 
 #. Tag: para
-#: plugins.docbook:4340
+#: plugins.docbook:4369
 #, no-c-format
 msgid "Dart - <command>dartfmt</command>"
 msgstr "डार्ट - <command>dartfmt</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4341
+#: plugins.docbook:4370
 #, no-c-format
 msgid "Rust - <command>rustfmt</command>"
 msgstr "जंग - <command>rustfmt</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4342
+#: plugins.docbook:4371
 #, no-c-format
 msgid "Go - <command>gofmt</command>"
 msgstr "गच्छ - <command>gofmt</command>"
 
 #. Tag: para
-#: plugins.docbook:4343
+#: plugins.docbook:4372
 #, no-c-format
 msgid "XML - <command>xmllint</command>"
 msgstr "XML - <आदेशः>xmllint</command>"
 
 #. Tag: para
-#: plugins.docbook:4344
+#: plugins.docbook:4373
 #, no-c-format
 msgid "Zig - <command>zigfmt</command>"
 msgstr "जिग् - <command>zigfmt</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4345
+#: plugins.docbook:4374
 #, no-c-format
 msgid "CMake - <command>cmake-format</command>"
 msgstr "CMake - <command>cmake-format</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4346
+#: plugins.docbook:4375
 #, no-c-format
 msgid "D - <command>dfmt</command>"
 msgstr "D - <command>dfmt</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4347
+#: plugins.docbook:4376
 #, no-c-format
 msgid "Fish Shell - <command>fish_indent</command>"
 msgstr "मत्स्यशैलम् - <command>fish_indent</command>"
 
 #. Tag: para
-#: plugins.docbook:4348
+#: plugins.docbook:4377
 #, no-c-format
 msgid "Bash - <command>shfmt</command>"
 msgstr "बश - <command>shfmt</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4349
+#: plugins.docbook:4378
 #, no-c-format
 msgid "Nix - <command>nixfmt</command>"
 msgstr "निक्स - <command>nixfmt</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4350
+#: plugins.docbook:4379
 #, no-c-format
 msgid "QML - <command>qmlformat</command>"
 msgstr "QML - <command>qmlformat</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4351
+#: plugins.docbook:4380
 #, no-c-format
 msgid "HTML - <command>prettier</command>"
 msgstr "HTML - <command>सुन्दरतरम्</command>"
 
 #. Tag: para
-#: plugins.docbook:4352
+#: plugins.docbook:4381
 #, no-c-format
 msgid "Swift - <command>swiftformat</command>"
 msgstr "स्विफ्ट - <command>swiftformat</command> इति"
 
 #. Tag: para
-#: plugins.docbook:4353
+#: plugins.docbook:4382
 #, no-c-format
 msgid "Erlang - <command>erlfmt</command>"
 msgstr "एर्लाङ्ग - <command>erlfmt</command>"
 
 #. Tag: para
-#: plugins.docbook:4354
+#: plugins.docbook:4383
 #, no-c-format
 msgid "Godot Script - <command>gdformat</command>"
 msgstr "गोडोट् स्क्रिप्ट् - <command>gdformat</command>"
 
 #. Tag: para
-#: plugins.docbook:4356
+#: plugins.docbook:4385
 #, no-c-format
 msgid "Python"
 msgstr "अजगर"
 
 #. Tag: para
-#: plugins.docbook:4363
+#: plugins.docbook:4392
 #, no-c-format
 msgid "YAML"
 msgstr "यम्ल"
 
 #. Tag: title
-#: plugins.docbook:4376
+#: plugins.docbook:4405
 #, no-c-format
 msgid "Configuring"
 msgstr "विन्यासः"
 
 #. Tag: para
-#: plugins.docbook:4378
+#: plugins.docbook:4407
 #, no-c-format
 msgid "The plugin can be configured in two ways:"
 msgstr "प्लगिन् द्विधा विन्यस्तुं शक्यते ।"
 
 #. Tag: para
-#: plugins.docbook:4380
+#: plugins.docbook:4409
 #, no-c-format
 msgid "Globally, from the Configure dialog"
 msgstr "वैश्विकरूपेण, Configure संवादात्"
 
 #. Tag: para
-#: plugins.docbook:4381
+#: plugins.docbook:4410
 #, no-c-format
 msgid "On a per project basis using the <filename>.kateproject</filename> file"
 msgstr "<filename>.kateproject</filename> सञ्चिकायाः उपयोगेन प्रतिप्रकल्पाधारेण"
 
 #. Tag: para
-#: plugins.docbook:4385
+#: plugins.docbook:4414
 #, no-c-format
 msgid ""
 "When reading the config, the plugin will first try to read the config from "
@@ -9210,7 +9255,7 @@ msgstr ""
 "प्रयतते ततः वैश्विकविन्यासं पठति । उदाहरण:"
 
 #. Tag: screen
-#: plugins.docbook:4389
+#: plugins.docbook:4418
 #, no-c-format
 msgid ""
 "{\n"
@@ -9236,31 +9281,31 @@ msgstr ""
 "} ."
 
 #. Tag: para
-#: plugins.docbook:4391
+#: plugins.docbook:4420
 #, no-c-format
 msgid "The above:"
 msgstr "उपरिष्टाद् :"
 
 #. Tag: para
-#: plugins.docbook:4393
+#: plugins.docbook:4422
 #, no-c-format
 msgid "enables \"format on save\" globally"
 msgstr "वैश्विकरूपेण \"format on save\" सक्षमं करोति"
 
 #. Tag: para
-#: plugins.docbook:4394
+#: plugins.docbook:4423
 #, no-c-format
 msgid "specifies \"jq\" as the formatter for JSON"
 msgstr "JSON कृते स्वरूपकरूपेण \"jq\" निर्दिशति"
 
 #. Tag: para
-#: plugins.docbook:4395
+#: plugins.docbook:4424
 #, no-c-format
 msgid "disables \"format on save\" for cmake-format and autopep8"
 msgstr "cmake-format तथा autopep8 कृते \"format on save\" निष्क्रियं करोति"
 
 #. Tag: para
-#: plugins.docbook:4399
+#: plugins.docbook:4428
 #, no-c-format
 msgid ""
 "To configure formatting for a project, first create a <filename>."
@@ -9274,7 +9319,7 @@ msgstr ""
 "शक्नोति । उदाहरण:"
 
 #. Tag: para
-#: plugins.docbook:4402
+#: plugins.docbook:4431
 #, no-c-format
 msgid ""
 "You need to enable the <link linkend=\"kate-application-plugin-projects"
@@ -9284,7 +9329,7 @@ msgstr ""
 "परियोजना प्लगिन्</link> एतस्य कार्यं कर्तुं"
 
 #. Tag: screen
-#: plugins.docbook:4404
+#: plugins.docbook:4433
 #, no-c-format
 msgid ""
 "{\n"
@@ -9318,13 +9363,13 @@ msgstr ""
 "} ."
 
 #. Tag: title
-#: plugins.docbook:4409
+#: plugins.docbook:4438
 #, no-c-format
 msgid "Temporarily disable format on save"
 msgstr "save इत्यत्र अस्थायीरूपेण प्रारूपं निष्क्रियं कुर्वन्तु"
 
 #. Tag: para
-#: plugins.docbook:4411
+#: plugins.docbook:4440
 #, no-c-format
 msgid ""
 "While working you will often need to disable the formatting for a short "
@@ -9337,6 +9382,57 @@ msgstr ""
 "भविष्यति । भवन्तः एतत् मेनूपट्टिकातः कर्तुं शक्नुवन्ति, <menuchoice><guimenu>उपकरणाः</"
 "guimenu> <guimenuitem>सञ्चय</guimenuitem></menuchoice> इत्यत्र प्रारूपं कुर्वन्तु । "
 "भवान् <guilabel>Command bar</guilabel> इत्यस्मात् अपि एतत् कार्यं प्रेरयितुं शक्नोति ।"
+
+#, fuzzy
+#~| msgid ""
+#~| "Use <userinput>${<replaceable>field_name</"
+#~| "replaceable>=<replaceable>text</replaceable>}</userinput> to specify a "
+#~| "fixed string as default value."
+#~ msgid ""
+#~ "Use quotes (<userinput>${<replaceable>field_name</"
+#~ "replaceable>=<replaceable>\"text\"</replaceable>}</userinput>) to specify "
+#~ "a fixed string as default value."
+#~ msgstr ""
+#~ "पूर्वनिर्धारितमूल्यरूपेण नियतं स्ट्रिंग् निर्दिष्टुं <userinput>"
+#~ "${<replaceable>field_name</replaceable>=<replaceable>text</replaceable>}</"
+#~ "userinput> इत्यस्य उपयोगं कुर्वन्तु ।"
+
+#~ msgid ""
+#~ "<userinput>${cursor}</userinput> can be used to mark the end position of "
+#~ "the cursor after everything else was filled in."
+#~ msgstr ""
+#~ "<userinput>${cursor}</userinput> इत्यस्य उपयोगेन अन्यत् सर्वं पूरितस्य अनन्तरं "
+#~ "कर्सरस्य अन्त्यस्थानं चिह्नितुं शक्यते ।"
+
+#, fuzzy
+#~| msgid ""
+#~| "Functions are called in a scope which contains the contents of all "
+#~| "editable template fields as local variables. For example in a snippet "
+#~| "containing <userinput>${<replaceable>field</replaceable>}</userinput>, a "
+#~| "variable called <userinput>field</userinput> will be present which "
+#~| "contains the up-to-date contents of the template field. Those variables "
+#~| "can either be used in the function statically or passed as arguments, by "
+#~| "using the <userinput>${func(field)}</userinput> or <userinput>"
+#~| "${<replaceable>field2=func(field)</replaceable>}</userinput> syntax in "
+#~| "the snippet string."
+#~ msgid ""
+#~ "The contents of all editable template fields are available as variables "
+#~ "in this scope. For example in a snippet containing <userinput>"
+#~ "${<replaceable>field</replaceable>}</userinput>, a variable called "
+#~ "<userinput>field</userinput> will be present which contains the up-to-"
+#~ "date contents of the template field. Those variables can either be used "
+#~ "in the function statically or passed as arguments, by using the "
+#~ "<userinput>${func(field)}</userinput> or <userinput>"
+#~ "${<replaceable>field2=func(field)</replaceable>}</userinput> syntax in "
+#~ "the snippet string."
+#~ msgstr ""
+#~ "फंक्शन्स् एकस्मिन् व्याप्ते आह्वयन्ति यस्मिन् सर्वेषां सम्पादनयोग्यानां टेम्पलेट् क्षेत्राणां "
+#~ "सामग्रीः स्थानीयचररूपेण भवति । यथा <userinput>${<replaceable>field</"
+#~ "replaceable>}</userinput> इति स्निपेट् मध्ये <userinput>field</userinput> इति "
+#~ "चरः उपस्थितः भविष्यति यस्मिन् अद्यतनसामग्रीः सन्ति टेम्पलेट क्षेत्र। ते चराः कार्ये "
+#~ "स्थिररूपेण उपयोक्तुं शक्यन्ते अथवा तर्करूपेण पारयितुं शक्यन्ते, <userinput>${func(field)}</"
+#~ "userinput> अथवा <userinput>${<replaceable>field2=func(field)</replaceable "
+#~ "इत्यस्य उपयोगेन >}</userinput> स्निपेट् स्ट्रिंग् मध्ये वाक्यविन्यासः ।"
 
 #~ msgid ""
 #~ "&kate; Snippets is a plugin used to save you some time by adding support "
