@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico_configuration\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-29 00:51+0000\n"
+"POT-Creation-Date: 2025-07-26 00:54+0000\n"
 "PO-Revision-Date: 2024-12-20 22:01+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -655,13 +655,20 @@ msgstr "एसआरयू सर्वर"
 
 #. Tag: para
 #: configuration.docbook:260
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "SRU stands for <ulink url=\"http://www.loc.gov/standards/sru/\">Search/"
+#| "Retrieve via &URL;</ulink> and is a standard search protocol for Internet "
+#| "searches. Some libraries use it for providing access to their data "
+#| "catalogs. Among them, the <ulink url=\"http://www.loc.gov/z3950/lcserver."
+#| "html#oppr\">US Library of Congress</ulink> is probably the best known."
 msgid ""
-"SRU stands for <ulink url=\"http://www.loc.gov/standards/sru/\">Search/"
-"Retrieve via &URL;</ulink> and is a standard search protocol for Internet "
-"searches. Some libraries use it for providing access to their data catalogs. "
-"Among them, the <ulink url=\"http://www.loc.gov/z3950/lcserver.html#oppr"
-"\">US Library of Congress</ulink> is probably the best known."
+"<acronym>SRU</acronym> stands for <ulink url=\"http://www.loc.gov/standards/"
+"sru/\">Search/Retrieve via &URL;</ulink> and is a standard search protocol "
+"for Internet searches. Some libraries use it for providing access to their "
+"data catalogs. Among them, the <ulink url=\"http://www.loc.gov/z3950/"
+"lcserver.html#oppr\">US Library of Congress</ulink> is probably the best "
+"known."
 msgstr ""
 "SRU इत्यस्य अर्थः <ulink url=\"http://www.loc.gov/standards/sru/\">Search/"
 "Retrieve via &URL;</ulink> इति भवति तथा च अन्तर्जाल-अन्वेषणानाम् एकः मानकः अन्वेषण-"
@@ -669,14 +676,29 @@ msgstr ""
 "<ulink url=\"http://www.loc.gov/z3950/lcserver.html#oppr\">अमेरिका-देशस्य "
 "काङ्ग्रेस-पुस्तकालयः</ulink> सम्भवतः सर्वाधिकं प्रसिद्धः अस्ति ।"
 
+#. Tag: para
+#: configuration.docbook:265
+#, no-c-format
+msgid ""
+"Custom fields can be added to tweak Tellico's interaction with the SRU "
+"server. To override particular query protocols, use the x-tellico prefix and "
+"the desired field name. For example, to query ISBN using the bib schema "
+"instead of the bath schema, set <userinput>x-tellico-isbn</"
+"userinput>=<userinput>bib.isbn</userinput>. &tellico; can also make the SRU "
+"request by the POST method, if <userinput>x-tellico-method</"
+"userinput>=<userinput>POST</userinput>. In order to override the record "
+"schema, add a custom field setting <userinput>recordSchema</"
+"userinput>=<userinput>unimarcXchange</userinput>."
+msgstr ""
+
 #. Tag: title
-#: configuration.docbook:275
+#: configuration.docbook:281
 #, no-c-format
 msgid "Entrez Databases"
 msgstr "Entrez डाटाबेस"
 
 #. Tag: para
-#: configuration.docbook:276
+#: configuration.docbook:282
 #, no-c-format
 msgid ""
 "<ulink url=\"http://www.ncbi.nlm.nih.gov/Entrez/\">Entrez</ulink> is the "
@@ -695,13 +717,13 @@ msgstr ""
 "पब्मेड् इति ।"
 
 #. Tag: title
-#: configuration.docbook:281
+#: configuration.docbook:287
 #, no-c-format
 msgid "Bibliographic Databases"
 msgstr "ग्रन्थसूची दत्तांशकोश"
 
 #. Tag: para
-#: configuration.docbook:282
+#: configuration.docbook:288
 #, no-c-format
 msgid ""
 "<ulink url=\"http://arxiv.org\">arXiv.org</ulink>, <ulink url=\"http://"
@@ -719,13 +741,13 @@ msgstr ""
 "सूचनां योजयितव्यम् ।"
 
 #. Tag: title
-#: configuration.docbook:287
+#: configuration.docbook:293
 #, no-c-format
 msgid "ISBNdb.com"
 msgstr "ISBNdb.com"
 
 #. Tag: para
-#: configuration.docbook:288
+#: configuration.docbook:294
 #, no-c-format
 msgid ""
 "<ulink url=\"http://isbndb.com\">ISBNdb.com</ulink> is an online book "
@@ -735,13 +757,13 @@ msgstr ""
 "पुस्तकदत्तांशकोशः, विश्वस्य पुस्तकालयेभ्यः ।"
 
 #. Tag: title
-#: configuration.docbook:294
+#: configuration.docbook:300
 #, no-c-format
 msgid "OpenLibrary.org"
 msgstr "OpenLibrary.org इति पुस्तकालयः"
 
 #. Tag: para
-#: configuration.docbook:295
+#: configuration.docbook:301
 #, no-c-format
 msgid ""
 "<ulink url=\"http://openlibrary.org\">OpenLibrary.org</ulink> is an online "
@@ -751,13 +773,13 @@ msgstr ""
 "पुस्तकदत्तांशकोशः अस्ति यस्य उद्देश्यं प्रत्येकं पुस्तकस्य कृते एकं पृष्ठं भवति ।"
 
 #. Tag: title
-#: configuration.docbook:301
+#: configuration.docbook:307
 #, no-c-format
 msgid "OPDS Catalogs"
 msgstr "ओपीडीएस कैटलॉग्स"
 
 #. Tag: para
-#: configuration.docbook:302
+#: configuration.docbook:308
 #, no-c-format
 msgid ""
 "<ulink url=\"https://en.wikipedia.org/wiki/"
@@ -775,19 +797,19 @@ msgstr ""
 "शक्नुवन्ति।"
 
 #. Tag: title
-#: configuration.docbook:314
+#: configuration.docbook:320
 #, no-c-format
 msgid "Comic Book Data Sources"
 msgstr "हास्यपुस्तकस्य आँकडा स्रोतः"
 
 #. Tag: title
-#: configuration.docbook:317
+#: configuration.docbook:323
 #, no-c-format
 msgid "Bedetheque"
 msgstr "बेदेथेक॰"
 
 #. Tag: para
-#: configuration.docbook:318
+#: configuration.docbook:324
 #, no-c-format
 msgid ""
 "<ulink url=\"http://www.bedetheque.com\">Bedetheque</ulink> is a French "
@@ -797,13 +819,13 @@ msgstr ""
 "हास्यपुस्तकदत्तांशकोशः, यस्य प्रबन्धनं BDGest इत्यनेन क्रियते ।"
 
 #. Tag: title
-#: configuration.docbook:324
+#: configuration.docbook:330
 #, no-c-format
 msgid "Comic Vine"
 msgstr "हास्य बेल"
 
 #. Tag: para
-#: configuration.docbook:325
+#: configuration.docbook:331
 #, no-c-format
 msgid ""
 "<ulink url=\"https://comicvine.gamespot.com/\">Comic Vine</ulink> is billed "
@@ -813,19 +835,19 @@ msgstr ""
 "बृहत्तमः हास्यपुस्तकविकी इति बिलम् अस्ति ।"
 
 #. Tag: title
-#: configuration.docbook:334
+#: configuration.docbook:340
 #, no-c-format
 msgid "Movie Data Sources"
 msgstr "चलचित्रस्य आँकडा स्रोतः"
 
 #. Tag: title
-#: configuration.docbook:337
+#: configuration.docbook:343
 #, no-c-format
 msgid "Internet Movie Database"
 msgstr "अन्तर्जालचलच्चित्रदत्तांशकोशः"
 
 #. Tag: para
-#: configuration.docbook:339
+#: configuration.docbook:345
 #, no-c-format
 msgid ""
 "The <ulink url=\"http://www.imdb.com\">Internet Movie Database</ulink> "
@@ -844,13 +866,13 @@ msgstr ""
 "सदस्यान् प्रत्यागन्तुं शक्नोति, तस्मात् भवान् तत् निश्चितसङ्ख्यायां सीमितुं शक्नोति ।"
 
 #. Tag: title
-#: configuration.docbook:352
+#: configuration.docbook:358
 #, no-c-format
 msgid "TheMovieDB.org"
 msgstr "TheMovieDB.org इति चलच्चित्रम्"
 
 #. Tag: para
-#: configuration.docbook:353
+#: configuration.docbook:359
 #, no-c-format
 msgid ""
 "<ulink url=\"http://themoviedb.org\">TheMovieDB.org</ulink> is a free and "
@@ -860,13 +882,13 @@ msgstr ""
 "ऑनलाइन-चलच्चित्रदत्तांशकोशम् अस्ति । निःशुल्कखातेः पञ्जीकरणं आवश्यकम् अस्ति।"
 
 #. Tag: title
-#: configuration.docbook:359
+#: configuration.docbook:365
 #, no-c-format
 msgid "The Open Movie Database"
 msgstr "मुक्तचलचित्रदत्तांशकोशः"
 
 #. Tag: para
-#: configuration.docbook:360
+#: configuration.docbook:366
 #, no-c-format
 msgid ""
 "<ulink url=\"http://omdbapi.com\">The Open Movie Database (OMDBAPI.com)</"
@@ -876,13 +898,13 @@ msgstr ""
 "चलच्चित्रसूचनाः प्राप्तुं निःशुल्कं जालसेवा अस्ति ।"
 
 #. Tag: title
-#: configuration.docbook:366
+#: configuration.docbook:372
 #, no-c-format
 msgid "FilmAffinity"
 msgstr "FilmAffinity इति"
 
 #. Tag: para
-#: configuration.docbook:367
+#: configuration.docbook:373
 #, no-c-format
 msgid ""
 "<ulink url=\"https://filmaffinity.com\">FilmAffinity</ulink> is an "
@@ -892,19 +914,19 @@ msgstr ""
 "चलच्चित्रस्थलम् अस्ति ।"
 
 #. Tag: title
-#: configuration.docbook:376
+#: configuration.docbook:382
 #, no-c-format
 msgid "Music Data Sources"
 msgstr "संगीतदत्तांशस्रोताः"
 
 #. Tag: title
-#: configuration.docbook:379
+#: configuration.docbook:385
 #, no-c-format
 msgid "Discogs.com"
 msgstr "डिस्कोग्स् डॉट कॉम"
 
 #. Tag: para
-#: configuration.docbook:380
+#: configuration.docbook:386
 #, no-c-format
 msgid ""
 "<ulink url=\"http://discogs.com\">Discogs.com</ulink> is a user-built music "
@@ -916,13 +938,13 @@ msgstr ""
 "निःशुल्कखातेः पञ्जीकरणं आवश्यकम् अस्ति।"
 
 #. Tag: title
-#: configuration.docbook:386
+#: configuration.docbook:392
 #, no-c-format
 msgid "MusicBrainz.org"
 msgstr "MusicBrainz.org"
 
 #. Tag: para
-#: configuration.docbook:387
+#: configuration.docbook:393
 #, no-c-format
 msgid ""
 "<ulink url=\"http://musicbrainz.org\">MusicBrainz.org</ulink> is a community "
@@ -933,19 +955,19 @@ msgstr ""
 "सामुदायिकसङ्गीतमेटाडाटाबेस् अस्ति यः व्यापकं सङ्गीतसूचनास्थलं निर्मातुं प्रयतते ।"
 
 #. Tag: title
-#: configuration.docbook:402
+#: configuration.docbook:408
 #, no-c-format
 msgid "Video Game Data Sources"
 msgstr "वीडियो गेम डाटा स्रोतः"
 
 #. Tag: title
-#: configuration.docbook:405
+#: configuration.docbook:411
 #, no-c-format
 msgid "GiantBomb.com"
 msgstr "GiantBomb.com"
 
 #. Tag: para
-#: configuration.docbook:406
+#: configuration.docbook:412
 #, no-c-format
 msgid ""
 "<ulink url=\"http://giantbomb.com\">GiantBomb.com</ulink> is a large "
@@ -956,13 +978,13 @@ msgstr ""
 "सञ्चालितः विडियो-क्रीडा-दत्तांशकोशः अस्ति । निःशुल्कखातेः पञ्जीकरणं आवश्यकम् अस्ति।"
 
 #. Tag: title
-#: configuration.docbook:412
+#: configuration.docbook:418
 #, no-c-format
 msgid "TheGamesDB.net"
 msgstr "TheGamesDB.net"
 
 #. Tag: para
-#: configuration.docbook:413
+#: configuration.docbook:419
 #, no-c-format
 msgid ""
 "<ulink url=\"http://thegamesdb.net\">TheGamesDB.net</ulink> is an open, "
@@ -972,13 +994,13 @@ msgstr ""
 "प्रशंसकानां कृते एकः मुक्तः, ऑनलाइन-दत्तांशकोशः अस्ति ।"
 
 #. Tag: title
-#: configuration.docbook:419
+#: configuration.docbook:425
 #, no-c-format
 msgid "MobyGames"
 msgstr "मोबीगेम्स"
 
 #. Tag: para
-#: configuration.docbook:420
+#: configuration.docbook:426
 #, no-c-format
 msgid ""
 "<ulink url=\"https://www.mobygames.com\">MobyGames.com</ulink> is self-"
@@ -988,13 +1010,13 @@ msgstr ""
 "प्राचीनतमः, बृहत्तमः, सटीकतमः च विडियो गेम डाटाबेस् इति वर्णितः अस्ति ।"
 
 #. Tag: title
-#: configuration.docbook:426
+#: configuration.docbook:432
 #, no-c-format
 msgid "IGDB.com"
 msgstr "आईजीडीबी डॉट कॉम"
 
 #. Tag: para
-#: configuration.docbook:427
+#: configuration.docbook:433
 #, no-c-format
 msgid ""
 "<ulink url=\"https://www.igdb.com\">IGDB.com</ulink> calls itself a gaming "
@@ -1004,13 +1026,13 @@ msgstr ""
 "कृते गेमिंग् वेबसाइट् इति कथयति ।"
 
 #. Tag: title
-#: configuration.docbook:433
+#: configuration.docbook:439
 #, no-c-format
 msgid "VideoGameGeek"
 msgstr "VideoGameGeek"
 
 #. Tag: para
-#: configuration.docbook:434
+#: configuration.docbook:440
 #, no-c-format
 msgid ""
 "<ulink url=\"https://videogamegeek.com\">VideoGameGeek</ulink> is an online "
@@ -1020,19 +1042,19 @@ msgstr ""
 "ऑनलाइन-वीडियो-खेल-संसाधनः समुदायः च अस्ति ।"
 
 #. Tag: title
-#: configuration.docbook:443
+#: configuration.docbook:449
 #, no-c-format
 msgid "Board Game Data Sources"
 msgstr "बोर्ड गेम डाटा स्रोत"
 
 #. Tag: title
-#: configuration.docbook:446
+#: configuration.docbook:452
 #, no-c-format
 msgid "BoardGameGeek"
 msgstr "बोर्डगेमगीक"
 
 #. Tag: para
-#: configuration.docbook:447
+#: configuration.docbook:453
 #, no-c-format
 msgid ""
 "<ulink url=\"https://boardgamegeek.com\">BoardGameGeek</ulink> is an online "
@@ -1042,19 +1064,19 @@ msgstr ""
 "ऑनलाइन बोर्ड गेमिंग् संसाधनः समुदायः च अस्ति ।"
 
 #. Tag: title
-#: configuration.docbook:456
+#: configuration.docbook:462
 #, no-c-format
 msgid "Coin &amp; Stamp Data Sources"
 msgstr "सिक्का &amp; डाक टिकट दत्तांशस्रोता"
 
 #. Tag: title
-#: configuration.docbook:459
+#: configuration.docbook:465
 #, no-c-format
 msgid "Colnect"
 msgstr "संकलित करें"
 
 #. Tag: para
-#: configuration.docbook:460
+#: configuration.docbook:466
 #, no-c-format
 msgid ""
 "<ulink url=\"https://colnect.com\">Colnect</ulink> is an online community "
@@ -1067,13 +1089,13 @@ msgstr ""
 "सूचनां, तथैव हास्यपुस्तकानि, क्रीडापत्तेः, वीडियोक्रीडा च Colnect इत्यत्र अन्वेष्टुं शक्नुवन्ति ।"
 
 #. Tag: title
-#: configuration.docbook:467
+#: configuration.docbook:473
 #, no-c-format
 msgid "Numista"
 msgstr "नुमिस्ता"
 
 #. Tag: para
-#: configuration.docbook:468
+#: configuration.docbook:474
 #, no-c-format
 msgid ""
 "<ulink url=\"https://numista.com\">Numista</ulink> is a world coin catalog "
@@ -1085,19 +1107,19 @@ msgstr ""
 "आदानप्रदानार्थं साधनानि, मञ्चं च प्रदाति"
 
 #. Tag: title
-#: configuration.docbook:477
+#: configuration.docbook:483
 #, no-c-format
 msgid "Data Sources for Multiple Collection Types"
 msgstr "बहुसंग्रहप्रकारस्य कृते आँकडास्रोताः"
 
 #. Tag: title
-#: configuration.docbook:480
+#: configuration.docbook:486
 #, no-c-format
 msgid "Amazon.com"
 msgstr "अमेजन डॉट कॉम"
 
 #. Tag: para
-#: configuration.docbook:482
+#: configuration.docbook:488
 #, no-c-format
 msgid ""
 "Using the Amazon Web Services, &appname; can search any of 14 different "
@@ -1112,7 +1134,7 @@ msgstr ""
 "चीन, स्पेन्, इटली, ब्राजील्, आस्ट्रेलिया, भारतं, मेक्सिको, तुर्की च ।"
 
 #. Tag: para
-#: configuration.docbook:493
+#: configuration.docbook:499
 #, no-c-format
 msgid ""
 "Configuring each Amazon.com source involves three settings: the server "
@@ -1131,7 +1153,7 @@ msgstr ""
 "उपयोगाय अनुज्ञापत्रसम्झौतेन निर्दिष्टं, द्रव्यस्य पुनः लिङ्केषु समाविष्टम् अस्ति"
 
 #. Tag: para
-#: configuration.docbook:498
+#: configuration.docbook:504
 #, no-c-format
 msgid ""
 "Access to the <ulink url=\"https://docs.aws.amazon.com/AWSECommerceService/"
@@ -1145,13 +1167,13 @@ msgstr ""
 "पञ्जीकरणं कुर्वन् अधिकसूचनार्थं Amazon-दस्तावेजं पश्यन्तु ।"
 
 #. Tag: title
-#: configuration.docbook:504
+#: configuration.docbook:510
 #, no-c-format
 msgid "External Scripts or Applications"
 msgstr "बाह्यलिपिः अथवा अनुप्रयोगाः"
 
 #. Tag: para
-#: configuration.docbook:505
+#: configuration.docbook:511
 #, no-c-format
 msgid ""
 "As an easier way for &appname; to integrate with third-party plugins, "
@@ -1164,7 +1186,7 @@ msgstr ""
 "अन्वेषणपदानि च आदेशपङ्क्तिविकल्परूपेण पारयिष्यति ।"
 
 #. Tag: para
-#: configuration.docbook:509
+#: configuration.docbook:515
 #, no-c-format
 msgid ""
 "Some scripts are distributed with &appname; itself. <ulink url=\"http://"
@@ -1177,7 +1199,7 @@ msgstr ""
 "ulink> इत्यस्य अन्वेषणार्थम् आवश्यकम्, उदाहरणतया।"
 
 #. Tag: para
-#: configuration.docbook:518
+#: configuration.docbook:524
 #, no-c-format
 msgid ""
 "The collection type returned by the script must be set, along with the data "
@@ -1191,7 +1213,7 @@ msgstr ""
 "आयातयितुं शक्नोति, यथा bibtex ।"
 
 #. Tag: para
-#: configuration.docbook:523
+#: configuration.docbook:529
 #, no-c-format
 msgid ""
 "The full path to the application should be entered in the source options. "
@@ -1204,7 +1226,7 @@ msgstr ""
 "। यत्र <userinput>%1</userinput> दृश्यते तत्र अन्वेषणमूल्यं निवेशितं भविष्यति ।"
 
 #. Tag: para
-#: configuration.docbook:527
+#: configuration.docbook:533
 #, no-c-format
 msgid ""
 "Never install and run a script from an untrusted source. They are executed "
@@ -1216,7 +1238,7 @@ msgstr ""
 "प्रणालीं गड़बड़ं कर्तुं वा शक्नुवन्ति ।"
 
 #. Tag: para
-#: configuration.docbook:533
+#: configuration.docbook:539
 #, no-c-format
 msgid ""
 "For updating entries already in the collection, the final check box and edit "
@@ -1230,13 +1252,13 @@ msgstr ""
 "link> क्षेत्राणि ।"
 
 #. Tag: title
-#: configuration.docbook:541
+#: configuration.docbook:547
 #, no-c-format
 msgid "Multiple Combined Data Sources"
 msgstr "बहुसंयुक्तदत्तांशस्रोताः"
 
 #. Tag: para
-#: configuration.docbook:542
+#: configuration.docbook:548
 #, no-c-format
 msgid ""
 "Combinations of up to eight existing data sources can be used as a single "
@@ -1249,7 +1271,7 @@ msgstr ""
 "संग्रहप्रकारः सेट् कर्तव्यः ।"
 
 #. Tag: para
-#: configuration.docbook:552
+#: configuration.docbook:558
 #, no-c-format
 msgid ""
 "Only existing data sources can be used in combination. Only the search type "
