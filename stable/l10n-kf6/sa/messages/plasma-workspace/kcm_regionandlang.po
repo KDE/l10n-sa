@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-13 02:39+0000\n"
+"POT-Creation-Date: 2025-09-07 00:44+0000\n"
 "PO-Revision-Date: 2024-12-20 12:26+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -252,7 +252,7 @@ msgctxt ""
 msgid "Could not find an example for this locale"
 msgstr "अस्य लोकेलस्य उदाहरणं न प्राप्नोत्"
 
-#: kcmregionandlang.cpp:129
+#: glibclocaleconstructor.cpp:164
 #, kde-kuit-format
 msgctxt "@info this will be shown as an error message"
 msgid ""
@@ -264,13 +264,13 @@ msgstr ""
 "उपकरण। कृपया अस्य विषये दोषप्रतिवेदनं अत्र दाखिलं कुर्वन्तु<link> https://bugs.kde.org "
 "इत्यत्र</link>"
 
-#: languagelistmodel.cpp:94
+#: languagelistmodel.cpp:95
 #, kde-format
 msgctxt "%1 is language name, %2 is language code name"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: languagelistmodel.cpp:100
+#: languagelistmodel.cpp:101
 #, kde-format
 msgctxt ""
 "%1 is português in system locale name, Brazil is to distinguish European "
@@ -285,21 +285,25 @@ msgid "Can't locate executable `check-language-support`"
 msgstr "कार्यान्वयनीय `check-language-support` इति स्थानं ज्ञातुं न शक्नोति"
 
 #: localegeneratorubuntu.cpp:56
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "the arg is the output of failed check-language-support call"
+#| msgid "check-language-support failed, output: %1"
 msgctxt "the arg is the output of failed check-language-support call"
-msgid "check-language-support failed, output: %1"
+msgid "check-language-support failed, output: %1 %2"
 msgstr "check-language-support विफलम्, आउटपुट्: %1"
 
-#: localegeneratorubuntu.cpp:87
+#: localegeneratorubuntu.cpp:88
 #, kde-format
 msgctxt "%1 is a list of package names"
 msgid "Not all missing packages managed to resolve! %1"
 msgstr "सर्वे अनुपलब्धाः संकुलाः समाधानं कर्तुं सफलाः न अभवन्! %1"
 
-#: localegeneratorubuntu.cpp:93
-#, kde-format
-msgctxt "%1 is a list of package names"
-msgid "Failed to install package %1"
+#: localegeneratorubuntu.cpp:96
+#, fuzzy, kde-format
+#| msgctxt "%1 is a list of package names"
+#| msgid "Failed to install package %1"
+msgctxt "%1 is a list of package names, %2 is the error explanation"
+msgid "Failed to install language packages (%1): %2"
 msgstr "%1 संकुलं संस्थापनं कर्तुं असफलम्"
 
 #: localegenhelper/localegenhelper.cpp:45
@@ -327,17 +331,17 @@ msgstr "कार्यान्वयनीय `locale-gen` इति स्थ
 msgid "Unknown"
 msgstr "अज्ञात"
 
-#: localelistmodel.cpp:22
+#: localelistmodel.cpp:24
 #, kde-format
 msgid "Default for System"
 msgstr "System कृते पूर्वनिर्धारितम्"
 
-#: localelistmodel.cpp:22 localelistmodel.cpp:71 ui/main.qml:383
+#: localelistmodel.cpp:24 localelistmodel.cpp:146 ui/main.qml:387
 #, kde-format
 msgid "Default"
 msgstr "मूलभूतम्‌"
 
-#: localelistmodel.cpp:67
+#: localelistmodel.cpp:142
 #, kde-format
 msgctxt ""
 "the first is language name, the second is the country name, like 'English "
@@ -345,14 +349,14 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: localelistmodel.cpp:154
+#: localelistmodel.cpp:229
 #, kde-format
 msgctxt ""
 "@info:title, meaning the current locale is system default(which is `C`)"
 msgid "System Default C"
 msgstr "प्रणाली पूर्वनिर्धारित C"
 
-#: localelistmodel.cpp:157
+#: localelistmodel.cpp:232
 #, kde-format
 msgctxt ""
 "@info:title the current locale is the default for %1, %1 is the country name"
@@ -486,43 +490,43 @@ msgstr "\"%1\" इति भाषा असमर्थिता अस्त�
 msgid "Add languages in the order you want to see them in your applications."
 msgstr "यथाक्रमं भवन्तः स्वस्य अनुप्रयोगेषु द्रष्टुम् इच्छन्ति तथा भाषाः योजयन्तु।"
 
-#: ui/AdvancedLanguageSelectPage.qml:96
+#: ui/AdvancedLanguageSelectPage.qml:100
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Change Language"
 msgstr "भाषा परिवर्तयतु"
 
-#: ui/AdvancedLanguageSelectPage.qml:100
+#: ui/AdvancedLanguageSelectPage.qml:104
 #, kde-format
 msgctxt "@title:window"
 msgid "Change Language"
 msgstr "भाषा परिवर्तयतु"
 
-#: ui/AdvancedLanguageSelectPage.qml:111
+#: ui/AdvancedLanguageSelectPage.qml:113
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move to top"
 msgstr "उपरि गच्छन्तु"
 
-#: ui/AdvancedLanguageSelectPage.qml:117
+#: ui/AdvancedLanguageSelectPage.qml:122
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Remove"
 msgstr "अपाकरोति"
 
-#: ui/AdvancedLanguageSelectPage.qml:130
+#: ui/AdvancedLanguageSelectPage.qml:137
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "No Language Configured"
 msgstr "कोऽपि भाषा विन्यस्तः नास्ति"
 
-#: ui/AdvancedLanguageSelectPage.qml:172 ui/AdvancedLanguageSelectPage.qml:206
+#: ui/AdvancedLanguageSelectPage.qml:179 ui/AdvancedLanguageSelectPage.qml:213
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Languages"
 msgstr "भाषाः योजयतु"
 
-#: ui/AdvancedLanguageSelectPage.qml:229
+#: ui/AdvancedLanguageSelectPage.qml:236
 #, kde-format
 msgctxt "@action:button"
 msgid "Add More…"
@@ -570,56 +574,56 @@ msgstr ""
 "आवश्यकाः स्थानीयाः भाषासमर्थनसञ्चिकाः च संस्थापिताः सन्ति । इदानीं सङ्गणकं निष्क्रियं कर्तुं "
 "सुरक्षितम् अस्ति ।"
 
-#: ui/main.qml:175
+#: ui/main.qml:179
 #, kde-format
 msgctxt "@action:button for change the locale used"
 msgid "Modify…"
 msgstr "परिवर्तनं कुर्वन्तु..."
 
-#: ui/main.qml:211
+#: ui/main.qml:215
 #, kde-format
 msgctxt "@title:window"
 msgid "Data and Storage Sizes"
 msgstr "आँकडा तथा भण्डारण आकार"
 
-#: ui/main.qml:277
+#: ui/main.qml:281
 #, kde-format
 msgid "Numbers"
 msgstr "संख्याः"
 
-#: ui/main.qml:279
+#: ui/main.qml:283
 #, kde-format
 msgid "Time"
 msgstr "कालः"
 
-#: ui/main.qml:281
+#: ui/main.qml:285
 #, kde-format
 msgid "Currency"
 msgstr "मुद्रा"
 
-#: ui/main.qml:283
+#: ui/main.qml:287
 #, kde-format
 msgid "Measurements"
 msgstr "मापनम्"
 
-#: ui/main.qml:285
+#: ui/main.qml:289
 #, kde-format
 msgid "Paper Size"
 msgstr "कागदस्य आकारः"
 
-#: ui/main.qml:287
+#: ui/main.qml:291
 #, kde-format
 msgctxt "Postal Address"
 msgid "Address"
 msgstr "पत्रसङ्केतः"
 
-#: ui/main.qml:289
+#: ui/main.qml:293
 #, kde-format
 msgctxt "Name Style"
 msgid "Name"
 msgstr "नामः"
 
-#: ui/main.qml:291
+#: ui/main.qml:295
 #, kde-format
 msgctxt "Phone Numbers"
 msgid "Phone number"

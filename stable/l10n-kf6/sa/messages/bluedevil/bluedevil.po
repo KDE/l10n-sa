@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bluedevil\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-28 02:38+0000\n"
+"POT-Creation-Date: 2025-08-10 00:44+0000\n"
 "PO-Revision-Date: 2024-12-24 20:39+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -28,6 +28,24 @@ msgstr "श्रीकान्त् कलवार्"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "skkalwar999@gmail.com"
+
+#: applet/devicesproxymodel.cpp:51
+#, kde-format
+msgctxt "@title:column Blocked Bluetooth devices"
+msgid "Blocked"
+msgstr ""
+
+#: applet/devicesproxymodel.cpp:54
+#, kde-format
+msgctxt "@title:column Connected Bluetooth devices"
+msgid "Connected"
+msgstr ""
+
+#: applet/devicesproxymodel.cpp:56
+#, kde-format
+msgctxt "@title:column Available but not connected Bluetooth devices"
+msgid "Available"
+msgstr ""
 
 #: applet/devicesstateproxymodel.cpp:273
 #, kde-format
@@ -54,11 +72,18 @@ msgctxt "Notification when the connection failed due to NotReady"
 msgid "The device is not ready"
 msgstr "यन्त्रं सज्जं नास्ति"
 
-#: kcm/bluetooth.cpp:104
+#: kcm/bluetooth.cpp:129
 #, kde-format
 msgctxt "DeviceName Network (Service)"
 msgid "%1 Network (%2)"
 msgstr "%1 संजाल (%2) ."
+
+#: kcm/bluetoothmoduledata.cpp:20
+#, fuzzy, kde-format
+#| msgid "Sending file over Bluetooth"
+msgctxt "@info:tooltip"
+msgid "Enable Bluetooth"
+msgstr "ब्लूटूथ् मार्गेण सञ्चिकां प्रेषयति"
 
 #: kded/bluedevildaemon.cpp:68 kded/bluedevildaemon.cpp:70
 #, kde-format
@@ -288,12 +313,12 @@ msgstr "दूरभाषस्मृतिः"
 msgid "External memory"
 msgstr "बाह्यस्मृतिः"
 
-#: sendfile/discoverwidget.cpp:134 wizard/pages/discover.cpp:353
+#: sendfile/discoverwidget.cpp:134 wizard/pages/discover.cpp:378
 #, kde-format
 msgid "Bluetooth is disabled."
 msgstr "ब्लूटूथ् अक्षमम् अस्ति।"
 
-#: sendfile/discoverwidget.cpp:135 wizard/pages/discover.cpp:354
+#: sendfile/discoverwidget.cpp:135 wizard/pages/discover.cpp:379
 #, kde-format
 msgctxt "Action to enable Bluetooth adapter"
 msgid "Enable"
@@ -432,23 +457,23 @@ msgstr "समापन"
 msgid "Add Bluetooth Device"
 msgstr "Bluetooth Device योजयन्तु"
 
-#: wizard/pages/discover.cpp:147
+#: wizard/pages/discover.cpp:170
 #, kde-format
 msgid "Select a device"
 msgstr "एकं यन्त्रं चिनोतु"
 
-#: wizard/pages/discover.cpp:346
+#: wizard/pages/discover.cpp:371
 #, kde-format
 msgctxt "Action to fix a problem"
 msgid "Fix it"
 msgstr "तत् समाधातु"
 
-#: wizard/pages/discover.cpp:356
+#: wizard/pages/discover.cpp:381
 #, kde-format
 msgid "Your Bluetooth adapter is not pairable."
 msgstr "भवतः Bluetooth एडाप्टर युग्मनीयः नास्ति।"
 
-#: wizard/pages/discover.cpp:357
+#: wizard/pages/discover.cpp:382
 #, kde-format
 msgctxt "Action to make Bluetooth adapter pairable"
 msgid "Make Pairable"
@@ -460,20 +485,26 @@ msgstr "युग्मनीयं कुरुत"
 msgid "Search…"
 msgstr "अन्वेषण…"
 
+#. i18n: ectx: property (text), widget (QCheckBox, showUnnamedDevicesCheckBox)
+#: wizard/pages/discover.ui:42
+#, kde-format
+msgid "Show unnamed devices"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: wizard/pages/discover.ui:64
+#: wizard/pages/discover.ui:71
 #, kde-format
 msgid "Scanning…"
 msgstr "स्कैनिङ्ग…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, manualPin)
-#: wizard/pages/discover.ui:84
+#: wizard/pages/discover.ui:91
 #, kde-format
 msgid "Manual PIN:"
 msgstr "मैनुअल पिन: ."
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, pinText)
-#: wizard/pages/discover.ui:112
+#: wizard/pages/discover.ui:119
 #, kde-format
 msgid "0000"
 msgstr "0000 इति"

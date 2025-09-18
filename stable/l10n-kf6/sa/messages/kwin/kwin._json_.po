@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-05-01 00:51+0000\n"
+"POT-Creation-Date: 2025-09-04 00:52+0000\n"
 "PO-Revision-Date: 2024-12-13 19:10+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -69,17 +69,16 @@ msgctxt "X-KDE-Keywords"
 msgid ""
 "kwin,window,manager,effect,3D effects,2D effects,graphical effects,desktop "
 "effects,animations,various animations,window management effects,animations,"
-"desktop animations,rendering,render,invert effect,looking glass effect,"
-"magnifier effect,snap helper effect,track mouse effect,zoom effect,blur "
-"effect,fall apart effect,highlight window effect,mouse mark effect,"
+"desktop animations,rendering,render,snap helper effect,track mouse effect,"
+"blur effect,fall apart effect,highlight window effect,mouse mark effect,"
 "screenshot effect,sheet effect,thumbnail aside effect,translucency,"
 "translucency effect,transparency,window geometry effect,wobbly windows "
 "effect,startup feedback effect,dialog parent effect,dim inactive effect,dim "
-"screen effect,slide back effect,eye candy,candy,show FPS effect,show paint "
-"effect,cover switch effect,desktop cube effect,desktop cube animation effect,"
-"desktop grid effect,background contrast effect,bling,fading,movement,motion,"
-"overview windows effect,accessibility,cursor,pointer,mouse,hide cursor,hide "
-"cursor effect,hide pointer,hide pointer effect,hide mouse,hide mouse effect"
+"screen effect,slide back effect,eye candy,candy,cover switch effect,desktop "
+"cube effect,desktop cube animation effect,desktop grid effect,background "
+"contrast effect,bling,fading,movement,motion,overview windows effect,"
+"accessibility,cursor,pointer,mouse,hide cursor,hide cursor effect,hide "
+"pointer,hide pointer effect,hide mouse,hide mouse effect"
 msgstr ""
 "kwin,विंडो,प्रबंधक,प्रभाव,3D प्रभाव,2D प्रभाव,ग्राफिकल प्रभाव,डेस्कटॉप प्रभाव,एनीमेशन,"
 "विभिन्न एनीमेशन,विंडो प्रबंधन प्रभाव,विंडो स्विचिंग प्रभाव,डेस्कटॉप स्विचिंग प्रभाव,एनीमेशन,"
@@ -98,11 +97,17 @@ msgstr ""
 "छिपाओ,माउस छिपाओ,माउस प्रभाव छिपाओ"
 
 #: src/kcms/options/kcm_kwinoptions.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid ""
+#| "focus,placement,window behavior,window actions,animation,raise,auto raise,"
+#| "windows,frame,titlebar,doubleclick,desktop,snap,movement,shading,shade,"
+#| "unshade,unshading,activation,activate"
 msgctxt "X-KDE-Keywords"
 msgid ""
 "focus,placement,window behavior,window actions,animation,raise,auto raise,"
-"windows,frame,titlebar,doubleclick,desktop,snap,movement,shading,shade,"
-"unshade,unshading,activation,activate"
+"windows,frame,titlebar,doubleclick,desktop,snap,movement,activation,activate,"
+"pip,picture in picture,picture-in-picture"
 msgstr ""
 "फोकस,प्लेसमेंट,विंडो व्यवहार,विंडो क्रियाएँ,एनीमेशन,उत्थापन,स्वयं उठाना,विंडोज,फ्रेम,"
 "शीर्षकपट्टी,डबलक्लिक,डेस्कटॉप,स्नैप,मूवमेंट,छायाकरण,छाया,अनशेड,अनशेडिंग,सक्रियता,सक्रिय"
@@ -225,11 +230,6 @@ msgstr "आभासी कीबोर्ड"
 msgctxt "Name"
 msgid "Legacy X11 App Support"
 msgstr "विरासत X11 एप्लिकेशन समर्थन"
-
-#: src/plugins/backgroundcontrast/metadata.json
-msgctxt "Name"
-msgid "Background Contrast"
-msgstr "पृष्ठभूमि विपरीतता"
 
 #: src/plugins/blendchanges/metadata.json
 msgctxt "Name"
@@ -385,11 +385,6 @@ msgstr "मापन"
 msgctxt "Name"
 msgid "Highlight Screen Edges and Hot Corners"
 msgstr "स्क्रीन एज्स् तथा हॉट् कॉर्नर् हाइलाइट् कुर्वन्तु"
-
-#: src/plugins/screenshot/metadata.json
-msgctxt "Name"
-msgid "Screenshot"
-msgstr "स्क्रीनशॉट"
 
 #: src/plugins/screentransform/metadata.json
 msgctxt "Name"
@@ -581,11 +576,6 @@ msgstr "कस्य वर्चुअल् कीबोर्डस्य उ
 msgctxt "Description"
 msgid "Select which keys will be globally available to legacy X11 apps"
 msgstr "विरासतां X11 एप्स् कृते वैश्विकरूपेण कोऽपि कीलः उपलभ्यते इति चिनोतु"
-
-#: src/plugins/backgroundcontrast/metadata.json
-msgctxt "Description"
-msgid "Improve contrast and readability behind semi-transparent windows"
-msgstr "अर्धपारदर्शकविण्डोजस्य पृष्ठतः विपरीततां पठनीयतां च सुदृढं कुर्वन्तु"
 
 #: src/plugins/blendchanges/metadata.json
 msgctxt "Description"
@@ -782,11 +772,6 @@ msgid ""
 "cursor approaches them"
 msgstr ""
 "कर्सरस्य समीपं गच्छन् स्पृष्टे सति क्रियाः प्रवर्तयन्ति इति स्क्रीन-धाराः कोणाः च प्रकाशयति"
-
-#: src/plugins/screenshot/metadata.json
-msgctxt "Description"
-msgid "Helper effect for screenshot tools"
-msgstr "स्क्रीनशॉट्-उपकरणानाम् कृते सहायक-प्रभावः"
 
 #: src/plugins/screentransform/metadata.json
 msgctxt "Description"
@@ -1014,6 +999,22 @@ msgstr "Luboš Luňák, मार्टिन Gräßlin"
 msgctxt "Authors Name"
 msgid "Chris Holland"
 msgstr "क्रिस हॉलैण्ड्"
+
+#~ msgctxt "Name"
+#~ msgid "Screenshot"
+#~ msgstr "स्क्रीनशॉट"
+
+#~ msgctxt "Description"
+#~ msgid "Helper effect for screenshot tools"
+#~ msgstr "स्क्रीनशॉट्-उपकरणानाम् कृते सहायक-प्रभावः"
+
+#~ msgctxt "Name"
+#~ msgid "Background Contrast"
+#~ msgstr "पृष्ठभूमि विपरीतता"
+
+#~ msgctxt "Description"
+#~ msgid "Improve contrast and readability behind semi-transparent windows"
+#~ msgstr "अर्धपारदर्शकविण्डोजस्य पृष्ठतः विपरीततां पठनीयतां च सुदृढं कुर्वन्तु"
 
 #~ msgctxt "Name"
 #~ msgid "Snap Helper"

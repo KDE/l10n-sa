@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-mobile\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-08-09 02:34+0000\n"
+"POT-Creation-Date: 2025-09-15 00:44+0000\n"
 "PO-Revision-Date: 2024-12-20 21:53+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -51,17 +51,17 @@ msgstr "प्रतिलिपि स्थानम्"
 msgid "Properties"
 msgstr "गुणाः"
 
-#: qml/actiondrawer/ContentContainer.qml:151
+#: qml/actiondrawer/private/ContentContainer.qml:151
 #, kde-format
 msgid "Clear All Notifications"
 msgstr "सर्वाणि सूचनानि स्वच्छं कुर्वन्तु"
 
-#: qml/actiondrawer/quicksettings/QuickSettingsFullDelegate.qml:97
+#: qml/actiondrawer/private/QuickSettingsFullDelegate.qml:97
 #, kde-format
 msgid "On"
 msgstr "इत्युपरि"
 
-#: qml/actiondrawer/quicksettings/QuickSettingsFullDelegate.qml:97
+#: qml/actiondrawer/private/QuickSettingsFullDelegate.qml:97
 #, kde-format
 msgid "Off"
 msgstr "दूरे"
@@ -71,67 +71,51 @@ msgstr "दूरे"
 msgid "SIM Locked"
 msgstr "सिम लॉक्ड्"
 
-#: qml/popups/volumeosd/AudioApplet.qml:73
-#, kde-format
-msgid "Outputs"
+#: qml/popups/volumeosd/AudioApplet.qml:89
+#, fuzzy, kde-format
+#| msgid "Outputs"
+msgid "Output Devices"
 msgstr "आउटपुट्"
 
-#: qml/popups/volumeosd/AudioApplet.qml:111
-#, kde-format
-msgid "Inputs"
+#: qml/popups/volumeosd/AudioApplet.qml:118
+#, fuzzy, kde-format
+#| msgid "Inputs"
+msgid "Input Devices"
 msgstr "निवेशाः"
 
-#: qml/popups/volumeosd/AudioApplet.qml:150
+#: qml/popups/volumeosd/AudioApplet.qml:148
 #, kde-format
 msgid "Playback Streams"
 msgstr "प्लेबैक स्ट्रीम्स"
 
-#: qml/popups/volumeosd/AudioApplet.qml:211
+#: qml/popups/volumeosd/AudioApplet.qml:199
 #, kde-format
 msgid "Recording Streams"
 msgstr "रिकार्डिंग स्ट्रीम्स"
 
-#: qml/popups/volumeosd/DeviceListItem.qml:25
+#: qml/popups/volumeosd/DeviceListItem.qml:24
 #, kde-format
 msgctxt "label of device items"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: qml/popups/volumeosd/DeviceListItem.qml:34
+#: qml/popups/volumeosd/DeviceListItem.qml:33
 #, kde-format
 msgid "Device name not found"
 msgstr "यन्त्रनाम न प्राप्तम्"
 
-#: qml/popups/volumeosd/ListItemBase.qml:101
+#: qml/popups/volumeosd/ListItemBase.qml:125
 #, kde-format
 msgid "Show additional options for %1"
 msgstr "%1 कृते अतिरिक्तविकल्पान् दर्शयतु"
 
-#: qml/popups/volumeosd/ListItemBase.qml:137
-#: qml/popups/volumeosd/VolumeChangedPopup.qml:157
-#, kde-format
-msgid "Unmute"
-msgstr "अप्रसन्नता"
-
-#: qml/popups/volumeosd/ListItemBase.qml:137
-#: qml/popups/volumeosd/VolumeChangedPopup.qml:157
-#, kde-format
-msgid "Mute"
-msgstr "मूक"
-
-#: qml/popups/volumeosd/ListItemBase.qml:168
-#, kde-format
-msgctxt "Accessibility data on volume slider"
-msgid "Adjust volume for %1"
-msgstr "%1 कृते आयतनं समायोजयन्तु"
-
-#: qml/popups/volumeosd/ListItemBase.qml:246
+#: qml/popups/volumeosd/ListItemBase.qml:217
 #, kde-format
 msgctxt "volume percentage"
 msgid "%1%"
 msgstr "%1%"
 
-#: qml/popups/volumeosd/ListItemBase.qml:261
+#: qml/popups/volumeosd/ListItemBase.qml:232
 #, kde-format
 msgctxt "only used for sizing, should be widest possible string"
 msgid "100%"
@@ -153,12 +137,22 @@ msgstr "%1: %2"
 msgid "Stream name not found"
 msgstr "धारानाम न प्राप्तम्"
 
-#: qml/popups/volumeosd/VolumeChangedPopup.qml:252
+#: qml/popups/volumeosd/VolumeChangedPopup.qml:158
+#, kde-format
+msgid "Unmute"
+msgstr "अप्रसन्नता"
+
+#: qml/popups/volumeosd/VolumeChangedPopup.qml:158
+#, kde-format
+msgid "Mute"
+msgstr "मूक"
+
+#: qml/popups/volumeosd/VolumeChangedPopup.qml:207
 #, kde-format
 msgid "configure audio streams"
 msgstr "श्रव्यधारा विन्यस्तं कुर्वन्तु"
 
-#: qml/popups/volumeosd/VolumeOSD.qml:208
+#: qml/popups/volumeosd/VolumeOSD.qml:197
 #, kde-format
 msgid "Open audio settings"
 msgstr "श्रव्यसेटिंग्स् उद्घाटयन्तु"
@@ -174,27 +168,22 @@ msgctxt "@info:placeholder"
 msgid "Search…"
 msgstr "अन्वेषण…"
 
-#: qml/widgets/krunner/KRunnerWidget.qml:181
-#, kde-format
-msgid "Search…"
-msgstr "अन्वेषण…"
-
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:195
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:173
 #, kde-format
 msgid "No media playing"
 msgstr "न मीडिया वाद्यते"
 
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:223
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:201
 #, kde-format
 msgid "Previous track"
 msgstr "पूर्वः पटलः"
 
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:234
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:212
 #, kde-format
 msgid "Play or Pause media"
 msgstr "माध्यमं प्ले कुर्वन्तु अथवा विरामयन्तु"
 
-#: qml/widgets/mediacontrols/MediaControlsWidget.qml:247
+#: qml/widgets/mediacontrols/MediaControlsWidget.qml:225
 #, kde-format
 msgid "Next track"
 msgstr "अग्रिमः पटलः"
@@ -390,24 +379,31 @@ msgctxt "hours remaining, keep short"
 msgid "%1h remaining"
 msgstr "%1ह अवशिष्टम्"
 
-#: qml/widgets/notifications/NotificationsWidget.qml:246
+#: qml/widgets/notifications/NotificationsWidget.qml:257
 #, kde-format
 msgid "Notification service not available"
 msgstr "सूचनासेवा उपलब्धा नास्ति"
 
-#: qml/widgets/notifications/NotificationsWidget.qml:255
+#: qml/widgets/notifications/NotificationsWidget.qml:266
 #, kde-format
 msgctxt "Vendor and product name"
 msgid "Notifications are currently provided by '%1 %2'"
 msgstr "सूचनाः सम्प्रति '%1 %2' द्वारा प्रदत्ताः सन्ति ।"
 
-#: qml/widgets/notifications/NotificationsWidget.qml:415
+#: qml/widgets/notifications/NotificationsWidget.qml:427
 #, kde-format
 msgid "Show Fewer"
 msgstr "न्यूनानि दर्शयतु"
 
-#: qml/widgets/notifications/NotificationsWidget.qml:417
+#: qml/widgets/notifications/NotificationsWidget.qml:429
 #, kde-format
 msgctxt "Expand to show n more notifications"
 msgid "Show %1 More"
 msgstr "%1 अधिकं दर्शयतु"
+
+#~ msgctxt "Accessibility data on volume slider"
+#~ msgid "Adjust volume for %1"
+#~ msgstr "%1 कृते आयतनं समायोजयन्तु"
+
+#~ msgid "Search…"
+#~ msgstr "अन्वेषण…"

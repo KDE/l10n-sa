@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-desktop\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-12 02:40+0000\n"
+"POT-Creation-Date: 2025-09-16 00:43+0000\n"
 "PO-Revision-Date: 2024-12-20 21:53+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
 "X-Generator: Lokalize 24.08.2\n"
 
-#: contents/activitymanager/ActivityItem.qml:204
+#: contents/activitymanager/ActivityItem.qml:203
 #, kde-format
 msgid "Currently being used"
 msgstr "सम्प्रति प्रयुक्तम्"
 
-#: contents/activitymanager/ActivityItem.qml:244
+#: contents/activitymanager/ActivityItem.qml:243
 #, kde-format
 msgid ""
 "Move to\n"
@@ -33,7 +33,7 @@ msgstr ""
 "प्रति गच्छतु\n"
 "एतत् क्रियाकलापम्"
 
-#: contents/activitymanager/ActivityItem.qml:274
+#: contents/activitymanager/ActivityItem.qml:273
 #, kde-format
 msgid ""
 "Show also\n"
@@ -42,17 +42,12 @@ msgstr ""
 "अपि दर्शयतु\n"
 "अस्मिन् कार्ये"
 
-#: contents/activitymanager/ActivityItem.qml:336
+#: contents/activitymanager/ActivityItem.qml:335
 #, kde-format
 msgid "Configure"
 msgstr "विन्यस्तं कुर्वन्तु"
 
-#: contents/activitymanager/ActivityItem.qml:355
-#, kde-format
-msgid "Stop activity"
-msgstr "क्रियाकलापं स्थगयतु"
-
-#: contents/activitymanager/ActivityList.qml:148
+#: contents/activitymanager/ActivityList.qml:147
 #, kde-format
 msgid "Stopped activities:"
 msgstr "स्थगितानि क्रियाकलापाः :"
@@ -109,38 +104,44 @@ msgctxt "@info:tooltip %1 url"
 msgid "Open website %1"
 msgstr "वेबसाइट् %1 उद्घाटयन्तु"
 
-#: contents/configuration/AboutPlugin.qml:137
+#: contents/configuration/AboutPlugin.qml:142
+#, kde-format
+msgctxt "@title:group"
+msgid "Website"
+msgstr ""
+
+#: contents/configuration/AboutPlugin.qml:153
 #, kde-format
 msgid "Copyright"
 msgstr "प्रतिलिपि अधिकार"
 
-#: contents/configuration/AboutPlugin.qml:158 contents/explorer/Tooltip.qml:94
+#: contents/configuration/AboutPlugin.qml:170
 #, kde-format
 msgid "License:"
 msgstr "अनुज्ञापत्रम् :"
 
-#: contents/configuration/AboutPlugin.qml:163
+#: contents/configuration/AboutPlugin.qml:175
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "View license text"
 msgstr "अनुज्ञापत्रपाठं पश्यन्तु"
 
-#: contents/configuration/AboutPlugin.qml:177
+#: contents/configuration/AboutPlugin.qml:189
 #, kde-format
 msgid "Authors"
 msgstr "लेखकाः"
 
-#: contents/configuration/AboutPlugin.qml:189
+#: contents/configuration/AboutPlugin.qml:202
 #, kde-format
 msgid "Credits"
 msgstr "श्रेयः"
 
-#: contents/configuration/AboutPlugin.qml:202
+#: contents/configuration/AboutPlugin.qml:216
 #, kde-format
 msgid "Translators"
 msgstr "अनुवादकाः"
 
-#: contents/configuration/AboutPlugin.qml:220
+#: contents/configuration/AboutPlugin.qml:235
 #, kde-format
 msgid "Report a Bug…"
 msgstr "एकं दोषं प्रतिवेदयतु..."
@@ -633,7 +634,7 @@ msgstr "फलकं निष्कासयन्तु"
 msgid "%1 (primary)"
 msgstr "%1 (प्राथमिक)"
 
-#: contents/explorer/AppletAlternatives.qml:66
+#: contents/explorer/AppletAlternatives.qml:70
 #, kde-format
 msgid "Alternative Widgets"
 msgstr "वैकल्पिक विजेट्"
@@ -709,21 +710,6 @@ msgid_plural "Remove all %1 running instances of widget %2"
 msgstr[0] ""
 msgstr[1] ""
 
-#: contents/explorer/Tooltip.qml:105
-#, kde-format
-msgid "Author:"
-msgstr "लेखकः:"
-
-#: contents/explorer/Tooltip.qml:115
-#, kde-format
-msgid "Email:"
-msgstr "ईमेल :"
-
-#: contents/explorer/Tooltip.qml:136
-#, kde-format
-msgid "Uninstall"
-msgstr "अनइन्स्टॉल"
-
 #: contents/explorer/WidgetExplorer.qml:140
 #: contents/explorer/WidgetExplorer.qml:223
 #, kde-format
@@ -757,7 +743,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Widgets"
 msgctxt "@label:textbox accessible"
-msgid "Search Widgets"
+msgid "Search through widgets"
 msgstr "विजेट्"
 
 #: contents/explorer/WidgetExplorer.qml:237
@@ -838,8 +824,10 @@ msgid "Never show clock"
 msgstr "घड़ीं दर्शयतु"
 
 #: contents/lockscreen/config.qml:71
-#, kde-format
-msgctxt "@title: group"
+#, fuzzy, kde-format
+#| msgctxt "@title: group"
+#| msgid "Media controls:"
+msgctxt "@title: group UI controls for playback of multimedia content"
 msgid "Media controls:"
 msgstr "माध्यमनियन्त्रणानि :"
 
@@ -946,10 +934,22 @@ msgstr "अधिकः"
 msgid "Exit Edit Mode"
 msgstr "सम्पादन मोडतः निर्गच्छन्तु"
 
-#: contents/views/Panel.qml:318
+#: contents/views/Panel.qml:326
 #, kde-format
 msgid "Panel Focus Indicator"
 msgstr "फलक फोकस सूचक"
+
+#~ msgid "Stop activity"
+#~ msgstr "क्रियाकलापं स्थगयतु"
+
+#~ msgid "Author:"
+#~ msgstr "लेखकः:"
+
+#~ msgid "Email:"
+#~ msgstr "ईमेल :"
+
+#~ msgid "Uninstall"
+#~ msgstr "अनइन्स्टॉल"
 
 #~ msgctxt "Percentage value"
 #~ msgid "%1%"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-04-26 00:52+0000\n"
+"POT-Creation-Date: 2025-08-02 00:53+0000\n"
 "PO-Revision-Date: 2024-12-15 21:30+0530\n"
 "Last-Translator: \n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -44,12 +44,12 @@ msgctxt "Name"
 msgid "Clipboard"
 msgstr "अंशफलकम्"
 
-#: applets/devicenotifier/package/metadata.json
+#: applets/devicenotifier/metadata.json
 msgctxt "Name"
 msgid "Disks & Devices"
 msgstr "डिस्क् एवं यन्त्र"
 
-#: applets/digital-clock/package/metadata.json
+#: applets/digital-clock/metadata.json
 msgctxt "Name"
 msgid "Digital Clock"
 msgstr "अङ्कीयघटिका"
@@ -74,13 +74,13 @@ msgctxt "Name"
 msgid "Media Player"
 msgstr "माध्यमम् वादकः"
 
-#: applets/notifications/package/metadata.json
+#: applets/notifications/metadata.json
 #: kcms/notifications/kcm_notifications.json
 msgctxt "Name"
 msgid "Notifications"
 msgstr "अधिसूचना"
 
-#: applets/panelspacer/package/metadata.json
+#: applets/panelspacer/metadata.json
 msgctxt "Name"
 msgid "Panel Spacer"
 msgstr "फलक अन्तरिक्षकर्ता"
@@ -180,36 +180,6 @@ msgctxt "Name"
 msgid "Date and Time"
 msgstr "दिनाङ्कः समयः च"
 
-#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.json
-msgctxt "Name"
-msgid "BBC Weather"
-msgstr "BBC मौसमः"
-
-#: dataengines/weather/ions/dwd/ion-dwd.json
-msgctxt "Name"
-msgid "German Weather Service"
-msgstr "जर्मन् मौसमसेवा"
-
-#: dataengines/weather/ions/envcan/ion-envcan.json
-msgctxt "Name"
-msgid "Environment Canada"
-msgstr "पर्यावरण कनाडा"
-
-#: dataengines/weather/ions/noaa/ion-noaa.json
-msgctxt "Name"
-msgid "NOAA's National Weather Service"
-msgstr "NOAA इत्यस्य राष्ट्रियमौसमसेवा"
-
-#: dataengines/weather/ions/wetter.com/ion-wettercom.json
-msgctxt "Name"
-msgid "wetter.com"
-msgstr "wetter.com"
-
-#: dataengines/weather/plasma-dataengine-weather.json
-msgctxt "Name"
-msgid "Weather"
-msgstr "मौसमः"
-
 #: devicenotifications/devicenotifications.json
 msgctxt "Name"
 msgid "Device Notifications"
@@ -298,10 +268,23 @@ msgctxt "Name"
 msgid "Global Theme"
 msgstr "वैश्विक विषयवस्तु"
 
+#: kcms/lookandfeel/kded/lookandfeelautoswitcher.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Global Theme"
+msgctxt "Name"
+msgid "Global Theme Auto-Switcher"
+msgstr "वैश्विक विषयवस्तु"
+
 #: kcms/nightlight/kcm_nightlight.json
 msgctxt "Name"
 msgid "Night Light"
 msgstr "रात्रिप्रकाशः"
+
+#: kcms/nighttime/kcm_nighttime.json
+msgctxt "Name"
+msgid "Day-Night Cycle"
+msgstr ""
 
 #: kcms/region_language/kcm_regionandlang.json
 msgctxt "Name"
@@ -337,11 +320,6 @@ msgstr "पुटस्य निरीक्षकः"
 msgctxt "Name"
 msgid "Time Zone"
 msgstr "समयक्षेत्रम्"
-
-#: libcolorcorrect/kded/colorcorrectlocationupdater.json
-msgctxt "Name"
-msgid "Automatic Location for Night Light"
-msgstr "रात्रौ प्रकाशस्य स्वचालितं स्थानं"
 
 #: libkmpris/kded/mprisservice.json
 msgctxt "Name"
@@ -508,12 +486,12 @@ msgctxt "Description"
 msgid "Provides access to the clipboard history"
 msgstr "अंशफलक-इतिहासस्य अभिगमनं प्रदाति"
 
-#: applets/devicenotifier/package/metadata.json
+#: applets/devicenotifier/metadata.json
 msgctxt "Description"
 msgid "Notifications and access for devices"
 msgstr "उपकरणानां कृते सूचनाः अभिगमः च"
 
-#: applets/digital-clock/package/metadata.json
+#: applets/digital-clock/metadata.json
 msgctxt "Description"
 msgid "Time displayed in a digital format"
 msgstr "अङ्कीयस्वरूपेण प्रदर्शितः समयः"
@@ -538,12 +516,12 @@ msgctxt "Description"
 msgid "Media player controls"
 msgstr "माध्यमम् वादकः नियन्त्रणानि"
 
-#: applets/notifications/package/metadata.json
+#: applets/notifications/metadata.json
 msgctxt "Description"
 msgid "Display notifications and jobs"
 msgstr "सूचनाः कार्याणि च प्रदर्शयन्तु"
 
-#: applets/panelspacer/package/metadata.json
+#: applets/panelspacer/metadata.json
 msgctxt "Description"
 msgid "Reserve empty spaces within the panel."
 msgstr "फलकस्य अन्तः रिक्तस्थानानि आरक्षन्तु ।."
@@ -612,36 +590,6 @@ msgstr "उपयोक्तुः कृते निष्क्रियद�
 msgctxt "Description"
 msgid "Date and time by timezone"
 msgstr "समयक्षेत्रानुसारं तिथिः समयः च"
-
-#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.json
-msgctxt "Description"
-msgid "XML Data from the British Broadcasting Corporation"
-msgstr "ब्रिटिशप्रसारणनिगमस्य XML दत्तांशः"
-
-#: dataengines/weather/ions/dwd/ion-dwd.json
-msgctxt "Description"
-msgid "Weather forecast by German Weather Service"
-msgstr "जर्मन् मौसमसेवाद्वारा मौसमस्य पूर्वानुमानम्"
-
-#: dataengines/weather/ions/envcan/ion-envcan.json
-msgctxt "Description"
-msgid "XML Data from Environment Canada"
-msgstr "पर्यावरण कनाडातः XML दत्तांशः"
-
-#: dataengines/weather/ions/noaa/ion-noaa.json
-msgctxt "Description"
-msgid "XML Data from NOAA's National Weather Service"
-msgstr "NOAA इत्यस्य राष्ट्रियमौसमसेवायाः XML Data"
-
-#: dataengines/weather/ions/wetter.com/ion-wettercom.json
-msgctxt "Description"
-msgid "Weather forecast by wetter.com"
-msgstr "wetter.com द्वारा मौसमस्य पूर्वानुमानम्"
-
-#: dataengines/weather/plasma-dataengine-weather.json
-msgctxt "Description"
-msgid "Weather data from multiple online sources"
-msgstr "बहुविध-साङ्गणिक-स्रोतानां मौसम-दत्तांशः"
 
 #: devicenotifications/devicenotifications.json
 msgctxt "Description"
@@ -722,10 +670,20 @@ msgctxt "Description"
 msgid "Choose global look and feel"
 msgstr "वैश्विकरूपं भावः च चयनं कुर्वन्तु"
 
+#: kcms/lookandfeel/kded/lookandfeelautoswitcher.json
+msgctxt "Description"
+msgid "Switches between dark and light Global Themes based on time of day"
+msgstr ""
+
 #: kcms/nightlight/kcm_nightlight.json
 msgctxt "Description"
 msgid "Adjust screen color temperature based on time"
 msgstr "समयस्य आधारेण वर्णस्य तापमानं समायोजयन्तु"
+
+#: kcms/nighttime/kcm_nighttime.json
+msgctxt "Description"
+msgid "Configure the day-night cycle times"
+msgstr ""
 
 #: kcms/notifications/kcm_notifications.json
 msgctxt "Description"
@@ -772,11 +730,6 @@ msgctxt "Description"
 msgid "Provides the system's time zone to applications"
 msgstr "अनुप्रयोगेभ्यः प्रणाल्याः समयक्षेत्रं प्रदाति"
 
-#: libcolorcorrect/kded/colorcorrectlocationupdater.json
-msgctxt "Description"
-msgid "Provides location updates for Night Light"
-msgstr "रात्रौ प्रकाशस्य कृते स्थानस्य अद्यतनं प्रदाति"
-
 #: libkmpris/kded/mprisservice.json
 msgctxt "Description"
 msgid "Controls media players using global keyboard shortcuts"
@@ -805,8 +758,8 @@ msgstr "स्मृतितः बहिः स्थितीनां नि
 
 #: plasmacalendarintegration/holidayeventsplugin.json
 msgctxt "Description"
-msgid "Calendar plugin for displaying public holidays"
-msgstr "सार्वजनिक अवकाशदिनानां प्रदर्शनार्थं पञ्चाङ्गप्लगिन्"
+msgid "Show public holidays in various countries or states"
+msgstr ""
 
 #: runners/appstream/plasma-runner-appstream.json
 msgctxt "Description"
@@ -920,8 +873,7 @@ msgctxt "Authors Name"
 msgid "Marco Martin"
 msgstr "मार्को मार्टिन्"
 
-#: applets/appmenu/package/metadata.json
-#: applets/notifications/package/metadata.json
+#: applets/appmenu/package/metadata.json applets/notifications/metadata.json
 #: applets/systemmonitor/coreusage/metadata.json
 #: applets/systemmonitor/cpu/metadata.json
 #: applets/systemmonitor/memory/metadata.json kcms/colors/kcm_colors.json
@@ -945,18 +897,18 @@ msgctxt "Authors Name"
 msgid "Martin Gräßlin"
 msgstr "मार्टिन् ग्रास्लिन्"
 
-#: applets/devicenotifier/package/metadata.json
+#: applets/devicenotifier/metadata.json
 msgctxt "Authors Name"
 msgid "Viranch Mehta, Jacopo De Simoi"
 msgstr "विरञ्च् मेहता, जाकोपो दे सिमोई"
 
-#: applets/digital-clock/package/metadata.json
+#: applets/digital-clock/metadata.json
 #: plasmacalendarintegration/holidayeventsplugin.json
 msgctxt "Authors Name"
 msgid "Martin Klapetek"
 msgstr "मार्टिन् क्लापेटेक्"
 
-#: applets/icon/package/metadata.json applets/panelspacer/package/metadata.json
+#: applets/icon/package/metadata.json applets/panelspacer/metadata.json
 msgctxt "Authors Name"
 msgid "The Plasma Team"
 msgstr "प्लाज्मा दलम्"
@@ -976,11 +928,6 @@ msgstr "अलेक्स् पोल् गोन्जालेज्"
 msgctxt "Authors Name"
 msgid "Aaron Seigo"
 msgstr "आरोन् सैगो"
-
-#: dataengines/weather/plasma-dataengine-weather.json
-msgctxt "Authors Name"
-msgid "Shawn Starr"
-msgstr "शौन् स्टार्"
 
 #: lookandfeel/org.kde.breezedark/metadata.json
 #: lookandfeel/org.kde.breeze/metadata.json
@@ -1132,6 +1079,11 @@ msgstr ""
 "kwin,खिड़की,प्रबंधक,रात्रि,रंग,लाल शिफ्ट,आखें,रात्रि मोड,रंग,गहरे मोड,अंधेरे,मंद,नींद,नेत्र "
 "तनाव,लाल,शिफ्ट,नारंगी,पीले,गर्म,स्क्रीन टिंट,तापमान,नीले,हल्के"
 
+#: kcms/nighttime/kcm_nighttime.json
+msgctxt "X-KDE-Keywords"
+msgid "dark,light,night,day"
+msgstr ""
+
 #: kcms/notifications/kcm_notifications.json
 msgctxt "X-KDE-Keywords"
 msgid ""
@@ -1190,6 +1142,70 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "wallpaper,desktop"
 msgstr "वॉलपेपर,डेस्कटॉप"
+
+#~ msgctxt "Name"
+#~ msgid "Automatic Location for Night Light"
+#~ msgstr "रात्रौ प्रकाशस्य स्वचालितं स्थानं"
+
+#~ msgctxt "Description"
+#~ msgid "Provides location updates for Night Light"
+#~ msgstr "रात्रौ प्रकाशस्य कृते स्थानस्य अद्यतनं प्रदाति"
+
+#~ msgctxt "Name"
+#~ msgid "BBC Weather"
+#~ msgstr "BBC मौसमः"
+
+#~ msgctxt "Name"
+#~ msgid "German Weather Service"
+#~ msgstr "जर्मन् मौसमसेवा"
+
+#~ msgctxt "Name"
+#~ msgid "Environment Canada"
+#~ msgstr "पर्यावरण कनाडा"
+
+#~ msgctxt "Name"
+#~ msgid "NOAA's National Weather Service"
+#~ msgstr "NOAA इत्यस्य राष्ट्रियमौसमसेवा"
+
+#~ msgctxt "Name"
+#~ msgid "wetter.com"
+#~ msgstr "wetter.com"
+
+#~ msgctxt "Name"
+#~ msgid "Weather"
+#~ msgstr "मौसमः"
+
+#~ msgctxt "Description"
+#~ msgid "XML Data from the British Broadcasting Corporation"
+#~ msgstr "ब्रिटिशप्रसारणनिगमस्य XML दत्तांशः"
+
+#~ msgctxt "Description"
+#~ msgid "Weather forecast by German Weather Service"
+#~ msgstr "जर्मन् मौसमसेवाद्वारा मौसमस्य पूर्वानुमानम्"
+
+#~ msgctxt "Description"
+#~ msgid "XML Data from Environment Canada"
+#~ msgstr "पर्यावरण कनाडातः XML दत्तांशः"
+
+#~ msgctxt "Description"
+#~ msgid "XML Data from NOAA's National Weather Service"
+#~ msgstr "NOAA इत्यस्य राष्ट्रियमौसमसेवायाः XML Data"
+
+#~ msgctxt "Description"
+#~ msgid "Weather forecast by wetter.com"
+#~ msgstr "wetter.com द्वारा मौसमस्य पूर्वानुमानम्"
+
+#~ msgctxt "Description"
+#~ msgid "Weather data from multiple online sources"
+#~ msgstr "बहुविध-साङ्गणिक-स्रोतानां मौसम-दत्तांशः"
+
+#~ msgctxt "Authors Name"
+#~ msgid "Shawn Starr"
+#~ msgstr "शौन् स्टार्"
+
+#~ msgctxt "Description"
+#~ msgid "Calendar plugin for displaying public holidays"
+#~ msgstr "सार्वजनिक अवकाशदिनानां प्रदर्शनार्थं पञ्चाङ्गप्लगिन्"
 
 #~ msgctxt "Description"
 #~ msgid "Simple application launcher"
