@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-10-25 00:52+0000\n"
+"POT-Creation-Date: 2025-10-31 00:52+0000\n"
 "PO-Revision-Date: 2024-12-20 22:01+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -41,13 +41,19 @@ msgid "cpu,amd,intel,arm,instructions,cores,architecture,byte order"
 msgstr "cpu,amd,intel,बाहु,निर्देश,कोर,वास्तुकला,बाइट क्रम"
 
 #: kcms/edid/kcm_edid.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "EDID,Graphics"
 msgctxt "X-KDE-Keywords"
-msgid "EDID,Graphics"
+msgid "EDID,Graphics,dxdiag"
 msgstr "EDID,ग्राफिक्स"
 
 #: kcms/egl/kcm_egl.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL"
 msgctxt "X-KDE-Keywords"
-msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL"
+msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL,dxdiag"
 msgstr "OpenGL,DRI,3D,VideoCard,हार्डवेयर त्वरण,ग्राफिक्स,EGL"
 
 #: kcms/energy/kcm_energyinfo.json
@@ -61,10 +67,15 @@ msgid "firmware,security,hsi,secureboot,fwupd,bootguard,lockdown"
 msgstr "फर्मवेयर,सुरक्षा,hsi,secureboot,fwupd,bootguard,lockdown"
 
 #: kcms/glx/kcm_glx.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid ""
+#| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
+#| "X-Server,XFree86,Display"
 msgctxt "X-KDE-Keywords"
 msgid ""
 "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
-"Server,XFree86,Display"
+"Server,XFree86,Display,dxdiag"
 msgstr ""
 "OpenGL,DRI,GLX,3D,VideoCard,हार्डवेयर त्वरण,ग्राफिक्स,X,X11,Xserver,X-Server,"
 "XFree86,प्रदर्शन"
@@ -73,6 +84,11 @@ msgstr ""
 msgctxt "X-KDE-Keywords"
 msgid "Interrupts,IRQ,System Information"
 msgstr "Interrupts,IRQ,प्रणाली सूचना"
+
+#: kcms/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+msgctxt "X-KDE-Keywords"
+msgid "dxdiag"
+msgstr ""
 
 #: kcms/memory/kcm_memory.json
 msgctxt "X-KDE-Keywords"
@@ -85,8 +101,11 @@ msgid "network,nic,ip,ip address,mac,inet,eth,wlan,wifi"
 msgstr "नेटवर्क,निक,आईपी,आईपी पता,मैक,inet,eth,wlan,wifi"
 
 #: kcms/opencl/kcm_opencl.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "OpenCL,VideoCard,Hardware Acceleration,Graphics"
 msgctxt "X-KDE-Keywords"
-msgid "OpenCL,VideoCard,Hardware Acceleration,Graphics"
+msgid "OpenCL,VideoCard,Hardware Acceleration,Graphics,dxdiag"
 msgstr "OpenCL,VideoCard,हार्डवेयर त्वरण,ग्राफिक्स"
 
 #: kcms/pci/kcm_pci.json.cmake
@@ -112,18 +131,27 @@ msgid "USB,devices,viewer,control"
 msgstr "USB,यन्त्राणि,दर्शकः,नियन्त्रणम्"
 
 #: kcms/vulkan/kcm_vulkan.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
 msgctxt "X-KDE-Keywords"
-msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
+msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics,dxdiag"
 msgstr "Vulkan,VideoCard,हार्डवेयर त्वरण,ग्राफिक्स"
 
 #: kcms/wayland/kcm_wayland.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "Wayland,Compositor,Display,System Information"
 msgctxt "X-KDE-Keywords"
-msgid "Wayland,Compositor,Display,System Information"
+msgid "Wayland,Compositor,Display,System Information,dxdiag"
 msgstr "Wayland,रचनाकार,प्रदर्शन,प्रणाली सूचना"
 
 #: kcms/xserver/kcm_xserver.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
 msgctxt "X-KDE-Keywords"
-msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
+msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information,dxdiag"
 msgstr "X,X-Server,XServer,XFree86,प्रदर्शन,वीडियोकार्ड,सिस्टम सूचना"
 
 #: kcms/about-distro/src/kcm_about-distro.json
