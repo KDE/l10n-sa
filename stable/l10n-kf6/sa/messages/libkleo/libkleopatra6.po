@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkleo\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-03 06:57+0000\n"
+"POT-Creation-Date: 2025-11-06 08:06+0000\n"
 "PO-Revision-Date: 2024-12-20 22:01+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1129,36 +1129,36 @@ msgstr "टैग्स"
 msgid "Trust Signature For"
 msgstr "Trust Signature For"
 
-#: ui/auditlogviewer.cpp:43
+#: ui/auditlogviewer.cpp:44
 #, kde-format
 msgctxt "@title:window"
 msgid "View GnuPG Audit Log"
 msgstr "GnuPG Audit Log पश्यन्तु"
 
-#: ui/auditlogviewer.cpp:46
+#: ui/auditlogviewer.cpp:47
 #, kde-format
 msgctxt "@action:button"
 msgid "&Copy to Clipboard"
 msgstr "&Clipboard मध्ये प्रतिलिपिं कुर्वन्तु"
 
-#: ui/auditlogviewer.cpp:51
+#: ui/auditlogviewer.cpp:52
 #, kde-format
 msgctxt "@action:button"
 msgid "&Save to Disk..."
 msgstr "&डिस्क मध्ये रक्षन्तु..."
 
-#: ui/auditlogviewer.cpp:93
+#: ui/auditlogviewer.cpp:94
 #, kde-format
 msgid "Your system does not have support for GnuPG Audit Logs"
 msgstr "भवतः प्रणाल्याः GnuPG Audit Logs इत्यस्य समर्थनं नास्ति"
 
-#: ui/auditlogviewer.cpp:93
+#: ui/auditlogviewer.cpp:94
 #, kde-format
 msgctxt "@title:window"
 msgid "System Error"
 msgstr "प्रणाली त्रुटि"
 
-#: ui/auditlogviewer.cpp:98
+#: ui/auditlogviewer.cpp:99
 #, kde-format
 msgid ""
 "An error occurred while trying to retrieve the GnuPG Audit Log:\n"
@@ -1167,39 +1167,44 @@ msgstr ""
 "GnuPG Audit Log पुनः प्राप्तुं प्रयतमाने त्रुटिः अभवत्:\n"
 "%1"
 
-#: ui/auditlogviewer.cpp:99
+#: ui/auditlogviewer.cpp:100
 #, kde-format
 msgid "GnuPG Audit Log Error"
 msgstr "GnuPG लेखापरीक्षा लॉग त्रुटि"
 
-#: ui/auditlogviewer.cpp:103
+#: ui/auditlogviewer.cpp:104
 #, kde-format
 msgid "No GnuPG Audit Log available for this operation."
 msgstr "अस्य कार्यस्य कृते GnuPG Audit Log उपलब्धः नास्ति ।"
 
-#: ui/auditlogviewer.cpp:103
+#: ui/auditlogviewer.cpp:104
 #, kde-format
 msgctxt "@title:window"
 msgid "No GnuPG Audit Log"
 msgstr "GnuPG Audit Log नास्ति"
 
-#: ui/auditlogviewer.cpp:109
+#: ui/auditlogviewer.cpp:110
 #, kde-format
 msgctxt "@title:window"
 msgid "GnuPG Audit Log Viewer"
 msgstr "GnuPG लेखापरीक्षा लॉग दर्शक"
 
-#: ui/auditlogviewer.cpp:124
+#: ui/auditlogviewer.cpp:126
 #, kde-format
 msgid "Choose File to Save GnuPG Audit Log to"
 msgstr "GnuPG Audit Log इत्यत्र रक्षितुं सञ्चिकां चिनोतु"
 
-#: ui/auditlogviewer.cpp:144
+#: ui/auditlogviewer.cpp:129
+#, kde-format
+msgid "HTML files (*.html)"
+msgstr ""
+
+#: ui/auditlogviewer.cpp:153
 #, kde-format
 msgid "Could not save to file \"%1\": %2"
 msgstr "\"%1\" सञ्चिकायां रक्षितुं न शक्यते: %2"
 
-#: ui/auditlogviewer.cpp:145
+#: ui/auditlogviewer.cpp:154
 #, kde-format
 msgctxt "@title:window"
 msgid "File Save Error"
@@ -1287,12 +1292,20 @@ msgid_plural "%1 servers configured"
 msgstr[0] "१ सर्वरः विन्यस्तः"
 msgstr[1] "%1 सर्वराः विन्यस्ताः"
 
-#: ui/directoryserviceswidget.cpp:140 ui/directoryserviceswidget.cpp:197
+#: ui/directoryserviceswidget.cpp:140 ui/directoryserviceswidget.cpp:200
 #, kde-format
 msgid "Active Directory"
 msgstr "सक्रिय निर्देशिका"
 
-#: ui/directoryserviceswidget.cpp:191
+#: ui/directoryserviceswidget.cpp:189
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "LDAP Directory Service"
+msgctxt "@label"
+msgid "Directory services"
+msgstr "LDAP निर्देशिका सेवा"
+
+#: ui/directoryserviceswidget.cpp:194
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1301,7 +1314,7 @@ msgid ""
 msgstr ""
 "एषा सर्वेषां निर्देशिकासेवानां सूची अस्ति ये X.509 इत्यनेन सह उपयोगाय विन्यस्ताः सन्ति ।"
 
-#: ui/directoryserviceswidget.cpp:201
+#: ui/directoryserviceswidget.cpp:204
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -1311,29 +1324,29 @@ msgstr ""
 "स्वस्य सक्रियनिर्देशिकायां चालितस्य निर्देशिकासेवायाः उपयोगाय क्लिक् कुर्वन्तु । एतत् केवलं "
 "विण्डोज इत्यत्र कार्यं करोति तथा च GnuPG 2.2.28 अथवा ततः परं आवश्यकम् ।"
 
-#: ui/directoryserviceswidget.cpp:204
+#: ui/directoryserviceswidget.cpp:207
 #, kde-format
 msgid "LDAP Server"
 msgstr "LDAP सर्वरः"
 
-#: ui/directoryserviceswidget.cpp:207
+#: ui/directoryserviceswidget.cpp:210
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to add a directory service provided by an LDAP server."
 msgstr "LDAP सर्वरेण प्रदत्तां निर्देशिकासेवां योजयितुं क्लिक् कुर्वन्तु ।"
 
-#: ui/directoryserviceswidget.cpp:209
+#: ui/directoryserviceswidget.cpp:212
 #, kde-format
 msgid "Add"
 msgstr "संयोजयति"
 
-#: ui/directoryserviceswidget.cpp:210
+#: ui/directoryserviceswidget.cpp:213
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to add a directory service."
 msgstr "निर्देशिकासेवां योजयितुं क्लिक् कुर्वन्तु ।"
 
-#: ui/directoryserviceswidget.cpp:212
+#: ui/directoryserviceswidget.cpp:215
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1343,19 +1356,19 @@ msgstr ""
 "सेवासूचौ निर्देशिकासेवा योजयितुं एतत् बटन् नुदन्तु । परिवर्तनं केवलं एकवारं भवता विन्याससंवादं "
 "स्वीकृत्य प्रभावी भविष्यति ।"
 
-#: ui/directoryserviceswidget.cpp:220
+#: ui/directoryserviceswidget.cpp:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit"
 msgstr "सम्पादन"
 
-#: ui/directoryserviceswidget.cpp:221
+#: ui/directoryserviceswidget.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to edit the selected service."
 msgstr "चयनितसेवा सम्पादयितुं क्लिक् कुर्वन्तु ।"
 
-#: ui/directoryserviceswidget.cpp:223
+#: ui/directoryserviceswidget.cpp:226
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1366,19 +1379,19 @@ msgstr ""
 "वर्तमान चयनितनिर्देशिकासेवायाः सेटिङ्ग्स् सम्पादयितुं एतत् बटन् नुदन्तु । परिवर्तनं केवलं एकवारं "
 "भवता विन्याससंवादं स्वीकृत्य प्रभावी भविष्यति ।"
 
-#: ui/directoryserviceswidget.cpp:228
+#: ui/directoryserviceswidget.cpp:231
 #, kde-format
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "लुप्"
 
-#: ui/directoryserviceswidget.cpp:229
+#: ui/directoryserviceswidget.cpp:232
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to remove the selected service."
 msgstr "चयनितसेवाम् अपसारयितुं क्लिक् कुर्वन्तु ।"
 
-#: ui/directoryserviceswidget.cpp:231
+#: ui/directoryserviceswidget.cpp:234
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1388,7 +1401,7 @@ msgstr ""
 "वर्तमान चयनितं निर्देशिकासेवां निष्कासयितुं एतत् बटन् नुदन्तु । परिवर्तनं केवलं एकवारं भवता "
 "विन्याससंवादं स्वीकृत्य प्रभावी भविष्यति ।"
 
-#: ui/directoryserviceswidget.cpp:356 ui/directoryserviceswidget.cpp:373
+#: ui/directoryserviceswidget.cpp:359 ui/directoryserviceswidget.cpp:376
 #, kde-format
 msgctxt "@title:window"
 msgid "LDAP Directory Service"
@@ -1720,13 +1733,17 @@ msgid "Open file dialog"
 msgstr "सञ्चिकासंवादं उद्घाटयन्तु"
 
 #: ui/formtextinput.cpp:25
-#, kde-format
-msgid "Error: Enter a value."
-msgstr "त्रुटिः - मूल्यं प्रविशतु ।"
+#, fuzzy, kde-format
+#| msgid "Enter a name."
+msgctxt "@info Used as error message for a required text input"
+msgid "Enter a value."
+msgstr "एकं नाम प्रविशतु।"
 
 #: ui/formtextinput.cpp:30
-#, kde-format
-msgid "Error: Enter a value in the correct format."
+#, fuzzy, kde-format
+#| msgid "Error: Enter a value in the correct format."
+msgctxt "@info Used as generic error message for a text input"
+msgid "Enter a value in the correct format."
 msgstr "त्रुटिः : समीचीनस्वरूपेण मूल्यं प्रविशन्तु ।"
 
 #: ui/formtextinput.cpp:92
@@ -2099,19 +2116,28 @@ msgstr "की सूची परिणाम"
 msgid "Recheck Key"
 msgstr "कील पुनः जाँच करें"
 
-#: ui/messagebox.cpp:69
+#: ui/messagebox.cpp:100
 #, kde-format
 msgctxt "@action:button"
+msgid "Diagnostics"
+msgstr ""
+
+#: ui/messagebox.cpp:101
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Show Audit Log"
+msgctxt ""
+"@action:button The Audit Log is a detailed error log from the gnupg backend"
 msgid "Show Audit Log"
 msgstr "Audit Log दर्शयतु"
 
-#: ui/messagebox.cpp:91
+#: ui/messagebox.cpp:127 ui/messagebox.cpp:141
 #, kde-format
 msgctxt "@title:window"
 msgid "Information"
 msgstr "सूचना"
 
-#: ui/messagebox.cpp:96
+#: ui/messagebox.cpp:155 ui/messagebox.cpp:169
 #, kde-format
 msgctxt "@title:window"
 msgid "Error"
@@ -2210,7 +2236,7 @@ msgctxt "@info:tooltip"
 msgid "Show all keys"
 msgstr "सर्वाणि कीलानि दर्शयतु"
 
-#: ui/newkeyapprovaldialog.cpp:274
+#: ui/newkeyapprovaldialog.cpp:276
 #, kde-format
 msgctxt ""
 "@info:tooltip for a 'Generate new key pair' action in a combobox when a user "
@@ -2224,86 +2250,86 @@ msgstr ""
 "कर्तुं कुञ्जी आवश्यकी अस्ति । एतस्य कीलस्य रक्षणार्थं भवन्तः गुप्तवाक्यं याचयिष्यन्ति तथा च "
 "रक्षितं कीलं भवतः गृहनिर्देशिकायां संगृहीतं भविष्यति ।"
 
-#: ui/newkeyapprovaldialog.cpp:299
+#: ui/newkeyapprovaldialog.cpp:301
 #, kde-format
 msgctxt "@title:window"
 msgid "Security approval"
 msgstr "सुरक्षा अनुमोदनम्"
 
-#: ui/newkeyapprovaldialog.cpp:306
+#: ui/newkeyapprovaldialog.cpp:308
 #, kde-format
 msgctxt "@option:check"
 msgid "OpenPGP"
 msgstr "ओपनपीजीपी"
-
-#: ui/newkeyapprovaldialog.cpp:307
-#, kde-format
-msgctxt "@option:check"
-msgid "S/MIME"
-msgstr "S/MIME"
 
 #: ui/newkeyapprovaldialog.cpp:309
 #, kde-format
+msgctxt "@option:check"
+msgid "S/MIME"
+msgstr "S/MIME"
+
+#: ui/newkeyapprovaldialog.cpp:311
+#, kde-format
 msgctxt "@option:radio"
 msgid "OpenPGP"
 msgstr "ओपनपीजीपी"
 
-#: ui/newkeyapprovaldialog.cpp:310
+#: ui/newkeyapprovaldialog.cpp:312
 #, kde-format
 msgctxt "@option:radio"
 msgid "S/MIME"
 msgstr "S/MIME"
 
-#: ui/newkeyapprovaldialog.cpp:403
+#: ui/newkeyapprovaldialog.cpp:405
 #, kde-format
 msgid "Generating key for '%1'..."
 msgstr "'%1' कृते कुञ्जी जनयति..."
 
-#: ui/newkeyapprovaldialog.cpp:403
+#: ui/newkeyapprovaldialog.cpp:405
 #, kde-format
 msgid "This can take several minutes."
 msgstr "एतेन कतिपयानि निमेषाणि यावत् समयः भवितुं शक्नोति ।"
 
-#: ui/newkeyapprovaldialog.cpp:405
+#: ui/newkeyapprovaldialog.cpp:407
 #, kde-format
 msgctxt "@title:window"
 msgid "Key generation"
 msgstr "कीज जनरेशन"
 
-#: ui/newkeyapprovaldialog.cpp:448
+#: ui/newkeyapprovaldialog.cpp:450
 #, kde-format
 msgctxt "@title:window"
 msgid "Operation Failed"
 msgstr "संचालनं विफलम्"
 
-#: ui/newkeyapprovaldialog.cpp:563 ui/newkeyapprovaldialog.cpp:659
+#: ui/newkeyapprovaldialog.cpp:565 ui/newkeyapprovaldialog.cpp:661
 #, kde-format
 msgid "Generate a new key pair"
 msgstr "नूतनं कीलयुग्मं जनयन्तु"
 
-#: ui/newkeyapprovaldialog.cpp:566
+#: ui/newkeyapprovaldialog.cpp:568
 #, kde-format
 msgid "Do not sign this email"
 msgstr "अस्मिन् ईमेलपत्रे हस्ताक्षरं न कुर्वन्तु"
 
-#: ui/newkeyapprovaldialog.cpp:568
+#: ui/newkeyapprovaldialog.cpp:570
 #, kde-format
 msgctxt "@info:tooltip for not selecting a key for signing."
 msgid "The email will not be cryptographically signed."
 msgstr "ईमेल क्रिप्टोग्राफिकरूपेण हस्ताक्षरं न भविष्यति।"
 
-#: ui/newkeyapprovaldialog.cpp:586
+#: ui/newkeyapprovaldialog.cpp:588
 #, kde-format
 msgctxt "Caption for signing key selection"
 msgid "Confirm identity '%1' as:"
 msgstr "'%1' इति परिचयं पुष्टयन्तु यथा:"
 
-#: ui/newkeyapprovaldialog.cpp:663
+#: ui/newkeyapprovaldialog.cpp:665
 #, kde-format
 msgid "No key. Recipient will be unable to decrypt."
 msgstr "न कुञ्जी। प्राप्तकर्ता विगुप्तीकरणं कर्तुं असमर्थः भविष्यति।"
 
-#: ui/newkeyapprovaldialog.cpp:666
+#: ui/newkeyapprovaldialog.cpp:668
 #, kde-format
 msgctxt "@info:tooltip for No Key selected for a specific recipient."
 msgid ""
@@ -2314,18 +2340,18 @@ msgstr ""
 "अस्य प्राप्तकर्तायाः कृते कीलं न चिनोतु ।<br/><br/> ग्राहकः एन्क्रिप्टेड् ईमेल प्राप्स्यति, "
 "परन्तु अस्मिन् संवादे चयनितैः अन्यैः कीलैः सह एव तस्य विगुप्तीकरणं कर्तुं शक्यते ।"
 
-#: ui/newkeyapprovaldialog.cpp:783
+#: ui/newkeyapprovaldialog.cpp:785
 #, kde-format
 msgctxt "Encrypt to self (email address):"
 msgid "Encrypt to self (%1):"
 msgstr "स्वयमेव (%1) एन्क्रिप्ट् कुर्वन्तु:"
 
-#: ui/newkeyapprovaldialog.cpp:800
+#: ui/newkeyapprovaldialog.cpp:802
 #, kde-format
 msgid "Encrypt to others:"
 msgstr "अन्येभ्यः एन्क्रिप्ट् कुर्वन्तु :"
 
-#: ui/newkeyapprovaldialog.cpp:838
+#: ui/newkeyapprovaldialog.cpp:840
 #, kde-format
 msgid "Generate"
 msgstr "उद्- पद्"
@@ -2355,28 +2381,34 @@ msgctxt "The algorithm and strength of encryption key"
 msgid "Key Material"
 msgstr "मुख्य सामग्री"
 
-#: ui/openpgpcertificatecreationdialog.cpp:150
+#: ui/openpgpcertificatecreationdialog.cpp:132
+#, kde-format
+msgctxt "@option:check"
+msgid "Set up this key for shared usage in teams"
+msgstr ""
+
+#: ui/openpgpcertificatecreationdialog.cpp:152
 #, kde-format
 msgctxt "title:window"
 msgid "Create OpenPGP Certificate"
 msgstr "OpenPGP प्रमाणपत्रं रचयन्तु"
 
-#: ui/openpgpcertificatecreationdialog.cpp:158
+#: ui/openpgpcertificatecreationdialog.cpp:160
 #, kde-format
 msgid "Enter a name and an email address to use for the certificate."
 msgstr "प्रमाणपत्रस्य कृते उपयोक्तुं नाम ईमेल-सङ्केतं च प्रविशन्तु ।"
 
-#: ui/openpgpcertificatecreationdialog.cpp:159
+#: ui/openpgpcertificatecreationdialog.cpp:161
 #, kde-format
 msgid "Enter a name and/or an email address to use for the certificate."
 msgstr "प्रमाणपत्रस्य कृते उपयोक्तुं नाम तथा/वा ईमेल-सङ्केतं प्रविशन्तु ।"
 
-#: ui/openpgpcertificatecreationdialog.cpp:336
+#: ui/openpgpcertificatecreationdialog.cpp:342
 #, kde-format
 msgid "Enter a name or an email address."
 msgstr "नाम वा ईमेल-सङ्केतं वा प्रविशतु।"
 
-#: ui/openpgpcertificatecreationdialog.cpp:350
+#: ui/openpgpcertificatecreationdialog.cpp:356
 #, kde-format
 msgid "There is a problem."
 msgstr "समस्या अस्ति।"
@@ -3419,13 +3451,13 @@ msgstr ""
 "प्रयुक्तं प्रमाणपत्रं विश्वसनीयेन प्रमाणपत्रप्राधिकरणेन प्रमाणितं नास्ति अथवा "
 "प्रमाणपत्रप्राधिकरणं अज्ञातम् अस्ति।"
 
-#: utils/gnupg.cpp:486
+#: utils/gnupg.cpp:483
 #, kde-format
 msgctxt "@info"
 msgid "GnuPG provides support for OpenPGP/LibrePGP and S/MIME."
 msgstr "GnuPG OpenPGP/LibrePGP तथा S/MIME इत्येतयोः समर्थनं प्रदाति ।"
 
-#: utils/gnupg.cpp:495
+#: utils/gnupg.cpp:492
 #, kde-format
 msgctxt "@info"
 msgid "Libgcrypt is a general purpose cryptographic library."
@@ -3440,6 +3472,9 @@ msgstr "निवेशप्रवाहे अमान्यः हेक्�
 #, kde-format
 msgid "Premature end of hex-encoded char in input stream"
 msgstr "इनपुट् स्ट्रीमे हेक्स-एन्कोडेड् char इत्यस्य अकालः अन्तः"
+
+#~ msgid "Error: Enter a value."
+#~ msgstr "त्रुटिः - मूल्यं प्रविशतु ।"
 
 #~ msgid "Subkey"
 #~ msgstr "उपकुंजी"

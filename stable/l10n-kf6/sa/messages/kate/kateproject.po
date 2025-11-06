@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-07-14 02:52+0000\n"
+"POT-Creation-Date: 2025-09-28 00:47+0000\n"
 "PO-Revision-Date: 2024-12-25 19:37+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -69,7 +69,7 @@ msgstr "शाखा"
 msgid "Last Commit"
 msgstr "अन्तिमप्रतिबद्धता"
 
-#: branchdeletedialog.cpp:137 kateprojecttreeviewcontextmenu.cpp:106
+#: branchdeletedialog.cpp:137 kateprojecttreeviewcontextmenu.cpp:107
 #, kde-format
 msgid "Delete"
 msgstr "लोपयन्तु"
@@ -86,7 +86,7 @@ msgstr[1] "किं भवन्तः निश्चिताः सन्त
 msgid "Select Branch..."
 msgstr "शाखा चयनं कुर्वन्तु..."
 
-#: branchesdialog.cpp:113 gitwidget.cpp:568 kateprojectpluginview.cpp:69
+#: branchesdialog.cpp:113 gitwidget.cpp:570 kateprojectpluginview.cpp:73
 #, kde-format
 msgid "Git"
 msgstr "गिट्"
@@ -119,8 +119,8 @@ msgstr "सक्रियशाखाः %1"
 msgid "Commit Changes"
 msgstr "परिवर्तनं प्रतिबद्धं कुर्वन्तु"
 
-#: gitcommitdialog.cpp:73 gitcommitdialog.cpp:119 gitwidget.cpp:283
-#: gitwidget.cpp:1105
+#: gitcommitdialog.cpp:73 gitcommitdialog.cpp:119 gitwidget.cpp:285
+#: gitwidget.cpp:1109
 #, kde-format
 msgid "Commit"
 msgstr "प्रतिबद्धतु"
@@ -150,7 +150,7 @@ msgstr "हस्ताक्षरं कुर्वन्तु"
 msgid "Amend"
 msgstr "संशोधन"
 
-#: gitcommitdialog.cpp:112 gitwidget.cpp:1058
+#: gitcommitdialog.cpp:112 gitwidget.cpp:1062
 #, kde-format
 msgid "Amend Last Commit"
 msgstr "अन्तिम समिति संशोधन"
@@ -160,375 +160,375 @@ msgstr "अन्तिम समिति संशोधन"
 msgid "Amending Commit"
 msgstr "संशोधन समिति"
 
-#: gitcommitdialog.cpp:207
+#: gitcommitdialog.cpp:206
 #, kde-format
 msgctxt "Number of characters"
 msgid "%1 / 52"
 msgstr "%1 / 52"
 
-#: gitcommitdialog.cpp:211
+#: gitcommitdialog.cpp:210
 #, kde-format
 msgctxt "Number of characters"
 msgid "<span style=\"color:%1;\">%2</span> / 52"
 msgstr "<span style=\"color:%1;\">%2</span> / 52"
 
-#: gitstatusmodel.cpp:85
+#: gitstatusmodel.cpp:97
 #, kde-format
 msgid "Staged"
 msgstr "मञ्चितः"
 
-#: gitstatusmodel.cpp:87
+#: gitstatusmodel.cpp:99
 #, kde-format
 msgid "Untracked"
 msgstr "अनिवृत्तः"
 
-#: gitstatusmodel.cpp:89
+#: gitstatusmodel.cpp:101
 #, kde-format
 msgid "Conflict"
 msgstr "द्वंद"
 
-#: gitstatusmodel.cpp:91
+#: gitstatusmodel.cpp:103
 #, kde-format
 msgid "Modified"
 msgstr "परिवर्तित"
 
-#: gitwidget.cpp:291
+#: gitwidget.cpp:293
 #, kde-format
 msgid "Git Push"
 msgstr "गित् पुश"
 
-#: gitwidget.cpp:304
+#: gitwidget.cpp:306
 #, kde-format
 msgid "Git Pull"
 msgstr "गित् पुल"
 
-#: gitwidget.cpp:317
+#: gitwidget.cpp:319
 #, kde-format
 msgid "Cancel Operation"
 msgstr "संचालन रद्दतुं"
 
-#: gitwidget.cpp:325
+#: gitwidget.cpp:327
 #, kde-format
 msgid " canceled."
 msgstr " रद्दं कृतम् ।."
 
-#: gitwidget.cpp:333
+#: gitwidget.cpp:335
 #, kde-format
 msgid "Refresh git status"
 msgstr "\"git\" स्थितिं ताजगीं कुर्वन्तु"
 
-#: gitwidget.cpp:355 kateprojectview.cpp:59
+#: gitwidget.cpp:357 kateprojectview.cpp:61
 #, kde-format
 msgid "Filter…"
 msgstr "छायांकन…"
 
-#: gitwidget.cpp:445
+#: gitwidget.cpp:447
 #, kde-format
 msgid "Failed to find .git directory for '%1', things may not work correctly"
 msgstr "'%1' कृते .git पुटं अन्वेष्टुं असफलम्, वस्तूनि सम्यक् कार्यं न कर्तुं शक्नुवन्ति"
 
-#: gitwidget.cpp:655
+#: gitwidget.cpp:659
 #, kde-format
 msgid " error: %1"
 msgstr " त्रुटिः %1"
 
-#: gitwidget.cpp:661
+#: gitwidget.cpp:665
 #, kde-format
 msgid "\"%1\" executed successfully: %2"
 msgstr "%1 सफलतया निष्पादितम्: %2"
 
-#: gitwidget.cpp:681
+#: gitwidget.cpp:685
 #, kde-format
 msgid "Failed to stage file. Error:"
 msgstr "सञ्चिकां प्रतिष्ठापयतुं असफलम्। त्रुटि:"
 
-#: gitwidget.cpp:694
+#: gitwidget.cpp:698
 #, kde-format
 msgid "Failed to unstage file. Error:"
 msgstr "सञ्चिकां विमोचयितुं असफलम्। त्रुटि:"
 
-#: gitwidget.cpp:705
+#: gitwidget.cpp:709
 #, kde-format
 msgid "Failed to discard changes. Error:"
 msgstr "परिवर्तनं परित्यक्तुं असफलम्। त्रुटि:"
 
-#: gitwidget.cpp:716
+#: gitwidget.cpp:720
 #, kde-format
 msgid "Failed to remove. Error:"
 msgstr "निष्कासयितुं असफलः अभवत्। त्रुटि:"
 
-#: gitwidget.cpp:732
+#: gitwidget.cpp:736
 #, kde-format
 msgid "Failed to open file at HEAD: %1"
 msgstr "HEAD: %1 इत्यत्र सञ्चिकां उद्घाटयितुं असफलम्"
 
-#: gitwidget.cpp:766
+#: gitwidget.cpp:770
 #, kde-format
 msgid "Failed to get Diff of file: %1"
 msgstr "सञ्चिकायाः भेद प्राप्तुं असफलम्: %1"
 
-#: gitwidget.cpp:835
+#: gitwidget.cpp:839
 #, kde-format
 msgid "Failed to commit: %1"
 msgstr "प्रतिबद्धं कर्तुं असफलम्: %1"
 
-#: gitwidget.cpp:839
+#: gitwidget.cpp:843
 #, kde-format
 msgid "Changes committed successfully."
 msgstr "परिवर्तनं सफलतया प्रतिबद्धम्।."
 
-#: gitwidget.cpp:849
+#: gitwidget.cpp:853
 #, kde-format
 msgid "Nothing to commit. Please stage your changes first."
 msgstr "न किमपि प्रतिबद्धम्। कृपया प्रथमं स्वपरिवर्तनानि प्रतिष्ठापयन्तु।."
 
-#: gitwidget.cpp:863
+#: gitwidget.cpp:867
 #, kde-format
 msgid "Commit message cannot be empty."
 msgstr "प्रतिबद्धसन्देशः रिक्तः न भवितुम् अर्हति ।."
 
-#: gitwidget.cpp:994
+#: gitwidget.cpp:998
 #, kde-format
 msgid "No diff for %1...%2"
 msgstr "%1...%2 कृते कोऽपि भेदः नास्ति"
 
-#: gitwidget.cpp:1000
+#: gitwidget.cpp:1004
 #, kde-format
 msgid "Failed to compare %1...%2"
 msgstr "%1...%2 तुलनां कर्तुं असफलम्"
 
-#: gitwidget.cpp:1015
+#: gitwidget.cpp:1019
 #, kde-format
 msgid "Failed to get numstat when diffing %1...%2"
 msgstr "%1...%2 भिन्नं कुर्वन् संख्यासांख्यिकीयम् प्राप्तुं असफलम्"
 
-#: gitwidget.cpp:1050
+#: gitwidget.cpp:1054
 #, kde-format
 msgid "Refresh"
 msgstr "ताजाय"
 
-#: gitwidget.cpp:1067
+#: gitwidget.cpp:1071
 #, kde-format
 msgid "Checkout Branch"
 msgstr "शाखां अधिक्रियते"
 
-#: gitwidget.cpp:1079
+#: gitwidget.cpp:1083
 #, kde-format
 msgid "Delete Branch"
 msgstr "शाखा विलोपयतु"
 
-#: gitwidget.cpp:1093
+#: gitwidget.cpp:1097
 #, kde-format
 msgid "Compare Branch with..."
 msgstr "शाखायाः तुलनां कुर्वन्तु..."
 
-#: gitwidget.cpp:1099
+#: gitwidget.cpp:1103
 #, kde-format
 msgid "Show Commit"
 msgstr "प्रतिबद्धं दर्शयतु"
 
-#: gitwidget.cpp:1117
+#: gitwidget.cpp:1121
 #, kde-format
 msgid "Show Last Commit"
 msgstr "अन्तिमप्रतिबद्धतां दर्शयतु"
 
-#: gitwidget.cpp:1135
+#: gitwidget.cpp:1139
 #, kde-format
 msgid "Open Commit..."
 msgstr "प्रतिबद्धता उद्घाटयतु..."
 
-#: gitwidget.cpp:1138 gitwidget.cpp:1183
+#: gitwidget.cpp:1142 gitwidget.cpp:1187
 #, kde-format
 msgid "Stash"
 msgstr "संग्रह"
 
-#: gitwidget.cpp:1142
+#: gitwidget.cpp:1146
 #, fuzzy, kde-format
 #| msgid "Show Git History"
 msgid "Show history"
 msgstr "गिट् इतिहासं दर्शयतु"
 
-#: gitwidget.cpp:1154
+#: gitwidget.cpp:1158
 #, kde-format
 msgid "Diff - stash"
 msgstr "विभेद - संग्रह"
 
-#: gitwidget.cpp:1187
+#: gitwidget.cpp:1191
 #, kde-format
 msgid "Pop Last Stash"
 msgstr "अन्तिम संग्रहं पॉप् कुर्वन्तु"
 
-#: gitwidget.cpp:1191
+#: gitwidget.cpp:1195
 #, kde-format
 msgid "Pop Stash"
 msgstr "संग्रहं पॉप् कुर्वन्तु"
 
-#: gitwidget.cpp:1195
+#: gitwidget.cpp:1199
 #, kde-format
 msgid "Apply Last Stash"
 msgstr "अन्तिम् संग्रह प्रयोजयन्तु"
 
-#: gitwidget.cpp:1197
+#: gitwidget.cpp:1201
 #, kde-format
 msgid "Stash (Keep Staged)"
 msgstr "संग्रह (स्थानं प्रतिष्ठापयतु)"
 
-#: gitwidget.cpp:1201
+#: gitwidget.cpp:1205
 #, kde-format
 msgid "Stash (Include Untracked)"
 msgstr "संग्रह (अनिरीक्षितं समावेशयन्तु)"
 
-#: gitwidget.cpp:1205
+#: gitwidget.cpp:1209
 #, kde-format
 msgid "Apply Stash"
 msgstr "संग्रह प्रयोजयन्तु"
 
-#: gitwidget.cpp:1206
+#: gitwidget.cpp:1210
 #, kde-format
 msgid "Drop Stash"
 msgstr "संग्रह पतनम्"
 
-#: gitwidget.cpp:1207
+#: gitwidget.cpp:1211
 #, kde-format
 msgid "Show Stash Content"
 msgstr "संग्रह सामग्रीं दर्शयतु"
 
-#: gitwidget.cpp:1245
+#: gitwidget.cpp:1249
 #, kde-format
 msgid "Stage All"
 msgstr "सर्वः स्थानं प्रतिष्ठापयति"
 
-#: gitwidget.cpp:1247
+#: gitwidget.cpp:1251
 #, kde-format
 msgid "Remove All"
 msgstr "सर्वं निष्कासयतु"
 
-#: gitwidget.cpp:1247
+#: gitwidget.cpp:1251
 #, kde-format
 msgid "Discard All"
 msgstr "सर्वाणि परित्यजन्तु"
 
-#: gitwidget.cpp:1250
+#: gitwidget.cpp:1254
 #, kde-format
 msgid "Open .gitignore"
 msgstr ".gitignore इति उद्घाटयन्तु"
 
-#: gitwidget.cpp:1251 gitwidget.cpp:1300 gitwidget.cpp:1351
+#: gitwidget.cpp:1255 gitwidget.cpp:1304 gitwidget.cpp:1355
 #: kateprojectconfigpage.cpp:90 kateprojectconfigpage.cpp:102
 #, kde-format
 msgid "Show Diff"
 msgstr "भेद दर्शयतु"
 
-#: gitwidget.cpp:1268
+#: gitwidget.cpp:1272
 #, kde-format
 msgid "Are you sure you want to remove these files?"
 msgstr "किं भवन्तः एताः सञ्चिकाः हर्तुं इच्छन्ति इति निश्चितम्?"
 
-#: gitwidget.cpp:1273
+#: gitwidget.cpp:1277
 #, kde-format
 msgid "Are you sure you want to discard all changes?"
 msgstr "किं भवान् निश्चयेन सर्वान् परिवर्तनान् परित्यक्तुं इच्छति?"
 
-#: gitwidget.cpp:1291
+#: gitwidget.cpp:1295
 #, kde-format
 msgid "Open File"
 msgstr "सञ्चिकां उद्घाटयन्तु"
 
-#: gitwidget.cpp:1292
+#: gitwidget.cpp:1296
 #, kde-format
 msgid "Unstage File"
 msgstr "सञ्चिकां स्थाने अप्रतिष्ठाप्यते"
 
-#: gitwidget.cpp:1292
+#: gitwidget.cpp:1296
 #, kde-format
 msgid "Stage File"
 msgstr "सञ्चिकां स्थानं प्रतिष्ठापयति"
 
-#: gitwidget.cpp:1293
+#: gitwidget.cpp:1297
 #, kde-format
 msgid "Remove"
 msgstr "निष्कासयतु"
 
-#: gitwidget.cpp:1293
+#: gitwidget.cpp:1297
 #, kde-format
 msgid "Discard"
 msgstr "परित्यजतु"
 
-#: gitwidget.cpp:1301
+#: gitwidget.cpp:1305
 #, kde-format
 msgid "Show in External Git Diff Tool"
 msgstr "बाह्य Git भेद् उपकरणं इत्यत्र दर्शयतु"
 
-#: gitwidget.cpp:1302
+#: gitwidget.cpp:1306
 #, kde-format
 msgid "Open at HEAD"
 msgstr "HEAD इत्यत्र उद्घाटितम्"
 
-#: gitwidget.cpp:1306
+#: gitwidget.cpp:1310
 #, fuzzy, kde-format
 #| msgid "Show Git History"
 msgid "Show History"
 msgstr "गिट् इतिहासं दर्शयतु"
 
-#: gitwidget.cpp:1322
+#: gitwidget.cpp:1326
 #, kde-format
 msgid "Are you sure you want to discard the changes in this file?"
 msgstr "किं भवान् निश्चयेन अस्मिन् सञ्चिकायां परिवर्तनं परित्यक्तुं इच्छति?"
 
-#: gitwidget.cpp:1333
+#: gitwidget.cpp:1337
 #, kde-format
 msgid "Are you sure you want to remove this file?"
 msgstr "किं भवान् निश्चितः अस्ति यत् भवान् एतां सञ्चिकां हर्तुं इच्छति?"
 
-#: gitwidget.cpp:1350
+#: gitwidget.cpp:1354
 #, kde-format
 msgid "Unstage All"
 msgstr "सर्वाणी स्थाने अप्रतिष्ठाप्यते"
 
-#: gitwidget.cpp:1417
+#: gitwidget.cpp:1421
 #, kde-format
 msgid "Unstage Selected Files"
 msgstr "चयनितसञ्चिकाः स्थाने अप्रतिष्ठाप्यते"
 
-#: gitwidget.cpp:1417
+#: gitwidget.cpp:1421
 #, kde-format
 msgid "Stage Selected Files"
 msgstr "चयनितसञ्चिकाः स्थानं प्रतिष्ठापयति"
 
-#: gitwidget.cpp:1418
+#: gitwidget.cpp:1422
 #, kde-format
 msgid "Discard Selected Files"
 msgstr "चयनितसञ्चिकाः परित्यजन्तु"
 
-#: gitwidget.cpp:1422
+#: gitwidget.cpp:1426
 #, kde-format
 msgid "Remove Selected Files"
 msgstr "चयनितसञ्चिकाः निष्कासयन्तु"
 
-#: gitwidget.cpp:1435
+#: gitwidget.cpp:1439
 #, kde-format
 msgid "Are you sure you want to discard the changes?"
 msgstr "किं भवन्तः परिवर्तनं परित्यक्तुं इच्छन्ति इति निश्चितम्?"
 
-#: gitwidget.cpp:1440
+#: gitwidget.cpp:1444
 #, kde-format
 msgid "Are you sure you want to remove these untracked changes?"
 msgstr "किं भवान् निश्चितः अस्ति यत् भवान् एतान् अनिरीक्षितपरिवर्तनानि दूरीकर्तुं इच्छति?"
 
-#: kateproject.cpp:300
+#: kateproject.cpp:299
 #, kde-format
 msgid "Malformed JSON file '%1': %2"
 msgstr "विकृत JSON सञ्चिका '%1': %2"
 
-#: kateproject.cpp:367 kateprojectplugin.cpp:734 kateprojectpluginview.cpp:74
-#: kateprojectpluginview.cpp:221 kateprojectviewtree.cpp:207
-#: kateprojectviewtree.cpp:218 kateprojectviewtree.cpp:245
-#: kateprojectviewtree.cpp:252
+#: kateproject.cpp:366 kateprojectplugin.cpp:760 kateprojectpluginview.cpp:78
+#: kateprojectpluginview.cpp:225 kateprojectviewtree.cpp:351
+#: kateprojectviewtree.cpp:362 kateprojectviewtree.cpp:392
+#: kateprojectviewtree.cpp:399
 #, kde-format
 msgid "Project"
 msgstr "प्रकल्प"
 
-#: kateproject.cpp:666
+#: kateproject.cpp:665
 #, kde-format
 msgid "<untracked>"
 msgstr "<untracked>"
@@ -605,7 +605,7 @@ msgstr "परियोजना अनुक्रमणिका"
 msgid "Project ctags index settings"
 msgstr "परियोजना ctags अनुक्रमणिका समयोजनानि"
 
-#: kateprojectconfigpage.cpp:58 kateprojectinfoviewindex.cpp:209
+#: kateprojectconfigpage.cpp:58 kateprojectinfoviewindex.cpp:210
 #, kde-format
 msgid "Enable indexing"
 msgstr "अनुक्रमणिकां सक्षमं कुर्वन्तु"
@@ -677,7 +677,7 @@ msgstr "स्थानं प्रतिष्ठापयति / स्थ�
 msgid "Double click action in the git status view"
 msgstr "\"git\" स्थितिदृश्ये क्रियायां द्विवारं नोदनम् कुर्वन्तु"
 
-#: kateprojectconfigpage.cpp:142 kateprojectpluginview.cpp:68
+#: kateprojectconfigpage.cpp:142 kateprojectpluginview.cpp:72
 #, kde-format
 msgid "Projects"
 msgstr "परियोजनाएँ"
@@ -688,61 +688,61 @@ msgctxt "Groupbox title"
 msgid "Projects Properties"
 msgstr "परियोजना गुणाः"
 
-#: kateprojectinfoview.cpp:80
+#: kateprojectinfoview.cpp:83
 #, fuzzy, kde-format
 #| msgid "Terminal (Base)"
 msgctxt "@title:tab"
 msgid "Terminal"
 msgstr "टर्मिनल् (आधार)"
 
-#: kateprojectinfoview.cpp:89
+#: kateprojectinfoview.cpp:92
 #, fuzzy, kde-format
 #| msgid "Terminal (.kateproject)"
 msgctxt "@title:tab"
 msgid "Terminal (Project)"
 msgstr "टर्मिनल् (.kateproject)"
 
-#: kateprojectinfoview.cpp:98
+#: kateprojectinfoview.cpp:101
 #, fuzzy, kde-format
 #| msgid "Terminal (Base)"
 msgctxt "@title:tab"
 msgid "Terminal (Base)"
 msgstr "टर्मिनल् (आधार)"
 
-#: kateprojectinfoview.cpp:107
+#: kateprojectinfoview.cpp:110
 #, fuzzy, kde-format
 #| msgid "Terminal (build)"
 msgctxt "@title:tab"
 msgid "Terminal (Build)"
 msgstr "टर्मिनल् (निर्माणम्)"
 
-#: kateprojectinfoview.cpp:114
+#: kateprojectinfoview.cpp:117
 #, kde-format
 msgid "Code Index"
 msgstr "विध्यादेश अनुक्रमणिका"
 
-#: kateprojectinfoview.cpp:119
+#: kateprojectinfoview.cpp:122
 #, kde-format
 msgid "Code Analysis"
 msgstr "विध्यादेश विश्लेषणम्"
 
-#: kateprojectinfoview.cpp:124
+#: kateprojectinfoview.cpp:127
 #, kde-format
 msgid "Notes"
 msgstr "टिप्पणियाँ"
 
-#: kateprojectinfoviewcodeanalysis.cpp:35
+#: kateprojectinfoviewcodeanalysis.cpp:34
 #, kde-format
 msgid "Start Analysis..."
 msgstr "विश्लेषणं आरभत..."
 
-#: kateprojectinfoviewcodeanalysis.cpp:43
+#: kateprojectinfoviewcodeanalysis.cpp:42
 #, kde-format
 msgctxt "'%1' refers to project name, e.g,. Code Analysis - MyProject"
 msgid "Code Analysis - %1"
 msgstr "विध्यादेश विश्लेषण - %1"
 
-#: kateprojectinfoviewcodeanalysis.cpp:100
+#: kateprojectinfoviewcodeanalysis.cpp:99
 #, kde-format
 msgid ""
 "'%1' is not installed on your system, %2.<br/><br/>%3. The tool will be run "
@@ -751,7 +751,7 @@ msgstr ""
 "'%1' भवतः प्रणाल्यां न संस्थापितम्, %2.<br/><br/>%3. साधनं सर्वेषु परियोजनासञ्चिकासु "
 "चालितं भविष्यति ये सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><b>%4</b>"
 
-#: kateprojectinfoviewcodeanalysis.cpp:110
+#: kateprojectinfoviewcodeanalysis.cpp:109
 #, kde-format
 msgid ""
 "Using %1 installed at: %2.<br/><br/>%3. The tool will be run on all project "
@@ -760,14 +760,14 @@ msgstr ""
 "%1 संस्थापितम् इत्यस्य उपयोगेन: %2.<br/><br/>%3. साधनं सर्वेषु परियोजनासञ्चिकासु चालितं "
 "भविष्यति ये सञ्चिकाविस्तारस्य एतस्याः सूचीयाः मेलनं कुर्वन्ति:<br/><b>%4</b>"
 
-#: kateprojectinfoviewcodeanalysis.cpp:152
-#: kateprojectinfoviewcodeanalysis.cpp:212
-#: kateprojectinfoviewcodeanalysis.cpp:216
+#: kateprojectinfoviewcodeanalysis.cpp:151
+#: kateprojectinfoviewcodeanalysis.cpp:211
+#: kateprojectinfoviewcodeanalysis.cpp:215
 #, kde-format
 msgid "CodeAnalysis"
 msgstr "विध्यादेश विश्लेषणम्"
 
-#: kateprojectinfoviewcodeanalysis.cpp:207
+#: kateprojectinfoviewcodeanalysis.cpp:206
 #, kde-format
 msgctxt ""
 "Message to the user that analysis finished. %1 is the name of the program "
@@ -778,72 +778,72 @@ msgid_plural "[%1]Analysis on %2 files finished."
 msgstr[0] "[%1] %2 सञ्चिकायां विश्लेषणं समाप्तम्।."
 msgstr[1] "[%1]%2 सञ्चिकासु विश्लेषणं समाप्तम् ।."
 
-#: kateprojectinfoviewcodeanalysis.cpp:215
+#: kateprojectinfoviewcodeanalysis.cpp:214
 #, kde-format
 msgid "Analysis failed with exit code %1, Error: %2"
 msgstr "निर्गमनसङ्केतेन %1, त्रुटिः: %2 इत्यनेन विश्लेषणं विफलम्"
 
-#: kateprojectinfoviewindex.cpp:35
+#: kateprojectinfoviewindex.cpp:36
 #, kde-format
 msgid "Name"
 msgstr "नामः"
 
-#: kateprojectinfoviewindex.cpp:35
+#: kateprojectinfoviewindex.cpp:36
 #, kde-format
 msgid "Kind"
 msgstr "प्रकारः"
 
-#: kateprojectinfoviewindex.cpp:35
+#: kateprojectinfoviewindex.cpp:36
 #, kde-format
 msgid "File"
 msgstr "सञ्चिका"
 
-#: kateprojectinfoviewindex.cpp:35
+#: kateprojectinfoviewindex.cpp:36
 #, kde-format
 msgid "Line"
 msgstr "पंक्ति"
 
-#: kateprojectinfoviewindex.cpp:36
+#: kateprojectinfoviewindex.cpp:37
 #, kde-format
 msgid "Search"
 msgstr "अन्वेषण"
 
-#: kateprojectinfoviewindex.cpp:198
+#: kateprojectinfoviewindex.cpp:199
 #, kde-format
 msgid "The index could not be created. Please install 'ctags'."
 msgstr "अनुक्रमणिका निर्मातुं न शक्यते स्म । कृपया 'ctags' संस्थापयन्तु।."
 
-#: kateprojectinfoviewindex.cpp:208
+#: kateprojectinfoviewindex.cpp:209
 #, kde-format
 msgid "Indexing is not enabled"
 msgstr "अनुक्रमणिका सक्षमा नास्ति"
 
-#: kateprojectitem.cpp:166
+#: kateprojectitem.cpp:164
 #, kde-format
 msgid "Error"
 msgstr "त्रुटि"
 
-#: kateprojectitem.cpp:166
+#: kateprojectitem.cpp:164
 #, kde-format
 msgid "File name already exists"
 msgstr "सञ्चिकानाम पूर्वमेव अस्ति"
 
-#: kateprojectplugin.cpp:217
+#: kateprojectplugin.cpp:240
 #, kde-format
 msgid "Confirm project closing: %1"
 msgstr "परियोजना समापनस्य पुष्टिं कुर्वन्तु: %1"
 
-#: kateprojectplugin.cpp:218
+#: kateprojectplugin.cpp:241
 #, kde-format
 msgid "Do you want to close the project %1 and the related %2 open documents?"
 msgstr "किं भवान् परियोजना %1 तथा तत्सम्बद्धानि %2 उद्घाटितदस्तावेजानि पिधातुम् इच्छति?"
 
-#: kateprojectplugin.cpp:600
+#: kateprojectplugin.cpp:626
 #, kde-format
 msgid "Full path to current project excluding the file name."
 msgstr "सञ्चिकानाम विहाय वर्तमानप्रकल्पस्य पूर्णमार्गः ।."
 
-#: kateprojectplugin.cpp:617
+#: kateprojectplugin.cpp:643
 #, kde-format
 msgid ""
 "Full path to current project excluding the file name, with native path "
@@ -852,192 +852,197 @@ msgstr ""
 "सञ्चिकानाम विहाय वर्तमानप्रकल्पस्य पूर्णमार्गः, देशीमार्गविभाजकेन (गवाक्ष इत्यत्र "
 "प्रतिक्रिया) सह ।."
 
-#: kateprojectpluginview.cpp:58
+#: kateprojectpluginview.cpp:62
 #, kde-format
 msgid "Project Manager"
 msgstr "परियोजना प्रबन्धक"
 
-#: kateprojectpluginview.cpp:80
+#: kateprojectpluginview.cpp:84
 #, kde-format
 msgid "Open projects list"
 msgstr "परियोजनासूचीं उद्घाटयन्तु"
 
-#: kateprojectpluginview.cpp:85
+#: kateprojectpluginview.cpp:89
 #, kde-format
 msgid "Reload project"
 msgstr "परियोजना पुनः आरोपयतुम्"
 
-#: kateprojectpluginview.cpp:88
+#: kateprojectpluginview.cpp:92
 #, kde-format
 msgid "Close project"
 msgstr "परियोजनां बन्दं कुर्वन्तु"
 
-#: kateprojectpluginview.cpp:164
+#: kateprojectpluginview.cpp:168
 #, kde-format
 msgid "Open &Folder..."
 msgstr "&पुटं उद्घाटयन्तु..."
 
-#: kateprojectpluginview.cpp:170
+#: kateprojectpluginview.cpp:174
 #, kde-format
 msgid "Project TODOs"
 msgstr "परियोजना कर्तव्यम्"
 
-#: kateprojectpluginview.cpp:175
+#: kateprojectpluginview.cpp:179
 #, kde-format
 msgid "Activate Previous Project"
 msgstr "पूर्व परियोजना सक्रिय करें"
 
-#: kateprojectpluginview.cpp:181
+#: kateprojectpluginview.cpp:185
 #, kde-format
 msgid "Activate Next Project"
 msgstr "अग्रिमः परियोजना सक्रियं कुर्वन्तु"
 
-#: kateprojectpluginview.cpp:187
+#: kateprojectpluginview.cpp:191
 #, kde-format
 msgid "Lookup"
 msgstr "पश्यतु"
 
-#: kateprojectpluginview.cpp:192
+#: kateprojectpluginview.cpp:196
 #, kde-format
 msgid "Close Project"
 msgstr "परियोजनां बन्दं कुर्वन्तु"
 
-#: kateprojectpluginview.cpp:197
+#: kateprojectpluginview.cpp:201
 #, kde-format
 msgid "Close All Projects"
 msgstr "सर्वाणि परियोजनानि बन्दं कुर्वन्तु"
 
-#: kateprojectpluginview.cpp:202
+#: kateprojectpluginview.cpp:206
 #, kde-format
 msgid "Close Orphaned Projects"
 msgstr "अनाथ परियोजनानि बन्दं कुर्वन्तु"
 
-#: kateprojectpluginview.cpp:207
+#: kateprojectpluginview.cpp:211
 #, kde-format
 msgid "Reload Project"
 msgstr "परियोजना आरोपयतु"
 
-#: kateprojectpluginview.cpp:218
+#: kateprojectpluginview.cpp:222
 #, kde-format
 msgid "Checkout Git Branch"
 msgstr "गिट् शाखां अधिक्रियते"
 
-#: kateprojectpluginview.cpp:224 kateprojectpluginview.cpp:797
+#: kateprojectpluginview.cpp:228 kateprojectpluginview.cpp:792
 #, kde-format
 msgid "Lookup: %1"
 msgstr "अवलोकनम् : %1"
 
-#: kateprojectpluginview.cpp:225 kateprojectpluginview.cpp:798
+#: kateprojectpluginview.cpp:229 kateprojectpluginview.cpp:793
 #, kde-format
 msgid "Goto: %1"
 msgstr "गच्छतु: %1"
 
-#: kateprojectpluginview.cpp:299
+#: kateprojectpluginview.cpp:303
 #, kde-format
 msgid "Projects Index"
 msgstr "परियोजना अनुक्रमणिका"
 
-#: kateprojectpluginview.cpp:842
+#: kateprojectpluginview.cpp:837
 #, kde-format
 msgid "Choose a directory"
 msgstr "पुटं चिनोतु"
 
-#: kateprojecttreeviewcontextmenu.cpp:45
+#: kateprojecttreeviewcontextmenu.cpp:46
 #, kde-format
 msgid "Enter name:"
 msgstr "नाम प्रविशतु :"
 
-#: kateprojecttreeviewcontextmenu.cpp:62
+#: kateprojecttreeviewcontextmenu.cpp:63
 #, kde-format
 msgid "Delete File"
 msgstr "सञ्चिकां विलोपयतु"
 
-#: kateprojecttreeviewcontextmenu.cpp:63
+#: kateprojecttreeviewcontextmenu.cpp:64
 #, kde-format
 msgid "Do you want to delete the file '%1'?"
 msgstr "किं भवान् '%1' सञ्चिकां विलोपयितुम् इच्छति?"
 
-#: kateprojecttreeviewcontextmenu.cpp:90
+#: kateprojecttreeviewcontextmenu.cpp:91
 #, kde-format
 msgid "Copy Location"
 msgstr "स्थानं प्रतिलिख्यताम्"
 
-#: kateprojecttreeviewcontextmenu.cpp:97
+#: kateprojecttreeviewcontextmenu.cpp:98
 #, kde-format
 msgid "New File…"
 msgstr "नवीनं सञ्चिका…"
 
-#: kateprojecttreeviewcontextmenu.cpp:98
+#: kateprojecttreeviewcontextmenu.cpp:99
 #, kde-format
 msgid "New Folder…"
 msgstr "नवीनं पुटम्…"
 
-#: kateprojecttreeviewcontextmenu.cpp:105
+#: kateprojecttreeviewcontextmenu.cpp:106
 #, kde-format
 msgid "&Rename"
 msgstr "&नामान्त्रितम्"
 
-#: kateprojecttreeviewcontextmenu.cpp:112
+#: kateprojecttreeviewcontextmenu.cpp:113
 #, kde-format
 msgid "Properties"
 msgstr "गुणाः"
 
-#: kateprojecttreeviewcontextmenu.cpp:116
+#: kateprojecttreeviewcontextmenu.cpp:117
 #, kde-format
 msgid "Open With"
 msgstr "एतेन् सह उद्घाटयन्तु"
 
-#: kateprojecttreeviewcontextmenu.cpp:124
+#: kateprojecttreeviewcontextmenu.cpp:125
 #, kde-format
 msgid "Open Internal Terminal Here"
 msgstr "अत्र आन्तरिकं टर्मिनल् उद्घाटयन्तु"
 
-#: kateprojecttreeviewcontextmenu.cpp:133
+#: kateprojecttreeviewcontextmenu.cpp:137
 #, kde-format
 msgid "Open External Terminal Here"
 msgstr "अत्र बाह्य टर्मिनल् उद्घाटयन्तु"
 
-#: kateprojecttreeviewcontextmenu.cpp:138
+#: kateprojecttreeviewcontextmenu.cpp:143
 #, kde-format
 msgid "&Open Containing Folder"
 msgstr "&समाविष्टं पुटं उद्घाटयन्तु"
 
-#: kateprojecttreeviewcontextmenu.cpp:147
+#: kateprojecttreeviewcontextmenu.cpp:152
 #, kde-format
 msgid "Show Git History"
 msgstr "गिट् इतिहासं दर्शयतु"
 
-#: kateprojecttreeviewcontextmenu.cpp:211
+#: kateprojecttreeviewcontextmenu.cpp:216
 #, kde-format
 msgid "New File"
 msgstr "नवीनं सञ्चिका"
 
-#: kateprojecttreeviewcontextmenu.cpp:216
+#: kateprojecttreeviewcontextmenu.cpp:221
 #, kde-format
 msgid "New Folder"
 msgstr "नवीनं पुटम्"
 
-#: kateprojectviewtree.cpp:207
+#: kateprojectviewtree.cpp:351
 #, fuzzy, kde-format
 #| msgid "File name already exists"
 msgid "The file already exists"
 msgstr "सञ्चिकानाम पूर्वमेव अस्ति"
 
-#: kateprojectviewtree.cpp:218
+#: kateprojectviewtree.cpp:362
 #, kde-format
 msgid "Failed to create file: %1, Error: %2"
 msgstr "सञ्चिकां निर्मातुं असफलम्: %1, त्रुटिः: %2"
 
-#: kateprojectviewtree.cpp:245
+#: kateprojectviewtree.cpp:392
 #, fuzzy, kde-format
 #| msgid "File name already exists"
 msgid "The directory already exists"
 msgstr "सञ्चिकानाम पूर्वमेव अस्ति"
 
-#: kateprojectviewtree.cpp:252
+#: kateprojectviewtree.cpp:399
 #, kde-format
 msgid "Failed to create dir: %1"
 msgstr "पुटं निर्मातुं असफलम्: %1"
+
+#: kateprojectworker.cpp:202
+#, kde-format
+msgid "Unable to find directory: %1"
+msgstr ""
 
 #: kateprojectworker.cpp:730
 #, kde-format
@@ -1076,52 +1081,52 @@ msgstr "सन्देशं स्तम्भयन्तु (वैकल्
 msgid "Type to filter, Enter to pop stash, Esc to leave."
 msgstr "छानने टङ्कयन्तु, संग्रहं पॉप् कुर्वन्तुं कृते ENTER, त्यक्तुं Esc इति टङ्कयन्तु ।."
 
-#: stashdialog.cpp:141
+#: stashdialog.cpp:142
 #, kde-format
 msgid "Failed to stash changes %1"
 msgstr "परिवर्तनं %1 स्थापनं कर्तुं असफलम्"
 
-#: stashdialog.cpp:143
+#: stashdialog.cpp:144
 #, kde-format
 msgid "Changes stashed successfully."
 msgstr "परिवर्तनं सफलतया निगूढम्।."
 
-#: stashdialog.cpp:162
+#: stashdialog.cpp:163
 #, kde-format
 msgid "Failed to get stash list. Error: "
 msgstr "संग्रहं सुचि प्राप्तुं असफलम्। त्रुटि: "
 
-#: stashdialog.cpp:178
+#: stashdialog.cpp:179
 #, kde-format
 msgid "Failed to apply stash. Error: "
 msgstr "संग्रहं प्रयोक्तुं असफलः अभवत् । त्रुटि: "
 
-#: stashdialog.cpp:180
+#: stashdialog.cpp:181
 #, kde-format
 msgid "Failed to drop stash. Error: "
 msgstr "संग्रहं पातयितुं असफलम्। त्रुटि: "
 
-#: stashdialog.cpp:182
+#: stashdialog.cpp:183
 #, kde-format
 msgid "Failed to pop stash. Error: "
 msgstr "संग्रहं प्रयुक्तम् पॉप् कर्तुं असफलम्। त्रुटि: "
 
-#: stashdialog.cpp:186
+#: stashdialog.cpp:187
 #, kde-format
 msgid "Stash applied successfully."
 msgstr "संग्रहं सफलतया प्रयुक्तम्."
 
-#: stashdialog.cpp:188
+#: stashdialog.cpp:189
 #, kde-format
 msgid "Stash dropped successfully."
 msgstr "संग्रहं सफलतया पतितः।."
 
-#: stashdialog.cpp:190
+#: stashdialog.cpp:191
 #, kde-format
 msgid "Stash popped successfully."
 msgstr "संग्रहं सफलतया पोप् अभवत्।."
 
-#: stashdialog.cpp:219
+#: stashdialog.cpp:220
 #, kde-format
 msgid "Show stash failed. Error: "
 msgstr "संग्रहं दर्शयतु विफलम् अभवत्। त्रुटि: "

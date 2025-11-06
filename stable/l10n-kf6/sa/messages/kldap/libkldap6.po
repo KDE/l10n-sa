@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kldap\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-24 00:43+0000\n"
+"POT-Creation-Date: 2025-09-23 00:44+0000\n"
 "PO-Revision-Date: 2024-12-20 21:52+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -24,64 +24,64 @@ msgstr ""
 msgid "No LDAP Support..."
 msgstr "LDAP समर्थनं नास्ति..."
 
-#: core/ldapconnection.cpp:241
+#: core/ldapconnection.cpp:243
 #, kde-format
 msgid "An error occurred during the connection initialization phase."
 msgstr "संयोजनप्रारम्भचरणस्य समये त्रुटिः अभवत् ।"
 
-#: core/ldapconnection.cpp:248
+#: core/ldapconnection.cpp:250
 #, kde-format
 msgid "Cannot set protocol version to %1."
 msgstr "प्रोटोकॉलसंस्करणं %1 इति सेट् कर्तुं न शक्यते ।"
 
-#: core/ldapconnection.cpp:259
+#: core/ldapconnection.cpp:261
 #, kde-format
 msgid "Cannot set timeout to %1 second."
 msgid_plural "Cannot set timeout to %1 seconds."
 msgstr[0] "%1 सेकण्ड् इति समयसमाप्तिः सेट् कर्तुं न शक्यते ।"
 msgstr[1] "%1 सेकण्ड् इति समयसमाप्तिः सेट् कर्तुं न शक्यते ।"
 
-#: core/ldapconnection.cpp:271
+#: core/ldapconnection.cpp:273
 #, kde-format
 msgid "Could not set CA certificate file."
 msgstr "CA प्रमाणपत्रसञ्चिकां सेट् कर्तुं न शक्तवान् ।"
 
-#: core/ldapconnection.cpp:296
+#: core/ldapconnection.cpp:298
 #, kde-format
 msgid "Invalid TLS require certificate mode."
 msgstr "अमान्य TLS प्रमाणपत्रविधानस्य आवश्यकता भवति ।"
 
-#: core/ldapconnection.cpp:301
+#: core/ldapconnection.cpp:303
 #, kde-format
 msgid "Could not set TLS require certificate mode."
 msgstr "TLS इत्यस्य प्रमाणपत्रविधानस्य आवश्यकता सेट् कर्तुं न शक्तम् ।"
 
-#: core/ldapconnection.cpp:310
+#: core/ldapconnection.cpp:312
 #, kde-format
 msgid "Could not initialize new TLS context."
 msgstr "नूतनं TLS सन्दर्भं आरभुं न शक्तवान् ।"
 
-#: core/ldapconnection.cpp:327
+#: core/ldapconnection.cpp:329
 #, kde-format
 msgid "TLS support not available in the LDAP client libraries."
 msgstr "LDAP क्लायन्ट् पुस्तकालयेषु TLS समर्थनं उपलब्धं नास्ति ।"
 
-#: core/ldapconnection.cpp:337
+#: core/ldapconnection.cpp:339
 #, kde-format
 msgid "Cannot set size limit."
 msgstr "आकारसीमा निर्धारयितुं न शक्यते।"
 
-#: core/ldapconnection.cpp:347
+#: core/ldapconnection.cpp:349
 #, kde-format
 msgid "Cannot set time limit."
 msgstr "समयसीमा निर्धारयितुं न शक्यते।"
 
-#: core/ldapconnection.cpp:355
+#: core/ldapconnection.cpp:357
 #, kde-format
 msgid "Cannot initialize the SASL client."
 msgstr "SASL क्लायन्ट् प्रारम्भं कर्तुं न शक्यते ।"
 
-#: core/ldapconnection.cpp:432
+#: core/ldapconnection.cpp:434
 #, kde-format
 msgid ""
 "LDAP support not compiled in. Please recompile libkldap with the OpenLDAP "
@@ -111,47 +111,47 @@ msgstr "विन्यस्तं कुर्वन्तु"
 msgid "Activities"
 msgstr "गतिविधयः"
 
-#: widgets/ldapconfigurewidgetng.cpp:39
+#: widgets/ldapconfigurewidgetng.cpp:38
 #, kde-format
 msgid "Show only ldap servers on current activity"
 msgstr "वर्तमानक्रियाकलापस्य उपरि केवलं ldap सर्वरान् दर्शयतु"
 
-#: widgets/ldapconfigurewidgetng.cpp:122
+#: widgets/ldapconfigurewidgetng.cpp:121
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Host"
 msgstr "होस्ट सम्पादयतु"
 
-#: widgets/ldapconfigurewidgetng.cpp:139
+#: widgets/ldapconfigurewidgetng.cpp:138
 #, kde-format
 msgid "Do you want to remove setting for host \"%1\"?"
 msgstr "किं भवान् \"%1\" होस्ट् कृते सेटिङ्ग् अपसारयितुम् इच्छति?"
 
-#: widgets/ldapconfigurewidgetng.cpp:140
+#: widgets/ldapconfigurewidgetng.cpp:139
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove Host"
 msgstr "होस्ट् निष्कासयन्तु"
 
-#: widgets/ldapconfigurewidgetng.cpp:213
+#: widgets/ldapconfigurewidgetng.cpp:212
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Check all servers that should be used:"
 msgstr "येषां सर्वेषां सर्वराणां उपयोगः करणीयः, तेषां जाँचं कुर्वन्तु:"
 
-#: widgets/ldapconfigurewidgetng.cpp:261
+#: widgets/ldapconfigurewidgetng.cpp:260
 #, kde-format
 msgctxt "@action:button"
 msgid "&Add Host…"
 msgstr "&Host योजयतु…"
 
-#: widgets/ldapconfigurewidgetng.cpp:263
+#: widgets/ldapconfigurewidgetng.cpp:262
 #, kde-format
 msgctxt "@action:button"
 msgid "&Edit Host…"
 msgstr "&सम्पादन मेजबान…"
 
-#: widgets/ldapconfigurewidgetng.cpp:266
+#: widgets/ldapconfigurewidgetng.cpp:265
 #, kde-format
 msgctxt "@action:button"
 msgid "&Remove Host"

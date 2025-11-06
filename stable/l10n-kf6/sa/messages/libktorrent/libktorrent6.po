@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libktorrent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-06-24 00:42+0000\n"
+"POT-Creation-Date: 2025-10-22 00:43+0000\n"
 "PO-Revision-Date: 2024-12-14 13:33+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -59,21 +59,21 @@ msgid "Checking Data"
 msgstr "दत्तांशस्य जाँचः"
 
 #: src/datachecker/multidatachecker.cpp:185
-#: src/datachecker/singledatachecker.cpp:38 src/diskio/multifilecache.cpp:627
-#: src/diskio/multifilecache.cpp:662 src/torrent/torrentcreator.cpp:109
+#: src/datachecker/singledatachecker.cpp:38 src/diskio/multifilecache.cpp:626
+#: src/diskio/multifilecache.cpp:661 src/torrent/torrentcreator.cpp:109
 #: src/torrent/torrentcreator.cpp:230 src/torrent/torrentcreator.cpp:262
 #, kde-format
 msgid "Cannot open file %1: %2"
 msgstr "%1: %2 सञ्चिकां उद्घाटयितुं न शक्यते"
 
-#: src/diskio/cache.cpp:172 src/diskio/multifilecache.cpp:101
+#: src/diskio/cache.cpp:172 src/diskio/multifilecache.cpp:100
 #: src/diskio/singlefilecache.cpp:72
 #, kde-format
 msgid "Failed to create %1: %2"
 msgstr "%1: %2 निर्मातुं असफलम्"
 
-#: src/diskio/cachefile.cpp:86 src/util/fileops.cpp:324
-#: src/util/fileops.cpp:367
+#: src/diskio/cachefile.cpp:86 src/util/fileops.cpp:321
+#: src/util/fileops.cpp:364
 #, kde-format
 msgid "Cannot open %1: %2"
 msgstr "%1: %2 उद्घाटयितुं न शक्यते"
@@ -130,17 +130,17 @@ msgstr "डिस्कस्थानं पूर्वविनियोग�
 msgid "Cannot open index file %1: %2"
 msgstr "अनुक्रमणिकासञ्चिका %1: %2 उद्घाटयितुं न शक्यते"
 
-#: src/diskio/dndfile.cpp:74
+#: src/diskio/dndfile.cpp:77
 #, kde-format
 msgid "Cannot create file %1: %2"
 msgstr "%1: %2 सञ्चिकां निर्मातुं न शक्यते"
 
-#: src/diskio/dndfile.cpp:116
+#: src/diskio/dndfile.cpp:119
 #, kde-format
 msgid "Failed to write first chunk to DND file: %1"
 msgstr "प्रथमं खण्डं DND सञ्चिकायां लिखितुं असफलम्: %1"
 
-#: src/diskio/dndfile.cpp:131
+#: src/diskio/dndfile.cpp:134
 #, kde-format
 msgid "Failed to write last chunk to DND file: %1"
 msgstr "DND सञ्चिकायां अन्तिमखण्डं लिखितुं असफलम्: %1"
@@ -168,7 +168,7 @@ msgctxt "@title job"
 msgid "Moving"
 msgstr "चलन्"
 
-#: src/diskio/multifilecache.cpp:76 src/diskio/singlefilecache.cpp:62
+#: src/diskio/multifilecache.cpp:75 src/diskio/singlefilecache.cpp:62
 #, kde-format
 msgid "Failed to open %1: %2"
 msgstr "%1: %2 उद्घाटयितुं असफलम्"
@@ -178,90 +178,90 @@ msgstr "%1: %2 उद्घाटयितुं असफलम्"
 msgid "Unable to write to a piece mapped read only"
 msgstr "केवलं पठनीयं नक्शाङ्कितं खण्डं लिखितुं असमर्थः"
 
-#: src/download/chunkdownload.cpp:344
+#: src/download/chunkdownload.cpp:341
 #, kde-format
 msgid "1 peer"
 msgid_plural "%1 peers"
 msgstr[0] "१ समवयस्कः"
 msgstr[1] "%1 समवयस्काः"
 
-#: src/download/downloader.cpp:695
+#: src/download/downloader.cpp:691
 #, kde-format
 msgid "Disabled because webseed does not match torrent"
 msgstr "अक्षमम् यतः webseed torrent इत्यनेन सह न मेलति"
 
-#: src/download/httpconnection.cpp:31 src/download/webseed.cpp:42
-#: src/download/webseed.cpp:87
+#: src/download/httpconnection.cpp:29 src/download/webseed.cpp:39
+#: src/download/webseed.cpp:82
 #, kde-format
 msgid "Not connected"
 msgstr "न संबद्धः"
 
-#: src/download/httpconnection.cpp:98
+#: src/download/httpconnection.cpp:95
 #, kde-format
 msgid "Resolving proxy %1:%2"
 msgstr "%1:%2 प्रॉक्सी समाधानं कुर्वन्"
 
-#: src/download/httpconnection.cpp:102 src/download/httpconnection.cpp:116
+#: src/download/httpconnection.cpp:99 src/download/httpconnection.cpp:113
 #, kde-format
 msgid "Not enough system resources available"
 msgstr "पर्याप्तं प्रणालीसंसाधनं उपलब्धं नास्ति"
 
-#: src/download/httpconnection.cpp:112
+#: src/download/httpconnection.cpp:109
 #, kde-format
 msgid "Resolving hostname %1"
 msgstr "होस्टनाम %1 समाधानं कुर्वन्"
 
-#: src/download/httpconnection.cpp:128 src/download/webseed.cpp:315
+#: src/download/httpconnection.cpp:125 src/download/webseed.cpp:310
 #, kde-format
 msgid "Connection closed"
 msgstr "संयोजनं बन्दम्"
 
-#: src/download/httpconnection.cpp:132
+#: src/download/httpconnection.cpp:129
 #, kde-format
 msgid "Error: request failed: %1"
 msgstr "त्रुटिः: अनुरोधः विफलः: %1"
 
-#: src/download/httpconnection.cpp:156 src/download/httpconnection.cpp:183
+#: src/download/httpconnection.cpp:153 src/download/httpconnection.cpp:180
 #, kde-format
 msgid "Connected"
 msgstr "संबद्धः"
 
-#: src/download/httpconnection.cpp:164
+#: src/download/httpconnection.cpp:161
 #, kde-format
 msgid "Error: Failed to connect to webseed"
 msgstr "त्रुटिः: webseed इत्यनेन सह सम्बद्धं कर्तुं असफलम्"
 
-#: src/download/httpconnection.cpp:188
+#: src/download/httpconnection.cpp:185
 #, kde-format
 msgid "Connecting"
 msgstr "संयोजयन्"
 
-#: src/download/httpconnection.cpp:197
+#: src/download/httpconnection.cpp:194
 #, kde-format
 msgid "Failed to connect to webseed"
 msgstr "webseed इत्यनेन सह सम्बद्धतां प्राप्तुं असफलम्"
 
-#: src/download/httpconnection.cpp:202
+#: src/download/httpconnection.cpp:199
 #, kde-format
 msgid "Failed to resolve hostname of webseed"
 msgstr "webseed इत्यस्य hostname इत्यस्य समाधानं कर्तुं असफलम्"
 
-#: src/download/httpconnection.cpp:273
+#: src/download/httpconnection.cpp:270
 #, kde-format
 msgid "Error: failed to connect, server not responding"
 msgstr "त्रुटिः: संयोजितुं असफलः, सर्वरः प्रतिक्रियां न ददाति"
 
-#: src/download/httpconnection.cpp:283
+#: src/download/httpconnection.cpp:280
 #, kde-format
 msgid "Error: request timed out"
 msgstr "त्रुटिः : अनुरोधः समयः समाप्तः"
 
-#: src/download/httpconnection.cpp:353
+#: src/download/httpconnection.cpp:350
 #, kde-format
 msgid "Redirected without a new location."
 msgstr "नूतनस्थानं विना पुनर्निर्देशितम्।"
 
-#: src/download/webseed.cpp:502
+#: src/download/webseed.cpp:497
 #, kde-format
 msgid "Unused for %1 second (Too many connection failures)"
 msgid_plural "Unused for %1 seconds (Too many connection failures)"
@@ -293,30 +293,30 @@ msgstr "त्रुटिः %1"
 msgid "Unknown client"
 msgstr "अज्ञात ग्राहक"
 
-#: src/torrent/torrent.cpp:94 src/torrent/torrent.cpp:136
-#: src/torrent/torrent.cpp:163 src/torrent/torrent.cpp:170
-#: src/torrent/torrent.cpp:177 src/torrent/torrent.cpp:181
-#: src/torrent/torrent.cpp:201 src/torrent/torrent.cpp:264
+#: src/torrent/torrent.cpp:91 src/torrent/torrent.cpp:133
+#: src/torrent/torrent.cpp:160 src/torrent/torrent.cpp:167
+#: src/torrent/torrent.cpp:174 src/torrent/torrent.cpp:178
+#: src/torrent/torrent.cpp:198 src/torrent/torrent.cpp:261
 #, kde-format
 msgid "Corrupted torrent."
 msgstr "दूषित धारा।"
 
-#: src/torrent/torrentcontrol.cpp:279
+#: src/torrent/torrentcontrol.cpp:251
 #, kde-format
 msgid "Error writing to disk, do you have enough diskspace?"
 msgstr "डिस्कं प्रति लेखने त्रुटिः, भवतः समीपे पर्याप्तं डिस्कस्थानं अस्ति वा?"
 
-#: src/torrent/torrentcontrol.cpp:493
+#: src/torrent/torrentcontrol.cpp:464
 #, kde-format
 msgid "An error occurred while loading <b>%1</b>:<br/><b>%2</b>"
 msgstr "<b>%1</b> लोड् कुर्वन् त्रुटिः अभवत् :<br/> <b>%2</b>"
 
-#: src/torrent/torrentcontrol.cpp:503
+#: src/torrent/torrentcontrol.cpp:474
 #, kde-format
 msgid "Unable to create %1: %2"
 msgstr "%1: %2 निर्मातुं असमर्थः"
 
-#: src/torrent/torrentcontrol.cpp:516
+#: src/torrent/torrentcontrol.cpp:487
 #, kde-format
 msgid ""
 "You are already downloading the torrent <b>%1</b>. The tracker lists from "
@@ -325,7 +325,7 @@ msgstr ""
 "भवान् पूर्वमेव <b>%1 इति</b> टोरेण्ट् अवतरणं करोति । उभयोः टोरेण्ट्-तः ट्रैकर-सूचयः "
 "विलीनाः अभवन् ।"
 
-#: src/torrent/torrentcontrol.cpp:520
+#: src/torrent/torrentcontrol.cpp:491
 #, kde-format
 msgid "You are already downloading the torrent <b>%1</b>."
 msgstr "भवान् पूर्वमेव <b>%1 इति</b> टोरेण्ट् अवतरणं करोति ।"
@@ -457,12 +457,12 @@ msgstr ""
 msgid "Cannot find port forwarding service in the device's description."
 msgstr "यन्त्रस्य विवरणे पोर्ट् अग्रेषणसेवा न प्राप्यते ।"
 
-#: src/util/file.cpp:68
+#: src/util/file.cpp:87
 #, kde-format
 msgid "Cannot write to %1: %2"
 msgstr "%1: %2 इत्यत्र लिखितुं न शक्यते"
 
-#: src/util/file.cpp:81
+#: src/util/file.cpp:100
 #, kde-format
 msgid "Cannot read from %1"
 msgstr "%1 तः पठितुं न शक्यते"
@@ -487,37 +487,37 @@ msgstr "%1 - तः %2: %3 - मध्ये स्थानान्तरि�
 msgid "Cannot copy %1 to %2: %3"
 msgstr "%1 प्रति %2: %3 प्रति प्रतिलिपिं कर्तुं न शक्यते"
 
-#: src/util/fileops.cpp:250
+#: src/util/fileops.cpp:247
 #, kde-format
 msgid "Cannot delete %1: %2"
 msgstr "%1: %2 विलोपयितुं न शक्यते"
 
-#: src/util/fileops.cpp:266
+#: src/util/fileops.cpp:263
 #, kde-format
 msgid "Cannot create %1: %2"
 msgstr "%1: %2 निर्मातुं न शक्यते"
 
-#: src/util/fileops.cpp:283
+#: src/util/fileops.cpp:280
 #, kde-format
 msgid "Cannot calculate the filesize of %1: %2"
 msgstr "%1: %2 इत्यस्य सञ्चिकायाः आकारं गणयितुं न शक्यते"
 
-#: src/util/fileops.cpp:299
+#: src/util/fileops.cpp:296
 #, kde-format
 msgid "Cannot calculate the filesize: %1"
 msgstr "सञ्चिकायाः आकारस्य गणनां कर्तुं न शक्यते: %1"
 
-#: src/util/fileops.cpp:346 src/util/fileops.cpp:359
+#: src/util/fileops.cpp:343 src/util/fileops.cpp:356
 #, kde-format
 msgid "Cannot expand file: %1"
 msgstr "सञ्चिकां विस्तारयितुं न शक्यते: %1"
 
-#: src/util/fileops.cpp:385
+#: src/util/fileops.cpp:382
 #, kde-format
 msgid "Cannot seek in file: %1"
 msgstr "सञ्चिकायां अन्वेष्टुं न शक्यते: %1"
 
-#: src/util/fileops.cpp:626
+#: src/util/fileops.cpp:623
 #, kde-format
 msgid "Unable to open file %1: %2"
 msgstr "%1: %2 सञ्चिकां उद्घाटयितुं असमर्थः"
