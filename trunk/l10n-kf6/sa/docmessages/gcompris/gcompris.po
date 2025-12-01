@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-29 00:55+0000\n"
+"POT-Creation-Date: 2025-12-01 00:55+0000\n"
 "PO-Revision-Date: 2024-12-14 20:05+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -978,11 +978,35 @@ msgstr "कियोस्क मोड् (पूर्वनिर्धार
 #. Tag: entry
 #: index.docbook:320
 #, no-c-format
+msgid "--show-home-button"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:321
+#, no-c-format
+msgid "Show the Home button in the bar (default)."
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:324
+#, no-c-format
+msgid "--hide-home-button"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:325
+#, no-c-format
+msgid "Hide the Home button in the bar."
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:328
+#, no-c-format
 msgid "--renderer={renderer}"
 msgstr "--renderer={प्रतिपादक}"
 
 #. Tag: entry
-#: index.docbook:321
+#: index.docbook:329
 #, fuzzy, no-c-format
 #| msgid ""
 #| "Specify which graphical renderer to use. On all platforms, opengl and "
@@ -1000,13 +1024,13 @@ msgstr ""
 "शक्नुवन्ति ।"
 
 #. Tag: entry
-#: index.docbook:324
+#: index.docbook:332
 #, no-c-format
 msgid "--software-renderer"
 msgstr "--सॉफ्टवेयर रेंडरर"
 
 #. Tag: entry
-#: index.docbook:325
+#: index.docbook:333
 #, fuzzy, no-c-format
 #| msgid ""
 #| "Use software renderer instead of openGL (should work with any graphical "
@@ -1019,13 +1043,13 @@ msgstr ""
 "इत्यनेन सह कार्यं कर्तव्यम्) । अप्रचलितम्, तस्य स्थाने --renderer=सॉफ्टवेयरस्य उपयोगं कुर्वन्तु ।"
 
 #. Tag: entry
-#: index.docbook:328
+#: index.docbook:336
 #, no-c-format
 msgid "--opengl-renderer"
 msgstr "--opengl-प्रतिपादक"
 
 #. Tag: entry
-#: index.docbook:329
+#: index.docbook:337
 #, fuzzy, no-c-format
 #| msgid ""
 #| "Use openGL renderer instead of software (faster and more graphical "
@@ -1041,26 +1065,26 @@ msgstr ""
 "स्थाने --renderer=opengl इत्यस्य उपयोगं कुर्वन्तु ।"
 
 #. Tag: entry
-#: index.docbook:332
+#: index.docbook:340
 #, no-c-format
 msgid "--locale=locale"
 msgstr ""
 
 #. Tag: entry
-#: index.docbook:333
+#: index.docbook:341
 #, fuzzy, no-c-format
 #| msgid "Run &gcompris; with sound enabled."
 msgid "Run &gcompris; with the specified locale."
 msgstr "चालयन्तु &gcompris; ध्वनिसक्षमेण सह ।"
 
 #. Tag: title
-#: index.docbook:340
+#: index.docbook:348
 #, no-c-format
 msgid "&Windows; Example"
 msgstr "&विण्डोज; उदाहरण"
 
 #. Tag: para
-#: index.docbook:341
+#: index.docbook:349
 #, no-c-format
 msgid ""
 "You can add these switches in the desktop icon properties. Here is an "
@@ -1071,7 +1095,7 @@ msgstr ""
 "पूर्णपर्दे कियोस्क मोड् मध्ये, Configuration बटनं कर्सरं च विना:"
 
 #. Tag: command
-#: index.docbook:342
+#: index.docbook:350
 #, no-c-format
 msgid ""
 "\"C:\\Program Files\\GCompris-Qt\\bin\\GCompris.exe\" --enable-kioskmode -f -"
@@ -1081,13 +1105,13 @@ msgstr ""
 "kioskmode -f -C"
 
 #. Tag: title
-#: index.docbook:346
+#: index.docbook:354
 #, no-c-format
 msgid "&GNU;/&Linux; Example"
 msgstr "&GNU;/&लिनक्स; उदाहरण"
 
 #. Tag: para
-#: index.docbook:347
+#: index.docbook:355
 #, fuzzy, no-c-format
 #| msgid ""
 #| "Create an application launcher and configure the command line parameters. "
@@ -1102,38 +1126,38 @@ msgstr ""
 "&gcompris; पूर्णपर्दे कियोस्क मोड् मध्ये, Config बटनं कर्सरं च विना:"
 
 #. Tag: command
-#: index.docbook:348
+#: index.docbook:356
 #, no-c-format
 msgid "gcompris-qt --enable-kioskmode -f -C"
 msgstr "gcompris-qt --सक्षम-कियोस्कमोड -च -सी"
 
 #. Tag: title
-#: index.docbook:356
+#: index.docbook:364
 #, no-c-format
 msgid "Credits and License"
 msgstr "श्रेयः अनुज्ञापत्रं च"
 
 #. Tag: para
-#: index.docbook:358
+#: index.docbook:366
 #, no-c-format
 msgid "&gcompris;"
 msgstr "&comprised;"
 
 #. Tag: para
-#: index.docbook:361
+#: index.docbook:369
 #, fuzzy, no-c-format
 #| msgid "Program copyright 2000-2024 Timothée Giet and others"
 msgid "Program copyright © 2000–2025 Timothée Giet and others"
 msgstr "कार्यक्रमस्य प्रतिलिपिधर्मः २०००-२०२४ Timothée Giet इत्यादयः"
 
 #. Tag: trans_comment
-#: index.docbook:365
+#: index.docbook:373
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:365
+#: index.docbook:373
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
