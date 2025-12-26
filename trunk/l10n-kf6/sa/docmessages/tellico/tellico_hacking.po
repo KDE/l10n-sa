@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tellico_hacking\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2025-12-26 00:55+0000\n"
 "PO-Revision-Date: 2024-12-13 20:57+0530\n"
 "Last-Translator: Kali <EMAIL@ADDRESS>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -901,14 +901,14 @@ msgstr ""
 "परिवर्तयितुं शक्यते । पूर्वनिर्धारितं मूल्यं 96. आकारः 32 तः 512 पर्यन्तं भवितुमर्हति ।"
 
 #. Tag: title
-#: hacking.docbook:231 hacking.docbook:246 hacking.docbook:253
-#: hacking.docbook:268 hacking.docbook:292
+#: hacking.docbook:231 hacking.docbook:246 hacking.docbook:261
+#: hacking.docbook:285 hacking.docbook:304
 #, no-c-format
 msgid "Example"
 msgstr "उदाहरण"
 
 #. Tag: userinput
-#: hacking.docbook:233 hacking.docbook:255
+#: hacking.docbook:233
 #, no-c-format
 msgid "Max Icon Size=128"
 msgstr "अधिकतम चिह्न आकार = 128"
@@ -936,35 +936,38 @@ msgid "Icon Cache Size=100"
 msgstr "चिह्न संग्रह आकार = 100"
 
 #. Tag: title
-#: hacking.docbook:260
+#: hacking.docbook:253
 #, no-c-format
 msgid "Image Cache Size"
 msgstr "चित्र संग्रह आकार"
 
 #. Tag: para
-#: hacking.docbook:262
-#, no-c-format
+#: hacking.docbook:255
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The maximum amount of memory in bytes used for caching all the images may "
+#| "be changed with this setting. The default value is 67108864."
 msgid ""
 "The maximum amount of memory in bytes used for caching all the images may be "
-"changed with this setting. The default value is 67108864."
+"changed with this setting. The default value is 512 MiB."
 msgstr ""
 "सर्वाणि चित्राणि संग्रहणार्थं प्रयुक्तानि बाइट्-मात्रायां स्मृतेः अधिकतमं परिमाणं एतेन सेटिङ्ग् "
 "इत्यनेन परिवर्तयितुं शक्यते । पूर्वनिर्धारितं मूल्यं 67108864 अस्ति ।"
 
 #. Tag: userinput
-#: hacking.docbook:270
+#: hacking.docbook:263
 #, no-c-format
 msgid "Image Cache Size=256000000"
 msgstr "चित्र संग्रह आकार = 256000000"
 
 #. Tag: title
-#: hacking.docbook:277
+#: hacking.docbook:270
 #, no-c-format
 msgid "[Options - bibtex]"
 msgstr "[विकल्पाः - bibtex]"
 
 #. Tag: para
-#: hacking.docbook:279
+#: hacking.docbook:272
 #, no-c-format
 msgid ""
 "These settings should be placed in the <emphasis>Options - bibtex</emphasis> "
@@ -972,13 +975,13 @@ msgid ""
 msgstr "एतानि सेटिङ्ग्स् <emphasis>Options - bibtex</emphasis> समूहे स्थापनीयाः ।"
 
 #. Tag: title
-#: hacking.docbook:284
+#: hacking.docbook:277
 #, no-c-format
 msgid "lyxpipe"
 msgstr "lyxpipe इति"
 
 #. Tag: para
-#: hacking.docbook:286
+#: hacking.docbook:279
 #, no-c-format
 msgid ""
 "This setting is for the location of the lyxpipe for sending bibliographic "
@@ -989,19 +992,55 @@ msgstr ""
 "role=\"extension\">.in</literal> प्रत्ययः न समाविष्टः भवेत् ।"
 
 #. Tag: userinput
-#: hacking.docbook:294
+#: hacking.docbook:287
 #, no-c-format
 msgid "lyxpipe=$HOME/.lyx/lyxpipe"
 msgstr "lyxpipe=$HOME/.लिक्सपाइप/लिक्सपाइप"
 
 #. Tag: title
-#: hacking.docbook:302
+#: hacking.docbook:293
+#, fuzzy, no-c-format
+#| msgid "[General Options]"
+msgid "[File Reader Options]"
+msgstr "[सामान्यविकल्पाः] ।"
+
+#. Tag: para
+#: hacking.docbook:295
+#, fuzzy, no-c-format
+#| msgid ""
+#| "These settings should be placed in the <emphasis>General Options</"
+#| "emphasis> group."
+msgid ""
+"These settings should be placed in the <emphasis>File Reader Options</"
+"emphasis> group."
+msgstr "एतानि सेटिङ्ग्स् <emphasis>General Options</emphasis> इति समूहे स्थापनीयाः ।"
+
+#. Tag: title
+#: hacking.docbook:298
+#, no-c-format
+msgid "Preview Size"
+msgstr ""
+
+#. Tag: para
+#: hacking.docbook:300
+#, no-c-format
+msgid "This setting is for the maximum size of the generated file preview."
+msgstr ""
+
+#. Tag: userinput
+#: hacking.docbook:306
+#, no-c-format
+msgid "Preview Size=523"
+msgstr ""
+
+#. Tag: title
+#: hacking.docbook:313
 #, no-c-format
 msgid "Bibtex Character Translation"
 msgstr "बिबटेक्स चरित्र अनुवाद"
 
 #. Tag: para
-#: hacking.docbook:304
+#: hacking.docbook:315
 #, no-c-format
 msgid ""
 "When bibtex files are imported or exported, certain characters are "
@@ -1020,7 +1059,7 @@ msgstr ""
 "अर्हति । प्रथमं यत् bibtex - मध्ये निर्यातं कुर्वन् उपयुज्यते ।"
 
 #. Tag: programlisting
-#: hacking.docbook:308
+#: hacking.docbook:319
 #, no-c-format
 msgid ""
 "<![CDATA[\n"
@@ -1037,15 +1076,9 @@ msgstr ""
 "  </key> इति\n"
 "]]> इति"
 
-#. Tag: title
-#: hacking.docbook:313
-#, no-c-format
-msgid "XSLT Tricks"
-msgstr "XSLT Tricks"
+#~ msgid "XSLT Tricks"
+#~ msgstr "XSLT Tricks"
 
-#. Tag: para
-#: hacking.docbook:315
-#, no-c-format
-msgid ""
-"Here are some tips for writing XSLT to parse &appname; &XML; data: (TBD)."
-msgstr "अत्र &appname; &XML; दत्तांशः (TBD)।"
+#~ msgid ""
+#~ "Here are some tips for writing XSLT to parse &appname; &XML; data: (TBD)."
+#~ msgstr "अत्र &appname; &XML; दत्तांशः (TBD)।"
