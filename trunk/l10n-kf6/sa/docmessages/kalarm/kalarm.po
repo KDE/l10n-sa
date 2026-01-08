@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalarm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-01-07 00:56+0000\n"
+"POT-Creation-Date: 2026-01-08 00:55+0000\n"
 "PO-Revision-Date: 2024-12-21 10:52+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -66,14 +66,14 @@ msgstr "&डेविड.जार्वी;"
 #. Tag: date
 #: index.docbook:42
 #, no-c-format
-msgid "2026-1-6"
+msgid "2026-1-7"
 msgstr ""
 
 #. Tag: releaseinfo
 #: index.docbook:43
 #, fuzzy, no-c-format
 #| msgid "3.10.1 (KDE Gear 24.12.1)"
-msgid "3.12.0 (KDE Gear 25.12)"
+msgid "3.13.0 (KDE Gear 26.04)"
 msgstr "३.१०.१ (के.डी.ई. गियर २४.१२.१)"
 
 #. Tag: para
@@ -684,13 +684,19 @@ msgstr "वैकल्पिकरूपेण, भवान् विभिन
 
 #. Tag: para
 #: index.docbook:366
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "To preset the alarm's date in the <link linkend=\"alarm-edit-dlg\">Alarm "
+#| "Edit dialog</link>, <mousebutton>right</mousebutton> click on the desired "
+#| "date in the alarm date selector (see <link linkend=\"datepicker"
+#| "\">Filtering the Alarm List by Date</link>) and select the appropriate "
+#| "alarm type from the context menu."
 msgid ""
-"To preset the alarm's date in the <link linkend=\"alarm-edit-dlg\">Alarm "
-"Edit dialog</link>, <mousebutton>right</mousebutton> click on the desired "
-"date in the alarm date selector (see <link linkend=\"datepicker\">Filtering "
-"the Alarm List by Date</link>) and select the appropriate alarm type from "
-"the context menu."
+"To preset the alarm's date in the <link linkend=\"alarm-edit-dlg-time"
+"\">Alarm Edit dialog</link>, <mousebutton>right</mousebutton> click on the "
+"desired date in the alarm date selector (see <link linkend=\"datepicker"
+"\">Filtering the Alarm List by Date</link>) and select the appropriate alarm "
+"type from the context menu."
 msgstr ""
 "अलार्मस्य तिथिं पूर्वनिर्धारयितुं...<link linkend=\"alarm-edit-dlg\"> अलार्म सम्पादन "
 "संवाद</link> , ९.<mousebutton> दक्षिणः</mousebutton> अलार्म तिथिचयनके इष्टतिथिं "
@@ -3622,6 +3628,18 @@ msgstr ""
 #: index.docbook:1973
 #, no-c-format
 msgid ""
+"Display alarms are normally suspended while notifications are inhibited for "
+"the desktop, and do not display on top of full screen applications. To "
+"override these restrictions and always display the alarm if at all possible, "
+"select the <guilabel>Never inhibit alarms</guilabel> check box. Note that "
+"the ability to display messages over full screen applications may depend on "
+"your window manager, and currently only the X11 windowing system allows this."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1982
+#, no-c-format
+msgid ""
 "Select <guilabel>Show in &korganizer;</guilabel> to add the alarm to "
 "&korganizer;'s active calendar, where it will appear as an event without an "
 "alarm. This option allows you to track alarms in &korganizer; while still "
@@ -3632,7 +3650,7 @@ msgstr ""
 "&korganizer; &kalarm;'s functions इत्यस्य उपयोगं कुर्वन् अपि ।"
 
 #. Tag: para
-#: index.docbook:1978
+#: index.docbook:1987
 #, no-c-format
 msgid ""
 "If you later modify or delete the alarm in &kalarm;, the &korganizer; event "
@@ -3644,7 +3662,7 @@ msgstr ""
 "घटनां परिवर्तयति तर्हि &kalarm; न प्रभावितं भविष्यति।"
 
 #. Tag: para
-#: index.docbook:1983
+#: index.docbook:1992
 #, no-c-format
 msgid ""
 "Press the <guibutton>Load Template</guibutton> button to select a template "
@@ -3656,7 +3674,7 @@ msgstr ""
 "च</link> ."
 
 #. Tag: para
-#: index.docbook:1987
+#: index.docbook:1996
 #, no-c-format
 msgid ""
 "Press the <guibutton>Try</guibutton> button to test the alarm and check "
@@ -3671,7 +3689,7 @@ msgstr ""
 "नुदन्तु ।"
 
 #. Tag: para
-#: index.docbook:1993
+#: index.docbook:2002
 #, no-c-format
 msgid ""
 "Press the <guibutton>OK</guibutton> button when all details are correct, to "
@@ -3684,13 +3702,13 @@ msgstr ""
 "guibutton> बटनं निष्क्रियं भवति यदा परिवर्तनं न कृतम् ।"
 
 #. Tag: title
-#: index.docbook:2003
+#: index.docbook:2012
 #, no-c-format
 msgid "Alarm Message Display"
 msgstr "अलार्म सन्देश प्रदर्शन"
 
 #. Tag: para
-#: index.docbook:2005
+#: index.docbook:2014
 #, no-c-format
 msgid ""
 "Alarm messages may be displayed in windows or as notifications, depending on "
@@ -3702,11 +3720,18 @@ msgstr ""
 "अस्ति ।"
 
 #. Tag: para
-#: index.docbook:2010
-#, no-c-format
+#: index.docbook:2019
+#, fuzzy, no-c-format
+#| msgid ""
+#| "If you inhibit notifications for the desktop, the execution of display "
+#| "alarms will be suspended until notifications are re-enabled. Note that "
+#| "this applies to all display alarms, regardless of whether they are "
+#| "displayed in windows or as notifications."
 msgid ""
 "If you inhibit notifications for the desktop, the execution of display "
-"alarms will be suspended until notifications are re-enabled. Note that this "
+"alarms will be suspended until notifications are re-enabled, except for "
+"alarms which you have specified in the <link linkend=\"alarm-edit-dlg-other"
+"\">Alarm Edit dialog</link> should never be inhibited. Note that this "
 "applies to all display alarms, regardless of whether they are displayed in "
 "windows or as notifications."
 msgstr ""
@@ -3715,7 +3740,7 @@ msgstr ""
 "यद्यपि ते विण्डो-मध्ये प्रदर्शिताः सन्ति वा सूचनारूपेण वा ।"
 
 #. Tag: para
-#: index.docbook:2015
+#: index.docbook:2026
 #, no-c-format
 msgid ""
 "Note that on a single screen system, the window manager may inhibit "
@@ -3724,13 +3749,13 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:2020
+#: index.docbook:2031
 #, no-c-format
 msgid "Alarm Message Window"
 msgstr "अलार्म सन्देश विण्डो"
 
 #. Tag: para
-#: index.docbook:2022
+#: index.docbook:2033
 #, no-c-format
 msgid ""
 "Alarm messages which are displayed in windows provide the fullest "
@@ -3738,7 +3763,7 @@ msgid ""
 msgstr "अलार्मसन्देशाः ये विण्डोषु प्रदर्शिताः भवन्ति ते पूर्णतया कार्यक्षमतां ददति ।"
 
 #. Tag: para
-#: index.docbook:2025
+#: index.docbook:2036
 #, no-c-format
 msgid ""
 "When an alarm message is due, it is if possible displayed on each desktop "
@@ -3762,17 +3787,26 @@ msgstr ""
 "भवति, न तु स्मरणसन्देशसमयस्य, विण्डोशीर्षकं च <quote>स्मरण</quote> इति ।)"
 
 #. Tag: para
-#: index.docbook:2036
-#, no-c-format
+#: index.docbook:2047
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Alarm message windows remain visible until you acknowledge them, unless "
+#| "<guilabel>Auto-close window after late-cancelation time</guilabel> was "
+#| "checked in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>. "
+#| "In the case of a recurring alarm, if an unacknowledged message window "
+#| "remains from a previous occurrence of the alarm, the existing window is "
+#| "simply popped up when the alarm recurs. This avoids having to acknowledge "
+#| "multiple copies of the same message should you not wish, or be unable, to "
+#| "acknowledge a message at the time it appears."
 msgid ""
 "Alarm message windows remain visible until you acknowledge them, unless "
 "<guilabel>Auto-close window after late-cancelation time</guilabel> was "
-"checked in the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link>. In "
-"the case of a recurring alarm, if an unacknowledged message window remains "
-"from a previous occurrence of the alarm, the existing window is simply "
-"popped up when the alarm recurs. This avoids having to acknowledge multiple "
-"copies of the same message should you not wish, or be unable, to acknowledge "
-"a message at the time it appears."
+"checked in the <link linkend=\"alarm-edit-dlg-cancel\">Alarm Edit dialog</"
+"link>. In the case of a recurring alarm, if an unacknowledged message window "
+"remains from a previous occurrence of the alarm, the existing window is "
+"simply popped up when the alarm recurs. This avoids having to acknowledge "
+"multiple copies of the same message should you not wish, or be unable, to "
+"acknowledge a message at the time it appears."
 msgstr ""
 "यावत् भवन्तः तान् न स्वीकुर्वन्ति तावत् अलार्मसन्देशविण्डोः दृश्यन्ते एव, यावत्...<guilabel> "
 "विलम्बेन रद्दीकरणसमयस्य अनन्तरं विण्डो स्वयमेव बन्दं कुर्वन्तु</guilabel> इत्यस्मिन् जाँचः कृतः "
@@ -3783,7 +3817,7 @@ msgstr ""
 "असमर्थः भवति"
 
 #. Tag: para
-#: index.docbook:2046
+#: index.docbook:2057
 #, no-c-format
 msgid ""
 "The alarm message window provides whichever of the following options are "
@@ -3793,7 +3827,7 @@ msgstr ""
 "प्रदाति ।"
 
 #. Tag: para
-#: index.docbook:2051
+#: index.docbook:2062
 #, no-c-format
 msgid ""
 "Acknowledge the alarm by clicking the <guibutton>Close</guibutton> button. "
@@ -3805,7 +3839,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:2058
+#: index.docbook:2069
 #, no-c-format
 msgid ""
 "Edit the alarm by clicking the <guibutton>Edit...</guibutton> button. This "
@@ -3815,7 +3849,7 @@ msgstr ""
 "प्रदर्श्यते<link linkend=\"alarm-edit-dlg\"> अलार्म सम्पादन संवाद</link> ."
 
 #. Tag: para
-#: index.docbook:2064
+#: index.docbook:2075
 #, no-c-format
 msgid ""
 "Display options to defer the alarm until later by clicking the "
@@ -3834,7 +3868,7 @@ msgstr ""
 "स्थगयितुं तस्य विण्डो पिधातुं <guibutton>OK</guibutton> नुदन्तु ।"
 
 #. Tag: para
-#: index.docbook:2074
+#: index.docbook:2085
 #, no-c-format
 msgid ""
 "The time the alarm is deferred to must be earlier than its next scheduled "
@@ -3849,7 +3883,7 @@ msgstr ""
 "एकनिमेषपूर्वं निष्क्रियं भवति"
 
 #. Tag: para
-#: index.docbook:2080
+#: index.docbook:2091
 #, no-c-format
 msgid ""
 "Note that if a reminder is configured <emphasis>after</emphasis> the alarm, "
@@ -3861,7 +3895,7 @@ msgstr ""
 "सति स्मरणं निरुद्धं भविष्यति।"
 
 #. Tag: para
-#: index.docbook:2085
+#: index.docbook:2096
 #, no-c-format
 msgid ""
 "The <guibutton>Defer...</guibutton> button is not available for alarms which "
@@ -3872,7 +3906,7 @@ msgstr ""
 "विकल्पस्य चयनस्य कारणेन प्रवेशसमये प्रदर्शितानां अलार्मानाम् कृते उपलब्धं नास्ति"
 
 #. Tag: para
-#: index.docbook:2092
+#: index.docbook:2103
 #, no-c-format
 msgid ""
 "Stop playing the alarm's sound file by clicking the button showing the "
@@ -3882,7 +3916,7 @@ msgstr ""
 "त्यजन्तु ।"
 
 #. Tag: para
-#: index.docbook:2097
+#: index.docbook:2108
 #, no-c-format
 msgid ""
 "If the alarm message was created by dragging an email from &kmail;, you can "
@@ -3895,7 +3929,7 @@ msgstr ""
 "पुटं चिनोति ।"
 
 #. Tag: para
-#: index.docbook:2102
+#: index.docbook:2113
 #, no-c-format
 msgid ""
 "If &kmail;'s indexes are regenerated, the link to the email in &kmail; will "
@@ -3903,7 +3937,7 @@ msgid ""
 msgstr "यदि &kmail;'s अनुक्रमणिकाः पुनः उत्पन्नाः सन्ति तर्हि &kmail; नष्टा भविष्यति।"
 
 #. Tag: para
-#: index.docbook:2107
+#: index.docbook:2118
 #, no-c-format
 msgid ""
 "The button showing the <guiicon>&kalarm;</guiicon> icon provides a "
@@ -3914,7 +3948,7 @@ msgstr ""
 "सक्रियीकरणस्य सुविधाजनकं मार्गं प्रदाति, तत् अलार्मं प्रकाशितं कृत्वा ।"
 
 #. Tag: para
-#: index.docbook:2113
+#: index.docbook:2124
 #, no-c-format
 msgid ""
 "The way that alarm message windows are displayed depends on the windowing "
@@ -3924,13 +3958,13 @@ msgstr ""
 "।"
 
 #. Tag: application
-#: index.docbook:2118 index.docbook:3111
+#: index.docbook:2129 index.docbook:3122
 #, no-c-format
 msgid "X11 Windowing System"
 msgstr "X11 खिडकी प्रणाली"
 
 #. Tag: para
-#: index.docbook:2120
+#: index.docbook:2131
 #, no-c-format
 msgid ""
 "You can choose in the <link linkend=\"preferences-view\">Configuration "
@@ -3941,7 +3975,7 @@ msgstr ""
 "अलार्मसन्देशविण्डो प्रदर्शयितुं द्वयोः भिन्नयोः मोडयोः कस्य उपयोगः करणीयः:"
 
 #. Tag: para
-#: index.docbook:2127
+#: index.docbook:2138
 #, no-c-format
 msgid ""
 "As a normal window. In this mode, the keyboard focus is taken by the alarm "
@@ -3953,7 +3987,7 @@ msgstr ""
 "अनुप्रयोगस्य अपेक्षया तस्मिन् प्रेषिताः भविष्यन्ति"
 
 #. Tag: para
-#: index.docbook:2134
+#: index.docbook:2145
 #, no-c-format
 msgid ""
 "As a non-modal window. In this mode, the keyboard focus is unaffected when "
@@ -3966,7 +4000,7 @@ msgstr ""
 "शीर्षकपट्टिका वा फ्रेम वा नास्ति, अतः भवान् तत् चालयितुं आकारं परिवर्तयितुं वा न शक्नोति ।"
 
 #. Tag: para
-#: index.docbook:2141
+#: index.docbook:2152
 #, no-c-format
 msgid ""
 "You can choose in the <link linkend=\"preferences-view\">Configuration "
@@ -3977,7 +4011,7 @@ msgstr ""
 "अलार्मसन्देशविण्डोः स्थापयितुं द्वयोः योजनायोः कस्य उपयोगः करणीयः:"
 
 #. Tag: para
-#: index.docbook:2147
+#: index.docbook:2158
 #, no-c-format
 msgid ""
 "The windows are displayed as far away from the current mouse cursor as "
@@ -3988,7 +4022,7 @@ msgstr ""
 "बाधा न्यूनीभवति तथा च अलार्मस्य आकस्मिकरूपेण स्वीकारस्य सम्भावना न्यूनीभवति ।"
 
 #. Tag: para
-#: index.docbook:2154
+#: index.docbook:2165
 #, no-c-format
 msgid ""
 "The windows are displayed in the center of the screen. To reduce the chance "
@@ -4000,7 +4034,7 @@ msgstr ""
 "अवाप्नुवन्ति"
 
 #. Tag: para
-#: index.docbook:2161
+#: index.docbook:2172
 #, no-c-format
 msgid ""
 "If you have several alarm message windows, or error messages, displayed, you "
@@ -4018,13 +4052,13 @@ msgstr ""
 "स्थापयितुं शक्नोति ।"
 
 #. Tag: application
-#: index.docbook:2172 index.docbook:3142
+#: index.docbook:2183 index.docbook:3153
 #, no-c-format
 msgid "Wayland Windowing System"
 msgstr "Wayland खिडकी प्रणाली"
 
 #. Tag: para
-#: index.docbook:2174
+#: index.docbook:2185
 #, no-c-format
 msgid ""
 "The Wayland windowing system does not allow applications to control the "
@@ -4035,7 +4069,7 @@ msgstr ""
 "नियन्त्रयितुं न शक्नुवन्ति, अतः प्रदर्शनविकल्पाः बहु अधिकं सीमिताः सन्ति ।"
 
 #. Tag: para
-#: index.docbook:2178
+#: index.docbook:2189
 #, no-c-format
 msgid ""
 "To reduce the chance of accidentally acknowledging the alarm, the buttons on "
@@ -4046,13 +4080,13 @@ msgstr ""
 "विन्यासयोग्यविलम्बस्य अनन्तरमेव सक्रियताम् अवाप्नुवन्ति"
 
 #. Tag: title
-#: index.docbook:2189
+#: index.docbook:2200
 #, no-c-format
 msgid "Alarm Message Notifications"
 msgstr "अलार्म सन्देशसूचना"
 
 #. Tag: para
-#: index.docbook:2191
+#: index.docbook:2202
 #, no-c-format
 msgid ""
 "Alarm messages which are displayed as notifications provide less "
@@ -4062,7 +4096,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:2194
+#: index.docbook:2205
 #, no-c-format
 msgid ""
 "When an alarm message is due, it is displayed as a notification. The "
@@ -4079,7 +4113,7 @@ msgstr ""
 "वा भवति, न तु स्मरणसन्देशसमयस्य, तथा च “स्मारक” इति शीर्षकं दर्शितं भवति ।)"
 
 #. Tag: para
-#: index.docbook:2202
+#: index.docbook:2213
 #, no-c-format
 msgid ""
 "The notification automatically closes after a short time-out. (Note that the "
@@ -4100,7 +4134,7 @@ msgstr ""
 "स्मरणं पुनरावृत्तिः च सन्ति ।"
 
 #. Tag: para
-#: index.docbook:2212
+#: index.docbook:2223
 #, no-c-format
 msgid ""
 "The alarm message notification provides the following options. Note that "
@@ -4118,7 +4152,7 @@ msgstr ""
 "इतिहासात् तत् निष्कासयितुं एकमात्रं अन्तरक्रिया उपलब्धं भवति"
 
 #. Tag: para
-#: index.docbook:2223
+#: index.docbook:2234
 #, no-c-format
 msgid ""
 "Acknowledge the alarm by clicking the <guibutton>Close</guibutton> button. "
@@ -4128,7 +4162,7 @@ msgstr ""
 "भवति ।"
 
 #. Tag: para
-#: index.docbook:2228
+#: index.docbook:2239
 #, no-c-format
 msgid ""
 "Edit the alarm by clicking the <guibutton>Edit</guibutton> button. This "
@@ -4138,7 +4172,7 @@ msgstr ""
 "प्रदर्श्यते<link linkend=\"alarm-edit-dlg\"> अलार्म सम्पादन संवाद</link> ."
 
 #. Tag: para
-#: index.docbook:2234
+#: index.docbook:2245
 #, no-c-format
 msgid ""
 "Display options to defer the alarm until later by clicking the "
@@ -4153,7 +4187,7 @@ msgstr ""
 "link> विस्तरेण कृते विभागः।"
 
 #. Tag: para
-#: index.docbook:2243
+#: index.docbook:2254
 #, no-c-format
 msgid ""
 "Clicking the notification anywhere other than a button will activate "
@@ -4163,13 +4197,13 @@ msgstr ""
 "अलार्मं प्रकाशितं भवति ।"
 
 #. Tag: title
-#: index.docbook:2253
+#: index.docbook:2264
 #, no-c-format
 msgid "System Tray Operation"
 msgstr "सिस्टम् ट्रे संचालनम्"
 
 #. Tag: para
-#: index.docbook:2255
+#: index.docbook:2266
 #, no-c-format
 msgid ""
 "&kalarm; by default displays an icon in the system tray. The icon provides "
@@ -4185,7 +4219,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:2262
+#: index.docbook:2273
 #, no-c-format
 msgid ""
 "&kalarm;'s system tray icon is by default automatically hidden whenever "
@@ -4202,7 +4236,7 @@ msgstr ""
 "प्रकाशयितुं सिस्टम् ट्रे मध्ये बाणं नुदन्तु ।"
 
 #. Tag: para
-#: index.docbook:2269
+#: index.docbook:2280
 #, no-c-format
 msgid ""
 "If you hover the mouse cursor over the system tray icon, a summary of the "
@@ -4217,7 +4251,7 @@ msgstr ""
 "विन्यस्तुं शक्नोति,<link linkend=\"preferences-view\"> विन्याससंवादः</link> ."
 
 #. Tag: para
-#: index.docbook:2275
+#: index.docbook:2286
 #, no-c-format
 msgid ""
 "<mousebutton>Left</mousebutton> click on the system tray icon to toggle "
@@ -4225,7 +4259,7 @@ msgid ""
 msgstr "<mousebutton>वाम</mousebutton> &kalarm; मुख्यविण्डो।"
 
 #. Tag: para
-#: index.docbook:2278
+#: index.docbook:2289
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the system tray icon to display "
@@ -4235,19 +4269,19 @@ msgstr ""
 "कुर्वन्तु:"
 
 #. Tag: guimenuitem
-#: index.docbook:2283
+#: index.docbook:2294
 #, no-c-format
 msgid "Enable Alarms"
 msgstr "अलार्मं सक्षमं कुर्वन्तु"
 
 #. Tag: action
-#: index.docbook:2284
+#: index.docbook:2295
 #, no-c-format
 msgid "Enables or disables monitoring of alarms."
 msgstr "अलार्म-निरीक्षणं सक्षमं करोति अथवा निष्क्रियं करोति ।"
 
 #. Tag: para
-#: index.docbook:2285
+#: index.docbook:2296
 #, no-c-format
 msgid ""
 "See <link linkend=\"enable-disable\">Enabling and Disabling Alarms</link> "
@@ -4257,13 +4291,13 @@ msgstr ""
 "विस्तरेण कृते।"
 
 #. Tag: guimenuitem
-#: index.docbook:2292
+#: index.docbook:2303
 #, no-c-format
 msgid "New Alarm"
 msgstr "नवीन अलार्म"
 
 #. Tag: action
-#: index.docbook:2293
+#: index.docbook:2304
 #, no-c-format
 msgid ""
 "After you select the alarm type from the list which appears, opens the Alarm "
@@ -4273,25 +4307,25 @@ msgstr ""
 "संवादं उद्घाटयति ।"
 
 #. Tag: guimenuitem
-#: index.docbook:2300
+#: index.docbook:2311
 #, no-c-format
 msgid "Stop Play"
 msgstr "क्रीडां स्थगयतु"
 
 #. Tag: action
-#: index.docbook:2301
+#: index.docbook:2312
 #, no-c-format
 msgid "Halts playback of the audio file currently playing."
 msgstr "वर्तमानकाले वाद्यमानायाः श्रव्यसञ्चिकायाः प्लेबैकं स्थगयति ।"
 
 #. Tag: guimenuitem
-#: index.docbook:2307
+#: index.docbook:2318
 #, no-c-format
 msgid "Spread Windows"
 msgstr "विण्डोज प्रसारयन्तु"
 
 #. Tag: action
-#: index.docbook:2308
+#: index.docbook:2319
 #, no-c-format
 msgid ""
 "Spreads alarm and error message windows across the screen, or groups them "
@@ -4299,19 +4333,19 @@ msgid ""
 msgstr "स्क्रीन् मध्ये अलार्म तथा त्रुटिसन्देशविण्डो प्रसारयति, अथवा पुनः एकत्र समूहयति ।"
 
 #. Tag: guimenuitem
-#: index.docbook:2314
+#: index.docbook:2325
 #, no-c-format
 msgid "Configure &kalarm;..."
 msgstr "&kalarm;... विन्यस्तं कुर्वन्तु।"
 
 #. Tag: action
-#: index.docbook:2315
+#: index.docbook:2326
 #, no-c-format
 msgid "Displays the &kalarm; Configuration dialog."
 msgstr "प्रदर्शयति &kalarm; विन्याससंवादः ।"
 
 #. Tag: para
-#: index.docbook:2316
+#: index.docbook:2327
 #, no-c-format
 msgid ""
 "The Configuration dialog is described in <link linkend=\"preferences"
@@ -4322,43 +4356,43 @@ msgstr ""
 "&amp;kalarm;</link> . अस्मिन् &amp;kalarm; प्रणाली ट्रे चिह्न।"
 
 #. Tag: guimenuitem
-#: index.docbook:2323
+#: index.docbook:2334
 #, no-c-format
 msgid "Restore / Minimize"
 msgstr "पुनर्स्थापनं / न्यूनतमं कुर्वन्तु"
 
 #. Tag: action
-#: index.docbook:2324
+#: index.docbook:2335
 #, no-c-format
 msgid "Restores or minimizes the main &kalarm; window."
 msgstr "मुख्यं पुनः स्थापयति न्यूनीकरोति वा &kalarm; कोष्ठ।"
 
 #. Tag: guimenuitem
-#: index.docbook:2329
+#: index.docbook:2340
 #, no-c-format
 msgid "Quit"
 msgstr "परिजहातु"
 
 #. Tag: action
-#: index.docbook:2330
+#: index.docbook:2341
 #, no-c-format
 msgid "Closes the &kalarm; system tray icon and main windows."
 msgstr "पिधाति &कलार्म; सिस्टम् ट्रे चिह्नं मुख्यविण्डो च ।"
 
 #. Tag: para
-#: index.docbook:2332
+#: index.docbook:2343
 #, no-c-format
 msgid "Quits &kalarm; if no alarm message windows are displayed."
 msgstr "त्यजति &kalarm; यदि कोऽपि अलार्मसन्देशविण्डो न प्रदर्श्यते।"
 
 #. Tag: title
-#: index.docbook:2338
+#: index.docbook:2349
 #, no-c-format
 msgid "Displaying &kalarm; in the System Tray"
 msgstr "प्रदर्शयन् &kalarm; सिस्टम् ट्रे इत्यत्र"
 
 #. Tag: para
-#: index.docbook:2340
+#: index.docbook:2351
 #, no-c-format
 msgid ""
 "You must be running the &plasma; desktop or another suitable window manager "
@@ -4368,7 +4402,7 @@ msgstr ""
 "मध्ये ।"
 
 #. Tag: para
-#: index.docbook:2343
+#: index.docbook:2354
 #, no-c-format
 msgid ""
 "Select <menuchoice><guimenu>View</guimenu> <guimenuitem>Show in System Tray</"
@@ -4382,7 +4416,7 @@ msgstr ""
 "Configuration संवादस्य ट्याब् ।"
 
 #. Tag: para
-#: index.docbook:2349
+#: index.docbook:2360
 #, no-c-format
 msgid ""
 "To remove &kalarm; from the system tray, deselect <menuchoice><guimenu>View</"
@@ -4392,7 +4426,7 @@ msgstr ""
 "<guimenuitem>सिस्टम् ट्रे मध्ये दर्शयतु</guimenuitem></menuchoice> इति अचयनं कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:2353
+#: index.docbook:2364
 #, no-c-format
 msgid ""
 "To choose whether or not &kalarm; will be shown at startup in the system "
@@ -4404,13 +4438,13 @@ msgstr ""
 "संवादस्य ट्याब् ।"
 
 #. Tag: title
-#: index.docbook:2360
+#: index.docbook:2371
 #, no-c-format
 msgid "Refreshing Alarms"
 msgstr "ताजगी अलार्म"
 
 #. Tag: para
-#: index.docbook:2362
+#: index.docbook:2373
 #, no-c-format
 msgid ""
 "If in the unlikely event that any alarm was not triggered when it should "
@@ -4426,7 +4460,7 @@ msgstr ""
 "पुनः लोड् कर्तुं ।"
 
 #. Tag: para
-#: index.docbook:2370
+#: index.docbook:2381
 #, no-c-format
 msgid ""
 "You can reload an individual calendar and refresh its alarms in the alarm "
@@ -4441,19 +4475,19 @@ msgstr ""
 "विकल्पः। पश्यतु<link linkend=\"calendars\"> अलार्म कैलेण्डर</link> विस्तरेण कृते।"
 
 #. Tag: title
-#: index.docbook:2381
+#: index.docbook:2392
 #, no-c-format
 msgid "Enabling and Disabling Alarms"
 msgstr "अलार्म सक्षमीकरणं अक्षमीकरणं च"
 
 #. Tag: para
-#: index.docbook:2383
+#: index.docbook:2394
 #, no-c-format
 msgid "Alarms may be enabled and disabled either as a whole or individually:"
 msgstr "अलार्म समग्ररूपेण वा व्यक्तिगतरूपेण वा सक्षमः अक्षमः च भवितुम् अर्हति:"
 
 #. Tag: para
-#: index.docbook:2388
+#: index.docbook:2399
 #, no-c-format
 msgid ""
 "<quote>Alarm monitoring</quote> applies to alarms as a whole. While alarm "
@@ -4467,7 +4501,7 @@ msgstr ""
 "प्रवर्तयिष्यन्ति ।"
 
 #. Tag: para
-#: index.docbook:2394
+#: index.docbook:2405
 #, no-c-format
 msgid ""
 "When alarm monitoring is re-enabled, alarms which would have triggered while "
@@ -4481,7 +4515,7 @@ msgstr ""
 "स्थगिताः भवन्ति ।"
 
 #. Tag: para
-#: index.docbook:2402
+#: index.docbook:2413
 #, no-c-format
 msgid ""
 "Alarms may be individually enabled and disabled, independently of the alarm "
@@ -4498,7 +4532,7 @@ msgstr ""
 "करोति ।"
 
 #. Tag: para
-#: index.docbook:2409
+#: index.docbook:2420
 #, no-c-format
 msgid ""
 "When an alarm is individually re-enabled, it is not now triggered if it "
@@ -4510,7 +4544,7 @@ msgstr ""
 "सक्षमं न भवति तावत् रद्दं भवति ।"
 
 #. Tag: para
-#: index.docbook:2414
+#: index.docbook:2425
 #, no-c-format
 msgid ""
 "An alarm's individual enabled/disabled status is indicated by its color in "
@@ -4522,7 +4556,7 @@ msgstr ""
 "Configuration संवादस्य ट्याब्) ।"
 
 #. Tag: para
-#: index.docbook:2421
+#: index.docbook:2432
 #, no-c-format
 msgid ""
 "For an alarm to trigger, it must be individually enabled as well as alarm "
@@ -4531,13 +4565,13 @@ msgstr ""
 "अलार्मस्य प्रवर्तनार्थं तत् व्यक्तिगतरूपेण सक्षमं भवितुमर्हति तथा च अलार्मनिरीक्षणं सक्षमं भवति ।"
 
 #. Tag: title
-#: index.docbook:2425
+#: index.docbook:2436
 #, no-c-format
 msgid "Enabling Alarm Monitoring"
 msgstr "अलार्म निगरानी सक्षमीकरण"
 
 #. Tag: para
-#: index.docbook:2427
+#: index.docbook:2438
 #, no-c-format
 msgid ""
 "For alarm monitoring to occur, &kalarm; must be running. Once you run "
@@ -4551,7 +4585,7 @@ msgstr ""
 "Configuration संवादस्य ट्याब् ।"
 
 #. Tag: para
-#: index.docbook:2433
+#: index.docbook:2444
 #, no-c-format
 msgid ""
 "If alarm monitoring is currently disabled, do one of the following to enable "
@@ -4561,7 +4595,7 @@ msgstr ""
 "कुर्वन्तु:"
 
 #. Tag: para
-#: index.docbook:2438
+#: index.docbook:2449
 #, no-c-format
 msgid ""
 "Select <menuchoice><guimenu>Actions</guimenu> <guimenuitem>Enable Alarms</"
@@ -4571,7 +4605,7 @@ msgstr ""
 "menuchoice> इति चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:2443
+#: index.docbook:2454
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the system tray icon and choose "
@@ -4582,13 +4616,13 @@ msgstr ""
 "<menuchoice><guimenuitem>Enable Alarms</guimenuitem></menuchoice> इति चिनोतु ।"
 
 #. Tag: title
-#: index.docbook:2453
+#: index.docbook:2464
 #, no-c-format
 msgid "Disabling Alarm Monitoring"
 msgstr "अलार्म निगरानी अक्षम कर"
 
 #. Tag: para
-#: index.docbook:2455
+#: index.docbook:2466
 #, no-c-format
 msgid ""
 "You can temporarily disable alarm monitoring, which prevents &kalarm; from "
@@ -4601,7 +4635,7 @@ msgstr ""
 "&कलार्म्; प्रवेशसमये आरभ्यतुं विन्यस्तम् अस्ति &ndash; यावत् अग्रिमवारं भवन्तः प्रवेशं कुर्वन्ति।"
 
 #. Tag: para
-#: index.docbook:2462
+#: index.docbook:2473
 #, no-c-format
 msgid ""
 "Unselect <menuchoice><guimenu>Actions</guimenu> <guimenuitem>Enable Alarms</"
@@ -4611,7 +4645,7 @@ msgstr ""
 "guimenuitem></menuchoice> इति अचयनं कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:2467
+#: index.docbook:2478
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the system tray icon and uncheck "
@@ -4623,7 +4657,7 @@ msgstr ""
 "कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:2474
+#: index.docbook:2485
 #, no-c-format
 msgid ""
 "Run &kalarm; with the command line option <option>--disable-all</option>."
@@ -4632,7 +4666,7 @@ msgstr ""
 "option> ."
 
 #. Tag: para
-#: index.docbook:2479
+#: index.docbook:2490
 #, no-c-format
 msgid ""
 "Stop &kalarm; as described in <link linkend=\"quitting\">Quitting &kalarm;</"
@@ -4642,7 +4676,7 @@ msgstr ""
 "link> ."
 
 #. Tag: para
-#: index.docbook:2484
+#: index.docbook:2495
 #, no-c-format
 msgid ""
 "Alarms may be permanently disabled by preventing &kalarm; from being started "
@@ -4653,13 +4687,13 @@ msgstr ""
 "\"preferences-general\"> सामान्य</link> Configuration संवादस्य ट्याब् ।"
 
 #. Tag: title
-#: index.docbook:2492
+#: index.docbook:2503
 #, no-c-format
 msgid "Enabling and Disabling Individual Alarms"
 msgstr "व्यक्तिगत अलार्म सक्षमीकरणं अक्षमीकरणं च"
 
 #. Tag: para
-#: index.docbook:2494
+#: index.docbook:2505
 #, no-c-format
 msgid ""
 "To enable individual alarms which are currently disabled, do one of the "
@@ -4668,7 +4702,7 @@ msgstr ""
 "व्यक्तिगत-अलार्म-सक्षमीकरणाय ये वर्तमानकाले अक्षमाः सन्ति, निम्नलिखितयोः एकं कुर्वन्तु:"
 
 #. Tag: para
-#: index.docbook:2499
+#: index.docbook:2510
 #, no-c-format
 msgid ""
 "Select one or more alarms by clicking on their entries in the alarm list. "
@@ -4680,7 +4714,7 @@ msgstr ""
 "menuchoice> इति चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:2506
+#: index.docbook:2517
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the desired entries in the alarm "
@@ -4692,7 +4726,7 @@ msgstr ""
 "चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:2513
+#: index.docbook:2524
 #, no-c-format
 msgid ""
 "To disable individual alarms which are currently enabled, do one of the "
@@ -4701,7 +4735,7 @@ msgstr ""
 "व्यक्तिगत-अलार्म-अक्षमीकरणाय ये वर्तमानकाले सक्षमाः सन्ति, निम्नलिखितयोः एकं कुर्वन्तु:"
 
 #. Tag: para
-#: index.docbook:2518
+#: index.docbook:2529
 #, no-c-format
 msgid ""
 "Select one or more alarms by clicking on their entries in the alarm list. "
@@ -4713,7 +4747,7 @@ msgstr ""
 "</menuchoice> इति चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:2525
+#: index.docbook:2536
 #, no-c-format
 msgid ""
 "<mousebutton>Right</mousebutton> click on the desired entries in the alarm "
@@ -4725,13 +4759,13 @@ msgstr ""
 "चिनोतु ।"
 
 #. Tag: title
-#: index.docbook:2536
+#: index.docbook:2547
 #, no-c-format
 msgid "Wake From Suspend"
 msgstr "Wake From Suspend इति"
 
 #. Tag: para
-#: index.docbook:2538
+#: index.docbook:2549
 #, no-c-format
 msgid ""
 "Alarms can be configured to wake your computer from hibernation or "
@@ -4746,20 +4780,27 @@ msgstr ""
 "भवति । द्वौ सम्भावना स्तः-"
 
 #. Tag: title
-#: index.docbook:2546
+#: index.docbook:2557
 #, no-c-format
 msgid "Linux Kernel Timer Wake From Suspend"
 msgstr "Linux Kernel Timer Wake From Suspend इति"
 
 #. Tag: para
-#: index.docbook:2548
-#, no-c-format
+#: index.docbook:2559
+#, fuzzy, no-c-format
+#| msgid ""
+#| "On Linux systems, if the user has kernel alarm timer "
+#| "(<literal>cap_wake_alarm</literal>) capability, any number of alarms can "
+#| "be set to wake from suspend. In this case, wake from suspend is "
+#| "configured for each individual alarm in the <link linkend=\"alarm-edit-dlg"
+#| "\">Alarm Edit dialog</link> using its <guilabel>Wake from suspend</"
+#| "guilabel> option."
 msgid ""
 "On Linux systems, if the user has kernel alarm timer "
 "(<literal>cap_wake_alarm</literal>) capability, any number of alarms can be "
 "set to wake from suspend. In this case, wake from suspend is configured for "
-"each individual alarm in the <link linkend=\"alarm-edit-dlg\">Alarm Edit "
-"dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
+"each individual alarm in the <link linkend=\"alarm-edit-dlg-other\">Alarm "
+"Edit dialog</link> using its <guilabel>Wake from suspend</guilabel> option."
 msgstr ""
 "Linux प्रणालीषु यदि उपयोक्तुः कर्नेल् अलार्म टाइमरः (<literal> cap_wake_alarm इति</"
 "literal> ) क्षमता, किमपि संख्यायां अलार्मं निलम्बनात् जागरणं कर्तुं सेट् कर्तुं शक्यते । अस्मिन् "
@@ -4768,7 +4809,7 @@ msgstr ""
 "जागरणम्</guilabel> विकल्प।"
 
 #. Tag: para
-#: index.docbook:2555
+#: index.docbook:2566
 #, no-c-format
 msgid ""
 "You can configure how long before the alarm to wake from suspend, to ensure "
@@ -4780,13 +4821,13 @@ msgstr ""
 "linkend=\"preferences-time\"> विन्याससंवादः</link> ."
 
 #. Tag: title
-#: index.docbook:2563
+#: index.docbook:2574
 #, no-c-format
 msgid "RTC Wake From Suspend"
 msgstr "RTC Wake From निलम्बन"
 
 #. Tag: para
-#: index.docbook:2565
+#: index.docbook:2576
 #, no-c-format
 msgid ""
 "On non-Linux systems, or on Linux systems where the user does not have "
@@ -4807,7 +4848,7 @@ msgstr ""
 "guimenuitem></menuchoice> इति चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:2574
+#: index.docbook:2585
 #, no-c-format
 msgid ""
 "Use of the Wake From Suspend function requires administrative privileges. "
@@ -4819,7 +4860,7 @@ msgstr ""
 "प्रार्थयिष्यते ।"
 
 #. Tag: para
-#: index.docbook:2578
+#: index.docbook:2589
 #, no-c-format
 msgid ""
 "Wake From Suspend is not supported on some computers, especially older ones, "
@@ -4835,7 +4876,7 @@ msgstr ""
 "विचारणीयम् ।"
 
 #. Tag: para
-#: index.docbook:2585
+#: index.docbook:2596
 #, no-c-format
 msgid ""
 "Your computer can only schedule a single Wake From Suspend at a time. If you "
@@ -4853,7 +4894,7 @@ msgstr ""
 "अथवा अन्यः कोऽपि अनुप्रयोगः।"
 
 #. Tag: para
-#: index.docbook:2593
+#: index.docbook:2604
 #, no-c-format
 msgid ""
 "The Wake From Suspend dialog is used in conjunction with the alarm list in "
@@ -4863,7 +4904,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:2598
+#: index.docbook:2609
 #, no-c-format
 msgid ""
 "<guibutton>Use highlighted alarm</guibutton>: this sets the alarm currently "
@@ -4877,7 +4918,7 @@ msgstr ""
 "एकः अलार्मः प्रकाशितः भवति ।"
 
 #. Tag: para
-#: index.docbook:2606
+#: index.docbook:2617
 #, no-c-format
 msgid ""
 "<guibutton>Cancel wake from suspend</guibutton>: this cancels any existing "
@@ -4892,7 +4933,7 @@ msgstr ""
 "भवति तथा च सामान्यरूपेण कार्यं करिष्यति।"
 
 #. Tag: para
-#: index.docbook:2614
+#: index.docbook:2625
 #, no-c-format
 msgid ""
 "<guibutton>Show current alarm</guibutton>: this highlights the current Wake "
@@ -4904,7 +4945,7 @@ msgstr ""
 "Suspend विन्यस्तः नास्ति तर्हि बटनं निष्क्रियं भवति ।"
 
 #. Tag: para
-#: index.docbook:2621
+#: index.docbook:2632
 #, no-c-format
 msgid ""
 "The <guilabel>Number of minutes before alarm to wake from suspend</guilabel> "
@@ -4917,13 +4958,13 @@ msgstr ""
 "सुनिश्चितं कर्तुं शक्नोति, येन अलार्मः सम्यक् प्रवर्तयितुं शक्नोति कालः।"
 
 #. Tag: title
-#: index.docbook:2632
+#: index.docbook:2643
 #, no-c-format
 msgid "Quitting &kalarm;"
 msgstr "त्यक्त्वा &kalarm;"
 
 #. Tag: para
-#: index.docbook:2634
+#: index.docbook:2645
 #, no-c-format
 msgid ""
 "Quit &kalarm; by selecting <menuchoice> <guimenu>File</"
@@ -4938,13 +4979,13 @@ msgstr ""
 "वैकल्पिकरूपेण, यदि सिस्टम् ट्रे चिह्नं न दृश्यते तर्हि &kalarm;'s सर्वाणि विण्डोस् पिधाय ।"
 
 #. Tag: title
-#: index.docbook:2644
+#: index.docbook:2655
 #, no-c-format
 msgid "Configuring &kalarm;"
 msgstr "विन्यस्तं कुर्वन् &kalarm;"
 
 #. Tag: para
-#: index.docbook:2646
+#: index.docbook:2657
 #, no-c-format
 msgid ""
 "To configure &kalarm;'s operation to suit your system and your personal "
@@ -4957,13 +4998,13 @@ msgstr ""
 "guimenuitem></menuchoice> इति चिनोतु । एतेन Configuration संवादः प्रदर्शितः भवति ।"
 
 #. Tag: title
-#: index.docbook:2652
+#: index.docbook:2663
 #, no-c-format
 msgid "General"
 msgstr "सामान्य"
 
 #. Tag: para
-#: index.docbook:2654
+#: index.docbook:2665
 #, no-c-format
 msgid ""
 "The <guilabel>General</guilabel> section lets you control &kalarm;'s overall "
@@ -4973,7 +5014,7 @@ msgstr ""
 "शक्नोति:"
 
 #. Tag: para
-#: index.docbook:2659
+#: index.docbook:2670
 #, no-c-format
 msgid ""
 "<guilabel>Run Mode</guilabel>: This allows you to select whether &kalarm; "
@@ -4983,7 +5024,7 @@ msgstr ""
 "चालितव्यं, हस्तचलितरूपेण वा सर्वथा न वा।"
 
 #. Tag: para
-#: index.docbook:2664
+#: index.docbook:2675
 #, no-c-format
 msgid ""
 "<guilabel>Run automatically</guilabel>: Select this to run &kalarm; "
@@ -4995,7 +5036,7 @@ msgstr ""
 "प्रेरयितुं च।"
 
 #. Tag: para
-#: index.docbook:2671
+#: index.docbook:2682
 #, no-c-format
 msgid ""
 "<guilabel>Run manually only</guilabel>: Select this if you only want to use "
@@ -5009,7 +5050,7 @@ msgstr ""
 "तावत् एतत् पुनः कार्यं न करिष्यति वा अलार्मं न प्रवर्तयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:2679
+#: index.docbook:2690
 #, no-c-format
 msgid ""
 "<guilabel>Do not run</guilabel>: Select this if you want to stop using "
@@ -5021,7 +5062,7 @@ msgstr ""
 "प्रवर्तनं न करिष्यति ।"
 
 #. Tag: para
-#: index.docbook:2683
+#: index.docbook:2694
 #, no-c-format
 msgid ""
 "Note that if you later run &kalarm; again after selecting this option, "
@@ -5035,7 +5076,7 @@ msgstr ""
 "चिन्वितुं आवश्यकं भविष्यति ।"
 
 #. Tag: para
-#: index.docbook:2693
+#: index.docbook:2704
 #, no-c-format
 msgid ""
 "<guilabel>Warn before quitting</guilabel>: &kalarm; must be running for "
@@ -5053,7 +5094,7 @@ msgstr ""
 "परिवर्तयन्ति तदा एषः विकल्पः पूर्वनिर्धारितरूपेण स्वयमेव पुनः सक्षमः भवति ।"
 
 #. Tag: para
-#: index.docbook:2703
+#: index.docbook:2714
 #, no-c-format
 msgid ""
 "<guilabel>Enable alarm names</guilabel>: Specify whether each alarm can be "
@@ -5070,7 +5111,7 @@ msgstr ""
 "edit-dlg\"> अलार्म सम्पादन संवाद</link> ."
 
 #. Tag: para
-#: index.docbook:2711
+#: index.docbook:2722
 #, no-c-format
 msgid ""
 "<guilabel>Confirm alarm deletions</guilabel>: Specify whether you should be "
@@ -5080,7 +5121,7 @@ msgstr ""
 "पुष्टिं प्रार्थयितव्याः वा इति निर्दिशन्तु ।"
 
 #. Tag: para
-#: index.docbook:2716
+#: index.docbook:2727
 #, no-c-format
 msgid ""
 "<guilabel>Default defer time interval</guilabel>: Enter the default time "
@@ -5095,7 +5136,7 @@ msgstr ""
 "अन्तरालः अन्तिमवारं सः अलार्मः स्थगितः अभवत् तदा प्रयुक्तस्य स्थगनान्तरस्य बराबरः भविष्यति"
 
 #. Tag: para
-#: index.docbook:2724
+#: index.docbook:2735
 #, no-c-format
 msgid ""
 "<guilabel>Terminal for Command Alarms</guilabel>: Here, you can select which "
@@ -5114,7 +5155,7 @@ msgstr ""
 "वास्तविकं आदेशविकल्पं तस्य रेडियोबटनस्य कृते सन्दर्भसहायतां प्रदर्शयित्वा भवान् द्रष्टुं शक्नोति ।"
 
 #. Tag: para
-#: index.docbook:2733
+#: index.docbook:2744
 #, no-c-format
 msgid ""
 "If you want to use another application, or want to use one of those listed "
@@ -5131,25 +5172,25 @@ msgstr ""
 "शक्नोति ।"
 
 #. Tag: term
-#: index.docbook:2743
+#: index.docbook:2754
 #, no-c-format
 msgid "<term>%c</term>"
 msgstr "<term>%c</term> इति"
 
 #. Tag: para
-#: index.docbook:2745
+#: index.docbook:2756
 #, no-c-format
 msgid "The alarm's command string will be substituted."
 msgstr "अलार्मस्य आदेशतारं प्रतिस्थापितं भविष्यति ।"
 
 #. Tag: term
-#: index.docbook:2749
+#: index.docbook:2760
 #, no-c-format
 msgid "<term>%w</term>"
 msgstr "<term>%w</term> इति"
 
 #. Tag: para
-#: index.docbook:2751
+#: index.docbook:2762
 #, no-c-format
 msgid ""
 "The alarm's command string will be substituted, with a <literal>sleep</"
@@ -5159,13 +5200,13 @@ msgstr ""
 "भविष्यति ।"
 
 #. Tag: term
-#: index.docbook:2755
+#: index.docbook:2766
 #, no-c-format
 msgid "<term>%C</term>"
 msgstr "<term>%C</term> इति"
 
 #. Tag: para
-#: index.docbook:2757
+#: index.docbook:2768
 #, no-c-format
 msgid ""
 "A temporary command file containing the alarm's command string will be "
@@ -5175,13 +5216,13 @@ msgstr ""
 "प्रतिस्थापितः भविष्यति ।"
 
 #. Tag: term
-#: index.docbook:2761
+#: index.docbook:2772
 #, no-c-format
 msgid "<term>%W</term>"
 msgstr "<term>%W</term> इति"
 
 #. Tag: para
-#: index.docbook:2763
+#: index.docbook:2774
 #, no-c-format
 msgid ""
 "A temporary command file containing the alarm's command string will be "
@@ -5192,19 +5233,19 @@ msgstr ""
 "निर्मितं भविष्यति, सञ्चिकां निष्पादयितुं आदेशः च प्रतिस्थापितः भविष्यति"
 
 #. Tag: term
-#: index.docbook:2767
+#: index.docbook:2778
 #, no-c-format
 msgid "<term>%t</term>"
 msgstr "<पद>%त</term>"
 
 #. Tag: para
-#: index.docbook:2769
+#: index.docbook:2780
 #, no-c-format
 msgid "&kalarm;'s name in the current language will be substituted."
 msgstr "&kalarm;'s नाम वर्तमानभाषायां प्रतिस्थापितं भविष्यति।"
 
 #. Tag: para
-#: index.docbook:2774
+#: index.docbook:2785
 #, no-c-format
 msgid ""
 "When the command alarm is triggered, its command string will be quoted "
@@ -5214,7 +5255,7 @@ msgstr ""
 "भविष्यति ।"
 
 #. Tag: para
-#: index.docbook:2779
+#: index.docbook:2790
 #, fuzzy, no-c-format
 #| msgid ""
 #| "<guilabel>Run Mode</guilabel>: This allows you to select whether &kalarm; "
@@ -5227,7 +5268,7 @@ msgstr ""
 "चालितव्यं, हस्तचलितरूपेण वा सर्वथा न वा।"
 
 #. Tag: para
-#: index.docbook:2783
+#: index.docbook:2794
 #, no-c-format
 msgid ""
 "<guilabel>Audio Backend</guilabel>: Choose which audio system to use to play "
@@ -5236,7 +5277,7 @@ msgid ""
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2789
+#: index.docbook:2800
 #, no-c-format
 msgid ""
 "<guilabel>Enable Akonadi</guilabel>: Choose whether to use &akonadi; to "
@@ -5250,13 +5291,13 @@ msgstr ""
 "संस्थापितम् अस्ति ।"
 
 #. Tag: title
-#: index.docbook:2802
+#: index.docbook:2813
 #, no-c-format
 msgid "Time &amp; Date"
 msgstr "काल &amp; दिनाङ्कः"
 
 #. Tag: para
-#: index.docbook:2804
+#: index.docbook:2815
 #, no-c-format
 msgid ""
 "The <guilabel>Time &amp; Date</guilabel> section lets you set options "
@@ -5266,7 +5307,7 @@ msgstr ""
 "सेट् कर्तुं शक्नोति:"
 
 #. Tag: para
-#: index.docbook:2808
+#: index.docbook:2819
 #, no-c-format
 msgid ""
 "<guilabel>Time zone</guilabel>: Select your time zone. &kalarm; uses this "
@@ -5276,7 +5317,7 @@ msgstr ""
 "उपयुङ्क्ते, यदा भवान् व्यक्तिगत-अलार्म-कृते तत् अधिलिखति तदा विहाय ।"
 
 #. Tag: para
-#: index.docbook:2813
+#: index.docbook:2824
 #, no-c-format
 msgid ""
 "<guilabel>Holiday region</guilabel>: Select which country's or region's "
@@ -5288,7 +5329,7 @@ msgstr ""
 "बहिष्कारस्य विकल्पः चयनितः भवति ।"
 
 #. Tag: para
-#: index.docbook:2818
+#: index.docbook:2829
 #, no-c-format
 msgid ""
 "<guilabel>Wake from suspend before alarm</guilabel>: Enter the number of "
@@ -5308,7 +5349,7 @@ msgstr ""
 "अधिकविवरणार्थं।"
 
 #. Tag: para
-#: index.docbook:2829
+#: index.docbook:2840
 #, no-c-format
 msgid ""
 "<guilabel>Start of day for date-only alarms</guilabel>: Set the start-of-day "
@@ -5323,13 +5364,18 @@ msgstr ""
 "घण्टासु शीघ्रतमे अवसरे एतादृशाः अलार्माः निर्गमिष्यन्ति।"
 
 #. Tag: para
-#: index.docbook:2837
-#, no-c-format
+#: index.docbook:2848
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Working Hours</guilabel> group box: These options let you "
+#| "define your working hours, needed when the <guilabel>Only during working "
+#| "hours</guilabel> option is selected for a recurrence in the <link linkend="
+#| "\"alarm-edit-dlg\">Alarm Edit dialog</link>."
 msgid ""
 "<guilabel>Working Hours</guilabel> group box: These options let you define "
 "your working hours, needed when the <guilabel>Only during working hours</"
 "guilabel> option is selected for a recurrence in the <link linkend=\"alarm-"
-"edit-dlg\">Alarm Edit dialog</link>."
+"edit-dlg-recur\">Alarm Edit dialog</link>."
 msgstr ""
 "<guilabel>कार्यसमय</guilabel> group box: एते विकल्पाः भवन्तं स्वस्य कार्यसमयं "
 "परिभाषितुं शक्नुवन्ति, आवश्यकं यदा...<guilabel> केवलं कार्यसमये एव</guilabel> विकल्पः "
@@ -5337,13 +5383,13 @@ msgstr ""
 "link> ."
 
 #. Tag: para
-#: index.docbook:2844
+#: index.docbook:2855
 #, no-c-format
 msgid "Check each day which is a working day."
 msgstr "प्रत्येकं दिवसं पश्यन्तु यत् कोऽपि कार्यदिवसः अस्ति।"
 
 #. Tag: para
-#: index.docbook:2847
+#: index.docbook:2858
 #, no-c-format
 msgid ""
 "<guilabel>Daily start time</guilabel>: enter the time at which you start "
@@ -5353,7 +5399,7 @@ msgstr ""
 "प्रविशतु।"
 
 #. Tag: para
-#: index.docbook:2851
+#: index.docbook:2862
 #, no-c-format
 msgid ""
 "<guilabel>Daily end time</guilabel>: enter the time at which you finish work "
@@ -5363,7 +5409,7 @@ msgstr ""
 "समयं प्रविशतु।"
 
 #. Tag: para
-#: index.docbook:2857
+#: index.docbook:2868
 #, no-c-format
 msgid ""
 "<guilabel>KOrganizer event duration</guilabel>: Enter the event duration to "
@@ -5374,13 +5420,13 @@ msgstr ""
 "&korganizer;. पूर्वनिर्धारितकालः शून्यः अस्ति ।"
 
 #. Tag: title
-#: index.docbook:2866
+#: index.docbook:2877
 #, no-c-format
 msgid "Storage"
 msgstr "संग्रहण"
 
 #. Tag: para
-#: index.docbook:2868
+#: index.docbook:2879
 #, no-c-format
 msgid ""
 "The <guilabel>Storage</guilabel> section lets you choose options for saving "
@@ -5390,7 +5436,7 @@ msgstr ""
 "चिन्वितुं शक्नोति:"
 
 #. Tag: para
-#: index.docbook:2873
+#: index.docbook:2884
 #, no-c-format
 msgid ""
 "<guilabel>New Alarms &amp; Templates</guilabel>: Specify which calendar to "
@@ -5400,7 +5446,7 @@ msgstr ""
 "नूतनानि अलार्म-अलार्म-सारूप्याणि कस्मिन् पञ्चाङ्गे संग्रहीतुं शक्नुवन्ति इति निर्दिशन्तु:"
 
 #. Tag: para
-#: index.docbook:2879
+#: index.docbook:2890
 #, no-c-format
 msgid ""
 "<guilabel>Store in default calendar</guilabel>: New alarms and alarm "
@@ -5411,7 +5457,7 @@ msgstr ""
 "पूर्वनिर्धारित-अलार्म-पञ्चाङ्गे स्वयमेव नूतनाः अलार्म-अलार्म-सारूप्याणि योजिताः भवन्ति ।"
 
 #. Tag: para
-#: index.docbook:2885
+#: index.docbook:2896
 #, no-c-format
 msgid ""
 "<guilabel>Prompt for which calendar to store in</guilabel>: When you create "
@@ -5426,7 +5472,7 @@ msgstr ""
 "सर्वदा पूर्वनिर्धारित-संग्रहीत-अलार्म-पञ्चाङ्गे विना प्रॉम्प्ट्-मध्ये संगृह्यन्ते ।"
 
 #. Tag: para
-#: index.docbook:2895
+#: index.docbook:2906
 #, no-c-format
 msgid ""
 "<guilabel>Archived Alarms</guilabel> group box: These options control the "
@@ -5436,7 +5482,7 @@ msgstr ""
 "अलार्म-पञ्चाङ्गे संग्रहीत-अलार्म-सञ्चयं नियन्त्रयन्ति ।"
 
 #. Tag: para
-#: index.docbook:2900
+#: index.docbook:2911
 #, no-c-format
 msgid ""
 "<guilabel>Keep alarms after expiry</guilabel>: Select this option to archive "
@@ -5452,7 +5498,7 @@ msgstr ""
 "विलोपयति तर्हि तत् परित्यज्यते ।"
 
 #. Tag: para
-#: index.docbook:2908
+#: index.docbook:2919
 #, no-c-format
 msgid ""
 "<guilabel>Discard archived alarms after</guilabel>: Set the number of days "
@@ -5463,7 +5509,7 @@ msgstr ""
 "अलार्म-सञ्चयनाय दिवसानां संख्यां सेट् कुर्वन्तु, तदनन्तरं ते स्थायिरूपेण विलोपिताः भवन्ति ।"
 
 #. Tag: para
-#: index.docbook:2913
+#: index.docbook:2924
 #, no-c-format
 msgid ""
 "<guibutton>Clear archived alarms</guibutton>: This button discards all "
@@ -5479,13 +5525,13 @@ msgstr ""
 "चयनितविकल्पानुसारं तेषां संग्रहणं निरन्तरं भविष्यति ।"
 
 #. Tag: title
-#: index.docbook:2927
+#: index.docbook:2938
 #, no-c-format
 msgid "Email"
 msgstr "ईमेल"
 
 #. Tag: para
-#: index.docbook:2929
+#: index.docbook:2940
 #, no-c-format
 msgid ""
 "The <guilabel>Email</guilabel> section lets you choose options for sending "
@@ -5495,7 +5541,7 @@ msgstr ""
 "चिन्वितुं शक्नोति:"
 
 #. Tag: para
-#: index.docbook:2932
+#: index.docbook:2943
 #, no-c-format
 msgid ""
 "Options dependent on &kmail; are only available if &kalarm;'s <link linkend="
@@ -5506,7 +5552,7 @@ msgstr ""
 "भवति ।"
 
 #. Tag: para
-#: index.docbook:2939
+#: index.docbook:2950
 #, no-c-format
 msgid ""
 "<guilabel>Email client</guilabel>: Specify the email client to be used to "
@@ -5515,7 +5561,7 @@ msgstr ""
 "<guilabel>ईमेलग्राहकः</guilabel>: ईमेल-अलार्म-प्रेषणार्थं उपयोक्तुं ईमेल-ग्राहकं निर्दिशतु:"
 
 #. Tag: para
-#: index.docbook:2943
+#: index.docbook:2954
 #, no-c-format
 msgid ""
 "<guilabel>KMail</guilabel>: When an email alarm is triggered, the email is "
@@ -5525,7 +5571,7 @@ msgstr ""
 "इत्यस्य उपयोगेन प्रेष्यते ।"
 
 #. Tag: para
-#: index.docbook:2947
+#: index.docbook:2958
 #, no-c-format
 msgid ""
 "<guilabel>Sendmail</guilabel>: When an email alarm is triggered, the email "
@@ -5540,7 +5586,7 @@ msgstr ""
 "<application>qmail</application> ।"
 
 #. Tag: para
-#: index.docbook:2959
+#: index.docbook:2970
 #, no-c-format
 msgid ""
 "<guilabel>Copy sent emails into &kmail;'s \"sent-mail\" folder</guilabel>: "
@@ -5554,7 +5600,7 @@ msgstr ""
 "मेल</filename> पुटम् ।"
 
 #. Tag: para
-#: index.docbook:2964
+#: index.docbook:2975
 #, no-c-format
 msgid ""
 "This option is not available when &kmail; is selected as the email client, "
@@ -5562,7 +5608,7 @@ msgid ""
 msgstr "यदा &kmail; ईमेल क्लायन्ट् इति चयनं भवति, यतः &kmail; स्वयमेव एतत् करोति।"
 
 #. Tag: para
-#: index.docbook:2969
+#: index.docbook:2980
 #, no-c-format
 msgid ""
 "<guilabel>Notify when remote emails are queued</guilabel>: Select this "
@@ -5579,20 +5625,20 @@ msgstr ""
 "वास्तविकरूपेण प्रसारणार्थं यत्किमपि आवश्यकं तत् करोति इति सुनिश्चितं कर्तुं शक्नोति ईमेल इति ।"
 
 #. Tag: para
-#: index.docbook:2979
+#: index.docbook:2990
 #, no-c-format
 msgid ""
 "Select your email address to be used as the sender's address in email alarms:"
 msgstr "ईमेल-अलार्म-मध्ये प्रेषकस्य पतारूपेण उपयोक्तुं स्वस्य ईमेल-सङ्केतं चिनोतु:"
 
 #. Tag: para
-#: index.docbook:2983
+#: index.docbook:2994
 #, no-c-format
 msgid "Select <guilabel>From</guilabel> to enter an email address."
 msgstr "ईमेल-सङ्केतं प्रविष्टुं <guilabel>From</guilabel> इति चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:2987 index.docbook:3012
+#: index.docbook:2998 index.docbook:3023
 #, no-c-format
 msgid ""
 "Select <guilabel>Use default KMail identity</guilabel> to use your default "
@@ -5602,7 +5648,7 @@ msgstr ""
 "guilabel> इति चिनोतु यत् &kmail;-मध्ये विन्यस्तम् अस्ति ।"
 
 #. Tag: para
-#: index.docbook:2991
+#: index.docbook:3002
 #, no-c-format
 msgid ""
 "Select <guilabel>Use &kmail; identities</guilabel> to be able to choose at "
@@ -5616,7 +5662,7 @@ msgstr ""
 "विन्यस्तानां अलार्मानाम् कृते उपयुज्यते ।"
 
 #. Tag: para
-#: index.docbook:3001
+#: index.docbook:3012
 #, no-c-format
 msgid ""
 "Select your email address to be used for sending blind copies of email "
@@ -5627,7 +5673,7 @@ msgstr ""
 "अलार्मस्य अन्धप्रतियाः स्वयमेव प्रेषयितुं उपयोक्तुं स्वस्य ईमेल-सङ्केतं चिनोतु:"
 
 #. Tag: para
-#: index.docbook:3006
+#: index.docbook:3017
 #, no-c-format
 msgid ""
 "Select <guilabel>Bcc</guilabel> to enter an email address. If blind copies "
@@ -5639,13 +5685,13 @@ msgstr ""
 "अत्र प्रविष्टुं शक्नोति स्म ।"
 
 #. Tag: title
-#: index.docbook:3021
+#: index.docbook:3032
 #, no-c-format
 msgid "View"
 msgstr "दृश्यं"
 
 #. Tag: para
-#: index.docbook:3023
+#: index.docbook:3034
 #, no-c-format
 msgid ""
 "The <guilabel>View</guilabel> section lets you control some aspects of "
@@ -5655,7 +5701,7 @@ msgstr ""
 "शक्नोति । <guilabel>सामान्य</guilabel> ट्याब् मध्ये :"
 
 #. Tag: para
-#: index.docbook:3029
+#: index.docbook:3040
 #, no-c-format
 msgid ""
 "<guilabel>Show in system tray</guilabel> group box: When selected, the "
@@ -5666,14 +5712,14 @@ msgstr ""
 "चिह्नं प्रदर्शितं भवति यदा &kalarm; चलति, चयनितविकल्पस्य अधीनम्:"
 
 #. Tag: para
-#: index.docbook:3035
+#: index.docbook:3046
 #, no-c-format
 msgid ""
 "<guilabel>Always show</guilabel>: The system tray icon is always displayed."
 msgstr "<guilabel>सदैव दर्शयतु</guilabel>: सिस्टम् ट्रे चिह्नं सर्वदा प्रदर्शितं भवति ।"
 
 #. Tag: para
-#: index.docbook:3040
+#: index.docbook:3051
 #, no-c-format
 msgid ""
 "<guilabel>Automatically hide if no active alarms</guilabel>: The system tray "
@@ -5683,7 +5729,7 @@ msgstr ""
 "अलार्मः नास्ति तर्हि सिस्टम् ट्रे चिह्नं गोपनीयं भवति ।"
 
 #. Tag: para
-#: index.docbook:3045
+#: index.docbook:3056
 #, no-c-format
 msgid ""
 "<guilabel>Automatically hide if no alarm due within time period</guilabel>: "
@@ -5694,7 +5740,7 @@ msgstr ""
 "प्रविष्टसमयावधिमध्ये कोऽपि अलार्मः न भवति तर्हि सिस्टम् ट्रे चिह्नं गोप्यते, इतः आरभ्य"
 
 #. Tag: para
-#: index.docbook:3051
+#: index.docbook:3062
 #, no-c-format
 msgid ""
 "When the system tray icon is automatically hidden, you can make it visible "
@@ -5704,7 +5750,7 @@ msgstr ""
 "माध्यमेन दृश्यमानं कर्तुं शक्नुवन्ति ।"
 
 #. Tag: para
-#: index.docbook:3054
+#: index.docbook:3065
 #, no-c-format
 msgid ""
 "When <guilabel>Show in system tray</guilabel> is selected, closing the "
@@ -5716,7 +5762,7 @@ msgstr ""
 "अनुप्रयोगात् निर्गच्छति ।"
 
 #. Tag: para
-#: index.docbook:3060
+#: index.docbook:3071
 #, no-c-format
 msgid ""
 "<guilabel>System Tray Tooltip</guilabel> group box: These options control "
@@ -5728,7 +5774,7 @@ msgstr ""
 "tray चिह्नस्य उपरि भ्रमति तदा दृश्यते"
 
 #. Tag: para
-#: index.docbook:3066
+#: index.docbook:3077
 #, no-c-format
 msgid ""
 "<guilabel>Show next 24 hours' alarms</guilabel>: When selected, a summary of "
@@ -5738,7 +5784,7 @@ msgstr ""
 "घण्टासु देयानां प्रथमानां कतिपयानां अलार्मानाम् सारांशः प्रदर्शितः भवति ।"
 
 #. Tag: para
-#: index.docbook:3072
+#: index.docbook:3083
 #, no-c-format
 msgid ""
 "<guilabel>Maximum number of alarms to show</guilabel>: Deselect this option "
@@ -5750,7 +5796,7 @@ msgstr ""
 "प्रदर्शितं भविष्यति ।"
 
 #. Tag: para
-#: index.docbook:3078
+#: index.docbook:3089
 #, no-c-format
 msgid ""
 "<guilabel>Show alarm time</guilabel>: Select this option to show the time at "
@@ -5760,7 +5806,7 @@ msgstr ""
 "दर्शयितुं एतत् विकल्पं चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:3083
+#: index.docbook:3094
 #, no-c-format
 msgid ""
 "<guilabel>Show time until alarm</guilabel>: Select this option to show the "
@@ -5772,7 +5818,7 @@ msgstr ""
 "घण्टानिमेषेषु दर्शिता भवति ।"
 
 #. Tag: para
-#: index.docbook:3089
+#: index.docbook:3100
 #, no-c-format
 msgid ""
 "<guilabel>Prefix</guilabel>: Specify a symbol or text to show in front of "
@@ -5783,7 +5829,7 @@ msgstr ""
 "वा निर्दिशन्तु, अलार्मस्य समयात् भेदं कर्तुं"
 
 #. Tag: para
-#: index.docbook:3099
+#: index.docbook:3110
 #, no-c-format
 msgid ""
 "The <guilabel>Alarm List</guilabel> group box allows the selection of the "
@@ -5794,7 +5840,7 @@ msgstr ""
 "प्रयुक्तानां वर्णानाम् चयनं अनुमन्यते, अक्षमान् संग्रहीतान् च अलार्मान् दर्शयितुं"
 
 #. Tag: para
-#: index.docbook:3105
+#: index.docbook:3116
 #, no-c-format
 msgid ""
 "The <guilabel>Alarm Windows</guilabel> tab contains options to control the "
@@ -5806,7 +5852,7 @@ msgstr ""
 "निर्भराः भवन्ति ।"
 
 #. Tag: para
-#: index.docbook:3115
+#: index.docbook:3126
 #, no-c-format
 msgid ""
 "<guilabel>Position windows far from mouse cursor</guilabel>: Select this "
@@ -5820,7 +5866,7 @@ msgstr ""
 "तथा एव अप्रमत्तरूपेण बटन् क्लिक् कृत्वा अलार्मस्य अलार्मस्य स्वीकारस्य सम्भावना न्यूनीभवति ।"
 
 #. Tag: para
-#: index.docbook:3123
+#: index.docbook:3134
 #, no-c-format
 msgid ""
 "<guilabel>Center windows, delay activating window buttons</guilabel>: Select "
@@ -5835,7 +5881,7 @@ msgstr ""
 "सेकण्डेषु विलम्बः <guilabel>बटनसक्रियविलम्बः (सेकेण्ड्)</guilabel> इत्यत्र सेट् भवति ।"
 
 #. Tag: para
-#: index.docbook:3132
+#: index.docbook:3143
 #, no-c-format
 msgid ""
 "<guilabel>Message windows have a titlebar and take keyboard focus</"
@@ -5850,7 +5896,7 @@ msgstr ""
 "अलार्म सन्देश प्रदर्शन</link> विस्तरेण कृते विभागः।"
 
 #. Tag: para
-#: index.docbook:3146
+#: index.docbook:3157
 #, no-c-format
 msgid ""
 "To reduce the chance of accidentally acknowledging the alarm, the window's "
@@ -5862,13 +5908,13 @@ msgstr ""
 "guilabel> इत्यत्र सेट् भवति ।"
 
 #. Tag: title
-#: index.docbook:3158
+#: index.docbook:3169
 #, no-c-format
 msgid "Edit"
 msgstr "सम्पादन"
 
 #. Tag: para
-#: index.docbook:3160
+#: index.docbook:3171
 #, no-c-format
 msgid ""
 "The <guilabel>Edit</guilabel> section lets you choose default values for the "
@@ -5878,7 +5924,7 @@ msgstr ""
 "चिन्वितुं शक्नुवन्ति<link linkend=\"alarm-edit-dlg\"> अलार्म सम्पादन संवाद</link> :"
 
 #. Tag: para
-#: index.docbook:3165
+#: index.docbook:3176
 #, no-c-format
 msgid ""
 "The <guilabel>General</guilabel> tab contains options which apply to all "
@@ -5888,13 +5934,13 @@ msgstr ""
 "प्रवर्तन्ते ।"
 
 #. Tag: para
-#: index.docbook:3169
+#: index.docbook:3180
 #, no-c-format
 msgid "Set the default method for displaying alarm messages."
 msgstr "अलार्मसन्देशान् प्रदर्शयितुं पूर्वनिर्धारितविधिं सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3173
+#: index.docbook:3184
 #, no-c-format
 msgid ""
 "Set the default states for the <guilabel>Show in KOrganizer</guilabel> and "
@@ -5904,13 +5950,13 @@ msgstr ""
 "guilabel> चेकबॉक्स् कृते पूर्वनिर्धारितस्थितिः सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3178
+#: index.docbook:3189
 #, no-c-format
 msgid "Set the default recurrence type."
 msgstr "पूर्वनिर्धारितं पुनरावृत्तिप्रकारं सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3181
+#: index.docbook:3192
 #, no-c-format
 msgid ""
 "Select the default handling in non-leap years of yearly recurrences "
@@ -5920,7 +5966,7 @@ msgstr ""
 "चिनोतु ।"
 
 #. Tag: para
-#: index.docbook:3187
+#: index.docbook:3198
 #, no-c-format
 msgid ""
 "The <guilabel>Alarm Types</guilabel> tab contains options which apply to "
@@ -5930,13 +5976,13 @@ msgstr ""
 "अलार्मस्य कृते प्रवर्तन्ते ।"
 
 #. Tag: para
-#: index.docbook:3192
+#: index.docbook:3203
 #, no-c-format
 msgid "For display alarms:"
 msgstr "प्रदर्शन-अलार्म-कृते :"
 
 #. Tag: para
-#: index.docbook:3195
+#: index.docbook:3206
 #, no-c-format
 msgid ""
 "Set the default states for the <guilabel>Auto-close window after this time</"
@@ -5946,19 +5992,19 @@ msgstr ""
 "पुष्टयतु</guilabel> इति चेकबॉक्सस्य पूर्वनिर्धारितस्थितिः सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3200
+#: index.docbook:3211
 #, no-c-format
 msgid "Set the default reminder period units."
 msgstr "पूर्वनिर्धारितस्मारककाल-एककाः सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3203
+#: index.docbook:3214
 #, no-c-format
 msgid "Set the default special display alarm actions."
 msgstr "पूर्वनिर्धारितविशेषप्रदर्शनअलार्मक्रियाः सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3206
+#: index.docbook:3217
 #, no-c-format
 msgid ""
 "Set the default sound options. Note that a default sound file may be "
@@ -5970,13 +6016,13 @@ msgstr ""
 "निर्दिष्टा भवितुम् अर्हति ।"
 
 #. Tag: para
-#: index.docbook:3214
+#: index.docbook:3225
 #, no-c-format
 msgid "For command alarms:"
 msgstr "आदेश-अलार्म-कृते :"
 
 #. Tag: para
-#: index.docbook:3217
+#: index.docbook:3228
 #, no-c-format
 msgid ""
 "Set the default states for the <guilabel>Enter a script</guilabel> and "
@@ -5986,13 +6032,13 @@ msgstr ""
 "guilabel> इति चेकबॉक्स् कृते पूर्वनिर्धारितस्थितिः सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3225
+#: index.docbook:3236
 #, no-c-format
 msgid "For email alarms:"
 msgstr "ईमेल-अलार्म-कृते :"
 
 #. Tag: para
-#: index.docbook:3228
+#: index.docbook:3239
 #, no-c-format
 msgid ""
 "Set the default state for the <guilabel>Copy email to self</guilabel> check "
@@ -6002,7 +6048,7 @@ msgstr ""
 "कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:3236
+#: index.docbook:3247
 #, no-c-format
 msgid ""
 "The <guilabel>Font &amp; Color</guilabel> tab lets you set the default "
@@ -6013,13 +6059,13 @@ msgstr ""
 "सेट् कर्तुं शक्नोति । तेषां पूर्वनिर्धारितं फ़ॉन्ट्, अग्रभूमिं पृष्ठभूमिं च चिनोतु ।"
 
 #. Tag: title
-#: index.docbook:3246
+#: index.docbook:3257
 #, no-c-format
 msgid "Command Line Operation"
 msgstr "आदेशपङ्क्तिसञ्चालनम्"
 
 #. Tag: para
-#: index.docbook:3248
+#: index.docbook:3259
 #, no-c-format
 msgid ""
 "When command line parameters are supplied, &kalarm; does not display the "
@@ -6032,25 +6078,25 @@ msgstr ""
 "link> उपरि। &amp;kalarm; निम्नलिखितक्रियाः कर्तुं उपयोक्तुं शक्यते ।"
 
 #. Tag: para
-#: index.docbook:3255 index.docbook:3661
+#: index.docbook:3266 index.docbook:3672
 #, no-c-format
 msgid "schedule a new alarm"
 msgstr "नूतनं अलार्मं निर्धारयन्तु"
 
 #. Tag: para
-#: index.docbook:3257
+#: index.docbook:3268
 #, no-c-format
 msgid "control &kalarm;'s display mode"
 msgstr "&kalarm;'s प्रदर्शनविधिं नियन्त्रयन्तु"
 
 #. Tag: para
-#: index.docbook:3259
+#: index.docbook:3270
 #, no-c-format
 msgid "obtain help"
 msgstr "साहाय्यं प्राप्नुवन्तु"
 
 #. Tag: para
-#: index.docbook:3263
+#: index.docbook:3274
 #, no-c-format
 msgid ""
 "Additional command line options are provided primarily to enable other "
@@ -6062,7 +6108,7 @@ msgstr ""
 "kalarm;</link> ."
 
 #. Tag: para
-#: index.docbook:3268
+#: index.docbook:3279
 #, no-c-format
 msgid ""
 "The command line must only contain options applicable to one &kalarm; "
@@ -6073,31 +6119,31 @@ msgstr ""
 "&kalarm; प्रत्येकं समये एकेन विकल्पसमूहेन सह बहुवारं।"
 
 #. Tag: title
-#: index.docbook:3274
+#: index.docbook:3285
 #, no-c-format
 msgid "Schedule a New Alarm"
 msgstr "नूतनं अलार्मं समयनिर्धारणं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:3276
+#: index.docbook:3287
 #, no-c-format
 msgid "The following options are used to schedule a new alarm:"
 msgstr "नूतनस्य अलार्मस्य समयनिर्धारणाय निम्नलिखितविकल्पानां उपयोगः भवति ।"
 
 #. Tag: entry
-#: index.docbook:3282 index.docbook:3588 index.docbook:4879
+#: index.docbook:3293 index.docbook:3599 index.docbook:4890
 #, no-c-format
 msgid "Option"
 msgstr "विकल्प"
 
 #. Tag: entry
-#: index.docbook:3283 index.docbook:3589 index.docbook:4880
+#: index.docbook:3294 index.docbook:3600 index.docbook:4891
 #, no-c-format
 msgid "<entry>Description</entry>"
 msgstr "<प्रविष्टि>विवरण</entry>"
 
 #. Tag: entry
-#: index.docbook:3288
+#: index.docbook:3299
 #, no-c-format
 msgid "<option>-a</option>, <option>--ack-confirm</option>"
 msgstr ""
@@ -6105,13 +6151,13 @@ msgstr ""
 "option>"
 
 #. Tag: entry
-#: index.docbook:3289
+#: index.docbook:3300
 #, no-c-format
 msgid "Prompt for confirmation when the alarm message is acknowledged."
 msgstr "अलार्मसन्देशः स्वीकृतः चेत् पुष्टिः प्रॉम्प्ट् कुर्वन्तु ।"
 
 #. Tag: entry
-#: index.docbook:3293
+#: index.docbook:3304
 #, no-c-format
 msgid ""
 "<option>-A</option>, <option>--attach <replaceable>URL</replaceable></option>"
@@ -6120,7 +6166,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3294
+#: index.docbook:3305
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of a file which is to be attached to the email. "
@@ -6132,13 +6178,13 @@ msgstr ""
 "सह निर्दिष्टं भवितुमर्हति ।"
 
 #. Tag: option
-#: index.docbook:3299
+#: index.docbook:3310
 #, no-c-format
 msgid "--auto-close"
 msgstr "--स्वतः-निमीलनम्"
 
 #. Tag: entry
-#: index.docbook:3300
+#: index.docbook:3311
 #, no-c-format
 msgid ""
 "Automatically close the alarm window after the expiry of the <option>--late-"
@@ -6150,13 +6196,13 @@ msgstr ""
 "रद्द</option> एतेन विकल्पेन सह निर्दिष्टं भवितुमर्हति ।"
 
 #. Tag: entry
-#: index.docbook:3306
+#: index.docbook:3317
 #, no-c-format
 msgid "<option>-b</option>, <option>--beep</option>"
 msgstr "<option value=-b>-ख</option> , ९.<option value=--beep> --बीप</option>"
 
 #. Tag: entry
-#: index.docbook:3307
+#: index.docbook:3318
 #, no-c-format
 msgid ""
 "Make an audible beep when the message is displayed. <option>--speak</"
@@ -6168,13 +6214,13 @@ msgstr ""
 "पुनरावृत्ति</option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: option
-#: index.docbook:3313
+#: index.docbook:3324
 #, no-c-format
 msgid "--bcc"
 msgstr "--bcc"
 
 #. Tag: entry
-#: index.docbook:3314
+#: index.docbook:3325
 #, no-c-format
 msgid ""
 "Blind copy the email to yourself. <option>--mail</option> must be specified "
@@ -6184,7 +6230,7 @@ msgstr ""
 "निर्दिष्टं भवितुमर्हति ।"
 
 #. Tag: entry
-#: index.docbook:3318
+#: index.docbook:3329
 #, no-c-format
 msgid ""
 "<option>-c</option>, <option>--color</option>, <option>--colour "
@@ -6194,7 +6240,7 @@ msgstr ""
 "<option> --वर्ण<replaceable> वर्ण</replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3320
+#: index.docbook:3331
 #, no-c-format
 msgid ""
 "Set the message background color to the specified &Qt; color name or hex "
@@ -6202,7 +6248,7 @@ msgid ""
 msgstr "सन्देशपृष्ठभूमिवर्णं निर्दिष्टे &Qt; वर्णनाम अथवा हेक्स कोड 0xRRGGBB."
 
 #. Tag: entry
-#: index.docbook:3324
+#: index.docbook:3335
 #, no-c-format
 msgid ""
 "<option>-C</option>, <option>--colorfg</option>, <option>--colourfg "
@@ -6212,7 +6258,7 @@ msgstr ""
 "९.<option> --रङ्गफग<replaceable> वर्ण</replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3326
+#: index.docbook:3337
 #, no-c-format
 msgid ""
 "Set the message foreground color to the specified &Qt; color name or hex "
@@ -6220,14 +6266,14 @@ msgid ""
 msgstr "सन्देशस्य अग्रभूमिवर्णं निर्दिष्टे &Qt; वर्णनाम अथवा हेक्स कोड 0xRRGGBB."
 
 #. Tag: entry
-#: index.docbook:3330
+#: index.docbook:3341
 #, no-c-format
 msgid "<option>-d</option>, <option>--disable</option>"
 msgstr ""
 "<option value=-d>-घ</option> , ९.<option value=--disable> --अक्षम</option>"
 
 #. Tag: entry
-#: index.docbook:3331
+#: index.docbook:3342
 #, no-c-format
 msgid ""
 "Disable the alarm. It will not trigger until it has been manually enabled."
@@ -6235,13 +6281,13 @@ msgstr ""
 "अलार्मं निष्क्रियं कुर्वन्तु। यावत् हस्तचलितरूपेण सक्षमं न भवति तावत् इदं न प्रवर्तयिष्यति ।"
 
 #. Tag: option
-#: index.docbook:3335 index.docbook:3637
+#: index.docbook:3346 index.docbook:3648
 #, no-c-format
 msgid "--disable-all"
 msgstr "--अक्षम-सर्वम्"
 
 #. Tag: entry
-#: index.docbook:3336
+#: index.docbook:3347
 #, no-c-format
 msgid ""
 "Disable alarm monitoring. This prevents any alarms from being triggered "
@@ -6254,7 +6300,7 @@ msgstr ""
 "न शक्यते ।"
 
 #. Tag: entry
-#: index.docbook:3343
+#: index.docbook:3354
 #, no-c-format
 msgid ""
 "<option>-e</option>, <option>--exec <replaceable>commandline</replaceable></"
@@ -6264,7 +6310,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3344
+#: index.docbook:3355
 #, no-c-format
 msgid ""
 "Specify a shell command to execute. If specified, this option must be the "
@@ -6285,7 +6331,7 @@ msgstr ""
 "option> एतेन विकल्पेन उपेक्षिताः भवन्ति।"
 
 #. Tag: entry
-#: index.docbook:3355
+#: index.docbook:3366
 #, no-c-format
 msgid ""
 "<option>-E</option>, <option>--exec-display <replaceable>commandline</"
@@ -6295,7 +6341,7 @@ msgstr ""
 "आदेशपङ्क्तिः</replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3356
+#: index.docbook:3367
 #, no-c-format
 msgid ""
 "Specify a shell command to execute to generate the alarm message text. If "
@@ -6312,7 +6358,7 @@ msgstr ""
 "तथा<option value=--mail> --मेल</option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: entry
-#: index.docbook:3364
+#: index.docbook:3375
 #, no-c-format
 msgid ""
 "<option>-f</option>, <option>--file <replaceable>URL</replaceable></option>"
@@ -6321,7 +6367,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3365
+#: index.docbook:3376
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of a text or image file whose contents are to form "
@@ -6336,7 +6382,7 @@ msgstr ""
 "न भवितुमर्हति।"
 
 #. Tag: entry
-#: index.docbook:3372
+#: index.docbook:3383
 #, no-c-format
 msgid ""
 "<option>-F</option>, <option>--from-id <replaceable>ID</replaceable></option>"
@@ -6345,7 +6391,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3374
+#: index.docbook:3385
 #, no-c-format
 msgid ""
 "Use the specified &kmail; identity as the sender of the email. <option>--"
@@ -6355,7 +6401,7 @@ msgstr ""
 "mail> --मेल</option> एतेन विकल्पेन सह निर्दिष्टं भवितुमर्हति ।"
 
 #. Tag: entry
-#: index.docbook:3379
+#: index.docbook:3390
 #, no-c-format
 msgid ""
 "<option>-i</option>, <option>--interval <replaceable>period</replaceable></"
@@ -6365,7 +6411,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3381
+#: index.docbook:3392
 #, no-c-format
 msgid ""
 "Set the interval between repetitions of the alarm. Hours/minutes are "
@@ -6389,20 +6435,20 @@ msgstr ""
 "इति निर्दिष्टम् ।"
 
 #. Tag: entry
-#: index.docbook:3395
+#: index.docbook:3406
 #, no-c-format
 msgid "<option>-k</option>, <option>--korganizer</option>"
 msgstr ""
 "<option value=-k>-क</option> , ९.<option value=--korganizer> --आयोजक</option>"
 
 #. Tag: entry
-#: index.docbook:3396
+#: index.docbook:3407
 #, no-c-format
 msgid "Show the alarm as an event in &korganizer;'s active calendar."
 msgstr "&korganizer; इत्यस्य सक्रियपञ्चाङ्गे अलार्मं घटनारूपेण दर्शयतु ।"
 
 #. Tag: entry
-#: index.docbook:3400
+#: index.docbook:3411
 #, no-c-format
 msgid ""
 "<option>-l</option>, <option>--late-cancel <replaceable>period</"
@@ -6412,7 +6458,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3402
+#: index.docbook:3413
 #, no-c-format
 msgid ""
 "Cancel the alarm if it cannot be triggered within the specified "
@@ -6433,14 +6479,14 @@ msgstr ""
 "<replaceable>period</replaceable> इत्यस्य पूर्वनिर्धारितं मूल्यं १ निमेषः अस्ति ।"
 
 #. Tag: entry
-#: index.docbook:3415
+#: index.docbook:3426
 #, no-c-format
 msgid "<option>-L</option>, <option>--login</option>"
 msgstr ""
 "<option value=-L>-L</option> , ९.<option value=--login> --प्रवेशः</option>"
 
 #. Tag: entry
-#: index.docbook:3416
+#: index.docbook:3427
 #, no-c-format
 msgid ""
 "Trigger the alarm every time you log in. <option>--interval</option>, "
@@ -6452,7 +6498,7 @@ msgstr ""
 "option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: entry
-#: index.docbook:3422
+#: index.docbook:3433
 #, no-c-format
 msgid ""
 "<option>-m</option>, <option>--mail <replaceable>address</replaceable></"
@@ -6462,7 +6508,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3424
+#: index.docbook:3435
 #, no-c-format
 msgid ""
 "Send an email to the specified address. This option may be repeated as "
@@ -6479,7 +6525,7 @@ msgstr ""
 "तथा<option value=--colorfg> --रंगफग्</option> एतेन विकल्पेन उपेक्षिताः भवन्ति।"
 
 #. Tag: entry
-#: index.docbook:3433
+#: index.docbook:3444
 #, no-c-format
 msgid ""
 "<option>-n</option>, <option>--name <replaceable>name</replaceable></option>"
@@ -6488,20 +6534,20 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3434
+#: index.docbook:3445
 #, no-c-format
 msgid "Specify a name to help you to identify the alarm."
 msgstr "अलार्म-परिचये भवतः सहायार्थं नाम निर्दिशन्तु ।"
 
 #. Tag: entry
-#: index.docbook:3437
+#: index.docbook:3448
 #, no-c-format
 msgid "<option>-N</option>, <option>--notify</option>"
 msgstr ""
 "<option value=-N>-N</option> , ९.<option value=--notify> --सूचना</option>"
 
 #. Tag: entry
-#: index.docbook:3438
+#: index.docbook:3449
 #, no-c-format
 msgid ""
 "Display the alarm as a notification, not in a window. <option>--color</"
@@ -6516,7 +6562,7 @@ msgstr ""
 "शक्यते ।"
 
 #. Tag: entry
-#: index.docbook:3445
+#: index.docbook:3456
 #, no-c-format
 msgid ""
 "<option>-p</option>, <option>--play <replaceable>URL</replaceable></option>"
@@ -6525,7 +6571,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3446
+#: index.docbook:3457
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of an audio file to be played once, either as an "
@@ -6539,7 +6585,7 @@ msgstr ""
 "वदतिब्रू</option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: entry
-#: index.docbook:3453
+#: index.docbook:3464
 #, no-c-format
 msgid ""
 "<option>-P</option>, <option>--play-repeat <replaceable>URL</replaceable></"
@@ -6549,7 +6595,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3454
+#: index.docbook:3465
 #, no-c-format
 msgid ""
 "Specify the path or &URL; of an audio file to be played repeatedly, either "
@@ -6564,13 +6610,13 @@ msgstr ""
 "निर्दिष्टुं न शक्यते ।"
 
 #. Tag: option
-#: index.docbook:3462
+#: index.docbook:3473
 #, no-c-format
 msgid "--recurrence <replaceable>spec</replaceable>"
 msgstr "--पुनरावृत्ति <प्रतिस्थापनीय>spec</replaceable>"
 
 #. Tag: entry
-#: index.docbook:3464
+#: index.docbook:3475
 #, no-c-format
 msgid ""
 "Set the alarm to recur. Specify the recurrence using iCalendar syntax "
@@ -6584,7 +6630,7 @@ msgstr ""
 "<option value=--until> --यावत्‌</option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: entry
-#: index.docbook:3472
+#: index.docbook:3483
 #, no-c-format
 msgid ""
 "<option>-r</option>, <option>--repeat <replaceable>count</replaceable></"
@@ -6594,7 +6640,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3474
+#: index.docbook:3485
 #, no-c-format
 msgid ""
 "Set the number of times the alarm should be triggered, or if a recurrence is "
@@ -6614,7 +6660,7 @@ msgstr ""
 "च<option value=--until> --यावत्‌</option> न भवितुं शक्नोति, एतेन विकल्पेन निर्दिष्टः ।"
 
 #. Tag: entry
-#: index.docbook:3484
+#: index.docbook:3495
 #, no-c-format
 msgid ""
 "<option>-R</option>, <option>--reminder <replaceable>period</replaceable></"
@@ -6624,7 +6670,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3486
+#: index.docbook:3497
 #, no-c-format
 msgid ""
 "Output a reminder alarm the specified length of time before or after the "
@@ -6646,13 +6692,13 @@ msgstr ""
 "एकदा</option> ."
 
 #. Tag: option
-#: index.docbook:3497
+#: index.docbook:3508
 #, no-c-format
 msgid "--reminder-once <replaceable>period</replaceable>"
 msgstr "--स्मरण-एकदा <प्रतिस्थापनीय>काल</replaceable>"
 
 #. Tag: entry
-#: index.docbook:3499
+#: index.docbook:3510
 #, no-c-format
 msgid ""
 "Output a reminder alarm once, the specified length of time before or after "
@@ -6670,14 +6716,14 @@ msgstr ""
 "option> वा<option value=--reminder> --स्मरणपत्र</option> ."
 
 #. Tag: entry
-#: index.docbook:3508
+#: index.docbook:3519
 #, no-c-format
 msgid "<option>-s</option>, <option>--speak</option>"
 msgstr ""
 "<option value=-s>-s</option> , ९.<option value=--speak> --वदतिब्रू</option>"
 
 #. Tag: entry
-#: index.docbook:3509
+#: index.docbook:3520
 #, no-c-format
 msgid ""
 "Speak the message when it is displayed. This option requires &kalarm; to "
@@ -6691,7 +6737,7 @@ msgstr ""
 "value=--play-repeat> --क्रीडा-पुनरावृत्ति</option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: entry
-#: index.docbook:3516
+#: index.docbook:3527
 #, no-c-format
 msgid ""
 "<option>-S</option>, <option>--subject <replaceable>subject</replaceable></"
@@ -6701,7 +6747,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3518
+#: index.docbook:3529
 #, no-c-format
 msgid ""
 "The subject line of the email. <option>--mail</option> must be specified "
@@ -6711,7 +6757,7 @@ msgstr ""
 "भवितुमर्हति ।"
 
 #. Tag: entry
-#: index.docbook:3523
+#: index.docbook:3534
 #, no-c-format
 msgid ""
 "<option>-t</option>, <option>--time <replaceable>date/time</replaceable></"
@@ -6721,7 +6767,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3525
+#: index.docbook:3536
 #, no-c-format
 msgid ""
 "Trigger alarm on the date or at the date/time specified. Specify a date "
@@ -6743,7 +6789,7 @@ msgstr ""
 "प्रतिनिधित्वं कुर्वन् ।"
 
 #. Tag: entry
-#: index.docbook:3537
+#: index.docbook:3548
 #, no-c-format
 msgid ""
 "<option>-v</option>, <option>--volume <replaceable>percentage</replaceable></"
@@ -6753,7 +6799,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3539
+#: index.docbook:3550
 #, no-c-format
 msgid ""
 "Set the audio volume for playing the audio file. This option can only be "
@@ -6765,7 +6811,7 @@ msgstr ""
 "पुनरावृत्ति</option> इति निर्दिष्टम् ।"
 
 #. Tag: entry
-#: index.docbook:3544
+#: index.docbook:3555
 #, no-c-format
 msgid ""
 "<option>-u</option>, <option>--until <replaceable>date/time</replaceable></"
@@ -6775,7 +6821,7 @@ msgstr ""
 "replaceable></option>"
 
 #. Tag: entry
-#: index.docbook:3546
+#: index.docbook:3557
 #, no-c-format
 msgid ""
 "Repeat the alarm until the date or date/time specified. Specify the date or "
@@ -6794,13 +6840,13 @@ msgstr ""
 "value=--recurrence> --पुनरावृत्तिः</option> न भवितुं शक्नोति, एतेन विकल्पेन निर्दिष्टः ।"
 
 #. Tag: replaceable
-#: index.docbook:3556
+#: index.docbook:3567
 #, no-c-format
 msgid "<replaceable>message</replaceable>"
 msgstr "<प्रतिस्थापनीय>सन्देशः</प्रतिस्थापनीयः>"
 
 #. Tag: entry
-#: index.docbook:3557
+#: index.docbook:3568
 #, no-c-format
 msgid ""
 "Message text to display or, if <option>--mail</option> is specified, the "
@@ -6810,7 +6856,7 @@ msgstr ""
 "ईमेलसन्देशस्य मुख्यम् ।"
 
 #. Tag: para
-#: index.docbook:3564
+#: index.docbook:3575
 #, no-c-format
 msgid ""
 "Either a message text, <option>--file</option>, <option>--exec</option>, "
@@ -6825,7 +6871,7 @@ msgstr ""
 "सर्वे विकल्पाः वैकल्पिकाः सन्ति ।"
 
 #. Tag: para
-#: index.docbook:3569
+#: index.docbook:3580
 #, no-c-format
 msgid ""
 "Two alternative examples which display a multi-line message with a red "
@@ -6835,7 +6881,7 @@ msgstr ""
 "सन्ति :"
 
 #. Tag: screen
-#: index.docbook:3572
+#: index.docbook:3583
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput><command>kalarm</command> <option>-c "
@@ -6857,13 +6903,13 @@ msgstr ""
 "replaceable></option></userinput>"
 
 #. Tag: title
-#: index.docbook:3578
+#: index.docbook:3589
 #, no-c-format
 msgid "Other Options"
 msgstr "अन्ये विकल्पाः"
 
 #. Tag: para
-#: index.docbook:3580
+#: index.docbook:3591
 #, no-c-format
 msgid ""
 "The following options are used to perform various functions, including "
@@ -6873,13 +6919,13 @@ msgstr ""
 "\"alarm-edit-dlg\"> अलार्म सम्पादन संवाद</link> ."
 
 #. Tag: option
-#: index.docbook:3594
+#: index.docbook:3605
 #, no-c-format
 msgid "--edit <replaceable>eventID</replaceable>"
 msgstr "--edit <replaceable>eventID</replaceable> इति"
 
 #. Tag: entry
-#: index.docbook:3595
+#: index.docbook:3606
 #, no-c-format
 msgid ""
 "Display the Alarm Edit dialog to edit the alarm with the specified event ID. "
@@ -6893,61 +6939,61 @@ msgstr ""
 "इति प्रारूपेण"
 
 #. Tag: option
-#: index.docbook:3602
+#: index.docbook:3613
 #, no-c-format
 msgid "--edit-new-audio"
 msgstr "--संपादन-नव-श्रव्य"
 
 #. Tag: entry
-#: index.docbook:3603
+#: index.docbook:3614
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new audio alarm."
 msgstr "Alarm Edit संवादं प्रदर्शयन्तु, नूतनं श्रव्य-अलार्म सम्पादयितुं ।"
 
 #. Tag: option
-#: index.docbook:3607
+#: index.docbook:3618
 #, no-c-format
 msgid "--edit-new-command"
 msgstr "--संपादन-नव-आदेशः"
 
 #. Tag: entry
-#: index.docbook:3608
+#: index.docbook:3619
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new command alarm."
 msgstr "Alarm Edit संवादं प्रदर्शयन्तु, नूतनं आदेशं अलार्म सम्पादयितुं ।"
 
 #. Tag: option
-#: index.docbook:3612
+#: index.docbook:3623
 #, no-c-format
 msgid "--edit-new-display"
 msgstr "--संपादन-नव-प्रदर्शनम्"
 
 #. Tag: entry
-#: index.docbook:3613
+#: index.docbook:3624
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new display alarm."
 msgstr "Alarm Edit संवादं प्रदर्शयन्तु, नूतनं प्रदर्शन अलार्म सम्पादयितुं ।"
 
 #. Tag: option
-#: index.docbook:3617
+#: index.docbook:3628
 #, no-c-format
 msgid "--edit-new-email"
 msgstr "--संपादन-नव-ईमेल"
 
 #. Tag: entry
-#: index.docbook:3618
+#: index.docbook:3629
 #, no-c-format
 msgid "Display the Alarm Edit dialog, in order to edit a new email alarm."
 msgstr "Alarm Edit संवादं प्रदर्शयन्तु, नूतनं ईमेल अलार्म सम्पादयितुं ।"
 
 #. Tag: option
-#: index.docbook:3622
+#: index.docbook:3633
 #, no-c-format
 msgid "--edit-new-preset <replaceable>templateName</replaceable>"
 msgstr "--edit-new-preset <प्रतिस्थापनीय>टेम्पलेटनाम</प्रतिस्थापनीय>"
 
 #. Tag: entry
-#: index.docbook:3623
+#: index.docbook:3634
 #, no-c-format
 msgid ""
 "Display the Alarm Edit dialog, preset with the alarm template of the "
@@ -6957,13 +7003,13 @@ msgstr ""
 "संवादं प्रदर्शयन्तु ।"
 
 #. Tag: option
-#: index.docbook:3627
+#: index.docbook:3638
 #, no-c-format
 msgid "--list"
 msgstr "--सूची"
 
 #. Tag: entry
-#: index.docbook:3628
+#: index.docbook:3639
 #, no-c-format
 msgid ""
 "Output a list of scheduled alarms to <filename>stdout</filename>. The list "
@@ -6975,49 +7021,49 @@ msgstr ""
 "निर्धारितसमयः तथा च सन्देशपाठः अथवा सञ्चिका ।"
 
 #. Tag: option
-#: index.docbook:3633
+#: index.docbook:3644
 #, no-c-format
 msgid "--tray"
 msgstr "--पात्र"
 
 #. Tag: entry
-#: index.docbook:3634
+#: index.docbook:3645
 #, no-c-format
 msgid "Display &kalarm; as an icon in the system tray."
 msgstr "प्रदर्शयतु &kalarm; सिस्टम् ट्रे मध्ये चिह्नरूपेण ।"
 
 #. Tag: entry
-#: index.docbook:3638
+#: index.docbook:3649
 #, no-c-format
 msgid "Disable monitoring of all alarms."
 msgstr "सर्वेषां अलार्म-निरीक्षणं निष्क्रियं कुर्वन्तु।"
 
 #. Tag: para
-#: index.docbook:3644
+#: index.docbook:3655
 #, no-c-format
 msgid "See also:"
 msgstr "इदमपि पश्यन्तु :"
 
 #. Tag: member
-#: index.docbook:3646
+#: index.docbook:3657
 #, no-c-format
 msgid "kf6options(7)"
 msgstr "kf6विकल्पाः(7) ."
 
 #. Tag: member
-#: index.docbook:3647
+#: index.docbook:3658
 #, no-c-format
 msgid "qt6options(7)"
 msgstr "qt6विकल्प(7) 1.1."
 
 #. Tag: title
-#: index.docbook:3655
+#: index.docbook:3666
 #, no-c-format
 msgid "Developer's Guide to &kalarm;"
 msgstr "विकासकस्य मार्गदर्शिका &kalarm;"
 
 #. Tag: para
-#: index.docbook:3657
+#: index.docbook:3668
 #, no-c-format
 msgid ""
 "&kalarm; provides an interface to allow other applications to request the "
@@ -7027,31 +7073,31 @@ msgstr ""
 "प्रदाति:"
 
 #. Tag: para
-#: index.docbook:3662
+#: index.docbook:3673
 #, no-c-format
 msgid "cancel an already scheduled alarm"
 msgstr "पूर्वमेव निर्धारितं अलार्मं रद्दं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:3663
+#: index.docbook:3674
 #, no-c-format
 msgid "trigger an already scheduled alarm"
 msgstr "पूर्वमेव निर्धारितं अलार्मं प्रेरयन्तु"
 
 #. Tag: para
-#: index.docbook:3664
+#: index.docbook:3675
 #, no-c-format
 msgid "display the Alarm Edit dialog"
 msgstr "Alarm Edit संवादं प्रदर्शयन्तु"
 
 #. Tag: para
-#: index.docbook:3665
+#: index.docbook:3676
 #, no-c-format
 msgid "list scheduled alarms"
 msgstr "निर्धारितं अलार्मं सूचीबद्धं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:3668
+#: index.docbook:3679
 #, no-c-format
 msgid ""
 "Each of the above functions is implemented both by a &DBus; call and by the "
@@ -7062,13 +7108,13 @@ msgstr ""
 "करणीयः यदि &kalarm; पूर्वमेव प्रचलति।"
 
 #. Tag: title
-#: index.docbook:3673
+#: index.docbook:3684
 #, no-c-format
 msgid "&DBus; Interface"
 msgstr "&DBus; अन्तरफलकम्"
 
 #. Tag: para
-#: index.docbook:3675
+#: index.docbook:3686
 #, no-c-format
 msgid ""
 "The &DBus; calls described in this document are all implemented in "
@@ -7082,45 +7128,45 @@ msgstr ""
 "अस्ति ।"
 
 #. Tag: refentrytitle
-#: index.docbook:3683
+#: index.docbook:3694
 #, no-c-format
 msgid "<refentrytitle>cancelEvent</refentrytitle>"
 msgstr "<refentrytitle>रद्दीकरणघटना</refentrytitle>"
 
 #. Tag: refname
-#: index.docbook:3686
+#: index.docbook:3697
 #, no-c-format
 msgid "<refname>cancelEvent</refname>"
 msgstr "<refname>रद्दीकरणघटना</refname>"
 
 #. Tag: refpurpose
-#: index.docbook:3687
+#: index.docbook:3698
 #, no-c-format
 msgid "cancel an already scheduled alarm."
 msgstr "पूर्वमेव निर्धारितं अलार्मं रद्दं कुर्वन्तु।"
 
 #. Tag: synopsis
-#: index.docbook:3690
+#: index.docbook:3701
 #, no-c-format
 msgid "void cancelEvent(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr "void cancelEvent(const QString&amp; <प्रतिस्थापनीय>घटनाID</प्रतिस्थापनीय>)"
 
 #. Tag: title
-#: index.docbook:3693 index.docbook:3730 index.docbook:3776 index.docbook:4004
-#: index.docbook:4202 index.docbook:4367 index.docbook:4563 index.docbook:4731
-#: index.docbook:4777
+#: index.docbook:3704 index.docbook:3741 index.docbook:3787 index.docbook:4015
+#: index.docbook:4213 index.docbook:4378 index.docbook:4574 index.docbook:4742
+#: index.docbook:4788
 #, no-c-format
 msgid "Parameters"
 msgstr "पैरामीटर्"
 
 #. Tag: parameter
-#: index.docbook:3696 index.docbook:3733 index.docbook:4734
+#: index.docbook:3707 index.docbook:3744 index.docbook:4745
 #, no-c-format
 msgid "eventID"
 msgstr "eventID"
 
 #. Tag: para
-#: index.docbook:3698
+#: index.docbook:3709
 #, no-c-format
 msgid ""
 "Specifies the unique ID of the event to be canceled, optionally prefixed by "
@@ -7132,15 +7178,15 @@ msgstr ""
 "<replaceable>[resourceID:]eventUID</replaceable> इति प्रारूपेण"
 
 #. Tag: title
-#: index.docbook:3709 index.docbook:3746 index.docbook:3970 index.docbook:4176
-#: index.docbook:4341 index.docbook:4536 index.docbook:4708 index.docbook:4754
-#: index.docbook:4809 index.docbook:4839
+#: index.docbook:3720 index.docbook:3757 index.docbook:3981 index.docbook:4187
+#: index.docbook:4352 index.docbook:4547 index.docbook:4719 index.docbook:4765
+#: index.docbook:4820 index.docbook:4850
 #, no-c-format
 msgid "<title>Description</title>"
 msgstr "<title>वर्णनम्‌</title>"
 
 #. Tag: para
-#: index.docbook:3711
+#: index.docbook:3722
 #, no-c-format
 msgid ""
 "<function>cancelEvent()</function> is a &DBus; call to cancel the specified "
@@ -7151,25 +7197,25 @@ msgstr ""
 "कुर्वन्तु। &कलार्म; अलार्मं प्रदर्शयित्वा वा निष्पादयित्वा वा पञ्चाङ्गात् विलोपयति ।"
 
 #. Tag: refentrytitle
-#: index.docbook:3720
+#: index.docbook:3731
 #, no-c-format
 msgid "<refentrytitle>triggerEvent</refentrytitle>"
 msgstr "<refentrytitle>triggerEvent</refentrytitle> इति"
 
 #. Tag: refname
-#: index.docbook:3723
+#: index.docbook:3734
 #, no-c-format
 msgid "<refname>triggerEvent</refname>"
 msgstr "<refname>triggerEvent</refname> इति"
 
 #. Tag: refpurpose
-#: index.docbook:3724
+#: index.docbook:3735
 #, no-c-format
 msgid "trigger an already scheduled alarm."
 msgstr "पूर्वमेव निर्धारितं अलार्मं प्रेरयन्तु।"
 
 #. Tag: synopsis
-#: index.docbook:3727
+#: index.docbook:3738
 #, no-c-format
 msgid ""
 "void triggerEvent(const QString&amp; <replaceable>eventID</replaceable>)"
@@ -7177,7 +7223,7 @@ msgstr ""
 "void triggerEvent (const QString&amp; <प्रतिस्थापनीय>घटनाID</प्रतिस्थापनीय>)"
 
 #. Tag: para
-#: index.docbook:3735
+#: index.docbook:3746
 #, no-c-format
 msgid ""
 "Specifies the unique ID of the event to be triggered, optionally prefixed by "
@@ -7189,7 +7235,7 @@ msgstr ""
 "घटनायाः अद्वितीयं ID निर्दिशति"
 
 #. Tag: para
-#: index.docbook:3748
+#: index.docbook:3759
 #, no-c-format
 msgid ""
 "<function>triggerEvent()</function> is a &DBus; call to trigger the "
@@ -7202,7 +7248,7 @@ msgstr ""
 "कृत्वा)। &कलार्म; पञ्चाङ्गात् अलार्मं पुनः प्राप्नोति ततः प्रदर्शयति वा निष्पादयति वा ।"
 
 #. Tag: para
-#: index.docbook:3753
+#: index.docbook:3764
 #, no-c-format
 msgid ""
 "If the alarm is already due, &kalarm; then deletes all scheduled occurrences "
@@ -7216,25 +7262,25 @@ msgstr ""
 "अपरिवर्तितानि भवन्ति ।"
 
 #. Tag: refentrytitle
-#: index.docbook:3764
+#: index.docbook:3775
 #, no-c-format
 msgid "<refentrytitle>scheduleMessage</refentrytitle>"
 msgstr "<refentrytitle>कार्यक्रमसन्देश</refentrytitle> इति"
 
 #. Tag: refname
-#: index.docbook:3767
+#: index.docbook:3778
 #, no-c-format
 msgid "<refname>scheduleMessage</refname>"
 msgstr "<refname>cheeduleMessage</refname> इति"
 
 #. Tag: refpurpose
-#: index.docbook:3768
+#: index.docbook:3779
 #, no-c-format
 msgid "schedule a new alarm message."
 msgstr "नूतनं अलार्मसन्देशं निर्धारयन्तु।"
 
 #. Tag: synopsis
-#: index.docbook:3771
+#: index.docbook:3782
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -7277,7 +7323,7 @@ msgstr ""
 "                     int <प्रतिस्थापनीय>उपपुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:3772
+#: index.docbook:3783
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -7318,7 +7364,7 @@ msgstr ""
 "                     int <प्रतिस्थापनीय>पुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:3773
+#: index.docbook:3784
 #, no-c-format
 msgid ""
 "bool scheduleMessage(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -7361,27 +7407,27 @@ msgstr ""
 "replaceable>)"
 
 #. Tag: parameter
-#: index.docbook:3779 index.docbook:4007 index.docbook:4205 index.docbook:4370
-#: index.docbook:4566
+#: index.docbook:3790 index.docbook:4018 index.docbook:4216 index.docbook:4381
+#: index.docbook:4577
 #, no-c-format
 msgid "name"
 msgstr "नामः"
 
 #. Tag: para
-#: index.docbook:3781 index.docbook:4009 index.docbook:4207 index.docbook:4372
-#: index.docbook:4568
+#: index.docbook:3792 index.docbook:4020 index.docbook:4218 index.docbook:4383
+#: index.docbook:4579
 #, no-c-format
 msgid "Specifies an optional name for the alarm."
 msgstr "अलार्मस्य कृते वैकल्पिकं नाम निर्दिशति ।"
 
 #. Tag: parameter
-#: index.docbook:3786 index.docbook:4401
+#: index.docbook:3797 index.docbook:4412
 #, no-c-format
 msgid "<parameter>message</parameter>"
 msgstr "<पैरामीटर्>सन्देशः</parameter> इति"
 
 #. Tag: para
-#: index.docbook:3788
+#: index.docbook:3799
 #, no-c-format
 msgid ""
 "Specifies the text of the message to be scheduled, or if <parameter>flags</"
@@ -7393,15 +7439,15 @@ msgstr ""
 "निष्पादयितुं आदेशपङ्क्तिं निर्दिशति"
 
 #. Tag: parameter
-#: index.docbook:3796 index.docbook:4022 index.docbook:4221 index.docbook:4416
-#: index.docbook:4588
+#: index.docbook:3807 index.docbook:4033 index.docbook:4232 index.docbook:4427
+#: index.docbook:4599
 #, no-c-format
 msgid "startDateTime"
 msgstr "startDateTime इति"
 
 #. Tag: para
-#: index.docbook:3798 index.docbook:4024 index.docbook:4223 index.docbook:4418
-#: index.docbook:4590
+#: index.docbook:3809 index.docbook:4035 index.docbook:4234 index.docbook:4429
+#: index.docbook:4601
 #, no-c-format
 msgid ""
 "Specifies the scheduled date, or date and time, at which the message should "
@@ -7426,8 +7472,8 @@ msgstr ""
 "उपेक्षितं भवति ।"
 
 #. Tag: para
-#: index.docbook:3810 index.docbook:4036 index.docbook:4235 index.docbook:4430
-#: index.docbook:4602
+#: index.docbook:3821 index.docbook:4047 index.docbook:4246 index.docbook:4441
+#: index.docbook:4613
 #, no-c-format
 msgid ""
 "If no time zone is specified, the local system time zone is assumed. If a "
@@ -7441,15 +7487,15 @@ msgstr ""
 "userinput> इति भवितुम् अर्हति UTC समयक्षेत्रस्य प्रतिनिधित्वं कुर्वन् ।"
 
 #. Tag: parameter
-#: index.docbook:3819 index.docbook:4045 index.docbook:4244 index.docbook:4439
-#: index.docbook:4611
+#: index.docbook:3830 index.docbook:4056 index.docbook:4255 index.docbook:4450
+#: index.docbook:4622
 #, no-c-format
 msgid "lateCancel"
 msgstr "lateCancel"
 
 #. Tag: para
-#: index.docbook:3821 index.docbook:4047 index.docbook:4246 index.docbook:4441
-#: index.docbook:4613
+#: index.docbook:3832 index.docbook:4058 index.docbook:4257 index.docbook:4452
+#: index.docbook:4624
 #, no-c-format
 msgid ""
 "Causes the alarm to be canceled if it cannot be triggered within the "
@@ -7461,14 +7507,14 @@ msgstr ""
 "प्रवर्तते चेदपि रद्दः न भविष्यति ।"
 
 #. Tag: parameter
-#: index.docbook:3829 index.docbook:4055 index.docbook:4254 index.docbook:4449
-#: index.docbook:4621
+#: index.docbook:3840 index.docbook:4066 index.docbook:4265 index.docbook:4460
+#: index.docbook:4632
 #, no-c-format
 msgid "flags"
 msgstr "ध्वजाः"
 
 #. Tag: para
-#: index.docbook:3831
+#: index.docbook:3842
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -7480,13 +7526,13 @@ msgstr ""
 "सन्ति । ध्यानं कुर्वन्तु यत् सर्वे ध्वजबिट् सन्देश-अलार्म-सम्बद्धेषु न प्रयोज्यम् ।"
 
 #. Tag: parameter
-#: index.docbook:3839 index.docbook:4065
+#: index.docbook:3850 index.docbook:4076
 #, no-c-format
 msgid "bgColor"
 msgstr "bgColor इति"
 
 #. Tag: para
-#: index.docbook:3841
+#: index.docbook:3852
 #, no-c-format
 msgid ""
 "Specifies the background color for displaying the message. The string may be "
@@ -7507,13 +7553,13 @@ msgstr ""
 "निर्दिष्टुं स्ट्रिंग् null इति सेट् कुर्वन्तु ।"
 
 #. Tag: parameter
-#: index.docbook:3854
+#: index.docbook:3865
 #, no-c-format
 msgid "fgColor"
 msgstr "fgColor इति"
 
 #. Tag: para
-#: index.docbook:3856
+#: index.docbook:3867
 #, no-c-format
 msgid ""
 "Specifies the foreground color for displaying the message. The format of the "
@@ -7525,13 +7571,13 @@ msgstr ""
 "निर्दिष्टुं स्ट्रिंग् नल् इति सेट् कुर्वन्तु ।"
 
 #. Tag: parameter
-#: index.docbook:3864
+#: index.docbook:3875
 #, no-c-format
 msgid "font"
 msgstr "font"
 
 #. Tag: para
-#: index.docbook:3866
+#: index.docbook:3877
 #, no-c-format
 msgid ""
 "Specifies the font for displaying the message. The format of the string is "
@@ -7544,13 +7590,13 @@ msgstr ""
 "पूर्वनिर्धारितसन्देशस्य फ़ॉन्ट् वर्तमानस्य उपयोगाय स्ट्रिंग् null इति सेट् कुर्वन्तु ।"
 
 #. Tag: parameter
-#: index.docbook:3874 index.docbook:4080 index.docbook:4573
+#: index.docbook:3885 index.docbook:4091 index.docbook:4584
 #, no-c-format
 msgid "audioURL"
 msgstr "audioURL"
 
 #. Tag: para
-#: index.docbook:3876 index.docbook:4082
+#: index.docbook:3887 index.docbook:4093
 #, no-c-format
 msgid ""
 "Specifies the audio file which is to be played when the message is "
@@ -7560,13 +7606,13 @@ msgstr ""
 "तर्हि मूल्यं null इति सेट् कुर्वन्तु ।"
 
 #. Tag: parameter
-#: index.docbook:3883 index.docbook:4089
+#: index.docbook:3894 index.docbook:4100
 #, no-c-format
 msgid "reminderMins"
 msgstr "reminderMins"
 
 #. Tag: para
-#: index.docbook:3885 index.docbook:4091
+#: index.docbook:3896 index.docbook:4102
 #, no-c-format
 msgid ""
 "Specifies the number of minutes in advance of the main alarm and of each of "
@@ -7579,15 +7625,15 @@ msgstr ""
 "मूल्यं निर्दिशन्तु । यदि स्मारकस्य आवश्यकता नास्ति तर्हि 0 निर्दिशन्तु ।"
 
 #. Tag: parameter
-#: index.docbook:3893 index.docbook:4099 index.docbook:4264 index.docbook:4459
-#: index.docbook:4631
+#: index.docbook:3904 index.docbook:4110 index.docbook:4275 index.docbook:4470
+#: index.docbook:4642
 #, no-c-format
 msgid "recurrence"
 msgstr "पुनरावृत्तिः"
 
 #. Tag: para
-#: index.docbook:3895 index.docbook:4101 index.docbook:4266 index.docbook:4461
-#: index.docbook:4633
+#: index.docbook:3906 index.docbook:4112 index.docbook:4277 index.docbook:4472
+#: index.docbook:4644
 #, no-c-format
 msgid ""
 "Specifies a regular recurrence for the alarm, using iCalendar syntax as "
@@ -7603,15 +7649,15 @@ msgstr ""
 "रिक्तं स्ट्रिंग् निर्दिशन्तु ।"
 
 #. Tag: parameter
-#: index.docbook:3906 index.docbook:4112 index.docbook:4277 index.docbook:4472
-#: index.docbook:4644
+#: index.docbook:3917 index.docbook:4123 index.docbook:4288 index.docbook:4483
+#: index.docbook:4655
 #, no-c-format
 msgid "recurType"
 msgstr "recurType इति"
 
 #. Tag: para
-#: index.docbook:3908 index.docbook:4114 index.docbook:4279 index.docbook:4474
-#: index.docbook:4646
+#: index.docbook:3919 index.docbook:4125 index.docbook:4290 index.docbook:4485
+#: index.docbook:4657
 #, no-c-format
 msgid ""
 "Specifies the recurrence type for the alarm. The permissible values are "
@@ -7628,15 +7674,15 @@ msgstr ""
 "तिथिः <parameter>startDateTime</parameter> पैरामीटर् तः गृहीता भवति"
 
 #. Tag: parameter
-#: index.docbook:3919 index.docbook:4125 index.docbook:4290 index.docbook:4485
-#: index.docbook:4657
+#: index.docbook:3930 index.docbook:4136 index.docbook:4301 index.docbook:4496
+#: index.docbook:4668
 #, no-c-format
 msgid "recurInterval"
 msgstr "recurInterval इति"
 
 #. Tag: para
-#: index.docbook:3921 index.docbook:4127 index.docbook:4292 index.docbook:4487
-#: index.docbook:4659
+#: index.docbook:3932 index.docbook:4138 index.docbook:4303 index.docbook:4498
+#: index.docbook:4670
 #, no-c-format
 msgid ""
 "Specifies the number of periods (minutes/days/weeks/months/years as "
@@ -7647,15 +7693,15 @@ msgstr ""
 "<parameter>recurType</parameter> द्वारा निर्दिष्टम्) निर्दिशति ।"
 
 #. Tag: parameter
-#: index.docbook:3929 index.docbook:4135 index.docbook:4300 index.docbook:4495
-#: index.docbook:4667
+#: index.docbook:3940 index.docbook:4146 index.docbook:4311 index.docbook:4506
+#: index.docbook:4678
 #, no-c-format
 msgid "recurCount"
 msgstr "recurCount इति"
 
 #. Tag: para
-#: index.docbook:3931 index.docbook:4137 index.docbook:4302 index.docbook:4497
-#: index.docbook:4669
+#: index.docbook:3942 index.docbook:4148 index.docbook:4313 index.docbook:4508
+#: index.docbook:4680
 #, no-c-format
 msgid ""
 "Specifies the number of times that the alarm should be repeated. Specify -1 "
@@ -7665,15 +7711,15 @@ msgstr ""
 "पुनरावृत्तिं कर्तुं -1 निर्दिशन्तु ।"
 
 #. Tag: parameter
-#: index.docbook:3937 index.docbook:4143 index.docbook:4308 index.docbook:4503
-#: index.docbook:4675
+#: index.docbook:3948 index.docbook:4154 index.docbook:4319 index.docbook:4514
+#: index.docbook:4686
 #, no-c-format
 msgid "endDateTime"
 msgstr "endDateTime इति"
 
 #. Tag: para
-#: index.docbook:3939 index.docbook:4145 index.docbook:4310 index.docbook:4505
-#: index.docbook:4677
+#: index.docbook:3950 index.docbook:4156 index.docbook:4321 index.docbook:4516
+#: index.docbook:4688
 #, no-c-format
 msgid ""
 "Specifies the end date, or date and time, for recurrences of the alarm. If "
@@ -7691,15 +7737,15 @@ msgstr ""
 "<parameter>startDateTime</parameter> इत्यस्य समानः समयक्षेत्रः उपयुज्यते ।"
 
 #. Tag: parameter
-#: index.docbook:3950 index.docbook:4156 index.docbook:4321 index.docbook:4516
-#: index.docbook:4688
+#: index.docbook:3961 index.docbook:4167 index.docbook:4332 index.docbook:4527
+#: index.docbook:4699
 #, no-c-format
 msgid "subRepeatInterval"
 msgstr "subRepeatInterval इति"
 
 #. Tag: para
-#: index.docbook:3952 index.docbook:4158 index.docbook:4323 index.docbook:4518
-#: index.docbook:4690
+#: index.docbook:3963 index.docbook:4169 index.docbook:4334 index.docbook:4529
+#: index.docbook:4701
 #, no-c-format
 msgid ""
 "Specifies the number of minutes between sub-repetitions of the alarm. "
@@ -7709,15 +7755,15 @@ msgstr ""
 "निर्दिशन्तु । यदि पुनरावृत्तिः निर्दिष्टा नास्ति तर्हि उपेक्षितम् ।"
 
 #. Tag: parameter
-#: index.docbook:3959 index.docbook:4165 index.docbook:4330 index.docbook:4525
-#: index.docbook:4697
+#: index.docbook:3970 index.docbook:4176 index.docbook:4341 index.docbook:4536
+#: index.docbook:4708
 #, no-c-format
 msgid "subRepeatCount"
 msgstr "उपपुनरावृत्तिगणना"
 
 #. Tag: para
-#: index.docbook:3961 index.docbook:4167 index.docbook:4332 index.docbook:4527
-#: index.docbook:4699
+#: index.docbook:3972 index.docbook:4178 index.docbook:4343 index.docbook:4538
+#: index.docbook:4710
 #, no-c-format
 msgid ""
 "Specifies the number of sub-repetitions of the alarm, including the initial "
@@ -7725,7 +7771,7 @@ msgid ""
 msgstr "अलार्मस्य उपपुनरावृत्तीनां संख्यां निर्दिशति, प्रारम्भिकघटना सहितम् ।"
 
 #. Tag: para
-#: index.docbook:3971
+#: index.docbook:3982
 #, no-c-format
 msgid ""
 "<function>scheduleMessage()</function> is a &DBus; call to schedule the "
@@ -7742,7 +7788,7 @@ msgstr ""
 "सुविधाजनकं प्रवेशं ददति, एकः पुनरावृत्तिगणनां निर्दिशति अपरः च अन्त्यसमयः निर्दिशति"
 
 #. Tag: para
-#: index.docbook:3979
+#: index.docbook:3990
 #, no-c-format
 msgid ""
 "If the scheduled time (including any repetitions) has already passed, "
@@ -7759,26 +7805,26 @@ msgstr ""
 "पूर्वनिर्धारितसक्रिय अलार्मपञ्चाङ्गे अलार्मसन्देशं योजयति ।"
 
 #. Tag: refentrytitle
-#: index.docbook:3991
+#: index.docbook:4002
 #, no-c-format
 msgid "<refentrytitle>scheduleFile</refentrytitle>"
 msgstr "<refentrytitle>कार्यक्रमसञ्चिका</refentrytitle>"
 
 #. Tag: refname
-#: index.docbook:3994
+#: index.docbook:4005
 #, no-c-format
 msgid "<refname>scheduleFile</refname>"
 msgstr "<refname>cheeduleFile</refname> इति"
 
 #. Tag: refpurpose
-#: index.docbook:3995
+#: index.docbook:4006
 #, no-c-format
 msgid ""
 "schedule a new alarm which displays the contents of a text or image file."
 msgstr "नूतनं अलार्मं निर्धारयति यत् पाठस्य अथवा चित्रसञ्चिकायाः सामग्रीं प्रदर्शयति ।"
 
 #. Tag: synopsis
-#: index.docbook:3999
+#: index.docbook:4010
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -7809,7 +7855,7 @@ msgstr ""
 "                  int <प्रतिस्थापनीय>उपपुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4000
+#: index.docbook:4011
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -7839,7 +7885,7 @@ msgstr ""
 "                  int <प्रतिस्थापनीय>पुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4001
+#: index.docbook:4012
 #, no-c-format
 msgid ""
 "bool scheduleFile(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -7869,13 +7915,13 @@ msgstr ""
 "                  const QString&amp; <प्रतिस्थापनीय>समाप्ततिथिसमय</replaceable>)"
 
 #. Tag: parameter
-#: index.docbook:4014
+#: index.docbook:4025
 #, no-c-format
 msgid "<parameter>URL</parameter>"
 msgstr "<पैरामीटर्>URL</parameter>"
 
 #. Tag: para
-#: index.docbook:4016
+#: index.docbook:4027
 #, no-c-format
 msgid ""
 "Specifies the text or image file whose contents are to be displayed in the "
@@ -7885,7 +7931,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:4057
+#: index.docbook:4068
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -7897,7 +7943,7 @@ msgstr ""
 "सन्ति । ध्यानं कुर्वन्तु यत् सर्वे ध्वजबिट् सञ्चिका-अलार्म-सम्बद्धेषु न प्रयोज्यम् ।"
 
 #. Tag: para
-#: index.docbook:4067
+#: index.docbook:4078
 #, no-c-format
 msgid ""
 "Specifies the background color for displaying the file. The string may be in "
@@ -7918,7 +7964,7 @@ msgstr ""
 "निर्दिष्टुं स्ट्रिंग् null इति सेट् कुर्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:4177
+#: index.docbook:4188
 #, no-c-format
 msgid ""
 "<function>scheduleFile()</function> is a &DBus; call to schedule the "
@@ -7935,25 +7981,25 @@ msgstr ""
 "scheduleMessage इति</function></link> - अधिकविवरणार्थं तस्य कार्यस्य वर्णनं पश्यन्तु।"
 
 #. Tag: refentrytitle
-#: index.docbook:4189
+#: index.docbook:4200
 #, no-c-format
 msgid "<refentrytitle>scheduleCommand</refentrytitle>"
 msgstr "<refentrytitle>scheduleआदेश</refentrytitle> इति"
 
 #. Tag: refname
-#: index.docbook:4192
+#: index.docbook:4203
 #, no-c-format
 msgid "<refname>scheduleCommand</refname>"
 msgstr "<refname>scheduleआदेशः</refname> इति"
 
 #. Tag: refpurpose
-#: index.docbook:4193 index.docbook:4554
+#: index.docbook:4204 index.docbook:4565
 #, no-c-format
 msgid "schedule a new alarm which executes a shell command."
 msgstr "एकं नूतनं अलार्मं निर्धारयन्तु यत् शेल् आदेशं निष्पादयति ।"
 
 #. Tag: synopsis
-#: index.docbook:4197
+#: index.docbook:4208
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -7981,7 +8027,7 @@ msgstr ""
 "                     int <प्रतिस्थापनीय>उपपुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4198
+#: index.docbook:4209
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8007,7 +8053,7 @@ msgstr ""
 "                     int <प्रतिस्थापनीय>पुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4199
+#: index.docbook:4210
 #, no-c-format
 msgid ""
 "bool scheduleCommand(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8035,13 +8081,13 @@ msgstr ""
 "replaceable>)"
 
 #. Tag: parameter
-#: index.docbook:4212
+#: index.docbook:4223
 #, no-c-format
 msgid "commandLine"
 msgstr "commandLine इति"
 
 #. Tag: para
-#: index.docbook:4214
+#: index.docbook:4225
 #, no-c-format
 msgid ""
 "Specifies the command whose execution is to be scheduled. The "
@@ -8052,7 +8098,7 @@ msgstr ""
 "पैरामीटर् सूचयति यत् अस्मिन् पैरामीटर् मध्ये शेल् आदेशपङ्क्तिः अस्ति वा आदेशस्क्रिप्ट् अस्ति वा ।"
 
 #. Tag: para
-#: index.docbook:4256 index.docbook:4623
+#: index.docbook:4267 index.docbook:4634
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -8064,7 +8110,7 @@ msgstr ""
 "सन्ति । ध्यानं कुर्वन्तु यत् सर्वे ध्वजबिट् आदेश-अलार्म-कृते न प्रयोज्यम् ।"
 
 #. Tag: para
-#: index.docbook:4342
+#: index.docbook:4353
 #, no-c-format
 msgid ""
 "<function>scheduleCommand()</function> is a &DBus; call to schedule the "
@@ -8081,25 +8127,25 @@ msgstr ""
 "scheduleMessage इति</function></link> - अधिकविवरणार्थं तस्य कार्यस्य वर्णनं पश्यन्तु।"
 
 #. Tag: refentrytitle
-#: index.docbook:4355
+#: index.docbook:4366
 #, no-c-format
 msgid "<refentrytitle>scheduleEmail</refentrytitle>"
 msgstr "<refentrytitle>कार्यक्रमईमेल</refentrytitle>"
 
 #. Tag: refname
-#: index.docbook:4358
+#: index.docbook:4369
 #, no-c-format
 msgid "<refname>scheduleEmail</refname>"
 msgstr "<refname>scheduleईमेल</refname> इति"
 
 #. Tag: refpurpose
-#: index.docbook:4359
+#: index.docbook:4370
 #, no-c-format
 msgid "schedule a new alarm which sends an email."
 msgstr "नूतनं अलार्मं निर्धारयति यत् ईमेल प्रेषयति।"
 
 #. Tag: synopsis
-#: index.docbook:4362
+#: index.docbook:4373
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8135,7 +8181,7 @@ msgstr ""
 "                   int <प्रतिस्थापनीय>उपपुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4363
+#: index.docbook:4374
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8169,7 +8215,7 @@ msgstr ""
 "                   int <प्रतिस्थापनीय>पुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4364
+#: index.docbook:4375
 #, no-c-format
 msgid ""
 "bool scheduleEmail(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8203,13 +8249,13 @@ msgstr ""
 "                   const QString&amp; <प्रतिस्थापनीय>अन्तसमय</प्रतिस्थापनीय>)"
 
 #. Tag: parameter
-#: index.docbook:4377
+#: index.docbook:4388
 #, no-c-format
 msgid "fromID"
 msgstr "fromID"
 
 #. Tag: para
-#: index.docbook:4379
+#: index.docbook:4390
 #, no-c-format
 msgid ""
 "The &kmail; identity to use as the sender of the email. If empty, the "
@@ -8221,43 +8267,43 @@ msgstr ""
 "email\"> ईमेल प्राधान्यानि</link> ."
 
 #. Tag: parameter
-#: index.docbook:4387
+#: index.docbook:4398
 #, no-c-format
 msgid "addresses"
 msgstr "सम्बोधनम्"
 
 #. Tag: para
-#: index.docbook:4389
+#: index.docbook:4400
 #, no-c-format
 msgid "A comma separated list of recipients' email addresses."
 msgstr "प्राप्तकर्तृणां ईमेल-सङ्केतानां अल्पविरामेन पृथक्कृता सूची ।"
 
 #. Tag: parameter
-#: index.docbook:4394
+#: index.docbook:4405
 #, no-c-format
 msgid "subject"
 msgstr "विषयः"
 
 #. Tag: para
-#: index.docbook:4396
+#: index.docbook:4407
 #, no-c-format
 msgid "Specifies the subject line of the email."
 msgstr "ईमेलस्य विषयपङ्क्तिं निर्दिशति ।"
 
 #. Tag: para
-#: index.docbook:4403
+#: index.docbook:4414
 #, no-c-format
 msgid "Specifies the email message body."
 msgstr "ईमेलसन्देशस्य मुख्यभागं निर्दिशति ।"
 
 #. Tag: parameter
-#: index.docbook:4408
+#: index.docbook:4419
 #, no-c-format
 msgid "attachments"
 msgstr "आसक्तिः"
 
 #. Tag: para
-#: index.docbook:4410
+#: index.docbook:4421
 #, no-c-format
 msgid ""
 "A comma-separated list of paths or &URL;s of files to send as email "
@@ -8267,7 +8313,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:4451
+#: index.docbook:4462
 #, no-c-format
 msgid ""
 "Specifies the logical OR of the desired alarm flags. The flag bits are those "
@@ -8279,7 +8325,7 @@ msgstr ""
 "सन्ति । ध्यानं कुर्वन्तु यत् सर्वे ध्वजबिट् ईमेल-अलार्म-सम्बद्धेषु न प्रयोज्यम् ।"
 
 #. Tag: para
-#: index.docbook:4537
+#: index.docbook:4548
 #, no-c-format
 msgid ""
 "<function>scheduleEmail()</function> is a &DBus; call to schedule the "
@@ -8296,19 +8342,19 @@ msgstr ""
 "- अधिकविवरणार्थं तस्य कार्यस्य वर्णनं पश्यन्तु।"
 
 #. Tag: refentrytitle
-#: index.docbook:4550
+#: index.docbook:4561
 #, no-c-format
 msgid "<refentrytitle>scheduleAudio</refentrytitle>"
 msgstr "<refentrytitle>कार्यक्रमश्रव्य</refentrytitle> इति"
 
 #. Tag: refname
-#: index.docbook:4553
+#: index.docbook:4564
 #, no-c-format
 msgid "<refname>scheduleAudio</refname>"
 msgstr "<refname>scheduleAudio</refname> इति"
 
 #. Tag: synopsis
-#: index.docbook:4558
+#: index.docbook:4569
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8336,7 +8382,7 @@ msgstr ""
 "                   int <प्रतिस्थापनीय>उपपुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4559
+#: index.docbook:4570
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8362,7 +8408,7 @@ msgstr ""
 "                   int <प्रतिस्थापनीय>पुनरावृत्तिगणना</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4560
+#: index.docbook:4571
 #, no-c-format
 msgid ""
 "bool scheduleAudio(const QString&amp; <replaceable>name</replaceable>,\n"
@@ -8389,19 +8435,19 @@ msgstr ""
 "replaceable>)"
 
 #. Tag: para
-#: index.docbook:4575
+#: index.docbook:4586
 #, no-c-format
 msgid "Specifies the audio file which is to be played."
 msgstr "श्रव्यसञ्चिकां निर्दिशति या वादनीया अस्ति ।"
 
 #. Tag: parameter
-#: index.docbook:4580
+#: index.docbook:4591
 #, no-c-format
 msgid "volumePercent"
 msgstr "volumePercent इति"
 
 #. Tag: para
-#: index.docbook:4582
+#: index.docbook:4593
 #, no-c-format
 msgid ""
 "Specifies the volume level to use, as a percentage of full volume. Specify "
@@ -8411,7 +8457,7 @@ msgstr ""
 "निर्दिशन्तु ।"
 
 #. Tag: para
-#: index.docbook:4709
+#: index.docbook:4720
 #, no-c-format
 msgid ""
 "<function>scheduleAudio()</function> is a &DBus; call to schedule the "
@@ -8428,19 +8474,19 @@ msgstr ""
 "- अधिकविवरणार्थं तस्य कार्यस्य वर्णनं पश्यन्तु।"
 
 #. Tag: refentrytitle
-#: index.docbook:4720
+#: index.docbook:4731
 #, no-c-format
 msgid "<refentrytitle>edit</refentrytitle>"
 msgstr "<refentrytitle>सम्पादनं</refentrytitle>"
 
 #. Tag: refname
-#: index.docbook:4723
+#: index.docbook:4734
 #, no-c-format
 msgid "<refname>edit</refname>"
 msgstr "<refname>सम्पादय</refname> इति"
 
 #. Tag: refpurpose
-#: index.docbook:4724
+#: index.docbook:4735
 #, no-c-format
 msgid ""
 "Display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to "
@@ -8450,13 +8496,13 @@ msgstr ""
 "सम्पादयितुं ।"
 
 #. Tag: synopsis
-#: index.docbook:4728
+#: index.docbook:4739
 #, no-c-format
 msgid "bool edit(const QString&amp; <replaceable>eventID</replaceable>)"
 msgstr "bool edit(const QString&amp; <प्रतिस्थापनीय>घटनाID</प्रतिस्थापनीय>)"
 
 #. Tag: para
-#: index.docbook:4736
+#: index.docbook:4747
 #, no-c-format
 msgid ""
 "Specifies the unique ID of the event to be edited, optionally prefixed by "
@@ -8468,13 +8514,13 @@ msgstr ""
 "<replaceable>[resourceID:]eventUID</replaceable> इति प्रारूपेण"
 
 #. Tag: title
-#: index.docbook:4746 index.docbook:4800 index.docbook:4832
+#: index.docbook:4757 index.docbook:4811 index.docbook:4843
 #, no-c-format
 msgid "Return value"
 msgstr "मूल्यं प्रत्यागच्छतु"
 
 #. Tag: para
-#: index.docbook:4747
+#: index.docbook:4758
 #, no-c-format
 msgid ""
 "<returnvalue>false</returnvalue> if the specified alarm could not be found "
@@ -8484,7 +8530,7 @@ msgstr ""
 "अस्ति, तर्हि <returnvalue>true</returnvalue> अन्यथा ।"
 
 #. Tag: para
-#: index.docbook:4756
+#: index.docbook:4767
 #, no-c-format
 msgid ""
 "<function>edit()</function> is a &DBus; call to display the <link linkend="
@@ -8494,19 +8540,19 @@ msgstr ""
 "linkend=\"alarm-edit-dlg\"> अलार्म सम्पादन संवाद</link> निर्दिष्टं अलार्मं सम्पादयितुं ।"
 
 #. Tag: refentrytitle
-#: index.docbook:4765
+#: index.docbook:4776
 #, no-c-format
 msgid "<refentrytitle>editNew</refentrytitle>"
 msgstr "<refentrytitle>नव सम्पादयतु</refentrytitle>"
 
 #. Tag: refname
-#: index.docbook:4768
+#: index.docbook:4779
 #, no-c-format
 msgid "<refname>editNew</refname>"
 msgstr "<refname>नव सम्पादयतु</refname>"
 
 #. Tag: refpurpose
-#: index.docbook:4769
+#: index.docbook:4780
 #, no-c-format
 msgid ""
 "Display the <link linkend=\"alarm-edit-dlg\">Alarm Edit dialog</link> to "
@@ -8516,26 +8562,26 @@ msgstr ""
 "सम्पादयितुं ।"
 
 #. Tag: synopsis
-#: index.docbook:4773
+#: index.docbook:4784
 #, no-c-format
 msgid "bool editNew(int <replaceable>type</replaceable>)"
 msgstr "bool editNew(int <प्रतिस्थापनीय>प्रकार</प्रतिस्थापनीय>)"
 
 #. Tag: synopsis
-#: index.docbook:4774
+#: index.docbook:4785
 #, no-c-format
 msgid ""
 "bool editNew(const QString&amp; <replaceable>templateName</replaceable>)"
 msgstr "bool editNew(const QString&amp; <प्रतिस्थापनीय>टेम्पलेटनाम</प्रतिस्थापनीय>)"
 
 #. Tag: parameter
-#: index.docbook:4780
+#: index.docbook:4791
 #, no-c-format
 msgid "type"
 msgstr "प्रकारः"
 
 #. Tag: para
-#: index.docbook:4782
+#: index.docbook:4793
 #, no-c-format
 msgid ""
 "Specifies the alarm type. The permissible values are DISPLAY, COMMAND, "
@@ -8547,19 +8593,19 @@ msgstr ""
 "classname> इति वर्गे परिभाषिताः सन्ति ।"
 
 #. Tag: parameter
-#: index.docbook:4790
+#: index.docbook:4801
 #, no-c-format
 msgid "templateName"
 msgstr "टेम्पलेटनाम"
 
 #. Tag: para
-#: index.docbook:4792
+#: index.docbook:4803
 #, no-c-format
 msgid "Specifies the name of an alarm template to base the new alarm on."
 msgstr "नूतनं अलार्मं आधारयितुं अलार्म टेम्पलेट् इत्यस्य नाम निर्दिशति ।"
 
 #. Tag: para
-#: index.docbook:4801
+#: index.docbook:4812
 #, no-c-format
 msgid ""
 "<returnvalue>false</returnvalue> if <parameter>type</parameter> has an "
@@ -8571,7 +8617,7 @@ msgstr ""
 "टेम्पलेट् न प्राप्यते; <returnvalue>सत्यं</returnvalue> अन्यथा।"
 
 #. Tag: para
-#: index.docbook:4811
+#: index.docbook:4822
 #, no-c-format
 msgid ""
 "<function>editNew()</function> is a &DBus; call to display the <link linkend="
@@ -8587,31 +8633,31 @@ msgstr ""
 "संवादः टेम्पलेट् तः विवरणेन सह पूर्वनिर्धारितः भवति ।"
 
 #. Tag: refentrytitle
-#: index.docbook:4822
+#: index.docbook:4833
 #, no-c-format
 msgid "<refentrytitle>list</refentrytitle>"
 msgstr "<refentrytitle>सूची</refentrytitle> इति"
 
 #. Tag: refname
-#: index.docbook:4825
+#: index.docbook:4836
 #, no-c-format
 msgid "<refname>list</refname>"
 msgstr "<refname>सूची</refname> इति"
 
 #. Tag: refpurpose
-#: index.docbook:4826
+#: index.docbook:4837
 #, no-c-format
 msgid "Return a list of scheduled alarms."
 msgstr "निर्धारित-अलार्म-सूचीं प्रत्यागच्छतु ।"
 
 #. Tag: synopsis
-#: index.docbook:4829
+#: index.docbook:4840
 #, no-c-format
 msgid "QString list()"
 msgstr "QString सूची () 1.1."
 
 #. Tag: para
-#: index.docbook:4833
+#: index.docbook:4844
 #, no-c-format
 msgid ""
 "List of alarms, separated by newlines, each in the format "
@@ -8624,7 +8670,7 @@ msgstr ""
 "<replaceable>text</replaceable></ इति प्रारूपेण returnvalue> इति"
 
 #. Tag: para
-#: index.docbook:4841
+#: index.docbook:4852
 #, no-c-format
 msgid ""
 "<function>list()</function> is a &DBus; call to return a string containing a "
@@ -8637,13 +8683,13 @@ msgstr ""
 "संसाधनपरिचयः, UID, अग्रिमः निर्धारितसमयः तथा च सन्देशपाठः अथवा सञ्चिका ।"
 
 #. Tag: title
-#: index.docbook:4852
+#: index.docbook:4863
 #, no-c-format
 msgid "Command Line Interface"
 msgstr "आदेशपङ्क्तिः अन्तरफलकम्"
 
 #. Tag: para
-#: index.docbook:4854
+#: index.docbook:4865
 #, no-c-format
 msgid ""
 "Command line options are provided to enable other programs to start up "
@@ -8662,7 +8708,7 @@ msgstr ""
 "अस्ति ।"
 
 #. Tag: para
-#: index.docbook:4862
+#: index.docbook:4873
 #, no-c-format
 msgid ""
 "Programs should first check whether &kalarm; is already running; if it is, "
@@ -8672,7 +8718,7 @@ msgstr ""
 "&DBus; एतानि कार्याणि अनुरोधयितुं आह्वानं करोति।"
 
 #. Tag: para
-#: index.docbook:4866
+#: index.docbook:4877
 #, no-c-format
 msgid ""
 "The command line options for scheduling a new alarm are as described in the "
@@ -8684,7 +8730,7 @@ msgstr ""
 "अलार्म-प्रवर्तनस्य रद्दीकरणस्य च विकल्पाः निम्नलिखितरूपेण सन्ति ।"
 
 #. Tag: para
-#: index.docbook:4871
+#: index.docbook:4882
 #, no-c-format
 msgid ""
 "Normal users may also if they wish use these command line options (assuming "
@@ -8694,13 +8740,13 @@ msgstr ""
 "आवश्यकं पैरामीटर् सूचनां प्रदातुं शक्नुवन्ति इति कल्पयित्वा) ।"
 
 #. Tag: option
-#: index.docbook:4885
+#: index.docbook:4896
 #, no-c-format
 msgid "--cancelEvent <replaceable>eventID</replaceable>"
 msgstr "--cancelEvent <प्रतिस्थापनीय>घटनाID</प्रतिस्थापनीय>"
 
 #. Tag: entry
-#: index.docbook:4886
+#: index.docbook:4897
 #, no-c-format
 msgid ""
 "Cancel the alarm with the specified event ID. The event ID is the unique ID "
@@ -8717,13 +8763,13 @@ msgstr ""
 "value=--triggerEvent> --triggerEvent इति</option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: option
-#: index.docbook:4896
+#: index.docbook:4907
 #, no-c-format
 msgid "--triggerEvent <replaceable>eventID</replaceable>"
 msgstr "--triggerEvent <प्रतिस्थापनीय>घटनाID</प्रतिस्थापनीय>"
 
 #. Tag: entry
-#: index.docbook:4897
+#: index.docbook:4908
 #, no-c-format
 msgid ""
 "Trigger the alarm with the specified event ID. The event ID is the unique ID "
@@ -8740,13 +8786,13 @@ msgstr ""
 "value=--cancelEvent> --cancelEvent इति</option> एतेन विकल्पेन निर्दिष्टुं न शक्यते ।"
 
 #. Tag: para
-#: index.docbook:4910
+#: index.docbook:4921
 #, no-c-format
 msgid "Examples are:"
 msgstr "उदाहरणानि सन्ति-"
 
 #. Tag: screen
-#: index.docbook:4912
+#: index.docbook:4923
 #, no-c-format
 msgid ""
 "<prompt>%</prompt> <userinput><command>kalarm</command> <option>--"
@@ -8763,19 +8809,19 @@ msgstr ""
 "replaceable></option></userinput>"
 
 #. Tag: title
-#: index.docbook:4920
+#: index.docbook:4931
 #, no-c-format
 msgid "Questions and Answers"
 msgstr "प्रश्नोत्तरम्"
 
 #. Tag: para
-#: index.docbook:4925
+#: index.docbook:4936
 #, no-c-format
 msgid "What configuration files does &kalarm; use?"
 msgstr "काः विन्याससञ्चिकाः &kalarm; उपयुञ्जताम्‌?"
 
 #. Tag: para
-#: index.docbook:4928
+#: index.docbook:4939
 #, no-c-format
 msgid ""
 "&kalarm;'s configuration is held in the following files in the folder "
@@ -8785,13 +8831,13 @@ msgstr ""
 "command> इति पुटे निम्नलिखितसञ्चिकासु धारितः अस्ति :"
 
 #. Tag: simpara
-#: index.docbook:4933
+#: index.docbook:4944
 #, no-c-format
 msgid "<filename>kalarmrc</filename> holds your &kalarm; preferences."
 msgstr "<filename>kalarmrc</filename> भवतः &kalarm; प्राधान्यानि।"
 
 #. Tag: simpara
-#: index.docbook:4938
+#: index.docbook:4949
 #, no-c-format
 msgid ""
 "<filename>kalarmresources</filename> holds the list of alarm calendars "
@@ -8801,13 +8847,13 @@ msgstr ""
 "अलार्म-पञ्चाङ्गानां सूची अस्ति ।"
 
 #. Tag: para
-#: index.docbook:4947
+#: index.docbook:4958
 #, no-c-format
 msgid "Where does &kalarm; store its alarms?"
 msgstr "कुतः &कलार्म्; तस्य अलार्मं संग्रहयन्तु?"
 
 #. Tag: para
-#: index.docbook:4951
+#: index.docbook:4962
 #, no-c-format
 msgid ""
 "When &kalarm; is run the first time, it creates the following alarm "
@@ -8818,25 +8864,25 @@ msgstr ""
 "GenericDataLocation</command> इति पुटे निम्नलिखित-अलार्म-पञ्चाङ्गं निर्माति :"
 
 #. Tag: simpara
-#: index.docbook:4957
+#: index.docbook:4968
 #, no-c-format
 msgid "<filename>kalarm/calendar.ics</filename>, which holds active alarms."
 msgstr "<filename>kalarm/calendar.ics</filename>, यत् सक्रिय-अलार्मं धारयति ।"
 
 #. Tag: simpara
-#: index.docbook:4962
+#: index.docbook:4973
 #, no-c-format
 msgid "<filename>kalarm/expired.ics</filename>, which holds archived alarms."
 msgstr "<filename>kalarm/expired.ics</filename>, यत् संग्रहीतं अलार्मं धारयति ।"
 
 #. Tag: simpara
-#: index.docbook:4967
+#: index.docbook:4978
 #, no-c-format
 msgid "<filename>kalarm/template.ics</filename>, which holds alarm templates."
 msgstr "<filename>kalarm/template.ics</filename>, यत् अलार्म टेम्पलेट् धारयति ।"
 
 #. Tag: simpara
-#: index.docbook:4972
+#: index.docbook:4983
 #, no-c-format
 msgid ""
 "<filename>kalarm/displaying.ics</filename>, which is a special calendar file "
@@ -8849,7 +8895,7 @@ msgstr ""
 "सति, अन्तिमवारं स्थगितसमये प्रदर्शितानां अलार्म-पुनः प्रदर्शयितुं शक्नोति"
 
 #. Tag: para
-#: index.docbook:4979
+#: index.docbook:4990
 #, no-c-format
 msgid ""
 "You can subsequently replace these calendars, except <filename>displaying."
@@ -8863,13 +8909,13 @@ msgstr ""
 "काः पञ्चाङ्गसञ्चिकाः प्रयुक्ताः इति ज्ञातुं शक्नुवन्ति ।"
 
 #. Tag: para
-#: index.docbook:4989
+#: index.docbook:5000
 #, no-c-format
 msgid "What format are alarms stored in?"
 msgstr "अलार्माः कस्मिन् प्रारूपे संगृह्यन्ते ?"
 
 #. Tag: para
-#: index.docbook:4992
+#: index.docbook:5003
 #, no-c-format
 msgid ""
 "The calendar files in which &kalarm; stores its alarms are text files whose "
@@ -8889,13 +8935,13 @@ msgstr ""
 "वितरिता अस्ति ।"
 
 #. Tag: para
-#: index.docbook:5006
+#: index.docbook:5017
 #, no-c-format
 msgid "What is the function of &kalarm;'s Akonadi plugin?"
 msgstr "&kalarm; इत्यस्य अकोनाडी प्लगिन् इत्यस्य कार्यं किम् ?"
 
 #. Tag: para
-#: index.docbook:5009
+#: index.docbook:5020
 #, no-c-format
 msgid ""
 "&kalarm; uses its Akonadi plugin to provide all features which depend on "
@@ -8907,7 +8953,7 @@ msgstr ""
 "&kalarm; निम्नलिखितविशेषतानां अभावः भविष्यति।"
 
 #. Tag: simpara
-#: index.docbook:5015
+#: index.docbook:5026
 #, no-c-format
 msgid ""
 "Sending emails via &kmail;, leaving &Sendmail; as the only option to send "
@@ -8917,25 +8963,25 @@ msgstr ""
 "(द्रष्टव्यम्<link linkend=\"preferences-email\"> ईमेल प्राधान्यानि</link> )."
 
 #. Tag: simpara
-#: index.docbook:5020
+#: index.docbook:5031
 #, no-c-format
 msgid "Drag and drop of emails."
 msgstr "ईमेल-पत्राणि कर्षयन्तु, पातयन्तु च।"
 
 #. Tag: simpara
-#: index.docbook:5023
+#: index.docbook:5034
 #, no-c-format
 msgid "Selection of email addresses from &kaddressbook;."
 msgstr "&kaddressbook;तः ईमेल-सङ्केतानां चयनम् ।"
 
 #. Tag: simpara
-#: index.docbook:5026
+#: index.docbook:5037
 #, no-c-format
 msgid "Import of birthdays from &kaddressbook;."
 msgstr "&kaddressbook;तः जन्मदिनस्य आयातः।"
 
 #. Tag: simpara
-#: index.docbook:5029
+#: index.docbook:5040
 #, no-c-format
 msgid ""
 "Migration of &akonadi; alarm calendar resources on the first run of a new "
@@ -8945,7 +8991,7 @@ msgstr ""
 "resources."
 
 #. Tag: para
-#: index.docbook:5034
+#: index.docbook:5045
 #, no-c-format
 msgid ""
 "If the plugin is installed, it can be enabled or disabled in the <link "
@@ -8956,13 +9002,13 @@ msgstr ""
 "\"preferences-general\"> सामान्य</link> Configuration संवादस्य ट्याब् ।"
 
 #. Tag: para
-#: index.docbook:5042
+#: index.docbook:5053
 #, no-c-format
 msgid "What is the program <application>kalarmautostart</application>?"
 msgstr "<application>kalarmautostart</application> इति कार्यक्रमः कः ?"
 
 #. Tag: para
-#: index.docbook:5045
+#: index.docbook:5056
 #, no-c-format
 msgid ""
 "<application>kalarmautostart</application> is a little helper program whose "
@@ -8972,7 +9018,7 @@ msgstr ""
 "स्वयमेव प्रारभ्यते &kalarm; प्रवेशे ।"
 
 #. Tag: para
-#: index.docbook:5048
+#: index.docbook:5059
 #, no-c-format
 msgid ""
 "&kalarm; is usually restored by the session manager at login (to redisplay "
@@ -8991,7 +9037,7 @@ msgstr ""
 "पुनः स्थापयितुं निवारयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:5057
+#: index.docbook:5068
 #, no-c-format
 msgid ""
 "To avoid this problem, <application>kalarmautostart</application> is "
@@ -9004,13 +9050,13 @@ msgstr ""
 "कार्यं कर्तुं समयः अस्ति इति सुनिश्चित्य) &kalarm;"
 
 #. Tag: para
-#: index.docbook:5067
+#: index.docbook:5078
 #, no-c-format
 msgid "How can I use &kalarm; on a non-&plasma; desktop?"
 msgstr "कथं प्रयोक्तुं शक्नोमि &kalarm; अ-&प्लाज्मा; डेस्कटॉप्?"
 
 #. Tag: para
-#: index.docbook:5070
+#: index.docbook:5081
 #, no-c-format
 msgid ""
 "To run &kalarm; on a non-&plasma; desktop, the main requirement is to ensure "
@@ -9023,19 +9069,19 @@ msgstr ""
 "filename> सञ्चिकायां समाविष्टाः सन्ति या &kalarm;."
 
 #. Tag: title
-#: index.docbook:5084
+#: index.docbook:5095
 #, no-c-format
 msgid "Credits and License"
 msgstr "श्रेयः अनुज्ञापत्रं च"
 
 #. Tag: para
-#: index.docbook:5086
+#: index.docbook:5097
 #, no-c-format
 msgid "&kalarm;"
 msgstr "&कलार्म;"
 
 #. Tag: para
-#: index.docbook:5089
+#: index.docbook:5100
 #, fuzzy, no-c-format
 #| msgid ""
 #| "Program copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, "
@@ -9051,7 +9097,7 @@ msgstr ""
 "२०२१, २०२२, २०२३, २०२४ &डेविड.जार्वी; &डेविड.जार्वी.मेल;"
 
 #. Tag: para
-#: index.docbook:5093
+#: index.docbook:5104
 #, fuzzy, no-c-format
 #| msgid ""
 #| "Documentation copyright 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, "
@@ -9067,19 +9113,19 @@ msgstr ""
 "जार्वी; &डेविड.जार्वी.मेल;"
 
 #. Tag: trans_comment
-#: index.docbook:5097
+#: index.docbook:5108
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:5097
+#: index.docbook:5108
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
 
 #. Tag: para
-#: index.docbook:5103
+#: index.docbook:5114
 #, no-c-format
 msgid ""
 "Thanks go to the author of the &kde; 1 KAlarm application, Stefan Nikolaus "
