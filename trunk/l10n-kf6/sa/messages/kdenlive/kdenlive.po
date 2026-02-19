@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-18 00:44+0000\n"
+"POT-Creation-Date: 2026-02-19 00:44+0000\n"
 "PO-Revision-Date: 2024-12-29 22:43+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -18686,7 +18686,7 @@ msgid "Delete keyframes"
 msgstr "कीफ्रेम्स् विलोपयन्तु"
 
 #: src/assets/keyframes/model/keyframemodellist.cpp:701
-#: src/assets/model/assetparametermodel.cpp:1764
+#: src/assets/model/assetparametermodel.cpp:1784
 #, kde-format
 msgid "Update effect"
 msgstr "अद्यतन प्रभाव"
@@ -18761,13 +18761,13 @@ msgstr "%1 कीलफ्रेम् सम्पादयन्तु"
 msgid "Update %1"
 msgstr "%1 अद्यतनं कुर्वन्तु"
 
-#: src/assets/model/assetparametermodel.cpp:1601
-#: src/assets/model/assetparametermodel.cpp:1648
+#: src/assets/model/assetparametermodel.cpp:1621
+#: src/assets/model/assetparametermodel.cpp:1668
 #, kde-format
 msgid "Cannot open preset file %1"
 msgstr "पूर्वनिर्धारितसञ्चिका %1 उद्घाटयितुं न शक्यते"
 
-#: src/assets/model/assetparametermodel.cpp:1738
+#: src/assets/model/assetparametermodel.cpp:1758
 #, kde-format
 msgctxt "@info:status"
 msgid "Failed to load preset %1"
@@ -20336,7 +20336,7 @@ msgstr "<b>%1</b> क्लिप्स् | "
 msgid "<b>%1</b> clips (%2 selected) | "
 msgstr "<b>%1</b> क्लिप्स् (%2 चयनितम्) | "
 
-#: src/bin/bin.cpp:6294 src/bin/bin.cpp:6371
+#: src/bin/bin.cpp:6294 src/bin/bin.cpp:6372
 #, kde-format
 msgid "Add additional stream for clip"
 msgid_plural "Add additional streams for clip"
@@ -20357,51 +20357,51 @@ msgstr ""
 "क्लिप् कृते अतिरिक्ताः धाराः\n"
 " %1"
 
-#: src/bin/bin.cpp:6330 src/mltcontroller/clippropertiescontroller.cpp:754
+#: src/bin/bin.cpp:6331 src/mltcontroller/clippropertiescontroller.cpp:754
 #, kde-format
 msgid "Video stream %1"
 msgstr "विडियो धारा %1"
 
-#: src/bin/bin.cpp:6345
+#: src/bin/bin.cpp:6346
 #, kde-format
 msgid "Audio stream %1"
 msgstr "श्रव्यधारा %1"
 
-#: src/bin/bin.cpp:6398
+#: src/bin/bin.cpp:6399
 #, kde-format
 msgid "Remove clip markers"
 msgstr "क्लिप मार्करः निष्कासयन्तु"
 
-#: src/bin/bin.cpp:6595
+#: src/bin/bin.cpp:6596
 #, kde-format
 msgctxt "@label:textbox"
 msgid "We recommend that you save the project before the transcode operation"
 msgstr "वयं अनुशंसयामः यत् भवान् transcode ऑपरेशनात् पूर्वं परियोजनां रक्षतु"
 
-#: src/bin/bin.cpp:6596
+#: src/bin/bin.cpp:6597
 #, kde-format
 msgctxt "@action:button"
 msgid "Save Project"
 msgstr "परियोजना रक्षतु"
 
-#: src/bin/bin.cpp:6597
+#: src/bin/bin.cpp:6598
 #, kde-format
 msgctxt "@action:button"
 msgid "Transcode Without Saving"
 msgstr "रक्षणं विना ट्रांसकोड् कुर्वन्तु"
 
-#: src/bin/bin.cpp:6755 src/effects/effectstack/model/effectstackmodel.cpp:198
+#: src/bin/bin.cpp:6756 src/effects/effectstack/model/effectstackmodel.cpp:198
 #: src/timeline2/model/timelineitemmodel.cpp:1125
 #, kde-format
 msgid "Delete effect %1"
 msgstr "प्रभावः %1 विलोपयतु"
 
-#: src/bin/bin.cpp:6821 src/mainwindow.cpp:264
+#: src/bin/bin.cpp:6822 src/mainwindow.cpp:264
 #, kde-format
 msgid "Project Bin"
 msgstr "परियोजना बिन"
 
-#: src/bin/bin.cpp:6824 src/bin/bin.cpp:6827 src/mainwindow.cpp:5259
+#: src/bin/bin.cpp:6825 src/bin/bin.cpp:6828 src/mainwindow.cpp:5259
 #, kde-format
 msgid "Project Bin %1"
 msgstr "परियोजना बिन् %1"
@@ -33859,7 +33859,7 @@ msgstr "क्लिप् चालयन्तु"
 
 #: src/timeline2/model/timelinemodel.cpp:1888
 #: src/timeline2/model/timelinemodel.cpp:1982
-#: src/timeline2/model/timelinemodel.cpp:2006
+#: src/timeline2/model/timelinemodel.cpp:2005
 #: src/timeline2/model/timelinemodel.cpp:2034
 #: src/timeline2/view/timelinecontroller.cpp:3437
 #, kde-format
@@ -33876,7 +33876,7 @@ msgstr "क्लिप् सम्मिलितं कुर्वन्त�
 msgid "You cannot insert a sequence containing itself"
 msgstr "भवन्तः स्वयमेव समाविष्टं क्रमं निवेशयितुं न शक्नुवन्ति"
 
-#: src/timeline2/model/timelinemodel.cpp:1999
+#: src/timeline2/model/timelinemodel.cpp:1998
 #: src/timeline2/model/timelinemodel.cpp:2026
 #: src/timeline2/model/timelinemodel.cpp:2054
 #, kde-format
