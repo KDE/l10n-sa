@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwatchgnupg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2026-03-25 00:57+0000\n"
 "PO-Revision-Date: 2024-12-20 12:24+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -305,97 +305,35 @@ msgstr "विन्यस्तं कुर्वन् &kwatchgnupg;"
 
 #. Tag: para
 #: index.docbook:166
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "To configure &kwatchgnupg;, select <menuchoice><guimenu>Settings</"
+#| "guimenu><guimenuitem>Configure &kwatchgnupg;</guimenuitem></menuchoice>, "
+#| "or the corresponding toolbar icon. &kwatchgnupg;'s configure dialog is "
+#| "divided into two parts, each of which will be described below."
 msgid ""
 "To configure &kwatchgnupg;, select <menuchoice><guimenu>Settings</"
 "guimenu><guimenuitem>Configure &kwatchgnupg;</guimenuitem></menuchoice>, or "
-"the corresponding toolbar icon. &kwatchgnupg;'s configure dialog is divided "
-"into two parts, each of which will be described below."
+"the corresponding toolbar icon."
 msgstr ""
 "&kwatchgnupg;विन्यस्तं कर्तुं, <menuchoice><guimenu>सेटिंग्स्</"
 "guimenu><guimenuitem>&kwatchgnupg; &kwatchgnupg; इत्यस्य configure संवादः द्वयोः "
 "भागयोः विभक्तः अस्ति, येषु प्रत्येकं भागं अधः वर्णितं भविष्यति ।"
 
 #. Tag: title
-#: index.docbook:174
+#: index.docbook:173
 #, no-c-format
 msgid "Settings Dialog"
 msgstr "सेटिंग्स् संवादः"
 
 #. Tag: title
-#: index.docbook:176
-#, no-c-format
-msgid "&watchgnupg; Settings"
-msgstr "&watchgnupg; सेटिंग्स्"
-
-#. Tag: para
-#: index.docbook:178
-#, no-c-format
-msgid ""
-"&watchgnupg; is the process that actually monitors the logging socket for "
-"activity and formats the lines as seen in the &kwatchgnupg; text view. "
-"Settings in this group are passed down to the backend using the &gpgconf; "
-"mechanism."
-msgstr ""
-"&watchgnupg; प्रक्रिया अस्ति या वास्तवतः क्रियाकलापस्य कृते लॉगिंग सॉकेट् निरीक्षते तथा च "
-"रेखाः स्वरूपयति यथा &kwatchgnupg; पाठदृश्यम् । अस्मिन् समूहे सेटिङ्ग्स् &gpgconf; तन्त्रम् ।"
-
-#. Tag: para
-#: index.docbook:185
-#, no-c-format
-msgid ""
-"<guilabel>Executable</guilabel> contains the path to the &watchgnupg; "
-"application. If &watchgnupg; is in your <varname>$PATH</varname>, you can "
-"keep the default <userinput>watchgnupg</userinput>. If &watchgnupg; is not "
-"in your <varname>$PATH</varname>, or if you have more than one version "
-"installed, enter the absolute filename of the watchgnupg executable here."
-msgstr ""
-"<guilabel>निष्पादनीय</guilabel> इत्यत्र &watchgnupg; अनुप्रयोगः। यदि &watchgnupg; "
-"भवतः <varname>$PATH</varname> मध्ये अस्ति, भवान् पूर्वनिर्धारितं "
-"<userinput>watchgnupg</userinput> स्थापयितुं शक्नोति । यदि &watchgnupg; भवतः "
-"<varname>$PATH</varname> मध्ये नास्ति, अथवा यदि भवतः एकादशाधिकं संस्करणं संस्थापितम् "
-"अस्ति, तर्हि watchgnupg कार्यान्वयनीयस्य निरपेक्षं सञ्चिकानाम अत्र प्रविशतु ।"
-
-#. Tag: para
-#: index.docbook:194
-#, no-c-format
-msgid ""
-"<guilabel>Socket</guilabel> contains the socket that &watchgnupg; should "
-"listen on. A change here is distributed to all &gnupg; backend modules using "
-"&gpgconf;, so you don't need to change this setting if your &gnupg; config "
-"files have another <varname>log-file</varname> set."
-msgstr ""
-"<guilabel>सॉकेट्</guilabel> इत्यत्र सॉकेट् अस्ति यत् &watchgnupg; अग्रे श्रोतव्यम्। अत्र "
-"परिवर्तनं सर्वेभ्यः वितरितं भवति &gnupg; &gpgconf;, इत्यस्य उपयोगेन backend modules, "
-"अतः भवता एतत् सेटिङ्ग् परिवर्तयितुं आवश्यकता नास्ति यदि भवतां &gnupg; config सञ्चिकासु "
-"अन्यः <varname>log-file</varname> सेट् भवति ।"
-
-#. Tag: para
-#: index.docbook:202
-#, no-c-format
-msgid ""
-"<guilabel>Default log level</guilabel> determines the amount of logging "
-"information returned by the backend modules. See the &watchgnupg; "
-"documentation for what level includes which information. A change here is "
-"distributed to all &gnupg; backend modules using &gpgconf;, so you don't "
-"need to change this setting if your &gnupg; config files have another "
-"<varname>log-level</varname> set."
-msgstr ""
-"<guilabel>पूर्वनिर्धारित-लॉग्-स्तरः</guilabel> पृष्ठभाग-मॉड्यूल्-द्वारा प्रत्यागतानां "
-"लॉगिंग्-सूचनायाः परिमाणं निर्धारयति । &watchgnupg इति पश्यन्तु; कस्य स्तरस्य कृते "
-"दस्तावेजीकरणं कस्य सूचनायाः समावेशः भवति। अत्र परिवर्तनं सर्वेभ्यः वितरितं भवति &gnupg; "
-"&gpgconf;, इत्यस्य उपयोगेन backend modules, अतः भवता एतत् सेटिङ्ग् परिवर्तयितुं "
-"आवश्यकता नास्ति यदि भवतां &gnupg; config सञ्चिकासु अन्यः <varname>log-level</"
-"varname> सेट् भवति ।"
-
-#. Tag: title
-#: index.docbook:214
+#: index.docbook:175
 #, no-c-format
 msgid "Log Window Settings"
 msgstr "लॉग विण्डो सेटिंग्स्"
 
 #. Tag: para
-#: index.docbook:216
+#: index.docbook:177
 #, no-c-format
 msgid ""
 "Here, you can configure the size of the history buffer, &ie; the number of "
@@ -409,7 +347,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:224
+#: index.docbook:185
 #, no-c-format
 msgid ""
 "You can disable the history size limit by clicking <guibutton>Set Unlimited</"
@@ -425,55 +363,122 @@ msgstr ""
 "स्वच्छं कुर्वन्तु।"
 
 #. Tag: title
-#: index.docbook:240
+#: index.docbook:198
+#, fuzzy, no-c-format
+#| msgid "&watchgnupg; Settings"
+msgid "&gnupg; Logging Settings"
+msgstr "&watchgnupg; सेटिंग्स्"
+
+#. Tag: para
+#: index.docbook:200
+#, no-c-format
+msgid ""
+"Use the settings dialog of &kleopatra; for configuring logging of the "
+"components of the &gnupg; System. For each component for which you want to "
+"see logging choose a debugging level and enter <filename>socket://</"
+"filename> as file the logs should be written to."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:212
 #, no-c-format
 msgid "Credits and License"
 msgstr "श्रेयः अनुज्ञापत्रं च"
 
 #. Tag: para
-#: index.docbook:242
+#: index.docbook:214
 #, no-c-format
 msgid "&kwatchgnupg; copyright 2004 Klar&auml;lvdalens Datakonsult AB"
 msgstr "&kwatchgnupg; प्रतिलिपि अधिकार 2004 Klar&auml;lvdalens Datakonsult AB"
 
 #. Tag: para
-#: index.docbook:244
+#: index.docbook:216
 #, no-c-format
 msgid "Documentation copyright 2004 Klar&auml;lvdalens Datakonsult AB"
 msgstr "दस्तावेजीकरण प्रतिलिपि अधिकार 2004 Klar&auml;lvdalens Datakonsult AB"
 
 #. Tag: title
-#: index.docbook:247
+#: index.docbook:219
 #, no-c-format
 msgid "Contributors"
 msgstr "योगदानकर्ता"
 
 #. Tag: para
-#: index.docbook:249
+#: index.docbook:221
 #, no-c-format
 msgid "&Steffen.Hansen; <email>hansen@kde.org</email>"
 msgstr "&स्टीफेन.हन्सेन्; <email>hansen@kde.org</email> इति"
 
 #. Tag: para
-#: index.docbook:252
+#: index.docbook:224
 #, no-c-format
 msgid "&Marc.Mutz; &Marc.Mutz.mail;"
 msgstr "&मार्क.मुट्ज; &मार्क.मुट्ज.मेल;"
 
 #. Tag: para
-#: index.docbook:255
+#: index.docbook:227
 #, no-c-format
 msgid "&David.Faure; &David.Faure.mail;"
 msgstr "&डेविड.फौरे; &डेविड.फौरे.मेल;"
 
 #. Tag: trans_comment
-#: index.docbook:259
+#: index.docbook:231
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:259
+#: index.docbook:231
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
+
+#~ msgid ""
+#~ "&watchgnupg; is the process that actually monitors the logging socket for "
+#~ "activity and formats the lines as seen in the &kwatchgnupg; text view. "
+#~ "Settings in this group are passed down to the backend using the &gpgconf; "
+#~ "mechanism."
+#~ msgstr ""
+#~ "&watchgnupg; प्रक्रिया अस्ति या वास्तवतः क्रियाकलापस्य कृते लॉगिंग सॉकेट् निरीक्षते "
+#~ "तथा च रेखाः स्वरूपयति यथा &kwatchgnupg; पाठदृश्यम् । अस्मिन् समूहे सेटिङ्ग्स् &gpgconf; "
+#~ "तन्त्रम् ।"
+
+#~ msgid ""
+#~ "<guilabel>Executable</guilabel> contains the path to the &watchgnupg; "
+#~ "application. If &watchgnupg; is in your <varname>$PATH</varname>, you can "
+#~ "keep the default <userinput>watchgnupg</userinput>. If &watchgnupg; is "
+#~ "not in your <varname>$PATH</varname>, or if you have more than one "
+#~ "version installed, enter the absolute filename of the watchgnupg "
+#~ "executable here."
+#~ msgstr ""
+#~ "<guilabel>निष्पादनीय</guilabel> इत्यत्र &watchgnupg; अनुप्रयोगः। यदि "
+#~ "&watchgnupg; भवतः <varname>$PATH</varname> मध्ये अस्ति, भवान् पूर्वनिर्धारितं "
+#~ "<userinput>watchgnupg</userinput> स्थापयितुं शक्नोति । यदि &watchgnupg; भवतः "
+#~ "<varname>$PATH</varname> मध्ये नास्ति, अथवा यदि भवतः एकादशाधिकं संस्करणं "
+#~ "संस्थापितम् अस्ति, तर्हि watchgnupg कार्यान्वयनीयस्य निरपेक्षं सञ्चिकानाम अत्र प्रविशतु ।"
+
+#~ msgid ""
+#~ "<guilabel>Socket</guilabel> contains the socket that &watchgnupg; should "
+#~ "listen on. A change here is distributed to all &gnupg; backend modules "
+#~ "using &gpgconf;, so you don't need to change this setting if your &gnupg; "
+#~ "config files have another <varname>log-file</varname> set."
+#~ msgstr ""
+#~ "<guilabel>सॉकेट्</guilabel> इत्यत्र सॉकेट् अस्ति यत् &watchgnupg; अग्रे श्रोतव्यम्। "
+#~ "अत्र परिवर्तनं सर्वेभ्यः वितरितं भवति &gnupg; &gpgconf;, इत्यस्य उपयोगेन backend "
+#~ "modules, अतः भवता एतत् सेटिङ्ग् परिवर्तयितुं आवश्यकता नास्ति यदि भवतां &gnupg; "
+#~ "config सञ्चिकासु अन्यः <varname>log-file</varname> सेट् भवति ।"
+
+#~ msgid ""
+#~ "<guilabel>Default log level</guilabel> determines the amount of logging "
+#~ "information returned by the backend modules. See the &watchgnupg; "
+#~ "documentation for what level includes which information. A change here is "
+#~ "distributed to all &gnupg; backend modules using &gpgconf;, so you don't "
+#~ "need to change this setting if your &gnupg; config files have another "
+#~ "<varname>log-level</varname> set."
+#~ msgstr ""
+#~ "<guilabel>पूर्वनिर्धारित-लॉग्-स्तरः</guilabel> पृष्ठभाग-मॉड्यूल्-द्वारा प्रत्यागतानां "
+#~ "लॉगिंग्-सूचनायाः परिमाणं निर्धारयति । &watchgnupg इति पश्यन्तु; कस्य स्तरस्य कृते "
+#~ "दस्तावेजीकरणं कस्य सूचनायाः समावेशः भवति। अत्र परिवर्तनं सर्वेभ्यः वितरितं भवति "
+#~ "&gnupg; &gpgconf;, इत्यस्य उपयोगेन backend modules, अतः भवता एतत् सेटिङ्ग् "
+#~ "परिवर्तयितुं आवश्यकता नास्ति यदि भवतां &gnupg; config सञ्चिकासु अन्यः <varname>log-"
+#~ "level</varname> सेट् भवति ।"
