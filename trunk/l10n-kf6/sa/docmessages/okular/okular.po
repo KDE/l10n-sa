@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-15 00:59+0000\n"
+"POT-Creation-Date: 2026-07-07 00:56+0000\n"
 "PO-Revision-Date: 2024-12-20 21:51+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1036,12 +1036,17 @@ msgstr "वर्तमानः उपयोक्ता <filename>$HOME/.pki/n
 
 #. Tag: para
 #: index.docbook:488
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "If you want to use a custom certificate store you can do so by setting it "
+#| "in the <link linkend=\"config-pdf-digital-signatures\">&PDF; Backend "
+#| "Configuration</link> section of the <link linkend=\"configure-backends"
+#| "\">Configure Backends...</link> dialog."
 msgid ""
 "If you want to use a custom certificate store you can do so by setting it in "
 "the <link linkend=\"config-pdf-digital-signatures\">&PDF; Backend "
 "Configuration</link> section of the <link linkend=\"configure-backends"
-"\">Configure Backends...</link> dialog."
+"\">Configure Okular...</link> dialog."
 msgstr ""
 "यदि भवान् कस्टम् प्रमाणपत्रभण्डारस्य उपयोगं कर्तुम् इच्छति तर्हि भवान् तत् सेट् कृत्वा कर्तुं "
 "शक्नोति<link linkend=\"config-pdf-digital-signatures\"> &amp;PDF; पृष्ठभाग "
@@ -1061,7 +1066,7 @@ msgstr ""
 "न्यूनातिन्यूनं संस्करणं २१.०१ संस्थापनीयम् ।"
 
 #. Tag: title
-#: index.docbook:499 index.docbook:2923
+#: index.docbook:499 index.docbook:2737
 #, no-c-format
 msgid "<title>Annotations</title>"
 msgstr "<title>टिप्पणी</title>"
@@ -3825,335 +3830,20 @@ msgstr ""
 "<action>&okular; कोष्ठ। ध्यानं कुर्वन्तु यत् तथापि पूर्वनिर्धारितसाधनपट्टिकायां पृष्ठसङ्ख्याः "
 "दर्शिताः भविष्यन्ति ।"
 
-#. Tag: menuchoice
-#: index.docbook:2290
-#, no-c-format
-msgid ""
-"<guimenu>Settings</guimenu> <guimenuitem>Configure Backends...</guimenuitem>"
-msgstr ""
-"<guimenu>सेटिंग्स्</guimenu> <guimenuitem>पृष्ठभागं विन्यस्यताम्...</guimenuitem>"
-
-#. Tag: para
-#: index.docbook:2296
-#, no-c-format
-msgid ""
-"Opens the <link linkend=\"configure-backends\">Backend Configuration</link> "
-"window."
-msgstr ""
-"उद्घाटयति<link linkend=\"configure-backends\"> पृष्ठभाग विन्यास</link> कोष्ठ।"
-
 #. Tag: title
-#: index.docbook:2305
-#, no-c-format
-msgid "Configuring &okular; Backends"
-msgstr "विन्यस्तं कुर्वन् &okular; पृष्ठभागाः"
-
-#. Tag: para
-#: index.docbook:2306
-#, no-c-format
-msgid ""
-"You can configure &okular; backends by choosing <menuchoice> "
-"<guimenu>Settings</guimenu> <guimenuitem>Configure Backends...</guimenuitem> "
-"</menuchoice>. Currently, configuration options are provided for EPub, "
-"&PostScript;, FictionBook, Txt, OpenDocument Text, and &PDF; backends only."
-msgstr ""
-"भवान् &okular; <menuchoice> <guimenu>सेटिंग्स्</guimenu> <guimenuitem>पृष्ठभागं "
-"विन्यस्यताम्...</guimenuitem> </menuchoice> इति चित्वा पृष्ठभागाः । सम्प्रति EPub, "
-"&PostScript;, FictionBook, Txt, OpenDocument Text, &PDF; पृष्ठभागाः एव।"
-
-#. Tag: screeninfo
-#: index.docbook:2314
-#, no-c-format
-msgid "<screeninfo>The backends configuration dialog</screeninfo>"
-msgstr "<screeninfo>पृष्ठभागविन्याससंवादः</screeninfo>"
-
-#. Tag: phrase
-#: index.docbook:2320
-#, no-c-format
-msgid "<phrase>The backends configuration dialog</phrase>"
-msgstr "<phrase>पृष्ठभागविन्याससंवादः</phrase>"
-
-#. Tag: para
-#: index.docbook:2324
-#, no-c-format
-msgid ""
-"Using backend configuration pages for EPub, FictionBook, Mobipocket, "
-"Markdown, TXT, and OpenDocument Text you can define the font to render "
-"documents in the corresponding formats. The <guibutton>Choose...</guibutton> "
-"button in these pages opens standard &kde; font configuration window. Please "
-"refer to the <ulink url=\"help:/fundamentals/fonts.html\">&kde; Fundamentals "
-"documentation</ulink> for the details."
-msgstr ""
-"EPub, FictionBook, Mobipocket, Markdown, TXT, OpenDocument Text इत्येतयोः कृते "
-"पृष्ठभागविन्यासपृष्ठानां उपयोगेन भवान् तत्सम्बद्धस्वरूपेषु दस्तावेजान् प्रतिपादयितुं फन्ट् परिभाषितुं "
-"शक्नोति । एतेषु पृष्ठेषु <guibutton>Choose...</guibutton> इति बटनं मानकं &kde; font "
-"configuration window इति । कृपया <ulink url=\"help:/fundamentals/fonts.html"
-"\">&kde; विवरणार्थं मौलिकदस्तावेजीकरणं</ulink> इति ।"
-
-#. Tag: para
-#: index.docbook:2327
-#, no-c-format
-msgid ""
-"The description of Markdown, &PostScript; and &PDF; backends configuration "
-"pages can be found below."
-msgstr ""
-"Markdown इत्यस्य वर्णनं, &PostScript; तथा &PDF; backends विन्यासपृष्ठानि अधः द्रष्टुं "
-"शक्यन्ते ।"
-
-#. Tag: title
-#: index.docbook:2331
-#, no-c-format
-msgid "Markdown backend configuration"
-msgstr "Markdown backend विन्यासः"
-
-#. Tag: para
-#: index.docbook:2332
-#, no-c-format
-msgid ""
-"You can configure &okular; Markdown rendering backend based on <ulink url="
-"\"https://www.pell.portland.or.us/~orc/Code/markdown/\">Discount</ulink> by "
-"choosing <guilabel>Markdown</guilabel> from the list on the left part of the "
-"configuration dialog. An additional configurable option is as follows."
-msgstr ""
-"भवान् &okular; <ulink url=\"https://www.pell.portland.or.us/~orc/Code/"
-"markdown/\">छूट</ulink> इत्यस्य आधारेण पृष्ठभागस्य मार्कडाउन रेण्डरिंग् तः "
-"<guilabel>मार्कडाउन</guilabel> इति चयनं कृत्वा विन्याससंवादस्य वामभागे सूचीं कुर्वन्तु । "
-"अतिरिक्तः विन्यासयोग्यः विकल्पः निम्नलिखितरूपेण अस्ति ।"
-
-#. Tag: guilabel
-#: index.docbook:2339
-#, no-c-format
-msgid "Enable SmartyPants formatting"
-msgstr "SmartyPants स्वरूपणं सक्षमं कुर्वन्तु"
-
-#. Tag: para
-#: index.docbook:2342
-#, no-c-format
-msgid ""
-"When checked this option allows &okular; to process <ulink url=\"https://"
-"daringfireball.net/projects/smartypants/\">SmartyPants</ulink> formatting. "
-"Such formatting can be troublesome in the technical texts because of "
-"unwanted substitutions (&eg;, it replaces <literal>(C)</literal> with a "
-"copyright symbol). This option is checked by default."
-msgstr ""
-"यदा परीक्षितः भवति तदा एषः विकल्पः &okular; <ulink url=\"https://"
-"daringfireball.net/projects/smartypants/\">SmartyPants</ulink> स्वरूपणं संसाधितुं "
-"। अवांछितप्रतिस्थापनस्य कारणात् तकनीकीग्रन्थेषु एतादृशं स्वरूपणं कष्टप्रदं भवितुम् अर्हति "
-"(&उदा., <literal>(C)</literal> इत्यस्य स्थाने प्रतिलिपिधर्मचिह्नं स्थापयति) । एषः "
-"विकल्पः पूर्वनिर्धारितरूपेण परीक्षितः भवति ।"
-
-#. Tag: title
-#: index.docbook:2350
-#, no-c-format
-msgid "&PostScript; backend configuration"
-msgstr "&पोस्टस्क्रिप्ट; पृष्ठभागविन्यासः"
-
-#. Tag: para
-#: index.docbook:2351
-#, no-c-format
-msgid ""
-"You can configure &okular; &PostScript; rendering backend based on <ulink "
-"url=\"https://www.ghostscript.com/\">Ghostscript</ulink> by choosing "
-"<guilabel>Ghostscript</guilabel> from the list on the left part of the "
-"configuration dialog. The only configurable option is as follows."
-msgstr ""
-"भवान् &okular; &पोस्टस्क्रिप्ट; विन्याससंवादस्य वामभागे सूचीतः <guilabel>Ghostscript</"
-"guilabel> इति चित्वा <ulink url=\"https://www.ghostscript.com/\">Ghostscript</"
-"ulink> इत्यस्य आधारेण पृष्ठभागं प्रतिपादयति । एकमात्रः विन्यासयोग्यः विकल्पः "
-"निम्नलिखितरूपेण अस्ति ।"
-
-#. Tag: guilabel
-#: index.docbook:2358
-#, no-c-format
-msgid "Use platform fonts"
-msgstr "मञ्चस्य फ़ॉन्ट् इत्यस्य उपयोगं कुर्वन्तु"
-
-#. Tag: para
-#: index.docbook:2361
-#, no-c-format
-msgid ""
-"This option determines whether Ghostscript should be allowed to use platform "
-"fonts, if unchecked only usage of fonts embedded in the document will be "
-"allowed. This option is checked by default."
-msgstr ""
-"एषः विकल्पः निर्धारयति यत् Ghostscript इत्यस्य मञ्चस्य फ़ॉन्ट् इत्यस्य उपयोगः अनुमतः भवेत् "
-"वा, यदि अनिरीक्षितः तर्हि केवलं दस्तावेजे निहितस्य फन्ट् इत्यस्य उपयोगः एव अनुमतः भविष्यति "
-"। एषः विकल्पः पूर्वनिर्धारितरूपेण परीक्षितः भवति ।"
-
-#. Tag: title
-#: index.docbook:2369
-#, no-c-format
-msgid "&PDF; backend configuration"
-msgstr "&PDF; पृष्ठभागविन्यासः"
-
-#. Tag: para
-#: index.docbook:2370
-#, no-c-format
-msgid ""
-"You can configure &okular; &PDF; rendering backend based on <ulink url="
-"\"https://poppler.freedesktop.org/\">Poppler</ulink> by choosing "
-"<guilabel>&PDF;</guilabel> from the list on the left part of the "
-"configuration dialog. The only configurable option is as follows."
-msgstr ""
-"भवान् &okular; &PDF; विन्याससंवादस्य वामभागे सूचीतः <guilabel>&PDF;</guilabel> इति "
-"चित्वा <ulink url=\"https://poppler.freedesktop.org/\">Poppler</ulink> इत्यस्य "
-"आधारेण पृष्ठभागं प्रतिपादयति । एकमात्रः विन्यासयोग्यः विकल्पः निम्नलिखितरूपेण अस्ति ।"
-
-#. Tag: guilabel
-#: index.docbook:2377
-#, no-c-format
-msgid "Enhance thin lines"
-msgstr "कृशरेखाः वर्धयन्तु"
-
-#. Tag: para
-#: index.docbook:2380
-#, no-c-format
-msgid ""
-"Drawing lines in &okular; is implemented in two steps: generation of the "
-"clipping path and filling this clipping path. When the line in the original "
-"document is less than one pixel this two step implementation could cause "
-"problems. For those lines, the clipping path is filled with the filling "
-"color that depends on the thickness of the line part inside the clipping "
-"area. If the part of the line inside the clipping area gets very small the "
-"contrast between the shape and the background color can become too low for "
-"the line to be recognizable. The grids of such lines then looks very "
-"unpretty."
-msgstr ""
-"&okular; इति द्वयोः चरणयोः कार्यान्वितं भवति: क्लिपिंग् मार्गस्य जननम् अपि च अस्य "
-"क्लिपिंग् मार्गस्य पूरणम् । यदा मूलदस्तावेजे रेखा एकस्मात् पिक्सेलात् न्यूना भवति तदा एतत् "
-"द्विचरणीयं कार्यान्वयनम् समस्यां जनयितुं शक्नोति । तासां रेखानां कृते च्छेदनमार्गः पूरणवर्णेन "
-"पूरितः भवति यत् च्छेदनक्षेत्रस्य अन्तः रेखाभागस्य स्थूलतायाः आधारेण भवति । यदि क्लिपिंग् "
-"क्षेत्रस्य अन्तः रेखायाः भागः अत्यल्पः भवति तर्हि आकारस्य पृष्ठभूमिवर्णस्य च विपरीतता रेखा "
-"ज्ञातुं न शक्नोति इति अत्यन्तं न्यूनं भवितुम् अर्हति तदा तादृशरेखानां जालपुटाः अतीव असुन्दराः "
-"दृश्यन्ते ।"
-
-#. Tag: entry
-#: index.docbook:2411
-#, no-c-format
-msgid ""
-"Thin line (red), its clipping path (dashed line) and pixel boundaries (black "
-"solid lines)"
-msgstr ""
-"पतली रेखा (लालः), तस्याः च्छेदनमार्गः (विच्छिन्नरेखा) पिक्सेलसीमाः (कृष्णाः ठोसरेखाः) च ।"
-
-#. Tag: entry
-#: index.docbook:2412
-#, no-c-format
-msgid "Thin line shown at a low contrast"
-msgstr "न्यूनविपरीततायां दर्शिता कृशरेखा"
-
-#. Tag: para
-#: index.docbook:2417
-#, no-c-format
-msgid "To enhance the look of the thin lines &okular; implements two options."
-msgstr "कृशरेखानां रूपं वर्धयितुं &okular; विकल्पद्वयं कार्यान्वयति।"
-
-#. Tag: para
-#: index.docbook:2420
-#, no-c-format
-msgid ""
-"The first option is <guimenuitem>Solid</guimenuitem>. With this option "
-"&okular; adjusts clipping path and line position so that clipping path and "
-"line are on the same pixel boundary, &ie; &okular; enlarges the thin lines "
-"to one pixel on the output device. This mode is similar to the "
-"<guilabel>Enhance thin lines</guilabel> in <trademark class=\"registered"
-"\">Adobe</trademark> <trademark class=\"registered\">Reader</trademark>. If "
-"this option is chosen, the thin lines are always enlarged."
-msgstr ""
-"प्रथमः विकल्पः <guimenuitem>Solid</guimenuitem> इति । एतेन विकल्पेन &okular; "
-"क्लिपिंग् मार्गं रेखास्थानं च समायोजयति येन क्लिपिंग् मार्गः रेखा च एकस्मिन् पिक्सेलसीमायां "
-"भवन्ति, &ie; &ओकुलर; निर्गमयन्त्रे कृशरेखाः एकं पिक्सेलपर्यन्तं वर्धयति । एषः मोडः "
-"<trademark class=\"registered\">एडोब</trademark> <trademark class="
-"\"registered\">पाठक</trademark> इत्यस्मिन् <guilabel>पतलारेखाः वर्धयतु</guilabel> "
-"इत्यस्य सदृशः अस्ति । यदि एषः विकल्पः चिनोति तर्हि कृशरेखाः सर्वदा विस्तारिताः भवन्ति ।"
-
-#. Tag: phrase
-#: index.docbook:2431
-#, no-c-format
-msgid ""
-"<phrase>Thin line with <guimenuitem>Solid</guimenuitem> enhancement</phrase>"
-msgstr "<phrase><guimenuitem>घन</guimenuitem> वर्धन</phrase> सह कृशरेखा"
-
-#. Tag: para
-#: index.docbook:2434
-#, no-c-format
-msgid ""
-"<para>Thin line with <guimenuitem>Solid</guimenuitem> enhancement</para>"
-msgstr "<para><guimenuitem>घन</guimenuitem> वर्धने</para> सह कृशरेखा"
-
-#. Tag: para
-#: index.docbook:2439
-#, no-c-format
-msgid ""
-"The second option is <guimenuitem>Shape</guimenuitem>. With this option the "
-"clipping path and line are adjusted to pixel boundary as well, but the line "
-"intensity is corrected according to its width."
-msgstr ""
-"द्वितीयः विकल्पः <guimenuitem>Shape</guimenuitem> इति । एतेन विकल्पेन क्लिपिंग् "
-"मार्गः रेखा च पिक्सेलसीमायां अपि समायोजिताः भवन्ति, परन्तु रेखातीव्रता तस्याः "
-"विस्तारानुसारं सम्यक् भवति ।"
-
-#. Tag: phrase
-#: index.docbook:2449
-#, no-c-format
-msgid ""
-"<phrase>Thin line with <guimenuitem>Shape</guimenuitem> enhancement</phrase>"
-msgstr "<phrase><guimenuitem>आकार</guimenuitem> वर्धनेन सह कृशरेखा</phrase>"
-
-#. Tag: para
-#: index.docbook:2452
-#, no-c-format
-msgid ""
-"<para>Thin line with <guimenuitem>Shape</guimenuitem> enhancement</para>"
-msgstr "<para><guimenuitem>आकार</guimenuitem> वर्धनेन सह कृशरेखा</para>"
-
-#. Tag: para
-#: index.docbook:2457
-#, no-c-format
-msgid ""
-"The thin lines are not enhanced by default (option <guimenuitem>No</"
-"guimenuitem>)."
-msgstr ""
-"कृशरेखाः पूर्वनिर्धारितरूपेण न वर्धिताः (विकल्पः <guimenuitem>No</guimenuitem>) ।"
-
-#. Tag: title
-#: index.docbook:2465
-#, no-c-format
-msgid "&PDF; Digital Signature Certificates"
-msgstr "&PDF; डिजिटल हस्ताक्षर प्रमाणपत्र"
-
-#. Tag: para
-#: index.docbook:2467
-#, no-c-format
-msgid ""
-"This section allows you to set a custom Certificate Database to use when "
-"adding Digital Signatures to &PDF; files."
-msgstr "अयं खण्डः भवन्तं &PDF; सञ्चिकाः ।"
-
-#. Tag: para
-#: index.docbook:2470
-#, no-c-format
-msgid ""
-"It also lists the certificates available in the current Certificate Database "
-"(if any)."
-msgstr ""
-"वर्तमानप्रमाणपत्रदत्तांशकोशे (यदि सन्ति) उपलभ्यमानानि प्रमाणपत्राणि अपि सूचीबद्धानि सन्ति "
-"।"
-
-#. Tag: title
-#: index.docbook:2477
+#: index.docbook:2293
 #, no-c-format
 msgid "<title>Configuring &okular;</title>"
 msgstr "<title>विन्यस्तं कुर्वन् &amp;ocular;</title>"
 
 #. Tag: title
-#: index.docbook:2479
+#: index.docbook:2295
 #, no-c-format
 msgid "General configuration"
 msgstr "सामान्यविन्यासः"
 
 #. Tag: para
-#: index.docbook:2480
+#: index.docbook:2296
 #, no-c-format
 msgid ""
 "You can configure &okular; by choosing <menuchoice><guimenu>Settings</"
@@ -4166,82 +3856,75 @@ msgstr ""
 "अस्मिन् अध्याये उपलब्धविकल्पानां विस्तरेण वर्णनं कृतम् अस्ति ।"
 
 #. Tag: link
-#: index.docbook:2488
+#: index.docbook:2304
 #, no-c-format
 msgid "<link linkend=\"configgeneral\">General</link>"
 msgstr "<link linkend=\"configgeneral\">सामान्य</link>"
 
 #. Tag: link
-#: index.docbook:2491
+#: index.docbook:2307
 #, no-c-format
 msgid "<link linkend=\"configaccessibility\">Accessibility</link>"
 msgstr "<link linkend=\"configaccessibility\">सुलभता</link>"
 
 #. Tag: link
-#: index.docbook:2494
+#: index.docbook:2310
 #, no-c-format
 msgid "<link linkend=\"configperformance\">Performance</link>"
 msgstr "<link linkend=\"configperformance\">प्रदर्शनम्‌</link>"
 
 #. Tag: link
-#: index.docbook:2497
+#: index.docbook:2313
 #, no-c-format
 msgid "<link linkend=\"configpresentation\">Presentation</link>"
 msgstr "<link linkend=\"configpresentation\">प्रस्तुति</link>"
 
 #. Tag: link
-#: index.docbook:2500
+#: index.docbook:2316
 #, no-c-format
 msgid "<link linkend=\"configannotations\">Annotations</link>"
 msgstr "<link linkend=\"configannotations\">टिप्पणी</link>"
 
 #. Tag: link
-#: index.docbook:2503
+#: index.docbook:2319
 #, no-c-format
 msgid "<link linkend=\"configeditor\">Editor</link>"
 msgstr "<link linkend=\"configeditor\">सम्पादक</link>"
 
 #. Tag: screeninfo
-#: index.docbook:2507
+#: index.docbook:2323
 #, no-c-format
 msgid "<screeninfo>The configuration dialog</screeninfo>"
 msgstr "<screeninfo>विन्याससंवादः</screeninfo>"
 
 #. Tag: phrase
-#: index.docbook:2513
+#: index.docbook:2329
 #, no-c-format
 msgid "<phrase>The configuration dialog</phrase>"
 msgstr "<phrase>विन्याससंवादः</phrase>"
 
 #. Tag: para
-#: index.docbook:2517
+#: index.docbook:2333
 #, no-c-format
 msgid ""
-"Depending on the currently installed backends, the "
-"<menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure Backends...</"
-"guimenuitem></menuchoice> menu item could be enabled. This particular "
-"configuration dialog holds the configurations of the backends that can "
-"actually be configured."
+"Depending on the currently installed backends, the dialog also contains a "
+"list of the backends that has configuration options."
 msgstr ""
-"वर्तमानकाले संस्थापितानां पृष्ठभागानाम् आधारेण <menuchoice><guimenu>सेटिंग्स्</guimenu> "
-"<guimenuitem>पृष्ठभूमिं विन्यस्तं कुर्वन्तु...</guimenuitem></menuchoice> मेनू-वस्तु सक्षमः "
-"भवितुम् अर्हति स्म । अयं विशेषः विन्याससंवादः पृष्ठभागानाम् विन्यासान् धारयति ये वास्तवतः "
-"विन्यस्तुं शक्यन्ते ।"
 
 #. Tag: title
-#: index.docbook:2525
+#: index.docbook:2339
 #, no-c-format
 msgid "<title>General</title>"
 msgstr "<title>सामान्य</title>"
 
 #. Tag: guilabel
-#: index.docbook:2528
+#: index.docbook:2342
 #, no-c-format
 msgid "Use smooth scrolling"
 msgstr "स्मूद स्क्रॉलिंग् इत्यस्य उपयोगं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2530
+#: index.docbook:2344
 #, no-c-format
 msgid ""
 "Whether to display animated transitions when scrolling using the mouse wheel "
@@ -4249,50 +3932,50 @@ msgid ""
 msgstr "मूषकचक्रस्य कीबोर्डस्य च उपयोगेन स्क्रॉलं कुर्वन् एनिमेटेड् संक्रमणं प्रदर्शयितुं वा।"
 
 #. Tag: guilabel
-#: index.docbook:2534
+#: index.docbook:2348
 #, no-c-format
 msgid "Show scrollbars"
 msgstr "स्क्रॉलबार्स् दर्शयतु"
 
 #. Tag: para
-#: index.docbook:2536
+#: index.docbook:2350
 #, no-c-format
 msgid "Whether to show scrollbars for the document view."
 msgstr "दस्तावेजदृश्यस्य कृते स्क्रॉलबार्स् दर्शयितव्याः वा।"
 
 #. Tag: guilabel
-#: index.docbook:2540
+#: index.docbook:2354
 #, no-c-format
 msgid "Link the thumbnails with the page"
 msgstr "लघुचित्रं पृष्ठेन सह लिङ्क् कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2542
+#: index.docbook:2356
 #, no-c-format
 msgid ""
 "Whether the thumbnails view should always display the current page or not."
 msgstr "लघुचित्रदृश्येन सर्वदा वर्तमानपृष्ठं प्रदर्शितव्यं वा न वा।"
 
 #. Tag: guilabel
-#: index.docbook:2547
+#: index.docbook:2361
 #, no-c-format
 msgid "Show hints and info messages"
 msgstr "संकेतान् सूचनासन्देशान् च दर्शयतु"
 
 #. Tag: para
-#: index.docbook:2549
+#: index.docbook:2363
 #, no-c-format
 msgid "Whether to show some informative messages on startup, file load, &etc;"
 msgstr "प्रारम्भे, सञ्चिकाभारे, & इत्यादिषु केचन सूचनाप्रदाः सन्देशाः दर्शयितव्याः वा;"
 
 #. Tag: guilabel
-#: index.docbook:2554
+#: index.docbook:2368
 #, no-c-format
 msgid "Notify about embedded files, forms, or signatures"
 msgstr "एम्बेडेड् सञ्चिकाः, प्रपत्राणि, हस्ताक्षराणि वा विषये सूचयन्तु"
 
 #. Tag: para
-#: index.docbook:2556
+#: index.docbook:2370
 #, no-c-format
 msgid ""
 "Whether to show informative panels about embedded files, forms or signatures "
@@ -4302,13 +3985,13 @@ msgstr ""
 "दर्शयितव्यानि वा;"
 
 #. Tag: guilabel
-#: index.docbook:2561
+#: index.docbook:2375
 #, no-c-format
 msgid "Display document title in titlebar if available"
 msgstr "यदि उपलब्धं भवति तर्हि शीर्षकपट्टिकायां दस्तावेजस्य शीर्षकं प्रदर्शयन्तु"
 
 #. Tag: para
-#: index.docbook:2563
+#: index.docbook:2377
 #, no-c-format
 msgid ""
 "Whether to show the current document title in the titlebar of &okular; "
@@ -4320,13 +4003,13 @@ msgstr ""
 "सञ्चिकानाम दर्शयति ।"
 
 #. Tag: guilabel
-#: index.docbook:2569
+#: index.docbook:2383
 #, no-c-format
 msgid "When not displaying document title"
 msgstr "यदा दस्तावेजस्य शीर्षकं न प्रदर्शयति"
 
 #. Tag: para
-#: index.docbook:2571
+#: index.docbook:2385
 #, no-c-format
 msgid ""
 "You can choose any of two options, <guilabel>Display file name only</"
@@ -4336,13 +4019,13 @@ msgstr ""
 "अथवा <guilabel>पूर्णसञ्चिकामार्गं प्रदर्शयतु</guilabel> ।"
 
 #. Tag: guilabel
-#: index.docbook:2576
+#: index.docbook:2390
 #, no-c-format
 msgid "Use custom background color"
 msgstr "कस्टम् पृष्ठभूमिवर्णस्य उपयोगं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2578
+#: index.docbook:2392
 #, no-c-format
 msgid ""
 "Enables <ulink url=\"help:/fundamentals/colors.html\">choosing the document "
@@ -4354,13 +4037,13 @@ msgstr ""
 "विकल्पः अनिरीक्षितः भवति तदा toolkit color इत्यस्य उपयोगः भवति ।"
 
 #. Tag: guilabel
-#: index.docbook:2583
+#: index.docbook:2397
 #, no-c-format
 msgid "Open new files in tabs"
 msgstr "ट्याब्स् मध्ये नूतनाः सञ्चिकाः उद्घाटयन्तु"
 
 #. Tag: para
-#: index.docbook:2585
+#: index.docbook:2399
 #, no-c-format
 msgid ""
 "Whether to open new documents in tabs. The tabs are disabled by default."
@@ -4368,7 +4051,7 @@ msgstr ""
 "ट्याब्स् मध्ये नूतनानि दस्तावेजानि उद्घाटयितुं वा। ट्याब्स् पूर्वनिर्धारितरूपेण अक्षमाः भवन्ति ।"
 
 #. Tag: para
-#: index.docbook:2586
+#: index.docbook:2400
 #, no-c-format
 msgid ""
 "The default shortcuts to switch between tabs are <keycombo>&Ctrl;<keycap>.</"
@@ -4380,13 +4063,13 @@ msgstr ""
 "keycap> च सन्ति </keycombo> (<guilabel>पूर्वं ट्याब्</guilabel>) ।"
 
 #. Tag: guilabel
-#: index.docbook:2592
+#: index.docbook:2406
 #, no-c-format
 msgid "Switch to existing tab if file is already open"
 msgstr "यदि सञ्चिका पूर्वमेव उद्घाटिता अस्ति तर्हि विद्यमानं ट्याब् प्रति गच्छन्तु"
 
 #. Tag: para
-#: index.docbook:2594
+#: index.docbook:2408
 #, no-c-format
 msgid ""
 "Whether &okular; should switch to a tab if the file is already open instead "
@@ -4398,13 +4081,13 @@ msgstr ""
 "नूतनानि सञ्चिकाः उद्घाटयन्तु</guilabel> सक्षमम् अस्ति चेत् एव टॉग्ल् कर्तुं शक्यते ।"
 
 #. Tag: guilabel
-#: index.docbook:2598
+#: index.docbook:2412
 #, no-c-format
 msgid "Obey DRM limitations"
 msgstr "DRM सीमानां पालनम् कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2600
+#: index.docbook:2414
 #, no-c-format
 msgid ""
 "Whether &okular; should obey <firstterm>DRM</firstterm> (Digital Rights "
@@ -4418,13 +4101,13 @@ msgstr ""
 "&okular; इत्यस्य केषुचित् विन्यासेषु एषः विकल्पः उपलब्धः नास्ति इति अवलोकयन्तु ।"
 
 #. Tag: guilabel
-#: index.docbook:2608
+#: index.docbook:2422
 #, no-c-format
 msgid "Reload document on file change"
 msgstr "सञ्चिकापरिवर्तने दस्तावेजं पुनः लोड् कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2610
+#: index.docbook:2424
 #, no-c-format
 msgid ""
 "Whether opened files should be automatically checked for changes and "
@@ -4433,13 +4116,13 @@ msgstr ""
 "उद्घाटितसञ्चिकाः स्वयमेव परिवर्तनस्य जाँचं कृत्वा अद्यतनं कर्तव्यं वा, यदि आवश्यकं भवति ।"
 
 #. Tag: guilabel
-#: index.docbook:2615
+#: index.docbook:2429
 #, no-c-format
 msgid "Show backend selection dialog"
 msgstr "पृष्ठभागचयनसंवादं दर्शयतु"
 
 #. Tag: para
-#: index.docbook:2617
+#: index.docbook:2431
 #, no-c-format
 msgid ""
 "Whether &okular; should ask the user which backend to use in case of more "
@@ -4451,13 +4134,13 @@ msgstr ""
 "सर्वोच्चप्राथमिकतायुक्तं पृष्ठभागस्य उपयोगं करिष्यति ।"
 
 #. Tag: guilabel
-#: index.docbook:2623
+#: index.docbook:2437
 #, no-c-format
 msgid "Right to left reading direction"
 msgstr "दक्षिणतः वामतः पठनदिशा"
 
 #. Tag: para
-#: index.docbook:2625
+#: index.docbook:2439
 #, no-c-format
 msgid ""
 "Whether to use right to left reading direction by default for the opened "
@@ -4469,13 +4152,13 @@ msgstr ""
 "लेखनप्रणाली</ulink> कृते उपयोगी भवितुम् अर्हति ।"
 
 #. Tag: guilabel
-#: index.docbook:2631
+#: index.docbook:2445
 #, no-c-format
 msgid "Open in continuous mode by default"
 msgstr "पूर्वनिर्धारितरूपेण निरन्तरविधाने उद्घाटयन्तु"
 
 #. Tag: para
-#: index.docbook:2633
+#: index.docbook:2447
 #, no-c-format
 msgid ""
 "Whether to use the continuous mode by default. In continuous mode, all pages "
@@ -4487,13 +4170,13 @@ msgstr ""
 "केवलं एकं पृष्ठं (अथवा एकं पृष्ठपङ्क्तिं) दर्शितं भवति ।"
 
 #. Tag: guilabel
-#: index.docbook:2639
+#: index.docbook:2453
 #, no-c-format
 msgid "Continue from last viewed page"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2641
+#: index.docbook:2455
 #, no-c-format
 msgid ""
 "Whether to save and restore the last viewed page for each document with the "
@@ -4501,13 +4184,13 @@ msgid ""
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2647
+#: index.docbook:2461
 #, no-c-format
 msgid "When using Browse Tool, wrap cursor at screen edges"
 msgstr "Browse Tool इत्यस्य उपयोगं कुर्वन् स्क्रीन इत्यस्य किनारेषु कर्सरं लपेटयन्तु"
 
 #. Tag: para
-#: index.docbook:2649
+#: index.docbook:2463
 #, no-c-format
 msgid ""
 "Allows endless scrolling around the entire document with the <link linkend="
@@ -4521,38 +4204,38 @@ msgstr ""
 "।"
 
 #. Tag: guilabel
-#: index.docbook:2655
+#: index.docbook:2469
 #, no-c-format
 msgid "Items in recent history"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:2657
+#: index.docbook:2471
 #, no-c-format
 msgid "Allows to configure the length of the stored history list."
 msgstr ""
 
 #. Tag: guilabel
-#: index.docbook:2664
+#: index.docbook:2478
 #, no-c-format
 msgid "Overview columns"
 msgstr "अवलोकनस्तम्भाः"
 
 #. Tag: para
-#: index.docbook:2666
+#: index.docbook:2480
 #, no-c-format
 msgid ""
 "This option represents the number of columns to use in the overview mode."
 msgstr "एषः विकल्पः अवलोकनविधाने उपयोक्तुं स्तम्भसङ्ख्यां प्रतिनिधियति ।"
 
 #. Tag: guilabel
-#: index.docbook:2672
+#: index.docbook:2486
 #, no-c-format
 msgid "Page Up/Down overlap"
 msgstr "पृष्ठम् उपरि/अधः ओवरलैप्"
 
 #. Tag: para
-#: index.docbook:2674
+#: index.docbook:2488
 #, no-c-format
 msgid ""
 "Here you can define the percentage of the current viewing area that should "
@@ -4561,13 +4244,13 @@ msgstr ""
 "अत्र भवान् वर्तमानस्य दृश्यक्षेत्रस्य प्रतिशतं परिभाषितुं शक्नोति यत् &PgUp;/&PgDn; कीलानि ।"
 
 #. Tag: guilabel
-#: index.docbook:2680
+#: index.docbook:2494
 #, no-c-format
 msgid "Default Zoom"
 msgstr "पूर्वनिर्धारित जूम"
 
 #. Tag: para
-#: index.docbook:2682
+#: index.docbook:2496
 #, fuzzy, no-c-format
 #| msgid ""
 #| "This options specifies the default zoom mode for file which were never "
@@ -4582,55 +4265,55 @@ msgstr ""
 "येषां सञ्चिकानां कृते पूर्वस्य जूम मोड् प्रयोक्तुं पूर्वं उद्घाटिताः आसन् ।"
 
 #. Tag: title
-#: index.docbook:2692
+#: index.docbook:2506
 #, no-c-format
 msgid "<title>Accessibility</title>"
 msgstr "<title>सुलभता</title>"
 
 #. Tag: guilabel
-#: index.docbook:2695
+#: index.docbook:2509
 #, no-c-format
 msgid "Draw border around links"
 msgstr "लिङ्कानां परितः सीमां आकर्षयन्तु"
 
 #. Tag: para
-#: index.docbook:2697
+#: index.docbook:2511
 #, no-c-format
 msgid "Whether to draw a border around links."
 msgstr "लिङ्कानां परितः सीमां आकर्षयितुं वा।"
 
 #. Tag: guilabel
-#: index.docbook:2701
+#: index.docbook:2515
 #, no-c-format
 msgid "Change colors"
 msgstr "वर्णाः परिवर्तयन्तु"
 
 #. Tag: para
-#: index.docbook:2703
+#: index.docbook:2517
 #, no-c-format
 msgid "<action>Enables</action> the color changing options."
 msgstr "<action>वर्णपरिवर्तनविकल्पान् सक्षमं करोति</action> ।"
 
 #. Tag: guilabel
-#: index.docbook:2707
+#: index.docbook:2521
 #, no-c-format
 msgid "Color mode"
 msgstr "वर्णविधिः"
 
 #. Tag: para
-#: index.docbook:2709
+#: index.docbook:2523
 #, no-c-format
 msgid "<action>Defines</action> the color changing mode."
 msgstr "<action>वर्णपरिवर्तनविधिं परिभाषयति</action> ।"
 
 #. Tag: guilabel
-#: index.docbook:2712
+#: index.docbook:2526
 #, no-c-format
 msgid "Invert Colors"
 msgstr "रङ्ग उल्टा करो"
 
 #. Tag: para
-#: index.docbook:2714
+#: index.docbook:2528
 #, no-c-format
 msgid ""
 "<action>Inverts</action> colors on the view, &ie; black objects will be "
@@ -4638,20 +4321,20 @@ msgid ""
 msgstr "<action>दृश्ये वर्णं विपर्ययति</action>, &ie; कृष्णवस्तूनि श्वेतवर्णानि दर्शयिष्यन्ति।"
 
 #. Tag: guilabel
-#: index.docbook:2718
+#: index.docbook:2532
 #, no-c-format
 msgid "Change Paper Color"
 msgstr "कागदस्य वर्णं परिवर्तयन्तु"
 
 #. Tag: para
-#: index.docbook:2720
+#: index.docbook:2534
 #, no-c-format
 msgid ""
 "<action>Changes</action> the paper's color, &ie; the document's background."
 msgstr "<action>कागदस्य वर्णं परिवर्तयति</action>, &ie; दस्तावेजस्य पृष्ठभूमिः ।"
 
 #. Tag: para
-#: index.docbook:2721
+#: index.docbook:2535
 #, no-c-format
 msgid ""
 "The color can be selected using the <guilabel>Paper color</guilabel> swatch "
@@ -4661,13 +4344,13 @@ msgstr ""
 "कर्तुं शक्यते ।"
 
 #. Tag: guilabel
-#: index.docbook:2726
+#: index.docbook:2540
 #, no-c-format
 msgid "Change Dark &amp; Light Colors"
 msgstr "परिवर्तन अन्धकार &amp; प्रकाशवर्णाः"
 
 #. Tag: para
-#: index.docbook:2728
+#: index.docbook:2542
 #, no-c-format
 msgid ""
 "<action>Changes</action> the dark and light color to your preference, that "
@@ -4679,13 +4362,13 @@ msgstr ""
 "चयनितः प्रकाशवर्णः इति प्रतिपादितः भविष्यति"
 
 #. Tag: guilabel
-#: index.docbook:2734
+#: index.docbook:2548
 #, no-c-format
 msgid "Convert to Black &amp; White"
 msgstr "कृष्णे परिवर्तनं कुर्वन्तु &amp; श्वेतः"
 
 #. Tag: para
-#: index.docbook:2736
+#: index.docbook:2550
 #, no-c-format
 msgid ""
 "<action>Converts</action> the document to black and white. You can set the "
@@ -4697,13 +4380,13 @@ msgstr ""
 "भविष्यति ।"
 
 #. Tag: guilabel
-#: index.docbook:2742
+#: index.docbook:2556
 #, no-c-format
 msgid "Invert Lightness"
 msgstr "लघुता विपर्यय"
 
 #. Tag: para
-#: index.docbook:2744
+#: index.docbook:2558
 #, no-c-format
 msgid ""
 "<action>Inverts</action> lightness of all colors. Light and dark colors will "
@@ -4716,13 +4399,13 @@ msgstr ""
 "<guilabel>Invert Luma (sRGB Linear)</guilabel> इत्यस्मात् अपेक्षया दुष्टतरं भविष्यति ।"
 
 #. Tag: guilabel
-#: index.docbook:2750
+#: index.docbook:2564
 #, no-c-format
 msgid "Invert Luma (sRGB Linear)"
 msgstr "लुमा उलटा (sRGB Linear)"
 
 #. Tag: para
-#: index.docbook:2752
+#: index.docbook:2566
 #, no-c-format
 msgid ""
 "<action>Inverts</action> luma of all colors. Light and dark will be swapped, "
@@ -4738,13 +4421,13 @@ msgstr ""
 "उपयोगं करोति, परन्तु गामा सुधारः नास्ति ।"
 
 #. Tag: guilabel
-#: index.docbook:2760
+#: index.docbook:2574
 #, no-c-format
 msgid "Invert Luma (Symmetric)"
 msgstr "लुमा (सममित) विपर्यय 1 ."
 
 #. Tag: para
-#: index.docbook:2762
+#: index.docbook:2576
 #, no-c-format
 msgid ""
 "<action>Inverts</action> luma of all colors, using symmetric luma "
@@ -4758,13 +4441,13 @@ msgstr ""
 "श्रेष्ठा भवति ।"
 
 #. Tag: guilabel
-#: index.docbook:2769
+#: index.docbook:2583
 #, no-c-format
 msgid "Shift Hue Positive"
 msgstr "शिफ्ट ह्यू सकारात्मक"
 
 #. Tag: para
-#: index.docbook:2771
+#: index.docbook:2585
 #, no-c-format
 msgid ""
 "<action>Shifts</action> hue of all colors by 120 degrees. Can mitigate some "
@@ -4774,13 +4457,13 @@ msgstr ""
 "काश्चन विपरीतसमस्याः न्यूनीकर्तुं शक्नोति ।"
 
 #. Tag: guilabel
-#: index.docbook:2776
+#: index.docbook:2590
 #, no-c-format
 msgid "Shift Hue Negative"
 msgstr "शिफ्ट ह्यू नकारात्मक"
 
 #. Tag: para
-#: index.docbook:2778
+#: index.docbook:2592
 #, no-c-format
 msgid ""
 "<action>Shifts</action> hue of all colors by 240 degrees. Can mitigate some "
@@ -4790,7 +4473,7 @@ msgstr ""
 "काश्चन विपरीतसमस्याः न्यूनीकर्तुं शक्नोति ।"
 
 #. Tag: para
-#: index.docbook:2783
+#: index.docbook:2597
 #, no-c-format
 msgid ""
 "You can configure keyboard shortcuts and toolbar actions for the color modes "
@@ -4799,13 +4482,13 @@ msgid ""
 msgstr "&okular; मुख्यविण्डो।"
 
 #. Tag: guilabel
-#: index.docbook:2787
+#: index.docbook:2601
 #, no-c-format
 msgid "Text-to-speech engine"
 msgstr "पाठ-वाक्-इञ्जिनम्"
 
 #. Tag: para
-#: index.docbook:2789
+#: index.docbook:2603
 #, no-c-format
 msgid ""
 "<action>Allows you to choose</action> the text-to-speech (<abbrev>TTS</"
@@ -4817,13 +4500,13 @@ msgstr ""
 "abbrev> अस्ति ।"
 
 #. Tag: guilabel
-#: index.docbook:2794
+#: index.docbook:2608
 #, no-c-format
 msgid "Text-to-speech voice"
 msgstr "पाठ-वाक्-वाणी"
 
 #. Tag: para
-#: index.docbook:2796
+#: index.docbook:2610
 #, no-c-format
 msgid ""
 "<action>Allows you to choose</action> a voice for the text-to-speech engine "
@@ -4837,19 +4520,19 @@ msgstr ""
 "इत्यस्य उपयोगः भवति ।"
 
 #. Tag: title
-#: index.docbook:2804
+#: index.docbook:2618
 #, no-c-format
 msgid "<title>Performance</title>"
 msgstr "<title>प्रदर्शनम्‌</title>"
 
 #. Tag: guilabel
-#: index.docbook:2807
+#: index.docbook:2621
 #, no-c-format
 msgid "Enable transparency effects"
 msgstr "पारदर्शिता प्रभावान् सक्षमं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2809
+#: index.docbook:2623
 #, no-c-format
 msgid ""
 "Draw selections and other special graphics using transparency effects. "
@@ -4860,13 +4543,13 @@ msgstr ""
 "पूरणशैल्याः उपयोगेन तान् आकर्षितुं विकल्पं निष्क्रियं कुर्वन्तु तथा चयनेषु गतिं वर्धयन्तु ।"
 
 #. Tag: guilabel
-#: index.docbook:2815
+#: index.docbook:2629
 #, no-c-format
 msgid "Memory usage"
 msgstr "स्मृतिप्रयोगः"
 
 #. Tag: para
-#: index.docbook:2817
+#: index.docbook:2631
 #, no-c-format
 msgid ""
 "&okular; can achieve best performance by tuning the memory usage, based on "
@@ -4886,13 +4569,13 @@ msgstr ""
 "मुक्तस्मृतेः केवलं 50% उपयोगः भविष्यति) ।"
 
 #. Tag: guilabel
-#: index.docbook:2825
+#: index.docbook:2639
 #, no-c-format
 msgid "Rendering options"
 msgstr "विकल्पाः प्रतिपादनम्"
 
 #. Tag: para
-#: index.docbook:2827
+#: index.docbook:2641
 #, no-c-format
 msgid ""
 "Using this group of options you can improve text and image rendering in "
@@ -4917,31 +4600,31 @@ msgstr ""
 "भवति, भवान् तान् स्वस्य प्राधान्येन tweak कर्तुम् इच्छति ।"
 
 #. Tag: title
-#: index.docbook:2836
+#: index.docbook:2650
 #, no-c-format
 msgid "<title>Presentation</title>"
 msgstr "<title>प्रस्तुति</title>"
 
 #. Tag: guilabel
-#: index.docbook:2839
+#: index.docbook:2653
 #, no-c-format
 msgid "Advance every"
 msgstr "अग्रिमः प्रत्येकं"
 
 #. Tag: para
-#: index.docbook:2841
+#: index.docbook:2655
 #, no-c-format
 msgid "Enables automatic advancing of pages given a time period."
 msgstr "समयावधिं दत्तानां पृष्ठानां स्वचालितं उन्नतिं सक्षमं करोति ।"
 
 #. Tag: guilabel
-#: index.docbook:2845
+#: index.docbook:2659
 #, no-c-format
 msgid "Loop after last page"
 msgstr "अन्तिमपृष्ठस्य अनन्तरं पाशः"
 
 #. Tag: para
-#: index.docbook:2847
+#: index.docbook:2661
 #, no-c-format
 msgid ""
 "When navigating on presentation mode and going past the last page the first "
@@ -4949,13 +4632,13 @@ msgid ""
 msgstr "प्रस्तुतिविधाने नेविगेट् कृत्वा अन्तिमपृष्ठं गत्वा प्रथमं पृष्ठं दृश्यते ।"
 
 #. Tag: guilabel
-#: index.docbook:2851
+#: index.docbook:2665
 #, no-c-format
 msgid "Touch navigation"
 msgstr "स्पर्शं नेविगेशनं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2853
+#: index.docbook:2667
 #, no-c-format
 msgid ""
 "Allows you to fine-tune touchscreen navigation with tapping in the "
@@ -4965,7 +4648,7 @@ msgstr ""
 "कर्तुं शक्नोति:"
 
 #. Tag: para
-#: index.docbook:2856
+#: index.docbook:2670
 #, no-c-format
 msgid ""
 "<guilabel>Tap left/right side to go back/forward</guilabel>: Tapping on the "
@@ -4976,7 +4659,7 @@ msgstr ""
 "(दक्षिण) अर्धभागे ट्याप् करणेन प्रस्तुतिः पूर्ववर्ती (अनन्तरं) स्लाइड् प्रति गच्छति ।"
 
 #. Tag: para
-#: index.docbook:2859
+#: index.docbook:2673
 #, no-c-format
 msgid ""
 "<guilabel>Tap anywhere to go forward</guilabel> (default): Tapping on the "
@@ -4987,19 +4670,19 @@ msgstr ""
 "प्रस्तुतिः अग्रिमस्लाइड् प्रति गच्छति, भवेत् पटलः कुत्रापि ट्याप् क्रियते ।"
 
 #. Tag: para
-#: index.docbook:2862
+#: index.docbook:2676
 #, no-c-format
 msgid "<guilabel>Disabled</guilabel>: Screen tapping does not do anything."
 msgstr "<guilabel>अक्षमम्</guilabel>: स्क्रीनटैपिंग किमपि न करोति ।"
 
 #. Tag: guilabel
-#: index.docbook:2868
+#: index.docbook:2682
 #, no-c-format
 msgid "Background color"
 msgstr "पृष्ठभूमि रंग"
 
 #. Tag: para
-#: index.docbook:2870
+#: index.docbook:2684
 #, no-c-format
 msgid ""
 "The color that will fill the part of the screen not covered by the page when "
@@ -5007,13 +4690,13 @@ msgid ""
 msgstr "यः वर्णः प्रस्तुतिविधाने पृष्ठेन न आच्छादितस्य पटलस्य भागं पूरयिष्यति ।"
 
 #. Tag: guilabel
-#: index.docbook:2874
+#: index.docbook:2688
 #, no-c-format
 msgid "Mouse cursor"
 msgstr "मूषकस्य कर्सरः"
 
 #. Tag: para
-#: index.docbook:2876
+#: index.docbook:2690
 #, no-c-format
 msgid ""
 "Whether the mouse should be always hidden, always shown or hidden after a "
@@ -5022,13 +4705,13 @@ msgstr ""
 "मूषकः सदा निगूढः भवेत्, सर्वदा दर्शयितव्यः, अल्पकालस्य निष्क्रियतायाः अनन्तरं गोपनीयः वा।"
 
 #. Tag: guilabel
-#: index.docbook:2880
+#: index.docbook:2694
 #, no-c-format
 msgid "Show progress indicator"
 msgstr "प्रगतिसूचकं दर्शयतु"
 
 #. Tag: para
-#: index.docbook:2882
+#: index.docbook:2696
 #, no-c-format
 msgid ""
 "Whether to show a progress circle that shows the current page and the total "
@@ -5039,13 +4722,13 @@ msgstr ""
 "प्रस्तुतिपर्दे उपरि दक्षिणकोणे पृष्ठानां कुलसङ्ख्यां दर्शयति।"
 
 #. Tag: guilabel
-#: index.docbook:2887
+#: index.docbook:2701
 #, no-c-format
 msgid "Show summary page"
 msgstr "सारांश पृष्ठं दर्शयतु"
 
 #. Tag: para
-#: index.docbook:2889
+#: index.docbook:2703
 #, no-c-format
 msgid ""
 "Whether to show a summary page at the beginning of the presentation with the "
@@ -5054,13 +4737,13 @@ msgstr ""
 "प्रस्तुतीकरणस्य आरम्भे दस्तावेजस्य शीर्षकं, लेखकं, पृष्ठसङ्ख्या च सहितं सारांशपृष्ठं दर्शयितव्यम् वा।"
 
 #. Tag: guilabel
-#: index.docbook:2893
+#: index.docbook:2707
 #, no-c-format
 msgid "Enable transitions"
 msgstr "संक्रमणं सक्षमं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:2895
+#: index.docbook:2709
 #, no-c-format
 msgid ""
 "Use this check box to enable or disable transition effects between pages."
@@ -5068,13 +4751,13 @@ msgstr ""
 "पृष्ठानां मध्ये संक्रमणप्रभावं सक्षमं कर्तुं निष्क्रियं वा कर्तुं एतस्य चेकबॉक्सस्य उपयोगं कुर्वन्तु ।"
 
 #. Tag: guilabel
-#: index.docbook:2899
+#: index.docbook:2713
 #, no-c-format
 msgid "Default transition"
 msgstr "पूर्वनिर्धारित संक्रमण"
 
 #. Tag: para
-#: index.docbook:2901
+#: index.docbook:2715
 #, no-c-format
 msgid ""
 "The transition effect between page and page if the document does not specify "
@@ -5085,13 +4768,13 @@ msgstr ""
 "उपलब्धप्रभावेषु एकं यादृच्छिकरूपेण चिनोतु।"
 
 #. Tag: guilabel
-#: index.docbook:2906
+#: index.docbook:2720
 #, no-c-format
 msgid "Placement"
 msgstr "स्थापनम्"
 
 #. Tag: para
-#: index.docbook:2908
+#: index.docbook:2722
 #, no-c-format
 msgid ""
 "In this section you can select the <guilabel>Screen</guilabel> used to "
@@ -5100,7 +4783,7 @@ msgstr ""
 "अस्मिन् विभागे भवान् प्रस्तुतिप्रदर्शनार्थं प्रयुक्तं <guilabel>Screen</guilabel> चिन्वतु ।"
 
 #. Tag: para
-#: index.docbook:2909
+#: index.docbook:2723
 #, no-c-format
 msgid ""
 "<guilabel>Current Screen</guilabel> is same screen of the &okular; window "
@@ -5109,7 +4792,7 @@ msgstr ""
 "<guilabel>वर्तमानः पटलः</guilabel> इति &okular; विण्डो यत् प्रस्तुतिविधिं आरभते ।"
 
 #. Tag: para
-#: index.docbook:2910
+#: index.docbook:2724
 #, no-c-format
 msgid ""
 "<guilabel>Default Screen</guilabel> is the screen marked as default in the "
@@ -5119,7 +4802,7 @@ msgstr ""
 "चिह्नितः अस्ति ।"
 
 #. Tag: para
-#: index.docbook:2911
+#: index.docbook:2725
 #, no-c-format
 msgid ""
 "<guilabel>Screen 0</guilabel>, <guilabel>Screen 1</guilabel> &etc; are the "
@@ -5129,13 +4812,13 @@ msgstr ""
 "सन्ति।"
 
 #. Tag: guilabel
-#: index.docbook:2915
+#: index.docbook:2729
 #, no-c-format
 msgid "Drawing Tool Configuration"
 msgstr "Drawing Tool Configuration इति"
 
 #. Tag: para
-#: index.docbook:2917
+#: index.docbook:2731
 #, no-c-format
 msgid ""
 "Manage the colors of the pencil used when drawing on the pages during the "
@@ -5143,26 +4826,26 @@ msgid ""
 msgstr "प्रस्तुतिविधाने पृष्ठेषु चित्रं कृत्वा प्रयुक्तस्य पेन्सिलस्य वर्णाः प्रबन्धयन्तु ।"
 
 #. Tag: screeninfo
-#: index.docbook:2925
+#: index.docbook:2739
 #, no-c-format
 msgid ""
 "<screeninfo>The Annotations page of the configuration dialog</screeninfo>"
 msgstr "<screeninfo>विन्याससंवादस्य टिप्पणीपृष्ठं</screeninfo>"
 
 #. Tag: phrase
-#: index.docbook:2931
+#: index.docbook:2745
 #, no-c-format
 msgid "<phrase>The Annotations page of the configuration dialog</phrase>"
 msgstr "<phrase>विन्याससंवादस्य Annotations पृष्ठं</phrase>"
 
 #. Tag: guilabel
-#: index.docbook:2937
+#: index.docbook:2751
 #, no-c-format
 msgid "Annotation toolbar"
 msgstr "एनोटेशन टूलबार"
 
 #. Tag: para
-#: index.docbook:2939
+#: index.docbook:2753
 #, no-c-format
 msgid ""
 "Allows switching between <guimenuitem>Full Annotation Toolbar</guimenuitem> "
@@ -5177,13 +4860,13 @@ msgstr ""
 "(दस्तावेजफलकस्य दक्षिणभागे भवतः प्रियसाधनेन सह साधनपट्टिकायाः स्लाइडिंग्) ।"
 
 #. Tag: guilabel
-#: index.docbook:2943
+#: index.docbook:2757
 #, no-c-format
 msgid "Author"
 msgstr "लेखकः"
 
 #. Tag: para
-#: index.docbook:2945
+#: index.docbook:2759
 #, no-c-format
 msgid ""
 "The author of the contents added on a document. Default is the name from the "
@@ -5194,13 +4877,13 @@ msgstr ""
 "&systemsettings; module <guilabel>लेखाविवरण</guilabel> ।"
 
 #. Tag: guilabel
-#: index.docbook:2950
+#: index.docbook:2764
 #, no-c-format
 msgid "Annotation tools"
 msgstr "एनोटेशन टूल्स"
 
 #. Tag: para
-#: index.docbook:2952
+#: index.docbook:2766
 #, no-c-format
 msgid ""
 "This pane is used to configure your <link linkend=\"annotations-add"
@@ -5210,7 +4893,7 @@ msgstr ""
 "टूलबार</link> ."
 
 #. Tag: para
-#: index.docbook:2955
+#: index.docbook:2769
 #, no-c-format
 msgid ""
 "There are five buttons (<guibutton>Add</guibutton>, <guibutton>Edit</"
@@ -5224,7 +4907,7 @@ msgstr ""
 "वर्तमानटिप्पणीसाधनपट्टिकायाः सामग्रीं सूचीबद्धं करोति) यत् साधनपट्टिकां विन्यस्तुं उपयुज्यते ।"
 
 #. Tag: para
-#: index.docbook:2958
+#: index.docbook:2772
 #, no-c-format
 msgid ""
 "If you need to add some tool button on the toolbar click on the "
@@ -5237,7 +4920,7 @@ msgstr ""
 "<guilabel>Type</guilabel>, <guilabel>Appearance</guilabel> च चिन्वितुं शक्नुवन्ति ।"
 
 #. Tag: para
-#: index.docbook:2962
+#: index.docbook:2776
 #, no-c-format
 msgid ""
 "Please remember that annotation tools in &okular; are highly configurable. "
@@ -5250,7 +4933,7 @@ msgstr ""
 "कर्तुं मा संकोचयन्तु ।"
 
 #. Tag: para
-#: index.docbook:2966
+#: index.docbook:2780
 #, no-c-format
 msgid ""
 "Click on some item in the list box then click on the corresponding button at "
@@ -5265,13 +4948,13 @@ msgstr ""
 "उपकरणपट्टिकायाः सूचीयां तस्य स्थानस्य उपरि निर्भरं भवति ।"
 
 #. Tag: term
-#: index.docbook:2972
+#: index.docbook:2786
 #, no-c-format
 msgid "Using Custom Stamps"
 msgstr "कस्टम् डाकटिकटस्य उपयोगः"
 
 #. Tag: para
-#: index.docbook:2975
+#: index.docbook:2789
 #, no-c-format
 msgid ""
 "Create the icon you want to use for your own stamp and save it in any "
@@ -5279,7 +4962,7 @@ msgid ""
 msgstr "स्वस्य मुद्रापत्रस्य कृते यत् चिह्नं उपयोक्तुं इच्छति तत् रचयन्तु तथा च &okular;"
 
 #. Tag: para
-#: index.docbook:2976
+#: index.docbook:2790
 #, no-c-format
 msgid ""
 "Click the <guibutton>Add</guibutton> button, select type <guilabel>Stamp</"
@@ -5289,7 +4972,7 @@ msgstr ""
 "प्रकारं चित्वा स्वस्य मुद्रकस्य नाम प्रविशन्तु ।"
 
 #. Tag: para
-#: index.docbook:2977
+#: index.docbook:2791
 #, no-c-format
 msgid ""
 "Enter the full path to your custom icon into the dropdown box in the "
@@ -5299,19 +4982,19 @@ msgstr ""
 "प्रविशतु"
 
 #. Tag: title
-#: index.docbook:2984
+#: index.docbook:2798
 #, no-c-format
 msgid "<title>Editor</title>"
 msgstr "<title>सम्पादक</title>"
 
 #. Tag: guilabel
-#: index.docbook:2987
+#: index.docbook:2801
 #, no-c-format
 msgid "<guilabel>Editor</guilabel>"
 msgstr "<guilabel>सम्पादक</guilabel>"
 
 #. Tag: para
-#: index.docbook:2989
+#: index.docbook:2803
 #, no-c-format
 msgid ""
 "Choose the editor you want to launch when &okular; wants to open a source "
@@ -5332,7 +5015,7 @@ msgstr ""
 "filename> <filename>mydocument.pdf</filename> इत्यस्य कृते) ।"
 
 #. Tag: para
-#: index.docbook:2992
+#: index.docbook:2806
 #, no-c-format
 msgid ""
 "&okular; ships with preconfigured settings for the following editors: <ulink "
@@ -5354,7 +5037,7 @@ msgstr ""
 "ulink> इति ।"
 
 #. Tag: para
-#: index.docbook:2996
+#: index.docbook:2810
 #, no-c-format
 msgid ""
 "To use inverse search in &kile;, you have to compile your &latex; file with "
@@ -5364,13 +5047,13 @@ msgstr ""
 "विन्यासेन सह सञ्चिका ।"
 
 #. Tag: guilabel
-#: index.docbook:3003
+#: index.docbook:2817
 #, no-c-format
 msgid "Command"
 msgstr "आदेश"
 
 #. Tag: para
-#: index.docbook:3005
+#: index.docbook:2819
 #, no-c-format
 msgid ""
 "This is the command and its parameters to invoke the selected editor with "
@@ -5380,7 +5063,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:3006
+#: index.docbook:2820
 #, no-c-format
 msgid ""
 "This field will be filled automatically if you use one of the preconfigured "
@@ -5394,31 +5077,31 @@ msgstr ""
 "पश्यन्तु"
 
 #. Tag: para
-#: index.docbook:3008
+#: index.docbook:2822
 #, no-c-format
 msgid "You can use the following placeholders:"
 msgstr "भवान् निम्नलिखितस्थानधारकाणां उपयोगं कर्तुं शक्नोति ।"
 
 #. Tag: para
-#: index.docbook:3011
+#: index.docbook:2825
 #, no-c-format
 msgid "%f - the file name"
 msgstr "%f - सञ्चिकानाम"
 
 #. Tag: para
-#: index.docbook:3014
+#: index.docbook:2828
 #, no-c-format
 msgid "%l - the line of the file to be reached"
 msgstr "%l - गन्तव्यस्य सञ्चिकायाः रेखा"
 
 #. Tag: para
-#: index.docbook:3017
+#: index.docbook:2831
 #, no-c-format
 msgid "%c - the column of the file to be reached"
 msgstr "%c - प्राप्तव्यस्य सञ्चिकायाः स्तम्भः"
 
 #. Tag: para
-#: index.docbook:3020
+#: index.docbook:2834
 #, no-c-format
 msgid ""
 "If %f is not specified, then the document name is appended to the specified "
@@ -5426,65 +5109,387 @@ msgid ""
 msgstr "यदि %f निर्दिष्टं नास्ति तर्हि निर्दिष्टे आदेशे दस्तावेजनाम संलग्नं भवति ।"
 
 #. Tag: title
-#: index.docbook:3027
+#: index.docbook:2840
+#, no-c-format
+msgid "Configuring &okular; Backends"
+msgstr "विन्यस्तं कुर्वन् &okular; पृष्ठभागाः"
+
+#. Tag: para
+#: index.docbook:2841
+#, fuzzy, no-c-format
+#| msgid ""
+#| "You can configure &okular; backends by choosing <menuchoice> "
+#| "<guimenu>Settings</guimenu> <guimenuitem>Configure Backends...</"
+#| "guimenuitem> </menuchoice>. Currently, configuration options are provided "
+#| "for EPub, &PostScript;, FictionBook, Txt, OpenDocument Text, and &PDF; "
+#| "backends only."
+msgid ""
+"You can configure &okular; backends by choosing <menuchoice> "
+"<guimenu>Settings</guimenu> <guimenuitem>Configure Okular...</guimenuitem> </"
+"menuchoice>. Currently, configuration options are provided for EPub, "
+"&PostScript;, FictionBook, Txt, OpenDocument Text, and &PDF; backends only."
+msgstr ""
+"भवान् &okular; <menuchoice> <guimenu>सेटिंग्स्</guimenu> <guimenuitem>पृष्ठभागं "
+"विन्यस्यताम्...</guimenuitem> </menuchoice> इति चित्वा पृष्ठभागाः । सम्प्रति EPub, "
+"&PostScript;, FictionBook, Txt, OpenDocument Text, &PDF; पृष्ठभागाः एव।"
+
+#. Tag: para
+#: index.docbook:2848
+#, no-c-format
+msgid ""
+"Using backend configuration pages for EPub, FictionBook, Mobipocket, "
+"Markdown, TXT, and OpenDocument Text you can define the font to render "
+"documents in the corresponding formats. The <guibutton>Choose...</guibutton> "
+"button in these pages opens standard &kde; font configuration window. Please "
+"refer to the <ulink url=\"help:/fundamentals/fonts.html\">&kde; Fundamentals "
+"documentation</ulink> for the details."
+msgstr ""
+"EPub, FictionBook, Mobipocket, Markdown, TXT, OpenDocument Text इत्येतयोः कृते "
+"पृष्ठभागविन्यासपृष्ठानां उपयोगेन भवान् तत्सम्बद्धस्वरूपेषु दस्तावेजान् प्रतिपादयितुं फन्ट् परिभाषितुं "
+"शक्नोति । एतेषु पृष्ठेषु <guibutton>Choose...</guibutton> इति बटनं मानकं &kde; font "
+"configuration window इति । कृपया <ulink url=\"help:/fundamentals/fonts.html"
+"\">&kde; विवरणार्थं मौलिकदस्तावेजीकरणं</ulink> इति ।"
+
+#. Tag: para
+#: index.docbook:2851
+#, no-c-format
+msgid ""
+"The description of Markdown, &PostScript; and &PDF; backends configuration "
+"pages can be found below."
+msgstr ""
+"Markdown इत्यस्य वर्णनं, &PostScript; तथा &PDF; backends विन्यासपृष्ठानि अधः द्रष्टुं "
+"शक्यन्ते ।"
+
+#. Tag: title
+#: index.docbook:2855
+#, no-c-format
+msgid "Markdown backend configuration"
+msgstr "Markdown backend विन्यासः"
+
+#. Tag: para
+#: index.docbook:2856
+#, no-c-format
+msgid ""
+"You can configure &okular; Markdown rendering backend based on <ulink url="
+"\"https://www.pell.portland.or.us/~orc/Code/markdown/\">Discount</ulink> by "
+"choosing <guilabel>Markdown</guilabel> from the list on the left part of the "
+"configuration dialog. An additional configurable option is as follows."
+msgstr ""
+"भवान् &okular; <ulink url=\"https://www.pell.portland.or.us/~orc/Code/"
+"markdown/\">छूट</ulink> इत्यस्य आधारेण पृष्ठभागस्य मार्कडाउन रेण्डरिंग् तः "
+"<guilabel>मार्कडाउन</guilabel> इति चयनं कृत्वा विन्याससंवादस्य वामभागे सूचीं कुर्वन्तु । "
+"अतिरिक्तः विन्यासयोग्यः विकल्पः निम्नलिखितरूपेण अस्ति ।"
+
+#. Tag: guilabel
+#: index.docbook:2863
+#, no-c-format
+msgid "Enable SmartyPants formatting"
+msgstr "SmartyPants स्वरूपणं सक्षमं कुर्वन्तु"
+
+#. Tag: para
+#: index.docbook:2866
+#, no-c-format
+msgid ""
+"When checked this option allows &okular; to process <ulink url=\"https://"
+"daringfireball.net/projects/smartypants/\">SmartyPants</ulink> formatting. "
+"Such formatting can be troublesome in the technical texts because of "
+"unwanted substitutions (&eg;, it replaces <literal>(C)</literal> with a "
+"copyright symbol). This option is checked by default."
+msgstr ""
+"यदा परीक्षितः भवति तदा एषः विकल्पः &okular; <ulink url=\"https://"
+"daringfireball.net/projects/smartypants/\">SmartyPants</ulink> स्वरूपणं संसाधितुं "
+"। अवांछितप्रतिस्थापनस्य कारणात् तकनीकीग्रन्थेषु एतादृशं स्वरूपणं कष्टप्रदं भवितुम् अर्हति "
+"(&उदा., <literal>(C)</literal> इत्यस्य स्थाने प्रतिलिपिधर्मचिह्नं स्थापयति) । एषः "
+"विकल्पः पूर्वनिर्धारितरूपेण परीक्षितः भवति ।"
+
+#. Tag: title
+#: index.docbook:2874
+#, no-c-format
+msgid "&PostScript; backend configuration"
+msgstr "&पोस्टस्क्रिप्ट; पृष्ठभागविन्यासः"
+
+#. Tag: para
+#: index.docbook:2875
+#, no-c-format
+msgid ""
+"You can configure &okular; &PostScript; rendering backend based on <ulink "
+"url=\"https://www.ghostscript.com/\">Ghostscript</ulink> by choosing "
+"<guilabel>Ghostscript</guilabel> from the list on the left part of the "
+"configuration dialog. The only configurable option is as follows."
+msgstr ""
+"भवान् &okular; &पोस्टस्क्रिप्ट; विन्याससंवादस्य वामभागे सूचीतः <guilabel>Ghostscript</"
+"guilabel> इति चित्वा <ulink url=\"https://www.ghostscript.com/\">Ghostscript</"
+"ulink> इत्यस्य आधारेण पृष्ठभागं प्रतिपादयति । एकमात्रः विन्यासयोग्यः विकल्पः "
+"निम्नलिखितरूपेण अस्ति ।"
+
+#. Tag: guilabel
+#: index.docbook:2882
+#, no-c-format
+msgid "Use platform fonts"
+msgstr "मञ्चस्य फ़ॉन्ट् इत्यस्य उपयोगं कुर्वन्तु"
+
+#. Tag: para
+#: index.docbook:2885
+#, no-c-format
+msgid ""
+"This option determines whether Ghostscript should be allowed to use platform "
+"fonts, if unchecked only usage of fonts embedded in the document will be "
+"allowed. This option is checked by default."
+msgstr ""
+"एषः विकल्पः निर्धारयति यत् Ghostscript इत्यस्य मञ्चस्य फ़ॉन्ट् इत्यस्य उपयोगः अनुमतः भवेत् "
+"वा, यदि अनिरीक्षितः तर्हि केवलं दस्तावेजे निहितस्य फन्ट् इत्यस्य उपयोगः एव अनुमतः भविष्यति "
+"। एषः विकल्पः पूर्वनिर्धारितरूपेण परीक्षितः भवति ।"
+
+#. Tag: title
+#: index.docbook:2893
+#, no-c-format
+msgid "&PDF; backend configuration"
+msgstr "&PDF; पृष्ठभागविन्यासः"
+
+#. Tag: para
+#: index.docbook:2894
+#, no-c-format
+msgid ""
+"You can configure &okular; &PDF; rendering backend based on <ulink url="
+"\"https://poppler.freedesktop.org/\">Poppler</ulink> by choosing "
+"<guilabel>&PDF;</guilabel> from the list on the left part of the "
+"configuration dialog. The only configurable option is as follows."
+msgstr ""
+"भवान् &okular; &PDF; विन्याससंवादस्य वामभागे सूचीतः <guilabel>&PDF;</guilabel> इति "
+"चित्वा <ulink url=\"https://poppler.freedesktop.org/\">Poppler</ulink> इत्यस्य "
+"आधारेण पृष्ठभागं प्रतिपादयति । एकमात्रः विन्यासयोग्यः विकल्पः निम्नलिखितरूपेण अस्ति ।"
+
+#. Tag: guilabel
+#: index.docbook:2901
+#, no-c-format
+msgid "Enhance thin lines"
+msgstr "कृशरेखाः वर्धयन्तु"
+
+#. Tag: para
+#: index.docbook:2904
+#, no-c-format
+msgid ""
+"Drawing lines in &okular; is implemented in two steps: generation of the "
+"clipping path and filling this clipping path. When the line in the original "
+"document is less than one pixel this two step implementation could cause "
+"problems. For those lines, the clipping path is filled with the filling "
+"color that depends on the thickness of the line part inside the clipping "
+"area. If the part of the line inside the clipping area gets very small the "
+"contrast between the shape and the background color can become too low for "
+"the line to be recognizable. The grids of such lines then looks very "
+"unpretty."
+msgstr ""
+"&okular; इति द्वयोः चरणयोः कार्यान्वितं भवति: क्लिपिंग् मार्गस्य जननम् अपि च अस्य "
+"क्लिपिंग् मार्गस्य पूरणम् । यदा मूलदस्तावेजे रेखा एकस्मात् पिक्सेलात् न्यूना भवति तदा एतत् "
+"द्विचरणीयं कार्यान्वयनम् समस्यां जनयितुं शक्नोति । तासां रेखानां कृते च्छेदनमार्गः पूरणवर्णेन "
+"पूरितः भवति यत् च्छेदनक्षेत्रस्य अन्तः रेखाभागस्य स्थूलतायाः आधारेण भवति । यदि क्लिपिंग् "
+"क्षेत्रस्य अन्तः रेखायाः भागः अत्यल्पः भवति तर्हि आकारस्य पृष्ठभूमिवर्णस्य च विपरीतता रेखा "
+"ज्ञातुं न शक्नोति इति अत्यन्तं न्यूनं भवितुम् अर्हति तदा तादृशरेखानां जालपुटाः अतीव असुन्दराः "
+"दृश्यन्ते ।"
+
+#. Tag: entry
+#: index.docbook:2935
+#, no-c-format
+msgid ""
+"Thin line (red), its clipping path (dashed line) and pixel boundaries (black "
+"solid lines)"
+msgstr ""
+"पतली रेखा (लालः), तस्याः च्छेदनमार्गः (विच्छिन्नरेखा) पिक्सेलसीमाः (कृष्णाः ठोसरेखाः) च ।"
+
+#. Tag: entry
+#: index.docbook:2936
+#, no-c-format
+msgid "Thin line shown at a low contrast"
+msgstr "न्यूनविपरीततायां दर्शिता कृशरेखा"
+
+#. Tag: para
+#: index.docbook:2941
+#, no-c-format
+msgid "To enhance the look of the thin lines &okular; implements two options."
+msgstr "कृशरेखानां रूपं वर्धयितुं &okular; विकल्पद्वयं कार्यान्वयति।"
+
+#. Tag: para
+#: index.docbook:2944
+#, no-c-format
+msgid ""
+"The first option is <guimenuitem>Solid</guimenuitem>. With this option "
+"&okular; adjusts clipping path and line position so that clipping path and "
+"line are on the same pixel boundary, &ie; &okular; enlarges the thin lines "
+"to one pixel on the output device. This mode is similar to the "
+"<guilabel>Enhance thin lines</guilabel> in <trademark class=\"registered"
+"\">Adobe</trademark> <trademark class=\"registered\">Reader</trademark>. If "
+"this option is chosen, the thin lines are always enlarged."
+msgstr ""
+"प्रथमः विकल्पः <guimenuitem>Solid</guimenuitem> इति । एतेन विकल्पेन &okular; "
+"क्लिपिंग् मार्गं रेखास्थानं च समायोजयति येन क्लिपिंग् मार्गः रेखा च एकस्मिन् पिक्सेलसीमायां "
+"भवन्ति, &ie; &ओकुलर; निर्गमयन्त्रे कृशरेखाः एकं पिक्सेलपर्यन्तं वर्धयति । एषः मोडः "
+"<trademark class=\"registered\">एडोब</trademark> <trademark class="
+"\"registered\">पाठक</trademark> इत्यस्मिन् <guilabel>पतलारेखाः वर्धयतु</guilabel> "
+"इत्यस्य सदृशः अस्ति । यदि एषः विकल्पः चिनोति तर्हि कृशरेखाः सर्वदा विस्तारिताः भवन्ति ।"
+
+#. Tag: phrase
+#: index.docbook:2955
+#, no-c-format
+msgid ""
+"<phrase>Thin line with <guimenuitem>Solid</guimenuitem> enhancement</phrase>"
+msgstr "<phrase><guimenuitem>घन</guimenuitem> वर्धन</phrase> सह कृशरेखा"
+
+#. Tag: para
+#: index.docbook:2958
+#, no-c-format
+msgid ""
+"<para>Thin line with <guimenuitem>Solid</guimenuitem> enhancement</para>"
+msgstr "<para><guimenuitem>घन</guimenuitem> वर्धने</para> सह कृशरेखा"
+
+#. Tag: para
+#: index.docbook:2963
+#, no-c-format
+msgid ""
+"The second option is <guimenuitem>Shape</guimenuitem>. With this option the "
+"clipping path and line are adjusted to pixel boundary as well, but the line "
+"intensity is corrected according to its width."
+msgstr ""
+"द्वितीयः विकल्पः <guimenuitem>Shape</guimenuitem> इति । एतेन विकल्पेन क्लिपिंग् "
+"मार्गः रेखा च पिक्सेलसीमायां अपि समायोजिताः भवन्ति, परन्तु रेखातीव्रता तस्याः "
+"विस्तारानुसारं सम्यक् भवति ।"
+
+#. Tag: phrase
+#: index.docbook:2973
+#, no-c-format
+msgid ""
+"<phrase>Thin line with <guimenuitem>Shape</guimenuitem> enhancement</phrase>"
+msgstr "<phrase><guimenuitem>आकार</guimenuitem> वर्धनेन सह कृशरेखा</phrase>"
+
+#. Tag: para
+#: index.docbook:2976
+#, no-c-format
+msgid ""
+"<para>Thin line with <guimenuitem>Shape</guimenuitem> enhancement</para>"
+msgstr "<para><guimenuitem>आकार</guimenuitem> वर्धनेन सह कृशरेखा</para>"
+
+#. Tag: para
+#: index.docbook:2981
+#, no-c-format
+msgid ""
+"The thin lines are not enhanced by default (option <guimenuitem>No</"
+"guimenuitem>)."
+msgstr ""
+"कृशरेखाः पूर्वनिर्धारितरूपेण न वर्धिताः (विकल्पः <guimenuitem>No</guimenuitem>) ।"
+
+#. Tag: title
+#: index.docbook:2989
+#, no-c-format
+msgid "&PDF; Digital Signature Certificates"
+msgstr "&PDF; डिजिटल हस्ताक्षर प्रमाणपत्र"
+
+#. Tag: para
+#: index.docbook:2991
+#, no-c-format
+msgid ""
+"This section allows you to set a custom Certificate Database to use when "
+"adding Digital Signatures to &PDF; files."
+msgstr "अयं खण्डः भवन्तं &PDF; सञ्चिकाः ।"
+
+#. Tag: para
+#: index.docbook:2994
+#, no-c-format
+msgid ""
+"It also lists the certificates available in the current Certificate Database "
+"(if any)."
+msgstr ""
+"वर्तमानप्रमाणपत्रदत्तांशकोशे (यदि सन्ति) उपलभ्यमानानि प्रमाणपत्राणि अपि सूचीबद्धानि सन्ति "
+"।"
+
+#. Tag: title
+#: index.docbook:3002
 #, no-c-format
 msgid "Credits and License"
 msgstr "श्रेयः अनुज्ञापत्रं च"
 
 #. Tag: title
-#: index.docbook:3030
+#: index.docbook:3005
 #, no-c-format
 msgid "Program Copyright:"
 msgstr "कार्यक्रमस्य प्रतिलिपिधर्मः :"
 
 #. Tag: para
-#: index.docbook:3031
+#: index.docbook:3006
 #, no-c-format
 msgid "&Albert.Astals.Cid; &Albert.Astals.Cid.mail; Current maintainer"
 msgstr "&अल्बर्ट.एस्टल्स.सिड; &अल्बर्ट.एस्टल्स.सिड.मेल; वर्तमान परिपालक"
 
 #. Tag: para
-#: index.docbook:3032 index.docbook:3040
+#: index.docbook:3007 index.docbook:3015
 #, no-c-format
 msgid "Pino Toscano <email>pino@kde.org</email>"
 msgstr "पिनो टोस्कानो <email>pino@kde.org</email> इति"
 
 #. Tag: para
-#: index.docbook:3033
+#: index.docbook:3008
 #, no-c-format
 msgid "Enrico Ros <email>eros.kde@email.it</email> &kpdf; developer"
 msgstr "एनरिको रोस <email>eros.kde@email.it</email> &kpdf; विकासकः"
 
 #. Tag: title
-#: index.docbook:3037
+#: index.docbook:3012
 #, no-c-format
 msgid "Documentation Copyright:"
 msgstr "दस्तावेजीकरणं प्रतिलिपिधर्मः :"
 
 #. Tag: para
-#: index.docbook:3038
+#: index.docbook:3013
 #, no-c-format
 msgid "&Albert.Astals.Cid; &Albert.Astals.Cid.mail; Author"
 msgstr "&अल्बर्ट.एस्टल्स.सिड; &अल्बर्ट.एस्टल्स.सिड.मेल; लेखकः"
 
 #. Tag: para
-#: index.docbook:3039
+#: index.docbook:3014
 #, no-c-format
 msgid ""
 "Titus Laska <email>titus.laska@gmx.de</email> Some updates and additions"
 msgstr "Titus Laska <email>titus.laska@gmx.de</email> केचन अद्यतनाः परिवर्तनानि च"
 
 #. Tag: trans_comment
-#: index.docbook:3042
+#: index.docbook:3017
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:3042
+#: index.docbook:3017
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
+
+#~ msgid ""
+#~ "<guimenu>Settings</guimenu> <guimenuitem>Configure Backends...</"
+#~ "guimenuitem>"
+#~ msgstr ""
+#~ "<guimenu>सेटिंग्स्</guimenu> <guimenuitem>पृष्ठभागं विन्यस्यताम्...</guimenuitem>"
+
+#~ msgid ""
+#~ "Opens the <link linkend=\"configure-backends\">Backend Configuration</"
+#~ "link> window."
+#~ msgstr ""
+#~ "उद्घाटयति<link linkend=\"configure-backends\"> पृष्ठभाग विन्यास</link> कोष्ठ।"
+
+#~ msgid "<screeninfo>The backends configuration dialog</screeninfo>"
+#~ msgstr "<screeninfo>पृष्ठभागविन्याससंवादः</screeninfo>"
+
+#~ msgid "<phrase>The backends configuration dialog</phrase>"
+#~ msgstr "<phrase>पृष्ठभागविन्याससंवादः</phrase>"
+
+#~ msgid ""
+#~ "Depending on the currently installed backends, the "
+#~ "<menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure Backends..."
+#~ "</guimenuitem></menuchoice> menu item could be enabled. This particular "
+#~ "configuration dialog holds the configurations of the backends that can "
+#~ "actually be configured."
+#~ msgstr ""
+#~ "वर्तमानकाले संस्थापितानां पृष्ठभागानाम् आधारेण <menuchoice><guimenu>सेटिंग्स्</"
+#~ "guimenu> <guimenuitem>पृष्ठभूमिं विन्यस्तं कुर्वन्तु...</guimenuitem></menuchoice> "
+#~ "मेनू-वस्तु सक्षमः भवितुम् अर्हति स्म । अयं विशेषः विन्याससंवादः पृष्ठभागानाम् विन्यासान् "
+#~ "धारयति ये वास्तवतः विन्यस्तुं शक्यन्ते ।"
 
 #~ msgid "22.04"
 #~ msgstr "२२.०४ इति"
