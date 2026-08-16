@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-14 00:58+0000\n"
+"POT-Creation-Date: 2026-08-16 00:57+0000\n"
 "PO-Revision-Date: 2024-12-25 19:45+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -9710,43 +9710,50 @@ msgid "Godot Script - <command>gdformat</command>"
 msgstr "गोडोट् स्क्रिप्ट् - <command>gdformat</command>"
 
 #. Tag: para
-#: plugins.docbook:4652
+#: plugins.docbook:4651
+#, fuzzy, no-c-format
+#| msgid "Erlang - <command>erlfmt</command>"
+msgid "Perl - <command>perltidy</command>"
+msgstr "एर्लाङ्ग - <command>erlfmt</command>"
+
+#. Tag: para
+#: plugins.docbook:4653
 #, no-c-format
 msgid "Python"
 msgstr "अजगर"
 
 #. Tag: para
-#: plugins.docbook:4659
+#: plugins.docbook:4660
 #, no-c-format
 msgid "YAML"
 msgstr "यम्ल"
 
 #. Tag: title
-#: plugins.docbook:4672
+#: plugins.docbook:4673
 #, no-c-format
 msgid "Configuring"
 msgstr "विन्यासः"
 
 #. Tag: para
-#: plugins.docbook:4674
+#: plugins.docbook:4675
 #, no-c-format
 msgid "The plugin can be configured in two ways:"
 msgstr "प्लगिन् द्विधा विन्यस्तुं शक्यते ।"
 
 #. Tag: para
-#: plugins.docbook:4676
+#: plugins.docbook:4677
 #, no-c-format
 msgid "Globally, from the Configure dialog"
 msgstr "वैश्विकरूपेण, Configure संवादात्"
 
 #. Tag: para
-#: plugins.docbook:4677
+#: plugins.docbook:4678
 #, no-c-format
 msgid "On a per project basis using the <filename>.kateproject</filename> file"
 msgstr "<filename>.kateproject</filename> सञ्चिकायाः उपयोगेन प्रतिप्रकल्पाधारेण"
 
 #. Tag: para
-#: plugins.docbook:4681
+#: plugins.docbook:4682
 #, no-c-format
 msgid ""
 "When reading the config, the plugin will first try to read the config from "
@@ -9757,7 +9764,7 @@ msgstr ""
 "प्रयतते ततः वैश्विकविन्यासं पठति । उदाहरण:"
 
 #. Tag: screen
-#: plugins.docbook:4685
+#: plugins.docbook:4686
 #, fuzzy, no-c-format
 #| msgid ""
 #| "{\n"
@@ -9794,32 +9801,32 @@ msgstr ""
 "} ."
 
 #. Tag: para
-#: plugins.docbook:4687
+#: plugins.docbook:4688
 #, no-c-format
 msgid "The above:"
 msgstr "उपरिष्टाद् :"
 
 #. Tag: para
-#: plugins.docbook:4689
+#: plugins.docbook:4690
 #, no-c-format
 msgid "enables \"format on save\" globally"
 msgstr "वैश्विकरूपेण \"format on save\" सक्षमं करोति"
 
 #. Tag: para
-#: plugins.docbook:4690
+#: plugins.docbook:4691
 #, no-c-format
 msgid "specifies \"jq\" as the formatter for JSON"
 msgstr "JSON कृते स्वरूपकरूपेण \"jq\" निर्दिशति"
 
 #. Tag: para
-#: plugins.docbook:4691
+#: plugins.docbook:4692
 #, fuzzy, no-c-format
 #| msgid "disables \"format on save\" for cmake-format and autopep8"
 msgid "disables \"format on save\" for gersemi and autopep8"
 msgstr "cmake-format तथा autopep8 कृते \"format on save\" निष्क्रियं करोति"
 
 #. Tag: para
-#: plugins.docbook:4695
+#: plugins.docbook:4696
 #, no-c-format
 msgid ""
 "To configure formatting for a project, first create a <filename>."
@@ -9833,7 +9840,7 @@ msgstr ""
 "शक्नोति । उदाहरण:"
 
 #. Tag: para
-#: plugins.docbook:4698
+#: plugins.docbook:4699
 #, no-c-format
 msgid ""
 "You need to enable the <link linkend=\"kate-application-plugin-projects"
@@ -9843,7 +9850,7 @@ msgstr ""
 "परियोजना प्लगिन्</link> एतस्य कार्यं कर्तुं"
 
 #. Tag: screen
-#: plugins.docbook:4700
+#: plugins.docbook:4701
 #, no-c-format
 msgid ""
 "{\n"
@@ -9877,13 +9884,13 @@ msgstr ""
 "} ."
 
 #. Tag: title
-#: plugins.docbook:4705
+#: plugins.docbook:4706
 #, no-c-format
 msgid "Temporarily disable format on save"
 msgstr "save इत्यत्र अस्थायीरूपेण प्रारूपं निष्क्रियं कुर्वन्तु"
 
 #. Tag: para
-#: plugins.docbook:4707
+#: plugins.docbook:4708
 #, no-c-format
 msgid ""
 "While working you will often need to disable the formatting for a short "
