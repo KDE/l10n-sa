@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-07 00:59+0000\n"
+"POT-Creation-Date: 2026-08-29 00:58+0000\n"
 "PO-Revision-Date: 2024-12-20 22:01+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -154,7 +154,7 @@ msgid "<keyword>cli</keyword>"
 msgstr "<कीवर्ड>क्लिक्</keyword>"
 
 #. Tag: title
-#: index.docbook:72 index.docbook:1666
+#: index.docbook:72 index.docbook:1744
 #, no-c-format
 msgid "Introduction"
 msgstr "आमुख"
@@ -1201,19 +1201,153 @@ msgstr ""
 "<keycombo>&Ctrl;&Alt;<keycap>\\</keycap></keycombo> अस्ति"
 
 #. Tag: title
+#: index.docbook:524
+#, no-c-format
+msgid "Container Awareness"
+msgstr ""
+
+#. Tag: para
 #: index.docbook:526
+#, no-c-format
+msgid ""
+"&konsole; can detect when the foreground process is running inside a Linux "
+"container such as <application>Distrobox</application>, "
+"<application>Toolbox</application>, or <application>Kapsule</application>, "
+"and provides visual feedback to help you keep track of which terminal is "
+"running inside which container."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:534
+#, fuzzy, no-c-format
+#| msgid "Visual Hints"
+msgid "Visual Indicators"
+msgstr "दृश्य संकेत"
+
+#. Tag: para
+#: index.docbook:536
+#, no-c-format
+msgid "When a container is detected, &konsole; shows two indicators:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:539
+#, no-c-format
+msgid ""
+"<emphasis>Colored tab</emphasis> — the tab receives a unique color derived "
+"from the container identity. Each container consistently gets the same color "
+"across sessions, so you can tell at a glance which tab belongs to which "
+"container."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:545
+#, no-c-format
+msgid ""
+"<emphasis>Container label</emphasis> — a small bar appears at the bottom of "
+"the terminal area showing the container type and name (for example, "
+"<guilabel>Distrobox: fedora-41</guilabel>). The label disappears "
+"automatically when the foreground process returns to the host."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:552
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Upon any activity, an info icon will appear on the session's tab. The "
+#| "type of alerts can be changed through <menuchoice><guimenu>Settings</"
+#| "guimenu><guimenuitem>Configure Notifications</"
+#| "guimenuitem><guimenuitem>Activity in monitored session</guimenuitem></"
+#| "menuchoice>."
+msgid ""
+"Both indicators can be enabled or disabled independently in "
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &konsole;…</"
+"guimenuitem> <guimenuitem>Tab Bar / Splitters</guimenuitem></menuchoice>:"
+msgstr ""
+"कस्यापि क्रियाकलापस्य उपरि सत्रस्य ट्याब् मध्ये info चिह्नं दृश्यते । "
+"<menuchoice><guimenu>सेटिंग्स्</guimenu><guimenuitem>सूचनाः विन्यस्य</"
+"guimenuitem><guimenuitem>निरीक्षितसत्रे क्रियाकलापः</guimenuitem></menuchoice> "
+"इत्यस्य माध्यमेन अलर्ट्-प्रकारं परिवर्तयितुं शक्यते"
+
+#. Tag: para
+#: index.docbook:559
+#, no-c-format
+msgid ""
+"<guilabel>Color-code tab when inside a container</guilabel> — toggles the "
+"colored tab. On by default."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:562
+#, no-c-format
+msgid ""
+"<guilabel>Show container label in terminal footer</guilabel> — toggles the "
+"footer label. On by default."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:569
+#, no-c-format
+msgid "Opening a Tab Inside a Container"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:571
+#, no-c-format
+msgid ""
+"The <guimenu>File</guimenu> menu and the <guibutton>New Tab</guibutton> "
+"button offer a submenu listing all available containers. Selecting a "
+"container opens a new tab that enters that container immediately. A "
+"<guilabel>Host</guilabel> entry is also provided to explicitly open a tab on "
+"the host system regardless of any profile default."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:580
+#, fuzzy, no-c-format
+#| msgid "Profiles"
+msgid "Profile Settings"
+msgstr "प्रोफाइल"
+
+#. Tag: para
+#: index.docbook:582
+#, no-c-format
+msgid ""
+"Two container-related options are available per profile in the "
+"<guilabel>General</guilabel> tab of <guilabel>Edit Profile</guilabel>:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:588
+#, no-c-format
+msgid ""
+"<guilabel>Always start in container</guilabel> — choose a specific container "
+"that new sessions using this profile will always enter automatically."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:592
+#, no-c-format
+msgid ""
+"<guilabel>Enter same container as current session</guilabel> — new tabs "
+"opened from an existing container session will enter the same container "
+"instead of starting on the host."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:604
 #, no-c-format
 msgid "Command Reference"
 msgstr "आदेश सन्दर्भ"
 
 #. Tag: title
-#: index.docbook:529
+#: index.docbook:607
 #, no-c-format
 msgid "The Menubar"
 msgstr "मेनूबार इति"
 
 #. Tag: para
-#: index.docbook:531
+#: index.docbook:609
 #, no-c-format
 msgid ""
 "The menubar is at the top of the &konsole; window. If the menubar is hidden, "
@@ -1229,7 +1363,7 @@ msgstr ""
 "भवति ।"
 
 #. Tag: para
-#: index.docbook:539
+#: index.docbook:617
 #, no-c-format
 msgid ""
 "Alternatively you can use the shortcut <keycombo action=\"simul\">&Ctrl;"
@@ -1239,13 +1373,13 @@ msgstr ""
 "&Shift;<keycap>M</keycap></keycombo> इति शॉर्टकट् इत्यस्य उपयोगं कर्तुं शक्नुवन्ति ।"
 
 #. Tag: title
-#: index.docbook:544
+#: index.docbook:622
 #, no-c-format
 msgid "File Menu"
 msgstr "सञ्चिका मेनू"
 
 #. Tag: menuchoice
-#: index.docbook:548
+#: index.docbook:626
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></"
@@ -1257,13 +1391,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:553
+#: index.docbook:631
 #, no-c-format
 msgid "Opens a new separate &konsole; window with the default profile"
 msgstr "नूतनं पृथक् &konsole; पूर्वनिर्धारितप्रोफाइलयुक्तं विण्डो"
 
 #. Tag: menuchoice
-#: index.docbook:557
+#: index.docbook:635
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></"
@@ -1275,13 +1409,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:561
+#: index.docbook:639
 #, no-c-format
 msgid "Opens a new tab with the default profile"
 msgstr "पूर्वनिर्धारितप्रोफाइलसहितं नूतनं ट्याब् उद्घाटयति"
 
 #. Tag: para
-#: index.docbook:562
+#: index.docbook:640
 #, no-c-format
 msgid ""
 "The first profile in the submenu will always be \"Default\" which is the "
@@ -1293,19 +1427,19 @@ msgstr ""
 "पूर्वनिर्धारितं प्रोफाइलं गाढप्रकारेण भविष्यति ।"
 
 #. Tag: menuchoice
-#: index.docbook:571
+#: index.docbook:649
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>Clone Tab</guimenuitem>"
 msgstr "<guimenu>सञ्चिका</guimenu> <guimenuitem>क्लोन् ट्याब्</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:575
+#: index.docbook:653
 #, no-c-format
 msgid "Attempts to clone the current tab in a new tab"
 msgstr "वर्तमान ट्याब् नूतने ट्याब् मध्ये क्लोन् कर्तुं प्रयतते"
 
 #. Tag: menuchoice
-#: index.docbook:580
+#: index.docbook:658
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>S</keycap></"
@@ -1317,13 +1451,13 @@ msgstr ""
 "guimenuitem> इति"
 
 #. Tag: action
-#: index.docbook:584
+#: index.docbook:662
 #, no-c-format
 msgid "Saves the current scrollback as a text or html file"
 msgstr "वर्तमानं स्क्रॉलबैक् पाठरूपेण अथवा html सञ्चिकारूपेण रक्षति"
 
 #. Tag: menuchoice
-#: index.docbook:589
+#: index.docbook:667
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>P</keycap></"
@@ -1335,7 +1469,7 @@ msgstr ""
 "guimenuitem >"
 
 #. Tag: para
-#: index.docbook:593
+#: index.docbook:671
 #, no-c-format
 msgid ""
 "<action>Print the current screen.</action> By default the output is scaled "
@@ -1348,14 +1482,14 @@ msgstr ""
 "विकल्पाः <guilabel>Output Options</guilabel> ट्याब् मध्ये परिवर्तयितुं शक्यन्ते ।"
 
 #. Tag: menuchoice
-#: index.docbook:599
+#: index.docbook:677
 #, no-c-format
 msgid "<guimenu>File</guimenu> <guimenuitem>Open File Manager</guimenuitem>"
 msgstr ""
 "<guimenu>सञ्चिका</guimenu> <guimenuitem>सञ्चिकाप्रबन्धकं</guimenuitem> उद्घाटयन्तु"
 
 #. Tag: para
-#: index.docbook:602
+#: index.docbook:680
 #, no-c-format
 msgid ""
 "<action>Opens &kde;'s file manager at the current directory</action>. By "
@@ -1366,7 +1500,7 @@ msgstr ""
 "इति ।"
 
 #. Tag: menuchoice
-#: index.docbook:609
+#: index.docbook:687
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>W</keycap></"
@@ -1378,13 +1512,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:614
+#: index.docbook:692
 #, no-c-format
 msgid "Closes the current session"
 msgstr "वर्तमानसत्रं पिधायति"
 
 #. Tag: menuchoice
-#: index.docbook:619
+#: index.docbook:697
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Q</keycap></"
@@ -1396,13 +1530,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:624
+#: index.docbook:702
 #, no-c-format
 msgid "Quits &konsole;"
 msgstr "त्यजति &konsole;"
 
 #. Tag: para
-#: index.docbook:625
+#: index.docbook:703
 #, no-c-format
 msgid ""
 "&konsole; will display a confirmation dialog if there is more than one "
@@ -1415,13 +1549,13 @@ msgstr ""
 "पृच्छन्तु</guibutton> इति चेकबॉक्सं नुत्वा निष्क्रियं कर्तुं शक्यन्ते ।"
 
 #. Tag: title
-#: index.docbook:638
+#: index.docbook:716
 #, no-c-format
 msgid "Edit Menu"
 msgstr "मेनू सम्पादयतु"
 
 #. Tag: menuchoice
-#: index.docbook:642
+#: index.docbook:720
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>C</keycap></"
@@ -1432,13 +1566,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:646
+#: index.docbook:724
 #, no-c-format
 msgid "Copies the selected text to the clipboard"
 msgstr "चयनितं पाठं क्लिप्बोर्ड् प्रति प्रतिलिखति"
 
 #. Tag: menuchoice
-#: index.docbook:650
+#: index.docbook:728
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>V</keycap></"
@@ -1449,25 +1583,25 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:654
+#: index.docbook:732
 #, no-c-format
 msgid "Pastes text from the clipboard at the cursor location"
 msgstr "कर्सरस्थाने क्लिप्बोर्डतः पाठं चिनोति"
 
 #. Tag: menuchoice
-#: index.docbook:659
+#: index.docbook:737
 #, no-c-format
 msgid "<guimenu>Edit</guimenu><guimenuitem>Select All</guimenuitem>"
 msgstr "<guimenu>सम्पादनं</guimenu><guimenuitem>सर्वं</guimenuitem> चिनोतु"
 
 #. Tag: para
-#: index.docbook:661
+#: index.docbook:739
 #, no-c-format
 msgid "<action>Selects all</action> the text in current window"
 msgstr "<action>वर्तमानविण्डो मध्ये पाठं सर्वं</action> चिनोति"
 
 #. Tag: menuchoice
-#: index.docbook:666
+#: index.docbook:744
 #, no-c-format
 msgid ""
 "<guimenu>Edit</guimenu><guisubmenu>Copy Input To</"
@@ -1477,7 +1611,7 @@ msgstr ""
 "guisubmenu><guimenuitem>वर्तमानविण्डो</guimenuitem> मध्ये सर्वाणि ट्याब्स्"
 
 #. Tag: action
-#: index.docbook:668
+#: index.docbook:746
 #, no-c-format
 msgid ""
 "Allows input from the current session to be sent simultaneously to all "
@@ -1485,7 +1619,7 @@ msgid ""
 msgstr "वर्तमानसत्रात् निवेशं वर्तमानविण्डो मध्ये सर्वेषु सत्रेषु एकत्रितरूपेण प्रेषयितुं शक्नोति"
 
 #. Tag: menuchoice
-#: index.docbook:674
+#: index.docbook:752
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>.</keycap></"
@@ -1497,7 +1631,7 @@ msgstr ""
 "guisubmenu>< guimenuitem>ट्याब्स्...</guimenuitem> इति चिनोतु"
 
 #. Tag: action
-#: index.docbook:678
+#: index.docbook:756
 #, no-c-format
 msgid ""
 "Allows input from the current session to be sent simultaneously to sessions "
@@ -1505,7 +1639,7 @@ msgid ""
 msgstr "वर्तमानसत्रात् निवेशं उपयोक्त्रा उद्धृतेषु सत्रेषु एकत्रितरूपेण प्रेषयितुं शक्नोति"
 
 #. Tag: menuchoice
-#: index.docbook:684
+#: index.docbook:762
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>/</keycap></"
@@ -1517,19 +1651,19 @@ msgstr ""
 "guisubmenu>< guimenuitem>किमपि नास्ति</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:688
+#: index.docbook:766
 #, no-c-format
 msgid "Stop sending input from current session into other sessions"
 msgstr "वर्तमानसत्रात् अन्येषु सत्रेषु निवेशं प्रेषयितुं स्थगयन्तु"
 
 #. Tag: menuchoice
-#: index.docbook:694
+#: index.docbook:772
 #, no-c-format
 msgid "<guimenu>Edit</guimenu> <guisubmenu>Send Signal</guisubmenu>"
 msgstr "<guimenu>सम्पादनं</guimenu> <guimenu>संकेतं प्रेषयतु</guimenu>"
 
 #. Tag: para
-#: index.docbook:696
+#: index.docbook:774
 #, no-c-format
 msgid ""
 "<action>Send the specified signal to the shell process, or other process, "
@@ -1539,110 +1673,110 @@ msgstr ""
 "आरब्धा आसीत्</action> ।"
 
 #. Tag: para
-#: index.docbook:698
+#: index.docbook:776
 #, no-c-format
 msgid "Currently available signals are:"
 msgstr "सम्प्रति उपलब्धाः संकेताः सन्ति :"
 
 #. Tag: errorcode
-#: index.docbook:704
+#: index.docbook:782
 #, no-c-format
 msgid "STOP"
 msgstr "विरमतु"
 
 #. Tag: entry
-#: index.docbook:705
+#: index.docbook:783
 #, no-c-format
 msgid "to stop process"
 msgstr "प्रक्रियां स्थगयितुं"
 
 #. Tag: errorcode
-#: index.docbook:708
+#: index.docbook:786
 #, no-c-format
 msgid "CONT"
 msgstr "CONT"
 
 #. Tag: entry
-#: index.docbook:709
+#: index.docbook:787
 #, no-c-format
 msgid "continue if stopped"
 msgstr "यदि स्थगितम् अस्ति तर्हि निरन्तरं कुर्वन्तु"
 
 #. Tag: errorcode
-#: index.docbook:712
+#: index.docbook:790
 #, no-c-format
 msgid "<errorcode>HUP</errorcode>"
 msgstr "<errorcode>HUP</errorcode> इति"
 
 #. Tag: entry
-#: index.docbook:713
+#: index.docbook:791
 #, no-c-format
 msgid ""
 "hangup detected on controlling terminal, or death of controlling process"
 msgstr "नियन्त्रण टर्मिनले ज्ञातः हैङ्गअप, अथवा नियन्त्रणप्रक्रियायाः मृत्युः"
 
 #. Tag: errorcode
-#: index.docbook:717
+#: index.docbook:795
 #, no-c-format
 msgid "<errorcode>INT</errorcode>"
 msgstr "<errorcode>INT</errorcode> इति"
 
 #. Tag: entry
-#: index.docbook:718
+#: index.docbook:796
 #, no-c-format
 msgid "interrupt from keyboard"
 msgstr "कीबोर्डतः व्यत्ययः"
 
 #. Tag: errorcode
-#: index.docbook:721
+#: index.docbook:799
 #, no-c-format
 msgid "TERM"
 msgstr "पद"
 
 #. Tag: entry
-#: index.docbook:722
+#: index.docbook:800
 #, no-c-format
 msgid "termination signal"
 msgstr "समाप्ति संकेत"
 
 #. Tag: errorcode
-#: index.docbook:725
+#: index.docbook:803
 #, no-c-format
 msgid "KILL"
 msgstr "हन्"
 
 #. Tag: entry
-#: index.docbook:726
+#: index.docbook:804
 #, no-c-format
 msgid "kill signal"
 msgstr "kill signal"
 
 #. Tag: errorcode
-#: index.docbook:729
+#: index.docbook:807
 #, no-c-format
 msgid "USR1"
 msgstr "USR1"
 
 #. Tag: entry
-#: index.docbook:730
+#: index.docbook:808
 #, no-c-format
 msgid "user signal 1"
 msgstr "उपयोक्तृसंकेतः 1"
 
 #. Tag: errorcode
-#: index.docbook:733
+#: index.docbook:811
 #, no-c-format
 msgid "USR2"
 msgstr "USR2"
 
 #. Tag: entry
-#: index.docbook:734
+#: index.docbook:812
 #, no-c-format
 msgid "user signal 2"
 msgstr "उपयोक्तृसंकेतः 2"
 
 #. Tag: para
-#: index.docbook:740
+#: index.docbook:818
 #, no-c-format
 msgid ""
 "Refer to your system manual pages for further details by giving the command "
@@ -1652,7 +1786,7 @@ msgstr ""
 "नरः</command><option value=\"77 signal\"> ७ संकेतः</option></userinput> ."
 
 #. Tag: menuchoice
-#: index.docbook:746
+#: index.docbook:824
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>S</keycap></"
@@ -1664,7 +1798,7 @@ msgstr ""
 "कुर्वन्तु...</ guimenuitem> इति"
 
 #. Tag: para
-#: index.docbook:750
+#: index.docbook:828
 #, no-c-format
 msgid ""
 "<action>Opens a dialog box allowing you to change the name format, the "
@@ -1676,7 +1810,7 @@ msgstr ""
 "tab-settings-dialog\"> more info</link> )"
 
 #. Tag: menuchoice
-#: index.docbook:757
+#: index.docbook:835
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>U</keycap></"
@@ -1688,7 +1822,7 @@ msgstr ""
 "guimenuitem >"
 
 #. Tag: action
-#: index.docbook:761
+#: index.docbook:839
 #, no-c-format
 msgid ""
 "Opens up a dialog to select a file to be uploaded if the required software "
@@ -1697,7 +1831,7 @@ msgstr ""
 "यदि आवश्यकं सॉफ्टवेयरं संस्थापितम् अस्ति तर्हि अपलोड् कर्तुं सञ्चिकां चिन्वितुं संवादं उद्घाटयति"
 
 #. Tag: menuchoice
-#: index.docbook:767
+#: index.docbook:845
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></"
@@ -1709,13 +1843,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:770
+#: index.docbook:848
 #, no-c-format
 msgid "Opens a search bar at the bottom of &konsole;'s window"
 msgstr "&konsole; इत्यस्य विण्डो इत्यस्य अधः अन्वेषणपट्टिकां उद्घाटयति"
 
 #. Tag: para
-#: index.docbook:772
+#: index.docbook:850
 #, no-c-format
 msgid ""
 "This allows for case sensitive, forward or backwards, and regular "
@@ -1723,7 +1857,7 @@ msgid ""
 msgstr "एतेन लघुसंवेदनशीलं, अग्रे वा पश्चात् वा, नियमितव्यञ्जनसन्धानं च भवति ।"
 
 #. Tag: menuchoice
-#: index.docbook:800
+#: index.docbook:878
 #, no-c-format
 msgid ""
 "<shortcut><keycombo><keycap>F3</keycap></keycombo></shortcut> <guimenu>Edit</"
@@ -1733,7 +1867,7 @@ msgstr ""
 "<guimenu>सम्पादन</guimenu><guimenuitem>अग्रे अन्वेष्टुम्</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:804
+#: index.docbook:882
 #, no-c-format
 msgid ""
 "<action>Moves to the next search instance </action>. If the search bar has "
@@ -1743,7 +1877,7 @@ msgstr ""
 "तर्हि भवन्तः &Enter; अपि।"
 
 #. Tag: menuchoice
-#: index.docbook:809
+#: index.docbook:887
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo></"
@@ -1753,7 +1887,7 @@ msgstr ""
 "shortcut> <guimenu>सम्पादनं</guimenu><guimenuitem>पूर्वं अन्वेष्टुम्</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:813
+#: index.docbook:891
 #, no-c-format
 msgid ""
 "<action>Moves to the previous search instance </action>. If the search bar "
@@ -1765,13 +1899,13 @@ msgstr ""
 "शॉर्टकट् अपि उपयोक्तुं शक्नोति ।"
 
 #. Tag: title
-#: index.docbook:822
+#: index.docbook:900
 #, no-c-format
 msgid "View Menu"
 msgstr "मेनू दृश्यम्"
 
 #. Tag: menuchoice
-#: index.docbook:826
+#: index.docbook:904
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>(</keycap></keycombo></"
@@ -1783,19 +1917,19 @@ msgstr ""
 "guisubmenu><guimenuitem>विभाजनम् वाम/दक्षिण</guimenuitem> इति पश्यन्तु"
 
 #. Tag: action
-#: index.docbook:831
+#: index.docbook:909
 #, no-c-format
 msgid "Splits all the tabs into left and right views"
 msgstr "सर्वाणि ट्याब्स् वामदक्षिणदृश्येषु विभजति"
 
 #. Tag: para
-#: index.docbook:832 index.docbook:844
+#: index.docbook:910 index.docbook:922
 #, no-c-format
 msgid "Any output on one view is duplicated in the other view."
 msgstr "एकस्मिन् दृश्ये यत्किमपि निर्गमं भवति तत् अन्यस्मिन् दृश्ये द्वितीयकं भवति ।"
 
 #. Tag: menuchoice
-#: index.docbook:838
+#: index.docbook:916
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>)</keycap></keycombo></"
@@ -1807,13 +1941,13 @@ msgstr ""
 "guisubmenu><guimenuitem>विभाजनम् उपरि/अधः</guimenuitem> इति पश्यन्तु"
 
 #. Tag: action
-#: index.docbook:843
+#: index.docbook:921
 #, no-c-format
 msgid "Splits all the tabs into top and bottom views"
 msgstr "सर्वाणि ट्याब्स् उपरि अधः च दृश्येषु विभजति"
 
 #. Tag: menuchoice
-#: index.docbook:850
+#: index.docbook:928
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>]</keycap></"
@@ -1825,13 +1959,13 @@ msgstr ""
 "guisubmenu><guimenuitem >दृश्यं विस्तारयन्तु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:854
+#: index.docbook:932
 #, no-c-format
 msgid "Makes the current view larger"
 msgstr "वर्तमानदृश्यं बृहत्तरं करोति"
 
 #. Tag: menuchoice
-#: index.docbook:859
+#: index.docbook:937
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>[</keycap></"
@@ -1843,13 +1977,13 @@ msgstr ""
 "guisubmenu><guimenuitem >दृश्यं संकुचितं</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:863
+#: index.docbook:941
 #, no-c-format
 msgid "Makes the current view smaller"
 msgstr "वर्तमानदृश्यं लघु करोति"
 
 #. Tag: menuchoice
-#: index.docbook:868
+#: index.docbook:946
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>E</keycap></"
@@ -1861,13 +1995,13 @@ msgstr ""
 "guisubmenu><guimenuitem >वर्तमानदृश्यं अधिकतमं कुर्वन्तु</guimenuitem> इति टॉगल कुर्वन्तु"
 
 #. Tag: action
-#: index.docbook:872
+#: index.docbook:950
 #, no-c-format
 msgid "Toggles the current view between current size and the maximize size"
 msgstr "वर्तमान-आकारस्य अधिकतम-आकारस्य च मध्ये वर्तमान-दृश्यं टॉग्ल् करोति"
 
 #. Tag: menuchoice
-#: index.docbook:877
+#: index.docbook:955
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>\\</keycap></"
@@ -1879,13 +2013,13 @@ msgstr ""
 "guisubmenu><guimenuitem >सर्वदृश्यानां समानाकारः</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:881
+#: index.docbook:959
 #, no-c-format
 msgid "Sets the same size for all views"
 msgstr "सर्वेषां दृश्यानां कृते समानं आकारं सेट् करोति"
 
 #. Tag: menuchoice
-#: index.docbook:886
+#: index.docbook:964
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></"
@@ -1897,13 +2031,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:890
+#: index.docbook:968
 #, no-c-format
 msgid "Opens the current tab in a separate window"
 msgstr "पृथक् विण्डो मध्ये वर्तमान ट्याब् उद्घाटयति"
 
 #. Tag: para
-#: index.docbook:892
+#: index.docbook:970
 #, no-c-format
 msgid ""
 "Quitting the previous &konsole; window will not affect the newly created "
@@ -1911,7 +2045,7 @@ msgid ""
 msgstr "पूर्वं त्यक्त्वा &konsole; विण्डो नवनिर्मितं विण्डो प्रभावितं न करिष्यति ।"
 
 #. Tag: menuchoice
-#: index.docbook:899
+#: index.docbook:977
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>H</keycap></"
@@ -1923,13 +2057,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:903
+#: index.docbook:981
 #, no-c-format
 msgid "Opens the current split view in a separate window"
 msgstr "वर्तमानं विभक्तदृश्यं पृथक् विण्डो मध्ये उद्घाटयति"
 
 #. Tag: menuchoice
-#: index.docbook:909
+#: index.docbook:987
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guimenuitem>Save tab layout to file</guimenuitem>"
@@ -1937,7 +2071,7 @@ msgstr ""
 "<guimenu>दृश्य</guimenu><guimenuitem>ट्याब् विन्यासं सञ्चिकायां रक्षतु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:912
+#: index.docbook:990
 #, no-c-format
 msgid ""
 "Allows you to save the tab layout of the current view in a specialized "
@@ -1948,7 +2082,7 @@ msgstr ""
 "पुनः स्थापयितुं लोड् कर्तुं शक्यते ।"
 
 #. Tag: menuchoice
-#: index.docbook:918
+#: index.docbook:996
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guimenuitem>Load tab layout from file</guimenuitem>"
@@ -1957,7 +2091,7 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: para
-#: index.docbook:921
+#: index.docbook:999
 #, no-c-format
 msgid ""
 "<action>Allows you to load one of your favorite view layouts from the layout "
@@ -1972,19 +2106,19 @@ msgstr ""
 "पूर्वनिर्धारितविन्यासाः (2x2, 2x1, 1x2 च) टूल्बारद्वारा लोड् कर्तुं शक्यन्ते ।"
 
 #. Tag: menuchoice
-#: index.docbook:928
+#: index.docbook:1006
 #, no-c-format
 msgid "<guimenu>View</guimenu><guimenuitem>One-shot monitors</guimenuitem>"
 msgstr "<guimenu>दृश्य</guimenu><guimenuitem>एक-शॉट्-निरीक्षकाः</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:930
+#: index.docbook:1008
 #, no-c-format
 msgid "The following monitors only notify once, and are then disabled."
 msgstr "निम्नलिखितनिरीक्षकाः केवलं एकवारं सूचयन्ति, ततः अक्षमाः भवन्ति ।"
 
 #. Tag: menuchoice
-#: index.docbook:935
+#: index.docbook:1013
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>R</keycap></"
@@ -1996,13 +2130,13 @@ msgstr ""
 "कृते निरीक्षकः"
 
 #. Tag: action
-#: index.docbook:939
+#: index.docbook:1017
 #, no-c-format
 msgid "Toggles the monitoring of the current tab for a shell prompt."
 msgstr "शेल्-प्रोम्प्ट्-कृते वर्तमान-ट्याब्-निरीक्षणं टॉग्ल् करोति ।"
 
 #. Tag: para
-#: index.docbook:941
+#: index.docbook:1019
 #, no-c-format
 msgid ""
 "When a shell prompt is displayed, &konsole; will show a notification. This "
@@ -2012,7 +2146,7 @@ msgstr ""
 "दर्शितः यदा शेल् मध्ये शब्दार्थसमायोजनं सक्षमं भवति ।"
 
 #. Tag: menuchoice
-#: index.docbook:947
+#: index.docbook:1025
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>I</keycap></"
@@ -2024,13 +2158,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:951
+#: index.docbook:1029
 #, no-c-format
 msgid "Toggles the monitoring of the current tab for lack of activity"
 msgstr "वर्तमान ट्याब् इत्यस्य निरीक्षणं क्रियाकलापस्य अभावात् टॉग्ल् करोति"
 
 #. Tag: para
-#: index.docbook:953
+#: index.docbook:1031
 #, no-c-format
 msgid ""
 "By default, after 10 seconds of inactivity, an info icon will appear on the "
@@ -2045,7 +2179,7 @@ msgstr ""
 "माध्यमेन अलर्ट्-प्रकारं परिवर्तयितुं शक्यते"
 
 #. Tag: menuchoice
-#: index.docbook:962
+#: index.docbook:1040
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></"
@@ -2057,13 +2191,13 @@ msgstr ""
 "निरीक्षकः</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:966
+#: index.docbook:1044
 #, no-c-format
 msgid "Toggles the monitoring of the current tab for activity"
 msgstr "वर्तमान ट्याब् इत्यस्य निरीक्षणं क्रियाकलापार्थं टॉग्ल् करोति"
 
 #. Tag: para
-#: index.docbook:968
+#: index.docbook:1046
 #, no-c-format
 msgid ""
 "Upon any activity, an info icon will appear on the session's tab. The type "
@@ -2078,7 +2212,7 @@ msgstr ""
 "इत्यस्य माध्यमेन अलर्ट्-प्रकारं परिवर्तयितुं शक्यते"
 
 #. Tag: menuchoice
-#: index.docbook:976
+#: index.docbook:1054
 #, no-c-format
 msgid ""
 "<guimenu>View</guimenu><guimenuitem>Monitor for Process Finishing</"
@@ -2087,7 +2221,7 @@ msgstr ""
 "<guimenu>द्रष्टव्यम्</guimenu><guimenuitem>प्रक्रियासमाप्त्यर्थं निरीक्षक</guimenuitem>"
 
 #. Tag: para
-#: index.docbook:979
+#: index.docbook:1057
 #, no-c-format
 msgid ""
 "<action>Toggles the monitoring of the current tab for the process finishing</"
@@ -2095,7 +2229,7 @@ msgid ""
 msgstr "<action>प्रक्रियासमाप्त्यर्थं वर्तमानट्याब्-निरीक्षणं टॉग्ल् करोति</action> ।"
 
 #. Tag: para
-#: index.docbook:981
+#: index.docbook:1059
 #, no-c-format
 msgid ""
 "If checked, upon finishing the current process, &konsole; will show a "
@@ -2109,13 +2243,13 @@ msgstr ""
 "समाप्तवती अस्ति ।"
 
 #. Tag: menuchoice
-#: index.docbook:987
+#: index.docbook:1065
 #, no-c-format
 msgid "<guimenu>View</guimenu><guimenuitem>Read-only</guimenuitem>"
 msgstr "<guimenu>दृश्य</guimenu><guimenuitem>केवलपठनीय</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:989
+#: index.docbook:1067
 #, no-c-format
 msgid ""
 "Toggles the session to be read-only: no input is accepted, drag and drop is "
@@ -2125,7 +2259,7 @@ msgstr ""
 "अस्ति ।"
 
 #. Tag: menuchoice
-#: index.docbook:995
+#: index.docbook:1073
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></"
@@ -2135,13 +2269,13 @@ msgstr ""
 "shortcut> <guimenu>दृश्य</guimenu><guimenuitem>फॉन्टं विस्तारयतु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:998
+#: index.docbook:1076
 #, no-c-format
 msgid "Increases the text font size"
 msgstr "पाठस्य फ़ॉन्ट् आकारं वर्धयति"
 
 #. Tag: menuchoice
-#: index.docbook:1002
+#: index.docbook:1080
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>0</keycap></keycombo></"
@@ -2152,13 +2286,13 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1005
+#: index.docbook:1083
 #, no-c-format
 msgid "Reset the text font size to the profile default"
 msgstr "पाठस्य फ़ॉन्ट् आकारं प्रोफाइल पूर्वनिर्धारितरूपेण पुनः सेट् कुर्वन्तु"
 
 #. Tag: menuchoice
-#: index.docbook:1010
+#: index.docbook:1088
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo></"
@@ -2168,37 +2302,37 @@ msgstr ""
 "shortcut> <guimenu>दृश्य</guimenu><guimenuitem>फॉन्टं संकुचितं</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1013
+#: index.docbook:1091
 #, no-c-format
 msgid "Decreases the text font size"
 msgstr "पाठस्य फ़ॉन्ट् आकारं न्यूनीकरोति"
 
 #. Tag: menuchoice
-#: index.docbook:1017
+#: index.docbook:1095
 #, no-c-format
 msgid "<guimenu>View</guimenu> <guimenuitem>Set Encoding</guimenuitem>"
 msgstr "<guimenu>दृश्य</guimenu> <guimenuitem>एन्कोडिंग् सेट् कुर्वन्तु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1019
+#: index.docbook:1097
 #, no-c-format
 msgid "Sets the character encoding"
 msgstr "वर्णसङ्केतनं सेट् करोति"
 
 #. Tag: menuchoice
-#: index.docbook:1023
+#: index.docbook:1101
 #, no-c-format
 msgid "<guimenu>View</guimenu><guimenuitem>Clear Scrollback</guimenuitem>"
 msgstr "<guimenu>दृश्य</guimenu><guimenuitem>स्क्रॉलबैक्</guimenuitem> साफ़ं कुर्वन्तु"
 
 #. Tag: action
-#: index.docbook:1024
+#: index.docbook:1102
 #, no-c-format
 msgid "Clears the text in the scrollback"
 msgstr "स्क्रॉलबैक् मध्ये पाठं स्वच्छं करोति"
 
 #. Tag: menuchoice
-#: index.docbook:1029
+#: index.docbook:1107
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>K</keycap></"
@@ -2210,14 +2344,14 @@ msgstr ""
 "पुनः सेट् कुर्वन्तु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1033
+#: index.docbook:1111
 #, no-c-format
 msgid ""
 "Clears the text in the current tab and scrollback and resets the terminal"
 msgstr "वर्तमान ट्याब् मध्ये पाठं स्वच्छं करोति तथा च स्क्रॉलबैक् कृत्वा टर्मिनल् पुनः सेट् करोति"
 
 #. Tag: menuchoice
-#: index.docbook:1038
+#: index.docbook:1116
 #, no-c-format
 msgid ""
 "<shortcut><keycap>F11</keycap></shortcut> <guimenu>View</"
@@ -2227,19 +2361,19 @@ msgstr ""
 "guimenu><guimenuitem>पूर्णपर्दे मोड</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1041
+#: index.docbook:1119
 #, no-c-format
 msgid "Toggles &konsole; filling the entire screen"
 msgstr "टॉगलं करोति &konsole; सम्पूर्णं पटलं पूरयन्"
 
 #. Tag: title
-#: index.docbook:1048
+#: index.docbook:1126
 #, no-c-format
 msgid "Bookmarks Menu"
 msgstr "बुकमार्क मेनू"
 
 #. Tag: menuchoice
-#: index.docbook:1053
+#: index.docbook:1131
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></"
@@ -2251,13 +2385,13 @@ msgstr ""
 "योजयतु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1056
+#: index.docbook:1134
 #, no-c-format
 msgid "Adds the current location"
 msgstr "वर्तमानस्थानं योजयति"
 
 #. Tag: menuchoice
-#: index.docbook:1060
+#: index.docbook:1138
 #, no-c-format
 msgid ""
 "<guimenu>Bookmarks</guimenu><guimenuitem>Bookmark Tabs as Folder...</"
@@ -2267,19 +2401,19 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1061
+#: index.docbook:1139
 #, no-c-format
 msgid "Adds all tabs to a bookmark folder"
 msgstr "सर्वाणि ट्याब्स् बुकमार्कपुटे योजयति"
 
 #. Tag: para
-#: index.docbook:1062 index.docbook:1070
+#: index.docbook:1140 index.docbook:1148
 #, no-c-format
 msgid "A dialog will open for the bookmark folder name."
 msgstr "पुस्तकचिह्नपुटनामस्य कृते संवादः उद्घाट्यते ।"
 
 #. Tag: menuchoice
-#: index.docbook:1068
+#: index.docbook:1146
 #, no-c-format
 msgid ""
 "<guimenu>Bookmarks</guimenu><guimenuitem>New Bookmark Folder...</guimenuitem>"
@@ -2287,33 +2421,33 @@ msgstr ""
 "<guimenu>पुस्तकचिह्नानि</guimenu><guimenuitem>नवीन पुस्तकचिह्नपुटं...</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1069
+#: index.docbook:1147
 #, no-c-format
 msgid "Adds a new folder to the bookmark list"
 msgstr "पुस्तकचिह्नसूचौ नूतनं पुटं योजयति"
 
 #. Tag: menuchoice
-#: index.docbook:1076
+#: index.docbook:1154
 #, no-c-format
 msgid "<guimenu>Bookmarks</guimenu><guimenuitem>Edit Bookmarks</guimenuitem>"
 msgstr ""
 "<guimenu>पुस्तकचिह्नानि</guimenu><guimenuitem>पुस्तकचिह्नानि सम्पादयन्तु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1077
+#: index.docbook:1155
 #, no-c-format
 msgid "Opens the bookmark editor"
 msgstr "बुकमार्क सम्पादकं उद्घाटयति"
 
 #. Tag: para
-#: index.docbook:1078
+#: index.docbook:1156
 #, no-c-format
 msgid ""
 "The keditbookmarks program must be installed for this menu item to appear."
 msgstr "अस्य मेनू-वस्तुनः दृश्यतायै keditbookmarks कार्यक्रमः संस्थापितः भवितुमर्हति ।"
 
 #. Tag: para
-#: index.docbook:1079
+#: index.docbook:1157
 #, no-c-format
 msgid ""
 "You can use the bookmark editor to manually add URLs. Currently, &konsole; "
@@ -2323,38 +2457,38 @@ msgstr ""
 "&konsole; निम्नलिखितम् स्वीकुर्वति :"
 
 #. Tag: para
-#: index.docbook:1082
+#: index.docbook:1160
 #, no-c-format
 msgid "ssh://user@host:port"
 msgstr "ssh://उपयोक्ता@मेजबान:पोर्ट"
 
 #. Tag: para
-#: index.docbook:1083
+#: index.docbook:1161
 #, no-c-format
 msgid "telnet://user@host:port"
 msgstr "telnet://उपयोक्ता@मेजबान:पोर्ट"
 
 #. Tag: title
-#: index.docbook:1094
+#: index.docbook:1172
 #, no-c-format
 msgid "Plugins Menu"
 msgstr "प्लगिन्स् मेनू"
 
 #. Tag: para
-#: index.docbook:1096
+#: index.docbook:1174
 #, no-c-format
 msgid "Any installed plugins will be listed or \"No plugins available\""
 msgstr ""
 "यत्किमपि संस्थापितं प्लगिन् सूचीकृतं भविष्यति अथवा \"No plugins available\" इति ।"
 
 #. Tag: title
-#: index.docbook:1104
+#: index.docbook:1182
 #, no-c-format
 msgid "Settings Menu"
 msgstr "सेटिंग्स् मेनू"
 
 #. Tag: menuchoice
-#: index.docbook:1108
+#: index.docbook:1186
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Edit Current Profile...</guimenuitem>"
@@ -2362,51 +2496,51 @@ msgstr ""
 "<guimenu>सेटिंग्स्</guimenu><guimenuitem>वर्तमानं प्रोफाइल सम्पादयतु...</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1110
+#: index.docbook:1188
 #, no-c-format
 msgid "Opens a dialog to configure current profile"
 msgstr "वर्तमान प्रोफाइल विन्यस्तुं संवादं उद्घाटयति"
 
 #. Tag: menuchoice
-#: index.docbook:1116
+#: index.docbook:1194
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Switch Profile </guimenuitem>"
 msgstr "<guimenu>सेटिंग्स्</guimenu><guimenuitem>प्रोफाइलं परिवर्तयतु </guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1118
+#: index.docbook:1196
 #, no-c-format
 msgid "Switch current profile to a listed profile"
 msgstr "वर्तमानप्रोफाइलं सूचीकृतप्रोफाइलं प्रति परिवर्तयन्तु"
 
 #. Tag: menuchoice
-#: index.docbook:1124
+#: index.docbook:1202
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Manage Profiles...</guimenuitem>"
 msgstr "<guimenu>सेटिंग्स्</guimenu><guimenuitem>प्रोफाइल प्रबन्धयन्तु...</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1126
+#: index.docbook:1204
 #, no-c-format
 msgid "Opens an editor for managing profiles"
 msgstr "प्रोफाइल-प्रबन्धनार्थं सम्पादकं उद्घाटयति"
 
 #. Tag: menuchoice
-#: index.docbook:1132
+#: index.docbook:1210
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Window Color Scheme</guimenuitem>"
 msgstr "<guimenu>सेटिंग्स्</guimenu><guimenuitem>विण्डो रङ्ग योजना</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1134
+#: index.docbook:1212
 #, no-c-format
 msgid "Change &konsole;'s &GUI; to the specified scheme"
 msgstr "&konsole;'s &GUI; निर्दिष्टा योजनां प्रति"
 
 #. Tag: menuchoice
-#: index.docbook:1140
+#: index.docbook:1218
 #, no-c-format
 msgid ""
 "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>M</keycap></"
@@ -2418,51 +2552,51 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1145
+#: index.docbook:1223
 #, no-c-format
 msgid "Toggles the menubar being visible"
 msgstr "मेनूबार दृश्यमानं भवति इति टॉगल करोति"
 
 #. Tag: menuchoice
-#: index.docbook:1149
+#: index.docbook:1227
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Toolbars Shown</guimenuitem>"
 msgstr ""
 "<guimenu>सेटिंग्स्</guimenu><guimenuitem>उपकरणपट्टिकाः दर्शिताः</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1150
+#: index.docbook:1228
 #, no-c-format
 msgid "Allows visibility toggling of the &konsole; toolbars"
 msgstr "&konsole; toolbars इति"
 
 #. Tag: menuchoice
-#: index.docbook:1155
+#: index.docbook:1233
 #, no-c-format
 msgid "<guimenu>Settings</guimenu><guimenuitem>Show Statusbar</guimenuitem>"
 msgstr "<guimenu>सेटिंग्स्</guimenu><guimenuitem>स्थितिपट्टिकां दर्शयतु</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1157
+#: index.docbook:1235
 #, no-c-format
 msgid "Toggles the statusbar being visible"
 msgstr "स्थितिपट्टिकां दृश्यमानं भवति इति टॉग्ल् करोति"
 
 #. Tag: menuchoice
-#: index.docbook:1161
+#: index.docbook:1239
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Language... </guimenuitem>"
 msgstr "<guimenu>सेटिंग्स्</guimenu><guimenuitem>भाषां विन्यस्यताम्... </guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1163
+#: index.docbook:1241
 #, no-c-format
 msgid "Opens window to choose an interface translation of &konsole;."
 msgstr "&konsole; इत्यस्य अन्तरफलक-अनुवादं चिन्वितुं विण्डो उद्घाटयति ।"
 
 #. Tag: menuchoice
-#: index.docbook:1169
+#: index.docbook:1247
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Keyboard Shortcuts...</"
@@ -2472,7 +2606,7 @@ msgstr ""
 "guimenuitem>"
 
 #. Tag: para
-#: index.docbook:1171
+#: index.docbook:1249
 #, no-c-format
 msgid ""
 "<action>Opens the keyboard shortcut editor.</action> More on shortcuts "
@@ -2483,7 +2617,7 @@ msgstr ""
 "<ulink url=\"help:/fundamentals/shortcuts.html\">&kde; मूलभूत</ulink>।"
 
 #. Tag: para
-#: index.docbook:1174
+#: index.docbook:1252
 #, no-c-format
 msgid ""
 "Additionally &konsole; has a few special shortcuts with no corresponding "
@@ -2493,79 +2627,79 @@ msgstr ""
 "नास्ति:"
 
 #. Tag: entry
-#: index.docbook:1180
+#: index.docbook:1258
 #, no-c-format
 msgid "Shortcut"
 msgstr "शॉर्टकट"
 
 #. Tag: entry
-#: index.docbook:1181
+#: index.docbook:1259
 #, no-c-format
 msgid "Description"
 msgstr "वर्णनम्‌"
 
 #. Tag: keycombo
-#: index.docbook:1186
+#: index.docbook:1264
 #, no-c-format
 msgid "&Shift;<keysym>Right</keysym>"
 msgstr "&Shift;<keysym>दक्षिण</keysym>"
 
 #. Tag: entry
-#: index.docbook:1187
+#: index.docbook:1265
 #, no-c-format
 msgid "Next Tab"
 msgstr "अग्रिमः ट्याब्"
 
 #. Tag: keycombo
-#: index.docbook:1190
+#: index.docbook:1268
 #, no-c-format
 msgid "&Shift;<keysym>Left</keysym>"
 msgstr "&Shift;<keysym>वाम</keysym>"
 
 #. Tag: entry
-#: index.docbook:1191
+#: index.docbook:1269
 #, no-c-format
 msgid "Previous Tab"
 msgstr "पूर्व ट्याब्"
 
 #. Tag: keycombo
-#: index.docbook:1194
+#: index.docbook:1272
 #, no-c-format
 msgid "&Ctrl;&Alt;<keysym>Left</keysym>"
 msgstr "&Ctrl;&Alt;<keysym>वाम</keysym>"
 
 #. Tag: entry
-#: index.docbook:1195
+#: index.docbook:1273
 #, no-c-format
 msgid "Move Tab Left"
 msgstr "ट्याब् वामभागे चालयन्तु"
 
 #. Tag: keycombo
-#: index.docbook:1198
+#: index.docbook:1276
 #, no-c-format
 msgid "&Ctrl;&Alt;<keysym>Right</keysym>"
 msgstr "&Ctrl;&Alt;<keysym>दक्षिण</keysym>"
 
 #. Tag: entry
-#: index.docbook:1199
+#: index.docbook:1277
 #, no-c-format
 msgid "Move Tab Right"
 msgstr "ट्याब् राइट् चालयन्तु"
 
 #. Tag: keycombo
-#: index.docbook:1202
+#: index.docbook:1280
 #, no-c-format
 msgid "&Ctrl;&Shift;<keysym>Ins</keysym>"
 msgstr "&Ctrl;&Shift;<keysym>इंस</keysym>"
 
 #. Tag: entry
-#: index.docbook:1203
+#: index.docbook:1281
 #, no-c-format
 msgid "Paste Selection"
 msgstr "पेस्ट चयन"
 
 #. Tag: menuchoice
-#: index.docbook:1213
+#: index.docbook:1291
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Toolbars...</guimenuitem>"
@@ -2573,7 +2707,7 @@ msgstr ""
 "<guimenu>सेटिंग्स्</guimenu><guimenuitem>उपकरणपट्टिकाः विन्यस्यताम्...</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1215
+#: index.docbook:1293
 #, no-c-format
 msgid ""
 "Opens <ulink url=\"help:/fundamentals/config.html#toolbars-items\">the "
@@ -2583,7 +2717,7 @@ msgstr ""
 "\">उपकरणपट्टिकाविन्यासविण्डो</ulink> उद्घाटयति"
 
 #. Tag: menuchoice
-#: index.docbook:1220
+#: index.docbook:1298
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure Notifications...</"
@@ -2591,13 +2725,13 @@ msgid ""
 msgstr "<guimenu>सेटिंग्स्</guimenu><guimenuitem>सूचनाः विन्यस्यताम्...</guimenuitem>"
 
 #. Tag: action
-#: index.docbook:1222
+#: index.docbook:1300
 #, no-c-format
 msgid "Opens the notifications editor"
 msgstr "सूचनासम्पादकं उद्घाटयति"
 
 #. Tag: menuchoice
-#: index.docbook:1227
+#: index.docbook:1305
 #, no-c-format
 msgid ""
 "<guimenu>Settings</guimenu><guimenuitem>Configure &konsole;...</guimenuitem>"
@@ -2605,13 +2739,13 @@ msgstr ""
 "<guimenu>सेटिंग्स्</guimenu><guimenuitem>&konsole;...</guimenuitem> विन्यस्यताम्"
 
 #. Tag: action
-#: index.docbook:1229
+#: index.docbook:1307
 #, no-c-format
 msgid "Opens the &konsole; settings editor"
 msgstr "&konsole; सेटिंग्स् सम्पादकः"
 
 #. Tag: para
-#: index.docbook:1230
+#: index.docbook:1308
 #, no-c-format
 msgid ""
 "This dialog has options influencing the appearance and behaviour of the "
@@ -2619,7 +2753,7 @@ msgid ""
 msgstr "अस्मिन् संवादे &konsole; कोष्ठ।"
 
 #. Tag: para
-#: index.docbook:1235
+#: index.docbook:1313
 #, no-c-format
 msgid ""
 "The <guilabel>General</guilabel> page allows configuring the menubar "
@@ -2643,7 +2777,7 @@ msgstr ""
 "यदि पूर्वं निष्क्रियः आसीत् ।"
 
 #. Tag: para
-#: index.docbook:1246
+#: index.docbook:1324
 #, no-c-format
 msgid ""
 "The <guilabel>Profiles</guilabel> page is meant for creating and handling "
@@ -2653,7 +2787,7 @@ msgstr ""
 "linkend=\"profiles\"> प्रोफाइल</link> ."
 
 #. Tag: para
-#: index.docbook:1251
+#: index.docbook:1329
 #, no-c-format
 msgid ""
 "Using the <guilabel>Tab Bar/Splitters</guilabel> page you can configure the "
@@ -2677,7 +2811,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:1259
+#: index.docbook:1337
 #, no-c-format
 msgid ""
 "It is also possible to configure visibility of the split headers "
@@ -2694,7 +2828,7 @@ msgstr ""
 "अस्य विन्यासपृष्ठस्य <guilabel>विभाजयति</guilabel> ट्याब् इत्यस्य उपयोगेन ।"
 
 #. Tag: para
-#: index.docbook:1264
+#: index.docbook:1342
 #, no-c-format
 msgid ""
 "The <guilabel>Temporary Files</guilabel> page is used to define the <link "
@@ -2704,7 +2838,7 @@ msgstr ""
 "linkend=\"scrollback\"> scrollback इति</link> सञ्चिकास्थानं ।"
 
 #. Tag: para
-#: index.docbook:1269
+#: index.docbook:1347
 #, no-c-format
 msgid ""
 "The <guilabel>Thumbnails</guilabel> page can be used to define the thumbnail "
@@ -2716,7 +2850,7 @@ msgstr ""
 "चिन्वितुं शक्नुवन्ति) ।"
 
 #. Tag: para
-#: index.docbook:1274
+#: index.docbook:1352
 #, no-c-format
 msgid ""
 "To use the thumbnails feature showing image thumbnails in popups when "
@@ -2733,13 +2867,13 @@ msgstr ""
 "guimenuitem><guimenuitem>सञ्चिकानां रेखांकन</guimenuitem></menuchoice> ।"
 
 #. Tag: title
-#: index.docbook:1287
+#: index.docbook:1365
 #, no-c-format
 msgid "Help Menu"
 msgstr "सहायता मेनू"
 
 #. Tag: para
-#: index.docbook:1288
+#: index.docbook:1366
 #, no-c-format
 msgid ""
 "&konsole; has the some of the common &kde; <guimenu>Help</guimenu> menu "
@@ -2751,19 +2885,19 @@ msgstr ""
 "&kde; मौलिकता।"
 
 #. Tag: title
-#: index.docbook:1297
+#: index.docbook:1375
 #, no-c-format
 msgid "&konsole; Dialogs"
 msgstr "&console; संवादः"
 
 #. Tag: title
-#: index.docbook:1300
+#: index.docbook:1378
 #, no-c-format
 msgid "Configure Tab Settings Dialog"
 msgstr "ट्याब् सेटिंग्स् संवादं विन्यस्तं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:1302
+#: index.docbook:1380
 #, no-c-format
 msgid ""
 "The name format, the remote tab title format, and the color of the current "
@@ -2778,97 +2912,97 @@ msgstr ""
 "शक्यते । एते परिवर्तनानि अस्थायीरूपेण वर्तमानप्रोफाइलस्य सम्पादनेन स्थायित्वं कर्तुं शक्यन्ते ।"
 
 #. Tag: para
-#: index.docbook:1309
+#: index.docbook:1387
 #, no-c-format
 msgid "&konsole; will substitute these tokens for local tabs:"
 msgstr "&konsole; स्थानीयट्याब्स् कृते एतानि टोकन्स् प्रतिस्थापयिष्यति:"
 
 #. Tag: para
-#: index.docbook:1313
+#: index.docbook:1391
 #, no-c-format
 msgid "%n : program name"
 msgstr "%n : कार्यक्रमनाम"
 
 #. Tag: para
-#: index.docbook:1314
+#: index.docbook:1392
 #, no-c-format
 msgid "%d : current directory (short)"
 msgstr "%d : वर्तमाननिर्देशिका (लघु) ."
 
 #. Tag: para
-#: index.docbook:1315
+#: index.docbook:1393
 #, no-c-format
 msgid "%D : current directory (long)"
 msgstr "%D : वर्तमाननिर्देशिका (दीर्घः) ."
 
 #. Tag: para
-#: index.docbook:1316
+#: index.docbook:1394
 #, no-c-format
 msgid "%h : local host (short)"
 msgstr "%h : स्थानीय मेजबान (लघु) ."
 
 #. Tag: para
-#: index.docbook:1317 index.docbook:1329
+#: index.docbook:1395 index.docbook:1407
 #, no-c-format
 msgid "%u : user name"
 msgstr "%u : उपयोक्तृनाम"
 
 #. Tag: para
-#: index.docbook:1318
+#: index.docbook:1396
 #, no-c-format
 msgid "%B : user's Bourne prompt sigil ($ = normal user, # = superuser)"
 msgstr "%B : उपयोक्तुः Bourne प्रॉम्प्ट sigil ($ = सामान्यः उपयोक्ता, # = सुपरउपयोक्ता)"
 
 #. Tag: para
-#: index.docbook:1319 index.docbook:1331
+#: index.docbook:1397 index.docbook:1409
 #, no-c-format
 msgid "%w : window title set by shell"
 msgstr "%w : विण्डो शीर्षकं शेल् द्वारा सेट् कृतम्"
 
 #. Tag: para
-#: index.docbook:1320 index.docbook:1332
+#: index.docbook:1398 index.docbook:1410
 #, no-c-format
 msgid "%# : session number"
 msgstr "%# : सत्रसङ्ख्या"
 
 #. Tag: para
-#: index.docbook:1323
+#: index.docbook:1401
 #, no-c-format
 msgid "&konsole; will substitute these tokens for remote tabs:"
 msgstr "&konsole; दूरस्थट्याब्स् कृते एतानि टोकन्स् प्रतिस्थापयिष्यति:"
 
 #. Tag: para
-#: index.docbook:1326
+#: index.docbook:1404
 #, no-c-format
 msgid "%c : current program"
 msgstr "%c : वर्तमानकार्यक्रमः"
 
 #. Tag: para
-#: index.docbook:1327
+#: index.docbook:1405
 #, no-c-format
 msgid "%h : remote host (short)"
 msgstr "%h : दूरस्थः होस्ट् (लघु) ."
 
 #. Tag: para
-#: index.docbook:1328
+#: index.docbook:1406
 #, no-c-format
 msgid "%H : remote host (long)"
 msgstr "%H : दूरस्थः होस्ट् (दीर्घः) ."
 
 #. Tag: para
-#: index.docbook:1330
+#: index.docbook:1408
 #, no-c-format
 msgid "%U : user name@ (if given)"
 msgstr "%U : उपयोक्तृनाम@ (यदि दत्तं)"
 
 #. Tag: para
-#: index.docbook:1336 index.docbook:1574 index.docbook:1867
+#: index.docbook:1414 index.docbook:1652 index.docbook:1945
 #, no-c-format
 msgid "Examples:"
 msgstr "उदाहरणानि :"
 
 #. Tag: para
-#: index.docbook:1340
+#: index.docbook:1418
 #, no-c-format
 msgid ""
 "<userinput>%d : %n</userinput> with /usr/src as current directory and "
@@ -2880,7 +3014,7 @@ msgstr ""
 "प्रदर्शयिष्यति"
 
 #. Tag: para
-#: index.docbook:1347
+#: index.docbook:1425
 #, no-c-format
 msgid ""
 "<userinput>%D : %n</userinput> with /usr/src as current directory and "
@@ -2892,7 +3026,7 @@ msgstr ""
 "इति प्रदर्शयिष्यति"
 
 #. Tag: para
-#: index.docbook:1354
+#: index.docbook:1432
 #, no-c-format
 msgid ""
 "<userinput>%w (%#)</userinput> with ~ as current directory and running "
@@ -2904,13 +3038,13 @@ msgstr ""
 "प्रदर्शयिष्यति /गुइबटन>"
 
 #. Tag: title
-#: index.docbook:1368
+#: index.docbook:1446
 #, no-c-format
 msgid "Copy Input Dialog"
 msgstr "प्रतिलिपि निवेश संवाद"
 
 #. Tag: para
-#: index.docbook:1370
+#: index.docbook:1448
 #, no-c-format
 msgid ""
 "The text entered in one tab can simultaneously be sent to other tabs. This "
@@ -2921,13 +3055,13 @@ msgstr ""
 "चिन्वितुं शक्नोति यत् केषां ट्याब्स् तत् निवेशं प्राप्नुयुः । वर्तमान ट्याब् ग्रे आउट् भविष्यति ।"
 
 #. Tag: title
-#: index.docbook:1392
+#: index.docbook:1470
 #, no-c-format
 msgid "Adjust Scrollback Dialog"
 msgstr "Scrollback Dialog समायोजयन्तु"
 
 #. Tag: para
-#: index.docbook:1394
+#: index.docbook:1472
 #, no-c-format
 msgid ""
 "The <link linkend=\"scrollback\">scrollback</link> options for the history "
@@ -2939,13 +3073,13 @@ msgstr ""
 "प्रोफाइलमध्ये न रक्षितं भविष्यति ।"
 
 #. Tag: title
-#: index.docbook:1407
+#: index.docbook:1485
 #, no-c-format
 msgid "Command-line Options"
 msgstr "आदेश-पङ्क्ति-विकल्पाः"
 
 #. Tag: para
-#: index.docbook:1409
+#: index.docbook:1487
 #, no-c-format
 msgid ""
 "When &konsole; is started from the command line, various options can be "
@@ -2955,25 +3089,25 @@ msgstr ""
 "शक्यन्ते ।"
 
 #. Tag: option
-#: index.docbook:1414
+#: index.docbook:1492
 #, no-c-format
 msgid "--help"
 msgstr "--साहाय्यम्‌"
 
 #. Tag: para
-#: index.docbook:1415
+#: index.docbook:1493
 #, no-c-format
 msgid "<action>List various options</action>."
 msgstr "<action>विविधविकल्पानां सूचीं कुरुत</action> ।"
 
 #. Tag: term
-#: index.docbook:1419
+#: index.docbook:1497
 #, no-c-format
 msgid "<option>--profile</option> <parameter>file</parameter>"
 msgstr "<option value=--profile>--रूपरेखा</option><parameter> संचिका</parameter>"
 
 #. Tag: para
-#: index.docbook:1420
+#: index.docbook:1498
 #, no-c-format
 msgid ""
 "<action>Start &konsole;</action> using the specified profile instead of the "
@@ -2983,13 +3117,13 @@ msgstr ""
 "आरभत ।"
 
 #. Tag: term
-#: index.docbook:1425
+#: index.docbook:1503
 #, no-c-format
 msgid "<option>--layout</option> <parameter>file</parameter>"
 msgstr "<option value=--layout>--प्रारूपं</option><parameter> संचिका</parameter>"
 
 #. Tag: para
-#: index.docbook:1426
+#: index.docbook:1504
 #, no-c-format
 msgid ""
 "<action>Start &konsole;</action> using a <link linkend=\"save-layout\">saved "
@@ -2999,25 +3133,25 @@ msgstr ""
 "रक्षितम् &amp;JSON; लेआउट् सञ्चिका</link> ."
 
 #. Tag: option
-#: index.docbook:1430
+#: index.docbook:1508
 #, no-c-format
 msgid "--builtin-profile"
 msgstr "--निर्माण-प्रोफाइल"
 
 #. Tag: para
-#: index.docbook:1431
+#: index.docbook:1509
 #, no-c-format
 msgid "Use the built-in profile instead of the current default profile."
 msgstr "वर्तमानपूर्वनिर्धारितप्रोफाइलस्य स्थाने अन्तःनिर्मितप्रोफाइलस्य उपयोगं कुर्वन्तु ।"
 
 #. Tag: term
-#: index.docbook:1435
+#: index.docbook:1513
 #, no-c-format
 msgid "<option>--workdir</option> <parameter>dir</parameter>"
 msgstr "<option value=--workdir>--कार्यदृक्</option><parameter> दिर॰</parameter>"
 
 #. Tag: para
-#: index.docbook:1436
+#: index.docbook:1514
 #, no-c-format
 msgid ""
 "<action>Open with</action> <parameter>dir</parameter> as the initial working "
@@ -3027,26 +3161,26 @@ msgstr ""
 "उद्घाटयन्तु ।"
 
 #. Tag: option
-#: index.docbook:1441
+#: index.docbook:1519
 #, no-c-format
 msgid "--hold, --noclose"
 msgstr "--धारणं, --नोक्लोज"
 
 #. Tag: para
-#: index.docbook:1442
+#: index.docbook:1520
 #, no-c-format
 msgid ""
 "<action>Do not close</action> the initial session automatically when it ends."
 msgstr "<action>प्रारम्भिकसत्रस्य समाप्तेः समये स्वयमेव न पिधातु</action> ।"
 
 #. Tag: option
-#: index.docbook:1447
+#: index.docbook:1525
 #, no-c-format
 msgid "--new-tab"
 msgstr "--नव-टब"
 
 #. Tag: para
-#: index.docbook:1448
+#: index.docbook:1526
 #, no-c-format
 msgid ""
 "<action>Create a new tab</action> in an existing window rather than creating "
@@ -3055,7 +3189,7 @@ msgstr ""
 "<action>नवीनविण्डो निर्मातुं न अपि तु विद्यमानविण्डो मध्ये नूतनं ट्याब्</action> रचयन्तु ।"
 
 #. Tag: term
-#: index.docbook:1453
+#: index.docbook:1531
 #, no-c-format
 msgid "<option>--tabs-from-file </option><parameter>file</parameter>"
 msgstr ""
@@ -3063,7 +3197,7 @@ msgstr ""
 "संचिका</parameter>"
 
 #. Tag: para
-#: index.docbook:1454
+#: index.docbook:1532
 #, no-c-format
 msgid ""
 "<action>Create tabs</action> as specified in the given tabs configuration "
@@ -3071,13 +3205,13 @@ msgid ""
 msgstr "<action>तब्स् रचयन्तु</action> यथा दत्ते ट्याब्स् विन्याससञ्चिकायां निर्दिष्टम् ।"
 
 #. Tag: para
-#: index.docbook:1456
+#: index.docbook:1534
 #, no-c-format
 msgid "The file has one tab per line in the following format:"
 msgstr "सञ्चिकायाः प्रतिपङ्क्तौ एकं ट्याब् निम्नलिखितरूपेण भवति ।"
 
 #. Tag: para
-#: index.docbook:1457
+#: index.docbook:1535
 #, no-c-format
 msgid ""
 "Each line specifies a tab to open using up to 4 fields specifying how it is "
@@ -3093,7 +3227,7 @@ msgstr ""
 "भवान् <userinput>#</userinput> इत्यनेन आरभ्यमाणपङ्क्तिं उपयोक्तुं शक्नोति ।"
 
 #. Tag: member
-#: index.docbook:1464
+#: index.docbook:1542
 #, no-c-format
 msgid ""
 "<userinput>title:</userinput> a name for this tab, tab default if blank or "
@@ -3103,7 +3237,7 @@ msgstr ""
 "वा न निर्दिष्टं वा"
 
 #. Tag: member
-#: index.docbook:1465
+#: index.docbook:1543
 #, no-c-format
 msgid ""
 "<userinput>workdir:</userinput> working directory, <filename class="
@@ -3113,7 +3247,7 @@ msgstr ""
 "~</filename> यदि रिक्तं वा न निर्दिष्टं वा"
 
 #. Tag: member
-#: index.docbook:1466
+#: index.docbook:1544
 #, no-c-format
 msgid ""
 "<userinput>profile:</userinput> a &konsole; profile to use, the default if "
@@ -3123,13 +3257,13 @@ msgstr ""
 "रिक्तं वा न निर्दिष्टं वा"
 
 #. Tag: member
-#: index.docbook:1467
+#: index.docbook:1545
 #, no-c-format
 msgid "<userinput>command:</userinput> a command to run"
 msgstr "<userinput>command:</userinput> चालयितुं आदेशः"
 
 #. Tag: para
-#: index.docbook:1469
+#: index.docbook:1547
 #, no-c-format
 msgid ""
 "Each line should contain at least one of <userinput>command</userinput> or "
@@ -3139,7 +3273,7 @@ msgstr ""
 "userinput> क्षेत्रस्य न्यूनातिन्यूनं एकं भवितव्यम् ।"
 
 #. Tag: para
-#: index.docbook:1471
+#: index.docbook:1549
 #, no-c-format
 msgid ""
 "Example: <userinput>title: %n;; command: /usr/bin/top ;; profile: Shell</"
@@ -3149,13 +3283,13 @@ msgstr ""
 "userinput> इति"
 
 #. Tag: option
-#: index.docbook:1477
+#: index.docbook:1555
 #, no-c-format
 msgid "--background-mode"
 msgstr "--पृष्ठभूमि-विधा"
 
 #. Tag: para
-#: index.docbook:1478
+#: index.docbook:1556
 #, no-c-format
 msgid ""
 "<action>Start &konsole;</action> in the background and bring to the front "
@@ -3167,92 +3301,92 @@ msgstr ""
 "अग्रे आनयन्तु ।"
 
 #. Tag: option
-#: index.docbook:1483
+#: index.docbook:1561
 #, no-c-format
 msgid "--separate"
 msgstr "--पृथक्"
 
 #. Tag: option
-#: index.docbook:1484
+#: index.docbook:1562
 #, no-c-format
 msgid "--nofork"
 msgstr "--नोफोर्क"
 
 #. Tag: para
-#: index.docbook:1485
+#: index.docbook:1563
 #, no-c-format
 msgid ""
 "<action>Run</action> the new instance of &konsole; in a separate process."
 msgstr "<action>चालयन्तु</action> &konsole; पृथक् प्रक्रियायां ।"
 
 #. Tag: option
-#: index.docbook:1490
+#: index.docbook:1568
 #, no-c-format
 msgid "--show-menubar"
 msgstr "--प्रदर्शन-मेनूबार"
 
 #. Tag: para
-#: index.docbook:1491
+#: index.docbook:1569
 #, no-c-format
 msgid "<action>Show</action> the menubar, overriding the default behavior."
 msgstr "<action>प्रदर्शन</action> मेनूपट्टिकां, पूर्वनिर्धारितव्यवहारं अतिक्रम्य ।"
 
 #. Tag: option
-#: index.docbook:1496
+#: index.docbook:1574
 #, no-c-format
 msgid "--hide-menubar"
 msgstr "--गोपन-मेनूबार"
 
 #. Tag: para
-#: index.docbook:1497
+#: index.docbook:1575
 #, no-c-format
 msgid "<action>Hide</action> the menubar, overriding the default behavior."
 msgstr "<action>गोपयन्तु</action> मेनूपट्टिकां, पूर्वनिर्धारितं व्यवहारं अधिलिख्य ।"
 
 #. Tag: option
-#: index.docbook:1502
+#: index.docbook:1580
 #, no-c-format
 msgid "--show-tabbar"
 msgstr "--ट्याब्स् दर्शयतु"
 
 #. Tag: para
-#: index.docbook:1503
+#: index.docbook:1581
 #, no-c-format
 msgid "<action>Show</action> the tabbar, overriding the default behavior."
 msgstr "<action>प्रदर्शन</action> तब्बरं, पूर्वनिर्धारितव्यवहारं अतिक्रम्य ।"
 
 #. Tag: option
-#: index.docbook:1508
+#: index.docbook:1586
 #, no-c-format
 msgid "--hide-tabbar"
 msgstr "--गोपय-प्रमाणपत्रम्"
 
 #. Tag: para
-#: index.docbook:1509
+#: index.docbook:1587
 #, no-c-format
 msgid "<action>Hide</action> the tabbar, overriding the default behavior."
 msgstr "<action>गोपयन्तु</action> टब्बरं, पूर्वनिर्धारितव्यवहारं अधिलिखित्वा ।"
 
 #. Tag: option
-#: index.docbook:1514
+#: index.docbook:1592
 #, no-c-format
 msgid "--fullscreen"
 msgstr "--पूर्णपर्दे"
 
 #. Tag: para
-#: index.docbook:1515
+#: index.docbook:1593
 #, no-c-format
 msgid "<action>Start &konsole; in fullscreen mode</action>."
 msgstr "<क्रिया>प्रारम्भ &konsole; पूर्णपर्दे मोड</action> इत्यत्र ।"
 
 #. Tag: option
-#: index.docbook:1519
+#: index.docbook:1597
 #, no-c-format
 msgid "--notransparency"
 msgstr "--न पारदर्शिता"
 
 #. Tag: para
-#: index.docbook:1520
+#: index.docbook:1598
 #, no-c-format
 msgid ""
 "<action>Disable</action> transparent backgrounds, even if the system "
@@ -3260,25 +3394,25 @@ msgid ""
 msgstr "<action>अक्षम</action> पारदर्शकपृष्ठभूमिः, यद्यपि प्रणाली तान् समर्थयति ।"
 
 #. Tag: option
-#: index.docbook:1525
+#: index.docbook:1603
 #, no-c-format
 msgid "--list-profiles"
 msgstr "--सूची-प्रोफाइल"
 
 #. Tag: para
-#: index.docbook:1526
+#: index.docbook:1604
 #, no-c-format
 msgid "<action>List</action> all available profiles."
 msgstr "<action>सर्वं उपलब्धं प्रोफाइलं सूचीकृत्य</action> ।"
 
 #. Tag: option
-#: index.docbook:1531
+#: index.docbook:1609
 #, no-c-format
 msgid "--list-profile-properties"
 msgstr "--सूची-प्रोफाइल-गुणाः"
 
 #. Tag: para
-#: index.docbook:1533
+#: index.docbook:1611
 #, no-c-format
 msgid ""
 "<action>List</action> all possible properties with name and type. See option "
@@ -3288,7 +3422,7 @@ msgstr ""
 "value=-p> -पृ</option> ."
 
 #. Tag: para
-#: index.docbook:1535
+#: index.docbook:1613
 #, no-c-format
 msgid ""
 "For more information, please visit <ulink url=\"https://api.kde.org/4.14-api/"
@@ -3300,25 +3434,25 @@ msgstr ""
 "ulink>।"
 
 #. Tag: term
-#: index.docbook:1544
+#: index.docbook:1622
 #, no-c-format
 msgid "<option>-p</option> <parameter>property=value</parameter>"
 msgstr "<option value=-p>-पृ</option><parameter> गुण=मूल्यम्</parameter>"
 
 #. Tag: para
-#: index.docbook:1545
+#: index.docbook:1623
 #, no-c-format
 msgid "<action>Change</action> the value of a profile property."
 msgstr "<action>परिवर्तय</action> प्रोफाइल गुणस्य मूल्यं ।"
 
 #. Tag: term
-#: index.docbook:1550
+#: index.docbook:1628
 #, no-c-format
 msgid "<option>-e</option> <parameter>command</parameter>"
 msgstr "<option value=-e>-ङ</option><parameter> आदेश</parameter>"
 
 #. Tag: para
-#: index.docbook:1551
+#: index.docbook:1629
 #, no-c-format
 msgid ""
 "<action>Execute</action> <parameter>command</parameter> instead of the "
@@ -3328,7 +3462,7 @@ msgstr ""
 "parameter> ।"
 
 #. Tag: para
-#: index.docbook:1553
+#: index.docbook:1631
 #, no-c-format
 msgid ""
 "This option will catch all following arguments passed to &konsole;, and "
@@ -3340,7 +3474,7 @@ msgstr ""
 "अन्तिमविकल्परूपेण उपयोक्तव्यः ।"
 
 #. Tag: para
-#: index.docbook:1559
+#: index.docbook:1637
 #, no-c-format
 msgid ""
 "&konsole; also accepts generic &Qt; and &kf6-full; options, see man pages "
@@ -3350,20 +3484,20 @@ msgstr ""
 "qt6options तथा kf6options पश्यन्तु ।"
 
 #. Tag: title
-#: index.docbook:1564
+#: index.docbook:1642
 #, no-c-format
 msgid "Scripting &konsole;"
 msgstr "स्क्रिप्टिंग & कन्सोल;"
 
 #. Tag: para
-#: index.docbook:1566
+#: index.docbook:1644
 #, no-c-format
 msgid "&konsole; does support numerous methods that can be used with &DBus;."
 msgstr ""
 "&konsole; &DBus; इत्यनेन सह उपयोक्तुं शक्यमाणानां असंख्यानां पद्धतीनां समर्थनं करोति ।"
 
 #. Tag: para
-#: index.docbook:1568
+#: index.docbook:1646
 #, no-c-format
 msgid ""
 "There are two ways to use the &DBus; interface: &Qt;'s &GUI; "
@@ -3374,7 +3508,7 @@ msgstr ""
 "<application>qdbus</application> इति आदेशपङ्क्तिः ।"
 
 #. Tag: para
-#: index.docbook:1578
+#: index.docbook:1656
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> will display all services "
@@ -3384,7 +3518,7 @@ msgstr ""
 "प्रदर्शयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1584
+#: index.docbook:1662
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole</"
@@ -3395,7 +3529,7 @@ msgstr ""
 "अन्तरफलकम् ।"
 
 #. Tag: para
-#: index.docbook:1591
+#: index.docbook:1669
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /"
@@ -3406,7 +3540,7 @@ msgstr ""
 "पद्धतीः प्रदर्शयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1599
+#: index.docbook:1677
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole "
@@ -3418,7 +3552,7 @@ msgstr ""
 "वर्तमानविण्डो नियन्त्रयितुं पद्धतीः प्रदर्शयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1606
+#: index.docbook:1684
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /"
@@ -3429,7 +3563,7 @@ msgstr ""
 "विधयः प्रदर्शयिष्यति 1."
 
 #. Tag: para
-#: index.docbook:1613
+#: index.docbook:1691
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole "
@@ -3441,7 +3575,7 @@ msgstr ""
 "वर्तमानसत्रस्य नियन्त्रणार्थं पद्धतीः प्रदर्शयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1620
+#: index.docbook:1698
 #, no-c-format
 msgid ""
 "<prompt>&percnt;</prompt> <command>qdbus</command> <option>"
@@ -3454,7 +3588,7 @@ msgstr ""
 "पद्धतीः प्रदर्शयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1630
+#: index.docbook:1708
 #, no-c-format
 msgid ""
 "If any of the above commands outputs: Service 'org.kde.konsole' does not "
@@ -3465,7 +3599,7 @@ msgstr ""
 "निम्नलिखितयोः एकस्य कृते :"
 
 #. Tag: para
-#: index.docbook:1637
+#: index.docbook:1715
 #, no-c-format
 msgid ""
 "<option>org.kde.konsole-`pidof -s konsole`</option> (will select first pid)"
@@ -3474,7 +3608,7 @@ msgstr ""
 "s konsole`</option> (प्रथमं pid चयनं करिष्यति)"
 
 #. Tag: para
-#: index.docbook:1641
+#: index.docbook:1719
 #, no-c-format
 msgid ""
 "<option>$KONSOLE_DBUS_SERVICE</option> (this can be used from the current "
@@ -3484,13 +3618,13 @@ msgstr ""
 "&amp;konsole; इत्यस्मात् उपयोक्तुं शक्यते)"
 
 #. Tag: option
-#: index.docbook:1646
+#: index.docbook:1724
 #, no-c-format
 msgid "select one from the output of 'qdbus | grep konsole'"
 msgstr "'qdbus |' इत्यस्य आउटपुट् तः एकं चिनोतु grep konsole' इति ।"
 
 #. Tag: para
-#: index.docbook:1652
+#: index.docbook:1730
 #, no-c-format
 msgid ""
 "For more information, please visit <ulink url=\"https://techbase.kde.org/"
@@ -3500,19 +3634,19 @@ msgstr ""
 "Tutorials/D-Bus/Introduction\">&DBus; tutorial</ulink> इति ।"
 
 #. Tag: title
-#: index.docbook:1660
+#: index.docbook:1738
 #, no-c-format
 msgid "Terminal Key Bindings"
 msgstr "टर्मिनल कुंजी बन्धन"
 
 #. Tag: title
-#: index.docbook:1663
+#: index.docbook:1741
 #, no-c-format
 msgid "How &konsole; Uses Key Bindings"
 msgstr "कथं &konsole; Key Bindings इत्यस्य उपयोगं करोति"
 
 #. Tag: para
-#: index.docbook:1667
+#: index.docbook:1745
 #, no-c-format
 msgid ""
 "&konsole; uses *.keytab files to translate key combinations into control "
@@ -3528,7 +3662,7 @@ msgstr ""
 "application>) इति शेल् मध्ये चालितम् ।"
 
 #. Tag: para
-#: index.docbook:1669
+#: index.docbook:1747
 #, no-c-format
 msgid ""
 "Users can customize the key bindings settings in &konsole; using the Key "
@@ -3539,7 +3673,7 @@ msgstr ""
 "नियन्त्रणं वा पलायनक्रमं वा टर्मिनल् प्रति प्रेषयितुं विन्यस्तुं शक्यते ।"
 
 #. Tag: para
-#: index.docbook:1671
+#: index.docbook:1749
 #, no-c-format
 msgid ""
 "You can open the Key Bindings Editor from the menu entry "
@@ -3554,31 +3688,31 @@ msgstr ""
 "स्कीमाः सन्ति ये पूर्वनिर्धारितरूपेण &konsole; इत्यनेन सह आगच्छन्ति ।"
 
 #. Tag: title
-#: index.docbook:1675
+#: index.docbook:1753
 #, no-c-format
 msgid "Key Combinations and Modes"
 msgstr "कीलसंयोजनानि तथा मोड्स्"
 
 #. Tag: para
-#: index.docbook:1677
+#: index.docbook:1755
 #, no-c-format
 msgid "Key combinations follow the pattern:"
 msgstr "कीलसंयोजनानि अस्य प्रतिरूपस्य अनुसरणं कुर्वन्ति :"
 
 #. Tag: programlisting
-#: index.docbook:1678
+#: index.docbook:1756
 #, no-c-format
 msgid "Key (+|-) Modes"
 msgstr "कील (+|-) मोड्स"
 
 #. Tag: para
-#: index.docbook:1681
+#: index.docbook:1759
 #, no-c-format
 msgid "for example:"
 msgstr "उदाहरणतया:"
 
 #. Tag: programlisting
-#: index.docbook:1682
+#: index.docbook:1760
 #, no-c-format
 msgid ""
 "Up+Shift+AppScreen\n"
@@ -3590,7 +3724,7 @@ msgstr ""
 "अन्तरिक्ष+Ctrl"
 
 #. Tag: para
-#: index.docbook:1685
+#: index.docbook:1763
 #, no-c-format
 msgid ""
 "Key names are defined in the qnamespace.h header file, with the <quote>Qt::"
@@ -3604,7 +3738,7 @@ msgstr ""
 "इति ।"
 
 #. Tag: para
-#: index.docbook:1687
+#: index.docbook:1765
 #, no-c-format
 msgid ""
 "A <quote>+</quote> preceding a Mode name means that mode is <emphasis>set</"
@@ -3620,7 +3754,7 @@ msgstr ""
 "&Ctrl; कीलं नुद्यते।"
 
 #. Tag: para
-#: index.docbook:1689
+#: index.docbook:1767
 #, no-c-format
 msgid ""
 "A <quote>-</quote> preceding a Mode name means that mode is <emphasis>reset</"
@@ -3638,26 +3772,26 @@ msgstr ""
 "&Ctrl; कीलम् <emphasis>न</emphasis> निपीड्यते ।"
 
 #. Tag: para
-#: index.docbook:1692
+#: index.docbook:1770
 #, no-c-format
 msgid ""
 "If a Mode name isn't present in a key combination, its state is ignored."
 msgstr "यदि Mode name कुञ्जीसंयोजने नास्ति तर्हि तस्य स्थितिः उपेक्षिता भवति ।"
 
 #. Tag: para
-#: index.docbook:1695
+#: index.docbook:1773
 #, no-c-format
 msgid "The supported Key Bindings modes are listed below:"
 msgstr "समर्थिताः Key Bindings मोड्स् अधः सूचीबद्धाः सन्ति:"
 
 #. Tag: term
-#: index.docbook:1700
+#: index.docbook:1778
 #, no-c-format
 msgid "Alt, Ctrl, Shift"
 msgstr "Alt, Ctrl, शिफ्ट इति"
 
 #. Tag: para
-#: index.docbook:1702
+#: index.docbook:1780
 #, no-c-format
 msgid ""
 "One or more of these Modes can be used in a key combination, if any of them "
@@ -3668,13 +3802,13 @@ msgstr ""
 "कीलसंयोजनं क्रमशः तत् परिवर्तककुंजी उपयुज्यते; तथा च विपरीतम् यदि पुनः सेट् भवति"
 
 #. Tag: term
-#: index.docbook:1707
+#: index.docbook:1785
 #, no-c-format
 msgid "AnyModifier"
 msgstr "AnyModifier इति"
 
 #. Tag: para
-#: index.docbook:1709
+#: index.docbook:1787
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination uses any modifier key (any of the "
@@ -3684,13 +3818,13 @@ msgstr ""
 "कोऽपि) उपयुज्यते; तथा च विपरीतम् यदि पुनः सेट् भवति"
 
 #. Tag: term
-#: index.docbook:1714
+#: index.docbook:1792
 #, no-c-format
 msgid "Ansi"
 msgstr "अंसि"
 
 #. Tag: para
-#: index.docbook:1716
+#: index.docbook:1794
 #, no-c-format
 msgid ""
 "If this mode is set, &konsole; will send ANSI escape and control sequences"
@@ -3699,7 +3833,7 @@ msgstr ""
 "प्रेषयिष्यति"
 
 #. Tag: para
-#: index.docbook:1717
+#: index.docbook:1795
 #, no-c-format
 msgid ""
 "If this mode is reset &konsole; will send VT52 escape and control sequences"
@@ -3707,13 +3841,13 @@ msgstr ""
 "यदि एषः मोडः पुनः सेट् भवति &konsole; VT52 पलायनं नियन्त्रणं च अनुक्रमं प्रेषयिष्यति"
 
 #. Tag: term
-#: index.docbook:1722
+#: index.docbook:1800
 #, no-c-format
 msgid "AppScreen"
 msgstr "AppScreen इति"
 
 #. Tag: para
-#: index.docbook:1724
+#: index.docbook:1802
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination will only affect interactive "
@@ -3723,7 +3857,7 @@ msgstr ""
 "करिष्यति ये Alternate Screen buffer इत्यस्य उपयोगं कुर्वन्ति"
 
 #. Tag: para
-#: index.docbook:1725
+#: index.docbook:1803
 #, no-c-format
 msgid ""
 "If this mode is reset the key combination will only affect the terminal when "
@@ -3733,13 +3867,13 @@ msgstr ""
 "Normal Screen buffer इत्यस्य उपयोगं करोति"
 
 #. Tag: para
-#: index.docbook:1728
+#: index.docbook:1806
 #, no-c-format
 msgid "&konsole; makes use of two screen buffers:"
 msgstr "&konsole; द्वयोः स्क्रीनबफरयोः उपयोगं करोति:"
 
 #. Tag: para
-#: index.docbook:1731
+#: index.docbook:1809
 #, no-c-format
 msgid ""
 "The Normal Screen buffer (default): allows you to scroll back to view "
@@ -3751,7 +3885,7 @@ msgstr ""
 "निष्पादयितुं कुर्वन्ति... &etc;"
 
 #. Tag: para
-#: index.docbook:1734
+#: index.docbook:1812
 #, no-c-format
 msgid ""
 "The Alternate Screen buffer: the terminal switches to this buffer when you "
@@ -3765,13 +3899,13 @@ msgstr ""
 "application>... इत्यादि)"
 
 #. Tag: term
-#: index.docbook:1743
+#: index.docbook:1821
 #, no-c-format
 msgid "KeyPad"
 msgstr "कीपैड"
 
 #. Tag: para
-#: index.docbook:1745
+#: index.docbook:1823
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination uses a key on the Keypad (Number "
@@ -3793,13 +3927,13 @@ msgstr ""
 "अवधारणा प्रवर्तते"
 
 #. Tag: term
-#: index.docbook:1750
+#: index.docbook:1828
 #, no-c-format
 msgid "AppCursorKeys"
 msgstr "AppCursorKeys इति"
 
 #. Tag: para
-#: index.docbook:1752
+#: index.docbook:1830
 #, no-c-format
 msgid ""
 "This mode implements the VT100 <ulink url=\"https://www.vt100.net/docs/vt100-"
@@ -3815,7 +3949,7 @@ msgstr ""
 "मोड् सेट् अथवा रीसेट् भवति"
 
 #. Tag: para
-#: index.docbook:1753
+#: index.docbook:1831
 #, no-c-format
 msgid ""
 "By default &konsole; follows the XTerm behavior of treating the "
@@ -3826,13 +3960,13 @@ msgstr ""
 "<keycap>End</keycap> कीलयोः कर्सरकुंजीरूपेण व्यवहारस्य XTerm व्यवहारं अनुसरति"
 
 #. Tag: term
-#: index.docbook:1758
+#: index.docbook:1836
 #, no-c-format
 msgid "AppKeyPad"
 msgstr "एप्पकीपैड"
 
 #. Tag: para
-#: index.docbook:1760
+#: index.docbook:1838
 #, no-c-format
 msgid ""
 "If this mode is set, the key combination will only work when the Keypad is "
@@ -3842,7 +3976,7 @@ msgstr ""
 "(DECKPAM) भवति ।"
 
 #. Tag: para
-#: index.docbook:1761
+#: index.docbook:1839
 #, no-c-format
 msgid ""
 "If this mode is reset, the key combination will only work when the Keypad is "
@@ -3852,13 +3986,13 @@ msgstr ""
 "Mode (DECKPNM) मध्ये भवति ।"
 
 #. Tag: term
-#: index.docbook:1766
+#: index.docbook:1844
 #, no-c-format
 msgid "NewLine"
 msgstr "NewLine"
 
 #. Tag: para
-#: index.docbook:1768
+#: index.docbook:1846
 #, no-c-format
 msgid ""
 "If this mode is set, the <keycap>Return</keycap> (Enter) key on the keyboard "
@@ -3869,7 +4003,7 @@ msgstr ""
 "Carriage Return \"\\r\" तथा New Line \"\\n\" इति नियन्त्रणवर्णद्वयं प्रेषयिष्यति"
 
 #. Tag: para
-#: index.docbook:1769
+#: index.docbook:1847
 #, no-c-format
 msgid ""
 "If this mode is reset, the <keycap>Return</keycap> key will send only a "
@@ -3879,13 +4013,13 @@ msgstr ""
 "Return \"\\r\" प्रेषयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1770
+#: index.docbook:1848
 #, no-c-format
 msgid "The same applies to the <keycap>Enter</keycap> key on the Keypad"
 msgstr "कीपैड् इत्यत्र <keycap>Enter</keycap> कीलस्य अपि तथैव भवति"
 
 #. Tag: para
-#: index.docbook:1771
+#: index.docbook:1849
 #, no-c-format
 msgid ""
 "This mode emulates the <ulink url=\"https://www.vt100.net/docs/vt100-ug/"
@@ -3895,7 +4029,7 @@ msgstr ""
 "\">LNM - रेखा-फीड्/नवीन-रेखा-विधा</ulink> इत्यस्य अनुकरणं करोति"
 
 #. Tag: para
-#: index.docbook:1777
+#: index.docbook:1855
 #, no-c-format
 msgid ""
 "Note that each combination of Key and Modes (set/reset) must be unique. For "
@@ -3905,19 +4039,19 @@ msgstr ""
 "भवितुमर्हति । यथा, निम्नलिखितौ नियमौ विचार्यताम् ।"
 
 #. Tag: para
-#: index.docbook:1780
+#: index.docbook:1858
 #, no-c-format
 msgid "A+Shift : <quote>A</quote>"
 msgstr "A+Shift : <quote>क</quote> इति"
 
 #. Tag: para
-#: index.docbook:1781
+#: index.docbook:1859
 #, no-c-format
 msgid "a : <quote>a</quote>"
 msgstr "a : <quote>a</quote> इति"
 
 #. Tag: para
-#: index.docbook:1783
+#: index.docbook:1861
 #, no-c-format
 msgid ""
 "&konsole; will <emphasis>not</emphasis> accept the small letter <quote>a</"
@@ -3928,13 +4062,13 @@ msgstr ""
 "कार्यं कर्तुं भवता तस्मिन् नियमे <quote>-Shift</quote> योजयितव्यम् ।"
 
 #. Tag: title
-#: index.docbook:1787
+#: index.docbook:1865
 #, no-c-format
 msgid "The Output Field"
 msgstr "The Output Field इति"
 
 #. Tag: para
-#: index.docbook:1789
+#: index.docbook:1867
 #, no-c-format
 msgid ""
 "In the Output field you can add the escape sequences or control characters "
@@ -3945,7 +4079,7 @@ msgstr ""
 "भवान् इच्छति &konsole; यदा सम्बद्धं कीलसंयोजनं नुदति तदा टर्मिनल् प्रति प्रेषयितुं ।"
 
 #. Tag: para
-#: index.docbook:1791
+#: index.docbook:1869
 #, no-c-format
 msgid ""
 "You can also use any of the following keywords, each of which has a special "
@@ -3955,35 +4089,35 @@ msgstr ""
 "विशेषः अर्थः अस्ति:"
 
 #. Tag: para
-#: index.docbook:1794
+#: index.docbook:1872
 #, no-c-format
 msgid ""
 "scrollUpLine : scroll up one line in the shell history scrollback buffer"
 msgstr "scrollUpLine : शेल् इतिहासस्क्रॉलबैक् बफरमध्ये एकां पङ्क्तिं स्क्रॉलं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:1795
+#: index.docbook:1873
 #, no-c-format
 msgid ""
 "scrollUpPage : scroll up one page in the shell history scrollback buffer"
 msgstr "scrollUpPage : शेल् इतिहासस्क्रॉलबैक् बफरमध्ये एकं पृष्ठं स्क्रॉलं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:1796
+#: index.docbook:1874
 #, no-c-format
 msgid ""
 "scrollDownLine : scroll down one line in the shell history scrollback buffer"
 msgstr "scrollDownLine : शेल् इतिहासस्क्रॉलबैक् बफर मध्ये एकां रेखां अधः स्क्रॉल कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:1797
+#: index.docbook:1875
 #, no-c-format
 msgid ""
 "scrollDownPage : scroll down one page in the shell history scrollback buffer"
 msgstr "scrollDownPage : शेल् इतिहासस्क्रॉलबैक् बफर मध्ये एकं पृष्ठं अधः स्क्रॉल कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:1798
+#: index.docbook:1876
 #, no-c-format
 msgid ""
 "scrollUpToTop : scroll up to the begining of the shell history scrollback "
@@ -3991,7 +4125,7 @@ msgid ""
 msgstr "scrollUpToTop : शेल् इतिहासस्क्रॉलबैक् बफरस्य आरम्भपर्यन्तं स्क्रॉल कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:1799
+#: index.docbook:1877
 #, no-c-format
 msgid ""
 "scrollDownToBottom : scroll down to the end of the shell history scrollback "
@@ -3999,7 +4133,7 @@ msgid ""
 msgstr "scrollDownToBottom : शेल् इतिहासस्क्रॉलबैक् बफरस्य अन्ते यावत् अधः स्क्रॉलं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:1802
+#: index.docbook:1880
 #, no-c-format
 msgid ""
 "You can also use strings with C-string syntax; you may use the following "
@@ -4009,55 +4143,55 @@ msgstr ""
 "निम्नलिखितपलायनक्रमानाम् उपयोगं कर्तुं शक्नोति:"
 
 #. Tag: para
-#: index.docbook:1805
+#: index.docbook:1883
 #, no-c-format
 msgid "\\E : Escape"
 msgstr "\\E : पलायनम्"
 
 #. Tag: para
-#: index.docbook:1806
+#: index.docbook:1884
 #, no-c-format
 msgid "\\\\ : Backslash"
 msgstr "\\\\ : बैकस्लैश"
 
 #. Tag: para
-#: index.docbook:1807
+#: index.docbook:1885
 #, no-c-format
 msgid "\\\" : Double quote"
 msgstr "\\\" : द्विगुण उद्धरण"
 
 #. Tag: para
-#: index.docbook:1808
+#: index.docbook:1886
 #, no-c-format
 msgid "\\t : Tab"
 msgstr "\\t : तब्"
 
 #. Tag: para
-#: index.docbook:1809
+#: index.docbook:1887
 #, no-c-format
 msgid "\\r : Carriage Return"
 msgstr "\\r : गाडी प्रत्यागमन"
 
 #. Tag: para
-#: index.docbook:1810
+#: index.docbook:1888
 #, no-c-format
 msgid "\\n : New line"
 msgstr "\\n : नव पङ्क्ति"
 
 #. Tag: para
-#: index.docbook:1811
+#: index.docbook:1889
 #, no-c-format
 msgid "\\b : Backspace"
 msgstr "\\b : पृष्ठस्थान"
 
 #. Tag: para
-#: index.docbook:1813
+#: index.docbook:1891
 #, no-c-format
 msgid "\\xHH : where HH are two hex digits"
 msgstr "\\xHH : यत्र HH द्वौ हेक्स-अङ्कौ स्तः"
 
 #. Tag: para
-#: index.docbook:1815
+#: index.docbook:1893
 #, no-c-format
 msgid ""
 "This can be used to send &ASCII; control characters, &eg; <quote>\\x00</"
@@ -4066,19 +4200,19 @@ msgstr ""
 "एतस्य उपयोगेन &ASCII; नियन्त्रणवर्णाः, &eg; <quote>\\x00</quote> यत् NUL वर्णः अस्ति"
 
 #. Tag: title
-#: index.docbook:1823
+#: index.docbook:1901
 #, no-c-format
 msgid "Other System Resources"
 msgstr "अन्ये प्रणालीसंसाधनम्"
 
 #. Tag: para
-#: index.docbook:1824
+#: index.docbook:1902
 #, no-c-format
 msgid "There are other system resources that can affect terminal Key Bindings:"
 msgstr "अन्ये प्रणालीसंसाधनाः सन्ति ये टर्मिनल् Key Bindings इत्यस्य प्रभावं कर्तुं शक्नुवन्ति:"
 
 #. Tag: para
-#: index.docbook:1827
+#: index.docbook:1905
 #, no-c-format
 msgid ""
 "Consult the <ulink url=\"man:terminfo(5)\">terminfo</ulink> or <ulink url="
@@ -4091,7 +4225,7 @@ msgstr ""
 "नियन्त्रणवर्णानां कृते यत् प्रत्येकं... कीलसंयोजनं प्रेषयितुं कल्प्यते।"
 
 #. Tag: para
-#: index.docbook:1830
+#: index.docbook:1908
 #, no-c-format
 msgid ""
 "It is likely that your system has other keyboard databases which have to be "
@@ -4105,13 +4239,13 @@ msgstr ""
 "(अन्तर्क्रियाः) प्रभावितयन्ति ।"
 
 #. Tag: title
-#: index.docbook:1836
+#: index.docbook:1914
 #, no-c-format
 msgid "Further Reading"
 msgstr "अग्रे पठनम्"
 
 #. Tag: para
-#: index.docbook:1837
+#: index.docbook:1915
 #, no-c-format
 msgid ""
 "For more information on escape sequences and control characters, check the "
@@ -4119,19 +4253,19 @@ msgid ""
 msgstr "पलायनक्रमानां नियन्त्रणवर्णानां च विषये अधिकसूचनार्थं निम्नलिखितदस्तावेजं पश्यन्तु ।"
 
 #. Tag: ulink
-#: index.docbook:1840
+#: index.docbook:1918
 #, no-c-format
 msgid "The VT100 user guide"
 msgstr "VT100 उपयोक्तृमार्गदर्शिका"
 
 #. Tag: ulink
-#: index.docbook:1843
+#: index.docbook:1921
 #, no-c-format
 msgid "The VT102 user guide"
 msgstr "VT102 उपयोक्तृमार्गदर्शिका"
 
 #. Tag: para
-#: index.docbook:1846
+#: index.docbook:1924
 #, no-c-format
 msgid ""
 "The comprehensive and indispensable <ulink url=\"https://invisible-island."
@@ -4142,13 +4276,13 @@ msgstr ""
 "ctlseqs.html\">XTerm Control Sequences</ulink> दस्तावेजीकरणं"
 
 #. Tag: title
-#: index.docbook:1855
+#: index.docbook:1933
 #, no-c-format
 msgid "Using Style Sheet for the Tab Bar"
 msgstr "Tab Bar कृते Style Sheet इत्यस्य उपयोगः"
 
 #. Tag: para
-#: index.docbook:1856
+#: index.docbook:1934
 #, no-c-format
 msgid ""
 "The default style sheet for the tab bar sets the minimum and maximum tab "
@@ -4164,7 +4298,7 @@ msgstr ""
 "अस्ति ।"
 
 #. Tag: para
-#: index.docbook:1862
+#: index.docbook:1940
 #, no-c-format
 msgid ""
 "For more information, consider reading <ulink url=\"https://doc.qt.io/qt-5/"
@@ -4174,13 +4308,13 @@ msgstr ""
 "शैलीपत्राणि</ulink>"
 
 #. Tag: para
-#: index.docbook:1875
+#: index.docbook:1953
 #, no-c-format
 msgid "Change the selected tab's background to a light gray"
 msgstr "चयनितस्य ट्याब् इत्यस्य पृष्ठभूमिं हल्के धूसरवर्णे परिवर्तयन्तु"
 
 #. Tag: programlisting
-#: index.docbook:1877
+#: index.docbook:1955
 #, no-c-format
 msgid ""
 "QTabBar::tab:selected {\n"
@@ -4192,13 +4326,13 @@ msgstr ""
 "} ."
 
 #. Tag: para
-#: index.docbook:1881
+#: index.docbook:1959
 #, no-c-format
 msgid "Change the selected tab's text to red"
 msgstr "चयनितस्य ट्याब् इत्यस्य पाठं रक्तवर्णे परिवर्तयन्तु"
 
 #. Tag: programlisting
-#: index.docbook:1883
+#: index.docbook:1961
 #, no-c-format
 msgid ""
 "QTabBar::tab:selected {\n"
@@ -4210,13 +4344,13 @@ msgstr ""
 "} ."
 
 #. Tag: para
-#: index.docbook:1886
+#: index.docbook:1964
 #, no-c-format
 msgid "All tabs will be at least 200 pixels in width"
 msgstr "सर्वाणि ट्याब्स् न्यूनातिन्यूनं २०० पिक्सेलविस्तारं भविष्यन्ति"
 
 #. Tag: programlisting
-#: index.docbook:1888
+#: index.docbook:1966
 #, no-c-format
 msgid ""
 "QTabBar::tab {\n"
@@ -4228,13 +4362,13 @@ msgstr ""
 "} ."
 
 #. Tag: para
-#: index.docbook:1891
+#: index.docbook:1969
 #, no-c-format
 msgid "Only the selected tab will be at least 200 pixels in width"
 msgstr "केवलं चयनितं ट्याब् न्यूनातिन्यूनं २०० पिक्सेलविस्तारं भविष्यति"
 
 #. Tag: programlisting
-#: index.docbook:1893
+#: index.docbook:1971
 #, no-c-format
 msgid ""
 "QTabBar::tab::selected {\n"
@@ -4246,13 +4380,13 @@ msgstr ""
 "} ."
 
 #. Tag: para
-#: index.docbook:1896
+#: index.docbook:1974
 #, no-c-format
 msgid "Any of these can be combined in one file"
 msgstr "एतेषु कश्चन अपि एकस्मिन् सञ्चिकायां संयोजितुं शक्यते"
 
 #. Tag: programlisting
-#: index.docbook:1898
+#: index.docbook:1976
 #, no-c-format
 msgid ""
 "QTabBar::tab::selected {\n"
@@ -4274,19 +4408,19 @@ msgstr ""
 "} ."
 
 #. Tag: title
-#: index.docbook:1908
+#: index.docbook:1986
 #, no-c-format
 msgid "Did You Know?, Common Issues and More"
 msgstr "किं भवन्तः जानन्ति?, सामान्यविषयाः इत्यादयः"
 
 #. Tag: title
-#: index.docbook:1911
+#: index.docbook:1989
 #, no-c-format
 msgid "Did You Know?"
 msgstr "किं भवन्तः जानन्ति स्म ?"
 
 #. Tag: para
-#: index.docbook:1915
+#: index.docbook:1993
 #, no-c-format
 msgid ""
 "Pressing &Ctrl; while selecting text will cause lines breaks to be converted "
@@ -4296,7 +4430,7 @@ msgstr ""
 "परिवर्तिताः भविष्यन्ति ।"
 
 #. Tag: para
-#: index.docbook:1919
+#: index.docbook:1997
 #, no-c-format
 msgid ""
 "Pressing the <keycombo action=\"simul\">&Ctrl;&Alt;</keycombo> keys while "
@@ -4306,7 +4440,7 @@ msgstr ""
 "स्तम्भान् चिनोति ।"
 
 #. Tag: para
-#: index.docbook:1923
+#: index.docbook:2001
 #, no-c-format
 msgid ""
 "The <keycombo action=\"simul\">&Ctrl;<mousebutton>Wheel</mousebutton></"
@@ -4316,7 +4450,7 @@ msgstr ""
 "संयोजनेन पाठस्य आकारः जूम करिष्यति, यथा konqueror तथा firefox इत्यत्र ।"
 
 #. Tag: para
-#: index.docbook:1927
+#: index.docbook:2005
 #, no-c-format
 msgid ""
 "When a program evaluates either mouse button, pressing the &Shift; key will "
@@ -4326,7 +4460,7 @@ msgstr ""
 "मेन्यू दृश्यते इति अनुमतिं दास्यति ।"
 
 #. Tag: para
-#: index.docbook:1931
+#: index.docbook:2009
 #, no-c-format
 msgid ""
 "The <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F10</keycap></keycombo> "
@@ -4336,7 +4470,7 @@ msgstr ""
 "शॉर्टकट् मेन्यू सक्रियं करिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1935
+#: index.docbook:2013
 #, no-c-format
 msgid ""
 "The <keycombo action=\"simul\">&Shift;<keycap>Insert</keycap></keycombo> "
@@ -4346,7 +4480,7 @@ msgstr ""
 "क्लिप्बोर्डं सम्मिलितं करिष्यन्ति ।"
 
 #. Tag: para
-#: index.docbook:1939
+#: index.docbook:2017
 #, no-c-format
 msgid ""
 "Double-clicking will select a whole word. Continuing to hold the mouse "
@@ -4356,7 +4490,7 @@ msgstr ""
 "विस्तारयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1943
+#: index.docbook:2021
 #, no-c-format
 msgid ""
 "Triple-clicking will select a whole line. Continuing to hold the mouse "
@@ -4366,7 +4500,7 @@ msgstr ""
 "विस्तारयिष्यति ।"
 
 #. Tag: para
-#: index.docbook:1947
+#: index.docbook:2025
 #, no-c-format
 msgid ""
 "There is a hidden feature for the \"%d\" formatter in tab title. You can "
@@ -4386,7 +4520,7 @@ msgstr ""
 "निम्नलिखितपङ्क्तयः योजयन्तु :"
 
 #. Tag: programlisting
-#: index.docbook:1951
+#: index.docbook:2029
 #, no-c-format
 msgid ""
 "[ProcessInfo]\n"
@@ -4396,7 +4530,7 @@ msgstr ""
 "CommonDirNames=नाम1,नाम2,नाम3..."
 
 #. Tag: para
-#: index.docbook:1953
+#: index.docbook:2031
 #, no-c-format
 msgid ""
 "If you are using <application>Yakuake</application>, you need to edit "
@@ -4409,13 +4543,13 @@ msgstr ""
 "सामान्यविन्यासस्थान</option></userinput> तत्स्थाने।"
 
 #. Tag: title
-#: index.docbook:1964
+#: index.docbook:2042
 #, no-c-format
 msgid "Common Issues"
 msgstr "सामान्य मुद्दे"
 
 #. Tag: para
-#: index.docbook:1968
+#: index.docbook:2046
 #, no-c-format
 msgid ""
 "Some fonts might be unavailable for usage in &konsole;, although they are "
@@ -4428,7 +4562,7 @@ msgstr ""
 "मोनोस्पेस्ड् फन्ट् आवश्यकं भवति, अतः &Qt; केवलं एकस्थानयुक्तानि फन्ट्-सूचीं कर्तुं ।"
 
 #. Tag: para
-#: index.docbook:1970
+#: index.docbook:2048
 #, no-c-format
 msgid ""
 "Starting with version 16.08 (August 2016), &konsole; can be configured to "
@@ -4438,7 +4572,7 @@ msgstr ""
 "सह कस्यापि फन्ट्-चयनस्य अनुमतिं दातुं विन्यस्तं कर्तुं शक्यते ।"
 
 #. Tag: para
-#: index.docbook:1973
+#: index.docbook:2051
 #, no-c-format
 msgid ""
 "Since KDE4 all the tabs use the same process ID. This has the side-effect "
@@ -4450,7 +4584,7 @@ msgstr ""
 "।"
 
 #. Tag: para
-#: index.docbook:1976
+#: index.docbook:2054
 #, no-c-format
 msgid ""
 "This is most noticeable when a command that connects to an external device "
@@ -4460,7 +4594,7 @@ msgstr ""
 "समस्याः सन्ति ।"
 
 #. Tag: para
-#: index.docbook:1980
+#: index.docbook:2058
 #, no-c-format
 msgid ""
 "&konsole; treats arguments after the <option>-e</option> option as one "
@@ -4472,19 +4606,19 @@ msgstr ""
 "आदेशेषु विभक्तुं च । एतत् xterm इत्यस्मात् भिन्नम् अस्ति ।"
 
 #. Tag: para
-#: index.docbook:1987
+#: index.docbook:2065
 #, no-c-format
 msgid "<command>konsole -e \"command1 ; command2\"</command> does not work"
 msgstr "<command>konsole -e \"command1 ; command2\"</command> कार्यं न करोति"
 
 #. Tag: para
-#: index.docbook:1991
+#: index.docbook:2069
 #, no-c-format
 msgid "<command>konsole -e $SHELL -c \"command1 ; command2\"</command> works"
 msgstr "<command>konsole -e $SHELL -c \"आदेशः1 ; आदेशः2\"</command> कार्यं करोति"
 
 #. Tag: para
-#: index.docbook:1999
+#: index.docbook:2077
 #, no-c-format
 msgid ""
 "&konsole; doesn't provide convenience for running login shell, because "
@@ -4494,7 +4628,7 @@ msgstr ""
 "लॉगिन् शेल् चालयितुं विचारः न रोचते ।"
 
 #. Tag: para
-#: index.docbook:2002
+#: index.docbook:2080
 #, no-c-format
 msgid ""
 "Of course, users still can run login shell in &konsole; if they really need "
@@ -4507,7 +4641,7 @@ msgstr ""
 "\"<command>bash -l</command>\" तथा \"<command>zsh -l</command>\" इति"
 
 #. Tag: para
-#: index.docbook:2007
+#: index.docbook:2085
 #, no-c-format
 msgid ""
 "The <option>--new-tab</option> option sometimes behaves strangely. It may "
@@ -4519,7 +4653,7 @@ msgstr ""
 "वर्तमानस्य &amp;konsole; कोष्ठ।"
 
 #. Tag: para
-#: index.docbook:2010
+#: index.docbook:2088
 #, no-c-format
 msgid ""
 "Those behaviors feel strange, but they are not necessarily bugs. The "
@@ -4535,20 +4669,20 @@ msgstr ""
 "अधिकांशः &amp;konsole; आदेशपङ्क्तौ उद्घाटिताः विण्डोः न सन्ति ।"
 
 #. Tag: title
-#: index.docbook:2022
+#: index.docbook:2100
 #, no-c-format
 msgid "Credits and Copyright"
 msgstr "श्रेयः तथा प्रतिलिपिधर्मः"
 
 #. Tag: para
-#: index.docbook:2024
+#: index.docbook:2102
 #, no-c-format
 msgid ""
 "&konsole; is currently maintained by &Kurt.Hindenburg; &Kurt.Hindenburg.mail;"
 msgstr "&konsole; सम्प्रति &Kurt.Hindenburg; &कर्ट.हिन्डेनबर्ग.मेल;"
 
 #. Tag: para
-#: index.docbook:2026
+#: index.docbook:2104
 #, no-c-format
 msgid ""
 "Previous &konsole; maintainers include: &Robert.Knight; &Robert.Knight.mail; "
@@ -4558,7 +4692,7 @@ msgstr ""
 "&वाल्दो.बास्टियन; &वाल्दो.बास्टियन.मेल;"
 
 #. Tag: para
-#: index.docbook:2028
+#: index.docbook:2106
 #, no-c-format
 msgid ""
 "The application &konsole; Copyright &copy; 1997-2008 &Lars.Doelle; &Lars."
@@ -4568,7 +4702,7 @@ msgstr ""
 "डोएल.मेल;"
 
 #. Tag: para
-#: index.docbook:2031
+#: index.docbook:2109
 #, no-c-format
 msgid ""
 "This document was originally written by &Jonathan.Singer; &Jonathan.Singer."
@@ -4576,7 +4710,7 @@ msgid ""
 msgstr "एतत् दस्तावेजं मूलतः &Jonathan.Singer; &जोनाथन.गायक.मेल;"
 
 #. Tag: para
-#: index.docbook:2034
+#: index.docbook:2112
 #, no-c-format
 msgid ""
 "This document was updated for &kde; 4.x by &Kurt.Hindenburg; &Kurt."
@@ -4584,7 +4718,7 @@ msgid ""
 msgstr "एतत् दस्तावेजं &kde; 4.x by &Kurt.Hindenburg; &कर्ट.हिन्डेनबर्ग.मेल;"
 
 #. Tag: para
-#: index.docbook:2037
+#: index.docbook:2115
 #, no-c-format
 msgid ""
 "This document was updated for &kde; 3.4 by &Kurt.Hindenburg; &Kurt."
@@ -4592,7 +4726,7 @@ msgid ""
 msgstr "एतत् दस्तावेजं &kde; ३.४ by &Kurt.Hindenburg; &कर्ट.हिन्डेनबर्ग.मेल;"
 
 #. Tag: para
-#: index.docbook:2040
+#: index.docbook:2118
 #, no-c-format
 msgid ""
 "Originally converted to DocBook <acronym>SGML</acronym> by &Mike.McBride; "
@@ -4602,31 +4736,31 @@ msgstr ""
 "&Lauri.Watts;"
 
 #. Tag: trans_comment
-#: index.docbook:2043
+#: index.docbook:2121
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:2043
+#: index.docbook:2121
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
 
 #. Tag: title
-#: index.docbook:2050
+#: index.docbook:2128
 #, no-c-format
 msgid "Links"
 msgstr "लिङ्कानि"
 
 #. Tag: para
-#: index.docbook:2052
+#: index.docbook:2130
 #, no-c-format
 msgid "For more information please visit these websites:"
 msgstr "अधिकविवरणार्थं कृपया एतानि जालपुटानि पश्यन्तु:"
 
 #. Tag: para
-#: index.docbook:2054
+#: index.docbook:2132
 #, no-c-format
 msgid ""
 "<ulink url=\"https://userbase.kde.org/Konsole\">&konsole;'s homepage on "
@@ -4636,25 +4770,25 @@ msgstr ""
 "इत्यस्य UserBase</ulink>&nbsp;"
 
 #. Tag: ulink
-#: index.docbook:2055
+#: index.docbook:2133
 #, no-c-format
 msgid "&konsole;'s homepage"
 msgstr "&konsole;'s मुखपृष्ठम्"
 
 #. Tag: ulink
-#: index.docbook:2056
+#: index.docbook:2134
 #, no-c-format
 msgid "&konsole;'s mailing list"
 msgstr "&konsole;'s मेलसूची"
 
 #. Tag: ulink
-#: index.docbook:2057
+#: index.docbook:2135
 #, no-c-format
 msgid "&kde; on FreeBSD"
 msgstr "&कुत्र; सः FreeBSD"
 
 #. Tag: ulink
-#: index.docbook:2059
+#: index.docbook:2137
 #, no-c-format
 msgid "&kde; on &Solaris;"
 msgstr "&कुत्र; सः &सोलारिस्;"
