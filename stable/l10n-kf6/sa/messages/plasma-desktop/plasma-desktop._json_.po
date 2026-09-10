@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: json files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-17 00:54+0000\n"
+"POT-Creation-Date: 2026-09-03 00:54+0000\n"
 "PO-Revision-Date: 2024-12-25 19:45+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -18,6 +18,11 @@ msgstr ""
 msgctxt "Name"
 msgid "Activity Pager"
 msgstr "गतिविधि पेजर"
+
+#: applets/dwellclicker/metadata.json
+msgctxt "Name"
+msgid "Dwell Clicker"
+msgstr ""
 
 #: applets/icontasks/metadata.json
 msgctxt "Name"
@@ -134,11 +139,6 @@ msgctxt "Name"
 msgid "Keyboard"
 msgstr "कीबोर्ड"
 
-#: kcms/keyboard/kded_keyboard.json
-msgctxt "Name"
-msgid "Keyboard Daemon"
-msgstr "कीबोर्ड डेमन"
-
 #: kcms/keys/kcm_keys.json
 msgctxt "Name"
 msgid "Shortcuts"
@@ -189,7 +189,7 @@ msgctxt "Name"
 msgid "Device Actions"
 msgstr "यन्त्रक्रियाः"
 
-#: kcms/spellchecking/kcmspellchecking.json
+#: kcms/spellchecking/kcm_spellchecking.json
 msgctxt "Name"
 msgid "Spell Check"
 msgstr "वर्तनीपरीक्षा"
@@ -199,7 +199,7 @@ msgctxt "Name"
 msgid "Drawing Tablet"
 msgstr "रेखाचित्र फलक"
 
-#: kcms/touchpad/kcm_touchpad.json kcms/touchpad/kded/kded_touchpad.json
+#: kcms/touchpad/kcm_touchpad.json
 msgctxt "Name"
 msgid "Touchpad"
 msgstr "टचपैड"
@@ -213,6 +213,11 @@ msgstr "टचस्क्रीन्"
 msgctxt "Name"
 msgid "General Behavior"
 msgstr "सामान्य व्यवहार"
+
+#: kded/screenreader/metadata.json
+msgctxt "Name"
+msgid "Screenreader"
+msgstr ""
 
 #: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.json
 msgctxt "Name"
@@ -266,6 +271,11 @@ msgstr "फलक उपकरणपेटी"
 msgctxt "Description"
 msgid "Switch between activities"
 msgstr "क्रियाकलापानाम् मध्ये परिवर्तनं कुर्वन्तु"
+
+#: applets/dwellclicker/metadata.json
+msgctxt "Description"
+msgid "Automatically click when pointer remains still for a set amount of time"
+msgstr ""
 
 #: applets/icontasks/metadata.json
 msgctxt "Description"
@@ -382,11 +392,6 @@ msgctxt "Description"
 msgid "Keyboard Hardware and Layout"
 msgstr "कीबोर्ड हार्डवेयर तथा लेआउट"
 
-#: kcms/keyboard/kded_keyboard.json
-msgctxt "Description"
-msgid "Enables switching keyboard layout through shortcuts or system tray"
-msgstr "शॉर्टकट् अथवा सिस्टम् ट्रे इत्यस्य माध्यमेन कीबोर्ड लेआउट् स्विचिंग् सक्षमं करोति"
-
 #: kcms/keys/kcm_keys.json
 msgctxt "Description"
 msgid "Configure Keyboard Shortcuts"
@@ -432,7 +437,7 @@ msgctxt "Description"
 msgid "Manage actions available to the user when connecting new devices"
 msgstr "नूतनानां उपकरणानां संयोजने उपयोक्त्रे उपलब्धानि क्रियाणि प्रबन्धयन्तु"
 
-#: kcms/spellchecking/kcmspellchecking.json
+#: kcms/spellchecking/kcm_spellchecking.json
 msgctxt "Description"
 msgid "Spell Checker Dictionaries and Options"
 msgstr "वर्तनी परीक्षक शब्दकोशाः विकल्पाः च"
@@ -447,15 +452,15 @@ msgctxt "Description"
 msgid "Touchpad settings"
 msgstr "टचपैड् सेटिंग्स्"
 
-#: kcms/touchpad/kded/kded_touchpad.json
-msgctxt "Description"
-msgid "Enables or disables touchpad"
-msgstr "टचपैड् सक्षमं निष्क्रियं वा करोति"
-
 #: kcms/workspaceoptions/kcm_workspace.json
 msgctxt "Description"
 msgid "Configure general workspace behavior"
 msgstr "सामान्यकार्यक्षेत्रव्यवहारं विन्यस्यताम्"
+
+#: kded/screenreader/metadata.json
+msgctxt "Description"
+msgid "Manages Screenreader"
+msgstr ""
 
 #: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.json
 msgctxt "Description"
@@ -507,6 +512,14 @@ msgstr "प्लाज्मा पटलस्य प्रबन्धनं 
 msgctxt "Authors Name"
 msgid "The Plasma Team"
 msgstr "प्लाज्मादलम्"
+
+#: applets/dwellclicker/metadata.json
+#, fuzzy
+#| msgctxt "Authors Name"
+#| msgid "Sebastian Kügler"
+msgctxt "Authors Name"
+msgid "Sebastian Sauer"
+msgstr "सेबास्टियन कुग्लर"
 
 #: applets/icontasks/metadata.json applets/kicker/metadata.json
 #: applets/taskmanager/metadata.json applets/window-list/metadata.json
@@ -760,7 +773,7 @@ msgid ""
 "Solid Devices Actions,device actions,open with,play,download,browse,transfer"
 msgstr "ठोस उपकरण क्रियाएँ,उपकरण क्रियाएँ,सह उद्घाटन,खेल,डाउनलोड,ब्राउज,हस्तांतरण"
 
-#: kcms/spellchecking/kcmspellchecking.json
+#: kcms/spellchecking/kcm_spellchecking.json
 #, fuzzy
 #| msgctxt "X-KDE-Keywords"
 #| msgid ""
@@ -829,9 +842,24 @@ msgstr ""
 "टैबलेट मोड,प्रतिलिपि,पेस्ट,चयनित,चयन,प्राथमिक"
 
 #: solid-device-automounter/kcm/device_automounter_kcm.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic"
 msgctxt "X-KDE-Keywords"
-msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic"
+msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic,usb"
 msgstr "ऑटोमाउंट,माउंट,डिस्क,डिस्क,हटने योग्य,डिवाइस,डिवाइस,स्वचालित"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard Daemon"
+#~ msgstr "कीबोर्ड डेमन"
+
+#~ msgctxt "Description"
+#~ msgid "Enables switching keyboard layout through shortcuts or system tray"
+#~ msgstr "शॉर्टकट् अथवा सिस्टम् ट्रे इत्यस्य माध्यमेन कीबोर्ड लेआउट् स्विचिंग् सक्षमं करोति"
+
+#~ msgctxt "Description"
+#~ msgid "Enables or disables touchpad"
+#~ msgstr "टचपैड् सक्षमं निष्क्रियं वा करोति"
 
 #~ msgctxt "Name"
 #~ msgid "Margins Separator"
