@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kturtle_programming-reference\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"POT-Creation-Date: 2026-09-20 16:29+0000\n"
 "PO-Revision-Date: 2024-12-20 22:01+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1256,13 +1256,26 @@ msgstr "<प्राथमिक>पेनरङ्ग (pc)</primary>"
 msgid "pencolor R,G,B"
 msgstr "कलम रंग R,G,B"
 
+#. Tag: screen
+#: programming-reference.docbook:307
+#, fuzzy, no-c-format
+#| msgid "pencolor R,G,B"
+msgid "pencolor \"color\""
+msgstr "कलम रंग R,G,B"
+
 #. Tag: para
-#: programming-reference.docbook:306
-#, no-c-format
+#: programming-reference.docbook:307
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<userinput>pencolor</userinput> sets the color of the pen. "
+#| "<userinput>pencolor</userinput> takes an <glossterm linkend=\"rgb\">RGB "
+#| "combination</glossterm> as input. <userinput>pencolor</userinput> can be "
+#| "abbreviated to <userinput>pc</userinput>."
 msgid ""
 "<userinput>pencolor</userinput> sets the color of the pen. "
 "<userinput>pencolor</userinput> takes an <glossterm linkend=\"rgb\">RGB "
-"combination</glossterm> as input. <userinput>pencolor</userinput> can be "
+"combination</glossterm> or a <glossterm linkend=\"named-colors\">named-"
+"color</glossterm> as input. <userinput>pencolor</userinput> can be "
 "abbreviated to <userinput>pc</userinput>."
 msgstr ""
 "<userinput>pencolor</userinput> इत्यनेन पेनस्य वर्णः सेट् भवति । "
@@ -1271,37 +1284,37 @@ msgstr ""
 "<userinput>pc</userinput> इति कर्तुं शक्यते ।"
 
 #. Tag: title
-#: programming-reference.docbook:313
+#: programming-reference.docbook:314
 #, no-c-format
 msgid "Commands to control the canvas"
 msgstr "कैनवासं नियन्त्रयितुं आदेशाः"
 
 #. Tag: para
-#: programming-reference.docbook:314
+#: programming-reference.docbook:315
 #, no-c-format
 msgid "There are several commands to control the canvas."
 msgstr "कैनवासस्य नियन्त्रणार्थं अनेकाः आदेशाः सन्ति ।"
 
 #. Tag: term
-#: programming-reference.docbook:318
+#: programming-reference.docbook:319
 #, no-c-format
 msgid "<term>canvassize (cs)</term>"
 msgstr "<term>canvassize (cs)</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:318
+#: programming-reference.docbook:319
 #, no-c-format
 msgid "<primary>canvassize (cs)</primary>"
 msgstr "<primary>कैनवास (cs)</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:319
+#: programming-reference.docbook:320
 #, no-c-format
 msgid "canvassize X,Y"
 msgstr "canvasize X,Y"
 
 #. Tag: para
-#: programming-reference.docbook:319
+#: programming-reference.docbook:320
 #, no-c-format
 msgid ""
 "With the <userinput>canvassize</userinput> command you can set the size of "
@@ -1318,31 +1331,44 @@ msgstr ""
 "userinput> इति संक्षिप्तं <userinput>cs</userinput> इति कर्तुं शक्यते ।"
 
 #. Tag: term
-#: programming-reference.docbook:326
+#: programming-reference.docbook:327
 #, no-c-format
 msgid "<term>canvascolor (cc)</term>"
 msgstr "<term>canvascolor (cc)</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:326
+#: programming-reference.docbook:327
 #, no-c-format
 msgid "<primary>canvascolor (cc)</primary>"
 msgstr "<प्राथमिक>कैनवास्वर्ण (cc)</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:327
+#: programming-reference.docbook:328
 #, no-c-format
 msgid "canvascolor R,G,B"
 msgstr "canvascolor R,G,B"
 
+#. Tag: screen
+#: programming-reference.docbook:329
+#, fuzzy, no-c-format
+#| msgid "canvascolor R,G,B"
+msgid "canvascolor \"color\""
+msgstr "canvascolor R,G,B"
+
 #. Tag: para
-#: programming-reference.docbook:327
-#, no-c-format
+#: programming-reference.docbook:329
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<userinput>canvascolor</userinput> set the color of the canvas. "
+#| "<userinput>canvascolor</userinput> takes an <glossterm linkend=\"rgb"
+#| "\">RGB combination</glossterm> as input. <userinput>canvascolor</"
+#| "userinput> can be abbreviated to <userinput>cc</userinput>."
 msgid ""
 "<userinput>canvascolor</userinput> set the color of the canvas. "
 "<userinput>canvascolor</userinput> takes an <glossterm linkend=\"rgb\">RGB "
-"combination</glossterm> as input. <userinput>canvascolor</userinput> can be "
-"abbreviated to <userinput>cc</userinput>."
+"combination</glossterm> or <glossterm linkend=\"named-colors\">named-color</"
+"glossterm> as input. <userinput>canvascolor</userinput> can be abbreviated "
+"to <userinput>cc</userinput>."
 msgstr ""
 "<userinput>canvascolor</userinput> कैनवासस्य वर्णं सेट् कुर्वन्तु । "
 "<userinput>canvascolor</userinput> एकं <glossterm linkend=\"rgb\">RGB संयोजनं</"
@@ -1350,38 +1376,38 @@ msgstr ""
 "<userinput>cc</userinput> इति कर्तुं शक्यते ।"
 
 #. Tag: title
-#: programming-reference.docbook:334
+#: programming-reference.docbook:336
 #, no-c-format
 msgid "Commands to clean up"
 msgstr "स्वच्छतां कर्तुं आदेशाः"
 
 #. Tag: para
-#: programming-reference.docbook:335
+#: programming-reference.docbook:337
 #, no-c-format
 msgid ""
 "There are two commands to clean up the canvas after you have made a mess."
 msgstr "भवता गडबडं कृत्वा कैनवासस्य शोधनार्थं द्वौ आदेशौ स्तः ।"
 
 #. Tag: term
-#: programming-reference.docbook:339
+#: programming-reference.docbook:341
 #, no-c-format
 msgid "<term>clear (ccl)</term>"
 msgstr "<पद>स्पष्ट (ccl)</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:339
+#: programming-reference.docbook:341
 #, no-c-format
 msgid "<primary>clear (ccl)</primary>"
 msgstr "<प्राथमिक>स्पष्ट (ccl)</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:340
+#: programming-reference.docbook:342
 #, no-c-format
 msgid "clear"
 msgstr "स्पष्टः"
 
 #. Tag: para
-#: programming-reference.docbook:340
+#: programming-reference.docbook:342
 #, no-c-format
 msgid ""
 "With <userinput>clear</userinput> you can clean all drawings from the "
@@ -1393,25 +1419,25 @@ msgstr ""
 "दृश्यता, कैनवासस्य आकारः च ।"
 
 #. Tag: term
-#: programming-reference.docbook:347
+#: programming-reference.docbook:349
 #, no-c-format
 msgid "<term>reset</term>"
 msgstr "<term>reset</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:347
+#: programming-reference.docbook:349
 #, no-c-format
 msgid "<primary>reset</primary>"
 msgstr "<प्राथमिक>पुनर्स्थापन</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:348
+#: programming-reference.docbook:350
 #, no-c-format
 msgid "<screen>reset</screen>"
 msgstr "<screen>पुनः सेट्</screen>"
 
 #. Tag: para
-#: programming-reference.docbook:348
+#: programming-reference.docbook:350
 #, no-c-format
 msgid ""
 "<userinput>reset</userinput> cleans much more thoroughly than the "
@@ -1427,13 +1453,13 @@ msgstr ""
 "कैनवासस्य उपरि कृष्णरेखां आकर्षयति तथा च कैनवासस्य आकारः ४०० x ४०० पिक्सेल इति सेट् भवति"
 
 #. Tag: title
-#: programming-reference.docbook:355
+#: programming-reference.docbook:357
 #, no-c-format
 msgid "The turtle is a sprite"
 msgstr "कच्छपः स्प्राइट् अस्ति"
 
 #. Tag: para
-#: programming-reference.docbook:356
+#: programming-reference.docbook:358
 #, no-c-format
 msgid ""
 "First a brief explanation of what sprites are: sprites are small pictures "
@@ -1447,7 +1473,7 @@ msgstr ""
 "पश्यन्तु ।"
 
 #. Tag: para
-#: programming-reference.docbook:357
+#: programming-reference.docbook:359
 #, no-c-format
 msgid ""
 "Next you will find a full overview on all commands to work with sprites."
@@ -1455,7 +1481,7 @@ msgstr ""
 "तदनन्तरं स्प्राइट् इत्यनेन सह कार्यं कर्तुं सर्वेषां आदेशानां पूर्णं अवलोकनं भवन्तः प्राप्नुवन्ति ।"
 
 #. Tag: para
-#: programming-reference.docbook:358
+#: programming-reference.docbook:360
 #, no-c-format
 msgid ""
 "The current version of &kturtle; does not yet support the use of sprites "
@@ -1466,25 +1492,25 @@ msgstr ""
 "भविष्यत्संस्करणैः सह भवन्तः कच्छपं स्वस्य डिजाइनस्य किमपि परिवर्तनं कर्तुं शक्नुवन्ति ।"
 
 #. Tag: term
-#: programming-reference.docbook:362
+#: programming-reference.docbook:364
 #, no-c-format
 msgid "<term>spriteshow (ss)</term>"
 msgstr "<term>स्प्रिटशो (ss)</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:362
+#: programming-reference.docbook:364
 #, no-c-format
 msgid "<primary>spriteshow (ss)</primary>"
 msgstr "<प्राथमिक>स्प्रिटशो (स्स)</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:363
+#: programming-reference.docbook:365
 #, no-c-format
 msgid "spriteshow"
 msgstr "spriteshow इति"
 
 #. Tag: para
-#: programming-reference.docbook:363
+#: programming-reference.docbook:365
 #, no-c-format
 msgid ""
 "<userinput>spriteshow</userinput> makes the turtle visible again after it "
@@ -1496,25 +1522,25 @@ msgstr ""
 "कर्तुं शक्यते ।"
 
 #. Tag: term
-#: programming-reference.docbook:370
+#: programming-reference.docbook:372
 #, no-c-format
 msgid "<term>spritehide (sh)</term>"
 msgstr "<पद>स्प्रिटहिदे (श)</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:370
+#: programming-reference.docbook:372
 #, no-c-format
 msgid "<primary>spritehide (sh)</primary>"
 msgstr "<प्राथमिक>स्प्रिटहिदे (श)</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:371
+#: programming-reference.docbook:373
 #, no-c-format
 msgid "spritehide"
 msgstr "spritehide इति"
 
 #. Tag: para
-#: programming-reference.docbook:371
+#: programming-reference.docbook:373
 #, no-c-format
 msgid ""
 "<userinput>spritehide</userinput> hides the turtle. This can be used if the "
@@ -1526,13 +1552,13 @@ msgstr ""
 "<userinput>sh</userinput> इति कर्तुं शक्यते ।"
 
 #. Tag: title
-#: programming-reference.docbook:378
+#: programming-reference.docbook:380
 #, no-c-format
 msgid "Can the turtle write?"
 msgstr "कच्छपः लिखितुं शक्नोति वा ?"
 
 #. Tag: para
-#: programming-reference.docbook:379
+#: programming-reference.docbook:381
 #, no-c-format
 msgid ""
 "The answer is: <quote>yes</quote>. The turtle can write: it writes just "
@@ -1542,25 +1568,25 @@ msgstr ""
 "लिखति।"
 
 #. Tag: term
-#: programming-reference.docbook:383
+#: programming-reference.docbook:385
 #, no-c-format
 msgid "<term>print</term>"
 msgstr "<पदं>मुद्रण</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:383
+#: programming-reference.docbook:385
 #, no-c-format
 msgid "<primary>print</primary>"
 msgstr "<प्राथमिक>मुद्रण</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:384
+#: programming-reference.docbook:386
 #, no-c-format
 msgid "print X"
 msgstr "print X"
 
 #. Tag: para
-#: programming-reference.docbook:384
+#: programming-reference.docbook:386
 #, no-c-format
 msgid ""
 "The <userinput>print</userinput> command is used to command the turtle to "
@@ -1574,7 +1600,7 @@ msgstr ""
 "उदाहरणं पश्यन्तु :"
 
 #. Tag: screen
-#: programming-reference.docbook:386
+#: programming-reference.docbook:388
 #, no-c-format
 msgid ""
 "$year = 2003\n"
@@ -1588,25 +1614,25 @@ msgstr ""
 "तस्मिन् कार्यं कर्तुं आनन्दं प्राप्नोति!\""
 
 #. Tag: term
-#: programming-reference.docbook:393
+#: programming-reference.docbook:395
 #, no-c-format
 msgid "<term>fontsize</term>"
 msgstr "<term>fontsize</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:393
+#: programming-reference.docbook:395
 #, no-c-format
 msgid "<primary>fontsize</primary>"
 msgstr "<primary>फॉन्ट् आकार</primary> इति"
 
 #. Tag: screen
-#: programming-reference.docbook:394
+#: programming-reference.docbook:396
 #, no-c-format
 msgid "fontsize X"
 msgstr "fontsize X"
 
 #. Tag: para
-#: programming-reference.docbook:394
+#: programming-reference.docbook:396
 #, no-c-format
 msgid ""
 "<userinput>fontsize</userinput> sets the size of the font that is used by "
@@ -1620,38 +1646,38 @@ msgstr ""
 "glossterm> इत्यत्र सेट् भवति ।"
 
 #. Tag: title
-#: programming-reference.docbook:401
+#: programming-reference.docbook:403
 #, no-c-format
 msgid "Mathematical commands"
 msgstr "गणितीय आदेश"
 
 #. Tag: para
-#: programming-reference.docbook:402
+#: programming-reference.docbook:404
 #, no-c-format
 msgid ""
 "The following commands are &kturtle;'s more advanced mathematical commands."
 msgstr "निम्नलिखित आदेशाः &kturtle; इत्यस्य अधिक उन्नतगणितीय आदेशाः सन्ति ।"
 
 #. Tag: term
-#: programming-reference.docbook:406
+#: programming-reference.docbook:408
 #, no-c-format
 msgid "<term>round</term>"
 msgstr "<पदं>गोल</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:406
+#: programming-reference.docbook:408
 #, no-c-format
 msgid "<primary>round</primary>"
 msgstr "<प्राथमिक>गोल</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:407
+#: programming-reference.docbook:409
 #, no-c-format
 msgid "round(x)"
 msgstr "गोल(x)"
 
 #. Tag: para
-#: programming-reference.docbook:407
+#: programming-reference.docbook:409
 #, no-c-format
 msgid ""
 "<userinput>round</userinput> the given number to the nearest integer. "
@@ -1668,25 +1694,25 @@ msgstr ""
 "</screen> एतेन कोडेन कच्छपः ११, १० च सङ्ख्याः मुद्रयिष्यति ।"
 
 #. Tag: term
-#: programming-reference.docbook:416
+#: programming-reference.docbook:418
 #, no-c-format
 msgid "<term>random (rnd)</term>"
 msgstr "<पद>यादृच्छिक (रन्द)</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:416
+#: programming-reference.docbook:418
 #, no-c-format
 msgid "<primary>random (rnd)</primary>"
 msgstr "<प्राथमिक>यादृच्छिक (रन्द)</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:417
+#: programming-reference.docbook:419
 #, no-c-format
 msgid "random X,Y"
 msgstr "यादृच्छिक X,Y"
 
 #. Tag: para
-#: programming-reference.docbook:417
+#: programming-reference.docbook:419
 #, no-c-format
 msgid ""
 "<userinput>random</userinput> is a command that takes input and gives "
@@ -1715,25 +1741,25 @@ msgstr ""
 "किञ्चित् अराजकतां योजयितुं शक्नोति ।"
 
 #. Tag: term
-#: programming-reference.docbook:426
+#: programming-reference.docbook:428
 #, no-c-format
 msgid "<term>mod</term>"
 msgstr "<पद>मोद</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:426
+#: programming-reference.docbook:428
 #, no-c-format
 msgid "<primary>mod</primary>"
 msgstr "<प्राथमिक>मोद्</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:427
+#: programming-reference.docbook:429
 #, no-c-format
 msgid "mod X,Y"
 msgstr "mod X,Y"
 
 #. Tag: para
-#: programming-reference.docbook:427
+#: programming-reference.docbook:429
 #, no-c-format
 msgid ""
 "The <userinput>mod</userinput> returns remainder of the division of first "
@@ -1743,25 +1769,25 @@ msgstr ""
 "प्रत्यागच्छति ।"
 
 #. Tag: term
-#: programming-reference.docbook:434
+#: programming-reference.docbook:436
 #, no-c-format
 msgid "<term>sqrt</term>"
 msgstr "<पद>स्कृट्</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:434
+#: programming-reference.docbook:436
 #, no-c-format
 msgid "<primary>sqrt</primary>"
 msgstr "<प्राथमिक>स्कर्त्</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:435
+#: programming-reference.docbook:437
 #, no-c-format
 msgid "sqrt X"
 msgstr "sqrt X"
 
 #. Tag: para
-#: programming-reference.docbook:435
+#: programming-reference.docbook:437
 #, no-c-format
 msgid ""
 "The <userinput>sqrt</userinput> command is sued to find the square root of a "
@@ -1769,31 +1795,31 @@ msgid ""
 msgstr "<userinput>sqrt</userinput> आदेशः सङ्ख्यायाः वर्गमूलं X अन्वेष्टुं मुकदमा क्रियते ।"
 
 #. Tag: term
-#: programming-reference.docbook:452
+#: programming-reference.docbook:454
 #, no-c-format
 msgid "<term>pi</term>"
 msgstr "<पद>पि</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:452
+#: programming-reference.docbook:454
 #, no-c-format
 msgid "<primary>pi</primary>"
 msgstr "<प्राथमिक>पि</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:453
+#: programming-reference.docbook:455
 #, no-c-format
 msgid "<screen>pi</screen>"
 msgstr "<स्क्रीन्>पि</screen>"
 
 #. Tag: para
-#: programming-reference.docbook:453
+#: programming-reference.docbook:455
 #, no-c-format
 msgid "This command returns the constant Pi, <userinput>3.14159</userinput>."
 msgstr "एषः आदेशः नित्यं Pi, <userinput>3.14159</userinput> इति प्रत्यागच्छति ।"
 
 #. Tag: term
-#: programming-reference.docbook:462
+#: programming-reference.docbook:464
 #, no-c-format
 msgid ""
 "sin<indexterm><primary>sin</primary></indexterm>, "
@@ -1803,13 +1829,13 @@ msgstr ""
 "primary></indexterm>, तन्"
 
 #. Tag: primary
-#: programming-reference.docbook:462
+#: programming-reference.docbook:464
 #, no-c-format
 msgid "<primary>tan</primary>"
 msgstr "<प्राथमिक>तन</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:464
+#: programming-reference.docbook:466
 #, no-c-format
 msgid ""
 "sin X\n"
@@ -1821,7 +1847,7 @@ msgstr ""
 "अतः X"
 
 #. Tag: para
-#: programming-reference.docbook:464
+#: programming-reference.docbook:466
 #, no-c-format
 msgid ""
 "These three commands represent the world famous trigoniometrical functions "
@@ -1834,7 +1860,7 @@ msgstr ""
 "एतेषां आदेशानां निवेशतर्कः X इति a<link linkend=\"number\"> संख्या</link> ."
 
 #. Tag: term
-#: programming-reference.docbook:473
+#: programming-reference.docbook:475
 #, no-c-format
 msgid ""
 "arcsin<indexterm><primary>arcsin</primary></indexterm>, "
@@ -1844,13 +1870,13 @@ msgstr ""
 "आर्कोस<indexterm><primary>arccos</primary></indexterm>, आर्कटान्"
 
 #. Tag: primary
-#: programming-reference.docbook:473
+#: programming-reference.docbook:475
 #, no-c-format
 msgid "arctan"
 msgstr "आर्कटन"
 
 #. Tag: screen
-#: programming-reference.docbook:475
+#: programming-reference.docbook:477
 #, no-c-format
 msgid ""
 "arcsin X\n"
@@ -1862,7 +1888,7 @@ msgstr ""
 "आर्कटन X"
 
 #. Tag: para
-#: programming-reference.docbook:475
+#: programming-reference.docbook:477
 #, no-c-format
 msgid ""
 "These commands are the inverse functions of <link linkend=\"sin\">sin</"
@@ -1875,13 +1901,13 @@ msgstr ""
 "आदेशानां निवेशतर्कः X इति a<link linkend=\"number\"> संख्या</link> ."
 
 #. Tag: title
-#: programming-reference.docbook:482
+#: programming-reference.docbook:484
 #, no-c-format
 msgid "Input and feedback through dialogs"
 msgstr "संवादद्वारा निवेशः प्रतिक्रिया च"
 
 #. Tag: para
-#: programming-reference.docbook:483
+#: programming-reference.docbook:485
 #, no-c-format
 msgid ""
 "A dialog is a small pop-up window that provides some feedback or asks for "
@@ -1893,25 +1919,25 @@ msgstr ""
 "userinput> तथा <userinput>ask</userinput>"
 
 #. Tag: term
-#: programming-reference.docbook:487
+#: programming-reference.docbook:489
 #, no-c-format
 msgid "<term>message</term>"
 msgstr "<पद>सन्देशः</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:487
+#: programming-reference.docbook:489
 #, no-c-format
 msgid "<primary>message</primary>"
 msgstr "<प्राथमिक>सन्देश</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:488
+#: programming-reference.docbook:490
 #, no-c-format
 msgid "message X"
 msgstr "सन्देशः X"
 
 #. Tag: para
-#: programming-reference.docbook:488
+#: programming-reference.docbook:490
 #, no-c-format
 msgid ""
 "The <userinput>message</userinput> command takes a <link linkend=\"string"
@@ -1923,7 +1949,7 @@ msgstr ""
 "\"> सूत्र</link> ."
 
 #. Tag: screen
-#: programming-reference.docbook:490
+#: programming-reference.docbook:492
 #, no-c-format
 msgid ""
 "message \"Cies started KTurtle in 2003 and still enjoys working on it!\""
@@ -1932,25 +1958,25 @@ msgstr ""
 "कुर्वन् आनन्दं लभते!\""
 
 #. Tag: term
-#: programming-reference.docbook:497
+#: programming-reference.docbook:499
 #, no-c-format
 msgid "<term>ask</term>"
 msgstr "<पद>पृच्छ</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:497
+#: programming-reference.docbook:499
 #, no-c-format
 msgid "<primary>ask</primary>"
 msgstr "<प्राथमिक>पृच्छ</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:498
+#: programming-reference.docbook:500
 #, no-c-format
 msgid "ask X"
 msgstr "पृच्छतु X"
 
 #. Tag: para
-#: programming-reference.docbook:498
+#: programming-reference.docbook:500
 #, no-c-format
 msgid ""
 "<userinput>ask</userinput> takes a <link linkend=\"string\">string</link> as "
@@ -1979,13 +2005,13 @@ msgstr ""
 "\"assignment-of-variables\"> चरः</link> शून्यम् अस्ति।"
 
 #. Tag: title
-#: programming-reference.docbook:511
+#: programming-reference.docbook:513
 #, no-c-format
 msgid "Assignment of variables"
 msgstr "चरानाम् नियुक्तिः"
 
 #. Tag: para
-#: programming-reference.docbook:512
+#: programming-reference.docbook:514
 #, no-c-format
 msgid ""
 "First we have a look at variables, then we look at assigning values to those "
@@ -1993,7 +2019,7 @@ msgid ""
 msgstr "प्रथमं वयं चरानाम् अवलोकनं कुर्मः, ततः तेभ्यः चरानाम् मूल्यानि नियुक्तुं पश्यामः ।"
 
 #. Tag: para
-#: programming-reference.docbook:516
+#: programming-reference.docbook:518
 #, no-c-format
 msgid ""
 "Variables are words that start with a <quote>$</quote>, in the <link linkend="
@@ -2004,7 +2030,7 @@ msgstr ""
 "editor\"> सम्पादक</link> ते सन्ति<glossterm> प्रकाशितम्</glossterm> बैंगनीवर्णेन सह ।"
 
 #. Tag: para
-#: programming-reference.docbook:518
+#: programming-reference.docbook:520
 #, no-c-format
 msgid ""
 "Variables can contain any <link linkend=\"number\">number</link>, <link "
@@ -2020,7 +2046,7 @@ msgstr ""
 "अन्यस्मिन् किमपि प्रति पुनः नियुक्तः न भवति तावत् यावत् तत् सामग्रीं स्थापयिष्यति ।"
 
 #. Tag: para
-#: programming-reference.docbook:520
+#: programming-reference.docbook:522
 #, no-c-format
 msgid ""
 "You can use variables, once assigned, just as if they are their content. For "
@@ -2049,7 +2075,7 @@ msgstr ""
 "भवन्तः पश्यन्ति यत् <userinput>$x</userinput> इत्यस्य उपयोगः तस्य सामग्री इव भवति ।"
 
 #. Tag: para
-#: programming-reference.docbook:524
+#: programming-reference.docbook:526
 #, no-c-format
 msgid ""
 "Variables have to be assigned in order to be used. For example: <screen>\n"
@@ -2061,7 +2087,7 @@ msgstr ""
 "</screen> त्रुटिसन्देशस्य परिणामः भविष्यति ।"
 
 #. Tag: para
-#: programming-reference.docbook:528
+#: programming-reference.docbook:530
 #, no-c-format
 msgid ""
 "Please consider the following piece of &turtlescript;: <screen>\n"
@@ -2098,7 +2124,7 @@ msgstr ""
 "अथवा आह्वानकाले तान् निवेशरूपेण ददातु<link linkend=\"commands\"> आदेशाः</link> ."
 
 #. Tag: para
-#: programming-reference.docbook:534
+#: programming-reference.docbook:536
 #, no-c-format
 msgid ""
 "One more example: <screen>\n"
@@ -2115,7 +2141,7 @@ msgstr ""
 "userinput> इति चरं, स्ट्रिंग् इव व्यवहारः कृतः ।"
 
 #. Tag: para
-#: programming-reference.docbook:538
+#: programming-reference.docbook:540
 #, no-c-format
 msgid ""
 "When using variables the <link linkend=\"the-inspector\">inspector</link> is "
@@ -2126,13 +2152,13 @@ msgstr ""
 "सहायकम् अस्ति। एतत् भवन्तं सर्वेषां चरानाम् सामग्रीं दर्शयति ये वर्तमानकाले प्रयुक्ताः सन्ति ।"
 
 #. Tag: title
-#: programming-reference.docbook:544
+#: programming-reference.docbook:546
 #, no-c-format
 msgid "Controlling execution"
 msgstr "निष्पादनं नियन्त्रयन्"
 
 #. Tag: para
-#: programming-reference.docbook:545
+#: programming-reference.docbook:547
 #, no-c-format
 msgid ""
 "The execution controllers enable you &mdash; as their name implies &mdash; "
@@ -2142,7 +2168,7 @@ msgstr ""
 "नियन्त्रयितुं ।"
 
 #. Tag: para
-#: programming-reference.docbook:546
+#: programming-reference.docbook:548
 #, no-c-format
 msgid ""
 "Execution controlling commands are <glossterm>highlighted</glossterm> with "
@@ -2155,13 +2181,13 @@ msgstr ""
 "कृष्णेन सह <glossterm>highlighted</glossterm> भवन्ति ।"
 
 #. Tag: title
-#: programming-reference.docbook:549
+#: programming-reference.docbook:551
 #, no-c-format
 msgid "Have the turtle wait"
 msgstr "कच्छपं प्रतीक्षतु"
 
 #. Tag: para
-#: programming-reference.docbook:550
+#: programming-reference.docbook:552
 #, no-c-format
 msgid ""
 "If you have done some programming in &kturtle; you have might noticed that "
@@ -2172,25 +2198,25 @@ msgstr ""
 "एतेन आदेशेन कच्छपः दत्तकालं प्रतीक्षते ।"
 
 #. Tag: term
-#: programming-reference.docbook:553
+#: programming-reference.docbook:555
 #, no-c-format
 msgid "<term>wait</term>"
 msgstr "<term>प्रतीक्षा</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:553
+#: programming-reference.docbook:555
 #, no-c-format
 msgid "<primary>wait</primary>"
 msgstr "<प्राथमिक>प्रतीक्ष</primary>"
 
 #. Tag: screen
-#: programming-reference.docbook:554
+#: programming-reference.docbook:556
 #, no-c-format
 msgid "wait X"
 msgstr "प्रतीक्षा X"
 
 #. Tag: para
-#: programming-reference.docbook:554
+#: programming-reference.docbook:556
 #, no-c-format
 msgid ""
 "<userinput>wait</userinput> makes the turtle wait for X seconds. <screen>\n"
@@ -2212,31 +2238,31 @@ msgstr ""
 "मन्दगतिना कच्छपस्य आभासः भवति ।"
 
 #. Tag: title
-#: programming-reference.docbook:564
+#: programming-reference.docbook:566
 #, no-c-format
 msgid "Execute <quote>if</quote>"
 msgstr "<quote>if</quote> इति निष्पादयन्तु"
 
 #. Tag: term
-#: programming-reference.docbook:567
+#: programming-reference.docbook:569
 #, no-c-format
 msgid "<term>if</term>"
 msgstr "<पद>यदि</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:567
+#: programming-reference.docbook:569
 #, no-c-format
 msgid "<primary>if</primary>"
 msgstr "<प्राथमिक>यदि</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:568
+#: programming-reference.docbook:570
 #, no-c-format
 msgid "if <link linkend=\"boolean-value\">boolean</link> { ... }"
 msgstr "यदि<link linkend=\"boolean-value\"> बूलियन इति</link> { ... } ."
 
 #. Tag: para
-#: programming-reference.docbook:568
+#: programming-reference.docbook:570
 #, no-c-format
 msgid ""
 "The code that is placed between the brackets will only be executed "
@@ -2264,32 +2290,32 @@ msgstr ""
 "।"
 
 #. Tag: title
-#: programming-reference.docbook:577
+#: programming-reference.docbook:579
 #, no-c-format
 msgid "If not, in other words: <quote>else</quote>"
 msgstr "यदि न, अन्येषु शब्देषु- <quote>अन्य</quote> इति"
 
 #. Tag: term
-#: programming-reference.docbook:580
+#: programming-reference.docbook:582
 #, no-c-format
 msgid "<term>else</term>"
 msgstr "<पद>अन्य</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:580
+#: programming-reference.docbook:582
 #, no-c-format
 msgid "<primary>else</primary>"
 msgstr "<प्राथमिक>अन्य</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:581
+#: programming-reference.docbook:583
 #, no-c-format
 msgid "if <link linkend=\"boolean-value\">boolean</link> { ... } else { ... }"
 msgstr ""
 "यदि<link linkend=\"boolean-value\"> बूलियन इति</link> { ... } उत { ... }"
 
 #. Tag: para
-#: programming-reference.docbook:581
+#: programming-reference.docbook:583
 #, no-c-format
 msgid ""
 "<userinput>else</userinput> can be used in addition to the execution "
@@ -2322,31 +2348,31 @@ msgstr ""
 "कोडः<userinput> उत</userinput> निष्पादितः भवति।"
 
 #. Tag: title
-#: programming-reference.docbook:590
+#: programming-reference.docbook:592
 #, no-c-format
 msgid "The <quote>while</quote> loop"
 msgstr "<quote>while</quote> इति पाशः"
 
 #. Tag: term
-#: programming-reference.docbook:593
+#: programming-reference.docbook:595
 #, no-c-format
 msgid "<term>while</term>"
 msgstr "<पदं>तथा</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:593
+#: programming-reference.docbook:595
 #, no-c-format
 msgid "<primary>while</primary>"
 msgstr "<प्राथमिकः>तथा</प्राथमिकः>"
 
 #. Tag: screen
-#: programming-reference.docbook:594
+#: programming-reference.docbook:596
 #, no-c-format
 msgid "while <link linkend=\"boolean-value\">boolean</link> { ... }"
 msgstr "यावद्‌<link linkend=\"boolean-value\"> बूलियन इति</link> { ... } ."
 
 #. Tag: para
-#: programming-reference.docbook:594
+#: programming-reference.docbook:596
 #, no-c-format
 msgid ""
 "The execution controller <userinput>while</userinput> is a lot like <link "
@@ -2382,31 +2408,31 @@ msgstr ""
 "निष्पादिता भवति<userinput> $x</userinput> वर्धते १ ।"
 
 #. Tag: title
-#: programming-reference.docbook:603
+#: programming-reference.docbook:605
 #, no-c-format
 msgid "The <quote>repeat</quote> loop"
 msgstr "<quote>पुनरावृत्ति</quote> पाशः"
 
 #. Tag: term
-#: programming-reference.docbook:606
+#: programming-reference.docbook:608
 #, no-c-format
 msgid "<term>repeat</term>"
 msgstr "<पदं>पुनरावृत्तिः</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:606
+#: programming-reference.docbook:608
 #, no-c-format
 msgid "<primary>repeat</primary>"
 msgstr "<प्राथमिक>पुनः</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:607
+#: programming-reference.docbook:609
 #, no-c-format
 msgid "repeat <link linkend=\"number\">number</link> { ... }"
 msgstr "परिहरन<link linkend=\"number\"> संख्या</link> { ... } ."
 
 #. Tag: para
-#: programming-reference.docbook:607
+#: programming-reference.docbook:609
 #, no-c-format
 msgid ""
 "The execution controller <userinput>repeat</userinput> is a lot like <link "
@@ -2419,37 +2445,37 @@ msgstr ""
 "userinput> कोष्ठकानां मध्ये कोडं यावत्वारं दत्ता संख्यायाः पुनरावृत्तिं (लूपं) करोति ।"
 
 #. Tag: title
-#: programming-reference.docbook:614
+#: programming-reference.docbook:616
 #, no-c-format
 msgid "The <quote>for</quote> loop, a counting loop"
 msgstr "<quote>for</quote> पाशः, गणनापाशः"
 
 #. Tag: term
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "<term>for</term>"
 msgstr "<पदं>कृते</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "<primary>for</primary>"
 msgstr "<प्राथमिकः>कृते</प्राथमिकः>"
 
 #. Tag: primary
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "<primary>to</primary>"
 msgstr "<प्राथमिक>तः</प्रथम>म्"
 
 #. Tag: primary
-#: programming-reference.docbook:617
+#: programming-reference.docbook:619
 #, no-c-format
 msgid "step"
 msgstr "चरण"
 
 #. Tag: screen
-#: programming-reference.docbook:618
+#: programming-reference.docbook:620
 #, no-c-format
 msgid ""
 "for <link linkend=\"assignment-of-variables\">variable</link> = <link "
@@ -2460,7 +2486,7 @@ msgstr ""
 "\"number\"> संख्या</link> इत्यस्मै<link linkend=\"number\"> संख्या</link> { ... } ."
 
 #. Tag: para
-#: programming-reference.docbook:618
+#: programming-reference.docbook:620
 #, no-c-format
 msgid ""
 "The <userinput>for</userinput> loop is a <quote>counting loop</quote>, &ie; "
@@ -2491,14 +2517,14 @@ msgstr ""
 "उपरि द्रक्ष्यन्ति कैनवासः ।"
 
 #. Tag: para
-#: programming-reference.docbook:623
+#: programming-reference.docbook:625
 #, no-c-format
 msgid "The default step size of a loop is 1, you can use an other value with"
 msgstr ""
 "लूप् इत्यस्य पूर्वनिर्धारितः चरणस्य आकारः 1 अस्ति, यस्य सह अन्यं मूल्यं उपयोक्तुं शक्नुवन्ति"
 
 #. Tag: screen
-#: programming-reference.docbook:625
+#: programming-reference.docbook:627
 #, no-c-format
 msgid ""
 "for <link linkend=\"assignment-of-variables\">variable</link> = <link "
@@ -2510,31 +2536,31 @@ msgstr ""
 "linkend=\"number\"> संख्या</link> { ... } ."
 
 #. Tag: title
-#: programming-reference.docbook:631
+#: programming-reference.docbook:633
 #, no-c-format
 msgid "Leave a loop"
 msgstr "एकं पाशं त्यजतु"
 
 #. Tag: term
-#: programming-reference.docbook:634
+#: programming-reference.docbook:636
 #, no-c-format
 msgid "<term>break</term>"
 msgstr "<पद>विच्छेद</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:634
+#: programming-reference.docbook:636
 #, no-c-format
 msgid "<primary>break</primary>"
 msgstr "<प्राथमिक>विच्छेद</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:635
+#: programming-reference.docbook:637
 #, no-c-format
 msgid "<screen>break</screen>"
 msgstr "<स्क्रीन्>भङ्ग</screen>"
 
 #. Tag: para
-#: programming-reference.docbook:635
+#: programming-reference.docbook:637
 #, no-c-format
 msgid ""
 "Terminates the current loop immediately and transfers control to the "
@@ -2544,67 +2570,67 @@ msgstr ""
 "नियन्त्रणं स्थानान्तरयति ।"
 
 #. Tag: title
-#: programming-reference.docbook:642
+#: programming-reference.docbook:644
 #, no-c-format
 msgid "Stop executing your program"
 msgstr "स्वस्य कार्यक्रमस्य निष्पादनं त्यजन्तु"
 
 #. Tag: term
-#: programming-reference.docbook:645
+#: programming-reference.docbook:647
 #, no-c-format
 msgid "<term>exit</term>"
 msgstr "<term>निर्गम</term> इति"
 
 #. Tag: primary
-#: programming-reference.docbook:645
+#: programming-reference.docbook:647
 #, no-c-format
 msgid "<primary>exit</primary>"
 msgstr "<प्राथमिक>निर्गम</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:646
+#: programming-reference.docbook:648
 #, no-c-format
 msgid "<screen>exit</screen>"
 msgstr "<screen>निर्गम</screen>"
 
 #. Tag: para
-#: programming-reference.docbook:646
+#: programming-reference.docbook:648
 #, no-c-format
 msgid "Finishes the execution of your program."
 msgstr "भवतः कार्यक्रमस्य निष्पादनं समाप्तं करोति ।"
 
 #. Tag: title
-#: programming-reference.docbook:653
+#: programming-reference.docbook:655
 #, no-c-format
 msgid "Checking assertions at runtime"
 msgstr "रनटाइम् इत्यत्र प्रतिपादनानां जाँचः"
 
 #. Tag: term
-#: programming-reference.docbook:656
+#: programming-reference.docbook:658
 #, no-c-format
 msgid "<term>assert</term>"
 msgstr "<पद>प्रतिपादन</term>"
 
 #. Tag: primary
-#: programming-reference.docbook:656
+#: programming-reference.docbook:658
 #, no-c-format
 msgid "<primary>assert</primary>"
 msgstr "<प्राथमिक>प्रतिपादन</प्रथम>"
 
 #. Tag: screen
-#: programming-reference.docbook:657
+#: programming-reference.docbook:659
 #, no-c-format
 msgid "assert <link linkend=\"boolean-value\">boolean</link>"
 msgstr "प्रतिपादयतु<link linkend=\"boolean-value\"> बूलियन इति</link>"
 
 #. Tag: para
-#: programming-reference.docbook:657
+#: programming-reference.docbook:659
 #, no-c-format
 msgid "Can be used to reason about program or input correctness."
 msgstr "कार्यक्रमस्य अथवा निवेशस्य सम्यक्त्वस्य विषये तर्कार्थं उपयोक्तुं शक्यते ।"
 
 #. Tag: screen
-#: programming-reference.docbook:659
+#: programming-reference.docbook:661
 #, no-c-format
 msgid ""
 "$in = ask \"What is your year of birth?\"\n"
@@ -2616,13 +2642,13 @@ msgstr ""
 "$in > 0 इति प्रतिपादयन्तु"
 
 #. Tag: title
-#: programming-reference.docbook:668
+#: programming-reference.docbook:670
 #, no-c-format
 msgid "Create your own commands with <quote>learn</quote>"
 msgstr "<quote>learn</quote> इत्यनेन स्वकीयान् आदेशान् रचयन्तु"
 
 #. Tag: para
-#: programming-reference.docbook:669
+#: programming-reference.docbook:671
 #, no-c-format
 msgid ""
 "<userinput>learn</userinput><indexterm><primary>learn</primary></indexterm> "
@@ -2662,7 +2688,7 @@ msgstr ""
 "एतत् उदाहरणं पश्यन्तु-"
 
 #. Tag: screen
-#: programming-reference.docbook:672
+#: programming-reference.docbook:674
 #, no-c-format
 msgid ""
 "learn circle $X {\n"
@@ -2692,7 +2718,7 @@ msgstr ""
 "वृत्तम् ४०"
 
 #. Tag: para
-#: programming-reference.docbook:674
+#: programming-reference.docbook:676
 #, no-c-format
 msgid ""
 "In the next example, a command with a return<indexterm><primary>return</"
@@ -2730,7 +2756,7 @@ msgstr ""
 "भवति, निष्पादनं च प्रत्यागच्छति ।"
 
 #. Tag: para
-#: programming-reference.docbook:677
+#: programming-reference.docbook:679
 #, no-c-format
 msgid ""
 "Commands can have more than one <glossterm linkend=\"input-output\">input</"
