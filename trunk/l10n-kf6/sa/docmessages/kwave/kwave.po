@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwave\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-20 00:58+0000\n"
+"POT-Creation-Date: 2026-10-07 01:01+0000\n"
 "PO-Revision-Date: 2024-12-29 17:56+0530\n"
 "Last-Translator: kali <shreekantkalwar@gmail.com>\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
@@ -1644,11 +1644,17 @@ msgstr ""
 
 #. Tag: para
 #: index.docbook:1022
-#, no-c-format
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<filename>.mp3</filename> and <filename>.mp2</filename> import is "
+#| "available through <ulink url=\"&url_libmad;\">libmad</ulink> for the MP3 "
+#| "decoding in combination with <ulink url=\"&url_id3lib;\">id3lib</ulink> "
+#| "for decoding ID3 tags and <ulink url=\"&url_lame;\">lame</ulink> for "
+#| "encoding."
 msgid ""
 "<filename>.mp3</filename> and <filename>.mp2</filename> import is available "
 "through <ulink url=\"&url_libmad;\">libmad</ulink> for the MP3 decoding in "
-"combination with <ulink url=\"&url_id3lib;\">id3lib</ulink> for decoding ID3 "
+"combination with <ulink url=\"&url_taglib;\">taglib</ulink> for decoding ID3 "
 "tags and <ulink url=\"&url_lame;\">lame</ulink> for encoding."
 msgstr ""
 "<filename>.mp3</filename> तथा <filename>.mp2</filename> आयातः <ulink url="
@@ -5151,7 +5157,7 @@ msgstr "&no-i18n-cmd_लेबल_संपादन;"
 #: index.docbook:5550 index.docbook:5643 index.docbook:5706 index.docbook:5750
 #: index.docbook:5868 index.docbook:5943 index.docbook:6061 index.docbook:6154
 #: index.docbook:6460 index.docbook:6685 index.docbook:6799 index.docbook:6810
-#: index.docbook:7011 index.docbook:7065
+#: index.docbook:7034 index.docbook:7088
 #, no-c-format
 msgid "Screenshot"
 msgstr "स्क्रीनशॉट"
@@ -8161,8 +8167,8 @@ msgstr "About Kwave Plugin इत्यस्य स्क्रीनशॉट�
 #: index.docbook:5472 index.docbook:5562 index.docbook:5655 index.docbook:5718
 #: index.docbook:5762 index.docbook:5834 index.docbook:5880 index.docbook:5955
 #: index.docbook:6073 index.docbook:6166 index.docbook:6388 index.docbook:6410
-#: index.docbook:6472 index.docbook:6697 index.docbook:6822 index.docbook:7023
-#: index.docbook:7077 index.docbook:7159
+#: index.docbook:6472 index.docbook:6697 index.docbook:6822 index.docbook:7046
+#: index.docbook:7100 index.docbook:7182
 #, no-c-format
 msgid "&i18n-plugin_lbl_internal_name;"
 msgstr "&i18n-प्लगइन_lbl_आन्तरिक_नाम;"
@@ -8180,8 +8186,8 @@ msgstr "&no-i18n-प्लगिन्_विषये;"
 #: index.docbook:5476 index.docbook:5566 index.docbook:5659 index.docbook:5722
 #: index.docbook:5766 index.docbook:5838 index.docbook:5884 index.docbook:5959
 #: index.docbook:6077 index.docbook:6170 index.docbook:6392 index.docbook:6414
-#: index.docbook:6476 index.docbook:6701 index.docbook:6826 index.docbook:7027
-#: index.docbook:7081 index.docbook:7163
+#: index.docbook:6476 index.docbook:6701 index.docbook:6826 index.docbook:7050
+#: index.docbook:7104 index.docbook:7186
 #, no-c-format
 msgid "&i18n-plugin_lbl_type;"
 msgstr "&i18n-प्लगइन_lbl_प्रकार;"
@@ -8198,7 +8204,7 @@ msgstr "&GUI;"
 #: index.docbook:5663 index.docbook:5726 index.docbook:5770 index.docbook:5842
 #: index.docbook:5888 index.docbook:5963 index.docbook:6081 index.docbook:6174
 #: index.docbook:6396 index.docbook:6418 index.docbook:6480 index.docbook:6705
-#: index.docbook:6830 index.docbook:7031 index.docbook:7085 index.docbook:7167
+#: index.docbook:6830 index.docbook:7054 index.docbook:7108 index.docbook:7190
 #, no-c-format
 msgid "&i18n-plugin_lbl_description;"
 msgstr "&i18n-प्लगइन_lbl_विवरण;"
@@ -8260,7 +8266,7 @@ msgstr "amplifyfree इति"
 #. Tag: para
 #: index.docbook:4436 index.docbook:4581 index.docbook:5660 index.docbook:5767
 #: index.docbook:5839 index.docbook:5885 index.docbook:5960 index.docbook:6393
-#: index.docbook:6415 index.docbook:7082 index.docbook:7164
+#: index.docbook:6415 index.docbook:7105 index.docbook:7187
 #, no-c-format
 msgid "effect"
 msgstr "परिणाम"
@@ -8304,8 +8310,8 @@ msgstr "कीवर्ड"
 #: index.docbook:4467 index.docbook:4506 index.docbook:5290 index.docbook:5335
 #: index.docbook:5389 index.docbook:5510 index.docbook:5602 index.docbook:5801
 #: index.docbook:6029 index.docbook:6349 index.docbook:6517 index.docbook:6598
-#: index.docbook:6652 index.docbook:6730 index.docbook:6866 index.docbook:7126
-#: index.docbook:7193
+#: index.docbook:6652 index.docbook:6730 index.docbook:6866 index.docbook:6919
+#: index.docbook:7149 index.docbook:7216
 #, no-c-format
 msgid "description"
 msgstr "वर्णनम्‌"
@@ -8536,7 +8542,7 @@ msgstr ""
 #: index.docbook:4607 index.docbook:5271 index.docbook:5499 index.docbook:5591
 #: index.docbook:5685 index.docbook:5781 index.docbook:5914 index.docbook:6000
 #: index.docbook:6092 index.docbook:6185 index.docbook:6427 index.docbook:6499
-#: index.docbook:6715 index.docbook:7042 index.docbook:7105 index.docbook:7178
+#: index.docbook:6715 index.docbook:7065 index.docbook:7128 index.docbook:7201
 #, no-c-format
 msgid "&i18n-plugin_lbl_parameters;"
 msgstr "&i18n-प्लगइन_lbl_पैरामीटर्स;"
@@ -9252,7 +9258,7 @@ msgstr "&no-i18n-प्लगिन्_डिबग;"
 #. Tag: para
 #: index.docbook:5199 index.docbook:5248 index.docbook:5477 index.docbook:5567
 #: index.docbook:5723 index.docbook:6078 index.docbook:6171 index.docbook:6477
-#: index.docbook:6702 index.docbook:6827 index.docbook:7028
+#: index.docbook:6702 index.docbook:6827 index.docbook:7051
 #, no-c-format
 msgid "function"
 msgstr "नियोग"
@@ -9426,8 +9432,8 @@ msgstr "चयनमात्रम्"
 #. Tag: entry
 #: index.docbook:5334 index.docbook:5388 index.docbook:5509 index.docbook:5601
 #: index.docbook:5800 index.docbook:6028 index.docbook:6348 index.docbook:6597
-#: index.docbook:6651 index.docbook:6729 index.docbook:6865 index.docbook:7125
-#: index.docbook:7192
+#: index.docbook:6651 index.docbook:6729 index.docbook:6865 index.docbook:6918
+#: index.docbook:7148 index.docbook:7215
 #, no-c-format
 msgid "value"
 msgstr "मूल्यम्‌"
@@ -9435,7 +9441,7 @@ msgstr "मूल्यम्‌"
 #. Tag: entry
 #: index.docbook:5340 index.docbook:5394 index.docbook:5515 index.docbook:5607
 #: index.docbook:5806 index.docbook:6034 index.docbook:6603 index.docbook:6657
-#: index.docbook:6735 index.docbook:7131 index.docbook:7198
+#: index.docbook:6735 index.docbook:6924 index.docbook:7154 index.docbook:7221
 #, no-c-format
 msgid "&no-i18n-tag;<command>0</command>"
 msgstr "&no-i18n-tag;<आज्ञा>0</command>"
@@ -9449,7 +9455,8 @@ msgstr "सम्पूर्णसञ्चिकायाः सर्वा�
 #. Tag: entry
 #: index.docbook:5346 index.docbook:5401 index.docbook:5519 index.docbook:5611
 #: index.docbook:5813 index.docbook:6041 index.docbook:6611 index.docbook:6663
-#: index.docbook:6739 index.docbook:7135 index.docbook:7139 index.docbook:7202
+#: index.docbook:6739 index.docbook:6928 index.docbook:7158 index.docbook:7162
+#: index.docbook:7225
 #, no-c-format
 msgid "&no-i18n-tag;<command>1</command>"
 msgstr "&no-i18n-tag;<आदेशः1</command>"
@@ -9583,7 +9590,7 @@ msgstr ""
 
 #. Tag: replaceable
 #: index.docbook:5503 index.docbook:5595 index.docbook:5794 index.docbook:6022
-#: index.docbook:7118
+#: index.docbook:7141
 #, no-c-format
 msgid "mode"
 msgstr "मोड्"
@@ -9601,7 +9608,8 @@ msgid "position is given in samples"
 msgstr "स्थानं नमूनासु दत्तं भवति"
 
 #. Tag: entry
-#: index.docbook:5523 index.docbook:5615 index.docbook:6743 index.docbook:7206
+#: index.docbook:5523 index.docbook:5615 index.docbook:6743 index.docbook:6932
+#: index.docbook:7229
 #, no-c-format
 msgid "&no-i18n-tag;<command>2</command>"
 msgstr "&no-i18n-tag;<command>2</command> इति"
@@ -10675,19 +10683,19 @@ msgid ""
 msgstr "चयनस्य <emphasis>प्रारम्भः</emphasis> येषु एककेषु दीयते इति निर्धारयति ।"
 
 #. Tag: entry
-#: index.docbook:6736 index.docbook:7199
+#: index.docbook:6736 index.docbook:7222
 #, no-c-format
 msgid "milliseconds"
 msgstr "मिलीसेकेण्ड्"
 
 #. Tag: entry
-#: index.docbook:6740 index.docbook:7203
+#: index.docbook:6740 index.docbook:7226
 #, no-c-format
 msgid "samples"
 msgstr "नमूनानि"
 
 #. Tag: entry
-#: index.docbook:6744 index.docbook:7207
+#: index.docbook:6744 index.docbook:7230
 #, no-c-format
 msgid "percentage of the length of the file"
 msgstr "सञ्चिकायाः दीर्घतायाः प्रतिशतं भवति"
@@ -10727,7 +10735,7 @@ msgstr ""
 "<parameter>range mode</parameter> इत्यस्य आधारेण ।"
 
 #. Tag: replaceable
-#: index.docbook:6780 index.docbook:7216
+#: index.docbook:6780 index.docbook:7239
 #, no-c-format
 msgid "length"
 msgstr "दैर्घ्यम्‌"
@@ -10875,27 +10883,45 @@ msgstr "त्रिकोणीय खिडकी"
 
 #. Tag: replaceable
 #: index.docbook:6910
-#, no-c-format
-msgid "use colors"
-msgstr "वर्णानाम् उपयोगं कुर्वन्तु"
+#, fuzzy, no-c-format
+#| msgid "start mode"
+msgid "color mode"
+msgstr "start mode"
 
 #. Tag: para
 #: index.docbook:6912
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The format of an ASCII file is quite simple and has the following rules:"
+msgid "The color mode can be set to one of the following values:"
+msgstr "ASCII सञ्चिकायाः प्रारूपं तु अत्यन्तं सरलं भवति, तस्य निम्नलिखितनियमाः सन्ति ।"
+
+#. Tag: entry
+#: index.docbook:6925
 #, no-c-format
-msgid ""
-"If set to non-zero, use colors for intensity, if set to zero use grayscales."
+msgid "grayscale"
 msgstr ""
-"यदि अशून्यरूपेण सेट् भवति तर्हि तीव्रतायै वर्णानाम् उपयोगं कुर्वन्तु, यदि शून्यं सेट् भवति तर्हि "
-"ग्रेस्केल्स् इत्यस्य उपयोगं कुर्वन्तु ।"
+
+#. Tag: entry
+#: index.docbook:6929
+#, no-c-format
+msgid "color (RGB)"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:6933
+#, no-c-format
+msgid "color (HSV)"
+msgstr ""
 
 #. Tag: replaceable
-#: index.docbook:6920
+#: index.docbook:6943
 #, no-c-format
 msgid "track changes"
 msgstr "परिवर्तनं ट्रैक करोति"
 
 #. Tag: para
-#: index.docbook:6922
+#: index.docbook:6945
 #, no-c-format
 msgid ""
 "If set to non-zero, the sonagram will be updated when the area that was "
@@ -10905,32 +10931,32 @@ msgstr ""
 "परिवर्तितः भवति । यदि शून्यं सेट् भवति तर्हि कदापि अद्यतनं न भविष्यति ।"
 
 #. Tag: replaceable
-#: index.docbook:6931
+#: index.docbook:6954
 #, no-c-format
 msgid "follow selection"
 msgstr "चयनं अनुसरणं कुर्वन्तु"
 
 #. Tag: para
-#: index.docbook:6933
+#: index.docbook:6956
 #, no-c-format
 msgid "Not yet implemented, use zero for this parameter."
 msgstr "अद्यापि कार्यान्वितं न, अस्य पैरामीटर् कृते शून्यस्य उपयोगं कुर्वन्तु ।"
 
 #. Tag: emphasis
-#: index.docbook:6944
+#: index.docbook:6967
 #, fuzzy, no-c-format
 #| msgid "&i18n-plugin_lbl_parameters;"
 msgid "&i18n-plugin_lbl_parameters; (load from file mode)"
 msgstr "&i18n-प्लगइन_lbl_पैरामीटर्स;"
 
 #. Tag: literal
-#: index.docbook:6948
+#: index.docbook:6971
 #, no-c-format
 msgid "load"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:6950
+#: index.docbook:6973
 #, no-c-format
 msgid ""
 "If the first parameter is the word \"<literal>load</literal>\" then the "
@@ -10938,33 +10964,33 @@ msgid ""
 msgstr ""
 
 #. Tag: replaceable
-#: index.docbook:6958 index.docbook:6994
+#: index.docbook:6981 index.docbook:7017
 #, no-c-format
 msgid "filename"
 msgstr "सञ्चिकानाम"
 
 #. Tag: para
-#: index.docbook:6960 index.docbook:6996
+#: index.docbook:6983 index.docbook:7019
 #, fuzzy, no-c-format
 #| msgid "Name of the opened file"
 msgid "Name of the file to load."
 msgstr "उद्घाटितसञ्चिकायाः नाम"
 
 #. Tag: emphasis
-#: index.docbook:6970
+#: index.docbook:6993
 #, fuzzy, no-c-format
 #| msgid "&i18n-plugin_lbl_parameters;"
 msgid "&i18n-plugin_lbl_parameters; (save to file mode)"
 msgstr "&i18n-प्लगइन_lbl_पैरामीटर्स;"
 
 #. Tag: literal
-#: index.docbook:6974
+#: index.docbook:6997
 #, no-c-format
 msgid "save"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:6976
+#: index.docbook:6999
 #, no-c-format
 msgid ""
 "If the first parameter is the word \"<literal>save</literal>\" then the "
@@ -10973,13 +10999,13 @@ msgid ""
 msgstr ""
 
 #. Tag: replaceable
-#: index.docbook:6984
+#: index.docbook:7007
 #, no-c-format
 msgid "index"
 msgstr ""
 
 #. Tag: para
-#: index.docbook:6986
+#: index.docbook:7009
 #, no-c-format
 msgid ""
 "The numeric index of the sonagram window that shows the sonagram to be "
@@ -10988,25 +11014,25 @@ msgid ""
 msgstr ""
 
 #. Tag: title
-#: index.docbook:7009
+#: index.docbook:7032
 #, no-c-format
 msgid "&no-i18n-plugin_stringenter; (Enter Command)"
 msgstr "&no-i18n-प्लगिन्_स्ट्रिंगेन्टर; (आदेशं प्रविशतु)"
 
 #. Tag: phrase
-#: index.docbook:7017
+#: index.docbook:7040
 #, no-c-format
 msgid "Screenshot of the Enter Command Plugin"
 msgstr "Enter Command Plugin इत्यस्य स्क्रीनशॉट्"
 
 #. Tag: literal
-#: index.docbook:7024
+#: index.docbook:7047
 #, no-c-format
 msgid "&no-i18n-plugin_stringenter;"
 msgstr "&no-i18n-प्लगिन्_स्ट्रिंगेन्टर;"
 
 #. Tag: para
-#: index.docbook:7033
+#: index.docbook:7056
 #, no-c-format
 msgid ""
 "A small dialog window that allows to enter a &kwave; text command. Please "
@@ -11017,13 +11043,13 @@ msgstr ""
 "\"kwave_commands\" endterm=\"title_kwave_commands\"></link> अस्मिन् पुस्तिकायां ।"
 
 #. Tag: term
-#: index.docbook:7046
+#: index.docbook:7069
 #, no-c-format
 msgid "<replaceable>preset</replaceable> (optional)"
 msgstr "<replaceable>पूर्वनिर्धारित</replaceable> (वैकल्पिकम्)"
 
 #. Tag: para
-#: index.docbook:7048
+#: index.docbook:7071
 #, no-c-format
 msgid ""
 "A text that is shown in the edit field when entering the dialog. This "
@@ -11034,25 +11060,25 @@ msgstr ""
 "संवादस्य सम्पादनक्षेत्रं आरम्भे रिक्तं भविष्यति ।"
 
 #. Tag: title
-#: index.docbook:7063
+#: index.docbook:7086
 #, no-c-format
 msgid "&no-i18n-plugin_volume; (Volume)"
 msgstr "&no-i18n-प्लगइन_मात्रा; (मात्रा)"
 
 #. Tag: phrase
-#: index.docbook:7071
+#: index.docbook:7094
 #, no-c-format
 msgid "Screenshot of the Volume Plugin"
 msgstr "Volume Plugin इत्यस्य स्क्रीनशॉट्"
 
 #. Tag: literal
-#: index.docbook:7078
+#: index.docbook:7101
 #, no-c-format
 msgid "&no-i18n-plugin_volume;"
 msgstr "&no-i18n-प्लगइन_मात्रा;"
 
 #. Tag: para
-#: index.docbook:7087
+#: index.docbook:7110
 #, no-c-format
 msgid ""
 "With this plugin you can change the volume of the current selection by a "
@@ -11068,7 +11094,7 @@ msgstr ""
 "पर्यन्तम् ।"
 
 #. Tag: para
-#: index.docbook:7096
+#: index.docbook:7119
 #, no-c-format
 msgid ""
 "Use a factor above 1.0 (or percentage above 100 or more than 0 dB) if the "
@@ -11080,49 +11106,49 @@ msgstr ""
 "प्रतिशतं वा 0 dB इत्यस्मात् न्यूनं वा) यदि सञ्चिका अत्यधिकं उच्चैः भवति"
 
 #. Tag: replaceable
-#: index.docbook:7109
+#: index.docbook:7132
 #, no-c-format
 msgid "<replaceable>factor</replaceable>"
 msgstr "<प्रतिस्थापनीय>कारक</replaceable>"
 
 #. Tag: para
-#: index.docbook:7111
+#: index.docbook:7134
 #, no-c-format
 msgid "A floating point value with the amplification factor."
 msgstr "प्रवर्धनकारकेन सह एकं प्लवमानबिन्दुमूल्यम् ।"
 
 #. Tag: entry
-#: index.docbook:7132
+#: index.docbook:7155
 #, no-c-format
 msgid "<entry>factor</entry>"
 msgstr "<प्रविष्टि>कारक</entry>"
 
 #. Tag: entry
-#: index.docbook:7136
+#: index.docbook:7159
 #, no-c-format
 msgid "percentage"
 msgstr "प्रतिशतम्"
 
 #. Tag: entry
-#: index.docbook:7140
+#: index.docbook:7163
 #, no-c-format
 msgid "decibel"
 msgstr "डेसिबल इति"
 
 #. Tag: title
-#: index.docbook:7156
+#: index.docbook:7179
 #, no-c-format
 msgid "&no-i18n-plugin_zero; (Zero Generator)"
 msgstr "&no-i18n-प्लगिन्_शून्य; (शून्य जनरेटर)"
 
 #. Tag: literal
-#: index.docbook:7160
+#: index.docbook:7183
 #, no-c-format
 msgid "&no-i18n-plugin_zero;"
 msgstr "&no-i18n-प्लगइन_शून्य;"
 
 #. Tag: para
-#: index.docbook:7169
+#: index.docbook:7192
 #, no-c-format
 msgid ""
 "This plugin has two modes of operation. If used without parameters it wipes "
@@ -11135,13 +11161,13 @@ msgstr ""
 "आरम्भे किञ्चित् मौनं निवेशयति ।"
 
 #. Tag: replaceable
-#: index.docbook:7182
+#: index.docbook:7205
 #, no-c-format
 msgid "length mode"
 msgstr "लम्बता मोड"
 
 #. Tag: para
-#: index.docbook:7184
+#: index.docbook:7207
 #, no-c-format
 msgid ""
 "Determines the units in which the <emphasis>length</emphasis> of the "
@@ -11150,7 +11176,7 @@ msgstr ""
 "यस्मिन् एककेषु निवेशितमौनस्य <emphasis>दीर्घता</emphasis> दीयते इति निर्धारयति ।"
 
 #. Tag: para
-#: index.docbook:7218
+#: index.docbook:7241
 #, no-c-format
 msgid ""
 "Length of the silence to insert, in milliseconds, samples or percentage of "
@@ -11161,19 +11187,19 @@ msgstr ""
 "प्रतिशतं, पैरामीटर् <parameter>length mode</parameter> इत्यस्य आधारेण"
 
 #. Tag: title
-#: index.docbook:7240
+#: index.docbook:7263
 #, no-c-format
 msgid "Questions and Answers"
 msgstr "प्रश्नोत्तरम्"
 
 #. Tag: para
-#: index.docbook:7248
+#: index.docbook:7271
 #, no-c-format
 msgid "What do I need to compile &kwave;?"
 msgstr "&kwave;-संकलनार्थं मया किं आवश्यकम्?"
 
 #. Tag: para
-#: index.docbook:7253
+#: index.docbook:7276
 #, no-c-format
 msgid ""
 "Read in the <ulink url=\"&url_devel_requirements;\">developer documentation</"
@@ -11182,13 +11208,13 @@ msgstr ""
 "<ulink url=\"&url_devel_requirements;\">विकासकदस्तावेजने</ulink> इत्यत्र पठन्तु ।"
 
 #. Tag: para
-#: index.docbook:7262
+#: index.docbook:7285
 #, no-c-format
 msgid "Which sound cards does &kwave; support?"
 msgstr "के ध्वनिपत्राणि &kwave; समर्थनम्‌?"
 
 #. Tag: para
-#: index.docbook:7267
+#: index.docbook:7290
 #, no-c-format
 msgid ""
 "&kwave; does not need support for any special sound card. The sound card "
@@ -11201,7 +11227,7 @@ msgstr ""
 "सिस्टम् इत्यस्य ध्वनिचालकं प्रति स्वस्य अन्तरफलकस्य उपयोगं करोति ।"
 
 #. Tag: para
-#: index.docbook:7279
+#: index.docbook:7302
 #, no-c-format
 msgid ""
 "Why does &kwave; consume more memory than it can be expected from the size "
@@ -11210,7 +11236,7 @@ msgstr ""
 "किमर्थं &wave; उद्घाटितसञ्चिकायाः आकारात् अपेक्षितापेक्षया अधिका स्मृतिः उपभोक्तुं शक्नुवन्ति?"
 
 #. Tag: para
-#: index.docbook:7285
+#: index.docbook:7308
 #, no-c-format
 msgid ""
 "The reason for this is that &kwave; internally stores all samples in 32-bit "
@@ -11225,13 +11251,13 @@ msgstr ""
 "मेगाबाइट् उपभोगं करिष्यति । कदाचित् भविष्ये कुत्रचित् एतत् परिवर्तयिष्यामः..."
 
 #. Tag: para
-#: index.docbook:7298
+#: index.docbook:7321
 #, no-c-format
 msgid "Which sound formats does &kwave; support?"
 msgstr "के ध्वनिस्वरूपाः &kwave; समर्थनम्‌?"
 
 #. Tag: para
-#: index.docbook:7303
+#: index.docbook:7326
 #, no-c-format
 msgid ""
 "&kwave; currently supports .wav files with 8, 16 and 24 bits per sample, "
@@ -11245,13 +11271,13 @@ msgstr ""
 "प्रारूपाः यथा Ogg/Vorbis तथा MP3 ।"
 
 #. Tag: para
-#: index.docbook:7315
+#: index.docbook:7338
 #, no-c-format
 msgid "What if I have files with a format not supported by &kwave;?"
 msgstr "यदि मम सञ्चिकाः सन्ति येषां प्रारूपं &kwave;-इत्यनेन समर्थितं नास्ति तर्हि किम्?"
 
 #. Tag: para
-#: index.docbook:7321
+#: index.docbook:7344
 #, no-c-format
 msgid ""
 "If you have to work on a different format, you can convert it into .wav "
@@ -11263,13 +11289,13 @@ msgstr ""
 "संकुलमध्ये अस्ति, तेषां किञ्चित् सुन्दरं दस्तावेजम् अपि अस्ति!"
 
 #. Tag: para
-#: index.docbook:7333
+#: index.docbook:7356
 #, no-c-format
 msgid "I get errors when I want to do playback?"
 msgstr "यदा अहं प्लेबैक् कर्तुम् इच्छामि तदा त्रुटयः प्राप्नोमि?"
 
 #. Tag: para
-#: index.docbook:7338
+#: index.docbook:7361
 #, no-c-format
 msgid ""
 "Maybe you have chosen a combination of playback rate and sample size that is "
@@ -11285,13 +11311,13 @@ msgstr ""
 "द्वारा सर्वथा समर्थिताः न सन्ति ।"
 
 #. Tag: para
-#: index.docbook:7352
+#: index.docbook:7375
 #, no-c-format
 msgid "The playback seems to do something but I hear nothing?"
 msgstr "प्लेबैक् किमपि करोति इव किन्तु अहं किमपि न शृणोमि?"
 
 #. Tag: para
-#: index.docbook:7357
+#: index.docbook:7380
 #, no-c-format
 msgid ""
 "Maybe you have forgotten to increase the volume of the playback channel. "
@@ -11301,25 +11327,25 @@ msgstr ""
 "उत्तरदायी नास्ति ।"
 
 #. Tag: para
-#: index.docbook:7367
+#: index.docbook:7390
 #, no-c-format
 msgid "Some files are played with half-speed?"
 msgstr "केचन सञ्चिकाः अर्धवेगेन क्रीड्यन्ते?"
 
 #. Tag: para
-#: index.docbook:7372
+#: index.docbook:7395
 #, no-c-format
 msgid "Try choosing a different sound playback device."
 msgstr "भिन्नं ध्वनिवादनयन्त्रं चिन्वन्तु ।"
 
 #. Tag: para
-#: index.docbook:7380
+#: index.docbook:7403
 #, no-c-format
 msgid "The playback sometimes is disturbed and interrupted?"
 msgstr "प्लेबैक् कदाचित् बाधितं बाधितं च भवति?"
 
 #. Tag: para
-#: index.docbook:7385
+#: index.docbook:7408
 #, no-c-format
 msgid ""
 "You should increase the size of the playback buffer to get a \"smoother\" "
@@ -11329,13 +11355,13 @@ msgstr ""
 "प्रतिक्रिया अपि किञ्चित् मन्दतरं भवति) ।"
 
 #. Tag: para
-#: index.docbook:7395
+#: index.docbook:7418
 #, no-c-format
 msgid "The playback does not stop if I immediately press the stop button?"
 msgstr "यदि अहं तत्क्षणमेव स्थगितबटनं नुदामि तर्हि प्लेबैक् न स्थगयति?"
 
 #. Tag: para
-#: index.docbook:7401
+#: index.docbook:7424
 #, no-c-format
 msgid ""
 "The reason for this is that the sound driver already has received some "
@@ -11347,19 +11373,19 @@ msgstr ""
 "बफरस्य आकारं न्यूनीकरोतु ततः शीघ्रं प्रतिक्रियां दातव्या (किन्तु व्यत्ययान् अधिकं सम्भाव्यते) ।"
 
 #. Tag: para
-#: index.docbook:7413
+#: index.docbook:7436
 #, no-c-format
 msgid "Is ALSA supported?"
 msgstr "किं ALSA समर्थितम् ?"
 
 #. Tag: para
-#: index.docbook:7418
+#: index.docbook:7441
 #, no-c-format
 msgid "Yes, since v0.7.4 for playback and recording"
 msgstr "आम्, यतः v0.7.4 प्लेबैक्, रिकार्डिङ्ग् च कृते"
 
 #. Tag: para
-#: index.docbook:7426
+#: index.docbook:7449
 #, no-c-format
 msgid ""
 "What about playback with 18, 20, 24 or 32 bits per sample or more than two "
@@ -11368,25 +11394,25 @@ msgstr ""
 "प्रतिनमूना १८, २०, २४ वा ३२ बिट् वा द्वयोः चॅनेल्-योः अधिकयोः प्लेबैक् इत्यस्य विषये किम्?"
 
 #. Tag: para
-#: index.docbook:7432
+#: index.docbook:7455
 #, no-c-format
 msgid "This is possible through the ALSA interface, since v0.7.4."
 msgstr "एतत् ALSA अन्तरफलकद्वारा सम्भवति, यतः v0.7.4 ।"
 
 #. Tag: title
-#: index.docbook:7462
+#: index.docbook:7485
 #, no-c-format
 msgid "Credits and License"
 msgstr "श्रेयः अनुज्ञापत्रं च"
 
 #. Tag: para
-#: index.docbook:7464
+#: index.docbook:7487
 #, no-c-format
 msgid "&kwave;"
 msgstr "& अभवत्;"
 
 #. Tag: para
-#: index.docbook:7466
+#: index.docbook:7489
 #, no-c-format
 msgid ""
 "Program copyright from 1998-2000 Martin Wilz <email>martin@wilz.de</email>"
@@ -11395,7 +11421,7 @@ msgstr ""
 "email>"
 
 #. Tag: para
-#: index.docbook:7470
+#: index.docbook:7493
 #, no-c-format
 msgid ""
 "Program copyright since 2000 Thomas Eschenbacher <email>thomas."
@@ -11405,7 +11431,7 @@ msgstr ""
 "eschenbacher@gmx.de</email>"
 
 #. Tag: para
-#: index.docbook:7474
+#: index.docbook:7497
 #, no-c-format
 msgid ""
 "For a complete list of authors and licenses of all files, please refer to "
@@ -11421,7 +11447,7 @@ msgstr ""
 "योगदातृन् च सूचीबद्धं करोति ।"
 
 #. Tag: para
-#: index.docbook:7482
+#: index.docbook:7505
 #, no-c-format
 msgid ""
 "Documentation copyright (C) 2020 Thomas Eschenbacher <email>thomas."
@@ -11431,7 +11457,7 @@ msgstr ""
 "eschenbacher@gmx.de</email>"
 
 #. Tag: para
-#: index.docbook:7486
+#: index.docbook:7509
 #, no-c-format
 msgid ""
 "Documentation copyright (C) 2024 Mark Penner <email>mrp@markpenner.space</"
@@ -11440,157 +11466,157 @@ msgstr ""
 "दस्तावेजीकरणप्रतिलिपिधर्मः (C) २०२४ मार्क पेनर् <email>mrp@markpenner.space</email>"
 
 #. Tag: trans_comment
-#: index.docbook:7490
+#: index.docbook:7513
 #, no-c-format
 msgid "CREDIT_FOR_TRANSLATORS"
 msgstr "अनुवादकाणां कृते CREDIT_FOR"
 
 #. Tag: chapter
-#: index.docbook:7490
+#: index.docbook:7513
 #, no-c-format
 msgid "&underFDL; &underGPL;"
 msgstr "&अन्तर्गतFDL; & underGPL;"
 
 #. Tag: title
-#: index.docbook:7494
+#: index.docbook:7517
 #, no-c-format
 msgid "Main Authors"
 msgstr "मुख्य लेखक"
 
 #. Tag: emphasis
-#: index.docbook:7498
+#: index.docbook:7521
 #, no-c-format
 msgid "Martin Wilz <email>martin@wilz.de</email>"
 msgstr "मार्टिन् विल्ज् <email>martin@wilz.de</email> इति"
 
 #. Tag: para
-#: index.docbook:7501
+#: index.docbook:7524
 #, no-c-format
 msgid "creator of the project, active development 1998-2000"
 msgstr "परियोजनायाः निर्माता, सक्रियविकासः १९९८-२०००"
 
 #. Tag: emphasis
-#: index.docbook:7506
+#: index.docbook:7529
 #, no-c-format
 msgid "Thomas Eschenbacher <email>thomas.eschenbacher@gmx.de</email>"
 msgstr "थॉमस एशेन्बकर <email>thomas.eschenbacher@gmx.de</email> इति"
 
 #. Tag: para
-#: index.docbook:7509
+#: index.docbook:7532
 #, no-c-format
 msgid "maintainer since 2000, core development"
 msgstr "2000 तः परिपालकः, मूलविकासः"
 
 #. Tag: title
-#: index.docbook:7517
+#: index.docbook:7540
 #, no-c-format
 msgid "Major Contributors"
 msgstr "प्रमुख योगदानकर्ता"
 
 #. Tag: emphasis
-#: index.docbook:7521
+#: index.docbook:7544
 #, no-c-format
 msgid "Aurelien Jarno <email>aurel32@debian.org</email>"
 msgstr "औरेलियन जार्नो <email>aurel32@debian.org</email> इति"
 
 #. Tag: para
-#: index.docbook:7524
+#: index.docbook:7547
 #, no-c-format
 msgid "<ulink url=\"&url_debian;\">debian</ulink> packager, patches"
 msgstr "<ulink url=\"&url_debian;\">डेबियन</ulink> संकुलकर्ता, पट्टिकाः"
 
 #. Tag: emphasis
-#: index.docbook:7530
+#: index.docbook:7553
 #, no-c-format
 msgid "Carlos R <email>pureacetone@gmail.com</email>"
 msgstr "कार्लोस आर <email>pureacetone@gmail.com</email>"
 
 #. Tag: para
-#: index.docbook:7533
+#: index.docbook:7556
 #, no-c-format
 msgid "spanish translation"
 msgstr "स्पेनिश अनुवाद"
 
 #. Tag: emphasis
-#: index.docbook:7538
+#: index.docbook:7561
 #, no-c-format
 msgid "David Flogeras <email>dflogera@nbnet.nb.ca</email>"
 msgstr "डेविड् फ्लोगेरास् <email>dflogera@nbnet.nb.ca</email> इति"
 
 #. Tag: para
-#: index.docbook:7541
+#: index.docbook:7564
 #, no-c-format
 msgid "Notch Filter plugin"
 msgstr "Notch Filter प्लगइन"
 
 #. Tag: emphasis
-#: index.docbook:7546
+#: index.docbook:7569
 #, no-c-format
 msgid "Gilles Caulier <email>caulier.gilles@free.fr</email>"
 msgstr "गिल्स कॉलियर <email>caulier.gilles@free.fr</email> इति"
 
 #. Tag: para
-#: index.docbook:7549
+#: index.docbook:7572
 #, no-c-format
 msgid "i18n, french translations, splashscreen, beta tester"
 msgstr "i18n, फ्रेंच अनुवाद, स्पलैशस्क्रीन, बीटा परीक्षक"
 
 #. Tag: emphasis
-#: index.docbook:7554
+#: index.docbook:7577
 #, no-c-format
 msgid "Mark Penner <email>mrp@markpenner.space</email>"
 msgstr "मार्क पेनर् <email>mrp@markpenner.space</email> इति"
 
 #. Tag: para
-#: index.docbook:7557
+#: index.docbook:7580
 #, no-c-format
 msgid "development"
 msgstr "विकासः"
 
 #. Tag: emphasis
-#: index.docbook:7562
+#: index.docbook:7585
 #, no-c-format
 msgid "Pavel Fric <email>pavelfric@seznam.cz</email>"
 msgstr "पावेल फ्रिक <email>pavelfric@seznam.cz</email>"
 
 #. Tag: para
-#: index.docbook:7565
+#: index.docbook:7588
 #, no-c-format
 msgid "Czech translation"
 msgstr "चेक अनुवाद"
 
 #. Tag: emphasis
-#: index.docbook:7570
+#: index.docbook:7593
 #, no-c-format
 msgid "Ralf Waspe <email>rwaspe@web.de</email>"
 msgstr "राल्फ वास्पे <email>rwaspe@web.de</email> इति"
 
 #. Tag: para
-#: index.docbook:7573
+#: index.docbook:7596
 #, no-c-format
 msgid "Help/About plugin"
 msgstr "सहायता/प्लगिन् विषये"
 
 #. Tag: emphasis
-#: index.docbook:7578
+#: index.docbook:7601
 #, no-c-format
 msgid "Sven-Steffen Arndt <email>ssa29@gmx.de</email>"
 msgstr "स्वेन्-स्टीफन् आर्न्ड्ट् <email>ssa29@gmx.de</email>"
 
 #. Tag: para
-#: index.docbook:7581
+#: index.docbook:7604
 #, no-c-format
 msgid "homepage, german translation"
 msgstr "मुखपृष्ठ, जर्मन अनुवाद"
 
 #. Tag: title
-#: index.docbook:7589
+#: index.docbook:7612
 #, no-c-format
 msgid "Minor contributors, copyright holders and others"
 msgstr "लघु योगदातारः, प्रतिलिपिधर्मधारकाः इत्यादयः"
 
 #. Tag: para
-#: index.docbook:7593
+#: index.docbook:7616
 #, no-c-format
 msgid ""
 "<emphasis role=\"bold\"> Bertrand Songis <email>bsongis@gmail.com</email> </"
@@ -11600,7 +11626,7 @@ msgstr ""
 "emphasis><emphasis>[ऐतिहासिक]</emphasis>"
 
 #. Tag: para
-#: index.docbook:7595
+#: index.docbook:7618
 #, no-c-format
 msgid ""
 "french translation fixes, substitutes for patented libaudiofile code, debian "
@@ -11609,55 +11635,55 @@ msgstr ""
 "फ्रेंच अनुवाद निराकरणं, पेटन्टकृतस्य libaudiofile कोडस्य विकल्पः, debian bug 419124"
 
 #. Tag: emphasis
-#: index.docbook:7602
+#: index.docbook:7625
 #, no-c-format
 msgid "Carsten Lohrke <email>carlo@gentoo.org</email>"
 msgstr "कार्स्टेन लोहर्के <email>carlo@gentoo.org</email> इति"
 
 #. Tag: para
-#: index.docbook:7604
+#: index.docbook:7627
 #, no-c-format
 msgid "svn r2163, patch for libaudiofile detection"
 msgstr "svn r2163, libaudiofile अन्वेषणार्थं पैचः"
 
 #. Tag: emphasis
-#: index.docbook:7609
+#: index.docbook:7632
 #, no-c-format
 msgid "Chris Vaill <email>chrisvaill@gmail</email>"
 msgstr "क्रिस वैल् <email>chrisvaill@gmail</email> इति"
 
 #. Tag: para
-#: index.docbook:7611
+#: index.docbook:7634
 #, no-c-format
 msgid "code base for the normalize plugin"
 msgstr "normalize प्लगिन् कृते कोड आधारः"
 
 #. Tag: emphasis
-#: index.docbook:7616
+#: index.docbook:7639
 #, no-c-format
 msgid "David Faure <email>faure@kde.org</email>"
 msgstr "डेविड् फौरे <email>faure@kde.org</email> इति"
 
 #. Tag: para
-#: index.docbook:7618 index.docbook:7692
+#: index.docbook:7641 index.docbook:7715
 #, no-c-format
 msgid "cmake/FindAlsa.cmake"
 msgstr "cmake/FindAlsa.cmake इति"
 
 #. Tag: emphasis
-#: index.docbook:7623
+#: index.docbook:7646
 #, no-c-format
 msgid "Diederick de Vries <email>diederick76@gmail.com</email>"
 msgstr "डाइडेरिक् डी व्रीस् <email>diederick76@gmail.com</email> इति"
 
 #. Tag: para
-#: index.docbook:7626
+#: index.docbook:7649
 #, no-c-format
 msgid "packaging for Crux Linux"
 msgstr "Crux Linux कृते packaging इति"
 
 #. Tag: emphasis
-#: index.docbook:7631
+#: index.docbook:7654
 #, no-c-format
 msgid ""
 "Espen Sand <email>espen@kde.org</email> + Mirko Boehm <email>mirko@kde.org</"
@@ -11667,55 +11693,55 @@ msgstr ""
 "email> इति"
 
 #. Tag: para
-#: index.docbook:7634
+#: index.docbook:7657
 #, no-c-format
 msgid "K3AboutContainer, base of KwaveAboutContainer"
 msgstr "K3AboutContainer, KwaveAboutContainer इत्यस्य आधारः"
 
 #. Tag: emphasis
-#: index.docbook:7639
+#: index.docbook:7662
 #, no-c-format
 msgid "Everaldo Coelho <email>contact@everaldo.com</email>"
 msgstr "एवराल्डो कोएल्हो <email>contact@everaldo.com</email> इति"
 
 #. Tag: para
-#: index.docbook:7641
+#: index.docbook:7664
 #, no-c-format
 msgid "the crystal icon theme http://www.everaldo.com/crystal/"
 msgstr "स्फटिकचिह्न विषयः http://www.everaldo.com/crystal/"
 
 #. Tag: emphasis
-#: index.docbook:7646
+#: index.docbook:7669
 #, no-c-format
 msgid "Jaroslav Kysela"
 msgstr "जारोस्लाव काइसेला"
 
 #. Tag: para
-#: index.docbook:7648
+#: index.docbook:7671
 #, no-c-format
 msgid "parts of plugins/playback/PlayBack-ALSA.cpp"
 msgstr "प्लगिन्स्/प्लेबैक/PlayBack-ALSA.cpp इत्यस्य भागाः"
 
 #. Tag: emphasis
-#: index.docbook:7653
+#: index.docbook:7676
 #, no-c-format
 msgid "Jeff Tranter"
 msgstr "जेफ् ट्रैन्टर"
 
 #. Tag: para
-#: index.docbook:7655 index.docbook:7714
+#: index.docbook:7678 index.docbook:7737
 #, no-c-format
 msgid "parts of plugins/pitch_shift/PitchShiftFilter.{h,cpp}"
 msgstr "प्लगिन्स्/pitch_shift/PitchShiftFilter इत्यस्य भागाः।{h,cpp}"
 
 #. Tag: emphasis
-#: index.docbook:7660
+#: index.docbook:7683
 #, no-c-format
 msgid "Juhana Sadeharju <email>kouhia@nic.funet.fi</email>"
 msgstr "जुहाना सदेहर्जु <email>kouhia@nic.funet.fi</email>"
 
 #. Tag: para
-#: index.docbook:7662
+#: index.docbook:7685
 #, no-c-format
 msgid ""
 "plugins/band_pass/BandPass.{h,cpp}, plugins/lowpass/LowPassFilter.cpp, "
@@ -11725,91 +11751,91 @@ msgstr ""
 "notch_filter/NotchFilter.{h,cpp}"
 
 #. Tag: emphasis
-#: index.docbook:7669
+#: index.docbook:7692
 #, no-c-format
 msgid "Kurt Roeck <email>Q@ping.be</email>"
 msgstr "कर्ट रोएक् <email>Q@ping.be</email> इति"
 
 #. Tag: para
-#: index.docbook:7671
+#: index.docbook:7694
 #, no-c-format
 msgid "svn r1370, fix for debian bug#288781, compilation for amd64"
 msgstr "svn r1370, debian bug # 288781 कृते निवारयन्तु, amd64 कृते संकलनम्"
 
 #. Tag: emphasis
-#: index.docbook:7676
+#: index.docbook:7699
 #, no-c-format
 msgid "Mark Donohoe (&kde;) <email>donohoe@kde.org</email>"
 msgstr "मार्क डोनोहो (&kde;) <email>donohoe@kde.org</email> इति"
 
 #. Tag: para
-#: index.docbook:7678
+#: index.docbook:7701
 #, no-c-format
 msgid "some icons and bitmaps for toolbar and &GUI;"
 msgstr "टूल्बार तथा &GUI;"
 
 #. Tag: emphasis
-#: index.docbook:7683
+#: index.docbook:7706
 #, no-c-format
 msgid "Martin Hinsch <email>vidas@sourceforge.net</email>"
 msgstr "मार्टिन् हिन्श <email>vidas@sourceforge.net</email> इति"
 
 #. Tag: para
-#: index.docbook:7685
+#: index.docbook:7708
 #, no-c-format
 msgid "Matrix class"
 msgstr "मैट्रिक्स वर्ग"
 
 #. Tag: emphasis
-#: index.docbook:7690
+#: index.docbook:7713
 #, no-c-format
 msgid "Matthias Kretz <email>kretz@kde.org</email>"
 msgstr "मथियस क्रेट्ज <email>kretz@kde.org</email>"
 
 #. Tag: emphasis
-#: index.docbook:7697
+#: index.docbook:7720
 #, no-c-format
 msgid "Richard Laerkaeng, <email>richard@goteborg.utfors.se</email>"
 msgstr "रिचर्ड लाएर्केङ्ग, <email>richard@goteborg.utfors.se</email> इति"
 
 #. Tag: para
-#: index.docbook:7699
+#: index.docbook:7722
 #, no-c-format
 msgid "cmake/FindOggVorbis.cmake"
 msgstr "cmake/FindOggVorbis.cmake इति"
 
 #. Tag: emphasis
-#: index.docbook:7704
+#: index.docbook:7727
 #, no-c-format
 msgid "Rik Hemsley <email>rik@kde.org</email>"
 msgstr "रिक् हेम्स्ले <email>rik@kde.org</email> इति"
 
 #. Tag: ulink
-#: index.docbook:7708
+#: index.docbook:7731
 #, no-c-format
 msgid "level meter"
 msgstr "स्तर मीटर"
 
 #. Tag: emphasis
-#: index.docbook:7712
+#: index.docbook:7735
 #, no-c-format
 msgid "Stefan Westerfeld <email>stefan@space.twc.de</email>"
 msgstr "स्टीफन् वेस्टर्फेल्ड् <email>stefan@space.twc.de</email> इति"
 
 #. Tag: emphasis
-#: index.docbook:7719
+#: index.docbook:7742
 #, no-c-format
 msgid "Joerg-Christian Boehme <email>joerg@chaosdorf.de</email>"
 msgstr "जोएर्ग-क्रिश्चियन बोएहमे <email>joerg@chaosdorf.de</email>"
 
 #. Tag: para
-#: index.docbook:7721
+#: index.docbook:7744
 #, no-c-format
 msgid "plugins/record/Record-PulseAudio.cpp plugins/record/Record-PulseAudio.h"
 msgstr "plugins/record/Record-PulseAudio.cpp प्लगइन्स/रिकार्ड/रिकार्ड-PulseAudio.h"
 
 #. Tag: emphasis
-#: index.docbook:7727
+#: index.docbook:7750
 #, no-c-format
 msgid ""
 "Sebastian Trueg <email>trueg@k3b.org</email>, Gustavo Pichorim Boiko "
@@ -11821,166 +11847,160 @@ msgstr ""
 "pl</email> इति"
 
 #. Tag: para
-#: index.docbook:7734
+#: index.docbook:7757
 #, no-c-format
 msgid "parts of plugins/export_k3b/K3BExportPlugin.cpp"
 msgstr "प्लगिन्स्/export_k3b/K3BExportPlugin.cpp इत्यस्य भागाः"
 
 #. Tag: title
-#: index.docbook:7742
+#: index.docbook:7765
 #, no-c-format
 msgid "Thanks To"
 msgstr "धन्यवादः To"
 
 #. Tag: emphasis
-#: index.docbook:7746
+#: index.docbook:7769
 #, no-c-format
 msgid "Martin Kuball <email>makube@user.sourceforge.net</email>"
 msgstr "मार्टिन् कुबाल् <email>makube@user.sourceforge.net</email> इति"
 
 #. Tag: para
-#: index.docbook:7749
+#: index.docbook:7772
 #, no-c-format
 msgid "beta tester"
 msgstr "बीटा परीक्षणम्"
 
 #. Tag: emphasis
-#: index.docbook:7754
+#: index.docbook:7777
 #, no-c-format
 msgid "Jorge Luis Arzola <email>arzolacub@gmx.de</email>"
 msgstr "जॉर्ज लुईस आर्जोला <email>arzolacub@gmx.de</email>"
 
 #. Tag: para
-#: index.docbook:7757
+#: index.docbook:7780
 #, no-c-format
 msgid "packaging for SuSE Linux"
 msgstr "SuSE Linux कृते पैकेजिंग्"
 
 #. Tag: emphasis
-#: index.docbook:7762
+#: index.docbook:7785
 #, no-c-format
 msgid "Michael Favreau <email>michel.favreau@free.fr</email>"
 msgstr "माइकल फेव्रो <email>michel.favreau@free.fr</email> इति"
 
 #. Tag: para
-#: index.docbook:7765
+#: index.docbook:7788
 #, no-c-format
 msgid "packaging for Arch Linux"
 msgstr "Arch Linux कृते packaging इति"
 
 #. Tag: emphasis
-#: index.docbook:7770
+#: index.docbook:7793
 #, no-c-format
 msgid "T.H.F. Klok and Cedric Tefft"
 msgstr "टी.एच.एफ. क्लोक् तथा सेड्रिक् टेफ्ट्"
 
-#. Tag: para
-#: index.docbook:7772
-#, no-c-format
-msgid "maintainers of the <ulink url=\"&url_id3lib;\"> id3lib</ulink> library"
-msgstr "<ulink url=\"&url_id3lib;\"> id3lib</ulink> पुस्तकालयस्य परिपालकाः"
-
 #. Tag: emphasis
-#: index.docbook:7778
+#: index.docbook:7798
 #, no-c-format
 msgid "Robert Leslie <email>rob@mars.org</email>"
 msgstr "रोबर्ट लेस्ली <email>rob@mars.org</email> इति"
 
 #. Tag: para
-#: index.docbook:7781
+#: index.docbook:7801
 #, no-c-format
 msgid ""
 "author of the <ulink url=\"&url_libmad;\">mad</ulink> mp3 decoder library"
 msgstr "<ulink url=\"&url_libmad;\">mad</ulink> mp3 डिकोडर पुस्तकालयस्य लेखकः"
 
 #. Tag: emphasis
-#: index.docbook:7788
+#: index.docbook:7808
 #, no-c-format
 msgid "Robert M. Stockmann <email>stock@stokkie.net</email>"
 msgstr "रॉबर्ट एम. स्टॉकमैन <email>stock@stokkie.net</email>"
 
 #. Tag: para
-#: index.docbook:7791
+#: index.docbook:7811
 #, no-c-format
 msgid "packaging for Mandrake / X86_64"
 msgstr "मन्द्रके / X86_64 कृते पैकेजिंग्"
 
 #. Tag: emphasis
-#: index.docbook:7796
+#: index.docbook:7816
 #, no-c-format
 msgid "Erik de Castro Lopo <email>erikd@zip.com.au</email>"
 msgstr "एरिक् डी कास्त्रो लोपो <email>erikd@zip.com.au</email>"
 
 #. Tag: para
-#: index.docbook:7799
+#: index.docbook:7819
 #, no-c-format
 msgid "author of the <ulink url=\"&url_libsndfile;\">sndfile</ulink> library"
 msgstr "<ulink url=\"&url_libsndfile;\">sndfile</ulink> पुस्तकालयस्य लेखकः"
 
 #. Tag: emphasis
-#: index.docbook:7806
+#: index.docbook:7826
 #, no-c-format
 msgid "Michael Pruett <email>mpruett@sgi.com</email>"
 msgstr "माइकल प्रुएट् <email>mpruett@sgi.com</email>"
 
 #. Tag: para
-#: index.docbook:7809
+#: index.docbook:7829
 #, no-c-format
 msgid ""
 "author of the <ulink url=\"&url_libaudiofile;\">audiofile</ulink> library"
 msgstr "<ulink url=\"&url_libaudiofile;\">audiofile</ulink> पुस्तकालयस्य लेखकः"
 
 #. Tag: title
-#: index.docbook:7845
+#: index.docbook:7865
 #, no-c-format
 msgid "File Info"
 msgstr "सञ्चिका सूचना"
 
 #. Tag: title
-#: index.docbook:7846
+#: index.docbook:7866
 #, no-c-format
 msgid "List of File Info Identifiers"
 msgstr "सञ्चिकासूचनापरिचयकानां सूची"
 
 #. Tag: entry
-#: index.docbook:7851
+#: index.docbook:7871
 #, no-c-format
 msgid "Keyword"
 msgstr "कीवर्ड"
 
 #. Tag: entry
-#: index.docbook:7851
+#: index.docbook:7871
 #, no-c-format
 msgid "&#x0020;"
 msgstr "&#x0020;"
 
 #. Tag: entry
-#: index.docbook:7851
+#: index.docbook:7871
 #, no-c-format
 msgid "Description"
 msgstr "वर्णनम्‌"
 
 #. Tag: entry
-#: index.docbook:7856
+#: index.docbook:7876
 #, no-c-format
 msgid "&no-i18n-tag;Album"
 msgstr "&no-i18n-tag;एल्बम"
 
 #. Tag: entry
-#: index.docbook:7857
+#: index.docbook:7877
 #, no-c-format
 msgid ""
 "Name of the album if the source is an album that consist of more medias."
 msgstr "एल्बमस्य नाम यदि स्रोतः अधिकमाध्यमैः युक्तः एल्बमः अस्ति ।"
 
 #. Tag: entry
-#: index.docbook:7863
+#: index.docbook:7883
 #, no-c-format
 msgid "&no-i18n-tag;Annotation"
 msgstr "&no-i18n-tag;टिप्पणी"
 
 #. Tag: entry
-#: index.docbook:7864 index.docbook:7934
+#: index.docbook:7884 index.docbook:7954
 #, no-c-format
 msgid ""
 "Provides general comments about the file or the subject of the file. If the "
@@ -11992,25 +12012,25 @@ msgstr ""
 "समावेशयन्तु!"
 
 #. Tag: entry
-#: index.docbook:7871
+#: index.docbook:7891
 #, no-c-format
 msgid "&no-i18n-tag;Archival location"
 msgstr "&no-i18n-tag;संग्रहस्थानम्"
 
 #. Tag: entry
-#: index.docbook:7872
+#: index.docbook:7892
 #, no-c-format
 msgid "Indicates where the subject of the file is archived."
 msgstr "सञ्चिकायाः विषयः कुत्र संग्रहीतः इति सूचयति ।"
 
 #. Tag: entry
-#: index.docbook:7877
+#: index.docbook:7897
 #, no-c-format
 msgid "&no-i18n-tag;Author"
 msgstr "&no-i18n-tag;लेखक"
 
 #. Tag: entry
-#: index.docbook:7878
+#: index.docbook:7898
 #, no-c-format
 msgid ""
 "Identifies the name of the author of the original subject of the file. "
@@ -12020,97 +12040,97 @@ msgstr ""
 "quote>"
 
 #. Tag: entry
-#: index.docbook:7884
+#: index.docbook:7904
 #, no-c-format
 msgid "&no-i18n-tag;Lower Bitrate"
 msgstr "&no-i18n-tag;निम्न बिटरेट्"
 
 #. Tag: entry
-#: index.docbook:7885
+#: index.docbook:7905
 #, no-c-format
 msgid "Specifies the lower limit in a VBR bitstream."
 msgstr "VBR बिटस्ट्रीमे निम्नसीमा निर्दिशति ।"
 
 #. Tag: entry
-#: index.docbook:7890
+#: index.docbook:7910
 #, no-c-format
 msgid "&no-i18n-tag;Bitrate Mode"
 msgstr "&no-i18n-tag;बिट्रेट मोड"
 
 #. Tag: entry
-#: index.docbook:7891
+#: index.docbook:7911
 #, no-c-format
 msgid "Bitrate Mode (ABR, VBR, CBR, &etc;)"
 msgstr "बिट्रेट मोड (ABR, VBR, CBR, & etc;) 1.1."
 
 #. Tag: entry
-#: index.docbook:7896
+#: index.docbook:7916
 #, no-c-format
 msgid "&no-i18n-tag;Bitrate"
 msgstr "&no-i18n-tag;बिटरेट्"
 
 #. Tag: entry
-#: index.docbook:7897
+#: index.docbook:7917
 #, no-c-format
 msgid "Nominal bitrate of the audio stream in bits per second"
 msgstr "श्रव्यप्रवाहस्य नाममात्रं बिटरेट् प्रति सेकण्ड् बिट्-मात्रायां"
 
 #. Tag: entry
-#: index.docbook:7902
+#: index.docbook:7922
 #, no-c-format
 msgid "&no-i18n-tag;Upper Bitrate"
 msgstr "&no-i18n-tag;उपरि बिटरेट्"
 
 #. Tag: entry
-#: index.docbook:7903
+#: index.docbook:7923
 #, no-c-format
 msgid "Specifies the upper limit in a VBR bitstream."
 msgstr "VBR बिटस्ट्रीमे उपरितनसीमा निर्दिशति ।"
 
 #. Tag: entry
-#: index.docbook:7908
+#: index.docbook:7928
 #, no-c-format
 msgid "&no-i18n-tag;Bits per Sample"
 msgstr "&no-i18n-tag;प्रति नमूना बिट्"
 
 #. Tag: entry
-#: index.docbook:7909
+#: index.docbook:7929
 #, no-c-format
 msgid "Specifies the number of bits per sample."
 msgstr "प्रति नमूना बिट्-सङ्ख्यां निर्दिशति ।"
 
 #. Tag: entry
-#: index.docbook:7914
+#: index.docbook:7934
 #, no-c-format
 msgid "&no-i18n-tag;CD"
 msgstr "&no-i18n-tag;CD"
 
 #. Tag: entry
-#: index.docbook:7915
+#: index.docbook:7935
 #, no-c-format
 msgid "Number of the CD, if the source is an album of more CDROMs"
 msgstr "CD इत्यस्य संख्या, यदि स्रोतः अधिकानां CDROM इत्यस्य एल्बम् अस्ति"
 
 #. Tag: entry
-#: index.docbook:7920
+#: index.docbook:7940
 #, no-c-format
 msgid "&no-i18n-tag;CDS"
 msgstr "&no-i18n-tag;सीडीएस"
 
 #. Tag: entry
-#: index.docbook:7921
+#: index.docbook:7941
 #, no-c-format
 msgid "Number of CDs, if the source is an album of more CDROMs"
 msgstr "सीडी-सङ्ख्या, यदि स्रोतः अधिक-सीडीरोम्-समूहः अस्ति"
 
 #. Tag: entry
-#: index.docbook:7926
+#: index.docbook:7946
 #, no-c-format
 msgid "&no-i18n-tag;Commissioned"
 msgstr "&no-i18n-tag;आयुक्तम्"
 
 #. Tag: entry
-#: index.docbook:7927
+#: index.docbook:7947
 #, no-c-format
 msgid ""
 "Lists the name of the person or organization that commissioned the subject "
@@ -12118,31 +12138,31 @@ msgid ""
 msgstr "सञ्चिकायाः विषयं आज्ञापितस्य व्यक्तिस्य अथवा संस्थायाः नाम सूचीबद्धं करोति ।"
 
 #. Tag: entry
-#: index.docbook:7933
+#: index.docbook:7953
 #, no-c-format
 msgid "&no-i18n-tag;Comments"
 msgstr "&no-i18n-tag;टिप्पणियाँ"
 
 #. Tag: entry
-#: index.docbook:7941
+#: index.docbook:7961
 #, no-c-format
 msgid "&no-i18n-tag;Compression"
 msgstr "&no-i18n-tag;संपीडनम्"
 
 #. Tag: entry
-#: index.docbook:7942
+#: index.docbook:7962
 #, no-c-format
 msgid "Sets a mode for compressing the audio data to reduce disk space."
 msgstr "डिस्कस्थानं न्यूनीकर्तुं श्रव्यदत्तांशस्य संपीडनार्थं मोड् सेट् करोति ।"
 
 #. Tag: entry
-#: index.docbook:7948
+#: index.docbook:7968
 #, no-c-format
 msgid "&no-i18n-tag;Contact"
 msgstr "&no-i18n-tag;संपर्क"
 
 #. Tag: entry
-#: index.docbook:7949
+#: index.docbook:7969
 #, no-c-format
 msgid ""
 "Contact information for the creators or distributors of the track. This "
@@ -12153,13 +12173,13 @@ msgstr ""
 "भौतिक-सङ्केतं भवितुम् अर्हति ।"
 
 #. Tag: entry
-#: index.docbook:7956
+#: index.docbook:7976
 #, no-c-format
 msgid "&no-i18n-tag;Copyright"
 msgstr "&no-i18n-tag;प्रतिलिपिधर्मः"
 
 #. Tag: entry
-#: index.docbook:7957
+#: index.docbook:7977
 #, no-c-format
 msgid ""
 "Records the copyright information for the file. If there are multiple "
@@ -12171,25 +12191,25 @@ msgstr ""
 "समुदायः २००२</quote>"
 
 #. Tag: entry
-#: index.docbook:7964
+#: index.docbook:7984
 #, no-c-format
 msgid "&no-i18n-tag;Copyrighted"
 msgstr "&no-i18n-tag;प्रतिलिपिधर्मः"
 
 #. Tag: entry
-#: index.docbook:7965
+#: index.docbook:7985
 #, no-c-format
 msgid "Indicates whether the file is protected by copyright or not."
 msgstr "सञ्चिका प्रतिलिपिधर्मेन सुरक्षिता अस्ति वा न वा इति सूचयति ।"
 
 #. Tag: entry
-#: index.docbook:7970
+#: index.docbook:7990
 #, no-c-format
 msgid "&no-i18n-tag;Date"
 msgstr "&no-i18n-tag;तिथिः"
 
 #. Tag: entry
-#: index.docbook:7971
+#: index.docbook:7991
 #, no-c-format
 msgid ""
 "Specifies the date the subject of the file was created. Example: "
@@ -12198,13 +12218,13 @@ msgstr ""
 "सञ्चिकायाः विषयस्य निर्माणस्य तिथिं निर्दिशति । उदाहरणम् : <quote>2001-12-24</quote>"
 
 #. Tag: entry
-#: index.docbook:7977
+#: index.docbook:7997
 #, no-c-format
 msgid "&no-i18n-tag;Engineer"
 msgstr "&no-i18n-tag;इञ्जिनीयरः"
 
 #. Tag: entry
-#: index.docbook:7978
+#: index.docbook:7998
 #, no-c-format
 msgid ""
 "Shows the name of the engineer who worked on the file. If there are multiple "
@@ -12214,49 +12234,49 @@ msgstr ""
 "अर्धविरामेन रिक्तेन च नाम पृथक् कुर्वन्तु ।"
 
 #. Tag: entry
-#: index.docbook:7985
+#: index.docbook:8005
 #, no-c-format
 msgid "&no-i18n-tag;Estimated Length"
 msgstr "&no-i18n-tag;अनुमानित लम्बाई"
 
 #. Tag: entry
-#: index.docbook:7986
+#: index.docbook:8006
 #, no-c-format
 msgid "Estimated length of the file in samples"
 msgstr "नमूनासु सञ्चिकायाः अनुमानितदीर्घता"
 
 #. Tag: entry
-#: index.docbook:7991
+#: index.docbook:8011
 #, no-c-format
 msgid "&no-i18n-tag;Filename"
 msgstr "&no-i18n-tag;सञ्चिकानाम"
 
 #. Tag: entry
-#: index.docbook:7992
+#: index.docbook:8012
 #, no-c-format
 msgid "Name of the opened file"
 msgstr "उद्घाटितसञ्चिकायाः नाम"
 
 #. Tag: entry
-#: index.docbook:7997
+#: index.docbook:8017
 #, no-c-format
 msgid "&no-i18n-tag;File Size"
 msgstr "&no-i18n-tag;सञ्चिकायाः आकारः"
 
 #. Tag: entry
-#: index.docbook:7998
+#: index.docbook:8018
 #, no-c-format
 msgid "Size of the file in bytes"
 msgstr "सञ्चिकायाः आकारः बाइट्-मात्रायां"
 
 #. Tag: entry
-#: index.docbook:8003
+#: index.docbook:8023
 #, no-c-format
 msgid "&no-i18n-tag;Genre"
 msgstr "&no-i18n-tag;विधा"
 
 #. Tag: entry
-#: index.docbook:8004
+#: index.docbook:8024
 #, no-c-format
 msgid ""
 "Describes the genre or style of the original work. Examples: <quote>classic</"
@@ -12266,13 +12286,13 @@ msgstr ""
 "<quote>pop</quote> इति"
 
 #. Tag: entry
-#: index.docbook:8010
+#: index.docbook:8030
 #, no-c-format
 msgid "&no-i18n-tag;ISRC"
 msgstr "&no-i18n-tag;ISRC"
 
 #. Tag: entry
-#: index.docbook:8011
+#: index.docbook:8031
 #, no-c-format
 msgid ""
 "ISRC number for the track; see the ISRC intro page for more information on "
@@ -12282,50 +12302,50 @@ msgstr ""
 "पश्यन्तु । &url_isrc;"
 
 #. Tag: entry
-#: index.docbook:8018
+#: index.docbook:8038
 #, no-c-format
 msgid "&no-i18n-tag;Keywords"
 msgstr "&no-i18n-tag;कीवर्ड"
 
 #. Tag: entry
-#: index.docbook:8019
+#: index.docbook:8039
 #, no-c-format
 msgid ""
 "Provides a list of keywords that refer to the file or subject of the file."
 msgstr "सञ्चिकायाः सञ्चिकां वा विषयं वा निर्दिशन्ति इति कीवर्डस्य सूचीं प्रदाति ।"
 
 #. Tag: entry
-#: index.docbook:8025
+#: index.docbook:8045
 #, no-c-format
 msgid "&no-i18n-tag;Labels"
 msgstr "&no-i18n-tag;लेबल"
 
 #. Tag: entry
-#: index.docbook:8026
+#: index.docbook:8046
 #, no-c-format
 msgid "The list of labels/markers."
 msgstr "लेबल/चिह्नानां सूची।"
 
 #. Tag: entry
-#: index.docbook:8031
+#: index.docbook:8051
 #, no-c-format
 msgid "&no-i18n-tag;Length"
 msgstr "&no-i18n-tag;दीर्घता"
 
 #. Tag: entry
-#: index.docbook:8032
+#: index.docbook:8052
 #, no-c-format
 msgid "Length of the file in samples."
 msgstr "नमूनासु सञ्चिकायाः दीर्घता ।"
 
 #. Tag: entry
-#: index.docbook:8037
+#: index.docbook:8057
 #, no-c-format
 msgid "&no-i18n-tag;License"
 msgstr "&no-i18n-tag;अनुज्ञापत्रम्"
 
 #. Tag: entry
-#: index.docbook:8038
+#: index.docbook:8058
 #, no-c-format
 msgid ""
 "License information, &eg;, <quote>All Rights Reserved</quote>, <quote>Any "
@@ -12340,13 +12360,13 @@ msgstr ""
 "अनुज्ञापत्रं पश्यन्तु &url_cc_by_sa_4;"
 
 #. Tag: entry
-#: index.docbook:8048
+#: index.docbook:8068
 #, no-c-format
 msgid "&no-i18n-tag;Medium"
 msgstr "&no-i18n-tag;माध्यमम्"
 
 #. Tag: entry
-#: index.docbook:8049
+#: index.docbook:8069
 #, no-c-format
 msgid ""
 "Describes the original subject of the file, where it was first recorded. "
@@ -12356,73 +12376,73 @@ msgstr ""
 "<quote>वाद्यसमूहः</quote>"
 
 #. Tag: entry
-#: index.docbook:8055
+#: index.docbook:8075
 #, no-c-format
 msgid "&no-i18n-tag;Mime Type"
 msgstr "&no-i18n-tag;माइम प्रकार"
 
 #. Tag: entry
-#: index.docbook:8056
+#: index.docbook:8076
 #, no-c-format
 msgid "Mime type of the file format"
 msgstr "सञ्चिकास्वरूपस्य माइम प्रकारः"
 
 #. Tag: entry
-#: index.docbook:8061
+#: index.docbook:8081
 #, no-c-format
 msgid "&no-i18n-tag;Emphasis"
 msgstr "&no-i18n-tag;उदाहरणम्"
 
 #. Tag: entry
-#: index.docbook:8062
+#: index.docbook:8082
 #, no-c-format
 msgid "Audio emphasis mode"
 msgstr "श्रव्य बोधविधिः"
 
 #. Tag: entry
-#: index.docbook:8067
+#: index.docbook:8087
 #, no-c-format
 msgid "&no-i18n-tag;Layer"
 msgstr "&no-i18n-tag;स्तरः"
 
 #. Tag: entry
-#: index.docbook:8068
+#: index.docbook:8088
 #, no-c-format
 msgid "MPEG Layer, I, II or III"
 msgstr "MPEG स्तर, I, II अथवा III"
 
 #. Tag: entry
-#: index.docbook:8073
+#: index.docbook:8093
 #, no-c-format
 msgid "&no-i18n-tag;Mode Extension"
 msgstr "&no-i18n-tag;मोड विस्तार"
 
 #. Tag: entry
-#: index.docbook:8074
+#: index.docbook:8094
 #, no-c-format
 msgid "MPEG Mode Extension (only if Joint Stereo)"
 msgstr "MPEG Mode Extension (केवलं यदि Joint Stereo)"
 
 #. Tag: entry
-#: index.docbook:8079 index.docbook:8207
+#: index.docbook:8099 index.docbook:8227
 #, no-c-format
 msgid "&no-i18n-tag;Version"
 msgstr "&no-i18n-tag;संस्करणम्"
 
 #. Tag: entry
-#: index.docbook:8080
+#: index.docbook:8100
 #, no-c-format
 msgid "MPEG Version, 1, 2 or 2.5"
 msgstr "MPEG संस्करणम्, १, २ अथवा २.५"
 
 #. Tag: entry
-#: index.docbook:8085
+#: index.docbook:8105
 #, no-c-format
 msgid "&no-i18n-tag;Name"
 msgstr "&no-i18n-tag;नाम"
 
 #. Tag: entry
-#: index.docbook:8086
+#: index.docbook:8106
 #, no-c-format
 msgid ""
 "Stores the title of the subject of the file. Example: <quote>Symphony No.6, "
@@ -12432,13 +12452,13 @@ msgstr ""
 "गोपालन&quot;</quote>"
 
 #. Tag: entry
-#: index.docbook:8092
+#: index.docbook:8112
 #, no-c-format
 msgid "&no-i18n-tag;Opus Frame Length"
 msgstr "&no-i18n-tag;ओपस फ्रेम लम्बाई"
 
 #. Tag: entry
-#: index.docbook:8093
+#: index.docbook:8113
 #, no-c-format
 msgid ""
 "Opus Frame Length in ms (supported values are 2.5, 5, 10, 20, 40, or 60 ms)"
@@ -12446,13 +12466,13 @@ msgstr ""
 "Opus Frame Length in ms (समर्थितमूल्यानि 2.5, 5, 10, 20, 40, अथवा 60 ms भवन्ति)"
 
 #. Tag: entry
-#: index.docbook:8099
+#: index.docbook:8119
 #, no-c-format
 msgid "&no-i18n-tag;Organization"
 msgstr "&no-i18n-tag;सङ्गठनम्"
 
 #. Tag: entry
-#: index.docbook:8100
+#: index.docbook:8120
 #, no-c-format
 msgid ""
 "Name of the organization producing the track (i.e. the <quote>record label</"
@@ -12460,25 +12480,25 @@ msgid ""
 msgstr "पटलं उत्पादयन्तः संस्थायाः नाम (अर्थात् <quote>अभिलेखलेबल</quote>) ।"
 
 #. Tag: entry
-#: index.docbook:8106
+#: index.docbook:8126
 #, no-c-format
 msgid "&no-i18n-tag;Original"
 msgstr "&no-i18n-tag;मूलम्"
 
 #. Tag: entry
-#: index.docbook:8107
+#: index.docbook:8127
 #, no-c-format
 msgid "Indicates whether the file is an original or a copy"
 msgstr "सञ्चिका मूलं वा प्रतिलिपिः वा इति सूचयति"
 
 #. Tag: entry
-#: index.docbook:8112
+#: index.docbook:8132
 #, no-c-format
 msgid "&no-i18n-tag;Performer"
 msgstr "&no-i18n-tag;निष्पादक"
 
 #. Tag: entry
-#: index.docbook:8113
+#: index.docbook:8133
 #, no-c-format
 msgid ""
 "The artist(s) who performed the work. In classical music this would be the "
@@ -12489,25 +12509,25 @@ msgstr ""
 "एकलवादकाः स्यात् । श्रव्यपुस्तके पठनं कृतवान् अभिनेता एव स्यात्।"
 
 #. Tag: entry
-#: index.docbook:8120
+#: index.docbook:8140
 #, no-c-format
 msgid "&no-i18n-tag;Private"
 msgstr "&no-i18n-tag;निजी"
 
 #. Tag: entry
-#: index.docbook:8121
+#: index.docbook:8141
 #, no-c-format
 msgid "Indicates whether the subject is private"
 msgstr "विषयः निजी अस्ति वा इति सूचयति"
 
 #. Tag: entry
-#: index.docbook:8126
+#: index.docbook:8146
 #, no-c-format
 msgid "&no-i18n-tag;Product"
 msgstr "&no-i18n-tag;उत्पादः"
 
 #. Tag: entry
-#: index.docbook:8127
+#: index.docbook:8147
 #, no-c-format
 msgid ""
 "Specifies the name or the title the file was originally intended for. "
@@ -12517,13 +12537,13 @@ msgstr ""
 "श्रव्यसङ्ग्रह</quote>"
 
 #. Tag: entry
-#: index.docbook:8133
+#: index.docbook:8153
 #, no-c-format
 msgid "&no-i18n-tag;Sample Format"
 msgstr "&no-i18n-tag;नमूना प्रारूप"
 
 #. Tag: entry
-#: index.docbook:8134
+#: index.docbook:8154
 #, no-c-format
 msgid ""
 "Format used for storing the digitized audio samples. Example: <quote>32-bit "
@@ -12533,25 +12553,25 @@ msgstr ""
 "बिन्दु</quote>"
 
 #. Tag: entry
-#: index.docbook:8140
+#: index.docbook:8160
 #, no-c-format
 msgid "&no-i18n-tag;Sample Rate"
 msgstr "&no-i18n-tag;नमूना दर"
 
 #. Tag: entry
-#: index.docbook:8141
+#: index.docbook:8161
 #, no-c-format
 msgid "Number of samples per second"
 msgstr "प्रति सेकण्ड् नमूनानां संख्या"
 
 #. Tag: entry
-#: index.docbook:8146
+#: index.docbook:8166
 #, no-c-format
 msgid "&no-i18n-tag;Software"
 msgstr "&no-i18n-tag;सॉफ्टवेयर"
 
 #. Tag: entry
-#: index.docbook:8147
+#: index.docbook:8167
 #, no-c-format
 msgid ""
 "Identifies the name of the software package used to create the file. "
@@ -12561,13 +12581,13 @@ msgstr ""
 "<quote>क्वावे v0.6.4-1</quote>"
 
 #. Tag: entry
-#: index.docbook:8153
+#: index.docbook:8173
 #, no-c-format
 msgid "&no-i18n-tag;Source"
 msgstr "&no-i18n-tag;स्रोत"
 
 #. Tag: entry
-#: index.docbook:8154
+#: index.docbook:8174
 #, no-c-format
 msgid ""
 "Identifies the name of the person or organization who supplied the original "
@@ -12577,13 +12597,13 @@ msgstr ""
 "उदाहरणम् : <quote>अराजकध्वनिसंशोधन</quote>"
 
 #. Tag: entry
-#: index.docbook:8161
+#: index.docbook:8181
 #, no-c-format
 msgid "&no-i18n-tag;Source form"
 msgstr "&no-i18n-tag;स्रोत रूप"
 
 #. Tag: entry
-#: index.docbook:8162
+#: index.docbook:8182
 #, no-c-format
 msgid ""
 "Identifies the original form of the material that was digitized. Examples: "
@@ -12594,13 +12614,13 @@ msgstr ""
 "quote>, <quote>श्रव्य DAT</quote>, <quote>टेप/CrO2/60min</quote>"
 
 #. Tag: entry
-#: index.docbook:8169
+#: index.docbook:8189
 #, no-c-format
 msgid "&no-i18n-tag;Subject"
 msgstr "&no-i18n-tag;विषयः"
 
 #. Tag: entry
-#: index.docbook:8170
+#: index.docbook:8190
 #, no-c-format
 msgid ""
 "Describes the subject of the file. Example: <quote>Bird voices at early "
@@ -12608,13 +12628,13 @@ msgid ""
 msgstr "सञ्चिकायाः विषयं वर्णयति । उदाहरणम् : <quote>प्रातःकाले पक्षिस्वरः</quote>"
 
 #. Tag: entry
-#: index.docbook:8176
+#: index.docbook:8196
 #, no-c-format
 msgid "&no-i18n-tag;Technician"
 msgstr "&no-i18n-tag;तकनीशियन"
 
 #. Tag: entry
-#: index.docbook:8177
+#: index.docbook:8197
 #, no-c-format
 msgid ""
 "Identifies the technician who digitized the subject file. Example: "
@@ -12624,55 +12644,55 @@ msgstr ""
 "quote>"
 
 #. Tag: entry
-#: index.docbook:8183
+#: index.docbook:8203
 #, no-c-format
 msgid "&no-i18n-tag;Track"
 msgstr "&no-i18n-tag;ट्रैक"
 
 #. Tag: entry
-#: index.docbook:8184
+#: index.docbook:8204
 #, no-c-format
 msgid "Track of the CD if the source was a CDROM."
 msgstr "यदि स्रोतः CDROM आसीत् तर्हि CD इत्यस्य ट्रैक।"
 
 #. Tag: entry
-#: index.docbook:8189
+#: index.docbook:8209
 #, no-c-format
 msgid "&no-i18n-tag;Tracks"
 msgstr "&no-i18n-tag;पट्टिकाः"
 
 #. Tag: entry
-#: index.docbook:8190
+#: index.docbook:8210
 #, no-c-format
 msgid "Number of tracks of the CD if the source was a CDROM."
 msgstr "यदि स्रोतः CDROM आसीत् तर्हि CD इत्यस्य पटलानां संख्या ।"
 
 #. Tag: entry
-#: index.docbook:8195
+#: index.docbook:8215
 #, no-c-format
 msgid "&no-i18n-tag;Channels"
 msgstr "&no-i18n-tag;चैनल"
 
 #. Tag: entry
-#: index.docbook:8196
+#: index.docbook:8216
 #, no-c-format
 msgid "Specifies the number of channels of the signal."
 msgstr "संकेतस्य चैनलानां संख्यां निर्दिशति ।"
 
 #. Tag: entry
-#: index.docbook:8201
+#: index.docbook:8221
 #, no-c-format
 msgid "&no-i18n-tag;Base Quality"
 msgstr "&no-i18n-tag;आधार गुणवत्ता"
 
 #. Tag: entry
-#: index.docbook:8202
+#: index.docbook:8222
 #, no-c-format
 msgid "Base quality of the compression in VBR mode"
 msgstr "VBR मोड् मध्ये संपीडनस्य आधारगुणवत्ता"
 
 #. Tag: entry
-#: index.docbook:8208
+#: index.docbook:8228
 #, no-c-format
 msgid ""
 "May be used to differentiate multiple versions of the same track title in a "
@@ -12680,6 +12700,20 @@ msgid ""
 msgstr ""
 "एकस्मिन् संग्रहे एकस्यैव पटलशीर्षकस्य बहुसंस्करणानाम् भेदं कर्तुं उपयोक्तुं शक्यते । (&eg; remix "
 "info)"
+
+#~ msgid "use colors"
+#~ msgstr "वर्णानाम् उपयोगं कुर्वन्तु"
+
+#~ msgid ""
+#~ "If set to non-zero, use colors for intensity, if set to zero use "
+#~ "grayscales."
+#~ msgstr ""
+#~ "यदि अशून्यरूपेण सेट् भवति तर्हि तीव्रतायै वर्णानाम् उपयोगं कुर्वन्तु, यदि शून्यं सेट् भवति "
+#~ "तर्हि ग्रेस्केल्स् इत्यस्य उपयोगं कुर्वन्तु ।"
+
+#~ msgid ""
+#~ "maintainers of the <ulink url=\"&url_id3lib;\"> id3lib</ulink> library"
+#~ msgstr "<ulink url=\"&url_id3lib;\"> id3lib</ulink> पुस्तकालयस्य परिपालकाः"
 
 #~ msgid "Aaron Holtzman <email>aholtzma@ess.engr.uvic.ca</email>"
 #~ msgstr "एरोन् होल्ट्जमैन् <email>aholtzma@ess.engr.uvic.ca</email> इति"
